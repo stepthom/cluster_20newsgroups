@@ -1,0 +1,176 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84563
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sbuckley@fraser.sfu.ca (Stephen Buckley)
+Subject: Re: What RIGHT ?
+Organization: Simon Fraser University, Burnaby, B.C., Canada
+Lines: 39
+
+joakimr@ifi.uio.no (Joakim Ruud) writes:
+
+
+>Recently, I've asked myself a rather interesting question: What RIGHT does
+>god have on our lives (always assuming there is a god, of course...!) ??
+
+>In his infinite wisdom, he made it perfectly clear that if we don't live
+>according to his rules, we will burn in hell. Well, with what RIGHT can god
+>make that desicion? Let's say, for the sake of argument, that god creates every
+>one of us (directly or indirectly, it doesn't matter.). What then happens, is
+>that he first creates us, and then turns us lose. Well, I didn't ask to be
+>created. 
+
+  i guess i ought not conclude from this, then, that since you didn't ask to
+be created, you don't care if you go to hell.  :)
+
+>Let's make an analogue. If a scientist creates a unique living creature (which
+>has happened, it was even patented...!!!), does he then have the right to
+>expect it to behave in a certain matter, or die...?
+
+>Who is god to impose its rules on us ? Who can tell if god is REALLY so
+>righteous as god likes us to believe? Are all christians a flock of sheep,
+>unable to do otherwise that follow the rest? 
+
+  i don't consider myself an unthinking sheep.  the bible says god created
+us to be in communion and obedience to him.  the first and only rule was
+to not eat of a certain tree, or else the punishment is distance from him
+and physical death.  god's intention in creating us is to have a relationship
+with us.  the bible documents god's attempts to have that relationship
+culminating in the person of jesus to bear the consequences of all sin so
+that all who accept him can have a relationship with god again: the purpose
+of creation.
+
+  who is god to impose rules on us?  he's god and he created us.  i suppose
+he has a right based on who he is.  above you mention "In his infinite
+wisdom", and that's what i'd say god exemplifies.  but if you were being
+sarcastic up there, then this whole discussion is irrelevant, eh?  and if
+we believe god is infinitely wise, that belief should inform our relationship
+with him.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ right       recent i'v ask rather interest
+question right god live alway assum god cours
+infinit wisdom made perfect clear don't live
+accord rule burn hell well right god make desicion
+let say sake argument god creat everi one direct
+indirect doesn't matter happen first creat turn
+lose well didn't ask creat  guess ought conclud
+sinc didn't ask creat don't care hell  let make
+analogu scientist creat uniqu live creatur happen
+even patent right expect behav certain matter die
+god impos rule tell god realli righteous god like
+believ christian flock sheep unabl otherwis follow
+rest  don't consid unthink sheep bibl say god
+creat communion obedi first rule eat certain tree
+els punish distanc physic death god intent creat
+relationship bibl document god attempt
+relationship culmin person jesus bear consequ sin
+accept relationship god purpos creation  god impos
+rule he god creat suppos right base mention
+infinit wisdom that i'd say god exemplifi sarcast
+whole discuss irrelev believ god infinit wise
+belief inform relationship
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+god, 3926, 0.591290389648
+creat, 2217, 0.345898511875
+relationship, 7248, 0.248132760095
+infinit, 4631, 0.189831568573
+rule, 7537, 0.186705466454
+right, 7399, 0.170111182377
+sheep, 7867, 0.139571344266
+impos, 4552, 0.138423967899
+wisdom, 9798, 0.131710947781
+live, 5310, 0.123023644844
+ask, 689, 0.116217039192
+hell, 4245, 0.102647371179
+bibl, 1071, 0.0981585814384
+culmin, 2287, 0.0872126899638
+communion, 1951, 0.0872126899638
+matter, 5553, 0.0868060256595
+say, 7653, 0.0851875507267
+sarcast, 7621, 0.0826777786424
+desicion, 2563, 0.0809536853748
+analogu, 488, 0.0809536853748
+certain, 1619, 0.0791526737382
+happen, 4159, 0.0788387186197
+don, 2811, 0.0761069102303
+didn, 2625, 0.0747214432059
+flock, 3547, 0.0740300614712
+obedi, 6170, 0.0732012032656
+patent, 6460, 0.0717077257454
+let, 5225, 0.0706431041552
+indirect, 4602, 0.0703903852118
+creatur, 2222, 0.0692119839494
+believ, 1009, 0.0690782050349
+sake, 7587, 0.067648821048
+ought, 6321, 0.0667162421533
+irrelev, 4771, 0.066277579362
+behav, 999, 0.0650562434307
+uniqu, 9276, 0.0639552436362
+tree, 9080, 0.0639552436362
+unabl, 9211, 0.0636110790201
+righteous, 7400, 0.0636110790201
+consequ, 2057, 0.0636110790201
+punish, 6986, 0.0629529793603
+conclud, 2008, 0.0598963389388
+wise, 9799, 0.0596558034856
+intent, 4702, 0.0585250972527
+eat, 2968, 0.0585250972527
+scientist, 7694, 0.0565578538113
+creation, 2218, 0.0565578538113
+bear, 971, 0.0563788985136
+make, 5459, 0.0561042527346
+distanc, 2744, 0.0547311500304
+sin, 7976, 0.0539901859313
+burn, 1413, 0.0523896791974
+belief, 1008, 0.0520229424899
+document, 2788, 0.0514372344581
+accord, 219, 0.0502474262926
+otherwis, 6313, 0.050145284327
+death, 2423, 0.049943756938
+lose, 5350, 0.0491721084095
+attempt, 763, 0.0491721084095
+perfect, 6538, 0.0488959346867
+physic, 6613, 0.0486264164044
+purpos, 6993, 0.0481061148017
+rest, 7324, 0.0477722253058
+argument, 631, 0.0466763666135
+accept, 208, 0.0459545376217
+die, 2628, 0.0457467706411
+suppos, 8577, 0.0454756187552
+jesus, 4859, 0.0454756187552
+mention, 5632, 0.0447621645055
+turn, 9158, 0.0445136105545
+recent, 7168, 0.0444523256478
+care, 1516, 0.0440324840094
+assum, 710, 0.0434030128298
+guess, 4079, 0.0433475066737
+expect, 3290, 0.0433475066737
+discuss, 2708, 0.0430201330343
+clear, 1803, 0.0429131038205
+direct, 2667, 0.0428599708584
+alway, 457, 0.0422413172724
+christian, 1732, 0.0396955330327
+consid, 2059, 0.039226185812
+els, 3053, 0.0386659117089
+everi, 3235, 0.0383074044939
+cours, 2190, 0.0382721777955
+person, 6562, 0.0372638857816
+inform, 4637, 0.0367611284453
+follow, 3578, 0.0367611284453
+tell, 8767, 0.0365480845278
+doesn, 2793, 0.0362800019002
+base, 923, 0.0350019741223
+sinc, 7977, 0.0340946281035
+question, 7032, 0.0338551228596
+realli, 7150, 0.0331882253246
+like, 5272, 0.0235501728776

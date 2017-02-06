@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104751
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: traven@pitt.edu (Neal Traven)
+Subject: Re: Harry Caray
+Lines: 24
+X-Newsreader: TIN [version 1.1 PL8]
+
+Dave 'Almost Cursed the Jays' Kirsch (kirsch@staff.tc.umn.edu) wrote:
+: In article <34592@oasys.dt.navy.mil> odell@oasys.dt.navy.mil (Bernard O'farmer
+: by the'Dell) writes:
+: >I am not quite sure of the reasons, but the old man was certainly
+: >not "enraptured" by ole Harry.
+
+:   But maybe his wife was :-) 
+
+:   I don't claim to know whether it's true or not, but a couple different
+: people (totally unrelated) have said Harry was 'relieved' of his duties
+: because he had more than platonic relations with Augie Busch's wife.
+: Judgement is left to the individual, cuz I sure don't claim to be an
+: impeachable source in this case. 
+
+Among those who have said it (well, not quite SAID it but certainly
+alluded to it) is Bing Devine, Redbird GM or some other administrator at
+the time.  I heard Bing speak about it at last year's SABR National.
+
+BTW, have we had a show of hands about who will be attending this year's
+SABR National in San Diego?  I'll be there...
+--
+-----------------------------------------------------------------------------
+neal	traven+@pitt.edu	      You're only young once, but you can be
+	traven@vms.cis.pitt.edu	       immature forever.   -- Larry Andersen
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ harri caray     oasi navi mil bernard o'farm
+quit sure reason old man certain enraptur ole
+harri  mayb wife  don't claim know whether it true
+coupl differ peopl total unrel said harri reliev
+duti platon relat augi busch wife judgement left
+individu cuz sure don't claim impeach sourc case
+among said well quit said certain allud bing devin
+redbird administr time heard bing speak last year
+sabr nation  btw show hand attend year sabr nation
+san diego i'll
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+harri, 4184, 0.34935081057
+bing, 1099, 0.303285618215
+sabr, 7565, 0.24983183617
+wife, 9755, 0.213567032708
+said, 7583, 0.199934029949
+nation, 5962, 0.15763574377
+augi, 781, 0.156110171365
+claim, 1782, 0.155984365227
+platon, 6678, 0.151642809108
+enraptur, 3118, 0.151642809108
+busch, 1420, 0.147992708369
+quit, 7043, 0.146647222711
+unrel, 9306, 0.144906592168
+ole, 6220, 0.144906592168
+devin, 2593, 0.144906592168
+allud, 434, 0.144906592168
+oasi, 6168, 0.142233276717
+certain, 1619, 0.141682792566
+redbird, 7195, 0.139875245374
+cuz, 2318, 0.139875245374
+caray, 1511, 0.139875245374
+bernard, 1044, 0.139875245374
+sure, 8585, 0.128944688565
+duti, 2931, 0.127142669436
+judgement, 4921, 0.119421657555
+farm, 3390, 0.117152802873
+navi, 5968, 0.11645027019
+mil, 5712, 0.115115100397
+attend, 764, 0.113265774788
+reliev, 7258, 0.112121456078
+administr, 273, 0.109035339877
+diego, 2629, 0.100917876882
+year, 9943, 0.100628742242
+btw, 1355, 0.0944559125471
+don, 2811, 0.0908205965822
+san, 7603, 0.090501317314
+speak, 8192, 0.0881853009435
+individu, 4604, 0.0875234182793
+coupl, 2187, 0.0832852341418
+total, 9013, 0.0799003045262
+left, 5193, 0.0796790854015
+relat, 7247, 0.0765302101296
+heard, 4224, 0.0760656851812
+old, 6216, 0.0757016728424
+sourc, 8153, 0.0738921724448
+hand, 4145, 0.072615556641
+true, 9121, 0.0714154894427
+mayb, 5564, 0.0700779713851
+case, 1540, 0.0696068878364
+man, 5471, 0.0691466347598
+reason, 7156, 0.0645755410424
+ll, 5314, 0.0634197297224
+differ, 2633, 0.0616452242818
+peopl, 6530, 0.0543177322129
+time, 8936, 0.0475682378588
+know, 5052, 0.0431230095202

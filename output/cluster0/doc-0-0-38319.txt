@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38319
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steve@hcrlgw (Steven Collins)
+Subject: Re: Sphere from 4 points?
+Organization: Central Research Lab. Hitachi, Ltd.
+Lines: 27
+Nntp-Posting-Host: hcrlgw
+
+In article <1qkgbuINNs9n@shelley.u.washington.edu> bolson@carson.u.washington.edu (Edward Bolson) writes:
+>Boy, this will be embarassing if it is trivial or an FAQ:
+>
+>Given 4 points (non coplanar), how does one find the sphere, that is,
+>center and radius, exactly fitting those points?  I know how to do it
+>for a circle (from 3 points), but do not immediately see a 
+>straightforward way to do it in 3-D.  I have checked some
+>geometry books, Graphics Gems, and Farin, but am still at a loss?
+>Please have mercy on me and provide the solution?  
+
+Wouldn't this require a hyper-sphere.  In 3-space, 4 points over specifies
+a sphere as far as I can see.  Unless that is you can prove that a point
+exists in 3-space that is equi-distant from the 4 points, and this may not
+necessarily happen.
+
+Correct me if I'm wrong (which I quite possibly am!)
+
+steve
+---
+
+
+
+-- 
++---------------------------------------+--------------------------------+
+| Steven Collins			| email: steve@crl.hitachi.co.jp |
+| Visiting Computer Graphics Researcher	| phone: (0423)-23-1111 	 |
+| Hitachi Central Research Lab. Tokyo.	| fax:   (0423)-27-7742		 |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+steve hcrlgw steven collin sphere point      boy
+embarass trivial faq  given point non coplanar one
+find sphere center radius exact fit point know
+circl point immedi see straightforward way check
+geometri book graphic gem farin still loss pleas
+merci provid solut  wouldn't requir hyper sphere
+space point specifi sphere far see unless prove
+point exist space equi distant point necessarili
+happen  correct i'm wrong quit possibl  steve
+visit comput graphic research phone hitachi
+central research lab tokyo fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sphere, 8226, 0.459056310687
+point, 6710, 0.416352414891
+steve, 8390, 0.187817494404
+research, 7307, 0.162103335923
+farin, 3388, 0.152520012479
+embarass, 3061, 0.145004162187
+coplanar, 2133, 0.145004162187
+steven, 8391, 0.14299578718
+collin, 1902, 0.14299578718
+graphic, 3997, 0.138751099911
+tokyo, 8972, 0.137914023109
+straightforward, 8423, 0.136460206119
+trivial, 9110, 0.130398172817
+distant, 2745, 0.130398172817
+merci, 5638, 0.127453110784
+geometri, 3844, 0.125696094485
+gem, 3813, 0.124869636071
+space, 8164, 0.119544193267
+specifi, 8204, 0.117434988147
+radius, 7064, 0.116873035153
+boy, 1256, 0.115792183447
+visit, 9544, 0.11378380844
+central, 1611, 0.110672824382
+circl, 1765, 0.109468382946
+necessarili, 5991, 0.105561568369
+solut, 8118, 0.103999966037
+loss, 5352, 0.10145125403
+immedi, 4527, 0.100924426879
+lab, 5085, 0.0994186444168
+faq, 3385, 0.0984714292918
+fit, 3510, 0.0950584134871
+prove, 6947, 0.0935390537122
+phone, 6601, 0.0924673657326
+fax, 3413, 0.0885097075496
+wouldn, 9854, 0.0880811099586
+check, 1682, 0.0859317846715
+unless, 9289, 0.0858044610912
+center, 1606, 0.0850562645628
+exact, 3253, 0.0836351426741
+non, 6097, 0.083520931075
+correct, 2156, 0.0811532199093
+requir, 7302, 0.0783904080423
+provid, 6949, 0.0779486310978
+wrong, 9869, 0.0773453018724
+quit, 7043, 0.0771760480433
+given, 3887, 0.075632515161
+exist, 3283, 0.0755543258748
+book, 1218, 0.075476425644
+happen, 4159, 0.0742676648508
+comput, 1993, 0.0730550670429
+far, 3386, 0.0703891082749
+possibl, 6765, 0.0690864920836
+pleas, 6688, 0.0619881521932
+way, 9666, 0.0551217468633
+know, 5052, 0.0453887007606

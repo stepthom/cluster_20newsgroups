@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60791
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: DC-X update???
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 35
+
+In article <1993Apr14.231654.14060@stsci.edu> rdouglas@stsci.edu (Rob Douglas) writes:
+
+>This question is probably mostly for Allen Sherzer, but anyone who KNOWS
+>would be welcome to answer.  I was just wondering if we could have some kind
+>of update on DC-X.
+
+Well it rolled out two weeks ago. As we speak it is at White Sands getting
+ready. I would have called my sources for the latest but they are all out
+of town (in NM).
+
+As for the future, there is at least $5M in next years budget for work
+on SSRT. They (SDIO) have been looking for more funds and do seem to have
+some. However, SDIO is not (I repeat, is not) going to fund an orbital
+prototype. The best we can hope from them is to 1) keep it alive for
+another year, and 2) fund a suborbital vehicle which MIGHT (with
+major modifications) just make orbit. There is also some money for a
+set of prototype tanks and projects to answer a few more open questions.
+
+Better news comes from the new Spacelifter effort. The USAF managers of
+this program are very open to SSTO and will have about $50M next
+year for studies. This would be enough to bring DC-Y to PDR.
+
+Now not all of this money will go to DC but a good case could be made
+for spending half on DC.
+
+Public support is STILL critical. Meet with your Congressperson (I'll
+help you do it) and get his/her support. Also call your local media
+ans get them to cover the flight tests.
+
+   Allen
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------62 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ updat      question probabl most allen sherzer
+anyon know welcom answer wonder could kind updat
+well roll two week ago speak white sand get readi
+call sourc latest town  futur least next year
+budget work ssrt sdio look fund seem howev sdio
+repeat go fund orbit prototyp best hope keep aliv
+anoth year fund suborbit vehicl might major modif
+make orbit also money set prototyp tank project
+answer open question  better news come new
+spacelift effort usaf manag program open ssto 50m
+next year studi enough bring pdr  money good case
+could made spend half  public support still critic
+meet congressperson i'll help get support also
+call local media an get cover flight test  allen
+ladi astor sir husband poison coffe churchil madam
+wife drink day first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fund, 3723, 0.253730092163
+prototyp, 6945, 0.238900541309
+sdio, 7735, 0.230585759884
+allen, 426, 0.186666683522
+flight, 3544, 0.162003146525
+updat, 9333, 0.161416330795
+money, 5835, 0.150190722433
+open, 6258, 0.147893735855
+50m, 114, 0.145278340826
+suborbit, 8492, 0.141120950113
+congressperson, 2042, 0.141120950113
+year, 9943, 0.140469803324
+answer, 535, 0.137530208556
+orbit, 6280, 0.134867502586
+spacelift, 8171, 0.13236430574
+support, 8576, 0.128336493471
+ssrt, 8294, 0.128206915028
+usaf, 9359, 0.124810079482
+sherzer, 7880, 0.123318802645
+modif, 5813, 0.123318802645
+madam, 5425, 0.118320772454
+astor, 719, 0.118320772454
+churchil, 1747, 0.117255853224
+sand, 7605, 0.115292879942
+ladi, 5093, 0.114383869692
+dcx, 2412, 0.113517154612
+question, 7032, 0.112791294008
+coffe, 1878, 0.112688973184
+poison, 6713, 0.111896044396
+husband, 4452, 0.111135489229
+town, 9024, 0.110404767559
+sir, 7989, 0.109701626966
+ssto, 8295, 0.107127746023
+roll, 7464, 0.102378844856
+drink, 2872, 0.102378844856
+wife, 9755, 0.09937425568
+welcom, 9701, 0.0982214541438
+latest, 5141, 0.09785251111
+tank, 8695, 0.0961100257787
+aliv, 417, 0.0957802647033
+budget, 1367, 0.0954562388948
+repeat, 7286, 0.0930488932681
+readi, 7139, 0.0916883609278
+meet, 5615, 0.0916883609278
+critic, 2237, 0.0914277830525
+media, 5605, 0.0906672278857
+vehicl, 9449, 0.0892333656219
+spend, 8222, 0.0872703923401
+effort, 3007, 0.0870645226832
+cover, 2194, 0.0856838159887
+half, 4124, 0.0843984088081
+speak, 8192, 0.0820664924924
+studi, 8469, 0.0801348581824
+white, 9737, 0.0798546872731
+local, 5322, 0.0793066767549
+bring, 1316, 0.0787743258422
+futur, 3737, 0.0786435813451
+test, 8812, 0.076550774685
+ago, 336, 0.0725806319243
+public, 6973, 0.0715733047476
+manag, 5472, 0.0711328347202
+project, 6909, 0.0691524574068
+sourc, 8153, 0.0687651042782
+week, 9691, 0.0686123901906
+major, 5458, 0.0683856407665
+wonder, 9821, 0.0676491411413
+set, 7815, 0.0667332547095
+hope, 4372, 0.0665962613395
+kind, 5021, 0.06646026793
+case, 1540, 0.0647771576094
+news, 6031, 0.0643488395649
+howev, 4406, 0.0642282500541
+best, 1052, 0.0622893323138
+probabl, 6885, 0.0609318514868
+anoth, 533, 0.0600468348194
+ll, 5314, 0.0590193004668
+program, 6905, 0.0578310882344
+better, 1060, 0.0557364164346
+day, 2402, 0.0552475827688
+help, 4249, 0.0547351060557
+new, 6023, 0.0542715353717
+come, 1923, 0.0540266171018
+work, 9833, 0.052782967909
+anyon, 554, 0.0500649027576
+good, 3948, 0.0478923545508
+make, 5459, 0.0467290525835
+look, 5341, 0.0464955781701
+know, 5052, 0.0401308846166

@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104710
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: re4@prism.gatech.EDU (RUSSELL EARNEST)
+Subject: Re: Braves & Giants: a case study of their weaknesses
+Summary: He's hurt
+Distribution: usa
+Organization: Georgia Institute of Technology
+Lines: 14
+
+In article <186209@pyramid.pyramid.com>, pcollac@pyrnova.mis.pyramid.com (Paul Collacchi) writes:
+> BTW, what is the story with Brian Hunter?  Is he in the dog house?
+> Paul Collacchi
+
+No, Brian's hurt. His hand I think.  He started Saturday's game but was taken
+out.  It's far too early to populate the dog house, although Bedrock was seen
+with a milkbone.
+
+
+-- 
+"Read that to memory and process it!" - RUSSELL EARNEST
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp: ...!{allegra,amd,hplabs,seismo,ut-ngp}!gatech!prism!re4
+ARPA: russell.earnest@housing.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave giant case studi weak he hurt      btw
+stori brian hunter dog hous paul collacchi  brian
+hurt hand think start saturday game taken it far
+earli popul dog hous although bedrock seen milkbon
+read memori process russel earnest georgia
+institut technolog atlanta georgia uucp allegra
+amd hplab seismo ngp gatech prism re4
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dog, 2795, 0.30681887307
+georgia, 3848, 0.294474840023
+hurt, 4451, 0.26182333659
+hous, 4396, 0.251281742516
+brian, 1304, 0.243106112944
+collacchi, 1895, 0.201866902124
+seismo, 7771, 0.196090131965
+bedrock, 986, 0.196090131965
+earnest, 2955, 0.19137016707
+amd, 464, 0.19137016707
+hplab, 4409, 0.167649109815
+hunter, 4444, 0.164408869598
+russel, 7549, 0.160201557772
+prism, 6876, 0.160201557772
+saturday, 7639, 0.149704822719
+gatech, 3789, 0.149704822719
+popul, 6745, 0.148034040835
+weak, 9668, 0.141618025012
+atlanta, 749, 0.124968414385
+uucp, 9388, 0.124638624779
+paul, 6469, 0.122141448482
+btw, 1355, 0.122141448482
+institut, 4683, 0.119059223815
+giant, 3865, 0.117770991187
+taken, 8678, 0.117273127112
+memori, 5628, 0.117273127112
+stori, 8418, 0.117027740119
+studi, 8469, 0.111348845819
+brave, 1277, 0.110767065515
+earli, 2951, 0.107358172362
+process, 6890, 0.104647401151
+technolog, 8743, 0.102891600688
+seen, 7767, 0.0960885997984
+hand, 4145, 0.0938995668059
+case, 1540, 0.0900090409947
+far, 3386, 0.0864770153773
+start, 8334, 0.0819453286509
+read, 7135, 0.078805322246
+game, 3761, 0.0784727078118
+think, 8871, 0.059291576816

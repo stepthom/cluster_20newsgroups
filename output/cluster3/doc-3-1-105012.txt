@@ -1,0 +1,239 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105012
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: st1ge@Jane.UH.EDU (Edward Hui)
+Subject: Re: Bonds vs. Maddux
+Organization: University of Houston
+Lines: 55
+Reply-To: st1ge@Jane.UH.EDU
+NNTP-Posting-Host: jane.uh.edu
+
+In article <C5L99L.HFz@cup.hp.com>, loos@cup.hp.com (Joe Loos) writes:
+>I've been following the Giants closely over the off-season -- newspapers,
+>notesgroup, etc -- but I had my first up close and personal last night at
+>the Stick.
+>
+>After watching Giants hitters struggle last year, Barry's swing was 
+>very impressive -- he's very quick and his swing seems effortless, even
+>compared to Clark (particularly Clark as of late).
+>
+>It was interesting to see Bonds hit Maddux so well.  I'm not sure if
+>Barry was after revenge against the Braves or what but he stroked
+>three very pretty hits (1b, 2b, hr) for 5 rbi's.
+
+     The Giants always hit Maddux well, but it was interesting that Maddux
+did not pitch around Bonds to get to Clayton last night.  He threw 2 straight
+fastballs over the plate to Bonds in the 1st last night, got away with the
+first one, but Bonds hit the second one out of the park.  Then in the 3rd,
+when Clark was at third base with one out, Maddux did not intentionally
+walk Bonds, and Bonds dropped a single to left-center.
+
+>
+>The Giants as a team are doing a lot of surprising things this year in
+>addition to Bonds.  There has been some good pitching and some hitters
+>seem to be swinging much better.  Clayton's defense has been superb.
+>McGee seems to like leading off this year.  Manwaring is driving the ball.
+>So on & so forth.
+>
+     The Braves announcers pointed out that McGee as a leadoff hitter has
+not scored a run yet.  He will always hit around .300, but I'm concerning
+about his on-base percentage.  The key in the lineup is Matt Williams, he
+has to stay hot so that Bonds can hit with runners on base.
+
+
+>I hope it continues...I think they need to continue well into June before
+>people are really sold that they are for real--particularly the pitching.
+
+     The pitching gets a set back as Bud Black is placed on the DL.  Burba
+has done a superb job filling in so far, he looks like a different pitcher
+from last year.  However, Swift is terrible in both of his starts.  With
+Burba moving into the rotation, Mike Jackson is the only right-handed
+reliever aside from Rod Beck, he'll get a lot of actions.  I also hope that
+Dusty can manage his bullpen better than Roger Craig, especially on Beck.
+I was concerned when Beck was used for 3 straight days earlier this week.
+
+
+>For myself, I think the fresh start of Magowan/Baker/etc has really wiped
+>out a lot of negatives from the last few years and will be a real factor
+>in helping them significantly improve over last year.
+
+     So far so good!
+
+
+Edward Hui
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bond maddux       i'v follow giant close season
+newspap notesgroup etc first close person last
+night stick  watch giant hitter struggl last year
+barri swing impress he quick swing seem effortless
+even compar clark particular clark late  interest
+see bond hit maddux well i'm sure barri reveng
+brave stroke three pretti hit rbi  giant alway hit
+maddux well interest maddux pitch around bond get
+clayton last night threw straight fastbal plate
+bond 1st last night got away first one bond hit
+second one park 3rd clark third base one maddux
+intent walk bond bond drop singl left center
+giant team lot surpris thing year addit bond good
+pitch hitter seem swing much better clayton defens
+superb mcgee seem like lead year manwar drive ball
+forth  brave announc point mcgee leadoff hitter
+score run yet alway hit around i'm concern base
+percentag key lineup matt william stay hot bond
+hit runner base   hope continu think need continu
+well peopl realli sold real particular pitch
+pitch get set back bud black place burba done
+superb job fill far look like differ pitcher last
+year howev swift terribl start burba move rotat
+mike jackson right hand reliev asid rod beck he'll
+get lot action also hope dusti manag bullpen
+better roger craig especi beck concern beck use
+straight day earlier week   think fresh start
+magowan baker etc realli wipe lot negat last year
+real factor help signific improv last year  far
+good   edward hui
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bond, 1211, 0.448985311179
+maddux, 5426, 0.341967932246
+beck, 982, 0.214809406027
+hit, 4316, 0.211466753576
+giant, 3865, 0.183398267148
+clark, 1787, 0.163960389271
+swing, 8635, 0.161921260188
+burba, 1405, 0.157178094839
+year, 9943, 0.151975689862
+pitch, 6643, 0.147169521394
+superb, 8553, 0.145897873838
+mcgee, 5577, 0.145897873838
+clayton, 1797, 0.138708347953
+hitter, 4322, 0.128704034162
+night, 6063, 0.122756376036
+barri, 918, 0.105092245787
+straight, 8422, 0.102258523962
+base, 923, 0.0946228744425
+lot, 5356, 0.0943402964779
+concern, 2004, 0.0871621088291
+brave, 1277, 0.0862457200533
+continu, 2092, 0.0850852798628
+particular, 6442, 0.0843925284745
+close, 1830, 0.0764019535489
+alway, 457, 0.0761289415007
+manwar, 5497, 0.0745025508211
+dusti, 2929, 0.0745025508211
+magowan, 5442, 0.072948936919
+hope, 4372, 0.0720511634513
+wipe, 9792, 0.0716031353424
+swift, 8633, 0.0716031353424
+real, 7144, 0.0691027787183
+fresh, 3687, 0.0683935864492
+bud, 1362, 0.0683935864492
+baker, 871, 0.067516638744
+far, 3386, 0.0673329425546
+leadoff, 5175, 0.0667099250561
+rod, 7453, 0.0640062155463
+start, 8334, 0.0638044696917
+stroke, 8454, 0.0634301421455
+fastbal, 3398, 0.0634301421455
+terribl, 8804, 0.0609596654733
+edward, 3003, 0.0605307266668
+better, 1060, 0.0603017882677
+realli, 7150, 0.0598131078146
+forth, 3616, 0.0589771127647
+1st, 57, 0.0589771127647
+newspap, 6035, 0.0586234434694
+sold, 8109, 0.0582817653007
+jackson, 4812, 0.0576313111881
+struggl, 8461, 0.0573211777735
+negat, 5996, 0.0570203034691
+threw, 8894, 0.0567281513987
+reliev, 7258, 0.0564442300683
+craig, 2208, 0.0561680883916
+matt, 5552, 0.0558993113777
+percentag, 6534, 0.0548906161662
+lineup, 5287, 0.0548906161662
+bullpen, 1391, 0.0539737533961
+3rd, 102, 0.0537570022313
+intent, 4702, 0.0527381009018
+asid, 687, 0.0527381009018
+rbi, 7124, 0.0519912006876
+good, 3948, 0.0518152189988
+runner, 7545, 0.0514652444497
+plate, 6674, 0.051129261981
+hot, 4389, 0.0509653796594
+william, 9764, 0.0506453991109
+stick, 8393, 0.0497422393215
+earlier, 2952, 0.0490468918575
+drop, 2878, 0.0487816517943
+impress, 4554, 0.0485232135134
+roger, 7458, 0.0483964377449
+factor, 3352, 0.0483964377449
+stay, 8355, 0.0481475722437
+rotat, 7490, 0.0467710901542
+improv, 4557, 0.0465589025125
+park, 6430, 0.0464544607415
+late, 5139, 0.0462487690979
+key, 4994, 0.0462487690979
+announc, 524, 0.0462487690979
+think, 8871, 0.0461657507293
+action, 251, 0.0458495667871
+addit, 263, 0.0457521888247
+surpris, 8593, 0.0453718213927
+black, 1133, 0.0440610756452
+drive, 2873, 0.0437385348171
+score, 7705, 0.0435810544145
+defens, 2476, 0.0435810544145
+mike, 5710, 0.0435032274586
+signific, 7951, 0.0434259968837
+quick, 7036, 0.0429746435215
+job, 4873, 0.0429013447205
+walk, 9617, 0.0428285751574
+like, 5272, 0.0424430356129
+compar, 1960, 0.0424026579491
+watch, 9655, 0.0417957397171
+singl, 7983, 0.0417957397171
+especi, 3190, 0.0417305062162
+lead, 5172, 0.0409187920119
+center, 1606, 0.0406816389358
+left, 5193, 0.0401120783241
+pitcher, 6644, 0.0400568533053
+away, 833, 0.0399473028712
+ball, 877, 0.0394167308601
+season, 7747, 0.038814848122
+manag, 5472, 0.0384796638587
+week, 9691, 0.0371162167438
+pretti, 6851, 0.0369529979425
+hand, 4145, 0.0365561537367
+set, 7815, 0.0360996889765
+second, 7753, 0.0350750677032
+howev, 4406, 0.034744594139
+place, 6657, 0.0345195456021
+person, 6562, 0.0335792106395
+team, 8732, 0.0334640260634
+follow, 3578, 0.0331261662469
+got, 3960, 0.0330709412282
+sure, 8585, 0.0324566943831
+ll, 5314, 0.0319267867233
+differ, 2633, 0.0310334644561
+right, 7399, 0.0306580975405
+run, 7543, 0.0303591358542
+day, 2402, 0.0298864571096
+help, 4249, 0.0296092302602
+point, 6710, 0.0284482255863
+thing, 8869, 0.027533633525
+peopl, 6530, 0.02734465535
+need, 5993, 0.0270980732474
+look, 5341, 0.0251520163078
+use, 9363, 0.0222588783383

@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38420
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: agiacalo@nmsu.edu (Toni Giacalo)
+Subject: need algorithm for reading and displaying bitmap files
+Organization: New Mexico State University
+Lines: 7
+NNTP-Posting-Host: gauss.nmsu.edu
+Keywords: GIF PCX BMP
+
+I'm making a customized paint program in DOS and need an algorithm
+for reading bitmap files like GIF, PCX, or BMP.  Does anyone have
+such an algorithm?  I've tried copying one out of a book for reading
+.PCX format but it doesn't work.  I will take an algorithm for any
+format that can be created from Windows Paint.  
+Thanks!
+Toni
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need algorithm read display bitmap file      i'm
+make custom paint program dos need algorithm read
+bitmap file like gif pcx bmp anyon algorithm i'v
+tri copi one book read pcx format doesn't work
+take algorithm format creat window paint thank
+toni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+algorithm, 407, 0.5066202011
+pcx, 6490, 0.335012506843
+bitmap, 1126, 0.326300285039
+paint, 6391, 0.315947981983
+read, 7135, 0.266036738222
+format, 3612, 0.233180012638
+file, 3477, 0.20161283177
+bmp, 1183, 0.174962023054
+need, 5993, 0.156652132803
+custom, 2311, 0.154168805393
+toni, 8984, 0.150803720715
+dos, 2825, 0.137444661645
+copi, 2130, 0.128076389816
+display, 2734, 0.125521378749
+gif, 3869, 0.122968065284
+window, 9774, 0.121189987138
+creat, 2217, 0.11261829642
+book, 1218, 0.104344932942
+doesn, 2793, 0.0944968970453
+program, 6905, 0.0904253966038
+tri, 9087, 0.0843681810181
+work, 9833, 0.0825320939448
+thank, 8832, 0.0815817917347
+anyon, 554, 0.0782820940432
+make, 5459, 0.073066117927
+like, 5272, 0.0613400811812

@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38706
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: aleahy@cch.coventry.ac.uk (ODD FROG)
+Subject: Re: Photoshop for Windows
+Nntp-Posting-Host: cc_sysh
+Organization: ODD FROGS BALLOON SHOP
+Lines: 21
+
+In article <C5uHIM.JFq@rot.qc.ca> beaver@rot.qc.ca (Andre Boivert) writes:
+>
+>
+>I am looking for comments from people who have used/heard about PhotoShop
+>for Windows. Is it good? How does it compare to the Mac version? Is there
+>a lot of bugs (I heard the Windows version needs "fine-tuning)?
+>
+
+Also photoshopII is out soon, has anyone got a date and any cofmments?
+Andy
+
+        _______________________________________________________
+        | Andrew Leahy | aleahy@cch.coventry.ac.uk | Odd FROG |
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+"What a piece of work is man! how noble in reason! how infinite in faculties! 
+ in form and moving, how express and admirable! in action how like an angel!
+   in apprehension how like a god! the beauty of the world, the paragon of
+        animals! And yet to me what is the quintessence if dust? 
+                      Man delights not me....... "
+                                                  Shakespeare, Hamlet
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ photoshop window        look comment peopl use
+heard photoshop window good compar mac version lot
+bug heard window version need fine tune   also
+photoshopii soon anyon got date cofmment andi
+piec work man nobl reason infinit faculti form
+move express admir action like angel apprehens
+like god beauti world paragon anim yet quintess
+dust man delight shakespear hamlet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+window, 9774, 0.336127716957
+photoshop, 6609, 0.323511794731
+version, 9479, 0.209572430023
+heard, 4224, 0.204660408792
+paragon, 6417, 0.204003153514
+hamlet, 4140, 0.204003153514
+shakespear, 7844, 0.199092719148
+delight, 2505, 0.191344628576
+man, 5471, 0.186044186716
+faculti, 3355, 0.185334742623
+nobl, 6087, 0.180424308256
+admir, 274, 0.172676217685
+andi, 502, 0.166666331732
+dust, 2928, 0.159600121222
+tune, 9149, 0.155746011412
+infinit, 4631, 0.152375014535
+beauti, 978, 0.147332879056
+piec, 6624, 0.138459073782
+bug, 1373, 0.136632419744
+angel, 509, 0.134510628241
+express, 3315, 0.128664468165
+soon, 8136, 0.128338005698
+action, 251, 0.122523521984
+mac, 5410, 0.120027958028
+fine, 3485, 0.119555440227
+date, 2391, 0.11840918963
+anim, 515, 0.116253413487
+like, 5272, 0.113420269184
+compar, 1960, 0.113312368196
+comment, 1936, 0.108094126778
+form, 3610, 0.107941532467
+god, 3926, 0.094924023854
+world, 9841, 0.0902019316802
+got, 3960, 0.0883752776424
+reason, 7156, 0.0868726587832
+lot, 5356, 0.0840350025781
+work, 9833, 0.0763025751785
+peopl, 6530, 0.0730729582785
+need, 5993, 0.0724140184064
+anyon, 554, 0.0723733650797
+good, 3948, 0.0692327492817
+look, 5341, 0.0672135821334
+use, 9363, 0.0594822669117

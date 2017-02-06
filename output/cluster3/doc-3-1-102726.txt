@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102726
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rickc@krill.corp.sgi.com (Richard Casares)
+Subject: Re: Jim Lefebvre is an idiot.
+Nntp-Posting-Host: krill.corp.sgi.com
+Organization: Silicon Graphics, Inc.
+Lines: 16
+
+In article <1993Apr5.190141.17623@bsu-ucs>, 00bjgood@leo.bsuvc.bsu.edu
+writes:
+|> I just wanted to let everyone know that I have lost what little respect
+|> I have
+|> for Jim LeFebvre after seeing today's Cubs game. 
+|> 						A dishard Cub fan
+
+
+If you think that's bad, just wait until he tries Dunston in
+the leadoff spot again.  
+
+Yes, I also wonder if they can win with this manager.
+I never believed managers had that much to do with winning
+until I saw how much they had to do with losing....
+
+- Rick 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jim lefebvr idiot     articl 1993apr5  want let
+everyon know lost littl respect  jim lefebvr see
+today cub game dishard cub fan   think that bad
+wait tri dunston leadoff spot  yes also wonder win
+manag never believ manag much win saw much lose
+rick
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lefebvr, 5192, 0.431206746667
+cub, 2282, 0.305494562871
+jim, 4868, 0.281979157832
+dunston, 2922, 0.240627849967
+manag, 5472, 0.235637893212
+dishard, 2714, 0.23374186832
+win, 9770, 0.224337331639
+1993apr5, 48, 0.215603373333
+leadoff, 5175, 0.204255762918
+rick, 7387, 0.17645841192
+idiot, 4487, 0.170353711919
+spot, 8261, 0.150588430981
+wait, 9611, 0.148570785938
+respect, 7321, 0.139791021406
+lost, 5355, 0.13645166092
+saw, 7650, 0.135928614896
+lose, 5350, 0.135670379274
+everyon, 3241, 0.122987176661
+fan, 3381, 0.12281715432
+today, 8964, 0.117963485403
+bad, 861, 0.113644276489
+yes, 9951, 0.112409752801
+wonder, 9821, 0.112048824983
+littl, 5308, 0.103714237823
+articl, 665, 0.0994569505529
+let, 5225, 0.0974554177545
+believ, 1009, 0.0952965673
+game, 3761, 0.0935404405732
+tri, 9087, 0.0893705946418
+want, 9634, 0.0840614344039
+think, 8871, 0.070676294629
+know, 5052, 0.0664697051719

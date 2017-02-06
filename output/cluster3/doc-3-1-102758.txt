@@ -1,0 +1,134 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102758
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: admiral@jhunix.hcf.jhu.edu (Steve C Liu)
+Subject: Best record ever in baseball
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 19
+Distribution: usa
+Expires: 5/9/93
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+Summary: Can you believe it?
+
+Of all teams, I believe the Cubs have the best record ever in baseball.
+Sometime way far back. 110+ and something.
+
+Admiral Steve C. Liu
+____________________________________________________________________________
+|Admiral Steve C. Liu          Internet Address: admiral@jhunix.hcf.jhu.edu|
+|Commander-In-Chief of the Security Division of the Pi Club - Earth Chapter|
+|    President of the Earth Chapter of the Pi Club - Founded April 1990    |
+|1993 World Champions  - Baltimore Orioles - Why Not? - Series in the Yards|
+|         1992-1993 Stanley Cup Champions -  Washington Capitals           |
+| "Committee for the Liberation and Intergration of Terrifying Organisms   |
+|   and their Rehabilitation Into Society, the only problem is that the    |
+|   abbreviation is CLITORIS." from the "Polymorph" episode of Red Dwarf   |
+|*****The Bangles are the greatest female rock band that ever existed!*****|
+|   This sig has been brought to you by... Frungy! The Sport of Kings!     |
+|"My God man, drilling holes through his head is not the answer!" Dr. McCoy|
+|"You know, Susanna Hoffs has a really nice ass." - comment by M. Flanagan |
+|  The Pi Club - Creating the largest .signatures for the past nine months | 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best record ever basebal    expir  believ  team
+believ cub best record ever basebal sometim way
+far back someth  admir steve liu   command chief
+secur divis club earth chapter presid earth
+chapter club found april world champion baltimor
+oriol seri yard stanley cup champion washington
+capit committe liber intergr terrifi organ
+rehabilit societi problem abbrevi clitori
+polymorph episod red dwarf bangl greatest femal
+rock band ever exist sig brought frungi sport king
+god man drill hole head answer mccoy know susanna
+hoff realli nice ass comment flanagan club creat
+largest signatur past nine month
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+club, 1842, 0.301145867545
+champion, 1647, 0.238755140259
+chapter, 1658, 0.200763911696
+record, 7184, 0.16039945724
+clitori, 1824, 0.147907118011
+susanna, 8602, 0.143674500298
+flanagan, 3521, 0.143674500298
+mccoy, 5572, 0.140216199817
+liu, 5309, 0.140216199817
+terrifi, 8806, 0.134759406517
+polymorph, 6731, 0.134759406517
+intergr, 4711, 0.134759406517
+frungi, 3705, 0.132525281623
+bangl, 895, 0.132525281623
+earth, 2956, 0.132151479329
+drill, 2871, 0.130526788804
+stanley, 8322, 0.128718932145
+basebal, 924, 0.127838619457
+rehabilit, 7235, 0.127068488324
+best, 1052, 0.126832886072
+episod, 3148, 0.125550227185
+abbrevi, 169, 0.125550227185
+dwarf, 2933, 0.12283587061
+ass, 696, 0.12283587061
+femal, 3441, 0.121611695024
+admir, 274, 0.121611695024
+yard, 9936, 0.118352015606
+believ, 1009, 0.117152196868
+cup, 2294, 0.116453618736
+secur, 7762, 0.115571220651
+largest, 5126, 0.112402515692
+signatur, 7948, 0.110996825436
+chief, 1703, 0.110996825436
+capit, 1502, 0.110996825436
+liber, 5247, 0.110331208433
+committe, 1946, 0.107314047328
+greatest, 4018, 0.106229858636
+band, 891, 0.104711597498
+sig, 7940, 0.102423509158
+rock, 7445, 0.102423509158
+oriol, 6295, 0.101580341984
+king, 5024, 0.0992548041982
+expir, 3300, 0.0978491139428
+baltimor, 887, 0.0962269175404
+washington, 9651, 0.0956149890484
+cub, 2282, 0.0938894237897
+brought, 1343, 0.0933474401132
+sport, 8257, 0.0918086395701
+hole, 4343, 0.0913222504032
+presid, 6839, 0.0908480222485
+societi, 8093, 0.0899337181211
+divis, 2767, 0.0878239749062
+steve, 8390, 0.0845327956667
+sometim, 8128, 0.0833927361303
+command, 1933, 0.0832353232919
+past, 6456, 0.0801997286199
+head, 4215, 0.0800666183321
+organ, 6287, 0.0794147281215
+april, 595, 0.0787844994465
+month, 5847, 0.0781745389098
+seri, 7805, 0.0773522617576
+nice, 6047, 0.0767860066277
+comment, 1936, 0.0761280861713
+red, 7194, 0.075913754646
+creat, 2217, 0.073327706147
+answer, 535, 0.0700093925612
+exist, 3283, 0.0680108997425
+god, 3926, 0.0668527003555
+man, 5471, 0.0655132165834
+world, 9841, 0.0635270447382
+far, 3386, 0.0633613830899
+team, 8732, 0.062980374678
+problem, 6887, 0.0596753711328
+realli, 7150, 0.0562850975206
+someth, 8126, 0.0558361265443
+way, 9666, 0.0496183316593
+know, 5052, 0.0408570434735

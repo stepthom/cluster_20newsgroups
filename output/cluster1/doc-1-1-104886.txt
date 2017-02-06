@@ -1,0 +1,135 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104886
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: cruz@stsci.edu
+Subject: Re: Baseball logos available via anonymous FTP
+Lines: 31
+Organization: Space Telescope Science Institute
+Distribution: world,na
+
+In article <1993Apr21.165206.13060@ac.dal.ca>, arishem@ac.dal.ca writes:
+> 
+> Well, thanks to Matthew Wall, the Major League baseball logos which I've been
+> posting over the past number of weeks now have a home at the Internet
+> Baseball Archive.
+> To get them, FTP to eucalyptus.cc.swarthmore.edu, login anonymously as per
+> usual, and cd to the baseball/misc/graphics directory.  Both the GIF files
+> and the uuencoded versions are available.
+> 
+>   Darren
+> 
+>  Darren Reiniger                   reiniger@ug.cs.dal.ca || arishem@ac.dal.ca
+>  Centre For Marine Geology, Dalhousie University, Halifax, N.S., Canada
+> | People who wonder where this generation is going should remind themselves   |
+> | where it came from in the first place.                                      |
+
+
+I have successfully copied all of the uuencoded versions of these logos to my
+local directory, but when I tried the GIF files, it said "Permission denied".
+Could you explain why, and also how to execute the uuencoded files?
+
+Thanks,
+
+Ken
+
+
+================================================================================
+% KEN CRUZ                   | 1993 NFL CHAMPS: DALLAS COWBOYS                 %
+% JOHNS HOPKINS UNIVERSITY   | 1993 MLB CHAMPS: BALTIMORE ORIOLES              %
+% BALTIMORE, MARYLAND        | 1993 ALL-STAR GAME @ ORIOLE PARK at CAMDEN YARDS%
+================================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal logo avail via anonym ftp       well
+thank matthew wall major leagu basebal logo i'v
+post past number week home internet basebal archiv
+get ftp eucalyptus swarthmor edu login anonym per
+usual basebal misc graphic directori gif file
+uuencod version avail  darren  dal centr marin
+geolog dalhousi univers halifax canada peopl
+wonder generat go remind came first place
+success copi uuencod version logo local directori
+tri gif file said permiss deni could explain also
+execut uuencod file  thank  ken    ken cruz nfl
+champ dalla cowboy john hopkin univers mlb champ
+baltimor oriol baltimor maryland star game oriol
+park camden yard
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uuencod, 9389, 0.344024787929
+logo, 5332, 0.328301234579
+champ, 1645, 0.232571076061
+basebal, 924, 0.227781327969
+oriol, 6295, 0.180994642236
+file, 3477, 0.175426269312
+baltimor, 887, 0.17145597439
+anonym, 532, 0.167784454473
+ken, 4980, 0.16585265999
+directori, 2669, 0.160242826696
+gif, 3869, 0.142661745935
+ftp, 3709, 0.136618166484
+swarthmor, 8622, 0.13176956971
+halifax, 4127, 0.13176956971
+cruz, 2263, 0.13176956971
+version, 9479, 0.131493115844
+nfl, 6041, 0.12491777654
+hopkin, 4373, 0.120056351919
+darren, 2374, 0.120056351919
+cowboy, 2197, 0.120056351919
+avail, 811, 0.117395552656
+camden, 1471, 0.116285538031
+dal, 2340, 0.11467492931
+dalla, 2342, 0.113204558748
+univers, 9282, 0.112313832129
+login, 5331, 0.10943374486
+yard, 9936, 0.105439105166
+maryland, 5529, 0.104572320239
+geolog, 3842, 0.0988864100907
+permiss, 6551, 0.0982934158709
+execut, 3272, 0.0961099183476
+thank, 8832, 0.0946473445641
+deni, 2523, 0.0928591024478
+mlb, 5795, 0.09203461692
+marin, 5511, 0.09203461692
+centr, 1610, 0.0916369844277
+misc, 5757, 0.0897781231656
+remind, 7270, 0.0887536518574
+canada, 1481, 0.0877877546155
+matthew, 5554, 0.0874776798384
+wall, 9619, 0.085453207137
+archiv, 618, 0.0831626779206
+internet, 4717, 0.0811458846564
+park, 6430, 0.0778897887686
+success, 8513, 0.0750132894378
+copi, 2130, 0.0742940914856
+generat, 3819, 0.0732034807536
+star, 8324, 0.0730719734656
+local, 5322, 0.0719323101556
+past, 6456, 0.0714494601292
+usual, 9377, 0.0713308729673
+explain, 3301, 0.068309083242
+came, 1472, 0.068112585665
+leagu, 5176, 0.0678220581442
+home, 4354, 0.0651623505648
+john, 4878, 0.0638983146941
+week, 9691, 0.0622324365824
+major, 5458, 0.0620267715543
+wonder, 9821, 0.0613587556742
+edu, 3001, 0.0599156981966
+place, 6657, 0.0578786207486
+said, 7583, 0.0562534797627
+graphic, 3997, 0.0556354592247
+number, 6156, 0.0549493595285
+game, 3761, 0.0512234290692
+post, 6766, 0.0493533357687
+tri, 9087, 0.0489399909543
+peopl, 6530, 0.0458485449012

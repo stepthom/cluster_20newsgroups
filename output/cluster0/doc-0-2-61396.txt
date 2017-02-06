@@ -1,0 +1,163 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61396
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rdouglas@stsci.edu (Rob Douglas)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Originator: rdouglas@phaedrus.stsci.edu
+Organization: Space Telescope Science Institute
+Lines: 44
+
+
+In article <1993Apr28.171915.5013@mksol.dseg.ti.com>, mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+|> In <1993Apr28.141606.17449@lambda.msfc.nasa.gov> bday@lambda.msfc.nasa.gov (Brian Day) writes:
+|> 
+|> >rdouglas@stsci.edu (Rob Douglas) writes:
+|> 
+|> >>[...]  But try to land a shuttle with that big huge telescope in the 
+|> >>back and you could have problems.  The shuttle just isn't designed to land 
+|> >>with that much weight in the payload.
+|> 
+|> >Is HST really _that_ much heavier than a Spacelab ???
+|> 
+|> I can't speak to sheer mass, but part of the problem is that HST
+|> wasn't built to ever be brought back down.  It's not built for those
+|> kinds of 'jolt' forces and there is no support cradle for it (which is
+|> additional weight that would be required.
+
+Just to throw it out there:  The mass of the telescope is 11,600 kg 
+(25,500 lb).  I do not know what Space lab weighs, but I believe it is
+less.  Can anyone verify??
+
+Also, remember that weight was not the only concern, as many others have 
+noted, just one possible concern.  I was responding to a statement that
+if you can boost it, why can't you land it.  Those are too different
+problems.
+
+ROB
+-- 
+===========================================================================
+| Rob Douglas                     | SPACE     | 3700 San Martin Drive     |
+| AI Software Engineer            | TELESCOPE | Baltimore, MD  21218, USA |
+| Advance Planning Systems Branch | SCIENCE   | Phone: (410) 338-4497     |
+| Internet: rdouglas@stsci.edu    | INSTITUTE | Fax:   (410) 338-1592     |
+===========================================================================
+
+Disclaimer-type-thingie>>>>>  These opinions are mine!  Unless of course 
+	they fall under the standard intellectual property guidelines. 
+	But with my intellect, I doubt it.  Besides, if it was useful
+	intellectual property, do you think I would type it in here?
+-- 
+===========================================================================
+| Rob Douglas                     | SPACE     | 3700 San Martin Drive     |
+| AI Software Engineer            | TELESCOPE | Baltimore, MD  21218, USA |
+| Advance Planning Systems Branch | SCIENCE   | Phone: (410) 338-4497     |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day           tri land
+shuttl big huge telescop back could problem shuttl
+isn't design land much weight payload  hst realli
+much heavier spacelab  can't speak sheer mass part
+problem hst wasn't built ever brought back it
+built kind jolt forc support cradl addit weight
+requir  throw mass telescop know space lab weigh
+believ less anyon verifi  also rememb weight
+concern mani other note one possibl concern
+respond statement boost can't land differ problem
+rob   rob dougla space san martin drive softwar
+engin telescop baltimor usa advanc plan system
+branch scienc phone    disclaim type thingi
+opinion mine unless cours fall standard intellectu
+properti guidelin intellect doubt besid use
+intellectu properti think type   rob dougla space
+san martin drive softwar engin telescop baltimor
+usa advanc plan system branch scienc phone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+telescop, 8764, 0.309548902703
+rob, 7434, 0.248431339014
+weight, 9695, 0.237820315787
+hst, 4416, 0.23450141122
+land, 5104, 0.194168680529
+intellectu, 4697, 0.186699413472
+dougla, 2837, 0.174855837655
+martin, 5523, 0.167104595588
+properti, 6925, 0.166353696266
+branch, 1269, 0.160933189398
+baltimor, 887, 0.154271797305
+usa, 9357, 0.146026074792
+mass, 5533, 0.143826812338
+problem, 6887, 0.143508079571
+san, 7603, 0.137468356395
+phone, 6601, 0.133443564979
+built, 1381, 0.133193276509
+drive, 2873, 0.131971832104
+concern, 2004, 0.131496668102
+space, 8164, 0.129389459695
+plan, 6660, 0.124196654674
+shuttl, 7929, 0.12239672835
+type, 9177, 0.118776147806
+engin, 3109, 0.118621389826
+thingi, 8870, 0.11856296301
+jolt, 4886, 0.115170078988
+advanc, 285, 0.114988210679
+scienc, 7692, 0.11364835179
+intellect, 4696, 0.108023702612
+guidelin, 4084, 0.106232818773
+sheer, 7868, 0.10463081859
+spacelab, 8170, 0.101858630494
+cradl, 2205, 0.101858630494
+softwar, 8103, 0.101493481108
+heavier, 4231, 0.0974844422136
+weigh, 9694, 0.0906986741707
+verifi, 9472, 0.089528486257
+boost, 1224, 0.0814272260261
+payload, 6477, 0.0754841277583
+brought, 1343, 0.0748276975311
+huge, 4427, 0.0746150375791
+disclaim, 2691, 0.0746150375791
+respond, 7322, 0.0728241537407
+besid, 1051, 0.07227118594
+lab, 5085, 0.071737624573
+fall, 3369, 0.0696201533744
+schedul, 7678, 0.069170713598
+addit, 263, 0.0690238048347
+statement, 8343, 0.0685914077711
+throw, 8899, 0.068170967932
+doubt, 2830, 0.0680333657376
+speak, 8192, 0.0669752040011
+wasn, 9652, 0.0659859160519
+forc, 3594, 0.0629565140098
+servic, 7813, 0.0625691060794
+standard, 8313, 0.0622848933426
+unless, 9289, 0.0619140227928
+mission, 5772, 0.0601027978963
+design, 2564, 0.0590808929763
+opinion, 6266, 0.0569558212084
+requir, 7302, 0.0565642560835
+rememb, 7269, 0.0559951898814
+isn, 4783, 0.0556880089548
+note, 6118, 0.0548595194371
+kind, 5021, 0.0542388235124
+support, 8576, 0.0523682843626
+cours, 2190, 0.0520298456813
+big, 1082, 0.0517926343381
+possibl, 6765, 0.0498508188402
+believ, 1009, 0.0469548449413
+differ, 2633, 0.0468184768639
+realli, 7150, 0.0451183690487
+day, 2402, 0.045088050118
+tri, 9087, 0.0440349797754
+mani, 5479, 0.0431298198984
+anyon, 554, 0.0408584182612
+think, 8871, 0.0348238614397
+use, 9363, 0.0335807425553
+know, 5052, 0.0327511765437

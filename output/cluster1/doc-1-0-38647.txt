@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38647
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: raymaker@bcm.tmc.edu (Mark Raymaker)
+Subject: graphics driver standards
+Organization: Baylor College of Medicine, Houston, Tx
+Lines: 21
+NNTP-Posting-Host: bcm.tmc.edu
+Keywords: graphics,standards
+
+I have a researcher who collecting electical impulses from
+the human heart through a complex Analog to Digital system
+he has designed and inputting this information into his EISA
+bus HP Vectra Computer running DOS and the Phar Lap DOS extender. 
+
+He want to purchase a very high-performance video card for
+3-D modeling. He is aware of a company called Matrox but
+he is concerned about getting married to a company and their
+video routine library. He would hope some more flexibility:
+to choose between several card manufacturers with a standard
+video driver. He would like to write more generic code- 
+code that could be easily moved to other cards or computer operating
+systems in the future. Is there any hope?
+Any information would be greatly appreciated-
+Please, if possible, respond directly to internet mail 
+to raymaker@bcm.tmc.edu
+
+Thanks
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic driver standard      research collect
+elect impuls human heart complex analog digit
+system design input inform eisa bus vectra comput
+run dos phar lap dos extend  want purchas high
+perform video card model awar compani call matrox
+concern get marri compani video routin librari
+hope flexibl choos sever card manufactur standard
+video driver like write generic code code could
+easili move card comput oper system futur hope
+inform great appreci pleas possibl respond direct
+internet mail   thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+video, 9506, 0.311449263695
+card, 1513, 0.295196904717
+driver, 2876, 0.230324764157
+dos, 2825, 0.21625223745
+compani, 1958, 0.190677510217
+standard, 8313, 0.187757088764
+code, 1871, 0.182170255391
+hope, 4372, 0.163836868901
+matrox, 5551, 0.162818099473
+eisa, 3020, 0.162818099473
+comput, 1993, 0.158907031953
+marri, 5518, 0.153525830266
+elect, 3029, 0.151691447053
+inform, 4637, 0.150650929051
+generic, 3820, 0.145543492193
+impuls, 4558, 0.13861595347
+flexibl, 3541, 0.135806207922
+analog, 487, 0.129658253062
+manufactur, 5494, 0.128348321928
+bus, 1419, 0.127109233372
+purchas, 6988, 0.123749440083
+input, 4662, 0.121755352003
+awar, 831, 0.12128280834
+heart, 4225, 0.116262636034
+extend, 3319, 0.115889984641
+choos, 1720, 0.114457170876
+routin, 7499, 0.112463082796
+complex, 1976, 0.112146973568
+collect, 1898, 0.110628699583
+digit, 2642, 0.11033675225
+internet, 4717, 0.110048477308
+respond, 7322, 0.109763783514
+easili, 2962, 0.108391064517
+librari, 5250, 0.101731570436
+concern, 2004, 0.0990987953095
+futur, 3737, 0.0967375485317
+model, 5807, 0.096105300001
+oper, 6261, 0.0959499261468
+perform, 6539, 0.0930450868704
+design, 2564, 0.0890493334057
+appreci, 587, 0.0885955055913
+human, 4432, 0.0884834390809
+research, 7307, 0.0881504905267
+direct, 2667, 0.0878223098965
+sever, 7823, 0.084586275175
+write, 9865, 0.0790056016072
+mail, 5447, 0.0787848850788
+high, 4292, 0.0775034457148
+great, 4016, 0.0762243074047
+graphic, 3997, 0.0754517323698
+possibl, 6765, 0.0751373576772
+run, 7543, 0.0690335245488
+pleas, 6688, 0.0674173173744
+thank, 8832, 0.0641794478834
+want, 9634, 0.0624285965984
+like, 5272, 0.0482555293237

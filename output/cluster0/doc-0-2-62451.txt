@@ -1,0 +1,181 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62451
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tfv0@ns1.cc.lehigh.edu (Theodore F. Vaida ][)
+Subject: Re: Space Marketing would be wonderfull.
+Organization: Lehigh University
+Lines: 37
+
+In article <C74rGL.4u7@ucdavis.edu>, ez012344@hamlet.ucdavis.edu (Dan
+Herrin) writes:
+[deleted]
+>Is it not also an abomination that somebody would spend money on "space 
+>advertising" when those children are starving? Perhaps some redistribution
+>of wealth would help them ...
+>
+>Dan
+>
+
+Not to flame (REALLY), but thats an abominable viewpoint (while were
+on the subject of abominations).  If we followed the "redistiribution
+of wealth" (and by the way, ist that what Clinto and the Democrats are
+trying to do...), EVERYONE would starve in short order.  Not only is
+it impossoble to organize a fair distribution that depends on every
+(wo)man's altruism (can you say black market under communisim
+anyone?), but the current methods of resource production are entirely
+energy dependant.  There are not enough sources of cheap capital
+(aside from human capital) to allow us to stop looking at space a an
+excellent source of materials and realestate.  More directly, perhaps
+you mioght consider the fact that BILLIONS are spent by TV companies,
+and their sponsors, (ABC, NBC, CBS...) on the SUPERBOWL, the OLYMPICS,
+and even on monday night baseball games.  Perhaps we should boycott
+those games?  If DC-X and company get finished, and there is a market
+for it, those "abominable" space will probably be much more cost
+effective for the companies, and those starving children.  More people
+buy products, the company hires more workers, end result fewer
+children die of starvation.
+
+-- 
+
+---------=======================================================---------
+                  ->POLAR CAPS<- or tfv0@lehigh.edu
+Student Konsultant Making the world safe for computing!
+"Never before have we owed so little to so many..."- R.T.Folk
+"One must not confuse John Dunne's famous quote `No man is an Island' with
+ New York Telephone's `We're all connected'" - Dad
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful    hamlet ucdavi edu dan
+delet also abomin somebodi spend money space
+advertis children starv perhap redistribut wealth
+help  dan   flame realli that abomin viewpoint
+abomin follow redistiribut wealth way ist clinto
+democrat tri everyon starv short order impossobl
+organ fair distribut depend everi man altruism say
+black market communisim anyon current method
+resourc product entir energi depend enough sourc
+cheap capit asid human capit allow stop look space
+excel sourc materi realest direct perhap mioght
+consid fact billion spent compani sponsor abc nbc
+cbs superbowl olymp even monday night basebal game
+perhap boycott game compani get finish market
+abomin space probabl much cost effect compani
+starv children peopl buy product compani hire
+worker end result fewer children die starvat
+student konsult make world safe comput never owe
+littl mani folk one must confus john dunn famous
+quot man island new york telephon we'r connect dad
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+abomin, 186, 0.391600679518
+starv, 8338, 0.293700509639
+compani, 1958, 0.236738923496
+market, 5514, 0.194579782931
+children, 1707, 0.192537262832
+wealth, 9672, 0.190612619941
+capit, 1502, 0.166503875041
+perhap, 6540, 0.165205630226
+space, 8164, 0.161421529596
+dan, 2350, 0.154297369985
+depend, 2537, 0.127058694461
+product, 6896, 0.119128271602
+dunn, 2920, 0.110936092984
+superbowl, 8554, 0.107761465025
+starvat, 8339, 0.107761465025
+nbc, 5973, 0.107761465025
+hamlet, 4140, 0.107761465025
+cbs, 1578, 0.107761465025
+abc, 170, 0.105167605115
+sourc, 8153, 0.105019536414
+ucdavi, 9186, 0.10297452781
+boycott, 1257, 0.101074797839
+man, 5471, 0.0982749225905
+redistribut, 7202, 0.0979001698795
+owe, 6357, 0.0979001698795
+worker, 9837, 0.0965442070483
+olymp, 6227, 0.0965442070483
+viewpoint, 9513, 0.0921316820112
+dad, 2333, 0.0921316820112
+island, 4781, 0.0903510058019
+fewer, 3456, 0.089537822102
+hire, 4308, 0.0873447447971
+game, 3761, 0.0862494596082
+wonderful, 9822, 0.0854450148253
+monday, 5834, 0.0827526988719
+sponsor, 8254, 0.0822703868662
+famous, 3380, 0.0800773095614
+telephon, 8763, 0.0792867260911
+advertis, 291, 0.0758832431982
+asid, 687, 0.0744449647568
+safe, 7577, 0.0739080390886
+cheap, 1677, 0.0721739319605
+student, 8468, 0.0708391873907
+spent, 8223, 0.070420720705
+energi, 3102, 0.0692344637621
+finish, 3488, 0.0688600515852
+confus, 2037, 0.0684952407866
+flame, 3518, 0.0681395512203
+excel, 3261, 0.0681395512203
+somebodi, 8121, 0.0679649865565
+folk, 3576, 0.0679649865565
+connect, 2046, 0.0679649865565
+billion, 1092, 0.0677925378802
+resourc, 7320, 0.0676221545072
+york, 9960, 0.0672873898477
+spend, 8222, 0.0666406038528
+distribut, 2753, 0.0666406038528
+buy, 1433, 0.0645836696119
+method, 5666, 0.0640467439436
+materi, 5543, 0.0626668503388
+black, 1133, 0.0621964986881
+entir, 3129, 0.0618536666388
+quot, 7045, 0.0610844608459
+delet, 2502, 0.0609778922457
+fair, 3363, 0.0602534601849
+stop, 8413, 0.0601529167162
+organ, 6287, 0.0595641358012
+die, 2628, 0.0581907060045
+night, 6063, 0.0577608593622
+money, 5835, 0.0573436200277
+effect, 3005, 0.0570184209179
+everyon, 3241, 0.0567004894392
+short, 7904, 0.0562365295766
+result, 7332, 0.0552094043774
+human, 4432, 0.0549290634524
+direct, 2667, 0.0545186453301
+allow, 432, 0.0545186453301
+cost, 2169, 0.0540543249064
+john, 4878, 0.0537956479328
+current, 2299, 0.0515477465077
+edu, 3001, 0.0504427044948
+order, 6281, 0.0502916215712
+consid, 2059, 0.0498964061129
+comput, 1993, 0.0493234357291
+end, 3091, 0.0490453778566
+fact, 3350, 0.0488177435347
+everi, 3235, 0.0487276999328
+basebal, 924, 0.0479419691416
+littl, 5308, 0.047815131675
+world, 9841, 0.0476477551374
+follow, 3578, 0.0467608092937
+probabl, 6885, 0.046528212697
+realli, 7150, 0.0422160129689
+help, 4249, 0.0417963116894
+new, 6023, 0.041442324163
+tri, 9087, 0.0412023155199
+mani, 5479, 0.040355382399
+peopl, 6530, 0.0385996436924
+anyon, 554, 0.0382300945618
+way, 9666, 0.0372156791957
+say, 7653, 0.0361200266169
+make, 5459, 0.0356828037337
+look, 5341, 0.0355045201776

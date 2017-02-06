@@ -1,0 +1,158 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105029
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cogar@g24mac1.nswc.navy.mil (John R Cogar)
+Subject: Re: Indians' Pitching
+Organization: NSWCDD
+Lines: 37
+
+In article <23APR199309564175@ariel.lerc.nasa.gov>,
+ecaxron@ariel.lerc.nasa.gov (Ron Graham) wrote:
+> 
+> In article <1993Apr23.132700.6687@bme.ri.ccf.org>, tknuth@bio.ri.ccf.org 
+>      writes...
+> 
+> >Wow!  The tribe gave up 8 more runs last night.  Their ERA is 6.08 and 
+> >opponents are hitting .304 against them.  [...]
+> >The front office is excited about calling Matt Young up next week to 
+> >join the rotation.  ^^^^^^^
+> 
+> Well, "excited" doesn't exactly mean "happy."  In this case it means, "our
+> contract says we have to bring him up by 05/01 or release him -- and we 
+> need to find somebody, someplace, to do something until some of the injured
+> pitchers recover and some of the young pitchers get ready.  So we best get
+> a move on."
+> 
+> Ok, so it's not the primary definition.  So sue me :-).
+> 
+> RG
+> Lakewood Pain & Allpaper, All-LeRC Statistical Baseball League
+> Lakewood Pain & Allpaper, Tomorrow's Heroes League
+
+I'm a little worried about this pitching thing.  6.08 is scarry even for
+the first 16 games of the season.  Mesa (sp?) seems to be settling down. 
+He pitched well against the Red Soxs, but The Rocket matched him.  I got a
+chance to watch them play against California Wednesday and he pitched well
+also.  Then the dam broke.  Wickander came in and promptly it was 6-1.  (3
+run homer by Snow?).
+
+I heard the guys on ESPN say that 7 of the TRIBE's top 10 prospects are
+pitchers.  Anyone out there like to post who these guys are and where they
+are?
+The TRIBE is on ESPN again tonight against Oakland.
+
+John R Cogar                    | Always expect the worst.
+cogar@g24mac1.nswc.navy.mil     | Join the Cleveland Sports Fan Society.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ indian pitch       bio ccf org write  wow tribe
+gave run last night era oppon hit front offic
+excit call matt young next week join rotat  well
+excit doesn't exact mean happi case mean contract
+say bring releas need find somebodi someplac
+someth injur pitcher recov young pitcher get readi
+best get move  it primari definit sue   lakewood
+pain allpap lerc statist basebal leagu lakewood
+pain allpap tomorrow hero leagu  i'm littl worri
+pitch thing scarri even first game season mesa
+seem settl pitch well red sox rocket match got
+chanc watch play california wednesday pitch well
+also dam broke wickand came prompt run homer snow
+heard guy espn say tribe top prospect pitcher
+anyon like post guy  tribe espn tonight oakland
+john cogar alway expect worst
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tribe, 9092, 0.337443123493
+pitch, 6643, 0.260976570983
+pitcher, 6644, 0.213099155062
+espn, 3192, 0.211817881378
+excit, 3265, 0.203295957999
+pain, 6389, 0.197324664855
+young, 9962, 0.159616281773
+leagu, 5176, 0.143460222638
+scarri, 7668, 0.139362416335
+someplac, 8125, 0.135374320022
+guy, 4100, 0.134207298934
+lerc, 5219, 0.124869199812
+dam, 2343, 0.121282745908
+hero, 4273, 0.118297099336
+broke, 1331, 0.116972616828
+sue, 8519, 0.113502595487
+wednesday, 9688, 0.111514733671
+oppon, 6267, 0.111514733671
+mean, 5595, 0.110464826143
+recov, 7185, 0.108894587261
+prompt, 6915, 0.108894587261
+snow, 8081, 0.108100130467
+settl, 7817, 0.108100130467
+injur, 4649, 0.108100130467
+run, 7543, 0.107672065495
+bio, 1103, 0.106609906415
+wow, 9856, 0.103351394466
+tomorrow, 8979, 0.10111443684
+prospect, 6937, 0.100596361869
+org, 6286, 0.100596361869
+match, 5541, 0.0996031988703
+matt, 5552, 0.0991265750234
+oakland, 6167, 0.0986623324274
+join, 4881, 0.0977685294351
+tonight, 8985, 0.0973378499194
+primari, 6863, 0.0953276057143
+contract, 2095, 0.0931803463192
+homer, 4355, 0.0928462742552
+worri, 9845, 0.0921962995338
+indian, 4598, 0.0921962995338
+say, 7653, 0.0907508828196
+statist, 8348, 0.0898097817456
+era, 3164, 0.089259820352
+california, 1459, 0.0889910583693
+readi, 7139, 0.0879546906722
+worst, 9849, 0.0877047238696
+somebodi, 8121, 0.0853803707877
+happi, 4161, 0.0841182699663
+gave, 3798, 0.0841182699663
+rocket, 7447, 0.0831305968575
+rotat, 7490, 0.082939447067
+sox, 8162, 0.0825631734839
+offic, 6206, 0.0791809770616
+releas, 7253, 0.078133762526
+chanc, 1649, 0.0777030830104
+definit, 2484, 0.0772825380769
+bring, 1316, 0.0755665320249
+watch, 9655, 0.0741166291072
+night, 6063, 0.0725615326248
+came, 1472, 0.0720373796617
+red, 7194, 0.0715281618816
+exact, 3253, 0.0709356545249
+expect, 3290, 0.0692675948264
+season, 7747, 0.0688305966489
+heard, 4224, 0.0679052338125
+john, 4878, 0.067580273314
+alway, 457, 0.0674999480774
+week, 9691, 0.0658184037148
+hit, 4316, 0.0624992046613
+case, 1540, 0.0621393468321
+write, 9865, 0.061612791512
+basebal, 924, 0.0602266447622
+littl, 5308, 0.0600673063958
+best, 1052, 0.0597528290439
+play, 6681, 0.0589403102624
+got, 3960, 0.0586448930399
+doesn, 2793, 0.0579740027689
+game, 3761, 0.0541750334598
+someth, 8126, 0.0526104329437
+post, 6766, 0.0521971813525
+thing, 8869, 0.0488255529811
+need, 5993, 0.0480531713995
+anyon, 554, 0.0480261942849
+like, 5272, 0.0376322413479

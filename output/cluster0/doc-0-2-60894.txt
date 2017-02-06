@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60894
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nicho@vnet.IBM.COM (Greg Stewart-Nicholls)
+Subject: Re: Biosphere II
+Reply-To: nicho@vnet.ibm.com
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+X-X-From: nicho@vnet.ibm.com
+            <1q77ku$av6@access.digex.net>
+Lines: 10
+
+In <1q77ku$av6@access.digex.net> Pat writes:
+>The Work is privately funded,  the DATA belongs to SBV.  I don't see
+>either george or Fred,  scoriating IBM research division for
+>not releasing data.
+   We publish plenty kiddo,you just have to look.
+ -----------------------------------------------------------------
+ .sig files are like strings ... every yo-yo's got one.
+
+Greg Nicholls ... nicho@vnet.ibm.com (business) or
+                  nicho@olympus.demon.co.uk (private)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biospher   news softwar urepli      work privat
+fund data belong sbv don't see either georg fred
+scoriat ibm research divis releas data publish
+plenti kiddo look  sig file like string everi yo
+got one
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+scoriat, 7709, 0.294405034282
+yo, 9955, 0.283929900956
+kiddo, 5010, 0.283929900956
+biospher, 1111, 0.283929900956
+data, 2385, 0.269691724862
+urepli, 9351, 0.2410124952
+string, 8450, 0.217201602595
+plenti, 6692, 0.208212887354
+fred, 3666, 0.203924149472
+sig, 7940, 0.196617290648
+belong, 1015, 0.19196259806
+georg, 3847, 0.183547314933
+privat, 6879, 0.177198726852
+ibm, 4472, 0.176240456109
+divis, 2767, 0.168591294537
+publish, 6974, 0.168210011611
+fund, 3723, 0.165295481597
+releas, 7253, 0.159185754946
+research, 7307, 0.140056477063
+file, 3477, 0.125999660822
+news, 6031, 0.125762447041
+everi, 3235, 0.124713703571
+softwar, 8103, 0.121526289943
+got, 3960, 0.119480123194
+work, 9833, 0.103158273734
+look, 5341, 0.0908702896089
+don, 2811, 0.0825912967968
+like, 5272, 0.0766700150562

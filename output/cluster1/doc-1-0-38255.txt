@@ -1,0 +1,149 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38255
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: cptully@med.unc.edu (Christopher P. Tully,Pathology,62699)
+Subject: Re: TIFF: philosophical significance of 42
+Nntp-Posting-Host: helix.med.unc.edu
+Reply-To: cptully@med.unc.edu
+Organization: UNC-CH School of Medicine
+Lines: 40
+
+In article 8HC@mentor.cc.purdue.edu, ab@nova.cc.purdue.edu (Allen B) writes:
+>In article <1993Apr10.160929.696@galki.toppoint.de> ulrich@galki.toppoint.de  
+>writes:
+>> According to the TIFF 5.0 Specification, the TIFF "version number"
+>> (bytes 2-3) 42 has been chosen for its "deep philosophical 
+>> significance".
+>> Last week, I read the Hitchhikers Guide To The Galaxy,
+>> Is this actually how they picked the number 42?
+>
+>I'm sure it is, and I am not amused.  Every time I read that part of the
+>TIFF spec, it infuriates me- and I'm none too happy about the
+>complexity of the spec anyway- because I think their "arbitrary but
+>carefully chosen number" is neither.  Additionally, I find their
+>choice of 4 bytes to begin a file with meaningless of themselves- why
+>not just use the letters "TIFF"?
+>
+>(And no, I don't think they should have bothered to support both word
+>orders either- and I've found that many TIFF readers actually
+>don't.)
+>
+>ab
+
+Why so up tight?  FOr that matter, TIFF6 is out now, so why not gripe
+about its problems?  Also, if its so important to you, volunteer to
+help define or critique the spec.
+
+Finally, a little numerology:  42 is 24 backwards, and TIFF is a 24 bit
+image format...
+
+Chris
+---
+*********************************************************************
+Christopher P. Tully				cptully@med.unc.edu
+Univ. of North Carolina - Chapel Hill
+CB# 7525					(919) 966-2699
+Chapel Hill, NC 27599
+*********************************************************************
+I get paid for my opinions, but that doesn't mean that UNC or anybody
+                     else agrees with them.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific       galki toppoint
+accord tiff specif tiff version number byte chosen
+deep philosoph signific last week read hitchhik
+guid galaxi actual pick number  i'm sure amus
+everi time read part tiff spec infuri i'm none
+happi complex spec anyway think arbitrari care
+chosen number neither addit find choic byte begin
+file meaningless use letter tiff  don't think
+bother support word order either i'v found mani
+tiff reader actual don't    tight matter tiff6
+gripe problem also import volunt help defin
+critiqu spec  final littl numerolog backward tiff
+bit imag format  chris    univ north carolina
+chapel hill  chapel hill  get paid opinion doesn't
+mean unc anybodi els agre
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiff, 8926, 0.564905189196
+spec, 8196, 0.274491429427
+chapel, 1657, 0.217795905819
+chosen, 1727, 0.188005950867
+hill, 4300, 0.185907708933
+byte, 1438, 0.180320605152
+philosoph, 6595, 0.177850191923
+number, 6156, 0.158576814375
+signific, 7951, 0.140084051921
+tiff6, 8927, 0.12675670093
+hitchhik, 4318, 0.117659736106
+gripe, 4053, 0.115489085442
+critiqu, 2238, 0.111861723454
+backward, 859, 0.110312386621
+carolina, 1527, 0.107596800026
+volunt, 9579, 0.105270590921
+actual, 254, 0.104532431066
+unc, 9220, 0.102306820376
+amus, 485, 0.0998009880853
+read, 7135, 0.0989672161068
+meaningless, 5597, 0.0957156878434
+arbitrari, 604, 0.0957156878434
+tight, 8929, 0.0951245051304
+univ, 9280, 0.093469952829
+paid, 6387, 0.0897380520049
+guid, 4082, 0.0897380520049
+reader, 7137, 0.0870545596615
+galaxi, 3753, 0.0870545596615
+chris, 1728, 0.0863627219334
+deep, 2466, 0.0850615690499
+bother, 1245, 0.0850615690499
+north, 6110, 0.0809415713925
+letter, 5227, 0.0802295276544
+complex, 1976, 0.0795473688388
+happi, 4161, 0.0765095401567
+choic, 1717, 0.0750951064455
+think, 8871, 0.0744609898015
+addit, 263, 0.073793953562
+don, 2811, 0.0737435562248
+pick, 6619, 0.0731804568674
+accord, 219, 0.073030633383
+begin, 994, 0.0721595821855
+defin, 2482, 0.0713328413348
+anybodi, 552, 0.0660951910618
+format, 3612, 0.0650582421156
+specif, 8203, 0.0645193286855
+care, 1516, 0.0639977096122
+final, 3482, 0.0638274909575
+version, 9479, 0.063245382056
+matter, 5553, 0.0630828233715
+agre, 337, 0.0629218742053
+import, 4551, 0.0616145626807
+opinion, 6266, 0.0608919666975
+week, 9691, 0.0598649473424
+word, 9829, 0.0582253841918
+order, 6281, 0.0574637150395
+file, 3477, 0.0562508607598
+els, 3053, 0.0561978240635
+support, 8576, 0.0559873909244
+everi, 3235, 0.055676762371
+bit, 1122, 0.0548275755738
+littl, 5308, 0.0546340526574
+imag, 4512, 0.0544904075432
+doesn, 2793, 0.0527300941242
+sure, 8585, 0.0523495784488
+problem, 6887, 0.0511419144212
+mean, 5595, 0.0502364887859
+help, 4249, 0.0477568881174
+mani, 5479, 0.0461104677487
+time, 8936, 0.0386239592677
+use, 9363, 0.0359014656268

@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38947
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: adaptive@cs.nps.navy.mil (zyda res acct)
+Subject: Re: Human head modeling software
+Organization: Naval Postgraduate School, Monterey
+Lines: 36
+
+>In article <C65wBp.6K4@taurus.cs.nps.navy.mil> adaptive@cs.nps.navy.mil (zyda res acct) writes:
+>>>Hi, there!
+>>>I am interested in facial animation and want to implement some program about this area.
+>>>But I don't have any 3-D information for the face.
+>>>I am looking for some 3D images of face.
+>>
+>>Try getting the Cyberware_demo via ftp which contains 3D images of the
+>>face.
+>>
+>
+>What is the copyright status of this data?  Are there restrictions regarding the
+>uses they can be put to?
+>
+>Kaveh
+>
+>
+>-- 
+>Kaveh Kardan
+>kardank@ERE.UMontreal.CA
+
+Kaveh,
+
+all of the data included with in the Cyberware_demo is
+non-proprietary, use it as you like. I just ask that you give us
+credit if you use it in a research paper/project and send us the
+results.
+
+thanks,
+
+geo
+Cyberware
+-- 
+george dabrowski
+Cyberware Labs
+
+dabro@taurus.cs.nps.navy.mil
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ human head model softwar      interest facial
+anim want implement program area don't inform face
+look imag face  tri get cyberwar demo via ftp
+contain imag face   copyright status data restrict
+regard use put  kaveh    kaveh kardan   kaveh
+data includ cyberwar demo non proprietari use like
+ask give credit use research paper project send
+result  thank  geo cyberwar  georg dabrowski
+cyberwar lab
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cyberwar, 2324, 0.558664482536
+kaveh, 4964, 0.467630322315
+face, 3345, 0.257942714293
+demo, 2517, 0.238486225148
+kardan, 4955, 0.155876774105
+facial, 3347, 0.151416090914
+data, 2385, 0.148060052614
+imag, 4512, 0.134017198068
+use, 9363, 0.132447545726
+geo, 3834, 0.130833797586
+proprietari, 6935, 0.124729158742
+copyright, 2135, 0.118459082855
+restrict, 7330, 0.110873011168
+status, 8352, 0.108872323276
+credit, 2225, 0.10662386641
+georg, 3847, 0.100766996541
+implement, 4544, 0.0964976085452
+lab, 5085, 0.0943146933622
+paper, 6409, 0.0890876630672
+contain, 2079, 0.0878861738813
+anim, 515, 0.0862861045152
+head, 4215, 0.0843808353982
+model, 5807, 0.0838293467569
+regard, 7224, 0.0818870244404
+area, 622, 0.0812793729321
+ftp, 3709, 0.0808062101229
+non, 6097, 0.0792331362983
+result, 7332, 0.077574967922
+human, 4432, 0.0771810597009
+research, 7307, 0.076890640132
+send, 7785, 0.0767947637114
+project, 6909, 0.074197309253
+ask, 689, 0.0692389191402
+includ, 4579, 0.0687853133966
+softwar, 8103, 0.0667176157971
+inform, 4637, 0.0657038111872
+program, 6905, 0.0620500167178
+tri, 9087, 0.0578935480433
+thank, 8832, 0.0559815243408
+want, 9634, 0.0544543170017
+look, 5341, 0.0498875516757
+don, 2811, 0.0453424062435
+like, 5272, 0.0420916380321

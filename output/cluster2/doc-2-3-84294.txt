@@ -1,0 +1,121 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84294
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: Is it good that Jesus died?
+Organization: Starfleet Headquarters: San Francisco
+Lines: 23
+
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+> 
+>Even though a new-born is innocent as can be, his sinful nature
+>will surely manifest itself more explicity as he gets older.  For
+>as surely as he grows hair on his head and teeth within his mouth,
+>he will show the signs of his innate sin by rebelling
+>against mommy and daddy with that loud proclamation "No."
+
+That's not "showing the signs of his innate sin", that's testing the
+limits of his newfound independence.  A two-year-old will continually
+test you to see just how much he can get away with, just as a pet dog
+will.
+
+If a child always submitted to your will in a docile fashion, would
+you praise him and suspect that he's the Second Coming of Christ, or
+would you seek professional help about his emotional development?
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die      even though new born innoc
+sin natur sure manifest explic get older sure grow
+hair head teeth within mouth show sign innat sin
+rebel mommi daddi loud proclam  that show sign
+innat sin that test limit newfound independ two
+year old continu test see much get away pet dog
+child alway submit docil fashion prais suspect he
+second come christ seek profession help emot
+develop   brian kendig sui fait comm aucun  n'etr
+fait comm aucun ceux qui exist mean life vaux pas
+mieux moin sui autr end rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sin, 7976, 0.270257445217
+innat, 4655, 0.26516810294
+sui, 8527, 0.237034407385
+aucun, 775, 0.237034407385
+fait, 3366, 0.230968568798
+comm, 1932, 0.222639983518
+sign, 7946, 0.169794836321
+test, 8812, 0.153355722212
+proclam, 6893, 0.141355233261
+mommi, 5830, 0.141355233261
+daddi, 2334, 0.141355233261
+rebel, 7157, 0.13507600695
+explic, 3303, 0.13507600695
+pet, 6573, 0.126641085514
+teeth, 8748, 0.123523531406
+prais, 6798, 0.120852991359
+sure, 8585, 0.120196972327
+mouth, 5890, 0.119648577039
+rousseau, 7497, 0.118517203692
+qui, 7034, 0.118517203692
+mieux, 5706, 0.118517203692
+ceux, 1626, 0.118517203692
+vaux, 9438, 0.117450516528
+loud, 5361, 0.117450516528
+moin, 5820, 0.116441517028
+etr, 3212, 0.116441517028
+manifest, 5481, 0.115484284399
+autr, 807, 0.115484284399
+pas, 6445, 0.114573765048
+hair, 4119, 0.112081809568
+kendig, 4982, 0.111319991759
+emot, 3073, 0.110588056975
+dog, 2795, 0.110588056975
+submit, 8491, 0.107917516928
+fashion, 3396, 0.107305595064
+innoc, 4658, 0.106138843612
+child, 1705, 0.105040765448
+older, 6218, 0.103506042597
+seek, 7766, 0.0995392326974
+grow, 4066, 0.098761539137
+profession, 6900, 0.0969482746255
+born, 1233, 0.0956147113832
+independ, 4595, 0.0934882899035
+suspect, 8603, 0.0903266177013
+brian, 1304, 0.0876237905447
+christ, 1729, 0.0862108607058
+limit, 5278, 0.0815857558923
+natur, 5966, 0.0790369907952
+head, 4215, 0.0787741421568
+continu, 2092, 0.0787741421568
+die, 2628, 0.0763311896235
+jesus, 4859, 0.0758787566816
+away, 833, 0.0739684824503
+old, 6216, 0.0705660076192
+alway, 457, 0.0704821335687
+develop, 2588, 0.0695039911953
+life, 5260, 0.0687262976349
+exist, 3283, 0.0669130331234
+second, 7753, 0.0649468009947
+end, 3091, 0.0643348791307
+mean, 5595, 0.0576726119992
+help, 4249, 0.0548259750084
+new, 6023, 0.0543616347237
+come, 1923, 0.0541163098506
+good, 3948, 0.0479718634513
+year, 9943, 0.0469010018218

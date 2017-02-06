@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61229
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Organization: Queen's University at Kingston
+From: Graydon <SAUNDRSG@QUCDN.QueensU.CA>
+Subject: Re: Gamma Ray Bursters. Where are they?
+ <1993Apr24.221344.1@vax1.mankato.msus.edu>
+Lines: 8
+
+If all of these things have been detected in space, has anyone
+looked into possible problems with the detectors?
+
+That is, is there some mechanism (cosmic rays, whatever) that
+could cause the dector to _think_ it was seeing one of these
+things?
+
+Graydon
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  gamma ray burster    thing detect space anyon
+look possibl problem detector  mechan cosmic ray
+whatev could caus dector think see one thing
+graydon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ray, 7118, 0.383356188968
+dector, 2459, 0.357568781095
+graydon, 4012, 0.338975813555
+detector, 2580, 0.275406037656
+cosmic, 2164, 0.273534108349
+thing, 8869, 0.250548087854
+detect, 2579, 0.247611134728
+burster, 1418, 0.242675633731
+mechan, 5603, 0.228328591785
+gamma, 3762, 0.224395676964
+whatev, 9718, 0.200100206491
+caus, 1569, 0.185631896316
+possibl, 6765, 0.150342873329
+problem, 6887, 0.144266550551
+space, 8164, 0.130073310741
+anyon, 554, 0.123223091295
+look, 5341, 0.114438030598
+think, 8871, 0.105023739049

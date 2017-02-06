@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104405
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: brock@NeXTwork.Rose-Hulman.Edu (Bradley W. Brock)
+Subject: Re: Tribune & Times
+Organization: Computer Science Department at Rose-Hulman
+Lines: 20
+Reply-To: brock@NeXTwork.Rose-Hulman.Edu (Bradley W. Brock)
+NNTP-Posting-Host: g210b-1.nextwork.rose-hulman.edu
+
+In article <C5C9JA.AMB@unix.amherst.edu> ddsokol@unix.amherst.edu (D. DANIEL  
+SOKOL) writes:
+> pjtier01@ulkyvx.louisville.edu wrote:
+> > 
+> > Is the Chicago Tribune baseball coverage any good?  Does the New York Times
+> > have daily coverage/boxscores?
+> 
+> I don't know about the Tribune but the Times has daily coverage and  
+boxscores.
+> Of course, they have special emphasis on the Yankees and Mets
+
+Beware.  The original poster looks to be from Louisville, and chances are  
+Louisville gets the edition of the NYTimes that is printed in Chicago for the  
+MidWest.  This edition has boxscores only on Monday (and Sunday) and an  
+extremely skimpy sports section (few game summaries, mostly just color  
+stories).
+--
+Bradley W. Brock, Department of Mathematics
+Rose-Hulman Institute of Technology  | "Resist not evil.... Love your enemies."
+brock@nextwork.rose-hulman.edu       | --some Nazarene carpenter
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tribun time      unix amherst edu daniel
+chicago tribun basebal coverag good new york time
+daili coverag boxscor  don't know tribun time
+daili coverag boxscor cours special emphasi yanke
+met  bewar origin poster look louisvill chanc
+louisvill get edit nytim print chicago midwest
+edit boxscor monday sunday extrem skimpi sport
+section game summari most color stori  bradley
+brock depart mathemat rose hulman institut
+technolog resist evil love enemi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tribun, 9093, 0.417664723313
+boxscor, 1255, 0.407611372785
+coverag, 2195, 0.324675391123
+louisvill, 5364, 0.28664601996
+daili, 2338, 0.213823392681
+chicago, 1701, 0.18472424035
+edit, 2996, 0.175168068784
+amherst, 471, 0.14332300998
+time, 8936, 0.13101560846
+midwest, 5705, 0.130582787529
+brock, 1328, 0.130582787529
+bewar, 1064, 0.126481351987
+bradley, 1264, 0.121659029706
+enemi, 3100, 0.114683913404
+emphasi, 3075, 0.11284435384
+resist, 7314, 0.109639693993
+monday, 5834, 0.106911696341
+daniel, 2359, 0.105685891821
+rose, 7481, 0.101943690953
+poster, 6769, 0.0988360247658
+evil, 3247, 0.0988360247658
+summari, 8536, 0.0961785848036
+mathemat, 5545, 0.0951476460616
+sunday, 8541, 0.0923621201751
+extrem, 3333, 0.0909794944544
+section, 7759, 0.0904543085612
+sport, 8257, 0.0889632002997
+print, 6871, 0.0880323555383
+york, 9960, 0.0869314123771
+depart, 2535, 0.0863011704371
+yanke, 9933, 0.085691824388
+institut, 4683, 0.0845305800182
+unix, 9284, 0.0841592490908
+stori, 8418, 0.0830882516572
+special, 8198, 0.0819128577442
+met, 5655, 0.0817509161173
+chanc, 1649, 0.0799113565526
+color, 1907, 0.0738733677867
+technolog, 8743, 0.0730517670661
+love, 5366, 0.0729516019368
+origin, 6293, 0.0653663395476
+edu, 3001, 0.0651690540498
+cours, 2190, 0.0628954768212
+basebal, 924, 0.0619382487425
+game, 3761, 0.0557146543912
+new, 6023, 0.0535410836984
+good, 3948, 0.0472477615744
+look, 5341, 0.0458697846921
+don, 2811, 0.041690689199
+know, 5052, 0.0395907548484

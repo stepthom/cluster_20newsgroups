@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102698
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luigi@sgi.com (Randy Palermo)
+Subject: Re: My 1993 Predictions
+Article-I.D.: odin.C52w7y.n09
+Organization: Silicon Graphics, Inc., Mountain View, CA
+Lines: 33
+Nntp-Posting-Host: bullpen.csd.sgi.com
+
+In article <1993Apr6.143616.3588@infonode.ingr.com> kenney@tribe.b17d.ingr.com writes:
+>I thought I'd post my predicted standings since I find those posted by others
+>to be interesting.  Sorry this is after Opening Day.  I certify that these
+>were completed before the first pitch. :-)
+>
+>
+>NL West - The 2 best teams in baseball are in this division.
+>1.  Atlanta Braves - Awesome starters, but offense could be a concern
+>2.  Cincinnati Reds - Would not surprise me if they won it all
+>3.  Houston Astros -Any team that signs Uribe won't contend. Closer to 4 than 2
+>4.  San Diego Padres - Plantier could be the Sheffield of 1993
+>5.  Los Angeles Dodgers - better pitching than the Giants
+>6.  San Francisco Giants - because the Rockies just stink
+>7.  Colorado Rockies - will become the Seattle Mariners of the NL.
+>
+>
+>NLCS  Montreal d. Atlanta  (Braves fans, yes I'm probably contradicting
+>                            what I said in my NL West comment.)
+>ALCS  New York d. Minnesota
+>
+>World Series  New York d. Montreal - Hating the Yankees will be
+>                                     fashionable again
+>
+>NL MVP:  Barry Bonds, or maybe McGriff
+
+I guarantee that if Bonds wins the MVP the Giants will finish higher
+than 6th. 
+
+luigi
+--
+Randy Palermo   luigi@csd.sgi.com    Fax: (415)961-6502
+Silicon Graphics Computer Systems, 2011 N. Shoreline Blvd Mt. View, CA 94039
+"Play an accordion, go to jail. That's the LAW"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ predict articl odin c52w7i n09      thought i'd
+post predict stand sinc find post other interest
+sorri open day certifi complet first pitch   west
+best team basebal divis atlanta brave awesom
+starter offens could concern cincinnati red
+surpris houston astro team sign urib won't contend
+closer san diego padr plantier could sheffield los
+angel dodger better pitch giant san francisco
+giant rocki stink colorado rocki becom seattl
+marin   nlcs montreal atlanta brave fan yes i'm
+probabl contradict said west comment alc new york
+minnesota  world seri new york montreal hate yanke
+fashion  mvp barri bond mayb mcgriff  guarante
+bond win mvp giant finish higher 6th  luigi
+silicon graphic comput system shorelin blvd view
+play accordion jail that law
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+giant, 3865, 0.239159538718
+mvp, 5937, 0.203860242392
+montreal, 5848, 0.196282131216
+rocki, 7450, 0.17896794503
+bond, 1211, 0.173480567861
+atlanta, 749, 0.169183644956
+west, 9708, 0.168737172078
+york, 9960, 0.165761646343
+predict, 6816, 0.158765678495
+san, 7603, 0.158433470823
+brave, 1277, 0.149957699129
+urib, 9354, 0.13664484128
+alc, 389, 0.13664484128
+accordion, 220, 0.13664484128
+nlcs, 6082, 0.129539542292
+pitch, 6643, 0.127943756493
+stink, 8398, 0.126838232987
+shorelin, 7903, 0.126838232987
+odin, 6199, 0.124498252432
+certifi, 1622, 0.124498252432
+plantier, 6671, 0.120587924225
+mcgriff, 5579, 0.118917725456
+blvd, 1182, 0.117392953444
+team, 8732, 0.11636956243
+jail, 4818, 0.115990299163
+sheffield, 7871, 0.113482625237
+awesom, 835, 0.109340190014
+6th, 134, 0.105992171767
+silicon, 7955, 0.103843710314
+post, 6766, 0.102358666687
+new, 6023, 0.102092649114
+contend, 2083, 0.101930121196
+padr, 6379, 0.101336036388
+fashion, 3396, 0.100761433321
+cincinnati, 1760, 0.100761433321
+guarante, 4076, 0.0996658376202
+francisco, 3652, 0.0991426995632
+minnesota, 5744, 0.0986347270835
+los, 5349, 0.0981410656078
+marin, 5511, 0.0954397563029
+seattl, 7749, 0.0950274120195
+houston, 4399, 0.0920374005753
+contradict, 2098, 0.0920374005753
+barri, 918, 0.0913633242596
+starter, 8335, 0.0903984664425
+dodger, 2791, 0.0903984664425
+closer, 1831, 0.0891894475402
+astro, 724, 0.0886148444726
+hate, 4202, 0.088334457315
+diego, 2629, 0.088334457315
+colorado, 1908, 0.0877867932588
+angel, 509, 0.087519248772
+finish, 3488, 0.0848179394671
+offens, 6202, 0.0824779589117
+yanke, 9933, 0.0816989940703
+divis, 2767, 0.0811366841099
+higher, 4293, 0.0804139497841
+sign, 7946, 0.0797198462393
+surpris, 8593, 0.0788891777717
+stand, 8311, 0.0759118970389
+concern, 2004, 0.0757755241834
+law, 5153, 0.0752404040243
+won, 9820, 0.0747211416332
+seri, 7805, 0.0714623317165
+comment, 1936, 0.0703313700634
+becom, 983, 0.0702320846789
+red, 7194, 0.0701333586516
+fan, 3381, 0.0697439243251
+open, 6258, 0.0695524052221
+view, 9510, 0.0684452693015
+complet, 1975, 0.0677442228788
+sorri, 8142, 0.0675732573911
+yes, 9951, 0.0638338946715
+win, 9770, 0.0636969891041
+mayb, 5564, 0.0613399703136
+thought, 8887, 0.061162061948
+comput, 1993, 0.0607538346207
+basebal, 924, 0.0590522217596
+world, 9841, 0.0586898254931
+best, 1052, 0.0585876454748
+said, 7583, 0.058334772061
+play, 6681, 0.0577909708558
+graphic, 3997, 0.0576938857128
+probabl, 6885, 0.0573108360682
+articl, 665, 0.0564784135518
+sinc, 7977, 0.0534194627827
+better, 1060, 0.0524241516935
+day, 2402, 0.0519643680927

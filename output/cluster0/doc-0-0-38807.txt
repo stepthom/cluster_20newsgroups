@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38807
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Front end for POVRay
+From: Tomasz.Piatek@comp.vuw.ac.nz (Tomasz Piatek)
+Organization: Dept. of Comp. Sci., Victoria Uni. of Wellington, New Zealand.
+Keywords: POVRay
+NNTP-Posting-Host: regent.comp.vuw.ac.nz
+Lines: 19
+
+G'day all!
+
+Does anyone know anything about front end for POVRay (X11 version)?
+I mean are there things like user friendly modeller for POVRay, or any
+modellers which will let me design a scene and produce a file which POVRay
+can then read?
+Cheers,
+Tomek
+
++------------------------------------------------------+
+|  /\      tm                                          |
+| /--\TOMEK     tpiatek@comp.vuw.ac.nz <-- New Zealand |
++------------------------------------------------------+
+
+-- 
++------------------------------------------------------+
+|  /\      tm                                          |
+| /--\TOMEK     tpiatek@comp.vuw.ac.nz <-- New Zealand |
++------------------------------------------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+front end povray       g'day  anyon know anyth
+front end povray x11 version mean thing like user
+friend model povray model let design scene produc
+file povray read cheer tomek
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+povray, 6780, 0.785458377299
+model, 5807, 0.26613760017
+end, 3091, 0.218784616577
+x11, 9883, 0.185687663402
+scene, 7671, 0.180474001952
+cheer, 1687, 0.150079848822
+friend, 3692, 0.141982389497
+produc, 6895, 0.140584278698
+user, 9366, 0.136968601523
+version, 9479, 0.123458063712
+design, 2564, 0.123299005825
+file, 3477, 0.109804417742
+anyth, 555, 0.108784008857
+let, 5225, 0.100212446586
+mean, 5595, 0.0980640709497
+read, 7135, 0.0965944111197
+day, 2402, 0.0940966101575
+thing, 8869, 0.0866888159582
+anyon, 554, 0.0852695702013
+know, 5052, 0.0683501434052
+like, 5272, 0.0668153097123

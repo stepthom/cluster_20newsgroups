@@ -1,0 +1,117 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104761
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jplee@cymbal.calpoly.edu (Jason Lee)
+Subject: Re: Braves Update!!
+Organization: California Polytechnic State University, San Luis Obispo
+Lines: 24
+
+And then cosper@seq.uncwil.edu (Kit Cosper) quoth:
+=>A comment made by one of the Braves announcers, attributed to
+=>an anonymous player after Friday night's game,
+=>
+=>	"I'm sorry we didn't tie it up, I wanted to see some more
+=>	 umpiring."
+=>
+=>Just about sums it up.............
+
+Sure, like Ron Gant wasn't completely out of line.
+
+If I were Hirschbeck, I would have ejected, in order, Ron Gant, every single
+last Brave who came onto the field, and possibly Bobby Cox, depending on the
+language he used.  Since Cox was the only Brave rung up, I suspect I would
+have thrown him out too.
+
+You simply cannot show up an umpire like Ron Gant did.  It is disrespectful
+of not only the home plate umpire, but of the dignity of the game.
+
+-- 
+Jason Lee   jplee@oboe.calpoly.edu   jlee@cash.busfac.calpoly.edu    Giants
+e ^ i*pi + 1 = 0    The most beautiful equation in mathematics.      Magic
+For all sad words of tongue and pen, the saddest are these:          Number:
+     "It might have been."            John Greenleaf Whittier        150
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat     comment made one brave announc
+attribut anonym player friday night game  i'm
+sorri didn't tie want see umpir  sum  sure like
+ron gant wasn't complet line  hirschbeck eject
+order ron gant everi singl last brave came onto
+field possibl bobbi cox depend languag use sinc
+cox brave rung suspect thrown  simpli cannot show
+umpir like ron gant disrespect home plate umpir
+digniti game   cash busfac calpoli edu giant
+beauti equat mathemat magic sad word tongu pen
+saddest number might john greenleaf whittier
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brave, 1277, 0.331703455176
+gant, 3766, 0.327267088959
+umpir, 9210, 0.316666270996
+ron, 7472, 0.304248319994
+cox, 2198, 0.251021315425
+saddest, 7574, 0.143269448684
+greenleaf, 4029, 0.143269448684
+busfac, 1422, 0.143269448684
+whittier, 9740, 0.140281827391
+digniti, 2643, 0.140281827391
+calpoli, 1467, 0.137693832111
+tongu, 8983, 0.131521824637
+eject, 3022, 0.126847820625
+hirschbeck, 4310, 0.125510657713
+cash, 1542, 0.125510657713
+pen, 6511, 0.119935041139
+game, 3761, 0.117497327374
+thrown, 8900, 0.114118661532
+bobbi, 1190, 0.114118661532
+sum, 8532, 0.111441145654
+friday, 3690, 0.108543044958
+beauti, 978, 0.106022462528
+sad, 7571, 0.103375468191
+magic, 5435, 0.103375468191
+equat, 3157, 0.101792451984
+attribut, 773, 0.101046930265
+tie, 8923, 0.100329026899
+mathemat, 5545, 0.100329026899
+plate, 6674, 0.0983222868869
+anonym, 532, 0.0962168354099
+suspect, 8603, 0.0938077996182
+languag, 5113, 0.0935577164717
+announc, 524, 0.0889370307184
+giant, 3865, 0.0881693590837
+depend, 2537, 0.0865458003252
+wasn, 9652, 0.0841098150391
+updat, 9333, 0.0839578050446
+like, 5272, 0.081618551925
+singl, 7983, 0.0803737928517
+simpli, 7967, 0.0793922578062
+night, 6063, 0.0786874101324
+came, 1472, 0.0781190064936
+comment, 1936, 0.0777857975711
+complet, 1975, 0.0749244384506
+sorri, 8142, 0.0747353523172
+home, 4354, 0.0747353523172
+john, 4878, 0.0732856169206
+field, 3466, 0.0729395153138
+word, 9829, 0.0694202075007
+edu, 3001, 0.0687179141827
+order, 6281, 0.0685120944614
+player, 6683, 0.0668769621244
+everi, 3235, 0.0663815696608
+didn, 2625, 0.0647410957864
+line, 5285, 0.0642419821543
+possibl, 6765, 0.0635430013413
+number, 6156, 0.0630219706375
+sure, 8585, 0.0624146778751
+sinc, 7977, 0.0590813958924
+want, 9634, 0.0527953140758
+use, 9363, 0.0428041347942

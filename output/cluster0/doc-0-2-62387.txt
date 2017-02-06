@@ -1,0 +1,194 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62387
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tombaker@bumetb.bu.edu (Thomas A. Baker)
+Subject: Re: Another SF Irritation RELIEVED! Doctor Who vindicated.
+Reply-To: tombaker@world.std.com (Thomas A. Baker)
+Organization: Thomas A. Baker, UNLIMITED
+Lines: 35
+
+In article <schumach.736495556@convex.convex.com> schumach@convex.com (Richard A. Schumacher) writes:
+>This "reverse the polarity!" crap always bugged the hell out of me, too,
+>until I found an actual, live, real-life example of it working! I quote
+>from Aviation Week and Space Technology for 2 July 1990, page 25:
+>
+>	He [Colonel Charles F. Stirling, speaking of the problem of
+>	fuel bubble formation in Titan 4 Aerojet LR87 engines] said
+>	engineers at NASA's Jet Propulsion Laboratory had run into
+>	the same problem and suggested that the Air Force look at the
+>	effect of Aerozene 50 decomposition. The fix, now flown three
+>	times without incident, was to reverse the inlet and outlet
+>	portions of the hot gas cooler.
+>
+>! Once again, life imitates art. 
+
+How about the discussion of the STS Tether experiment.  Ran forward,
+it would suck energy from the Earth's magnetic field, while trivially
+slowing the Shuttle.  It could also have run backward -- if they ran 
+electricity through the tether the other way, it would have trivially
+propelled the Shuttle faster.
+
+But an even better example comes to mind.  There's this electronics guy,
+someone like Craig Anderton or Don Lancaster.  Ten years ago he wrote about
+an invention of his.  He could take a light-detector, run current through
+it at about a hundred times its rating, and it would glow.  He got legal
+rights to this design of a combination "fiber optic emitter/receiver".  This
+turned out to be the basic unit of ATT's  (I think) plan to bring Brazil's
+communications system into the 21st century.  (The article was mostly about
+his legal wranglings with the company that eventually got him well-compensated
+for his invention.)
+
+tombaker
+(yes that's my real name)
+                                   (My employer's opinion's are not my own.)
+                                   (I am self-employed)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ anoth irrit reliev doctor vindic      revers
+polar crap alway bug hell found actual live real
+life exampl work quot aviat week space technolog
+page  colonel charl stirl speak problem fuel bubbl
+format titan aerojet lr87 engin said engin nasa
+jet propuls laboratori run problem suggest air
+forc look effect aerozen decomposit fix flown
+three time without incid revers inlet outlet
+portion hot gas cooler  life imit art  discuss sts
+tether experi ran forward suck energi earth magnet
+field trivial slow shuttl could also run backward
+ran electr tether way trivial propel shuttl faster
+even better exampl come mind there electron guy
+someon like craig anderton lancast ten year ago
+wrote invent could take light detector run current
+hundr time rate glow got legal right design combin
+fiber optic emitt receiv turn basic unit att think
+plan bring brazil communic system 21st centuri
+articl most legal wrangl compani eventu got well
+compens invent  tombak yes that real name employ
+opinion self employ
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tether, 8817, 0.22381240419
+invent, 4741, 0.201608181095
+trivial, 9110, 0.198233070497
+revers, 7356, 0.186330432309
+ran, 7089, 0.182191273711
+employ, 3077, 0.17371213293
+legal, 5200, 0.160476127635
+run, 7543, 0.144741520801
+shuttl, 7929, 0.12893334825
+engin, 3109, 0.124956387075
+imit, 4525, 0.124894839964
+colonel, 1905, 0.124894839964
+brazil, 1280, 0.124894839964
+decomposit, 2451, 0.121320758344
+bubbl, 1356, 0.121320758344
+glow, 3913, 0.118400521029
+fiber, 3462, 0.118400521029
+life, 5260, 0.117971246693
+exampl, 3258, 0.116191126386
+21st, 64, 0.11593149556
+irrit, 4772, 0.113792728416
+real, 7144, 0.109819125851
+backward, 859, 0.108692067337
+att, 759, 0.107298409482
+compens, 1968, 0.106016368533
+got, 3960, 0.105113627096
+flown, 3557, 0.103724327862
+crap, 2210, 0.103724327862
+problem, 6887, 0.100781436724
+polar, 6716, 0.0999380979583
+propel, 6923, 0.0983350650785
+magnet, 5437, 0.0968779736301
+aviat, 823, 0.0968779736301
+detector, 2580, 0.0961962979341
+sts, 8462, 0.0949142569851
+doctor, 2786, 0.0926222163143
+optic, 6273, 0.0906174831008
+incid, 4575, 0.0901531908453
+reliev, 7258, 0.0897019789999
+titan, 8951, 0.0892631306914
+portion, 6752, 0.0892631306914
+electr, 3030, 0.0892631306914
+craig, 2208, 0.0892631306914
+charl, 1668, 0.0868560664651
+suck, 8515, 0.0857758620824
+gas, 3780, 0.0844403420811
+bug, 1373, 0.0812553555774
+hot, 4389, 0.0809949114444
+laboratori, 5090, 0.0807386345967
+slow, 8044, 0.0792815431482
+jet, 4860, 0.0792815431482
+electron, 3034, 0.0790510792976
+communic, 1950, 0.0790510792976
+fix, 3511, 0.0788238845483
+eventu, 3233, 0.0788238845483
+centuri, 1614, 0.0788238845483
+faster, 3399, 0.0785998674522
+art, 660, 0.0783789403458
+hundr, 4440, 0.0779460231469
+fuel, 3715, 0.0779460231469
+energi, 3102, 0.0779460231469
+propuls, 6936, 0.077733874863
+combin, 1921, 0.077733874863
+page, 6382, 0.0763226641714
+time, 8936, 0.0761132654304
+air, 357, 0.0753857326943
+self, 7776, 0.0743292864786
+hell, 4245, 0.0734992063736
+unit, 9278, 0.0727100338898
+forward, 3621, 0.0727100338898
+speak, 8192, 0.0705520271499
+receiv, 7167, 0.0700224925994
+rate, 7108, 0.069509906095
+quot, 7045, 0.0687705304598
+wrote, 9871, 0.06794896775
+bring, 1316, 0.0677217730006
+experi, 3295, 0.0670589075961
+compani, 1958, 0.0666317633153
+forc, 3594, 0.0663187182769
+basic, 937, 0.0659106207544
+plan, 6660, 0.065414699986
+effect, 3005, 0.064192873248
+format, 3612, 0.0641026366078
+turn, 9158, 0.0637466894865
+light, 5267, 0.0637466894865
+technolog, 8743, 0.0636589250956
+mind, 5733, 0.0623970948259
+ago, 336, 0.0623970948259
+design, 2564, 0.0622361189858
+discuss, 2708, 0.0616079223421
+suggest, 8525, 0.06107776175
+alway, 457, 0.0604926021979
+nasa, 5956, 0.0602785638955
+field, 3466, 0.0602785638955
+guy, 4100, 0.0601374443811
+opinion, 6266, 0.0599975573673
+week, 9691, 0.0589856233467
+live, 5310, 0.0587262336895
+yes, 9951, 0.0583448594515
+current, 2299, 0.0580338407223
+earth, 2956, 0.0557952791038
+said, 7583, 0.0533186028292
+someon, 8124, 0.0523394837377
+articl, 665, 0.0516218713848
+anoth, 533, 0.0516218713848
+actual, 254, 0.0514985052196
+right, 7399, 0.0487222877951
+better, 1060, 0.0479162328754
+come, 1923, 0.0464463295654
+space, 8164, 0.0454331759019
+work, 9833, 0.0453771724838
+way, 9666, 0.0418984135124
+year, 9943, 0.0402536572353
+look, 5341, 0.0399719446242
+think, 8871, 0.0366836361965
+like, 5272, 0.0337255401006

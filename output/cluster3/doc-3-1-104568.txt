@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104568
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: thf2@kimbark.uchicago.edu (Ted Frank)
+Subject: Re: Sandberg, Runs, RBIs (was: Re: Notes on Jays vs. Indians Series)
+Reply-To: thf2@midway.uchicago.edu
+Organization: University of Chicago
+Distribution: na
+Lines: 23
+
+In article <C5JqBy.M7A@news.rich.bnr.ca> bratt@crchh7a9.NoSubdomain.NoDomain (John Bratt) writes:
+>RBIs and Runs scored are the two most important offensive statistics.  You
+>can talk about OBP and SLG% all you want, but the fact remains:
+>
+>	The team that scores more runs wins the game!
+>	---------------------------------------------
+>
+>Flame Away
+
+So what does that have to do with RBI's?  The team with the most RBI's
+doesn't necessarily win the game.
+
+Yes, runs are the most important statistice -- for a *team*.  (So why does
+every newspaper rank team offense by batting average?)
+
+But for an individual player, runs and RBIs are context-dependent, and tell
+us very little about the player himself, and more about his teammates and
+position in the batting order.
+-- 
+ted frank                 | 
+thf2@kimbark.uchicago.edu |         I'm sorry, the card says "Moops."
+the u of c law school     | 
+standard disclaimers      | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sandberg run rbis note jay indian seri       rbis
+run score two import offens statist talk obp slg
+want fact remain  team score run win game   flame
+away  rbi team rbi doesn't necessarili win game
+yes run import statistic team everi newspap rank
+team offens bat averag  individu player run rbis
+context depend tell littl player teammat posit bat
+order  ted frank  law school standard disclaim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rbis, 7125, 0.409543595037
+run, 7543, 0.33745482594
+team, 8732, 0.297573610651
+rbi, 7124, 0.23116180464
+offens, 6202, 0.210907934342
+score, 7705, 0.19376885037
+bat, 942, 0.184118306903
+import, 4551, 0.169848101475
+win, 9770, 0.16288230908
+player, 6683, 0.154625215863
+teammat, 8733, 0.146641466828
+game, 3761, 0.135831899592
+rank, 7096, 0.135518569438
+sandberg, 7606, 0.131111184574
+newspap, 6035, 0.13032494737
+slg, 8028, 0.12956536747
+obp, 6177, 0.119506430737
+ted, 8745, 0.118572734755
+indian, 4598, 0.11558090232
+statist, 8348, 0.112589069885
+necessarili, 5991, 0.112241691435
+context, 2087, 0.112241691435
+disclaim, 2691, 0.10995008665
+flame, 3518, 0.107311103416
+school, 7685, 0.105453967171
+remain, 7264, 0.104950452471
+jay, 4832, 0.100050620066
+depend, 2537, 0.100050620066
+individu, 4604, 0.0979515535883
+law, 5153, 0.0962002358037
+frank, 3655, 0.095865819727
+averag, 816, 0.0953733721855
+standard, 8313, 0.0917808211618
+seri, 7805, 0.0913697002475
+away, 833, 0.0888062835643
+posit, 6761, 0.0879741548864
+yes, 9951, 0.0816161980959
+note, 6118, 0.0808390521725
+order, 6281, 0.079202890344
+fact, 3350, 0.0768817203984
+everi, 3235, 0.0767399132086
+talk, 8684, 0.0757716253208
+littl, 5308, 0.0753027345813
+tell, 8767, 0.073215527694
+doesn, 2793, 0.0726784869351
+want, 9634, 0.0610336248554

@@ -1,0 +1,45 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84436
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: psyrobtw@ubvmsb.cc.buffalo.edu (Robert Weiss)
+Subject: 26 Apr 93   God's Promise in Matthew 5:6
+Organization: University at Buffalo
+Lines: 7
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsb.cc.buffalo.edu
+
+
+	Blessed are those
+	who hunger and thirst
+	for righteousness,
+	for they will be filled.
+
+	Matthew 5:6 (NIV)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis matthew   news softwar vax vms vnew
+bless hunger thirst righteous fill  matthew niv
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+matthew, 5554, 0.483357099584
+thirst, 8874, 0.364045760852
+hunger, 4442, 0.345116001398
+niv, 6079, 0.331685123322
+bless, 1155, 0.282381687108
+righteous, 7400, 0.265527226257
+promis, 6913, 0.219208173612
+vnew, 9564, 0.212387616008
+vms, 9563, 0.206040318943
+vax, 9439, 0.203724809799
+god, 3926, 0.164545442392
+news, 6031, 0.161248553131
+softwar, 8103, 0.155817089137

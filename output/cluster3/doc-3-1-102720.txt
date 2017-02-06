@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102720
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rudy@netcom.com (Rudy Wade)
+Subject: Re: Cubs game of April 6th
+Article-I.D.: netcom.rudyC53145.IGD
+Organization: Home of the Brave
+Lines: 7
+
+In article <1993Apr6.203330.4974@oucsace.cs.ohiou.edu> jclark@oucsace.cs.ohiou.edu (J. Michael Clark) writes:
+>Otis Nixion lined a single to left with two outs breaking up the no hitter.
+>Cubs win 1-0 on a 1 hitter by Jose Guzman.
+
+That's might be what it takes to beat the Braves this year.  
+
+Look at Smoltz's pitching line: 6 hits, 2 walks, 1 ER, 7 SO and a loss.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cub game april 6th articl netcom rudyc53145 igd
+oti nixion line singl left two out break hitter
+cub win hitter jose guzman  that might take beat
+brave year  look smoltz pitch line hit walk loss
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cub, 2282, 0.377537155385
+hitter, 4322, 0.32466911768
+smoltz, 8068, 0.276031755409
+oti, 6314, 0.258794747718
+line, 5285, 0.252817167195
+guzman, 4101, 0.252423935072
+netcom, 6011, 0.246966608685
+6th, 134, 0.230665506317
+jose, 4892, 0.196729698851
+beat, 974, 0.187145514537
+loss, 5352, 0.183607169205
+break, 1284, 0.17461760857
+brave, 1277, 0.163172751436
+walk, 9617, 0.162059205818
+april, 595, 0.15839950129
+singl, 7983, 0.15815105593
+left, 5193, 0.151780243284
+pitch, 6643, 0.139218825691
+win, 9770, 0.138620598085
+hit, 4316, 0.13336164004
+articl, 665, 0.122911170144
+game, 3761, 0.115599412034
+year, 9943, 0.0958435636027
+look, 5341, 0.0951728086348

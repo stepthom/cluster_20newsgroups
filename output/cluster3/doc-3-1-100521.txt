@@ -1,0 +1,156 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/100521
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: admiral@jhunix.hcf.jhu.edu (Steve C Liu)
+Subject: spring records
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 26
+Distribution: world
+Expires: 5/9/93
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+Summary: Earl Weaver Commandments
+
+	The Orioles' pitching staff again is having a fine exhibition season.
+Four shutouts, low team ERA, (Well, I haven't gotten any baseball news since
+March 14 but anyways) Could they contend, yes. Could they win it all?  Maybe.
+
+But for all those fans of teams with bad spring records, remember Earl
+Weaver's first law of baseball (From his book on managing)
+
+No one gives a damn in July if you lost a game in March. :)
+
+BTW, anyone have any idea on the contenders for the O's fifth starter?
+It's pretty much set that Sutcliffe, Mussina, McDonald and Rhodes are the
+first four in the rotation.
+
+Here at Johns Hopkins University where the mascot is the Blue Jay :(,
+their baseball team logo was the Toronto club's logo. Now it's a 
+anatomically correct blue jay. God, can't they think of an original idea?
+It's even in the same pose as the baltimore oriole on the O's hats.
+How many people realize that the bird is really called a baltimore oriole?
+__________________________________________________________________________
+|Admiral Steve C. Liu        Internet Address: admiral@jhunix.hcf.jhu.edu|
+|"Committee for the Liberation and Intergration of Terrifying Organisms  |
+|and their Rehabilitation Into Society" from Red Dwarf - "Polymorph"     |
+|****The Bangles are the greatest female rock band that ever existed!****|
+|   This sig has been brought to you by... Frungy! The Sport of Kings!   |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ spring record    expir  earl weaver command
+oriol pitch staff fine exhibit season four shutout
+low team era well haven't gotten basebal news sinc
+march anyway could contend yes could win mayb  fan
+team bad spring record rememb earl weaver first
+law basebal book manag  one give damn lost game
+march  btw anyon idea contend o fifth starter it
+pretti much set sutcliff mussina mcdonald rhode
+first four rotat  john hopkin univers mascot blue
+jay basebal team logo toronto club logo it anatom
+correct blue jay god can't think origin idea it
+even pose baltimor oriol o hat mani peopl realiz
+bird realli call baltimor oriol   committe liber
+intergr terrifi organ rehabilit societi red dwarf
+polymorph bangl greatest femal rock band ever
+exist sig brought frungi sport king
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oriol, 6295, 0.265670179233
+weaver, 9680, 0.239380018703
+earl, 2949, 0.231068430723
+logo, 5332, 0.214174167456
+contend, 2083, 0.192371288559
+march, 5504, 0.177113452822
+baltimor, 887, 0.167779329024
+basebal, 924, 0.167172645223
+team, 8732, 0.164716982658
+spring, 8266, 0.164676511396
+blue, 1176, 0.152439091655
+jay, 4832, 0.147683671405
+record, 7184, 0.139834642943
+anatom, 495, 0.128943946517
+terrifi, 8806, 0.117481903105
+polymorph, 6731, 0.117481903105
+intergr, 4711, 0.117481903105
+hopkin, 4373, 0.117481903105
+frungi, 3705, 0.115534215362
+bangl, 895, 0.115534215362
+idea, 4482, 0.11306697777
+sutcliff, 8609, 0.112215877947
+shutout, 7927, 0.110777037527
+rehabilit, 7235, 0.110777037527
+rhode, 7376, 0.109453432648
+mussina, 5935, 0.109453432648
+mcdonald, 5573, 0.107087083728
+dwarf, 2933, 0.107087083728
+pose, 6759, 0.106019859693
+femal, 3441, 0.106019859693
+hat, 4199, 0.100753834535
+exhibit, 3282, 0.0993149941149
+bird, 1113, 0.0973673063716
+liber, 5247, 0.0961856442797
+committe, 1946, 0.0935553133971
+greatest, 4018, 0.0926101285371
+fifth, 3471, 0.0917160603583
+band, 891, 0.0912865236579
+sig, 7940, 0.0892917911227
+rock, 7445, 0.0892917911227
+club, 1842, 0.0875119853613
+king, 5024, 0.0865293458235
+starter, 8335, 0.0853038791148
+expir, 3300, 0.0853038791148
+damn, 2346, 0.0844409233312
+gotten, 3962, 0.0830957728682
+era, 3164, 0.0825869255449
+brought, 1343, 0.0813793648836
+staff, 8301, 0.080254016946
+sport, 8257, 0.080037853957
+societi, 8093, 0.0784033161856
+btw, 1355, 0.0780187352896
+rotat, 7490, 0.0767390513743
+realiz, 7149, 0.0758820599671
+fine, 3485, 0.0734047291997
+lost, 5355, 0.0731196146679
+command, 1933, 0.0725637225527
+law, 5153, 0.0710000797803
+haven, 4207, 0.0706312265726
+organ, 6287, 0.0692329658863
+toronto, 9003, 0.069010999692
+low, 5368, 0.0681517813325
+red, 7194, 0.0661808522176
+fan, 3381, 0.0658133652455
+season, 7747, 0.0636849518433
+correct, 2156, 0.0636849518433
+manag, 5472, 0.0631350026691
+john, 4878, 0.0625281003085
+rememb, 7269, 0.0608979447375
+bad, 861, 0.0608979447375
+pretti, 6851, 0.0606301456347
+pitch, 6643, 0.0603666144288
+yes, 9951, 0.0602364071956
+win, 9770, 0.0601072172167
+exist, 3283, 0.0592912223356
+set, 7815, 0.0592300901654
+book, 1218, 0.0592300901654
+origin, 6293, 0.0588083783046
+god, 3926, 0.0582815156912
+mayb, 5564, 0.057883032959
+news, 6031, 0.0571137671324
+univers, 9282, 0.0549527056778
+sinc, 7977, 0.0504089015546
+game, 3761, 0.0501250107506
+realli, 7150, 0.0490687852081
+mani, 5479, 0.0469061252275
+peopl, 6530, 0.0448653838259
+anyon, 554, 0.0444358471255
+think, 8871, 0.037872924335

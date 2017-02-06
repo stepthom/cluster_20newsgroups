@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105400
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tac@world.std.com (Tackey Chan)
+Subject: Re: Hey Red Sox Fans!
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 13
+
+paula@koufax.cv.hp.com (Paul Andresen) writes:
+
+>                               WOOF!
+
+>Gawd, how I hate myself for doing this, but sometimes you get those urges
+>that are too powerful to overcome.
+	
+>To quote Sportscenter: Bosiooo ooo ooo
+
+	Hey, Bosio threw a no-no what the hell a Red Sox fan
+going to say to that. Heck...Remeber Matt Young last year? ICK..
+	
+			------TAC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hey red sox fan      woof  gawd hate sometim get
+urg power overcom  quot sportscent bosiooo ooo ooo
+hey bosio threw hell red sox fan go say heck remeb
+matt young last year ick  tac
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ooo, 6252, 0.421422809692
+hey, 4283, 0.314834720543
+sox, 8162, 0.282909915699
+red, 7194, 0.24509748589
+fan, 3381, 0.243736516215
+ick, 4477, 0.238768737884
+tac, 8668, 0.217544184789
+overcom, 6340, 0.213937602574
+remeb, 7268, 0.210711404846
+urg, 9352, 0.200408437379
+bosio, 1237, 0.200408437379
+woof, 9826, 0.194463271976
+heck, 4234, 0.173238718881
+threw, 8894, 0.172351104342
+matt, 5552, 0.169832927926
+hate, 4202, 0.154352748974
+hell, 4245, 0.140512712506
+young, 9962, 0.136734778095
+sometim, 8128, 0.134622177907
+quot, 7045, 0.131472627422
+power, 6783, 0.113653865282
+say, 7653, 0.077741453982
+year, 9943, 0.0769552604101

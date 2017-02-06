@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38857
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ewinterr@cwis.isu.edu (EWING_TERRY)
+Subject: Raytriacing and animation
+Organization: Idaho State University, Pocatello
+Lines: 14
+NNTP-Posting-Host: cwis.isu.edu
+
+
+Now I have a couple raytracing questions.
+Just so you know I'm using PovRay 1.0 (both MS-dos and Unix) and I'm generating Targa files of varying size.
+
+1) ok, so I can view these wonderful pictures on my screen.  What's the best way  to get them on to paper?  Would it be possible to take it to Kinko's and have   them make an actual picture on paper from it?
+
+2) I was thinking about making a small animation bit with different raytraced 
+frames.  Is this a bad idea?  Any tricks to it?
+
+3
+
+)
+ How would I get a sequence of targa files made into an animation 
+that I could put on a videotape?  Is there a cheap way?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ raytriac anim      coupl raytrac question know
+i'm use povray dos unix i'm generat targa file
+vari size  view wonder pictur screen what best way
+get paper possibl take kinko make actual pictur
+paper  think make small anim bit differ raytrac
+frame bad idea trick     get sequenc targa file
+made anim could put videotap cheap way
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+anim, 515, 0.374108031377
+targa, 8703, 0.347024536094
+raytrac, 7121, 0.332236555521
+paper, 6409, 0.25750310889
+pictur, 6622, 0.243898276122
+videotap, 9507, 0.205251499473
+file, 3477, 0.199942245163
+povray, 6780, 0.178779591328
+trick, 9094, 0.174741827798
+vari, 9426, 0.158040989042
+sequenc, 7804, 0.158040989042
+way, 9666, 0.151146954971
+cheap, 1677, 0.146562823518
+make, 5459, 0.144921367707
+frame, 3643, 0.139833362459
+dos, 2825, 0.136305779715
+screen, 7719, 0.134379046335
+size, 8000, 0.134070056293
+unix, 9284, 0.132282457721
+generat, 3819, 0.125150597625
+coupl, 2187, 0.12018579327
+view, 9510, 0.112840894403
+small, 8054, 0.112547589412
+bad, 861, 0.10639421172
+wonder, 9821, 0.104900543841
+idea, 4482, 0.0987691130075
+bit, 1122, 0.0974416071951
+best, 1052, 0.0965893243432
+possibl, 6765, 0.0947195390412
+actual, 254, 0.0928894628336
+differ, 2633, 0.0889579078205
+question, 7032, 0.0874502460966
+think, 8871, 0.0661674207154
+use, 9363, 0.0638054204425
+know, 5052, 0.0622291953762

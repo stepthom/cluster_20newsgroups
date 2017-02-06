@@ -1,0 +1,34 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39013
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lioness@maple.circa.ufl.edu
+Subject: What is 3dO?
+Organization: Center for Instructional and Research Computing Activities
+Lines: 6
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+
+Someone please fill me in on what 3do.
+
+Thanks,
+
+BH
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ 3do       someon pleas fill 3do  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3do, 98, 0.91256840333
+someon, 8124, 0.256336866252
+pleas, 6688, 0.230762339436
+thank, 8832, 0.219679454984

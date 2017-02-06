@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37939
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: HELP WANTED FOR DMORF.......!
+Organization: The University of Birmingham, United Kingdom
+Lines: 6
+NNTP-Posting-Host: ibm3090.bham.ac.uk
+
+==============================================================================
+Please bear with me as i am new at this game, i apologize unreservedly if i hav
+e posted another message earlier by mistake. but i digress, could anyone out th
+ere please explain exactly what DMORF does (dtax.exe). Does it simply fade one
+bitmap into another or does it reshape one bitmap into another. Excuse my ignor
+ance.....
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help want dmorf      pleas bear new game apolog
+unreserv hav post anoth messag earlier mistak
+digress could anyon ere pleas explain exact dmorf
+dtax exe simpli fade one bitmap anoth reshap one
+bitmap anoth excus ignor anc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dmorf, 2779, 0.493293272083
+bitmap, 1126, 0.373726250092
+anoth, 533, 0.322609076697
+dtax, 2896, 0.269774055097
+fade, 3356, 0.223519216987
+exe, 3269, 0.223519216987
+pleas, 6688, 0.196306588471
+excus, 3268, 0.184192435047
+apolog, 571, 0.177966842986
+mistak, 5776, 0.175241589095
+bear, 971, 0.168191089437
+earlier, 2952, 0.162373646964
+ignor, 4496, 0.148993597098
+messag, 5650, 0.137937596937
+simpli, 7967, 0.136678360219
+explain, 3301, 0.134874363437
+exact, 3253, 0.132429576893
+game, 3761, 0.101139219865
+help, 4249, 0.0980237181006
+post, 6766, 0.0974467732454
+new, 6023, 0.0971935210787
+want, 9634, 0.0908901844403
+anyon, 554, 0.0896599690454

@@ -1,0 +1,159 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104521
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: ragraca@vela.acs.oakland.edu (Randy A. Graca)
+Subject: Sparky Anderson Gets win #2000, Tigers beat A's
+Organization: Oakland University, Rochester, Michigan, U.S.A.
+Lines: 36
+NNTP-Posting-Host: vela.acs.oakland.edu
+
+Tigers' manager Sparky Anderson gets his 2,000th career win as moments ago,
+the Tigers completed a two game sweep over the Oakland A's at Tiger Stadium
+by beating the A's 3-2. Here are the highlights:
+
+
+				R    H   E    
+             Oakland		2    9   0
+	     Detroit            3    7   1
+
+Chad Krueter scored Skeeter Barnes from 1st with an RBI double in the 
+bottom of the ninth against none other than Dennis Eckersley to give the
+Tigers the victory.  Barnes also had an RBI single to score Thurmond to
+tie the score in the ninth, also off Eckersley (sp?).
+
+The A's got their runs on an RBI single by McGwire in the 1st and a solo
+homer by Reuben Sierra in the 6th.  Deer doubled home Kirk Gibson in the
+7th for the other Tiger run.
+
+John Doherty pitched another strong game for the Tigers, once again lasting
+through the seventh inning.  He was relieved by Bolton and then David Haas
+in the 8th, and Haas got the win.  Bobby Witt started for the A's, and was
+replaced by Honeycutt in the 6th, followed by Goose Gossage in the 8th, and
+finally Eckersly in the 9th.  Doherty gave up both of the A's runs, while
+Witt gave up the first Tiger run and Eckerseley gave up the last two.
+
+In the post game interview (on WJR radio in Detroit), Sparky Anderson said
+its one of the few times he's gotten emotional in his managing career.  It
+was a big moment for him, and I'm sure all of us Tiger fans are unanimously
+very happy for him.  And what a way to get number 2,000!.
+
+Considering the circumstances, I think it might be appropriate to say:
+
+                WOOF!      Go Tigers!
+
+--Randy
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sparki anderson get win tiger beat a     tiger
+manag sparki anderson get 000th career win moment
+ago tiger complet two game sweep oakland a tiger
+stadium beat a highlight    oakland detroit  chad
+krueter score skeeter barn 1st rbi doubl bottom
+ninth none denni eckersley give tiger victori barn
+also rbi singl score thurmond tie score ninth also
+eckersley  a got run rbi singl mcgwire 1st solo
+homer reuben sierra 6th deer doubl home kirk
+gibson 7th tiger run  john doherti pitch anoth
+strong game tiger last seventh inning reliev
+bolton david haa 8th haa got win bobbi witt start
+a replac honeycutt 6th follow goos gossag 8th
+final eckersli 9th doherti gave a run witt gave
+first tiger run eckerseley gave last two  post
+game interview wjr radio detroit sparki anderson
+said one time he gotten emot manag career big
+moment i'm sure tiger fan unanim happi way get
+number  consid circumst think might appropri say
+woof tiger  randi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiger, 8928, 0.581063050192
+sparki, 8188, 0.232188930735
+anderson, 501, 0.196284207866
+eckersley, 2976, 0.176162854481
+haa, 4106, 0.169894859125
+rbi, 7124, 0.168592914787
+witt, 9808, 0.165033024213
+barn, 914, 0.165033024213
+gave, 3798, 0.153821187967
+8th, 150, 0.147854174549
+score, 7705, 0.141321163891
+6th, 134, 0.131783424255
+run, 7543, 0.131261575969
+1st, 57, 0.127497515159
+detroit, 2584, 0.122021895299
+ninth, 6075, 0.12142492851
+oakland, 6167, 0.120277930804
+win, 9770, 0.118794726048
+beat, 974, 0.106919656664
+moment, 5828, 0.103561033246
+doubl, 2828, 0.101578946985
+career, 1517, 0.100879809201
+game, 3761, 0.0990660888329
+singl, 7983, 0.090354591949
+000th, 0, 0.0849474295624
+manag, 5472, 0.0831858545827
+gossag, 3959, 0.0825165121063
+goos, 3951, 0.0825165121063
+chad, 1635, 0.0825165121063
+sierra, 7939, 0.0788509962145
+deer, 2469, 0.0788509962145
+kirk, 5030, 0.0749653927889
+gibson, 3867, 0.0739270872745
+got, 3960, 0.0714932052947
+solo, 8116, 0.0712998768971
+mcgwire, 5580, 0.0705482711498
+highlight, 4296, 0.0705482711498
+circumst, 1770, 0.0705482711498
+9th, 152, 0.0698451909276
+woof, 9826, 0.0691847485775
+seventh, 7821, 0.0691847485775
+victori, 9504, 0.0679730606916
+sweep, 8629, 0.0674142734715
+emot, 3073, 0.0645560870413
+bobbi, 1190, 0.0641449453276
+randi, 7091, 0.0637487575797
+interview, 4726, 0.0633664740614
+denni, 2526, 0.0629971518324
+7th, 140, 0.0629971518324
+reliev, 7258, 0.0610109476494
+stadium, 8300, 0.0578769499711
+appropri, 590, 0.057216507621
+homer, 4355, 0.0565938260103
+tie, 8923, 0.0563939311837
+gotten, 3962, 0.0547429522929
+replac, 7288, 0.0525878460848
+happi, 4161, 0.0512737293224
+inning, 4657, 0.0502129388415
+radio, 7061, 0.048646518945
+strong, 8456, 0.0482642354267
+david, 2397, 0.043973056952
+fan, 3381, 0.0433574150587
+final, 3482, 0.0427747113364
+ago, 336, 0.0424394860441
+complet, 1975, 0.0421142689863
+home, 4354, 0.0420079855833
+john, 4878, 0.0411931039811
+pitch, 6643, 0.0397691312048
+consid, 2059, 0.0382073257647
+big, 1082, 0.037108141072
+said, 7583, 0.0362647348723
+follow, 3578, 0.0358062957413
+number, 6156, 0.035424012223
+anoth, 533, 0.0351107002068
+sure, 8585, 0.0350826591041
+start, 8334, 0.0344833400637
+post, 6766, 0.0318164430763
+way, 9666, 0.0284972744403
+say, 7653, 0.0276582970817
+time, 8936, 0.025884280951
+think, 8871, 0.0249504351244

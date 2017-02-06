@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62318
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: DC-X and publicity... is there any ?
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 17
+
+In article <1993May11.200419.13494@bmerh85.bnr.ca> rivan@bnr.ca writes:
+
+>  Its seems a bit scarry to me that such a project which for the first
+>time in years promisses some hope in changing the current trend in
+>massively overpriced boosting capability, lacks much publicity.
+
+That may change next month; at least I hope it will. A couple of hundred
+journalists have requested press passes for the test flights. Sustaining
+that publicity however, will be a problem. 
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------33 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ public      seem bit scarri project first time
+year promiss hope chang current trend massiv
+overpr boost capabl lack much public  chang next
+month least hope coupl hundr journalist request
+press pass test flight sustain public howev
+problem  allen    ladi astor sir husband poison
+coffe churchil madam wife drink day first flight
+dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+public, 6973, 0.326016860022
+flight, 3544, 0.245975122196
+scarri, 7668, 0.220581256621
+chang, 1650, 0.203276732025
+hope, 4372, 0.202230930351
+journalist, 4899, 0.200973419203
+trend, 9084, 0.179650624614
+madam, 5425, 0.179650624614
+astor, 719, 0.179650624614
+churchil, 1747, 0.178033719984
+sustain, 8608, 0.173673085543
+ladi, 5093, 0.173673085543
+dcx, 2412, 0.172357121302
+coffe, 1878, 0.171099664073
+poison, 6713, 0.169895732175
+massiv, 5536, 0.169895732175
+husband, 4452, 0.168740954296
+sir, 7989, 0.166563870374
+drink, 2872, 0.155445430623
+boost, 1224, 0.151491826655
+wife, 9755, 0.15088345633
+allen, 426, 0.141711322508
+hundr, 4440, 0.137663267268
+press, 6841, 0.135837593205
+request, 7301, 0.134122636033
+lack, 5092, 0.13097627083
+capabl, 1498, 0.126829132722
+pass, 6448, 0.126319422899
+coupl, 2187, 0.117680747157
+month, 5847, 0.116585586011
+test, 8812, 0.116229755787
+project, 6909, 0.10499662831
+current, 2299, 0.102495647673
+howev, 4406, 0.0975200296683
+bit, 1122, 0.0954106207307
+problem, 6887, 0.0889968551265
+day, 2402, 0.0838843640638
+year, 9943, 0.0710934278721
+time, 8936, 0.0672131840636

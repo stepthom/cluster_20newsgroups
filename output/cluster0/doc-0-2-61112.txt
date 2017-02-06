@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61112
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Billboard/Station/Space Dock?
+Lines: 24
+Nntp-Posting-Host: acad3.alaska.edu
+Organization: University of Alaska Fairbanks
+
+Seems that the Mile-Long Billboard and any other inflateble space
+object/station or what ever have the same problems. (other than being a little
+bit different than the "normal" space ideas, such as trusses and shuttles)
+
+But also dag and such.. Why not combine the discussion of how and fesibility to
+the same topic?
+
+I personnelly liek the idea of a billboard in space. But problem. How do you
+service it? fly a shuttle/DC-1 to near it and then dismount and "fly" to it?
+Or what?? or havign a special docking section for shuttle/DC-1 docking?
+
+Also what if the billboard springs a leak? Self sealing and such??
+
+
+Just thinking (okay rambling)..
+
+Also why must the now inflated billboard, not be covered in the inside by a
+harder substance (such as a polymer or other agent) and then the now "hard"
+billboard would be a now giant docking structure/space dock/station??
+
+Or am I missing something here.. (probably am!?)
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ billboard station space dock     seem mile long
+billboard inflatebl space object station ever
+problem littl bit differ normal space idea truss
+shuttl  also dag combin discuss fesibl topic
+personnelli liek idea billboard space problem
+servic fli shuttl near dismount fli havign special
+dock section shuttl dock  also billboard spring
+leak self seal   think okay rambl  also must
+inflat billboard cover insid harder substanc polym
+agent hard billboard giant dock structur space
+dock station  miss someth probabl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dock, 2784, 0.54845155549
+billboard, 1090, 0.524265413469
+space, 8164, 0.240231935052
+station, 8346, 0.214494322296
+shuttl, 7929, 0.204523943977
+fli, 3542, 0.144696464714
+truss, 9129, 0.122599606825
+rambl, 7085, 0.122599606825
+leak, 5178, 0.118342787798
+idea, 4482, 0.115815573034
+liek, 5259, 0.109690311098
+problem, 6887, 0.106578151674
+substanc, 8502, 0.103203104144
+harder, 4170, 0.0985238637276
+seal, 7741, 0.097394230567
+inflat, 4632, 0.0922503910898
+agent, 331, 0.0910817746673
+mile, 5713, 0.0873775689114
+spring, 8266, 0.0843398528411
+okay, 6215, 0.0843398528411
+section, 7759, 0.0833576519248
+combin, 1921, 0.0822049474056
+topic, 8992, 0.0809178814108
+insid, 4671, 0.0793410953628
+self, 7776, 0.0786045349783
+cover, 2194, 0.0778986736866
+normal, 6108, 0.0775564757893
+structur, 8460, 0.0772210545354
+giant, 3865, 0.0770558022997
+special, 8198, 0.0754863266617
+miss, 5770, 0.0716169726203
+servic, 7813, 0.0697016470893
+near, 5982, 0.0685685778358
+discuss, 2708, 0.0651514674243
+hard, 4167, 0.0641245942541
+object, 6173, 0.0623783398609
+bit, 1122, 0.0571294771769
+littl, 5308, 0.0569278293214
+probabl, 6885, 0.0553956469063
+long, 5336, 0.0533701201055
+differ, 2633, 0.0521555309978
+someth, 8126, 0.0498606967226
+think, 8871, 0.0387935940347

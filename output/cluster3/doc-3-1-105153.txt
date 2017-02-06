@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105153
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hhenderson@vax.clarku.edu
+Subject: RE: Game Length (was Re: Braves Update!!
+Organization: Clark University
+Lines: 13
+
+ecaxron@ariel.lerc.nasa.gov (Ron Graham) writes:
+
+>I think that, everything else being equal, it's not too much to ask that
+>if a weeknight game can be shortened by half-an-hour by cutting out warmup
+>pitches, dawdling outside the batter's box, commerical time-outs and that
+>sort of thing, I'm not asking for too much.
+
+How do you know they can be shortened by half-an-hour?  Has anybody done a
+study to determine how much time is actually "wasted" -- say, in these A's
+games?
+
+Heather
+HHENDERSON@vax.clarku.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat      think everyth els
+equal it much ask weeknight game shorten half hour
+cut warmup pitch dawdl outsid batter box commer
+time out sort thing i'm ask much  know shorten
+half hour anybodi done studi determin much time
+actual wast say a game  heather
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shorten, 7907, 0.40290928533
+game, 3761, 0.273465955258
+half, 4124, 0.272453176194
+hour, 4395, 0.270758859913
+warmup, 9642, 0.243143460337
+weeknight, 9693, 0.23449224902
+dawdl, 2399, 0.222299051501
+heather, 4228, 0.210105853982
+ask, 689, 0.208318268865
+commer, 1938, 0.204071259693
+length, 5212, 0.148852485531
+outsid, 6332, 0.142936988923
+equal, 3156, 0.142936988923
+batter, 949, 0.142936988923
+time, 8936, 0.142903988637
+wast, 9654, 0.141198231545
+cut, 2313, 0.132211015332
+determin, 2582, 0.1309834112
+updat, 9333, 0.130270204841
+everyth, 3242, 0.129573522132
+studi, 8469, 0.129344835667
+brave, 1277, 0.128669029131
+box, 1254, 0.122817244677
+anybodi, 552, 0.122272115696
+sort, 8144, 0.115669952991
+pitch, 6643, 0.109780284887
+els, 3053, 0.103962583894
+actual, 254, 0.0966893453212
+thing, 8869, 0.0821542423651
+say, 7653, 0.0763490587079
+think, 8871, 0.0688741693126
+know, 5052, 0.0647748407327

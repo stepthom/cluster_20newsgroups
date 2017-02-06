@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104498
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dougr@meaddata.com (Doug Ritter)
+Subject: Re: Expanded NL Strike Zone? (Was Re: A surfeit of offense?)
+Organization: Mead Data Central, Dayton OH
+Lines: 30
+NNTP-Posting-Host: birch.meaddata.com
+
+In article <13247@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+>In article <1993Apr14.160447.17835@cs.cornell.edu> tedward@cs.cornell.edu
+>(Edward [Ted] Fischer) writes:
+>
+>
+>>We won't really be able to say anything for at least another couple of
+>>weeks.  But so far it looks like a homerific season!  (Might the umps
+>>be squeezing the strike zone?)
+>>
+>
+>
+>Watching the Braves on TBS, I would have said that the strike zone
+>in the NL has expanded this season.  Specifically, it appears that
+>the strike zone has moved above the belt.  Yeah, the announcers
+>have commented on that also, but it was also my perception.
+>
+>However, the strike zone hasn't climbed all the way up to
+>"the letters".  It's more like a little ways under the letters.
+>
+>Any other perceptions out there?
+
+Judging by the way the Reds' pitchers have performed thus far, it
+appears to me that the zone has been squeezed to the size of a grape.  
+
+1/2 :-)
+--
+===============================================================================
+Douglas N. Ritter
+dougr@meaddata.com                             Life is short - ride hard!
+..!uunet!meaddata!dougr
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ expand strike zone surfeit offens      cornel edu
+won't realli abl say anyth least anoth coupl week
+far look like homerif season might ump squeez
+strike zone    watch brave tbs said strike zone
+expand season specif appear strike zone move belt
+yeah announc comment also also percept  howev
+strike zone hasn't climb way letter it like littl
+way letter  percept  judg way red pitcher perform
+thus far appear zone squeez size grape     dougla
+ritter  uunet meaddata dougr
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+zone, 9991, 0.586251495288
+strike, 8448, 0.425409266531
+squeez, 8278, 0.238767874784
+percept, 6535, 0.215079933185
+expand, 3288, 0.186947494092
+letter, 5227, 0.168666774941
+appear, 580, 0.138952117025
+way, 9666, 0.134094379452
+season, 7747, 0.131614003348
+surfeit, 8588, 0.129427587992
+tbs, 8722, 0.12631221617
+grape, 3995, 0.12631221617
+climb, 1819, 0.123678206825
+far, 3386, 0.114156805392
+cornel, 2147, 0.113100536579
+ump, 9209, 0.101926739437
+belt, 1017, 0.0993906514947
+uunet, 9392, 0.0988113676147
+dougla, 2837, 0.0982510801102
+hasn, 4195, 0.0875466806949
+yeah, 9942, 0.0853388090948
+judg, 4920, 0.084579251251
+offens, 6202, 0.0804231170725
+size, 8000, 0.079296077583
+announc, 524, 0.0784105303173
+brave, 1277, 0.07311083926
+won, 9820, 0.0728595518204
+like, 5272, 0.0719582595514
+coupl, 2187, 0.0710841947187
+watch, 9655, 0.0708608289507
+perform, 6539, 0.0693740448488
+comment, 1936, 0.0685791462728
+red, 7194, 0.0683860680836
+pitcher, 6644, 0.0679127071223
+specif, 8203, 0.067819588429
+week, 9691, 0.0629271285489
+abl, 180, 0.0625137074647
+edu, 3001, 0.0605845287372
+howev, 4406, 0.0589062607555
+anyth, 555, 0.0585786998377
+littl, 5308, 0.0574286658111
+said, 7583, 0.0568814294724
+anoth, 533, 0.0550713199634
+realli, 7150, 0.0507038089354
+say, 7653, 0.0433821860361
+look, 5341, 0.0426429281408

@@ -1,0 +1,159 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84350
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: markp@elvis.wri.com (Mark Pundurs)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Nntp-Posting-Host: elvis.wri.com
+Organization: Wolfram Research, Inc.
+Lines: 36
+
+In <30192@ursa.bear.com> halat@pooh.bears (Jim Halat) writes:
+
+>In article <C5y93B.708@blaze.cs.jhu.edu>, arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee) writes:
+>>In article <930423.103637.3O4.rusnews.w165w@mantis.co.uk> mathew <mathew@mantis.co.uk> writes:
+>>>> > There's no objective physics; Einstein and Bohr have told us that.
+>>>> Speaking as one who knows relativity and quantum mechanics, I say: 
+>>>> Bullshit.
+>>>Speaking as someone who also knows relativity and quantum mechanics, I say:
+>>>Go ahead, punk, make my day.  My degree can beat up your degree.
+>>
+>>Simple.  Take out some physics books, and start looking for statements which
+>>say that there is no objective physics.  I doubt you will find any.  You might
+>>find statements that there is no objective length, or no objective location,
+>>but no objective _physics_?  (Consider, for instance, that speed-of-light-in-
+>>vacuum is invariant.  This sounds an awful lot like an objective
+>>speed-of-light-in-vacuum.)
+
+>Or, you can try not confuse a construct with the constructor.  If you take
+>a look at Quantum Mechanics, many objective observations can be made
+>as well.  However, Physics is not objective.  Bohr said the randomness
+>of atomic motion is inherent in the motion itself.  Einstein said that 
+>nature is deterministic; it is our method of observation that inserts the
+>randomness.  They were talking about the exact same results.
+
+But neither of them claimed to have experimental evidence that proved 
+them right. In a similar vein, there is as yet no experimental evidence
+for supersymmetric particles; so some physicists believe in them, and
+some don't -- but all agree that either there is an objectively true
+answer to the question.
+
+>Depends on how you look at it, I guess.
+--
+Mark Pundurs
+
+any resemblance between my opinions and those 
+of Wolfram Research, Inc. is purely coincidental
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral         there object
+physic einstein bohr told speak one know relat
+quantum mechan say bullshit speak someon also know
+relat quantum mechan say ahead punk make day degre
+beat degre  simpl take physic book start look
+statement say object physic doubt find might find
+statement object length object locat object physic
+consid instanc speed light vacuum invari sound aw
+lot like object speed light vacuum  tri confus
+construct constructor take look quantum mechan
+mani object observ made well howev physic object
+bohr said random atom motion inher motion einstein
+said natur determinist method observ insert random
+talk exact result  neither claim experiment evid
+prove right similar vein yet experiment evid
+supersymmetr particl physicist believ don't agre
+either object true answer question  depend look
+guess  mark pundur  resembl opinion wolfram
+research inc pure coincident
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+object, 6173, 0.465760011027
+physic, 6613, 0.305478464289
+quantum, 7025, 0.254988043448
+mechan, 5603, 0.209913306857
+bohr, 1201, 0.203425292797
+einstein, 3018, 0.173920038783
+vacuum, 9405, 0.162524440681
+random, 7093, 0.155880733352
+experiment, 3297, 0.155150692227
+motion, 5880, 0.149906693376
+say, 7653, 0.142709602979
+degre, 2491, 0.13042578975
+statement, 8343, 0.126785234817
+speak, 8192, 0.123797823111
+evid, 3245, 0.118438485518
+observ, 6179, 0.116918926099
+speed, 8217, 0.114273871752
+light, 5267, 0.111856479647
+constructor, 2075, 0.109576648113
+relat, 7247, 0.10743597079
+look, 5341, 0.10520831073
+pundur, 6985, 0.103878849062
+wolfram, 9816, 0.101712646399
+vein, 9453, 0.101712646399
+invari, 4739, 0.0981810500115
+coincident, 1884, 0.0981810500115
+said, 7583, 0.0935582892262
+bullshit, 1392, 0.0930135969773
+physicist, 6614, 0.0919721945855
+inher, 4644, 0.0827427991477
+particl, 6441, 0.0822317427724
+insert, 4670, 0.0808014413052
+atom, 756, 0.0752555626696
+resembl, 7308, 0.0749533466879
+aw, 829, 0.0740838424826
+instanc, 4680, 0.0735326933512
+pure, 6990, 0.0727444960354
+construct, 2074, 0.0712894904865
+length, 5212, 0.0695577636188
+beat, 974, 0.0689596945722
+ahead, 342, 0.0681999148628
+confus, 2037, 0.0676558791212
+told, 8973, 0.0632618955215
+method, 5666, 0.0632618955215
+moral, 5855, 0.0630040442223
+doubt, 2830, 0.0628768713949
+depend, 2537, 0.0627508391462
+prove, 6947, 0.0623793857609
+locat, 5323, 0.062257718321
+know, 5052, 0.0605376933286
+simpl, 7965, 0.0599195122673
+natur, 5966, 0.059515095824
+similar, 7961, 0.0581848125835
+mark, 5512, 0.0572213355385
+exact, 3253, 0.0557746590434
+sound, 8150, 0.0551765899968
+claim, 1782, 0.0547441712164
+result, 7332, 0.0545328514218
+guess, 4079, 0.0544631118169
+agre, 337, 0.0543937166067
+research, 7307, 0.054051789725
+opinion, 6266, 0.0526389339478
+answer, 535, 0.05186629742
+book, 1218, 0.0503337684556
+true, 9121, 0.0501278673137
+christian, 1732, 0.0498746622376
+consid, 2059, 0.0492849602657
+howev, 4406, 0.0484443607704
+talk, 8684, 0.0475232744107
+someon, 8124, 0.0459201132217
+start, 8334, 0.0444812614035
+lot, 5356, 0.0438462008361
+believ, 1009, 0.0433959677687
+right, 7399, 0.0427465617197
+question, 7032, 0.042536595144
+day, 2402, 0.0416706640629
+tri, 9087, 0.0406974097224
+mani, 5479, 0.0398608551795
+year, 9943, 0.0353165978308
+make, 5459, 0.0352455357247
+don, 2811, 0.0318743374186
+like, 5272, 0.0295891458855

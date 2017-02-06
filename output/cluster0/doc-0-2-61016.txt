@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61016
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 26
+NNTP-Posting-Host: access.digex.net
+
+In article <1993Apr21.150545.24058@iti.org> aws@iti.org (Allen W. Sherzer) writes:
+|In article <C5sJDp.F23@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+|
+|
+|In spite of my great respect for the people you speak of, I think their
+|cost estimates are a bit over-optimistic. If nothing else, a working SSTO
+|is at least as complex as a large airliner and has a smaller experience
+|base. It therefore seems that SSTO development should cost at least as
+|much as a typical airliner development. That puts it in the $3G to $5G
+|range.
+>
+
+Alan,
+
+	don't forget,  a HUGE  cost for airliner developement is FAA
+certification.  the joke is when the paperwork  exceeds teh weight
+of the airplane,  it will fly.
+
+The SR-71, and teh X-15  both highly ambitious  aero-space projects were done
+on very narrow engineering budgets.   Partly because they didn't spend much
+on paper  pushing.   There is some company in missouri  trying to
+get funding to build light commercial transporters  on a low cost basis,
+mostly by reducing FAA  certification costs.
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid
+spite great respect peopl speak think cost estim
+bit optimist noth els work ssto least complex larg
+airlin smaller experi base therefor seem ssto
+develop cost least much typic airlin develop put
+rang   alan  don't forget huge cost airlin develop
+faa certif joke paperwork exceed teh weight
+airplan fli  teh high ambiti aero space project
+done narrow engin budget part didn't spend much
+paper push compani missouri tri get fund build
+light commerci transport low cost basi most reduc
+faa certif cost  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+airlin, 362, 0.380972059445
+cost, 2169, 0.350581405303
+certif, 1621, 0.267145725955
+faa, 3342, 0.257870076229
+teh, 8750, 0.239016246033
+ssto, 8295, 0.212222967939
+develop, 2588, 0.206191624299
+paperwork, 6411, 0.13641760158
+aero, 298, 0.13641760158
+ambiti, 463, 0.128935038115
+airplan, 364, 0.125231806482
+missouri, 5775, 0.123626074848
+spite, 8241, 0.119508123016
+optimist, 6275, 0.117198328309
+narrow, 5955, 0.11419915975
+exceed, 3260, 0.11244027975
+resid, 7311, 0.105525584849
+joke, 4883, 0.105525584849
+alan, 376, 0.105525584849
+transport, 9065, 0.0992340328197
+estim, 3201, 0.0992340328197
+push, 6996, 0.0988284280928
+smaller, 8055, 0.0969242381125
+weight, 9695, 0.0962143708963
+reduc, 7204, 0.0958694211861
+budget, 1367, 0.094550698015
+typic, 9178, 0.093925069553
+huge, 4427, 0.0905604579194
+complex, 1976, 0.0903059121985
+billion, 1092, 0.0879367312062
+basi, 936, 0.0879367312062
+spend, 8222, 0.0864425060879
+forget, 3604, 0.0841327113808
+fund, 3723, 0.0837743647391
+respect, 7321, 0.0835977674854
+rang, 7094, 0.0834228441646
+therefor, 8855, 0.0824067560502
+paper, 6409, 0.0822427169951
+pat, 6458, 0.0819189495296
+speak, 8192, 0.0812879727783
+fli, 3542, 0.0788237481141
+commerci, 1940, 0.0780270371038
+experi, 3295, 0.0772633030604
+compani, 1958, 0.0767711599702
+low, 5368, 0.076056711825
+moon, 5851, 0.0749241925851
+build, 1378, 0.0744899543814
+light, 5267, 0.0734470626716
+engin, 3109, 0.0719855389088
+project, 6909, 0.0684964460465
+larg, 5124, 0.0683420160894
+noth, 6119, 0.0671510046542
+els, 3053, 0.0637984114334
+high, 4292, 0.0624093467809
+bit, 1122, 0.0622428409399
+didn, 2625, 0.0616448593328
+great, 4016, 0.0613793256555
+long, 5336, 0.0581470032779
+base, 923, 0.057752946907
+tri, 9087, 0.0534453652015
+space, 8164, 0.0523467703926
+work, 9833, 0.0522822448996
+peopl, 6530, 0.0500693232348
+year, 9943, 0.0463790811655
+think, 8871, 0.042265807816
+don, 2811, 0.0418585756565

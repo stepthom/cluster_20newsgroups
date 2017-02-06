@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83582
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: m23364@mwunix.mitre.org (James Meritt)
+Subject: Re: Kind, loving, merciful and forgiving GOD!
+Nntp-Posting-Host: mwunix.mitre.org
+Organization: MITRE Corporation, McLean VA
+Lines: 41
+
+In article <8968@blue.cis.pitt.edu> joslin@pogo.isp.pitt.edu (David Joslin) writes:
+}m23364@mwunix.mitre.org (James Meritt) writes:
+}>joslin@pogo.isp.pitt.edu (David Joslin) writes:
+}>}m23364@mwunix.mitre.org (James Meritt) writes:
+}>}>}(a) out of context;
+}>}>Must have missed when you said this about these other "promises of god" that we keep
+}>}>getting subjected to.  Could you please explain why I am wrong and they are OK?
+}>}>Or an acknowledgement of public hypocrisy. Both or neither.
+}>}
+}>}So, according to you, Jim, the only way to criticize one person for
+}>}taking a quote out of context, without being a hypocrite, is to post a
+}>}response to *every* person on t.r.m who takes a quote out of context?
+}>
+}>Did I either ask or assert that?  Or is this your misaimed telepathy at work again?
+}
+}(1)  Stephen said you took a quote out of context
+}(2)  You noted that Stephen had not replied to some other t.r.m article
+}     (call it A) that took a quote out of context
+}(3)  But the lack of evidence for X does not constitute evidence for the
+}     lack of X  (a common creationist error)
+}(4)  So the fact that Stephen did not reply to A does not justify the
+}     conclusion that Stephen condoned taking quotes out of context in A
+
+Excellent.  Now under what conditions could such a conclusion be made, other
+than a direct assertion by his part.  For instance, am I to assume that
+you have no position on eating shit merely because you have not said
+your position, or might a conclusion be made by observing that you do not.
+
+}(7)  I assumed you were being logical, and that the sentence that begins
+}     "Could you please explain ..." was not a nonsequitur, but was intended
+}     to follow from the sentence that preceded it.
+
+}Is that better Jim?   It's called an argument.  If you disagree with it,
+}explain why the argument is not sound.  (I admit that my assumption in (7)
+}may have been a bit hasty.)  If you agree with it, just say "yup."
+
+Have you, by chance, ever even heard of inductive logic?  You are not
+demonstrating any familiarly with it (i.e. you are being insufficiently
+logical).
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love merci forgiv god         context must
+miss said promis god keep get subject could pleas
+explain wrong acknowledg public hypocrisi neither
+accord jim way critic one person take quot context
+without hypocrit post respons everi person take
+quot context  either ask assert misaim telepathi
+work  stephen said took quot context note stephen
+repli articl call took quot context lack evid
+constitut evid lack common creationist error fact
+stephen repli justifi conclus stephen condon take
+quot context  excel condit could conclus made
+direct assert part instanc assum posit eat shit
+mere said posit might conclus made observ  assum
+logic sentenc begin could pleas explain
+nonsequitur intend follow sentenc preced  better
+jim it call argument disagre explain argument
+sound admit assumpt bit hasti agre say yup  chanc
+ever even heard induct logic demonstr familiar
+insuffici logic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+context, 2087, 0.42802081134
+quot, 7045, 0.305707134112
+stephen, 8380, 0.300291590697
+logic, 5330, 0.216723719175
+conclus, 2009, 0.212715751209
+sentenc, 7794, 0.174852401032
+explain, 3301, 0.172688045737
+assert, 699, 0.155111417904
+said, 7583, 0.142211006576
+lack, 5092, 0.13186565645
+jim, 4868, 0.130121424624
+took, 8987, 0.125690924854
+repli, 7290, 0.123597558679
+evid, 3245, 0.120019696685
+argument, 631, 0.118857077363
+posit, 6761, 0.111826448414
+hasti, 4198, 0.111039549456
+assum, 710, 0.11052178282
+insuffici, 4687, 0.105265682028
+condon, 2019, 0.105265682028
+hypocrisi, 4462, 0.103070559509
+induct, 4607, 0.101169057892
+god, 3926, 0.100377775286
+telepathi, 8762, 0.099491814599
+creationist, 2219, 0.0966342419762
+yup, 9970, 0.0953951904635
+person, 6562, 0.0948890600646
+hypocrit, 4463, 0.0896213230348
+shit, 7893, 0.0874262005161
+preced, 6806, 0.0861307524575
+merci, 5638, 0.0861307524575
+pleas, 6688, 0.0837811828839
+forgiv, 3605, 0.0833295763806
+familiar, 3379, 0.0809898829833
+constitut, 2070, 0.0805647735272
+acknowledg, 239, 0.0805647735272
+assumpt, 711, 0.0793606670854
+subject, 8487, 0.0768932588479
+justifi, 4939, 0.0750728976742
+instanc, 4680, 0.0745143904348
+eat, 2968, 0.0745143904348
+disagre, 2676, 0.073715670303
+condit, 2017, 0.0732070409052
+intend, 4700, 0.0698803399065
+critic, 2237, 0.0698803399065
+mere, 5641, 0.0691104167698
+admit, 276, 0.0691104167698
+demonstr, 2520, 0.0687405230061
+excel, 3261, 0.0682030966132
+promis, 6913, 0.0668618603826
+error, 3180, 0.0642389395654
+accord, 219, 0.0639752263023
+begin, 994, 0.0632121807844
+common, 1948, 0.0621391965676
+chanc, 1649, 0.0619113499591
+miss, 5770, 0.0602090139558
+observ, 6179, 0.0592399252057
+love, 5366, 0.0565192777651
+sound, 8150, 0.0559132242069
+agre, 337, 0.0551198990777
+respons, 7323, 0.0548420344718
+public, 6973, 0.0547051092896
+direct, 2667, 0.0545694881766
+heard, 4224, 0.0541047347382
+wrong, 9869, 0.0522687050034
+note, 6118, 0.0513784082908
+kind, 5021, 0.0507970986299
+ask, 689, 0.0493226680519
+fact, 3350, 0.0488632698501
+everi, 3235, 0.0487731422756
+bit, 1122, 0.0480292500895
+follow, 3578, 0.0468044173591
+articl, 665, 0.0458951654234
+better, 1060, 0.0426006143382
+post, 6766, 0.0415890571698
+work, 9833, 0.0403432262667
+way, 9666, 0.0372503856902
+say, 7653, 0.0361537113307

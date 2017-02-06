@@ -1,0 +1,312 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102711
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dtate+@pitt.edu (David M. Tate)
+Subject: Re: Young Catchers
+Article-I.D.: blue.8007
+Organization: Department of Industrial Engineering
+Lines: 81
+
+mss@netcom.com (Mark Singer) said:
+>In article <7975@blue.cis.pitt.edu> genetic+@pitt.edu (David M. Tate) writes:
+>>mss@netcom.com (Mark Singer) said:
+>>>
+>>>We know that very, very few players at this age make much of an impact
+>>>in the bigs, especially when they haven't even played AAA ball.  
+>>
+>>Yes.  But this is *irrelevant*.  You're talking about averages, when we
+>>have lots of information about THIS PLAYER IN PARTICULAR to base our
+>>decisions on.
+>
+>Do you really have *that* much information on him?  Really?
+
+I don't personally, but Clay just posted it.  Yes, we do.  
+
+Unfortunately, it shows that Lopez wasn't as good an example as Nieves would
+have been, since his last year numbers were out of line with the previous
+years (which I didn't have access to).
+
+The point remains, though; knowing a guy's minor league history is as good
+as knowing his major league history, if you know how to read it.
+
+>>Why isn't Lopez likely to hit that well?  He hit that well last year (after
+>>adjusting his stats for park and league and such); he hit better (on an
+>>absolute scale) than Olson or Berryhill did.  By a lot.
+>
+>I don't know.  You tell me.  What percentage of players reach or 
+>exceed their MLE's *in their rookie season*?  We're talking about
+>1993, you know.
+
+The MLE is not a *projection*, it's an *equivalence*.  It's a "this is how
+well he hit *last* year, in major league terms" rating.  So, in essence, he
+has *already* reached it.  I would guess (Bob?  Clay?) that essentially half
+of all players surpass their previous MLEs in their rookie seasons.  Maybe
+more than half, since all of these players are young and improving.
+
+>If that were your purpose, maybe.  Offerman spent 1992 getting 
+>acclimated, if you will.  The Dodgers as a team paid a big price
+>that season.  
+
+Did they?  Offerman may have been the difference between 4th or 5th place
+and last place, but no more.
+
+>Perhaps they will reap the benefits down the road.
+>Do you really think they would have done what they did if they
+>were competing for a pennant?
+
+Sure; they didn't have anyone better.  I suppose they might have gutted the
+farm system to acquire Jay Bell or Spike Owen or somebody if they were really
+in contention. 
+
+>>The point was not that 17 AB is a significant sample, but rather that he
+>>hadn't done anything in spring training to cause even a blockhead manager
+>>to question whether his minor league numbers were for real, or to send him
+>>down "until he gets warmed up".
+>
+>For a stat-head, I'm amazed that you put any credence in spring
+>training.  
+
+If you'd read what I wrote, you'd be less amazed.  Nowhere do I claim to put
+any credence in spring training.  Quite the contrary; I said that Lopez hadn't
+done anything that even the bozos who *do* put credence in spring training
+could interpret as "failure".  Just because I think spring training numbers
+are meaningless doesn't mean that Bobby Cox does; it's just a case of ruling
+out one possible explanation for sending Lopez down.
+
+>>>The kid *will* improve playing at AAA, 
+>>
+>>Just like Keith Mitchell did?
+>
+>Wait a minute.  I missed something here.  
+
+Keith Mitchell did very very well at AA, AAA, and the majors over a season,
+then did very, very poorly for a year in AAA.
+
+
+-- 
+  David M. Tate   |  (i do not know what it is about you that closes
+  posing as:      |  and opens; only something in me understands
+   e e (can       |  the pocket of your glove is deeper than Pete Rose's)
+     dy) cummings |  nobody, not even Tim Raines, has such soft hands
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ young catcher articl blue        know player age
+make much impact big especi haven't even play aaa
+ball  yes irrelev you'r talk averag lot inform
+player particular base decis  realli much inform
+realli  don't person clay post yes  unfortun show
+lopez wasn't good exampl niev sinc last year
+number line previous year didn't access  point
+remain though know guy minor leagu histori good
+know major leagu histori know read  isn't lopez
+like hit well hit well last year adjust stat park
+leagu hit better absolut scale olson berryhil lot
+don't know tell percentag player reach exceed mle
+rooki season we'r talk know  mle project it
+equival it well hit last year major leagu term
+rate essenc alreadi reach guess bob clay essenti
+half player surpass previous mles rooki season
+mayb half sinc player young improv  purpos mayb
+offerman spent get acclim dodger team paid big
+price season  offerman differ 4th 5th place last
+place  perhap reap benefit road realli think done
+compet pennant  sure didn't anyon better suppos
+might gut farm system acquir jay bell spike owen
+somebodi realli content  point signific sampl
+rather hadn't done anyth spring train caus even
+blockhead manag question whether minor leagu
+number real send get warm  stat head i'm amaz put
+credenc spring train  you'd read wrote you'd less
+amaz nowher claim put credenc spring train quit
+contrari said lopez hadn't done anyth even bozo
+put credenc spring train could interpret failur
+think spring train number meaningless doesn't mean
+bobbi cox it case rule one possibl explan send
+lopez  kid improv play aaa  like keith mitchel
+wait minut miss someth  keith mitchel well aaa
+major season poor year aaa    david tate know
+close pose open someth understand pocket glove
+deeper pete rose cum nobodi even tim rain soft
+hand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lopez, 5346, 0.250629922753
+spring, 8266, 0.243308549985
+train, 9042, 0.239791610333
+aaa, 157, 0.216815879491
+credenc, 2223, 0.216729003665
+leagu, 5176, 0.196115763708
+player, 6683, 0.168612097723
+season, 7747, 0.150550610114
+know, 5052, 0.147354215261
+offerman, 6204, 0.144486002443
+mle, 5796, 0.138863041252
+hit, 4316, 0.136702191344
+clay, 1796, 0.134501533708
+year, 9943, 0.122805414349
+mitchel, 5783, 0.116591946289
+hadn, 4114, 0.116591946289
+realli, 7150, 0.115998133575
+rooki, 7475, 0.112387433546
+keith, 4974, 0.111165426426
+major, 5458, 0.10761479088
+amaz, 459, 0.103438743433
+number, 6156, 0.0953356701706
+previous, 6855, 0.0915551365893
+improv, 4557, 0.0902936829415
+minor, 5745, 0.0898906635571
+stat, 8341, 0.0887291883761
+half, 4124, 0.0885421463014
+young, 9962, 0.0872806926535
+reach, 7128, 0.0849785351612
+histori, 4314, 0.0845186139967
+blockhead, 1164, 0.0762055605636
+send, 7785, 0.0750873637279
+niev, 6060, 0.0722430012216
+yes, 9951, 0.071199141963
+reap, 7154, 0.0707365060777
+pocket, 6707, 0.0707365060777
+gut, 4099, 0.0707365060777
+acclim, 212, 0.0707365060777
+bozo, 1259, 0.0694315206259
+mayb, 5564, 0.0684174649977
+spike, 8233, 0.0682804418797
+cum, 2292, 0.0682804418797
+tate, 8709, 0.067250766854
+anyth, 555, 0.0670069960336
+place, 6657, 0.0669452400655
+big, 1082, 0.0665787465597
+surpass, 8592, 0.0663193124926
+owen, 6358, 0.0663193124926
+talk, 8684, 0.0661005392783
+didn, 2625, 0.065290836322
+deeper, 2467, 0.0646867140012
+berryhil, 1049, 0.0646867140012
+play, 6681, 0.0644589768384
+inform, 4637, 0.0642429995288
+5th, 123, 0.0639624661399
+cox, 2198, 0.0632882075121
+pose, 6759, 0.0626574806882
+lot, 5356, 0.060986065386
+essenc, 3195, 0.0604767269163
+acquir, 244, 0.0604767269163
+sinc, 7977, 0.0595830778276
+exceed, 3260, 0.0595452725549
+read, 7135, 0.0594986468209
+olson, 6226, 0.0591108510879
+better, 1060, 0.0584729263023
+irrelev, 4771, 0.0579126740635
+warm, 9639, 0.0575438426
+nowher, 6131, 0.0575438426
+meaningless, 5597, 0.0575438426
+bobbi, 1190, 0.0575438426
+someth, 8126, 0.0575364239428
+farm, 3390, 0.0571884262022
+contrari, 2100, 0.0568454831613
+pennant, 6524, 0.0565141675744
+soft, 8097, 0.0561937167732
+rain, 7074, 0.0561937167732
+glove, 3911, 0.0555827132129
+point, 6710, 0.0551708679269
+rose, 7481, 0.0542039698727
+paid, 6387, 0.0539501147215
+4th, 112, 0.0539501147215
+pete, 6574, 0.0537026869786
+explan, 3302, 0.0537026869786
+percentag, 6534, 0.0532258668603
+failur, 3361, 0.0532258668603
+equival, 3162, 0.052995906278
+compet, 1969, 0.0523368111502
+tim, 8935, 0.0519208814085
+sampl, 7601, 0.0511386341258
+bell, 1011, 0.0511386341258
+impact, 4534, 0.0507698026623
+adjust, 269, 0.0505904788453
+dodger, 2791, 0.0504143862645
+catcher, 1557, 0.0504143862645
+good, 3948, 0.050243741834
+content, 2084, 0.0499043814833
+essenti, 3196, 0.0497401276366
+decis, 2445, 0.0497401276366
+nobodi, 6088, 0.0494196768354
+kid, 5008, 0.0491094008127
+benefit, 1028, 0.0488086732752
+spent, 8223, 0.0483742518083
+wait, 9611, 0.0470515778922
+somebodi, 8121, 0.0466873292536
+poor, 6741, 0.0465688687265
+unfortun, 9264, 0.0464518269225
+interpret, 4720, 0.0461088838817
+remain, 7264, 0.0457775682947
+scale, 7659, 0.0455627712125
+road, 7431, 0.0455627712125
+absolut, 193, 0.0455627712125
+price, 6857, 0.0454571174935
+minut, 5747, 0.0451468414707
+park, 6430, 0.0450455672606
+blue, 1176, 0.0450455672606
+think, 8871, 0.0447656133861
+don, 2811, 0.0443342955348
+age, 328, 0.0437279960069
+jay, 4832, 0.0436403463268
+bob, 1189, 0.0429660876989
+wasn, 9652, 0.0424120112587
+rate, 7108, 0.0424120112587
+signific, 7951, 0.0421089521277
+purpos, 6993, 0.0420346333374
+haven, 4207, 0.0417428840953
+access, 209, 0.0417428840953
+averag, 816, 0.0416002118705
+wrote, 9871, 0.0414595925549
+miss, 5770, 0.0413209679069
+head, 4215, 0.0412523860547
+like, 5272, 0.0411558025844
+particular, 6442, 0.0409165154111
+rule, 7537, 0.0407853339271
+especi, 3190, 0.0404648831259
+term, 8795, 0.0401546071031
+suppos, 8577, 0.0397361326735
+caus, 1569, 0.0395621303234
+david, 2397, 0.0394478264026
+alreadi, 443, 0.0391677822036
+open, 6258, 0.0387887312748
+ball, 877, 0.0382212810742
+claim, 1782, 0.0380720739955
+guess, 4079, 0.0378766100033
+perhap, 6540, 0.0378283488
+manag, 5472, 0.0373126338966
+close, 1830, 0.0370423989698
+guy, 4100, 0.0366933306553
+project, 6909, 0.0362738296093
+quit, 7043, 0.0357930995595
+isn, 4783, 0.0357930995595
+hand, 4145, 0.0354474609252
+exampl, 3258, 0.0354474609252
+understand, 9246, 0.035040969015
+case, 1540, 0.0339787719166
+real, 7144, 0.0335034980168
+person, 6562, 0.0325608040062
+said, 7583, 0.0325327613074
+team, 8732, 0.032449112804
+line, 5285, 0.0323937422659
+possibl, 6765, 0.0320412842074
+tell, 8767, 0.0319353441583
+doesn, 2793, 0.0317010962877
+articl, 665, 0.0314974873851
+sure, 8585, 0.0314723319689
+base, 923, 0.0305843686272
+mean, 5595, 0.0302019519329
+differ, 2633, 0.0300922664513
+question, 7032, 0.0295822616701
+post, 6766, 0.0285422395034
+anyon, 554, 0.0262614781909
+make, 5459, 0.0245116624164

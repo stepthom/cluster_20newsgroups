@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38477
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jmuller@ic.sunysb.edu (John S Muller)
+Subject: WAYNE RIGBY
+Organization: State University of New York at Stony Brook
+Lines: 20
+Distribution: world
+NNTP-Posting-Host: csws18.ic.sunysb.edu
+
+
+Sorry to clog up the news group with this message.
+
+Wayne Rigby, I have the info you requested, but for some
+reason I can not mail it to you.  Please contact me!
+Send email address.
+j
+-- 
+-------------------------------------------------------------------------------
+"No Real Programmer can function without caffeine" - Zen + Art of Internet
+
+     _/_/_/_/_/  _/_/_/_/_/  _/_/  _/_/        John S. Muller
+        _/      _/          _/  _/  _/         muller@diego.llnl.gov
+       _/      _/_/_/_/_/  _/  _/  _/          muller@sisal.llnl.gov
+ _/   _/              _/  _/      _/           jmuller@libserv1.ic.sunysb.edu 
+ _/_/_/      _/_/_/_/_/  _/      _/            
+
+"You are not drunk until you have to grab the grass,
+ to keep the grass from falling off the earth" - Some Stupid Comedian
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ wayn rigbi       sorri clog news group messag
+wayn rigbi info request reason mail pleas contact
+send email address    real programm function
+without caffein zen art internet  john muller
+drunk grab grass keep grass fall earth stupid
+comedian
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rigbi, 7398, 0.468798168623
+grass, 4003, 0.413710444573
+wayn, 9667, 0.375121961101
+drunk, 2885, 0.227691349555
+zen, 9980, 0.222210731199
+grab, 3973, 0.179311360261
+programm, 6906, 0.152497740886
+stupid, 8476, 0.147099366569
+art, 660, 0.147099366569
+internet, 4717, 0.14434684048
+request, 7301, 0.142524453588
+function, 3722, 0.140806261524
+fall, 3369, 0.137639105723
+contact, 2078, 0.136172464729
+email, 3060, 0.126469839271
+messag, 5650, 0.124271771013
+info, 4636, 0.118344863988
+address, 264, 0.116802978455
+sorri, 8142, 0.115914435613
+send, 7785, 0.115479823067
+john, 4878, 0.113665897872
+earth, 2956, 0.104714993307
+group, 4064, 0.104614625342
+news, 6031, 0.103823522383
+mail, 5447, 0.103339451094
+real, 7144, 0.103052706368
+reason, 7156, 0.0969600350635
+pleas, 6688, 0.0884289996072

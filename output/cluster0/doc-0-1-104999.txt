@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104999
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: akamholz@jhunix.hcf.jhu.edu (Andrew E Kamholz)
+Subject: Re: Camden Yards
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 18
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+
+In article <1993Apr23.035220.21801@uvm.edu> luh@med.uvm.edu (Eddy Luh) writes:
+>Anyone know how I can get some tickets to see the
+>birds at Camden yards. . .more specifically, anyone
+>have confidence in any particular ticket agencies in
+>the New England/New York area that will be fair 
+>about prices?
+
+Tickets are very hard to get, even at the box office at Camden Yards.
+If you really want to see a game here (I go to school in Baltimore),
+price should not be an issue. Tickets go up to $15, but you should be willing
+to go as high as $20-25 if you really want to come.
+
+
+-- 
+["Men go crazy in      ] Andrew Kamholz ["Something in me, dark and sticky   ] 
+[ congregations but    ] (410)-516-3052 [ All the time it's getting strong   ] 
+[ they only get better }-----STING      [ No way of dealing with this feeling] 
+[ one by one."         ] PETER GABRIEL--{ Can't go on like this too long."   ]
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ camden yard      anyon know get ticket see bird
+camden yard specif anyon confid particular ticket
+agenc new england new york area fair price  ticket
+hard get even box offic camden yard realli want
+see game school baltimor price issu ticket will
+high realli want come    men crazi andrew kamholz
+someth dark sticki congreg time it get strong get
+better sting way deal feel one one peter gabriel
+can't like long
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ticket, 8919, 0.449621500338
+camden, 1471, 0.438482569805
+yard, 9936, 0.397583487803
+price, 6857, 0.197590348551
+sticki, 8394, 0.160883357567
+gabriel, 3743, 0.160883357567
+congreg, 2039, 0.160883357567
+confid, 2029, 0.131438355636
+realli, 7150, 0.126053481326
+bird, 1113, 0.125064110344
+andrew, 505, 0.125064110344
+new, 6023, 0.123743311308
+england, 3110, 0.123546316295
+crazi, 2216, 0.120801848893
+want, 9634, 0.115718128772
+anyon, 554, 0.114151862576
+agenc, 329, 0.110341609379
+baltimor, 887, 0.107752660007
+peter, 6575, 0.104829571051
+men, 5629, 0.101993353705
+dark, 2365, 0.10070568194
+york, 9960, 0.10045725713
+school, 7685, 0.0999689579434
+strong, 8456, 0.0941013143632
+offic, 6206, 0.0941013143632
+fair, 3363, 0.0899558945063
+particular, 6442, 0.088926762049
+box, 1254, 0.0867463796935
+issu, 4793, 0.0866172602738
+area, 622, 0.0863613526103
+deal, 2418, 0.0858586053729
+specif, 8203, 0.0843022980231
+feel, 3429, 0.0835092429484
+hard, 4167, 0.0804105432353
+high, 4292, 0.0718304927564
+long, 5336, 0.0669247174213
+game, 3761, 0.0643834168688
+better, 1060, 0.0635416768919
+someth, 8126, 0.0625239934254
+come, 1923, 0.0615924393251
+way, 9666, 0.0555614515986
+time, 8936, 0.0504668692523
+know, 5052, 0.0457507652414
+like, 5272, 0.0447234109086

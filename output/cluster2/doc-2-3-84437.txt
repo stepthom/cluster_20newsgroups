@@ -1,0 +1,175 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84437
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: tph@drake_mallard.sbc.com (Timothy P. Henrion)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Organization: /usr/lib/news/organization
+Lines: 48
+NNTP-Posting-Host: drake_mallard.sbc.com
+
+In article <24APR199300033703@utarlg.uta.edu> b645zaw@utarlg.uta.edu (stephen) writes:
+>In article <1r17j9$5ie@sbctri.sbc.com>, netd@susie.sbc.com () writes...
+>                                                           ^^-- name?
+>>(stephen) writes:
+>>>For those who think David Koresh didn't have a solid structure,
+>>>or sound Biblical backing for his hour long tape broadcast,
+>> 
+>>I don't think anyone really cares about the solid structure of his
+>>sermon.  
+>
+>Other than it tells quite a lot about the Man himself. 
+                                             
+I'm curious.  Are you referring to Koresh as "the Man"?  Why the 
+upper case M?                           
+                                                         
+>
+>>It's the deaths he's responsible for that concern most people.
+>
+>Are you the spokesman for "most people?"
+                                                          
+I never claimed to be a spokesman for "most people".  It is an assumption
+on my part that people with normal values and morality would be more 
+concerned with human life than sermon structure.  
+                                      
+>
+>You missed the point -- which is that the Prophets, the Psalms, and 
+>Revelation, all together, provide a very rich view of a very special
+>event -- a wedding.                        
+>                        
+                     
+Are burning children part of this very special event?      
+                                          
+
+>	                        
+>My comment stems from the realization that we who love the Lord, are
+>human and imperfect. Whatever we "preach," no matter how eloquent, or
+>how corrupted -- is of little difference. Those who know the Master's
+>voice will recognize Him -- a gem-stone amidst rock. Such is also the 
+>lesson of the "stumblingblock." For those who have an ear to hear. 	
+                                                
+What about those who do not know the Master's voice?  Does the Master
+not care about them?  Eloquent, but corrupt, preaching may be of little
+difference to you.  But I suspect it made a big difference to all of
+those who died in the compound.
+
+-- 
+  Tim Henrion              Southwestern Bell Technology Resources
+  thenrion@sbctri.sbc.com       
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos      susi sbc
+com write name  think david koresh didn't solid
+structur sound biblic back hour long tape
+broadcast  don't think anyon realli care solid
+structur sermon  tell quit lot man  i'm curious
+refer koresh man upper case   it death he respons
+concern peopl  spokesman peopl  never claim
+spokesman peopl assumpt part peopl normal valu
+moral concern human life sermon structur   miss
+point prophet psalm revel togeth provid rich view
+special event wed   burn children part special
+event    comment stem realize love lord human
+imperfect whatev preach matter eloqu corrupt littl
+differ know master voic recogn gem stone amidst
+rock also lesson stumblingblock ear hear  know
+master voic master care eloqu corrupt preach littl
+differ suspect made big differ die compound   tim
+henrion southwestern bell technolog resourc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+master, 5537, 0.262011506512
+eloqu, 3052, 0.240747399984
+spokesman, 8252, 0.233857997207
+koresh, 5065, 0.222384357709
+structur, 8460, 0.211133164916
+preach, 6803, 0.194310050873
+sermon, 7807, 0.19105711784
+corrupt, 2160, 0.188114481974
+peopl, 6530, 0.167533642286
+tape, 8700, 0.158184910398
+voic, 9567, 0.155631860877
+biblic, 1072, 0.153273897991
+solid, 8115, 0.151083312227
+differ, 2633, 0.142600517355
+event, 3232, 0.14015592331
+special, 8198, 0.137593450835
+concern, 2004, 0.133504933364
+care, 1516, 0.121550040992
+sbc, 7654, 0.120373699992
+human, 4432, 0.119204028681
+southwestern, 8159, 0.116928998604
+stem, 8374, 0.107855245278
+man, 5471, 0.10663541261
+wed, 9686, 0.104757460829
+imperfect, 4540, 0.104757460829
+littl, 5308, 0.103765765686
+psalm, 6957, 0.0999695514048
+lesson, 5223, 0.0963203814098
+revel, 7353, 0.0940572409868
+ear, 2948, 0.0927140329516
+gem, 3813, 0.0914784013385
+enclos, 3085, 0.0897926750406
+stone, 8409, 0.0877980136299
+compound, 1983, 0.0877980136299
+upper, 9340, 0.0873371688373
+prophet, 6928, 0.0860318434079
+assumpt, 711, 0.0860318434079
+recogn, 7173, 0.0840751577952
+rock, 7445, 0.083357021145
+rich, 7382, 0.0826708124361
+tim, 8935, 0.0820138131098
+bell, 1011, 0.0807781814967
+broadcast, 1324, 0.0804841315755
+cite, 1774, 0.0799123197565
+lord, 5347, 0.0773334801081
+curious, 2297, 0.0749199417262
+suspect, 8603, 0.0747181459886
+resourc, 7320, 0.0733749379534
+burn, 1413, 0.0723098843643
+togeth, 8969, 0.0714752403377
+think, 8871, 0.0707114084044
+normal, 6108, 0.0706834178478
+children, 1707, 0.069638960865
+hour, 4395, 0.0694953583959
+moral, 5855, 0.0692120999147
+death, 2423, 0.0689339454685
+com, 1917, 0.0674877082137
+whatev, 9718, 0.0673627103315
+hear, 4223, 0.0666332602663
+know, 5052, 0.066502729007
+miss, 5770, 0.0652702736837
+valu, 9414, 0.0631411328678
+die, 2628, 0.0631411328678
+david, 2397, 0.062311474197
+comment, 1936, 0.0619565814614
+technolog, 8743, 0.0613544991411
+love, 5366, 0.0612703727525
+sound, 8150, 0.0606133734262
+view, 9510, 0.0602950703122
+claim, 1782, 0.0601383465894
+matter, 5553, 0.0599062045591
+respons, 7323, 0.0594521378804
+provid, 6949, 0.0571044841942
+refer, 7213, 0.0569135066562
+life, 5260, 0.0568503689236
+quit, 7043, 0.0565384966175
+case, 1540, 0.0536725990406
+write, 9865, 0.0532177891012
+big, 1082, 0.0525836304133
+didn, 2625, 0.051566444007
+tell, 8767, 0.0504448167356
+long, 5336, 0.048640457958
+lot, 5356, 0.0481665529666
+realli, 7150, 0.0458074333007
+point, 6710, 0.0435737330388
+anyon, 554, 0.041482422985
+don, 2811, 0.0350150510711

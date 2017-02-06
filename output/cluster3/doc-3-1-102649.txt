@@ -1,0 +1,210 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102649
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cabanrf@wkuvx1.bitnet
+Subject: Re: My Belated Predictions (NL)
+Organization: Western Kentucky University, Bowling Green, KY
+Lines: 56
+
+In article <mssC4zyo8.JsC@netcom.com>, mss@netcom.com (Mark Singer) writes:
+> In article <Apr.4.19.42.08.1993.12176@pilot.njin.net> gajarsky@pilot.njin.net (Bob Gajarsky - Hobokenite) writes:
+>>i've said the braves would improve by injury as well.  here's how.
+>>
+>>javier lopez is a better catcher than greg olson.
+>>ryan klasko is a better firstbaseman than bream.
+>> chipper jones is a better shortstop than anyone the braves
+>> put out there.
+>>
+>>mel nieves is better than nixon/sanders.
+>>
+>>that's how. it FORCES them to play the young guys.
+>>
+>>- bob gaj
+> 
+> I continue to be amazed at these comments.  While Lopez might *some
+> day* be a better catcher than Olson, I find it totally amazing for
+> you to suggest that this 22 year-old with three seasons of professional
+> baseball is *now* better than Olson, a five-year MLB veteran who is
+> noted for his ability to call a game, and who has a better-than-average
+> arm.  Oh, perhaps you are talking about hitting.  Well, sure, Lopez
+> *might* hit better.  Perhaps he *probably* will.
+> 
+> But has there ever in the history of baseball been a 22-year-old (or
+> younger) *rookie* catcher who compared favorably among all league
+> catchers in terms of defense and brought a .247 bat?  Wasn't it 
+
+Yes, Ivan Rodriguez, last year.  Batted .260 and threw out 51% of the
+baserunners.  Not too shabby for a rookie from AA.  20 years old last
+year.
+
+> Sandy Alomar who was supposed to be that good in his rookie year?
+> Not.  Wasn't it Benito Santiago who was supposed to be that good
+> in his rookie year?  Not.
+> 
+> I can continue this thread with the others mentioned, but you get
+> the point.  You and others seem to be so quick to dismiss the 
+> seasoned veterans in favor of the hot *young* rookies.  Perhaps -
+> just perhaps - the management team of the pennant-winning Braves
+> knows something more than you do.  And perhaps what they know is
+> that very, very few 21- and 22-year old rookies come up to the majors
+> and make an impact. 
+> 
+> 
+> --	The Beastmaster
+> 
+> 
+>  
+> -- 
+> Mark Singer    
+> mss@netcom.com
+-- 
+Roy F. Cabaniss......................*Wait till Tommy meets the Lord and
+Western Kentucky University..........*finds out that He's wearing pinstripes.
+All opinions contained herein........*Gaylord Perry (talking about Lasorda)
+Are all mine own, and that's the sin.*Baseball, what a way to spend a day!!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ belat predict      i'v said brave improv injuri
+well here  javier lopez better catcher greg olson
+ryan klasko better firstbaseman bream chipper jone
+better shortstop anyon brave put  mel niev better
+nixon sander  that forc play young guy  bob gaj
+continu amaz comment lopez might day better
+catcher olson find total amaz suggest year old
+three season profession basebal better olson five
+year mlb veteran note abil call game better averag
+arm perhap talk hit well sure lopez might hit
+better perhap probabl  ever histori basebal year
+old younger rooki catcher compar favor among leagu
+catcher term defens brought bat wasn't  yes ivan
+rodriguez last year bat threw baserunn shabbi
+rooki year old last year  sandi alomar suppos good
+rooki year wasn't benito santiago suppos good
+rooki year  continu thread other mention get point
+other seem quick dismiss season veteran favor hot
+young rooki perhap perhap manag team pennant win
+brave know someth perhap know year old rooki come
+major make impact   beastmast     mark singer
+roy cabaniss wait till tommi meet lord western
+kentucki univers find he wear pinstrip opinion
+contain herein gaylord perri talk lasorda mine
+that sin basebal way spend day
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rooki, 7475, 0.398233836891
+better, 1060, 0.276257431528
+year, 9943, 0.261089357434
+catcher, 1557, 0.238184570915
+perhap, 6540, 0.223401733487
+lopez, 5346, 0.222020631284
+olson, 6226, 0.209453497494
+old, 6216, 0.174590287062
+brave, 1277, 0.148167378945
+veteran, 9490, 0.139635664996
+favor, 3410, 0.122175010677
+amaz, 459, 0.122175010677
+basebal, 924, 0.116694414089
+young, 9962, 0.103090188482
+wasn, 9652, 0.100188532003
+continu, 2092, 0.0974491866283
+bat, 942, 0.0948559386695
+suppos, 8577, 0.093867389965
+benito, 1032, 0.0933297092263
+shabbi, 7834, 0.0900089740703
+season, 7747, 0.0889102177179
+javier, 4831, 0.0874332117735
+belat, 1004, 0.0874332117735
+perri, 6557, 0.0853286607385
+niev, 6060, 0.0853286607385
+ivan, 4806, 0.0853286607385
+rodriguez, 7455, 0.0835492881921
+gaj, 3747, 0.0835492881921
+santiago, 7615, 0.0820079255826
+baserunn, 933, 0.0820079255826
+hit, 4316, 0.0807317989989
+lasorda, 5137, 0.0794321632858
+talk, 8684, 0.0780735904562
+bream, 1289, 0.0773276122508
+mel, 5620, 0.074751849954
+dismiss, 2724, 0.0740068770948
+sandi, 7608, 0.072647298919
+sander, 7607, 0.072647298919
+roy, 7502, 0.0720231970383
+beastmast, 973, 0.0720231970383
+younger, 9963, 0.071431114798
+nixon, 6080, 0.071431114798
+jone, 4889, 0.0708679263726
+day, 2402, 0.0684586321213
+till, 8933, 0.0679669855872
+shortstop, 7909, 0.0679669855872
+singer, 7981, 0.0675471912166
+pennant, 6524, 0.0667508014662
+wear, 9676, 0.0653060341733
+tommi, 8978, 0.0653060341733
+threw, 8894, 0.0649714289198
+mlb, 5795, 0.0628668778848
+alomar, 436, 0.0623298939495
+injuri, 4650, 0.061568536314
+western, 9709, 0.0613255152753
+ryan, 7557, 0.0604015764595
+greg, 4033, 0.0604015764595
+profession, 6900, 0.0599659370994
+impact, 4534, 0.0599659370994
+arm, 643, 0.0599659370994
+good, 3948, 0.0593445888001
+hot, 4389, 0.0583712576608
+lord, 5347, 0.0578258141627
+meet, 5615, 0.0568066461552
+brought, 1343, 0.0568066461552
+thread, 8890, 0.0558702080713
+sin, 7976, 0.0557212631277
+wait, 9611, 0.0555742156235
+spend, 8222, 0.0540694396467
+abil, 177, 0.0540694396467
+improv, 4557, 0.0533244667875
+predict, 6816, 0.0522900671003
+contain, 2079, 0.0507487044907
+bob, 1189, 0.0507487044907
+histori, 4314, 0.0499139018165
+defens, 2476, 0.0499139018165
+know, 5052, 0.0497271614247
+quick, 7036, 0.0492193721824
+averag, 816, 0.0491354221907
+compar, 1960, 0.0485642702789
+forc, 3594, 0.0477944468763
+term, 8795, 0.0474279693348
+mark, 5512, 0.0470030229565
+leagu, 5176, 0.046327796974
+comment, 1936, 0.046327796974
+mention, 5632, 0.0461973653831
+total, 9013, 0.046068391159
+manag, 5472, 0.0440712183213
+suggest, 8525, 0.0440174043638
+guy, 4100, 0.0433397382432
+opinion, 6266, 0.043238924738
+major, 5458, 0.0423691606853
+yes, 9951, 0.0420478615693
+win, 9770, 0.041957680853
+note, 6118, 0.0416474836422
+said, 7583, 0.0384255485728
+univers, 9282, 0.0383595879763
+team, 8732, 0.0383267484863
+play, 6681, 0.0380673426712
+probabl, 6885, 0.0377510743127
+sure, 8585, 0.0371730394891
+game, 3761, 0.034989628554
+someth, 8126, 0.0339791115797
+come, 1923, 0.0334728518387
+point, 6710, 0.0325820923299
+anyon, 554, 0.0310183232307
+way, 9666, 0.0301952684076
+make, 5459, 0.028951556429

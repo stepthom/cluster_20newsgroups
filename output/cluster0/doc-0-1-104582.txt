@@ -1,0 +1,192 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104582
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mtt@kepler.unh.edu (Matthew T Thompson)
+Subject: music censorship survey - please fill out
+Organization: University of New Hampshire  -  Durham, NH
+Lines: 68
+NNTP-Posting-Host: kepler.unh.edu
+
+Hello, I'm doing a paper on censorship in music and I would appreciate it if you took the time to participate in this survey.  Please answer as each question asks ('why?' simply means that you have room to explain your answer, if you chose.).  The last question is for any comments, questions, or suggestions.  Thank you in advance, please E-mail to the address at the end.
+
+I)  are you [male/female]
+II) what is your age? 
+III)what is your major/occupation?
+IV) what type of music do you listen to (check all that apply)?
+      a.  hard rock   b.  metal   c.  alternative   d.  blues    e.  rap
+      f.  jazz    g.  soft rock   h.  easy listening   i.  country   
+      j.  classical   k.  hard core   l.  dance   m.  new age
+      n.  others (did I miss any?)____________
+
+1)  Do you think recordings with objectionable or offensive lyrics be labeled? [yes/no] Why?
+
+
+
+
+2)  Do you think certain recordings should be banned from minors (under 18 years of age)? [yes/no] why?
+
+
+
+
+3)  Do you think certain recordings should be banned.  Period.  [yes/no]  Why?
+
+
+
+
+4)  If yes to any of the above, who should decide:
+       a. parents
+       b. government
+       c. music industry
+       d. other________________
+
+feel free to add any comments on this.
+
+
+
+
+
+5)  Do you think [more/less] should be done for controling record sales, or do you think the present labeling system is enough?  
+
+
+
+
+
+6)  What is your definition of censorship?  Also, feel free to add comments, suggestions, questions, or further explanations.
+
+
+
+
+
+
+
+
+Please E-mail at: mtt@kepler.unh.edu or hit 'R' to reply.
+
+thanks.
+Matthew T. Thompson
+
+
+disclaimer:  if any responses are used in paper, they will be anoynamous (sp?) unless the person specifies they what their name to be used.
+
+
+-- 
+*************This .sig is closed for repairs********************************
+-----------------------------------------------------------------------------
+ ution,|  } Matthew T. Thompson rrrrrrr!   *pound, pound, thud* "OUCH"$%#@"duh?"
+E-mail at mtt@kepler.unh.edu or shazam@unh.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ music censorship survey pleas fill     hello i'm
+paper censorship music appreci took time particip
+survey pleas answer question ask whi simpli mean
+room explain answer chose last question comment
+question suggest thank advanc pleas mail address
+end  male femal age iii major occup type music
+listen check appli hard rock metal altern blue rap
+jazz soft rock easi listen countri classic hard
+core danc new age other miss  think record
+objection offens lyric label yes     think certain
+record ban minor year age yes     think certain
+record ban period yes     yes decid parent govern
+music industri   feel free add comment      think
+less done control record sale think present label
+system enough      definit censorship also feel
+free add comment suggest question explan
+thank matthew thompson       sig close repair
+ution matthew thompson rrrrrrr pound pound thud
+ouch duh unh edu
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+censorship, 1602, 0.332877048611
+music, 5933, 0.3174381801
+record, 7184, 0.232098488137
+yes, 9951, 0.199961593875
+age, 328, 0.184214013065
+thompson, 8879, 0.177743867394
+ban, 889, 0.174308520626
+question, 7032, 0.166162569686
+comment, 1936, 0.165236348138
+label, 5086, 0.162646772026
+think, 8871, 0.157154341272
+survey, 8597, 0.156947704363
+rock, 7445, 0.148207120113
+pound, 6776, 0.144154961951
+matthew, 5554, 0.142082509787
+listen, 5300, 0.140155616874
+pleas, 6688, 0.121112383787
+add, 260, 0.117846413648
+free, 3668, 0.111763107998
+whi, 9728, 0.110959016204
+feel, 3429, 0.10791269479
+thud, 8904, 0.107011018197
+occup, 6190, 0.107011018197
+suggest, 8525, 0.104663947301
+ouch, 6320, 0.103948713034
+objection, 6174, 0.103948713034
+hard, 4167, 0.103908478914
+answer, 535, 0.101303797709
+duh, 2911, 0.0993311443823
+certain, 1619, 0.0971212814702
+rap, 7098, 0.0931283374005
+male, 5465, 0.0888719336968
+femal, 3441, 0.0879862408533
+danc, 2352, 0.0863698481945
+metal, 5658, 0.0849239356903
+chose, 1726, 0.0836159487286
+classic, 1790, 0.0803063670384
+iii, 4502, 0.0798247921545
+repair, 7285, 0.0793595450249
+soft, 8097, 0.0789095546795
+parent, 6426, 0.0789095546795
+thank, 8832, 0.0768637913421
+explan, 3302, 0.0754115470183
+sale, 7590, 0.0747419763731
+sig, 7940, 0.0741035600567
+particip, 6440, 0.0718109973411
+core, 2140, 0.0715495898953
+room, 7476, 0.0687486921781
+altern, 450, 0.0683327974427
+hello, 4247, 0.0679291366961
+countri, 2186, 0.0664236862419
+industri, 4608, 0.0662466066757
+offens, 6202, 0.0645911713847
+blue, 1176, 0.0632548593852
+minor, 5745, 0.0631141045517
+period, 6546, 0.0611596024383
+paper, 6409, 0.0611596024383
+appli, 584, 0.0608000148106
+took, 8987, 0.0605654197653
+easi, 2959, 0.0605654197653
+decid, 2442, 0.0594490748374
+definit, 2484, 0.0593422768201
+miss, 5770, 0.0580246220342
+govern, 3966, 0.057272462518
+control, 2107, 0.057272462518
+simpli, 7967, 0.0562162895198
+check, 1682, 0.0559644755564
+explain, 3301, 0.0554742993083
+present, 6837, 0.0549237135379
+type, 9177, 0.0536017158798
+address, 264, 0.0533244645115
+appreci, 587, 0.0530527036317
+close, 1830, 0.0520164775498
+advanc, 285, 0.0518922823496
+major, 5458, 0.0503723886637
+edu, 3001, 0.0486579707598
+ask, 689, 0.0475332343681
+end, 3091, 0.0473100835007
+mail, 5447, 0.0471779141713
+mean, 5595, 0.0424108372668
+new, 6023, 0.0399760365258
+year, 9943, 0.0344896942753
+time, 8936, 0.0326072639766

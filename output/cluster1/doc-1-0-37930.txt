@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37930
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ari@tahko.lpr.carel.fi (Ari Suutari)
+Subject: Any graphics packages available for AIX ?
+Organization: Carelcomp Oy
+Lines: 24
+NNTP-Posting-Host: tahko.lpr.carel.fi
+Keywords: gks graphics
+
+
+	Does anybody know if there are any good 2d-graphics packages
+	available for IBM RS/6000 & AIX ? I'm looking for something
+	like DEC's GKS or Hewlett-Packards Starbase, both of which
+	have reasonably good support for different output devices
+	like plotters, terminals, X etc.
+
+	I have tried also xgks from X11 distribution and IBM's implementation
+	of Phigs. Both of them work but we require more output devices
+	than just X-windows.
+
+	Our salesman at IBM was not very familiar with graphics and
+	I am not expecting for any good solutions from there.
+
+
+		Ari
+
+---
+
+	Ari Suutari			ari@carel.fi
+	Carelcomp Oy
+	Lappeenranta
+	FINLAND
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic packag avail aix       anybodi know good
+graphic packag avail ibm aix i'm look someth like
+dec gks hewlett packard starbas reason good
+support differ output devic like plotter termin
+etc  tri also xgks x11 distribut ibm implement
+phig work requir output devic window  salesman ibm
+familiar graphic expect good solut   ari
+carelcomp lappeenranta finland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ibm, 4472, 0.354817793822
+aix, 369, 0.347207957343
+devic, 2591, 0.260670972693
+output, 6329, 0.246352265098
+graphic, 3997, 0.241350089076
+packag, 6375, 0.212866568692
+good, 3948, 0.188441360792
+salesman, 7592, 0.185088859693
+packard, 6376, 0.176866915512
+hewlett, 4281, 0.176866915512
+starbas, 8325, 0.173603978671
+gks, 3888, 0.173603978671
+plotter, 6695, 0.170725864404
+dec, 2431, 0.170725864404
+avail, 811, 0.169756407667
+finland, 3490, 0.168151303462
+phig, 6587, 0.158243468212
+x11, 9883, 0.142991803048
+familiar, 3379, 0.138976938315
+termin, 8796, 0.136181238049
+solut, 8118, 0.120601571606
+implement, 4544, 0.117957293845
+distribut, 2753, 0.114460520499
+like, 5272, 0.102904430288
+window, 9774, 0.101654467543
+anybodi, 552, 0.0993547407135
+expect, 3290, 0.0947052597421
+requir, 7302, 0.0909039374624
+support, 8576, 0.0841606268044
+reason, 7156, 0.0788181999922
+differ, 2633, 0.0752415781203
+someth, 8126, 0.0719309617948
+tri, 9087, 0.0707682434956
+work, 9833, 0.0692281290175
+look, 5341, 0.0609818282643
+know, 5052, 0.052634138774

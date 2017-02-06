@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104930
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: ALL-TIME BEST PLAYERS
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 40
+
+In article <1993Apr15.125205.29853@aplcen.apl.jhu.edu> (jmhodapp@aplcomm.jhuapl.edu) writes:
+>In article <1993Apr14.173428.12056@Princeton.EDU>, roger@crux.Princeton.EDU (Roger Lustig) writes:
+
+>> >In article <1993Apr13.115313.17986@bsu-ucs>, 00mbstultz@leo.bsuvc.bsu.edu 
+>> >     writes...
+
+>> >>I've recently been working on project to determine the greatest
+>> >>players at their respective postions.  
+
+>> >>2B  Career                         
+
+>What about U. Johnny Hodapp, the greatest 2nd baseman in Cleveland Indians
+>history?  225 hits in 1930, consistantly over .300.  A great, great second baseman.
+
+Um, the header said *career.*  Hodapp managed about 3000 PA in his
+nine years in the majors.
+
+As for his "consistently over .300," make that "three years in a row, 
+preceded by a part-time year, plus his last year, with Boston."  Hodapp
+only qualified for the batting title five times.  
+
+Was he injured?  He retired right around his 28th birthday.
+
+Anyway, Hodapp put up flashy numbers the year *everybody* put up
+flashy numbers.  That was his only really good year with a bat; 
+his other .300 years were marred by a lack of power and an inability
+to draw walks.  Only 163 of those 3000 PA were bases on balls, which
+does not describe a feared hitter.  
+
+On the other hand, he was part of the long line of famous Cleveland 2B:
+Wambsganss, Riggs Stephenson, etc.
+
+Roger
+>
+>Jon "Johnny" Hodapp
+>jmhodapp@aplcomm.jhuapl.edu
+>=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+>
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time best player origin news nimast
+articl 1993apr13 write  i'v recent work project
+determin greatest player respect postion  career
+johnni hodapp greatest 2nd baseman cleveland
+indian histori hit consist great great second
+baseman  header said career hodapp manag nine year
+major  consist make three year row preced part
+time year plus last year boston hodapp qualifi bat
+titl five time  injur retir right around 28th
+birthday  anyway hodapp put flashi number year
+everybodi put flashi number realli good year bat
+year mar lack power inabl draw walk base ball
+describ fear hitter  hand part long line famous
+cleveland wambsganss rigg stephenson etc  roger
+jon johnni hodapp
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hodapp, 4335, 0.61102964257
+year, 9943, 0.265899219378
+flashi, 3525, 0.218798888904
+johnni, 4879, 0.200085951867
+baseman, 928, 0.170147188154
+greatest, 4018, 0.169295610677
+cleveland, 1811, 0.159365260809
+career, 1517, 0.139962658849
+consist, 2061, 0.13781350014
+bat, 942, 0.124204373466
+1993apr13, 41, 0.114485054291
+28th, 79, 0.111729355002
+postion, 6770, 0.109399444452
+time, 8936, 0.107737102587
+birthday, 1116, 0.107381184131
+player, 6683, 0.10430862841
+inabl, 4560, 0.102567915005
+stephenson, 8381, 0.101252781491
+great, 4016, 0.100542340381
+number, 6156, 0.0982959618394
+row, 7501, 0.0927944682997
+retir, 7339, 0.0920913414931
+jon, 4887, 0.0920913414931
+preced, 6806, 0.0914194752988
+injur, 4649, 0.0914194752988
+nimast, 6072, 0.0889959762099
+header, 4217, 0.0889959762099
+famous, 3380, 0.0850735940769
+qualifi, 7015, 0.0816147679815
+2nd, 81, 0.0812751019871
+fear, 3417, 0.0788019249548
+indian, 4598, 0.0779697239168
+everybodi, 3239, 0.0777022036472
+mar, 5500, 0.0743826268904
+titl, 8953, 0.0727688822563
+boston, 1243, 0.0727688822563
+roger, 7458, 0.0725787602445
+plus, 6700, 0.0725787602445
+lack, 5092, 0.0699813294243
+respect, 7321, 0.0684686179248
+draw, 2861, 0.0670936249239
+determin, 2582, 0.0658333535414
+histori, 4314, 0.0653572669176
+describ, 2556, 0.0651247315518
+hitter, 4322, 0.0643379256351
+walk, 9617, 0.0642287951924
+recent, 7168, 0.0600721228186
+ball, 877, 0.0591121494065
+manag, 5472, 0.0577068566949
+project, 6909, 0.0561002660075
+power, 6783, 0.0561002660075
+major, 5458, 0.055478182294
+hand, 4145, 0.0548222233112
+origin, 6293, 0.0537522216808
+hit, 4316, 0.0528551119416
+second, 7753, 0.0526010807409
+news, 6031, 0.0522033077672
+write, 9865, 0.0521054789425
+best, 1052, 0.0505325225346
+said, 7583, 0.0503144162875
+line, 5285, 0.0500994126528
+articl, 665, 0.0487132855809
+long, 5336, 0.0476238190404
+base, 923, 0.0473010772267
+right, 7399, 0.0459770763021
+realli, 7150, 0.0448500077055
+work, 9833, 0.0428204383677
+good, 3948, 0.0388529045934
+make, 5459, 0.0379091702381

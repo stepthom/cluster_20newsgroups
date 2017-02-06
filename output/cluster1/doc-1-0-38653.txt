@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38653
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: shmuel@mapsut.einstein.com (Shmuel Einstein)
+Subject: Screen capture -> CYMK converter
+Nntp-Posting-Host: mapsut.einstein.com
+Organization: Shmuel Einstein & Associates, Inc.
+Lines: 20
+
+I have a small program to extract a 640x480 image from a vga 16 color screen,
+and store that image in a TIFF file.  I need to insert the image into a
+sales brochure, which I then need printed in 4 color.  On a mac, I would
+use Photoshop to separate the image into 5 EPS files, and then pull it into
+quark express, then get it printed to film on a lintronix at a service bureau.
+
+However, I don't have a mac, but I do have windows.  What would I need to 
+do this type of operation in the windows 3.1 environment?  Are there any
+separation programs available on the net?  Is there a good page layout program
+that I should look into?
+
+Thanks in advance.
+
+
+-- 
+Shmuel Einstein, shmuel@einstein.com
+Shmuel Einstein & Associates, Inc.
+9100 Wilshire Blvd, Suite 235 E
+Beverly Hills, CA  90212
+310/273-8971 FAX 310/273-8872
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ screen captur cymk convert     small program
+extract 640x480 imag vga color screen store imag
+tiff file need insert imag sale brochur need print
+color mac use photoshop separ imag ep file pull
+quark express get print film lintronix servic
+bureau  howev don't mac window need type oper
+window environ separ program avail net good page
+layout program look  thank advanc     shmuel
+einstein associ inc wilshir blvd suit bever hill
+fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.307522696262
+print, 6871, 0.219697164478
+separ, 7797, 0.218028961668
+program, 6905, 0.213574698464
+screen, 7719, 0.213360136385
+mac, 5410, 0.20442509428
+window, 9774, 0.190824819368
+need, 5993, 0.184997430389
+color, 1907, 0.184361412732
+bever, 1062, 0.178841397032
+quark, 7026, 0.166006462974
+ep, 3143, 0.160242501012
+file, 3477, 0.158729005231
+brochur, 1327, 0.153644437645
+blvd, 1182, 0.153644437645
+layout, 5161, 0.151808637268
+640x480, 127, 0.147046374279
+bureau, 1408, 0.143104943813
+einstein, 3018, 0.141928518728
+extract, 3326, 0.138723042126
+photoshop, 6609, 0.137746926269
+insert, 4670, 0.131877027579
+hill, 4300, 0.131148862902
+film, 3479, 0.125464675841
+sale, 7590, 0.124911992211
+captur, 1509, 0.123845043518
+store, 8417, 0.11635245549
+suit, 8529, 0.115612544201
+pull, 6979, 0.115612544201
+tiff, 8926, 0.113860910012
+vga, 9492, 0.11287074499
+express, 3315, 0.109567164465
+page, 6382, 0.109289157899
+associ, 706, 0.107947532142
+environ, 3139, 0.106680068193
+fax, 3413, 0.0963361020651
+oper, 6261, 0.0960240528865
+servic, 7813, 0.0943797798083
+net, 6010, 0.092312140885
+convert, 2115, 0.0921807063659
+type, 9177, 0.0895814834093
+small, 8054, 0.0893486361218
+advanc, 285, 0.0867246048764
+avail, 811, 0.0796662867173
+howev, 4406, 0.0790666378987
+thank, 8832, 0.0642290301335
+good, 3948, 0.0589567277981
+look, 5341, 0.0572372599281
+don, 2811, 0.0520224986945
+use, 9363, 0.0506534819939

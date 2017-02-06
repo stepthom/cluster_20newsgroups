@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38464
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sp1marse@kristin (Marco Seirio)
+Subject: Flat globe
+Lines: 13
+X-Newsreader: Tin 1.1 PL3
+
+
+Does anybody have an algorithm for "flattening" out a globe, or any other
+parametric surface, that is definied parametrically. 
+That is, I would like to take a sheet of paper and a knife and to be
+able to calculate how I must cut in the paper so I can fold it to a
+globe (or any other object).
+
+
+      Marco Seirio - In real life sp1marse@caligula.his.se
+
+ 
+
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+sp1mars kristin marco seirio flat globe
+anybodi algorithm flatten globe parametr surfac
+defini parametr like take sheet paper knife abl
+calcul must cut paper fold globe object
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+globe, 3905, 0.5829453488
+parametr, 6422, 0.401216461754
+paper, 6409, 0.270138493096
+defini, 2483, 0.229567783134
+knife, 5046, 0.2240419983
+marco, 5505, 0.219370013793
+flatten, 3527, 0.211753199408
+fold, 3574, 0.208559942672
+sheet, 7870, 0.19627114378
+flat, 3526, 0.174269512408
+calcul, 1451, 0.145917657848
+cut, 2313, 0.133247622391
+surfac, 8587, 0.132499240979
+algorithm, 407, 0.131768894621
+anybodi, 552, 0.123230796317
+object, 6173, 0.111614854485
+abl, 180, 0.110881562894
+like, 5272, 0.0638167580025

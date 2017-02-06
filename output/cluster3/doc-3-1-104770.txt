@@ -1,0 +1,197 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104770
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: franjion@spot.Colorado.EDU (John Franjione)
+Subject: Re: Relative value of players
+Nntp-Posting-Host: spot.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 43
+
+kime@mongoose.torolab.ibm.com (Edward Kim) writes:
+
+>It is doubtful that the blue jays would have won the AL east without Morris.
+>Last year, when the team went 13-15 for the month of August, and all the 
+>other starters were being shelled, and Milwaukee was making a charge,
+>Morris went 5-1 with a pretty good era (I can't remember exactly).
+>Also, let's not underestimate the importance his 240+ innings to save 
+>the bullpen every fifth day.  If he didn't help us win the AL east, forget
+>about the pennent and the world series.
+
+>His run support was high (5.98 runs) but so was Stottlemyer's (5.90 runs)
+>and he won only 12 games.  I do remember Morris winning an inordinate number of
+>6-5 and 8-6 ballgames, but this is to his credit.  He pitched only as good
+>as he needed to be.  When he was up 6-1 in a ballgame, he just put it in cruise
+>control and threw the ball up there and let the batters "get themseleves out"
+>(I hate this expression!).  An inexperienced pitcher would wear himself out 
+>trying to make perfect pitches to keep his era down.  But Morris, being a 
+>veteran pitcher, knows that winning is the only thing that really matters in
+>baseball.  By saving himself, he was able to reach back for that little extra
+>(I hate this too!) when the game was on the line.
+
+I don't buy this at all.  I think things are colored to a very large
+degree of preconceived notions of who the players involved are.  Try
+this exercise:
+
+XXX is pitching today.  His team scores 4 in the first inning, and 3
+in the fourth.  XXX gives up 0 in the 1st through 4th.  In the fifth,
+he gives up 3 runs.  In the 6th, he gives up 2 more.  The score is now
+7-5, with XXX's team still on top.
+
+I contend that if XXX were Jack Morris, the assessment would be "he is
+a gutty veteran who pitches only as well as he has to to win."
+
+If XXX were Mike Trmbley, the assessment would be "he is an
+inexperienced rookie who doesn't know how to pitch.  Needs more
+seasoning.  Send him to AAA.  Or to the spice rack."
+
+
+-- 
+John Franjione
+Department of Chemical Engineering
+University of Colorado, Boulder
+franjion@spot.colorado.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ relat valu player       doubt blue jay east
+without morri last year team went month august
+starter shell milwauke make charg morri went
+pretti good era can't rememb exact also let
+underestim import inning save bullpen everi fifth
+day didn't help win east forget pennent world seri
+run support high run stottlemy run game rememb
+morri win inordin number ballgam credit pitch good
+need ballgam put cruis control threw ball let
+batter get themselev hate express inexperienc
+pitcher wear tri make perfect pitch keep era morri
+veteran pitcher know win thing realli matter
+basebal save abl reach back littl extra hate game
+line  don't buy think thing color larg degre
+preconceiv notion player involv tri exercis  xxx
+pitch today team score first inning fourth xxx
+give 1st 4th fifth give run 6th give score xxx
+team still top  contend xxx jack morri assess
+gutti veteran pitch well win  xxx mike trmbley
+assess inexperienc rooki doesn't know pitch need
+season send aaa spice rack    john franjion depart
+chemic engin univers colorado boulder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+xxx, 9919, 0.438498446876
+morri, 5868, 0.307123671128
+pitch, 6643, 0.229115388782
+inexperienc, 4618, 0.190155552102
+win, 9770, 0.182504698287
+assess, 700, 0.162575284727
+ballgam, 879, 0.156640829259
+veteran, 9490, 0.151844456082
+run, 7543, 0.151243168252
+fifth, 3471, 0.13923961796
+hate, 4202, 0.126548002562
+era, 3164, 0.125380134258
+team, 8732, 0.125033334659
+inning, 4657, 0.115713435582
+east, 2965, 0.11420670498
+went, 9704, 0.112103692118
+score, 7705, 0.108556066567
+save, 7646, 0.101043681047
+pitcher, 6644, 0.0997776325586
+spice, 8230, 0.097878745452
+preconceiv, 6813, 0.097878745452
+themselev, 8841, 0.095077776051
+stottlemy, 8420, 0.095077776051
+inordin, 4660, 0.095077776051
+rememb, 7269, 0.0924527997244
+pennent, 6525, 0.0908542686562
+underestim, 9238, 0.0876996893752
+franjion, 3654, 0.0876996893752
+player, 6683, 0.0866264376043
+let, 5225, 0.0792827100324
+rack, 7053, 0.0789990837259
+game, 3761, 0.0760977665187
+cruis, 2255, 0.0759222280408
+6th, 134, 0.0759222280408
+shell, 7873, 0.0748755953514
+boulder, 1248, 0.0748755953514
+exercis, 3279, 0.0734530573576
+1st, 57, 0.0734530573576
+contend, 2083, 0.0730125798603
+tri, 9087, 0.0727054801433
+milwauke, 5730, 0.072587036714
+rooki, 7475, 0.0721754483448
+wear, 9676, 0.0710159488135
+threw, 8894, 0.0706520879566
+fourth, 3630, 0.0706520879566
+chemic, 1690, 0.0699545573679
+aaa, 157, 0.0696198089801
+4th, 112, 0.0692937563464
+notion, 6122, 0.0686660095129
+thing, 8869, 0.068583539199
+august, 784, 0.0680681669713
+need, 5993, 0.0674986019225
+bullpen, 1391, 0.0672216223915
+credit, 2225, 0.0669516696082
+starter, 8335, 0.0647524517083
+good, 3948, 0.0645332752774
+make, 5459, 0.062965766501
+colorado, 1908, 0.0628817093345
+express, 3315, 0.0599654038636
+charg, 1664, 0.0596629236699
+batter, 949, 0.0596629236699
+depart, 2535, 0.0589371538779
+jack, 4808, 0.0586582019397
+extra, 3325, 0.0585210167423
+degre, 2491, 0.0582510639589
+blue, 1176, 0.0578567177911
+forget, 3604, 0.0572258151258
+buy, 1433, 0.0569820730862
+doubt, 2830, 0.0561644236802
+jay, 4832, 0.056051846059
+perfect, 6538, 0.0548758758252
+reach, 7128, 0.0545733956315
+mike, 5710, 0.0541811036852
+know, 5052, 0.0540749655844
+involv, 4750, 0.0526384468741
+control, 2107, 0.0523848560144
+month, 5847, 0.0517326407119
+valu, 9414, 0.0513415710568
+seri, 7805, 0.0511884920789
+color, 1907, 0.050449907257
+exact, 3253, 0.049820411093
+ball, 877, 0.0490915756468
+engin, 3109, 0.0489634896311
+matter, 5553, 0.0487111731834
+season, 7747, 0.0483419606655
+send, 7785, 0.0482212643449
+today, 8964, 0.0479832985333
+relat, 7247, 0.0479832985333
+import, 4551, 0.047577414468
+john, 4878, 0.047463818031
+larg, 5124, 0.0464852197662
+pretti, 6851, 0.0460231189721
+abl, 180, 0.0459226998716
+support, 8576, 0.0432322358076
+everi, 3235, 0.0429923752488
+high, 4292, 0.0424499066105
+basebal, 924, 0.0422991261714
+littl, 5308, 0.0421872176683
+world, 9841, 0.0420395416047
+didn, 2625, 0.0419299136535
+univers, 9282, 0.0417134889711
+line, 5285, 0.0416066600656
+number, 6156, 0.0408165131438
+doesn, 2793, 0.0407170226312
+realli, 7150, 0.0372471237832
+day, 2402, 0.0372220942223
+help, 4249, 0.0368768219851
+year, 9943, 0.0315463590905
+think, 8871, 0.0287485719232
+don, 2811, 0.0284715786837

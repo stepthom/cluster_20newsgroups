@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83971
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: e_p@unl.edu (edgar pearlstein)
+Subject: Re: Burden of Proof
+Organization: University of Nebraska--Lincoln	
+Lines: 8
+Distribution: world
+NNTP-Posting-Host: unlinfo.unl.edu
+
+   .
+          
+          Sometimes a god-believer will maintain that atheism is itself 
+       a religion.  Many postings to this group have answered that well.  
+       Here's another way to answer the assertion: 
+          Suppose that I DON'T believe that broken mirrors or black cats 
+       bring bad luck.  Does that mean that I have a superstition? 
+ .
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ burden proof        sometim god believ maintain
+atheism religion mani post group answer well here
+anoth way answer assert suppos don't believ broken
+mirror black cat bring bad luck mean superstit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+superstit, 8569, 0.315012604112
+answer, 535, 0.298212031437
+atheism, 739, 0.256559473624
+believ, 1009, 0.249510768037
+broken, 1332, 0.246143604631
+burden, 1406, 0.23939489629
+cat, 1551, 0.233613859214
+assert, 699, 0.220020938128
+proof, 6919, 0.216345828958
+mirror, 5755, 0.213793505971
+luck, 5381, 0.208399058867
+maintain, 5454, 0.193488132632
+sometim, 8128, 0.177609863039
+black, 1133, 0.176612322387
+religion, 7261, 0.171094896973
+bring, 1316, 0.170809395122
+suppos, 8577, 0.164258126812
+bad, 861, 0.148774879899
+god, 3926, 0.142382892143
+group, 4064, 0.140593235055
+anoth, 533, 0.130201857329
+mean, 5595, 0.124846473896
+post, 6766, 0.117985684072
+mani, 5479, 0.114592588918
+way, 9666, 0.105677130877
+don, 2811, 0.0916328269525

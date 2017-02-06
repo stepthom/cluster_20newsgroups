@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61226
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nicho@vnet.IBM.COM (Greg Stewart-Nicholls)
+Subject: Re: Vandalizing the sky.
+Reply-To: nicho@vnet.ibm.com
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+X-X-From: nicho@vnet.ibm.com
+            <C5y4t7.9w3@news.cso.uiuc.edu>
+Lines: 9
+
+In <C5y4t7.9w3@news.cso.uiuc.edu> George F. Krumins writes:
+>It is so typical that the rights of the minority are extinguished by the
+>wants of the majority, no matter how ridiculous those wants might be.
+ Umm, perhaps you could explain what 'rights' we are talking about
+here ..
+ -----------------------------------------------------------------
+Greg Nicholls ...         : Vidi
+nicho@vnet.ibm.com or     : Vici
+nicho@olympus.demon.co.uk : Veni
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky   news softwar urepli      typic right
+minor extinguish want major matter ridicul want
+might umm perhap could explain right talk   greg
+nichol vidi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+umm, 9206, 0.322863449525
+extinguish, 3324, 0.315092002119
+vidi, 9508, 0.302829567906
+urepli, 9351, 0.282134821096
+right, 7399, 0.259323237359
+ridicul, 7396, 0.249430607884
+want, 9634, 0.232225102664
+nichol, 6050, 0.231144691262
+greg, 4033, 0.22304409202
+vandal, 9419, 0.218389477562
+typic, 9178, 0.216944425586
+minor, 5745, 0.196031647862
+sky, 8011, 0.1843163964
+explain, 3301, 0.172302504878
+matter, 5553, 0.165412550205
+perhap, 6540, 0.16499051754
+major, 5458, 0.156456031923
+news, 6031, 0.147220439617
+talk, 8684, 0.144150650652
+softwar, 8103, 0.142261495792

@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84004
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Whitten@Fwva.Saic.Com (David Whitten)
+Subject: Re: Merlin, Mithras and Magick
+Organization: Science Applications Int'l, Corp. - Computer systems operation
+Lines: 20
+
+caldwell@facman.ohsu.edu (Larry Caldwell) writes:
+>There evidently was a feast of bread and wine associated with Mithras.  I
+>have often wondered if Yeshua intentionally introduced this ritual to
+>expand the appeal of his religion, or if it was appropriated by later
+>worshipers.
+>
+You could argue that if you wanted, but I think a more reasonable 
+argument would point out the fact that the remembrance feast was
+very similar to the Pesach (Passover) meal during Seder, a very
+Jewish ritual.
+ 
+The fact that there appears to be an abuse in the early Church of
+people eating too much (a very real concern with some Passover meals)
+and not treating the meal with respect, shows the simplifying of the
+ritual to just bread and wine to be a way of dealing with the
+inherent problems of people's human nature, and trying to keep the
+essentials of the remembrance aspects.
+ 
+David (whitten@fwva.saic.com) US:(619)535-7764 [I don't speak as a company rep.]
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ merlin mithra magick     evid feast bread wine
+associ mithra often wonder yeshua intent introduc
+ritual expand appeal religion appropri later
+worship  could argu want think reason argument
+point fact remembr feast similar pesach passov
+meal seder jewish ritual  fact appear abus earli
+church peopl eat much real concern passov meal
+treat meal respect show simplifi ritual bread wine
+way deal inher problem peopl human natur tri keep
+essenti remembr aspect
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+meal, 5594, 0.402981688249
+ritual, 7420, 0.368516380876
+wine, 9776, 0.281143295189
+feast, 3420, 0.274376067944
+bread, 1282, 0.268654458833
+passov, 6453, 0.259326423925
+mithra, 5784, 0.237970639201
+seder, 7764, 0.150051802162
+fact, 3350, 0.127362608498
+merlin, 5646, 0.1189853196
+abus, 202, 0.116799443772
+magick, 5436, 0.115796037539
+simplifi, 7969, 0.113938639217
+appeal, 579, 0.113938639217
+introduc, 4732, 0.111460497591
+inher, 4644, 0.109274621763
+treat, 9076, 0.104458484649
+worship, 9847, 0.103935675581
+expand, 3288, 0.101522085306
+peopl, 6530, 0.100704189743
+appropri, 590, 0.0974716276852
+intent, 4702, 0.0971112572441
+eat, 2968, 0.0971112572441
+essenti, 3196, 0.0944555210137
+church, 1746, 0.0932577832192
+aspect, 693, 0.0921326815041
+argu, 628, 0.0913314709867
+jewish, 4864, 0.0910719073909
+associ, 706, 0.0873477613777
+respect, 7321, 0.0840698944488
+concern, 2004, 0.0802495902175
+religion, 7261, 0.0785988587807
+natur, 5966, 0.0785988587807
+evid, 3245, 0.0782081392003
+later, 5140, 0.0778254762706
+argument, 631, 0.0774505444365
+earli, 2951, 0.0769621348128
+similar, 7961, 0.0768420146875
+appear, 580, 0.0754581319566
+deal, 2418, 0.0750188571393
+human, 4432, 0.0716533405386
+wonder, 9821, 0.067385822027
+real, 7144, 0.0636224817128
+reason, 7156, 0.0598610000175
+problem, 6887, 0.0583865976467
+tri, 9087, 0.0537472033813
+point, 6710, 0.0523841948384
+want, 9634, 0.0505542905868
+way, 9666, 0.0485467540712
+think, 8871, 0.0425045082993

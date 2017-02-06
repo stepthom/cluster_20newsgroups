@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38678
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: diablo.UUCP!cboesel (Charles Boesel)
+Subject: Alias phone number wanted
+Organization: Diablo Creative
+Reply-To: diablo.UUCP!cboesel (Charles Boesel)
+X-Mailer: uAccess LITE - Macintosh Release: 1.6v2
+Lines: 9
+
+What is the phone number for Alias?
+A toll-free number is preferred, if available.
+
+Thanks
+
+--
+charles boesel @ diablo creative |  If Pro = for   and   Con = against
+cboesel@diablo.uu.holonet.net    |  Then what's the opposite of Progress?
++1.510.980.1958(pager)           |  What else, Congress.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+diablo uucp cboesel charl boesel alia phone number
+want  repli diablo uucp cboesel charl boesel
+mailer uaccess lite macintosh releas 6v2   phone
+number alia toll free number prefer avail  thank
+charl boesel diablo creativ pro con  pager els
+congress
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+diablo, 2606, 0.43336860332
+boesel, 1197, 0.426183950239
+charl, 1668, 0.330782930841
+cboesel, 1577, 0.300611290634
+alia, 409, 0.300611290634
+number, 6156, 0.198351247656
+uucp, 9388, 0.195786931846
+phone, 6601, 0.17844926616
+toll, 8975, 0.158549973888
+uaccess, 9182, 0.150305645317
+pager, 6383, 0.150305645317
+6v2, 135, 0.150305645317
+lite, 5303, 0.144456201107
+mailer, 5449, 0.127967543965
+creativ, 2220, 0.124833195711
+macintosh, 5418, 0.114446570079
+congress, 2040, 0.113873771184
+pro, 6883, 0.108024326974
+prefer, 6819, 0.0928981996834
+releas, 7253, 0.0888912974821
+repli, 7290, 0.0882405854357
+free, 3668, 0.0827953894528
+avail, 811, 0.070627314975
+els, 3053, 0.0702934320033
+thank, 8832, 0.0569415762765
+want, 9634, 0.0553881781828

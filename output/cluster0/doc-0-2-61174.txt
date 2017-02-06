@@ -1,0 +1,224 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61174
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mike@starburst.umd.edu (Michael F. Santangelo)
+Subject: Re: Space Station Redesign, JSC Alternative #4
+Organization: University of Maryland, Chesapeake Biological Laboratory
+Lines: 47
+NNTP-Posting-Host: starburst.umd.edu
+
+dbm0000@tm0006.lerc.nasa.gov (David B. Mckissock) writes:
+
+...text of options "A" and "B" deleted...
+
+>Option C - Single Core Launch Station.
+>This is the JSC lead option. Basically, you take a 23 ft diameter
+>cylinder that's 92 ft long, slap 3 Space Shuttle Main Engines on
+>the backside, put a nose cone on the top, attached it to a 
+>regular shuttle external tank and a regular set of solid rocket
+>motors, and launch the can. Some key features are:
+>  - Complete end-to-end ground integration and checkout
+>  - 4 tangentially mounted fixed solar panels
+>  - body mounted radiators (which adds protection against
+>    micrometeroid & orbital debris)
+>  - 2 centerline docking ports (one on each end)
+>  - 7 berthing ports
+>  - a single pressurized volume, approximately 26,000 cubic feet
+>    (twice the volume of skylab).
+>  - 7 floors, center passageway between floors
+>  - 10 kW of housekeeping power
+
+Only 10KW?
+
+>  - graceful degradation with failures (8 power channels, 4 thermal
+>    loops, dual environmental control & life support system)
+>  - increased crew time for utilization
+>  - 1 micro-g thru out the core module
+
+Ha!  "North America Modular SPACE STATION construction" :-)
+Same apprach, same reasoning: "construction occurs under assembly
+line conditions, no random weather problems interupting site-work
+on your home - better quality control" -- sounds like first "-"
+point above :-)
+
+Somehow I have a strange attraction for this idea (living in
+a modular home maybe has altered my mind).  The only thing
+that scares me is the part about simply strapping 3 SSME's and
+a nosecone on it and "just launching it."  I have this vision
+of something going terribly wrong with the launch resulting in the
+complete loss of the new modular space station (not just a peice of
+it as would be the case with staged in-orbit construction).
+
+--
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Michael F. Santangelo                 + Internet: mike@cbl.umd.edu      [work]
+Dept. Head-Computer & Network Systems +           mike@kavishar.umd.edu [home]
+UMCEES / CBL (Solomons Island)        + BITNET:   MIKE@UMUC  [fwd to mike@cbl]
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space station redesign jsc altern       text
+option delet  option singl core launch station jsc
+lead option basic take diamet cylind that long
+slap space shuttl main engin backsid put nose cone
+top attach regular shuttl extern tank regular set
+solid rocket motor launch key featur complet end
+end ground integr checkout tangenti mount fix
+solar panel bodi mount radiat add protect
+micrometeroid orbit debri centerlin dock port one
+end berth port singl pressur volum approxim cubic
+feet twice volum skylab floor center passageway
+floor housekeep power  10kw  grace degrad failur
+power channel thermal loop dual environment
+control life support system increas crew time util
+micro thru core modul  north america modular space
+station construct apprach reason construct occur
+assembl line condit random weather problem
+interupt site work home better qualiti control
+sound like first point  somehow strang attract
+idea live modular home mayb alter mind thing scare
+part simpli strap ssme nosecon launch vision
+someth go terribl wrong launch result complet loss
+new modular space station peic case stage orbit
+construct      umce cbl solomon island bitnet mike
+umuc fwd mike cbl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+modular, 5816, 0.255225184419
+station, 8346, 0.219475545038
+launch, 5147, 0.204426771899
+construct, 2074, 0.197830153325
+option, 6276, 0.188746742668
+floor, 3549, 0.156137633303
+space, 8164, 0.147486518944
+jsc, 4914, 0.147082576473
+mount, 5886, 0.146328976849
+port, 6748, 0.139795463517
+core, 2140, 0.135541529396
+end, 3091, 0.134434336023
+volum, 9577, 0.131464038161
+regular, 7234, 0.120644963737
+mike, 5710, 0.112215586207
+control, 2107, 0.10849534111
+singl, 7983, 0.107811160397
+shuttl, 7929, 0.104636811821
+complet, 1975, 0.100501548637
+home, 4354, 0.10024791378
+tangenti, 8693, 0.0984587582121
+nosecon, 6116, 0.0984587582121
+micrometeroid, 5688, 0.0984587582121
+power, 6783, 0.0964940368972
+peic, 6509, 0.0960888180338
+passageway, 6450, 0.0960888180338
+centerlin, 1608, 0.0960888180338
+backsid, 857, 0.0960888180338
+orbit, 6280, 0.0940957867498
+housekeep, 4398, 0.0940850621639
+checkout, 1685, 0.0940850621639
+berth, 1050, 0.0923493298785
+solomon, 8117, 0.0908183054981
+slap, 8017, 0.0908183054981
+dual, 2899, 0.0908183054981
+ssme, 8291, 0.0894487575211
+strap, 8428, 0.0870788173428
+skylab, 8013, 0.086038367534
+scare, 7665, 0.0850750614728
+dock, 2784, 0.0841782449854
+cylind, 2326, 0.0833393291875
+island, 4781, 0.0825512889273
+degrad, 2490, 0.081808304807
+cubic, 2285, 0.081808304807
+debri, 2427, 0.08110550212
+bitnet, 1127, 0.0804387568301
+nose, 6115, 0.0798045489371
+micro, 5684, 0.0798045489371
+cone, 2023, 0.0798045489371
+terribl, 8804, 0.0786220356016
+loop, 5344, 0.0786220356016
+diamet, 2613, 0.0780688166517
+environment, 3140, 0.0760650607818
+redesign, 7200, 0.0751682442943
+attract, 772, 0.0747420197715
+panel, 6406, 0.0739293374503
+extern, 3322, 0.0739293374503
+grace, 3975, 0.0735412882363
+channel, 1652, 0.0735412882363
+twice, 9170, 0.0731644884244
+motor, 5882, 0.0731644884244
+attach, 760, 0.0731644884244
+weather, 9679, 0.072798304116
+random, 7093, 0.072095501429
+alter, 449, 0.072095501429
+crew, 2227, 0.071428756139
+thermal, 8857, 0.0711077846877
+failur, 3361, 0.0707945482461
+radiat, 7058, 0.0693324825596
+modul, 5815, 0.0693324825596
+assembl, 698, 0.0690588159607
+feet, 3430, 0.0677707646978
+integr, 4694, 0.0675277915803
+approxim, 593, 0.0672892769376
+tank, 8695, 0.0670550600908
+strang, 8426, 0.0670550600908
+condit, 2017, 0.0668249888932
+vision, 9542, 0.0661582436033
+stage, 8302, 0.0659433844418
+north, 6110, 0.0647238641537
+altern, 450, 0.0647238641537
+pressur, 6842, 0.0643415223748
+america, 468, 0.0641544877334
+fix, 3511, 0.0639701061552
+solid, 8115, 0.0636090083987
+protect, 6940, 0.0634321528363
+qualiti, 7017, 0.0625822630544
+loss, 5352, 0.0625822630544
+occur, 6192, 0.0622572790445
+util, 9384, 0.0610329692636
+featur, 3422, 0.0608877310676
+rocket, 7447, 0.0604615065447
+key, 4994, 0.0596488242235
+increas, 4590, 0.0586387097455
+ground, 4061, 0.0583979865083
+text, 8822, 0.0581616403006
+solar, 8107, 0.0577014618621
+main, 5450, 0.0570403694026
+bodi, 1194, 0.0563093271143
+add, 260, 0.0558112323323
+delet, 2502, 0.0557138634626
+site, 7994, 0.0535722623633
+basic, 937, 0.053490251471
+simpli, 7967, 0.0532472783535
+lead, 5172, 0.052774546864
+center, 1606, 0.0524686813799
+sound, 8150, 0.0510388145786
+engin, 3109, 0.0507046397912
+mind, 5733, 0.0506388235325
+result, 7332, 0.0504433509269
+life, 5260, 0.0478702186367
+wrong, 9869, 0.0477120176984
+live, 5310, 0.047659709043
+set, 7815, 0.0465591635039
+mayb, 5564, 0.0455002784583
+case, 1540, 0.0451944129743
+support, 8576, 0.0447695815904
+idea, 4482, 0.0444394385539
+line, 5285, 0.0430862000939
+reason, 7156, 0.0419276563084
+long, 5336, 0.0409571547401
+problem, 6887, 0.0408949599645
+better, 1060, 0.038886772977
+someth, 8126, 0.0382639624397
+new, 6023, 0.0378647392515
+work, 9833, 0.0368261797479
+point, 6710, 0.0366907755724
+thing, 8869, 0.0355111908576
+time, 8936, 0.0308851415868
+like, 5272, 0.0273702113609

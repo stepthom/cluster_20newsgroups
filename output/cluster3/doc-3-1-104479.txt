@@ -1,0 +1,154 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104479
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mike@cunixf.cc.columbia.edu (Michael Chen)
+Subject: Re: Jack Morris
+Nntp-Posting-Host: cunixf.cc.columbia.edu
+Reply-To: mike@cunixf.cc.columbia.edu (Michael Chen)
+Organization: Columbia University
+Lines: 44
+
+In article <1993Apr19.024222.11181@newshub.ariel.yorku.ca> cs902043@ariel.yorku.ca (SHAWN LUDDINGTON) writes:
+>In article <1993Apr18.032345.5178@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>>In article <1993Apr18.030412.1210@mnemosyne.cs.du.edu> gspira@nyx.cs.du.edu (Greg Spira) writes:
+>>>Howard_Wong@mindlink.bc.ca (Howard Wong) writes:
+>>>
+>>>>Has Jack lost a bit of his edge? What is the worst start Jack Morris has had?
+>>>
+>>>Uh, Jack lost his edge about 5 years ago, and has had only one above
+>>>average year in the last 5.
+>>
+>>Again goes to prove that it is better to be good than lucky.  You can
+>>count on good tomorrow.  Lucky seems to be prone to bad starts (and a
+>>bad finish last year :-).
+>>
+>>(Yes, I am enjoying every last run he gives up.  Who was it who said
+>>Morris was a better signing than Viola?)
+>>
+>>Cheers,
+>>-Valentine
+>
+>Hey Valentine, I don't see Boston with any world series rings on their
+>fingers.  Damn, Morris now has three and probably the Hall of Fame in his 
+>future.  Therefore, I would have to say Toronto easily made the best 
+>signing.  And don't tell me Boston will win this year.  They won't 
+>even be in the top 4 in the division, more like 6th.
+>
+>Shawn
+>
+
+Gee, I never knew Valentine made a comment about how Viola signing
+with Boston was gonna bring a World Series title to Boston.  I don't
+think Valentine ever said Boston will win this year.  Boy, talk about
+sensitive, insecure Toronto fans.  :)
+
+In any case, I think Viola would have made a better signing.  Why?
+Viola is younger, and is left handed (how many left handed starters does
+Toronto have?
+
+
+
+-Mike
+/mike@columbia.edu
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri           jack lost bit edg worst
+start jack morri  jack lost edg year ago one
+averag year last  goe prove better good lucki
+count good tomorrow lucki seem prone bad start bad
+finish last year  yes enjoy everi last run give
+said morri better sign viola  cheer valentin  hey
+valentin don't see boston world seri ring finger
+damn morri three probabl hall fame futur therefor
+say toronto easili made best sign don't tell
+boston win year won't even top divis like 6th
+shawn   gee never knew valentin made comment viola
+sign boston gonna bring world seri titl boston
+don't think valentin ever said boston win year boy
+talk sensit insecur toronto fan  case think viola
+made better sign viola younger left hand mani left
+hand starter toronto    mike
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+viola, 9525, 0.343569401318
+boston, 1243, 0.341846762269
+valentin, 9409, 0.305445180477
+morri, 5868, 0.277964170818
+jack, 4808, 0.265444835365
+sign, 7946, 0.258408704993
+year, 9943, 0.178445166623
+toronto, 9003, 0.177792137594
+lucki, 5382, 0.165201213127
+edg, 2993, 0.135335882109
+better, 1060, 0.127448099079
+lost, 5355, 0.125584739146
+seri, 7805, 0.115821150352
+left, 5193, 0.113036075809
+bad, 861, 0.104593720018
+win, 9770, 0.103235626025
+hand, 4145, 0.103015459126
+don, 2811, 0.096631416405
+shawn, 7863, 0.0963667671398
+world, 9841, 0.095120365363
+said, 7583, 0.0945449195866
+prone, 6916, 0.0919623519422
+start, 8334, 0.0899006879516
+sensit, 7791, 0.0893732593234
+younger, 9963, 0.0878770668917
+gonna, 3944, 0.0878770668917
+6th, 134, 0.0858923503295
+finger, 3486, 0.0821191810055
+fame, 3376, 0.0821191810055
+tomorrow, 8979, 0.0803417775252
+gee, 3806, 0.0799301343872
+boy, 1256, 0.0780338959549
+ring, 7406, 0.0766804252662
+starter, 8335, 0.0732557567178
+good, 3948, 0.0730077979938
+hey, 4283, 0.0730044104413
+damn, 2346, 0.0725146828112
+knew, 5045, 0.07092253938
+worst, 9849, 0.0696869174498
+hall, 4128, 0.0689191253907
+finish, 3488, 0.0687334927617
+titl, 8953, 0.0683693524538
+enjoy, 3114, 0.0680143166142
+easili, 2962, 0.0671637214406
+cheer, 1687, 0.0671637214406
+divis, 2767, 0.0657503321234
+count, 2180, 0.0656016323992
+think, 8871, 0.065047680365
+therefor, 8855, 0.063412585781
+prove, 6947, 0.0630372151886
+mike, 5710, 0.0612961771415
+goe, 3931, 0.0606554356516
+won, 9820, 0.0605514007988
+averag, 816, 0.0604481225698
+bring, 1316, 0.0600423608541
+futur, 3737, 0.0599427064529
+comment, 1936, 0.0569940833926
+fan, 3381, 0.0565180379044
+ago, 336, 0.055321482557
+yes, 9951, 0.0517287564981
+case, 1540, 0.0493736179993
+everi, 3235, 0.0486381426317
+talk, 8684, 0.0480244369026
+bit, 1122, 0.0478963094719
+best, 1052, 0.047477379567
+probabl, 6885, 0.0464426978634
+tell, 8767, 0.0464043693815
+run, 7543, 0.0427761128976
+mani, 5479, 0.0402812126939
+say, 7653, 0.0360536411297
+like, 5272, 0.0299011818356

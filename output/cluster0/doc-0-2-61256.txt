@@ -1,0 +1,135 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61256
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Space Station Redesign, JSC Alternative #4
+Organization: Texas Instruments Inc
+Lines: 29
+
+In <23APR199317452695@tm0006.lerc.nasa.gov> dbm0000@tm0006.lerc.nasa.gov (David B. Mckissock) writes:
+
+>Option "A" - Low Cost Modular Approach
+>  -  Human tended capability (as opposed to the old SSF sexist term
+>     of man-tended capability) 
+
+>Option "B" - Space Station Freedom Derived
+>  -  Man-Tended Capability (Griffin has not yet adopted non-sexist
+>     language) 
+
+>Option C - Single Core Launch Station.
+
+I'll vote for anything where they don't feel constrained to use stupid
+and ugly PC phrases to replace words like 'manned'.  If they think
+they need to do that, they're more than likely engaging in 'politics
+and public relations as usual' rather than seriously wanting to
+actually get into space.  So that eliminates Option "A" from the
+running.  What do they call a manned station in Option "C"?
+
+[I'm actually about half serious about that.  People should be more
+concerned with grammatical correctness and actually getting a working
+station than they are with 'Political Correctness' of terminology.]
+
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space station redesign jsc altern      option low
+cost modular approach human tend capabl oppos old
+ssf sexist term man tend capabl  option space
+station freedom deriv man tend capabl griffin yet
+adopt non sexist languag  option singl core launch
+station  i'll vote anyth don't feel constrain use
+stupid ugli phrase replac word like man think need
+they'r like engag polit public relat usual rather
+serious want actual get space elimin option run
+call man station option  i'm actual half serious
+peopl concern grammat correct actual get work
+station polit correct terminolog    insist perfect
+safeti peopl don't ball live real world mari
+shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+option, 6276, 0.402966225611
+station, 8346, 0.351428178631
+sexist, 7826, 0.25224628694
+tend, 8783, 0.2479887717
+man, 5471, 0.230040342503
+capabl, 1498, 0.223962773435
+polit, 6723, 0.161621816178
+actual, 254, 0.160611097004
+space, 8164, 0.14169483543
+grammat, 3990, 0.134628890647
+correct, 2156, 0.12825373697
+terminolog, 8797, 0.118297122502
+engag, 3108, 0.11154573115
+modular, 5816, 0.108978971284
+constrain, 2071, 0.108978971284
+adopt, 278, 0.108978971284
+ugli, 9193, 0.10783017237
+ssf, 8289, 0.106755542754
+griffin, 4048, 0.104794339799
+phrase, 6612, 0.0986713618882
+elimin, 3044, 0.0986713618882
+shafer, 7839, 0.0962885926218
+redesign, 7200, 0.0962885926218
+dryden, 2888, 0.0947015847368
+jsc, 4914, 0.0942045036484
+vote, 9585, 0.0932527600503
+peopl, 6530, 0.0903534189741
+freedom, 3672, 0.0884625716539
+mari, 5508, 0.087782845445
+deriv, 2550, 0.0874531122966
+safeti, 7579, 0.0871297821399
+core, 2140, 0.086812611029
+insist, 4673, 0.0858958117876
+ame, 465, 0.0836723832574
+altern, 450, 0.0829096095953
+stupid, 8476, 0.0814815079729
+oppos, 6269, 0.0812549605345
+replac, 7288, 0.0803783907881
+languag, 5113, 0.0803783907881
+approach, 589, 0.0793438357518
+don, 2811, 0.0755365796782
+half, 4124, 0.0754288616554
+perfect, 6538, 0.0727942769301
+concern, 2004, 0.0720012232453
+usual, 9377, 0.0702856357262
+like, 5272, 0.0701210772301
+singl, 7983, 0.0690516653739
+low, 5368, 0.0686246937781
+term, 8795, 0.0684152447288
+non, 6097, 0.0659978220058
+launch, 5147, 0.0654663626414
+feel, 3429, 0.0654663626414
+ball, 877, 0.0651212522594
+human, 4432, 0.0642885297533
+public, 6973, 0.0639667616755
+relat, 7247, 0.0636510938355
+cost, 2169, 0.0632647428633
+old, 6216, 0.0629619894344
+nasa, 5956, 0.0626646426066
+live, 5310, 0.0610508646517
+word, 9829, 0.0596410940488
+real, 7144, 0.0570831140298
+anyth, 555, 0.0570831140298
+world, 9841, 0.0557665456373
+ll, 5314, 0.052746950005
+run, 7543, 0.0501569993553
+work, 9833, 0.0471733915413
+want, 9634, 0.0453581227353
+need, 5993, 0.0447693257452
+think, 8871, 0.0381357285775
+use, 9363, 0.0367743848779

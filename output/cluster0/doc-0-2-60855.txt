@@ -1,0 +1,124 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60855
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dante@shakala.com (Charlie Prael)
+Subject: Re: army in space
+Organization: Shakala BBS (ClanZen Radio Network) Sunnyvale, CA +1-408-734-2289
+Lines: 23
+
+ktj@beach.cis.ufl.edu (kerry todd johnson) writes:
+
+> Is anybody out there willing to discuss with me careers in the Army that deal
+> with space?  After I graduate, I will have a commitment to serve in the Army,
+> and I would like to spend it in a space-related field.  I saw a post a long
+> time ago about the Air Force Space Command which made a fleeting reference to
+> its Army counter-part.  Any more info on that would be appreciated.  I'm 
+> looking for things like: do I branch Intelligence, or Signal, or other?  To
+> whom do I voice my interest in space?  What qualifications are necessary?
+> Etc, etc.  BTW, my major is computer science engineering.
+
+Kerry-- I'm guessing a little at this, because it's been a few years 
+since I saw the info, but you will probably want to look at Air Defense 
+Artillery as a specialty, or possibly Signals.  The kind of thing you're 
+looking for is SDI-type assignments, but it'll be pretty prosaic stuff.
+Things like hard-kill ATBM missiles, some of the COBRA rigs -- that kind 
+of thing.  
+
+Hope that gives you some ideas on where to look, though.
+
+------------------------------------------------------------------
+Charlie Prael  - dante@shakala.com 
+Shakala BBS (ClanZen Radio Network) Sunnyvale, CA +1-408-734-2289
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ armi space      anybodi will discuss career armi
+deal space graduat commit serv armi like spend
+space relat field saw post long time ago air forc
+space command made fleet refer armi counter part
+info appreci i'm look thing like branch intellig
+signal voic interest space qualif necessari etc
+etc btw major comput scienc engin  kerri i'm guess
+littl it year sinc saw info probabl want look air
+defens artilleri specialti possibl signal kind
+thing you'r look sdi type assign it'll pretti
+prosaic stuff thing like hard kill atbm missil
+cobra rig kind thing  hope give idea look though
+shakala bbs clanzen radio network sunnyval
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+armi, 645, 0.456095056242
+space, 8164, 0.271107844356
+thing, 8869, 0.208883902836
+signal, 7947, 0.197215614548
+look, 5341, 0.190815764501
+air, 357, 0.179936032032
+saw, 7650, 0.168398599621
+cobra, 1866, 0.154553050098
+info, 4636, 0.150510562515
+shakala, 7841, 0.149053946424
+clanzen, 1784, 0.149053946424
+specialti, 8201, 0.144788510234
+qualif, 7014, 0.141303395106
+fleet, 3535, 0.13835677225
+kind, 5021, 0.136374977289
+sunnyval, 8545, 0.133552843788
+sdi, 7734, 0.133552843788
+assign, 703, 0.123788303924
+like, 5272, 0.120747779061
+missil, 5771, 0.114804085122
+graduat, 3981, 0.114804085122
+counter, 2181, 0.110538648932
+commit, 1945, 0.10155443013
+branch, 1269, 0.101160288093
+intellig, 4698, 0.0989522348185
+bbs, 961, 0.0982694761133
+voic, 9567, 0.0963563596303
+necessari, 5990, 0.0940712287858
+serv, 7810, 0.0932801416237
+btw, 1355, 0.0901864779543
+spend, 8222, 0.0895384426221
+network, 6018, 0.0885049362495
+career, 1517, 0.0885049362495
+radio, 7061, 0.0853581522818
+command, 1933, 0.0838807055764
+defens, 2476, 0.0826569142023
+kill, 5012, 0.0817878913042
+forc, 3594, 0.0791471183583
+anybodi, 552, 0.0777217219688
+deal, 2418, 0.0772692698033
+type, 9177, 0.0746609781083
+engin, 3109, 0.0745636994681
+ago, 336, 0.0744669133801
+guess, 4079, 0.0740845964048
+appreci, 587, 0.073896267674
+discuss, 2708, 0.073525086855
+stuff, 8472, 0.0732513559976
+relat, 7247, 0.0730710224757
+hard, 4167, 0.0723662343838
+field, 3466, 0.0719385831793
+scienc, 7692, 0.0714377192879
+refer, 7213, 0.0704737228521
+major, 5458, 0.0701628995557
+pretti, 6851, 0.0700859770714
+hope, 4372, 0.0683270163557
+comput, 1993, 0.0662710624548
+idea, 4482, 0.0653504088484
+littl, 5308, 0.0642445022468
+possibl, 6765, 0.0626710153994
+probabl, 6885, 0.0625153954499
+ll, 5314, 0.0605531395785
+long, 5336, 0.0602295369751
+sinc, 7977, 0.0582706355323
+post, 6766, 0.0558270735927
+want, 9634, 0.0520708161657
+year, 9943, 0.0480401469802
+time, 8936, 0.0454181397362

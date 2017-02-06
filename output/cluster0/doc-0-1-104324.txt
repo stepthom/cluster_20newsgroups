@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104324
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: alird@Msu.oscs.montana.edu
+Subject: Re: cubs & expos roster questions
+Article-I.D.: Msu.0096B0F0.C5DE05A0
+Reply-To: alird@Msu.oscs.montana.edu
+Organization: Montana State University
+Lines: 13
+
+In article <1993Apr15.003015.1@vmsb.is.csupomona.edu>, cvadrnlh@vmsb.is.csupomona.edu writes:
+>Today (4/14) Cubs activated P Mike Harkey from DL, whom did they move to make
+>room for Harkey?
+>Also, are Delino Deshields & John Wetteland of the Expos on the DL?
+>Thanks for anyone who can give me more info!
+>/===
+>Ken 
+>Cal Poly, Pomona
+>
+
+Wetteland is on the DL effective March 26 or something like that.
+
+rick
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cub expo roster question articl msu 0096b0f0
+c5de05a0      today cub activ mike harkey move
+make room harkey also delino deshield john
+wetteland expo thank anyon give info  ken cal poli
+pomona   wetteland effect march someth like  rick
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+harkey, 4176, 0.414189824495
+wetteland, 9713, 0.406548625838
+expo, 3309, 0.318911442108
+cub, 2282, 0.28325010631
+delino, 2506, 0.211505470486
+msu, 5907, 0.207094912247
+deshield, 2562, 0.207094912247
+pomona, 6737, 0.196889731095
+poli, 6719, 0.191673147909
+roster, 7489, 0.175661424661
+cal, 1449, 0.173058540741
+rick, 7387, 0.163609667766
+march, 5504, 0.153226218165
+room, 7476, 0.143333739506
+ken, 4980, 0.140407337747
+mike, 5710, 0.12350141693
+activ, 252, 0.122210431332
+effect, 3005, 0.114671318505
+info, 4636, 0.112643462367
+today, 8964, 0.109374024425
+john, 4878, 0.108189910892
+articl, 665, 0.0922150350326
+question, 7032, 0.0866078383618
+someth, 8126, 0.0842245491626
+thank, 8832, 0.0801264307483
+anyon, 554, 0.0768855973105
+make, 5459, 0.0717626704886
+like, 5272, 0.0602458178761

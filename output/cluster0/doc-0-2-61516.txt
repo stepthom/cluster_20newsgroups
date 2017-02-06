@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61516
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Mothership for Flybys and cutting costs..
+Lines: 27
+Nntp-Posting-Host: acad3.alaska.edu
+Organization: University of Alaska Fairbanks
+
+Getting wierd again?
+
+Okay we have figure out that a mission specifically to Pluto is to large and to
+expensive..
+
+Okay what about launching one probe with multiple parts.. Kind of liek the old
+MIRV principle of old Cold War Days. 
+Basically what I mean is design a mother ship that has piggy backed probes for
+different missions,namely different planets. Each probe would be tied in with
+the mother ship (or earth as the case may be).. This is good when and if we go
+for Mars (the MArs mission can act as either Mother ship or relay point for the
+probes.
+
+Also the mother ship would be powered (if not the Mars Mission) by a normal
+propulsion, but also a solar sail (main reason for solar sail race is to see
+what can be done and autmoated?) the sail would get the probes to were they
+needed.. I know the asteroid/meteor clouds (and such) might get in the way of a 
+Sail??
+
+Main reasonf ro mother ship idea is to make it more economoical to send
+multiple probes/mission/satellites/exploreres to different places and cut
+costs..
+The probes could do fly bys or ?? we shall see...
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mothership flybi cut cost     get wierd  okay
+figur mission specif pluto larg expens  okay
+launch one probe multipl part kind liek old mirv
+principl old cold war day basic mean design mother
+ship piggi back probe differ mission name differ
+planet probe tie mother ship earth case good mar
+mar mission act either mother ship relay point
+probe  also mother ship power mar mission normal
+propuls also solar sail main reason solar sail
+race see done autmoat sail get probe need know
+asteroid meteor cloud might get way sail  main
+reasonf mother ship idea make economo send multipl
+probe mission satellit explorer differ place cut
+cost probe could fli bys shall see
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+probe, 6886, 0.496220628907
+mother, 5877, 0.374449869051
+ship, 7888, 0.355897987806
+sail, 7584, 0.318002133205
+mission, 5772, 0.26162053465
+mar, 5500, 0.195429792821
+multipl, 5919, 0.137046611731
+okay, 6215, 0.131821691124
+differ, 2633, 0.122277252082
+solar, 8107, 0.117519316599
+cut, 2313, 0.116392587556
+main, 5450, 0.116172883917
+cost, 2169, 0.100587440147
+old, 6216, 0.100106078949
+piggi, 6625, 0.095810503329
+mothership, 5878, 0.0940429391686
+meteor, 5660, 0.0924838370846
+wierd, 9754, 0.0876162390654
+liek, 5259, 0.0857220034287
+relay, 7252, 0.0819139361955
+flybi, 3564, 0.075692466068
+asteroid, 716, 0.075692466068
+pluto, 6701, 0.0734176724848
+cloud, 1835, 0.0714770722883
+cold, 1888, 0.0711795975612
+principl, 6870, 0.069522804493
+tie, 8923, 0.0685233058656
+shall, 7846, 0.0653310272553
+race, 7049, 0.0653310272553
+war, 9635, 0.0644177639053
+propuls, 6936, 0.0642424359345
+expens, 3294, 0.0624531181649
+planet, 6664, 0.0606096966722
+normal, 6108, 0.0606096966722
+act, 249, 0.0591095571278
+satellit, 7632, 0.0566371916937
+fli, 3542, 0.0565395007096
+figur, 3476, 0.0562506804896
+basic, 937, 0.0544712178401
+specif, 8203, 0.0525381881719
+launch, 5147, 0.0520439468792
+design, 2564, 0.0514344601219
+send, 7785, 0.0508518056046
+power, 6783, 0.0491318283197
+larg, 5124, 0.0490210572275
+kind, 5021, 0.0472190663422
+earth, 2956, 0.0461114880687
+case, 1540, 0.0460232406201
+place, 6657, 0.0453376728779
+idea, 4482, 0.0452544206018
+reason, 7156, 0.0426965743756
+mean, 5595, 0.0409076497648
+day, 2402, 0.0392526144907
+point, 6710, 0.0373636536371
+need, 5993, 0.0355903752232
+way, 9666, 0.0346265531028
+good, 3948, 0.0340268304244
+make, 5459, 0.0332003210756
+know, 5052, 0.0285124174503

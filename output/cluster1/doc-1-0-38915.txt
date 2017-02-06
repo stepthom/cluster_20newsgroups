@@ -1,0 +1,99 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38915
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: pmartz@dsd.es.com (Paul Martz)
+Subject: Re: Kubota Kenai/Denali specs
+Nntp-Posting-Host: bambam
+Reply-To: pmartz@dsd.es.com (Paul Martz)
+Organization: Evans & Sutherland Computer Corp., Salt Lake City, UT
+Lines: 30
+
+In article <1rkntjINNd00@no-names.nerdc.ufl.edu>, lioness@maple.circa.ufl.edu writes:
+> Okay, I got enough replies about the Kubota Kenai/Denali systems that I
+> will post a summary of their capabilities.  [ ... ]
+> 
+> GRAPHICS
+> 
+> Transform Modules	1-6			1-6
+> Frame Buffer Modules	5,10,20			5,10,20
+> Frame Buffer		1280x1024x24bit		1280x1024x24bit
+> 			double buffered		double buffered
+> Z-buffer		24-bit			24-bit
+> Alpha/stencil		8-bit			8-bit
+  ^^^^^^^^^^^^^
+
+Does this mean they can either do alpha or stenciling, but not both
+simultaneously?
+
+> Stereo support	yes			yes
+> Other:			both machines will double buffer or do
+                                                                 ^^
+> 				stereo output per window.  Both have an
+> 				auxiliary video output that is RS-170A,
+> 				NTSC, and PAL
+
+Same question again, does this mean they can either do double
+buffering or stereo, but not both simultaneously?
+-- 
+
+   -paul	pmartz@dsd.es.com
+		Evans & Sutherland
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kubota kenai denali spec       okay got enough
+repli kubota kenai denali system post summari
+capabl  graphic  transform modul frame buffer
+modul frame buffer 1280x1024x24bit 1280x1024x24bit
+doubl buffer doubl buffer buffer bit bit alpha
+stencil bit bit   mean either alpha stencil
+simultan  stereo support yes yes machin doubl
+buffer  stereo output per window auxiliari video
+output 170a ntsc pal  question mean either doubl
+buffer stereo simultan    evan sutherland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+buffer, 1371, 0.574040580679
+stereo, 8382, 0.287823823544
+doubl, 2828, 0.270309005986
+1280x1024x24bit, 16, 0.226051321928
+stencil, 8375, 0.219582472814
+kenai, 4981, 0.209828266982
+denali, 2522, 0.205957241242
+bit, 1122, 0.195553305594
+kubota, 5078, 0.182448673866
+simultan, 7975, 0.175342664366
+alpha, 441, 0.169640105609
+modul, 5815, 0.154625126736
+output, 6329, 0.146131538233
+frame, 3643, 0.140314168908
+170a, 31, 0.109791236407
+yes, 9951, 0.105600300305
+sutherland, 8610, 0.104914133491
+auxiliari, 809, 0.101271377276
+pal, 6395, 0.0938670542199
+ntsc, 6147, 0.0912243369328
+evan, 3227, 0.0896971557207
+mean, 5595, 0.0895891468911
+spec, 8196, 0.0815856282475
+transform, 9053, 0.0792922005193
+summari, 8536, 0.0758471938283
+okay, 6215, 0.0721734988285
+machin, 5416, 0.065940201099
+video, 9506, 0.0656614460603
+capabl, 1498, 0.0649871470269
+repli, 7290, 0.0629041446566
+window, 9774, 0.0602995215183
+support, 8576, 0.0499225036502
+graphic, 3997, 0.047721447112
+got, 3960, 0.0475621618247
+question, 7032, 0.0438754685793
+post, 6766, 0.042332940817

@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38621
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wlm@wisdom.attmail.com (Bill Myers)
+Subject: Re: graphics libraries
+In-Reply-To: ch41@prism.gatech.EDU's message of 21 Apr 93 12:56:08 GMT
+Organization: /usr1/lib/news/organization
+Lines: 28
+
+
+> Does anyone out there have any experience with Figaro+ form TGS or
+> HOOPS from Ithaca Software?  I would appreciate any comments.
+
+Yes, I do.  A couple of years ago, I did a comparison of the two
+products.  Some of this may have changed, but here goes.
+
+As far as a PHIGS+ implementation, Figaro+ is fine.  But, its PHIGS!
+Personally, I hate PHIGS because I find it is too low level.  I also
+dislike structure editing, which I find impossible, but enough about
+PHIGS.
+
+I have found HOOPS to be a system that is full-featured and easy to
+use.  They support all of their rendering methods in software when
+there is no hardware support, their documentation is good, and they
+are easily portable to other systems.
+
+I would be happy to elaborate further if you have more specific
+questions. 
+--
+|------------------------------------------------------|
+    ~~~       Here's lookin' at ya.
+  ~~_ _~~
+  |`O-@'|     Bill  |  wlm@wisdom.attmail.com
+ @|  >  |@    Phone: (216) 831-2880 x2002
+  |\___/|
+  |_____|
+|______________________________________________________|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic librari      anyon experi figaro form tgs
+hoop ithaca softwar appreci comment  yes coupl
+year ago comparison two product chang goe  far
+phig implement figaro fine phig person hate phig
+find low level also dislik structur edit find
+imposs enough phig  found hoop system full featur
+easi use support render method softwar hardwar
+support document good easili portabl system  happi
+elabor specif question   here lookin   phone x2002
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phig, 6587, 0.567229486572
+hoop, 4368, 0.32374404413
+figaro, 3473, 0.32374404413
+tgs, 8830, 0.170750771319
+ithaca, 4800, 0.15849647826
+support, 8576, 0.150838419024
+softwar, 8103, 0.146167822928
+dislik, 2722, 0.143318156157
+elabor, 3024, 0.135507798794
+portabl, 6749, 0.131515377858
+comparison, 1962, 0.118242403917
+imposs, 4553, 0.112193093106
+render, 7277, 0.110382335545
+hate, 4202, 0.110382335545
+implement, 4544, 0.105705556098
+edit, 2996, 0.104345013615
+easili, 2962, 0.103567499157
+happi, 4161, 0.103064081813
+featur, 3422, 0.102571978182
+document, 2788, 0.100707218891
+structur, 8460, 0.0998311944742
+method, 5666, 0.0985795572455
+hardwar, 4173, 0.0977831898464
+librari, 5250, 0.0972043625767
+fine, 3485, 0.0972043625767
+easi, 2959, 0.0966404423996
+phone, 6601, 0.0960906807208
+goe, 3931, 0.0935316216251
+product, 6896, 0.0916800101525
+experi, 3295, 0.0916800101525
+coupl, 2187, 0.0910960371443
+low, 5368, 0.090248278757
+level, 5229, 0.0898363978362
+comment, 1936, 0.0878857597095
+form, 3610, 0.0877616931451
+specif, 8203, 0.0869123687915
+ago, 336, 0.0853065833041
+appreci, 587, 0.0846528723707
+yes, 9951, 0.0797665440523
+chang, 1650, 0.0786777156778
+far, 3386, 0.0731472912187
+person, 6562, 0.0729576996445
+graphic, 3997, 0.0720940168219
+question, 7032, 0.0662837981925
+anyon, 554, 0.0588430506111
+good, 3948, 0.0562895778777
+year, 9943, 0.0550330423848
+use, 9363, 0.0483619635275

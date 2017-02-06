@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104435
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steinman@me.utoronto.ca (David Steinman)
+Subject: Re: And America's Team is....But Why?
+Organization: UofT Mechanical Engineering
+Lines: 15
+
+cka52397@uxa.cso.uiuc.edu (OrioleFan@uiuc) writes:
+
+>	The defenition of the Underdog is a team that has no talent and comes
+>out of nowhere to contend.  The '69 Mets and '89 Orioles are prime examples,
+>not the Cubs. 
+
+Sorry, but it is *virtually* impossible to win a division with "no talent"
+over 162 games.
+
+I would amend your definition to:
+
+underdog:  a team expected to lose, but which wins thanks to underestimated
+           talent.
+--
+Dave!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ america team      defenit underdog team talent
+come nowher contend met oriol prime exampl cub
+sorri virtual imposs win divis talent game  amend
+definit  underdog team expect lose win thank
+underestim talent  dave
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+talent, 8683, 0.473894008873
+underdog, 9237, 0.40354123441
+team, 8732, 0.296170629887
+win, 9770, 0.216152482842
+defenit, 2475, 0.215209536314
+underestim, 9238, 0.207737179161
+amend, 467, 0.194600121532
+nowher, 6131, 0.17507202957
+contend, 2083, 0.172947333012
+prime, 6865, 0.169105467614
+oriol, 6295, 0.159230098917
+imposs, 4553, 0.15233791823
+virtual, 9536, 0.150838452591
+cub, 2282, 0.147174364108
+america, 468, 0.146746542331
+divis, 2767, 0.137666599054
+met, 5655, 0.132245613882
+lose, 5350, 0.130720505205
+definit, 2484, 0.128570187706
+dave, 2395, 0.128570187706
+expect, 3290, 0.115236221408
+sorri, 8142, 0.114653200757
+exampl, 3258, 0.107845751115
+game, 3761, 0.090127658773
+come, 1923, 0.0862206857675
+thank, 8832, 0.0832660340166

@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39667
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Kent.Dalton@FtCollinsCO.NCR.COM (Kent.Dalton)
+Subject: Re: PoV Ray Related Group NEEDED
+	<1t0maaINNo56@darkstar.UCSC.EDU> <C760AJ.Kxv@cs.vu.nl>
+Organization: NCR Microelectronics, Ft. Collins, CO
+Lines: 36
+In-reply-to: wlieftin@cs.vu.nl's message of 17 May 93 09:42:18 GMT
+
+>>>>> On 17 May 93 09:42:18 GMT, wlieftin@cs.vu.nl (Liefting W) said:
+
+	Liefting> hed@cats.ucsc.edu (Magic Fingers) writes:
+
+
+>In article <1993May13.011926.4728@exucom.com> cyberman@exucom.com (Stephen R.
+>Phillips) writes:
+
+>If it takes making it an alt group, then why not?  I've been following this
+>thread for, what has it been, two months now?
+
+Liefting> The alt.* hierarchie is created for 2 purposes: 1. For
+Liefting> groups which do not fit under the comp.* or other 'official'
+Liefting> hierarchies 2. For the fast creation of hot new newsgroups
+Liefting> like alt.gulf.war
+
+Liefting> Because there is no voting process or any other control
+Liefting> facilities, sites are free to decide not to carry (some of)
+Liefting> the alt groups.
+
+Liefting> Therefore, it is (I think) desirable to try to create
+Liefting> comp.graphics.  {raytrace, rendering or whatever} and not an
+Liefting> alt-group
+
+Plus, *many* sites, (especially many .com sites) do not carry any alt
+newsgroups. (We don't for example.) A comp.* group will get a much broader
+distribution and would be useful to many more people. Plus the topic is
+important/popular enough to warrant its own group, IMHO.
+--
+/**************************************************************************/
+/* Kent Dalton                   * EMail: Kent.Dalton@FtCollinsCO.NCR.COM */
+/* NCR Microelectronics          * Phone: (303) 223-5100 X-319            */  
+/* 2001 Danfield Ct. MS470A      *   FAX: (303) 226-9556                  */
+/* Fort Collins, Colorado 80525  *                                        */
+/**************************************************************************/
+Does someone from PEORIA have a SHORTER ATTENTION span than me?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pov ray relat group need           exucom com
+stephen   take make alt group i'v follow thread
+two month  lieft alt hierarchi creat purpos lieft
+group fit comp offici lieft hierarchi fast
+creation hot new newsgroup lieft like alt gulf war
+lieft vote process control lieft facil site free
+decid carri lieft alt group  lieft therefor think
+desir tri creat lieft comp graphic raytrac render
+whatev lieft alt group  plus mani site especi mani
+com site carri alt newsgroup don't exampl comp
+group get much broader distribut use mani peopl
+plus topic import popular enough warrant group
+imho    ncr microelectron phone danfield ms470a
+fax fort collin colorado  someon peoria shorter
+attent span
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alt, 446, 0.502139739773
+group, 4064, 0.399260053723
+comp, 1955, 0.243371759079
+hierarchi, 4290, 0.225559904521
+site, 7994, 0.202637041338
+plus, 6700, 0.157399263101
+newsgroup, 6032, 0.144938665729
+com, 1917, 0.143299407171
+mani, 5479, 0.139466911222
+carri, 1530, 0.138591037869
+broader, 1325, 0.127797196737
+creat, 2217, 0.126715676903
+ncr, 5976, 0.124140059164
+gulf, 4091, 0.121151960194
+collin, 1902, 0.111217897531
+shorter, 7908, 0.104083395704
+warrant, 9645, 0.099129263139
+span, 8181, 0.0942372108376
+raytrac, 7121, 0.0942372108376
+vote, 9585, 0.0917865098451
+pov, 6778, 0.088129372272
+imho, 4524, 0.0870716394844
+stephen, 8380, 0.0864026008809
+attent, 766, 0.0845452378036
+hot, 4389, 0.0828771039343
+creation, 2218, 0.0828771039343
+render, 7277, 0.0826148716217
+colorado, 1908, 0.0821026683766
+desir, 2565, 0.0804264029419
+war, 9635, 0.0797573643383
+thread, 8890, 0.0793260455011
+facil, 3348, 0.0791145694071
+popular, 6746, 0.0789057873493
+topic, 8992, 0.0782949401278
+distribut, 2753, 0.0767692653688
+offici, 6207, 0.0762318673918
+fit, 3510, 0.073933624893
+therefor, 8855, 0.0731851309003
+fast, 3397, 0.0723298497256
+phone, 6601, 0.0719183845189
+whatev, 9718, 0.0715169970311
+decid, 2442, 0.0709966622205
+purpos, 6993, 0.0704923402787
+fax, 3413, 0.0688402349388
+ray, 7118, 0.0685068843983
+control, 2107, 0.068397257435
+especi, 3190, 0.067859859458
+month, 5847, 0.0675456804461
+free, 3668, 0.0667361741875
+process, 6890, 0.0662498129816
+relat, 7247, 0.0626502823919
+import, 4551, 0.062120332345
+exampl, 3258, 0.0594456113723
+graphic, 3997, 0.0539582526049
+follow, 3578, 0.0538679539197
+someon, 8124, 0.0535557698162
+new, 6023, 0.0477411157347
+tri, 9087, 0.0474646283359
+peopl, 6530, 0.0444663781304
+need, 5993, 0.044065399845
+make, 5459, 0.0411062095864
+think, 8871, 0.0375361053618
+don, 2811, 0.0371744440087
+use, 9363, 0.0361961666102
+like, 5272, 0.0345092678332

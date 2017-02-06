@@ -1,0 +1,210 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104955
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Apology for Article
+From: grabiner@math.harvard.edu (David Grabiner)
+Organization: /etc/organization
+Nntp-Posting-Host: germain.harvard.edu
+In-reply-to: stevet@eskimo.com's message of 22 Apr 93 16:18:58 GMT
+Lines: 51
+
+In article <C5w7zo.5xL@eskimo.com>, Steven Thornton writes:
+
+> In article <1993Apr21.130659.1@tesla.njit.edu> drm6640@tesla.njit.edu
+> writes:
+
+> Just watch me. Mattingly is a below average fielder. 
+
+> Before you start up, yes, I have proof. There are really only two
+> adequate ways to measure fielding prowess. the first, which has the
+> advantage of being applicable to older players, since it uses raw data
+> available for almost all of MLB history, is the Total Chances per Game
+> method favored by the Total Baseball people among others. It basically
+> says that you measure a fielder by how many balls he gets to. 
+
+But it is subject to all kinds of bias, and is almost completely useless
+for first basemen.  From the raw stats, there is no way to tell which of
+a first baseman's putouts were made on throws from other fielders, and
+which were made on his own plays; likewise, you can't tell whether a
+double play was 6-4-3 or 3-6-3.  Fielding Runs thus gives a first
+baseman no credit for putouts or double plays, only for assists and
+errors.  
+
+It thus favors first basemen who play deep, reaching a lot of balls but
+forcing the pitcher to cover first more frequently.  It also hurts first
+baseman who play behind left-handed pitching staffs and thus face few
+left-handed batters.
+
+> A better method, but newer and based ondata that has only been collected
+> over the last few years, measures the percentage of balls hit into the
+> part of the field the guy is responsible for. 
+
+This is better; of course, it still isn't all of a first baseman's
+defense.
+
+> Some references: Mattingly's 1992 defensive rating, STATS method, from
+> Mike Gimbel's Baseball Player and Team Ratings: -1.
+
+Defensive Average, which uses larger (and probably better) zones, has
+Mattingly tied for second in the league.
+
+> On the other hand, he has contributed 233 runs by his batting
+> actions, a pretty healthy number. 
+
+While 233 batting runs is good, it is mostly in the past; the runs he
+produced in 1986 don't say much about his value in 1993.  
+
+--
+David Grabiner, grabiner@zariski.harvard.edu
+"We are sorry, but the number you have dialed is imaginary."
+"Please rotate your phone 90 degrees and try again."
+Disclaimer: I speak for no one and no one speaks for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+apolog articl         tesla njit edu   watch mat
+averag fielder  start yes proof realli two adequ
+way measur field prowess first advantag applic
+older player sinc use raw data avail almost mlb
+histori total chanc per game method favor total
+basebal peopl among other basic say measur fielder
+mani ball get  kind bias almost complet useless
+first basemen raw stat way tell first baseman
+putout made throw fielder made play likewis can't
+tell whether doubl play field run thus give first
+baseman credit putout doubl play assist error
+thus favor first basemen play deep reach lot ball
+forc pitcher cover first frequent also hurt first
+baseman play behind left hand pitch staff thus
+face left hand batter  better method newer base
+ondata collect last year measur percentag ball hit
+part field guy respons  better cours still isn't
+first baseman defens  refer mat defens rate stat
+method mike gimbel basebal player team rate
+defens averag use larger probabl better zone mat
+tie second leagu  hand contribut run bat action
+pretti healthi number  bat run good most past run
+produc don't say much valu    sorri number dial
+imaginari pleas rotat phone degre tri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baseman, 928, 0.302924634127
+fielder, 3467, 0.222825535617
+play, 6681, 0.221857823557
+mat, 5540, 0.216162246127
+putout, 6998, 0.209830197609
+measur, 5601, 0.182087410961
+method, 5666, 0.181711928595
+defens, 2476, 0.174539994314
+basemen, 929, 0.167901498968
+run, 7543, 0.162115808365
+ball, 877, 0.157862081875
+field, 3466, 0.15190695201
+raw, 7114, 0.149249341196
+hand, 4145, 0.146405610214
+favor, 3410, 0.142408059296
+doubl, 2828, 0.125456006313
+stat, 8341, 0.122156854388
+better, 1060, 0.120752858355
+rate, 7108, 0.116780463756
+averag, 816, 0.114545193459
+bat, 942, 0.110564755131
+total, 9013, 0.107395287195
+left, 5193, 0.107097943004
+njit, 6081, 0.0955890199185
+prowess, 6953, 0.0940042859503
+player, 6683, 0.0928538797506
+basebal, 924, 0.0906798913518
+tesla, 8810, 0.0880595642263
+likewis, 5274, 0.0880595642263
+tell, 8767, 0.0879332102001
+number, 6156, 0.0875014997293
+dial, 2609, 0.0871312866828
+imaginari, 4519, 0.0854472556753
+healthi, 4222, 0.083950749484
+adequ, 265, 0.0813801609285
+newer, 6028, 0.0808075346053
+zone, 9991, 0.0769368621464
+useless, 9364, 0.0769368621464
+frequent, 3686, 0.0757311585317
+older, 6218, 0.074624670598
+percentag, 6534, 0.0732780789132
+mlb, 5795, 0.0732780789132
+bias, 1069, 0.0729614834177
+proof, 6919, 0.0720540820424
+credit, 2225, 0.0717647227663
+apolog, 571, 0.0717647227663
+deep, 2466, 0.0704045060801
+way, 9666, 0.0703916381924
+tie, 8923, 0.0696498398197
+larger, 5125, 0.0689352637031
+say, 7653, 0.0683192648923
+hurt, 4451, 0.0680379520829
+assist, 705, 0.0671967602011
+advantag, 286, 0.0656574046495
+staff, 8301, 0.0652985917119
+collect, 1898, 0.0649490996529
+batter, 949, 0.0639520000271
+rotat, 7490, 0.0624386438802
+degre, 2491, 0.0624386438802
+cover, 2194, 0.0618779507621
+contribut, 2103, 0.0613396914761
+action, 251, 0.0612084251885
+error, 3180, 0.0606958036537
+throw, 8899, 0.0603237609336
+produc, 6895, 0.059609184817
+use, 9363, 0.059430480374
+phone, 6601, 0.059041392224
+applic, 585, 0.058930653428
+reach, 7128, 0.0584965936
+chanc, 1649, 0.0584965936
+histori, 4314, 0.0581799981045
+mike, 5710, 0.0580761003854
+face, 3345, 0.057870681315
+past, 6456, 0.0568881509248
+watch, 9655, 0.05579663205
+forc, 3594, 0.0557095463883
+basic, 937, 0.0553667332512
+valu, 9414, 0.0550324380981
+leagu, 5176, 0.0540000088561
+pitcher, 6644, 0.0534752470009
+complet, 1975, 0.05201361259
+sorri, 8142, 0.0518823463024
+respons, 7323, 0.0518171903022
+guy, 4100, 0.0505171063987
+data, 2385, 0.0498269711386
+refer, 7213, 0.0496045745419
+pretti, 6851, 0.049331650625
+isn, 4783, 0.0492777239486
+pitch, 6643, 0.0491172287522
+yes, 9951, 0.0490112857815
+kind, 5021, 0.047995355239
+edu, 3001, 0.0477049550215
+hit, 4316, 0.0470507788591
+second, 7753, 0.04682464433
+avail, 811, 0.0467352440824
+cours, 2190, 0.0460406543651
+team, 8732, 0.04467392997
+probabl, 6885, 0.0440029200688
+articl, 665, 0.0433637909972
+start, 8334, 0.042588964122
+base, 923, 0.0421066656116
+lot, 5356, 0.0419809199509
+sinc, 7977, 0.0410151467368
+game, 3761, 0.0407841592996
+realli, 7150, 0.0399247625606
+pleas, 6688, 0.0395800916127
+tri, 9087, 0.0389660829716
+mani, 5479, 0.0381651166705
+peopl, 6530, 0.0365046696966
+good, 3948, 0.0345862368824
+year, 9943, 0.0338141786107
+don, 2811, 0.0305183569418

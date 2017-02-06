@@ -1,0 +1,34 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104941
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cs902060@ariel.yorku.ca (GEOFFREY E DIAS)
+Subject: How does a pitcher get a save?
+Organization: York University, Toronto, Canada
+Lines: 4
+
+
+	The subject line says it all. What is the rule that qualifies
+a pitcher as making a save?
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pitcher get save     line say rule qualifi
+pitcher make save
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+save, 7646, 0.571666719651
+pitcher, 6644, 0.564503898794
+qualifi, 7015, 0.383471172342
+rule, 7537, 0.296373592955
+line, 5285, 0.23539465931
+say, 7653, 0.180300669737
+make, 5459, 0.178118180242

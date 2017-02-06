@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84281
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: livesey@solntze.wpd.sgi.com (Jon Livesey)
+Subject: Re: Ancient references to Christianity (was: Albert Sabin)
+Organization: sgi
+Lines: 16
+Distribution: world
+NNTP-Posting-Host: solntze.wpd.sgi.com
+
+In article <C5ztJu.FKx@news.cso.uiuc.edu>, cobb@alexia.lis.uiuc.edu (Mike Cobb) writes:
+|>
+|> Why is the NT tossed out as info on Jesus.  
+
+It isn't.   It's usually treated as being about as reliable as
+any other single, uncorroborated source of information about
+a person for whom there is no other evidence.
+
+|> I realize it is normally tossed out because it contains 
+|> miracles, but what are the other reasons?
+
+What do you mean when you say it contains mirables.    I just
+opened mine and not a damned thing happened.   Is there some
+special way to do this?
+
+jon.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ancient refer christian albert sabin        toss
+info jesus  isn't it usual treat reliabl singl
+uncorrobor sourc inform person evid  realiz normal
+toss contain miracl reason  mean say contain
+mirabl open mine damn thing happen special way
+jon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+toss, 9010, 0.413605095054
+contain, 2079, 0.319721578159
+sabin, 7563, 0.223237277563
+jon, 4887, 0.22154575309
+albert, 383, 0.212776806745
+miracl, 5751, 0.209075863914
+treat, 9076, 0.204663035224
+reliabl, 7256, 0.198033601182
+ancient, 500, 0.197178003614
+damn, 2346, 0.185675592769
+realiz, 7149, 0.166855665583
+normal, 6108, 0.166490223121
+special, 8198, 0.162046241021
+usual, 9377, 0.153484744349
+evid, 3245, 0.153231355038
+singl, 7983, 0.150790088149
+jesus, 4859, 0.14784333097
+open, 6258, 0.144318403678
+info, 4636, 0.143151633447
+sourc, 8153, 0.13420541473
+refer, 7213, 0.134056087132
+isn, 4783, 0.133172775219
+christian, 1732, 0.129052006082
+happen, 4159, 0.12815415259
+person, 6562, 0.121146608878
+inform, 4637, 0.119512121623
+reason, 7156, 0.117284239727
+mean, 5595, 0.112370199995
+thing, 8869, 0.0993354598911
+way, 9666, 0.0951165055847
+say, 7653, 0.0923162169192

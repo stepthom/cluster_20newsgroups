@@ -1,0 +1,186 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82804
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: decay@cbnewsj.cb.att.com (dean.kaflowitz)
+Subject: Re: Spreading Christianity (Re: Christian Extremist Kills Doctor)
+Organization: AT&T
+Distribution: na
+Lines: 40
+
+In article <Yfk8p=q00WBM47T0sJ@andrew.cmu.edu>, "David R. Sacco" <dsav+@andrew.cmu.edu> writes:
+>    Not to be too snide about it, but I think this Christianity must
+>    be a very convenient religion, very maliable and suitable for
+>    any occassion since it seems one can take it any way one wants
+>    to go with it and follow whichever bits one pleases and
+>    reinterpret the bits that don't match with one's desires.  It
+>    is, in fact, so convenient that, were I capable of believing
+>    in a god, I might consider going for some brand of Christianity.
+>    The only difficulty left then, of course, is picking which sect
+>    to join.  There are just so many.
+> 
+> Yes, Christianity is convenient.  Following the teachings of Jesus
+> Christ and the Ten Commandments is convenient.  Trying to love in a
+> hateful world is convenient.  Turning the other cheek is convenient.  So
+> convenient that it is burdensome at times.
+
+Your last remark is a contradiction, but I'll let that pass.
+
+I was addressing the notion of the Great Commission, which
+you deleted in order to provide us with dull little homilies.
+Thank you, Bing Crosby.  Now you go right on back to sleep
+and mommy and daddy will tuck you in later.
+
+Oh, and how convenient his bible must have been to Michael
+Griffin, how convenient his Christianity.  "Well, I'll just
+skip the bit about not murdering people and loving the sinner
+and hating the sin and all that other stuff for now and
+concentrate on the part where it says that if someone is doing
+something wrong, you should shoot him in the back several times
+as he tries to hobble away on his crutches."
+
+I'll leave the "convert or die" program of the missionaries and
+their military escorts in the Americas for Nadja to explain as
+she knows much more about it than I.
+
+Must be awfully convenient, by the way, to offer platitudes
+as you have done, David, rather than addressing the arguments.
+
+Dean Kaflowitz
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ spread christian christian extremist kill doctor
+snide think christian must conveni religion
+maliabl suitabl occass sinc seem one take way one
+want follow whichev bit one pleas reinterpret bit
+don't match one desir fact conveni capabl believ
+god might consid go brand christian difficulti
+left cours pick sect join mani  yes christian
+conveni follow teach jesus christ ten command
+conveni tri love hate world conveni turn cheek
+conveni conveni burdensom time  last remark
+contradict i'll let pass  address notion great
+commiss delet order provid dull littl homili thank
+bing crosbi right back sleep mommi daddi tuck
+later  conveni bibl must michael griffin conveni
+christian well i'll skip bit murder peopl love
+sinner hate sin stuff concentr part say someon
+someth wrong shoot back sever time tri hobbl away
+crutch  i'll leav convert die program missionari
+militari escort america nadja explain know much
+must aw conveni way offer platitud done david
+rather address argument  dean kaflowitz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+conveni, 2112, 0.700358108054
+christian, 1732, 0.262228739156
+bit, 1122, 0.124599543121
+hate, 4202, 0.124146357224
+ll, 5314, 0.117025773794
+love, 5366, 0.0977498250053
+missionari, 5773, 0.0960211892052
+crutch, 2261, 0.0960211892052
+address, 264, 0.0956962859037
+occass, 6188, 0.0932733769853
+mommi, 5830, 0.0932733769853
+maliabl, 5467, 0.0932733769853
+daddi, 2334, 0.0932733769853
+burdensom, 1407, 0.0932733769853
+bing, 1099, 0.0932733769853
+snide, 8077, 0.0910282509275
+reinterpret, 7241, 0.0891300238928
+kaflowitz, 4944, 0.0874857048424
+whichev, 9729, 0.0860353126498
+dull, 2913, 0.0860353126498
+cheek, 1686, 0.0847378926226
+sect, 7757, 0.0835642334458
+extremist, 3334, 0.0824927665647
+commiss, 1943, 0.0824927665647
+follow, 3578, 0.0809480196358
+sleep, 8025, 0.0797449543449
+skip, 8009, 0.0789502204797
+sinner, 7986, 0.0782036827659
+griffin, 4048, 0.077499828287
+brand, 1270, 0.0762024082599
+suitabl, 8530, 0.073957282202
+murder, 5926, 0.0729716282185
+dean, 2421, 0.0729716282185
+difficulti, 2636, 0.0720590551673
+remark, 7266, 0.0716269371123
+concentr, 2001, 0.0716269371123
+tri, 9087, 0.0713256655759
+doctor, 2786, 0.0712094699822
+match, 5541, 0.0686269501899
+spread, 8265, 0.0679786899408
+shoot, 7900, 0.0679786899408
+notion, 6122, 0.0673628565727
+join, 4881, 0.0673628565727
+aw, 829, 0.0649191116773
+contradict, 2098, 0.0646752601255
+way, 9666, 0.0644243668104
+militari, 5715, 0.0609529429504
+america, 468, 0.0607757585847
+desir, 2565, 0.0604288595616
+sin, 7976, 0.0594432055781
+time, 8936, 0.0585171193865
+teach, 8729, 0.057145567283
+christ, 1729, 0.0568863134766
+michael, 5680, 0.0561397757627
+pick, 6619, 0.0554359212839
+capabl, 1498, 0.0552099681378
+pass, 6448, 0.0549880864418
+leav, 5184, 0.0548786270459
+offer, 6203, 0.054036308961
+command, 1933, 0.054036308961
+bibl, 1071, 0.054036308961
+delet, 2502, 0.0527796641398
+kill, 5012, 0.0526881090641
+religion, 7261, 0.0521526290053
+later, 5140, 0.0516394672145
+argument, 631, 0.0513906890369
+die, 2628, 0.0503672036842
+jesus, 4859, 0.0500686654032
+explain, 3301, 0.0497771937848
+david, 2397, 0.0497053912434
+convert, 2115, 0.0494924620022
+turn, 9158, 0.0490094941806
+left, 5193, 0.0490094941806
+away, 833, 0.0488081692446
+stuff, 8472, 0.0471888365423
+provid, 6949, 0.0455518147372
+sever, 7823, 0.0454500447285
+wrong, 9869, 0.0451992397052
+yes, 9951, 0.0448564791802
+order, 6281, 0.0435301188319
+god, 3926, 0.0434007225348
+consid, 2059, 0.0431880384748
+fact, 3350, 0.0422543976666
+cours, 2190, 0.0421376754566
+littl, 5308, 0.0413865828691
+world, 9841, 0.041241709422
+great, 4016, 0.0409569776395
+someon, 8124, 0.0402394484219
+let, 5225, 0.0388890359473
+program, 6905, 0.0382232467259
+believ, 1009, 0.0380275588241
+sinc, 7977, 0.0375381924048
+right, 7399, 0.0374584892077
+someth, 8126, 0.0362487711444
+pleas, 6688, 0.0362247904144
+mani, 5479, 0.0349297663597
+thank, 8832, 0.034485012739
+want, 9634, 0.0335442422765
+peopl, 6530, 0.0334100795382
+say, 7653, 0.0312638368325
+think, 8871, 0.0282029775848
+don, 2811, 0.027931241161
+know, 5052, 0.0265243617379

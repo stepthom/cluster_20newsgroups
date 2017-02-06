@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84358
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: alizard@tweekco.uucp (A.Lizard)
+Subject: Re: OTO, the Ancient Order of Oriental Templars
+Organization: Tweek-Com Systems BBS, Moraga, CA (510) 631-0615
+Lines: 18
+
+Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva) writes:
+
+> "This organization is known at the present time as the Ancient
+> Order of Oriental Templars.  Ordo Templi Orientis.  Otherwise:
+> The Hermetic Brotherhood of Light.
+> 
+Does this organization have an official e-mail address these
+days? (an address for any of the SF Bay Area Lodges, e.g. Thelema
+would do.)
+                                      93...
+                                       A.Lizard
+
+-------------------------------------------------------------------
+A.Lizard Internet Addresses:
+alizard%tweekco%boo@PacBell.COM        (preferred)
+PacBell.COM!boo!tweekco!alizard (bang path for above)
+alizard@gentoo.com (backup)
+PGP2.2 public key available on request
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oto ancient order orient templar      organ known
+present time ancient order orient templar ordo
+templi orienti otherwis hermet brotherhood light
+organ offici mail address day address bay area
+lodg thelema   lizard   lizard internet address
+pacbel com boo tweekco alizard bang path  pgp2
+public key avail request
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lizard, 5313, 0.340877349759
+templar, 8775, 0.329041641423
+address, 264, 0.274492490543
+ancient, 500, 0.255385869077
+orient, 6290, 0.233801772237
+organ, 6287, 0.197175604339
+hermet, 4270, 0.183616289256
+alizard, 418, 0.183616289256
+tweekco, 9167, 0.178361791915
+thelema, 8839, 0.178361791915
+brotherhood, 1342, 0.178361791915
+templi, 8777, 0.17043867488
+orienti, 6291, 0.167294329711
+boo, 1217, 0.167294329711
+order, 6281, 0.166480731117
+ordo, 6283, 0.164520820712
+lodg, 5326, 0.159795505418
+oto, 6315, 0.154116715334
+bang, 894, 0.148198861166
+bay, 956, 0.130603747776
+path, 6461, 0.121056013504
+internet, 4717, 0.113073953734
+request, 7301, 0.111646388778
+offici, 6207, 0.109528322772
+key, 4994, 0.108056117783
+otherwis, 6313, 0.105575129441
+com, 1917, 0.102944767448
+area, 622, 0.0957436855911
+present, 6837, 0.0942415897156
+known, 5054, 0.0941096699863
+light, 5267, 0.0937182879555
+public, 6973, 0.0904610043924
+avail, 811, 0.0817932994743
+mail, 5447, 0.080950856098
+day, 2402, 0.069827037401
+time, 8936, 0.0559496107507

@@ -1,0 +1,150 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105043
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: Box score abbrev woes
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 29
+
+In article <1993Apr15.195452.14672@scott.skidmore.edu> jrogoff@scott.skidmore.edu (jay rogoff) writes:
+>Can anybody figure out why some box score abbreviations make
+>absolutely no sense?  (At least in the local Gannett rag that finds its way
+>to my door.)  I must have stared at "Cleman" in the Mets' box for a
+>good 30 seconds this morning wondering who the hell it was.  Wouldn't
+>it make more sense to use "Colemn"?
+
+I've seen it as "Colmn" also.
+
+Blame the Associated Press.  After the official scorer balances the
+official score card, they copy it and give it to several diffent people. 
+One of those is a person from AP whose job it is to type it up (using a
+template on a laptop) and transmit it to the AP offices in New York
+(Rockefeller Center) via the telephone.  The box scores are not checked
+and just rebroadcasted over AP's news delivery services.  If there are
+corrections, those are issued later.  It is the person sitting in front
+of a laptop at Shea (or whereever) whose fault that is.  [NOTE: The AP
+puts out boxscores in three different formats with the one you see in
+most newspapers being the first one]
+
+Last week they were in Denver.  Maybe the AP person in Denver did this
+(remember, they just started with MLB out there).  Check tomorrow's
+paper (4/21) and see if the person who is doing it from Shea does the
+same thing.
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ box score abbrev woe     anybodi figur box score
+abbrevi make absolut sens least local gannett rag
+find way door must stare cleman met box good
+second morn wonder hell wouldn't make sens use
+colemn  i'v seen colmn also  blame associ press
+offici scorer balanc offici score card copi give
+sever diffent peopl one person whose job type use
+templat laptop transmit offic new york rockefel
+center via telephon box score check rebroadcast ap
+news deliveri servic correct issu later person sit
+front laptop shea whereev whose fault note put
+boxscor three differ format one see newspap first
+one  last week denver mayb person denver rememb
+start mlb check tomorrow paper see person shea
+thing  scott barman met mail list feed follow
+shell asd com subscrib let met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+score, 7705, 0.286952293728
+box, 1254, 0.271022189736
+laptop, 5121, 0.268273698917
+met, 5655, 0.221366532841
+person, 6562, 0.221096796395
+shea, 7864, 0.207028711838
+denver, 2533, 0.192998216722
+offici, 6207, 0.154333152358
+sens, 7788, 0.138251338427
+check, 1682, 0.135309390612
+rockefel, 7446, 0.129364168226
+gannett, 3765, 0.129364168226
+colemn, 1892, 0.129364168226
+cleman, 1806, 0.129364168226
+abbrev, 168, 0.129364168226
+woe, 9813, 0.125662189056
+rag, 7067, 0.125662189056
+boxscor, 1255, 0.122637451835
+templat, 8776, 0.120080072953
+scorer, 7708, 0.120080072953
+stare, 8329, 0.117864770602
+abbrevi, 169, 0.109810135771
+barman, 913, 0.108580675329
+asd, 677, 0.108580675329
+deliveri, 2508, 0.105359602989
+shell, 7873, 0.098961414639
+balanc, 872, 0.098961414639
+transmit, 9059, 0.0976846214292
+newspap, 6035, 0.0964991083612
+door, 2818, 0.0953926901935
+tomorrow, 8979, 0.0938602053651
+telephon, 8763, 0.092457387819
+blame, 1138, 0.092014958295
+feed, 3427, 0.0907543426817
+mlb, 5795, 0.0903545613147
+subscrib, 8496, 0.0892099610268
+fault, 3407, 0.0888453282405
+morn, 5864, 0.0884885376308
+scott, 7713, 0.0871334889743
+sit, 7993, 0.084163056626
+make, 5459, 0.0832204578478
+press, 6841, 0.0796645985607
+york, 9960, 0.0784647898227
+associ, 706, 0.0780833908664
+absolut, 193, 0.0773459306167
+hell, 4245, 0.0761293557086
+paper, 6409, 0.0739350137186
+offic, 6206, 0.0735003131134
+use, 9363, 0.073279963975
+copi, 2130, 0.0729378821699
+com, 1917, 0.072528228667
+card, 1513, 0.0712314653988
+local, 5322, 0.0706192142258
+job, 4873, 0.0706192142258
+figur, 3476, 0.0704994294172
+later, 5140, 0.0695710684185
+wouldn, 9854, 0.0693468741428
+servic, 7813, 0.0682692145937
+issu, 4793, 0.0676546953062
+anybodi, 552, 0.0674548118771
+center, 1606, 0.0669653921989
+format, 3612, 0.0663965322206
+type, 9177, 0.0647983871855
+correct, 2156, 0.063892497835
+seen, 7767, 0.0615773148451
+sever, 7823, 0.0612323933998
+week, 9691, 0.0610964080161
+rememb, 7269, 0.0610964080161
+list, 5298, 0.060761242598
+wonder, 9821, 0.060238675808
+note, 6118, 0.0598572768517
+mayb, 5564, 0.0580716707946
+second, 7753, 0.0577365053766
+news, 6031, 0.0572998979702
+mail, 5447, 0.0570327404431
+follow, 3578, 0.0545284500035
+start, 8334, 0.0525137561897
+let, 5225, 0.0523931002111
+differ, 2633, 0.05108368721
+new, 6023, 0.0483264882555
+thing, 8869, 0.045322671748
+peopl, 6530, 0.0450115978107
+way, 9666, 0.0433977369729
+good, 3948, 0.0426460997257

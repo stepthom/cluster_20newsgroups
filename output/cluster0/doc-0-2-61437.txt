@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61437
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Galileo Update - 04/29/93
+From: simon@otago.ac.nz (The Arch-Deviant)
+Organization: University of Otago, Dunedin, New Zealand
+Nntp-Posting-Host: thorin.otago.ac.nz
+Lines: 11
+
+In article <29APR199321594919@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
+> 2.  On April 23, a cruise science Memory Readout (MRO) was performed for the
+> Magnetometer (MAG) instrument.  Analysis indicates the data was received
+> properly.
+
+Am I correct in assuming that the science instruments buffer their acquired
+data in onboard RAM, which is then downloaded upon receipt of the MRO command?
+
+Simon Brady                 You don't need a lot of fancy hardware for
+University of Otago         Virtual Reality - just a walkman and an
+Dunedin, New Zealand        attitude
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+galileo updat       april cruis scienc memori
+readout mro perform magnetomet mag instrument
+analysi indic data receiv proper  correct assum
+scienc instrument buffer acquir data onboard ram
+download upon receipt mro command  simon bradi
+don't need lot fanci hardwar univers otago virtual
+realiti walkman dunedin new zealand attitud
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mro, 5899, 0.443955856853
+instrument, 4686, 0.288387739196
+scienc, 7692, 0.205205874992
+data, 2385, 0.20334438419
+readout, 7142, 0.198715908023
+magnetomet, 5438, 0.19181623126
+onboard, 6239, 0.179685995862
+simon, 7964, 0.176019976951
+mag, 5430, 0.176019976951
+fanci, 3383, 0.171301938148
+acquir, 244, 0.169893713583
+cruis, 2255, 0.166056638916
+download, 2843, 0.161654534093
+galileo, 3755, 0.156145248598
+buffer, 1371, 0.155325654604
+zealand, 9977, 0.154529820334
+ram, 7083, 0.146436287657
+attitud, 769, 0.14366075848
+virtual, 9536, 0.139278215012
+proper, 6924, 0.138831792819
+analysi, 490, 0.130169479075
+realiti, 7148, 0.12860023141
+memori, 5628, 0.124368123167
+hardwar, 4173, 0.12259625938
+command, 1933, 0.120474265936
+receiv, 7167, 0.120024184383
+indic, 4600, 0.119581362526
+updat, 9333, 0.118930240469
+april, 595, 0.114032172431
+perform, 6539, 0.111464474374
+assum, 710, 0.106540783974
+correct, 2156, 0.105733244583
+univers, 9282, 0.0912354913015
+lot, 5356, 0.0856622841013
+new, 6023, 0.0799736522394
+need, 5993, 0.073816267357
+don, 2811, 0.062272865047

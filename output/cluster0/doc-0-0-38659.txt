@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38659
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: omar@godzilla.osf.org (Mark Marino)
+Subject: WANTED: Playmation Info
+Organization: Open Software Foundation
+Lines: 21
+
+Hi Folks,
+
+   Does anyone have a copy of Playmation they'd be willing to sell me.  I'd 
+love to try it out, but not for the retail $$$.  If you have moved onto 
+something bigger (3DS) or better (Imagine), I'd love to buy your table scraps.
+
+   If noone is selling, can anyone recommend a place to buy Playmation 
+mail-order for cheap?  
+
+   Thanks in advance,
+
+   Mark
+
+
+
+-- 
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+| Mark Marino              | omar@osf.org           |  uunet!osf!omar         |
+| Open Software Foundation | 11 Cambridge Center    |  Cambridge, MA 02142    |
+|_____________________________________________________________________________|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want playmat info    folk  anyon copi playmat
+they'd will sell i'd love tri retail move onto
+someth bigger 3ds better imagin i'd love buy tabl
+scrap  noon sell anyon recommend place buy playmat
+mail order cheap  thank advanc  mark        open
+softwar foundat cambridg center cambridg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+playmat, 6684, 0.569560648504
+cambridg, 1470, 0.319633580379
+sell, 7778, 0.249977430728
+buy, 1433, 0.238145086486
+love, 5366, 0.208214364025
+scrap, 7716, 0.193896913618
+retail, 7336, 0.183261585441
+noon, 6104, 0.173616184057
+3ds, 99, 0.169862656555
+foundat, 3627, 0.157534486409
+bigger, 1083, 0.148398420381
+tabl, 8667, 0.14348787161
+anyon, 554, 0.140969214516
+recommend, 7178, 0.133066666636
+cheap, 1677, 0.133066666636
+folk, 3576, 0.125306658005
+imagin, 4518, 0.119072543243
+copi, 2130, 0.115319015741
+mark, 5512, 0.10680750176
+center, 1606, 0.105876163214
+open, 6258, 0.104107182013
+info, 4636, 0.103265507232
+advanc, 285, 0.099182729214
+order, 6281, 0.0927223758001
+mail, 5447, 0.090172065561
+place, 6657, 0.0898389823968
+softwar, 8103, 0.0875428915212
+better, 1060, 0.0784693309281
+someth, 8126, 0.0772125661618
+tri, 9087, 0.0759644740835
+thank, 8832, 0.0734556301811
+want, 9634, 0.0714517194475

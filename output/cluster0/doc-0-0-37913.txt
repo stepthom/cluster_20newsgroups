@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37913
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: weston@ucssun1.sdsu.edu (weston t)
+Subject: graphical representation of vector-valued functions
+Organization: SDSU Computing Services
+Lines: 13
+NNTP-Posting-Host: ucssun1.sdsu.edu
+
+gnuplot, etc. make it easy to plot real valued functions of 2 variables
+but I want to plot functions whose values are 2-vectors. I have been 
+doing this by plotting arrays of arrows (complete with arrowheads) but
+before going further, I thought I would ask whether someone has already
+done the work. Any pointers??
+
+thanx in advance
+
+
+Tom Weston                    | USENET: weston@ucssun1.sdsu.edu
+Department of Philosophy      | (619) 594-6218 (office)
+San Diego State Univ.         | (619) 575-7477 (home)
+San Diego, CA 92182-0303      | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic represent vector valu function
+gnuplot etc make easi plot real valu function
+variabl want plot function whose valu vector plot
+array arrow complet arrowhead go thought ask
+whether someon alreadi done work pointer  thanx
+advanc    depart philosophi offic san diego state
+univ home san diego
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+plot, 6694, 0.413298693797
+function, 3722, 0.367218541771
+valu, 9414, 0.320655950999
+vector, 9444, 0.302230269528
+diego, 2629, 0.263453632038
+san, 7603, 0.23626042766
+gnuplot, 3922, 0.185655279845
+arrow, 658, 0.182577371644
+represent, 7295, 0.169228468146
+variabl, 9427, 0.156946325672
+univ, 9280, 0.150258270581
+thanx, 8833, 0.150258270581
+philosophi, 6596, 0.150258270581
+pointer, 6711, 0.149428613081
+array, 653, 0.135275584099
+depart, 2535, 0.122698161463
+offic, 6206, 0.115774383899
+easi, 2959, 0.115327671889
+alreadi, 443, 0.104732051097
+complet, 1975, 0.101022081923
+home, 4354, 0.100767133401
+advanc, 285, 0.0988124268858
+state, 8342, 0.0926537041814
+thought, 8887, 0.0912065792497
+ask, 689, 0.0905119997228
+real, 7144, 0.0895861309681
+graphic, 3997, 0.0860347377425
+someon, 8124, 0.085392991587
+work, 9833, 0.0740338312767
+want, 9634, 0.0711849518532
+make, 5459, 0.0655425591197

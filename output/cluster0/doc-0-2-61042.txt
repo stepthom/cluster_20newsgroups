@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61042
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Proton/Centaur?
+Organization: Express Access Online Communications USA
+Lines: 15
+NNTP-Posting-Host: access.digex.net
+
+
+Well thank you dennis for your as usual highly detailed and informative 
+posting.   
+
+The question i have about the proton, is  could it be  handled at
+one of KSC's spare pads, without major  malfunction,  or could it be
+handled at kourou  or Vandenberg?   
+
+Now if it uses storables,  then  how long would it take for the russians
+to equip something at cape york?
+
+If  Proton were launched from a western site,  how would it compare to the
+T4/centaur?   As i see it, it should lift  very close to the T4.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ proton centaur      well thank denni usual high
+detail inform post  question proton could handl
+one ksc spare pad without major malfunct could
+handl kourou vandenberg  use storabl long take
+russian equip someth cape york  proton launch
+western site compar centaur see lift close  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+proton, 6944, 0.512699497987
+centaur, 1604, 0.347892586692
+handl, 4149, 0.253061314286
+storabl, 8415, 0.213577281199
+malfunct, 5466, 0.207465398312
+kourou, 5069, 0.207465398312
+vandenberg, 9420, 0.188480156002
+ksc, 5077, 0.188480156002
+cape, 1501, 0.185869618285
+spare, 8186, 0.160278967755
+denni, 2526, 0.158389258874
+pad, 6377, 0.154961051037
+lift, 5264, 0.152645031372
+western, 9709, 0.145515899453
+russian, 7551, 0.139864362106
+equip, 3161, 0.138067658119
+york, 9960, 0.129543572305
+pat, 6458, 0.121584478474
+usual, 9377, 0.115615873585
+compar, 1960, 0.115235451984
+site, 7994, 0.112883718539
+launch, 5147, 0.107688443435
+close, 1830, 0.103816766159
+major, 5458, 0.100535421488
+high, 4292, 0.0926282371027
+inform, 4637, 0.0900252230544
+long, 5336, 0.0863020474377
+question, 7032, 0.0829086351771
+someth, 8126, 0.0806271412791
+post, 6766, 0.079993820233
+thank, 8832, 0.0767040621335
+use, 9363, 0.0604917717435

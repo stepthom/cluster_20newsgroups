@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104984
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: "drew carley" <drew.carley@canrem.com>
+Subject: skydome tix
+Reply-To: "drew carley" <drew.carley@canrem.com>
+Organization: Canada Remote Systems
+Distribution: rec
+Lines: 19
+
+   My schedule is flexible so any games are candidates
+AC>(though I'd prefer to see Texas.)
+   Hi Tony.I think that I might be able to help you out!The Rangers are
+   here in Toronto Thursday July 8th through Sunday July 11th and
+   tickets should not be hard to find if you order them far enough in
+   advance.Although I don't have a ticket broker's telephone number off
+   hand if you give me a couple of days I will be able to get a hold a=
+   of a couple.The Blue Jays ticket info # is (416)341-1111 or if you
+   want to order by credit card,call (416) 341-1234.If you let me
+   know,when you want the tickets I can save you a possible long
+   distance call.If all else fails I might be able to pull a few strings
+   and get you a pair.Let me know whats happening.
+
+Drew Carley,Toronto Canada
+---
+ þ DeLuxeý 1.25 #2177 þ Go away,or I shall taunt you a second time!
+--
+Canada Remote Systems - Toronto, Ontario
+416-629-7000/629-7044
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ skydom tix      schedul flexibl game candid
+though i'd prefer see texa toni think might abl
+help ranger toronto thursday 8th sunday 11th
+ticket hard find order far enough advanc although
+don't ticket broker telephon number hand give
+coupl day abl get hold coupl blue jay ticket info
+want order credit card call let know want ticket
+save possibl long distanc call els fail might abl
+pull string get pair let know what happen  drew
+carley toronto canada  delux away shall taunt
+second time  canada remot system toronto ontario
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ticket, 8919, 0.439595172413
+toronto, 9003, 0.259994978254
+abl, 180, 0.22792219475
+canada, 1481, 0.215762096619
+coupl, 2187, 0.172779873187
+broker, 1333, 0.167903769319
+tix, 8954, 0.161929637886
+taunt, 8716, 0.15729574154
+drew, 2868, 0.15729574154
+skydom, 8012, 0.15030841227
+delux, 2512, 0.15030841227
+order, 6281, 0.146817935456
+11th, 15, 0.145089507202
+8th, 150, 0.140922291987
+let, 5225, 0.13116453901
+pair, 6394, 0.128507347989
+thursday, 8911, 0.125604990515
+string, 8450, 0.123873451644
+ontario, 6248, 0.123058977202
+flexibl, 3541, 0.123058977202
+remot, 7271, 0.116886122374
+candid, 1489, 0.116886122374
+telephon, 8763, 0.115732134599
+want, 9634, 0.113137674089
+ranger, 7095, 0.112133898436
+credit, 2225, 0.110764186499
+toni, 8984, 0.10750000209
+texa, 8820, 0.105012158105
+pull, 6979, 0.104679888036
+sunday, 8541, 0.104352850784
+shall, 7846, 0.102491925598
+distanc, 2744, 0.10162047873
+fail, 3360, 0.0987057566018
+blue, 1176, 0.0957175872851
+prefer, 6819, 0.0948784251811
+schedul, 7678, 0.0944712271089
+jay, 4832, 0.0927316251679
+hold, 4341, 0.0907861115301
+know, 5052, 0.0894610934715
+card, 1513, 0.0891629077534
+save, 7646, 0.0835828381685
+away, 833, 0.0823098447027
+info, 4636, 0.0817560402483
+hard, 4167, 0.0786174295284
+advanc, 285, 0.0785236757064
+hand, 4145, 0.0753225154323
+happen, 4159, 0.0731907544805
+second, 7753, 0.0722707959758
+els, 3053, 0.0717918124546
+far, 3386, 0.0693684385015
+possibl, 6765, 0.0680847107576
+number, 6156, 0.0675264396024
+long, 5336, 0.0654323306856
+game, 3761, 0.0629476998268
+day, 2402, 0.0615798681412
+help, 4249, 0.0610086531334
+time, 8936, 0.0493414840558
+think, 8871, 0.0475613558362
+don, 2811, 0.0471031009336

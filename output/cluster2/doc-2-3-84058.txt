@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84058
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cobb@alexia.lis.uiuc.edu (Mike Cobb)
+Subject: Re: Ancient references to Christianity (was: Albert Sabin)
+Organization: University of Illinois at Urbana
+Lines: 12
+
+Why is the NT tossed out as info on Jesus.  I realize it is normally tossed
+out because it contains miracles, but what are the other reasons?
+
+MAC
+--
+****************************************************************
+                                                    Michael A. Cobb
+ "...and I won't raise taxes on the middle     University of Illinois
+    class to pay for my programs."                 Champaign-Urbana
+          -Bill Clinton 3rd Debate             cobb@alexia.lis.uiuc.edu
+                                              
+Nobody can explain everything to anybody.  G.K.Chesterton
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ancient refer christian albert sabin    toss info
+jesus realiz normal toss contain miracl reason
+mac   michael cobb won't rais tax middl univers
+illinoi class pay program champaign urbana
+nobodi explain everyth anybodi chesterton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+toss, 9010, 0.385700686653
+urbana, 9350, 0.256837217532
+champaign, 1646, 0.236906510996
+cobb, 1864, 0.227151769516
+illinoi, 4507, 0.224437676441
+sabin, 7563, 0.208176282817
+albert, 383, 0.198421541337
+miracl, 5751, 0.194970287452
+ancient, 500, 0.18387513185
+tax, 8718, 0.180859095001
+rais, 7076, 0.178089551281
+nobodi, 6088, 0.171467010045
+middl, 5699, 0.169864756307
+class, 1789, 0.162402884327
+realiz, 7149, 0.155598529992
+normal, 6108, 0.155257742583
+michael, 5680, 0.154586273874
+pay, 6474, 0.153603362683
+mac, 5410, 0.151113579544
+contain, 2079, 0.149075571975
+everyth, 3242, 0.146101645737
+won, 9820, 0.144583120574
+jesus, 4859, 0.137868887386
+anybodi, 552, 0.137868887386
+explain, 3301, 0.137066292242
+info, 4636, 0.13349372137
+refer, 7213, 0.125011817976
+christian, 1732, 0.120345343796
+univers, 9282, 0.112682236437
+reason, 7156, 0.109371505181
+program, 6905, 0.105251387388

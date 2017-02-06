@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105061
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pcollac@pyrnova.mis.pyramid.com (Paul Collacchi)
+Subject: Re: Geronimo Pena?
+Reply-To: pcollac@pyrnova.mis.pyramid.com (Paul Collacchi)
+Distribution: world
+Organization: Pyramid Technologies, Mt. View, California.
+Lines: 32
+
+In article <1r3ejr$7tb@meaddata.meaddata.com>, daves@meaddata.com (Dave
+Spencer) writes:
+|> In article <1r20avINNb6q@cronkite.Central.Sun.COM>,
+bobn@hawkwind.central.Sun.COM (Bob Netherton) writes:
+|> |> In article <1993Apr20.013653.1@eagle.wesleyan.edu>,
+dhart@eagle.wesleyan.edu writes:
+|> |> |> 
+|> |> |> 
+|> |> |> Hey...I've noticed that Luis Alicea is starting at 2nd for the
+Cardinals
+|> |> |> instead of Geronimo Pena.  Is Pena hurt, or was he just benched
+for poor
+|> |> |> performance?  Anyone know?
+|> |> 
+|> |> After a quick start, Pena has been stuck in a rut.  Torre gave Alicea
+|> |> the start to try to get Pena out of whatever funk he is in.  It has
+|> |> worked in the past.
+|> |> 
+|> 
+|>    And it has worked again. Pena went 3 for 3 last night against Colorado.
+|> 
+
+Without opening this up for a sabermetric flame war, I would like to
+question the notion that "sitting a rested player down" has any real
+effect on his long-term performance.  Sure, if a man is tired and needs
+real rest, then taking a break might be a constructive act.  Perhaps if
+a man is mentally "strained", then sitting him down might help to the
+extent that that helps him relax.  But I would like to suggest that
+in the long run, players do slump, and benching is probably irrelevant.
+
+Paul Collacchi
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ geronimo pena      meaddata com dave        hey
+i'v notic lui alicea start 2nd cardin instead
+geronimo pena pena hurt bench poor perform anyon
+know  quick start pena stuck rut torr gave alicea
+start tri get pena whatev funk work past   work
+pena went last night colorado   without open
+sabermetr flame war like question notion sit rest
+player real effect long term perform sure man tire
+need real rest take break might construct act
+perhap man mental strain sit might help extent
+help relax like suggest long run player slump
+bench probabl irrelev  paul collacchi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pena, 6512, 0.649175742515
+geronimo, 3856, 0.219705086054
+alicea, 412, 0.208141594795
+bench, 1022, 0.185158070778
+sit, 7993, 0.159528377831
+start, 8334, 0.149307214019
+rest, 7324, 0.134315532967
+perform, 6539, 0.127670696966
+rut, 7553, 0.122602818468
+collacchi, 1895, 0.122602818468
+funk, 3729, 0.119094327003
+strain, 8424, 0.109852543027
+relax, 7251, 0.109852543027
+man, 5471, 0.108610121109
+player, 6683, 0.108508188934
+slump, 8052, 0.108195957086
+real, 7144, 0.107803767993
+long, 5336, 0.099082394869
+torr, 9004, 0.0989541731094
+lui, 5385, 0.0965304582349
+mental, 5631, 0.0951001067616
+stuck, 8466, 0.0937890957036
+irrelev, 4771, 0.0931724274803
+help, 4249, 0.0923837405278
+tire, 8948, 0.090406894269
+work, 9833, 0.089088856549
+extent, 3321, 0.088954506318
+notion, 6122, 0.086010974705
+2nd, 81, 0.0845473117272
+cardin, 1515, 0.0842017368443
+hey, 4283, 0.0808305652412
+construct, 2074, 0.0797641889154
+hurt, 4451, 0.0795085243517
+colorado, 1908, 0.0787655660981
+war, 9635, 0.0765155880657
+flame, 3518, 0.0753055277508
+poor, 6741, 0.0749220203423
+paul, 6469, 0.0741819767284
+gave, 3798, 0.074002283067
+notic, 6120, 0.0726342010781
+break, 1284, 0.0719923558689
+went, 9704, 0.0702104862035
+act, 249, 0.0702104862035
+com, 1917, 0.068737467067
+whatev, 9718, 0.0686101544343
+dave, 2395, 0.0679886100986
+instead, 4682, 0.0675084804493
+quick, 7036, 0.0670425789775
+past, 6456, 0.0664789693789
+like, 5272, 0.0662132442285
+term, 8795, 0.0646024774165
+night, 6063, 0.0638353484829
+effect, 3005, 0.0630148306211
+open, 6258, 0.0624049970096
+perhap, 6540, 0.0608598919366
+suggest, 8525, 0.059956886437
+probabl, 6885, 0.0514214072401
+sure, 8585, 0.0506340557645
+question, 7032, 0.0475932285071
+run, 7543, 0.0473617602476
+tri, 9087, 0.0455354057844
+need, 5993, 0.0422743405636
+anyon, 554, 0.0422506076923
+know, 5052, 0.033867123851

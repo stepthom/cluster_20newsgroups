@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61205
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Sunrise/ sunset times
+Organization: Express Access Online Communications USA
+Lines: 18
+NNTP-Posting-Host: access.digex.net
+
+In article <1r6f3a$2ai@news.umbc.edu> rouben@math9.math.umbc.edu (Rouben Rostamian) writes:
+>how the length of the daylight varies with the time of the year.
+>Experiment with various choices of latitudes and tilt angles.
+>Compare the behavior of the function at locations above and below
+>the arctic circle.
+
+
+
+If you want to have some fun.
+
+Plug the basic formulas  into Lotus.
+
+Use the spreadsheet auto re-calc,  and graphing functions
+to produce  bar graphs  based on latitude,  tilt  and hours of day light avg.
+
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time      length daylight vari time
+year experi various choic latitud tilt angl compar
+behavior function locat arctic circl    want fun
+plug basic formula lotus  use spreadsheet auto
+calc graph function produc bar graph base latitud
+tilt hour day light avg   pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+latitud, 5144, 0.346167217821
+tilt, 8934, 0.336421284081
+graph, 3996, 0.314747291457
+function, 3722, 0.250389354954
+calc, 1450, 0.208410602226
+arctic, 621, 0.202446572783
+daylight, 2403, 0.189884634666
+avg, 820, 0.176908311169
+sunset, 8548, 0.171358667105
+sunris, 8547, 0.171358667105
+auto, 798, 0.165394637662
+plug, 6697, 0.161659175291
+formula, 3614, 0.153681257213
+behavior, 1000, 0.146868670102
+vari, 9426, 0.146208702706
+angl, 511, 0.145564639697
+bar, 904, 0.143720645038
+circl, 1765, 0.138847678168
+fun, 3721, 0.137875668449
+length, 5212, 0.132296211419
+time, 8936, 0.127009342342
+choic, 1717, 0.123469735672
+hour, 4395, 0.120321710607
+pat, 6458, 0.118643210728
+produc, 6895, 0.118411803901
+locat, 5323, 0.118411803901
+various, 9432, 0.117954915484
+compar, 1960, 0.112447774458
+experi, 3295, 0.111900438167
+basic, 937, 0.109984304944
+light, 5267, 0.106373377392
+base, 923, 0.0836435902729
+day, 2402, 0.0792560124995
+want, 9634, 0.0728065939605
+year, 9943, 0.0671708210576
+use, 9363, 0.0590284065233

@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105103
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sepinwal@mail.sas.upenn.edu (Alan Sepinwall)
+Subject: Re: WFAN
+Organization: University of Pennsylvania, School of Arts and Sciences
+Lines: 27
+Nntp-Posting-Host: mail.sas.upenn.edu
+
+In article <1993Apr16.174843.28111@cabell.vcu.edu> csc2imd@cabell.vcu.edu (Ian M. Derby) writes:
+>On the serious side:  Maybe we should have a sub for Sports Radio/TV.
+>
+>As much as people complain about one station or another, the
+>information you hear is a lot more in depth than what you can get on
+>the AP wire or USA Today.  So, to benefit those who have favorite
+>teams outside of their vicinity, this would do wonders.  People can
+>get on and talk about what Cataldi said about the Eagles or what
+>Lupica said of the Bonilla incident etc.  This can be for any station
+>across the country.  Anyone agree?
+
+
+I agree, although I would have no idea how to go about doing it. But
+you've got my vote.
+
+
+--I'm outta here like Vladimir
+--Alan
+
+===========================================================================
+| "What's this?  This is ice.  This is what happens to water when it gets |
+|  too cold.  This?  This is Kent.  This is what happens to people when   |
+|  they get too sexually frustrated."                                     |
+|               -Val Kilmer, "Real Genius"                                |
+===========================================================================
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ wfan      serious side mayb sub sport radio  much
+peopl complain one station anoth inform hear lot
+depth get wire usa today benefit favorit team
+outsid vicin wonder peopl get talk cataldi said
+eagl lupica said bonilla incid etc station across
+countri anyon agre   agre although idea you'v got
+vote   i'm outta like vladimir alan   what ice
+happen water get cold kent happen peopl get sexual
+frustrat val kilmer real genius
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+station, 8346, 0.219043205587
+peopl, 6530, 0.211187915461
+agre, 337, 0.200862145822
+kilmer, 5014, 0.191799070093
+happen, 4159, 0.182893071958
+vladimir, 9557, 0.181278809526
+lupica, 5397, 0.181278809526
+vicin, 9501, 0.17854510925
+outta, 6334, 0.17854510925
+eagl, 2947, 0.17854510925
+val, 9408, 0.176072176546
+said, 7583, 0.172743470255
+wfan, 9714, 0.169814948425
+frustrat, 3706, 0.164777346368
+bonilla, 1215, 0.163294305299
+genius, 3826, 0.158087672319
+ice, 4475, 0.156934319994
+sexual, 7827, 0.153753261135
+wire, 9793, 0.150919959373
+alan, 376, 0.148365817979
+incid, 4575, 0.146040727015
+vote, 9585, 0.145309801073
+sub, 8482, 0.145309801073
+depth, 2545, 0.140699657697
+complain, 1973, 0.140699657697
+cold, 1888, 0.139520083889
+favorit, 3411, 0.136786383613
+water, 9657, 0.135768756908
+benefit, 1028, 0.129582907525
+sport, 8257, 0.125583290084
+countri, 2186, 0.125583290084
+usa, 9357, 0.124591596569
+kent, 4987, 0.123950918214
+outsid, 6332, 0.123325679404
+radio, 7061, 0.115861435744
+hear, 4223, 0.111994535498
+today, 8964, 0.0991834212552
+wonder, 9821, 0.0942103886762
+mayb, 5564, 0.0908212971692
+real, 7144, 0.0889489591492
+idea, 4482, 0.088703796805
+talk, 8684, 0.0877456760643
+team, 8732, 0.0861496554115
+inform, 4637, 0.0852798704458
+got, 3960, 0.0851376993775
+anoth, 533, 0.0836231702528
+lot, 5356, 0.0809564278329
+anyon, 554, 0.0697220078224
+like, 5272, 0.0546325909164

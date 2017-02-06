@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104672
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dorin@ksr.com (Bob Dorin)
+Subject: Texas Rangers Roster - PLEASE HELP!
+Organization: Kendall Square Research Corp.
+Lines: 19
+
+I need a little help from a Texas Rangers expert.
+
+I was at Yankee Stadium Sunday (12-2 Texas rout) with my kids.  We
+wandered out to the outfield during Rangers batting practice and
+I caught a ball tossed into the stands (actually wrestled some guy
+a bit, I might add) by #62 on the Rangers.  Who is he?  Looked like
+a bullpen assistant type, youngish I think.  He was not in the
+roster listed in the Yankee scorecard.  Any ideas?
+
+Please e-mail as I haven't been reading r.s.b regularly.
+
+Thanks.
+- Bob
+--
+Name:    Bob Dorin
+Company: Kendall Square Research 
+Email:   dorin@ksr.com, ksr!dorin
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ texa ranger roster pleas help    need littl help
+texa ranger expert  yanke stadium sunday texa rout
+kid wander outfield ranger bat practic caught ball
+toss stand actual wrestl guy bit might add ranger
+look like bullpen assist type youngish think
+roster list yanke scorecard idea  pleas mail
+haven't read regular  thank bob  name bob dorin
+compani kendal squar research
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ranger, 7095, 0.513963837734
+texa, 8820, 0.360991095521
+roster, 7489, 0.292183646584
+yanke, 9933, 0.221878622014
+bob, 1189, 0.209233461405
+wander, 9630, 0.16905655331
+rout, 7498, 0.157503577848
+squar, 8276, 0.14194297061
+pleas, 6688, 0.140000888667
+help, 4249, 0.13981606783
+toss, 9010, 0.135336542174
+outfield, 6325, 0.13261407317
+expert, 3298, 0.13136138116
+caught, 1568, 0.128490959434
+bullpen, 1391, 0.127433200721
+stadium, 8300, 0.126420466909
+sunday, 8541, 0.119574884169
+kid, 5008, 0.119574884169
+assist, 705, 0.11884265246
+regular, 7234, 0.110427556813
+practic, 6793, 0.104223405171
+stand, 8311, 0.103080994455
+add, 260, 0.102169172061
+haven, 4207, 0.101638391997
+compani, 1958, 0.0989917053914
+bat, 942, 0.0977711479623
+ball, 877, 0.0930637552403
+type, 9177, 0.0929420380803
+research, 7307, 0.091528018993
+guy, 4100, 0.0893433984178
+list, 5298, 0.0871514549767
+mail, 5447, 0.0818035658652
+idea, 4482, 0.0813517360963
+bit, 1122, 0.0802583284587
+littl, 5308, 0.0799750435309
+actual, 254, 0.0765089291223
+read, 7135, 0.0724356608314
+thank, 8832, 0.066638514315
+need, 5993, 0.0639791378217
+look, 5341, 0.0593844552399
+think, 8871, 0.0544991686601
+like, 5272, 0.0501044631523

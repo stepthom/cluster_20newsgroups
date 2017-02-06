@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38795
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: eric.vitiello@tfd.coplex.com (Eric Vitiello)
+Subject: .GIF to .BMP
+Reply-To: eric.vitiello@tfd.coplex.com (Eric Vitiello)
+Organization: Ky/In PC User's Group - Louisville, KY - 502-423-8654
+Lines: 15
+
+TO: saz@hook.corp.mot.com
+
+
+SZ>Does anybody know of a program that converts .GIF files to .BMP files
+SZ>and if so, where can I ftp it from?  Any help would be greatly
+SZ>appreciated.
+
+  Sure... A GREAT shareware  program is Graphic Workshop (the newest
+  version is 6.1).  Although I don't know where you can ftp it from.  It
+  also converts to about 15 other formats, and does MANY other things.
+
+....r.c V.t.ell. .r...
+---
+ . DeLuxe./386 1.25 #959sa . My Address: eric.vitiello@tfd.coplex.com
+                                                                                                                           
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gif bmp        anybodi know program convert gif
+file bmp file ftp help great appreci  sure great
+sharewar program graphic workshop newest version
+although don't know ftp also convert format mani
+thing  ell
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bmp, 1183, 0.448048875761
+gif, 3869, 0.314900927889
+ftp, 3709, 0.301560780085
+convert, 2115, 0.299835814655
+file, 3477, 0.258148600012
+newest, 6029, 0.253124910316
+great, 4016, 0.248126043029
+program, 6905, 0.231564522297
+workshop, 9839, 0.22103878761
+sharewar, 7856, 0.20315036856
+know, 5052, 0.160690199844
+anybodi, 552, 0.151663288434
+format, 3612, 0.149283885567
+version, 9479, 0.145124062232
+appreci, 587, 0.144198438667
+graphic, 3997, 0.122805574954
+sure, 8585, 0.120122343065
+help, 4249, 0.109583868068
+mani, 5479, 0.105805960428
+thing, 8869, 0.101902077059
+don, 2811, 0.0846066866453

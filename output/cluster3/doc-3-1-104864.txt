@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104864
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gspira@nyx.cs.du.edu (Greg Spira)
+Subject: Re: Jack Morris
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 22
+
+cmeyer@bloch.Stanford.EDU (Craig Meyer) writes:
+
+>Michael Chen (mike@cunixf.cc.columbia.edu) wrote:
+
+>: In any case, I think Viola would have made a better signing.  Why?
+>: Viola is younger, and is left handed (how many left handed starters does
+>: Toronto have?
+
+>Well, I agree that Viola is a better signing.  However, why does
+>everyone say that you want lefthanded starters?  I understand lefthanded
+>spot relievers, even though they usually face more righthanded batters
+>than lefthanded batters.  I just don't understand why people insist
+>on lefthanded starters, unless there is a park effect (e.g., Yankee Stadium).
+
+The answer is - they're stupid.  Seriously, I think you're right
+on the money; I've never understood the preoccupation with making
+sure a rotation has left-handed starters.  The only time it makes
+sense to me is when you have an unbalanced schedule and your main
+rival(s) is loaded with lefthanded hitters.  Other than that, I think
+you're completely right.
+
+Greg 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri        case think viola made better
+sign viola younger left hand mani left hand
+starter toronto  well agre viola better sign howev
+everyon say want lefthand starter understand
+lefthand spot reliev even though usual face
+righthand batter lefthand batter don't understand
+peopl insist lefthand starter unless park effect
+yanke stadium  answer they'r stupid serious think
+you'r right money i'v never understood preoccup
+make sure rotat left hand starter time make sens
+unbalanc schedul main rival load lefthand hitter
+think you'r complet right  greg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lefthand, 5195, 0.629934514609
+starter, 8335, 0.343212102182
+viola, 9525, 0.301812056542
+left, 5193, 0.198595395122
+hand, 4145, 0.180989968578
+batter, 949, 0.158117854343
+sign, 7946, 0.151334514236
+righthand, 7401, 0.129698448087
+rival, 7421, 0.122954349713
+understand, 9246, 0.119276317032
+think, 8871, 0.114283600978
+younger, 9963, 0.10292867828
+right, 7399, 0.101192413011
+better, 1060, 0.0995182994576
+understood, 9248, 0.0992171331151
+reliev, 7258, 0.093152026697
+stadium, 8300, 0.0883670127505
+greg, 4033, 0.0870356629404
+insist, 4673, 0.0858030255456
+make, 5459, 0.0834355013447
+stupid, 8476, 0.0813934901434
+morri, 5868, 0.0813934901434
+spot, 8261, 0.0811671874257
+jack, 4808, 0.0777275773613
+yanke, 9933, 0.0775457942057
+load, 5317, 0.077365976312
+rotat, 7490, 0.0771880816412
+park, 6430, 0.0766655362638
+schedul, 7678, 0.0756672571178
+main, 5450, 0.0729883213341
+face, 3345, 0.0715410616948
+hitter, 4322, 0.0708016958315
+usual, 9377, 0.0702097118847
+toronto, 9003, 0.0694148100994
+sens, 7788, 0.0693042914658
+unless, 9289, 0.0677290147546
+money, 5835, 0.0670420088291
+effect, 3005, 0.0666618095746
+everyon, 3241, 0.066290107108
+agre, 337, 0.064382153963
+complet, 1975, 0.0643004191884
+answer, 535, 0.0613906192536
+case, 1540, 0.0578303466688
+howev, 4406, 0.0573403048796
+sure, 8585, 0.0535644982314
+mani, 5479, 0.0471805913507
+want, 9634, 0.0453091260536
+peopl, 6530, 0.0451279087713
+say, 7653, 0.0422289200121
+time, 8936, 0.0395203373014
+don, 2811, 0.037727491835

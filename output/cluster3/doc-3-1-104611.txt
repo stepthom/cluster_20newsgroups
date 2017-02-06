@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104611
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: joel@math.toronto.edu (Joel Chan)
+Subject: Game Score Report
+Organization: Department of Mathematics, University of Toronto
+Lines: 12
+
+Just out of curiosity, what happened to the weekly AL and NL Game
+Score Reports?  I used to enjoy reading them throughout the summer
+for the last two years.
+
+Inquisitively yours,
+
+Joel
+-- 
+Joel Chan <joel@math.toronto.edu>, Dept. of Mathematics, University of Toronto
+Toronto Blue Jays -- 1992 World Series Champs!
+"History: Those who ignore it are condemned to repeat it.  Math, too."
+					- From the comic strip "Betty"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game score report    curios happen week game
+score report use enjoy read throughout summer last
+two year  inquisit  joel   toronto blue jay world
+seri champ histori ignor condemn repeat math comic
+strip betti
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+score, 7705, 0.309288180622
+report, 7291, 0.284669379677
+comic, 1930, 0.270887047609
+joel, 4877, 0.254078334662
+curios, 2296, 0.249866066685
+inquisit, 4665, 0.246098064582
+champ, 1645, 0.246098064582
+condemn, 2015, 0.223143480713
+game, 3761, 0.216810911635
+strip, 8451, 0.213328811475
+summer, 8538, 0.206808456054
+math, 5544, 0.189999743107
+repeat, 7286, 0.178610900511
+enjoy, 3114, 0.171286849629
+blue, 1176, 0.16484015632
+jay, 4832, 0.159697878123
+ignor, 4496, 0.159697878123
+histori, 4314, 0.154644090311
+toronto, 9003, 0.14925021992
+seri, 7805, 0.145841647404
+week, 9691, 0.131704100583
+happen, 4159, 0.126045544522
+world, 9841, 0.11977528063
+read, 7135, 0.108864943203
+year, 9943, 0.0898790488354
+use, 9363, 0.0789839538813

@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38596
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: billj@b11.b11.ingr.com (Bill Jones)
+Subject: Re: Need specs/info on Apple QuickTime
+Keywords: quicktime
+Organization: Intergraph Corp. Huntsville, AL
+Lines: 16
+
+add@sciences.sdsu.edu (James D. Murray) writes:
+
+>I need to get the specs, or at least a very verbose interpretation of the
+>specs, for QuickTime.  Technical articles from magazines and references to
+>books would be nice too.
+
+>I also need the specs in a format usable on a Unix or MS-DOS system.  I can't
+>do much with the QuickTime stuff they have on ftp.apple.com in its present
+>format.
+
+Apple just released the Quicktime volume of the new Inside Macintosh series.
+Any bookstore with reasonable technical stock should have it.
+
+Bill Jones
+billj@beowulf.b11.ingr.com
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need spec info appl quicktim       need get spec
+least verbos interpret spec quicktim technic
+articl magazin refer book nice  also need spec
+format usabl unix dos system can't much quicktim
+stuff ftp appl com present format  appl releas
+quicktim volum new insid macintosh seri bookstor
+reason technic stock  bill jone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+quicktim, 7039, 0.534468979759
+spec, 8196, 0.477997308159
+appl, 583, 0.351605627984
+technic, 8737, 0.188487229535
+need, 5993, 0.171248389237
+format, 3612, 0.169937899353
+verbos, 9469, 0.156941561929
+usabl, 9358, 0.153668833818
+stock, 8402, 0.14609637214
+bookstor, 1220, 0.138952828248
+jone, 4889, 0.130344516829
+macintosh, 5418, 0.11949932704
+magazin, 5432, 0.109520817107
+volum, 9577, 0.107359898418
+interpret, 4720, 0.100167492115
+dos, 2825, 0.100167492115
+insid, 4671, 0.0994477381615
+unix, 9284, 0.0972108597916
+releas, 7253, 0.0928158023562
+com, 1917, 0.0928158023562
+seri, 7805, 0.0865790457511
+nice, 6047, 0.0859452461999
+ftp, 3709, 0.0858207255599
+present, 6837, 0.0849689496764
+info, 4636, 0.08358384719
+stuff, 8472, 0.0813581458187
+refer, 7213, 0.0782731096524
+book, 1218, 0.076044934176
+reason, 7156, 0.0684803081537
+articl, 665, 0.0684255191988
+new, 6023, 0.0618443586026

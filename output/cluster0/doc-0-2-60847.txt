@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60847
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wats@scicom.AlphaCDC.COM (Bruce Watson)
+Subject: Quotation Was:(Re: <None|)
+Organization: Alpha Science Computer Network, Denver, Co.
+Lines: 12
+
+In article <1993Apr16.155656.1@otago.ac.nz| bioccnt@otago.ac.nz writes:
+|
+|Can someone please remind me who said a well known quotation? 
+|
+|He was sitting atop a rocket awaiting liftoff and afterwards, in answer to
+|the question what he had been thinking about, said (approximately) "half a
+|million components, each has to work perfectly, each supplied by the lowest
+|bidder....." 
+|
+Sounds similar to something Wally Schirra said.
+-- 
+Bruce Watson (wats@scicom.alphaCDC.COM) Bulletin 629-49 Item 6700 Extract 75,131
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quotat none      someon pleas remind said well
+known quotat  sit atop rocket await liftoff
+afterward answer question think said approxim half
+million compon work perfect suppli lowest bidder
+sound similar someth walli schirra said
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+quotat, 7046, 0.447709194479
+said, 7583, 0.319971926619
+walli, 9623, 0.249836770204
+bidder, 1079, 0.249836770204
+atop, 758, 0.231906701864
+await, 830, 0.223854597239
+liftoff, 5266, 0.217425115868
+afterward, 325, 0.209698292835
+lowest, 5372, 0.20164618821
+remind, 7270, 0.168278046082
+approxim, 593, 0.165858787001
+compon, 1980, 0.165281474777
+suppli, 8574, 0.163070945826
+sit, 7993, 0.162541347627
+rocket, 7447, 0.14902927468
+million, 5724, 0.148012047606
+half, 4124, 0.145140877485
+perfect, 6538, 0.140071386438
+similar, 7961, 0.132662441325
+known, 5054, 0.128049946384
+sound, 8150, 0.125803638577
+answer, 535, 0.118256110705
+someon, 8124, 0.104698701524
+question, 7032, 0.096984218164
+someth, 8126, 0.0943153899838
+pleas, 6688, 0.0942529947127
+work, 9833, 0.09077145395
+think, 8871, 0.0733811035696

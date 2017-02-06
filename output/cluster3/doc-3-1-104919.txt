@@ -1,0 +1,221 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104919
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: Defensive Averages 1988-1992, Third Base
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 64
+
+In <C5L068.6v3@srgenprp.sr.hp.com> craigs@srgenprp.sr.hp.com (Craig Stelter) writes:
+
+>Dale Stephenson (steph@cs.uiuc.edu) wrote:
+>: In <C5JJrJ.EM3@cs.uiuc.edu> steph@cs.uiuc.edu (Dale Stephenson) writes:
+
+>: >Compiled from the last five Defensive Average reports, here are the career
+>: >DAs for the individual players in the reports.  Stats are courtesy of
+>: >Sherri Nichols.  Players are listed in descending order.
+
+>: And some comments, with some players deleted.
+
+>: >Third Basemen
+>: >-------------
+>: >Leius, Scott         ----  ----  ----  .653  .680   0.672
+>: Looks good.  Too bad he's moving to short.
+
+>: >Pagliarulo, Mike     .631  ----  .575  .744  ----   0.649
+>: This is an interesting line.  His 1988 figure was slightly below average.
+>: His 1990 was pathetic, and his 1991 was the next best year by anybody.  Part of
+>: that may be his mobility.  1988 was with the Yankees.  1990 was with the
+>: Padres, who appear to have a rotten infield.  1991 was with the Twins, and
+>: judging by Leius and Gaetti, the Metrodome may be a good place to play
+>: third.
+
+>Gaetti, Gary         .616  .638  .655  .632  ----   0.637
+
+>Apologies if I don't know what I'm talking about :-), but as a Twins fan,
+>I like to think they have good players in any park.  Not sure if I remember
+>completely or not, but I think Gaetti played with the Twins in '87 for the 
+>world series, and again in '88 (note that's his lowest of the 4).  I believe 
+>the next 3 (or at least the last two) were played with the Angels. 
+
+Actually, Gaetti's first year with California was 1991.  His .632 DA wasn't
+out of line with his career averages, and his .616 was actually below average
+in 1988.  But check out the last three years at the Metrodome.
+
+1990
+Gaetti  .655
+AL Avg  .604
+1991
+Pags    .744
+Leius   .653
+Al Avg  .620
+1992
+Leius   .680
+AL Avg  .603
+
+For the last three years, the highest DAs in either league have been posted
+by Minnesota players -- three different ones, including one (Pags) who was
+mediocre to horrible elsewhere.  That doesn't *prove* a park effect is at
+work, any more than San Diego's horrible infield numbers prove a park effect
+is at work.  But it looks like a strong possibility to me.
+
+  Lots
+>of factors make a player excell...  I hate it when so many use the dome.
+>It may not be ideal, but nice to comfortably enjoy baseball and football 
+>even when it's snowing and raining.
+
+And it might even be a nice play to thrid base.
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ defens averag third base         compil last five
+defens averag report career das individu player
+report stat courtesi sherri nichol player list
+descend order  comment player delet  third basemen
+leius scott look good bad he move short
+pagliarulo mike interest line figur slight averag
+pathet next best year anybodi part mobil yanke
+padr appear rotten infield twin judg leius gaetti
+metrodom good place play third  gaetti gari
+apolog don't know i'm talk twin fan like think
+good player park sure rememb complet think gaetti
+play twin world seri note that lowest believ next
+least last two play angel  actual gaetti first
+year california wasn't line career averag actual
+averag check last three year metrodom   gaetti avg
+pag leius avg  leius avg  last three year highest
+das either leagu post minnesota player three
+differ one includ one pag mediocr horribl elsewher
+doesn't prove park effect work san diego horribl
+infield number prove park effect work look like
+strong possibl  lot factor make player excel hate
+mani use dome ideal nice comfort enjoy basebal
+footbal even it snow rain  might even nice play
+thrid base    consid good look wise especi
+overburden inform golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gaetti, 3744, 0.411563183484
+leius, 5205, 0.32317635402
+averag, 816, 0.242040730881
+player, 6683, 0.235446851061
+avg, 820, 0.225818362424
+twin, 9172, 0.189223581728
+pag, 6380, 0.177353419578
+metrodom, 5670, 0.172278145073
+das, 2381, 0.164625273393
+park, 6430, 0.157252016744
+play, 6681, 0.150015561598
+horribl, 4380, 0.132296655935
+infield, 4627, 0.128678818966
+good, 3948, 0.116932404417
+year, 9943, 0.114322157157
+career, 1517, 0.105308537412
+prove, 6947, 0.100963093564
+defens, 2476, 0.0983502063331
+nice, 6047, 0.0920730593249
+effect, 3005, 0.091155291815
+report, 7291, 0.0905217010608
+look, 5341, 0.0851415607124
+pathet, 6462, 0.0823126366967
+pagliarulo, 6384, 0.0807940885051
+dome, 2806, 0.0807940885051
+rotten, 7492, 0.0771725630495
+mediocr, 5610, 0.0761830506465
+line, 5285, 0.075390049247
+actual, 254, 0.0731290100256
+mobil, 5802, 0.0729114672211
+courtesi, 2192, 0.0722220307671
+lowest, 5372, 0.071572012788
+base, 923, 0.0711790887903
+basemen, 929, 0.0709571485267
+overburden, 6339, 0.0703738299684
+kimbal, 5019, 0.0692899417655
+snow, 8081, 0.0687844266028
+comfort, 1929, 0.0665473941287
+padr, 6379, 0.0657627921099
+rain, 7074, 0.0653898990757
+elsewher, 3055, 0.0653898990757
+descend, 2554, 0.0650288459371
+ideal, 4483, 0.0646789039069
+footbal, 3589, 0.0646789039069
+work, 9833, 0.0644365829135
+sherri, 7879, 0.0640097568761
+minnesota, 5744, 0.0640097568761
+golden, 3934, 0.0622103988953
+nichol, 6050, 0.0616687623091
+wise, 9799, 0.060657232051
+highest, 4294, 0.060657232051
+apolog, 571, 0.060657232051
+compil, 1972, 0.0604178080786
+scott, 7713, 0.0597283716246
+gari, 3776, 0.0590783536455
+hate, 4202, 0.0573253184117
+diego, 2629, 0.0573253184117
+angel, 509, 0.056796282623
+california, 1459, 0.0566252685937
+slight, 8034, 0.0562907674603
+judg, 4920, 0.0562907674603
+factor, 3352, 0.0546085874004
+excel, 3261, 0.054467315787
+enjoy, 3114, 0.054467315787
+yanke, 9933, 0.0530191840348
+think, 8871, 0.0520915701873
+stat, 8341, 0.0516249236227
+san, 7603, 0.0514083033849
+strong, 8456, 0.0503830853996
+individu, 4604, 0.0497167397528
+wasn, 9652, 0.049352797698
+mike, 5710, 0.04908728637
+delet, 2502, 0.0487426473098
+figur, 3476, 0.0483260359377
+like, 5272, 0.0478910086734
+especi, 3190, 0.0470870192551
+seri, 7805, 0.0463760240863
+check, 1682, 0.0463760240863
+appear, 580, 0.0462390077465
+anybodi, 552, 0.0462390077465
+leagu, 5176, 0.0456420779135
+comment, 1936, 0.0456420779135
+fan, 3381, 0.0452608505304
+short, 7904, 0.0449526414595
+complet, 1975, 0.0439631290566
+rememb, 7269, 0.0418804412157
+bad, 861, 0.0418804412157
+list, 5298, 0.0416506916111
+note, 6118, 0.041031040055
+order, 6281, 0.0402005822537
+consid, 2059, 0.0398846669771
+includ, 4579, 0.0391312644802
+place, 6657, 0.0389504622834
+talk, 8684, 0.0384589936425
+basebal, 924, 0.0383223887731
+world, 9841, 0.0380872089577
+best, 1052, 0.0380208984571
+inform, 4637, 0.0373782292464
+possibl, 6765, 0.0372848862985
+number, 6156, 0.0369791630853
+doesn, 2793, 0.0368890261381
+sure, 8585, 0.0366228242105
+lot, 5356, 0.0354832612044
+believ, 1009, 0.0351189026687
+differ, 2633, 0.0350169089928
+post, 6766, 0.0332132179129
+mani, 5479, 0.0322580544995
+make, 5459, 0.0285230311079
+don, 2811, 0.0257948332757
+use, 9363, 0.0251160201001
+know, 5052, 0.0244955634026

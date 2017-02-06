@@ -1,0 +1,152 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84175
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: clavazzi@nyx.cs.du.edu (The_Doge)
+Subject: What we can learn from the Waco wackos
+Organization: Nyx, Public Access Unix @ U. of Denver Math/CS dept.
+Distribution: usa
+Lines: 34
+
+
+	There are actually a few important things we can glean from this mess:
+1)	When they start getting desperate for an answer to the question: "What's
+it all about. Mr. Natural?", pinkboys will buy darn near *anything*, which
+means:
+2)	There's still plenty of $$$$ to be made in the False Jesus business
+by enterprising SubGenii.  Just remember that:
+3)	Once you've separated the pinks from their green, don't blow it all
+on automatic weapons from Mexico.  Put it in a Swiss bank account.  Smile a
+lot.  Have your flunkies hand out flowers in airports.  The Con will just
+shrug you off as long as:
+4)	You never, never, NEVER start to believe your own bulldada!  If
+"David Koresh" hand't started swallowing his own "apocalypso now" crap, he'd
+be working crossword puzzles in the Bahamas today instead of contributing to
+the mulch layer in Waco.  This is because:
+5)	When you start shooting at cops, they're likely to shoot back.  And 
+most of 'em are better shots than you are.
+
+	In short:
+	- P.T. Barnum was right 
+		and
+	- Stupidity is self-correcting
+Thus endeth the lesson.
+
+	************************************************************
+	*  	The_Doge of South St. Louis			   *
+	*		Dobbs-Approved Media Conspirator(tm)	   *
+	*	"One Step Beyond"  -- Sundays, 3 to 5 pm	   *
+	*		88.1 FM		St. Louis Community Radio  *
+	*  "You'll pay to know what you *really* think!"           *
+	*			-- J.R. "Bob" Dobbs"		   *
+	************************************************************
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ learn waco wacko      actual import thing glean
+mess start get desper answer question what natur
+pinkboy buy darn near anyth mean there still
+plenti made fals jesus busi enterpris subgenii
+rememb you'v separ pink green don't blow automat
+weapon mexico put swiss bank account smile lot
+flunki hand flower airport con shrug long never
+never never start believ bulldada david koresh
+hand't start swallow apocalypso crap he'd work
+crossword puzzl bahama today instead contribut
+mulch layer waco start shoot cop they'r like shoot
+back em better shot  short barnum right  stupid
+self correct thus endeth lesson   doge south loui
+dobb approv media conspir one step beyond sunday
+loui communiti radio you'll pay know realli think
+bob dobb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dobb, 2782, 0.25821047914
+start, 8334, 0.246964491063
+waco, 9603, 0.232700507206
+shoot, 7900, 0.215353109011
+loui, 5363, 0.205660517232
+doge, 2796, 0.144186485957
+hand, 4145, 0.141495916296
+cop, 2127, 0.141179741536
+conspir, 2065, 0.141179741536
+swallow, 8619, 0.13627779588
+pink, 6634, 0.13627779588
+glean, 3897, 0.134222714819
+flower, 3556, 0.134222714819
+desper, 2569, 0.134222714819
+swiss, 8637, 0.132363667867
+puzzl, 6999, 0.132363667867
+smile, 8062, 0.13066649097
+airport, 365, 0.13066649097
+crap, 2210, 0.126314024741
+mess, 5649, 0.123872688886
+enterpris, 3126, 0.123872688886
+em, 3058, 0.123872688886
+darn, 2370, 0.123872688886
+mexico, 5671, 0.121703207322
+lesson, 5223, 0.121703207322
+layer, 5160, 0.11797663104
+approv, 591, 0.116350253603
+plenti, 6692, 0.111535191074
+blow, 1172, 0.110934982803
+fals, 3372, 0.109787285333
+weapon, 9674, 0.108703382621
+green, 4025, 0.107676554506
+south, 8154, 0.104885339677
+bank, 897, 0.103224317063
+automat, 803, 0.102065249596
+sunday, 8541, 0.098015196087
+communiti, 1953, 0.0971216705634
+shot, 7910, 0.0957178109194
+stupid, 8476, 0.0954487690026
+media, 5605, 0.0949215685386
+koresh, 5065, 0.093662729858
+account, 221, 0.093662729858
+separ, 7797, 0.0927110664978
+self, 7776, 0.0905171575926
+step, 8377, 0.0901065060098
+busi, 1424, 0.0899043774681
+contribut, 2103, 0.0889240088345
+buy, 1433, 0.0885452546092
+pay, 6474, 0.0883586002688
+radio, 7061, 0.0870997615882
+bob, 1189, 0.0857540397807
+instead, 4682, 0.0837477828493
+learn, 5182, 0.0828871183932
+natur, 5966, 0.0826084675153
+jesus, 4859, 0.0793075209894
+near, 5982, 0.0789602376959
+david, 2397, 0.0787321037535
+short, 7904, 0.0771011907441
+correct, 2156, 0.0751192609113
+today, 8964, 0.0745619307179
+import, 4551, 0.0739312216903
+answer, 535, 0.0719917406876
+rememb, 7269, 0.0718318608603
+anyth, 555, 0.0668680919208
+actual, 254, 0.0627141539168
+ll, 5314, 0.0617886385742
+long, 5336, 0.061458433329
+lot, 5356, 0.0608596425376
+mean, 5595, 0.0602786878262
+believ, 1009, 0.0602347075827
+right, 7399, 0.0593333154609
+question, 7032, 0.0590418765106
+better, 1060, 0.058351713139
+realli, 7150, 0.0578788359253
+work, 9833, 0.0552596811756
+thing, 8869, 0.0532864689846
+think, 8871, 0.0446728151981
+don, 2811, 0.0442423914598
+know, 5052, 0.0420139294371
+like, 5272, 0.0410704874594

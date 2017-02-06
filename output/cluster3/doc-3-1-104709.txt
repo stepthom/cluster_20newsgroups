@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104709
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: klinker@itd.nrl.navy.mil (Eric Klinker)
+Subject: Re: Jays' Darrin Jackson is a nightmare!
+Organization: Naval Research Laboratory
+Lines: 19
+
+>
+>Give Jackson a break...he lost about 10 pounds with that flu he had
+>when he was traded.
+>
+
+DJ was a popular player in San Diego, Derek Bell was not faring well in the
+clubhouse at Toronto, so no matter how bad he looks now I still think it
+was a steal for the Jays just from the perspective of team chemistry.
+No statistic can describe it (sorry statheads) and since there are so many
+new faces in the clubhouse I think the Jays are still trying to find it.
+
+(Insert the same comment into the Jack Morris v. Clemens WS Ring string)
+
+Yet at first I was sad to see Derek go, still anticipating all of the talent
+they raved about at the beginning of last season.  I'm glad to see him
+faring well for the Padres though.
+
+-- 
+                                   Eric
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jay darrin jackson nightmar     give jackson
+break lost pound flu trade   popular player san
+diego derek bell fare well clubhous toronto matter
+bad look still think steal jay perspect team
+chemistri statist describ sorri stathead sinc mani
+new face clubhous think jay still tri find  insert
+comment jack morri clemen ring string  yet first
+sad see derek still anticip talent rave begin last
+season i'm glad see fare well padr though   eric
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fare, 3387, 0.312383602012
+derek, 2549, 0.307204713206
+clubhous, 1843, 0.298381276006
+jay, 4832, 0.294517427871
+jackson, 4812, 0.251428607023
+flu, 3559, 0.166524768401
+anticip, 543, 0.162516453178
+stathead, 8344, 0.159127470946
+nightmar, 6065, 0.159127470946
+rave, 7112, 0.153602356603
+darrin, 2375, 0.153602356603
+string, 8450, 0.131141489553
+chemistri, 1692, 0.131141489553
+padr, 6379, 0.127133174331
+insert, 4670, 0.126412294429
+steal, 8362, 0.121936198426
+perspect, 6564, 0.120808522159
+glad, 3889, 0.120808522159
+clemen, 1807, 0.119735876876
+ring, 7406, 0.118713140508
+sad, 7571, 0.117263063343
+talent, 8683, 0.116800206936
+pound, 6776, 0.115467382674
+bell, 1011, 0.115040478634
+eric, 3170, 0.111531031075
+diego, 2629, 0.110821780301
+statist, 8348, 0.110475554764
+trade, 9033, 0.108505443352
+morri, 5868, 0.107582866005
+popular, 6746, 0.105846316268
+jack, 4808, 0.102737399827
+think, 8871, 0.10070385489
+break, 1284, 0.100663992059
+san, 7603, 0.099382957849
+begin, 994, 0.0975913443094
+lost, 5355, 0.0972122854839
+describ, 2556, 0.094727481294
+face, 3345, 0.094560295186
+toronto, 9003, 0.0917498954837
+comment, 1936, 0.0882356430138
+matter, 5553, 0.0853155928734
+sorri, 8142, 0.0847753969682
+season, 7747, 0.084668932512
+bad, 861, 0.0809636157972
+player, 6683, 0.0758613003931
+team, 8732, 0.0729968942666
+sinc, 7977, 0.0670184676316
+new, 6023, 0.0640411990655
+tri, 9087, 0.0636703115344
+mani, 5479, 0.0623615381081
+look, 5341, 0.0548654567604

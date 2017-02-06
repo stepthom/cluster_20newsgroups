@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39646
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wlieftin@cs.vu.nl (Liefting W)
+Subject: Re: PoV Ray Related Group NEEDED
+Organization: Fac. Wiskunde & Informatica, VU, Amsterdam
+Lines: 20
+
+hed@cats.ucsc.edu (Magic Fingers) writes:
+
+
+>In article <1993May13.011926.4728@exucom.com> cyberman@exucom.com (Stephen R. Phillips) writes:
+
+>If it takes making it an alt group, then why not?  I've been following
+>this thread for, what has it been, two months now?
+
+The alt.* hierarchie is created for 2 purposes:
+1. For groups which do not fit under the comp.* or other 'official'
+  hierarchies
+2. For the fast creation of hot new newsgroups like alt.gulf.war
+
+Because there is no voting process or any other control facilities,
+sites are free to decide not to carry (some of) the alt groups.
+
+Therefore, it is (I think) desirable to try to create comp.graphics.
+{raytrace, rendering or whatever} and not an alt-group
+
+Wouter
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pov ray relat group need         take make alt
+group i'v follow thread two month  alt hierarchi
+creat purpos group fit comp offici hierarchi fast
+creation hot new newsgroup like alt gulf war  vote
+process control facil site free decid carri alt
+group  therefor think desir tri creat comp graphic
+raytrac render whatev alt group  wouter
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alt, 446, 0.574640058197
+group, 4064, 0.391633988369
+hierarchi, 4290, 0.30975223762
+comp, 1955, 0.222808355083
+creat, 2217, 0.174013482341
+gulf, 4091, 0.166373056603
+raytrac, 7121, 0.129412126619
+vote, 9585, 0.126046678678
+pov, 6778, 0.121024480478
+hot, 4389, 0.113811754113
+creation, 2218, 0.113811754113
+render, 7277, 0.11345164115
+desir, 2565, 0.110446306173
+war, 9635, 0.109527542685
+thread, 8890, 0.108935230079
+facil, 3348, 0.108644818565
+offici, 6207, 0.1046861212
+fit, 3510, 0.101530038305
+therefor, 8855, 0.100502161965
+newsgroup, 6032, 0.0995191856519
+fast, 3397, 0.0993276391336
+whatev, 9718, 0.0982113816076
+decid, 2442, 0.0974968269875
+purpos, 6993, 0.0968042621884
+carri, 1530, 0.0951607161415
+ray, 7118, 0.0940777164267
+control, 2107, 0.0939271701795
+site, 7994, 0.0927577341558
+month, 5847, 0.0927577341558
+free, 3668, 0.0916460721541
+process, 6890, 0.0909781721028
+relat, 7247, 0.0860350832284
+graphic, 3997, 0.0740986724478
+follow, 3578, 0.0739746689382
+new, 6023, 0.0655609313931
+tri, 9087, 0.0651812425
+need, 5993, 0.0605132203466
+make, 5459, 0.0564494847899
+think, 8871, 0.0515468059452
+like, 5272, 0.0473901731457

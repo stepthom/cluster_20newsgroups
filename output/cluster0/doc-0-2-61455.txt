@@ -1,0 +1,117 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61455
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tff@zeno.ds.boeing.com (Terry F Figurelle)
+Subject: Re: TRUE "GLOBE", Who makes it?
+Reply-To: tff@zeno.ds.boeing.com
+Organization: Boeing Defense & Space Group
+Lines: 26
+
+In article MJu@zoo.toronto.edu, henry@zoo.toronto.edu (Henry Spencer) writes:
+>In article <bill.047m@xpresso.UUCP> bill@xpresso.UUCP (Bill Vance) writes:
+>>It has been known for quite a while that the earth is actually more pear
+>>shaped than globular/spherical.  Does anyone make a "globe" that is accurate
+>>as to actual shape, landmass configuration/Long/Lat lines etc.?
+>
+>I don't think you're going to be able to see the differences from a sphere
+>unless they are greatly exaggerated.  Even the equatorial bulge is only
+>about 1 part in 300 -- you'd never notice a 1mm error in a 30cm globe --
+>and the other deviations from spherical shape are much smaller.
+>-- 
+>SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+>between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+I remember a physic prof. who talked about scaling a cue ball to Earth size.
+Its was significantly less spherical that the Earth!
+
+---
+Terry F Figurelle			Boeing Defense & Space Group
+email: tff@plato.ds.boeing.com		PO BOX 3999, Mail Stop 6J-EA
+phone: 206-394-3115 fax:206-394-4300	Seattle, WA 98124-2499
+
+-- 
+Terry F Figurelle			Boeing Defense & Space Group
+email: tff@plato.ds.boeing.com		PO BOX 3999, Mail Stop 6J-EA
+phone: 206-394-3115 fax:206-394-4300	Seattle, WA 98124-2499
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ true globe make       known quit earth actual
+pear shape globular spheric anyon make globe accur
+actual shape landmass configur long lat line etc
+don't think you'r go abl see differ sphere unless
+great exagger even equatori bulg part you'd never
+notic 1mm error 30cm globe deviat spheric shape
+much smaller  svr4 resembl high speed collis henri
+spencer toronto zoolog   rememb physic prof talk
+scale cue ball earth size signific less spheric
+earth   terri figurell boe defens space group
+phone fax seattl   terri figurell boe defens space
+group  phone fax seattl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+globe, 3905, 0.353052084936
+spheric, 8227, 0.346566175404
+shape, 7853, 0.285058924139
+terri, 8803, 0.240270135136
+boe, 1196, 0.237737333926
+seattl, 7749, 0.199075087806
+earth, 2956, 0.191825117211
+phone, 6601, 0.161094179978
+defens, 2476, 0.158743869898
+fax, 3413, 0.154199253378
+pear, 6498, 0.135687667422
+landmass, 5107, 0.135687667422
+exagger, 3255, 0.135687667422
+bulg, 1382, 0.135687667422
+globular, 3906, 0.128245141156
+equatori, 3158, 0.128245141156
+group, 4064, 0.127760836881
+lat, 5138, 0.126311193229
+deviat, 2590, 0.122964584734
+prof, 6897, 0.120135067568
+actual, 254, 0.118035157079
+space, 8164, 0.104133353605
+configur, 2030, 0.103316067109
+svr4, 8616, 0.102296053134
+collis, 1903, 0.101329749594
+sphere, 8226, 0.0999694586141
+resembl, 7308, 0.0979048658063
+smaller, 8055, 0.0964056223966
+accur, 225, 0.0940447824783
+zoolog, 9993, 0.092237862936
+make, 5459, 0.092076194003
+spencer, 8221, 0.0886066669061
+scale, 7659, 0.0855765408768
+size, 8000, 0.0851817831183
+notic, 6120, 0.08479533667
+henri, 4258, 0.0835034599633
+error, 3180, 0.0828041171576
+physic, 6613, 0.07980384966
+signific, 7951, 0.0790895366358
+toronto, 9003, 0.0766035011283
+unless, 9289, 0.0747431225517
+speed, 8217, 0.0746328788071
+known, 5054, 0.0733591521081
+ball, 877, 0.0717876664472
+rememb, 7269, 0.0675978583014
+quit, 7043, 0.0672270269355
+abl, 180, 0.0671537512761
+true, 9121, 0.0654775582329
+talk, 8684, 0.0620754110318
+high, 4292, 0.0620754110318
+great, 4016, 0.0610509012744
+line, 5285, 0.0608423134809
+long, 5336, 0.0578358741907
+differ, 2633, 0.0565196541281
+anyon, 554, 0.0493246218807
+think, 8871, 0.0420396547649
+don, 2811, 0.0416346015959

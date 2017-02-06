@@ -1,0 +1,167 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61246
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: I want that Billion
+Organization: U of Toronto Zoology
+Lines: 35
+
+In article <1rh4rqINNi7o@mojo.eng.umd.edu> sysmgr@king.eng.umd.edu writes:
+>>>You'd need to launch HLVs to send up large amounts of stuff.  Do you know 
+>>>of a private Titan pad? 
+>>Nobody who is interested in launching things cheaply will buy Titans.  It
+>>doesn't take many Titan pricetags to pay for a laser launcher or a large
+>>gas gun or a development program for a Big Dumb Booster, all of which
+>>would have far better cost-effectiveness.
+>
+>Henry, I made the assumption that he who gets there firstest with the mostest
+>wins. 
+
+Only if he doesn't spend more than a billion dollars doing it, since the
+prize is not going to be scaled up to match the level of effort.  You can
+spend a billion pretty quickly buying Titan launches.
+
+What's more, if you buy Titans, the prize money is your entire return on
+investment.  If you develop a new launch system, it has other uses, and
+the prize is just the icing on the cake.
+
+I doubt very much that a billion-dollar prize is going to show enough
+return to justify the investment if you are constrained to use current
+US launchers.  (There would surely be a buy-American clause in the rules
+for such a prize, since it would pretty well have to be government-funded.)
+You're going to *have* to invest your front money in building a new launch
+system rather than pissing it away on existing ones.  Being there first is
+of no importance if you go bankrupt doing it.
+
+>... could I get a couple of CanadARMs tuned for the lunar environment?  I
+>wanna do some teleoperated prospecting while I'm up there...
+
+I'm sure Spar would offer to develop such a lunar-tuned system and deliver
+a couple of them to you for only a couple of hundred million dollars.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want billion     you'd need launch hlvs send larg
+amount stuff know privat titan pad nobodi interest
+launch thing cheapli buy titan doesn't take mani
+titan pricetag pay laser launcher larg gas gun
+develop program big dumb booster far better cost
+effect  henri made assumpt get firstest mostest
+win  doesn't spend billion dollar sinc prize go
+scale match level effort spend billion pretti
+quick buy titan launch  what buy titan prize money
+entir return invest develop new launch system use
+prize ice cake  doubt much billion dollar prize go
+show enough return justifi invest constrain use
+current launcher sure buy american claus rule
+prize sinc pretti well govern fund you'r go invest
+front money build new launch system rather piss
+away exist one first import bankrupt  could get
+coupl canadarm tune lunar environ wanna teleoper
+prospect i'm  i'm sure spar offer develop lunar
+tune system deliv coupl coupl hundr million dollar
+svr4 resembl high speed collis henri spencer
+toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+prize, 6881, 0.360321087192
+titan, 8951, 0.358558291082
+launch, 5147, 0.252956705503
+billion, 1092, 0.245262507144
+buy, 1433, 0.233653337445
+invest, 4744, 0.201262124817
+dollar, 2802, 0.199136662154
+coupl, 2187, 0.160590633564
+tune, 9149, 0.148820519023
+launcher, 5148, 0.147159606418
+develop, 2588, 0.14377119218
+lunar, 5392, 0.123578669021
+spend, 8222, 0.12054749748
+henri, 4258, 0.11707532006
+return, 7346, 0.109922837816
+money, 5835, 0.103730000797
+bankrupt, 898, 0.100337238982
+teleoper, 8761, 0.0974659155412
+larg, 5124, 0.0953056474778
+pricetag, 6858, 0.0951198734678
+hlvs, 4326, 0.0951198734678
+cake, 1448, 0.0951198734678
+pretti, 6851, 0.0943582320283
+canadarm, 1482, 0.0914180937243
+wanna, 9633, 0.0862007282102
+claus, 1795, 0.0862007282102
+constrain, 2071, 0.0842171779001
+cheapli, 1680, 0.0842171779001
+doesn, 2793, 0.0834794849794
+sure, 8585, 0.082877072768
+piss, 6640, 0.0824989484667
+sinc, 7977, 0.0784509880257
+laser, 5134, 0.0784012111242
+ice, 4475, 0.0778292233293
+new, 6023, 0.0749658343228
+deliv, 2507, 0.0744102595117
+dumb, 2914, 0.0735798032091
+booster, 1225, 0.07318384561
+pad, 6377, 0.0727997094234
+prospect, 6937, 0.0724267092016
+svr4, 8616, 0.0717116582164
+match, 5541, 0.0717116582164
+assumpt, 711, 0.0717116582164
+collis, 1903, 0.0710342593622
+gun, 4094, 0.0703907449428
+resembl, 7308, 0.0686333446827
+justifi, 4939, 0.0678371563275
+gas, 3780, 0.0678371563275
+nobodi, 6088, 0.0650691877125
+zoolog, 9993, 0.0646606579515
+privat, 6879, 0.0626197908133
+hundr, 4440, 0.0626197908133
+spencer, 8221, 0.0621151141046
+effort, 3007, 0.0601315637945
+scale, 7659, 0.0599909328141
+environ, 3139, 0.0598518221983
+million, 5724, 0.0594432924373
+fund, 3723, 0.0584133343612
+pay, 6474, 0.0582901984298
+doubt, 2830, 0.0575751474446
+american, 469, 0.0572319909315
+use, 9363, 0.0568372939648
+offer, 6203, 0.0564651832664
+entir, 3129, 0.0559441563564
+quick, 7036, 0.054867150306
+toronto, 9003, 0.0537006455557
+rule, 7537, 0.0537006455557
+govern, 3966, 0.0537006455557
+level, 5229, 0.0527900169898
+speed, 8217, 0.0523191983733
+build, 1378, 0.0519395954285
+effect, 3005, 0.0515708708694
+away, 833, 0.0510020442603
+send, 7785, 0.0494324738455
+stuff, 8472, 0.0493099242846
+cost, 2169, 0.0488899651166
+import, 4551, 0.0487724519105
+win, 9770, 0.046772201265
+current, 2299, 0.0466228656628
+exist, 3283, 0.0461372379681
+big, 1082, 0.0438309721447
+high, 4292, 0.0435161526098
+far, 3386, 0.0429830986014
+program, 6905, 0.0399413407931
+better, 1060, 0.0384946448591
+mani, 5479, 0.0364998220063
+thing, 8869, 0.0351531015802
+want, 9634, 0.0350520200971
+need, 5993, 0.0345970073522
+know, 5052, 0.0277166034348

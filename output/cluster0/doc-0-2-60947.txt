@@ -1,0 +1,359 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60947
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ajjb@adam4.bnsc.rl.ac.uk (Andrew Broderick)
+Subject: Re: Solar Sail Data
+Keywords: Solar Sail
+Organization: Rutherford Appleton Lab, UK
+Lines: 79
+
+In article <1993Apr15.051746.29848@news.duc.auburn.edu> snydefj@eng.auburn.edu writes:
+>
+>I am looking for any information concerning projects involving Solar
+> Sails
+
+I was at an interesting seminar at work (UK's R.A.L. Space Science
+Dept.) on this subject, specifically on a small-scale Solar Sail
+proposed as a student space project. The guy giving the talk was keen to
+generate interest in the project. I'll typein the handout he gave out at
+the meeting. Here goes : 
+
+			The Microlight Solar Sail
+			-------------------------
+
+1. Introduction
+The solar sail is a well-established concept. Harnessing the pressure of
+sunlight, a spacecraft would have unlimited range. In principle, such a
+vehicle could explore the whole Solar System with zero fuel consumption.
+
+However it is more difficult to design a practical solar sail than most
+people realize. The pressure of sunlight is only about one kilogram per
+square kilometer. Deploying and controlling the large area of aluminized
+fabric which would be necessary to transport a 'conventional' type
+spacecraft is a daunting task. This is why, despite the potential of hte
+idea, no such craft has actually been launched to date.
+
+2.Design
+Recent advances in microelectronics make possible a different concept: a
+tiny sail just a few metres in diameter which could be controlled purely
+be electronics, with no mechanical parts. Several attitude control
+methods are feasible: for example the pressure sunlight exerts on a
+panel of solar cells varies according to whether power is being drawn.
+
+The key components of the craft will be a minute CCD camera developed at
+Edinburgh University which can act as both attitude sensor and data
+gathering device; solar cells providing ~1 watt power for control and
+communication; and a directional radio antenna etched onto the surface
+of the sail itself. Launched as a piggyback payload, the total cost of
+the mission can be limited to a few tens of thousands of dollars.
+
+3.Missions
+The craft would be capable of some ambitious missions. For example:
+a) It could rendezvous with a nearby asteroid from the Apollo or Amor
+groups. Closeup pictures could be transmitted back to Earth at a low bit
+rate.
+b) It could be steered into a lunar polar orbit. Previously unobserved
+areas around the lunar poles could be viewed. By angling the sail to
+reflect sunlight downwards, polar craters whose bases never receive
+sunlight could be imaged. Bright reflections would confirm that
+volatiles such as water ice have become trapped in these
+locations.[Immensely valuable information for setting up a manned lunar
+base, BTW]
+c) It could be sent to rendezvous with a small asteroid or comet
+nucleus. Impacting at low speed, a thin wire probe attached to the craft
+causes it to rebound while capturing a tiny sample is a sharp-edged
+tube, like performing a biopsy. Returning to Earth, the sail acts as an
+ideal re-entry parachute: load per unit area 20 gm/m2 ensures that heat
+is reradiated so efectively that the sail temperature cannot exceed ~300
+deg C. The material sample is recovered, enclosed in a small insulating
+container.
+
+Contact: Colin Jack                              Tel. 0865-200447
+Oxford Mathematical Designs, 131 High Street, Oxford OX1 4DH, England
+
+--------------------------------
+
+This guy would love to hear from anyone interested in this project or
+seeking details or anything, and would be most happy to send you more
+information.
+
+	Andy
+
+
+
+-- 
+                                  ----------------------------------- 
+Andy Jonathan J. Broderick,      | "I have come that they might have |
+Rutherford Lab., UK              |  life, and have it to the full"   |
+Mail : ajjb@adam2.bnsc.rl.ac.uk  |  - Jesus Christ                   |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ solar sail data       look inform concern project
+involv solar sail  interest seminar work uk space
+scienc dept specif small scale solar sail propos
+student space project guy give talk keen generat
+interest project i'll typein handout gave meet goe
+microlight solar sail   introduct solar sail well
+establish concept har pressur sunlight spacecraft
+unlimit rang principl vehicl could explor whole
+solar system zero fuel consumpt  howev difficult
+design practic solar sail peopl realiz pressur
+sunlight one kilogram per squar kilomet deploy
+control larg area alumin fabric necessari
+transport convent type spacecraft daunt task
+despit potenti hte idea craft actual launch date
+design recent advanc microelectron make possibl
+differ concept tini sail metr diamet could control
+pure electron mechan part sever attitud control
+method feasibl exampl pressur sunlight exert panel
+solar cell vari accord whether power drawn  key
+compon craft minut ccd camera develop edinburgh
+univers act attitud sensor data gather devic solar
+cell provid watt power control communic direct
+radio antenna etch onto surfac sail launch
+piggyback payload total cost mission limit ten
+thousand dollar  mission craft capabl ambiti
+mission exampl could rendezv nearbi asteroid
+apollo amor group closeup pictur could transmit
+back earth low bit rate could steer lunar polar
+orbit previous unobserv area around lunar pole
+could view angl sail reflect sunlight downward
+polar crater whose base never receiv sunlight
+could imag bright reflect confirm volatil water
+ice becom trap locat immens valuabl inform set man
+lunar base btw could sent rendezv small asteroid
+comet nucleus impact low speed thin wire probe
+attach craft caus rebound captur tini sampl sharp
+edg tube like perform biopsi return earth sail act
+ideal entri parachut load per unit area ensur heat
+reradi efect sail temperatur cannot exceed deg
+materi sampl recov enclos small insul contain
+contact colin jack tel oxford mathemat design high
+street oxford ox1 4dh england    guy love hear
+anyon interest project seek detail anyth happi
+send inform  andi      andi jonathan broderick
+come might rutherford lab life full
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sail, 7584, 0.520220422336
+solar, 8107, 0.314591106714
+sunlight, 8544, 0.247790420989
+craft, 2207, 0.181109794057
+control, 2107, 0.131449276756
+rendezv, 7279, 0.119289293208
+pressur, 6842, 0.116931010517
+project, 6909, 0.116908903476
+lunar, 5392, 0.113436671691
+cell, 1598, 0.101987507563
+oxford, 6361, 0.0991161683955
+polar, 6716, 0.0982646764884
+andi, 502, 0.097456870501
+tini, 8941, 0.0966884857208
+area, 622, 0.0960508116171
+mission, 5772, 0.0933786840797
+small, 8054, 0.0920284225257
+design, 2564, 0.0917910019747
+asteroid, 716, 0.090054894272
+reflect, 7216, 0.0830264240233
+sampl, 7601, 0.0824087462685
+attitud, 769, 0.0824087462685
+inform, 4637, 0.077644599893
+concept, 2002, 0.072753108627
+act, 249, 0.0703254259523
+spacecraft, 8166, 0.0701854360173
+low, 5368, 0.0649063367131
+launch, 5147, 0.0619191364369
+unobserv, 9296, 0.0614017641661
+piggyback, 6626, 0.0614017641661
+etch, 3204, 0.0614017641661
+volatil, 9571, 0.0596446466039
+rebound, 7162, 0.0596446466039
+exert, 3280, 0.0596446466039
+amor, 476, 0.0596446466039
+guy, 4100, 0.0591304681365
+power, 6783, 0.0584544517382
+data, 2385, 0.0583226621492
+keen, 4971, 0.0582089770203
+hte, 4418, 0.0582089770203
+downward, 2846, 0.0582089770203
+closeup, 1833, 0.0582089770203
+exampl, 3258, 0.057122777391
+nucleus, 6152, 0.0569951356829
+unlimit, 9291, 0.0559436584894
+rutherford, 7556, 0.0559436584894
+steer, 8367, 0.0550161898744
+seminar, 7782, 0.0550161898744
+parachut, 6413, 0.0550161898744
+insul, 4688, 0.0550161898744
+fabric, 3344, 0.0550161898744
+deg, 2488, 0.0550161898744
+crater, 2213, 0.0550161898744
+ambiti, 463, 0.0550161898744
+earth, 2956, 0.0548610105928
+kilogram, 5015, 0.0541865409272
+watt, 9660, 0.0534360321637
+har, 4164, 0.0534360321637
+ccd, 1581, 0.0534360321637
+sharp, 7858, 0.0527508713436
+ensur, 3123, 0.0527508713436
+trap, 9067, 0.0521205844876
+jonathan, 4888, 0.0521205844876
+immens, 4528, 0.0521205844876
+kilomet, 5016, 0.0509937537814
+base, 923, 0.0492860147141
+drawn, 2863, 0.0491323382442
+sensor, 7792, 0.0487284352505
+pole, 6717, 0.0483442428604
+recov, 7185, 0.047977926487
+exceed, 3260, 0.047977926487
+ice, 4475, 0.0476278963283
+nearbi, 5983, 0.0472927656669
+feasibl, 3419, 0.0472927656669
+diamet, 2613, 0.0472927656669
+squar, 8276, 0.0469713176883
+convent, 2113, 0.0469713176883
+tube, 9142, 0.0466624788109
+transmit, 9059, 0.0463652970519
+introduct, 4733, 0.0460789243295
+confirm, 2032, 0.0460789243295
+wire, 9793, 0.0458026018727
+england, 3110, 0.0458026018727
+enclos, 3085, 0.0458026018727
+valuabl, 9415, 0.0455356481047
+gather, 3792, 0.0452774485143
+panel, 6406, 0.0447851393411
+ideal, 4483, 0.0447851393411
+antenna, 538, 0.0447851393411
+space, 8164, 0.0446724164562
+deploy, 2540, 0.0445500657057
+camera, 1473, 0.0443218067673
+attach, 760, 0.0443218067673
+heat, 4226, 0.0434696916651
+task, 8707, 0.0432703295738
+vari, 9426, 0.0430758905099
+temperatur, 8773, 0.0430758905099
+angl, 511, 0.0428861371837
+captur, 1509, 0.0425198208103
+zero, 9985, 0.0423428609588
+transport, 9065, 0.0423428609588
+probe, 6886, 0.0421697906516
+despit, 2570, 0.0421697906516
+seek, 7766, 0.0420004425764
+entri, 3135, 0.0420004425764
+devic, 2591, 0.0420004425764
+apollo, 570, 0.0418346599902
+establish, 3198, 0.0415132120116
+bright, 1311, 0.0415132120116
+tel, 8754, 0.0413572785598
+principl, 6870, 0.0413572785598
+water, 9657, 0.0412043731342
+comet, 1926, 0.0410543803708
+impact, 4534, 0.0409071913752
+pure, 6990, 0.0407627032481
+mathemat, 5545, 0.0407627032481
+dept, 2544, 0.0407627032481
+dollar, 2802, 0.0406208186528
+compon, 1980, 0.0406208186528
+street, 8440, 0.0402098880978
+student, 8468, 0.0392086196737
+mechan, 5603, 0.0392086196737
+payload, 6477, 0.039091960029
+electron, 3034, 0.0388637010906
+communic, 1950, 0.0388637010906
+thousand, 8888, 0.0387520058563
+necessari, 5990, 0.0387520058563
+meet, 5615, 0.0387520058563
+fuel, 3715, 0.0383204248658
+difficult, 2635, 0.0383204248658
+vehicl, 9449, 0.0377144042294
+potenti, 6774, 0.0377144042294
+edg, 2993, 0.0375223366101
+explor, 3307, 0.0372427433819
+lab, 5085, 0.0371517090502
+btw, 1355, 0.0371517090502
+happi, 4161, 0.0370617151336
+gave, 3798, 0.0370617151336
+previous, 6855, 0.0368847552821
+jack, 4808, 0.0367977446511
+scale, 7659, 0.0367116849749
+load, 5317, 0.0366265556918
+minut, 5747, 0.0363765543135
+realiz, 7149, 0.0361342465186
+key, 4994, 0.0361342465186
+unit, 9278, 0.0357462674576
+sent, 7793, 0.0357462674576
+contact, 2078, 0.0356709139448
+rang, 7094, 0.0355962746941
+method, 5666, 0.0354490856985
+accord, 219, 0.0353765102355
+capabl, 1498, 0.0353045975714
+radio, 7061, 0.0351627129761
+locat, 5323, 0.0348863905193
+materi, 5543, 0.0346853315458
+date, 2391, 0.0346194367513
+contain, 2079, 0.0346194367513
+practic, 6793, 0.0344892787137
+surfac, 8587, 0.0344249976874
+receiv, 7167, 0.0344249976874
+limit, 5278, 0.0344249976874
+rate, 7108, 0.034172995958
+generat, 3819, 0.0341112357826
+concern, 2004, 0.0340499562361
+hear, 4223, 0.0339891498954
+return, 7346, 0.0336338543523
+goe, 3931, 0.0336338543523
+pictur, 6622, 0.0332386411318
+propos, 6933, 0.0330751532802
+involv, 4750, 0.0330214030238
+speed, 8217, 0.0320169372057
+perform, 6539, 0.0319699258303
+caus, 1569, 0.0318767367901
+becom, 983, 0.0315589952753
+total, 9013, 0.0314266496054
+recent, 7168, 0.0312964915678
+specif, 8203, 0.0312535792982
+love, 5366, 0.0312535792982
+view, 9510, 0.0307560844929
+type, 9177, 0.0307560844929
+send, 7785, 0.0302503948884
+direct, 2667, 0.0301754002073
+cost, 2169, 0.0299184045588
+advanc, 285, 0.0297752300328
+scienc, 7692, 0.0294282848426
+develop, 2588, 0.0293271136609
+larg, 5124, 0.0291613310746
+provid, 6949, 0.0291285893144
+sever, 7823, 0.0290635114068
+life, 5260, 0.0289989669307
+orbit, 6280, 0.0285008162276
+set, 7815, 0.028204751957
+group, 4064, 0.0274042135124
+man, 5471, 0.0271969809737
+howev, 4406, 0.027146013922
+anyth, 555, 0.0269950626798
+idea, 4482, 0.0269206585169
+talk, 8684, 0.0266298790666
+high, 4292, 0.0266298790666
+bit, 1122, 0.026558831529
+imag, 4512, 0.0263955051585
+univers, 9282, 0.02616790602
+possibl, 6765, 0.0258169005245
+actual, 254, 0.0253180921911
+ll, 5314, 0.0249444559176
+differ, 2633, 0.0242465016227
+come, 1923, 0.0228343026436
+work, 9833, 0.0223086753959
+peopl, 6530, 0.0213644284304
+anyon, 554, 0.021159887528
+make, 5459, 0.0197499933585
+look, 5341, 0.0196513156011
+like, 5272, 0.0165804100493

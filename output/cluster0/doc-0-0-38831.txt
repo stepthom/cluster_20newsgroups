@@ -1,0 +1,159 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38831
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Organization: Queen's University at Kingston
+From: <JIANGY@QUCDN.QueensU.CA>
+Subject: Please Help: Point in concave Polyhedra
+Lines: 43
+
+Dear Netters:
+
+
+I am looking for C source code to test if a 3D point lies within a
+
+concave polyhadra. I have read a few articles about this and know
+
+that two solutions exist: parity counting and angle sumation. Both
+
+
+ideas are pretty simple but coding is not. So I wonder if there exists
+
+public domain source code for this.
+
+    Another 'rough' solition (don't care special cases) is ray-casting
+
+which is reported to be more or less independent of number of faces
+
+consisting the polyhedra if a special space indexing is used
+(M. Tamminen, et. al., 1984. "Ray-casting and block model conversion
+using a spatial index". Computer-Aided-Designs. 4, 1984, 60-65).
+But the prerequirement is that all the facets of polyhedra have their
+normal pointing outside of polyhedra. How this could be done in practice ?
+I have a set of trangles consisting the polyhedra. How could I ensure their
+normals pointing outside the polyhedra ? The paper mentioned above assumed
+this is already the case.
+
+
+   I have also read some standard computer graphics textbook about hidden
+line removal. It says "if we make the rule that the normal of a facet pointing
+
+toward viewer standing far away from the polyhedra...". Again how to make
+sure ?
+
+
+   Any pointers are welcome ?
+
+
+   Yaohong Jiang
+   Queen's University
+   Kingston, Ont.
+
+   Jiangy@qucdn.queensu.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  pleas help point concav polyhedra   dear netter
+look sourc code test point lie within  concav
+polyhadra read articl know  two solut exist pariti
+count angl sumat   idea pretti simpl code wonder
+exist  public domain sourc code  anoth rough solit
+don't care special case ray cast  report less
+independ number face  consist polyhedra special
+space index use tamminen ray cast block model
+convers use spatial index comput aid design
+prerequir facet polyhedra normal point outsid
+polyhedra could done practic set trangl consist
+polyhedra could ensur normal point outsid
+polyhedra paper mention assum alreadi case   also
+read standard comput graphic textbook hidden line
+remov say make rule normal facet point  toward
+viewer stand far away polyhedra make sure
+pointer welcom   yaohong jiang queen univers
+kingston ont
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polyhedra, 6729, 0.682366686525
+point, 6710, 0.190075436431
+facet, 3346, 0.18535461689
+normal, 6108, 0.184999272161
+concav, 1997, 0.176291497648
+cast, 1545, 0.164116956554
+code, 1871, 0.160582750955
+index, 4596, 0.150113740938
+outsid, 6332, 0.128029180719
+consist, 2061, 0.122799450243
+special, 8198, 0.120040829158
+ray, 7118, 0.112591529411
+sourc, 8153, 0.0994168649649
+textbook, 8823, 0.0974809552179
+exist, 3283, 0.0965789044653
+queen, 7029, 0.0956825736545
+case, 1540, 0.0936513075703
+comput, 1993, 0.0933841743534
+ensur, 3123, 0.0902218279777
+pariti, 6429, 0.0872165627679
+netter, 6017, 0.0826850031472
+read, 7135, 0.0819942240278
+dear, 2422, 0.0808866215838
+spatial, 8189, 0.0803368368412
+pointer, 6711, 0.0770121608669
+aid, 351, 0.0770121608669
+hidden, 4286, 0.076195677192
+angl, 511, 0.0733497967533
+rough, 7493, 0.0721246019471
+block, 1163, 0.0712737175997
+welcom, 9701, 0.0710016304474
+domain, 2805, 0.0707349315151
+make, 5459, 0.067558334411
+independ, 4595, 0.0674681463219
+viewer, 9512, 0.0666638562702
+solut, 8118, 0.0664700708267
+convers, 2114, 0.0660906695131
+lie, 5258, 0.0651864470526
+remov, 7272, 0.0643391327134
+count, 2180, 0.0622162087962
+paper, 6409, 0.060020414579
+use, 9363, 0.0594886454591
+practic, 6793, 0.0589883293285
+stand, 8311, 0.0583417480792
+face, 3345, 0.0579273198123
+simpl, 7965, 0.0574265983516
+model, 5807, 0.056477765529
+rule, 7537, 0.0562056783767
+test, 8812, 0.0553364828695
+standard, 8313, 0.0551691781593
+alreadi, 443, 0.0539765537583
+mention, 5632, 0.0539006783127
+report, 7291, 0.0536013803073
+away, 833, 0.0533811924714
+care, 1516, 0.0530220283608
+design, 2564, 0.0523312176597
+assum, 710, 0.052264046169
+public, 6973, 0.0517384045867
+pretti, 6851, 0.0493799319049
+wonder, 9821, 0.0489017329388
+set, 7815, 0.0482396634293
+idea, 4482, 0.0460434294239
+far, 3386, 0.0449881782728
+univers, 9282, 0.0447559681071
+line, 5285, 0.0446413473645
+graphic, 3997, 0.0443403771644
+number, 6156, 0.0437935690724
+articl, 665, 0.0434062314853
+anoth, 533, 0.0434062314853
+sure, 8585, 0.0433715651702
+pleas, 6688, 0.039618828964
+help, 4249, 0.0395665265449
+space, 8164, 0.0382024691745
+say, 7653, 0.0341930647508
+look, 5341, 0.033610394872
+don, 2811, 0.0305482255011
+know, 5052, 0.0290095301878

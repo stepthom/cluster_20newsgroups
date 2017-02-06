@@ -1,0 +1,218 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83562
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: smithw@col.hp.com (Walter Smith)
+Subject: Re: Part 1 and part 2  (re: Homosexuality)
+Organization: Colorado Springs IT Center
+Lines: 51
+NNTP-Posting-Host: fajita19.cs.itc.hp.com
+
+rich.bellacera@amail.amdahl.com writes:
+> 
+> The results of the passing amendment in
+> Colorado has created an organization who's posters are appearing all over
+> Colorado called "S.T.R.A.I.G.H.T." (I forget the whole definition off hand,
+> but the last part was Against Immoral Gross Homosexual Trash) and their motto
+> is "Working for a fag-free America" with an implicit advocation for violence.
+
+I live in Colorado, and have never heard of such a group.  Obviously claims 
+that their posters are appearing "all over Colorado" are a tad overdone... 
+
+> This is sick, and it seems to be what you and Mr. Hudson, and others are
+> embracing.
+
+Hardly.  Saying that homosexuality is a sin is a far cry from 
+"Working for a fag-free America".  Saying that I wouldn't want 
+a homosexual babysitting for my kids doesnt mean I endorse 
+"Against Immoral Gross Homosexual Trash".  
+
+> We Christians have a LOOOOOOOOOONG tradition of coersion and oppression
+> towards those we feel don't 'measure up',
+
+And now we have homosexual advocates telling us that if we don't teach 
+our kids that homosexuality is natural and a perfectly acceptable 
+alternative lifestyle, then they will have it done for us.  No, thanks. 
+
+> The Gospel I believe is not so negative, rather it seeks ways to "include"
+> people. 
+
+Absolutely.  And the message is always, "go and sin no more".  Not, 
+Go and do whatever "feels good". 
+
+One question, at the start of your post, you wrote:
+
+> I know many gays and I will NOT turn my back on them or their right to be free
+> form discrimination...I may have lost face with the greater Christian
+> community for the unpopularity of my beliefs, but so did the abolitionists
+> against the oppression of African-Americans.  Many were even killed and
+> treated as runaway slaves for being "nigger-lovers" and such.  I guess I've
+> decided the challenge is worth it.
+
+This sounds real nice, but struck me as a little odd.  You're 
+presenting yourself as if you were a straight Xian, who is sticking
+his neck out and taking on the challenge of speaking out in support 
+of gays in the church.  But I was under the impression that you
+yourself are gay.  That's all well and fine, but presenting yourself 
+as sticking out your neck to help "repressed others" seems a bit 
+untruthful under the circumstances.... 
+
+Walter
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ part part homosexu       result pass amend
+colorado creat organ who poster appear colorado
+call forget whole definit hand last part immor
+gross homosexu trash motto work fag free america
+implicit advoc violenc  live colorado never heard
+group obvious claim poster appear colorado tad
+overdon  sick seem hudson other embrac  hard say
+homosexu sin far cri work fag free america say
+wouldn't want homosexu babysit kid doesnt mean
+endors immor gross homosexu trash  christian
+loooooooooong tradit coersion oppress toward feel
+don't measur up  homosexu advoc tell don't teach
+kid homosexu natur perfect accept altern lifestyl
+done thank  gospel believ negat rather seek way
+includ peopl  absolut messag alway sin whatev feel
+good  one question start post wrote  know mani gay
+turn back right free form discrimin lost face
+greater christian communiti unpopular belief
+abolitionist oppress african american mani even
+kill treat runaway slave nigger lover guess i'v
+decid challeng worth  sound real nice struck littl
+odd you'r present straight xian stick neck take
+challeng speak support gay church impress gay that
+well fine present stick neck help repress other
+seem bit untruth circumst  walter
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+homosexu, 4360, 0.490297410114
+gay, 3799, 0.235982451242
+colorado, 1908, 0.235291154505
+fag, 3357, 0.183121636344
+neck, 5992, 0.159365024481
+oppress, 6271, 0.157321634161
+gross, 4058, 0.153701532769
+immor, 4531, 0.150565658306
+free, 3668, 0.143440205254
+advoc, 296, 0.139163908265
+trash, 9068, 0.136599453088
+poster, 6769, 0.126281289985
+challeng, 1642, 0.122885919246
+kid, 5008, 0.118009680267
+stick, 8393, 0.115905212737
+america, 468, 0.115905212737
+sin, 7976, 0.113363906082
+appear, 580, 0.0954857569885
+present, 6837, 0.0939877076826
+feel, 3429, 0.0923323111258
+runaway, 7544, 0.0915608181719
+coersion, 1877, 0.0915608181719
+unpopular, 9298, 0.0889406471752
+motto, 5884, 0.0889406471752
+abolitionist, 185, 0.0889406471752
+xian, 9899, 0.0867998115902
+nigger, 6062, 0.0867998115902
+tad, 8671, 0.0834218236623
+slave, 8021, 0.0834218236623
+embrac, 3065, 0.0834218236623
+doesnt, 2794, 0.0834218236623
+christian, 1732, 0.0833492346986
+struck, 8459, 0.0820388050086
+african, 320, 0.0820388050086
+lifestyl, 5262, 0.0796825122407
+walter, 9628, 0.0786608170807
+implicit, 4548, 0.0786608170807
+amend, 467, 0.0768507663844
+endors, 3096, 0.0760406460839
+circumst, 1770, 0.0760406460839
+violenc, 9527, 0.0752828291528
+lover, 5367, 0.074570969568
+discrimin, 2705, 0.074570969568
+hudson, 4423, 0.073899810499
+cri, 2228, 0.0691388039173
+gospel, 3958, 0.0675166306214
+mani, 5479, 0.0666144215236
+work, 9833, 0.0665323089433
+negat, 5996, 0.0664319750584
+treat, 9076, 0.0660916008781
+sick, 7933, 0.0628825667574
+seek, 7766, 0.0626300390243
+greater, 4017, 0.0605727773652
+tradit, 9037, 0.0603649473908
+odd, 6198, 0.0597626570647
+say, 7653, 0.0596231415851
+straight, 8422, 0.0595685685629
+church, 1746, 0.0590048401336
+communiti, 1953, 0.0584669405753
+altern, 450, 0.0584669405753
+impress, 4554, 0.056532370292
+absolut, 193, 0.0547435722478
+belief, 1008, 0.0546166295302
+teach, 8729, 0.0544910445147
+forget, 3604, 0.0535319739672
+don, 2811, 0.0532675613462
+worth, 9850, 0.0531915997868
+measur, 5601, 0.0529700444022
+pass, 6448, 0.0524337828557
+american, 469, 0.0522259528812
+fine, 3485, 0.052123401251
+lost, 5355, 0.0519209464595
+speak, 8192, 0.0517219232709
+perfect, 6538, 0.0513337197494
+whatev, 9718, 0.0512386416023
+decid, 2442, 0.050865845624
+definit, 2484, 0.0507744670537
+face, 3345, 0.0505045221303
+kill, 5012, 0.0502406439013
+wrote, 9871, 0.0498136118589
+natur, 5966, 0.049730037933
+obvious, 6185, 0.0496470546405
+organ, 6287, 0.0491611058311
+wouldn, 9854, 0.0490820342393
+messag, 5650, 0.0485429585316
+accept, 208, 0.0482456746272
+nice, 6047, 0.0475338150425
+form, 3610, 0.0470600066192
+turn, 9158, 0.0467329078354
+sound, 8150, 0.0461048390423
+claim, 1782, 0.0457435155486
+result, 7332, 0.045566939484
+guess, 4079, 0.0455086659797
+creat, 2217, 0.0453929794576
+heard, 4224, 0.0446135976223
+hard, 4167, 0.044453111019
+alway, 457, 0.0443473257358
+live, 5310, 0.0430523951697
+hand, 4145, 0.0425900485532
+group, 4064, 0.0408644970488
+support, 8576, 0.0404416593578
+includ, 4579, 0.040403964022
+real, 7144, 0.0402543812729
+bit, 1122, 0.0396038839846
+littl, 5308, 0.0394640955835
+far, 3386, 0.0392234001597
+tell, 8767, 0.038370247763
+start, 8334, 0.0371679619477
+mean, 5595, 0.0362875807082
+believ, 1009, 0.0362611047398
+right, 7399, 0.0357184695142
+question, 7032, 0.0355430241817
+help, 4249, 0.0344964780346
+post, 6766, 0.0342934397708
+thank, 8832, 0.0328831168119
+want, 9634, 0.0319860469675
+peopl, 6530, 0.0318581163494
+way, 9666, 0.0307158648221
+good, 3948, 0.0301838742233
+know, 5052, 0.025292253536

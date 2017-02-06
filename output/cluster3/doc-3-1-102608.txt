@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102608
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@fenway.aix.kingston.ibm.com (Mike Jones)
+Subject: Re: My Belated Predictions (NL)
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 34
+
+mss@netcom.com (Mark Singer) writes:
+>In article <Apr.4.19.42.08.1993.12176@pilot.njin.net> gajarsky@pilot.njin.net (Bob Gajarsky - Hobokenite) writes:
+>>javier lopez is a better catcher than greg olson.
+>But has there ever in the history of baseball been a 22-year-old (or
+>younger) *rookie* catcher who compared favorably among all league
+>catchers in terms of defense and brought a .247 bat?  Wasn't it 
+>Sandy Alomar who was supposed to be that good in his rookie year?
+>Not.  Wasn't it Benito Santiago who was supposed to be that good
+>in his rookie year?  Not.
+
+Hrm. Sandy Alomar, 24 year old rookie: 132 games, .290/.326/.418. Threw
+out a few baserunners. Benito Santiago, 22 year old rookie: 146 games,
+.300/.324/.467. He threw out a few baserunners, too. Ivan Rodriguez,
+*20* year old rookies: 88 games, .264/.276/.354. Didn't exactly suck
+behind the plate.
+
+>I can continue this thread with the others mentioned, but you get
+>the point.  You and others seem to be so quick to dismiss the 
+>seasoned veterans in favor of the hot *young* rookies.  Perhaps -
+>just perhaps - the management team of the pennant-winning Braves
+>knows something more than you do.  And perhaps what they know is
+>that very, very few 21- and 22-year old rookies come up to the majors
+>and make an impact. 
+
+True. Which only makes it more important to realize when you have one of the
+few. Lopez' season last year, adjusted to major league equivalencies, was
+.306/.330/.472, 15 HRs. How bad does he have to be behind the plate for that
+to not be better than Olson's .238/.316/.328?
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+I would not admire hitting against [Ryne] Duren, because if he ever hit you
+in the head you might be in the past tense.
+	- Casey Stengel
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ belat predict       javier lopez better catcher
+greg olson ever histori basebal year old younger
+rooki catcher compar favor among leagu catcher
+term defens brought bat wasn't sandi alomar suppos
+good rooki year wasn't benito santiago suppos good
+rooki year  hrm sandi alomar year old rooki game
+threw baserunn benito santiago year old rooki game
+threw baserunn ivan rodriguez year old rooki game
+didn't exact suck behind plate  continu thread
+other mention get point other seem quick dismiss
+season veteran favor hot young rooki perhap perhap
+manag team pennant win brave know someth perhap
+know year old rooki come major make impact  true
+make import realiz one lopez season last year
+adjust major leagu equival hrs bad behind plate
+better olson    admir hit ryne duren ever hit head
+might past tens casey stengel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rooki, 7475, 0.560265867259
+year, 9943, 0.244880338675
+old, 6216, 0.230275302946
+benito, 1032, 0.196955076277
+catcher, 1557, 0.188491668629
+santiago, 7615, 0.173062547525
+baserunn, 933, 0.173062547525
+lopez, 5346, 0.156177815661
+sandi, 7608, 0.153308677575
+olson, 6226, 0.147337612419
+perhap, 6540, 0.141434402263
+threw, 8894, 0.137110174722
+alomar, 436, 0.131535704107
+favor, 3410, 0.128913872905
+plate, 6674, 0.123577833417
+game, 3761, 0.110758701884
+wasn, 9652, 0.1057146761
+suppos, 8577, 0.0990448759765
+leagu, 5176, 0.0977662403794
+season, 7747, 0.0938142787415
+tens, 8788, 0.0922558049134
+stengel, 8376, 0.0922558049134
+javier, 4831, 0.0922558049134
+hrm, 4413, 0.0922558049134
+belat, 1004, 0.0922558049134
+ryne, 7559, 0.0900351722066
+ivan, 4806, 0.0900351722066
+major, 5458, 0.0894122712236
+rodriguez, 7455, 0.0881576540052
+casey, 1541, 0.0865312737623
+hit, 4316, 0.0851847592885
+dismiss, 2724, 0.0780889078304
+admir, 274, 0.0780889078304
+younger, 9963, 0.0753710730497
+hrs, 4414, 0.0753710730497
+veteran, 9490, 0.0736688062094
+better, 1060, 0.0728737718537
+pennant, 6524, 0.0704326055622
+equival, 3162, 0.0660478588556
+suck, 8515, 0.0652264402776
+greg, 4033, 0.0637331734849
+impact, 4534, 0.063273505368
+adjust, 269, 0.0630500172726
+good, 3948, 0.0626178850799
+hot, 4389, 0.0615908674755
+make, 5459, 0.0610969009984
+brought, 1343, 0.0599399559867
+thread, 8890, 0.0589518663645
+realiz, 7149, 0.0558909170784
+predict, 6816, 0.0551742539414
+young, 9962, 0.0543881902779
+histori, 4314, 0.0526670254362
+defens, 2476, 0.0526670254362
+know, 5052, 0.0524699849203
+brave, 1277, 0.0521133046553
+quick, 7036, 0.0519341873175
+past, 6456, 0.0514975900548
+head, 4215, 0.0514121177078
+continu, 2092, 0.0514121177078
+compar, 1960, 0.0512429516625
+term, 8795, 0.0500439752541
+bat, 942, 0.0500439752541
+mention, 5632, 0.0487454943247
+exact, 3253, 0.0483417084139
+manag, 5472, 0.0465020744093
+import, 4551, 0.0461652854089
+bad, 861, 0.0448543698082
+win, 9770, 0.0442719596006
+true, 9121, 0.0434474506282
+basebal, 924, 0.0410436601923
+didn, 2625, 0.0406854061456
+team, 8732, 0.0404407542579
+someth, 8126, 0.0358533127794
+come, 1923, 0.0353191290412
+point, 6710, 0.0343792375081

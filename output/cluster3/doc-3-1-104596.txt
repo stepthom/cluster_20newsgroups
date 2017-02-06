@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104596
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: Jewish Baseball Players?
+Organization: Allegheny College
+
+In article <C5Jsxs.1M0@unix.amherst.edu> jlroffma@unix.amherst.edu (JOSHUA  
+LAWRENCE ROFFMAN) writes:
+> : >baseball players, past and present.  We weren't able to come up
+> : >with much, except for Sandy Koufax, (somebody) Stankowitz, and
+> : >maybe John Lowenstein.  Can anyone come up with any more.  I know
+> : >it sounds pretty lame to be racking our brains over this, but
+> : >humor us.  Thanks for your help.
+> : 
+> 
+> 
+> John Lowenstein is definately NOT Jewish.  Many in Baltimore thought he  
+was...
+> especially after he told the Baltimore _Jewish Times_ so...but later he
+> admitted that it was a joke.
+
+
+Stanky is NOT Jewish, at least, I doubt it. A lot of jewish people don't  
+have Jewish names. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player   unix amherst edu joshua
+basebal player past present weren't abl come much
+except sandi koufax somebodi stankowitz mayb john
+lowenstein anyon come know sound pretti lame rack
+brain humor thank help    john lowenstein defin
+jewish mani baltimor thought  especi told baltimor
+jewish time later admit joke   stanki jewish least
+doubt lot jewish peopl don't jewish name
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.634541701898
+lowenstein, 5370, 0.279124353358
+baltimor, 887, 0.21865987517
+amherst, 471, 0.168047323907
+john, 4878, 0.162980585125
+joshua, 4896, 0.159309149313
+stanki, 8319, 0.155987049514
+player, 6683, 0.148728316365
+basebal, 924, 0.145246139474
+stankowitz, 8321, 0.14104904138
+koufax, 5067, 0.136864787005
+sandi, 7608, 0.135632966585
+rack, 7053, 0.135632966585
+lame, 5100, 0.132310866786
+humor, 4437, 0.128553378639
+come, 1923, 0.124988052205
+joke, 4883, 0.123233299504
+weren, 9705, 0.118969958838
+brain, 1266, 0.10968616041
+admit, 276, 0.104591748158
+somebodi, 8121, 0.102954176617
+unix, 9284, 0.09867736237
+told, 8973, 0.0970187757224
+doubt, 2830, 0.0964283006966
+defin, 2482, 0.0945693048575
+past, 6456, 0.0911203595466
+later, 5140, 0.0903745761245
+especi, 3190, 0.0892325346238
+present, 6837, 0.0862507733744
+sound, 8150, 0.0846191086419
+pretti, 6851, 0.0790167665657
+abl, 180, 0.0788443577242
+edu, 3001, 0.0764112136367
+mayb, 5564, 0.0754365679903
+thought, 8887, 0.0752177743318
+lot, 5356, 0.0672427642285
+help, 4249, 0.0633135541345
+mani, 5479, 0.061130817167
+thank, 8832, 0.0603524508878
+peopl, 6530, 0.0584712031208
+anyon, 554, 0.0579114056664
+time, 8936, 0.0512056005402
+don, 2811, 0.0488826515207
+know, 5052, 0.0464204624552

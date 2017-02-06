@@ -1,0 +1,174 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39671
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ae604@Freenet.carleton.ca (Michael Clark)
+Subject: video memory
+Reply-To: Palm@snycanva.bitnet
+Organization: The National Capital Freenet
+Lines: 38
+
+
+Hello
+	I have posted to this newsgroup once before and recieved a
+moderately helpful response on a couple of issues. This I appreciated very
+much . I would however like to know why it is that ther is simply NO 
+information out there on some subjects for the relativly novice graphics
+programmer. The subjects are
+
+	1) How do you access the extra video memory on a video board. I
+know somwhere there aresome standard video bios calls that allow you to
+dothis. I have 1meg of memory on my board and according to all the books
+and info I have read I am only (at maximum) using 256k of it. There is a
+way to do this in standard VGA cause I have seen vidoe paging (written in
+assembly, which I don't know) written into apps hat use mode 13h. To get
+any speed at all you have to do this. How do I do it?
+
+	2) The vesa standard. What gives here. I have read most of what
+the net has to offer on VESA and as far as coding for VESA goes most of
+the advice is cryptic at best. Where do I get public domain info that will
+tell me in "mostly plain" english how the vesa calls work.
+
+	My biggest gripe is about number 1. I have bought graphics books,
+I have asked graphics professors, I have hunted the net through both
+gopher, and archie, I ahave asked apps programmers and it is like there is
+some lock on this information. Graphics programming books tell alot of
+programmiing algorithm information, but they always fall short of telling
+you how to really control the video bios. What are all the calls folks, I
+know there are people out there that know how to doall tis stuff. Where
+are you, and why haven't you written a book yet? 
+
+Please help
+
+Thanks in advance
+
+Stephen palm
+palm@snycanva.bitnet
+(please send all personal replies to the above address, thanks)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ video memori      hello post newsgroup reciev
+moder help respons coupl issu appreci much howev
+like know ther simpli inform subject relativli
+novic graphic programm subject  access extra video
+memori video board know somwher aresom standard
+video bio call allow dothi 1meg memori board
+accord book info read maximum use 256k way
+standard vga caus seen vido page written assembl
+don't know written app hat use mode 13h get speed
+vesa standard give read net offer vesa far code
+vesa goe advic cryptic best get public domain info
+tell most plain english vesa call work  biggest
+gripe number bought graphic book ask graphic
+professor hunt net gopher archi ahav ask app
+programm like lock inform graphic program book
+tell alot programmi algorithm inform alway fall
+short tell realli control video bio call folk know
+peopl know doall tis stuff haven't written book
+yet  pleas help  thank advanc  stephen palm  pleas
+send person repli address thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+video, 9506, 0.324907010864
+vesa, 9484, 0.316753478286
+book, 1218, 0.20552143216
+memori, 5628, 0.194944206518
+graphic, 3997, 0.188908818377
+written, 9867, 0.187786725164
+app, 576, 0.183938208946
+standard, 8313, 0.176283078597
+bio, 1103, 0.171134504152
+subject, 8487, 0.154915995742
+know, 5052, 0.154491132572
+programm, 6906, 0.145543624413
+inform, 4637, 0.141444510785
+tell, 8767, 0.14062478914
+board, 1186, 0.137764416797
+net, 6010, 0.115471938303
+info, 4636, 0.112948167857
+tis, 8950, 0.111855074349
+ther, 8851, 0.10865414815
+palm, 6400, 0.106038801015
+cryptic, 2266, 0.106038801015
+somwher, 8131, 0.103827556519
+gripe, 4053, 0.101912089411
+reciev, 7169, 0.100222527681
+13h, 20, 0.100222527681
+ask, 689, 0.0993698322633
+hunt, 4443, 0.090279542743
+gopher, 3952, 0.0880682982473
+alot, 438, 0.0880682982473
+hat, 4199, 0.0874009828088
+read, 7135, 0.0873325452184
+moder, 5810, 0.0867633358297
+archi, 613, 0.0867633358297
+lock, 5324, 0.086152831139
+bought, 1247, 0.0850046429055
+pleas, 6688, 0.0843965099499
+help, 4249, 0.0842850947026
+maximum, 5560, 0.0829519049404
+professor, 6901, 0.0815847094748
+biggest, 1084, 0.0815847094748
+advic, 292, 0.0811564778217
+thank, 8832, 0.0803431762464
+plain, 6659, 0.079560980003
+english, 3111, 0.0768203508917
+assembl, 698, 0.0762098462009
+stephen, 8380, 0.0756242671377
+domain, 2805, 0.0753402044878
+hello, 4247, 0.0710040775578
+vga, 9492, 0.0705942012432
+folk, 3576, 0.0685280004004
+page, 6382, 0.0683541231799
+extra, 3325, 0.0668773659537
+mode, 5806, 0.0658254512028
+fall, 3369, 0.0656812821997
+accord, 219, 0.064445089426
+newsgroup, 6032, 0.0634291112995
+use, 9363, 0.0633617170129
+offer, 6203, 0.0629468912686
+algorithm, 407, 0.0623660550373
+repli, 7290, 0.0622526576479
+haven, 4207, 0.0612705079457
+goe, 3931, 0.0612705079457
+access, 209, 0.0612705079457
+like, 5272, 0.0604087854472
+control, 2107, 0.0598650088657
+coupl, 2187, 0.059675010127
+simpli, 7967, 0.058761026199
+issu, 4793, 0.0584978134002
+speed, 8217, 0.0583249836582
+caus, 1569, 0.0580695817471
+code, 1871, 0.0570125539343
+short, 7904, 0.0567023862815
+address, 264, 0.0557382972617
+appreci, 587, 0.0554542346117
+respons, 7323, 0.0552448192858
+send, 7785, 0.0551068884628
+public, 6973, 0.0551068884628
+stuff, 8472, 0.0549702712868
+allow, 432, 0.0549702712868
+advanc, 285, 0.0542412846652
+alway, 457, 0.0541768140171
+seen, 7767, 0.053242990116
+howev, 4406, 0.0494516639182
+best, 1052, 0.0479588206853
+far, 3386, 0.0479171814831
+person, 6562, 0.0477929842133
+number, 6156, 0.0466447959798
+program, 6905, 0.0445262565458
+realli, 7150, 0.0425657253862
+post, 6766, 0.0418945060981
+work, 9833, 0.040639525247
+peopl, 6530, 0.0389193985378
+way, 9666, 0.0375239694442
+don, 2811, 0.0325371002233

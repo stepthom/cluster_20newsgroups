@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60154
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dchien@hougen.seas.ucla.edu (David H. Chien)
+Subject: Orbit data - help needed
+Organization: SEASnet, University of California, Los Angeles
+Lines: 43
+
+I have the "osculating elements at perigee" of an orbit, which I need
+to convert to something useful, preferably distance from the earth
+in evenly spaced time intervals. A GSM coordinate system is preferable,
+but I convert from other systems. C, pascal, or fortran code, or
+if you can point me to a book or something that'd be great.
+
+here's the first few lines of the file.
+
+0  ()
+1  (2X, A3, 7X, A30)
+2  (2X, I5, 2X, A3, 2X, E24.18)
+3  (4X, A3, 7X, E24.18)
+1  SMA       SEMI-MAJOR AXIS
+1  ECC       ECCENTRICITY
+1  INC       INCLINATION
+1  OMG       RA OF ASCENDING NODE
+1  POM       ARGUMENT OF PERICENTRE
+1  TRA       TRUE ANOMALY
+1  HAP       APOCENTRE HEIGHT
+1  HPE       PERICENTRE HEIGHT
+2      3  BEG  0.167290000000000000E+05
+3    SMA       0.829159999999995925E+05
+3    ECC       0.692307999999998591E+00
+3    INC       0.899999999999999858E+02
+3    OMG       0.184369999999999994E+03
+3    POM       0.336549999999999955E+03
+3    TRA       0.359999999999999943E+03
+3    HAP       0.133941270127999174E+06
+3    HPE       0.191344498719999910E+05
+2      1  REF  0.167317532658774153E+05
+3    SMA       0.829125167527418671E+05
+3    ECC       0.691472268118590319E+00
+3    INC       0.899596754214342091E+02
+3    OMG       0.184377521828175002E+03
+3    POM       0.336683788851850579E+03
+3    TRA       0.153847166458030088E-05
+3    HAP       0.133866082767180880E+06
+3    HPE       0.192026707383028306E+05
+
+Thanks in advance,
+
+larry kepko
+lkepko@igpp.ucla.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orbit data help need    oscul element perige
+orbit need convert someth use prefer distanc earth
+even space time interv gsm coordin system prefer
+convert system pascal fortran code point book
+someth that'd great  here first line file   a30
+e24 e24 sma semi major axi ecc eccentr inc inclin
+omg ascend node pom argument pericentr tra true
+anomali hap apocentr height hpe pericentr height
+beg 167290000000000000e sma 829159999999995925e
+ecc 692307999999998591e inc 899999999999999858e
+omg 184369999999999994e pom 336549999999999955e
+tra 359999999999999943e hap 133941270127999174e
+hpe 191344498719999910e ref 167317532658774153e
+sma 829125167527418671e ecc 691472268118590319e
+inc 899596754214342091e omg 184377521828175002e
+pom 336683788851850579e tra 153847166458030088e
+hap 133866082767180880e hpe 192026707383028306e
+thank advanc  larri kepko
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+height, 4238, 0.334005469721
+prefer, 6819, 0.259168672669
+convert, 2115, 0.227988719645
+perige, 6542, 0.214833501261
+orbit, 6280, 0.20531365303
+eccentr, 2971, 0.192470750299
+ascend, 672, 0.192470750299
+anomali, 530, 0.192470750299
+interv, 4724, 0.187732651475
+ref, 7212, 0.185630751982
+node, 6089, 0.180123970238
+beg, 992, 0.178502805368
+fortran, 3618, 0.174130681475
+larri, 5128, 0.172811249916
+inclin, 4578, 0.170343375492
+someth, 8126, 0.166981204563
+pascal, 6447, 0.165971251599
+axi, 840, 0.163084423269
+semi, 7781, 0.158843304984
+coordin, 2126, 0.155855000111
+need, 5993, 0.152516829731
+element, 3037, 0.142084705203
+distanc, 2744, 0.138792589244
+argument, 631, 0.118366483715
+code, 1871, 0.11272654368
+advanc, 285, 0.10724712582
+data, 2385, 0.105035928837
+major, 5458, 0.104105922119
+book, 1218, 0.101590435355
+true, 9121, 0.101174857756
+earth, 2956, 0.0988016834655
+file, 3477, 0.0981453280732
+great, 4016, 0.0943348594393
+line, 5285, 0.0940125529742
+help, 4249, 0.0833252218497
+space, 8164, 0.0804525819459
+point, 6710, 0.0800579646068
+thank, 8832, 0.0794281955601
+time, 8936, 0.0673902781684
+use, 9363, 0.0626401280737

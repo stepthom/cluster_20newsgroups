@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104899
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sepinwal@mail.sas.upenn.edu (Alan Sepinwall)
+Subject: Re: Jewish Baseball Players?
+Organization: University of Pennsylvania, School of Arts and Sciences
+Lines: 18
+Nntp-Posting-Host: mail.sas.upenn.edu
+
+In article <mssC5K47z.Fur@netcom.com> mss@netcom.com (Mark Singer) writes:
+>
+>
+>Polish and Jewish are *not* mutually exclusive.
+
+
+I didn't mean to offend or anything, I'm just quoting Stanky himself on
+the subject. I remember one time last year he was being interviewed by
+ESPN, and the interviewer (can't remember who), asked Stanky if he was
+Jewish because he (the interviewer) was Jewish and wanted to see more
+Jewish ballplayers. To which Stanky replied, "I'm Polish, not Jewish."
+
+So maybe that wasn't the most PC thing for Stanky to say, and maybe I was
+a little naive when I posted it. I think we should just devote this
+subject to finding actual Jewish ballplayers (I myself am Jewish and the
+only ones I ever knew until now were Koufax, Greenberg, and Blomberg).
+
+-Alan
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player        polish jewish mutual
+exclus   didn't mean offend anyth i'm quot stanki
+rememb one time last year interview espn interview
+can't rememb ask stanki jewish interview jewish
+want see jewish ballplay stanki repli i'm polish
+jewish  mayb wasn't thing stanki say mayb littl
+naiv post think devot find actual jewish ballplay
+jewish one ever knew koufax greenberg blomberg
+alan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.636394271016
+stanki, 8319, 0.469327379272
+interview, 4726, 0.282871707074
+polish, 6722, 0.245572410196
+ballplay, 884, 0.199045730242
+blomberg, 1167, 0.119830693917
+rememb, 7269, 0.119396234329
+mayb, 5564, 0.113485211966
+mutual, 5936, 0.113257929391
+naiv, 5949, 0.111549989927
+offend, 6201, 0.107296951883
+koufax, 5067, 0.102948276795
+greenberg, 4027, 0.102948276795
+exclus, 3267, 0.102948276795
+devot, 2597, 0.0987687555755
+espn, 3192, 0.0960607367114
+alan, 376, 0.0926948129277
+knew, 5045, 0.0809597758788
+wasn, 9652, 0.0703495238789
+repli, 7290, 0.0703495238789
+quot, 7045, 0.0696012172443
+ask, 689, 0.056147164248
+player, 6683, 0.0559359504207
+anyth, 555, 0.0555728215619
+basebal, 924, 0.054626321705
+littl, 5308, 0.0544817998095
+didn, 2625, 0.0541495099217
+actual, 254, 0.0521205613157
+mean, 5595, 0.0500964909619
+post, 6766, 0.0473434977477
+thing, 8869, 0.0442853885535
+want, 9634, 0.0441580475067
+say, 7653, 0.0411560941132
+year, 9943, 0.0407398855787
+time, 8936, 0.0385163229582
+think, 8871, 0.0371267418639

@@ -1,0 +1,172 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104661
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: snichols@adobe.com (Sherri Nichols)
+Subject: Re: Braves Update!!
+Organization: Adobe Systems Incorporated
+Lines: 48
+
+In article <13586@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+>1)  Since time immemorial, batters have complained about calls.
+>So have pitchers and catchers.
+
+However, batters didn't use to go for strolls after bad calls to the degree
+they do now.  
+
+>Unless the league notified teams this year about not allowing
+>complaints, Hirschbeck was acting against expectations.
+
+Everyone was told of the new emphasis on speeding up games.  The rule that
+Hirschbeck invoked has been in the books a long time.
+
+>2)  It's not as if Gant was "in Hirschbeck's face". 
+
+Nobody, including Hirschbeck, ever said he was. 
+
+
+>When Gant turned away, Hirschbeck IMMEDIATELY motioned for Gant
+>to step into the box.  IMO, at this point in time, Hirschbeck
+>was determined to show Gant exactly WHO was in charge of this game.
+>Gant wasn't dawdling; he hadn't had a chance to dawdle.  And Hirschbeck
+>was simply exercising a power play. 
+
+That's your (perhaps colored by your partisanship of the Braves)
+perception.  Hirschbeck's view was that Gant was heading off for a long
+walk, and in accordance with his instructions concerning speeding games up,
+directed him into the batter's box.
+
+> Gant resisted, as many of
+>us might to what we thought was an unreasonable request, and
+>Hirschbeck called for the pitch.
+
+The point is, based on the rulebook and the umpires' instructions, it was
+*not* an unreasonable request.
+
+The Braves were already upset
+
+>IMO, any game where you remember the name of the umpire was
+>a bad game for the umpire.
+
+Had Gant done as instructed, you wouldn't have remembered the name of the
+umpire.  
+
+Sherri Nichols
+snichols@adobe.com
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat     sinc time immemori batter
+complain call pitcher catcher  howev batter didn't
+use stroll bad call degre   unless leagu notifi
+team year allow complaint hirschbeck act expect
+everyon told new emphasi speed game rule
+hirschbeck invok book long time  it gant
+hirschbeck face  nobodi includ hirschbeck ever
+said   gant turn away hirschbeck immedi motion
+gant step box imo point time hirschbeck determin
+show gant exact charg game gant wasn't dawdl
+hadn't chanc dawdl hirschbeck simpli exercis power
+play  that perhap color partisanship brave percept
+hirschbeck view gant head long walk accord
+instruct concern speed game direct batter box
+gant resist mani might thought unreason request
+hirschbeck call pitch  point base rulebook umpir
+instruct unreason request  brave alreadi upset
+imo game rememb name umpir bad game umpir  gant
+done instruct wouldn't rememb name umpir  sherri
+nichol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hirschbeck, 4310, 0.61128569448
+gant, 3766, 0.47227198403
+umpir, 9210, 0.228487087648
+instruct, 4684, 0.169901581179
+game, 3761, 0.158960461279
+dawdl, 2399, 0.155061757805
+batter, 949, 0.149555703959
+brave, 1277, 0.134627064515
+unreason, 9305, 0.134487478798
+imo, 4533, 0.125125976439
+request, 7301, 0.0994555581736
+box, 1254, 0.0856695416363
+speed, 8217, 0.0852892941395
+stroll, 8455, 0.0794431049942
+rememb, 7269, 0.0772497820266
+bad, 861, 0.0772497820266
+rulebook, 7538, 0.0759141147785
+time, 8936, 0.0747605877952
+notifi, 6121, 0.0721732344017
+long, 5336, 0.0660939382817
+percept, 6535, 0.0660084066283
+invok, 4749, 0.0643916425044
+emphasi, 3075, 0.0643916425044
+resist, 7314, 0.0625629882194
+hadn, 4114, 0.0625629882194
+complaint, 1974, 0.0625629882194
+exercis, 3279, 0.0613743735936
+upset, 9342, 0.0610063285938
+point, 6710, 0.0592091387103
+sherri, 7879, 0.0590339980037
+nichol, 6050, 0.0568749792019
+complain, 1973, 0.0568749792019
+motion, 5880, 0.055942079623
+catcher, 1557, 0.0541045030012
+nobodi, 6088, 0.0530369851104
+immedi, 4527, 0.0502333326725
+charg, 1664, 0.0498519013195
+degre, 2491, 0.0486722090306
+step, 8377, 0.0484513965326
+told, 8973, 0.0472160637617
+accord, 219, 0.047119397582
+act, 249, 0.0468346324087
+determin, 2582, 0.0456828714445
+chanc, 1649, 0.0455992996378
+wasn, 9652, 0.0455163884847
+updat, 9333, 0.0454341276218
+concern, 2004, 0.0453525069278
+face, 3345, 0.045111388119
+walk, 9617, 0.044569441415
+head, 4215, 0.044271883692
+wouldn, 9854, 0.0438408008401
+rule, 7537, 0.0437706453528
+simpli, 7967, 0.04296346208
+unless, 9289, 0.0427076394889
+color, 1907, 0.0421538812289
+leagu, 5176, 0.0420941192082
+alreadi, 443, 0.0420346957844
+everyon, 3241, 0.0418003127066
+turn, 9158, 0.0417425263
+pitcher, 6644, 0.0416850565329
+exact, 3253, 0.0416278999541
+away, 833, 0.0415710531686
+view, 9510, 0.0409652666032
+expect, 3290, 0.0406490153197
+perhap, 6540, 0.0405972216034
+direct, 2667, 0.0401918298356
+allow, 432, 0.0401918298356
+power, 6783, 0.0389289182787
+pitch, 6643, 0.0382878915406
+book, 1218, 0.0375670441294
+thought, 8887, 0.0366061847557
+howev, 4406, 0.0361568683356
+includ, 4579, 0.0360894198314
+didn, 2625, 0.0350349226826
+said, 7583, 0.0349140198308
+team, 8732, 0.0348242486158
+play, 6681, 0.0345885486685
+base, 923, 0.0328230131673
+sinc, 7977, 0.031972151721
+new, 6023, 0.030551801694
+mani, 5479, 0.0297504945787
+year, 9943, 0.0263588487395
+use, 9363, 0.0231636418073

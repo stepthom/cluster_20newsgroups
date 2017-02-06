@@ -1,0 +1,165 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61311
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: Re: Gamma Ray Bursters. WHere are they.
+Organization: Lick Observatory/UCO
+Lines: 42
+	<1993Apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au>
+NNTP-Posting-Host: topaz.ucsc.edu
+In-reply-to: keithh@tplrd.tpl.oz.au's message of Tue, 27 Apr 93 03:17:48 GMT
+
+In article <1993Apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au> keithh@tplrd.tpl.oz.au (Keith Harwood) writes:
+
+
+
+   In article <1rbl0eINNip4@gap.caltech.edu>, palmer@cco.caltech.edu (David M. Palmer) writes:
+   > prb@access.digex.com (Pat) writes:
+
+   > >  What  evidence  indicates that Gamma Ray bursters are very far away?
+
+   > >Given the enormous  power,  i was just wondering,  what if they are
+   > >quantum  black holes or something  like that  fairly close by?
+
+   > >Why would they have to be at  galactic ranges?   
+
+   . . . David gives good explaination of the deductions from the isotropic,
+   'edged' distribution, to whit, they are either part of the Universe or
+   part of the Oort cloud.
+
+   Why couldn't they be Earth centred, with the edge occuring at the edge
+   of the gravisphere? I know there isn't any mechanism for them, but there
+   isn't a mechanism for the others either.
+
+What on Earth is the "gravisphere"?
+Anyway, before it's decay the Pioneer Venus Orbiter
+had a gamma ray detector, as does Ulysses, they 
+detect the brightest bursts that the Earth orbit detectors
+do, so the bursts are at least at Oort cloud distances.
+In principle four detectors spaced out by a few AU would
+see parallax if the bursts are of solar system origin.
+
+_The_ problem with Oort cloud sources is that absolutely
+no plausible mechanism has been proposed. It would have
+to involve new physics as far as I can tell. Closest to
+"conventional" Oort sources is a model of B-field pinching
+by comets, it's got too many holes in it to count, but at
+least it was a good try...
+
+*  Steinn Sigurdsson   			Lick Observatory      	*
+*  steinly@lick.ucsc.edu		"standard disclaimer"  	*
+*  The laws of gravity are very,very strict			*
+*  And you're just bending them for your own benefit - B.B. 1988*
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster              evid indic gamma
+ray burster far away  given enorm power wonder
+quantum black hole someth like fair close  galact
+rang  david give good explain deduct isotrop edg
+distribut whit either part univers part oort cloud
+couldn't earth centr edg occur edg gravispher know
+isn't mechan isn't mechan other either  earth
+gravispher anyway it decay pioneer venus orbit
+gamma ray detector ulyss detect brightest burst
+earth orbit detector burst least oort cloud
+distanc principl four detector space see parallax
+burst solar system origin  problem oort cloud
+sourc absolut plausibl mechan propos involv new
+physic far tell closest convent oort sourc model
+field pinch comet it got mani hole count least
+good tri  steinn sigurdsson lick observatori  law
+graviti strict you'r bend benefit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oort, 6255, 0.358017182847
+detector, 2580, 0.264678321463
+burst, 1417, 0.244426867495
+cloud, 1835, 0.237966095708
+gravispher, 4008, 0.222537840968
+mechan, 5603, 0.219434653393
+gamma, 3762, 0.215654934902
+edg, 2993, 0.209997214823
+ray, 7118, 0.1842117796
+burster, 1418, 0.155481896094
+earth, 2956, 0.153517350833
+hole, 4343, 0.141449292637
+brightest, 1314, 0.108590634773
+sourc, 8153, 0.108437746683
+isn, 4783, 0.107603375716
+orbit, 6280, 0.106338296398
+whit, 9735, 0.10632617647
+deduct, 2463, 0.102634392272
+ulyss, 9203, 0.0984083709636
+sigurdsson, 7952, 0.0984083709636
+isotrop, 4788, 0.0984083709636
+far, 3386, 0.098140625959
+steinn, 8371, 0.0972325514718
+lick, 5255, 0.0961439126603
+decay, 2433, 0.0951304141738
+bend, 1024, 0.0951304141738
+plausibl, 6680, 0.0941823496551
+parallax, 6419, 0.0909043928654
+galact, 3749, 0.0901876701594
+quantum, 7025, 0.0888513036981
+closest, 1832, 0.0882261071543
+enorm, 3117, 0.0876264360756
+convent, 2113, 0.0876264360756
+strict, 8445, 0.0864958859618
+pioneer, 6635, 0.085961648851
+venus, 9463, 0.0810940451616
+centr, 1610, 0.0796597456609
+detect, 2579, 0.0793220319026
+pinch, 6632, 0.0783531158524
+observatori, 6180, 0.0774441722663
+principl, 6870, 0.0771532736218
+comet, 1926, 0.0765882077453
+good, 3948, 0.0755228842497
+graviti, 4010, 0.0747658865552
+benefit, 1028, 0.0733657894017
+distanc, 2744, 0.0718849783006
+occur, 6192, 0.0703573796516
+distribut, 2753, 0.0688096440543
+absolut, 193, 0.0684867760795
+count, 2180, 0.0678615795357
+couldn, 2176, 0.0668276925636
+rang, 7094, 0.066405943936
+solar, 8107, 0.0652088192897
+black, 1133, 0.0642208906991
+indic, 4600, 0.0639839516672
+physic, 6613, 0.0638669000399
+law, 5153, 0.063072657885
+fair, 3363, 0.0622146095422
+evid, 3245, 0.0619053370348
+propos, 6933, 0.0617027144913
+model, 5807, 0.0616024417367
+involv, 4750, 0.0616024417367
+explain, 3301, 0.0593808736873
+david, 2397, 0.0592952180423
+away, 833, 0.0582248920129
+close, 1830, 0.0556795474942
+field, 3466, 0.0552842796611
+power, 6783, 0.0545242877
+wonder, 9821, 0.0533389755414
+given, 3887, 0.05272564579
+origin, 6293, 0.0522422050377
+univers, 9282, 0.0488170325413
+got, 3960, 0.0482023026181
+tell, 8767, 0.0480029793226
+problem, 6887, 0.0462156757927
+someth, 8126, 0.0432423673771
+new, 6023, 0.0427912025038
+tri, 9087, 0.0425433819807
+space, 8164, 0.0416688826032
+mani, 5479, 0.0416688826032
+know, 5052, 0.0316417952527
+like, 5272, 0.0309312642862

@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105083
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: Jewish Baseball Players?
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 18
+
+In article <15APR93.14691229.0062@lafibm.lafayette.edu> VB30@lafibm.lafayette.edu (VB30) writes:
+>Just wondering.  A friend and I were talking the other day, and
+>we were (for some reason) trying to come up with names of Jewish
+>baseball players, past and present.  We weren't able to come up
+>with much, except for Sandy Koufax, (somebody) Stankowitz, and
+>maybe John Lowenstein.  Can anyone come up with any more.  I know
+>it sounds pretty lame to be racking our brains over this, but
+>humor us.  Thanks for your help.
+>
+
+Oh... I forgot... Art Shamsky, former Red and Mets player.  Batted .301
+between injuries in 1969 (fell short of qualifying for Top 10 because of
+injuries and platoon with Ron Swoboda; no Swobo wasn't Jewish).
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player     wonder friend talk day
+reason tri come name jewish basebal player past
+present weren't abl come much except sandi koufax
+somebodi stankowitz mayb john lowenstein anyon
+come know sound pretti lame rack brain humor thank
+help   forgot art shamski former red met player
+bat injuri fell short qualifi top injuri platoon
+ron swoboda swobo wasn't jewish  scott barman met
+mail list feed follow shell asd com subscrib let
+met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.343838297929
+met, 5655, 0.311640317595
+injuri, 4650, 0.249148736414
+player, 6683, 0.241773665938
+come, 1923, 0.203181346489
+basebal, 924, 0.157408678509
+stankowitz, 8321, 0.15286012619
+barman, 913, 0.15286012619
+asd, 677, 0.15286012619
+lowenstein, 5370, 0.151248755254
+fell, 3436, 0.151248755254
+koufax, 5067, 0.14832549309
+sandi, 7608, 0.146990523189
+rack, 7053, 0.146990523189
+platoon, 6679, 0.143390239277
+lame, 5100, 0.143390239277
+forgot, 3607, 0.140271531496
+shell, 7873, 0.139318108713
+humor, 4437, 0.139318108713
+weren, 9705, 0.128932197928
+feed, 3427, 0.127764173805
+qualifi, 7015, 0.126114857101
+subscrib, 8496, 0.125589989734
+scott, 7713, 0.12266672757
+ron, 7472, 0.122213206235
+brain, 1266, 0.118870998042
+art, 660, 0.114290614457
+somebodi, 8121, 0.111575295199
+friend, 3692, 0.104502959174
+com, 1917, 0.102105408285
+wasn, 9652, 0.101357964823
+past, 6456, 0.0987505446512
+bat, 942, 0.0959631277424
+red, 7194, 0.0934731918276
+present, 6837, 0.0934731918276
+short, 7904, 0.0923211745689
+sound, 8150, 0.0917048956771
+john, 4878, 0.0883140805673
+pretti, 6851, 0.0856334278505
+list, 5298, 0.0855398180463
+abl, 180, 0.0854465819349
+wonder, 9821, 0.0848041473091
+mayb, 5564, 0.0817534326326
+mail, 5447, 0.0802908240777
+talk, 8684, 0.0789848905545
+follow, 3578, 0.0767652781971
+reason, 7156, 0.0753342603957
+let, 5225, 0.0737591278142
+day, 2402, 0.0692577033286
+help, 4249, 0.0686152687028
+tri, 9087, 0.0676401298656
+thank, 8832, 0.0654062102681
+anyon, 554, 0.0627607581832
+know, 5052, 0.0503075928719

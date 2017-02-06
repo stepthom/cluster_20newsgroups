@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60925
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Biosphere II
+Organization: Express Access Online Communications USA
+Lines: 22
+NNTP-Posting-Host: access.digex.net
+
+In article <19930419.062802.166@almaden.ibm.com> nicho@vnet.ibm.com writes:
+|In <1q77ku$av6@access.digex.net> Pat writes:
+|>The Work is privately funded,  the DATA belongs to SBV.  I don't see
+|>either george or Fred,  scoriating IBM research division for
+|>not releasing data.
+|   We publish plenty kiddo,you just have to look.
+
+
+Never said you didn't publish, merely that there is data you don't
+publish,  and that no-one scoriates you for those cases.  
+
+IBM research  publishes plenty, it's why you ended up  with 2 Nobel
+prizes in the last 10 years,  but that some projects are deemed
+company confidential.  ATT Bell Labs,  keeps lots of stuff private,
+Like Karamankars algorithm.  Private moeny is entitled to do what
+it pleases, within the bounds of Law,  and For all the keepers of the
+temple of SCience,  should please shove their pointy little heads
+up their Conically shaped Posterior Orifices.   
+
+pat
+
+	who just read the SA article on Karl Fehrabend(sp???)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biospher       work privat fund data belong sbv
+don't see either georg fred scoriat ibm research
+divis releas data publish plenti kiddo look
+never said didn't publish mere data don't publish
+one scoriat case  ibm research publish plenti it
+end nobel prize last year project deem compani
+confidenti att bell lab keep lot stuff privat like
+karamankar algorithm privat moeni entitl pleas
+within bound law keeper templ scienc pleas shove
+pointi littl head conic shape posterior orific
+pat  read articl karl fehrabend
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+publish, 6974, 0.380515071991
+scoriat, 7709, 0.332993118962
+privat, 6879, 0.300636622305
+plenti, 6692, 0.235503645299
+data, 2385, 0.228780450814
+ibm, 4472, 0.199340542223
+kiddo, 5010, 0.16057249754
+conic, 2043, 0.16057249754
+biospher, 1111, 0.16057249754
+research, 7307, 0.158413877812
+shove, 7914, 0.15597743811
+keeper, 4972, 0.15597743811
+karl, 4957, 0.146298939243
+deem, 2465, 0.146298939243
+templ, 8774, 0.141703879813
+att, 759, 0.137949442888
+pleas, 6688, 0.121154614265
+entitl, 3132, 0.1205015534
+bound, 1250, 0.115906493971
+prize, 6881, 0.115326388236
+fred, 3666, 0.115326388236
+belong, 1015, 0.10856170379
+bell, 1011, 0.1077540555
+shape, 7853, 0.106599039228
+georg, 3847, 0.103802560689
+mere, 5641, 0.0999394565366
+lab, 5085, 0.0971558845429
+divis, 2767, 0.0953443971069
+fund, 3723, 0.0934804972029
+don, 2811, 0.0934166550057
+pat, 6458, 0.0914101128217
+releas, 7253, 0.0900252286157
+algorithm, 407, 0.0895290023928
+law, 5153, 0.0884156289905
+head, 4215, 0.0869227732109
+compani, 1958, 0.0856658982399
+stuff, 8472, 0.0789120547487
+scienc, 7692, 0.076958264305
+project, 6909, 0.0764324725469
+case, 1540, 0.0715965636843
+end, 3091, 0.0709898699639
+littl, 5308, 0.069209171756
+didn, 2625, 0.0687870581696
+said, 7583, 0.068549679267
+articl, 665, 0.0663682568339
+lot, 5356, 0.064251773504
+read, 7135, 0.0626847060084
+work, 9833, 0.0583396873652
+year, 9943, 0.0517525806452
+look, 5341, 0.0513903935638
+like, 5272, 0.0433596312418

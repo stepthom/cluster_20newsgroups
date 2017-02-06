@@ -1,0 +1,166 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60231
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dragon@access.digex.com (Covert C Beach)
+Subject: Re: Mars Observer Update - 03/29/93
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 33
+Distribution: world
+NNTP-Posting-Host: access.digex.net
+Keywords: Mars Observer, JPL
+
+In article <1pcgaa$do1@access.digex.com> prb@access.digex.com (Pat) writes:
+>Now isn't that always the kicker.  It does seem stupid to  drop
+>a mission like Magellan, because there isn't  70 million a year
+>to keep up the mission.  You'd think  that ongoing science  could
+>justify the money.  JPL gets accused of spending more then neccessary,
+>probably some validity in that,  but NASA  does put money into some
+>things  that really are Porcine.  Oh well.
+
+I attended a colloquium at Goddard last fall where the head of the 
+operations section of NASA was talking about what future missions
+were going to be funded.  I don't remember his name or title off hand
+and I have discarded the colloquia announcement. In any case, he was 
+asked about that very matter: "Why can't we spend a few million more
+to keep instruments that we already have in place going?"
+
+His responce was that there are only so many $ available to him and
+the lead time on an instrument like a COBE, Magellan, Hubble, etc
+is 5-10 years minumum.  If he spent all that could be spent on using
+current instruments in the current budget enviroment he would have
+very little to nothing for future projects.  If he did that, sure
+in the short run the science would be wonderful and he would be popular,
+however starting a few years after he had retired he would become
+one of the greatest villans ever seen in the space community for not
+funding the early stages of the next generation of instruments.  Just
+as he had benefited from his predicessor's funding choices, he owed it
+to whoever his sucessor would eventually be to keep developing new
+missions, even at the expense of cutting off some instruments before
+the last drop of possible science has been wrung out of them.
+
+
+-- 
+Covert C Beach
+dragon@access.digex.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mar observ updat        isn't alway kicker seem
+stupid drop mission like magellan isn't million
+year keep mission you'd think ongo scienc could
+justifi money jpl get accus spend neccessari
+probabl valid nasa put money thing realli porcin
+well  attend colloquium goddard last fall head
+oper section nasa talk futur mission go fund don't
+rememb name titl hand discard colloquia announc
+case ask matter can't spend million keep
+instrument alreadi place go  responc mani avail
+lead time instrument like cobe magellan hubbl etc
+year minumum spent could spent use current
+instrument current budget enviro littl noth futur
+project sure short run scienc wonder popular howev
+start year retir becom one greatest villan ever
+seen space communiti fund earli stage next generat
+instrument benefit predicessor fund choic owe
+whoever sucessor eventu keep develop new mission
+even expens cut instrument last drop possibl
+scienc wrung    covert beach
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+instrument, 4686, 0.430392700071
+mission, 5772, 0.259136999143
+fund, 3723, 0.223200361885
+magellan, 5433, 0.193003854051
+scienc, 7692, 0.183750760392
+spent, 8223, 0.162248758755
+drop, 2878, 0.158652989996
+spend, 8222, 0.153539400755
+million, 5724, 0.151423923193
+futur, 3737, 0.138361797503
+money, 5835, 0.132119226825
+wrung, 9873, 0.127797920892
+kicker, 5007, 0.124140762596
+year, 9943, 0.123567964165
+nasa, 5956, 0.123359382061
+enviro, 3138, 0.121152646695
+isn, 4783, 0.120051179262
+current, 2299, 0.118765582115
+neccessari, 5988, 0.118626230698
+cobe, 1865, 0.118626230698
+discard, 2686, 0.116437749618
+owe, 6357, 0.112780591322
+ongo, 6243, 0.10979247542
+beach, 967, 0.10979247542
+goddard, 3927, 0.103147201223
+hubbl, 4420, 0.101420420047
+retir, 7339, 0.0998583564664
+attend, 764, 0.0927238142117
+greatest, 4018, 0.0917870299483
+accus, 227, 0.0900602487725
+justifi, 4939, 0.0864030904764
+jpl, 4912, 0.0848410268957
+valid, 9411, 0.0839705960134
+budget, 1367, 0.0839705960134
+stage, 8302, 0.0831440715021
+benefit, 1028, 0.0818529109943
+communiti, 1953, 0.0816064512708
+section, 7759, 0.0806560828684
+mar, 5500, 0.0806560828684
+eventu, 3233, 0.0806560828684
+stupid, 8476, 0.0802007962928
+titl, 8953, 0.0789062344646
+popular, 6746, 0.0789062344646
+expens, 3294, 0.077325321816
+choic, 1717, 0.0757119615964
+announc, 524, 0.0752076367969
+fall, 3369, 0.0750429192017
+cut, 2313, 0.0720548033003
+updat, 9333, 0.0709970645192
+generat, 3819, 0.0709970645192
+head, 4215, 0.0691808987515
+like, 5272, 0.0690189267561
+oper, 6261, 0.0686176384116
+observ, 6179, 0.0681805655028
+earli, 2951, 0.0679663237231
+lead, 5172, 0.0665402714024
+becom, 983, 0.0656849853813
+alreadi, 443, 0.0656849853813
+short, 7904, 0.0647842497857
+matter, 5553, 0.0636010057987
+alway, 457, 0.0618987044822
+develop, 2588, 0.0610396818811
+seen, 7767, 0.0608317814684
+project, 6909, 0.0608317814684
+rememb, 7269, 0.0603566971098
+noth, 6119, 0.0596368932445
+wonder, 9821, 0.0595093497
+hand, 4145, 0.0594459482176
+case, 1540, 0.0569829337034
+avail, 811, 0.0569285745731
+ask, 689, 0.0567665706567
+howev, 4406, 0.0565000727075
+place, 6657, 0.0561341090515
+talk, 8684, 0.0554258208138
+littl, 5308, 0.0550828341879
+possibl, 6765, 0.0537337364117
+probabl, 6885, 0.0536003088409
+sure, 8585, 0.0527795945796
+start, 8334, 0.0518779577942
+run, 7543, 0.0493686406649
+realli, 7150, 0.0486326725658
+new, 6023, 0.0477413862571
+space, 8164, 0.0464892338346
+mani, 5479, 0.0464892338346
+thing, 8869, 0.0447739377768
+time, 8936, 0.0389412287856
+think, 8871, 0.037536318058
+don, 2811, 0.0371746546556
+use, 9363, 0.0361963717138

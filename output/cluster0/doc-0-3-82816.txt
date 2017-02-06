@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82816
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jmeritt@mental.mitre.org
+Subject: God's promise of Peace
+Organization: UTexas Mail-to-News Gateway
+Lines: 6
+NNTP-Posting-Host: cs.utexas.edu
+
+PSA 145:9  The LORD is good to all: and his  tender  mercies  are
+over all his works.
+
+JER 13:14  And I will dash them one against another, even the fa-
+thers and the sons together, saith the LORD: I will not pity, nor
+spare, nor have mercy, but destroy them.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis peac     psa lord good tender merci
+work  jer dash one anoth even ther son togeth
+saith lord piti spare merci destroy
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+merci, 5638, 0.431934334516
+lord, 5347, 0.357744628622
+jer, 4850, 0.288696343061
+ther, 8851, 0.270456735699
+tender, 8785, 0.263946738051
+saith, 7586, 0.263946738051
+piti, 6645, 0.263946738051
+dash, 2383, 0.253674723879
+spare, 8186, 0.208943403445
+destroy, 2574, 0.199969937192
+peac, 6495, 0.192804762768
+son, 8132, 0.177790227489
+promis, 6913, 0.167651694342
+togeth, 8969, 0.165322207629
+god, 3926, 0.125845317529
+anoth, 533, 0.115079092943
+work, 9833, 0.101157972574
+good, 3948, 0.0917851663156

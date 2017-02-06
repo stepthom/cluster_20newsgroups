@@ -1,0 +1,192 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104847
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: And America's Team is....But Why?
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 43
+
+In <1993Apr20.182807.18366@bsu-ucs> 00cgbabbitt@leo.bsuvc.bsu.edu writes:
+[...]
+>	You are absolutely correct.  Braves fans are nothing but a bunch of
+>bandwagoners.  Correct me if I am wrong, but 4 or 5 years ago you couldnt give
+>away a ticket to see the Braves play.I  would bet my next paycheck that 80% of
+>the so-called Braves fans living outside of Georgia at the present time can not
+>name more than 3 players from their 1988 season. On the other hand, ask any
+>Cubs fan living anywhere in the United States to name 3 players from any given
+>year and 80% of them probably could.
+
+You could be right.  Then again, you could be wrong.  This claim is completely
+unverifiable and untestable.  I'd wager most of the Braves fans on the net
+could name more than 3 players from their 1988 season.
+
+You could give away tickets to Braves games.  However, my Dad and I were able
+to get great seats from scalper for face value, which isn't exactly the sign
+of a hot ticket...
+
+>	Granted, the fact that a team wins brings people to the ball park, but
+>that does not mean they diserve the title "America's Team"
+>	The only reason they are considered America's team is because of Ted
+>Turner and his little TV station which broadcasts across the nation.
+
+This is *precisely* why they were considered America's team.  Even
+(especially?) when they were bad, you could see most of the Braves games on
+cable.  You could do that for the Cubs as well, but the Braves had better
+camerawork, better announcers (what would you rather listen to -- Harry discuss
+the game, or Skip and Pete discuss motoball?), and teams that weren't *too*
+much worse.  Because of TBS, the Braves had a lot of fans outside of Georgia.
+At home in Kentucky, even though we were much closer to Cincinnati there was
+as many Braves fans as Reds fans, even in 1990.  You could actually watch the
+Braves play -- you had to go to Cincinnati to watch the Reds.  I can go
+anywhere in America and watch the Braves.
+    
+>	I'll consider Toronto AMerica's team before the Braves
+
+Why?  I'd guess that Braves fans are more widely distributed than Toronto
+fans.
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ america team    1993apr20  absolut correct brave
+fan noth bunch bandwagon correct wrong year ago
+couldnt give away ticket see brave play bet next
+paycheck call brave fan live outsid georgia
+present time name player season hand ask cub fan
+live anywher unit state name player given year
+probabl could  could right could wrong claim
+complet unverifi untest i'd wager brave fan net
+could name player season  could give away ticket
+brave game howev dad abl get great seat scalper
+face valu isn't exact sign hot ticket  grant fact
+team win bring peopl ball park mean diserv titl
+america team reason consid america team ted turner
+littl station broadcast across nation  precis
+consid america team even especi bad could see
+brave game cabl could cub well brave better
+camerawork better announc rather listen harri
+discuss game skip pete discuss motobal team
+weren't much wors tbs brave lot fan outsid georgia
+home kentucki even though much closer cincinnati
+mani brave fan red fan even could actual watch
+brave play cincinnati watch red anywher america
+watch brave  i'll consid toronto america team
+brave  i'd guess brave fan wide distribut toronto
+fan    consid good look wise especi overburden
+inform golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brave, 1277, 0.570459650035
+fan, 3381, 0.367359856037
+america, 468, 0.303704065202
+team, 8732, 0.238369262035
+ticket, 8919, 0.162826047181
+consid, 2059, 0.1438773524
+watch, 9655, 0.12759313044
+cincinnati, 1760, 0.117941633537
+georgia, 3848, 0.116659234683
+anywher, 557, 0.110758386098
+player, 6683, 0.10616695628
+cub, 2282, 0.101529825878
+outsid, 6332, 0.0974949631849
+game, 3761, 0.0932633093825
+toronto, 9003, 0.0856018997129
+especi, 3190, 0.084929324679
+red, 7194, 0.0820913578955
+away, 833, 0.0813001749373
+diserv, 2710, 0.0799716481983
+season, 7747, 0.0789954193569
+correct, 2156, 0.0789954193569
+discuss, 2708, 0.0788965675956
+paycheck, 6476, 0.0776831213223
+tbs, 8722, 0.0758132587144
+wrong, 9869, 0.075288750878
+live, 5310, 0.0752062087112
+bandwagon, 892, 0.0742323124058
+1993apr20, 43, 0.0742323124058
+wager, 9607, 0.0728628344218
+turner, 9160, 0.0687044449379
+play, 6681, 0.0676445469441
+dad, 2333, 0.0664159180619
+cabl, 1442, 0.0664159180619
+skip, 8009, 0.0657540206453
+overburden, 6339, 0.0634654937693
+kimbal, 5019, 0.0624880068253
+better, 1060, 0.0613626650967
+seat, 7748, 0.0596547935271
+harri, 4184, 0.0596547935271
+weren, 9705, 0.0566163356435
+pete, 6574, 0.0563566799928
+golden, 3934, 0.0561034362525
+wise, 9799, 0.0547027379997
+ted, 8745, 0.0542753490604
+grant, 3994, 0.0542753490604
+bunch, 1399, 0.0538650603341
+broadcast, 1324, 0.0534705559132
+listen, 5300, 0.0523706617997
+closer, 1831, 0.0521982905089
+hot, 4389, 0.051862002992
+year, 9943, 0.0515497888633
+wors, 9846, 0.051220803565
+bet, 1054, 0.0500474281211
+wide, 9747, 0.0499097636329
+precis, 6809, 0.0497739225691
+titl, 8953, 0.0493768723246
+distribut, 2753, 0.0480399010251
+absolut, 193, 0.0478144886462
+park, 6430, 0.047271724415
+announc, 524, 0.0470624140811
+sign, 7946, 0.046656188687
+unit, 9278, 0.0465570975743
+face, 3345, 0.0441119897885
+bring, 1316, 0.0433630549296
+station, 8346, 0.0432910837544
+valu, 9414, 0.0419485358087
+net, 6010, 0.0412787764903
+present, 6837, 0.0410456789478
+exact, 3253, 0.0407056748697
+nation, 5962, 0.0403765819166
+ball, 877, 0.0401101812145
+claim, 1782, 0.0399536003046
+ago, 336, 0.0399536003046
+guess, 4079, 0.0397484764593
+complet, 1975, 0.0396474327811
+home, 4354, 0.0395473749105
+bad, 861, 0.0377691946314
+isn, 4783, 0.0375619986878
+abl, 180, 0.037521057115
+noth, 6119, 0.0373187655392
+win, 9770, 0.0372787816665
+hand, 4145, 0.0371992785522
+given, 3887, 0.0368107529118
+state, 8342, 0.0363631538621
+ask, 689, 0.0355226140322
+howev, 4406, 0.035355848563
+fact, 3350, 0.0351917514561
+littl, 5308, 0.0344689882799
+great, 4016, 0.0341111897713
+inform, 4637, 0.0337089480054
+probabl, 6885, 0.0335412736922
+reason, 7156, 0.0330805635874
+actual, 254, 0.0329751040424
+ll, 5314, 0.032488468047
+lot, 5356, 0.0320000019026
+mean, 5595, 0.0316945358976
+right, 7399, 0.0311974590791
+mani, 5479, 0.0290914017009
+peopl, 6530, 0.0278257241888
+good, 3948, 0.0263633966891
+look, 5341, 0.0255945105035
+time, 8936, 0.0243681135585

@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38332
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: camter28@astro.ocis.temple.edu (Carter Ames)
+Subject: Re: alt.raytrace (potential group)
+Organization: Temple University
+Lines: 7
+Nntp-Posting-Host: astro.ocis.temple.edu
+X-Newsreader: TIN [version 1.1 PL8]
+
+
+
+
+    Yes, please create the group alt.raytrace soon!!
+I'm hooked on pov.
+geez. like I don't have anything better to do....
+OH!! dave letterman is on...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ alt raytrac potenti group         yes pleas creat
+group alt raytrac soon i'm hook pov geez like
+don't anyth better dave letterman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+raytrac, 7121, 0.494590230998
+alt, 446, 0.439234508464
+geez, 3808, 0.311294455056
+group, 4064, 0.299351150212
+hook, 4367, 0.281483524493
+pov, 6778, 0.231267066386
+potenti, 6774, 0.205987489488
+soon, 8136, 0.204938459879
+dave, 2395, 0.185973108831
+creat, 2217, 0.166262178584
+yes, 9951, 0.156665202501
+anyth, 555, 0.147440886409
+better, 1060, 0.128662685918
+pleas, 6688, 0.126518269591
+don, 2811, 0.0975523186969
+like, 5272, 0.0905584248382

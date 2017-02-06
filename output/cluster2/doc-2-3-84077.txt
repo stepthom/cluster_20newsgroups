@@ -1,0 +1,170 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84077
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: clavazzi@nyx.cs.du.edu (The_Doge)
+Subject: Re: Koresh Doctrine -- 4 of 4
+X-Disclaimer: Nyx is a public access Unix system run by the University
+	of Denver for the Denver community.  The University has neither
+	control over nor responsibility for the opinions of users.
+Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
+Lines: 34
+
+In article <C5yy8I.EBn@dscomsa.desy.de> hallam@zeus02.desy.de writes:
+>
+>In article <1993Apr23.171256.5541@mnemosyne.cs.du.edu>, clavazzi@nyx.cs.du.edu(The_Doge) writes:
+>
+>|>
+>|>	Deleted: vast quantities of carefully-annoted spew from "David Koresh"
+>|>	I don't know about the rest of you, but I think Mr. Tice needs a hobby.
+>
+>He has one. He spent last summer telling everyone who doubted the word
+>of the great Perot that they were bigotted perot-bashers, right up to the
+>moment he chickened out on them. He then kept quiet for a bit and then
+>came back when Perot re-entered.
+>
+	This seems appropriate, somehow...>:-)>
+>
+>
+[....]
+>Then there is the rumour that Loresh in fact survived the fire in a secret
+>hideyhole and rose again on the third day only to be spirited away by
+>FBI agents and disposed of in order to prevent a cult following.
+>
+	Hah!  I have it on the very *best* authority (mine) that Koresh is
+whooping it up in a time-share condo in Dallas with Elvis, JFK, and (of course)
+J.R. "Bob" Dobbs, who also owns the place and everything else in Texas.
+	Look for "koresh" sightings in the Weekly World News and National
+Enquirer in the coming months.
+	************************************************************
+	*  	The_Doge of South St. Louis			   *
+	*		Dobbs-Approved Media Conspirator(tm)	   *
+	*	"One Step Beyond"  -- Sundays, 3 to 5 pm	   *
+	*		88.1 FM		St. Louis Community Radio  *
+	*  "You'll pay to know what you *really* think!"           *
+	*			-- J.R. "Bob" Dobbs"		   *
+	************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ koresh doctrin disclaim nyx public access unix
+system run univers denver denver communiti univers
+neither control respons opinion user         delet
+vast quantiti care annot spew david koresh don't
+know rest think tice need hobbi  one spent last
+summer tell everyon doubt word great perot bigot
+perot basher right moment chicken kept quiet bit
+came back perot enter  seem appropri somehow
+rumour loresh fact surviv fire secret hideyhol
+rose third day spirit away fbi agent dispos order
+prevent cult follow  hah best author mine koresh
+whoop time share condo dalla elvi jfk cours bob
+dobb also own place everyth els texa look koresh
+sight week world news nation enquir come month
+doge south loui dobb approv media conspir one step
+beyond sunday loui communiti radio you'll pay know
+realli think bob dobb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+perot, 6553, 0.354242207068
+dobb, 2782, 0.323945379923
+koresh, 5065, 0.313352721233
+denver, 2533, 0.189784789906
+loui, 5363, 0.172011542965
+communiti, 1953, 0.162462378621
+bob, 1189, 0.143446927944
+chicken, 1702, 0.127210250462
+spew, 8225, 0.120595534126
+doge, 2796, 0.120595534126
+tice, 8917, 0.118080735689
+conspir, 2065, 0.118080735689
+elvi, 3057, 0.115902318197
+bigot, 1086, 0.115902318197
+dispos, 2735, 0.11398081779
+annot, 523, 0.11398081779
+nyx, 6164, 0.109287601861
+dalla, 2342, 0.109287601861
+univers, 9282, 0.108427695005
+hobbi, 4332, 0.107981793308
+quiet, 7040, 0.103605362046
+quantiti, 7021, 0.0979796695949
+approv, 591, 0.0973137037482
+rumour, 7542, 0.0948923949529
+summer, 8538, 0.0943393285035
+vast, 9434, 0.093804398685
+sight, 7943, 0.0927844479707
+secret, 7755, 0.0927844479707
+rose, 7481, 0.0904829061366
+doctrin, 2787, 0.088850154822
+spirit, 8238, 0.0880912320411
+south, 8154, 0.0877246121674
+agent, 331, 0.0877246121674
+surviv, 8599, 0.0873660505294
+fbi, 3414, 0.0866717373293
+appropri, 590, 0.0856827134446
+cult, 2289, 0.0841569388924
+prevent, 6853, 0.0827617388951
+texa, 8820, 0.0824964664194
+kept, 4989, 0.0824964664194
+sunday, 8541, 0.0819785213997
+share, 7855, 0.0817255876851
+spent, 8223, 0.0807513341933
+disclaim, 2691, 0.0800570209932
+media, 5605, 0.0793910551465
+enter, 3125, 0.0791749738709
+moment, 5828, 0.0775422225563
+step, 8377, 0.0753638050636
+think, 8871, 0.07472741948
+unix, 9284, 0.0746978392169
+pay, 6474, 0.0739018814649
+doubt, 2830, 0.0729953205923
+radio, 7061, 0.0728490066267
+user, 9366, 0.0704176554194
+everyth, 3242, 0.0702926440966
+know, 5052, 0.0702797107172
+delet, 2502, 0.0699232570449
+rest, 7324, 0.0696815652494
+access, 209, 0.0696815652494
+control, 2107, 0.0680831228808
+month, 5847, 0.0672354570101
+author, 796, 0.0669286034908
+david, 2397, 0.0658504161606
+came, 1472, 0.0657558425752
+everyon, 3241, 0.0650183656996
+away, 833, 0.0646617635713
+nation, 5962, 0.0642267005138
+care, 1516, 0.0642267005138
+respons, 7323, 0.0628286855915
+public, 6973, 0.062671819981
+opinion, 6266, 0.0611098449067
+week, 9691, 0.0600791507624
+word, 9829, 0.0584337210731
+order, 6281, 0.0576693265841
+els, 3053, 0.0563989061098
+news, 6031, 0.0563458527368
+fact, 3350, 0.0559792328631
+place, 6657, 0.0558759800007
+cours, 2190, 0.055824597603
+bit, 1122, 0.055023754719
+world, 9841, 0.054637608933
+best, 1052, 0.054542483895
+great, 4016, 0.0542603921783
+follow, 3578, 0.0536205494722
+tell, 8767, 0.0533097991661
+ll, 5314, 0.0516791419273
+right, 7399, 0.0496255444605
+run, 7543, 0.0491416221806
+realli, 7150, 0.0484090383829
+day, 2402, 0.0483765081672
+come, 1923, 0.0473073925135
+need, 5993, 0.0438630165148
+look, 5341, 0.0407129797243
+time, 8936, 0.0387621600769
+don, 2811, 0.0370037094232

@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61530
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: LLNL Inflated space stations (was Deployable Space Dock..)
+Organization: University of Illinois at Urbana
+Lines: 20
+
+kjenks@gothamcity.jsc.nasa.gov writes:
+
+>: In article <1993Apr30.000050.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>: >Why not build a inflatable space dock.
+
+[discussion of pros and cons deleted]
+
+>These are some of the technical difficulties which the LLNL proposal
+>for an inflatable space station dealt with to varying degrees of
+>success.
+
+Could someone give me the references to the LLNL proposal?  I've been meaning
+to track it down in conjuntion with something I'm working on.  It's not 
+directly related to space stations, but I think many of the principles will 
+carry over.
+
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ llnl inflat space station deploy space dock
+build inflat space dock  discuss pros con delet
+technic difficulti llnl propos inflat space
+station dealt vari degre success  could someon
+give refer llnl propos i'v mean track conjunt
+someth i'm work it direct relat space station
+think mani principl carri    find way make one
+attribut hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+llnl, 5315, 0.500089353436
+inflat, 4632, 0.383366072128
+space, 8164, 0.332778258002
+dock, 2784, 0.303894239864
+station, 8346, 0.297125554558
+propos, 6933, 0.19710940692
+dealt, 2420, 0.163932854147
+hannib, 4155, 0.141917806375
+difficulti, 2636, 0.137302303169
+deploy, 2540, 0.132746732194
+vari, 9426, 0.128354102535
+principl, 6870, 0.123233119733
+attribut, 773, 0.122330567871
+track, 9030, 0.116140565993
+degre, 2491, 0.108885940645
+technic, 8737, 0.104154831778
+success, 8513, 0.104154831778
+delet, 2502, 0.100567089453
+carri, 1530, 0.0992065080222
+build, 1378, 0.0947093280894
+discuss, 2708, 0.0902502484985
+direct, 2667, 0.0899142505561
+relat, 7247, 0.089692895562
+refer, 7213, 0.0865047737048
+someon, 8124, 0.0766727919727
+mean, 5595, 0.0725111326887
+someth, 8126, 0.0690689012454
+mani, 5479, 0.0665556516003
+work, 9833, 0.0664736114631
+way, 9666, 0.0613775321004
+make, 5459, 0.0588494548248
+think, 8871, 0.0537383368356

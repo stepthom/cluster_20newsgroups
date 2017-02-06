@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38641
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: doug@hparc0.aus.hp.com (Doug Parsons)
+Subject: Re: 3d-Studio V2.01 : Any differences with previous version
+Organization: HP Australasian Response Centre (Melbourne)
+X-Newsreader: TIN [version 1.1 PL8.5]
+Lines: 10
+
+FOMBARON marc (fombaron@ufrima.imag.fr) wrote:
+: Are there significant differences between V2.01 and V2.00 ?
+: Thank you for helping
+
+
+No.  As I recall, the only differences are in the 3ds.set parameters - some
+of the defaults have changed slightly.  I'll look when I get home and let
+you know, but there isn't enough to actually warrant upgrading.
+
+douginoz
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ studio differ previous version      signific
+differ thank help   recal differ 3ds set paramet
+default chang slight i'll look get home let know
+isn't enough actual warrant upgrad  douginoz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+differ, 2633, 0.385444819928
+douginoz, 2836, 0.316055492976
+3ds, 99, 0.270214627929
+warrant, 9645, 0.252379033334
+studio, 8470, 0.252379033334
+default, 2470, 0.252379033334
+upgrad, 9337, 0.242706843593
+paramet, 6421, 0.229288395914
+slight, 8034, 0.206538168287
+recal, 7166, 0.204762319281
+previous, 6855, 0.195451397196
+signific, 7951, 0.179787914352
+version, 9479, 0.162341896544
+home, 4354, 0.160899367333
+isn, 4783, 0.152821820369
+chang, 1650, 0.149920765203
+set, 7815, 0.149456276323
+actual, 254, 0.134159938306
+ll, 5314, 0.132180049023
+let, 5225, 0.131774937554
+help, 4249, 0.122585136464
+thank, 8832, 0.116851968416
+look, 5341, 0.10413183066
+know, 5052, 0.0898774172855

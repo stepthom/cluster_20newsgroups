@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83481
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ch981@cleveland.Freenet.Edu (Tony Alicea)
+Subject: Rosicrucian Order(s) ?!
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 22
+Reply-To: ch981@cleveland.Freenet.Edu (Tony Alicea)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+Kent:
+
+     You say that
+
+>There are about 4-10 competing Rosicrucian orders existing today,
+                      ^^^^^^^^^
+>most of them are spin-offs from OTO and other competing organizations
+>from the 19th century France/Germany. Maybe I should write an article
+                        Please don't!  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>about all this, I spent some time investigating these organizations
+>and their conceptual world view systems.
+
+     Name just three *really* competing Rosicrucian Orders. I have
+probably spent more time than you doing the same. 
+
+     None of them are spin-offs from O.T.O. The opposite may be the
+case. 
+
+Study Harder,
+
+Tony
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rosicrucian order       kent  say  compet
+rosicrucian order exist today  spin off oto compet
+organ 19th centuri franc germani mayb write articl
+pleas don't spent time investig organ conceptu
+world view system  name three realli compet
+rosicrucian order probabl spent time  none spin
+off opposit case  studi harder  toni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rosicrucian, 7486, 0.468507220534
+compet, 1969, 0.408670200209
+spin, 8235, 0.283523286585
+order, 6281, 0.269758505715
+spent, 8223, 0.251819127391
+organ, 6287, 0.212996807631
+conceptu, 2003, 0.172617361269
+oto, 6315, 0.166482909885
+19th, 51, 0.163086265127
+franc, 3648, 0.152772428753
+harder, 4170, 0.147958670478
+germani, 3855, 0.147096315001
+opposit, 6270, 0.133598697456
+investig, 4745, 0.132620228734
+toni, 8984, 0.13167800804
+centuri, 1614, 0.125182741382
+kent, 4987, 0.121518804668
+time, 8936, 0.120877920147
+studi, 8469, 0.10940866568
+view, 9510, 0.0993530756904
+today, 8964, 0.0972372852693
+exist, 3283, 0.0912054027757
+mayb, 5564, 0.0890392393165
+case, 1540, 0.0884406928689
+write, 9865, 0.0876912656586
+world, 9841, 0.0851923695237
+probabl, 6885, 0.083190670325
+articl, 665, 0.0819823510632
+realli, 7150, 0.075480621622
+pleas, 6688, 0.0748289965219
+say, 7653, 0.0645812304457
+don, 2811, 0.0576971384453

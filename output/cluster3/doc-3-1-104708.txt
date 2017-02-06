@@ -1,0 +1,206 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104708
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kime@mongoose.torolab.ibm.com (Edward Kim)
+Subject: Re: Relative value of players
+In-Reply-To: jle@world.std.com's message of Tue, 20 Apr 1993 05:19:28 GMT
+Lines: 49
+Organization: IBM Toronto Lab
+
+In article <C5ro4H.Lww@world.std.com> jle@world.std.com (Joe M Leonard) writes:
+
+> Before folks jump on me, let me ask the net - would the Jays
+> have won the AL with a good pitcher from AAA in place of Morris (given
+> his run support)?  How about an average ML pitcher?  I can't believe
+> that Morris' performance in the playoffs and series had a large positive
+> impact on the Jays performance ...
+
+I know it's very trendy nowadays to dump on Morris, but let's give credit
+where credit is due.
+
+It is doubtful that the blue jays would have won the AL east without Morris.
+Last year, when the team went 13-15 for the month of August, and all the 
+other starters were being shelled, and Milwaukee was making a charge,
+Morris went 5-1 with a pretty good era (I can't remember exactly).
+Also, let's not underestimate the importance his 240+ innings to save 
+the bullpen every fifth day.  If he didn't help us win the AL east, forget
+about the pennent and the world series.
+
+His run support was high (5.98 runs) but so was Stottlemyer's (5.90 runs)
+and he won only 12 games.  I do remember Morris winning an inordinate number of
+6-5 and 8-6 ballgames, but this is to his credit.  He pitched only as good
+as he needed to be.  When he was up 6-1 in a ballgame, he just put it in cruise
+control and threw the ball up there and let the batters "get themseleves out"
+(I hate this expression!).  An inexperienced pitcher would wear himself out 
+trying to make perfect pitches to keep his era down.  But Morris, being a 
+veteran pitcher, knows that winning is the only thing that really matters in
+baseball.  By saving himself, he was able to reach back for that little extra
+(I hate this too!) when the game was on the line.
+
+Yes Morris is crapping out big time this year, but let's not change history
+to suit the present.  
+
+BTW, I think he should be put in the bullpen; it would be embarrassing a 
+veteran pitcher which Cito would never do, but his era is 17+, how much more
+can he be embarrassed?
+
+> 
+> From where I sit, I'll let others have the excellent players - I'll
+> settle for good enough and the ring :-)
+
+ditto!
+
+> 
+> Joe Leonard
+> jle@world.std.com
+> 
+
+eddie 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ relat valu player       folk jump let ask net jay
+good pitcher aaa place morri given run support
+averag pitcher can't believ morri perform playoff
+seri larg posit impact jay perform  know it trendi
+nowaday dump morri let give credit credit due
+doubt blue jay east without morri last year team
+went month august starter shell milwauke make
+charg morri went pretti good era can't rememb
+exact also let underestim import inning save
+bullpen everi fifth day didn't help win east
+forget pennent world seri  run support high run
+stottlemy run game rememb morri win inordin number
+ballgam credit pitch good need ballgam put cruis
+control threw ball let batter get themselev hate
+express inexperienc pitcher wear tri make perfect
+pitch keep era morri veteran pitcher know win
+thing realli matter basebal save abl reach back
+littl extra hate game line  yes morri crap big
+time year let chang histori suit present  btw
+think put bullpen embarrass veteran pitcher cito
+never era much embarrass   sit i'll let other
+excel player i'll settl good enough ring  ditto
+joe leonard    eddi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+morri, 5868, 0.477164574037
+pitcher, 6644, 0.242218953705
+let, 5225, 0.230958878199
+credit, 2225, 0.1950372597
+era, 3164, 0.182622763179
+jay, 4832, 0.163284926581
+embarrass, 3062, 0.161354743726
+ballgam, 879, 0.152103740278
+veteran, 9490, 0.147446293663
+run, 7543, 0.146862422087
+win, 9770, 0.13291384832
+bullpen, 1391, 0.130549107045
+good, 3948, 0.125328148332
+hate, 4202, 0.122882549878
+east, 2965, 0.110898716985
+went, 9704, 0.108856617721
+seri, 7805, 0.0994116430718
+perform, 6539, 0.098972397182
+save, 7646, 0.0981169589777
+themselev, 8841, 0.0923238559389
+stottlemy, 8420, 0.0923238559389
+leonard, 5218, 0.0923238559389
+inordin, 4660, 0.0923238559389
+inexperienc, 4618, 0.0923238559389
+cito, 1777, 0.0923238559389
+trendi, 9085, 0.0901015852178
+rememb, 7269, 0.0897749118398
+pitch, 6643, 0.0889916320127
+pennent, 6525, 0.088222682095
+ditto, 2758, 0.0865951021786
+underestim, 9238, 0.0851594749484
+player, 6683, 0.0841173098285
+support, 8576, 0.0839600351711
+nowaday, 6130, 0.0827135512796
+playoff, 6685, 0.0797740887864
+crap, 2210, 0.0789331523608
+ll, 5314, 0.0772229692266
+eddi, 2990, 0.074831978517
+game, 3761, 0.0738936008513
+settl, 7817, 0.0737231468313
+cruis, 2255, 0.0737231468313
+shell, 7873, 0.0727068297733
+milwauke, 5730, 0.0704845590522
+dump, 2916, 0.0704845590522
+wear, 9676, 0.0689589775859
+threw, 8894, 0.0686056559294
+fifth, 3471, 0.0676032768302
+aaa, 157, 0.0676032768302
+jump, 4929, 0.0663833852083
+august, 784, 0.066096578007
+ring, 7406, 0.0658163646623
+impact, 4534, 0.0633201780617
+starter, 8335, 0.0628769021691
+sit, 7993, 0.061834494319
+suit, 8529, 0.0614412749389
+year, 9943, 0.0612652426895
+make, 5459, 0.0611419681546
+joe, 4876, 0.0605103842773
+excel, 3261, 0.0583780677923
+folk, 3576, 0.0582285107789
+express, 3315, 0.0582285107789
+charg, 1664, 0.0579347918997
+batter, 949, 0.0579347918997
+btw, 1355, 0.0575070727975
+extra, 3325, 0.056825960214
+inning, 4657, 0.0561809026284
+blue, 1176, 0.0561809026284
+forget, 3604, 0.0555682740079
+doubt, 2830, 0.0545376256799
+perfect, 6538, 0.0532864005095
+reach, 7128, 0.0529926816303
+histori, 4314, 0.0527058744289
+know, 5052, 0.0525086885692
+averag, 816, 0.0518838499446
+control, 2107, 0.0508675328866
+month, 5847, 0.0502342089476
+valu, 9414, 0.0498544665936
+net, 6010, 0.0490584794888
+present, 6837, 0.0487814506624
+exact, 3253, 0.0483773669054
+posit, 6761, 0.0478586186746
+ball, 877, 0.0476696421191
+matter, 5553, 0.0473002579823
+relat, 7247, 0.0465934661627
+import, 4551, 0.0461993384966
+larg, 5124, 0.0451387791262
+pretti, 6851, 0.0446900630444
+abl, 180, 0.044592552575
+yes, 9951, 0.0443998411509
+chang, 1650, 0.0437937749431
+given, 3887, 0.0437483791972
+ask, 689, 0.0422174681534
+place, 6657, 0.0417471045685
+everi, 3235, 0.0417471045685
+big, 1082, 0.0415185589289
+high, 4292, 0.0412203484906
+basebal, 924, 0.0410739353947
+littl, 5308, 0.0409652683124
+world, 9841, 0.0408218696741
+didn, 2625, 0.0407154170876
+team, 8732, 0.0404705847363
+line, 5285, 0.0404015265138
+number, 6156, 0.0396342661338
+believ, 1009, 0.0376404390626
+realli, 7150, 0.036168263848
+day, 2402, 0.0361439592664
+help, 4249, 0.0358086878116
+tri, 9087, 0.0352997858886
+thing, 8869, 0.0332985112599
+need, 5993, 0.0327717551819
+time, 8936, 0.0289607081614
+think, 8871, 0.027915871857

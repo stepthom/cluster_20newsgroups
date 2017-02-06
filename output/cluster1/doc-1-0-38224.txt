@@ -1,0 +1,130 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38224
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: millernw@craft.camp.clarkson.edu (Neal Miller)
+Subject: Re: Trying to view POV files.....
+Nntp-Posting-Host: craft.clarkson.edu
+Organization: Clarkson University
+Lines: 31
+
+merkelbd@sage.cc.purdue.edu (Brian Merkel) writes:
+
+>In article <1993Apr11.132604.13400@ornl.gov> ednobles@sacam.OREN.ORTN.EDU (Edward d Nobles) writes:
+>>
+>>I've been trying to view .tga files created in POVRAY.  I have the Diamond
+>>SpeedStar 24 Video board (not the _24X_).  So far I can convert them to
+>>jpeg using cjpeg and view them with CVIEW but that only displays 8 bit color.
+>>
+>>I'm looking for some way to convert and/or view them in 24 bit.
+>>
+>>I have UNIVESA (uvesa31.zip) and the DVPEG viewer but I don't get anything.
+>>Perhaps I am not setting up UNIVESA properly?  If anyone has ideas about this
+>>please feel free to enlighten me...
+>>
+>>Just want to see the darn things in real color...
+
+>Image Alchemy (aka alchemy) will view the TGA files that POV outputs
+> and just about any other format you can think of. It will also convert
+> between all these. It's shareware, so it's probably available by FTP
+> somwhere out there in netland...
+
+        Yep... Alchemy works fine on my Tseng400+DAC, but I think I remember
+reading that it only displays in 15-bit or so.  Of course, that's still 32K
+colors which is nothing to sneeze at.  Use the --v flag.
+
+
+--
+-----------------------------------------------------------------------------
+ Neal Miller         | "Why not go mad?"  | millernw@craft.camp.clarkson.edu
+ Clarkson University |     - Ford Prefect |     dark@craft.camp.clarkson.edu
+-----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tri view pov file         i'v tri view tga file
+creat povray diamond speedstar video board 24x far
+convert jpeg use cjpeg view cview display bit
+color  i'm look way convert view bit  univesa
+uvesa31 zip dvpeg viewer don't get anyth perhap
+set univesa proper anyon idea pleas feel free
+enlighten  want see darn thing real color  imag
+alchemi aka alchemi view tga file pov output
+format think also convert it sharewar it probabl
+avail ftp somwher netland  yep alchemi work fine
+tseng400 dac think rememb read display bit cours
+that still 32k color noth sneez use flag
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alchemi, 390, 0.350747296885
+view, 9510, 0.34495691113
+univesa, 9283, 0.261146231635
+convert, 2115, 0.212979539009
+color, 1907, 0.212979539009
+tga, 8827, 0.203130782619
+pov, 6778, 0.189965176199
+file, 3477, 0.183368254021
+bit, 1122, 0.178728586005
+display, 2734, 0.152216740449
+uvesa31, 9395, 0.14281662019
+sneez, 8076, 0.137735106753
+dac, 2331, 0.137735106753
+dvpeg, 2932, 0.133793578715
+somwher, 8131, 0.127850253234
+aka, 370, 0.123411124882
+cjpeg, 1781, 0.121550074343
+24x, 69, 0.121550074343
+netland, 6013, 0.118329611445
+speedstar, 8218, 0.114388083408
+yep, 9949, 0.112177246328
+enlighten, 3116, 0.112177246328
+darn, 2370, 0.112177246328
+povray, 6780, 0.10930656997
+flag, 3515, 0.10930656997
+cview, 2320, 0.106837864909
+diamond, 2614, 0.106086107072
+tri, 9087, 0.102311252794
+sharewar, 7856, 0.096201253554
+zip, 9988, 0.0957856192472
+jpeg, 4905, 0.0904998995698
+proper, 6924, 0.0893218869368
+output, 6329, 0.0890392626187
+viewer, 9512, 0.0874323696016
+board, 1186, 0.0848195612253
+think, 8871, 0.0809100608011
+video, 9506, 0.0800162211441
+fine, 3485, 0.0784093281271
+use, 9363, 0.0780217876354
+free, 3668, 0.0719257879726
+ftp, 3709, 0.0714016057971
+format, 3612, 0.070692940548
+feel, 3429, 0.0694478325093
+perhap, 6540, 0.068371541679
+creat, 2217, 0.0682847422756
+rememb, 7269, 0.0650498541886
+noth, 6119, 0.0642740805177
+set, 7815, 0.0632682883707
+avail, 811, 0.0613551710493
+real, 7144, 0.0605547395991
+anyth, 555, 0.0605547395991
+cours, 2190, 0.0604432966866
+idea, 4482, 0.0603878377932
+imag, 4512, 0.0592098251601
+far, 3386, 0.0590038328192
+probabl, 6885, 0.0577681092824
+read, 7135, 0.0537693864523
+pleas, 6688, 0.0519617119525
+work, 9833, 0.0500423372015
+thing, 8869, 0.0482554258815
+want, 9634, 0.0481166691346
+anyon, 554, 0.0474654011513
+way, 9666, 0.046205931803
+look, 5341, 0.0440814052969
+don, 2811, 0.0400652451286

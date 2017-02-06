@@ -1,0 +1,194 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104716
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: davidm@gvls2.vfl.paramax.com (David Madden)
+Subject: Re: How to speed up games (marginally realistic)
+Organization: Paramax Systems Corporation, Paoli PA
+Lines: 45
+Nntp-Posting-Host: gvls2
+
+In article <C5sHE2.LKF@ucdavis.edu>, ez027993@chip.ucdavis.edu (Gary Built Like Villanueva Huckabay) writes:
+|> You want to speed up ballgames?
+|>  
+|> 3.  Mandate a rule permitting only N seconds between pitches (the current
+|>     rule is too lenient), and then enforce it.  Fifteen seconds is more
+|>     than enough time.  If the pitch isn't released in 15, call it a ball,
+|>     and restart the clock.
+|> 
+I remember a post from last year indicating that a "pitch clock" was tried
+in one of the minor leagues some time back and did not work.  I don't remember
+why they said that it did not work.  Anyone remember this?
+
+Jody McDonnel on WIP in Phil. has been saying that a pitch clock was
+inevitable.  How would a pitch clock work on throws to first?
+
+Another pair of suggestions:
+1. Remove the Balk rule.  It is the runners responsibility to stay "safe"
+   no matter what the pitcher does.
+
+2. If a pitcher throws to an occupied base more than X time (X = 3 to 5)
+   without successfully picking off the runner, the runner advances a base
+   as if walked.
+
+The no-balk seems to give the pitcher the advantage.  The base-walk allows
+the runner to "challenge" pitcher to throw over to the base.
+
+|> Baseball games take about 2:51 in the NL, and just a shade under 3 hours
+|> in the AL.  That's just too damn long.  I don't like to PLAY in 3 hour
+|> games, much less WATCH a game for that long.  My butt falls asleep, and
+|> if I'm watching on TV, I'll channel surf between pitches, catching
+|> colorized versions of Mr. Ed, Leave it to Beaver, and "Those Wacky
+|> Nieporents" on Nick at Nite.
+
+I too, find myself surfing when I know that it will be enough time between
+each pitch to allow the batter to adjust his "jewlery".
+
+|> 
+|> 
+|> -- 
+|> *   Gary Huckabay   * "You think that's loud enough, a$$hole?"           *
+|> *   "Movie Rights   * "Well, if you're having trouble hearing it, sir,   *
+|> *   available thru  *  I'd be happy to turn it up for you.  I didn't     *
+|> *     Ted Frank."   *  know that many people your age liked King's X."   *
+
+David Madden
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ speed game margin realist      want speed ballgam
+mandat rule permit second pitch current rule
+lenient enforc fifteen second enough time pitch
+isn't releas call ball restart clock  rememb post
+last year indic pitch clock tri one minor leagu
+time back work don't rememb said work anyon rememb
+jodi mcdonnel wip phil say pitch clock inevit
+pitch clock work throw first  anoth pair suggest
+remov balk rule runner respons stay safe matter
+pitcher  pitcher throw occupi base time without
+success pick runner runner advanc base walk  balk
+seem give pitcher advantag base walk allow runner
+challeng pitcher throw base  basebal game take
+shade hour that damn long don't like play hour
+game much less watch game long butt fall asleep
+i'm watch i'll channel surf pitch catch color
+version leav beaver wacki niepor nick nite  find
+surf know enough time pitch allow batter adjust
+jewleri     gari huckabay think that loud enough
+hole movi right well you'r troubl hear sir avail
+thru i'd happi turn didn't ted frank know mani
+peopl age like king  david madden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pitch, 6643, 0.336056505952
+clock, 1827, 0.3097352221
+runner, 7545, 0.268615093884
+pitcher, 6644, 0.209070714156
+surf, 8586, 0.190372995881
+balk, 876, 0.190372995881
+throw, 8899, 0.176884621666
+rule, 7537, 0.164648212887
+base, 923, 0.164623281684
+game, 3761, 0.15945271484
+rememb, 7269, 0.145291878313
+time, 8936, 0.124986832062
+hour, 4395, 0.118405694886
+work, 9833, 0.111771890312
+walk, 9617, 0.111768649502
+watch, 9655, 0.109073284972
+speed, 8217, 0.106941762341
+allow, 432, 0.10079073013
+lenient, 5214, 0.0996113960094
+beaver, 979, 0.0996113960094
+nite, 6077, 0.097213711396
+mandat, 5474, 0.097213711396
+wacki, 9602, 0.0951864979404
+asleep, 691, 0.0934304457701
+niepor, 6058, 0.0918814979809
+second, 7753, 0.091534517176
+restart, 7325, 0.0892425064797
+occupi, 6191, 0.0892425064797
+jodi, 4875, 0.0892425064797
+wip, 9791, 0.088098232355
+huckabay, 4422, 0.088098232355
+mcdonnel, 5574, 0.0860710188995
+butt, 1430, 0.0860710188995
+inevit, 4616, 0.0843149667291
+long, 5336, 0.0828732645896
+loud, 5361, 0.08276601894
+ballgam, 879, 0.0820549886767
+pair, 6394, 0.0813804379275
+enforc, 3106, 0.0807388054844
+permit, 6552, 0.0789827533141
+sir, 7989, 0.0774338055249
+nick, 6052, 0.0751994876882
+channel, 1652, 0.0744022219919
+realist, 7147, 0.0740210110569
+shade, 7835, 0.0729395096357
+ted, 8745, 0.0695961129879
+catch, 1556, 0.0695961129879
+margin, 5507, 0.0690700085769
+king, 5024, 0.068814644118
+challeng, 1642, 0.068814644118
+safe, 7577, 0.068318326484
+gari, 3776, 0.068318326484
+adjust, 269, 0.0680770195961
+movi, 5892, 0.0671537734711
+damn, 2346, 0.0671537734711
+phil, 6588, 0.064718991918
+advantag, 286, 0.0641747408828
+troubl, 9117, 0.0636521215271
+hole, 4343, 0.0633149016042
+stay, 8355, 0.0628247508431
+remov, 7272, 0.0628247508431
+batter, 949, 0.0625078474025
+happi, 4161, 0.0618960693568
+minor, 5745, 0.060480633947
+fall, 3369, 0.060214951044
+don, 2811, 0.0596583937293
+pick, 6619, 0.059202847443
+age, 328, 0.0588425274677
+leav, 5184, 0.0586076845055
+success, 8513, 0.0583769618085
+releas, 7253, 0.0574925374281
+indic, 4600, 0.0572804222423
+hear, 4223, 0.0567646362755
+know, 5052, 0.0566534371621
+frank, 3655, 0.0562683186414
+like, 5272, 0.0553812583511
+david, 2397, 0.0530829221689
+color, 1907, 0.0528555241734
+leagu, 5176, 0.0527805903159
+turn, 9158, 0.0523397382065
+ball, 877, 0.0514324228604
+version, 9479, 0.0511653912208
+matter, 5553, 0.0510338815608
+respons, 7323, 0.0506470637801
+suggest, 8525, 0.0501483933673
+advanc, 285, 0.0497270484268
+isn, 4783, 0.0481649432014
+current, 2299, 0.0476491572345
+avail, 811, 0.0456798771608
+basebal, 924, 0.0443160871333
+didn, 2625, 0.0439292693525
+said, 7583, 0.0437776727873
+play, 6681, 0.0433695739746
+anoth, 533, 0.042384557626
+ll, 5314, 0.0416592639596
+right, 7399, 0.0400038309213
+post, 6766, 0.0384078317174
+tri, 9087, 0.0380861578563
+mani, 5479, 0.037303278833
+want, 9634, 0.035823607006
+peopl, 6530, 0.0356803277757
+anyon, 554, 0.0353387278839
+say, 7653, 0.0333882457369
+year, 9943, 0.0330505928782
+think, 8871, 0.0301193980495

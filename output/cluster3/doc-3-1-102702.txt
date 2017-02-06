@@ -1,0 +1,134 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102702
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu The Liberalizer (Michael Lurie)
+Subject: Re: YANKKES 1 GAME CLOSER
+Article-I.D.: alleg.1993Apr6.210350.2865
+Organization: Allegheny College
+Lines: 29
+
+In article <002251w.5.734117130@axe.acadiau.ca> 002251w@axe.acadiau.ca  
+(JASON WALTER WORKS) writes:
+>     The N.Y.Yankees, are now one game closer to the A.L.East pennant.   
+They 
+> clobbered Cleveland, 9-1, on a fine pitching performance by Key, and two 
+> homeruns by Tartabull(first M.L.baseball to go out this season), and a  
+three 
+> run homer by Nokes.  For all of you who didn't pick Boggs in your pools, 
+> tough break, he had a couple hits, and drove in a couple runs(with many  
+more 
+> to follow).  The Yanks beat an up and coming team of youngsters in the 
+> Indians.  The Yankees only need to win 95 more games to get the  
+division.
+>  GO YANKS., Mattingly for g.glove, and MVP, and Abbot for Cy Young.
+> 
+>                                              ---> jason.
+
+Jason, I am going to a yankee game wed night at cleveland stadium. I am so  
+happy.
+
+
+But Cleveland is a very bad team who lost severalrs. They were an up and  
+coming team, now they are just a sad excuse for a better average.
+
+
+
+ABBOT WILL NOT WIN THE CY.!!!!!! MELIDO PEREZ WILL. as bold a prediction  
+as they come., Well herOT be in last place by the end of the season. Mike  
+lurie Speaks, and the world listens.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yankk game closer articl alleg 1993apr6    axe
+acadiau  yanke one game closer east pennant
+clobber cleveland fine pitch perform key two
+homerun tartabul first basebal season three run
+homer noke didn't pick bogg pool tough break coupl
+hit drove coupl run mani  follow yank beat come
+team youngster indian yanke need win game get
+divis yank mat glove mvp abbot young  jason  jason
+go yanke game wed night cleveland stadium happi
+cleveland bad team lost severalr come team sad
+excus better averag    abbot win melido perez bold
+predict come well herot last place end season mike
+luri speak world listen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cleveland, 1811, 0.279856745938
+abbot, 166, 0.26805854333
+yanke, 9933, 0.247487780326
+jason, 4828, 0.222726910405
+game, 3761, 0.214547050751
+yank, 9932, 0.209713307236
+closer, 1831, 0.180118891723
+team, 8732, 0.176257033707
+come, 1923, 0.153934935987
+coupl, 2187, 0.147223061063
+yankk, 9934, 0.137977743163
+season, 7747, 0.136293423089
+melido, 5623, 0.134029271665
+youngster, 9964, 0.130803135547
+luri, 5398, 0.130803135547
+clobber, 1826, 0.130803135547
+win, 9770, 0.128636642562
+noke, 6093, 0.123628527932
+axe, 839, 0.121764198936
+wed, 9686, 0.120077708216
+tartabul, 8706, 0.120077708216
+pool, 6740, 0.120077708216
+drove, 2881, 0.120077708216
+bold, 1205, 0.115810403596
+perez, 6537, 0.11458959132
+tough, 9017, 0.11040674872
+run, 7543, 0.106602260418
+1993apr6, 49, 0.104856653618
+mvp, 5937, 0.102924398398
+bogg, 1199, 0.102924398398
+pennant, 6524, 0.102324518591
+homerun, 4356, 0.102324518591
+glove, 3911, 0.100638027872
+alleg, 422, 0.099098382473
+excus, 3268, 0.0976820460027
+mat, 5540, 0.0947609995048
+sad, 7571, 0.0943804523734
+stadium, 8300, 0.0940079173589
+homer, 4355, 0.0919237748576
+indian, 4598, 0.0912802581367
+listen, 5300, 0.0903568437796
+beat, 974, 0.0868333097435
+happi, 4161, 0.083282490028
+divis, 2767, 0.0819281317633
+key, 4994, 0.0811983475267
+break, 1284, 0.0810205092499
+east, 2965, 0.0804974733501
+predict, 6816, 0.0801571790239
+pick, 6619, 0.0796587021282
+young, 9962, 0.0790151854073
+fine, 3485, 0.0785474552779
+lost, 5355, 0.0782423656579
+speak, 8192, 0.0779424472982
+mike, 5710, 0.0763780366617
+averag, 816, 0.07532131916
+perform, 6539, 0.0718405777919
+night, 6063, 0.0718405777919
+bad, 861, 0.0651644470723
+pitch, 6643, 0.0645958918291
+hit, 4316, 0.0618782268233
+end, 3091, 0.0610006208728
+place, 6657, 0.0606055061559
+basebal, 924, 0.0596282465609
+world, 9841, 0.0592623153006
+didn, 2625, 0.0591077749331
+follow, 3578, 0.0581591685922
+articl, 665, 0.0570293321451
+better, 1060, 0.0529355229961
+mani, 5479, 0.0501923624505
+need, 5993, 0.0475757260521

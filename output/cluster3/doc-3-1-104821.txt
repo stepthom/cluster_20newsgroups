@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104821
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: punjabi@leland.Stanford.EDU (sanjeev punjabi)
+Subject: Why is Barry Bonds not batting 4th?
+Organization: DSG, Stanford University, CA 94305, USA
+Lines: 7
+
+
+As the heading indicates, it is impossible for me to fathom why Barry is not
+batting 4th for the Giants behind Will Clark.  Barry is such an awesome and
+consistent hitter -- definitely the best in the National League.  IMHO, to 
+have Williams, a streaky hitter (and not really a clutch hitter) batting
+4th ahead of Bonds is simply an injustice to the Giants and fans of the
+Giants.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th     head indic imposs fathom
+barri bat 4th giant behind clark barri awesom
+consist hitter definit best nation leagu imho
+william streaki hitter realli clutch hitter bat
+4th ahead bond simpli injustic giant fan giant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+4th, 112, 0.409362339784
+barri, 918, 0.386616894742
+giant, 3865, 0.337345862272
+hitter, 4322, 0.315653824922
+bat, 942, 0.304684874197
+bond, 1211, 0.244702561589
+streaki, 8437, 0.178911338036
+injustic, 4651, 0.175610684579
+fathom, 3405, 0.175610684579
+awesom, 835, 0.154229519253
+clutch, 1849, 0.142128776421
+clark, 1787, 0.134040667661
+imho, 4524, 0.131321645355
+imposs, 4553, 0.126643926895
+william, 9764, 0.124210667119
+ahead, 342, 0.119962840945
+consist, 2061, 0.112689775679
+indic, 4600, 0.10766355742
+definit, 2484, 0.10688496759
+head, 4215, 0.104338198131
+simpli, 7967, 0.101254562604
+leagu, 5176, 0.0992057302251
+fan, 3381, 0.0983771101742
+nation, 5962, 0.097313798559
+best, 1052, 0.0826406502
+realli, 7150, 0.0733474921169

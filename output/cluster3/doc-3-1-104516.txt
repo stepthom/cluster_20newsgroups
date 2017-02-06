@@ -1,0 +1,168 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104516
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: paul@csd4.csd.uwm.edu (Paul R Krueger)
+Subject: Brewer bullpen rocked again...
+Organization: Computing Services Division, University of Wisconsin - Milwaukee
+Lines: 30
+Distribution: world
+NNTP-Posting-Host: 129.89.7.4
+Originator: paul@csd4.csd.uwm.edu
+
+For the second straight game, California scored a ton of late runs to crush
+the Brewhas. It was six runs in the 8th for a 12-5 win Monday and five in
+the 8th and six in the 9th for a 12-2 win yesterday. Jamie Navarro pitched
+seven strong innings, but Orosco, Austin, Manzanillo and Lloyd all took part
+in the mockery of a bullpen yesterday. How's this for numbers? Maldanado has
+pitched three scoreless innings and Navarro's ERA is 0.75. The next lowest
+on the staff is Wegman at 5.14. Ouch!
+
+It doesn't look much better for the hitters. Hamilton is batting .481, while
+Thon is hitting .458 and has seven RBI. The next highest is three. The next
+best hitter is Jaha at .267 and then Vaughn, who has the team's only HR, at
+.238. Another ouch. Looking at the stats, it's not hard to see why the team
+is 2-5. In fact, 2-5 doesn't sound bad when you're averaging three runs/game
+and giving up 6.6/game. 
+
+Still, it's early and things will undoubtedly get better. The offense should
+come around, but the bullpen is a major worry. Fetters, Plesac and Austin gave
+the Brewers great middle relief last year. Lloyd, Maldanado, Manzanillo, 
+Fetters, Austin and Orosco will have to pick up the pace for the team to be
+successful. Milwaukee won a number of games last year when middle relief either
+held small leads or kept small deficits in place. The starters will be okay,
+the defense will be alright and the hitting will come around, but the bullpen
+is a big question mark.
+
+In other news, Nilsson and Doran were reactivated yesterday, while William
+Suero was sent down and Tim McIntosh was picked up by Montreal. Today's game
+with California was cancelled.
+
+--salty
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brewer bullpen rock       second straight game
+california score ton late run crush brewha six run
+8th win monday five 8th six 9th win yesterday jami
+navarro pitch seven strong inning orosco austin
+manzanillo lloyd took part mockeri bullpen
+yesterday how number maldanado pitch three
+scoreless inning navarro era next lowest staff
+wegman ouch  doesn't look much better hitter
+hamilton bat thon hit seven rbi next highest three
+next best hitter jaha vaughn team anoth ouch look
+stat it hard see team fact doesn't sound bad you'r
+averag three run game give game  still it earli
+thing undoubt get better offens come around
+bullpen major worri fetter plesac austin gave
+brewer great middl relief last year lloyd
+maldanado manzanillo fetter austin orosco pick
+pace team success milwauke number game last year
+middl relief either held small lead kept small
+deficit place starter okay defens alright hit come
+around bullpen big question mark  news nilsson
+doran reactiv yesterday william suero sent tim
+mcintosh pick montreal today game california
+cancel  salti
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bullpen, 1391, 0.291659260721
+austin, 791, 0.267334479952
+maldanado, 5463, 0.220170576907
+yesterday, 9952, 0.212195051427
+game, 3761, 0.206356763789
+ouch, 6320, 0.206260373429
+lloyd, 5316, 0.197097956631
+8th, 150, 0.184790028548
+brewer, 1302, 0.163545666918
+seven, 7820, 0.159348016638
+relief, 7257, 0.154873908901
+middl, 5699, 0.136414684776
+team, 8732, 0.135622767849
+california, 1459, 0.135589445089
+inning, 4657, 0.125513539679
+run, 7543, 0.123039290797
+pick, 6619, 0.122588397622
+hitter, 4322, 0.115913510714
+thon, 8881, 0.106168378281
+salti, 7595, 0.106168378281
+reactiv, 7133, 0.106168378281
+mockeri, 5804, 0.106168378281
+doran, 2823, 0.106168378281
+deficit, 2480, 0.106168378281
+small, 8054, 0.106082819258
+pitch, 6643, 0.0994079323505
+win, 9770, 0.0989807733859
+alright, 445, 0.0967308932824
+hit, 4316, 0.0952256623733
+scoreless, 7707, 0.0951272286305
+crush, 2259, 0.0923950142739
+undoubt, 9256, 0.0912103184574
+vaughn, 9437, 0.0901205039504
+number, 6156, 0.0885467623749
+doesn, 2793, 0.0883309290736
+pace, 6370, 0.0881721268914
+hamilton, 4137, 0.0872934082843
+9th, 152, 0.0872934082843
+lowest, 5372, 0.0856897436323
+cancel, 1487, 0.0849535960955
+better, 1060, 0.0814635534851
+monday, 5834, 0.079196225514
+come, 1923, 0.0789645350998
+ton, 8980, 0.0787346418932
+milwauke, 5730, 0.0787346418932
+montreal, 5848, 0.0762522586342
+rock, 7445, 0.0735200442775
+highest, 4294, 0.0726219993182
+tim, 8935, 0.072335348461
+worri, 9845, 0.070236523321
+starter, 8335, 0.070236523321
+rbi, 7124, 0.070236523321
+held, 4243, 0.0697587405159
+straight, 8422, 0.0690721036256
+kept, 4989, 0.0688507099215
+year, 9943, 0.0684362221815
+william, 9764, 0.0684184382879
+era, 3164, 0.0679994694525
+look, 5341, 0.0679572757162
+okay, 6215, 0.0677947225444
+staff, 8301, 0.0660786260992
+offens, 6202, 0.0640825592793
+gave, 3798, 0.0640825592793
+late, 5139, 0.0624788946274
+stat, 8341, 0.0618080489558
+sent, 7793, 0.0618080489558
+success, 8513, 0.060439138616
+strong, 8456, 0.0603212555177
+took, 8987, 0.0600885077508
+score, 7705, 0.0588749962351
+defens, 2476, 0.0588749962351
+averag, 816, 0.057956755357
+earli, 2951, 0.0564631593142
+bat, 942, 0.0559427617238
+mark, 5512, 0.0554415242827
+lead, 5172, 0.0552784634977
+sound, 8150, 0.0534603784647
+today, 8964, 0.0520471422708
+hard, 4167, 0.0515451347055
+bad, 861, 0.0501414467917
+major, 5458, 0.0499757399252
+second, 7753, 0.0473839953327
+news, 6031, 0.047025674316
+fact, 3350, 0.0467196971067
+place, 6657, 0.0466335233203
+big, 1082, 0.0463782268506
+best, 1052, 0.0455206010638
+great, 4016, 0.0452851701926
+anoth, 533, 0.0438817998432
+question, 7032, 0.0412135377545
+thing, 8869, 0.0371960383221

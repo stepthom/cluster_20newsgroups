@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105087
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: fls@keynes.econ.duke.edu (Forrest Smith)
+Subject: Braves "Stoppers"
+Organization: Duke University; Durham, N.C.
+Lines: 22
+Nntp-Posting-Host: keynes.econ.duke.edu
+
+
+	The term "stopper" is generally used to refer to a pitcher, one
+who can be counted on to pitch a strong game to keep his team from going
+on a losing streak.
+
+	The Braves have plenty of pitchers to fit this description,
+although right now I'd expect Smoltz or Glavine to take the mantle.
+
+	What the Braves lack, however, is an offensive stopper,
+somebody they can look to to bring them out of their hitting slump.
+There's just no one there.  The Braves got rid of their best pure
+hitter, Lonnie Smith, and only Terry Pendleton on the current roster
+has ever shown more than a cursory ability to hit.	
+
+	Oh, and another thing that worries me.  Ron Gant seems to have
+slowed down a step.  That's scary.  A slow Ron Gant doesn't have much going
+for him.
+-- 
+@econ.duke.edu     fls@econ.duke.edu     fls@econ.duke.edu    fls@econ.duke.
+s  To my correspondents:  My email has been changed.                       e
+l                         My new address is:  fls@econ.duke.edu            d
+f            If mail bounces, try fls@raphael.acpub.duke.edu               u
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave stopper      term stopper general use refer
+pitcher one count pitch strong game keep team go
+lose streak  brave plenti pitcher fit descript
+although right i'd expect smoltz glavin take mantl
+brave lack howev offens stopper somebodi look
+bring hit slump there one brave got rid best pure
+hitter lonni smith terri pendleton current roster
+ever shown cursori abil hit  anoth thing worri ron
+gant seem slow step that scari slow ron gant
+doesn't much go    correspond email chang
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stopper, 8414, 0.489424399249
+brave, 1277, 0.345331173057
+gant, 3766, 0.22714169533
+ron, 7472, 0.211165380009
+slow, 8044, 0.199750490806
+pitcher, 6644, 0.160389177948
+smoltz, 8068, 0.14604517154
+glavin, 3895, 0.14604517154
+hit, 4316, 0.141120166175
+slump, 8052, 0.138848387148
+lonni, 5340, 0.138848387148
+pendleton, 6518, 0.135169606352
+scari, 7666, 0.133554550069
+terri, 8803, 0.132059241508
+mantl, 5491, 0.132059241508
+roster, 7489, 0.123877996901
+streak, 8436, 0.122939342454
+rid, 7391, 0.122939342454
+correspond, 2158, 0.120359993305
+plenti, 6692, 0.115378990894
+shown, 7918, 0.107622550018
+pure, 6990, 0.104450948611
+worri, 9845, 0.104087381443
+smith, 8064, 0.0987381878632
+somebodi, 8121, 0.0963923635426
+offens, 6202, 0.0949674823892
+descript, 2557, 0.0949674823892
+abil, 177, 0.0945140378707
+lack, 5092, 0.0934231001955
+step, 8377, 0.0932118162555
+count, 2180, 0.0932118162555
+fit, 3510, 0.0910229554691
+strong, 8456, 0.0893933986953
+lose, 5350, 0.088709352445
+hitter, 4322, 0.0858893153706
+bring, 1316, 0.085312778094
+email, 3060, 0.0848909348848
+term, 8795, 0.0829046670194
+expect, 3290, 0.0782014310858
+general, 3818, 0.0779039697
+refer, 7213, 0.0743899035484
+pitch, 6643, 0.0736590514722
+current, 2299, 0.0731083661297
+chang, 1650, 0.0724968820041
+howev, 4406, 0.0695593441854
+best, 1052, 0.0674594917633
+team, 8732, 0.0669956223249
+got, 3960, 0.0662086589419
+doesn, 2793, 0.0654512401312
+anoth, 533, 0.0650308617615
+right, 7399, 0.0613780995789
+game, 3761, 0.0611622961111
+thing, 8869, 0.0551228626639
+look, 5341, 0.0503548192939
+use, 9363, 0.0445627015621

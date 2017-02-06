@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61251
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: fiddler@concertina.Eng.Sun.COM (steve hix)
+Subject: Re: TRUE "GLOBE", Who makes it?
+Organization: Sun
+Lines: 18
+NNTP-Posting-Host: concertina
+
+In article <bill.047m@xpresso.UUCP> bill@xpresso.UUCP (Bill Vance) writes:
+>It has been known for quite a while that the earth is actually more pear
+>shaped than globular/spherical.  Does anyone make a "globe" that is accurate
+>as to actual shape, landmass configuration/Long/Lat lines etc.?
+
+The variance from perfect sphericity in a model of the earth small enough
+to fit into your home would probably be imperceptible.
+
+Any globe you can buy will be close enough.
+
+
+
+
+-- 
+-------------------------------------------------------
+| Some things are too important not to give away      |
+| to everybody else and have none left for yourself.  |
+|------------------------ Dieter the car salesman-----|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ true globe make      known quit earth actual pear
+shape globular spheric anyon make globe accur
+actual shape landmass configur long lat line etc
+varianc perfect spheric model earth small enough
+fit home probabl impercept  globe buy close enough
+thing import give away everybodi els none left
+dieter car salesman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+globe, 3905, 0.504205693723
+spheric, 8227, 0.329961963775
+shape, 7853, 0.271401565057
+varianc, 9428, 0.198559579538
+salesman, 7592, 0.198559579538
+pear, 6498, 0.193780174091
+landmass, 5107, 0.193780174091
+globular, 3906, 0.183151249127
+earth, 2956, 0.182634650662
+lat, 5138, 0.180389312298
+actual, 254, 0.168570023512
+configur, 2030, 0.147549190367
+car, 1510, 0.147549190367
+everybodi, 3239, 0.134764463195
+accur, 225, 0.134308553366
+make, 5459, 0.13149714519
+buy, 1433, 0.11900085323
+fit, 3510, 0.118255376801
+perfect, 6538, 0.114602289654
+model, 5807, 0.109929662987
+known, 5054, 0.104766700886
+left, 5193, 0.104330998538
+away, 833, 0.10390241971
+small, 8054, 0.102122184877
+home, 4354, 0.101083864814
+import, 4551, 0.0993602480482
+close, 1830, 0.0993602480482
+quit, 7043, 0.0960092043049
+true, 9121, 0.0935107285319
+els, 3053, 0.0906251622308
+line, 5285, 0.0868909778054
+probabl, 6885, 0.0857321524693
+long, 5336, 0.0825973795726
+thing, 8869, 0.071614625795
+anyon, 554, 0.0704421705864

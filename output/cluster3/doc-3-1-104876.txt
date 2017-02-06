@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104876
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mzimmers@netcom.com (Michael Zimmers)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 23
+
+In article <franjion.735432623@spot.Colorado.EDU> franjion@spot.Colorado.EDU (John Franjione) writes:
+
+>>As to whether it does him any good to have Bonds behind him, the 
+>>net.stat.mavens will probably tell you there's no reason that it
+>>should, but if he thinks it will, it might be a self-fulfilling
+>>prophecy.
+
+>I don't understand.  If it is Williams' lack of ability (which you say
+>above, and I agree with) which causes him to swing at bad pitches, how
+>will thinking that Bonds hitting behind him will help him to stop
+>chasing bad pitches.
+
+I didn't mean that it would necessarily help him improve at that
+specific deficiency.  I meant that if having Bonds bat behind him
+gives Williams (possibly unfounded) confidence, that might translate
+into more hitting productivity.  But you're right -- if Williams'
+biggest problem is more physical than mental, that's less likely
+to make a difference.
+-- 
+|----------------------------------------------------------------------------|
+| Michael Zimmers                                    |  Voice:  408 996 1965 |
+| SoftHelp -- Suppliers to Software Developers       |  Data:   408 996 1974 |
+|----------------------------------------------------------------------------|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th      whether good bond behind
+net stat maven probabl tell there reason think
+might self fulfil propheci  don't understand
+william lack abil say agre caus swing bad pitch
+think bond hit behind help stop chase bad pitch
+didn't mean necessarili help improv specif defici
+meant bond bat behind give william possibl unfound
+confid might translat hit product you'r right
+william biggest problem physic mental that less
+like make differ   michael zimmer voic softhelp
+supplier softwar develop data
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bond, 1211, 0.44150730939
+william, 9764, 0.336162709625
+bat, 942, 0.183243687282
+unfound, 9265, 0.17388027074
+zimmer, 9987, 0.168904386389
+softhelp, 8099, 0.168904386389
+supplier, 8575, 0.164838792846
+bad, 861, 0.16424115136
+pitch, 6643, 0.162808158801
+defici, 2479, 0.161401382484
+hit, 4316, 0.155958527605
+chase, 1676, 0.151322553449
+confid, 2029, 0.13799136929
+propheci, 6926, 0.135866044899
+mental, 5631, 0.134874813791
+help, 4249, 0.131022353447
+fulfil, 3717, 0.129705863054
+biggest, 1084, 0.126824567006
+4th, 112, 0.123099423255
+swing, 8635, 0.119418305241
+barri, 918, 0.116259636362
+meant, 5598, 0.112762201662
+voic, 9567, 0.112405409598
+translat, 9057, 0.112405409598
+necessarili, 5991, 0.111708508248
+abil, 177, 0.104451904953
+self, 7776, 0.103482229214
+lack, 5092, 0.103246258459
+improv, 4557, 0.103012758648
+think, 8871, 0.102142900306
+michael, 5680, 0.101660888494
+stat, 8341, 0.10122788405
+physic, 6613, 0.0969489010487
+stop, 8413, 0.0942831603591
+product, 6896, 0.0933603102554
+caus, 1569, 0.0902699734875
+net, 6010, 0.0897513680615
+specif, 8203, 0.088505288142
+agre, 337, 0.0863139576997
+develop, 2588, 0.0830498363136
+data, 2385, 0.0825803657475
+understand, 9246, 0.0799539185099
+didn, 2625, 0.0744879258975
+softwar, 8103, 0.0744233845262
+possibl, 6765, 0.0731094572578
+probabl, 6885, 0.072927917355
+tell, 8767, 0.0728677310074
+reason, 7156, 0.0719262073795
+problem, 6887, 0.070154633723
+mean, 5595, 0.0689126034915
+differ, 2633, 0.0686623311872
+right, 7399, 0.0678318223181
+good, 3948, 0.0573212464317
+say, 7653, 0.0566142166931
+make, 5459, 0.0559289173352
+don, 2811, 0.0505793754001
+like, 5272, 0.0469531491072

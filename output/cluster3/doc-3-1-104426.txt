@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104426
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mss@netcom.com (Mark Singer)
+Subject: Re: Dodgers Take 2 Straight From Pirates
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 25
+
+In article <1qqob2INNqev@mizar.usc.edu> pcaster@mizar.usc.edu (Dodger) writes:
+
+
+>Davis and Strawberry attributed their turn arounds to Reggie Smith,
+>the Dodger batting coach who flew in from Florida three days
+>ago and gave them a pep talk and some instruction.  Davis was
+>4-5 yesterday and had a couple more hits today.  Strawberry
+>had two hits yesterday and I believe he had two more today, with
+>two home runs.
+
+
+Foolish me.  And here I thought it had something to do with the 
+fact that they were hitting against Wakefield, who had no "kncukle"
+to his ball that day, and Otto, who has no stuff.  I wonder if 
+Reggie gave the same pep talk and instruction to the rest of the
+lineup, who also suddenly came alive those two games.
+
+
+
+--	The Beastmaster
+
+
+-- 
+Mark Singer    
+mss@netcom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dodger take straight pirat       davi strawberri
+attribut turn around reggi smith dodger bat coach
+flew florida three day ago gave pep talk instruct
+davi yesterday coupl hit today strawberri two hit
+yesterday believ two today two home run   foolish
+thought someth fact hit wakefield kncukl ball day
+otto stuff wonder reggi gave pep talk instruct
+rest lineup also sudden came aliv two game
+beastmast    mark singer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+reggi, 7226, 0.308497787175
+strawberri, 8434, 0.271153654488
+davi, 2396, 0.261912571929
+instruct, 4684, 0.248664530025
+hit, 4316, 0.24155906882
+yesterday, 9952, 0.239233546241
+dodger, 2791, 0.237558780518
+gave, 3798, 0.216744421778
+today, 8964, 0.176037409922
+otto, 6318, 0.174406991065
+wakefield, 9614, 0.170208947711
+talk, 8684, 0.155736930131
+foolish, 3586, 0.154248893588
+flew, 3539, 0.143667936102
+beastmast, 973, 0.143667936102
+sudden, 8518, 0.13926879548
+day, 2402, 0.136557536873
+singer, 7981, 0.134739444383
+coach, 1856, 0.133150849646
+pirat, 6639, 0.130956285964
+florida, 3552, 0.127109783652
+lineup, 5287, 0.125403411211
+attribut, 773, 0.12004716866
+aliv, 417, 0.118371848807
+straight, 8422, 0.11681020023
+smith, 8064, 0.112675154155
+rest, 7324, 0.0983487985846
+coupl, 2187, 0.0957877737314
+bat, 942, 0.0946067204464
+mark, 5512, 0.0937590606419
+came, 1472, 0.092808020228
+turn, 9158, 0.0916402803235
+ball, 877, 0.0900516855864
+ago, 336, 0.0897001445452
+home, 4354, 0.088788124695
+stuff, 8472, 0.0882359281844
+wonder, 9821, 0.0836054685369
+thought, 8887, 0.0803641113734
+fact, 3350, 0.0790092799734
+believ, 1009, 0.0711057359174
+game, 3761, 0.0697953982336
+run, 7543, 0.0693586529617
+someth, 8126, 0.0677796742159

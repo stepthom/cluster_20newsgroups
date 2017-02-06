@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37960
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tessmann@cs.ubc.ca (Markus Tessmann)
+Subject: Re: Rumours about 3DO ???
+Organization: Computer Science, University of B.C., Vancouver, B.C., Canada
+Lines: 16
+NNTP-Posting-Host: larry.cs.ubc.ca
+
+stgprao@st.unocal.COM (Richard Ottolini) writes:
+
+>They need a hit software product to encourage software sales of the product,
+>i.e. the Pong, Pacman, VisiCalc, dBase, or Pagemaker of multi-media.
+>There are some multi-media and digital television products out there already,
+>albeit, not as capable as 3DO's.  But are there compelling reasons to buy
+>such yet?  Perhaps someone in this news group will write that hit software :-)
+
+I've just had the good fortune to be hired by Electronic Arts as Senior
+Computer Graphics Artist at the Vancouver, Canada office.  :^)
+
+The timing has a lot to do with the 3DO which EA is putting a lot of resources
+into.  I do not know of any titles to be developed as yet but will be happy to
+post as things develop.  I start there May 3.
+
+	Markus Tessmann
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do       need hit softwar product
+encourag softwar sale product pong pacman visicalc
+dbase pagemak multi media multi media digit
+televis product alreadi albeit capabl 3do compel
+reason buy yet perhap someon news group write hit
+softwar  i'v good fortun hire electron art senior
+comput graphic artist vancouv canada offic  time
+lot 3do put lot resourc know titl develop yet
+happi post thing develop start  markus tessmann
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3do, 98, 0.414142890771
+product, 6896, 0.298093762781
+multi, 5917, 0.256306858642
+softwar, 8103, 0.237629316693
+media, 5605, 0.230993158767
+markus, 5516, 0.185063024592
+develop, 2588, 0.176782033231
+hit, 4316, 0.165988681215
+vancouv, 9418, 0.158989500274
+compel, 1966, 0.155331019897
+albeit, 382, 0.155331019897
+senior, 7787, 0.149366538228
+lot, 5356, 0.148102915782
+hire, 4308, 0.145708057852
+televis, 8765, 0.144603991594
+fortun, 3619, 0.143549011484
+artist, 669, 0.140639272845
+rumour, 7542, 0.138047630257
+sale, 7590, 0.129257495579
+encourag, 3089, 0.128699042882
+canada, 1481, 0.12329301391
+electron, 3034, 0.11713399718
+art, 660, 0.116138054774
+titl, 8953, 0.114263411386
+digit, 2642, 0.114263411386
+resourc, 7320, 0.112806933307
+happi, 4161, 0.111702867048
+buy, 1433, 0.107738148299
+capabl, 1498, 0.106406968876
+offic, 6206, 0.105146505712
+alreadi, 443, 0.0951178390073
+perhap, 6540, 0.0918650632901
+group, 4064, 0.0825954548381
+comput, 1993, 0.0822811039563
+news, 6031, 0.0819708623541
+write, 9865, 0.0818172492313
+graphic, 3997, 0.078136905063
+someon, 8124, 0.0775540700391
+reason, 7156, 0.0765519942455
+start, 8334, 0.0751240060245
+post, 6766, 0.0693140124166
+thing, 8869, 0.0648367382661
+need, 5993, 0.0638110724131
+good, 3948, 0.0610077451162
+time, 8936, 0.056390444618
+know, 5052, 0.0511207854143

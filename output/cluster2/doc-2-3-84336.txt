@@ -1,0 +1,191 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84336
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mwilson@ncratl.AtlantaGA.NCR.COM (Mark Wilson)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: NCR Engineering and Manufacturing Atlanta -- Atlanta, GA
+Lines: 58
+
+In <C5sqyA.F7v@noose.ecn.purdue.edu> tbrent@bank.ecn.purdue.edu (Timothy J Brent) writes:
+
+|Probably not.  But then, I don't pack heavy weaponry with intent to use it.
+
+Please cite your evidence that he was intending to use it.
+
+|You don't really think he should have been allowed to keep that stuff do 
+|you?
+
+Why not?
+
+|If so, tell me where you live so I can be sure to steer well clear.
+
+Check the sig.
+
+|The public also has rights, and they should be placed above those of the
+|individual.
+
+Society does not have rights only individuals have rights.
+
+|Go ahead, call me a commie,
+
+OK, your a commie.
+
+|but you'd be singing a different
+|tune if I exercised my right to rape your daughter.
+
+You think you have a right to rape anyone? No wonder you don't care about
+the rightws of others.
+
+|He broke the law,
+
+Please indicate which law you feel Koresh broke, and when was he convicted of
+said crime.
+
+|he was a threat to society,
+
+So you feel that owning guns makes him a threat to society. When are y ou
+going to start going after knives and baseball bats as well.
+Or do you feel that someone who spouts unpopular ideas is by definition a
+threat to society.
+
+|they did there job - simple.
+
+It is simple if you think that there job is to assualt civilians.
+
+|>	Support your First, Second, Fourth, Fifth, Sixth, and Eighth
+|>Amendment rights, lest they be taken away from you just as the FBI did
+|>to the Davidians. Think about it.
+
+|I'll support them all (except no. 2)
+
+In other words you don't support any of them.
+-- 
+Mob rule isn't any prettier merely because the mob calls itself a government
+It ain't charity if you are using someone else's money.
+Wilson's theory of relativity: If you go back far enough, we're all related.
+Mark.Wilson@AtlantaGA.NCR.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen      probabl don't pack
+heavi weaponri intent use  pleas cite evid intend
+use  don't realli think allow keep stuff     tell
+live sure steer well clear  check sig  public also
+right place individu  societi right individu right
+ahead call commi  commi  you'd sing differ tune
+exercis right rape daughter  think right rape
+anyon wonder don't care rightw other  broke law
+pleas indic law feel koresh broke convict said
+crime  threat societi  feel own gun make threat
+societi go start go knive basebal bat well feel
+someon spout unpopular idea definit threat societi
+job simpl  simpl think job assualt civilian
+support first second fourth fifth sixth eighth
+amend right lest taken away fbi davidian think
+i'll support except  word don't support  mob rule
+isn't prettier mere mob call govern ain't chariti
+use someon els money wilson theori relat back far
+enough we'r relat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+societi, 8093, 0.283177826905
+right, 7399, 0.272521146106
+threat, 8891, 0.257565760913
+commi, 1942, 0.226196768164
+mob, 5801, 0.216148744717
+broke, 1331, 0.195449387194
+rape, 7099, 0.191461757851
+feel, 3429, 0.176116919292
+support, 8576, 0.154278829812
+think, 8871, 0.136789780503
+don, 2811, 0.135471807404
+individu, 4604, 0.13055359809
+law, 5153, 0.128219374386
+simpl, 7965, 0.127334484149
+job, 4873, 0.127117298752
+assualt, 709, 0.116430236448
+relat, 7247, 0.114155668179
+unpopular, 9298, 0.113098384082
+weaponri, 9675, 0.110376062478
+knive, 5048, 0.108074372359
+lest, 5224, 0.106080557687
+steer, 8367, 0.104321888508
+civilian, 1779, 0.102748705321
+chariti, 1667, 0.102748705321
+use, 9363, 0.098930062894
+eighth, 3016, 0.0988312316124
+sing, 7979, 0.0977246935972
+convict, 2119, 0.0977246935972
+amend, 467, 0.0977246935972
+someon, 8124, 0.0975844713669
+spout, 8263, 0.0966945313507
+ain, 354, 0.0966945313507
+sixth, 7997, 0.0957308789256
+daughter, 2393, 0.0957308789256
+crime, 2229, 0.0909759092599
+wilson, 9768, 0.0879180357772
+pack, 6374, 0.0879180357772
+pleas, 6688, 0.0878485456834
+exercis, 3279, 0.0873750148359
+tune, 9149, 0.0863448525894
+fourth, 3630, 0.0840431624696
+fifth, 3471, 0.082815230044
+gun, 4094, 0.081680651776
+sig, 7940, 0.0806262304986
+heavi, 4230, 0.0799625021074
+fbi, 3414, 0.0793270261944
+davidian, 2398, 0.0787174954316
+intent, 4702, 0.0781318740898
+cite, 1774, 0.0772943781322
+intend, 4700, 0.0732728522245
+mere, 5641, 0.0724655512827
+ahead, 342, 0.0724655512827
+koresh, 5065, 0.0716996690366
+presid, 6839, 0.0715141830461
+theori, 8848, 0.0689773474331
+taken, 8678, 0.0676393097384
+indic, 4600, 0.065035964304
+definit, 2484, 0.0645656441546
+evid, 3245, 0.0629231734632
+rule, 7537, 0.0623136427004
+govern, 3966, 0.0623136427004
+messag, 5650, 0.0617280213586
+bat, 942, 0.0613499902753
+check, 1682, 0.0608905254011
+money, 5835, 0.060183580105
+away, 833, 0.0591822152256
+care, 1516, 0.0587840201551
+public, 6973, 0.0573609028557
+clear, 1803, 0.0572896309771
+stuff, 8472, 0.0572186976835
+allow, 432, 0.0572186976835
+live, 5310, 0.0547461310345
+isn, 4783, 0.0546862855427
+wonder, 9821, 0.0542159653933
+word, 9829, 0.0534819476918
+happen, 4159, 0.0526254301637
+second, 7753, 0.0519639639391
+els, 3053, 0.0516195664258
+place, 6657, 0.0511409539688
+idea, 4482, 0.0510470452931
+basebal, 924, 0.0503163096232
+far, 3386, 0.0498771182486
+said, 7583, 0.0497049961095
+probabl, 6885, 0.0488325364643
+tell, 8767, 0.0487922356835
+sure, 8585, 0.0480848251179
+ll, 5314, 0.0472997631257
+start, 8334, 0.0472633893435
+differ, 2633, 0.0459762997907
+realli, 7150, 0.044306773744
+anyon, 554, 0.0401234515255
+make, 5459, 0.037450005351
+know, 5052, 0.0321620439649

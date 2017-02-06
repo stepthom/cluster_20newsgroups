@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60782
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jmcocker@eos.ncsu.edu (Mitch)
+Subject: A WRENCH in the works?
+Originator: jmcocker@c00068-100lez.eos.ncsu.edu
+Reply-To: jmcocker@eos.ncsu.edu (Mitch)
+Organization: North Carolina State University, Project Eos
+Lines: 19
+
+
+Hi all,
+
+I really thought that by now I would have seen something
+about this, but I haven't, so here goes:  Last night on
+the evening news, the anchorperson said something to the
+effect that one of the SSRBs that was recovered after the
+recent space shuttle launch was found to have a wrench of
+some sort rattling around apparently inside the case.  There
+was no elaboration as to where specfically the item was
+found, of what type of wrench it was, but the anchorperson
+did say something about a NASA official commenting that
+there would be an inquiry into how the thing got in the SSRB.
+
+Has anybody else on the net whose info sources may be 
+better than mine heard anything about this?  It seems rather
+weird.
+
+Mitch ---------------------------->jmcocker@eos.ncsu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ wrench work         realli thought seen someth
+haven't goe last night even news anchorperson said
+someth effect one ssrbs recov recent space shuttl
+launch found wrench sort rattl around appar insid
+case elabor specfic item found type wrench
+anchorperson say someth nasa offici comment
+inquiri thing got ssrb  anybodi els net whose info
+sourc better mine heard anyth seem rather weird
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wrench, 9860, 0.59253618679
+someth, 8126, 0.245511065704
+ssrbs, 8293, 0.210578597679
+rattl, 7111, 0.197512062263
+inquiri, 4664, 0.197512062263
+elabor, 3024, 0.172038332799
+weird, 9697, 0.170681921128
+recov, 7185, 0.169388621685
+item, 4798, 0.14888268915
+insid, 4671, 0.130223590637
+offici, 6207, 0.129312003248
+appar, 577, 0.129014664323
+haven, 4207, 0.11874611197
+goe, 3931, 0.11874611197
+anybodi, 552, 0.113037499971
+night, 6063, 0.112871523809
+shuttl, 7929, 0.111895952676
+net, 6010, 0.111895952676
+comment, 1936, 0.111578224366
+effect, 3005, 0.111420711625
+recent, 7168, 0.110493928321
+info, 4636, 0.10945033946
+launch, 5147, 0.109304402514
+type, 9177, 0.108585992396
+sort, 8144, 0.10693396637
+heard, 4224, 0.105628518828
+nasa, 5956, 0.104626575274
+seen, 7767, 0.103188275696
+sourc, 8153, 0.102610273078
+thought, 8887, 0.0970314422223
+case, 1540, 0.0966595179529
+els, 3053, 0.0961107976825
+news, 6031, 0.0960203880922
+anyth, 555, 0.0953075048145
+said, 7583, 0.0925460470839
+got, 3960, 0.0912237958817
+better, 1060, 0.0831690574859
+realli, 7150, 0.0824950626697
+space, 8164, 0.0788591713414
+work, 9833, 0.0787619652126
+thing, 8869, 0.0759495336777
+say, 7653, 0.0705827871899

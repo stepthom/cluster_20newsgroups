@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62615
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cshotton@oac.hsc.uth.tmc.edu (Chuck Shotton)
+Subject: Re: Interesting DC-X cost anecdote
+Organization: Academic Computing
+Lines: 22
+Distribution: world
+NNTP-Posting-Host: oac2.hsc.uth.tmc.edu
+
+In article <1993May14.200217.3044@iti.org>, aws@iti.org (Allen W. Sherzer)
+wrote:
+> 
+> A staffer just told me an interesting story about DC-X. An Air Force
+> costing team just looked at the DC-X (now called the DC-X1 BTW) and
+> gave an estimate on how much it would cost the Air Force to build it.
+> It cost SDIO $70M to build and it would cost the USAF:
+> 
+> 
+> 
+>         $320 million or four and a half times as much.
+
+I'd be willing to bet that a majority of the cost difference could be
+accounted for by the AF's requirement for superfluous 2167 documentation, 5
+or 6 huge requirements and design reviews, travel expenses flying personnel
+around to meetings, and over specifying the hardware. I doubt that the
+actual fabrication cost in materials and labor would be very different from
+SDIO's costs.
+
+Of course, this is my cynical opinion based on years of watching the
+government procurement process try to cover up a lack of creativity and
+innovation with reams of documentation. ;)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ interest cost anecdot      iti org allen sherzer
+wrote  staffer told interest stori air forc cost
+team look call btw gave estim much cost air forc
+build cost sdio 70m build cost usaf    million
+four half time much  i'd will bet major cost
+differ could account af requir superflu document
+huge requir design review travel expens fli
+personnel around meet specifi hardwar doubt actual
+fabric cost materi labor differ sdio cost  cours
+cynic opinion base year watch govern procur
+process tri cover lack creativ innov ream document
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cost, 2169, 0.56657831924
+sdio, 7735, 0.230698088272
+air, 357, 0.175463603242
+document, 2788, 0.17145111263
+forc, 3594, 0.154359729028
+af, 307, 0.150711532071
+70m, 136, 0.150711532071
+build, 1378, 0.150480004484
+requir, 7302, 0.138686891722
+ream, 7153, 0.137791205995
+procur, 6894, 0.134917823394
+labor, 5088, 0.130233299743
+fabric, 3344, 0.130233299743
+anecdot, 507, 0.128269370212
+iti, 4801, 0.126492779848
+usaf, 9359, 0.124870879919
+personnel, 6563, 0.124870879919
+sherzer, 7880, 0.123378876616
+cynic, 2327, 0.123378876616
+innov, 4659, 0.116305155778
+differ, 2633, 0.11479173388
+creativ, 2220, 0.114439591067
+org, 6286, 0.104917755284
+specifi, 8204, 0.103881928237
+estim, 3201, 0.100233231633
+travel, 9069, 0.0990302277675
+review, 7358, 0.0975382244642
+allen, 426, 0.0933788085053
+meet, 5615, 0.0917330263303
+huge, 4427, 0.0914723215161
+bet, 1054, 0.0909616021616
+account, 221, 0.0895083919843
+expens, 3294, 0.0879448335437
+btw, 1355, 0.0879448335437
+gave, 3798, 0.0877318016209
+lack, 5092, 0.0863050876674
+million, 5724, 0.0861099016918
+cover, 2194, 0.0857255563152
+half, 4124, 0.0844395229568
+stori, 8418, 0.084262838313
+told, 8973, 0.0839144152647
+doubt, 2830, 0.0834036959102
+hardwar, 4173, 0.0832365190913
+materi, 5543, 0.0821064706629
+fli, 3542, 0.0796174334389
+wrote, 9871, 0.0790771031324
+govern, 3966, 0.077791069774
+watch, 9655, 0.077300512769
+process, 6890, 0.0753486911235
+design, 2564, 0.0724286499496
+opinion, 6266, 0.0698234747154
+major, 5458, 0.0684189543969
+cours, 2190, 0.0637846059858
+team, 8732, 0.0618911494693
+actual, 254, 0.05993251617
+base, 923, 0.0583344679273
+tri, 9087, 0.0539835126895
+year, 9943, 0.0468460774322
+look, 5341, 0.0465182281956
+time, 8936, 0.0442892419082

@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83905
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: tom@tredysvr.Tredydev.Unisys.COM (Tom Albrecht)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: Unisys, Applied Technology, Malvern, PA
+Lines: 11
+
+In article <1993Apr20.220340.2585@ra.royalroads.ca> mlee@post.RoyalRoads.ca (Malcolm Lee) writes:
+>
+>armed to the teeth.  A Christian should not have to rely on physical weapons
+>to defend himself.  A Christian should rely on his faith and intelligence.
+
+Faith and intelligence tell me that when a druggie breaks into my house at
+night with a knife to kill me for the $2 in my wallet, a .357 is considerably
+more persuasive than having devotions with him.
+
+-- 
+Tom Albrecht
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew      arm teeth christian reli
+physic weapon defend christian reli faith intellig
+faith intellig tell druggi break hous night knife
+kill wallet consider persuas devot   tom albrecht
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+reli, 7255, 0.354257626415
+intellig, 4698, 0.325810239974
+faith, 3367, 0.286936763265
+druggi, 2884, 0.245387596058
+albrecht, 386, 0.238365406054
+knife, 5046, 0.232627859053
+wallet, 9622, 0.223574681573
+christian, 1732, 0.2233801395
+persuas, 6566, 0.219868122047
+teeth, 8748, 0.208296049898
+devot, 2597, 0.191740224477
+weapon, 9674, 0.175380064248
+defend, 2474, 0.174540830951
+arm, 643, 0.16348255607
+mormon, 5863, 0.162338088726
+hous, 4396, 0.152727916465
+jew, 4862, 0.148837861472
+consider, 2060, 0.148474049518
+break, 1284, 0.144091558106
+tom, 8976, 0.141962382146
+physic, 6613, 0.136818614715
+kill, 5012, 0.134647451579
+night, 6063, 0.127765437235
+tell, 8767, 0.102834193127

@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38935
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: an056@cleveland.Freenet.Edu (Gregory Winer)
+Subject: An very broad question
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 20
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+I am considering creating a "demo" for the IBM PC for my band.
+I would like to combine interesting graphics and a sample of 
+my music in the program.  I have seen things like this
+done for other platforms, and even a few for the PC, but since
+I'm completly new to this, I have no idea wher to start.
+I'm pretty sure that I am not skilled enough to put this 
+together, but I was hoping that you (collectivly) could
+A. Let me know what issues I need to worry about, things I
+   Should take into consideration when developing the 
+   concept.
+B. Perhaps someone knows of a programmer/artist who would be interested
+   in this type of a project.
+
+I know these are rather broad questions, but any information
+would be most helpful.  Thanks!!
+
+-- 
+Gregory Winer
+an056@po.cwru.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ broad question      consid creat demo ibm band
+like combin interest graphic sampl music program
+seen thing like done platform even sinc i'm
+complet new idea wher start i'm pretti sure skill
+enough put togeth hope collectivli could let know
+issu need worri thing take consider develop
+concept perhap someon know programm artist
+interest type project  know rather broad question
+inform help thank   gregori winer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+broad, 1323, 0.403589718066
+gregori, 4035, 0.22781419099
+know, 5052, 0.203386886268
+question, 7032, 0.190545430746
+demo, 2517, 0.187748175536
+artist, 669, 0.186513721435
+music, 5933, 0.182009687491
+skill, 8006, 0.179009842948
+band, 891, 0.173751891641
+thing, 8869, 0.171971044718
+sampl, 7601, 0.164697229305
+worri, 9845, 0.1623647146
+programm, 6906, 0.159672943103
+platform, 6676, 0.159672943103
+combin, 1921, 0.152752966127
+ibm, 4472, 0.152341528308
+consider, 2060, 0.148498401482
+togeth, 8969, 0.145729624379
+concept, 2002, 0.14540004498
+like, 5272, 0.132546493886
+issu, 4793, 0.128353516939
+type, 9177, 0.122934570167
+perhap, 6540, 0.121830086842
+creat, 2217, 0.121675420462
+complet, 1975, 0.121675420462
+develop, 2588, 0.117222857577
+seen, 7767, 0.116823597952
+project, 6909, 0.116823597952
+pretti, 6851, 0.115401508047
+hope, 4372, 0.112505255078
+consid, 2059, 0.110387584518
+idea, 4482, 0.107604060723
+graphic, 3997, 0.103624006651
+inform, 4637, 0.103450592742
+someon, 8124, 0.102851059472
+sure, 8585, 0.101359881108
+start, 8334, 0.0996283445535
+let, 5225, 0.0993994377626
+program, 6905, 0.0976976965734
+sinc, 7977, 0.0959467142544
+help, 4249, 0.0924674590536
+new, 6023, 0.0916843199254
+thank, 8832, 0.0881428606803
+need, 5993, 0.0846252994899

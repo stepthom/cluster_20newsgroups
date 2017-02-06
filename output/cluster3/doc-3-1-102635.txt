@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102635
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dkl@cs.arizona.edu (David K. Lowenthal)
+Subject: Re: Giants' GM Quinn *is* a genius!
+Organization: U of Arizona CS Dept, Tucson
+Lines: 22
+
+In article <C50nH4.4Et@odin.corp.sgi.com> luigi@sgi.com (Randy Palermo) writes:
+>Will Clark
+>Matt Williams
+>Robbie Thompson
+>Rod Beck........All came up through the Giants system.
+
+Geez.  Everyone comes up with Clark, Williams, Thompson.  These guys
+were all up in 1987.  That's ancient history.  So in the last 6 years,
+noone, right?  Beck doesn't count.  I said 2 solid years.
+
+>BTW, Manwaring lead the ML last season in throwing out baserunners. He is
+>an excellent defensive catcher. I agree that his offensive skills are
+>limited but he does seem to be improving on them.
+
+Let's see what he does w/o the help of a pitchout every other pitch.
+As I remember, even Bob Brenly had a good throwout percentage under
+Roger Craig, who loved to sacrifice the count for runners being thrown
+out.  Of course, he suffered from 3 ball 1 strike homers a lot too.
+I am not a big fan of Manwaring.
+
+
+--dave
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ giant quinn genius     clark matt william robbi
+thompson rod beck came giant system  geez everyon
+come clark william thompson guy that ancient
+histori last year noon right beck doesn't count
+said solid year  btw manwar lead last season throw
+baserunn excel defens catcher agre offens skill
+limit seem improv  let see help pitchout everi
+pitch rememb even bob bren good throwout percentag
+roger craig love sacrific count runner thrown
+cours suffer ball strike homer lot big fan manwar
+dave
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+manwar, 5497, 0.314383206523
+beck, 982, 0.302148356506
+thompson, 8879, 0.275414216966
+clark, 1787, 0.230624734113
+william, 9764, 0.213711648698
+count, 2180, 0.196467596113
+giant, 3865, 0.19347436652
+quinn, 7041, 0.165813629554
+geez, 3808, 0.153913660998
+baserunn, 933, 0.151074178253
+robbi, 7435, 0.146329134776
+noon, 6104, 0.140750081138
+rod, 7453, 0.135045572662
+genius, 3826, 0.129562956982
+sacrific, 7569, 0.126010629836
+thrown, 8900, 0.125208099375
+skill, 8006, 0.12094093069
+craig, 2208, 0.118508047968
+matt, 5552, 0.117940960139
+percentag, 6534, 0.115812732102
+ancient, 500, 0.115312367057
+homer, 4355, 0.110468648074
+catcher, 1557, 0.109695307094
+runner, 7545, 0.108585601408
+suffer, 8521, 0.107530945601
+year, 9943, 0.10688359921
+strike, 8448, 0.105881705944
+solid, 8115, 0.104057914507
+roger, 7458, 0.102110780872
+excel, 3261, 0.101846621782
+btw, 1355, 0.100327080262
+offens, 6202, 0.10008405438
+improv, 4557, 0.0982337980563
+throw, 8899, 0.0953390109025
+bob, 1189, 0.0934887545792
+limit, 5278, 0.0929636776965
+histori, 4314, 0.0919508894629
+defens, 2476, 0.0919508894629
+dave, 2395, 0.0919508894629
+lead, 5172, 0.0863338294997
+came, 1472, 0.085710191452
+everyon, 3241, 0.0847489189366
+fan, 3381, 0.0846317586771
+love, 5366, 0.0843993570929
+ball, 877, 0.0831646574641
+agre, 337, 0.082309686697
+season, 7747, 0.0818947558093
+guy, 4100, 0.0798400312443
+rememb, 7269, 0.0783108437585
+pitch, 6643, 0.0776275871237
+everi, 3235, 0.072832173627
+cours, 2190, 0.0727651986637
+big, 1082, 0.0724334519461
+said, 7583, 0.0707871603057
+doesn, 2793, 0.0689775627583
+let, 5225, 0.0671553045079
+lot, 5356, 0.0663489696755
+right, 7399, 0.0646849732289
+help, 4249, 0.0624719868602
+come, 1923, 0.0616633520404
+good, 3948, 0.0546620032335

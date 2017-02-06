@@ -1,0 +1,217 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61456
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kjenks@gothamcity.jsc.nasa.gov
+Subject: U.S. Government and Technolgy Investment
+Organization: NASA/JSC/GM2, Space Shuttle Program Office 
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 44
+
+People who criticize "big Government" and its projects rarely seem to
+have a consistent view of the role of Government in science and
+technology.  Basically, the U.S. Government has gotten into the role of
+supporting research which private industry finds too expensive or too
+long-term.  
+
+(Historically, this role for the U.S. Gov't was forced upon it because
+of socialism in other countries.  In order for U.S.  industries to
+compete with government-subsidized foreign competitors, the U.S. Gov't
+has taken on the role of subisizing big-ticket or long-lead R&D.)
+
+As a Republican, I abhor the necessity for our Government to involve
+itself in technology this way.  I believe that market forces should
+drive technology, and the world would be a better place for it.  But
+the whole world would have to implement this concept simultaneously, or
+some countries would have subsidized R&D, while others would not.  So
+the U.S. must subsidize because everybody else does.  (This sounds a
+lot like the farm subsidies arguments behind our GATT negotiations,
+doesn't it?)
+
+But this role of Government subsidies is antithetical to
+cost-effectiveness.  The general idea is to spend money on new
+technology, and thereby maintain and promote our technological culture,
+despite the forces in the business world (like the dreaded quarterly
+earnings report) which erode the ability of U.S. industry to invest in
+new technology.  And since our goal is to spend money, it makes little
+sense to try to save money.
+
+Of course, we could always spend our money more wisely, but EVERYBODY
+disagrees about that the wisdom should be.  
+
+It's interesting to note that some of our best tools for cost control
+available in industry today were derived from Government projects.
+GANTT charts, CP/M, and most of the modern scheduling software comes
+from DoD projects and their contractors.  The construction industry
+has taken these tools to the core of their businesses; every large
+construction project now uses these tools.  
+
+-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+     "A scientist can discover a new star, but he cannot make one.
+      He would have to ask an engineer to do that."
+        -- Gordon L. Glegg, American Engineer, 1969
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ govern technolgi invest     peopl critic big
+govern project rare seem consist view role govern
+scienc technolog basic govern gotten role support
+research privat industri find expens long term
+histor role gov't forc upon social countri order
+industri compet govern subsid foreign competitor
+gov't taken role subis big ticket long lead
+republican abhor necess govern involv technolog
+way believ market forc drive technolog world
+better place whole world implement concept
+simultan countri subsid other must subsid
+everybodi els sound lot like farm subsidi argument
+behind gatt negoti doesn't  role govern subsidi
+antithet cost effect general idea spend money new
+technolog therebi maintain promot technolog cultur
+despit forc busi world like dread quarter earn
+report erod abil industri invest new technolog
+sinc goal spend money make littl sens tri save
+money  cours could alway spend money wise
+everybodi disagre wisdom  it interest note best
+tool cost control avail industri today deriv
+govern project gantt chart modern schedul softwar
+come dod project contractor construct industri
+taken tool core busi everi larg construct project
+use tool  ken jenk nasa jsc gm2 space shuttl
+program offic   scientist discov new star cannot
+make one ask engin gordon glegg american engin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+govern, 3966, 0.368529296577
+role, 7463, 0.296779585808
+industri, 4608, 0.266421835703
+technolog, 8743, 0.263227177222
+subsid, 8500, 0.258217650737
+subsidi, 8501, 0.178496114854
+money, 5835, 0.177965943575
+project, 6909, 0.163882057874
+tool, 8988, 0.162966847117
+spend, 8222, 0.155114351946
+forc, 3594, 0.137112659245
+invest, 4744, 0.115099468729
+everybodi, 3239, 0.113493196568
+construct, 2074, 0.111995910763
+gov, 3965, 0.111283703716
+world, 9841, 0.11090611778
+countri, 2186, 0.106853596347
+busi, 1424, 0.10175600895
+taken, 8678, 0.100006459896
+new, 6023, 0.0964621999806
+abhor, 175, 0.0892480574272
+engin, 3109, 0.0861149660636
+cost, 2169, 0.0838788075434
+erod, 3174, 0.0798953702137
+competitor, 1971, 0.0798953702137
+technolgi, 8742, 0.0759583023377
+big, 1082, 0.075199269793
+necess, 5989, 0.0749062445648
+dread, 2864, 0.0749062445648
+negoti, 5999, 0.0714826763395
+dod, 2789, 0.0714826763395
+contractor, 2096, 0.0714826763395
+therebi, 8854, 0.0707702838862
+gordon, 3954, 0.0707702838862
+chart, 1674, 0.0707702838862
+gm2, 3915, 0.0701010940395
+long, 5336, 0.0695601823627
+jenk, 4846, 0.0694701650696
+foreign, 3598, 0.068307169158
+simultan, 7975, 0.0667644416326
+social, 8091, 0.0654111263184
+wisdom, 9798, 0.0649945390715
+quarter, 7027, 0.0645931038543
+farm, 3390, 0.0645931038543
+rare, 7101, 0.0627794853869
+jsc, 4914, 0.0624499608598
+promot, 6914, 0.0618190318899
+earn, 2954, 0.0618190318899
+goal, 3924, 0.0591133084529
+despit, 2570, 0.0591133084529
+compet, 1969, 0.0591133084529
+wise, 9799, 0.0588759175424
+cultur, 2291, 0.0588759175424
+ticket, 8919, 0.0584159238223
+deriv, 2550, 0.0579743348617
+histor, 4313, 0.0577599931387
+discov, 2698, 0.0575497343644
+core, 2140, 0.0575497343644
+disagre, 2676, 0.0571408634771
+scientist, 7694, 0.0558184676562
+gotten, 3962, 0.0554680175268
+make, 5459, 0.0553707965491
+modern, 5811, 0.0544788559463
+ken, 4980, 0.0541678987102
+critic, 2237, 0.0541678987102
+privat, 6879, 0.0537172952518
+implement, 4544, 0.0532843671405
+maintain, 5454, 0.0528677798936
+expens, 3294, 0.052078997849
+abil, 177, 0.051704783982
+concept, 2002, 0.0509923915287
+market, 5514, 0.050323201682
+consist, 2061, 0.050323201682
+schedul, 7678, 0.0502155105654
+american, 469, 0.0490954651044
+offic, 6206, 0.0489034906675
+drive, 2873, 0.0479034593156
+star, 8324, 0.0477309831206
+like, 5272, 0.0464845984945
+involv, 4750, 0.0462891646445
+control, 2107, 0.0460661620721
+argument, 631, 0.0460661620721
+sens, 7788, 0.0459928179359
+basic, 937, 0.0454229751866
+term, 8795, 0.0453537696189
+lead, 5172, 0.0448152114967
+shuttl, 7929, 0.0444278646693
+save, 7646, 0.0444278646693
+effect, 3005, 0.0442391720079
+report, 7291, 0.043931679927
+sound, 8150, 0.043341258349
+view, 9510, 0.0431136574629
+general, 3818, 0.0426180916129
+research, 7307, 0.0424577267793
+today, 8964, 0.0421955231944
+alway, 457, 0.0416890925492
+nasa, 5956, 0.0415415858745
+scienc, 7692, 0.0412523574878
+larg, 5124, 0.0408781436207
+note, 6118, 0.0398260858478
+order, 6281, 0.0390200160128
+avail, 811, 0.0383416847562
+ask, 689, 0.0382325742939
+els, 3053, 0.0381604285998
+support, 8576, 0.0380175366122
+place, 6657, 0.0378066081833
+everi, 3235, 0.0378066081833
+cours, 2190, 0.0377718420069
+idea, 4482, 0.0377371849866
+littl, 5308, 0.0370985692114
+best, 1052, 0.0369043427594
+softwar, 8103, 0.0368403527141
+doesn, 2793, 0.0358057100149
+lot, 5356, 0.0344412280311
+program, 6905, 0.0342629824895
+believ, 1009, 0.0340875695739
+sinc, 7977, 0.0336489058159
+better, 1060, 0.0330219596178
+come, 1923, 0.0320089607898
+tri, 9087, 0.0319678499345
+space, 8164, 0.0313107356299
+peopl, 6530, 0.0299485017168
+way, 9666, 0.0288747181494
+use, 9363, 0.0243784405982

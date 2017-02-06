@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38755
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jbulf@balsa.Berkeley.EDU (Jeff Bulf)
+Subject: Re: Fractal compression
+Keywords: fractal
+Reply-To: jbulf@balsa.Berkeley.EDU (Jeff Bulf)
+Organization: Kubota Pacific Computers Inc.
+Lines: 12
+
+In article <inu530n.735550992@lindblat.cc.monash.edu.au>, inu530n@lindblat.cc.monash.edu.au (I Rachmat) writes:
+|> Hi... can anybody give me book or reference title to give me a start at 
+|> fractal image compression technique. Helps will be appreciated... thanx
+
+For better worse, the source on this on is Michael Barnsley. His article
+in The Science of Fractal Images (Peitgen et al) is a fair-to-middling
+intro. Barnsley's book Fractals Everywhere is a more thorough treatment.
+The book covers Iterated Function Systems in general, and their application
+to image compression is clear from the text.
+--- 
+	dr memory
+	jbulf@kpc.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fractal compress       anybodi give book refer
+titl give start fractal imag compress techniqu
+help appreci thanx  better wors sourc michael
+barnsley articl scienc fractal imag peitgen fair
+middl intro barnsley book fractal everywher
+thorough treatment book cover iter function system
+general applic imag compress clear text  memori
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fractal, 3637, 0.53927647425
+barnsley, 916, 0.35930229898
+compress, 1986, 0.357794271596
+book, 1218, 0.247566963863
+imag, 4512, 0.231686315898
+iter, 4799, 0.163681657861
+treatment, 9079, 0.156344768473
+thorough, 8885, 0.149199076086
+intro, 4731, 0.149199076086
+everywher, 3244, 0.146315429121
+thanx, 8833, 0.132474136241
+techniqu, 8740, 0.118041154283
+middl, 5699, 0.115415980371
+wors, 9846, 0.115064231457
+titl, 8953, 0.110921958859
+function, 3722, 0.107918539069
+cover, 2194, 0.105956579264
+michael, 5680, 0.105034892104
+memori, 5628, 0.104367045159
+text, 8822, 0.103086765446
+applic, 585, 0.100909780853
+fair, 3363, 0.0975751271911
+anybodi, 552, 0.0936761288583
+appreci, 587, 0.0890654004753
+general, 3818, 0.0889527395839
+clear, 1803, 0.0883975535296
+scienc, 7692, 0.0861021710255
+sourc, 8153, 0.0850349058103
+refer, 7213, 0.084940289224
+articl, 665, 0.0742538966046
+start, 8334, 0.0729271234293
+better, 1060, 0.0689236346177
+help, 4249, 0.0676854145255

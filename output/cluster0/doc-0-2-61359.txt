@@ -1,0 +1,183 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61359
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rek@siss81 (Robert Kaye)
+Subject: Re: Long term Human Missions
+Nntp-Posting-Host: siss81.rpslmc.edu
+Organization: Rush-Presbyterian-St. Luke's Medical Center
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 37
+
+Ken Hayashida (khayash@hsc.usc.edu) wrote:
+: Mike Adams suggested discussions on long-term effects of spaceflight
+: to the human being.  I love this topic, as some of you regulars know.
+
+: So, having seen Henry's encouraging statement about starting to talk
+: about it; I shall.
+
+: I feel that we as a community of people have unique resources
+: to deliver to the world a comprehensive book which can elaborate
+: on the utility of spaceflight to fields which are as divergent 
+: as medical intensive care, agriculture, environmental protection, and 
+: probably more.  I do not believe that the general public understands
+: the impact of spaceflight on the whole of society.  In the absence
+: of such knowledge, we see dwindling support of the world's space effort.
+
+Just a few contributions from the space program to "regular" society:
+
+1.	Calculators
+2.	Teflon (So your eggs don't stick in the pan)
+3.	Pacemakers (Kept my grandfather alive from 1976 until 1988)
+
+
+p.s.  To all the regular contributors to sci.space.news and
+sci.space.shuttle, thanks for all your hard work keeping us informed
+as to the doings down in NASA and other space-type agencies.  I don't
+have much time to read USENET, but I ALWAYS read these two groups....
+
+--
+Robert E. Kaye	  Asst. Sys Admin      Surgical Information Systems
+Rush-Presbyterian-St. Luke's Medical Center      Chicago,  IL   USA
+Internet:  rek@siss81.rpslmc.edu   	     Voice:  (312) 942-5891 
+					       FAX:  (312) 942-4228
+   _____    _____    
+  / ^ ^ \  / _ _ \   Support your local Community Theater Groups...! 
+  | o o |  | o o |
+  | \_/ |  | /-\ |   St. Marcellene's Church in Schaumburg Il. presents:
+   \___/    \___/    "Meet Me in St. Louis" opening April 30th.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+rek siss81 robert kay long term human mission
+mike adam suggest discuss long term effect
+spaceflight human love topic regular know  seen
+henri encourag statement start talk shall  feel
+communiti peopl uniqu resourc deliv world
+comprehens book elabor util spaceflight field
+diverg medic intens care agricultur environment
+protect probabl believ general public understand
+impact spaceflight whole societi absenc knowledg
+see dwindl support world space effort  contribut
+space program regular societi  calcul teflon egg
+don't stick pan pacemak kept grandfath aliv
+regular contributor sci space news sci space
+shuttl thank hard work keep inform do nasa space
+type agenc don't much time read usenet alway read
+two group   robert kay asst sys admin surgic
+inform system rush presbyterian luke medic center
+chicago usa  fax  support local communiti theater
+group  marcellen church schaumburg present meet
+loui open april 30th
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spaceflight, 8168, 0.286215200552
+kay, 4965, 0.233200782401
+space, 8164, 0.223712110284
+regular, 7234, 0.219597611709
+medic, 5608, 0.180392036403
+communiti, 1953, 0.157080252099
+societi, 8093, 0.149573397777
+sci, 7690, 0.147076861639
+robert, 7437, 0.142018550118
+term, 8795, 0.129619279862
+theater, 8834, 0.122995972248
+asst, 708, 0.122995972248
+human, 4432, 0.121800820315
+dwindl, 2937, 0.119476230008
+presbyterian, 6833, 0.1166003912
+admin, 271, 0.114168904134
+schaumburg, 7677, 0.112062654232
+diverg, 2761, 0.110204810153
+30th, 86, 0.110204810153
+group, 4064, 0.109788633288
+support, 8576, 0.108652616072
+pacemak, 6371, 0.108542911993
+agricultur, 340, 0.107039542239
+grandfath, 3992, 0.105667073185
+egg, 3011, 0.105667073185
+world, 9841, 0.105655099453
+contributor, 2104, 0.104404524043
+inform, 4637, 0.103688367735
+sys, 8661, 0.103235586118
+teflon, 8749, 0.101129336217
+absenc, 191, 0.101129336217
+long, 5336, 0.0994001250691
+rush, 7547, 0.0992714921374
+elabor, 3024, 0.0976095939774
+comprehens, 1985, 0.0976095939774
+pan, 6404, 0.0968400050707
+luke, 5386, 0.096106224224
+read, 7135, 0.0960309701686
+environment, 3140, 0.0923022681028
+deliv, 2507, 0.0912140129299
+adam, 258, 0.0912140129299
+uniqu, 9276, 0.0901960182015
+intens, 4701, 0.0879059979457
+encourag, 3089, 0.0855355300796
+usenet, 9365, 0.0844717488351
+loui, 5363, 0.0831565337225
+impact, 4534, 0.0819425930745
+agenc, 329, 0.0819425930745
+aliv, 417, 0.0810897668048
+kept, 4989, 0.0797634864909
+church, 1746, 0.0792627001861
+chicago, 1701, 0.0792627001861
+stick, 8393, 0.0778492078478
+shall, 7846, 0.0778492078478
+meet, 5615, 0.0776254673066
+protect, 6940, 0.0769726799302
+calcul, 1451, 0.0759413686593
+usa, 9357, 0.0757429579466
+topic, 8992, 0.0753534704125
+resourc, 7320, 0.0749733690398
+util, 9384, 0.0740613552947
+effort, 3007, 0.0737108198983
+contribut, 2103, 0.0719108600807
+henri, 4258, 0.0717569716046
+don, 2811, 0.0715556678921
+statement, 8343, 0.0711560058258
+knowledg, 5053, 0.0702954227604
+mike, 5710, 0.0680848277575
+local, 5322, 0.0671428497722
+fax, 3413, 0.0662539699013
+april, 595, 0.0655152790332
+center, 1606, 0.0636688940487
+shuttl, 7929, 0.0634865400677
+effect, 3005, 0.0632169019858
+present, 6837, 0.0631280372793
+open, 6258, 0.0626051128043
+love, 5366, 0.0626051128043
+mission, 5772, 0.0623500111198
+care, 1516, 0.0620989695819
+feel, 3429, 0.0620161691625
+type, 9177, 0.0616085639577
+general, 3818, 0.0609004101576
+discuss, 2708, 0.0606712519816
+public, 6973, 0.0605955998285
+suggest, 8525, 0.0601491518092
+hard, 4167, 0.0597149929236
+alway, 457, 0.0595728888663
+nasa, 5956, 0.059362104745
+field, 3466, 0.059362104745
+seen, 7767, 0.0585460549985
+understand, 9246, 0.0565562148041
+book, 1218, 0.0564979025614
+news, 6031, 0.0544792020636
+talk, 8684, 0.0533432208523
+probabl, 6885, 0.0515863016599
+start, 8334, 0.049928667169
+program, 6905, 0.0489611244396
+believ, 1009, 0.0487104628519
+work, 9833, 0.0446872700995
+thank, 8832, 0.044172725884
+peopl, 6530, 0.0427958167326
+time, 8936, 0.0374780298581
+know, 5052, 0.0339757264746

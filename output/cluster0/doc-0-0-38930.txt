@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38930
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: schwartz@ils.nwu.edu (diane schwartz)
+Subject: re: SIGKids Research Showcase Call
+Organization: institute for the learning sciences
+Lines: 15
+Distribution: world
+NNTP-Posting-Host: schwartz.ils.nwu.edu
+
+It was brought to my attention that there was an oversight in the SIGKids
+Research Showcase Call for Participation and Entry Form.
+
+Please note that the SIGKids Research Showcase is part of 
+SIGGRAPH '93, August 1-6, 1993 Anaheim, California.
+
+Thank you,
+
+Diane Schwartz
+SIGKids Committee Member
+Institute for the Learning Sciences
+1890 Maple Avenue, Suite 150
+Evanston, Illinois 60201
+
+schwartz@ils.nwu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sigkid research showcas call      brought attent
+oversight sigkid research showcas call particip
+entri form  pleas note sigkid research showcas
+part siggraph august anaheim california  thank
+dian schwartz sigkid committe member institut
+learn scienc mapl avenu suit evanston illinoi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sigkid, 7944, 0.661361149436
+showcas, 7916, 0.444040705779
+research, 7307, 0.235970606487
+evanston, 3230, 0.159457366374
+dian, 2615, 0.159457366374
+schwartz, 7688, 0.154894218349
+anaheim, 486, 0.154894218349
+mapl, 5499, 0.145282933955
+illinoi, 4507, 0.135354598506
+avenu, 815, 0.126545353511
+siggraph, 7941, 0.121180166087
+committe, 1946, 0.115694332984
+august, 784, 0.110892008158
+entri, 3135, 0.109073086918
+particip, 6440, 0.107005733668
+attent, 766, 0.105490271335
+suit, 8529, 0.103081680886
+california, 1459, 0.101822859933
+brought, 1343, 0.100637056272
+institut, 4683, 0.094046473554
+member, 5625, 0.0905982430645
+learn, 5182, 0.0868992820804
+form, 3610, 0.0819571610091
+scienc, 7692, 0.0764238106452
+note, 6118, 0.0737815104137
+pleas, 6688, 0.0601566146466
+thank, 8832, 0.057267456863

@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38219
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lewism@aix.rpi.edu (Michael C. Lewis)
+Subject: Re: Delaunay Triangulation
+Nntp-Posting-Host: aix.rpi.edu
+Organization: Rensselaer Polytechnic Institute, Troy, NY
+Lines: 16
+
+In article <lsk1v9INN93c@caspian.usc.edu> zyeh@caspian.usc.edu (zhenghao yeh) writes:
+>
+>Does anybody know what Delaunay Triangulation is?
+>Is there any reference to it? 
+>Is it useful for creating 3-D objects? If yes, what's the advantage?
+
+It is used to create a TIN (triangulated irregular network), which is
+basically a bunch of triangles which form a surface over a group of
+points.  What is special about it is that the triangles formed are the 
+most equalateral possible.  Check out "Proceedings of AutoCarto N" where
+N is 8..10.  Sorry, I don't have a specific reference describing the
+process.
+-Michael
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ delaunay triangul       anybodi know delaunay
+triangul refer use creat object yes what advantag
+use creat tin triangul irregular network basic
+bunch triangl form surfac group point special
+triangl form equalater possibl check proceed
+autocarto sorri don't specif refer describ process
+michael
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+triangul, 9091, 0.512159232503
+delaunay, 2498, 0.392678415242
+triangl, 9090, 0.338506233693
+form, 3610, 0.217431472052
+creat, 2217, 0.209729302083
+refer, 7213, 0.200015578245
+tin, 8940, 0.192717035368
+irregular, 4770, 0.179547151462
+proceed, 6889, 0.147097656115
+bunch, 1399, 0.142469268728
+advantag, 286, 0.13237190197
+network, 6018, 0.125595507695
+michael, 5680, 0.123666959885
+special, 8198, 0.120888850681
+use, 9363, 0.119817799136
+surfac, 8587, 0.11858866002
+describ, 2556, 0.116879370398
+basic, 937, 0.111624878038
+check, 1682, 0.110620096587
+anybodi, 552, 0.110293273384
+process, 6890, 0.10965120796
+specif, 8203, 0.107663626399
+sorri, 8142, 0.104600005062
+object, 6173, 0.0998968441919
+yes, 9951, 0.0988116595762
+group, 4064, 0.0944031714643
+possibl, 6765, 0.08893512984
+point, 6710, 0.0765672853607
+don, 2811, 0.0615280633608
+know, 5052, 0.0584289326853

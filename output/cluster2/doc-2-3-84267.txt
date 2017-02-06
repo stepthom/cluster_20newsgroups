@@ -1,0 +1,225 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84267
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mathew <mathew@mantis.co.uk>
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: Mantis Consultants, Cambridge. UK.
+X-Newsreader: rusnews v1.02
+Lines: 74
+
+frank@D012S658.uucp (Frank O'Dwyer) writes:
+> In article <930421.102525.9Y9.rusnews.w165w@mantis.co.uk> mathew 
+> <mathew@mantis.co.uk> writes:
+> #frank@D012S658.uucp (Frank O'Dwyer) writes:
+> #> Presumably this means that some moral systems are better than others?
+> #> How so?  How do you manage this without an objective frame of reference?
+> #
+> #Which goes faster, a bullet or a snail?  How come you can answer that when
+> #Einstein proved that there isn't an objective frame of reference?
+> 
+> Not that Einstein "proved" anything,
+
+Oh, yes he did.  You may not agree with his premises, and what he proved may
+not apply to "reality" (if such a thing exists), but he certainly proved
+something.
+
+>                                        but you can't answer it, and your 
+> answer be in general true.
+
+Got it in one.  Similarly, a moral relativist will not judge one moral system
+to be better than another in every possible circumstance.  This does not,
+however, preclude him from judging one moral system to be better than another
+in a specific set of circumstances.  Nor does it preclude a set of moral
+relativists from collectively judging a moral system, from some set of
+circumstances which they all agree they are in.
+
+>                             And even that statement assumes an
+> objective reality independent of our beliefs about it.
+
+Eh?  Could you explain this?  Which "that statement" are you talking about?
+
+> #> And what weasel word do you use to describe that frame of reference, if
+> #> it isn't an objective reality for values?
+> #
+> #I'm sorry, I can't parse "an objective reality for values".  Could you try
+> #again?
+> 
+> s/an objective reality for values/some values are real even in the face
+> of disagreement/
+
+I still don't quite see what you're trying to say.  I assume by "values" you
+mean moral values, yes?  In which case, what do you mean by "real"?  What is
+a "real" moral value, as opposed to an unreal one?
+
+> If you are saying that some moral systems are better than others, in
+> your opinion, then all you get is infinite regress.
+
+Sorry, but in what way is it an infinite regress?  It looks extremely finite
+to me.
+
+>                                                    What you do not get
+> is any justification for saying that the moral system of the terrorist
+> is inferior to that of the man of peace.
+
+Sorry, but that's not so.  I can provide a justification for asserting that
+the moral system of the terrorist is inferior to that of the man of peace.  I
+just can't provide a justification which works in all possible circumstances.
+
+Similarly, I can provide a justification for asserting that bullets move
+faster than snails.  That justification won't hold in all possible frames of
+reference, but it will hold in almost all the frames of reference I am ever
+likely to be in.
+
+>                                      Your saying it does not
+> make it so,  and that's according to your premise, not mine.
+
+I don't think I agree with this.  My saying it *does* make it so *from my
+point of view* and according to *my premises*, unless the argument is invalid.
+It may indeed not make it so from your point of view, but I never claimed
+that it did.  In fact, I don't even claim that you exist enough to have a
+point of view.
+
+
+mathew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral         presum mean
+moral system better other manag without object
+frame refer  goe faster bullet snail come answer
+einstein prove isn't object frame refer  einstein
+prove anyth  yes agre premis prove appli realiti
+thing exist certain prove someth  can't answer
+answer general true  got one similar moral
+relativist judg one moral system better anoth
+everi possibl circumst howev preclud judg one
+moral system better anoth specif set circumst
+preclud set moral relativist collect judg moral
+system set circumst agre  even statement assum
+object realiti independ belief  could explain
+statement talk  weasel word use describ frame
+refer isn't object realiti valu  i'm sorri can't
+pars object realiti valu could tri   object
+realiti valu valu real even face disagr  still
+don't quit see you'r tri say assum valu mean moral
+valu yes case mean real real moral valu oppos
+unreal one  say moral system better other opinion
+get infinit regress  sorri way infinit regress
+look extrem finit   get justif say moral system
+terrorist inferior man peac  sorri that provid
+justif assert moral system terrorist inferior man
+peac can't provid justif work possibl circumst
+similar provid justif assert bullet move faster
+snail justif won't hold possibl frame refer hold
+almost frame refer ever like  say make that accord
+premis mine  don't think agre say make point view
+accord premis unless argument invalid inde make
+point view never claim fact don't even claim exist
+enough point view   mathew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moral, 5855, 0.464745752821
+justif, 4938, 0.274292477173
+valu, 9414, 0.247321895971
+circumst, 1770, 0.223758680366
+frame, 3643, 0.209049074329
+realiti, 7148, 0.202311154689
+object, 6173, 0.190869570033
+premis, 6827, 0.161693144066
+refer, 7213, 0.159234624011
+prove, 6947, 0.153379331723
+say, 7653, 0.131586159845
+judg, 4920, 0.128272222905
+preclud, 6810, 0.127709404757
+regress, 7231, 0.122739338352
+terrorist, 8809, 0.120704489592
+relativist, 7250, 0.118884255349
+bullet, 1386, 0.117237653186
+inferior, 4625, 0.113071278039
+snail, 8072, 0.108729508021
+einstein, 3018, 0.106909273778
+better, 1060, 0.103367004225
+view, 9510, 0.101217409521
+agre, 337, 0.100308040083
+sorri, 8142, 0.0999278713614
+infinit, 4631, 0.0977420092985
+provid, 6949, 0.0958613686372
+answer, 535, 0.0956471990728
+assert, 699, 0.0940913813029
+peac, 6495, 0.0932876900444
+set, 7815, 0.0928210458629
+real, 7144, 0.0888399924558
+possibl, 6765, 0.0849626939203
+faster, 3399, 0.0847795448791
+mean, 5595, 0.0800854042324
+statement, 8343, 0.0779353401423
+accord, 219, 0.0776154005076
+hold, 4341, 0.0755277998081
+point, 6710, 0.0731472798445
+similar, 7961, 0.0715328274046
+claim, 1782, 0.0673028781421
+assum, 710, 0.0670430800655
+make, 5459, 0.0649966729761
+weasel, 9678, 0.0638547023786
+isn, 4783, 0.0632741630588
+yes, 9951, 0.0629320479877
+unreal, 9304, 0.0625231298051
+pars, 6432, 0.0625231298051
+exist, 3283, 0.0619445651392
+man, 5471, 0.05966966659
+don, 2811, 0.0587798097809
+invalid, 4738, 0.057175792818
+mathew, 5547, 0.0559396700915
+finit, 3489, 0.0559396700915
+disagr, 2675, 0.0559396700915
+anoth, 533, 0.0556804852689
+tri, 9087, 0.0500336884528
+presum, 6845, 0.0458922300224
+independ, 4595, 0.0432732697455
+extrem, 3333, 0.0427574076349
+oppos, 6269, 0.0421530967232
+collect, 1898, 0.0416983536643
+inde, 4594, 0.0411616516805
+belief, 1008, 0.0401789884065
+appli, 584, 0.0382700435175
+describ, 2556, 0.0372195861208
+face, 3345, 0.0371538966539
+goe, 3931, 0.0368960230784
+won, 9820, 0.0368327398411
+argument, 631, 0.0360496562336
+unless, 9289, 0.0351741608951
+explain, 3301, 0.034917817952
+specif, 8203, 0.034284883647
+general, 3818, 0.0333513251998
+manag, 5472, 0.0329801792857
+opinion, 6266, 0.0323573421453
+quit, 7043, 0.0316370815294
+word, 9829, 0.030940348621
+true, 9121, 0.030813780448
+christian, 1732, 0.0306581343764
+certain, 1619, 0.0305660753531
+case, 1540, 0.0300334195872
+howev, 4406, 0.0297789229169
+fact, 3350, 0.0296407099961
+anyth, 555, 0.0296133308186
+everi, 3235, 0.0295860381474
+talk, 8684, 0.0292127278166
+got, 3960, 0.0283444672193
+someth, 8126, 0.0254278695837
+come, 1923, 0.0250490160448
+work, 9833, 0.0244724078791
+thing, 8869, 0.023598547362
+way, 9666, 0.0225962749295
+year, 9943, 0.0217092397911
+look, 5341, 0.0215573090834
+think, 8871, 0.0197838882053
+use, 9363, 0.0190776562132
+like, 5272, 0.0181885544672

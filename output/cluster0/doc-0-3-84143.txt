@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84143
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: an030@cleveland.Freenet.Edu (Broward Horne)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 15
+Reply-To: an030@cleveland.Freenet.Edu (Broward Horne)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, spl@pitstop.ucsd.edu (Steve Lamont) says:
+
+>... or consider the thousands in Central America killed by those brave
+>CIA/NSC sponsored "Freedom Fighters."
+>
+>Thus far, Slick Willie is a piker.
+
+
+      ONLY if you weight Americans equal to SAlvadorans.
+
+      I don't.
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen         consid thousand
+central america kill brave cia nsc sponsor freedom
+fighter  thus far slick willi piker   weight
+american equal salvadoran  don't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fighter, 3475, 0.298935920906
+cia, 1750, 0.298935920906
+slick, 8030, 0.295364124329
+willi, 9763, 0.278429917937
+sponsor, 8254, 0.258047697669
+freedom, 3672, 0.237074427236
+central, 1611, 0.234369136236
+weight, 9695, 0.232652630957
+america, 468, 0.220238187151
+thousand, 8888, 0.219605217176
+presid, 6839, 0.213725193017
+equal, 3156, 0.212102336535
+american, 469, 0.198475097249
+kill, 5012, 0.190930296798
+brave, 1277, 0.190930296798
+messag, 5650, 0.184478556805
+happen, 4159, 0.157274819348
+consid, 2059, 0.156504098374
+far, 3386, 0.149061294848
+don, 2811, 0.101216769012
+know, 5052, 0.0961185426646

@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61365
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dan@key3.ae.su.oz.au (Daniel M. Newman)
+Subject: Re: Lindbergh and the moon (was:Why not give $1G)
+Reply-To: dan@key3.ae.su.oz.au (Daniel M. Newman)
+Organization: Aeronautical Engineering, University of Sydney
+Lines: 35
+Nntp-Posting-Host: key3.ae.su.oz.au
+
+In article <pgf.735953163@srl03.cacs.usl.edu> pgf@srl03.cacs.usl.edu (Phil G. Fraering) writes:
+>gnb@baby.bby.com.au (Gregory N. Bond) writes:
+>
+>>In article <C5v9Lr.KxF@news.cso.uiuc.edu> jbh55289@uxa.cso.uiuc.edu (Josh Hopkins) writes:
+>
+>>   [re: voyages of discovery...]
+>>   Could you give examples of privately funded ones?
+>
+Much of Cook's later exploration was privately funded, by Joseph Banks
+among others (eg in Resolution & the earlier Endeavour).  Colnett's voyage
+to the Galapagos was substantially privately funded by the owners of
+British whaling vessels.  Chancellor and Willoughby were privately funded
+by London merchant companies in their voyages to Muscovy.  The list is
+almost endless.  Those doing the funding were about eighty percent
+motivated by potential profit, ten percent by potential glory and ten
+percent by the desire to advance the sum of human knowledge.
+
+--
+Dan Newman
+Aeronautical Engineering
+University of Sydney
+Sydney NSW 2050
+AUSTRALIA
+From: dan@key3.ae.su.oz.au (Daniel M. Newman)
+Path: key3.ae.su.oz.au!dan
+Newsgroups: sci.space
+Subject: 
+Expires: 
+References: 
+Sender: 
+Reply-To: dan@key3.ae.su.oz.au (Daniel M. Newman)
+Distribution: world
+Organization: Aeronautical Engineering, Sydney University
+Keywords: 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lindbergh moon give           voyag discoveri
+could give exampl privat fund one  much cook later
+explor privat fund joseph bank among other resolut
+earlier endeavour colnett voyag galapago substanti
+privat fund owner british whale vessel chancellor
+willoughbi privat fund london merchant compani
+voyag muscovi list almost endless fund eighti
+percent motiv potenti profit ten percent potenti
+glori ten percent desir advanc sum human knowledg
+dan newman aeronaut engin univers sydney sydney
+nsw australia  path key3 dan newsgroup sci space
+expir refer sender
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fund, 3723, 0.397330627678
+privat, 6879, 0.340754535738
+percent, 6533, 0.305465904763
+voyag, 9588, 0.303685541401
+sydney, 8643, 0.248732307155
+dan, 2350, 0.189853166393
+potenti, 6774, 0.167682826441
+whale, 9717, 0.136499854289
+endless, 3095, 0.136499854289
+galapago, 3750, 0.132593675135
+eighti, 3017, 0.129402094378
+merchant, 5637, 0.126703651297
+nsw, 6143, 0.124366153577
+endeavour, 3094, 0.122304334466
+vessel, 9486, 0.120459974423
+lindbergh, 5284, 0.120459974423
+london, 5334, 0.115867227671
+aeronaut, 301, 0.113362214512
+cook, 2122, 0.111171204927
+glori, 3907, 0.105879708787
+british, 1320, 0.105134692954
+sender, 7786, 0.101821968254
+discoveri, 2700, 0.101821968254
+sum, 8532, 0.100654520415
+motiv, 5881, 0.100654520415
+substanti, 8503, 0.0990375042148
+joseph, 4893, 0.098036933043
+owner, 6359, 0.095760323141
+profit, 6903, 0.0930009922426
+bank, 897, 0.0926400468809
+australia, 792, 0.0915998262474
+expir, 3300, 0.0903025491615
+path, 6461, 0.0899927139963
+desir, 2565, 0.0859032323313
+resolut, 7316, 0.0851886339345
+earlier, 2952, 0.0851886339345
+explor, 3307, 0.0827928824847
+sci, 7690, 0.0816123073634
+knowledg, 5053, 0.0780132453822
+newsgroup, 6032, 0.0774043064247
+later, 5140, 0.0734085862578
+compani, 1958, 0.0728230724841
+moon, 5851, 0.0710710885385
+engin, 3109, 0.068283560126
+human, 4432, 0.0675867425635
+advanc, 285, 0.0661921463675
+refer, 7213, 0.0645380624353
+list, 5298, 0.0641128132683
+exampl, 3258, 0.0634937032865
+univers, 9282, 0.0581728458017
+space, 8164, 0.0496547486854

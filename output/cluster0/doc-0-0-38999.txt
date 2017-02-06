@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38999
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: roy@mchip00.med.nyu.edu (Roy Smith)
+Subject: Re: SGI sales practices (Was: Crimson (Was: Kubota Announcement?))
+Organization: New York University, School of Medicine
+Lines: 26
+NNTP-Posting-Host: mchip00.med.nyu.edu
+
+olson@anchor.esd.sgi.com (Dave Olson) writes:
+> But surely you don't expect a system you buy now for a five year
+> period to be constantly upgradable over that entire five year period?
+
+	What's sort of interesting about this whole thread is just how much
+it has in common with similar threads in groups dealing with other vendor's
+hardware.  I currently deal basically with hardware from 3 vendors - Apple,
+DEC, and SGI - and thus tend to monitor the groups about those vendor's
+hardware.  Currently, it seems like SGI customers are pissed at SGI about
+dropping support for the Personal Iris, DEC customers are pissed at DEC for
+dropping MIPS support in favor of the new Alpha boxes, and Apple customers
+seem to get pissed every time a new Mac is introduced that's faster and
+cheaper than the one they just bought.  When I used to be a Sun customer
+years ago, I remember people being pissed at Sun for leaving their 386
+and 680x0 customers out in the cold when Sparc came along.
+
+	What's really interesting is that from what I can tell, the MIS
+folks in the basement with their ES/9000 don't seem to be pissed at IBM.
+Why?  I have no idea.  Either IBM really does take care of their customers
+better, or they just have their customers brainwashed better than the
+smaller vendors do.
+-- 
+Roy Smith <roy@nyu.edu>
+Hippocrates Project, Department of Microbiology, Coles 202
+NYU School of Medicine, 550 First Avenue, New York, NY 10016
+"This never happened to Bart Simpson."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sgi sale practic crimson kubota announc      sure
+don't expect system buy five year period constant
+upgrad entir five year period  what sort interest
+whole thread much common similar thread group deal
+vendor hardwar current deal basic hardwar vendor
+appl sgi thus tend monitor group vendor hardwar
+current seem like sgi custom piss sgi drop support
+person iri custom piss drop mip support favor new
+alpha box appl custom seem get piss everi time new
+mac introduc that faster cheaper one bought use
+sun custom year ago rememb peopl piss sun leav
+680x0 custom cold sparc came along  what realli
+interest tell mis folk basement don't seem piss
+ibm idea either ibm realli take care custom better
+custom brainwash better smaller vendor   hippocr
+project depart microbiolog cole nyu school medicin
+first avenu new york never happen bart simpson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+custom, 2311, 0.475564786221
+piss, 6640, 0.411529850142
+vendor, 9458, 0.298685652978
+sgi, 7831, 0.278458656546
+hardwar, 4173, 0.171976003377
+appl, 583, 0.141736197387
+thread, 8890, 0.124270928636
+ibm, 4472, 0.124270928636
+drop, 2878, 0.124270928636
+period, 6546, 0.114422445065
+new, 6023, 0.112185715593
+sun, 8539, 0.106143069674
+deal, 2418, 0.103785909523
+basement, 930, 0.0972379269363
+bart, 920, 0.0972379269363
+year, 9943, 0.0967892609954
+simpson, 7971, 0.0948973726363
+current, 2299, 0.0930276144169
+mip, 5748, 0.0896922113873
+680x0, 131, 0.0896922113873
+group, 4064, 0.0893534981928
+support, 8576, 0.08842892969
+mis, 5756, 0.0871160998874
+brainwash, 1267, 0.0871160998874
+crimson, 2231, 0.0859990907079
+sparc, 8184, 0.0815277010088
+kubota, 5078, 0.080793929459
+iri, 4764, 0.080099841116
+avenu, 815, 0.0794413630795
+introduc, 4732, 0.0771008087795
+better, 1060, 0.0768091992665
+medicin, 5609, 0.0765767561305
+cole, 1890, 0.0765767561305
+realli, 7150, 0.0761867441887
+bought, 1247, 0.0760732599426
+alpha, 441, 0.0751218983157
+upgrad, 9337, 0.0746714132446
+sale, 7590, 0.0699167370668
+cold, 1888, 0.0690310405816
+favor, 3410, 0.067937826603
+smaller, 8055, 0.0674242578314
+cheaper, 1678, 0.0669304466739
+monitor, 5837, 0.0659963979387
+constant, 2067, 0.0655536814047
+tend, 8783, 0.063731137152
+faster, 3399, 0.0629973656022
+folk, 3576, 0.0613278076305
+york, 9960, 0.0607163822082
+school, 7685, 0.0604212541022
+depart, 2535, 0.0602761959802
+announc, 524, 0.0589092135327
+buy, 1433, 0.0582766960858
+don, 2811, 0.0582368962085
+mac, 5410, 0.0572112225324
+leav, 5184, 0.0572112225324
+practic, 6793, 0.0562274429408
+common, 1948, 0.0560186983868
+entir, 3129, 0.0558132938894
+similar, 7961, 0.0531540914379
+basic, 937, 0.0528270034966
+box, 1254, 0.0524295257021
+came, 1472, 0.0517436797397
+care, 1516, 0.0505403883819
+ago, 336, 0.0500109316043
+expect, 3290, 0.0497541729013
+sort, 8144, 0.0493784141574
+project, 6909, 0.0476487835108
+rememb, 7269, 0.0472766557972
+happen, 4159, 0.0452454539894
+everi, 3235, 0.0439691546952
+idea, 4482, 0.04388841539
+person, 6562, 0.0427714062105
+tell, 8767, 0.0419498111044
+sure, 8585, 0.0413416049178
+peopl, 6530, 0.0348301624544
+time, 8936, 0.0305021838135
+use, 9363, 0.0283521711519
+like, 5272, 0.0270308366759

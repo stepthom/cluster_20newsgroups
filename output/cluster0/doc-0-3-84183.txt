@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84183
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: caldwell@facman.ohsu.edu (Larry Caldwell)
+Subject: Re: Merlin, Mithras and Magick
+Organization: Oregon Health Sciences University
+Lines: 28
+Nntp-Posting-Host: facman
+
+In response to: Whitten@Fwva.Saic.Com (David Whitten):
+
+I wrote:
+
+>>There evidently was a feast of bread and wine associated with Mithras.  I
+>>have often wondered if Yeshua intentionally introduced this ritual to
+>>expand the appeal of his religion, or if it was appropriated by later
+>>worshipers.
+
+And you responded:
+
+>You could argue that if you wanted, but I think a more reasonable 
+>argument would point out the fact that the remembrance feast was
+>very similar to the Pesach (Passover) meal during Seder, a very
+>Jewish ritual.
+
+Of course.  The feast WAS the Seder, and the accounts of it are very clear
+on this point.
+
+The difference is the connection between the bread and wine and the body
+and blood of god.  This is an old association of the Tammuz/Osiris/Mithras
+line, and not really related to Judaism.  In any case, I didn't really
+intend to argue the point.  I saw a possible association and pointed it
+out, but I haven't the foggiest notion what really happened.
+
+-- 
+-- Larry Caldwell  caldwell@ohsu.edu  CompuServe 72210,2273
+Oregon Health Sciences University.  (503) 494-2232
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ merlin mithra magick       wrote  evid feast
+bread wine associ mithra often wonder yeshua
+intent introduc ritual expand appeal religion
+appropri later worship  respond  could argu want
+think reason argument point fact remembr feast
+similar pesach passov meal seder jewish ritual
+cours feast seder account clear point  differ
+connect bread wine bodi blood god old associ
+tammuz osiri mithra line realli relat judaism case
+didn't realli intend argu point saw possibl associ
+point haven't foggiest notion realli happen
+oregon health scienc univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+feast, 3420, 0.383066771227
+mithra, 5784, 0.332239779834
+seder, 7764, 0.279323969722
+wine, 9776, 0.26167650152
+bread, 1282, 0.250052411379
+associ, 706, 0.243899004571
+ritual, 7420, 0.228666493683
+point, 6710, 0.195028130847
+argu, 628, 0.170015079252
+realli, 7150, 0.153769326252
+osiri, 6310, 0.134692715516
+judaism, 4918, 0.127688923742
+meal, 5594, 0.125026205689
+passov, 6453, 0.120685131969
+oregon, 6285, 0.111861397868
+merlin, 5646, 0.110746593278
+magick, 5436, 0.107778142007
+appeal, 579, 0.106049352797
+introduc, 4732, 0.103742801505
+health, 4221, 0.103037663766
+worship, 9847, 0.0967390097313
+notion, 6122, 0.0944925401547
+expand, 3288, 0.0944925401547
+blood, 1169, 0.0944925401547
+appropri, 590, 0.0907225424419
+intent, 4702, 0.0903871246038
+jewish, 4864, 0.0847659486124
+intend, 4700, 0.0847659486124
+account, 221, 0.0829460062844
+respond, 7322, 0.0827314261846
+connect, 2046, 0.0825194790359
+saw, 7650, 0.07608676327
+bodi, 1194, 0.0748274099215
+haven, 4207, 0.0737802119776
+wrote, 9871, 0.073279496458
+religion, 7261, 0.07315655305
+evid, 3245, 0.0727928874936
+later, 5140, 0.072436720733
+argument, 631, 0.072087749755
+similar, 7961, 0.0715213555407
+clear, 1803, 0.0662757046846
+relat, 7247, 0.0660306867339
+old, 6216, 0.0653158201999
+scienc, 7692, 0.064554751028
+wonder, 9821, 0.0627199241873
+happen, 4159, 0.0608799080906
+god, 3926, 0.0608799080906
+case, 1540, 0.0600572061342
+fact, 3350, 0.0592719129112
+cours, 2190, 0.059108182056
+didn, 2625, 0.0577005140928
+univers, 9282, 0.0574026881649
+line, 5285, 0.057255678972
+possibl, 6765, 0.0566327121878
+reason, 7156, 0.0557161324139
+differ, 2633, 0.0531878389762
+want, 9634, 0.0470538338417
+think, 8871, 0.0395614308464

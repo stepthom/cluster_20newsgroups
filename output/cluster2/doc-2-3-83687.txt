@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83687
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: 14 Apr 93 God's Promise in 1 John 1: 7
+Organization: Starfleet Headquarters: San Francisco
+Lines: 19
+
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>
+>Consider your mother Merlyn.  You know your mother.  What would you think
+>of me if I asserted that your mother is 9 feet tall, murdered your father,
+>and sexually abused you when you were a kid?
+
+I would just go fetch my parents, and show them to you, and thereby
+prove quite definitively that my mother is not named Merlyn, she is
+not nine feet tall, and my father is quite alive.
+
+Then I would assert quite simply that your deity does not exist, and
+wait for a similar demonstration from you.
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john      consid mother merlyn know
+mother think assert mother feet tall murder father
+sexual abus kid  fetch parent show therebi prove
+quit definit mother name merlyn nine feet tall
+father quit aliv  assert quit simpli deiti exist
+wait similar demonstr   brian kendig sui fait comm
+aucun  n'etr fait comm aucun ceux qui exist mean
+life vaux pas mieux moin sui autr end rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mother, 5877, 0.414250069163
+merlyn, 5647, 0.270628924723
+tall, 8685, 0.245252748299
+sui, 8527, 0.232501211005
+aucun, 775, 0.232501211005
+fait, 3366, 0.226551379363
+comm, 1932, 0.218382075232
+quit, 7043, 0.201126362744
+assert, 699, 0.199388990937
+feet, 3430, 0.190872669194
+father, 3404, 0.184544879317
+exist, 3283, 0.131266691657
+fetch, 3453, 0.12262637415
+therebi, 8854, 0.117360341748
+rousseau, 7497, 0.116250605502
+qui, 7034, 0.116250605502
+mieux, 5706, 0.116250605502
+ceux, 1626, 0.116250605502
+vaux, 9438, 0.11520431834
+abus, 202, 0.11520431834
+moin, 5820, 0.114214615587
+etr, 3212, 0.114214615587
+autr, 807, 0.113275689682
+pas, 6445, 0.11238258368
+deiti, 2495, 0.111531032843
+kendig, 4982, 0.109191037616
+sexual, 7827, 0.108473100817
+murder, 5926, 0.108473100817
+parent, 6426, 0.10525341479
+aliv, 417, 0.0941044715652
+kid, 5008, 0.0919841653238
+demonstr, 2520, 0.0883629567951
+wait, 9611, 0.0881297683939
+promis, 6913, 0.0859480175864
+brian, 1304, 0.0859480175864
+prove, 6947, 0.0812565129752
+definit, 2484, 0.0791536247048
+similar, 7961, 0.0757925863005
+simpli, 7967, 0.0749840302966
+john, 4878, 0.0692164585229
+life, 5260, 0.0674119323194
+god, 3926, 0.0645156352678
+consid, 2059, 0.0641994781523
+end, 3091, 0.0631044980886
+mean, 5595, 0.0565696443803
+think, 8871, 0.041924025893
+know, 5052, 0.0394287455979

@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61547
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mt90dac@brunel.ac.uk (Del Cotter)
+Subject: Re: What planets are habitable
+Organization: Brunel University, West London, UK
+Lines: 37
+
+<C659w7.IyD@fs7.ece.cmu.edu>, loss@fs7.ECE.CMU.EDU (Doug Loss) writes:
+
+><JPG.93Apr27135219@holly.bnr.co.uk> jpg@bnr.co.uk (Jonathan P. Gibbons) writes:
+>
+>>I would appreciate any thoughts on what makes a planet habitable for Humans.
+>>I am making asumptions that life and a similar atmosphere evolve given a range
+>>of physical aspects of the planet.  The question is what physical aspects
+>>simply disallow earth like conditions.
+>
+>    Dandridge Cole and Isaac Asimov collaborated on a book titled,
+> "Habitable Planets for Man" (I think) in 1964.  It should be available
+> in most good libraries, or through inter-library loan.
+
+Some more references:
+
+S.H. Dole
+
+"Habitable Planets for Man"
+Blaisdell Publishing Company, New York (1964)
+
+I don't know if this can be found any more.
+
+M.J. Fogg
+
+"Extra-Solar Planetary Systems: A Microcomputer Simulation"
+J. Brit. Interplanetary. Soc., _38_, 501-514, (1985)
+
+"An Estimate of the Prevalence of Biocompatible and Habitable Planets"
+J. Brit. Interplanetary. Soc., _45_, 3-12, (1992)
+
+The first paper includes a detailed discussion of the physical conditions
+for habitability.
+
+-- 
+ ',' ' ',','  |                                                  |  ',' ' ',','
+   ', ,','    |       Del Cotter       mt90dac@brunel.ac.uk      |    ', ,','  
+     ','      |                                                  |      ','    
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet habit        appreci thought make planet
+habit human make asumpt life similar atmospher
+evolv given rang physic aspect planet question
+physic aspect simpli disallow earth like condit
+dandridg cole isaac asimov collabor book titl
+habit planet man think avail good librari inter
+librari loan  refer  dole  habit planet man
+blaisdel publish compani new york  don't know
+found  fogg  extra solar planetari system
+microcomput simul brit interplanetari soc  estim
+preval biocompat habit planet brit interplanetari
+soc  first paper includ detail discuss physic
+condit habit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+habit, 4109, 0.513330293683
+planet, 6664, 0.435283544732
+brit, 1318, 0.256211821812
+soc, 8089, 0.207397540288
+physic, 6613, 0.206656421727
+interplanetari, 4718, 0.196095072064
+condit, 2017, 0.162907179687
+aspect, 693, 0.157315552605
+librari, 5250, 0.140665678685
+dole, 2800, 0.123547814609
+asimov, 688, 0.117123538699
+microcomput, 5685, 0.114681142351
+dandridg, 2353, 0.114681142351
+isaac, 4775, 0.112565442402
+disallow, 2677, 0.112565442402
+asumpt, 733, 0.112565442402
+man, 5471, 0.10944726455
+loan, 5319, 0.106141166491
+collabor, 1894, 0.101583070194
+evolv, 3250, 0.099716890581
+inter, 4703, 0.0980475360321
+cole, 1890, 0.0945120018701
+estim, 3201, 0.0851989842116
+simul, 7974, 0.0835296296627
+planetari, 6665, 0.0809071834925
+make, 5459, 0.0794787756059
+atmospher, 755, 0.0771053537525
+titl, 8953, 0.0762820925336
+york, 9960, 0.0749369275845
+extra, 3325, 0.0738683735045
+publish, 6974, 0.0731940498692
+rang, 7094, 0.0716240324101
+paper, 6409, 0.0706108151376
+solar, 8107, 0.0703328393424
+compani, 1958, 0.0659131213391
+similar, 7961, 0.0656034525779
+simpli, 7967, 0.0649035943458
+appreci, 587, 0.061251128185
+human, 4432, 0.0611736502119
+discuss, 2708, 0.0609434638787
+refer, 7213, 0.0584142497037
+life, 5260, 0.0583494471025
+given, 3887, 0.0568687551004
+book, 1218, 0.0567513900162
+thought, 8887, 0.055299849009
+earth, 2956, 0.0551935116037
+avail, 811, 0.0550353317815
+includ, 4579, 0.0545191879684
+question, 7032, 0.0479600668705
+new, 6023, 0.0461536768147
+good, 3948, 0.0407286847275
+think, 8871, 0.0362879930452
+don, 2811, 0.0359383572868
+know, 5052, 0.0341281643535
+like, 5272, 0.033361800833

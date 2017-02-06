@@ -1,0 +1,155 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104787
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kingoz@camelot.bradley.edu (Orin Roth)
+Subject: Re: PHILS, NL EAST NOT SO WEAK
+Nntp-Posting-Host: camelot.bradley.edu
+Organization: Bradley University
+Lines: 34
+
+In <1993Apr15.214133.3371@guvax.acc.georgetown.edu> apanjabi@guvax.acc.georgetown.edu writes:
+
+>I Love it how all of these people are "blaming" the Phillies success 
+>on a weak division.  Why don't we look at the record of the teams in 
+>each division (READ: Inter-Divisional Play), we'll see that the East 
+>is really kicking the shit out of the West.  I know it is early, but 
+>that is all we have to go on.  Atlanta is just so strong with their 
+>.188 BA, Cincinnati is 2-7 coming off a sweep at Veteran's Stadium in 
+>Philadelphia, and Houston was swept in it's first three games by the 
+>Phillies in the Astrodome.  That, my Western Division friends, shows 
+>that the three best teams in your division may not be as strong as you 
+>think!!
+ 
+  Or you may be posting this WAY TOO EARLY and be eating your words by
+  mid-season. C'mon, the Phillies haven't proved anything yet. Atlanta
+  was similar to the Phils 2 years ago. They sucked. They started having
+  a good year, but didn't get any respect until they actually won the
+  division. (which is how it should be) So until the Phils AT LEAST   
+  have a good year, not just a good 2 weeks, they won't get any respect
+  either. BTW, Atlanta's .188 BA is actually a compliment to how good
+  the Braves really are. Their record is 6-3. Can you imagine the Phils
+  record if they were batting .188? hahahaha. And Atlanta's hitting will
+  improve dramatically.  
+  No, I'm not a Braves fan. Just defending a good team. 
+  Orin.
+  Bradley U.
+
+>PHILS ALL THE WAY IN '93
+>BRAVES HIT LIKE A AAA CLUB
+>REDS NEED MARGE
+
+>						-BOB
+--
+I'm really a jester in disguise!                                   
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ phil east weak       love peopl blame philli
+success weak divis don't look record team divis
+read inter division play we'll see east realli
+kick shit west know earli atlanta strong
+cincinnati come sweep veteran stadium philadelphia
+houston swept it first three game philli astrodom
+western divis friend show three best team divis
+strong think  post way earli eat word mid season
+c'mon philli haven't prove anyth yet atlanta
+similar phil year ago suck start good year didn't
+get respect actual divis phil least good year good
+week won't get respect either btw atlanta actual
+compliment good brave realli record imagin phil
+record bat hahahaha atlanta hit improv dramat i'm
+brave fan defend good team orin bradley  phil way
+brave hit like aaa club red need marg  bob  i'm
+realli jester disguis
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phil, 6588, 0.364063451019
+divis, 2767, 0.342521437629
+atlanta, 749, 0.28568594307
+philli, 6593, 0.213140689136
+good, 3948, 0.190164331642
+brave, 1277, 0.189915550232
+record, 7184, 0.187671712926
+weak, 9668, 0.161874019249
+team, 8732, 0.14737749117
+east, 2965, 0.134616082188
+respect, 7321, 0.134047007321
+realli, 7150, 0.131710179644
+strong, 8456, 0.131098862579
+earli, 2951, 0.12271389082
+marg, 5506, 0.115370224932
+astrodom, 725, 0.115370224932
+division, 2768, 0.112068706626
+compliment, 1979, 0.112068706626
+year, 9943, 0.11155160992
+jester, 4858, 0.109371169755
+orin, 6294, 0.107090434828
+hit, 4316, 0.10347907979
+swept, 8632, 0.101813254064
+disguis, 2711, 0.1004030932
+bradley, 1264, 0.097931446068
+actual, 254, 0.095142347475
+dramat, 2859, 0.094859319808
+sweep, 8629, 0.0915578015025
+inter, 4703, 0.0915578015025
+shit, 7893, 0.0908359270895
+veteran, 9490, 0.0894899550044
+mon, 5831, 0.0860603364135
+kick, 5006, 0.0860603364135
+cincinnati, 1760, 0.0850736048121
+defend, 2474, 0.0820612583932
+blame, 1138, 0.0820612583932
+aaa, 157, 0.0820612583932
+mid, 5698, 0.0795596911493
+suck, 8515, 0.0792345024426
+western, 9709, 0.0786048120695
+stadium, 8300, 0.0786048120695
+club, 1842, 0.0782997396005
+houston, 4399, 0.0777078410501
+eat, 2968, 0.0774205409442
+way, 9666, 0.0774063907304
+philadelphia, 6589, 0.0765906697703
+west, 9708, 0.0712330056321
+btw, 1355, 0.0698058286749
+improv, 4557, 0.0683493595076
+imagin, 4518, 0.0671650883824
+friend, 3692, 0.0662013204525
+success, 8513, 0.0656775315752
+prove, 6947, 0.0656775315752
+bob, 1189, 0.0650478412021
+haven, 4207, 0.063195991103
+won, 9820, 0.063087598746
+similar, 7961, 0.0612611813829
+bat, 942, 0.0607914438169
+red, 7194, 0.059214100489
+fan, 3381, 0.0588852982786
+love, 5366, 0.0587235973188
+ago, 336, 0.0576386251606
+season, 7747, 0.0569809395274
+week, 9691, 0.0544873161712
+word, 9829, 0.0529950339638
+anyth, 555, 0.0507221005083
+best, 1052, 0.0494659715898
+didn, 2625, 0.0494230238367
+play, 6681, 0.0487933334636
+ll, 5314, 0.0468691336332
+start, 8334, 0.0468330910075
+read, 7135, 0.0450385261659
+game, 3761, 0.0448484315953
+post, 6766, 0.043211080231
+come, 1923, 0.042904282441
+peopl, 6530, 0.0401424771263
+need, 5993, 0.0397804898828
+look, 5341, 0.0369236410695
+think, 8871, 0.0338861025847
+don, 2811, 0.0335596091034
+know, 5052, 0.0318692322518
+like, 5272, 0.0311535940835

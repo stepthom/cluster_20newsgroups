@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104727
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: acsddc@smucs2.umassd.edu
+Subject: Re: USA Today ftp site
+Reply-To: acsddc@smucs2.umassd.edu
+Organization: UMASS DARTMOUTH, NO. DARTMOUTH, MA.
+Lines: 13
+
+In article <C5qGLD.Dut@cc.swarthmore.edu>, rbrooks1@cc.swarthmore.edu (Robert Brooks) writes:
+>wiawkph@dutrun2.tudelft.nl (K.P. Hart) writes:
+>> Sometime ago someone mentioned an ftp site run by USA Today that should
+>> give scores for "last night's" games.
+>> Can some kind soul e-mail me that address?
+>> Please.
+>> Thanks.
+
+If anyone knows of such a site could they please send it to me also.
+thanks
+
+-Dan
+-ACSDDC@UMASSD.EDU
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ usa today ftp site       sometim ago someon
+mention ftp site run usa today give score last
+night game kind soul mail address pleas thank
+anyon know site could pleas send also thank  dan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+site, 7994, 0.475750013601
+usa, 9357, 0.369541032906
+ftp, 3709, 0.311081816226
+today, 8964, 0.29417990416
+pleas, 6688, 0.226386277282
+thank, 8832, 0.215513563135
+soul, 8149, 0.21144170637
+dan, 2350, 0.208658923501
+sometim, 8128, 0.169168870502
+score, 7705, 0.166386087633
+night, 6063, 0.156221959404
+mention, 5632, 0.153997155208
+ago, 336, 0.149899841955
+address, 264, 0.149513121178
+send, 7785, 0.147819422143
+kind, 5021, 0.137259533224
+mail, 5447, 0.132279194232
+someon, 8124, 0.12573791075
+game, 3761, 0.116636592031
+run, 7543, 0.115906737608
+anyon, 554, 0.103398397229
+know, 5052, 0.0828817978302

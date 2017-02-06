@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83509
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Re: After 2000 years, can we say that Christian Morality is oxymoronic
+Keywords: ... and blessed are aluminium siding salesman ...
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+	<1qkna8$k@fido.asd.sgi.com> 
+	<930416.140529.9M1.rusnews.w165w@mantis.co.uk>
+Lines: 19
+
+In article <930416.140529.9M1.rusnews.w165w@mantis.co.uk> 
+mathew@mantis.co.uk (mathew) writes:
+>livesey@solntze.wpd.sgi.com (Jon Livesey) writes:
+>>Not, of course, The Greatest Salesman in the World. That was Jesus, wasn't it?
+>No, J.R. "Bob" Dobbs.
+
+Definitely, J.R. "Bob" Dobbs, numero uno, top dog, not one can touch, not
+one can knock Bob out of the box. Bob kills me mon! Everyday!
+
+But close El Segundo (el subliminal) is the infamous Paul (birthname Saul) the
+Evangeline who became famous as a result of his numerous trampoline act 
+tours of the eastern Mediterranean.
+
+Jesus on the other hand was duped, a pawn of the Con, fell pray to the
+Holywood Paradox (ain't nothing but a sign in the hills!). Like many
+Afro-Asians, Jesus found the earth all too pink! And to think that after
+his death, the Con changed him into a tall blond Holywood sun god! And I 
+do mean that in the kindest way possums! Now Jesus does gigs with Hendrix, 
+Joplin, Morrison, Lennon, Marley, Tosh, etc. Mostly ska beat jah-know!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral oxymoron          cours
+greatest salesman world jesus wasn't bob dobb
+definit bob dobb numero uno top dog one touch one
+knock bob box bob kill mon everyday  close segundo
+sublimin infam paul birthnam saul evangelin becam
+famous result numer trampolin act tour eastern
+mediterranean  jesus hand dupe pawn con fell pray
+holywood paradox ain't noth sign hill like mani
+afro asian jesus found earth pink think death con
+chang tall blond holywood sun god mean kindest way
+possum jesus gig hendrix joplin morrison lennon
+marley tosh etc most ska beat jah know
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bob, 1189, 0.347671687429
+jesus, 4859, 0.321535635158
+dobb, 2782, 0.261714996821
+blond, 1168, 0.159846925255
+morrison, 5869, 0.154159461866
+jah, 4817, 0.154159461866
+gig, 3875, 0.154159461866
+dupe, 2923, 0.154159461866
+afro, 321, 0.154159461866
+salesman, 7592, 0.149747922532
+paradox, 6416, 0.149747922532
+mediterranean, 5613, 0.149747922532
+asian, 686, 0.146143432442
+saul, 7645, 0.143095879495
+hendrix, 4254, 0.143095879495
+pink, 6634, 0.138127403018
+infam, 4621, 0.138127403018
+everyday, 3240, 0.136044429719
+tall, 8685, 0.132439939629
+oxymoron, 6364, 0.132439939629
+fell, 3436, 0.128028400295
+ain, 354, 0.128028400295
+eastern, 2967, 0.122340936907
+tour, 9019, 0.119577848739
+pray, 6800, 0.117929397572
+dog, 2795, 0.117154005598
+mon, 5831, 0.114995139841
+hill, 4300, 0.113048983429
+famous, 3380, 0.111277354535
+becam, 980, 0.111277354535
+greatest, 4018, 0.110720417393
+touch, 9015, 0.108149272103
+numer, 6157, 0.105032954004
+knock, 5050, 0.104625311498
+beat, 974, 0.0970169245801
+paul, 6469, 0.0932756176043
+sign, 7946, 0.089938035576
+moral, 5855, 0.0886381333977
+death, 2423, 0.0882819082444
+act, 249, 0.0882819082444
+wasn, 9652, 0.085797057117
+definit, 2484, 0.0854881451895
+kill, 5012, 0.0845893558214
+sun, 8539, 0.0817309905486
+box, 1254, 0.0807422864781
+result, 7332, 0.0767203156328
+close, 1830, 0.0749346405852
+noth, 6119, 0.0719385049909
+hand, 4145, 0.0717081727414
+chang, 1650, 0.0710328522445
+christian, 1732, 0.0701668760974
+god, 3926, 0.0696787041065
+earth, 2956, 0.0688688996585
+cours, 2190, 0.067650915662
+world, 9841, 0.0662124660565
+mean, 5595, 0.061096810034
+mani, 5479, 0.0560788095805
+way, 9666, 0.0517158025264
+say, 7653, 0.0501932573619
+year, 9943, 0.0496856566641
+think, 8871, 0.0452791293619
+know, 5052, 0.0425841563274
+like, 5272, 0.0416279096444

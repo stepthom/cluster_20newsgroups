@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38476
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: zyeh@caspian.usc.edu (zhenghao yeh)
+Subject: Re: Newsgroup Split
+Organization: University of Southern California, Los Angeles, CA
+Lines: 18
+Distribution: world
+NNTP-Posting-Host: caspian.usc.edu
+
+
+In article <1quvdoINN3e7@srvr1.engin.umich.edu>, tdawson@engin.umich.edu (Chris Herringshaw) writes:
+|> Concerning the proposed newsgroup split, I personally am not in favor of
+|> doing this.  I learn an awful lot about all aspects of graphics by reading
+|> this group, from code to hardware to algorithms.  I just think making 5
+|> different groups out of this is a wate, and will only result in a few posts
+|> a week per group.  I kind of like the convenience of having one big forum
+|> for discussing all aspects of graphics.  Anyone else feel this way?
+|> Just curious.
+|> 
+|> 
+|> Daemon
+|> 
+
+I agree with you. Of cause I'll try to be a daemon :-)
+
+Yeh
+USC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ newsgroup split        concern propos newsgroup
+split person favor learn aw lot aspect graphic
+read group code hardwar algorithm think make
+differ group wate result post week per group kind
+like conveni one big forum discuss aspect graphic
+anyon els feel way curious   daemon   agre caus
+i'll tri daemon  yeh usc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+daemon, 2336, 0.366494772924
+group, 4064, 0.301255796725
+split, 8247, 0.298737531441
+aspect, 693, 0.286493159376
+newsgroup, 6032, 0.255176452618
+yeh, 9945, 0.193297595975
+graphic, 3997, 0.189995891296
+wate, 9656, 0.188849657838
+usc, 9361, 0.184996678568
+conveni, 2112, 0.164108374886
+forum, 3620, 0.160037624902
+favor, 3410, 0.152701830333
+aw, 829, 0.152118891663
+curious, 2297, 0.140037221515
+hardwar, 4173, 0.128848447677
+algorithm, 407, 0.125449879103
+concern, 2004, 0.12477091877
+learn, 5182, 0.122616598974
+propos, 6933, 0.121198900657
+caus, 1569, 0.116807484542
+code, 1871, 0.114681263615
+feel, 3429, 0.11344665892
+result, 7332, 0.111974171958
+agre, 337, 0.111688481676
+discuss, 2708, 0.110986391497
+week, 9691, 0.1062623318
+kind, 5021, 0.102929267188
+els, 3053, 0.0997530623878
+big, 1082, 0.0982871226349
+person, 6562, 0.0961360164262
+ll, 5314, 0.0914051889373
+lot, 5356, 0.0900309062178
+differ, 2633, 0.0888476409033
+read, 7135, 0.08783509902
+post, 6766, 0.0842711747909
+tri, 9087, 0.0835653855558
+anyon, 554, 0.0775372100228
+way, 9666, 0.07547980111
+make, 5459, 0.0723708659113
+think, 8871, 0.0660854035268
+like, 5272, 0.0607564068832

@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38396
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Mike_Peredo@mindlink.bc.ca (Mike Peredo)
+Subject: Re: "Fake" virtual reality
+Organization: MIND LINK! - British Columbia, Canada
+Lines: 11
+
+The most ridiculous example of VR-exploitation I've seen so far is the
+"Virtual Reality Clothing Company" which recently opened up in Vancouver. As
+far as I can tell it's just another "chic" clothes spot. Although it would be
+interesting if they were selling "virtual clothing"....
+
+E-mail me if you want me to dig up their phone # and you can probably get
+some promotional lit.
+
+MP
+(8^)-
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fake virtual realiti    ridicul exampl exploit
+i'v seen far virtual realiti cloth compani recent
+open vancouv far tell it anoth chic cloth spot
+although interest sell virtual cloth  mail want
+dig phone probabl get promot lit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cloth, 1834, 0.580975907796
+virtual, 9536, 0.42830687313
+realiti, 7148, 0.26364670165
+lit, 5302, 0.196623739086
+vancouv, 9418, 0.188527660445
+far, 3386, 0.188014722991
+fake, 3368, 0.182247853976
+dig, 2639, 0.178725456352
+exploit, 3306, 0.174151775335
+ridicul, 7396, 0.164682621887
+promot, 6914, 0.157610017892
+spot, 8261, 0.137332083004
+sell, 7778, 0.134102018703
+phone, 6601, 0.123493723532
+compani, 1958, 0.117074712569
+recent, 7168, 0.111851315156
+open, 6258, 0.111697949921
+seen, 7767, 0.104455914643
+exampl, 3258, 0.10207626249
+mail, 5447, 0.0967467821968
+probabl, 6885, 0.0920385553402
+tell, 8767, 0.0919625972615
+anoth, 533, 0.0907017232314
+want, 9634, 0.0766614793169

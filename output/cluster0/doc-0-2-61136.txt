@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61136
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Why DC-1 will be the way of the future.
+Organization: Texas Instruments Inc
+Lines: 22
+
+In <1r6ub0$mgl@access.digex.net> prb@access.digex.com (Pat) writes:
+
+>In article <1993Apr22.164801.7530@julian.uwo.ca> jdnicoll@prism.ccs.uwo.ca (James Davis Nicoll) writes:
+>>	Hmmm. I seem to recall that the attraction of solid state record-
+>>players and radios in the 1960s wasn't better performance but lower
+>>per-unit cost than vacuum-tube systems.
+>>
+
+
+>I don't think so at first,  but solid state offered  better reliabity,
+>id bet,  and any lower costs would be only after the processes really scaled up.
+
+Careful.  Making statements about how solid state is (generally) more
+reliable than analog will get you a nasty follow-up from Tommy Mac or
+Pat.  Wait a minute; you *are* Pat.  Pleased to see that you're not
+suffering from the bugaboos of a small mind.  ;-)
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ way futur       hmmm seem recal attract solid
+state record player radio 1960s wasn't better
+perform lower per unit cost vacuum tube system
+don't think first solid state offer better reliab
+bet lower cost process realli scale  care make
+statement solid state general reliabl analog get
+nasti follow tommi mac pat wait minut pat pleas
+see you'r suffer bugaboo small mind   insist
+perfect safeti peopl don't ball live real world
+mari shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+solid, 8115, 0.361831886544
+state, 8342, 0.262166648082
+lower, 5371, 0.236095162146
+pat, 6458, 0.218818364752
+cost, 2169, 0.187291585796
+1960s, 36, 0.175105869919
+nasti, 5961, 0.15652755986
+better, 1060, 0.14746836213
+tube, 9142, 0.146055409414
+hmmm, 4328, 0.146055409414
+vacuum, 9405, 0.14252838461
+shafer, 7839, 0.14252838461
+attract, 772, 0.141720209652
+dryden, 2888, 0.140179262414
+tommi, 8978, 0.139443472611
+analog, 487, 0.139443472611
+reliabl, 7256, 0.134235310342
+mari, 5508, 0.129938000101
+safeti, 7579, 0.128971322165
+insist, 4673, 0.127144773493
+suffer, 8521, 0.124636122403
+ame, 465, 0.123853608174
+recal, 7166, 0.120950594623
+bet, 1054, 0.120275288601
+wait, 9611, 0.118663791368
+scale, 7659, 0.114909030037
+minut, 5747, 0.113860057774
+unit, 9278, 0.111887234917
+don, 2811, 0.111810821899
+statement, 8343, 0.111186321486
+radio, 7061, 0.110060686245
+mac, 5410, 0.109841599221
+offer, 6203, 0.108155668459
+perfect, 6538, 0.107751608132
+wasn, 9652, 0.106962832724
+record, 7184, 0.104211228071
+futur, 3737, 0.104038265059
+perform, 6539, 0.100067135846
+process, 6890, 0.0996308921041
+care, 1516, 0.0970340579937
+ball, 877, 0.0963938368567
+small, 8054, 0.0960175375176
+mind, 5733, 0.0960175375176
+general, 3818, 0.0951612236219
+nasa, 5956, 0.0927575119722
+live, 5310, 0.0903687641593
+player, 6683, 0.0850477356235
+real, 7144, 0.0844956168707
+world, 9841, 0.0825468048557
+follow, 3578, 0.0810102257396
+realli, 7150, 0.0731366456674
+pleas, 6688, 0.0725052561394
+peopl, 6530, 0.0668715083467
+way, 9666, 0.064473874987
+make, 5459, 0.0618182625398
+think, 8871, 0.0564493014395

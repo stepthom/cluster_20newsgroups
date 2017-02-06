@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39052
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dclunie@pax.tpa.com.au (David Clunie)
+Subject: Re: Easy to translate JPEG code...
+Organization: Her Master's Voice
+Lines: 22
+Distribution: world
+Reply-To: dclunie@pax.tpa.com.au
+NNTP-Posting-Host: britt.pax.tpa.com.au
+
+In article 1rfsqbINNc2p@shelley.u.washington.edu, stusoft@hardy.u.washington.edu (Stuart Denman) writes:
+
+>Does anyone out there have any JPEG decompression code in pretty much any
+>language that I can read and understand?  I have trouble understanding the
+>JPEG Group's code that I got from an FTP site.  If any one can send me
+>some good code, I will appreciate it a lot!  Thanks!
+
+The problem is that the process is inherently complicated ! The IJG's code is
+pretty good if you ask me, and I have watched it go through many many cycles of
+revision.
+
+Try getting a good book on the subject, that will explain the algorithms.
+
+Specifically "JPEG Still Image Compression Standard" by Pennebaker & Mitchell,
+VNR 1993, ISBN 0-442-01272-1.
+
+BTW. I presume your comment about "good" code wasn't meant to sound as offensive
+as it does.
+
+---
+David A. Clunie (dclunie@pax.tpa.com.au)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ easi translat jpeg code         anyon jpeg
+decompress code pretti much languag read
+understand troubl understand jpeg group code got
+ftp site one send good code appreci lot thank
+problem process inher complic ijg code pretti good
+ask watch mani mani cycl revis  tri get good book
+explain algorithm  specif jpeg still imag compress
+standard pennebak mitchel vnr isbn  btw presum
+comment good code wasn't meant sound offens
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+code, 1871, 0.522429745875
+jpeg, 4905, 0.448978225977
+good, 3948, 0.225261592464
+ijg, 4503, 0.165940525637
+pretti, 6851, 0.160649541268
+understand, 9246, 0.157101843805
+decompress, 2452, 0.145007434511
+revis, 7359, 0.136693676603
+isbn, 4777, 0.132508089186
+mitchel, 5783, 0.130681387029
+inher, 4644, 0.128995344967
+mani, 5479, 0.124285492333
+cycl, 2325, 0.123945093839
+complic, 1978, 0.120384672268
+presum, 6845, 0.116390419994
+compress, 1986, 0.113408072451
+meant, 5598, 0.110783499563
+translat, 9057, 0.110432968332
+troubl, 9117, 0.106036727997
+languag, 5113, 0.105754043629
+btw, 1355, 0.103361734525
+offens, 6202, 0.10311135769
+easi, 2959, 0.0966847717291
+algorithm, 407, 0.0952476838753
+wasn, 9652, 0.0950744993009
+watch, 9655, 0.0908514435413
+site, 7994, 0.0902896759774
+standard, 8313, 0.0897419540845
+process, 6890, 0.0885574637515
+ftp, 3709, 0.0885574637515
+explain, 3301, 0.0885574637515
+comment, 1936, 0.0879260732336
+specif, 8203, 0.0869522358176
+sound, 8150, 0.0860198510811
+appreci, 587, 0.0846917029574
+send, 7785, 0.0841612234174
+book, 1218, 0.0784699320338
+group, 4064, 0.0762427116905
+ask, 689, 0.0758805921306
+imag, 4512, 0.0734363308333
+got, 3960, 0.0718863398562
+problem, 6887, 0.0689235907056
+lot, 5356, 0.0683558673455
+read, 7135, 0.0666887031255
+tri, 9087, 0.063446927835
+thank, 8832, 0.061351495201
+anyon, 554, 0.0588700421368

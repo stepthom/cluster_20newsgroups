@@ -1,0 +1,172 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84199
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: royc@rbdc.wsnc.org (Roy Crabtree)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Red Barn Data Center
+Lines: 49
+
+In article <C5tByD.6zD@dscomsa.desy.de> hallam@zeus02.desy.de writes:
+...
+>Hang on you missed the point entirely, they are protesting the lack of
+>water because it DEPRIVED Koresh of his CONSTITUTIONAL RIGHT to prove
+>his DIVINITY by WALKING on it.
+
+	You can tell, folks, when the man has run out of reason:
+	attack the man's beliefs (in legal terminology, argument
+	ad hominem:  attack the man, not what he did that has yet to
+	be proven illegal)>
+
+>
+>
+>|>>and the FBI/ATF go blasting holes into the builing and firing gas munitions.
+>|>
+>|>They used a tank to knock a hole in the wall, and they released
+>|>non-toxic, non-flammable tear gas into the building.
+>
+>You can tell that the gas did not burn because dispite the fact that
+
+
+	WRONGo.  Remember the fire movie a couple of years ago?
+	"Backdraft"?  The scene in the factory with propane gas
+	coming out of pipes and gasoline all over the floor,
+	with a 750 degree flame front overhead?
+
+		Note that it did not flash all at once?
+
+	Fires ignite and burn unpredictably.
+	Gases (like tear gas) mix and distribute unevenly.
+		And flash unevenly.
+
+	You are not a fire analyst.  You cannnot tell.
+		(NB:  Neither am I.  And I cannot tell
+		Nor is the FBI spokesman
+		Nor is Reno
+		Maybe we all should shut up and get a
+			forensics analysis first.
+
+>the building was full of it there was no flash of gas flame.
+
+	Yes,. there was a flash:  in one room, just pumped full of it.,
+
+>
+>
+>
+>Phill Hallam-Baker
+
+royc
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen      hang miss point
+entir protest lack water depriv koresh constitut
+right prove divin walk  tell folk man run reason
+attack man belief legal terminolog argument
+hominem attack man yet proven illeg    fbi atf
+blast hole buil fire gas munit  use tank knock
+hole wall releas non toxic non flammabl tear gas
+build  tell gas burn dispit fact   wrongo rememb
+fire movi coupl year ago backdraft scene factori
+propan gas come pipe gasolin floor degre flame
+front overhead  note flash  fire ignit burn
+unpredict gase like tear gas mix distribut uneven
+flash uneven  fire analyst cannnot tell neither
+cannot tell fbi spokesman reno mayb shut get
+forens analysi first  build full flash gas flame
+yes flash one room pump full     phill hallam
+baker  royc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gas, 3780, 0.450781950115
+flash, 3524, 0.362017775789
+tell, 8767, 0.186275058942
+tear, 8735, 0.172393277115
+attack, 761, 0.157342296827
+fbi, 3414, 0.151424158711
+man, 5471, 0.147662726232
+hole, 4343, 0.137223124976
+flame, 3518, 0.136510537747
+burn, 1413, 0.133507551852
+build, 1378, 0.115047236564
+non, 6097, 0.112970542085
+unpredict, 9299, 0.111124489651
+gasolin, 3784, 0.111124489651
+forens, 3599, 0.111124489651
+buil, 1377, 0.111124489651
+backdraft, 853, 0.111124489651
+spokesman, 8252, 0.107944470395
+flammabl, 3520, 0.107944470395
+depriv, 2543, 0.107944470395
+reno, 7282, 0.105346205477
+propan, 6922, 0.103149403789
+phill, 6592, 0.103149403789
+terminolog, 8797, 0.10124644761
+ignit, 4495, 0.10124644761
+gase, 3781, 0.10124644761
+factori, 3353, 0.10124644761
+royc, 7506, 0.0995679213024
+toxic, 9025, 0.0967081627668
+baker, 871, 0.0954681634363
+blast, 1143, 0.0943274746279
+pump, 6982, 0.0932713617489
+atf, 738, 0.0932713617489
+overhead, 6341, 0.092288144181
+pipe, 6636, 0.0905044439472
+analyst, 491, 0.0896898792621
+floor, 3549, 0.0855901213959
+illeg, 4506, 0.0850083670596
+hang, 4152, 0.0824101021407
+shut, 7925, 0.0819428143014
+scene, 7671, 0.0810518365524
+proven, 6948, 0.0810518365524
+constitut, 2070, 0.0806264019069
+protest, 6942, 0.0802133004533
+mix, 5788, 0.0776150355344
+divin, 2766, 0.0776150355344
+knock, 5050, 0.075418233847
+water, 9657, 0.0745713905473
+tank, 8695, 0.0735152776682
+movi, 5892, 0.0727715783816
+wall, 9619, 0.072064772261
+room, 7476, 0.071391371292
+legal, 5200, 0.071391371292
+koresh, 5065, 0.0684323022342
+presid, 6839, 0.0682552688735
+folk, 3576, 0.0680804077562
+analysi, 490, 0.0675683406113
+distribut, 2753, 0.0667537759262
+belief, 1008, 0.0662864880869
+degre, 2491, 0.0661340694975
+lack, 5092, 0.0659832638334
+prove, 6947, 0.0632605352215
+releas, 7253, 0.0623021235821
+entir, 3129, 0.06195870932
+walk, 9617, 0.0605593745324
+miss, 5770, 0.0602550711072
+argument, 631, 0.0594739988048
+coupl, 2187, 0.0592852410484
+messag, 5650, 0.0589150643328
+ago, 336, 0.0555174682976
+rememb, 7269, 0.0524821305111
+yes, 9951, 0.0519120143969
+note, 6118, 0.0514177104314
+happen, 4159, 0.0502272798544
+mayb, 5564, 0.0498838655922
+fact, 3350, 0.0489006480244
+reason, 7156, 0.0459670499336
+right, 7399, 0.043350384751
+run, 7543, 0.0429276545371
+come, 1923, 0.0413253635667
+point, 6710, 0.0402256377135
+year, 9943, 0.035815467782
+use, 9363, 0.0314739340501
+know, 5052, 0.0306964138419
+like, 5272, 0.0300071118468

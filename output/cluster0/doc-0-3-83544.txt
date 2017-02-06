@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83544
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: paul@actrix.co.at (Paul Gillingwater)
+Subject: Re: Merlin, Mithras and Magick
+Organization: Home Office in Vienna, Austria
+X-Newsreader: rusnews v1.01
+Lines: 28
+
+kosinski@us.oracle.com (Kevin Osinski) writes:
+
+> I recall reading in Michael (?) Rutherford's novel "Sarum" a scene in
+> which the son of a Roman nobleman living in Britain takes part in a
+> secret ceremony involving a bull.  He stands naked in a pit covered
+> with some sort of scaffolding while assistants coax a bull to stand on
+> the scaffolding.  They then fatally stab the bull, which douses the
+> worshipper in the pit with blood.  This is supposedly some sort of
+> rite of passage for members of the bull cult.  I wonder if this is
+> related to the Mithras cult?
+
+Yes, this is certainly one of the traditional ideas about the Mithraic
+cult (although not the only one.)  It had many elements that seem
+to have been borrowed by Catholicism (e.g. the Mass, communion, the
+sharing of a sacred meal, consecration of bread and wine, etc.)
+
+For quite an amusing novel that uses this same idea, check out:
+
+The Covenant of the Flame
+by David Morrell.
+
+It has some quite interesting occult bits, and lots of killing.
+I won't spoil it by revealing the ending, but I will say that it
+is relevant to Mithraism.
+--
+paul@actrix.co.at (Paul Gillingwater)
+Home Office in Vienna, Austria
+** If you read news with rn or trn, ask me about EEP! the .newsrc editor!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ merlin mithra magick       recal read michael
+rutherford novel sarum scene son roman nobleman
+live britain take part secret ceremoni involv bull
+stand nake pit cover sort scaffold assist coax
+bull stand scaffold fatal stab bull dous worshipp
+pit blood suppos sort rite passag member bull cult
+wonder relat mithra cult  yes certain one tradit
+idea mithraic cult although one mani element seem
+borrow catholic mass communion share sacr meal
+consecr bread wine etc  quit amus novel use idea
+check  coven flame david morrel  quit interest
+occult bit lot kill won't spoil reveal end say
+relev mithraism   home offic vienna austria read
+news trn ask eep newsrc editor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bull, 1385, 0.395830641494
+scaffold, 7656, 0.243007282879
+cult, 2289, 0.24114506081
+novel, 6128, 0.214451885188
+mithra, 5784, 0.199804633959
+pit, 6642, 0.189880302498
+stand, 8311, 0.135000660579
+vienna, 9509, 0.121503641439
+sarum, 7622, 0.121503641439
+mithraic, 5785, 0.121503641439
+dous, 2839, 0.121503641439
+communion, 1951, 0.121503641439
+catholic, 1565, 0.121503641439
+austria, 794, 0.121503641439
+sort, 8144, 0.119870234963
+wine, 9776, 0.118026604824
+coax, 1863, 0.118026604824
+coven, 2193, 0.115185659052
+consecr, 2053, 0.115185659052
+britain, 1319, 0.115185659052
+quit, 7043, 0.114138440888
+worshipp, 9848, 0.112783673627
+rite, 7419, 0.112783673627
+meal, 5594, 0.112783673627
+bread, 1282, 0.112783673627
+rutherford, 7556, 0.110702979209
+fatal, 3402, 0.108867676664
+idea, 4482, 0.106542803262
+borrow, 1234, 0.105740813479
+stab, 8296, 0.104384996822
+nake, 5950, 0.104384996822
+spoil, 8249, 0.103137766401
+sacr, 7567, 0.101983011397
+ceremoni, 1616, 0.101983011397
+occult, 6189, 0.0999023169795
+merlin, 5646, 0.0999023169795
+magick, 5436, 0.0972245356493
+amus, 485, 0.0956650290092
+read, 7135, 0.0948658102635
+secret, 7755, 0.0886221688614
+scene, 7671, 0.0886221688614
+reveal, 7352, 0.0864238734194
+roman, 7468, 0.086019121784
+blood, 1169, 0.0852398563181
+relev, 7254, 0.0837893155894
+passag, 6449, 0.0831117278861
+editor, 2997, 0.0815364419415
+tradit, 9037, 0.0801058910319
+share, 7855, 0.0780594053263
+element, 3037, 0.0780594053263
+assist, 705, 0.0778215066315
+son, 8132, 0.0775871854965
+recal, 7166, 0.0764656899747
+flame, 3518, 0.0746303874297
+mass, 5533, 0.0736970508836
+cover, 2194, 0.071661719124
+michael, 5680, 0.0710383535262
+offic, 6206, 0.0690342295916
+member, 5625, 0.0690342295916
+kill, 5012, 0.066670670972
+won, 9820, 0.066441518874
+involv, 4750, 0.0653437367365
+check, 1682, 0.0635438077864
+suppos, 8577, 0.0633560698306
+david, 2397, 0.0628963886537
+home, 4354, 0.060085669975
+relat, 7247, 0.0595649798446
+live, 5310, 0.0571316736814
+yes, 9951, 0.0567606546811
+wonder, 9821, 0.0565784062662
+certain, 1619, 0.0551372632402
+ask, 689, 0.0539707140668
+news, 6031, 0.0538181967463
+end, 3091, 0.053717341625
+bit, 1122, 0.0525554076006
+lot, 5356, 0.0486186898086
+mani, 5479, 0.0441995547281
+say, 7653, 0.0395607474971
+use, 9363, 0.03441363474

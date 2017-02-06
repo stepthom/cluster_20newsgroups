@@ -1,0 +1,340 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38535
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jk87377@lehtori.cc.tut.fi (Kouhia Juhana)
+Subject: XV problems
+Organization: Tampere University of Technology
+Lines: 113
+Distribution: world
+NNTP-Posting-Host: cc.tut.fi
+
+[Please, note the Newsgroups.]
+
+Recent discussion about XV's problems were held in some newsgroup.
+Here is some text users of XV might find interesting.
+I have added more to text to this collection article, so read on, even
+you so my articles a while ago.
+
+I hope author of XV corrects those problems as best he can, so fine
+program XV is that it is worth of improving.
+(I have also minor ideas for 24bit XV, e-mail me for them.)
+
+Any misundertanding of mine is understandable.
+
+
+Juhana Kouhia
+
+
+==clip==
+
+[ ..deleted..]
+
+Note that 'xv' saves only 8bit/rasterized images; that means that
+the saved jpegs are just like jpeg-to-gif-to-jpeg quality.
+Also, there's three kind of 8bit quantizers; your final image quality
+depends on them too.
+ 
+This were the situation when I read jpeg FAQ a while ago.
+ 
+IMHO, it is design error of 'xv'; there should not be such confusing
+errors in programs.
+There's two errors:
+  -xv allows the saving of 8bit/rasterized image as jpeg even the
+   original is 24bit -- saving 8bit/rasterized image instead of
+   original 24bit should be a special case
+  -xv allows saving the 8bit/rasterized image made with any quantizer
+   -- the main case should be that 'xv' quantizes the image with the
+   best quantizer available before saving the image to a file; lousier
+   quantizers should be just for viewing purposes (and a special cases
+   in saving the image, if at all)
+ 
+==clip==
+
+==clip==
+
+[ ..deleted..]
+
+It is limit of *XV*, but not limit of design.
+It is error in design.
+It is error that 8bit/quantized/rasterized images are stored as jpegs;
+jpeg is not designed to that.
+
+As matter of fact, I'm sure when XV were designed 24bit displays were
+known. It is not bad error to program a program for 8bit images only
+at that time, but when 24bit image formats are included to program the
+whole design should be changed to support 24bit images.
+That were not done and now we have
+ -the program violate jpeg design (and any 24bit image format)
+ -the program has human interface errors.
+
+Otherway is to drop saving images as jpegs or any 24bit format without
+clearly saying that it is special case and not expected in normal use.
+
+[ ..deleted.. ]
+
+==clip==
+
+Some new items follows.
+
+==clip==
+
+I have seen that XV quantizes the image sometimes poorly with -best24
+option than with default option we have.
+The reason surely is the quantizer used as -best24; it is (surprise)
+the same than used in ppmquant.
+
+If you remember, I have tested some quantizers. In that test I found
+that rlequant (with default) is best, then comes djpeg, fbmquant, xv
+(our default) in that order. In my test ppmquant suggeeded very poorly
+-- it actually gave image with bad artifacts.
+
+I don't know is ppmquant improved any, but I expect no.
+So, use of XV's -best24 option is not very good idea.
+
+I suggest that author of XV changes the quantizer to the one used in
+rlequant -- I'm sure rle-people gives permission.
+(Another could be one used in ImageMagick; I have not tested it, so I
+can say nothing about it.)
+
+==clip==
+
+==clip==
+
+Some minor bugs in human interface are:
+
+Key pressings and cursor clicks goes to a buffer; Often it happens
+that I make click errors or press keyboard when cursor is in the wrong
+place. It is very annoying when you have waited image to come about
+five minutes and then it is gone away immediately.
+The buffer should be cleaned when the image is complete.
+
+Also, good idea is to wait few seconds before activating keyboard
+and mouse for XV after the image is completed.
+Often it happens that image pops to the screen quickly, just when
+I'm writing something with editor or such. Those key pressings
+then go to XV and image has gone or something weird.
+
+In the color editor, when I turn a color meter and release it, XV
+updates the images. It is impossible to change all RGB values first
+and then get the updated image. It is annoying wait image to be
+updated when the setting are not ready yet.
+I suggest of adding an 'apply' button to update the exchanges done.
+
+==clip==
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ problem      pleas note newsgroup  recent discuss
+xv problem held newsgroup text user might find
+interest ad text collect articl read even articl
+ago  hope author correct problem best fine program
+worth improv also minor idea 24bit mail
+misundertand mine understand   juhana kouhia
+clip  delet  note xv save 8bit raster imag mean
+save jpeg like jpeg gif jpeg qualiti also there
+three kind 8bit quantize final imag qualiti depend
+situat read jpeg faq ago  imho design error xv
+confus error program there two error allow save
+8bit raster imag jpeg even origin 24bit save 8bit
+raster imag instead origin 24bit special case
+allow save 8bit raster imag made quantize main
+case xv quantiz imag best quantize avail save imag
+file lousier quantize view purpos special case
+save imag  clip  clip  delet  limit limit design
+error design error 8bit quantiz raster imag store
+jpeg jpeg design  matter fact i'm sure design
+24bit display known bad error program program 8bit
+imag time 24bit imag format includ program whole
+design chang support 24bit imag done program
+violat jpeg design 24bit imag format program human
+interfac error  otherway drop save imag jpeg 24bit
+format without clear say special case expect
+normal use  delet  clip  new item follow  clip
+seen quantiz imag sometim poor best24 option
+default option reason sure quantize use best24
+surpris use ppmquant  rememb test quantize test
+found rlequant default best come djpeg fbmquant
+default order test ppmquant suggeed poor actual
+gave imag bad artifact  don't know ppmquant improv
+expect use xv best24 option good idea  suggest
+author chang quantize one use rlequant i'm sure
+rle peopl give permiss anoth could one use
+imagemagick test say noth  clip  clip  minor bug
+human interfac  key press cursor click goe buffer
+often happen make click error press keyboard
+cursor wrong place annoy wait imag come five minut
+gone away immedi buffer clean imag complet  also
+good idea wait second activ keyboard mous imag
+complet often happen imag pop screen quick i'm
+write someth editor key press imag gone someth
+weird  color editor turn color meter releas updat
+imag imposs chang rgb valu first get updat imag
+annoy wait imag updat set readi yet suggest ad
+appli button updat exchang done  clip
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.454610274591
+24bit, 67, 0.282069057419
+jpeg, 4905, 0.260570252167
+quantize, 7023, 0.256161023579
+8bit, 148, 0.256161023579
+clip, 1821, 0.253178249157
+error, 3180, 0.203933952122
+xv, 9911, 0.200733055644
+save, 7646, 0.181953172783
+raster, 7104, 0.167430986971
+design, 2564, 0.153700373592
+ppmquant, 6788, 0.125316786267
+program, 6905, 0.122782765207
+quantiz, 7022, 0.11504122155
+default, 2470, 0.102537017657
+updat, 9333, 0.0979164076905
+test, 8812, 0.0928725963001
+option, 6276, 0.0820530272357
+wait, 9611, 0.0816183219209
+press, 6841, 0.0814050791297
+case, 1540, 0.078588660048
+cursor, 2302, 0.0757107695749
+special, 8198, 0.0755503165892
+use, 9363, 0.0748809555785
+click, 1815, 0.0748061493914
+delet, 2502, 0.0726607160179
+keyboard, 4995, 0.0705172643548
+format, 3612, 0.0678471373359
+annoy, 525, 0.0665458642096
+buffer, 1371, 0.0639405506161
+chang, 1650, 0.0609100841133
+editor, 2997, 0.0591386401852
+interfac, 4709, 0.0587121096065
+idea, 4482, 0.057956875077
+best, 1052, 0.0566777936368
+gone, 3943, 0.0549994489784
+sure, 8585, 0.0545936828754
+qualiti, 7017, 0.0544122146139
+poor, 6741, 0.0538539915767
+problem, 6887, 0.0533342491054
+improv, 4557, 0.0522095057657
+minor, 5745, 0.0519764723774
+key, 4994, 0.0518617331288
+text, 8822, 0.0505686994985
+newsgroup, 6032, 0.0499737348199
+limit, 5278, 0.0494085311036
+ad, 257, 0.0485251348117
+author, 796, 0.0463658822281
+color, 1907, 0.045423526721
+suggeed, 8524, 0.0440634884303
+ago, 336, 0.0440279785257
+expect, 3290, 0.0438019366124
+complet, 1975, 0.0436905887273
+human, 4432, 0.043635323488
+allow, 432, 0.0433092897564
+suggest, 8525, 0.0430970446658
+bad, 861, 0.0416208120792
+djpeg, 2774, 0.0409011782618
+note, 6118, 0.0407766766053
+origin, 6293, 0.0401926940662
+juhana, 4925, 0.0401466111288
+happen, 4159, 0.0398326088462
+kouhia, 5068, 0.0394810357476
+button, 1432, 0.0394810357476
+imagemagick, 4514, 0.0374030746957
+artifact, 666, 0.0374030746957
+articl, 665, 0.0364248792532
+rle, 7425, 0.0355641584461
+weird, 9697, 0.0346930746189
+read, 7135, 0.0344032366722
+mous, 5889, 0.0339385074859
+exchang, 3264, 0.0334861973941
+violat, 9526, 0.0332729321048
+someth, 8126, 0.0332686424976
+permiss, 6551, 0.0328691275423
+come, 1923, 0.0327729681391
+meter, 5663, 0.0326775546383
+pop, 6743, 0.0321389702073
+rgb, 7374, 0.0307761973174
+item, 4798, 0.0302621285841
+imho, 4524, 0.0300216301844
+clean, 1799, 0.0292523663994
+good, 3948, 0.0290518765379
+imposs, 4553, 0.0289522502407
+held, 4243, 0.0289522502407
+say, 7653, 0.0286935357489
+store, 8417, 0.0286672725745
+bug, 1373, 0.0286672725745
+readi, 7139, 0.0278094381308
+drop, 2878, 0.0273510090786
+collect, 1898, 0.0272780937513
+confus, 2037, 0.027206107307
+immedi, 4527, 0.0270648284619
+gave, 3798, 0.0265964419455
+faq, 3385, 0.0264070099241
+screen, 7719, 0.026284160315
+minut, 5747, 0.0261047528828
+normal, 6108, 0.025874073529
+worth, 9850, 0.0255983671683
+surpris, 8593, 0.0254391775017
+depend, 2537, 0.0252336690557
+fine, 3485, 0.0250842984349
+appli, 584, 0.0250353729392
+sometim, 8128, 0.0248438000352
+main, 5450, 0.0247969046669
+releas, 7253, 0.0247042655518
+user, 9366, 0.0243914899435
+display, 2734, 0.0243481881265
+purpos, 6993, 0.0243052156042
+instead, 4682, 0.0242625674058
+goe, 3931, 0.024136520705
+activ, 252, 0.024136520705
+quick, 7036, 0.024095122282
+situat, 7995, 0.0238529055124
+gif, 3869, 0.0238529055124
+valu, 9414, 0.0231131765309
+known, 5054, 0.0225840548865
+turn, 9158, 0.0224901326226
+recent, 7168, 0.0224591689316
+away, 833, 0.0223977459415
+final, 3482, 0.0221878755813
+view, 9510, 0.0220713588872
+matter, 5553, 0.0219290123313
+correct, 2156, 0.0217627985999
+discuss, 2708, 0.0217355654895
+clear, 1803, 0.0216814898667
+seen, 7767, 0.0209742105365
+rememb, 7269, 0.0208104060396
+wrong, 9869, 0.0207416320533
+noth, 6119, 0.0205622246211
+understand, 9246, 0.0202613473526
+set, 7815, 0.0202404569057
+hope, 4372, 0.0201989062813
+kind, 5021, 0.0201576589488
+order, 6281, 0.0199756835277
+second, 7753, 0.0196659698861
+avail, 811, 0.019628422509
+file, 3477, 0.0195540680224
+write, 9865, 0.0194806792057
+support, 8576, 0.0194624799646
+includ, 4579, 0.0194443391482
+mail, 5447, 0.0194262563825
+fact, 3350, 0.0193902635254
+place, 6657, 0.0193544984728
+follow, 3578, 0.018573255321
+reason, 7156, 0.0182270224978
+anoth, 533, 0.0182124396266
+actual, 254, 0.0181689154618
+mean, 5595, 0.0174633366611
+pleas, 6688, 0.0166233166505
+new, 6023, 0.0164607687378
+peopl, 6530, 0.0153316644521
+make, 5459, 0.0141731042368
+time, 8936, 0.0134265594626
+don, 2811, 0.0128174617699
+know, 5052, 0.0121718541109
+like, 5272, 0.0118985295666

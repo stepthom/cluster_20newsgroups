@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84205
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Re: Is it good that Jesus died?
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+	<1993Apr21.001102.9999@organpipe.uug.arizona.edu> 
+	<bskendigC5tHup.GD4@netcom.com> 
+	<1993Apr22.213142.6964@organpipe.uug.arizona.edu>
+Lines: 19
+
+In article <1993Apr22.213142.6964@organpipe.uug.arizona.edu> 
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>And we do not end perfect either.  We are never perfect.  Can you name
+>one person, young or old, past or present, that you deem perfect? 
+
+Krishna.
+
+BG10:20(Miller) I am the self abiding in the heart of all creatures; I am
+their beginning, their middle, and their end.
+BG10:32(Miller) I am the beginning, the middle, and the end of
+creations, Arjuna; of sciences, I am the science of the self; I am the
+dispute of orators.
+BG10:41(Miller) Whatever is powerful, lucid, splendid, or invulnerable
+has its source in a fragment of my brilliance. (42) What use is so much
+knowledge to you, Arjuna? I stand sustaining this entire world with a
+fragment of my being.
+BG11:32(Miller) I am time grown old ...
+
+I can provide more names of perfect people should just one be insufficient.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die         end perfect either never
+perfect name one person young old past present
+deem perfect  krishna  bg10 miller self abid heart
+creatur begin middl end bg10 miller begin middl
+end creation arjuna scienc scienc self disput orat
+bg10 miller whatev power lucid splendid invulner
+sourc fragment brillianc use much knowledg arjuna
+stand sustain entir world fragment bg11 miller
+time grown old  provid name perfect peopl one
+insuffici
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+miller, 5722, 0.479995406717
+perfect, 6538, 0.341795419445
+arjuna, 641, 0.31606563104
+fragment, 3642, 0.255847813671
+end, 3091, 0.202143438737
+middl, 5699, 0.195829951633
+self, 7776, 0.181408920947
+begin, 994, 0.173526678764
+splendid, 8244, 0.14804842682
+old, 6216, 0.147814639387
+scienc, 7692, 0.14609228231
+lucid, 5379, 0.144484844246
+krishna, 5071, 0.144484844246
+insuffici, 4687, 0.144484844246
+grown, 4067, 0.138861928128
+deem, 2465, 0.138861928128
+abid, 176, 0.138861928128
+disput, 2737, 0.121955042023
+creatur, 2222, 0.120952484272
+sustain, 8608, 0.119998851679
+heart, 4225, 0.0991563828661
+creation, 2218, 0.0988385613762
+young, 9962, 0.0872799930129
+knowledg, 5053, 0.0871062532825
+whatev, 9718, 0.0852905901019
+entir, 3129, 0.0849778539746
+stand, 8311, 0.0846700430308
+past, 6456, 0.0826412733573
+die, 2628, 0.0799454840148
+jesus, 4859, 0.0794716282986
+present, 6837, 0.0782248201739
+power, 6783, 0.0725470776778
+provid, 6949, 0.072302244527
+sourc, 8153, 0.0721407097979
+world, 9841, 0.065461017888
+person, 6562, 0.0651210859987
+peopl, 6530, 0.0530302415912
+good, 3948, 0.0502433390809
+time, 8936, 0.0464407301806
+use, 9363, 0.0431672544678

@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61163
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Space Design Movies?
+Article-I.D.: aurora.1993Apr23.124722.1
+Organization: University of Alaska Fairbanks
+Lines: 11
+Nntp-Posting-Host: acad3.alaska.edu
+
+Is there a few Grasp pictures of space related items, namely Space Station
+Designs, so you can see the "finished" revolt around..
+
+If you don't know what a grasp prograsm is.. Check out some adult entertainment
+files and see what I mean.. Or maybe geta few GIF files and create a "slide
+shows" (I think Cshow can do this).. 
+
+I liek to be able to see a space shuttle design in a AutoCAD program or to see
+it revolt around and look at it.
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space design movi articl aurora 1993apr23
+grasp pictur space relat item name space station
+design see finish revolt around  don't know grasp
+prograsm check adult entertain file see mean mayb
+geta gif file creat slide show think cshow  liek
+abl see space shuttl design autocad program see
+revolt around look
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+revolt, 7364, 0.370687309054
+grasp, 4002, 0.356453464061
+design, 2564, 0.330109821164
+space, 8164, 0.321312614311
+1993apr23, 45, 0.209338111372
+cshow, 2272, 0.201191300911
+file, 3477, 0.19598707203
+liek, 5259, 0.183389859345
+autocad, 800, 0.18156220601
+slide, 8031, 0.178226732031
+adult, 283, 0.17669561332
+entertain, 3127, 0.16781320831
+aurora, 787, 0.161061694727
+item, 4798, 0.151656063787
+movi, 5892, 0.144607626929
+finish, 3488, 0.137067237882
+station, 8346, 0.119536791665
+pictur, 6622, 0.119536791665
+gif, 3869, 0.119536791665
+check, 1682, 0.115484347799
+shuttl, 7929, 0.113980341391
+creat, 2217, 0.109475820455
+relat, 7247, 0.108253236446
+abl, 180, 0.103604400685
+mayb, 5564, 0.0991264389995
+articl, 665, 0.0912700802938
+program, 6905, 0.0879021863934
+mean, 5595, 0.0875160149838
+look, 5341, 0.0706724203807
+think, 8871, 0.0648585247164
+don, 2811, 0.064233611141
+know, 5052, 0.0609982036893

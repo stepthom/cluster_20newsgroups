@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84146
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@post.RoyalRoads.ca (Malcolm Lee)
+Subject: Re: Davidians and compassion
+Organization: Royal Roads Military College, Victoria, B.C.
+Lines: 18
+
+
+In article <f2dutxH@quack.kfu.com>, pharvey@quack.kfu.com (Paul Harvey) writes:
+|> In article <1993Apr20.144825.756@ra.royalroads.ca> 
+|> mlee@post.RoyalRoads.ca (Malcolm Lee) writes:
+|> >If one does not follow the teachings of Christ, he is NOT Christian.  
+|> >Too easy?  
+|> 
+|> That would exclude most self-proclaimed "Christians." 
+|> Do you follow the Ten Commandments?
+
+As a matter of fact, yes I do or at least I strive to.  I will not
+be so proud as to boast that my faith is 100%.  I am still human
+and imperfect and therefore, liable to sin.  Thankfully, there is
+opportunity for repentence and forgiveness.
+
+God be with you,
+
+Malcolm Lee  :)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass        one follow teach christ
+christian easi  exclud self proclaim christian
+follow ten command  matter fact yes least strive
+proud boast faith still human imperfect therefor
+liabl sin thank opportun repent forgiv  god
+malcolm lee
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+liabl, 5243, 0.263020002289
+boast, 1187, 0.249343410194
+christian, 1732, 0.239431192719
+strive, 8453, 0.232112941904
+imperfect, 4540, 0.228898069834
+follow, 3578, 0.221731770728
+compass, 1963, 0.208732653291
+proclaim, 6892, 0.207086930489
+exclud, 3266, 0.20551778122
+proud, 6946, 0.204018395422
+repent, 7287, 0.197383233971
+malcolm, 5462, 0.197383233971
+forgiv, 3605, 0.197383233971
+davidian, 2398, 0.177825592906
+opportun, 6268, 0.176502653682
+lee, 5190, 0.173405927534
+sin, 7976, 0.162826061587
+teach, 8729, 0.156532400421
+self, 7776, 0.156532400421
+christ, 1729, 0.15582225574
+faith, 3367, 0.153777349269
+therefor, 8855, 0.150622656744
+easi, 2959, 0.148862398598
+command, 1933, 0.148015560151
+matter, 5553, 0.13089678278
+human, 4432, 0.130232118388
+yes, 9951, 0.122870288884
+god, 3926, 0.118882699068
+fact, 3350, 0.115742700783
+thank, 8832, 0.0944609018554

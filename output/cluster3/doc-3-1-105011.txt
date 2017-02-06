@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105011
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kubey@sgi.com (Ken Kubey)
+Subject: Re: DAVE KINGMAN FOR THE HALL OF FAME
+Organization: Silicon Graphics, Inc., Mountain View, CA
+Lines: 16
+Nntp-Posting-Host: summit.wpd.sgi.com
+
+In article <1993Apr16.011653.7403@Princeton.EDU> roger@astro.princeton.edu (Roger Lustig) writes:
+>
+>As for Ryan, is his W-L better than Morris'?  That's what a lot of voters
+>tend to look at.  And Morris *was* awfully good for a decade, and doesn't
+>lead MLB history in walks allowed, either.
+
+Despite walks and loses, Ryan deserves to be in the Hall of Fame (IMHO)
+based only on his ho-hitters.  The strike-out records are an extra.
+
+What do people think about Andre "400 HR" Dawson for the HOF?
+
+----------------------------------------------------------------------------
+Name:       Ken Kubey  or  QB   |  Reading, editing or printing of this text
+Address:    kubey@sgi.com       |  without the express written consent of
+Disclaimer: the usual           |  Major League Baseball is prohibited.
+----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dave kingman hall fame       ryan better morri
+that lot voter tend look morri aw good decad
+doesn't lead mlb histori walk allow either  despit
+walk lose ryan deserv hall fame imho base hitter
+strike record extra  peopl think andr dawson hof
+name ken kubey read edit print text
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fame, 3376, 0.326679048404
+ryan, 7557, 0.295605881674
+morri, 5868, 0.276442938487
+hall, 4128, 0.274167789106
+walk, 9617, 0.240061331443
+voter, 9586, 0.21394947921
+hof, 4336, 0.197346884288
+dawson, 2401, 0.173414148154
+kingman, 5026, 0.172100145947
+decad, 2432, 0.161516572122
+andr, 503, 0.158189677951
+deserv, 2560, 0.154516203312
+mlb, 5795, 0.153835544985
+despit, 2570, 0.15126596035
+imho, 4524, 0.150063823452
+aw, 829, 0.148910767285
+strike, 8448, 0.14064403492
+tend, 8783, 0.140225568693
+ken, 4980, 0.138611074782
+print, 6871, 0.13528418061
+edit, 2996, 0.134595220754
+extra, 3325, 0.131687357182
+text, 8822, 0.126384415955
+lose, 5350, 0.124182317865
+histori, 4314, 0.122139551806
+dave, 2395, 0.122139551806
+hitter, 4322, 0.120234608511
+record, 7184, 0.119427526356
+lead, 5172, 0.114678338648
+allow, 432, 0.108241250924
+doesn, 2793, 0.0916237857968
+base, 923, 0.0883961745171
+lot, 5356, 0.08813219172
+read, 7135, 0.0859826931858
+better, 1060, 0.0845004038001
+peopl, 6530, 0.0766356847858
+good, 3948, 0.0726082435391
+look, 5341, 0.0704906303925
+think, 8871, 0.0646916897562

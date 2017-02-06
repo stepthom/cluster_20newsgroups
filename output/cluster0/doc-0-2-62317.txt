@@ -1,0 +1,32 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62317
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Keith.Stein@f118.n109.z1.permanet.org (Keith Stein)
+Subject: Re: Gps launch
+Lines: 3
+
+Next GPS launch is scheduled for June 24th.
+
+ * Origin: No. VA Astronomy Club 703-256-4777 (1:109/118)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gps launch   next gps launch schedul 24th  origin
+astronomi club
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gps, 3972, 0.682187335462
+launch, 5147, 0.409806800032
+24th, 68, 0.370258582191
+club, 1842, 0.275804721989
+astronomi, 729, 0.250912703095
+schedul, 7678, 0.237087321826
+origin, 6293, 0.185341794749

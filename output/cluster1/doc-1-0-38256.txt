@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38256
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: emm@tamarack202.cray.com (Mike McConnell)
+Subject: Interleaf to CGM
+Originator: emm@tamarack202
+Keywords: Interleaf, CGM, ileaf
+Lines: 13
+Nntp-Posting-Host: tamarack202.cray.com
+Organization: Cray Research, Inc.
+
+
+Has anyone successfully converted Interleaf graphics to CGM, or even heard
+of it being done????
+
+
+We'd love to hear about it.
+
+-Mike McConnell
+
+emm@cray.com
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ interleaf cgm origin emm tamarack202       anyon
+success convert interleaf graphic cgm even heard
+done   we'd love hear  mike mcconnel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cgm, 1633, 0.760822540426
+success, 8513, 0.248841668268
+mike, 5710, 0.241968858121
+hear, 4223, 0.241968858121
+convert, 2115, 0.225305606955
+love, 5366, 0.22249432299
+heard, 4224, 0.212989210092
+origin, 6293, 0.199360111058
+graphic, 3997, 0.184559570605
+anyon, 554, 0.150637301576

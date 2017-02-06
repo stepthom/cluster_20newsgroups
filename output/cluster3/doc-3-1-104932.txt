@@ -1,0 +1,304 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104932
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: DAVE KINGMAN FOR THE HALL OF FAME
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 85
+
+In article <1993Apr15.093231.5148@news.yale.edu> (Steve Tomassi) writes:
+>     Hi, baseball fans! So what do you say? Don't you think he deserves it?
+>I
+
+>mean, heck, if Dave Winfield (ho-hum) is seriously being considered for it,
+>as
+
+>is Lee Smith (ha), then why don't we give Dave Kingman a chance? Or Darrell
+
+>Evans! Yeah, yeah! After the Hall of Fame takes in them, it can take in
+>Eddie
+
+>Murray and Jeff Reardon.
+
+Um, what?  Eddie Murray was a superb first baseman for a *long* time.
+
+Winfield as produced consistently for almsot 20 years, and excellently
+on several occasions.  
+
+Dave Kingman's *best* year was like Darryl Strawberry's *typical*
+year with the Mets.  
+
+Darrell Evans, too, did a whole lot more than just hit homers, which 
+*is* all that Kong did.  
+
+>     Well, in any case, I am sick and tired (mostly sick) of everybody
+>giving
+
+>Hall of Fame consideration to players that are by today's standards,
+>marginal.
+
+Whom are you talking about?  Yes, Eddie Murray is marginal, but that's
+because he's 38 years old.  He wasn't marginal for a *long* time.
+
+>Honestly, Ozzie Smith and Robin Yount don't belong there. They're both
+
+>shortstops that just hung around for a long time. Big deal.
+
+Not.  
+
+Smith has hung around for a long time AND fielded the position better 
+than anyone else ever has.
+
+Yount stopped being a shortstop about a decade ago, in case you hadn't 
+noticed.
+
+One of his two MVP awards was as a centerfielder.
+
+>     Let's be a little more selective, huh? Stop handing out these honors
+>so
+
+>liberally. Save them for the guys who really deserve it. Face it, if
+
+Like whom?  There are many players in the Hall who aren't anywhere near
+as goos as the guys you're running down.
+
+>something
+>isn't done, there will be little prestige in the Hall of Fame anymore. When
+
+That's already the case, by some standards.  But the *bad* players in the 
+Hall are all from the 20's and 30's.  Recent picks have generally been
+excellent.
+
+>certain individuals believe that Steve Garvey or Jack Morris are potential
+>candidates, the absurdity is apparent. Gee, can these guys even compare to
+>the more likely future Hall of Famers like Kirby Puckett or Nolan Ryan?
+
+No, but who cares?  Was Stan Musial anywhere near as good as Babe Ruth?
+Not really.  But he obviously belongs there.
+
+The Hall has generally had about the top 1% of major leaguers.  As 
+more players come through the game, more will be in that top 1%.  
+
+And, yes, it's pretty easy to argue that Smith,. Yount, Evans, Winfield,
+etc. are in the top 1%.  Dave Kingman on the other hand, was a liability
+throughout most of his career.
+
+Of course, Garvey *hasn't* gotten a lot of HOF press, so I don't know
+what you mean.  
+
+As for Ryan, is his W-L better than Morris'?  That's what a lot of voters
+tend to look at.  And Morris *was* awfully good for a decade, and doesn't
+lead MLB history in walks allowed, either.
+
+Roger
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dave kingman hall fame origin news nimast
+basebal fan say don't think deserv   mean heck
+dave winfield hum serious consid   lee smith don't
+give dave kingman chanc darrel  evan yeah yeah
+hall fame take take eddi  murray jeff reardon
+eddi murray superb first baseman long time
+winfield produc consist almsot year excel sever
+occas  dave kingman best year like darryl
+strawberri typic year met  darrel evan whole lot
+hit homer kong  well case sick tire most sick
+everybodi give  hall fame consider player today
+standard margin  talk yes eddi murray margin that
+he year old wasn't margin long time  honest ozzi
+smith robin yount don't belong they'r  shortstop
+hung around long time big deal    smith hung
+around long time field posit better anyon els ever
+yount stop shortstop decad ago case hadn't notic
+one two mvp award centerfield  let littl select
+huh stop hand honor   liber save guy realli deserv
+face  like mani player hall aren't anywher near
+goo guy you'r run  someth isn't done littl prestig
+hall fame anymor  that alreadi case standard bad
+player hall recent pick general excel  certain
+individu believ steve garvey jack morri potenti
+candid absurd appar gee guy even compar like futur
+hall famer like kirbi puckett nolan ryan  care
+stan musial anywher near good babe ruth realli
+obvious belong  hall general top major leaguer
+player come game top  yes it pretti easi argu
+smith yount evan winfield etc top dave kingman
+hand liabil throughout career  cours garvey hasn't
+gotten lot hof press don't know mean  ryan better
+morri that lot voter tend look morri aw good decad
+doesn't lead mlb histori walk allow either  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hall, 4128, 0.360819773611
+kingman, 5026, 0.226493184708
+fame, 3376, 0.214963728367
+dave, 2395, 0.200927895174
+smith, 8064, 0.181906997183
+yount, 9965, 0.178748350682
+evan, 3227, 0.172527128002
+eddi, 2990, 0.171166862495
+murray, 5929, 0.165212435271
+winfield, 9778, 0.156139687229
+margin, 5507, 0.146428927078
+morri, 5868, 0.136430247887
+player, 6683, 0.128270438122
+garvey, 3779, 0.127901340486
+darrel, 2373, 0.126129847506
+long, 5336, 0.11712795435
+shortstop, 7909, 0.10944015882
+decad, 2432, 0.10628231197
+hung, 4441, 0.105710371203
+guy, 4100, 0.10467820065
+deserv, 2560, 0.101675878264
+anywher, 557, 0.100363337202
+sick, 7933, 0.0995371297019
+belong, 1015, 0.0979873483956
+ryan, 7557, 0.0972583683622
+case, 1540, 0.0969341469144
+year, 9943, 0.0934233338829
+yeah, 9942, 0.0928271160507
+excel, 3261, 0.0890206825171
+time, 8936, 0.0883243349498
+lot, 5356, 0.0869900806945
+don, 2811, 0.0843174895051
+stop, 8413, 0.0785865713169
+like, 5272, 0.0782724504952
+standard, 8313, 0.0761374273652
+near, 5982, 0.0752415137786
+musial, 5932, 0.0724660387127
+general, 3818, 0.0717618861731
+voter, 9586, 0.0703922978192
+goo, 3947, 0.0703922978192
+kong, 5060, 0.0686979281372
+yes, 9951, 0.0677052926275
+hand, 4145, 0.0674160010549
+superb, 8553, 0.0672653589832
+prestig, 6843, 0.0660244111367
+hof, 4336, 0.0649298175616
+centerfield, 1607, 0.0649298175616
+leaguer, 5177, 0.0639506702432
+famer, 3377, 0.0639506702432
+stan, 8309, 0.0630649237529
+liabil, 5242, 0.0630649237529
+hum, 4431, 0.0630649237529
+littl, 5308, 0.062467914451
+darryl, 2377, 0.0608237314072
+kirbi, 5029, 0.0601825596677
+reardon, 7155, 0.0590193805107
+occas, 6186, 0.0590193805107
+puckett, 6975, 0.0579857268533
+ozzi, 6366, 0.0575090426673
+nolan, 6094, 0.0575090426673
+babe, 846, 0.0575090426673
+mean, 5595, 0.0574397931538
+better, 1060, 0.0556035715731
+hadn, 4114, 0.0554353017738
+realli, 7150, 0.0551529650599
+strawberri, 8434, 0.0547200794101
+nimast, 6072, 0.0547200794101
+absurd, 200, 0.0547200794101
+robin, 7440, 0.0540559895229
+mvp, 5937, 0.0540559895229
+liber, 5247, 0.0540559895229
+award, 832, 0.0540559895229
+ruth, 7555, 0.0537409320917
+tire, 8948, 0.0534362062949
+honor, 4364, 0.0531411559848
+heck, 4234, 0.0525777529347
+gee, 3806, 0.0523083629377
+candid, 1489, 0.0523083629377
+baseman, 928, 0.0523083629377
+huh, 4429, 0.0520465624097
+anymor, 553, 0.0513027011815
+mlb, 5795, 0.0506139932557
+honest, 4361, 0.0499728215162
+jeff, 4839, 0.0493730454093
+aw, 829, 0.0489936741978
+homer, 4355, 0.0482784518341
+good, 3948, 0.0477782056045
+lee, 5190, 0.0477759887018
+everybodi, 3239, 0.0477759887018
+hasn, 4195, 0.0476143619469
+typic, 9178, 0.0472993045157
+gotten, 3962, 0.0466995284088
+tend, 8783, 0.0461361253588
+argu, 628, 0.0457349132344
+roger, 7458, 0.0446257875153
+press, 6841, 0.0446257875153
+potenti, 6774, 0.0445103412586
+consider, 2060, 0.0438462513714
+select, 7774, 0.0434285044516
+jack, 4808, 0.0434285044516
+appar, 577, 0.0431270735685
+career, 1517, 0.0430287308079
+notic, 6120, 0.0429314178333
+consist, 2061, 0.0423680147832
+pick, 6619, 0.0418368242581
+steve, 8390, 0.0414162409873
+met, 5655, 0.0413343611258
+produc, 6895, 0.041172734371
+easi, 2959, 0.0410138706023
+individu, 4604, 0.0406282009805
+aren, 623, 0.040552951143
+chanc, 1649, 0.0404042551042
+wasn, 9652, 0.0403307898666
+histori, 4314, 0.0401855790347
+face, 3345, 0.0399719304494
+walk, 9617, 0.0394917267389
+obvious, 6185, 0.0392932856584
+futur, 3737, 0.0392280692213
+compar, 1960, 0.0390989934775
+lead, 5172, 0.0377307381038
+deal, 2418, 0.0375662505503
+save, 7646, 0.0374046237954
+alreadi, 443, 0.0372457600268
+fan, 3381, 0.0369868768756
+recent, 7168, 0.0369359545337
+care, 1516, 0.0365871032319
+posit, 6761, 0.0364897902573
+ago, 336, 0.0362038198738
+allow, 432, 0.0356128484139
+today, 8964, 0.0355251750829
+old, 6216, 0.0351405696814
+field, 3466, 0.0349746134113
+sever, 7823, 0.034300603107
+bad, 861, 0.0342244280563
+major, 5458, 0.034111323567
+pretti, 6851, 0.0340739259143
+isn, 4783, 0.0340366781524
+origin, 6293, 0.0330500991629
+certain, 1619, 0.0328844387308
+consid, 2059, 0.0325934941438
+hit, 4316, 0.0324985021329
+els, 3053, 0.0321279558734
+news, 6031, 0.0320977337195
+cours, 2190, 0.0318007977841
+big, 1082, 0.0316558134994
+talk, 8684, 0.0314284430351
+basebal, 924, 0.0313168104117
+best, 1052, 0.0310704344583
+doesn, 2793, 0.030145475656
+let, 5225, 0.0293490885479
+believ, 1009, 0.0286989421054
+game, 3761, 0.0281700775231
+run, 7543, 0.027993803034
+someth, 8126, 0.0273565123988
+come, 1923, 0.0269489237292
+mani, 5479, 0.0263610753231
+anyon, 554, 0.0249727878276
+say, 7653, 0.0235944423201
+look, 5341, 0.023192379184
+think, 8871, 0.021284448593
+know, 5052, 0.0200176173659

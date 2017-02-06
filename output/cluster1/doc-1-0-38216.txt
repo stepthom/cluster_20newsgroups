@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38216
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: TIFF: philosophical significance of 42
+Organization: Purdue University
+Lines: 20
+
+In article <1993Apr10.160929.696@galki.toppoint.de> ulrich@galki.toppoint.de  
+writes:
+> According to the TIFF 5.0 Specification, the TIFF "version number"
+> (bytes 2-3) 42 has been chosen for its "deep philosophical 
+> significance".
+> Last week, I read the Hitchhikers Guide To The Galaxy,
+> Is this actually how they picked the number 42?
+
+I'm sure it is, and I am not amused.  Every time I read that part of the
+TIFF spec, it infuriates me- and I'm none too happy about the
+complexity of the spec anyway- because I think their "arbitrary but
+carefully chosen number" is neither.  Additionally, I find their
+choice of 4 bytes to begin a file with meaningless of themselves- why
+not just use the letters "TIFF"?
+
+(And no, I don't think they should have bothered to support both word
+orders either- and I've found that many TIFF readers actually
+don't.)
+
+ab
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific    galki toppoint  accord
+tiff specif tiff version number byte chosen deep
+philosoph signific last week read hitchhik guid
+galaxi actual pick number  i'm sure amus everi
+time read part tiff spec infuri i'm none happi
+complex spec anyway think arbitrari care chosen
+number neither addit find choic byte begin file
+meaningless use letter tiff  don't think bother
+support word order either i'v found mani tiff
+reader actual don't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiff, 8926, 0.620522590971
+chosen, 1727, 0.240935291404
+spec, 8196, 0.234512692221
+byte, 1438, 0.231086289281
+philosoph, 6595, 0.227920380284
+number, 6156, 0.203220966172
+signific, 7951, 0.179521933828
+hitchhik, 4318, 0.150784497377
+actual, 254, 0.133961460389
+amus, 485, 0.127897973633
+read, 7135, 0.126829469718
+meaningless, 5597, 0.122662538266
+arbitrari, 604, 0.122662538266
+guid, 4082, 0.115002017809
+reader, 7137, 0.111563041507
+galaxi, 3753, 0.111563041507
+deep, 2466, 0.109008963982
+bother, 1245, 0.109008963982
+letter, 5227, 0.102816557325
+complex, 1976, 0.101942350246
+happi, 4161, 0.0980492812481
+choic, 1717, 0.0962366418247
+think, 8871, 0.0954240022369
+addit, 263, 0.0945691751955
+don, 2811, 0.0945045894893
+pick, 6619, 0.0937829606944
+accord, 219, 0.0935909573843
+begin, 994, 0.0924746790265
+specif, 8203, 0.082683463935
+care, 1516, 0.082014993374
+version, 9479, 0.0810508629402
+week, 9691, 0.0767187339887
+word, 9829, 0.0746175844047
+order, 6281, 0.0736414824338
+file, 3477, 0.0720871731262
+support, 8576, 0.0717495285928
+everi, 3235, 0.0713514487411
+sure, 8585, 0.0670875622835
+mani, 5479, 0.059091953912
+time, 8936, 0.0494977676953
+use, 9363, 0.0460088100549

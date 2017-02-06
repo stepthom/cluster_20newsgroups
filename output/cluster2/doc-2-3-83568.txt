@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83568
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sieferme@stein.u.washington.edu (Eric Sieferman)
+Subject: Re: 14 Apr 93   God's Promise in 1 John 1: 7
+Organization: University of Washington, Seattle
+Lines: 26
+NNTP-Posting-Host: stein.u.washington.edu
+
+In article <f1VMPxk@quack.kfu.com> pharvey@quack.kfu.com (Paul Harvey) writes:
+>In article <bskendigC5H4o3.D5p@netcom.com> 
+>bskendig@netcom.com (Brian Kendig) writes:
+>>psyrobtw@ubvmsb.cc.buffalo.edu (Robert Weiss) writes:
+>>>	But if we walk in the light,
+>>>	as he is in the light,
+>>>	we have fellowship one with another,
+>>>	and the blood of Jesus Christ his Son
+>>>	cleanseth us from all sin.
+>>	It can not be a light which cleanses
+>>	if it is tainted with the blood
+>>	of an innocent man.
+>
+>Human blood sacrifice! Martyrdom of an innocent virgin! "Nailed" to a
+>wooden pole! What is this obsession with male menstruation?
+
+Christian:  washed in the blood of the lamb.
+Mithraist:  washed in the blood of the bull.
+
+If anyone in .netland is in the process of devising a new religion,
+do not use the lamb or the bull, because they have already been
+reserved.  Please choose another animal, preferably one not
+on the Endangered Species List.  
+
+Thank you.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john         walk light light
+fellowship one anoth blood jesus christ son
+cleanseth sin light cleans taint blood innoc man
+human blood sacrific martyrdom innoc virgin nail
+wooden pole obsess male menstruat  christian wash
+blood lamb mithraist wash blood bull  anyon
+netland process devis new religion use lamb bull
+alreadi reserv pleas choos anoth anim prefer one
+endang speci list  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+blood, 1169, 0.527704770753
+lamb, 5099, 0.269592159528
+wash, 9650, 0.252543464874
+bull, 1385, 0.245051701105
+light, 5267, 0.230357308527
+innoc, 4658, 0.219457626152
+wooden, 9825, 0.146136338403
+taint, 8676, 0.146136338403
+mithraist, 5786, 0.142618780532
+obsess, 6181, 0.139644727729
+nail, 5948, 0.139644727729
+endang, 3092, 0.137068486008
+cleans, 1801, 0.137068486008
+fellowship, 3438, 0.134796079764
+devis, 2594, 0.130924509135
+netland, 6013, 0.12924578524
+male, 5465, 0.124940642343
+anoth, 533, 0.124361755872
+virgin, 9532, 0.123695490717
+speci, 8197, 0.119390347819
+pole, 6717, 0.118449031669
+sacrific, 7569, 0.114328513664
+reserv, 7309, 0.106505812896
+choos, 1720, 0.0963558177841
+son, 8132, 0.0960656897005
+sin, 7976, 0.0931328176042
+promis, 6913, 0.0905875192009
+christ, 1729, 0.0891267993653
+prefer, 6819, 0.0881472410735
+anim, 515, 0.0832773801833
+walk, 9617, 0.0819859064361
+religion, 7261, 0.081710285263
+jesus, 4859, 0.078445229145
+process, 6890, 0.0779885651274
+alreadi, 443, 0.077323218022
+human, 4432, 0.0744898206701
+john, 4878, 0.0729527852013
+list, 5298, 0.0706610761501
+christian, 1732, 0.068474608373
+god, 3926, 0.0679982099959
+man, 5471, 0.0666357743973
+pleas, 6688, 0.0567552971884
+new, 6023, 0.0562003264034
+thank, 8832, 0.0540294953859
+anyon, 554, 0.0518441915649
+use, 9363, 0.042609736843

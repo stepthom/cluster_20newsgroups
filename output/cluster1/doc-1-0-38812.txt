@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38812
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jussi@tor.abo.fi (Jussi Laaksonen DC)
+Subject: Lasergraphics Language ?
+Organization: ]bo Akademi University, Finland
+Distribution: comp.graphics
+Lines: 25
+
+Hi!
+
+We have an old Montage FR-1 35mm film recorder. When connected to a PC with
+its processor card it can directly take HPGL, Targa and Lasergraphics Language
+files. 24 bit Targa is quite OK for raster images, but conversion from 
+whatever one happens to have can be quite slow. This Lasergraphics Language
+seems to be (got the source file for one test image) a vector-based language
+that can handle one million colors. It does some polygons too, and perhaps
+something else ?
+
+The question is, where can I find some information about this language ?
+A FTP site, a book, a company address,.... ?
+
+(OK, it would be nice to have a Windows driver for it, but I'm not THAT
+optimistic...)
+
+Thanks in advance for any help!
+
+	jussi
+
+
+--
+	Jussi Laaksonen
+        Computing Centre / ]bo Akademi University,  Finland
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lasergraph languag       old montag 35mm film
+record connect processor card direct take hpgl
+targa lasergraph languag file bit targa quit
+raster imag convers whatev one happen quit slow
+lasergraph languag seem got sourc file one test
+imag vector base languag handl one million color
+polygon perhap someth els  question find inform
+languag ftp site book compani address  nice window
+driver i'm optimist  thank advanc help  jussi
+jussi laaksonen comput centr akademi univers
+finland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lasergraph, 5135, 0.503500460828
+languag, 5113, 0.501013769629
+targa, 8703, 0.249337944596
+quit, 7043, 0.152050256993
+hpgl, 4408, 0.147473684656
+file, 3477, 0.143658972959
+finland, 3490, 0.142841728
+imag, 4512, 0.139162954629
+optimist, 6275, 0.131827082744
+raster, 7104, 0.123007466284
+vector, 9444, 0.120037015642
+processor, 6891, 0.114590925474
+film, 3479, 0.113552821979
+centr, 1610, 0.112564171144
+polygon, 6728, 0.106352563816
+driver, 2876, 0.104309170011
+slow, 8044, 0.10274770151
+convers, 2114, 0.10186425994
+connect, 2046, 0.0991646504311
+million, 5724, 0.0958926292013
+handl, 4149, 0.0958926292013
+whatev, 9718, 0.0905800298065
+card, 1513, 0.0891255852972
+record, 7184, 0.0877664112185
+window, 9774, 0.0863537748678
+compani, 1958, 0.0863537748678
+site, 7994, 0.0855501489449
+test, 8812, 0.0852890418073
+nice, 6047, 0.0840306114433
+ftp, 3709, 0.0839088647967
+color, 1907, 0.0834288955812
+address, 264, 0.0806570851519
+perhap, 6540, 0.0803480311491
+direct, 2667, 0.0795456996323
+old, 6216, 0.078490806697
+advanc, 285, 0.078490806697
+sourc, 8153, 0.0766146375109
+book, 1218, 0.074350852415
+happen, 4159, 0.073160117764
+comput, 1993, 0.0719656033195
+els, 3053, 0.0717617613174
+bit, 1122, 0.0700120237306
+univers, 9282, 0.0689815007582
+inform, 4637, 0.06822659052
+got, 3960, 0.0681128491739
+base, 923, 0.0649616988605
+question, 7032, 0.0628332073044
+someth, 8126, 0.0611041524388
+help, 4249, 0.0609831156892
+thank, 8832, 0.0581310044102

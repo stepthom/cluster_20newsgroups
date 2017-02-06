@@ -1,0 +1,152 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104646
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: ez027993@chip.ucdavis.edu (Gary Built Like Villanueva Huckabay)
+Subject: How to speed up games (marginally realistic)
+Organization: Chef Dave Koresh's BBQ Pits, Inc. (A subsidiary of LundyCo)
+Lines: 30
+
+You want to speed up ballgames?
+
+1.  Enforce the two minutes between innings.  As it is, many fields are
+    allowing THREE minutes between them.  Fifteen seconds before 
+    TV commercials are gone to, Thirty or so before action begins upon
+    the return to the game.  Two minutes, last out to first pitch, or
+    a ball is called.
+
+2.  Don't grant time to batters just because they want it.  They may get
+    pissed at first, but they'll get in line, once anything the pitcher
+    throws while they're adjusting their wristbands is a strike.
+
+3.  Mandate a rule permitting only N seconds between pitches (the current
+    rule is too lenient), and then enforce it.  Fifteen seconds is more
+    than enough time.  If the pitch isn't released in 15, call it a ball,
+    and restart the clock.
+
+Baseball games take about 2:51 in the NL, and just a shade under 3 hours
+in the AL.  That's just too damn long.  I don't like to PLAY in 3 hour
+games, much less WATCH a game for that long.  My butt falls asleep, and
+if I'm watching on TV, I'll channel surf between pitches, catching
+colorized versions of Mr. Ed, Leave it to Beaver, and "Those Wacky
+Nieporents" on Nick at Nite.
+
+
+-- 
+*   Gary Huckabay   * "You think that's loud enough, a$$hole?"           *
+*   "Movie Rights   * "Well, if you're having trouble hearing it, sir,   *
+*   available thru  *  I'd be happy to turn it up for you.  I didn't     *
+*     Ted Frank."   *  know that many people your age liked King's X."   *
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ speed game margin realist    want speed ballgam
+enforc two minut inning mani field allow three
+minut fifteen second commerci gone thirti action
+begin upon return game two minut last first pitch
+ball call  don't grant time batter want get piss
+first they'll get line anyth pitcher throw they'r
+adjust wristband strike  mandat rule permit second
+pitch current rule lenient enforc fifteen second
+enough time pitch isn't releas call ball restart
+clock  basebal game take shade hour that damn long
+don't like play hour game much less watch game
+long butt fall asleep i'm watch i'll channel surf
+pitch catch color version leav beaver wacki niepor
+nick nite    gari huckabay think that loud enough
+hole movi right well you'r troubl hear sir avail
+thru i'd happi turn didn't ted frank know mani
+peopl age like king
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.26668777095
+pitch, 6643, 0.256942194736
+minut, 5747, 0.243860545636
+enforc, 3106, 0.216059559329
+second, 7753, 0.18371191516
+hour, 4395, 0.158428664541
+rule, 7537, 0.146867916062
+watch, 9655, 0.145941754676
+speed, 8217, 0.143089744185
+ball, 877, 0.137634766229
+lenient, 5214, 0.133281599825
+beaver, 979, 0.133281599825
+nite, 6077, 0.130073460456
+mandat, 5474, 0.130073460456
+wacki, 9602, 0.127361017268
+surf, 8586, 0.127361017268
+asleep, 691, 0.125011392105
+niepor, 6058, 0.12293887583
+restart, 7325, 0.119407864085
+huckabay, 4422, 0.117876807479
+butt, 1430, 0.115164364291
+piss, 6640, 0.112814739127
+ll, 5314, 0.111481488475
+long, 5336, 0.110885719202
+loud, 5361, 0.110742222852
+thirti, 8877, 0.109790853282
+ballgam, 879, 0.109790853282
+permit, 6552, 0.105680154501
+sir, 7989, 0.103607638226
+clock, 1827, 0.103607638226
+nick, 6052, 0.100618086149
+mani, 5479, 0.0998247365416
+channel, 1652, 0.0995513322262
+realist, 7147, 0.0990412660558
+shade, 7835, 0.0975942003043
+want, 9634, 0.0958650886254
+ted, 8745, 0.0931206834987
+grant, 3994, 0.0931206834987
+catch, 1556, 0.0931206834987
+margin, 5507, 0.0924167475999
+king, 5024, 0.0920750659754
+gari, 3776, 0.0914109852483
+adjust, 269, 0.0910881128727
+movi, 5892, 0.0898527951731
+damn, 2346, 0.0898527951731
+strike, 8448, 0.0876153662501
+gone, 3943, 0.0856306110089
+troubl, 9117, 0.0851675303157
+hole, 4343, 0.0847163248048
+batter, 949, 0.0836364737089
+time, 8936, 0.0836171643087
+happi, 4161, 0.0828179051521
+inning, 4657, 0.0811045044186
+fall, 3369, 0.0805685426574
+action, 251, 0.0800484244726
+don, 2811, 0.079823860299
+throw, 8899, 0.078891459895
+age, 328, 0.0787322185298
+leav, 5184, 0.0784179949875
+begin, 994, 0.0781092844242
+releas, 7253, 0.0769259108236
+hear, 4223, 0.0759519677406
+frank, 3655, 0.0752878870134
+return, 7346, 0.0751580262708
+commerci, 1940, 0.0743983665429
+like, 5272, 0.0741009865244
+color, 1907, 0.0707215148432
+turn, 9158, 0.0700313851835
+pitcher, 6644, 0.0699349682257
+version, 9479, 0.0684600906201
+allow, 432, 0.0674297836268
+field, 3466, 0.0662213420098
+isn, 4783, 0.0644454444226
+current, 2299, 0.0637553147629
+avail, 811, 0.0611203873425
+anyth, 555, 0.0603230188494
+basebal, 924, 0.0592956150375
+didn, 2625, 0.0587780468202
+line, 5285, 0.0583249045914
+play, 6681, 0.0580291656843
+right, 7399, 0.0535257490402
+peopl, 6530, 0.0477408344703
+think, 8871, 0.0403002238563
+know, 5052, 0.0379015907972

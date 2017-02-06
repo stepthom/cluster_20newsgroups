@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104584
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mss@netcom.com (Mark Singer)
+Subject: Re: DAVE KINGMAN FOR THE HALL OF FAME
+Keywords: Hall of Fame, Winfield, Kingman, Murray, Joe Lundy, :-)
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Distribution: na
+Lines: 15
+
+
+I'm no Kingman fan.  Just thought I'd point out that he's the
+only player in history to have five three-HR games.  Joe Carter
+has four.  Eddie Murray three.  McCovey and Gehrig also three.
+Ruth, Mays, Foxx and Dawson two each.
+
+I don't think Reggie's WS game counts, else I believe he would 
+also have had two.
+
+
+--	The Beastmaster
+
+-- 
+Mark Singer    
+mss@netcom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dave kingman hall fame       i'm kingman fan
+thought i'd point he player histori five three
+game joe carter four eddi murray three mccovey
+gehrig also three ruth may foxx dawson two  don't
+think reggi game count els believ also two
+beastmast   mark singer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kingman, 5026, 0.4156503494
+mccovey, 5571, 0.24688486764
+foxx, 3633, 0.242330201621
+reggi, 7226, 0.228500059408
+gehrig, 3811, 0.21661955226
+beastmast, 973, 0.212825720632
+eddi, 2990, 0.209411941154
+dawson, 2401, 0.209411941154
+game, 3761, 0.206785958354
+murray, 5929, 0.202127072196
+singer, 7981, 0.199599299094
+ruth, 7555, 0.197245998637
+fame, 3376, 0.197245998637
+carter, 1535, 0.193995032488
+joe, 4876, 0.169333983714
+hall, 4128, 0.165540152086
+count, 2180, 0.15757170659
+histori, 4314, 0.147493620951
+dave, 2395, 0.147493620951
+mark, 5512, 0.13889208816
+fan, 3381, 0.135753385396
+thought, 8887, 0.119049179518
+els, 3053, 0.117919628368
+player, 6683, 0.117698138449
+believ, 1009, 0.105334077305
+point, 6710, 0.0962788041209
+think, 8871, 0.0781205713178
+don, 2811, 0.0773678775779

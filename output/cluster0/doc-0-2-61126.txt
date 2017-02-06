@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61126
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Keeping Spacecraft on after Funding Cuts.
+Organization: U of Toronto Zoology
+Lines: 15
+
+In article <19930423.010821.639@almaden.ibm.com> nicho@vnet.ibm.com writes:
+>>Since we don't have the money to keep them going now, how will
+>>changing them to a seperate agency help anything?
+>>
+>How about transferring control to a non-profit organisation that is
+>able to accept donations to keep craft operational.
+
+The problem is, you can't raise adequate amounts of money that way.
+The Viking Fund tried.  They did succeed, in a way, but only because
+of the political impact of their fundraising.  The actual amount of
+money they raised was fairly inconsequential; it would not have kept
+the Viking lander going by itself.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ keep spacecraft fund cut     sinc don't money
+keep go chang seper agenc help anyth  transfer
+control non profit organis abl accept donat keep
+craft oper  problem can't rais adequ amount money
+way vike fund tri succeed way polit impact
+fundrais actual amount money rais fair
+inconsequenti kept vike lander go  work one man
+work henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vike, 9517, 0.334243860162
+money, 5835, 0.33410762434
+rais, 7076, 0.290237812234
+fund, 3723, 0.250860763176
+lander, 5105, 0.193046776077
+organis, 6288, 0.190135613838
+seper, 7798, 0.180838722456
+donat, 2813, 0.180838722456
+succeed, 8511, 0.175474097442
+adequ, 265, 0.167121930081
+craft, 2207, 0.158874423777
+work, 9833, 0.15655820127
+transfer, 9052, 0.148577224571
+profit, 6903, 0.146793993874
+way, 9666, 0.144555949534
+impact, 4534, 0.143539591371
+agenc, 329, 0.143539591371
+kept, 4989, 0.139722430395
+zoolog, 9993, 0.138845198434
+polit, 6723, 0.134096892338
+spencer, 8221, 0.133379177028
+henri, 4258, 0.125697344881
+spacecraft, 8166, 0.123137136374
+cut, 2313, 0.121476435749
+fair, 3363, 0.117020518475
+oper, 6261, 0.11568175558
+toronto, 9003, 0.115310871006
+control, 2107, 0.115310871006
+accept, 208, 0.11352764031
+non, 6097, 0.109516190837
+abl, 180, 0.101086209337
+chang, 1650, 0.0992754719323
+man, 5471, 0.0954317176088
+anyth, 555, 0.0947232047919
+actual, 254, 0.0888388687963
+problem, 6887, 0.0869278515565
+sinc, 7977, 0.0842285196663
+help, 4249, 0.081174193967
+tri, 9087, 0.0800205715938
+don, 2811, 0.0626723596614

@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102601
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: quick way to tell if your local beat writer is dumb.
+From: gajarsky@pilot.njin.net (Bob Gajarsky - Hobokenite)
+Organization: Somewhere in Hoboken
+Lines: 10
+
+
+jayson stark (i trhink that's him) fits perfectly in this category.
+
+anyone who writes "dean palmer has 2 homers  - at this pace, he'll
+ have 324 home runs!" should be shot.
+
+if, at the end of april, he has 11, and anyone writes "at this
+ pace, he'll have 100+ homers!" they shouldbe shot too.
+
+- bob gaj
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+quick way tell local beat writer dumb      jayson
+stark trhink that fit perfect categori  anyon
+write dean palmer homer pace he'll home run shot
+end april anyon write pace he'll homer shouldb
+shot  bob gaj
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pace, 6370, 0.411531546737
+homer, 4355, 0.330130623673
+shot, 7910, 0.311848972104
+jayson, 4833, 0.229982052749
+gaj, 3747, 0.229982052749
+stark, 8332, 0.225739219032
+write, 9865, 0.219074695794
+ll, 5314, 0.20130760662
+dean, 2421, 0.188288571204
+palmer, 6401, 0.183741677231
+dumb, 2914, 0.181691026757
+anyon, 554, 0.170765252554
+categori, 1560, 0.169476708571
+writer, 9866, 0.165659236686
+beat, 974, 0.155924486052
+fit, 3510, 0.143336790429
+bob, 1189, 0.139693484956
+perfect, 6538, 0.138908900543
+quick, 7036, 0.135483766463
+local, 5322, 0.135252681413
+april, 595, 0.13197409989
+home, 4354, 0.122523280873
+end, 3091, 0.109537347897
+tell, 8767, 0.10382978199
+run, 7543, 0.0957115576775
+way, 9666, 0.083117043388

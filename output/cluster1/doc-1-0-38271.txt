@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38271
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: petro@server.uwindsor.ca (PETRO DAVID              )
+Subject: Shareware
+Distribution: comp.graphics
+Organization: University of Windsor, Ontario, Canada
+Lines: 20
+
+
+ Recently I saw the latest Computer Shopper and in it there was an article
+on nice shareware graphics programs. They looked pretty good and of the 6
+listed in the article, one I had (Graphics Workshop), one I found via
+archie (Draft Choice - old version though) and the rest I couldn't find.
+So if there is anyone that knows where I can get the following programs
+via anonymous ftp, please let me know.
+
+Adkins Graphics :AG1.ZIP, AG2.ZIP
+Draft Choice (latest VGA version) : DRAFTC.ZIP
+Envision Publisher: ENVIS1.ZIP, ENVIS2.ZIP
+Neopaint: NEOPNT.ZIP
+
+Thanx in advance.
+D.PETRO 
+-- 
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+>     DAVID PETRO           KWYJIBO-- A big, dumb, balding       <
+>     Dept. of Physics                North American ape.        <
+>     University of Windsor petro@server.uwindsor.ca             <
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sharewar      recent saw latest comput shopper
+articl nice sharewar graphic program look pretti
+good list articl one graphic workshop one found
+via archi draft choic old version though rest
+couldn't find anyon know get follow program via
+anonym ftp pleas let know  adkin graphic ag1 zip
+ag2 zip draft choic latest vga version draftc zip
+envis publish envis1 zip envis2 zip neopaint
+neopnt zip  thanx advanc petro   david petro
+kwyjibo big dumb bald dept physic north american
+ape
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+zip, 9988, 0.651140489073
+draft, 2853, 0.238753463114
+sharewar, 7856, 0.217988642348
+latest, 5141, 0.210217510751
+graphic, 3997, 0.197663096159
+choic, 1717, 0.18490067441
+neopaint, 6005, 0.161808708254
+version, 9479, 0.1557240458
+ape, 560, 0.151585761628
+bald, 874, 0.144852078829
+articl, 665, 0.128999205039
+program, 6905, 0.124239094886
+archi, 613, 0.121045413976
+workshop, 9839, 0.118591823286
+thanx, 8833, 0.11507179451
+dumb, 2914, 0.11443642065
+dept, 2544, 0.103597653263
+north, 6110, 0.0996479787212
+anonym, 532, 0.0993514904007
+vga, 9492, 0.0984875031844
+publish, 6974, 0.092450337205
+couldn, 2176, 0.091041834782
+american, 469, 0.0890111675109
+saw, 7650, 0.0881521259502
+physic, 6613, 0.0870082377294
+know, 5052, 0.086213573598
+rest, 7324, 0.0854798161909
+nice, 6047, 0.0810141345396
+ftp, 3709, 0.080896758276
+david, 2397, 0.0807800664258
+recent, 7168, 0.0795394520835
+old, 6216, 0.0756731941451
+advanc, 285, 0.0756731941451
+pretti, 6851, 0.0733762381878
+list, 5298, 0.0732960272764
+comput, 1993, 0.0693822283263
+big, 1082, 0.068168972287
+follow, 3578, 0.0657774362061
+let, 5225, 0.0632015728772
+pleas, 6688, 0.0588717018966
+anyon, 554, 0.0537774611725
+good, 3948, 0.0514438078465
+look, 5341, 0.0499434536374

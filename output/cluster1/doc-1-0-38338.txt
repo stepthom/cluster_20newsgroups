@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38338
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ehgasm2@uts.mcc.ac.uk (Simon Marshall)
+Subject: How do I compensate for photographic viewpoint and distortion?
+Reply-To: S.Marshall@dcs.hull.ac.uk
+Organization: Manchester Computing Centre, Manchester, England
+Lines: 42
+
+Hi to all out there.  We have this problem, and I'm not certain I'm solving it
+in the correct way.  I was wondering if anyone can shed light on this, or point
+me in the right place to look...
+
+We have an X-ray imaging camera and a metallic tube with a cylindrical hole
+passing through it at a right angle to the tube's axis:
+
+                                                          |
+                                     ||                   [ image
+                                                          |
+  X-ray source ]                     ||                   | screen
+                            metallic || tube              |
+                                     ||                   |
+                                                          |
+
+We know source--screen centre distance, radius of the tube, radius of the hole.
+
+We do some calculations based on the image of the hole on the screen.  However,
+the calculations are mathematically highly complex, and must assume that the
+object's hole projects an image (resembling an ellipse if the tube is not
+parallel to the screen) in the centre of the screen.  However, it is unlikely
+that the object is placed so conveniently.  
+
+Firstly, we must transform the major and minor axis of the ellipse.  I cannot
+know what the angle between the tube and screen is.  Do I have to assume that
+they are parallel to do the transformation?  How do I do this transformation?
+
+Secondly, there is a distortion of the image due to the screen being planar
+(the source--screen distance increases as we move away from the centre of the
+screen).  How can I compensate the ellipse's axis for this image distortion?
+
+So, please can anyone give us a few pointers here?  How do we transform the
+image so it appears as it would if it were in the centre of the screen, and how
+do I deal with distortion due to the shape of the screen?
+
+We'd appreciate any help, either posted or emailed.
+
+Thanks in advance, Simon.
+-- 
+Simon Marshall, Dept. of Computer Science, University of Hull, Hull HU6 7RX, UK
+  "Football isn't about life and death.  It's more important than that." Bill
+Email: S.Marshall@cs.hull.ac.uk   Phone: +44 482 465951  Fax: 466666   Shankley
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ compens photograph viewpoint distort     problem
+i'm certain i'm solv correct way wonder anyon shed
+light point right place look  ray imag camera
+metal tube cylindr hole pass right angl tube axi
+imag  ray sourc screen metal tube    know sourc
+screen centr distanc radius tube radius hole
+calcul base imag hole screen howev calcul mathemat
+high complex must assum object hole project imag
+resembl ellips tube parallel screen centr screen
+howev unlik object place conveni  first must
+transform major minor axi ellips cannot know angl
+tube screen assum parallel transform transform
+second distort imag due screen planar sourc screen
+distanc increas move away centr screen compens
+ellips axi imag distort  pleas anyon give pointer
+transform imag appear centr screen deal distort
+due shape screen  we'd appreci help either post
+email  thank advanc simon  simon marshal dept
+comput scienc univers hull hull hu6 7rx footbal
+isn't life death it import bill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+screen, 7719, 0.516560626285
+tube, 9142, 0.35896457425
+distort, 2748, 0.256468186099
+imag, 4512, 0.236897540913
+transform, 9053, 0.220915806323
+centr, 1610, 0.218992396647
+ellips, 3049, 0.205536043348
+hole, 4343, 0.194428938616
+axi, 840, 0.174154914647
+hull, 4430, 0.146150505617
+compens, 1968, 0.133650875371
+simon, 7964, 0.129458224488
+metal, 5658, 0.124952513306
+radius, 7064, 0.111992209435
+sourc, 8153, 0.111789721251
+angl, 511, 0.109971325768
+parallel, 6420, 0.105658840795
+distanc, 2744, 0.0988094021035
+calcul, 1451, 0.097214469308
+ray, 7118, 0.0844026862217
+assum, 710, 0.0783580418978
+planar, 6661, 0.0746315568955
+object, 6173, 0.074360971836
+howev, 4406, 0.069609513385
+shed, 7866, 0.0694742652972
+place, 6657, 0.0691586369384
+marshal, 5521, 0.0676335482514
+viewpoint, 9513, 0.0653806926606
+right, 7399, 0.0614223681119
+pointer, 6711, 0.0577311035998
+footbal, 3589, 0.0574204331687
+conveni, 2112, 0.0574204331687
+photograph, 6604, 0.0571190378806
+camera, 1473, 0.0568263799296
+anyon, 554, 0.0542595122192
+solv, 8119, 0.0538500860218
+resembl, 7308, 0.0538500860218
+shape, 7853, 0.0522631415704
+mathemat, 5545, 0.0522631415704
+dept, 2544, 0.0522631415704
+unlik, 9290, 0.0501210292365
+complex, 1976, 0.0494047010517
+minor, 5745, 0.0464313501529
+increas, 4590, 0.0455443025755
+pass, 6448, 0.0450832182322
+death, 2423, 0.0450832182322
+know, 5052, 0.0434931879277
+email, 3060, 0.0424760809445
+appear, 580, 0.041049920356
+deal, 2418, 0.0408109508004
+light, 5267, 0.04018153503
+away, 833, 0.0400164742575
+appreci, 587, 0.0390294479559
+correct, 2156, 0.0388820585884
+import, 4551, 0.0382671242821
+advanc, 285, 0.0381757572118
+scienc, 7692, 0.0377309278912
+project, 6909, 0.037473143869
+life, 5260, 0.037180485918
+major, 5458, 0.0370576122833
+isn, 4783, 0.0369765195391
+wonder, 9821, 0.0366585092369
+certain, 1619, 0.0357247580337
+second, 7753, 0.0351358024934
+comput, 1993, 0.0350020787853
+high, 4292, 0.0341430039903
+univers, 9282, 0.0335506938439
+problem, 6887, 0.0317628481001
+base, 923, 0.0315955733942
+pleas, 6688, 0.0296997083795
+help, 4249, 0.0296605005928
+post, 6766, 0.02948592577
+point, 6710, 0.0284974855629
+thank, 8832, 0.0282733125601
+way, 9666, 0.0264098823612
+look, 5341, 0.0251955686808

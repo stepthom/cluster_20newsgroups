@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38467
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: thinman@netcom.com (Technically Sweet)
+Subject: Re: Surface intersections
+Organization: International Foundation for Internal Freedom
+Lines: 19
+
+sp1marse@lina (Marco Seirio) writes:
+
+>I have a problem with intersections between two surfaces.
+>Does anybody have a easy to understand algorithm for that or maybe
+>even C source??
+
+
+>      Marco Seirio - In real life sp1marse@caligula.his.s
+
+You also have a severe problem with news headers.
+
+FTP to cs.purdue.edu:pub/vanecek and pull proxima.tar.Z
+and proxima.ps.Z.  Tres spif.
+
+-- 
+
+Lance Norskog
+thinman@netcom.com
+Data is not information is not knowledge is not wisdom.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surfac intersect      problem intersect two
+surfac anybodi easi understand algorithm mayb even
+sourc     also sever problem news header  ftp
+purdu edu pub vanecek pull proxima tar proxima
+tres spif    lanc norskog  data inform knowledg
+wisdom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+proxima, 6954, 0.516750966583
+intersect, 4722, 0.367557873955
+surfac, 8587, 0.289717259286
+lanc, 5103, 0.221972968734
+problem, 6887, 0.208491018747
+purdu, 6989, 0.205046763377
+wisdom, 9798, 0.195102798697
+tar, 8701, 0.195102798697
+header, 4217, 0.195102798697
+pull, 6979, 0.16702758689
+pub, 6971, 0.160378364059
+knowledg, 5053, 0.147668362605
+easi, 2959, 0.14623372309
+algorithm, 407, 0.144060157351
+anybodi, 552, 0.134725634294
+ftp, 3709, 0.133941337402
+data, 2385, 0.122709389741
+sourc, 8153, 0.122297769581
+sever, 7823, 0.122297769581
+understand, 9246, 0.118806649243
+edu, 3001, 0.117483479018
+mayb, 5564, 0.115984945545
+news, 6031, 0.11444350498
+inform, 4637, 0.108908168437

@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38584
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: nahess@mir.gatech.edu (Nicholas A. Hess)
+Subject: Hitatchi Raster Format (HRF)?
+Organization: USGS Center for Spatial Analysis Technologies
+Lines: 19
+NNTP-Posting-Host: mir.gatech.edu
+Keywords: HRF
+
+ Our shop uses a package called CADCore - very good - to scan and
+subsequently vectorize original maps into digital maps. The problem is that
+once the raster file is loaded into the CADCore package, a header is added
+to the .HRF file which makes it unreadable by the supplied converter. We
+would like to be able to ship some of the already-altered raster images for
+further use on our workstations. So, here are my questions:
+
+ (1) What is the Hitachi format? - I need this format so I can recognize
+precisely what to strip out. I strongly suspect that it's a compressed
+format - if so, then t might not be possible for me to strip out the
+offending header.
+
+ (2) Are there any UNIX packages that read and recognize HRF? It would be
+really nice to find some sort of "hrftopbm" converter out there. ;)
+
+ I've already searched some of the more well-known ftp sites which contain
+graphics formats documentation, with no luck. So, if you know, or knwo
+someone who knows - please email! Thanks.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hitatchi raster format hrf      shop use packag
+call cadcor good scan subsequ vector origin map
+digit map problem raster file load cadcor packag
+header ad hrf file make unread suppli convert like
+abl ship alreadi alter raster imag use workstat
+question  hitachi format need format recogn precis
+strip strong suspect it compress format might
+possibl strip offend header  unix packag read
+recogn hrf realli nice find sort hrftopbm convert
+i'v alreadi search well known ftp site contain
+graphic format document luck know knwo someon know
+pleas email thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+format, 3612, 0.408826398081
+raster, 7104, 0.363199916851
+packag, 6375, 0.266960242744
+strip, 8451, 0.243735853924
+header, 4217, 0.240591191083
+recogn, 7173, 0.222537705612
+map, 5498, 0.18319682436
+convert, 2115, 0.164225087867
+alreadi, 443, 0.163760759565
+file, 3477, 0.141392303546
+offend, 6201, 0.135227792111
+subsequ, 8498, 0.133713749533
+shop, 7901, 0.12642680002
+vector, 9444, 0.118143056454
+alter, 449, 0.113313580427
+ship, 7888, 0.109859312888
+workstat, 9840, 0.107706773801
+scan, 7660, 0.106905485789
+compress, 1986, 0.105759565341
+luck, 5381, 0.105391443211
+suppli, 8574, 0.103981903293
+search, 7746, 0.0999752321049
+precis, 6809, 0.0991524272662
+suspect, 8603, 0.0988853616929
+digit, 2642, 0.0983614810546
+load, 5317, 0.0950282562547
+document, 2788, 0.0939583665049
+unix, 9284, 0.0935456206399
+strong, 8456, 0.0905133664757
+use, 9363, 0.0902420133144
+contain, 2079, 0.0898207501323
+know, 5052, 0.0880127086186
+ad, 257, 0.0877193505597
+email, 3060, 0.0859544934172
+site, 7994, 0.0842003278937
+nice, 6047, 0.0827047658466
+ftp, 3709, 0.0825849401339
+known, 5054, 0.0816508242724
+sort, 8144, 0.0785831794673
+abl, 180, 0.0747440365259
+origin, 6293, 0.072656717687
+imag, 4512, 0.0684836119804
+graphic, 3997, 0.0672626662711
+possibl, 6765, 0.0669824118705
+someon, 8124, 0.0667609438433
+problem, 6887, 0.0642752216595
+read, 7135, 0.0621910601538
+question, 7032, 0.0618418170265
+realli, 7150, 0.0606236216146
+pleas, 6688, 0.0601002571714
+thank, 8832, 0.0572138060832
+need, 5993, 0.0549305461313
+good, 3948, 0.0525173552291
+make, 5459, 0.0512417123165
+like, 5272, 0.0430181715209

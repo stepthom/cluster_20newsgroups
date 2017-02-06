@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38899
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rrpolder@cs.ruu.nl (Roderick Polder)
+Subject: Re: DXF to PCX,GIF,TIF or TGA?
+Organization: Utrecht University, Dept. of Computer Science
+Lines: 15
+
+In <murashiea.16@mail.beckman.com> murashiea@mail.beckman.com (Ed Murashie) writes:
+
+>Does anyone know of a program for the PC that
+>will take AutoCad DXF format files and convert
+>them to a raster format, like PCX, GIF, etc?
+>Thanks in advance....
+>				ED
+
+I'm also interested in such a program. But most of all I'd like to know 
+wich program is able to convert GIF or PCX to DXF !!! When I have this 
+program, I can scan pictures and frase (or something like that !) them.
+This will be beyond the limit !!!
+
+		****** Roderick ******
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dxf pcx gif tif tga      anyon know program take
+autocad dxf format file convert raster format like
+pcx gif etc thank advanc   i'm also interest
+program i'd like know wich program abl convert gif
+pcx dxf program scan pictur frase someth like
+beyond limit  roderick
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dxf, 2939, 0.480600278807
+pcx, 6490, 0.446563782887
+gif, 3869, 0.327827070846
+program, 6905, 0.321426464996
+convert, 2115, 0.208095707036
+format, 3612, 0.207215644014
+wich, 9744, 0.201865056312
+tif, 8925, 0.183920933293
+autocad, 800, 0.165976810274
+like, 5272, 0.163529767608
+raster, 7104, 0.153408033804
+tga, 8827, 0.148854594296
+scan, 7660, 0.135463910785
+limit, 5278, 0.113175968005
+know, 5052, 0.111524171283
+pictur, 6622, 0.109275690282
+advanc, 285, 0.0978893451825
+abl, 180, 0.0947109441661
+file, 3477, 0.0895817190846
+someth, 8126, 0.0762056821922
+thank, 8832, 0.0724977382189
+anyon, 554, 0.0695654586704

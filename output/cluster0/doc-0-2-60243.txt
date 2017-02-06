@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60243
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pyron@skndiv.dseg.ti.com (Dillon Pyron)
+Subject: Re: Space Research Spin Off
+Lines: 24
+Nntp-Posting-Host: skndiv.dseg.ti.com
+Reply-To: pyron@skndiv.dseg.ti.com
+Organization: TI/DSEG VAX Support
+
+
+In article <1psgs1$so4@access.digex.net>, prb@access.digex.com (Pat) writes:
+>|
+>|The NASA habit of acquiring second-hand military aircraft and using
+>|them for testbeds can make things kind of confusing.  On the other
+>|hand, all those second-hand Navy planes give our test pilots a chance
+>|to fold the wings--something most pilots at Edwards Air Force Base
+>|can't do.
+>|
+>
+>What do you mean?  Overstress the wings,  and they fail at teh joints?
+>
+>You'll have to enlighten us in the hinterlands.
+
+No, they fold on the dotted line.  Look at pictures of carriers with loads of
+a/c on the deck, wings all neatly folded.
+--
+Dillon Pyron                      | The opinions expressed are those of the
+TI/DSEG Lewisville VAX Support    | sender unless otherwise stated.
+(214)462-3556 (when I'm here)     |
+(214)492-4656 (when I'm home)     |God gave us weather so we wouldn't complain
+pyron@skndiv.dseg.ti.com          |about other things.
+PADI DM-54909                     |
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space research spin         nasa habit acquir
+second hand militari aircraft use testb make thing
+kind confus hand second hand navi plane give test
+pilot chanc fold wing someth pilot edward air forc
+base can't   mean overstress wing fail teh joint
+you'll enlighten hinterland  fold dot line look
+pictur carrier load deck wing neat fold  dillon
+pyron opinion express dseg lewisvill vax support
+sender unless otherwis state i'm i'm home god gave
+weather wouldn't complain  padi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fold, 3574, 0.417058234212
+wing, 9779, 0.337764296229
+pilot, 6631, 0.235019643039
+hand, 4145, 0.219828801251
+overstress, 6353, 0.149339256305
+testb, 8814, 0.146225060319
+pyron, 7003, 0.143527421052
+padi, 6378, 0.143527421052
+lewisvill, 5236, 0.143527421052
+dseg, 2890, 0.143527421052
+dillon, 2647, 0.141147934582
+second, 7753, 0.140614904266
+carrier, 1532, 0.133719053727
+teh, 8750, 0.130828089682
+deck, 2446, 0.129524264076
+enlighten, 3116, 0.128299508181
+acquir, 244, 0.125016254429
+dot, 2826, 0.123090771001
+edward, 3003, 0.121332942354
+neat, 5985, 0.120508244781
+joint, 4882, 0.118953455885
+sender, 7786, 0.11750982152
+navi, 5968, 0.11750982152
+weather, 9679, 0.113141620632
+spin, 8235, 0.112588098743
+aircraft, 359, 0.112588098743
+complain, 1973, 0.109552054828
+habit, 4109, 0.109087614026
+militari, 5715, 0.0999982651216
+plane, 6663, 0.0980461822362
+confus, 2037, 0.0972640606227
+express, 3315, 0.096511093278
+fail, 3360, 0.0960242676702
+gave, 3798, 0.0950844570503
+air, 357, 0.0950844570503
+load, 5317, 0.0939680246589
+otherwis, 6313, 0.0905764474028
+vax, 9439, 0.0881561894058
+chanc, 1649, 0.0878329459479
+pictur, 6622, 0.0852760897254
+wouldn, 9854, 0.084445741954
+forc, 3594, 0.0836481797583
+test, 8812, 0.0830067835026
+unless, 9289, 0.082263057121
+home, 4354, 0.0779016185043
+research, 7307, 0.0777064258252
+nasa, 5956, 0.0760296983915
+opinion, 6266, 0.0756752632457
+kind, 5021, 0.0720652807799
+state, 8342, 0.0716292433111
+god, 3926, 0.0712024185942
+support, 8576, 0.0695799590065
+line, 5285, 0.0669636822544
+ll, 5314, 0.0639967696798
+base, 923, 0.0632233820314
+mean, 5595, 0.0624328580533
+someth, 8126, 0.059469060094
+space, 8164, 0.0573051253639
+thing, 8869, 0.0551907593587
+make, 5459, 0.0506700078092
+look, 5341, 0.0504168430284
+use, 9363, 0.0446175909493

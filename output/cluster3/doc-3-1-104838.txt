@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104838
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jguastel@lonestar.utsa.edu (Joseph A. Guastella)
+Subject: Yanks/Royals box score
+Nntp-Posting-Host: lonestar.utsa.edu
+Organization: University of Texas at San Antonio
+Distribution: usa
+Lines: 8
+
+
+I need the box score from the April 15 game I believe the score was 5 to 4
+if anyone can provide  it for me I would appreciate it....
+-- 
+   -Joseph A. Guastella Jr.                 U.S. Long Distance, Mkt. Rep-
+  --523 Dewitt  (210)533-8318               9311 San Pedro, Suite 300   --
+ ---San Antonio, Tx 78204                   San Antonio, Tx 78216       ---
+----jguastel@lonestar.utsa.edu              (800)-460-8753 Ext 395      ----
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yank royal box score       need box score april
+game believ score anyon provid appreci  joseph
+guastella long distanc mkt rep dewitt san pedro
+suit san antonio san antonio
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+antonio, 548, 0.494370859685
+san, 7603, 0.429900374063
+score, 7705, 0.411225305134
+box, 1254, 0.258930805128
+pedro, 6502, 0.247185429842
+rep, 7284, 0.197792332403
+yank, 9932, 0.187849405291
+joseph, 4893, 0.177533533357
+royal, 7503, 0.169081419611
+suit, 8529, 0.159793744109
+distanc, 2744, 0.155123558873
+april, 595, 0.131666282343
+appreci, 587, 0.122546776701
+provid, 6949, 0.117263127015
+long, 5336, 0.0998823871732
+believ, 1009, 0.0978935852762
+game, 3761, 0.096089600659
+need, 5993, 0.085231328073
+anyon, 554, 0.0851834790915

@@ -1,0 +1,127 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84328
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: halat@pooh.bears (Jim Halat)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Reply-To: halat@pooh.bears (Jim Halat)
+Lines: 34
+
+In article <1qjd3o$nlv@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+>Firstly, science has its basis in values, not the other way round.
+>So you better explain what objective atoms are, and how we get them
+>from subjective values, before we go any further.
+
+
+Atoms are not objective.  They aren't even real.  What scientists call
+an atom is nothing more than a mathematical model that describes 
+certain physical, observable properties of our surroundings.  All
+of which is subjective.  
+
+What is objective, though, is the approach a scientist 
+takes in discussing his model and his observations.  There
+is no objective science.  But there is an objective approach
+which is subjectively selected by the scientist.  Objective
+in this case means a specified, unchanging set of rules that
+he and his colleagues use to discuss their science.
+
+This is in contrast to your Objective Morality.  There may be an
+objective approach to subjectively discuss your beliefs on
+morality.  But there exists no objective morality.
+
+Also, science deals with how we can discuss our observations of 
+the physical world around us.  In that the method of discussion
+is objective ( not the science; not the discussion itself ).
+
+Science makes no claims to know the whys or even the hows sometimes
+of what we can observe.  It simply gives us a way to discuss our
+surroundings in a meaningful, consistent way.
+
+I think it was Neils Bohr who said (to paraphrase) Science is what
+we can _say_ about the physical world.
+
+-jim halat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral     first scienc basi
+valu way round better explain object atom get
+subject valu   atom object aren't even real
+scientist call atom noth mathemat model describ
+certain physic observ properti surround subject
+object though approach scientist take discuss
+model observ object scienc object approach subject
+select scientist object case mean specifi unchang
+set rule colleagu use discuss scienc  contrast
+object moral object approach subject discuss
+belief moral exist object moral  also scienc deal
+discuss observ physic world around method discuss
+object scienc discuss  scienc make claim know whys
+even how sometim observ simpli give way discuss
+surround meaning consist way  think neil bohr said
+paraphras scienc say physic world  jim halat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+object, 6173, 0.478047731811
+discuss, 2708, 0.349510068833
+scienc, 7692, 0.339587523845
+subject, 8487, 0.280375558811
+moral, 5855, 0.232798400465
+observ, 6179, 0.216006284326
+atom, 756, 0.20855059582
+scientist, 7694, 0.196926461945
+approach, 589, 0.185566623303
+physic, 6613, 0.169310316681
+surround, 8595, 0.145397556784
+model, 5807, 0.108871511557
+valu, 9414, 0.106189197794
+way, 9666, 0.101869440771
+halat, 4123, 0.0959574508363
+bohr, 1201, 0.093956434388
+colleagu, 1897, 0.0922230750977
+world, 9841, 0.0869499142068
+meaning, 5596, 0.0849587516604
+neil, 6002, 0.08322539237
+paraphras, 6424, 0.0803287855111
+contrast, 2101, 0.0779620853809
+specifi, 8204, 0.0723431147121
+round, 7494, 0.0719969365369
+properti, 6925, 0.0710105701461
+mathemat, 5545, 0.0671972828438
+say, 7653, 0.0659135610152
+basi, 936, 0.061855541101
+select, 7774, 0.0606610518513
+belief, 1008, 0.0603788469925
+jim, 4868, 0.0593076488251
+consist, 2061, 0.0591797570295
+method, 5666, 0.0584377886751
+sometim, 8128, 0.0570701130667
+aren, 623, 0.0566444712539
+describ, 2556, 0.0559316146233
+rule, 7537, 0.0541735062077
+simpli, 7967, 0.053174481686
+explain, 3301, 0.0524726398311
+deal, 2418, 0.0524726398311
+claim, 1782, 0.0505695929969
+noth, 6119, 0.0472346614593
+exist, 3283, 0.0465434990885
+set, 7815, 0.0464955104488
+christian, 1732, 0.0460714138908
+certain, 1619, 0.0459330724864
+case, 1540, 0.0451326257289
+real, 7144, 0.0445013386684
+said, 7583, 0.043211948437
+mean, 5595, 0.0401160288022
+better, 1060, 0.0388336091803
+year, 9943, 0.0326234910248
+make, 5459, 0.0325578478394
+think, 8871, 0.0297301750551
+use, 9363, 0.028668887176
+know, 5052, 0.027960661789

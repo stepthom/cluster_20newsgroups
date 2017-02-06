@@ -1,0 +1,2077 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61253
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: klaes@verga.enet.dec.com (Larry Klaes)
+Subject: Electronic Journal of the ASA (EJASA) - April 1993
+Keywords: Venus, Venera, Soviet, probes
+Organization: Digital Equipment Corporation
+Lines: 663
+
+                          THE ELECTRONIC JOURNAL OF
+                  THE ASTRONOMICAL SOCIETY OF THE ATLANTIC
+
+                       Volume 4, Number 9 - April 1993
+
+                         ###########################
+
+                              TABLE OF CONTENTS
+
+                         ###########################
+
+          * ASA Membership and Article Submission Information
+
+          * The Soviets and Venus, Part 3 - Larry Klaes
+
+                         ###########################
+
+                         ASA MEMBERSHIP INFORMATION
+
+        The Electronic Journal of the Astronomical Society of the Atlantic
+    (EJASA) is published monthly by the Astronomical Society of the
+    Atlantic, Incorporated.  The ASA is a non-profit organization dedicated
+    to the advancement of amateur and professional astronomy and space
+    exploration, as well as the social and educational needs of its members.
+
+        ASA membership application is open to all with an interest in
+    astronomy and space exploration.  Members receive the Journal of the
+    ASA (hardcopy sent through United States Mail - Not a duplicate of this
+    Electronic Journal) and the Astronomical League's REFLECTOR magazine.
+    Members may also purchase discount subscriptions to ASTRONOMY and
+    SKY & TELESCOPE magazines.
+
+        For information on membership, you may contact the Society at any
+    of the following addresses:
+
+        Astronomical Society of the Atlantic (ASA)
+        c/o Center for High Angular Resolution Astronomy (CHARA)
+        Georgia State University (GSU)
+        Atlanta, Georgia  30303
+        U.S.A.
+
+        asa@chara.gsu.edu
+
+        ASA BBS: (404) 321-5904, 300/1200/2400 Baud
+
+        or telephone the Society Recording at (404) 264-0451 to leave your
+    address and/or receive the latest Society news.
+
+        ASA Officers and Council -
+
+        President - Eric Greene
+        Vice President - Jeff Elledge
+        Secretary - Ingrid Siegert-Tanghe
+        Treasurer - Mike Burkhead
+        Directors - Becky Long, Tano Scigliano, Bob Vickers
+        Council - Bill Bagnuolo, Michele Bagnuolo, Don Barry, Bill Black, 
+                  Mike Burkhead, Jeff Elledge, Frank Guyton, Larry Klaes, 
+                  Ken Poshedly, Jim Rouse, Tano Scigliano, John Stauter, 
+                  Wess Stuckey, Harry Taylor, Gary Thompson, Cindy Weaver, 
+                  Bob Vickers
+
+
+                             ARTICLE SUBMISSIONS
+
+        Article submissions to the EJASA on astronomy and space exploration
+    are most welcome.  Please send your on-line articles in ASCII format to
+    Larry Klaes, EJASA Editor, at the following net addresses or the above
+    Society addresses:
+
+        klaes@verga.enet.dec.com
+        or - ...!decwrl!verga.enet.dec.com!klaes
+        or - klaes%verga.dec@decwrl.enet.dec.com
+        or - klaes%verga.enet.dec.com@uunet.uu.net
+
+        You may also use the above addresses for EJASA back issue requests,
+    letters to the editor, and ASA membership information.
+
+        When sending your article submissions, please be certain to include
+    either a network or regular mail address where you can be reached, a
+    telephone number, and a brief biographical sketch.
+
+        Back issues of the EJASA are also available from the ASA anonymous 
+    FTP site at chara.gsu.edu (131.96.5.29).  Directory: /pub/ejasa
+
+                                DISCLAIMER
+
+        Submissions are welcome for consideration.  Articles submitted,
+    unless otherwise stated, become the property of the Astronomical
+    Society of the Atlantic, Incorporated.  Though the articles will not
+    be used for profit, they are subject to editing, abridgment, and other
+    changes.  Copying or reprinting of the EJASA, in part or in whole, is
+    encouraged, provided clear attribution is made to the Astronomical
+    Society of the Atlantic, the Electronic Journal, and the author(s).
+    Opinions expressed in the EJASA are those of the authors' and not
+    necessarily those of the ASA.  This Journal is Copyright (c) 1993
+    by the Astronomical Society of the Atlantic, Incorporated.
+
+
+                             THE SOVIETS AND VENUS
+                                     PART 3
+
+                       Copyright (c) 1993 by Larry Klaes
+
+	The author gives permission to any group or individual wishing
+	to distribute this article, so long as proper credit is given,
+        the author is notified, and the article is reproduced in its 
+        entirety.
+
+        To the North Pole!
+
+        On June 2 and 7, 1983, two of the Soviet Union's mighty PROTON 
+    rockets lifted off from the Tyuratam Space Center in the Kazakhstan 
+    Republic.  Aboard those boosters were a new breed of VENERA probe 
+    for the planet Venus. 
+
+        Designated VENERA 15 and 16, the probes were meant not for landing
+    yet more spherical craft on the Venerean surface but to radar map the
+    planet in detail from orbit.  To accomplish this task, the basic
+    VENERA design was modified in numerous areas.  The central bus core
+    was made one meter (39.37 inches) longer to carry the two tons of
+    propellant required for braking into orbit, double the fuel carried by
+    the VENERA 9 and 10 orbiters eight years earlier.  Extra solar panels
+    were added on to give the vehicles more power for handling the large
+    amounts of data which would be created by the radar imaging.  The
+    dish-shaped communications antennae were also made one meter larger 
+    to properly transmit this information to Earth. 
+
+        Atop the buses, where landers were usually placed, were installed
+    the 1.4 by 6-meter (4.62 by 19.8-foot), 300-kilogram (660-pound)
+    POLYUS V side-looking radar antennae.  The radar system, possibly a
+    terrain-imaging version of the nuclear-powered satellites used by 
+    the Soviets for Earth ocean surveillance, would be able to map Venus'
+    surface at a resolution of one to two kilometers (0.62 to 1.2 miles). 
+
+        The Soviet probes' imaging parameters were a vast improvement over
+    the United States PIONEER VENUS Orbiter, which could reveal objects 
+    no smaller than 75 kilometers (45 miles) in diameter.  And while the
+    VENERAs' resolution was comparable to that of similar observations 
+    made by the 300-meter (1,000-foot) Arecibo radio telescope on the 
+    island of Puerto Rico, the orbiters would be examining the northern
+    pole of Venus.  This region was unobtainable by either Arecibo or 
+    PIONEER VENUS and appeared to contain a number of potentially 
+    interesting geological features worthy of investigation.
+
+        On October 10, 1983, after an interplanetary journey of 330 
+    million kilometers (198 million miles) and two mid-course corrections, 
+    VENERA 15 fired its braking rockets over Venus to place itself in a 
+    polar orbit 1,000 by 65,000 kilometers (600 by 39,000 miles) around 
+    the planet, completing one revolution every twenty-four hours.  VENERA 
+    16 followed suit four days later.  The twin probes thus became Venus' 
+    first polar-circling spacecraft.
+
+        Radar operations began on October 16 for VENERA 15 and October 20 
+    for VENERA 16.  For up to sixteen minutes every orbit over the north
+    pole, the probes would make a radar sweep of the surface 150 kilometers 
+    (ninety miles) wide and nine thousand kilometers (5,400 miles) long.  
+    The craft would then head out to the highest part of their orbits over 
+    the south pole to recharge their batteries and transmit the data back 
+    to two large Soviet antennae on Earth.  Each strip of information took 
+    eight hours to process by computer.  By the end of their main missions 
+    in July of 1984, the VENERAs had mapped 115 million square kilometers 
+    (46 million square miles), thirty percent of the entire planet.
+
+        VENERA 15 and 16 revealed that Venus has a surface geology more
+    complex than shown by PIONEER VENUS in the late 1970s.  Numerous hills, 
+    mountains, ridges, valleys, and plains spread across the landscape, 
+    many of them apparently formed by lava from erupting volcanoes in the 
+    last one billion years.  In planetary terms this makes the Venerean 
+    surface rather young.  Hundreds of craters were detected as well, the 
+    largest of which had to have been created by meteorites (planetoids 
+    would be a better term here) at least fourteen kilometers (8.4 miles) 
+    across, due to Venus' very dense atmosphere.
+
+        There were some disagreements between U.S. and Soviet scientists
+    on the origins of certain surface features.  For example, the probes' 
+    owners declared that the 96-kilometer (57.6-mile) wide crater at the 
+    summit of 10,800-meter (35,640-foot) high Maxwell Montes, the tallest 
+    mountain on the planet, was the result of a meteorite impact.  American 
+    scientists, on the other hand, felt the crater was proof that Maxwell 
+    was a huge volcano sitting on the northern "continent" of Ishtar Terra.  
+
+        In any event, the U.S. decided to wait on making verdicts about
+    Venus until the arrival of their own radar probe, scheduled for later
+    in the decade.  Originally named the Venus Orbiting Imaging Radar
+    (VOIR), its initial design was scaled back and the craft was redesig-
+    nated the Venus Radar Mapper (VRM).  Eventually the machine would be 
+    called MAGELLAN, after the Portuguese navigator Ferdinand Magellan 
+    (circa 1480-1521).  This vehicle would map the entire planet in even 
+    finer detail than the VENERAs.  For the time, however, the Soviet 
+    probes maintained that distinction.
+
+        Radar imaging was not the only ability of the VENERAs.  Bolted
+    next to the POLYUS V radar antenna were the Omega altimeter and the 
+    Fourier infrared spectrometer, the latter for measuring the world's
+    temperatures.  The majority of the areas covered registered about
+    five hundred degrees Celsius (932 degrees Fahrenheit), but a few
+    locations were two hundred degrees hotter, possibly indicating 
+    current volcanic activity.  The probes also found that the clouds 
+    over the poles were five to eight kilometers (three to 4.8 miles) 
+    lower than at the equator.  In contrast, the polar air above sixty 
+    kilometers (thirty-six miles) altitude was five to twenty degrees 
+    warmer than the equatorial atmosphere at similar heights.
+
+        When the main mapping mission ended in July of 1984, there were 
+    plans for at least one of the VENERAs to radar image the surface at 
+    more southernly latitudes.  Unfortunately this idea did not come to 
+    pass, as the orbiters may not have possessed enough attitude-control
+    gas to perform the operation.  
+
+        VENERA 15 and 16 ceased transmission in March of 1985, leaving 
+    the Soviet Institute of Radiotechnology and Electronics with six 
+    hundred kilometers (360 miles) of radar data tape to sort into an 
+    atlas of twenty-seven maps of the northern hemisphere of Venus.
+
+        Venus by Balloon
+
+        For years the thick atmosphere of Venus had been a tempting 
+    target to scientists who wished to explore the planet's mantle of 
+    air with balloon-borne instruments.  Professor Jacques Blamont of 
+    the French space agency Centre National d'Etudes Spatiales (CNES)
+    had proposed such an idea as far back as 1967, only to have a joint 
+    French-Soviet balloon mission canceled in 1982.  Nevertheless, 
+    late in the year 1984, such dreams would eventually come true.
+
+        When two PROTON rockets were sent skyward on December 15 and 21, 
+    the Soviet Union provided Western observers with the first clear, full 
+    views of the booster which had been launching every Soviet Venus probe 
+    since 1975.  This was but one of many firsts for the complex mission.
+
+        The unmanned probes launched into space that December were named
+    VEGA 1 and 2, a contraction of the words VENERA and GALLEI - Gallei
+    being the Russian word for Halley.  Not only did the spacecraft 
+    have more than one mission to perform, they also had more than one 
+    celestial objective to explore, namely the comet Halley.  
+
+        This famous periodic traveler was making its latest return to 
+    the inner regions of the solar system since its last visit in 1910.
+    Since it was widely believed that comets are the icy remains from
+    the formation of the solar system five billion years ago, scientists 
+    around the world gave high priority to exploring one of the few such 
+    bodies which actually come close to Earth.  
+
+        Most comets linger in the cold and dark outer fringes of the solar 
+    system.  Some, like Halley, are perturbed by various forces and fall 
+    in towards the Sun, where they circle for millennia spewing out ice 
+    and debris for millions of kilometers from the warmth of each solar 
+    encounter.
+
+        The Soviet Union, along with the European Space Agency (ESA) and
+    Japan's Institute of Space and Astronautical Science (ISAS), did not
+    wish to miss out on this first opportunity in human history to make a
+    close examination of Halley.  The ESA would be using the cylindrical
+    GIOTTO probe to make a dangerously close photographic flyby of the 
+    comet, while Japan's first deep space craft - SAKIGAKE (Pioneer) and 
+    SUISEI (Comet) - would view Halley from a much safer distance. 
+
+        Scientists in the United States also desired to study the comet
+    from the vantage of a space probe, at one time envisioning a vessel
+    powered by solar sails or ion engines.  However, government budget
+    cuts to NASA canceled the American efforts.  The U.S. would have to
+    make do primarily with Earth-based observations and the sharing of 
+    data from other nations, though an instrument named the Dust Counter 
+    and Mass Analyzer (DUCMA), designed by Chicago University Professor 
+    John Simpson, was added on the Soviet mission in May of 1984.
+
+        The Soviets' answer to Halley were the VEGAs.  Instead of building
+    an entirely new craft for the mission, the Soviets decided to modify
+    their VENERA bus design to encounter the comet while performing an 
+    advanced Venus mission along the way.  As VEGA 1 and 2 reached Venus,
+    the buses would drop off one lander/balloon each and use the mass of 
+    the shrouded planet to swing them towards comet Halley, much as the 
+    U.S. probe MARINER 10 used Venus to flyby Mercury eleven years earlier. 
+    The Soviet craft would then head on to Halley, helping to pinpoint the 
+    location of the comet's erupting nucleus for the GIOTTO probe to dive 
+    in only 605 kilometers (363 miles) away in March of 1986.
+
+        As planned, the two VEGAs arrived at Venus in June of 1985.  VEGA
+    1 released its payload first on the ninth day of the month, the lander
+    making a two-day descent towards the planet.  The craft touched the
+    upper atmosphere on the morning of June 11.  Sixty-one kilometers
+    (36.6 miles) above the Venerean surface a small container was released
+    by the lander, which produced a parachute at 55 kilometers (33 miles)
+    altitude.  Thus the first balloon probe ever to explore Venus had
+    successfully arrived. 
+
+        One kilometer after the opening of the parachute, helium gas was
+    pumped into the Teflon-coated plastic balloon, inflating it to a
+    diameter of 3.54 meters (11.68 feet).  Dangling on a tether thirteen
+    meters (42.9 feet) below was the instrument package, properly known as
+    an aerostat.  The top part of the 6.9-kilogram (15.18-pound) aerostat
+    consisted of a cone which served as an antenna and tether attachment
+    point to the balloon.  Beneath it was the transmitter, electronics,
+    and instruments.  Connected at the bottom was a nephelometer for
+    measuring cloud particles.  The aerostat was painted with a special
+    white finish to keep at bay the corroding mist of sulfuric acid which
+    permeated the planet's atmosphere. 
+
+        The VEGA 1 balloon was dropped into the night side of Venus just
+    north of the equator.  Scientists were concerned that the gas bag 
+    would burst in the heat of daylight, so they placed it in the darkened 
+    hemisphere to give the craft as much time as possible to return data.  
+    This action necessitated that the landers come down in the dark as 
+    well, effectively removing the camera systems used on previous missions.  
+    The author wonders, though, if they could have used floodlights similar 
+    to the ones attached to VENERA 9 and 10 in 1975, when Soviet scientists 
+    had thought the planet's surface was enshrouded in a perpetual twilight 
+    due to the permanently thick cloud cover.
+
+        The first balloon transmitted for 46.5 hours right into the day
+    hemisphere before its lithium batteries failed, covering 11,600
+    kilometers (6,960 miles).  The threat of bursting in the day heat did
+    not materialize.  The VEGA 1 balloon was stationed at a 54-kilometer
+    (32.4-mile) altitude after dropping ballast at fifty kilometers
+    (thirty miles), for this was considered the most active of the three
+    main cloud layers reported by PIONEER VENUS in 1978.  Indeed the
+    balloon was pushed across the planet at speeds up to 250 kilometers
+    (150 miles) per hour.  Strong vertical winds bobbed the craft up and
+    down two to three hundred meters (660 to 990 feet) through most of the
+    journey.  The layer's air temperature averaged forty degrees Celsius
+    (104 degrees Fahrenheit) and pressure was a mere 0.5 Earth atmosphere.
+    The nephelometer could find no clear regions in the surrounding clouds. 
+
+        Early in the first balloon's flight, the VEGA 1 lander was already
+    headed towards the Venerean surface.  Both landers were equipped with
+    a soil drill and analyzer similar to the ones carried on VENERA 13 
+    and 14 in 1982.  However, VEGA 1 would become unable to report the
+    composition of the ground at its landing site in Rusalka Planitia, the
+    Mermaid Plain north of Aphrodite Terra.  While still ten to fifteen
+    minutes away from landing, a timer malfunction caused the drill to 
+    accidentally begin its programmed activity sixteen kilometers (9.6 
+    miles) above the surface. 
+
+        There was neither any way to shut off the instrument before
+    touchdown nor reactivate it after landing.  This was unfortunate not
+    only for the general loss of data but also for the fact that most of
+    Venus was covered with such smooth low-level lava plains and had never 
+    before been directly examined.  Nevertheless, the surface temperature 
+    and pressure was calculated at 468 degrees Celsius (874.4 degrees 
+    Fahrenheit) and 95 Earth atmospheres respectively during the lander's 
+    56 minutes of ground transmissions.  A large amount of background 
+    infrared radiation was also recorded at the site.
+
+        As had been done when the drills and cameras on VENERA 11 and 
+    12 had failed in December of 1978, the Soviets focused on the data
+    returned during the lander's plunge through the atmosphere.  The
+    French-Soviet Malachite mass spectrometer detected sulfur, chlorine, 
+    and possibly phosphorus.  It is the sulfur - possibly from active 
+    volcanoes - which gives the Venerean clouds their yellowish color.
+    The Sigma 3 gas chromatograph found that every cubic meter of air
+    between an altitude of 48 and 63 kilometers (28.8 and 37.8 miles)
+    contained one milligram (0.015 grain) of sulfuric acid.
+
+        The VEGA 1 data on the overall structure of the cloud decks 
+    appeared to be at odds with the information from PIONEER VENUS.
+    The case was made even stronger by the fact that VEGA 2's results
+    nearly matched its twin.  The VEGAs found only two main cloud layers 
+    instead of the three reported by the U.S. probes.  The layers were 
+    three to five kilometers (1.8 to 3 miles) thick at altitudes of 50 
+    and 58 kilometers (30 and 34.8 miles).  The clouds persisted like a
+    thin fog until clearing at an altitude of 35 kilometers (21 miles), 
+    much lower than the PV readings.  One possibility for the discrepan-
+    cies may have been radical structural changes in the Venerean air 
+    over the last seven years.
+
+        When the lander and balloon finally went silent, the last 
+    functioning part of the VEGA 1 mission, the flyby bus, sailed on
+    for a 708 million-kilometer (424.8 million-mile) journey around
+    the Sun to become the first probe to meet comet Halley.  On March
+    6, 1986, the bus made a 8,890-kilometer (5,334-mile) pass at the 
+    dark and icy visitor before traveling on in interplanetary space.
+    The Soviets had accomplished their first mission to two celestial
+    bodies with one space vessel.
+
+        On June 13, VEGA 2 released its lander/balloon payload for
+    a two-day fall towards Venus.  Like its duplicate, the VEGA 2
+    balloon radioed information back to the twenty antennae tracking
+    it on Earth for 46.5 hours before battery failure on the morning
+    side of the planet.  During its 11,100-kilometer (6,660-mile)
+    flight over Venus, the second balloon entered in a rather still
+    environment which became less so twenty hours into the mission.
+    After 33 hours mission time the air became even more turbulent 
+    for a further eight hours.  When the balloon passed over a five-
+    kilometer (three-mile) mountain on the "continent" of Aphrodite 
+    Terra, a powerful downdraft pulled the craft 2.5 kilometers (1.5 
+    miles) towards the surface.
+
+        Temperature sensors on the VEGA 2 balloon reported that the air 
+    layer it was moving through was consistently 6.5 degrees Celsius 
+    (43.7 degrees Fahrenheit) cooler than the area explored by the VEGA 1
+    balloon.  This was corroborated by the VEGA 2 lander as it passed 
+    through the balloon's level.  No positive indications of lightning
+    were made by either balloon, and the second aerostat's nephelometer 
+    failed to function.
+
+        The VEGA 2 lander touched down on the northern edge of Aphrodite
+    Terra's western arm on the fifteenth of June, 1,500 kilometers (900
+    miles) southeast of VEGA 1.  The lander's resting place was smoother
+    than thought, indicating either a very ancient and worn surface or a
+    relatively young one covered in fresh lava.  The soil drill was in
+    working order and reported a rock type known as anorthosite-troctolite, 
+    rare on Earth but present in Luna's highlands.  This rock is rich in 
+    aluminum and silicon but lacking in iron and magnesium.  A high degree 
+    of sulfur was also present in the soil.  The air around VEGA 2 measured 
+    463 degrees Celsius (865.4 degrees Fahrenheit) and 91 Earth atmospheres,
+    essentially a typical day (or night) on Venus.
+
+        Far above the VEGA 2 lander, its carrier bus sped past Venus at
+    a distance of 24,500 kilometers (14,700 miles) and followed its twin 
+    to comet Halley, making a closer flyby on March 9, 1986 at just 8,030 
+    kilometers (4,818 miles).  Both probes helped to reveal that the comet 
+    is a very dark and irregular-shaped mass about fourteen kilometers 
+    (8.4 miles) across, rotating once every 53 hours, give or take three 
+    hours.
+
+        Since both VEGA craft were still functioning after their Halley
+    encounters, Soviet scientists considered an option to send the 
+    probes to other celestial objects.  One prime target was the near-
+    Earth planetoid 2101 Adonis, which VEGA 2 could pass at a distance 
+    of six million kilometers (3.6 million miles).  Sadly, the Soviets 
+    had to back out on the opportunity to become the first nation to fly 
+    a spacecraft past a planetoid when it was discovered that there was 
+    not enough maneuvering fuel in the probe to reach Adonis as planned.  
+    VEGA 1 and 2 were quietly shut down in early 1987.
+
+        Future Plans Diverted
+
+        The impressive VEGA mission had given some scientists numerous 
+    ideas and hope for even more ambitious expeditions to the second 
+    world from the Sun.  One example was the VESTA mission, planned for
+    the early 1990s.
+
+        This Soviet-French collaboration called for the launch of multiple 
+    probes on a single PROTON rocket in either 1991 or 1992.  The craft 
+    would first swing by Venus and drop off several landers and balloon 
+    probes.  The aerostats would be designed to survive in the planet's 
+    corrosive atmosphere for up to one month, a large improvement over 
+    the VEGA balloons' two days.  The mission would then head out to 
+    investigate several planetoids and comets, including a possible 
+    landing on Vesta (thus the mission name), the most reflective Main 
+    Belt planetoid as seen from Earth.
+
+        Unfortunately for Venus exploration, plans began to change in
+    the Soviet Union.  In 1986 the Soviets decided to reroute the VESTA
+    mission to the red planet Mars instead of Venus, keeping the comet
+    and planetoid aspects intact.  By this time in the Soviet space 
+    program interest was focusing on Mars.  Already under construction 
+    was an entirely new probe design called PHOBOS.  Two members of this 
+    class were planned to leave Earth in 1988 and orbit Mars the next 
+    year.  PHOBOS 1 and 2 would then place the first instruments on
+    Mars' largest moon, Phobos. 
+
+        All this was a prelude to even more advanced Mars expeditions,
+    including balloon probes, rovers, soil sample return craft, and 
+    eventually human explorers in the early Twenty-First Century.
+    The environment of Venus was just too hostile for any serious
+    consideration of human colonization in the near future.
+
+        But things began to look bleak for Soviet Venus and Mars
+    exploration.  Both PHOBOS probes failed to complete their missions,
+    one losing contact on the way to the Red Planet in 1988 and the other
+    going silent in Mars orbit just one week before the planned moon
+    landing in March of 1989. 
+
+        In 1989 a plan was devised for a Venus orbiter to drop eight to
+    ten penetrators around the planet in 1998.  Several years later the
+    mission launch date was moved to the year 2005 and has now been put 
+    on indefinite hold.  No other official Soviet missions to Venus have
+    since been put forth, a sad commentary after twenty-five years of
+    continuous robotic exploration of the planet. 
+
+        During the late 1980s a drastic political and economic change
+    was taking over the Soviet Union.  President Mikhail Gorbachev began 
+    to "open up" his nation to the benefits of increased cooperation with 
+    the rest of the nations, particularly those in the West.  While the 
+    culture became less oppressive than in the past, the economy was taking 
+    a very rough ride as it also underwent the effects of a "free market".
+
+        These effects hit everywhere, including the space program.
+    Missions at all levels were cut back.  The Soviets began making
+    almost desperate attempts to cooperate with other space-faring
+    nations either to keep their remaining programs alive or just to 
+    make money.  
+
+        In early 1992 it was reported that the Soviets were offering for 
+    sale several fully-equipped VENERAs they had in storage for the price 
+    of 1.6 million dollars each, an incredibly low price for any planetary 
+    probe.  No nation took them up on the bargain.  Meanwhile the United 
+    States was gearing up for new Venus missions of their own.
+
+        MAGELLAN and GALILEO 
+
+        The U.S. reactivated their long-dormant planetary exploration
+    with the launch of the Space Shuttle ATLANTIS on May 4, 1989.
+    Aboard the Shuttle was the MAGELLAN spacecraft, a combination of
+    spare parts from other U.S. probes designed to make the most 
+    detailed and complete radar-mapping of Venus in history.  When
+    MAGELLAN reached the second world in August of 1990, it would be
+    able to map almost the entire planet down to a resolution of 108
+    meters (360 feet), surpassing the abilities of VENERA 15 and 16.
+
+        In the interim another American probe was launched from a Space 
+    Shuttle which would make a quick flyby of Venus on its way to orbit 
+    the giant planet Jupiter in 1995.  On October 18, 1989, the Shuttle 
+    ATLANTIS released its second unmanned planetary probe into space, 
+    named GALILEO after the famous Italian astronomer who discovered the 
+    probe's primary target's major moons in 1610.
+
+        In the absence of a powerful enough booster to send GALILEO on
+    a direct flight to the Jovian planet, the probe was sent around
+    Venus and Earth several times to build up enough speed to reach
+    Jupiter.  As a result, Venus became GALILEO's first planetary
+    goal in February of 1990.  The probe radioed back images of the
+    planet's swirling clouds and further indications of lightning in
+    that violent atmosphere.
+
+        On the Drawing Boards
+
+        With the incredible success of MAGELLAN in the last few years,
+    new plans have been laid out for further journeys to Venus.  Scien-
+    tists in the U.S. have talked to space scientists in the former Soviet 
+    Union - now the Commonwealth of Independent States since January 1, 
+    1992 - of a cooperative effort to launch new VENERA lander missions 
+    within in the next decade.  Japan, India, and the ESA have also
+    considered their own Venus missions in the next few decades.
+
+        In February of 1993 NASA came up with several new Venus projects 
+    as part of their Discovery Program for launching inexpensive probes
+    throughout the solar system.  For Venus two missions were selected
+    for further study:  A Venus Multiprobe Mission involving the landing
+    of fourteen small probes over one hemisphere to measure winds, air
+    temperature, and pressure; and the Venus Composition Probe, designed
+    to study Venus' atmosphere while descending through the thick air
+    with the aid of a parachute, much as the Soviets had done since 1967.
+    Final project decisions will be made in 1994.
+
+        Humans on Venus      
+
+        Will a human ever be able to stand on the surface of Venus?
+    At present the lead-melting temperatures and crushing air pressure
+    would be threatening to any Earth life not protected in something
+    even tougher than a VENERA lander.  Plans have been looked into
+    changing the environment of Venus itself into something more like
+    Earth's.  However, it should be noted that any such undertaking
+    will require the removal of much of the thick carbon dioxide 
+    atmosphere, a major reduction in surface heat, and the ability 
+    to speed up the planet's rotation rate to something a bit faster
+    than once every 243 Earth days.  Such a project may take centuries
+    if not millennia.
+
+        In the meantime efforts should be made to better understand
+    Venus as its exists today.  We still have yet to fully know how
+    a world so seemingly similar to Earth in many important ways became
+    instead such a deadly place.  Will Earth ever suffer this fate?
+    Perhaps Venus holds the answers.  Such answers may best be found
+    through international cooperation, including the nation which 
+    made the first attempts to lift the cloudy veils from Venus.
+
+        Bibliography -
+
+         Barsukov, V. L., Senior Editor, VENUS GEOLOGY, GEOCHEMISTRY, AND 
+           GEOPHYSICS: RESEARCH RESULTS FROM THE U.S.S.R., University of
+           Arizona Press, Tucson, 1992
+
+         Beatty, J. Kelly, and Andrew Chaikin, Editors, THE NEW SOLAR 
+           SYSTEM, Cambridge University Press and Sky Publishing Corp.,
+           Cambridge, Massachusetts, 1990
+
+         Burgess, Eric, VENUS: AN ERRANT TWIN, Columbia University Press, 
+           New York, 1985
+
+         Burrows, William E., EXPLORING SPACE: VOYAGES IN THE SOLAR
+           SYSTEM AND BEYOND, Random House, Inc., New York, 1990
+
+         Chaisson, Eric, and Steve McMillan, ASTRONOMY TODAY, Prentice-
+           Hall, Inc., Englewood Cliffs, New Jersey, 1993
+
+         Gatland, Kenneth, THE ILLUSTRATED ENCYCLOPEDIA OF SPACE TECHNOLOGY, 
+           Salamander Books, New York, 1989
+
+         Greeley, Ronald, PLANETARY LANDSCAPES, Allen and Unwin, Inc.,
+           Winchester, Massachusetts, 1987
+
+         Hart, Douglas, THE ENCYCLOPEDIA OF SOVIET SPACECRAFT, Exeter 
+           Books, New York, 1987
+
+         Hartmann, William K., MOONS AND PLANETS (Third Edition), Wadsworth
+           Publishing Company, Belmont, California, 1993
+
+         Harvey, Brian, RACE INTO SPACE: THE SOVIET SPACE PROGRAMME, 
+           Ellis Howood Limited, Chichester, England, 1988
+
+         Henbest, Nigel, THE PLANETS: PORTRAITS OF NEW WORLDS, Viking
+           Penguin Books Ltd., Harmondsworth, Middlesex, England, 1992
+
+         Johnson, Nicholas L., SOVIET SPACE PROGRAMS 1980-1985, Volume
+           66 Science and Technology Series, American Astronautical 
+           Society, Univelt, Inc., San Diego, California, 1987
+
+         Johnson, Nicholas L., THE SOVIET YEAR IN SPACE 1989/1990, 
+           Teledyne Brown Engineering, Colorado Springs, Colorado,
+           1990/1991
+
+         Lang, Kenneth R., and Charles A. Whitney, WANDERERS IN SPACE:
+           EXPLORATION AND DISCOVERY IN THE SOLAR SYSTEM, Cambridge 
+           University Press, New York, 1991
+
+         MAGELLAN: THE UNVEILING OF VENUS, JPL 400-345, March 1989
+
+         Murray, Bruce, Michael C. Malin, and Ronald Greeley, EARTHLIKE
+           PLANETS: SURFACES OF MERCURY, VENUS, EARTH, MOON, MARS, W. H.
+           Freeman and Company, San Francisco, California, 1981
+
+         Murray, Bruce, JOURNEY INTO SPACE: THE FIRST THREE DECADES OF
+           SPACE EXPLORATION, W. W. Norton and Company, New York, 1989
+
+         Newcott, William, "Venus Revealed", NATIONAL GEOGRAPHIC MAGAZINE, 
+           Volume 183, Number 2, Washington, D.C., February 1993
+
+         Nicks, Oran W., FAR TRAVELERS: THE EXPLORING MACHINES, NASA 
+           SP-480, Washington, D.C., 1985
+
+         Oberg, James Edward, NEW EARTHS: RESTRUCTURING EARTH AND OTHER
+           PLANETS, A Meridian Book, New American Library, Inc., New
+           York, 1983
+
+         Robertson, Donald F., "Venus - A Prime Soviet Objective" (Parts 
+           1/2), SPACEFLIGHT, Volume 34, Numbers 5/6, British Interplanetary
+           Society (BIS), London, England, May/June 1992
+
+         Smith, Arthur, PLANETARY EXPLORATION: THIRTY YEARS OF UNMANNED
+           SPACE PROBES, Patrick Stephens, Ltd., Wellingborough, Northamp-
+           tonshire, England, 1988
+
+         VOYAGE THROUGH THE UNIVERSE: THE NEAR PLANETS, By the Editors
+           of Time-Life Books, Inc., Alexandria, Virginia, 1990
+
+         Wilson, Andrew, JANE'S SOLAR SYSTEM LOG, Jane's Publishing, Inc.,
+           New York, 1987
+
+        About the Author -
+
+        Larry Klaes, EJASA Editor, is the recipient of the ASA's 1990 
+    Meritorious Service Award for his work as Editor of the EJASA since 
+    its founding in August of 1989.  Larry also teaches a course on
+    Basic Astronomy at the Concord-Carlisle Adult and Community 
+    Education Program in Massachusetts.
+
+        Larry is the author of the following EJASA articles:
+
+        "The One Dream Man: Robert H. Goddard, Rocket Pioneer" - August 1989
+        "Stopping Space and Light Pollution" - September 1989              
+        "The Rocky Soviet Road to Mars" - October 1989
+        "Astronomy and the Family" - May 1991  
+        "The Soviets and Venus, Part 1" - February 1993
+        "The Soviets and Venus, Part 2" - March 1993
+
+
+      THE ELECTRONIC JOURNAL OF THE ASTRONOMICAL SOCIETY OF THE ATLANTIC
+
+                          April 1993 - Vol. 4, No. 9
+
+                           Copyright (c) 1993 - ASA
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ electron journal asa ejasa april     electron
+journal astronom societi atlant  volum number
+april    tabl content    asa membership articl
+submiss inform  soviet venus part larri klae
+asa membership inform  electron journal astronom
+societi atlant ejasa publish month astronom
+societi atlant incorpor asa non profit organ dedic
+advanc amateur profession astronomi space explor
+well social educ need member  asa membership
+applic open interest astronomi space explor member
+receiv journal asa hardcopi sent unit state mail
+duplic electron journal astronom leagu reflector
+magazin member also purchas discount subscript
+astronomi sky telescop magazin  inform membership
+contact societi follow address  astronom societi
+atlant asa center high angular resolut astronomi
+chara georgia state univers gsu atlanta georgia
+asa bbs baud  telephon societi record leav address
+receiv latest societi news  asa offic council
+presid eric green vice presid jeff elledg
+secretari ingrid siegert tangh treasur mike
+burkhead director becki long tano scigliano bob
+vicker council bill bagnuolo michel bagnuolo barri
+bill black mike burkhead jeff elledg frank guyton
+larri klae ken posh jim rous tano scigliano john
+stauter wess stuckey harri taylor gari thompson
+cindi weaver bob vicker   articl submiss  articl
+submiss ejasa astronomi space explor welcom pleas
+send line articl ascii format larri klae ejasa
+editor follow net address societi address   decwrl
+verga enet com klae    also use address ejasa back
+issu request letter editor asa membership inform
+send articl submiss pleas certain includ either
+network regular mail address reach telephon number
+brief biograph sketch  back issu ejasa also avail
+asa anonym ftp site chara gsu edu directori pub
+ejasa  disclaim  submiss welcom consider articl
+submit unless otherwis state becom properti
+astronom societi atlant incorpor though articl use
+profit edit abridg chang copi reprint ejasa part
+whole encourag provid clear attribut made astronom
+societi atlant electron journal author opinion
+express ejasa author necessarili asa journal
+copyright astronom societi atlant incorpor
+soviet venus part  copyright larri klae  author
+give permiss group individu wish distribut articl
+long proper credit given author notifi articl
+reproduc entireti  north pole  two soviet union
+mighti proton rocket lift tyuratam space center
+kazakhstan republ aboard booster new breed venera
+probe planet venus  design venera probe meant land
+yet spheric craft venerean surfac radar map planet
+detail orbit accomplish task basic venera design
+modifi numer area central bus core made one meter
+inch longer carri two ton propel requir brake
+orbit doubl fuel carri venera orbit eight year
+earlier extra solar panel ad give vehicl power
+handl larg amount data creat radar imag dish shape
+communic antenna also made one meter larger proper
+transmit inform earth  atop buse lander usual
+place instal meter foot kilogram pound polyus side
+look radar antenna radar system possibl terrain
+imag version nuclear power satellit use soviet
+earth ocean surveil abl map venus surfac resolut
+one two kilomet mile  soviet probe imag paramet
+vast improv unit state pioneer venus orbit could
+reveal object smaller kilomet mile diamet venera
+resolut compar similar observ made meter foot
+arecibo radio telescop island puerto rico orbit
+examin northern pole venus region unobtain either
+arecibo pioneer venus appear contain number
+potenti interest geolog featur worthi investig
+octob interplanetari journey million kilomet
+million mile two mid cours correct venera fire
+brake rocket venus place polar orbit kilomet mile
+around planet complet one revolut everi twenti
+four hour venera follow suit four day later twin
+probe thus becam venus first polar circl
+spacecraft  radar oper began octob venera octob
+venera sixteen minut everi orbit north pole probe
+make radar sweep surfac kilomet nineti mile wide
+nine thousand kilomet mile long craft head highest
+part orbit south pole recharg batteri transmit
+data back two larg soviet antenna earth strip
+inform took eight hour process comput end main
+mission venera map million squar kilomet million
+squar mile thirti percent entir planet  venera
+reveal venus surfac geolog complex shown pioneer
+venus late 1970s numer hill mountain ridg valley
+plain spread across landscap mani appar form lava
+erupt volcano last one billion year planetari term
+make venerean surfac rather young hundr crater
+detect well largest creat meteorit planetoid
+better term least fourteen kilomet mile across due
+venus dens atmospher  disagr soviet scientist
+origin certain surfac featur exampl probe owner
+declar kilomet mile wide crater summit meter foot
+high maxwel mont tallest mountain planet result
+meteorit impact american scientist hand felt
+crater proof maxwel huge volcano sit northern
+contin ishtar terra  event decid wait make verdict
+venus arriv radar probe schedul later decad origin
+name venus orbit imag radar voir initi design
+scale back craft redesig nate venus radar mapper
+vrm eventu machin call magellan portugues navig
+ferdinand magellan circa vehicl map entir planet
+even finer detail venera time howev soviet probe
+maintain distinct  radar imag abil venera bolt
+next polyus radar antenna omega altimet fourier
+infrar spectromet latter measur world temperatur
+major area cover regist five hundr degre celsius
+degre fahrenheit locat two hundr degre hotter
+possibl indic current volcan activ probe also
+found cloud pole five eight kilomet three mile
+lower equat contrast polar air sixti kilomet
+thirti six mile altitud five twenti degre warmer
+equatori atmospher similar height  main map
+mission end plan least one venera radar imag
+surfac southern latitud unfortun idea come pass
+orbit possess enough attitud control gas perform
+oper  venera ceas transmiss march leav soviet
+institut radiotechnolog electron six hundr kilomet
+mile radar data tape sort atlas twenti seven map
+northern hemispher venus  venus balloon  year
+thick atmospher venus tempt target scientist wish
+explor planet mantl air balloon born instrument
+professor jacqu blamont french space agenc centr
+nation d'etud spatial cnes propos idea far back
+joint french soviet balloon mission cancel
+nevertheless late year dream eventu come true  two
+proton rocket sent skyward decemb soviet union
+provid western observ first clear full view
+booster launch everi soviet venus probe sinc one
+mani first complex mission  unman probe launch
+space decemb name vega contract word venera gallei
+gallei russian word halley spacecraft one mission
+perform also one celesti object explor name comet
+halley  famous period travel make latest return
+inner region solar system sinc last visit sinc
+wide believ comet ici remain format solar system
+five billion year ago scientist around world gave
+high prioriti explor one bodi actual come close
+earth  comet linger cold dark outer fring solar
+system like halley perturb various forc fall
+toward sun circl millennia spew ice debri million
+kilomet warmth solar encount  soviet union along
+european space agenc esa japan institut space
+astronaut scienc isa wish miss first opportun
+human histori make close examin halley esa use
+cylindr giotto probe make danger close photograph
+flybi comet japan first deep space craft sakigak
+pioneer suisei comet view halley much safer
+distanc  scientist unit state also desir studi
+comet vantag space probe one time envis vessel
+power solar sail ion engin howev govern budget cut
+nasa cancel american effort make primarili earth
+base observ share data nation though instrument
+name dust counter mass analyz ducma design chicago
+univers professor john simpson ad soviet mission
+soviet answer halley vega instead build entir new
+craft mission soviet decid modifi venera bus
+design encount comet perform advanc venus mission
+along way vega reach venus buse drop one lander
+balloon use mass shroud planet swing toward comet
+halley much probe marin use venus flybi mercuri
+eleven year earlier soviet craft head halley help
+pinpoint locat comet erupt nucleus giotto probe
+dive kilomet mile away march  plan two vega arriv
+venus vega releas payload first ninth day month
+lander make two day descent toward planet craft
+touch upper atmospher morn sixti one kilomet mile
+venerean surfac small contain releas lander produc
+parachut kilomet mile altitud thus first balloon
+probe ever explor venus success arriv  one kilomet
+open parachut helium gas pump teflon coat plastic
+balloon inflat diamet meter feet dangl tether
+thirteen meter feet instrument packag proper known
+aerostat top part kilogram pound aerostat consist
+cone serv antenna tether attach point balloon
+beneath transmitt electron instrument connect
+bottom nephelomet measur cloud particl aerostat
+paint special white finish keep bay corrod mist
+sulfur acid permeat planet atmospher  vega balloon
+drop night side venus north equat scientist
+concern gas bag burst heat daylight place darken
+hemispher give craft much time possibl return data
+action necessit lander come dark well effect remov
+camera system use previous mission author wonder
+though could use floodlight similar one attach
+venera soviet scientist thought planet surfac
+enshroud perpetu twilight due perman thick cloud
+cover  first balloon transmit hour right day
+hemispher lithium batteri fail cover kilomet mile
+threat burst day heat materi vega balloon station
+kilomet mile altitud drop ballast fifti kilomet
+thirti mile consid activ three main cloud layer
+report pioneer venus inde balloon push across
+planet speed kilomet mile per hour strong vertic
+wind bob craft two three hundr meter feet journey
+layer air temperatur averag forti degre celsius
+degre fahrenheit pressur mere earth atmospher
+nephelomet could find clear region surround cloud
+earli first balloon flight vega lander alreadi
+head toward venerean surfac lander equip soil
+drill analyz similar one carri venera howev vega
+becom unabl report composit ground land site
+rusalka planitia mermaid plain north aphrodit
+terra still ten fifteen minut away land timer
+malfunct caus drill accident begin program activ
+sixteen kilomet mile surfac  neither way shut
+instrument touchdown reactiv land unfortun general
+loss data also fact venus cover smooth low level
+lava plain never direct examin nevertheless surfac
+temperatur pressur calcul degre celsius degre
+fahrenheit earth atmospher respect lander minut
+ground transmiss larg amount background infrar
+radiat also record site  done drill camera venera
+fail decemb soviet focus data return lander plung
+atmospher french soviet malachit mass spectromet
+detect sulfur chlorin possibl phosphorus sulfur
+possibl activ volcano give venerean cloud
+yellowish color sigma gas chromatograph found
+everi cubic meter air altitud kilomet mile contain
+one milligram grain sulfur acid  vega data overal
+structur cloud deck appear odd inform pioneer
+venus case made even stronger fact vega result
+near match twin vega found two main cloud layer
+instead three report probe layer three five
+kilomet mile thick altitud kilomet mile cloud
+persist like thin fog clear altitud kilomet mile
+much lower read one possibl discrepan cie radic
+structur chang venerean air last seven year
+lander balloon final went silent last function
+part vega mission flybi bus sail million kilomet
+million mile journey around sun becom first probe
+meet comet halley march bus made kilomet mile pass
+dark ici visitor travel interplanetari space
+soviet accomplish first mission two celesti bodi
+one space vessel  vega releas lander balloon
+payload two day fall toward venus like duplic vega
+balloon radio inform back twenti antenna track
+earth hour batteri failur morn side planet kilomet
+mile flight venus second balloon enter rather
+still environ becam less twenti hour mission hour
+mission time air becam even turbul eight hour
+balloon pass five kilomet three mile mountain
+contin aphrodit terra power downdraft pull craft
+kilomet mile toward surfac  temperatur sensor vega
+balloon report air layer move consist degre
+celsius degre fahrenheit cooler area explor vega
+balloon corrobor vega lander pass balloon level
+posit indic lightn made either balloon second
+aerostat nephelomet fail function  vega lander
+touch northern edg aphrodit terra western arm
+fifteenth kilomet mile southeast vega lander rest
+place smoother thought indic either ancient worn
+surfac relat young one cover fresh lava soil drill
+work order report rock type known anorthosit
+troctolit rare earth present luna highland rock
+rich aluminum silicon lack iron magnesium high
+degre sulfur also present soil air around vega
+measur degre celsius degre fahrenheit earth
+atmospher essenti typic day night venus  far vega
+lander carrier bus sped past venus distanc kilomet
+mile follow twin comet halley make closer flybi
+march kilomet mile probe help reveal comet dark
+irregular shape mass fourteen kilomet mile across
+rotat everi hour give take three hour  sinc vega
+craft still function halley encount soviet
+scientist consid option send probe celesti object
+one prime target near earth planetoid adoni vega
+could pass distanc six million kilomet million
+mile sad soviet back opportun becom first nation
+fli spacecraft past planetoid discov enough maneuv
+fuel probe reach adoni plan vega quiet shut earli
+futur plan divert  impress vega mission given
+scientist numer idea hope even ambiti expedit
+second world sun one exampl vesta mission plan
+earli 1990s  soviet french collabor call launch
+multipl probe singl proton rocket either craft
+first swing venus drop sever lander balloon probe
+aerostat design surviv planet corros atmospher one
+month larg improv vega balloon two day mission
+head investig sever planetoid comet includ possibl
+land vesta thus mission name reflect main belt
+planetoid seen earth  unfortun venus explor plan
+began chang soviet union soviet decid rerout vesta
+mission red planet mar instead venus keep comet
+planetoid aspect intact time soviet space program
+interest focus mar alreadi construct entir new
+probe design call phobo two member class plan leav
+earth orbit mar next year phobo place first
+instrument mar largest moon phobo  prelud even
+advanc mar expedit includ balloon probe rover soil
+sampl return craft eventu human explor earli
+twenti first centuri environ venus hostil serious
+consider human colon near futur  thing began look
+bleak soviet venus mar explor phobo probe fail
+complet mission one lose contact way red planet go
+silent mar orbit one week plan moon land march
+plan devis venus orbit drop eight ten penetr
+around planet sever year later mission launch date
+move year put indefinit hold offici soviet mission
+venus sinc put forth sad commentari twenti five
+year continu robot explor planet  late 1980s
+drastic polit econom chang take soviet union
+presid mikhail gorbachev began open nation benefit
+increas cooper rest nation particular west cultur
+becam less oppress past economi take rough ride
+also underw effect free market  effect hit
+everywher includ space program mission level cut
+back soviet began make almost desper attempt
+cooper space fare nation either keep remain
+program aliv make money  earli report soviet offer
+sale sever fulli equip venera storag price million
+dollar incred low price planetari probe nation
+took bargain meanwhil unit state gear new venus
+mission  magellan galileo  reactiv long dormant
+planetari explor launch space shuttl atlanti
+aboard shuttl magellan spacecraft combin spare
+part probe design make detail complet radar map
+venus histori magellan reach second world august
+abl map almost entir planet resolut meter feet
+surpass abil venera  interim anoth american probe
+launch space shuttl make quick flybi venus way
+orbit giant planet jupit octob shuttl atlanti
+releas second unman planetari probe space name
+galileo famous italian astronom discov probe
+primari target major moon  absenc power enough
+booster send galileo direct flight jovian planet
+probe sent around venus earth sever time build
+enough speed reach jupit result venus becam
+galileo first planetari goal februari probe radio
+back imag planet swirl cloud indic lightn violent
+atmospher  draw board  incred success magellan
+last year new plan laid journey venus scien tist
+talk space scientist former soviet union
+commonwealth independ state sinc januari cooper
+effort launch new venera lander mission within
+next decad japan india esa also consid venus
+mission next decad  februari nasa came sever new
+venus project part discoveri program launch
+inexpens probe throughout solar system venus two
+mission select studi venus multiprob mission
+involv land fourteen small probe one hemispher
+measur wind air temperatur pressur venus composit
+probe design studi venus atmospher descend thick
+air aid parachut much soviet done sinc final
+project decis made  human venus  human ever abl
+stand surfac venus present lead melt temperatur
+crush air pressur threaten earth life protect
+someth even tougher venera lander plan look chang
+environ venus someth like earth howev note
+undertak requir remov much thick carbon dioxid
+atmospher major reduct surfac heat abil speed
+planet rotat rate someth bit faster everi earth
+day project take centuri millennia  meantim effort
+made better understand venus exist today still yet
+fulli know world seem similar earth mani import
+way becam instead dead place earth ever suffer
+fate perhap venus hold answer answer best found
+intern cooper includ nation made first attempt
+lift cloudi veil venus  bibliographi  barsukov
+senior editor venus geolog geochemistri geophys
+research result univers arizona press tucson
+beatti kelli andrew chaikin editor new solar
+system cambridg univers press sky publish corp
+cambridg massachusett  burgess eric venus errant
+twin columbia univers press new york  burrow
+william explor space voyag solar system beyond
+random hous inc new york  chaisson eric steve
+mcmillan astronomi today prentic hall inc
+englewood cliff new jersey  gatland kenneth
+illustr encyclopedia space technolog salamand book
+new york  greeley ronald planetari landscap allen
+unwin inc winchest massachusett  hart dougla
+encyclopedia soviet spacecraft exet book new york
+hartmann william moon planet third edit wadsworth
+publish compani belmont california  harvey brian
+race space soviet space programm elli howood limit
+chichest england  henbest nigel planet portrait
+new world vike penguin book ltd harmondsworth
+middlesex england  johnson nichola soviet space
+program volum scienc technolog seri american
+astronaut societi univelt inc san diego california
+johnson nichola soviet year space teledyn brown
+engin colorado spring colorado   lang kenneth
+charl whitney wander space explor discoveri solar
+system cambridg univers press new york  magellan
+unveil venus jpl march  murray bruce michael malin
+ronald greeley earthlik planet surfac mercuri
+venus earth moon mar freeman compani san francisco
+california  murray bruce journey space first three
+decad space explor norton compani new york
+newcott william venus reveal nation geograph
+magazin volum number washington februari  nick
+oran far travel explor machin nasa washington
+oberg jame edward new earth restructur earth
+planet meridian book new american librari inc new
+york  robertson donald venus prime soviet object
+part spaceflight volum number british
+interplanetari societi bis london england  smith
+arthur planetari explor thirti year unman space
+probe patrick stephen ltd wellingborough northamp
+tonshir england  voyag univers near planet editor
+time life book inc alexandria virginia  wilson
+andrew jane solar system log jane publish inc new
+york  author  larri klae ejasa editor recipi asa
+meritori servic award work editor ejasa sinc found
+august larri also teach cours basic astronomi
+concord carlisl adult communiti educ program
+massachusett  larri author follow ejasa articl
+one dream man robert goddard rocket pioneer august
+stop space light pollut septemb rocki soviet road
+mar octob astronomi famili soviet venus part
+februari soviet venus part march   electron
+journal astronom societi atlant  april vol
+copyright asa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+venus, 9463, 0.427169466151
+soviet, 8161, 0.287495811211
+kilomet, 5016, 0.277536283977
+probe, 6886, 0.235886699977
+vega, 9447, 0.215324619051
+venera, 9459, 0.211203686443
+mile, 5713, 0.208798740396
+balloon, 882, 0.185024189318
+planet, 6664, 0.152624796437
+lander, 5105, 0.149714305813
+mission, 5772, 0.127054644247
+asa, 671, 0.123202150425
+ejasa, 3021, 0.111394149235
+explor, 3307, 0.101347830243
+space, 8164, 0.101305025454
+radar, 7055, 0.100097454516
+halley, 4130, 0.0991892121043
+earth, 2956, 0.0912340122003
+craft, 2207, 0.0889867987081
+surfac, 8587, 0.0884755206031
+comet, 1926, 0.0868936065359
+societi, 8093, 0.079021022412
+atmospher, 755, 0.0753136946943
+degre, 2491, 0.0718190994573
+new, 6023, 0.0693557332319
+meter, 5663, 0.0688417351055
+cloud, 1835, 0.0642823449932
+atlant, 748, 0.062331798764
+air, 357, 0.0616337346711
+orbit, 6280, 0.0603233732642
+scientist, 7694, 0.0601997065112
+astronom, 728, 0.0592764025939
+solar, 8107, 0.058129542189
+planetoid, 6667, 0.0556970746174
+klae, 5037, 0.0556970746174
+million, 5724, 0.0549948275764
+journal, 4898, 0.0538813689915
+hour, 4395, 0.0535926613316
+plan, 6660, 0.0534816352965
+twenti, 9169, 0.0529223718448
+mar, 5500, 0.0527274759381
+larri, 5128, 0.0507738154725
+magellan, 5433, 0.0490672108866
+pioneer, 6635, 0.0487641499412
+electron, 3034, 0.0470039580339
+celsius, 1600, 0.0464142288478
+astronomi, 729, 0.0458520388862
+sulfur, 8531, 0.045086005502
+york, 9960, 0.0450434801078
+union, 9275, 0.044953762338
+march, 5504, 0.0446272135091
+editor, 2997, 0.0436055367826
+fahrenheit, 3359, 0.0430832127827
+map, 5498, 0.0426993769528
+planetari, 6665, 0.0425530986422
+nation, 5962, 0.0421810268978
+year, 9943, 0.041886109037
+design, 2564, 0.0416314608841
+antenna, 538, 0.0406242602556
+becam, 980, 0.0402039747917
+temperatur, 8773, 0.0390738136033
+make, 5459, 0.0388159832576
+submiss, 8490, 0.0385467061079
+altitud, 452, 0.0384088880567
+articl, 665, 0.0383681079652
+journey, 4900, 0.0381625517374
+instrument, 4686, 0.037514873737
+membership, 5626, 0.037461468615
+launch, 5147, 0.0374442527204
+pole, 6717, 0.0365439133887
+layer, 5160, 0.0360024196331
+octob, 6197, 0.0357490908986
+land, 5104, 0.0354721943574
+data, 2385, 0.0352693630194
+terra, 8799, 0.0352006144072
+author, 796, 0.0341876170406
+flybi, 3564, 0.0340367131822
+phobo, 6599, 0.0338307122341
+bus, 1419, 0.0330138042884
+began, 993, 0.0330138042884
+soil, 8104, 0.0327681335574
+hemispher, 4251, 0.0327681335574
+drill, 2871, 0.0327681335574
+day, 2402, 0.0317713781946
+inform, 4637, 0.0313025900992
+februari, 3423, 0.03053004139
+northern, 6111, 0.0302413553399
+thirti, 8877, 0.0297117142749
+state, 8342, 0.0295464067106
+sinc, 7977, 0.0290320295715
+hundr, 4440, 0.0289668056516
+drop, 2878, 0.0288101564314
+french, 3684, 0.0288019357065
+report, 7291, 0.0284279488406
+imag, 4512, 0.0279336896434
+volcano, 9573, 0.0278485373087
+lava, 5151, 0.0278485373087
+address, 264, 0.0277543072561
+england, 3110, 0.0276981285345
+univers, 9282, 0.0276928272822
+rocket, 7447, 0.0276863924168
+cover, 2194, 0.0273746810519
+possibl, 6765, 0.027321367122
+decad, 2432, 0.0272293705458
+galileo, 3755, 0.0270828401704
+cooper, 2125, 0.0270828401704
+pass, 6448, 0.0265798585619
+spacecraft, 8166, 0.0265269486417
+american, 469, 0.0264745048944
+twin, 9172, 0.0264110434307
+reveal, 7352, 0.0264110434307
+sever, 7823, 0.0263632907858
+main, 5450, 0.0261197932557
+reach, 7128, 0.0258787754394
+entir, 3129, 0.0258787754394
+program, 6905, 0.0258666191258
+gas, 3780, 0.0251042131924
+parachut, 6413, 0.0249523843021
+crater, 2213, 0.0249523843021
+batteri, 950, 0.0249523843021
+feet, 3430, 0.0248267447245
+earli, 2951, 0.0246843178762
+similar, 7961, 0.0246457913545
+place, 6657, 0.0244644485496
+everi, 3235, 0.0244644485496
+moon, 5851, 0.0241663977231
+volum, 9577, 0.0240798826045
+massachusett, 5534, 0.0239249576723
+world, 9841, 0.0239222466004
+north, 6110, 0.0237105610376
+pressur, 6842, 0.0235704961913
+resolut, 7316, 0.0231734445213
+celesti, 1597, 0.0231280236648
+human, 4432, 0.0229816108798
+press, 6841, 0.0228661210249
+unman, 9293, 0.0226810165049
+fail, 3360, 0.0226337890226
+dark, 2365, 0.0225774349749
+mass, 5533, 0.0225217400539
+proton, 6944, 0.0222837857061
+polar, 6716, 0.0222837857061
+interplanetari, 4718, 0.0221005970349
+esa, 3183, 0.0221005970349
+power, 6783, 0.0220931624441
+publish, 6974, 0.0219979310306
+incorpor, 4587, 0.0217602066311
+cambridg, 1470, 0.0217602066311
+unit, 9278, 0.0216167787459
+measur, 5601, 0.0214813612377
+decemb, 2438, 0.0214494545392
+chang, 1650, 0.0213865241866
+book, 1218, 0.0213202638345
+copyright, 2135, 0.0211635903256
+member, 5625, 0.0210967868462
+use, 9363, 0.021033540057
+transmit, 9059, 0.0210288046657
+region, 7228, 0.0210288046657
+geolog, 3842, 0.0208989214034
+releas, 7253, 0.0208177695537
+indic, 4600, 0.0207409636715
+second, 7753, 0.0207151285412
+includ, 4579, 0.0204816740383
+instead, 4682, 0.0204455597344
+return, 7346, 0.0203393428074
+activ, 252, 0.0203393428074
+examin, 3257, 0.0203121301278
+booster, 1225, 0.0203121301278
+head, 4215, 0.0201003461974
+encount, 3088, 0.0200013780359
+mountain, 5887, 0.0199035254465
+foot, 3587, 0.0199035254465
+target, 8704, 0.019808282573
+plain, 6659, 0.019808282573
+time, 8936, 0.0197999930561
+heat, 4226, 0.0197155138224
+follow, 3578, 0.019564118812
+arriv, 655, 0.0195369068017
+august, 784, 0.0193668081735
+number, 6156, 0.0193552438078
+japan, 4825, 0.019284703498
+near, 5982, 0.0192767641307
+nichola, 6051, 0.0192506426257
+millennia, 5720, 0.0192506426257
+greeley, 4024, 0.0192506426257
+shuttl, 7929, 0.0191660181751
+becom, 983, 0.0190846168517
+travel, 9069, 0.0189739514061
+numer, 6157, 0.0189739514061
+reactiv, 7133, 0.0185656915391
+maxwel, 5563, 0.0185656915391
+ici, 4476, 0.0185656915391
+gsu, 4073, 0.0185656915391
+giotto, 3880, 0.0185656915391
+chara, 1660, 0.0185656915391
+atlanti, 750, 0.0185656915391
+result, 7332, 0.0184791215224
+magazin, 5432, 0.0184234182703
+send, 7785, 0.0182932691939
+clear, 1803, 0.0182705395017
+eric, 3170, 0.0181179847141
+proper, 6924, 0.0180599119534
+erupt, 3181, 0.0180344022008
+brake, 1268, 0.0180344022008
+william, 9764, 0.0179465247762
+california, 1459, 0.0177829207782
+larg, 5124, 0.0176346815097
+ronald, 7473, 0.0176003072036
+meteorit, 5661, 0.0176003072036
+jane, 4822, 0.0176003072036
+buse, 1421, 0.0176003072036
+eventu, 3233, 0.0175758253127
+object, 6173, 0.0175364953207
+distanc, 2744, 0.017476613486
+wide, 9747, 0.017380083391
+presid, 6839, 0.0171052250293
+unfortun, 9264, 0.016975341767
+expedit, 3291, 0.0169153561171
+function, 3722, 0.0167289408952
+abil, 177, 0.0167289408952
+effort, 3007, 0.0166894775534
+tether, 8817, 0.0166349228681
+sixteen, 7996, 0.0166349228681
+acid, 236, 0.0166349228681
+environ, 3139, 0.0166118354501
+wish, 9801, 0.0165358454324
+minut, 5747, 0.0164984482729
+howev, 4406, 0.0164159622395
+late, 5139, 0.0163885504914
+vessel, 9486, 0.0163840667787
+kilogram, 5015, 0.0163840667787
+kenneth, 4985, 0.0163840667787
+encyclopedia, 3090, 0.0163840667787
+sent, 7793, 0.0162125840594
+spectromet, 8211, 0.0161571398428
+landscap, 5109, 0.0161571398428
+duplic, 2924, 0.0161571398428
+aboard, 182, 0.0161571398428
+high, 4292, 0.0161038408974
+sixti, 7998, 0.0159499717815
+council, 2177, 0.0159499717815
+radio, 7061, 0.0159479151371
+leav, 5184, 0.015916169185
+lightn, 5270, 0.0157593956392
+contain, 2079, 0.0157015142654
+bob, 1189, 0.0157015142654
+contin, 2089, 0.015582949691
+way, 9666, 0.01557055963
+flight, 3544, 0.0155272652637
+decid, 2442, 0.0154710216431
+transmiss, 9058, 0.0154186824432
+studi, 8469, 0.0153611238615
+infrar, 4640, 0.0151206776699
+past, 6456, 0.0151003221796
+carri, 1530, 0.0151003221796
+long, 5336, 0.0150040040113
+later, 5140, 0.0149767321279
+observ, 6179, 0.0148572763068
+compani, 1958, 0.0148572763068
+silent, 7954, 0.0148558571374
+cancel, 1487, 0.0148558571374
+april, 595, 0.0148338572321
+sun, 8539, 0.0147645075561
+site, 7994, 0.0147190114492
+month, 5847, 0.0147190114492
+level, 5229, 0.0146518358745
+speed, 8217, 0.0145211604649
+area, 622, 0.0145211604649
+perform, 6539, 0.0144998386338
+effect, 3005, 0.0143134626388
+sail, 7584, 0.0142996363594
+diamet, 2613, 0.0142996363594
+present, 6837, 0.0142933420442
+squar, 8276, 0.0142024420183
+open, 6258, 0.0141749423805
+murray, 5929, 0.0141090602171
+largest, 5126, 0.0141090602171
+mercuri, 5640, 0.0140192031105
+andrew, 505, 0.0140192031105
+seven, 7820, 0.0139326142689
+analyz, 493, 0.0139326142689
+discoveri, 2700, 0.0138490642672
+come, 1923, 0.0138085485051
+complet, 1975, 0.0138064306023
+voyag, 9588, 0.0137683470211
+shut, 7925, 0.0136902767243
+professor, 6901, 0.0135414200852
+prime, 6865, 0.0135414200852
+georgia, 3848, 0.0135414200852
+composit, 1982, 0.0135414200852
+bruce, 1347, 0.0135414200852
+close, 1830, 0.0135367632242
+advanc, 285, 0.013504442677
+incred, 4591, 0.0134703422479
+nasa, 5956, 0.0134406660519
+focus, 3569, 0.0134013249306
+famous, 3380, 0.0134013249306
+camera, 1473, 0.0134013249306
+attach, 760, 0.0134013249306
+telephon, 8763, 0.0132690169643
+lift, 5264, 0.0132690169643
+dream, 2865, 0.0132690169643
+project, 6909, 0.0132558974665
+burst, 1417, 0.0132055217154
+answer, 535, 0.0131816453929
+major, 5458, 0.0131089056871
+abl, 180, 0.0130659625313
+touch, 9015, 0.0130246045344
+johnson, 4880, 0.012911205449
+rock, 7445, 0.0128564689986
+detect, 2579, 0.0128564689986
+accomplish, 218, 0.0128564689986
+swing, 8635, 0.0127506324312
+sad, 7571, 0.0126994276463
+morn, 5864, 0.0126994276463
+western, 9709, 0.0126493009374
+profit, 6903, 0.0126493009374
+jeff, 4839, 0.0126493009374
+fulli, 3718, 0.0126493009374
+welcom, 9701, 0.0125521065962
+astronaut, 727, 0.0125521065962
+consid, 2059, 0.0125256072197
+pound, 6776, 0.0125049579123
+latest, 5141, 0.0125049579123
+equat, 3157, 0.0125049579123
+wind, 9773, 0.012458724795
+opportun, 6268, 0.012458724795
+jupit, 4932, 0.012458724795
+investig, 4745, 0.0124133723623
+discov, 2698, 0.0124133723623
+circl, 1765, 0.0123688676884
+agenc, 329, 0.0123688676884
+shape, 7853, 0.0123251796603
+idea, 4482, 0.0122097625901
+telescop, 8764, 0.012118011599
+washington, 9651, 0.0120018455979
+equip, 3161, 0.0120018455979
+educ, 3002, 0.0119643498508
+far, 3386, 0.0119299318697
+colorado, 1908, 0.0119274354567
+payload, 6477, 0.0118200068258
+centuri, 1614, 0.0117172168751
+complex, 1976, 0.0116510756573
+fuel, 3715, 0.0115867222607
+earlier, 2952, 0.0115867222607
+vehicl, 9449, 0.0114034833529
+modifi, 5814, 0.0114034833529
+lower, 5371, 0.0114034833529
+remov, 7272, 0.0113742691124
+edit, 2996, 0.0113454089926
+billion, 1092, 0.0113454089926
+consider, 2060, 0.0112333445096
+remain, 7264, 0.0111526272635
+featur, 3422, 0.0111526272635
+price, 6857, 0.0110745569667
+rotat, 7490, 0.0110490922242
+improv, 4557, 0.0109989655153
+institut, 4683, 0.0109498724208
+fall, 3369, 0.0109017711741
+structur, 8460, 0.0108546224903
+consist, 2061, 0.0108546224903
+machin, 5416, 0.0108313937135
+contact, 2078, 0.0107856051729
+san, 7603, 0.0107630369402
+ground, 4061, 0.010696588049
+young, 9962, 0.0106319434248
+success, 8513, 0.0105690076707
+locat, 5323, 0.0105483934231
+someth, 8126, 0.0105130467969
+took, 8987, 0.0105076927614
+cut, 2313, 0.0104676761769
+attempt, 763, 0.0104676761769
+receiv, 7167, 0.0104088847768
+hold, 4341, 0.0104088847768
+bodi, 1194, 0.0103140144287
+sky, 8011, 0.0102954856914
+histori, 4314, 0.0102954856914
+mike, 5710, 0.0102771000346
+ad, 257, 0.0102227798672
+rest, 7324, 0.0101696714037
+mani, 5479, 0.0101305025454
+record, 7184, 0.0100668814531
+futur, 3737, 0.0100501730987
+like, 5272, 0.010026642809
+oper, 6261, 0.00996834612016
+low, 5368, 0.00981267429947
+basic, 937, 0.00979765260467
+term, 8795, 0.00978272509038
+issu, 4793, 0.00970945990267
+appear, 580, 0.00968077364326
+night, 6063, 0.00966655908923
+yellowish, 9948, 0.00962532131284
+vrm, 9596, 0.00962532131284
+unwin, 9330, 0.00962532131284
+swirl, 8636, 0.00962532131284
+portugues, 6758, 0.00962532131284
+gatland, 3793, 0.00962532131284
+cie, 1754, 0.00962532131284
+bis, 1117, 0.00962532131284
+center, 1606, 0.00961053460487
+build, 1378, 0.00961053460487
+alreadi, 443, 0.00954230842587
+red, 7194, 0.00952889469614
+format, 3612, 0.00952889469614
+known, 5054, 0.00951555611376
+technolog, 8743, 0.00946293671845
+away, 833, 0.00943705678181
+final, 3482, 0.00934863009321
+view, 9510, 0.00929953699869
+engin, 3109, 0.00928742027672
+worn, 9844, 0.00928284576957
+winchest, 9772, 0.00928284576957
+unveil, 9326, 0.00928284576957
+univelt, 9281, 0.00928284576957
+undertak, 9249, 0.00928284576957
+turbul, 9152, 0.00928284576957
+sakigak, 7588, 0.00928284576957
+safer, 7578, 0.00928284576957
+ridg, 7395, 0.00928284576957
+planitia, 6668, 0.00928284576957
+fifteenth, 3470, 0.00928284576957
+ferdinand, 3445, 0.00928284576957
+enet, 3104, 0.00928284576957
+dormant, 2824, 0.00928284576957
+colon, 1904, 0.00928284576957
+cnes, 1853, 0.00928284576957
+beneath, 1025, 0.00928284576957
+altimet, 451, 0.00928284576957
+1970s, 37, 0.00928284576957
+small, 8054, 0.0092753649055
+creat, 2217, 0.00920428706818
+direct, 2667, 0.00912395889478
+today, 8964, 0.00910149711753
+warmth, 9641, 0.00901720110039
+warmer, 9640, 0.00901720110039
+volcan, 9572, 0.00901720110039
+verdict, 9470, 0.00901720110039
+veil, 9451, 0.00901720110039
+treasur, 9075, 0.00901720110039
+tempt, 8780, 0.00901720110039
+sketch, 8003, 0.00901720110039
+secretari, 7756, 0.00901720110039
+reflector, 7217, 0.00901720110039
+prentic, 6829, 0.00901720110039
+omega, 6231, 0.00901720110039
+norton, 6112, 0.00901720110039
+malfunct, 5466, 0.00901720110039
+lang, 5111, 0.00901720110039
+hotter, 4392, 0.00901720110039
+descent, 2555, 0.00901720110039
+commonwealth, 1949, 0.00901720110039
+cloudi, 1837, 0.00901720110039
+bargain, 912, 0.00901720110039
+john, 4878, 0.00900296178464
+look, 5341, 0.00891277967522
+scienc, 7692, 0.00889805800101
+requir, 7302, 0.00885735733932
+provid, 6949, 0.00880744082072
+visitor, 9545, 0.0088001536018
+tougher, 9018, 0.0088001536018
+thirteen, 8875, 0.0088001536018
+subscript, 8497, 0.0088001536018
+spew, 8225, 0.0088001536018
+simpson, 7971, 0.0088001536018
+shroud, 7922, 0.0088001536018
+recipi, 7170, 0.0088001536018
+plung, 6698, 0.0088001536018
+penguin, 6520, 0.0088001536018
+highland, 4295, 0.0088001536018
+hartmann, 4189, 0.0088001536018
+etud, 3214, 0.0088001536018
+entireti, 3130, 0.0088001536018
+dioxid, 2663, 0.0088001536018
+dangl, 2357, 0.0088001536018
+concord, 2010, 0.0088001536018
+breed, 1293, 0.0088001536018
+1980s, 39, 0.0088001536018
+life, 5260, 0.00876824766034
+exampl, 3258, 0.0086359396941
+weaver, 9680, 0.00861664255654
+vantag, 9424, 0.00861664255654
+twilight, 9171, 0.00861664255654
+sped, 8215, 0.00861664255654
+robertson, 7439, 0.00861664255654
+restructur, 7331, 0.00861664255654
+nucleus, 6152, 0.00861664255654
+middlesex, 5700, 0.00861664255654
+melt, 5624, 0.00861664255654
+luna, 5391, 0.00861664255654
+helium, 4244, 0.00861664255654
+fate, 3403, 0.00861664255654
+elli, 3048, 0.00861664255654
+dish, 2713, 0.00861664255654
+decwrl, 2461, 0.00861664255654
+chlorin, 1714, 0.00861664255654
+bleak, 1151, 0.00861664255654
+atop, 758, 0.00861664255654
+alexandria, 398, 0.00861664255654
+1990s, 40, 0.00861664255654
+given, 3887, 0.00854574213838
+word, 9829, 0.00852810553382
+origin, 6293, 0.0084673863412
+wander, 9630, 0.00845767805853
+smoother, 8070, 0.00845767805853
+rover, 7500, 0.00845767805853
+persist, 6561, 0.00845767805853
+penetr, 6519, 0.00845767805853
+mont, 5843, 0.00845767805853
+meantim, 5599, 0.00845767805853
+hostil, 4388, 0.00845767805853
+harvey, 4192, 0.00845767805853
+fifti, 3472, 0.00845767805853
+fare, 3387, 0.00845767805853
+divert, 2763, 0.00845767805853
+daylight, 2403, 0.00845767805853
+corros, 2159, 0.00845767805853
+aluminum, 455, 0.00845767805853
+certain, 1619, 0.00842494438441
+tucson, 9144, 0.00831746143404
+transmitt, 9060, 0.00831746143404
+sigma, 7945, 0.00831746143404
+reprint, 7296, 0.00831746143404
+meridian, 5643, 0.00831746143404
+intact, 4692, 0.00831746143404
+hart, 4187, 0.00831746143404
+geophys, 3846, 0.00831746143404
+freeman, 3676, 0.00831746143404
+equatori, 3158, 0.00831746143404
+donald, 2812, 0.00831746143404
+coat, 1862, 0.00831746143404
+cliff, 1817, 0.00831746143404
+baud, 953, 0.00831746143404
+ambiti, 463, 0.00831746143404
+accident, 211, 0.00831746143404
+thought, 8887, 0.00830998056997
+end, 3091, 0.00820798111973
+surveil, 8596, 0.00819203338935
+notifi, 6121, 0.00819203338935
+jovian, 4902, 0.00819203338935
+fourier, 3629, 0.00819203338935
+drastic, 2860, 0.00819203338935
+desper, 2569, 0.00819203338935
+angular, 514, 0.00819203338935
+mail, 5447, 0.00818505063049
+fact, 3350, 0.00816988541534
+cours, 2190, 0.00814731718258
+surpass, 8592, 0.0080785699214
+republ, 7299, 0.0080785699214
+reproduc, 7297, 0.0080785699214
+prioriti, 6875, 0.0080785699214
+plastic, 6673, 0.0080785699214
+jersey, 4855, 0.0080785699214
+italian, 4796, 0.0080785699214
+ion, 4752, 0.0080785699214
+fresh, 3687, 0.0080785699214
+devis, 2594, 0.0080785699214
+crush, 2259, 0.0080785699214
+commentari, 1937, 0.0080785699214
+columbia, 1913, 0.0080785699214
+oppress, 6271, 0.00797498589076
+circa, 1764, 0.00797498589076
+bibliographi, 1075, 0.00797498589076
+violent, 9528, 0.00787969781959
+vice, 9500, 0.00787969781959
+taylor, 8721, 0.00787969781959
+perturb, 6569, 0.00787969781959
+perpetu, 6556, 0.00787969781959
+london, 5334, 0.00787969781959
+januari, 4824, 0.00787969781959
+irregular, 4770, 0.00787969781959
+inexpens, 4617, 0.00787969781959
+grain, 3987, 0.00787969781959
+fring, 3695, 0.00787969781959
+forti, 3617, 0.00787969781959
+carrier, 1532, 0.00787969781959
+carbon, 1512, 0.00787969781959
+revolut, 7365, 0.0077914748455
+pump, 6982, 0.0077914748455
+patrick, 6466, 0.0077914748455
+mighti, 5709, 0.0077914748455
+mantl, 5491, 0.0077914748455
+hardcopi, 4168, 0.0077914748455
+gear, 3804, 0.0077914748455
+thompson, 8879, 0.00770934122159
+latitud, 5144, 0.00770934122159
+dive, 2759, 0.00770934122159
+disagr, 2675, 0.00770934122159
+teflon, 8749, 0.00763251034749
+geograph, 3841, 0.00763251034749
+deck, 2446, 0.00763251034749
+collabor, 1894, 0.00763251034749
+absenc, 191, 0.00763251034749
+terrain, 8801, 0.00756033883497
+septemb, 7801, 0.00756033883497
+quiet, 7040, 0.00756033883497
+island, 4781, 0.00756033883497
+isa, 4774, 0.00756033883497
+india, 4597, 0.00756033883497
+everywher, 3244, 0.00756033883497
+dens, 2530, 0.00756033883497
+arthur, 663, 0.00756033883497
+timer, 8938, 0.007492293723
+stronger, 8457, 0.007492293723
+spheric, 8227, 0.007492293723
+senior, 7787, 0.007492293723
+laid, 5095, 0.007492293723
+kelli, 4977, 0.007492293723
+goddard, 3927, 0.007492293723
+economi, 2985, 0.007492293723
+discount, 2695, 0.007492293723
+cubic, 2285, 0.007492293723
+ceas, 1589, 0.007492293723
+bolt, 1207, 0.007492293723
+atlas, 751, 0.007492293723
+debri, 2427, 0.00742792856872
+adult, 283, 0.00742792856872
+worthi, 9851, 0.00736686567831
+valley, 9413, 0.00736686567831
+threaten, 8892, 0.00736686567831
+sweep, 8629, 0.00736686567831
+sensor, 7792, 0.00736686567831
+reduct, 7205, 0.00736686567831
+meanwhil, 5600, 0.00736686567831
+maneuv, 5476, 0.00736686567831
+inner, 4656, 0.00736686567831
+robot, 7442, 0.00730878267773
+propel, 6923, 0.00730878267773
+possess, 6764, 0.00730878267773
+log, 5328, 0.00730878267773
+cone, 2023, 0.00730878267773
+storag, 8416, 0.00725340221036
+vike, 9517, 0.00720048392662
+spaceflight, 8168, 0.00720048392662
+navig, 5969, 0.00720048392662
+ice, 4475, 0.00720048392662
+inch, 4574, 0.00714981817972
+edward, 3003, 0.00714981817972
+contrast, 2101, 0.00714981817972
+british, 1320, 0.00714981817972
+better, 1060, 0.00712277624552
+vol, 9570, 0.00710122100913
+strip, 8451, 0.00710122100913
+spatial, 8189, 0.00710122100913
+radic, 7059, 0.00710122100913
+ocean, 6194, 0.00710122100913
+distinct, 2746, 0.00710122100913
+director, 2668, 0.00710122100913
+dedic, 2462, 0.00710122100913
+arizona, 639, 0.00710122100913
+southern, 8156, 0.00705453010855
+social, 8091, 0.00705453010855
+silicon, 7955, 0.00705453010855
+dust, 2928, 0.00705453010855
+wilson, 9768, 0.00700960155524
+ride, 7393, 0.00700960155524
+regist, 7229, 0.00700960155524
+joint, 4882, 0.00700960155524
+height, 4238, 0.00700960155524
+pleas, 6688, 0.00700406119181
+help, 4249, 0.00699481484726
+spare, 8186, 0.00696630713446
+particl, 6441, 0.00696630713446
+forth, 3616, 0.00696630713446
+declar, 2447, 0.00696630713446
+ascii, 676, 0.00696630713446
+permiss, 6551, 0.00692453213362
+percent, 6533, 0.00692453213362
+harri, 4184, 0.00692453213362
+belt, 1017, 0.00692453213362
+award, 832, 0.00692453213362
+vertic, 9482, 0.00688417351055
+ton, 8980, 0.00688417351055
+submit, 8491, 0.00688417351055
+smooth, 8069, 0.00688417351055
+outer, 6324, 0.00688417351055
+econom, 2984, 0.00688417351055
+counter, 2181, 0.00688417351055
+vast, 9434, 0.00684513836216
+threat, 8891, 0.00684513836216
+dougla, 2837, 0.00684513836216
+bag, 864, 0.00684513836216
+nick, 6052, 0.00680734263645
+hill, 4300, 0.00680734263645
+felt, 3439, 0.00680734263645
+descend, 2554, 0.00680734263645
+aid, 351, 0.00680734263645
+unabl, 9211, 0.00677071004259
+rare, 7101, 0.00677071004259
+primarili, 6864, 0.00677071004259
+perman, 6550, 0.00677071004259
+panel, 6406, 0.00677071004259
+illustr, 4511, 0.00677071004259
+work, 9833, 0.00674534342249
+upper, 9340, 0.00673517112393
+photograph, 6604, 0.00673517112393
+francisco, 3652, 0.00673517112393
+instal, 4679, 0.00670066246528
+surround, 8595, 0.00666712601196
+brown, 1344, 0.00666712601196
+virginia, 9533, 0.00663450848216
+ninth, 6075, 0.00663450848216
+match, 5541, 0.00663450848216
+random, 7093, 0.00660276085768
+pollut, 6726, 0.00660276085768
+bay, 956, 0.00660276085768
+spread, 8265, 0.00657183794078
+green, 4025, 0.00657183794078
+brief, 1308, 0.00657183794078
+task, 8707, 0.00654169796727
+paramet, 6421, 0.00654169796727
+amateur, 458, 0.00654169796727
+tabl, 8667, 0.00651230226722
+properti, 6925, 0.00651230226722
+owner, 6359, 0.00651230226722
+nuclear, 6150, 0.00651230226722
+iron, 4767, 0.00651230226722
+sale, 7590, 0.00648361496669
+marin, 5511, 0.00648361496669
+inflat, 4632, 0.00648361496669
+failur, 3361, 0.00648361496669
+european, 3222, 0.00648361496669
+paint, 6391, 0.00645560272451
+encourag, 3089, 0.00645560272451
+charl, 1668, 0.00645560272451
+centr, 1610, 0.00645560272451
+ancient, 500, 0.00645560272451
+visit, 9544, 0.00642823449932
+purchas, 6988, 0.00642823449932
+south, 8154, 0.00640148134278
+mid, 5698, 0.00640148134278
+cold, 1888, 0.00640148134278
+surviv, 8599, 0.00637531621558
+rough, 7493, 0.00637531621558
+rich, 7382, 0.00637531621558
+push, 6996, 0.00637531621558
+proof, 6919, 0.00637531621558
+goal, 3924, 0.00637531621558
+shown, 7918, 0.00634971382314
+radiat, 7058, 0.00634971382314
+primari, 6863, 0.00634971382314
+highest, 4294, 0.00634971382314
+famili, 3378, 0.00634971382314
+cultur, 2291, 0.00634971382314
+credit, 2225, 0.00634971382314
+overal, 6337, 0.00632465046868
+corp, 2153, 0.00632465046868
+stephen, 8380, 0.00627605329809
+reflect, 7216, 0.00627605329809
+danger, 2356, 0.00627605329809
+smaller, 8055, 0.00625247895617
+central, 1611, 0.00625247895617
+sampl, 7601, 0.00622936239751
+deep, 2466, 0.00622936239751
+attitud, 769, 0.00622936239751
+core, 2140, 0.00620668618114
+contract, 2095, 0.00620668618114
+barri, 918, 0.00620668618114
+attribut, 773, 0.00620668618114
+profession, 6900, 0.0061844338442
+impact, 4534, 0.0061844338442
+gari, 3776, 0.0061844338442
+arm, 643, 0.0061844338442
+multipl, 5919, 0.00616258983014
+jpl, 4912, 0.00616258983014
+dollar, 2802, 0.00614113942342
+bbs, 961, 0.00612006868991
+aliv, 417, 0.00612006868991
+tape, 8700, 0.00609936442258
+larger, 5125, 0.00609936442258
+budget, 1367, 0.00609936442258
+born, 1233, 0.00609936442258
+background, 855, 0.00609936442258
+russian, 7551, 0.00607901409174
+rocki, 7450, 0.00607901409174
+content, 2084, 0.00607901409174
+typic, 9178, 0.00605900579951
+odd, 6198, 0.00605900579951
+essenti, 3196, 0.00605900579951
+decis, 2445, 0.00605900579951
+closer, 1831, 0.00605900579951
+sit, 7993, 0.00603932823803
+programm, 6906, 0.00603932823803
+construct, 2074, 0.00603932823803
+suffer, 8521, 0.00601997065112
+meant, 5598, 0.00601997065112
+suit, 8529, 0.00600092279893
+pull, 6979, 0.00600092279893
+diego, 2629, 0.00600092279893
+chicago, 1701, 0.00598217492541
+share, 7855, 0.00596371772833
+necessarili, 5991, 0.00596371772833
+independ, 4595, 0.00596371772833
+allen, 426, 0.00596371772833
+benefit, 1028, 0.00594554233155
+spring, 8266, 0.00592764025939
+communiti, 1953, 0.00592764025939
+aspect, 693, 0.00591000341289
+anonym, 532, 0.00591000341289
+track, 9030, 0.00589262404782
+jame, 4820, 0.00589262404782
+race, 7049, 0.00587549475424
+letter, 5227, 0.00587549475424
+communic, 1950, 0.00587549475424
+thousand, 8888, 0.00585860843757
+meet, 5615, 0.00585860843757
+ken, 4980, 0.00584195830092
+huge, 4427, 0.00584195830092
+faster, 3399, 0.00584195830092
+disclaim, 2691, 0.00584195830092
+desir, 2565, 0.00584195830092
+smith, 8064, 0.00582553782866
+serv, 7810, 0.00580934077112
+protect, 6940, 0.00580934077112
+polit, 6723, 0.00577759314664
+mere, 5641, 0.00577759314664
+initi, 4647, 0.00577759314664
+hous, 4396, 0.00577759314664
+hall, 4128, 0.00577759314664
+enter, 3125, 0.00577759314664
+combin, 1921, 0.00577759314664
+pub, 6971, 0.00576203128629
+option, 6276, 0.00576203128629
+finish, 3488, 0.00576203128629
+atlanta, 749, 0.00574667022974
+west, 9708, 0.00573150486078
+wait, 9611, 0.00573150486078
+loss, 5352, 0.00573150486078
+impress, 4554, 0.00573150486078
+calcul, 1451, 0.00573150486078
+board, 1186, 0.00571653025623
+potenti, 6774, 0.00570174167643
+maintain, 5454, 0.00570174167643
+class, 1789, 0.00570174167643
+express, 3315, 0.00568713455618
+connect, 2046, 0.00568713455618
+inde, 4594, 0.00567270449629
+edg, 2993, 0.00567270449629
+request, 7301, 0.00564435874371
+directori, 2669, 0.00564435874371
+gave, 3798, 0.00560306678828
+brian, 1304, 0.00558961505911
+previous, 6855, 0.00557631363174
+distribut, 2753, 0.00557631363174
+select, 7774, 0.00556315918448
+scale, 7659, 0.00555014850454
+road, 7431, 0.00555014850454
+extra, 3325, 0.00555014850454
+doubl, 2828, 0.00555014850454
+offici, 6207, 0.00553727848336
+teach, 8729, 0.0055245461121
+regular, 7234, 0.0055245461121
+appar, 577, 0.0055245461121
+network, 6018, 0.00551194847746
+lack, 5092, 0.00551194847746
+handl, 4149, 0.00549948275764
+jim, 4868, 0.00543904006281
+michael, 5680, 0.00542731124513
+market, 5514, 0.00542731124513
+schedul, 7678, 0.00541569685676
+giant, 3865, 0.00541569685676
+action, 251, 0.00541569685676
+event, 3232, 0.00540419468647
+respect, 7321, 0.00539280258647
+increas, 4590, 0.00537034030943
+robert, 7437, 0.00535926613316
+otherwis, 6313, 0.0053374221191
+went, 9704, 0.00531597171238
+longer, 5337, 0.00531597171238
+steve, 8390, 0.00530538972835
+special, 8198, 0.00530538972835
+period, 6546, 0.00530538972835
+dead, 2415, 0.00530538972835
+intern, 4716, 0.00529490097887
+librari, 5250, 0.00528450383536
+draw, 2861, 0.00528450383536
+begin, 994, 0.00528450383536
+strong, 8456, 0.00527419671154
+produc, 6895, 0.00527419671154
+offic, 6206, 0.00527419671154
+various, 9432, 0.0052538463807
+materi, 5543, 0.00524380019986
+lose, 5350, 0.00523383808847
+date, 2391, 0.00523383808847
+copi, 2130, 0.00523383808847
+offer, 6203, 0.00522395865115
+applic, 585, 0.00521416052699
+limit, 5278, 0.00520444238842
+individu, 4604, 0.00520444238842
+com, 1917, 0.00520444238842
+black, 1133, 0.00520444238842
+packag, 6375, 0.00518524091788
+rate, 7108, 0.00516634424548
+stand, 8311, 0.00515700721437
+concern, 2004, 0.00514774284571
+white, 9737, 0.00510247254835
+satellit, 7632, 0.00509362146398
+frank, 3655, 0.00509362146398
+fli, 3542, 0.00508483570185
+quick, 7036, 0.00507611430486
+averag, 816, 0.00506745633678
+stop, 8413, 0.00503344072653
+miss, 5770, 0.00503344072653
+usual, 9377, 0.00502508654934
+station, 8346, 0.00502508654934
+continu, 2092, 0.00502508654934
+compar, 1960, 0.00500855204237
+propos, 6933, 0.00500037011762
+involv, 4750, 0.00499224404262
+particular, 6442, 0.00498417306008
+organ, 6287, 0.00498417306008
+govern, 3966, 0.00496819341929
+control, 2107, 0.00496819341929
+singl, 7983, 0.00493686357525
+forc, 3594, 0.00492915827091
+servic, 7813, 0.00489882630233
+seri, 7805, 0.00485472995134
+unless, 9289, 0.00484753678525
+free, 3668, 0.00484753678525
+lead, 5172, 0.00483327954461
+caus, 1569, 0.00481919103267
+process, 6890, 0.00481220881111
+ftp, 3709, 0.00481220881111
+money, 5835, 0.00479836603462
+came, 1472, 0.00479836603462
+net, 6010, 0.00479150454378
+color, 1907, 0.00478468237402
+leagu, 5176, 0.00477789907724
+form, 3610, 0.00477115421294
+light, 5267, 0.00473799147344
+non, 6097, 0.0047185283909
+posit, 6761, 0.0046743150466
+type, 9177, 0.00464976849935
+ago, 336, 0.00463768245275
+version, 9479, 0.00463168513344
+perhap, 6540, 0.00460799349851
+general, 3818, 0.00459632217596
+correct, 2156, 0.00458476416901
+sort, 8144, 0.00457902697543
+research, 7307, 0.00457902697543
+relat, 7247, 0.00455074855877
+import, 4551, 0.00451225440806
+opinion, 6266, 0.00445933612432
+seen, 7767, 0.00441863248882
+week, 9691, 0.00438412383017
+wonder, 9821, 0.00432257513467
+hand, 4145, 0.00431796984705
+current, 2299, 0.00431338230625
+note, 6118, 0.00429520690947
+understand, 9246, 0.00426845375294
+exist, 3283, 0.00426845375294
+hope, 4372, 0.00425529930567
+true, 9121, 0.00424660973888
+edu, 3001, 0.00422091524437
+order, 6281, 0.00420827301549
+hit, 4316, 0.00416303400048
+group, 4064, 0.00414302570825
+case, 1540, 0.0041390640894
+avail, 811, 0.00413511561028
+comput, 1993, 0.00412725772456
+news, 6031, 0.00411169586421
+man, 5471, 0.00411169586421
+talk, 8684, 0.00402596022434
+bit, 1122, 0.00401521911059
+best, 1052, 0.00398009959139
+line, 5285, 0.0039459865019
+anoth, 533, 0.00383681079652
+actual, 254, 0.00382764156995
+base, 923, 0.00372558084773
+believ, 1009, 0.00367631318128
+read, 7135, 0.00362386128946
+right, 7399, 0.0036212983921
+point, 6710, 0.00336027091823
+thing, 8869, 0.00325224038056
+need, 5993, 0.0032007925133
+know, 5052, 0.00256424192605

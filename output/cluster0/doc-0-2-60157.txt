@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60157
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Alaska Pipeline and Space Station!
+Organization: Express Access Online Communications USA
+Lines: 25
+NNTP-Posting-Host: access.digex.net
+
+In article <1993Apr5.160550.7592@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+|
+|I think this would be a great way to build it, but unfortunately
+|current spending rules don't permit it to be workable.  For this to
+|work it would be necessary for the government to guarantee a certain
+|minimum amount of business in order to sufficiently reduce the risk
+|enough to make this attractive to a private firm.  Since they
+|generally can't allocate money except one year at a time, the
+|government can't provide such a tenant guarantee.
+
+
+Fred.
+
+	Try reading a bit.  THe government does lots of multi year
+contracts with Penalty for cancellation clauses.  They just like to be
+damn sure they know what they are doing before they sign a multi year
+contract.   THe reason they aren't cutting defense spending as much
+as they would like is the Reagan administration signed enough
+Multi year contracts,  that it's now cheaper to just finish them out.
+
+Look at SSF.  THis years funding is 2.2 Billion,  1.8 of which will
+cover penalty clauses, due to the re-design.
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ alaska pipelin space station       think great
+way build unfortun current spend rule don't permit
+workabl work necessari govern guarante certain
+minimum amount busi order suffici reduc risk
+enough make attract privat firm sinc general can't
+alloc money except one year time govern can't
+provid tenant guarante   fred  tri read bit govern
+lot multi year contract penalti cancel claus like
+damn sure know sign multi year contract reason
+aren't cut defens spend much like reagan administr
+sign enough multi year contract it cheaper finish
+look ssf year fund billion cover penalti claus due
+design  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+multi, 5917, 0.306939119617
+contract, 2095, 0.296360500287
+penalti, 6514, 0.280129938147
+claus, 1795, 0.253862876194
+year, 9943, 0.238095542433
+govern, 3966, 0.237224219864
+guarante, 4076, 0.215527895451
+spend, 8222, 0.177507400829
+sign, 7946, 0.172394584703
+tenant, 8782, 0.147747592197
+reagan, 7143, 0.140064969074
+pipelin, 6637, 0.13461406122
+workabl, 9834, 0.128580101825
+ssf, 8289, 0.121480530244
+alloc, 431, 0.121480530244
+cancel, 1487, 0.118224366566
+alaska, 378, 0.117252477637
+permit, 6552, 0.113797907121
+firm, 3499, 0.11156619185
+attract, 772, 0.108948563444
+fred, 3666, 0.106115283997
+risk, 7416, 0.105596137002
+suffici, 8523, 0.103651078939
+administr, 273, 0.103194486243
+minimum, 5740, 0.101063289405
+cheaper, 1678, 0.0987868334289
+reduc, 7204, 0.0984326608739
+damn, 2346, 0.0967547794374
+necessari, 5990, 0.0932467598582
+privat, 6879, 0.0922082709312
+finish, 3488, 0.0917096189945
+billion, 1092, 0.0902878763018
+unfortun, 9264, 0.0900609552662
+busi, 1424, 0.0873344943948
+cover, 2194, 0.0871401575116
+fund, 3723, 0.0860142215555
+pat, 6458, 0.0841091985164
+cut, 2313, 0.0833027925611
+aren, 623, 0.0826815014907
+defens, 2476, 0.0819324838075
+station, 8346, 0.0799802621605
+like, 5272, 0.0797930058097
+rule, 7537, 0.0790747399547
+build, 1378, 0.0764815759543
+money, 5835, 0.0763717340234
+design, 2564, 0.0736238321015
+general, 3818, 0.0731559643796
+provid, 6949, 0.0700904769388
+current, 2299, 0.0686526379725
+certain, 1619, 0.0670465328246
+order, 6281, 0.0669796979052
+bit, 1122, 0.0639070141268
+great, 4016, 0.0630204112236
+reason, 7156, 0.0611163297076
+sure, 8585, 0.0610186610377
+lot, 5356, 0.0591199923713
+sinc, 7977, 0.0577599339182
+read, 7135, 0.0576780863611
+tri, 9087, 0.054874322209
+space, 8164, 0.0537463545117
+work, 9833, 0.0536801038148
+way, 9666, 0.0495648156092
+make, 5459, 0.0475232919486
+look, 5341, 0.0472858492422
+time, 8936, 0.0450200813134
+think, 8871, 0.0433958594497
+don, 2811, 0.0429777392133
+know, 5052, 0.0408129769457

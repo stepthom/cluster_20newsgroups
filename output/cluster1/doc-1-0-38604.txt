@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38604
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wbdst+@pitt.edu (William B Dwinnell)
+Subject: Diamond Stelth 24- any good?
+Organization: University of Pittsburgh
+Lines: 4
+
+
+I am in the market for a 24-bit graphics card for a PC (ISA bus), and
+was wondering if anyone had any comments (good? bad? otherwise?) regarding
+the Diamond Stealth 24?  
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ diamond stelth good     market bit graphic card
+isa bus wonder anyon comment good bad otherwis
+regard diamond stealth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+diamond, 2614, 0.534175331587
+stelth, 8373, 0.346768763372
+stealth, 8363, 0.328737378357
+isa, 4774, 0.282423021297
+bus, 1419, 0.246651864557
+good, 3948, 0.228631087995
+market, 5514, 0.202741923719
+otherwis, 6313, 0.199384037372
+card, 1513, 0.190940408834
+regard, 7224, 0.182168654467
+comment, 1936, 0.178482568348
+bad, 861, 0.163772752106
+wonder, 9821, 0.161473547147
+bit, 1122, 0.149991996012
+graphic, 3997, 0.14641194805
+anyon, 554, 0.11950125751

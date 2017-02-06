@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60204
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: will@rins.ryukoku.ac.jp (William Reiken)
+Subject: Re: nuclear waste
+Organization: Ryukoku Univ., Seta, Japan
+Lines: 12
+
+In article <1pp6reINNonl@phantom.gatech.edu>, matthew@phantom.gatech.edu (Matthew DeLuca) writes:
+>
+> Greedy little oil companies?  Don't blame them; oil companies just supply the
+> demand created by you, me, and just about everyone else on the planet.  If we
+> run out, its all our faults.
+>
+
+	Ok, so how about the creation of oil producing bacteria?  I figure
+that if you can make them to eat it up then you can make them to shit it.
+Any comments?
+
+						Will...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nuclear wast      greedi littl oil compani don't
+blame oil compani suppli demand creat everyon els
+planet run fault   creation oil produc bacteria
+figur make eat make shit comment
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oil, 6213, 0.622474676265
+compani, 1958, 0.266582174459
+greedi, 4022, 0.236850015538
+bacteria, 860, 0.223858691454
+shit, 7893, 0.196710804051
+blame, 1138, 0.177708717654
+nuclear, 6150, 0.175274087587
+fault, 3407, 0.171587203252
+demand, 2514, 0.168915610844
+eat, 2968, 0.167658957719
+suppli, 8574, 0.163073928331
+creation, 2218, 0.162023324453
+make, 5459, 0.160723877082
+wast, 9654, 0.150440602915
+planet, 6664, 0.146706795632
+produc, 6895, 0.141951337398
+figur, 3476, 0.136155723257
+comment, 1936, 0.128593831641
+everyon, 3241, 0.127696278621
+creat, 2217, 0.123863493398
+els, 3053, 0.110767632361
+littl, 5308, 0.107685391027
+run, 7543, 0.096514303464
+don, 2811, 0.0726754039058

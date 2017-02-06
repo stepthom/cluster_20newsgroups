@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61093
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dante@shakala.com (Charlie Prael)
+Subject: Re: Moonbase race
+Organization: Shakala BBS (ClanZen Radio Network) Sunnyvale, CA +1-408-734-2289
+Lines: 20
+
+sysmgr@king.eng.umd.edu (Doug Mohney) writes:
+
+> Allen, sometimes I think you're OK.  And sometimes you tend to rashly leap in
+> making statement without thinking them out. 
+> 
+> Wanna guess which today?
+> 
+> You'd need to launch HLVs to send up large amounts of stuff.  Do you know 
+> of a private Titan pad? 
+
+
+Doug-- Actually, if memory serves, the Atlas is an outgrowth of the old 
+Titan ICBM.  If so, there's probably quite a few old pads, albeit in need 
+of some serious reconditioning.  Still, Being able to buy the turf and 
+pad (and bunkers, including prep facility) at Midwest farmland prices 
+strikes me as pretty damned cheap.
+
+------------------------------------------------------------------
+Charlie Prael  - dante@shakala.com 
+Shakala BBS (ClanZen Radio Network) Sunnyvale, CA +1-408-734-2289
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race      allen sometim think you'r
+sometim tend rash leap make statement without
+think  wanna guess today  you'd need launch hlvs
+send larg amount stuff know privat titan pad
+doug actual memori serv atlas outgrowth old titan
+icbm there probabl quit old pad albeit need
+serious recondit still abl buy turf pad bunker
+includ prep facil midwest farmland price strike
+pretti damn cheap    shakala bbs clanzen radio
+network sunnyval
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pad, 6377, 0.388208451216
+titan, 8951, 0.25493757224
+sometim, 8128, 0.201115422395
+shakala, 7841, 0.178351280305
+clanzen, 1784, 0.178351280305
+rash, 7103, 0.173247450291
+old, 6216, 0.172973870372
+prep, 6830, 0.16907731753
+hlvs, 4326, 0.16907731753
+turf, 9154, 0.165551520518
+bunker, 1402, 0.165551520518
+midwest, 5705, 0.162497336225
+sunnyval, 8545, 0.159803354755
+icbm, 4474, 0.155213533035
+wanna, 9633, 0.15322337345
+albeit, 382, 0.149697576439
+leap, 5180, 0.145256761151
+atlas, 751, 0.143949410675
+moonbas, 5852, 0.136435732118
+need, 5993, 0.122993628658
+doug, 2833, 0.121997027424
+bbs, 961, 0.117584856357
+damn, 2346, 0.116796074519
+cheap, 1677, 0.116033590364
+allen, 426, 0.11458088593
+strike, 8448, 0.113887729657
+tend, 8783, 0.113548872992
+race, 7049, 0.112885858265
+serv, 7810, 0.111614842041
+privat, 6879, 0.111307825263
+facil, 3348, 0.110410753168
+price, 6857, 0.106387710345
+network, 6018, 0.105901045039
+think, 8871, 0.104769316071
+buy, 1433, 0.103830771864
+memori, 5628, 0.10361189549
+statement, 8343, 0.103180327847
+radio, 7061, 0.1021357442
+launch, 5147, 0.0899270355573
+guess, 4079, 0.0886463118668
+send, 7785, 0.0878671277827
+stuff, 8472, 0.0876492936933
+today, 8964, 0.0874335146731
+larg, 5124, 0.0847037671178
+pretti, 6851, 0.0838617429596
+quit, 7043, 0.0837700698649
+abl, 180, 0.0836787627317
+includ, 4579, 0.0787028650093
+probabl, 6885, 0.0748031238673
+actual, 254, 0.0735404628595
+make, 5459, 0.0573670260022
+know, 5052, 0.0492667703283

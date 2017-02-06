@@ -1,0 +1,218 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61276
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: 18084TM@msu.edu (Tom)
+Subject: Vandalizing the sky
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 47
+
+Wm Hathaway comments;
+>I'd like to add that some of the "protests" do not come from a strictly
+>practical consideration of what pollution levels are acceptable for
+>research activities by professional astronomers.  Some of what I
+>would complain about is rooted in aesthetics.  Many readers may
+>never have known a time where the heavens were pristine - sacred -
+>unsullied by the actions of humans.  The space between the stars
+>as profoundly black as an abyss can be.  With full horizons and
+>a pure sky one could look out upon half of all creation at a time
+>- none of which had any connection with the petty matters of man.
+>Any lights were supplied solely by nature; uncorruptable by men.
+>Whole religions were based on mortal man somehow getting up there
+>and becoming immortal as the stars, whether by apotheosis or a belief
+>in an afterlife.
+
+>The Space Age changed all that.  [more on man's effect on the environment]
+
+>But there is still this desire to see a place that man hasn't
+>fouled in some way.
+>.... I think my point about a desire for beauty is valid,
+>even if it can't ever be perfectly achieved.
+
+I agree that the desire for beauty is valid, but I think your desire to
+impose your vision of beauty is not.  You mention the age-old desire to
+somehow get up there, but ignore the beauty of the actual achievment
+of that vision.  You mention the beauty of a very dark sky, not impeded
+by the effects of humans, but ignore the beauty of the as-dark-as-can-be
+sky that is only visible from space, a vision that we, or at least,
+our descendents, may one day be able to see, in part, because of efforts
+that others call ugly.  One day, I hope, humans will be able to look out,
+not upon half the heavens, with only nature-creted lights, but upon all
+of the heavens, with no lights.  If advertising in space can help us reach
+that goal, it is no less beautiful for the way we reach it, than the
+'pristine' sky of yesteryear (or yester-century), which is totally
+unreachable.  One of the original conceptions of beauty in wetsern
+sculpture was a human form, in the effort of striving to reach a goal.
+I don't think there's any reason to believe that modernity has changed that,
+just because it has changed the way we strive.
+
+BTW, there are places that people haven't fouled.  Sometimes they make
+it better.
+
+-Tommy Mac
+-------------------------------------------------------------------------
+Tom McWilliams 517-355-2178 wk   \\ As the radius of vision increases,
+18084tm@ibm.cl.msu.edu 336-9591 hm \\ the circumference of mystery grows.
+-------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky ad forward space digest      hathaway
+comment i'd like add protest come strict practic
+consider pollut level accept research activ
+profession astronom complain root aesthet mani
+reader never known time heaven pristin sacr
+unsulli action human space star profound black
+abyss full horizon pure sky one could look upon
+half creation time none connect petti matter man
+light suppli sole natur uncorrupt men whole
+religion base mortal man somehow get becom immort
+star whether apotheosi belief afterlif  space age
+chang man effect environ  still desir see place
+man hasn't foul way think point desir beauti valid
+even can't ever perfect achiev  agre desir beauti
+valid think desir impos vision beauti mention age
+old desir somehow get ignor beauti actual achiev
+vision mention beauti dark sky imped effect human
+ignor beauti dark sky visibl space vision least
+descend one day abl see part effort other call
+ugli one day hope human abl look upon half heaven
+natur crete light upon heaven light advertis space
+help reach goal less beauti way reach pristin sky
+yesteryear yester centuri total unreach one origin
+concept beauti wetsern sculptur human form effort
+strive reach goal don't think there reason believ
+modern chang chang way strive  btw place peopl
+haven't foul sometim make better  tommi mac  tom
+mcwilliam radius vision increas
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+beauti, 978, 0.467471303932
+desir, 2565, 0.262095084848
+sky, 8011, 0.230949628262
+vision, 9542, 0.217466206681
+heaven, 4229, 0.165310573133
+human, 4432, 0.164968442244
+pristin, 6878, 0.157924920797
+space, 8164, 0.151499137071
+man, 5471, 0.147574524964
+strive, 8453, 0.147011777603
+reach, 7128, 0.139323825919
+foul, 3626, 0.132203565008
+light, 5267, 0.127539863854
+chang, 1650, 0.115138847267
+goal, 3924, 0.114409515329
+valid, 9411, 0.109457367102
+achiev, 232, 0.108379975716
+dark, 2365, 0.101291971469
+effort, 3007, 0.0998347884987
+half, 4124, 0.0967776200146
+age, 328, 0.0955904404474
+ignor, 4496, 0.0953988361597
+star, 8324, 0.0923798513048
+natur, 5966, 0.0904796007956
+effect, 3005, 0.0856217044934
+mention, 5632, 0.0855013451053
+way, 9666, 0.0838273798708
+unsulli, 9315, 0.0832935849343
+uncorrupt, 9231, 0.0832935849343
+sculptur, 7732, 0.0832935849343
+apotheosi, 575, 0.0832935849343
+afterlif, 323, 0.0832935849343
+abl, 180, 0.0781592833971
+profound, 6904, 0.0773158432713
+petti, 6577, 0.0773158432713
+mortal, 5870, 0.0735058888016
+hathaway, 4205, 0.0735058888016
+think, 8871, 0.0733940225582
+place, 6657, 0.0731719443844
+immort, 4532, 0.0707033485081
+sacr, 7567, 0.0699117369734
+aesthet, 306, 0.0699117369734
+abyss, 203, 0.0699117369734
+ugli, 9193, 0.069174764266
+mcwilliam, 5590, 0.0672272295652
+horizon, 4374, 0.0672272295652
+impos, 4552, 0.0661017825038
+sole, 8111, 0.0655806124378
+day, 2402, 0.0633510708013
+strict, 8445, 0.0628961050296
+root, 7477, 0.0610812660407
+descend, 2554, 0.0610812660407
+tommi, 8978, 0.060433681867
+protest, 6942, 0.0601240408407
+radius, 7064, 0.059245584377
+pollut, 6726, 0.059245584377
+complain, 1973, 0.0579251564859
+reader, 7137, 0.0572047576646
+advertis, 291, 0.0569750312313
+profession, 6900, 0.0554919987318
+pure, 6990, 0.0552959956649
+visibl, 9541, 0.0547286835512
+vandal, 9419, 0.0547286835512
+hasn, 4195, 0.0547286835512
+suppli, 8574, 0.0543665516703
+creation, 2218, 0.0540162951296
+digest, 2640, 0.0538453816044
+look, 5341, 0.0533153581927
+astronom, 728, 0.0531878283516
+modern, 5811, 0.0527199345429
+centuri, 1614, 0.0525684161522
+men, 5629, 0.051293569908
+connect, 2046, 0.0510298066936
+time, 8936, 0.0507606778679
+consider, 2060, 0.0503975590156
+btw, 1355, 0.0503975590156
+environ, 3139, 0.049685170594
+belief, 1008, 0.049685170594
+concept, 2002, 0.0493460352072
+action, 251, 0.048594236866
+forward, 3621, 0.0484910296145
+tom, 8976, 0.0481872593592
+increas, 4590, 0.0481872593592
+mac, 5410, 0.0476044675219
+sometim, 8128, 0.0469624453724
+practic, 6793, 0.0467858815601
+perfect, 6538, 0.046698682158
+black, 1133, 0.046698682158
+add, 260, 0.0458637364161
+ad, 257, 0.0458637364161
+haven, 4207, 0.0456254692713
+activ, 252, 0.0456254692713
+religion, 7261, 0.0452398003978
+accept, 208, 0.0438894636102
+level, 5229, 0.0438229097037
+comment, 1936, 0.042871372904
+form, 3610, 0.0428108522467
+becom, 983, 0.0428108522467
+known, 5054, 0.0426908300015
+total, 9013, 0.0426313208368
+matter, 5553, 0.0414525975181
+agre, 337, 0.0413468355904
+research, 7307, 0.0410869233166
+old, 6216, 0.0403911139258
+hope, 4372, 0.0381821634159
+origin, 6293, 0.0379882948015
+reason, 7156, 0.0344546948189
+actual, 254, 0.0343448545972
+base, 923, 0.0334290790209
+believ, 1009, 0.032987007628
+better, 1060, 0.0319558022885
+help, 4249, 0.0313817130567
+come, 1923, 0.030975509458
+mani, 5479, 0.0302998274142
+point, 6710, 0.0301512077307
+peopl, 6530, 0.0289815750118
+make, 5459, 0.0267915388361
+don, 2811, 0.0242289564129
+like, 5272, 0.0224918910953

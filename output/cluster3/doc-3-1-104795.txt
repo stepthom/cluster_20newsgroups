@@ -1,0 +1,154 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104795
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: fester@island.COM (Mike Fester)
+Subject: Re: Notes on Jays vs. Indians Series
+Organization: /usr/local/rn/organization
+Distribution: na
+Lines: 38
+
+In article <1993Apr13.221704.4291@midway.uchicago.edu> thf2@midway.uchicago.edu writes:
+>In article <rudyC5FxC8.DEu@netcom.com> rudy@netcom.com (Rudy Wade) writes:
+>>In article <1993Apr13.195301.22652@CSD-NewsHost.Stanford.EDU> nlu@Xenon.Stanford.EDU (Nelson Lu) writes:
+>>>Guess which line is which:
+>>>	BA	OBP	SLG	AB	H	2B	3B	HR	BB
+>>>X	.310	.405	.427	571	177	27	8	8	87
+>>>Y	.312	.354	.455	657	205	32	1	20	35
+>>
+>>>The walks should give it away.  OBP's, in general, somewhat more valuable than
+>>>slugging, and Alomar's edge in OBP was quite a bit larger than Baerga's edge
+>>>in slugging.
+>>
+>>I'm no SDCN, but what's more valuable:
+>>
+>>28 hits w/5 more doubles, 12 more HRs   OR
+>>7 more triples and 52 BBs?  (Let's not forget the 39 extra SBs. How many CS?)
+>
+>Alomar had 9 CS.  Baerga had 2.
+>
+>Don't forget the 59 more outs Baerga had (his GIDP balances out his CS, and
+>he had one more sacrifice than Alomar).   A replacement level second baseman
+>could have had 17 hits, 5 walks, and a couple of XBH for the additional
+>outs Baerga had.  A triple is little different than a home run.  We're talking
+>exchanging almost 60 walks for six or seven home runs and four doubles.  I 
+>would say the almost-60 walks are more valuable.
+
+Also, Alomar got a FAR greater boost from his home park than Baerga did from 
+his. And "six or seven home runs"? Hmm.
+
+So, if you wanted to pick a second baseman to play in Toronto, you'd take 
+Alomar. Anywhere else, and you'd probably take Baerga.
+
+Mike
+-- 
+Disclaimer - These opiini^H^H damn! ^H^H ^Q ^[ .... :w  :q  :wq  :wq! ^d  ^X ^?
+exit X Q  ^C ^? :quitbye  CtrlAltDel   ~~q  :~q  logout  save/quit :!QUIT
+^[zz ^[ZZZZZZ ^vi  man vi ^@  ^L  ^[c  ^# ^E ^X ^I ^T ? help  helpquit ^D  ^d !!
+man help ^C ^c :e! help exit ?Quit ?q CtrlShftDel "Hey, what does Stop L1A d..."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ note jay indian seri        guess line obp slg
+walk give away obp general somewhat valuabl slug
+alomar edg obp quit bit larger baerga edg slug
+i'm sdcn what valuabl  hit doubl hrs tripl bbs let
+forget extra sbs mani  alomar baerga  don't forget
+out baerga gidp balanc one sacrific alomar replac
+level second baseman could hit walk coupl xbh
+addit out baerga tripl littl differ home run we'r
+talk exchang almost walk six seven home run four
+doubl say almost walk valuabl  also alomar got far
+greater boost home park baerga six seven home run
+hmm  want pick second baseman play toronto you'd
+take alomar anywher els you'd probabl take baerga
+mike  disclaim opiini damn exit quitby ctrlaltdel
+logout save quit quit zzzzzz man help helpquit man
+help help exit quit ctrlshftdel hey stop l1a
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baerga, 863, 0.454003618326
+alomar, 436, 0.346957633652
+valuabl, 9415, 0.222939895966
+walk, 9617, 0.218437631752
+obp, 6177, 0.205631734438
+home, 4354, 0.198215435953
+quit, 7043, 0.188264529871
+exit, 3284, 0.16036605506
+tripl, 9105, 0.159047731283
+slug, 8048, 0.157793742155
+seven, 7820, 0.150399829933
+baseman, 928, 0.144664666051
+edg, 2993, 0.122471457981
+doubl, 2828, 0.119825522343
+forget, 3604, 0.117173514246
+run, 7543, 0.116130020325
+help, 4249, 0.113261475176
+zzzzzz, 9999, 0.0973389118361
+quitby, 7044, 0.0973389118361
+opiini, 6265, 0.0973389118361
+logout, 5333, 0.0973389118361
+l1a, 5084, 0.0973389118361
+helpquit, 4250, 0.0973389118361
+ctrlshftdel, 2281, 0.0973389118361
+ctrlaltdel, 2280, 0.0973389118361
+sbs, 7655, 0.0949959267908
+hit, 4316, 0.0898782660012
+second, 7753, 0.0894462948448
+man, 5471, 0.0887698958395
+sdcn, 7733, 0.0860884036935
+hrs, 4414, 0.0795238656415
+balanc, 872, 0.0766562837006
+sacrific, 7569, 0.0761522646147
+exchang, 3264, 0.0761522646147
+hmm, 4327, 0.0747489620512
+slg, 8028, 0.0743132986552
+anywher, 557, 0.0693915267304
+boost, 1224, 0.0688202842686
+somewhat, 8129, 0.066999956223
+indian, 4598, 0.0662923918691
+greater, 4017, 0.0662923918691
+hey, 4283, 0.0660649374463
+bbs, 961, 0.0660649374463
+larger, 5125, 0.0658414389539
+damn, 2346, 0.0656217611362
+disclaim, 2691, 0.0630627905126
+replac, 7288, 0.0620341745312
+extra, 3325, 0.0599127611713
+park, 6430, 0.0592326638896
+addit, 263, 0.0583372184201
+pick, 6619, 0.0578522235263
+jay, 4832, 0.0573848687718
+mike, 5710, 0.0554696364792
+stop, 8413, 0.0543350023646
+toronto, 9003, 0.0536306705197
+coupl, 2187, 0.0534604582379
+level, 5229, 0.0527212285553
+seri, 7805, 0.0524058547059
+save, 7646, 0.0517233488703
+away, 833, 0.0509355856574
+guess, 4079, 0.0498058443049
+general, 3818, 0.0496163936099
+note, 6118, 0.0463659135495
+els, 3053, 0.0444267393042
+talk, 8684, 0.043459448555
+bit, 1122, 0.0433435003453
+littl, 5308, 0.0431905123551
+far, 3386, 0.0429270891468
+line, 5285, 0.0425961479553
+play, 6681, 0.042380162377
+got, 3960, 0.0421677469723
+probabl, 6885, 0.04202806256
+let, 5225, 0.0405841041015
+differ, 2633, 0.0395698225771
+mani, 5479, 0.0364522606347
+want, 9634, 0.0350063452948
+say, 7653, 0.03262654313
+don, 2811, 0.0291486886046

@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38779
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: donc@cognos.com (Don Campbell)
+Subject: AVI to FLC converter
+Organization: Cognos Incorporated, Ottawa CANADA
+Lines: 18
+
+I am looking for a small utility that will convert a Microsoft Video (AVI)
+file to an Autodesk Animator Pro (FLC) file. Since AVIs also contain sound,
+it would be nice if this utility also stored the sound track as a WAV or VOC
+file. Currently I'm accomplishing this by saving the AVI as multiple DIBs
+using Video for Windows, then converting each DIB to a GIF, then loading the
+GIFs into Animator. For the sound, I load the original AVI into WavEdit and
+save it as a seperate WAV file. This requires too many steps to be productive.
+
+Any help will be GREATLY appreciated.
+
+          Thanks
+             Don
+
+-- 
+Don Campbell       internet:  donc@cognos.COM
+                       uucp:  cognos!donc  
+Cognos Inc.            mail: P.O. Box 9707, 3755 Riverside Drive, 
+(613) 738-1440               Ottawa Ontario, Canada. K1G 3Z4
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ avi flc convert    look small util convert
+microsoft video avi file autodesk anim pro flc
+file sinc avi also contain sound nice util also
+store sound track wav voc file current i'm
+accomplish save avi multipl dib use video window
+convert dib gif load gif anim sound load origin
+avi wavedit save seper wav file requir mani step
+product  help great appreci  thank     uucp cogno
+donc cogno inc mail box riversid drive ottawa
+ontario canada k1g 3z4
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+avi, 822, 0.651563606639
+dib, 2617, 0.270240795779
+flc, 3532, 0.24192110224
+file, 3477, 0.231315668168
+convert, 2115, 0.201502318252
+sound, 8150, 0.196854303902
+util, 9384, 0.156934191865
+load, 5317, 0.155464788671
+video, 9506, 0.151408479268
+anim, 515, 0.144270076882
+gif, 3869, 0.141084473319
+save, 7646, 0.134526418267
+seper, 7798, 0.109376835022
+autodesk, 801, 0.108223842038
+ottawa, 6317, 0.106132144409
+microsoft, 5693, 0.101080496073
+ontario, 6248, 0.0990315942927
+accomplish, 218, 0.0902396475966
+pro, 6883, 0.088785533497
+canada, 1481, 0.0868171705223
+multipl, 5919, 0.0865105239414
+store, 8417, 0.0847801759531
+track, 9030, 0.0827207404382
+uucp, 9388, 0.0804589469923
+step, 8377, 0.0772018173988
+contain, 2079, 0.0734726937436
+drive, 2873, 0.0725252142131
+product, 6896, 0.0699678925139
+window, 9774, 0.0695222189085
+box, 1254, 0.0682523599253
+nice, 6047, 0.0676518724597
+small, 8054, 0.0651038524256
+appreci, 587, 0.0646049565785
+requir, 7302, 0.0621698543373
+current, 2299, 0.0605513223431
+origin, 6293, 0.0594326451201
+mail, 5447, 0.057450928753
+great, 4016, 0.0555837233192
+sinc, 7977, 0.0509440056563
+help, 4249, 0.0490966553014
+mani, 5479, 0.0474040464127
+thank, 8832, 0.0468004603176
+look, 5341, 0.0417059094055
+use, 9363, 0.036908641919

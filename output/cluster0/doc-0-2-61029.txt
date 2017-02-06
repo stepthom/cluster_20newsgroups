@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61029
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jgreen@trumpet.calpoly.edu (James Thomas Green)
+Subject: Re: Keeping Spacecraft on after Funding Cuts.
+Article-I.D.: zeus.1993Apr22.003719.101323
+Organization: California Polytechnic State University, San Luis Obispo
+Lines: 32
+
+prb@access.digex.com (Pat) Pontificated: 
+>
+>
+>Some birds require constant management for survival.  Pointing a sensor at
+>the sun, even when powered down, may burn it out.  Pointing a
+>parabolic antenna  at Sol,  from venus orbit  may trash the
+>foci  elements.
+>
+What I was getting at in my post is whether or not it might be
+possible to put enough brains on board future deep-space probes
+for them to automatically avoid such things as looking at the
+sun or going into an uncontrolled tumble.  
+
+I heard once that the voyagers had a failsafe routine built in
+that essentially says "If you never hear from Earth again,
+here's what to do."  This was a back up in the event a receiver
+burnt out but the probe could still send data (limited, but
+still some data).  
+
+>Even if you let teh bird drift,  it may  get hosed by some
+>cosmic phenomena.   
+>
+Since this would be a shutdown that may never be refunded for
+startup, if some type of cosmic BEM took out the probe, it might
+not be such a big loss.  Obviously you can't plan for
+everything, but the most obvious things can be considered.
+
+
+/~~~(-: James T. Green :-)~~~~(-: jgreen@oboe.calpoly.edu :-)~~~\ 
+| "I know you believe you understand what it is that you        |   
+| think I said.  But I am not sure that you realize that        |
+| what I said is not what I meant."                             |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ keep spacecraft fund cut articl zeus 1993apr22
+bird requir constant manag surviv point sensor sun
+even power burn point parabol antenna sol venus
+orbit trash foci element  get post whether might
+possibl put enough brain board futur deep space
+probe automat avoid thing look sun go uncontrol
+tumbl  heard voyag failsaf routin built essenti
+say never hear earth here back event receiv burnt
+probe could still send data limit still data  even
+let teh bird drift get hose cosmic phenomena  sinc
+shutdown never refund startup type cosmic bem took
+probe might big loss obvious can't plan everyth
+obvious thing consid    know believ understand
+think said sure realiz said meant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+probe, 6886, 0.323477903044
+cosmic, 2164, 0.240206446594
+bird, 1113, 0.237107319918
+obvious, 6185, 0.170261552134
+sun, 8539, 0.166475121729
+shutdown, 7926, 0.157001126547
+sol, 8106, 0.152508268068
+foci, 3568, 0.152508268068
+bem, 1019, 0.152508268068
+1993apr22, 44, 0.152508268068
+data, 2385, 0.149128022379
+startup, 8337, 0.1488373354
+hose, 4384, 0.145733606053
+burnt, 1415, 0.145733606053
+drift, 2870, 0.140673544253
+zeus, 9986, 0.136633162937
+said, 7583, 0.134050065039
+phenomena, 6584, 0.133269631451
+teh, 8750, 0.130388383775
+sensor, 7792, 0.124596081776
+trash, 9068, 0.117114877568
+voyag, 9588, 0.116432290628
+antenna, 538, 0.114513278643
+point, 6710, 0.113664781848
+venus, 9463, 0.111149747157
+thing, 8869, 0.110010532594
+surviv, 8599, 0.107825967681
+deep, 2466, 0.105357445158
+automat, 803, 0.105357445158
+constant, 2067, 0.102814598496
+essenti, 3196, 0.102476197482
+brain, 1266, 0.102476197482
+avoid, 827, 0.10214339013
+meant, 5598, 0.10181599452
+element, 3037, 0.100864586679
+routin, 7499, 0.0988052648135
+loss, 5352, 0.0969371615439
+board, 1186, 0.0966838954828
+burn, 1413, 0.0943124063348
+realiz, 7149, 0.0923933943494
+fund, 3723, 0.0914013520117
+event, 3232, 0.0914013520117
+spacecraft, 8166, 0.0897302599653
+took, 8987, 0.0888585053496
+cut, 2313, 0.0885201043356
+built, 1381, 0.0881872969837
+receiv, 7167, 0.0880229337332
+limit, 5278, 0.0880229337332
+hear, 4223, 0.086908493533
+everyth, 3242, 0.0867542062924
+futur, 3737, 0.0849894815476
+plan, 6660, 0.082230631734
+type, 9177, 0.0786417129727
+send, 7785, 0.0773486908799
+manag, 5472, 0.076872678488
+heard, 4224, 0.076499808825
+requir, 7302, 0.0749024122032
+power, 6783, 0.0747325007614
+orbit, 6280, 0.0728751089813
+understand, 9246, 0.0721925220412
+consid, 2059, 0.0706153584436
+earth, 2956, 0.0701383794387
+big, 1082, 0.0685838286383
+possibl, 6765, 0.0660124757218
+articl, 665, 0.0648921281635
+sure, 8585, 0.0648403021725
+let, 5225, 0.0635861990941
+believ, 1009, 0.062177625841
+sinc, 7977, 0.0613774787094
+post, 6766, 0.0588036322162
+space, 8164, 0.0571125260362
+say, 7653, 0.0511184837796
+look, 5341, 0.0502473948331
+think, 8871, 0.0461137722772
+know, 5052, 0.0433691220475

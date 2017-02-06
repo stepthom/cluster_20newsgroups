@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38410
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ccgwt@trentu.ca (Grant Totten)
+Subject: Re: MS-Windows Screen Grabber (summary)
+Lines: 28
+Reply-To: ccgwt@trentu.ca (Grant Totten)
+Organization: Trent University
+
+
+Hi again,
+
+Many thanks to all the people who responded to my request for a MS-
+Windows screen grabber.  It proves to me AGAIN that the net is a 
+wonderful thing.  :-)
+
+So, in summary:
+
+There are two choices:
+
+1)	Various screen grabber packages (Corel Draw has one, there are
+a couple on simtel and cica).
+
+2)	Use the built-in PrintScreen and Alt-PrintScreen functionality
+to paste the screen (or window) to the clipboard.  Then paste the 
+clipboard to your application.  Cool!
+
+Again, thanks for the info...
+
+Grant (the MS-Windows newbie -- Unix and X are my bag ;-)
+
+--
+Grant Totten, Programmer/Analyst, Trent University, Peterborough Ontario
+GTotten@TrentU.CA            Phone: (705) 748-1653   FAX: (705) 748-1246
+========================================================================
+A woman's place is in the wrong.
+		-- James Thurber
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ window screen grabber summari        mani thank
+peopl respond request window screen grabber prove
+net wonder thing  summari  two choic  various
+screen grabber packag corel draw one coupl simtel
+cica  use built printscreen alt printscreen
+function past screen window clipboard past
+clipboard applic cool  thank info  grant window
+newbi unix bag   grant totten programm analyst
+trent univers peterborough ontario   woman place
+wrong jame thurber
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grabber, 3974, 0.45605456203
+screen, 7719, 0.382614702399
+window, 9774, 0.342202544064
+grant, 3994, 0.217662195808
+summari, 8536, 0.21521814796
+past, 6456, 0.173900268102
+trent, 9086, 0.160356449572
+totten, 9014, 0.160356449572
+cica, 1751, 0.155767572729
+newbi, 6024, 0.152018187343
+simtel, 7972, 0.146102096141
+corel, 2141, 0.131847742711
+analyst, 491, 0.129425571683
+ontario, 6248, 0.121863427411
+woman, 9818, 0.118920603638
+bag, 864, 0.11824629126
+thank, 8832, 0.11518070651
+cool, 2124, 0.113525165182
+alt, 446, 0.105011883301
+programm, 6906, 0.104326330319
+jame, 4820, 0.101792089886
+respond, 7322, 0.0984946937941
+request, 7301, 0.0975034327536
+function, 3722, 0.0963279879775
+choic, 1717, 0.0950007736196
+unix, 9284, 0.094161282161
+prove, 6947, 0.0912871218402
+draw, 2861, 0.0912871218402
+various, 9432, 0.0907575298698
+built, 1381, 0.0900719768877
+applic, 585, 0.0900719768877
+packag, 6375, 0.0895724053171
+coupl, 2187, 0.0855506360159
+net, 6010, 0.082770809278
+info, 4636, 0.080961759172
+wrong, 9869, 0.075483230967
+wonder, 9821, 0.07467029172
+place, 6657, 0.0704351554747
+univers, 9282, 0.0683399338619
+mani, 5479, 0.058333096728
+thing, 8869, 0.0561808020438
+peopl, 6530, 0.0557952029028
+use, 9363, 0.0454179662305

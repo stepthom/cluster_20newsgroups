@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38360
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cliff@watson.ibm.com (cliff)
+Subject: Reprints
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: cliff.watson.ibm.com
+Organization: A
+Lines: 17
+
+I have a few reprints left of chapters from my book "Visions of the             
+Future".  These include reprints of 3 chapters probably of interest to          
+readers of this forum, including:                                               
+                                                                                
+1. Current Techniques and Development of Computer Art, by Franz Szabo           
+                                                                                
+2. Forging a Career as a Sculptor from a Career as Computer Programmer,         
+by Stewart Dickson                                                              
+                                                                                
+3. Fractals and Genetics in the Future by H. Joel Jeffrey                       
+                                                                                
+I'd be happy to send out free reprints to researchers for scholarly             
+purposes, until the reprints run out.                                           
+                                                                                
+Just send me your name and address.                                             
+                                                                                
+Thanks, Cliff  cliff@watson.ibm.com                                             
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ reprint      reprint left chapter book vision
+futur includ reprint chapter probabl interest
+reader forum includ  current techniqu develop
+comput art franz szabo  forg career sculptor
+career comput programm stewart dickson  fractal
+genet futur joel jeffrey  i'd happi send free
+reprint research scholar purpos reprint run  send
+name address
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+reprint, 7296, 0.719094269723
+chapter, 1658, 0.217872660522
+career, 1517, 0.190616360368
+futur, 3737, 0.173779510546
+szabo, 8664, 0.166433315145
+franz, 3659, 0.160511503481
+send, 7785, 0.158156249429
+joel, 4877, 0.146243367048
+jeffrey, 4842, 0.146243367048
+genet, 3823, 0.146243367048
+comput, 1993, 0.142730442596
+includ, 4579, 0.141661054177
+stewart, 8392, 0.13789704228
+scholar, 7683, 0.122788602657
+fractal, 3637, 0.120455780438
+forum, 3620, 0.114169630596
+reader, 7137, 0.110236840763
+techniqu, 8740, 0.105465304288
+vision, 9542, 0.104767455436
+programm, 6906, 0.104427206868
+art, 660, 0.100730515046
+happi, 4161, 0.0968837247344
+purpos, 6993, 0.0885373999662
+free, 3668, 0.0838197075439
+left, 5193, 0.0819255381119
+address, 264, 0.0799841933593
+research, 7307, 0.0791768518567
+develop, 2588, 0.0766645579389
+current, 2299, 0.0745835378774
+book, 1218, 0.0737305711555
+probabl, 6885, 0.067320861709
+run, 7543, 0.0620059753915

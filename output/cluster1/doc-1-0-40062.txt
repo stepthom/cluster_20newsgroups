@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/40062
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Zheng Wang <zw10+@andrew.cmu.edu>
+Subject: help
+Organization: Sponsored account, Physics, Carnegie Mellon, Pittsburgh, PA
+Lines: 12
+NNTP-Posting-Host: po2.andrew.cmu.edu
+
+Hi there,
+
+I am here looking for some help.
+
+My friend is a interior decor designer. He is from Thailand. He is
+trying to find some graphics software on PC. Any suggestion on which
+software to buy,where to buy and how much it costs ? He likes the most
+sophisticated 
+software(the more features it has,the better)
+
+Thanks in advance
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help       look help  friend interior decor
+design thailand tri find graphic softwar suggest
+softwar buy buy much cost like sophist softwar
+featur better  thank advanc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+softwar, 8103, 0.467301896801
+buy, 1433, 0.423737624285
+interior, 4713, 0.326082011531
+sophist, 8139, 0.316716386503
+help, 4249, 0.274228298354
+featur, 3422, 0.218616651293
+friend, 3692, 0.208828655844
+design, 2564, 0.18134900916
+suggest, 8525, 0.177973687234
+cost, 2169, 0.177326957076
+advanc, 285, 0.176478358917
+graphic, 3997, 0.153657488286
+better, 1060, 0.139622481225
+tri, 9087, 0.135165525576
+thank, 8832, 0.130701475653
+look, 5341, 0.1164737241
+like, 5272, 0.0982724080533

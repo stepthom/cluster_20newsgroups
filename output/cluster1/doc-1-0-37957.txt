@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37957
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: sas58295@uxa.cso.uiuc.edu (Lord Soth       )
+Subject: MPEG for MS-DOS
+Organization: University of Illinois at Urbana
+Lines: 13
+
+Does anyone know where I can FTP MPEG for DOS from?  Thanks for any
+help in advance.  Email is preferred but posting is fine.
+
+				Scott
+
+
+---------------------------------------------------------------------------
+| Lord Soth, Knight |||| email to --> LordSoth@uiuc                ||||||||
+| of the Black Rose |||| NeXT to ---> sas58295@sumter.cso.uiuc.edu ||||||||
+|   @}--'-,--}--    |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|-------------------------------------------------------------------------|
+|    I have no clue what I want to say in here so I won't say anything.   |
+---------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mpeg dos    anyon know ftp mpeg dos thank help
+advanc email prefer post fine  scott    lord soth
+knight email lordsoth uiuc    clue want say won't
+say anyth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mpeg, 5895, 0.489087369104
+dos, 2825, 0.369826315751
+email, 3060, 0.329785015938
+knight, 5047, 0.259416918207
+uiuc, 9197, 0.230771442631
+clue, 1844, 0.225356953943
+scott, 7713, 0.205845307663
+say, 7653, 0.199010072755
+lord, 5347, 0.196338655309
+prefer, 6819, 0.179065116887
+fine, 3485, 0.17397744566
+won, 9820, 0.167116805693
+ftp, 3709, 0.158428458569
+advanc, 285, 0.148198614616
+anyth, 555, 0.134361040577
+help, 4249, 0.115142315902
+post, 6766, 0.114464614953
+thank, 8832, 0.109757240145
+want, 9634, 0.106763001159
+anyon, 554, 0.105317944265
+know, 5052, 0.0844204629701

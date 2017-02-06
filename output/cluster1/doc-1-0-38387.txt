@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38387
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: sigma@rahul.net (Kevin Martin)
+Subject: Re: CView answers
+Keywords: Stupid Programming
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Lines: 26
+
+In <C5LEvt.1nJ@rahul.net> bryanw@rahul.net (Bryan Woodworth) writes:
+>In <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (Rene Walter) writes:
+>[Most info regarding dangers of reading from Floppy disks omitted]
+>>unrevcoverable way.  SO BE CAREFUL!  It is incredibly poor programming for a
+>>program to do this...
+>Nevertheless, it is an important bug that needs to be squashed.  I am
+>merely pointing out that it was probably overlooked.  While it is serious,
+>one must keep in mind that it will probably affect at most 5% of the
+>targeted users of CView.
+
+OK, I don't use CView anymore, but I saw that no one had explaind this
+"bug" in the thread, so here goes:
+
+It is NOT the fault of CView.  It is DOS!  If you leave a file open on a
+floppy drive, then change the disk and do something which updates or closes
+that file, you have a good chance of getting part of the directory and FAT
+from the other disk written to the new disk.  This has always been true,
+and has destroyed data under other programs, not just CView.
+
+The only thing CView can do to improve the situation is to try not to leave
+files open unless it's actively using them (ie, reading and decoding).
+
+-- 
+Kevin Martin
+sigma@rahul.net
+"I gotta get me another hat."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cview answer        info regard danger read
+floppi disk omit unrevcover way care incred poor
+program program nevertheless import bug need
+squash mere point probabl overlook serious one
+must keep mind probabl affect target user cview
+don't use cview anymor saw one explaind bug thread
+goe  fault cview dos leav file open floppi drive
+chang disk someth updat close file good chanc get
+part directori fat disk written new disk alway
+true destroy data program cview  thing cview
+improv situat tri leav file open unless it activ
+use read decod   kevin martin  gotta get anoth hat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cview, 2320, 0.603415103108
+disk, 2720, 0.340759375754
+floppi, 3551, 0.205786076703
+file, 3477, 0.172609174348
+bug, 1373, 0.168702636684
+program, 6905, 0.154833925112
+leav, 5184, 0.148200793289
+open, 6258, 0.131987646097
+unrevcover, 9308, 0.129653538898
+squash, 8277, 0.125943278887
+omit, 6234, 0.112833413971
+fat, 3401, 0.112833413971
+overlook, 6346, 0.108823556055
+probabl, 6885, 0.108757164103
+hat, 4199, 0.101308293703
+read, 7135, 0.101228966271
+decod, 2450, 0.100569183851
+gotta, 3961, 0.0991827783402
+incred, 4591, 0.0940701583304
+destroy, 2574, 0.0931197720167
+target, 8704, 0.0922207836847
+anymor, 553, 0.0917888831977
+martin, 5523, 0.0913679180837
+kevin, 4993, 0.090165425531
+fault, 3407, 0.0890440635837
+affect, 310, 0.0883364149219
+danger, 2356, 0.0876576580725
+mere, 5641, 0.080695663417
+thread, 8890, 0.0804783108598
+poor, 6741, 0.0792306832757
+directori, 2669, 0.0788347780516
+dos, 2825, 0.0784480807657
+improv, 4557, 0.0768112946542
+use, 9363, 0.0734438816404
+saw, 7650, 0.0732401754873
+written, 9867, 0.0725558305909
+chanc, 1649, 0.0722897891736
+drive, 2873, 0.0721583479053
+updat, 9333, 0.0720279375594
+user, 9366, 0.0717701458242
+goe, 3931, 0.0710199177951
+activ, 252, 0.0710199177951
+situat, 7995, 0.0701854011757
+regard, 7224, 0.0681111254032
+unless, 9289, 0.067705563008
+info, 4636, 0.0654602831382
+care, 1516, 0.0654602831382
+mind, 5733, 0.0647745268218
+import, 4551, 0.0630226728887
+close, 1830, 0.0630226728887
+alway, 457, 0.0627974698905
+data, 2385, 0.0615759143754
+answer, 535, 0.0613693622303
+chang, 1650, 0.0597411314233
+true, 9121, 0.0593124128776
+anoth, 533, 0.0535887496354
+someth, 8126, 0.0489452536307
+new, 6023, 0.0484345882695
+tri, 9087, 0.048154084701
+point, 6710, 0.0469329155109
+thing, 8869, 0.0454240526185
+need, 5993, 0.0447054800789
+way, 9666, 0.0434948120168
+good, 3948, 0.0427414934557
+don, 2811, 0.0377144283706

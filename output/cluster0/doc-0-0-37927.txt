@@ -1,0 +1,158 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37927
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bprofane@netcom.com (Gert Niewahr)
+Subject: Re: Rumours about 3DO ???
+Article-I.D.: netcom.bprofaneC51wHz.HIo
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 39
+
+In article <C51Eyz.4Ix@optimla.aimla.com> lex@optimla.aimla.com (Lex van Sonderen) writes:
+>In article <h1p4s4g@zola.esd.sgi.com> erik@westworld.esd.sgi.com (Erik Fortune) writes:
+>>> better than CDI
+>>*Much* better than CDI.
+>Of course, I do not agree.  It does have more horsepower.  Horsepower is not
+>the only measurement for 'better'.  It does not have full motion, full screen
+>video yet.  Does it have CD-ROM XA?
+>
+>>> starting in the 4 quarter of 1993
+>>The first 3DO "multiplayer" will be manufactured by panasonic and will be 
+>>available late this year.   A number of other manufacturers are reported to 
+>>have 3DO compatible boxes in the works.
+>Which other manufacturers?
+>We shall see about the date.
+
+A 3DO marketing rep. recently offered a Phillips marketing rep. a $100
+bet that 3DO would have boxes on the market on schedule.  The Phillips
+rep. declined the bet, probably because he knew that 3DO players are
+already in pre-production manufacturing runs, 6 months before the
+commercial release date.
+
+By the time of commercial release, there will be other manufacturers of
+3DO players announced and possibly already tooling up production.  Chip
+sets will be in full production.  The number of software companies
+designing titles for the box will be over 300.
+
+How do I know this?  I was at a bar down the road from 3DO headquarters
+last week.  Some folks were bullshitting a little too loudly about
+company business.
+
+>>All this information is third hand or so and worth what you paid for it:-).
+>This is second hand, but it still hard to look to the future ;-).
+>
+>Lex van Sonderen
+>lex@aimla.com
+>Philips Interactive Media
+ ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ What an impartial source!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do articl netcom bprofanec51whz hio
+better cdi much better cdi cours agre horsepow
+horsepow measur better full motion full screen
+video yet rom  start quarter first 3do multiplay
+manufactur panason avail late year number
+manufactur report 3do compat box work manufactur
+shall see date  3do market rep recent offer
+phillip market rep bet 3do box market schedul
+phillip rep declin bet probabl knew 3do player
+alreadi pre product manufactur run month commerci
+releas date  time commerci releas manufactur 3do
+player announc possibl alreadi tool product chip
+set full product number softwar compani design
+titl box  know bar road 3do headquart last week
+folk bullshit littl loud compani busi  inform
+third hand worth paid second hand still hard look
+futur  lex van sonderen  philip interact media
+imparti sourc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3do, 98, 0.579314591708
+manufactur, 5494, 0.348612305943
+rep, 7284, 0.233036001006
+cdi, 1585, 0.201316456434
+horsepow, 4383, 0.194153478643
+market, 5514, 0.170270741981
+phillip, 6594, 0.164806222177
+product, 6896, 0.156368191683
+box, 1254, 0.152534222716
+bet, 1054, 0.121504089084
+better, 1060, 0.111731236842
+date, 2391, 0.109467279405
+releas, 7253, 0.108852459601
+commerci, 1940, 0.105275909011
+compani, 1958, 0.103581450119
+alreadi, 443, 0.0997901086133
+imparti, 4536, 0.0942987207117
+hand, 4145, 0.0903116228895
+player, 6683, 0.0859166314694
+philip, 6590, 0.0824031110884
+bullshit, 1392, 0.0824031110884
+number, 6156, 0.0809641355369
+netcom, 6011, 0.0806215816451
+headquart, 4219, 0.0790633670412
+loud, 5361, 0.0783517751694
+declin, 2448, 0.077678667002
+quarter, 7027, 0.0728511922436
+rumour, 7542, 0.0724143239635
+rom, 7467, 0.0715840517983
+van, 9416, 0.0708057065843
+compat, 1965, 0.0704340530604
+chip, 1712, 0.0700731736336
+paid, 6387, 0.0687259720218
+pre, 6802, 0.0681033688669
+bar, 904, 0.0669444425785
+motion, 5880, 0.0664030760478
+interact, 4704, 0.0640015279354
+knew, 5045, 0.0621763926035
+shall, 7846, 0.0614438596527
+tool, 8988, 0.0612672684864
+media, 5605, 0.0605849350734
+titl, 8953, 0.059938063941
+folk, 3576, 0.059474054886
+road, 7431, 0.0580415028911
+screen, 7719, 0.0579069127318
+busi, 1424, 0.057382647122
+late, 5139, 0.0571285675178
+announc, 524, 0.0571285675178
+schedul, 7678, 0.0566354548013
+worth, 9850, 0.056396034567
+video, 9506, 0.056396034567
+measur, 5601, 0.0561611319663
+offer, 6203, 0.0546303240184
+futur, 3737, 0.0525505894559
+month, 5847, 0.0513087499601
+report, 7291, 0.0495482500294
+recent, 7168, 0.0494800335931
+design, 2564, 0.0483741321974
+agre, 337, 0.0481887768854
+hard, 4167, 0.0471311108462
+sourc, 8153, 0.0459496719505
+week, 9691, 0.0458476265555
+set, 7815, 0.0445919655656
+second, 7753, 0.0433263071117
+avail, 811, 0.0432435860865
+cours, 2190, 0.0426008901763
+littl, 5308, 0.0418415409125
+softwar, 8103, 0.0415503119954
+inform, 4637, 0.0409189360486
+possibl, 6765, 0.040816751055
+probabl, 6885, 0.0407153979703
+articl, 665, 0.0401240191603
+start, 8334, 0.0394070807269
+run, 7543, 0.0375009751882
+work, 9833, 0.0352702156922
+year, 9943, 0.0312878721917
+look, 5341, 0.031068906046
+time, 8936, 0.0295801957441
+know, 5052, 0.0268159410586

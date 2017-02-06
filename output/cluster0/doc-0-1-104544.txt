@@ -1,0 +1,36 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104544
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cs1442aq@news.uta.edu (cs1442aq)
+Subject: Ryam out for 2-5 weeks!!
+Organization: University of Texas at Arlington
+Lines: 4
+
+Nolan Ryan has torn cartlidge inhis right knee.  Is having surgery and
+is expected to miss 2-5 weeks.  
+-- 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ryam week    nolan ryan torn cartlidg inhi right
+knee surgeri expect miss week
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+week, 9691, 0.423023727107
+torn, 9002, 0.415709545467
+surgeri, 8590, 0.384752847527
+knee, 5042, 0.380155678677
+nolan, 6094, 0.35541411432
+ryan, 7557, 0.300535317999
+miss, 5770, 0.242838128985
+expect, 3290, 0.222596070988
+right, 7399, 0.174709383464

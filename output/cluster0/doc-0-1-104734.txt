@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104734
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jonesk@ur.msstate.edu
+Subject: Re: Harry Caray
+Nntp-Posting-Host: ur117.ur.msstate.edu
+Reply-To: jonesk@ur.msstate.edu
+Organization: Mississippi State University
+Lines: 19
+
+In article <34592@oasys.dt.navy.mil> odell@oasys.dt.navy.mil (Bernard O'Dell) writes:
+>Being an old time Cardinal Fan-now relocated to the NVA area-I can
+>recall that Harry was not at all "popular" with old man Busch, who,
+>as I understand it, fired him and kicked him out of St. Louis.
+>
+>I am not quite sure of the reasons, but the old man was certainly
+>not "enraptured" by ole Harry.
+>
+>Bern O'Dell--
+
+I grew up listening to Harry Carey call the Cardinals' games and
+really liked him--then. But, as I recall, he was fired because
+he was too critical (read: honest) when he was announcing. He
+dared to point out the Cards' miscues and such. At least, this is
+what I remember from when I was a kid.
+
+Kay Jones
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ harri caray       old time cardin fan reloc nva
+area recal harri popular old man busch understand
+fire kick loui  quit sure reason old man certain
+enraptur ole harri  bern o'del  grew listen harri
+carey call cardin game realli like recal fire
+critic read honest announc dare point card miscu
+least rememb kid  kay jone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+harri, 4184, 0.5372077757
+old, 6216, 0.261919920096
+cardin, 1515, 0.24729970036
+recal, 7166, 0.226610647767
+reloc, 7263, 0.174889452916
+enraptur, 3118, 0.174889452916
+del, 2497, 0.174889452916
+kay, 4965, 0.17067979652
+busch, 1420, 0.17067979652
+bern, 1043, 0.17067979652
+ole, 6220, 0.167120582751
+grew, 4039, 0.161317937091
+caray, 1511, 0.161317937091
+man, 5471, 0.159493446412
+dare, 2363, 0.152827471126
+jone, 4889, 0.14175451892
+kick, 5006, 0.134301943925
+honest, 4361, 0.124157325253
+loui, 5363, 0.121724636675
+listen, 5300, 0.117903042966
+kid, 5008, 0.11602483834
+critic, 2237, 0.113305323884
+popular, 6746, 0.111163069152
+announc, 524, 0.10595248635
+card, 1513, 0.0991358825398
+area, 622, 0.0938797520107
+fan, 3381, 0.0918937847213
+rememb, 7269, 0.0850304889107
+quit, 7043, 0.0845640248372
+understand, 9246, 0.0827870570187
+certain, 1619, 0.0817012894484
+reason, 7156, 0.0744748868152
+sure, 8585, 0.0743558701274
+read, 7135, 0.0702851263158
+game, 3761, 0.0699884731602
+realli, 7150, 0.0685136881791
+point, 6710, 0.0651727665819
+time, 8936, 0.0548603863529
+like, 5272, 0.0486169171541

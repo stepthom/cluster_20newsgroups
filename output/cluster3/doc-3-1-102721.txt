@@ -1,0 +1,155 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102721
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: bone@wilbur.Stanford.EDU (Doug Bone)
+Subject: Players Rushed to Majors
+Article-I.D.: wilbur.24
+Lines: 34
+
+snichols@adobe.com (Sherri Nichols) writes:
+
+>Can anybody name a player who was 'rushed' to the majors (let's, for
+>argument's sake, define "rushed" as brought up to the majors for more than
+>a cup of coffee prior at age 22 or younger, and performing below
+>expectations), whose career was damaged by this rushing? 
+
+I tend to agree that players are not hurt by early play in the big leagues.
+The BRaves organization is a fertile ground to test this hypothesis, as they
+had little talent on their roster for some time.  Steve Avery, for example,
+was rushed to the majors, and he fared very poorly during his initial campaign.
+His subsequent pitching has not been affected by his 5+ ERA during his rookie
+year.  Bill James pointed out that it was relatively unusual to struggle so
+and then rebound.
+
+Bob Horner was also rushed to the majors (out of Arizona State directly) had
+good numbers immediately.
+
+I am not certain of the ages of people like Pete Smith, Craig McMurty, and
+Derek Lilliquist.  The Braves pitching staffs were so bad when they came up
+that they might have been rushed.  Lilliquist and Smith struggled, but it
+didn't hurt PS and DL may have been overhyped.  I seem to recall CM pitching
+well initially, though I don't have stats handy.
+
+Douglas Bone		Internet: bone@luciano.stanford.edu
+Standard disclaimers	BITNET:   bone%luciano.stanford.edu@stanford
+apply.			UUCP:   ..ucbvax!luciano!sierra.stanford.edu!bone
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ player rush major articl wilbur     anybodi name
+player rush major let argument sake defin rush
+brought major cup coffe prior age younger perform
+expect whose career damag rush  tend agre player
+hurt earli play big leagu brave organ fertil
+ground test hypothesi littl talent roster time
+steve averi exampl rush major fare poor initi
+campaign subsequ pitch affect era rooki year bill
+jame point relat unusu struggl rebound  bob horner
+also rush major arizona state direct good number
+immedi  certain age peopl like pete smith craig
+mcmurti derek lilliquist brave pitch staff bad
+came might rush lilliquist smith struggl didn't
+hurt overhyp seem recal pitch well initi though
+don't stat handi   standard disclaim bitnet bone
+luciano stanford edu stanford appli uucp ucbvax
+luciano sierra stanford edu bone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rush, 7547, 0.579960600775
+major, 5458, 0.241602177832
+stanford, 8318, 0.229719226835
+lilliquist, 5276, 0.199428584731
+bone, 1213, 0.16720794592
+struggl, 8461, 0.149744150805
+pitch, 6643, 0.144172990649
+player, 6683, 0.136276230124
+hurt, 4451, 0.133140451645
+smith, 8064, 0.128840285531
+initi, 4647, 0.127779918797
+age, 328, 0.117806620979
+brave, 1277, 0.112652885126
+ucbvax, 9185, 0.106439026125
+fertil, 3451, 0.106439026125
+averi, 817, 0.106439026125
+rebound, 7162, 0.0997142923656
+horner, 4377, 0.0973141309973
+sierra, 7939, 0.0952848234754
+wilbur, 9757, 0.0935269573422
+fare, 3387, 0.0935269573422
+edu, 3001, 0.0933517112553
+derek, 2549, 0.0919764095244
+subsequ, 8498, 0.0861599283474
+campaign, 1477, 0.0852516757647
+hypothesi, 4465, 0.0844020622142
+younger, 9963, 0.0814645021096
+handi, 4148, 0.0814645021096
+bitnet, 1127, 0.0814645021096
+unusu, 9325, 0.0808222068745
+roster, 7489, 0.0808222068745
+cup, 2294, 0.0808222068745
+sake, 7587, 0.0796246142722
+coffe, 1878, 0.0796246142722
+arizona, 639, 0.078526942005
+rooki, 7475, 0.0756951209504
+prior, 6874, 0.0733659270906
+craig, 2208, 0.0733659270906
+pete, 6574, 0.0723396069816
+damag, 2344, 0.0713875459028
+talent, 8683, 0.0699394456133
+affect, 310, 0.0699394456133
+era, 3164, 0.0657471802747
+tend, 8783, 0.0653541827042
+jame, 4820, 0.0651619976712
+brought, 1343, 0.064785845197
+recal, 7166, 0.0646017241404
+disclaim, 2691, 0.0646017241404
+staff, 8301, 0.0638899593986
+uucp, 9388, 0.0633803044891
+immedi, 4527, 0.0630511763226
+poor, 6741, 0.0627300764782
+career, 1517, 0.060952399294
+stat, 8341, 0.0597608329866
+ground, 4061, 0.0591426705556
+steve, 8390, 0.0586682249399
+appli, 584, 0.0583232853558
+bob, 1189, 0.0578769903806
+defin, 2482, 0.057767741281
+organ, 6287, 0.0551161368346
+argument, 631, 0.054939430276
+earli, 2951, 0.0545929776247
+test, 8812, 0.0540898167255
+standard, 8313, 0.0539262811946
+anybodi, 552, 0.0535261154011
+perform, 6539, 0.0534475214904
+came, 1472, 0.0530614398333
+leagu, 5176, 0.0528351114916
+expect, 3290, 0.051021266078
+agre, 337, 0.0509562563609
+direct, 2667, 0.0504474223563
+relat, 7247, 0.050323228596
+bad, 861, 0.0484806538638
+exampl, 3258, 0.0477491078397
+state, 8342, 0.0466758556277
+certain, 1619, 0.0465824904069
+big, 1082, 0.0448420798886
+littl, 5308, 0.0442444988871
+didn, 2625, 0.0439746473106
+play, 6681, 0.0434143737797
+number, 6156, 0.0428069512562
+articl, 665, 0.0424283399312
+let, 5225, 0.0415744859423
+point, 6710, 0.0371586518963
+peopl, 6530, 0.0357171847606
+good, 3948, 0.0338401367049
+year, 9943, 0.0330847334054
+time, 8936, 0.0312789851697
+don, 2811, 0.0298600097614
+like, 5272, 0.0277192329795

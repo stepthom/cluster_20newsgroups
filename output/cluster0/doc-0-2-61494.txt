@@ -1,0 +1,171 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61494
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pyron@skndiv.dseg.ti.com (Dillon Pyron)
+Subject: Re: What planets are habitable
+Lines: 32
+Nntp-Posting-Host: skndiv.dseg.ti.com
+Reply-To: pyron@skndiv.dseg.ti.com
+Organization: TI/DSEG VAX Support
+
+
+In article <C6Az8z.pD@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry Spencer) writes:
+>In article <1rpt1v$q5h@hsc.usc.edu> khayash@hsc.usc.edu (Ken Hayashida) writes:
+>>As for human tolerances, the best example of human endurance in terms
+>>of altitude (i.e. low atmospheric pressure and lower oxygen partial pressure)
+>>is in my opinion to the scaling of Mt. Everest without oxygen assistance...
+>>... This is quite a feat of physiological endurance...
+>
+>Indeed so; it's at the extreme limit of what is humanly possible.  It is
+>possible only because Mount Everest is at a fairly low latitude:  there
+>is a slight equatorial bulge in the atmosphere -- beyond what is induced
+>by the Earth's rotation -- thanks to the overall circulation pattern of
+>the atmosphere (air cools at poles and descends, flowing back to equator
+>where it is warmed and rises), and this helps just enough to make Everest-
+>without-oxygen feasible.  Only just feasible, mind you:  the guys who did
+>it reported hallucinations and other indications of oxygen starvation,
+>and probably incurred some permanent brain damage.
+
+Climbers regard 8000 metres and up as "The Death Zone".  Even on 100% Oxygen,
+you are slowly dying.  At 8848m (Everest), most climbers spend only a short
+period of time before descending.  I've been above 8000 once.  Descending as
+little as 300m feels like walking into a jungle, the air is so thick.  Everest
+in winter without oxygen, no support party (Alpine style).  That is the
+"ultimate challenge" (or is it solo?)
+--
+Dillon Pyron                      | The opinions expressed are those of the
+TI/DSEG Lewisville VAX Support    | sender unless otherwise stated.
+(214)462-3556 (when I'm here)     |
+(214)492-4656 (when I'm home)     |Texans: Vote NO on Robin Hood.  We need
+pyron@skndiv.dseg.ti.com          |solutions, not gestures.
+PADI DM-54909                     |
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet habit         human toler best exampl
+human endur term altitud low atmospher pressur
+lower oxygen partial pressur opinion scale everest
+without oxygen assist quit feat physiolog endur
+inde it extrem limit human possibl possibl mount
+everest fair low latitud slight equatori bulg
+atmospher beyond induc earth rotat thank overal
+circul pattern atmospher air cool pole descend
+flow back equat warm rise help enough make everest
+without oxygen feasibl feasibl mind guy report
+hallucin indic oxygen starvat probabl incur perman
+brain damag  climber regard metr death zone even
+oxygen slowli die 8848m everest climber spend
+short period time descend i'v descend littl 300m
+feel like walk jungl air thick everest winter
+without oxygen support parti alpin style ultim
+challeng solo  dillon pyron opinion express dseg
+lewisvill vax support sender unless otherwis state
+i'm i'm home texan vote robin hood need  padi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+everest, 3234, 0.463180189874
+oxygen, 6363, 0.44556294033
+descend, 2554, 0.214975310493
+atmospher, 755, 0.182953859428
+endur, 3099, 0.178061843295
+feasibl, 3419, 0.150527106316
+human, 4432, 0.145151469475
+pressur, 6842, 0.124059049368
+air, 357, 0.117962920026
+low, 5368, 0.103294477593
+starvat, 8339, 0.0949208185856
+opinion, 6266, 0.0938836409561
+hood, 4365, 0.0926360379748
+hallucin, 4131, 0.0926360379748
+bulg, 1382, 0.0926360379748
+texan, 8821, 0.0907042834933
+pyron, 7003, 0.0890309216475
+padi, 6378, 0.0890309216475
+lewisvill, 5236, 0.0890309216475
+induc, 4606, 0.0890309216475
+dseg, 2890, 0.0890309216475
+circul, 1767, 0.0890309216475
+feat, 3421, 0.0875549118937
+equatori, 3158, 0.0875549118937
+dillon, 2647, 0.0875549118937
+support, 8576, 0.0863217332711
+physiolog, 6616, 0.085040187238
+possibl, 6765, 0.0821720462994
+solo, 8116, 0.082018041085
+latitud, 5144, 0.0811534500962
+winter, 9790, 0.0781911207578
+slowli, 8046, 0.0781911207578
+pole, 6717, 0.076936915004
+flow, 3555, 0.0747519882988
+warm, 9639, 0.0737875434044
+ultim, 9198, 0.0733317986767
+parti, 6438, 0.0733317986767
+sender, 7786, 0.0728920483338
+robin, 7440, 0.0728920483338
+zone, 9991, 0.0716584368309
+perman, 6550, 0.0712728187487
+partial, 6439, 0.0708987133901
+mount, 5886, 0.0705354532065
+vote, 9585, 0.0701824270772
+style, 8479, 0.0698390741238
+rise, 7414, 0.0695048783495
+pattern, 6468, 0.0695048783495
+cool, 2124, 0.069179363974
+damag, 2344, 0.0679557978415
+habit, 4109, 0.0676677024214
+toler, 8974, 0.0673860816069
+altitud, 452, 0.0673860816069
+overal, 6337, 0.0665773107499
+equat, 3157, 0.0658175873091
+challeng, 1642, 0.0655742476468
+brain, 1266, 0.0637809652797
+assist, 705, 0.0625865763404
+slight, 8034, 0.0620295246838
+extrem, 3333, 0.0620295246838
+lower, 5371, 0.0600201749151
+express, 3315, 0.0598664110369
+inde, 4594, 0.0597145110093
+spend, 8222, 0.0586998391986
+scale, 7659, 0.0584244083566
+rotat, 7490, 0.05815490122
+planet, 6664, 0.0573795034822
+otherwis, 6313, 0.0561851145429
+death, 2423, 0.0559593138601
+period, 6546, 0.0558479211369
+limit, 5278, 0.0547852849559
+vax, 9439, 0.0546838139655
+indic, 4600, 0.0545831580119
+walk, 9617, 0.0532528010244
+fair, 3363, 0.053073775139
+term, 8795, 0.0514896065441
+regard, 7224, 0.0513339325068
+die, 2628, 0.0512568147321
+unless, 9289, 0.051028268601
+report, 7291, 0.0498751246759
+short, 7904, 0.049535494164
+feel, 3429, 0.0492702652405
+mind, 5733, 0.0488192078511
+home, 4354, 0.0483228420218
+guy, 4100, 0.0470512674519
+quit, 7043, 0.0458969156036
+exampl, 3258, 0.0454537087447
+state, 8342, 0.0444320500026
+earth, 2956, 0.0436539767641
+littl, 5308, 0.042117573646
+best, 1052, 0.0418970706166
+probabl, 6885, 0.0409840014287
+help, 4249, 0.0368159445356
+thank, 8832, 0.0350941044907
+need, 5993, 0.0336935865245
+make, 5459, 0.0314309102894
+time, 8936, 0.0297753391855
+like, 5272, 0.0263867116996

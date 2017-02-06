@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61390
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: What planets are habitable
+Distribution: sci
+Organization: Texas Instruments Inc
+Lines: 24
+
+In <1993Apr29.114622.1@arc.ug.eds.com> steveg@arc.ug.eds.com writes:
+
+>In article <C659w7.IyD@fs7.ece.cmu.edu>, loss@fs7.ECE.CMU.EDU (Doug Loss) writes:
+
+>>>
+>>    Dandridge Cole and Isaac Asimov collaborated on a book titled,
+>> "Habitable Planets for Man" (I think) in 1964.  It should be available
+>> in most good libraries, or through inter-library loan.
+>> 
+
+>This is the high-school science version; the original Rand study by
+>Stephen H Dole "Planets for Man" gives the harder numbers & graphs &
+>such (but predates Michael Hart's (& later) work on continuously 
+>habitable zones)
+
+Is this still in print or available (other than on loan)?  I remember
+reading this many years ago and it's still the best thing I remember
+in this vein.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet habit          dandridg cole isaac asimov
+collabor book titl habit planet man think avail
+good librari inter librari loan   high school
+scienc version origin rand studi stephen dole
+planet man give harder number graph predat michael
+hart later work continu habit zone  still print
+avail loan rememb read mani year ago it still best
+thing rememb vein   insist perfect safeti peopl
+don't ball live real world mari shafer nasa ame
+dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+habit, 4109, 0.354070847966
+planet, 6664, 0.300237908586
+loan, 5319, 0.292844535272
+librari, 5250, 0.1940490041
+dole, 2800, 0.17043482538
+asimov, 688, 0.161572504776
+rememb, 7269, 0.160986705583
+vein, 9453, 0.158203206855
+predat, 6815, 0.158203206855
+dandridg, 2353, 0.158203206855
+rand, 7090, 0.15528458824
+isaac, 4775, 0.15528458824
+hart, 4187, 0.152710184172
+avail, 811, 0.151843028411
+man, 5471, 0.150983046369
+collabor, 1894, 0.1401343511
+inter, 4703, 0.135257064121
+cole, 1890, 0.130379777141
+graph, 3996, 0.128697626429
+harder, 4170, 0.127135735563
+shafer, 7839, 0.126394743517
+zone, 9991, 0.124984113961
+dryden, 2888, 0.124311532525
+stephen, 8380, 0.115229540002
+mari, 5508, 0.115229540002
+safeti, 7579, 0.114372286129
+insist, 4673, 0.112752495436
+ame, 465, 0.109833876821
+titl, 8953, 0.105231526448
+print, 6871, 0.104685068685
+school, 7685, 0.102873378849
+michael, 5680, 0.0996464734313
+perfect, 6538, 0.0955545585575
+studi, 8469, 0.0940110582454
+continu, 2092, 0.0922615510172
+later, 5140, 0.0916585563068
+ball, 877, 0.0854824414058
+ago, 336, 0.0851487376416
+version, 9479, 0.0850386257111
+nasa, 5956, 0.0822577339037
+scienc, 7692, 0.0816850241437
+live, 5310, 0.0801393827559
+book, 1218, 0.0782888250843
+origin, 6293, 0.0777314170842
+real, 7144, 0.0749310521682
+high, 4292, 0.0739174004238
+world, 9841, 0.0732028378516
+best, 1052, 0.0730753904235
+number, 6156, 0.0710731963118
+read, 7135, 0.0665347870041
+mani, 5479, 0.0619993220179
+work, 9833, 0.0619228982618
+thing, 8869, 0.0597117559759
+peopl, 6530, 0.0593019219939
+good, 3948, 0.0561854233639
+year, 9943, 0.0549312128811
+think, 8871, 0.0500594670785
+don, 2811, 0.049577142809

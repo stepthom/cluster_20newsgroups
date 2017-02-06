@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38965
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mne@ing.puc.cl (Marcelo Neira Eid)
+Subject: raw2gif ?
+Nntp-Posting-Host: malloco.ing.puc.cl
+Organization: Pontificia Universidad Catolica de Chile
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 14
+
+	Hello:
+	can anybody help me to find a program that converts a format named
+	"raw" (also known as "img") to the "gif" format or "jpeg" one.
+	It's desirable to be for a unix machine than for a PC.
+
+	(
+	"Raw" format of a N*N image is a file that contain a tail of 
+	N*N characters, each one referencing to the k*N+j pixel of the 
+	monocrome image, where k and j lies between 0 and N-1.
+	).
+		
+	
+	Thanxs			mne@ing.puc.cL
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ raw2gif      hello anybodi help find program
+convert format name raw also known img gif format
+jpeg one it desir unix machin   raw format imag
+file contain tail charact one referenc pixel
+monocrom imag lie
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+format, 3612, 0.436660818826
+raw, 7114, 0.40342796719
+img, 4523, 0.258381602776
+referenc, 7214, 0.246799869891
+imag, 4512, 0.243820769434
+tail, 8674, 0.219974390707
+charact, 1661, 0.197218310664
+jpeg, 4905, 0.186335249996
+pixel, 6651, 0.183327863769
+hello, 4247, 0.180019342838
+desir, 2565, 0.178471507037
+lie, 5258, 0.176029741105
+unix, 9284, 0.166524256987
+machin, 5416, 0.165449243198
+contain, 2079, 0.159893467759
+gif, 3869, 0.153516119639
+anybodi, 552, 0.147873553045
+convert, 2115, 0.146171785213
+known, 5054, 0.145349859794
+file, 3477, 0.125849014259
+program, 6905, 0.112889114514
+help, 4249, 0.106845605782

@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60208
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ml@chiron.astro.uu.se (Mats Lindgren)
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+Organization: Uppsala University
+Lines: 14
+Distribution: world
+NNTP-Posting-Host: chiron.astro.uu.se
+
+Comet P/Helin-Roman-Crockett also spent some time as a temporary
+satellite to Jupiter a few years ago if you believe the calculations
+by Tancredi, G., Lindgren, M. and  Rickman, H.(Astron. Astrophys., 
+239, pp. 375-380, 1990).
+-- 
+
+
+-------------------------------------------------------------
+|  Mats Lindgren             |  Mats.Lindgren@astro.uu.se   |
+|  Astronomical Observatory  |  21619::laban::ml            |
+|  Box 515                   |                              |
+|  751 20 Uppsala            |  Phone (+46) (0)18 51 35 22  |
+|  Sweden                    |  Fax               52 75 83  |
+-------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet temporari orbit around jupit      comet
+helin roman crockett also spent time temporari
+satellit jupit year ago believ calcul tancredi
+lindgren rickman astron astrophi       astronom
+observatori laban box uppsala phone sweden fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+temporari, 8778, 0.434696596875
+jupit, 4932, 0.393348980927
+comet, 1926, 0.391917106197
+astrophi, 730, 0.277839948167
+sweden, 8626, 0.262600308845
+roman, 7468, 0.207487186639
+observatori, 6180, 0.198148623528
+astronom, 728, 0.187148467736
+spent, 8223, 0.186042929941
+calcul, 1451, 0.18095604753
+phone, 6601, 0.164931712165
+satellit, 7632, 0.160816684295
+fax, 3413, 0.157872536908
+box, 1254, 0.153502845219
+ago, 336, 0.146421700187
+orbit, 6280, 0.136038558119
+believ, 1009, 0.116069185829
+year, 9943, 0.0944596691176
+time, 8936, 0.0893041075247

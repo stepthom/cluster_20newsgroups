@@ -1,0 +1,303 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104685
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@watson.ibm.com (Mike Jones)
+Subject: Re: So Far , So Good (THE RED SOX)
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: fenway.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 68
+
+ec003b@uhura.cc.rochester.edu (Wizard) writes:
+>I have posted two new postings on the net, since I discovered how to use it,
+>and both times I received redicule for predicting the Red Sox as high as
+>Third in the AL East.  Id like to hear why it is people dont think the Sox
+>can be as high as Third this year.  Here are some of my observations:
+
+Well, had you been a bit less exuberant in both the tone and substance of
+your predictions, the responses would probably have been a bit more
+measured. Be that as it may....
+
+>1. Roger and Frank are in vintage form, and the Sox are rresponding to them.
+Clemens is always in this form, and Viola isn't really performing beyond
+what might reasonably have been expected. How do you know that the Sox are
+responding to them, and not to Al Bumbry, Hobson, or (my most likely
+suspect) new hitting coach Mike Easler? I certainly am more likely to give
+Easler credit for Mo Vaughhn's hot start than Clemens or Viola.
+
+>2. Greenwell is hitting as he did before his injuries.
+This was the optimistic scenario, but not unreasonably so. He hasn't shown
+much power yet, though.
+
+>3. Dawson is providing the leadership and some hitting they need from him.
+How can you tell that Dawson is providing the leadership? Perhaps it's
+Calderon? Perhaps it's Clemens and Viola? Maybe Hobson is finally showing
+those people skills he was supposed to have when they hired him. Or maybe
+it's all a myth. And Dawson has been hitting reasonably well, but not as
+well as Greenwell, Vaughn, Cooper, or Fletcher.
+
+>4. Russell is finishing well.
+In three games. Why don't we look at this one again in, say, July?
+
+>5. Fletcher is hitting well as a leadoff hitter.
+A bit better than could reasonably have been expected. But don't forget that
+Zupcic looked like Wade Boggs lite for about 75 AB's last year. Beware of
+small sample sizes. Still, if Fletcher hits as well as he did last year he'd
+be a great improvement over any Sox leadoff hitter from last year. Be aware
+that his career numbers seem to indicate that he puts up good numbers as
+long as he doesn't have to make more than 300 AB or so in a year.
+
+>6. Cooper is hitting well (I think he'll be better then Boggs in the field
+>and just as good at the plate)
+Ummm...sorry, no. I can buy the "in the field" part, and I think he'll be
+better at the plate than the 1992 Boggs, but in general Cooper, while he'll
+be a pretty good hitter, couldn't carry Boggs' jockstrap. With a little
+luck, he could be the fourth or fifth best 3B in the AL (Martinez, Boggs,
+Ventura, and Palmer will all be better).
+
+>If the sox Pitch like last year (they have a better pitchiong staff, now)
+>and hit like they are so far, they coiuld run away with thee division. but
+>since I think that their hitting and pitching may not be up to the challenge
+>of running away with the division, I think that they win be over .500 and at
+>least Third if not Second or First.
+
+See, here is where you make that quick left turn off into the aether. .500
+is plausible, third is not unlikely, but phrases like "could run away with
+the division" are likely to get you a visit from the men in the white
+coats. It's not really clear that their staff is better than last year. If
+Russell does well, Darwin doesn't go on the DL, and Hesketh doesn't pitch
+just barely well enough to avoid losing his spot in the rotation, they could
+be better. On the other hand, if Hesketh pitches miserably and they're too
+stupid to move him to the pen and bring up Conroy or somebody, Fossas
+continues to pitch dismally but they keep giving him innings becasue he's a
+lefty, and Russell explodes they could be pretty bad.
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+God is a comedian playing to an audience that is afraid to laugh.
+	- Mark Twain
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ far good red sox        post two new post net
+sinc discov use time receiv redicul predict red
+sox high third east like hear peopl dont think sox
+high third year observ  well bit less exuber tone
+substanc predict respons probabl bit measur  roger
+frank vintag form sox rrespond clemen alway form
+viola isn't realli perform beyond might reason
+expect know sox respond bumbri hobson like suspect
+new hit coach mike easler certain like give easler
+credit vaughhn hot start clemen viola  greenwel
+hit injuri optimist scenario unreason hasn't shown
+much power yet though  dawson provid leadership
+hit need tell dawson provid leadership perhap it
+calderon perhap it clemen viola mayb hobson final
+show peopl skill suppos hire mayb it myth dawson
+hit reason well well greenwel vaughn cooper
+fletcher  russel finish well three game don't look
+one say  fletcher hit well leadoff hitter bit
+better could reason expect don't forget zupcic
+look like wade bogg lite ab last year bewar small
+sampl size still fletcher hit well last year he'd
+great improv sox leadoff hitter last year awar
+career number seem indic put good number long
+doesn't make year  cooper hit well think he'll
+better bogg field good plate ummm sorri buy field
+part think he'll better plate bogg general cooper
+he'll pretti good hitter couldn't carri bogg
+jockstrap littl luck could fourth fifth best
+martinez bogg ventura palmer better  sox pitch
+like last year better pitchiong staff hit like far
+coiuld run away thee divis sinc think hit pitch
+challeng run away divis think win least third
+second first  see make quick left turn aether
+plausibl third unlik phrase like could run away
+divis like get visit men white coat it realli
+clear staff better last year russel well darwin
+doesn't hesketh doesn't pitch bare well enough
+avoid lose spot rotat could better hand hesketh
+pitch miser they'r stupid move pen bring conroy
+somebodi fossa continu pitch dismal keep give
+inning becasu he lefti russel explod could pretti
+bad    god comedian play audienc afraid laugh mark
+twain
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sox, 8162, 0.288804580272
+hit, 4316, 0.2810843456
+bogg, 1199, 0.259743465829
+fletcher, 3538, 0.198059509487
+better, 1060, 0.187025807209
+russel, 7549, 0.16580140174
+dawson, 2401, 0.164494164262
+pitch, 6643, 0.163016360389
+viola, 9525, 0.162056752542
+year, 9943, 0.157117375173
+cooper, 2125, 0.152384102664
+like, 5272, 0.150442219262
+clemen, 1807, 0.145922634776
+hesketh, 4278, 0.129286228052
+divis, 2767, 0.124053949643
+greenwel, 4030, 0.119658653335
+leadoff, 5175, 0.118228927636
+hitter, 4322, 0.114050045241
+leadership, 5174, 0.110534267827
+away, 833, 0.106196943928
+think, 8871, 0.102273522224
+good, 3948, 0.0918312795627
+plate, 6674, 0.0906155689687
+bit, 1122, 0.0903680053227
+doesn, 2793, 0.0869108906715
+staff, 8301, 0.0866884311661
+reason, 7156, 0.0864218252689
+ll, 5314, 0.0848749962013
+predict, 6816, 0.0809149387893
+run, 7543, 0.0807075125546
+form, 3610, 0.0715875734191
+red, 7194, 0.0714869419662
+vintag, 9524, 0.0696410526059
+twain, 9166, 0.0696410526059
+conroy, 2050, 0.0696410526059
+becasu, 981, 0.0696410526059
+expect, 3290, 0.06922767762
+perhap, 6540, 0.0691394698573
+zupcic, 9997, 0.0676481535704
+calderon, 1453, 0.0676481535704
+field, 3466, 0.0672223550705
+provid, 6949, 0.0660745061099
+ummm, 9207, 0.0660198364958
+tone, 8981, 0.0660198364958
+exuber, 3336, 0.0660198364958
+pretti, 6851, 0.0654912041347
+darwin, 2379, 0.0646431140258
+lite, 5303, 0.0634505427773
+mayb, 5564, 0.062523840043
+coat, 1862, 0.0623986203858
+bewar, 1064, 0.0614576437419
+thee, 8836, 0.0606064268266
+miser, 5760, 0.0606064268266
+high, 4292, 0.0604064991991
+far, 3386, 0.0596665457658
+ventura, 9462, 0.0591144638179
+vaughn, 9437, 0.0591144638179
+scenario, 7670, 0.0591144638179
+number, 6156, 0.0580821694415
+explod, 3305, 0.0578364276318
+bare, 910, 0.0578364276318
+audienc, 777, 0.0578364276318
+unreason, 9305, 0.0572600329488
+plausibl, 6680, 0.0572600329488
+ab, 163, 0.0572600329488
+optimist, 6275, 0.0567185933704
+martinez, 5524, 0.0557252352401
+pen, 6511, 0.0552671339133
+dont, 2815, 0.0552671339133
+myth, 5944, 0.0548313880872
+hire, 4308, 0.0548313880872
+sinc, 7977, 0.0544504656448
+substanc, 8502, 0.0544159169981
+wade, 9605, 0.054018917514
+lefti, 5196, 0.054018917514
+realli, 7150, 0.0530029046617
+phrase, 6612, 0.0529239539894
+post, 6766, 0.0521671014043
+new, 6023, 0.0520315255302
+palmer, 6401, 0.0516459178033
+coach, 1856, 0.0516459178033
+laugh, 5146, 0.051353071311
+afraid, 318, 0.0510695231203
+skill, 8006, 0.0507947008881
+fourth, 3630, 0.0502691953332
+fifth, 3471, 0.0495347254116
+peopl, 6530, 0.0484624930381
+visit, 9544, 0.0482254071696
+shown, 7918, 0.0476363353832
+injuri, 4650, 0.0476363353832
+credit, 2225, 0.0476363353832
+awar, 831, 0.0472641557886
+sampl, 7601, 0.0467334441608
+challeng, 1642, 0.0467334441608
+discov, 2698, 0.0465633243919
+luck, 5381, 0.0460715845402
+hasn, 4195, 0.0457581833373
+avoid, 827, 0.0453077844843
+hot, 4389, 0.0451625614825
+make, 5459, 0.0448003520786
+look, 5341, 0.0445765141161
+unlik, 9290, 0.0443375737134
+stupid, 8476, 0.0437039024943
+spot, 8261, 0.0435823901732
+suspect, 8603, 0.0432274685895
+finish, 3488, 0.0432274685895
+roger, 7458, 0.0428861142563
+men, 5629, 0.0428861142563
+respond, 7322, 0.0427751685087
+somebodi, 8121, 0.042665584093
+size, 8000, 0.0414458255547
+rotat, 7490, 0.0414458255547
+career, 1517, 0.0413513165475
+improv, 4557, 0.0412577971817
+inning, 4657, 0.0411652469459
+forget, 3604, 0.0407163576033
+east, 2965, 0.0406292250309
+couldn, 2176, 0.0406292250309
+buy, 1433, 0.0405429343323
+don, 2811, 0.0405152456691
+measur, 5601, 0.0402889546249
+lose, 5350, 0.0392648981462
+receiv, 7167, 0.0390443679829
+indic, 4600, 0.0389003161853
+mike, 5710, 0.0385500352968
+hear, 4223, 0.0385500352968
+white, 9737, 0.0382793776801
+frank, 3655, 0.0382129757547
+quick, 7036, 0.0380816348902
+carri, 1530, 0.0377614924481
+bring, 1316, 0.0377614924481
+continu, 2092, 0.0376988183816
+observ, 6179, 0.0371537057545
+mark, 5512, 0.0363668181774
+suppos, 8577, 0.0363131782694
+perform, 6539, 0.0362598586016
+net, 6010, 0.0359464573987
+turn, 9158, 0.0355449957522
+left, 5193, 0.0355449957522
+final, 3482, 0.0350672873532
+small, 8054, 0.034792465121
+general, 3818, 0.034482175229
+sorri, 8142, 0.0344387152024
+respons, 7323, 0.0343954656369
+clear, 1803, 0.0342669595661
+alway, 457, 0.0337305247611
+power, 6783, 0.0331491253047
+bad, 861, 0.0328902370961
+isn, 4783, 0.0327098063568
+win, 9770, 0.0324631748076
+hand, 4145, 0.0323939417646
+certain, 1619, 0.0316024853607
+god, 3926, 0.0314771356843
+second, 7753, 0.0310814892822
+littl, 5308, 0.0300163455443
+best, 1052, 0.0298591974812
+great, 4016, 0.0297047668122
+play, 6681, 0.0294531722077
+probabl, 6885, 0.0292084714807
+tell, 8767, 0.0291843661548
+start, 8334, 0.0282699089516
+long, 5336, 0.028140471645
+game, 3761, 0.0270719068621
+need, 5993, 0.024012739771
+say, 7653, 0.022674646331
+time, 8936, 0.021220283894
+use, 9363, 0.0197245261039
+know, 5052, 0.0192372588427

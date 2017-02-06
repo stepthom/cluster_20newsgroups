@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38687
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: Any good Morphing Anims...
+Organization: The University of Birmingham, United Kingdom
+Lines: 8
+NNTP-Posting-Host: ibm3090.bham.ac.uk
+
+==============================================================================
+Has anyone created any interesting animations using Dmorph
+I seem to be unable to create anything that looks remotely
+realistic although this is probably due to the crappy GIF's
+at I am using (One of Captain Kirk and One of Spock), i'm a
+bit of a 'Trekker'.  What are the best type of pictures to use.
+thanks........
+            A.Situnayake
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good morph anim      anyon creat interest anim
+use dmorph seem unabl creat anyth look remot
+realist although probabl due crappi gif use one
+captain kirk one spock i'm bit trekker best type
+pictur use thank situnayak
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+anim, 515, 0.339752567861
+creat, 2217, 0.304286243806
+dmorph, 2780, 0.298101333885
+captain, 1507, 0.284859194235
+spock, 8248, 0.279603957231
+kirk, 5030, 0.27082196054
+use, 9363, 0.260756897187
+morph, 5866, 0.249938652386
+unabl, 9211, 0.223834166786
+remot, 7271, 0.221518450856
+realist, 7147, 0.221518450856
+pictur, 6622, 0.16612527397
+gif, 3869, 0.16612527397
+type, 9177, 0.153717564517
+anyth, 555, 0.134920142064
+bit, 1122, 0.13273987786
+best, 1052, 0.131578855121
+probabl, 6885, 0.128711337259
+thank, 8832, 0.110213960605
+anyon, 554, 0.105756191982
+good, 3948, 0.101166940578
+look, 5341, 0.0982164155013

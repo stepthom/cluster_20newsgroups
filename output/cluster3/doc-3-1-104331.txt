@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104331
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Let it be Known
+From: <ISSBTL@BYUVM.BITNET>
+Organization: Brigham Young University
+Lines: 10
+
+I would like to make everyone aware that in winning the NL West the Atlanta
+Braves did not lead wire-to-wire.  Through games of 4/14/93 the Houston
+Astros are percentage points ahead of the "unbeatable" Braves.
+
+
+Go Astros!!!!!
+
+Byron T. Lee
+A Native Texan
+Stuck in Utah
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+let known     like make everyon awar win west
+atlanta brave lead wire wire game houston astro
+percentag point ahead unbeat brave   astro  byron
+lee nativ texan stuck utah
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wire, 9793, 0.408180761376
+astro, 724, 0.354859527895
+brave, 1277, 0.300253973439
+byron, 1437, 0.27359819991
+texan, 8821, 0.253962841919
+nativ, 5964, 0.215415599246
+stuck, 8466, 0.209298024926
+utah, 9380, 0.204090380688
+percentag, 6534, 0.191094996926
+awar, 831, 0.185686279287
+houston, 4399, 0.184282603616
+lee, 5190, 0.180380006137
+ahead, 342, 0.170286044169
+atlanta, 749, 0.169374636761
+west, 9708, 0.168927659859
+lead, 5172, 0.142453792285
+known, 5054, 0.140228497192
+everyon, 3241, 0.139838635266
+win, 9770, 0.127537793563
+let, 5225, 0.110808565479
+game, 3761, 0.106357165902
+point, 6710, 0.099039033639
+make, 5459, 0.0880033775007
+like, 5272, 0.0738801303978

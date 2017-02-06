@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104507
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: Pleasant Yankee Surprises
+Organization: Allegheny College
+Lines: 9
+
+In article <120399@netnews.upenn.edu> sepinwal@mail.sas.upenn.edu (Alan  
+Sepinwall) writes:
+ Farr's ERA is in the
+> 	  20s or 30s, and Howe's is.....infinite. (I didn't think such
+> 	  a thing was possible, but it is). 
+
+
+Actually, according to USA today, Howe has 1 inning atttributed to him,  
+but maybe that is incorrect. By the excellent report.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleasant yanke surpris    mail sas upenn edu alan
+farr era 20s 30s how infinit didn't think thing
+possibl   actual accord usa today howe inning
+atttribut mayb incorrect excel report
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+30s, 85, 0.300813775462
+farr, 3391, 0.28517197154
+upenn, 9335, 0.274073935039
+sas, 7623, 0.269530167617
+howe, 4404, 0.255344288751
+pleasant, 6689, 0.249823825232
+incorrect, 4588, 0.244995352199
+alan, 376, 0.220594254194
+infinit, 4631, 0.218255511776
+era, 3164, 0.192667322104
+usa, 9357, 0.185246107886
+excel, 3261, 0.184766878926
+yanke, 9933, 0.179854450615
+inning, 4657, 0.177812840103
+surpris, 8593, 0.173668842426
+accord, 219, 0.173313287511
+report, 7291, 0.153536225702
+today, 8964, 0.147468555346
+edu, 3001, 0.136780194574
+mayb, 5564, 0.135035526288
+mail, 5447, 0.132619675239
+didn, 2625, 0.128864500384
+possibl, 6765, 0.126479742447
+actual, 254, 0.124036027351
+thing, 8869, 0.105389956041
+think, 8871, 0.0883538751893

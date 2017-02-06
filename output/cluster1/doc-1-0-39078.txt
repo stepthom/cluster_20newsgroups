@@ -1,0 +1,2923 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39078
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tgl+@cs.cmu.edu (Tom Lane)
+Subject: JPEG image compression: Frequently Asked Questions
+Summary: Useful info about JPEG (JPG) image files and programs
+Keywords: JPEG, image compression, FAQ
+Supersedes: <jpeg-faq_735169170@g.gp.cs.cmu.edu>
+Nntp-Posting-Host: g.gp.cs.cmu.edu
+Reply-To: jpeg-info@uunet.uu.net
+Organization: School of Computer Science, Carnegie Mellon
+Expires: Mon, 31 May 1993 03:14:50 GMT
+Lines: 1034
+
+Archive-name: jpeg-faq
+Last-modified: 2 May 1993
+
+This FAQ article discusses JPEG image compression.  Suggestions for
+additions and clarifications are welcome.
+
+New since version of 18 April 1993:
+  * New version of XV supports 24-bit viewing for X Windows.
+  * New versions of DVPEG & Image Alchemy for DOS.
+  * New versions of Image Archiver & PMView for OS/2.
+  * New listing: MGIF for monochrome-display Ataris.
+
+
+This article includes the following sections:
+
+[1]  What is JPEG?
+[2]  Why use JPEG?
+[3]  When should I use JPEG, and when should I stick with GIF?
+[4]  How well does JPEG compress images?
+[5]  What are good "quality" settings for JPEG?
+[6]  Where can I get JPEG software?
+    [6A] "canned" software, viewers, etc.
+    [6B] source code
+[7]  What's all this hoopla about color quantization?
+[8]  How does JPEG work?
+[9]  What about lossless JPEG?
+[10]  Why all the argument about file formats?
+[11]  How do I recognize which file format I have, and what do I do about it?
+[12]  What about arithmetic coding?
+[13]  Does loss accumulate with repeated compression/decompression?
+[14]  What are some rules of thumb for converting GIF images to JPEG?
+
+Sections 1-6 are basic info that every JPEG user needs to know;
+sections 7-14 are advanced info for the curious.
+
+This article is posted every 2 weeks.  You can always find the latest version
+in the news.answers archive at rtfm.mit.edu (18.70.0.226).  By FTP, fetch
+/pub/usenet/news.answers/jpeg-faq; or if you don't have FTP, send e-mail to
+mail-server@rtfm.mit.edu with body "send usenet/news.answers/jpeg-faq".
+Many other FAQ articles are also stored in this archive.  For more
+instructions on use of the archive, send e-mail to the same address with the
+words "help" and "index" (no quotes) on separate lines.  If you don't get a
+reply, the server may be misreading your return address; add a line such as
+"path myname@mysite" to specify your correct e-mail address to reply to.
+
+
+----------
+
+
+[1]  What is JPEG?
+
+JPEG (pronounced "jay-peg") is a standardized image compression mechanism.
+JPEG stands for Joint Photographic Experts Group, the original name of the
+committee that wrote the standard.  JPEG is designed for compressing either
+full-color or gray-scale digital images of "natural", real-world scenes.
+It does not work so well on non-realistic images, such as cartoons or line
+drawings.
+
+JPEG does not handle black-and-white (1-bit-per-pixel) images, nor does it
+handle motion picture compression.  Standards for compressing those types
+of images are being worked on by other committees, named JBIG and MPEG
+respectively.
+
+JPEG is "lossy", meaning that the image you get out of decompression isn't
+quite identical to what you originally put in.  The algorithm achieves much
+of its compression by exploiting known limitations of the human eye, notably
+the fact that small color details aren't perceived as well as small details
+of light-and-dark.  Thus, JPEG is intended for compressing images that will
+be looked at by humans.  If you plan to machine-analyze your images, the
+small errors introduced by JPEG may be a problem for you, even if they are
+invisible to the eye.
+
+A useful property of JPEG is that the degree of lossiness can be varied by
+adjusting compression parameters.  This means that the image maker can trade
+off file size against output image quality.  You can make *extremely* small
+files if you don't mind poor quality; this is useful for indexing image
+archives, making thumbnail views or icons, etc. etc.  Conversely, if you
+aren't happy with the output quality at the default compression setting, you
+can jack up the quality until you are satisfied, and accept lesser compression.
+
+
+[2]  Why use JPEG?
+
+There are two good reasons: to make your image files smaller, and to store
+24-bit-per-pixel color data instead of 8-bit-per-pixel data.
+
+Making image files smaller is a big win for transmitting files across
+networks and for archiving libraries of images.  Being able to compress a
+2 Mbyte full-color file down to 100 Kbytes or so makes a big difference in
+disk space and transmission time!  (If you are comparing GIF and JPEG, the
+size ratio is more like four to one.  More details below.)
+
+If your viewing software doesn't support JPEG directly, you'll have to
+convert JPEG to some other format for viewing or manipulating images.  Even
+with a JPEG-capable viewer, it takes longer to decode and view a JPEG image
+than to view an image of a simpler format (GIF, for instance).  Thus, using
+JPEG is essentially a time/space tradeoff: you give up some time in order to
+store or transmit an image more cheaply.
+
+It's worth noting that when network or phone transmission is involved, the
+time savings from transferring a shorter file can be much greater than the
+extra time to decompress the file.  I'll let you do the arithmetic yourself.
+
+The other reason why JPEG will gradually replace GIF as a standard Usenet
+posting format is that JPEG can store full color information: 24 bits/pixel
+(16 million colors) instead of 8 or less (256 or fewer colors).  If you have
+only 8-bit display hardware then this may not seem like much of an advantage
+to you.  Within a couple of years, though, 8-bit GIF will look as obsolete as
+black-and-white MacPaint format does today.  Furthermore, for reasons detailed
+in section 7, JPEG is far more useful than GIF for exchanging images among
+people with widely varying color display hardware.  Hence JPEG is considerably
+more appropriate than GIF for use as a Usenet posting standard.
+
+
+[3]  When should I use JPEG, and when should I stick with GIF?
+
+JPEG is *not* going to displace GIF entirely; for some types of images,
+GIF is superior in image quality, file size, or both.  One of the first
+things to learn about JPEG is which kinds of images to apply it to.
+
+As a rule of thumb, JPEG is superior to GIF for storing full-color or
+gray-scale images of "realistic" scenes; that means scanned photographs and
+similar material.  JPEG is superior even if you don't have 24-bit display
+hardware, and it is a LOT superior if you do.  (See section 7 for details.)
+
+GIF does significantly better on images with only a few distinct colors,
+such as cartoons and line drawings.  In particular, large areas of pixels
+that are all *exactly* the same color are compressed very efficiently indeed
+by GIF.  JPEG can't squeeze these files as much as GIF does without
+introducing visible defects.  This sort of image is best kept in GIF form.
+(In particular, single-color borders are quite cheap in GIF files, but they
+should be avoided in JPEG files.)
+
+JPEG also has a hard time with very sharp edges: a row of pure-black pixels
+adjacent to a row of pure-white pixels, for example.  Sharp edges tend to
+come out blurred unless you use a very high quality setting.  Again, this
+sort of thing is not found in scanned photographs, but it shows up fairly
+often in GIF files: borders, overlaid text, etc.  The blurriness is
+particularly objectionable with text that's only a few pixels high.
+If you have a GIF with a lot of small-size overlaid text, don't JPEG it.
+
+Computer-drawn images (ray-traced scenes, for instance) usually fall between
+scanned images and cartoons in terms of complexity.  The more complex and
+subtly rendered the image, the more likely that JPEG will do well on it.
+The same goes for semi-realistic artwork (fantasy drawings and such).
+
+Plain black-and-white (two level) images should never be converted to JPEG.
+You need at least about 16 gray levels before JPEG is useful for gray-scale
+images.  It should also be noted that GIF is lossless for gray-scale images
+of up to 256 levels, while JPEG is not.
+
+If you have an existing library of GIF images, you may wonder whether you
+should convert them to JPEG.  You will lose a little image quality if you do.
+(Section 7, which argues that JPEG image quality is superior to GIF, only
+applies if both formats start from a full-color original.  If you start from
+a GIF, you've already irretrievably lost a great deal of information; JPEG
+can only make things worse.)  However, the disk space savings may justify
+converting anyway.  This is a decision you'll have to make for yourself.
+If you do convert a GIF library to JPEG, see section 14 for hints.  Be
+prepared to leave some images in GIF format, since some GIFs will not
+convert well.
+
+
+[4]  How well does JPEG compress images?
+
+Pretty darn well.  Here are some sample file sizes for an image I have
+handy, a 727x525 full-color image of a ship in a harbor.  The first three
+files are for comparison purposes; the rest were created with the free JPEG
+software described in section 6B.
+
+File	   Size in bytes		Comments
+
+ship.ppm	1145040  Original file in PPM format (no compression; 24 bits
+			 or 3 bytes per pixel, plus a few bytes overhead)
+ship.ppm.Z	 963829  PPM file passed through Unix compress
+			 compress doesn't accomplish a lot, you'll note.
+			 Other text-oriented compressors give similar results.
+ship.gif	 240438  Converted to GIF with ppmquant -fs 256 | ppmtogif
+			 Most of the savings is the result of losing color
+			 info: GIF saves 8 bits/pixel, not 24.  (See sec. 7.)
+
+ship.jpg95	 155622  cjpeg -Q 95    (highest useful quality setting)
+			 This is indistinguishable from the 24-bit original,
+			 at least to my nonprofessional eyeballs.
+ship.jpg75	  58009  cjpeg -Q 75    (default setting)
+			 You have to look mighty darn close to distinguish this
+			 from the original, even with both on-screen at once.
+ship.jpg50	  38406  cjpeg -Q 50
+			 This has slight defects; if you know what to look
+			 for, you could tell it's been JPEGed without seeing
+			 the original.  Still as good image quality as many
+			 recent postings in Usenet pictures groups.
+ship.jpg25	  25192  cjpeg -Q 25
+			 JPEG's characteristic "blockiness" becomes apparent
+			 at this setting (djpeg -blocksmooth helps some).
+			 Still, I've seen plenty of Usenet postings that were
+			 of poorer image quality than this.
+ship.jpg5o	   6587  cjpeg -Q 5 -optimize  (-optimize cuts table overhead)
+			 Blocky, but perfectly satisfactory for preview or
+			 indexing purposes.  Note that this file is TINY:
+			 the compression ratio from the original is 173:1 !
+
+In this case JPEG can make a file that's a factor of four or five smaller
+than a GIF of comparable quality (the -Q 75 file is every bit as good as the
+GIF, better if you have a full-color display).  This seems to be a typical
+ratio for real-world scenes.
+
+
+[5]  What are good "quality" settings for JPEG?
+
+Most JPEG compressors let you pick a file size vs. image quality tradeoff by
+selecting a quality setting.  There seems to be widespread confusion about
+the meaning of these settings.  "Quality 95" does NOT mean "keep 95% of the
+information", as some have claimed.  The quality scale is purely arbitrary;
+it's not a percentage of anything.
+
+The name of the game in using JPEG is to pick the lowest quality setting
+(smallest file size) that decompresses into an image indistinguishable from
+the original.  This setting will vary from one image to another and from one
+observer to another, but here are some rules of thumb.
+
+The default quality setting (-Q 75) is very often the best choice.  This
+setting is about the lowest you can go without expecting to see defects in a
+typical image.  Try -Q 75 first; if you see defects, then go up.  Except for
+experimental purposes, never go above -Q 95; saying -Q 100 will produce a
+file two or three times as large as -Q 95, but of hardly any better quality.
+
+If the image was less than perfect quality to begin with, you might be able to
+go down to -Q 50 without objectionable degradation.  On the other hand, you
+might need to go to a HIGHER quality setting to avoid further degradation.
+The second case seems to apply much of the time when converting GIFs to JPEG.
+The default -Q 75 is about right for compressing 24-bit images, but -Q 85 to
+95 is usually better for converting GIFs (see section 14 for more info).
+
+If you want a very small file (say for preview or indexing purposes) and are
+prepared to tolerate large defects, a -Q setting in the range of 5 to 10 is
+about right.  -Q 2 or so may be amusing as "op art".
+
+(Note: the quality settings discussed in this article apply to the free JPEG
+software described in section 6B, and to many programs based on it.  Other
+JPEG implementations, such as Image Alchemy, may use a completely different
+quality scale.  Some programs don't even provide a numeric scale, just
+"high"/"medium"/"low"-style choices.)
+
+
+[6]  Where can I get JPEG software?
+
+Most of the programs described in this section are available by FTP.
+If you don't know how to use FTP, see the FAQ article "How to find sources".
+(If you don't have direct access to FTP, read about ftpmail servers in the
+same article.)  That article appears regularly in news.answers, or you can
+get it by sending e-mail to mail-server@rtfm.mit.edu with
+"send usenet/news.answers/finding-sources" in the body.  The "Anonymous FTP
+List FAQ" may also be helpful --- it's usenet/news.answers/ftp-list/faq in
+the news.answers archive.
+
+NOTE: this list changes constantly.  If you have a copy more than a couple
+months old, get the latest JPEG FAQ from the news.answers archive.
+
+
+[6A]  If you are looking for "canned" software, viewers, etc:
+
+The first part of this list is system-specific programs that only run on one
+kind of system.  If you don't see what you want for your machine, check out
+the portable JPEG software described at the end of the list.  Note that this
+list concentrates on free and shareware programs that you can obtain over
+Internet; but some commercial programs are listed too.
+
+X Windows:
+
+XV (shareware, $25) is an excellent viewer for JPEG, GIF, and many other
+image formats.  It can also do format conversion and some simple image
+manipulations.  It's available for FTP from export.lcs.mit.edu (18.24.0.12),
+file contrib/xv-3.00.tar.Z.  Version 3.00 is a major upgrade with support
+for 24-bit displays and many other improvements; however, it is brand new
+and still has some bugs lurking.  If you prefer not to be on the bleeding
+edge, stick with version 2.21, also available from export.  Note that
+version 2.21 is not a good choice if you have a 24-bit display (you'll get
+only 8-bit color), nor for converting 24-bit images to JPEG.  But 2.21 works
+fine for converting GIF and other 8-bit images to JPEG.  CAUTION: there is a
+glitch in version 2.21: be sure to check the "save at normal size" checkbox
+when saving a JPEG file, or the file will be blurry.
+
+Another good choice for X Windows is John Cristy's free ImageMagick package,
+also available from export.lcs.mit.edu, file contrib/ImageMagick.tar.Z.
+This package handles many image processing and conversion tasks.  The
+ImageMagick viewer handles 24-bit displays correctly; for colormapped
+displays, it does better (though slower) color quantization than XV or the
+basic free JPEG software.
+
+Both of the above are large, complex packages.  If you just want a simple
+image viewer, try xloadimage or xli.  xloadimage supports JPEG in its latest
+release, 3.03.  xloadimage is free and available from export.lcs.mit.edu,
+file contrib/xloadimage-3.03.tar.Z.  xli is a variant version of xloadimage,
+said by its fans to be somewhat faster and more robust than the original.
+(The current xli is indeed faster and more robust than the current
+xloadimage, at least with respect to JPEG files, because it has the IJG v4
+decoder while xloadimage 3.03 is using a hacked-over v1.  The next
+xloadimage release will fix this.)  xli is also free and available from
+export.lcs.mit.edu, file contrib/xli.1.14.tar.Z.  Both programs are said
+to do the right thing with 24-bit displays.
+
+
+MS-DOS:
+
+This covers plain DOS; for Windows or OS/2 programs, see the next headings.
+
+One good choice is Eric Praetzel's free DVPEG, which views JPEG and GIF files.
+The current version, 2.5, is available by FTP from sunee.uwaterloo.ca
+(129.97.50.50), file pub/jpeg/viewers/dvpeg25.zip.  This is a good basic
+viewer that works on either 286 or 386/486 machines.  The user interface is
+not flashy, but it's functional.
+
+Another freeware JPEG/GIF/TGA viewer is Mohammad Rezaei's Hiview.  The
+current version, 1.2, is available from Simtel20 and mirror sites (see NOTE
+below), file msdos/graphics/hv12.zip.  Hiview requires a 386 or better CPU
+and a VCPI-compatible memory manager (QEMM386 and 386MAX work; Windows and
+OS/2 do not).  Hiview is currently the fastest viewer for images that are no
+bigger than your screen.  For larger images, it scales the image down to fit
+on the screen (rather than using panning/scrolling as most viewers do).
+You may or may not prefer this approach, but there's no denying that it
+slows down loading of large images considerably.  Note: installation is a
+bit tricky; read the directions carefully!
+
+A shareware alternative is ColorView for DOS ($30).  This is easier to
+install than either of the two freeware alternatives.  Its user interface is
+also much spiffier-looking, although personally I find it harder to use ---
+more keystrokes, inconsistent behavior.  It is faster than DVPEG but a
+little slower than Hiview, at least on my hardware.  (For images larger than
+screen size, DVPEG and ColorView seem to be about the same speed, and both
+are faster than Hiview.)  The current version is 2.1, available from
+Simtel20 and mirror sites (see NOTE below), file msdos/graphics/dcview21.zip.
+Requires a VESA graphics driver; if you don't have one, look in vesadrv2.zip
+or vesa-tsr.zip from the same directory.  (Many recent PCs have a built-in
+VESA driver, so don't try to load a VESA driver unless ColorView complains
+that the driver is missing.)
+
+A second shareware alternative is Fullview, which has been kicking around
+the net for a while, but I don't know any stable archive location for it.
+The current (rather old) version is inferior to the above viewers anyway.
+The author tells me that a new version of Fullview will be out shortly
+and it will be submitted to the Simtel20 archives at that time.
+
+The well-known GIF viewer CompuShow (CSHOW) supports JPEG in its latest
+revision, 8.60a.  However, CSHOW's JPEG implementation isn't very good:
+it's slow (about half the speed of the above viewers) and image quality is
+poor except on hi-color displays.  Too bad ... it'd have been nice to see a
+good JPEG capability in CSHOW.  Shareware, $25.  Available from Simtel20 and
+mirror sites (see NOTE below), file msdos/gif/cshw860a.zip.
+
+Due to the remarkable variety of PC graphics hardware, any one of these
+viewers might not work on your particular machine.  If you can't get *any*
+of them to work, you'll need to use one of the following conversion programs
+to convert JPEG to GIF, then view with your favorite GIF viewer.  (If you
+have hi-color hardware, don't use GIF as the intermediate format; try to
+find a TARGA-capable viewer instead.  VPIC5.0 is reputed to do the right
+thing with hi-color displays.)
+
+The Independent JPEG Group's free JPEG converters are FTPable from Simtel20
+and mirror sites (see NOTE below), file msdos/graphics/jpeg4.zip (or
+jpeg4386.zip if you have a 386 and extended memory).  These files are DOS
+compilations of the free source code described in section 6B; they will
+convert JPEG to and from GIF, Targa, and PPM formats.
+
+Handmade Software offers free JPEG<=>GIF conversion tools, GIF2JPG/JPG2GIF.
+These are slow and are limited to conversion to and from GIF format; in
+particular, you can't get 24-bit color output from a JPEG.  The major
+advantage of these tools is that they will read and write HSI's proprietary
+JPEG format as well as the Usenet-standard JFIF format.  Since HSI-format
+files are rather widespread on BBSes, this is a useful capability.  Version
+2.0 of these tools is free (prior versions were shareware).  Get it from
+Simtel20 and mirror sites (see NOTE below), file msdos/graphics/gif2jpg2.zip.
+NOTE: do not use HSI format for files to be posted on Internet, since it is
+not readable on non-PC platforms.
+
+Handmade Software also has a shareware image conversion and manipulation
+package, Image Alchemy.  This will translate JPEG files (both JFIF and HSI
+formats) to and from many other image formats.  It can also display images.
+A demo version of Image Alchemy version 1.6.2 is available from Simtel20 and
+mirror sites (see NOTE below), file msdos/graphics/alch162.zip.
+
+NOTE ABOUT SIMTEL20: The Internet's key archive site for PC-related programs
+is Simtel20, full name wsmr-simtel20.army.mil (192.88.110.20).  Simtel20
+runs a non-Unix system with weird directory names; where this document
+refers to directory (eg) "msdos/graphics" at Simtel20, that really means
+"pd1:<msdos.graphics>".  If you are not physically on MILnet, you should
+expect rather slow FTP transfer rates from Simtel20.  There are several
+Internet sites that maintain copies (mirrors) of the Simtel20 archives;
+most FTP users should go to one of the mirror sites instead.  A popular USA
+mirror site is oak.oakland.edu (141.210.10.117), which keeps Simtel20 files
+in (eg) "/pub/msdos/graphics".  If you have no FTP capability, you can
+retrieve files from Simtel20 by e-mail; see informational postings in
+comp.archives.msdos.announce to find out how.  If you are outside the USA,
+consult the same newsgroup to learn where your nearest Simtel20 mirror is.
+
+Microsoft Windows:
+
+There are several Windows programs capable of displaying JPEG images.
+(Windows viewers are generally slower than DOS viewers on the same hardware,
+due to Windows' system overhead.  Note that you can run the DOS conversion
+programs described above inside a Windows DOS window.)
+
+The newest entry is WinECJ, which is free and EXTREMELY fast.  Version 1.0
+is available from ftp.rahul.net, file /pub/bryanw/pc/jpeg/wecj.zip.
+Requires Windows 3.1 and 256-or-more-colors mode.  This is a no-frills
+viewer with the bad habit of hogging the machine completely while it
+decodes; and the image quality is noticeably worse than other viewers.
+But it's so fast you'll use it anyway, at least for previewing...
+
+JView is freeware, fairly fast, has good on-line help, and can write out the
+decompressed image in Windows BMP format; but it can't create new JPEG
+files, and it doesn't view GIFs.  JView also lacks some other useful
+features of the shareware viewers (such as brightness adjustment), but it's
+an excellent basic viewer.  The current version, 0.9, is available from
+ftp.cica.indiana.edu (129.79.20.84), file pub/pc/win3/desktop/jview090.zip.
+(Mirrors of this archive can be found at some other Internet sites,
+including wuarchive.wustl.edu.)
+
+WinJPEG (shareware, $20) displays JPEG,GIF,Targa,TIFF, and BMP image files;
+it can write all of these formats too, so it can be used as a converter.
+It has some other nifty features including color-balance adjustment and
+slideshow.  The current version is 2.1, available from Simtel20 and mirror
+sites (see NOTE above), file msdos/windows3/winjp210.zip.  (This is a slow
+286-compatible version; if you register, you'll get the 386-only version,
+which is roughly 25% faster.)
+
+ColorView is another shareware entry ($30).  This was an early and promising
+contender, but it has not been updated in some time, and at this point it
+has no real advantages over WinJPEG.  If you want to try it anyway, the
+current version is 0.97, available from ftp.cica.indiana.edu, file
+pub/pc/win3/desktop/cview097.zip.  (I understand that a new version will
+be appearing once the authors are finished with ColorView for DOS.)
+
+DVPEG (see DOS heading) also works under Windows, but only in full-screen
+mode, not in a window.
+
+OS/2:
+
+The following files are available from hobbes.nmsu.edu (128.123.35.151).
+Note: check /pub/uploads for more recent versions --- the hobbes moderator
+is not very fast about moving uploads into their permanent directories.
+/pub/os2/2.x/graphics/jpegv4.zip
+    32-bit version of free IJG conversion programs, version 4.
+/pub/os2/all/graphics/jpeg4-16.zip
+    16-bit version of same, for OS/2 1.x.
+/pub/os2/2.x/graphics/imgarc12.zip
+    Image Archiver 1.02: image conversion/viewing with PM graphical interface.
+    Strong on conversion functions, viewing is a bit weaker.  Shareware, $15.
+/pub/os2/2.x/graphics/pmjpeg11.zip
+    PMJPEG 1.1: OS/2 2.x port of WinJPEG, a popular viewer for Windows
+    (see description in Windows section).  Shareware, $20.
+/pub/os2/2.x/graphics/pmview85.zip
+    PMView 0.85: JPEG/GIF/BMP viewer.  GIF viewing very fast, JPEG viewing
+    fast if you have huge amounts of RAM, otherwise about the same speed
+    as the above programs.  Strong 24-bit display support.  Shareware, $20.
+
+Macintosh:
+
+Most Mac JPEG programs rely on Apple's JPEG implementation, which is part of
+the QuickTime system extension; so you need to have QuickTime installed.
+To use QuickTime, you need a 68020 or better CPU and you need to be running
+System 6.0.7 or later.  (If you're running System 6, you must also install
+the 32-bit QuickDraw extension; this is built-in on System 7.)  You can get
+QuickTime by FTP from ftp.apple.com, file dts/mac/quicktime/quicktime.hqx.
+(As of 11/92, this file contains QuickTime 1.5, which is better than QT 1.0
+in several ways.  With respect to JPEG, it is marginally faster and
+considerably less prone to crash when fed a corrupt JPEG file.  However,
+some applications seem to have compatibility problems with QT 1.5.)
+
+Mac users should keep in mind that QuickTime's JPEG format, PICT/JPEG, is
+not the same as the Usenet-standard JFIF JPEG format.  (See section 10 for
+details.)  If you post images on Usenet, make sure they are in JFIF format.
+Most of the programs mentioned below can generate either format.
+
+The first choice is probably JPEGView, a free program for viewing images
+that are in JFIF format, PICT/JPEG format, or GIF format.  It also can
+convert between the two JPEG formats.  The current version, 2.0, is a big
+improvement over prior versions.  Get it from sumex-aim.stanford.edu
+(36.44.0.6), file /info-mac/app/jpeg-view-20.hqx.  Requires System 7 and
+QuickTime.  On 8-bit displays, JPEGView usually produces the best color
+image quality of all the currently available Mac JPEG viewers.  JPEGView can
+view large images in much less memory than other Mac viewers; in fact, it's
+the only one that can deal with JPEG images much over 640x480 pixels on a
+typical 4MB Mac.  Given a large image, JPEGView automatically scales it down
+to fit on the screen, rather than presenting scroll bars like most other
+viewers.  (You can zoom in on any desired portion, though.)  Some people
+like this behavior, some don't.  Overall, JPEGView's user interface is very
+well thought out.
+
+GIFConverter, a shareware ($40) image viewer/converter, supports JFIF and
+PICT/JPEG, as well as GIF and several other image formats.  The latest
+version is 2.3.2.  Get it from sumex-aim.stanford.edu, file
+/info-mac/art/gif/gif-converter-232.hqx.  Requires System 6.0.5 or later.
+GIFConverter is not better than JPEGView as a plain JPEG/GIF viewer, but
+it has much more extensive image manipulation and format conversion
+capabilities, so you may find it worth its shareware fee if you do a lot of
+playing around with images.  Also, the newest version of GIFConverter can
+load and save JFIF images *without* QuickTime, so it is your best bet if
+your machine is too old to run QuickTime.  (But it's faster with QuickTime.)
+Note: If GIFConverter runs out of memory trying to load a large JPEG, try
+converting the file to GIF with JPEG Convert, then viewing the GIF version.
+
+JPEG Convert, a Mac version of the free IJG JPEG conversion utilities, is
+available from sumex-aim.stanford.edu, file /info-mac/app/jpeg-convert-10.hqx.
+This will run on any Mac, but it only does file conversion, not viewing.
+You can use it in conjunction with any GIF viewer.
+
+Previous versions of this FAQ recommended Imagery JPEG v0.6, a JPEG<=>GIF
+converter based on an old version of the IJG code.  If you are using this
+program, you definitely should replace it with JPEG Convert.
+
+Apple's free program PictPixie can view images in JFIF, QuickTime JPEG, and
+GIF format, and can convert between these formats.  You can get PictPixie
+from ftp.apple.com, file dts/mac/quicktime/qt.1.0.stuff/pictpixie.hqx.
+Requires QuickTime.  PictPixie was intended as a developer's tool, and it's
+really not the best choice unless you like to fool around with QuickTime.
+Some of its drawbacks are that it requires lots of memory, it produces
+relatively poor color image quality on anything less than a 24-bit display,
+and it has a relatively unfriendly user interface.  Worse, PictPixie is an
+unsupported program, meaning it has some minor bugs that Apple does not
+intend to fix.  (There is an old version of PictPixie, called
+PICTCompressor, floating around the net.  If you have this you should trash
+it, as it's even buggier.  Also, the QuickTime Starter Kit includes a much
+cleaned-up descendant of PictPixie called Picture Compressor.  Note that
+Picture Compressor is NOT free and may not be distributed on the net.)
+
+Storm Technology's Picture Decompress is a free JPEG viewer/converter.
+This rather old program is inferior to the above programs in many ways, but
+it will run without System 7 or QuickTime, so you may be forced to use it on
+older systems.  (It does need 32-bit QuickDraw, so really old machines can't
+use it.)  You can get it from sumex-aim.stanford.edu, file
+/info-mac/app/picture-decompress-201.hqx.  You must set the file type of a
+downloaded image file to 'JPEG' to allow Picture Decompress to open it.
+
+If your machine is too old to run 32-bit QuickDraw (a Mac Plus for instance),
+GIFConverter is your only choice for single-program JPEG viewing.  If you
+don't want to pay for GIFConverter, use JPEG Convert and a free GIF viewer.
+
+More and more commercial Mac applications are supporting JPEG, although not
+all can deal with the Usenet-standard JFIF format.  Adobe Photoshop, version
+2.0.1 or later, can read and write JFIF-format JPEG files (use the JPEG
+plug-in from the Acquire menu).  You must set the file type of a downloaded
+JPEG file to 'JPEG' to allow Photoshop to recognize it.
+
+Amiga:
+
+(Most programs listed in this section are stored in the AmiNet archive at
+amiga.physik.unizh.ch (130.60.80.80).  There are many mirror sites of this
+archive and you should try to use the closest one.  In the USA, a good
+choice is wuarchive.wustl.edu; look under /mirrors/amiga.physik.unizh.ch/...)
+
+HamLab Plus is an excellent JPEG viewer/converter, as well as being a
+general image manipulation tool.  It's cheap (shareware, $20) and can read
+several formats besides JPEG.  The current version is 2.0.8.  A demo version
+is available from amiga.physik.unizh.ch (and mirror sites), file
+amiga/gfx/edit/hamlab208d.lha.  The demo version will crop images larger
+than 512x512, but it is otherwise fully functional.
+
+Rend24 (shareware, $30) is an image renderer that can display JPEG, ILBM,
+and GIF images.  The program can be used to create animations, even
+capturing frames on-the-fly from rendering packages like Lightwave.  The
+current version is 1.05, available from amiga.physik.unizh.ch (and mirror
+sites), file amiga/os30/gfx/rend105.lha.  (Note: although this directory is
+supposedly for AmigaDOS 3.0 programs, the program will also run under
+AmigaDOS 1.3, 2.04 or 2.1.)
+
+Viewtek is a free JPEG/ILBM/GIF/ANIM viewer.  The current version is 1.04,
+available from amiga.physik.unizh.ch (and mirror sites), file
+amiga/gfx/show/ViewTek104.lha.
+
+If you're willing to spend real money, there are several commercial packages
+that support JPEG.  Two are written by Thomas Krehbiel, the author of Rend24
+and Viewtek.  These are CineMorph, a standalone image morphing package, and
+ImageFX, an impressive 24-bit image capture, conversion, editing, painting,
+effects and prepress package that also includes CineMorph.  Both are
+distributed by Great Valley Products.  Art Department Professional (ADPro),
+from ASDG Inc, is the most widely used commercial image manipulation
+software for Amigas.  ImageMaster, from Black Belt Systems, is another
+well-regarded commercial graphics package with JPEG support.
+
+The free IJG JPEG software is available compiled for Amigas from
+amiga.physik.unizh.ch (and mirror sites) in directory amiga/gfx/conv, file
+AmigaJPEGV4.lha.  These programs convert JPEG to/from PPM,GIF,Targa formats.
+
+The Amiga world is heavily infested with quick-and-dirty JPEG programs, many
+based on an ancient beta-test version of the free IJG JPEG software (thanks
+to a certain magazine that published same on its disk-of-the-month, without
+so much as notifying the authors).  Among these are "AugJPEG", "NewAmyJPEG",
+"VJPEG", and probably others I have not even heard of.  In my opinion,
+anything older than IJG version 3 (March 1992) is not worth the disk space
+it's stored on; if you have such a program, trash it and get something newer.
+
+Atari ST:
+
+The free IJG JPEG software is available compiled for Atari ST, TT, etc,
+from atari.archive.umich.edu, file /atari/Graphics/jpeg4bin.zoo.
+These programs convert JPEG to/from PPM, GIF, Targa formats.
+
+For monochrome ST monitors, try MGIF, which manages to achieve four-level
+grayscale effect by flickering.  Version 4.1 reads JPEG files.  Available
+from atari.archive.umich.edu, file /atari/Graphics/mgif41b.zoo.
+
+I have not heard of any other free or shareware JPEG-capable viewers for
+Ataris, but surely there must be some by now?  Pointers appreciated.
+
+Acorn Archimedes:
+
+!ChangeFSI, supplied with RISC OS 3 version 3.10, can convert from and view
+JPEG JFIF format.  Provision is also made to convert images to JPEG,
+although this must be done from the CLI rather than by double-clicking.
+
+Recent versions (since 7.11) of the shareware program Translator can handle
+JPEG, along with about 30 other image formats.  While older versions can be
+found on some Archimedes bboards, the current version is only available by
+registering with the author, John Kortink, Nutterbrink 31, 7544 WJ, Enschede,
+The Netherlands.  Price 35 Dutch guilders (about $22 or 10 pounds).
+
+There's also a commercial product called !JPEG which provides JPEG read/write
+functionality and direct JPEG viewing, as well as a host of other image
+format conversion and processing options.  This is more expensive but not
+necessarily better than the above programs.  Contact: DT Software, FREEPOST,
+Cambridge, UK.  Tel: 0223 841099.
+
+
+Portable software for almost any system:
+
+If none of the above fits your situation, you can obtain and compile the free
+JPEG conversion software described in 6B.  You'll also need a viewer program.
+If your display is 8 bits or less, any GIF viewer will do fine; if you have a
+display with more color capability, try to find a viewer that can read Targa
+or PPM 24-bit image files.
+
+There are numerous commercial JPEG offerings, with more popping up every
+day.  I recommend that you not spend money on one of these unless you find
+the available free or shareware software vastly too slow.  In that case,
+purchase a hardware-assisted product.  Ask pointed questions about whether
+the product complies with the final JPEG standard and about whether it can
+handle the JFIF file format; many of the earliest commercial releases are
+not and never will be compatible with anyone else's files.
+
+
+[6B]  If you are looking for source code to work with:
+
+Free, portable C code for JPEG compression is available from the Independent
+JPEG Group, which I lead.  A package containing our source code,
+documentation, and some small test files is available from several places.
+The "official" archive site for this source code is ftp.uu.net (137.39.1.9
+or 192.48.96.9).  Look under directory /graphics/jpeg; the current release
+is jpegsrc.v4.tar.Z.  (This is a compressed TAR file; don't forget to
+retrieve in binary mode.)  You can retrieve this file by FTP or UUCP.
+If you are on a PC and don't know how to cope with .tar.Z format, you may
+prefer ZIP format, which you can find at Simtel20 and mirror sites (see NOTE
+above), file msdos/graphics/jpegsrc4.zip.  This file will also be available on
+CompuServe, in the GRAPHSUPPORT forum (GO PICS), library 15, as jpsrc4.zip.
+If you have no FTP access, you can retrieve the source from your nearest
+comp.sources.misc archive; version 4 appeared as issues 55-72 of volume 34.
+(If you don't know how to retrieve comp.sources.misc postings, see the FAQ
+article "How to find sources", referred to at the top of section 6.)
+
+The free JPEG code provides conversion between JPEG "JFIF" format and image
+files in GIF, PBMPLUS PPM/PGM, Utah RLE, and Truevision Targa file formats.
+The core compression and decompression modules can easily be reused in other
+programs, such as image viewers.  The package is highly portable; we have
+tested it on many machines ranging from PCs to Crays.
+
+We have released this software for both noncommercial and commercial use.
+Companies are welcome to use it as the basis for JPEG-related products.
+We do not ask a royalty, although we do ask for an acknowledgement in
+product literature (see the README file in the distribution for details).
+We hope to make this software industrial-quality --- although, as with
+anything that's free, we offer no warranty and accept no liability.
+
+The Independent JPEG Group is a volunteer organization; if you'd like to
+contribute to improving our software, you are welcome to join.
+
+
+[7]  What's all this hoopla about color quantization?
+
+Most people don't have full-color (24 bit per pixel) display hardware.
+Typical display hardware stores 8 or fewer bits per pixel, so it can display
+256 or fewer distinct colors at a time.  To display a full-color image, the
+computer must map the image into an appropriate set of representative
+colors.  This process is called "color quantization".  (This is something
+of a misnomer, "color selection" would be a better term.  We're stuck with
+the standard usage though.)
+
+Clearly, color quantization is a lossy process.  It turns out that for most
+images, the details of the color quantization algorithm have MUCH more impact
+on the final image quality than do any errors introduced by JPEG (except at
+the very lowest JPEG quality settings).
+
+Since JPEG is a full-color format, converting a color JPEG image for display
+on 8-bit-or-less hardware requires color quantization.  This is true for
+*all* color JPEGs: even if you feed a 256-or-less-color GIF into JPEG, what
+comes out of the decompressor is *not* 256 colors, but thousands of colors.
+This happens because JPEG's lossiness affects each pixel a little
+differently, so two pixels that started with identical colors will probably
+come out with slightly different colors.  Each original color gets "smeared"
+into a group of nearby colors.  Therefore quantization is always required to
+display a color JPEG on a colormapped display, regardless of the image
+source.  The only way to avoid quantization is to ask for gray-scale output.
+
+(Incidentally, because of this effect it's nearly meaningless to talk about
+the number of colors used by a JPEG image.  Even if you attempted to count
+the number of distinct pixel values, different JPEG decoders would give you
+different results because of roundoff error differences.  I occasionally see
+posted images described as "256-color JPEG".  This tells me that the poster
+(a) hasn't read this FAQ and (b) probably converted the JPEG from a GIF.
+JPEGs can be classified as color or gray-scale (just like photographs), but
+number of colors just isn't a useful concept for JPEG.)
+
+On the other hand, a GIF image by definition has already been quantized to
+256 or fewer colors.  (A GIF *does* have a definite number of colors in its
+palette, and the format doesn't allow more than 256 palette entries.)
+For purposes of Usenet picture distribution, GIF has the advantage that the
+sender precomputes the color quantization, so recipients don't have to.
+This is also the *disadvantage* of GIF: you're stuck with the sender's
+quantization.  If the sender quantized to a different number of colors than
+what you can display, you have to re-quantize, resulting in much poorer
+image quality than if you had quantized once from a full-color image.
+Furthermore, if the sender didn't use a high-quality color quantization
+algorithm, you're out of luck.
+
+For this reason, JPEG offers the promise of significantly better image quality
+for all users whose machines don't match the sender's display hardware.
+JPEG's full color image can be quantized to precisely match the user's display
+hardware.  Furthermore, you will be able to take advantage of future
+improvements in quantization algorithms (there is a lot of active research in
+this area), or purchase better display hardware, to get a better view of JPEG
+images you already have.  With a GIF, you're stuck forevermore with what was
+sent.
+
+It's also worth mentioning that many GIF-viewing programs include rather
+shoddy quantization routines.  If you view a 256-color GIF on a 16-color EGA
+display, for example, you are probably getting a much worse image than you
+need to.  This is partly an inevitable consequence of doing two color
+quantizations (one to create the GIF, one to display it), but often it's
+also due to sloppiness.  JPEG conversion programs will be forced to use
+high quality quantizers in order to get acceptable results at all, and in
+normal use they will quantize directly to the number of colors to be
+displayed.  Thus, JPEG is likely to provide better results than the average
+GIF program for low-color-resolution displays as well as high-resolution ones!
+
+Finally, an ever-growing number of people have better-than-8-bit display
+hardware already: 15-bit "hi-color" PC displays, true 24-bit displays on
+workstations and Macintoshes, etc.  For these people, GIF is already
+obsolete, as it cannot represent an image to the full capabilities of their
+display.  JPEG images can drive these displays much more effectively.
+Thus, JPEG is an all-around better choice than GIF for representing images
+in a machine-independent fashion.
+
+
+[8]  How does JPEG work?
+
+The buzz-words to know are chrominance subsampling, discrete cosine
+transforms, coefficient quantization, and Huffman or arithmetic entropy
+coding.  This article's long enough already, so I'm not going to say more
+than that here.  For technical information, see the comp.compression FAQ.
+This is available from the news.answers archive at rtfm.mit.edu, in files
+/pub/usenet/news.answers/compression-faq/part[1-3].  If you need help in
+using the news.answers archive, see the top of this article.
+
+
+[9]  What about lossless JPEG?
+
+There's a great deal of confusion on this subject.  The JPEG committee did
+define a truly lossless compression algorithm, i.e., one that guarantees the
+final output is bit-for-bit identical to the original input.  However, this
+lossless mode has almost nothing in common with the regular, lossy JPEG
+algorithm, and it offers much less compression.  At present, very few
+implementations of lossless JPEG exist, and all of them are commercial.
+
+Saying "-Q 100" to the free JPEG software DOES NOT get you a lossless image.
+What it does get rid of is deliberate information loss in the coefficient
+quantization step.  There is still a good deal of information loss in the
+color subsampling step.  (With the V4 free JPEG code, you can also say
+"-sample 1x1" to turn off subsampling.  Keep in mind that many commercial
+JPEG implementations cannot cope with the resulting file.)
+
+Even with both quantization and subsampling turned off, the regular JPEG
+algorithm is not lossless, because it is subject to roundoff errors in
+various calculations.  The maximum error is a few counts in any one pixel
+value; it's highly unlikely that this could be perceived by the human eye,
+but it might be a concern if you are doing machine processing of an image.
+
+At this minimum-loss setting, regular JPEG produces files that are perhaps
+half the size of an uncompressed 24-bit-per-pixel image.  True lossless JPEG
+provides roughly the same amount of compression, but it guarantees
+bit-for-bit accuracy.
+
+If you have an application requiring lossless storage of images with less
+than 6 bits per pixel (per color component), you may want to look into the
+JBIG bilevel image compression standard.  This performs better than JPEG
+lossless on such images.  JPEG lossless is superior to JBIG on images with
+6 or more bits per pixel; furthermore, JPEG is public domain (at least with a
+Huffman back end), while the JBIG techniques are heavily covered by patents.
+
+
+[10]  Why all the argument about file formats?
+
+Strictly speaking, JPEG refers only to a family of compression algorithms;
+it does *not* refer to a specific image file format.  The JPEG committee was
+prevented from defining a file format by turf wars within the international
+standards organizations.
+
+Since we can't actually exchange images with anyone else unless we agree on
+a common file format, this leaves us with a problem.  In the absence of
+official standards, a number of JPEG program writers have just gone off to
+"do their own thing", and as a result their programs aren't compatible with
+anybody else's.
+
+The closest thing we have to a de-facto standard JPEG format is some work
+that's been coordinated by people at C-Cube Microsystems.  They have defined
+two JPEG-based file formats:
+  * JFIF (JPEG File Interchange Format), a "low-end" format that transports
+    pixels and not much else.
+  * TIFF/JPEG, aka TIFF 6.0, an extension of the Aldus TIFF format.  TIFF is
+    a "high-end" format that will let you record just about everything you
+    ever wanted to know about an image, and a lot more besides :-).  TIFF is
+    a lot more complex than JFIF, and may well prove less transportable,
+    because different vendors have historically implemented slightly different
+    and incompatible subsets of TIFF.  It's not likely that adding JPEG to the
+    mix will do anything to improve this situation.
+Both of these formats were developed with input from all the major vendors
+of JPEG-related products; it's reasonably likely that future commercial
+products will adhere to one or both standards.
+
+I believe that Usenet should adopt JFIF as the replacement for GIF in
+picture postings.  JFIF is simpler than TIFF and is available now; the
+TIFF 6.0 spec has only recently been officially adopted, and it is still
+unusably vague on some crucial details.  Even when TIFF/JPEG is well
+defined, the JFIF format is likely to be a widely supported "lowest common
+denominator"; TIFF/JPEG files may never be as transportable.
+
+A particular case that people may be interested in is Apple's QuickTime
+software for the Macintosh.  QuickTime uses a JFIF-compatible format wrapped
+inside the Mac-specific PICT structure.  Conversion between JFIF and
+QuickTime JPEG is pretty straightforward, and several Mac programs are
+available to do it (see Mac portion of section 6A).  If you have an editor
+that handles binary files, you can strip a QuickTime JPEG PICT down to JFIF
+by hand; see section 11 for details.
+
+Another particular case is Handmade Software's programs (GIF2JPG/JPG2GIF and
+Image Alchemy).  These programs are capable of reading and writing JFIF
+format.  By default, though, they write a proprietary format developed by
+HSI.  This format is NOT readable by any non-HSI programs and should not be
+used for Usenet postings.  Use the -j switch to get JFIF output.  (This
+applies to old versions of these programs; the current releases emit JFIF
+format by default.  You still should be careful not to post HSI-format
+files, unless you want to get flamed by people on non-PC platforms.)
+
+
+[11]  How do I recognize which file format I have, and what do I do about it?
+
+If you have an alleged JPEG file that your software won't read, it's likely
+to be HSI format or some other proprietary JPEG-based format.  You can tell
+what you have by inspecting the first few bytes of the file:
+
+1.  A JFIF-standard file will start with the characters (hex) FF D8 FF E0,
+    followed by two variable bytes (often hex 00 10), followed by 'JFIF'.
+
+2.  If you see FF D8 at the start, but not the rest of it, you may have a
+    "raw JPEG" file.  This is probably decodable as-is by JFIF software ---
+    it's worth a try, anyway.
+
+3.  HSI files start with 'hsi1'.  You're out of luck unless you have HSI
+    software.  Portions of the file may look like plain JPEG data, but they
+    won't decompress properly with non-HSI programs.
+
+4.  A Macintosh PICT file, if JPEG-compressed, will have a couple hundred
+    bytes of header followed by a JFIF header (scan for 'JFIF').  Strip off
+    everything before the FF D8 and you should be able to read it.
+
+5.  Anything else: it's a proprietary format, or not JPEG at all.  If you are
+    lucky, the file may consist of a header and a raw JPEG data stream.
+    If you can identify the start of the JPEG data stream (look for FF D8),
+    try stripping off everything before that.
+
+In uuencoded Usenet postings, the characteristic JFIF pattern is
+
+	"begin" line
+	M_]C_X ...
+
+whereas uuencoded HSI files will start with
+
+	"begin" line
+	M:'-I ...
+
+If you learn to check for the former, you can save yourself the trouble of
+downloading non-JFIF files.
+
+
+[12]  What about arithmetic coding?
+
+The JPEG spec defines two different "back end" modules for the final output
+of compressed data: either Huffman coding or arithmetic coding is allowed.
+The choice has no impact on image quality, but arithmetic coding usually
+produces a smaller compressed file.  On typical images, arithmetic coding
+produces a file 5 or 10 percent smaller than Huffman coding.  (All the
+file-size numbers previously cited are for Huffman coding.)
+
+Unfortunately, the particular variant of arithmetic coding specified by the
+JPEG standard is subject to patents owned by IBM, AT&T, and Mitsubishi.
+Thus *you cannot legally use arithmetic coding* unless you obtain licenses
+from these companies.  (The "fair use" doctrine allows people to implement
+and test the algorithm, but actually storing any images with it is dubious
+at best.)
+
+At least in the short run, I recommend that people not worry about
+arithmetic coding; the space savings isn't great enough to justify the
+potential legal hassles.  In particular, arithmetic coding *should not*
+be used for any images to be exchanged on Usenet.
+
+There is some small chance that the legal situation may change in the
+future.  Stay tuned for further details.
+
+
+[13]  Does loss accumulate with repeated compression/decompression?
+
+It would be nice if, having compressed an image with JPEG, you could
+decompress it, manipulate it (crop off a border, say), and recompress it
+without any further image degradation beyond what you lost initially.
+Unfortunately THIS IS NOT THE CASE.  In general, recompressing an altered
+image loses more information, though usually not as much as was lost the
+first time around.
+
+The next best thing would be that if you decompress an image and recompress
+it *without changing it* then there is no further loss, i.e., you get an
+identical JPEG file.  Even this is not true; at least, not with the current
+free JPEG software.  It's essentially a problem of accumulation of roundoff
+error.  If you repeatedly compress and decompress, the image will eventually
+degrade to where you can see visible changes from the first-generation
+output.  (It usually takes many such cycles to get visible change.)
+One of the things on our to-do list is to see if accumulation of error can
+be avoided or limited, but I am not optimistic about it.
+
+In any case, the most that could possibly be guaranteed would be that
+compressing the unmodified full-color output of djpeg, at the original
+quality setting, would introduce no further loss.  Even such simple changes
+as cropping off a border could cause further roundoff-error degradation.
+(If you're wondering why, it's because the pixel-block boundaries move.
+If you cropped off only multiples of 16 pixels, you might be safe, but
+that's a mighty limited capability!)
+
+The bottom line is that JPEG is a useful format for archival storage and
+transmission of images, but you don't want to use it as an intermediate
+format for sequences of image manipulation steps.  Use a lossless format
+(PPM, RLE, TIFF, etc) while working on the image, then JPEG it when you are
+ready to file it away.  Aside from avoiding degradation, you will save a lot
+of compression/decompression time this way :-).
+
+
+[14]  What are some rules of thumb for converting GIF images to JPEG?
+
+As stated earlier, you *will* lose some amount of image information if you
+convert an existing GIF image to JPEG.  If you can obtain the original
+full-color data the GIF was made from, it's far better to make a JPEG from
+that.  But if you need to save space and have only the GIF to work from,
+here are some suggestions for getting maximum space savings with minimum
+loss of quality.
+
+The first rule when converting a GIF library is to look at each JPEG, to
+make sure you are happy with it, before throwing away the corresponding GIF;
+that will give you a chance to re-do the conversion with a higher quality
+setting if necessary.  Some GIFs may be better left as GIFs, as explained in
+section 3; in particular, cartoon-type GIFs with sixteen or fewer colors
+don't convert well.  You may find that a JPEG file of reasonable quality
+will be *larger* than the GIF.  (So check the sizes too.)
+
+Experience to date suggests that large, high-visual-quality GIFs are the best
+candidates for conversion to JPEG.  They chew up the most storage so offer
+the most potential savings, and they convert to JPEG with least degradation.
+Don't waste your time converting any GIF much under 100 Kbytes.  Also, don't
+expect JPEG files converted from GIFs to be as small as those created
+directly from full-color originals.  To maintain image quality you may have
+to let the converted files be as much as twice as big as straight-through
+JPEG files would be (i.e., shoot for 1/2 or 1/3rd the size of the GIF file,
+not 1/4th as suggested in earlier comparisons).
+
+Many people have developed an odd habit of putting a large constant-color
+border around a GIF image.  While useless, this was nearly free in terms of
+storage cost in GIF files.  It is NOT free in JPEG files, and the sharp
+border boundary can create visible artifacts ("ghost" edges).  Do yourself
+a favor and crop off any border before JPEGing.  (If you are on an X Windows
+system, XV's manual and automatic cropping functions are a very painless
+way to do this.)
+
+cjpeg's default Q setting of 75 is appropriate for full-color input, but
+for GIF inputs, Q settings of 85 to 95 often seem to be necessary to avoid
+image degradation.  (If you apply smoothing as suggested below, the higher
+Q setting may not be necessary.)
+
+Color GIFs of photographs or complex artwork are usually "dithered" to fool
+your eye into seeing more than the 256 colors that GIF can actually store.
+If you enlarge the image, you will see that adjacent pixels are often of
+significantly different colors; at normal size the eye averages these pixels
+together to produce the illusion of an intermediate color value.  The
+trouble with dithering is that, to JPEG, it looks like high-spatial-frequency
+color noise; and JPEG can't compress noise very well.  The resulting JPEG
+file is both larger and of lower image quality than what you would have
+gotten from JPEGing the original full color image (if you had it).
+To get around this, you want to "smooth" the GIF image before compression.
+Smoothing averages together nearby pixels, thus approximating the color that
+you thought you saw anyway, and in the process getting rid of the rapid
+color changes that give JPEG trouble.  Appropriate use of smoothing will
+often let you avoid using a high Q factor, thus further reducing the size of
+the compressed file, while still obtaining a better-looking output image
+than you'd get without smoothing.
+
+With the V4 free JPEG software (or products based on it), a simple smoothing
+capability is built in.  Try "-smooth 10" or so when converting GIFs.
+Values of 10 to 25 seem to work well for high-quality GIFs.  Heavy-handed
+dithering may require larger smoothing factors.  (If you can see regular
+fine-scale patterns on the GIF image even without enlargement, then strong
+smoothing is definitely called for.)  Too large a smoothing factor will blur
+the output image, which you don't want.  If you are an image processing
+wizard, you can also do smoothing with a separate filtering program, such as
+pnmconvol from the PBMPLUS package.  However, cjpeg's built-in smoother is
+a LOT faster than pnmconvol...
+
+The upshot of all this is that "cjpeg -quality 85 -smooth 10" is probably a
+good starting point for converting GIFs.  But if you really care about the
+image, you'll want to check the results and maybe try a few other settings.
+
+
+---------------------
+
+For more information about JPEG in general or the free JPEG software in
+particular, contact the Independent JPEG Group at jpeg-info@uunet.uu.net.
+
+-- 
+			tom lane
+			organizer, Independent JPEG Group
+Internet: tgl@cs.cmu.edu	BITNET: tgl%cs.cmu.edu@carnegie
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jpeg imag compress frequent ask question use info
+jpeg jpg imag file program      expir mon gmt
+archiv name jpeg faq last modifi  faq articl
+discuss jpeg imag compress suggest addit clarif
+welcom  new sinc version april new version support
+bit view window new version dvpeg imag alchemi dos
+new version imag archiv pmview new list mgif
+monochrom display atari   articl includ follow
+section  jpeg use jpeg use jpeg stick gif well
+jpeg compress imag good qualiti set jpeg get jpeg
+softwar can softwar viewer etc sourc code what
+hoopla color quantize jpeg work lossless jpeg
+argument file format recogn file format arithmet
+code loss accumul repeat compress decompress rule
+thumb convert gif imag jpeg  section basic info
+everi jpeg user need know section advanc info
+curious  articl post everi week alway find latest
+version news answer archiv rtfm mit edu ftp fetch
+pub usenet news answer jpeg faq don't ftp send
+mail  mani faq articl also store archiv instruct
+use archiv send mail address word help index quot
+separ line don't get repli server misread return
+address add line path mynam mysit specifi correct
+mail address repli      jpeg  jpeg pronounc jay
+peg standard imag compress mechan jpeg stand joint
+photograph expert group origin name committe wrote
+standard jpeg design compress either full color
+gray scale digit imag natur real world scene work
+well non realist imag cartoon line draw  jpeg
+handl black white bit per pixel imag handl motion
+pictur compress standard compress type imag work
+committe name jbig mpeg respect  jpeg lossi mean
+imag get decompress isn't quit ident origin put
+algorithm achiev much compress exploit known limit
+human eye notabl fact small color detail aren't
+perceiv well small detail light dark thus jpeg
+intend compress imag look human plan machin analyz
+imag small error introduc jpeg problem even invis
+eye  use properti jpeg degre lossi vari adjust
+compress paramet mean imag maker trade file size
+output imag qualiti make extrem small file don't
+mind poor qualiti use index imag archiv make
+thumbnail view icon etc etc convers aren't happi
+output qualiti default compress set jack qualiti
+satisfi accept lesser compress   use jpeg  two
+good reason make imag file smaller store bit per
+pixel color data instead bit per pixel data  make
+imag file smaller big win transmit file across
+network archiv librari imag abl compress mbyte
+full color file kbyte make big differ disk space
+transmiss time compar gif jpeg size ratio like
+four one detail  view softwar doesn't support jpeg
+direct you'll convert jpeg format view manipul
+imag even jpeg capabl viewer take longer decod
+view jpeg imag view imag simpler format gif
+instanc thus use jpeg essenti time space tradeoff
+give time order store transmit imag cheapli  it
+worth note network phone transmiss involv time
+save transfer shorter file much greater extra time
+decompress file i'll let arithmet  reason jpeg
+gradual replac gif standard usenet post format
+jpeg store full color inform bit pixel million
+color instead less fewer color bit display hardwar
+seem like much advantag within coupl year though
+bit gif look obsolet black white macpaint format
+today furthermor reason detail section jpeg far
+use gif exchang imag among peopl wide vari color
+display hardwar henc jpeg consider appropri gif
+use usenet post standard   use jpeg stick gif
+jpeg go displac gif entir type imag gif superior
+imag qualiti file size one first thing learn jpeg
+kind imag appli  rule thumb jpeg superior gif
+store full color gray scale imag realist scene
+mean scan photograph similar materi jpeg superior
+even don't bit display hardwar lot superior see
+section detail  gif signific better imag distinct
+color cartoon line draw particular larg area pixel
+exact color compress effici inde gif jpeg can't
+squeez file much gif without introduc visibl
+defect sort imag best kept gif form particular
+singl color border quit cheap gif file avoid jpeg
+file  jpeg also hard time sharp edg row pure black
+pixel adjac row pure white pixel exampl sharp edg
+tend come blur unless use high qualiti set sort
+thing found scan photograph show fair often gif
+file border overlaid text etc blurri particular
+objection text that pixel high gif lot small size
+overlaid text don't jpeg  comput drawn imag ray
+trace scene instanc usual fall scan imag cartoon
+term complex complex subt render imag like jpeg
+well goe semi realist artwork fantasi draw  plain
+black white two level imag never convert jpeg need
+least gray level jpeg use gray scale imag also
+note gif lossless gray scale imag level jpeg
+exist librari gif imag wonder whether convert jpeg
+lose littl imag qualiti section argu jpeg imag
+qualiti superior gif appli format start full color
+origin start gif you'v alreadi irretriev lost
+great deal inform jpeg make thing wors howev disk
+space save justifi convert anyway decis you'll
+make convert gif librari jpeg see section hint
+prepar leav imag gif format sinc gif convert well
+well jpeg compress imag  pretti darn well sampl
+file size imag handi 727x525 full color imag ship
+harbor first three file comparison purpos rest
+creat free jpeg softwar describ section  file size
+byte comment  ship ppm origin file ppm format
+compress bit byte per pixel plus byte overhead
+ship ppm ppm file pass unix compress compress
+doesn't accomplish lot you'll note text orient
+compressor give similar result ship gif convert
+gif ppmquant ppmtogif save result lose color info
+gif save bit pixel see sec  ship jpg95 cjpeg
+highest use qualiti set indistinguish bit origin
+least nonprofession eyebal ship jpg75 cjpeg
+default set look mighti darn close distinguish
+origin even screen ship jpg50 cjpeg slight defect
+know look could tell it jpege without see origin
+still good imag qualiti mani recent post usenet
+pictur group ship jpg25 cjpeg jpeg characterist
+blocki becom appar set djpeg blocksmooth help
+still i'v seen plenti usenet post poorer imag
+qualiti ship jpg5o cjpeg optim optim cut tabl
+overhead blocki perfect satisfactori preview index
+purpos note file tini compress ratio origin  case
+jpeg make file that factor four five smaller gif
+compar qualiti file everi bit good gif better full
+color display seem typic ratio real world scene
+good qualiti set jpeg  jpeg compressor let pick
+file size imag qualiti tradeoff select qualiti set
+seem widespread confus mean set qualiti mean keep
+inform claim qualiti scale pure arbitrari it
+percentag anyth  name game use jpeg pick lowest
+qualiti set smallest file size decompress imag
+indistinguish origin set vari one imag anoth one
+observ anoth rule thumb  default qualiti set often
+best choic set lowest without expect see defect
+typic imag tri first see defect except experiment
+purpos never say produc file two three time larg
+hard better qualiti  imag less perfect qualiti
+begin might abl without objection degrad hand
+might need higher qualiti set avoid degrad second
+case seem appli much time convert gif jpeg default
+right compress bit imag usual better convert gif
+see section info  want small file say preview
+index purpos prepar toler larg defect set rang
+right amus art  note qualiti set discuss articl
+appli free jpeg softwar describ section mani
+program base jpeg implement imag alchemi use
+complet differ qualiti scale program don't even
+provid numer scale high medium low style choic
+get jpeg softwar  program describ section avail
+ftp don't know use ftp see faq articl find sourc
+don't direct access ftp read ftpmail server articl
+articl appear regular news answer  send usenet
+news answer find sourc bodi anonym ftp list faq
+also help it usenet news answer ftp list faq news
+answer archiv  note list chang constant copi coupl
+month old get latest jpeg faq news answer archiv
+look can softwar viewer etc  first part list
+system specif program run one kind system don't
+see want machin check portabl jpeg softwar describ
+end list note list concentr free sharewar program
+obtain internet commerci program list  window
+sharewar excel viewer jpeg gif mani imag format
+also format convers simpl imag manipul it avail
+ftp export lcs mit edu file contrib tar version
+major upgrad support bit display mani improv howev
+brand new still bug lurk prefer bleed edg stick
+version also avail export note version good choic
+bit display you'll get bit color convert bit imag
+jpeg work fine convert gif bit imag jpeg caution
+glitch version sure check save normal size
+checkbox save jpeg file file blurri  anoth good
+choic window john cristi free imagemagick packag
+also avail export lcs mit edu file contrib
+imagemagick tar packag handl mani imag process
+convers task imagemagick viewer handl bit display
+correct colormap display better though slower
+color quantize basic free jpeg softwar  larg
+complex packag want simpl imag viewer tri
+xloadimag xli xloadimag support jpeg latest releas
+xloadimag free avail export lcs mit edu file
+contrib xloadimag tar xli variant version
+xloadimag said fan somewhat faster robust origin
+current xli inde faster robust current xloadimag
+least respect jpeg file ijg decod xloadimag use
+hack next xloadimag releas fix xli also free avail
+export lcs mit edu file contrib xli tar program
+said right thing bit display   dos  cover plain
+dos window program see next head  one good choic
+eric praetzel free dvpeg view jpeg gif file
+current version avail ftp sune uwaterloo file pub
+jpeg viewer dvpeg25 zip good basic viewer work
+either machin user interfac flashi it function
+anoth freewar jpeg gif tga viewer mohammad rezaei
+hiview current version avail simtel20 mirror site
+see note file msdos graphic hv12 zip hiview requir
+better cpu vcpi compat memori manag qemm386 386max
+work window hiview current fastest viewer imag
+bigger screen larger imag scale imag fit screen
+rather use pan scroll viewer prefer approach there
+deni slow load larg imag consider note instal bit
+tricki read direct care  sharewar altern colorview
+dos easier instal either two freewar altern user
+interfac also much spiffier look although person
+find harder use keystrok inconsist behavior faster
+dvpeg littl slower hiview least hardwar imag
+larger screen size dvpeg colorview seem speed
+faster hiview current version avail simtel20
+mirror site see note file msdos graphic dcview21
+zip requir vesa graphic driver don't one look
+vesadrv2 zip vesa tsr zip directori mani recent
+pcs built vesa driver don't tri load vesa driver
+unless colorview complain driver miss  second
+sharewar altern fullview kick around net don't
+know stabl archiv locat current rather old version
+inferior viewer anyway author tell new version
+fullview short submit simtel20 archiv time  well
+known gif viewer compushow cshow support jpeg
+latest revis 60a howev cshow jpeg implement isn't
+good it slow half speed viewer imag qualiti poor
+except color display bad it'd nice see good jpeg
+capabl cshow sharewar avail simtel20 mirror site
+see note file msdos gif cshw860a zip  due remark
+varieti graphic hardwar one viewer might work
+particular machin can't get work you'll need use
+one follow convers program convert jpeg gif view
+favorit gif viewer color hardwar don't use gif
+intermedi format tri find targa capabl viewer
+instead vpic5 reput right thing color display
+independ jpeg group free jpeg convert ftpabl
+simtel20 mirror site see note file msdos graphic
+jpeg4 zip jpeg4386 zip extend memori file dos
+compil free sourc code describ section convert
+jpeg gif targa ppm format  handmad softwar offer
+free jpeg gif convers tool gif2jpg jpg2gif slow
+limit convers gif format particular can't get bit
+color output jpeg major advantag tool read write
+hsi proprietari jpeg format well usenet standard
+jfif format sinc hsi format file rather widespread
+bbses use capabl version tool free prior version
+sharewar get simtel20 mirror site see note file
+msdos graphic gif2jpg2 zip note use hsi format
+file post internet sinc readabl non platform
+handmad softwar also sharewar imag convers manipul
+packag imag alchemi translat jpeg file jfif hsi
+format mani imag format also display imag demo
+version imag alchemi version avail simtel20 mirror
+site see note file msdos graphic alch162 zip  note
+simtel20 internet key archiv site relat program
+simtel20 full name wsmr simtel20 armi mil simtel20
+run non unix system weird directori name document
+refer directori msdos graphic simtel20 realli mean
+pd1 msdos graphic physic milnet expect rather slow
+ftp transfer rate simtel20 sever internet site
+maintain copi mirror simtel20 archiv ftp user one
+mirror site instead popular usa mirror site oak
+oakland edu keep simtel20 file pub msdos graphic
+ftp capabl retriev file simtel20 mail see inform
+post comp archiv msdos announc find outsid usa
+consult newsgroup learn nearest simtel20 mirror
+microsoft window  sever window program capabl
+display jpeg imag window viewer general slower dos
+viewer hardwar due window system overhead note run
+dos convers program describ insid window dos
+window  newest entri winecj free extrem fast
+version avail ftp rahul net file pub bryanw jpeg
+wecj zip requir window color mode frill viewer bad
+habit hog machin complet decod imag qualiti notic
+wors viewer it fast you'll use anyway least
+preview  jview freewar fair fast good line help
+write decompress imag window bmp format can't
+creat new jpeg file doesn't view gif jview also
+lack use featur sharewar viewer bright adjust it
+excel basic viewer current version avail ftp cica
+indiana edu file pub win3 desktop jview090 zip
+mirror archiv found internet site includ wuarchiv
+wustl edu  winjpeg sharewar display jpeg gif targa
+tiff bmp imag file write format use convert nifti
+featur includ color balanc adjust slideshow
+current version avail simtel20 mirror site see
+note file msdos windows3 winjp210 zip slow compat
+version regist you'll get version rough faster
+colorview anoth sharewar entri earli promis
+contend updat time point real advantag winjpeg
+want tri anyway current version avail ftp cica
+indiana edu file pub win3 desktop cview097 zip
+understand new version appear author finish
+colorview dos  dvpeg see dos head also work window
+full screen mode window    follow file avail hobb
+nmsu edu note check pub upload recent version hobb
+moder fast move upload perman directori pub os2
+graphic jpegv4 zip bit version free ijg convers
+program version pub os2 graphic jpeg4 zip bit
+version pub os2 graphic imgarc12 zip imag archiv
+imag convers view graphic interfac strong convers
+function view bit weaker sharewar pub os2 graphic
+pmjpeg11 zip pmjpeg port winjpeg popular viewer
+window see descript window section sharewar pub
+os2 graphic pmview85 zip pmview jpeg gif bmp
+viewer gif view fast jpeg view fast huge amount
+ram otherwis speed program strong bit display
+support sharewar  macintosh  mac jpeg program reli
+appl jpeg implement part quicktim system extens
+need quicktim instal use quicktim need better cpu
+need run system later you'r run system must also
+instal bit quickdraw extens built system get
+quicktim ftp ftp appl com file dts mac quicktim
+quicktim hqx file contain quicktim better sever
+way respect jpeg margin faster consider less prone
+crash fed corrupt jpeg file howev applic seem
+compat problem  mac user keep mind quicktim jpeg
+format pict jpeg usenet standard jfif jpeg format
+see section detail post imag usenet make sure jfif
+format program mention generat either format
+first choic probabl jpegview free program view
+imag jfif format pict jpeg format gif format also
+convert two jpeg format current version big improv
+prior version get sumex aim stanford edu file info
+mac app jpeg view hqx requir system quicktim bit
+display jpegview usual produc best color imag
+qualiti current avail mac jpeg viewer jpegview
+view larg imag much less memori mac viewer fact it
+one deal jpeg imag much 640x480 pixel typic 4mb
+mac given larg imag jpegview automat scale fit
+screen rather present scroll bar like viewer zoom
+desir portion though peopl like behavior don't
+overal jpegview user interfac well thought
+gifconvert sharewar imag viewer convert support
+jfif pict jpeg well gif sever imag format latest
+version get sumex aim stanford edu file info mac
+art gif gif convert hqx requir system later
+gifconvert better jpegview plain jpeg gif viewer
+much extens imag manipul format convers capabl
+find worth sharewar fee lot play around imag also
+newest version gifconvert load save jfif imag
+without quicktim best bet machin old run quicktim
+it faster quicktim note gifconvert run memori tri
+load larg jpeg tri convert file gif jpeg convert
+view gif version  jpeg convert mac version free
+ijg jpeg convers util avail sumex aim stanford edu
+file info mac app jpeg convert hqx run mac file
+convers view use conjunct gif viewer  previous
+version faq recommend imageri jpeg jpeg gif
+convert base old version ijg code use program
+definit replac jpeg convert  appl free program
+pictpixi view imag jfif quicktim jpeg gif format
+convert format get pictpixi ftp appl com file dts
+mac quicktim stuff pictpixi hqx requir quicktim
+pictpixi intend develop tool it realli best choic
+unless like fool around quicktim drawback requir
+lot memori produc relat poor color imag qualiti
+anyth less bit display relat unfriend user
+interfac wors pictpixi unsupport program mean
+minor bug appl intend fix old version pictpixi
+call pictcompressor float around net trash it even
+buggier also quicktim starter kit includ much
+clean descend pictpixi call pictur compressor note
+pictur compressor free distribut net  storm
+technolog pictur decompress free jpeg viewer
+convert rather old program inferior program mani
+way run without system quicktim forc use older
+system need bit quickdraw realli old machin can't
+use get sumex aim stanford edu file info mac app
+pictur decompress hqx must set file type download
+imag file jpeg allow pictur decompress open
+machin old run bit quickdraw mac plus instanc
+gifconvert choic singl program jpeg view don't
+want pay gifconvert use jpeg convert free gif
+viewer  commerci mac applic support jpeg although
+deal usenet standard jfif format adob photoshop
+version later read write jfif format jpeg file use
+jpeg plug acquir menu must set file type download
+jpeg file jpeg allow photoshop recogn  amiga
+program list section store aminet archiv amiga
+physik unizh mani mirror site archiv tri use
+closest one usa good choic wuarchiv wustl edu look
+mirror amiga physik unizh  hamlab plus excel jpeg
+viewer convert well general imag manipul tool it
+cheap sharewar read sever format besid jpeg
+current version demo version avail amiga physik
+unizh mirror site file amiga gfx edit hamlab208d
+lha demo version crop imag larger 512x512 otherwis
+fulli function  rend24 sharewar imag render
+display jpeg ilbm gif imag program use creat anim
+even captur frame fli render packag like lightwav
+current version avail amiga physik unizh mirror
+site file amiga os30 gfx rend105 lha note although
+directori suppos amigado program program also run
+amigado  viewtek free jpeg ilbm gif anim viewer
+current version avail amiga physik unizh mirror
+site file amiga gfx show viewtek104 lha  you'r
+will spend real money sever commerci packag
+support jpeg two written thoma krehbiel author
+rend24 viewtek cinemorph standalon imag morph
+packag imagefx impress bit imag captur convers
+edit paint effect prepress packag also includ
+cinemorph distribut great valley product art
+depart profession adpro asdg inc wide use commerci
+imag manipul softwar amiga imagemast black belt
+system anoth well regard commerci graphic packag
+jpeg support  free ijg jpeg softwar avail compil
+amiga amiga physik unizh mirror site directori
+amiga gfx conv file amigajpegv4 lha program
+convert jpeg ppm gif targa format  amiga world
+heavili infest quick dirti jpeg program mani base
+ancient beta test version free ijg jpeg softwar
+thank certain magazin publish disk month without
+much notifi author among augjpeg newamyjpeg vjpeg
+probabl other even heard opinion anyth older ijg
+version march worth disk space it store program
+trash get someth newer  atari  free ijg jpeg
+softwar avail compil atari etc atari archiv umich
+edu file atari graphic jpeg4bin zoo program
+convert jpeg ppm gif targa format  monochrom
+monitor tri mgif manag achiev four level grayscal
+effect flicker version read jpeg file avail atari
+archiv umich edu file atari graphic mgif41b zoo
+heard free sharewar jpeg capabl viewer atari sure
+must pointer appreci  acorn archimed  changefsi
+suppli risc version convert view jpeg jfif format
+provis also made convert imag jpeg although must
+done cli rather doubl click  recent version sinc
+sharewar program translat handl jpeg along imag
+format older version found archimed bboard current
+version avail regist author john kortink
+nutterbrink ensched netherland price dutch guilder
+pound  there also commerci product call jpeg
+provid jpeg read write function direct jpeg view
+well host imag format convers process option
+expens necessarili better program contact softwar
+freepost cambridg tel   portabl softwar almost
+system  none fit situat obtain compil free jpeg
+convers softwar describ you'll also need viewer
+program display bit less gif viewer fine display
+color capabl tri find viewer read targa ppm bit
+imag file  numer commerci jpeg offer pop everi day
+recommend spend money one unless find avail free
+sharewar softwar vast slow case purchas hardwar
+assist product ask point question whether product
+compli final jpeg standard whether handl jfif file
+format mani earliest commerci releas never compat
+anyon els file   look sourc code work  free
+portabl code jpeg compress avail independ jpeg
+group lead packag contain sourc code document
+small test file avail sever place offici archiv
+site sourc code ftp net look directori graphic
+jpeg current releas jpegsrc tar compress tar file
+don't forget retriev binari mode retriev file ftp
+uucp don't know cope tar format prefer zip format
+find simtel20 mirror site see note file msdos
+graphic jpegsrc4 zip file also avail compuserv
+graphsupport forum pic librari jpsrc4 zip ftp
+access retriev sourc nearest comp sourc misc
+archiv version appear issu volum don't know
+retriev comp sourc misc post see faq articl find
+sourc refer top section  free jpeg code provid
+convers jpeg jfif format imag file gif pbmplus ppm
+pgm utah rle truevis targa file format core
+compress decompress modul easili reus program imag
+viewer packag high portabl test mani machin rang
+pcs cray  releas softwar noncommerci commerci use
+compani welcom use basi jpeg relat product ask
+royalti although ask acknowledg product literatur
+see readm file distribut detail hope make softwar
+industri qualiti although anyth that free offer
+warranti accept liabil  independ jpeg group volunt
+organ you'd like contribut improv softwar welcom
+join   what hoopla color quantize  peopl don't
+full color bit per pixel display hardwar typic
+display hardwar store fewer bit per pixel display
+fewer distinct color time display full color imag
+comput must map imag appropri set repres color
+process call color quantize someth misnom color
+select better term we'r stuck standard usag though
+clear color quantize lossi process turn imag
+detail color quantize algorithm much impact final
+imag qualiti error introduc jpeg except lowest
+jpeg qualiti set  sinc jpeg full color format
+convert color jpeg imag display bit less hardwar
+requir color quantize true color jpeg even feed
+less color gif jpeg come decompressor color
+thousand color happen jpeg lossi affect pixel
+littl differ two pixel start ident color probabl
+come slight differ color origin color get smear
+group nearbi color therefor quantize alway requir
+display color jpeg colormap display regardless
+imag sourc way avoid quantize ask gray scale
+output  incident effect it near meaningless talk
+number color use jpeg imag even attempt count
+number distinct pixel valu differ jpeg decod give
+differ result roundoff error differ occasion see
+post imag describ color jpeg tell poster hasn't
+read faq probabl convert jpeg gif jpeg classifi
+color gray scale like photograph number color
+isn't use concept jpeg  hand gif imag definit
+alreadi quantiz fewer color gif definit number
+color palett format doesn't allow palett entri
+purpos usenet pictur distribut gif advantag sender
+precomput color quantize recipi don't also
+disadvantag gif you'r stuck sender quantize sender
+quantiz differ number color display quantiz result
+much poorer imag qualiti quantiz full color imag
+furthermor sender didn't use high qualiti color
+quantize algorithm you'r luck  reason jpeg offer
+promis signific better imag qualiti user whose
+machin don't match sender display hardwar jpeg
+full color imag quantiz precis match user display
+hardwar furthermor abl take advantag futur improv
+quantize algorithm lot activ research area purchas
+better display hardwar get better view jpeg imag
+alreadi gif you'r stuck forevermor sent  it also
+worth mention mani gif view program includ rather
+shoddi quantize routin view color gif color ega
+display exampl probabl get much wors imag need
+part inevit consequ two color quantize one creat
+gif one display often it also due sloppi jpeg
+convers program forc use high qualiti quantize
+order get accept result normal use quantiz direct
+number color display thus jpeg like provid better
+result averag gif program low color resolut
+display well high resolut one  final ever grow
+number peopl better bit display hardwar alreadi
+bit color display true bit display workstat
+macintosh etc peopl gif alreadi obsolet cannot
+repres imag full capabl display jpeg imag drive
+display much effect thus jpeg around better choic
+gif repres imag machin independ fashion   jpeg
+work  buzz word know chromin subsampl discret
+cosin transform coeffici quantize huffman arithmet
+entropi code articl long enough alreadi i'm go say
+technic inform see comp compress faq avail news
+answer archiv rtfm mit edu file pub usenet news
+answer compress faq part need help use news answer
+archiv see top articl   lossless jpeg  there great
+deal confus jpeg committe defin truli lossless
+compress algorithm one guarante final output bit
+bit ident origin input howev lossless mode almost
+noth common regular lossi jpeg algorithm offer
+much less compress present implement lossless jpeg
+exist commerci  say free jpeg softwar get lossless
+imag get rid deliber inform loss coeffici quantize
+step still good deal inform loss color subsampl
+step free jpeg code also say sampl 1x1 turn
+subsampl keep mind mani commerci jpeg implement
+cannot cope result file  even quantize subsampl
+turn regular jpeg algorithm lossless roundoff
+error various calcul maximum error count one pixel
+valu it high unlik could perceiv human eye might
+concern machin process imag  minimum loss set
+regular jpeg produc file perhap half size
+uncompress bit per pixel imag true lossless jpeg
+provid rough amount compress guarante bit bit
+accuraci  applic requir lossless storag imag less
+bit per pixel per color compon want look jbig
+bilevel imag compress standard perform better jpeg
+lossless imag jpeg lossless superior jbig imag bit
+per pixel furthermor jpeg public domain least
+huffman back end jbig techniqu heavili cover
+patent   argument file format  strict speak jpeg
+refer famili compress algorithm refer specif imag
+file format jpeg committe prevent defin file
+format turf war within intern standard organ  sinc
+can't actual exchang imag anyon els unless agre
+common file format leav problem absenc offici
+standard number jpeg program writer gone thing
+result program aren't compat anybodi els  closest
+thing facto standard jpeg format work that coordin
+peopl cube microsystem defin two jpeg base file
+format jfif jpeg file interchang format low end
+format transport pixel much els tiff jpeg aka tiff
+extens aldus tiff format tiff high end format let
+record everyth ever want know imag lot besid tiff
+lot complex jfif well prove less transport differ
+vendor histor implement slight differ incompat
+subset tiff it like ad jpeg mix anyth improv
+situat format develop input major vendor jpeg
+relat product it reason like futur commerci
+product adher one standard  believ usenet adopt
+jfif replac gif pictur post jfif simpler tiff
+avail tiff spec recent offici adopt still unus
+vagu crucial detail even tiff jpeg well defin jfif
+format like wide support lowest common denomin
+tiff jpeg file never transport  particular case
+peopl interest appl quicktim softwar macintosh
+quicktim use jfif compat format wrap insid mac
+specif pict structur convers jfif quicktim jpeg
+pretti straightforward sever mac program avail see
+mac portion section editor handl binari file strip
+quicktim jpeg pict jfif hand see section detail
+anoth particular case handmad softwar program
+gif2jpg jpg2gif imag alchemi program capabl read
+write jfif format default though write proprietari
+format develop hsi format readabl non hsi program
+use usenet post use switch get jfif output appli
+old version program current releas emit jfif
+format default still care post hsi format file
+unless want get flame peopl non platform   recogn
+file format  alleg jpeg file softwar won't read it
+like hsi format proprietari jpeg base format tell
+inspect first byte file  jfif standard file start
+charact hex follow two variabl byte often hex
+follow jfif  see start rest raw jpeg file probabl
+decod jfif softwar it worth tri anyway  hsi file
+start hsi1 you'r luck unless hsi softwar portion
+file look like plain jpeg data won't decompress
+proper non hsi program  macintosh pict file jpeg
+compress coupl hundr byte header follow jfif
+header scan jfif strip everyth abl read  anyth els
+it proprietari format jpeg lucki file consist
+header raw jpeg data stream identifi start jpeg
+data stream look tri strip everyth  uuencod usenet
+post characterist jfif pattern  begin line
+wherea uuencod hsi file start  begin line   learn
+check former save troubl download non jfif file
+arithmet code  jpeg spec defin two differ back end
+modul final output compress data either huffman
+code arithmet code allow choic impact imag qualiti
+arithmet code usual produc smaller compress file
+typic imag arithmet code produc file percent
+smaller huffman code file size number previous
+cite huffman code  unfortun particular variant
+arithmet code specifi jpeg standard patent own ibm
+mitsubishi thus cannot legal use arithmet code
+unless obtain licens compani fair use doctrin
+allow peopl implement test algorithm actual store
+imag dubious best  least short run recommend peopl
+worri arithmet code space save isn't great enough
+justifi potenti legal hassl particular arithmet
+code use imag exchang usenet  small chanc legal
+situat chang futur stay tune detail   loss accumul
+repeat compress decompress  nice compress imag
+jpeg could decompress manipul crop border say
+recompress without imag degrad beyond lost initi
+unfortun case general recompress alter imag lose
+inform though usual much lost first time around
+next best thing decompress imag recompress without
+chang loss get ident jpeg file even true least
+current free jpeg softwar it essenti problem
+accumul roundoff error repeat compress decompress
+imag eventu degrad see visibl chang first generat
+output usual take mani cycl get visibl chang one
+thing list see accumul error avoid limit optimist
+case could possibl guarante compress unmodifi full
+color output djpeg origin qualiti set introduc
+loss even simpl chang crop border could caus
+roundoff error degrad you'r wonder it pixel block
+boundari move crop multipl pixel might safe that
+mighti limit capabl  bottom line jpeg use format
+archiv storag transmiss imag don't want use
+intermedi format sequenc imag manipul step use
+lossless format ppm rle tiff etc work imag jpeg
+readi file away asid avoid degrad save lot
+compress decompress time way   rule thumb convert
+gif imag jpeg  state earlier lose amount imag
+inform convert exist gif imag jpeg obtain origin
+full color data gif made it far better make jpeg
+need save space gif work suggest get maximum space
+save minimum loss qualiti  first rule convert gif
+librari look jpeg make sure happi throw away
+correspond gif give chanc convers higher qualiti
+set necessari gif better left gif explain section
+particular cartoon type gif sixteen fewer color
+don't convert well find jpeg file reason qualiti
+larger gif check size  experi date suggest larg
+high visual qualiti gif best candid convers jpeg
+chew storag offer potenti save convert jpeg least
+degrad don't wast time convert gif much kbyte also
+don't expect jpeg file convert gif small creat
+direct full color origin maintain imag qualiti let
+convert file much twice big straight jpeg file
+shoot 3rd size gif file 4th suggest earlier
+comparison  mani peopl develop odd habit put larg
+constant color border around gif imag useless near
+free term storag cost gif file free jpeg file
+sharp border boundari creat visibl artifact ghost
+edg favor crop border jpege window system xv
+manual automat crop function painless way  cjpeg
+default set appropri full color input gif input
+set often seem necessari avoid imag degrad appli
+smooth suggest higher set necessari  color gif
+photograph complex artwork usual dither fool eye
+see color gif actual store enlarg imag see adjac
+pixel often signific differ color normal size eye
+averag pixel togeth produc illus intermedi color
+valu troubl dither jpeg look like high spatial
+frequenc color nois jpeg can't compress nois well
+result jpeg file larger lower imag qualiti gotten
+jpege origin full color imag get around want
+smooth gif imag compress smooth averag togeth
+nearbi pixel thus approxim color thought saw
+anyway process get rid rapid color chang give jpeg
+troubl appropri use smooth often let avoid use
+high factor thus reduc size compress file still
+obtain better look output imag you'd get without
+smooth  free jpeg softwar product base simpl
+smooth capabl built tri smooth convert gif valu
+seem work well high qualiti gif heavi hand dither
+requir larger smooth factor see regular fine scale
+pattern gif imag even without enlarg strong smooth
+definit call larg smooth factor blur output imag
+don't want imag process wizard also smooth separ
+filter program pnmconvol pbmplus packag howev
+cjpeg built smoother lot faster pnmconvol  upshot
+cjpeg qualiti smooth probabl good start point
+convert gif realli care imag you'll want check
+result mayb tri set     inform jpeg general free
+jpeg softwar    tom lane organ independ jpeg group
+carnegi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jpeg, 4905, 0.660122134249
+imag, 4512, 0.294050618287
+gif, 3869, 0.240684839943
+file, 3477, 0.239046162269
+color, 1907, 0.180691954651
+format, 3612, 0.162373855259
+jfif, 4865, 0.123018838429
+qualiti, 7017, 0.12142226989
+compress, 1986, 0.119202236538
+version, 9479, 0.11518731059
+viewer, 9512, 0.108552686443
+convert, 2115, 0.0991602190157
+display, 2734, 0.0968555729241
+bit, 1122, 0.0869118427798
+free, 3668, 0.0826027846284
+program, 6905, 0.0816873328663
+quicktim, 7039, 0.0759118064476
+pixel, 6651, 0.0718560331843
+simtel20, 7973, 0.0706903187308
+use, 9363, 0.0678082074319
+quantize, 7023, 0.0674594381755
+archiv, 618, 0.0674537862454
+zip, 9988, 0.0654080689631
+avail, 811, 0.0609409871872
+sharewar, 7856, 0.0597198987058
+convers, 2114, 0.0591906329637
+softwar, 8103, 0.056724906413
+mirror, 5755, 0.0551281177951
+decompress, 2452, 0.0544343037837
+view, 9510, 0.0535356635944
+set, 7815, 0.0530222539189
+lossless, 5354, 0.0515885451476
+section, 7759, 0.0512648775465
+usenet, 9365, 0.0499140147098
+hsi, 4415, 0.0498338972093
+code, 1871, 0.0479391657052
+note, 6118, 0.0474752414272
+ftp, 3709, 0.0465409891608
+mac, 5410, 0.0439806504426
+site, 7994, 0.0429321699621
+arithmet, 638, 0.0415007790709
+window, 9774, 0.0410546450079
+size, 8000, 0.0407088127108
+amiga, 472, 0.0398749208948
+standard, 8313, 0.0381799704377
+smooth, 8069, 0.0380456409119
+graphic, 3997, 0.0379060760566
+current, 2299, 0.037743607223
+msdos, 5903, 0.0370314602959
+hardwar, 4173, 0.0367236441958
+edu, 3001, 0.0349905675955
+pub, 6971, 0.034497753528
+better, 1060, 0.0344437518248
+faq, 3385, 0.0333070899563
+ijg, 4503, 0.0332225981395
+ppm, 6787, 0.0331614518243
+tiff, 8926, 0.0326618536401
+don, 2811, 0.0323332594951
+capabl, 1498, 0.031955583646
+origin, 6293, 0.0311968836642
+scale, 7659, 0.030673102107
+output, 6329, 0.0304006294241
+cjpeg, 1781, 0.0301823847788
+atari, 735, 0.0301823847788
+machin, 5416, 0.0299300500756
+pictpixi, 6621, 0.0299261622054
+save, 7646, 0.0286871303828
+packag, 6375, 0.0286564267593
+choic, 1717, 0.0278603379749
+commerci, 1940, 0.0278174973567
+store, 8417, 0.0278138100796
+degrad, 2490, 0.0276042932537
+xloadimag, 9903, 0.026928172843
+ship, 7888, 0.0265335185224
+mani, 5479, 0.0264381162162
+dos, 2825, 0.0258672900723
+jpegview, 4909, 0.0256509961761
+gifconvert, 3873, 0.0256509961761
+border, 1229, 0.0246057888242
+unizh, 9285, 0.0243171880684
+physik, 6615, 0.0243171880684
+hqx, 4410, 0.0243171880684
+sourc, 8153, 0.0242829511525
+high, 4292, 0.0241037538036
+work, 9833, 0.0232989945422
+default, 2470, 0.023213016277
+targa, 8703, 0.0230496793653
+particular, 6442, 0.0229543481383
+tar, 8701, 0.022597647138
+manipul, 5483, 0.0225485248036
+requir, 7302, 0.0224356525798
+post, 6766, 0.0224172536169
+larg, 5124, 0.022334290723
+quantiz, 7022, 0.0223232585466
+pict, 6620, 0.0223232585466
+tri, 9087, 0.0222295042907
+look, 5341, 0.0218919148089
+gray, 4011, 0.0218275054881
+faster, 3399, 0.0215238665323
+algorithm, 407, 0.0214530022253
+lossi, 5353, 0.0213758301467
+hiview, 4323, 0.0213758301467
+user, 9366, 0.0212987908206
+result, 7332, 0.0212761567265
+good, 3948, 0.021140222907
+loss, 5352, 0.0211169165026
+pictur, 6622, 0.0208284957643
+support, 8576, 0.0207713619079
+os2, 6306, 0.0207641238372
+huffman, 4425, 0.0207641238372
+dvpeg, 2932, 0.0207641238372
+colorview, 1911, 0.0207641238372
+crop, 2240, 0.0207032199403
+product, 6896, 0.0206589133245
+differ, 2633, 0.0202582752745
+answer, 535, 0.0202357926271
+list, 5298, 0.0200800889318
+read, 7135, 0.0200274041789
+run, 7543, 0.01981808161
+error, 3180, 0.0197862569534
+superior, 8562, 0.0194935614929
+avoid, 827, 0.0194696670557
+articl, 665, 0.0194372544196
+info, 4636, 0.0194262511468
+small, 8054, 0.0192227434045
+news, 6031, 0.0189362000813
+describ, 2556, 0.0188986483754
+mit, 5781, 0.0187092904184
+old, 6216, 0.018658201163
+compat, 1965, 0.0186110868406
+implement, 4544, 0.0185261922589
+like, 5272, 0.0184708714501
+byte, 1438, 0.0182452017104
+time, 8936, 0.0182375663231
+directori, 2669, 0.0181963591234
+appl, 583, 0.0181597533853
+alchemi, 390, 0.0181447679279
+inform, 4637, 0.0180203050261
+xli, 9901, 0.0179416147833
+want, 9634, 0.017921944885
+unless, 9289, 0.0178600615413
+handl, 4149, 0.017729305984
+need, 5993, 0.0176892988545
+ll, 5314, 0.0173678544921
+fewer, 3456, 0.0172526832835
+lot, 5356, 0.017106727716
+jbig, 4834, 0.0171006641174
+produc, 6895, 0.0170030258189
+larger, 5125, 0.016854182151
+lha, 5241, 0.0166112990698
+defect, 2473, 0.0165807259121
+decod, 2450, 0.0165807259121
+make, 5459, 0.0165013826882
+peopl, 6530, 0.0163627426496
+slow, 8044, 0.0162829029664
+subsampl, 8495, 0.0162114587123
+roundoff, 7495, 0.0162114587123
+usual, 9377, 0.01619994115
+sever, 7823, 0.0161886341016
+number, 6156, 0.0160451212018
+sender, 7786, 0.015945285143
+compressor, 1987, 0.015873398507
+cartoon, 1538, 0.015873398507
+retriev, 7343, 0.0158523503799
+start, 8334, 0.0156190486634
+process, 6890, 0.0155136630536
+photograph, 6604, 0.0155092390338
+export, 3310, 0.0155092390338
+accumul, 224, 0.0153222533072
+screen, 7719, 0.0153009877282
+non, 6097, 0.0152116548634
+gfx, 3861, 0.0150911923894
+sumex, 8533, 0.0148821723644
+best, 1052, 0.0146641122681
+appli, 584, 0.0145740221305
+line, 5285, 0.0145384274296
+fast, 3397, 0.0145177887004
+thumb, 8905, 0.0145158143423
+offer, 6203, 0.014435200876
+smaller, 8055, 0.0143977322775
+latest, 5141, 0.0143977322775
+releas, 7253, 0.0143812722001
+new, 6023, 0.0143736389579
+interfac, 4709, 0.0142410431767
+data, 2385, 0.0142127304601
+typic, 9178, 0.0139522170295
+lcs, 5169, 0.0139274979074
+contrib, 2102, 0.0139274979074
+lowest, 5372, 0.0138021466268
+chang, 1650, 0.0137892324769
+independ, 4595, 0.0137327949175
+proprietari, 6935, 0.0136835744873
+obtain, 6183, 0.0135690858053
+tool, 8988, 0.0134907572491
+thing, 8869, 0.0134802205546
+check, 1682, 0.0134149228059
+complex, 1976, 0.0134146047699
+advantag, 286, 0.0133773074196
+storag, 8416, 0.013362065684
+group, 4064, 0.0133563416267
+case, 1540, 0.0133435701069
+ident, 4484, 0.0132645807297
+write, 9865, 0.0132304995939
+alreadi, 443, 0.0131839805928
+portabl, 6749, 0.0131712453516
+introduc, 4732, 0.0131712453516
+internet, 4717, 0.0131635904354
+aim, 353, 0.012995707662
+eye, 3337, 0.0128713397869
+function, 3722, 0.0128407102731
+recompress, 7179, 0.012825498088
+jpege, 4907, 0.012825498088
+stanford, 8318, 0.0127562281144
+furthermor, 3732, 0.0127562281144
+regular, 7234, 0.0127215039721
+creat, 2217, 0.0127169586919
+improv, 4557, 0.0126637899886
+direct, 2667, 0.0126059745325
+probabl, 6885, 0.0125514681728
+scene, 7671, 0.0124728602789
+handmad, 4150, 0.0124584743023
+worth, 9850, 0.0124181350165
+memori, 5628, 0.0124181350165
+committe, 1946, 0.0124073912271
+anoth, 533, 0.0123691619034
+macintosh, 5418, 0.0123438200986
+instal, 4679, 0.0123438200986
+index, 4596, 0.012221952616
+librari, 5250, 0.0121687529017
+plain, 6659, 0.0121634678069
+winjpeg, 9785, 0.0121585940342
+vesa, 9484, 0.0121065022569
+defin, 2482, 0.0120293340633
+black, 1133, 0.0119843935001
+quickdraw, 7037, 0.0119050488802
+mean, 5595, 0.0118604010755
+purpos, 6993, 0.0117908086478
+sinc, 7977, 0.011699230598
+intermedi, 4715, 0.0116854180778
+cshow, 2272, 0.0116854180778
+input, 4662, 0.0116511386712
+compil, 1972, 0.0116511386712
+appropri, 590, 0.011518185822
+freewar, 3681, 0.0114916899804
+scan, 7660, 0.0114756009816
+rule, 7537, 0.0114403773695
+howev, 4406, 0.0113404282233
+includ, 4579, 0.0113192733237
+anyth, 555, 0.0112773673359
+author, 796, 0.0112463771982
+visibl, 9541, 0.011236121434
+disk, 2720, 0.011236121434
+extens, 3320, 0.0111255240319
+deal, 2418, 0.0110811878954
+net, 6010, 0.0110335116857
+driver, 2876, 0.011020237396
+sharp, 7858, 0.011018514024
+wors, 9846, 0.0109527535986
+recent, 7168, 0.010895264933
+imagemagick, 4514, 0.0108868607567
+space, 8164, 0.0108862831478
+comp, 1955, 0.0108552686443
+follow, 3578, 0.0108121830157
+final, 3482, 0.0107636566382
+type, 9177, 0.0107071327189
+transmiss, 9058, 0.0106514902382
+overhead, 6341, 0.0106514902382
+reason, 7156, 0.0106106280063
+slower, 8045, 0.0105453380675
+app, 576, 0.0105453380675
+factor, 3352, 0.0105308723483
+allow, 432, 0.0105049787771
+relat, 7247, 0.0104791171423
+suggest, 8525, 0.0104534972085
+edg, 2993, 0.010450137451
+base, 923, 0.0102947805502
+distribut, 2753, 0.0102725682185
+preview, 6854, 0.0102626808654
+load, 5317, 0.0102006584854
+provid, 6949, 0.0101405519215
+dither, 2757, 0.0100980648161
+mode, 5806, 0.0100635481935
+bmp, 1183, 0.00987843401369
+text, 8822, 0.00981264053056
+stuck, 8466, 0.00981129049607
+strip, 8451, 0.00981129049607
+ratio, 7109, 0.00981129049607
+distinct, 2746, 0.00981129049607
+demo, 2517, 0.00981129049607
+exchang, 3264, 0.00974678074647
+header, 4217, 0.0096847059163
+download, 2843, 0.0096847059163
+lose, 5350, 0.00964166694325
+built, 1381, 0.0096054173515
+limit, 5278, 0.00958751480008
+ask, 689, 0.00949493202939
+definit, 2484, 0.00948306408966
+els, 3053, 0.00947701488742
+end, 3091, 0.00945035685276
+know, 5052, 0.00944758557487
+instead, 4682, 0.00941609551612
+white, 9737, 0.00939966809571
+guarante, 4076, 0.0093546452092
+simpl, 7965, 0.00935111149143
+realist, 7147, 0.00925786507397
+portion, 6752, 0.00916646446202
+older, 6218, 0.00912260085518
+basic, 937, 0.00902451524513
+test, 8812, 0.00901076566799
+vari, 9426, 0.00899762016416
+level, 5229, 0.00899710175856
+valu, 9414, 0.00897002671875
+recogn, 7173, 0.00895798480586
+transport, 9065, 0.00884450617414
+effect, 3005, 0.00878932039517
+entri, 3135, 0.00877298239354
+welcom, 9701, 0.0086712104858
+let, 5225, 0.00865731234805
+instanc, 4680, 0.0086067007362
+viewtek, 9515, 0.0085503320587
+rend24, 7275, 0.0085503320587
+pnmconvol, 6706, 0.0085503320587
+pmview, 6705, 0.0085503320587
+jview, 4941, 0.0085503320587
+jpg2gif, 4911, 0.0085503320587
+jpeg4, 4906, 0.0085503320587
+indistinguish, 4603, 0.0085503320587
+hoopla, 4369, 0.0085503320587
+gif2jpg, 3870, 0.0085503320587
+dts, 2898, 0.0085503320587
+cinemorph, 1762, 0.0085503320587
+amigado, 473, 0.0085503320587
+pure, 6990, 0.00851444546704
+adjust, 269, 0.00851444546704
+general, 3818, 0.0084672484772
+say, 7653, 0.00835178740941
+recommend, 7178, 0.00834414302389
+tradeoff, 9035, 0.00830564953488
+objection, 6174, 0.00830564953488
+monochrom, 5840, 0.00830564953488
+kbyte, 4966, 0.00830564953488
+fullview, 3719, 0.00830564953488
+cica, 1751, 0.00830564953488
+render, 7277, 0.00829108075204
+legal, 5200, 0.00823967695048
+repeat, 7286, 0.00821456519893
+altern, 450, 0.00818983108205
+develop, 2588, 0.00816773144971
+slight, 8034, 0.00814145148319
+stick, 8393, 0.0081177850637
+poorer, 6742, 0.00810572935615
+blurri, 1180, 0.00810572935615
+blocki, 1165, 0.00810572935615
+archimed, 614, 0.00810572935615
+necessari, 5990, 0.00809445434944
+refer, 7213, 0.00808531067114
+intend, 4700, 0.0080714499496
+help, 4249, 0.00805356341118
+art, 660, 0.00804876286195
+isn, 4783, 0.00803203557273
+abl, 180, 0.00802328086901
+wide, 9747, 0.00800430643198
+troubl, 9117, 0.00796102004493
+hand, 4145, 0.00795447364487
+replac, 7288, 0.00793979668238
+win3, 9771, 0.00793669925348
+hobb, 4331, 0.00793669925348
+djpeg, 2774, 0.00793669925348
+cope, 2128, 0.00793669925348
+artwork, 670, 0.00793669925348
+usa, 9357, 0.00789815426126
+plus, 6700, 0.00789815426126
+excel, 3261, 0.00787772185221
+repres, 7294, 0.00785754015389
+poor, 6741, 0.00783760308825
+true, 9121, 0.00782301554771
+rtfm, 7520, 0.00779027871852
+robust, 7443, 0.00779027871852
+overlaid, 6343, 0.00779027871852
+hex, 4282, 0.00779027871852
+blur, 1178, 0.00779027871852
+adjac, 268, 0.00779027871852
+consider, 2060, 0.00776018702169
+zoo, 9992, 0.0076611266536
+variant, 9429, 0.0076611266536
+desktop, 2567, 0.0076611266536
+coeffici, 1873, 0.0076611266536
+offici, 6207, 0.00765049386408
+step, 8377, 0.00759827399316
+higher, 4293, 0.0075476611451
+enlarg, 3115, 0.00754559619471
+colormap, 1909, 0.00754559619471
+mail, 5447, 0.00753916444862
+normal, 6108, 0.00753113047554
+real, 7144, 0.00751824489061
+prefer, 6819, 0.00751476429297
+everi, 3235, 0.00751131581574
+big, 1082, 0.00747019491658
+respect, 7321, 0.00745088100987
+uuencod, 9389, 0.00744108618219
+umich, 9205, 0.00744108618219
+newest, 6029, 0.00744108618219
+ilbm, 4504, 0.00744108618219
+fit, 3510, 0.00741984635752
+simpler, 7966, 0.00734567601597
+readabl, 7136, 0.00734567601597
+indiana, 4599, 0.00734567601597
+fine, 3485, 0.00730125174103
+draw, 2861, 0.00730125174103
+begin, 994, 0.00730125174103
+great, 4016, 0.00729413500993
+strong, 8456, 0.00728701106525
+lost, 5355, 0.00727289262855
+pbmplus, 6483, 0.00725790717116
+applic, 585, 0.00720406301362
+common, 1948, 0.00717731790764
+aren, 623, 0.00717731790764
+mighti, 5709, 0.0071766459133
+inferior, 4625, 0.0071766459133
+adopt, 278, 0.0071766459133
+way, 9666, 0.00717093973555
+tell, 8767, 0.00716634835944
+doesn, 2793, 0.00711378271821
+obsolet, 6182, 0.00710099349215
+signific, 7951, 0.00708699314078
+everyth, 3242, 0.00708699314078
+sure, 8585, 0.00706244759582
+stream, 8438, 0.00703022537834
+pcs, 6487, 0.00703022537834
+patent, 6460, 0.00703022537834
+averag, 816, 0.00700137147292
+learn, 5182, 0.00698949569731
+fair, 3363, 0.00696599832944
+perceiv, 6532, 0.00696374895371
+darn, 2370, 0.00696374895371
+situat, 7995, 0.00694283192144
+futur, 3737, 0.00694283192144
+upload, 9339, 0.00690107331342
+scroll, 7726, 0.00690107331342
+rle, 7425, 0.00690107331342
+boundari, 1251, 0.00690107331342
+problem, 6887, 0.00689952242697
+later, 5140, 0.00689745558777
+organ, 6287, 0.00688630444148
+coupl, 2187, 0.00684244083465
+widespread, 9750, 0.00684178724363
+nearest, 5984, 0.00684178724363
+heavili, 4232, 0.00684178724363
+cpu, 2200, 0.00684178724363
+low, 5368, 0.00677876367822
+term, 8795, 0.006758074251
+accept, 208, 0.006758074251
+row, 7501, 0.00673204321075
+speed, 8217, 0.00668764444302
+appear, 580, 0.00668764444302
+rid, 7391, 0.00668103284202
+right, 7399, 0.0066710800771
+wustl, 9878, 0.00663229036485
+photoshop, 6609, 0.00658562267579
+palett, 6398, 0.00658562267579
+nearbi, 5983, 0.00658562267579
+closest, 1832, 0.00658562267579
+turn, 9158, 0.00654617151811
+nois, 6092, 0.00654086033071
+specif, 8203, 0.00652819551648
+realli, 7150, 0.0065075471719
+care, 1516, 0.00647541704892
+transmit, 9059, 0.00645647061087
+regist, 7229, 0.00645647061087
+optim, 6274, 0.00641659257313
+mind, 5733, 0.00640758113484
+address, 264, 0.00639105046527
+vendor, 9458, 0.00637811405719
+trash, 9068, 0.00637811405719
+expect, 3290, 0.00637468428271
+human, 4432, 0.0063504363579
+wuarchiv, 9876, 0.00634094015198
+maximum, 5560, 0.00634094015198
+characterist, 1663, 0.00634094015198
+send, 7785, 0.00631865203016
+fool, 3585, 0.00627017203817
+spec, 8196, 0.00617191004931
+specifi, 8204, 0.00611097630801
+prior, 6874, 0.00611097630801
+match, 5541, 0.00611097630801
+raw, 7114, 0.00608173390345
+pattern, 6468, 0.00608173390345
+major, 5458, 0.00603723789738
+behavior, 1000, 0.00602548951435
+prepar, 6831, 0.00594618808756
+binari, 1096, 0.00594618808756
+purchas, 6988, 0.00592097950184
+habit, 4109, 0.00592097950184
+comparison, 1962, 0.00592097950184
+captur, 1509, 0.00592097950184
+exist, 3283, 0.00589744209978
+transfer, 9052, 0.00589633744943
+rough, 7493, 0.00587223702468
+modul, 5815, 0.00584865492903
+minimum, 5740, 0.00584865492903
+numer, 6157, 0.00582556933562
+misc, 5757, 0.00582556933562
+justifi, 4939, 0.00578080699054
+sampl, 7601, 0.0057378004908
+automat, 803, 0.0057378004908
+impact, 4534, 0.00569641727069
+server, 7812, 0.00567629697802
+luck, 5381, 0.00565653923295
+constant, 2067, 0.00559931624032
+essenti, 3196, 0.0055808868118
+platform, 6676, 0.00556276201593
+cheap, 1677, 0.00556276201593
+bug, 1373, 0.00556276201593
+achiev, 232, 0.00556276201593
+littl, 5308, 0.00552798339462
+translat, 9057, 0.00552738716802
+world, 9841, 0.00550863272699
+extrem, 3333, 0.00542763432213
+fix, 3511, 0.00539630289963
+resolut, 7316, 0.00533620428798
+earlier, 2952, 0.00533620428798
+actual, 254, 0.00528840086927
+popular, 6746, 0.00527922912566
+confus, 2037, 0.00527922912566
+potenti, 6774, 0.00525181456814
+maintain, 5454, 0.00525181456814
+inde, 4594, 0.0052250687255
+edit, 2996, 0.0052250687255
+unfortun, 9264, 0.0052119365304
+separ, 7797, 0.0052119365304
+besid, 1051, 0.0052119365304
+happi, 4161, 0.00516092616166
+promis, 6913, 0.00514853591475
+spend, 8222, 0.00513628410925
+previous, 6855, 0.00513628410925
+insid, 4671, 0.00513628410925
+featur, 3422, 0.00513628410925
+select, 7774, 0.00512416768558
+togeth, 8969, 0.00507699803946
+network, 6018, 0.00507699803946
+count, 2180, 0.00506551599544
+document, 2788, 0.00504290642773
+cover, 2194, 0.00504290642773
+unix, 9284, 0.00502075365036
+half, 4124, 0.00496725400658
+rang, 7094, 0.00495686032512
+pick, 6619, 0.00493636393051
+otherwis, 6313, 0.00491624363785
+leav, 5184, 0.00488673893806
+copi, 2130, 0.00482083347162
+contain, 2079, 0.00482083347162
+perfect, 6538, 0.00479375740004
+com, 1917, 0.00479375740004
+come, 1923, 0.00476959105125
+chanc, 1649, 0.00476733382785
+repli, 7290, 0.00475866559943
+generat, 3819, 0.00475006535781
+anim, 515, 0.00473306462681
+rest, 7324, 0.00468358893318
+access, 209, 0.00468358893318
+won, 9820, 0.00467555574571
+point, 6710, 0.0046426655475
+head, 4215, 0.0046285546143
+compar, 1960, 0.00461332485302
+argument, 631, 0.00457615094781
+compani, 1958, 0.0045616272231
+singl, 7983, 0.00454729335644
+similar, 7961, 0.00454019608128
+forc, 3594, 0.00454019608128
+month, 5847, 0.00451917578548
+area, 622, 0.00445842962868
+nice, 6047, 0.00443890640936
+near, 5982, 0.00443890640936
+money, 5835, 0.00441972472166
+present, 6837, 0.00438848257457
+mention, 5632, 0.00438848257457
+known, 5054, 0.00438233956027
+away, 833, 0.00434618710384
+short, 7904, 0.00433439639685
+winecj, 9777, 0.00427516602935
+wecj, 9685, 0.00427516602935
+vpic5, 9591, 0.00427516602935
+vjpeg, 9555, 0.00427516602935
+viewtek104, 9516, 0.00427516602935
+vesadrv2, 9485, 0.00427516602935
+upshot, 9343, 0.00427516602935
+unmodifi, 9294, 0.00427516602935
+truevis, 9126, 0.00427516602935
+spiffier, 8231, 0.00427516602935
+rezaei, 7372, 0.00427516602935
+precomput, 6812, 0.00427516602935
+praetzel, 6796, 0.00427516602935
+ppmtogif, 6789, 0.00427516602935
+pmjpeg, 6704, 0.00427516602935
+imagemast, 4515, 0.00427516602935
+imagefx, 4513, 0.00427516602935
+hamlab208d, 4139, 0.00427516602935
+guilder, 4085, 0.00427516602935
+graphsupport, 4000, 0.00427516602935
+gif2jpg2, 3871, 0.00427516602935
+ftpabl, 3710, 0.00427516602935
+frill, 3694, 0.00427516602935
+freepost, 3680, 0.00427516602935
+forevermor, 3603, 0.00427516602935
+ensched, 3121, 0.00427516602935
+drawback, 2862, 0.00427516602935
+decompressor, 2453, 0.00427516602935
+dcview21, 2411, 0.00427516602935
+cview097, 2321, 0.00427516602935
+cshw860a, 2273, 0.00427516602935
+cristi, 2233, 0.00427516602935
+cosin, 2163, 0.00427516602935
+conv, 2109, 0.00427516602935
+cli, 1813, 0.00427516602935
+chromin, 1736, 0.00427516602935
+checkbox, 1683, 0.00427516602935
+changefsi, 1651, 0.00427516602935
+buggier, 1375, 0.00427516602935
+bryanw, 1354, 0.00427516602935
+blocksmooth, 1166, 0.00427516602935
+bilevel, 1088, 0.00427516602935
+bboard, 960, 0.00427516602935
+augjpeg, 782, 0.00427516602935
+asdg, 678, 0.00427516602935
+amigajpegv4, 474, 0.00427516602935
+adpro, 279, 0.00427516602935
+727x525, 138, 0.00427516602935
+60a, 124, 0.00427516602935
+complet, 1975, 0.00423898623063
+correct, 2156, 0.0042229782794
+sort, 8144, 0.00421769381045
+discuss, 2708, 0.00421769381045
+manag, 5472, 0.00418651089817
+heard, 4224, 0.0041662042959
+winjp210, 9784, 0.00415282476744
+unfriend, 9266, 0.00415282476744
+thumbnail, 8906, 0.00415282476744
+sloppi, 8042, 0.00415282476744
+slideshow, 8033, 0.00415282476744
+reus, 7348, 0.00415282476744
+rahul, 7069, 0.00415282476744
+noncommerci, 6099, 0.00415282476744
+misread, 5768, 0.00415282476744
+milnet, 5727, 0.00415282476744
+lurk, 5399, 0.00415282476744
+hog, 4338, 0.00415282476744
+hamlab, 4138, 0.00415282476744
+flicker, 3543, 0.00415282476744
+compushow, 1992, 0.00415282476744
+bleed, 1152, 0.00415282476744
+acorn, 242, 0.00415282476744
+1x1, 58, 0.00415282476744
+hard, 4167, 0.00415121738581
+john, 4878, 0.0041462669251
+alway, 457, 0.00414133871373
+vcpi, 9441, 0.00405286467807
+standalon, 8312, 0.00405286467807
+smear, 8059, 0.00405286467807
+shoddi, 7897, 0.00405286467807
+recipi, 7170, 0.00405286467807
+ppmquant, 6788, 0.00405286467807
+mitsubishi, 5787, 0.00405286467807
+misnom, 5765, 0.00405286467807
+microsystem, 5695, 0.00405286467807
+macpaint, 5421, 0.00405286467807
+keystrok, 4996, 0.00405286467807
+ftpmail, 3712, 0.00405286467807
+facto, 3351, 0.00405286467807
+entropi, 3136, 0.00405286467807
+dutch, 2930, 0.00405286467807
+dubious, 2904, 0.00405286467807
+compli, 1977, 0.00405286467807
+chew, 1699, 0.00405286467807
+carnegi, 1525, 0.00405286467807
+buzz, 1434, 0.00405286467807
+bbses, 962, 0.00405286467807
+aminet, 475, 0.00405286467807
+386max, 95, 0.00405286467807
+bad, 861, 0.00403817056374
+pretti, 6851, 0.00402041268277
+quit, 7043, 0.00401601778637
+wonder, 9821, 0.00398147870465
+exampl, 3258, 0.00397723682244
+windows3, 9775, 0.00396834962674
+uwaterloo, 9398, 0.00396834962674
+turf, 9154, 0.00396834962674
+sune, 8542, 0.00396834962674
+subt, 8506, 0.00396834962674
+peg, 6506, 0.00396834962674
+nifti, 6061, 0.00396834962674
+jpegsrc, 4908, 0.00396834962674
+glitch, 3903, 0.00396834962674
+flashi, 3525, 0.00396834962674
+emit, 3071, 0.00396834962674
+displac, 2733, 0.00396834962674
+denomin, 2527, 0.00396834962674
+512x512, 118, 0.00396834962674
+word, 9829, 0.00392757436436
+kind, 5021, 0.00391150777385
+xv, 9911, 0.00389513935926
+weaker, 9670, 0.00389513935926
+unsupport, 9317, 0.00389513935926
+smoother, 8070, 0.00389513935926
+royalti, 7505, 0.00389513935926
+pd1, 6491, 0.00389513935926
+icon, 4479, 0.00389513935926
+hassl, 4196, 0.00389513935926
+eyebal, 3338, 0.00389513935926
+ega, 3008, 0.00389513935926
+aldus, 393, 0.00389513935926
+4mb, 111, 0.00389513935926
+order, 6281, 0.00387619621927
+wsmr, 9875, 0.0038305633268
+unus, 9324, 0.0038305633268
+squeez, 8278, 0.0038305633268
+sixteen, 7996, 0.0038305633268
+provis, 6950, 0.0038305633268
+pgm, 6581, 0.0038305633268
+painless, 6390, 0.0038305633268
+notabl, 6117, 0.0038305633268
+harbor, 4166, 0.0038305633268
+discret, 2703, 0.0038305633268
+aka, 370, 0.0038305633268
+thought, 8887, 0.00382711805401
+second, 7753, 0.00381609760763
+comput, 1993, 0.00380157388292
+subset, 8499, 0.00377279809735
+notifi, 6121, 0.00377279809735
+lightwav, 5271, 0.00377279809735
+interchang, 4706, 0.00377279809735
+ghost, 3864, 0.00377279809735
+earliest, 2953, 0.00377279809735
+disadvantag, 2674, 0.00377279809735
+conjunct, 2045, 0.00377279809735
+fact, 3350, 0.00376259796385
+warranti, 9646, 0.0037205430911
+smallest, 8056, 0.0037205430911
+satisfactori, 7634, 0.0037205430911
+pronounc, 6917, 0.0037205430911
+liabil, 5242, 0.0037205430911
+inspect, 4674, 0.0037205430911
+wizard, 9811, 0.00367283800799
+tsr, 9135, 0.00367283800799
+tricki, 9095, 0.00367283800799
+invis, 4747, 0.00367283800799
+illus, 4510, 0.00367283800799
+fetch, 3453, 0.00367283800799
+far, 3386, 0.00366284511796
+said, 7583, 0.00365020491822
+uncompress, 9228, 0.00362895358558
+lesser, 5222, 0.00362895358558
+hack, 4111, 0.00362895358558
+fastest, 3400, 0.00362895358558
+click, 1815, 0.00362895358558
+classifi, 1792, 0.00362895358558
+caution, 1571, 0.00362895358558
+artifact, 666, 0.00362895358558
+adher, 266, 0.00362895358558
+lane, 5110, 0.00358832295665
+kit, 5033, 0.00358832295665
+incident, 4576, 0.00358832295665
+cheapli, 1680, 0.00358832295665
+zoom, 9994, 0.00355049674608
+volunt, 9579, 0.00355049674608
+straightforward, 8423, 0.00355049674608
+prone, 6916, 0.00355049674608
+netherland, 6012, 0.00355049674608
+maker, 5460, 0.00355049674608
+inconsist, 4585, 0.00355049674608
+incompat, 4582, 0.00355049674608
+cray, 2215, 0.00355049674608
+risc, 7413, 0.00351511268917
+inevit, 4616, 0.00351511268917
+gradual, 3980, 0.00351511268917
+absenc, 191, 0.00351511268917
+640x480, 127, 0.00351511268917
+shorter, 7908, 0.00348187447686
+optimist, 6275, 0.00348187447686
+morph, 5866, 0.00348187447686
+imageri, 4516, 0.00348187447686
+grayscal, 4013, 0.00348187447686
+crucial, 2251, 0.00348187447686
+compuserv, 1991, 0.00348187447686
+wrap, 9857, 0.00345053665671
+vagu, 9406, 0.00345053665671
+jpg, 4910, 0.00345053665671
+storm, 8419, 0.00342089362182
+revis, 7359, 0.00342089362182
+mpeg, 5895, 0.00342089362182
+fantasi, 3384, 0.00342089362182
+drawn, 2863, 0.00342089362182
+distinguish, 2747, 0.00342089362182
+deliber, 2503, 0.00342089362182
+wherea, 9723, 0.00339277142726
+valley, 9413, 0.00339277142726
+pic, 6618, 0.00339277142726
+handi, 4148, 0.00339277142726
+exploit, 3306, 0.00339277142726
+dirti, 2671, 0.00339277142726
+cube, 2284, 0.00339277142726
+brand, 1270, 0.00339277142726
+acquir, 244, 0.00339277142726
+weird, 9697, 0.00336602160538
+tini, 8941, 0.00336602160538
+stabl, 8298, 0.00336602160538
+pan, 6404, 0.00336602160538
+amus, 485, 0.00336602160538
+readm, 7141, 0.00334051642101
+frequenc, 3685, 0.00334051642101
+fed, 3424, 0.00334051642101
+corrupt, 2160, 0.00334051642101
+cambridg, 1470, 0.00334051642101
+question, 7032, 0.00331915621978
+plug, 6697, 0.00331614518243
+moder, 5810, 0.00331614518243
+microsoft, 5693, 0.00331614518243
+beta, 1055, 0.00331614518243
+variabl, 9427, 0.0032928113379
+usag, 9360, 0.0032928113379
+rapid, 7100, 0.0032928113379
+newer, 6028, 0.0032928113379
+spatial, 8189, 0.00327043016536
+sec, 7752, 0.00327043016536
+correspond, 2158, 0.00327043016536
+balanc, 872, 0.00327043016536
+armi, 645, 0.00327043016536
+reput, 7300, 0.00324892691549
+occasion, 6187, 0.00324892691549
+menu, 5633, 0.00324892691549
+strict, 8445, 0.00322823530543
+meaningless, 5597, 0.00322823530543
+joint, 4882, 0.00322823530543
+crash, 2212, 0.00322823530543
+arbitrari, 604, 0.00322823530543
+someth, 8126, 0.00322781911544
+hint, 4306, 0.00320829628656
+clarif, 1785, 0.00320829628656
+analyz, 493, 0.00320829628656
+accuraci, 226, 0.00320829628656
+utah, 9380, 0.00318905702859
+upgrad, 9337, 0.00318905702859
+remark, 7266, 0.00318905702859
+percent, 6533, 0.00318905702859
+mon, 5831, 0.00318905702859
+lucki, 5382, 0.00318905702859
+kick, 5006, 0.00318905702859
+harder, 4170, 0.00318905702859
+contend, 2083, 0.00318905702859
+concentr, 2001, 0.00318905702859
+belt, 1017, 0.00318905702859
+tune, 9149, 0.00317047007599
+submit, 8491, 0.00317047007599
+float, 3546, 0.00317047007599
+vast, 9434, 0.00315249264273
+tga, 8827, 0.00315249264273
+satisfi, 7635, 0.00315249264273
+oak, 6166, 0.00315249264273
+mil, 5712, 0.00315249264273
+medium, 5614, 0.00315249264273
+henc, 4252, 0.00315249264273
+filter, 3481, 0.00315249264273
+fashion, 3396, 0.00315249264273
+useless, 9364, 0.00313508601908
+regardless, 7225, 0.00313508601908
+pointer, 6711, 0.00313508601908
+plenti, 6692, 0.00313508601908
+descend, 2554, 0.00313508601908
+pop, 6743, 0.00311821506973
+perman, 6550, 0.00311821506973
+licens, 5254, 0.00311821506973
+fee, 3426, 0.00311821506973
+consult, 2076, 0.00311821506973
+consequ, 2057, 0.00311821506973
+cycl, 2325, 0.00310184780677
+bigger, 1083, 0.00310184780677
+acknowledg, 239, 0.00310184780677
+twice, 9170, 0.00308595502466
+reli, 7255, 0.00308595502466
+frequent, 3686, 0.00308595502466
+candid, 1489, 0.00308595502466
+adob, 277, 0.00308595502466
+semi, 7781, 0.00307050998662
+alleg, 422, 0.00307050998662
+style, 8479, 0.00305548815401
+forum, 3620, 0.00304086695173
+alter, 449, 0.00304086695173
+shoot, 7900, 0.00302662556421
+oakland, 6167, 0.00302662556421
+expert, 3298, 0.00302662556421
+experiment, 3297, 0.00302662556421
+4th, 112, 0.00302662556421
+task, 8707, 0.00301274475718
+switch, 8638, 0.00301274475718
+paramet, 6421, 0.00301274475718
+deni, 2523, 0.00301274475718
+coordin, 2126, 0.00301274475718
+transform, 9053, 0.00299920672139
+tabl, 8667, 0.00299920672139
+sequenc, 7804, 0.00299920672139
+properti, 6925, 0.00299920672139
+literatur, 5307, 0.00299920672139
+join, 4881, 0.00299920672139
+host, 4386, 0.00299920672139
+feed, 3427, 0.00299920672139
+effici, 3006, 0.00299920672139
+percentag, 6534, 0.00298599493529
+mix, 5788, 0.00298599493529
+manual, 5492, 0.00298599493529
+doctrin, 2787, 0.00298599493529
+varieti, 9431, 0.00297309404378
+paint, 6391, 0.00297309404378
+identifi, 4486, 0.00297309404378
+easier, 2960, 0.00297309404378
+complain, 1973, 0.00297309404378
+charact, 1661, 0.00297309404378
+ancient, 500, 0.00297309404378
+instruct, 4684, 0.00296048975092
+accomplish, 218, 0.00296048975092
+toler, 8974, 0.00294816872471
+poster, 6769, 0.00294816872471
+port, 6748, 0.00294816872471
+bar, 904, 0.00294816872471
+anyon, 554, 0.00294656134309
+march, 5504, 0.00293611851234
+heavi, 4230, 0.00293611851234
+ram, 7083, 0.00292432746451
+motion, 5880, 0.00292432746451
+highest, 4294, 0.00292432746451
+famili, 3378, 0.00292432746451
+3rd, 102, 0.00292432746451
+overal, 6337, 0.00291278466781
+fulli, 3718, 0.00291278466781
+affect, 310, 0.00291278466781
+grow, 4066, 0.00290147988395
+favor, 3410, 0.00290147988395
+block, 1163, 0.00290147988395
+workstat, 9840, 0.00289040349527
+favorit, 3411, 0.00289040349527
+bright, 1311, 0.00289040349527
+tel, 8754, 0.00287954645549
+pound, 6776, 0.00287954645549
+margin, 5507, 0.00287954645549
+domain, 2805, 0.00287954645549
+histor, 4313, 0.0028689002454
+editor, 2997, 0.0028689002454
+asid, 687, 0.0028689002454
+writer, 9866, 0.00285845683265
+somewhat, 8129, 0.00285845683265
+core, 2140, 0.00285845683265
+safe, 7577, 0.00284820863535
+reduc, 7204, 0.00284820863535
+profession, 6900, 0.00284820863535
+multipl, 5919, 0.00283814848901
+clean, 1799, 0.00283814848901
+cite, 1774, 0.00283814848901
+approxim, 593, 0.00283814848901
+worri, 9845, 0.00282826961647
+trace, 9028, 0.00282826961647
+starter, 8335, 0.00282826961647
+magazin, 5432, 0.00282826961647
+greater, 4017, 0.00282826961647
+expir, 3300, 0.00282826961647
+compon, 1980, 0.00282826961647
+path, 6461, 0.00281856560045
+monitor, 5837, 0.00281856560045
+techniqu, 8740, 0.00280903035851
+hasn, 4195, 0.00280903035851
+visual, 9547, 0.00279965812016
+suppli, 8574, 0.0027904434059
+odd, 6198, 0.0027904434059
+decis, 2445, 0.0027904434059
+straight, 8422, 0.00278138100796
+prevent, 6853, 0.00278138100796
+eric, 3170, 0.00278138100796
+volum, 9577, 0.00277246597264
+proper, 6924, 0.00277246597264
+kept, 4989, 0.00277246597264
+extend, 3319, 0.00277246597264
+gotten, 3962, 0.002755059349
+necessarili, 5991, 0.00274655898349
+gmt, 3917, 0.00274655898349
+assist, 705, 0.00273818839964
+mechan, 5603, 0.00272994369402
+unlik, 9290, 0.00272182113668
+truli, 9127, 0.00272182113668
+thoma, 8878, 0.00272182113668
+tend, 8783, 0.00272182113668
+orient, 6290, 0.00272182113668
+anonym, 532, 0.00272182113668
+trade, 9033, 0.00270592835457
+thousand, 8888, 0.00269815144981
+readi, 7139, 0.00269815144981
+eventu, 3233, 0.00269815144981
+argu, 628, 0.00269815144981
+routin, 7499, 0.00269048331653
+huge, 4427, 0.00269048331653
+desir, 2565, 0.00269048331653
+bet, 1054, 0.00267546148392
+war, 9635, 0.00266810214399
+hundr, 4440, 0.00266810214399
+gone, 3943, 0.00266810214399
+precis, 6809, 0.00266084028164
+initi, 4647, 0.00266084028164
+curious, 2297, 0.00266084028164
+option, 6276, 0.00265367334831
+ibm, 4472, 0.00265367334831
+frame, 3643, 0.00265367334831
+finish, 3488, 0.00265367334831
+industri, 4608, 0.00264659889413
+uucp, 9388, 0.00263961456283
+impress, 4554, 0.00263961456283
+digit, 2642, 0.00263961456283
+calcul, 1451, 0.00263961456283
+modifi, 5814, 0.00262590728407
+lower, 5371, 0.00262590728407
+flame, 3518, 0.00262590728407
+stay, 8355, 0.0026191800513
+basi, 936, 0.00261253436275
+approach, 589, 0.00261253436275
+outsid, 6332, 0.0026059682652
+dark, 2365, 0.00259947987477
+easili, 2962, 0.00259306737369
+expens, 3294, 0.00258672900723
+descript, 2557, 0.00258046308083
+wast, 9654, 0.00257426795738
+util, 9384, 0.00257426795738
+depart, 2535, 0.00257426795738
+jack, 4808, 0.00256208384279
+extra, 3325, 0.00255609184225
+doubl, 2828, 0.00255609184225
+price, 6857, 0.00255016462136
+degre, 2491, 0.00254430079442
+appar, 577, 0.00254430079442
+lack, 5092, 0.00253849901973
+publish, 6974, 0.00253275799772
+notic, 6120, 0.00253275799772
+million, 5724, 0.00253275799772
+concept, 2002, 0.00253275799772
+minor, 5745, 0.00252145321387
+key, 4994, 0.00251588704837
+announc, 524, 0.00251588704837
+fall, 3369, 0.00251037682518
+structur, 8460, 0.0024995197854
+forget, 3604, 0.0024995197854
+contribut, 2103, 0.0024995197854
+consist, 2061, 0.0024995197854
+sent, 7793, 0.00248887357531
+addit, 263, 0.00248887357531
+pay, 6474, 0.00248362700329
+contact, 2078, 0.00248362700329
+tom, 8976, 0.00247328211917
+throw, 8899, 0.00245812181892
+map, 5498, 0.00245812181892
+therefor, 8855, 0.00244824294639
+pass, 6448, 0.00244824294639
+longer, 5337, 0.00244824294639
+jay, 4832, 0.00244824294639
+intern, 4716, 0.00243853893036
+technic, 8737, 0.00243375058034
+prove, 6947, 0.00243375058034
+locat, 5323, 0.00242900368842
+newsgroup, 6032, 0.00242429754285
+various, 9432, 0.00241963145007
+speak, 8192, 0.00241500473407
+saw, 7650, 0.00241500473407
+materi, 5543, 0.00241500473407
+date, 2391, 0.00241041673581
+cut, 2313, 0.00241041673581
+attempt, 763, 0.00241041673581
+phone, 6601, 0.00240586681267
+written, 9867, 0.00239243930255
+physic, 6613, 0.00238366691392
+entir, 3129, 0.00238366691392
+rate, 7108, 0.00237933279971
+drive, 2873, 0.00237933279971
+updat, 9333, 0.00237503267891
+stand, 8311, 0.00237503267891
+bodi, 1194, 0.00237503267891
+concern, 2004, 0.00237076602241
+quot, 7045, 0.00235402387903
+add, 260, 0.00235402387903
+ad, 257, 0.00235402387903
+return, 7346, 0.00234179446659
+goe, 3931, 0.00234179446659
+fli, 3542, 0.00234179446659
+activ, 252, 0.00234179446659
+quick, 7036, 0.00233777787286
+wrote, 9871, 0.00232590168448
+natur, 5966, 0.00232199944315
+record, 7184, 0.00231812477973
+miss, 5770, 0.00231812477973
+involv, 4750, 0.00229915186259
+experi, 3295, 0.00229543481383
+ray, 7118, 0.00229174279589
+observ, 6179, 0.00228081361155
+april, 595, 0.00227721843413
+earli, 2951, 0.00227364667822
+regard, 7224, 0.00224588061398
+plan, 6660, 0.00223915338121
+issu, 4793, 0.00223582046765
+suppos, 8577, 0.00222921481434
+anybodi, 552, 0.00222921481434
+perform, 6539, 0.00222594159511
+lead, 5172, 0.00222594159511
+caus, 1569, 0.00221945320468
+explain, 3301, 0.00221623757909
+comment, 1936, 0.00220043641074
+form, 3610, 0.00219733009879
+becom, 983, 0.00219733009879
+light, 5267, 0.0021820571727
+left, 5193, 0.0021820571727
+fan, 3381, 0.0021820571727
+technolog, 8743, 0.0021790529866
+open, 6258, 0.00217606517216
+exact, 3253, 0.00217606517216
+claim, 1782, 0.00213586037828
+design, 2564, 0.00213035015509
+perhap, 6540, 0.00212218728581
+agre, 337, 0.00212218728581
+appreci, 587, 0.00211949311531
+research, 7307, 0.00210884690522
+public, 6973, 0.00210621734339
+clear, 1803, 0.0021036003332
+stuff, 8472, 0.00210099575542
+today, 8964, 0.00209582342845
+cost, 2169, 0.00208310214795
+close, 1830, 0.00207809514883
+advanc, 285, 0.00207313346255
+opinion, 6266, 0.00205372391025
+seen, 7767, 0.00203497806398
+week, 9691, 0.00201908528187
+noth, 6119, 0.00199500600882
+win, 9770, 0.00199286853012
+given, 3887, 0.00196784840514
+understand, 9246, 0.00196581403326
+hope, 4372, 0.00195975582143
+state, 8342, 0.00194392042197
+certain, 1619, 0.00194003201849
+happen, 4159, 0.0019323369786
+mayb, 5564, 0.0019191251925
+place, 6657, 0.00187782895394
+talk, 8684, 0.00185413490797
+didn, 2625, 0.00183142255898
+person, 6562, 0.00182667566705
+play, 6681, 0.00180808871445
+possibl, 6765, 0.00179753037399
+long, 5336, 0.00172750387774
+believ, 1009, 0.00169310679246
+game, 3761, 0.00166190619234
+day, 2402, 0.00162579354716
+thank, 8832, 0.00153538147365
+year, 9943, 0.00137788773355

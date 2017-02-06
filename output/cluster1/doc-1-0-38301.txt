@@ -1,0 +1,149 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38301
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Sean McMains <mcmains@unt.edu>
+Subject: Re: Rumours about 3DO ???
+X-Xxmessage-Id: <A7F2FC4E8B01023C@seanmac.acs.unt.edu>
+X-Xxdate: Thu, 15 Apr 93 17: 49:34 GMT
+Organization: University of North Texas
+X-Useragent: Nuntius v1.1.1d20
+Lines: 23
+
+In article <1993Apr15.144843.19549@rchland.ibm.com> Ricardo Hernandez
+Muchado, ricardo@rchland.vnet.ibm.com writes:
+>   And CD-I's CPU doesn't help much either.  I understand it is
+>a 68070 (supposedly a variation of a 68000/68010) running at something
+>like 7Mhz.  With this speed, you *truly* need sprites.
+
+Wow! A 68070! I'd be very interested to get my hands on one of these,
+especially considering the fact that Motorola has not yet released the
+68060, which is supposedly the next in the 680x0 lineup. 8-D
+
+Ricardo, the animation playback to which Lawrence was referring in an
+earlier post is plain old Quicktime 1.5 with the Compact Video codec.
+I've seen digitized video (some of Apple's early commercials, to be
+precise) running on a Centris 650 at about 30fps very nicely (16-bit
+color depth). I would expect that using the same algorithm, a RISC
+processor should be able to approach full-screen full-motion animation,
+though as you've implied, the processor will be taxed more with highly
+dynamic material.
+========================================================================
+Sean McMains              | Check out the Gopher    | Phone:817.565.2039
+University of North Texas | New Bands Info server   | Fax  :817.565.4060
+P.O. Box 13495            | at seanmac.acs.unt.edu  | E-Mail:
+Denton TX 76203           |                         |  McMains@unt.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do  xxdate thu gmt  userag nuntius 1d20
+i cpu doesn't help much either understand suppos
+variat run someth like 7mhz speed truli need
+sprite  wow i'd interest get hand one especi
+consid fact motorola yet releas suppos next 680x0
+lineup  ricardo anim playback lawrenc refer
+earlier post plain old quicktim compact video
+codec i'v seen digit video appl earli commerci
+precis run centri 30fps nice bit color depth
+expect use algorithm risc processor abl approach
+full screen full motion anim though you'v impli
+processor tax high dynam materi  sean mcmain check
+gopher phone univers north texa new band info
+server fax box seanmac ac unt edu mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+processor, 6891, 0.214871976597
+video, 9506, 0.176322386765
+anim, 515, 0.168009377134
+suppos, 8577, 0.15826067125
+unt, 9319, 0.151755371703
+seanmac, 7745, 0.151755371703
+1d20, 54, 0.151755371703
+ricardo, 7380, 0.147412629562
+7mhz, 139, 0.143864350872
+30fps, 84, 0.140864323986
+codec, 1872, 0.138265582492
+xxdate, 9918, 0.135973330041
+thu, 8903, 0.135973330041
+680x0, 131, 0.135973330041
+userag, 9367, 0.133922840351
+nuntius, 6158, 0.133922840351
+centri, 1612, 0.133922840351
+ac, 204, 0.1320679468
+sprite, 8269, 0.130374561662
+playback, 6682, 0.130374561662
+risc, 7413, 0.124775793282
+quicktim, 7039, 0.122483540831
+motorola, 5883, 0.122483540831
+compact, 1956, 0.122483540831
+lawrenc, 5154, 0.121431303386
+cpu, 2200, 0.121431303386
+gopher, 3952, 0.119483513945
+sean, 7744, 0.11857815759
+run, 7543, 0.117246921738
+variat, 9430, 0.116884772451
+rumour, 7542, 0.113201810511
+3do, 98, 0.113201810511
+wow, 9856, 0.11254203031
+plain, 6659, 0.107941514175
+band, 891, 0.107435988299
+appl, 583, 0.107435988299
+lineup, 5287, 0.105993724734
+depth, 2545, 0.105535782382
+tax, 8718, 0.103804717364
+motion, 5880, 0.103804717364
+impli, 4546, 0.101466510577
+dynam, 2942, 0.101466510577
+server, 7812, 0.100745626238
+texa, 8820, 0.0984140969785
+gmt, 3917, 0.0974944777777
+north, 6110, 0.0969046856122
+truli, 9127, 0.0966163595683
+earlier, 2952, 0.0947094989583
+precis, 6809, 0.0944517249647
+digit, 2642, 0.0936982766014
+approach, 589, 0.092737011986
+screen, 7719, 0.0905230761477
+materi, 5543, 0.0857253118516
+phone, 6601, 0.0854009434763
+releas, 7253, 0.0850818928556
+algorithm, 407, 0.0846129146928
+commerci, 1940, 0.0822863685729
+fax, 3413, 0.0817457323636
+earli, 2951, 0.0807075314517
+especi, 3190, 0.0805815656269
+box, 1254, 0.0794831244758
+check, 1682, 0.0793648161966
+speed, 8217, 0.0791303356252
+nice, 6047, 0.0787838282167
+color, 1907, 0.0782196828618
+info, 4636, 0.0766191936131
+expect, 3290, 0.0754272914916
+old, 6216, 0.0735899230673
+seen, 7767, 0.072235522641
+refer, 7213, 0.0717509751558
+abl, 180, 0.0712005078982
+hand, 4145, 0.0705898961814
+understand, 9246, 0.069780410227
+edu, 3001, 0.0690032537152
+consid, 2059, 0.068255943153
+mail, 5447, 0.0669043433271
+fact, 3350, 0.0667803833411
+high, 4292, 0.0658161414584
+bit, 1122, 0.0656405464146
+univers, 9282, 0.0646743682155
+doesn, 2793, 0.0631294044024
+someth, 8126, 0.0572888732615
+help, 4249, 0.0571753939196
+post, 6766, 0.0568388728203
+new, 6023, 0.0566911555875
+need, 5993, 0.0523263522478
+use, 9363, 0.0429818717345
+like, 5272, 0.0409787295884

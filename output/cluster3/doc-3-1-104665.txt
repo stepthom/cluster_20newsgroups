@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104665
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Jack Morris
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 20
+
+In article <1993Apr20.160532.20860@ramsey.cs.laurentian.ca> maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+>>(BTW, by my definitions,
+>>the "best" player is the one who does the most things to help his team
+>>win. I will allow that this could vary depending on who else is on the
+>>team, by having aptitudes one team needs more than others.)
+>
+>Well then given your definition of "best" is it not conceivable that
+>Alfredo Griffin could bring something to a team that that team needs
+>to win while Larkin might not have that something the team needs?
+
+No.  I do not find this conceivable.  I also cannot conceive of the
+possibility that there is any hypothetical team which Morris would
+help more than Clemens.
+
+>Would Griffin then be better than Larkin?
+
+Given your premise, yes.  But you are alone in your ability to
+conceive of that premise.
+
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri     btw definit best player one thing
+help team win allow could vari depend els team
+aptitud one team need other  well given definit
+best conceiv alfredo griffin could bring someth
+team team need win larkin might someth team need
+find conceiv also cannot conceiv possibl hypothet
+team morri help clemen  griffin better larkin
+given premis yes alon abil conceiv premis
+valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+conceiv, 2000, 0.495260403299
+team, 8732, 0.461212678175
+griffin, 4048, 0.249775989131
+premis, 6827, 0.247630201649
+larkin, 5127, 0.241811890809
+morri, 5868, 0.194210148076
+definit, 2484, 0.171614008822
+need, 5993, 0.160060686134
+hypothet, 4466, 0.150306462034
+aptitud, 597, 0.150306462034
+win, 9770, 0.144258924869
+given, 3887, 0.142447778637
+alfredo, 403, 0.140979850825
+best, 1052, 0.132687445131
+someth, 8126, 0.116827002943
+help, 4249, 0.116595588871
+vari, 9426, 0.108552654264
+clemen, 1807, 0.10807446967
+valentin, 9409, 0.106705395798
+alon, 437, 0.0957904410792
+btw, 1355, 0.093623523045
+abil, 177, 0.0929507908102
+jack, 4808, 0.0927315211714
+depend, 2537, 0.0886111878245
+bring, 1316, 0.0839017183977
+allow, 432, 0.0760429963769
+yes, 9951, 0.0722844921324
+els, 3053, 0.0686018148194
+player, 6683, 0.0684729591692
+possibl, 6765, 0.0650594344916
+better, 1060, 0.0593642797472
+thing, 8869, 0.0542111393372

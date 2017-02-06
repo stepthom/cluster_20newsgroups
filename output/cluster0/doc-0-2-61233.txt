@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61233
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jfc@athena.mit.edu (John F Carr)
+Subject: Re: Gamma Ray Bursters.  WHere  are they.
+Organization: Massachusetts Institute of Technology
+Lines: 12
+NNTP-Posting-Host: achates.mit.edu
+
+
+If gamma ray bursters are extragalactic, would absorption from the
+galaxy be expected?  How transparent is the galactic core to gamma
+rays?
+
+How much energy does a burster put out?  I know energy depends on
+distance, which is unknown.  An answer of the form _X_ ergs per
+megaparsec^2 is OK.
+
+
+--
+    John Carr (jfc@athena.mit.edu)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster      gamma ray burster
+extragalact absorpt galaxi expect transpar galact
+core gamma ray  much energi burster put know
+energi depend distanc unknown answer form erg per
+megaparsec
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+burster, 1418, 0.47140968754
+gamma, 3762, 0.435899947335
+ray, 7118, 0.372344389256
+energi, 3102, 0.288994868901
+extragalact, 3327, 0.224906128863
+absorpt, 197, 0.21095056106
+erg, 3169, 0.204324878264
+transpar, 9063, 0.192285618445
+galact, 3749, 0.182294927268
+unknown, 9287, 0.164685401576
+galaxi, 3753, 0.159012500039
+core, 2140, 0.154806546569
+distanc, 2744, 0.145299982445
+depend, 2537, 0.132590435288
+form, 3610, 0.119001651654
+expect, 3290, 0.115078743188
+answer, 535, 0.109591760768
+know, 5052, 0.0639570659051

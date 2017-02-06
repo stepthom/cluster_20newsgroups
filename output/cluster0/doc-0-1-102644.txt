@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102644
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pkeenan@s.psych.uiuc.edu (Patricia Keenan)
+Subject: Re: Quick easy question!
+Organization: UIUC Department of Psychology
+Lines: 16
+
+rauser@fraser.sfu.ca (Richard John Rauser) writes:
+
+
+
+>   Here's an easy question for someone who knows nothing about baseball...
+
+>   What city do the California Angels play out of?
+
+   Anaheim.
+
+>-- 
+>Richard J. Rauser        "You have no idea what you're doing."
+>rauser@sfu.ca            "Oh, don't worry about that. We're professional
+>WNI                          outlaws - we do this for a living."
+>-----------------
+>"Remember, no matter where you go, there you are." -Dr.Banzai
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quick easi question        here easi question
+someon know noth basebal  citi california angel
+play  anaheim   richard rauser idea you'r  wni
+outlaw live  rememb matter banzai
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+easi, 2959, 0.442941554362
+anaheim, 486, 0.380111330061
+question, 7032, 0.303804989624
+richard, 7383, 0.285412687495
+angel, 509, 0.25062854631
+california, 1459, 0.249873901894
+citi, 1775, 0.226381465287
+quick, 7036, 0.213978654627
+matter, 5553, 0.194742342497
+rememb, 7269, 0.184808470132
+live, 5310, 0.183995773699
+noth, 6119, 0.182604475257
+idea, 4482, 0.171563550086
+basebal, 924, 0.169107627221
+play, 6681, 0.165495787712
+someon, 8124, 0.163985380983
+know, 5052, 0.108093120943

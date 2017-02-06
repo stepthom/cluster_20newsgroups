@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38661
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: POV file constructor for Unix/X11
+From: Craig.Humphrey@comp.vuw.ac.nz (chumphre)
+Reply-To: chumphre@comp.vuw.ac.nz
+Distribution: world
+Organization: Victoria University of Wellington. New Zealand
+NNTP-Posting-Host: regent.comp.vuw.ac.nz
+Lines: 13
+
+
+Hi, I'm just getting into PoVRay and I was wondering if there is a graphic
+package that outputs .POV files.  Any help would be appreciated.
+Thanks.
+
+Later'ish
+Craig
+
+-- 
+    |\/\/\/\/\/| 
+    | ___  ___ |         "I didn't do it, nobody saw me do it, 
+    |/   \/   \|             you can't prove anything."
+_ccc_c_#_|__#_ccc_c_____chumphre@comp.vuw.ac.nz_______________________________
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+pov file constructor unix x11         i'm get
+povray wonder graphic packag output pov file help
+appreci thank  later'ish craig    didn't nobodi
+saw can't prove anyth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pov, 6778, 0.434979212724
+constructor, 2075, 0.315383637667
+ish, 4778, 0.306358390004
+file, 3477, 0.279915790772
+povray, 6780, 0.25028843024
+x11, 9883, 0.236679498907
+craig, 2208, 0.225406677131
+nobodi, 6088, 0.204527823658
+output, 6329, 0.203880675028
+unix, 9284, 0.185193222814
+prove, 6947, 0.179540421573
+saw, 7650, 0.178157520149
+packag, 6375, 0.17616797515
+later, 5140, 0.169610928089
+appreci, 587, 0.156357307325
+wonder, 9821, 0.146859002498
+anyth, 555, 0.138657271214
+didn, 2625, 0.135106029752
+graphic, 3997, 0.13316058899
+help, 4249, 0.118824022616
+thank, 8832, 0.113266757605

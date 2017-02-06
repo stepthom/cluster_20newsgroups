@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39029
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Frank.Neumann@arbi.informatik.uni-oldenburg.de (Frank Neumann)
+Subject: Re: What has happened to DKB-L@TREARN???
+Organization: University of Oldenburg, Germany
+Lines: 16
+
+Hi,
+David K. Drum writes:
+
+>listserv told me that the list doesn't exist!  So I got a global
+>list of groups from the listserv and - - NOTHING!  I grepped every
+>string I could think of.  If Frank, Ville Saari, Andre Beck, or anyone
+>else who's a regular on DKB-L can tell me what is going on, please do!
+
+I just sent a mail to Turgut Kalfaoglu (sp?), the maintainer of the list,
+and asked him what's going on. If the list is (for whatever reason) really
+dead, we might have to put up a list ourselves. But for now, I want to wait
+for his answer.
+
+Frank
+
+PS: ...and I just thought this would be just another period of silence...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ happen dkb trearn       listserv told list
+doesn't exist got global list group listserv noth
+grep everi string could think frank vill saari
+andr beck anyon els who regular dkb tell go pleas
+sent mail turgut kalfaoglu maintain list ask what
+go list whatev reason realli dead might put list
+want wait answer  frank  thought anoth period
+silenc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+list, 5298, 0.460765011199
+dkb, 2775, 0.381168899595
+listserv, 5301, 0.346287979795
+frank, 3655, 0.215314049976
+trearn, 9073, 0.20343746869
+vill, 9518, 0.196199023827
+grep, 4038, 0.196199023827
+beck, 982, 0.178758563927
+string, 8450, 0.150088955969
+silenc, 7953, 0.150088955969
+andr, 503, 0.140914073954
+global, 3904, 0.139553674271
+wait, 9611, 0.121139108271
+maintain, 5454, 0.120510043881
+regular, 7234, 0.116764899599
+sent, 7793, 0.114221193412
+told, 8973, 0.113271599018
+period, 6546, 0.112132885923
+dead, 2415, 0.112132885923
+whatev, 9718, 0.10979556174
+answer, 535, 0.0928675689444
+noth, 6119, 0.0915562644285
+exist, 3283, 0.0902165650885
+happen, 4159, 0.0886802117867
+thought, 8887, 0.0878184403965
+group, 4064, 0.0875655612326
+ask, 689, 0.0871496630858
+els, 3053, 0.0869852097879
+mail, 5447, 0.0864982023584
+everi, 3235, 0.0861786899379
+got, 3960, 0.0825622220786
+tell, 8767, 0.0822208156873
+doesn, 2793, 0.0816177205428
+reason, 7156, 0.0811584408939
+anoth, 533, 0.081093508561
+realli, 7150, 0.0746622700656
+pleas, 6688, 0.0740177098041
+want, 9634, 0.0685405757224
+anyon, 554, 0.0676128663999
+think, 8871, 0.057626829213

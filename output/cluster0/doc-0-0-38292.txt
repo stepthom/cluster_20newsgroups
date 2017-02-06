@@ -1,0 +1,236 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38292
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: spl@ivem.ucsd.edu (Steve Lamont)
+Subject: SGI sales practices (Was: Crimson (Was: Kubota Announcement?))
+Organization: University of Calif., San Diego/Microscopy and Imaging Resource
+Lines: 49
+NNTP-Posting-Host: ivem.ucsd.edu
+
+In article <30523@hacgate.SCG.HAC.COM> lee@luke.rsg.hac.com (C. Lee) writes:
+>The original posting complained (1) about SGI coming out with newer (and
+>better) architectures and not having an upgrade path from the older ones,
+>and (2) that DEC did.
+
+No.  That's *not* what I was complaining about, nor did I intend to
+suggest that DEC was any better than SGI (let me tell you about the
+Lynx some day, but be prepared with a large sedative if you do...).  My
+comment regarding DEC was to indicate that I might be open to other vendors
+that supported OpenGL, rather than deal further with SGI.
+
+What I *am* annoyed about is the fact that we were led to believe that
+we *would* be able to upgrade to a multiprocessor version of the
+Crimson without the assistance of a fork lift truck.
+
+I'm also annoyed about being sold *several* Personal IRISes at a
+previous site on the understanding *that* architecture would be around
+for a while, rather than being flushed.
+
+Now I understand that SGI is responsible to its investors and has to
+keep showing a positive quarterly bottom line (odd that I found myself
+pressured on at least two occasions to get the business on the books
+just before the end of the quarter), but I'm just a little tired of
+getting boned in the process.
+
+Maybe it's because my lab buys SGIs in onesies and twosies, so we
+aren't entitled to a "peek under the covers" as the Big Kids (NASA,
+for instance) are.  This lab, and I suspect that a lot of other labs
+and organizations, doesn't have a load of money to spend on computers
+every year, so we can't be out buying new systems on a regular basis.
+The boxes that we buy now will have to last us pretty much through the
+entire grant period of five years and, in some case, beyond.  That
+means that I need to buy the best piece of equipment that I can when I
+have the money, not some product that was built, to paraphrase one
+previous poster's words, 'to fill a niche' to compete with some other
+vendor.  I'm going to be looking at this box for the next five years.
+And every time I look at it, I'm going to think about SGI and how I
+could have better spent my money (actually *your* money, since we're
+supported almost entirely by Federal tax dollars).
+
+Now you'll have to pardon me while I go off and hiss and fume in a
+corner somewhere and think dark, libelous thoughts.
+
+							spl
+-- 
+Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
+San Diego Microscopy and Imaging Resource/UC San Diego/La Jolla, CA 92093-0608
+"My other car is a car, too."
+                 - Bumper strip seen on I-805
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sgi sale practic crimson kubota announc
+origin post complain sgi come newer better
+architectur upgrad path older one   that complain
+intend suggest better sgi let tell lynx day prepar
+larg sedat comment regard indic might open vendor
+support opengl rather deal sgi  annoy fact led
+believ abl upgrad multiprocessor version crimson
+without assist fork lift truck  i'm also annoy
+sold sever person iris previous site understand
+architectur around rather flush  understand sgi
+respons investor keep show posit quarter bottom
+line odd found pressur least two occas get busi
+book end quarter i'm littl tire get bone process
+mayb it lab buy sgis onesi twosi aren't entitl
+peek cover big kid nasa instanc lab suspect lot
+lab organ doesn't load money spend comput everi
+year can't buy new system regular basi box buy
+last pretti much entir grant period five year case
+beyond mean need buy best piec equip money product
+built paraphras one previous poster word to fill
+nich compet vendor i'm go look box next five year
+everi time look i'm go think sgi could better
+spent money actual money sinc we'r support almost
+entir feder tax dollar  you'll pardon hiss fume
+corner somewher think dark libel thought  spl
+san diego microscopi imag resourc san diego jolla
+car car bumper strip seen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sgi, 7831, 0.401434511199
+buy, 1433, 0.22403591061
+money, 5835, 0.198920721102
+lab, 5085, 0.17463327418
+crimson, 2231, 0.165305223979
+architectur, 617, 0.149251374805
+annoy, 525, 0.145294771798
+quarter, 7027, 0.144397366583
+vendor, 9458, 0.143531455851
+upgrad, 9337, 0.143531455851
+car, 1510, 0.138891093326
+complain, 1973, 0.133811503733
+diego, 2629, 0.124386914402
+previous, 6855, 0.115585630683
+san, 7603, 0.111547923499
+better, 1060, 0.110730489565
+entir, 3129, 0.107282867428
+box, 1254, 0.10077867589
+twosi, 9175, 0.0962072485216
+onesi, 6242, 0.0962072485216
+lynx, 5407, 0.0962072485216
+sgis, 7832, 0.093454111893
+nich, 6049, 0.093454111893
+multiprocessor, 5921, 0.093454111893
+libel, 5246, 0.093454111893
+fume, 3720, 0.093454111893
+bumper, 1397, 0.093454111893
+year, 9943, 0.0930229048695
+opengl, 6259, 0.0893027302658
+flush, 3562, 0.0893027302658
+understand, 9246, 0.0884763576183
+spl, 8242, 0.0876552250345
+pardon, 6425, 0.0876552250345
+fork, 3609, 0.0862020224312
+support, 8576, 0.0849878987573
+microscopi, 5691, 0.0849020884059
+everi, 3235, 0.0845163699431
+peek, 6503, 0.0837261550413
+jolla, 4885, 0.0807507067787
+truck, 9120, 0.0783552172749
+occas, 6186, 0.0783552172749
+bone, 1213, 0.0783552172749
+kubota, 5078, 0.0776499989441
+paraphras, 6424, 0.0763500649189
+investor, 4746, 0.0746256874024
+newer, 6028, 0.0741005885023
+strip, 8451, 0.0735969282903
+entitl, 3132, 0.0721986832917
+corner, 2149, 0.0717657279257
+sold, 8109, 0.0713474518737
+tire, 8948, 0.0709428922898
+lift, 5264, 0.0687599279581
+older, 6218, 0.0684308961424
+sale, 7590, 0.0671960702465
+prepar, 6831, 0.0669057518665
+led, 5188, 0.0666221080672
+poster, 6769, 0.0663448388285
+feder, 3425, 0.0663448388285
+compet, 1969, 0.0660736639153
+tax, 8718, 0.0658083211752
+grant, 3994, 0.0652941650358
+instanc, 4680, 0.0645610011396
+dollar, 2802, 0.0636466598046
+piec, 6624, 0.0634282830972
+path, 6461, 0.0634282830972
+odd, 6198, 0.0627954283866
+equip, 3161, 0.0621934572012
+kid, 5008, 0.0619991545734
+assist, 705, 0.0616194950219
+look, 5341, 0.061581260066
+spent, 8223, 0.0610710508701
+pressur, 6842, 0.0610710508701
+intend, 4700, 0.06054595197
+suspect, 8603, 0.0597175898113
+basi, 936, 0.0587918085479
+resourc, 7320, 0.0586440467594
+dark, 2365, 0.0584980336722
+spend, 8222, 0.0577928153414
+somewher, 8130, 0.0576564828838
+load, 5317, 0.0573882557575
+regular, 7234, 0.0572562976882
+busi, 1424, 0.0568686858568
+cover, 2194, 0.0567421415488
+announc, 524, 0.0566168819767
+think, 8871, 0.0565152524357
+period, 6546, 0.0549849648232
+practic, 6793, 0.0540394670023
+built, 1381, 0.0540394670023
+aren, 623, 0.0538388453157
+indic, 4600, 0.0537397446875
+product, 6896, 0.051655880984
+organ, 6287, 0.051655880984
+site, 7994, 0.050849190993
+regard, 7224, 0.0505407258796
+process, 6890, 0.0498736465649
+deal, 2418, 0.0498736465649
+comment, 1936, 0.0495180610931
+open, 6258, 0.0489696169412
+posit, 6761, 0.0484445180411
+version, 9479, 0.048002702379
+respons, 7323, 0.0475164143378
+suggest, 8525, 0.0470485682638
+nasa, 5956, 0.0464329413362
+seen, 7767, 0.0457946285579
+larg, 5124, 0.0456913814125
+sever, 7823, 0.0455381128344
+pretti, 6851, 0.0452371720157
+abl, 180, 0.0451384677943
+word, 9829, 0.0441925670682
+book, 1218, 0.0441925670682
+origin, 6293, 0.0438779207518
+mayb, 5564, 0.0431875050165
+thought, 8887, 0.0430622454445
+case, 1540, 0.0428971866366
+comput, 1993, 0.0427748256812
+end, 3091, 0.0425336852
+fact, 3350, 0.0423362735985
+big, 1082, 0.0420268414086
+littl, 5308, 0.0414667772447
+imag, 4512, 0.0413577518354
+best, 1052, 0.0412496814054
+person, 6562, 0.0411070444193
+line, 5285, 0.0408961339523
+tell, 8767, 0.0403174200064
+doesn, 2793, 0.0400216890526
+actual, 254, 0.0396696091815
+ll, 5314, 0.0390841778293
+let, 5225, 0.0389643908508
+lot, 5356, 0.0384965447768
+mean, 5595, 0.0381290639943
+believ, 1009, 0.0381012444518
+sinc, 7977, 0.037610929792
+day, 2402, 0.0365864443072
+post, 6766, 0.0360337265281
+new, 6023, 0.035940079309
+come, 1923, 0.0357778878032
+need, 5993, 0.0331729567029
+time, 8936, 0.0293152537174

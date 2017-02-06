@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83587
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615)
+Subject: Re: 14 Apr 93   God's Promise in 1 John 1: 7
+Organization: Lunar & Planetary Laboratory, Tucson AZ.
+Lines: 16
+
+In article <bskendigC5I9yH.ICp@netcom.com> bskendig@netcom.com (Brian Kendig) writes:
+
+>If you can explain to me why the death of Jesus was a *good* thing,
+>then I would be very glad to hear it, and you might even convert me.
+>Be warned, however, that I've heard all the most common arguments
+>before, and they just don't convince me.
+
+Be warned, it is not my job to convert you.  That is the job of
+the Holy Spirit.  And I, frankly, make a lousy one.  I am only
+here to testify.  Your conversion is between you and God.  I am
+"out of the loop".  If you decide to follow Jesus, of which I
+indeed would be estatic, then all the glory be to God.
+
+-------------
+Brian Ceccarelli
+brian@gamma1.lpl.arizona.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john      explain death jesus good
+thing glad hear might even convert warn howev i'v
+heard common argument don't convinc  warn job
+convert job holi spirit frank make lousi one
+testifi convers god loop decid follow jesus inde
+estat glori god   brian ceccarelli
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+god, 3926, 0.3163778365
+warn, 9643, 0.314308421281
+job, 4873, 0.254738034672
+jesus, 4859, 0.243323384367
+convert, 2115, 0.240523154712
+ceccarelli, 1590, 0.226644684621
+estat, 3199, 0.221189259892
+testifi, 8815, 0.209056934915
+lousi, 5365, 0.209056934915
+loop, 5344, 0.180982035389
+glori, 3907, 0.180982035389
+holi, 4344, 0.164423645006
+glad, 3889, 0.164423645006
+spirit, 8238, 0.161571774273
+convers, 2114, 0.1468358953
+convinc, 2120, 0.143311591885
+inde, 4594, 0.142581750944
+promis, 6913, 0.140493322498
+brian, 1304, 0.140493322498
+death, 2423, 0.133615377853
+common, 1948, 0.130569836573
+decid, 2442, 0.129619852177
+hear, 4223, 0.129155935984
+frank, 3655, 0.128026670075
+argument, 631, 0.124874073242
+explain, 3301, 0.120953446217
+heard, 4224, 0.113687443076
+john, 4878, 0.113143391814
+howev, 4406, 0.103152589786
+follow, 3578, 0.0983476688311
+thing, 8869, 0.0817441007644
+good, 3948, 0.0769166277877
+make, 5459, 0.0750483282384
+don, 2811, 0.0678700348225

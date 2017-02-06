@@ -1,0 +1,33 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104670
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: drm6640@tesla.njit.edu
+Subject: BEST FIRST BASEMEN...
+Organization: New Jersey Institute of Technology
+Lines: 2
+Nntp-Posting-Host: tesla
+
+DON MATTINGLY IS THE BEST FIRST BASEMAN IN THE HISTORY OF BASEBALL.....ALWAYS
+HAS BEEN.....ALWAYS WILL BE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best first basemen     mat best first baseman
+histori basebal alway alway
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alway, 457, 0.496866223273
+best, 1052, 0.439839782734
+basemen, 929, 0.410429238366
+baseman, 928, 0.370244243294
+mat, 5540, 0.352267278084
+histori, 4314, 0.284437869309
+basebal, 924, 0.221663766979

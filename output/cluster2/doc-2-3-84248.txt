@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84248
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Is it good that Jesus died?
+Organization: Cookamunga Tourist Bureau
+Lines: 30
+
+In article <1993Apr23.210109.21120@organpipe.uug.arizona.edu>,
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) wrote:
+> > Hmm, it seems that this is the core of Christianity then, you 
+> > have to feel guilty . . . 
+> 
+> I think I see where you are coming from Kent.  Jesus doesn't view
+> guilt like our modern venacular colors it.   
+> 
+> "Feelings" have nothing to do with guilt.  Feelings arise from the state of 
+> being guilty.  Feeling and guilt are mutally exclusive.  Feelings are a 
+> reaction from guilt.  Jesus is talking about the guilt state, not the 
+> reaction.   Let me give you an example:
+> 
+> Have you ever made a mistake?  Have you ever lied to someone?  Even a
+> little white lie?   Have you ever claimed to know something that you really 
+> didn't know?  Have you ever hated someone?  Have you ever been selfish?
+> Are you guilty of any one of these?   The answer is of course, YES.  You
+> are guilty.  Period.  That is it what Jesus is getting at.  No big surprise.  
+> Feelings do not even enter the picture.   Consider Jesus's use of the word
+> "guilt" as how a court uses it.
+
+I've done all those things, and I've regretted it, and I learned 
+a lesson or two. So far an aspirin, a good talk with your wife,
+or a one week vacation has cured me -- no need for group therapy
+or strange religions!
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die      hmm seem core christian feel
+guilti  think see come kent jesus doesn't view
+guilt like modern venacular color  feel noth guilt
+feel aris state guilti feel guilt mutal exclus
+feel reaction guilt jesus talk guilt state
+reaction let give exampl  ever made mistak ever
+lie someon even littl white lie ever claim know
+someth realli didn't know ever hate someon ever
+selfish guilti one answer cours yes guilti period
+jesus get big surpris feel even enter pictur
+consid jesus use word guilt court use  i'v done
+thing i'v regret learn lesson two far aspirin good
+talk wife one week vacat cure need group therapi
+strang religion  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+guilt, 4087, 0.575187965706
+feel, 3429, 0.341661000884
+guilti, 4088, 0.329490717787
+jesus, 4859, 0.29444152057
+reaction, 7132, 0.171651287272
+lie, 5258, 0.140202121527
+kent, 4987, 0.138379729399
+venacular, 9457, 0.117101973366
+aspirin, 695, 0.109703563005
+therapi, 8852, 0.104830354682
+cure, 2295, 0.102896387409
+state, 8342, 0.102703585358
+aris, 636, 0.0996645456906
+talk, 8684, 0.0979599270797
+vacat, 9404, 0.0970239387361
+regret, 7232, 0.0970239387361
+someon, 8124, 0.0946553241221
+selfish, 7777, 0.0919793291168
+exclus, 3267, 0.0919793291168
+lesson, 5223, 0.0903684214942
+hmm, 4327, 0.0842440840286
+court, 2191, 0.0823726794467
+wife, 9755, 0.0772508256951
+mistak, 5776, 0.0760678631287
+core, 2140, 0.0755107467325
+strang, 8426, 0.0747133027379
+good, 3948, 0.0744604104597
+hate, 4202, 0.0730074227062
+modern, 5811, 0.0714814610192
+enter, 3125, 0.0702903868645
+cheer, 1687, 0.0685000562117
+surpris, 8593, 0.0652010067599
+period, 6546, 0.0645455446599
+use, 9363, 0.0639736837735
+know, 5052, 0.0623933019934
+white, 9737, 0.0620768476227
+learn, 5182, 0.0615462666615
+religion, 7261, 0.061339359707
+pictur, 6622, 0.0611353670319
+die, 2628, 0.0592394301715
+color, 1907, 0.0582106019857
+view, 9510, 0.0565692353813
+claim, 1782, 0.0564221961438
+answer, 535, 0.0534561094133
+week, 9691, 0.0533373936626
+yes, 9951, 0.0527579867803
+noth, 6119, 0.0527013008352
+exampl, 3258, 0.052532562144
+word, 9829, 0.0518766051866
+christian, 1732, 0.0514034263895
+consid, 2059, 0.0507956488018
+group, 4064, 0.0504041860393
+cours, 2190, 0.0495602634295
+big, 1082, 0.0493343112572
+littl, 5308, 0.0486768652332
+far, 3386, 0.0483799802158
+didn, 2625, 0.0483799802158
+doesn, 2793, 0.0469805105162
+let, 5225, 0.0457393732612
+realli, 7150, 0.042976838126
+someth, 8126, 0.0426340235299
+come, 1923, 0.041998812993
+thing, 8869, 0.0395668626579
+need, 5993, 0.038940946225
+think, 8871, 0.0331709564767
+like, 5272, 0.0304961159477

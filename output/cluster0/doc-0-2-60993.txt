@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60993
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: stephens@geod.emr.ca (Dave Stephenson)
+Subject: Re: Old Spacecraft as NAvigation Beacons!
+Nntp-Posting-Host: ngis.geod.emr.ca
+Organization: Dept. of Energy, Mines, and Resources, Ottawa
+Lines: 21
+
+nsmca@aurora.alaska.edu writes:
+
+>Other idea for old space crafts is as navigation beacons and such..
+>Why not?? If you can put them on "safe" "pause" mode.. why not have them be
+>activated by a signal from a space craft (manned?) to act as a naviagtion
+>beacon, to take a directional plot on??
+
+>Wierd or what?
+>==
+>Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+There is a whole constellation of custom built navigation beacon satellites
+in the process of being phased out right now. The TRANSIT/OSCAR satellites
+are being replaced by GPS. Or were you thinking of deep space navigation,
+which is best done with doppler/VLBI/ stellar measurements. I do not think
+additional radio beacons would help much.
+--
+Dave Stephenson
+Geological Survey of Canada
+Ottawa, Ontario, Canada
+Internet: stephens@geod.emr.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ old spacecraft navig beacon       idea old space
+craft navig beacon put safe paus mode activ signal
+space craft man act naviagt beacon take direct
+plot  wierd    whole constel custom built navig
+beacon satellit process phase right transit oscar
+satellit replac gps think deep space navig best
+done doppler vlbi stellar measur think addit radio
+beacon help much  dave stephenson geolog survey
+canada ottawa ontario canada
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+beacon, 968, 0.626765222494
+navig, 5969, 0.410266739836
+craft, 2207, 0.195009990175
+canada, 1481, 0.176187290802
+satellit, 7632, 0.145111321217
+space, 8164, 0.144303087631
+vlbi, 9559, 0.128444759255
+old, 6216, 0.128241928525
+doppler, 2821, 0.122739036919
+constel, 2068, 0.120474680557
+oscar, 6308, 0.118477376695
+stellar, 8372, 0.115074506726
+stephenson, 8381, 0.113599012753
+paus, 6470, 0.113599012753
+wierd, 9754, 0.112241689874
+gps, 3972, 0.110985005173
+ottawa, 6317, 0.107692607799
+transit, 9056, 0.101844981008
+ontario, 6248, 0.100487658128
+geolog, 3842, 0.0992309734275
+survey, 8597, 0.0969666170657
+phase, 6583, 0.093611990325
+custom, 2311, 0.0897412980437
+plot, 6694, 0.0893987109716
+deep, 2466, 0.0887336263829
+safe, 7577, 0.088093645401
+signal, 7947, 0.087476941682
+replac, 7288, 0.0818579585795
+mode, 5806, 0.0778151076285
+think, 8871, 0.0776754264345
+addit, 263, 0.0769795946374
+measur, 5601, 0.0764973588238
+radio, 7061, 0.0757229099364
+act, 249, 0.0757229099364
+spacecraft, 8166, 0.075572175759
+built, 1381, 0.0742726691078
+dave, 2395, 0.073326588058
+activ, 252, 0.0724305125621
+process, 6890, 0.0685471018498
+direct, 2667, 0.064982730819
+man, 5471, 0.0585687043606
+idea, 4482, 0.0579736438905
+best, 1052, 0.0566941923704
+right, 7399, 0.0515832790004
+help, 4249, 0.049818524567

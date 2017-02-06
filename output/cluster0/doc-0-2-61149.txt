@@ -1,0 +1,325 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61149
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kjenks@gothamcity.jsc.nasa.gov
+Subject: Space Station Redesign, JSC Alternative #4
+Organization: NASA/JSC/GM2, Space Shuttle Program Office 
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 71
+
+I have 19 (2 MB worth!) uuencode'd GIF images contain charts outlining
+one of the many alternative Space Station designs being considered in
+Crystal City.  Mr. Mark Holderman works down the hall from me, and can
+be reached for comment at (713) 483-1317, or via e-mail at
+mholderm@jscprofs.nasa.gov.
+
+Mark proposed this design, which he calls "Geode" ("rough on the
+outside, but a gem on the inside") or the "ET Strongback with
+integrated hab modules and centrifuge."  As you can see from file
+geodeA.gif, it uses a Space Shuttle External Tank (ET) in place of much
+of the truss which is currently part of Space Station Freedom.  The
+white track on the outside of the ET is used by the Station Remonte
+Manipulator System (SRMS) and by the Reaction Control System (RCS)
+pod.  This allows the RCS pod to move along the track so that thrusting
+can occur near the center of gravity (CG) of the Station as the mass
+properties of the Station change during assembly.
+
+The inline module design allows the Shuttle to dock more easily because
+it can approach closer to the Station's CG and at a structurally strong
+part of the Station.  In the current SSF design, docking forces are
+limited to 400 pounds, which seriously constrains the design of the
+docking system.
+
+The ET would have a hatch installed pre-flight, with little additional
+launch mass.  We've always had the ability to put an ET into orbit
+(contrary to some rumors which have circulated here), but we've never
+had a reason to do it, while we have had some good reasons not to
+(performance penalties, control, debris generation, and eventual
+de-orbit and impact footprint).  Once on-orbit, we would vent the
+residual H2.  The ET insulation (SOFI) either a) erodes on-orbit from
+impact with atomic Oxygen, or b) stays where it is, and we deploy a
+Kevlar sheath around it to protect it and keep it from contaminating
+the local space environment.  Option b) has the advantage of providing
+further micrometeor protection.  The ET is incredibly strong (remember,
+it supports the whole stack during launch), and could serve as the
+nucleus for a much more ambitious design as budget permits.
+
+The white module at the end of ET contains a set of Control Moment
+Gyros to be used for attitude control, while the RCS will be used
+for gyro desaturation.  The module also contains a de-orbit system
+which can be used at the end of the Station's life to perform a
+controlled de-orbit (so we don't kill any more kangaroos, like we
+did with Skylab).
+
+The centrifuge, which has the same volume as a hab module, could be
+used for long-term studies of the effects of lunar or martian gravity
+on humans.  The centrifuge will be used as a momentum storage device
+for the whole attitude control system.  The centrifuge is mounted on
+one of the modules, opposite the ET and the solar panels.
+
+This design uses most of the existing SSF designs for electrical,
+data and communication systems, getting leverage from the SSF work
+done to date.
+
+Mark proposed this design at Joe Shea's committee in Crystal City,
+and he reports that he was warmly received.  However, the rumors
+I hear say that a design based on a wingless Space Shuttle Orbiter
+seems more likely.
+
+Please note that this text is my interpretation of Mark's design;
+you should see his notes in the GIF files.  
+
+Instead of posting a 2 MB file to sci.space, I tried to post these for
+anon-FTP in ames.arc.nasa.gov, but it was out of storage space.  I'll
+let you all know when I get that done.
+
+-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+     "...Development of the space station is as inevitable as 
+      the rising of the sun." -- Wernher von Braun
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space station redesign jsc altern     worth
+uuencode'd gif imag contain chart outlin one mani
+altern space station design consid crystal citi
+mark holderman work hall reach comment via mail
+mark propos design call geod rough outsid gem
+insid strongback integr hab modul centrifug see
+file geodea gif use space shuttl extern tank place
+much truss current part space station freedom
+white track outsid use station remont manipul
+system srms reaction control system rcs pod allow
+rcs pod move along track thrust occur near center
+graviti station mass properti station chang
+assembl  inlin modul design allow shuttl dock
+easili approach closer station structur strong
+part station current ssf design dock forc limit
+pound serious constrain design dock system  hatch
+instal pre flight littl addit launch mass we'v
+alway abil put orbit contrari rumor circul we'v
+never reason good reason perform penalti control
+debri generat eventu orbit impact footprint orbit
+vent residu insul sofi either erod orbit impact
+atom oxygen stay deploy kevlar sheath around
+protect keep contamin local space environ option
+advantag provid micrometeor protect incred strong
+rememb support whole stack launch could serv
+nucleus much ambiti design budget permit  white
+modul end contain set control moment gyro use
+attitud control rcs use gyro desatur modul also
+contain orbit system use end station life perform
+control orbit don't kill kangaroo like skylab
+centrifug volum hab modul could use long term
+studi effect lunar martian graviti human centrifug
+use momentum storag devic whole attitud control
+system centrifug mount one modul opposit solar
+panel  design use exist ssf design electr data
+communic system get leverag ssf work done date
+mark propos design joe shea committe crystal citi
+report warm receiv howev rumor hear say design
+base wingless space shuttl orbit seem like  pleas
+note text interpret mark design see note gif file
+instead post file sci space tri post anon ftp ame
+arc nasa gov storag space i'll let know get done
+ken jenk nasa jsc gm2 space shuttl program offic
+develop space station inevit rise sun wernher von
+braun
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+design, 2564, 0.328557960364
+station, 8346, 0.324476847124
+modul, 5815, 0.246005926614
+centrifug, 1613, 0.232901300641
+space, 8164, 0.218046892887
+orbit, 6280, 0.194758217321
+control, 2107, 0.19248190702
+rcs, 7127, 0.174675975481
+dock, 2784, 0.149340874536
+ssf, 8289, 0.147852551526
+use, 9363, 0.135816501757
+mark, 5512, 0.125204884489
+hab, 4108, 0.124304084377
+shuttl, 7929, 0.123757652497
+pod, 6708, 0.119881259679
+gyro, 4105, 0.109224813681
+contain, 2079, 0.101386867547
+gif, 3869, 0.0973430541372
+storag, 8416, 0.0936724594505
+crystal, 2267, 0.092989057973
+rumor, 7541, 0.0905239497831
+jsc, 4914, 0.086979878642
+attitud, 769, 0.0804477236557
+impact, 4534, 0.0798675037856
+file, 3477, 0.0797996160724
+graviti, 4010, 0.0782476910289
+altern, 450, 0.0765511998
+track, 9030, 0.0760989906761
+protect, 6940, 0.0750234472093
+outsid, 6332, 0.0730747662595
+mass, 5533, 0.0727130083501
+citi, 1775, 0.0693540727897
+strong, 8456, 0.0681124475478
+white, 9737, 0.0658947538026
+propos, 6933, 0.064576174531
+perform, 6539, 0.062418320262
+kangaroo, 4950, 0.0621520421884
+launch, 5147, 0.0604456905684
+vent, 9460, 0.0599406298394
+uuencode, 9390, 0.0599406298394
+geodea, 3838, 0.0599406298394
+allow, 432, 0.0589146751285
+wingless, 9781, 0.0582253251603
+leverag, 5230, 0.0582253251603
+inlin, 4653, 0.0582253251603
+nasa, 5956, 0.0578588368705
+penalti, 6514, 0.0568238191897
+braun, 1276, 0.0568238191897
+current, 2299, 0.0557042223027
+truss, 9129, 0.0556388627756
+nucleus, 6152, 0.0556388627756
+erod, 3174, 0.0556388627756
+anon, 531, 0.0556388627756
+note, 6118, 0.0554695001588
+circul, 1767, 0.0546124068407
+residu, 7312, 0.05370700854
+momentum, 5829, 0.05370700854
+insul, 4688, 0.05370700854
+ambiti, 463, 0.05370700854
+end, 3091, 0.0530000788809
+von, 9581, 0.0528971021616
+stack, 8299, 0.0528971021616
+hatch, 4200, 0.0521644527239
+thrust, 8901, 0.0508803078253
+skylab, 8013, 0.0508803078253
+constrain, 2071, 0.0503106397769
+reason, 7156, 0.0495893197537
+martian, 5522, 0.049284183842
+inevit, 4616, 0.049284183842
+contamin, 2080, 0.049284183842
+chart, 1674, 0.049284183842
+gm2, 3915, 0.0488181623197
+jenk, 4846, 0.0483787855413
+shea, 7864, 0.0479631707628
+debri, 2427, 0.0479631707628
+outlin, 6327, 0.0464945289865
+permit, 6552, 0.0461673731923
+reaction, 7132, 0.0455520848266
+oxygen, 6363, 0.0455520848266
+gem, 3813, 0.0455520848266
+warm, 9639, 0.0452619748915
+post, 6766, 0.0449006555482
+contrari, 2100, 0.0447126697713
+redesign, 7200, 0.0444520685132
+panel, 6406, 0.0437194190755
+extern, 3322, 0.0437194190755
+work, 9833, 0.0435556232715
+incred, 4591, 0.043489939321
+deploy, 2540, 0.043489939321
+committe, 1946, 0.043489939321
+mount, 5886, 0.0432671120991
+instal, 4679, 0.0432671120991
+arc, 608, 0.0432671120991
+electr, 3030, 0.0428399466034
+rise, 7414, 0.0426349477641
+properti, 6925, 0.042050844029
+pre, 6802, 0.042050844029
+rough, 7493, 0.0411663059878
+atom, 756, 0.0411663059878
+devic, 2591, 0.0410009877689
+freedom, 3672, 0.0408391501936
+assembl, 698, 0.0408391501936
+pound, 6776, 0.0403731286713
+opposit, 6270, 0.0403731286713
+integr, 4694, 0.0399337518928
+tank, 8695, 0.0396541937795
+manipul, 5483, 0.0395181371144
+budget, 1367, 0.0393844467726
+closer, 1831, 0.0391238455144
+volum, 9577, 0.038871790117
+gov, 3965, 0.0387487954787
+ame, 465, 0.0386277378446
+joe, 4876, 0.0381617163223
+communic, 1950, 0.0379388891003
+eventu, 3233, 0.0378298517984
+ken, 4980, 0.0377223395438
+serv, 7810, 0.0375117236047
+advantag, 286, 0.0375117236047
+hall, 4128, 0.0373067247654
+option, 6276, 0.0372062396627
+lunar, 5392, 0.0369124331655
+occur, 6192, 0.0368169412431
+stay, 8355, 0.0367226210303
+approach, 589, 0.036629444121
+moment, 5828, 0.0365373831297
+easili, 2962, 0.036356504175
+interpret, 4720, 0.0362676361229
+insid, 4671, 0.0360070348647
+abil, 177, 0.0360070348647
+sci, 7690, 0.0358380829891
+environ, 3139, 0.0357549794673
+structur, 8460, 0.0350449056726
+addit, 263, 0.0348956388292
+worth, 9850, 0.0348220784506
+text, 8822, 0.0343949129549
+solar, 8107, 0.03412277831
+offic, 6206, 0.0340562237739
+date, 2391, 0.0337956225157
+receiv, 7167, 0.0336058103806
+limit, 5278, 0.0336058103806
+reach, 7128, 0.03342057248
+flight, 3544, 0.03342057248
+generat, 3819, 0.0332995148459
+hear, 4223, 0.0331803341501
+studi, 8469, 0.0330629730781
+instead, 4682, 0.0330049577016
+kill, 5012, 0.032890224215
+local, 5322, 0.0327212723393
+like, 5272, 0.0323717155312
+forc, 3594, 0.0318282624392
+sun, 8539, 0.0317788281794
+term, 8795, 0.0315842101668
+near, 5982, 0.0311181886445
+ftp, 3709, 0.031073103466
+center, 1606, 0.0310282811763
+comment, 1936, 0.0308515607291
+effect, 3005, 0.0308080081996
+report, 7291, 0.0305938717653
+human, 4432, 0.0296790933525
+alway, 457, 0.0290321415794
+develop, 2588, 0.0286292370924
+data, 2385, 0.028467399517
+provid, 6949, 0.0284354368893
+rememb, 7269, 0.0283088990378
+life, 5260, 0.0283088990378
+chang, 1650, 0.0276191539026
+exist, 3283, 0.0275620012163
+set, 7815, 0.0275335834357
+consid, 2059, 0.0269598642668
+howev, 4406, 0.0265000394405
+support, 8576, 0.0264752825724
+mail, 5447, 0.0264260067569
+place, 6657, 0.0263283927354
+littl, 5308, 0.025835316815
+imag, 4512, 0.0257673900028
+ll, 5314, 0.0243508703538
+let, 5225, 0.0242762386909
+long, 5336, 0.0242207366383
+base, 923, 0.0240565951513
+program, 6905, 0.0238606239125
+pleas, 6688, 0.0226130999961
+tri, 9087, 0.0222623014447
+mani, 5479, 0.0218046892887
+good, 3948, 0.019759985418
+say, 7653, 0.0195162555937
+don, 2811, 0.0174359034839
+know, 5052, 0.0165576677587

@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38516
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: capelli@vnet.IBM.COM (Ron Capelli)
+Subject: Re: detecting double points in bezier curves
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+Lines: 16
+
+In <ia522B1w165w@oeinck.waterland.wlink.nl> Ferdinand Oeinck writes:
+>I'm looking for any information on detecting and/or calculating a double
+>point and/or cusp in a bezier curve.
+
+See:
+   Maureen Stone and Tony DeRose,
+   "A Geometric Characterization of Parametric Cubic Curves",
+   ACM TOG, vol 8, no 3, July 1989, pp. 147-163.
+_______________________________________________________________________
+
+...Ron Capelli                 IBM Corp.  Dept. C13,  MS. P230
+   capelli@vnet.ibm.com        PO Box 950
+   (914) 435-1673              Poughkeepsie, NY  12602
+_______________________________________________________________________
+
+"There are no answers, only cross references."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ detect doubl point bezier curv  news softwar
+urepli    i'm look inform detect calcul doubl
+point cusp bezier curv  see maureen stone toni
+deros geometr character parametr cubic curv acm
+tog vol   ron capelli ibm corp dept c13 p230
+poughkeepsi   answer cross refer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+curv, 2306, 0.425512965385
+bezier, 1065, 0.33337620826
+detect, 2579, 0.286029955901
+doubl, 2828, 0.246958746164
+tog, 8968, 0.200614152561
+deros, 2551, 0.200614152561
+maureen, 5556, 0.195785292751
+cusp, 2309, 0.191702549955
+urepli, 9351, 0.175307047377
+parametr, 6422, 0.175307047377
+cubic, 2285, 0.16668810413
+acm, 240, 0.160195937175
+character, 1662, 0.159068728658
+vol, 9570, 0.157987541704
+geometr, 3843, 0.156948765331
+stone, 8409, 0.150634353422
+point, 6710, 0.149518214163
+corp, 2153, 0.140710446612
+ron, 7472, 0.138590483284
+toni, 8984, 0.137104931186
+dept, 2544, 0.137104931186
+cross, 2241, 0.134362614632
+ibm, 4472, 0.12819332858
+calcul, 1451, 0.127514178485
+answer, 535, 0.097754820312
+refer, 7213, 0.0976460505392
+news, 6031, 0.0914767644865
+softwar, 8103, 0.0883954794585
+inform, 4637, 0.0870522698203
+look, 5341, 0.066096996973

@@ -1,0 +1,31 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104455
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: k_mullin@oz.plymouth.edu (Mully)
+Subject: Request for AL stats....
+Reply-To: k_mullin@oz.plymouth.edu (Mully)
+Organization: Plymouth State College - Plymouth, N.H.
+Lines: 4
+
+  Anyone have the AL individual stats or where i can find them?
+
+	K-->
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ request stat     anyon individu stat find
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stat, 8341, 0.792509858496
+request, 7301, 0.413864618949
+individu, 4604, 0.381608374613
+anyon, 554, 0.234561825098

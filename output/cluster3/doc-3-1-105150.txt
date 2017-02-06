@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105150
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mzimmers@netcom.com (Michael Zimmers)
+Subject: Re: Time of Game
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 22
+
+In article <1993Apr21.024643.5135@adobe.com> snichols@adobe.com (Sherri Nichols) writes:
+
+>The reason I'm unhappy with the length of games today is summed up above.
+>For an extra 15 minutes/game (average) in the AL, and an extra 11 minutes
+>(average) in the NL, I'm seeing fewer runs score. 
+>
+>Now, what I think I *am* seeing is more pitches.  More strikeouts (over
+>1/game in the AL, over .6/game more in the NL), more walks (.2/game more in
+
+Yep.  And the Ks don't have to denote a slow game, either.  Last night,
+Sid Fernandez was mowing the Giants hitters down (14 Ks in 8 innings),
+yet the first 7 1/2 innings of the game were quite brisk.
+
+He also threw 119 pitches, leading me to believe it isn't just the
+number of pitches that determines the length of a game, but the 
+behavior *between* pitches.
+
+-- 
+|----------------------------------------------------------------------------|
+| Michael Zimmers                                    |  Voice:  408 996 1965 |
+| SoftHelp -- Suppliers to Software Developers       |  Data:   408 996 1974 |
+|----------------------------------------------------------------------------|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time game      reason i'm unhappi length game
+today sum extra minut game averag extra minut
+averag i'm see fewer run score  think see pitch
+strikeout game game walk game  yep don't denot
+slow game either last night sid fernandez mow
+giant hitter inning yet first inning game quit
+brisk  also threw pitch lead believ isn't number
+pitch determin length game behavior pitch
+michael zimmer voic softhelp supplier softwar
+develop data
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.567331871299
+pitch, 6643, 0.303666584495
+length, 5212, 0.20587269345
+extra, 3325, 0.193907504094
+minut, 5747, 0.192137376949
+inning, 4657, 0.191706370915
+averag, 816, 0.177043516865
+zimmer, 9987, 0.15751857431
+softhelp, 8099, 0.15751857431
+unhappi, 9267, 0.153727041643
+supplier, 8575, 0.153727041643
+denot, 2528, 0.147744446965
+sid, 7934, 0.145295048029
+fernandez, 3449, 0.145295048029
+strikeout, 8449, 0.141121929334
+yep, 9949, 0.132069117826
+fewer, 3456, 0.130880459737
+sum, 8532, 0.119575511709
+threw, 8894, 0.117051708919
+behavior, 1000, 0.114274809434
+voic, 9567, 0.104828182638
+slow, 8044, 0.102936346725
+michael, 5680, 0.0948079476271
+giant, 3865, 0.0946050596272
+determin, 2582, 0.0905792992464
+score, 7705, 0.0899242575321
+hitter, 4322, 0.0885217584326
+walk, 9617, 0.0883716072024
+night, 6063, 0.0844309996675
+lead, 5172, 0.0844309996675
+today, 8964, 0.0794955571069
+develop, 2588, 0.0774514628809
+data, 2385, 0.077013639235
+quit, 7043, 0.0761647109543
+isn, 4783, 0.0761647109543
+softwar, 8103, 0.069406518543
+number, 6156, 0.067622100829
+reason, 7156, 0.0670776756257
+believ, 1009, 0.0642203278584
+run, 7543, 0.0626424208335
+time, 8936, 0.0494113835931
+think, 8871, 0.0476287335577
+don, 2811, 0.047169829469

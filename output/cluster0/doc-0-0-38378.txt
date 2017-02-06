@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38378
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: zyeh@caspian.usc.edu (zhenghao yeh)
+Subject: Ellipse from Its Offset
+Organization: University of Southern California, Los Angeles, CA
+Lines: 17
+Distribution: world
+NNTP-Posting-Host: caspian.usc.edu
+Keywords: ellipse
+
+
+Hi! Everyone,
+
+Since some people quickly solved the problem of determining a sphere from
+4 points, I suddenly recalled a problem which is how to find the ellipse
+from its offset. For example, given 5 points on the offset, can you find
+the original ellipse analytically?
+
+I spent two months solving this problem by using analytical method last year,
+but I failed. Under the pressure, I had to use other method - nonlinear
+programming technique to deal with this problem approximately.
+
+Any ideas will be greatly appreciated. Please post here, let the others
+share our interests.
+
+Yeh
+USC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ellips offset        everyon  sinc peopl quick
+solv problem determin sphere point sudden recal
+problem find ellips offset exampl given point
+offset find origin ellips analyt  spent two month
+solv problem use analyt method last year fail
+pressur use method nonlinear program techniqu deal
+problem approxim  idea great appreci pleas post
+let other share interest  yeh usc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ellips, 3049, 0.457441827832
+offset, 6209, 0.424244460177
+analyt, 492, 0.319272325667
+problem, 6887, 0.282766079475
+solv, 8119, 0.23969792721
+method, 5666, 0.202309114909
+nonlinear, 6102, 0.166100287055
+yeh, 9945, 0.150525491446
+usc, 9361, 0.144061367225
+sudden, 8518, 0.135906996771
+point, 6710, 0.126848232282
+sphere, 8226, 0.122376307943
+approxim, 593, 0.116317053782
+techniqu, 8740, 0.115123692981
+share, 7855, 0.112563401892
+spent, 8223, 0.111221529775
+pressur, 6842, 0.111221529775
+recal, 7166, 0.110265228842
+fail, 3360, 0.106801512335
+use, 9363, 0.09925045628
+determin, 2582, 0.0978698831724
+quick, 7036, 0.0958101507442
+month, 5847, 0.0926056573367
+deal, 2418, 0.0908290128855
+everyon, 3241, 0.0895519828723
+appreci, 587, 0.0868640931362
+exampl, 3258, 0.0815003991456
+given, 3887, 0.0806491731003
+origin, 6293, 0.0799097018937
+idea, 4482, 0.0768185482079
+great, 4016, 0.0747346639477
+let, 5225, 0.0709612671706
+program, 6905, 0.0697463939892
+sinc, 7977, 0.068496367561
+pleas, 6688, 0.0660997879782
+post, 6766, 0.0656239925603
+peopl, 6530, 0.0609637529588
+year, 9943, 0.0564705624913

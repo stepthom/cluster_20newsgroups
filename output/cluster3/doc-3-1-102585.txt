@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102585
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Rickey Henderson
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Distribution: usa
+Lines: 12
+
+In article <1993Apr5.173500.26383@ra.msstate.edu> js1@Isis.MsState.Edu (Jiann-ming Su) writes:
+>I say buy out Henderson's contract and let him go bag groceries.  Next 
+>season, you'll be able to sign him for nothing.  That goes for any bitching
+>ball player.
+
+I doubt Henderson would clear waivers.  And if he did, he would
+instantly be signed for the major league minimum, with Oakland picking
+up the remaining $3 million tab.
+
+Some GMs value on-field performance too...
+
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rickey henderson      say buy henderson contract
+let bag groceri next season you'll abl sign noth
+goe bitch ball player  doubt henderson clear
+waiver instant sign major leagu minimum oakland
+pick remain million tab  gms valu field perform
+valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+henderson, 4253, 0.555352316092
+sign, 7946, 0.274338415873
+tab, 8666, 0.222891002064
+instant, 4681, 0.207488484146
+bitch, 1123, 0.197343104956
+waiver, 9612, 0.193316839296
+rickey, 7389, 0.177539755033
+bag, 864, 0.173374217979
+oakland, 6167, 0.166452042806
+valentin, 9409, 0.162137237115
+minimum, 5740, 0.160826065192
+contract, 2095, 0.157203449509
+remain, 7264, 0.141237322602
+million, 5724, 0.139291344009
+buy, 1433, 0.136877880037
+pick, 6619, 0.135739926006
+doubt, 2830, 0.134913786573
+goe, 3931, 0.128789129849
+valu, 9414, 0.123328707143
+perform, 6539, 0.122417695156
+leagu, 5176, 0.1210150142
+ball, 877, 0.117923944116
+season, 7747, 0.116123277627
+clear, 1803, 0.115689425494
+field, 3466, 0.113475425554
+major, 5458, 0.110674474438
+abl, 180, 0.110311918531
+noth, 6119, 0.109717181241
+player, 6683, 0.104043627164
+ll, 5314, 0.0955161052476
+let, 5225, 0.0952233631129
+say, 7653, 0.0765523653257

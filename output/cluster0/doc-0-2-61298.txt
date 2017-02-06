@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61298
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Solid state vs. tube/analog
+Organization: Express Access Online Communications USA
+Lines: 20
+Distribution: sci
+NNTP-Posting-Host: access.digex.net
+
+In article <C6479K.6BA.1@cs.cmu.edu> 18084TM@msu.edu (Tom) writes:
+|
+|Also, ask any electric-guitar enthusiast which type of amp they prefer, and
+|they'll tell you tube-type, since tubes have lower distortion and noise
+|than transistors.  'Course, most of your electric guitar types just say
+>"Tubes sound better, dude." :-)
+>
+
+Of course,  they then  turn up the REverb, the Gain,  add in the analog
+delay line  and the Fuzz box.  I'd think they wouldn't notice the
+distortion.   Oh I forgot the phase shifters.
+
+>Also, transistors have the advantage in both waste-heat and energy-use,
+>mainly because of the heaters on the cathodes of the tubes.
+
+
+Ah,  but how do they compare to Mechanical systems :-)
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ solid state tube analog        also ask electr
+guitar enthusiast type amp prefer they'll tell
+tube type sinc tube lower distort nois transistor
+cours electr guitar type say tube sound better
+dude   cours turn reverb gain add analog delay
+line fuzz box i'd think wouldn't notic distort
+forgot phase shifter  also transistor advantag
+wast heat energi use main heater cathod tube
+compar mechan system  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tube, 9142, 0.552214653526
+transistor, 9055, 0.282339461583
+guitar, 4090, 0.282339461583
+distort, 2748, 0.236723343783
+type, 9177, 0.218384804771
+analog, 487, 0.210886345733
+electr, 3030, 0.207734476793
+shifter, 7884, 0.145328558572
+amp, 478, 0.145328558572
+heater, 4227, 0.141169730792
+cathod, 1563, 0.141169730792
+dude, 2907, 0.137771721076
+cours, 2190, 0.127551172535
+enthusiast, 3128, 0.12336142973
+forgot, 3607, 0.111934723026
+nois, 6092, 0.111173904961
+delay, 2500, 0.10973954706
+phase, 6583, 0.10288609321
+heat, 4226, 0.10288609321
+gain, 3746, 0.0971694218133
+mechan, 5603, 0.0928007893283
+solid, 8115, 0.0912023140919
+advantag, 286, 0.0909487393711
+energi, 3102, 0.0906985684407
+lower, 5371, 0.0892642105398
+wast, 9654, 0.0875088006066
+notic, 6120, 0.0860977249754
+prefer, 6819, 0.0851514580725
+pat, 6458, 0.0827321000718
+main, 5450, 0.0817842286357
+add, 260, 0.0800218973564
+compar, 1960, 0.0784119080416
+wouldn, 9854, 0.0779047351276
+box, 1254, 0.0761170282225
+turn, 9158, 0.0741761188812
+sound, 8150, 0.0731792259502
+state, 8342, 0.0660809781336
+ask, 689, 0.0645535062776
+line, 5285, 0.0617768025774
+tell, 8767, 0.0609026099893
+ll, 5314, 0.0590397014173
+sinc, 7977, 0.0568142452591
+better, 1060, 0.0557556826045
+say, 7653, 0.0473179761664
+think, 8871, 0.0426853501165
+use, 9363, 0.0411615970741

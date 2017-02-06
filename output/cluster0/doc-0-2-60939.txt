@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60939
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: DC-X update???
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 25
+
+In article <schumach.734984753@convex.convex.com> schumach@convex.com (Richard A. Schumacher) writes:
+
+>Would the sub-orbital version be suitable as-is (or "as-will-be") for use
+>as a reuseable sounding rocket?
+
+DC-X as is today isn't suitable for this. However, the followon SDIO
+funds will. A reusable sounding rocket was always SDIO's goal.
+
+>Thank Ghod! I had thought that Spacelifter would definitely be the
+>bastard Son of NLS.
+
+So did I. There is a lot going on now and some reports are due soon 
+which should be very favorable. The insiders have been very bush briefing
+the right people and it is now paying off.
+
+However, public support is STILL critical. In politics you need to keep
+constant pressure on elected officials.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------57 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ updat      sub orbit version suitabl use reuseabl
+sound rocket  today isn't suitabl howev followon
+sdio fund reusabl sound rocket alway sdio goal
+thank ghod thought spacelift definit bastard son
+nls  lot go report due soon favor insid bush brief
+right peopl pay  howev public support still critic
+polit need keep constant pressur elect offici
+allen    ladi astor sir husband poison coffe
+churchil madam wife drink day first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sdio, 7735, 0.287830428156
+suitabl, 8530, 0.279350176557
+rocket, 7447, 0.216346721426
+sound, 8150, 0.182629921591
+ghod, 3863, 0.181344793637
+bastard, 941, 0.171915173267
+nls, 6083, 0.168330197985
+spacelift, 8171, 0.165224751142
+howev, 4406, 0.160346803047
+bush, 1423, 0.160035256572
+elect, 3029, 0.153933633121
+madam, 5425, 0.14769480393
+astor, 719, 0.14769480393
+churchil, 1747, 0.146365510404
+reusabl, 7349, 0.145108106596
+ladi, 5093, 0.142780535121
+dcx, 2412, 0.141698651432
+coffe, 1878, 0.140664867668
+poison, 6713, 0.139675088279
+husband, 4452, 0.138725719508
+sir, 7989, 0.136935890034
+sub, 8482, 0.130245467909
+brief, 1308, 0.128383970257
+drink, 2872, 0.127795171584
+goal, 3924, 0.124544825173
+wife, 9755, 0.124044670297
+favor, 3410, 0.123075517345
+constant, 2067, 0.11875642269
+allen, 426, 0.116504053563
+son, 8132, 0.1157992631
+pressur, 6842, 0.115115204804
+critic, 2237, 0.114125425415
+polit, 6723, 0.112868021607
+soon, 8136, 0.110818972089
+insid, 4671, 0.108935930845
+offici, 6207, 0.108173360713
+fund, 3723, 0.105573505638
+pay, 6474, 0.105350955563
+flight, 3544, 0.101110829763
+updat, 9333, 0.100744581165
+definit, 2484, 0.10056359733
+report, 7291, 0.0925589099863
+version, 9479, 0.0904821652286
+public, 6973, 0.0893419218968
+today, 8964, 0.0889010308656
+alway, 457, 0.0878340407442
+isn, 4783, 0.0851760974555
+orbit, 6280, 0.0841746928198
+thought, 8887, 0.0811697053357
+support, 8576, 0.0800985019246
+lot, 5356, 0.072563638141
+right, 7399, 0.0707437811543
+day, 2402, 0.0689632152955
+thank, 8832, 0.0651280990214
+peopl, 6530, 0.0630979894061
+need, 5993, 0.0625289994261
+use, 9363, 0.0513625222773

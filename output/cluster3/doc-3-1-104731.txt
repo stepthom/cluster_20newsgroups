@@ -1,0 +1,198 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104731
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@perseus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: Braves Update!!
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 43
+
+In <1993Apr19.194025.8967@adobe.com> snichols@adobe.com (Sherri Nichols) writes:
+
+>In article <13512@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+>>that HE'D been thrown out.  And Gant had a legitimate beef about
+>>the 1-0 pitch that was called a strike.  A reasonable umpire would
+>>not have tried to FORCE Gant back into the box in that situation.
+
+>A reasonable umpire would do as he's been instructed to do this season: get
+>the batters back in the box sooner to try to cut down on the ridiculous
+>length of games.  I for one am glad to see this happen, and hope more
+>umpires will do as Hirschbeck did in instructing the pitcher to pitch if
+>the batter won't get back in the box.  
+
+While I can see why they want to cut down on the time spent walking around,
+Gant wasn't ordered back in the box "sooner", he was ordered back immediately.
+As soon as he stepped out, Hirschbeck told him to get back in the box.
+Now, Gant doesn't take a lot of walks between pitches.  The only reason
+he did then because he was *very* bothered by the call.  I expect his
+concentration wasn't there yet, and in a crucial situation I imagine it's
+best to be as calm as possible.  Contributing factors would be Gant's
+bad day at the plate, bad year at the plate, and the Braves long scoring
+drought.
+
+Now, it's pretty stupid to go ahead and talk the walk when the umpire is
+telling you to get in there.  You know the umpire is going to do something
+(call for a strike, throw you out, etc.).  Gant was wrong.
+
+But Hirschbeck was more wrong, in my biased view.  Aside from the major chip
+he seemed to have on his shoulder, what was the problem.  Gant had a reason
+to want some time (disputed strike call).  Gant hadn't been wasting time all
+game.  The game had been cruising along, and was just over two hours old.
+The score was 1-0, with 2 outs in the ninth and a runner in scoring position.
+Is there *any* reason Hirschbeck couldn't, and shouldn't, cut Gant a little
+slack?  For no discernible constructive reason, Hirschbeck disrupted the
+game, caused a five minute delay, and materially hurt the batter in a key
+situation.  Did he have a date to get to?
+
+And I still wonder why Terry was tossed earlier in the game.
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat       he'd thrown gant legitim beef
+pitch call strike reason umpir tri forc gant back
+box situat  reason umpir he instruct season get
+batter back box sooner tri cut ridicul length game
+one glad see happen hope umpir hirschbeck instruct
+pitcher pitch batter won't get back box  see want
+cut time spent walk around gant wasn't order back
+box sooner order back immedi soon step hirschbeck
+told get back box gant doesn't take lot walk pitch
+reason bother call expect concentr wasn't yet
+crucial situat imagin it best calm possibl
+contribut factor gant bad day plate bad year plate
+brave long score drought  it pretti stupid ahead
+talk walk umpir tell get know umpir go someth call
+strike throw etc gant wrong  hirschbeck wrong bias
+view asid major chip seem shoulder problem gant
+reason want time disput strike call gant hadn't
+wast time game game cruis along two hour old score
+out ninth runner score posit reason hirschbeck
+couldn't shouldn't cut gant littl slack discern
+construct reason hirschbeck disrupt game caus five
+minut delay materi hurt batter key situat date get
+still wonder terri toss earlier game    consid
+good look wise especi overburden inform golden
+kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gant, 3766, 0.522791000569
+hirschbeck, 4310, 0.334160509572
+umpir, 9210, 0.281031545869
+box, 1254, 0.210741394342
+reason, 7156, 0.199727143272
+game, 3761, 0.156412879608
+strike, 8448, 0.154159731632
+batter, 949, 0.14715884774
+cut, 2313, 0.136116066397
+score, 7705, 0.133876993353
+sooner, 8137, 0.133664203829
+walk, 9617, 0.13156544624
+situat, 7995, 0.130687079508
+pitch, 6643, 0.113022810612
+instruct, 4684, 0.111452434349
+plate, 6674, 0.104709595463
+wasn, 9652, 0.0895738391166
+brave, 1277, 0.0883129748727
+drought, 2880, 0.0804727766868
+calm, 1466, 0.0762883293751
+bad, 861, 0.0760117375017
+wrong, 9869, 0.0757605348012
+time, 8936, 0.0735624363704
+order, 6281, 0.0729628441577
+slack, 8014, 0.0721038820635
+disrupt, 2740, 0.0721038820635
+discern, 2687, 0.0683089193482
+beef, 988, 0.0683089193482
+terri, 8803, 0.0675441164129
+crucial, 2251, 0.0655404036484
+disput, 2737, 0.0643925420926
+overburden, 6339, 0.0638631892987
+shoulder, 7911, 0.0633596691012
+kimbal, 5019, 0.062879577102
+cruis, 2255, 0.0624208297162
+hadn, 4114, 0.0615603217652
+legitim, 5204, 0.0611555594209
+thrown, 8900, 0.0607660748245
+delay, 2500, 0.0607660748245
+ridicul, 7396, 0.0603907564855
+concentr, 2001, 0.0600286099632
+tri, 9087, 0.0597761223896
+toss, 9010, 0.0586951297904
+chip, 1712, 0.0580878889521
+ninth, 6075, 0.0575144015925
+glad, 3889, 0.0567098293713
+golden, 3934, 0.056454998723
+want, 9634, 0.0562250549111
+bias, 1069, 0.0559634716901
+wise, 9799, 0.055045523237
+bother, 1245, 0.0540021994935
+asid, 687, 0.0540021994935
+shouldn, 7912, 0.0536127148972
+runner, 7545, 0.0526988334853
+construct, 2074, 0.0523547977314
+hurt, 4451, 0.0521869872553
+spent, 8223, 0.0510830224772
+length, 5212, 0.0510830224772
+stupid, 8476, 0.0505014535847
+earlier, 2952, 0.0502225145262
+ahead, 342, 0.0500858222379
+factor, 3352, 0.049556469444
+immedi, 4527, 0.0494282675855
+soon, 8136, 0.0491765449381
+wast, 9654, 0.0484562445163
+step, 8377, 0.0476748896658
+minut, 5747, 0.0476748896658
+key, 4994, 0.0473573225514
+contribut, 2103, 0.0470492364821
+couldn, 2176, 0.0469485516162
+imagin, 4518, 0.0468488395662
+told, 8973, 0.0464593549698
+hour, 4395, 0.0464593549698
+throw, 8899, 0.0462699897139
+materi, 5543, 0.0454583834471
+date, 2391, 0.0453720221323
+updat, 9333, 0.0447059770501
+won, 9820, 0.0440047182763
+forc, 3594, 0.0427307597945
+especi, 3190, 0.0427307597945
+caus, 1569, 0.0417774563329
+pitcher, 6644, 0.0410169904924
+posit, 6761, 0.0405215297385
+view, 9510, 0.0403087362843
+expect, 3290, 0.0399975534057
+season, 7747, 0.0397452152382
+old, 6216, 0.0390232344261
+major, 5458, 0.0378802674006
+pretti, 6851, 0.0378387376991
+wonder, 9821, 0.0374723045237
+hope, 4372, 0.0368890919079
+happen, 4159, 0.0363729785218
+consid, 2059, 0.0361947337301
+talk, 8684, 0.0349009566813
+littl, 5308, 0.0346849822276
+best, 1052, 0.0345033919081
+inform, 4637, 0.0339201792923
+possibl, 6765, 0.0338354719749
+tell, 8767, 0.0337235996936
+doesn, 2793, 0.0334762348498
+long, 5336, 0.0325173415078
+problem, 6887, 0.0324679628639
+lot, 5356, 0.0322005243746
+day, 2402, 0.0306028163963
+someth, 8126, 0.0303791203756
+good, 3948, 0.0265285983504
+year, 9943, 0.0259364083454
+look, 5341, 0.0257548940726
+know, 5052, 0.022229354339

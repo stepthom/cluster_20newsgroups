@@ -1,0 +1,165 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84023
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: rjl+@pitt.edu (Richard J. Loether)
+Subject: Re: Who's next?  Mormons and Jews?
+Distribution: usa
+Organization: University of Pittsburgh
+Lines: 38
+
+In article <1r1et6INNh8p@ctron-news.ctron.com> king@ctron.com (John E. King) writes:
+:
+: pmy@vivaldi.acc.Virginia.EDU (Pete Yadlowsky) writes:
+:
+:::Didn't Christ tell his disciples to arm them selves, shortly 
+:::before his crusifiction? (I believe the exact quote was along the
+:::lines of, "If you have [something] sell it and buy a sword.")
+:
+::This from a guy who preached love, deference of power to God and
+::renunciation of worldly life in exchange for a life of the spirit? If
+::Jesus did in fact command his disciples to arm themselves, I would
+::take that as yet another reason to reject Christian doctrine, for
+::whatever it's worth.
+
+Like most religions, the doctrine has good and bad in it.  I would 
+certainly reject the current implementations of the doctrine.
+:
+:No.  The above is a classic example of taking a scripture out of context.
+:It's taken from Luke 22:36.  But note vs 37; "For I tell you that this
+:which is written must be accomplished in me, namely, 'and he will be reckoned
+:with lawless ones'...".  He then stated that two swords were enough
+:for the group to carry to be counted as lawless.  
+
+So having more than the politically correct number of weapons was
+cause to be arresed and killed even then, huh?
+
+:Jesus' overiding message was one of peace (turn other cheek; live by 
+:sword die by sword; etc).
+
+Yes, of course, as in Matthew 10:34-35 "Do not suppose that I have come to 
+bring peace to the earth; it is not peace I have come to bring but a sword..."
+:
+RJL
+-- 
+Rich Loether          Snail mail: University of Pittsburgh     The Ideas:
+EMail: rjl+@pitt.edu              Computing and Info Services      Mine,
+Voice: (412) 624-6429             600 Epsilon Drive                   all
+FAX  : (412) 624-6426             Pittsburgh, PA 15238                  Mine.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew         didn't christ tell
+discipl arm selv short crusifict believ exact quot
+along line someth sell buy sword  guy preach love
+defer power god renunci world life exchang life
+spirit jesus fact command discipl arm take yet
+anoth reason reject christian doctrin whatev it
+worth  like religion doctrin good bad certain
+reject current implement doctrin  classic exampl
+take scriptur context it taken luke note tell
+written must accomplish name and reckon lawless
+one state two sword enough group carri count
+lawless  polit correct number weapon caus arres
+kill even huh  jesus overid messag one peac turn
+cheek live sword die sword etc  yes cours matthew
+suppos come bring peac earth peac come bring sword
+rjl  rich loether snail mail univers pittsburgh
+idea  voic epsilon drive fax pittsburgh mine
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sword, 8641, 0.512732963583
+doctrin, 2787, 0.261331826509
+peac, 6495, 0.259099633702
+discipl, 2689, 0.20715770785
+pittsburgh, 6648, 0.180053501004
+reject, 7244, 0.172733089135
+arm, 643, 0.166181921735
+bring, 1316, 0.135253585687
+jesus, 4859, 0.130066034212
+selv, 7779, 0.118234463651
+epsilon, 3153, 0.118234463651
+life, 5260, 0.117805791375
+reckon, 7172, 0.113633133492
+defer, 2477, 0.111749253035
+cheek, 1686, 0.110064064541
+tell, 8767, 0.104532154651
+snail, 8072, 0.100662712259
+preach, 6803, 0.100662712259
+luke, 5386, 0.0974530853429
+exchang, 3264, 0.0947811392206
+classic, 1790, 0.0935958194528
+come, 1923, 0.0927623766684
+huh, 4429, 0.0895761714838
+weapon, 9674, 0.0891379386624
+spirit, 8238, 0.0863665445674
+accomplish, 218, 0.0863665445674
+scriptur, 7725, 0.0856555609667
+rich, 7382, 0.0856555609667
+matthew, 5554, 0.0827974756167
+mormon, 5863, 0.0825092786773
+voic, 9567, 0.0806253982201
+context, 2087, 0.0801255294943
+polit, 6723, 0.0776248526784
+implement, 4544, 0.0772093878287
+sell, 7778, 0.0762156212175
+jew, 4862, 0.0756477095814
+count, 2180, 0.0738883005491
+christ, 1729, 0.0738883005491
+buy, 1433, 0.0726080576696
+worth, 9850, 0.0724549991102
+taken, 8678, 0.0724549991102
+command, 1933, 0.0701864964184
+written, 9867, 0.0697947748626
+whatev, 9718, 0.0697947748626
+drive, 2873, 0.0694124180715
+quot, 7045, 0.0686740794147
+kill, 5012, 0.0684353511411
+religion, 7261, 0.0677398286314
+carri, 1530, 0.0676267928436
+fax, 3413, 0.0671824726778
+messag, 5650, 0.0661228470532
+die, 2628, 0.0654207814886
+suppos, 8577, 0.0650330171058
+caus, 1569, 0.0647482410834
+turn, 9158, 0.0636572844059
+love, 5366, 0.0634824794157
+exact, 3253, 0.0634824794157
+short, 7904, 0.0632238026606
+correct, 2156, 0.0615985989584
+guy, 4100, 0.0600531012865
+power, 6783, 0.0593665367705
+bad, 861, 0.0589028956874
+live, 5310, 0.0586438698256
+yes, 9951, 0.058263030467
+exampl, 3258, 0.0580140838477
+current, 2299, 0.0579524479433
+note, 6118, 0.0577082524001
+christian, 1732, 0.0567671281756
+state, 8342, 0.0567101067341
+certain, 1619, 0.0565966701069
+god, 3926, 0.0563721822478
+earth, 2956, 0.0557170259197
+group, 4064, 0.0556636218721
+mail, 5447, 0.0549851238423
+fact, 3350, 0.0548832477183
+cours, 2190, 0.0547316399728
+idea, 4482, 0.0546814217294
+world, 9841, 0.0535678906701
+didn, 2625, 0.0534281998486
+univers, 9282, 0.0531524258204
+line, 5285, 0.0530163016167
+number, 6156, 0.052009475607
+reason, 7156, 0.0515907475731
+anoth, 533, 0.0515494714279
+believ, 1009, 0.0493931057195
+someth, 8126, 0.0470826800537
+good, 3948, 0.0411149991495
+like, 5272, 0.0336782398462

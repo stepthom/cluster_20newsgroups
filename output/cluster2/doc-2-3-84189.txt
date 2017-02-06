@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84189
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: watson@sce.carleton.ca (Stephen Watson)
+Subject: Re: Koresh Doctrine -- 4 of 4
+Organization: Carleton University
+Lines: 26
+
+Question for those of you who seem to be fundamentalists (Stephen
+Tice, the Cotera, Joe Gaut, et al)(apologies if I've mislabelled any
+of you, I've only started reading t.r.m since the BD disaster.  But I
+know the Cotera is a fundy) and are defending Koresh and his beliefs
+as an example of True Christianity under persecution from the the Big
+Bad Secular State: what is your opinion of his reported sexual habits?
+If the reports are accurate, what IYO does this say about the quality of
+his Christianity?  Or are the allegations just part of the Big
+Cover-Up?
+
+(I remain deliberately neutral on the cause of the fire: I wouldn't
+put it past Koresh to have torched the place himself.  On the other
+hand, if the propane-tank-accident story is correct, I wouldn't put it
+past the FBI to try to cover its ass by claiming Koresh did it.  I
+hope your government does a VERY thorough investigation of the whole
+debacle, and I'll be disappointed if a few heads don't roll.  The
+authorities seem to have botched the original raid, and in the matter
+of the fire, are guilty of either serious misjudgement, or reckless
+endangerment.)
+--
+| Steve Watson a.k.a. watson@sce.carleton.ca === Carleton University, Ontario |
+|  this->opinion = My.opinion;  assert (this->opinion != CarletonU.opinion);  |
+"Somebody touched me / Making everything new / Burned through my life / Like a
+ bolt from the blue / Somebody touched me / I know it was you" - Bruce Cockburn
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ koresh doctrin    question seem fundamentalist
+stephen tice cotera joe gaut apolog i'v mislabel
+i'v start read sinc disast know cotera fundi
+defend koresh belief exampl true christian
+persecut big bad secular state opinion report
+sexual habit report accur iyo say qualiti
+christian alleg part big cover  remain deliber
+neutral caus fire wouldn't put past koresh torch
+place hand propan tank accid stori correct
+wouldn't put past fbi tri cover ass claim koresh
+hope govern thorough investig whole debacl i'll
+disappoint head don't roll author seem botch
+origin raid matter fire guilti either serious
+misjudg reckless endanger   opinion opinion assert
+opinion carletonu opinion somebodi touch make
+everyth new burn life like bolt blue somebodi
+touch know bruce cockburn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+koresh, 5065, 0.324862701972
+opinion, 6266, 0.316772569508
+cotera, 2173, 0.26376580054
+touch, 9015, 0.185042675868
+somebodi, 8121, 0.161596091999
+cover, 2194, 0.155566619147
+past, 6456, 0.143021822796
+wouldn, 9854, 0.141394128097
+report, 7291, 0.134626831573
+cockburn, 1869, 0.13188290027
+carletonu, 1522, 0.13188290027
+debacl, 2425, 0.128108843231
+gaut, 3797, 0.125025214103
+torch, 8999, 0.122418042824
+tice, 8917, 0.122418042824
+propan, 6922, 0.122418042824
+christian, 1732, 0.120055052224
+raid, 7070, 0.118167527936
+fundi, 3726, 0.118167527936
+botch, 1244, 0.118167527936
+big, 1082, 0.115222539244
+neutral, 6020, 0.114773557346
+disast, 2681, 0.114773557346
+thorough, 8885, 0.10952786513
+ass, 696, 0.10952786513
+secular, 7761, 0.108436316401
+bolt, 1207, 0.106444236002
+fundamentalist, 3725, 0.105529789782
+deliber, 2503, 0.105529789782
+persecut, 6558, 0.103050265411
+disappoint, 2679, 0.103050265411
+accid, 210, 0.101578630234
+sexual, 7827, 0.100224857102
+guilti, 4088, 0.0961925792444
+bruce, 1347, 0.0961925792444
+alleg, 422, 0.094720944067
+defend, 2474, 0.0938064978471
+roll, 7464, 0.0929389674275
+doctrin, 2787, 0.0921137727876
+assert, 699, 0.0921137727876
+habit, 4109, 0.0913269734766
+apolog, 571, 0.0902114174539
+fbi, 3414, 0.0898553382991
+stephen, 8380, 0.0891649103892
+investig, 4745, 0.0881794004718
+tank, 8695, 0.0872481670197
+accur, 225, 0.0866546627856
+joe, 4876, 0.0839643801098
+qualiti, 7017, 0.0814284221362
+remain, 7264, 0.079223595094
+burn, 1413, 0.079223595094
+belief, 1008, 0.0786690163895
+blue, 1176, 0.0779567791469
+stori, 8418, 0.0764561085372
+everyth, 3242, 0.0728746129922
+know, 5052, 0.0728612045478
+head, 4215, 0.0713922222435
+govern, 3966, 0.0705839322878
+author, 796, 0.0693870054283
+caus, 1569, 0.0684670311368
+claim, 1782, 0.0658883092084
+matter, 5553, 0.0656339715563
+correct, 2156, 0.0651364905409
+life, 5260, 0.0622859606006
+bad, 861, 0.0622859606006
+hand, 4145, 0.0613461001984
+exampl, 3258, 0.0613461001984
+hope, 4372, 0.0604557296199
+true, 9121, 0.0603322755306
+origin, 6293, 0.0601487677434
+state, 8342, 0.0599672296663
+place, 6657, 0.0579284001967
+ll, 5314, 0.0535774050916
+start, 8334, 0.0535362037676
+sinc, 7977, 0.0515578459943
+read, 7135, 0.0514847869817
+question, 7032, 0.0511956665202
+new, 6023, 0.0492674093485
+tri, 9087, 0.0489820825887
+say, 7653, 0.0429401625741
+make, 5459, 0.0424203838408
+don, 2811, 0.0383629188822
+like, 5272, 0.0356125364581

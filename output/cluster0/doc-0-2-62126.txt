@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62126
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jennifer@arts.com (Jennifer Witt)
+Subject: space camp
+Organization: Computer Arts, Portland Oregon, USA
+Lines: 18
+
+
+
+I'm replying to someone who asked for information on space camp.
+I have a brochure that has all different schedules. What age, what 
+level and what program do you want to know the schedule of? Most of the 
+missions are 5 to 8 days long. The address for Huntsville is:
+
+Alabama Space Science
+Exhibit Commission
+U.S. Space and Rocket Center
+One Tranquility Base, Huntsville, AL 35807
+
+- Jennifer
+
+------------------------------------------------------------------------------
+********    WHY  ARE  WE  HERE,  WHAT  DOES  IT  MEAN   *********************??
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space camp      i'm repli someon ask inform space
+camp brochur differ schedul age level program want
+know schedul mission day long address huntsvill
+alabama space scienc exhibit commiss space rocket
+center one tranquil base huntsvill  jennif   mean
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+huntsvill, 4446, 0.409951355698
+camp, 1476, 0.409951355698
+space, 8164, 0.355346780487
+schedul, 7678, 0.284948910509
+jennif, 4847, 0.237221699936
+commiss, 1943, 0.209803428903
+brochur, 1327, 0.209803428903
+alabama, 374, 0.200793689666
+exhibit, 3282, 0.188095175425
+rocket, 7447, 0.145672986575
+age, 328, 0.140131801718
+repli, 7290, 0.135914564921
+level, 5229, 0.128485301763
+center, 1606, 0.12641546589
+mission, 5772, 0.123796805673
+address, 264, 0.121691935863
+scienc, 7692, 0.117043660312
+ask, 689, 0.108475750503
+inform, 4637, 0.102937340992
+someon, 8124, 0.1023407822
+long, 5336, 0.0986801585599
+base, 923, 0.0980114130877
+program, 6905, 0.0972129867968
+mean, 5595, 0.0967859112292
+differ, 2633, 0.0964344104616
+day, 2402, 0.0928701620223
+want, 9634, 0.0853128988472
+know, 5052, 0.0674592727801

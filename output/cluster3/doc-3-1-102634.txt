@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102634
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: machman@hardy.u.washington.edu (The Machman)
+Subject: Re: Jim Lefebvre is an idiot.
+Organization: University of Washington
+Lines: 19
+NNTP-Posting-Host: hardy.u.washington.edu
+
+00bjgood@leo.bsuvc.bsu.edu writes:
+
+>I just wanted to let everyone know that I have lost what little respect I have
+>for Jim LeFebvre after seeing today's Cubs game. First of all how could he
+ [ etc. ]
+>Vizcaino was batting. Face it Lefebvre has got to be the worst manager in
+>baseball.
+>						A dishard Cub fan
+
+Hey, he's the only manager so far to lead the Seattle Mariners to a 
+winning season, out of, what, fifteen?  Give him some credit for that.
+
+						-- dave
+
+-- 
+ /'''    The Machman       machman@u.washington.edu      david c carroll
+ c-OO                                                                      
+    \                     "Big Science.  Hallelujah"
+   -                                                                       
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jim lefebvr idiot       want let everyon know
+lost littl respect jim lefebvr see today cub game
+first could etc vizcaino bat face lefebvr got
+worst manag basebal dishard cub fan  hey he manag
+far lead seattl marin win season fifteen give
+credit  dave     big scienc hallelujah
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lefebvr, 5192, 0.57971732069
+cub, 2282, 0.273805996531
+jim, 4868, 0.252729814847
+hallelujah, 4129, 0.223624540834
+manag, 5472, 0.211195471255
+dishard, 2714, 0.209496118637
+vizcaino, 9553, 0.196496751733
+idiot, 4487, 0.152683135884
+marin, 5511, 0.150633456561
+seattl, 7749, 0.149982649737
+credit, 2225, 0.147522538934
+hey, 4283, 0.142187206657
+worst, 9849, 0.135725883859
+respect, 7321, 0.125290674774
+lost, 5355, 0.122297701948
+dave, 2395, 0.1195972158
+face, 3345, 0.118961371386
+bat, 942, 0.113640746908
+lead, 5172, 0.11229130787
+everyon, 3241, 0.110229871686
+fan, 3381, 0.110077485549
+season, 7747, 0.106517564329
+today, 8964, 0.105727281597
+scienc, 7692, 0.103364036904
+win, 9770, 0.100533551352
+big, 1082, 0.0942115865782
+basebal, 924, 0.0932026717781
+littl, 5308, 0.0929560905262
+far, 3386, 0.0923891421326
+got, 3960, 0.090754860063
+let, 5225, 0.0873464899828
+game, 3761, 0.0838376084549
+want, 9634, 0.07534184766
+know, 5052, 0.0595748863504

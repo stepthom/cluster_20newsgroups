@@ -1,0 +1,259 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61028
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: hdsteven@solitude.Stanford.EDU (H. D. Stevens)
+Subject: Re: Proton/Centaur?
+Organization: stanford
+Lines: 59
+
+In article <1993Apr21.190156.7769@lmpsbbs.comm.mot.com>, dennisn@ecs.comm.mot.com (Dennis Newkirk) writes:
+|> In article <1993Apr20.211638.168730@zeus.calpoly.edu> jgreen@trumpet.calpoly.edu (James Thomas Green) writes:
+|> >Has anyone looked into the possiblity of a Proton/Centaur combo?
+|> >What would be the benefits and problems with such a combo (other
+|> >than the obvious instability in the XSSR now)?
+|> 
+|> 
+|> The Centaur for the Altas is about 3 meters dia. and the Proton 
+|> is 4 so that's a good fit for their existing upper stage, the Block-D
+|> which sets inside a shround just under 4 meters dia. I don't know about
+|> launch loads, etc.. but since the Centaur survives Titan launches which
+|> are probably worse than the Proton (those Titan SRB's probably shake things
+|> up pretty good) it seems feasible. EXCEPT, the Centaur is a very fragile
+|> thing and may require integration on the pad which is not available now.
+|> Protons are assembled and transported horizontially. Does anyone know 
+|> how much stress in the way of a payload a Centaur could support while
+|> bolted to a Proton horizontally and then taken down the rail road track
+|> and erected on the pad?  
+
+The Centaur that is being built for T4 would be a better bet to integrate 
+onto the Proton as the T4/Centaur is designed for the Extremely Harsh 
+envorinment of the T4 launch. It is also closer to 4 m in diameter. 
+
+You've hit on the real kicker, however. The Centaur is pressure stabilized. 
+It cannot hold up its own weight without pressure in the tanks. Additionally, 
+the pressure difference between the two tanks must be maintained to ~+/- 5 psi. 
+That is rather tight to be rocking and rolling on the train. The pressure 
+stabilization is how centaur achieves the performance. On numerous occasions
+(when I was there 88-91) the AF wanted to see what it would take to make 
+a non-pressure stabilized centaur. The answer -- a centaur not worth launching. 
+
+The Atlas/Centaur does not require on-pad integration, however the T4/Centaur
+does. I believe the on-pad integration is to a great extent due to the 
+cleanliness requirements and PFL configuration, so maybe something can be 
+done there........
+
+
+|> 
+|> They would also need LOX and LH facilities added to the Proton pads 
+|> (unless the new Proton second stage is actually built), and of course
+|> any Centaur support systems and facilities, no doubt imported from the
+|> US at great cost. These systems may viloate US law so there are political
+|> problems to solve in addition to the instabilities in the CIS you mention. 
+
+The addition of LOX/LH facilities is critical as the centaur tops off as it 
+lifts off. A LHe facility is also needed. I don't know what the proton uses 
+for fuel, but since they are derived from ICBM's I would suspect that they 
+use storable propellants which don't have the ullage problem that cryo's 
+do. If there is no cryo at the sight at all, the addition of these systems 
+could be big $$, not to mention the real tech transfer issues involved with 
+providing centaur GSE to Russia. That issue alone might be enough to kill 
+this idea. 
+
+-- 
+H.D. Stevens
+Stanford University			Email:hdsteven@sun-valley.stanford.edu
+Aerospace Robotics Laboratory		Phone:	(415) 725-3293  (Lab)
+Durand Building					(415) 722-3296  (Bullpen)
+Stanford, CA 94305			Fax:	(415) 725-3377
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ proton centaur      anyon look possibl proton
+centaur combo benefit problem combo obvious
+instabl xssr   centaur alta meter dia proton that
+good fit exist upper stage block set insid shround
+meter dia don't know launch load etc sinc centaur
+surviv titan launch probabl wors proton titan srb
+probabl shake thing pretti good seem feasibl
+except centaur fragil thing requir integr pad
+avail proton assembl transport horizonti anyon
+know much stress way payload centaur could support
+bolt proton horizont taken rail road track erect
+pad  centaur built better bet integr onto proton
+centaur design extrem harsh envorin launch also
+closer diamet  you'v hit real kicker howev centaur
+pressur stabil cannot hold weight without pressur
+tank addit pressur differ two tank must maintain
+psi rather tight rock roll train pressur stabil
+centaur achiev perform numer occas want see take
+make non pressur stabil centaur answer centaur
+worth launch  atlas centaur requir pad integr
+howev centaur believ pad integr great extent due
+cleanli requir pfl configur mayb someth done
+also need lox facil ad proton pad unless new
+proton second stage actual built cours centaur
+support system facil doubt import great cost
+system viloat law polit problem solv addit instabl
+cis mention  addit lox facil critic centaur top
+lift lhe facil also need don't know proton use
+fuel sinc deriv icbm suspect use storabl propel
+don't ullag problem cryo cryo sight addit system
+could big mention real tech transfer issu involv
+provid centaur gse russia issu alon might enough
+kill idea   steven  aerospac robot laboratori
+phone lab durand build bullpen stanford fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+centaur, 1604, 0.695933048674
+proton, 6944, 0.402202715342
+pad, 6377, 0.182345864616
+pressur, 6842, 0.159535015085
+integr, 4694, 0.133948303998
+stabil, 8297, 0.129547327377
+facil, 3348, 0.12446680655
+addit, 263, 0.117049148065
+launch, 5147, 0.101375369854
+instabl, 4678, 0.0976515251543
+dia, 2605, 0.0976515251543
+cryo, 2264, 0.0933136876939
+combo, 1922, 0.0863648849179
+lox, 5373, 0.0834880934606
+meter, 5663, 0.0745519629924
+requir, 7302, 0.0719403762369
+titan, 8951, 0.0718482226047
+tank, 8695, 0.0665052962893
+stage, 8302, 0.0654027349269
+problem, 6887, 0.0608395121597
+built, 1381, 0.0564666044587
+issu, 4793, 0.0525741611706
+mention, 5632, 0.0515964482633
+viloat, 9520, 0.0502641583058
+storabl, 8415, 0.0502641583058
+shround, 7923, 0.0502641583058
+fragil, 3641, 0.0502641583058
+alta, 447, 0.0502641583058
+xssr, 9909, 0.0488257625771
+kicker, 5007, 0.0488257625771
+psi, 6962, 0.0476505076931
+rail, 7072, 0.046656843847
+erect, 3168, 0.046656843847
+harsh, 4186, 0.0457960930717
+howev, 4406, 0.0444440500914
+support, 8576, 0.0444025295688
+real, 7144, 0.0441969094029
+don, 2811, 0.0438634536507
+steven, 8391, 0.043743322629
+icbm, 4474, 0.043743322629
+great, 4016, 0.0428794524383
+shake, 7842, 0.0426664827185
+probabl, 6885, 0.0421630397428
+srb, 8280, 0.0417440467303
+know, 5052, 0.0416540784921
+stress, 8442, 0.0413280278376
+horizont, 4375, 0.0413280278376
+occas, 6186, 0.0409372381573
+cis, 1772, 0.0409372381573
+bolt, 1207, 0.0405687918462
+atlas, 751, 0.0405687918462
+robot, 7442, 0.0395751280001
+propel, 6923, 0.0395751280001
+sinc, 7977, 0.0393001932421
+russia, 7550, 0.0387143772248
+feasibl, 3419, 0.0387143772248
+diamet, 2613, 0.0387143772248
+tech, 8736, 0.0384512363803
+tight, 8929, 0.0377207133787
+stanford, 8318, 0.0374945127817
+aerospac, 304, 0.0368599626035
+sight, 7943, 0.0366616067822
+upper, 9340, 0.0364691729232
+extent, 3321, 0.0364691729232
+configur, 2030, 0.0362823176501
+lift, 5264, 0.0359241113023
+roll, 7464, 0.0354215668748
+thing, 8869, 0.0352200455324
+rock, 7445, 0.0348071921608
+need, 5993, 0.034662892304
+transport, 9065, 0.0346623308835
+transfer, 9052, 0.0346623308835
+anyon, 554, 0.0346434325099
+surviv, 8599, 0.0345206536297
+bullpen, 1391, 0.0345206536297
+solv, 8119, 0.0343820234361
+numer, 6157, 0.0342463119907
+assembl, 698, 0.0342463119907
+block, 1163, 0.0341133989199
+deriv, 2550, 0.0338555223105
+weight, 9695, 0.0336075665272
+good, 3948, 0.0331400933835
+closer, 1831, 0.0328079162621
+achiev, 232, 0.0327013674634
+laboratori, 5090, 0.0324934121533
+wors, 9846, 0.0321935415481
+benefit, 1028, 0.0321935415481
+payload, 6477, 0.0320011076891
+track, 9030, 0.031907003017
+extrem, 3333, 0.031907003017
+train, 9042, 0.031632661378
+critic, 2237, 0.031632661378
+bet, 1054, 0.0314560460682
+fuel, 3715, 0.0313695205335
+polit, 6723, 0.031284141066
+suspect, 8603, 0.031199877702
+alon, 437, 0.0311167016375
+maintain, 5454, 0.0308734253867
+lab, 5085, 0.0304127969349
+insid, 4671, 0.0301942656494
+road, 7431, 0.0300525883956
+load, 5317, 0.0299829006298
+worth, 9850, 0.0292006018033
+taken, 8678, 0.0292006018033
+fit, 3510, 0.0290789745052
+doubt, 2830, 0.0288423954555
+use, 9363, 0.0284727661485
+phone, 6601, 0.028286356484
+hold, 4341, 0.0281806810754
+law, 5153, 0.0276768266072
+ad, 257, 0.0276768266072
+kill, 5012, 0.0275806150366
+obvious, 6185, 0.0272547522367
+fax, 3413, 0.0270756836232
+involv, 4750, 0.0270316830731
+unless, 9289, 0.0262481314907
+perform, 6539, 0.0261709322978
+build, 1378, 0.0260192534043
+non, 6097, 0.0255495851055
+design, 2564, 0.025047040678
+cost, 2169, 0.0244915344604
+import, 4551, 0.0244326659639
+provid, 6949, 0.0238449830295
+answer, 535, 0.0237917095398
+pretti, 6851, 0.0236344808779
+exist, 3283, 0.0231125498025
+set, 7815, 0.0230887196255
+mayb, 5564, 0.022563617839
+hit, 4316, 0.0225417296836
+second, 7753, 0.0224333900653
+avail, 811, 0.0223905589737
+cours, 2190, 0.0220577854463
+idea, 4482, 0.0220375466367
+big, 1082, 0.0219572209175
+possibl, 6765, 0.0211339982255
+actual, 254, 0.0207256682471
+believ, 1009, 0.0199062649873
+differ, 2633, 0.0198484524423
+better, 1060, 0.0192839761464
+someth, 8126, 0.0189751239937
+new, 6023, 0.0187771489537
+want, 9634, 0.0175593857772
+way, 9666, 0.0168620936635
+make, 5459, 0.0161675614079
+look, 5341, 0.0160867827123

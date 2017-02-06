@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104463
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gt0523e@prism.gatech.EDU (Michael Andre Mule)
+Subject: Re: Torre: The worst manager?
+Distribution: usa
+Organization: Georgia Institute of Technology
+Lines: 24
+
+In article <93095@hydra.gatech.EDU> gt7469a@prism.gatech.EDU (Brian R. Landmann) writes:
+
+>
+e,
+>Later, in the ninth inning with the bases loaded and two outs he puts
+>lankford, a 300 hitter with power in as a pinch runner and uses Luis
+>Alicea, a 250 hitter with no power as a pinch hitter.  What the Helll
+>is he thinking.
+
+If memory serves me well, Alicea hit it, and damn near tied the game.
+Torre obviously knows his players better than you do. 
+
+
+See y'all at the ballyard
+Go Braves
+Chop Chop
+
+Michael Mule'
+
+-- 
+Michael Andre Mule
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp:	  ...!{decvax,hplabs,ncar,purdue,rutgers}!gatech!prism!gt0523e
+Internet: gt0523e@prism.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ torr worst manag         later ninth inning base
+load two out put lankford hitter power pinch
+runner use lui alicea hitter power pinch hitter
+helll think  memori serv well alicea hit damn near
+tie game torr obvious know player better   see
+y'all ballyard brave chop chop  michael mule
+michael andr mule georgia institut technolog
+atlanta georgia uucp decvax hplab ncar purdu
+rutger gatech prism gt0523e
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mule, 5916, 0.304273084375
+alicea, 412, 0.283479690634
+hitter, 4322, 0.273459906878
+torr, 9004, 0.269542456495
+chop, 1721, 0.267226858303
+georgia, 3848, 0.243582791141
+pinch, 6632, 0.228437048147
+michael, 5680, 0.19525273024
+power, 6783, 0.158964544026
+gt0523e, 4074, 0.154995992369
+ballyard, 885, 0.154995992369
+decvax, 2460, 0.141739845317
+hplab, 4409, 0.138675474271
+ncar, 5974, 0.137293442058
+rutger, 7554, 0.134771228248
+purdu, 6989, 0.132515031112
+prism, 6876, 0.132515031112
+lankford, 5114, 0.132515031112
+lui, 5385, 0.13147023527
+gatech, 3789, 0.123832374142
+andr, 503, 0.119928128118
+ninth, 6075, 0.119341404651
+tie, 8923, 0.110852541465
+runner, 7545, 0.109349182769
+damn, 2346, 0.109349182769
+worst, 9849, 0.105085027989
+serv, 7810, 0.104498304522
+atlanta, 749, 0.103370988089
+uucp, 9388, 0.103098193738
+load, 5317, 0.0996044535815
+inning, 4657, 0.0987026754149
+institut, 4683, 0.0984830420337
+memori, 5628, 0.0970056240647
+brave, 1277, 0.0916239600726
+obvious, 6185, 0.0905414301823
+later, 5140, 0.0898003850637
+near, 5982, 0.0866875110141
+technolog, 8743, 0.0851095573349
+manag, 5472, 0.0817584729495
+hit, 4316, 0.0748845715644
+player, 6683, 0.0738916886375
+base, 923, 0.0670156730832
+game, 3761, 0.0649108127393
+better, 1060, 0.064062177661
+think, 8871, 0.0490446238831
+use, 9363, 0.0472938617446
+know, 5052, 0.0461255320032

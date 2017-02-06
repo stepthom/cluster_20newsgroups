@@ -1,0 +1,149 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104619
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: crichar@eskimo.com (Craig S. Richardson)
+Subject: Re: Notes on Jays vs. Indians Series
+Article-I.D.: eskimo.C5JCK0.DEA
+Distribution: na
+Organization: Eskimo North (206) 367-3837 {eskimo.com}
+Lines: 35
+
+In article <1993Apr15.123803.4618@webo.dg.com> lyford@dagny.webo.dg.com (Lyford Beverage) writes:
+>In article <1993Apr13.202037.9485@cs.cornell.edu>, tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>|> In article <rudyC5Fr3q.1CL@netcom.com> rudy@netcom.com (Rudy Wade) writes:
+>|> >In article <C5FMxD.2pM@cs.dal.ca> niguma@ug.cs.dal.ca (Gord Niguma) writes:
+>|> >>. He probably didn't even have as good a season as
+>|> >>Alomar last year.
+>|> >  
+[snip]
+>|> Uh, yes.  Baerga has a lot of flash, but Alomar was the better hitter
+>|> last year.
+>|> 
+[stats deleted - we've all seen them by now]
+>This is fascinating.  You say that Alomar was the better hitter last 
+>year, and immediately follow that up with numbers showing that Baerga
+>had a better year.  The only category that I see which shows an advantage
+>for Alomar is OBP.
+
+I nominate this last bit for "Anti-Stathead Quote of the Week".
+
+Alomar only has a 50 point advantage in the most important offensive
+category, while Baerga, who studied in the Joe Carter School of Out-Burning,
+has more impressive mediot stats, largely due to opportunities rather
+than quality.
+
+The lines are fairly close in value, but edge to Alomar.
+
+Now Baerga ain't chopped liver, but Alomar is still the man to beat among
+AL second basemen...
+
+--Craig
+-- 
+Craig S. Richardson (crichar@eskimo.com - formerly eskimo.celestial.com))
+GM - Pullman Sleepers (OBFBL)           GM - Seattle Rainiers (IFL)   
+GM/Manager - Tacoma Black Adders (IBL)  GM - New Jack City Highlanders (KL)
+Tacoma Black Adders - A Growing, Excited Team! - "The Future Begins Tomorrow"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ note jay indian seri articl eskimo c5jck0 dea
+probabl didn't even good season alomar last year
+snip yes baerga lot flash alomar better hitter
+last year  stat delet we'v seen fascin say alomar
+better hitter last year immedi follow number show
+baerga better year categori see show advantag
+alomar obp  nomin last bit anti stathead quot week
+alomar point advantag import offens categori
+baerga studi joe carter school burn impress mediot
+stat larg due opportun rather qualiti  line fair
+close valu edg alomar  baerga ain't chop liver
+alomar still man beat among second basemen  craig
+pullman sleeper obfbl seattl rainier ifl manag
+tacoma black adder ibl new jack citi highland
+tacoma black adder grow excit team futur begin
+tomorrow
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alomar, 436, 0.572907606069
+baerga, 863, 0.356983514075
+adder, 261, 0.245098169937
+categori, 1560, 0.161688445206
+year, 9943, 0.152369068108
+advantag, 286, 0.147928442622
+stat, 8341, 0.137611845318
+better, 1060, 0.136030219089
+black, 1133, 0.132525373802
+hitter, 4322, 0.129037175385
+snip, 8079, 0.118188704355
+liver, 5311, 0.114806530392
+highland, 4295, 0.112043093049
+stathead, 8344, 0.109706640068
+ain, 354, 0.0981549271665
+mediot, 5611, 0.0971767205164
+flash, 3524, 0.0962578366129
+fascin, 3395, 0.0953914898243
+chop, 1721, 0.0945719960635
+basemen, 929, 0.0945719960635
+nomin, 6096, 0.0930550368428
+excit, 3265, 0.0862043243378
+carter, 1535, 0.0862043243378
+tomorrow, 8979, 0.0857518446936
+craig, 2208, 0.0844702132303
+seattl, 7749, 0.0821923945286
+obp, 6177, 0.0808442226028
+grow, 4066, 0.080212591942
+opportun, 6268, 0.0793119145783
+indian, 4598, 0.0781886643099
+anti, 542, 0.0766459498707
+joe, 4876, 0.0752458527743
+beat, 974, 0.0743795059857
+qualiti, 7017, 0.0729732185921
+impress, 4554, 0.0729732185921
+immedi, 4527, 0.0725942752936
+edg, 2993, 0.0722245754425
+school, 7685, 0.0713379518048
+offens, 6202, 0.0713379518048
+burn, 1413, 0.0709973320222
+jack, 4808, 0.0708298502911
+citi, 1775, 0.0683748905101
+jay, 4832, 0.0676826723905
+begin, 994, 0.0672820250346
+studi, 8469, 0.0651923404991
+quot, 7045, 0.0650779479377
+delet, 2502, 0.0649644122575
+fair, 3363, 0.0641926193778
+futur, 3737, 0.0639791377861
+valu, 9414, 0.061995009588
+seri, 7805, 0.0618101665356
+season, 7747, 0.0583729763867
+manag, 5472, 0.0578688985908
+import, 4551, 0.057449785922
+close, 1830, 0.057449785922
+seen, 7767, 0.0562577965678
+larg, 5124, 0.0561309594892
+week, 9691, 0.0558184341399
+yes, 9951, 0.0552120755858
+note, 6118, 0.0546863485798
+second, 7753, 0.0527487855257
+man, 5471, 0.0523498955983
+bit, 1122, 0.0511215586429
+didn, 2625, 0.0506304218096
+team, 8732, 0.0503259679662
+line, 5285, 0.0502400927085
+follow, 3578, 0.0498178664525
+probabl, 6885, 0.0495700635088
+number, 6156, 0.0492859893379
+articl, 665, 0.0488500733667
+lot, 5356, 0.0472922448072
+new, 6023, 0.0441516774799
+point, 6710, 0.0427827926873
+good, 3948, 0.0389620042513
+say, 7653, 0.0384814268495

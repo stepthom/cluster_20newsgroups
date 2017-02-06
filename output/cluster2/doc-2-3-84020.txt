@@ -1,0 +1,211 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84020
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: Is it good that Jesus died?
+Organization: Starfleet Headquarters: San Francisco
+Lines: 45
+
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>
+>So what is your beef against Jesus?
+
+First and foremost, I honestly do not believe that Jesus was anything
+more than a man who lived and died two thousand years ago.  I know
+your Bible provides wonderful stories of the things he said and did,
+but I simply do not believe that he still exists as an entity that has
+any bearing on this universe or the lives in it, and I similarly do
+not believe that the god that you worship exists or has ever existed.
+
+Period.
+
+I view religion in general and Christianity in specific as a 'cultural
+virus' that has been passed down from generation to generation because
+people are often too afraid to think for themselves and claim
+responsibility for their own fate, so they brainwash themselves and
+their children into believing the popular myths, and it goes on from
+there.  And eventually Christianity becomes a given -- if so many
+other people believe in it, it must be right, no?
+
+I don't believe in any "life after death".  I believe that when I die,
+I die, so therefore it's up to me to try to bring meaning and purpose
+to my life in the meantime.  I don't believe that it's a good thing to
+humble myself and view pride as a sin -- pride, in moderation, is a
+constructive thing.  I see nothing at all wrong with homosexuality and
+nothing inferior about women, and my priests lost a lot of my trust
+when they patronizingly tried to explain the 'faults' of these
+opinions to me.  I don't believe in 'loving everyone', especially
+people I've never met; while I try to show respect to everyone, my
+love and admiration is something not easily earned, and I do not feel
+guilty about denying my respect and consideration to someone who has
+abused it.
+
+If you want me to take your religion the least bit seriously, stop
+trying to show me how the Bible "makes sense".  Start trying to show
+me that this Jesus person is somehow still influencing anyone's life
+here on Earth.
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die      beef jesus  first foremost
+honest believ jesus anyth man live die two
+thousand year ago know bibl provid wonder stori
+thing said simpli believ still exist entiti bear
+univers live similar believ god worship exist ever
+exist  period  view religion general christian
+specif cultur virus pass generat generat peopl
+often afraid think claim respons fate brainwash
+children believ popular myth goe eventu christian
+becom given mani peopl believ must right  don't
+believ life death believ die die therefor it tri
+bring mean purpos life meantim don't believ it
+good thing humbl view pride sin pride moder
+construct thing see noth wrong homosexu noth
+inferior women priest lost lot trust patron tri
+explain fault opinion don't believ love everyon
+especi peopl i'v never met tri show respect
+everyon love admir someth easili earn feel guilti
+deni respect consider someon abus  want take
+religion least bit serious stop tri show bibl make
+sens start tri show jesus person somehow still
+influenc anyon life earth   brian kendig sui fait
+comm aucun  n'etr fait comm aucun ceux qui exist
+mean life vaux pas mieux moin sui autr end
+rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+believ, 1009, 0.363326078111
+die, 2628, 0.213876685995
+jesus, 4859, 0.212608988495
+life, 5260, 0.192568108153
+tri, 9087, 0.189296008413
+exist, 3283, 0.187487419558
+pride, 6859, 0.171116239965
+sui, 8527, 0.166040034776
+aucun, 775, 0.166040034776
+fait, 3366, 0.161790980552
+comm, 1932, 0.15595689678
+respect, 7321, 0.118436640016
+bibl, 1071, 0.114728492339
+generat, 3819, 0.113258106006
+religion, 7261, 0.11072911182
+thing, 8869, 0.107138473092
+peopl, 6530, 0.106403123974
+everyon, 3241, 0.10419973917
+love, 5366, 0.103769948992
+view, 9510, 0.102118137849
+live, 5310, 0.0958606443309
+noth, 6119, 0.0951357865668
+fate, 3403, 0.0946192797023
+meantim, 5599, 0.0928736918818
+humbl, 4435, 0.0928736918818
+christian, 1732, 0.0927928784357
+don, 2811, 0.0889543322582
+brainwash, 1267, 0.0887107086051
+beef, 988, 0.0865268957217
+virus, 9537, 0.0855581199826
+inferior, 4625, 0.0855581199826
+entiti, 3131, 0.0846562113467
+admir, 274, 0.0838125321621
+rousseau, 7497, 0.083020017388
+qui, 7034, 0.083020017388
+mieux, 5706, 0.083020017388
+ceux, 1626, 0.083020017388
+vaux, 9438, 0.0822728145837
+abus, 202, 0.0822728145837
+moin, 5820, 0.0815660213639
+etr, 3212, 0.0815660213639
+autr, 807, 0.0808954902761
+mean, 5595, 0.0807980799719
+pas, 6445, 0.0802576813335
+myth, 5944, 0.0802576813335
+moder, 5810, 0.0790684536552
+priest, 6860, 0.0779784483901
+kendig, 4982, 0.0779784483901
+homosexu, 4360, 0.0779784483901
+trust, 9130, 0.0774657360021
+influenc, 4634, 0.0751664069898
+afraid, 318, 0.0747513724425
+guilti, 4088, 0.0743491102363
+worship, 9847, 0.073211654864
+earn, 2954, 0.073211654864
+deni, 2523, 0.0718343305564
+honest, 4361, 0.070294612978
+fault, 3407, 0.0700072939355
+cultur, 2291, 0.0697261542787
+women, 9819, 0.0691813883637
+good, 3948, 0.0672075414166
+construct, 2074, 0.0663178127697
+bear, 971, 0.0658960829648
+thousand, 8888, 0.0643333301554
+eventu, 3233, 0.0643333301554
+sin, 7976, 0.0631041376333
+popular, 6746, 0.0629376068438
+easili, 2962, 0.0618277596976
+consider, 2060, 0.0616766309601
+brian, 1304, 0.0613795161208
+stori, 8418, 0.0590944092208
+children, 1707, 0.0589716619321
+therefor, 8855, 0.0583746408235
+pass, 6448, 0.0583746408235
+death, 2423, 0.0583746408235
+period, 6546, 0.0582584401456
+met, 5655, 0.0581432632755
+lost, 5355, 0.0578036989843
+purpos, 6993, 0.056226790797
+goe, 3931, 0.055836538229
+stop, 8413, 0.0552721704357
+bring, 1316, 0.0552721704357
+sens, 7788, 0.0544688295821
+similar, 7961, 0.0541270456644
+especi, 3190, 0.0541270456644
+simpli, 7967, 0.0535496178462
+explain, 3301, 0.0528428246265
+becom, 983, 0.052392004428
+specif, 8203, 0.0518849744961
+feel, 3429, 0.0513968781655
+claim, 1782, 0.0509263521479
+ago, 336, 0.0509263521479
+general, 3818, 0.0504721752951
+respons, 7323, 0.0503452569177
+opinion, 6266, 0.0489679326101
+provid, 6949, 0.0483572169211
+wrong, 9869, 0.0479829278308
+wonder, 9821, 0.0474661613288
+given, 3887, 0.0469203614023
+god, 3926, 0.0460736452819
+earth, 2956, 0.045538178336
+man, 5471, 0.0451504978271
+end, 3091, 0.0450658859447
+anyth, 555, 0.0448152874044
+bit, 1122, 0.0440910874042
+person, 6562, 0.0435543115207
+said, 7583, 0.0435168007627
+univers, 9282, 0.0434421006155
+someon, 8124, 0.0427176776018
+start, 8334, 0.041379170273
+lot, 5356, 0.0407883983722
+right, 7399, 0.0397654472957
+someth, 8126, 0.0384812262577
+mani, 5479, 0.037080987851
+want, 9634, 0.0356101334179
+anyon, 554, 0.0351281437002
+year, 9943, 0.0328536437366
+make, 5459, 0.0327875374506
+think, 8871, 0.0299399159563
+know, 5052, 0.0281579191005

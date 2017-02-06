@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84124
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+Lines: 13
+
+In article <C5soDA.3L8@murdoch.acc.Virginia.EDU> 
+pmy@vivaldi.acc.virginia.edu (Pete Yadlowsky) writes:
+>Ken Arromdee writes
+>>>Did they not know that these men were federal officers?
+>>Do you know what a "no-knock search" is?
+>Yes, but tell me how you think your question answers my question. If
+>the BDs didn't know immediately that they were dealing with feds
+>(uniform apparel, insignia), they must have figured it out in pretty
+>short order. Why did they keep fighting? They seemed awfully ready
+>for having been attacked "without warning". 
+
+Oh, bloody sorry old chap, why didn't you tell me you were a federale?
+Tough luck, eh? What's that? You say you're not dead yet?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew      ken arromde write know
+men feder offic know knock search yes tell think
+question answer question bds didn't know immedi
+deal fed uniform apparel insignia must figur
+pretti short order keep fight seem aw readi attack
+without warn  bloodi sorri old chap didn't tell
+federal tough luck what say you'r dead yet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+chap, 1656, 0.241125509842
+arromde, 657, 0.223820623669
+bloodi, 1170, 0.212791236296
+bds, 966, 0.212791236296
+didn, 2625, 0.206589730194
+tell, 8767, 0.202096174746
+know, 5052, 0.199821527942
+tough, 9017, 0.192943317993
+fed, 3424, 0.188409928321
+question, 7032, 0.187205182266
+uniform, 9273, 0.176823358335
+fight, 3474, 0.174052299621
+attack, 761, 0.170706032762
+feder, 3425, 0.166280954229
+knock, 5050, 0.163647636492
+aw, 829, 0.163022912247
+warn, 9643, 0.162410559596
+mormon, 5863, 0.159518472162
+luck, 5381, 0.159518472162
+readi, 7139, 0.152179620511
+ken, 4980, 0.15174712677
+search, 7746, 0.151320598651
+men, 5629, 0.148489084789
+immedi, 4527, 0.148104945708
+jew, 4862, 0.146252727553
+dead, 2415, 0.137809550531
+offic, 6206, 0.136999299853
+figur, 3476, 0.131405868371
+deal, 2418, 0.124998985424
+short, 7904, 0.122233093858
+sorri, 8142, 0.119240770361
+old, 6216, 0.116927707531
+answer, 535, 0.114132779423
+pretti, 6851, 0.113378527436
+yes, 9951, 0.112642235548
+order, 6281, 0.109311519506
+write, 9865, 0.106602742381
+say, 7653, 0.0785088026741
+think, 8871, 0.0708224653901

@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61203
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Drag free satellites (was: Stephen Hawking Tours JPL)
+Organization: Express Access Online Communications USA
+Lines: 8
+NNTP-Posting-Host: access.digex.net
+Keywords: JPL
+
+
+
+Joe,
+
+	your description sounds like one of the  gravity probe  spacecraft
+ideas.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ drag free satellit stephen hawk tour jpl
+joe  descript sound like one graviti probe
+spacecraft idea  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hawk, 4209, 0.354566556741
+tour, 9019, 0.311650437857
+drag, 2854, 0.285779863316
+probe, 6886, 0.275935632981
+stephen, 8380, 0.271639347896
+jpl, 4912, 0.266728436376
+graviti, 4010, 0.262245125416
+joe, 4876, 0.255796022897
+descript, 2557, 0.242511230593
+spacecraft, 8166, 0.2296272096
+pat, 6458, 0.228723229012
+satellit, 7632, 0.22046148227
+free, 3668, 0.209810476219
+sound, 8150, 0.202313114758
+idea, 4482, 0.176153801889
+like, 5272, 0.108492972608

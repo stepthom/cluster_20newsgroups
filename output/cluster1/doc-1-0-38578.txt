@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38578
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: KINDER@nervm.nerdc.ufl.edu (JIM COBB)
+Subject: ET 4000 /W32 VL-Bus Cards
+Organization: University of Florida, NERDC
+Lines: 3
+NNTP-Posting-Host: nervm.nerdc.ufl.edu
+X-Newsreader: NNR/VM S_1.3.2
+
+Does anyone know of a VL-Bus video card based on the ET4000 /W32 card?
+If so: how much will it cost, where can I get one, does it come with more
+than 1MB of ram, and what is the windows performance like?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ w32 bus card      anyon know bus video card base
+et4000 w32 card much cost get one come 1mb ram
+window perform like
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+card, 1513, 0.561749989993
+bus, 1419, 0.483769371789
+et4000, 3203, 0.322383687018
+1mb, 55, 0.309837482332
+ram, 7083, 0.232614593613
+video, 9506, 0.197559231333
+window, 9774, 0.181426511838
+perform, 6539, 0.177061736702
+cost, 2169, 0.165699623411
+base, 923, 0.136482446139
+come, 1923, 0.126465144271
+anyon, 554, 0.117191589809
+know, 5052, 0.09393810653
+like, 5272, 0.0918286834364

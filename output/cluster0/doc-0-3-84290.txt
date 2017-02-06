@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84290
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: clavazzi@nyx.cs.du.edu (The_Doge)
+Subject: Re: Waco information accuracy
+X-Disclaimer: Nyx is a public access Unix system run by the University
+	of Denver for the Denver community.  The University has neither
+	control over nor responsibility for the opinions of users.
+Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
+Lines: 25
+
+In article <sandvik-250493170513@sandvik-kent.apple.com> sandvik@newton.apple.com (Kent Sandvik) writes:
+>In article <1r9mflINNak4@crcnis1.unl.edu>, e_p@unl.edu (edgar pearlstein)
+>wrote:
+>>          An example is the FBI report that several of the bodies found 
+>>        in the rubble had bullet wounds.  The local coroner, who is 
+>>        independent of the FBI, has so far found no bullet wounds! 
+>
+>According to CNN last night (Saturday 4/24/93) he has now found bullets
+>in two of the corpses, in the head (that would indicate that the bullets
+>were aimed at killing the humans).
+>
+	This will not, of course, deter the several die-hard Koreshies on
+this net, who will probably claim that the Tarrant County medical examiner
+(Dr. Peerwani) was coerced by the FBI into faking this evidence.  Either that,
+or they'll claim the FBI shot them.
+	The rest of us might contemplate the difficulty of determining the
+cause of death from a corpse that has been reduced to a Krispy Kritter.
+	************************************************************
+	*  	The_Doge of South St. Louis			   *
+	*		Dobbs-Approved Media Conspirator(tm)	   *
+	*	"One Step Beyond"  -- Sundays, 3 to 5 pm	   *
+	*		88.1 FM		St. Louis Community Radio  *
+	*  "You'll pay to know what you *really* think!"           *
+	*			-- J.R. "Bob" Dobbs"		   *
+	************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ waco inform accuraci disclaim nyx public access
+unix system run univers denver denver communiti
+univers neither control respons opinion user
+unl edu edgar pearlstein wrote exampl fbi report
+sever bodi found rubbl bullet wound local coron
+independ fbi far found bullet wound  accord cnn
+last night saturday found bullet two corps head
+indic bullet aim kill human  cours deter sever die
+hard koreshi net probabl claim tarrant counti
+medic examin peerwani coerc fbi fake evid either
+they'll claim fbi shot rest might contempl
+difficulti determin caus death corps reduc krispi
+kritter  doge south loui dobb approv media conspir
+one step beyond sunday loui communiti radio you'll
+pay know realli think bob dobb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bullet, 1386, 0.423965896808
+fbi, 3414, 0.331919650884
+corps, 2155, 0.243583336526
+dobb, 2782, 0.206764513098
+wound, 9855, 0.188941833462
+denver, 2533, 0.181700814907
+loui, 5363, 0.164684628024
+communiti, 1953, 0.155542214958
+pearlstein, 6499, 0.121791668263
+deter, 2581, 0.121791668263
+claim, 1782, 0.121693518737
+rubbl, 7526, 0.118306389263
+contempl, 2081, 0.118306389263
+unl, 9288, 0.115458708971
+doge, 2796, 0.115458708971
+coerc, 1874, 0.115458708971
+cnn, 1854, 0.115458708971
+sever, 7823, 0.115296151109
+conspir, 2065, 0.113051029591
+edgar, 2994, 0.10912574968
+counti, 2184, 0.10912574968
+nyx, 6164, 0.104632443555
+univers, 9282, 0.103809164848
+coron, 2151, 0.103382256549
+fake, 3368, 0.101147164554
+ll, 5314, 0.0989556877193
+waco, 9603, 0.0931685794287
+approv, 591, 0.0931685794287
+aim, 353, 0.0925559911324
+difficulti, 2636, 0.0913984987577
+accuraci, 226, 0.0913984987577
+saturday, 7639, 0.0903208991374
+medic, 5608, 0.0893128720126
+examin, 3257, 0.0888322494935
+south, 8154, 0.0839879398457
+reduc, 7204, 0.0811402595544
+sunday, 8541, 0.0784866065959
+independ, 4595, 0.0782444467152
+shot, 7910, 0.0766469534293
+disclaim, 2691, 0.0766469534293
+media, 5605, 0.0760093547202
+step, 8377, 0.0721536473042
+unix, 9284, 0.0715160485951
+pay, 6474, 0.0707539950489
+accord, 219, 0.0701700392068
+radio, 7061, 0.0697459679241
+death, 2423, 0.0697459679241
+bob, 1189, 0.0686683683038
+indic, 4600, 0.0680307695948
+determin, 2582, 0.0680307695948
+bodi, 1194, 0.0676603411791
+user, 9366, 0.0674181812985
+kill, 5012, 0.0668287151373
+rest, 7324, 0.0667134452456
+access, 209, 0.0667134452456
+local, 5322, 0.0664854266058
+wrote, 9871, 0.0662606889238
+head, 4215, 0.0659295316546
+evid, 3245, 0.0658206880125
+control, 2107, 0.0651830893035
+die, 2628, 0.0638849176231
+night, 6063, 0.0634130086325
+caus, 1569, 0.0632281662452
+net, 6010, 0.0628649173284
+report, 7291, 0.0621628216271
+human, 4432, 0.0603041092764
+respons, 7323, 0.0601524673141
+public, 6973, 0.0600022834702
+hard, 4167, 0.0591302989486
+opinion, 6266, 0.0585068414803
+exampl, 3258, 0.0566521047786
+edu, 3001, 0.0553787407406
+cours, 2190, 0.053446721844
+far, 3386, 0.0521738821887
+inform, 4637, 0.0513365562103
+probabl, 6885, 0.0510811990332
+run, 7543, 0.047048410995
+realli, 7150, 0.0463470319588
+think, 8871, 0.0357721844363
+know, 5052, 0.0336430562088

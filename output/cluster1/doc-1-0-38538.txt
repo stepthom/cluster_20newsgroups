@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38538
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: "danny hawrysio" <danny.hawrysio@canrem.com>
+Subject: radiosity
+Reply-To: "danny hawrysio" <danny.hawrysio@canrem.com>
+Organization: Canada Remote Systems
+Distribution: comp
+Lines: 9
+
+
+-> I am looking for source-code for the radiosity-method.
+
+ I don't know what kind of machine you want it for, but the program
+Radiance comes with 'C' source code - I don't have ftp access so I
+couldn't tell you where to get it via that way.
+--
+Canada Remote Systems - Toronto, Ontario
+416-629-7000/629-7044
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ radios       look sourc code radios method  don't
+know kind machin want program radianc come c sourc
+code don't ftp access couldn't tell get via way
+canada remot system toronto ontario
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+radios, 7062, 0.514110283474
+code, 1871, 0.315525862651
+radianc, 7057, 0.293426463611
+sourc, 8153, 0.29301333948
+ontario, 6248, 0.235221555879
+remot, 7271, 0.223422428744
+canada, 1481, 0.206209645246
+machin, 5416, 0.18057739087
+couldn, 2176, 0.18057739087
+don, 2811, 0.180070807351
+method, 5666, 0.178695802387
+access, 209, 0.169545376768
+toronto, 9003, 0.165656134145
+ftp, 3709, 0.160455087206
+kind, 5021, 0.141596128249
+tell, 8767, 0.129710490181
+program, 6905, 0.123211332748
+come, 1923, 0.115105762319
+want, 9634, 0.108128721418
+way, 9666, 0.103834875058
+look, 5341, 0.0990605974766
+know, 5052, 0.0855003758172

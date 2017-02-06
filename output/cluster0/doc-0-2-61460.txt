@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61460
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Gamma Ray Bursters.  WHere  are they.
+Organization: Express Access Online Communications USA
+Lines: 17
+NNTP-Posting-Host: access.digex.net
+
+In article <29APR199311425584@judy.uh.edu> wingo%cspara.decnet@Fedex.Msfc.Nasa.Gov writes:
+|In article <1rlrpv$5ta@access.digex.net>, prb@access.digex.com (Pat) writes...
+|>Is this a big enough problem, to create a new area of physics?
+|>just a little speculative thinking folks.
+|>pat
+|Well pat for once I agree with you and I like your first idea that you had.
+>IT probably is the gamma ray signature of the warp transitions of interstellar
+>spacecraft! :)
+
+
+Dennis.
+
+	WE agree a lot ,  it's just we don't both post when we agree
+on something.  And when we disagree, it tends to be a lot more
+noticeable.;-)
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster      access digex com pat write
+big enough problem creat new area physic littl
+specul think folk pat well pat agre like first
+idea probabl gamma ray signatur warp transit
+interstellar spacecraft   denni  agre lot it don't
+post agre someth disagre tend lot notic  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pat, 6458, 0.502224460606
+agre, 337, 0.328448108096
+gamma, 3762, 0.276821408867
+ray, 7118, 0.236459992821
+digex, 2641, 0.191941171189
+warp, 9644, 0.183168555519
+lot, 5356, 0.176505702132
+interstellar, 4723, 0.172335763496
+transit, 9056, 0.169874679375
+signatur, 7948, 0.165514585286
+denni, 2526, 0.163563147826
+burster, 1418, 0.149686062887
+specul, 8214, 0.148554527021
+disagre, 2676, 0.146418824255
+tend, 8783, 0.14041754764
+folk, 3576, 0.135122339479
+notic, 6120, 0.130663863989
+spacecraft, 8166, 0.126052349361
+com, 1917, 0.123653911167
+physic, 6613, 0.12297232097
+access, 209, 0.120812139947
+area, 622, 0.11500420552
+creat, 2217, 0.109343711635
+write, 9865, 0.0975079453755
+idea, 4482, 0.0966984732151
+big, 1082, 0.0963460122748
+littl, 5308, 0.0950620721308
+probabl, 6885, 0.092503526741
+problem, 6887, 0.0889858269915
+someth, 8126, 0.0832608796934
+post, 6766, 0.0826068708002
+new, 6023, 0.0823921857129
+think, 8871, 0.0647802573591
+don, 2811, 0.0641560978917
+like, 5272, 0.0595565051292

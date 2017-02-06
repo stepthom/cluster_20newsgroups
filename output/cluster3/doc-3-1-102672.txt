@@ -1,0 +1,187 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102672
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jmann@vineland.pubs.stratus.com (Jim Mann)
+Subject: Re: Rickey Henderson
+Article-I.D.: transfer.1psbdn$lru
+Reply-To: jmann@vineland.pubs.stratus.com
+Distribution: usa
+Organization: Stratus Computer Inc, Marlboro MA
+Lines: 57
+NNTP-Posting-Host: gondolin.pubs.stratus.com
+
+In article <1993Apr6.155118.5779@ra.msstate.edu> js1@Isis.MsState.Edu  
+(Jiann-ming Su) writes:
+> In article <ls1d6vINNs65@appserv.Eng.Sun.COM>  
+str@maredsous.Eng.Sun.COM (Todd Rader) writes:
+> >Stay in school.  You have a lot to learn.
+> 
+> Learn what?  I know that 3 million dollars is A LOT of money.  I  
+know 
+> Rickey Henderson doesn't have a career out of baseball.  I know if  
+he 
+> didn't have baseball, he wouldn't be making near the money he is  
+now.
+> 
+
+And Michael Jackson, Jack Nicholson, and Bill Cosby wouldn't be 
+making near as much money if they weren't entertainers. So what's
+your point?
+
+> I just don't understand how some athlete, who only plays a sport  
+for a 
+> living for millions of dollars, say he is not being paid enough.
+> 
+> If nobody will sign him for his asking price, he will be the one  
+hurting.
+> The A's will still win without him.
+
+Will they?  You can't usually take away one of the team's best
+players and still expect them to win.  Or do you think the 
+Pirates will continue to win without Barry Bonds.
+
+> 
+> Remeber, many of these athletes have NOTHING if not for their  
+athletic 
+> ability.  NOTHING.  They are getting paid MUCH more than most hard  
+working
+> citizens, and they are complaining of not enough pay.
+
+So. Again, Jack Nicholson gets paid much more than most hard
+working citizens (and much more than Rickey Henderson for that
+matter). 
+
+> 
+> I don't have a problem with them making millions.  My problem is  
+when the
+> say they aren't being paid enough, when they already get 3  
+million--also,
+> their numbers get worse.
+
+The reason the latter often happens is that many of these folks
+start making the real big salaries late in their career, when they
+are on the decline. (There are exceptions, of course. Dave Parker
+fell apart after making his first million because he put most
+of that million up his nose.)
+
+--
+Jim Mann            
+Stratus Computer   jmann@vineland.pubs.stratus.com  
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rickey henderson articl transfer 1psbdn lru
+isi msstate edu    stay school lot learn  learn
+know million dollar lot money know rickey
+henderson doesn't career basebal know  didn't
+basebal wouldn't make near money    michael
+jackson jack nicholson bill cosbi wouldn't make
+near much money weren't entertain what point
+don't understand athlet play sport  live million
+dollar say paid enough  nobodi sign ask price one
+hurt a still win without  can't usual take away
+one team best player still expect win think pirat
+continu win without barri bond   remeb mani athlet
+noth athlet abil noth get paid much hard work
+citizen complain enough pay  jack nicholson get
+paid much hard work citizen much rickey henderson
+matter   don't problem make million problem  say
+aren't paid enough alreadi get million also number
+get wors  reason latter often happen mani folk
+start make real big salari late career declin
+except cours dave parker fell apart make first
+million put million nose   jim mann
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+million, 5724, 0.391832104185
+paid, 6387, 0.312157488523
+athlet, 744, 0.262440542792
+henderson, 4253, 0.260371367804
+rickey, 7389, 0.249713204671
+make, 5459, 0.17728180512
+citizen, 1776, 0.172265646052
+money, 5835, 0.170939153994
+win, 9770, 0.154154062533
+dollar, 2802, 0.145849812211
+jack, 4808, 0.132122993212
+career, 1517, 0.130906757675
+learn, 5182, 0.120146093211
+wouldn, 9854, 0.118181892726
+near, 5982, 0.114454022073
+mann, 5485, 0.107077611863
+hard, 4167, 0.107036166679
+msstate, 5906, 0.104500212563
+noth, 6119, 0.102879601736
+isi, 4779, 0.102321052504
+remeb, 7268, 0.0972788963969
+basebal, 924, 0.0952754597859
+fell, 3436, 0.0915470152939
+know, 5052, 0.0913497099457
+problem, 6887, 0.0889496217452
+lot, 5356, 0.088216944042
+declin, 2448, 0.0882052915726
+nose, 6115, 0.0867904559348
+salari, 7589, 0.0855044280967
+entertain, 3127, 0.0837712532337
+jackson, 4812, 0.0808359472668
+pirat, 6639, 0.0804009419228
+mani, 5479, 0.0801985751053
+work, 9833, 0.0800997179542
+weren, 9705, 0.0780393721307
+apart, 559, 0.0776814654644
+complain, 1973, 0.0766591002222
+transfer, 9052, 0.0760164187247
+barri, 918, 0.0737032618505
+say, 7653, 0.0717816185905
+nobodi, 6088, 0.0714860491224
+hurt, 4451, 0.0714860491224
+wors, 9846, 0.0706022264566
+bond, 1211, 0.0699738315274
+sport, 8257, 0.068423066398
+stay, 8355, 0.0675336814429
+folk, 3576, 0.0675336814429
+school, 7685, 0.0665353920933
+abil, 177, 0.0662177032584
+price, 6857, 0.0657541680194
+late, 5139, 0.0648703453536
+jim, 4868, 0.0645876047644
+michael, 5680, 0.0644483272023
+sign, 7946, 0.0643104084672
+don, 2811, 0.064129995001
+pay, 6474, 0.0640385431999
+aren, 623, 0.0616873336561
+dave, 2395, 0.0611285036529
+usual, 9377, 0.059671982594
+continu, 2092, 0.059671982594
+alreadi, 443, 0.0566565825986
+away, 833, 0.0560316605986
+matter, 5553, 0.0548590460586
+expect, 3290, 0.0547888892982
+live, 5310, 0.0518317305549
+understand, 9246, 0.0506871066891
+edu, 3001, 0.050122595605
+happen, 4159, 0.0498239248151
+ask, 689, 0.0489640041873
+player, 6683, 0.048779811898
+real, 7144, 0.0484631397525
+cours, 2190, 0.0483739498149
+big, 1082, 0.0481534062122
+best, 1052, 0.0472629538234
+didn, 2625, 0.0472219187925
+team, 8732, 0.0469379611608
+play, 6681, 0.0466202723259
+number, 6156, 0.0459679951882
+doesn, 2793, 0.0458559479051
+reason, 7156, 0.0455979070837
+articl, 665, 0.0455614256229
+start, 8334, 0.0447473312775
+point, 6710, 0.0399026018308
+think, 8871, 0.0323769502598

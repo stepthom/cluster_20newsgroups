@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61006
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Lunar Colony Race! By 2005 or 2010?
+Organization: U of Toronto Zoology
+Lines: 18
+
+In article <1993Apr21.140804.15028@draper.com> mrf4276@egbsun12.NoSubdomain.NoDomain (Matthew R. Feulner) writes:
+>|> Need to find atleast $1billion for prize money.
+>
+>My first thought is Ross Perot.  After further consideration, I think he'd
+>be more likely to try to win it...but come in a disappointing third.
+>Try Bill Gates.  Try Sam Walton's kids.
+
+When the Lunar Society's $500M estimate of the cost of a lunar colony was
+mentioned at Making Orbit, somebody asked Jerry Pournelle "have you talked
+to Bill Gates?".  The answer:  "Yes.  He says that if he were going to
+sink that much money into it, he'd want to run it -- and he doesn't have
+the time."
+
+(Somebody then asked him about Perot.  Answer:  "Having Ross Perot on your
+board may be a bigger problem than not having the money.")
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lunar coloni race     need find atleast 1billion
+prize money  first thought ross perot consider
+think he'd like tri win come disappoint third tri
+bill gate tri sam walton kid  lunar societi 500m
+estim cost lunar coloni mention make orbit
+somebodi ask jerri pournell talk bill gate answer
+yes say go sink much money he'd want run doesn't
+time  somebodi ask perot answer ross perot board
+bigger problem money  work one man work henri
+spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+perot, 6553, 0.439738343458
+lunar, 5392, 0.291735154233
+ross, 7488, 0.278712670939
+coloni, 1906, 0.254905845197
+gate, 3788, 0.248662358245
+money, 5835, 0.244877922871
+somebodi, 8121, 0.193489990434
+tri, 9087, 0.175948735659
+walton, 9629, 0.157912365306
+atleast, 752, 0.149701191295
+1billion, 52, 0.149701191295
+answer, 535, 0.14949042239
+ask, 689, 0.140286217179
+sink, 7985, 0.137426185487
+jerri, 4854, 0.127452922599
+sam, 7599, 0.124331179123
+disappoint, 2679, 0.123389090801
+work, 9833, 0.114746400089
+bigger, 1083, 0.114573357063
+prize, 6881, 0.113415827912
+estim, 3201, 0.108896892762
+zoolog, 9993, 0.101763986561
+kid, 5008, 0.101763986561
+race, 7049, 0.0999492286109
+spencer, 8221, 0.0977577685913
+board, 1186, 0.097245051411
+societi, 8093, 0.0960173272268
+consider, 2060, 0.0955463467692
+henri, 4258, 0.0921275136589
+toronto, 9003, 0.0845149422505
+mention, 5632, 0.0810489766591
+cost, 2169, 0.0769438157716
+yes, 9951, 0.0737690585303
+win, 9770, 0.0736108448592
+orbit, 6280, 0.0732980780726
+thought, 8887, 0.0706813793971
+man, 5471, 0.0699448892561
+talk, 8684, 0.0684864229605
+doesn, 2793, 0.0656906800572
+problem, 6887, 0.0637121399755
+run, 7543, 0.0610019221351
+come, 1923, 0.0587250022785
+want, 9634, 0.0551654346724
+need, 5993, 0.0544493282744
+say, 7653, 0.0514151768335
+make, 5459, 0.0507928104081
+time, 8936, 0.0481173833072
+think, 8871, 0.046381417851
+like, 5272, 0.0426413117631

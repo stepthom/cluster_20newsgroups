@@ -1,0 +1,248 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60959
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey)
+Subject: Re: Solar Sail Data
+Organization: Fermi National Accelerator Laboratory
+Lines: 56
+NNTP-Posting-Host: fnalf.fnal.gov
+
+In article <1993Apr15.051746.29848@news.duc.auburn.edu>, snydefj@eng.auburn.edu (Frank J. Snyder) writes:
+> I am looking for any information concerning projects involving Solar
+>  Sails. [...]
+> Are there any groups out there currently involved in such a project ?
+
+Sure.  Contact the World Space Foundation.  They're listed in the sci.space
+Frequently Asked Questions file, which I'll excerpt.
+
+    WORLD SPACE FOUNDATION - has been designing and building a solar-sail
+    spacecraft for longer than any similar group; many JPL employees lend
+    their talents to this project. WSF also provides partial funding for the
+    Palomar Sky Survey, an extremely successful search for near-Earth
+    asteroids. Publishes *Foundation News* and *Foundation Astronautics
+    Notebook*, each a quarterly 4-8 page newsletter. Contributing Associate,
+    minimum of $15/year (but more money always welcome to support projects).
+
+	World Space Foundation
+	Post Office Box Y
+	South Pasadena, California 91301
+
+WSF put together a little paperback anthology of fiction and
+nonfiction about solar sails: *Project Solar Sail*.  I think Robert
+Staehle, David Brin,  or Arthur Clarke may be listed as editor.
+
+Also there is a nontechnical book on solar sailing by Louis Friedman,
+a technical one by a guy whose name escapes me (help me out, Josh),
+and I would expect that Greg Matloff and Eugene Mallove have something
+to say about the subject in *The Starflight Handbook*, as well as
+quite a few references.
+
+
+Check the following articles in *Journal of the British Interplanetary
+Society*:
+
+V36 p. 201-209 (1983)
+V36 p. 483-489 (1983)
+V37 p. 135-141 (1984)
+V37 p. 491-494 (1984)
+V38 p. 113-119 (1984)
+V38 p. 133-136 (1984)
+
+(Can you guess that Matloff visited Fermilab and gave me a bunch of
+reprints? I just found the file.)
+
+And K. Eric Drexler's paper "High Performance Solar Sails and Related
+Reflecting Devices," AIAA paper 79-1418, probably in a book called
+*Space Manufacturing*, maybe the proceedings of the Second (?)
+Conference on Space Manufacturing.  The 1979 one, at any rate.
+
+Submarines, flying boats, robots, talking         Bill Higgins
+pictures, radio, television, bouncing radar       Fermilab
+vibrations off the moon, rocket ships, and        HIGGINS@FNAL.BITNET
+atom-splitting-- all in our time.  But nobody     HIGGINS@FNAL.FNAL.GOV
+has yet been able to figure out a music           SPAN:  43011::HIGGINS
+holder for a marching piccolo player. 
+                     --Meredith Willson, 1948
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ solar sail data      look inform concern project
+involv solar sail group current involv project
+sure contact world space foundat they'r list sci
+space frequent ask question file i'll excerpt
+world space foundat design build solar sail
+spacecraft longer similar group mani jpl employe
+lend talent project wsf also provid partial fund
+palomar sky survey extrem success search near
+earth asteroid publish foundat news foundat
+astronaut notebook quarter page newslett contribut
+associ minimum year money alway welcom support
+project  world space foundat post offic box south
+pasadena california  wsf put togeth littl
+paperback antholog fiction nonfict solar sail
+project solar sail think robert staehl david brin
+arthur clark list editor  also nontechn book solar
+sail loui friedman technic one guy whose name
+escap help josh expect greg matloff eugen mallov
+someth say starflight handbook well quit refer
+check follow articl journal british interplanetari
+societi  v36 v36 v37 v37 v38 v38  guess matloff
+visit fermilab gave bunch reprint found file  eric
+drexler paper high perform solar sail relat
+reflect devic aiaa paper probabl book call space
+manufactur mayb proceed second confer space
+manufactur one rate  submarin fli boat robot talk
+bill higgin pictur radio televis bounc radar
+fermilab   yet abl figur music span higgin holder
+march piccolo player meredith willson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sail, 7584, 0.449698514065
+solar, 8107, 0.332376776947
+foundat, 3627, 0.321213224332
+project, 6909, 0.19851178774
+space, 8164, 0.182049462233
+wsf, 9874, 0.172971139484
+matloff, 5549, 0.162042959253
+fermilab, 3448, 0.154844750953
+higgin, 4291, 0.134639721677
+manufactur, 5494, 0.119811105094
+world, 9841, 0.107473249957
+paper, 6409, 0.0953401218405
+involv, 4750, 0.0897127599764
+mallov, 5470, 0.0834083537697
+submarin, 8489, 0.0810214796264
+starflight, 8331, 0.0810214796264
+palomar, 6402, 0.0810214796264
+friedman, 3691, 0.0810214796264
+holder, 4342, 0.0790712614502
+list, 5298, 0.0783523797605
+paperback, 6410, 0.0774223754766
+lend, 5211, 0.0774223754766
+book, 1218, 0.0766268513996
+reprint, 7296, 0.0747341691306
+group, 4064, 0.074451943408
+file, 3477, 0.074028302404
+eugen, 3217, 0.0736071713345
+boat, 1188, 0.0708007694676
+excerpt, 3262, 0.0700080671847
+aiaa, 350, 0.0685797371859
+newslett, 6033, 0.0679312607168
+arthur, 663, 0.0679312607168
+interplanetari, 4718, 0.0661928630426
+robot, 7442, 0.0656709748652
+handbook, 4146, 0.0656709748652
+televis, 8765, 0.0651733695263
+josh, 4895, 0.0646978874338
+employe, 3078, 0.0646978874338
+bounc, 1249, 0.0646978874338
+radar, 7055, 0.0642426448664
+british, 1320, 0.0642426448664
+quarter, 7027, 0.0625937588928
+music, 5933, 0.0618557707231
+escap, 3185, 0.0618557707231
+span, 8181, 0.0615050315697
+survey, 8597, 0.061165428894
+asteroid, 716, 0.061165428894
+partial, 6439, 0.0605169524249
+journal, 4898, 0.0605169524249
+fiction, 3463, 0.0605169524249
+frequent, 3686, 0.0602068847495
+proceed, 6889, 0.0580049705887
+clark, 1787, 0.0580049705887
+visit, 9544, 0.0577590612344
+south, 8154, 0.0575186784035
+pasadena, 6446, 0.0572835791419
+march, 5504, 0.0572835791419
+minimum, 5740, 0.0570535361724
+devic, 2591, 0.0570535361724
+talent, 8683, 0.0568283365745
+welcom, 9701, 0.0563916806074
+reflect, 7216, 0.0563916806074
+loui, 5363, 0.0563916806074
+astronaut, 727, 0.0563916806074
+bunch, 1399, 0.0561798601054
+greg, 4033, 0.0559721528838
+editor, 2997, 0.0559721528838
+jpl, 4912, 0.0553721870911
+confer, 2025, 0.0549901255558
+eric, 3170, 0.0542646553345
+california, 1459, 0.0532611149693
+extrem, 3333, 0.0529464868223
+search, 7746, 0.0523437028012
+page, 6382, 0.0509704626365
+societi, 8093, 0.0507157699897
+gave, 3798, 0.0503447529425
+associ, 706, 0.0503447529425
+sci, 7690, 0.04986927085
+togeth, 8969, 0.0495260354401
+publish, 6974, 0.0494140282826
+contribut, 2103, 0.0487655518134
+fund, 3723, 0.0485578445919
+contact, 2078, 0.048455484138
+robert, 7437, 0.0481541519354
+radio, 7061, 0.047765142309
+longer, 5337, 0.047765142309
+spacecraft, 8166, 0.0476700609202
+technic, 8737, 0.0474823967067
+success, 8513, 0.0474823967067
+offic, 6206, 0.0473897849956
+rate, 7108, 0.0464207075309
+sky, 8011, 0.0462535699772
+concern, 2004, 0.0462535699772
+fli, 3542, 0.0456883358411
+figur, 3476, 0.0454549465285
+pictur, 6622, 0.0451514769323
+similar, 7961, 0.0442895408426
+box, 1254, 0.0436858115176
+check, 1682, 0.0436207864796
+perform, 6539, 0.0434280499894
+near, 5982, 0.0433014616978
+david, 2397, 0.0431763540049
+build, 1378, 0.0431763540049
+money, 5835, 0.0431143446381
+design, 2564, 0.0415630640236
+guess, 4079, 0.0414566294558
+expect, 3290, 0.0414566294558
+relat, 7247, 0.0408894486808
+alway, 457, 0.0403986935412
+guy, 4100, 0.0401615089719
+data, 2385, 0.0396128458473
+provid, 6949, 0.039568369335
+refer, 7213, 0.0394360387507
+quit, 7043, 0.0391761898802
+abl, 180, 0.0391334888822
+current, 2299, 0.0387566621567
+mayb, 5564, 0.0374420716963
+earth, 2956, 0.0372616865479
+second, 7753, 0.037225971704
+ask, 689, 0.0370491646074
+news, 6031, 0.0369444663575
+player, 6683, 0.0369097934396
+support, 8576, 0.0368407829692
+talk, 8684, 0.0361741133043
+high, 4292, 0.0361741133043
+littl, 5308, 0.0359502602898
+inform, 4637, 0.0351575580069
+follow, 3578, 0.0351575580069
+probabl, 6885, 0.0349826780494
+articl, 665, 0.0344745652581
+sure, 8585, 0.0344470322035
+ll, 5314, 0.0338846290824
+question, 7032, 0.0323783163386
+someth, 8126, 0.0314873243328
+help, 4249, 0.0314249533934
+post, 6766, 0.0312399934109
+mani, 5479, 0.0303415770388
+say, 7653, 0.0271571846205
+year, 9943, 0.0268825460218
+look, 5341, 0.0266944102659
+think, 8871, 0.0244983836508

@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104581
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mss@netcom.com (Mark Singer)
+Subject: Re: Pleasant Yankee Surprises
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 48
+
+In article <1993Apr15.231903.4045@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>In article <1993Apr15.200629.7200@alleg.edu> luriem@alleg.edu(Michael Lurie) The Liberalizer writes:
+>>
+>
+>I'd be willing to make two wagers:
+>1) Snow doesn't win ROY.
+>2) Mattingly is out of baseball within five years.
+>
+>I'm skeptical of the first, because I don't think Snow is that good a
+>player, and he is on a losing team.
+
+
+I don't have a history handy, but I don't recall that the preponderance
+of ROY's come from winning teams.  In fact, I think team performance is
+generally irrelevant, as almost always the most deserving candidate wins.
+Am I wrong?
+
+And he is not necessarily on a losing team.  While the Angels' staff
+is still very weak, their everyday lineup is doing quite well, thank
+you.  Snow is playing great.  Salmon is learning to make the adjustments.
+Easley appears fine, but even if he's not Flora is ready to come up.
+Between Gonzales and Gruber they'll manage the hot corner.  Polonia
+and Curtis are steady and heady.  Even Myers and Orton are contributing.
+
+Personally, I think they can finish over .500 which makes them a 
+winning team.
+
+
+
+
+--	The Beastmaster 
+
+
+>
+>I'm skeptical of the second because of his back.  Mattingly is 32 this
+>year, and how many players play until they are 40?  Not too many, and
+>most of them didn't have chronic back problems when they were 32.
+>
+>Could be wrong on either or both, but I think that's the smart way to
+>bet...
+>
+>Cheers,
+>-Valentine
+
+
+-- 
+Mark Singer    
+mss@netcom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleasant yanke surpris        i'd will make two
+wager snow doesn't win roy mat basebal within five
+year  i'm skeptic first don't think snow good
+player lose team   don't histori handi don't recal
+preponder roy come win team fact think team
+perform general irrelev almost alway deserv candid
+win wrong  necessarili lose team angel staff still
+weak everyday lineup quit well thank snow play
+great salmon learn make adjust easley appear fine
+even he flora readi come gonzal gruber they'll
+manag hot corner polonia curti steadi headi even
+myer orton contribut  person think finish make win
+team     beastmast    i'm skeptic second back mat
+year mani player play mani didn't chronic back
+problem  could wrong either think that smart way
+bet  cheer valentin    mark singer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+snow, 8081, 0.311058929163
+team, 8732, 0.284594850052
+win, 9770, 0.249245038778
+skeptic, 8002, 0.219814901305
+roy, 7502, 0.213922983514
+mat, 5540, 0.183607940365
+think, 8871, 0.157046673123
+lose, 5350, 0.150733579188
+easley, 2963, 0.13367212973
+steadi, 8359, 0.129846870799
+preponder, 6832, 0.129846870799
+curti, 2304, 0.129846870799
+chronic, 1737, 0.129846870799
+make, 5459, 0.128987678623
+salmon, 7593, 0.126721406679
+wrong, 9869, 0.12584469498
+polonia, 6727, 0.124078864418
+gruber, 4070, 0.124078864418
+wager, 9607, 0.121789790191
+myer, 5939, 0.121789790191
+gonzal, 3945, 0.121789790191
+player, 6683, 0.118304953256
+everyday, 3240, 0.117964531261
+don, 2811, 0.116650143252
+play, 6681, 0.113067454008
+pleasant, 6689, 0.11101380821
+smart, 8057, 0.108868187476
+beastmast, 973, 0.106961491757
+handi, 4148, 0.106082191722
+irrelev, 4771, 0.101584588095
+singer, 7981, 0.10031418534
+corner, 2149, 0.0997126291507
+come, 1923, 0.0994209175168
+mani, 5479, 0.0972522064958
+candid, 1489, 0.09648892641
+weak, 9668, 0.0937765567923
+deserv, 2560, 0.0937765567923
+lineup, 5287, 0.0933634622895
+valentin, 9409, 0.0921807456202
+adjust, 269, 0.088740729696
+hot, 4389, 0.0866870265673
+year, 9943, 0.086165162526
+necessarili, 5991, 0.0858769896261
+angel, 509, 0.0856152655755
+readi, 7139, 0.0843634254563
+recal, 7166, 0.084123665012
+bet, 1054, 0.0836539755673
+staff, 8301, 0.0831968126795
+finish, 3488, 0.0829727233143
+cheer, 1687, 0.0810777490265
+yanke, 9933, 0.0799216306438
+contribut, 2103, 0.0781527853475
+surpris, 8593, 0.077172941961
+fine, 3485, 0.0760963717133
+histori, 4314, 0.0741270259755
+learn, 5182, 0.0728471338254
+mark, 5512, 0.0698040861729
+appear, 580, 0.0697011273509
+perform, 6539, 0.0695987832122
+general, 3818, 0.0661866187845
+manag, 5472, 0.0654500695474
+alway, 457, 0.0647438674892
+quit, 7043, 0.0627846552451
+second, 7753, 0.0596591911246
+fact, 3350, 0.0588228012307
+basebal, 924, 0.0577675393666
+didn, 2625, 0.0572633091237
+person, 6562, 0.0571148874838
+great, 4016, 0.0570166488635
+doesn, 2793, 0.0556068746717
+ll, 5314, 0.0543042792458
+problem, 6887, 0.0539320491064
+thank, 8832, 0.0480069569513
+way, 9666, 0.0448429268026
+good, 3948, 0.0440662592524

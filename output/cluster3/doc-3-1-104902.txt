@@ -1,0 +1,174 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104902
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sac@asdi.saic.com (Steve A. Conroy x6172)
+Subject: Re: Darrrrrrrrryl
+Organization: SAIC
+Lines: 33
+
+In article <mssC5KCru.5Ip@netcom.com>, mss@netcom.com (Mark Singer) writes:
+|> 
+|> 
+|> The media is beating the incident at Dodger Stadium on Wednesday to
+|> death, but I haven't seen anything in rsb yet.
+|> 
+|> Gerald Perry of the Cardinals pinch hit in the eighth inning with two
+|> on and his club down by a run.  He stroked a line drive into the
+|> right field corner.  The ball cleared the three-foot high fence and
+|> went into the crowd.  Darryl, racing over from right center, got to
+|> the spot in time to reach his glove up over the short fence, but he
+|> missed the ball.  A fan sitting in the front row, wearing a mitt,
+|> reached up and caught the ball.  Home run.
+|> 
+|> Now I've seen the replay several times and I have concluded that
+|> Darryl missed the ball, and that the fan's glove was essentially
+|> behind Darryl's.  Several Dodger fans with seats in the immediate
+|> vicinity have claimed that the fan unquestionably interfered with
+|> Strawberry.  What cannot be disputed, however, is that the fan
+|> who caught the ball never took his eye off it;  he was oblivious
+|> to where the fielder was playing.  He was also quite exuberant as
+|> soon as he realized he had made the catch.
+|> 
+|> [Stuff about Daryl and Tommy and everyone blaming fan for the loss deleted]
+
+I saw the replay several times too.  No question about it.  Daryl missed
+the ball, *then* the fan caught it.  Daryl is so tall that he had the
+first shot at the ball.  Daryl's just whining again.  I think it shows a
+lack of class when Tommy, Daryl and the Dodgers blame a single fan for
+losing the game.  What about the pitcher who threw up the gopher ball?
+What about the pitchers that gave up 6 runs up to that point?  Sorry, Tommy.
+If it were a 2-1 game and Daryl was 5 feet 2 inches tall, then maybe -
+just maybe - you'd have an argument.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ darrrrrrrrryl       media beat incid dodger
+stadium wednesday death haven't seen anyth rsb yet
+gerald perri cardin pinch hit eighth inning two
+club run stroke line drive right field corner ball
+clear three foot high fenc went crowd darryl race
+right center got spot time reach glove short fenc
+miss ball fan sit front row wear mitt reach caught
+ball home run  i'v seen replay sever time conclud
+darryl miss ball fan glove essenti behind darryl
+sever dodger fan seat immedi vicin claim fan
+unquestion interf strawberri cannot disput howev
+fan caught ball never took eye oblivi fielder play
+also quit exuber soon realiz made catch  stuff
+daryl tommi everyon blame fan loss delet  saw
+replay sever time question daryl miss ball fan
+caught daryl tall first shot ball daryl whine
+think show lack class tommi daryl dodger blame
+singl fan lose game pitcher threw gopher ball
+pitcher gave run point sorri tommi game daryl feet
+inch tall mayb mayb you'd argument
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+daryl, 2380, 0.453851886068
+fan, 3381, 0.344711966657
+ball, 877, 0.338736345303
+darryl, 2377, 0.212575410293
+tommi, 8978, 0.183756194232
+caught, 1568, 0.175382018585
+dodger, 2791, 0.167549181444
+fenc, 3443, 0.15383432269
+replay, 7289, 0.146938831623
+tall, 8685, 0.145054770881
+miss, 5770, 0.137327752299
+glove, 3911, 0.123150536864
+blame, 1138, 0.120095756471
+sever, 7823, 0.11987861662
+run, 7543, 0.0978367164912
+reach, 7128, 0.0941403506784
+pitcher, 6644, 0.0860593445783
+unquestion, 9303, 0.0820056648078
+rsb, 7513, 0.0820056648078
+darrrrrrrrryl, 2376, 0.0820056648078
+seen, 7767, 0.0803692610939
+perri, 6557, 0.0800317569157
+interf, 4708, 0.0800317569157
+exuber, 3336, 0.0800317569157
+time, 8936, 0.0771721057984
+mayb, 5564, 0.0757937770427
+whine, 9732, 0.0745012933328
+vicin, 9501, 0.0745012933328
+gerald, 3853, 0.0734694158115
+eighth, 3016, 0.0716608015043
+stroke, 8454, 0.0681376095364
+wednesday, 9688, 0.0675522497104
+disput, 2737, 0.0675522497104
+row, 7501, 0.0664686941935
+gopher, 3952, 0.0664686941935
+crowd, 2245, 0.0664686941935
+right, 7399, 0.0658667759109
+game, 3761, 0.0656351903983
+inch, 4574, 0.0650230139658
+strawberri, 8434, 0.0637478336321
+seat, 7748, 0.0629741817642
+corner, 2149, 0.0629741817642
+wear, 9676, 0.0612520647441
+threw, 8894, 0.0609382306106
+incid, 4575, 0.0609382306106
+foot, 3587, 0.0603366025328
+fielder, 3467, 0.059766654125
+conclud, 2008, 0.0579794149867
+cardin, 1515, 0.0579794149867
+pinch, 6632, 0.0577465776363
+stadium, 8300, 0.0575186424908
+club, 1842, 0.0572954073756
+catch, 1556, 0.0572954073756
+feet, 3430, 0.0564458328999
+essenti, 3196, 0.0551027744785
+sit, 7993, 0.0549238196685
+race, 7049, 0.0534338591356
+shot, 7910, 0.0531288665865
+beat, 974, 0.0531288665865
+spot, 8261, 0.0528322310578
+media, 5605, 0.0526869064663
+loss, 5352, 0.0521243633389
+immedi, 4527, 0.0518536862528
+class, 1789, 0.0518536862528
+soon, 8136, 0.0515896117096
+gave, 3798, 0.0509563013866
+eye, 3337, 0.0508339665311
+lack, 5092, 0.0501276387482
+inning, 4657, 0.0499020780998
+realiz, 7149, 0.0496811210529
+went, 9704, 0.0483453556729
+death, 2423, 0.0483453556729
+took, 8987, 0.047780365598
+saw, 7650, 0.0476890020219
+lose, 5350, 0.0475984030036
+drive, 2873, 0.046984589759
+delet, 2502, 0.0464037176095
+haven, 4207, 0.0462433217942
+argument, 631, 0.0451825349913
+singl, 7983, 0.0448976101393
+center, 1606, 0.0437008263793
+everyon, 3241, 0.0431486462283
+short, 7904, 0.0427955762606
+claim, 1782, 0.0421767495779
+sorri, 8142, 0.0417479204715
+home, 4354, 0.0417479204715
+clear, 1803, 0.0415397117563
+stuff, 8472, 0.0414882792629
+field, 3466, 0.0407447478353
+quit, 7043, 0.0396520714084
+hit, 4316, 0.0378601261108
+howev, 4406, 0.0373231638598
+anyth, 555, 0.037115620389
+high, 4292, 0.0366135279685
+line, 5285, 0.0358862182187
+play, 6681, 0.0357042556243
+got, 3960, 0.0355253008142
+question, 7032, 0.0327716226481
+point, 6710, 0.0305595103753
+think, 8871, 0.0247959707384

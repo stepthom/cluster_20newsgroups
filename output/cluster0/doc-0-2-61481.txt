@@ -1,0 +1,236 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61481
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: hathaway@stsci.edu
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Lines: 66
+Organization: Space Telescope Science Institute
+Distribution: na
+
+In article <1rrhlo$ajb@access.digex.net>, prb@access.digex.net (Pat) writes:
+> In article <1993Apr30.101054.1@stsci.edu> hathaway@stsci.edu writes:
+>>In article <1rq3os$64i@access.digex.net>, prb@access.digex.net (Pat) writes:
+>>> In article <3t75nhg@rpi.edu> strider@clotho.acm.rpi.edu (Greg Moore) writes:
+> |> |
+.. 
+> 
+> After all the space walking,  they are going to  re-boost the HST's
+> orbit.  I think right now  it's sitting  at 180 miles up,
+> they would like  220.  I don't know the exact orbit numbers.
+
+As Ben says - this re-boost idea is all news to us here.  Do you know 
+something we don't?  Please supply a source - it would be nice for 
+the schedulers of observations to know where the thing is going to 
+be.  These altitude numbers are also way off.  
+
+My best source has: 
+"Minimum ST ALTITUDE in the PMDB is:    573 Kilometers"
+"Maximum ST ALTITUDE in the PMDB is:    603 Kilometers"
+"Delta   ST ALTITUDE in the PMDB is:      3 Kilometers" 
+
+(PMDB is Proposal Management Data Base - used to schedule observations.) 
+..
+
+> In order to perform the re-boost of the HST, the OMS engines
+> will be fired for a long period.  Now the shuttle is a heavy
+> thing.  THe HST isn't light either.  THe amount of OMS fuel
+> needed to fly both up is substantial.   a small booster
+> carried up and used to boost HST on it's own will weigh significantly
+> less then the OMS fuel required to Boost  both HST and SHUttle,
+> for a given orbital change.  
+> 
+
+Could you supply some calculations?  You might check some recent 
+postings that explained that 'a small booster' as suggested does 
+not now exist, so comparing the mass of something that doesn't 
+exist to the mass of the OMS fuel seems impossible.  The contamination 
+threat also remains.  
+
+.. 
+> 
+> or the HST could even get placed into  some sort of medium orbit.
+> The reason they want a high orbit, is less antenna pointing,
+> and longer drag life.
+> 
+  Longer drag life I can understand, but could you explain the 
+antenna pointing?  
+
+> Whatever it is,  the problem in the tilt array is a big constraint
+> on HST ops.
+
+Tell me about it.  Although the arrays can be (and are) moved perfectly 
+well utilizing the second electronics box.  Getting them both working 
+is much desireable so as to reclaim redundancy.  
+
+> 
+> pat
+> 
+
+I don't mean to jump on you - helpful suggestions are always welcome 
+and we all know the more ideas the better, but I do want the true 
+situation to be described clearly and correctly, lest some get 
+confused. 
+
+Regards, 
+Wm. Hathaway 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day            space
+walk go boost hst orbit think right it sit mile
+like don't know exact orbit number  ben say boost
+idea news know someth don't pleas suppli sourc
+nice schedul observ know thing go altitud number
+also way  best sourc minimum altitud pmdb kilomet
+maximum altitud pmdb kilomet delta altitud pmdb
+kilomet  pmdb propos manag data base use schedul
+observ   order perform boost hst om engin fire
+long period shuttl heavi thing hst isn't light
+either amount om fuel need fli substanti small
+booster carri use boost hst it weigh signific less
+om fuel requir boost hst shuttl given orbit chang
+could suppli calcul might check recent post
+explain small booster suggest exist compar mass
+someth doesn't exist mass om fuel seem imposs
+contamin threat also remain    hst could even get
+place sort medium orbit reason want high orbit
+less antenna point longer drag life  longer drag
+life understand could explain antenna point
+whatev problem tilt array big constraint hst op
+tell although array move perfect well util second
+electron box get work much desir reclaim redund
+pat   don't mean jump help suggest alway welcom
+know idea better want true situat describ clear
+correct lest get confus  regard hathaway
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hst, 4416, 0.434318461598
+pmdb, 6703, 0.341536586989
+boost, 1224, 0.282770266892
+om, 6228, 0.27082540411
+altitud, 452, 0.227144634286
+kilomet, 5016, 0.205163703359
+orbit, 6280, 0.191112720429
+fuel, 3715, 0.154174966477
+schedul, 7678, 0.144124431838
+booster, 1225, 0.120123013263
+antenna, 538, 0.120123013263
+drag, 2854, 0.117143331362
+array, 653, 0.109334007104
+suppli, 8574, 0.107496263971
+mass, 5533, 0.099892746188
+longer, 5337, 0.0943136741187
+know, 5052, 0.0909873454789
+observ, 6179, 0.087863793094
+explain, 3301, 0.0853761303028
+shuttl, 7929, 0.0850088041341
+small, 8054, 0.0822797590318
+suggest, 8525, 0.0805400240671
+sourc, 8153, 0.0779543531077
+life, 5260, 0.0777812314636
+exist, 3283, 0.075729062912
+lest, 5224, 0.0750262355945
+redund, 7206, 0.0737824041989
+hathaway, 4205, 0.072669759101
+idea, 4482, 0.072206778133
+don, 2811, 0.071860055888
+number, 6156, 0.0686784751968
+contamin, 2080, 0.0677063510275
+tilt, 8934, 0.0664625196319
+constraint, 2072, 0.0664625196319
+ben, 1020, 0.0664625196319
+op, 6256, 0.0643433646126
+weigh, 9694, 0.0629933980405
+someth, 8126, 0.0621726452061
+maximum, 5560, 0.0610680165527
+threat, 8891, 0.0607217441812
+medium, 5614, 0.0607217441812
+substanti, 8503, 0.0597462485586
+point, 6710, 0.0596164753087
+delta, 2509, 0.0591426350648
+thing, 8869, 0.0576998441685
+want, 9634, 0.0575339303355
+jump, 4929, 0.0575147482121
+heavi, 4230, 0.0565540533784
+minimum, 5740, 0.056326940084
+welcom, 9701, 0.0556735134735
+mile, 5713, 0.0544767216264
+imposs, 4553, 0.0541061446154
+sit, 7993, 0.0535735765873
+electron, 3034, 0.0521202451329
+desir, 2565, 0.0518227504978
+confus, 2037, 0.0508429418831
+calcul, 1451, 0.0508429418831
+util, 9384, 0.0495842680941
+remain, 7264, 0.0494662740044
+period, 6546, 0.0470629665642
+pat, 6458, 0.0468776923179
+use, 9363, 0.0466459978964
+perfect, 6538, 0.0461674845116
+whatev, 9718, 0.0460819750471
+signific, 7951, 0.0455020448133
+describ, 2556, 0.0455020448133
+fli, 3542, 0.0451064794245
+walk, 9617, 0.0448760624038
+carri, 1530, 0.0446505656974
+situat, 7995, 0.0445764575956
+compar, 1960, 0.0444297835549
+propos, 6933, 0.0443572034674
+servic, 7813, 0.0434564302107
+regard, 7224, 0.0432590345352
+box, 1254, 0.0431294579259
+check, 1682, 0.0430652610038
+perform, 6539, 0.042874979078
+nice, 6047, 0.0427500029311
+light, 5267, 0.0420296991764
+recent, 7168, 0.0419718340389
+exact, 3253, 0.0419142842444
+mission, 5772, 0.0417434930097
+engin, 3109, 0.0411933498133
+correct, 2156, 0.0406704528488
+sort, 8144, 0.0406195594434
+clear, 1803, 0.0405185025846
+manag, 5472, 0.0403192445757
+alway, 457, 0.0398842025092
+requir, 7302, 0.0392858520912
+data, 2385, 0.0391083628516
+isn, 4783, 0.038677267846
+chang, 1650, 0.0379430475141
+given, 3887, 0.0379037165146
+understand, 9246, 0.037864531456
+true, 9121, 0.0376707579246
+order, 6281, 0.0373306811304
+second, 7753, 0.0367518863582
+news, 6031, 0.0364739660775
+place, 6657, 0.0361698066512
+big, 1082, 0.0359717940781
+high, 4292, 0.0357134237311
+best, 1052, 0.03530660396
+tell, 8767, 0.0345086587909
+doesn, 2793, 0.0342555354865
+reason, 7156, 0.0340627725644
+long, 5336, 0.0332743198554
+problem, 6887, 0.0332237917152
+base, 923, 0.033048823149
+mean, 5595, 0.0326355917414
+right, 7399, 0.0321237560053
+better, 1060, 0.0315923049438
+day, 2402, 0.0313152260926
+pleas, 6688, 0.0310657571415
+help, 4249, 0.0310247459787
+post, 6766, 0.0308421415241
+space, 8164, 0.0299551667885
+work, 9833, 0.0299182424112
+need, 5993, 0.0283935391641
+way, 9666, 0.027624614393
+say, 7653, 0.0268113286851
+think, 8871, 0.0241863884455
+like, 5272, 0.0222360457682

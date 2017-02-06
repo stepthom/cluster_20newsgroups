@@ -1,0 +1,190 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105068
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@fenway.aix.kingston.ibm.com (Mike Jones)
+Subject: Re: How does a pitcher get a save?
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: fenway.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 43
+
+mikef@bvc.edu writes:
+>In article <1993Apr23.135139.18749@newshub.ariel.yorku.ca>, cs902060@ariel.yorku.ca (GEOFFREY E DIAS) writes:
+>> 	The subject line says it all. What is the rule that qualifies
+>> a pitcher as making a save?
+>IMHO this is the most untrustworthy, silly stat, by today's rules, in all 
+>of baseball.  My understanding is to qualify as a save a pitcher cannot 
+>pitch more than three innings and the potential tying run must at least 
+>appear in the on-deck circle.  Also, the lead a pitcher enters with cannot 
+>excede three runs.
+
+This is a phenomenon known around work as ready-fire-aim. I am astounded at
+the number of times people post strong opinions about things they not only
+don't understand but publicly admit to not understanding. In fact, there's a
+plausible argument that saves are a more rational stat than wins.
+
+For the record, there are two ways that a reliever can get a save:
+He must finish the game and either
+1. have entered the game with the tying run on base, at bat, or on deck.
+2. have pitched at least three innings effectively.
+A pitcher may not get a win and a save in the same game.
+
+>I believe that the official scorers must assert more of their authority in 
+>determining winners/savers/etc.  For instance, a pitcher can come in in the 
+>ninth with a lead, blow the lead, fall behind, have his team come back in 
+>the next half inning and earn the win.  Has this pitcher earned a win, no 
+>way.
+
+But this is an argument that *wins* is a dumb stat, not saves.
+
+>I guy could pitch five strong innings of middle relief and see his 
+>teammates rally to tie the score.  Assume he came in to start the fourth 
+>and left after the eighth.  His teammate holds the opposition scoreless in 
+>the ninth and they score a run in the bottom of the ninth to win.  The 
+>third pitcher earns the win and the middle reliever gets no "stat" 
+>satisfaction.
+
+This again doesn't support your claim about saves at the beginning of your
+post. 
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+Conceptual integrity is the most important consideration in system design.
+	- Frederick P. Brooks, Jr., The Mythical Man-Month
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pitcher get save         line say rule qualifi
+pitcher make save imho untrustworthi silli stat
+today rule basebal understand qualifi save pitcher
+cannot pitch three inning potenti tie run must
+least appear deck circl also lead pitcher enter
+cannot exced three run  phenomenon known around
+work readi fire aim astound number time peopl post
+strong opinion thing don't understand public admit
+understand fact there plausibl argument save
+ration stat win  record two way reliev get save
+must finish game either enter game tie run base
+bat deck pitch least three inning effect pitcher
+get win save game  believ offici scorer must
+assert author determin winner saver etc instanc
+pitcher come ninth lead blow lead fall behind team
+come back next half inning earn win pitcher earn
+win way  argument win dumb stat save  guy could
+pitch five strong inning middl relief see teammat
+ralli tie score assum came start fourth left
+eighth teammat hold opposit scoreless ninth score
+run bottom ninth win third pitcher earn win middl
+reliev get stat satisfact  doesn't support claim
+save begin post    conceptu integr import consider
+system design frederick brook mythic man month
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+save, 7646, 0.367589332123
+pitcher, 6644, 0.362983542693
+win, 9770, 0.29047305099
+inning, 4657, 0.210478399355
+stat, 8341, 0.207296507528
+earn, 2954, 0.191805442491
+ninth, 6075, 0.190867074186
+tie, 8923, 0.177290524754
+teammat, 8733, 0.14943443174
+deck, 2446, 0.14638561622
+lead, 5172, 0.139047817617
+run, 7543, 0.137552825249
+reliev, 7258, 0.127870294994
+pitch, 6643, 0.125025689686
+qualifi, 7015, 0.123288541456
+understand, 9246, 0.122798438093
+middl, 5699, 0.114379470827
+enter, 3125, 0.110809746012
+game, 3761, 0.103814237371
+strong, 8456, 0.101154993644
+score, 7705, 0.0987297067814
+rule, 7537, 0.0952860883345
+argument, 631, 0.0952860883345
+saver, 7647, 0.0864714543163
+satisfact, 7633, 0.0843900531532
+astound, 720, 0.0843900531532
+scorer, 7708, 0.0826302535446
+scoreless, 7707, 0.0797612228467
+ration, 7110, 0.0774703460777
+ralli, 7081, 0.0774703460777
+mythic, 5945, 0.0774703460777
+conceptu, 2003, 0.0774703460777
+frederick, 3667, 0.0764770154784
+brook, 1339, 0.0764770154784
+eighth, 3016, 0.0755632399064
+plausibl, 6680, 0.0731928081102
+phenomenon, 6585, 0.0731928081102
+aim, 353, 0.0676502022316
+post, 6766, 0.0666827531546
+come, 1923, 0.0662093069645
+winner, 9786, 0.065642216757
+dumb, 2914, 0.0652797704354
+relief, 7257, 0.0649284780964
+blow, 1172, 0.0649284780964
+silli, 7956, 0.0642567490516
+fourth, 3630, 0.0642567490516
+assert, 699, 0.0621753478885
+imho, 4524, 0.0606509401289
+opposit, 6270, 0.0599588433709
+instanc, 4680, 0.0597371645568
+way, 9666, 0.0597262463477
+integr, 4694, 0.0593063171906
+circl, 1765, 0.0593063171906
+readi, 7139, 0.0561817781623
+admit, 276, 0.0554048730061
+finish, 3488, 0.055255640813
+potenti, 6774, 0.054677486884
+consider, 2060, 0.0538617041902
+offici, 6207, 0.0531003487756
+fall, 3369, 0.0522718744738
+half, 4124, 0.0517148810703
+begin, 994, 0.0506763381338
+hold, 4341, 0.0499085799708
+determin, 2582, 0.0497244453304
+record, 7184, 0.0482687404875
+month, 5847, 0.0470498665806
+bat, 942, 0.0469062659424
+author, 796, 0.0468351373621
+appear, 580, 0.0464174285635
+came, 1472, 0.046014465546
+effect, 3005, 0.0457535147511
+known, 5054, 0.0456252426127
+left, 5193, 0.0454354969669
+claim, 1782, 0.0444735724403
+design, 2564, 0.044358836799
+assum, 710, 0.0443018985253
+public, 6973, 0.0438563356241
+today, 8964, 0.0436399101809
+import, 4551, 0.0432707662351
+guy, 4100, 0.0428630050248
+opinion, 6266, 0.042763300459
+man, 5471, 0.0394295654634
+support, 8576, 0.039318907729
+fact, 3350, 0.0391730130889
+basebal, 924, 0.0384702620136
+team, 8732, 0.0379051577038
+line, 5285, 0.0378404770763
+number, 6156, 0.0371218532686
+doesn, 2793, 0.0370313685131
+start, 8334, 0.0361360955387
+base, 923, 0.0357268725062
+believ, 1009, 0.0352544147312
+work, 9833, 0.0323426110337
+thing, 8869, 0.0311877213741
+peopl, 6530, 0.0309736632238
+say, 7653, 0.028983934385
+make, 5459, 0.028633091915
+time, 8936, 0.0271248912568
+don, 2811, 0.0258943668828

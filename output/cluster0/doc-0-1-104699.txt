@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104699
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: barring@cs.washington.edu (David Barrington)
+Subject: Moe Berg
+Organization: Computer Science & Engineering, U. of Washington, Seattle
+Lines: 22
+
+NPR this morning had an interview with Linda McCarthy (name possibly
+garbled by me), an official historian for the CIA.  She has won an Emmy
+for research on Moe Berg for a TV documentary (which I know from nothing
+but which sounds good).  She said that among other things, Berg was the 
+principal spy for the OSS (CIA's WWII precursor) spying on Axis atomic
+programs, because of his physics background and language skills.  She said
+that during the war he met with Heisenberg in Switzerland, and had 
+instructions to shoot Heisenberg if the Germans were close to us in bomb
+research (he concluded they were two years behind, and didn't shoot him).
+(I have heard elsewhere that Heisenberg deliberately misled the Nazi bomb
+program, but I don't know how reliable this is.)  Unfortunately, NPR didn't
+mention any kind of a book she's writing -- I'd certainly buy it.
+
+(In case you're wondering about baseball relevance, Berg was a longtime
+MLB backup catcher.  He was a member of an MLB All-Star team that toured
+Japan in 1934, presumably not because of his baseball prowess but because
+he was one of the few Americans, much less MLB players, who spoke Japanese.
+Photos he took of Tokyo on that trip were later used to plan bombing raids,
+according to McCarthy.)
+
+Dave MB
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moe berg    npr morn interview linda mccarthi
+name possibl garbl offici historian cia emmi
+research moe berg documentari know noth sound good
+said among thing berg princip spi oss cia wwii
+precursor spi axi atom program physic background
+languag skill said war met heisenberg switzerland
+instruct shoot heisenberg german close bomb
+research conclud two year behind didn't shoot
+heard elsewher heisenberg deliber misl nazi bomb
+program don't know reliabl unfortun npr didn't
+mention kind book she write i'd certain buy  case
+you'r wonder basebal relev berg longtim mlb backup
+catcher member mlb star team tour japan presum
+basebal prowess one american much less mlb player
+spoke japanes photo took tokyo trip later use plan
+bomb raid accord mccarthi  dave
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+berg, 1037, 0.394894373288
+heisenberg, 4242, 0.325066484306
+bomb, 1209, 0.248670397529
+mlb, 5795, 0.22704308303
+mccarthi, 5569, 0.216710989537
+npr, 6135, 0.210509430172
+moe, 5817, 0.191245627278
+spi, 8229, 0.1885967865
+cia, 1750, 0.18617858433
+shoot, 7900, 0.153421648768
+garbl, 3771, 0.108355494769
+research, 7307, 0.106898842402
+oss, 6311, 0.105254715086
+misl, 5763, 0.102721193612
+linda, 5282, 0.102721193612
+precursor, 6814, 0.100579131727
+raid, 7070, 0.0970868924549
+prowess, 6953, 0.0970868924549
+wwii, 9880, 0.0942983932499
+basebal, 924, 0.0936534836736
+didn, 2625, 0.0928360190675
+said, 7583, 0.0925156490311
+switzerland, 8639, 0.0919770269876
+tokyo, 8972, 0.0909472302803
+nazi, 5971, 0.0909472302803
+backup, 858, 0.0874549910082
+spoke, 8250, 0.0867036785
+deliber, 2503, 0.0867036785
+program, 6905, 0.0862663511029
+historian, 4315, 0.0846664918032
+tour, 9019, 0.0840487947135
+princip, 6869, 0.0840487947135
+german, 3854, 0.0834573907185
+interview, 4726, 0.0808277034873
+japanes, 4826, 0.079900967053
+elsewher, 3055, 0.079900967053
+axi, 840, 0.079900967053
+skill, 8006, 0.0790321906463
+reliabl, 7256, 0.0756810276768
+trip, 9104, 0.0753540503213
+japan, 4825, 0.0750345903566
+instruct, 4684, 0.0750345903566
+relev, 7254, 0.0747223098787
+photo, 6603, 0.0747223098787
+conclud, 2008, 0.0744168932668
+atom, 756, 0.0744168932668
+morn, 5864, 0.074118045266
+presum, 6845, 0.0738254892718
+catcher, 1557, 0.0716834273871
+background, 855, 0.0711958020406
+war, 9635, 0.0676239299061
+languag, 5113, 0.0670789229374
+unfortun, 9264, 0.0660491262301
+offici, 6207, 0.0646347644494
+buy, 1433, 0.0630813226477
+accord, 219, 0.062428813273
+met, 5655, 0.0618055744498
+american, 469, 0.0618055744498
+member, 5625, 0.061563900594
+took, 8987, 0.0613263581181
+physic, 6613, 0.0604148250732
+star, 8324, 0.0600878477177
+dave, 2395, 0.0600878477177
+know, 5052, 0.0598630440494
+later, 5140, 0.0582727631884
+plan, 6660, 0.0567520818649
+mention, 5632, 0.0556137700135
+sound, 8150, 0.0545616863785
+heard, 4224, 0.0527969118264
+close, 1830, 0.0526700077804
+noth, 6119, 0.0505640860888
+wonder, 9821, 0.0504559462711
+book, 1218, 0.0497728346186
+kind, 5021, 0.0495692280976
+certain, 1619, 0.0491707521504
+case, 1540, 0.0483138843863
+player, 6683, 0.0479493809576
+write, 9865, 0.0479044830302
+team, 8732, 0.0461388860166
+possibl, 6765, 0.0455590009133
+thing, 8869, 0.0379622934917
+good, 3948, 0.03572039537
+year, 9943, 0.034923019616
+don, 2811, 0.0315191207332
+use, 9363, 0.0306896680204

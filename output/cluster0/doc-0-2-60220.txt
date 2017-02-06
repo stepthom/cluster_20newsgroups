@@ -1,0 +1,186 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60220
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gawne@stsci.edu
+Subject: Re: Vulcan?  (No, not the guy with the ears!)
+Distribution: na
+Organization: Space Telescope Science Institute
+Lines: 42
+
+In article <VNci2B7w165w@inqmind.bison.mb.ca>, victor@inqmind.bison.mb.ca 
+(Victor Laking) writes:
+> Does anyone have any info on the apparent sightings of Vulcan?
+>  
+> All that I know is that there were apparently two sightings at 
+> drastically different times of a small planet that was inside Mercury's 
+> orbit.  Beyond that, I have no other info.
+
+The sightings were apparently spurious.  There is no planet inside of
+the orbit of Mercury.
+
+The idea of Vulcan came from the differences between Mercury's observed
+perihelion precession and the value it should have had according to
+Newtonian physics.  Leverrier made an extensive set of observations
+and calculations during the mid 19th century, and Simon Newcombe later
+improved on the observations and re-calculated using Leverrier's system
+of equations.  Now Leverrier was one of the co-discoverers of Neptune
+and since he had predicted its existence based on anomalies in the orbit
+of Uranus his inclination was to believe the same sort of thing was
+afoot with Mercury.
+
+But alas, 'twere not so.  Mercury's perihelion precesses at the rate
+it does because the space where it resides near the sun is significantly
+curved due to the sun's mass.  This explanation had to wait until 1915
+and Albert Einstein's synthesis of his earlier theory of the electrodynamics
+of moving bodies (commonly called Special Relativity) with Reimanian 
+geometry.  The result was the General Theory of Relativity, and one of
+it's most noteworthy strengths is that it accounts for the precession
+of Mercury's perihelion almost exactly.  (Exactly if you use Newcomb's
+numbers rather than Leverrier's.)
+
+Of course not everybody believes Einstein, and that's fine.  But subsequent
+efforts to find any planets closer to the sun than Mercury using radar
+have been fruitless.
+
+-Bill Gawne
+
+ "Forgive him, he is a barbarian, who thinks the customs of his tribe
+  are the laws of the universe."                       - G. J. Caesar
+
+Any opinions are my own.  Nothing in this post constitutes an official
+statement from any person or organization.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vulcan guy ear     inqmind bison  anyon info
+appar sight vulcan  know appar two sight drastic
+differ time small planet insid mercuri orbit
+beyond info  sight appar spurious planet insid
+orbit mercuri  idea vulcan came differ mercuri
+observ perihelion precess valu accord newtonian
+physic leverri made extens set observ calcul mid
+19th centuri simon newcomb later improv observ
+calcul use leverri system equat leverri one
+discover neptun sinc predict exist base anomali
+orbit uranus inclin believ sort thing afoot
+mercuri  ala twere mercuri perihelion precess rate
+space resid near sun signific curv due sun mass
+explan wait albert einstein synthesi earlier
+theori electrodynam move bodi common call special
+relat reimanian geometri result general theori
+relat one it noteworthi strength account precess
+mercuri perihelion almost exact exact use newcomb
+number rather leverri  cours everybodi believ
+einstein that fine subsequ effort find planet
+closer sun mercuri use radar fruitless  bill gawn
+forgiv barbarian think custom tribe law univers
+caesar  opinion noth post constitut offici
+statement person organ
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mercuri, 5640, 0.518458813493
+perihelion, 6543, 0.256081751977
+vulcan, 9598, 0.246981154875
+sight, 7943, 0.214624037015
+appar, 577, 0.175122015534
+planet, 6664, 0.172787058173
+observ, 6179, 0.156986421412
+sun, 8539, 0.156006199069
+einstein, 3018, 0.155681008548
+orbit, 6280, 0.136584597636
+calcul, 1451, 0.121121586328
+insid, 4671, 0.117841992521
+theori, 8848, 0.11621835657
+exact, 3253, 0.0998511181584
+info, 4636, 0.0990438523547
+spurious, 8271, 0.0980853224905
+caesar, 1446, 0.0980853224905
+bison, 1121, 0.0980853224905
+barbarian, 907, 0.0980853224905
+relat, 7247, 0.0961691384388
+discover, 2699, 0.0952784415306
+synthesi, 8657, 0.0878847831055
+drastic, 2860, 0.0865594729023
+ala, 373, 0.0865594729023
+anomali, 530, 0.0853605839925
+use, 9363, 0.0833425012177
+subsequ, 8498, 0.0823270516249
+uranus, 9348, 0.0814592032098
+simon, 7964, 0.0806473852339
+neptun, 6006, 0.0806473852339
+19th, 51, 0.0806473852339
+tribe, 9092, 0.0791658144772
+believ, 1009, 0.0776900474085
+differ, 2633, 0.0774644169669
+radar, 7055, 0.0755471155414
+inclin, 4578, 0.0755471155414
+ear, 2948, 0.0755471155414
+geometri, 3844, 0.0750336233141
+forgiv, 3605, 0.0736080829966
+albert, 383, 0.0736080829966
+strength, 8441, 0.0727402345815
+resid, 7311, 0.0719284166056
+constitut, 2070, 0.0711658308366
+explan, 3302, 0.0691215356457
+mid, 5698, 0.067639964889
+curv, 2306, 0.0673634963358
+custom, 2311, 0.0665687807593
+equat, 3157, 0.0660655611441
+everybodi, 3239, 0.0646664747013
+closer, 1831, 0.0640212659532
+extens, 3320, 0.0638133469582
+centuri, 1614, 0.0619038075402
+earlier, 2952, 0.0612143849933
+wait, 9611, 0.0605607931641
+account, 221, 0.0604025670175
+mass, 5533, 0.0594928589537
+effort, 3007, 0.0587820024398
+offici, 6207, 0.0585085392176
+improv, 4557, 0.0581091782848
+predict, 6816, 0.0569819637159
+statement, 8343, 0.056744620584
+accord, 219, 0.0565116729489
+special, 8198, 0.0560583333345
+fine, 3485, 0.0558376467476
+common, 1948, 0.0548898402818
+physic, 6613, 0.0546885749833
+rate, 7108, 0.0545891372101
+bodi, 1194, 0.054490479349
+signific, 7951, 0.0541990652472
+law, 5153, 0.0540084735282
+later, 5140, 0.0527495424385
+organ, 6287, 0.052664262025
+valu, 9414, 0.0514499295125
+near, 5982, 0.0509210126202
+came, 1472, 0.0507009694673
+small, 8054, 0.0490031387226
+result, 7332, 0.0488139800783
+general, 3818, 0.0485661136779
+sort, 8144, 0.0483833674206
+guy, 4100, 0.0472285374447
+opinion, 6266, 0.0471186781193
+noth, 6119, 0.0457715107208
+exist, 3283, 0.0451017579399
+set, 7815, 0.0450552558064
+cours, 2190, 0.0430434940493
+idea, 4482, 0.0430040000991
+person, 6562, 0.0419095002764
+univers, 9282, 0.0418015269713
+number, 6156, 0.0409026580404
+base, 923, 0.0393656005911
+sinc, 7977, 0.0383451375495
+post, 6766, 0.0367371454994
+space, 8164, 0.0356806390993
+thing, 8869, 0.0343641437618
+anyon, 554, 0.0338015433308
+time, 8936, 0.0298875205241
+think, 8871, 0.0288092469433
+know, 5052, 0.0270945464897

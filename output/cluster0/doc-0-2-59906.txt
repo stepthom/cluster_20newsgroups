@@ -1,0 +1,353 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/59906
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: leech@cs.unc.edu (Jon Leech)
+Subject: Space FAQ 15/15 - Orbital and Planetary Launch Services
+Supersedes: <launchers_730956689@cs.unc.edu>
+Organization: University of North Carolina, Chapel Hill
+Lines: 195
+Distribution: world
+Expires: 6 May 1993 20:02:47 GMT
+NNTP-Posting-Host: mahler.cs.unc.edu
+Keywords: Frequently Asked Questions
+
+Archive-name: space/launchers
+Last-modified: $Date: 93/04/01 14:39:11 $
+
+ORBITAL AND PLANETARY LAUNCH SERVICES
+
+The following data comes from _International Reference Guide to Space Launch
+Systems_ by Steven J. Isakowitz, 1991 edition.
+
+Notes:
+    * Unless otherwise specified, LEO and polar paylaods are for a 100 nm
+	orbit.
+    * Reliablity data includes launches through Dec, 1990. Reliabity for a
+	familiy of vehicles includes launches by types no longer built when
+	applicable
+    * Prices are in millions of 1990 $US and are subject to change.
+    * Only operational vehicle families are included. Individual vehicles
+	which have not yet flown are marked by an asterisk (*) If a vehicle
+	had first launch after publication of my data, it may still be
+	marked with an asterisk.
+
+
+Vehicle        |     Payload  kg  (lbs)   | Reliability | Price | Launch Site
+(nation)       |  LEO	   Polar    GTO   |		|	| (Lat. & Long.)
+--------------------------------------------------------------------------------
+
+Ariane					    35/40  87.5%	  Kourou
+(ESA)								 (5.2 N, 52.8 W)
+  AR40		4,900	  3,900    1,900    1/1		  $65m
+	       (10,800)  (8,580)  (4,190)
+  AR42P		6,100	  4,800    2,600    1/1		  $67m
+	       (13,400)  (10,600) (5,730)
+  AR44P		6,900	  5,500    3,000    0/0 ?	  $70m
+	       (15,200)  (12,100) (6,610)
+  AR42L		7,400	  5,900    3,200    0/0 ?	  $90m
+	       (16,300)  (13,000) (7,050)
+  AR44LP	8,300	  6,600    3,700    6/6		  $95m
+	       (18,300)  (14,500) (8,160)
+  AR44L		9,600	  7,700    4,200    3/4		  $115m
+	       (21,100)  (16,900) (9,260)
+
+* AR5	       18,000	   ???	   6,800    0/0		  $105m
+	      (39,600)		  (15,000)
+	       [300nm]
+
+
+Atlas					   213/245 86.9%	 Cape Canaveral
+(USA)								 (28.5 N, 81.0W)
+  Atlas E	 --	   820	     --     15/17	  $45m	 Vandeberg AFB
+			  (1,800)				(34.7 N, 120.6W)
+
+  Atlas I	5,580	  4,670    2,250    1/1		  $70m
+	       (12,300)  (10,300) (4,950)
+
+  Atlas II	6,395	  5,400    2,680    0/0		  $75m
+	       (14,100)  (11,900) (5,900)
+
+  Atlas IIA	6,760	  5,715    2,810    0/0		  $85m
+	       (14,900)  (12,600) (6,200)
+
+* Atlas IIAS	8,390	  6,805    3,490    0/0		  $115m
+	       (18,500)  (15,000) (7,700)
+
+
+Delta					   189/201 94.0%	 Cape Canaveral
+(USA)								 Vandenberg AFB
+  Delta 6925	3,900	  2,950    1,450   14/14	  $45m
+	       (8,780)	 (6,490)  (3,190)
+
+  Delta 7925	5,045	  3,830    1,820    1/1		  $50m
+	       (11,100)  (8,420)  (2,000)
+
+
+Energia					    2/2  100%		 Baikonur
+(Russia)							 (45.6 N 63.4 E)
+  Energia      88,000	 80,000     ???     2/2		  $110m
+	      (194,000) (176,000)
+
+
+H series				    22/22 100%		 Tangeshima
+(Japan)								(30.2 N 130.6 E)
+* H-2	       10,500	 6,600	   4,000    0/0		  $110m
+	      (23,000)	(14,500)  (8,800)
+
+
+Kosmos					   371/377 98.4%	 Plestek
+(Russia)							 (62.8 N 40.1 E)
+  Kosmos      1100 - 1350  (2300 - 3000)		 $???	 Kapustin Yar
+	      [400 km orbit ??? inclination]			 (48.4 N 45.8 E)
+
+
+Long March				    23/25 92.0%		 Jiquan SLC
+(China)								 (41 N	100 E)
+* CZ-1D		 720	  ???	    200     0/0		  $10m	 Xichang SLC
+		(1,590)		   (440)			 (28 N	102 E)
+								 Taiyuan SLC
+  CZ-2C		3,200	  1,750    1,000    12/12	  $20m	 (41 N	100 E)
+	       (7,040)	 (3,860)  (2,200)
+
+  CZ-2E		9,200	   ???	   3,370    1/1		  $40m
+	       (20,300)		  (7,430)
+
+* CZ-2E/HO     13,600	   ???	   4,500    0/0		  $???
+	      (29,900)		  (9,900)
+
+  CZ-3		???	   ???	   1,400    6/7		  $33m
+				  (3,100)
+
+* CZ-3A		???	   ???	   2,500    0/0		  $???m
+				  (5,500)
+
+  CZ-4		4,000	   ???	   1,100    2/2		  $???m
+	       (8,800)		  (2,430)
+
+
+Pegasus/Taurus				    2/2   100%		Peg:  B-52/L1011
+(USA)								Taur: Canaveral
+  Pegasus	 455	   365	    125     2/2		  $10m	  or Vandenberg
+		(1,000)   (800)    (275)
+
+* Taurus	1,450	  1,180     375     0/0		  $15m
+	       (3,200)	 (2,600)   (830)
+
+
+Proton					   164/187 87.7%	 Baikonour
+(Russia)
+  Proton       20,000	   ???	   5,500   164/187	  $35-70m
+	      (44,100)		  (12,200)
+
+
+SCOUT					    99/113 87.6%	Vandenberg AFB
+(USA)								Wallops FF
+  SCOUT G-1	 270	   210	    54	    13/13	  $12m	(37.9 N  75.4 W)
+		(600)	  (460)    (120)			San Marco
+								(2.9 S	40.3 E)
+* Enhanced SCOUT 525	   372	   110	    0/0		  $15m
+		(1,160)   (820)   (240)
+
+
+Shavit					    2/2   100%		Palmachim AFB
+(Israel)							( ~31 N)
+  Shavit	 ???	   160	   ???	    2/2		  $22m
+			  (350)
+
+Space Shuttle				    37/38  97.4%	Kennedy Space
+(USA)								Center
+  Shuttle/SRB  23,500	   ???	   5,900    37/38	  $248m (28.5 N 81.0 W)
+	      (51,800)		  (13,000)		  [FY88]
+
+* Shuttle/ASRM 27,100	   ???	   ???	    0/0
+	      (59,800)
+
+
+SLV					    2/6    33.3%	SHAR Center
+(India)       (400km)  (900km polar)				(13.9 N 80.4 E)
+  ASLV		150	   ???	    ???     0/2		  $???m
+	       (330)
+
+* PSLV		3,000	  1,000     450     0/0		  $???m
+	       (6,600)	 (2,200)   (990)
+
+* GSLV		8,000	   ???	   2,500    0/0		  $???m
+	       (17,600)		  (5,500)
+
+
+Titan					    160/172 93.0%	Cape Canaveral
+(USA)								Vandenberg
+  Titan II	 ???	  1,905     ???     2/2		   $43m
+			 (4,200)
+
+  Titan III    14,515	  ???	   5,000    2/3		   $140m
+	      (32,000)		  (11,000)
+
+  Titan IV/SRM 17,700	 14,100    6,350    3/3		   $154m-$227m
+	      (39,000)	(31,100)  (14,000)
+
+ Titan IV/SRMU 21,640	 18,600    8,620    0/0		   $???m
+	      (47,700)	(41,000)  (19,000)
+
+
+Vostok					    1358/1401 96.9%	Baikonur
+(Russia)		 [650km]				Plesetsk
+  Vostok	4,730	  1,840     ???     ?/149	   $14m
+	      (10,400)	(4,060)
+
+  Soyuz		7,000	   ???	    ???     ?/944	   $15m
+	      (15,400)
+
+  Molniya	1500kg (3300 lbs) in	    ?/258	   $???M
+		Highly eliptical orbit
+
+
+Zenit					    12/13  92.3%	Baikonur
+(Russia)
+  Zenit        13,740	 11,380    4,300    12/13	   $65m
+	      (30,300)	(25,090)  (9,480)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space faq orbit planetari launch servic     expir
+gmt    archiv name space launcher last modifi date
+orbit planetari launch servic  follow data come
+intern refer guid space launch system steven
+isakowitz edit  note unless otherwis specifi leo
+polar paylaod orbit reliabl data includ launch
+reliab familiy vehicl includ launch type longer
+built applic price million chang oper vehicl
+famili includ individu vehicl yet flown mark
+asterisk vehicl first launch public data still
+mark asterisk   vehicl payload lbs reliabl price
+launch site nation leo polar gto lat long   arian
+kourou esa ar40 65m  ar42p 67m  ar44p 70m  ar42l
+90m  ar44lp 95m  ar44l 115m   ar5 105m  300nm
+atlas cape canaver usa atlas 45m vandeberg afb
+atlas 70m   atlas 75m   atlas iia 85m   atlas iia
+115m    delta cape canaver usa vandenberg afb
+delta 45m   delta 50m    energia baikonur russia
+energia 110m    seri tangeshima japan 110m
+kosmo plestek russia kosmo kapustin yar orbit
+inclin   long march jiquan slc china 10m xichang
+slc  taiyuan slc 20m   40m      33m
+pegasus taurus peg l1011 usa taur canaver pegasus
+10m vandenberg   taurus 15m    proton baikonour
+russia proton 70m    scout vandenberg afb usa
+wallop scout 12m san marco  enhanc scout 15m
+shavit palmachim afb israel shavit 22m   space
+shuttl kennedi space usa center shuttl srb 248m
+fy88  shuttl asrm    slv shar center india 400km
+900km polar aslv   pslv   gslv    titan cape
+canaver usa vandenberg titan 43m   titan iii 140m
+titan srm 154m 227m   titan srmu    vostok
+baikonur russia 650km plesetsk vostok 14m   soyuz
+15m   molniya 1500kg lbs high elipt orbit   zenit
+baikonur russia zenit 65m
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+atlas, 751, 0.294612904587
+afb, 308, 0.236383667952
+russia, 7550, 0.234288365605
+canaver, 1485, 0.230693822149
+usa, 9357, 0.224786112933
+titan, 8951, 0.217402472316
+vandenberg, 9420, 0.21475210312
+launch, 5147, 0.214723185452
+slc, 8023, 0.189244040237
+70m, 136, 0.189244040237
+15m, 25, 0.189244040237
+vehicl, 9449, 0.186837162134
+cape, 1501, 0.158833265048
+scout, 7714, 0.151573836646
+polar, 6716, 0.146040964997
+orbit, 6280, 0.141193046299
+delta, 2509, 0.131082778669
+vostok, 9584, 0.126162693491
+asterisk, 714, 0.126162693491
+10m, 11, 0.126162693491
+zenit, 9981, 0.121673738204
+taurus, 8717, 0.118191833976
+lbs, 5166, 0.112941563035
+space, 8164, 0.110653577684
+energia, 3103, 0.103282152201
+pegasus, 6507, 0.0990961943112
+proton, 6944, 0.0973606433312
+shuttl, 7929, 0.0942060684734
+leo, 5216, 0.0913099982019
+data, 2385, 0.0866791421479
+reliabl, 7256, 0.0849831710724
+includ, 4579, 0.0805382931092
+planetari, 6665, 0.0796799157822
+price, 6857, 0.0725791841503
+servic, 7813, 0.0642107521566
+mark, 5512, 0.0635384812358
+20m, 61, 0.0630813467455
+center, 1606, 0.0629844392842
+srm, 8286, 0.0608368691021
+50m, 114, 0.0608368691021
+40m, 107, 0.0608368691021
+shar, 7854, 0.0590959169881
+kourou, 5069, 0.0590959169881
+gto, 4075, 0.0590959169881
+wallop, 9624, 0.0564707815173
+peg, 6506, 0.0564707815173
+marco, 5505, 0.0564707815173
+china, 1709, 0.055428977894
+lat, 5138, 0.05368802578
+arian, 633, 0.05368802578
+steven, 8391, 0.0529444216828
+kennedi, 4984, 0.0522655643292
+soyuz, 8163, 0.0510628903091
+srb, 8280, 0.0505246122152
+flown, 3557, 0.0505246122152
+israel, 4791, 0.0495480971556
+india, 4597, 0.0495480971556
+long, 5336, 0.049165775814
+esa, 3183, 0.0482801345718
+inclin, 4578, 0.0468576731211
+enhanc, 3113, 0.0465391824578
+iii, 4502, 0.0453812188055
+launcher, 5148, 0.0446131954777
+specifi, 8204, 0.0434804944632
+guid, 4082, 0.0430697713275
+japan, 4825, 0.0421286392665
+march, 5504, 0.0417818293786
+famili, 3378, 0.0416140393025
+expir, 3300, 0.0402471078928
+gmt, 3917, 0.0390843415701
+payload, 6477, 0.0387323147393
+archiv, 618, 0.0383954881385
+modifi, 5814, 0.0373674324268
+edit, 2996, 0.037177131826
+faq, 3385, 0.0364592060992
+million, 5724, 0.0360418907048
+san, 7603, 0.0352687896431
+otherwis, 6313, 0.0349797959444
+longer, 5337, 0.0348392166847
+intern, 4716, 0.0347011256846
+date, 2391, 0.0343009385908
+built, 1381, 0.0341719780046
+applic, 585, 0.0341719780046
+individu, 4604, 0.0341082883625
+oper, 6261, 0.0326647120469
+site, 7994, 0.0321545998241
+seri, 7805, 0.0318163823796
+unless, 9289, 0.0317692406179
+nation, 5962, 0.0307156959272
+type, 9177, 0.0304731290998
+public, 6973, 0.02997209183
+refer, 7213, 0.0287640867965
+note, 6118, 0.0281494432855
+chang, 1650, 0.0280321187012
+high, 4292, 0.026384884685
+follow, 3578, 0.025643423683
+come, 1923, 0.022624227493

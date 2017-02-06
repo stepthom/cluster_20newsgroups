@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61032
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: swoithe@crackle.uucp (Stan Woithe)
+Subject: Re: Mars Observer Update - 04/14/93
+Organization: University of Adelaide
+Lines: 30
+Distribution: world
+NNTP-Posting-Host: crackle.itd.adelaide.edu.au
+Keywords: Mars Observer, JPL
+
+Hiya 
+
+I'm a VERY amuture astronomer in Adelaide Australia, and today, I heard some
+very interesting and exciting news from a local program on TV. As I couldn't
+find anything on it on the news server, I have posted this. However, if it is
+old information, tell me, and ill sue the TV station for saying they are 
+'Up to date' ;-)
+
+(Also, my news server could be slow. . so . . .!!!
+
+I only caught the end of the article, so all the information on the topic
+is not known to me at the moment.
+
+The news is of a small 'psudo' planet outside the orbit of pluto found in a 
+Hawiian obsevatory, supposably 'recently' - acording to the report.
+It was meant to be about 150miles in diamater, and a faily large distance 
+from the plutos orbit.  (it had a computer drawing, and the orbit distance
+from pluto was about the same as neptune to pluto when they are furthest
+apart.  This is all I found out about it. OH it is called Karna. (un-officially
+).  
+CAn anyone give any more information to me on it???
+
+Thanx.
+
+Brendan Woithe
+swoithe@crackle.aelmg.adelaide.edu.au
+
+BTW - if this is old news, does anyone know a good lawyer. . . .8)
+
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mar observ updat       hiya  i'm amutur astronom
+adelaid australia today heard interest excit news
+local program couldn't find anyth news server post
+howev old inform tell ill sue station say up date
+also news server could slow  caught end articl
+inform topic known moment  news small psudo planet
+outsid orbit pluto found hawiian obsevatori suppos
+recent acord report meant 150mile diamat faili
+larg distanc pluto orbit comput draw orbit distanc
+pluto neptun pluto furthest apart found call karna
+offici  anyon give inform  thanx  brendan woith
+btw old news anyon know good lawyer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pluto, 6701, 0.466949794539
+news, 6031, 0.363475896747
+orbit, 6280, 0.228540654855
+server, 7812, 0.217910364849
+inform, 4637, 0.207537304239
+distanc, 2744, 0.205992141076
+brendan, 1296, 0.159424984938
+old, 6216, 0.159173232463
+lawyer, 5157, 0.136301896171
+neptun, 6006, 0.134943518908
+sue, 8519, 0.133667519608
+ill, 4505, 0.132464475467
+thanx, 8833, 0.121022706285
+excit, 3265, 0.119706806419
+apart, 559, 0.115657850844
+caught, 1568, 0.11365180579
+anyon, 554, 0.11311710078
+australia, 792, 0.110135727854
+meant, 5598, 0.106433661587
+astronom, 728, 0.104801251359
+slow, 8044, 0.104182161362
+mar, 5500, 0.103580762092
+topic, 8992, 0.100549087335
+outsid, 6332, 0.100041893096
+moment, 5828, 0.100041893096
+btw, 1355, 0.0993033070527
+offici, 6207, 0.0978996175177
+planet, 6664, 0.0963721827806
+couldn, 2176, 0.095750042636
+draw, 2861, 0.0934305373674
+date, 2391, 0.0925347620768
+updat, 9333, 0.0911763848143
+local, 5322, 0.0895931166636
+station, 8346, 0.0888440147361
+observ, 6179, 0.0875593592388
+suppos, 8577, 0.0855785057406
+known, 5054, 0.0841179748142
+report, 7291, 0.0837681461111
+recent, 7168, 0.0836528168229
+small, 8054, 0.081994672953
+today, 8964, 0.0804576733248
+heard, 4224, 0.0799693093639
+larg, 5124, 0.0779457173788
+comput, 1993, 0.0729703145409
+howev, 4406, 0.0725589488256
+end, 3091, 0.0725589488256
+anyth, 555, 0.0721554692028
+tell, 8767, 0.0687781837211
+articl, 665, 0.0678351848468
+program, 6905, 0.0653320457618
+post, 6766, 0.061470556968
+good, 3948, 0.0541042127111
+say, 7653, 0.0534368635213
+know, 5052, 0.0453360445095

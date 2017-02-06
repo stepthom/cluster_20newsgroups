@@ -1,0 +1,223 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82800
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: david@terminus.ericsson.se (David Bold)
+Subject: Re: Question for those with popular morality
+Reply-To: david@terminus.ericsson.se
+Distribution: world
+Organization: Camtec Electronics (Ericsson), Leicester, England
+Lines: 50
+Nntp-Posting-Host: bangkok
+
+Paul Hudson Jr (hudson@athena.cs.uga.edu) writes:
+
+>I was not directly going to come up with a moral argument for the  existence
+>of God.  Rather, I was trying to show the absurdity of atheistic materialist
+>relatavists trying to embrace some common moral system as though it were
+>absolute.  Man knows in his heart that there is right and wrong.  We have
+>all inherited this knowledge.  
+
+No matter how "absurd" it is to suggest that a common moral system created by
+mankind is absolute, it is not contrary to reason to suggest that a common
+moral system created by mankind is sensible. In fact, for the Bible to be of
+any use to mankind as a moral code, it must be interpreted by mankind and a
+workable moral system created for everyday use.
+
+The Jewish Talmud is the result of centuries of Biblical scholars analysing
+every word of the Torah to understand the morality behind it. The Children of
+Israel were given a very strict set of Moral, Civil, Judicial and Ceremonial
+Laws to follow and yet this was clearly not enough to cover every instance
+of moral dilemma in their Society. For a Christian, the situation is no better.
+
+It seems to me that the only code of morality that we have from the Judeo-
+Christian God is that which is contained in the Bible (which we can see from
+the diverse opinions in the Christian newsgroups is not clear). There may well
+be an absolute morality defined by the Judeo-Christian God for mankind to
+follow but it seems that we only have a subset simply because the concept was
+written down by man.
+
+This leads to the problem of defining morality for our society. If we take the
+divine Morality then we have a code of practice which may be interpreted in many
+different ways (as an example, consider the immolation of heretics in the
+fifteenth century and the interpretation of the Bible which allows a man to do
+that to another man under the precept to administer Justice). If we take an
+agnostic Morality then we have a code of practice that can be modified to suit
+society (with all the danger that this implies). Alternatively, we could take
+the basis of the Judeo-Christian morality and interpret/extend this to create
+and justify a code of morality which suits the society we live in and enables
+the people to live Righteously (as many Christian and Non-Christian philosophers
+have done).
+
+Whatever the driving force behind the definition of morality for our society, I
+think the important aspect is the result.
+
+David.
+
+---
+On religion:
+
+"Oh, where is the sea?", the fishes cried,
+As they swam its clearness through.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question popular moral         direct go come
+moral argument exist god rather tri show absurd
+atheist materialist relatavist tri embrac common
+moral system though absolut man know heart right
+wrong inherit knowledg  matter absurd suggest
+common moral system creat mankind absolut contrari
+reason suggest common moral system creat mankind
+sensibl fact bibl use mankind moral code must
+interpret mankind workabl moral system creat
+everyday use  jewish talmud result centuri biblic
+scholar analys everi word torah understand moral
+behind children israel given strict set moral
+civil judici ceremoni law follow yet clear enough
+cover everi instanc moral dilemma societi
+christian situat better  seem code moral judeo
+christian god contain bibl see divers opinion
+christian newsgroup clear well absolut moral defin
+judeo christian god mankind follow seem subset
+simpli concept written man  lead problem defin
+moral societi take divin moral code practic
+interpret mani differ way exampl consid immol
+heret fifteenth centuri interpret bibl allow man
+anoth man precept administ justic take agnost
+moral code practic modifi suit societi danger
+impli altern could take basi judeo christian moral
+interpret extend creat justifi code moral suit
+societi live enabl peopl live righteous mani
+christian non christian philosoph done  whatev
+drive forc behind definit moral societi think
+import aspect result  david   religion  sea fish
+cri swam clear
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moral, 5855, 0.675367408719
+mankind, 5484, 0.251304951108
+christian, 1732, 0.207910859518
+societi, 8093, 0.198390401332
+judeo, 4919, 0.181716923308
+code, 1871, 0.166303728961
+interpret, 4720, 0.157933811563
+creat, 2217, 0.129406530544
+absolut, 193, 0.117047435069
+man, 5471, 0.115615754376
+bibl, 1071, 0.110168396489
+common, 1948, 0.109553529843
+absurd, 200, 0.0985506222308
+clear, 1803, 0.0963271426094
+god, 3926, 0.08848472629
+suit, 8529, 0.0843692285693
+centuri, 1614, 0.0823683774862
+defin, 2482, 0.0734455976594
+practic, 6793, 0.0733078421501
+talmud, 8686, 0.0652555084233
+precept, 6807, 0.0652555084233
+judici, 4923, 0.0652555084233
+fifteenth, 3470, 0.0652555084233
+administ, 272, 0.0652555084233
+result, 7332, 0.0649512283244
+suggest, 8525, 0.0638242604341
+swam, 8620, 0.0633881093113
+dilemma, 2645, 0.0618623331405
+live, 5310, 0.0613669906349
+heret, 4267, 0.0594548369638
+embrac, 3065, 0.0594548369638
+subset, 8499, 0.0575874378518
+inherit, 4645, 0.0575874378518
+everyday, 3240, 0.0575874378518
+agnost, 335, 0.0575874378518
+everi, 3235, 0.0573258125088
+workabl, 9834, 0.056789825086
+torah, 8997, 0.056061661681
+follow, 3578, 0.0550118595793
+ceremoni, 1616, 0.0547716363098
+divers, 2762, 0.054194262569
+analys, 489, 0.0536541655043
+sensibl, 7790, 0.0531468222973
+israel, 4791, 0.0531468222973
+atheist, 740, 0.051378461027
+fish, 3505, 0.0506171546086
+sea, 7739, 0.0502609902215
+scholar, 7683, 0.0499193672803
+enabl, 3083, 0.0495911448222
+strict, 8445, 0.0492753111154
+cri, 2228, 0.0492753111154
+contrari, 2100, 0.0486772996331
+tri, 9087, 0.0484725570399
+righteous, 7400, 0.0475959783437
+mani, 5479, 0.0474761806593
+justic, 4937, 0.0466385238848
+civil, 1778, 0.0464153479936
+philosoph, 6595, 0.0457794523364
+divin, 2766, 0.0455777895675
+justifi, 4939, 0.0441186958208
+danger, 2356, 0.0441186958208
+instanc, 4680, 0.0437904733627
+impli, 4546, 0.0436310666393
+heart, 4225, 0.0424545925346
+extend, 3319, 0.0423185147404
+altern, 450, 0.0416694609045
+biblic, 1072, 0.0415454793783
+aspect, 693, 0.0415454793783
+jewish, 4864, 0.0410671434792
+popular, 6746, 0.0402906902695
+modifi, 5814, 0.0400814643731
+basi, 936, 0.0398773420598
+concept, 2002, 0.0386596473025
+cover, 2194, 0.0384870927367
+children, 1707, 0.0377518161992
+knowledg, 5053, 0.0372952338864
+newsgroup, 6032, 0.0370041227971
+use, 9363, 0.0369648054173
+contain, 2079, 0.0367922481905
+written, 9867, 0.0365178432809
+whatev, 9718, 0.0365178432809
+drive, 2873, 0.0363177875404
+definit, 2484, 0.0361870255058
+law, 5153, 0.03593147588
+religion, 7261, 0.0354426595789
+situat, 7995, 0.0353247900254
+argument, 631, 0.0349248490785
+forc, 3594, 0.0346504441689
+simpli, 7967, 0.0342807929136
+lead, 5172, 0.0339764466485
+david, 2397, 0.0337795293291
+non, 6097, 0.0331697818537
+matter, 5553, 0.0324756141622
+direct, 2667, 0.0320692916425
+allow, 432, 0.0320692916425
+import, 4551, 0.031719740136
+opinion, 6266, 0.0313477411181
+wrong, 9869, 0.0307171718214
+exampl, 3258, 0.0303539803117
+given, 3887, 0.0300369499794
+understand, 9246, 0.0300058976249
+exist, 3283, 0.0300058976249
+word, 9829, 0.0299749600668
+set, 7815, 0.0299749600668
+consid, 2059, 0.0293503697654
+fact, 3350, 0.0287158722536
+reason, 7156, 0.0269931787634
+anoth, 533, 0.0269715823645
+problem, 6887, 0.0263283250732
+differ, 2633, 0.0257682790123
+right, 7399, 0.0254565974266
+question, 7032, 0.025331557321
+better, 1060, 0.0250354469322
+come, 1923, 0.024267446526
+peopl, 6530, 0.0227053189486
+way, 9666, 0.0218912348715
+think, 8871, 0.0191665991286
+know, 5052, 0.0180258203959

@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60230
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: shafer@rigel.dfrf.nasa.gov (Mary Shafer)
+Subject: Re: Space Research Spin Off
+In-Reply-To: prb@access.digex.com's message of 6 Apr 1993 14:06:57 -0400
+Organization: NASA Dryden, Edwards, Cal.
+	<pgf.734062799@srl03.cacs.usl.edu>
+	<SHAFER.93Apr6094402@rigel.dfrf.nasa.gov> <1psgs1$so4@access.digex.net>
+Lines: 38
+
+On 6 Apr 1993 14:06:57 -0400, prb@access.digex.com (Pat) said:
+
+Pat> In article <SHAFER.93Apr6094402@rigel.dfrf.nasa.gov>
+Pat> shafer@rigel.dfrf.nasa.gov (Mary Shafer) writes:
+
+>successful we were.  (Mind you, the Avro Arrow and the X-15 were both
+>fly-by-wire aircraft much earlier, but analog.)
+>
+
+Pat> Gee, I thought the X-15 was Cable controlled.  Didn't one of them
+Pat> have a total electrical failure in flight?  Was there machanical
+Pat> backup systems?
+
+All reaction-controlled aircraft are fly-by-wire, at least the RCS part
+is.  On the X-15 the aerodynamic control surfaces (elevator, rudder, etc)
+were conventionally controlled (pushrods and cables) but the RCS jets
+were fly-by-wire.
+
+|The NASA habit of acquiring second-hand military aircraft and using
+|them for testbeds can make things kind of confusing.  On the other
+|hand, all those second-hand Navy planes give our test pilots a chance
+|to fold the wings--something most pilots at Edwards Air Force Base
+|can't do.  
+
+Pat> What do you mean?  Overstress the wings, and they fail at teh
+Pat> joints?
+
+Navy aircraft have folding or sweeping wings, in order to save space
+on the hangar deck.  The F-14 wings sweep, all the rest fold the
+wingtips up at a joint.
+
+Air Force planes don't have folding wings, since the Air Force has
+lots of room.
+
+--
+Mary Shafer  DoD #0362 KotFR NASA Dryden Flight Research Facility, Edwards, CA
+shafer@rigel.dfrf.nasa.gov                    Of course I don't speak for NASA
+ "A MiG at your six is better than no MiG at all."  Unknown US fighter pilot
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space research spin    access digex net
+success mind avro arrow fli wire aircraft much
+earlier analog   pat gee thought cabl control
+didn't one pat total electr failur flight machan
+pat backup system  reaction control aircraft fli
+wire least rcs part aerodynam control surfac elev
+rudder etc convent control pushrod cabl rcs jet
+fli wire  nasa habit acquir second hand militari
+aircraft use testb make thing kind confus hand
+second hand navi plane give test pilot chanc fold
+wing someth pilot edward air forc base can't  pat
+mean overstress wing fail teh pat joint  navi
+aircraft fold sweep wing order save space hangar
+deck wing sweep rest fold wingtip joint  air forc
+plane don't fold wing sinc air forc lot room
+mari shafer dod kotfr nasa dryden flight research
+facil edward  mig six better mig unknown fighter
+pilot
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wing, 9779, 0.329385663545
+fold, 3574, 0.3253700992
+aircraft, 359, 0.263508530836
+pat, 6458, 0.262361530925
+wire, 9793, 0.206270738913
+pilot, 6631, 0.206270738913
+control, 2107, 0.19732604945
+rcs, 7127, 0.179072000631
+mig, 5708, 0.171117334985
+air, 357, 0.166906399493
+cabl, 1442, 0.153099297746
+fli, 3542, 0.151469124157
+forc, 3594, 0.14683174244
+sweep, 8629, 0.146298098569
+edward, 3003, 0.141987766641
+joint, 4882, 0.139203213963
+navi, 5968, 0.137513825942
+hand, 4145, 0.128625416674
+plane, 6663, 0.11473684041
+flight, 3544, 0.102784978182
+avro, 828, 0.092173710279
+research, 7307, 0.0909345940394
+hangar, 4153, 0.0895360003157
+nasa, 5956, 0.0889724329069
+overstress, 6353, 0.0873808343518
+kotfr, 5066, 0.0873808343518
+testb, 8814, 0.0855586674927
+arrow, 658, 0.0825879584245
+aerodynam, 300, 0.0825879584245
+second, 7753, 0.0822760736934
+digex, 2641, 0.0802158930449
+fighter, 3475, 0.079187358836
+elev, 3040, 0.0782411990825
+teh, 8750, 0.0765496488728
+dod, 2789, 0.0765496488728
+deck, 2446, 0.0757867592476
+backup, 858, 0.0743944829088
+acquir, 244, 0.0731490492843
+convent, 2113, 0.0705113393211
+reaction, 7132, 0.0700477235668
+shafer, 7839, 0.0683561733571
+dryden, 2888, 0.0672295416019
+space, 8164, 0.0670603268135
+analog, 487, 0.0668766590836
+gee, 3806, 0.066534006498
+spin, 8235, 0.0658771327089
+electr, 3030, 0.0658771327089
+unknown, 9287, 0.0655618957208
+failur, 3361, 0.064378840534
+habit, 4109, 0.0638289420135
+mari, 5508, 0.0623178638054
+room, 7476, 0.0592165380878
+militari, 5715, 0.0585106157367
+jet, 4860, 0.0585106157367
+earlier, 2952, 0.0575249878781
+facil, 3348, 0.0570613721238
+confus, 2037, 0.0569107880939
+fail, 3360, 0.0561853650183
+success, 8513, 0.052472306185
+surfac, 8587, 0.0516773386935
+chanc, 1649, 0.051392489091
+rest, 7324, 0.0504897080522
+access, 209, 0.0504897080522
+test, 8812, 0.0485686227372
+save, 7646, 0.0475770860124
+net, 6010, 0.0475770860124
+total, 9013, 0.0471763463984
+mind, 5733, 0.0460497146432
+kind, 5021, 0.0421665710555
+order, 6281, 0.0417859078276
+thought, 8887, 0.041256838716
+didn, 2625, 0.0394859547421
+base, 923, 0.0369930319003
+lot, 5356, 0.0368825573907
+mean, 5595, 0.0365304834285
+sinc, 7977, 0.0360340722684
+better, 1060, 0.0353626856642
+someth, 8126, 0.0347963169076
+thing, 8869, 0.0322930133751
+make, 5459, 0.0296478479171
+don, 2811, 0.0268120625439
+use, 9363, 0.026106480107

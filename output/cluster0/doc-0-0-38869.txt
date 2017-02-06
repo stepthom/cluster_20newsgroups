@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38869
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: powlesla@acs.ucalgary.ca (Jim Powlesland)
+Subject: Re: Why does Illustrator AutoTrace so poorly?
+Organization: The University of Calgary, Alberta
+Lines: 12
+Nntp-Posting-Host: acs6.acs.ucalgary.ca
+
+
+I've had pretty good success autotracing line art with Adobe
+Streamline 2.0. The key to controlling excessive points, etc. is
+to take some time and do some test conversions using various
+Tolerance settings.
+
+
+-- 
+/  Jim Powlesland                   / INTERNET: powlesla@acs.ucalgary.ca
+/  Academic Computing Services      / VOICE:    (403)220-7937
+/  University of Calgary            / MESSAGE:  (403)220-6201
+/  Calgary, Alberta CANADA  T2N 1N4 / FAX:      (403)282-9199
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ illustr autotrac poor      i'v pretti good
+success autotrac line art adob streamlin key
+control excess point etc take time test convers
+use various toler set     academ comput servic
+voic univers calgari messag calgari alberta canada
+t2n 1n4 fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+calgari, 1455, 0.43420198767
+autotrac, 806, 0.40419716992
+t2n, 8665, 0.222455585332
+alberta, 384, 0.222455585332
+1n4, 56, 0.222455585332
+streamlin, 8439, 0.217100993835
+excess, 3263, 0.186514593844
+academ, 205, 0.177636924001
+illustr, 4511, 0.167034343459
+adob, 277, 0.165306260139
+toler, 8974, 0.157925420898
+canada, 1481, 0.152570829401
+voic, 9567, 0.148043586797
+convers, 2114, 0.144121910873
+art, 660, 0.143716815575
+poor, 6741, 0.139946396347
+key, 4994, 0.134769261242
+success, 8513, 0.130369432909
+various, 9432, 0.129613109307
+fax, 3413, 0.123359815203
+control, 2107, 0.122566011651
+messag, 5650, 0.121414140743
+servic, 7813, 0.120854715382
+test, 8812, 0.120670583471
+pretti, 6851, 0.10768131413
+set, 7815, 0.105194765381
+comput, 1993, 0.101820012963
+univers, 9282, 0.0975979770534
+line, 5285, 0.0973480270896
+point, 6710, 0.0828983434736
+good, 3948, 0.0754949690744
+time, 8936, 0.0697812198176
+use, 9363, 0.0648625390089

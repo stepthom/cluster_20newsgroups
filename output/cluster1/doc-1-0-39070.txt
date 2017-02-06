@@ -1,0 +1,46 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39070
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rws2v@uvacs.cs.Virginia.EDU (Richard Stoakley)
+Subject: 3D modelers for UNIX
+Keywords: 3D, three-D, modelers
+Organization: University of Virginia Computer Science Department
+Lines: 7
+
+Could someone please post a list of good three-D modelers that will
+run on SPARC stations; preferably cheap.  Thanks
+
+Richard
+rws2v@virginia.edu
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ model unix     could someon pleas post list good
+three model run sparc station prefer cheap thank
+richard
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+model, 5807, 0.489797161012
+sparc, 8184, 0.370878553416
+richard, 7383, 0.332142672572
+cheap, 1677, 0.296264144957
+unix, 9284, 0.267397613453
+prefer, 6819, 0.266816521653
+station, 8346, 0.24650969631
+list, 5298, 0.21388692743
+someon, 8124, 0.190834343002
+run, 7543, 0.175913421727
+pleas, 6688, 0.171794951229
+post, 6766, 0.170558347405
+thank, 8832, 0.163544109265
+good, 3948, 0.150119432177

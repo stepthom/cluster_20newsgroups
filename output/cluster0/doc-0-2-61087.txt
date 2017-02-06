@@ -1,0 +1,212 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61087
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: keithley@apple.com (Craig Keithley)
+Subject: Re: Moonbase race, NASA resources, why?
+Organization: Apple Computer, Inc.
+Lines: 44
+
+In article <C5w5un.Bpq@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry
+Spencer) wrote:
+> 
+> The major component of any realistic plan to go to the Moon cheaply (for
+> more than a brief visit, at least) is low-cost transport to Earth orbit.
+> For what it costs to launch one Shuttle or two Titan IVs, you can develop
+> a new launch system that will be considerably cheaper.  (Delta Clipper
+> might be a bit more expensive than this, perhaps, but there are less
+> ambitious ways of bringing costs down quite a bit.)  
+
+Ah, there's the rub.  And a catch-22 to boot.  For the purposes of a
+contest, you'll probably not compete if'n you can't afford the ride to get
+there.  And although lower priced delivery systems might be doable, without
+demand its doubtful that anyone will develop a new system.  Course, if a
+low priced system existed, there might be demand...  
+
+I wonder if there might be some way of structuring a contest to encourage
+low cost payload delivery systems.  The accounting methods would probably
+be the hardest to work out.  For example, would you allow Rockwell to
+'loan' you the engines?  And so forth...
+
+> Any plan for doing
+> sustained lunar exploration using existing launch systems is wasting
+> money in a big way.
+> 
+
+This depends on the how soon the new launch system comes on line.  In other
+words, perhaps a great deal of worthwhile technology (life support,
+navigation, etc.) could be developed prior to a low cost launch system. 
+You wouldn't want to use the expensive stuff forever, but I'd hate to see
+folks waiting to do anything until a low cost Mac, oops, I mean launch
+system comes on line.
+
+I guess I'd simplify this to say that 'waste' is a slippery concept.  If
+your goal is manned lunar exploration in the next 5 years, then perhaps its
+not 'wasted' money.  If your goal is to explore the moon for under $500
+million, then you should put of this exploration for a decade or so.
+
+Craig
+
+
+Craig Keithley           |"I don't remember, I don't recall, 
+Apple Computer, Inc.     |I got no memory of anything at all"
+keithley@apple.com       |Peter Gabriel, Third Album (1980)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race nasa resourc    zoo toronto edu
+henri spencer wrote  major compon realist plan
+moon cheapli brief visit least low cost transport
+earth orbit cost launch one shuttl two titan iv
+develop new launch system consider cheaper delta
+clipper might bit expens perhap less ambiti way
+bring cost quit bit  there rub catch boot purpos
+contest you'll probabl compet if'n can't afford
+ride get although lower price deliveri system
+might doabl without demand doubt anyon develop new
+system cours low price system exist might demand
+wonder might way structur contest encourag low
+cost payload deliveri system account method
+probabl hardest work exampl allow rockwel loan
+engin forth  plan sustain lunar explor use exist
+launch system wast money big way   depend soon new
+launch system come line word perhap great deal
+worthwhil technolog life support navig etc could
+develop prior low cost launch system wouldn't want
+use expens stuff forev i'd hate see folk wait
+anyth low cost mac oop mean launch system come
+line  guess i'd simplifi say wast slipperi concept
+goal man lunar explor next year perhap wast money
+goal explor moon million put explor decad  craig
+craig keithley don't rememb don't recal appl
+comput inc got memori anyth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+launch, 5147, 0.301340010383
+cost, 2169, 0.291206010264
+low, 5368, 0.26323144056
+explor, 3307, 0.241664194587
+wast, 9654, 0.179934119399
+deliveri, 2508, 0.162248848534
+perhap, 6540, 0.148334946787
+contest, 2086, 0.143080031475
+develop, 2588, 0.142725387394
+craig, 2208, 0.142380042127
+goal, 3924, 0.136817639737
+demand, 2514, 0.13468740531
+lunar, 5392, 0.122679746494
+expens, 3294, 0.120536741253
+price, 6857, 0.118832909152
+new, 6023, 0.111630788993
+plan, 6660, 0.104340366146
+moon, 5851, 0.103724721586
+money, 5835, 0.102975459295
+way, 9666, 0.100245720177
+hardest, 4171, 0.0996073767395
+keithley, 4975, 0.0967569395677
+iv, 4805, 0.0967569395677
+exist, 3283, 0.0916032629687
+rub, 7524, 0.0907531101593
+zoo, 9992, 0.0892485488979
+ambiti, 463, 0.0892485488979
+anyth, 555, 0.0875840430637
+bit, 1122, 0.0861687143293
+rockwel, 7452, 0.0855736962385
+loan, 5319, 0.0855736962385
+boot, 1226, 0.0855736962385
+line, 5285, 0.0846829461267
+worthwhil, 9853, 0.0836045744545
+cheapli, 1680, 0.0836045744545
+probabl, 6885, 0.0835535683019
+oop, 6254, 0.0818988435791
+clipper, 1823, 0.0811244242668
+sustain, 8608, 0.0784251605337
+simplifi, 7969, 0.0784251605337
+navig, 5969, 0.0772630864489
+moonbas, 5852, 0.0761979692355
+ride, 7393, 0.0752148683968
+forth, 3616, 0.0747503078743
+come, 1923, 0.0740846787351
+forev, 3602, 0.0730445769988
+decad, 2432, 0.0730445769988
+realist, 7147, 0.0718998707025
+delta, 2509, 0.0715400157374
+titan, 8951, 0.0711900210634
+prior, 6874, 0.0711900210634
+afford, 315, 0.0711900210634
+brief, 1308, 0.0705175496704
+appl, 583, 0.0705175496704
+encourag, 3089, 0.0692703152269
+visit, 9544, 0.068976646972
+transport, 9065, 0.0686895785656
+compet, 1969, 0.0684088198686
+catch, 1556, 0.0676017721695
+cheaper, 1678, 0.0665993752449
+compon, 1980, 0.0658960412941
+hate, 4202, 0.0643914800327
+payload, 6477, 0.0634158911063
+race, 7049, 0.0630456041223
+recal, 7166, 0.0626857491572
+spencer, 8221, 0.0616632830902
+wait, 9611, 0.0615005546923
+account, 221, 0.0613398732468
+lower, 5371, 0.0611811878958
+folk, 3576, 0.0610244496534
+soon, 8136, 0.0608696113154
+resourc, 7320, 0.0607166273733
+consider, 2060, 0.0602683706264
+million, 5724, 0.0590108964978
+concept, 2002, 0.0590108964978
+structur, 8460, 0.0582364771855
+henri, 4258, 0.0581118517435
+don, 2811, 0.0579488274236
+memori, 5628, 0.0578661902015
+method, 5666, 0.0575063352364
+doubt, 2830, 0.0571563405624
+depend, 2537, 0.0570417747139
+mac, 5410, 0.0569282272419
+use, 9363, 0.0564238542962
+purpos, 6993, 0.054942966471
+wrote, 9871, 0.0541913375421
+bring, 1316, 0.0540101429227
+wouldn, 9854, 0.0533954673322
+toronto, 9003, 0.0533100221542
+deal, 2418, 0.0516362662804
+shuttl, 7929, 0.0514141040462
+technolog, 8743, 0.0507698999948
+engin, 3109, 0.0498282312022
+guess, 4079, 0.0495080639039
+stuff, 8472, 0.0489512393908
+allow, 432, 0.0489512393908
+nasa, 5956, 0.0480739606617
+rememb, 7269, 0.0470428018373
+life, 5260, 0.0470428018373
+major, 5458, 0.0468873353364
+quit, 7043, 0.046784732323
+wonder, 9821, 0.0463823681457
+exampl, 3258, 0.0463329521982
+orbit, 6280, 0.0462346901254
+word, 9829, 0.0457544077467
+edu, 3001, 0.0452915307835
+earth, 2956, 0.0444984067204
+comput, 1993, 0.0442865609616
+man, 5471, 0.0441195781068
+support, 8576, 0.0439957580115
+cours, 2190, 0.0437114281637
+big, 1082, 0.0435121416493
+great, 4016, 0.04248663379
+got, 3960, 0.0419156334146
+ll, 5314, 0.0404654793212
+mean, 5595, 0.0394766101345
+work, 9833, 0.0361896545628
+want, 9634, 0.0347970485008
+anyon, 554, 0.0343260640373
+say, 7653, 0.0324314747555
+year, 9943, 0.0321034976509

@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60987
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gwh@soda.berkeley.edu (George William Herbert)
+Subject: Re: Moonbase race
+Organization: Retro Aerospace
+Lines: 14
+NNTP-Posting-Host: soda.berkeley.edu
+Summary: Hmm...
+
+Hmm.  $1 billion, lesse... I can probably launch 100 tons to LEO at
+$200 million, in five years, which gives about 20 tons to the lunar
+surface one-way.  Say five tons of that is a return vehicle and its
+fuel, a bigger Mercury or something (might get that as low as two
+tons), leaving fifteen tons for a one-man habitat and a year's supplies?
+Gee, with that sort of mass margins I can build the systems off
+the shelf for about another hundred million tops.  That leaves
+about $700 million profit.  I like this idea 8-)  Let's see
+if you guys can push someone to make it happen 8-) 8-)
+
+[slightly seriously]
+
+-george william herbert
+Retro Aerospace
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race    hmm  hmm billion less probabl
+launch ton leo million five year give ton lunar
+surfac one way say five ton return vehicl fuel
+bigger mercuri someth might get low two ton leav
+fifteen ton one man habitat year suppli gee sort
+mass margin build system shelf anoth hundr million
+top leav million profit like idea let see guy push
+someon make happen  slight serious  georg william
+herbert retro aerospac
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ton, 8980, 0.616961023676
+million, 5724, 0.295718854847
+hmm, 4327, 0.248231188658
+leav, 5184, 0.1901880406
+herbert, 4262, 0.166386103425
+habitat, 4110, 0.154445050061
+shelf, 7872, 0.135511819387
+moonbas, 5852, 0.127282572888
+mercuri, 5640, 0.125640382087
+leo, 5216, 0.124864371136
+aerospac, 304, 0.122015085037
+bigger, 1083, 0.120721479925
+gee, 3806, 0.12010294533
+push, 6996, 0.114271425977
+profit, 6903, 0.113363291078
+margin, 5507, 0.112069685966
+suppli, 8574, 0.108601865272
+georg, 3847, 0.107560783218
+year, 9943, 0.107252616328
+william, 9764, 0.107224745574
+slight, 8034, 0.105619632018
+race, 7049, 0.105312605867
+hundr, 4440, 0.103840439466
+fuel, 3715, 0.103840439466
+lunar, 5392, 0.102463319768
+vehicl, 9449, 0.102198248665
+billion, 1092, 0.101677785073
+mass, 5533, 0.100920145151
+surfac, 8587, 0.0932846360917
+return, 7346, 0.091140800999
+low, 5368, 0.0879413857237
+build, 1378, 0.0861298056884
+launch, 5147, 0.0838940377293
+sort, 8144, 0.082074664907
+guy, 4100, 0.0801156800669
+happen, 4159, 0.0752050372234
+man, 5471, 0.0736982031478
+idea, 4482, 0.0729494263414
+probabl, 6885, 0.0697847544635
+someon, 8124, 0.0697271621225
+anoth, 533, 0.0687711520647
+let, 5225, 0.0673871591343
+someth, 8126, 0.0628120921496
+way, 9666, 0.0558174682482
+say, 7653, 0.0541741675118
+make, 5459, 0.053518404271
+like, 5272, 0.0449294879187

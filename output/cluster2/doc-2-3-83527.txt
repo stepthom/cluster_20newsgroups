@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83527
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: house@helios.usq.EDU.AU (ron house)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: University of Southern Queensland
+Lines: 21
+
+judi@wam.umd.edu (Jay T Stein -- objectively subjective) writes:
+
+>Question:  Is there any effective difference between:
+
+>"Objective values exist, and there is disagreement over what they are"
+
+>and
+
+>"Values are subjective?"
+
+>I don't see any.
+
+The first means that some aspect of reality contains objective values.
+The second means that values are a reference to some preference of the
+individual.  In the first case, it is possible that some future discovery
+might invalidate certain views re what objective values are.
+
+--
+
+Ron House.                 USQ
+(house@helios.usq.edu.au)  Toowoomba, Australia.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral      question effect
+differ  object valu exist disagr    valu subject
+don't see  first mean aspect realiti contain
+object valu second mean valu refer prefer individu
+first case possibl futur discoveri might invalid
+certain view object valu    ron hous usq
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+valu, 9414, 0.623348380723
+object, 6173, 0.336746432658
+invalid, 4738, 0.201747656921
+disagr, 2675, 0.19738593579
+mean, 5595, 0.188390247704
+discoveri, 2700, 0.177292094852
+subject, 8487, 0.1645851501
+ron, 7472, 0.159493332941
+aspect, 693, 0.151316632725
+hous, 4396, 0.147926469602
+realiti, 7148, 0.142773014298
+prefer, 6819, 0.13925833372
+moral, 5855, 0.1366565611
+contain, 2079, 0.134004449819
+individu, 4604, 0.133251817707
+futur, 3737, 0.12865968472
+effect, 3005, 0.122158134145
+view, 9510, 0.119050237896
+refer, 7213, 0.112373473848
+exist, 3283, 0.109287254797
+christian, 1732, 0.108178767118
+certain, 1619, 0.10785393223
+second, 7753, 0.106075860819
+case, 1540, 0.105974429604
+possibl, 6765, 0.0999317110693
+differ, 2633, 0.0938530321372
+question, 7032, 0.0922624076757
+say, 7653, 0.0773847291062
+year, 9943, 0.0766021430666
+don, 2811, 0.0691358371152

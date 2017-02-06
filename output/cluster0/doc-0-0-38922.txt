@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38922
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: s127@ii.uib.no (Torgeir Veimo)
+Subject: virtual sound
+Keywords: virtual sound, surround sound
+Organization: Institutt for Informatikk UIB Norway
+Lines: 31
+
+I'm looking for algorithms or articles on virtual sound. What i want to do is
+the following;
+
+From a fast source, eg. a CDROM, several sound sources are read, each having
+it's own defined position and other attributes, eg. direction etc.  Given the
+listeners position and direction, the sum of sound played back in each of the
+listeners earphones will be a function of this position and direction.  This
+means that some simulation of the ears coloring of sound relative to it's
+incoming direction have to be done for each sound source.  (I think this is
+possible to do with a lookup table of impulse responses for several angles
+relative to each ear, and interpolate an impulse function from this for a given
+angle.  This impulse function could then be convoluted with the sound from the
+source.  This impulse function must be changed every time some sound source
+changes position or the listener changes orientation.)  Additionally some
+reflection, diffusion and absorbtion due to the environment wich is defined
+could be simulated, but this requires some sort of sound propagandation
+simulation, kinda like some radiosity algorithm.  
+
+Have someone done this and/or written articles on implementing such a system? 
+
+Please post or mail any answers or comments.
+
+-- 
+Torgeir Veimo
+
+Studying at the University of Bergen
+
+"...I'm gona wave my freak flag high!" (Jimi Hendrix)
+
+"...and it would be okay on any other day!" (The Police)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ virtual sound     i'm look algorithm articl
+virtual sound want follow  fast sourc cdrom sever
+sound sourc read it defin posit attribut direct
+etc given listen posit direct sum sound play back
+listen earphon function posit direct mean simul
+ear color sound relat it incom direct done sound
+sourc think possibl lookup tabl impuls respons
+sever angl relat ear interpol impuls function
+given angl impuls function could convolut sound
+sourc impuls function must chang everi time sound
+sourc chang posit listen chang orient addit
+reflect diffus absorbt due environ wich defin
+could simul requir sort sound propagand simul
+kinda like radios algorithm  someon done written
+articl implement system  pleas post mail answer
+comment   torgeir veimo  studi univers bergen  i'm
+gona wave freak flag high jimi hendrix  okay day
+polic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sound, 8150, 0.462328540948
+impuls, 4558, 0.31652782348
+function, 3722, 0.245130526627
+sourc, 8153, 0.241439647704
+simul, 7974, 0.206917914553
+posit, 6761, 0.205479351533
+direct, 2667, 0.200541163616
+listen, 5300, 0.200421643772
+ear, 2948, 0.157150297797
+angl, 511, 0.142507403294
+chang, 1650, 0.141020312417
+virtual, 9536, 0.132742149135
+defin, 2482, 0.114820634186
+algorithm, 407, 0.113761138108
+wich, 9744, 0.102016718497
+veimo, 9452, 0.102016718497
+torgeir, 9000, 0.102016718497
+gona, 3940, 0.102016718497
+relat, 7247, 0.100023731126
+jimi, 4869, 0.0990973338486
+absorbt, 196, 0.0990973338486
+bergen, 1038, 0.0967120229091
+sever, 7823, 0.0965758590815
+hendrix, 4254, 0.0946952712458
+given, 3887, 0.0939160890661
+lookup, 5342, 0.0929482814921
+convolut, 2121, 0.0929482814921
+diffus, 2637, 0.0900288968434
+freak, 3665, 0.0856268342406
+cdrom, 1587, 0.0856268342406
+radios, 7062, 0.0847242012552
+articl, 665, 0.0843316492963
+interpol, 4719, 0.0838798444869
+incom, 4581, 0.0816315294494
+polic, 6720, 0.0809604598382
+kinda, 5022, 0.0809604598382
+flag, 3515, 0.0809604598382
+sum, 8532, 0.0752267753556
+wave, 9661, 0.0732704533105
+tabl, 8667, 0.0715689696518
+reflect, 7216, 0.0689726381843
+attribut, 773, 0.0682103066947
+okay, 6215, 0.0651436448161
+orient, 6290, 0.0649498192103
+implement, 4544, 0.0631548184336
+environ, 3139, 0.0608536427622
+addit, 263, 0.0593910770166
+fast, 3397, 0.0577387775853
+written, 9867, 0.0570899013452
+studi, 8469, 0.0562719481965
+color, 1907, 0.0525827539276
+comment, 1936, 0.0525082067795
+respons, 7323, 0.0503856906833
+sort, 8144, 0.0503226400114
+requir, 7302, 0.0486703405801
+answer, 535, 0.0482879295408
+mail, 5447, 0.0449760788224
+everi, 3235, 0.0448099433951
+high, 4292, 0.0442445410689
+univers, 9282, 0.0434769902521
+play, 6681, 0.0431457576463
+follow, 3578, 0.0430011927599
+possibl, 6765, 0.0428938078416
+someon, 8124, 0.0427519854328
+mean, 5595, 0.0404314856504
+read, 7135, 0.0398255498602
+day, 2402, 0.0387957149493
+pleas, 6688, 0.0384866535909
+post, 6766, 0.0382096213343
+want, 9634, 0.0356387329698
+look, 5341, 0.0326499207149
+time, 8936, 0.0310854538729
+think, 8871, 0.0299639615888
+like, 5272, 0.0275477268045

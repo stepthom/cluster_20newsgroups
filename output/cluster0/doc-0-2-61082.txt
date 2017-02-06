@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61082
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jdnicoll@prism.ccs.uwo.ca (James Davis Nicoll)
+Subject: Re: Vandalizing the sky.
+Organization: University of Western Ontario, London
+Nntp-Posting-Host: prism.engrg.uwo.ca
+Lines: 15
+
+In article <C5w5F8.3LC.1@cs.cmu.edu> nickh@CS.CMU.EDU (Nick Haines) writes:
+>
+>Would they buy it, given that it's a _lot_ more expensive, and not
+>much more impressive, than putting a large set of several-km
+>inflatable billboards in LEO (or in GEO, visible 24 hours from your
+>key growth market). I'll do _that_ for only $5bn (and the changes of
+>identity).
+
+	I've heard of sillier things, like a well-known utility company
+wanting to buy an 'automated' boiler-cleaning system which uses as many
+operators as the old system, and which rumour has it costs three million
+more per unit. Automation is more 'efficient' although by what scale they are
+not saying...
+
+							James Nicoll
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       buy given it lot expens much
+impress put larg set sever inflat billboard leo
+geo visibl hour key growth market i'll 5bn chang
+ident  i'v heard sillier thing like well known
+util compani want buy autom boiler clean system
+use mani oper old system rumour cost three million
+per unit autom effici although scale say  jame
+nicol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+autom, 802, 0.370502903049
+buy, 1433, 0.273953941205
+nicol, 6055, 0.218401013034
+growth, 4068, 0.202137315787
+geo, 3834, 0.19748596836
+ident, 4484, 0.182506466247
+leo, 5216, 0.176570923685
+rumour, 7542, 0.175512077105
+effici, 3006, 0.165063527124
+inflat, 4632, 0.16433640685
+clean, 1799, 0.156199569959
+billboard, 1090, 0.155655879011
+visibl, 9541, 0.154597032431
+vandal, 9419, 0.154597032431
+jame, 4820, 0.149356904737
+impress, 4554, 0.14527311068
+expens, 3294, 0.142362515595
+util, 9384, 0.141676712637
+scale, 7659, 0.140676376898
+million, 5724, 0.139392181764
+key, 4994, 0.138463676774
+market, 5514, 0.137562892532
+unit, 9278, 0.136976970603
+hour, 4395, 0.135838192767
+sky, 8011, 0.130476835376
+oper, 6261, 0.126330927425
+compani, 1958, 0.125526238905
+known, 5054, 0.120592625329
+heard, 4224, 0.114645044454
+cost, 2169, 0.114645044454
+old, 6216, 0.11409641059
+larg, 5124, 0.111743996603
+sever, 7823, 0.111369159096
+chang, 1650, 0.108414350879
+given, 3887, 0.108301970745
+set, 7815, 0.10807845838
+ll, 5314, 0.0955852526136
+lot, 5356, 0.0941481223759
+mani, 5479, 0.0855906463932
+thing, 8869, 0.0824326399854
+want, 9634, 0.0821956078849
+say, 7653, 0.0766077841937
+use, 9363, 0.0666406089439
+like, 5272, 0.0635348667547

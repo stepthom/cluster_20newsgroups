@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60999
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mrf4276@egbsun12.NoSubdomain.NoDomain (Matthew R. Feulner)
+Subject: Re: Lunar Colony Race! By 2005 or 2010?
+Nntp-Posting-Host: egbsun12.draper.com
+Organization: Draper Laboratory
+Lines: 18
+
+In article <1993Apr20.234427.1@aurora.alaska.edu>, nsmca@aurora.alaska.edu writes:
+|> Okay here is what I have so far:
+|> 
+|> Have a group (any size, preferibly small, but?) send a human being to the moon,
+|> set up a habitate and have the human(s) spend one earth year on the moon. Does
+|> that mean no resupply or ?? 
+|> 
+|> Need to find atleast $1billion for prize money.
+
+
+My first thought is Ross Perot.  After further consideration, I think he'd
+be more likely to try to win it...but come in a disappointing third.
+
+Try Bill Gates.  Try Sam Walton's kids.
+
+Matt
+
+matthew_feulner@qmlink.draper.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lunar coloni race      okay far  group size
+prefer small send human moon set habit human spend
+one earth year moon mean resuppli  need find
+atleast 1billion prize money   first thought ross
+perot consider think he'd like tri win come
+disappoint third  tri bill gate tri sam walton kid
+matt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tri, 9087, 0.260310996405
+moon, 5851, 0.243283848882
+walton, 9629, 0.23362671521
+human, 4432, 0.231356564285
+resuppli, 7334, 0.221478523975
+atleast, 752, 0.221478523975
+1billion, 52, 0.221478523975
+perot, 6553, 0.216859996018
+ross, 7488, 0.206173613044
+coloni, 1906, 0.188562862655
+sam, 7599, 0.183944334697
+gate, 3788, 0.183944334697
+disappoint, 2679, 0.182550542643
+prize, 6881, 0.167795392569
+matt, 5552, 0.166175477735
+habit, 4109, 0.161783072557
+kid, 5008, 0.150556834868
+okay, 6215, 0.149184329582
+race, 7049, 0.147871953681
+lunar, 5392, 0.143871202788
+consider, 2060, 0.141358019068
+spend, 8222, 0.140342290404
+size, 8000, 0.139039427481
+prefer, 6819, 0.13688744759
+money, 5835, 0.120763236067
+small, 8054, 0.116719220002
+send, 7785, 0.115099305167
+win, 9770, 0.10890508704
+set, 7815, 0.107315866938
+thought, 8887, 0.104571028767
+earth, 2956, 0.104369946629
+group, 4064, 0.104269909387
+far, 3386, 0.100082484207
+mean, 5595, 0.0925914430763
+come, 1923, 0.0868819193258
+need, 5993, 0.0805561849797
+year, 9943, 0.0752979844309
+think, 8871, 0.0686199480221
+like, 5272, 0.0630865707077

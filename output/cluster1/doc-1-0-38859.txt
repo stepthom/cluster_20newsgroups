@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38859
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: holmes7000@iscsvax.uni.edu
+Subject: Archiving GIF
+Organization: University of Northern Iowa
+Lines: 9
+
+What's the best way to archive GIF's?  I zip them and they only shrink 1%.  I
+have most compression programs except stacker which I heard was good for GIF's.
+
+
+Thanx
+-Brando
+
+PS please E-mail me, I don't get down this far on the news usually
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ archiv gif    what best way archiv gif zip shrink
+compress program except stacker heard good gif
+thanx brando  pleas mail don't get far news usual
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gif, 3869, 0.555807069639
+archiv, 618, 0.431999987248
+shrink, 7921, 0.332453585343
+thanx, 8833, 0.252372190143
+zip, 9988, 0.238010469925
+compress, 1986, 0.22720742958
+usual, 9377, 0.185269023213
+heard, 4224, 0.166762340455
+news, 6031, 0.151593384319
+mail, 5447, 0.150886588755
+best, 1052, 0.146741584717
+far, 3386, 0.14661417953
+program, 6905, 0.136238826428
+pleas, 6688, 0.129115743857
+way, 9666, 0.114813639335
+good, 3948, 0.112825097678
+don, 2811, 0.0995551095841

@@ -1,0 +1,198 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83674
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: Is it good that Jesus died?
+Organization: Starfleet Headquarters: San Francisco
+Lines: 42
+
+jburrill@boi.hp.com (Jim Burrill) writes:
+>Brian Kendig (bskendig@netcom.com) wrote:
+>: 
+>: Can you please point to something, anything, that proves to me that
+>: the universe cannot possibly be explained without accepting as a fact
+>: the existence of a god in precisely the way your holy book describes?
+>: 
+>: Can you please convince me that your religion is more than a very
+>: cleverly-constructed fable, and that it does indeed have some bearing
+>: on my own personal day-to-day life?
+>
+>Would you consider the word of an eye-witness (Peter) to testify to the
+>events surrounding Jesus' life?
+
+No.  There are two problems here:
+
+(1) Peter died two millenia ago.  The original letters he wrote have
+long since decayed into dust.  If he were alive today and I could
+question him, then this might lend credibility to your claims (but
+probably not much, because after all, I've heard people claim with all
+sincerity that they've spoken with Elvis recently).  But after his
+death, Peter's writings were transcribed by monks for centuries, and I
+find it hard to believe that one of them somewhere didn't decide to
+change the wording of something to make it (in his opinion) a little
+easier to understand.
+
+(2) Even if Peter did witness the miracles of Jesus two millenia ago,
+that doesn't mean that your deity is what the Bible says it is (God
+might just be Satan, trying to convince everyone that he's a nice
+guy), or even that your deity is still alive and active in the world
+today.
+
+Nice try, but it just isn't enough to convince me, especially since
+your wild claims about your deity seem to fly in the face of the way
+I've observed the world to work.  Please find something more compelling.
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die       pleas point someth anyth
+prove univers cannot possibl explain without
+accept fact exist god precis way holi book describ
+pleas convinc religion clever construct fabl inde
+bear person day day life  consid word eye wit
+peter testifi event surround jesus life  two
+problem  peter die two millenia ago origin letter
+wrote long sinc decay dust aliv today could
+question might lend credibl claim probabl much i'v
+heard peopl claim sincer they'v spoken elvi recent
+death peter write transcrib monk centuri find hard
+believ one somewher didn't decid chang word someth
+make opinion littl easier understand  even peter
+wit miracl jesus two millenia ago doesn't mean
+deiti bibl say god might satan tri convinc everyon
+he nice guy even deiti still aliv activ world
+today  nice tri isn't enough convinc especi sinc
+wild claim deiti seem fli face way i'v observ
+world work pleas find someth compel   brian kendig
+sui fait comm aucun  n'etr fait comm aucun ceux
+qui exist mean life vaux pas mieux moin sui autr
+end rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+peter, 6575, 0.274455841112
+deiti, 2495, 0.254115443189
+millenia, 5719, 0.205536185438
+convinc, 2120, 0.199754621491
+sui, 8527, 0.176579100215
+aucun, 775, 0.176579100215
+fait, 3366, 0.172060345611
+jesus, 4859, 0.169577945178
+comm, 1932, 0.165855954818
+claim, 1782, 0.162476407301
+life, 5260, 0.153593243252
+wit, 9802, 0.143933306556
+aliv, 417, 0.142940183781
+someth, 8126, 0.122771239784
+pleas, 6688, 0.122690019267
+die, 2628, 0.113726044508
+nice, 6047, 0.112556915092
+transcrib, 9050, 0.108404966312
+fabl, 3343, 0.108404966312
+ago, 336, 0.108317604867
+today, 8964, 0.106287178836
+lend, 5211, 0.10062505284
+exist, 3283, 0.0996939078335
+word, 9829, 0.0995911185049
+elvi, 3057, 0.0987686672571
+god, 3926, 0.0979961590407
+testifi, 8815, 0.0971312191263
+spoken, 8251, 0.0956664718605
+credibl, 2224, 0.0943414467846
+clever, 1812, 0.0931317936642
+world, 9841, 0.0931212403754
+compel, 1966, 0.0909887537846
+decay, 2433, 0.0900295982676
+sincer, 7978, 0.0882895501076
+rousseau, 7497, 0.0882895501076
+qui, 7034, 0.0882895501076
+mieux, 5706, 0.0882895501076
+ceux, 1626, 0.0882895501076
+vaux, 9438, 0.0874949200713
+moin, 5820, 0.0867432645386
+etr, 3212, 0.0867432645386
+autr, 807, 0.0860301728055
+mean, 5595, 0.0859265795733
+pas, 6445, 0.0853518801917
+sinc, 7977, 0.0847589269982
+satan, 7627, 0.0840871686197
+kendig, 4982, 0.082927977409
+day, 2402, 0.0824501755024
+dust, 2928, 0.0823827216081
+tri, 9087, 0.0805244804605
+miracl, 5751, 0.079937447198
+surround, 8595, 0.0778586210162
+holi, 4344, 0.0763938737505
+wild, 9758, 0.0757155811367
+easier, 2960, 0.0753884544941
+way, 9666, 0.0727331266315
+construct, 2074, 0.0705272058206
+bear, 971, 0.0700787075438
+letter, 5227, 0.068613960278
+centuri, 1614, 0.0684167620659
+precis, 6809, 0.0674706664285
+inde, 4594, 0.0662457779742
+eye, 3337, 0.0652754604808
+brian, 1304, 0.0652754604808
+somewher, 8130, 0.0649665090806
+event, 3232, 0.063110123498
+death, 2423, 0.0620798566196
+prove, 6947, 0.0617123751131
+bibl, 1071, 0.061005329147
+decid, 2442, 0.060223471037
+describ, 2556, 0.0599013969989
+face, 3345, 0.0597956760266
+fli, 3542, 0.0593806529425
+activ, 252, 0.0593806529425
+wrote, 9871, 0.058977661223
+religion, 7261, 0.0588787124718
+observ, 6179, 0.0578343673735
+especi, 3190, 0.0575626536914
+accept, 208, 0.0571212756405
+explain, 3301, 0.0561969192427
+everyon, 3241, 0.0554068065877
+recent, 7168, 0.0552540331727
+heard, 4224, 0.0528210171541
+hard, 4167, 0.0526310063485
+guy, 4100, 0.0521974937806
+opinion, 6266, 0.0520760760581
+isn, 4783, 0.0509168848474
+chang, 1650, 0.0499503167785
+understand, 9246, 0.0498469539167
+book, 1218, 0.0497955592524
+origin, 6293, 0.0494410202353
+consid, 2059, 0.0487579657647
+write, 9865, 0.0479263546364
+end, 3091, 0.0479263546364
+fact, 3350, 0.0477039140372
+anyth, 555, 0.0476598498454
+littl, 5308, 0.046724177849
+didn, 2625, 0.0464392024652
+person, 6562, 0.0463188359915
+univers, 9282, 0.0461995027193
+possibl, 6765, 0.0455798016498
+probabl, 6885, 0.0454666213162
+doesn, 2793, 0.045095872922
+long, 5336, 0.0438041466424
+problem, 6887, 0.0437376286167
+believ, 1009, 0.0429319431198
+question, 7032, 0.0420817595995
+work, 9833, 0.0393860215192
+point, 6710, 0.0392412052007
+peopl, 6530, 0.037718951169
+good, 3948, 0.0357367041238
+say, 7653, 0.0352959092328
+make, 5459, 0.0348686620616

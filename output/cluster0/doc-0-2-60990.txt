@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60990
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dante@shakala.com (Charlie Prael)
+Subject: Re: Commercial mining activities on the moon
+Organization: Shakala BBS (ClanZen Radio Network) Sunnyvale, CA +1-408-734-2289
+Lines: 10
+
+dietz@cs.rochester.edu (Paul Dietz) writes:
+
+> Which merely evades the issue of why those lunatics are
+> there at all (and, why their children would want to stay.)
+
+Paul-- for the same reason that many other colonies are founded. Why not?
+
+------------------------------------------------------------------
+Charlie Prael  - dante@shakala.com 
+Shakala BBS (ClanZen Radio Network) Sunnyvale, CA +1-408-734-2289
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon      mere evad issu
+lunat children want stay  paul reason mani coloni
+found    shakala bbs clanzen radio network
+sunnyval
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shakala, 7841, 0.324712203918
+clanzen, 1784, 0.324712203918
+lunat, 5393, 0.315420003215
+evad, 3225, 0.315420003215
+sunnyval, 8545, 0.29094324093
+coloni, 1906, 0.262079029167
+bbs, 961, 0.214078854886
+mere, 5641, 0.202099124617
+stay, 8355, 0.198934900089
+paul, 6469, 0.196470142004
+network, 6018, 0.192806923914
+children, 1707, 0.187853496756
+radio, 7061, 0.185951693429
+activ, 252, 0.177866599133
+commerci, 1940, 0.176068812536
+issu, 4793, 0.169817543139
+moon, 5851, 0.169067211935
+reason, 7156, 0.134318385969
+mani, 5479, 0.118121026316
+want, 9634, 0.113435637785

@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104948
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 22
+
+In article <1r93di$car@apple.com> chuq@apple.com (Chuq Von Rospach) writes:
+>
+>Some folks like to argue about theoretical details. I prefer to watch teams
+>win. When the Giants slip to third, then we can talk about how to re-arrange
+>the batting order. Until then, I think it's stupid to focus on what's wrong,
+>for the simple fact that IT'S WORKING AS IT IS.
+
+This is a fine strategy if you expect to run away with the division.
+But the Giants are going to need every break they can get, if they
+want too hold that lead.  I don't think they can afford to be
+lackadaisical, and say "well it has worked pretty well so far, and
+while we might be able to improve the results, we don't think it is
+worth the risk".
+
+>Mostly, though, the Giants are winning, and frankly, as long as that
+>continues, it's rather silly to second-guess their strategy. But evidently,
+>some folks would rather be right than be first.
+
+The two tend to go hand in hand...
+
+Cheers,
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th      folk like argu theoret
+detail prefer watch team win giant slip third talk
+arrang bat order think it stupid focus what wrong
+simpl fact it work  fine strategi expect run away
+divis giant go need everi break get want hold lead
+don't think afford lackadais say well work pretti
+well far might abl improv result don't think worth
+risk  most though giant win frank long continu it
+rather silli second guess strategi evid folk
+rather right first  two tend hand hand  cheer
+valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+giant, 3865, 0.339419018174
+strategi, 8431, 0.292876077397
+folk, 3576, 0.237620590459
+bat, 942, 0.204371541531
+win, 9770, 0.180799558473
+hand, 4145, 0.18041397377
+think, 8871, 0.170879845589
+slip, 8038, 0.164615275939
+theoret, 8847, 0.143002227512
+arrang, 652, 0.142212634566
+work, 9833, 0.140917404984
+silli, 7956, 0.139983972222
+focus, 3569, 0.139983972222
+risk, 7416, 0.138601945089
+afford, 315, 0.138601945089
+4th, 112, 0.137292690763
+valentin, 9409, 0.133733760074
+barri, 918, 0.129664281774
+tend, 8783, 0.123466262906
+bond, 1211, 0.123103189468
+argu, 628, 0.122392567158
+stupid, 8476, 0.121701686932
+cheer, 1687, 0.117625781422
+divis, 2767, 0.115150471547
+improv, 4557, 0.11489004939
+break, 1284, 0.113874802761
+prefer, 6819, 0.113627337149
+don, 2811, 0.112822275883
+worth, 9850, 0.112661387046
+fine, 3485, 0.110398910843
+hold, 4341, 0.108726341986
+frank, 3655, 0.106411174898
+simpl, 7965, 0.106045431706
+continu, 2092, 0.104979407571
+evid, 3245, 0.104806096146
+watch, 9655, 0.103136335722
+lead, 5172, 0.10097235505
+away, 833, 0.0985750812883
+result, 7332, 0.0965121302287
+guess, 4079, 0.0963887052171
+expect, 3290, 0.0963887052171
+wrong, 9869, 0.091286331716
+pretti, 6851, 0.0911862507407
+abl, 180, 0.0909872889691
+order, 6281, 0.0879153032935
+second, 7753, 0.0865522175849
+fact, 3350, 0.0853388018695
+everi, 3235, 0.0851813957187
+talk, 8684, 0.0841065950018
+far, 3386, 0.0830763256672
+team, 8732, 0.0825767661979
+long, 5336, 0.0783624041512
+right, 7399, 0.0756527785355
+run, 7543, 0.0749150523208
+want, 9634, 0.0677473968054
+need, 5993, 0.0668679630696
+say, 7653, 0.0631417917296
+like, 5272, 0.0523668105848

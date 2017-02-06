@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60831
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: C.O.EGALON@LARC.NASA.GOV (CLAUDIO OLIVEIRA EGALON)
+Subject: Portuguese Launch Complex (was:*Doppelganger*)
+Organization: NASA Langley Research Center
+Lines: 14
+Distribution: world
+Reply-To: C.O.EGALON@LARC.NASA.GOV (CLAUDIO OLIVEIRA EGALON)
+NNTP-Posting-Host: tahiti.larc.nasa.gov
+
+> Portugese launch complex were *wonderful
+
+Portuguese launch complex??? Gosh.... Polish are for American in the 
+same way as Portuguese are for Brazilians (I am from Brazil). There is 
+a joke about the Portuguese Space Agency that wanted to send a 
+Portuguese  astronaut to the surface of the Sun (if there is such a thing).
+How did they solve all problems of sending a man to the surface of the 
+Sun??? Simple... their astronauts travelled during the night...
+
+ C.O.EGALON@LARC.NASA.GOV
+
+C.O.Egalon@larc.nasa.gov
+
+Claudio Oliveira Egalon
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ portugues launch complex doppelgang
+portuges launch complex wonder  portugues launch
+complex gosh polish american way portugues
+brazilian brazil joke portugues space agenc want
+send portugues astronaut surfac sun thing solv
+problem send man surfac sun simpl astronaut travel
+night      claudio oliveira egalon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+portugues, 6758, 0.740423139382
+complex, 1976, 0.268875990785
+launch, 5147, 0.216028563489
+astronaut, 727, 0.193112933475
+surfac, 8587, 0.160139675205
+sun, 8539, 0.151433670708
+brazil, 1280, 0.142815675108
+send, 7785, 0.140720079526
+polish, 6722, 0.138728757829
+oliveira, 6224, 0.135389503272
+egalon, 3009, 0.135389503272
+doppelgang, 2820, 0.135389503272
+claudio, 1794, 0.135389503272
+portuges, 6757, 0.132566203772
+gosh, 3957, 0.132566203772
+joke, 4883, 0.104730301294
+solv, 8119, 0.0976897267177
+travel, 9069, 0.0973041294584
+agenc, 329, 0.0951469103917
+american, 469, 0.0814615341778
+simpl, 7965, 0.0780955225766
+night, 6063, 0.0743595335183
+wonder, 9821, 0.0665023960739
+man, 5471, 0.0632580391036
+problem, 6887, 0.057621151235
+space, 8164, 0.0519522639254
+thing, 8869, 0.0500354004679
+want, 9634, 0.049891525468
+way, 9666, 0.0479103076913

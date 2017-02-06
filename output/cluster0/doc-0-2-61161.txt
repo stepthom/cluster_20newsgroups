@@ -1,0 +1,208 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61161
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Re: Eco-Freaks forcing Space Mining.
+Article-I.D.: aurora.1993Apr23.123433.1
+Organization: University of Alaska Fairbanks
+Lines: 43
+Nntp-Posting-Host: acad3.alaska.edu
+
+In article <1r96hb$kbi@access.digex.net>, prb@access.digex.com (Pat) writes:
+> In article <1993Apr23.001718.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>>In article <1r6b7v$ec5@access.digex.net>, prb@access.digex.com (Pat) writes:
+>>>  Besides this was the same line of horse puckey the mining companies claimed
+>>> when they were told to pay for  restoring land  after strip mining.
+>>===
+>>I aint talking the large or even the "mining companies" I am talking the small
+>>miners, the people who have themselves and a few employees (if at all).The
+>>people who go out every year and set up thier sluice box, and such and do
+>>mining the semi-old fashion way.. (okay they use modern methods toa point).
+> 
+> 
+> Lot's of these small miners  are no longer miners.  THey are people living
+> rent free on Federal land,  under the claim of being a miner.  The facts are
+> many of these people do not sustaint heir income from mining,  do not
+> often even live their full time,  and do fotentimes do a fair bit
+> of environmental damage.
+> 
+> These minign statutes were created inthe 1830's-1870's  when the west was
+> uninhabited  and were designed to bring people into the frontier.  Times change
+> people change.  DEAL.  you don't have a constitutional right to live off
+> the same industry forever.  Anyone who claims the have a right to their
+> job in particular,  is spouting nonsense.   THis has been a long term
+> federal welfare program,  that has outlived it's usefulness.
+> 
+> pat
+> 
+
+Hum, do you enjoy putting words in my mouth? 
+Come to Nome and meet some of these miners.. I am not sure how things go down
+south in the lower 48 (I used to visit, but), of course to believe the
+media/news its going to heck (or just plain crazy). 
+Well it seems that alot of Unionist types seem to think that having a job is a
+right, and not a priviledge. Right to the same job as your forbearers, SEE:
+Kennedy's and tel me what you see (and the families they have married into).
+There is a reason why many historians and poli-sci types use unionist and
+socialist in the same breath.
+The miners that I know, are just your average hardworking people who pay there
+taxes and earn a living.. But taxes are not the answer. But maybe we could move
+this discussion to some more appropriate newsgroup..
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ eco freak forc space mine articl aurora 1993apr23
+besid line hors puckey mine compani claim told pay
+restor land strip mine  aint talk larg even mine
+compani talk small miner peopl employe peopl everi
+year set thier sluic box mine semi old fashion way
+okay use modern method toa point   lot small miner
+longer miner peopl live rent free feder land claim
+miner fact mani peopl sustaint heir incom mine
+often even live full time fotentim fair bit
+environment damag  minign statut creat inth west
+uninhabit design bring peopl frontier time chang
+peopl chang deal don't constitut right live
+industri forev anyon claim right job particular
+spout nonsens long term feder welfar program
+outliv it use  pat   hum enjoy put word mouth come
+nome meet miner sure thing south lower use visit
+cours believ media news go heck plain crazi well
+seem alot unionist type seem think job right
+priviledg right job forbear see kennedi tel see
+famili marri reason mani historian poli sci type
+use unionist socialist breath miner know averag
+hardwork peopl pay tax earn live tax answer mayb
+could move discuss appropri newsgroup
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+miner, 5736, 0.49481353229
+peopl, 6530, 0.246625888108
+live, 5310, 0.190448623201
+job, 4873, 0.165828941299
+right, 7399, 0.158005920809
+claim, 1782, 0.151764893491
+feder, 3425, 0.13965598034
+tax, 8718, 0.138526609915
+pay, 6474, 0.117650445525
+use, 9363, 0.114717965241
+land, 5104, 0.110552627533
+compani, 1958, 0.10804309069
+type, 9177, 0.101440267238
+statut, 8353, 0.101258197664
+sluic, 8051, 0.101258197664
+small, 8054, 0.10117659566
+welfar, 9702, 0.0983605193993
+toa, 8961, 0.0983605193993
+puckey, 6976, 0.0983605193993
+nome, 6095, 0.0983605193993
+inth, 4727, 0.0983605193993
+aint, 355, 0.0983605193993
+1993apr23, 45, 0.095992943867
+chang, 1650, 0.0933145264797
+thier, 8866, 0.088121837877
+hum, 4431, 0.088121837877
+eco, 2981, 0.088121837877
+talk, 8684, 0.0878311427989
+poli, 6719, 0.0869919330494
+marri, 5518, 0.0869919330494
+kennedi, 4984, 0.0869919330494
+frontier, 3699, 0.0859525213662
+freak, 3665, 0.0849901764592
+spout, 8263, 0.0840942547848
+nonsens, 6103, 0.0832561760286
+mouth, 5890, 0.0832561760286
+rent, 7283, 0.0824689220484
+incom, 4581, 0.0810245777981
+restor, 7327, 0.0797249226623
+alot, 438, 0.0797249226623
+historian, 4315, 0.0791208270593
+employe, 3078, 0.0785435891985
+strip, 8451, 0.0774608194995
+hors, 4382, 0.0764614254556
+environment, 3140, 0.0759891656415
+breath, 1291, 0.0755334798102
+fashion, 3396, 0.0746674447167
+forev, 3602, 0.074255165211
+crazi, 2216, 0.0738555732624
+aurora, 787, 0.0738555732624
+mani, 5479, 0.0736696809462
+heck, 4234, 0.0734679112308
+constitut, 2070, 0.0734679112308
+semi, 7781, 0.0727256684348
+earn, 2954, 0.0727256684348
+plain, 6659, 0.0720235669805
+damag, 2344, 0.0704183515427
+visit, 9544, 0.0701198162417
+south, 8154, 0.0698279901702
+famili, 3378, 0.0692633049577
+tel, 8754, 0.0682026574338
+appropri, 590, 0.0682026574338
+okay, 6215, 0.0646592848751
+modern, 5811, 0.0640904765593
+meet, 5615, 0.0639062789508
+media, 5605, 0.0631945548849
+industri, 4608, 0.062685245934
+west, 9708, 0.0625198205928
+lower, 5371, 0.062195160841
+enjoy, 3114, 0.062195160841
+besid, 1051, 0.061722901027
+time, 8936, 0.0617086508781
+sci, 7690, 0.0605415675632
+told, 8973, 0.0584594038203
+method, 5666, 0.0584594038203
+longer, 5337, 0.0579871440062
+pat, 6458, 0.0576438892986
+newsgroup, 6032, 0.0574199921371
+averag, 816, 0.0552763137663
+fair, 3363, 0.0549970403432
+bring, 1316, 0.0549052681331
+particular, 6442, 0.0543678515659
+forc, 3594, 0.0537677448168
+term, 8795, 0.0533554653111
+box, 1254, 0.0530348141143
+free, 3668, 0.0528774095971
+deal, 2418, 0.052492048569
+design, 2564, 0.0504577870465
+creat, 2217, 0.0502006357986
+discuss, 2708, 0.0499484780956
+old, 6216, 0.049102597769
+larg, 5124, 0.0480902115142
+answer, 535, 0.0479288962265
+word, 9829, 0.0465127083482
+set, 7815, 0.0465127083482
+mayb, 5564, 0.0454548798222
+news, 6031, 0.0448507842193
+fact, 3350, 0.0445589581478
+everi, 3235, 0.0444767698123
+cours, 2190, 0.0444358698929
+bit, 1122, 0.0437984062707
+line, 5285, 0.0430432101434
+reason, 7156, 0.0418858223136
+articl, 665, 0.0418523107759
+sure, 8585, 0.041818885497
+long, 5336, 0.0409162890789
+lot, 5356, 0.0405176408252
+program, 6905, 0.0403079476974
+believ, 1009, 0.0401015869513
+come, 1923, 0.0376562524222
+space, 8164, 0.0368348404731
+point, 6710, 0.0366541667597
+thing, 8869, 0.0354757589946
+anyon, 554, 0.0348949595008
+way, 9666, 0.033969040182
+year, 9943, 0.0326355578999
+think, 8871, 0.0297411717417
+don, 2811, 0.0294546147771
+know, 5052, 0.0279710039627

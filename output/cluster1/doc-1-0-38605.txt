@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38605
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Trying to view POV files.....
+From: dane@nermal.santarosa.edu (Dane Jasper)
+Organization: Santa Rosa Junior College, Santa Rosa, CA
+Nntp-Posting-Host: nermal.santarosa.edu
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 15
+
+Edward d Nobles (ednobles@sacam.OREN.ORTN.EDU) wrote:
+
+: I've been trying to view .tga files created in POVRAY.  I have the Diamond
+: SpeedStar 24 Video board (not the _24X_).  So far I can convert them to
+: jpeg using cjpeg and view them with CVIEW but that only displays 8 bit color.
+..
+: Just want to see the darn things in real color...
+
+I have an ATI ultra pro card, and have found that the easiest way to view
+true color images is using their windows drivers and something like winjpeg
+or photofinish.  
+
+If anyone has a non-windows solution, I'd love to hear it!
+
+Dane
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+tri view pov file         i'v tri view tga file
+creat povray diamond speedstar video board 24x far
+convert jpeg use cjpeg view cview display bit
+color  want see darn thing real color  ati ultra
+pro card found easiest way view true color imag
+use window driver someth like winjpeg photofinish
+anyon non window solut i'd love hear  dane
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+view, 9510, 0.407818161455
+color, 1907, 0.314738309423
+window, 9774, 0.217181676483
+winjpeg, 9785, 0.192959201244
+easiest, 2961, 0.18237530699
+file, 3477, 0.180652766117
+cjpeg, 1781, 0.179625071436
+ati, 746, 0.179625071436
+24x, 69, 0.179625071436
+speedstar, 8218, 0.169041177182
+ultra, 9200, 0.167356522031
+darn, 2370, 0.165774031766
+povray, 6780, 0.161531784703
+cview, 2320, 0.157883565438
+diamond, 2614, 0.156772627777
+tri, 9087, 0.151194198696
+tga, 8827, 0.150091974587
+pov, 6778, 0.140363996195
+pro, 6883, 0.138679341044
+jpeg, 4905, 0.133739539141
+driver, 2876, 0.131169948565
+solut, 8118, 0.128830793869
+board, 1186, 0.125345211236
+video, 9506, 0.118246899615
+use, 9363, 0.115299552496
+hear, 4223, 0.112671954576
+display, 2734, 0.112471929881
+card, 1513, 0.112076420874
+convert, 2115, 0.104912769808
+love, 5366, 0.103603705238
+non, 6097, 0.103462224701
+creat, 2217, 0.100910277312
+true, 9121, 0.0931145591642
+real, 7144, 0.0894869829171
+bit, 1122, 0.0880409033134
+imag, 4512, 0.0874994863772
+far, 3386, 0.0871950736555
+someth, 8126, 0.07683915548
+thing, 8869, 0.0713112218812
+want, 9634, 0.0711061690196
+anyon, 554, 0.0701437339191
+way, 9666, 0.0682825069895
+like, 5272, 0.0549630459626

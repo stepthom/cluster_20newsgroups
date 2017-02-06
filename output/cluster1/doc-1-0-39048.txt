@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39048
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: car@trux.mi.org (Chris Rende)
+Subject: Need recommendations on imaging workstations
+Lines: 23
+
+
+I need recommendations on imaging workstations. As a minimum, I have the
+following requirements:
+
+- High resolution graphics (Black and white) for display of Fax images.
+- Support the display of multiple simulataneous windows:
+     Fax image, 3270 emulation window to IBM host, etc...
+- High speed network interface for 3270, image data, etc...
+     (16Mb Token ring, EtherNet, etc...)
+- Mouse
+
+
+Any information/experience would be appreciated.
+
+Thanks,
+
+
+car.
+-- 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need recommend imag workstat    need recommend
+imag workstat minimum follow requir  high resolut
+graphic black white display fax imag support
+display multipl simulatan window fax imag emul
+window ibm host etc high speed network interfac
+imag data etc 16mb token ring ethernet etc mous
+inform experi appreci  thank   car
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.451289986122
+workstat, 9840, 0.283904350535
+recommend, 7178, 0.273195825409
+display, 2734, 0.232035445129
+fax, 3413, 0.226197382853
+window, 9774, 0.224028551079
+ethernet, 3208, 0.209959999871
+token, 8971, 0.182721611644
+high, 4292, 0.182118852164
+emul, 3082, 0.180378741408
+mous, 5889, 0.161715045295
+car, 1510, 0.151556012593
+host, 4386, 0.147295669575
+ring, 7406, 0.145394219419
+need, 5993, 0.144791459939
+minimum, 5740, 0.143618233738
+interfac, 4709, 0.139879920594
+multipl, 5919, 0.139385851286
+resolut, 7316, 0.131034612917
+ibm, 4472, 0.130325992498
+network, 6018, 0.124669603519
+black, 1133, 0.117714411111
+white, 9737, 0.115408050741
+experi, 3295, 0.112732345342
+speed, 8217, 0.109480178996
+appreci, 587, 0.104091577067
+requir, 7302, 0.100168137659
+data, 2385, 0.0997155888243
+support, 8576, 0.0927376028645
+graphic, 3997, 0.0886488514558
+inform, 4637, 0.0885004983432
+follow, 3578, 0.0885004983432
+thank, 8832, 0.075404953117

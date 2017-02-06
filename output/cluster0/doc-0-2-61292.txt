@@ -1,0 +1,158 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61292
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: neff@iaiowa.physics.uiowa.edu (John S. Neff)
+Subject: Re: What planets are habitable
+Nntp-Posting-Host: pluto.physics.uiowa.edu
+Organization: The University of Iowa
+Distribution: sci
+Lines: 33
+
+In article <C659w7.IyD@fs7.ece.cmu.edu> loss@fs7.ECE.CMU.EDU (Doug Loss) writes:
+>From: loss@fs7.ECE.CMU.EDU (Doug Loss)
+>Subject: Re: What planets are habitable
+>Date: Tue, 27 Apr 1993 13:38:28 GMT
+>In article <JPG.93Apr27135219@holly.bnr.co.uk> jpg@bnr.co.uk (Jonathan P. Gibbons) writes:
+>>I would appreciate any thoughts on what makes a planet habitable for Humans.
+>>I am making asumptions that life and a similar atmosphere evolve given a range
+>>of physical aspects of the planet.  The question is what physical aspects
+>>simply disallow earth like conditions.
+>>
+>>eg Temperature range of 280K to 315K (where temp is purely dependant on dist
+>>     from the sun and the suns temperature..)
+>>   Atmospheric presure ? - I know nothing of human tolerance
+
+There are people who have adapted to high altitudes in the Andes and in
+Tibet. I suspect that it took them several generations to make the
+adaptation because Europeans had difficulty making the adaptation. They
+had to send the women to a lower altitude when they were pregnant in order
+to insure sucessful childbirth.
+
+>>   Planetary Mass ? - again gravity at surface is important, how much
+>>     can human bodies take day after day.  Also how does the mass effect
+>>     atmosphere.  I thinking of planets between .3 and 3 times mass of the
+>>     earth.  I suppose density should be important as well.
+>>
+
+Another factor you should consider is the X-ray opacity of the atmosphere 
+in case of stellar flares, the uv opacity is also important because uv 
+radiation can kill or damage microbes, plants, and animals. 
+
+>>Climate etc does not concern me, nor does axial tilt etc etc.  Just the above
+>>three factors and how they relate to one another.
+>>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet habit        planet habit date tue gmt
+appreci thought make planet habit human make
+asumpt life similar atmospher evolv given rang
+physic aspect planet question physic aspect simpli
+disallow earth like condit  temperatur rang 280k
+315k temp pure depend dist sun sun temperatur
+atmospher presur know noth human toler  peopl
+adapt high altitud andes tibet suspect took sever
+generat make adapt european difficulti make adapt
+send women lower altitud pregnant order insur
+sucess childbirth  planetari mass graviti surfac
+import much human bodi take day day also mass
+effect atmospher think planet time mass earth
+suppos densiti import well   anoth factor consid
+ray opac atmospher case stellar flare opac also
+import radiat kill damag microb plant anim  climat
+etc concern axial tilt etc etc three factor relat
+one anoth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+planet, 6664, 0.330449619539
+atmospher, 755, 0.280969240802
+adapt, 259, 0.253391509186
+habit, 4109, 0.233819728264
+opac, 6257, 0.208947057064
+mass, 5533, 0.204800678164
+human, 4432, 0.167185998319
+import, 4551, 0.164128128752
+temperatur, 8773, 0.157918398554
+altitud, 452, 0.155231075056
+make, 5459, 0.144808953951
+aspect, 693, 0.143313107426
+factor, 3352, 0.138621529884
+rang, 7094, 0.130497747758
+physic, 6613, 0.125508141553
+sun, 8539, 0.119342709282
+tibet, 8915, 0.112550990249
+childbirth, 1706, 0.112550990249
+presur, 6847, 0.109330149215
+315k, 87, 0.109330149215
+280k, 78, 0.109330149215
+pregnant, 6822, 0.106698530474
+flare, 3523, 0.104473528532
+dist, 2743, 0.104473528532
+disallow, 2677, 0.102546144181
+axial, 841, 0.102546144181
+asumpt, 733, 0.102546144181
+earth, 2956, 0.100561623142
+stellar, 8372, 0.0979496015578
+climat, 1818, 0.0979496015578
+tue, 9145, 0.0966936844058
+anoth, 533, 0.0930397563995
+tilt, 8934, 0.0908412246304
+insur, 4690, 0.0908412246304
+evolv, 3250, 0.0908412246304
+temp, 8771, 0.0893204570786
+plant, 6670, 0.0873031413354
+day, 2402, 0.0856035402687
+difficulti, 2636, 0.0844638363954
+densiti, 2531, 0.0839573303273
+european, 3222, 0.07861137662
+damag, 2344, 0.0782717387897
+toler, 8974, 0.0776155375278
+radiat, 7058, 0.0769878759526
+women, 9819, 0.0763863746778
+pure, 6990, 0.074719068387
+condit, 2017, 0.0742035156613
+planetari, 6665, 0.0737057442027
+graviti, 4010, 0.073463151235
+gmt, 3917, 0.0723078194503
+suspect, 8603, 0.0698624477038
+lower, 5371, 0.0691314590114
+depend, 2537, 0.064454144259
+took, 8987, 0.0637008981345
+date, 2391, 0.0634583051668
+surfac, 8587, 0.0631018934336
+generat, 3819, 0.0625267599084
+bodi, 1194, 0.0625267599084
+concern, 2004, 0.0624144329461
+anim, 515, 0.0623029733821
+kill, 5012, 0.0617582316842
+ray, 7118, 0.0603340125981
+similar, 7961, 0.0597641777379
+simpli, 7967, 0.0591266129432
+suppos, 8577, 0.0586878575264
+effect, 3005, 0.0578484383591
+appreci, 587, 0.0557992478696
+send, 7785, 0.055449740677
+relat, 7247, 0.0551761032532
+sever, 7823, 0.0532741531678
+life, 5260, 0.053155841507
+noth, 6119, 0.0525219138402
+given, 3887, 0.0518069439031
+order, 6281, 0.0510237169604
+consid, 2059, 0.0506227483486
+thought, 8887, 0.0503776840271
+case, 1540, 0.0501845849357
+high, 4292, 0.0488132433956
+question, 7032, 0.0436912059981
+peopl, 6530, 0.0391615389005
+time, 8936, 0.0342953455795
+think, 8871, 0.0330580477229
+know, 5052, 0.0310904624702
+like, 5272, 0.0303923119332

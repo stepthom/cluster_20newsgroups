@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82774
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva)
+Subject: David Koresh - Messianic Cult???
+Organization: The Portal System (TM)
+Distribution: world
+Lines: 12
+
+Hello.
+
+
+I just read my first newspaper in a while and noticed an article on a
+'messianic cult' leader named 'David Koresh'.
+
+I'd like to know more about this and what is going on with them.
+
+Please email me as I don't normally read this newsgroup.  Thanks.
+
+
+Thyagi@HouseofKaos.Abyss.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ david koresh messian cult     hello   read first
+newspap notic articl messian cult leader name
+david koresh  i'd like know go  pleas email don't
+normal read newsgroup thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+messian, 5654, 0.557783406133
+cult, 2289, 0.379876818427
+koresh, 5065, 0.353611467914
+david, 2397, 0.297242828843
+read, 7135, 0.224163758897
+newspap, 6035, 0.214167848558
+leader, 5173, 0.195614195677
+hello, 4247, 0.182252113259
+notic, 6120, 0.1700927034
+normal, 6108, 0.168589648569
+newsgroup, 6032, 0.162808812875
+email, 3060, 0.154908778616
+articl, 665, 0.118668163821
+pleas, 6688, 0.108313795623
+thank, 8832, 0.103111780059
+don, 2811, 0.0835157004917
+know, 5052, 0.0793090660692
+like, 5272, 0.0775281447618

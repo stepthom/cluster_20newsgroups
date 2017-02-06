@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104574
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: boone@psc.edu (Jon Boone)
+Subject: Re: Why Spanky?
+Organization: Pittsburgh Supercomputing Center, Pittsburgh PA, USA
+Lines: 27
+NNTP-Posting-Host: postoffice1.psc.edu
+X-Newsreader: TIN [version 1.1 PL8]
+
+On Mon, 12 Apr 93 00:53:14 GMT in <<1993Apr12.005314.5700@mnemosyne.cs.du.edu>> Greg Spira (gspira@nyx.cs.du.edu) wrote:
+
+:>Does anybody in the Pittsburgh area know why Mike LaValliere was released?
+:>Last year I kept saying that Slaught should get the bulk of the playing time,
+:>that he was clearly the better player at this point, but Leyland insisted on
+:>keeping a pretty strict platoon.  And now he is released?  That doesn't
+:>make any sense to me.
+
+Greg,
+
+    The story goes like this:
+
+       Spanky is too slow!  If he were quicker, he would still be here.
+But with Slaught and Tom Prince, they didn't want to lose Prince in order
+to bring up that 11th pitcher.  Slaught is about as good as Spanky and
+Prince is coming along nicely!
+
+      Don't feel too bad for him.  He's still gonna get theat $4,000,000
+over the next two years -- he'll be able to do most of what he wants to
+do.
+
+--
+/*****************************************************************************/
+/* Jon `Iain` Boone   Network Systems Administrator     boone@psc.edu        */
+/* iain+@cmu.edu      Pittsburgh Supercomputing Center  (412) 268-6959       */
+/* I don't speak for anyone other than myself, unless otherwise stated!!!!!! */
+/*****************************************************************************/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ spanki      nyx edu wrote  anybodi pittsburgh
+area know mike lavallier releas last year kept say
+slaught get bulk play time clear better player
+point leyland insist keep pretti strict platoon
+releas doesn't make sens  greg  stori goe like
+spanki slow quicker still slaught tom princ didn't
+want lose princ order bring 11th pitcher slaught
+good spanki princ come along nice  don't feel bad
+he still gonna get theat next two year he'll abl
+want       don't speak anyon unless otherwis state
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spanki, 8183, 0.445123718383
+slaught, 8019, 0.414364172307
+princ, 6867, 0.382412204006
+releas, 7253, 0.175498508539
+leyland, 5238, 0.148374572794
+quicker, 7038, 0.145280493512
+lavallier, 5152, 0.145280493512
+bulk, 1383, 0.140236164373
+11th, 15, 0.140236164373
+nyx, 6164, 0.134461871704
+gonna, 3944, 0.124208689679
+platoon, 6679, 0.123229384
+strict, 8445, 0.118185054861
+pittsburgh, 6648, 0.112976201975
+want, 9634, 0.109353141838
+greg, 4033, 0.105029869515
+insist, 4673, 0.103542390241
+kept, 4989, 0.101499429898
+year, 9943, 0.100888393797
+slow, 8044, 0.0993523085271
+don, 2811, 0.0910549402555
+stori, 8418, 0.0907348371535
+tom, 8976, 0.0905463683052
+otherwis, 6313, 0.0899913527171
+speak, 8192, 0.0884128447842
+lose, 5350, 0.0882448790771
+mike, 5710, 0.0866382790684
+goe, 3931, 0.0857326313983
+wrote, 9871, 0.0851507997943
+bring, 1316, 0.0848660888523
+sens, 7788, 0.0836326218884
+unless, 9289, 0.0817316642597
+area, 622, 0.0816111126369
+anybodi, 552, 0.0816111126369
+nice, 6047, 0.0812537420416
+pitcher, 6644, 0.0797746980628
+feel, 3429, 0.0789158810798
+clear, 1803, 0.0770123913728
+bad, 861, 0.07391831209
+pretti, 6851, 0.0735932558383
+abl, 180, 0.0734326807029
+state, 8342, 0.0711665414631
+edu, 3001, 0.0711665414631
+order, 6281, 0.0709533877622
+player, 6683, 0.0692599907107
+didn, 2625, 0.0670480169901
+play, 6681, 0.0661937695654
+doesn, 2793, 0.0651085439317
+ll, 5314, 0.0635833711538
+better, 1060, 0.0600466156819
+come, 1923, 0.0582045944327
+point, 6710, 0.0566556885852
+anyon, 554, 0.0539365134565
+good, 3948, 0.0515959581145
+say, 7653, 0.0509595470271
+make, 5459, 0.0503426958738
+time, 8936, 0.04769097781
+know, 5052, 0.0432342794836
+like, 5272, 0.0422634339881

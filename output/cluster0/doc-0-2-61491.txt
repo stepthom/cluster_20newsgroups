@@ -1,0 +1,167 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61491
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Re: Vandalizing the sky.
+Organization: University of Illinois at Urbana
+Lines: 40
+
+rbunge@access.digex.net (Robert Bunge) writes:
+
+>In article <C69AGI.MJu@news.cso.uiuc.edu> jbh55289@uxa.cso.uiuc.edu (Josh Hopkins) writes:
+>>I'm wondering if "vandalize" is the proper word to use in this situation.  My
+>>dictionary defines "vandalism" as "the willful or malicious destructuion of 
+>>public or private property, especially of anything beautiful or artisitc." I
+>>would agree the sky is beautiful, but not that it is public or private property.
+
+>It's public because it belongs to everybody. 
+
+No, the sky does not, at this time, belong to anyone.  Ownership is necessary
+to the definition because someone has to have the authority to decide if the
+action was good or bad.  If neither you or I own a brick wall, then I can't
+unilaterally declare that spraypainting my name on it is right, and you don't
+have the authority to declare that it is wrong.  The owner may find it artistic
+or she may be call the police.
+
+(this applies to the argument on bright satellites more than street lights)
+
+It's vandalism because many people -- power companies -- do maliciously waste light. 
+
+"maliciously" implies evil intent.  The lighting companies aren't going out
+of their way to spoil the sky.  They just don't care.
+
+>If they can sell you
+>or your city or your state an unshielded light that wastes 30 to 50 percent
+>of its light, they make more _money_.  Never mind that your money is wasted.
+
+It is the responsibility of the customer to choose the most efficient hardware.
+If that's what your city will buy, that's what the lighting company will sell.
+Write a letter to city hall.
+
+Please note that I'm not defending light pollution.  The orignial focus of 
+this thread was space based light sources.
+
+
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       i'm wonder vandal proper word
+use situat dictionari defin vandal will malici
+destructuion public privat properti especi anyth
+beauti artisitc agre sky beauti public privat
+properti  it public belong everybodi  sky time
+belong anyon ownership necessari definit someon
+author decid action good bad neither brick wall
+can't unilater declar spraypaint name right don't
+author declar wrong owner find artist call polic
+appli argument bright satellit street light  it
+vandal mani peopl power compani malici wast light
+malici impli evil intent light compani aren't go
+way spoil sky don't care  sell citi state unshield
+light wast percent light make money never mind
+money wast  respons custom choos effici hardwar
+that citi buy that light compani sell write letter
+citi hall  pleas note i'm defend light pollut
+origni focus thread space base light sourc
+find way make one attribut hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+light, 5267, 0.437708698236
+malici, 5468, 0.293003845131
+vandal, 9419, 0.281738039889
+sky, 8011, 0.237781329123
+wast, 9654, 0.193644011251
+citi, 1775, 0.186047559322
+compani, 1958, 0.171569511787
+declar, 2447, 0.160891658651
+public, 6973, 0.158435866698
+properti, 6925, 0.15040610372
+beauti, 978, 0.15040610372
+belong, 1015, 0.144949771152
+privat, 6879, 0.133801663267
+sell, 7778, 0.131015015248
+author, 796, 0.112798078457
+money, 5835, 0.110821566609
+unshield, 9309, 0.107196856529
+destructuion, 2576, 0.107196856529
+artisitc, 668, 0.107196856529
+ownership, 6360, 0.0976679483769
+brick, 1305, 0.0976679483769
+spoil, 8249, 0.0909935226363
+polic, 6720, 0.0850714169763
+dictionari, 2624, 0.0837611585279
+hannib, 4155, 0.0831500664328
+artist, 669, 0.0814646144836
+percent, 6533, 0.079963418125
+focus, 3569, 0.0773782060775
+pollut, 6726, 0.0762476535675
+defend, 2474, 0.0762476535675
+owner, 6359, 0.0752030518598
+effici, 3006, 0.0752030518598
+evil, 3247, 0.0739233090921
+custom, 2311, 0.0727526184266
+bright, 1311, 0.0724748855758
+intent, 4702, 0.071935706331
+way, 9666, 0.0719225585847
+impli, 4546, 0.0716738449177
+attribut, 773, 0.0716738449177
+everybodi, 3239, 0.0706735996254
+street, 8440, 0.0701995075227
+wall, 9619, 0.0695176830704
+proper, 6924, 0.0695176830704
+make, 5459, 0.0689601425386
+choos, 1720, 0.0686581964331
+letter, 5227, 0.0678492979249
+necessari, 5990, 0.0676542973711
+hall, 4128, 0.0667187454149
+thread, 8890, 0.0665390394764
+action, 251, 0.0625396234488
+buy, 1433, 0.0624067981784
+don, 2811, 0.0623641776615
+hardwar, 4173, 0.0613880130202
+appli, 584, 0.0609056018198
+defin, 2482, 0.0603254605262
+aren, 623, 0.0599887749178
+decid, 2442, 0.0595523157664
+definit, 2484, 0.0594453322807
+satellit, 7632, 0.0588203469974
+situat, 7995, 0.058028916482
+argument, 631, 0.0573719234811
+especi, 3190, 0.0569211516698
+care, 1516, 0.0541222140144
+mind, 5733, 0.0535552343384
+agre, 337, 0.0532123909209
+respons, 7323, 0.0529441422434
+power, 6783, 0.0510256794865
+sourc, 8153, 0.0507398623611
+bad, 861, 0.0506271788734
+wrong, 9869, 0.0504598667652
+wonder, 9821, 0.049916424128
+note, 6118, 0.0496003801279
+word, 9829, 0.0492406169439
+state, 8342, 0.0487424715551
+write, 9865, 0.0473922435172
+anyth, 555, 0.0471287087659
+someon, 8124, 0.0449228177136
+base, 923, 0.0430224271238
+right, 7399, 0.0418181895751
+pleas, 6688, 0.0404409036485
+space, 8164, 0.038995154966
+mani, 5479, 0.038995154966
+peopl, 6530, 0.037298595576
+anyon, 554, 0.03694150255
+good, 3948, 0.0353384395118
+time, 8936, 0.0326638906648
+use, 9363, 0.0303615054016

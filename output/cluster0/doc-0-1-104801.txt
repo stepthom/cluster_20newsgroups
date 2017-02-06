@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104801
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: js1@Isis.MsState.Edu (Jiann-ming Su)
+Subject: Bonilla
+Nntp-Posting-Host: isis.msstate.edu
+Organization: Mississippi State University
+Distribution: usa
+Lines: 2
+
+Bobby Bonilla supposedly use the word 'faggot' when he got mad at that author
+in the clubhouse.  Should he be banned from baseball for a year like Schott?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bonilla      bobbi bonilla suppos use word faggot
+got mad author clubhous ban basebal year like
+schott
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bonilla, 1215, 0.550560913501
+schott, 7686, 0.341068585652
+faggot, 3358, 0.323333600169
+clubhous, 1843, 0.296821307342
+mad, 5424, 0.289514385718
+ban, 889, 0.277780557547
+bobbi, 1190, 0.257545471268
+author, 796, 0.179445005802
+suppos, 8577, 0.177844588636
+word, 9829, 0.156669030431
+basebal, 924, 0.147395668702
+got, 3960, 0.143524568896
+year, 9943, 0.109926542558
+use, 9363, 0.0966013000833
+like, 5272, 0.0920992593915

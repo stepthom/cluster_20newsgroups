@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83486
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mathew@mantis.co.uk (mathew)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: Mantis Consultants, Cambridge. UK.
+Lines: 12
+X-Newsreader: rusnews v1.01
+
+frank@D012S658.uucp (Frank O'Dwyer) writes:
+> (b) I am neither a Christian nor a theist, but I believe in objective
+> morality in preference to a relativist soup of gobbledegook.
+
+Well, there are two approaches we can take here.  One is to ask you what this
+objective morality is, assuming it's not a secret.
+
+The other is to ask you what you think is wrong with relativism, so that we
+can correct your misconceptions :-)
+
+
+mathew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral      neither christian
+theist believ object moral prefer relativist soup
+gobbledegook  well two approach take one ask
+object moral assum it secret  ask think wrong
+relativ correct misconcept   mathew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moral, 5855, 0.486907052914
+object, 6173, 0.266628191928
+soup, 8152, 0.262018126579
+christian, 1732, 0.256960486743
+theist, 8838, 0.252920513824
+ask, 689, 0.250768660661
+relativist, 7250, 0.249106450391
+relativ, 7249, 0.249106450391
+misconcept, 5759, 0.242506387944
+mathew, 5547, 0.234428564349
+secret, 7755, 0.205886312369
+approach, 589, 0.172497744336
+prefer, 6819, 0.165392387846
+assum, 710, 0.140480029499
+correct, 2156, 0.139415243291
+wrong, 9869, 0.1328735211
+believ, 1009, 0.111790721984
+say, 7653, 0.0919072114954
+year, 9943, 0.0909777606659
+think, 8871, 0.0829091144371

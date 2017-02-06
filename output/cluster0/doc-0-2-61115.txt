@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61115
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: clarke@acme.ucf.edu (Thomas Clarke)
+Subject: Re: Vandalizing the sky.
+Organization: University of Central Florida
+Lines: 19
+
+I posted this over in sci.astro, but it didn't make it here.
+Thought you all would like my wonderful pithy commentary :-)
+
+What? You guys have never seen the Goodyear blimp polluting
+the daytime and nightime skies?
+
+Actually an oribital sign would only be visible near
+sunset and sunrise, I believe.  So pollution at night
+would be minimal.
+
+If it pays for space travel, go for it.  Those who don't
+like spatial billboards can then head for the pristine
+environment of Jupiter's moons :-)
+
+---
+Thomas Clarke
+Institute for Simulation and Training, University of Central FL
+12424 Research Parkway, Suite 300, Orlando, FL 32826
+(407)658-5030, FAX: (407)658-5059, clarke@acme.ucf.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky    post sci astro didn't make thought
+like wonder pithi commentari  guy never seen
+goodyear blimp pollut daytim nightim sky  actual
+oribit sign visibl near sunset sunris believ
+pollut night minim  pay space travel don't like
+spatial billboard head pristin environ jupit moon
+thoma clark institut simul train univers central
+research parkway suit orlando
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pollut, 6726, 0.299065146245
+sky, 8011, 0.233161627412
+goodyear, 3950, 0.21798443016
+pristin, 6878, 0.199296876006
+parkway, 6431, 0.199296876006
+orlando, 6297, 0.199296876006
+blimp, 1157, 0.199296876006
+daytim, 2404, 0.191540840263
+commentari, 1937, 0.18295518701
+sunset, 8548, 0.17285328611
+sunris, 8547, 0.17285328611
+spatial, 8189, 0.160821188696
+minim, 5739, 0.151749748576
+clark, 1787, 0.146199886269
+travel, 9069, 0.143234213546
+simul, 7974, 0.142133634543
+central, 1611, 0.141599746964
+jupit, 4932, 0.141076226792
+billboard, 1090, 0.139078243129
+visibl, 9541, 0.138132165647
+vandal, 9419, 0.138132165647
+astro, 724, 0.136334136733
+suit, 8529, 0.135902760463
+thoma, 8878, 0.133843711221
+train, 9042, 0.132302695136
+sci, 7690, 0.125694085396
+environ, 3139, 0.125402618323
+institut, 4683, 0.123990754302
+sign, 7946, 0.122649162025
+pay, 6474, 0.122130676013
+head, 4215, 0.113803019386
+like, 5272, 0.113536574421
+night, 6063, 0.109459170566
+moon, 5851, 0.109459170566
+near, 5982, 0.109140108361
+research, 7307, 0.103701118486
+guy, 4100, 0.101225946406
+seen, 7767, 0.10006866824
+wonder, 9821, 0.0978932595524
+thought, 8887, 0.09409796932
+didn, 2625, 0.0900589641264
+univers, 9282, 0.0895941174092
+actual, 254, 0.0866845105074
+believ, 1009, 0.0832573799734
+post, 6766, 0.0787395189992
+space, 8164, 0.0764750859673
+make, 5459, 0.0676203599339
+don, 2811, 0.0611525438493

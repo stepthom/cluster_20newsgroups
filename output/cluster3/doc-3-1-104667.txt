@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104667
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: msilverm@nyx.cs.du.edu (Mike Silverman)
+Subject: The Mystery of Ron Gant
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 12
+
+o any of you experts want to analyze Ron Gant?
+Is his early season slump because he is still swinging his bat the way
+he was last year (trying to hit to all fields, etc.) or has he changed his
+swing back to the "old" Gant and is just in a small early season slump.
+
+Is his spot int he lineup even secure, especially the way he has
+been hitting?
+ 
+--
+msilverm@nyx.cs.du.edu				GO CUBS!!!
+
+"One likes to believe in the freedom of baseball" - Geddy Lee
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mysteri ron gant    expert want analyz ron gant
+earli season slump still swing bat way last year
+tri hit field etc chang swing back old gant small
+earli season slump  spot int lineup even secur
+especi way hit     one like believ freedom basebal
+geddi lee
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gant, 3766, 0.453409585732
+slump, 8052, 0.369550173545
+swing, 8635, 0.287596388088
+ron, 7472, 0.281012276887
+earli, 2951, 0.222706464231
+season, 7747, 0.206822935625
+geddi, 3805, 0.20338712461
+hit, 4316, 0.187798299181
+int, 4691, 0.182215865986
+secur, 7762, 0.163603828148
+analyz, 493, 0.15712826646
+mysteri, 5942, 0.152716483951
+expert, 3298, 0.148230832084
+lineup, 5287, 0.146240922263
+freedom, 3672, 0.142655404783
+way, 9666, 0.140480458025
+lee, 5190, 0.138040968522
+spot, 8261, 0.131032357177
+especi, 3190, 0.111179435426
+bat, 942, 0.110326935422
+small, 8054, 0.104605064079
+old, 6216, 0.101532975142
+field, 3466, 0.101053471423
+chang, 1650, 0.0964765809542
+basebal, 924, 0.0904848430712
+believ, 1009, 0.0829209373044
+tri, 9087, 0.0777645374342
+want, 9634, 0.0731448480194
+year, 9943, 0.0674828917318
+like, 5272, 0.0565388868371

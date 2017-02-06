@@ -1,0 +1,295 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104871
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gspira@nyx.cs.du.edu (Greg Spira)
+Subject: Re: Jack Morris
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 77
+
+maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+
+>We have no way of knowing because we cannot separate Morris' contribu-
+>tion  from the rest of the team's.  There is only one way of determin-
+>ing "best" in baseball.  And that is by looking at the  scoreboard  at
+>the  end  of  the game.  Each game determines which *team* is the best
+>that day.  At the end of the season, the team that was  the  best  the
+>most  often  is  the best in the division.  The playoffs determine the
+>best of the best.  But the point is that the only decision making pro-
+>cess  used to determine the "best" is the score of the game and it re-
+>lates to the *teams*.  Not the individual players.  There is no method
+>inherent  in  baseball of comparing individual performances.  And that
+>is how it should be, because, after all, baseball is a team game.
+
+And you know what?  There is no such method inherent in real life
+either.  So I would assume you would endorse the notion that we 
+cannot state, with any level of objectivity, that Mother Theresa
+has accomplished more good in this world than Joseph Stalin.
+After all, life on earth is a team effort.
+
+>If you want to select a group of statistics and claim that Clemens has
+>done  better  with those statistics as a criteria, then fine.  But you
+>have  to  be  able  to  prove  that  those  statistics   measure   the
+>individual's  contribution  to  winning  the WS - because  that is the
+>only measure of "best" that has any meaning in the  context  of  base-
+>ball.   So  until you can prove that Clemens contributes to a WS cham-
+>pionship more than Morris your evaluation of  Clemens is totally  sub-
+>jective  and  is  mere opinion.  I have yet to see that any of you can
+>predict a WS winner with any greater accuracy than Jeanne Dixon.
+
+Have you tried glasses?  I find them quite useful.  
+
+After all, there must be some reason you choose to ignore the mounds
+of evidence we present.  It's too bad you feel it necessary to close
+your mind and eyes to knowledge; you live a poorer life as a result
+of that choice.
+
+Heck, I'd wager that you could predict a WS winner with greater
+accuracy than Jeanne Dixon.  And you know why?  Because I have
+full confidence that despite your protestations to the contrary,
+you are quite capable of using the knowledge we can come up
+with through statistical methods to boost your knowledge level.   
+
+>You don't have to be rude.
+
+Have you tried calling a kettle black?
+
+>For you to say that means that you have either missed the entire point
+>of  my  argument, or you yourself have committed a fallacy - Ignoratio
+>Elenchi.  I am not saying that Morris is better than Clemens   because
+>he   has  more   rings   (although  I  have,  tongue in cheek, claimed
+>that in the past).  I am saying that it is impossible to  isolate   an
+>individual's  performance   from that of his team's for the purpose of
+>comparing that individual's performance with another individual's per-
+>formance.
+
+In other words, in your world, you cannot objectively state that
+Jack Morris was more important to the Blue Jays than Al Leiter last
+year.
+
+In your world, that may indeed be true.  Fortunately, in the world
+the rest of us occupy, it's not.
+
+I hope you never serve on a jury, Roger.  I think the rest of the
+jury would have to kill you.  "There's no way I can objectively
+judge the defendant to be innocent or guilty.  You see, there are
+2 billion other people on this planet.  We have no way of knowing
+whether the defendant would have committed the crime if it wasn't
+for all the other people on the planet.  We have no way of knowing
+how the defendant would have acted had he been on a different planet,
+because living on this planet is a team effort.  And no individual
+committs a crime totally isolated from his society; he is a part of
+that society.  That being case, anything I have to say on his
+culpability would be absolute subjectivity, so I refuse to vote."
+
+Greg 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri      way know cannot separ morri
+contribu tion rest team one way determin ing best
+basebal look scoreboard end game game determin
+team best day end season team best often best
+divis playoff determin best best point decis make
+pro cess use determin best score game late team
+individu player method inher basebal compar
+individu perform basebal team game  know method
+inher real life either assum endors notion cannot
+state level object mother theresa accomplish good
+world joseph stalin life earth team effort  want
+select group statist claim clemen done better
+statist criteria fine abl prove statist measur
+individu contribut win measur best mean context
+base ball prove clemen contribut cham pionship
+morri evalu clemen total sub jectiv mere opinion
+yet see predict winner greater accuraci jeann
+dixon  tri glass find quit use  must reason choos
+ignor mound evid present it bad feel necessari
+close mind eye knowledg live poorer life result
+choic  heck i'd wager could predict winner greater
+accuraci jeann dixon know full confid despit
+protest contrari quit capabl use knowledg come
+statist method boost knowledg level  don't rude
+tri call kettl black  say mean either miss entir
+point argument commit fallaci ignoratio elenchi
+say morri better clemen ring although tongu cheek
+claim past say imposs isol individu perform team
+purpos compar individu perform anoth individu per
+formanc  word world cannot object state jack morri
+import blue jay leiter last year  world inde true
+fortun world rest occupi it  hope never serv juri
+roger think rest juri kill there way object judg
+defend innoc guilti see billion peopl planet way
+know whether defend commit crime wasn't peopl
+planet way know defend act differ planet live
+planet team effort individu committ crime total
+isol societi part societi case anyth say culpabl
+absolut subject refus vote  greg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+individu, 4604, 0.280407089077
+best, 1052, 0.245075935928
+team, 8732, 0.243390728498
+morri, 5868, 0.224193374886
+clemen, 1807, 0.199615357565
+statist, 8348, 0.184177190176
+planet, 6664, 0.167820032666
+determin, 2582, 0.159641453911
+defend, 2474, 0.152462685896
+dixon, 2771, 0.14289856716
+juri, 4933, 0.135468085079
+jeann, 4837, 0.135468085079
+method, 5666, 0.123749462794
+world, 9841, 0.122751680799
+knowledg, 5053, 0.122505416317
+way, 9666, 0.119845288623
+isol, 4785, 0.117493581124
+rest, 7324, 0.11741265891
+crime, 2229, 0.111657654196
+perform, 6539, 0.11160403912
+game, 3761, 0.111099317317
+inher, 4644, 0.107904627898
+accuraci, 226, 0.107238160864
+winner, 9786, 0.105372909154
+object, 6173, 0.101232697785
+life, 5260, 0.101232697785
+know, 5052, 0.0986837727836
+commit, 1945, 0.0973606060249
+greater, 4017, 0.0945356678457
+say, 7653, 0.0930535754506
+basebal, 924, 0.0926322332917
+societi, 8093, 0.0868883095803
+jack, 4808, 0.0856383372165
+effort, 3007, 0.0856383372165
+contribut, 2103, 0.0835471168767
+predict, 6816, 0.083015896387
+measur, 5601, 0.0826701158704
+prove, 6947, 0.0813487636194
+compar, 1960, 0.0771008081105
+level, 5229, 0.0751826327365
+total, 9013, 0.0731383415483
+cess, 1625, 0.0714492835799
+claim, 1782, 0.071391703998
+poorer, 6742, 0.0677340425393
+live, 5310, 0.067191684231
+quit, 7043, 0.0671182339376
+tion, 8944, 0.0663215734497
+rude, 7529, 0.0663215734497
+wager, 9607, 0.0650980370709
+state, 8342, 0.0649760596584
+end, 3091, 0.0631761407223
+scoreboard, 7706, 0.0630533923822
+cheek, 1686, 0.0630533923822
+tongu, 8983, 0.062180073607
+occupi, 6191, 0.062180073607
+ing, 4642, 0.062180073607
+use, 9363, 0.0607100211588
+playoff, 6685, 0.0599703269407
+glass, 3893, 0.0593381513416
+endors, 3096, 0.0593381513416
+fallaci, 3370, 0.0581912924968
+mound, 5885, 0.0576675549898
+criteria, 2236, 0.0576675549898
+confid, 2029, 0.0567021458732
+mean, 5595, 0.0566338679845
+fortun, 3619, 0.0554215195164
+better, 1060, 0.054823410027
+contrari, 2100, 0.0532975417619
+tri, 9087, 0.0530733658731
+refus, 7222, 0.052395544053
+evalu, 3226, 0.052395544053
+innoc, 4658, 0.0521135860574
+guilti, 4088, 0.0521135860574
+mother, 5877, 0.0518400459879
+heck, 4234, 0.0518400459879
+point, 6710, 0.051727445592
+protest, 6942, 0.051574435743
+vote, 9585, 0.0513163084808
+sub, 8482, 0.0513163084808
+joseph, 4893, 0.0513163084808
+notion, 6122, 0.0501246431319
+peopl, 6530, 0.0497208223957
+subject, 8487, 0.0494775805891
+ring, 7406, 0.0494775805891
+accomplish, 218, 0.0494775805891
+despit, 2570, 0.0490702730074
+boost, 1224, 0.0490702730074
+pro, 6883, 0.0486803030125
+greg, 4033, 0.0479468787385
+imposs, 4553, 0.046946295253
+decis, 2445, 0.0466356583237
+context, 2087, 0.0459022340497
+choos, 1720, 0.0457623395485
+judg, 4920, 0.0453550319668
+necessari, 5990, 0.0450932166741
+serv, 7810, 0.0447140075869
+mere, 5641, 0.0444696487899
+roger, 7458, 0.0439996528553
+inde, 4594, 0.043662329665
+billion, 1092, 0.043662329665
+separ, 7797, 0.0435525928823
+eye, 3337, 0.0430227972515
+select, 7774, 0.0428191686083
+absolut, 193, 0.0427190264985
+divis, 2767, 0.0424250041011
+choic, 1717, 0.0423290565035
+blue, 1176, 0.0422341031995
+late, 5139, 0.0420470985079
+capabl, 1498, 0.0410816893913
+jay, 4832, 0.0409165874139
+ignor, 4496, 0.0409165874139
+act, 249, 0.0409165874139
+fine, 3485, 0.0406743818097
+black, 1133, 0.0400581555824
+entir, 3129, 0.0398373518417
+wasn, 9652, 0.0397649173788
+score, 7705, 0.0396217439683
+purpos, 6993, 0.0394110930396
+kill, 5012, 0.0392051762425
+past, 6456, 0.0387419701652
+miss, 5770, 0.0387419701652
+evid, 3245, 0.038613815463
+argument, 631, 0.038239767126
+present, 6837, 0.0366715507425
+feel, 3429, 0.0360256582069
+ball, 877, 0.0358357465002
+mind, 5733, 0.035695851999
+result, 7332, 0.0355580612544
+assum, 710, 0.0355580612544
+season, 7747, 0.0352885444173
+import, 4551, 0.0347304428824
+close, 1830, 0.0347304428824
+opinion, 6266, 0.0343231353007
+bad, 861, 0.0337442325949
+abl, 180, 0.0335225384298
+win, 9770, 0.0333060816278
+word, 9829, 0.0328200557141
+hope, 4372, 0.0327526810588
+true, 9121, 0.0326857981936
+earth, 2956, 0.031919114675
+group, 4064, 0.031888520617
+case, 1540, 0.0318580283698
+player, 6683, 0.0316176759179
+real, 7144, 0.0314124181099
+anyth, 555, 0.0314124181099
+reason, 7156, 0.0295552564188
+anoth, 533, 0.0295316101816
+base, 923, 0.0286754826157
+differ, 2633, 0.028214094396
+day, 2402, 0.0271712919209
+come, 1923, 0.0265708092771
+want, 9634, 0.0249602415751
+good, 3948, 0.023553920028
+year, 9943, 0.0230281328818
+make, 5459, 0.0229817969457
+look, 5341, 0.0228669719864
+think, 8871, 0.0209858111521
+don, 2811, 0.0207836123149

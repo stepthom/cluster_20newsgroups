@@ -1,0 +1,156 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84019
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: b645zaw@utarlg.uta.edu (stephen)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+News-Software: VAX/VMS VNEWS 1.41    
+Nntp-Posting-Host: utarlg.uta.edu
+Organization: The University of Texas at Arlington
+Lines: 33
+
+In article <1993Apr21.154750.24341@maths.tcd.ie>, 
+pmoloney@maths.tcd.ie (Paul Moloney) writes...
+
+>cotera@woods.ulowell.edu (Ray Cote) writes:
+>> David Thibedeau (sp?), one of the cult members, said that the fire
+>>was started when one of the tanks spraying the tear gas into the 
+>>facilities knocked over a lantern.
+> 
+>In two places at once? Bit of a coincidence, that.
+
+Never lived out in the country I see. 4 years ago I had a place
+where I had to carry in propane every month, hook the bottle up 
+to copper line, to supply both the stove, and a type of water-
+heater called a flash-heater. A flash heater has a pilot lamp.
+
+Here's the point. If the Davidians had their propane tanks hooked 
+up to copper (or some such) lines, run through the ceiling spaces
+-- when the FBI started wrecking the place, they could easily have
+ruptured the lines. Which then would start spreading out through
+the overhead. And since it was a country home, it wasn't necessarily
+built with non-flamable insulation. 
+
+It's probably more plausible than anything else, that the fire started
+mainly as a result of accident -- or willful negligence on the part of
+the FBI, which should have known better (ie. manslaughter).
+
+It's certain that if the tanks hadn't been used that day -- the fire
+wouldn't have started.
+
+>Whatever the faults the FBI had, the fact is that responsibility
+>for those deaths lies with Koresh.
+
+Paul, what "fact?"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos news softwar
+vax vms vnew         david thibedeau one cult
+member said fire start one tank spray tear gas
+facil knock lantern  two place bit coincid  never
+live countri see year ago place carri propan everi
+month hook bottl copper line suppli stove type
+water heater call flash heater flash heater pilot
+lamp  here point davidian propan tank hook copper
+line run ceil space fbi start wreck place could
+easili ruptur line start spread overhead sinc
+countri home wasn't necessarili built non flamabl
+insul  it probabl plausibl anyth els fire start
+main result accid will neglig part fbi known
+better manslaught  it certain tank hadn't use day
+fire wouldn't start  whatev fault fbi fact respons
+death lie koresh  paul fact
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+heater, 4227, 0.350769556898
+copper, 2134, 0.249616974958
+fbi, 3414, 0.246029207704
+start, 8334, 0.244308797632
+tank, 8695, 0.238890619209
+propan, 6922, 0.223458540173
+hook, 4367, 0.202059164384
+flash, 3524, 0.196065029759
+place, 6657, 0.158611371052
+line, 5285, 0.153499064886
+countri, 2186, 0.149428862949
+koresh, 5065, 0.148248868109
+thibedeau, 8863, 0.116923185633
+lamp, 5101, 0.111729270086
+ceil, 1594, 0.111729270086
+wreck, 9859, 0.109668027878
+spray, 8264, 0.109668027878
+lantern, 5119, 0.109668027878
+insul, 4688, 0.107849883397
+fact, 3350, 0.105936311986
+neglig, 5998, 0.10475225295
+bottl, 1246, 0.102173541505
+overhead, 6341, 0.0999645815505
+plausibl, 6680, 0.0989683399834
+tear, 8735, 0.0933663904602
+accid, 210, 0.0927094237957
+hadn, 4114, 0.0920792797039
+coincid, 1883, 0.0920792797039
+pilot, 6631, 0.0897882111162
+enclos, 3085, 0.0897882111162
+spread, 8265, 0.0852149374227
+fault, 3407, 0.0826667025657
+knock, 5050, 0.0816914486112
+gas, 3780, 0.0813795918094
+davidian, 2398, 0.0813795918094
+water, 9657, 0.0807741657159
+cite, 1774, 0.0799083470209
+cult, 2289, 0.0796302064028
+tape, 8700, 0.0790885232217
+suppli, 8574, 0.0785652057615
+necessarili, 5991, 0.0773296355762
+biblic, 1072, 0.0766331390907
+lie, 5258, 0.0747144314746
+facil, 3348, 0.0745152495282
+easili, 2962, 0.0730080643587
+paul, 6469, 0.072829607034
+vnew, 9564, 0.0702236228142
+death, 2423, 0.0689305185084
+member, 5625, 0.0683888353272
+vms, 9563, 0.068124959044
+main, 5450, 0.0677374143379
+built, 1381, 0.0676103651708
+whatev, 9718, 0.0673593614832
+vax, 9439, 0.0673593614832
+wasn, 9652, 0.0669903466199
+carri, 1530, 0.0652670288582
+wouldn, 9854, 0.0645242415347
+month, 5847, 0.0636189171061
+david, 2397, 0.0623083764642
+known, 5054, 0.0616925984848
+non, 6097, 0.0611836605195
+type, 9177, 0.0602920728223
+ago, 336, 0.0601353568908
+result, 7332, 0.0599032264012
+home, 4354, 0.0595239349197
+respons, 7323, 0.0594491822958
+live, 5310, 0.0565975552487
+certain, 1619, 0.0546217903558
+els, 3053, 0.0533652553613
+news, 6031, 0.0533150556856
+anyth, 555, 0.0529192292116
+everi, 3235, 0.0528704570173
+bit, 1122, 0.0520640722322
+softwar, 8103, 0.0515192020196
+said, 7583, 0.0513859374222
+probabl, 6885, 0.050483972625
+sinc, 7977, 0.0470561394979
+run, 7543, 0.0464983347626
+better, 1060, 0.0461793898075
+day, 2402, 0.0457743756023
+space, 8164, 0.0437863374115
+point, 6710, 0.0435715668281
+year, 9943, 0.0387945632847
+use, 9363, 0.0340919050327

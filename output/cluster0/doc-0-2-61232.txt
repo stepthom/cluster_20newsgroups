@@ -1,0 +1,137 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61232
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Wingert@vnet.IBM.COM (Bret Wingert)
+Subject: Re: Level 5?
+Organization: IBM, Federal Systems Co. Software Services
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+            <1993Apr23.124759.1@fnalf.fnal.gov>
+Lines: 29
+
+In <1993Apr23.124759.1@fnalf.fnal.gov> Bill Higgins-- Beam Jockey writes:
+>In article <19930422.121236.246@almaden.ibm.com>, Wingert@vnet.IBM.COM (Bret Wingert) writes:
+>> 3. The Onboard Flight Software project was rated "Level 5" by a NASA team.
+>>    This group generates 20-40 KSLOCs of verified code per year for NASA.
+>
+>Will someone tell an ignorant physicist where the term "Level 5" comes
+>from? It sounds like the RISKS Digest  equivalent of Large, Extra
+>Large, Jumbo... Or maybe it's like "Defcon 5..."
+>
+>I gather it means that Shuttle software was developed with extreme
+>care to have reliablility and safety, and almost everything else in
+>the computing world is Level 1, or cheesy dime-store software.  Not
+>surprising.  But who is it that invents this standard, and how come
+>everyone but me seems to be familiar with it?
+
+Level 5 refers to the Carnegie-Mellon Software Engineering Institute's
+Capability Maturity Model.  This model rates software development
+org's from1-5.  with 1 being Chaotic and 5 being Optimizing.  DoD is
+beginning to use this rating system as a discriminator in contracts.  I
+have more data on thifrom 1 page to 1000.  I have a 20-30 page
+presentation that summarizes it wethat I could FAX to you if you're
+interested...
+Bret Wingert
+Wingert@VNET.IBM.COM
+
+(713)-282-7534
+FAX: (713)-282-8077
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ level   news softwar urepli      onboard flight
+softwar project rate level nasa team group generat
+ksloc verifi code per year nasa  someon tell ignor
+physicist term level come sound like risk digest
+equival larg extra larg jumbo mayb it like defcon
+gather mean shuttl softwar develop extrem care
+reliablil safeti almost everyth els comput world
+level cheesi dime store softwar surpris invent
+standard come everyon seem familiar  level refer
+carnegi mellon softwar engin institut capabl matur
+model model rate softwar develop org from1 chaotic
+optim dod begin use rate system discrimin contract
+data thifrom page page present summar wethat could
+fax you'r interest bret wingert    fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+level, 5229, 0.376999513425
+softwar, 8103, 0.368037005819
+rate, 7108, 0.239279002996
+page, 6382, 0.175154036932
+fax, 3413, 0.154394612451
+model, 5807, 0.154143706584
+wingert, 9780, 0.143311529079
+defcon, 2471, 0.143311529079
+chaotic, 1655, 0.143311529079
+nasa, 5956, 0.138334188427
+develop, 2588, 0.136898786518
+larg, 5124, 0.136124914423
+carnegi, 1525, 0.135859573682
+bret, 1299, 0.135859573682
+dime, 2651, 0.130572327184
+urepli, 9351, 0.1216492842
+matur, 5555, 0.1216492842
+physicist, 6614, 0.120287269832
+onboard, 6239, 0.120287269832
+dod, 2789, 0.119019264791
+discrimin, 2705, 0.116718918497
+invent, 4741, 0.115668416389
+summar, 8535, 0.111163363827
+verifi, 9472, 0.108216460992
+optim, 6274, 0.107548067937
+come, 1923, 0.106590384552
+gather, 3792, 0.105677425844
+familiar, 3379, 0.104528377746
+org, 6286, 0.103446960941
+risk, 7416, 0.102425654683
+equival, 3162, 0.0996636506242
+safeti, 7579, 0.0961708804105
+contract, 2095, 0.095820797761
+store, 8417, 0.0932370725408
+digest, 2640, 0.0926441571419
+extrem, 3333, 0.0909722065349
+extra, 3325, 0.0856849600377
+institut, 4683, 0.0845238086894
+surpris, 8593, 0.0827380572024
+capabl, 1498, 0.0824008223573
+ignor, 4496, 0.0820696641475
+begin, 994, 0.0815838530413
+flight, 3544, 0.0799049552472
+generat, 3819, 0.0796155196056
+everyth, 3242, 0.0791897372411
+like, 5272, 0.0773972523163
+term, 8795, 0.0755144126092
+standard, 8313, 0.0752861018049
+shuttl, 7929, 0.073972772984
+present, 6837, 0.0735550553805
+everyon, 3241, 0.0732478819338
+code, 1871, 0.0730459152486
+care, 1516, 0.0723560139602
+sound, 8150, 0.0721635642081
+engin, 3109, 0.0716910758886
+project, 6909, 0.0682162554599
+data, 2385, 0.0680624572117
+refer, 7213, 0.0677586687514
+mayb, 5564, 0.0643326513972
+group, 4064, 0.0639613502154
+comput, 1993, 0.0637179190619
+els, 3053, 0.0635374385602
+news, 6031, 0.0634776701062
+world, 9841, 0.0615532101616
+team, 8732, 0.0610235255643
+tell, 8767, 0.0600573366189
+someon, 8124, 0.0600573366189
+mean, 5595, 0.056797533942
+year, 9943, 0.0461893635566
+use, 9363, 0.0405903111818

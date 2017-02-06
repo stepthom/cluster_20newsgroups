@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/103587
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Best Homeruns
+From: csc2imd@cabell.vcu.edu (Ian M. Derby)
+Expires: Sun, 25 Apr 1993 04:00:00 GMT
+Organization: Virginia Commonwealth University
+Lines: 14
+
+
+I personally will never forget Mike Schmidt's home run against the
+Expos in 1980 that decided the NL East.  It was also his career high
+48th. 
+
+Another home run that I thought was totally incredible was in the
+1986 ALCS.  The CA Angles had the Boston Red Sox *1* strike away from
+the pennant until Don Baylor hit a two strike pitch for a home run.
+That was the most incredible turn of events I have EVER seen in
+baseball.  The Sox later took the pennant away only to have the same
+thing done to them in the WS against the Mets.  Speaking of the METS,
+isn't it strange how the NLCS that year with the Astros ALMOST
+mirrored the 1980 NLCS with the Phillies??  The Astros have been
+painfully close twice I must admit.  
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+best homerun  expir sun gmt     person never
+forget mike schmidt home run expo decid east also
+career high 48th  anoth home run thought total
+incred alc angl boston red sox strike away pennant
+baylor hit two strike pitch home run incred turn
+event ever seen basebal sox later took pennant
+away thing done met speak met isn't strang nlcs
+year astro almost mirror nlcs philli astro pain
+close twice must admit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+nlcs, 6082, 0.331005606781
+home, 4354, 0.258999607407
+pennant, 6524, 0.258938665522
+incred, 4591, 0.253334146826
+astro, 724, 0.226432870191
+strike, 8448, 0.222959990203
+sox, 8162, 0.206855437933
+run, 7543, 0.202322821313
+met, 5655, 0.199160377269
+away, 833, 0.177480919518
+alc, 389, 0.174580702545
+baylor, 957, 0.154066003022
+schmidt, 7681, 0.139695630001
+homerun, 4356, 0.129469332761
+twice, 9170, 0.126018075679
+expo, 3309, 0.124773930388
+pain, 6389, 0.123595297519
+angl, 511, 0.121936104942
+mirror, 5755, 0.118484847859
+strang, 8426, 0.11549523299
+expir, 3300, 0.11549523299
+gmt, 3917, 0.11215849715
+admit, 276, 0.108658087789
+boston, 1243, 0.107791314223
+philli, 6593, 0.107509689703
+career, 1517, 0.103662159371
+forget, 3604, 0.102070403153
+east, 2965, 0.101851973575
+event, 3232, 0.101635654461
+took, 8987, 0.0988080826692
+speak, 8192, 0.0986191460702
+decid, 2442, 0.0969868470146
+mike, 5710, 0.096639726044
+later, 5140, 0.0938881775988
+sun, 8539, 0.0925577553069
+red, 7194, 0.0896040487919
+total, 9013, 0.0893538913948
+turn, 9158, 0.0891064982244
+close, 1830, 0.0848611044689
+seen, 7767, 0.0831003749642
+isn, 4783, 0.0819990617631
+pitch, 6643, 0.0817319947302
+hit, 4316, 0.078293383146
+thought, 8887, 0.0781421065292
+high, 4292, 0.0757154628904
+basebal, 924, 0.0754465244721
+best, 1052, 0.0748529707497
+person, 6562, 0.0745941371835
+anoth, 533, 0.072158165827
+thing, 8869, 0.0611642619707
+year, 9943, 0.0562674307617

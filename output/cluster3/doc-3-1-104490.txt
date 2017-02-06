@@ -1,0 +1,152 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104490
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Jack Morris
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 33
+
+In article <1qt6ooINN7gd@senator-bedfellow.MIT.EDU> cmk@athena.mit.edu (Charles M Kozierok) writes:
+>
+>the only really valid retort to Valentine is: weren't the Red Sox trying
+>to get Morris too? oh, sure, they *said* Viola was their first choice
+>afterwards, but what should we have expected they would say?
+
+Lou wanted Morris all along.  The idiot.  Giving the man $40 million
+to play with is like giving a five year old a loaded Uzi with the
+safety off.  The only question is how many shots he will get off
+before somebody is wise enough to take it away.
+
+>} And don't tell me Boston will win this year.  They won't 
+>} even be in the top 4 in the division, more like 6th.
+>
+>if this is true, it won't be for lack of contribution by Viola, so who cares?
+
+I don't see why people expect Boston to finish sixth.  The bottom four
+teams last year were essentially tied.  Boston, in seventh place, had
+73 wins.  The Yankees and Indians, tied for fourth place, had 76 wins.
+
+Now I should think it is obvious that the Red Sox improved more than
+the Indians or Tigers.  Basically, the Red Sox are stronger this year
+at 1B, DH, SS, LF, and RF.  They have healthier starting pitchers (so
+far, at least) and better relievers.  I see no reason why they
+shouldn't win ~85 games.  Meanwhile, the Indians are in shambles and
+the Tigers *still* have no pitching.  They will win some 20-3
+blowouts, but they will lose an awful lot of 7-5 games too.
+
+*MAYBE* the Sox will play poorly, win 78 games, and finish fifth.
+But I think third or fourth place is more likely.
+
+Cheers,
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri      realli valid retort valentin
+weren't red sox tri get morri sure said viola
+first choic afterward expect say  lou want morri
+along idiot give man million play like give five
+year old load uzi safeti question mani shot get
+somebodi wise enough take away  don't tell boston
+win year won't even top divis like 6th  true won't
+lack contribut viola care  don't see peopl expect
+boston finish sixth bottom four team last year
+essenti tie boston seventh place win yanke indian
+tie fourth place win  think obvious red sox improv
+indian tiger basic red sox stronger year healthier
+start pitcher far least better reliev see reason
+shouldn't win game meanwhil indian shambl tiger
+still pitch win blowout lose aw lot game  mayb sox
+play poor win game finish fifth think third fourth
+place like  cheer valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+win, 9770, 0.33566112914
+sox, 8162, 0.284396887035
+indian, 4598, 0.238184345488
+morri, 5868, 0.225943724636
+boston, 1243, 0.222296652103
+viola, 9525, 0.186180710452
+red, 7194, 0.18478928664
+fourth, 3630, 0.173256979809
+valentin, 9409, 0.165521145036
+tiger, 8928, 0.164182608115
+tie, 8923, 0.159344200264
+place, 6657, 0.158142440779
+year, 9943, 0.154719472787
+finish, 3488, 0.148987080516
+game, 3761, 0.139958381753
+won, 9820, 0.131251534931
+shambl, 7850, 0.120011851843
+retort, 7340, 0.120011851843
+blowout, 1175, 0.120011851843
+expect, 3290, 0.119299486138
+play, 6681, 0.101512817714
+afterward, 325, 0.100730890937
+sixth, 7997, 0.0986757427356
+seventh, 7821, 0.0977426843737
+like, 5272, 0.0972209385845
+stronger, 8457, 0.0968629735501
+lou, 5360, 0.0968629735501
+meanwhil, 5600, 0.0952413962569
+6th, 134, 0.0930903552261
+reliev, 7258, 0.0861949189965
+fifth, 3471, 0.0853627839431
+weren, 9705, 0.0849630017414
+idiot, 4487, 0.0849630017414
+wise, 9799, 0.0820913040574
+aw, 829, 0.0811389952247
+safeti, 7579, 0.0805353590572
+shouldn, 7912, 0.079954507127
+valid, 9411, 0.0788547001199
+essenti, 3196, 0.0783329298338
+shot, 7910, 0.0755268644428
+somebodi, 8121, 0.0735252493372
+poor, 6741, 0.0733386925149
+cheer, 1687, 0.0727922179708
+jack, 4808, 0.0719224527046
+yanke, 9933, 0.0717542461188
+load, 5317, 0.0715878580183
+lack, 5092, 0.0712603829109
+divis, 2767, 0.0712603829109
+million, 5724, 0.0710992217587
+improv, 4557, 0.0710992217587
+choic, 1717, 0.0710992217587
+think, 8871, 0.0704988470869
+contribut, 2103, 0.0701661633969
+don, 2811, 0.0698195888585
+lose, 5350, 0.0676648752801
+obvious, 6185, 0.0650740686345
+basic, 937, 0.0633337266387
+pitcher, 6644, 0.0611700650665
+away, 833, 0.061002772665
+care, 1516, 0.0605923283572
+old, 6216, 0.0581967072741
+pitch, 6643, 0.0561849499939
+true, 9121, 0.0549016445461
+mayb, 5564, 0.0538734090534
+man, 5471, 0.0531574311507
+far, 3386, 0.051411433217
+said, 7583, 0.0512340162737
+team, 8732, 0.0511022829497
+tell, 8767, 0.050293177602
+reason, 7156, 0.0496433396781
+sure, 8585, 0.0495640057426
+start, 8334, 0.0487173010424
+lot, 5356, 0.0480217623849
+question, 7032, 0.046587440319
+better, 1060, 0.0460428616777
+realli, 7150, 0.0456697343269
+tri, 9087, 0.044573105585
+mani, 5479, 0.043656884277
+want, 9634, 0.0419251903418
+peopl, 6530, 0.0417575073667
+say, 7653, 0.0390750310951

@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104771
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Jack Morris
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 31
+
+In article <1993Apr19.160012.24850@sni.ca> dave@snitor.sni.ca (Dave Till) writes:
+>
+>I don't think it was that obvious at the time that Viola was better.
+>Morris and Viola had comparable K/IP ratios in 1991.  Viola was coming
+>off an injury, whereas Morris was healthy.
+
+At the time I didn't really want the Sox to sign either.  I was more
+than a little worried about Viola's elbow.
+
+But you *surely* remember my shout of relief when, after a week of
+rumors that Morris was coming to the Red Sox, they ended up with Viola
+instead.
+
+Now I'm even happier.  Viola seems to have rebounded nicely.
+
+>Also, Morris was willing to sign for only two years.
+>The Jays don't like to sign pitchers to long-term contracts, which I think
+>is a sensible policy.
+
+How long did Viola sign for.  Three years?  I generally agree with
+their policy of avoiding long-term contracts for pitchers.  But I
+think they enforce it rather too strictly.  These days the premier
+pitchers all sign three or four year deals.  Which leaves the Jays
+with Morris and Stewart.  If the Jays want to compete for top free
+agent pitchers, they will have to accept greater risks.
+
+Any idea what the option year deal is for Morris?  Are there any
+automatic activation clauses?  What is the buyout amount?f
+
+Cheers,
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri      don't think obvious time viola
+better morri viola compar ratio viola come injuri
+wherea morri healthi  time didn't realli want sox
+sign either littl worri viola elbow  sure rememb
+shout relief week rumor morri come red sox end
+viola instead  i'm even happier viola seem rebound
+nice  also morri will sign two year jay don't like
+sign pitcher long term contract think sensibl
+polici  long viola sign three year general agre
+polici avoid long term contract pitcher think
+enforc rather strict day premier pitcher sign
+three four year deal leav jay morri stewart jay
+want compet top free agent pitcher accept greater
+risk  idea option year deal morri automat activ
+claus buyout amount  cheer valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+viola, 9525, 0.546538007202
+morri, 5868, 0.44217553545
+sign, 7946, 0.293619567585
+pitcher, 6644, 0.205218531306
+jay, 4832, 0.172927697775
+polici, 6721, 0.151075227627
+contract, 2095, 0.134601663338
+year, 9943, 0.129766508076
+long, 5336, 0.122019454367
+sox, 8162, 0.11926485488
+term, 8795, 0.10607682028
+deal, 2418, 0.104360248191
+elbow, 3026, 0.100656489198
+rebound, 7162, 0.0977760298608
+happier, 4162, 0.0977760298608
+premier, 6826, 0.0954225232165
+think, 8871, 0.088693320676
+stewart, 8392, 0.0864749992723
+claus, 1795, 0.0864749992723
+shout, 7913, 0.0844851377574
+sensibl, 7790, 0.0819788654435
+healthi, 4222, 0.0805431039469
+wherea, 9723, 0.0798809819725
+enforc, 3106, 0.0792511717758
+ratio, 7109, 0.0770005226352
+strict, 8445, 0.0760070673091
+rumor, 7541, 0.0760070673091
+come, 1923, 0.0748649739501
+relief, 7257, 0.0734166999197
+risk, 7416, 0.0719398283615
+want, 9634, 0.0703270952654
+valentin, 9409, 0.0694130500093
+agent, 331, 0.0694130500093
+compet, 1969, 0.0691293342276
+injuri, 4650, 0.0688517203361
+automat, 803, 0.0675467162162
+worri, 9845, 0.0665900898692
+greater, 4017, 0.0665900898692
+avoid, 827, 0.0654861227521
+option, 6276, 0.0624793144607
+time, 8936, 0.0613419584176
+cheer, 1687, 0.0610523793223
+jack, 4808, 0.0603228887197
+don, 2811, 0.058559172147
+leav, 5184, 0.0575278225169
+instead, 4682, 0.0554242285621
+activ, 252, 0.0551362936111
+obvious, 6185, 0.0545790035401
+compar, 1960, 0.0543091285867
+accept, 208, 0.0530384101401
+free, 3668, 0.0525631951854
+nice, 6047, 0.0522558342738
+red, 7194, 0.0516622332128
+agre, 337, 0.0499657604275
+general, 3818, 0.0498392050175
+week, 9691, 0.0475382790912
+rememb, 7269, 0.0475382790912
+end, 3091, 0.0445007158055
+idea, 4482, 0.0441312885714
+littl, 5308, 0.0433844671784
+didn, 2625, 0.0431198610204
+sure, 8585, 0.0415703843582
+better, 1060, 0.0386171260417
+realli, 7150, 0.0383041762073
+day, 2402, 0.0382784363215
+like, 5272, 0.0271804220561

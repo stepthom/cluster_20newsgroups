@@ -1,0 +1,223 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38432
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: alan@saturn.cs.swin.OZ.AU (Alan Christiansen)
+Subject: Re: Sphere from 4 points?
+Organization: Swinburne University of Technology
+Lines: 71
+NNTP-Posting-Host: saturn.cs.swin.oz.au
+
+spworley@netcom.com (Steve Worley) writes:
+
+>bolson@carson.u.washington.edu (Edward Bolson) writes:
+
+>>Boy, this will be embarassing if it is trivial or an FAQ:
+
+>>Given 4 points (non coplanar), how does one find the sphere, that is,
+>>center and radius, exactly fitting those points?  I know how to do it
+>>for a circle (from 3 points), but do not immediately see a 
+>>straightforward way to do it in 3-D.  I have checked some
+>>geometry books, Graphics Gems, and Farin, but am still at a loss?
+>>Please have mercy on me and provide the solution?  
+
+>It's not a bad question: I don't have any refs that list this algorithm
+>either. But thinking about it a bit, it shouldn't be too hard.
+
+>1) Take three of the points and find the plane they define as well as
+>the circle that they lie on (you say you have this algorithm already)
+
+>2) Find the center  of this circle. The line passing through this center
+>perpendicular to the plane of the three points passes through the center of
+>the sphere.
+
+>3) Repeat with the unused point and two of the original points. This
+>gives you two different lines that both pass through the sphere's
+>origin. Their interection is the center of the sphere.
+
+>4) the radius is easy to compute, it's just the distance from the center to
+>any of the original points.
+
+>I'll leave the math to you, but this is a workable algorithm. :-)
+
+Good I had a bad feeling about this problem because of a special case
+with no solution that worried me.
+
+Four coplanar points in the shape of a square have no unique sphere 
+that they are on the surface of.
+Similarly 4 colinear point have no finite sized sphere that they are on the
+surface of.
+
+These algorithms being geometrical designed rather than algebraically design
+meet these problems neatly.
+
+When determining which plane the 3 points are on if they are colinear
+the algorithm should afil or return infinite R.
+When intersecting the two lines there are 2 possibilities
+they are the same line  (the 4 points were on a planar circle)
+they are different lines but parallel. There is a sphere of in radius.
+
+This last case can be achieved with 3 colinier points and any 4th point
+by taking the 4th point and pairs of the first 3 parallel lines will be produced
+
+it can also be achieved by
+
+If all 4 points are coplanar but are not on one circle. 
+
+It seems to me that the algorithm only fails when the 4 points are coplanar.
+The algorithm always fails when the points are coplanar.
+(4 points being colinear => coplanar)
+
+Testing if the 4th point is coplanar when the plane of the first 3 points
+has been found is trivial.
+
+
+>An alternate method would be to take pairs of points: the plane formed
+>by the perpendicular bisector of each line segment pair also contains the
+>center of the sphere. Three pairs will form three planes, intersecting
+>at a point. This might be easier to implement.
+
+>-Steve
+>spworley@netcom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sphere point         boy embarass trivial faq
+given point non coplanar one find sphere center
+radius exact fit point know circl point immedi see
+straightforward way check geometri book graphic
+gem farin still loss pleas merci provid solut  it
+bad question don't ref list algorithm either think
+bit shouldn't hard  take three point find plane
+defin well circl lie say algorithm alreadi  find
+center circl line pass center perpendicular plane
+three point pass center sphere  repeat unus point
+two origin point give two differ line pass sphere
+origin interect center sphere  radius easi comput
+it distanc center origin point  i'll leav math
+workabl algorithm  good bad feel problem special
+case solut worri  four coplanar point shape squar
+uniqu sphere surfac similar colinear point finit
+size sphere surfac  algorithm geometr design
+rather algebra design meet problem neat  determin
+plane point colinear algorithm afil return infinit
+intersect two line possibl line point planar circl
+differ line parallel sphere radius  last case
+achiev colini point 4th point take 4th point pair
+first parallel line produc  also achiev  point
+coplanar one circl  seem algorithm fail point
+coplanar algorithm alway fail point coplanar point
+colinear coplanar  test 4th point coplanar plane
+first point found trivial   altern method take
+pair point plane form perpendicular bisector line
+segment pair also contain center sphere three pair
+form three plane intersect point might easier
+implement  steve
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+point, 6710, 0.511763937841
+sphere, 8226, 0.370291608275
+coplanar, 2133, 0.363893164891
+algorithm, 407, 0.229908962783
+plane, 6663, 0.219979570987
+center, 1606, 0.21345175779
+circl, 1765, 0.196224891189
+pair, 6394, 0.186993662159
+line, 5285, 0.175282185575
+radius, 7064, 0.125698752399
+4th, 112, 0.125110063492
+perpendicular, 6554, 0.103969475683
+pass, 6448, 0.101201758845
+trivial, 9110, 0.0934968310795
+intersect, 4722, 0.0837991682658
+origin, 6293, 0.0805980954111
+parallel, 6420, 0.0790601687673
+achiev, 232, 0.076648343646
+solut, 8118, 0.0745690453082
+fail, 3360, 0.0718143794574
+surfac, 8587, 0.0660523609498
+form, 3610, 0.0605532690537
+design, 2564, 0.0587074587431
+bisector, 1118, 0.0572210601434
+planar, 6661, 0.055843727218
+bad, 861, 0.055641259537
+farin, 3388, 0.0546792088224
+algebra, 404, 0.0536704571044
+unus, 9324, 0.0527806750297
+case, 1540, 0.0525310753437
+embarass, 3061, 0.0519847378416
+workabl, 9834, 0.0512647250736
+ref, 7212, 0.0494428865206
+straightforward, 8423, 0.0489216856533
+finit, 3489, 0.0489216856533
+problem, 6887, 0.0475336680287
+segment, 7768, 0.0467484155398
+differ, 2633, 0.0465225500231
+merci, 5638, 0.0456925956557
+squar, 8276, 0.0450626962769
+neat, 5985, 0.0450626962769
+geometri, 3844, 0.0450626962769
+geometr, 3843, 0.0447664066854
+gem, 3813, 0.0447664066854
+uniqu, 9276, 0.0431978125008
+infinit, 4631, 0.0427398288746
+boy, 1256, 0.041512093238
+easier, 2960, 0.0409657528593
+math, 5544, 0.0401347603126
+shouldn, 7912, 0.0392449782379
+shape, 7853, 0.0391063612071
+worri, 9845, 0.038970241917
+repeat, 7286, 0.0377290282817
+altern, 450, 0.0376154258971
+meet, 5615, 0.0371773660175
+distanc, 2744, 0.0369675076279
+lie, 5258, 0.0365645098861
+implement, 4544, 0.0364670321954
+loss, 5352, 0.0363707962925
+immedi, 4527, 0.0361819260496
+faq, 3385, 0.0353025137998
+size, 8000, 0.0350574842266
+fit, 3510, 0.0340789300821
+method, 5666, 0.0340086559361
+steve, 8390, 0.0336667688066
+special, 8198, 0.0336667688066
+leav, 5184, 0.0336667688066
+produc, 6895, 0.0334688251797
+easi, 2959, 0.0333396867151
+contain, 2079, 0.0332127187479
+defin, 2482, 0.0331500261374
+determin, 2582, 0.0329043324105
+return, 7346, 0.032267184271
+similar, 7961, 0.0312792915158
+test, 8812, 0.0310394486344
+check, 1682, 0.0308069867171
+alreadi, 443, 0.0302766345269
+exact, 3253, 0.0299836287503
+non, 6097, 0.0299426833047
+feel, 3429, 0.0297015644473
+hard, 4167, 0.0285994561538
+alway, 457, 0.0285313978897
+provid, 6949, 0.0279449851068
+list, 5298, 0.0276680101087
+given, 3887, 0.0271146456326
+book, 1218, 0.0270586867381
+comput, 1993, 0.0261906172275
+bit, 1122, 0.0254796462514
+graphic, 3997, 0.0248714914294
+possibl, 6765, 0.0247678626958
+ll, 5314, 0.0239308687967
+question, 7032, 0.0228670421115
+pleas, 6688, 0.0222230713412
+way, 9666, 0.0197614297193
+good, 3948, 0.0194191670192
+say, 7653, 0.0191796410243
+think, 8871, 0.0173018746481
+don, 2811, 0.0171351706351
+know, 5052, 0.0162720826384

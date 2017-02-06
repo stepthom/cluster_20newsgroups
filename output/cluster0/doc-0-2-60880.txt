@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60880
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jcm@head-cfa.harvard.edu (Jonathan McDowell)
+Subject: Re: Shuttle Launch Question
+Organization: Smithsonian Astrophysical Observatory, Cambridge, MA,  USA
+Distribution: sci
+Lines: 23
+
+From article <C5owCB.n3p@world.std.com>, by tombaker@world.std.com (Tom A Baker):
+>>In article <C5JLwx.4H9.1@cs.cmu.edu>, ETRAT@ttacs1.ttu.edu (Pack Rat) writes...
+>>>"Clear caution & warning memory.  Verify no unexpected
+>>>errors. ...".  I am wondering what an "expected error" might
+>>>be.  Sorry if this is a really dumb question, but
+> 
+> Parity errors in memory or previously known conditions that were waivered.
+>    "Yes that is an error, but we already knew about it"
+> I'd be curious as to what the real meaning of the quote is.
+> 
+> tom
+
+
+My understanding is that the 'expected errors' are basically
+known bugs in the warning system software - things are checked
+that don't have the right values in yet because they aren't
+set till after launch, and suchlike. Rather than fix the code
+and possibly introduce new bugs, they just tell the crew
+'ok, if you see a warning no. 213 before liftoff, ignore it'.
+
+ - Jonathan
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ shuttl launch question     world std com tom
+baker ttacs1 ttu edu pack rat write clear caution
+warn memori verifi unexpect error wonder expect
+error might sorri realli dumb question  pariti
+error memori previous known condit waiver yes
+error alreadi knew i'd curious real mean quot  tom
+understand expect error basic known bug warn
+system softwar thing check don't right valu yet
+aren't set till launch suchlik rather fix code
+possibl introduc new bug tell crew ok see warn
+liftoff ignor it  jonathan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+error, 3180, 0.453483415737
+warn, 9643, 0.316783892695
+bug, 1373, 0.203989694532
+memori, 5628, 0.18215207204
+tom, 8976, 0.181393366295
+known, 5054, 0.16070292162
+launch, 5147, 0.158093776604
+ttu, 9140, 0.156772806369
+ttacs1, 9137, 0.156772806369
+expect, 3290, 0.155842235188
+std, 8356, 0.142837008986
+unexpect, 9260, 0.136434463037
+liftoff, 5266, 0.136434463037
+baker, 871, 0.134685090099
+jonathan, 4888, 0.133075822995
+caution, 1571, 0.133075822995
+pariti, 6429, 0.130198765397
+waiver, 9612, 0.128901211603
+rat, 7106, 0.12544614401
+question, 7032, 0.121715374744
+introduc, 4732, 0.120749292716
+verifi, 9472, 0.118381252326
+till, 8933, 0.118381252326
+pack, 6374, 0.118381252326
+dumb, 2914, 0.11496541422
+crew, 2227, 0.110479089517
+condit, 2017, 0.10335842774
+knew, 5045, 0.100410949384
+fix, 3511, 0.0989427713201
+curious, 2297, 0.0975745492431
+previous, 6855, 0.0941752517434
+ignor, 4496, 0.089778482226
+com, 1917, 0.087894925659
+aren, 623, 0.0877321303908
+quot, 7045, 0.0863234146329
+basic, 937, 0.0827335459834
+valu, 9414, 0.0822340145537
+check, 1682, 0.0819888272982
+shuttl, 7929, 0.0809210486425
+alreadi, 443, 0.0805773632516
+code, 1871, 0.079907130996
+sorri, 8142, 0.0775268872026
+clear, 1803, 0.0771402386368
+yes, 9951, 0.0732367114295
+wonder, 9821, 0.0730015613129
+understand, 9246, 0.0720875354732
+set, 7815, 0.0720132096741
+edu, 3001, 0.071284684108
+write, 9865, 0.0693100083051
+real, 7144, 0.0689245951141
+world, 9841, 0.067334914086
+softwar, 8103, 0.0671011311522
+possibl, 6765, 0.065916476537
+tell, 8767, 0.0656985328767
+mean, 5595, 0.0621325363575
+right, 7399, 0.0611580894182
+realli, 7150, 0.0596588779077
+new, 6023, 0.0585655153952
+thing, 8869, 0.0549252744369
+don, 2811, 0.0456030496856

@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105010
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dwarner@journalism.indiana.edu (David J.)
+Subject: Re: Yankee Bullpen - HELP!!!!!!!!!!!!!
+Nntp-Posting-Host: clove.journalism.indiana.edu
+Reply-To: dwarner@journalism.indiana.edu
+Organization: Indiana University
+Lines: 15
+
+Alan Sepinwall writes
+> [Bullpen Blues deleted]
+> 
+> What's Buck gonna do? And what's George gonna do if this continues to happen?
+> 
+> -Alan
+
+George will do the only logical thing he can do when the Yanks' bullpen isn't  
+performing -- fire the manager.
+
+--
+David J.(dwarner@journalism.indiana.edu)*****Blue Riddle Productions 1993
+*-------------------------------It's on.--------------------------------*
+***"THE RAP IS AN ART EP" is coming out on tape -- this time for real.***
+*------------------------E-mail me for the 411.-------------------------*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yanke bullpen help      alan sepinwal write
+bullpen blue delet  what buck gonna what georg
+gonna continu happen  alan  georg logic thing yank
+bullpen isn't perform fire manag    it rap art
+come tape time real mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bullpen, 1391, 0.485971303626
+gonna, 3944, 0.374369437402
+alan, 376, 0.345935591104
+georg, 3847, 0.304954941522
+sepinwal, 7799, 0.229118097866
+rap, 7098, 0.205268414584
+yank, 9932, 0.179248582993
+buck, 1359, 0.173928147294
+tape, 8700, 0.15497877436
+logic, 5330, 0.153453314713
+art, 660, 0.148021113368
+yanke, 9933, 0.14102374496
+blue, 1176, 0.139422919631
+delet, 2502, 0.129648744846
+continu, 2092, 0.127682443696
+perform, 6539, 0.122808818766
+manag, 5472, 0.115488308248
+isn, 4783, 0.110785117087
+happen, 4159, 0.106610174463
+write, 9865, 0.104278312113
+mail, 5447, 0.103986991668
+real, 7144, 0.103698450157
+help, 4249, 0.0888656388431
+come, 1923, 0.0877153656814
+thing, 8869, 0.0826361884914
+time, 8936, 0.0718711572356

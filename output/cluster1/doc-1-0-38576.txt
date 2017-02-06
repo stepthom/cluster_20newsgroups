@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38576
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: raynor@cs.scarolina.edu (Harold Brian Raynor)
+Subject: Help needed on hidden line removal
+Summary: Need help with Roberts algorithm/Hidden line removal
+Keywords: hidden line graphics 3D
+Organization: USC  Department of Computer Science
+Distribution: comp
+Lines: 20
+
+
+I am looking for some information of hidden line removal using Roberts
+algorithm.  Something with code, or pseudo code would be especially
+helpful.
+
+I am required to do this for a class, due Monday (we have very little
+time to implement these changes, it is a VERY FAST paced class).  The
+notes given in class leave a LOT to be desired, so I would vastly
+appreciate any help.
+
+Actually any algorithm would be nice (Roberts or no).  The main problem
+is two objects intersecting in x and y dimensions, need to know which
+lines to clip off so that one object will appear in front of another.
+
+If you can give me an ftp address and filename, or even the name of a
+good book, I'd REALLY appreciate it.
+
+Thanks,
+Brian Raynor
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help need hidden line remov need help robert
+algorithm hidden line remov       look inform
+hidden line remov use robert algorithm someth code
+pseudo code especi help  requir class due monday
+littl time implement chang fast pace class note
+given class leav lot desir vast appreci help
+actual algorithm nice robert main problem two
+object intersect dimens need know line clip one
+object appear front anoth  give ftp address
+filenam even name good book i'd realli appreci
+thank brian raynor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hidden, 4286, 0.354029067401
+class, 1789, 0.299707646788
+remov, 7272, 0.298939834796
+robert, 7437, 0.281705684408
+line, 5285, 0.276556976413
+algorithm, 407, 0.272059568071
+help, 4249, 0.2451180261
+need, 5993, 0.16824718594
+code, 1871, 0.165803986252
+appreci, 587, 0.161272079896
+object, 6173, 0.153632055014
+pseudo, 6959, 0.143535968999
+filenam, 3478, 0.141547929151
+pace, 6370, 0.135078522022
+dimens, 2652, 0.122818097011
+monday, 5834, 0.121327560866
+vast, 9434, 0.119936470111
+clip, 1821, 0.116817442884
+intersect, 4722, 0.115689674679
+desir, 2565, 0.10235934178
+implement, 4544, 0.100689760496
+brian, 1304, 0.0979379325877
+leav, 5184, 0.0929579042692
+fast, 3397, 0.0920547921848
+main, 5450, 0.0915311170459
+especi, 3190, 0.0863657989584
+appear, 580, 0.0848103980725
+nice, 6047, 0.0844390179814
+ftp, 3709, 0.0843166796204
+address, 264, 0.0810490956389
+requir, 7302, 0.0775966910807
+note, 6118, 0.075258077757
+chang, 1650, 0.0749444082256
+given, 3887, 0.0748667223601
+book, 1218, 0.0747122132776
+littl, 5308, 0.0701039770028
+inform, 4637, 0.068558186175
+anoth, 533, 0.0672263318972
+actual, 254, 0.0670656741266
+problem, 6887, 0.0656230211393
+lot, 5356, 0.0650824845584
+realli, 7150, 0.061894849991
+someth, 8126, 0.0614011315388
+thank, 8832, 0.0584135333822
+good, 3948, 0.0536186017473
+look, 5341, 0.0520548198621
+time, 8936, 0.049560540003
+use, 9363, 0.0460671577202
+know, 5052, 0.0449291320129

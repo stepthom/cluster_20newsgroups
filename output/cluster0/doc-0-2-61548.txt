@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61548
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gkm@wampyr.cc.uow.edu.au (Glen K Moore)
+Subject: Fax/email wanted for Louis Friedman/Planetary Society
+Organization: University of Wollongong, NSW, Australia.
+Lines: 7
+NNTP-Posting-Host: wampyr.cc.uow.edu.au
+Summary: Want to obtain fax/email address for Planetary Society
+Keywords: Planetary Friedman
+
+If available please send to
+Glen Moore
+Director
+Science Centre
+Wollongong, Australia
+fax: 61 42 213151   email: gkm@cc.uow.edu.au
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fax email want loui friedman planetari societi
+want obtain fax email address planetari societi
+avail pleas send glen moor director scienc centr
+wollongong australia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+planetari, 6665, 0.36274734318
+societi, 8093, 0.33681055963
+email, 3060, 0.298870658815
+fax, 3413, 0.298382426444
+wollongong, 9817, 0.269037519302
+glen, 3899, 0.269037519302
+friedman, 3691, 0.269037519302
+moor, 5853, 0.241032487461
+director, 2668, 0.21187227201
+want, 9634, 0.19350987432
+centr, 1610, 0.19260958287
+loui, 5363, 0.187252540065
+australia, 792, 0.185859468764
+obtain, 6183, 0.175812531888
+address, 264, 0.138013076175
+send, 7785, 0.136449650758
+scienc, 7692, 0.132741380864
+avail, 811, 0.123375450257
+pleas, 6688, 0.104486704195

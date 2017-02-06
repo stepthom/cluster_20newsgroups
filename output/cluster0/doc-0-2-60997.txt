@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60997
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Moonbase race
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 16
+
+In article <1r46o9INN14j@mojo.eng.umd.edu> sysmgr@king.eng.umd.edu writes:
+
+>So how much would it cost as a private venture, assuming you could talk the
+>U.S. government into leasing you a couple of pads in Florida? 
+
+Why would you want to do that? The goal is to do it cheaper (remember,
+this isn't government). Instead of leasing an expensive launch pad,
+just use a SSTO and launch from a much cheaper facility.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------56 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race      much cost privat ventur assum
+could talk govern leas coupl pad florida  want
+goal cheaper rememb isn't govern instead leas
+expens launch pad use ssto launch much cheaper
+facil  allen    ladi astor sir husband poison
+coffe churchil madam wife drink day first flight
+dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+leas, 5183, 0.375535076837
+pad, 6377, 0.304094347247
+cheaper, 1678, 0.280233144502
+govern, 3966, 0.224314944199
+launch, 5147, 0.211326954053
+madam, 5425, 0.170675418685
+astor, 719, 0.170675418685
+churchil, 1747, 0.169139293357
+ladi, 5093, 0.164996512832
+dcx, 2412, 0.163746293145
+coffe, 1878, 0.162551657503
+poison, 6713, 0.16140787311
+moonbas, 5852, 0.160310787038
+husband, 4452, 0.160310787038
+sir, 7989, 0.158242468541
+ventur, 9461, 0.157265092586
+ssto, 8295, 0.154529695219
+florida, 3552, 0.14835991039
+drink, 2872, 0.14767949742
+goal, 3924, 0.143923412442
+wife, 9755, 0.143345435826
+allen, 426, 0.1346315347
+race, 7049, 0.13263989208
+privat, 6879, 0.130785717161
+facil, 3348, 0.129731665328
+expens, 3294, 0.126796947813
+flight, 3544, 0.116843197893
+instead, 4682, 0.115390147984
+coupl, 2187, 0.111801508263
+assum, 710, 0.104292012289
+cost, 2169, 0.102110036886
+rememb, 7269, 0.0989720416788
+isn, 4783, 0.0984290964092
+talk, 8684, 0.0908864618236
+day, 2402, 0.0796935662678
+want, 9634, 0.0732085420089
+use, 9363, 0.0593542884456

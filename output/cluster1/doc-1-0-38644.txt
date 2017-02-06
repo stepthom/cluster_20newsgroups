@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38644
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tonyo@pendragon.CNA.TEK.COM (Tony Ozrelic)
+Subject: Need info on cc:Mail file format
+Organization: Tektronix, Inc., Redmond, Oregon
+Lines: 13
+
+I need the file format for cc:Mail file formats - it seems to be PCX-based,
+but with a twist: only the first page of a multi-page fax will come out
+readable. The other pages disappear. The format seems to be 'proprietary'.
+
+Anybody got any clues? I have to give my email FAXes to my secretary in
+order to get 'em unscrambled. I want a filter from cc:Mail to .p[nb]m.
+
+Come to think of it, p[nb]m to cc:Mail would be nice too.
+
+tonyo@master.CNA.TEK.COM
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need info mail file format    need file format
+mail file format seem pcx base twist first page
+multi page fax come readabl page disappear format
+seem proprietari  anybodi got clue give email fax
+secretari order get em unscrambl want filter mail
+come think mail nice
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+format, 3612, 0.4302448781
+page, 6382, 0.38419755895
+mail, 5447, 0.36956816326
+file, 3477, 0.278999754031
+fax, 3413, 0.225774730471
+secretari, 7756, 0.203570545795
+readabl, 7136, 0.180041701678
+em, 3058, 0.170680711886
+proprietari, 6935, 0.167691443944
+twist, 9174, 0.161412878894
+disappear, 2678, 0.161412878894
+come, 1923, 0.155869527835
+pcx, 6490, 0.154534487688
+filter, 3481, 0.154534487688
+clue, 1844, 0.154534487688
+multi, 5917, 0.145122548666
+need, 5993, 0.144520915449
+email, 3060, 0.113072078748
+anybodi, 552, 0.109275614037
+nice, 6047, 0.108797102104
+info, 4636, 0.105807834163
+order, 6281, 0.095005137967
+got, 3960, 0.0881878696214
+base, 923, 0.0841079752056
+want, 9634, 0.0732108124443
+think, 8871, 0.0615534220541

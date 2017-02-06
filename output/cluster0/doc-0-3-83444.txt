@@ -1,0 +1,147 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83444
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Food For Thought On Tyre
+Organization: Cookamunga Tourist Bureau
+Lines: 34
+
+In article <1qh4m5INN2pu@ctron-news.ctron.com>, king@ctron.com (John E.
+King) wrote:
+> Not exactly.  The prophesy clearly implies that people would
+> still be living in the area, but by the same token it would
+> never be "rebuilt".  Obviously , if people are still there they
+> would live in houses, correct?  Their "nets" implies a fishing
+> village.  This is exactly what it has become -- a far cry from
+> its original position of stature .
+
+Let's see, if Alexander destroyed Tyre, and people move back, and
+they construct houses, and after a while 14000 people live there
+and still call it Tyre, it is not considered to be rebuilt. Instead
+it's considered to be 'just-some-people-that-got-together-for-fishing-
+and-they-needed-houses' place.
+
+> So far I've seen stated figurers ranging from 15,000 to 22,000.
+> Let's assume the latter one is correct.  By modern standards
+> we are talking about a one-horse town.
+
+Sigh, I was never born in a city then (my home town has 10.000
+people). I have to consult my city and inform them that it's from
+now a fishing village. When this city (Kristinestad) was founded
+in the 17:th century about 1000 people lived there, so the norms
+were even more bizarre for dumb Swedish queens who founded cities
+along the coast of Finland.
+
+I would like to know why Paul thought is was worth mentioning the 
+small fishing place of Tyre in Acts. Again, maybe he was a keen
+fisherman and wanted to visit the shores of Tyre? :-)
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ food thought tyre    ctron com john king wrote
+exact prophesi clear impli peopl still live area
+token never rebuilt obvious peopl still live hous
+correct net impli fish villag exact becom far cri
+origin posit statur  let see alexand destroy tyre
+peopl move back construct hous peopl live still
+call tyre consid rebuilt instead it consid just
+peopl got togeth fish need hous place  far i'v
+seen state figur rang let assum latter one correct
+modern standard talk one hors town  sigh never
+born citi home town peopl consult citi inform it
+fish villag citi kristinestad found centuri peopl
+live norm even bizarr dumb swedish queen found
+citi along coast finland  like know paul thought
+worth mention small fish place tyre act mayb keen
+fisherman want visit shore tyre  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tyre, 9180, 0.455033102132
+fish, 3505, 0.33264814088
+peopl, 6530, 0.261127750875
+citi, 1775, 0.248099119175
+rebuilt, 7163, 0.203274860755
+live, 5310, 0.201647203443
+hous, 4396, 0.200185047135
+villag, 9519, 0.19212514819
+town, 9024, 0.162952681327
+impli, 4546, 0.143368323589
+exact, 3253, 0.109142391864
+correct, 2156, 0.105903526259
+statur, 8351, 0.104144221852
+keen, 4971, 0.101637430377
+norm, 6107, 0.0995179683849
+queen, 7029, 0.0976820068972
+consid, 2059, 0.0964430538628
+swedish, 8627, 0.0960625740948
+shore, 7902, 0.0960625740948
+thought, 8887, 0.0959761738073
+finland, 3490, 0.0946139420894
+place, 6657, 0.0941841017287
+token, 8971, 0.0933034950397
+far, 3386, 0.0918565496828
+sigh, 7942, 0.0910066204264
+alexand, 397, 0.0910066204264
+prophesi, 6927, 0.0899876886221
+let, 5225, 0.0868429667332
+bizarr, 1131, 0.0844128323395
+hors, 4382, 0.0809574380494
+cri, 2228, 0.0809574380494
+coast, 1859, 0.0799749282197
+dumb, 2914, 0.0786214473717
+consult, 2076, 0.0781983589944
+destroy, 2574, 0.0770020145692
+food, 3584, 0.0752138767379
+visit, 9544, 0.0742429355142
+king, 5024, 0.0719460609008
+born, 1233, 0.070444648457
+construct, 2074, 0.069751260159
+modern, 5811, 0.0678590642888
+centuri, 1614, 0.0676640356664
+kent, 4987, 0.0656835969752
+cheer, 1687, 0.0650287452436
+paul, 6469, 0.0648697921744
+togeth, 8969, 0.0636602842371
+worth, 9850, 0.0622842080062
+rang, 7094, 0.0621538820319
+act, 249, 0.0613968493339
+com, 1917, 0.0601087406926
+instead, 4682, 0.0590340307698
+figur, 3476, 0.0584273461478
+wrote, 9871, 0.0583287845261
+obvious, 6185, 0.0581337559036
+standard, 8313, 0.0563220222413
+area, 622, 0.0559040785927
+net, 6010, 0.0553395124116
+becom, 983, 0.0551044761352
+mention, 5632, 0.0550270151565
+posit, 6761, 0.0539860315635
+small, 8054, 0.0535629431862
+assum, 710, 0.0533561830892
+home, 4354, 0.0530183457648
+clear, 1803, 0.0527539282435
+john, 4878, 0.0519898823918
+seen, 7767, 0.0510330242251
+origin, 6293, 0.048897066385
+state, 8342, 0.0487494876442
+mayb, 5564, 0.0481276747762
+talk, 8684, 0.046497853392
+inform, 4637, 0.0451911831003
+got, 3960, 0.0451158443509
+want, 9634, 0.0374537635756
+need, 5993, 0.0369675736292
+know, 5052, 0.0296157285455
+like, 5272, 0.0289506938324

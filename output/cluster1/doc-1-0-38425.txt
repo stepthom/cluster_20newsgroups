@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38425
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: egerter@gaul.csd.uwo.ca (Barry Egerter)
+Subject: Where's DMORF?
+Organization: Computer Science Dept., Univ. of Western Ontario, London, Canada
+Distribution: usa
+Keywords: DMORF
+Nntp-Posting-Host: obelix.gaul.csd.uwo.ca
+Lines: 26
+
+	Could anyone direct me to the FTP site where I can find the DOS-based
+morphing package called DMORF12.ZIP?  I had downloaded this file last week,
+but the new DOS 6 crashed my hard drive and I lost it. Now I can't find the
+site where I got it from.......
+
+Also, are there any other morphing packages out for DOS (freeware or shareware)
+
+
+Thanks in advance,
+Barry
+
+/---------------------------------------------------------------------------\
+|       \\          //  _______   _______    egerter@obelix.gaul.csd.uwo.ca |
+|        \\        //  //            |                                      |
+|         \\  /\  //  ||   ___       |       Author of WGT graphics         |
+|          \\//\\//   ||     \\      |       toolkit for 320*200*256 VGA    |
+|           \/  \/ .   \\____// .    |  .    Version 3.5 Now Available      |
+|                                          (Turbo/Borland C++ 1.0 or better)|
+|JOYSTICK  MOUSE  GRAPHICS PRIMITIVES  NON-BGI POWER  GIF/PCX  DATA STORAGE |
+|SPRITES  MULTIWAY SCROLLING GAMES  BITMAP WARPING/RESIZING  SB SUPPORT  FLI|
+\___________________________________________________________________________/
+-- 
+
+/---------------------------------------------------------------------------\
+|       \\          //  _______   _______    egerter@obelix.gaul.csd.uwo.ca |
+|        \\        //  //            |                                      |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ where dmorf       could anyon direct ftp site
+find dos base morph packag call dmorf12 zip
+download file last week new dos crash hard drive
+lost can't find site got  also morph packag dos
+freewar sharewar   thank advanc barri     author
+wgt graphic toolkit vga version avail turbo
+borland better joystick mous graphic primit non
+bgi power gif pcx data storag sprite multiway
+scroll game bitmap warp resiz support fli
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dos, 2825, 0.332820913736
+morph, 5866, 0.298663071306
+packag, 6375, 0.204837377239
+site, 7994, 0.193819583221
+wgt, 9716, 0.190118993893
+joystick, 4904, 0.178107425739
+bgi, 1066, 0.178107425739
+dmorf, 2779, 0.1738203115
+borland, 1232, 0.170195608058
+resiz, 7315, 0.167055747117
+freewar, 3681, 0.164286193488
+sprite, 8269, 0.157521629106
+graphic, 3997, 0.154831011578
+warp, 9644, 0.152274625334
+scroll, 7726, 0.147987511094
+toolkit, 8989, 0.145510060951
+turbo, 9151, 0.14326893469
+storag, 8416, 0.14326893469
+mous, 5889, 0.141222946712
+download, 2843, 0.138453393083
+crash, 2212, 0.138453393083
+primit, 6866, 0.135204922119
+pcx, 6490, 0.135204922119
+bitmap, 1126, 0.131688828701
+sharewar, 7856, 0.128064125258
+zip, 9988, 0.127510828477
+barri, 918, 0.122594238033
+vga, 9492, 0.115719019196
+lost, 5355, 0.103973901805
+drive, 2873, 0.102045442239
+fli, 3542, 0.100435488471
+gif, 3869, 0.0992553254002
+author, 796, 0.0964675084471
+ftp, 3709, 0.0950505721146
+non, 6097, 0.0932001998873
+version, 9479, 0.0914848750479
+direct, 2667, 0.090108050891
+hard, 4167, 0.0890192439694
+advanc, 285, 0.088913085648
+power, 6783, 0.0872766670177
+data, 2385, 0.0870798957585
+week, 9691, 0.0865950532564
+avail, 811, 0.081676652021
+file, 3477, 0.0813672524483
+support, 8576, 0.0809861415406
+got, 3960, 0.0771571072737
+base, 923, 0.0735875363967
+game, 3761, 0.0712762638236
+better, 1060, 0.0703444077093
+new, 6023, 0.0684955950779
+thank, 8832, 0.0658498388719
+anyon, 554, 0.0631864435641

@@ -1,0 +1,194 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84555
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: kltensme@infonode.ingr.com (Kermit Tensmeyer)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: Intergraph Corporation, Huntsville, AL.
+Lines: 58
+
+In article <1r7os6$hil@agate.berkeley.edu> isaackuo@spam.berkeley.edu (Isaac Kuo) writes:
+>In article <C5wIA1.4Hr@apollo.hp.com> goykhman@apollo.hp.com (Red Herring) writes:
+>
+>>    BD's were not contemplating suecide, and there is no reason 
+>>    to believe they committed one.
+>
+>No reason?  How about these two:
+>
+>1.  Some of the survivors claimed that BD members poured fuel along the
+>	corridors and set fire to it.  The speed at which the fire spread
+>	is not inconsistent with this claim.
+
+	This morning on CNN (tues April 27), Texas Cops say Arson is suspected
+	because of two falsh points. CNN also stated that  _all_ surviors
+	claim the fires are FBI set.  Your argument are made-up, untrue
+	and unverified at best.
+>
+>2.  There was certainly a fire which killed most of the people in the compound.
+>	There is a very very good possibility that the FBI did not start this
+>	fire.  This is a good reason to believe that the BD's did.
+
+    The day of the attack the FBI claimed to have seen two BD'ers setting
+    the fire outside of the compound. Yesterday, the arson squad said two 
+    flash points at the or near the tank entry points
+
+    Not good evidence for the FBI hit squad.
+>
+>3.  Even if the BD's were not contemplating suicide, it is very possible that
+>	David Koresh was convinced (and thus convinced the others) that this
+>	was not suicide.  It was the fulfilment of a profecy of some sort.
+
+  is there a difference between thinking that you won't survive a confrontation
+  with the FBI (parnoia?) and committing suicide?
+
+>
+>There are three possibilities other than the BD's self destruction:
+>
+>
+>B.  The fire was started by an FBI accident.  This is possible, but it would be
+>	foolish of us to declare this outright until more evidence can back it.
+>	Sure, it's possible that the armored vehicle knocked down a lantern
+>	which started the fire (why was there a lit lantern in the middle of
+>	the day near the edge of the complex?).  It's anecdotal evidence that
+>	has been contradicted by other escapees.
+
+	No, claimed by the escapees  not contradicted
+
+	What I'm finding interesting is the conflicting reports. FBI says
+	that bodies have been found with bullet wounds and the Texas Cornuers
+	(sp) says that they haven't yet found any bullet holes..
+>
+>-- 
+>*Isaac Kuo (isaackuo@math.berkeley.edu)	*       ___
+
+
+-- 
+         Kermit Tensmeyer                         | Intergraph Corporation
+   kltensme@kt8127.b23a.ingr.com                       | Deep in Dixie
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew       bd contempl suecid
+reason believ commit one  reason two  survivor
+claim member pour fuel along corridor set fire
+speed fire spread inconsist claim  morn cnn tue
+april texa cop say arson suspect two falsh point
+cnn also state survior claim fire fbi set argument
+made untru unverifi best  certain fire kill peopl
+compound good possibl fbi start fire good reason
+believ bd  day attack fbi claim seen two bd'er set
+fire outsid compound yesterday arson squad said
+two flash point near tank entri point  good evid
+fbi hit squad  even bd contempl suicid possibl
+david koresh convinc thus convinc other suicid
+fulfil profeci sort  differ think won't surviv
+confront fbi parnoia commit suicid   three possibl
+bd self destruct   fire start fbi accid possibl
+foolish declar outright evid back sure it possibl
+armor vehicl knock lantern start fire lit lantern
+middl day near edg complex it anecdot evid
+contradict escape  claim escape contradict  i'm
+find interest conflict report fbi say bodi found
+bullet wound texa cornuer say haven't yet found
+bullet hole       kermit tensmey intergraph corpor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fbi, 3414, 0.412992109802
+bd, 965, 0.371969313332
+claim, 1782, 0.216310797415
+suicid, 8528, 0.211577606546
+possibl, 6765, 0.182046182667
+escape, 3186, 0.179577705008
+squad, 8275, 0.168232127175
+contempl, 2081, 0.168232127175
+cnn, 1854, 0.164182715171
+lantern, 5119, 0.157793217087
+bullet, 1386, 0.150720271987
+evid, 3245, 0.140395896099
+compound, 1983, 0.126319790395
+set, 7815, 0.119330376363
+commit, 1945, 0.117997745658
+contradict, 2098, 0.116651256105
+texa, 8820, 0.11231339491
+reason, 7156, 0.107459898992
+convinc, 2120, 0.106376260233
+start, 8334, 0.105455359835
+point, 6710, 0.0940378591149
+near, 5982, 0.0899106884348
+suecid, 8520, 0.0897888525041
+untru, 9323, 0.0865941034623
+tensmey, 8790, 0.0865941034623
+survivor, 8600, 0.0865941034623
+good, 3948, 0.0856396517497
+say, 7653, 0.0845833282334
+intergraph, 4712, 0.0820913575853
+cop, 2127, 0.0803794930521
+pour, 6777, 0.0775886117083
+lit, 5302, 0.0775886117083
+armor, 646, 0.0764185686688
+anecdot, 507, 0.0764185686688
+tue, 9145, 0.0743938626665
+foolish, 3586, 0.0743938626665
+outright, 6331, 0.0735049773721
+kermit, 4990, 0.0735049773721
+confront, 2036, 0.0726819981332
+inconsist, 4585, 0.0719158227918
+flash, 3524, 0.0705258688485
+er, 3163, 0.0705258688485
+believ, 1009, 0.0685882437093
+wound, 9855, 0.0671689981282
+accid, 210, 0.0666963677476
+destruct, 2575, 0.0662430338754
+conflict, 2034, 0.0662430338754
+day, 2402, 0.0658613647587
+declar, 2447, 0.0649845032144
+fulfil, 3717, 0.0645948092742
+spread, 8265, 0.0613047365763
+attack, 761, 0.0613047365763
+surviv, 8599, 0.0594715032094
+morn, 5864, 0.059232673838
+entri, 3135, 0.059232673838
+knock, 5050, 0.0587698928042
+yesterday, 9952, 0.0576908759936
+tank, 8695, 0.0572870082956
+mormon, 5863, 0.0572870082956
+corpor, 2154, 0.0559790114604
+middl, 5699, 0.0556319476598
+complex, 1976, 0.0543429502095
+fuel, 3715, 0.0540427930795
+suspect, 8603, 0.0537505357456
+hole, 4343, 0.0534657730214
+koresh, 5065, 0.0533260839123
+vehicl, 9449, 0.0531881301166
+edg, 2993, 0.0529172596698
+outsid, 6332, 0.0527842624186
+jew, 4862, 0.0525229530036
+self, 7776, 0.0515351789191
+member, 5625, 0.0491998194365
+bodi, 1194, 0.0481066288681
+kill, 5012, 0.0475153412002
+haven, 4207, 0.047433384092
+won, 9820, 0.0473520274077
+argument, 631, 0.0463452981607
+april, 595, 0.0461253872568
+speed, 8217, 0.0451530670265
+david, 2397, 0.0448254580847
+report, 7291, 0.0441978822054
+sort, 8144, 0.0427149976968
+seen, 7767, 0.0412187736818
+state, 8342, 0.0393743880324
+certain, 1619, 0.0392956278601
+hit, 4316, 0.0388344486059
+best, 1052, 0.0371279631659
+said, 7583, 0.0369677130873
+sure, 8585, 0.0357627232259
+differ, 2633, 0.0341945235391
+peopl, 6530, 0.0301299734794
+think, 8871, 0.0254340899039

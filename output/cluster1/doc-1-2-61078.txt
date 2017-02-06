@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61078
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: pearson@tsd.arlut.utexas.edu (N. Shirlene Pearson)
+Subject: Re: Sunrise/ sunset times
+Nntp-Posting-Host: wren
+Organization: Applied Research Labs, University of Texas at Austin
+Lines: 13
+
+jpw@cbis.ece.drexel.edu (Joseph Wetstein) writes:
+
+
+>Hello. I am looking for a program (or algorithm) that can be used
+>to compute sunrise and sunset times.
+
+Would you mind posting the responses you get?
+I am also interested, and there may be others.
+
+Thanks,
+
+N. Shirlene Pearson
+pearson@titan.tsd.arlut.utexas.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time        hello look program
+algorithm use comput sunris sunset time  mind post
+respons get also interest other  thank  shirlen
+pearson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sunset, 8548, 0.588985695105
+sunris, 8547, 0.588985695105
+hello, 4247, 0.227361058995
+time, 8936, 0.218275174078
+algorithm, 407, 0.19970138063
+mind, 5733, 0.17894038126
+respons, 7323, 0.176898581727
+comput, 1993, 0.15924614898
+program, 6905, 0.142576837691
+post, 6766, 0.13414975027
+thank, 8832, 0.12863282126
+look, 5341, 0.114630256917
+use, 9363, 0.101444787224

@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102722
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: js1@Isis.MsState.Edu (Jiann-ming Su)
+Subject: Re: Rickey Henderson
+Nntp-Posting-Host: isis.msstate.edu
+Organization: Mississippi State University
+Distribution: usa
+Lines: 21
+
+In article <ls1d6vINNs65@appserv.Eng.Sun.COM> str@maredsous.Eng.Sun.COM (Todd Rader) writes:
+>Stay in school.  You have a lot to learn.
+
+Learn what?  I know that 3 million dollars is A LOT of money.  I know 
+Rickey Henderson doesn't have a career out of baseball.  I know if he 
+didn't have baseball, he wouldn't be making near the money he is now.
+
+I just don't understand how some athlete, who only plays a sport for a 
+living for millions of dollars, say he is not being paid enough.
+
+If nobody will sign him for his asking price, he will be the one hurting.
+The A's will still win without him.
+
+Remeber, many of these athletes have NOTHING if not for their athletic 
+ability.  NOTHING.  They are getting paid MUCH more than most hard working
+citizens, and they are complaining of not enough pay.
+
+I don't have a problem with them making millions.  My problem is when the
+say they aren't being paid enough, when they already get 3 million--also,
+their numbers get worse.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rickey henderson       stay school lot learn
+learn know million dollar lot money know rickey
+henderson doesn't career basebal know didn't
+basebal wouldn't make near money  don't understand
+athlet play sport live million dollar say paid
+enough  nobodi sign ask price one hurt a still win
+without  remeb mani athlet noth athlet abil noth
+get paid much hard work citizen complain enough
+pay  don't problem make million problem say aren't
+paid enough alreadi get million also number get
+wors
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+athlet, 744, 0.383589344123
+million, 5724, 0.381807420078
+paid, 6387, 0.342192611549
+henderson, 4253, 0.253709992473
+rickey, 7389, 0.243324509188
+dollar, 2802, 0.213177557138
+learn, 5182, 0.175608389632
+money, 5835, 0.166565824188
+noth, 6119, 0.150371274704
+remeb, 7268, 0.142185150469
+basebal, 924, 0.139256879831
+know, 5052, 0.133518910421
+problem, 6887, 0.130010884379
+lot, 5356, 0.128939985208
+citizen, 1776, 0.125893784323
+complain, 1973, 0.112046765574
+say, 7653, 0.104917722324
+nobodi, 6088, 0.104485710954
+hurt, 4451, 0.104485710954
+make, 5459, 0.103647722456
+wors, 9846, 0.103193894709
+sport, 8257, 0.100008782497
+stay, 8355, 0.0987088362771
+school, 7685, 0.0972497128018
+abil, 177, 0.0967853712389
+price, 6857, 0.0961078571001
+career, 1517, 0.0956682164725
+sign, 7946, 0.0939976237734
+don, 2811, 0.0937339271568
+pay, 6474, 0.0936002590275
+aren, 623, 0.0901636751934
+wouldn, 9854, 0.086368733725
+near, 5982, 0.0836443614852
+alreadi, 443, 0.0828106097025
+hard, 4167, 0.0782233044811
+live, 5310, 0.0757584911112
+win, 9770, 0.0751050823572
+understand, 9246, 0.074085481624
+ask, 689, 0.0715669539928
+didn, 2625, 0.0690206805136
+play, 6681, 0.0681412997172
+number, 6156, 0.0671879159269
+doesn, 2793, 0.0670241449509
+mani, 5479, 0.058610073156
+work, 9833, 0.0585378271734

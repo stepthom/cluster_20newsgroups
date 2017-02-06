@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39655
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rlafolle@apssgi.nswc.navy.mil (Robert D. LaFollette)
+Subject: Image format conversion tool 
+Organization: Naval Surface Warfare Center
+Lines: 17
+
+Hello,
+
+	Does anyone know of an image format conversion tool that will convert a 
+raw (8 bit grey scale) image to Gif or Tif format.  It would be great if the tool
+ran on a PC, was a Windows application, and supported other formats, but I'll be 
+happy with anything that works.
+
+
+		Attn: Code L10MP   Robert LaFollette 
+		Dahlgren Division, Naval Surface Warfare Center
+		Dahlgren, VA 22448-5000
+
+		(703)663-4749   autovon 249-4749
+		FAX (703)663-4749
+		Email   rlafoll@duchamp.nswc.navy.mil
+			rlafoll@128.38.158.43
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ imag format convers tool    hello  anyon know
+imag format convers tool convert raw bit grey
+scale imag gif tif format great tool ran window
+applic support format i'll happi anyth work   attn
+code l10mp robert lafollett dahlgren divis naval
+surfac warfar center dahlgren  autovon fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dahlgren, 2337, 0.4101432023
+format, 3612, 0.406034381402
+tool, 8988, 0.374460500721
+imag, 4512, 0.255059676526
+convers, 2114, 0.248930857201
+tif, 8925, 0.180194460538
+attn, 770, 0.180194460538
+warfar, 9638, 0.177207085181
+naval, 5967, 0.164250823088
+grey, 4040, 0.162613908345
+ran, 7089, 0.144252883019
+raw, 7114, 0.140674653561
+hello, 4247, 0.125544884081
+happi, 4161, 0.119375742407
+scale, 7659, 0.118248295662
+divis, 2767, 0.117434427692
+robert, 7437, 0.114181464825
+applic, 585, 0.111089927616
+surfac, 8587, 0.110882878503
+gif, 3869, 0.107061625383
+fax, 3413, 0.106535031199
+window, 9774, 0.105513549174
+center, 1606, 0.102378281996
+convert, 2115, 0.101939711262
+code, 1871, 0.100805963841
+support, 8576, 0.0873555943916
+anyth, 555, 0.0869510662716
+bit, 1122, 0.0855459662296
+great, 4016, 0.0843591590684
+ll, 5314, 0.0803460642164
+work, 9833, 0.0718562181457
+anyon, 554, 0.0681559737263
+know, 5052, 0.0546322746452

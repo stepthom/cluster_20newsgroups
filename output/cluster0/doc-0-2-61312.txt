@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61312
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: temperature of the dark sky
+Organization: U of Toronto Zoology
+Lines: 14
+
+Does anyone have a reference (something I can look up, not just your own
+recollections -- I have a few of those myself) on the temperature of the
+(night) sky as seen from space?
+
+Note, I am *not* talking about the temperature of the Microwave Background
+Radiation.  There are more things in the sky than just the MBR; what I'm
+after is total blackbody temperature -- what a thermal radiator would see,
+disregarding (or shielding against) the Sun and nearby large warm objects.
+My dim recollection is that the net effective temperature is substantially
+higher than that of the MBR, once you figure in things like stars and the
+zodiacal light, but I'd like numbers.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ temperatur dark sky    anyon refer someth look
+recollect temperatur night sky seen space  note
+talk temperatur microwav background radiat thing
+sky mbr i'm total blackbodi temperatur thermal
+radiat see disregard shield sun nearbi larg warm
+object dim recollect net effect temperatur
+substanti higher mbr figur thing like star zodiac
+light i'd like number  svr4 resembl high speed
+collis henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+temperatur, 8773, 0.556921921601
+mbr, 5567, 0.301030158196
+recollect, 7177, 0.276346674328
+sky, 8011, 0.264136158296
+radiat, 7058, 0.217207044692
+dim, 2649, 0.150515079098
+zodiac, 9990, 0.147376363487
+blackbodi, 1134, 0.140113980888
+disregard, 2739, 0.131858164785
+microwav, 5696, 0.126000570041
+nearbi, 5983, 0.122288257405
+shield, 7882, 0.121457066575
+warm, 9639, 0.119890036046
+substanti, 8503, 0.115196263648
+svr4, 8616, 0.113474561258
+collis, 1903, 0.112402663889
+thermal, 8857, 0.11138438432
+thing, 8869, 0.111250607723
+resembl, 7308, 0.108603522346
+background, 855, 0.104321624378
+zoolog, 9993, 0.102317251814
+spencer, 8221, 0.0982892530425
+dark, 2365, 0.0965393493352
+higher, 4293, 0.0934348832655
+henri, 4258, 0.0926283878272
+star, 8324, 0.0880453860986
+figur, 3476, 0.0865251767412
+like, 5272, 0.0857462837449
+toronto, 9003, 0.0849744287787
+sun, 8539, 0.0841758421957
+speed, 8217, 0.0827884646438
+night, 6063, 0.0826669039971
+net, 6010, 0.0819523974283
+effect, 3005, 0.0816043317246
+total, 9013, 0.0812621161424
+light, 5267, 0.0810371265842
+seen, 7767, 0.0755749102406
+larg, 5124, 0.0754045213983
+refer, 7213, 0.0750679625317
+object, 6173, 0.0749846849194
+note, 6118, 0.0734638776747
+talk, 8684, 0.0688587664524
+high, 4292, 0.0688587664524
+number, 6156, 0.0662092091687
+someth, 8126, 0.0599372898019
+space, 8164, 0.0577563173295
+anyon, 554, 0.05471462149
+look, 5341, 0.0508138000956

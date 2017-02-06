@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84347
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bittrolff@evans.enet.dec.com ()
+Subject: Re: A KIND and LOVING God!!
+Lines: 12
+Reply-To: bittrolff@evans.enet.dec.com ()
+Organization: Digital Equipment Corporation
+
+
+In article <1993Apr20.143754.643@ra.royalroads.ca>, mlee@post.RoyalRoads.ca (Malcolm Lee) writes:
+
+|>BTW, David Koresh was NOT
+|>Jesus Christ as he claimed.
+
+How can you tell for sure? Three days haven't passed yet. 
+
+--
+Steve Bittrolff
+
+The previous is my opinion, and is shared by any reasonably intelligent person.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god        btw david koresh jesus
+christ claim  tell sure three day haven't pass yet
+steve bittrolff  previous opinion share reason
+intellig person
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+intellig, 4698, 0.275594523556
+share, 7855, 0.26670085001
+koresh, 5065, 0.255646485615
+btw, 1355, 0.251180778975
+previous, 6855, 0.249375918388
+christ, 1729, 0.245939997984
+pass, 6448, 0.237733279626
+steve, 8390, 0.23726004728
+haven, 4207, 0.227396745725
+jesus, 4859, 0.216464852717
+david, 2397, 0.214894287836
+love, 5366, 0.211303829476
+claim, 1782, 0.207399798007
+opinion, 6266, 0.199424048725
+kind, 5021, 0.189910803733
+god, 3926, 0.187636936908
+person, 6562, 0.177376839902
+tell, 8767, 0.173969611651
+reason, 7156, 0.171721751073
+sure, 8585, 0.171447326298
+day, 2402, 0.157870456661

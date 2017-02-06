@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104360
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Illinois at Chicago, academic Computer Center
+From: <U49839@uicvm.uic.edu>
+Subject: Re: Harry Caray
+Distribution: na
+Lines: 17
+
+
+last night bill veeck cam to me in my dreams and this is what he said:
+
+cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck
+cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck cubs scuk
+cubs suck cubs suck cubs suck cubs cuck cubs suck cubs suck cubs suck
+cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck
+cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck cubs suck
+
+oh yeah, he aqlso added that harry is a drunken idiot who shoulda
+stayed in st louis where his heart is, but also added that fair weathered
+fans all like to be together.  i guess this is the reason harry is now
+a cub fan, bud man.  note he never really left st, louis.
+
+jim walker
+
+go sox, cubs suck!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  harri caray     last night bill veeck cam dream
+said  cub suck cub suck cub suck cub suck cub suck
+cub suck cub suck cub suck cub suck cub suck cub
+suck cub suck cub suck cub scuk cub suck cub suck
+cub suck cub cuck cub suck cub suck cub suck cub
+suck cub suck cub suck cub suck cub suck cub suck
+cub suck cub suck cub suck cub suck cub suck cub
+suck cub suck cub suck  yeah aqlso ad harri
+drunken idiot shoulda stay loui heart also ad fair
+weather fan like togeth guess reason harri cub fan
+bud man note never realli left loui  jim walker
+sox cub suck
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cub, 2282, 0.703083280874
+suck, 8515, 0.698999653534
+harri, 4184, 0.0669896953105
+loui, 5363, 0.0404774301068
+ad, 257, 0.0329659292169
+fan, 3381, 0.0305576943986
+drunken, 2886, 0.0283783124065
+cam, 1469, 0.0277865348071
+walker, 9618, 0.0268217499017
+caray, 1511, 0.0268217499017
+bud, 1362, 0.0260513840327
+weather, 9679, 0.0214998275464
+dream, 2865, 0.0213946441039
+idiot, 4487, 0.021192547154
+heart, 4225, 0.0194753354565
+yeah, 9942, 0.0191728991726
+stay, 8355, 0.0183395981975
+togeth, 8969, 0.0177746665501
+sox, 8162, 0.017734467696
+jim, 4868, 0.0175395549985
+fair, 3363, 0.0162587282921
+night, 6063, 0.0155861275918
+left, 5193, 0.0152788471993
+guess, 4079, 0.0148785938208
+note, 6118, 0.0138509768173
+man, 5471, 0.013259199218
+said, 7583, 0.0127794367373
+reason, 7156, 0.0123826700499
+realli, 7150, 0.0113915231147
+like, 5272, 0.00808335896441

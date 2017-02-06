@@ -1,0 +1,35 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104967
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: smithers@cybernet.cse.fau.edu (J Scott Smithers)
+Subject: HOUSTON MAILING LIST
+Organization: Cybernet BBS, Boca Raton, Florida
+Lines: 4
+
+Can anyone mail me the address of Houston's Mailing List?
+Thanks in advance. 
+J. Scott Smithers
+smithers@dcseq.uscga.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ houston mail list    anyon mail address houston
+mail list thank advanc scott smither
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+houston, 4399, 0.567671129698
+mail, 5447, 0.557348969579
+list, 5298, 0.395857019311
+scott, 7713, 0.283835564849
+address, 264, 0.209987631366
+advanc, 285, 0.204347808395
+thank, 8832, 0.151341843088
+anyon, 554, 0.145220595692

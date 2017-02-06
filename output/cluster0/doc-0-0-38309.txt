@@ -1,0 +1,287 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38309
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lusardi@cs.buffalo.edu (Christopher Lusardi)
+Subject: Program Included: 2 Edge Detection Algorithms!
+Article-I.D.: acsu.C5JqM6.HLG
+Organization: State University of New York at Buffalo/Comp Sci
+Lines: 142
+Nntp-Posting-Host: hadar.cs.buffalo.edu
+
+/*
+
+This program doesn't detect edges with compass operators and a laplacian
+operator. It should output 2 raw grey-scale images with edges. The output
+doesn't look like edges at all.
+
+In novicee terms, how do I correct the errors? Any improvements are welcome.
+(I'll even accept your corrected code.)
+
+(If I convolve the INPUT.IMAGE with a digital gaussian [7 by 7] to remove
+noise, will I get an improvement with the laplacian.)
+
+--------------------------2 types of edge detection-------------------------*/
+#include <stdio.h> 
+#include <math.h> 
+
+#define IMAGEWIDTH 300
+#define IMAGEHEIGHT 300
+
+unsigned char Input_Image [IMAGEHEIGHT][IMAGEWIDTH];
+
+unsigned char Angles_Wanted [IMAGEHEIGHT][IMAGEWIDTH];
+unsigned char Magnitude_Image [IMAGEHEIGHT][IMAGEWIDTH];
+
+int Laplace_Op1 [3][3] = { 0,-1, 0, -1,4,-1,  0,-1, 0};
+
+int Compass_Op1 [3][3] = { 1, 1, 1,  0,0, 0, -1,-1,-1};
+int Compass_Op2 [3][3] = { 1, 1, 0,  1,0,-1,  0,-1,-1};
+int Compass_Op3 [3][3] = { 1, 0,-1,  1,0,-1,  1, 0,-1};
+int Compass_Op4 [3][3] = { 0,-1,-1,  1,0,-1,  1, 1, 0};
+int Compass_Op5 [3][3] = {-1,-1,-1,  0,0, 0,  1, 1, 1};
+int Compass_Op6 [3][3] = {-1,-1, 0, -1,0, 1,  0, 1, 1};
+int Compass_Op7 [3][3] = {-1, 0, 1, -1,0, 1, -1, 0, 1};
+int Compass_Op8 [3][3] = { 0, 1, 1, -1,0, 1, -1,-1, 0};
+
+void Compass (row,col)
+int row,col;
+{
+  int value;
+  int op_rows, op_cols;
+  int Compass1,Compass2,Compass3,Compass4;
+  int Compass5,Compass6,Compass7,Compass8;
+  
+  Compass1 = Compass2 = Compass3 = Compass4 = 0;
+  Compass5 = Compass6 = Compass7 = Compass8 = 0;
+  
+  for (op_rows = -1; op_rows < 2; op_rows++)
+    for (op_cols = -1; op_cols < 2; op_cols++)
+      {
+	if (((row + op_rows) >= 0) && ((col + op_cols) >= 0))
+	  {
+	    
+	    Compass1 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op1 [op_rows + 1][op_cols + 1];
+	    Compass2 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op2 [op_rows + 1][op_cols + 1];
+	    Compass3 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op3 [op_rows + 1][op_cols + 1];
+	    Compass4 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op4 [op_rows + 1][op_cols + 1];
+	    Compass5 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op5 [op_rows + 1][op_cols + 1];
+	    Compass6 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op6 [op_rows + 1][op_cols + 1];
+	    Compass7 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op7 [op_rows + 1][op_cols + 1];
+	    Compass8 += ((int) Input_Image [row + op_rows][col + op_cols]) * 
+	                       Compass_Op8 [op_rows + 1][op_cols + 1];
+	    
+	  }
+      }
+  if (Compass1 < Compass2)
+    value = Compass2;
+  else 
+    value = Compass1;      
+  if (value < Compass3)
+    value = Compass3;
+  if (value < Compass4)
+    value = Compass4;
+  if (value < Compass5)
+    value = Compass5;
+  if (value < Compass6)
+    value = Compass6;
+  if (value < Compass7)
+    value = Compass7;
+  if (value < Compass8)
+    value = Compass8;
+
+  Magnitude_Image [row][col] = (char) value;
+}
+
+void Laplace1 (row,col)
+int row,col;
+{
+  int op_rows, op_cols;
+
+  Magnitude_Image [row][col] = 0;
+  for (op_rows = -1; op_rows < 2; op_rows++)
+    for (op_cols = -1; op_cols < 2; op_cols++)
+      if (((row + op_rows) >= 0) && ((col + op_cols) >= 0))
+	Magnitude_Image [row][col] = 
+	  (char) ((int)Magnitude_Image [row][col] +
+		  ((int) Input_Image [row + op_rows][col + op_cols] * 
+		   Laplace_Op1 [op_rows + 1][op_cols + 1]));
+}
+
+main  ()
+{
+  FILE *Original_Image_fp;
+  FILE *Laplace1_mag_fp,*Laplace2_mag_fp,*Laplace3_mag_fp;
+  FILE *Compass_mag_fp;
+
+  int row, col, Algo_Count;
+
+  Original_Image_fp = fopen ("INPUT.IMAGE","rb");
+
+  Laplace1_mag_fp = fopen ("Laplace1_Magnitude","wb");
+  Compass_mag_fp = fopen ("Compass_Magnitude","wb");
+
+  fread ((unsigned char *) Input_Image,sizeof(unsigned char),IMAGEHEIGHT * IMAGEWIDTH,Original_Image_fp);
+  for (Algo_Count = 0; Algo_Count < 2;Algo_Count ++)
+    {
+      for (row = 0; row < IMAGEHEIGHT; row++) 
+	for (col = 0; col < IMAGEWIDTH; col++) 
+	  if (!Algo_Count)
+	    Laplace1 (row,col);
+	  else 
+	    Compass (row,col);
+      
+      if (!Algo_Count)
+	fwrite(Magnitude_Image,sizeof(char),IMAGEHEIGHT * IMAGEWIDTH,Laplace1_mag_fp);
+      else 
+	fwrite(Magnitude_Image,sizeof(char),IMAGEHEIGHT * IMAGEWIDTH,Compass_mag_fp);
+    }
+}
+
+  
+-- 
+|  .-,                ###|For a lot of .au music: ftp sounds.sdsu.edu
+| /   /   __  ,  _    ###|then cat file.au > /dev/audio
+| \_>/ >_/ (_/\_/<>_     |UB library catalog:telnet bison.acsu.buffalo.edu
+|_                14261 _|(When in doubt ask: xarchie, xgopher, or xwais.)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ program includ edg detect algorithm articl acsu
+c5jqm6 hlg       program doesn't detect edg
+compass oper laplacian oper output raw grey scale
+imag edg output doesn't look like edg  novice term
+correct error improv welcom i'll even accept
+correct code  convolv input imag digit gaussian
+remov nois get improv laplacian  type edg detect
+includ stdio includ math  defin imagewidth defin
+imageheight  unsign char input imag imageheight
+imagewidth  unsign char angl want imageheight
+imagewidth unsign char magnitud imag imageheight
+imagewidth  int laplac op1  int compass op1 int
+compass op2 int compass op3 int compass op4 int
+compass op5 int compass op6 int compass op7 int
+compass op8  void compass row col int row col  int
+valu int row col int compass1 compass2 compass3
+compass4 int compass5 compass6 compass7 compass8
+compass1 compass2 compass3 compass4 compass5
+compass6 compass7 compass8  row row row col col
+col  row row col col   compass1 int input imag row
+row col col compass op1 row col compass2 int input
+imag row row col col compass op2 row col compass3
+int input imag row row col col compass op3 row col
+compass4 int input imag row row col col compass
+op4 row col compass5 int input imag row row col
+col compass op5 row col compass6 int input imag
+row row col col compass op6 row col compass7 int
+input imag row row col col compass op7 row col
+compass8 int input imag row row col col compass
+op8 row col    compass1 compass2 valu compass2 els
+valu compass1 valu compass3 valu compass3 valu
+compass4 valu compass4 valu compass5 valu compass5
+valu compass6 valu compass6 valu compass7 valu
+compass7 valu compass8 valu compass8  magnitud
+imag row col char valu   void laplace1 row col int
+row col  int row col  magnitud imag row col row
+row row col col col row row col col magnitud imag
+row col char int magnitud imag row col int input
+imag row row col col laplac op1 row col   main
+file origin imag file laplace1 mag laplace2 mag
+laplace3 mag file compass mag  int row col algo
+count  origin imag fopen input imag  laplace1 mag
+fopen laplace1 magnitud compass mag fopen compass
+magnitud  fread unsign char input imag sizeof
+unsign char imageheight imagewidth origin imag
+algo count algo count algo count  row row
+imageheight row col col imagewidth col algo count
+laplace1 row col els compass row col  algo count
+fwrite magnitud imag sizeof char imageheight
+imagewidth laplace1 mag els fwrite magnitud imag
+sizeof char imageheight imagewidth compass mag
+lot music ftp sound sdsu edu cat file dev audio
+librari catalog telnet bison acsu buffalo edu
+doubt ask xarchi xgopher xwai
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+col, 1886, 0.630214209256
+row, 7501, 0.577568256416
+int, 4691, 0.325222549669
+compass, 1963, 0.252634690401
+imag, 4512, 0.142798584731
+input, 4662, 0.122592042099
+valu, 9414, 0.116162051998
+char, 1659, 0.115627992293
+magnitud, 5441, 0.0946657758712
+mag, 5430, 0.0910415800939
+algo, 405, 0.0787270359785
+count, 2180, 0.0491989113503
+edg, 2993, 0.0422904749908
+detect, 2579, 0.028753807695
+acsu, 248, 0.0287030223785
+laplacian, 5120, 0.0276817491282
+file, 3477, 0.024568676912
+void, 9568, 0.0234975161348
+origin, 6293, 0.0189375168688
+els, 3053, 0.0184091340638
+includ, 4579, 0.0183231061851
+output, 6329, 0.0178949476896
+improv, 4557, 0.0163996371168
+defin, 2482, 0.0155780152366
+oper, 6261, 0.0148629667761
+xgopher, 9897, 0.0138408745641
+sdsu, 7738, 0.0138408745641
+bison, 1121, 0.0138408745641
+correct, 2156, 0.013671916424
+xarchi, 9888, 0.0134447940263
+gaussian, 3796, 0.0128475546992
+dev, 2587, 0.0126105360379
+edu, 3001, 0.0125869070527
+buffalo, 1370, 0.0122144555001
+audio, 778, 0.0117487580674
+doesn, 2793, 0.0115154561955
+telnet, 8768, 0.0114947535991
+grey, 4040, 0.0113801975117
+program, 6905, 0.0110193003803
+catalog, 1552, 0.0108149410912
+nois, 6092, 0.0105880364361
+music, 5933, 0.0102644150729
+cat, 1551, 0.0102644150729
+raw, 7114, 0.00984482421407
+angl, 511, 0.00966717574583
+math, 5544, 0.00943015708456
+welcom, 9701, 0.00935769790996
+digit, 2642, 0.00854576730139
+remov, 7272, 0.00847961045299
+scale, 7659, 0.00827536201401
+error, 3180, 0.00800726506013
+doubt, 2830, 0.00794212001321
+librari, 5250, 0.00787928147621
+main, 5450, 0.00778900761828
+algorithm, 407, 0.00771713531865
+term, 8795, 0.00729310139541
+accept, 208, 0.00729310139541
+ftp, 3709, 0.00717508188589
+code, 1871, 0.00705469655423
+sound, 8150, 0.00696948003221
+type, 9177, 0.00693288072958
+ask, 689, 0.00614797939126
+articl, 665, 0.00572074752495
+ll, 5314, 0.00562285286285
+lot, 5356, 0.00553831291918
+want, 9634, 0.00483519995472
+look, 5341, 0.0044296999923
+like, 5272, 0.00373747202266

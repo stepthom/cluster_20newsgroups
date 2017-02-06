@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60850
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mrw9e@fulton.seas.Virginia.EDU (Michael Robert Williams)
+Subject: Re: Orion drive in vacuum -- how?
+Organization: University of Virginia
+Lines: 25
+
+In article <1993Apr17.053333.15696@sfu.ca> Leigh Palmer <palmer@sfu.ca> writes:
+>In article <1qn4bgINN4s7@mimi.UU.NET> James P. Goltz, goltz@mimi.UU.NET
+>writes:
+>>  Background: The Orion spacedrive was a theoretical concept.
+>
+>It was more than a theoretical concept; it was seriously pursued by
+>Freeman Dyson et al many years ago. I don't know how well-known this is,
+>but a high explosive Orion prototype flew (in the atmosphere) in San
+>Diego back in 1957 or 1958. I was working at General Atomic at the time,
+>but I didn't learn about the experiment until almost thirty years later,
+>when 
+>Ted Taylor visited us and revealed that it had been done. I feel sure
+>that someone must have film of that experiment, and I'd really like to
+>see it. Has anyone out there seen it?
+>
+>Leigh
+
+Nope, I haven't seen the film, but Taylor's biography ("The Curve of 
+Binding Energy") contains a short section on Orion and this test flight.
+Apparently it was quite impressi, and got von Braun very excited.
+
+In Real Life:Mike Williams     | Perpetual Grad Student
+e-mail      :mrw9e@virginia.edu|   - It's not just a job, it's an indenture
+---------------------------------------------------------------------------
+"If you ever have a world of your own, plan ahead- don't eat it." ST:TNG
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orion drive vacuum     mimi net  background orion
+spacedr theoret concept  theoret concept serious
+pursu freeman dyson mani year ago don't know well
+known high explos orion prototyp flew atmospher
+san diego back work general atom time didn't learn
+experi almost thirti year later  ted taylor visit
+reveal done feel sure someon must film experi i'd
+realli like see anyon seen  leigh  nope haven't
+seen film taylor biographi curv bind energi
+contain short section orion test flight appar quit
+impressi got von braun excit  real life mike
+william perpetu grad student   ever world plan
+ahead don't eat tng
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+orion, 6296, 0.474236351257
+taylor, 8721, 0.242357876994
+theoret, 8847, 0.210537667708
+film, 3479, 0.200300542986
+concept, 2002, 0.169148994825
+experi, 3295, 0.153299482933
+tng, 8959, 0.14275742831
+spacedr, 8167, 0.14275742831
+dyson, 2944, 0.14275742831
+seen, 7767, 0.135905007238
+braun, 1276, 0.135334285209
+biographi, 1106, 0.130067481361
+freeman, 3676, 0.127911142108
+von, 9581, 0.125982230916
+perpetu, 6556, 0.121178938497
+grad, 3977, 0.119822190231
+bind, 1097, 0.119822190231
+pursu, 6995, 0.118559087814
+prototyp, 6945, 0.117377534412
+thirti, 8877, 0.114231347419
+flew, 3539, 0.114231347419
+nope, 6105, 0.109954391311
+explos, 3308, 0.106489801101
+vacuum, 9405, 0.105869140865
+excit, 3265, 0.104124228443
+reveal, 7352, 0.10154140047
+visit, 9544, 0.0988574245957
+curv, 2306, 0.098043614016
+atom, 756, 0.098043614016
+ted, 8745, 0.096886952152
+eat, 2968, 0.0957990445987
+background, 855, 0.0937998541514
+diego, 2629, 0.0922859570793
+year, 9943, 0.0920215533112
+william, 9764, 0.0919976405138
+student, 8468, 0.091158972193
+section, 7759, 0.0900973575115
+energi, 3102, 0.0890939434705
+atmospher, 755, 0.0890939434705
+ahead, 342, 0.088851453521
+appar, 577, 0.0849599374075
+don, 2811, 0.0830523385655
+san, 7603, 0.0827603685622
+contain, 2079, 0.0804892469669
+flight, 3544, 0.0795960101302
+drive, 2873, 0.0794512842893
+mike, 5710, 0.079023847204
+haven, 4207, 0.0781977947492
+learn, 5182, 0.0777983376618
+later, 5140, 0.0767738621015
+test, 8812, 0.0752224431191
+plan, 6660, 0.0747703775945
+net, 6010, 0.0736867641009
+known, 5054, 0.073168097018
+short, 7904, 0.0723676318819
+feel, 3429, 0.07198015237
+ago, 336, 0.0713211914438
+general, 3818, 0.070685127149
+life, 5260, 0.0674218078082
+quit, 7043, 0.067051942228
+real, 7144, 0.062762785037
+high, 4292, 0.0619137430885
+world, 9841, 0.0613152203691
+didn, 2625, 0.0611553265708
+got, 3960, 0.060073543026
+someon, 8124, 0.0598251304831
+sure, 8585, 0.0589577603206
+realli, 7150, 0.0543254163985
+mani, 5479, 0.0519310754041
+work, 9833, 0.0518670623195
+anyon, 554, 0.0491961618344
+time, 8936, 0.043499531431
+know, 5052, 0.039434521699
+like, 5272, 0.0385490015003

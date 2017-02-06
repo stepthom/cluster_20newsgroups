@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105466
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: knossos@carson.u.washington.edu (Judy Broocks)
+Subject: Tickets for sale
+Organization: University of Washington, Seattle
+Lines: 28
+Distribution: usa
+NNTP-Posting-Host: carson.u.washington.edu
+
+My brother purchased baseball tickets for Texas Rangers vs Toronto
+Bluejays in July, but he was unable to get vacation days to get there. 
+
+Is anyone interested in purchasing the following:
+
+Arlington Stadium
+Arlington,Texas, Texas Rangers vs. Toronto Bluejays
+
+Thursday, July 22                              Friday, July 23
+4 tickets, section 103                         "Helmet Night"
+$14 each                                       4 tickets, section 305
+                                               $14 each
+
+If you want them all, the total is $112.00
+
+Please contact me over e-mail, or directly to my brother:
+
+Randy Hollister
+19 Rosemont Lane
+Streator, IL 61364
+815/672-5265
+
+My brother would be eternally grateful for someone to purchase these tickets!
+
+Thank you!
+
+J. Broocks
+knossos@u.washington.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ticket sale      brother purchas basebal ticket
+texa ranger toronto bluejay unabl get vacat day
+get  anyon interest purchas follow  arlington
+stadium arlington texa texa ranger toronto bluejay
+thursday friday ticket section helmet night ticket
+section   want total  pleas contact mail direct
+brother  randi hollist rosemont lane streator
+brother etern grate someon purchas ticket  thank
+broock
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ticket, 8919, 0.521326089943
+brother, 1341, 0.341794291349
+purchas, 6988, 0.319157245521
+arlington, 642, 0.307257769012
+texa, 8820, 0.298887237442
+ranger, 7095, 0.212771497014
+section, 7759, 0.193917145962
+toronto, 9003, 0.164444833397
+helmet, 4248, 0.139972555604
+vacat, 9404, 0.131984115298
+grate, 4004, 0.131984115298
+lane, 5110, 0.128947051247
+thursday, 8911, 0.119166292429
+randi, 7091, 0.115290722345
+unabl, 9211, 0.112053637104
+friday, 3690, 0.110339346091
+sale, 7590, 0.10730228204
+etern, 3205, 0.105086250035
+stadium, 8300, 0.104671457494
+contact, 2078, 0.089249597191
+night, 6063, 0.0799896242355
+total, 9013, 0.07863033234
+direct, 2667, 0.0754996723029
+mail, 5447, 0.0677303183313
+basebal, 924, 0.0663920194244
+follow, 3578, 0.0647563004715
+someon, 8124, 0.0643810144965
+day, 2402, 0.0584231927773
+pleas, 6688, 0.0579577714969
+thank, 8832, 0.05517421814
+want, 9634, 0.0536690345662
+anyon, 554, 0.0529426142936

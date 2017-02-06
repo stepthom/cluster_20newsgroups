@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39631
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lioness@maple.circa.ufl.edu
+Subject: Tex texture map format?
+Organization: Center for Instructional and Research Computing Activities
+Lines: 9
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+
+I was at avalon today and found texture maps in some "tex" and "txc"
+format, something I've never encountered before.  These are obviously
+not tex or  LaTeX files.
+
+IF you have a clue how I can convert these to something
+reasonable, please let me know.
+
+Brian
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tex textur map format       avalon today found
+textur map tex txc format someth i'v never encount
+obvious tex latex file  clue convert someth reason
+pleas let know  brian
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tex, 8819, 0.644300794903
+textur, 8825, 0.356930207954
+map, 5498, 0.27985769024
+format, 3612, 0.249814835767
+avalon, 812, 0.236399990114
+latex, 5142, 0.225898723174
+someth, 8126, 0.183743945318
+clue, 1844, 0.179455977873
+encount, 3088, 0.174789106484
+brian, 1304, 0.146540476364
+obvious, 6185, 0.131959498823
+convert, 2115, 0.125437910647
+today, 8964, 0.119304970836
+file, 3477, 0.107997842283
+reason, 7156, 0.100668520676
+let, 5225, 0.0985636846294
+pleas, 6688, 0.0918111938544
+know, 5052, 0.0672256012948

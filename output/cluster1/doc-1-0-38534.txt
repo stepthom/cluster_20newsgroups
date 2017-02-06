@@ -1,0 +1,271 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38534
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: daniel@lclark.edu (Daniel Snodgrass)
+Subject: Re: stand alone editing suite.
+Article-I.D.: lclark.1993Apr20.191542.9392
+Organization: Lewis & Clark College, Portland OR
+Lines: 63
+
+In article <1qvkaeINNgat@shelley.u.washington.edu> eylerken@stein.u.washington.edu (Ken Eyler) writes:
+>I need some help.  We are upgrading our animation/video editing stand. We
+>are looking into the different type of setups for A/B roll and a cuts only
+>station.  We would like this to be controlled by a computer ( brand doesnt matter but maybe MAC, or AMIGA).  Low end to high end system setups would be very
+>helpful. If you have a system or use a system that might be of use, could you
+>mail me your system requirements, what it is used for, and all the hardware and
+>software that will be necessary to set the system up.  If you need more 
+>info, you  can mail me at   eylerken@u.washington.edu
+>
+>thanks in advance.
+>
+>:ken
+>:eylerken@u.washington.edu
+
+
+Here at Lewis and Clark College we have recently installed a Digital Film
+system (based on the Mac Quadra) that does non-linear, full digital editing.
+
+If you're considering such a system, here are the pros and cons:
+
+For the educational environment, this system is excellent.  We use it to
+produce a variety of educational materials for disemination on our local
+network.  Because this programming is going to be viewed on other Macs, the
+image quality is not as important as the ability to directly export the
+video to the Net.
+
+We also use it to produce orientiation and promotional video programs for
+use by the Lewis & Clark community.  Since these programs are not meant for
+commercial or broadcast use, image quality is not critical.
+
+The Digital Film system, for those of you who are uninitiated, is an A/B roll
+digitizing system on one $5000 JPEG compression card.  It was promoted as
+an inexpensive online editing system with SVHS quality.  SuperMac, the maker
+of the card, is trying to achieve this quality level, but as yet, has been
+unable to deliver.  Our system produces "near VHS" quality at 30 fields per
+second (640x480 overscan).  The card repeats every other field to get 60
+fields per second.  This results in a kind of Super 8 film look that some
+find distracting.
+
+If you can get past this problem, you'll find the Adobe Premier editing 
+software quite enjoyable with which to work.  It produces thousands of
+different effects from crystalize filters to DVE transitions to color matting.
+
+Because of its non-linear nature, editing is fast and easy.  If you've ever
+used (or seen used) an AVID or Montage system, you'll recognize the methodology
+and the user interface.
+
+The total system with Quadra 950 (40Megs of RAM), 1 gig drive, 21" Apple mon-
+itor, Panasonic SVHS 1960 edit deck, audio gear (cassette, CD, EQ, mixer, etc),
+Composite monitor, Digital Film card will set you back about $20,000.
+
+For you video cowboys and girls, this system will not output at a quality
+that will satisfy most of your clients.  Even though you can perform more
+effects than a toasterhead can imagine, an Amiga based off-line based system
+will look better.
+
+We use both Macs and Amigas for our video work.  Each for what each does best!
+
+
+Dan Snodgrass
+Media Services
+Lewis & Clark College
+Portland
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ stand alon edit suit articl lclark 1993apr20
+need help upgrad anim video edit stand look differ
+type setup roll cut station like control comput
+brand doesnt matter mayb mac amiga low end high
+end system setup help system use system might use
+could mail system requir use hardwar softwar
+necessari set system need   thank advanc  ken
+lewi clark colleg recent instal digit film system
+base mac quadra non linear full digit edit  you'r
+consid system pros con  educ environ system excel
+use produc varieti educ materi disemin local
+network program go view mac imag qualiti import
+abil direct export video net  also use produc
+orienti promot video program use lewi clark
+communiti sinc program meant commerci broadcast
+use imag qualiti critic  digit film system uniniti
+roll digit system one jpeg compress card promot
+inexpens onlin edit system svhs qualiti supermac
+maker card tri achiev qualiti level yet unabl
+deliv system produc near vhs qualiti field per
+second 640x480 overscan card repeat everi field
+get field per second result kind super film look
+find distract  get past problem you'll find adob
+premier edit softwar quit enjoy work produc
+thousand differ effect crystal filter dve transit
+color mat  non linear natur edit fast easi you'v
+ever use seen use avid montag system you'll recogn
+methodolog user interfac  total system quadra
+40meg ram gig drive appl mon itor panason svhs
+edit deck audio gear cassett mixer etc composit
+monitor digit film card set back  video cowboy
+girl system output qualiti satisfi client even
+though perform effect toasterhead imagin amiga
+base line base system look better  use mac amiga
+video work best   dan snodgrass media servic lewi
+clark colleg portland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+edit, 2996, 0.319632548807
+qualiti, 7017, 0.276810597386
+digit, 2642, 0.230675497822
+video, 9506, 0.217043769744
+use, 9363, 0.211633874588
+film, 3479, 0.209680159602
+lewi, 5235, 0.173878440795
+mac, 5410, 0.17082053617
+produc, 6895, 0.16981619754
+card, 1513, 0.164574218623
+clark, 1787, 0.15589093005
+svhs, 8614, 0.154955868622
+amiga, 472, 0.149342700433
+quadra, 7010, 0.128387492302
+setup, 7819, 0.124110938915
+linear, 5286, 0.115103304141
+field, 3466, 0.108189119887
+promot, 6914, 0.107332552215
+roll, 7464, 0.105313314521
+colleg, 1900, 0.100285094897
+educ, 3002, 0.0963056797471
+base, 923, 0.0899659238822
+program, 6905, 0.0892330382248
+stand, 8311, 0.0830214915867
+distract, 2751, 0.0774779343112
+effect, 3005, 0.0768097314746
+non, 6097, 0.0759625202803
+gig, 3875, 0.0747212161942
+avid, 824, 0.0725829395009
+look, 5341, 0.0717424110596
+vhs, 9496, 0.070835840231
+supermac, 8563, 0.070835840231
+premier, 6826, 0.070835840231
+1993apr20, 43, 0.0693586888458
+set, 7815, 0.0686460201039
+portland, 6753, 0.068079122114
+orienti, 6291, 0.068079122114
+doesnt, 2794, 0.068079122114
+cowboy, 2197, 0.068079122114
+second, 7753, 0.0666976328873
+end, 3091, 0.0660692148711
+methodolog, 5668, 0.0659408454207
+imag, 4512, 0.0642425921889
+softwar, 8103, 0.0639636202707
+inexpens, 4617, 0.0634267356086
+audio, 778, 0.0634267356086
+gear, 3804, 0.0627165947656
+maker, 5460, 0.0620554694576
+girl, 3883, 0.0620554694576
+deck, 2446, 0.0614370280338
+640x480, 127, 0.0614370280338
+ll, 5314, 0.0607109619334
+brand, 1270, 0.0592987513406
+differ, 2633, 0.0590122487297
+crystal, 2267, 0.0579594802649
+transit, 9056, 0.0575516520707
+client, 1816, 0.0575516520707
+help, 4249, 0.0563039702925
+upgrad, 9337, 0.0557382375452
+mon, 5831, 0.0557382375452
+deliv, 2507, 0.0554133753774
+satisfi, 7635, 0.0550991663693
+filter, 3481, 0.0550991663693
+super, 8552, 0.0547949339537
+unabl, 9211, 0.0545000640363
+composit, 1982, 0.0545000640363
+work, 9833, 0.0542958782993
+export, 3310, 0.0542139975336
+instal, 4679, 0.0539362239922
+adob, 277, 0.0539362239922
+onlin, 6245, 0.0536662761075
+appl, 583, 0.0528992655653
+recogn, 7173, 0.0521891247223
+varieti, 9431, 0.0519636433499
+dan, 2350, 0.0519636433499
+need, 5993, 0.0515288340054
+mat, 5540, 0.0513173861848
+ram, 7083, 0.051111302625
+broadcast, 1324, 0.0499600178116
+interfac, 4709, 0.0497809001444
+compress, 1986, 0.049605069226
+monitor, 5837, 0.0492628001212
+jpeg, 4905, 0.0490961434651
+achiev, 232, 0.0486128889937
+meant, 5598, 0.0484570722892
+suit, 8529, 0.0483037487591
+output, 6329, 0.0483037487591
+repeat, 7286, 0.0478579699561
+communiti, 1953, 0.0477138692528
+thousand, 8888, 0.0471582054175
+necessari, 5990, 0.0471582054175
+ken, 4980, 0.0470241820274
+critic, 2237, 0.0470241820274
+media, 5605, 0.046633004604
+alon, 437, 0.0462571714852
+excel, 3261, 0.0458955241812
+enjoy, 3114, 0.0458955241812
+abil, 177, 0.0448859053341
+environ, 3139, 0.044571696326
+network, 6018, 0.0443678053109
+imagin, 4518, 0.0435004533682
+hardwar, 4173, 0.0427903125251
+fast, 3397, 0.0422902417005
+easi, 2959, 0.0422902417005
+materi, 5543, 0.042209376105
+cut, 2313, 0.0421291872171
+drive, 2873, 0.0415859031684
+user, 9366, 0.0413621766749
+anim, 515, 0.0413621766749
+local, 5322, 0.0407899161415
+natur, 5966, 0.0405838325817
+past, 6456, 0.0405161113374
+commerci, 1940, 0.0405161113374
+station, 8346, 0.0404488653338
+control, 2107, 0.0399909105238
+low, 5368, 0.0394930054842
+servic, 7813, 0.0394325477683
+level, 5229, 0.0393127647562
+perform, 6539, 0.038904936562
+near, 5982, 0.03879153268
+net, 6010, 0.0385686734217
+color, 1907, 0.0385137591386
+total, 9013, 0.0382438112539
+recent, 7168, 0.0380854189504
+view, 9510, 0.0374277851768
+type, 9177, 0.0374277851768
+result, 7332, 0.0371863992095
+matter, 5553, 0.0371863992095
+direct, 2667, 0.0367211371409
+import, 4551, 0.0363208810657
+advanc, 285, 0.0362341608703
+requir, 7302, 0.0356481476203
+seen, 7767, 0.0355672820249
+quit, 7043, 0.0350959157135
+kind, 5021, 0.0341826043724
+consid, 2059, 0.0336078191344
+mayb, 5564, 0.0335424092136
+comput, 1993, 0.0332218938439
+mail, 5447, 0.0329423192469
+everi, 3235, 0.0328206348664
+high, 4292, 0.0324065110829
+best, 1052, 0.0320373611094
+line, 5285, 0.0317627716572
+articl, 665, 0.0308839741755
+problem, 6887, 0.0301474085078
+sinc, 7977, 0.0292112544474
+better, 1060, 0.0286669905413
+tri, 9087, 0.0277518978978
+thank, 8832, 0.0268353486731
+like, 5272, 0.020177081566

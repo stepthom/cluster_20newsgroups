@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60250
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: abdkw@stdvax (David Ward)
+Subject: Re: Questions about Titan IV and Ariane 5
+Distribution: sci
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 26
+News-Software: VAX/VMS VNEWS 1.4-b1
+
+In article <C50orq.7G0@news.cso.uiuc.edu>, gwg33762@uxa.cso.uiuc.edu (Garret W. Gengler) writes...
+>In sci.space you write:
+> 
+>>Try the ENVIRONET database at GSFC. FTP to envnet.gsfc.nasa.gov or 
+>>128.183.104.16, or call (310)286-5690.  They have data on STS, Ariane, Titan, 
+>>Atlas, Delta and Scout launch environments.
+> 
+>Howdy.  Thanks for the info.
+> 
+>I tried "anonymous" FTP there, but it didn't work.
+>I also tried telnetting to the same address, but it asked for a login
+>and password, although there was a note saying that the new username for
+>environet was "envnet".  
+> 
+>Anyways, do you have any idea what else I should try?
+> 
+>Thanks,
+>Garret
+> 
+> 
+The home office number for ENVIRONET is (301) 286-5690 (note area
+code change).  A friend of mine used to use it to get LDEF data, but
+he had to apply for a login name and password.  I have a call in for
+more info, which I hope to get in the morning.
+
+David W. @ GSFC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+abdkw stdvax david ward question titan arian
+news softwar vax vms vnew  uxa cso uiuc edu garret
+gengler write sci space write  tri environet
+databas gsfc ftp envnet gsfc nasa gov call data
+sts arian titan atlas delta scout launch environ
+howdi thank info  tri anonym ftp didn't work also
+tri telnet address ask login password although
+note say new usernam environet envnet  anyway idea
+els tri  thank garret   home offic number
+environet note area code chang friend mine use use
+get ldef data appli login name password call info
+hope get morn  david gsfc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gsfc, 4072, 0.358361284602
+arian, 633, 0.265667719679
+login, 5331, 0.25001400815
+password, 6455, 0.238907523068
+tri, 9087, 0.223618104506
+titan, 8951, 0.215157172325
+ftp, 3709, 0.156059976895
+david, 2397, 0.155834863704
+info, 4636, 0.151992344229
+uxa, 9400, 0.150521387702
+stdvax, 8357, 0.150521387702
+abdkw, 171, 0.150521387702
+ldef, 5170, 0.146213958145
+data, 2385, 0.142973221705
+howdi, 4403, 0.142694531937
+note, 6118, 0.139293600374
+write, 9865, 0.133092452362
+cso, 2277, 0.13283385984
+usernam, 9368, 0.130994049174
+telnet, 8768, 0.125007004075
+scout, 7714, 0.125007004075
+ward, 9636, 0.122590929677
+atlas, 751, 0.121487577867
+sts, 8462, 0.114389238805
+uiuc, 9197, 0.113660722102
+thank, 8832, 0.10811638588
+delta, 2509, 0.108107479561
+morn, 5864, 0.102960639431
+databas, 2386, 0.102960639431
+gov, 3965, 0.0973049913367
+anonym, 532, 0.0958307330656
+sci, 7690, 0.0899956840385
+environ, 3139, 0.0897869965847
+vnew, 9564, 0.0878155499391
+friend, 3692, 0.0863716320923
+offic, 6206, 0.0855211244205
+appli, 584, 0.0855211244205
+use, 9363, 0.0852647376748
+vms, 9563, 0.0851911437104
+vax, 9439, 0.0842337540438
+area, 622, 0.0784868950204
+code, 1871, 0.0767207816416
+launch, 5147, 0.0758948416904
+address, 264, 0.0750060370601
+home, 4354, 0.0744354516334
+nasa, 5956, 0.0726468210287
+chang, 1650, 0.0693565180031
+hope, 4372, 0.0689996982043
+edu, 3001, 0.068442160489
+ask, 689, 0.0668601095438
+els, 3053, 0.0667339430719
+news, 6031, 0.0666711677273
+idea, 4482, 0.0659937858928
+didn, 2625, 0.0644813004112
+softwar, 8103, 0.0644254294562
+number, 6156, 0.062769073829
+question, 7032, 0.0584309470992
+new, 6023, 0.0562301769861
+space, 8164, 0.0547553820995
+work, 9833, 0.05468788762
+say, 7653, 0.0490087255102

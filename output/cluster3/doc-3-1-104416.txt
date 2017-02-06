@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104416
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Braves Pitching UpdateDIR
+From: grabiner@math.harvard.edu (David Grabiner)
+Organization: /etc/organization
+Nntp-Posting-Host: boucher.harvard.edu
+In-reply-to: drw3l@delmarva.evsc.Virginia.EDU's message of Fri, 16 Apr 1993 16:19:23 GMT
+Lines: 41
+
+In article <C5L40C.9LC@murdoch.acc.Virginia.EDU>, David Robert Walker writes:
+
+> In article <8994@blue.cis.pitt.edu> traven@pitt.edu (Neal Traven) writes:
+
+>>One also has to separate offense into batting and baserunning, with the
+>>split probably somewhere around 49.5% and 0.5%.
+
+> I'd give baserunning a little more credit than that, maybe 45-5, or
+> even 40-10. Give a team of Roberto Alomar and a team of John Oleruds
+> identical batting stats (which wouldn't be that unreasonable), and
+> even if you don't let Roberto steal a single base, they'll score a lot
+> more than the Oleruds by going first-to-third more often. (No offense,
+> Gordon).
+
+I wouldn't give baserunning that much value.
+
+The above effect is clear, but there are other effects as well.  If
+Olerud hits a double, any runner on first will score; if Alomar legs an
+extra base onto a hit in the gap, the runner on first may need to hold
+at third.  Thus Olerud's doubles have more advancement value than
+Alomar's.  (Of course, Alomar is more likely to score after hitting a
+double.)
+
+Another reason not to give too much extra value to baserunning is that
+the runs created formulas work for very fast and very slow teams.  No
+team in the 1950's ran much, but some teams certainly had faster players
+than others.  Still, the current runs created formulas work just as well
+in the 1950's for all teams.  
+
+Bill James gives the 1955-1958 Senators as an example.  They used Harmon
+Killebrew regularly as a pinch runner, and in 1957, stole 13 bases with
+38 times caught stealing.  Yet they scored slightly more runs than
+predicted by Runs Created.
+
+
+
+--
+David Grabiner, grabiner@zariski.harvard.edu
+"We are sorry, but the number you have dialed is imaginary."
+"Please rotate your phone 90 degrees and try again."
+Disclaimer: I speak for no one and no one speaks for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+brave pitch updatedir           one also separ
+offens bat baserun split probabl somewher around
+i'd give baserun littl credit mayb even give team
+roberto alomar team john olerud ident bat stat
+wouldn't unreason even don't let roberto steal
+singl base they'll score lot olerud go first third
+often offens gordon  wouldn't give baserun much
+valu  effect clear effect well olerud hit doubl
+runner first score alomar leg extra base onto hit
+gap runner first need hold third thus olerud doubl
+advanc valu alomar cours alomar like score hit
+doubl  anoth reason give much extra valu baserun
+run creat formula work fast slow team team ran
+much team certain faster player other still
+current run creat formula work well team  bill
+jame give senat exampl use harmon killebrew
+regular pinch runner stole base time caught steal
+yet score slight run predict run creat      sorri
+number dial imaginari pleas rotat phone degre tri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baserun, 932, 0.380624872131
+olerud, 6221, 0.333964532409
+alomar, 436, 0.283955835266
+team, 8732, 0.261907325438
+score, 7705, 0.227392392054
+runner, 7545, 0.201397233276
+doubl, 2828, 0.183875960183
+roberto, 7438, 0.17614041461
+valu, 9414, 0.161317782925
+run, 7543, 0.158404531862
+creat, 2217, 0.152468634044
+formula, 3614, 0.151185911259
+steal, 8362, 0.145832613496
+hit, 4316, 0.137920971571
+offens, 6202, 0.123752759026
+base, 923, 0.123428184859
+extra, 3325, 0.122583973455
+wouldn, 9854, 0.109906433491
+bat, 942, 0.108033623949
+effect, 3005, 0.105378629222
+senat, 7784, 0.0951562180326
+harmon, 4178, 0.0951562180326
+stole, 8406, 0.0904671291878
+updatedir, 9334, 0.0860436387293
+gap, 3769, 0.0851366120105
+dial, 2609, 0.0851366120105
+unreason, 9305, 0.0842881451791
+gordon, 3954, 0.0842881451791
+imaginari, 4519, 0.0834911331021
+leg, 5199, 0.0820288860514
+ident, 4484, 0.0795171453343
+ran, 7089, 0.0747710209425
+work, 9833, 0.0744908896016
+caught, 1568, 0.0709889588164
+pinch, 6632, 0.0701218309841
+credit, 2225, 0.0701218309841
+split, 8247, 0.0680553635218
+slow, 8044, 0.0650740488536
+slight, 8034, 0.0650740488536
+jame, 4820, 0.0650740488536
+faster, 3399, 0.0645145315211
+separ, 7797, 0.0624879629452
+somewher, 8130, 0.0614356676437
+rotat, 7490, 0.0610092516807
+regular, 7234, 0.0610092516807
+degre, 2491, 0.0610092516807
+stat, 8341, 0.0596801740936
+predict, 6816, 0.0595543676506
+fast, 3397, 0.0580198317885
+phone, 6601, 0.0576897724538
+hold, 4341, 0.0574742483979
+brave, 1277, 0.0562504190491
+singl, 7983, 0.0545192937599
+sorri, 8142, 0.0506946167732
+clear, 1803, 0.0504417883472
+john, 4878, 0.049711229687
+advanc, 285, 0.049711229687
+pitch, 6643, 0.0479928003649
+exampl, 3258, 0.0476846611111
+current, 2299, 0.0476339994956
+certain, 1619, 0.046519618256
+mayb, 5564, 0.0460182978886
+player, 6683, 0.0453640995959
+cours, 2190, 0.0449866572229
+littl, 5308, 0.0441847823114
+probabl, 6885, 0.0429955722663
+number, 6156, 0.0427491749313
+reason, 7156, 0.0424050015329
+anoth, 533, 0.0423710746161
+ll, 5314, 0.0416460116738
+let, 5225, 0.0415183730696
+lot, 5356, 0.0410198612895
+pleas, 6688, 0.0386739945117
+tri, 9087, 0.0380740422163
+need, 5993, 0.035347330271
+time, 8936, 0.0312367680821
+don, 2811, 0.0298197078578
+use, 9363, 0.0290349766532
+like, 5272, 0.0276818204714

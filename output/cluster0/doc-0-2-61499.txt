@@ -1,0 +1,165 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61499
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey)
+Subject: Revival of San Marco? (was Re: Commercial Space News #22)
+Organization: Fermi National Accelerator Laboratory
+Lines: 31
+NNTP-Posting-Host: fnalf.fnal.gov
+
+In article <324417a1@ofa123.fidonet.org>, Wales.Larrison@ofa123.fidonet.org writes:
+> COMMERCIAL SPACE NEWS/SPACE TECHNOLOGY INVESTOR NUMBER 22
+[...]
+>    This might point out some key discriminators in judging the 
+> feasibility of a commercial launch site.  These include:
+>   - Is there an identified key customer to provide core usage 
+> sufficient to recover setup costs?
+>   - Is there a market advantage of using the site?
+>   - Can existing infrastructure be used or modified at the site?
+>   - Can financing be found at low enough cost to support the 
+> investment?  
+>    Other commercial launch site ventures -- including those at 
+> Woomera, Poker Flat, Cape York, White Sands, Alabama Off-Shore 
+> Platform, Hawaii, and Vandenberg have to also be judged against 
+> these criteria.  In my opinion, some of these ventures are flying 
+> on hope and speculation, and not on sound financial grounds.]
+
+This reminds me... my fuzzy brain recalls that somebody was thinking
+of reviving the San Marco launch platform off the coast of Kenya,
+where the Copernicus satellite was launched around 1972.  Is this
+true, or am I imagining it?  Possibly it's connected with one of the
+Italian programs to revive the Scout in a new version.
+
+That old platform must be getting pretty rusty, and there ain't a lot
+of infrastructure to go with it...
+
+Bill Higgins, Beam Jockey              | "We'll see you
+Fermi National Accelerator Laboratory  | at White Sands in June. 
+Bitnet:           HIGGINS@FNAL.BITNET  | You bring your view-graphs, 
+Internet:       HIGGINS@FNAL.FNAL.GOV  | and I'll bring my rocketship."  
+SPAN/Hepnet:           43011::HIGGINS  | --Col. Pete Worden on the DC-X
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ reviv san marco commerci space news      commerci
+space news space technolog investor number  might
+point key discrimin judg feasibl commerci launch
+site includ identifi key custom provid core usag
+suffici recov setup cost market advantag use site
+exist infrastructur use modifi site financ found
+low enough cost support invest commerci launch
+site ventur includ woomera poker flat cape york
+white sand alabama shore platform hawaii
+vandenberg also judg criteria opinion ventur fli
+hope specul sound financi ground  remind fuzzi
+brain recal somebodi think reviv san marco launch
+platform coast kenya copernicus satellit launch
+around true imagin possibl it connect one italian
+program reviv scout new version  old platform must
+get pretti rusti ain't lot infrastructur  bill
+higgin beam jockey we'll see fermi nation acceler
+laboratori white sand   span hepnet higgin col
+pete worden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+reviv, 7362, 0.310553070146
+commerci, 1940, 0.23683684653
+site, 7994, 0.230856283343
+launch, 5147, 0.220231527915
+platform, 6676, 0.213124907906
+marco, 5505, 0.202718037386
+infrastructur, 4641, 0.192728538987
+higgin, 4291, 0.17626622772
+sand, 7605, 0.173315365259
+ventur, 9461, 0.163891689932
+judg, 4920, 0.138631859705
+key, 4994, 0.128520854436
+san, 7603, 0.126607417594
+white, 9737, 0.120042489175
+space, 8164, 0.119166808897
+woomera, 9828, 0.109195679374
+cost, 2169, 0.10641259436
+copernicus, 2129, 0.106070856357
+poker, 6715, 0.101359018693
+financ, 3483, 0.101359018693
+worden, 9830, 0.0994890925103
+shore, 7902, 0.0978397007235
+news, 6031, 0.0967331429211
+includ, 4579, 0.0963717535268
+vandenberg, 9420, 0.0963642694934
+rusti, 7552, 0.0950295795961
+italian, 4796, 0.0950295795961
+cape, 1501, 0.0950295795961
+fermi, 3447, 0.0938111031851
+col, 1886, 0.0938111031851
+jockey, 4874, 0.0926902135434
+hepnet, 4260, 0.0926902135434
+hawaii, 4208, 0.0926902135434
+fuzzi, 3738, 0.0916524318295
+setup, 7819, 0.0906862801682
+scout, 7714, 0.0906862801682
+ain, 354, 0.0906862801682
+alabama, 374, 0.0897825056466
+discrimin, 2705, 0.0889335399807
+criteria, 2236, 0.0881331138598
+financi, 3484, 0.0866576826297
+recov, 7185, 0.0853229927324
+beam, 969, 0.0853229927324
+investor, 4746, 0.0847005060416
+usag, 9360, 0.0841045163214
+feasibl, 3419, 0.0841045163214
+coast, 1859, 0.08145443859
+span, 8181, 0.0805205162748
+flat, 3526, 0.0805205162748
+pete, 6574, 0.0769510957661
+suffici, 8523, 0.0766053091918
+identifi, 4486, 0.0759383429145
+acceler, 207, 0.0753017039792
+custom, 2311, 0.0741091842851
+specul, 8214, 0.0735489637918
+remind, 7270, 0.0735489637918
+invest, 4744, 0.0730102956609
+core, 2140, 0.0730102956609
+brain, 1266, 0.0712731064408
+laboratori, 5090, 0.0705898663154
+recal, 7166, 0.0687199401324
+advantag, 286, 0.0683362546319
+modifi, 5814, 0.0670705483456
+somebodi, 8121, 0.0668987223281
+connect, 2046, 0.0668987223281
+york, 9960, 0.0662317560508
+market, 5514, 0.0638423769281
+imagin, 4518, 0.0635704529523
+ground, 4061, 0.0629128840435
+use, 9363, 0.0618552692025
+satellit, 7632, 0.0599171277903
+fli, 3542, 0.0598137793896
+low, 5368, 0.0577140708359
+technolog, 8743, 0.0556570597797
+nation, 5962, 0.0551313920935
+sound, 8150, 0.0549847557303
+version, 9479, 0.0544832928767
+old, 6216, 0.052951678443
+opinion, 6266, 0.0524559224337
+provid, 6949, 0.0518017054165
+pretti, 6851, 0.0513444029126
+exist, 3283, 0.0502105409266
+hope, 4372, 0.0500558029463
+true, 9121, 0.0499535861076
+support, 8576, 0.0482308323228
+possibl, 6765, 0.0459122637661
+number, 6156, 0.0455357990321
+ll, 5314, 0.0443607255839
+lot, 5356, 0.0436937593066
+program, 6905, 0.0434676286418
+new, 6023, 0.0407921589819
+point, 6710, 0.0395274331714
+think, 8871, 0.0320725386057

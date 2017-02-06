@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38592
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Mark A. Cartwright <markc@emx.utexas.edu>
+Subject: Re: TIFF: philosophical significance of 42 (SILLY)
+Organization: University of Texas @ Austin, Comp. Center
+Lines: 21
+Distribution: world
+NNTP-Posting-Host: aliester.cc.utexas.edu
+X-UserAgent: Nuntius v1.1
+
+Well,
+
+42 is 101010 binary, and who would forget that its the
+answer to the Question of "Life, the Universe, and Everything else."
+That is to quote Douglas Adams in a round about way.
+
+Of course the Question has not yet been discovered...
+
+--
+Mark A. Cartwright, N5SNP
+University of Texas @ Austin
+Computation Center, Graphics Facility
+markc@emx.utexas.edu
+markc@sirius.cc.utexas.edu
+markc@hermes.chpc.utexas.edu
+(512)-471-3241 x 362
+
+PP-ASEL 9-92
+
+a.) "Often in error, never in doubt."
+b.) "This situation has no gravity, I would like a refund please."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific silli     userag nuntius
+well  binari forget answer question life univers
+everyth els quot dougla adam round way  cours
+question yet discov   mark cartwright n5snp
+univers texa austin comput center graphic facil
+asel  often error never doubt situat graviti like
+refund pleas
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+userag, 9367, 0.244164993315
+nuntius, 6158, 0.244164993315
+univers, 9282, 0.235825593924
+austin, 791, 0.232226275595
+question, 7032, 0.214806553465
+adam, 258, 0.205184000027
+dougla, 2837, 0.204020550576
+silli, 7956, 0.199714421106
+round, 7494, 0.196796446505
+philosoph, 6595, 0.194100312336
+binari, 1096, 0.192410372512
+discov, 2698, 0.184991371238
+graviti, 4010, 0.180589731537
+texa, 8820, 0.179426282087
+tiff, 8926, 0.176148689246
+facil, 3348, 0.171280515049
+forget, 3604, 0.161761964448
+error, 3180, 0.160063935708
+doubt, 2830, 0.158761696738
+signific, 7951, 0.152883491084
+everyth, 3242, 0.152883491084
+quot, 7045, 0.152345874296
+situat, 7995, 0.149773586777
+mark, 5512, 0.144481684889
+center, 1606, 0.143221835533
+answer, 535, 0.130960418342
+life, 5260, 0.130669580409
+comput, 1993, 0.123013641037
+els, 3053, 0.122665205872
+cours, 2190, 0.121416109461
+graphic, 3997, 0.116817892919
+pleas, 6688, 0.104378636707
+way, 9666, 0.0928166526493
+like, 5272, 0.0747114622848

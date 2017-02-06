@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61426
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: atae@spva.ph.ic.ac.uk (Ata Etemadi)
+Subject: Re: Abyss-breathing fluids
+Nntp-Posting-Host: prawn.sp.ph
+Organization: Imperial College of Science, Technology, and Medicine, London, England
+Distribution: usa
+Lines: 8
+
+"The Forever War", one of my favorite SciFi books, had a passage devoted to 
+breathing fluids. The idea was to protect people from the high accelerations 
+required for interstellar travel by emersing the passengers in dry-cleaning 
+fluid saturated with oxygen. Plenty of very imaginative ideas is this book.
+I would certainly recommend it (won the Hugo and the Nebula awards).
+
+	regards
+		Ata <(|)>.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ abyss breath fluid      forev war one favorit
+scifi book passag devot breath fluid idea protect
+peopl high acceler requir interstellar travel
+emers passeng dri clean fluid satur oxygen plenti
+imagin idea book certain recommend hugo nebula
+award  regard ata
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fluid, 3560, 0.515728864103
+breath, 1291, 0.311927175475
+ata, 734, 0.20309748122
+nebula, 5987, 0.198208846734
+book, 1218, 0.192081415754
+idea, 4482, 0.183336418233
+passeng, 6451, 0.181956372563
+satur, 7638, 0.177477108708
+abyss, 203, 0.175490032716
+dri, 2869, 0.165926416312
+interstellar, 4723, 0.163370840109
+devot, 2597, 0.163370840109
+oxygen, 6363, 0.158891576254
+award, 832, 0.155963587738
+plenti, 6692, 0.153324088913
+forev, 3602, 0.153324088913
+acceler, 207, 0.144182737229
+passag, 6449, 0.143016759812
+travel, 9069, 0.142452249372
+favorit, 3411, 0.141357678803
+clean, 1799, 0.138802102599
+recommend, 7178, 0.13602583992
+protect, 6940, 0.130845754135
+war, 9635, 0.130485839261
+imagin, 4518, 0.121720511346
+regard, 7224, 0.109836730747
+requir, 7302, 0.0997486329659
+certain, 1619, 0.0948789410842
+high, 4292, 0.0906780687215
+peopl, 6530, 0.072748550775

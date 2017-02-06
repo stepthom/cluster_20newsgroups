@@ -1,0 +1,125 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62395
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Shuttle and Pennicillin
+Organization: Express Access Online Communications USA
+Lines: 26
+NNTP-Posting-Host: access.digex.net
+
+
+Pennicillin if i have everything correct,  was a highly valuable
+Myco-toxin,  discovered during WW2.  It proved to have an amazing
+Bacterio-cidal effect without human toxicity.   It's immediate
+administration  showed immediate dramatic results  solving
+problems  that previously were fatal.  Although initially
+enormously expensive to culture,  within 3 years,
+the price had fallen at least two orders of magnitude,
+and within 10 years,  was  not much more expensive then
+aspirin.  Penicillin was also usable for an amazingly wide
+class of infections.
+
+Centoxin is a drug that is not passing FDA approval.  It promised
+amazing results for Toxic shock, a rapidly fatal disease.
+It consumed enormous amounts of funding  in testing and
+developement,  However it works  less then 1 in 5 times
+of administration  and costs $2,000 per administration
+with no promise of any reduction in manufacturing cost.
+The drug thus costs $10,000 per useful case,  and is
+implicated in a slight increase in mortality for some
+patients.
+
+I would not dare to compare the shuttle to Pennicillin,
+but to centoxin.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ shuttl pennicillin      pennicillin everyth
+correct high valuabl myco toxin discov ww2 prove
+amaz bacterio cidal effect without human toxic it
+immedi administr show immedi dramat result solv
+problem previous fatal although initi enorm expens
+cultur within year price fallen least two order
+magnitud within year much expens aspirin
+penicillin also usabl amaz wide class infect
+centoxin drug pass fda approv promis amaz result
+toxic shock rapid fatal diseas consum enorm amount
+fund test develop howev work less time administr
+cost per administr promis reduct manufactur cost
+drug thus cost per use case implic slight increas
+mortal patient  dare compar shuttl pennicillin
+centoxin  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+administr, 273, 0.290669648707
+amaz, 459, 0.282442588442
+fatal, 3402, 0.248589056731
+toxic, 9025, 0.241449159989
+drug, 2883, 0.232868573872
+enorm, 3117, 0.212238535315
+cost, 2169, 0.202778163623
+immedi, 4527, 0.170411440595
+expens, 3294, 0.167868918764
+promis, 6913, 0.167060243808
+shuttl, 7929, 0.143206626722
+fda, 3416, 0.138721044392
+result, 7332, 0.138074201632
+ww2, 9879, 0.134751302045
+infect, 4623, 0.134751302045
+aspirin, 695, 0.134751302045
+usabl, 9358, 0.128765432957
+diseas, 2709, 0.124294528365
+mortal, 5870, 0.122420156024
+fallen, 3371, 0.122420156024
+implic, 4547, 0.119176640358
+dare, 2363, 0.117752673928
+shock, 7895, 0.116434286936
+patient, 6465, 0.116434286936
+dramat, 2859, 0.11405875235
+reduct, 7205, 0.110089010004
+rapid, 7100, 0.106845494337
+approv, 591, 0.106119267657
+magnitud, 5441, 0.105421527907
+valuabl, 9415, 0.10287575199
+consum, 2077, 0.101180175961
+manufactur, 5494, 0.0996322363236
+solv, 8119, 0.0948888902174
+cultur, 2291, 0.0948888902174
+discov, 2698, 0.0927515129122
+year, 9943, 0.089419696985
+slight, 8034, 0.0880582293848
+wide, 9747, 0.0865748636234
+initi, 4647, 0.0863392299373
+class, 1789, 0.0852057202974
+previous, 6855, 0.0833313479565
+price, 6857, 0.0827480142799
+fund, 3723, 0.0807592358649
+increas, 4590, 0.0802533226292
+pass, 6448, 0.0794408488736
+prove, 6947, 0.0789705990308
+pat, 6458, 0.0789705990308
+everyth, 3242, 0.0766531703749
+compar, 1960, 0.0748468290278
+test, 8812, 0.073095571941
+effect, 3005, 0.0712992019691
+human, 4432, 0.068686545962
+correct, 2156, 0.0685138253508
+develop, 2588, 0.0662568558294
+order, 6281, 0.0628876146696
+case, 1540, 0.061853369919
+howev, 4406, 0.0613292379051
+high, 4292, 0.060163167725
+problem, 6887, 0.0559691103399
+work, 9833, 0.0504005510581
+time, 8936, 0.0422696072777
+use, 9363, 0.0392901422203

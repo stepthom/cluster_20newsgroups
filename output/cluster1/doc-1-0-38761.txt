@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38761
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kiwi@iis.ethz.ch (Rene Mueller)
+Subject: ICN (MSDOS) -> PBM/PGM/PPM format?
+Organization: Swiss Federal Institute of Technology (ETH), Zurich, CH
+Distribution: comp
+Lines: 7
+
+I have many icons in IconEdit and PBIcon format and I would like to 
+convert them to PBM, PGM or PPM format. Do you know the formats of
+IconEdit or PBIcon?
+
+Thank's for your help.
+   ,
+Rene (kiwi@iis.ethz.ch)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ icn msdos pbm pgm ppm format     mani icon
+iconedit pbicon format like convert pbm pgm ppm
+format know format iconedit pbicon  thank help
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+format, 3612, 0.533292419148
+pgm, 6581, 0.465493561506
+pbm, 6482, 0.436056290009
+ppm, 6787, 0.402980997766
+icon, 4479, 0.236670450038
+msdos, 5903, 0.187504039553
+convert, 2115, 0.133889339712
+help, 4249, 0.0978676396984
+mani, 5479, 0.0944936494365
+thank, 8832, 0.0932904809902
+know, 5052, 0.0717549528896
+like, 5272, 0.0701436626444

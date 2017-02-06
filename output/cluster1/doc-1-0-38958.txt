@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38958
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: c557652@mizzou1.missouri.edu (Robert Woodward)
+Subject: gif viewer
+Lines: 7
+Nntp-Posting-Host: 128.206.12.104
+Organization: Physiology Dept, University of Missouri
+Lines: 7
+
+I am having trouble viewing GIF files on my system.  Large sections
+don't show up.  I have tried VPIC and PICEM - both do the same.  I am
+running a Gateway 486/33C with a Speedstar Plus VGA card and an
+NEC Multisync 4Ds 16 inch monitor.  Any suggestions?  I don't know if 
+Robert Woodward
+Department of Physiology, University of Missouri, Columbia, MO  65212
+e-mail:  c557652@mizzou1.missouri.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gif viewer      troubl view gif file system larg
+section don't show tri vpic picem run gateway 33c
+speedstar plus vga card nec multisync 4ds inch
+monitor suggest don't know robert woodward depart
+physiolog univers missouri columbia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gif, 3869, 0.317460511291
+vpic, 9590, 0.277975437282
+gateway, 3790, 0.267157468278
+physiolog, 6616, 0.255182364778
+columbia, 1913, 0.255182364778
+missouri, 5775, 0.25191039732
+speedstar, 8218, 0.243519328661
+inch, 4574, 0.225845357357
+monitor, 5837, 0.193318076849
+viewer, 9512, 0.186133654087
+vga, 9492, 0.185059183736
+section, 7759, 0.185059183736
+troubl, 9117, 0.182008546545
+plus, 6700, 0.180571279732
+depart, 2535, 0.1765623375
+don, 2811, 0.170588776483
+robert, 7437, 0.169286175479
+card, 1513, 0.161456369537
+view, 9510, 0.146874871775
+suggest, 8525, 0.143395631903
+larg, 5124, 0.139259168811
+file, 3477, 0.130123444059
+univers, 9282, 0.124964146272
+run, 7543, 0.113272552034
+tri, 9087, 0.108904559166
+know, 5052, 0.0809981624122

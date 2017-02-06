@@ -1,0 +1,287 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61022
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: globus@nas.nasa.gov (Al Globus)
+Subject: Space Colony Size Preferences Summary
+Organization: Applied Research Office, NASA Ames Research Center
+Reply-To: globus@nas.nasa.gov
+Distribution: sci.space
+Lines: 92
+
+
+Some time ago I sent the following message:
+   Every once in a while I design an orbital space colony.  I'm gearing up to
+   do another one.  I'd some info from you. If you were to move
+   onto a space colony to live permanently, how big would the colony have
+   to be for you to view a permanent move as desirable?  Specifically,
+
+   How many people do you want to share the colony with?
+ 
+
+   What physical dimensions does the living are need to have?  
+
+
+   Assume 1g living (the colony will rotate).  Assume that you can leave
+   from time to time for vacations and business trips.  If you're young
+   enough, assume that you'll raise your children there.
+
+I didn't get a lot of responses, and they were all over the block.
+Thanx muchly to all those who responded, it is good food for thought.
+
+
+
+
+Here's the (edited) responses I got:
+
+
+   How many people do you want to share the colony with?
+ 
+100
+
+   What physical dimensions does the living are need to have?  
+
+Cylinder 200m diameter x 1 km long
+
+Rui Sousa
+ruca@saber-si.pt
+
+=============================================================================
+
+>   How many people do you want to share the colony with?
+
+100,000 - 250,000
+
+>   What physical dimensions does the living are need to have?  
+
+100 square kms surface, divided into city, towns, villages and
+countryside.  Must have lakes, rivers amd mountains.
+
+=============================================================================
+
+> How many
+1000.  1000 people really isn't that large a number;
+everyone will know everyone else within the space of a year, and will probably
+be sick of everyone else within another year.
+
+>What physical dimensions does the living are need to have?  
+
+Hm.  I am not all that great at figuring it out.  But I would maximize the
+percentage of colony-space that is accessible to humans.  Esecially if there
+were to be children, since they will figure out how to go everywhere anyways.
+And everyone, especially me, likes to "go exploring"...I would want to be able
+to go for a walk and see something different each time...
+
+=============================================================================
+
+For population, I think I would want a substantial town -- big enough
+to have strangers in it.  This helps get away from the small-town
+"everybody knows everything" syndrome, which some people like but
+I don't.  Call it several thousand people.
+
+For physical dimensions, a somewhat similar criterion:  big enough
+to contain surprises, at least until you spent considerable time
+getting to know it.  As a more specific rule of thumb, big enough
+for there to be places at least an hour away on foot.  Call that
+5km, which means a 10km circumference if we're talking a sphere.
+
+                                         Henry Spencer at U of Toronto Zoology
+                                          henry@zoo.toronto.edu   utzoo!henry
+
+=============================================================================
+My desires, for permanent move to a space colony, assuming easy communication
+and travel:
+
+Size:  About a small-town size, say 9 sq. km.  'Course, bigger is better :-)
+Population:  about 100/sq km or less.  So, ~1000 for 9sqkm.  Less is
+better for elbow room, more for interest and sanity, so say max 3000, min 300.
+
+-Tommy Mac
+-------------------------------------------------------------------------
+Tom McWilliams | 517-355-2178 (work) \\     Inhale to the Chief!
+18084tm@ibm.cl.msu.edu  | 336-9591 (hm)\\  Zonker Harris in 1996!
+-------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space coloni size prefer summari       time ago
+sent follow messag everi design orbit space coloni
+i'm gear anoth one i'd info move onto space coloni
+live perman big coloni view perman move desir
+specif  mani peopl want share coloni   physic
+dimens live need   assum live coloni rotat assum
+leav time time vacat busi trip you'r young enough
+assum you'll rais children  didn't get lot respons
+block thanx much respond good food thought
+here edit respons got   mani peopl want share
+coloni    physic dimens live need  cylind 200m
+diamet long  rui sousa     mani peopl want share
+coloni    physic dimens live need  squar kms
+surfac divid citi town villag countrysid must lake
+river amd mountain    mani peopl realli isn't larg
+number everyon know everyon els within space year
+probabl sick everyon els within anoth year  physic
+dimens live need  great figur maxim percentag
+coloni space access human eseci children sinc
+figur everywher anyway everyon especi like explor
+want abl walk see someth differ time    popul
+think want substanti town big enough stranger help
+get away small town everybodi know everyth syndrom
+peopl like don't call sever thousand peopl  physic
+dimens somewhat similar criterion big enough
+contain surpris least spent consider time get know
+specif rule thumb big enough place least hour away
+foot call 5km mean 10km circumfer we'r talk sphere
+henri spencer toronto zoolog    desir perman move
+space coloni assum easi communic travel  size
+small town size say cours bigger better popul less
+9sqkm less better elbow room interest saniti say
+max min  tommi mac  tom mcwilliam work inhal chief
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+coloni, 1906, 0.566667444366
+dimens, 2652, 0.265079903844
+town, 9024, 0.213423162284
+live, 5310, 0.198076752132
+physic, 6613, 0.195729907072
+perman, 6550, 0.153627491055
+space, 8164, 0.153240815157
+peopl, 6530, 0.146573778082
+everyon, 3241, 0.143538543559
+assum, 710, 0.139763828733
+share, 7855, 0.135316825887
+size, 8000, 0.125352016713
+big, 1082, 0.122679938903
+want, 9634, 0.122635304259
+time, 8936, 0.106967161177
+popul, 6745, 0.102972456696
+mani, 5479, 0.102160543438
+need, 5993, 0.0968346933804
+desir, 2565, 0.0883694020247
+children, 1707, 0.0812353901496
+figur, 3476, 0.0765237422126
+rui, 7535, 0.0727995515286
+specif, 8203, 0.0714732467765
+away, 833, 0.0713756433823
+elbow, 3026, 0.0702092934842
+circumfer, 1769, 0.0702092934842
+small, 8054, 0.0701527131861
+respons, 7323, 0.0693522355296
+saniti, 7611, 0.0682001332543
+syndrom, 8653, 0.0665585298165
+amd, 464, 0.0665585298165
+stranger, 8427, 0.0639682717721
+villag, 9519, 0.0629077661487
+els, 3053, 0.0622548471819
+maxim, 5559, 0.0619591115422
+vacat, 9404, 0.0603175081043
+thumb, 8905, 0.0595968122832
+gear, 3804, 0.0589295521742
+lake, 5097, 0.0583083478744
+know, 5052, 0.0581826796716
+anoth, 533, 0.0580381882761
+cylind, 2326, 0.05772725006
+everywher, 3244, 0.0571813925688
+river, 7422, 0.0566667444366
+mcwilliam, 5590, 0.0566667444366
+min, 5732, 0.0557180898301
+diamet, 2613, 0.0540764863922
+better, 1060, 0.0538719591231
+squar, 8276, 0.0537089296001
+max, 5557, 0.0537089296001
+chief, 1703, 0.0526885304621
+divid, 2764, 0.0523725720408
+thanx, 8833, 0.0517720901693
+tommi, 8978, 0.0509403708566
+substanti, 8503, 0.0509403708566
+bigger, 1083, 0.0509403708566
+mountain, 5887, 0.0501790253453
+foot, 3587, 0.0501790253453
+food, 3584, 0.0492547385239
+sphere, 8226, 0.0490377667943
+percentag, 6534, 0.0490377667943
+trip, 9104, 0.0488259007587
+sick, 7933, 0.0482186668125
+travel, 9069, 0.0478354646801
+block, 1163, 0.0476498108641
+rais, 7076, 0.0472896071889
+summari, 8536, 0.0471147688589
+somewhat, 8129, 0.0469432609863
+everybodi, 3239, 0.0462881436857
+say, 7653, 0.0457193232824
+year, 9943, 0.0452569671489
+zoolog, 9993, 0.0452452066358
+room, 7476, 0.045105608629
+spent, 8223, 0.0445679031447
+communic, 1950, 0.04443834852
+thousand, 8888, 0.0443106316116
+spencer, 8221, 0.0434640051912
+respond, 7322, 0.0431241953889
+edit, 2996, 0.0429045774018
+explor, 3307, 0.0425848790466
+consider, 2060, 0.0424807866609
+rotat, 7490, 0.0417840055711
+busi, 1424, 0.0415011375623
+prefer, 6819, 0.0411372944807
+henri, 4258, 0.0409607419402
+sent, 7793, 0.0408737471468
+tom, 8976, 0.0406176950748
+citi, 1775, 0.0406176950748
+surpris, 8593, 0.0405339373446
+hour, 4395, 0.0405339373446
+young, 9962, 0.0402064870378
+mac, 5410, 0.0401264519235
+leav, 5184, 0.0401264519235
+easi, 2959, 0.0397366122006
+contain, 2079, 0.0395852827381
+surfac, 8587, 0.039362953144
+everyth, 3242, 0.0387955912454
+access, 209, 0.0384583274324
+walk, 9617, 0.0382618711063
+like, 5272, 0.037917440681
+toronto, 9003, 0.0375761225081
+rule, 7537, 0.0375761225081
+similar, 7961, 0.0372808865151
+especi, 3190, 0.0372808865151
+messag, 5650, 0.037222983479
+info, 4636, 0.0354477036993
+view, 9510, 0.0351677674399
+ago, 336, 0.0350763565931
+design, 2564, 0.0349858644638
+human, 4432, 0.0347635348697
+larg, 5124, 0.0333442610259
+sever, 7823, 0.033232410009
+isn, 4783, 0.0329767042338
+abl, 180, 0.0329407605092
+orbit, 6280, 0.032589001281
+thought, 8887, 0.0314255929253
+place, 6657, 0.0308388126297
+everi, 3235, 0.0308388126297
+cours, 2190, 0.0308104538942
+talk, 8684, 0.0304496950572
+didn, 2625, 0.0300766994905
+great, 4016, 0.0299471448658
+follow, 3578, 0.0295940058367
+got, 3960, 0.0295446693239
+probabl, 6885, 0.029446799979
+number, 6156, 0.0292780474155
+ll, 5314, 0.0285225131576
+long, 5336, 0.0283700857264
+lot, 5356, 0.0280936753924
+mean, 5595, 0.0278254984462
+differ, 2633, 0.0277244436136
+sinc, 7977, 0.0274473789508
+realli, 7150, 0.0267176927234
+someth, 8126, 0.0265045729259
+help, 4249, 0.0264520719545
+work, 9833, 0.0255086536908
+good, 3948, 0.0231451457747
+think, 8871, 0.020621605989
+don, 2811, 0.020422916278

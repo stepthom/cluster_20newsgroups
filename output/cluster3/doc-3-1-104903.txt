@@ -1,0 +1,129 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104903
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: loos@cup.hp.com (Joe Loos)
+Subject: Bonds vs. Maddux
+Nntp-Posting-Host: hpisq3lk.cup.hp.com
+Organization: Hewlett-Packard
+X-Newsreader: Tin 1.1 PL4
+Lines: 27
+
+I've been following the Giants closely over the off-season -- newspapers,
+notesgroup, etc -- but I had my first up close and personal last night at
+the Stick.
+
+After watching Giants hitters struggle last year, Barry's swing was 
+very impressive -- he's very quick and his swing seems effortless, even
+compared to Clark (particularly Clark as of late).
+
+It was interesting to see Bonds hit Maddux so well.  I'm not sure if
+Barry was after revenge against the Braves or what but he stroked
+three very pretty hits (1b, 2b, hr) for 5 rbi's.
+
+The Giants as a team are doing a lot of surprising things this year in
+addition to Bonds.  There has been some good pitching and some hitters
+seem to be swinging much better.  Clayton's defense has been superb.
+McGee seems to like leading off this year.  Manwaring is driving the ball.
+So on & so forth.
+
+I hope it continues...I think they need to continue well into June before
+people are really sold that they are for real--particularly the pitching.
+
+For myself, I think the fresh start of Magowan/Baker/etc has really wiped
+out a lot of negatives from the last few years and will be a real factor
+in helping them significantly improve over last year.
+
+Joe Loos
+loos@cup.hp.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bond maddux      i'v follow giant close season
+newspap notesgroup etc first close person last
+night stick  watch giant hitter struggl last year
+barri swing impress he quick swing seem effortless
+even compar clark particular clark late  interest
+see bond hit maddux well i'm sure barri reveng
+brave stroke three pretti hit rbi  giant team lot
+surpris thing year addit bond good pitch hitter
+seem swing much better clayton defens superb mcgee
+seem like lead year manwar drive ball forth  hope
+continu think need continu well peopl realli sold
+real particular pitch  think fresh start magowan
+baker etc realli wipe lot negat last year real
+factor help signific improv last year  joe loo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+swing, 8635, 0.299318240741
+bond, 1211, 0.276656059668
+giant, 3865, 0.25426454167
+maddux, 5426, 0.252856826214
+year, 9943, 0.234111197381
+clark, 1787, 0.202058437583
+barri, 918, 0.194267424104
+hitter, 4322, 0.158609870158
+continu, 2092, 0.157283708463
+particular, 6442, 0.156003128467
+close, 1830, 0.141232215577
+manwar, 5497, 0.13772108997
+pitch, 6643, 0.136024516432
+superb, 8553, 0.134849169511
+mcgee, 5577, 0.134849169511
+magowan, 5442, 0.134849169511
+wipe, 9792, 0.132361398851
+hit, 4316, 0.1303017211
+clayton, 1797, 0.12820409944
+real, 7144, 0.127739384761
+fresh, 3687, 0.126428413107
+baker, 871, 0.124807338493
+stroke, 8454, 0.117253278136
+lot, 5356, 0.116261329899
+realli, 7150, 0.11056703847
+forth, 3616, 0.109021666557
+newspap, 6035, 0.108367894031
+sold, 8109, 0.107736287605
+struggl, 8461, 0.105960601273
+negat, 5996, 0.105404422502
+rbi, 7124, 0.0961079150799
+joe, 4876, 0.0924906710247
+stick, 8393, 0.091950615669
+impress, 4554, 0.0896971953346
+factor, 3352, 0.0894628450092
+improv, 4557, 0.0860660840624
+late, 5139, 0.085492789438
+think, 8871, 0.0853393265016
+addit, 263, 0.0845748399754
+surpris, 8593, 0.0838717148241
+drive, 2873, 0.080852516086
+defens, 2476, 0.0805614069568
+signific, 7951, 0.0802747766076
+brave, 1277, 0.0797144154132
+quick, 7036, 0.079440430987
+compar, 1960, 0.0783830916662
+watch, 9655, 0.0772611778592
+night, 6063, 0.0756401032453
+lead, 5172, 0.0756401032453
+ball, 877, 0.0728634802069
+season, 7747, 0.0717508747215
+pretti, 6851, 0.068309166575
+hope, 4372, 0.0665947988006
+person, 6562, 0.0620725792424
+team, 8732, 0.0618596557224
+follow, 3578, 0.0612351076813
+sure, 8585, 0.0599975608621
+start, 8334, 0.0589726191524
+better, 1060, 0.0557351923918
+help, 4249, 0.0547339040029
+thing, 8869, 0.0508970763834
+peopl, 6530, 0.0505477423009
+need, 5993, 0.0500919249421
+good, 3948, 0.0478913027736
+like, 5272, 0.0392288657356

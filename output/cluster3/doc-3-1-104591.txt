@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104591
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rkoffler@ux4.cso.uiuc.edu (Bighelmet)
+Subject: Re: Best Sportwriters...
+Keywords: Sportswriters
+Organization: University of Illinois at Urbana
+Lines: 21
+
+csc2imd@cabell.vcu.edu (Ian M. Derby) writes:
+
+
+>Since someone brought up sports radio, howabout sportswriting???
+
+I happen to be a big fan of Jayson Stark.  He is a baseball writer for the 
+Philadelphia Inquirer.  Every tuesday he writes a "Week in Review" column.  
+He writes about unusual situations that occured during the week.  Unusual
+stats.  He has a section called "Kinerisms of the Week" which are stupid
+lines by Mets brodcaster Ralph Kiner.  Every year he has the LGTGAH contest.
+That stands for "Last guy to get a hit."  He also writes for Baseball 
+America.  That column is sort of a highlights of "Week in Review."  If you 
+can, check his column out sometime.  He might make you laugh.
+
+Rob Koffler
+
+-- 
+******************************************************************
+|You live day to day and                rkoffler@ux4.cso.uiuc.edu|
+|dream about tomorrow --Don Henley                               |
+******************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best sportwrit        sinc someon brought sport
+radio howabout sportswrit  happen big fan jayson
+stark basebal writer philadelphia inquir everi
+tuesday write week review column write unusu
+situat occur week unusu stat section call kiner
+week stupid line met brodcast ralph kiner everi
+year lgtgah contest stand last guy get hit also
+write basebal america column sort highlight week
+review check column sometim might make laugh  rob
+koffler     dream tomorrow henley
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+column, 1915, 0.37433268705
+week, 9691, 0.294585646325
+kiner, 5023, 0.271414635383
+unusu, 9325, 0.245552196103
+review, 7358, 0.209287057021
+write, 9865, 0.206821834605
+lgtgah, 5240, 0.155937265158
+brodcast, 1330, 0.155937265158
+sportwrit, 8260, 0.151474850911
+koffler, 5058, 0.151474850911
+howabout, 4401, 0.151474850911
+henley, 4256, 0.151474850911
+jayson, 4833, 0.144746094944
+stark, 8332, 0.142075740433
+sportswrit, 8259, 0.142075740433
+inquir, 4663, 0.139720320824
+everi, 3235, 0.136988135432
+basebal, 924, 0.134779211223
+highlight, 4296, 0.129504854019
+ralph, 7082, 0.125858796099
+laugh, 5146, 0.114987599958
+tomorrow, 8979, 0.113140322646
+tuesday, 9147, 0.112560631246
+contest, 2086, 0.111997271373
+dream, 2865, 0.111449347976
+rob, 7434, 0.108914573326
+writer, 9866, 0.104262603603
+philadelphia, 6589, 0.103521853994
+america, 468, 0.0986991065209
+section, 7759, 0.0984154428573
+brought, 1343, 0.0984154428573
+stupid, 8476, 0.0978599084404
+sport, 8257, 0.0967930980266
+occur, 6192, 0.0957803270389
+stat, 8341, 0.0907820037852
+radio, 7061, 0.0892999960426
+met, 5655, 0.088946040732
+sometim, 8128, 0.0879202798426
+stand, 8311, 0.0866296415315
+situat, 7995, 0.0844135810439
+check, 1682, 0.0815518571013
+fan, 3381, 0.079590833571
+sort, 8144, 0.0769204790599
+guy, 4100, 0.0750845160067
+happen, 4159, 0.0704822553646
+hit, 4316, 0.069932448832
+big, 1082, 0.0681190951119
+best, 1052, 0.0668594373693
+line, 5285, 0.066286390912
+someon, 8124, 0.0653483839382
+sinc, 7977, 0.0609615764088
+year, 9943, 0.0502586433813
+make, 5459, 0.0501575157171

@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104774
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: 00pmlemen@leo.bsuvc.bsu.edu
+Subject: Two-sport star trivia!
+Organization: Ball State University, Muncie, In - Univ. Computing Svc's
+Lines: 20
+
+Here's a few two-sport star trivia questions.  I'll admit they're not
+too difficult, but a bit challenging nevertheless.
+
+Mail me your answers please; or post them.
+
+
+1.  Which pitcher played for the Harlem Globetrotters?
+
+2.  Which major leaguer briefly tried professional golf in 1978?
+
+3.  Which does Dieon Sanders have more of (professionally):
+    career touchdowns or triples?
+
+4.  Has there been any player of both pro hockey and baseball?
+    If so, name him and the years he played each.
+
+
+If you have any other two-sport star tidbits, feel free to include them.
+
+Mike
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ two sport star trivia    here two sport star
+trivia question i'll admit they'r difficult bit
+challeng nevertheless  mail answer pleas post
+pitcher play harlem globetrott  major leaguer
+briefli tri profession golf  dieon sander
+profession career touchdown tripl  player pro
+hockey basebal name year play   two sport star
+tidbit feel free includ  mike
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sport, 8257, 0.3960063411
+star, 8324, 0.353788222931
+trivia, 9109, 0.349705667549
+profession, 6900, 0.283357829526
+tidbit, 8921, 0.206574651502
+golf, 3937, 0.20160232019
+leaguer, 5177, 0.187670921792
+hockey, 4334, 0.185071592345
+play, 6681, 0.179880113893
+sander, 7607, 0.171640617476
+briefli, 1309, 0.170166079073
+tripl, 9105, 0.168767192083
+pro, 6883, 0.144891131061
+challeng, 1642, 0.142708180955
+difficult, 2635, 0.132719847678
+admit, 276, 0.132358619654
+career, 1517, 0.126272977962
+mike, 5710, 0.117718809554
+free, 3668, 0.111052000605
+pitcher, 6644, 0.108392994292
+feel, 3429, 0.107226086154
+answer, 535, 0.100659239045
+major, 5458, 0.100103775504
+player, 6683, 0.0941062512305
+includ, 4579, 0.0938427485322
+mail, 5447, 0.093755477043
+bit, 1122, 0.0919844727028
+basebal, 924, 0.0919029410513
+ll, 5314, 0.086393206792
+question, 7032, 0.0825526693009
+pleas, 6688, 0.0802278602688
+post, 6766, 0.0796503690322
+tri, 9087, 0.0789832800403
+year, 9943, 0.0685404981685

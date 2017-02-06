@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38696
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: 8910782@sunvax.sun.ac.za
+Subject: Rayshade query
+Article-I.D.: sunvax.1993Apr23.104107.5742
+Organization: University of Stellenbosch
+Lines: 23
+
+Hi there
+
+I am very interested in Rayshade 4.00. I have managed to make a chessboard
+for Rayshade. Unfortunately I still have to do the knight (horse). Any ideas?
+I am also looking for a surface for the chesspieces. The board is marble.
+Unfortunately black won't work very well for the one side. Anybody with ideas
+for nice surfaces?
+
+I would also like to use the image command of rayshade and the heightfield
+command. Unfortunately the manual is very vague about this, and I don't have
+Craig Kolb's email address. Anybody with ideas, because this is essential
+for my next venture into raytracing.
+
+Where should I post the finished chessboard?
+
+Is there anybody else using rayshade on non-Unix systems?
+
+How fast does Unix render?
+
+Thanks
+
+Rayshade is the best program for people who loves graphics, but have no
+artistic talent.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rayshad queri articl sunvax 1993apr23
+interest rayshad manag make chessboard rayshad
+unfortun still knight hors idea also look surfac
+chesspiec board marbl unfortun black won't work
+well one side anybodi idea nice surfac  also like
+use imag command rayshad heightfield command
+unfortun manual vagu don't craig kolb email
+address anybodi idea essenti next ventur raytrac
+post finish chessboard  anybodi els use rayshad
+non unix system  fast unix render  thank  rayshad
+best program peopl love graphic artist talent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rayshad, 7120, 0.670709185656
+chessboard, 1696, 0.273098096197
+unfortun, 9264, 0.240819675945
+anybodi, 552, 0.206003578927
+idea, 4482, 0.173213070504
+unix, 9284, 0.154657328107
+command, 1933, 0.148218757158
+surfac, 8587, 0.147665024558
+heightfield, 4239, 0.136549048099
+kolb, 5059, 0.127921986888
+marbl, 5502, 0.124842855463
+1993apr23, 45, 0.124842855463
+knight, 5047, 0.111784864276
+queri, 7030, 0.110533294303
+vagu, 9406, 0.10628897911
+artist, 669, 0.100078671641
+hors, 4382, 0.0994412953924
+ventur, 9461, 0.0988271016681
+raytrac, 7121, 0.0971081480895
+craig, 2208, 0.0941200598293
+manual, 5492, 0.0919794179502
+talent, 8683, 0.0897242775576
+essenti, 3196, 0.0859557252642
+render, 7277, 0.0851317342324
+finish, 3488, 0.0817427140023
+board, 1186, 0.0810972163468
+use, 9363, 0.0745977661312
+fast, 3397, 0.0745333790762
+black, 1133, 0.0738325122792
+won, 9820, 0.0720119935574
+email, 3060, 0.0710535255404
+nice, 6047, 0.0683671668434
+love, 5366, 0.0670306588909
+non, 6097, 0.0669391222654
+address, 264, 0.0656224714181
+manag, 5472, 0.0644798206295
+els, 3053, 0.0583852506211
+imag, 4512, 0.0566113751533
+best, 1052, 0.0564634460376
+graphic, 3997, 0.0556020911276
+articl, 665, 0.0544306880747
+program, 6905, 0.0524221790237
+post, 6766, 0.0493237354576
+work, 9833, 0.0478462065578
+thank, 8832, 0.0472952892884
+peopl, 6530, 0.0458210466345
+make, 5459, 0.0423585105335
+look, 5341, 0.0421468728509
+don, 2811, 0.0383069636915
+like, 5272, 0.0355605929062

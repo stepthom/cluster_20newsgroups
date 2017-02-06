@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83617
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: starowl@rahul.net (Michael D. Adams)
+Subject: Re: 14 Apr 93   God's Promise in 1 John 1: 7
+Reply-To: starowl@rahul.net
+Organization: Southeast Alabama Society of Warm and Fuzzy Star Worshippers
+Lines: 14
+Nntp-Posting-Host: bolero
+X-Newsreader: TIN [version 1.1 PL8]
+
+On 15 Apr 1993 22:34:40 GMT, Eric Sieferman observed:
+
+: Christian:  washed in the blood of the lamb.
+: Mithraist:  washed in the blood of the bull.
+
+: If anyone in .netland is in the process of devising a new religion,
+: do not use the lamb or the bull, because they have already been
+: reserved.  Please choose another animal, preferably one not
+: on the Endangered Species List.  
+
+How about "washed in the blood of Barney the Dinosaur"?  :)
+
+--
+Michael D. Adams  (starowl@a2i.rahul.net)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john       gmt eric sieferman observ
+christian wash blood lamb mithraist wash blood
+bull  anyon netland process devis new religion use
+lamb bull alreadi reserv pleas choos anoth anim
+prefer one endang speci list  wash blood barney
+dinosaur
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wash, 9650, 0.469016546573
+blood, 1169, 0.392015321897
+lamb, 5099, 0.333785931881
+bull, 1385, 0.303402037194
+sieferman, 7936, 0.186263762704
+dinosaur, 2659, 0.186263762704
+barney, 915, 0.180933503337
+mithraist, 5786, 0.176578364323
+endang, 3092, 0.169706464809
+devis, 2594, 0.162099518637
+netland, 6013, 0.160021066427
+speci, 8197, 0.147818907546
+reserv, 7309, 0.131866379462
+eric, 3170, 0.121181373659
+gmt, 3917, 0.119664220581
+choos, 1720, 0.119299524465
+promis, 6913, 0.112157710989
+prefer, 6819, 0.109136367526
+anim, 515, 0.103106922686
+religion, 7261, 0.101166679916
+observ, 6179, 0.0993722635327
+process, 6890, 0.096558764664
+alreadi, 443, 0.0957349888391
+john, 4878, 0.0903238930775
+list, 5298, 0.0874864951257
+christian, 1732, 0.0847793979098
+god, 3926, 0.0841895622242
+anoth, 533, 0.076987039695
+pleas, 6688, 0.0702695501025
+new, 6023, 0.0695824327882
+anyon, 554, 0.0641890395641
+use, 9363, 0.0527557282981

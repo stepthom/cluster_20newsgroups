@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104897
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nittmo@camelot.bradley.edu (Christopher Taylor)
+Subject: When Is Melido Due Back?
+Nntp-Posting-Host: camelot.bradley.edu
+Organization: Bradley University
+Distribution: na
+Lines: 6
+
+When are the Yankees planning on activating Melido Perez?  His 15 days on
+the DL are up today, but are they bringing him back this weekend? 
+
+Thanks for any info.
+ 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ melido due back      yanke plan activ melido
+perez day today bring back weekend  thank info
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+melido, 5623, 0.733148989484
+perez, 6537, 0.313406325492
+weekend, 9692, 0.283199907555
+yanke, 9933, 0.225629090573
+activ, 252, 0.20671282114
+bring, 1316, 0.204623471363
+plan, 6660, 0.197652577542
+info, 4636, 0.190530772497
+today, 8964, 0.185000682036
+day, 2402, 0.143510617828
+thank, 8832, 0.135529842808

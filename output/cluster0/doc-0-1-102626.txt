@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102626
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: thf2@kimbark.uchicago.edu (Ted Frank)
+Subject: Re: Young Catchers
+Reply-To: thf2@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 20
+
+In article <C518wo.KFy@news2.cis.umn.edu> kirsch@staff.tc.umn.edu (Dave 'Almost Cursed the Jays' Kirsch) writes:
+>  That brings up an interesting point. Anyone else catch ESPN's piece about
+>prospects and the relationship between age, career length, MVPs and Hall of
+>Fame members? It was part of their preseason special. 
+
+Wow.  ESPN can repeat eleven-year-old Bill James research.  (Literally.
+Check the 1982 Abstract.)  
+
+>  It was the most impressive thing I've seen on ESPN in recent memory. 
+
+Perhaps in 2004 they'll be as reliable as an average SDCN.
+
+>  I guess Ray Knight makes his rebuttal tonight. 
+
+Oops, maybe not.
+-- 
+ted frank                 | "However Teel should have mentioned that though 
+thf2@kimbark.uchicago.edu |  his advice is legally sound, if you follow it 
+the u of c law school     |  you will probably wind up in jail."
+standard disclaimers      |                    -- James Donald, in misc.legal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ young catcher      bring interest point anyon els
+catch espn piec prospect relationship age career
+length mvps hall fame member part preseason
+special  wow espn repeat eleven year old bill jame
+research liter check abstract  impress thing i'v
+seen espn recent memori  perhap they'll reliabl
+averag sdcn  guess ray knight make rebutt tonight
+oop mayb  ted frank howev teel mention though  law
+school probabl wind jail standard disclaim jame
+donald misc legal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+espn, 3192, 0.409364237106
+jame, 4820, 0.22796033289
+mvps, 5938, 0.179556730128
+preseason, 6835, 0.174418404084
+teel, 8746, 0.170220086015
+donald, 2812, 0.160883441902
+rebutt, 7164, 0.158457305551
+sdcn, 7733, 0.154258987481
+knight, 5047, 0.152415844236
+jail, 4818, 0.152415844236
+oop, 6254, 0.14763453306
+liter, 5304, 0.135585699256
+wow, 9856, 0.133159562904
+fame, 3376, 0.133159562904
+abstract, 199, 0.130277431499
+prospect, 6937, 0.129609935554
+relationship, 7248, 0.127716239055
+tonight, 8985, 0.125411617485
+reliabl, 7256, 0.125411617485
+misc, 5757, 0.122336790414
+ted, 8745, 0.121861990135
+catch, 1556, 0.121861990135
+wind, 9773, 0.120493647168
+catcher, 1557, 0.118787163064
+piec, 6624, 0.118379594943
+legal, 5200, 0.115355321125
+repeat, 7286, 0.115003757079
+length, 5212, 0.113980166445
+disclaim, 2691, 0.113000146301
+hall, 4128, 0.111755140521
+impress, 4554, 0.110863661538
+school, 7685, 0.108379302658
+career, 1517, 0.106616814478
+memori, 5628, 0.104312192908
+age, 328, 0.103032586073
+young, 9962, 0.10282606453
+special, 8198, 0.102621378758
+member, 5625, 0.102018016789
+law, 5153, 0.0988688690588
+frank, 3655, 0.0985251761456
+averag, 816, 0.0980190679111
+bring, 1316, 0.0973611089295
+ray, 7118, 0.0962530671085
+standard, 8313, 0.0943268580763
+check, 1682, 0.0939043325024
+mention, 5632, 0.0921580092916
+recent, 7168, 0.0915201015264
+guess, 4079, 0.0892454591268
+perhap, 6540, 0.0891317453268
+research, 7307, 0.0885714501009
+old, 6216, 0.0870714875395
+seen, 7767, 0.0854689629692
+mayb, 5564, 0.080603148955
+els, 3053, 0.0796068172732
+howev, 4406, 0.0793828900852
+probabl, 6885, 0.0753087070751
+ll, 5314, 0.0729448901055
+point, 6710, 0.064997229664
+thing, 8869, 0.0629076107498
+anyon, 554, 0.0618777044274
+year, 9943, 0.0578712064562
+make, 5459, 0.0577547612134

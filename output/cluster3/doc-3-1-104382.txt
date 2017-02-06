@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104382
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: g_waugaman@nac.enet.dec.com (Glenn R. Waugaman)
+Subject: Re: I've found the secret!
+Article-I.D.: nntpd.1993Apr15.193907.24177
+Organization: Digital Equipment Corporation
+Lines: 23
+
+
+In article <1993Apr15.161730.9903@cs.cornell.edu>, tedward@cs.cornell.edu (Edward [Ted] Fischer) writes...
+> 
+>Why are the Red Sox in first place?  Eight games into the season, they
+>already have two wins each from Clemens and Viola.  Clemens starts
+>again tonight, on three days rest.
+> 
+>What's up?  Are the Sox going with a four-man rotation?  Is this why
+>Hesketh was used in relief last night?
+
+Clemens is going on his normal four days' rest (last pitched Saturday). 
+Hesketh only pitched one inning yesterday afternoon, his first outing
+since an aborted 1-1/3 inning start 6 days before, so he should be plenty
+rested to go in his expected turn this Saturday, as the 5th starter.  Not
+that this is a good thing, of course.  I'd like to see a well-managed
+four-man rotation with this team... 
+
+---
+Glenn Waugaman
+Digital Equipment Corporation
+Littleton, MA
+g_waugaman@nac.enet.dec.com
+---
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ i'v found secret articl nntpd 1993apr15
+cornel edu edward ted fischer write  red sox first
+place eight game season alreadi two win clemen
+viola clemen start tonight three day rest  what
+sox go four man rotat hesketh use relief last
+night  clemen go normal four day rest last pitch
+saturday hesketh pitch one inning yesterday
+afternoon first outing sinc abort inning start day
+plenti rest expect turn saturday 5th starter good
+thing cours i'd like see well manag four man rotat
+team   glenn waugaman digit equip corpor littleton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clemen, 1807, 0.345554182799
+hesketh, 4278, 0.306158101861
+rest, 7324, 0.271004101053
+saturday, 7639, 0.244601708965
+rotat, 7490, 0.196292760228
+sox, 8162, 0.195402233672
+inning, 4657, 0.194963903852
+day, 2402, 0.188144914096
+1993apr15, 42, 0.160195177813
+fischer, 3504, 0.156339218271
+pitch, 6643, 0.154413289709
+outing, 6326, 0.150254965525
+glenn, 3900, 0.150254965525
+man, 5471, 0.146092749346
+cornel, 2147, 0.139986851715
+5th, 123, 0.138419525572
+afternoon, 324, 0.136960379841
+start, 8334, 0.133889924624
+viola, 9525, 0.127920270395
+edward, 3003, 0.127020167553
+abort, 187, 0.122300854483
+plenti, 6692, 0.120935914808
+secret, 7755, 0.120285118089
+relief, 7257, 0.120285118089
+tonight, 8985, 0.1151847276
+ted, 8745, 0.11192456026
+yesterday, 9952, 0.109869622327
+starter, 8335, 0.109100474854
+equip, 3161, 0.106609454987
+corpor, 2154, 0.106609454987
+digit, 2642, 0.101823107868
+normal, 6108, 0.0968377633076
+night, 6063, 0.0858656768824
+alreadi, 443, 0.084761988671
+red, 7194, 0.084642837795
+turn, 9158, 0.0841728356853
+expect, 3290, 0.0819677961675
+season, 7747, 0.0814506744509
+manag, 5472, 0.0807473100005
+win, 9770, 0.07687488551
+edu, 3001, 0.0749867126814
+write, 9865, 0.0729094860103
+place, 6657, 0.0724372349002
+cours, 2190, 0.0723706231143
+team, 8732, 0.0702222892676
+articl, 665, 0.0681629012085
+sinc, 7977, 0.0644711020597
+game, 3761, 0.0641080163261
+thing, 8869, 0.0577777095415
+good, 3948, 0.0543655938186
+use, 9363, 0.0467089462124
+like, 5272, 0.0445321061871

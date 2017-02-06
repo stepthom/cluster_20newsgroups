@@ -1,0 +1,220 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104797
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mss@netcom.com (Mark Singer)
+Subject: Re: Young Catchers
+Keywords: Solid != good
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 64
+
+In article <1qlnknINN2sh@aludra.usc.edu> sheehan@aludra.usc.edu (Joseph Sheehan) writes:
+
+
+Most of the points you made about Lopez v. Berryhill/Olson have been
+made by others, and realizing that Lopez must be the second coming of
+Frank Thomas, I have relented and praised the unmistakeable wisdom of
+his supporters.
+
+>
+>Nope. They're baseball management, possible the most short-sighted 
+>collection of people in the nation. Do you not believe this goes on,
+>Mark? Do you think Frank Thomas needed those three months in AAA in
+>1990?
+
+See?  This is essentially what everyone was doing  -  comparing Lopez
+to one of the best players in the game.  I'm really looking forward
+to seeing this can't-miss superstar now.  As for Thomas, I remember
+being an advocate of his being brought up in 1990 even though he was
+only 21 or 22 (can't remember).  But who did the Sox have at first?
+Calderon?  Martinez?  Kittle?  The spot was there.  The talent was
+there.  Sure, I say go for it.
+
+I am not convinced that Lopez is anywhere near as talented as Thomas
+was after his AA season in 1989, and I am not convinced that Olson/
+Berryhill are nearly as bad as Kittle/Martinez were.
+
+BTW, I don't think Thomas was hurt by those three months.
+
+
+
+
+
+>Or Cal Eldred wasn't *really* better than Ricky Bones last year?
+
+Well, if we can't compare our guy to one of the best in the game,
+let's compare our decision to one of the most "Boneshead", right?
+
+Cal Eldred was 24 when he came up, with a full season at AAA and a
+longer minor league career.  Frankly, I don't know why he didn't
+make the club in 1992.  Bones is a year younger with a lousy prior
+history, and just watching him makes me think that I missed a 
+career as a big-league pitcher.  No one -  I repeat NO ONE  -
+laughed louder than I did at the Sheffield trade.  (Though I guess
+Mieske has a future.)
+
+(I take it back. McIlvaine may have laughed louder.)
+
+
+>
+>You're mostly polite; make defensible, if flawed cases; have wit and
+>have, in the past, admitted being wrong. That does qualify you on r.s.b.
+>We'll make an SDCN out of you, yet :-)
+
+
+aw, gee, shucks.  thanks guy.  except I missed the part where SDCN's
+admit they're wrong.
+
+
+
+--	The Beastmaster
+
+-- 
+Mark Singer    
+mss@netcom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ young catcher        point made lopez berryhil
+olson made other realiz lopez must second come
+frank thoma relent prais unmistak wisdom support
+nope they'r basebal manag possibl short sight
+collect peopl nation believ goe mark think frank
+thoma need three month aaa   see essenti everyon
+compar lopez one best player game i'm realli look
+forward see can't miss superstar thoma rememb
+advoc brought even though can't rememb sox first
+calderon martinez kittl spot talent sure say
+convinc lopez anywher near talent thoma season
+convinc olson berryhil near bad kittl martinez
+btw don't think thoma hurt three month      cal
+eldr wasn't realli better ricki bone last year
+well can't compar guy one best game let compar
+decis one boneshead right  cal eldr came full
+season aaa longer minor leagu career frank don't
+know didn't make club bone year younger lousi
+prior histori watch make think miss career big
+leagu pitcher one repeat one laugh louder
+sheffield trade though guess miesk futur  take
+back mcilvain laugh louder    you'r most polit
+make defens flaw case wit past admit wrong qualifi
+we'll make sdcn yet   gee shuck thank guy except
+miss part sdcn admit they'r wrong    beastmast
+mark singer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lopez, 5346, 0.324851069469
+thoma, 8878, 0.314423243769
+louder, 5362, 0.19754590814
+eldr, 3028, 0.187273857413
+sdcn, 7733, 0.169713670711
+berryhil, 1049, 0.167685869213
+frank, 3655, 0.162594117601
+bone, 1213, 0.160889670913
+miss, 5770, 0.160673080875
+compar, 1960, 0.159878606125
+martinez, 5524, 0.15807188131
+olson, 6226, 0.153231689036
+cal, 1449, 0.153231689036
+laugh, 5146, 0.145669669373
+aaa, 157, 0.140511694607
+talent, 8683, 0.134593297305
+make, 5459, 0.127082028562
+admit, 276, 0.122951507905
+convinc, 2120, 0.121337331828
+career, 1517, 0.117298390454
+month, 5847, 0.104410527972
+mark, 5512, 0.103159212192
+near, 5982, 0.102555993354
+leagu, 5176, 0.101677269627
+season, 7747, 0.0975672141774
+calderon, 1453, 0.0959463953444
+guy, 4100, 0.0951192704754
+ricki, 7390, 0.0936369287066
+rememb, 7269, 0.0932974375452
+wrong, 9869, 0.0929891092655
+superstar, 8568, 0.0916843024867
+lousi, 5365, 0.0885009033433
+think, 8871, 0.087033646407
+best, 1052, 0.084699499247
+sheffield, 7871, 0.0820302766298
+prais, 6798, 0.0820302766298
+beastmast, 973, 0.079035940655
+younger, 9963, 0.0783862086418
+game, 3761, 0.0767929866946
+nope, 6105, 0.076076742004
+realli, 7150, 0.0751748181831
+flaw, 3531, 0.0750628412551
+advoc, 296, 0.0750628412551
+wisdom, 9798, 0.0745847846286
+singer, 7981, 0.0741241157841
+sight, 7943, 0.0720428895038
+gee, 3806, 0.0712975570585
+prior, 6874, 0.0705936539131
+qualifi, 7015, 0.0683988215159
+anywher, 557, 0.0683988215159
+club, 1842, 0.0670354642008
+wit, 9802, 0.0655722627904
+catcher, 1557, 0.0653440224327
+essenti, 3196, 0.0644700899272
+decis, 2445, 0.0644700899272
+hurt, 4451, 0.0640547413354
+year, 9943, 0.0636691257767
+repeat, 7286, 0.0632627961525
+trade, 9033, 0.0625174637072
+brought, 1343, 0.0623377869764
+spot, 8261, 0.0618135605618
+polit, 6723, 0.0614757539524
+collect, 1898, 0.0611467225405
+btw, 1355, 0.0597634954218
+sox, 8162, 0.0585165553014
+minor, 5745, 0.0582553708494
+realiz, 7149, 0.0581267707892
+forward, 3621, 0.0575026545525
+don, 2811, 0.0574633833043
+young, 9962, 0.0565639290814
+longer, 5337, 0.0565639290814
+wasn, 9652, 0.0549718368199
+histori, 4314, 0.0547739109627
+defens, 2476, 0.0547739109627
+goe, 3931, 0.0541045554025
+past, 6456, 0.0535576936251
+futur, 3737, 0.0534688020523
+watch, 9655, 0.0525300765813
+came, 1472, 0.0510564109017
+everyon, 3241, 0.0504837937636
+pitcher, 6644, 0.0503445945921
+short, 7904, 0.0500707029023
+nation, 5962, 0.0498691018755
+guess, 4079, 0.04909332905
+manag, 5472, 0.0483623379559
+bad, 861, 0.0466487187726
+second, 7753, 0.0440833444991
+case, 1540, 0.0440411913915
+player, 6683, 0.0437089232357
+support, 8576, 0.0436272003901
+big, 1082, 0.0431476353388
+basebal, 924, 0.0426855659749
+didn, 2625, 0.0423129803752
+possibl, 6765, 0.0415299391534
+sure, 8585, 0.0407924983038
+ll, 5314, 0.0401264952581
+let, 5225, 0.0400035137374
+believ, 1009, 0.0391173484958
+right, 7399, 0.0385319705439
+better, 1060, 0.0378945028504
+come, 1923, 0.0367320313491
+point, 6710, 0.0357545405049
+thank, 8832, 0.0354732805079
+peopl, 6530, 0.0343675419875
+need, 5993, 0.0340576305749
+say, 7653, 0.0321597924903
+look, 5341, 0.0316117707633
+know, 5052, 0.0272844940305

@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102642
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: djs9683@ritvax.isc.rit.edu
+Subject: Re: Finnally, the Phils have support
+Nntp-Posting-Host: vaxc.isc.rit.edu
+Reply-To: djs9683@ritvax.isc.rit.edu
+Organization: Rochester Institute of Technology
+
+The Phillies were picked to be in first.
+Someone replied that the people who picked them were the same people who
+picked the Mets last year.
+
+My reply:  Yeah, that may be true, but this IS the Phillies.
+
+Fritz
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ finnal phil support     philli pick first someon
+repli peopl pick peopl pick met last year  repli
+yeah true philli  fritz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pick, 6619, 0.577288576551
+philli, 6593, 0.410514864341
+repli, 7290, 0.371004964902
+finnal, 3492, 0.323771144431
+peopl, 6530, 0.231946564759
+yeah, 9942, 0.2134803276
+phil, 6588, 0.210358883814
+met, 5655, 0.190118433701
+true, 9121, 0.15247854404
+support, 8576, 0.147220002876
+someon, 8124, 0.139679431451
+year, 9943, 0.107425743529

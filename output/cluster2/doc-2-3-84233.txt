@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84233
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: kring@efes.physik.uni-kl.de (Thomas Kettenring)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: FB Physik, Universitaet Kaiserslautern, Germany
+Lines: 23
+
+In article <C5v6rB.37F@darkside.osrhe.uoknor.edu>, bil@okcforum.osrhe.edu (Bill Conner) writes:
+>I've seen referrences to "Creation vs Evolution" several times in a.a
+>and I have question. Is either point of view derived from direct
+>observation; can either be scientific? I wonder if the whole
+>controversy is more concerned with the consequences of the "Truth"
+>rather than the truth itself. 
+>Both sides seem to hold to a philosophical outcome, and I can't help
+>wondering which came first. As I've pointed out elsewhere, my view of
+>human nature makes me believe that there is no way of knowing
+>anyhthing objectively - all knowledge is inherently subjective. So, in
+>the context of a.a, would you take a stand based on what you actually
+>know to be true or on what you want to be true and how can you tell
+>the difference?
+
+Translation of the above paragraph:
+"I am uninformed about the evidence for evolution.  Please send me the
+talk.origins FAQs on the subject."
+
+--
+thomas kettenring, 3 dan, kaiserslautern, germany
+Johannes Scotus Eriugena, the greatest European philosopher of the 9th century,
+said that if reason and authority conflict, reason should be given preference.
+And if that doesn't sound reasonable to you, you'll just have to accept it...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral     i'v seen referr
+creation evolut sever time question either point
+view deriv direct observ either scientif wonder
+whole controversi concern consequ truth rather
+truth side seem hold philosoph outcom can't help
+wonder came first i'v point elsewher view human
+natur make believ way know anyhth object knowledg
+inher subject context take stand base actual know
+true want true tell differ  translat paragraph
+uninform evid evolut pleas send talk origin faq
+thoma kettenr dan kaiserslautern germani johann
+scotus eriugena greatest european philosoph 9th
+centuri said reason author conflict reason given
+prefer doesn't sound reason you'll accept
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+evolut, 3248, 0.283103117771
+philosoph, 6595, 0.25604571783
+reason, 7156, 0.226460370765
+truth, 9132, 0.21771047871
+view, 9510, 0.182816040213
+wonder, 9821, 0.169951701843
+true, 9121, 0.166964952535
+outcom, 6323, 0.151554989778
+controversi, 2108, 0.151554989778
+9th, 152, 0.150044601017
+paragraph, 6418, 0.141551558886
+conflict, 2034, 0.139600187165
+inher, 4644, 0.137799075371
+germani, 3855, 0.135333333424
+elsewher, 3055, 0.134565956375
+consequ, 2057, 0.133102798514
+point, 6710, 0.132116560943
+greatest, 4018, 0.131066479683
+european, 3222, 0.127458906249
+dan, 2350, 0.126908224296
+subject, 8487, 0.126370202827
+deriv, 2550, 0.122915091842
+creation, 2218, 0.118344300021
+translat, 9057, 0.117969845582
+context, 2087, 0.117238445333
+thoma, 8878, 0.116182496154
+centuri, 1614, 0.115172141996
+scientif, 7693, 0.110686567942
+faq, 3385, 0.109364018157
+prefer, 6819, 0.106924007827
+moral, 5855, 0.104926339547
+knowledg, 5053, 0.104296627032
+hold, 4341, 0.102312141895
+stand, 8311, 0.101379631955
+concern, 2004, 0.101197507276
+know, 5052, 0.100818902088
+natur, 5966, 0.0991158778725
+evid, 3245, 0.0986231669755
+observ, 6179, 0.0973578370311
+accept, 208, 0.0961574250289
+author, 796, 0.0960116120764
+came, 1472, 0.0943292422044
+sound, 8150, 0.0918905712882
+human, 4432, 0.0903573392814
+send, 7785, 0.0899050951954
+direct, 2667, 0.0896822087186
+seen, 7767, 0.0868642056991
+sever, 7823, 0.0863776413296
+object, 6173, 0.0861858131803
+given, 3887, 0.0839987377133
+origin, 6293, 0.0832285543929
+christian, 1732, 0.0830607909277
+talk, 8684, 0.079144811873
+said, 7583, 0.0779055451438
+tell, 8767, 0.0764749223867
+doesn, 2793, 0.0759139737512
+actual, 254, 0.0752461413153
+ll, 5314, 0.0741356829274
+base, 923, 0.0732397686217
+believ, 1009, 0.0722712344149
+differ, 2633, 0.0720613414997
+question, 7032, 0.070840043371
+pleas, 6688, 0.0688450797428
+help, 4249, 0.0687541945677
+want, 9634, 0.0637507079551
+way, 9666, 0.0612191350138
+say, 7653, 0.0594168058719
+year, 9943, 0.0588159281104
+make, 5459, 0.0586975819509
+time, 8936, 0.0556057841109

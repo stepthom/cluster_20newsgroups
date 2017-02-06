@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38710
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: prestonm@cs.man.ac.uk (Martin Preston)
+Subject: Problems grabbing a block of a Starbase screen.
+Keywords: Starbase, HP
+Lines: 26
+
+At the moment i'm trying to grab a portion of a Starbase screen, and store it
+in an area of memory. The data needs to be in a 24-bit format (which
+shouldn't be a problem as the app is running on a 24 bit screen), though
+i'm not too fussy about the exact format.
+
+(I actually intend to write the data out as a TIFF but that bits not the
+problem)
+
+Does anyone out there know how to grab a portion of the screen? The
+block_read call seems to grab the screen, but not in 24 bit colour,
+whatever the screen/window type i get 1 byte per pixel. 
+
+thanks in advance,
+
+Martin
+
+
+
+
+--
+---------------------------------------------------------------------------
+|Martin Preston,      (m.preston@manchester.ac.uk)    | Computer Graphics |
+|Computer Graphics Unit, Manchester Computing Centre, |    is just        |
+|University of Manchester,                            |  a load of balls. |
+|Manchester, U.K., M13 9PL     Phone : 061 275 6095   |                   |
+---------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ problem grab block starbas screen    moment i'm
+tri grab portion starbas screen store area memori
+data need bit format shouldn't problem app run bit
+screen though i'm fussi exact format  actual
+intend write data tiff bit problem  anyon know
+grab portion screen block read call seem grab
+screen bit colour whatev screen window type get
+byte per pixel  thank advanc  martin        comput
+graphic unit manchest comput centr univers
+manchest load ball manchest m13 9pl phone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+screen, 7719, 0.487497921801
+grab, 3973, 0.416790847056
+manchest, 5473, 0.342977855128
+starbas, 8325, 0.248202583585
+bit, 1122, 0.235664623319
+portion, 6752, 0.194699081082
+block, 1163, 0.184885503956
+problem, 6887, 0.164866947039
+format, 3612, 0.139819479172
+9pl, 151, 0.136209151441
+data, 2385, 0.1293786983
+comput, 1993, 0.121120244027
+app, 576, 0.111993432144
+colour, 1912, 0.0993480547288
+byte, 1438, 0.0968837009594
+martin, 5523, 0.0959877123053
+centr, 1610, 0.0947244186721
+shouldn, 7912, 0.0907455005685
+store, 8417, 0.0886163354423
+pixel, 6651, 0.0880528043441
+tiff, 8926, 0.0867187250403
+intend, 4700, 0.0857202847784
+moment, 5828, 0.0830275885539
+load, 5317, 0.0812496536334
+unit, 9278, 0.0792968870471
+memori, 5628, 0.0791297283641
+phone, 6601, 0.0766522457335
+whatev, 9718, 0.0762244378433
+window, 9774, 0.0726679816623
+area, 622, 0.0710240154782
+exact, 3253, 0.0693306385168
+ball, 877, 0.0683163829989
+type, 9177, 0.0682270326809
+advanc, 285, 0.0660511773857
+write, 9865, 0.0602187180049
+univers, 9282, 0.0580489554719
+graphic, 3997, 0.0575099297028
+actual, 254, 0.0561637910619
+read, 7135, 0.0531736800794
+run, 7543, 0.0526179190224
+tri, 9087, 0.0505888776449
+thank, 8832, 0.048918101947
+need, 5993, 0.0469659028058
+anyon, 554, 0.0469395360852
+know, 5052, 0.0376256619475

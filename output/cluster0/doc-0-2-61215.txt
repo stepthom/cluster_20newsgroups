@@ -1,0 +1,242 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61215
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: Re: Gamma Ray Bursters.  WHere  are they.
+Organization: Lick Observatory/UCO
+Lines: 56
+NNTP-Posting-Host: topaz.ucsc.edu
+In-reply-to: prb@access.digex.com's message of 23 Apr 1993 23:58:19 -0400
+
+In article <1radsr$att@access.digex.net> prb@access.digex.com (Pat) writes:
+
+     What  evidence  indicates that Gamma Ray bursters are very far away?
+
+Their distribution is very isotropic and the intensity distribution,
+crudely speaking, indicates we're seeing an edge to the distribution.
+
+   Given the enormous  power,  i was just wondering,  what if they are
+   quantum  black holes or something  like that  fairly close by?
+
+   Why would they have to be at  galactic ranges?   
+
+Now, in the good old days before GRO data, it was thought the
+gamma bursters were neutron stars in the galaxy, it was expected that
+GRO would confirm this by either showing they were a local population
+(within a few hundred light years) or that they were in the galactic
+halo. (Mechanism was not known but several plausible ones existed)
+(also to be fair it was noted that the _brightest_ burster was
+probably in the LMC, suggesting theorists might be wrong back then...)
+	As the Sun is not at the center of the galaxy a halo
+population should show anisotropy (a local disk population is
+ruled out completely at this stage) - to avoid the anisotropy you
+have to push the halo out, the energy then gets large, the mechanism
+of getting NS out that far becomes questionable, and we should start
+to see for example the Andromeda's bursters.
+	The data is consistent with either a Oort cloud distribution
+(but only just) - but no one can think of a plausible source with
+the right spectrum. Or, it can be a cosmological distances (hence
+isotropy) and the edge is "the edge of the Universe" ;-)
+If at cosmological distances you need very high energy (to detect)
+and a very compact source (for spectrum), ergo a neutron star
+colliding with another neutron star or black hole. Even then getting
+the spectrum is very hard, but conceivable.
+
+	If we know anything about physics at that level,
+the bursters are not due to quantum black holes or cosmic
+strings, wrong spectrum for one thing.
+
+The situation is further complicated by recent claims that
+there are two classes of sources ;-)  [in the colliding NS
+they'd actually probably fit relatively easily into the
+NS-NS and NS-BH collision scenarios respectively]
+
+   my own pet theory is that it's  Flying saucers  entering
+   hyperspace :-)
+
+   but the reason i am asking is that most everyone assumes  that they
+   are  colliding nuetron stars  or  spinning black holes,  i just wondered
+   if any mechanism could exist  and place them  closer in.
+
+If you can think of one, remember to invite me to Stockholm...
+
+*  Steinn Sigurdsson   			Lick Observatory      	*
+*  steinly@lick.ucsc.edu		"standard disclaimer"  	*
+*  The laws of gravity are very,very strict			*
+*  And you're just bending them for your own benefit - B.B. 1988*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster        evid indic gamma ray
+burster far away  distribut isotrop intens
+distribut crude speak indic we'r see edg distribut
+given enorm power wonder quantum black hole someth
+like fair close  galact rang  good old day gro
+data thought gamma burster neutron star galaxi
+expect gro confirm either show local popul within
+hundr light year galact halo mechan known sever
+plausibl one exist also fair note brightest
+burster probabl lmc suggest theorist might wrong
+back sun center galaxi halo popul show anisotropi
+local disk popul rule complet stage avoid
+anisotropi push halo energi get larg mechan get
+far becom question start see exampl andromeda
+burster data consist either oort cloud distribut
+one think plausibl sourc right spectrum cosmolog
+distanc henc isotropi edg edg univers cosmolog
+distanc need high energi detect compact sourc
+spectrum ergo neutron star collid anoth neutron
+star black hole even get spectrum hard conceiv
+know anyth physic level burster due quantum black
+hole cosmic string wrong spectrum one thing
+situat complic recent claim two class sourc collid
+they'd actual probabl fit relat easili collis
+scenario respect  pet theori it fli saucer enter
+hyperspac  reason ask everyon assum collid nuetron
+star spin black hole wonder mechan could exist
+place closer  think one rememb invit stockholm
+steinn sigurdsson lick observatori  law graviti
+strict you'r bend benefit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+burster, 1418, 0.324529815886
+spectrum, 8213, 0.245533428911
+halo, 4133, 0.226655961852
+collid, 1901, 0.205403016768
+hole, 4343, 0.196826829146
+neutron, 6022, 0.192970840863
+distribut, 2753, 0.191497374096
+black, 1133, 0.178726864526
+star, 8324, 0.176779733454
+popul, 6745, 0.175329302503
+anisotropi, 517, 0.159392091838
+mechan, 5603, 0.152671767483
+gamma, 3762, 0.150042026493
+gro, 4056, 0.147952978623
+edg, 2993, 0.146105664979
+cosmolog, 2166, 0.133784348567
+plausibl, 6680, 0.131054831725
+galact, 3749, 0.125496231297
+quantum, 7025, 0.123636676058
+sourc, 8153, 0.113168422981
+galaxi, 3753, 0.109468046002
+distanc, 2744, 0.100028017662
+energi, 3102, 0.0994755242365
+indic, 4600, 0.0890337313685
+local, 5322, 0.0870112986756
+fair, 3363, 0.0865716900698
+ray, 7118, 0.0854436238693
+theorist, 8849, 0.0796960459189
+stockholm, 8403, 0.0796960459189
+andromeda, 506, 0.0796960459189
+nuetron, 6153, 0.0774154058783
+hyperspac, 4461, 0.0774154058783
+data, 2385, 0.075699544205
+brightest, 1314, 0.0755519872841
+wrong, 9869, 0.0750292870327
+wonder, 9821, 0.0742212366707
+exist, 3283, 0.0732919397222
+saucer, 7643, 0.0726117308907
+pet, 6573, 0.0693569725704
+sigurdsson, 7952, 0.0684676722559
+isotrop, 4788, 0.0684676722559
+far, 3386, 0.068281388538
+steinn, 8371, 0.0676495952691
+scenario, 7670, 0.0676495952691
+lick, 5255, 0.0668921742833
+probabl, 6885, 0.0668513641665
+bend, 1024, 0.0661870322153
+invit, 4748, 0.0649078015418
+compact, 1956, 0.0643236136211
+conceiv, 2000, 0.0637710192531
+oort, 6255, 0.0622726575422
+string, 8450, 0.0609661357813
+enorm, 3117, 0.0609661357813
+cosmic, 2164, 0.0609661357813
+strict, 8445, 0.0601795549863
+confirm, 2032, 0.0598078592551
+henc, 4252, 0.058767588601
+spin, 8235, 0.0569592672085
+intens, 4701, 0.0569592672085
+collis, 1903, 0.0564212216061
+complic, 1978, 0.0561624607937
+detect, 2579, 0.0551883425139
+cloud, 1835, 0.0551883425139
+push, 6996, 0.0547340230008
+observatori, 6180, 0.0538818207531
+disk, 2720, 0.0523648931766
+graviti, 4010, 0.0520184021589
+closer, 1831, 0.0520184021589
+stage, 8302, 0.0518494643265
+avoid, 827, 0.0518494643265
+benefit, 1028, 0.0510442838792
+hundr, 4440, 0.0497377621183
+enter, 3125, 0.0496023891967
+class, 1789, 0.0489511813233
+easili, 2962, 0.0483389919984
+theori, 8848, 0.0472147271713
+think, 8871, 0.0468160374862
+consist, 2061, 0.0465951128506
+respect, 7321, 0.0462988455515
+rang, 7094, 0.0462019679905
+fit, 3510, 0.0461060000914
+speak, 8192, 0.045019614878
+physic, 6613, 0.0444354269573
+law, 5153, 0.0438828325893
+fli, 3542, 0.0436548564572
+situat, 7995, 0.0431418918642
+evid, 3245, 0.0430706685365
+rule, 7537, 0.0426534470901
+sun, 8539, 0.0422525915497
+level, 5229, 0.0419301513652
+center, 1606, 0.0412546769702
+becom, 983, 0.0409618057522
+known, 5054, 0.0408469673961
+everyon, 3241, 0.0407334050482
+light, 5267, 0.0406770935771
+recent, 7168, 0.0406210906635
+away, 833, 0.0405099971114
+claim, 1782, 0.0398159102162
+assum, 710, 0.0396622154979
+expect, 3290, 0.0396114932789
+complet, 1975, 0.0395107978224
+relat, 7247, 0.039069556374
+suggest, 8525, 0.0389740369295
+close, 1830, 0.0387390724169
+hard, 4167, 0.0386927208356
+old, 6216, 0.0386465785173
+power, 6783, 0.0379352998498
+larg, 5124, 0.0378497721025
+sever, 7823, 0.0377228076603
+rememb, 7269, 0.0376390325506
+exampl, 3258, 0.0370710805446
+note, 6118, 0.0368756538227
+given, 3887, 0.0366838938607
+thought, 8887, 0.0356718515814
+ask, 689, 0.0354001942295
+anyth, 555, 0.0350380772301
+place, 6657, 0.0350057849247
+high, 4292, 0.0345640893829
+univers, 9282, 0.0339644742801
+reason, 7156, 0.0329665597006
+anoth, 533, 0.0329401841862
+actual, 254, 0.0328614635955
+start, 8334, 0.0323516069563
+right, 7399, 0.0310899448409
+question, 7032, 0.0309372343305
+day, 2402, 0.0303074351499
+someth, 8126, 0.0300858982641
+thing, 8869, 0.0279214698965
+need, 5993, 0.0274797743547
+good, 3948, 0.0262725418376
+year, 9943, 0.025686067706
+know, 5052, 0.0220147945316
+like, 5272, 0.0215204422639

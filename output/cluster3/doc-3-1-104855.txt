@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104855
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: csc2imd@cabell.vcu.edu (Ian M. Derby)
+Subject: Phils winning the hard way
+Summary: Phils
+Keywords: Phils
+Organization: Virginia Commonwealth University
+Expires: Fri, 30 Apr 1993 04:00:00 GMT
+Lines: 9
+
+
+The Phillies have won two games back to back in extra innings.  Last
+night's game was hard fought.  The game in Chicago should have been a
+blow out.  All in all these two games show a different Phillies team.
+In past seasons they tended to always be on the short end of 1 run
+games.  I don't know how many times I saw them losing by only 1 run.
+If they were able to win most of those, they might have been more of
+a contending team.  They are 3-0 so far in extra innings.  And of
+course, they are 10-3.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ phil win hard way phil   expir fri gmt    philli
+two game back back extra inning last night game
+hard fought game chicago blow two game show differ
+philli team past season tend alway short end run
+game don't know mani time saw lose run abl win
+might contend team far extra inning cours
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.428577197826
+phil, 6588, 0.278322854323
+philli, 6593, 0.27157319604
+extra, 3325, 0.263668956572
+inning, 4657, 0.260675929091
+hard, 4167, 0.214105600302
+fought, 3625, 0.209032903891
+win, 9770, 0.205570690863
+team, 8732, 0.18778102137
+fri, 3689, 0.181297494806
+run, 7543, 0.170358149011
+contend, 2083, 0.164480658574
+blow, 1172, 0.160826872535
+expir, 3300, 0.145872477341
+chicago, 1701, 0.142096542041
+gmt, 3917, 0.14165812225
+tend, 8783, 0.140382228686
+saw, 7650, 0.124557687604
+lose, 5350, 0.12432105434
+past, 6456, 0.119560950779
+night, 6063, 0.114806457278
+short, 7904, 0.111776673713
+season, 7747, 0.108903390926
+alway, 457, 0.106798046085
+abl, 180, 0.103453349174
+end, 3091, 0.0974834193911
+cours, 2190, 0.0967629342998
+far, 3386, 0.0944585142026
+differ, 2633, 0.0870710481931
+mani, 5479, 0.0802110380022
+way, 9666, 0.0739705110146
+time, 8936, 0.0671879513672
+don, 2811, 0.0641399608329
+know, 5052, 0.0609092704896

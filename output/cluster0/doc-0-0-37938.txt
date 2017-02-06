@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37938
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: (None set)
+Organization: The University of Birmingham, United Kingdom
+Lines: 5
+NNTP-Posting-Host: ibm3090.bham.ac.uk
+
+==============================================================================
+Bear with me i'm new at this game, but could anyone explain exactly what DMORF
+does, does it simply fade one bitmap into another or does it re shape one bitma
+p into another. Please excuse my ignorance, i' not even sure if i've posted thi
+s message correctly.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ none set      bear i'm new game could anyon
+explain exact dmorf simpli fade one bitmap anoth
+shape one bitma anoth pleas excus ignor even sure
+i'v post thi messag correct
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dmorf, 2779, 0.340995528551
+thi, 8862, 0.322291778784
+fade, 3356, 0.309021257135
+anoth, 533, 0.297343747554
+bitmap, 1126, 0.258343235952
+excus, 3268, 0.25465093606
+shape, 7853, 0.238793056514
+bear, 971, 0.232528650545
+ignor, 4496, 0.205987607245
+messag, 5650, 0.190702393227
+simpli, 7967, 0.188961465003
+explain, 3301, 0.186467391513
+exact, 3253, 0.18308740915
+correct, 2156, 0.177654181033
+set, 7815, 0.165226994075
+sure, 8585, 0.148553137231
+game, 3761, 0.139827659069
+pleas, 6688, 0.135699537541
+post, 6766, 0.134722753497
+new, 6023, 0.134372625647
+anyon, 554, 0.123957289769

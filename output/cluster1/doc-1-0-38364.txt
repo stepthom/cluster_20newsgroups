@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38364
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: seth@north1.acpub.duke.edu (Seth Wandersman)
+Subject: Oak Driver NEEDED (30d studio)
+Reply-To: seth@north1.acpub.duke.edu (Seth Wandersman)
+Lines: 8
+Nntp-Posting-Host: north1.acpub.duke.edu
+
+
+	Hi, I'm looking for the 3-D studio driver for the
+	Oak card with 1 M of RAM.
+	This would be GREATLY (and I mean that) appreciated
+
+	Maybe I should have just gotten a more well know card.
+thanks
+seth@acpub.duke.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oak driver need 30d studio      i'm look studio
+driver oak card ram great mean appreci  mayb
+gotten well know card thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+studio, 8470, 0.501959943093
+oak, 6166, 0.477188102598
+driver, 2876, 0.417029218554
+card, 1513, 0.356325078473
+ram, 7083, 0.221325540186
+gotten, 3962, 0.208514609277
+appreci, 587, 0.160412253539
+mayb, 5564, 0.145247556941
+great, 4016, 0.138012790193
+mean, 5595, 0.128235085391
+thank, 8832, 0.116204200169
+need, 5993, 0.11156678108
+look, 5341, 0.103554576428
+know, 5052, 0.0893791823156

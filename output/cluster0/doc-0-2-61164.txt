@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61164
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Vandalizing the sky.
+From: thacker@rhea.arc.ab.ca
+Organization: Alberta Research Council
+Nntp-Posting-Host: rhea.arc.ab.ca
+Lines: 13
+
+In article <C5t05K.DB6@research.canon.oz.au>, enzo@research.canon.oz.au (Enzo Liguori) writes:
+
+<<<most of message deleted>>>
+
+> What about light pollution in observations? (I read somewhere else that
+> it might even be visible during the day, leave alone at night).
+
+> Really, really depressed.
+> 
+>              Enzo
+
+No need to be depressed about this one.  Lights aren't on during the day
+so there shouldn't be any daytime light pollution.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+vandal sky        messag delet  light pollut
+observ read somewher els might even visibl day
+leav alon night  realli realli depress  enzo  need
+depress one light aren't day shouldn't daytim
+light pollut
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+depress, 2542, 0.436678208963
+light, 5267, 0.398315660077
+pollut, 6726, 0.370055970495
+enzo, 3141, 0.260131524847
+daytim, 2404, 0.237007997832
+realli, 7150, 0.197982739994
+day, 2402, 0.197849698284
+shouldn, 7912, 0.173305282253
+visibl, 9541, 0.170921397083
+vandal, 9419, 0.170921397083
+alon, 437, 0.16103791087
+somewher, 8130, 0.155895413707
+leav, 5184, 0.148671986393
+aren, 623, 0.145573032627
+sky, 8011, 0.144254276029
+delet, 2502, 0.142985674592
+observ, 6179, 0.138780931218
+messag, 5650, 0.137914383855
+night, 6063, 0.135442127249
+els, 3053, 0.115329805521
+read, 7135, 0.101550816039
+need, 5993, 0.0896952354777

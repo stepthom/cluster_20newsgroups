@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61223
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bon@lte.e-technik.uni-erlangen.de (Uwe Bonnes)
+Subject: Re: Sunrise/ sunset times
+Organization: LTE, University of Erlangen, Germany
+Distribution: world
+NNTP-Posting-Host: aladin.e-technik.uni-erlangen.de
+Lines: 15
+
+
+In article <1993Apr21.141824.23536@cbis.ece.drexel.edu>, jpw@cbis.ece.drexel.edu (Joseph Wetstein) asked:
+|> 
+|> Hello. I am looking for a program (or algorithm) that can be used
+|> to compute sunrise and sunset times.
+|> 
+|> I would appreciate any advice.
+|> 
+|> Joe Wetstein
+|> jpw@coe.drexel.edu
+
+To compute this, and many other astronomical things, go and get (x)ephem written
+by Elwood C. Downey. It is e.g. on export.lcs.mit.edu
+
+Uwe Bonnes  bon@lte.e-technik.uni-erlangen.de
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time       cbis ece drexel edu
+joseph wetstein ask  hello look program algorithm
+use comput sunris sunset time  appreci advic  joe
+wetstein   comput mani astronom thing get ephem
+written elwood downey export lcs mit edu
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wetstein, 9712, 0.458114355307
+sunset, 8548, 0.376669250358
+sunris, 8547, 0.376669250358
+ephem, 3145, 0.237507870825
+downey, 2841, 0.222502310785
+edu, 3001, 0.208304857581
+comput, 1993, 0.203682799284
+lcs, 5169, 0.186553770108
+mit, 5781, 0.167069428014
+export, 3310, 0.166192493871
+advic, 292, 0.166192493871
+joseph, 4893, 0.164513459048
+astronom, 728, 0.146266412441
+joe, 4876, 0.145831217633
+hello, 4247, 0.145402376262
+time, 8936, 0.139591753883
+written, 9867, 0.128183418044
+algorithm, 407, 0.127713406221
+appreci, 587, 0.113559358331
+ask, 689, 0.101744929564
+program, 6905, 0.0911810100275
+mani, 5479, 0.0833244595769
+thing, 8869, 0.0802500678256
+look, 5341, 0.0733085596138
+use, 9363, 0.0648761629935

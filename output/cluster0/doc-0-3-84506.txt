@@ -1,0 +1,193 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84506
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: livesey@solntze.wpd.sgi.com (Jon Livesey)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: sgi
+Lines: 54
+Distribution: world
+NNTP-Posting-Host: solntze.wpd.sgi.com
+
+In article <lefty-260493134641@lefty.apple.com>, lefty@apple.com (Lefty) writes:
+>
+> These particular Tibetans are advocating increased violence against 
+> the Chinese occupiers.  Are they wrong?
+
+Wrong about what?   I think they are correct in thinking that a 
+well-placed bomb or six would get headlines, but I think they are 
+wrong if they think that you can set off bombs and still be a 
+Buddhist.
+
+Maybe what we are seeing here is that Chinese cultural genocide
+against the Tibetans has worked well enough that some Tibetans 
+are now no longer Buddhist and are instead willing to behave like
+the Chinese occupiers.   Every action is its own reward.
+
+> Clearly the occupation of Tibet _has_ been largely ignored.
+
+On the other hand, people who are aware of the occupation are mostly
+full of admiration for the peaceful way that Tibetans have put up
+with it.   And what does it cost us to admire them?   Zip.
+
+> Are Tibetans currently "people of peace"?  Do they serve themselves 
+> well or badly by being so?
+
+Yes they are, and whether this serves them well or not depends on 
+whether they want Buddhist principles or political independence.
+And without political independence can they preserve their cultural
+and religious traditions?
+
+> Would an increased level of violence make them "terrorists"?
+
+The Chinese would certainly refer to them as terrorists, just as
+the Hitler regime used to refer to European resistance movements
+as terrorists.
+
+> Assuming that the group advocating this course is correct, and 
+> greater attention is focussed on the occupation of Tibet by the 
+> Chinese, are the Tibetans better off as "people of peace" or
+> as "terrorists"?
+
+Better off in what way?   As proponents of pacifism or as 
+proponents of political autonomy?
+
+And better off in what time-scale?   The Soviet Empire practised
+cultural genocide against something like a hundred small minorities,
+some of which resisted violently, and some of which did not, but
+in the end it was the Soviet Empire that collapsed and at least
+some of the minorities survived.
+
+Now some of the minorities are fighting one another.    Is that
+because they have to, or because violent resistance to an oppressive
+Empire legitimized violence?
+
+jon.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral        particular
+tibetan advoc increas violenc chines occupi wrong
+wrong think correct think well place bomb six get
+headlin think wrong think set bomb still buddhist
+mayb see chines cultur genocid tibetan work well
+enough tibetan longer buddhist instead will behav
+like chines occupi everi action reward  clear
+occup tibet larg ignor  hand peopl awar occup most
+full admir peac way tibetan put cost admir zip
+tibetan current peopl peac serv well bad  yes
+whether serv well depend whether want buddhist
+principl polit independ without polit independ
+preserv cultur religi tradit  increas level
+violenc make terrorist  chines certain refer
+terrorist hitler regim use refer european resist
+movement terrorist  assum group advoc cours
+correct greater attent focuss occup tibet chines
+tibetan better peopl peac terrorist  better way
+propon pacif propon polit autonomi  better time
+scale soviet empir practis cultur genocid someth
+like hundr small minor resist violent end soviet
+empir collaps least minor surviv  minor fight one
+anoth violent resist oppress empir legitim violenc
+jon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+chines, 1711, 0.381519776349
+terrorist, 8809, 0.300155764185
+occup, 6190, 0.251245499111
+buddhist, 1365, 0.238181161125
+empir, 3076, 0.210880697036
+violenc, 9527, 0.206578232508
+resist, 7314, 0.192198584467
+peac, 6495, 0.173983821909
+cultur, 2291, 0.17185861516
+tibet, 8915, 0.167496999407
+polit, 6723, 0.156373843735
+minor, 5745, 0.14818226166
+propon, 6931, 0.147814694526
+occupi, 6191, 0.145767392341
+violent, 9528, 0.14217900133
+admir, 274, 0.137718821672
+bomb, 1209, 0.128132389645
+advoc, 296, 0.127289912462
+soviet, 8161, 0.12351170801
+wrong, 9869, 0.11826666211
+independ, 4595, 0.107607607581
+serv, 7810, 0.104822074163
+think, 8871, 0.0983931600704
+increas, 4590, 0.0969008760841
+better, 1060, 0.0963909945982
+peopl, 6530, 0.0874195808069
+regim, 7227, 0.0837484997036
+correct, 2156, 0.0827261661307
+practis, 6794, 0.0813518916967
+focuss, 3570, 0.0813518916967
+autonomi, 805, 0.0793937203749
+refer, 7213, 0.0791937241381
+headlin, 4218, 0.0777381101125
+oppress, 6271, 0.0719491759411
+hitler, 4321, 0.0702935656787
+collaps, 1896, 0.06593878635
+preserv, 6838, 0.0654391517368
+jon, 4887, 0.0654391517368
+pacif, 6372, 0.0640661948223
+legitim, 5204, 0.0636449562312
+movement, 5891, 0.062849021245
+behav, 999, 0.0624721331945
+reward, 7368, 0.0617558540048
+fight, 3474, 0.0604524132381
+european, 3222, 0.0584942419162
+zip, 9988, 0.0582415194953
+surviv, 8599, 0.0575171861566
+awar, 831, 0.0568386316539
+principl, 6870, 0.0564089660656
+way, 9666, 0.0561901400034
+greater, 4017, 0.0554044768112
+attent, 766, 0.0554044768112
+tradit, 9037, 0.0552143796834
+religi, 7260, 0.0527053077448
+hundr, 4440, 0.0522668710598
+scale, 7659, 0.0500726417228
+action, 251, 0.0488596382901
+moral, 5855, 0.0481534548624
+longer, 5337, 0.0479599323774
+ignor, 4496, 0.0479599323774
+depend, 2537, 0.0479599323774
+instead, 4682, 0.0461142249872
+like, 5272, 0.0452294648193
+particular, 6442, 0.0449664926475
+level, 5229, 0.0440622521317
+small, 8054, 0.0418405042118
+assum, 710, 0.041678994291
+clear, 1803, 0.0412085450418
+cost, 2169, 0.0408069951956
+larg, 5124, 0.0397743901991
+bad, 861, 0.0395529347794
+yes, 9951, 0.0391232691911
+hand, 4145, 0.0389561030564
+current, 2299, 0.038914714923
+set, 7815, 0.0384696709124
+christian, 1732, 0.0381187799367
+certain, 1619, 0.0380043183845
+mayb, 5564, 0.0375947634576
+group, 4064, 0.0373777821923
+end, 3091, 0.0370256126966
+place, 6657, 0.0367857894904
+everi, 3235, 0.0367857894904
+cours, 2190, 0.0367519620377
+anoth, 533, 0.0346151552909
+someth, 8126, 0.0316157321584
+work, 9833, 0.0304277592046
+want, 9634, 0.0292568753585
+say, 7653, 0.0272679337902
+year, 9943, 0.0269921751933
+make, 5459, 0.0269378630304
+time, 8936, 0.0255189557438
+use, 9363, 0.0237201967338

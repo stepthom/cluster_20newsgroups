@@ -1,0 +1,121 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61517
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: schumach@convex.com (Richard A. Schumacher)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Nntp-Posting-Host: starman.convex.com
+Organization: CONVEX Computer Corporation, Richardson, Tx., USA
+Distribution: na
+X-Disclaimer: This message was written by a user at CONVEX Computer
+              Corp. The opinions expressed are those of the user and
+              not necessarily those of CONVEX.
+Lines: 21
+
+In <1rs0au$an6@access.digex.net> prb@access.digex.net (Pat) writes:
+
+>How different would the contamination threat of a small manuevering tug
+>be from that of the Shuttle and it's OMS engines??????
+
+The aperture door will be shut during reboost. Using the shuttle
+means that there will be someone nearby to pry the door open again 
+if it should stick.
+
+
+
+>I just figured, if GOldin wants to really,  prove out faster, cheaper
+>better,   have some of the whiz kids  slap together an expendable
+>space manuevering tug  out of a BUs1,  and use that for the re-boost.
+
+It's clear that the "whiz kids" are not running the show. In any
+case it's not prudent to stick a "slapped together" explosive device
+on the end of a billion dollar asset that you'd like to see again.
+(Wiseacres might say that a shuttle is a slapped-together explosive
+device, but at least it's had some testing.)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day    disclaim messag
+written user convex comput corp opinion express
+user necessarili convex     differ contamin threat
+small manuev tug shuttl it om engin  apertur door
+shut reboost use shuttl mean someon nearbi pri
+door open stick    figur goldin want realli prove
+faster cheaper better whiz kid slap togeth expend
+space manuev tug bus1 use boost  it clear whiz kid
+run show case it prudent stick slap togeth explos
+devic end billion dollar asset you'd like see
+wiseacr might say shuttl slap togeth explos devic
+least it test
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+slap, 8017, 0.368284936046
+whiz, 9741, 0.274020487916
+togeth, 8969, 0.244060956412
+manuev, 5493, 0.235413749098
+tug, 9148, 0.221165150489
+shuttl, 7929, 0.212160760644
+convex, 2116, 0.208242798637
+explos, 3308, 0.204405386123
+door, 2818, 0.202061759984
+devic, 2591, 0.187437314283
+kid, 5008, 0.176587927081
+stick, 8393, 0.173438833228
+user, 9366, 0.151684948546
+pri, 6856, 0.133089459122
+asset, 701, 0.124831173854
+apertur, 561, 0.120910389018
+reboost, 7160, 0.117706874549
+om, 6228, 0.112652103749
+contamin, 2080, 0.112652103749
+expend, 3292, 0.110582575244
+goldin, 3935, 0.109632577182
+nearbi, 5983, 0.105527804445
+threat, 8891, 0.101030879992
+shut, 7925, 0.101030879992
+boost, 1224, 0.0940965358782
+corp, 2153, 0.0933487343403
+cheaper, 1678, 0.0916076393984
+dollar, 2802, 0.0906402014501
+hst, 4416, 0.0903292077732
+necessarili, 5991, 0.0880215443776
+faster, 3399, 0.0862244350355
+disclaim, 2691, 0.0862244350355
+express, 3315, 0.0839393126104
+billion, 1092, 0.0837263320143
+schedul, 7678, 0.0799330254933
+prove, 6947, 0.0779966809375
+use, 9363, 0.0776111799672
+written, 9867, 0.076672739783
+figur, 3476, 0.0746663017732
+messag, 5650, 0.0726389598047
+servic, 7813, 0.0723042699893
+test, 8812, 0.0721941085999
+open, 6258, 0.0697383956693
+mission, 5772, 0.0694542274695
+engin, 3109, 0.0685388807184
+small, 8054, 0.0684499150395
+clear, 1803, 0.0674160472047
+opinion, 6266, 0.0658176108331
+case, 1540, 0.0610905529107
+comput, 1993, 0.0609162967647
+end, 3091, 0.0605728848424
+someon, 8124, 0.0574166669947
+mean, 5595, 0.054300195048
+differ, 2633, 0.0541029911369
+run, 7543, 0.0529273829664
+better, 1060, 0.0525643393892
+realli, 7150, 0.0521383625496
+day, 2402, 0.0521033262787
+space, 8164, 0.0498404138708
+want, 9634, 0.0478634440559
+say, 7653, 0.0446095903097
+like, 5272, 0.0369970807293

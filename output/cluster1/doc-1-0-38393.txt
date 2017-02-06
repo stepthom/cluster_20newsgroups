@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38393
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: osprey@ux4.cso.uiuc.edu (Lucas Adamski)
+Subject: Re: Fast polygon routine needed
+Keywords: polygon, needed
+Organization: University of Illinois at Urbana-Champaign
+Lines: 11
+
+In article <1993Apr17.192947.11230@sophia.smith.edu> orourke@sophia.smith.edu (Joseph O'Rourke) writes:
+>In article <C5n3x0.B5L@news.cso.uiuc.edu> osprey@ux4.cso.uiuc.edu (Lucas Adamski) writes:
+>>This may be a fairly routine request on here, but I'm looking for a fast
+>>polygon routine to be used in a 3D game.
+>
+>	A fast polygon routine to do WHAT?
+
+To draw polygons of course.  Its a VGA mode 13h (320x200) game, done in C and
+ASM.  I need a faster way to draw concave polygons that the method I have right
+now, which is very slow.
+	 //Lucas.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fast polygon routin need       fair routin
+request i'm look fast polygon routin use game
+fast polygon routin  draw polygon cours vga mode
+13h 320x200 game done asm need faster way draw
+concav polygon method right slow luca
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polygon, 6728, 0.605117216267
+routin, 7499, 0.463663988531
+fast, 3397, 0.312740083358
+draw, 2861, 0.209709997872
+luca, 5377, 0.170971215888
+13h, 20, 0.165034871199
+asm, 692, 0.16254613093
+320x200, 88, 0.160294791508
+concav, 1997, 0.154598257866
+game, 3761, 0.143202161665
+need, 5993, 0.127020097263
+slow, 8044, 0.116921305673
+vga, 9492, 0.116246368747
+faster, 3399, 0.115915997133
+request, 7301, 0.111995231436
+mode, 5806, 0.108393742527
+method, 5666, 0.106338430664
+fair, 3363, 0.100040345592
+cours, 2190, 0.0808294365117
+right, 7399, 0.0718537162392
+way, 9666, 0.0617901344875
+look, 5341, 0.0589490538424
+use, 9363, 0.0521683749557

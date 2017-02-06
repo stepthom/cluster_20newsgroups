@@ -1,0 +1,205 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61123
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey)
+Subject: Dreams and Degrees (was Re: Crazy? or just Imaginitive?)
+Organization: Fermi National Accelerator Laboratory
+Lines: 47
+NNTP-Posting-Host: fnalf.fnal.gov
+
+In article <C5xp0K.G79@brunel.ac.uk>, mt90dac@brunel.ac.uk (Del Cotter) writes:
+> <1993Apr21.205403.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>> Sorry if I do not have the big degrees
+>>and such, but I think (I might be wrong, to error is human) I have something
+>>that is in many ways just as important, I have imagination, dreams. And without
+>>dreams all the knowledge is worthless.. 
+> 
+> Oh, and us with the big degrees don't got imagination, huh?
+> 
+> The alleged dichotomy between imagination and knowledge is one of the most
+> pernicious fallacys of the New Age.  Michael, thanks for the generous
+> offer, but we have quite enough dreams of our own, thank you.
+
+Well said.
+ 
+> You, on the other hand, are letting your own dreams go to waste by
+> failing to get the maths/thermodynamics/chemistry/(your choices here)
+> which would give your imagination wings.
+> 
+> Just to show this isn't a flame, I leave you with a quote from _Invasion of 
+> the Body Snatchers_:
+> 
+> "Become one of us; it's not so bad, you know"
+
+Okay, Del, so Michael was being unfair, but you are being unfair back.  
+He is taking college courses now, I presume he is studying hard, and
+his postings reveal that he is *somewhat* hip to the technical issues
+of astronautics.  Plus, he is attentively following the erudite
+discourse of the Big Brains who post to sci.space; is it not
+inevitable that he will get a splendid technical education from
+reading the likes of you and me? [1]
+
+Like others involved in sci.space, Mr. Adams shows symptoms of being a
+fledgling member of the technoculture, and I think he's soaking it up
+fast.  I was a young guy with dreams once, and they led me to get a
+technical education to follow them up.  Too bad I wound up in an
+assembly-line job stamping out identical neutrinos day after day...
+(-:
+
+[1] Though rumors persist that Del and I are both pseudonyms of Fred
+McCall.
+
+Bill Higgins, Beam Jockey              | "We'll see you
+Fermi National Accelerator Laboratory  | at White Sands in June. 
+Bitnet:           HIGGINS@FNAL.BITNET  | You bring your view-graphs, 
+Internet:       HIGGINS@FNAL.FNAL.GOV  | and I'll bring my rocketship."  
+SPAN/Hepnet:           43011::HIGGINS  | --Col. Pete Worden on the DC-X
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dream degre crazi imaginit       sorri big degre
+think might wrong error human someth mani way
+import imagin dream without dream knowledg
+worthless  big degre don't got imagin huh  alleg
+dichotomi imagin knowledg one pernici fallaci new
+age michael thank generous offer quit enough dream
+thank  well said  hand let dream wast fail get
+math thermodynam chemistri choic give imagin wing
+show isn't flame leav quot invas bodi snatcher
+becom one it bad know  okay del michael unfair
+unfair back take colleg cours presum studi hard
+post reveal somewhat hip technic issu astronaut
+plus attent follow erudit discours big brain post
+sci space inevit get splendid technic educ read
+like  like other involv sci space adam show
+symptom fledgl member technocultur think he soak
+fast young guy dream led get technic educ follow
+bad wound assembl line job stamp ident neutrino
+day day   though rumor persist del pseudonym fred
+mccall  bill higgin beam jockey we'll see fermi
+nation acceler laboratori white sand   span hepnet
+higgin col pete worden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dream, 2865, 0.436304242852
+imagin, 4518, 0.236930193823
+del, 2497, 0.197665640156
+unfair, 9262, 0.188885015203
+degre, 2491, 0.181654972257
+technic, 8737, 0.173762039112
+higgin, 4291, 0.164238217437
+big, 1082, 0.133337030482
+educ, 3002, 0.131134974477
+sci, 7690, 0.121664543676
+michael, 5680, 0.118971833904
+knowledg, 5053, 0.116299198083
+thermodynam, 8858, 0.101744412212
+pseudonym, 6961, 0.101744412212
+neutrino, 6021, 0.101744412212
+mccall, 5568, 0.101744412212
+fledgl, 3533, 0.101744412212
+discours, 2697, 0.101744412212
+splendid, 8244, 0.0988328200781
+generous, 3821, 0.0988328200781
+dichotomi, 2620, 0.0988328200781
+stamp, 8308, 0.0964538760868
+soak, 8084, 0.0964538760868
+invas, 4740, 0.0964538760868
+bad, 861, 0.0961041717675
+symptom, 8650, 0.0944425076015
+imaginit, 4520, 0.0944425076015
+worden, 9830, 0.0927001809687
+persist, 6561, 0.0927001809687
+hip, 4307, 0.0874096448435
+fermi, 3447, 0.0874096448435
+col, 1886, 0.0874096448435
+jockey, 4874, 0.0863652421858
+hepnet, 4260, 0.0863652421858
+follow, 3578, 0.085772825204
+worthless, 9852, 0.0836559497254
+inevit, 4616, 0.0836559497254
+fallaci, 3370, 0.0828649155639
+sand, 7605, 0.0807443575915
+beam, 969, 0.0795007439259
+wound, 9855, 0.0789207343246
+ident, 4484, 0.0789207343246
+chemistri, 1692, 0.0778327654576
+day, 2402, 0.0773843203743
+rumor, 7541, 0.0768285725931
+post, 6766, 0.0762152619838
+adam, 258, 0.0754538214663
+span, 8181, 0.0750259776427
+crazi, 2216, 0.0742102078007
+space, 8164, 0.0740234228798
+thank, 8832, 0.0730808976706
+huh, 4429, 0.073074877475
+fred, 3666, 0.073074877475
+alleg, 422, 0.073074877475
+wing, 9779, 0.0727173738086
+reveal, 7352, 0.0723694047189
+pete, 6574, 0.0717001263482
+led, 5188, 0.0704565126826
+acceler, 207, 0.0701632853411
+presum, 6845, 0.0693211823568
+math, 5544, 0.0693211823568
+assembl, 698, 0.0693211823568
+astronaut, 727, 0.0687885342143
+colleg, 1900, 0.0682767796992
+somewhat, 8129, 0.0680282375642
+attent, 766, 0.0673098138715
+brain, 1266, 0.066409590223
+laboratori, 5090, 0.0657729728644
+okay, 6215, 0.0649697613175
+plus, 6700, 0.0626558951048
+flame, 3518, 0.0624938052246
+fail, 3360, 0.0620192777463
+wast, 9654, 0.0612648440789
+choic, 1717, 0.0602769511135
+think, 8871, 0.0597679616499
+error, 3180, 0.0588614883544
+age, 328, 0.0583826064401
+young, 9962, 0.0582655826282
+leav, 5184, 0.0581495990417
+member, 5625, 0.0578077087164
+fast, 3397, 0.057584659395
+offer, 6203, 0.0572570756398
+bodi, 1194, 0.0565232559954
+studi, 8469, 0.0561217453141
+quot, 7045, 0.056023268865
+white, 9737, 0.0559255300742
+job, 4873, 0.0555417357127
+like, 5272, 0.0549483910636
+involv, 4750, 0.0547173731358
+issu, 4793, 0.0532101531802
+becom, 983, 0.0522941232698
+nation, 5962, 0.0513693500983
+human, 4432, 0.0503778808502
+sorri, 8142, 0.0503143864789
+import, 4551, 0.049456458062
+hard, 4167, 0.049397283051
+guy, 4100, 0.048990406107
+wrong, 9869, 0.0478932839127
+quit, 7043, 0.0477884795937
+isn, 4783, 0.0477884795937
+hand, 4145, 0.0473270067114
+cours, 2190, 0.0446492389524
+said, 7583, 0.0434355006692
+line, 5285, 0.0432498920264
+got, 3960, 0.0428149161625
+ll, 5314, 0.0413336496069
+let, 5225, 0.0412069683442
+read, 7135, 0.0397192462297
+someth, 8126, 0.0384093338566
+new, 6023, 0.0380085939505
+mani, 5479, 0.0370117114399
+way, 9666, 0.0341321503489
+don, 2811, 0.0295960478911
+know, 5052, 0.0281053131779

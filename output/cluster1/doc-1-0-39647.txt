@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39647
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: crgruen@sony1.sdrc.com (robert gruen)
+Subject: Bit Planes
+Lines: 12
+
+Could anyone please explain what Bit Planes are?  We have an SGI here at work 
+that says it has 64 Bit Planes - what does this mean?  How does this relate to 
+PC graphics?  What do they usually have?  Please reply via Email as most of 
+this group is over my head.  
+
+Thanks in advance!!! 
+
+Bob Gruen 
+---------
+Structural Dynamics Research Corp.
+Cincinnati, Ohio 
+513/576-5635 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bit plane   could anyon pleas explain bit plane
+sgi work say bit plane mean relat graphic usual
+pleas repli via email group head  thank advanc
+bob gruen  structur dynam research corp cincinnati
+ohio
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+plane, 6663, 0.534383513748
+bit, 1122, 0.37137729195
+ohio, 6212, 0.235316425294
+pleas, 6688, 0.215940832984
+cincinnati, 1760, 0.211041114482
+sgi, 7831, 0.199031417855
+corp, 2153, 0.194994054612
+dynam, 2942, 0.191357120865
+structur, 8460, 0.167328365507
+bob, 1189, 0.161363432668
+repli, 7290, 0.15928254327
+usual, 9377, 0.154927455024
+head, 4215, 0.154927455024
+email, 3060, 0.154417682892
+explain, 3301, 0.148364263348
+research, 7307, 0.141175080036
+relat, 7247, 0.140303233734
+advanc, 285, 0.138784272
+group, 4064, 0.127732810724
+graphic, 3997, 0.120837720726
+mean, 5595, 0.113426446255
+work, 9833, 0.103982178163
+thank, 8832, 0.102784892489
+anyon, 554, 0.098627603647
+say, 7653, 0.0931839617381

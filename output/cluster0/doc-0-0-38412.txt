@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38412
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: disser@engin.umich.edu (David Disser)
+Subject: 2D bitmap interpolation
+Organization: University of Michigan
+Lines: 11
+Distribution: world
+NNTP-Posting-Host: vesuvius.engin.umich.edu
+
+
+Yesterday I wrote a program to do bilinear interpolation ala Numerical
+Recipes, with the PBMPLUS libraries.  I'm pretty happy with the results,
+but I'm looking for any already-coded non-linear interpolation schemes
+before I go ahead an try to write one.  Any pointers?
+
+--
+
+) Dave Disser                 UM-CAEN User Services         Wealth is wasted
+) disser@engin.umich.edu      229 Chrysler Center           on the old.
+) (313) 763-3067              Ann Arbor, MI 48109-2092
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bitmap interpol       yesterday wrote program
+bilinear interpol ala numer recip pbmplus librari
+i'm pretti happi result i'm look alreadi code non
+linear interpol scheme ahead tri write one pointer
+dave disser caen user servic wealth wast  ann
+arbor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+interpol, 4719, 0.570234157328
+bilinear, 1089, 0.231177576534
+arbor, 607, 0.224562030788
+ann, 518, 0.204012268743
+ala, 373, 0.204012268743
+wealth, 9672, 0.198606974293
+pbmplus, 6483, 0.196233944953
+scheme, 7680, 0.184983201037
+linear, 5286, 0.178057212247
+pointer, 6711, 0.169528290397
+bitmap, 1126, 0.166036372051
+numer, 6157, 0.157507450201
+yesterday, 9952, 0.154015531856
+ahead, 342, 0.143883676945
+happi, 4161, 0.139537317912
+wast, 9654, 0.139202319547
+librari, 5250, 0.131603908992
+dave, 2395, 0.128198048878
+user, 9366, 0.12796911307
+wrote, 9871, 0.12577203107
+servic, 7813, 0.121999096026
+alreadi, 443, 0.11881958352
+code, 1871, 0.117831257341
+non, 6097, 0.117509003736
+result, 7332, 0.115049808972
+pretti, 6851, 0.108700955038
+write, 9865, 0.102204713436
+program, 6905, 0.0920250792403
+tri, 9087, 0.0858607076678
+look, 5341, 0.0739871822588

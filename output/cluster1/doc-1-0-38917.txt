@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38917
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wes@uf.msc.edu (Wes Barris)
+Subject: Re: WANTED: 24 bit viewer
+Reply-To: wes@msc.edu
+Organization: AHPCRC, Minnesota Supercomputer Center
+Lines: 17
+
+In article <5731@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+|> Hello,
+|> 
+|> Thanks to the people who helped me with the problem of
+|> displaying 24 bit images. All the viewers like xli,
+|> xloadimage and display are converting the 24 bit images
+|> to 8 bit before display them on the screen.
+|> 
+|> What I really want is a viewer with make use of the 24 bit
+|> frame/screen buffer (in our case, the Parallax one).
+
+Both xli and xloadimage will display in 24 bit color if a 24 bit visual
+is available.  Check the output of xdpyinfo to see if one is.
+
+===============================================================================
+Wes Barris                                                   PH: (612) 626-8090
+Minnesota Supercomputer Center, Inc.                         Email: wes@msc.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want bit viewer      hello  thank peopl help
+problem display bit imag viewer like xli xloadimag
+display convert bit imag bit display screen
+realli want viewer make use bit frame screen
+buffer case parallax one  xli xloadimag display
+bit color bit visual avail check output xdpyinfo
+see one   wes barri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bit, 1122, 0.535512348235
+display, 2734, 0.390922887718
+viewer, 9512, 0.336815592396
+xli, 9901, 0.296901142222
+xloadimag, 9903, 0.278507723929
+screen, 7719, 0.21100296659
+wes, 9706, 0.171804270657
+imag, 4512, 0.152062616533
+parallax, 6419, 0.140360514399
+buffer, 1371, 0.128324870414
+want, 9634, 0.123573183803
+barri, 918, 0.11825567387
+visual, 9547, 0.115823144091
+output, 6329, 0.114335274689
+hello, 4247, 0.112271864132
+frame, 3643, 0.109783686936
+check, 1682, 0.0924969210781
+convert, 2115, 0.0911623081757
+color, 1907, 0.0911623081757
+case, 1540, 0.0788613760708
+avail, 811, 0.0787861459003
+problem, 6887, 0.0713591040334
+realli, 7150, 0.0673050548871
+help, 4249, 0.0666359244869
+thank, 8832, 0.0635194377402
+peopl, 6530, 0.0615394717462
+make, 5459, 0.0568891492807
+use, 9363, 0.0500938701573
+like, 5272, 0.0477592779555

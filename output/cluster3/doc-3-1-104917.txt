@@ -1,0 +1,123 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104917
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: m_klein@pavo.concordia.ca (CorelMARK!)
+Subject: Re: Best Homeruns
+News-Software: VAX/VMS VNEWS 1.41    
+Nntp-Posting-Host: pavo1.concordia.ca
+Organization: Concordia University
+Lines: 18
+
+I haven't been following the previous HR's.  But there are two, that I saw
+live that would have to be up there (up where? there!).  
+1) Rick Monday's HR to bury the Expos in the NL championship in 1981.
+It was hit off Steve Rogers, who is a RHP and primarily a starter.
+Why was he used as a reliever when the 'Spos had Reardon and BillLee
+warming up in the bullpen.  Considering Monday couldn't touch LHP,
+Lee would have been a safe bet.  He wasn't even doing any drugs at that
+time (or so he told me and around 50 others on a recent venture into 
+Montreal.  The blast wasn't the important aspect.  It was the timing.
+Seventh game, a tie game, and in the top of the 9th.  The Expos almost
+came back though...
+2) Mike Schmidt hit one that killed the Expos in 1980.  So close, yet, so
+far.
+and
+3) Strawberry killed a pitch on the second day of the season a couple of
+years ago.  It went off the technical ring in the Big O.  It almost left
+the stadium!  That was hit HARD!!!
+				CorelMARK! 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best homerun news softwar vax vms vnew
+haven't follow previous hr two saw live rick
+monday buri expo championship hit steve roger rhp
+primarili starter use reliev spos reardon billle
+warm bullpen consid monday couldn't touch lhp lee
+safe bet wasn't even drug time told around other
+recent ventur montreal blast wasn't import aspect
+time seventh game tie game top 9th expo almost
+came back though mike schmidt hit one kill expo
+close yet far  strawberri kill pitch second day
+season coupl year ago went technic ring big almost
+left stadium hit hard corelmark
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+expo, 3309, 0.351133923138
+monday, 5834, 0.244322357917
+hit, 4316, 0.220330181908
+wasn, 9652, 0.182287176016
+kill, 5012, 0.179721255155
+corelmark, 2143, 0.159079616655
+hr, 4411, 0.155250509099
+championship, 1648, 0.155250509099
+buri, 1410, 0.142520477464
+blast, 1143, 0.139012016538
+drug, 2883, 0.137455604882
+9th, 152, 0.134651185737
+seventh, 7821, 0.133377950681
+reardon, 7155, 0.133377950681
+schmidt, 7681, 0.131041995858
+game, 3761, 0.127323166663
+warm, 9639, 0.123661956287
+strawberri, 8434, 0.123661956287
+ventur, 9461, 0.122898164975
+homerun, 4356, 0.121449180389
+rick, 7387, 0.12009374583
+primarili, 6864, 0.119447481105
+reliev, 7258, 0.117620072832
+montreal, 5848, 0.117620072832
+touch, 9015, 0.114888704009
+ring, 7406, 0.11340559765
+bullpen, 1391, 0.112472024117
+stadium, 8300, 0.111578189378
+safe, 7577, 0.10910451638
+tie, 8923, 0.108719148754
+starter, 8335, 0.108340725068
+lee, 5190, 0.107968999499
+aspect, 693, 0.104263070867
+bet, 1054, 0.102487201139
+roger, 7458, 0.100849857027
+time, 8936, 0.0998021216839
+previous, 6855, 0.0983761840297
+vnew, 9564, 0.095542615752
+couldn, 2176, 0.095542615752
+told, 8973, 0.0945470764733
+went, 9704, 0.0937832851611
+steve, 8390, 0.0935965999643
+technic, 8737, 0.093228135314
+vms, 9563, 0.0926872827722
+saw, 7650, 0.0925100501055
+vax, 9439, 0.0916456504747
+mike, 5710, 0.0906532479216
+haven, 4207, 0.08970563096
+coupl, 2187, 0.0873696761374
+came, 1472, 0.0846517917099
+left, 5193, 0.0835866760558
+recent, 7168, 0.0834715966097
+ago, 336, 0.0818170448387
+season, 7747, 0.0808834713055
+import, 4551, 0.0796042689402
+close, 1830, 0.0796042689402
+hard, 4167, 0.0795090218547
+live, 5310, 0.0770036955789
+pitch, 6643, 0.076668996123
+consid, 2059, 0.0736580664998
+second, 7753, 0.0730904117721
+news, 6031, 0.0725376970744
+big, 1082, 0.0715390011748
+best, 1052, 0.0702161025576
+far, 3386, 0.0701551389549
+softwar, 8103, 0.0700943518029
+follow, 3578, 0.0690292361488
+day, 2402, 0.0622782392049
+year, 9943, 0.0527818689017
+use, 9363, 0.0463836762084

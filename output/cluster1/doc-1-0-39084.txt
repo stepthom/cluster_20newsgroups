@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39084
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jchinnic@mach1.wlu.ca (john chinnick 8335 a)
+Subject: Wanted: 3d rendering lib for PC
+X-Newsreader: TIN [version 1.1 PL6]
+Organization: Wilfrid Laurier University
+Lines: 19
+
+Does any one know of a decent quality library of routines for
+performing 3D graphics modelling on the PC?
+
+Ideally the routines would be embeded in our application program.
+
+Requirements (wish list):
+- flat surface modelling (simple phong shading optional)
+- ability to plot hidden-line drawings
+- Texture mapping -- both procedural and bit map
+- modeling light sources (local, distant, and spot lights)
+- Ray-tracing
+- Radiosity (optional)
+
+Any comments would be appreciated.
+
+John Chinnick -- jchinnic@mach1.wlu.ca
+phone : (519) 888-9666
+-- 
+John Chinnick -- jchinnic@mach1.wlu.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want render lib     one know decent qualiti
+librari routin perform graphic model  ideal routin
+embed applic program  requir wish list flat surfac
+model simpl phong shade option abil plot hidden
+line draw textur map procedur bit map model light
+sourc local distant spot light ray trace radios
+option  comment appreci   phone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+model, 5807, 0.335289533566
+routin, 7499, 0.261572078221
+option, 6276, 0.257993368096
+map, 5498, 0.238981609269
+light, 5267, 0.212142266765
+phong, 6602, 0.1929039018
+embed, 3063, 0.1929039018
+lib, 5245, 0.178538901322
+radios, 7062, 0.172591817775
+distant, 2745, 0.164924693587
+flat, 3526, 0.153244594952
+textur, 8825, 0.152398448334
+procedur, 6888, 0.15157834117
+ideal, 4483, 0.15157834117
+hidden, 4286, 0.15078271851
+shade, 7835, 0.147818401859
+decent, 2440, 0.142153346128
+plot, 6694, 0.14050428124
+trace, 9028, 0.1374839154
+render, 7277, 0.134344834977
+spot, 8261, 0.130055818642
+qualiti, 7017, 0.128313277889
+abil, 177, 0.124838955564
+wish, 9801, 0.123397989512
+librari, 5250, 0.118306103825
+draw, 2861, 0.118306103825
+phone, 6601, 0.116950656829
+applic, 585, 0.11673130267
+surfac, 8587, 0.116513739178
+simpl, 7965, 0.113640811832
+local, 5322, 0.113446982761
+ray, 7118, 0.111403018593
+perform, 6539, 0.108204381989
+comment, 1936, 0.106964559381
+appreci, 587, 0.103029856298
+requir, 7302, 0.0991464354697
+sourc, 8153, 0.0983674252761
+list, 5298, 0.0976105400932
+bit, 1122, 0.0898901663768
+line, 5285, 0.0883402308582
+graphic, 3997, 0.0877446445122
+program, 6905, 0.0827264832978
+want, 9634, 0.0725997249351
+know, 5052, 0.0574066139392

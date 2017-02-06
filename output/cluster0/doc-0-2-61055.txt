@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61055
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nick@sfb256.iam.uni-bonn.de (   Nikan B Firoozye )
+Subject: Re: Sunrise/ sunset times
+Organization: Applied Math, University of Bonn, Germany
+Lines: 15
+
+A related question (which I haven't given that much serious thought 
+to): at what lattitude is the average length of the day (averaged 
+over the whole year) maximized? Is this function a constant=
+12 hours? Is it truly symmetric about the equator? Or is
+there some discrepancy due to the fact that the orbit is elliptic
+(or maybe the difference is enough to change the temperature and
+make the seasons in the southern hemisphere more bitter, but
+is far too small to make a sizeable difference in daylight
+hours)?
+
+I want to know where to move.
+
+	-Nick Firoozye
+	nick@sfb256.iam.uni-bonn.de
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time    relat question haven't
+given much serious thought lattitud averag length
+day averag whole year maxim function constant hour
+truli symmetr equat discrep due fact orbit ellipt
+mayb differ enough chang temperatur make season
+southern hemispher bitter far small make sizeabl
+differ daylight hour  want know move  nick firoozy
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hour, 4395, 0.275712658922
+averag, 816, 0.260700220118
+symmetr, 8645, 0.231949340605
+ellipt, 3050, 0.21755673705
+discrep, 2702, 0.21755673705
+daylight, 2403, 0.21755673705
+bitter, 1128, 0.21755673705
+maxim, 5559, 0.210723562857
+hemispher, 4251, 0.210723562857
+sunset, 8548, 0.196330959302
+sunris, 8547, 0.196330959302
+differ, 2633, 0.188582224344
+southern, 8156, 0.181463581519
+nick, 6052, 0.175105181555
+temperatur, 8773, 0.167515862171
+equat, 3157, 0.160832430694
+constant, 2067, 0.156370396358
+make, 5459, 0.153609693319
+truli, 9127, 0.152022936977
+length, 5212, 0.151575887807
+function, 3722, 0.143439439299
+haven, 4207, 0.130797159229
+small, 8054, 0.119295042317
+season, 7747, 0.117933826028
+relat, 7247, 0.117058842951
+orbit, 6280, 0.11083552183
+chang, 1650, 0.110025053843
+given, 3887, 0.109911004086
+mayb, 5564, 0.107189647497
+thought, 8887, 0.106878758286
+fact, 3350, 0.105076925412
+far, 3386, 0.102291158118
+question, 7032, 0.0926930631146
+day, 2402, 0.0908060807625
+want, 9634, 0.0834167811718
+year, 9943, 0.0769597007152
+time, 8936, 0.0727592786629
+know, 5052, 0.0659599600006

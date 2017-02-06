@@ -1,0 +1,154 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104644
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: fls@keynes.econ.duke.edu (Forrest Smith)
+Subject: Re: Braves Update!!
+Organization: Duke University; Durham, N.C.
+Lines: 36
+Nntp-Posting-Host: keynes.econ.duke.edu
+
+In article <1993Apr19.194025.8967@adobe.com> snichols@adobe.com (Sherri Nichols) writes:
+>
+>A reasonable umpire would do as he's been instructed to do this season: get
+>the batters back in the box sooner to try to cut down on the ridiculous
+>length of games.  I for one am glad to see this happen, and hope more
+>umpires will do as Hirschbeck did in instructing the pitcher to pitch if
+>the batter won't get back in the box.  
+>
+
+	A "reasonable" umpire would have recognized that Ron Gant was 
+disturbed with the call.  A "reasonable" umpire would have realized that
+there was a 1-run game in progress, with two outs in the ninth.  What
+Ron Gant did was try to regain his composure.  What a "normal" baseball
+player would have done would have been to get into a heated argument
+with the umpire, and since you can't argue balls and strikes, he would
+have been ejected from the game.  Ron Gant, by trying to avoid such a
+conflict, was penalized for showing some restraint.
+
+	Incidentally, a "reasonable" home plate umpire would not have been
+so resistant to seeking the appeal to the first base umpire, as Gant
+requested.  If the home plate umpire had appealed to first, the first base
+umpire could have wrung up the strike, and Gant would not have been so
+upset.  If the call had been a ball, and the catcher had requested the
+appeal, it is likely the home plate umpire would have asked for the help.
+
+	Finally, the entire game was pretty much a mockery of the so-called
+efforts to "speed up the game."  The game was played very quickly, it was
+just at 2 hours when the stuff happened in the ninth, and the only delays
+in the entire game had been *the result* of actions by the umpires (other than
+Deion having to clean garbage off the field).
+
+-- 
+@econ.duke.edu     fls@econ.duke.edu     fls@econ.duke.edu    fls@econ.duke.
+s  To my correspondents:  My email has been changed.                       e
+l                         My new address is:  fls@econ.duke.edu            d
+f            If mail bounces, try fls@raphael.acpub.duke.edu               u
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat       reason umpir he instruct season
+get batter back box sooner tri cut ridicul length
+game one glad see happen hope umpir hirschbeck
+instruct pitcher pitch batter won't get back box
+reason umpir recogn ron gant disturb call reason
+umpir realiz run game progress two out ninth ron
+gant tri regain composur normal basebal player
+done get heat argument umpir sinc can't argu ball
+strike eject game ron gant tri avoid conflict
+penal show restraint  incident reason home plate
+umpir resist seek appeal first base umpir gant
+request home plate umpir appeal first first base
+umpir could wrung strike gant upset call ball
+catcher request appeal like home plate umpir ask
+help  final entir game pretti much mockeri call
+effort speed game game play quick hour stuff
+happen ninth delay entir game result action umpir
+deion clean garbag field    correspond email chang
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+umpir, 9210, 0.654038441021
+gant, 3766, 0.307242379102
+game, 3761, 0.23164667392
+appeal, 579, 0.201075740485
+ron, 7472, 0.171379244952
+plate, 6674, 0.166151115861
+reason, 7156, 0.140854703168
+home, 4354, 0.126292446758
+ninth, 6075, 0.121683620436
+instruct, 4684, 0.117900346196
+strike, 8448, 0.108718939668
+batter, 949, 0.103781666715
+request, 7301, 0.103523269104
+entir, 3129, 0.0949286023637
+tri, 9087, 0.094851569171
+box, 1254, 0.0891734074566
+ball, 877, 0.0853931592501
+wrung, 9873, 0.0851284073434
+restraint, 7329, 0.0851284073434
+penal, 6513, 0.0851284073434
+mockeri, 5804, 0.0851284073434
+happen, 4159, 0.0769545642483
+regain, 7223, 0.0762753429925
+garbag, 3770, 0.0751251041599
+deion, 2494, 0.0751251041599
+incident, 4576, 0.0714517790038
+eject, 3022, 0.0714517790038
+sooner, 8137, 0.0706985719845
+hirschbeck, 4310, 0.0706985719845
+disturb, 2756, 0.0699939938724
+base, 923, 0.0683309346873
+resist, 7314, 0.0651218009765
+correspond, 2158, 0.0651218009765
+conflict, 2034, 0.0651218009765
+delay, 2500, 0.0642816040815
+ridicul, 7396, 0.0638845722683
+upset, 9342, 0.0635014743072
+progress, 6907, 0.060267089544
+heat, 4226, 0.060267089544
+glad, 3889, 0.0599906906889
+recogn, 7173, 0.0594580400928
+seek, 7766, 0.0582300986431
+clean, 1799, 0.0565140766499
+catcher, 1557, 0.0563173655328
+avoid, 827, 0.0553837052871
+length, 5212, 0.0540383534011
+argu, 628, 0.0537264129901
+effort, 3007, 0.0510169933799
+realiz, 7149, 0.0500971087469
+normal, 6108, 0.0499873875055
+action, 251, 0.0496646889882
+hour, 4395, 0.0491471906105
+cut, 2313, 0.047996951778
+updat, 9333, 0.0472923736659
+brave, 1277, 0.0467110941625
+won, 9820, 0.0465505446275
+quick, 7036, 0.0465505446275
+email, 3060, 0.0459309643882
+argument, 631, 0.04556085533
+speed, 8217, 0.0443888039595
+pitcher, 6644, 0.0433899663762
+final, 3482, 0.0428658414905
+result, 7332, 0.0423657309233
+season, 7747, 0.0420446144902
+stuff, 8472, 0.0418356670282
+field, 3466, 0.0410859098972
+pretti, 6851, 0.0400278405795
+pitch, 6643, 0.0398538580666
+chang, 1650, 0.0392250563633
+hope, 4372, 0.0390232544689
+ask, 689, 0.0378131953682
+player, 6683, 0.0376709500772
+basebal, 924, 0.0367889599153
+play, 6681, 0.036003212867
+sinc, 7977, 0.0332798058473
+run, 7543, 0.0328853061393
+help, 4249, 0.0320730012321
+like, 5272, 0.0229873509298

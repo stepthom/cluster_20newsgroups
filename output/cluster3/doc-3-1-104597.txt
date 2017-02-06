@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104597
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: Pleasant Yankee Surprises
+Organization: Allegheny College
+
+In article <1993Apr15.231903.4045@cs.cornell.edu> tedward@cs.cornell.edu  
+(Edward [Ted] Fischer) writes:
+> In article <1993Apr15.200629.7200@alleg.edu> luriem@alleg.edu(Michael  
+Lurie) The Liberalizer writes:
+> >
+> >     Actually, I kind of liked the Abott trade. We did trade the rookie  
+of  
+> >the year, SNOW, but with Don mattingly at first for another 8 years,  
+Why  
+> >bother.
+> 
+> I'd be willing to make two wagers:
+> 1) Snow doesn't win ROY.
+> 2) Mattingly is out of baseball within five years.
+> 
+
+
+
+No, You are quite correct, but I was using some wishful thinking.
+JT snow was wasting away, while Abbott can provide a great resourse for  
+the team.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleasant yanke surpris   cornel edu  alleg edu
+michael   actual kind like abott trade trade rooki
+year snow mat first anoth year  bother  i'd will
+make two wager snow doesn't win roy mat basebal
+within five year     quit correct use wish think
+snow wast away abbott provid great resours team
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+snow, 8081, 0.50284430372
+mat, 5540, 0.29681259168
+trade, 9033, 0.273542639524
+abott, 188, 0.216088537248
+year, 9943, 0.208936267825
+wager, 9607, 0.196880065181
+abbott, 167, 0.196880065181
+edu, 3001, 0.196511161263
+cornel, 2147, 0.183425688421
+pleasant, 6689, 0.179460082508
+roy, 7502, 0.172909284398
+rooki, 7475, 0.159342939941
+alleg, 422, 0.155199121405
+bother, 1245, 0.145008744288
+wast, 9654, 0.130116536662
+yanke, 9933, 0.129197823774
+wish, 9801, 0.128308593447
+michael, 5680, 0.126338385584
+surpris, 8593, 0.124754413483
+away, 833, 0.109839150974
+correct, 2156, 0.106725352063
+provid, 6949, 0.1025109676
+quit, 7043, 0.101494936461
+win, 9770, 0.100729665852
+kind, 5021, 0.0988537038658
+basebal, 924, 0.0933844856616
+great, 4016, 0.0921706288108
+team, 8732, 0.0920127254354
+doesn, 2793, 0.0898916493139
+anoth, 533, 0.089314295777
+actual, 254, 0.0891008520975
+make, 5459, 0.0695052859385
+think, 8871, 0.0634687012604
+use, 9363, 0.0612030380674
+like, 5272, 0.0583507103284

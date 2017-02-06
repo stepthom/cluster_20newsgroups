@@ -1,0 +1,147 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39670
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jesup@cbmvax.cbm.commodore.com (Randell Jesup)
+Subject: Re: Products to handle HDTV moving pircture (180MB/sec)
+Reply-To: jesup@cbmvax.cbm.commodore.com (Randell Jesup)
+Organization: Commodore, West Chester, PA
+Lines: 31
+
+kazsato@twics.co.jp writes:
+>I'd like to know if there is any system (CPU + HD array + framebuffer)
+>which can play and record HDTV quality moving picture in realtime.
+>
+>HDTV has about 6MB/frame, so recording/playing moving picture will need
+>about 180MB/sec bandwidth. I'm thinking to treat the raw data.. not
+>compressed. 
+
+	Actually, for digital HDTV systems that's far higher bandwidth than
+you need, unless there's some reason you must work in fully-uncompressed
+HDTV.  Also, my calculations is that each frame should be well under 6MB,
+even using 24 bits/pixel (which is more bits than you actually need - 15 or
+18 should be enough for a moving picture).  1600x1100x16bits is 3.5MB (I'm
+guessing at HDTV resolution - it may be a bit wider than 1600, I'm fairly
+sure of the 1100 number for most of the digital proposals).
+
+	I hope you have a very fast memory system as well - 180MB/s while
+displaying will require a heavily interleaved VRAM system.
+
+	Unless you have a _very_ compelling reason, I'd advise trying to use
+at least somewhat compressed data.  You don't have to go to full compression
+to get to a level where the data IO requirements are much cheaper and easier
+to deal with.
+
+-- 
+GNU Emacs is a LISP operating system disguised as a word processor.
+ - Doug Mohney, in comp.arch
+
+Randell Jesup, Jack-of-quite-a-few-trades, Commodore Engineering.
+jesup@cbmvax.commodore.com or rutgers!cbmvax!jesup	BIX: rjesup  
+Disclaimer: Nothing I say is anything other than my personal opinion.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ product handl hdtv move pirctur 180mb sec
+i'd like know system cpu array framebuff play
+record hdtv qualiti move pictur realtim  hdtv 6mb
+frame record play move pictur need 180mb sec
+bandwidth i'm think treat raw data compress
+actual digit hdtv system that far higher bandwidth
+need unless there reason must work fulli
+uncompress hdtv also calcul frame well 6mb even
+use bit pixel bit actual need enough move pictur
+1600x1100x16bit 5mb i'm guess hdtv resolut bit
+wider i'm fair sure number digit propos  hope fast
+memori system well 180mb display requir heavili
+interleav vram system  unless compel reason i'd
+advis tri use least somewhat compress data don't
+full compress get level data requir much cheaper
+easier deal   gnu emac lisp oper system disguis
+word processor doug mohney comp arch  randel jesup
+jack quit trade commodor engin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hdtv, 4214, 0.602116020775
+180mb, 33, 0.301058010388
+compress, 1986, 0.19986296004
+6mb, 133, 0.194961810199
+pictur, 6622, 0.162971851103
+bandwidth, 893, 0.16059998925
+sec, 7752, 0.153536212307
+data, 2385, 0.142980457204
+bit, 1122, 0.130220183197
+frame, 3643, 0.124581456872
+digit, 2642, 0.123921441962
+record, 7184, 0.108828527239
+unless, 9289, 0.104809079462
+need, 5993, 0.103806984371
+vram, 9593, 0.100352670129
+commodor, 1947, 0.100352670129
+5mb, 121, 0.100352670129
+interleav, 4714, 0.0974809050995
+arch, 609, 0.0974809050995
+requir, 7302, 0.0957529060974
+emac, 3059, 0.0931506468558
+lisp, 5296, 0.0914321531711
+realtim, 7152, 0.0899163343141
+wider, 9749, 0.0873337856259
+disguis, 2711, 0.0873337856259
+uncompress, 9228, 0.0851838687873
+play, 6681, 0.0848839689873
+compel, 1966, 0.0842301298976
+reason, 7156, 0.0830224951008
+actual, 254, 0.0827578226282
+gnu, 3920, 0.0825116362129
+advis, 293, 0.0825116362129
+heavili, 4232, 0.0802999946249
+cpu, 2200, 0.0802999946249
+treat, 9076, 0.0724378479097
+raw, 7114, 0.0713794776667
+processor, 6891, 0.0710451839215
+easier, 2960, 0.0697886172818
+doug, 2833, 0.0686438999986
+fulli, 3718, 0.0683729513472
+somewhat, 8129, 0.0670976924957
+cheaper, 1678, 0.0670976924957
+array, 653, 0.0666209866799
+pixel, 6651, 0.0648732771244
+comp, 1955, 0.0637025080396
+trade, 9033, 0.0635173309516
+resolut, 7316, 0.0626294212877
+qualiti, 7017, 0.061960720981
+calcul, 1451, 0.061960720981
+jack, 4808, 0.0601408115975
+handl, 4149, 0.0594524343891
+higher, 4293, 0.0590564158945
+memori, 5628, 0.058299163044
+use, 9363, 0.0568460351327
+fast, 3397, 0.0567969700068
+display, 2734, 0.0554519348865
+fair, 3363, 0.0545052151329
+propos, 6933, 0.0540567521419
+product, 6896, 0.0538816530385
+oper, 6261, 0.0538816530385
+level, 5229, 0.0527981357155
+deal, 2418, 0.0520226248935
+engin, 3109, 0.0502010615342
+guess, 4079, 0.0498784986446
+quit, 7043, 0.0471347902493
+word, 9829, 0.0460967564639
+hope, 4372, 0.0460021267318
+far, 3386, 0.0429897090935
+number, 6156, 0.0418481669379
+sure, 8585, 0.0414449093335
+tri, 9087, 0.0372715702051
+work, 9833, 0.0364604368202
+think, 8871, 0.0294752036468
+don, 2811, 0.0291912092918
+know, 5052, 0.0277208660495
+like, 5272, 0.0270983813393

@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61374
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: temperature of the dark sky
+Organization: U of Toronto Zoology
+Lines: 16
+
+In article <C66E1G.KM9@well.sf.ca.us> metares@well.sf.ca.us (Tom Van Flandern) writes:
+>> ...the temperature of the (night) sky as seen from space?
+>     You'll find that in Allen, C.W., "Astrophysical Quantities", Athlone
+>Press, Dover, NH, 3rd edition, pp. 268-269 (1973)...
+
+#@$#%$!!  I *have* a copy of Allen, and it never occurred to me to look
+in there...  I must be getting old...  I'll look it up when I get home.
+Thanks.
+
+>... the temperature is 3 degrees K.
+
+I'd remembered a rather higher number, but that may have been for the
+lunar nearside, where the Earth is a significant heat source.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ temperatur dark sky     temperatur night sky seen
+space you'll find allen astrophys quantiti athlon
+press dover 3rd edit  copi allen never occur look
+must get old i'll look get home thank  temperatur
+degre  i'd rememb rather higher number lunar
+nearsid earth signific heat sourc  svr4 resembl
+high speed collis henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+temperatur, 8773, 0.46926109352
+allen, 426, 0.286487593052
+sky, 8011, 0.247289446734
+dover, 2840, 0.216586058982
+ll, 5314, 0.181160312224
+astrophys, 731, 0.172949945228
+quantiti, 7021, 0.171732993946
+svr4, 8616, 0.159355661411
+heat, 4226, 0.157850364433
+collis, 1903, 0.157850364433
+resembl, 7308, 0.152515118306
+3rd, 102, 0.152515118306
+zoolog, 9993, 0.143687123843
+look, 5341, 0.142718625801
+spencer, 8221, 0.138030486785
+press, 6841, 0.137306548391
+lunar, 5392, 0.137306548391
+occur, 6192, 0.136951338368
+edit, 2996, 0.136253888201
+dark, 2365, 0.135573045579
+degre, 2491, 0.132695240658
+higher, 4293, 0.131213352637
+henri, 4258, 0.13008076739
+copi, 2130, 0.125712663199
+signific, 7951, 0.123204806395
+toronto, 9003, 0.119332087747
+speed, 8217, 0.116262274066
+night, 6063, 0.116091562877
+home, 4354, 0.110260889742
+old, 6216, 0.108122020923
+seen, 7767, 0.10613206761
+sourc, 8153, 0.105537575527
+rememb, 7269, 0.105303196845
+earth, 2956, 0.0996076827728
+high, 4292, 0.0967003894999
+number, 6156, 0.0929795383354
+space, 8164, 0.0811088938936
+thank, 8832, 0.0800761508211

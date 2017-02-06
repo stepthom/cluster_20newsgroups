@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82776
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ST002649@brownvm.brown.edu (Alex Gottschalk)
+Subject: Re: 666, THE NUMBER OF THE BEAST, VIEWER DISCR
+Organization: Brown University - Providence, Rhode Island  USA
+Lines: 15
+NNTP-Posting-Host: brownvm.brown.edu
+X-News-Software: BNN via BNN_POST v1.0 beta
+
+In article <C4J571.K3D@rice.edu>, swaim@owlnet.rice.edu (Michael Parks Swaim)
+said:
+>Posted on 27 Mar 1993 at 00:16:13 by Michael Parks Swaim
+>In article <C4HIM1.BrF@cs.psu.edu> jdh@math.psu.edu (Jeremy D Hall) writes:
+>>Well, I *WILL* do the math, and I get:  (6^6)^6=2,189,739,336
+>>
+>>This mean anything to anyone?  :^)
+
+5*1=5 thus fitting in neatly with something else.
+_________________________________________________________________________
+º...and everything under the sun is in tune...    º "What was Jabba the º
+ºnd the sun is eclipsed by the moon."             º  Hut smoking?"      º
+º                           --Pink Floyd          º         --Alex      º
+º                             "Eclipse"           º           curious   º
+º_________________________________________________º_____________________º
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ number beast viewer discr    news softwar bnn via
+bnn post beta  owlnet rice edu michael park swaim
+said post michael park swaim  well math get  mean
+anyth anyon  thus fit neat someth els  everyth sun
+tune jabba sun eclips moon hut smoke pink floyd
+alex eclips curious
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+swaim, 8618, 0.434358783372
+eclips, 2977, 0.375339410687
+park, 6430, 0.247616685015
+michael, 5680, 0.244916531386
+sun, 8539, 0.222091063447
+floyd, 3558, 0.209451999764
+rice, 7381, 0.194420230555
+pink, 6634, 0.187669705343
+hut, 4453, 0.17779229633
+alex, 396, 0.170586491168
+beta, 1055, 0.162466962733
+smoke, 8067, 0.16132377429
+neat, 5985, 0.160227259835
+post, 6766, 0.156897452037
+tune, 9149, 0.155329943457
+beast, 972, 0.153596382368
+math, 5544, 0.142705235157
+viewer, 9512, 0.132957276391
+curious, 2297, 0.130361795125
+fit, 3510, 0.121172811134
+everyth, 3242, 0.115737016642
+moon, 5851, 0.109054926815
+edu, 3001, 0.0952379432681
+els, 3053, 0.0928609418367
+news, 6031, 0.0927735893237
+anyth, 555, 0.092084811224
+softwar, 8103, 0.0896486223073
+said, 7583, 0.089416728429
+number, 6156, 0.0873437870693
+mean, 5595, 0.0830104677711
+someth, 8126, 0.0790698143612
+anyon, 554, 0.0721800231267

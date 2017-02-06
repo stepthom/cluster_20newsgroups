@@ -1,0 +1,181 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61011
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mancus@sweetpea.jsc.nasa.gov (Keith Mancus)
+Subject: Re: Lindbergh and the moon (was:Why not give $1G)
+Organization: MDSSC
+Lines: 32
+
+In article <1r3nuvINNjep@lynx.unm.edu>, cook@varmit.mdc.com (Layne Cook) writes:
+> All of this talk about a COMMERCIAL space race (i.e. $1G to the first 1-year 
+> moon base) is intriguing. Similar prizes have influenced aerospace 
+> development before. The $25k Orteig prize helped Lindbergh sell his Spirit of 
+> Saint Louis venture to his financial backers.
+> But I strongly suspect that his Saint Louis backers had the foresight to 
+> realize that much more was at stake than $25,000.
+> Could it work with the moon? Who are the far-sighted financial backers of 
+> today?
+
+  The commercial uses of a transportation system between already-settled-
+and-civilized areas are obvious.  Spaceflight is NOT in this position.
+The correct analogy is not with aviation of the '30's, but the long
+transocean voyages of the Age of Discovery.  It didn't require gov't to
+fund these as long as something was known about the potential for profit
+at the destination.  In practice, some were gov't funded, some were private.
+But there was no way that any wise investor would spend a large amount
+of money on a very risky investment with no idea of the possible payoff.
+  I am sure that a thriving spaceflight industry will eventually develop,
+and large numbers of people will live and work off-Earth.  But if you ask
+me for specific justifications other than the increased resource base, I
+can't give them.  We just don't know enough.  The launch rate demanded by
+existing space industries is just too low to bring costs down much, and
+we are very much in the dark about what the revolutionary new space industries
+will be, when they will practical, how much will have to be invested to
+start them, etc.
+
+-- 
+ Keith Mancus    <mancus@butch.jsc.nasa.gov>                           |
+ N5WVR           <mancus@sweetpea.jsc.nasa.gov>                        |
+ "Black powder and alcohol, when your states and cities fall,          |
+  when your back's against the wall...." -Leslie Fish                  |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lindbergh moon give     talk commerci space race
+first year moon base intrigu similar prize
+influenc aerospac develop 25k orteig prize help
+lindbergh sell spirit saint loui ventur financi
+backer strong suspect saint loui backer foresight
+realiz much stake could work moon far sight
+financi backer today  commerci use transport
+system alreadi settl civil area obvious
+spaceflight posit correct analog aviat long
+transocean voyag age discoveri didn't requir gov't
+fund long someth known potenti profit destin
+practic gov't fund privat way wise investor spend
+larg amount money riski invest idea possibl payoff
+sure thrive spaceflight industri eventu develop
+larg number peopl live work earth ask specif
+justif increas resourc base can't give don't know
+enough launch rate demand exist space industri low
+bring cost much much dark revolutionari new space
+industri practic much invest start etc     black
+powder alcohol state citi fall back wall lesli
+fish
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+backer, 854, 0.332310644483
+industri, 4608, 0.21178186739
+lindbergh, 5284, 0.201267175548
+financi, 3484, 0.180993921441
+moon, 5851, 0.178120707585
+spaceflight, 8168, 0.176906146937
+saint, 7585, 0.17221642536
+prize, 6881, 0.163802264673
+loui, 5363, 0.154194137263
+invest, 4744, 0.152489881061
+gov, 3965, 0.147434553183
+fund, 3723, 0.132773750907
+practic, 6793, 0.128104868748
+space, 8164, 0.124446369862
+commerci, 1940, 0.123664827787
+transocean, 9062, 0.114033479863
+payoff, 6479, 0.114033479863
+thrive, 8896, 0.110770214828
+powder, 6781, 0.110770214828
+orteig, 6302, 0.110770214828
+lesli, 5221, 0.110770214828
+25k, 72, 0.110770214828
+develop, 2588, 0.108930838406
+larg, 5124, 0.1083150657
+riski, 7417, 0.108103933153
+alcohol, 391, 0.108103933153
+stake, 8305, 0.105849624119
+revolutionari, 7366, 0.105849624119
+intrigu, 4729, 0.10389685281
+foresight, 3600, 0.100633587774
+destin, 2572, 0.0992397658353
+justif, 4938, 0.0928736475538
+long, 5336, 0.0921570190742
+base, 923, 0.0915324802598
+settl, 7817, 0.0884530734686
+investor, 4746, 0.0884530734686
+fish, 3505, 0.0884530734686
+aviat, 823, 0.0884530734686
+ventur, 9461, 0.0855763700119
+discoveri, 2700, 0.08506319239
+voyag, 9588, 0.0845674140106
+influenc, 4634, 0.0840878936224
+aerospac, 304, 0.0836235987031
+sight, 7943, 0.0831735920718
+work, 9833, 0.0828619803059
+analog, 487, 0.0827370205003
+civil, 1778, 0.081110449963
+spirit, 8238, 0.0789665117284
+transport, 9065, 0.0786378673005
+wise, 9799, 0.0780019383456
+profit, 6903, 0.077694051993
+demand, 2514, 0.0770970686313
+wall, 9619, 0.0739512665689
+race, 7049, 0.0721764779225
+eventu, 3233, 0.0719690409469
+privat, 6879, 0.0711675219212
+suspect, 8603, 0.0707826559837
+potenti, 6774, 0.0700420389163
+sell, 7778, 0.0696853368037
+resourc, 7320, 0.0695101962484
+dark, 2365, 0.0693371284109
+spend, 8222, 0.0685012402471
+realiz, 7149, 0.0671074183083
+fall, 3369, 0.0669604415778
+increas, 4590, 0.065970997336
+citi, 1775, 0.065970997336
+age, 328, 0.0654342742871
+strong, 8456, 0.0647899382831
+black, 1133, 0.0639330536165
+rate, 7108, 0.0634650437064
+obvious, 6185, 0.0618324138934
+bring, 1316, 0.0618324138934
+similar, 7961, 0.0605513744796
+low, 5368, 0.0602710324459
+area, 622, 0.0594608772846
+money, 5835, 0.0589446803457
+alreadi, 443, 0.0586104015269
+known, 5054, 0.0584460844995
+specif, 8203, 0.0580431923083
+launch, 5147, 0.0574971639165
+posit, 6761, 0.0574207978861
+correct, 2156, 0.0563207259416
+today, 8964, 0.0559028671834
+cost, 2169, 0.0555635465876
+requir, 7302, 0.0544033211835
+live, 5310, 0.0536191630402
+exist, 3283, 0.0524350664835
+state, 8342, 0.0518510880685
+earth, 2956, 0.050943096112
+ask, 689, 0.0506525422847
+idea, 4482, 0.0499962242549
+talk, 8684, 0.0494561975465
+far, 3386, 0.0488503805623
+didn, 2625, 0.0488503805623
+possibl, 6765, 0.0479463586442
+number, 6156, 0.0475532150334
+sure, 8585, 0.047094982404
+start, 8334, 0.0462904561684
+someth, 8126, 0.0430485557259
+help, 4249, 0.0429632839882
+new, 6023, 0.0425994129669
+peopl, 6530, 0.0396773635464
+way, 9666, 0.0382547581227
+year, 9943, 0.0367530364994
+don, 2811, 0.0331707683779
+use, 9363, 0.0322978511398
+know, 5052, 0.0314999771943

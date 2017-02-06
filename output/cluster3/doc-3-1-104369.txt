@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104369
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jerry@sheldev.shel.isc-br.com (Gerald Lanza)
+Subject: Re: The 1964 Phillies: deja vu?
+Keywords: Phillies
+Organization: Olivetti North America (Shelton, CT)
+Lines: 21
+
+In article <1993Apr14.222601.21160@cabell.vcu.edu> csc2imd@cabell.vcu.edu (Ian M. Derby) writes:
+>
+>After reading my local paper today, I found out that the Phillies
+>started the 1964 season at 10-2.  I am not as old as 1964, but I've
+>heard many talk about the serious choke job the Phillies did that
+>season. They were ahead of the Cardinals by 15 games that season in
+>mid-August.  They managed to lose a bunch from then on and the
+>Cardinals took the division.  15!!! games ahead and lost it.... I
+>hope this season is MUCH different.
+
+
+	Strictly from memory, I think the Phillies were something like
+	ten games up with 12 to go, lost 10 in a row, and 11 of last 12
+	to lose to the Cardinals. Seems impossible, but thats how I
+	remember it. I also felt at the time that Johnny Callison of
+	the Phillies lost the MVP as a by-product of their swoon.
+
+
+					jerry
+
+	P.S. In 1964, a single team out of 8 won the pennant; no divisions.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli deja       read local paper today found
+philli start season old i'v heard mani talk
+serious choke job philli season ahead cardin game
+season mid august manag lose bunch cardin took
+divis game ahead lost hope season much differ
+strict memori think philli someth like ten game
+lost row last lose cardin seem imposs that rememb
+also felt time johnni callison philli lost mvp
+product swoon   jerri  singl team pennant divis
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.496287301532
+cardin, 1515, 0.33208834792
+season, 7747, 0.318425357426
+lost, 5355, 0.274199070129
+ahead, 342, 0.200635419289
+divis, 2767, 0.191410517461
+game, 3761, 0.187969143443
+lose, 5350, 0.181752725178
+deja, 2496, 0.140270110953
+johnni, 4879, 0.136817047841
+choke, 1718, 0.131271942626
+jerri, 4854, 0.130090459331
+row, 7501, 0.12690411386
+strict, 8445, 0.121709361614
+mvp, 5937, 0.120232281224
+pennant, 6524, 0.119531524953
+felt, 3439, 0.118197492402
+august, 784, 0.112090149524
+mid, 5698, 0.111150427235
+bunch, 1399, 0.108563263727
+imposs, 4553, 0.105904700042
+memori, 5628, 0.0936365005824
+paper, 6409, 0.0921187305529
+took, 8987, 0.0912237712762
+local, 5322, 0.087987437074
+job, 4873, 0.087987437074
+product, 6896, 0.0865413699388
+singl, 7983, 0.0857199242187
+today, 8964, 0.0790157183098
+manag, 5472, 0.0789189015974
+heard, 4224, 0.0785361067628
+old, 6216, 0.0781602722214
+rememb, 7269, 0.0761225739296
+hope, 4372, 0.0738857633901
+talk, 8684, 0.0699036949427
+team, 8732, 0.0686322050433
+start, 8334, 0.0654290885124
+differ, 2633, 0.0636473056685
+read, 7135, 0.0629219564967
+someth, 8126, 0.0608468353104
+mani, 5479, 0.0586327666849
+time, 8936, 0.0491131342352
+think, 8871, 0.0473412443564
+like, 5272, 0.0435237397516

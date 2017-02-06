@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104929
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: Braves Pitching UpdateDIR
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 23
+
+In article <1993Apr15.214032.1@acad.drake.edu> sbp002@acad.drake.edu writes:
+
+>> Not clear to me at all.  I'd certainly rather have a team who was winning
+>> 4-1 games than 2-1 games.  In the 2-1 game, luck is going to play a much
+>> bigger role than in the 4-1 game. 
+
+>But you still need the pitching staff to hold the opposing team to
+>one run.
+
+Not if you've scored four runs, you don't!  Why strain even the best pitching
+staff?  Why not make it easier for them?  
+
+In the 2-1 game, the best pitching staff in the world can't compensate
+for a blown call, a bad hop, a gust of wind.  Winning close is the 
+wrong way to win; both keeping opposing runs down AND scoring a lot 
+yourself are insurance against the "Shit happens" aspect of baseball.
+
+Not every great teamhas even *good* pitching.  The Big Red Machine of
+the 70's was league-average in pitching.  But somehow, Rose-Morgan-Bench-
+Perez-etc. managed to win 100 games more than once, peaking at 108.
+
+Roger
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave pitch updatedir origin news nimast
+clear i'd certain rather team win game game game
+luck go play much bigger role game  still need
+pitch staff hold oppos team one run  you'v score
+four run don't strain even best pitch staff make
+easier  game best pitch staff world can't compens
+blown call bad hop gust wind win close wrong way
+win keep oppos run score lot insur shit happen
+aspect basebal  everi great teamha even good pitch
+big red machin leagu averag pitch somehow rose
+morgan bench perez etc manag win game peak  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pitch, 6643, 0.428346997887
+game, 3761, 0.355675037887
+staff, 8301, 0.28473161492
+win, 9770, 0.284337585045
+oppos, 6269, 0.190864135221
+run, 7543, 0.176724699223
+score, 7705, 0.169127535343
+strain, 8424, 0.136633840773
+hop, 4371, 0.134573390524
+best, 1052, 0.13076496913
+team, 8732, 0.129865794363
+compens, 1968, 0.129442545152
+updatedir, 9334, 0.127993275577
+perez, 6537, 0.126644037882
+insur, 4690, 0.1230785229
+morgan, 5861, 0.122021174054
+shit, 7893, 0.120063922936
+blown, 1174, 0.118284861568
+nimast, 6072, 0.115149170258
+bench, 1022, 0.115149170258
+peak, 6496, 0.111224816035
+bigger, 1083, 0.11064100582
+rose, 7481, 0.108465856181
+easier, 2960, 0.106048438187
+role, 7463, 0.105159367367
+wind, 9773, 0.102331909404
+luck, 5381, 0.10088263983
+aspect, 693, 0.0970856879459
+roger, 7458, 0.0939074369025
+machin, 5416, 0.0889655416947
+hold, 4341, 0.0854951908406
+brave, 1277, 0.0836746968517
+averag, 816, 0.0832448731787
+leagu, 5176, 0.0784882150555
+red, 7194, 0.0782672388074
+clear, 1803, 0.0750341316555
+manag, 5472, 0.0746651359938
+close, 1830, 0.0741243773968
+bad, 861, 0.0720195316915
+wrong, 9869, 0.0717815223861
+origin, 6293, 0.0695483547645
+certain, 1619, 0.0691997503489
+happen, 4159, 0.0689252730029
+news, 6031, 0.06754426245
+everi, 3235, 0.0669810052471
+big, 1082, 0.0666143159439
+basebal, 924, 0.0659009411702
+world, 9841, 0.0654965151499
+great, 4016, 0.0650443287645
+play, 6681, 0.0644934137456
+lot, 5356, 0.0610186469065
+need, 5993, 0.0525805353087
+way, 9666, 0.0511566030598
+good, 3948, 0.0502705843182
+make, 5459, 0.049049515315
+don, 2811, 0.044357980925

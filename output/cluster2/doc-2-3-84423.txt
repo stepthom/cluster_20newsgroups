@@ -1,0 +1,113 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84423
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Albert Sabin
+From: lippard@skyblu.ccit.arizona.edu (James J. Lippard)
+Distribution: world,local
+Organization: University of Arizona
+Nntp-Posting-Host: skyblu.ccit.arizona.edu
+News-Software: VAX/VMS VNEWS 1.41    
+Lines: 26
+
+In article <1r67ruINNmle@ctron-news.ctron.com>, king@ctron.com (John E. King) writes...
+> 
+>rfox@charlie.usd.edu writes:
+> 
+>[Discussion on Josephus inserts]
+> 
+>Thanks.  Am I correct, then, in assuming that that Josephus
+>did in fact write about Jesus, but Christian copists embellished it?
+> 
+>Jack
+
+That is indeed the present consensus.  Contrary to what Dr. Fox has
+been saying, however, present consensus is *not* that the longer
+passage in Josephus about Jesus was inserted, but only that it was
+modified.
+   There is no question that it was *at least* modified (based on what
+Origen says--that Josephus did not recognize Jesus as the Messiah), but
+I don't think the argument that it appears "out of context" is a very
+good one.  (I haven't looked at the context for a while; perhaps somebody
+could give some of the sentences which precede and follow the Jesus
+passage.)
+
+Jim Lippard              Lippard@CCIT.ARIZONA.EDU
+Dept. of Philosophy      Lippard@ARIZVMS.BITNET
+University of Arizona
+Tucson, AZ 85721
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+albert sabin     news softwar vax vms vnew   ctron
+com john king write    discuss josephus insert
+thank correct assum josephus fact write jesus
+christian copist embellish  jack  inde present
+consensus contrari fox say howev present consensus
+longer passag josephus jesus insert modifi
+question least modifi base origen say josephus
+recogn jesus messiah don't think argument appear
+context good one haven't look context perhap
+somebodi could give sentenc preced follow jesus
+passag    univers arizona tucson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+josephus, 4894, 0.513243501404
+jesus, 4859, 0.318848116659
+consensus, 2055, 0.273945762121
+insert, 4670, 0.225453001534
+passag, 6449, 0.209135588584
+context, 2087, 0.196422335242
+modifi, 5814, 0.187793833654
+present, 6837, 0.156922898916
+origen, 6292, 0.148496271803
+tucson, 9144, 0.136972881061
+write, 9865, 0.135169947054
+fox, 3632, 0.124504501792
+messiah, 5653, 0.122323954783
+sentenc, 7794, 0.120361846983
+sabin, 7563, 0.120361846983
+preced, 6806, 0.118578371091
+arizona, 639, 0.116943698313
+albert, 383, 0.114721921602
+contrari, 2100, 0.114033966236
+recogn, 7173, 0.106772893234
+king, 5024, 0.102585833613
+say, 7653, 0.0995474456259
+somebodi, 8121, 0.0936563651442
+inde, 4594, 0.0934187293112
+jack, 4808, 0.0916147249181
+vnew, 9564, 0.0891862988851
+longer, 5337, 0.0875440141028
+vms, 9563, 0.086520927223
+com, 1917, 0.0857073367768
+vax, 9439, 0.0855485932683
+haven, 4207, 0.083737640544
+argument, 631, 0.0818167624464
+appear, 580, 0.0797120291647
+assum, 710, 0.0760790577287
+perhap, 6540, 0.0758849500422
+correct, 2156, 0.0755024068573
+discuss, 2708, 0.0754079261145
+john, 4878, 0.074130888583
+christian, 1732, 0.0695803943614
+news, 6031, 0.0677118653368
+howev, 4406, 0.0675849735269
+fact, 3350, 0.0672712913759
+softwar, 8103, 0.0654310724157
+univers, 9282, 0.0651497947617
+follow, 3578, 0.0644368174194
+base, 923, 0.0613532802507
+question, 7032, 0.0593430197242
+thank, 8832, 0.0549020094517
+good, 3948, 0.0503953246699
+look, 5341, 0.0489255493821
+think, 8871, 0.0449006689847
+don, 2811, 0.0444680498692

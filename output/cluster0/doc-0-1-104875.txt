@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104875
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pb6755@csc.albany.edu (BROWN PHILIP H)
+Subject: Re: Bob Dylan Baseball Abstract
+Distribution: na
+Organization: State University of New York at Albany
+Lines: 8
+In-Reply-To: moakler@romulus.rutgers.edu's message of 21 Apr 93 16:40:44 GMT
+
+I've never heard of the Bob Dylan Baseball Abstract, but I am curious.
+Could someone clue me in?
+
+--
+--------------------------
+Phil Brown                |
+aka pb6755@csc.albany.edu |
+--------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bob dylan basebal abstract      i'v never heard
+bob dylan basebal abstract curious could someon
+clue    phil brown
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dylan, 2941, 0.584985185965
+abstract, 199, 0.465845981034
+bob, 1189, 0.362004527283
+basebal, 924, 0.277471163273
+clue, 1844, 0.236725996783
+brown, 1344, 0.230569780676
+phil, 6588, 0.202608749271
+curious, 2297, 0.199806990638
+heard, 4224, 0.156423658438
+someon, 8124, 0.134533300387

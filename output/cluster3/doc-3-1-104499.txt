@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104499
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: brian@meaddata.com (Brian Curran)
+Subject: Re: I've found the secret!
+Organization: Mead Data Central, Dayton OH
+Lines: 19
+Distribution: world
+NNTP-Posting-Host: taurus.meaddata.com
+
+In article <1993Apr15.161730.9903@cs.cornell.edu>, tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+|> 
+|> Why are the Red Sox in first place?  Eight games into the season, they
+|> already have two wins each from Clemens and Viola.  Clemens starts
+|> again tonight, on three days rest.
+
+Huh?  Clemens pitched last on Saturday, giving him his usual four days
+rest.  
+
+|> What's up?  Are the Sox going with a four-man rotation?  Is this why
+|> Hesketh was used in relief last night?
+-- 
+------------------------------------------------------------------------------
+Brian Curran                 Mead Data Central              brian@meaddata.com 
+------------------------------------------------------------------------------
+            "I didn't think I should've been asked to catch
+                 when the temperature was below my age."
+               - Carlton Fisk, Chicago White Sox catcher, 
+              on playing during a 40-degree April ball game
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ i'v found secret        red sox first place eight
+game season alreadi two win clemen viola clemen
+start tonight three day rest  huh clemen pitch
+last saturday give usual four day rest  what sox
+go four man rotat hesketh use relief last night
+didn't think should'v ask catch temperatur age
+carlton fisk chicago white sox catcher play degre
+april ball game
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clemen, 1807, 0.443745333007
+sox, 8162, 0.376390303895
+rest, 7324, 0.232007619555
+hesketh, 4278, 0.196577317864
+fisk, 3507, 0.192950752825
+carlton, 1524, 0.17976489715
+game, 3761, 0.164649334136
+viola, 9525, 0.164269529382
+day, 2402, 0.16107156121
+saturday, 7639, 0.157053325067
+secret, 7755, 0.154464805924
+relief, 7257, 0.154464805924
+huh, 4429, 0.152101673093
+temperatur, 8773, 0.14856957387
+tonight, 8985, 0.147915111002
+catch, 1556, 0.143728548911
+catcher, 1557, 0.140101983872
+chicago, 1701, 0.136475418832
+rotat, 7490, 0.126035221957
+degre, 2491, 0.126035221957
+age, 328, 0.121520451705
+white, 9737, 0.116406171133
+usual, 9377, 0.114640711788
+april, 595, 0.112804952708
+night, 6063, 0.110264888341
+alreadi, 443, 0.108847580962
+red, 7194, 0.1086945727
+ball, 877, 0.106217246731
+season, 7747, 0.10459533832
+pitch, 6643, 0.0991453440204
+win, 9770, 0.0987193134059
+ask, 689, 0.0940687412753
+man, 5471, 0.0938029098405
+place, 6657, 0.0930206796006
+didn, 2625, 0.0907218789629
+play, 6681, 0.0895660068738
+start, 8334, 0.0859677470945
+think, 8871, 0.062201999363
+use, 9363, 0.059981554046

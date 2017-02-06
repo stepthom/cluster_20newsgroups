@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104363
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: re4@prism.gatech.EDU (RUSSELL EARNEST)
+Subject: Re: Players Rushed to Majors
+Organization: Georgia Institute of Technology
+Lines: 29
+
+In article <1993Apr15.145753.21557@holos0.uucp>, lbr@holos0.uucp (Len Reed) writes:
+> In article <C5Hq3o.G4p@tss.com> hanson@tss.com (Hanson Loo) writes:
+> >Didn't Bob Horner go straight from Arizona State Univ.
+> >to the Atlanta Braves? I remember he had one great
+> >month hitting dingers and then the next I heard
+> >he was in Japan.
+> A month?  Well, he did have a short career--compared to what one might
+> have expected for such a highly touted prospect--due to being injury prone,
+> overweight, and having no work ethic.  But he certainly did not
+> suffer from being rushed to the bigs.
+
+Sorry Len, this is exactly how he suffered from being rushed to the bigs.
+Being overweight and having no work ethic, leading to being injury prone with
+nothing to loose, might have been corrected in Richmond.  (Did you intend a 
+smiley after your comment?)
+
+This brings back the long suffering memories of pre-chop Braves fans who
+kept being promised the Bob Horner - Dale Murphy back to back power slam.  Who
+could stop that?  Guess we'll never know.
+
+P.S. - Rocky fans (are there any yet?)  Is Dale getting any playing time out
+there?  I plan to be at the game on June 28th, they'll have to play him then.
+
+
+-- 
+"Read that to memory and process it!" - RUSSELL EARNEST
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp: ...!{allegra,amd,hplabs,seismo,ut-ngp}!gatech!prism!re4
+ARPA: russell.earnest@housing.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ player rush major      didn't bob horner straight
+arizona state univ atlanta brave rememb one great
+month hit dinger next heard japan month well short
+career compar one might expect high tout prospect
+due injuri prone overweight work ethic certain
+suffer rush big  sorri len exact suffer rush big
+overweight work ethic lead injuri prone noth loos
+might correct richmond intend smiley comment
+bring back long suffer memori pre chop brave fan
+kept promis bob horner dale murphi back back power
+slam could stop guess we'll never know  rocki fan
+yet dale get play time plan game 28th they'll play
+read memori process russel earnest georgia
+institut technolog atlanta georgia uucp allegra
+amd hplab seismo ngp gatech prism re4
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rush, 7547, 0.304564769676
+suffer, 8521, 0.244714241406
+overweight, 6355, 0.238486535093
+horner, 4377, 0.238486535093
+prone, 6916, 0.208925225511
+dale, 2341, 0.199644045958
+georgia, 3848, 0.183488067509
+ethic, 3209, 0.180680912353
+injuri, 4650, 0.172078956463
+atlanta, 749, 0.155736312504
+memori, 5628, 0.14614640397
+bob, 1189, 0.141838423218
+brave, 1277, 0.138038514893
+month, 5847, 0.132963059486
+fan, 3381, 0.128400846273
+seismo, 7771, 0.12218429041
+earnest, 2955, 0.119243267547
+amd, 464, 0.119243267547
+28th, 79, 0.119243267547
+dinger, 2657, 0.116756668146
+big, 1082, 0.10989392958
+play, 6681, 0.106395067909
+slam, 8015, 0.105575534431
+len, 5210, 0.105575534431
+loos, 5345, 0.104462612755
+hplab, 4409, 0.104462612755
+tout, 9021, 0.102443610332
+ll, 5314, 0.102199302687
+murphi, 5928, 0.100649433375
+chop, 1721, 0.100649433375
+russel, 7549, 0.0998220229791
+prism, 6876, 0.0998220229791
+smiley, 8063, 0.0982845776937
+richmond, 7386, 0.0982845776937
+arizona, 639, 0.0962225019034
+gatech, 3789, 0.09328147904
+univ, 9280, 0.0927525475176
+work, 9833, 0.0914003126328
+prospect, 6937, 0.0907948796397
+pre, 6802, 0.0882425735655
+japan, 4825, 0.0871034439782
+rocki, 7450, 0.0823714603814
+straight, 8422, 0.0818337117141
+kept, 4989, 0.0815714138021
+intend, 4700, 0.0791593224611
+uucp, 9388, 0.0776626634583
+promis, 6913, 0.0757400375193
+career, 1517, 0.0746876448686
+institut, 4683, 0.0741861236606
+stop, 8413, 0.0682038003417
+bring, 1316, 0.0682038003417
+compar, 1960, 0.0678665553163
+plan, 6660, 0.0658803061345
+lead, 5172, 0.0654915893454
+process, 6890, 0.0652060780661
+comment, 1936, 0.0647411765473
+technolog, 8743, 0.0641120340595
+exact, 3253, 0.0640241266694
+short, 7904, 0.0637632428242
+guess, 4079, 0.0625185923067
+expect, 3290, 0.0625185923067
+sorri, 8142, 0.0622022887182
+correct, 2156, 0.0621241725067
+heard, 4224, 0.061288971255
+power, 6783, 0.0598730658459
+rememb, 7269, 0.0594054688694
+major, 5458, 0.0592091463712
+noth, 6119, 0.0586970091929
+state, 8342, 0.0571939705317
+certain, 1619, 0.0570795660368
+hit, 4316, 0.0564096718748
+player, 6683, 0.0556617447791
+high, 4292, 0.0545523037308
+didn, 2625, 0.0538840616546
+great, 4016, 0.0536519574176
+long, 5336, 0.0508265692155
+read, 7135, 0.0491038089611
+game, 3761, 0.0488965560095
+time, 8936, 0.0383275107012
+know, 5052, 0.0347458237524

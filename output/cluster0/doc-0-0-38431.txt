@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38431
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: neideck@nestvx.enet.dec.com (Burkhard Neidecker-Lutz)
+Subject: Re: Rumours about 3DO ???
+Organization: CEC Karlsruhe
+Lines: 17
+NNTP-Posting-Host: NESTVX
+Keywords: 3DO ARM QT Compact Video
+
+In article <2BD07605.18974@news.service.uci.edu> rbarris@orion.oac.uci.edu (Robert C. Barris) writes:
+>I'm not sure how a Centris/20MHz 040 stacks up against the 25 MHz ARM in
+>the 3DO box. Obviously the ARM is faster, but how much?
+
+Why would it have to be much faster (it probably is) ? Assuming an ARM
+is about as efficient as a MIPS R3000 for integer calculations, doing
+a Compact-Video-like digital video codec is an easy task. For Software
+Motion Pictures (which is a lot like Compact Video, though it predates
+it), we get 48 frames/sec. at 320x240 on a DECstation 5000/200. That
+machine has a 25 Mhz MIPS R3000. 
+
+		Burkhard Neidecker-Lutz
+
+Distributed Multimedia Group, CEC Karlsruhe          EERP Portfolio Manager
+Software Motion Pictures & BERKOM II Project         Multimedia Base Technology
+Digital Equipment Corporation
+neidecker@nestvx.enet.dec.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do       i'm sure centri 20mhz stack mhz
+arm 3do box obvious arm faster much  much faster
+probabl assum arm effici mip r3000 integ calcul
+compact video like digit video codec easi task
+softwar motion pictur lot like compact video
+though predat get frame sec 320x240 decstat machin
+mhz mip r3000  burkhard neideck lutz  distribut
+multimedia group cec karlsruh eerp portfolio manag
+softwar motion pictur berkom project multimedia
+base technolog digit equip corpor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+arm, 643, 0.30382991927
+mip, 5748, 0.272414441343
+video, 9506, 0.264938524005
+mhz, 5676, 0.252497219092
+compact, 1956, 0.245388454773
+multimedia, 5918, 0.235831067186
+3do, 98, 0.226793062728
+motion, 5880, 0.207966548152
+faster, 3399, 0.191336481632
+digit, 2642, 0.187718898018
+pictur, 6622, 0.164582205267
+portfolio, 6751, 0.15201640936
+320x240, 90, 0.15201640936
+20mhz, 62, 0.15201640936
+karlsruh, 4959, 0.147666197176
+predat, 6815, 0.14110662772
+codec, 1872, 0.138503416075
+stack, 8299, 0.134153203891
+decstat, 2458, 0.134153203891
+centri, 1612, 0.134153203891
+softwar, 8103, 0.130130642654
+integ, 4693, 0.129038378867
+sec, 7752, 0.116289998421
+rumour, 7542, 0.113396531364
+task, 8707, 0.10712721732
+effici, 3006, 0.106645831667
+equip, 3161, 0.0982714524605
+corpor, 2154, 0.0982714524605
+frame, 3643, 0.0943593514863
+calcul, 1451, 0.093859449009
+distribut, 2753, 0.0913180286313
+machin, 5416, 0.0886877592051
+easi, 2959, 0.08603728662
+obvious, 6185, 0.0824279111137
+like, 5272, 0.0820984359535
+box, 1254, 0.0796198450965
+technolog, 8743, 0.0774827944821
+assum, 710, 0.0756537858027
+manag, 5472, 0.0744320045255
+project, 6909, 0.0723597765069
+group, 4064, 0.0678464242205
+probabl, 6885, 0.0637578955409
+sure, 8585, 0.0627816509021
+base, 923, 0.061010323484
+lot, 5356, 0.0608281246961

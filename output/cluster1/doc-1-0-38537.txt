@@ -1,0 +1,188 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38537
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jbrandt@NeoSoft.com (J Brandt)
+Subject: Beta Testers Wanted for Graphics Libraries
+Organization: NeoSoft Communications Services -- (713) 684-5900
+Keywords: xeg ceg beta imsl vni x graphics
+Lines: 48
+
+
+  Visual Numerics Inc. (formerly IMSL and Precision Visuals) is in the
+process of securing sites for beta testing X Exponent Graphics 1.0 
+and C Exponent Graphics 2.0.  (Both X Exponent Graphics and C Exponent
+Graphics are 3GL products).  The beta period is from April 26 through 
+June 18.  The platform is HP9000/700 running under OS 8.07 with 
+ansi C 8.71 compiler.  The media will be sent on 4mm DAT cartridge 
+tape.  Here are some of the key facts about the two products.
+ 
+X Exponent Graphics 1.0 key facts:
+ 
+1. Complete collection of high-level 2D and 3D application plot types
+   available through a large collection of X resources.
+2. Cstom widget for OSF/Motif developers.
+3. Built-in interactive GUI for plot customization.
+4. Easily-implemented callbacks for customized application feedback.
+5. XEG 1.0, being built on the Xt Toolkit provides the user a widget 
+   library that conforms to the expected syntax and standards familar 
+   to X programmers.
+6. XEG will also be sold as a bundle with Visual Edge's UIM/X product.
+   This will enable user to use a GUI builder to create the graphical
+   layout of an application.
+ 
+C Exponent Graphics 2.0 key facts:
+ 
+1. Written in C for C application programmers/developers.  The library
+   is 100% written in C, and the programming interface conforms to C
+   standards, taking advantage fo the most desirable features of C.
+2. Build-in GUI for interactive plot customization.  Through mouse 
+   interaction, the user has complete interactive graph output control
+   with over 200 graphics attributes for plot customization.
+3. Large collection of high-level application functions for "two-call"
+   graph creation.  A wide variety of 2D and 3D plot types are available
+   with minimal programming effort.
+4. User ability to interrupt and control the X event.  By controlling
+   the X event loop, when the user use the mouse to manipulate the  plot
+   the user can allow CEG to control the event loop or the user can 
+   control the event loop.
+ 
+If anyone is interested in beta testing either of the products, please
+contact Wendy Hou at Visual Numerics via email at hou@imsl.com or call
+713-279-1066.
+ 
+ 
+-- 
+Jaclyn Brandt
+jbrandt@NeoSoft.com
+--
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ beta tester want graphic librari      visual
+numer inc former imsl precis visual process secur
+site beta test expon graphic expon graphic expon
+graphic expon graphic 3gl product beta period
+april platform hp9000 run ansi compil media sent
+4mm dat cartridg tape key fact two product  expon
+graphic key fact  complet collect high level
+applic plot type avail larg collect resourc cstom
+widget osf motif develop built interact gui plot
+custom easili implement callback custom applic
+feedback xeg built toolkit provid user widget
+librari conform expect syntax standard familar
+programm xeg also sold bundl visual edg uim
+product enabl user use gui builder creat graphic
+layout applic  expon graphic key fact  written
+applic programm develop librari written program
+interfac conform standard take advantag desir
+featur build gui interact plot custom mous
+interact user complet interact graph output
+control graphic attribut plot custom larg collect
+high level applic function two call graph creation
+wide varieti plot type avail minim program effort
+user abil interrupt control event control event
+loop user use mous manipul plot user allow ceg
+control event loop user control event loop  anyon
+interest beta test either product pleas
+jaclyn brandt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+plot, 6694, 0.30872517397
+user, 9366, 0.294898659738
+graphic, 3997, 0.289197386758
+beta, 1055, 0.236132544592
+applic, 585, 0.213741361987
+custom, 2311, 0.20660549837
+control, 2107, 0.203658560674
+interact, 4704, 0.20070142612
+gui, 4081, 0.193805004884
+event, 3232, 0.177225066508
+loop, 5344, 0.177099408444
+product, 6896, 0.163450884602
+visual, 9547, 0.149516311757
+collect, 1898, 0.141342152636
+key, 4994, 0.134361459908
+widget, 9751, 0.132464240713
+librari, 5250, 0.129974945115
+conform, 2035, 0.119842045976
+mous, 5889, 0.117235506485
+graph, 3996, 0.114936375713
+fact, 3350, 0.100471155054
+programm, 6906, 0.0990268125732
+built, 1381, 0.0854965447947
+written, 9867, 0.0851791386106
+test, 8812, 0.0802036290957
+level, 5229, 0.0800820084516
+standard, 8313, 0.0799611408814
+type, 9177, 0.076242213628
+syntax, 8656, 0.0761053706586
+brandt, 1271, 0.0761053706586
+complet, 1975, 0.075461307487
+develop, 2588, 0.0726998934255
+larg, 5124, 0.0722889298205
+osf, 6309, 0.072148021021
+hp9000, 4407, 0.072148021021
+callback, 1463, 0.072148021021
+dat, 2384, 0.0681906713835
+avail, 811, 0.0678034546837
+cartridg, 1539, 0.0671623501048
+builder, 1379, 0.0671623501048
+high, 4292, 0.0660136347702
+interrupt, 4721, 0.0653828871318
+bundl, 1400, 0.0653828871318
+layout, 5161, 0.0646016682948
+feedback, 3428, 0.0646016682948
+ansi, 534, 0.0646016682948
+program, 6905, 0.0605906755358
+toolkit, 8989, 0.0603972162155
+secur, 7762, 0.0594669864671
+enabl, 3083, 0.0578365344056
+motif, 5879, 0.0571132387363
+sold, 8109, 0.056439866578
+minim, 5739, 0.0549353520717
+varieti, 9431, 0.0529262308531
+numer, 6157, 0.0518526193534
+compil, 1972, 0.0518526193534
+attribut, 773, 0.0508854896551
+interfac, 4709, 0.0507030539675
+manipul, 5483, 0.0501753565301
+tape, 8700, 0.0500056126845
+platform, 6676, 0.0495134062866
+creation, 2218, 0.0493547031945
+output, 6329, 0.0491985394612
+desir, 2565, 0.0478952697158
+advantag, 286, 0.0476278550396
+wide, 9747, 0.0474968460241
+media, 5605, 0.0474968460241
+precis, 6809, 0.0473675722784
+implement, 4544, 0.0471140508788
+edg, 2993, 0.0465076431349
+resourc, 7320, 0.0463907552095
+easili, 2962, 0.0461610969639
+function, 3722, 0.0457173830512
+featur, 3422, 0.0457173830512
+abil, 177, 0.0457173830512
+effort, 3007, 0.0456095363725
+sent, 7793, 0.0443062666271
+period, 6546, 0.0434962146078
+use, 9363, 0.0431108466638
+april, 595, 0.0405384379952
+site, 7994, 0.0402245837781
+process, 6890, 0.0394528730033
+build, 1378, 0.0393959630746
+expect, 3290, 0.0378268124042
+creat, 2217, 0.0377306537435
+allow, 432, 0.0374013686534
+provid, 6949, 0.0361038826268
+run, 7543, 0.0293996856168
+pleas, 6688, 0.0287113826056
+want, 9634, 0.0265868087351
+anyon, 554, 0.0262269513797

@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61360
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: pvtmakela@hylkn1.Helsinki.FI (M{kel{ Veikko)
+Subject: Astro FTP list - notes
+Organization: University of Helsinki
+Lines: 27
+
+
+
+    Hello, All!
+
+  I apologize, I haven't published my astro FTP list since March.
+  Now I haven't tested all the sites included into the list.  I
+  would notified all the people, you have stored some older issues
+  of my, there are now lots of changes.  Many sites have gone away:
+  They either do not exist any more or all the astro stuff have
+  removed.
+ 
+  The job keep this list is very hard, so all the notes and informat-
+  ion of changes, new sites, new contents etc. is welcome.
+
+  I would thank all the net people who give me information for the
+  newest version.
+
+
+
+  					regards,
+
+					Veikko Makela
+
+					Computing Centre
+					Univ. of Helsinki
+					F I N L A N D
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ astro ftp list note      hello  apolog haven't
+publish astro ftp list sinc march haven't test
+site includ list notifi peopl store older issu lot
+chang mani site gone away either exist astro stuff
+remov  job keep list hard note informat ion chang
+new site new content etc welcom  thank net peopl
+give inform newest version    regard  veikko
+makela  comput centr univ helsinki
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+astro, 724, 0.373183030354
+list, 5298, 0.360379460563
+site, 7994, 0.304147955462
+haven, 4207, 0.210142153624
+ftp, 3709, 0.198875240529
+veikko, 9450, 0.191817131974
+note, 6118, 0.177508986158
+chang, 1650, 0.176769143178
+notifi, 6121, 0.169277007158
+newest, 6029, 0.166932441973
+ion, 4752, 0.166932441973
+new, 6023, 0.143314002675
+univ, 9280, 0.141445289644
+older, 6218, 0.136436894705
+peopl, 6530, 0.133483571472
+centr, 1610, 0.133396076001
+march, 5504, 0.131737066656
+apolog, 571, 0.131208028728
+welcom, 9701, 0.129685936149
+content, 2084, 0.125614394255
+store, 8417, 0.124794341135
+hello, 4247, 0.121762902531
+gone, 3943, 0.119711772025
+remov, 7272, 0.117516747213
+publish, 6974, 0.11363918308
+job, 4873, 0.104711956339
+test, 8812, 0.101073222388
+regard, 7224, 0.100767636899
+issu, 4793, 0.100316260648
+net, 6010, 0.099009795298
+away, 833, 0.0975018443211
+version, 9479, 0.0957073488624
+stuff, 8472, 0.094266977546
+hard, 4167, 0.093127916867
+exist, 3283, 0.0882016762076
+comput, 1993, 0.0852840561283
+includ, 4579, 0.0846450769426
+inform, 4637, 0.0808530757328
+lot, 5356, 0.0767540587997
+sinc, 7977, 0.074988327745
+mani, 5479, 0.0697775944988
+thank, 8832, 0.0688891305601

@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84127
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: ekr@kyle.eitech.com (Eric Rescorla)
+Subject: Re: What part of "No" don't you understand?
+Organization: EIT
+Lines: 37
+NNTP-Posting-Host: kyle.eitech.com
+
+In article <1993Apr24.214843.10940@midway.uchicago.edu> eeb1@midway.uchicago.edu writes:
+>In article <1rbh3n$hav@kyle.eitech.com>
+>ekr@kyle.eitech.com (Eric Rescorla) writes:
+>>In article <1993Apr24.002509.4017@midway.uchicago.edu>
+>>eeb1@midway.uchicago.edu writes:
+>
+>>>A "moment of silence" doesn't mean much unless *everyone*
+>>>participates.  Otherwise it's not silent, now is it?
+>
+>>>Non-religious reasons for having a "moment of silence" for a dead
+>>>classmate: (1) to comfort the friends by showing respect to the
+>>>deceased , (2) to give the classmates a moment to grieve together, (3)
+>>>to give the friends a moment to remember their classmate *in the
+>>>context of the school*, (4) to deal with the fact that the classmate
+>>>is gone so that it's not disruptive later.
+>
+>>Yeah, all well and good. The fact is, though, that the pro-school
+>>prayer types have tried to use a moment of silence as a way
+>>to get prayer back. At my high school for instance, our dear
+>>principal ended the moment of silence with "Amen."
+>I can certainly see opposing the "Amen" -- but that doesn't require 
+>opposing a moment of silence.
+I see it as the camel's nose.
+
+>>I'll back off when they do.
+>Does anybody else besides me see a vicious circle here?  I guarantee
+>you the people who want school prayer aren't going to back off when
+>they can't even manage to get a quiet moment for their kids to pray
+>silently.
+I'm willing to take my chances on winning the whole thing, personally.
+-Ekr
+
+
+-- 
+Eric Rescorla                                     ekr@eitech.com
+        "What we've got here is failure to communicate."
+        
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ part don't understand           moment silenc
+doesn't mean much unless everyon particip otherwis
+it silent  non religi reason moment silenc dead
+classmat comfort friend show respect deceas give
+classmat moment griev togeth give friend moment
+rememb classmat context school deal fact classmat
+gone it disrupt later  yeah well good fact though
+pro school prayer type tri use moment silenc way
+get prayer back high school instanc dear princip
+end moment silenc amen certain see oppos amen
+doesn't requir oppos moment silenc see camel nose
+i'll back anybodi els besid see vicious circl
+guarante peopl want school prayer aren't go back
+can't even manag get quiet moment kid pray silent
+i'm will take chanc win whole thing person ekr
+we'v got failur communic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moment, 5828, 0.503261415651
+silenc, 7953, 0.394738430046
+classmat, 1793, 0.369876860807
+prayer, 6801, 0.249886287825
+school, 7685, 0.249167942764
+amen, 466, 0.177323500063
+silent, 7954, 0.165159701856
+oppos, 6269, 0.129170465341
+friend, 3692, 0.118437823827
+ekr, 3023, 0.100248557289
+griev, 4046, 0.0978355359584
+deceas, 2434, 0.0957953554934
+vicious, 9502, 0.0940280707885
+disrupt, 2740, 0.0924692152017
+fact, 3350, 0.0908285416933
+doesn, 2793, 0.0858628155898
+quiet, 7040, 0.0840519194796
+nose, 6115, 0.0812552488099
+princip, 6869, 0.0800512395575
+dear, 2422, 0.079487964105
+pray, 6800, 0.0789476860092
+comfort, 1929, 0.0774477836399
+guarante, 4076, 0.0752732367877
+failur, 3361, 0.0720814628832
+pro, 6883, 0.0703141781783
+particip, 6440, 0.0692548149063
+instanc, 4680, 0.0692548149063
+circl, 1765, 0.0687553225914
+kid, 5008, 0.0665067130083
+context, 2087, 0.06630151548
+yeah, 9942, 0.0660994508609
+communic, 1950, 0.0653206982869
+religi, 7260, 0.0649478574215
+gone, 3943, 0.0644075793257
+besid, 1051, 0.0629076769564
+togeth, 8969, 0.0612789796484
+respect, 7321, 0.0599543775301
+otherwis, 6313, 0.0593386862647
+dead, 2415, 0.0589825667855
+aren, 623, 0.0577531203248
+chanc, 1649, 0.0575413561997
+later, 5140, 0.0555011757346
+unless, 9289, 0.0538923956244
+anybodi, 552, 0.0538129060433
+deal, 2418, 0.0534996375611
+everyon, 3241, 0.0527474479172
+non, 6097, 0.0524581473174
+type, 9177, 0.0516937105647
+manag, 5472, 0.0505308676766
+requir, 7302, 0.0492357486971
+rememb, 7269, 0.0487404111384
+win, 9770, 0.0481075427447
+understand, 9246, 0.0474544513117
+certain, 1619, 0.0468320774026
+els, 3053, 0.045754739151
+end, 3091, 0.0456260349718
+high, 4292, 0.0447585342391
+person, 6562, 0.0440956723463
+got, 3960, 0.043428221236
+reason, 7156, 0.0426898239603
+ll, 5314, 0.0419257361806
+mean, 5595, 0.0409011821821
+tri, 9087, 0.0383297748123
+thing, 8869, 0.0361567189728
+want, 9634, 0.0360527516239
+peopl, 6530, 0.0359085559123
+way, 9666, 0.0346210785743
+good, 3948, 0.0340214507133
+don, 2811, 0.0300199984195
+use, 9363, 0.0292299963969

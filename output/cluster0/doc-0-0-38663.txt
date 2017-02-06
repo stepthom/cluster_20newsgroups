@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38663
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: deweeset@ptolemy2.rdrc.rpi.edu (Thomas E. DeWeese)
+Subject: Finding equally spaced points on a sphere.
+Article-I.D.: rpi.4615trd
+Organization: Rensselaer Polytechnic Institute, Troy, NY
+Lines: 8
+Nntp-Posting-Host: ptolemy2.rdrc.rpi.edu
+
+
+  Hello, I know that this has been discussed before.  But at the time
+I didn't need to teselate a sphere.  So if any kind soul has the code
+or the alg, that was finally decided upon as the best (as I recall it
+was a nice, iterative subdivision meathod), I would be very 
+appreciative.
+							Thomas DeWeese
+deweeset@rdrc.rpi.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ find equal space point sphere articl rpi 4615trd
+hello know discuss time didn't need tesel sphere
+kind soul code alg final decid upon best recal
+nice iter subdivis meathod appreci thoma dewees
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sphere, 8226, 0.45411757632
+subdivis, 8486, 0.30818489727
+rpi, 7508, 0.296191266829
+iter, 4799, 0.296191266829
+soul, 8149, 0.229092878061
+thoma, 8878, 0.206970682227
+hello, 4247, 0.206362049914
+recal, 7166, 0.204587715202
+equal, 3156, 0.198161085033
+decid, 2442, 0.180600454321
+nice, 6047, 0.168769996586
+code, 1871, 0.165697913492
+final, 3482, 0.163696381635
+appreci, 587, 0.161168906414
+discuss, 2708, 0.160359355288
+kind, 5021, 0.14871797077
+best, 1052, 0.139384678859
+didn, 2625, 0.139263661146
+articl, 665, 0.134366647978
+space, 8164, 0.118258083041
+point, 6710, 0.117678030929
+need, 5993, 0.112093033432
+time, 8936, 0.0990576674983
+know, 5052, 0.0898007773856

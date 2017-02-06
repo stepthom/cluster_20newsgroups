@@ -1,0 +1,137 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61415
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mrowley@pebbles.es.com (Michael Rowley)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+Keywords: Galileo, JPL
+Nntp-Posting-Host: 130.187.85.70
+Organization: Design Systems Division, Evans & Sutherland, SLC, UT
+Lines: 27
+
+In article <1993Apr26.193924.1189@bnr.ca> jcobban@bnr.ca (Jim Cobban) writes:
+>Having read in the past about the fail-safe mechanisms on spacecraft, I had
+>assumed that the Command Loss Timer had that sort of function.  However I
+>always find disturbing the oxymoron of a "NO-OP" command that does something.
+>If the command changes the behavior or status of the spacecraft it is not
+>a "NO-OP" command.
+>
+>Of course this terminology comes from a Jet Propulsion Laboratory which has
+>nothing to do with jet propulsion.
+>
+
+	I don't know where you got this idea from, JPL's history dates back to 
+	to the 1930s when a Caltech professor named Von Karman conducted  
+	experiments in rocket PROPULSION with a group of graduate students
+	on the present site of the Jet Propulsion Laboratory.   The Army started
+	funding the laboratory and had jurisdiction untill the late 1950s when
+	NASA took over. The early research conducted at the Laboratory
+	led to many applications the first being Jet-assisted takeoff rockets
+	for aircraft.  I think this should explain where JPL got it's name, I
+	should know, I worked there for five wonderful years.
+----------mike. 
+>-- 
+>-------------------------------------------------------------------------------
+>Jim Cobban   |  jcobban@bnr.ca                        |  Phone: (613) 763-8013
+>BNR Ltd.     |  bnrgate.bnr.ca!bcars5!jcobban         |  FAX:   (613) 763-2626
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ command loss timer galileo updat       read past
+fail safe mechan spacecraft assum command loss
+timer sort function howev alway find disturb
+oxymoron command someth command chang behavior
+status spacecraft command  cours terminolog come
+jet propuls laboratori noth jet propuls   don't
+know got idea jpl histori date back 1930s caltech
+professor name von karman conduct experi rocket
+propuls group graduat student present site jet
+propuls laboratori armi start fund laboratori
+jurisdict until late 1950s nasa took earli
+research conduct laboratori led mani applic first
+jet assist takeoff rocket aircraft think explain
+jpl got it name know work five wonder year mike
+bnr ltd bnrgate bnr bcars5 jcobban fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+command, 1933, 0.349446827684
+laboratori, 5090, 0.321136299163
+jet, 4860, 0.315340747162
+propuls, 6936, 0.30918492761
+bnr, 1185, 0.230557598767
+timer, 8938, 0.200473123806
+conduct, 2021, 0.180214610439
+jpl, 4912, 0.164893913621
+loss, 5352, 0.153359268341
+rocket, 7447, 0.148162305962
+spacecraft, 8166, 0.141957602194
+karman, 4961, 0.124191680014
+jurisdict, 4934, 0.120637720531
+1950s, 35, 0.120637720531
+takeoff, 8679, 0.1177339242
+terminolog, 8797, 0.113152073532
+von, 9581, 0.109598114049
+oxymoron, 6364, 0.106694317718
+got, 3960, 0.104521835692
+disturb, 2756, 0.102112467051
+caltech, 1468, 0.102112467051
+graduat, 3981, 0.095654711236
+armi, 645, 0.0950045480846
+professor, 6901, 0.0905827669609
+galileo, 3755, 0.0905827669609
+aircraft, 359, 0.0887605778359
+behavior, 1000, 0.0875189010858
+status, 8352, 0.0867418306053
+led, 5188, 0.0860009162937
+safe, 7577, 0.0827391996068
+assist, 705, 0.0795431604791
+student, 8468, 0.0793036554316
+mechan, 5603, 0.0793036554316
+fail, 3360, 0.0757022241235
+function, 3722, 0.0746033894566
+late, 5139, 0.0730854046645
+fund, 3723, 0.0723006752344
+took, 8987, 0.070289222158
+date, 2391, 0.0700215387893
+applic, 585, 0.0697582801423
+updat, 9333, 0.0689936476051
+histori, 4314, 0.0688697031233
+mike, 5710, 0.0687467157514
+know, 5052, 0.0686120443374
+past, 6456, 0.067340498334
+fax, 3413, 0.0668980591745
+experi, 3295, 0.0666813648722
+earli, 2951, 0.0660484291812
+site, 7994, 0.0656400276885
+explain, 3301, 0.0643807202733
+present, 6837, 0.063741737737
+assum, 710, 0.0618062931351
+sort, 8144, 0.0612610687526
+research, 7307, 0.0612610687526
+alway, 457, 0.0601520278786
+nasa, 5956, 0.0599391946153
+noth, 6119, 0.0579540411233
+wonder, 9821, 0.0578300966415
+chang, 1650, 0.0572244424679
+group, 4064, 0.0554279728245
+howev, 4406, 0.054905736349
+cours, 2190, 0.054499936422
+idea, 4482, 0.0544499307749
+start, 8334, 0.0504140496902
+read, 7135, 0.0484822685682
+someth, 8126, 0.0468833579769
+come, 1923, 0.0461848359861
+mani, 5479, 0.0451773863939
+work, 9833, 0.0451216982759
+year, 9943, 0.0400270285004
+think, 8871, 0.0364771067371
+don, 2811, 0.0361256488634

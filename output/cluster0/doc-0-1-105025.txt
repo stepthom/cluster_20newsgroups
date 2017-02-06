@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105025
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kkeller@mail.sas.upenn.edu (Keith Keller)
+Subject: Mattingly
+Organization: University of Pennsylvania, School of Arts and Sciences
+Lines: 15
+Nntp-Posting-Host: mail.sas.upenn.edu
+
+Just to add to this vein, consider that range of a first baseman is not
+the only important thing.  He is IMO the best fielder of bad throws from
+the other infielders.  I have seen him scoop balls out of the dirt, catch
+balls off a large bounce, take down balls over his head, wide, etc. ad
+infinitum.  *And* he gets the out, much of the time.  Some of the things
+he does to save his infielders of errors are amazing.  You have to give
+Mattingly credit for being able to do all of that while keeping his foot
+near the bag (yes, I am sure he gets a few calls because he is Mattingly :-)
+
+--
+    Keith Keller				LET'S GO RANGERS!!!!!
+	kkeller@mail.sas.upenn.edu		IVY LEAGUE CHAMPS!!!!
+     In this corner				LET'S GO QUAKERS!!!!!
+     Weighing in at almost every weight imaginable . . . 
+     Life, and all that surrounds it.		     -- Blues Traveler, 1993
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mat     add vein consid rang first baseman import
+thing imo best fielder bad throw infield seen
+scoop ball dirt catch ball larg bounc take ball
+head wide etc infinitum get much time thing save
+infield error amaz give mat credit abl keep foot
+near bag yes sure get call mat   keith keller let
+ranger  corner let quaker weigh almost everi
+weight imagin life surround blue travel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mat, 5540, 0.389128185895
+ball, 877, 0.284178142308
+infield, 4627, 0.274061691742
+quaker, 7013, 0.183460029662
+keller, 4976, 0.183460029662
+vein, 9453, 0.175310440724
+scoop, 7703, 0.175310440724
+dirt, 2670, 0.169223432461
+let, 5225, 0.152982210337
+bounc, 1249, 0.146497896637
+weigh, 9694, 0.144478336733
+imo, 4533, 0.144478336733
+corner, 2149, 0.140883502152
+bag, 864, 0.139268191203
+keith, 4974, 0.137753905166
+baseman, 928, 0.136328747795
+surround, 8595, 0.135646429784
+foot, 3587, 0.134982807789
+fielder, 3467, 0.133707740365
+thing, 8869, 0.132337320648
+ranger, 7095, 0.130786047554
+credit, 2225, 0.12918850022
+travel, 9069, 0.128678572172
+catch, 1556, 0.128179158858
+amaz, 459, 0.128179158858
+weight, 9695, 0.126278522373
+wide, 9747, 0.117869191668
+blue, 1176, 0.111639077006
+imagin, 4518, 0.109951381414
+rang, 7094, 0.109490021034
+error, 3180, 0.109262595066
+throw, 8899, 0.108592855963
+add, 260, 0.103994103979
+head, 4215, 0.10223821307
+near, 5982, 0.098049152942
+save, 7646, 0.0974858557484
+import, 4551, 0.091804354625
+seen, 7767, 0.0898995640043
+larg, 5124, 0.0896968792431
+life, 5260, 0.0891974659287
+bad, 861, 0.0891974659287
+abl, 180, 0.0886114529654
+yes, 9951, 0.0882285092157
+consid, 2059, 0.084946842022
+everi, 3235, 0.0829571616626
+best, 1052, 0.080977365478
+sure, 8585, 0.0779997301821
+time, 8936, 0.0575488569481

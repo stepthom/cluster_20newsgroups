@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38300
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: renggli@masg1.epfl.ch (loris renggli)
+Subject: Need graph display/edit
+Organization: Math. Dept., Swiss Institute of Technology
+Lines: 17
+
+I am looking for a program that is capable of displaying a graph
+with nodes and links and with the possibility to edit interactively
+the graph : add one node, change one link etc...
+
+Actually, a very _simple_ X11 program would be ok; all I need is to
+put some "boxes" (i.e. the nodes ) on a pane and be able to
+manipulate them with the mouse (move, add or delete boxes).
+
+Does anyone know if such program is available ?
+Thanks for any help !!
+
+------------------------------------------------------------------------
+Loris RENGGLI                          phone  : +41-21-6934230
+Swiss Federal Institute of Technology  fax    : +41-21-6934303
+Math. Dept
+CH-1015 Lausanne (Switzerland)         e-mail : renggli@masg1.epfl.ch
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need graph display edit    look program capabl
+display graph node link possibl edit interact
+graph add one node chang one link etc  actual
+simpl x11 program need put box node pane abl
+manipul mous move add delet box  anyon know
+program avail thank help   lori rengg phone swiss
+feder institut technolog fax math dept
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+node, 6089, 0.462176524136
+graph, 3996, 0.428509006421
+link, 5289, 0.271715258046
+edit, 2996, 0.231188125627
+program, 6905, 0.225895848995
+display, 2734, 0.209047159202
+add, 260, 0.208312042144
+box, 1254, 0.198146933711
+swiss, 8637, 0.164618960771
+mous, 5889, 0.145693563328
+x11, 9883, 0.141954114657
+need, 5993, 0.130446636548
+feder, 3425, 0.130444523758
+math, 5544, 0.128878922572
+dept, 2544, 0.125576573993
+manipul, 5483, 0.1247101105
+interact, 4704, 0.1247101105
+institut, 4683, 0.111564090923
+capabl, 1498, 0.108761933237
+phone, 6601, 0.106449860882
+delet, 2502, 0.10397430937
+simpl, 7965, 0.103437201107
+fax, 3413, 0.101893743601
+technolog, 8743, 0.0964142678462
+abl, 180, 0.0887494195262
+chang, 1650, 0.0871596686133
+avail, 811, 0.0842622445623
+possibl, 6765, 0.0795334376932
+actual, 254, 0.0779967721488
+help, 4249, 0.0712675115858
+thank, 8832, 0.0679344107541
+anyon, 554, 0.065186701816
+look, 5341, 0.0605392844686
+know, 5052, 0.0522521739786

@@ -1,0 +1,246 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104812
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: noel@chaos.cs.brandeis.edu (Noel Rappin)
+Subject: Re: Box score abbrev woes
+Organization: Brandeis University
+Lines: 80
+
+scott@asd.com (Scott Barman) writes:
+
+>In article <1993Apr15.195452.14672@scott.skidmore.edu> jrogoff@scott.skidmore.edu (jay rogoff) writes:
+>>Can anybody figure out why some box score abbreviations make
+>>absolutely no sense?  (At least in the local Gannett rag that finds its way
+>>to my door.)  I must have stared at "Cleman" in the Mets' box for a
+>>good 30 seconds this morning wondering who the hell it was.  Wouldn't
+>>it make more sense to use "Colemn"?
+
+>I've seen it as "Colmn" also.
+
+>Blame the Associated Press.  After the official scorer balances the
+>official score card, they copy it and give it to several diffent people. 
+>One of those is a person from AP whose job it is to type it up (using a
+>template on a laptop) and transmit it to the AP offices in New York
+>(Rockefeller Center) via the telephone.  The box scores are not checked
+>and just rebroadcasted over AP's news delivery services.  If there are
+>corrections, those are issued later.  It is the person sitting in front
+>of a laptop at Shea (or whereever) whose fault that is.  [NOTE: The AP
+>puts out boxscores in three different formats with the one you see in
+>most newspapers being the first one]
+
+Not totally true.  For the past year or two, the AP has been getting box
+scores from STATS, Inc.  The AP representative in the press box is actually
+a STATS reporter ($25 dollars a game, but free parking.  And anybody can
+do it.)  The box is downloaded to STATS in Chicago, some quick error 
+checking is done, and then STATS sends it to the AP.  I'm not sure where
+the appreveiations come in hear.  I don't think it is at STATS's.  It may
+just be a space correction by the AP sports editor that day. 
+
+While I'm mentioning STATS reporters, they are always looking for new
+people.  Especially if you live in Cleveland or Pittsburgh, you're road
+to getting into the press box may be real short.  For more info, call 
+STATS (708) 676-3322, and ask about the reporter network.  It's a fun
+way to get paid for watching baseball games.
+
+End of public service announcement.
+
+
+>Last week they were in Denver.  Maybe the AP person in Denver did this
+>(remember, they just started with MLB out there).  Check tomorrow's
+>paper (4/21) and see if the person who is doing it from Shea does the
+>same thing.
+>-- 
+
+Noel Rappin 
+noel@chaos.cs.brandeis.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ box score abbrev woe       anybodi figur box
+score abbrevi make absolut sens least local
+gannett rag find way door must stare cleman met
+box good second morn wonder hell wouldn't make
+sens use colemn  i'v seen colmn also  blame associ
+press offici scorer balanc offici score card copi
+give sever diffent peopl one person whose job type
+use templat laptop transmit offic new york
+rockefel center via telephon box score check
+rebroadcast ap news deliveri servic correct issu
+later person sit front laptop shea whereev whose
+fault note put boxscor three differ format one see
+newspap first one  total true past year two get
+box score stat inc repres press box actual stat
+report dollar game free park anybodi box download
+stat chicago quick error check done stat send i'm
+sure apprevei come hear don't think stat space
+correct sport editor day  i'm mention stat report
+alway look new peopl especi live cleveland
+pittsburgh you'r road get press box real short
+info call stat ask report network it fun way get
+paid watch basebal game  end public servic announc
+last week denver mayb person denver rememb start
+mlb check tomorrow paper see person shea thing
+noel rappin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+box, 1254, 0.401312232369
+stat, 8341, 0.390309789228
+score, 7705, 0.265562816303
+laptop, 5121, 0.198621221944
+press, 6841, 0.176943322908
+person, 6562, 0.163692960007
+shea, 7864, 0.153277402476
+check, 1682, 0.150268084119
+report, 7291, 0.146654686959
+denver, 2533, 0.142889674959
+offici, 6207, 0.114263304347
+sens, 7788, 0.102356846327
+servic, 7813, 0.101088663395
+anybodi, 552, 0.0998827482163
+rockefel, 7446, 0.0957770712238
+gannett, 3765, 0.0957770712238
+colemn, 1892, 0.0957770712238
+cleman, 1806, 0.0957770712238
+abbrev, 168, 0.0957770712238
+correct, 2156, 0.0946079026325
+woe, 9813, 0.0930362448618
+rag, 7067, 0.0930362448618
+boxscor, 1255, 0.0907968266653
+templat, 8776, 0.0889034255587
+scorer, 7708, 0.0889034255587
+stare, 8329, 0.0872632869174
+noel, 6091, 0.0872632869174
+abbrevi, 169, 0.0812998942375
+deliveri, 2508, 0.0780048628458
+game, 3761, 0.0744637783226
+balanc, 872, 0.0732678498869
+transmit, 9059, 0.0723225532419
+download, 2843, 0.0723225532419
+new, 6023, 0.0715587565109
+newspap, 6035, 0.0714448374795
+door, 2818, 0.0706256810384
+tomorrow, 8979, 0.0694910785393
+pittsburgh, 6648, 0.0691350305838
+telephon, 8763, 0.0684524775273
+blame, 1138, 0.0681249169315
+paid, 6387, 0.0678058653726
+mlb, 5795, 0.0668956123874
+peopl, 6530, 0.0666502798811
+fault, 3407, 0.0657782247396
+morn, 5864, 0.0655140684426
+cleveland, 1811, 0.0647540655805
+editor, 2997, 0.0642723256247
+way, 9666, 0.0642605785205
+fun, 3721, 0.0633620726394
+dollar, 2802, 0.0633620726394
+sit, 7993, 0.0623116213666
+chicago, 1701, 0.0617219339981
+make, 5459, 0.0616137515349
+sport, 8257, 0.0594505709348
+repres, 7294, 0.0586778133525
+york, 9960, 0.0580928078192
+associ, 706, 0.0578104322935
+road, 7431, 0.0572644404332
+absolut, 193, 0.0572644404332
+network, 6018, 0.056870306263
+park, 6430, 0.0566144054571
+hell, 4245, 0.056363727483
+announc, 524, 0.056363727483
+error, 3180, 0.0554092440056
+paper, 6409, 0.0547391072195
+met, 5655, 0.0546308880666
+offic, 6206, 0.0544172688666
+use, 9363, 0.0542541294485
+copi, 2130, 0.0540008630776
+hear, 4223, 0.0530177149562
+card, 1513, 0.0527374869599
+quick, 7036, 0.0523735256823
+local, 5322, 0.0522841958747
+job, 4873, 0.0522841958747
+figur, 3476, 0.0521955110534
+past, 6456, 0.0519332350157
+later, 5140, 0.0515081824158
+wouldn, 9854, 0.0513421961817
+watch, 9655, 0.0509367866284
+especi, 3190, 0.0508572860635
+issu, 4793, 0.050089361373
+free, 3668, 0.0500151448668
+center, 1606, 0.0495790235128
+mention, 5632, 0.0491578578731
+format, 3612, 0.0491578578731
+total, 9013, 0.0490206185191
+short, 7904, 0.0485520082219
+info, 4636, 0.0483565219566
+type, 9177, 0.0479746426679
+send, 7785, 0.047185846614
+public, 6973, 0.047185846614
+alway, 457, 0.0463894606928
+seen, 7767, 0.0455898642614
+sever, 7823, 0.0453344955121
+week, 9691, 0.0452338163058
+rememb, 7269, 0.0452338163058
+live, 5310, 0.0450349003083
+wonder, 9821, 0.0445987789543
+note, 6118, 0.0443164034286
+true, 9121, 0.043814995263
+mayb, 5564, 0.0429943981094
+second, 7753, 0.0427462524091
+ask, 689, 0.0425432263917
+news, 6031, 0.042423002322
+end, 3091, 0.042343501757
+real, 7144, 0.0421080416189
+basebal, 924, 0.0413908699107
+sure, 8585, 0.0395552208824
+actual, 254, 0.0394922320551
+start, 8334, 0.0388794968174
+differ, 2633, 0.0378207197202
+day, 2402, 0.0364228531227
+come, 1923, 0.0356179119663
+space, 8164, 0.0348409632099
+thing, 8869, 0.033555449083
+good, 3948, 0.0315738012068
+year, 9943, 0.0308689886401
+look, 5341, 0.0306529540239
+think, 8871, 0.0281312761821
+don, 2811, 0.0278602306032

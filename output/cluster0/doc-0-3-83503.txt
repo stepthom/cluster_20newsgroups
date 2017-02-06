@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83503
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dickeney@access.digex.com (Dick Eney)
+Subject: Re: Swastika (was: Hitler - pagan or Christian?)
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 15
+NNTP-Posting-Host: access.digex.net
+
+The observation that the Tree of Life would rotate clockwise in the
+northern hemisphere and counterclockwise in the southern probably doesn't
+give enough consideration to the feebleness of the Coriolis force compared
+to, say, the phototropism of vegetation.  A much more likely explanation
+is the classic one: that the clockwise swastika is the Sun-wheel, because
+the sun progresses across the sky that way.  (Although that's not the
+historical way it happened; clocks were first made as little imitation
+images of the sun moving thru the heavens.  So it's more valid to talk of
+the clock going sunwise, but do the engineers listen to me?  Of course
+not.)  Anyway, there is still much uncertainty about whether the
+anti-swastika goes counter-sunwise because that represents Evil, or
+because it is the Sun's twin-opposite, the Moonwheel.  The use of anti-Sun
+to represent Evil may be because humans are so strongly visually-oriented,
+but I'm not going to try to settle THAT one just now.
+-- Diccon Frankborn (dickeney@access.digex.com)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ swastika hitler pagan christian     observ tree
+life rotat clockwis northern hemispher
+counterclockwis southern probabl doesn't give
+enough consider feebl corioli forc compar say
+phototrop veget much like explan classic one
+clockwis swastika sun wheel sun progress across
+sky way although that histor way happen clock
+first made littl imit imag sun move thru heaven it
+valid talk clock go sunwis engin listen cours
+anyway still much uncertainti whether anti
+swastika goe counter sunwis repres evil sun twin
+opposit moonwheel use anti sun repres evil human
+strong visual orient i'm go tri settl one
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+swastika, 8623, 0.429490421608
+sun, 8539, 0.390686305756
+clockwis, 1828, 0.268560179205
+clock, 1827, 0.222578801984
+evil, 3247, 0.203268907223
+anti, 542, 0.191154639097
+repres, 7294, 0.180585955744
+imit, 4525, 0.147381036861
+counterclockwis, 2182, 0.139717473991
+hemispher, 4251, 0.13006252661
+wheel, 9721, 0.128261100198
+pagan, 6381, 0.128261100198
+uncertainti, 9222, 0.126616526732
+hitler, 4321, 0.12370297535
+northern, 6111, 0.120033296274
+settl, 7817, 0.114319984771
+veget, 9448, 0.112002718539
+southern, 8156, 0.112002718539
+classic, 1790, 0.110602028091
+counter, 2181, 0.109298016482
+tree, 9080, 0.108078195085
+twin, 9172, 0.104830109808
+progress, 6907, 0.104339155669
+explan, 3302, 0.103860632093
+opposit, 6270, 0.0992687861448
+histor, 4313, 0.0989017712801
+way, 9666, 0.0988836949246
+heaven, 4229, 0.0975010808324
+valid, 9411, 0.0968378313192
+visual, 9547, 0.0965147350474
+listen, 5300, 0.0965147350474
+orient, 6290, 0.0938314017563
+consider, 2060, 0.089174268449
+rotat, 7490, 0.0877116085306
+strong, 8456, 0.0837368840605
+sky, 8011, 0.0817292128868
+goe, 3931, 0.0807304544976
+compar, 1960, 0.0795193210683
+observ, 6179, 0.0786282152904
+forc, 3594, 0.0782588092976
+engin, 3109, 0.0737268324891
+human, 4432, 0.072974467621
+life, 5260, 0.0696054563286
+christian, 1732, 0.0670816233228
+happen, 4159, 0.0666149163603
+cours, 2190, 0.064676290214
+talk, 8684, 0.0639189971432
+littl, 5308, 0.0635234529574
+imag, 4512, 0.0633564356264
+probabl, 6885, 0.0618137528208
+doesn, 2793, 0.0613097050395
+tri, 9087, 0.0547381814078
+say, 7653, 0.0479862489392
+use, 9363, 0.0417429231755
+like, 5272, 0.0397975214203

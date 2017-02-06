@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61549
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: fcrary@ucsu.Colorado.EDU (Frank Crary)
+Subject: Re: Human Habitale Planets?
+Nntp-Posting-Host: ucsu.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 16
+
+In article <1993May1.042810.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Habital planets are also dependent on what kind of plant life can be grown..
+>and such.. Length of growing season (that is if you want something more than
+>VAT food, argh, Id ratehr eat an MRE for  along period of time).
+
+Using greenhouses to extend the growing season shouldn't be a problem.
+I'm supprised they don't do so in Alaska (cheaper to import, perhaps?)
+
+>Incans and Sherpa and other low pressure atmosphere and such are a limit in
+>human adaptability(someone mentioend that Incan woman must come to lower
+>elevations to have babies brought to term? true?)
+
+No, the Incas had no problems with this, but the Spanish did.
+
+                                         Frank Crary
+                                         CU Boulder
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ human habital planet      habit planet also
+depend kind plant life grown length grow season
+want someth vat food argh ratehr eat mre along
+period time  use greenhous extend grow season
+shouldn't problem i'm suppris don't alaska cheaper
+import perhap  incan sherpa low pressur atmospher
+limit human adapt someon mentioend incan woman
+must come lower elev babi brought term true  inca
+problem spanish  frank crari boulder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+incan, 4569, 0.397642108845
+grow, 4066, 0.260270439587
+planet, 6664, 0.225187458108
+greenhous, 4028, 0.19174686475
+human, 4432, 0.189883660356
+season, 7747, 0.18940617497
+argh, 627, 0.177985742293
+grown, 4067, 0.174702164729
+crari, 2211, 0.174702164729
+spanish, 8182, 0.171805844053
+elev, 3040, 0.16276337985
+problem, 6887, 0.154726364375
+alaska, 378, 0.152170296902
+plant, 6670, 0.148733508224
+babi, 847, 0.148733508224
+boulder, 1248, 0.146683129096
+adapt, 259, 0.143896342251
+woman, 9818, 0.142199786554
+food, 3584, 0.134518398026
+habit, 4109, 0.132781890567
+eat, 2968, 0.128673979808
+cheaper, 1678, 0.128205578899
+shouldn, 7912, 0.127745933662
+extend, 3319, 0.124348774815
+pressur, 6842, 0.121718297855
+length, 5212, 0.121718297855
+brought, 1343, 0.121015669934
+atmospher, 755, 0.119667918727
+lower, 5371, 0.117775423314
+depend, 2537, 0.109806942208
+period, 6546, 0.109588360287
+limit, 5278, 0.107503187656
+frank, 3655, 0.105214065836
+low, 5368, 0.101345512919
+term, 8795, 0.101036196839
+perhap, 6540, 0.0951829135225
+import, 4551, 0.0932053227186
+life, 5260, 0.0905586519455
+true, 9121, 0.0877181549129
+kind, 5021, 0.0877181549129
+someon, 8124, 0.0803550563999
+someth, 8126, 0.0723859835054
+come, 1923, 0.071307494176
+want, 9634, 0.0669852491953
+time, 8936, 0.0584270735941
+don, 2811, 0.0557765214692
+use, 9363, 0.0543087144374

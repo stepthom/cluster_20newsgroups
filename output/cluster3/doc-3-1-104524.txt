@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104524
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: Brian Austin Fraze <bf25+@andrew.cmu.edu>
+Subject: Re: TIGERS
+Organization: Freshman, H&SS general, Carnegie Mellon, Pittsburgh, PA
+Lines: 4
+NNTP-Posting-Host: po4.andrew.cmu.edu
+In-Reply-To: <93104.100921RK0VSANU@MIAMIU.BITNET>
+
+I basically agree, the Tigers are my favorite team.  Actually, their
+pitching might actually be better this year than last (not that htat's
+saying a hole lot). How 'bout that home opener on Tuesday!! By the way,
+Sparky goes for win 2,000 today. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiger      basic agre tiger favorit team actual
+pitch might actual better year last htat say hole
+lot bout home open tuesday way sparki goe win
+today
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiger, 8928, 0.4723697361
+sparki, 8188, 0.314593008741
+bout, 1252, 0.314593008741
+actual, 254, 0.284747012014
+tuesday, 9147, 0.249238804187
+favorit, 3411, 0.233444980573
+hole, 4343, 0.213189878627
+goe, 3931, 0.189136279642
+basic, 937, 0.182217447281
+open, 6258, 0.175751064746
+agre, 337, 0.171399588507
+home, 4354, 0.17074998193
+today, 8964, 0.1692702975
+pitch, 6643, 0.161649703986
+win, 9770, 0.160955090201
+team, 8732, 0.147026364048
+lot, 5356, 0.138163399189
+better, 1060, 0.132469904515
+way, 9666, 0.11583295481
+say, 7653, 0.112422761086
+year, 9943, 0.111285838021

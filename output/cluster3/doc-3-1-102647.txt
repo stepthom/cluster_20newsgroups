@@ -1,0 +1,175 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102647
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kbos@carina.unm.edu (K. Mitchell Bose)
+Subject: Re: ESPN and Expansion
+Organization: University of New Mexico, Albuquerque
+Lines: 38
+NNTP-Posting-Host: carina.unm.edu
+
+In article <C5109u.7C0@ucdavis.edu> itlm013@dale.ucdavis.edu (Donnie Trump) writes:
+>I was watching Peter Gammons on ESPN last night, and he's got me a little
+>confused.
+>
+>While talking about expansion, he started mentioning people who might benefit
+>from the fringe players they'll be facing: McGriff hitting 50 home runs,
+>Sheffield getting 150 rbi's, and Glavine winning 25 games.  This was,
+>of course, all in reference to what happened the *other* times that baseball
+>has expanded (early 60's, late 60's, late 70's).
+>
+>What really confused me, though, was the mention of *AL* players who would
+>do well next year.  Specifically, Roger Clemens winning 25 games, and the
+>likes of McGwire and Gonzalez hitting 50 home runs.
+>
+>My question is:  How in the hell will the Rockies/Marlins help the AL?  The
+>last time I looked, there wasn't a lot of talent jumping leagues.  Did I
+>miss something?
+>
+Only if you persist in believing that Peter Gammons is more knowledgable about
+baseball than the average mailbox.  Okay, I'm overstating.  Still, the man 
+actually had the gall to say that one out of every six pitchers in the NL this
+year did not pitch in the majors last year.
+
+Huh?
+
+IMO, this expansion will not see the explosive jump in offense that the 
+other expansion drafts had, since the talent was diluted over both leagues.
+In Gammons' defense, because the talent drain came from the AL as well, some
+increase will be seen.  He also gets credit for mentioning that the 1969 jump
+in offense was due also to the rules changes after the 1968 season.  He's still
+full of it...
+
+
+-- 
+            Kurt Bose (as in Daisy, not Rose) * kbos@carina.unm.edu
+"If you take out all the f--ks, this is an 18 page book."
+   -Wally Backman, leafing though a copy of Mets teammate Lenny Dykstra's 
+    autobiography, _NAILS_ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ espn expans      watch peter gammon espn last
+night he got littl confus  talk expans start
+mention peopl might benefit fring player they'll
+face mcgriff hit home run sheffield get rbi glavin
+win game cours refer happen time basebal expand
+earli late late  realli confus though mention
+player well next year specif roger clemen win game
+like mcgwire gonzalez hit home run  question hell
+rocki marlin help last time look wasn't lot talent
+jump leagu miss someth  persist believ peter
+gammon knowledg basebal averag mailbox okay i'm
+overst still man actual gall say one everi six
+pitcher year pitch major last year  huh  imo
+expans see explos jump offens expans draft sinc
+talent dilut leagu gammon defens talent drain came
+well increas seen also get credit mention jump
+offens due also rule chang season he still full
+take page book walli backman leaf though copi met
+teammat lenni dykstra autobiographi nail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+expans, 3289, 0.349955534977
+gammon, 3763, 0.322640495164
+jump, 4929, 0.24277167465
+talent, 8683, 0.236819427703
+mention, 5632, 0.178399375566
+espn, 3192, 0.176099300274
+peter, 6575, 0.146667531226
+confus, 2037, 0.143073171419
+offens, 6202, 0.139867025248
+late, 5139, 0.136366855984
+gall, 3756, 0.120136445803
+leagu, 5176, 0.119268706963
+walli, 9623, 0.115861908548
+home, 4354, 0.114591469313
+lenni, 5215, 0.112546319866
+drain, 2857, 0.112546319866
+autobiographi, 799, 0.112546319866
+year, 9943, 0.112027019403
+dilut, 2648, 0.109837286661
+win, 9770, 0.108018051135
+nail, 5948, 0.107546831721
+glavin, 3895, 0.107546831721
+persist, 6561, 0.105562749406
+mailbox, 5448, 0.105562749406
+hit, 4316, 0.103920085848
+player, 6683, 0.102542225538
+mcgriff, 5579, 0.10083099005
+basebal, 924, 0.100141403846
+fring, 3695, 0.0983488092791
+dykstra, 2940, 0.0983488092791
+teammat, 8733, 0.0972476725792
+sheffield, 7871, 0.096222538837
+mcgwire, 5580, 0.096222538837
+game, 3761, 0.0900791323425
+gonzalez, 3946, 0.0898713423573
+run, 7543, 0.0895154614396
+imo, 4533, 0.0886324129004
+draft, 2853, 0.0886324129004
+explos, 3308, 0.0864271074537
+marlin, 5517, 0.0840636374003
+huh, 4429, 0.0832143464892
+expand, 3288, 0.0812819461242
+clemen, 1807, 0.0809238915499
+credit, 2225, 0.0792526322794
+rbi, 7124, 0.0766493542948
+rocki, 7450, 0.0758739498902
+benefit, 1028, 0.0742080498789
+okay, 6215, 0.073984608889
+roger, 7458, 0.0713496832976
+page, 6382, 0.0708026811911
+time, 8936, 0.0706084270667
+hell, 4245, 0.0681834279918
+increas, 4590, 0.0670287854875
+knowledg, 5053, 0.0662181183202
+met, 5655, 0.0660872051753
+copi, 2130, 0.0653250614104
+wasn, 9652, 0.0644826510486
+defens, 2476, 0.0642504815466
+face, 3345, 0.0639088907367
+averag, 816, 0.0632484021858
+miss, 5770, 0.0628238434221
+rule, 7537, 0.0620094727288
+watch, 9655, 0.0616184357973
+earli, 2951, 0.0616184357973
+night, 6063, 0.0603255732655
+came, 1472, 0.0598898075528
+pitcher, 6644, 0.0590548381329
+specif, 8203, 0.0589738649307
+season, 7747, 0.0572237802986
+seen, 7767, 0.0551502422894
+refer, 7213, 0.0547803008778
+major, 5458, 0.0545386931834
+pitch, 6643, 0.0542421055754
+chang, 1650, 0.0533862906047
+book, 1218, 0.0532208876445
+happen, 4159, 0.0523685510133
+man, 5471, 0.0513192766551
+everi, 3235, 0.0508913209536
+cours, 2190, 0.0508445223454
+talk, 8684, 0.0502491851
+littl, 5308, 0.0499382325837
+got, 3960, 0.0487556789907
+actual, 254, 0.0477739120675
+ll, 5314, 0.047068880016
+start, 8334, 0.0470326837842
+lot, 5356, 0.0463611964678
+believ, 1009, 0.0458851382621
+sinc, 7977, 0.045294654768
+question, 7032, 0.0449764724636
+realli, 7150, 0.0440905002359
+someth, 8126, 0.0437388022588
+help, 4249, 0.0436521632622
+peopl, 6530, 0.0403135559148
+say, 7653, 0.0377238381854
+look, 5341, 0.0370810018563
+like, 5272, 0.0312863641445

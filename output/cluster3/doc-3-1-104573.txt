@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104573
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gerry@macadam.mpce.mq.edu.au (Gerry Myerson)
+Subject: The Bob Dylan Baseball Abstract
+Organization: School of MPCE, Macquarie University, Australia.
+Lines: 19
+Distribution: world
+NNTP-Posting-Host: macadam.mpce.mq.edu.au
+Originator: gerry@macadam.mpce.mq.edu.au
+
+
+Reposted, without permission, from rec.music.dylan:
+
+In article <1993Apr9.152336.14605@uvaarpa.Virginia.EDU>, BUCK@vax.museum.upenn.edu wrote:
+> 
+> For those of you who like both Bob and baseball, check out the
+> current Village Voice (April 13), p.141.  John Lammers and Hart 
+> Seely have written The Bob Dylan Baseball Abstract, and they have
+> covered every team in both leagues.
+> 
+> Example: 
+> Colorado.  An' the silent bats will shatter.  From the scores between
+> the lines.  For they're one too many castoffs.  And a thousand runs
+> behind.
+> 
+> Rebecca
+> buck@vax.museum.upenn.edu 
+
+Gerry Myerson
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bob dylan basebal abstract        repost without
+permiss rec music dylan  vax museum upenn edu
+wrote  like bob basebal check current villag voic
+april john lammer hart seeli written bob dylan
+basebal abstract cover everi team leagu  exampl
+colorado an silent bat shatter score line they'r
+one mani castoff thousand run behind  rebecca
+gerri myerson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dylan, 2941, 0.518855501724
+bob, 1189, 0.321081704522
+abstract, 199, 0.275456263411
+basebal, 924, 0.246104419544
+gerri, 3857, 0.184393571881
+upenn, 9335, 0.172951833908
+repost, 7293, 0.172951833908
+villag, 9519, 0.1700845313
+shatter, 7861, 0.1700845313
+hart, 4187, 0.1700845313
+silent, 7954, 0.151894392197
+museum, 5931, 0.151894392197
+permiss, 6551, 0.141600392351
+music, 5933, 0.140775095168
+rec, 7165, 0.13997686184
+voic, 9567, 0.122713420401
+colorado, 1908, 0.121952610502
+thousand, 8888, 0.11980322098
+cover, 2194, 0.111957472437
+written, 9867, 0.106229001513
+vax, 9439, 0.106229001513
+score, 7705, 0.105266665329
+wrote, 9871, 0.103274600654
+april, 595, 0.101112968771
+bat, 942, 0.100023921063
+check, 1682, 0.0992748177928
+leagu, 5176, 0.0977036962056
+john, 4878, 0.0920511954037
+exampl, 3258, 0.0882985612172
+current, 2299, 0.0882047501748
+edu, 3001, 0.0863138827502
+everi, 3235, 0.0833792918285
+team, 8732, 0.0808297660419
+line, 5285, 0.0806918396936
+run, 7543, 0.0733301439487
+mani, 5479, 0.0690531917274
+like, 5272, 0.0512589344779

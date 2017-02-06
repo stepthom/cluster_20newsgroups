@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61170
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Dreams and Degrees (was Re: Crazy? or just Imaginitive?)
+Organization: Univ. of Southwestern Louisiana
+Lines: 19
+
+higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey) writes:
+
+...
+>Like others involved in sci.space, Mr. Adams shows symptoms of being a
+>fledgling member of the technoculture, and I think he's soaking it up
+>fast.  I was a young guy with dreams once, and they led me to get a
+>technical education to follow them up.  Too bad I wound up in an
+>assembly-line job stamping out identical neutrinos day after day...
+>(-:
+
+How can you tell they're identical?
+
+You got one of them "Star Drek: The Next Syndication" neutrino
+scanners?
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dream degre crazi imaginit       like other
+involv sci space adam show symptom fledgl member
+technocultur think he soak fast young guy dream
+led get technic educ follow bad wound assembl line
+job stamp ident neutrino day day   tell they'r
+ident  got one star drek next syndic neutrino
+scanner  phil fraer seem like everi day find sort
+stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+neutrino, 6021, 0.400290918098
+ident, 4484, 0.310496198395
+dream, 2865, 0.286090446548
+day, 2402, 0.228338637785
+fledgl, 3533, 0.200145459049
+stamp, 8308, 0.189738236103
+soak, 8084, 0.189738236103
+syndic, 8652, 0.18578159357
+symptom, 8650, 0.18578159357
+imaginit, 4520, 0.18578159357
+wound, 9855, 0.155248099197
+scanner, 7663, 0.151132525073
+fraer, 3640, 0.150199063295
+adam, 258, 0.148428197736
+crazi, 2216, 0.145981836088
+led, 5188, 0.138597793896
+assembl, 698, 0.13636444069
+educ, 3002, 0.128980398498
+phil, 6588, 0.126316207792
+sci, 7690, 0.119665568922
+degre, 2491, 0.119113561196
+young, 9962, 0.11461653302
+technic, 8737, 0.113938060831
+member, 5625, 0.113715831131
+fast, 3397, 0.113277061985
+star, 8324, 0.110989386283
+job, 4873, 0.109258345976
+like, 5272, 0.108091154239
+involv, 4750, 0.107636709733
+sort, 8144, 0.0987274246222
+stuff, 8472, 0.0983598665037
+guy, 4100, 0.0963709662881
+bad, 861, 0.0945251594498
+everi, 3235, 0.0879121267854
+line, 5285, 0.0850785739015
+follow, 3578, 0.0843635591436
+got, 3960, 0.0842229156685
+tell, 8767, 0.0838746420758
+space, 8164, 0.0728072020396
+think, 8871, 0.0587859611195

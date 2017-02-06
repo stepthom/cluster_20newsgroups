@@ -1,0 +1,34 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38664
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Gordon_Sumerling@itd.dsto.gov.au (Gordon Sumerling)
+Subject: Re: Grayscale Printer
+Organization: ITD/DSTO
+Lines: 2
+Distribution: na
+NNTP-Posting-Host: iapmac2.dsto.gov.au
+
+Have you considered the Apple Laserwriter IIg. We use it for all our B&W
+image printing.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ grayscal printer      consid appl laserwrit iig
+use imag print
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grayscal, 4013, 0.505649747296
+printer, 6872, 0.474943079555
+appl, 583, 0.439536939621
+print, 6871, 0.381343257328
+consid, 2059, 0.279245426412
+imag, 4512, 0.266893992405
+use, 9363, 0.175845362998

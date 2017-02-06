@@ -1,0 +1,316 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60950
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gary@ke4zv.uucp (Gary Coffman)
+Subject: Re: What if the USSR had reached the Moon first?
+Reply-To: gary@ke4zv.UUCP (Gary Coffman)
+Organization: Destructive Testing Systems
+Lines: 63
+
+In article <93110.031905SAUNDRSG@QUCDN.QueensU.CA> Graydon <SAUNDRSG@QUCDN.QueensU.CA> writes:
+>In article <1993Apr18.091051.14496@ke4zv.uucp>, gary@ke4zv.uucp (Gary Coffman)
+>says:
+>>It's conceivable that Luna will have a military purpose, it's possible
+>>that Luna will have a commercial purpose, but it's most likely that
+>>Luna will only have a scientific purpose for the next several hundred
+>>years at least. Therefore, Lunar bases should be predicated on funding
+>>levels little different from those found for Antarctic bases. Can you
+>>put a 200 person base on the Moon for $30 million a year? Even if you
+>>use grad students?
+>
+>You might be able to _run_ one for that; put it there, hardly.
+>
+>Why do you think at least a couple centuries before there will
+>be significant commerical activity on the Moon?
+
+Wishful thinking mostly. It's more likely that the Moon will never
+be the site of major commercial activity. As far as we know it has no
+materials we can't get cheaper right here on Earth or from asteroids
+and comets, aside from the semi-mythic He3 that *might* be useful in low
+grade fusion reactors. Exploring it would satisfy a curiosity itch, 
+and it's position in the gravity well of Earth coupled with it's heat 
+sink capacity could offer some military utility for "high ground" military
+weapons systems, but it holds very minute commercial value. If space 
+travel becomes cheap enough, it might become a tourist attraction as 
+Mt. Everest and the Antarctic have become, but that's a very minor 
+activity in the global scope of things.
+
+Luna has an inconvienent gravity field. It's likely too low to prevent
+calcium loss, muscle atrophy, and long term genetic drift. Yet it's
+too high to do micro-G manufacturing. Space based colonies and factories
+that can be spun to any convienent value of G look much better. Luna
+has a modest vacuum and raw solar exposure two weeks a month, but orbital
+sites can have better vacuums and continous solar exposure. Luna offers
+a source of light element rocks that can serve as raw materials, heatsink,
+and shielding. The asteroids and comets offer sources of both light and
+heavy elements, and volatile compounds, and many are in less steep gravity
+wells so that less delta-v is required to reach them.
+
+We don't use 2/3rds of the Earth now, the seafloors, and we virtually
+ignore Antarctica, a whole continent. That's because we don't have to
+deal with those conditions in order to make a buck. Luna is a much more
+expensive place to visit, or to live and work. I think we'll use the
+easier places first. That pushes Lunar development back at least a few
+centuries, if not much longer.
+
+Luna's main short term value would be as a place for a farside radio
+astronomy observatory, shielded from the noisy Earth. Or as the site
+of a laser, particle beam, or linear accelerator weapons system for
+defending Earth, or bombarding it as the case may be. The first is
+unlikely because of the high cost for such a basic science instrument.
+The second is just as unlikely because conventional nukes are good
+enough, and the military would really rather see the Earth safe for
+conventional warfare again. There's little glory in watching from a
+bunker as machines fight each other over continental ranges. Little
+ultimate profit either.
+
+Gary
+-- 
+Gary Coffman KE4ZV          |    You make it,     | gatech!wa4mei!ke4zv!gary
+Destructive Testing Systems |    we break it.     | uunet!rsiatl!ke4zv!gary
+534 Shannon Way             |    Guaranteed!      | emory!kd4nc!ke4zv!gary 
+Lawrenceville, GA 30244     |                     | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ussr reach moon first      ke4zv uucp gari
+coffman say it conceiv luna militari purpos it
+possibl luna commerci purpos it like luna scientif
+purpos next sever hundr year least therefor lunar
+base predic fund level littl differ found antarct
+base put person base moon million year even use
+grad student  might abl run one put hard  think
+least coupl centuri signific commer activ moon
+wish think most it like moon never site major
+commerci activ far know materi can't get cheaper
+right earth asteroid comet asid semi mythic he3
+might use low grade fusion reactor explor satisfi
+curios itch it posit graviti well earth coupl it
+heat sink capac could offer militari util high
+ground militari weapon system hold minut commerci
+valu space travel becom cheap enough might becom
+tourist attract everest antarct becom that minor
+activ global scope thing  luna inconvien graviti
+field it like low prevent calcium loss muscl
+atrophi long term genet drift yet it high micro
+manufactur space base coloni factori spun convien
+valu look much better luna modest vacuum raw solar
+exposur two week month orbit site better vacuum
+contin solar exposur luna offer sourc light
+element rock serv raw materi heatsink shield
+asteroid comet offer sourc light heavi element
+volatil compound mani less steep graviti well less
+delta requir reach  don't use 3rds earth seafloor
+virtual ignor antarctica whole contin that don't
+deal condit order make buck luna much expens place
+visit live work think we'll use easier place first
+push lunar develop back least centuri much longer
+luna main short term valu place farsid radio
+astronomi observatori shield noisi earth site
+laser particl beam linear acceler weapon system
+defend earth bombard case first unlik high cost
+basic scienc instrument second unlik convent nuke
+good enough militari realli rather see earth safe
+convent warfar there littl glori watch bunker
+machin fight continent rang littl ultim profit
+either  gari  gari coffman ke4zv make gatech
+wa4mei ke4zv gari destruct test system break uunet
+rsiatl ke4zv gari shannon way guarante emori kd4nc
+ke4zv gari lawrencevill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+luna, 5391, 0.469174762077
+ke4zv, 4969, 0.287824482157
+gari, 3776, 0.252556049969
+earth, 2956, 0.169352620735
+militari, 5715, 0.160426202404
+moon, 5851, 0.131585635908
+graviti, 4010, 0.123716948876
+antarct, 537, 0.119791727035
+coffman, 1879, 0.117293690519
+offer, 6203, 0.106666381707
+contin, 2089, 0.106061129172
+purpos, 6993, 0.104551331706
+activ, 252, 0.103825673615
+commerci, 1940, 0.10277625565
+base, 923, 0.101428630488
+exposur, 3313, 0.101112370511
+site, 7994, 0.100180967375
+valu, 9414, 0.0994236556309
+becom, 983, 0.0974207091683
+shield, 7882, 0.0966650773649
+convent, 2113, 0.0966650773649
+vacuum, 9405, 0.0937105272649
+asteroid, 716, 0.0926646701681
+weapon, 9674, 0.0903119723892
+raw, 7114, 0.0898798091636
+comet, 1926, 0.0844882590062
+place, 6657, 0.0832553235809
+high, 4292, 0.0822048256322
+littl, 5308, 0.0816961248972
+element, 3037, 0.0811808609886
+unlik, 9290, 0.0804496770907
+centuri, 1614, 0.0797500651142
+lunar, 5392, 0.0778160317454
+solar, 8107, 0.0719350899548
+use, 9363, 0.0715795485825
+materi, 5543, 0.0713810133995
+reach, 7128, 0.0704547521263
+coupl, 2187, 0.0674146864688
+low, 5368, 0.0667873115832
+term, 8795, 0.0665834703979
+light, 5267, 0.0644957130253
+volatil, 9571, 0.0613731385675
+nuke, 6154, 0.0613731385675
+farsid, 3392, 0.0613731385675
+wa4mei, 9600, 0.0598958635175
+steep, 8366, 0.0598958635175
+rsiatl, 7515, 0.0598958635175
+lawrencevill, 5155, 0.0598958635175
+everest, 3234, 0.0598958635175
+sourc, 8153, 0.0598115342916
+bunker, 1402, 0.0586468452596
+bombard, 1210, 0.0586468452596
+shannon, 7852, 0.0575648964315
+genet, 3823, 0.0575648964315
+factori, 3353, 0.0575648964315
+warfar, 9638, 0.0566105499299
+reactor, 7134, 0.0566105499299
+kd4nc, 4968, 0.0566105499299
+emori, 3072, 0.0566105499299
+drift, 2870, 0.0566105499299
+curios, 2296, 0.0566105499299
+think, 8871, 0.0556720033285
+sink, 7985, 0.0549845995108
+mythic, 5945, 0.0549845995108
+muscl, 5930, 0.0549845995108
+modest, 5812, 0.0549845995108
+commer, 1938, 0.0549845995108
+continent, 2090, 0.0536310303794
+grad, 3977, 0.0530305645859
+fusion, 3735, 0.0530305645859
+scope, 7704, 0.0524715443062
+like, 5272, 0.0511827227455
+coloni, 1906, 0.0509942692562
+capac, 1499, 0.0509942692562
+ussr, 9376, 0.0505561852555
+conceiv, 2000, 0.0505561852555
+micro, 5684, 0.0497452509982
+grade, 3978, 0.0497452509982
+laser, 5134, 0.0493683188371
+beam, 969, 0.0493683188371
+glori, 3907, 0.0490081448625
+linear, 5286, 0.0486633021701
+better, 1060, 0.0484792485645
+destruct, 2575, 0.0483325386825
+ultim, 9198, 0.0474142839122
+particl, 6441, 0.0474142839122
+uunet, 9392, 0.0468552636325
+gatech, 3789, 0.0468552636325
+satisfi, 7635, 0.0465895814608
+buck, 1359, 0.0465895814608
+attract, 772, 0.0465895814608
+guarante, 4076, 0.0460830052495
+compound, 1983, 0.0460830052495
+space, 8164, 0.0459670156741
+fight, 3474, 0.0456062453745
+semi, 7781, 0.0453779885825
+manufactur, 5494, 0.0453779885825
+delta, 2509, 0.0453779885825
+global, 3904, 0.0449399045818
+defend, 2474, 0.0449399045818
+heat, 4226, 0.044729436118
+easier, 2960, 0.0439383125803
+visit, 9544, 0.0437520381634
+rock, 7445, 0.0437520381634
+acceler, 207, 0.0435699500448
+push, 6996, 0.0433918641887
+heavi, 4230, 0.0433918641887
+travel, 9069, 0.0430470214964
+profit, 6903, 0.0430470214964
+observatori, 6180, 0.0427162580088
+instrument, 4686, 0.0425558056314
+asid, 687, 0.0423984690319
+cheaper, 1678, 0.0422441295031
+safe, 7577, 0.0420926749948
+condit, 2017, 0.0416545909942
+virtual, 9536, 0.0411050529628
+prevent, 6853, 0.0411050529628
+cheap, 1677, 0.0411050529628
+year, 9943, 0.0407266376683
+make, 5459, 0.0406446897791
+student, 8468, 0.0403448789672
+serv, 7810, 0.0395397055209
+hundr, 4440, 0.0394309444211
+uucp, 9388, 0.0390099364653
+loss, 5352, 0.0390099364653
+astronomi, 729, 0.0390099364653
+scientif, 7693, 0.0383220319066
+explor, 3307, 0.0383220319066
+expens, 3294, 0.038228359415
+util, 9384, 0.0380442019362
+wish, 9801, 0.0375155853705
+minut, 5747, 0.0374307408227
+million, 5724, 0.0374307408227
+minor, 5745, 0.0372636713929
+break, 1284, 0.037099977335
+machin, 5416, 0.036860474767
+fund, 3723, 0.0367821883582
+don, 2811, 0.036757068084
+rang, 7094, 0.0366278488294
+ground, 4061, 0.0364017156332
+therefor, 8855, 0.0361817225647
+radio, 7061, 0.0361817225647
+longer, 5337, 0.0361817225647
+ignor, 4496, 0.0361817225647
+main, 5450, 0.035555460569
+hold, 4341, 0.0354226284093
+signific, 7951, 0.034912060779
+watch, 9655, 0.0336014256441
+month, 5847, 0.0333936557916
+basic, 937, 0.0333425352417
+test, 8812, 0.033291735199
+level, 5229, 0.0332412516695
+deal, 2418, 0.0327529967328
+short, 7904, 0.032028260951
+posit, 6761, 0.031814460149
+cost, 2169, 0.0307854349595
+hard, 4167, 0.0306746918195
+field, 3466, 0.030493418481
+scienc, 7692, 0.0302811116553
+develop, 2588, 0.0301770085494
+requir, 7302, 0.0301426026367
+sever, 7823, 0.0299057671458
+week, 9691, 0.0298393521815
+major, 5458, 0.0297407394397
+live, 5310, 0.0297081334388
+abl, 180, 0.0296433124509
+orbit, 6280, 0.0293267651537
+order, 6281, 0.0286424712097
+second, 7753, 0.0281983830737
+case, 1540, 0.0281714193873
+far, 3386, 0.027065950716
+person, 6562, 0.0269957980676
+possibl, 6765, 0.0265650700187
+ll, 5314, 0.0256673421119
+long, 5336, 0.0255301730272
+differ, 2633, 0.0249491612173
+right, 7399, 0.0246473873144
+run, 7543, 0.0244070389214
+realli, 7150, 0.024043188473
+mani, 5479, 0.022983507837
+work, 9833, 0.0229551771079
+thing, 8869, 0.0221354938533
+way, 9666, 0.021195359915
+good, 3948, 0.0208282619258
+say, 7653, 0.0205713554295
+look, 5341, 0.0202208074671
+know, 5052, 0.0174528185959

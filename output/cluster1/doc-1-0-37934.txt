@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37934
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: renouar@amertume.ufr-info-p7.ibp.fr (Renouard Olivier)
+Subject: Re: POV previewer
+Nntp-Posting-Host: amertume.ufr-info-p7.ibp.fr
+Organization: Universite PARIS 7 - UFR d'Informatique
+Lines: 10
+
+Actually I am trying to write something like this but I encounter some
+problems, amongst them:
+
+- drawing a 3d wireframe view of a quadric/quartic requires that you have
+the explicit equation of the quadric/quartic (x, y, z functions of some
+parameters). How to convert the implicit equation used by PoV to an
+explicit one? Is it mathematically always possible?
+
+I don't have enough math to find out by myself, has anybody heard about
+useful books on the subject?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pov preview     actual tri write someth like
+encount problem amongst  draw wirefram view
+quadric quartic requir explicit equat quadric
+quartic function paramet convert implicit equat
+use pov explicit one mathemat alway possibl  don't
+enough math find anybodi heard use book
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+explicit, 3304, 0.408252739252
+pov, 6778, 0.370460151597
+equat, 3157, 0.361837233904
+implicit, 4548, 0.230760219696
+wirefram, 9795, 0.223073657856
+preview, 6854, 0.214930841494
+encount, 3088, 0.192916637638
+paramet, 6421, 0.189287314208
+math, 5544, 0.183006935892
+mathemat, 5545, 0.178317629972
+function, 3722, 0.161353433897
+draw, 2861, 0.152909770968
+use, 9363, 0.15215400977
+anybodi, 552, 0.140059022257
+convert, 2115, 0.138447186105
+view, 9510, 0.134543385423
+heard, 4224, 0.130878930207
+alway, 457, 0.130097792135
+requir, 7302, 0.128146040228
+book, 1218, 0.1233825071
+write, 9865, 0.118751026798
+possibl, 6765, 0.112936781614
+actual, 254, 0.110754730064
+problem, 6887, 0.108372279664
+someth, 8126, 0.101400095321
+tri, 9087, 0.0997610272006
+don, 2811, 0.0781331456696
+like, 5272, 0.072531485607

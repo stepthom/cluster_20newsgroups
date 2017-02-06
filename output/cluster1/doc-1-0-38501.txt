@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38501
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: max@slinky.NYU.EDU (David Max)
+Subject: 24bit mode on Speedstar 24X
+Summary: Routines for 24 bit color on Speedstar 24X?
+Keywords: Diamond Speedstar 24X 24bit 16.7
+Organization: New York University
+Lines: 12
+
+
+   I have a Diamond Speedstar 24X board that I want to program
+for 24 bit 640x480 graphics, or possibly 800x600 16 bit color.
+Does anybody have any libraries supporting these modes on this
+board? Even somes simple routines to set the graphics mode and
+plot individual pixels would be a great help. I plan to use the
+routines with djgp.
+
+   Thanks in advance. Please respond also via e-mail.
+
+   David Max
+   max@slinky.cs.nyu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ 24bit mode speedstar 24x routin bit color
+speedstar 24x      diamond speedstar 24x board
+want program bit 640x480 graphic possibl 800x600
+bit color anybodi librari support mode board even
+some simpl routin set graphic mode plot individu
+pixel great help plan use routin djgp  thank
+advanc pleas respond also via mail  david max
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+24x, 69, 0.459198656723
+speedstar, 8218, 0.43214168753
+routin, 7499, 0.32746685431
+mode, 5806, 0.306216214933
+bit, 1122, 0.225070276744
+board, 1186, 0.213624049123
+color, 1907, 0.178801331698
+800x600, 142, 0.164428802181
+graphic, 3997, 0.146465493903
+640x480, 127, 0.142611662348
+24bit, 67, 0.138789099884
+diamond, 2614, 0.133592672617
+max, 5557, 0.132684645904
+plot, 6694, 0.117266581122
+pixel, 6651, 0.112125832395
+respond, 7322, 0.106535703423
+librari, 5250, 0.0987397124057
+individu, 4604, 0.0972437830824
+simpl, 7965, 0.0948460029959
+plan, 6660, 0.0908447080316
+anybodi, 552, 0.0904414903632
+david, 2397, 0.0897852903994
+advanc, 285, 0.0841091127105
+set, 7815, 0.0796728239783
+support, 8576, 0.0766104612969
+mail, 5447, 0.0764678738497
+great, 4016, 0.0739826010671
+possibl, 6765, 0.0729276178103
+program, 6905, 0.0690445286003
+pleas, 6688, 0.0654346187738
+help, 4249, 0.0653482358862
+thank, 8832, 0.0622919728776
+want, 9634, 0.0605926129679
+use, 9363, 0.0491258441854

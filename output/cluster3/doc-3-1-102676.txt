@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102676
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dpeterik@iastate.edu (Dan Peterik)
+Subject: Re: Brewer Notes
+Organization: Iowa State University, Ames IA
+Lines: 26
+
+In <30MAR93.02086551.0010@MUSIC.LIB.MATC.EDU> PFAN <PFAN@MUSIC.LIB.MATC.EDU> writes:
+
+>For those of you who know who Bernie Brewer is, he's back.  The
+>team mascot, if you will, was given his walking papers a few years
+>ago, but the fans voted him back last season and he will be perched
+>in the his familiar home in the outfield and will again slide down
+>into a barrel of beer when home runs are hit.
+
+That is great to hear I just may have to take a raod trip to Milwakee this year and see that again.  Last time I saw Bernie Brewer was at the age of 10 and I am now 21 thanks for this post.
+
+>One final note, Bill Spiers is leading the Brewers with 13 RBI's in
+>exhibition play.  Looks like he's bouncing back nicely from back
+>problems.
+
+Good to Bill is getting better form the limited coverage we get here in Iowa
+I know that this will be a great season for the BREW CREW!!
+
+
+>/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+>| Pete Fanning, Computer Operator  | "Leadership is ACTION |
+>| Office of Information Technology |  ...NOT Position"     |
+>| Milwaukee Area Technical College |     -- D. H. McGannon |
+>|**********************************************************|
+>| Email: pfan@music.lib.matc.edu (Internet)                |
+>|  -or-  Pete.Fanning@f71.n154.z1.fidonet.org              |
+>\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brewer note      know berni brewer he back team
+mascot given walk paper year ago fan vote back
+last season perch familiar home outfield slide
+barrel beer home run hit  great hear take raod
+trip milwake year see last time saw berni brewer
+age thank post  one final note bill spier lead
+brewer rbi exhibit play look like he bounc back
+nice back problem  good bill get better form limit
+coverag get iowa know great season brew crew
+pete fan comput oper leadership action offic
+inform technolog posit milwauke area technic
+colleg mcgannon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brewer, 1302, 0.506526114098
+berni, 1045, 0.32881981592
+fan, 3381, 0.167830590187
+brew, 1301, 0.16440990796
+home, 4354, 0.162607134293
+season, 7747, 0.162402925516
+barrel, 917, 0.152610680475
+note, 6118, 0.152146139273
+great, 4016, 0.140255145344
+iowa, 4754, 0.13955853899
+slide, 8031, 0.132697165501
+leadership, 5174, 0.130475690127
+bounc, 1249, 0.127528877354
+exhibit, 3282, 0.126631528525
+beer, 990, 0.125770816568
+coverag, 2195, 0.124148130341
+milwauke, 5730, 0.121926654966
+familiar, 3379, 0.119917086049
+vote, 9585, 0.118082493364
+outfield, 6325, 0.117504799281
+pete, 6574, 0.115861017989
+crew, 2227, 0.115861017989
+trip, 9104, 0.114336171914
+colleg, 1900, 0.110329194715
+rbi, 7124, 0.108766664064
+year, 9943, 0.105978759139
+action, 251, 0.0959182392837
+age, 328, 0.0943410919832
+paper, 6409, 0.0939645727809
+technic, 8737, 0.0935946595206
+offic, 6206, 0.0934121084667
+saw, 7650, 0.0928737511772
+limit, 5278, 0.0921766789303
+hear, 4223, 0.0910096490194
+know, 5052, 0.0908313656208
+walk, 9617, 0.0895982624917
+oper, 6261, 0.0882754550065
+area, 622, 0.085728834841
+lead, 5172, 0.0856029567656
+nice, 6047, 0.0853534329656
+form, 3610, 0.0845026454692
+technolog, 8743, 0.0837997632154
+posit, 6761, 0.0827875121126
+final, 3482, 0.0827875121126
+ago, 336, 0.0821387066133
+given, 3887, 0.075677476137
+hit, 4316, 0.073732134934
+comput, 1993, 0.0730984958131
+team, 8732, 0.07000743266
+play, 6681, 0.0695336033933
+inform, 4637, 0.0693006229563
+problem, 6887, 0.0663336721543
+run, 7543, 0.0635119383096
+better, 1060, 0.0630762923361
+post, 6766, 0.0615785375111
+thank, 8832, 0.0590461107319
+good, 3948, 0.0541992533707
+look, 5341, 0.0526185368311
+time, 8936, 0.0500972456811
+like, 5272, 0.0443958529068

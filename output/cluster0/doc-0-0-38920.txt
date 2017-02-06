@@ -1,0 +1,138 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38920
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: iharkest@Lise.Unit.NO (Inge Harkestad)
+Subject: Tangent vectors of Kochanek-Bartels splines
+Organization: University of Trondheim
+Lines: 33
+
+I'm working on a system which uses a given set of 3D key frame
+positions (x,y,z) to control an imaginary camera movement.  I'm
+using Kochanek-Bartels splines (as described in the SIGGRAPH '84
+proceedings) to create a variable number of inbetweens between
+the key frames.  I want the inbetweens to be given in the form
+(x,y,z,dx,dy,dz) where the last three argumentsa are the x, y and
+z component of the viewing direction vector of the camera when
+positioned at (x,y,z).
+
+The method presented by Kochanek and Bartels only deals with the
+positions of the inbetween view points to be generated.  I've
+tried to set the viewing direction at a view point equal to the
+chord between the two adjacent view points (which in general are
+not key frames), but this causes a sligt discontinuity of the
+viewing direction vector at the key frame positions (although
+the spatial movement seems to work fine; and I'm quite certain
+- I think :) - that I've not simply made an implementation
+error...)
+
+Now I wonder if anyone out there has used this spline form for
+similar purposes and how they decided the viewing vectors.
+I'd appreciate replies to be emailed to me at
+  iharkest@lise.unit.no
+Anyone else interested in the answer will be sent a summary of
+the replies if they contact me.
+
+-- 
+ _________     __________________
+\\        \\  \\
+ \\ N G E  \\==\\ A R K E S T A D     iharkest@lise.unit.no         Comp. Sc.
+  \\________\\  \\_______________     NTH (Norwegian Institute of Technology)
+
+          "Some people play hard to get, I play hard to want" (Ford Fairlane)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tangent vector kochanek bartel spline    i'm work
+system use given set key frame posit control
+imaginari camera movement i'm use kochanek bartel
+spline describ siggraph proceed creat variabl
+number inbetween key frame want inbetween given
+form last three argumentsa compon view direct
+vector camera posit  method present kochanek
+bartel deal posit inbetween view point generat i'v
+tri set view direct view point equal chord two
+adjac view point general key frame caus sligt
+discontinu view direct vector key frame posit
+although spatial movement seem work fine i'm quit
+certain think i'v simpli made implement error
+wonder anyon use spline form similar purpos decid
+view vector i'd appreci repli email  anyon els
+interest answer sent summari repli contact
+nth norwegian institut technolog  peopl play hard
+get play hard want ford fairlan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+view, 9510, 0.400055534528
+vector, 9444, 0.338456384771
+frame, 3643, 0.283286915286
+spline, 8245, 0.276265695865
+key, 4994, 0.26857784949
+posit, 6761, 0.2298099793
+movement, 5891, 0.171247218299
+direct, 2667, 0.168215298699
+camera, 1473, 0.164717085507
+repli, 7290, 0.127000154276
+point, 6710, 0.123904323274
+form, 3610, 0.117285510281
+discontinu, 2693, 0.114096427652
+norwegian, 6114, 0.110831361256
+chord, 1723, 0.110831361256
+hard, 4167, 0.110788463156
+tangent, 8692, 0.105908054325
+nth, 6145, 0.105908054325
+given, 3887, 0.105036609874
+set, 7815, 0.104819836524
+adjac, 268, 0.103954205064
+ford, 3595, 0.102230787876
+use, 9363, 0.0969470397717
+play, 6681, 0.0965092170829
+imaginari, 4519, 0.092924914872
+variabl, 9427, 0.0878791625883
+spatial, 8189, 0.0872818496849
+siggraph, 7941, 0.0867079669454
+work, 9833, 0.0829077210691
+want, 9634, 0.0797173674627
+proceed, 6889, 0.0793464878648
+anyon, 554, 0.0786383782045
+summari, 8536, 0.0765657443576
+compon, 1980, 0.0754813865615
+implement, 4544, 0.0706329244698
+equal, 3156, 0.0695485666737
+institut, 4683, 0.0672930132346
+sent, 7793, 0.0664235217698
+contact, 2078, 0.066283500278
+error, 3180, 0.066007414083
+method, 5666, 0.0658713002249
+fine, 3485, 0.0649523890081
+generat, 3819, 0.0633853147127
+decid, 2442, 0.0633853147127
+describ, 2556, 0.0630463311916
+purpos, 6993, 0.0629350596726
+email, 3060, 0.0615606366762
+control, 2107, 0.0610645846215
+similar, 7961, 0.0605847995325
+simpli, 7967, 0.059938480337
+caus, 1569, 0.059233180713
+deal, 2418, 0.0591473614979
+present, 6837, 0.0585603203634
+technolog, 8743, 0.0581549721644
+creat, 2217, 0.0565654272208
+appreci, 587, 0.0565654272208
+general, 3818, 0.0564938762996
+answer, 535, 0.0540056604492
+quit, 7043, 0.0535901155259
+wonder, 9821, 0.0531292228014
+certain, 1619, 0.051775936027
+els, 3053, 0.0505848678641
+number, 6156, 0.0475794649533
+tri, 9087, 0.0423760823494
+peopl, 6530, 0.039699265906
+think, 8871, 0.0335119677043

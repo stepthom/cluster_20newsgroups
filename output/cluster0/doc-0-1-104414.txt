@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104414
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tek2q@Virginia.EDU ("Todd Karlin")
+Subject: Re: Mel Hall
+Organization: University of Virginia
+Lines: 10
+
+warped@cs.montana.edu  writes:
+> 
+> Has anyone heard anything about Mel Hall this season?  I'd heard he wasn't
+> with the Yankees any more.  What happened to him?
+> 
+> 				Doug Dolven
+
+
+
+	Japan, I think.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mel hall      anyon heard anyth mel hall season
+i'd heard wasn't yanke happen  doug dolven
+japan think
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mel, 5620, 0.564333914871
+hall, 4128, 0.42292741562
+heard, 4224, 0.33109879386
+dolven, 2804, 0.33003548889
+japan, 4825, 0.235277609101
+doug, 2833, 0.232403700727
+yanke, 9933, 0.203139084369
+wasn, 9652, 0.189091596145
+season, 7747, 0.167805382969
+happen, 4159, 0.153567707559
+anyth, 555, 0.149373484737
+anyon, 554, 0.117085341649
+think, 8871, 0.0997925002417

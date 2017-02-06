@@ -1,0 +1,40 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102696
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: brucek@Ingres.COM (Bruce Kleinman)
+Subject: Re: When did Dodgers move from NY to LA?
+Article-I.D.: pony.1993Apr6.195730.20277
+Organization: Ingres Corporation, A subsidiary of The ASK Group, Inc.
+Lines: 6
+
+In article <1993Apr5.160030.2328@ncar.ucar.edu> tparker@music.scd.ucar.edu (Tom Parker) writes:
+>I have a bet with my buddy on when the Dodgers moved from NY to LA.  Does
+>anyone know what year they moved?
+>
+
+The Dodgers' first year in LA was 1958.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dodger move articl poni 1993apr6     bet buddi
+dodger move anyon know year move   dodger first
+year
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dodger, 2791, 0.728995128391
+poni, 6739, 0.356801087479
+buddi, 1366, 0.324150075999
+1993apr6, 49, 0.279140277162
+year, 9943, 0.236769846688
+bet, 1054, 0.229869455233
+articl, 665, 0.15181853542
+anyon, 554, 0.126580863679
+know, 5052, 0.101464334397

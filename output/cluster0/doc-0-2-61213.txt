@@ -1,0 +1,125 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61213
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Re: Jemison on Star Trek (Better Ideas)
+Article-I.D.: aurora.1993Apr25.154449.1
+Organization: University of Alaska Fairbanks
+Lines: 31
+Nntp-Posting-Host: acad3.alaska.edu
+
+In article <1rbp6q$oai@access.digex.net>, prb@access.digex.com (Pat) writes:
+> In article <1993Apr22.214735.22733@Princeton.EDU> phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser) writes:
+>>A transporter operator!?!?  That better be one important transport.  Usually  
+>>it is a nameless ensign who does the job.  For such a guest appearance I would  
+>>have expected a more visible/meaningful role.
+> 
+> 
+> Christian  Slater, only gota  cameo on ST6,  
+> 
+> and besides.
+> 
+> Maybe she can't act:-)
+> 
+> pat
+> 
+
+Better idea for use of NASA Shuttle Astronauts and Crew is have them be found
+lost in space after a accident with a worm hole or other space/time glitch..
+
+Maybe age Jemison a few years (makeup and such) and have her as the only
+survivour of a failed shuttle mission that got lost.. 
+
+Heh of late, they way they have been having shuttle problems in the media,
+anything can happen.. 
+
+Imagine a Astronaut/Crew member to find themselves in the 24th Century as the
+object of interest of an alien civilization, maybe rescued or helped by the ST
+Enterprise...  I know Vegr and such was okay, but this could be better..
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jemison star trek better idea articl aurora
+1993apr25       transport oper better one import
+transport usual nameless ensign job guest appear
+expect visibl meaning role   christian slater gota
+cameo st6  besid  mayb can't act  pat   better
+idea use nasa shuttl astronaut crew found lost
+space accid worm hole space time glitch  mayb age
+jemison year makeup survivour fail shuttl mission
+got lost  heh late way shuttl problem media anyth
+happen  imagin astronaut crew member find 24th
+centuri object interest alien civil mayb rescu
+help enterpris know vegr okay could better
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jemison, 4845, 0.299045462466
+shuttl, 7929, 0.254126076144
+better, 1060, 0.251846180671
+crew, 2227, 0.231300491742
+transport, 9065, 0.226342730874
+astronaut, 727, 0.221907862654
+mayb, 5564, 0.221008400902
+lost, 5355, 0.186123040279
+ensign, 3122, 0.159414502098
+1993apr25, 46, 0.159414502098
+glitch, 3903, 0.152333054083
+24th, 68, 0.149522731233
+idea, 4482, 0.143903723736
+trek, 9081, 0.140989248311
+meaning, 5596, 0.137744968674
+rescu, 7306, 0.136292933767
+alien, 413, 0.136292933767
+enterpris, 3126, 0.133658730426
+guest, 4080, 0.13245576539
+accid, 210, 0.126401162902
+aurora, 787, 0.11969893521
+space, 8164, 0.119397656493
+civil, 1778, 0.116729772673
+role, 7463, 0.113171365437
+visibl, 9541, 0.107830260379
+okay, 6215, 0.104794360251
+centuri, 1614, 0.103573951237
+media, 5605, 0.102420448406
+hole, 4343, 0.101326895506
+fail, 3360, 0.100035314935
+besid, 1051, 0.100035314935
+late, 5139, 0.0965773668793
+imagin, 4518, 0.0955404005736
+age, 328, 0.0941694684971
+act, 249, 0.0939807124474
+pat, 6458, 0.0934243939301
+member, 5625, 0.0932421749695
+star, 8324, 0.0910066054357
+job, 4873, 0.0895872255523
+usual, 9377, 0.0888381728813
+oper, 6261, 0.0881148660097
+appear, 580, 0.0855728786063
+mission, 5772, 0.0831922465062
+expect, 3290, 0.0815683442691
+import, 4551, 0.0797718473606
+nasa, 5956, 0.0792055488423
+object, 6173, 0.0775066353452
+christian, 1732, 0.0746963124946
+happen, 4159, 0.0741766278568
+anyth, 555, 0.0721507246877
+got, 3960, 0.0690592309014
+articl, 665, 0.0678307244079
+problem, 6887, 0.0662129992236
+help, 4249, 0.0618304346176
+way, 9666, 0.0550541788558
+year, 9943, 0.0528929823172
+time, 8936, 0.0500061097428
+use, 9363, 0.0464813205093
+know, 5052, 0.0453330634805

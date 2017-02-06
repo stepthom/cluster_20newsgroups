@@ -1,0 +1,297 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104420
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rjh@allegra.att.com (Robert Holt)
+Subject: Re: ALL-TIME BEST PLAYERS
+Organization: AT&T Bell Laboratories, Murray Hill, NJ
+Lines: 78
+
+In article <1993Apr15.162313.154828@ns1.cc.lehigh.edu> jsr2@ns1.cc.lehigh.edu (JOHN STEPHEN RANDOLPH) writes:
+>In article <1993Apr13.115313.17986@bsu-ucs>, 00mbstultz@leo.bsuvc.bsu.edu writes
+>:
+>>I've recently been working on project to determine the greatest
+>>players at their respective postions.  My sources are Total Baseball,
+>>James' Historical Abstract, The Ballplayers (biography), word of
+>>mouth, and my own (biased) opinions...
+>>
+>>Feel free to comment, suggest, flame (whatever)...but I tried
+>>to be as objective as possible, using statistical data not inlcuded
+>>for time/convience's sake.  (I judged on Rel. BA, Adj OPS, Total Average,
+>>fielding range/runs, total player rating (Total Baseball), stolen bases
+>>(for curiosity's sake), TPR/150 g, and years played/MVP.
+>>
+>>3B
+>> 1) Mike Schmidt
+>> 2) Ed Matthews
+One "t" in "Eddie Mathews"!
+>> 3) George Brett
+>> 4) Wade Boggs
+>> 5) Ron Santo
+>> 6) Brooks Robinson
+>> 7) Frank Baker
+>> 8) Darrell Evans
+>> 9) Pie Traynor
+>>10) Ray Dandridge
+>>
+>How can Brooks be # 6?  I think he would at least be ahead of Ron Santo.
+>
+Because a small advantage in fielding ability comes nowhere near
+making up for the large difference in hitting.  Their average
+seasons, using their combined average 656 (AB + BB) per 162 games:
+
+         Years  AB  H  R  2B 3B HR RBI TB  BB  AVG  OBP  SLG  OPS
+Santo    14.10 577 160 81 26  5 24  94 268 79 .277 .366 .464 .830
+Robinson 17.55 607 162 70 27  4 15  77 243 49 .267 .325 .401 .726
+
+Fielding, we have, per 162 games at third,
+
+         Years   P    A   DP   E   PCT
+Santo    13.15  149  348  30  24  .954
+Robinson 17.72  152  350  35  15  .971
+
+Even if Robinson's extra 3 putouts, 2 assists, and 5 DPs are taken to mean
+he was responsible for 10 more outs in the field, that doesn't make up
+for the extra 28 outs he made at the plate, not to mention the fewer
+total bases.  The difference of .104 in OPS should be decreased by about
+.025 to account for Wrigley, but a .079 difference is still considerable.
+The Thorn & Palmer ratings are
+
+           Adjusted      Adjusted    Stolen   Fielding  Total
+           Production  Batting Runs Base Runs   Runs    Rating
+Santo         123          284        -14       137      41.7
+Robinson      105           52         -5       151      19.8 (26.3)
+Usual disclaimers about T&P's FR apply, but they really shouldn't be
+way off the mark in this comparison.  At least it's better than fielding
+percentage: Carney Lansford has a .966 , 10th best all-time, but -225 FR,
+dead last of all time.  Also, since this total rating compares players
+to league average instead of replacement level, Robinson should be
+awarded an extra 6.5 or so for playing 653 more games.  He had a great
+career, but I would prefer Santo's plus 4 years of a replacement level 3Bman.
+
+But I would knock Traynor off the list and replace him by Stan Hack.
+That's a similar story, Hack's far better hitting outweighs Traynor's
+superior fielding.  Graig Nettles and Buddy Bell would also be better
+choices (IMHO of course, though some recent net discussion supports
+this point of view.)
+>
+>>CF
+>> 7) Andre Dawson
+
+Shouldn't that be right field?
+
+-- 
++-----------------------+
+|  Bob Holt             |
+|  rjh@allegra.att.com  |
++-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time best player     articl 1993apr13  i'v recent
+work project determin greatest player respect
+postion sourc total basebal jame histor abstract
+ballplay biographi word mouth bias opinion  feel
+free comment suggest flame whatev tri object
+possibl use statist data inlcud time convienc sake
+judg rel adj op total averag field rang run total
+player rate total basebal stolen base curios sake
+tpr year play mvp   mike schmidt matthew one eddi
+mathew georg brett wade bogg ron santo brook
+robinson frank baker darrel evan pie traynor ray
+dandridg  brook think least ahead ron santo  small
+advantag field abil come nowher near make larg
+differ hit averag season use combin averag per
+game  year rbi avg obp slg op santo robinson
+field per game third  year pct santo robinson
+even robinson extra putout assist dps taken mean
+respons out field doesn't make extra out made
+plate mention fewer total base differ op decreas
+account wrigley differ still consider thorn palmer
+rate  adjust adjust stolen field total product bat
+run base run run rate santo robinson usual
+disclaim p appli realli shouldn't way mark
+comparison least it better field percentag carney
+lansford 10th best time dead last time also sinc
+total rate compar player leagu averag instead
+replac level robinson award extra play game great
+career prefer santo plus year replac level 3bman
+knock traynor list replac stan hack that similar
+stori hack far better hit outweigh traynor
+superior field graig nettl buddi bell also better
+choic imho cours though recent net discuss support
+point view   andr dawson  shouldn't right field
+bob holt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+santo, 7616, 0.380770203639
+robinson, 7441, 0.326552916486
+field, 3466, 0.268936704704
+total, 9013, 0.249549650045
+traynor, 9072, 0.216669133716
+op, 6256, 0.163276458243
+rate, 7108, 0.155061466974
+averag, 816, 0.152093468044
+replac, 7288, 0.129359428113
+extra, 3325, 0.124935659745
+player, 6683, 0.123291673498
+brook, 1339, 0.119679695405
+hack, 4111, 0.118249718288
+sake, 7587, 0.108056833569
+run, 7543, 0.107628940048
+stolen, 8407, 0.1045425694
+ron, 7472, 0.0934833245495
+shouldn, 7912, 0.0928090869209
+adjust, 269, 0.092481276316
+year, 9943, 0.0897971453659
+time, 8936, 0.0848960619921
+base, 923, 0.0838640444958
+differ, 2633, 0.0825146728845
+game, 3761, 0.0812300024365
+better, 1060, 0.0801680125064
+level, 5229, 0.0732928048866
+recent, 7168, 0.0710046011127
+tpr, 9027, 0.0696532990412
+putout, 6998, 0.0696532990412
+lansford, 5118, 0.0696532990412
+graig, 3986, 0.0696532990412
+carney, 1526, 0.0696532990412
+rel, 7246, 0.0676600495528
+dps, 2851, 0.0676600495528
+1993apr13, 41, 0.0676600495528
+outweigh, 6336, 0.0660314461374
+adj, 267, 0.0660314461374
+postion, 6770, 0.0646544815696
+holt, 4352, 0.0646544815696
+dandridg, 2353, 0.0646544815696
+thorn, 8883, 0.0634617006065
+biographi, 1106, 0.0634617006065
+hit, 4316, 0.0624741721133
+pie, 6623, 0.0624095932336
+curios, 2296, 0.0624095932336
+10th, 12, 0.0624095932336
+buddi, 1366, 0.0614684511182
+stan, 8309, 0.0606170845158
+darrel, 2373, 0.0606170845158
+basebal, 924, 0.0602025224331
+baker, 871, 0.0598398477027
+best, 1052, 0.0597288964903
+avg, 820, 0.0591248591441
+play, 6681, 0.0589167031436
+wrigley, 9862, 0.0584628831349
+mathew, 5547, 0.0578465982144
+pct, 6488, 0.0572701021719
+mouth, 5890, 0.0572701021719
+fewer, 3456, 0.0562179947989
+brett, 1300, 0.0562179947989
+schmidt, 7681, 0.0557350345677
+evan, 3227, 0.0552768526835
+eddi, 2990, 0.0548410302311
+dawson, 2401, 0.0548410302311
+ballplay, 884, 0.0548410302311
+wade, 9605, 0.0540284167843
+decreas, 2456, 0.0536482492681
+superior, 8562, 0.0529332607094
+nowher, 6131, 0.0525961418951
+mvp, 5937, 0.0519578283855
+bogg, 1199, 0.0519578283855
+award, 832, 0.0519578283855
+slg, 8028, 0.0516549997797
+palmer, 6401, 0.0516549997797
+abstract, 199, 0.0505369689462
+greatest, 4018, 0.0500263963642
+andr, 503, 0.0500263963642
+percentag, 6534, 0.0486494317964
+bias, 1069, 0.0484392435492
+comparison, 1962, 0.0482338876464
+obp, 6177, 0.0476447122712
+imho, 4524, 0.0474566508334
+knock, 5050, 0.0472724672286
+histor, 4313, 0.0467416622748
+bell, 1011, 0.0467416622748
+matthew, 5554, 0.046240638158
+rbi, 7124, 0.0460796862655
+plate, 6674, 0.0453157518948
+georg, 3847, 0.0450275788926
+statist, 8348, 0.0448869053025
+make, 5459, 0.0448082302567
+assist, 705, 0.0446120347426
+judg, 4920, 0.0442149654458
+jame, 4820, 0.0442149654458
+disclaim, 2691, 0.0438347979296
+advantag, 286, 0.0435900541717
+combin, 1921, 0.0433518376984
+ahead, 342, 0.0433518376984
+plus, 6700, 0.0428936558141
+account, 221, 0.0428936558141
+flame, 3518, 0.0427826905566
+consider, 2060, 0.042144377047
+abil, 177, 0.0418415484412
+career, 1517, 0.04135858821
+choic, 1717, 0.0412650523987
+prefer, 6819, 0.0408115241162
+taken, 8678, 0.0404645838733
+respect, 7321, 0.0404645838733
+stori, 8418, 0.0403799141555
+rang, 7094, 0.0403799141555
+dead, 2415, 0.0398086865227
+appli, 584, 0.0395746315161
+use, 9363, 0.0394559893554
+bob, 1189, 0.0392718029103
+whatev, 9718, 0.0389789049207
+determin, 2582, 0.0389071568374
+mike, 5710, 0.0385568143517
+instead, 4682, 0.0383530202267
+frank, 3655, 0.0382196955374
+usual, 9377, 0.0377054477493
+compar, 1960, 0.0375813820277
+product, 6896, 0.0373984557371
+ray, 7118, 0.0373383033996
+similar, 7961, 0.0369856554324
+bat, 942, 0.0367020573794
+mark, 5512, 0.0363732133118
+free, 3668, 0.0363732133118
+near, 5982, 0.0361605225885
+net, 6010, 0.0359527786123
+leagu, 5176, 0.035850690777
+comment, 1936, 0.035850690777
+mention, 5632, 0.0357497565013
+feel, 3429, 0.03512009944
+view, 9510, 0.0348892703592
+small, 8054, 0.0347985834041
+season, 7747, 0.0344015141073
+respons, 7323, 0.0344015141073
+discuss, 2708, 0.0343584654054
+suggest, 8525, 0.0340627971915
+opinion, 6266, 0.0334603719919
+project, 6909, 0.0331549546052
+larg, 5124, 0.0330802044756
+data, 2385, 0.0330802044756
+sourc, 8153, 0.0329692392181
+object, 6173, 0.0328960208708
+list, 5298, 0.0327155584027
+word, 9829, 0.0319950745573
+support, 8576, 0.0307652885723
+cours, 2190, 0.030566462817
+far, 3386, 0.029838519088
+great, 4016, 0.0297099904194
+possibl, 6765, 0.0292863294234
+doesn, 2793, 0.0289753913406
+articl, 665, 0.0287892890185
+mean, 5595, 0.0276051455308
+sinc, 7977, 0.0272300204016
+right, 7399, 0.0271722040939
+realli, 7150, 0.0265061126327
+come, 1923, 0.0259029122703
+tri, 9087, 0.0258696437463
+work, 9833, 0.0253066481015
+point, 6710, 0.0252135994648
+way, 9666, 0.023366559632
+think, 8871, 0.0204583014211

@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39663
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nagle@netcom.com (John Nagle)
+Subject: Re: Point in Polygon routine needed
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 18
+
+Andrew Lewis Tepper <at15+@andrew.cmu.edu> writes:
+>I don't know if this routine is "standard", I just came up with it recently:
+>For a polygon of points p1...pn, and a point P, make a table as follows:
+>T(1)= angle from p1 to P to p2
+>T(2)= angle from p2 to P to p3
+>...
+>T(n)= angle from pn to P to p1
+>express all angles as: -PI < angle < PI.
+>Add all entries in the table. If the sum = 0, the point is outside. If
+>the sum is +/- PI, the point is inside. If the point is +/- xPI, you
+>have a strange polygon. If ANY angle was = +/-PI, the point is on the
+>border.
+
+     I think it's known, but it's neat.
+
+     Can it be extended to 3D?
+
+						John Nagle
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ point polygon routin need     don't know routin
+standard came recent polygon point point make tabl
+follow angl angl  angl express angl angl add entri
+tabl sum point outsid sum point insid point xpi
+strang polygon angl point border  think it known
+it neat  extend  john nagl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+angl, 511, 0.666431639857
+point, 6710, 0.402957714416
+polygon, 6728, 0.313467830455
+sum, 8532, 0.234530520766
+tabl, 8667, 0.22312677426
+routin, 7499, 0.200159215215
+border, 1229, 0.130753867332
+neat, 5985, 0.121652256918
+entri, 3135, 0.108778056108
+strang, 8426, 0.105204931651
+extend, 3319, 0.103129168258
+express, 3315, 0.0974272950053
+outsid, 6332, 0.0969358478514
+insid, 4671, 0.0955288024004
+add, 260, 0.087564113356
+standard, 8313, 0.0835414400078
+came, 1472, 0.0822016462912
+known, 5054, 0.0815063265583
+recent, 7168, 0.0810556105344
+john, 4878, 0.077115655085
+follow, 3578, 0.067031267018
+need, 5993, 0.0548333353754
+make, 5459, 0.051151029701
+think, 8871, 0.0467085255377
+don, 2811, 0.0462584876772
+know, 5052, 0.0439284761291

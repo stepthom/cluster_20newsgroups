@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83783
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jburrill@boi.hp.com (Jim Burrill)
+Subject: Question about Islamic view   
+Organization: Idaho River Country, The Salmon, Payette, Clearwater, Boise, Selway, Priest.
+X-Newsreader: TIN [version 1.1.8 PL6]
+Lines: 8
+
+A question regarding the Islamic view towards homosexuality came up in a
+discussion group that I participate in, and I'd like to ask the question here,
+
+"What is the Islamic view towards homosexuality?"             
+
+Jim Burrill
+jburrill@boi.hp.com
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question islam view     question regard islam
+view toward homosexu came discuss group particip
+i'd like ask question  islam view toward homosexu
+jim burril
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+islam, 4780, 0.648221362736
+homosexu, 4360, 0.389453442253
+view, 9510, 0.38251203816
+question, 7032, 0.296441924261
+burril, 1416, 0.247265928178
+particip, 6440, 0.170818977865
+jim, 4868, 0.149147088387
+regard, 7224, 0.133723377626
+came, 1472, 0.131578792363
+discuss, 2708, 0.125564168152
+group, 4064, 0.113608323227
+ask, 689, 0.113068733342
+like, 5272, 0.068736604437

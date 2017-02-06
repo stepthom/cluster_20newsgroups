@@ -1,0 +1,263 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104636
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: fierkelab@bchm.biochem.duke.edu (Eric Roush)
+Subject: Re: Braves Update!!
+Organization: Biochemistry
+Lines: 58
+Nntp-Posting-Host: bruchner.biochem.duke.edu
+
+In article <1993Apr19.194025.8967@adobe.com> snichols@adobe.com (Sherri
+Nichols) writes:
+>In article <13512@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush)
+writes:
+>>that HE'D been thrown out.  And Gant had a legitimate beef about
+>>the 1-0 pitch that was called a strike.  A reasonable umpire would
+>>not have tried to FORCE Gant back into the box in that situation.
+>
+>A reasonable umpire would do as he's been instructed to do this season: get
+>the batters back in the box sooner to try to cut down on the ridiculous
+>length of games.  I for one am glad to see this happen, and hope more
+>umpires will do as Hirschbeck did in instructing the pitcher to pitch if
+>the batter won't get back in the box.  
+>
+>So what if the previous strike call was bogus?  It's in the past, it can't
+>be changed; get back in there and deal with the next pitch.  
+
+Sorry, Sherri, but I can't agree with this particular incident.  While
+I'm all for cutting down the number of chain-rattles and other examples
+of rampant Hargroving, there was a difference here.
+
+1)  Since time immemorial, batters have complained about calls.
+So have pitchers and catchers.  Usually, nothing happens.
+Unless the league notified teams this year about not allowing
+complaints, Hirschbeck was acting against expectations.
+
+2)  It's not as if Gant was "in Hirschbeck's face".  Gant said
+something about the call, stepped out of the box, and turned away
+from Hirschbeck.  As a hitter (alibet of little consequence, but
+with a decent eye), whenever receiving the short end of the stick
+on a questionable call, I'd want a moment or two out of the box,
+if for no other reason than to rethink the strike zone based on
+the experience of the last pitch.  And if I was really angry
+at the ump, I'd rather turn away and catch my breath than
+turn to him and say something that might get me tossed,
+especially at a key moment in the game.
+
+When Gant turned away, Hirschbeck IMMEDIATELY motioned for Gant
+to step into the box.  IMO, at this point in time, Hirschbeck
+was determined to show Gant exactly WHO was in charge of this game.
+Gant wasn't dawdling; he hadn't had a chance to dawdle.  And Hirschbeck
+was simply exercising a power play.  Gant resisted, as many of
+us might to what we thought was an unreasonable request, and
+Hirschbeck called for the pitch.  At that point, Cox came out on
+the field, the pitch was thrown, and many other Braves left the
+dugout.  Cox was tossed "protecting his player".  I was pleasantly
+surprised that Gant kept his cool enough to stay in the game.
+
+It's a small sample size, but based on what I saw in that game,
+Mark Hirschbeck has a hair-trigger temper and a need to play
+God on the field.  Not good qualities for an umpire.  I will
+keep my eyes open for future appearances of Hirschbeck in the 
+future, in order to improve my sample size.
+
+IMO, any game where you remember the name of the umpire was
+a bad game for the umpire.
+
+Eric Roush
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat     adob com sherri  bchm biochem
+duke edu eric roush  he'd thrown gant legitim beef
+pitch call strike reason umpir tri forc gant back
+box situat  reason umpir he instruct season get
+batter back box sooner tri cut ridicul length game
+one glad see happen hope umpir hirschbeck instruct
+pitcher pitch batter won't get back box  previous
+strike call bogus it past can't chang get back
+deal next pitch  sorri sherri can't agre
+particular incid i'm cut number chain rattl exampl
+rampant hargrov differ  sinc time immemori batter
+complain call pitcher catcher usual noth happen
+unless leagu notifi team year allow complaint
+hirschbeck act expect  it gant hirschbeck face
+gant said someth call step box turn away
+hirschbeck hitter alibet littl consequ decent eye
+whenev receiv short end stick question call i'd
+want moment two box reason rethink strike zone
+base experi last pitch realli angri ump i'd rather
+turn away catch breath turn say someth might get
+toss especi key moment game  gant turn away
+hirschbeck immedi motion gant step box imo point
+time hirschbeck determin show gant exact charg
+game gant wasn't dawdl hadn't chanc dawdl
+hirschbeck simpli exercis power play gant resist
+mani might thought unreason request hirschbeck
+call pitch point cox came field pitch thrown mani
+brave left dugout cox toss protect player pleasant
+surpris gant kept cool enough stay game  it small
+sampl size base saw game mark hirschbeck hair
+trigger temper need play god field good qualiti
+umpir keep eye open futur appear hirschbeck futur
+order improv sampl size  imo game rememb name
+umpir bad game umpir  eric roush
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hirschbeck, 4310, 0.512784160679
+gant, 3766, 0.445692242631
+umpir, 9210, 0.258753242071
+box, 1254, 0.194035224251
+pitch, 6643, 0.173438528543
+game, 3761, 0.168015763156
+turn, 9158, 0.126058344607
+strike, 8448, 0.118282481519
+roush, 7496, 0.117067833654
+dawdl, 2399, 0.117067833654
+batter, 949, 0.112910897702
+cox, 2198, 0.102556832136
+imo, 4533, 0.0944670510827
+away, 833, 0.0941553843977
+thrown, 8900, 0.0932482438353
+toss, 9010, 0.090070286594
+sherri, 7879, 0.0891384485261
+instruct, 4684, 0.0855143581699
+sampl, 7601, 0.0828687763782
+eric, 3170, 0.080340765121
+reason, 7156, 0.0766225455988
+moment, 5828, 0.0752739318014
+eye, 3337, 0.0743582618598
+size, 8000, 0.073492654166
+step, 8377, 0.0731592380981
+cut, 2313, 0.069625385469
+brave, 1277, 0.0677600934282
+futur, 3737, 0.0668483782072
+pitcher, 6644, 0.0629423957672
+hargrov, 4175, 0.0617445270594
+field, 3466, 0.059600083088
+temper, 8772, 0.058533916827
+biochem, 1104, 0.058533916827
+bchm, 964, 0.058533916827
+trigger, 9099, 0.0562559526149
+rattl, 7111, 0.0562559526149
+happen, 4159, 0.0558159528982
+notifi, 6121, 0.0544890263004
+dugout, 2910, 0.0544890263004
+bogus, 1200, 0.0544890263004
+angri, 512, 0.0537343279739
+duke, 2912, 0.0530453423825
+beef, 988, 0.052411537078
+play, 6681, 0.0522270161152
+sooner, 8137, 0.0512784160679
+pleasant, 6689, 0.0512784160679
+unreason, 9305, 0.0507673781705
+base, 923, 0.0495611438937
+chain, 1637, 0.0494066095561
+hair, 4119, 0.047556767938
+ump, 9209, 0.0472335255413
+resist, 7314, 0.0472335255413
+hadn, 4114, 0.0472335255413
+complaint, 1974, 0.0472335255413
+whenev, 9722, 0.0469229626336
+legitim, 5204, 0.0469229626336
+someth, 8126, 0.0466181110507
+ridicul, 7396, 0.0463361505776
+exercis, 3279, 0.0463361505776
+breath, 1291, 0.0460582856068
+tri, 9087, 0.0458645589024
+zone, 9991, 0.045278803726
+consequ, 2057, 0.045035143297
+mani, 5479, 0.0449217911595
+point, 6710, 0.0447014512118
+incid, 4575, 0.0445692242631
+adob, 277, 0.0445692242631
+cool, 2124, 0.0437123524011
+glad, 3889, 0.0435118774114
+complain, 1973, 0.0429392178867
+motion, 5880, 0.0422349015275
+decent, 2440, 0.0422349015275
+catch, 1556, 0.0419049229848
+catcher, 1557, 0.0408475761332
+kept, 4989, 0.0400416262418
+length, 5212, 0.0391945847214
+stick, 8393, 0.0390806498186
+protect, 6940, 0.0386406288916
+qualiti, 7017, 0.0381229060303
+immedi, 4527, 0.0379249372407
+stay, 8355, 0.0378277784864
+charg, 1664, 0.0376369659007
+time, 8936, 0.037628276543
+request, 7301, 0.0375432566516
+previous, 6855, 0.0370906569466
+improv, 4557, 0.0365796190491
+key, 4994, 0.0363359586201
+surpris, 8593, 0.0356469730287
+act, 249, 0.0353590016887
+saw, 7650, 0.0348789553733
+receiv, 7167, 0.034617168254
+com, 1917, 0.034617168254
+determin, 2582, 0.0344894503378
+chanc, 1649, 0.0344263556683
+wasn, 9652, 0.034363759776
+updat, 9333, 0.034301654837
+face, 3345, 0.034057994408
+won, 9820, 0.0337635984518
+hitter, 4322, 0.033706010277
+past, 6456, 0.0334797566238
+usual, 9377, 0.0334241891036
+situat, 7995, 0.0334241891036
+particular, 6442, 0.0331520544471
+experi, 3295, 0.0331520544471
+forc, 3594, 0.0327861254827
+especi, 3190, 0.0327861254827
+simpli, 7967, 0.0324363627962
+unless, 9289, 0.0322432229985
+mark, 5512, 0.0322432229985
+appear, 580, 0.0321956652631
+deal, 2418, 0.0320082402023
+came, 1472, 0.031916165454
+leagu, 5176, 0.031780030196
+left, 5193, 0.0315145861518
+open, 6258, 0.0314280460649
+exact, 3253, 0.0314280460649
+short, 7904, 0.0312999838807
+small, 8054, 0.0308473841756
+expect, 3290, 0.0306890121137
+agre, 337, 0.030649909125
+sorri, 8142, 0.0305337455874
+season, 7747, 0.0304954000445
+allow, 432, 0.030343848258
+power, 6783, 0.0293903809289
+rememb, 7269, 0.0291608477813
+bad, 861, 0.0291608477813
+noth, 6119, 0.0288130803926
+exampl, 3258, 0.0287208268543
+chang, 1650, 0.0284503449508
+hope, 4372, 0.0283039759194
+edu, 3001, 0.0280752715267
+order, 6281, 0.0279911821793
+god, 3926, 0.0279079764491
+thought, 8887, 0.0276367739432
+player, 6683, 0.027323135355
+end, 3091, 0.0272975510383
+littl, 5308, 0.0266128237633
+said, 7583, 0.0263592308226
+team, 8732, 0.0262914557515
+number, 6156, 0.0257481467364
+differ, 2633, 0.0243818527997
+sinc, 7977, 0.0241381923707
+question, 7032, 0.0239686283082
+realli, 7150, 0.0234964805862
+want, 9634, 0.0215699617144
+need, 5993, 0.0212899605202
+good, 3948, 0.0203546568931
+say, 7653, 0.0201035920849
+year, 9943, 0.0199002859456

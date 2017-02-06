@@ -1,0 +1,36 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38786
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cs89ssg@brunel.ac.uk (Sunil Gupta)
+Subject: MESSAGE: for cgcad@bart.inescn.pt
+Organization: Brunel University, Uxbridge, UK
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 2
+
+I cant get through to the author of rtrace. His site is inaccessible
+can he upload the new version somewhere else please?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+      cant get author rtrace site inaccess upload
+new version somewher els pleas
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+inaccess, 4561, 0.481624692231
+rtrace, 7523, 0.451739574905
+upload, 9339, 0.400176686565
+somewher, 8130, 0.297138191799
+site, 7994, 0.262056162818
+author, 796, 0.260860173984
+version, 9479, 0.247386511853
+els, 3053, 0.219819743622
+pleas, 6688, 0.187049660882
+new, 6023, 0.185220631659

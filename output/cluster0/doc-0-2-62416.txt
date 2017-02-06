@@ -1,0 +1,99 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62416
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mckay@alcor.concordia.ca (John McKay)
+Subject: Re: Math?? (Was US govt & Technolgy Investment
+Keywords: science?
+Nntp-Posting-Host: alcor.concordia.ca
+Organization: Concordia University, Montreal, Canada
+Lines: 21
+
+mwilson@ncratl.AtlantaGA.NCR.COM (Mark Wilson) writes:
+
+>|>Report called it The Science of Order, but that's probably pomposity.
+
+>|It is, however, now somewhat of an experimental science with the exploration
+>|of fractals, strange attractors, and artificial life. Whether important
+>|insights will be gained from these experiments is unknown, but it does
+>|tend to change the shape of what has mostly been viewed as an abstract
+>|deductive field.
+
+>How do you do experiments in mathematics?
+Well ...
+Have a look at a new journal: Journal of Experimental Mathematics
+It has several Fields medallists on its editorial board.
+You want to knwo more?
+Try Klaus Peters in Boston or David Epstein at Warwick .
+
+-- 
+Deep ideas are simple.
+                      Odd groups are even.
+                                           Even simples are not.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ math govt technolgi invest        report call
+scienc order that probabl pompos  howev somewhat
+experiment scienc explor fractal strang attractor
+artifici life whether import insight gain experi
+unknown tend chang shape most view abstract deduct
+field  experi mathemat well look new journal
+journal experiment mathemat sever field medallist
+editori board want knwo tri klaus peter boston
+david epstein warwick   deep idea simpl odd group
+even even simpl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+journal, 4898, 0.291048487882
+experiment, 3297, 0.283990333738
+mathemat, 5545, 0.266305401673
+simpl, 7965, 0.219355286682
+experi, 3295, 0.215382208675
+field, 3466, 0.193604857177
+scienc, 7692, 0.192256906218
+govt, 3969, 0.186176471284
+deduct, 2463, 0.179712180199
+technolgi, 8742, 0.17700210483
+editori, 2998, 0.17700210483
+artifici, 667, 0.164912706337
+insight, 4672, 0.161883099829
+fractal, 3637, 0.150518310544
+abstract, 199, 0.145524243941
+unknown, 9287, 0.142663306404
+math, 5544, 0.136654282528
+deep, 2466, 0.134595429938
+somewhat, 8129, 0.13410547368
+invest, 4744, 0.13410547368
+gain, 3746, 0.13410547368
+shape, 7853, 0.133152700837
+strang, 8426, 0.132689230175
+odd, 6198, 0.130914600651
+tend, 8783, 0.127695163571
+peter, 6575, 0.126949548297
+boston, 1243, 0.123838414223
+board, 1186, 0.12351486372
+explor, 3307, 0.121654637027
+david, 2397, 0.103825556657
+report, 7291, 0.102371953776
+view, 9510, 0.100465754012
+import, 4551, 0.0974945400969
+sever, 7823, 0.0949369087733
+life, 5260, 0.0947260721352
+chang, 1650, 0.092418075369
+order, 6281, 0.0909265314285
+group, 4064, 0.0895167580343
+howev, 4406, 0.0886733406436
+idea, 4482, 0.087937209856
+probabl, 6885, 0.0841223420907
+new, 6023, 0.074927128471
+tri, 9087, 0.0744931962819
+want, 9634, 0.070067844551
+look, 5341, 0.0641916639178

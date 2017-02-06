@@ -1,0 +1,38 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104470
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: ajpat@IASTATE.EDU (Amy J Patterson)
+Subject: Twins Games :)
+Reply-To: ajpat@IASTATE.EDU (Amy J Patterson)
+Organization: Iowa State University
+Lines: 4
+
+Does anyone know if the Twins games are broadcast in
+good ole Ames Iowa??????????????
+
+Thanks all.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ twin game     anyon know twin game broadcast good
+ole ame iowa  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+twin, 9172, 0.606289846508
+ole, 6220, 0.395605944667
+iowa, 4754, 0.361771453226
+game, 3761, 0.331351836914
+broadcast, 1324, 0.284960404685
+ame, 465, 0.274652679045
+thank, 8832, 0.153062631935
+anyon, 554, 0.146871784658
+good, 3948, 0.140498337096
+know, 5052, 0.117729074039

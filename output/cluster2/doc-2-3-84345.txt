@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84345
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: markp@elvis.wri.com (Mark Pundurs)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Nntp-Posting-Host: elvis.wri.com
+Organization: Wolfram Research, Inc.
+Lines: 28
+
+In <30185@ursa.bear.com> halat@pooh.bears (Jim Halat) writes:
+
+>In article <markp.735230393@elvis.wri.com>, markp@elvis.wri.com (Mark Pundurs) writes:
+
+>>Omigod, it's an operationalist! Sorry, Jim, but the idea that a theory
+>>explaining a myriad of distinctly different observations is merely a
+>>"model" is more than sensible people can accept -- your phobia about
+>>objective reality notwithstanding.
+
+>First of all, I have no phobia of objective reality.  I'm simply
+>saying that the scientific model of the atom is probably not 
+>what is really out there.  I'm not saying that there's no object
+>that sources these properties we measure from atomic theory.
+
+You hadn't made that clear; I'm glad to have it clarified! So you're
+a (physical) objectivist, after all, right?
+
+>Take light as another example.  There are two theories: particle and
+>wave.  Each one fails to predict the behavior of light as some point.
+>So which is it: particle or wave?  You tell me.  You're the sensible
+>one.
+
+Wavicle! Next question? ;-)
+--
+Mark Pundurs
+
+any resemblance between my opinions and those 
+of Wolfram Research, Inc. is purely coincidental
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral         omigod it
+operationalist sorri jim idea theori explain
+myriad distinct differ observ mere model sensibl
+peopl accept phobia object realiti notwithstand
+first phobia object realiti i'm simpli say
+scientif model atom probabl realli i'm say there
+object sourc properti measur atom theori  hadn't
+made clear i'm glad clarifi you'r physic
+objectivist right  take light anoth exampl two
+theori particl wave one fail predict behavior
+light point particl wave tell you'r sensibl one
+wavicl next question  mark pundur  resembl opinion
+wolfram research inc pure coincident
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phobia, 6598, 0.299598027398
+theori, 8848, 0.280841834208
+sensibl, 7790, 0.257388984773
+particl, 6441, 0.23716539167
+wave, 9661, 0.226979879213
+object, 6173, 0.223883850922
+atom, 756, 0.217045320872
+realiti, 7148, 0.189843568626
+model, 5807, 0.16995913198
+light, 5267, 0.161303195774
+operationalist, 6263, 0.15801555331
+omigod, 6233, 0.15801555331
+say, 7653, 0.154346322408
+pundur, 6985, 0.149799013699
+notwithstand, 6125, 0.149799013699
+wolfram, 9816, 0.146675230316
+coincident, 1884, 0.141582474088
+myriad, 5941, 0.139447398016
+hadn, 4114, 0.120879242722
+distinct, 2746, 0.120879242722
+clarifi, 1786, 0.120879242722
+glad, 3889, 0.111354863535
+behavior, 1000, 0.111354863535
+properti, 6925, 0.110854480578
+resembl, 7308, 0.108086848368
+pure, 6990, 0.10490156424
+mere, 5641, 0.0983480282369
+fail, 3360, 0.0963198889835
+scientif, 7693, 0.0958430556872
+jim, 4868, 0.0925850699594
+predict, 6816, 0.0917980009304
+measur, 5601, 0.0914156409059
+moral, 5855, 0.0908552969998
+physic, 6613, 0.0881033493726
+observ, 6179, 0.0843017609962
+accept, 208, 0.0832623290533
+simpli, 7967, 0.0830105931441
+mark, 5512, 0.0825163130279
+explain, 3301, 0.0819149490151
+sorri, 8142, 0.0781414472407
+research, 7307, 0.0779456536394
+clear, 1803, 0.0777517336898
+opinion, 6266, 0.0759082379015
+sourc, 8153, 0.0747940535332
+exampl, 3258, 0.073501856165
+christian, 1732, 0.07192200606
+idea, 4482, 0.0692794874672
+probabl, 6885, 0.0662740238645
+tell, 8767, 0.0662193288783
+anoth, 533, 0.0653114137632
+differ, 2633, 0.0623976268724
+right, 7399, 0.0616428930666
+question, 7032, 0.0613401097162
+realli, 7150, 0.0601317972213
+point, 6710, 0.0571996003807
+peopl, 6530, 0.054980700073
+year, 9943, 0.0509284764898

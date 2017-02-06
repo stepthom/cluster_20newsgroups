@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105062
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: baseball@catch-the-fever.scd.ucar.edu (Gregg Walters)
+Subject: Re: HBP? BB? BIG-CAT?
+Organization: Scientific Computing Divison/NCAR Boulder, CO
+Distribution: na
+Lines: 29
+
+In Article: 106628 of rec.sport.baseball,
+<HEALEY@QUCDN.QueensU.CA> (Roger Healey)  wrote >>
+
+>> The original poster wanted to know how the Big Cat looked. I was also at
+>> the Saturday game in Montreal (Apr 17) that Rockies won 9-1. I haven't
+>> paid much attention to Gallarraga since he left the Expos but his stance
+>> seemed to be MUCH different. He stands more erect and very open, with his
+>> left foot pointing to 3rd base. I'm wondering if this is a recent change
+>> in stance for him? Andres had one glaring weakness as a hitter. He could
+>> always be fooled by a curve ball low and away. If this is indeed a new
+>> stance for him, maybe he is not being fooled as easily?
+
+Yes, the stance is new.  Don Baylor was his batting coach at St. Louis last
+year, and now, as his manager, is continuing to work with him.  Maybe Andres
+has a "weak" left eye and the open stance gives him a better look at the
+ball.  Or maybe it is simply improving his mechanics - I dunno.  But the
+change seems to have enabled him to hit the ball as well as 5 years ago.  His
+selectivity has not changed.
+
+Gregg            \\   baseball@ncar.ucar.edu   //
+		  \\            /\            //
+	       _^   \          /  \          /   ^_
+	       _\|__/\        /    \        /\__|/_
+	      /\___/         /      \         \___/\
+	     | CR/        /\/   o    \/\        \CR |
+	     |--/        /     /        \        \--|
+	      \ \       /     //         \       / /
+	      / /      /     //           \      \ \
+	      \ \     /  COLORADO ROCKIES  \     / /
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hbp big cat     articl rec sport basebal   origin
+poster want know big cat look also saturday game
+montreal rocki haven't paid much attent gallarraga
+sinc left expo stanc seem much differ stand erect
+open left foot point 3rd base i'm wonder recent
+chang stanc andr one glare weak hitter could alway
+fool curv ball low away inde new stanc mayb fool
+easili  yes stanc new baylor bat coach loui last
+year manag continu work mayb andr weak left eye
+open stanc give better look ball mayb simpli
+improv mechan dunno chang seem enabl hit ball well
+year ago select chang           colorado rocki
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stanc, 8310, 0.55377043954
+left, 5193, 0.199786312688
+ball, 877, 0.196322994115
+cat, 1551, 0.193522740495
+fool, 3585, 0.191362928386
+andr, 503, 0.187421263436
+weak, 9668, 0.18306897404
+chang, 1650, 0.180360595092
+mayb, 5564, 0.175712603039
+rocki, 7450, 0.17088870069
+open, 6258, 0.132825128615
+erect, 3168, 0.121112307734
+dunno, 2921, 0.115144159957
+baylor, 957, 0.115144159957
+big, 1082, 0.11399355282
+glare, 3892, 0.113549359852
+hbp, 4212, 0.104404188144
+enabl, 3083, 0.0991558389269
+new, 6023, 0.097483826806
+saturday, 7639, 0.0967613702477
+coach, 1856, 0.0967613702477
+rec, 7165, 0.0962127067894
+montreal, 5848, 0.0937106317182
+foot, 3587, 0.0932521719086
+expo, 3309, 0.0932521719086
+paid, 6387, 0.0923712981989
+poster, 6769, 0.0899768295197
+curv, 2306, 0.0896090622697
+3rd, 102, 0.0892492046092
+loui, 5363, 0.088213859796
+attent, 766, 0.0863175607909
+year, 9943, 0.0841050708256
+colorado, 1908, 0.0838237877473
+look, 5341, 0.0835164669386
+mechan, 5603, 0.0833166963261
+sport, 8257, 0.0809889584882
+inde, 4594, 0.0797334145095
+easili, 2962, 0.0791392904551
+eye, 3337, 0.078565540431
+select, 7774, 0.0781936865437
+improv, 4557, 0.077298674484
+stand, 8311, 0.0724849662309
+haven, 4207, 0.0714705504214
+hitter, 4322, 0.0712262725606
+continu, 2092, 0.070630738662
+low, 5368, 0.0689616414778
+bat, 942, 0.0687511640323
+simpli, 7967, 0.0685433012812
+recent, 7168, 0.0665037511069
+away, 833, 0.0663218717479
+ago, 336, 0.0651855314533
+manag, 5472, 0.0638852475113
+alway, 457, 0.0631959297826
+yes, 9951, 0.060952207495
+wonder, 9821, 0.060756500746
+origin, 6293, 0.0595072090742
+hit, 4316, 0.0585140501844
+basebal, 924, 0.0563863961654
+articl, 665, 0.0539287787391
+base, 923, 0.0523653721456
+differ, 2633, 0.0515228138476
+sinc, 7977, 0.051007919798
+game, 3761, 0.0507206554674
+better, 1060, 0.0500575405623
+work, 9833, 0.0474050132054
+point, 6710, 0.047230712293
+want, 9634, 0.0455808314176
+know, 5052, 0.036042026255

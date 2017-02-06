@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83818
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Re: Clarification of personal position
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+Lines: 26
+
+In article <C5rBHt.Fw4@athena.cs.uga.edu> 
+hudson@athena.cs.uga.edu (Paul Hudson Jr) writes:
+>In article <C5MuIw.AqC@mailer.cc.fsu.edu> 
+dlecoint@garnet.acns.fsu.edu (Darius_Lecointe) writes:
+>>If it were a sin to violate Sunday no one could
+>>ever be forgiven for that for Jesus never kept Sunday holy.  He only
+>>recognized one day of the seven as holy.
+>Jesus also recognized other holy days, like the Passover.  Acts 15 says 
+>that no more should be layed on the Gentiles than that which is necessary.
+>The sabbath is not in the list, nor do any of the epistles instruct people
+>to keep the 7th day, while Christians were living among people who did not
+>keep the 7th day.  It looks like that would have been a problem.
+>Instead, we have Scriptures telling us that all days can be esteemed alike
+>(Romans 14:5) and that no man should judge us in regard to what kind of
+>food we eat, Jewish holy days we keep, or _in regard to the sabbath. (Col. 2.)
+>>The
+>>question is "On what authority do we proclaim that the requirements of the
+>>fourth commandment are no longer relevant to modern Christians?"
+>I don't think that the Sabbath, or any other command of the law is totally
+>irrelevant to modern Christians, but what about Collosions 2, where it says
+>that we are not to be judged in regard to the keeping of the sabbath?
+
+Why are you running away from the word of Jesus? Has somebody superseded
+the word of Jesus? If you don't follow the morality of the Ten
+Commandments and the Law and the Prophets and the word of Jesus, whose
+morality do you follow?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ clarif person posit        sin violat sunday one
+could ever forgiven jesus never kept sunday holi
+recogn one day seven holi jesus also recogn holi
+day like passov act say lay gentil necessari
+sabbath list epistl instruct peopl keep 7th day
+christian live among peopl keep 7th day look like
+problem instead scriptur tell day esteem alik
+roman man judg regard kind food eat jewish holi
+day keep regard sabbath col  question author
+proclaim requir fourth command longer relev modern
+christian don't think sabbath command law total
+irrelev modern christian collos say judg regard
+keep sabbath  run away word jesus somebodi
+supersed word jesus don't follow moral ten command
+law prophet word jesus whose moral follow
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sabbath, 7561, 0.406847445839
+holi, 4344, 0.324885529995
+jesus, 4859, 0.300489957996
+day, 2402, 0.262981188653
+command, 1933, 0.19458119859
+regard, 7224, 0.181641867895
+7th, 140, 0.170947082145
+recogn, 7173, 0.161000453955
+word, 9829, 0.158826773649
+christian, 1732, 0.157378077046
+sunday, 8541, 0.148548746892
+judg, 4920, 0.146325028793
+modern, 5811, 0.145899675953
+moral, 5855, 0.132538312121
+law, 5153, 0.126925504349
+esteem, 3200, 0.115255331368
+epistl, 3149, 0.115255331368
+supersed, 8566, 0.11195710094
+forgiven, 3606, 0.105010091887
+passov, 6453, 0.103269169554
+col, 1886, 0.0990170109805
+follow, 3578, 0.0971628335781
+proclaim, 6892, 0.0907454664582
+gentil, 3830, 0.0907454664582
+alik, 415, 0.0881683915517
+lay, 5159, 0.0875886797529
+irrelev, 4771, 0.0875886797529
+violat, 9526, 0.0870308491664
+seven, 7820, 0.0864933078847
+clarif, 1785, 0.0864933078847
+fourth, 3630, 0.083195077457
+prophet, 6928, 0.0823737130355
+roman, 7468, 0.0815955988459
+food, 3584, 0.0808564070123
+peopl, 6530, 0.0802050010019
+instruct, 4684, 0.0798126259685
+relev, 7254, 0.0794804601653
+scriptur, 7725, 0.0791555953037
+eat, 2968, 0.0773434402724
+say, 7653, 0.0750526816798
+kept, 4989, 0.074743643215
+necessari, 5990, 0.072740178345
+jewish, 4864, 0.0725334511124
+sin, 7976, 0.0713503593654
+somebodi, 8121, 0.0706111675318
+don, 2811, 0.067052376297
+longer, 5337, 0.0660028289236
+act, 249, 0.0660028289236
+instead, 4682, 0.0634627521746
+like, 5272, 0.062245138406
+author, 796, 0.0606388113009
+total, 9013, 0.0589899812042
+away, 833, 0.0585850036468
+posit, 6761, 0.0580360530583
+requir, 7302, 0.0549862445488
+live, 5310, 0.0541936842695
+list, 5298, 0.0541344426824
+kind, 5021, 0.0527256861522
+man, 5471, 0.0510506024852
+person, 6562, 0.0492458322935
+tell, 8767, 0.0482998700633
+problem, 6887, 0.0465015123472
+question, 7032, 0.0447410050683
+run, 7543, 0.0445234085131
+look, 5341, 0.0368868699814
+think, 8871, 0.0338523564852

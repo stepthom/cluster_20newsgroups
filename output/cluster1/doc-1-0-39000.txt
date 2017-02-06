@@ -1,0 +1,201 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39000
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mike@nx03.mik.uky.edu (Mike Mattone)
+Subject: LCD VGA display
+Nntp-Posting-Host: nx03.mik.uky.edu
+Organization: University Of Kentucky, Dept. of Math Sciences
+Lines: 43
+
+Please help.
+
+I have an IBM-compatible notebook computer with an LCD VGA screen.  While I
+was working with it this morning, the screen started to flicker a little,
+which I thought was odd since I do use a surge-protector for my computer and
+all peripherals.  It only did this for a second and then stopped.
+
+I left the room for several minutes and, when I returned, the screen was
+completely dim, not blank, but very very dim.  The contrast slider still
+worked so that I could adjust it to where I could *faintly* make out what
+was on the screen but the brightness slider had absolutely *no* effect.
+
+I was plugged-in at the time (i.e., not using the battery) but I still
+tried switching the battery, changing the power-saver features, etc., etc.,
+all to no avail.
+
+Has anyone else experienced anything like this?  If this just means that I
+need to replace the screen then I guess I'll have to but I thought that the
+"death" of my LCD screen would be a little less dramatic when it eventually
+happened.  I didn't want to take it in to be repaired before I asked on the
+net about this because I already know what they'll say: "Yep, you gotta have
+this replaced and it's gonna cost you $???."
+
+I've only had the computer for about 21 months.  Is that a reasonable life
+cycle for a LCD display?  Oh, I guess I ought to give specifics here: the
+brand is Compudyne (Is this a reputable company?), it's a 386SX @ 20 MHz.
+I forget the model number exactly and I was too ticked off to write it down
+before coming in to work today.
+
+If anyone can help me, PLEASE give me any advice you might have.  I'm not
+opposed to having it replaced, but I'd rather not if it's not absolutely
+necessary.  If you wouldn't mind, please e-mail me at mike@mik.uky.edu
+but if you'd rather post I'll be checking back here in a couple of days.
+
+BTW, if the answer to this question is already in a FAQ somewhere, feel
+free to flame away but I would ask that you also include the location and
+name of the FAQ if you don't mind.
+
+Thanks in advance for any help...
+
+-Mike Mattone
+(mike@mik.uky.edu) 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lcd vga display     pleas help  ibm compat
+notebook comput lcd vga screen work morn screen
+start flicker littl thought odd sinc use surg
+protector comput peripher second stop  left room
+sever minut return screen complet dim blank dim
+contrast slider still work could adjust could
+faint make screen bright slider absolut effect
+plug time use batteri still tri switch batteri
+chang power saver featur etc etc avail  anyon els
+experienc anyth like mean need replac screen guess
+i'll thought death lcd screen littl less dramat
+eventu happen didn't want take repair ask net
+alreadi know they'll say yep gotta replac it gonna
+cost  i'v comput month reason life cycl lcd
+display guess ought give specif brand compudyn
+reput compani it 386sx mhz forget model number
+exact tick write come work today  anyon help pleas
+give advic might i'm oppos replac i'd rather it
+absolut  you'd rather post i'll check back coupl
+day  btw answer question alreadi faq somewher feel
+free flame away ask also includ locat name faq
+don't mind  thank advanc help  mike matton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lcd, 5167, 0.386455121081
+screen, 7719, 0.379520764199
+dim, 2649, 0.201051896406
+replac, 7288, 0.196936155888
+batteri, 950, 0.190024114381
+slider, 8032, 0.182199778515
+comput, 1993, 0.141439518563
+vga, 9492, 0.133848156518
+ll, 5314, 0.12923599822
+faq, 3385, 0.127098202447
+absolut, 193, 0.12680095515
+help, 4249, 0.11985479348
+display, 2734, 0.117188994612
+work, 9833, 0.115580149083
+alreadi, 443, 0.109003734021
+tick, 8918, 0.106039839216
+guess, 4079, 0.105410408508
+saver, 7647, 0.103005326017
+flicker, 3543, 0.103005326017
+surg, 8589, 0.100525948203
+faint, 3362, 0.0966137802703
+thought, 8887, 0.0949266017554
+ask, 689, 0.0942036925675
+littl, 5308, 0.0914095446942
+peripher, 6547, 0.0910998892577
+mhz, 5676, 0.0880653760591
+blank, 1139, 0.0880653760591
+dramat, 2859, 0.0871877213249
+yep, 9949, 0.0863632914278
+experienc, 3296, 0.0863632914278
+gonna, 3944, 0.0841532081263
+brand, 1270, 0.0841532081263
+plug, 6697, 0.0822525954656
+contrast, 2101, 0.0816738303123
+ought, 6321, 0.0811186949278
+gotta, 3961, 0.0811186949278
+reput, 7300, 0.0805853352541
+pleas, 6688, 0.0800088185318
+repair, 7285, 0.0786393171137
+cycl, 2325, 0.0769372324824
+compat, 1965, 0.0769372324824
+advic, 292, 0.0769372324824
+switch, 8638, 0.074727149181
+anyon, 554, 0.0730855571257
+morn, 5864, 0.0725340751732
+bright, 1311, 0.0716926359824
+adjust, 269, 0.0703965196624
+odd, 6198, 0.0692132581684
+room, 7476, 0.0681247631101
+eventu, 3233, 0.0669240782589
+oppos, 6269, 0.0663612836635
+ibm, 4472, 0.0658208577758
+flame, 3518, 0.0651321572744
+btw, 1355, 0.0641603919329
+featur, 3422, 0.0636993671557
+somewher, 8130, 0.0635491012236
+minut, 5747, 0.0628217124216
+forget, 3604, 0.0619972825244
+death, 2423, 0.0607254283491
+locat, 5323, 0.0602482240001
+use, 9363, 0.0600676037594
+mike, 5710, 0.0586987041648
+return, 7346, 0.0580851145917
+stop, 8413, 0.0574980193135
+model, 5807, 0.0570274211967
+coupl, 2187, 0.056572565133
+compani, 1958, 0.056572565133
+month, 5847, 0.0560460892501
+check, 1682, 0.0554565697044
+free, 3668, 0.0553744007021
+net, 6010, 0.0547343329875
+effect, 3005, 0.0545018670106
+left, 5193, 0.0541230422782
+specif, 8203, 0.0539744186295
+exact, 3253, 0.0539744186295
+away, 833, 0.0539007115195
+feel, 3429, 0.053466666319
+mind, 5733, 0.0529771918903
+complet, 1975, 0.0525712235791
+today, 8964, 0.0519841283009
+cost, 2169, 0.0516685937626
+advanc, 285, 0.0514213337055
+power, 6783, 0.0504749395066
+sever, 7823, 0.0501922073165
+answer, 535, 0.0501922073165
+life, 5260, 0.0500807400653
+chang, 1650, 0.0488605249386
+happen, 4159, 0.0479290631321
+second, 7753, 0.0473266270791
+avail, 811, 0.0472362684178
+els, 3053, 0.0470129640818
+write, 9865, 0.0468807206231
+includ, 4579, 0.0467932674054
+anyth, 555, 0.0466200303047
+didn, 2625, 0.0454260144183
+number, 6156, 0.0442197789839
+reason, 7156, 0.0438637657594
+start, 8334, 0.0430455383383
+mean, 5595, 0.0420259375206
+sinc, 7977, 0.0414548488724
+question, 7032, 0.0411636401325
+day, 2402, 0.040325658736
+post, 6766, 0.0397164519939
+come, 1923, 0.0394344659932
+tri, 9087, 0.0393838181563
+thank, 8832, 0.0380831068274
+want, 9634, 0.0370441783429
+need, 5993, 0.0365633052513
+say, 7653, 0.0345258401653
+make, 5459, 0.0341079144661
+time, 8936, 0.0323113366043
+don, 2811, 0.0308455284331
+know, 5052, 0.0292918581541
+like, 5272, 0.0286340960985

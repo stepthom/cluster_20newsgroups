@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104796
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: thf2@kimbark.uchicago.edu (Ted Frank)
+Subject: Re: MLB Standings and Scores for Fri., Apr. 16th, 1993
+Keywords: mlb, 04.16
+Reply-To: thf2@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 23
+
+In article <1qmj6h$m5h@agate.berkeley.edu> jtchern@ocf.berkeley.edu (Joseph Hernandez) writes:
+>Houston Astros		1		Seattle Mariners	1
+>Montreal Expos		2		Toronto Blue Jays	3
+>New York Mets		3		Oakland Athletics	2
+>Colorado Rockies	5		Detroit Tigers		3
+>Pittsburgh Pirates	5		Kansas City Royals	5
+>San Diego Padres	4 (13)		New York Yankees	4
+>St. Louis Cardinals	4		Cleveland Indians	3
+>Los Angeles Dodgers	2		Boston Red Sox		4 (13)
+>Atlanta Braves		1		California Angels     PPD
+>San Francisco Giants	6		Milwaukee Brewers    RAIN
+
+This leads me to believe that it's not really a rabbitball year, and that
+we've just had a rash of high-scoring games.  I bet this one day's worth
+of games pulled everything back to close to average.
+
+Interesting, because the other day, all but three games had ten or more
+runs scored, and yesterday no game had more than nine.
+-- 
+ted frank                 | 
+thf2@kimbark.uchicago.edu |         I'm sorry, the card says "Moops."
+the u of c law school     | 
+standard disclaimers      | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mlb stand score fri 16th       houston astro
+seattl marin montreal expo toronto blue jay new
+york met oakland athlet colorado rocki detroit
+tiger pittsburgh pirat kansa citi royal san diego
+padr new york yanke loui cardin cleveland indian
+los angel dodger boston red sox atlanta brave
+california angel ppd san francisco giant milwauke
+brewer rain  lead believ it realli rabbitbal year
+we'v rash high score game bet one day worth game
+pull everyth back close averag  interest day three
+game ten run score yesterday game nine  ted frank
+law school standard disclaim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+score, 7705, 0.266758364629
+game, 3761, 0.249330033046
+angel, 509, 0.205400463431
+york, 9960, 0.19451446085
+san, 7603, 0.185915148876
+rash, 7103, 0.155758481025
+16th, 30, 0.155758481025
+ppd, 6786, 0.152009314481
+fri, 3689, 0.131840047139
+athlet, 744, 0.127251438134
+kansa, 4951, 0.12350227159
+brewer, 1302, 0.12350227159
+day, 2402, 0.121956088951
+new, 6023, 0.119801516439
+padr, 6379, 0.118913662585
+milwauke, 5730, 0.118913662585
+rain, 7074, 0.118239389565
+pirat, 6639, 0.116953753161
+francisco, 3652, 0.11633987221
+pittsburgh, 6648, 0.115743787439
+montreal, 5848, 0.115164496041
+los, 5349, 0.115164496041
+detroit, 2584, 0.115164496041
+expo, 3309, 0.114601077654
+oakland, 6167, 0.113518539046
+mlb, 5795, 0.111994620894
+marin, 5511, 0.111994620894
+seattl, 7749, 0.111510751871
+cardin, 1515, 0.110123924125
+tiger, 8928, 0.109681681602
+royal, 7503, 0.109681681602
+ted, 8745, 0.108824745747
+loui, 5363, 0.108409307684
+cleveland, 1811, 0.108409307684
+houston, 4399, 0.108002096661
+yesterday, 9952, 0.106826720492
+indian, 4598, 0.106078874998
+dodger, 2791, 0.106078874998
+rocki, 7450, 0.10500575406
+astro, 724, 0.10398586812
+pull, 6979, 0.103656845345
+diego, 2629, 0.103656845345
+colorado, 1908, 0.103014184145
+california, 1459, 0.102391000554
+disclaim, 2691, 0.100910974596
+bet, 1054, 0.100347556209
+atlanta, 749, 0.0992650176006
+boston, 1243, 0.0990030588389
+school, 7685, 0.0967844858187
+yanke, 9933, 0.095870402679
+sox, 8162, 0.0949952286989
+blue, 1176, 0.0947821336862
+giant, 3865, 0.0935479542612
+worth, 9850, 0.0931524904443
+citi, 1775, 0.0927644886559
+jay, 4832, 0.0918253535521
+met, 5655, 0.0914613885691
+stand, 8311, 0.0890794828022
+everyth, 3242, 0.0886030873331
+law, 5153, 0.0882915134223
+frank, 3655, 0.0879845900423
+brave, 1277, 0.0879845900423
+averag, 816, 0.0875326271302
+toronto, 9003, 0.0858180106901
+standard, 8313, 0.0842354234979
+lead, 5172, 0.0834875780032
+red, 7194, 0.0822986061416
+close, 1830, 0.0779423553689
+high, 4292, 0.0695423604542
+believ, 1009, 0.0635027377691
+run, 7543, 0.0619424620844
+realli, 7150, 0.0610190484464
+year, 9943, 0.0516799317139

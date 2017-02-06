@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38740
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dr_bobo@ponton.hanse.de (Boris Pruessmann)
+Subject: RE: VGA-Scrolling ?
+Organization: Ponton European Media Art Lab, Hamburg
+Lines: 12
+
+Hi !
+
+If you want to have Soft-Scrolling on your VGA, you have to change some 
+intern registers of the CRTC. But it is a little bit difficult to explain, 
+so I would suggest, you take a look at "The Programming of the 
+EGA/VGA-Adapter" by Addison-Wesley. You will find all useful descriptions 
+for every available VGA-Register.
+
+-Boris
+
+---
+dr_bobo@ponton.hanse.de                 ---> Boris Pruessmann
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vga scroll      want soft scroll vga chang intern
+regist crtc littl bit difficult explain suggest
+take look program ega vga adapt addison wesley
+find use descript everi avail vga regist  bori
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vga, 9492, 0.593209273739
+scroll, 7726, 0.379313463719
+regist, 7229, 0.354876135868
+wesley, 9707, 0.228257587656
+addison, 262, 0.228257587656
+ega, 3008, 0.214094059711
+adapt, 259, 0.176342131408
+soft, 8097, 0.17327491672
+difficult, 2635, 0.146650675892
+descript, 2557, 0.141833645976
+intern, 4716, 0.134032867944
+explain, 3301, 0.121814204019
+suggest, 8525, 0.114914073624
+chang, 1650, 0.108273872676
+avail, 811, 0.10467455515
+everi, 3235, 0.103213771603
+bit, 1122, 0.101639546228
+littl, 5308, 0.101280792787
+program, 6905, 0.0935395111875
+want, 9634, 0.082089102692
+look, 5341, 0.075204769393
+use, 9363, 0.0665542591852

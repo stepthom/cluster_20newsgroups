@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60909
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Article-I.D.: aurora.1993Apr19.130503.1
+Organization: University of Alaska Fairbanks
+Lines: 21
+Nntp-Posting-Host: acad3.alaska.edu
+
+In article <6ZV82B2w165w@theporch.raider.net>, gene@theporch.raider.net (Gene Wright) writes:
+> With the continuin talk about the "End of the Space Age" and complaints 
+> by government over the large cost, why not try something I read about 
+> that might just work.
+> 
+> Announce that a reward of $1 billion would go to the first corporation 
+> who successfully keeps at least 1 person alive on the moon for a year. 
+> Then you'd see some of the inexpensive but not popular technologies begin 
+> to be developed. THere'd be a different kind of space race then!
+> 
+> --
+>   gene@theporch.raider.net (Gene Wright)
+> theporch.raider.net  615/297-7951 The MacInteresteds of Nashville
+====
+If that were true, I'd go for it.. I have a few friends who we could pool our
+resources and do it.. Maybe make it a prize kind of liek the "Solar Car Race"
+in Australia..
+Anybody game for a contest!
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid articl
+aurora 1993apr19      continuin talk end space age
+complaint govern larg cost tri someth read might
+work  announc reward billion first corpor success
+keep least person aliv moon year you'd see
+inexpens popular technolog begin develop there'd
+differ kind space race    theporch raider net
+macinterest nashvill  true i'd friend could pool
+resourc mayb make prize kind liek solar car race
+australia anybodi game contest
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+race, 7049, 0.256849735315
+billion, 1092, 0.24798467352
+moon, 5851, 0.211288857137
+continuin, 2093, 0.192351216187
+theporch, 8850, 0.188340084753
+nashvill, 5958, 0.188340084753
+macinterest, 5417, 0.188340084753
+kind, 5021, 0.185642338738
+raider, 7071, 0.18486548466
+pool, 6740, 0.176579048474
+inexpens, 4617, 0.172232159502
+liek, 5259, 0.168508554177
+complaint, 1974, 0.155216438181
+reward, 7368, 0.149619057633
+resid, 7311, 0.148792929575
+aurora, 787, 0.147992224917
+space, 8164, 0.147619732819
+car, 1510, 0.1464611452
+prize, 6881, 0.145728115088
+contest, 2086, 0.145728115088
+australia, 792, 0.136159604417
+aliv, 417, 0.133770694117
+corpor, 2154, 0.131166437638
+year, 9943, 0.130790639397
+popular, 6746, 0.125277578147
+resourc, 7320, 0.123680706111
+announc, 524, 0.11940540136
+friend, 3692, 0.116428346983
+age, 328, 0.116428346983
+success, 8513, 0.115507158815
+solar, 8107, 0.115507158815
+begin, 994, 0.115507158815
+govern, 3966, 0.108593337082
+anybodi, 552, 0.105799777377
+net, 6010, 0.104731322664
+technolog, 8743, 0.103419069079
+cost, 2169, 0.0988651888053
+develop, 2588, 0.0969112715718
+larg, 5124, 0.0963634440077
+true, 9121, 0.092821169369
+mayb, 5564, 0.0910827511193
+end, 3091, 0.0897038405385
+talk, 8684, 0.0879982759977
+person, 6562, 0.0866950451216
+articl, 665, 0.0838639024254
+long, 5336, 0.0819882967346
+differ, 2633, 0.0801224194989
+read, 7135, 0.0792093135941
+game, 3761, 0.0788749940295
+someth, 8126, 0.0765970470032
+tri, 9087, 0.0753589044011
+work, 9833, 0.0737188843301
+make, 5459, 0.065263734851

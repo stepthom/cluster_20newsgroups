@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104526
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: VB30@lafibm.lafayette.edu (VB30)
+Subject: Jewish Baseball Players?
+Organization: Lafayette College
+Lines: 10
+Originator: news@lafcol
+Nntp-Posting-Host: lafibm
+
+Just wondering.  A friend and I were talking the other day, and
+we were (for some reason) trying to come up with names of Jewish
+baseball players, past and present.  We weren't able to come up
+with much, except for Sandy Koufax, (somebody) Stankowitz, and
+maybe John Lowenstein.  Can anyone come up with any more.  I know
+it sounds pretty lame to be racking our brains over this, but
+humor us.  Thanks for your help.
+
+Thanks.
+Bobby
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player   origin news lafcol
+wonder friend talk day reason tri come name jewish
+basebal player past present weren't abl come much
+except sandi koufax somebodi stankowitz mayb john
+lowenstein anyon come know sound pretti lame rack
+brain humor thank help  thank bobbi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.325729760343
+come, 1923, 0.28872094105
+player, 6683, 0.229040449356
+basebal, 924, 0.223677924051
+stankowitz, 8321, 0.217214425661
+lowenstein, 5370, 0.214924665597
+koufax, 5067, 0.210770706498
+sandi, 7608, 0.208873712641
+rack, 7053, 0.208873712641
+lame, 5100, 0.203757704813
+humor, 4437, 0.197971202318
+bobbi, 1190, 0.195416991793
+thank, 8832, 0.185884609049
+weren, 9705, 0.183212810431
+brain, 1266, 0.168915833127
+somebodi, 8121, 0.158548630494
+friend, 3692, 0.14849883238
+past, 6456, 0.140324644332
+present, 6837, 0.132825519536
+sound, 8150, 0.13031276855
+john, 4878, 0.125494416146
+pretti, 6851, 0.121685205367
+abl, 180, 0.121419697094
+wonder, 9821, 0.120506796707
+origin, 6293, 0.11802890322
+mayb, 5564, 0.116171727433
+news, 6031, 0.114627804536
+talk, 8684, 0.112237625765
+reason, 7156, 0.107050075859
+day, 2402, 0.0984152808589
+help, 4249, 0.0975023804725
+tri, 9087, 0.096116706996
+anyon, 554, 0.0891831138872
+know, 5052, 0.0714871507986

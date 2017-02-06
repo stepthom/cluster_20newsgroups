@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61076
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: Texas Instruments Inc
+Lines: 22
+
+In <1993Apr20.101044.2291@iti.org> aws@iti.org (Allen W. Sherzer) writes:
+
+>Depends. If you assume the existance of a working SSTO like DC, on billion
+>$$ would be enough to put about a quarter million pounds of stuff on the
+>moon. If some of that mass went to send equipment to make LOX for the
+>transfer vehicle, you could send a lot more. Either way, its a lot
+>more than needed.
+
+>This prize isn't big enough to warrent developing a SSTO, but it is
+>enough to do it if the vehicle exists.
+
+But Allen, if you can assume the existence of an SSTO there is no need
+to have the contest in the first place.  I would think that what we
+want to get out of the contest is the development of some of these
+'cheaper' ways of doing things; if they already exist, why flush $1G
+just to get someone to go to the Moon for a year?
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid
+depend assum exist work ssto like billion enough
+put quarter million pound stuff moon mass went
+send equip make lox transfer vehicl could send lot
+either way lot need  prize isn't big enough
+warrent develop ssto enough vehicl exist  allen
+assum exist ssto need contest first place think
+want get contest develop cheaper way thing alreadi
+exist flush get someon moon year   insist perfect
+safeti peopl don't ball live real world mari
+shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ssto, 8295, 0.375257044631
+exist, 3283, 0.312000966862
+moon, 5851, 0.264965016312
+contest, 2086, 0.243665491337
+vehicl, 9449, 0.208383295077
+billion, 1092, 0.207322064383
+assum, 710, 0.168840525031
+send, 7785, 0.167142424573
+develop, 2588, 0.162041021319
+flush, 3562, 0.15745753406
+warrent, 9648, 0.154552672021
+lox, 5373, 0.140877824514
+lot, 5356, 0.135753318904
+quarter, 7027, 0.127299877614
+shafer, 7839, 0.125798996291
+resid, 7311, 0.124395015576
+dryden, 2888, 0.123725604276
+prize, 6881, 0.121832745669
+need, 5993, 0.116980341908
+transfer, 9052, 0.116978447226
+mari, 5508, 0.11468641869
+pound, 6776, 0.114255629352
+safeti, 7579, 0.113833205386
+way, 9666, 0.1138124
+cheaper, 1678, 0.113418828082
+insist, 4673, 0.112221049392
+equip, 3161, 0.109658779484
+year, 9943, 0.109344601733
+ame, 465, 0.109316187354
+allen, 426, 0.108978906943
+mass, 5533, 0.10288861434
+million, 5724, 0.100495638288
+went, 9704, 0.0971422211691
+depend, 2537, 0.0971422211691
+perfect, 6538, 0.0951041730301
+alreadi, 443, 0.0871864153652
+ball, 877, 0.0850795296554
+stuff, 8472, 0.0833640283328
+nasa, 5956, 0.0818700214448
+live, 5310, 0.0797616549038
+isn, 4783, 0.0796744638023
+real, 7144, 0.0745778731891
+place, 6657, 0.0745091396384
+big, 1082, 0.0741012373622
+world, 9841, 0.0728578046138
+someon, 8124, 0.0710872054523
+long, 5336, 0.0685444898389
+work, 9833, 0.0616310317344
+thing, 8869, 0.0594303114157
+want, 9634, 0.0592594216862
+peopl, 6530, 0.0590224091396
+make, 5459, 0.0545622922845
+think, 8871, 0.0498235174826
+don, 2811, 0.0493434665936
+like, 5272, 0.045805847267

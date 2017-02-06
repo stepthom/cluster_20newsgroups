@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104945
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: Hits Stolen -- First Base 1992
+Keywords: stats
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Distribution: all
+Lines: 15
+
+In <1r218pINNh4a@gap.caltech.edu> jeff@smoggy.gg.caltech.edu (Jeff Goldsmith) writes:
+
+>In <steph.735029587@pegasus.cs.uiuc.edu> steph@pegasus.cs.uiuc.edu (Dale Stephenson) writes:
+
+>>Finally, I throw all this into a a formula I call Defensive Contribution, or
+>>DCON :->.  
+
+>You did mean "DefCon," didn't you?
+
+Well, no.  Although I admit that's more exciting than a rat killer.
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hit stolen first base          final throw
+formula call defens contribut dcon  mean defcon
+didn't  well although admit that excit rat killer
+consid good look wise especi overburden inform
+golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+defcon, 2471, 0.309542313072
+dcon, 2409, 0.293446640062
+killer, 5013, 0.287327349185
+rat, 7106, 0.247688935868
+overburden, 6339, 0.245652755498
+kimbal, 5019, 0.241869245011
+stolen, 8407, 0.232295879679
+formula, 3614, 0.228255430987
+excit, 3265, 0.225773572
+golden, 3934, 0.217156802694
+wise, 9799, 0.211735189074
+admit, 276, 0.192657466362
+contribut, 2103, 0.180977096709
+throw, 8899, 0.177979687436
+defens, 2476, 0.171654713125
+especi, 3190, 0.164365873413
+final, 3482, 0.155867966297
+consid, 2059, 0.139224742343
+hit, 4316, 0.138818979211
+didn, 2625, 0.132603686319
+inform, 4637, 0.130475561926
+base, 923, 0.124231829524
+mean, 5595, 0.122678476367
+good, 3948, 0.102043498858
+look, 5341, 0.0990674090343

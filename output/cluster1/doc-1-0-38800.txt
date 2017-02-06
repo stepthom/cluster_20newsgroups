@@ -1,0 +1,41 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38800
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: daruwala@slinky.ims (Raoul-Sam Daruwala)
+Subject: VRrend386, where is it kept?
+Keywords: VRrend386
+Reply-To: daruwala@cs.nyu.edu
+Organization: Sun Microsystems
+Lines: 8
+
+I'm told that VRrend386 is available on the internet. I wanted to know where it is.
+
+Thanks in advance.
+
+Raoul
+
+daruwala@cs.nyu.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vrrend386 kept      i'm told vrrend386 avail
+internet want know  thank advanc  raoul
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kept, 4989, 0.471218276953
+internet, 4717, 0.447466224273
+told, 8973, 0.419501073901
+advanc, 285, 0.352357211147
+avail, 811, 0.323679659886
+thank, 8832, 0.260958951208
+want, 9634, 0.253839844857
+know, 5052, 0.200718198162

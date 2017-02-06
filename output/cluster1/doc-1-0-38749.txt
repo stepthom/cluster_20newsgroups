@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38749
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: csc3phx@vaxa.hofstra.edu
+Subject: Loosing color.
+Lines: 9
+
+Hi guys.
+
+I am scanning in a color image and it looks fine on the screen.  When I 
+converted it into PCX,BMP,GIF files so as to get it into MS Windows the colors
+got much lighter.  For example the yellows became white.  Any ideas?
+
+thanks
+Dan
+csc3phx@vaxc.hofstra.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ loos color   guy  scan color imag look fine
+screen convert pcx bmp gif file get window color
+got much lighter exampl yellow becam white idea
+thank dan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+color, 1907, 0.482257256867
+loos, 5345, 0.259013065664
+yellow, 9947, 0.25643175558
+lighter, 5269, 0.25643175558
+bmp, 1183, 0.24021460102
+pcx, 6490, 0.22997818116
+becam, 980, 0.225124180813
+dan, 2350, 0.216890834681
+scan, 7660, 0.209289770077
+screen, 7719, 0.186037617766
+fine, 3485, 0.177545071566
+white, 9737, 0.171429311433
+gif, 3869, 0.168829350649
+window, 9774, 0.166388133263
+convert, 2115, 0.160752418956
+guy, 4100, 0.150170978703
+exampl, 3258, 0.145072137214
+file, 3477, 0.138402451854
+idea, 4482, 0.136738360585
+imag, 4512, 0.134070944064
+got, 3960, 0.131241162794
+thank, 8832, 0.112007950125
+look, 5341, 0.0998151169652

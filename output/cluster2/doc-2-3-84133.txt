@@ -1,0 +1,147 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84133
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: agr00@ccc.amdahl.com (Anthony G Rose)
+Subject: Re: [rw] Is Robert Weiss the only orthodox Christian?
+Reply-To: agr00@JUTS.ccc.amdahl.com (Anthony G Rose)
+Organization: Amdahl Corporation, Sunnyvale CA
+Lines: 30
+
+In article <93111.074840LIBRBA@BYUVM.BITNET> LIBRBA@BYUVM.BITNET writes:
+>
+>  Robert, you keep making references to "orthodox" belief, and saying things
+>like "it is held that..." (cf. "Kermit" thread).  On what exact body of
+>theology are you drawing for what you call "orthodox?"  Who is that "holds
+>that" Luke meant what you said he meant?  Whenever your personal interpretation
+>of Biblical passages is challenged, your only response seems
+>to be that one needs merely to "look at the Bible" in order to see the truth,
+>but what of those who see Biblical things differently from you?  Are we to
+>simply assume that you are the only one who really understands it?
+>  Just curious,
+>--
+>Rick Anderson  librba@BYUVM.BITNET
+
+
+When Robert refers to the "orthodox", he is talking about the Historical
+position of the Christian Faith. Such things are derived from Biblcal
+texts through the centuries by the apocolic fathers of the faith.
+
+You are right that people read things differently in the Bible, and this
+is alright in parts like parables and such forth. However, when it comes
+to the essential doctrines of the Historical Orthodox Christan Beliefs,
+there is only one correct way to read it. For example, either the
+doctrine of the Trinity is true, or it is false. Yes, people read the
+texts differently, but only one position is true. They both cannot be.
+According to the text, the doctrine is true and has always existed.
+
+Therefore, when people like Joseph Smith come along with a vision and
+thinks he can undo centuries of a doctrine that is supported by the
+Bible, people consider him a cult.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ robert weiss orthodox christian       robert keep
+make refer orthodox belief say thing like held
+kermit thread exact bodi theolog draw call
+orthodox hold luke meant said meant whenev person
+interpret biblic passag challeng respons seem one
+need mere look bibl order see truth see biblic
+thing differ simpli assum one realli understand
+curious     robert refer orthodox talk histor
+posit christian faith thing deriv biblcal text
+centuri apocol father faith  right peopl read
+thing differ bibl alright part like parabl forth
+howev come essenti doctrin histor orthodox
+christan belief one correct way read exampl either
+doctrin triniti true fals yes peopl read text
+differ one posit true cannot accord text doctrin
+true alway exist  therefor peopl like joseph smith
+come along vision think undo centuri doctrin
+support bibl peopl consid cult
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+orthodox, 6303, 0.448389362907
+doctrin, 2787, 0.32528759878
+robert, 7437, 0.201658660404
+text, 8822, 0.20043132681
+bibl, 1071, 0.196567305564
+thing, 8869, 0.163167225303
+peopl, 6530, 0.162047320645
+true, 9121, 0.159791585252
+histor, 4313, 0.156265782795
+meant, 5598, 0.151013115977
+biblic, 1072, 0.148254548492
+centuri, 1614, 0.146965287162
+belief, 1008, 0.138904610382
+differ, 2633, 0.13793069526
+read, 7135, 0.136358784014
+faith, 3367, 0.136146042897
+posit, 6761, 0.117256864054
+christan, 1730, 0.116431752415
+parabl, 6412, 0.113099856667
+triniti, 9103, 0.110377499618
+refer, 7213, 0.110099453893
+alright, 445, 0.106081938897
+christian, 1732, 0.10598963238
+kermit, 4990, 0.0988325184336
+like, 5272, 0.0943207198042
+luke, 5386, 0.0909770938017
+theolog, 8844, 0.0890683338822
+whenev, 9722, 0.0884827049155
+forth, 3616, 0.0873761524927
+come, 1923, 0.0865980939826
+weiss, 9698, 0.0840442567443
+fals, 3372, 0.0840442567443
+joseph, 4893, 0.0836236197838
+passag, 6449, 0.0796424206667
+deriv, 2550, 0.0784228349665
+challeng, 1642, 0.0781328913973
+cult, 2289, 0.0770263389745
+held, 4243, 0.0765023685591
+vision, 9542, 0.0759961633148
+essenti, 3196, 0.0759961633148
+father, 3404, 0.0752676468975
+smith, 8064, 0.073067849557
+mere, 5641, 0.0724664948124
+curious, 2297, 0.0724664948124
+thread, 8890, 0.0722713073973
+interpret, 4720, 0.0704481157615
+truth, 9132, 0.069452305191
+accord, 219, 0.0670819338336
+therefor, 8855, 0.0666765254563
+draw, 2861, 0.0662818339839
+hold, 4341, 0.0652776489742
+bodi, 1194, 0.0646826848244
+simpli, 7967, 0.0611653006704
+exact, 3253, 0.0592639162141
+assum, 710, 0.0579444212301
+respons, 7323, 0.0575052241371
+correct, 2156, 0.0575052241371
+alway, 457, 0.0563935202136
+yes, 9951, 0.0543913121818
+exampl, 3258, 0.0541589086632
+understand, 9246, 0.0535378442015
+exist, 3283, 0.0535378442015
+order, 6281, 0.0527830165445
+consid, 2059, 0.0523682225207
+howev, 4406, 0.0514750352039
+support, 8576, 0.0514269461941
+talk, 8684, 0.0504963257723
+person, 6562, 0.0497484887252
+said, 7583, 0.0497056432879
+right, 7399, 0.0454207824063
+realli, 7150, 0.0443073506355
+need, 5993, 0.0401465122541
+way, 9666, 0.0390593054933
+say, 7653, 0.0379093754177
+make, 5459, 0.0374504929646
+look, 5341, 0.0372633774253
+think, 8871, 0.0341978903897

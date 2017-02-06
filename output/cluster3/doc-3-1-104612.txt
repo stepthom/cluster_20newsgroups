@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104612
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: 1605112EC400@sscl.uwo.ca
+Subject: jays game
+Organization: Social Science Computing Laboratory
+Keywords: score?
+Nntp-Posting-Host: conslt.sscl.uwo.ca
+Lines: 6
+
+
+anyone know the outcome of tonight's jays game?
+-home runs?
+-winning pitcher?
+
+		eco gods at U.W.O
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jay game       anyon know outcom tonight jay game
+home run win pitcher  eco god
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jay, 4832, 0.506101302857
+eco, 2981, 0.384555729757
+outcom, 6323, 0.366979721443
+game, 3761, 0.34354960173
+tonight, 8985, 0.308632754218
+pitcher, 6644, 0.225227148543
+home, 4354, 0.218518166307
+win, 9770, 0.205983103312
+god, 3926, 0.199726555706
+run, 7543, 0.170699918652
+anyon, 554, 0.152278446966
+know, 5052, 0.122062931279

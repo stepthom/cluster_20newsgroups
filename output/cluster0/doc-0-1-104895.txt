@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104895
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: thagerma@magnus.acs.ohio-state.edu (Teresa D Hagerman)
+Subject: Chicago visit
+Nntp-Posting-Host: top.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 12
+
+
+I am planning a weekend in Chicago next month for my first live-and-in-person 
+Cubs game (!!!) I would appreciate any advice from locals or used-to-be locals 
+on where to stay, what to see, where to dine, etc.
+
+E-mail replies are fine...
+
+Thanks in advance!
+Teresa
+-- 
+Teresa Hagerman
+Ohio State University
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ chicago visit      plan weekend chicago next
+month first live person cub game appreci advic
+local use local stay see dine etc  mail repli fine
+thank advanc teresa  teresa hagerman ohio state
+univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+chicago, 1701, 0.432228210417
+local, 5322, 0.366137334852
+ohio, 6212, 0.275734689274
+weekend, 9692, 0.251667203273
+advic, 292, 0.243317104402
+visit, 9544, 0.232228606521
+cub, 2282, 0.212878959459
+stay, 8355, 0.205455375534
+fine, 3485, 0.190909799879
+repli, 7290, 0.186641125967
+month, 5847, 0.177248020358
+plan, 6660, 0.175645083501
+appreci, 587, 0.166258617361
+advanc, 285, 0.162622044204
+live, 5310, 0.157685875228
+state, 8342, 0.15248623328
+mail, 5447, 0.147847974621
+person, 6562, 0.143289246177
+univers, 9282, 0.142920083735
+game, 3761, 0.130364294994
+thank, 8832, 0.120439363113
+use, 9363, 0.0949831111902

@@ -1,0 +1,169 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84448
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: eeb1@quads.uchicago.edu (E. Elizabeth Bartley)
+Subject: Re: What part of "No" don't you understand?
+Reply-To: eeb1@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 44
+
+In article <1993Apr26.150845.28537@advtech.uswest.com>
+> = steven@advtech.uswest.com ( Steve Novak) writes:
+>> = eeb1@midway.uchicago.edu writes:
+>>> = Steve Novak writes:
+
+>>>Because, of course, that possibility existed.  Meaning any student who
+>>>really gave a shit could have a moment of silence on his/her own, which
+>>>makes more sense than forcing those who DON'T want to participate to
+>>>have to take part.  What other reason is there for an organized "moment
+>>>of silence"?
+
+>>A "moment of silence" doesn't mean much unless *everyone*
+>>participates.  Otherwise it's not silent, now is it?
+
+>The whole point is, maybe everyone _doesn't want_ to participate.
+
+And maybe they do.  But without somebody to set the time that doesn't
+do them any good.
+
+>[...]
+
+Humph.  Deleted there was my list of non-religious reasons one might
+want a moment of silence for a dead classmate.
+
+Maybe everyone doesn't want to be silent for teachers to give their
+pompous non-religious speeches in assembly.  I know I didn't.  So?
+
+>>Blindly opposing everything with a flavor of religion in it is
+>>utterly idiotic.
+
+>Blindly opposing everything with a flavor of religion in it that is
+>supported by taxpayer money is the only way to keep christianity from
+>becoming the official U.S. religion.
+
+Please provide documentation that opposing only things that are
+actively religious (e.g. actual prayer, "Amen" after a moment of
+silence, mandatory classes in religion) and not things that have
+possible but uncertain religious implications (e.g. moments of
+silence, having the Bible on the shelves during reading period) is not
+a way to prevent a state religion.
+
+-- 
+Pro-Choice                 Anti-Roe                     - E. Elizabeth Bartley
+            Abortions should be safe, legal, early, and rare.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ part don't understand          cours possibl
+exist mean student realli gave shit could moment
+silenc make sens forc don't want particip take
+part reason organ moment silenc  moment silenc
+doesn't mean much unless everyon particip otherwis
+it silent  whole point mayb everyon doesn't want
+particip  mayb without somebodi set time doesn't
+good    humph delet list non religi reason one
+might want moment silenc dead classmat  mayb
+everyon doesn't want silent teacher give pompous
+non religi speech assembl know didn't  blind oppos
+everyth flavor religion utter idiot  blind oppos
+everyth flavor religion support taxpay money way
+keep christian becom offici religion  pleas provid
+document oppos thing activ religi actual prayer
+amen moment silenc mandatori class religion thing
+possibl uncertain religi implic moment silenc bibl
+shelv read period way prevent state religion   pro
+choic anti roe elizabeth bartley abort safe legal
+earli rare
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+silenc, 7953, 0.452991120422
+moment, 5828, 0.36095572281
+religion, 7261, 0.268019056666
+religi, 7260, 0.248441334506
+particip, 6440, 0.198687369984
+oppos, 6269, 0.185290655047
+flavor, 3529, 0.171778930008
+doesn, 2793, 0.164223065521
+silent, 7954, 0.157943996787
+everyon, 3241, 0.151328852936
+blind, 1158, 0.150997040141
+want, 9634, 0.137910534414
+mayb, 5564, 0.132910141362
+everyth, 3242, 0.109069748591
+non, 6097, 0.100332579416
+roe, 7456, 0.0986930440191
+bartley, 921, 0.0986930440191
+mandatori, 5475, 0.0958687720578
+elizabeth, 3047, 0.0935611738423
+classmat, 1793, 0.0884293036655
+uncertain, 9221, 0.0858894650041
+taxpay, 8720, 0.0858894650041
+implic, 4547, 0.0847881838293
+amen, 466, 0.0847881838293
+possibl, 6765, 0.0829926805688
+reason, 7156, 0.0816494743289
+speech, 8216, 0.0796563136525
+prayer, 6801, 0.0796563136525
+mean, 5595, 0.0782284796421
+shit, 7893, 0.0777052671611
+utter, 9387, 0.0765538601814
+teacher, 8730, 0.0750021133411
+abort, 187, 0.0731909218549
+rare, 7101, 0.0719846048143
+idiot, 4487, 0.0698702431643
+thing, 8869, 0.0691541173919
+pro, 6883, 0.0672422038032
+assembl, 698, 0.0672422038032
+way, 9666, 0.0662170185785
+safe, 7577, 0.0657514534626
+prevent, 6853, 0.0642087246129
+anti, 542, 0.0640029192786
+legal, 5200, 0.0634048513667
+student, 8468, 0.0630212841592
+class, 1789, 0.0606195832858
+somebodi, 8121, 0.0604642838014
+gave, 3798, 0.0595704949651
+offici, 6207, 0.0588710491017
+choic, 1717, 0.0584692137902
+document, 2788, 0.0582082406437
+don, 2811, 0.0574168938384
+otherwis, 6313, 0.0567462230037
+period, 6546, 0.0564056621209
+dead, 2415, 0.0564056621209
+bibl, 1071, 0.0555399059631
+delet, 2502, 0.0542482941462
+activ, 252, 0.0540607833212
+organ, 6287, 0.0529905616692
+sens, 7788, 0.0527365715569
+earli, 2951, 0.0524875782969
+forc, 3594, 0.0524056573042
+unless, 9289, 0.0515378767683
+money, 5835, 0.0510151048536
+becom, 983, 0.0507257951331
+provid, 6949, 0.0468193249243
+list, 5298, 0.0463552780699
+understand, 9246, 0.0453812014752
+exist, 3283, 0.0453812014752
+set, 7815, 0.0453344112216
+christian, 1732, 0.0449209053245
+state, 8342, 0.0448757831762
+support, 8576, 0.0435919047787
+cours, 2190, 0.043310184899
+didn, 2625, 0.0422787480041
+actual, 254, 0.0406945894965
+read, 7135, 0.0385280452394
+realli, 7150, 0.0375569998383
+pleas, 6688, 0.0372327698141
+point, 6710, 0.0357256140931
+good, 3948, 0.0325350787254
+make, 5459, 0.0317448039218
+time, 8936, 0.0300726989912
+know, 5052, 0.0272624201205

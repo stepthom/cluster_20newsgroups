@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83514
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: livesey@solntze.wpd.sgi.com (Jon Livesey)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: sgi
+Lines: 40
+NNTP-Posting-Host: solntze.wpd.sgi.com
+
+In article <1qlvh1$fh0@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+|> In article <1qkn25$k@fido.asd.sgi.com> livesey@solntze.wpd.sgi.com (Jon Livesey) writes:
+|> 
+|> #Do you mean it's moral to use force on someone who advocates
+|> #the use of force?
+|> 
+|> With a few provisos, yes.  Minimum force, for a start. And, it
+|> depends on what is being forced (on either side).   
+|> 
+|> #Or do you mean that sometimes we have to use force on such
+|> #people out of necessity or self-defence, while recognizing
+|> #that our own actions in doing so are not moral?
+|> 
+|> My opinion is that our actions would be moral, and it would be
+|> immoral not to act if action would be both necessary and effective.  
+|> Again, there many caveats and provisios.
+|> 
+|> Note, my usage of "my opinion" is an admission that I don't have a lock
+|> on morals, not that there is no truth about morality to have a lock on.
+
+You're admitting a lot more than that.  You are admitting that
+your morals are situational.   You are admitting that the actions
+of other people and the situation you are in help to determine
+how you judge the moral significance of one of your own actions.
+
+If you employ X degree of force, that's not moral, but if you employ
+X degree of force, but previously someone else has employed Y degree
+of force, and the situation is thus-and-so, that *is* moral.
+
+This is quite different from saying "Employing force on other people
+is immoral, period.   Unfortunately, from time to time we are obliged
+to do this immoral thing for reasons of self-preservation, and so
+we have to bear the moral consequences of that.
+
+For what it's worth - and yes, I know you claim to be an agnostic -
+it's this ability to re-label things from "immoral" to "moral" 
+that I find one of the *least* attractive qualities of the religious
+mind.
+
+jon.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral        mean it moral use
+forc someon advoc use forc  proviso yes minimum
+forc start depend forc either side  mean sometim
+use forc peopl necess self defenc recogn action
+moral  opinion action moral immor act action
+necessari effect mani caveat provisio  note usag
+opinion admiss don't lock moral truth moral lock
+you'r admit lot admit moral situat admit action
+peopl situat help determin judg moral signific one
+action  employ degre forc that moral employ degre
+forc previous someon els employ degre forc situat
+thus moral  quit differ say employ forc peopl
+immor period unfortun time time oblig immor thing
+reason self preserv bear moral consequ  it worth
+yes know claim agnost it abil label thing immor
+moral find one least attract qualiti religi mind
+jon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moral, 5855, 0.596022619097
+forc, 3594, 0.412824265677
+immor, 4531, 0.284103992906
+action, 251, 0.25198477161
+employ, 3077, 0.240296105364
+admit, 276, 0.161293978745
+degre, 2491, 0.154229624788
+situat, 7995, 0.140286133432
+lock, 5324, 0.133068400889
+self, 7776, 0.102819749859
+peopl, 6530, 0.0901701440076
+opinion, 6266, 0.0829946597484
+yes, 9951, 0.0807084816571
+caveat, 1574, 0.0787047772538
+agnost, 335, 0.0762327625505
+necess, 5989, 0.0751769033762
+use, 9363, 0.0733995817288
+admiss, 275, 0.0725052772108
+someon, 8124, 0.0724012415643
+mean, 5595, 0.0684714342444
+preserv, 6838, 0.067498124349
+oblig, 6175, 0.067498124349
+jon, 4887, 0.067498124349
+usag, 9360, 0.0665342004444
+label, 5086, 0.0656474764092
+advoc, 296, 0.0656474764092
+attract, 772, 0.0636989356106
+consequ, 2057, 0.0630063265668
+thing, 8869, 0.0605288716257
+recogn, 7173, 0.0603347004014
+minimum, 5740, 0.0590886539565
+say, 7653, 0.0562517800693
+bear, 971, 0.0558429026192
+judg, 4920, 0.0548351048496
+necessari, 5990, 0.0545185651316
+religi, 7260, 0.054363623635
+qualiti, 7017, 0.0533357749343
+unfortun, 9264, 0.0526559213742
+time, 8936, 0.0526437645458
+previous, 6855, 0.0518916089317
+abil, 177, 0.0518916089317
+truth, 9132, 0.0515283588012
+worth, 9850, 0.050183906671
+depend, 2537, 0.0494689401293
+act, 249, 0.0494689401293
+period, 6546, 0.0493704671571
+sometim, 8128, 0.0487046276868
+determin, 2582, 0.0482523960624
+signific, 7951, 0.0477330133019
+effect, 3005, 0.0443990214541
+mind, 5733, 0.0431569707302
+claim, 1782, 0.0431569707302
+quit, 7043, 0.0405736170353
+note, 6118, 0.0399699894853
+christian, 1732, 0.0393181463988
+els, 3053, 0.0382983137162
+reason, 7156, 0.0357328727222
+start, 8334, 0.0350663176331
+lot, 5356, 0.0345656745562
+differ, 2633, 0.0341113820749
+help, 4249, 0.0325458914773
+mani, 5479, 0.0314238707435
+year, 9943, 0.0278414549898
+don, 2811, 0.0251277865105
+know, 5052, 0.0238621153723

@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104502
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: timlin@spot.Colorado.EDU (Michael Timlin)
+Subject: Re: Expanded NL Strike Zone? (Was Re: A surfeit of offense?)
+Nntp-Posting-Host: spot.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 11
+
+jrogoff@scott.skidmore.edu (jay rogoff) writes:
+
+>It was my impression watching the Mets & Rockies that umpires were
+>calling strikes above the belt, too, but not as far up as the letters.
+>It would be nice if this were the case.
+
+The umps saw the weekend boxscores, too.  They knew the pitchers needed
+some help or they would be watching the sunrise. :)
+
+Mike Timlin
+timlin@spot.colorado.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ expand strike zone surfeit offens       impress
+watch met rocki umpir call strike belt far letter
+nice case  ump saw weekend boxscor knew pitcher
+need help watch sunris  mike timlin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+strike, 8448, 0.359617499891
+watch, 9655, 0.299509156856
+surfeit, 8588, 0.27352733751
+boxscor, 1255, 0.266943429295
+sunris, 8547, 0.231524195881
+ump, 9209, 0.215408091055
+weekend, 9692, 0.211315620174
+belt, 1017, 0.210048419341
+zone, 9991, 0.20649359886
+expand, 3288, 0.197543858719
+umpir, 9210, 0.196673659546
+rocki, 7450, 0.184400516378
+knew, 5045, 0.180351790528
+letter, 5227, 0.178226970741
+impress, 4554, 0.173859188349
+offens, 6202, 0.169963154135
+met, 5655, 0.160615267532
+saw, 7650, 0.159065178999
+mike, 5710, 0.155872525104
+nice, 6047, 0.146185105272
+pitcher, 6644, 0.143524129983
+case, 1540, 0.125554167813
+far, 3386, 0.12062732344
+help, 4249, 0.106090185871
+need, 5993, 0.0970926836763

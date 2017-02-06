@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38305
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Rendering Software for Multi-processor Computer S
+From: wcarter@trident.datasys.swri.edu (William Carter)
+Organization: Southwest Research Institute
+Lines: 13
+
+
+Hello,
+
+    I am searching for rendering software which has been developed
+to specifically take advantage of multi-processor computer systems.
+Any pointers to such software would be greatly appreciated.
+    
+Thanks.
+
+-- 
+Billy Carter, Software Engineering Section
+Southwest Research Institute
+wcarter@swri.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+render softwar multi processor comput      hello
+search render softwar develop specif take advantag
+multi processor comput system pointer softwar
+great appreci  thank   billi carter softwar engin
+section southwest research institut
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+softwar, 8103, 0.434982192106
+processor, 6891, 0.359739464387
+multi, 5917, 0.351878676342
+render, 7277, 0.328487825318
+southwest, 8158, 0.246798774053
+comput, 1993, 0.225924238637
+billi, 1091, 0.211002942162
+pointer, 6711, 0.186315442955
+carter, 1535, 0.185312817068
+hello, 4247, 0.161279800103
+section, 7759, 0.160348800471
+search, 7746, 0.159443665313
+advantag, 286, 0.159000355477
+institut, 4683, 0.149847777564
+specif, 8203, 0.129321665812
+engin, 3109, 0.127097306187
+appreci, 587, 0.12595963754
+research, 7307, 0.125326942508
+develop, 2588, 0.121350298981
+great, 4016, 0.108371029302
+thank, 8832, 0.0912463892943

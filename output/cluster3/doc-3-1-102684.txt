@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102684
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: erics@netcom.com (Eric Smith)
+Subject: Re: harry and candy
+Article-I.D.: netcom.ericsC52qLD.6L2
+Distribution: world,local
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 24
+
+f67709907@violet.ccit.arizona.edu (Greg Franklin) writes:
+
+>RVESTERM@vma.cc.nd.edu writes:
+
+>> i'm watching a cubs-rockies spring training game, and i thought you'd
+>> all like to know the particular way that harry caray butchers "maldonado".
+ 
+>> it seems to be "mal-n-dal-nado".
+
+>But I like the way he butchers Andres Galarraga's name.
+
+>It comes out like "gahlah rrrraggggah".
+
+>And don't forget his frequent references to the great SF Giant star
+>Bobby Bonds!
+
+What about Thaaammy Thotha? I for one was really sorry to hear that the
+Cubs had sent Heathcliff Slocumb to the minors!  :-)
+
+-----
+Eric Smith
+erics@netcom.com
+erics@infoserv.com
+CI$: 70262,3610
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ harri candi articl netcom ericsc52qld 6l2
+i'm watch cub rocki spring train game thought
+you'd like know particular way harri caray butcher
+maldonado  seem mal dal nado  like way butcher
+andr galarraga name  come like gahlah rrrraggggah
+don't forget frequent refer great giant star bobbi
+bond  thaaammi thotha one realli sorri hear cub
+sent heathcliff slocumb minor   eric smith
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+butcher, 1427, 0.410431067535
+harri, 4184, 0.31518018553
+cub, 2282, 0.268211383067
+mal, 5461, 0.211261136164
+maldonado, 5464, 0.192481779866
+caray, 1511, 0.189290697721
+dal, 2340, 0.183853949806
+candi, 1488, 0.183853949806
+netcom, 6011, 0.175450958249
+like, 5272, 0.17114148002
+galarraga, 3751, 0.166334954905
+bobbi, 1190, 0.159526122202
+frequent, 3686, 0.152495215433
+andr, 503, 0.151731985126
+way, 9666, 0.141743348959
+rocki, 7450, 0.138347598964
+eric, 3170, 0.13744441919
+spring, 8266, 0.134902598519
+bond, 1211, 0.134105691534
+train, 9042, 0.132952628828
+smith, 8064, 0.132578927949
+minor, 5745, 0.124599855792
+forget, 3604, 0.123515995894
+giant, 3865, 0.123251672976
+sent, 7793, 0.122989903943
+star, 8324, 0.117153514047
+hear, 4223, 0.116944301547
+particular, 6442, 0.113430955296
+watch, 9655, 0.112354275174
+sorri, 8142, 0.104472316679
+refer, 7213, 0.0998857065957
+thought, 8887, 0.0945602232489
+great, 4016, 0.0901115441453
+articl, 665, 0.0873190213689
+game, 3761, 0.0821245743395
+realli, 7150, 0.0803940595369
+come, 1923, 0.0785645296274
+don, 2811, 0.0614529541967
+know, 5052, 0.0583576067236

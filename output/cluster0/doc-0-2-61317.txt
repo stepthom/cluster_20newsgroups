@@ -1,0 +1,127 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61317
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: David.Anderman@ofa123.fidonet.org
+Subject: $1bil space race ideas/moon base on the cheap.
+X-Sender: newtout 0.08 Feb 23 1993
+Lines: 19
+
+Although the $1 billion scheme is a fantasy (it's an old canard in the space
+business called "trolling for billionaires"), there is a good chance that a
+much smaller program ($65 million) will pass the 103rd Congress. This is the
+Back to the Moon bill, put together by the people who passed the Launch
+Services Purchase Act. The bill would incent private companies to develop
+lunar orbiters, with vendors selected on the basis of competitive bidding.
+There is an aggregate cap on the bids of $65 million.
+ 
+Having a single rich individual paying billions for lunar missions is probably
+worse than having the government bankroll a $65 million program, as the Delta
+Clipper program has shown (DC-X was funded by SDIO at $59 million). We have a
+clear chance of making a lunar mission happen in this decade - as opposed to
+simply wishing for our dreams to come true. Please support the Back to the
+Moon bill.
+ 
+For more information, please send E-mail with your U.S. postal service
+address.
+
+--- Maximus 2.01wb
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ 1bil space race idea moon base cheap sender
+newtout   although billion scheme fantasi it old
+canard space busi call troll billionair good chanc
+much smaller program million pass 103rd congress
+back moon bill put togeth peopl pass launch servic
+purchas act bill incent privat compani develop
+lunar orbit vendor select basi competit bid aggreg
+cap bid million  singl rich individu pay billion
+lunar mission probabl wors govern bankrol million
+program delta clipper program shown fund sdio
+million clear chanc make lunar mission happen
+decad oppos simpli wish dream come true pleas
+support back moon bill  inform pleas send mail
+postal servic address  maximus 01wb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+million, 5724, 0.338429703992
+lunar, 5392, 0.263839854728
+bid, 1078, 0.260236244748
+moon, 5851, 0.223074437771
+billion, 1092, 0.174544751581
+program, 6905, 0.170549134992
+pass, 6448, 0.163568358365
+chanc, 1649, 0.159254000742
+servic, 7813, 0.150733115137
+mission, 5772, 0.144791615592
+troll, 9112, 0.14281301008
+billionair, 1093, 0.14281301008
+aggreg, 333, 0.138726169066
+incent, 4573, 0.135386976821
+postal, 6767, 0.127960943562
+newtout, 6038, 0.121226118807
+maximus, 5561, 0.121226118807
+01wb, 4, 0.121226118807
+clipper, 1823, 0.11631290372
+scheme, 7680, 0.114275822726
+fantasi, 3384, 0.114275822726
+sdio, 7735, 0.113336393654
+cap, 1497, 0.111590801861
+competit, 1970, 0.107840022598
+pleas, 6688, 0.107754786238
+vendor, 9458, 0.106531262281
+sender, 7786, 0.106531262281
+decad, 2432, 0.104728346962
+space, 8164, 0.103902588929
+delta, 2509, 0.102571168151
+congress, 2040, 0.102571168151
+dream, 2865, 0.102069360006
+purchas, 6988, 0.0988959141554
+rich, 7382, 0.0980817867233
+shown, 7918, 0.0976879037675
+smaller, 8055, 0.0961919827556
+cheap, 1677, 0.0929127409785
+wors, 9846, 0.0914698808967
+race, 7049, 0.0903922258743
+oppos, 6269, 0.0893744723005
+privat, 6879, 0.0891286316759
+basi, 936, 0.0872723757905
+select, 7774, 0.0855870633218
+wish, 9801, 0.0847992063005
+togeth, 8969, 0.0847992063005
+busi, 1424, 0.0844176330919
+fund, 3723, 0.0831414556903
+pay, 6474, 0.0829661926156
+act, 249, 0.0817841791825
+individu, 4604, 0.0800683434504
+govern, 3966, 0.0764337439702
+compani, 1958, 0.0761911596087
+singl, 7983, 0.0759517463755
+simpli, 7967, 0.0750242139276
+launch, 5147, 0.072008177421
+address, 264, 0.0711648895232
+send, 7785, 0.0703587268016
+clear, 1803, 0.0702713049099
+old, 6216, 0.0692535513361
+develop, 2588, 0.0682112873422
+orbit, 6280, 0.0662894203525
+true, 9121, 0.0653324567161
+happen, 4159, 0.0645502089292
+support, 8576, 0.0630793304474
+mail, 5447, 0.0629619271509
+idea, 4482, 0.0626141663572
+inform, 4637, 0.0601972879104
+probabl, 6885, 0.0598978558751
+base, 923, 0.0573166277202
+come, 1923, 0.0531098012882
+peopl, 6530, 0.0496910532492
+good, 3948, 0.0470796353698
+make, 5459, 0.045936074295

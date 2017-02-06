@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102588
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tjrad@iastate.edu (Thomas J Radosevich)
+Subject: Brewers injuries                                                  
+Organization: Iowa State University, Ames IA
+Lines: 21
+
+
+
+Hi all,
+
+I've been locked in a small closet chained to a lab bench for the last week or
+two without access to really important information.  I saw the 3.5 million
+shoulder back on the DL--How long is he out for (i.e. How many millions/inning
+will he get this year?)  Nothing personal against Higuera mind you, just
+wondering how Bud can keep coffing up money for him when he lets current
+big producers go over a relative pittance. (Please realize the term 
+"relative pittance" can only be used with sarcasm when discussing baseball
+salaries.)
+
+Additional questions:  I did'nt get to see Bones pitch this spring--how is
+he looking and where is he going to fit in the rotation?
+
+How is Surhoff shaping up defensively at third?
+
+Are they going to build a new stadium?  When?
+
+Tom
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brewer injuri        i'v lock small closet chain
+lab bench last week two without access realli
+import inform saw million shoulder back long mani
+million inning get year noth person higuera mind
+wonder bud keep cof money let current big produc
+relat pittanc pleas realiz term relat pittanc use
+sarcasm discuss basebal salari  addit question
+did'nt get see bone pitch spring look go fit rotat
+surhoff shape defens third  go build new stadium
+tom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+million, 5724, 0.261808882676
+surhoff, 8591, 0.220960005339
+relat, 7247, 0.216643355023
+nt, 6144, 0.209470461441
+sarcasm, 7620, 0.194995348019
+bud, 1362, 0.192294571867
+bone, 1213, 0.179959093451
+chain, 1637, 0.176807325786
+shoulder, 7911, 0.173971290656
+salari, 7589, 0.171393450496
+lock, 5324, 0.170187451389
+brewer, 1302, 0.170187451389
+bench, 1022, 0.16684986862
+injuri, 4650, 0.151142530544
+stadium, 8300, 0.150545946364
+shape, 7853, 0.146688409521
+spring, 8266, 0.141095894069
+lab, 5085, 0.133693908336
+rotat, 7490, 0.131501025518
+inning, 4657, 0.130610794131
+realiz, 7149, 0.130032474019
+addit, 263, 0.128636294991
+tom, 8976, 0.127830457696
+fit, 3510, 0.127830457696
+produc, 6895, 0.125541947208
+saw, 7650, 0.12481841764
+defens, 2476, 0.122531960016
+access, 209, 0.121034578374
+term, 8795, 0.116429327916
+build, 1378, 0.114379998888
+money, 5835, 0.114215727692
+small, 8054, 0.110390968993
+mind, 5733, 0.110390968993
+discuss, 2708, 0.108994789966
+import, 4551, 0.10740539947
+week, 9691, 0.104355501424
+pitch, 6643, 0.103445006972
+noth, 6119, 0.103110975184
+wonder, 9821, 0.10289045499
+current, 2299, 0.102671637672
+big, 1082, 0.0965234038467
+basebal, 924, 0.0954897317238
+person, 6562, 0.0944108982841
+inform, 4637, 0.0931371242064
+let, 5225, 0.0894898476229
+long, 5336, 0.0892852496085
+question, 7032, 0.0857745372939
+realli, 7150, 0.0840849014971
+pleas, 6688, 0.0833589955469
+new, 6023, 0.0825438856015
+mani, 5479, 0.0803789395364
+year, 9943, 0.0712154987365
+look, 5341, 0.0707171016844
+use, 9363, 0.0625827903246

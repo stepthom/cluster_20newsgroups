@@ -1,0 +1,232 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104956
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Bases loaded walk gives Reds win in 12: RedReport 4-21
+From: grabiner@math.harvard.edu (David Grabiner)
+Organization: /etc/organization
+Nntp-Posting-Host: germain.harvard.edu
+In-reply-to: mss@netcom.com's message of Thu, 22 Apr 1993 16:03:05 GMT
+Lines: 55
+
+In article <mssC5w795.7G4@netcom.com>, Mark Singer writes:
+
+> In article <C5vHLH.IDz@usenet.ucs.indiana.edu> rstimets@silver.ucs.indiana.edu (robert and stimets) writes:
+>>
+>>
+>>In a game that saw a little of everything--incredible defense, some power,
+>>clutch pitching, and a little wildness--the Reds managed to overcome their
+>>trademark lack of timely hitting in crucial situations...
+
+> During spring training I made a similarly innoncent-looking comment 
+> about clutch hitting on this bb and the flames were flying.  "no such
+> thing as clutch hitting" they (the SDCN's) all screamed.  I assumed
+> they also meant there was no such thing as any kind of clutch performance,
+> given their comments.  
+
+This is certainly not the case.  There is no significant *ability* toi
+perform in the clutch, but clutch performance certainly happens every
+time there is a game-winning hit.  The "clutch pitching" quoted above is
+something which happened, not a claim that any particular player should
+be expected to be a clutch pitcher.
+
+> Over the past four seasons Sabo has had 59 hits in 259 abs defined as
+> clutch situations (by The Scouting Report) for an average of .228.
+> Over that same period he had another 1539 abs with 452 hits for an
+> average of .294.
+
+> According to the rest of the SDCN's, any differential such as this is
+> completely and totally random and cannot be used for any reasonable
+> inference, such as perhaps Perez should have used a pinch hitter in
+> that situation.
+
+Simple statistics tell me that there is a 2% chance an average clutch
+hitter would have this large a split (the average decrease is 7 points,
+standard deviation about 30).  There will be such hitters in any league,
+just as there will be hitters who hit poorly on Tuesdays.
+
+And there is only a very weak correlation (.01 in my best study) between
+clutch hitting in the last four years and clutch hitting this year,
+probably because most of the clutch data is determinaed by luck rather
+than any ability.  *Based only on this data*, I don't see any reason to
+pinch-hit for Sabo, or any other player who had been a poor clutch
+hitter in the past.
+
+But there are many other factors involved in a decision to pinch-hit.
+Does the pinch-hitter give you a platoon advantage?  (Any portion of
+Sabo's clutch split that results from his platoon split is certainly a
+real ability, even if it has nothing to do with clutch hitting.)  Do you
+have a singles hitter at the plate when you need a home run?  Do you
+have a curveball pitcher facing a batter who has trouble with curves?
+
+--
+David Grabiner, grabiner@zariski.harvard.edu
+"We are sorry, but the number you have dialed is imaginary."
+"Please rotate your phone 90 degrees and try again."
+Disclaimer: I speak for no one and no one speaks for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+base load walk give red win redreport
+game saw littl everyth incred defens power clutch
+pitch littl wild red manag overcom trademark lack
+time hit crucial situat  spring train made similar
+innonc look comment clutch hit flame fli thing
+clutch hit sdcn scream assum also meant thing kind
+clutch perform given comment  certain case
+signific abil toi perform clutch clutch perform
+certain happen everi time game win hit clutch
+pitch quot someth happen claim particular player
+expect clutch pitcher  past four season sabo hit
+ab defin clutch situat scout report averag period
+anoth ab hit averag  accord rest sdcn differenti
+complet total random cannot use reason infer
+perhap perez use pinch hitter situat  simpl
+statist tell chanc averag clutch hitter larg split
+averag decreas point standard deviat hitter leagu
+hitter hit poor tuesday  weak correl best studi
+clutch hit last four year clutch hit year probabl
+clutch data determina luck rather abil base data
+don't see reason pinch hit sabo player poor clutch
+hitter past  mani factor involv decis pinch hit
+pinch hitter give platoon advantag portion sabo
+clutch split result platoon split certain real
+abil even noth clutch hit singl hitter plate need
+home run curvebal pitcher face batter troubl curv
+sorri number dial imaginari pleas rotat phone
+degre tri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clutch, 1849, 0.715673663905
+hit, 4316, 0.326440493799
+hitter, 4322, 0.231793299487
+pinch, 6632, 0.165968995663
+sabo, 7564, 0.148209259298
+averag, 816, 0.132453313992
+split, 8247, 0.120808457666
+abil, 177, 0.10931538004
+sdcn, 7733, 0.104225200976
+ab, 163, 0.0997493833612
+situat, 7995, 0.0985093884867
+platoon, 6679, 0.095518581965
+perform, 6539, 0.0947492958878
+certain, 1619, 0.0825792860675
+poor, 6741, 0.0741366535693
+past, 6456, 0.0657821065152
+comment, 1936, 0.062442429164
+red, 7194, 0.0622666283294
+pitcher, 6644, 0.0618356254677
+trademark, 9034, 0.0589229629871
+redreport, 7203, 0.0589229629871
+curvebal, 2308, 0.0589229629871
+data, 2385, 0.0576169741762
+pitch, 6643, 0.0567962698907
+win, 9770, 0.0565522145596
+scream, 7718, 0.0563055104106
+happen, 4159, 0.0548344929752
+overcom, 6340, 0.0543505092954
+player, 6683, 0.0536853783152
+littl, 5308, 0.0522897351715
+deviat, 2590, 0.052112600488
+scout, 7714, 0.050376743559
+perez, 6537, 0.050376743559
+dial, 2609, 0.050376743559
+reason, 7156, 0.0501834836364
+infer, 4624, 0.0494030864327
+imaginari, 4519, 0.0494030864327
+crucial, 2251, 0.0494030864327
+base, 923, 0.048689667659
+game, 3761, 0.047160399267
+differenti, 2634, 0.0470516120439
+correl, 2157, 0.0470516120439
+decreas, 2456, 0.0467205363702
+incred, 4591, 0.0440110223149
+tuesday, 9147, 0.0437855252462
+portion, 6752, 0.0433532415857
+random, 7093, 0.0431457865138
+weak, 9668, 0.0425546842285
+thing, 8869, 0.0425035745429
+wild, 9758, 0.0423672268647
+curv, 2306, 0.0416595479262
+luck, 5381, 0.0401293180574
+decis, 2445, 0.0395926153236
+plate, 6674, 0.039464032162
+meant, 5598, 0.0393375398764
+year, 9943, 0.0391007241918
+statist, 8348, 0.0390905634451
+spring, 8266, 0.0387342062927
+train, 9042, 0.0381743169422
+advantag, 286, 0.037961177468
+troubl, 9117, 0.037652033312
+factor, 3352, 0.0373547065162
+flame, 3518, 0.0372580704392
+batter, 949, 0.036975162747
+time, 8936, 0.0369666261817
+load, 5317, 0.036183384566
+rotat, 7490, 0.0361001847979
+degre, 2491, 0.0361001847979
+lack, 5092, 0.0360178654672
+accord, 219, 0.0349484643117
+period, 6546, 0.0346681058918
+use, 9363, 0.0343609532623
+saw, 7650, 0.0342656486917
+phone, 6601, 0.0341359939543
+defin, 2482, 0.0341359939543
+chanc, 1649, 0.0338210074367
+defens, 2476, 0.0336379612463
+signific, 7951, 0.0335182803601
+everyth, 3242, 0.0335182803601
+studi, 8469, 0.0334591233894
+face, 3345, 0.0334591233894
+quot, 7045, 0.0334004128906
+rest, 7324, 0.0332268940795
+fli, 3542, 0.0332268940795
+simpl, 7965, 0.0331699040505
+walk, 9617, 0.033057161437
+involv, 4750, 0.0326218532415
+particular, 6442, 0.0325691133503
+singl, 7983, 0.0322599691942
+similar, 7961, 0.0322096188297
+standard, 8313, 0.0318660063214
+leagu, 5176, 0.031221214582
+total, 9013, 0.0310463958955
+report, 7291, 0.0309604380688
+claim, 1782, 0.030304968079
+result, 7332, 0.0301879868646
+assum, 710, 0.0301879868646
+expect, 3290, 0.0301493808094
+perhap, 6540, 0.0301109654021
+complet, 1975, 0.0300727387691
+sorri, 8142, 0.029996844468
+home, 4354, 0.029996844468
+season, 7747, 0.0299591731878
+manag, 5472, 0.0297004617955
+power, 6783, 0.028873584574
+larg, 5124, 0.0288084870881
+noth, 6119, 0.0283064352097
+given, 3887, 0.0279211055688
+kind, 5021, 0.0277495007241
+case, 1540, 0.0270467429334
+real, 7144, 0.0266684299378
+everi, 3235, 0.0266438513892
+best, 1052, 0.0260079883212
+probabl, 6885, 0.0254411923036
+tell, 8767, 0.0254201960583
+number, 6156, 0.0252953949191
+anoth, 533, 0.0250716666995
+run, 7543, 0.0234326463426
+someth, 8126, 0.0228991923473
+pleas, 6688, 0.0228840431621
+tri, 9087, 0.022529041451
+mani, 5479, 0.0220659463277
+point, 6710, 0.0219577135674
+need, 5993, 0.0209156008268
+look, 5341, 0.0194135401539
+don, 2811, 0.0176448150835

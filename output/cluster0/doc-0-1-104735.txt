@@ -1,0 +1,123 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104735
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kirsch@staff.tc.umn.edu (Dave 'Almost Cursed the Jays' Kirsch)
+Subject: Re: Harry Caray
+Nntp-Posting-Host: staff.tc.umn.edu
+Organization: Li'l Carlos and the Hormones
+Lines: 22
+
+In article <34592@oasys.dt.navy.mil> odell@oasys.dt.navy.mil (Bernard O'farmer
+by the'Dell) writes:
+>Being an old time Cardinal Fan-now relocated to the NVA area-I can
+>recall that Harry was not at all "popular" with old man Busch, who,
+>as I understand it, fired him and kicked him out of St. Louis.
+>
+>I am not quite sure of the reasons, but the old man was certainly
+>not "enraptured" by ole Harry.
+
+  But maybe his wife was :-) 
+
+  I don't claim to know whether it's true or not, but a couple different
+people (totally unrelated) have said Harry was 'relieved' of his duties
+because he had more than platonic relations with Augie Busch's wife.
+Judgement is left to the individual, cuz I sure don't claim to be an
+impeachable source in this case. 
+
+-- 
+Dave Hung Like a Jim Acker Slider Kirsch      Blue Jays - Do it again in '93 
+kirsch@staff.tc.umn.edu                        New .. quotes out of context!
+"Not to beat a dead horse, but it's been a couple o' weeks .. this 
+ disappoints me..punishments..discharges..jackhammering.." - Stephen Lawrence 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ harri caray     oasi navi mil bernard o'farm  old
+time cardin fan reloc nva area recal harri popular
+old man busch understand fire kick loui  quit sure
+reason old man certain enraptur ole harri  mayb
+wife  don't claim know whether it true coupl
+differ peopl total unrel said harri reliev duti
+platon relat augi busch wife judgement left
+individu cuz sure don't claim impeach sourc case
+dave hung like jim acker slider kirsch blue jay
+beat dead hors it coupl week disappoint punish
+discharg jackhamm stephen lawrenc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+harri, 4184, 0.429293762933
+busch, 1420, 0.272787459225
+old, 6216, 0.209305585606
+wife, 9755, 0.196828644021
+coupl, 2187, 0.153515451287
+augi, 781, 0.14387498369
+claim, 1782, 0.143759037651
+reloc, 7263, 0.139757752466
+platon, 6678, 0.139757752466
+enraptur, 3118, 0.139757752466
+unrel, 9306, 0.133549488816
+ole, 6220, 0.133549488816
+oasi, 6168, 0.131085695371
+jackhamm, 4810, 0.131085695371
+kirsch, 5031, 0.128912475535
+cuz, 2318, 0.128912475535
+caray, 1511, 0.128912475535
+bernard, 1044, 0.128912475535
+man, 5471, 0.127454487575
+discharg, 2688, 0.126968464148
+slider, 8032, 0.123604441293
+acker, 238, 0.11948721007
+sure, 8585, 0.118838604827
+duti, 2931, 0.117177819558
+lawrenc, 5154, 0.1151255906
+disappoint, 2679, 0.112420603618
+judgement, 4921, 0.110061944605
+hors, 4382, 0.108641933138
+farm, 3390, 0.107970912178
+navi, 5968, 0.107323440733
+kick, 5006, 0.107323440733
+mil, 5712, 0.106092915326
+hung, 4441, 0.104939349541
+punish, 6986, 0.103853680955
+reliev, 7258, 0.103333898897
+cardin, 1515, 0.0988111339242
+stephen, 8380, 0.0972726562861
+loui, 5363, 0.0972726562861
+recal, 7166, 0.0905446105781
+beat, 974, 0.0905446105781
+popular, 6746, 0.08883269084
+blue, 1176, 0.0850453721092
+jim, 4868, 0.0842997739864
+don, 2811, 0.0837025014946
+jay, 4832, 0.0823923355402
+dead, 2415, 0.0822283251907
+individu, 4604, 0.0806637406606
+dave, 2395, 0.0797849534885
+area, 622, 0.0750212372695
+total, 9013, 0.0736380910357
+left, 5193, 0.0734342100349
+fan, 3381, 0.0734342100349
+relat, 7247, 0.0705321289314
+sourc, 8153, 0.0681008483456
+week, 9691, 0.0679496094428
+quit, 7043, 0.0675768484247
+understand, 9246, 0.0661568369582
+true, 9121, 0.0658182762146
+certain, 1619, 0.0652891778009
+mayb, 5564, 0.0645855865888
+case, 1540, 0.0641514243732
+said, 7583, 0.0614213774937
+reason, 7156, 0.0595144110921
+differ, 2633, 0.0568137589023
+peopl, 6530, 0.0500605615117
+time, 8936, 0.0438400610689
+know, 5052, 0.0397432290103
+like, 5272, 0.038850776648

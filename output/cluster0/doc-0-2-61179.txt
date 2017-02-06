@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61179
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wats@scicom.AlphaCDC.COM (Bruce Watson)
+Subject: Re: Boom!  Whoosh......
+Organization: Alpha Science Computer Network, Denver, Co.
+Lines: 19
+
+In article <1r6mcgINNe87@gap.caltech.edu+ kwp@wag.caltech.edu (Kevin W. Plaxco) writes:
++In article <37147@scicom.AlphaCDC.COM+ wats@scicom.AlphaCDC.COM (Bruce Watson) writes:
++++
+++Once inflated the substance was no longer
+++needed since there is nothing to cause the balloon to collapse.
+++This inflatable structure could suffer multiple holes with no 
+++disastrous deflation.
++
++preasure (and the internal preasure that was needed to maintain
++a spherical shape against this resistance) caused them to
++catastrophically deflated.  The large silvered shards
++
++The billboard should pop like a dime store balloon.
+
+No, you're wrong about this. Give me some time to get my references.
+
+
+-- 
+Bruce Watson (wats@scicom.alphaCDC.COM) 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ boom whoosh       inflat substanc longer need
+sinc noth caus balloon collaps inflat structur
+could suffer multipl hole disastr deflat  preasur
+intern preasur need maintain spheric shape resist
+caus catastroph deflat larg silver shard
+billboard pop like dime store balloon  you'r wrong
+give time get refer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+preasur, 6805, 0.399917089314
+deflat, 2485, 0.358008060081
+balloon, 882, 0.320311104602
+inflat, 4632, 0.269384090301
+caus, 1569, 0.200229871606
+disastr, 2682, 0.187325321442
+catastroph, 1555, 0.187325321442
+dime, 2651, 0.175701666552
+whoosh, 9742, 0.170183105693
+spheric, 8227, 0.155646559767
+boom, 1222, 0.154309423877
+silver, 7957, 0.151834260899
+collaps, 1896, 0.151834260899
+substanc, 8502, 0.150683774874
+resist, 7314, 0.147522329086
+pop, 6743, 0.140656221482
+need, 5993, 0.13298793711
+shape, 7853, 0.128022998267
+multipl, 5919, 0.128022998267
+billboard, 1090, 0.127577382794
+store, 8417, 0.125462334808
+suffer, 8521, 0.125060196034
+hole, 4343, 0.119067544179
+maintain, 5454, 0.118449237233
+structur, 8460, 0.112748159018
+longer, 5337, 0.110435167045
+intern, 4716, 0.109997438987
+larg, 5124, 0.0915866893052
+refer, 7213, 0.0911779033097
+wrong, 9869, 0.0907757645363
+noth, 6119, 0.0899905878069
+sinc, 7977, 0.075389721975
+time, 8936, 0.0587613451622
+like, 5272, 0.0520739214493

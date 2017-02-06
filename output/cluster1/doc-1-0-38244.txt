@@ -1,0 +1,154 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38244
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: clipper@mccarthy.csd.uwo.ca (Khun Yee Fung)
+Subject: Re: looking for circle algorithm faster than Bresenhams
+Organization: Department of Computer Science, The University of Western
+	Ontario, London, Ontario, Canada
+In-Reply-To: graeme@labtam.labtam.oz.au's message of Wed, 14 Apr 1993 04:49:46 GMT
+	<1993Apr13.025240.8884@nwnexus.WA.COM>
+	<1993Apr14.044946.12144@labtam.labtam.oz.au>
+Nntp-Posting-Host: mccarthy.csd.uwo.ca
+Lines: 41
+
+>>>>> On Wed, 14 Apr 1993 04:49:46 GMT, graeme@labtam.labtam.oz.au (Graeme Gill) said:
+
+Graeme> 	Yes, that's known as "Bresenhams Run Length Slice Algorithm for
+Graeme> Incremental lines". See Fundamental Algorithms for Computer Graphics,
+Graeme> Springer-Verlag, Berlin Heidelberg 1985.
+
+> I have tried to extrapolate this to circles but I can't figure out
+> how to determine the length of the slices. Any ideas?
+
+Graeme> 	Hmm. I don't think I can help you with this, but you might
+Graeme> take a look at the following:
+
+Graeme> 	"Double-Step Incremental Generation of Lines and Circles",
+Graeme> X. Wu and J. G. Rokne, Computer Graphics and Image processing,
+Graeme> Vol 37, No. 4, Mar. 1987, pp. 331-334
+
+Graeme> 	"Double-Step Generation of Ellipses", X. Wu and J. G. Rokne,
+Graeme> IEEE Computer Graphics & Applications, May 1989, pp. 56-69
+
+Another paper you might want to consider is:
+
+@article{fungdraw,
+  title="A Run-Length Slice Line Drawing Algorithm without Division Operations",
+  author="Khun Yee Fung and Tina M. Nicholl and A. K. Dewdney",
+  journal="Computer Graphics Forum",
+  year=1992,
+  volume=11,
+  number=3,
+  pages="C-267--C-277"
+}
+
+Khun Yee
+--
+Khun Yee Fung    clipper@csd.uwo.ca
+Department of Computer Science
+Middlesex College
+University of Western Ontario
+London, Ontario
+Canada N6A 5B7
+Tel: (519) 661-6889
+Fax: (519) 661-3515
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look circl algorithm faster bresenham  ontario
+london ontario canada         graem yes that known
+bresenham run length slice algorithm graem
+increment line see fundament algorithm comput
+graphic graem springer verlag berlin heidelberg
+tri extrapol circl can't figur determin length
+slice idea  graem hmm don't think help might graem
+take look follow  graem doubl step increment
+generat line circl graem rokn comput graphic imag
+process graem vol  graem doubl step generat ellips
+rokn graem ieee comput graphic applic  anoth paper
+might want consid  articl fungdraw titl run length
+slice line draw algorithm without divis oper
+author khun yee fung tina nichol dewdney journal
+comput graphic forum year volum number page   khun
+yee   depart comput scienc middlesex colleg
+univers western ontario london ontario canada n6a
+5b7 tel fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+graem, 3982, 0.723152257049
+ontario, 6248, 0.231882287571
+slice, 8029, 0.199156844416
+algorithm, 407, 0.170126983828
+comput, 1993, 0.169578616123
+rokn, 7461, 0.158192075892
+bresenham, 1298, 0.158192075892
+circl, 1765, 0.152461678353
+yee, 9944, 0.148197625248
+length, 5212, 0.145267840981
+london, 5334, 0.129502768268
+increment, 4592, 0.129502768268
+graphic, 3997, 0.128830048132
+canada, 1481, 0.101641118902
+line, 5285, 0.0972783831141
+doubl, 2828, 0.0912166446093
+step, 8377, 0.0903839534795
+generat, 3819, 0.0847553707681
+extrapol, 3330, 0.0723152257049
+springer, 8267, 0.0708072244519
+middlesex, 5700, 0.0708072244519
+verlag, 9473, 0.0695009343492
+heidelberg, 4237, 0.0695009343492
+berlin, 1041, 0.0673180003826
+ellips, 3049, 0.0663856148055
+ieee, 4491, 0.0655344134636
+run, 7543, 0.0589356401171
+vol, 9570, 0.0583542541747
+hmm, 4327, 0.0569023140734
+journal, 4898, 0.055346240762
+fundament, 3724, 0.054519045921
+forum, 3620, 0.0542581599485
+nichol, 6050, 0.0530488885999
+western, 9709, 0.051972788981
+tel, 8754, 0.0513797198764
+colleg, 1900, 0.0511897596516
+volum, 9577, 0.0494690838446
+look, 5341, 0.0488271533305
+faster, 3399, 0.0480062680955
+titl, 8953, 0.0470986174094
+page, 6382, 0.0466154256583
+depart, 2535, 0.0459326385531
+divis, 2767, 0.0452944137406
+paper, 6409, 0.043597018077
+draw, 2861, 0.043425388338
+applic, 585, 0.0428473424934
+determin, 2582, 0.0426096957255
+figur, 3476, 0.0415711683021
+fax, 3413, 0.0410905206915
+oper, 6261, 0.0409574214384
+author, 796, 0.0401338001661
+process, 6890, 0.0395443059361
+known, 5054, 0.0390970214391
+scienc, 7692, 0.0365598773495
+yes, 9951, 0.0356351614273
+consid, 2059, 0.0343097084502
+idea, 4482, 0.0334445578058
+imag, 4512, 0.0327921398183
+univers, 9282, 0.0325093847536
+follow, 3578, 0.0321536130305
+number, 6156, 0.0318103271345
+articl, 665, 0.0315289767988
+anoth, 533, 0.0315289767988
+help, 4249, 0.0287399309905
+tri, 9087, 0.0283314880387
+want, 9634, 0.0266484242706
+year, 9943, 0.0245856376569
+think, 8871, 0.0224051837624
+don, 2811, 0.0221893092331

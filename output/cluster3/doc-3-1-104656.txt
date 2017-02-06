@@ -1,0 +1,156 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104656
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sac@asdi.saic.com (Steve A. Conroy x6172)
+Subject: Re: Game Length (was Re: Braves Update!!
+Organization: SAIC
+Lines: 37
+
+In article <1993Apr20.085508.5787@wvnvms.wvnet.edu>, nflynn@wvnvms.wvnet.edu writes:
+|> In article <1993Apr19.194025.8967@adobe.com>, 
+|> snichols@adobe.com (Sherri Nichols) writes:
+
+|> [...]  However, what is with this policy of trying to speed up the
+|> games.  You are the first person ( non-mediot ) I have seen endorse
+|> this policy.  I have no problem with the length of games at all and
+|> am tired of the ESPN crowd ( and other announcers ) bitching about
+|> it.  I have never been in a ballpark filled with people looking
+|> at their watches and shouting "Hurry up!"  If I cough up big bucks for a 
+|> ticket, I don't mind a game that last more than 2:10.  I really don't
+|> understand it.  
+|> 
+
+Major League Baseball is trying to expand its appeal to people with shorter
+attention spans (i.e. the football crowd). (-:  Invariably, all the
+arguments from people who don't like to watch baseball on T.V. say the
+same thing:  the games are too long and too boring.  Baseball is trying
+to find a way to shorten the games for wider T.V. appeal.  If you look at
+it, though, baseball games last around the same amount of time as football
+games.  The difference is that there is "more action" in that duration in
+football games.  Perhaps if there were "more action" in baseball games, you
+would get more of those fans to tune in.  Anyway, coming up with a solution
+to make baseball more appealing to a bigger crowd is going to be difficult.
+[On soapbox] Yet another reason to get a commisioner NOW since it's obvious
+that ruling baseball by comittee works about as fast as a snail race in
+Nebraska. [Off soapbox]
+
+-Steve
+-- 
+=========================================================================
+Steve Conroy			|
+conroy@terminus.saic.com	|  "I'm gone, man - solid gone! 
+				|
+Science Applications		|		-Baloo
+International Corporation	|
+=========================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat        howev polici tri
+speed game first person non mediot seen endors
+polici problem length game tire espn crowd announc
+bitch never ballpark fill peopl look watch shout
+hurri cough big buck ticket don't mind game last
+realli don't understand   major leagu basebal tri
+expand appeal peopl shorter attent span footbal
+crowd invari argument peopl don't like watch
+basebal say thing game long bore basebal tri find
+way shorten game wider appeal look though basebal
+game last around amount time footbal game differ
+action durat footbal game perhap action basebal
+game get fan tune anyway come solut make basebal
+appeal bigger crowd go difficult soapbox yet anoth
+reason get commision sinc it obvious rule basebal
+comitte work fast snail race nebraska soapbox
+steve   steve conroy   scienc applic baloo intern
+corpor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.433938177929
+basebal, 924, 0.337687808854
+crowd, 2245, 0.263669265276
+appeal, 579, 0.263669265276
+footbal, 3589, 0.244257932004
+soapbox, 8086, 0.223256615286
+polici, 6721, 0.167542819356
+length, 5212, 0.141720258283
+action, 251, 0.130249944863
+steve, 8390, 0.127597008819
+tri, 9087, 0.124378224311
+watch, 9655, 0.118733789109
+peopl, 6530, 0.116521488682
+conroy, 2050, 0.111628307643
+invari, 4739, 0.10001934394
+cough, 2175, 0.10001934394
+don, 2811, 0.0974134107372
+wider, 9749, 0.0971466197852
+shorten, 7907, 0.0959009985258
+shout, 7913, 0.0936942369437
+bore, 1231, 0.0936942369437
+bitch, 1123, 0.0936942369437
+hurri, 4449, 0.0927065616482
+endors, 3096, 0.0927065616482
+mediot, 5611, 0.0917826531117
+shorter, 7908, 0.0909147744458
+snail, 8072, 0.0900965166742
+ballpark, 883, 0.0893225112214
+espn, 3192, 0.0848323107786
+durat, 2925, 0.0842920348227
+tune, 9149, 0.0827837343826
+tire, 8948, 0.0823143279462
+span, 8181, 0.0823143279462
+buck, 1359, 0.0823143279462
+bigger, 1083, 0.0809919471801
+expand, 3288, 0.0783118990657
+ticket, 8919, 0.0757601662444
+attent, 766, 0.0738485824124
+corpor, 2154, 0.072162445975
+look, 5341, 0.0714521197656
+solut, 8118, 0.0706541455349
+race, 7049, 0.0706541455349
+difficult, 2635, 0.0696664702394
+announc, 524, 0.0656920015508
+intern, 4716, 0.0636723748385
+fast, 3397, 0.0631786840643
+applic, 585, 0.0627014527501
+updat, 9333, 0.0620141713147
+brave, 1277, 0.0612519434139
+obvious, 6185, 0.0605282565144
+rule, 7537, 0.0597436429738
+argument, 631, 0.0597436429738
+speed, 8217, 0.0582067398994
+leagu, 5176, 0.0574553107226
+fan, 3381, 0.0569754128136
+non, 6097, 0.0567413648699
+mind, 5733, 0.0557691742852
+perhap, 6540, 0.0554121579349
+scienc, 7692, 0.0535005741029
+seen, 7767, 0.0531350492152
+major, 5458, 0.0525458461493
+understand, 9246, 0.0513291161483
+howev, 4406, 0.0493514092717
+big, 1082, 0.0487633234929
+person, 6562, 0.0476960922514
+reason, 7156, 0.0461754560813
+anoth, 533, 0.0461385125416
+long, 5336, 0.0451066304781
+problem, 6887, 0.0450381345882
+differ, 2633, 0.0440801006155
+sinc, 7977, 0.0436395854375
+realli, 7150, 0.0424794307823
+come, 1923, 0.0415127251624
+work, 9833, 0.0405571356788
+thing, 8869, 0.0391089218481
+way, 9666, 0.0374478961235
+say, 7653, 0.0363454069349
+make, 5459, 0.0359054558857
+time, 8936, 0.034014195509
+like, 5272, 0.0301431585714

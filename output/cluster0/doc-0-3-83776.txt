@@ -1,0 +1,46 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83776
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jmeritt@mental.MITRE.ORG (Jim Meritt - System Admin)
+Subject: Keep Firm the foundations!
+Organization: UTexas Mail-to-News Gateway
+Lines: 6
+NNTP-Posting-Host: cs.utexas.edu
+
+JOB 26:7  He stretcheth out the north over the empty  place,  and
+hangeth the earth upon nothing.
+
+JOB 38:4  Where wast thou when I  laid  the  foundations  of  the
+earth? declare, if thou hast understanding.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ keep firm foundat     job stretcheth north empti
+place hangeth earth upon noth  job wast thou laid
+foundat earth declar thou hast understand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+foundat, 3627, 0.439084816688
+thou, 8886, 0.422771039479
+job, 4873, 0.311202757997
+stretcheth, 8444, 0.295555239167
+hast, 4197, 0.255396077024
+earth, 2956, 0.254675703988
+empti, 3079, 0.236723130014
+laid, 5095, 0.23005846675
+firm, 3499, 0.215236914882
+declar, 2447, 0.213907515844
+north, 6110, 0.182014197513
+wast, 9654, 0.171634791396
+noth, 6119, 0.133013519115
+understand, 9246, 0.131067195454
+place, 6657, 0.125200944937

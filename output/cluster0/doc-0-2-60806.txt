@@ -1,0 +1,132 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60806
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kjenks@gothamcity.jsc.nasa.gov
+Subject: Re: Shuttle oxygen (was Budget Astronaut)
+Organization: NASA/JSC/GM2, Space Shuttle Program Office 
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 29
+
+: henry@zoo.toronto.edu (Henry Spencer) writes:
+
+: >There is an emergency oxygen system that is capable of maintaining a
+: >breathable atmosphere in the cabin for long enough to come down, even
+: >if there is something like a 5cm hole in the wall that nobody tries
+: >to plug.
+
+Josh Hopkins (jbh55289@uxa.cso.uiuc.edu) replied:
+: Wow.
+
+: Double wow.  Can you land a shuttle with a 5cm hole in the wall?
+
+Personnally, I don't know, but I'd like to try it sometime.
+
+Programmatically, yes, we can land an Orbiter with a 5 cm hole in
+the wall -- provided that the thing which caused 5 cm hole didn't
+cause a Crit 1 failure on some of the internal systems.  There are
+a few places where a 5 cm hole would cause a Bad Day -- especially
+if the 5 cm hole went all the way through the Orbiter and out the
+other side, as could easily happen with a meteor strike.  But a
+hole in the pressure vessel would cause us to immediately de-orbit
+to the next available landing site.
+
+-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+     "NASA turns dreams into realities and makes science fiction
+      into fact" -- Daniel S. Goldin, NASA Administrator
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ shuttl oxygen budget astronaut       emerg oxygen
+system capabl maintain breathabl atmospher cabin
+long enough come even someth like 5cm hole wall
+nobodi tri plug   wow  doubl wow land shuttl 5cm
+hole wall  personn don't know i'd like tri sometim
+programmat yes land orbit hole wall provid thing
+caus hole didn't caus crit failur intern system
+place hole caus bad day especi hole went way orbit
+side could easili happen meteor strike hole
+pressur vessel caus immedi orbit next avail land
+site  ken jenk nasa jsc gm2 space shuttl program
+offic   nasa turn dream realiti make scienc
+fiction fact daniel goldin nasa administr
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hole, 4343, 0.529391311194
+caus, 1569, 0.254357318182
+5cm, 120, 0.25401264436
+wall, 9619, 0.238300927475
+land, 5104, 0.200595586752
+shuttl, 7929, 0.189672017183
+oxygen, 6363, 0.186169353661
+wow, 9856, 0.181673635696
+nasa, 5956, 0.177349878245
+orbit, 6280, 0.170564616511
+cabin, 1441, 0.122487350005
+crit, 2235, 0.11898216287
+breathabl, 1292, 0.116118216448
+meteor, 5660, 0.10974908289
+vessel, 9486, 0.108094057137
+gm2, 3915, 0.0997588338774
+jenk, 4846, 0.0988609771583
+goldin, 3935, 0.0980116775602
+plug, 6697, 0.0950105406056
+emerg, 3068, 0.0950105406056
+tri, 9087, 0.0909850402401
+daniel, 2359, 0.0903217482237
+jsc, 4914, 0.0888707281451
+fiction, 3463, 0.0888707281451
+dream, 2865, 0.0875424824174
+failur, 3361, 0.0855514392285
+administr, 273, 0.0855514392285
+astronaut, 727, 0.0828126585377
+budget, 1367, 0.0804812450171
+nobodi, 6088, 0.0794336424915
+strike, 8448, 0.0782153409826
+pressur, 6842, 0.0777533013162
+ken, 4980, 0.0770847656938
+atmospher, 755, 0.0764435249805
+maintain, 5454, 0.0752346043116
+immedi, 4527, 0.0752346043116
+easili, 2962, 0.074293711357
+realiti, 7148, 0.0735795785585
+doubl, 2828, 0.0732343291412
+capabl, 1498, 0.0704273999003
+went, 9704, 0.0701443613213
+intern, 4716, 0.0698663325385
+offic, 6206, 0.0695931392849
+sometim, 8128, 0.0690606063835
+like, 5272, 0.0661508839855
+especi, 3190, 0.065040349624
+site, 7994, 0.0647392244383
+turn, 9158, 0.0625178996111
+scienc, 7692, 0.0587050335527
+provid, 6949, 0.0581071857292
+bad, 861, 0.0578486084312
+yes, 9951, 0.0572201959881
+happen, 4159, 0.055363191558
+avail, 811, 0.0545629396028
+fact, 3350, 0.0539009070715
+place, 6657, 0.0538014876501
+didn, 2625, 0.0524719027164
+long, 5336, 0.0494945390787
+program, 6905, 0.0487586566964
+day, 2402, 0.0465804466728
+someth, 8126, 0.0462399596918
+come, 1923, 0.045551023786
+space, 8164, 0.0445573998105
+thing, 8869, 0.0429133819179
+way, 9666, 0.0410907739827
+make, 5459, 0.0393982873612
+don, 2811, 0.0356298827424
+know, 5052, 0.033835227482

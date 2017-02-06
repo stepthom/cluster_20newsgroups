@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104598
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: Jewish Baseball Players?
+Organization: Allegheny College
+
+In article <1qkkodINN5f5@jhunix.hcf.jhu.edu> pablo@jhunix.hcf.jhu.edu  
+(Pablo A Iglesias) writes:
+> In article <15APR93.14691229.0062@lafibm.lafayette.edu>  
+VB30@lafibm.lafayette.edu (VB30) writes:
+> 
+> Hank Greenberg would have to be the most famous, because his Jewish
+> faith actually affected his play. (missing late season or was it world
+> series games because of Yom Kippur)
+> 
+
+
+Kofax missed world series game because of The jewish day of repentence.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player   jhunix hcf jhu edu
+hank greenberg famous jewish faith actual affect
+play miss late season world seri game yom kippur
+kofax miss world seri game jewish day repent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.495224920848
+miss, 5770, 0.28445772884
+seri, 7805, 0.274358144084
+yom, 9959, 0.238986810663
+kippur, 5028, 0.238986810663
+jhu, 4866, 0.238986810663
+world, 9841, 0.225321945312
+greenberg, 4027, 0.213630887012
+hank, 4154, 0.20988939827
+game, 3761, 0.203932965625
+repent, 7287, 0.196845459551
+famous, 3380, 0.189339194614
+affect, 310, 0.178714303572
+late, 5139, 0.154362595589
+faith, 3367, 0.153358379921
+season, 7747, 0.12955070633
+edu, 3001, 0.119269504626
+player, 6683, 0.116074276095
+basebal, 924, 0.113356628428
+play, 6681, 0.110935531545
+actual, 254, 0.108156854024
+day, 2402, 0.0997507865051

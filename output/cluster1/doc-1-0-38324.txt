@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38324
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: bbs.mirage@tsoft.net (Jerry Lee)
+Subject: Cobra 2.0 1-b-1 Video card HELP ME!!!!
+Organization: The TSoft BBS and Public Access Unix, +1 415 969 8238
+Lines: 22
+
+Does ANYONE out there in Net-land have any information on the Cobra 2.20 
+card?  The sticker on the end of the card reads
+        Model: Cobra 1-B-1
+        Bios:  Cobra v2.20
+
+I Havn't been able to find anything about it from anyone!  If you have 
+any information on how to get a hold of the company which produces the 
+card or know where any drivers are for it, PLEASE let me know!
+
+As far as I can tell, it's a CGA card that is taking up 2 of my 16-bit 
+ISA slots but when I enable the test patterns, it displays much more than 
+the usualy 4 CGA colors... At least 16 from what I can count.. Thanks!
+
+              .------------------------------------------.
+              : Internet: jele@eis.calstate.edu          :
+              :           bbs.mirage@gilligan.tsoft.net  :
+              :           bbs.mirage@tsoft.sf-bay.org    :
+              :           mirage@thetech.com             :
+              : UUCP    : apple.com!tsoft!bbs.mirage     :
+              `------------------------------------------'
+ 
+                    Computer and Video Imaging Major
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cobra video card help    anyon net land inform
+cobra card sticker end card read model cobra bio
+cobra  havn't abl find anyth anyon inform get hold
+compani produc card know driver pleas let know
+far tell it cga card take bit isa slot enabl test
+pattern display much usuali cga color least count
+thank       uucp appl com tsoft bbs mirag   comput
+video imag major
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cobra, 1866, 0.633722310991
+card, 1513, 0.420661520771
+cga, 1630, 0.289697013551
+video, 9506, 0.177528583553
+mirag, 5753, 0.148421058744
+slot, 8043, 0.139211438005
+inform, 4637, 0.128808360605
+isa, 4774, 0.124441440515
+bio, 1103, 0.116884466567
+enabl, 3083, 0.116115945069
+pattern, 6468, 0.108679926977
+appl, 583, 0.108170942868
+anyon, 554, 0.105309464927
+bbs, 961, 0.100734924776
+driver, 2876, 0.0984652250887
+uucp, 9388, 0.094339253407
+count, 2180, 0.090520222888
+produc, 6895, 0.0868120663203
+hold, 4341, 0.0856639261851
+com, 1917, 0.0856639261851
+display, 2734, 0.0844292005378
+know, 5052, 0.084413666126
+land, 5104, 0.0834091672426
+model, 5807, 0.082171190158
+compani, 1958, 0.0815157850332
+test, 8812, 0.0805107038841
+net, 6010, 0.0788670641196
+color, 1907, 0.0787547727725
+major, 5458, 0.0719231921079
+abl, 180, 0.0716875806146
+comput, 1993, 0.0679337140613
+end, 3091, 0.0675507418753
+anyth, 555, 0.0671751114631
+bit, 1122, 0.0660895842122
+imag, 4512, 0.0656831592568
+far, 3386, 0.065454646038
+tell, 8767, 0.06403093499
+let, 5225, 0.0618820940699
+read, 7135, 0.0596479243764
+pleas, 6688, 0.0576426191465
+help, 4249, 0.0575665227929
+thank, 8832, 0.0548742016956

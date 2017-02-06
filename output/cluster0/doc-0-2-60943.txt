@@ -1,0 +1,222 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60943
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: MAILRP%ESA.BITNET@vm.gmd.de
+Subject: message from Space Digest
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 58
+
+
+
+
+
+Joint Press release ESA/UN No 18-93
+Paris, 19 April 1993
+
+UN/ESA joint training course on satellite applications
+to be held in Italy, 19-30 April
+
+The United Nations and the European Space Agency (ESA)
+are jointly organising a training course on the applications of
+satellite data gathered by the European Remote Sensing
+Satellite (ERS-1), to be held in Frascati, Italy, from 19 to 30
+April. The training course will discuss the applications of
+satellite data concerning natural resources, renewable energy
+and the environment.
+
+The training course, organised for the benefit of francophone
+African experts, will be hosted by ESRIN, the European Space
+Agency's establishment in Frascati, which is responsible for
+coordination with the users of data from ESA's remote sensing
+satellite. Twenty-four experts in the field of remote sensing,
+selected from 19 francophone countries from northern, western
+and central Africa, and three regional African centres, will
+attend the two-week session. The course will focus on remote
+sensing techniques and data applications, particularly ERS-1
+data.
+
+The ERS-1 satellite, developed by ESA and launched in 1991
+with the European Ariane launcher, carries an advanced radar
+instrument and is the first in a series of radar remote sensing
+missions that will ensure availability of data beyond the year
+2000. The aim of the training course is to increase the
+potential of experts using the practical applications of radar
+remote sensing systems to natural resources, renewable energy
+and the environment, with particular emphasis on applications
+to geology and mineral prospecting, oceanography and near-
+coastal areas, agriculture, forestry and meteorology.
+
+The education and practical training programme was
+developed jointly by the United Nations and ESA. The
+facilities and the technical support, as well as lecturers and
+information documents for the training course, will be
+provided by the Agency. Lecturers at the training course will
+include high-level experts from other European and African
+organisations active in remote sensing applications. Funds for
+the training course are being provided by the United Nations
+
+
+
+Trust Fund for New and Renewable Sources of Energy; the
+primary contributor to that Fund is the Government of Italy.
+
+A similar training course is being planned for Latin American
+experts.
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag space digest ad forward space digest
+joint press releas esa pari april  esa joint train
+cours satellit applic held itali april  unit
+nation european space agenc esa joint organis
+train cours applic satellit data gather european
+remot sens satellit er held frascati itali april
+train cours discuss applic satellit data concern
+natur resourc renew energi environ  train cours
+organis benefit francophon african expert host
+esrin european space agenc establish frascati
+respons coordin user data esa remot sens satellit
+twenti four expert field remot sens select
+francophon countri northern western central africa
+three region african centr attend two week session
+cours focus remot sens techniqu data applic
+particular er data  er satellit develop esa launch
+european arian launcher carri advanc radar
+instrument first seri radar remot sens mission
+ensur avail data beyond year aim train cours
+increas potenti expert use practic applic radar
+remot sens system natur resourc renew energi
+environ particular emphasi applic geolog miner
+prospect oceanographi near coastal area agricultur
+forestri meteorolog  educ practic train programm
+develop joint unit nation esa facil technic
+support well lectur inform document train cours
+provid agenc lectur train cours includ high level
+expert european african organis activ remot sens
+applic fund train cours provid unit nation
+trust fund new renew sourc energi primari
+contributor fund govern itali  similar train cours
+plan latin american expert
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+train, 9042, 0.365296538486
+remot, 7271, 0.293293802289
+esa, 3183, 0.276389223595
+cours, 2190, 0.25472509486
+applic, 585, 0.228228324383
+sens, 7788, 0.217115899104
+expert, 3298, 0.205467886589
+european, 3222, 0.202709603716
+satellit, 7632, 0.191101907269
+renew, 7281, 0.180560851839
+joint, 4882, 0.175323619403
+data, 2385, 0.165403990776
+african, 320, 0.156026783195
+organis, 6288, 0.153673885681
+itali, 4795, 0.149602304072
+er, 3163, 0.141823963675
+radar, 7055, 0.134123030189
+agenc, 329, 0.116013440669
+energi, 3102, 0.108677330003
+unit, 9278, 0.101376978947
+fund, 3723, 0.101376978947
+lectur, 5187, 0.0974398872485
+april, 595, 0.0927558263883
+nation, 5962, 0.0879190522643
+space, 8164, 0.084461118968
+held, 4243, 0.0762784188372
+digest, 2640, 0.0750473116463
+resourc, 7320, 0.0707643255643
+environ, 3139, 0.0692489935194
+practic, 6793, 0.0652080926809
+natur, 5966, 0.06305323313
+particular, 6442, 0.0623318781915
+meteorolog, 5662, 0.0563843865213
+develop, 2588, 0.0554481049469
+provid, 6949, 0.0550727594927
+arian, 633, 0.0512246285603
+africa, 319, 0.0512246285603
+agricultur, 340, 0.0505151436589
+latin, 5143, 0.0498674346907
+ensur, 3123, 0.0498674346907
+contributor, 2104, 0.0492716001988
+twenti, 9169, 0.0472746545582
+northern, 6111, 0.0472746545582
+miner, 5736, 0.0472746545582
+pari, 6427, 0.0468491697707
+session, 7814, 0.0457016787042
+emphasi, 3075, 0.0457016787042
+trust, 9130, 0.0441118422378
+aim, 353, 0.0441118422378
+region, 7228, 0.0438309048507
+geolog, 3842, 0.0435601856632
+gather, 3792, 0.0428025196408
+launcher, 5148, 0.0425661836886
+attend, 764, 0.0421148965972
+prospect, 6937, 0.0418991146127
+focus, 3569, 0.0418991146127
+coordin, 2126, 0.0409051126381
+host, 4386, 0.0407213018863
+centr, 1610, 0.040366760727
+primari, 6863, 0.0397046394461
+western, 9709, 0.0395479187686
+establish, 3198, 0.0392440415877
+instrument, 4686, 0.0390966316772
+central, 1611, 0.0390966316772
+techniqu, 8740, 0.0381392094186
+programm, 6906, 0.0377638043015
+educ, 3002, 0.0374064257276
+benefit, 1028, 0.0371773628168
+countri, 2186, 0.0360298717503
+facil, 3348, 0.0359338193567
+press, 6841, 0.0357453546771
+potenti, 6774, 0.0356528819696
+select, 7774, 0.0347863282902
+document, 2788, 0.0342346717157
+forward, 3621, 0.0337923263157
+increas, 4590, 0.0335806355416
+american, 469, 0.0331089148463
+technic, 8737, 0.0330439017062
+releas, 7253, 0.0325432790052
+concern, 2004, 0.032188737846
+user, 9366, 0.0321312552652
+ad, 257, 0.0319614237798
+activ, 252, 0.0317953806751
+carri, 1530, 0.0314740088745
+govern, 3966, 0.0310660187066
+similar, 7961, 0.0308219326682
+messag, 5650, 0.0307740613956
+level, 5229, 0.0305392167702
+plan, 6660, 0.0304017859642
+seri, 7805, 0.0303565338052
+area, 622, 0.0302668464887
+near, 5982, 0.0301343096246
+mission, 5772, 0.0294248247232
+launch, 5147, 0.0292672747741
+respons, 7323, 0.0286684429167
+discuss, 2708, 0.0286325683546
+advanc, 285, 0.0281476741757
+field, 3466, 0.0280147428357
+sourc, 8153, 0.0274748590885
+week, 9691, 0.0274138427041
+avail, 811, 0.0258567990538
+support, 8576, 0.025638200589
+includ, 4579, 0.0256143034346
+high, 4292, 0.0251742525071
+inform, 4637, 0.0244668123681
+new, 6023, 0.0216840038637
+year, 9943, 0.0187080743595
+use, 9363, 0.016440290608

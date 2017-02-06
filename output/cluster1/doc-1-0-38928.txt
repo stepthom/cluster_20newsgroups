@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38928
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lwv26@cas.org (Larry W. Virden)
+Subject: Looking for patches to xv to better support TIFF output
+Reply-To: lvirden@cas.org (Larry W. Virden)
+Organization: Nedriv Software and Shoe Shiners, Uninc.
+Lines: 16
+
+
+Recently we have found TIFF manipulation packages which do not recognize
+TIFF files output by xv.  This is due to a missing XRESOLUTION and YRESOLUTION
+tag which apparently is required (or at least believed to be required) for
+valid TIFF.  I have checked both xv 2.x and xv 3.x and neither of these
+do indeed copy these tags.
+
+Has anyone out there hacked in the fixes for xv to support these tags?
+I have been told that I could find some code in tiff/tools/tiffcp.c, but
+that directory is one of many of the tiff group not distributed with xv.  I
+hope to obtain the original tiff src and look at it, but would prefer
+to find code already known to work in xv.
+-- 
+:s 
+:s Larry W. Virden                 INET: lvirden@cas.org
+:s Personal: 674 Falls Place,   Reynoldsburg, OH 43068-1614
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look patch better support tiff output      recent
+found tiff manipul packag recogn tiff file output
+due miss xresolut yresolut tag appar requir least
+believ requir valid tiff check neither inde copi
+tag  anyon hack fix support tag told could find
+code tiff tool tiffcp directori one mani tiff
+group distribut hope obtain origin tiff src look
+prefer find code alreadi known work    person fall
+place reynoldsburg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiff, 8926, 0.690244379426
+tag, 8673, 0.375018901006
+output, 6329, 0.20024659615
+code, 1871, 0.157885789481
+src, 8282, 0.15044884659
+requir, 7302, 0.147781909342
+support, 8576, 0.13681935533
+hack, 4111, 0.131470002192
+patch, 6459, 0.119292215677
+recogn, 7173, 0.108176848072
+manipul, 5483, 0.102111205595
+valid, 9411, 0.101765762136
+look, 5341, 0.0991377410884
+obtain, 6183, 0.0983163712901
+tool, 8988, 0.0977488327301
+fix, 3511, 0.0977488327301
+inde, 4594, 0.0946470904899
+directori, 2669, 0.0941741515221
+distribut, 2753, 0.0930388426276
+appar, 577, 0.0921751196681
+fall, 3369, 0.0909461195705
+prefer, 6819, 0.0907484811414
+told, 8973, 0.0894174810261
+copi, 2130, 0.087324757969
+packag, 6375, 0.0865139311746
+miss, 5770, 0.0839811980742
+check, 1682, 0.0809994712942
+alreadi, 443, 0.0796050393297
+known, 5054, 0.0793818628441
+recent, 7168, 0.0789428947407
+hope, 4372, 0.0709981806224
+origin, 6293, 0.0706376898155
+group, 4064, 0.0691249349171
+file, 3477, 0.0687316052673
+place, 6657, 0.0680301279332
+person, 6562, 0.0661769428263
+believ, 1009, 0.0613379996375
+better, 1060, 0.0594205152313
+mani, 5479, 0.0563412972741
+work, 9833, 0.0562718479088
+anyon, 554, 0.0533741224708

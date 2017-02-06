@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61286
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jpg@bnr.co.uk (Jonathan P. Gibbons)
+Subject: What planets are habitable
+Organization: BNR Europe Ltd, London Rd, Harlow, Essex, CM19 9NA, U.K.
+Lines: 21
+Distribution: sci
+NNTP-Posting-Host: 128.199.200.40
+
+I would appreciate any thoughts on what makes a planet habitable for Humans.
+I am making asumptions that life and a similar atmosphere evolve given a range
+of physical aspects of the planet.  The question is what physical aspects
+simply disallow earth like conditions.
+
+eg Temperature range of 280K to 315K (where temp is purely dependant on dist
+     from the sun and the suns temperature..)
+   Atmospheric presure ? - I know nothing of human tolerance
+   Planetary Mass ? - again gravity at surface is important, how much
+     can human bodies take day after day.  Also how does the mass effect
+     atmosphere.  I thinking of planets between .3 and 3 times mass of the
+     earth.  I suppose density should be important as well.
+
+Climate etc does not concern me, nor does axial tilt etc etc.  Just the above
+three factors and how they relate to one another.
+
+Jonathan
+--
+ ----------------------------------------------------------------------------
+  With fearsome eyes and fiery breath the dragon burnt the girl to death
+                    -- from "Too Late Saint George"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet habit      appreci thought make planet
+habit human make asumpt life similar atmospher
+evolv given rang physic aspect planet question
+physic aspect simpli disallow earth like condit
+temperatur rang 280k 315k temp pure depend dist
+sun sun temperatur atmospher presur know noth
+human toler planetari mass graviti surfac import
+much human bodi take day day also mass effect
+atmospher think planet time mass earth suppos
+densiti import well  climat etc concern axial tilt
+etc etc three factor relat one anoth  jonathan
+fearsom eye fieri breath dragon burnt girl death
+late saint georg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+planet, 6664, 0.33396164759
+atmospher, 755, 0.266208178093
+mass, 5533, 0.25872163207
+human, 4432, 0.211203569891
+temperatur, 8773, 0.199495949789
+habit, 4109, 0.196920642545
+aspect, 693, 0.181045304062
+rang, 7094, 0.164855851963
+physic, 6613, 0.158552557109
+sun, 8539, 0.150763858782
+import, 4551, 0.138227072683
+presur, 6847, 0.138115141477
+315k, 87, 0.138115141477
+280k, 78, 0.138115141477
+fieri, 3468, 0.134790656902
+dragon, 2856, 0.131979845243
+dist, 2743, 0.131979845243
+burnt, 1415, 0.131979845243
+disallow, 2677, 0.129545009435
+axial, 841, 0.129545009435
+asumpt, 733, 0.129545009435
+earth, 2956, 0.127037993702
+climat, 1818, 0.123738265922
+jonathan, 4888, 0.120692171222
+girl, 3883, 0.118082844295
+tilt, 8934, 0.11475835972
+evolv, 3250, 0.11475835972
+temp, 8771, 0.112837196828
+day, 2402, 0.108141671443
+saint, 7585, 0.107365034862
+densiti, 2531, 0.106062039058
+breath, 1291, 0.106062039058
+toler, 8974, 0.0980505471133
+pure, 6990, 0.0943914809908
+condit, 2017, 0.0937401909471
+planetari, 6665, 0.0931113637122
+graviti, 4010, 0.0928048996462
+georg, 3847, 0.0919152508791
+make, 5459, 0.0914674922966
+factor, 3352, 0.0875592521792
+eye, 3337, 0.0856153107931
+late, 5139, 0.0836736715575
+depend, 2537, 0.081423955945
+death, 2423, 0.081423955945
+surfac, 8587, 0.0797156777125
+bodi, 1194, 0.0789891201364
+concern, 2004, 0.0788472191658
+similar, 7961, 0.07549919142
+simpli, 7967, 0.0746937653554
+suppos, 8577, 0.074139492203
+effect, 3005, 0.0730790665301
+appreci, 587, 0.0704903548489
+relat, 7247, 0.0697031455798
+life, 5260, 0.0671509791472
+noth, 6119, 0.0663501478118
+given, 3887, 0.0654469369892
+thought, 8887, 0.0636413743754
+anoth, 533, 0.0587678660023
+question, 7032, 0.0551944467385
+time, 8936, 0.0433247968721
+think, 8871, 0.0417617370048
+know, 5052, 0.0392761159983
+like, 5272, 0.038394152872

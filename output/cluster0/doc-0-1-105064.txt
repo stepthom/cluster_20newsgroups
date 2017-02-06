@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105064
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Notre Dame - Office of Univ. Computing
+From: <RVESTERM@vma.cc.nd.edu>
+Subject: Re: USA McWeekly Stats
+ <93108.172841RVESTERM@vma.cc.nd.edu>
+ <1993Apr20.033504.13966@mnemosyne.cs.du.edu>
+Lines: 36
+
+In article <1993Apr20.033504.13966@mnemosyne.cs.du.edu>, gspira@nyx.cs.du.edu
+(Greg Spira) says:
+>
+><RVESTERM@vma.cc.nd.edu> writes:
+>
+>>In article <franjion.734996049@spot.Colorado.EDU>, franjion@spot.Colorado.EDU
+>>(John Franjione) says:
+>>>
+>>>Also, I have the impression from reading this group and Bill James
+>>>that Elias is a bunch of money-grubbing jerks whose mission is to
+>>>charge as much as they can for baseball statistical info
+>>>
+>
+>>and bill james is not? yeah.  sure.  do you own "the bill james players
+>>rating book"?
+>
+>Uh, Bill James doesn't sell statistics.  He sells books with statistics,
+>but he is not in the business of providing stats like Elias, STATS,
+>Howe, Baseball workshop etc. are.
+>
+>Greg
+
+funny, it seems to me that the stats major league and minor league handbooks,
+which are nothing BUT collections of statistics, are authored by "bill james
+and stats inc. (and howe, for the minor league handbook)".
+
+and i am not sure how the 1993 bill james player ratings book qualifies
+as a "book with statistics", while the elias analyst is a "statistics book".
+the analyst contains more stats, sure, but it also contains more dialogue.
+
+finally, the point was not about the word "statistics".  it was about
+"money-grubbing".  i don't see how anyone who has looked at the bill
+james player ratings book cannot consider him money-grubbing.
+
+bob vesterman.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  usa mcweek stat     nyx edu greg spira say
+spot colorado edu john franjion say  also impress
+read group bill jame elia bunch money grub jerk
+whose mission charg much basebal statist info
+bill jame yeah sure bill jame player rate book
+bill jame doesn't sell statist sell book statist
+busi provid stat like elia stat howe basebal
+workshop etc  greg  funni seem stat major leagu
+minor leagu handbook noth collect statist author
+bill jame stat inc howe minor leagu handbook  sure
+bill jame player rate book qualifi book statist
+elia analyst statist book analyst contain stat
+sure also contain dialogu  final point word
+statist money grub don't see anyon look bill jame
+player rate book cannot consid money grub  bob
+vesterman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+statist, 8348, 0.421186277075
+jame, 4820, 0.414881279108
+stat, 8341, 0.326136421089
+grub, 4069, 0.265539156825
+book, 1218, 0.257330275724
+elia, 3042, 0.237764976582
+howe, 4404, 0.158509984388
+rate, 7108, 0.15589122155
+analyst, 491, 0.150716866084
+handbook, 4146, 0.147025311714
+money, 5835, 0.144787708104
+leagu, 5176, 0.144170130406
+greg, 4033, 0.125311421704
+player, 6683, 0.123951423675
+sure, 8585, 0.115680915147
+sell, 7778, 0.114113551272
+minor, 5745, 0.110135194661
+contain, 2079, 0.105285204165
+mcweek, 5589, 0.0866672750899
+dialogu, 2611, 0.0866672750899
+edu, 3001, 0.0849089933149
+franjion, 3654, 0.083658073713
+jerk, 4853, 0.0823965026566
+basebal, 924, 0.0806995655391
+nyx, 6164, 0.0802134116041
+workshop, 9839, 0.070955351523
+vesterman, 9488, 0.0705034544803
+funni, 3731, 0.0684691088244
+qualifi, 7015, 0.0646559914769
+bunch, 1399, 0.0628882201081
+say, 7653, 0.0607999735395
+colorado, 1908, 0.0599838233428
+yeah, 9942, 0.059801012915
+spot, 8261, 0.0584310804816
+collect, 1898, 0.0578007322904
+impress, 4554, 0.057648197101
+usa, 9357, 0.0574975806442
+charg, 1664, 0.0569133745156
+busi, 1424, 0.0551904071296
+bob, 1189, 0.0526426020823
+author, 796, 0.0491233363025
+mission, 5772, 0.0473307999808
+info, 4636, 0.0471402306994
+final, 3482, 0.0470148489209
+john, 4878, 0.0452764612489
+provid, 6949, 0.0442931740198
+major, 5458, 0.0439503409771
+noth, 6119, 0.043570186812
+word, 9829, 0.0428883792873
+consid, 2059, 0.0419947111828
+group, 4064, 0.0416710739021
+doesn, 2793, 0.0388405900286
+read, 7135, 0.03644925285
+point, 6710, 0.0337980277279
+anyon, 554, 0.0321759001235
+look, 5341, 0.0298819531645
+don, 2811, 0.0271594739413
+like, 5272, 0.0252123087633

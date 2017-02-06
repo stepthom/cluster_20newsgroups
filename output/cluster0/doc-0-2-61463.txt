@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61463
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Deployable Space Dock..
+Organization: U of Toronto Zoology
+Lines: 19
+
+In article <1993Apr30.000050.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Why not build a inflatable space dock.
+
+If you're doing large-scale satellite servicing, being able to do it in
+a pressurized hangar makes considerable sense.  The question is whether
+anyone is going to be doing large-scale satellite servicing in the near
+future, to the point of justifying development of such a thing.
+
+>...inflate the dock with a gas (is does not have to be oxygen, just neeeds to
+>be non-flameble, non-damaging to the satellite and abel to maintain heat)...
+
+You'd almost certainly use air.  Given that you have to pressurize with
+*something*, safety considerations strongly suggest making it breathable
+(even if the servicing crew is using oxygen masks for normal breathing,
+to avoid needing a ventilation system, it's nice if the hangar atmosphere
+is breathable in a pinch -- it makes mask functioning much less critical).
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ deploy space dock     build inflat space dock
+you'r larg scale satellit servic abl pressur
+hangar make consider sens question whether anyon
+go larg scale satellit servic near futur point
+justifi develop thing  inflat dock gas oxygen
+neeed non flamebl non damag satellit abel maintain
+heat  you'd almost certain use air given pressur
+someth safeti consider strong suggest make
+breathabl even servic crew use oxygen mask normal
+breath avoid need ventil system it nice hangar
+atmospher breathabl pinch make mask function much
+less critic  svr4 resembl high speed collis henri
+spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dock, 2784, 0.356487334538
+hangar, 4153, 0.277976020075
+breathabl, 1292, 0.27128503036
+satellit, 7632, 0.235533943387
+mask, 5530, 0.233064880817
+servic, 7813, 0.226526428223
+oxygen, 6363, 0.21747216029
+inflat, 4632, 0.199872384355
+pressur, 6842, 0.181653726292
+consider, 2060, 0.173146875852
+scale, 7659, 0.171096127827
+non, 6097, 0.145459519879
+make, 5459, 0.138068331264
+larg, 5124, 0.135907431995
+abel, 172, 0.13564251518
+breath, 1291, 0.106732336451
+space, 8164, 0.104098701566
+deploy, 2540, 0.10381359153
+svr4, 8616, 0.102262012486
+heat, 4226, 0.101296030499
+collis, 1903, 0.101296030499
+crew, 2227, 0.100831463401
+damag, 2344, 0.0995044211928
+resembl, 7308, 0.0978722863959
+pinch, 6632, 0.0978722863959
+justifi, 4939, 0.0967369086128
+gas, 3780, 0.0967369086128
+safeti, 7579, 0.0960172312665
+avoid, 827, 0.093088110648
+zoolog, 9993, 0.0922071693115
+critic, 2237, 0.0900459188974
+atmospher, 755, 0.0892968589664
+spencer, 8221, 0.0885771816201
+maintain, 5454, 0.0878846684834
+air, 357, 0.0863637279839
+function, 3722, 0.0859513641087
+normal, 6108, 0.0840180597341
+henri, 4258, 0.0834756728511
+strong, 8456, 0.0812946386936
+use, 9363, 0.0810509226762
+futur, 3737, 0.0774549410603
+toronto, 9003, 0.0765780100877
+sens, 7788, 0.0764560865813
+speed, 8217, 0.0746080435227
+nice, 6047, 0.0742813389837
+near, 5982, 0.0742813389837
+build, 1378, 0.0740667234354
+suggest, 8525, 0.0699721686467
+develop, 2588, 0.0683400338498
+abl, 180, 0.067131404791
+given, 3887, 0.0658605525642
+certain, 1619, 0.0649295852244
+high, 4292, 0.0620547544456
+question, 7032, 0.0555432679954
+someth, 8126, 0.0540148189173
+point, 6710, 0.0517940503835
+thing, 8869, 0.0501289051476
+need, 5993, 0.0493359055669
+anyon, 554, 0.0493082083236

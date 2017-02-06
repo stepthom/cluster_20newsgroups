@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61496
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: palmer@cco.caltech.edu (David M. Palmer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: California Institute of Technology, Pasadena
+Lines: 30
+NNTP-Posting-Host: alumni.caltech.edu
+
+prb@access.digex.net (Pat) writes:
+
+>In article <C6A2At.E9z@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>>
+>>No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+>>dictated a rather odd design for the solar arrays, since they had to be
+>>retractable as well as extendable, and may thus have indirectly contributed
+>>to the array-flapping problems.
+
+
+>Why not design the solar arrays to be detachable.  if the shuttle is going
+>to retunr the HST,  what bother are some arrays.  just fit them with a quick
+> release.  one  space walk,  or use the second canadarm to remove the arrays.
+
+You may want to put Hubble back in the payload bay for a reboost,
+and you don't want to clip off the panels each time.
+
+For the Gamma-Ray Observatory, one of the design requirements was that
+there be no stored-energy mecahnisms (springs, explosive squibs, gas shocks,
+etc.) used for deployment.  This was partially so that everything could
+be reeled back in to put it back in the payload bay, and partially for
+safety considerations.  (I've heard that the wings on a cruise missile
+would cut you in half if you were standing in their swath when they opened.)
+
+Back when the shuttle would be going up every other day with a cost to
+orbit of $3.95 per pound :-), everybody designed things for easy servicing.
+
+-- 
+		David M. Palmer		palmer@alumni.caltech.edu
+					palmer@tgrs.gsfc.nasa.gov
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day         thing
+design retriev pinch inde dictat rather odd design
+solar array sinc retract well extend thus indirect
+contribut array flap problem   design solar array
+detach shuttl go retunr hst bother array fit quick
+releas one space walk use second canadarm remov
+array  want put hubbl back payload bay reboost
+don't want clip panel time  gamma ray observatori
+one design requir store energi mecahn spring
+explos squib gas shock etc use deploy partial
+everyth could reel back put back payload bay
+partial safeti consider i'v heard wing cruis
+missil cut half stand swath open  back shuttl go
+everi day cost orbit per pound everybodi design
+thing easi servic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+array, 653, 0.443731084745
+design, 2564, 0.333070164886
+partial, 6439, 0.193983690049
+bay, 956, 0.190170062811
+hst, 4416, 0.176267757118
+payload, 6477, 0.17021754149
+solar, 8107, 0.152202154214
+servic, 7813, 0.141094025014
+shuttl, 7929, 0.138002986885
+retunr, 7345, 0.126729242454
+flap, 3522, 0.126729242454
+reel, 7209, 0.124086536792
+detach, 2578, 0.124086536792
+canadarm, 1482, 0.121797321022
+reboost, 7160, 0.114846168175
+retract, 7341, 0.113473943823
+shock, 7895, 0.112203462513
+dictat, 2623, 0.112203462513
+indirect, 4602, 0.107895015329
+hubbl, 4420, 0.106088751279
+cruis, 2255, 0.103692721129
+missil, 5771, 0.102963093896
+day, 2402, 0.101674050818
+explos, 3308, 0.0997187948475
+retriev, 7343, 0.099137598432
+panel, 6406, 0.0975036338456
+deploy, 2540, 0.0969918450243
+clip, 1821, 0.0960119410495
+wing, 9779, 0.0955422225617
+thing, 8869, 0.0936697194975
+want, 9634, 0.0934003755778
+pinch, 6632, 0.0914409519447
+observatori, 6180, 0.0903801815354
+gas, 3780, 0.0903801815354
+pound, 6776, 0.0900406921777
+safeti, 7579, 0.0897077952648
+bother, 1245, 0.0897077952648
+everybodi, 3239, 0.0881338785589
+odd, 6198, 0.0872545241529
+store, 8417, 0.0869711515469
+extend, 3319, 0.0866923868303
+spring, 8266, 0.0853627554251
+gamma, 3762, 0.0838923988512
+energi, 3102, 0.0834290286888
+remov, 7272, 0.0818992811549
+inde, 4594, 0.0816914767641
+consider, 2060, 0.0808845677218
+contribut, 2103, 0.0781576178986
+schedul, 7678, 0.0779903614272
+half, 4124, 0.0776606656444
+fit, 3510, 0.0773371909095
+use, 9363, 0.0757249452161
+easi, 2959, 0.0756595852669
+cut, 2313, 0.0753714498738
+releas, 7253, 0.0749481283083
+stand, 8311, 0.0742650239053
+everyth, 3242, 0.0738678558954
+quick, 7036, 0.0731001013817
+walk, 9617, 0.0728516383033
+ray, 7118, 0.071660628097
+open, 6258, 0.0680434982917
+mission, 5772, 0.0677662364156
+heard, 4224, 0.0651366325139
+cost, 2169, 0.0651366325139
+requir, 7302, 0.0637765109878
+orbit, 6280, 0.0620503405961
+second, 7753, 0.0596628801306
+everi, 3235, 0.0587179340279
+problem, 6887, 0.0539353839764
+sinc, 7977, 0.0522605524999
+space, 8164, 0.0486291100265
+time, 8936, 0.0407336740787
+don, 2811, 0.0388857854246

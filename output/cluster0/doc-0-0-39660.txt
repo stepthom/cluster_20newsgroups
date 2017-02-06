@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39660
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nagle@netcom.com (John Nagle)
+Subject: Oriented bounding box generation?
+Summary: Want bounding box generator
+Keywords: bounding box oriented 3D
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 12
+
+       I'm looking for code that will generate a minimum-volume oriented
+bounding box for an arbitrary polyhedron.  Anyone know of such code?
+
+       Why?  I'm converting objects from
+one modelling system into another, and the destination system is object
+oriented.  So I want to represent each object in its own coordinate system,
+that of its bounding box, with the objects then translated and rotated
+appropriately, this being the representation used in the destination
+system.
+
+					John Nagle
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orient bound box generat want bound box generat
+i'm look code generat minimum volum orient bound
+box arbitrari polyhedron anyon know code  i'm
+convert object one model system anoth destin
+system object orient want repres object coordin
+system bound box object translat rotat appropri
+represent use destin system  john nagl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bound, 1250, 0.503675786649
+box, 1254, 0.365464607131
+orient, 6290, 0.333182610695
+object, 6173, 0.329546075536
+destin, 2572, 0.303625207302
+generat, 3819, 0.290731664098
+code, 1871, 0.177827644669
+represent, 7295, 0.144874052545
+arbitrari, 604, 0.131724534541
+coordin, 2126, 0.1229316835
+want, 9634, 0.121880822632
+minimum, 5740, 0.119323914667
+appropri, 590, 0.11749667563
+volum, 9577, 0.113127376174
+translat, 9057, 0.112769428658
+repres, 7294, 0.106872715429
+rotat, 7490, 0.10381735102
+model, 5807, 0.0938143227756
+convert, 2115, 0.0899138208755
+john, 4878, 0.0845918945057
+anoth, 533, 0.0721014043825
+anyon, 554, 0.0601155716193
+look, 5341, 0.0558296951658
+use, 9363, 0.0494078238959
+know, 5052, 0.04818727163

@@ -1,0 +1,189 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38972
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bill@solaria (Bill Neisius)
+Subject: Re: RGB to HVS, and back
+Reply-To: bill@solaria.hac.com
+Lines: 83
+X-Newsreader: TIN [version 1.1 PL6]
+
+Remco Hartog (remcoha@htsa.aha.nl) wrote:
+: I have a little question:
+: 
+: I need to convert RGB-coded (Red-Green-Blue) colors into HVS-coded
+: (Hue-Value-Saturnation) colors. Does anyone know which formulas to
+: use?
+
+Lets see if I have this right... HSV == HSB == HSL ... and none of those
+are the same as HLS.  Hopefully, HVS is just a transposition of HSV, and
+not yet another color model... 
+
+The following code should do the HSV (HSL) coding (I haven't tried it yet)
+(Thanks to bultman@dgw.rws.nl)
+
+Another possibility is /mirrors/msdos/graphics/graphgem.zip on
+wuarchive.wustl.edu.
+
+Bill Neisius
+bill@solaria.hac.com
+
+----------------
+
+The following code is from the starbase (HP) manual:
+(all coordinates noralised at 0-1 interval)
+
+     hsl_to_rgb(hue, saturation, luminosity, red, green, blue)
+     float   hue, saturation, luminosity;    /* input in HSL */
+     float   *red, *green, *blue;            /* output in RGB */
+     {
+         float       frac, lx, ly, lz;       /* temporaries */
+
+         hue = 6 * hue;
+         frac = hue - (int) hue;
+         lx = luminosity * (1 - saturation);
+         ly = luminosity * (1 - saturation * frac);
+         lz = luminosity * (1 - saturation * (1 - frac));
+ 
+         switch ((int) hue) {
+             case 0: case 6:
+                 *red = luminosity; *green = lz; *blue = lx; break;
+             case 1:
+                 *red = ly; *green = luminosity; *blue = lx; break;
+             case 2:
+                 *red = lx; *green = luminosity; *blue = lz; break;
+             case 3:
+                 *red = lx; *green = ly; *blue = luminosity; break;
+             case 4:
+                 *red = lz; *green = lx; *blue = luminosity; break;
+             case 5:
+                 *red = luminosity; *green = lx; *blue = ly; break;
+         }
+     }
+     /******************************************************************************/
+     rgb_to_hsl(red, green, blue, hue, saturation, luminosity)
+     #define max(a, b, c)    ((a>b?a:b)>c?(a>b?a:b):c)
+     #define min(a, b, c)    ((a<b?a:b)<c?(a<b?a:b):c)
+     float   red, green, blue;               /* input in RGB */
+     float   *hue, *saturation, *luminosity; /* output in HSL */
+     {
+         float       x, tempr, tempg, tempb; /* temporary values */
+
+         *hue = 0.0;
+         *saturation = 1.0;
+         *luminosity = max(red, green, blue);
+         x = min(red, green, blue);
+         if (*luminosity != 0.0) {           /* calculate only if necessary */
+             *saturation = (*luminosity - x) / *luminosity;
+             if (*saturation != 0.0) {       /* calculate only if necessary */
+                 tempr = (*luminosity - red  ) / (*luminosity - x);
+                 tempg = (*luminosity - green) / (*luminosity - x);
+                 tempb = (*luminosity - blue ) / (*luminosity - x);
+                 if (red == *luminosity)
+                     *hue = (green == x ? 5 + tempb : 1 - tempg);
+                 else if (green == *luminosity)
+                     *hue = (blue == x ? 1 + tempr : 3 - tempb);
+                 else
+                     *hue = (red == x ? 3 + tempg : 5 - tempr);
+                 *hue /= 6;
+             }
+         }
+     }
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+bill solaria bill neisius rgb hvs back      littl
+question  need convert rgb code red green blue
+color hvs code hue valu saturn color anyon know
+formula use  let see right hsv hsb hsl none hls
+hope hvs transposit hsv yet anoth color model
+follow code hsv hsl code haven't tri yet   anoth
+possibl mirror msdos graphic graphgem zip wuarchiv
+wustl edu  bill neisius     follow code starbas
+manual coordin noralis interv  hsl rgb hue satur
+luminos red green blue float hue satur luminos
+input hsl float red green blue output rgb  float
+frac temporari  hue hue frac hue int hue luminos
+satur luminos satur frac luminos satur frac
+switch int hue case case red luminos green blue
+break case red green luminos blue break case red
+green luminos blue break case red green blue
+luminos break case red green blue luminos break
+case red luminos green blue break    rgb hsl red
+green blue hue satur luminos defin max defin min
+float red green blue input rgb float hue satur
+luminos output hsl  float tempr tempg tempb
+temporari valu  hue satur luminos max red green
+blue min red green blue luminos calcul necessari
+satur luminos luminos satur calcul necessari tempr
+luminos red luminos tempg luminos green luminos
+tempb luminos blue luminos red luminos hue green
+tempb tempg els green luminos hue blue tempr tempb
+els hue red tempg tempr hue
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+luminos, 5390, 0.675257796429
+hue, 4424, 0.391087176448
+green, 4025, 0.329608459148
+blue, 1176, 0.25800570744
+satur, 7638, 0.247002349292
+red, 7194, 0.238959354025
+float, 3546, 0.129477581677
+rgb, 7374, 0.12194387389
+break, 1284, 0.102520292774
+case, 1540, 0.0908221360961
+hvs, 4455, 0.0810309355715
+hsv, 4417, 0.0795360328978
+code, 1871, 0.0741579072629
+int, 4691, 0.0506472658011
+min, 5732, 0.0461853530712
+color, 1907, 0.0449951691318
+max, 5557, 0.0445199374965
+temporari, 8778, 0.0431591938922
+input, 4662, 0.039651356181
+output, 6329, 0.0376217987845
+necessari, 5990, 0.036729582296
+calcul, 1451, 0.0359327273203
+defin, 2482, 0.0327507498125
+valu, 9414, 0.0305269497183
+hls, 4324, 0.0290986376089
+starbas, 8325, 0.0265120109659
+els, 3053, 0.0258018724822
+interv, 4724, 0.0247002349292
+follow, 3578, 0.0245308052112
+anoth, 533, 0.0240542544201
+wustl, 9878, 0.0225711250182
+wuarchiv, 9876, 0.0215795969461
+formula, 3614, 0.0214572347239
+saturn, 7640, 0.02133875768
+msdos, 5903, 0.0210043507839
+switch, 8638, 0.0205060498926
+coordin, 2126, 0.0205060498926
+manual, 5492, 0.0203239789817
+zip, 9988, 0.0202361699085
+mirror, 5755, 0.0197487328195
+haven, 4207, 0.0159392706786
+model, 5807, 0.015649026587
+convert, 2115, 0.0149983897106
+hope, 4372, 0.0133389496591
+edu, 3001, 0.0132311670497
+littl, 5308, 0.0125419523206
+graphic, 3997, 0.0122859630622
+possibl, 6765, 0.0122347727748
+let, 5225, 0.0117850859103
+right, 7399, 0.0113515674181
+question, 7032, 0.0112958097234
+tri, 9087, 0.0108074046572
+need, 5993, 0.0100334211855
+anyon, 554, 0.0100277884094
+use, 9363, 0.00824164505887
+know, 5052, 0.00803804656459

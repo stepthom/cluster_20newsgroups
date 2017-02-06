@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39069
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: aad@scr.siemens.com (Anthony A. Datri)
+Subject: Re: Oh make up your mind!! (was: Re: XV problems)
+Nntp-Posting-Host: lovecraft.siemens.com
+Organization: Siemens Weyland-Yutani
+Lines: 11
+
+>    a) XV can Load a 24 bit image, and display it in all it's
+>24 bit glory on 24 bit X displays.
+>    b) All other operations (Crop, Dither, Smooth, etc.) are not
+>supported on 24 bit images.
+
+>how hard would this be?
+
+Not very -- you just type "xloadimage" or "getx11" instead of "xv".
+-- 
+
+======================================================================8--<
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ make mind problem     load bit imag display it
+bit glori bit display oper crop dither smooth etc
+support bit imag  hard  type xloadimag getx11
+instead
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bit, 1122, 0.522333487733
+display, 2734, 0.333639553866
+getx11, 3860, 0.275061482123
+imag, 4512, 0.259560671087
+crop, 2240, 0.243665152739
+xloadimag, 9903, 0.237696987512
+dither, 2757, 0.237696987512
+glori, 3907, 0.234174884307
+smooth, 8069, 0.223887804182
+load, 5317, 0.180083944556
+instead, 4682, 0.166233153014
+oper, 6261, 0.162095792672
+type, 9177, 0.1512202529
+mind, 5733, 0.150827189241
+hard, 4167, 0.146572420322
+support, 8576, 0.133345715475
+problem, 6887, 0.121805196789
+make, 5459, 0.0971059560959

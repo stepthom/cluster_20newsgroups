@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104440
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: davewood@bruno.cs.colorado.edu (David Rex Wood)
+Subject: Baseball spreads?
+Nntp-Posting-Host: bruno.cs.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 8
+
+How does one read the betting spreads for baseball?  They tend to be something
+like 8-9 which means it must not be runs!
+
+Thanks.
+-- 
+-------------------------------------------------------------------------------
+David Rex Wood -- davewood@cs.colorado.edu -- University of Colorado at Boulder
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal spread     one read bet spread basebal
+tend someth like mean must run  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spread, 8265, 0.678726158336
+basebal, 924, 0.41431616528
+tend, 8783, 0.30518661205
+bet, 1054, 0.299988494815
+mean, 5595, 0.189979714737
+read, 7135, 0.1871325399
+run, 7543, 0.185176666656
+someth, 8126, 0.180961042384
+thank, 8832, 0.172156011221
+like, 5272, 0.12944142902

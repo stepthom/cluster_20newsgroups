@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38670
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Looking for Tseng VESA drivers
+From: t890449@patan.fi.upm.es ()
+Organization: /usr/local/lib/organization
+Nntp-Posting-Host: patan.fi.upm.es
+Lines: 10
+
+Hi, this is my first msg to the Net (actually the 3rd copy of it, dam*ed VI!!).
+
+  Look for the new VPIC6.0, it comes with updated VESA 1.2 drivers for almost every known card. The VESA level is 1.2, and my Tseng4000 24-bit has a nice affair with the driver. 
+
+  Hope it is useful!!
+
+
+							Bye
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+look tseng vesa driver      first msg net actual
+3rd copi dam  look new vpic6 come updat vesa
+driver almost everi known card vesa level
+tseng4000 bit nice affair driver  hope use   bye
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vesa, 9484, 0.543260234485
+driver, 2876, 0.494515808513
+tseng, 9133, 0.233050997639
+dam, 2343, 0.222604687321
+bye, 1435, 0.222604687321
+affair, 309, 0.212430604523
+3rd, 102, 0.174966123204
+look, 5341, 0.163727536934
+copi, 2130, 0.144218209721
+updat, 9333, 0.142101137904
+card, 1513, 0.140844155465
+level, 5229, 0.134576926992
+nice, 6047, 0.132792625849
+net, 6010, 0.132029725699
+known, 5054, 0.131100393634
+hope, 4372, 0.117254610731
+everi, 3235, 0.112352825084
+bit, 1122, 0.110639210075
+actual, 254, 0.105470518068
+new, 6023, 0.0955547297369
+come, 1923, 0.0951235073856
+use, 9363, 0.0724472996645

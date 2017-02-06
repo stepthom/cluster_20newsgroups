@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61518
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: matthew@phantom.gatech.edu (Matthew DeLuca)
+Subject: Re: Mothership for Flybys and cutting costs..
+Organization: The Dorsai Grey Captains
+Lines: 16
+NNTP-Posting-Host: oit.gatech.edu
+
+In article <1993May1.051312.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Getting wierd again?
+
+Or perhaps even weird?
+
+>Okay we have figure out that a mission specifically to Pluto is to large and to
+>expensive..
+
+Hmmm, you might want to read this group more carefully; there's been a good 
+amount of discussion of the proposed Pluto Fast Flyby (PFF) mission that is 
+specifically designed to be small and cheap.
+-- 
+Matthew DeLuca
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp:	  ...!{decvax,hplabs,ncar,purdue,rutgers}!gatech!prism!matthew
+Internet: matthew@phantom.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mothership flybi cut cost      get wierd  perhap
+even weird  okay figur mission specif pluto larg
+expens  hmmm might want read group care there good
+amount discuss propos pluto fast flybi pff mission
+specif design small cheap  matthew deluca georgia
+institut technolog atlanta georgia uucp decvax
+hplab ncar purdu rutger gatech prism matthew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+flybi, 3564, 0.296603100853
+georgia, 3848, 0.295006980089
+pluto, 6701, 0.287689256905
+matthew, 5554, 0.268510540827
+specif, 8203, 0.20587239833
+mission, 5772, 0.205033514839
+deluca, 2510, 0.196444482835
+mothership, 5878, 0.184254978201
+wierd, 9754, 0.171663373793
+decvax, 2460, 0.171663373793
+hplab, 4409, 0.167952065437
+ncar, 5974, 0.166278264314
+rutger, 7554, 0.163223571181
+purdu, 6989, 0.16049105506
+prism, 6876, 0.16049105506
+weird, 9697, 0.159225686252
+hmmm, 4328, 0.153686659905
+gatech, 3789, 0.149975351549
+cheap, 1677, 0.131569951605
+okay, 6215, 0.129136770071
+atlanta, 749, 0.125194242508
+uucp, 9388, 0.124863856945
+expens, 3294, 0.122362168046
+institut, 4683, 0.119274373548
+fast, 3397, 0.114457814976
+cut, 2313, 0.114021923775
+figur, 3476, 0.110209953018
+propos, 6933, 0.108935700868
+technolog, 8743, 0.103077534207
+care, 1516, 0.102103991424
+small, 8054, 0.101034358759
+design, 2564, 0.100773704143
+perhap, 6540, 0.100387569229
+discuss, 2708, 0.0997565182432
+cost, 2169, 0.0985386928323
+larg, 5124, 0.0960452098872
+group, 4064, 0.0902580006331
+read, 7135, 0.0789477298939
+want, 9634, 0.0706480406207
+good, 3948, 0.0666675558372

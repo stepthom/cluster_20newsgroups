@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38798
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dfr@usna.navy.mil (PROF D. Rogers (EAS FAC))
+Subject: Re: Newsgroup Split
+Organization: U. S. Naval Academy
+Lines: 23
+
+In article <C5r9BM.2LH@mach1.wlu.ca> mart4678@mach1.wlu.ca (Phil Martin u) writes:
+!Chris Herringshaw (tdawson@engin.umich.edu) wrote:
+!: Concerning the proposed newsgroup split, I personally am not in favor of
+!: doing this.  I learn an awful lot about all aspects of graphics by reading
+!: this group, from code to hardware to algorithms.  I just think making 5
+!: different groups out of this is a wate, and will only result in a few posts
+!: a week per group.  I kind of like the convenience of having one big forum
+!: for discussing all aspects of graphics.  Anyone else feel this way?
+!: Just curious.
+!
+!Yes. I also like knowing where to go to ask a question without getting
+!hell for putting it in the wrong newsgroup.
+
+I am also against splitting the group. The traffic will decrease
+on any given subject but the required net bandwidth will INCREASE
+because of multiply cross-postings.
+
+I just went through this with another group I continuously read.
+It is now almost at the point where it is no longer worth reading.
+
+Strongly suggest NOT doing this.
+
+Dave Rogers
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ newsgroup split      concern propos newsgroup
+split person favor learn aw lot aspect graphic
+read group code hardwar algorithm think make
+differ group wate result post week per group kind
+like conveni one big forum discuss aspect graphic
+anyon els feel way curious  yes also like know ask
+question without get hell put wrong newsgroup
+also split group traffic decreas given requir net
+bandwidth increas multipli cross post  went anoth
+group continu read almost point longer worth read
+strong suggest  dave roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+group, 4064, 0.395427927002
+split, 8247, 0.352910210039
+newsgroup, 6032, 0.301449821374
+aspect, 693, 0.225630306226
+read, 7135, 0.207526005149
+multipli, 5920, 0.152233288458
+graphic, 3997, 0.14963300076
+wate, 9656, 0.148730274123
+traffic, 9038, 0.141790594734
+bandwidth, 893, 0.141790594734
+decreas, 2456, 0.136481787966
+post, 6766, 0.132737067897
+conveni, 2112, 0.129245050599
+forum, 3620, 0.126039094242
+favor, 3410, 0.12026172218
+aw, 829, 0.119802623502
+cross, 2241, 0.115283814961
+curious, 2297, 0.11028759375
+roger, 7458, 0.109121973555
+hell, 4245, 0.104279512989
+worth, 9850, 0.102942385477
+increas, 4590, 0.102513606499
+went, 9704, 0.101475772648
+longer, 5337, 0.101475772648
+hardwar, 4173, 0.101475772648
+strong, 8456, 0.100678336033
+algorithm, 407, 0.0987991989042
+dave, 2395, 0.0982644774887
+concern, 2004, 0.0982644774887
+learn, 5182, 0.0965678232425
+continu, 2092, 0.0959231101682
+like, 5272, 0.0956985271137
+propos, 6933, 0.0954513019755
+net, 6010, 0.0914642989153
+code, 1871, 0.0903182773517
+feel, 3429, 0.0893459531393
+result, 7332, 0.0881862825742
+discuss, 2708, 0.0874083470433
+suggest, 8525, 0.0866561635698
+requir, 7302, 0.0845383711819
+week, 9691, 0.0836878706512
+wrong, 9869, 0.0834112999557
+yes, 9951, 0.0827787649583
+given, 3887, 0.0815641836773
+kind, 5021, 0.0810628851512
+ask, 689, 0.0787099634327
+els, 3053, 0.0785614360305
+big, 1082, 0.0774069217793
+person, 6562, 0.0757127984235
+anoth, 533, 0.0732402956875
+lot, 5356, 0.0709046630779
+differ, 2633, 0.0699727716644
+question, 7032, 0.0687868706901
+point, 6710, 0.0641436986845
+anyon, 554, 0.0610651384467
+way, 9666, 0.0594448072526
+make, 5459, 0.0569963369211
+think, 8871, 0.0520461635707
+know, 5052, 0.0489484227496

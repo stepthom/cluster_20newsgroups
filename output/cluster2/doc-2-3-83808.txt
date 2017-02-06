@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83808
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: clavazzi@nyx.cs.du.edu (The_Doge)
+Subject: Re: Davidians and compassion
+X-Disclaimer: Nyx is a public access Unix system run by the University
+	of Denver for the Denver community.  The University has neither
+	control over nor responsibility for the opinions of users.
+Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
+Lines: 24
+
+In article <C5sLAs.B68@blaze.cs.jhu.edu> arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee) writes:
+>In article <sandvik-190493200420@sandvik-kent.apple.com> sandvik@newton.apple.com (Kent Sandvik) writes:
+>>So we have this highly Christian religious order that put fire
+>>on their house, killing most of the people inside.
+>
+>We have no way to know that the cultists burned the house; it could have been
+>the BATF and FBI.  We only have the government's word for it, after all, and
+>people who started it by a no-knock search with concussion grenades are hardly
+>disinterested observers.
+>--
+	Nor, to point out the obvious, are the deluded, siege-mentality
+followers of a religious nut-case who thought he was Jesus Christ or possibly
+The Big Guy.
+	Personally, much as I regard the BATF and FBI as ConDupes, I'll take
+their word over a bunch of silly pinks who were stoopid enough to lock
+themselves up with a goofball like "David Koresh" in a makeshift arsenal.
+	************************************************************
+	*  	The_Doge of South St. Louis			   *
+	*		Dobbs-Approved Media Conspirator(tm)	   *
+	*	"One Step Beyond"  -- Sundays, 3 to 5 pm	   *
+	*		88.1 FM		St. Louis Community Radio  *
+	*  "You'll pay to know what you *really* think!"           *
+	*			-- J.R. "Bob" Dobbs"		   *
+	************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass disclaim nyx public access unix
+system run univers denver denver communiti univers
+neither control respons opinion user      high
+christian religi order put fire hous kill peopl
+insid  way know cultist burn hous could batf fbi
+govern word peopl start knock search concuss
+grenad hard disinterest observ  point obvious
+delud sieg mental follow religi nut case thought
+jesus christ possibl big guy person much regard
+batf fbi condup i'll take word bunch silli pink
+stoopid enough lock goofbal like david koresh
+makeshift arsenal  doge south loui dobb approv
+media conspir one step beyond sunday loui
+communiti radio you'll pay know realli think bob
+dobb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dobb, 2782, 0.254705172178
+batf, 945, 0.236250779277
+denver, 2533, 0.223830175945
+fbi, 3414, 0.204439462461
+loui, 5363, 0.202868596295
+communiti, 1953, 0.191606412765
+religi, 7260, 0.18883680935
+hous, 4396, 0.186756255238
+concuss, 2014, 0.14573704547
+sieg, 7937, 0.142229098733
+doge, 2796, 0.142229098733
+disinterest, 2719, 0.142229098733
+arsenal, 659, 0.142229098733
+cultist, 2290, 0.139263172028
+conspir, 2065, 0.139263172028
+word, 9829, 0.137832226443
+pink, 6634, 0.134427772178
+grenad, 4037, 0.134427772178
+nyx, 6164, 0.128892642899
+univers, 9282, 0.127878477839
+ll, 5314, 0.121899667892
+compass, 1963, 0.119064133801
+nut, 6160, 0.11723032413
+mental, 5631, 0.116375052717
+lock, 5324, 0.115556187065
+approv, 591, 0.114770753982
+silli, 7956, 0.108296880541
+peopl, 6530, 0.104404631593
+south, 8154, 0.10346148069
+knock, 5050, 0.101823007099
+davidian, 2398, 0.101434298148
+bunch, 1399, 0.101053286911
+sunday, 8541, 0.0966846019519
+disclaim, 2691, 0.0944184046751
+search, 7746, 0.0941530151062
+media, 5605, 0.0936329715921
+koresh, 5065, 0.0923912221327
+insid, 4671, 0.0901250248558
+burn, 1413, 0.0901250248558
+step, 8377, 0.0888832753964
+christ, 1729, 0.0888832753964
+unix, 9284, 0.0880978423134
+pay, 6474, 0.0871590981508
+radio, 7061, 0.0859173486913
+bob, 1189, 0.0845898955771
+user, 9366, 0.0830498387671
+know, 5052, 0.0828871482429
+kill, 5012, 0.0823236983002
+access, 209, 0.0821817017982
+obvious, 6185, 0.0813510502721
+govern, 3966, 0.0802965157578
+control, 2107, 0.0802965157578
+observ, 6179, 0.0800416717845
+regard, 7224, 0.0788157515639
+jesus, 4859, 0.0782308907677
+david, 2397, 0.0776632850429
+respons, 7323, 0.0740994879374
+public, 6973, 0.0739144822937
+hard, 4167, 0.0728403184327
+guy, 4100, 0.072240345229
+opinion, 6266, 0.072072305395
+christian, 1732, 0.0682875130378
+order, 6281, 0.0680145944378
+thought, 8887, 0.0671534327944
+case, 1540, 0.0668960317823
+big, 1082, 0.0655387716308
+high, 4292, 0.0650680340542
+person, 6562, 0.064104393914
+follow, 3578, 0.0632395094915
+possibl, 6765, 0.0630815843475
+start, 8334, 0.0609029631831
+run, 7543, 0.0579571099684
+realli, 7150, 0.0570931083779
+point, 6710, 0.0543090866166
+way, 9666, 0.0503306365582
+think, 8871, 0.0440663644815
+like, 5272, 0.0405129397329

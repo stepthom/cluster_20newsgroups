@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38757
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: r0506048@cml3 (Chun-Hung Lin)
+Subject: Re: JPEG file format?
+Nntp-Posting-Host: cml3.csie.ntu.edu.tw
+Reply-To: r0506048@csie.ntu.edu.tw
+Organization: Communication & Multimedia Lab, NTU, Taiwan
+X-Newsreader: Tin 1.1 PL3
+Lines: 20
+
+peterbak@microsoft.com (Peter Bako) writes:
+: 
+: Where could I find a description of the JPG file format?  Specifically
+: I need to know where in a JPG file I can find the height and width of 
+: the image, and perhaps even the number of colors being used.
+: 
+: Any suggestions?
+: 
+: Peter
+
+Try ftp.uu.net, in /graphics/jpeg.
+--
+--------------------------------
+=================================================================
+Chun-Hung Lin ( ªL«T§» )                     
+r0506048@csie.ntu.edu.tw    
+Communication & Multimedia Lab.
+Dept. of Comp. Sci. & Info. Eng.
+National Taiwan University, Taipei, Taiwan, R.O.C.
+=================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+r0506048 cml3 chun hung lin jpeg file format
+could find descript jpg file format specif need
+know jpg file find height width imag perhap even
+number color use  suggest  peter  tri ftp net
+graphic jpeg    chun hung lin  communic multimedia
+lab dept comp sci info eng nation taiwan univers
+taipei taiwan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+taiwan, 8677, 0.393494610792
+lin, 5279, 0.393494610792
+jpg, 4910, 0.317594116681
+hung, 4441, 0.287006590342
+file, 3477, 0.261931839487
+jpeg, 4905, 0.258548627126
+format, 3612, 0.201962243196
+eng, 3107, 0.173627843775
+width, 9752, 0.161768910262
+multimedia, 5918, 0.152612231774
+height, 4238, 0.148566533596
+dept, 2544, 0.130614358295
+comp, 1955, 0.124892509463
+peter, 6575, 0.124529458903
+communic, 1950, 0.124529458903
+lab, 5085, 0.119043788818
+descript, 2557, 0.118755424782
+sci, 7690, 0.11763383664
+ftp, 3709, 0.101993412375
+net, 6010, 0.101554591252
+color, 1907, 0.101409997282
+specif, 8203, 0.100144639073
+nation, 5962, 0.0993350002428
+info, 4636, 0.0993350002428
+perhap, 6540, 0.0976651262575
+suggest, 8525, 0.0962160249969
+imag, 4512, 0.0845780994247
+univers, 9282, 0.0838488122811
+graphic, 3997, 0.0830702165224
+number, 6156, 0.0820457898148
+tri, 9087, 0.0730731030504
+need, 5993, 0.0678398971345
+use, 9363, 0.0557249957594
+know, 5052, 0.05434838646

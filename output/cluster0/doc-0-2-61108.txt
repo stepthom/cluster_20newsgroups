@@ -1,0 +1,150 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61108
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wiml@stein2.u.washington.edu (William Lewis)
+Subject: Re: Abyss--breathing fluids
+Organization: University of Washington
+Lines: 33
+NNTP-Posting-Host: stein2.u.washington.edu
+
+loss@fs7.ECE.CMU.EDU (Doug Loss) writes:
+>Besides the mechanical problems of moving so dense a medium in oan out
+>of the lungs (diaphragm fatigue, etc.), is there likely to be a problem
+>with the mixture?  I mean, since the lungs never expel all the air in
+>them, the inhaled air has to mix pretty quickly with the residual air in
+>the lungs to provide a useful partial pressure of oxygen, right?  Would
+>this mixing be substantially faster/slower at the pressures we're
+>talking about?
+
+  There was an interesting article in Scientific American some time ago
+about breathing liquid. (It was a few months before _The Abyss_ came out.)
+As far as I can remember, they mentioned three things that were difficult
+to do at once with a substitute breathing fluid:
+  - low viscosity --- if it's too difficult to force the fluid in & out 
+    of the lungs, you can't extract enough oxygen to power your own
+    breathing effort (let alone anything else)
+
+  - diffusion rate --- obviously, not all the air in your lungs is
+    expelled when you breathe out; and the part that isn't expelled
+    is the part that's nearest the walls of the alveoli. (alveolus?)
+    So the trip from the blood vessels to the new air has to be done
+    by diffusion of the gas through the fluid. Apparently oxygen
+    tends to diffuse more readily than CO2, so even if you can get enough
+    oxygen in, you might not be able to get enough CO2 out.
+
+  - oxygen/CO2 capacity --- you have to be able to dissolve enough
+    gas per unit volume. 
+
+  Oh, and of course, your new breathing fluid must not irritate the lungs
+or interfere with their healing or anything like that... 
+
+--
+Wim Lewis, wiml@u.washington.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ abyss breath fluid      besid mechan problem move
+dens medium oan lung diaphragm fatigu etc like
+problem mixtur mean sinc lung never expel air
+inhal air mix pretti quick residu air lung provid
+use partial pressur oxygen right mix substanti
+faster slower pressur we'r talk  interest articl
+scientif american time ago breath liquid month
+abyss came far rememb mention three thing
+difficult substitut breath fluid low viscos it
+difficult forc fluid lung can't extract enough
+oxygen power breath effort let alon anyth els
+diffus rate obvious air lung expel breath part
+isn't expel part that nearest wall alveoli
+alveolus trip blood vessel new air done diffus gas
+fluid appar oxygen tend diffus readili co2 even
+get enough oxygen might abl get enough co2  oxygen
+co2 capac abl dissolv enough gas per unit volum
+cours new breath fluid must irrit lung interfer
+heal anyth like
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lung, 5396, 0.471595545915
+breath, 1291, 0.371081990102
+fluid, 3560, 0.340851804686
+oxygen, 6363, 0.315040426968
+air, 357, 0.250221138212
+co2, 1855, 0.241613502899
+diffus, 2637, 0.219503353761
+abyss, 203, 0.139180329477
+mix, 5788, 0.11581782463
+gas, 3780, 0.112110118195
+pressur, 6842, 0.10526086174
+difficult, 2635, 0.103487712774
+dissolv, 2742, 0.0805378342998
+fatigu, 3406, 0.0785992576526
+abl, 180, 0.0777997750152
+irrit, 4772, 0.0755404106502
+residu, 7312, 0.0742880549421
+vessel, 9486, 0.0731677845869
+anyth, 555, 0.0729025657393
+readili, 7140, 0.0721543767811
+mixtur, 5789, 0.0721543767811
+heal, 4220, 0.0721543767811
+slower, 8045, 0.0681703609372
+dens, 2530, 0.0675257554492
+capac, 1499, 0.0669180052291
+problem, 6887, 0.0669029666659
+nearest, 5984, 0.066343122838
+substitut, 8504, 0.0652789620281
+liquid, 5294, 0.0647843270682
+interfer, 4710, 0.0647843270682
+extract, 3326, 0.0643116832933
+new, 6023, 0.0619456135954
+medium, 5614, 0.0611378866938
+substanti, 8503, 0.0601557057363
+partial, 6439, 0.0601557057363
+blood, 1169, 0.0581651351753
+trip, 9104, 0.0576587187913
+wall, 9619, 0.0537678369809
+volum, 9577, 0.0537678369809
+mechan, 5603, 0.0529431808922
+tend, 8783, 0.0527856560234
+faster, 3399, 0.0521779058033
+alon, 437, 0.0513268329702
+besid, 1051, 0.0505388626023
+scientif, 7693, 0.0502886690784
+effort, 3007, 0.0496877897692
+appar, 577, 0.0493429141043
+unit, 9278, 0.0482679859678
+american, 469, 0.0472918207016
+rate, 7108, 0.0461436062195
+quick, 7036, 0.0453377104736
+obvious, 6185, 0.0449565680834
+like, 5272, 0.0447768707907
+forc, 3594, 0.0440251612047
+month, 5847, 0.0438213325826
+low, 5368, 0.0438213325826
+came, 1472, 0.0428569801542
+mention, 5632, 0.0425540327622
+ago, 336, 0.0414218222213
+power, 6783, 0.0394653603989
+provid, 6949, 0.0393321720081
+rememb, 7269, 0.039157143625
+pretti, 6851, 0.0389849498346
+isn, 4783, 0.0389423336086
+els, 3053, 0.0367585100457
+cours, 2190, 0.0363841991508
+talk, 8684, 0.0359581774694
+far, 3386, 0.0355177053807
+articl, 665, 0.0342687746152
+let, 5225, 0.0335791287335
+mean, 5595, 0.0328592522659
+sinc, 7977, 0.0324127293074
+right, 7399, 0.0323439087812
+thing, 8869, 0.0290476383921
+time, 8936, 0.0252635972727
+use, 9363, 0.0234828377591

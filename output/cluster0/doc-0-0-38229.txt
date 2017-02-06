@@ -1,0 +1,191 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38229
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccool@dgp.toronto.edu (Michael McCool)
+Subject: Apr 20 Toronto Siggraph Event
+Organization: University of Toronto Dynamic Graphics Project
+Distribution: na
+Lines: 48
+
+
+Toronto Siggraph 
+================
+
+What: ``Chance's Art'': 2D Graphics and Animation on the Indigo.
+
+By:    Ken Evans, Imagicians Artware, Inc. 
+
+When:  Tuesday 20 April 1993 7:00pm-9:00pm 
+
+Where: The McLuhan Centre for Culture and Technology
+       University of Toronto
+       39A Queen's Park Crescent
+       Toronto
+
+Who:   Members and non-members alike 
+       (non-members encouraged to become members...)
+
+Abstract:
+
+Imagicians Artware, Inc. is entering into early beta site testing on Silicon 
+Graphics workstations of a new 2D abstract artwork and animation package called 
+Chance's Art.  The package will be described and demonstrated, and some of the 
+technical issues will be discussed.  Marketing plans will be outlined.  The 
+talk will also present some of the technical and business problems increasingly 
+confronting small startup software companies today, and some of the 
+opportunities this situation presents.
+
+Time after the event will be allocated for hands-on demonstrations to 
+interested parties.  Silicon Graphics is graciously providing an Indigo for 
+this event.  Myck Kupka will also be demonstrating his computerized interactive 
+reflective stereoscope, which is installed upstairs in the McLuhan Centre, so 
+feel free to drop by for a demonstration before or after the event. BTW, be 
+sure to sing "Happy Birthday, Myck"...
+
+The names of nominees for our Siggraph executive offices will be announced at 
+this meeting.  Nominations will still be open until the election at our 
+May 18th event; call Myck Kupka at 465-0943 or fax to 465-0729.  
+
+Directions: The McLuhan Coachhouse is on the east side of Queen's Park 
+Crescent, just NORTH of Wellesley, SOUTH of St. Joseph St., BEHIND (EAST of) 
+39 Queen's Park Crescent, which is the centre for Mediaeval Studies.  
+
+For information on Toronto Siggraph membership, contact Michael McCool via:
+	Internet: mccool@dgp.utoronto.ca; 
+	Voice: 652-8072/978-6619/978-6027; 
+	Fax: 653-1654
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ toronto siggraph event      toronto siggraph
+chanc art' graphic anim indigo  ken evan imagician
+artwar inc  tuesday april 00pm 00pm  mcluhan centr
+cultur technolog univers toronto 39a queen park
+crescent toronto  member non member alik non
+member encourag becom member  abstract  imagician
+artwar inc enter earli beta site test silicon
+graphic workstat new abstract artwork anim packag
+call chanc art packag describ demonstr technic
+issu discuss market plan outlin talk also present
+technic busi problem increas confront small
+startup softwar compani today opportun situat
+present  time event alloc hand demonstr interest
+parti silicon graphic gracious provid indigo event
+myck kupka also demonstr computer interact reflect
+stereoscop instal upstair mcluhan centr feel free
+drop demonstr event btw sure sing happi birthday
+myck  name nomine siggraph execut offic announc
+meet nomin still open elect 18th event call myck
+kupka fax  direct mcluhan coachhous east side
+queen park crescent north wellesley south joseph
+behind east queen park crescent centr mediaev
+studi  inform toronto siggraph membership contact
+michael mccool via  voic fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mcluhan, 5585, 0.287625683521
+siggraph, 7941, 0.281073081918
+event, 3232, 0.269148623728
+queen, 7029, 0.252733945551
+toronto, 9003, 0.247434168974
+demonstr, 2520, 0.228964124809
+member, 5625, 0.210139400009
+centr, 1610, 0.192907549351
+00pm, 2, 0.191750455681
+park, 6430, 0.163967947709
+indigo, 4601, 0.146758721589
+silicon, 7955, 0.140536540959
+abstract, 199, 0.13417444365
+graphic, 3997, 0.117119743334
+art, 660, 0.116053220139
+east, 2965, 0.107888589519
+technic, 8737, 0.105275032962
+packag, 6375, 0.103297570699
+chanc, 1649, 0.103108599115
+anim, 515, 0.102367419781
+fax, 3413, 0.0996146744054
+wellesley, 9703, 0.0958752278404
+present, 6837, 0.0949147483358
+non, 6097, 0.0939999756571
+stereoscop, 8383, 0.0924639213838
+gracious, 3976, 0.0924639213838
+startup, 8337, 0.0876559549735
+computer, 1995, 0.0858280509789
+artwork, 670, 0.0858280509789
+birthday, 1116, 0.0842446485169
+18th, 34, 0.0842446485169
+elect, 3029, 0.0784875433466
+sing, 7979, 0.077608778112
+confront, 2036, 0.077608778112
+alloc, 431, 0.0760253756499
+membership, 5626, 0.0746287156961
+evan, 3227, 0.0733793607945
+nomin, 6096, 0.0728008117016
+outlin, 6327, 0.0717220770703
+beta, 1055, 0.0717220770703
+alik, 415, 0.070733345939
+parti, 6438, 0.069389505245
+execut, 3272, 0.0674412154022
+tuesday, 9147, 0.0667434903896
+instal, 4679, 0.0667434903896
+joseph, 4893, 0.0664094428291
+encourag, 3089, 0.0643025164504
+south, 8154, 0.0637634279737
+cultur, 2291, 0.063247785682
+workstat, 9840, 0.0625140730721
+reflect, 7216, 0.0625140730721
+opportun, 6268, 0.0620489976126
+interact, 4704, 0.0609603524883
+voic, 9567, 0.0597735724243
+north, 6110, 0.059043624826
+meet, 5615, 0.0583560174797
+ken, 4980, 0.0581901699622
+enter, 3125, 0.0575490460317
+drop, 2878, 0.0573940385407
+btw, 1355, 0.0559461564589
+happi, 4161, 0.0558106360787
+busi, 1424, 0.0546559825696
+announc, 524, 0.0544139761249
+michael, 5680, 0.0540599825476
+market, 5514, 0.0540599825476
+contact, 2078, 0.0537162511122
+increas, 4590, 0.0534925104329
+offic, 6206, 0.0525348500023
+describ, 2556, 0.0510928442793
+studi, 8469, 0.0510026696683
+situat, 7995, 0.0500535309084
+compani, 1958, 0.0493297731648
+april, 595, 0.0492520161372
+earli, 2951, 0.0491747656738
+site, 7994, 0.048870700188
+test, 8812, 0.0487215421936
+plan, 6660, 0.0484287395589
+issu, 4793, 0.0483566548129
+free, 3668, 0.0482850056269
+becom, 983, 0.0475241794387
+technolog, 8743, 0.0471288793607
+open, 6258, 0.0470642584694
+feel, 3429, 0.0466215119501
+small, 8054, 0.0461947032579
+discuss, 2708, 0.0456104518787
+direct, 2667, 0.0454406460528
+today, 8964, 0.0453287782024
+provid, 6949, 0.0438642704972
+hand, 4145, 0.0430101322791
+talk, 8684, 0.0401015032371
+softwar, 8103, 0.0395759561834
+univers, 9282, 0.0394058255146
+inform, 4637, 0.0389745814738
+sure, 8585, 0.0381869145429
+problem, 6887, 0.0373059721478
+new, 6023, 0.0345416870228
+time, 8936, 0.0281746267222

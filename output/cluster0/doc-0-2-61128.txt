@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61128
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbreed@doink.b23b.ingr.com (James B. Reed)
+Subject: Re: space news from Feb 15 AW&ST
+Nntp-Posting-Host: doink
+Reply-To: jbreed@ingr.com
+Organization: Intergraph Electronics
+Lines: 10
+
+In article <C5ros0.uy@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry Spencer) writes:
+|> [Pluto's] atmosphere will start to freeze out around 2010, and after about
+|> 2005 increasing areas of both Pluto and Charon will be in permanent
+|> shadow that will make imaging and geochemical mapping impossible.
+
+Where does the shadow come from?  There's nothing close enough to block
+sunlight from hitting them.  I wouldn't expect there to be anything block
+our view of them either.  What am I missing?
+
+	Jim
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space news       pluto atmospher start freez
+around increas area pluto charon perman shadow
+make imag geochem map imposs  shadow come there
+noth close enough block sunlight hit wouldn't
+expect anyth block view either miss  jim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shadow, 7837, 0.40259560236
+pluto, 6701, 0.369175532065
+block, 1163, 0.352253287283
+geochem, 3837, 0.252086217094
+charon, 1672, 0.229017705654
+freez, 3682, 0.220286005942
+sunlight, 8544, 0.209455679313
+perman, 6550, 0.189282978462
+imposs, 4553, 0.170514740311
+atmospher, 755, 0.161960066693
+jim, 4868, 0.152054614152
+increas, 4590, 0.150134033614
+map, 5498, 0.149213767782
+miss, 5770, 0.140715618693
+wouldn, 9854, 0.13911417031
+area, 622, 0.135318574971
+view, 9510, 0.129989620761
+expect, 3290, 0.128986102712
+close, 1830, 0.126145256342
+noth, 6119, 0.121101550392
+hit, 4316, 0.11638239861
+news, 6031, 0.114947182026
+anyth, 555, 0.114093780727
+imag, 4512, 0.111559769779
+start, 8334, 0.105345882024
+come, 1923, 0.0965084597053
+space, 8164, 0.0944032793729
+make, 5459, 0.0834727238211

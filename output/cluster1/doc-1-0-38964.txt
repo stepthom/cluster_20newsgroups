@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38964
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ip001b@uhura.cc.rochester.edu (Ivan Pulleyn)
+Subject: PC Question - 256 modes?
+Nntp-Posting-Host: uhura.cc.rochester.edu
+Organization: University of Rochester (Rochester, NY)
+Lines: 17
+
+
+Hi,
+  I need to know if there is a 256 color graphics mode that allows multiple
+pages.  I want something like mode 0x10 (640x350x16 2 pages).  I have been
+experimenting with graphics by calling the BIOS with borland turbo c.  I
+feel like I am flying blind in this area, and could use all the help that
+you can give.
+
+  Thanks,
+	Ivan......
+
+
+-- 
+	+----------------------------------------+
+	| Ivan Pulleyn - University of Rochester |
+	| E-mail - ip001b@uhura.cc.rochester.edu |
+	+----------------------------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question mode       need know color graphic mode
+allow multipl page want someth like mode 0x10
+640x350x16 page experi graphic call bio borland
+turbo feel like fli blind area could use help give
+thank ivan     ivan pulleyn univers rochest
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ivan, 4806, 0.473139089408
+mode, 5806, 0.440564120075
+page, 6382, 0.304992203694
+rochest, 7444, 0.249545484844
+borland, 1232, 0.231636321218
+graphic, 3997, 0.210725096504
+turbo, 9151, 0.194989103157
+blind, 1158, 0.190898102123
+bio, 1103, 0.190898102123
+multipl, 5919, 0.165665411796
+fli, 3542, 0.136692758026
+like, 5272, 0.134770279677
+experi, 3295, 0.133986701244
+area, 622, 0.130121377239
+color, 1907, 0.128623906126
+feel, 3429, 0.125824079594
+allow, 432, 0.122637109493
+univers, 9282, 0.106350084298
+question, 7032, 0.096871144004
+someth, 8126, 0.0942054274177
+help, 4249, 0.0940188227718
+thank, 8832, 0.0896216688738
+want, 9634, 0.0871767395501
+need, 5993, 0.0860450921458
+use, 9363, 0.0706790929449
+know, 5052, 0.068933063263

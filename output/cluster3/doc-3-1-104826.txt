@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104826
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: bck_csm@jhunix.hcf.jhu.edu (Brian C. Klaff)
+Subject: Re: Best Homeruns
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 7
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+
+How about Brooks Robinson's last homerun ever?  #268 came on 4-19-77 at
+Memorial Stadium with one out and two on in the bottom of the 10th inning.
+Larry Harlow was due up, but Brooks pinch-hit a 3-2 pitch from Dave LaRoche
+into the left field bleachers for a 6-5 win.
+
+							-Brian Klaff
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best homerun     brook robinson last homerun ever
+came memori stadium one two bottom 10th inning
+larri harlow due brook pinch hit pitch dave laroch
+left field bleacher win  brian klaff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brook, 1339, 0.499642037244
+homerun, 4356, 0.431301387196
+10th, 12, 0.260549261938
+bleacher, 1149, 0.256620156317
+robinson, 7441, 0.227216994925
+larri, 5128, 0.227216994925
+pinch, 6632, 0.198908436577
+stadium, 8300, 0.198123312587
+brian, 1304, 0.175097905739
+inning, 4657, 0.171888010391
+memori, 5628, 0.168932641867
+dave, 2395, 0.161256004579
+came, 1472, 0.150311575081
+left, 5193, 0.148420307237
+field, 3466, 0.140345530807
+pitch, 6643, 0.136136959825
+win, 9770, 0.135551975092
+hit, 4316, 0.130409433798
+best, 1052, 0.124678908246

@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104620
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kday@oasys.dt.navy.mil (Kevin Day)
+Subject: Re: Lots of runs
+Reply-To: kday@oasys.dt.navy.mil (Kevin Day)
+Organization: Carderock Division, NSWC, Bethesda, MD
+Lines: 18
+
+In rec.sport.baseball, CROSEN1@ua1vm.ua.edu (Charles Rosen) writes:
+>I have noticed that this year has had a lot of high scoring games (at least the
+>NL has).  I believe one reason are the expansion teams.  Any thoughts?
+>
+
+  Except for the fact that there seems to be a lot of high scoring AL
+games also and I don't think the expansion teams directly affect them.
+
+K. Scott Day   (kday@oasys.dt.navy.mil)
+Carderock Division, Naval Surface Warfare Center
+Code 1252
+Bethesda, Maryland 20084-5000
+
+------------------------------------------------------------------------
+*    "The point to remember is that what the government gives       
+*     it must first take away."
+*                                        -John S. Coleman           
+------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lot run      notic year lot high score game least
+believ one reason expans team thought   except
+fact seem lot high score game also don't think
+expans team direct affect   carderock divis naval
+surfac warfar center code bethesda maryland
+point rememb govern give must first take away john
+coleman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+expans, 3289, 0.374861124069
+lot, 5356, 0.297963743689
+score, 7705, 0.275292205178
+carderock, 1514, 0.241112002859
+bethesda, 1056, 0.230401420751
+warfar, 9638, 0.222401581459
+high, 4292, 0.215301249759
+coleman, 1891, 0.213244087548
+team, 8732, 0.211385099624
+naval, 5967, 0.206140983434
+maryland, 5529, 0.196983489523
+game, 3761, 0.192979744168
+affect, 310, 0.169115574213
+divis, 2767, 0.147384639896
+notic, 6120, 0.147051317545
+surfac, 8587, 0.139162198343
+govern, 3966, 0.132845109317
+center, 1606, 0.128488608678
+code, 1871, 0.126515290039
+away, 833, 0.126169286701
+direct, 2667, 0.121983306052
+john, 4878, 0.120365628058
+rememb, 7269, 0.117227603743
+thought, 8887, 0.111100774876
+fact, 3350, 0.109227764452
+reason, 7156, 0.102675083164
+believ, 1009, 0.0983013713906
+run, 7543, 0.095886085925
+point, 6710, 0.0898506800749
+year, 9943, 0.0799998289731
+think, 8871, 0.0729047948282
+don, 2811, 0.0722023552307

@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82771
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mayne@pipe.cs.fsu.edu (William Mayne)
+Subject: Re: *** The list of Biblical contradictions
+Organization: Florida State University Computer Science Department
+Reply-To: mayne@cs.fsu.edu
+Lines: 14
+
+In article <7912@blue.cis.pitt.edu> joslin@pogo.isp.pitt.edu (David Joslin) writes:
+>[Many good points deleted. Anyone who missed it should see the original.]
+>Lists like this that just toss a bunch of quotes together to
+>make a bible verse salad just don't cut it.  Those of us who
+>want to argue against inerrancy should find this sort of thing
+>as embarassing as the fundies should find Josh McDowell.
+
+True, except that I've known few fundies who had enough sense to
+be embarrassed by Josh McDowell.
+
+(Okay, maybe a cheap shot. But I'm in that kind of mood.)
+
+Bill Mayne
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ list biblic contradict      mani good point delet
+anyon miss see origin list like toss bunch quot
+togeth make bibl vers salad don't cut want argu
+inerr find sort thing embarass fundi find josh
+mcdowel  true except i'v known fundi enough sens
+embarrass josh mcdowel  okay mayb cheap shot i'm
+kind mood  bill mayn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mcdowel, 5575, 0.398293604815
+fundi, 3726, 0.384464328854
+josh, 4895, 0.332833430275
+mood, 5850, 0.20840446311
+list, 5298, 0.201538971056
+inerr, 4609, 0.199146802407
+embarass, 3061, 0.189333286602
+embarrass, 3062, 0.182114624624
+toss, 9010, 0.15648383302
+vers, 9476, 0.151887525014
+contradict, 2098, 0.144506538721
+bunch, 1399, 0.144506538721
+cheap, 1677, 0.139580225059
+okay, 6215, 0.136998905981
+biblic, 1072, 0.136591285315
+argu, 628, 0.13540345085
+shot, 7910, 0.135018634902
+togeth, 8969, 0.127391487707
+cut, 2313, 0.120963833976
+bibl, 1071, 0.120735501613
+quot, 7045, 0.118133827005
+delet, 2502, 0.117927729473
+miss, 5770, 0.116332274342
+sens, 7788, 0.114641469226
+known, 5054, 0.109961192004
+sort, 8144, 0.105829918592
+true, 9121, 0.0981471315563
+kind, 5021, 0.0981471315563
+origin, 6293, 0.0978486053897
+mayb, 5564, 0.0963089650495
+mani, 5479, 0.0780449838962
+point, 6710, 0.0776621757485
+thing, 8869, 0.0751653870054
+want, 9634, 0.0749492516302
+anyon, 554, 0.0739347996984
+good, 3948, 0.0707264260142
+make, 5459, 0.0690084860363
+don, 2811, 0.0624078971546
+like, 5272, 0.0579336395001

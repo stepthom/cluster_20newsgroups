@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60193
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Metric vs English
+Article-I.D.: mksol.1993Apr6.131900.8407
+Organization: Texas Instruments Inc
+Lines: 31
+
+In <1993Apr5.195215.16833@pixel.kodak.com> dj@ekcolor.ssd.kodak.com (Dave Jones) writes:
+
+>Keith Mancus (mancus@sweetpea.jsc.nasa.gov) wrote:
+>> Bruce_Dunn@mindlink.bc.ca (Bruce Dunn) writes:
+>> > SI neatly separates the concepts of "mass", "force" and "weight"
+>> > which have gotten horribly tangled up in the US system.
+>> 
+>>   This is not a problem with English units.  A pound is defined to
+>> be a unit of force, period.  There is a perfectly good unit called
+>> the slug, which is the mass of an object weighing 32.2 lbs at sea level.
+>> (g = 32.2 ft/sec^2, of course.)
+>> 
+
+>American Military English units, perhaps.  Us real English types were once 
+>taught that a pound is mass and a poundal is force (being that force that
+>causes 1 pound to accelerate at 1 ft.s-2).  We had a rare olde tyme doing 
+>our exams in those units and metric as well.
+
+American, perhaps, but nothing military about it.  I learned (mostly)
+slugs when we talked English units in high school physics and while
+the teacher was an ex-Navy fighter jock the book certainly wasn't
+produced by the military.
+
+[Poundals were just too flinking small and made the math come out
+funny; sort of the same reason proponents of SI give for using that.] 
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ metric english articl mksol 1993apr6        neat
+separ concept mass forc weight gotten horribl
+tangl system  problem english unit pound defin
+unit forc period perfect good unit call slug mass
+object weigh lbs sea level sec cours   american
+militari english unit perhap real english type
+taught pound mass poundal forc forc caus pound
+acceler rare old tyme exam unit metric well
+american perhap noth militari learn most slug talk
+english unit high school physic teacher navi
+fighter jock book certain wasn't produc militari
+poundal flink small made math come funni sort
+reason propon give use   insist perfect safeti
+peopl don't ball live real world mari shafer nasa
+ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+unit, 9278, 0.413040965251
+english, 3111, 0.406052908318
+forc, 3594, 0.251156050464
+pound, 6776, 0.2389375377
+militari, 5715, 0.225185736801
+mass, 5533, 0.215166222506
+metric, 5669, 0.205814218508
+slug, 8048, 0.186202683111
+american, 469, 0.134895893413
+perfect, 6538, 0.132591319177
+perhap, 6540, 0.117395849762
+mksol, 5794, 0.11486365877
+lbs, 5166, 0.109761230712
+propon, 6931, 0.10435243901
+real, 7144, 0.103974181916
+fighter, 3475, 0.101587626566
+taught, 8715, 0.0963057350569
+sea, 7739, 0.0910764068055
+weigh, 9694, 0.0904573622974
+sec, 7752, 0.0904573622974
+neat, 5985, 0.0904573622974
+teacher, 8730, 0.0898626003959
+1993apr6, 49, 0.0898626003959
+navi, 5968, 0.0882066494122
+horribl, 4380, 0.0882066494122
+shafer, 7839, 0.0876925498531
+funni, 3731, 0.0867138564418
+rare, 7101, 0.0862472200972
+dryden, 2888, 0.0862472200972
+acceler, 207, 0.0815438804565
+math, 5544, 0.0805651870452
+mari, 5508, 0.079946142537
+safeti, 7579, 0.0793513806356
+weight, 9695, 0.0790625245759
+insist, 4673, 0.0782275714315
+gotten, 3962, 0.0762026366815
+ame, 465, 0.0762026366815
+separ, 7797, 0.0720789020348
+school, 7685, 0.0713734499731
+concept, 2002, 0.0700539672848
+period, 6546, 0.0675815553647
+produc, 6895, 0.0671842098915
+defin, 2482, 0.0665442632648
+physic, 6613, 0.0659302326382
+wasn, 9652, 0.0658103546651
+learn, 5182, 0.0644412011672
+level, 5229, 0.0622130768929
+caus, 1569, 0.0613882188235
+ball, 877, 0.0593076345262
+type, 9177, 0.0592300666608
+small, 8054, 0.0590761111799
+sort, 8144, 0.0583289411149
+old, 6216, 0.0573411371689
+nasa, 5956, 0.0570703356044
+object, 6173, 0.0558462097084
+live, 5310, 0.0556006256428
+noth, 6119, 0.0551801971608
+book, 1218, 0.0543167105341
+certain, 1619, 0.0536596625803
+cours, 2190, 0.0518914156586
+talk, 8684, 0.0512838203655
+high, 4292, 0.0512838203655
+world, 9841, 0.0507880575495
+reason, 7156, 0.0489135156151
+articl, 665, 0.0488743814396
+problem, 6887, 0.0477087545292
+come, 1923, 0.0439742993958
+peopl, 6530, 0.0411436156768
+good, 3948, 0.038981391965
+don, 2811, 0.0343965733572
+use, 9363, 0.033491398009

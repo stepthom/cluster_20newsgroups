@@ -1,0 +1,165 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104867
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gspira@nyx.cs.du.edu (Greg Spira)
+Subject: Re: Jack Morris
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 42
+
+bwalker@bnr.ca (Barry Walker) writes:
+
+>In article <1993Apr19.032930.19811@ramsey.cs.laurentian.ca>, maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+>|> In <1993Apr19.024222.11181@newshub.ariel.yorku.ca> cs902043@ariel.yorku.ca (SHAWN LUDDINGTON) writes:
+>|> 
+>|> >Hey Valentine, I don't see Boston with any world series rings on their
+>|> >fingers.  Damn, Morris now has three and probably the Hall of Fame in his 
+>|> >future.  Therefore, I would have to say Toronto easily made the best 
+>|> >signing.  And don't tell me Boston will win this year.  They won't 
+>|> >even be in the top 4 in the division, more like 6th.
+>|>
+
+>In spite of what all the STAT heads say, Jack Morris played a large role in
+>the Jays winning the World Series last year. I don't care if his era was 4.?
+>he played a leadership role and did win 21 games. His ERA may have been high,
+>but he did pitch many outstanding ball games.
+
+And he pitched many not-so-outstanding ballgames, too.
+
+Jack essentially pitched a lot of .500 ball last year.  This certainly
+isn't irrelevant, and iif you replace Morris with replacement level quality
+the Blue Jays might not win.
+
+Re leadership, I don't see it.  If the leadership effect is there for
+a starting pitcher, you would expect to see its primary effect on the
+pitching staff.  You would expect to see the rest of the staff improve.
+Instead, the rest of the staff declined.
+
+You can make a reasonable argument for Winfield providing leadership;
+the offense picked up considerably from its effectiveness the previous
+year. I'm not saying I buy that, but at least that argument makes
+internal sense.
+
+Greg 
+
+
+>Barry Walker
+>BNR 
+>Ottawa
+>Canada
+
+>My opinions
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri         hey valentin don't see boston
+world seri ring finger damn morri three probabl
+hall fame futur therefor say toronto easili made
+best sign don't tell boston win year won't even
+top divis like 6th   spite stat head say jack
+morri play larg role jay win world seri last year
+don't care era play leadership role win game era
+high pitch mani outstand ball game  pitch mani
+outstand ballgam  jack essenti pitch lot ball last
+year certain isn't irrelev iif replac morri replac
+level qualiti blue jay might win  leadership don't
+see leadership effect start pitcher expect see
+primari effect pitch staff expect see rest staff
+improv instead rest staff declin  make reason
+argument winfield provid leadership offens pick
+consider effect previous year i'm say buy least
+argument make intern sens  greg   barri walker bnr
+ottawa canada  opinion
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+leadership, 5174, 0.359159111864
+morri, 5868, 0.284014272017
+pitch, 6643, 0.21187569201
+staff, 8301, 0.211257607428
+win, 9770, 0.210965255598
+jack, 4808, 0.203416832793
+outstand, 6333, 0.192080689008
+effect, 3005, 0.174457182794
+role, 7463, 0.156046713357
+year, 9943, 0.145863328915
+era, 3164, 0.144932444583
+replac, 7288, 0.140084607621
+boston, 1243, 0.139714926627
+don, 2811, 0.131646230057
+jay, 4832, 0.129585617702
+rest, 7324, 0.123951294512
+argument, 631, 0.121107945628
+seri, 7805, 0.118342085617
+iif, 4501, 0.117316576855
+ball, 877, 0.113494248655
+expect, 3290, 0.112470782587
+say, 7653, 0.110515127999
+bnr, 1185, 0.105022468951
+walker, 9618, 0.101375951187
+world, 9841, 0.0971907323273
+play, 6681, 0.095702223208
+spite, 8241, 0.093963982347
+ottawa, 6317, 0.0921478923306
+declin, 2448, 0.0905340325256
+ballgam, 879, 0.0905340325256
+game, 3761, 0.0879647752343
+6th, 134, 0.0877618625411
+irrelev, 4771, 0.0859829294791
+finger, 3486, 0.0839065673222
+fame, 3376, 0.0839065673222
+mani, 5479, 0.0823159277368
+winfield, 9778, 0.0812611211369
+ring, 7406, 0.0783494329354
+valentin, 9409, 0.0780233566785
+primari, 6863, 0.0773923971501
+greg, 4033, 0.0759255144543
+barri, 918, 0.0756491292829
+canada, 1481, 0.0753779104932
+hey, 4283, 0.074593406857
+damn, 2346, 0.0740930199333
+essenti, 3196, 0.0738491522974
+make, 5459, 0.0727849153937
+hall, 4128, 0.0704192024759
+qualiti, 7017, 0.0698574633137
+easili, 2962, 0.0686255908262
+consider, 2060, 0.0684578458044
+offens, 6202, 0.0682920179105
+previous, 6855, 0.0679659416537
+divis, 2767, 0.0671814380175
+improv, 4557, 0.067029501731
+blue, 1176, 0.0668791399421
+sign, 7946, 0.0660082916581
+stat, 8341, 0.0658680994295
+buy, 1433, 0.0658680994295
+pick, 6619, 0.0653204954684
+therefor, 8855, 0.0647928088512
+intern, 4716, 0.0645359918322
+instead, 4682, 0.0622992989524
+won, 9820, 0.0618693480058
+head, 4215, 0.0612474049653
+futur, 3737, 0.0612474049653
+toronto, 9003, 0.0605539728141
+sens, 7788, 0.0604575619426
+level, 5229, 0.0595271289679
+pitcher, 6644, 0.057668690048
+care, 1516, 0.0571240229927
+opinion, 6266, 0.0543518530082
+larg, 5124, 0.0537343222477
+provid, 6949, 0.0536739904237
+isn, 4783, 0.0531420039746
+certain, 1619, 0.0513429943401
+high, 4292, 0.0490697252303
+best, 1052, 0.0485107607765
+probabl, 6885, 0.0474535584401
+tell, 8767, 0.0474143957098
+reason, 7156, 0.0468017545139
+start, 8334, 0.0459287223372
+lot, 5356, 0.0452729963181
+like, 5272, 0.0305520037582

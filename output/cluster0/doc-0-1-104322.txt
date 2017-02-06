@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104322
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: shapiro-david@yale.edu (David Shapiro)
+Subject: Re: TIGERS
+Organization: What, me organized?
+Lines: 8
+Distribution: na
+NNTP-Posting-Host: minerva.cis.yale.edu
+In-reply-to: Ryan Kearns's message of Wed, 14 Apr 1993 10:09:21 EDT
+
+
+Woof woof!
+
+-------------------------------------------------------------------------------
+David Shapiro			| "People can call it a monkey, but I felt like
+shapiro-david@yale.edu		| I had a piano on my back all winter long....
+shapiro@minerva.cis.yale.edu	| The piano is off my back.  Maybe a trombone
+				| will be next."  -- Stan Belinda
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiger        woof woof   david shapiro peopl call
+monkey felt like   next stan belinda
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+woof, 9826, 0.68485102516
+monkey, 5838, 0.371036443425
+stan, 8309, 0.365897416324
+felt, 3439, 0.308320545213
+tiger, 8928, 0.287593460834
+david, 2397, 0.217641848472
+peopl, 6530, 0.146290599196
+like, 5272, 0.11353255384

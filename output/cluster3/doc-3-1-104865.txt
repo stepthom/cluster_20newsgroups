@@ -1,0 +1,292 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104865
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: Bonilla
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 97
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+
+In article <mjones.735273896@fenway> mjones@donald.aix.kingston.ibm.com writes:
+>fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+>>>>All of these divisions based on race, religion, etc. make me sick.
+>>>As they should.  Isn't it nice that MLB is finally waking up to
+>>>their existence?  Isn't it a shame that hiring practices, on and off
+>>>the field, have been discriminatory for so long?  (Quick: name a
+>>>light-hitting black outfielder or 1B who lasted 10+ years in the bigs.
+>>>I bet you can name two dozen white ones.)
+>>Otis Nixon.
+>>Darnell Coles
+>>Henry Cotto
+
+>Manny Mota.
+
+a) Dominican
+b) not all that light-hitting.  .304 lifetime, .315 or so in 1966-73
+when he did most of his playing.  
+c) Professional pinch-hitter after that.  Yes, that also gives you
+Jerry Hairston.
+
+>Billy Hatcher
+
+Beginning 10th year now.
+
+>Herm Winningham.
+
+Good one.
+
+>Lonnie Smith (not light hitting, but a horror in the field)
+
+Not the same thing.  LOTS of people are bad OFs.
+
+>Gary Redus
+
+Not all that light either.  .750 OPS.
+
+>Dion James
+
+Not 10 year.
+
+>Daryl Boston
+
+10-year this year.
+
+>Vince Coleman (yeah, he's finally started to have a decent OBP)
+
+Not 10-year.  
+
+>Cecil Espy
+
+Not 10-year.
+
+>Willie Wilson
+
+Yup.
+
+>Gary Pettis
+
+OK.
+
+>Milt Thompson
+
+10-year this year.
+
+>Gary Varsho
+
+*Six*-year this year.
+
+>OK, I admit to taking a quick browse through the Major League Handbook, but
+>only after the first 7 or 8. Oh, and there's the all-time light-hitting
+>black outfielder: Lou Brock. Look it up. And Curt Flood. Cesar Geronimo.
+
+Brock, Coleman, and Wilson were hot-dog basestealers (also Lonnie Smith);
+that seems to be a special class.  CFs like Pettis and Wilson also get 
+more of a break, especially if they actually *do* field well.  And Brock
+wasn't all that bad a hitter either, not until the end there when he 
+spoiled his ifetime .300 BA.
+
+And again, I suspect thatthe problem is lessening over time.  But if
+you look at the history of the last three decades, there seems to 
+be a clear race-based pattern by which utility players and platoon
+players and lesser talents stayed in the ML far longer if they were
+white.
+
+>Cesar Cedeno. 
+
+Light hitting?  199 HR, .793 lifetime OPS mainly with *HOUSTON*?
+Also Latin, btw.
+
+>>Note:  These guys may not have reached 10 years yet, but they've got
+>>to be close.
+
+>Likewise for my list. Oh, and a prediction: Milt Cuyler.
+
+Come back in 1999 and we'll party^H^H^H^H^H talk.
+
+Roger
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bonilla    origin news nimast   articl mjone
+divis base race religion etc make sick isn't nice
+mlb final wake exist isn't shame hire practic
+field discriminatori long quick name light hit
+black outfield last year big bet name two dozen
+white one oti nixon darnel cole henri cotto  manni
+mota  dominican light hit lifetim play profession
+pinch hitter yes also give jerri hairston  billi
+hatcher  begin 10th year  herm winningham  good
+one  lonni smith light hit horror field  thing lot
+peopl bad of  gari redus  light either op  dion
+jame  year  daryl boston  year year  vinc coleman
+yeah he final start decent obp  year  cecil espi
+year  willi wilson  yup  gari petti    milt
+thompson  year year  gari varsho  six year year
+admit take quick brows major leagu handbook first
+there time light hit black outfield lou brock look
+curt flood cesar geronimo  brock coleman wilson
+hot dog basesteal also lonni smith seem special
+class cfs like petti wilson also get break especi
+actual field well brock wasn't bad hitter either
+end spoil ifetim  suspect thatth problem lessen
+time look histori last three decad seem clear race
+base pattern util player platoon player lesser
+talent stay far longer white  cesar cedeno  light
+hit lifetim op main houston also latin btw  note
+guy reach year yet they'v got close  likewis list
+predict milt cuyler  come back we'll parti talk
+roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+year, 9943, 0.326888025646
+light, 5267, 0.258833990486
+brock, 1328, 0.231019259364
+wilson, 9768, 0.191465429226
+hit, 4316, 0.189520304281
+gari, 3776, 0.16892618948
+cesar, 1624, 0.160249259376
+petti, 6577, 0.156907555308
+milt, 5728, 0.156907555308
+lonni, 5340, 0.149175496568
+coleman, 1891, 0.145223099545
+lifetim, 5263, 0.137672449114
+op, 6256, 0.132083186813
+field, 3466, 0.122376090112
+outfield, 6325, 0.120813240166
+race, 7049, 0.106991732808
+smith, 8064, 0.106082025923
+black, 1133, 0.0947719864841
+white, 9737, 0.0929151335145
+quick, 7036, 0.0924351545063
+hitter, 4322, 0.0922774944203
+final, 3482, 0.0851184602226
+discriminatori, 2706, 0.0845194997034
+winningham, 9788, 0.0821008281995
+varsho, 9433, 0.0821008281995
+redus, 7207, 0.0821008281995
+mota, 5875, 0.0821008281995
+darnel, 2371, 0.0821008281995
+cotto, 2174, 0.0821008281995
+manni, 5487, 0.080124629688
+espi, 3191, 0.080124629688
+bad, 861, 0.0798341288785
+isn, 4783, 0.0793961712301
+horror, 4381, 0.0784537776539
+dion, 2662, 0.0784537776539
+curt, 2303, 0.0784537776539
+cedeno, 1593, 0.0784537776539
+cecil, 1592, 0.077006419788
+wake, 9613, 0.0757297596726
+mjone, 5792, 0.0757297596726
+hatcher, 4201, 0.0757297596726
+geronimo, 3856, 0.0757297596726
+daryl, 2380, 0.0757297596726
+10th, 12, 0.0757297596726
+player, 6683, 0.0748029935773
+cuyler, 2317, 0.0745877482842
+vinc, 9522, 0.0735546733216
+oti, 6314, 0.0735546733216
+herm, 4268, 0.0735546733216
+yup, 9970, 0.0726115497726
+latin, 5143, 0.0726115497726
+brows, 1345, 0.0726115497726
+spoil, 8249, 0.0717439602098
+lesser, 5222, 0.0717439602098
+likewis, 5274, 0.0709406977386
+flood, 3548, 0.0709406977386
+thompson, 8879, 0.0701928782688
+billi, 1091, 0.0701928782688
+lou, 5360, 0.0682166797573
+jerri, 4854, 0.0682166797573
+bonilla, 1215, 0.0682166797573
+base, 923, 0.0678421762401
+willi, 9763, 0.067630640651
+nixon, 6080, 0.0670746683688
+shame, 7851, 0.0665458277232
+platoon, 6679, 0.0665458277232
+hire, 4308, 0.0665458277232
+handbook, 4146, 0.0665458277232
+dozen, 2848, 0.0646559968649
+cole, 1890, 0.0646559968649
+dog, 2795, 0.0642308802944
+nimast, 6072, 0.0638218097419
+parti, 6438, 0.0634276178232
+decad, 2432, 0.0619802599574
+pattern, 6468, 0.0601175607357
+mlb, 5795, 0.0590327478079
+sick, 7933, 0.0580466971409
+pinch, 6632, 0.0578135895946
+obp, 6177, 0.0578135895946
+decent, 2440, 0.0578135895946
+talent, 8683, 0.057585389942
+houston, 4399, 0.056928274626
+profession, 6900, 0.0563087298265
+hot, 4389, 0.0548113068225
+yeah, 9942, 0.0541336434755
+look, 5341, 0.0541000534976
+jame, 4820, 0.0536518271255
+bet, 1054, 0.0528935401675
+admit, 276, 0.0526044808203
+suspect, 8603, 0.0524627914415
+boston, 1243, 0.0521848510042
+roger, 7458, 0.0520485085382
+class, 1789, 0.0519138598111
+stay, 8355, 0.0517808632575
+time, 8936, 0.0515077733943
+btw, 1355, 0.0511393101597
+util, 9384, 0.0508929567568
+divis, 2767, 0.0501858093164
+break, 1284, 0.0496298370343
+henri, 4258, 0.0493094467194
+predict, 6816, 0.0491009963886
+longer, 5337, 0.0484014579926
+special, 8198, 0.0483051099525
+begin, 994, 0.0481149457217
+main, 5450, 0.0475636871091
+practic, 6793, 0.0474744760447
+reach, 7128, 0.0471247978771
+wasn, 9652, 0.0470391129793
+histori, 4314, 0.0468697488595
+religion, 7261, 0.0459056396638
+especi, 3190, 0.0448795554033
+nice, 6047, 0.0438783133069
+leagu, 5176, 0.0435023536603
+clear, 1803, 0.0415879164733
+close, 1830, 0.0410836821564
+guy, 4100, 0.0406965308896
+major, 5458, 0.0397851469919
+list, 5298, 0.0396980856151
+yes, 9951, 0.0394834432915
+note, 6118, 0.0391074836449
+exist, 3283, 0.038863898492
+origin, 6293, 0.0385474064268
+news, 6031, 0.0374366316108
+end, 3091, 0.037366475488
+big, 1082, 0.0369212056737
+talk, 8684, 0.0366560161004
+far, 3386, 0.0362069957909
+play, 6681, 0.035745688592
+got, 3960, 0.035566526114
+articl, 665, 0.0349338270858
+actual, 254, 0.0348503420789
+ll, 5314, 0.0343360319229
+start, 8334, 0.0343096273224
+long, 5336, 0.0341525364114
+problem, 6887, 0.0341006746707
+lot, 5356, 0.0338197875403
+come, 1923, 0.0314314069266
+thing, 8869, 0.0296113645216
+peopl, 6530, 0.0294081257584
+good, 3948, 0.027862638183
+make, 5459, 0.0271858566358
+like, 5272, 0.0228229266907

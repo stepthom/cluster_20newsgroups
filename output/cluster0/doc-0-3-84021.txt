@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84021
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ch981@cleveland.Freenet.Edu (Tony Alicea)
+Subject: Re: Rosicrucian Order(s) ?!
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 13
+Reply-To: ch981@cleveland.Freenet.Edu (Tony Alicea)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, sandvik@newton.apple.com (Kent Sandvik) says:
+
+>Well, it depends how you look at it. If you are interested I might
+>find out what the latest status is in this legal battle.
+>Kent
+>
+	Please do! And if you don't want to post it here, email to me
+:-) I don't know how this discussion is appreciated here. I hate
+'invading' newsgroups with themes of limited interest :-)
+
+Tony
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rosicrucian order         well depend look
+interest might find latest status legal battl kent
+pleas don't want post email don't know discuss
+appreci hate invad newsgroup theme limit interest
+toni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+invad, 4737, 0.322755715709
+battl, 951, 0.288770704749
+theme, 8840, 0.278229761267
+rosicrucian, 7486, 0.273766884101
+status, 8352, 0.242858372646
+latest, 5141, 0.234200653818
+toni, 8984, 0.230833654547
+hate, 4202, 0.224778052492
+legal, 5200, 0.223384452942
+kent, 4987, 0.213024408517
+don, 2811, 0.20228801335
+depend, 2537, 0.199121669892
+newsgroup, 6032, 0.197174130843
+limit, 5278, 0.194944088364
+email, 3060, 0.187606575124
+appreci, 587, 0.172383630909
+discuss, 2708, 0.171517748242
+order, 6281, 0.157630325281
+pleas, 6688, 0.131176427942
+post, 6766, 0.130232201867
+want, 9634, 0.121469684973
+look, 5341, 0.111282732385
+know, 5052, 0.096049445322

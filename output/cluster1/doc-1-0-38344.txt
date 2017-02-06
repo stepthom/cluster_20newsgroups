@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38344
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tiang@midway.ecn.uoknor.edu (Tiang)
+Subject: Re: A Book I found... graphics
+Nntp-Posting-Host: midway.ecn.uoknor.edu
+Organization: Engineering Computer Network, University of Oklahoma, Norman, OK, USA
+Lines: 35
+
+covlir@crockett1c.its.rpi.edu (Locks) writes:
+Hello,
+
+>I happened to spot an excellent book in a bookstore about 4 days ago,
+>though!!!!!!  It is in C++ and assembly.  It teaches you the assembly
+>as it goes along --so if you're like me and have no assembler experience,
+>don't worry.  It has almost everything that I wanted to know and has
+>-----WORKING----- code.
+
+>--Rod Covlin--
+
+	I just bought a copy.  I can't disagree that it is a very good
+book.  But unfortunately I was looking for the same graphics feature
+described in this book but _NOT_ in 640x480x16 or 320x200x256 mode. It
+is easy to accomodate all the pixel "descriptor" (or color attributes)
+in those modes into A0000-AFFFFF, but not in 640x480x256(which is what
+I am interested in).  I haven't finish the book but I affraid the
+author didn't talk much about this mode(or other SVGA modes).  If
+anyone out there know any good book dealing with fast SVGA graphics
+manupulation(scrolling, repainting, all other good stuff..) please
+send me mail.  Programming guide to SVGA card is also welcome.
+
+	Thanks in advance.
+
+
+ 
+************************************************************************
+*                         Tiang   T.    Foo                            *
+*		      tiang@uokmax.ecn.uoknor.edu 		       *
+************************************************************************    
+-- 
+************************************************************************
+*                         Tiang   T.    Foo                            *
+*		      tiang@uokmax.ecn.uoknor.edu 		       *
+************************************************************************    
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ book found graphic      hello  happen spot excel
+book bookstor day ago though assembl teach assembl
+goe along you'r like assembl experi don't worri
+almost everyth want know work code  rod covlin
+bought copi can't disagre good book unfortun look
+graphic featur describ book 640x480x16 320x200x256
+mode easi accomod pixel descriptor color attribut
+mode a0000 afffff 640x480x256 interest haven't
+finish book affraid author didn't talk much mode
+svga mode anyon know good book deal fast svga
+graphic manupul scroll repaint good stuff pleas
+send mail program guid svga card also welcom
+thank advanc     tiang foo     tiang foo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+book, 1218, 0.377793266393
+mode, 5806, 0.322670804828
+svga, 8613, 0.298366652305
+tiang, 8914, 0.284266461795
+assembl, 698, 0.280180674346
+foo, 3583, 0.266306730839
+graphic, 3997, 0.173627827509
+manupul, 5495, 0.13707603292
+a0000, 153, 0.13707603292
+640x480x16, 128, 0.13707603292
+good, 3948, 0.135565162675
+640x480x256, 129, 0.133153365419
+accomod, 214, 0.122820592483
+320x200x256, 89, 0.117763394506
+bookstor, 1220, 0.115053561045
+rod, 7453, 0.111640468964
+scroll, 7726, 0.110635674288
+bought, 1247, 0.104171395863
+guid, 4082, 0.0970436756444
+welcom, 9701, 0.092675943332
+attribut, 773, 0.0916516271424
+disagre, 2676, 0.0910004741435
+worri, 9845, 0.0906837246541
+pixel, 6651, 0.0886132024121
+hello, 4247, 0.0870139985105
+spot, 8261, 0.0857841880126
+finish, 3488, 0.0850855879645
+excel, 3261, 0.0841953156547
+unfortun, 9264, 0.0835560044353
+featur, 3422, 0.0823431703956
+teach, 8729, 0.0815787403488
+fast, 3397, 0.0775814267863
+easi, 2959, 0.0775814267863
+copi, 2130, 0.0772859724188
+everyth, 3242, 0.0757441854035
+describ, 2556, 0.0757441854035
+know, 5052, 0.0757302489768
+card, 1513, 0.0754778299889
+haven, 4207, 0.0750857143773
+goe, 3931, 0.0750857143773
+experi, 3295, 0.0735992698171
+author, 796, 0.0721192468538
+deal, 2418, 0.0710599432314
+color, 1907, 0.0706534714565
+code, 1871, 0.0698676816002
+ago, 336, 0.0684827830116
+send, 7785, 0.0675323287839
+stuff, 8472, 0.0673649073179
+advanc, 285, 0.0664715495984
+happen, 4159, 0.0619571463362
+mail, 5447, 0.0604326678226
+talk, 8684, 0.0594497280196
+didn, 2625, 0.0587214946185
+program, 6905, 0.0545659876731
+day, 2402, 0.0521283450194
+pleas, 6688, 0.0517130708803
+work, 9833, 0.0498028804956
+thank, 8832, 0.0492294334262
+want, 9634, 0.047886426909
+anyon, 554, 0.0472382752967
+look, 5341, 0.0438704721412
+don, 2811, 0.0398735296302
+like, 5272, 0.037014845821

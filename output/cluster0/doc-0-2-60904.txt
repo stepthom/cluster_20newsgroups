@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60904
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: 18084TM@msu.edu (Tom)
+Subject: Space Clippers launched
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 14
+
+
+
+>  SPACE CLIPPERS LAUNCHED SUCCESSFULLY
+
+When I first saw this, I thought for a second that it was a headline from
+The Star about the pliers found in the SRB recently.
+
+Y'know, sometimes they have wire-cutters built in :-)
+
+-Tommy Mac
+-------------------------------------------------------------------------
+Tom McWilliams 517-355-2178 wk   \\ As the radius of vision increases,
+18084tm@ibm.cl.msu.edu 336-9591 hm \\ the circumference of mystery grows.
+-------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space clipper launch ad forward space digest
+space clipper launch success  first saw thought
+second headlin star plier found srb recent  y'know
+sometim wire cutter built  tommi mac  tom
+mcwilliam radius vision increas
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clipper, 1823, 0.416213106185
+space, 8164, 0.278853105904
+launch, 5147, 0.257673450121
+cutter, 2316, 0.255520430785
+plier, 6693, 0.237182462428
+headlin, 4218, 0.237182462428
+srb, 8280, 0.212208005919
+mcwilliam, 5590, 0.206233537343
+wire, 9793, 0.190605281795
+tommi, 8978, 0.185392913953
+radius, 7064, 0.181748177295
+vision, 9542, 0.16678072764
+digest, 2640, 0.165181929847
+forward, 3621, 0.148756339232
+tom, 8976, 0.147824460666
+increas, 4590, 0.147824460666
+mac, 5410, 0.146036625247
+success, 8513, 0.145461718315
+saw, 7650, 0.144341306457
+sometim, 8128, 0.144067088501
+built, 1381, 0.14352544221
+star, 8324, 0.141697223261
+ad, 257, 0.140696569798
+recent, 7168, 0.130238815058
+thought, 8887, 0.114370628779
+second, 7753, 0.114041290786
+know, 5052, 0.0705835492528

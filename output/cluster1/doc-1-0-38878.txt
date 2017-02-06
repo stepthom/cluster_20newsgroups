@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38878
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wilmshurst@reg.triumf.ca (WILMSHURST, PETER)
+Subject: Re: morphing
+Organization: TRIUMF: Tri-University Meson Facility
+Lines: 14
+Distribution: world
+NNTP-Posting-Host: reg.triumf.ca
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <13742@news.duke.edu>, seth@north6.acpub.duke.edu (Seth Wandersman) writes...
+> 
+>Keywords: 
+> 
+>I am looking for some morphing programs for DEC's or pc's. I looked for a program
+>called dmorph using archie but could not find it. I found a progrmam call
+>morpho but it only did grayscale images. Does anyone know where I should look?
+
+Try searching for DMORF, I think it's located on wuarchive.wustl.edu in a
+mirror directory... I've used it before, & it was pretty good!
+
+Pete Wilmshurst
+email:	wilmshurst@reg.triumf.ca
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ morph     news softwar vax vms vnew  north6 acpub
+duke edu seth wandersman write  keyword  look
+morph program dec pc look program call dmorph use
+archi could find found progrmam call morpho
+grayscal imag anyon know look  tri search dmorf
+think it locat wuarchiv wustl edu mirror directori
+i'v use pretti good  pete wilmshurst
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+morph, 5866, 0.394657667127
+dmorph, 2780, 0.23535370755
+look, 5341, 0.232628253245
+dmorf, 2779, 0.22968865329
+edu, 3001, 0.220336230934
+dec, 2431, 0.217090132971
+duke, 2912, 0.20815134055
+pc, 6484, 0.199212548129
+keyword, 4997, 0.199212548129
+grayscal, 4013, 0.197328833564
+program, 6905, 0.192894974371
+wustl, 9878, 0.187936430542
+archi, 613, 0.187936430542
+wuarchiv, 9876, 0.17968056175
+pete, 6574, 0.170741769329
+mirror, 5755, 0.164436037231
+search, 7746, 0.152049611757
+directori, 2669, 0.147320742023
+vnew, 9564, 0.141352546097
+locat, 5323, 0.13765931763
+use, 9363, 0.137246623986
+vms, 9563, 0.137128163255
+vax, 9439, 0.135587098295
+pretti, 6851, 0.113924748064
+news, 6031, 0.107317432004
+write, 9865, 0.107116319495
+imag, 4512, 0.104154863101
+softwar, 8103, 0.103702573102
+tri, 9087, 0.0899868771741
+anyon, 554, 0.083495473016
+good, 3948, 0.079872217398
+think, 8871, 0.0711636648429
+know, 5052, 0.0669280675493

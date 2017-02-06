@@ -1,0 +1,272 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104572
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: CROSEN1@ua1vm.ua.edu (Charles Rosen)
+Subject: Re: Torre: The worst manager?
+Nntp-Posting-Host: ua1vm.ua.edu
+Organization: The University of Alabama, Tuscaloosa
+Lines: 61
+
+In article <93095@hydra.gatech.EDU>
+gt7469a@prism.gatech.EDU (Brian R. Landmann) writes:
+ 
+>Joe Torre has to be the worst manager in baseball.
+>
+>For anyone who didn't see Sunday's game,
+>
+>With a right hander pitching he decides to bench Lankform, a left handed
+>hitter and play jordan and gilkey, both right handers.
+>
+>Later, in the ninth inning with the bases loaded and two outs he puts
+>lankford, a 300 hitter with power in as a pinch runner and uses Luis
+>Alicea, a 250 hitter with no power as a pinch hitter.  What the Hell
+>is he thinking.
+>
+For your information, Lankford is injured (I think it is his shoulder or rib
+cage), so he could not use him as a pinch hitter.
+ 
+>Earlier in the game in an interview about acquiring Mark Whiten he commented
+>how fortunate the Cardinals were to get Whiten and that Whiten would be a
+>regular even though this meant that Gilkey would be hurt, But torre said
+>he liked Gilkey coming off the bench.  Gilkey hit over 300 last year,
+>what does he have to do to start, The guy would be starting on most every
+>team in the league.
+>
+I do believe that Whiten was a very good aquisition for the Cards.  He does
+not have too much offensive capabilities, but he is an awesome defensively.
+Since when have the Cardnials actually thought of offense instead of defense?:)
+I forgot who St. Louis gave up for him, but it was not too much.
+ 
+As far as Gilkey is concerned, he is a leftfielder and so is Brian Jordan, who
+beat him out.  I expect to see a Gilkey/Jordan platoon in LF.
+ 
+>Furthermore, in Sundays game when lankford was thrown out at the plate,
+>The replay showed Bucky Dent the third base coach looking down the line
+>and waving lankford home,
+>
+I agree with you on this one.  As soon as Larkin threw that ball, I knew that
+Lankford was a dead bird.  But how could Dent have known that Larkin would make
+a perfect throw?
+ 
+I strongly believe that Torre is one of the best managers in baseball.  Don't
+forget the overachieving Cards of '91 that won all those close games and went
+from last place to second place (although they were oveshadowed by the Braves/
+Twins last to first climb).  He won a division title, and barely lost a pennant
+race when he was with the Braves (why Atlanta ever even considered firing him I
+will never understand).  With Torre at the controls, the Cardinals are heading
+in the right direction.
+ 
+One more thing, one game does not make a season.  Yes, they lost to the Reds,
+but with the second best pitching staff in the National League (first in the
+East), and a pretty good offense, the Redbirds will win a lot more than they
+lose.  Maybe this is the year that they will go all the way.
+ 
+Charles, a very enthusiastic Cardnials fan
+ 
+  -----------------------------------------------------------------
+  º Charles Rosen            º      THIRTY-FOUR TO THIRTEEN!!!    º
+  º University of Alabama    º   NATIONAL CHAMPS!!!  ROLL TIDE!!! º
+  º Tuscaloosa, AL           º         (Need I Say More?)         º
+  -----------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ torr worst manag        joe torr worst manag
+basebal  anyon didn't see sunday game  right
+hander pitch decid bench lankform left hand hitter
+play jordan gilkey right hander  later ninth
+inning base load two out put lankford hitter power
+pinch runner use lui alicea hitter power pinch
+hitter hell think  inform lankford injur think
+shoulder rib cage could use pinch hitter  earlier
+game interview acquir mark whiten comment fortun
+cardin get whiten whiten regular even though meant
+gilkey hurt torr said like gilkey come bench
+gilkey hit last year start guy start everi team
+leagu  believ whiten good aquisit card much offens
+capabl awesom defens sinc cardnial actual thought
+offens instead defens forgot loui gave much  far
+gilkey concern leftfield brian jordan beat expect
+see gilkey jordan platoon  furthermor sunday game
+lankford thrown plate replay show bucki dent third
+base coach look line wave lankford home  agre one
+soon larkin threw ball knew lankford dead bird
+could dent known larkin make perfect throw  strong
+believ torr one best manag basebal don't forget
+overachiev card close game went last place second
+place although oveshadow brave twin last first
+climb divis titl bare lost pennant race brave
+atlanta ever even consid fire never understand
+torr control cardin head right direct  one thing
+one game make season yes lost red second best
+pitch staff nation leagu first east pretti good
+offens redbird win lot lose mayb year way  charl
+enthusiast cardnial fan   charl rosen thirti four
+thirteen univers alabama nation champ roll tide
+tuscaloosa need say
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gilkey, 3876, 0.402425205179
+torr, 9004, 0.297076003788
+lankford, 5114, 0.292102672034
+whiten, 9738, 0.259857035207
+hitter, 4322, 0.200929079072
+jordan, 4890, 0.192193420917
+pinch, 6632, 0.151063026425
+game, 3761, 0.143082801143
+dent, 2532, 0.13414173506
+offens, 6202, 0.133299901362
+hander, 4147, 0.129928517604
+larkin, 5127, 0.115041498488
+bench, 1022, 0.111174734743
+manag, 5472, 0.108132043028
+charl, 1668, 0.102388119331
+cardin, 1515, 0.101114747191
+sunday, 8541, 0.0948793886893
+worst, 9849, 0.0926555039348
+right, 7399, 0.0861525904847
+lost, 5355, 0.0834885349931
+defens, 2476, 0.0816450037688
+card, 1513, 0.0810684338556
+brave, 1277, 0.0807866197066
+leagu, 5176, 0.0757791521178
+nation, 5962, 0.0743339838075
+leftfield, 5194, 0.0736145919249
+aquisit, 599, 0.0736145919249
+tide, 8922, 0.0715079831969
+rosen, 7483, 0.0715079831969
+bucki, 1360, 0.0715079831969
+power, 6783, 0.0700810582455
+thirteen, 8875, 0.0697867585387
+lankform, 5115, 0.0697867585387
+pitch, 6643, 0.0689270618294
+climb, 1819, 0.0683314838259
+rib, 7378, 0.0670708675298
+redbird, 7195, 0.0659589251526
+cage, 1447, 0.0659589251526
+second, 7753, 0.0657098382151
+champ, 1645, 0.0649642588019
+place, 6657, 0.0646691198422
+replay, 7289, 0.0640644736391
+basebal, 924, 0.0636263347575
+best, 1052, 0.063125772961
+enthusiast, 3128, 0.062487383059
+alicea, 412, 0.062487383059
+bare, 910, 0.0611364254157
+alabama, 374, 0.0605271431348
+start, 8334, 0.0597658344713
+base, 923, 0.0590890165789
+thirti, 8877, 0.0589047738168
+awesom, 835, 0.0589047738168
+acquir, 244, 0.0584205344068
+believ, 1009, 0.0583076141403
+shoulder, 7911, 0.0579599260447
+platoon, 6679, 0.0579599260447
+lui, 5385, 0.0579599260447
+injur, 4649, 0.0571010979906
+fortun, 3619, 0.0571010979906
+forgot, 3607, 0.0566993097486
+thrown, 8900, 0.0555873673713
+bird, 1113, 0.0555873673713
+interview, 4726, 0.0549127519665
+furthermor, 3732, 0.0549127519665
+pennant, 6524, 0.0545927010206
+coach, 1856, 0.0545927010206
+threw, 8894, 0.0531374263079
+wave, 9661, 0.0528714763625
+ninth, 6075, 0.0526128136414
+twin, 9172, 0.0523610494218
+roll, 7464, 0.0518768100118
+loui, 5363, 0.0497702012838
+good, 3948, 0.0485354680752
+runner, 7545, 0.0482076458855
+plate, 6674, 0.0478929301185
+meant, 5598, 0.0477394210658
+hurt, 4451, 0.0477394210658
+year, 9943, 0.0474520252674
+make, 5459, 0.047356544925
+knew, 5045, 0.0471491914628
+joe, 4876, 0.0468673616167
+race, 7049, 0.0465937019128
+beat, 974, 0.0463277519674
+earlier, 2952, 0.0459423678976
+staff, 8301, 0.0458173250267
+atlanta, 749, 0.0455721008827
+titl, 8953, 0.0454518368521
+soon, 8136, 0.0449855396687
+gave, 3798, 0.0444333004539
+brian, 1304, 0.0443266258869
+load, 5317, 0.0439115876796
+regular, 7234, 0.0438106177467
+divis, 2767, 0.0437107162988
+inning, 4657, 0.0435140300444
+hell, 4245, 0.0433213580767
+think, 8871, 0.0432435945266
+forget, 3604, 0.0430395282306
+east, 2965, 0.0429474240977
+throw, 8899, 0.042326691726
+capabl, 1498, 0.042326691726
+went, 9704, 0.0421565862457
+dead, 2415, 0.04207266926
+strong, 8456, 0.0418253031764
+use, 9363, 0.0416999136491
+lose, 5350, 0.0415052522306
+perfect, 6538, 0.0412721391834
+decid, 2442, 0.0408959699496
+concern, 2004, 0.0408225018844
+instead, 4682, 0.0405342169278
+head, 4215, 0.0398498159831
+later, 5140, 0.0395893691557
+control, 2107, 0.0393986435026
+mark, 5512, 0.0384418152736
+comment, 1936, 0.0378895760589
+red, 7194, 0.0377829014919
+known, 5054, 0.0377300128452
+left, 5193, 0.0375731017749
+fan, 3381, 0.0375731017749
+ball, 877, 0.0369217677597
+expect, 3290, 0.0365888154128
+agre, 337, 0.0365421950774
+home, 4354, 0.0364036997027
+season, 7747, 0.0363579824282
+direct, 2667, 0.0361772955972
+close, 1830, 0.0357829673309
+guy, 4100, 0.0354457672455
+pretti, 6851, 0.0346139818875
+yes, 9951, 0.0343891951076
+win, 9770, 0.0343154400548
+hand, 4145, 0.0342422567524
+understand, 9246, 0.0338495854582
+consid, 2059, 0.0331100859579
+mayb, 5564, 0.0330456447607
+hit, 4316, 0.0330135883674
+thought, 8887, 0.0329498002955
+everi, 3235, 0.0323345599211
+far, 3386, 0.0315354826913
+didn, 2625, 0.0315354826913
+said, 7583, 0.0314266561406
+univers, 9282, 0.0313727097153
+team, 8732, 0.0313458516638
+line, 5285, 0.0312923637092
+play, 6681, 0.0311336944493
+inform, 4637, 0.0310293773798
+actual, 254, 0.0303538676825
+lot, 5356, 0.0294562777525
+sinc, 7977, 0.0287786345738
+come, 1923, 0.0273760517117
+thing, 8869, 0.0257908355261
+need, 5993, 0.0253828449327
+anyon, 554, 0.0253685949696
+way, 9666, 0.0246954527018
+say, 7653, 0.0239684033231
+look, 5341, 0.0235599676721
+don, 2811, 0.0214134706833
+like, 5272, 0.0198782581624

@@ -1,0 +1,287 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60234
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dbm0000@tm0006.lerc.nasa.gov (David B. Mckissock)
+Subject: Blue Ribbon Panel Members Named
+News-Software: VAX/VMS VNEWS 1.41    
+Nntp-Posting-Host: tm0006.lerc.nasa.gov
+Organization: NASA Lewis Research Center / Cleveland, Ohio
+Lines: 71
+
+The following press release was distributed April 1 by
+NASA Headquarters.
+
+Space Station Redesign Advisory Members Named
+
+Along with Dr. Charles M. Vest, recently named by Vice President
+Albert Gore to head the advisory committee on the redesign of the
+Space Station, NASA has announced the names of representatives
+from government and industry and academic experts from across the
+country to participate in an independent review of the redesign
+options being developed by NASA.
+
+"I am extremely honored to have been selected to lead this
+important review panel. America's future in science and
+technology and as a world leader in space demands our utmost
+attention and care," said Vest. "We have assembled a diverse
+panel of experts that, I believe, will bring the appropriate
+measures of insight, integrity and objectivity to this critical
+task."
+
+The advisory committee is charged with independently assessing
+various redesign options of the space station presented by NASA's
+redesign team, and proposing recommendations to improve
+efficiency and effectiveness of the space station program. Space
+station international partners also are being asked to 
+participate and will be named at a later date. The advisory
+committee will submit its recommendations in June.
+
+Advisory committee members named today include:
+
+Dr. Charles Vest              Dr. Bobby Alford
+President, MIT                Executive VP & Dean of Medicine
+                              Baylor College of Medicine
+
+Mr. Jay Chabrow               Dr. Paul Chu
+President, JMR Associates     Director, Texas Center for
+                              Superconductivity
+                              University of Houston
+
+Dr. Ed Crawley                Dr. John Fabian
+Prof of Aero & Astro          President & CEO
+MIT                           ANSER
+
+Maj. Gen. James Fain          Dr. Edward Fort
+Deputy Chief of Staff for     Chancellor
+Requirements; Headquarters    North Carolina AT&T
+USAF Materials Command        State University
+
+Dr. Mary Good                 Mr. Frederick Hauck
+Senior VP of Technology       President, International Technical
+Allied Signal, Inc.           Underwriters
+
+Dr. Lou Lanzerotti            Mr. William Lilly
+Chair, Space Sciences         National Academy of Public
+Board, National Research      Administration
+Council
+
+Mr. Duane McRuer              Dr. Brad Parkinson
+President Systems Technology  Prof of Astro & Aero
+                              Stanford University
+
+Dr. Robert Seamans            Dr. Lee Silver
+Former NASA Deputy Admin.     W.M. Keck Foundation Professor
+                              for Resource Geology
+                              California Institute of
+                              Technology
+
+Dr. Albert "Bud" Wheelon
+Retired CEO
+Hughes Aircraft
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ blue ribbon panel member name news softwar vax
+vms vnew     follow press releas distribut april
+nasa headquart  space station redesign advisori
+member name  along charl vest recent name vice
+presid albert gore head advisori committe redesign
+space station nasa announc name repres govern
+industri academ expert across countri particip
+independ review redesign option develop nasa
+extrem honor select lead import review panel
+america futur scienc technolog world leader space
+demand utmost attent care said vest assembl divers
+panel expert believ bring appropri measur insight
+integr object critic task  advisori committe charg
+independ assess various redesign option space
+station present nasa redesign team propos
+recommend improv effici effect space station
+program space station intern partner also ask
+particip name later date advisori committe submit
+recommend  advisori committe member name today
+includ  charl vest bobbi alford presid mit execut
+dean medicin baylor colleg medicin  jay chabrow
+paul chu presid jmr associ director texa center
+superconduct univers houston  crawley john fabian
+prof aero astro presid ceo mit anser  maj gen jame
+fain edward fort deputi chief staff chancellor
+requir headquart north carolina usaf materi
+command state univers  mari good frederick hauck
+senior technolog presid intern technic alli signal
+inc underwrit  lou lanzerotti william lilli chair
+space scienc nation academi public board nation
+research administr council  duan mcruer brad
+parkinson presid system technolog prof astro aero
+stanford univers  robert seaman lee silver former
+nasa deputi admin keck foundat professor resourc
+geolog california institut technolog  albert bud
+wheelon retir ceo hugh aircraft
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+advisori, 295, 0.312045340025
+redesign, 7200, 0.2659102149
+presid, 6839, 0.264284684661
+vest, 9487, 0.21513724281
+committe, 1946, 0.20812384211
+station, 8346, 0.194100547027
+space, 8164, 0.182608497915
+nasa, 5956, 0.173054441118
+panel, 6406, 0.15691652394
+technolog, 8743, 0.146207328013
+aero, 298, 0.135966981763
+ceo, 1615, 0.130675555266
+deputi, 2546, 0.128509134987
+member, 5625, 0.122233651913
+prof, 6897, 0.120382366736
+headquart, 4219, 0.116811194328
+medicin, 5609, 0.109717583481
+albert, 383, 0.107633093463
+mit, 5781, 0.10461101596
+expert, 3298, 0.101538337838
+charl, 1668, 0.0997424428747
+review, 7358, 0.096246911341
+particip, 6440, 0.096246911341
+recommend, 7178, 0.0933107840567
+astro, 724, 0.0930116992015
+independ, 4595, 0.0921425620848
+univers, 9282, 0.091686146607
+option, 6276, 0.0890264009326
+intern, 4716, 0.0818089930483
+alford, 401, 0.0743581275185
+nation, 5962, 0.072413217295
+utmost, 9385, 0.07171241427
+ribbon, 7379, 0.07171241427
+keck, 4970, 0.07171241427
+superconduct, 8558, 0.0696602396419
+maj, 5456, 0.0696602396419
+duan, 2902, 0.0696602396419
+brad, 1262, 0.0696602396419
+alli, 429, 0.0696602396419
+scienc, 7692, 0.0687398280017
+admin, 271, 0.0665658200049
+academi, 206, 0.0653377776332
+gen, 3815, 0.0632856030051
+baylor, 957, 0.0632856030051
+bud, 1362, 0.0624090680049
+usaf, 9359, 0.061608854245
+frederick, 3667, 0.061608854245
+council, 2177, 0.061608854245
+vice, 9500, 0.0608727289441
+carolina, 1527, 0.0608727289441
+chair, 1638, 0.0601911833682
+divers, 2762, 0.0595566796169
+assess, 700, 0.0595566796169
+partner, 6444, 0.0584055971642
+hugh, 4428, 0.0584055971642
+senior, 7787, 0.0578799308567
+lou, 5360, 0.0578799308567
+insight, 4672, 0.0578799308567
+silver, 7957, 0.0564622599799
+retir, 7339, 0.0560344313681
+academ, 205, 0.0556256237697
+foundat, 3627, 0.0552342176082
+edward, 3003, 0.0552342176082
+director, 2668, 0.0548587917403
+dean, 2421, 0.0544980923073
+bobbi, 1190, 0.0541510074685
+geolog, 3842, 0.0538165467314
+chief, 1703, 0.0538165467314
+stanford, 8318, 0.0534938239112
+submit, 8491, 0.0531820429801
+honor, 4364, 0.0525885043596
+professor, 6901, 0.0523055079799
+execut, 3272, 0.0523055079799
+aircraft, 359, 0.0512533152614
+task, 8707, 0.0505363297315
+effici, 3006, 0.0503092402514
+administr, 273, 0.0500876233431
+leader, 5173, 0.0488595809714
+assembl, 698, 0.0488595809714
+mari, 5508, 0.0484841551035
+demand, 2514, 0.0484841551035
+houston, 4399, 0.0483020371392
+appropri, 590, 0.0483020371392
+colleg, 1900, 0.0481234556705
+integr, 4694, 0.0477763708317
+signal, 7947, 0.0474419100946
+attent, 766, 0.0474419100946
+lee, 5190, 0.0472791331609
+texa, 8820, 0.0465058496007
+william, 9764, 0.0462138677228
+north, 6110, 0.0457925731481
+california, 1459, 0.0457925731481
+jame, 4820, 0.0455220637447
+extrem, 3333, 0.0455220637447
+america, 468, 0.0453897354665
+critic, 2237, 0.0451306575831
+staff, 8301, 0.0446334199124
+countri, 2186, 0.0445132004663
+industri, 4608, 0.0443945322823
+press, 6841, 0.0441616930948
+board, 1186, 0.0441616930948
+repres, 7294, 0.0439346036146
+resourc, 7320, 0.0437129867063
+charg, 1664, 0.0437129867063
+paul, 6469, 0.0433902638862
+associ, 706, 0.0432851580946
+distribut, 2753, 0.0430784829551
+select, 7774, 0.0429768614055
+improv, 4557, 0.0424849443346
+blue, 1176, 0.0423896413402
+institut, 4683, 0.0422953158295
+announc, 524, 0.0422019479549
+vnew, 9564, 0.0418376763111
+measur, 5601, 0.0414872851064
+robert, 7437, 0.0414017341949
+jay, 4832, 0.0410672734578
+technic, 8737, 0.0408241758681
+vms, 9563, 0.0405873390032
+various, 9432, 0.0405873390032
+materi, 5543, 0.0405097296256
+date, 2391, 0.0404327697065
+command, 1933, 0.0403564484663
+releas, 7253, 0.0402056802264
+vax, 9439, 0.040131212964
+bring, 1316, 0.0388846476118
+head, 4215, 0.0388201094055
+futur, 3737, 0.0388201094055
+propos, 6933, 0.0386291684985
+later, 5140, 0.0385663924413
+govern, 3966, 0.0383805950784
+april, 595, 0.0381984771142
+lead, 5172, 0.0373383500696
+center, 1606, 0.0371219481638
+effect, 3005, 0.0368584156149
+present, 6837, 0.0368066033277
+recent, 7168, 0.0365518320033
+care, 1516, 0.0362066086475
+research, 7307, 0.0353741823969
+public, 6973, 0.0353300736473
+today, 8964, 0.0351557242236
+import, 4551, 0.0348583468297
+john, 4878, 0.0347751185996
+develop, 2588, 0.0342517540457
+requir, 7302, 0.0342127023664
+object, 6173, 0.0338685045647
+state, 8342, 0.0326076755034
+ask, 689, 0.0318539441267
+news, 6031, 0.0317639271928
+includ, 4579, 0.0316452590087
+world, 9841, 0.0308009364991
+softwar, 8103, 0.030693997426
+said, 7583, 0.0306146013358
+team, 8732, 0.030535884821
+follow, 3578, 0.0302275881319
+program, 6905, 0.0285466294121
+believ, 1009, 0.0284004819628
+good, 3948, 0.0236406635042

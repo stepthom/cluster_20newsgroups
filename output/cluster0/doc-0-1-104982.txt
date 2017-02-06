@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104982
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: paula@koufax.cv.hp.com (Paul Andresen)
+Subject: Kevin Mitchell Does It Again
+Nntp-Posting-Host: koufax.cv.hp.com
+Organization: Our Lady Of The Stand-Up Triple
+Lines: 12
+
+In what seems to be a classic Mitchell move, he drops a fly ball, and injures
+his hamstring on the same play. Haven't heard anything on how serious the
+leg is.
+
+--->Paul, who me? bitter about Mitchell's performance in Seattle? Nah.
+--------------------------------------------------------------------------------
+           We will stretch no farm animal beyond its natural length
+
+  paula@koufax.cv.hp.com   Paul Andresen  Hewlett-Packard  (503)-750-3511
+
+    home: 3006 NW McKinley    Corvallis, OR 97330       (503)-752-8424
+                            A SABR member since 1979
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kevin mitchel     seem classic mitchel move drop
+fli ball injur hamstr play haven't heard anyth
+serious leg  paul bitter mitchel perform seattl
+nah  stretch farm anim beyond natur length    home
+mckinley corval sabr member sinc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mitchel, 5783, 0.551011367192
+nah, 5947, 0.227612719061
+mckinley, 5581, 0.222866273729
+corval, 2161, 0.218754715765
+bitter, 1128, 0.218754715765
+sabr, 7565, 0.19212062596
+leg, 5199, 0.19212062596
+injur, 4649, 0.186237854389
+farm, 3390, 0.180180958247
+classic, 1790, 0.180180958247
+seattl, 7749, 0.166971777516
+kevin, 4993, 0.166971777516
+stretch, 8443, 0.165571947989
+length, 5212, 0.152410542204
+drop, 2878, 0.149032808714
+paul, 6469, 0.145273151111
+member, 5625, 0.136415147814
+anim, 515, 0.132906696223
+haven, 4207, 0.131517395315
+fli, 3542, 0.131517395315
+natur, 5966, 0.130405688049
+perform, 6539, 0.12501098832
+ball, 877, 0.120422041779
+home, 4354, 0.11873233901
+heard, 4224, 0.116988989675
+anyth, 555, 0.105557938523
+play, 6681, 0.101543974766
+sinc, 7977, 0.0938628387874

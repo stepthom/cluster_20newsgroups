@@ -1,0 +1,121 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38665
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: newmme@helios.tn.cornell.edu (Mark E. J. Newman)
+Subject: HELP: advice on what video system to buy
+Keywords: video, RS6000
+Organization: Cornell University
+Lines: 22
+
+If this question is covered elsewhere, I apologize, but I need information
+fast.
+
+My department has been given a large sum of money to install a video system
+on our network of IBM RS6000 workstations.  This is not an area in which I
+have any expertise, so I wonder if anyone out there can offer advice.  We
+would like a system, based either on VHS or 8mm video which will allow one 
+write video, frame by frame on tape for play-back in real time.  It's for
+visualization of physics problems.  Can anyone tell me what hardware is
+available which would work for our system?  Some support software is
+obviously needed too, but nothing particularly sophisticated, since the
+software we actually use for the visualization is all already written.
+
+Please email with replies, as I don't read this group.  Many thanks for your
+help.
+
+Dr. M. E. J. Newman.
+Department of Physics,
+Cornell University.
+newmme@helios.tn.cornell.edu
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help advic video system buy     question cover
+elsewher apolog need inform fast  depart given
+larg sum money instal video system network ibm
+rs6000 workstat area expertis wonder anyon offer
+advic like system base either vhs 8mm video allow
+one write video frame frame tape play back real
+time it visual physic problem anyon tell hardwar
+avail work system support softwar obvious need
+noth particular sophist sinc softwar actual use
+visual alreadi written  pleas email repli don't
+read group mani thank help  newman depart physic
+cornel univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+video, 9506, 0.404987978293
+advic, 292, 0.252898496951
+visual, 9547, 0.228260499764
+frame, 3643, 0.216358133278
+depart, 2535, 0.20988408772
+physic, 6613, 0.194344086917
+8mm, 149, 0.174280482214
+vhs, 9496, 0.165218194006
+rs6000, 7512, 0.156155905797
+sophist, 8139, 0.15167084496
+expertis, 3299, 0.15167084496
+softwar, 8103, 0.149189362175
+cornel, 2147, 0.147937127233
+help, 4249, 0.131323921009
+sum, 8532, 0.128513824768
+elsewher, 3055, 0.128513824768
+instal, 4679, 0.1258013668
+need, 5993, 0.120186347276
+anyon, 554, 0.1201188745
+apolog, 571, 0.119212493075
+workstat, 9840, 0.117829555973
+tape, 8700, 0.114512316498
+ibm, 4472, 0.108179066639
+network, 6018, 0.10348389518
+cover, 2194, 0.102789009591
+buy, 1433, 0.10146087518
+hardwar, 4173, 0.0998045358577
+fast, 3397, 0.0986381658639
+offer, 6203, 0.0980770396696
+written, 9867, 0.0975296567323
+repli, 7290, 0.0969953599077
+obvious, 6185, 0.0945001671677
+email, 3060, 0.0940328953864
+particular, 6442, 0.0935751929864
+area, 622, 0.0908756829875
+money, 5835, 0.0900867651054
+alreadi, 443, 0.0895758776554
+allow, 432, 0.0856487329078
+larg, 5124, 0.0827704368223
+noth, 6119, 0.0813279781066
+wonder, 9821, 0.0811540445223
+given, 3887, 0.0802208771818
+group, 4064, 0.0777830997286
+avail, 811, 0.0776345918547
+write, 9865, 0.0770502356207
+support, 8576, 0.076978253746
+real, 7144, 0.0766217812328
+univers, 9282, 0.074274010554
+play, 6681, 0.0737081486138
+inform, 4637, 0.0734611808768
+tell, 8767, 0.0730354469993
+actual, 254, 0.0718619306097
+problem, 6887, 0.0703161051152
+base, 923, 0.0699457949413
+sinc, 7977, 0.0681326103948
+read, 7135, 0.0680360644443
+question, 7032, 0.067653997828
+pleas, 6688, 0.0657487581
+mani, 5479, 0.0633982621461
+work, 9833, 0.0633201139798
+thank, 8832, 0.0625910249505
+time, 8936, 0.0531049025162
+don, 2811, 0.0506957914048
+use, 9363, 0.0493616881451
+like, 5272, 0.0470612188092

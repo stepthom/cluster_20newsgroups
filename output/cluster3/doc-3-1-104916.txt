@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104916
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: bdunn@cco.caltech.edu (Brendan Dunn)
+Subject: Re: Defensive Averages 1988-1992, Third Base
+Organization: California Institute of Technology, Pasadena
+Lines: 34
+NNTP-Posting-Host: punisher.caltech.edu
+
+In article <C5L068.6v3@srgenprp.sr.hp.com> craigs@srgenprp.sr.hp.com (Craig Stelter) writes:
+>Gaetti, Gary         .616  .638  .655  .632  ----   0.637
+>
+>Apologies if I don't know what I'm talking about :-), but as a Twins fan,
+>I like to think they have good players in any park.  Not sure if I remember
+>completely or not, but I think Gaetti played with the Twins in '87 for the 
+>world series, and again in '88 (note that's his lowest of the 4).  I believe 
+>the next 3 (or at least the last two) were played with the Angels.   Lots
+>of factors make a player excell...  I hate it when so many use the dome.
+>It may not be ideal, but nice to comfortably enjoy baseball and football 
+>even when it's snowing and raining.
+>
+>-Craig
+>
+>I'm sure the company for which I work does not have all the same opinions 
+>that I do...
+
+  The event that had the most impact on Gaetti's career was his leg injury
+in 1988.  His performance dropped radically from 1988 to 1989.  He was 
+still with the Twins in 1989 and 1990, but if you look at his stats (both
+offensive and defensive), he never has come back to his pre-injury level.
+
+Brendan
+
+
+
+
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ defens averag third base      gaetti gari  apolog
+don't know i'm talk twin fan like think good
+player park sure rememb complet think gaetti play
+twin world seri note that lowest believ next least
+last two play angel lot factor make player excel
+hate mani use dome ideal nice comfort enjoy
+basebal footbal even it snow rain  craig  i'm sure
+compani work opinion   event impact gaetti career
+leg injuri perform drop radic still twin look stat
+offens defens never come back pre injuri level
+brendan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gaetti, 3744, 0.465898547607
+twin, 9172, 0.357008739031
+injuri, 4650, 0.228884388825
+defens, 2476, 0.18555764998
+brendan, 1296, 0.16251886465
+dome, 2806, 0.152434466121
+player, 6683, 0.148072776551
+play, 6681, 0.141517420799
+sure, 8585, 0.138192799985
+lowest, 5372, 0.135035146264
+leg, 5199, 0.133875079889
+snow, 8081, 0.129775798461
+radic, 7059, 0.127986762542
+comfort, 1929, 0.125555182111
+rain, 7074, 0.12337133248
+ideal, 4483, 0.122029895612
+footbal, 3589, 0.122029895612
+craig, 2208, 0.119575106957
+pre, 6802, 0.117372559283
+apolog, 571, 0.114442194413
+impact, 4534, 0.111463319457
+gari, 3776, 0.111463319457
+hate, 4202, 0.108155862254
+angel, 509, 0.107157728734
+drop, 2878, 0.103850271531
+factor, 3352, 0.103030197135
+excel, 3261, 0.102763659529
+enjoy, 3114, 0.102763659529
+offens, 6202, 0.100985221783
+career, 1517, 0.0993429777813
+park, 6430, 0.0988959615835
+think, 8871, 0.0982813326799
+stat, 8341, 0.0974009091085
+event, 3232, 0.0974009091085
+averag, 816, 0.0913318047748
+compani, 1958, 0.0892585792527
+level, 5229, 0.0880243475722
+seri, 7805, 0.0874977935048
+perform, 6539, 0.0871111884255
+nice, 6047, 0.0868572682856
+fan, 3381, 0.0853937919773
+complet, 1975, 0.0829453767072
+opinion, 6266, 0.0803715294745
+rememb, 7269, 0.0790159628727
+note, 6118, 0.0774133949762
+talk, 8684, 0.0725607067539
+basebal, 924, 0.0723029739083
+world, 9841, 0.0718592593957
+base, 923, 0.0671469076483
+lot, 5356, 0.0669463828112
+believ, 1009, 0.0662589463923
+come, 1923, 0.0622185753796
+mani, 5479, 0.0608613749684
+work, 9833, 0.0607863539081
+good, 3948, 0.055154185688
+make, 5459, 0.0538144943466
+look, 5341, 0.0535456186299
+don, 2811, 0.0486671947395
+use, 9363, 0.0473864757421
+know, 5052, 0.0462158580994
+like, 5272, 0.0451780598941

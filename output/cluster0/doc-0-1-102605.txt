@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102605
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dwarner@journalism.indiana.edu (David J.)
+Subject: Re: 1993 NL East Champion PHILLIES
+Article-I.D.: usenet.C51J5C.AMx
+Reply-To: dwarner@journalism.indiana.edu
+Organization: Indiana University
+Lines: 12
+Nntp-Posting-Host: poppy.journalism.indiana.edu
+
+Robert C Hite writes
+> Here are the projected lineups, benches, rotation and bullpen for
+> the 1993 National League East Champion Philadelphia Phillies:
+
+I think the only Phillies in effect here are Philly Blunts.  Of course, if this  
+all becomes true, I'll be the first to smoke one myself.
+
+--
+David J.(dwarner@journalism.indiana.edu)*****Blue Riddle Productions 1993
+*-------------------------------It's on.--------------------------------*
+***"THE RAP IS AN ART EP" is coming out on tape -- this time for real.***
+*------------------------E-mail me for the 411.-------------------------*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ east champion philli articl usenet c51j5c amx
+robert hite write project lineup bench rotat
+bullpen nation leagu east champion philadelphia
+philli  think philli effect philli blunt cours
+becom true i'll first smoke one    it rap art come
+tape time real mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.549487120309
+champion, 1647, 0.36008896287
+east, 2965, 0.260285132493
+blunt, 1177, 0.21668895483
+hite, 4319, 0.211473168346
+rap, 7098, 0.194133063386
+smoke, 8067, 0.17181458097
+bench, 1022, 0.168445088211
+lineup, 5287, 0.15580530311
+usenet, 9365, 0.153202816715
+bullpen, 1391, 0.153202816715
+philadelphia, 6589, 0.14809086927
+tape, 8700, 0.146571523374
+art, 660, 0.13999129989
+rotat, 7490, 0.132758281601
+robert, 7437, 0.128786500835
+leagu, 5176, 0.114815888633
+effect, 3005, 0.114653805346
+becom, 983, 0.114653805346
+nation, 5962, 0.112626258912
+project, 6909, 0.106182488903
+true, 9121, 0.102048675153
+write, 9865, 0.0986214475142
+mail, 5447, 0.09834593055
+real, 7144, 0.0980730417685
+cours, 2190, 0.0978925514306
+articl, 665, 0.0922009515059
+ll, 5314, 0.0906231889926
+come, 1923, 0.0829570037856
+time, 8936, 0.067972308119
+think, 8871, 0.0655200222556

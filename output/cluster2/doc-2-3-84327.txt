@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84327
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: halat@pooh.bears (Jim Halat)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Reply-To: halat@pooh.bears (Jim Halat)
+Lines: 17
+
+In article <1qjbn0$na4@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+
+
+>Really?  You don't know what objective value is?  If I offered the people
+>of the U.S., collectively, $1 for all of the land in America, would that 
+>sound like a good deal?  
+
+That happens to be a subjective example that the people of the
+US would happen to agree on.  Continue to move the price up; 
+at some point a few people would accept then more then more until 
+probably all would accept at a high enough number.
+
+Endpoints of a subjective scale are not the given homes of 
+objective viewpoints.
+
+-jim halat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral       realli don't know
+object valu offer peopl collect land america sound
+like good deal  happen subject exampl peopl happen
+agre continu move price point peopl accept probabl
+accept high enough number  endpoint subject scale
+given home object viewpoint  jim halat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+subject, 8487, 0.360879020589
+accept, 208, 0.274599522597
+peopl, 6530, 0.271989881206
+endpoint, 3098, 0.253111387109
+halat, 4123, 0.247018898672
+object, 6173, 0.246123304018
+happen, 4159, 0.235548822984
+viewpoint, 9513, 0.216399970297
+america, 468, 0.164924194397
+collect, 1898, 0.161308110678
+scale, 7659, 0.155791777404
+price, 6857, 0.155430517976
+jim, 4868, 0.152672981284
+moral, 5855, 0.14982058192
+offer, 6203, 0.146635680592
+land, 5104, 0.142242685755
+continu, 2092, 0.141053372624
+valu, 9414, 0.13667900961
+deal, 2418, 0.135077928691
+sound, 8150, 0.131207272862
+agre, 337, 0.129345637655
+home, 4354, 0.128855416077
+exampl, 3258, 0.121204720324
+given, 3887, 0.119938804871
+christian, 1732, 0.118599544073
+high, 4292, 0.113008057099
+probabl, 6885, 0.109286009175
+number, 6156, 0.108659717211
+realli, 7150, 0.0991574641114
+point, 6710, 0.094322265158
+good, 3948, 0.0858986584382
+say, 7653, 0.0848391402002
+year, 9943, 0.0839811682527
+don, 2811, 0.0757956388246
+know, 5052, 0.0719778591559
+like, 5272, 0.0703615634487

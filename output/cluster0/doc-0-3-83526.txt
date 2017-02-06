@@ -1,0 +1,146 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83526
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ba@mrcnext.cso.uiuc.edu (B.A. Davis-Howe)
+Subject: Re: Rosicrucian Order(s) ?!
+Organization: University of Illinois at Urbana
+Lines: 39
+
+ch981@cleveland.Freenet.Edu (Tony Alicea) writes:
+
+
+>In a previous article, ba@mrcnext.cso.uiuc.edu (B.A. Davis-Howe) says:
+
+>>
+>>ON the subject of how many competing RC orders there are, let me point out the
+>>Golden Dawn is only the *outer* order of that tradition.  The inner order is
+>>the Roseae Rubeae et Aurae Crucis.  
+>>
+
+>	Just wondering, do you mean the "Lectorium Rosicrucianum"?
+>Warning: There is no point in arguing who's "legit" and who's not. *WHICH*
+>Golden Dawn are you talking about?
+
+No, I don't mean the LR, whatever that is.  As for which GD, I'm using _The
+Complete Golden Dawn System of Magic_ as my source, so (unless Regardie is
+lying) I'm pulling the name out the the original order's rituals.  The
+multiple modern groups are part of why I through in the comment about all
+the "spin-offs".
+
+>	Just for the sake of argument, (reflecting NO affiliation)
+>I am going to say that the TRUE Rosicrucian Order is the Fraternitas
+>Rosae Crucis in Quakertown, Penn.,
+
+As a member of the Religious Society of Friends (my membership is in the
+Urbana-Champaign (IL) Friends Meeting) I find that amusingly ironic. :)
+
+>	Any takers? :-)
+
+Not me--I don't want to belong to *anything* which runs around claiming to
+be the TRUE whatever.  I find that disgusting. :(
+
+Enjoy the journey!
+                      --Br'anArthur
+                                      Queer, Peculiar, and Wyrd! :-)
+
+******************************************************************************
+Closed minds don't want to know.        --JJObermark
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rosicrucian order          mani compet order let
+point golden dawn outer order tradit inner order
+rosea rubea aura cruci   wonder mean lectorium
+rosicrucianum warn point argu who legit who golden
+dawn talk  don't mean whatev i'm use complet
+golden dawn system magic sourc unless regardi lie
+i'm pull name origin order ritual multipl modern
+group part comment spin off  sake argument reflect
+affili go say true rosicrucian order fraternita
+rosa cruci quakertown penn  member religi societi
+friend membership urbana champaign friend meet
+find amus iron  taker  don't want belong anyth run
+around claim true whatev find disgust  enjoy
+journey br'anarthur queer peculiar wyrd   close
+mind don't want know jjobermark
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+order, 6281, 0.356339791942
+dawn, 2400, 0.329875523183
+golden, 3934, 0.275717904521
+cruci, 2250, 0.231222915972
+rosicrucian, 7486, 0.206292865596
+friend, 3692, 0.150346460261
+whatev, 9718, 0.146625071776
+fraternita, 3663, 0.131005732359
+urbana, 9350, 0.127256776996
+rubea, 7527, 0.127256776996
+rosea, 7482, 0.127256776996
+penn, 6522, 0.127256776996
+peculiar, 6501, 0.124193657429
+legit, 5203, 0.124193657429
+rosicrucianum, 7487, 0.121603826737
+true, 9121, 0.119861997645
+lectorium, 5186, 0.119360413349
+taker, 8681, 0.1173815825
+champaign, 1646, 0.1173815825
+aura, 785, 0.1173815825
+don, 2811, 0.114323288462
+rosa, 7479, 0.114010185587
+disgust, 2712, 0.114010185587
+ritual, 7420, 0.111203569384
+journey, 4900, 0.107715094339
+affili, 311, 0.106696561652
+membership, 5626, 0.10573626349
+inner, 4656, 0.103966138976
+mean, 5595, 0.103840948151
+amus, 485, 0.103146432798
+sake, 7587, 0.10161804834
+outer, 6324, 0.0971540640468
+point, 6710, 0.0948447843461
+spin, 8235, 0.0936306240695
+iron, 4767, 0.0919059681736
+want, 9634, 0.0915316309291
+compet, 1969, 0.0899727293303
+magic, 5435, 0.0896114112329
+reflect, 7216, 0.0885718646036
+belong, 1015, 0.0885718646036
+warn, 9643, 0.0882391677125
+multipl, 5919, 0.0869705922046
+tradit, 9037, 0.086370505415
+pull, 6979, 0.084689038859
+modern, 5811, 0.0829189143454
+meet, 5615, 0.0826806033429
+argu, 628, 0.0826806033429
+religi, 7260, 0.0824456254708
+lie, 5258, 0.0813176419464
+enjoy, 3114, 0.0804667946213
+societi, 8093, 0.0796569682693
+member, 5625, 0.0744329939278
+argument, 631, 0.0701144706645
+unless, 9289, 0.0684116834915
+comment, 1936, 0.0674289095486
+mind, 5733, 0.065450078699
+claim, 1782, 0.065450078699
+complet, 1975, 0.0649485296933
+close, 1830, 0.0636799541854
+sourc, 8153, 0.0620094006821
+wonder, 9821, 0.0610030733301
+origin, 6293, 0.0597487115659
+group, 4064, 0.0584691516549
+anyth, 555, 0.0575961945796
+talk, 8684, 0.056817045196
+let, 5225, 0.053057941452
+run, 7543, 0.0506078258605
+mani, 5479, 0.047656144034
+say, 7653, 0.0426545627531
+use, 9363, 0.0371049243366
+know, 5052, 0.0361882982661

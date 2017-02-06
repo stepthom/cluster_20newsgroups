@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38445
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: roell@informatik.tu-muenchen.de (Thomas Roell)
+Subject: Re: 24 bit Graphics cards
+In-Reply-To: rjs002c@parsec.paradyne.com's message of Wed, 14 Apr 1993 21:59:34 GMT
+Organization: Inst. fuer Informatik, Technische Univ. Muenchen, Germany
+Lines: 20
+
+>I am looking for EISA or VESA local bus graphic cards that support at least 
+>1024x786x24 resolution.  I know Matrox has one, but it is very
+>expensive. All the other cards I know of, that support that
+>resoultion, are striaght ISA. 
+
+What about the ELSA WINNER4000 (S3 928, Bt485, 4MB, EISA), or the
+Metheus Premier-4VL (S3 928, Bt485, 4MB, ISA/VL) ?
+
+>Also are there any X servers for a unix PC that support 24 bits?
+
+As it just happens, SGCS has a Xserver (X386 1.4) that does
+1024x768x24 on those cards. Please email to info@sgcs.com for more
+details.
+
+- Thomas
+--
+-------------------------------------------------------------------------------
+Das Reh springt hoch, 				e-mail: roell@sgcs.com
+das Reh springt weit,				#include <sys/pizza.h>
+was soll es tun, es hat ja Zeit ...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bit graphic card     look eisa vesa local bus
+graphic card support least 1024x786x24 resolut
+know matrox one expens card know support resoult
+striaght isa  elsa winner4000 bt485 4mb eisa
+metheus premier 4vl bt485 4mb isa  also server
+unix support bit  happen sgcs xserver x386  detail
+thoma    das reh springt weit includ sys pizza
+soll tun hat zeit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+eisa, 3020, 0.37289205213
+4mb, 111, 0.37289205213
+card, 1513, 0.338035451643
+isa, 4774, 0.333329105632
+support, 8576, 0.271158781134
+premier, 6826, 0.193995758229
+das, 2381, 0.189950332889
+matrox, 5551, 0.186446026065
+bit, 1122, 0.177027699983
+graphic, 3997, 0.172802356809
+sys, 8661, 0.17175985088
+pizza, 6655, 0.168255544056
+hat, 4199, 0.159898261463
+bus, 1419, 0.145555141074
+vesa, 9484, 0.14487345812
+server, 7812, 0.135851752236
+thoma, 8878, 0.130283588798
+resolut, 7316, 0.127712257766
+expens, 3294, 0.123817224346
+unix, 9284, 0.120162525602
+know, 5052, 0.113055312267
+local, 5322, 0.111709985851
+happen, 4159, 0.0924938795377
+includ, 4579, 0.0903020120931
+look, 5341, 0.0654928511954

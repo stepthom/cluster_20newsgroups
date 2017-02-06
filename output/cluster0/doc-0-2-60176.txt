@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60176
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dietz@cs.rochester.edu (Paul Dietz)
+Subject: Re: Terraforming Venus: can it be done "cheaply"?
+Organization: University of Rochester
+Lines: 9
+
+Would someone please send me James Oberg's email address, if he has
+one and if someone reading this list knows it?  I wanted to send
+him a comment on something in his terraforming book.
+
+	Paul F. Dietz
+	dietz@cs.rochester.edu
+
+	Potential explosive yield of the annual global
+	production of borax:  5 million megatons
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ terraform venus done cheapli    someon pleas send
+jame oberg email address one someon read list know
+want send comment someth terraform book  paul
+dietz   potenti explos yield annual global product
+borax million megaton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+send, 7785, 0.316640991704
+dietz, 2631, 0.279666402364
+cheapli, 1680, 0.269727657289
+someon, 8124, 0.269340633168
+yield, 9954, 0.264224575718
+annual, 526, 0.259370513761
+explos, 3308, 0.239715569551
+global, 3904, 0.228576393186
+venus, 9463, 0.227505894199
+jame, 4820, 0.203992660083
+potenti, 6774, 0.197384635817
+paul, 6469, 0.194439676582
+million, 5724, 0.190382774755
+email, 3060, 0.173387585225
+product, 6896, 0.172543626166
+comment, 1936, 0.16540277039
+address, 264, 0.160134515059
+list, 5298, 0.15093834672
+book, 1218, 0.147614281787
+read, 7135, 0.125451937577
+someth, 8126, 0.121314622273
+pleas, 6688, 0.121234365396
+want, 9634, 0.112263311355
+know, 5052, 0.0887697106327

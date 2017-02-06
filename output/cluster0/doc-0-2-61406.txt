@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61406
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Re: Vandalizing the sky.
+Organization: University of Illinois at Urbana
+Lines: 13
+
+I'm wondering if "vandalize" is the proper word to use in this situation.  My
+dictionary defines "vandalism" as "the willful or malicious destructuion of 
+public or private property, especially of anything beautiful or artisitc." I
+would agree the sky is beautiful, but not that it is public or private property.
+
+I personally prefer natural skies, far from city lights and sans aircraft.  
+However, there is also something to be said for being able to look up into the
+sky and see a satellite.  Many people get a real kick out of it, especially if
+they haven't seen one before.   
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky    i'm wonder vandal proper word use
+situat dictionari defin vandal will malici
+destructuion public privat properti especi anyth
+beauti artisitc agre sky beauti public privat
+properti  person prefer natur sky far citi light
+san aircraft howev also someth said abl look sky
+see satellit mani peopl get real kick especi
+haven't seen one   find way make one attribut
+hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sky, 8011, 0.41768203719
+vandal, 9419, 0.371171652404
+properti, 6925, 0.264200423302
+beauti, 978, 0.264200423302
+privat, 6879, 0.235033387605
+especi, 3190, 0.199973165903
+destructuion, 2576, 0.188299903869
+artisitc, 668, 0.188299903869
+public, 6973, 0.185536898714
+malici, 5468, 0.171561609975
+dictionari, 2624, 0.147133214624
+hannib, 4155, 0.146059782189
+kick, 5006, 0.140462178029
+aircraft, 359, 0.134579130196
+attribut, 773, 0.125900875687
+proper, 6924, 0.122113403911
+prefer, 6819, 0.11032939105
+san, 7603, 0.109162581793
+citi, 1775, 0.108935835961
+defin, 2482, 0.105966525379
+satellit, 7632, 0.103322672359
+haven, 4207, 0.103144455657
+natur, 5966, 0.102272582849
+situat, 7995, 0.101932460978
+light, 5267, 0.096108818473
+agre, 337, 0.0934718462783
+seen, 7767, 0.0896307116946
+abl, 180, 0.0883464528615
+wonder, 9821, 0.0876822154035
+word, 9829, 0.0864951057071
+howev, 4406, 0.0832482890576
+real, 7144, 0.082785369062
+anyth, 555, 0.082785369062
+far, 3386, 0.0806650991871
+person, 6562, 0.0804560220924
+said, 7583, 0.080386730069
+someth, 8126, 0.0710847280517
+mani, 5479, 0.0684981273628
+peopl, 6530, 0.0655179842842
+way, 9666, 0.0631688806275
+make, 5459, 0.0605670195527
+look, 5341, 0.0602644058984
+use, 9363, 0.0533324272141

@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104367
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jaeastman@anl.gov (Jeff Eastman)
+Subject: Re: cubs & expos roster questions
+Organization: Argonne National Laboratory
+Lines: 23
+
+In article <15APR199312304021@pavo.concordia.ca>, m_klein@pavo.concordia.ca
+(CorelMARK!) wrote:
+> 
+> In article <0096B0F0.C5DE05A0@Msu.oscs.montana.edu>, alird@Msu.oscs.montana.edu writes...
+> >In article <1993Apr15.003015.1@vmsb.is.csupomona.edu>, cvadrnlh@vmsb.is.csupomona.edu writes:
+> >>Today (4/14) Cubs activated P Mike Harkey from DL, whom did they move to make
+> >>room for Harkey?
+> >>Also, are Delino Deshields & John Wetteland of the Expos on the DL?
+> >>Thanks for anyone who can give me more info!
+> >>/===
+> >>Ken 
+> >>Cal Poly, Pomona
+> >>
+> > 
+> >Wetteland is on the DL effective March 26 or something like that.
+> > 
+> >rick
+
+The Cubs sent Boskie to Iowa to make room for Harkey.
+_______________
+Jeff Eastman
+jaeastman@anl.gov
+_______________
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cub expo roster question    pavo concordia
+corelmark wrote  msu osc montana edu write  today
+cub activ mike harkey move make room harkey also
+delino deshield john wetteland expo thank anyon
+give info  ken cal poli pomona   wetteland effect
+march someth like  rick  cub sent boski iowa make
+room harkey  jeff eastman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+harkey, 4176, 0.47899606519
+cub, 2282, 0.327568854577
+wetteland, 9713, 0.31343952389
+expo, 3309, 0.245873295898
+room, 7476, 0.221013951163
+boski, 1238, 0.172010020849
+osc, 6307, 0.16708765693
+corelmark, 2143, 0.16708765693
+montana, 5844, 0.163065792764
+delino, 2506, 0.163065792764
+msu, 5907, 0.159665355063
+deshield, 2562, 0.159665355063
+pomona, 6737, 0.151797398026
+poli, 6719, 0.14777553386
+iowa, 4754, 0.146009857308
+roster, 7489, 0.135430868075
+cal, 1449, 0.133424105181
+rick, 7387, 0.126139244138
+march, 5504, 0.118133846277
+jeff, 4839, 0.117195016053
+make, 5459, 0.110654695854
+ken, 4980, 0.108250787968
+sent, 7793, 0.100139080597
+mike, 5710, 0.095216716678
+activ, 252, 0.0942213968431
+wrote, 9871, 0.0935819555294
+effect, 3005, 0.0884089164047
+info, 4636, 0.0868454865412
+today, 8964, 0.084324826018
+john, 4878, 0.0834119020566
+edu, 3001, 0.078213054187
+write, 9865, 0.0760464537803
+question, 7032, 0.0667726266823
+someth, 8126, 0.0649351662055
+thank, 8832, 0.0617756123342
+anyon, 554, 0.0592770052177
+like, 5272, 0.046448122737

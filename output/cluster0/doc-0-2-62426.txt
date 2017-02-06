@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62426
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ez012344@hamlet.ucdavis.edu (Dan Herrin)
+Subject: Re: Space Marketing -- Boycott
+Organization: UC Davis
+Lines: 9
+
+
+[Space ad proposed]
+
+This is undoubtedly the sickest thing to come down the marketing pipe
+in years, and the best reason for resurrecting the "Star Wars" killer
+satellite system.
+
+Dan
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market boycott     space propos  undoubt
+sickest thing come market pipe year best reason
+resurrect star war killer satellit system  dan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+market, 5514, 0.410821625433
+killer, 5013, 0.326119411709
+boycott, 1257, 0.320102983822
+undoubt, 9256, 0.301834234161
+pipe, 6636, 0.286140830028
+resurrect, 7335, 0.276620028223
+space, 8164, 0.255610272698
+dan, 2350, 0.244329197705
+war, 9635, 0.219264929611
+star, 8324, 0.194829814218
+satellit, 7632, 0.192781448738
+propos, 6933, 0.189252107232
+best, 1052, 0.150637296229
+reason, 7156, 0.145330430731
+come, 1923, 0.130655173564
+thing, 8869, 0.123089557526
+year, 9943, 0.113234966506

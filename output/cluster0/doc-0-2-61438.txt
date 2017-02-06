@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61438
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: U of Toronto Zoology
+Lines: 18
+
+In article <1993Apr29.201036.11256@den.mmc.com> zwork@starfighter.den.mmc.com (Michael Corvin) writes:
+>I expect that retrieving HST would involve 'damaging' it considerably in
+>order to return it to its cradle in the cargo bay.  Most of the deployed
+>items (antennas and, especially, the solar arays) probably are not
+>retractable into their fully stowed position, even by hand...
+
+No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+dictated a rather odd design for the solar arrays, since they had to be
+retractable as well as extendable, and may thus have indirectly contributed
+to the array-flapping problems.
+
+The retrieval problems are exactly as stated:  it would be costly, would
+involve extensive downtime (and the worry of someone finding a reason not
+to re-launch it), and would unnecessarily expose the telescope to a lot
+of mechanical stresses and possibilities for contamination.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day     expect retriev
+hst involv damag consider order return cradl cargo
+bay deploy item antenna especi solar aray probabl
+retract fulli stow posit even hand  thing design
+retriev pinch inde dictat rather odd design solar
+array sinc retract well extend thus indirect
+contribut array flap problem  retriev problem
+exact state cost involv extens downtim worri
+someon find reason launch unnecessarili expos
+telescop lot mechan stress possibl contamin  svr4
+resembl high speed collis henri spencer toronto
+zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+retriev, 7343, 0.360697900395
+retract, 7341, 0.275239088122
+array, 653, 0.21526023512
+hst, 4416, 0.213774964982
+solar, 8107, 0.184588552775
+involv, 4750, 0.174379872101
+aray, 602, 0.162125633704
+design, 2564, 0.16157705527
+flap, 3522, 0.153695376914
+stow, 8421, 0.150490342031
+cradl, 2205, 0.139283757741
+cargo, 1519, 0.137619544061
+dictat, 2623, 0.136078722858
+stress, 8442, 0.13330239536
+contamin, 2080, 0.13330239536
+indirect, 4602, 0.130853500951
+problem, 6887, 0.130824094087
+expos, 3311, 0.128662890255
+antenna, 538, 0.118250985046
+deploy, 2540, 0.117630295028
+svr4, 8616, 0.115872214048
+bay, 956, 0.115317739282
+collis, 1903, 0.114777668098
+damag, 2344, 0.112747610876
+item, 4798, 0.111345400664
+resembl, 7308, 0.11089825286
+pinch, 6632, 0.11089825286
+fulli, 3718, 0.110460519397
+worri, 9845, 0.107255484514
+telescop, 8764, 0.105821014293
+odd, 6198, 0.105821014293
+extens, 3320, 0.105477344129
+extend, 3319, 0.105139262347
+zoolog, 9993, 0.104479157016
+mechan, 5603, 0.103526704771
+spencer, 8221, 0.100366048926
+inde, 4594, 0.0990742315564
+consider, 2060, 0.0980956240386
+contribut, 2103, 0.0947884190653
+schedul, 7678, 0.0945855728563
+henri, 4258, 0.0945855728563
+return, 7346, 0.0888070566836
+toronto, 9003, 0.0867698900165
+especi, 3190, 0.0860881380705
+servic, 7813, 0.0855583878464
+speed, 8217, 0.0845377377056
+exact, 3253, 0.0825221623197
+mission, 5772, 0.0821859031602
+launch, 5147, 0.0817458534748
+posit, 6761, 0.081637281053
+expect, 3290, 0.0805816446193
+cost, 2169, 0.0789967579007
+hand, 4145, 0.0754136840302
+state, 8342, 0.0737186177376
+order, 6281, 0.0734978202129
+high, 4292, 0.0703137129325
+possibl, 6765, 0.0681671188873
+probabl, 6885, 0.0679978514272
+someon, 8124, 0.0679417337912
+reason, 7156, 0.0670638589514
+lot, 5356, 0.0648732482557
+sinc, 7977, 0.0633808358562
+day, 2402, 0.0616544029626
+thing, 8869, 0.0568006348209

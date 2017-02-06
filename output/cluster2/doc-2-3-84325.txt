@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84325
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: halat@pooh.bears (Jim Halat)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Reply-To: halat@pooh.bears (Jim Halat)
+Lines: 14
+
+In article <1qie61$fkt@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+
+>Objective morality is morality built from objective values.
+
+
+And organized religion is a religion built from organized values.
+And Ford Tempo is a Tempo built from Ford values.
+And rational response is response built from rational values.
+And unconditional surrender is surrender built from unconditional values.
+    ^^^^^^^^^^^^^^^^^^^^^^^
+          uncle!
+
+bye
+-jim halat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral      object moral moral
+built object valu   organ religion religion built
+organ valu ford tempo tempo built ford valu ration
+respons respons built ration valu uncondit surrend
+surrend built uncondit valu  uncl  bye jim halat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+built, 1381, 0.453972353185
+valu, 9414, 0.423942447125
+uncondit, 9229, 0.306475139637
+surrend, 8594, 0.294548047828
+ford, 3595, 0.289664847884
+ration, 7110, 0.281345185182
+moral, 5855, 0.278822495028
+religion, 7261, 0.175588172837
+organ, 6287, 0.173579371871
+respons, 7323, 0.159669512884
+halat, 4123, 0.153237569819
+object, 6173, 0.152681989865
+uncl, 9224, 0.140672592591
+bye, 1435, 0.140672592591
+jim, 4868, 0.0947103106473
+christian, 1732, 0.0735729371842
+say, 7653, 0.0526297531877
+year, 9943, 0.0520975123878

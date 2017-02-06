@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104558
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kkeller@mail.sas.upenn.edu (Keith Keller)
+Subject: Re: Phillies: A New Ballpark in Future?
+Organization: University of Pennsylvania, School of Arts and Sciences
+Lines: 18
+Nntp-Posting-Host: mail.sas.upenn.edu
+
+In a Philadelphia Inquirer a few days ago, it was reported that there were
+two (2) plans for a new Phillies stadium:  the already-mentioned 30th
+Street Station proposal, and a location near Broad Street and Race Street,
+I think.  I can't remember the exact details, but the stadium would be
+build practically downtown.  There is a small lot that could be used,
+according to the paper.  The 30th street plan has run into some trouble,
+because Amtrak does not want to reroute some of its lines in order to
+accomodate the stadium.  I don't have an opinion just yet, just letting
+everyone know that there are really two options being discussed right now.
+Neither of these plans will be put into effect very soon, however, because
+nobody wants to pay for it :-)
+
+--
+    Keith Keller				LET'S GO RANGERS!!!!!
+						LET'S GO QUAKERS!!!!!
+	kkeller@mail.sas.upenn.edu		IVY LEAGUE CHAMPS!!!!
+
+            "When I want your opinion, I'll give it to you." 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli new ballpark futur     philadelphia inquir
+day ago report two plan new philli stadium alreadi
+mention 30th street station propos locat near
+broad street race street think can't rememb exact
+detail stadium build practic downtown small lot
+could use accord paper 30th street plan run troubl
+amtrak want rerout line order accomod stadium
+don't opinion yet let everyon know realli two
+option discuss right neither plan put effect soon
+howev nobodi want pay   keith keller let ranger
+let quaker   want opinion i'll give
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+street, 8440, 0.419824293536
+stadium, 8300, 0.327591186022
+30th, 86, 0.287207129138
+plan, 6660, 0.251830119796
+philli, 6593, 0.197395353924
+let, 5225, 0.194731814624
+want, 9634, 0.167968452022
+downtown, 2845, 0.160271226074
+quaker, 7013, 0.155684788047
+keller, 4976, 0.155684788047
+opinion, 6266, 0.153983656706
+inquir, 4663, 0.143603564569
+accomod, 214, 0.143603564569
+broad, 1323, 0.131777670531
+ballpark, 883, 0.128245502343
+new, 6023, 0.119744835541
+keith, 4974, 0.116898419607
+ranger, 7095, 0.110985472588
+philadelphia, 6589, 0.106399034561
+nobodi, 6088, 0.103936669975
+race, 7049, 0.101442248576
+troubl, 9117, 0.0994832664305
+option, 6276, 0.0994832664305
+soon, 8136, 0.0979410115543
+pay, 6474, 0.0931084178238
+accord, 219, 0.0923399636257
+paper, 6409, 0.0915992075779
+locat, 5323, 0.0910606504186
+practic, 6793, 0.0900241069765
+station, 8346, 0.0867596858098
+futur, 3737, 0.0867596858098
+propos, 6933, 0.086332948911
+near, 5982, 0.0832048355281
+build, 1378, 0.0829644379849
+effect, 3005, 0.0823754648602
+alreadi, 443, 0.0823754648602
+mention, 5632, 0.0822596687475
+everyon, 3241, 0.0819161439437
+report, 7291, 0.0818028998245
+exact, 3253, 0.0815782663794
+small, 8054, 0.0800710333117
+ago, 336, 0.0800710333117
+discuss, 2708, 0.0790583282103
+rememb, 7269, 0.0756932646477
+order, 6281, 0.072657145512
+howev, 4406, 0.0708566764063
+line, 5285, 0.0681286870888
+ll, 5314, 0.0651101574678
+lot, 5356, 0.0641312221873
+right, 7399, 0.062522845654
+run, 7543, 0.0619131556578
+realli, 7150, 0.0609901789084
+day, 2402, 0.0609491943372
+think, 8871, 0.047074253442
+don, 2811, 0.0466206917837
+use, 9363, 0.0453938282679
+know, 5052, 0.0442724362377

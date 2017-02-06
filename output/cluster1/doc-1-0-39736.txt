@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39736
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: simonson@bert.eecs.uic.edu (Shai Simonson)
+Subject: DEC or PC Graphics Tools
+Organization: University of Illinois at Chicago
+Lines: 28
+
+I am applying for an NSF grant to buy equipment for a laboratory...
+
+The lab will need to support C (or Pascal) with graphics tools...
+
+
+We can run the lab either on PC's or  DEC equipment --- 
+
+
+
+If you are familiar with appropriate products (software/hardware) and precise
+prices. Please contact
+
+
+shai@lcc.stonehill.edu
+
+
+We are interested in any available acadmic discounts....
+
+
+Also, if anyone runs a lab using similar software/hardware, I would be very
+interested in hearing your opinions of its success
+
+Thanks
+
+Shai SImonson
+Stonehill College
+N easton Ma 02357
+e
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic tool    appli nsf grant buy equip
+laboratori  lab need support pascal graphic tool
+run lab either pc equip    familiar appropri
+product softwar hardwar precis price pleas contact
+interest avail acadm discount   also anyon run lab
+use similar softwar hardwar interest hear opinion
+success  thank  shai simonson stonehil colleg
+easton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lab, 5085, 0.41527145558
+equip, 3161, 0.29578747373
+tool, 8988, 0.28877275169
+hardwar, 4173, 0.262026007651
+nsf, 6139, 0.208440877377
+softwar, 8103, 0.195840262263
+graphic, 3997, 0.193187678097
+pc, 6484, 0.18810448239
+discount, 2695, 0.184648820442
+run, 7543, 0.176754408409
+pascal, 6447, 0.1716857938
+familiar, 3379, 0.166865271056
+grant, 3994, 0.15526710521
+appropri, 590, 0.154093380049
+colleg, 1900, 0.15352366863
+laboratori, 5090, 0.147893736865
+precis, 6809, 0.142389740574
+price, 6857, 0.136467145872
+buy, 1433, 0.133187273643
+contact, 2078, 0.13290651345
+success, 8513, 0.130237472782
+appli, 584, 0.129983452007
+hear, 4223, 0.126640416748
+product, 6896, 0.122835771053
+similar, 7961, 0.121479922457
+opinion, 6266, 0.109901077795
+avail, 811, 0.101910609495
+support, 8576, 0.101049037159
+pleas, 6688, 0.0863081244
+thank, 8832, 0.0821629810792
+need, 5993, 0.0788840619324
+anyon, 554, 0.0788397763147
+use, 9363, 0.0647968850536

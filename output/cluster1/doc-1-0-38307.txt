@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38307
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dkennett@fraser.sfu.ca (Daniel Kennett)
+Subject: [POV] Having trouble bump mapping a gif to a sphere
+Summary: Having trouble bump mapping a gif to a spher in POVray
+Keywords: bump map
+Organization: Simon Fraser University, Burnaby, B.C., Canada
+Lines: 44
+
+
+Hello,
+  I've been trying to bump map a gif onto a sphere for a while and I
+can't seem to get it to work.  Image mapping works, but not bump
+mapping.  Here's a simple file I was working with, could some kind
+soul tell me whats wrong with this.....
+
+#include "colors.inc"
+#include "shapes.inc"
+#include "textures.inc"
+ 
+camera {
+  location  <0 1 -3>
+  direction <0 0 1.5>
+  up        <0 1 0>
+  right     <1.33 0 0>
+  look_at   <0 1 2>
+}
+ 
+object { light_source { <2 4 -3> color White }
+       }
+ 
+object {
+  sphere { <0 1 2> 1 }
+   texture {
+     bump_map { 1 <0 1 2> gif "surf.gif"}
+   }
+}
+
+NOTE: surf.gif is a plasma fractal from Fractint that is using the
+landscape palette map.
+
+  
+	Thanks in advance
+	   -Daniel-
+
+*======================================================================* 
+| Daniel Kennett	 		                               |
+| dkennett@sfu.ca          		   			       |
+| "Our minds are finite, and yet even in those circumstances of        |
+|  finitude, we are surrounded by possibilities that are infinite, and |
+|  the purpose of human life is to grasp as much as we can out of that |
+|  infinitude." - Alfred North Whitehead                               |  
+*======================================================================*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pov troubl bump map gif sphere troubl bump map
+gif spher povray      hello i'v tri bump map gif
+onto sphere can't seem get work imag map work bump
+map here simpl file work could kind soul tell what
+wrong  includ color inc includ shape inc includ
+textur inc  camera locat direct  right look
+object light sourc color white   object sphere
+textur bump map gif surf gif    note surf gif
+plasma fractal fractint use landscap palett map
+thank advanc daniel   daniel kennett  mind finit
+yet even circumst finitud surround possibl infinit
+purpos human life grasp much infinitud alfr north
+whitehead
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bump, 1396, 0.510154259028
+map, 5498, 0.442408055318
+gif, 3869, 0.357016453447
+sphere, 8226, 0.230320134608
+surf, 8586, 0.204061703611
+daniel, 2359, 0.162108453086
+textur, 8825, 0.161213364294
+includ, 4579, 0.145515794684
+troubl, 9117, 0.136458012831
+work, 9833, 0.119808811367
+color, 1907, 0.113312166552
+fractint, 3638, 0.104203831379
+alfr, 402, 0.104203831379
+object, 6173, 0.103826028729
+plasma, 6672, 0.100148531281
+landscap, 5109, 0.0956594595915
+finit, 3489, 0.0912873716807
+circumst, 1770, 0.0912873716807
+grasp, 4002, 0.0887172823428
+povray, 6780, 0.0872320715828
+palett, 6398, 0.0846619822449
+fractal, 3637, 0.0824890026718
+infinit, 4631, 0.0797520893228
+camera, 1473, 0.0793434675407
+surround, 8595, 0.0789463577759
+soul, 8149, 0.0774611470159
+pov, 6778, 0.0758008226448
+shape, 7853, 0.0729720753266
+north, 6110, 0.0701900050855
+hello, 4247, 0.0697753732993
+locat, 5323, 0.0624524899969
+purpos, 6993, 0.0606310614218
+white, 9737, 0.0604190805186
+simpl, 7965, 0.0601069689255
+light, 5267, 0.0561032098884
+mind, 5733, 0.0549154369527
+human, 4432, 0.0544256842162
+direct, 2667, 0.0540190272351
+advanc, 285, 0.0533026555084
+sourc, 8153, 0.052028559802
+life, 5260, 0.0519130143647
+wrong, 9869, 0.0517414528424
+note, 6118, 0.0508601368549
+kind, 5021, 0.0502846910616
+file, 3477, 0.0487789912509
+imag, 4512, 0.0472523811531
+possibl, 6765, 0.0462165818176
+tell, 8767, 0.0460637731188
+right, 7399, 0.0428802932423
+tri, 9087, 0.0408247305255
+thank, 8832, 0.0394764308436
+look, 5341, 0.0351791507443
+use, 9363, 0.0311326307553

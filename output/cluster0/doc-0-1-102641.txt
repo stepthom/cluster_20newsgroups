@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102641
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rauser@fraser.sfu.ca (Richard John Rauser)
+Subject: Quick easy question!
+Organization: Simon Fraser University, Burnaby, B.C., Canada
+Lines: 14
+
+
+
+   Here's an easy question for someone who knows nothing about baseball...
+
+   What city do the California Angels play out of?
+
+
+
+-- 
+Richard J. Rauser        "You have no idea what you're doing."
+rauser@sfu.ca            "Oh, don't worry about that. We're professional
+WNI                          outlaws - we do this for a living."
+-----------------
+"Remember, no matter where you go, there you are." -Dr.Banzai
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quick easi question      here easi question
+someon know noth basebal  citi california angel
+play     richard rauser idea you'r  wni outlaw
+live  rememb matter banzai
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+easi, 2959, 0.47888641305
+question, 7032, 0.328458868478
+richard, 7383, 0.308574024739
+angel, 509, 0.270967138595
+california, 1459, 0.270151254527
+citi, 1775, 0.244752398651
+quick, 7036, 0.231343095662
+matter, 5553, 0.210545750221
+rememb, 7269, 0.199805740715
+live, 5310, 0.198927093688
+noth, 6119, 0.197422890901
+idea, 4482, 0.185485990875
+basebal, 924, 0.18283076903
+play, 6681, 0.178925827508
+someon, 8124, 0.177292850758
+know, 5052, 0.116864914691

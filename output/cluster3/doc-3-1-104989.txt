@@ -1,0 +1,473 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104989
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: king@cogsci.ucsd.edu (Jonathan King)
+Subject: teams as organisms; stats or "stats" (was Re: Jack Morris)
+Organization: University of California, San Diego
+Lines: 124
+Distribution: na
+NNTP-Posting-Host: cogsci.ucsd.edu
+Summary: let's talks stats and not "stats"
+
+Note:  I'm not posting this as part of an argument with Roger Meynard,
+but as an independent sort of thread.  I do actually quote some things
+that Roger Meynard wrote, but it might be better to think of this as
+"sampling" his post (in the hip-hop sense) because it fits in with what
+I want to say.
+
+maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+>But the point is that the only decision making pro-
+>cess  used to determine the "best" is the score of the game and it re-
+>lates to the *teams*.  Not the individual players.  There is no method
+>inherent  in  baseball of comparing individual performances.  And that
+>is how it should be, because, after all, baseball is a team game.
+
+There's an interesting parallel between this way of viewing a baseball
+team and some people's conception of a biological organism.  In the
+biology context, we would very likely read "fitness" for "the score of
+the game" and "organisms" for "teams".  How we interpret "players" is
+trickier, but either "organs", or "genes" might seem reasonable
+choices depending on what point we were trying to make.  A "genes"
+interpretation actually might be really interesting in this case, 
+but that would be a different and probably longer post.
+
+If, however, we take the "organ" view, then our knowledge of biology
+should make us pause before we start saying things like "species X is
+more fit than species Y because of a better organ Z".  Given what we
+know about the interdependence of organs, we would often be suspicious
+of such claims.  (But note that this type of argument is quite often
+made when you map "species X" onto 'humans', and "organ Z" onto
+'brain').  On the other hand, some statements of this kind do seem
+more reasonable than others, as far as we can test them (e.g. 'brain'
+above might be more reasonable than 'pancreas' assuming no gross
+pathology, particularly if species Y is a primate).
+
+Even when you make such statements, you should be concerned with the
+functioning of the whole organism, and the possibility that one organ
+might be more crucial for one species and a second organ in another.
+(Not to mention the possibility that no organ is particularly crucial
+in some third species.)  However, if we are non-vitalists with any
+kind of reductionsit streak, we will want to say that an organism is
+not some completely magical unanalyzable "whole" but an intriguing
+process made up of various subprocesses that interact in ways that are
+potentially observable.  Some of these processes might be localized to
+particular organs, while others may be distributed across multiple
+organs.  In a way, this is just like a baseball team, except that I
+think it is pretty clear that the processes and interactions involved
+in baseball are *much* simpler and less numerous than in most organisms.
+
+>To say that one player is better than another is to be able to say ab-
+>solutely  that  player A's team would have played better with player B
+>in their lineup.  Sheer speculation.  Impossible to ascertain.
+
+One thing that is quite difficult about baseball is that perfectly
+controlled experiments are sometimes very tough to do.  But, of
+course, this has never stopped researchers from doing the best they
+can, and sometimes deriving very powerful conclusions even in the
+absence of certainty.  Most of this goes far beyond sheer speculation,
+but even sheer speculation can motivate further interesting research.
+
+>If you want to select a group of statistics and claim that Clemens
+>has done better [than another pitcher] with those statistics as a
+>criteria, then fine.
+
+In this cases, we're seeing the word "statistics" means "summary of
+observed events", where the events themselves can be viewed as the
+output of some process, and possibly inputs for other processes.
+Thus, if we have any valid notion of how the processes are put together
+into the functioning organism, data in the form of statistics might
+give us a basis to test particular hypotheses.
+
+>But you have to be able to prove that those statistics measure the
+>individual's contribution to winning the WS - because that is the only
+>measure of "best" that has any meaning in the context of baseball.
+
+This statement brings us back to the concept of fitness again.
+Fitness is defined in terms of both an organism and its environment;
+you might be fit in one situation and not another.  Moving to
+baseball, it is clear that each team spends the entire season in an
+environment including all the other teams in the league.  In at least
+a nominal sense, the division winners are the fittest teams in the
+league, in that they (on average) had better fitness scores than any
+of their competing opponennts.  But in a real sense, there is a fairly
+large random component in the performance of each team that is
+difficult if not impossible to account for in terms of factors
+intrinsic to (or interesting for) baseball.  The same is true in
+biology.  But here is also no direct biological equivalent of the
+World Series in basebal.  In the world series, the random component
+may be greatly magnified by the small number of games that are played,
+and both teams suddenly experience huge changes from the environement
+where they were originally successful.  It might be fun to watch, but
+it's unclear what it all really means.
+
+***
+
+Now just one more un-related point:
+
+>I have yet to see that any of you can predict a
+>WS winner with any greater accuracy than Jeanne Dixon.
+
+On the other hand, you have seen some of us who can predict the
+outcome of the divisional races better than a random assignment of
+teams to finishes, and maybe some of us (e.g. me) who can do this
+better than the other participants in this forum on a regular basis.
+But this is probably only due to the fact that a 162-game schedule
+gives you a little hope that bad hops aren't the only difference
+between the winners and the losers.
+
+Moreover, you've had the opportunity to see some analysis of the World
+Series situation that makes the strong claim that *nobody* can predict
+the WS winner with reliably greater accuracy than a coin biased only
+to reflect the well-known home vs. road effect on winning percentage.
+
+>The stats are a nice hobby and that's about it.  There is no new
+>knowledge being produced.  
+
+Since stats are summaries of events, it's true that if you know the
+events you can derive the stats.  But if somebody is trying to
+understand the process behind the stats, then the stats produce new
+knowledge, and some of this might even be reliable, repeatable, and
+useful.  Speaking of which, I should get back to producing knowledge
+in a different field.  That is, of course, if I can produce knowledge
+even though I'm relying on stats to do it.
+
+jking
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ team organ stat stat jack morri     let talk stat
+stat  note i'm post part argument roger meynard
+independ sort thread actual quot thing roger
+meynard wrote might better think sampl post hip
+hop sens fit want say   point decis make pro cess
+use determin best score game late team individu
+player method inher basebal compar individu
+perform basebal team game  there interest parallel
+way view basebal team peopl concept biolog organ
+biolog context like read fit score game organ team
+interpret player trickier either organ gene might
+seem reason choic depend point tri make gene
+interpret actual might realli interest case differ
+probabl longer post  howev take organ view
+knowledg biolog make paus start say thing like
+speci fit speci better organ given know
+interdepend organ often suspici claim note type
+argument quit often made map speci onto human
+organ onto brain hand statement kind seem reason
+other far test brain might reason pancrea assum
+gross patholog particular speci primat  even make
+statement concern function whole organ possibl one
+organ might crucial one speci second organ anoth
+mention possibl organ particular crucial third
+speci howev non vitalist kind reductionsit streak
+want say organ complet magic unanalyz whole
+intrigu process made various subprocess interact
+way potenti observ process might local particular
+organ other distribut across multipl organ way
+like basebal team except think pretti clear
+process interact involv basebal much simpler less
+numer organ  say one player better anoth abl say
+solut player a team play better player lineup
+sheer specul imposs ascertain  one thing quit
+difficult basebal perfect control experi sometim
+tough cours never stop research best sometim deriv
+power conclus even absenc certainti goe far beyond
+sheer specul even sheer specul motiv interest
+research  want select group statist claim clemen
+done better anoth pitcher statist criteria fine
+case we'r see word statist mean summari observ
+event event view output process possibl input
+process thus valid notion process put togeth
+function organ data form statist might give basi
+test particular hypothes  abl prove statist measur
+individu contribut win measur best mean context
+basebal  statement bring back concept fit fit
+defin term organ environ might fit one situat
+anoth move basebal clear team spend entir season
+environ includ team leagu least nomin sens divis
+winner fittest team leagu averag better fit score
+compet opponennt real sens fair larg random compon
+perform team difficult imposs account term factor
+intrins interest basebal true biolog also direct
+biolog equival world seri baseb world seri random
+compon great magnifi small number game play team
+sudden experi huge chang environ origin success
+might fun watch it unclear realli mean    one
+relat point  yet see predict winner greater
+accuraci jeann dixon  hand seen predict outcom
+division race better random assign team finish
+mayb better particip forum regular basi probabl
+due fact game schedul give littl hope bad hop
+aren't differ winner loser  moreov you'v opportun
+see analysi world seri situat make strong claim
+nobodi predict winner reliabl greater accuraci
+coin bias reflect well known home road effect win
+percentag  stat nice hobbi that new knowledg
+produc  sinc stat summari event it true know event
+deriv stat somebodi tri understand process behind
+stat stat produc new knowledg might even reliabl
+repeat use speak get back produc knowledg differ
+field cours produc knowledg even though i'm reli
+stat  jking
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+organ, 6287, 0.43551268142
+stat, 8341, 0.262341002035
+team, 8732, 0.249445595099
+speci, 8197, 0.214570092607
+fit, 3510, 0.182488303595
+basebal, 924, 0.175267677878
+biolog, 1107, 0.173540238135
+process, 6890, 0.163522565031
+statist, 8348, 0.145199225355
+better, 1060, 0.138307101497
+winner, 9786, 0.132916044753
+knowledg, 5053, 0.128772309129
+sheer, 7868, 0.119302118415
+event, 3232, 0.104936400814
+produc, 6895, 0.102412154299
+player, 6683, 0.0997053336822
+particular, 6442, 0.0967805958711
+random, 7093, 0.0961572445163
+specul, 8214, 0.0910560235
+game, 3761, 0.0875870393963
+environ, 3139, 0.0806404249005
+hop, 4371, 0.0795347456097
+gene, 3817, 0.0795347456097
+predict, 6816, 0.0785363953221
+statement, 8343, 0.0782092729694
+individu, 4604, 0.0757932704366
+score, 7705, 0.0749675443639
+anoth, 533, 0.074501593475
+crucial, 2251, 0.0734017547761
+say, 7653, 0.0733603713846
+make, 5459, 0.0724723644785
+sens, 7788, 0.0722375361579
+seri, 7805, 0.0707003426375
+view, 9510, 0.0677154505779
+accuraci, 226, 0.0676344247447
+claim, 1782, 0.067539439215
+reliabl, 7256, 0.0629480670425
+deriv, 2550, 0.0607040156667
+summari, 8536, 0.0604795818143
+greater, 4017, 0.0596230433375
+compon, 1980, 0.0596230433375
+interact, 4704, 0.0594184719753
+imposs, 4553, 0.059217458557
+brain, 1266, 0.058825625093
+world, 9841, 0.058064027188
+best, 1052, 0.0579629366955
+context, 2087, 0.0579004930604
+possibl, 6765, 0.0568408846692
+difficult, 2635, 0.0562465363392
+reason, 7156, 0.0559209356997
+roger, 7458, 0.055500601388
+basi, 936, 0.0550751062146
+interpret, 4720, 0.0545311008548
+function, 3722, 0.0541392673908
+mean, 5595, 0.0535779295079
+concept, 2002, 0.0533933324396
+differ, 2633, 0.0533833486736
+measur, 5601, 0.0521395153129
+sometim, 8128, 0.0508142436858
+post, 6766, 0.0506336179696
+point, 6710, 0.0489362554983
+situat, 7995, 0.0487875184796
+experi, 3295, 0.0483902979355
+argument, 631, 0.0482351549319
+observ, 6179, 0.0480820668631
+test, 8812, 0.0474892199808
+term, 8795, 0.0474892199808
+thing, 8869, 0.0473629865204
+want, 9634, 0.0472267959509
+perform, 6539, 0.046925304228
+leagu, 5176, 0.0463876268072
+way, 9666, 0.0453513959347
+dixon, 2771, 0.0450626078854
+cess, 1625, 0.0450626078854
+research, 7307, 0.0444568189998
+clear, 1803, 0.0443462154742
+division, 2768, 0.0437730635085
+unclear, 9225, 0.0427194290343
+magnifi, 5440, 0.0427194290343
+jeann, 4837, 0.0427194290343
+quit, 7043, 0.0423310424731
+abl, 180, 0.0422849027702
+win, 9770, 0.0420118669185
+hand, 4145, 0.0419222697239
+trickier, 9096, 0.0418285937796
+suspici, 8606, 0.0418285937796
+patholog, 6463, 0.0418285937796
+jking, 4872, 0.0418285937796
+hypothes, 4464, 0.0418285937796
+certainti, 1620, 0.0418285937796
+ascertain, 675, 0.0418285937796
+note, 6118, 0.041701269105
+true, 9121, 0.0412294492995
+kind, 5021, 0.0412294492995
+intrins, 4730, 0.0410569171818
+intrigu, 4729, 0.0410569171818
+moreov, 5859, 0.0403762501832
+coin, 1882, 0.0403762501832
+case, 1540, 0.0401853109926
+howev, 4406, 0.0398447894009
+cours, 2190, 0.0395503026368
+simpler, 7966, 0.0387137383307
+paus, 6470, 0.0387137383307
+loser, 5351, 0.0387137383307
+hip, 4307, 0.0387137383307
+far, 3386, 0.0386084077583
+hobbi, 4332, 0.0382511723144
+play, 6681, 0.0381165045763
+gross, 4058, 0.037822903076
+probabl, 6885, 0.0377998277744
+outcom, 6323, 0.0374241939538
+assign, 703, 0.0374241939538
+actual, 254, 0.0371617746269
+absenc, 191, 0.0370512264782
+like, 5272, 0.0365049698543
+criteria, 2236, 0.0363705594796
+tough, 9017, 0.0360581055424
+nomin, 6096, 0.0354797242249
+streak, 8436, 0.0352108855144
+sudden, 8518, 0.034953999218
+realli, 7150, 0.0342965681906
+inher, 4644, 0.0340273806285
+new, 6023, 0.0336680182868
+tri, 9087, 0.0334730336774
+motiv, 5881, 0.0332290111882
+reli, 7255, 0.0325276679954
+forum, 3620, 0.0320524148388
+notion, 6122, 0.0316132930336
+percentag, 6534, 0.0314740335213
+lineup, 5287, 0.0314740335213
+clemen, 1807, 0.0314740335213
+equival, 3162, 0.0313380510094
+bias, 1069, 0.0313380510094
+compet, 1969, 0.0309483085144
+magic, 5435, 0.030824024367
+pro, 6883, 0.0307023569234
+numer, 6157, 0.0307023569234
+input, 4662, 0.0307023569234
+reflect, 7216, 0.0304664470207
+sampl, 7601, 0.0302397909071
+particip, 6440, 0.0302397909071
+parallel, 6420, 0.0302397909071
+opportun, 6268, 0.0302397909071
+multipl, 5919, 0.0299156504339
+fun, 3721, 0.0298115216687
+valid, 9411, 0.0296087292785
+decis, 2445, 0.0294128125465
+nobodi, 6088, 0.0292233204846
+output, 6329, 0.0291308546701
+independ, 4595, 0.0289502465302
+repeat, 7286, 0.0288620159597
+conclus, 2009, 0.0287751122151
+solut, 8118, 0.0285219772918
+race, 7049, 0.0285219772918
+huge, 4427, 0.0283591780723
+morri, 5868, 0.0282794666001
+thread, 8890, 0.027971180705
+finish, 3488, 0.027971180705
+factor, 3352, 0.027750300694
+account, 221, 0.027750300694
+potenti, 6774, 0.0276785110737
+somebodi, 8121, 0.02760760233
+analysi, 490, 0.0273999516039
+spend, 8222, 0.0270696336954
+distribut, 2753, 0.0270696336954
+select, 7774, 0.0270057768013
+jack, 4808, 0.0270057768013
+road, 7431, 0.0269426178108
+regular, 7234, 0.0268183336634
+togeth, 8969, 0.0267571797582
+divis, 2767, 0.0267571797582
+choic, 1717, 0.0266966662198
+late, 5139, 0.0265188371086
+think, 8871, 0.0264712347478
+contribut, 2103, 0.0263463171297
+schedul, 7678, 0.0262899362912
+method, 5666, 0.0260159992212
+map, 5498, 0.0259099597303
+longer, 5337, 0.0258058309651
+depend, 2537, 0.0258058309651
+success, 8513, 0.0256530734339
+prove, 6947, 0.0256530734339
+fine, 3485, 0.0256530734339
+strong, 8456, 0.0256030385749
+use, 9363, 0.0255262823373
+various, 9432, 0.0255042500135
+speak, 8192, 0.025455481875
+defin, 2482, 0.0253591631435
+perfect, 6538, 0.0252644234789
+aren, 623, 0.025217629781
+determin, 2582, 0.0251712119402
+entir, 3129, 0.0251251639665
+concern, 2004, 0.0249891814546
+know, 5052, 0.0248956906762
+quot, 7045, 0.0248127100293
+goe, 3931, 0.0246838052772
+local, 5322, 0.0245994389597
+averag, 816, 0.0245994389597
+wrote, 9871, 0.0245162865882
+fair, 3363, 0.0244751548123
+stop, 8413, 0.0244343137228
+bring, 1316, 0.0244343137228
+compar, 1960, 0.0243134941979
+involv, 4750, 0.0242343287118
+control, 2107, 0.024117577466
+watch, 9655, 0.0239654900014
+nice, 6047, 0.0233942609003
+form, 3610, 0.0231610711624
+effect, 3005, 0.0231610711624
+mention, 5632, 0.0231285133855
+known, 5054, 0.0230961380061
+pitcher, 6644, 0.0229684203192
+non, 6097, 0.0229056045908
+type, 9177, 0.0225718168593
+small, 8054, 0.022513146405
+assum, 710, 0.0224262426604
+complet, 1975, 0.0223406264261
+human, 4432, 0.0223123672494
+home, 4354, 0.0222842455875
+season, 7747, 0.0222562601086
+sort, 8144, 0.0222284094999
+direct, 2667, 0.0221456540507
+relat, 7247, 0.0220911348717
+field, 3466, 0.0217487711223
+seen, 7767, 0.0214497911714
+power, 6783, 0.0214497911714
+larg, 5124, 0.0214014311393
+data, 2385, 0.0214014311393
+bad, 861, 0.0212822724824
+pretti, 6851, 0.0211886835526
+chang, 1650, 0.0207637308079
+given, 3887, 0.0207422075423
+understand, 9246, 0.0207207641407
+word, 9829, 0.0206994000124
+hope, 4372, 0.0206569072466
+origin, 6293, 0.0205520225144
+mayb, 5564, 0.0202286380082
+second, 7753, 0.0201118867624
+group, 4064, 0.0201118867624
+includ, 4579, 0.0198852306488
+fact, 3350, 0.019829928886
+real, 7144, 0.0198116119448
+talk, 8684, 0.0195436045643
+littl, 5308, 0.0194226646325
+great, 4016, 0.0192210515076
+number, 6156, 0.0187916030038
+start, 8334, 0.0182925986092
+let, 5225, 0.0182505694049
+sinc, 7977, 0.0176166204467
+read, 7135, 0.0175916571676
+peopl, 6530, 0.0156793029342

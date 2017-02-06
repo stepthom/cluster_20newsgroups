@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104993
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: texdude@cs1.bradley.edu (Philip Allen)
+Subject: Some baseball trivia
+Nntp-Posting-Host: cs1.bradley.edu
+Organization: Bradley University
+Lines: 15
+
+
+Who holds the record for most career strikeouts while playing for one team?
+Who holds the record for most career strikeouts for the Rangers?
+(Hint: Nolan Ryan isn't either)
+
+What two pitchers have over 100 career saves for two different teams?
+
+Who is the only player to hit 300 or more career home runs and steal 300 or 
+more career bases for the same team?
+
+No fair peeking at your baseball stats....
+
+
+Phil Allen
+texdude@cs1.bradley.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal trivia      hold record career strikeout
+play one team hold record career strikeout ranger
+hint nolan ryan isn't either  two pitcher career
+save two differ team  player hit career home run
+steal career base team  fair peek basebal stat
+phil allen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+career, 1517, 0.60355506105
+strikeout, 8449, 0.353839429527
+team, 8732, 0.259693032052
+hold, 4341, 0.2279533313
+record, 7184, 0.220463499426
+peek, 6503, 0.176919714763
+basebal, 924, 0.175709755459
+trivia, 9109, 0.167151063461
+nolan, 6094, 0.161333476988
+hint, 4306, 0.1525612928
+steal, 8362, 0.144599672833
+ranger, 7095, 0.140777566465
+ryan, 7557, 0.136422291228
+allen, 426, 0.130604704755
+phil, 6588, 0.128302823862
+stat, 8341, 0.118351217079
+fair, 3363, 0.110415998177
+save, 7646, 0.104933376256
+pitcher, 6644, 0.103618590997
+home, 4354, 0.100532039083
+isn, 4783, 0.0954850815931
+hit, 4316, 0.0911699465477
+player, 6683, 0.0899611383581
+play, 6681, 0.0859784530899
+base, 923, 0.0815897748389
+differ, 2633, 0.0802769962029
+run, 7543, 0.0785326510078

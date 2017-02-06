@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39633
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: D.J.Nettleton@newcastle.ac.uk (D J Nettleton)
+Subject: HELP: A rectangle and parallelogram
+Nntp-Posting-Host: tuda
+Organization: University of Newcastle upon Tyne, UK NE1 7RU
+Lines: 56
+
+I hope someone can help me with the following problem - I'm sure there
+must be a known solution.
+
+Given a rectangle defined by
+
+-X <= x <= X  and -Y <= y <= Y  where X and Y are constant
+
+and a parallelogram defined by
+
+-C1 <= a*x + b*y <= C1  and -C2 <= c*x + d*y <= C2
+
+where C1, C2, a, b, c, d are constants and b/a != d/c (i.e. not
+parallel lines)                                ^^
+                                          not equal to
+
+what is the area of their intersection?
+
+   What I'm after is some general algorithm suitable for ALL rectangles
+and parallelograms that can be described by the above equations.  At the 
+moment it looks like I'm going to have to look at all possible cases 
+and examine each seperately e.g.
+
+1) rectangle encloses parallelogram. 
+
+2) parallelogram encloses rectangle.
+
+3) two corners of parallelogram inside rectangle
+
+                          ^
+                         / \
+                        /   \
+                       /     \
+           Y -------------------------------  Y
+             |       /         \           |
+             |       \          \          |
+             |        \     .    \         |       . origin
+             |         \          \        |
+             |          \         /        |
+          -Y ------------------------------- -Y
+            -X            \     /           X
+                           \   /
+                            \ /
+                             "
+
+4) two corners of parallelogram outside rectangle
+
+   I hope someone can help.
+
+Many thanks in advance,
+
+Dave Nettleton.
+
+e-mail:  D.J.Nettleton@durham.ac.uk
+
+PS can you please cc me any replies by e-mail.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help rectangl parallelogram     hope someon help
+follow problem i'm sure must known solut  given
+rectangl defin  constant  parallelogram defin
+constant parallel line equal  area intersect  i'm
+general algorithm suitabl rectangl parallelogram
+describ equat moment look like i'm go look possibl
+case examin seper  rectangl enclos parallelogram
+parallelogram enclos rectangl  two corner
+parallelogram insid rectangl         origin
+two corner parallelogram outsid rectangl  hope
+someon help  mani thank advanc  dave nettleton
+pleas repli mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rectangl, 7189, 0.828060814103
+enclos, 3085, 0.18616342965
+corner, 2149, 0.18616342965
+constant, 2067, 0.163431996613
+help, 4249, 0.141039715385
+defin, 2482, 0.140444154216
+hope, 4372, 0.114402113767
+seper, 7798, 0.104735428422
+someon, 8124, 0.104585146698
+suitabl, 8530, 0.0961100799321
+examin, 3257, 0.0910139904307
+intersect, 4722, 0.0887563652463
+equat, 3157, 0.0840477669706
+parallel, 6420, 0.0837370269986
+look, 5341, 0.0798722378174
+solut, 8118, 0.0789802280668
+outsid, 6332, 0.0760626080779
+moment, 5828, 0.0760626080779
+equal, 3156, 0.0760626080779
+insid, 4671, 0.0749585423575
+algorithm, 407, 0.0695741098168
+repli, 7290, 0.0694476063459
+dave, 2395, 0.0691975605442
+describ, 2556, 0.0689513617538
+area, 622, 0.065065985265
+known, 5054, 0.0639555325536
+general, 3818, 0.0617851923813
+advanc, 285, 0.060510306346
+given, 3887, 0.0574372619942
+origin, 6293, 0.056910620495
+case, 1540, 0.055638586951
+mail, 5447, 0.0550129982729
+line, 5285, 0.0530431779627
+follow, 3578, 0.0525973941031
+possibl, 6765, 0.0524660450286
+sure, 8585, 0.0515344134007
+problem, 6887, 0.0503455545963
+pleas, 6688, 0.0470753845813
+mani, 5479, 0.0453924554404
+thank, 8832, 0.0448144825246
+like, 5272, 0.0336953128596

@@ -1,0 +1,171 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60969
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: Re: Commercial mining activities on the moon
+Organization: Lick Observatory/UCO
+Lines: 42
+	<STEINLY.93Apr20145301@topaz.ucsc.edu>
+	<1993Apr20.223807.16712@cs.rochester.edu>
+NNTP-Posting-Host: topaz.ucsc.edu
+In-reply-to: dietz@cs.rochester.edu's message of 20 Apr 93 22:38:07 GMT
+
+In article <1993Apr20.223807.16712@cs.rochester.edu> dietz@cs.rochester.edu (Paul Dietz) writes:
+
+   In article <STEINLY.93Apr20145301@topaz.ucsc.edu> steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+   > Why Paul, it's obvious.
+   > Once chlorine chemistry has been banned on Earth,
+   > as is being advocated by some groups, Ti prices will
+
+   > :-) :-) :-) 
+
+   Well, there already is a sulfate process for TiO2 purification.  The
+   chlorine process is cleaner, however, and for that reason is achieving
+   dominance in the marketplace.
+
+Darn, caught by the white hot heat of technological progress again...
+
+   Most Ti is used in pigment, btw (as the oxide), where it replaced
+   white lead pigment some decades ago.  Very little is reduced to the
+   metal.
+
+Spoilsport. Hence the need for increasing fashion
+emphasis on anodise Ti jewelry...
+
+   > Seriously, I'd say there is a flaw in Gary's analysis
+   > in that he assumes an export oriented economy, maybe
+   > the lunatics will just want some native Ti for local
+   > use...
+
+   Which merely evades the issue of why those lunatics are
+   there at all (and, why their children would want to stay.)
+
+I did not evade the issue at all. I clearly stated that
+this would be from diabolical foresight in establishing
+a sheltered industrial base for the upcoming Great War ;-)
+Very cost effective if you use the right accounting method :-)
+
+*  Steinn Sigurdsson   			 Lick Observatory     	  *
+* steinly@lick.ucsc.edu		       "standard disclaimer"  	  *
+* But, oh, love is strange 					  *
+* and you have to learn to take the crunchy with the smooth,      *
+* I suppose 				              - B.B. 1983 *
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon            paul it
+obvious chlorin chemistri ban earth advoc group
+price    well alreadi sulfat process tio2 purif
+chlorin process cleaner howev reason achiev domin
+marketplac  darn caught white hot heat technolog
+progress  use pigment btw oxid replac white lead
+pigment decad ago littl reduc metal  spoilsport
+henc need increas fashion emphasi anodis jewelri
+serious i'd say flaw gari analysi assum export
+orient economi mayb lunat want nativ local use
+mere evad issu lunat children want stay  evad issu
+clear state diabol foresight establish shelter
+industri base upcom great war cost effect use
+right account method  steinn sigurdsson lick
+observatori  love strang learn take crunchi smooth
+suppos
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pigment, 6627, 0.270524953278
+lunat, 5393, 0.262783414369
+evad, 3225, 0.262783414369
+chlorin, 1714, 0.251110153382
+white, 9737, 0.148698597608
+issu, 4793, 0.141478769104
+process, 6890, 0.140239598514
+cleaner, 1800, 0.135262476639
+purif, 6992, 0.131391707184
+marketplac, 5515, 0.131391707184
+tio2, 8943, 0.128229058258
+shelter, 7875, 0.128229058258
+oxid, 6362, 0.125555076691
+jewelri, 4863, 0.121195639877
+upcom, 9332, 0.119367999045
+foresight, 3600, 0.119367999045
+sigurdsson, 7952, 0.116205350118
+use, 9363, 0.114931702703
+steinn, 8371, 0.114816885759
+lick, 5255, 0.113531368552
+darn, 2370, 0.110163432684
+ban, 889, 0.110163432684
+economi, 2985, 0.109171931737
+metal, 5658, 0.107344290905
+nativ, 5964, 0.10649795017
+emphasi, 3075, 0.10649795017
+domin, 2808, 0.10347352145
+chemistri, 1692, 0.10347352145
+flaw, 3531, 0.10279317762
+advoc, 296, 0.10279317762
+smooth, 8069, 0.100310872524
+henc, 4252, 0.099742082416
+fashion, 3396, 0.099742082416
+decad, 2432, 0.0991913522204
+export, 3310, 0.0981397245442
+progress, 6907, 0.0957597592384
+heat, 4226, 0.0957597592384
+want, 9634, 0.094505750759
+caught, 1568, 0.0936672805278
+observatori, 6180, 0.0914498133107
+establish, 3198, 0.0914498133107
+reduc, 7204, 0.0901148052162
+gari, 3776, 0.0901148052162
+strang, 8426, 0.0894839522725
+achiev, 232, 0.0880004381189
+hot, 4389, 0.0877183742765
+orient, 6290, 0.0861160164046
+war, 9635, 0.0844163949294
+mere, 5641, 0.0841866360194
+replac, 7288, 0.0837360510989
+industri, 4608, 0.0837360510989
+account, 221, 0.083296874626
+stay, 8355, 0.0828685431326
+analysi, 490, 0.0822452469497
+paul, 6469, 0.0818418207644
+btw, 1355, 0.0818418207644
+price, 6857, 0.0806849558952
+increas, 4590, 0.0782524614412
+children, 1707, 0.0782524614412
+method, 5666, 0.0780910970766
+activ, 252, 0.074092308265
+local, 5322, 0.073839069547
+learn, 5182, 0.073713823197
+obvious, 6185, 0.0733434202816
+commerci, 1940, 0.0733434202816
+suppos, 8577, 0.0705303875167
+moon, 5851, 0.0704268257517
+lead, 5172, 0.0704268257517
+effect, 3005, 0.0695215832826
+alreadi, 443, 0.0695215832826
+technolog, 8743, 0.0689433115981
+love, 5366, 0.0688487797887
+ago, 336, 0.0675767356257
+assum, 710, 0.0673158804228
+clear, 1803, 0.0665560562969
+cost, 2169, 0.0659075118228
+state, 8342, 0.0615039249611
+mayb, 5564, 0.0607194258038
+earth, 2956, 0.0604268970484
+group, 4064, 0.0603689786503
+howev, 4406, 0.0598001885425
+littl, 5308, 0.0583001704607
+great, 4016, 0.0576949970837
+reason, 7156, 0.055951816178
+base, 923, 0.0542862937608
+right, 7399, 0.0527667701612
+need, 5993, 0.0466394824717
+say, 7653, 0.044040529327

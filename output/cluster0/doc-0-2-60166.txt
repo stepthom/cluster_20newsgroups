@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60166
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+Article-I.D.: srl03.pgf.734063192
+Organization: Univ. of Southwestern Louisiana
+Lines: 22
+
+shag@aero.org (Rob Unverzagt) writes:
+
+>In article <5APR199318045045@kelvin.jpl.nasa.gov> baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
+>> According the IAU Circular #5744, Comet Shoemaker-Levy 1993e, may be
+>> temporarily in orbit around Jupiter.  The comet had apparently made a
+>> close flyby of Jupiter sometime in 1992 resulting in the breakup of the
+>> comet.  Attempts to determine the comet's orbit has been complicated by
+>> the near impossibility of measuring the comet's center of mass.
+>>
+
+>Am I missing something -- what does knowing the comet's center
+>of mass do for you in orbit determination?
+
+>Shag
+
+I'm not sure, but it almost sounds like they can't figure out where the 
+_nucleus_ is within the coma. If they're off by a couple hundred
+miles, well, you can imagine the rest...
+
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet temporari orbit around jupit articl srl03
+pgf       accord iau circular comet shoemak levi
+1993e temporarili orbit around jupit comet appar
+made close flybi jupit sometim result breakup
+comet attempt determin comet orbit complic near
+imposs measur comet center mass   miss someth know
+comet center mass orbit determin  shag  i'm sure
+almost sound like can't figur nucleus within coma
+they'r coupl hundr mile well imagin rest   phil
+fraer seem like everi day find sort stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+comet, 1926, 0.652167081856
+jupit, 4932, 0.28052133582
+orbit, 6280, 0.258713220045
+mass, 5533, 0.169033581121
+determin, 2582, 0.155668227983
+coma, 1918, 0.144482844314
+center, 1606, 0.144260885425
+shag, 7840, 0.135354532113
+breakup, 1288, 0.135354532113
+1993e, 50, 0.132096496467
+shoemak, 7899, 0.129341866577
+nucleus, 6152, 0.129341866577
+temporarili, 8779, 0.126955697631
+levi, 5231, 0.126955697631
+iau, 4471, 0.124850947455
+circular, 1768, 0.108084329275
+fraer, 3640, 0.104569170882
+temporari, 8778, 0.103336287406
+flybi, 3564, 0.102183001935
+complic, 1978, 0.09819548857
+mile, 5713, 0.092182823034
+imposs, 4553, 0.0915557508828
+phil, 6588, 0.087941834176
+hundr, 4440, 0.0869624261929
+appar, 577, 0.082927323658
+imagin, 4518, 0.0811207640921
+measur, 5601, 0.0806125860762
+accord, 219, 0.0802816558295
+sometim, 8128, 0.0785635917103
+attempt, 763, 0.0785635917103
+rest, 7324, 0.0763269610642
+figur, 3476, 0.0759370607395
+miss, 5770, 0.0755554863282
+like, 5272, 0.0752534811503
+coupl, 2187, 0.0743393898171
+near, 5982, 0.0723394476989
+sound, 8150, 0.0701647572278
+result, 7332, 0.0693461535258
+sort, 8144, 0.0687344162443
+stuff, 8472, 0.0684785208556
+close, 1830, 0.0677321130337
+everi, 3235, 0.0612047639095
+articl, 665, 0.0575932292502
+sure, 8585, 0.0575472325128
+day, 2402, 0.0529900819834
+someth, 8126, 0.0526027427816
+know, 5052, 0.0384910752529

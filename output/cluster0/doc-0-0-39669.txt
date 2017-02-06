@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39669
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: menchett@dws015.unr.edu (Peter J Menchetti)
+Subject: Adobe Type Manager - what good is it??
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 9
+
+The subject says it all. I bought Adobe Type Manager and find it completely
+useless. I ftped some atm fonts and couldn't install them. What's the use?
+Are you supposed to be able to convert ATM fonts to Truetype?
+
+If there's anyone out there who has this program and actually finds it 
+useful, enlighten me!
+
+Pete
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ adob type manag good    say bought adob type
+manag find complet useless ftped atm font couldn't
+instal what use suppos abl convert atm font
+truetyp  there anyon program actual find use
+enlighten  pete
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+atm, 753, 0.464342058699
+font, 3582, 0.382502242665
+adob, 277, 0.345051570785
+type, 9177, 0.239440493056
+truetyp, 9125, 0.239010734442
+ftped, 3711, 0.239010734442
+manag, 5472, 0.234054312195
+enlighten, 3116, 0.19466036412
+bought, 1247, 0.181637017811
+useless, 9364, 0.175272540719
+instal, 4679, 0.172525785392
+pete, 6574, 0.168432835627
+couldn, 2176, 0.139441041614
+use, 9363, 0.135390643713
+suppos, 8577, 0.124628205395
+convert, 2115, 0.123193951152
+complet, 1975, 0.118494019333
+abl, 180, 0.112138934486
+actual, 254, 0.0985524746959
+program, 6905, 0.0951432319086
+anyon, 554, 0.0823663672771
+good, 3948, 0.0787921087911
+say, 7653, 0.077820246392

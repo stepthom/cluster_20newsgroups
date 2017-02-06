@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61489
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dong@oakhill.sps.mot.com (Don M. Gibson)
+Subject: Re: Long term Human Missions
+Nntp-Posting-Host: lexus
+Reply-To: dong@oakhill.sps.mot.com
+Organization: Motorola Semiconductor Products Sector
+Lines: 21
+
+In article 290493130832@128.249.27.63, jgladu@bcm.tmc.edu (grungy) writes:
+>ward@pashosh.wisdom.weizmann.ac.il (Ward Paul) wrote:
+>> >1.	Calculators
+>> >2.	Teflon (So your eggs don't stick in the pan)
+>> >3.	Pacemakers (Kept my grandfather alive from 1976 until 1988)
+>> 
+>I think we *should* tell them about the things that they are using now that
+>are spinoffs of the space program.  That is the only way you can *prove*
+>its worth to *them* - and they vote and pay taxes too.  The continued
+>existence of the space program relies upon that money.
+>
+>just my $.02
+>
+>BTW: don't forget Velcro...
+
+at least be honest.  velcro (tm) dates from the 40's.  i have doubts
+about everything listed above.  just because it was developed in the
+space age, doesn't mean it was a space spin-off.  
+
+BTW:  don't forget Tang...:)
+-DonG
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ long term human mission        calcul teflon egg
+don't stick pan pacemak kept grandfath aliv  think
+tell thing use spinoff space program way prove
+worth vote pay tax continu exist space program
+reli upon money    btw don't forget velcro  least
+honest velcro date doubt everyth list develop
+space age doesn't mean space spin  btw don't
+forget tang dong
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+velcro, 9455, 0.393274642952
+space, 8164, 0.286124167118
+btw, 1355, 0.237954484048
+forget, 3604, 0.229932064488
+tang, 8691, 0.186412515708
+dong, 2814, 0.186412515708
+pacemak, 6371, 0.17353078389
+don, 2811, 0.171597263881
+grandfath, 3992, 0.168933094796
+egg, 3011, 0.168933094796
+spinoff, 8237, 0.163305978122
+teflon, 8749, 0.161678479652
+program, 6905, 0.156551213675
+pan, 6404, 0.154820998288
+reli, 7255, 0.14193926647
+vote, 9585, 0.141228868116
+spin, 8235, 0.140537935201
+honest, 4361, 0.135601751442
+tax, 8718, 0.134505166768
+aliv, 417, 0.129640623609
+kept, 4989, 0.127520259798
+stick, 8393, 0.124459845558
+calcul, 1451, 0.121409726266
+worth, 9850, 0.11423503979
+pay, 6474, 0.11423503979
+doubt, 2830, 0.112833708521
+age, 328, 0.112833708521
+prove, 6947, 0.111940961351
+date, 2391, 0.110867715386
+everyth, 3242, 0.108656002204
+continu, 2092, 0.106445758529
+term, 8795, 0.103613100242
+money, 5835, 0.101643167185
+mission, 5772, 0.0996808184572
+human, 4432, 0.0973632982554
+develop, 2588, 0.0939192082705
+list, 5298, 0.0923588668942
+exist, 3283, 0.0904181038505
+tell, 8767, 0.0824044923922
+doesn, 2793, 0.0818000499669
+long, 5336, 0.0794569691623
+mean, 5595, 0.077931726865
+thing, 8869, 0.0688917874006
+way, 9666, 0.0659658302102
+think, 8871, 0.0577555643273
+use, 9363, 0.0556938448704

@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61264
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: khayash@hsc.usc.edu (Ken Hayashida)
+Subject: Re: Life on Mars???
+Organization: University of Southern California, Los Angeles, CA
+Lines: 25
+NNTP-Posting-Host: hsc.usc.edu
+
+In article <1993Apr26.184507.10511@aio.jsc.nasa.gov> kjenks@gothamcity.jsc.nasa.gov writes:
+>I know it's only wishful thinking, with our current President,
+>but this is from last fall:
+>
+>     "Is there life on Mars?  Maybe not now.  But there will be."
+>        -- Daniel S. Goldin, NASA Administrator, 24 August 1992
+>
+>-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+>      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+Lets hear it for Dan Goldin...now if he can only convince the rest of
+our federal government that the space program is a worth while
+investment!
+
+I hope that I will live to see the day we walk on Mars, but
+we need to address the technical hurdles first!  If there's sufficient
+interest, maybe we should consider starting a sci.space group 
+devoted to the technical analysis of long-duration human spaceflight.
+Most of you regulars know that I'm interested in starting this analysis
+as soon as possible.
+
+Ken
+khayash@hsc.usc.edu
+USC School of Medicine, Class of 1994
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ life mar      know it wish think current presid
+last fall  life mar mayb daniel goldin nasa
+administr august  ken jenk nasa jsc gm2 space
+shuttl program offic   let hear dan goldin convinc
+rest feder govern space program worth invest  hope
+live see day walk mar need address technic hurdl
+first there suffici interest mayb consid start sci
+space group devot technic analysi long durat human
+spaceflight regular know i'm interest start
+analysi soon possibl  ken  usc school medicin
+class
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mar, 5500, 0.32980382822
+goldin, 3935, 0.278764636553
+ken, 4980, 0.219244351564
+analysi, 490, 0.211828587096
+technic, 8737, 0.198323499936
+space, 8164, 0.190095114273
+hurdl, 4447, 0.169204426525
+nasa, 5956, 0.168139401285
+life, 5260, 0.16453290777
+mayb, 5564, 0.156387276522
+usc, 9361, 0.143221219302
+gm2, 3915, 0.141866947699
+start, 8334, 0.14141978693
+jenk, 4846, 0.140590106469
+program, 6905, 0.13867928344
+devot, 2597, 0.136107396041
+spaceflight, 8168, 0.135114404119
+medicin, 5609, 0.133251772374
+durat, 2925, 0.13153256738
+daniel, 2359, 0.128446476701
+jsc, 4914, 0.126382982356
+suffici, 8523, 0.122200931111
+administr, 273, 0.121662624581
+dan, 2350, 0.12113698527
+august, 784, 0.12113698527
+feder, 3425, 0.120121417661
+invest, 4744, 0.116466158867
+presid, 6839, 0.106991062949
+convinc, 2120, 0.106991062949
+class, 1789, 0.106991062949
+soon, 8136, 0.106446191058
+school, 7685, 0.105139465355
+sci, 7690, 0.104146473433
+regular, 7234, 0.103666054056
+wish, 9801, 0.103429664125
+fall, 3369, 0.102283841687
+worth, 9850, 0.101193935773
+offic, 6206, 0.0989683406214
+hear, 4223, 0.0964229808301
+know, 5052, 0.0962340929824
+rest, 7324, 0.0954150516691
+walk, 9617, 0.0949276438239
+govern, 3966, 0.0932263025983
+shuttl, 7929, 0.089910801533
+address, 264, 0.0867998763432
+human, 4432, 0.0862482769595
+live, 5310, 0.0819046866261
+current, 2299, 0.0809390154867
+hope, 4372, 0.079849109573
+consid, 2059, 0.0783461210374
+group, 4064, 0.0777423372548
+possibl, 6765, 0.0732393281982
+let, 5225, 0.0705474299124
+long, 5336, 0.0703861393921
+day, 2402, 0.0662420112094
+need, 5993, 0.0600616816247
+think, 8871, 0.0511621729883

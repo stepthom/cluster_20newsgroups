@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105084
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: Sid Fernandez?
+Organization: American Software Development Corp., West Babylon, NY
+Distribution: usa
+Lines: 18
+
+In article <1993Apr15.145914.1575@csi.jpl.nasa.gov> cub@csi.jpl.nasa.gov (Ray Miller) writes:
+>I read this morning that Sid Fernandez left last nights' game with stiffness
+>in his shoulder. Does anyone have any information as to the extent of the
+>injury (if indeed there is one), or weather the cold air in Colorado just got
+>his joints a little stiff?
+>
+>Thanks for the help...
+
+All they said on the radio that he developed stiffness in the shoulder
+after throwing a curveball that didn't loosen.  Because of the cold
+night in Denver they decided to remove him from the game rather than
+let him pitch.  He is expected to pitch his next turn in the rotation
+(expected to be April 20, at Shea vs the Giants).
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sid fernandez      read morn sid fernandez left
+last night game stiff shoulder anyon inform extent
+injuri inde one weather cold air colorado got
+joint littl stiff  thank help  said radio develop
+stiff shoulder throw curvebal didn't loosen cold
+night denver decid remov game rather let pitch
+expect pitch next turn rotat expect april shea
+giant  scott barman met mail list feed follow
+shell asd com subscrib let met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stiff, 8395, 0.429450587677
+sid, 7934, 0.290683930844
+fernandez, 3449, 0.290683930844
+shoulder, 7911, 0.255431984301
+cold, 1888, 0.223723040341
+met, 5655, 0.185049566165
+night, 6063, 0.168916526759
+expect, 3290, 0.161248544674
+curvebal, 2308, 0.157569438816
+pitch, 6643, 0.151882320912
+barman, 913, 0.13615070855
+asd, 677, 0.13615070855
+let, 5225, 0.131392767548
+shea, 7864, 0.129797985329
+game, 3761, 0.126114459798
+shell, 7873, 0.124088993565
+joint, 4882, 0.122488006099
+denver, 2533, 0.12100147598
+extent, 3321, 0.117692521494
+weather, 9679, 0.116503479575
+feed, 3427, 0.113798040237
+subscrib, 8496, 0.11186152017
+morn, 5864, 0.110956918074
+injuri, 4650, 0.110956918074
+scott, 7713, 0.109257805095
+colorado, 1908, 0.104211899596
+remov, 7272, 0.0993787973132
+inde, 4594, 0.099126641859
+air, 357, 0.0979097704096
+rotat, 7490, 0.0965376751505
+giant, 3865, 0.0946356086569
+throw, 8899, 0.0932678110055
+radio, 7061, 0.0928929797788
+com, 1917, 0.090944080914
+decid, 2442, 0.090115183602
+april, 595, 0.0864038457726
+turn, 9158, 0.0827931693296
+left, 5193, 0.0827931693296
+develop, 2588, 0.0774764728228
+list, 5298, 0.0761893053896
+mail, 5447, 0.071514088472
+littl, 5308, 0.0699155627035
+didn, 2625, 0.0694891407688
+said, 7583, 0.0692493390326
+inform, 4637, 0.068373926406
+follow, 3578, 0.068373926406
+got, 3960, 0.0682599394345
+read, 7135, 0.0633245042858
+help, 4249, 0.0611148092314
+thank, 8832, 0.0582565387946
+anyon, 554, 0.0559002658752

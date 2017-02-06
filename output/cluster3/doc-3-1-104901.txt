@@ -1,0 +1,167 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104901
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: ez027993@dale.ucdavis.edu (Gary Built Like Villanueva Huckabay)
+Subject: Alomar vs. Baerga - I was hoping to stay out of this.
+Organization: Julio Lundy Candlelight Vigil Society
+Distribution: na
+Lines: 37
+
+(Lyford "Frosty" Beverage) writes:
+|> Uh, yes.  Baerga has a lot of flash, but Alomar was the better hitter
+|> last year.
+|> 
+|> BATTERS      BA   SLG   OBP   G  AB   R   H  TB 2B 3B HR RBI  BB  SO SB CS  E
+|> BAERGA,C   .312  .455  .354 161 657  92 205 299 32  1 20 105  35  76 10  2 19
+|> ALOMAR,R   .310  .427  .405 152 571 105 177 244 27  8  8  76  87  52 49  9  5
+|> 
+
+>This is fascinating.  You say that Alomar was the better hitter last 
+>year, and immediately follow that up with numbers showing that Baerga
+>had a better year.  The only category that I see which shows an advantage
+>for Alomar is OBP.
+
+Well, OBP is the most important offensive statistic, and by a big margin.
+50 points of OBP is worth considerably more than 50 points of slugging.
+That being said, I still think Baerga was VERY SLIGHTLY better last year,
+but I think this is as close to a wash as you're likely to find.
+
+I personally don't care much for Alomar's defense.  I don't think he's
+nearly as good as people make him out to be, and he can't turn the DP
+to save his life.  He comes across the bag improperly, and his release
+is slow.  Considering the high leverage of the DP, this is a shortcoming
+I can't overlook.  In the long term, I'd move Alomar to another position.
+
+If the Jays could trade a hot Devon White for something, I'll be Alomar
+could be a hell of a CF.  In the long run, I think I'd rather have Jeff
+Kent at 2B and Alomar in CF than Alomar/White.
+
+
+
+
+-- 
+*   Gary Huckabay   * "You think that's loud enough, a$$hole?"           *
+*   "Movie Rights   * "Well, if you're having trouble hearing it, sir,   *
+*   available thru  *  I'd be happy to turn it up for you.  I didn't     *
+*     Ted Frank."   *  know that many people your age liked King's X."   *
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ alomar baerga hope stay      yes baerga lot flash
+alomar better hitter last year  batter slg obp rbi
+baerga alomar   fascin say alomar better hitter
+last year immedi follow number show baerga better
+year categori see show advantag alomar obp  well
+obp import offens statist big margin point obp
+worth consider point slug said still think baerga
+slight better last year think close wash you'r
+like find  person don't care much alomar defens
+don't think he near good peopl make can't turn
+save life come across bag improp releas slow
+consid high leverag shortcom can't overlook long
+term i'd move alomar anoth posit  jay could trade
+hot devon white someth i'll alomar could hell long
+run think i'd rather jeff kent alomar alomar white
+gari huckabay think that loud enough hole movi
+right well you'r troubl hear sir avail thru i'd
+happi turn didn't ted frank know mani peopl age
+like king
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alomar, 436, 0.665484631349
+baerga, 863, 0.362835402737
+obp, 6177, 0.262942303254
+better, 1060, 0.147477448884
+think, 8871, 0.141131949378
+year, 9943, 0.123893434877
+white, 9737, 0.105646956818
+hitter, 4322, 0.104921944354
+turn, 9158, 0.0981003573958
+leverag, 5230, 0.0933508065198
+shortcom, 7905, 0.0875583298252
+devon, 2596, 0.0861067336106
+huckabay, 4422, 0.0825612467326
+wash, 9650, 0.0806614439124
+overlook, 6346, 0.0806614439124
+flash, 3524, 0.0782686024133
+long, 5336, 0.0776646688862
+loud, 5361, 0.07756416364
+fascin, 3395, 0.07756416364
+slug, 8048, 0.0756643608197
+sir, 7989, 0.0725670805473
+slg, 8028, 0.0712685834858
+bag, 864, 0.0708644711073
+point, 6710, 0.0695745823675
+peopl, 6530, 0.0668756288575
+categori, 1560, 0.0657355758135
+jeff, 4839, 0.0654761067913
+ted, 8745, 0.0652219880289
+margin, 5507, 0.06472894935
+king, 5024, 0.0644896345814
+gari, 3776, 0.0640245105767
+rbi, 7124, 0.063576303971
+movi, 5892, 0.0629331498756
+hot, 4389, 0.0623219011366
+statist, 8348, 0.0619306199132
+slow, 8044, 0.0610035421477
+slight, 8034, 0.0610035421477
+trade, 9033, 0.0608262106949
+advantag, 286, 0.0601413498817
+troubl, 9117, 0.0596515772221
+hole, 4343, 0.0593355516162
+immedi, 4527, 0.059027427484
+stay, 8355, 0.0588762068956
+kent, 4987, 0.0588762068956
+batter, 949, 0.0585792208784
+consider, 2060, 0.0581467441069
+offens, 6202, 0.0580058931643
+happi, 4161, 0.0580058931643
+hell, 4245, 0.0565542969497
+don, 2811, 0.0559088557476
+worth, 9850, 0.0558291276023
+age, 328, 0.0551442667891
+jay, 4832, 0.0550337340004
+releas, 7253, 0.053879123803
+defens, 2476, 0.0532921403275
+hear, 4223, 0.0531969713347
+frank, 3655, 0.0527318473299
+like, 5272, 0.0519005388968
+term, 8795, 0.0506379566664
+near, 5982, 0.0498907992252
+save, 7646, 0.0496041741362
+care, 1516, 0.0485200185352
+posit, 6761, 0.0483909668499
+import, 4551, 0.0467132299175
+close, 1830, 0.0467132299175
+life, 5260, 0.0453867548114
+yes, 9951, 0.0448937161326
+hope, 4372, 0.0440530956053
+consid, 2059, 0.0432238903955
+avail, 811, 0.0428088908048
+big, 1082, 0.0419803843994
+high, 4292, 0.041678856862
+didn, 2625, 0.0411683089302
+person, 6562, 0.0410616041655
+said, 7583, 0.0410262402293
+follow, 3578, 0.0405076087272
+number, 6156, 0.0400751319557
+anoth, 533, 0.0397206825412
+ll, 5314, 0.0390409736782
+lot, 5356, 0.0384539902027
+right, 7399, 0.0374895848266
+run, 7543, 0.0371240060595
+someth, 8126, 0.0362788625334
+come, 1923, 0.0357383384674
+mani, 5479, 0.0349587627962
+good, 3948, 0.0316805543037
+say, 7653, 0.031289790051
+make, 5459, 0.030911035839
+know, 5052, 0.0265463805502

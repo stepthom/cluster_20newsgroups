@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102735
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: Rockies (not Rookies)
+Article-I.D.: pegasus.steph.733996812
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 19
+
+In <C500u7.Kr8@news.cso.uiuc.edu> dbl50872@uxa.cso.uiuc.edu (Daniel Brian Lake) writes:
+
+>You'd think that an expansion team would be filled with young'ns, not guys
+>like Murphy, Galaragga, B Smith...
+
+It depends.  If you can get your old veterans cheap, and if they can perform
+at a higher level than your young talent can *now*, why not the talent 
+develop in the minors while giving the fans some familiar names to cheer.
+If the veterans are gone in a year or two -- that should be just about right.
+
+>Maybe someone should tell those renegade front office people in Denver. :)
+
+Open question -- which was more important to the expansion clubs, the expansion
+draft or the regular draft.  (They've had one of each, I think.)
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rocki rooki articl pegasus steph      you'd think
+expans team fill young'n guy like murphi galaragga
+smith  depend get old veteran cheap perform higher
+level young talent talent develop minor give fan
+familiar name cheer veteran gone year two right
+mayb someon tell renegad front offic peopl denver
+open question import expans club expans draft
+regular draft they'v one think    consid good look
+wise especi overburden inform golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+expans, 3289, 0.427576743317
+veteran, 9490, 0.292813549471
+draft, 2853, 0.288776942002
+talent, 8683, 0.257197067832
+young, 9962, 0.216178323826
+steph, 8378, 0.188747245788
+pegasus, 6507, 0.153723671356
+murphi, 5928, 0.15103138564
+overburden, 6339, 0.149789799528
+kimbal, 5019, 0.147482757312
+denver, 2533, 0.140795872412
+rooki, 7475, 0.139181566189
+familiar, 3379, 0.13766822204
+golden, 3934, 0.132414040607
+wise, 9799, 0.129108144788
+club, 1842, 0.128099431238
+rocki, 7450, 0.123604032148
+cheap, 1677, 0.122797103349
+smith, 8064, 0.118450122698
+gone, 3943, 0.117795876863
+cheer, 1687, 0.114483115174
+regular, 7234, 0.112330085921
+minor, 5745, 0.111321372371
+higher, 4293, 0.111075627902
+think, 8871, 0.110876242759
+depend, 2537, 0.108089161913
+offic, 6206, 0.107239754679
+especi, 3190, 0.100224119929
+level, 5229, 0.0993048085938
+perform, 6539, 0.098274626641
+fan, 3381, 0.0963371430893
+open, 6258, 0.0960725981357
+import, 4551, 0.0917472521852
+old, 6216, 0.0915281952845
+guy, 4100, 0.0908826737676
+develop, 2588, 0.0901506985276
+consid, 2059, 0.0848940049648
+mayb, 5564, 0.0847287782324
+team, 8732, 0.0803705218454
+inform, 4637, 0.0795590842226
+tell, 8767, 0.0790980108092
+someon, 8124, 0.0790980108092
+articl, 665, 0.078013519607
+right, 7399, 0.07363152579
+question, 7032, 0.0732698555476
+peopl, 6530, 0.065673634607
+good, 3948, 0.0622222828565
+year, 9943, 0.0608333133561
+look, 5341, 0.0604075753555
+like, 5272, 0.0509677005757

@@ -1,0 +1,511 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39673
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: val@fcom.cc.utah.edu (Val Kartchner)
+Subject: Re: Where did the hacker ethic go?
+Organization: University of Utah Computer Center
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 133
+
+VINCI (filipe@vxcrna.cern.ch) wrote:
+: In article <1993May12.193454.29823@hal.com>, bobp@hal.com (Bob Pendleton) writes...
+: >From article <1993May7.235404.22590@pony.Ingres.COM>, by mwmeyer@Ingres.COM (Mike (wading through the muck and) Meyer):
+: >> In article <1993May7.165432.16935@hal.com> bobp@hal.com (Bob Pendleton) writes:
+: >>    This is getting pretty silly. First off, "Hacker" is an obsolete term.
+: >>    Doesn't matter what it used to mean, today it means "thief."
+: >> 
+: >> It only means "thief" if you want it to mean that.  To me, it means
+
+:   [Lots of context wickedly omitted by myself :-) ]
+: > 
+: >Anyway, if I say "Joe is a hacker" to most english speaking people who
+: >know the word they'll probably think he is either a poor golfer or a
+: >bad carpenter. But there are very very few people who will think he is
+: >a good and clever programmer. :-)
+: > 
+: >If you chose to call yourself by a term that means "thief" don't be
+: >surprised when people think you are a thief. Even if you don't agree
+: >with that definition of the word.
+:       ^^^  ^^^^^^^^^^ 
+:  [....] The narrower view that a hacker, when
+:  associated with the computing environment, is a dishonest
+:  expert is not so widespread, I'm my opinion, at least with the
+:  people involved with the field. IMHO the wider meaning is not
+:  obsolete at all, no matter how much the lay press would like it to
+:  be!  [....]
+
+:  Therefore I conclude that if you call yourself a hacker, and somebody
+:  perceives you as a thief, then this person belongs to a very very
+:  small group that has some computer knowledge, but not enough to know
+:  the wider (and original) meaning of the word.  [....]
+
+Unfortunately, the general public has a very narrow view of the deep, dark
+recesses of the art of computing.  What little they do see is from the view
+given to them by the media.  From what I have seen from the media, 'hacker'
+is not a proper way by which to refer to a respected person.
+
+I, on the other hand, know what 'hacker' means from those who consider
+themselves such.  Following is the definition from "Jargon File 2.9.10".
+(This is also known as the "Hackers Dictionary".)  The definitions are
+arranged in order of decreasing frequency of usage:
+
+   :hacker: [originally, someone who makes furniture with an axe] n.
+     1. A person who enjoys exploring the details of programmable
+     systems and how to stretch their capabilities, as opposed to most
+     users, who prefer to learn only the minimum necessary.  2. One who
+     programs enthusiastically (even obsessively) or who enjoys
+     programming rather than just theorizing about programming.  3. A
+     person capable of appreciating {hack value}.  4. A person who is
+     good at programming quickly.  5. An expert at a particular program,
+     or one who frequently does work using it or on it; as in 'a UNIX
+     hacker'.  (Definitions 1 through 5 are correlated, and people who
+     fit them congregate.)  6. An expert or enthusiast of any kind.  One
+     might be an astronomy hacker, for example.  7. One who enjoys the
+     intellectual challenge of creatively overcoming or circumventing
+     limitations.  8. [deprecated] A malicious meddler who tries to
+     discover sensitive information by poking around.  Hence 'password
+     hacker', 'network hacker'.  See {cracker}.
+
+     The term 'hacker' also tends to connote membership in the global
+     community defined by the net (see {network, the} and
+     {Internet address}).  It also implies that the person described
+     is seen to subscribe to some version of the hacker ehic (see
+     {hacker ethic, the}).
+
+     It is better to be described as a hacker by others than to describe
+     oneself that way.  Hackers consider themselves something of an
+     elite (a meritocracy based on ability), though one to which new
+     members are gladly welcome.  There is thus a certain ego
+     satisfaction to be had in identifying yourself as a hacker (but if
+     you claim to be one and are not, you'll quickly be labeled
+     {bogus}).  See also {wannabee}.
+
+   :hacker ethic, the: n.  1. The belief that information-sharing
+     is a powerful positive good, and that it is an ethical duty of
+     hackers to share their expertise by writing free software and
+     facilitating access to information and to computing resources
+     wherever possible.  2. The belief that system-cracking for fun
+     and exploration is ethically OK as long as the cracker commits
+     no theft, vandalism, or breach of confidentiality.
+
+     Both of these normative ethical principles are widely, but by no
+     means universally) accepted among hackers. Most hackers subscribe
+     to the hacker ethic in sense 1, and many act on it by writing and
+     giving away free software.  A few go further and assert that
+     *all* information should be free and *any* proprietary
+     control of it is bad; this is the philosophy behind the {GNU}
+     project.
+
+     Sense 2 is more controversial: some people consider the act of
+     cracking itself to be unethical, like breaking and entering.
+     But this principle at least moderates the behavior of people who
+     see themselves as `benign' crackers (see also {samurai}).  On
+     this view, it is one of the highest forms of hackerly courtesy
+     to (a) break into a system, and then (b) explain to the sysop,
+     preferably by email from a {superuser} account, exactly how it
+     was done and how the hole can be plugged --- acting as an
+     unpaid (an unsolicited) {tiger team}.
+
+     The most reliable manifestation of either version of the hacker
+     ethic is that almost all hackers are actively willing to share
+     technical tricks, software, and (where possible) computing
+     resources with other hackers.  Huge cooperative networks such as
+     {USENET}, {Fidonet} and Internet (see {Internet address})
+     can function without central control because of this trait; they
+     both rely on and reinforce a sense of community that may be
+     hackerdom's most valuable intangible asset.
+
+:  Finally, a true hacker does not name himself/herself one, for this is
+:  a title that is bestowed by the befuddled sysadmins and users at large.
+: To me, a sign of a truly great hacker is to be introduced to someone who
+: says "Nahh, I just know a thing or two, people always exagerate..." :-)
+
+Note that the above definition does not preclude a hacker from describing
+limself (meaning: himself/herself) one, but simply says that it is better
+not to do so.  There are many who do not know the meaning of 'hacker'.  So,
+in order to defend the true meaning of the word, it is sometimes necessary
+to borrow on the reputation of a known (respected) hacker around the
+workplace.  (This means that 'hacker' is defined in terms of some well-known
+and respected person.)  Sometimes, there may only be one such person.
+
+: >No matter what Mr. Dumpty says, language doesn't work that way.
+:  Actually it does, you just have to get adequate press coverage... :-)
+
+Language works anyway that we want it to work.  The purpose of language is
+to communicate.  To oversimplify: As long as communication is taking place,
+then language is working.
+
+--
+|================= #include <stddisclaimer.h> ================///=============|
+| "AMIGA: The computer for the creative mind" (tm) Commodore /// Weber State  |
+| "Macintosh: The computer for the rest of us"(tm) Apple \\\///   University  |
+|== "I think, therefore I AMiga" -- val@csulx.weber.edu ==\///= Ogden UT USA =|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hacker ethic      hal com bob pendleton write
+ingr com mike wade muck meyer  get pretti silli
+first hacker obsolet term doesn't matter use mean
+today mean thief  mean thief want mean mean  lot
+context wick omit  anyway say joe hacker english
+speak peopl know word they'll probabl think either
+poor golfer bad carpent peopl think good clever
+programm  chose call term mean thief don't surpris
+peopl think thief even don't agre definit word
+narrow view hacker associ comput environ dishonest
+expert widespread i'm opinion least peopl involv
+field imho wider mean obsolet matter much lay
+press like   therefor conclud call hacker somebodi
+perceiv thief person belong small group comput
+knowledg enough know wider origin mean word
+unfortun general public narrow view deep dark
+recess art comput littl see view given media seen
+media hacker proper way refer respect person  hand
+know hacker mean consid follow definit jargon file
+also known hacker dictionari definit arrang order
+decreas frequenc usag  hacker origin someon make
+furnitur axe person enjoy explor detail programm
+system stretch capabl oppos user prefer learn
+minimum necessari one program enthusiast even
+obsess enjoy program rather theoriz program person
+capabl appreci hack valu person good program quick
+expert particular program one frequent work use
+unix hacker definit correl peopl fit congreg
+expert enthusiast kind one might astronomi hacker
+exampl one enjoy intellectu challeng creativ
+overcom circumv limit deprec malici meddler tri
+discov sensit inform poke around henc password
+hacker network hacker see cracker  term hacker
+also tend connot membership global communiti defin
+net see network internet address also impli person
+describ seen subscrib version hacker ehic see
+hacker ethic  better describ hacker other describ
+oneself way hacker consid someth elit meritocraci
+base abil though one new member glad welcom thus
+certain ego satisfact identifi hacker claim one
+you'll quick label bogus see also wannabe  hacker
+ethic belief inform share power posit good ethic
+duti hacker share expertis write free softwar
+facilit access inform comput resourc wherev
+possibl belief system crack fun explor ethic long
+cracker commit theft vandal breach confidenti
+normat ethic principl wide mean univers accept
+among hacker hacker subscrib hacker ethic sens
+mani act write give away free softwar assert
+inform free proprietari control bad philosophi
+behind gnu project  sens controversi peopl consid
+act crack uneth like break enter principl least
+moder behavior peopl see benign cracker see also
+samurai view one highest form hacker courtesi
+break system explain sysop prefer email superus
+account exact done hole plug act unpaid unsolicit
+tiger team  reliabl manifest either version hacker
+ethic almost hacker activ will share technic trick
+softwar possibl comput resourc hacker huge cooper
+network usenet fidonet internet see internet
+address function without central control trait
+reli reinforc sens communiti hackerdom valuabl
+intang asset  final true hacker name one titl
+bestow befuddl sysadmin user larg sign truli great
+hacker introduc someon say nahh know thing two
+peopl alway exager  note definit preclud hacker
+describ limself mean one simpli say better mani
+know mean hacker order defend true mean word
+sometim necessari borrow reput known respect
+hacker around workplac mean hacker defin term well
+known respect person sometim one person  matter
+dumpti say languag doesn't work way actual get
+adequ press coverag  languag work anyway want work
+purpos languag communic oversimplifi long communic
+take place languag work   includ stddisclaim amiga
+comput creativ mind commodor weber state macintosh
+comput rest appl univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hacker, 4112, 0.826183627206
+ethic, 3209, 0.169808300695
+mean, 5595, 0.163978830956
+thief, 8865, 0.130404321384
+person, 6562, 0.101020577133
+comput, 1993, 0.0919792564357
+cracker, 2204, 0.0919320101068
+peopl, 6530, 0.0822643776423
+definit, 2484, 0.0819439912597
+languag, 5113, 0.0731823805801
+describ, 2556, 0.0653219534385
+expert, 3298, 0.062768010787
+term, 8795, 0.0622902552307
+view, 9510, 0.0592136166379
+program, 6905, 0.058822285947
+share, 7855, 0.0569598188627
+internet, 4717, 0.0545989167749
+enjoy, 3114, 0.0544576701793
+word, 9829, 0.0543016251022
+work, 9833, 0.0536876432082
+network, 6018, 0.0526449441705
+respect, 7321, 0.0515069747565
+wider, 9749, 0.0514392643822
+act, 249, 0.0507731585581
+enthusiast, 3128, 0.0501729716197
+inform, 4637, 0.0498288132561
+obsolet, 6182, 0.0490882476934
+crack, 2203, 0.0481394939866
+sens, 7788, 0.0473759578103
+narrow, 5955, 0.0469075783192
+creativ, 2220, 0.0465377422155
+free, 3668, 0.0462991090116
+known, 5054, 0.0454418181165
+matter, 5553, 0.044123794192
+know, 5052, 0.0408187091458
+subscrib, 8496, 0.0407606165984
+consid, 2059, 0.0398776038081
+principl, 6870, 0.0398118628916
+write, 9865, 0.0391974552709
+say, 7653, 0.0384898826236
+programm, 6906, 0.0384546528593
+softwar, 8103, 0.0379482509277
+communiti, 1953, 0.0377434938897
+communic, 1950, 0.0374114640314
+necessari, 5990, 0.0373039425621
+media, 5605, 0.0368884886489
+press, 6841, 0.0363992778499
+resourc, 7320, 0.0360294417463
+explor, 3307, 0.0358510773643
+belief, 1008, 0.0352579150313
+break, 1284, 0.0347078192747
+prefer, 6819, 0.0346323944087
+capabl, 1498, 0.0339853551031
+sometim, 8128, 0.0333257969895
+defin, 2482, 0.0332628909315
+com, 1917, 0.0331386236159
+user, 9366, 0.0327190623405
+quick, 7036, 0.0323215108989
+control, 2107, 0.0316343384143
+way, 9666, 0.0297430662052
+workplac, 9838, 0.0295536686818
+weber, 9683, 0.0295536686818
+muck, 5912, 0.0295536686818
+golfer, 3938, 0.0295536686818
+exager, 3254, 0.0295536686818
+elit, 3045, 0.0295536686818
+dumpti, 2917, 0.0295536686818
+commodor, 1947, 0.0295536686818
+benign, 1031, 0.0295536686818
+befuddl, 991, 0.0295536686818
+version, 9479, 0.0294916647912
+address, 264, 0.02945366904
+good, 3948, 0.0292279242193
+wherev, 9727, 0.0287079393942
+sysadmin, 8662, 0.0287079393942
+congreg, 2039, 0.0287079393942
+circumv, 1771, 0.0287079393942
+breach, 1281, 0.0287079393942
+bestow, 1053, 0.0287079393942
+seen, 7767, 0.0281350792296
+satisfact, 7633, 0.0280169282516
+preclud, 6810, 0.0280169282516
+poke, 6714, 0.0280169282516
+oneself, 6241, 0.0280169282516
+connot, 2048, 0.0280169282516
+bad, 861, 0.0279153497437
+wick, 9745, 0.0274326866553
+reinforc, 7240, 0.0274326866553
+obsess, 6181, 0.0274326866553
+dishonest, 2715, 0.0274326866553
+true, 9121, 0.0270397462932
+origin, 6293, 0.0269575016908
+meyer, 5672, 0.0269265935645
+malici, 5468, 0.0269265935645
+carpent, 1529, 0.0269265935645
+asset, 701, 0.0269265935645
+order, 6281, 0.0267956420929
+overcom, 6340, 0.0264801878214
+bogus, 1200, 0.0260808642769
+axe, 839, 0.0260808642769
+think, 8871, 0.02604117265
+omit, 6234, 0.0257196321911
+facilit, 3349, 0.0257196321911
+expertis, 3299, 0.0257196321911
+borrow, 1234, 0.0257196321911
+pendleton, 6518, 0.0253898531343
+hal, 4121, 0.0253898531343
+clever, 1812, 0.0253898531343
+univers, 9282, 0.0251900783346
+hack, 4111, 0.0250864858098
+possibl, 6765, 0.0248521890162
+fidonet, 3465, 0.024805611538
+someon, 8124, 0.0247700187103
+doesn, 2793, 0.0245883289778
+controversi, 2108, 0.0245441238467
+gnu, 3920, 0.0242995184472
+perceiv, 6532, 0.0240697469933
+duti, 2931, 0.0240697469933
+courtesi, 2192, 0.0240697469933
+ll, 5314, 0.0240123454318
+long, 5336, 0.0238840208304
+sensit, 7791, 0.0238531127041
+membership, 5626, 0.0238531127041
+widespread, 9750, 0.0236481942458
+proprietari, 6935, 0.0236481942458
+password, 6455, 0.0234537891596
+manifest, 5481, 0.0234537891596
+ego, 3012, 0.0234537891596
+intellectu, 4697, 0.0232688711078
+frequenc, 3685, 0.0230925570738
+dictionari, 2624, 0.0230925570738
+chose, 1726, 0.0230925570738
+wade, 9605, 0.0229240818601
+trick, 9094, 0.0229240818601
+plug, 6697, 0.0229240818601
+moder, 5810, 0.0229240818601
+correl, 2157, 0.0229240818601
+adequ, 265, 0.0229240818601
+usag, 9360, 0.022762778017
+introduc, 4732, 0.022762778017
+decreas, 2456, 0.022762778017
+better, 1060, 0.0226766849822
+reput, 7300, 0.0224594106925
+lay, 5159, 0.0224594106925
+label, 5086, 0.0224594106925
+coverag, 2195, 0.0223163722739
+valuabl, 9415, 0.0219170487294
+philosophi, 6596, 0.0217927730632
+henc, 4252, 0.0217927730632
+arrang, 652, 0.0216724433299
+cooper, 2125, 0.0215558166436
+mani, 5479, 0.021501561284
+silli, 7956, 0.021332807133
+reli, 7255, 0.021332807133
+macintosh, 5418, 0.021332807133
+frequent, 3686, 0.021332807133
+global, 3904, 0.0210211191285
+defend, 2474, 0.0210211191285
+appl, 583, 0.0209226702623
+glad, 3889, 0.0208267140423
+behavior, 1000, 0.0208267140423
+want, 9634, 0.0206486803721
+reliabl, 7256, 0.0206417959905
+assert, 699, 0.0206417959905
+identifi, 4486, 0.0205526137995
+stretch, 8443, 0.0203803082992
+usenet, 9365, 0.0202970067428
+english, 3111, 0.0202970067428
+conclud, 2008, 0.0202970067428
+tiger, 8928, 0.0202154967573
+minimum, 5740, 0.0202154967573
+highest, 4294, 0.0202154967573
+imho, 4524, 0.0201357028997
+commit, 1945, 0.0201357028997
+welcom, 9701, 0.0199809847546
+belong, 1015, 0.0199809847546
+central, 1611, 0.0199059314458
+deep, 2466, 0.0198323355752
+challeng, 1642, 0.0198323355752
+impli, 4546, 0.0197601416164
+discov, 2698, 0.0197601416164
+amiga, 472, 0.0196892971566
+fun, 3721, 0.0195514613033
+vandal, 9419, 0.0194184628065
+proper, 6924, 0.0191656979459
+context, 2087, 0.0189866062876
+truli, 9127, 0.0188155967587
+tend, 8783, 0.0188155967587
+joe, 4876, 0.0188155967587
+huge, 4427, 0.0185989624695
+art, 660, 0.0185466848373
+oppos, 6269, 0.0184951184875
+wide, 9747, 0.0184442443244
+enter, 3125, 0.0183940440111
+titl, 8953, 0.018247313368
+hole, 4343, 0.018247313368
+astronomi, 729, 0.018247313368
+account, 221, 0.018199638925
+somebodi, 8121, 0.0181060522381
+poor, 6741, 0.0180601114545
+unfortun, 9264, 0.0180147208731
+dark, 2365, 0.017969867471
+associ, 706, 0.0178384068392
+function, 3722, 0.0177532331819
+abil, 177, 0.0177532331819
+environ, 3139, 0.0176289575157
+unix, 9284, 0.0173539096373
+sign, 7946, 0.0172418797596
+don, 2811, 0.017193510182
+fit, 3510, 0.0170974787423
+surpris, 8593, 0.0170622220393
+therefor, 8855, 0.016924386186
+knowledg, 5053, 0.0168906964687
+technic, 8737, 0.0168242023378
+member, 5625, 0.0167913876892
+use, 9363, 0.0167410482055
+speak, 8192, 0.0166946147321
+bob, 1189, 0.0166628984948
+limit, 5278, 0.0165693118079
+mike, 5710, 0.0163595311703
+purpos, 6993, 0.016301666409
+rest, 7324, 0.0161885216414
+activ, 252, 0.0161885216414
+access, 209, 0.0161885216414
+learn, 5182, 0.0161058259627
+like, 5272, 0.0159608425543
+email, 3060, 0.0159456584015
+involv, 4750, 0.0158937388466
+particular, 6442, 0.0158680433702
+accept, 208, 0.0155725638077
+simpli, 7967, 0.0155254816091
+valu, 9414, 0.0155021580386
+explain, 3301, 0.0153205631507
+net, 6010, 0.015254647259
+form, 3610, 0.01518985819
+exact, 3253, 0.0150428565082
+away, 833, 0.0150223140826
+posit, 6761, 0.0148815526651
+final, 3482, 0.0148815526651
+small, 8054, 0.0147649259788
+mind, 5733, 0.0147649259788
+claim, 1782, 0.0147649259788
+agre, 337, 0.0146704056626
+appreci, 587, 0.0146517812112
+general, 3818, 0.0146332478332
+public, 6973, 0.0145600075204
+today, 8964, 0.0144881557336
+alway, 457, 0.0143142688968
+field, 3466, 0.0142636213514
+opinion, 6266, 0.0141971272205
+project, 6909, 0.0140675396148
+power, 6783, 0.0140675396148
+larg, 5124, 0.0140358233775
+refer, 7213, 0.013973176195
+pretti, 6851, 0.013896295907
+hand, 4145, 0.0137470613437
+exampl, 3258, 0.0137470613437
+note, 6118, 0.0136745912917
+given, 3887, 0.0136034809835
+kind, 5021, 0.0135198731466
+state, 8342, 0.013438069937
+certain, 1619, 0.0134111899077
+group, 4064, 0.0131900940898
+file, 3477, 0.013115040781
+includ, 4579, 0.0130414449104
+place, 6657, 0.0129811881842
+littl, 5308, 0.0127380775859
+great, 4016, 0.0126058524935
+team, 8732, 0.0125842566046
+follow, 3578, 0.012457203314
+probabl, 6885, 0.0123952389653
+actual, 254, 0.0121860099369
+base, 923, 0.0118610806163
+lot, 5356, 0.0118256591599
+someth, 8126, 0.0111567476032
+new, 6023, 0.0110403448037
+tri, 9087, 0.0109764058662
+thing, 8869, 0.0103541130669
+make, 5459, 0.00950599332304

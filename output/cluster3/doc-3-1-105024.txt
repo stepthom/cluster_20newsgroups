@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105024
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: wall@cc.swarthmore.edu (Matthew Wall)
+Subject: Triva question on Bosio's No-hitter
+Organization: Hi, I'm Matt, and I'm a...a...Boston Red Sox fan
+Lines: 17
+Nntp-Posting-Host: elvis.swarthmore.edu
+
+I don't actually have the answer to this one.
+
+Bosio, after walking the first two batters, retired 27-straight for a
+"back-end" perfect game.
+
+How many other games - including extra inning games - have seen a pitcher
+retire 27 straight, excluding official perfect games?
+
+The only other instance of this I know about for sure is the famous Ernie
+Shore game, which counts as a perfect one according to those goons in
+Cooperstown. Shore came into the game when Boston Pitcher Babe Ruth got
+thrown out for arguing over the first-batter walk; Shore picked him off and
+retired 26 straight after that.
+
+Matt Wall * wall@cc.swarthmore.edu * Hey, I gotta job here, OK?
+---------------------------------------------------------------
+April 6, 1993: Boston Red Sox seize first place.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ triva question bosio hitter     don't actual
+answer one  bosio walk first two batter retir
+straight back end perfect game  mani game includ
+extra inning game seen pitcher retir straight
+exclud offici perfect game  instanc know sure
+famous erni shore game count perfect one accord
+goon cooperstown shore came game boston pitcher
+babe ruth got thrown argu first batter walk shore
+pick retir straight    april boston red sox seiz
+first place
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shore, 7902, 0.406672415938
+retir, 7339, 0.354646501706
+game, 3761, 0.352873114809
+straight, 8422, 0.295285794191
+perfect, 6538, 0.254465040384
+bosio, 1237, 0.253969950188
+boston, 1243, 0.186823423403
+batter, 949, 0.184442046744
+walk, 9617, 0.164898003471
+pitcher, 6644, 0.154226357312
+seiz, 7772, 0.140433507408
+erni, 3173, 0.126984975094
+babe, 846, 0.120064721151
+exclud, 3266, 0.118215500569
+thrown, 8900, 0.114242052571
+ruth, 7555, 0.112197834057
+famous, 3380, 0.109206982393
+instanc, 4680, 0.10152576304
+argu, 628, 0.095483237934
+extra, 3325, 0.0904559770251
+offici, 6207, 0.0902462222159
+sox, 8162, 0.0896302298161
+count, 2180, 0.0896302298161
+inning, 4657, 0.0894291696657
+pick, 6619, 0.0873449879432
+accord, 219, 0.0871661651946
+hitter, 4322, 0.0825890899316
+april, 595, 0.0805870958757
+came, 1472, 0.0782034728314
+red, 7194, 0.0776506681761
+seen, 7767, 0.0720145989903
+answer, 535, 0.0716112137561
+end, 3091, 0.0668865842942
+includ, 4579, 0.0667618113184
+place, 6657, 0.0664533448707
+got, 3960, 0.0636646463417
+sure, 8585, 0.062482163875
+actual, 254, 0.0623826655499
+question, 7032, 0.0587297987101
+mani, 5479, 0.0550354346223
+don, 2811, 0.0440085393359
+know, 5052, 0.0417918563007

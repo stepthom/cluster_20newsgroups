@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38405
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: uk02183@nx10.mik.uky.edu (bryan k williams)
+Subject: Re: CView answers
+Keywords: Stupid Programming
+Nntp-Posting-Host: nx10.mik.uky.edu
+Organization: University of Kentucky
+Lines: 6
+
+re: majority of users not readding from floppy.
+Well, how about those of us who have 1400-picture CD-ROMS and would like to use
+CVIEW because it is fast and it works well, but can't because the moron lacked
+the foresight to create the temp file in the program's path, not the current
+didrectory?
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cview answer      major user read floppi well
+pictur rom like use cview fast work well can't
+moron lack foresight creat temp file program path
+current didrectori
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cview, 2320, 0.487744258611
+didrectori, 2627, 0.314399335782
+foresight, 3600, 0.277454771979
+moron, 5865, 0.266876324582
+temp, 8771, 0.249507288341
+floppi, 3551, 0.249507288341
+rom, 7467, 0.231836982734
+path, 6461, 0.207279704825
+lack, 5092, 0.18668337094
+fast, 3397, 0.177941749049
+user, 9366, 0.174036793503
+pictur, 6622, 0.170193916023
+creat, 2217, 0.155869321349
+answer, 535, 0.148815735279
+major, 5458, 0.14799453182
+current, 2299, 0.146089309865
+file, 3477, 0.139521091431
+program, 6905, 0.125153244628
+read, 7135, 0.12273602413
+work, 9833, 0.114228521312
+use, 9363, 0.0890477336804
+like, 5272, 0.0848977220325

@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104777
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: r4938585@joplin.biosci.arizona.edu (Doug Roberts)
+Subject: Re: Neon Deon Sanders  (Braves & Giants)
+Organization: University of Arizona, Biotechnology, Tucson
+Lines: 33
+NNTP-Posting-Host: joplin.biosci.arizona.edu
+
+In article <1993Apr20.062222.9960@bnlux1.bnl.gov> kyee@bnlux1.bnl.gov (kenton yee) writes:
+>>phisto.gatech.edu> tmiller@cimmeria.gatech.edu (Thomas Miller) writes:
+>>>  Does anyone else think that this weekend's four-game series was a
+>>>really strange one?
+> 
+>yup, I was wondering the whole time why the Braves most 
+						    ^^^^
+>talented outfielder, Neon Deon, was not starting?  Here's 
+ ^^^^^^^^ ^^^^^^^^^^
+	Whoa. Aren't you forgetting a couple of guys named Gant and Justice?
+
+>a guy who can hit .300, 20+ hrs, lead-off, and steal 40+
+ 
+	He can lead off. He'll probably steal 40. He might hit .300. He'll
+never hit 20+ homers. I think you went 2 for 4 on this one.
+ 
+>bases... and they start guys like Nixon and Bream ahead
+>of him!   I can't really see that advantage of Nixon
+>over Deon except that Nixon is a better defensive outfielder.  
+		       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	You said it all right there. 
+
+	Does anyone else out there not like Deon? I think he's all hype.
+His .300 season last year was good, but I'm not convinced that he can do
+it again. It reminds me (sorry) of the year 1987(?) when Tim Wallach hit
+30 or so homers and had 127 RBI. It never even came close to happening 
+again. Of course, maybe I just prefer guys who go about their business
+and don't play it up for the attention. Just my HO.
+
+Doug Roberts - Larry Walker is God. Delino Deshields thinks he is.
+ 
+	       (John Bratt, if you're out there, send me some email.
+		My system can't find your site!)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ neon deon sander brave giant       anyon els
+think weekend four game seri realli strang one
+yup wonder whole time brave  talent outfield neon
+deon start here  whoa aren't forget coupl guy name
+gant justic  guy hit hrs lead steal  lead he'll
+probabl steal might hit he'll never hit homer
+think went one  base start guy like nixon bream
+ahead can't realli see advantag nixon deon except
+nixon better defens outfield  said right  anyon
+els like deon think he hype season last year good
+i'm convinc remind sorri year tim wallach hit
+homer rbi never even came close happen cours mayb
+prefer guy busi don't play attent  doug robert
+larri walker god delino deshield think  john bratt
+you'r send email system can't find site
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+deon, 2534, 0.49954148631
+nixon, 6080, 0.286747962285
+neon, 6004, 0.233990424509
+guy, 4100, 0.231973263796
+hit, 4316, 0.216055976166
+outfield, 6325, 0.172161121712
+steal, 8362, 0.171337291784
+homer, 4355, 0.160481981541
+think, 8871, 0.14150290063
+brave, 1277, 0.132176119327
+lead, 5172, 0.125420418134
+bratt, 1275, 0.120441864282
+delino, 2506, 0.114179092498
+deshield, 2562, 0.11179809717
+walker, 9618, 0.107916320714
+els, 3053, 0.106796258487
+wallach, 9621, 0.106288933175
+yup, 9970, 0.103472813418
+bream, 1289, 0.103472813418
+ll, 5314, 0.0978589724583
+start, 8334, 0.0977837183615
+sander, 7607, 0.0972100416343
+hype, 4458, 0.0972100416343
+hrs, 4414, 0.0955826540949
+larri, 5128, 0.0941105029952
+realli, 7150, 0.0916667455608
+weekend, 9692, 0.0903855390104
+gant, 3766, 0.086938886983
+justic, 4937, 0.086080560856
+anyon, 554, 0.0830118266625
+doug, 2833, 0.0823854440221
+tim, 8935, 0.0820602552588
+talent, 8683, 0.0820602552588
+remind, 7270, 0.0811238536712
+strang, 8426, 0.0796792599307
+rbi, 7124, 0.0796792599307
+attent, 766, 0.0796792599307
+year, 9943, 0.0776369227583
+advantag, 286, 0.0753742817763
+ahead, 342, 0.0749623668125
+convinc, 2120, 0.0739782189868
+busi, 1424, 0.071193913651
+prefer, 6819, 0.0705697521352
+forget, 3604, 0.0704175745915
+giant, 3865, 0.0702668817306
+robert, 7437, 0.069534711691
+went, 9704, 0.068972980851
+aren, 623, 0.0674008559671
+defens, 2476, 0.0667902667534
+like, 5272, 0.0650461928581
+email, 3060, 0.0649843119566
+coupl, 2187, 0.0642560877328
+site, 7994, 0.0636581074142
+seri, 7805, 0.0629885210245
+came, 1472, 0.0622572177823
+sorri, 8142, 0.0595606026509
+season, 7747, 0.0594858039781
+send, 7785, 0.0593372846056
+close, 1830, 0.0585450137286
+john, 4878, 0.0584052309128
+wonder, 9821, 0.0560839876737
+happen, 4159, 0.0544386502244
+god, 3926, 0.0544386502244
+mayb, 5564, 0.0540664419553
+cours, 2190, 0.052854377565
+said, 7583, 0.0514175920119
+play, 6681, 0.050938273288
+probabl, 6885, 0.0505150715895
+base, 923, 0.0483381835669
+right, 7399, 0.0469851530761
+game, 3761, 0.0468199547556
+better, 1060, 0.0462078370775
+good, 3948, 0.0397047793509
+time, 8936, 0.0366997691325
+don, 2811, 0.0350348791239

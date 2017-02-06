@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104604
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: snichols@adobe.com (Sherri Nichols)
+Subject: Re: Braves Pitching UpdateDIR
+Organization: Adobe Systems Incorporated
+Lines: 21
+
+In article <1993Apr15.214032.1@acad.drake.edu> sbp002@acad.drake.edu writes:
+> 
+>> Not clear to me at all.  I'd certainly rather have a team who was winning
+>> 4-1 games than 2-1 games.  In the 2-1 game, luck is going to play a much
+>> bigger role than in the 4-1 game. 
+>
+>But you still need the pitching staff to hold the opposing team to
+>one run.
+
+Yeah, but what's your point?  You still need the offense to score more runs
+than you allow, too.  
+
+The Braves do have a fine pitching staff.  But that's still only half the
+game.  
+
+Sherri Nichols
+snichols@adobe.com
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave pitch updatedir      clear i'd certain
+rather team win game game game luck go play much
+bigger role game  still need pitch staff hold
+oppos team one run  yeah what point still need
+offens score run allow  brave fine pitch staff
+that still half game  sherri nichol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.469793626884
+pitch, 6643, 0.339469462177
+staff, 8301, 0.300870364942
+brave, 1277, 0.265252278907
+team, 8732, 0.205839992274
+updatedir, 9334, 0.202872010948
+run, 7543, 0.186741555778
+bigger, 1083, 0.17536830152
+sherri, 7879, 0.174469775745
+nichol, 6050, 0.168088986049
+need, 5993, 0.166682489947
+role, 7463, 0.166679790259
+luck, 5381, 0.159901087926
+yeah, 9942, 0.154808191376
+oppos, 6269, 0.151261817293
+offens, 6202, 0.145890919159
+half, 4124, 0.140416124939
+fine, 3485, 0.137596275571
+hold, 4341, 0.13551166039
+score, 7705, 0.134035335243
+clear, 1803, 0.118930663428
+allow, 432, 0.118783409143
+win, 9770, 0.112670250461
+certain, 1619, 0.109683047387
+play, 6681, 0.102223405726
+point, 6710, 0.0874936943301

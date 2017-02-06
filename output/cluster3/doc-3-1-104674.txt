@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104674
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dpassage@soda.berkeley.edu (David G. Paschich)
+Subject: Re: HBP? BB? BIG-CAT?
+Organization: Organization?  Who cares?  You just gotta say "Go Bears!"
+Lines: 14
+Distribution: na
+	<1qv9psINNsj6@lynx.unm.edu> <C5r7tv.36s@odin.corp.sgi.com>
+NNTP-Posting-Host: soda.berkeley.edu
+In-reply-to: kubey@sgi.com's message of Mon, 19 Apr 1993 23:27:29 GMT
+
+In article <C5r7tv.36s@odin.corp.sgi.com> kubey@sgi.com (Ken Kubey) writes:
+
+   I suppose a foul ball machine (like Brett Butler) is pretty valuable,
+   but I'd rather watch (and root for) the lower OBP guys who can
+   actually hit the ball.
+
+And I'd rather watch (and root for) a team that scores lots of runs
+and wins games.
+
+Of course, I'm rooting for the Rockies and Andres anyway.  But that's
+for irrational hometown reaons.  I also root for Frank Thomas. :)
+
+David Paschich
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hbp big cat    odin corp sgi com      suppos foul
+ball machin like brett butler pretti valuabl i'd
+rather watch root lower obp guy actual hit ball
+i'd rather watch root team score lot run win game
+cours i'm root rocki andr anyway that irrat
+hometown reaon also root frank thoma  david
+paschich
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+root, 7477, 0.611129309928
+watch, 9655, 0.221603508966
+ball, 877, 0.208989861879
+odin, 6199, 0.189822050672
+irrat, 4769, 0.181313440682
+brett, 1300, 0.168155201569
+hbp, 4212, 0.166710605842
+foul, 3626, 0.165340125316
+butler, 1429, 0.161605894114
+valuabl, 9415, 0.154506700764
+cat, 1551, 0.154506700764
+andr, 503, 0.149635339974
+sgi, 7831, 0.144887963222
+obp, 6177, 0.142511418707
+corp, 2153, 0.14194890293
+rocki, 7450, 0.13643590037
+thoma, 8878, 0.132642666172
+lower, 5371, 0.127968490871
+machin, 5416, 0.121548571139
+com, 1917, 0.116807227697
+score, 7705, 0.115534677076
+frank, 3655, 0.114319990067
+suppos, 8577, 0.108636453902
+david, 2397, 0.107848240032
+guy, 4100, 0.100317596506
+pretti, 6851, 0.0979635013796
+win, 9770, 0.0971185768248
+hit, 4316, 0.0934341134196
+cours, 2190, 0.0914281936702
+big, 1082, 0.0910113597483
+team, 8732, 0.088714132708
+actual, 254, 0.0859066480203
+lot, 5356, 0.0833663146768
+game, 3761, 0.0809897701615
+run, 7543, 0.0804829760163
+like, 5272, 0.0562588776192

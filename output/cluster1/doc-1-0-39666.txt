@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39666
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: d34863@puff.pnl.gov (Annette Koontz)
+Subject: Graphics software needed
+Organization: Battelle Pacific Northwest Labs, Richland, WA
+Lines: 34
+Distribution: world
+NNTP-Posting-Host: puff.pnl.gov
+Originator: d34863@puff.pnl.gov
+
+
+Hello,
+
+We are looking for a graphics package (preferably complete
+with source code) that will run on our UNIX operating system
+(a Sequent running DYNIX 3.2).  This graphics package must 
+support a wide variety of character based graphics devices 
+(PC's running a terminal emulator, primarily).  
+At this point, X11 graphics is not an option.
+
+This graphics program should, if possible, support these
+sorts of graphics operations (minimum requirements):
+
+   1) Complicated axes (log, linear, etc.) with fairly
+      precise axis labels (multi-line labels, etc.)
+      Major and minor tickmarks on axes, etc.	
+  
+   2) It would be nice if some limited amount of color
+      plotting were available, if the output device
+      supported it.
+
+We have a copy of gnuplot and are currently using it, but
+gnuplot has some limitations.  We are looking for something
+more robust than gnuplot.
+
+At this point, I'm looking for information about packages that
+might solve our problems.  If you have any information, please
+contact me at the above email address.  If the product you know
+about is a commercial software package, please send a phone number
+or email address so that I can contact them about pricing, etc.
+
+Annette Koontz
+Battelle Pacific Northwest
+Richland, WA 99352 USA
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic softwar need        hello  look graphic
+packag prefer complet sourc code run unix oper
+system sequent run dynix graphic packag must
+support wide varieti charact base graphic devic pc
+run termin emul primarili point x11 graphic option
+graphic program possibl support sort graphic oper
+minimum requir  complic axe log linear etc fair
+precis axi label multi line label etc major minor
+tickmark axe etc  nice limit amount color plot
+avail output devic support  copi gnuplot current
+use gnuplot limit look someth robust gnuplot
+point i'm look inform packag might solv problem
+inform pleas contact email address product know
+commerci softwar packag pleas send phone number
+email address contact price etc  annett koontz
+battell pacif northwest richland usa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+graphic, 3997, 0.382157076823
+gnuplot, 3922, 0.353426074019
+packag, 6375, 0.288905036389
+axe, 839, 0.228216947094
+label, 5086, 0.196527925124
+devic, 2591, 0.176892870764
+support, 8576, 0.17133570409
+contact, 2078, 0.150234854287
+run, 7543, 0.149849725773
+limit, 5278, 0.144987440451
+email, 3060, 0.139530248736
+oper, 6261, 0.138851089284
+address, 264, 0.128865101204
+look, 5341, 0.124147892893
+robust, 7443, 0.11780869134
+emul, 3082, 0.111085175475
+softwar, 8103, 0.110686950176
+inform, 4637, 0.10900501147
+pc, 6484, 0.106314765052
+log, 5328, 0.101805497513
+linear, 5286, 0.099591249187
+pacif, 6372, 0.0989143294662
+pleas, 6688, 0.0975609709142
+x11, 9883, 0.0970350870891
+axi, 840, 0.0953473029956
+primarili, 6864, 0.0943105760279
+point, 6710, 0.0936117730385
+termin, 8796, 0.0924133972181
+complic, 1978, 0.0911206209708
+varieti, 9431, 0.0899213830937
+charact, 1661, 0.0899213830937
+multi, 5917, 0.0895401656044
+solv, 8119, 0.0884464353821
+minimum, 5740, 0.0884464353821
+plot, 6694, 0.087420403178
+output, 6329, 0.0835880553599
+hello, 4247, 0.0820795403687
+wide, 9747, 0.0806968873134
+precis, 6809, 0.080477251911
+option, 6276, 0.0802604876419
+usa, 9357, 0.0796266946826
+price, 6857, 0.0771298608429
+minor, 5745, 0.0762614828385
+unix, 9284, 0.0759264768899
+prefer, 6819, 0.0757614782106
+copi, 2130, 0.072903178818
+phone, 6601, 0.0727655661572
+fair, 3363, 0.0702289932293
+commerci, 1940, 0.0701118038338
+product, 6896, 0.0694255446419
+nice, 6047, 0.0671274769442
+color, 1907, 0.0666467989274
+code, 1871, 0.0659055702592
+complet, 1975, 0.0641041788723
+sort, 8144, 0.0637821836976
+send, 7785, 0.0637026524638
+requir, 7302, 0.0616879520391
+sourc, 8153, 0.0612032594404
+major, 5458, 0.0608655241312
+current, 2299, 0.0600819659049
+avail, 811, 0.0575988533985
+line, 5285, 0.0549644361745
+possibl, 6765, 0.0543663991123
+number, 6156, 0.053920613383
+problem, 6887, 0.052169103145
+base, 923, 0.051894361681
+program, 6905, 0.0514716168046
+someth, 8126, 0.0488127780291
+need, 5993, 0.0445844798812
+use, 9363, 0.0366225489315
+know, 5052, 0.0357178392812

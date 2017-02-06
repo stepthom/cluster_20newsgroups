@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83745
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Organization: Lunar & Planetary Laboratory, Tucson AZ.
+Lines: 8
+
+In article <20APR199301460499@utarlg.uta.edu> b645zaw@utarlg.uta.edu (stephen) writes:
+>For those who think David Koresh didn't have a solid structure,
+>or sound Biblical backing for his hour long tape broadcast,
+>I've enclosed a partial list of the sources he cites or quotes
+>he exactly used. As a Christian sermon, it's pretty good, if not 
+>inspired.
+
+David Koresh was born in Bethlehem ehh?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos     think
+david koresh didn't solid structur sound biblic
+back hour long tape broadcast i'v enclos partial
+list sourc cite quot exact use christian sermon it
+pretti good inspir  david koresh born bethlehem
+ehh
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+koresh, 5065, 0.427389939775
+enclos, 3085, 0.345136558822
+cite, 1774, 0.307159387286
+tape, 8700, 0.304008069742
+biblic, 1072, 0.29456982814
+david, 2397, 0.239506928263
+bethlehem, 1057, 0.219311187574
+sermon, 7807, 0.183591802338
+inspir, 4676, 0.171562490426
+partial, 6439, 0.16784915861
+broadcast, 1324, 0.154678631632
+born, 1233, 0.152004034871
+solid, 8115, 0.145179922677
+structur, 8460, 0.135255602159
+hour, 4395, 0.133559830131
+quot, 7045, 0.127382435264
+exact, 3253, 0.11775262069
+sound, 8150, 0.116489964874
+sourc, 8153, 0.109501206308
+pretti, 6851, 0.108777562296
+list, 5298, 0.108658652583
+christian, 1732, 0.105296424671
+didn, 2625, 0.0991031007108
+long, 5336, 0.0934797870293
+good, 3948, 0.0762635445885
+think, 8871, 0.0679484494563
+use, 9363, 0.0655228712122

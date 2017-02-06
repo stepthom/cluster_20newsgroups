@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104532
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dan@danberg.llnl.gov (Dan Bergmann)
+Subject: Need software for baseball stats
+Article-I.D.: danberg.1qkq0q$8rl
+Distribution: world
+Organization: Lawrence Livermore National Laboratory
+Lines: 10
+NNTP-Posting-Host: danberg.llnl.gov
+
+
+I'm looking for software (hopefully free and runs on Unix box) which will
+keep track of statistics for my company softball team (batting avg. etc.).
+
+If you know of any please post or respond to me by e-mail. Many thanks.
+
+-- 
+**************************************************
+**  Dan Bergmann        dbergmann@llnl.gov      **                          
+**************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need softwar basebal stat articl danberg 1qkq0q
+8rl       i'm look softwar hope free run unix box
+keep track statist compani softbal team bat avg
+etc  know pleas post respond mail mani thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+softbal, 8098, 0.368203660959
+softwar, 8103, 0.31519346648
+avg, 820, 0.312547860477
+statist, 8348, 0.237282700015
+track, 9030, 0.233730668474
+respond, 7322, 0.226159327777
+unix, 9284, 0.216209132247
+stat, 8341, 0.21435713977
+compani, 1958, 0.196437732704
+bat, 942, 0.194015675895
+box, 1254, 0.192849696772
+free, 3668, 0.192277329094
+hope, 4372, 0.168786256038
+mail, 5447, 0.162329833011
+basebal, 924, 0.159122320579
+team, 8732, 0.156784912294
+articl, 665, 0.152186928099
+run, 7543, 0.142237949588
+pleas, 6688, 0.138907886462
+post, 6766, 0.137908008279
+mani, 5479, 0.133941976313
+thank, 8832, 0.132236520333
+need, 5993, 0.126959291431
+look, 5341, 0.117841668643
+know, 5052, 0.101710540948

@@ -1,0 +1,132 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84509
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pboxrud@magnus.acs.ohio-state.edu (Paul D Boxrud)
+Subject: Religion and marriage
+Nntp-Posting-Host: top.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Distribution: na
+Lines: 20
+
+     I wasn't sure if this was the right newsgroup to post this to, but I guess
+the misc is there for a reason.  Here goes...  I am getting married in June to 
+a devout (Wisconsin Synod) Lutheran.  I would classify myself as a strong 
+agnostic/weak athiest.  This has been a a subject of many discussions between
+us and is really our only real obstacle.  We don't have any real difficulties 
+with the religious differences yet, but I expect they will pop up when we have 
+children.  I have agreed to raise the
+children "nominally" Lutheran.  That is, Lutheran traditions, but trying to
+keep an open mind.  I am not sure if this is even possible though.  I feel that
+that the worst quality of being devoutly religous is the lack of an open mind.
+
+     Anyway, I guess I'll get on with my question.  Is anyone in the same 
+situation and can give some suggestions as to how to deal with this?  We've 
+taken the attitude so far of just talking about it a lot and not letting 
+anything get bottled up inside.  Sometimes I get the feeling we're making this 
+much bigger than it actually is.  Any comments would be greatly appreciated.  
+Also, please e-mail responses since I don't get a chance to read this group
+often.  :-(
+
+Paul
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ religion marriag      wasn't sure right newsgroup
+post guess misc reason goe get marri devout
+wisconsin synod lutheran classifi strong agnost
+weak athiest mani discuss realli real obstacl
+don't real difficulti religi differ yet expect pop
+children agre rais children nomin lutheran
+lutheran tradit tri keep open mind sure even
+possibl though feel worst qualiti devout relig
+lack open mind  anyway guess i'll get question
+anyon situat give suggest deal we'v taken attitud
+far talk lot let anyth get bottl insid sometim get
+feel we'r make much bigger actual comment great
+appreci also pleas mail respons sinc don't get
+chanc read group often  paul
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lutheran, 5402, 0.42902885891
+devout, 2600, 0.2812774352
+children, 1707, 0.181612570177
+open, 6258, 0.15978799415
+feel, 3429, 0.158284824217
+synod, 8654, 0.156962257663
+mind, 5733, 0.156835764845
+guess, 4079, 0.156030561937
+wisconsin, 9797, 0.148800487631
+athiest, 743, 0.145697526677
+relig, 7259, 0.143009619637
+agnost, 335, 0.138517873458
+real, 7144, 0.138015773375
+marriag, 5519, 0.136599336564
+marri, 5518, 0.134847849605
+classifi, 1792, 0.13323663779
+bottl, 1246, 0.13323663779
+sure, 8585, 0.129648499223
+nomin, 6096, 0.123583118619
+difficulti, 2636, 0.117792250624
+pop, 6743, 0.114484928506
+bigger, 1083, 0.11388400622
+weak, 9668, 0.110115549888
+misc, 5757, 0.106942573553
+rais, 7076, 0.105722236188
+attitud, 769, 0.105331361738
+tradit, 9037, 0.103483330701
+worst, 9849, 0.0987808035215
+religi, 7260, 0.0987808035215
+qualiti, 7017, 0.0969131627396
+paul, 6469, 0.0949714752946
+insid, 4671, 0.0942890573431
+lack, 5092, 0.093200716528
+don, 2811, 0.0913163169139
+taken, 8678, 0.0911860963884
+strong, 8456, 0.0891806072999
+newsgroup, 6032, 0.0890078216751
+sometim, 8128, 0.0884981893484
+chanc, 1649, 0.0875160725354
+wasn, 9652, 0.0873569460017
+goe, 3931, 0.0859787301673
+religion, 7261, 0.085251958026
+situat, 7995, 0.0849684406392
+deal, 2418, 0.0813689226435
+comment, 1936, 0.0807887844594
+expect, 3290, 0.0780152809686
+agre, 337, 0.0779158763138
+appreci, 587, 0.0778169601359
+respons, 7323, 0.0775230950382
+discuss, 2708, 0.0774260856857
+suggest, 8525, 0.076759803528
+group, 4064, 0.0700538051438
+mail, 5447, 0.0691999015139
+anyth, 555, 0.0690078866873
+talk, 8684, 0.0680743622979
+far, 3386, 0.0672404808651
+great, 4016, 0.0669508441891
+possibl, 6765, 0.0659961329647
+reason, 7156, 0.0649280096435
+actual, 254, 0.0647210216841
+ll, 5314, 0.0637658896315
+let, 5225, 0.0635704570121
+lot, 5356, 0.0628071655018
+differ, 2633, 0.0619816985198
+sinc, 7977, 0.0613622834419
+read, 7135, 0.0612753312476
+right, 7399, 0.0612319955975
+question, 7032, 0.0609312305319
+realli, 7150, 0.0597309723725
+pleas, 6688, 0.0592153141808
+post, 6766, 0.0587890741577
+tri, 9087, 0.0582967030025
+mani, 5479, 0.0570983866461
+anyon, 554, 0.0540913402634
+make, 5459, 0.0504872064911

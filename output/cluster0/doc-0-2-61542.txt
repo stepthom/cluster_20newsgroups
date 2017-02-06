@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61542
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: davem@ee.ubc.ca (Dave Michelson)
+Subject: Re: Mothership for Flybys and cutting costs..
+Organization: University of BC, Electrical Engineering
+Lines: 11
+
+In article <C6DtD0.HHI@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>by what the Voyagers did:  they exploited a lineup that occurs only
+>every couple of centuries, and even so Voyager 2 took a rather indirect
+>route to Neptune.
+
+Indirect compared to what?  Did Voyager 2 traverse a substantially greater
+distance than, say, a Hohmann orbit?  I've never heard Voyager's path
+described as "indirect" before...  
+
+--
+Dave Michelson  --  davem@ee.ubc.ca  --  University of British Columbia
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mothership flybi cut cost     voyag exploit
+lineup occur everi coupl centuri even voyag took
+rather indirect rout neptun  indirect compar voyag
+travers substanti greater distanc say hohmann
+orbit i'v never heard voyag path describ indirect
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+voyag, 9588, 0.5999007625
+indirect, 4602, 0.489670188123
+travers, 9070, 0.184254780495
+mothership, 5878, 0.184254780495
+rout, 7498, 0.171663189597
+neptun, 6006, 0.166278085896
+exploit, 3306, 0.160490882852
+flybi, 3564, 0.148301391298
+substanti, 8503, 0.146729098512
+lineup, 5287, 0.141248820803
+greater, 4017, 0.133787818432
+path, 6461, 0.133328781879
+centuri, 1614, 0.127632738465
+distanc, 2744, 0.126912278578
+occur, 6192, 0.124215316989
+took, 8987, 0.114457692162
+cut, 2313, 0.114021801428
+describ, 2556, 0.11174716701
+compar, 1960, 0.109113831335
+coupl, 2187, 0.10789108491
+heard, 4224, 0.0985385870997
+cost, 2169, 0.0985385870997
+orbit, 6280, 0.0938696499253
+everi, 3235, 0.0888283909256
+say, 7653, 0.0658451732585

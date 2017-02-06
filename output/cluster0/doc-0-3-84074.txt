@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84074
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: matmcinn@nuscc.nus.sg (Matthew MacIntyre at the National University of Senegal)
+Subject: Re: Gilligan's island, den of iniquity
+Organization: National University of Singapore
+X-Newsreader: Tin 1.1 PL4
+Lines: 21
+
+beb@pt.com (Bruce Buck) writes:
+: In article <1993Apr13.011033.23123@nuscc.nus.sg> matmcinn@nuscc.nus.sg (Matthew MacIntyre at the National University of Senegal) writes:
+: >: >> Gilligan = Sloth
+: >: >> Skipper = Anger
+: >: >> Thurston Howell III = Greed
+: >: >> Lovey Howell = Gluttony
+: >: >> Ginger = Lust
+: >: >> Professor = Pride
+: >: >> Mary Ann = Envy
+: >
+: >Assorted Monkeys= Secular Humanism
+: 
+: Assorted Headhunters - Godless, Heathen Savagery
+: Russian Agent who looks like Gilligan - Godless Communism
+: Japanese Sailor - Godless Barbarism
+: Walter Pigeon - Godless Bird Turd
+: The Mosquitos (Bingo, Bango, Bongo, Irving) - Godless Rock'n'Roll
+: Harold Heckuba (Phil Silvers) - Hollywood Hedonism
+: John McGiver - Butterfly flicking
+: Tonga, the Fake Apeman - Deceit, Lust
+: Eva Grubb - Deceit, lust
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gilligan island den iniqu       gilligan sloth
+skipper anger thurston howel iii greed lovey howel
+gluttoni ginger lust professor pride mari ann envi
+assort monkey secular human  assort headhunt
+godless heathen savageri russian agent look like
+gilligan godless communism japanes sailor godless
+barbar walter pigeon godless bird turd mosquito
+bingo bango bongo irv godless rock'n'rol harold
+heckuba phil silver hollywood hedon john mcgiver
+butterfli flick tonga fake apeman deceit lust eva
+grubb deceit lust
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lust, 5400, 0.461670178444
+deceit, 2435, 0.316847250434
+assort, 707, 0.307780118963
+howel, 4405, 0.288682167562
+tonga, 8982, 0.158423625217
+irv, 4773, 0.153890059481
+hollywood, 4349, 0.153890059481
+bongo, 1214, 0.153890059481
+bingo, 1100, 0.150185866562
+den, 2521, 0.147054016074
+iniqu, 4646, 0.144341083781
+greed, 4021, 0.141948107907
+anger, 510, 0.141948107907
+monkey, 5838, 0.139807518045
+harold, 4180, 0.139807518045
+ann, 518, 0.139807518045
+walter, 9628, 0.136103325126
+pride, 6859, 0.132971474638
+eva, 3224, 0.132971474638
+fake, 3368, 0.13156975939
+secular, 7761, 0.130258542345
+island, 4781, 0.129026843259
+silver, 7957, 0.124733715983
+bird, 1113, 0.119627807816
+iii, 4502, 0.11817598943
+japanes, 4826, 0.116821033266
+professor, 6901, 0.115550818883
+rock, 7445, 0.109706036102
+agent, 331, 0.109249459299
+mari, 5508, 0.107108869437
+russian, 7551, 0.103746143593
+phil, 6588, 0.0999846394573
+human, 4432, 0.0784421113802
+john, 4878, 0.0768235236812
+look, 5341, 0.0507026581417
+like, 5272, 0.0427793680404

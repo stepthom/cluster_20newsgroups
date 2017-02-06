@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61127
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+Organization: U of Toronto Zoology
+Lines: 17
+
+In article <1993Apr23.103038.27467@bnr.ca> agc@bmdhh286.bnr.ca (Alan Carter) writes:
+>|> ... a NO-OP command was sent to reset the command loss timer ...
+>
+>This activity is regularly reported in Ron's interesting posts. Could
+>someone explain what the Command Loss Timer is?
+
+If I'm not mistaken, this is the usual sort of precaution against loss of
+communications.  That timer is counting down continuously; if it ever hits
+zero, that means Galileo hasn't heard from Earth in a suspiciously long
+time and it may be Galileo's fault... so it's time to go into a fallback
+mode that minimizes chances of spacecraft damage and maximizes chances
+of restoring contact.  I don't know exactly what-all Galileo does in such
+a situation, but a common example is to switch receivers, on the theory
+that maybe the one you're listening with has died.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ command loss timer galileo updat     command sent
+reset command loss timer  activ regular report ron
+interest post could someon explain command loss
+timer  i'm mistaken usual sort precaut loss
+communic timer count continu ever hit zero mean
+galileo hasn't heard earth suspici long time
+galileo fault it time fallback mode minim chanc
+spacecraft damag maxim chanc restor contact don't
+know exact galileo situat common exampl switch
+receiv theori mayb one you'r listen die  work one
+man work henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+timer, 8938, 0.459182165038
+galileo, 3755, 0.414958277284
+loss, 5352, 0.351268237498
+command, 1933, 0.320162120198
+chanc, 1649, 0.158603927904
+suspici, 8606, 0.132022606519
+reset, 7310, 0.127438608592
+maxim, 5559, 0.125516823247
+mistaken, 5777, 0.115838115903
+restor, 7327, 0.111983818902
+work, 9833, 0.103350906651
+minim, 5739, 0.102666313273
+switch, 8638, 0.100230688581
+damag, 2344, 0.0989115531658
+zero, 9985, 0.0980823153464
+fault, 3407, 0.0976814180978
+ron, 7472, 0.095445140642
+hasn, 4195, 0.0934533356694
+listen, 5300, 0.0931415316571
+zoolog, 9993, 0.0916577798282
+communic, 1950, 0.0900232459399
+spencer, 8221, 0.0880494203581
+time, 8936, 0.0866776680851
+regular, 7234, 0.0846460756343
+theori, 8848, 0.0842620595443
+count, 2180, 0.0842620595443
+mode, 5806, 0.083700781704
+henri, 4258, 0.0829783074389
+sent, 7793, 0.082802073309
+contact, 2078, 0.082627525656
+spacecraft, 8166, 0.0812882019812
+receiv, 7167, 0.0797415054748
+common, 1948, 0.079593811627
+updat, 9333, 0.0790147124952
+activ, 252, 0.0779089139041
+usual, 9377, 0.0769934484197
+situat, 7995, 0.0769934484197
+continu, 2092, 0.0769934484197
+toronto, 9003, 0.0761217423842
+die, 2628, 0.0746057189603
+explain, 3301, 0.0737317750142
+report, 7291, 0.0725946306678
+exact, 3253, 0.0723952834317
+sort, 8144, 0.070159005976
+heard, 4224, 0.0693025063528
+exampl, 3258, 0.0661591368492
+mayb, 5564, 0.0638471742618
+hit, 4316, 0.063785238411
+earth, 2956, 0.0635395769126
+man, 5471, 0.0629986449646
+someon, 8124, 0.0596041225338
+long, 5336, 0.0574721448871
+mean, 5595, 0.0563689194908
+post, 6766, 0.0532712324099
+don, 2811, 0.0413727619531
+know, 5052, 0.0392888414021

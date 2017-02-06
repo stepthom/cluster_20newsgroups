@@ -1,0 +1,159 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61495
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Re: Satellite around Pluto Mission?
+Organization: Jet Propulsion Laboratory
+Lines: 30
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <1993Apr30.004311.1@aurora.alaska.edu>, nsmca@aurora.alaska.edu writes...
+> 
+>Is there a plan to put a satellite around each planet in the solar system to
+>keep watch? I help it better to ask questions before I spout an opinion.
+
+We've been progressing towards that goal for 30 years now.  We precede
+any orbiting mission with flyby missions.  Of course, it gets harder to
+do as we work our way farther away from Earth.  We're just starting to
+work out to the outer planets: Galileo will orbit Jupiter, and Cassini around 
+Saturn.  
+
+>How about a mission (unmanned) to Pluto to stay in orbit and record things
+>around and near and on Pluto.. 
+
+Well first things first. We'll do a flyby mission first since it is
+much easier and faster to do.  If the Fast Pluto Flyby mission is approved then
+we'll launch a Pluto mission before the end of the decade.  A Pluto orbiter
+however requires a larger spacecraft and a longer cruise period.   Orbit
+insertion requires more fuel has to be carried along and restricts the
+trajectory to a slower approach velocity to Pluto.
+I'd imagine though that we would be doing a Neptune orbiting
+mission before a Pluto orbiting mission, unless the Pluto flyby turns
+up something really interesting.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ satellit around pluto mission     news softwar
+vax vms vnew  aurora alaska edu write  plan put
+satellit around planet solar system keep watch
+help better ask question spout opinion  we'v
+progress toward goal year preced orbit mission
+flybi mission cours get harder work way farther
+away earth we'r start work outer planet galileo
+orbit jupit cassini around saturn  mission unman
+pluto stay orbit record thing around near pluto
+well first thing first we'll flybi mission first
+sinc much easier faster fast pluto flybi mission
+approv we'll launch pluto mission end decad pluto
+orbit howev requir larger spacecraft longer cruis
+period orbit insert requir fuel carri along
+restrict trajectori slower approach veloc pluto
+i'd imagin though neptun orbit mission pluto orbit
+mission unless pluto flybi turn someth realli
+interest   jet propuls lab telo aweto new zealand
+pasadena part caterpillar part veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pluto, 6701, 0.595619596954
+mission, 5772, 0.4244926654
+orbit, 6280, 0.30231279212
+flybi, 3564, 0.272921973422
+planet, 6664, 0.109269250188
+satellit, 7632, 0.102107481293
+requir, 7302, 0.0887779407272
+farther, 3393, 0.0882045834803
+cassini, 1544, 0.083366524563
+spout, 8263, 0.0772712911759
+slower, 8045, 0.0765012097029
+neptun, 6006, 0.0765012097029
+unman, 9293, 0.075777829352
+ll, 5314, 0.0755971142936
+alaska, 378, 0.0738386337458
+caterpillar, 1562, 0.0727013811041
+aweto, 836, 0.0727013811041
+preced, 6806, 0.0721709772741
+cruis, 2255, 0.0721709772741
+approv, 591, 0.0711760577888
+veget, 9448, 0.0707080714757
+veloc, 9456, 0.0698238061509
+harder, 4170, 0.0694050922608
+telo, 8769, 0.0690005748285
+outer, 6324, 0.0690005748285
+insert, 4670, 0.06860932268
+trajectori, 9044, 0.0682304933555
+saturn, 7640, 0.0682304933555
+decad, 2432, 0.0682304933555
+galileo, 3755, 0.0678633221868
+aurora, 787, 0.0678633221868
+work, 9833, 0.0676090706974
+zealand, 9977, 0.0671612301938
+restrict, 7330, 0.0661799552171
+progress, 6907, 0.0658700125584
+thing, 8869, 0.065194886618
+easier, 2960, 0.0647049784805
+pasadena, 6446, 0.0639002609267
+goal, 3924, 0.0639002609267
+jupit, 4932, 0.0624373551284
+larger, 5125, 0.0611343759134
+jet, 4860, 0.0590622020094
+faster, 3399, 0.0585543755209
+fuel, 3715, 0.0580672825241
+propuls, 6936, 0.0579092388698
+stay, 8355, 0.0570025657985
+approach, 589, 0.0568579322524
+lab, 5085, 0.0562963169961
+vnew, 9564, 0.0542819258755
+imagin, 4518, 0.054166638781
+longer, 5337, 0.0532823734562
+spacecraft, 8166, 0.053176309456
+period, 6546, 0.053176309456
+solar, 8107, 0.0529669686223
+vms, 9563, 0.0526596867109
+fast, 3397, 0.0526596867109
+vax, 9439, 0.0520678899853
+record, 7184, 0.0504505447116
+carri, 1530, 0.0504505447116
+watch, 9655, 0.0494825448574
+plan, 6660, 0.0487318494512
+unless, 9289, 0.0485872159051
+near, 5982, 0.0483031043528
+turn, 9158, 0.047489235229
+away, 833, 0.0472941553286
+launch, 5147, 0.0469133106133
+opinion, 6266, 0.0446962522749
+edu, 3001, 0.0423065423493
+earth, 2956, 0.0415656900048
+ask, 689, 0.0413286201909
+news, 6031, 0.0412118285101
+write, 9865, 0.0411345976809
+howev, 4406, 0.0411345976809
+end, 3091, 0.0411345976809
+cours, 2190, 0.0408305781404
+softwar, 8103, 0.0398236575261
+start, 8334, 0.037769489845
+sinc, 7977, 0.0363737695928
+question, 7032, 0.0361182540162
+better, 1060, 0.0356960537502
+realli, 7150, 0.0354067760318
+someth, 8126, 0.0351243457705
+help, 4249, 0.0350547705211
+new, 6023, 0.0347578794558
+way, 9666, 0.0312129717016
+year, 9943, 0.0299876811278

@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105106
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gidi@Hilbert.Stanford.EDU (Gidi Avrahami)
+Subject: Re: Jewish Baseball Players?
+Organization: Brotherhood Of Breath
+Lines: 8
+
+I thought that Walt Weiss was jewish.  I seem to recall this
+was mentioned once while he was still at Oakland.
+
+Also, I have my suspicions about Esther Canseco (nee Haddad).
+
+
+--Gidi
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player    thought walt weiss
+jewish seem recal mention still oakland  also
+suspicion esther canseco nee haddad   gidi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.504382482474
+suspicion, 8607, 0.400730761202
+walt, 9627, 0.344271815552
+canseco, 1494, 0.320655922051
+weiss, 9698, 0.289260603583
+oakland, 6167, 0.283699383344
+recal, 7166, 0.252191241237
+mention, 5632, 0.205676218252
+thought, 8887, 0.179366593071
+player, 6683, 0.177331034031
+basebal, 924, 0.173179181553

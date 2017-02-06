@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38865
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Scott_Rindfleisch@vos.stratus.com
+Subject: LOOKING FOR GRAIG@TOONTOWN
+Summary: Do I know you
+Organization: Stratus Computer, Marlboro Ma.
+Lines: 10
+NNTP-Posting-Host: m72.eng.stratus.com
+
+
+I noticed you post in comp.graphics and know a person with your name.  I was
+wondering if you used to live in Paxton Mass.  If so, I have a friend that
+would like to say HI.
+
+
+Sorry for the inconvience if this isn't who I think it is.
+
+
+SR
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look graig toontown know      notic post comp
+graphic know person name wonder use live paxton
+mass friend like say   sorri inconvi isn't think
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+graig, 3986, 0.465829489777
+comp, 1955, 0.295702214793
+mass, 5533, 0.282545108974
+notic, 6120, 0.275973694988
+friend, 3692, 0.267300573845
+know, 5052, 0.257356318898
+sorri, 8142, 0.230360807757
+live, 5310, 0.21903556211
+isn, 4783, 0.218796124351
+wonder, 9821, 0.21691440529
+person, 6562, 0.19903774219
+graphic, 3997, 0.196681507279
+post, 6766, 0.174473053759
+say, 7653, 0.15167086849
+look, 5341, 0.14908630793
+think, 8871, 0.136821661628
+use, 9363, 0.131937493579
+like, 5272, 0.125788632598

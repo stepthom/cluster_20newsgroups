@@ -1,0 +1,167 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38316
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: morley@suncad.camosun.bc.ca (Mark Morley)
+Subject: VGA Mode 13h Routines Available
+Nntp-Posting-Host: suncad.camosun.bc.ca
+Organization: Camosun College, Victoria B.C, Canada
+X-Newsreader: Tin 1.1 PL4
+Lines: 31
+
+Hi there,
+
+I've made a VGA mode 13h graphics library available via FTP.  I originally
+wrote the routines as a kind of exercise for myself, but perhaps someone
+here will find them useful.  They are certainly useable as they are, but
+are missing some higher-level functionality.  They're intended more as an
+intro to mode 13h programming, a starting point.
+
+*** The library assumes a 386 processor, but it is trivial to modify it
+*** for a 286.  If enough people ask, I'll make the mods and re-post it as a
+*** different version.
+
+The routines are written in assembly (TASM) and are callable from C.  They
+are fairly simple, but I've found them to be very fast (for my purposes,
+anyway).  Routines are included to enter and exit mode 13h, define a
+"virtual screen", put and get pixels, put a pixmap (rectangular image with
+no transparent spots), put a sprite (image with see-thru areas), copy
+areas of the virtual screen into video memory, etc.  I've also included a
+simple C routine to draw a line, as well as a C routine to load a 256
+color GIF image into a buffer.  I also wrote a quick'n'dirty(tm) demo program
+that bounces a bunch of sprites around behind three "windows".
+
+The whole package is available on spang.camosun.bc.ca in /pub/dos/vgl.zip 
+It is zipped with pkzip 2.04g
+
+It is completely in the public domain, as far as I'm concerned.  Do with
+it whatever you like.  However, it'd be nice to get credit where it's due,
+and maybe an e-mail telling me you like it (if you don't like it don't bother)
+
+Mark
+morley@camosun.bc.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vga mode 13h routin avail        i'v made vga
+mode 13h graphic librari avail via ftp origin
+wrote routin kind exercis perhap someon find use
+certain useabl miss higher level function they'r
+intend intro mode 13h program start point  librari
+assum processor trivial modifi enough peopl ask
+i'll make mod post differ version  routin written
+assembl tasm callabl fair simpl i'v found fast
+purpos anyway routin includ enter exit mode 13h
+defin virtual screen put get pixel put pixmap
+rectangular imag transpar spot put sprite imag see
+thru area copi area virtual screen video memori
+etc i'v also includ simpl routin draw line well
+routin load color gif imag buffer also wrote
+quick'n'dirti demo program bounc bunch sprite
+around behind three window  whole packag avail
+spang camosun pub dos vgl zip zip pkzip 04g
+complet public domain far i'm concern whatev like
+howev it'd nice get credit it due mayb mail tell
+like don't like don't bother  mark
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+routin, 7499, 0.423958435176
+13h, 20, 0.402405923103
+mode, 5806, 0.264297379719
+sprite, 8269, 0.192918331185
+zip, 9988, 0.156163800346
+avail, 811, 0.150045331814
+virtual, 9536, 0.146093941873
+imag, 4512, 0.144798844349
+vga, 9492, 0.141722252343
+screen, 7719, 0.133949142851
+librari, 5250, 0.127834415637
+simpl, 7965, 0.122793383463
+wrote, 9871, 0.122169578537
+area, 622, 0.117091034481
+mod, 5805, 0.109064982188
+callabl, 1462, 0.106439746119
+pixmap, 6653, 0.102297430936
+includ, 4579, 0.0990920969509
+rectangular, 7190, 0.0964591655926
+transpar, 9063, 0.0932461363178
+intro, 4731, 0.0932461363178
+like, 5272, 0.0909557971915
+exit, 3284, 0.0898423898968
+program, 6905, 0.0893892310551
+trivial, 9110, 0.0891038211347
+dirti, 2671, 0.0891038211347
+bounc, 1249, 0.0870913981464
+demo, 2517, 0.0858907918599
+exercis, 3279, 0.0842589795964
+buffer, 1371, 0.0814633399528
+processor, 6891, 0.0794877900551
+credit, 2225, 0.0768011511896
+assembl, 698, 0.0764980045395
+domain, 2805, 0.0756250746093
+bunch, 1399, 0.0756250746093
+bother, 1245, 0.075345474872
+pixel, 6651, 0.0725824489095
+intend, 4700, 0.070659739196
+spot, 8261, 0.0702652231742
+enter, 3125, 0.0698812288437
+pub, 6971, 0.0696930048036
+modifi, 5814, 0.0689637890356
+dos, 2825, 0.0679348561274
+function, 3722, 0.0674467099212
+load, 5317, 0.0669745714255
+higher, 4293, 0.0660743449298
+don, 2811, 0.0653202536065
+video, 9506, 0.0652271044516
+memori, 5628, 0.0652271044516
+draw, 2861, 0.0639172078185
+fast, 3397, 0.063546399326
+copi, 2130, 0.0633043947381
+defin, 2482, 0.0631849008239
+written, 9867, 0.0628322562424
+whatev, 9718, 0.0628322562424
+packag, 6375, 0.062716601532
+concern, 2004, 0.062263054303
+purpos, 6993, 0.0619320297467
+quick, 7036, 0.0613966917317
+fair, 3363, 0.0609823053196
+miss, 5770, 0.060880545645
+gif, 3869, 0.0607795000792
+window, 9774, 0.0599006483172
+level, 5229, 0.0590723662802
+mark, 5512, 0.0586319975846
+nice, 6047, 0.0582891496249
+ftp, 3709, 0.0582046981568
+color, 1907, 0.0578717599937
+version, 9479, 0.0560212255393
+assum, 710, 0.0558772349991
+perhap, 6540, 0.0557346701312
+complet, 1975, 0.0556639135562
+public, 6973, 0.0553152540509
+kind, 5021, 0.051363656014
+origin, 6293, 0.0512074273491
+certain, 1619, 0.0509507550619
+mayb, 5564, 0.0504016823867
+ask, 689, 0.0498727806084
+howev, 4406, 0.0496386464411
+mail, 5447, 0.0494999718473
+far, 3386, 0.0480983619485
+line, 5285, 0.047727553456
+graphic, 3997, 0.0474057761764
+tell, 8767, 0.047052169303
+someon, 8124, 0.047052169303
+ll, 5314, 0.045612922454
+start, 8334, 0.0455778458617
+differ, 2633, 0.0443366574902
+post, 6766, 0.0420529141237
+point, 6710, 0.0406431977909
+peopl, 6530, 0.0390665573339
+make, 5459, 0.0361144343458
+use, 9363, 0.0318006475364

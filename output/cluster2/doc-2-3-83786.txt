@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83786
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cj195@cleveland.Freenet.Edu (John W. Redelfs)
+Subject: Re: Disillusioned Protestant Finds Christ
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 22
+Reply-To: cj195@cleveland.Freenet.Edu (John W. Redelfs)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, tom@tredysvr.Tredydev.Unisys.COM (Tom Albrecht) says:
+
+>In article <1qb726$j9d@usenet.INS.CWRU.Edu< cj195@cleveland.Freenet.Edu (John W. Redelfs) writes:
+><
+><I learned that God loves his children who have never heard of him and has a
+><plan for redeeming them too, even those who have died without a knowledge
+><of Christ.  I learned that a man cannot frustrate justice by repenting on
+><his death bed because repentance is more than a feeling of remorse.  It
+><requires faith in Christ proven by following him, by keeping his
+><commandments.  Such cannot be accomplished on ones deathbed.
+>
+>So Jesus must have lied to the thief on the cross.
+
+Paradise and salvation are not the same thing.  Salvation is better.  Refer
+to John 14:2.
+>-- 
+>Tom Albrecht
+>
+-- 
+------------ John W. Redelfs, cj195@cleveland.freenet.edu -------------
+--------- All my opinions are tentative pending further data. ---------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ disillus protest find christ           learn god
+love children never heard plan redeem even die
+without knowledg christ learn man cannot frustrat
+justic repent death bed repent feel remors requir
+faith christ proven follow keep command cannot
+accomplish one deathb  jesus must lie thief cross
+paradis salvat thing salvat better refer john  tom
+albrecht    opinion tentat pend data
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+christ, 1729, 0.353814307656
+repent, 7287, 0.298789206709
+salvat, 7597, 0.291971121411
+learn, 5182, 0.216977661263
+deathb, 2424, 0.199073488288
+albrecht, 386, 0.193376656492
+disillus, 2716, 0.188722005996
+tentat, 8792, 0.181377512427
+pend, 6516, 0.178370523704
+thief, 8865, 0.175680680631
+redeem, 7196, 0.175680680631
+bed, 984, 0.175680680631
+frustrat, 3706, 0.162133796239
+paradis, 6415, 0.155551445733
+proven, 6948, 0.145199963441
+protest, 6942, 0.143697771558
+justic, 4937, 0.142279079003
+accomplish, 218, 0.137855469872
+cross, 2241, 0.129515255247
+lie, 5258, 0.12356853666
+faith, 3367, 0.116390362225
+tom, 8976, 0.115168602951
+children, 1707, 0.115168602951
+death, 2423, 0.114002651632
+knowledg, 5053, 0.113775717724
+command, 1933, 0.112029403178
+die, 2628, 0.104422523984
+plan, 6660, 0.104266377341
+jesus, 4859, 0.103803587086
+love, 5366, 0.101328669247
+feel, 3429, 0.100375442381
+heard, 4224, 0.0969998377154
+john, 4878, 0.0965356449889
+opinion, 6266, 0.0956318374512
+requir, 7302, 0.094974378888
+data, 2385, 0.094545294895
+refer, 7213, 0.094123303525
+god, 3926, 0.0899794441286
+man, 5471, 0.0881765849382
+follow, 3578, 0.0839117114271
+better, 1060, 0.0763750658307
+thing, 8869, 0.069745297227

@@ -1,0 +1,182 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84009
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mike@inti.lbl.gov (Michael Helm)
+Subject: Re: Religion and history; The real discuss
+Organization: N.I.C.E.
+Lines: 38
+Reply-To: mike@inti.lbl.gov (Michael Helm)
+NNTP-Posting-Host: 128.3.128.82
+
+Matthew Huntbach writes:
+sm[?]>a real Christian unless you're born again is a very fundamental biblical
+sm[?]>conversion and regeneration are 'probably' part of some small USA-based cult
+
+>the "born-again" tag often use it to mean very specifically
+>having undergone some sort of ecstatic experience (which can in
+>fact be very easily manufactured with a little psychological manipulation),
+>and are often insultingly dismissive of those whose
+>Christianity is a little more intellectual, is not the result
+
+Some of these "cults", which seems like a rather dismissive term
+to me, are pretty big here in the USA.  Most of them
+are quite respectable & neiborly & do not resemble Branch Davidians
+in the least; confusing them is a mistake.  What about "live &
+let live", folks?  I'm sure we can uncover a few extremist loonies
+who are Catholic -- the anti-abortion movement in the USA seems to have a
+few hard cases in it, for example.
+
+>I've often heard such people use the line "Catholics aren't
+>real Christians". Indeed, anyone sending "missionaries" to
+>Ireland must certainly be taking this line, for otherwise why
+>would they not be content for Christianity to be maintained in
+>Ireland in its traditional Catholic form?
+
+I have to agree Matthew with this; I have certainly encountered a lot
+of anti-Catholic-religion propaganda & emotion (& some bigotry) from
+members of certain religious groups here.  They also practice their
+missionary work with zeal among Catholics in the United States, but to
+someone who is or was raised Catholic such rhetoric is pretty
+off-putting.  It may work better in an environment where there's a lot
+of popular anti-clericalism.
+
+Follow-ups set elsewhere, this no longer seems very relevant to Celtic issues
+to me.
+-- 
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ religion histori real discuss       real
+christian unless you'r born fundament biblic
+convers regener probabl part small usa base cult
+born tag often use mean specif undergon sort
+ecstat experi fact easili manufactur littl
+psycholog manipul often insult dismiss whose
+christian littl intellectu result  cult seem like
+rather dismiss term pretti big usa quit respect
+neibor resembl branch davidian least confus mistak
+live let live folk i'm sure uncov extremist looni
+cathol anti abort movement usa seem hard case
+exampl  i'v often heard peopl use line cathol
+aren't real christian inde anyon send missionari
+ireland must certain take line otherwis content
+christian maintain ireland tradit cathol form
+agre matthew certain encount lot anti cathol
+religion propaganda emot bigotri member certain
+religi group also practic missionari work zeal
+among cathol unit state someon rais cathol rhetor
+pretti put work better environ there lot popular
+anti cleric  follow up set elsewher longer seem
+relev celtic issu
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cathol, 1564, 0.513351667054
+missionari, 5773, 0.213848957877
+anti, 542, 0.208023134632
+usa, 9357, 0.19753759811
+christian, 1732, 0.194670027376
+ireland, 4763, 0.188719908387
+dismiss, 2724, 0.175830173668
+certain, 1619, 0.145564109986
+cult, 2289, 0.141473455282
+real, 7144, 0.141026876841
+born, 1233, 0.140511084409
+religion, 7261, 0.116149210978
+celtic, 1601, 0.106924478938
+bigotri, 1087, 0.106924478938
+ecstat, 2988, 0.101364588167
+pretti, 6851, 0.100552944206
+live, 5310, 0.100552944206
+rhetor, 7375, 0.0992508157979
+undergon, 9240, 0.0974197828861
+psycholog, 6968, 0.0958046973958
+uncov, 9233, 0.0943599541936
+propaganda, 6921, 0.0943599541936
+littl, 5308, 0.0921721308588
+extremist, 3334, 0.0918598921148
+line, 5285, 0.0909037079979
+tag, 8673, 0.0863000013435
+lot, 5356, 0.085569914002
+intellectu, 4697, 0.0841862289744
+insult, 4689, 0.082938789577
+emot, 3073, 0.08125762021
+movement, 5891, 0.0802414236934
+abort, 187, 0.07929536737
+elsewher, 3055, 0.0788457409295
+work, 9833, 0.0776962527024
+manufactur, 5494, 0.0767953052912
+encount, 3088, 0.0767953052912
+fundament, 3724, 0.0764196002042
+relev, 7254, 0.0737354765986
+resembl, 7308, 0.0731391923125
+branch, 1269, 0.072567760553
+davidian, 2398, 0.0722907333964
+rais, 7076, 0.0720191922883
+mistak, 5776, 0.0720191922883
+matthew, 5554, 0.0709838041971
+tradit, 9037, 0.070494024352
+manipul, 5483, 0.070494024352
+content, 2084, 0.0700211368748
+biblic, 1072, 0.0680743870074
+religi, 7260, 0.067290609239
+convers, 2114, 0.067290609239
+popular, 6746, 0.0660183510514
+confus, 2037, 0.0660183510514
+maintain, 5454, 0.0656755237486
+folk, 3576, 0.0655072716026
+inde, 4594, 0.0653410589268
+easili, 2962, 0.0648541777981
+environ, 3139, 0.0637811541059
+unit, 9278, 0.0622482281055
+respect, 7321, 0.0621170081773
+otherwis, 6313, 0.0614791081448
+longer, 5337, 0.0612320315889
+member, 5625, 0.0607508461521
+use, 9363, 0.0605687190829
+practic, 6793, 0.0600593192313
+aren, 623, 0.0598363488249
+histori, 4314, 0.0592942870268
+experi, 3295, 0.0574102080997
+term, 8795, 0.0563411699845
+issu, 4793, 0.0559192173735
+unless, 9289, 0.0558363628745
+form, 3610, 0.0549565500512
+specif, 8203, 0.0544247014203
+small, 8054, 0.0534191552948
+result, 7332, 0.0532129502381
+agre, 337, 0.0530771830116
+sort, 8144, 0.0527435320532
+discuss, 2708, 0.0527435320532
+send, 7785, 0.0526777651269
+heard, 4224, 0.052099640158
+hard, 4167, 0.0519122243313
+quit, 7043, 0.0502215125993
+exampl, 3258, 0.0497365449592
+set, 7815, 0.0491155009558
+state, 8342, 0.0486186213097
+group, 4064, 0.0477214505206
+case, 1540, 0.0476758186054
+fact, 3350, 0.0470524213537
+big, 1082, 0.0467085192446
+follow, 3578, 0.0450698689128
+probabl, 6885, 0.0448456833548
+someon, 8124, 0.0448086728658
+sure, 8585, 0.0441590176866
+let, 5225, 0.0433049198776
+base, 923, 0.0429131109979
+mean, 5595, 0.0423765398413
+better, 1060, 0.0410218567427
+peopl, 6530, 0.0372038231924
+anyon, 554, 0.0368476375077
+like, 5272, 0.0288729766836

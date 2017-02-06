@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61295
+Truth category: 2 (sci.space)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tffreeba@indyvax.iupui.edu
+Subject: Re: Death and Taxes (was Why not give $1 billion to...
+Lines: 31
+
+In article <1993Apr27.072512.439@bby.com.au>, gnb@baby.bby.com.au (Gregory N. Bond) writes:
+> In article <1993Apr22.162501.747@indyvax.iupui.edu> tffreeba@indyvax.iupui.edu writes:
+> 
+>    ...  So how about this?  Give the winning group
+>    (I can't see one company or corp doing it) a 10, 20, or 50 year
+>    moratorium on taxes.
+> 
+> You are talking about the bozos who can't even manage in November to
+> keep promises about taxes made in October, and you expect them to make
+> (and keep!) a 50-year promise like that?  
+
+We want to give lawyers something to do in the 21st cen., don't we?
+
+>Your faith in the political
+> system is much higher than mine.  I wouldn't even begin to expect that
+> in Australia, and we don't have institutionalised corruption like you
+> do.
+
+Oh I bet you do.  They are probably just better at it than our crooks. :-)
+
+> --
+> Gregory Bond <gnb@bby.com.au> Burdett Buckeridge & Young Ltd Melbourne Australia
+>    Knox's 386 is slick.            Fox in Sox, on Knox's Box
+>    Knox's box is very quick.       Plays lots of LSL. He's sick!
+> (Apologies to John "Iron Bar" Mackin.)
+
+Tom Freebairn | We came.
+	      | We saw.
+	      | We went home.
+		Some early 20th cen. baseball player
+		Anybody know who or why? (definitly e-mail stuff.)		
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ death tax give billion      give win group can't
+see one compani corp year moratorium tax  talk
+bozo can't even manag novemb keep promis tax made
+octob expect make keep year promis like  want give
+lawyer someth 21st cen don't  faith polit system
+much higher mine wouldn't even begin expect
+australia don't institutionalis corrupt like   bet
+probabl better crook    knox slick fox sox knox
+box knox box quick play lot lsl he sick apolog
+john iron bar mackin  tom freebairn came saw went
+home earli 20th cen basebal player anybodi know
+definit mail stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+knox, 5055, 0.44444485301
+tax, 8718, 0.333672860004
+promis, 6913, 0.19582014718
+box, 1254, 0.170328556283
+expect, 3290, 0.161637099055
+moratorium, 5857, 0.150932774062
+21st, 64, 0.150932774062
+mackin, 5420, 0.148148284337
+lsl, 5376, 0.148148284337
+freebairn, 3669, 0.148148284337
+bozo, 1259, 0.148148284337
+slick, 8030, 0.138024136765
+lawyer, 5157, 0.135040098174
+20th, 63, 0.135040098174
+fox, 3632, 0.132430109027
+novemb, 6129, 0.131238201919
+corrupt, 2160, 0.127053676628
+octob, 6197, 0.125239254712
+iron, 4767, 0.114072254973
+bar, 904, 0.112131068549
+sick, 7933, 0.111672749058
+apolog, 571, 0.111224286668
+corp, 2153, 0.110785266297
+australia, 792, 0.109116159934
+year, 9943, 0.104813556028
+bet, 1054, 0.10175888257
+polit, 6723, 0.101202777683
+billion, 1092, 0.0993655034939
+sox, 8162, 0.096331277881
+higher, 4293, 0.0956896057941
+faith, 3367, 0.0950670909868
+don, 2811, 0.0945975223004
+tom, 8976, 0.094069163858
+went, 9704, 0.0931168203993
+death, 2423, 0.0931168203993
+begin, 994, 0.0925656156882
+saw, 7650, 0.0918526335051
+definit, 2484, 0.0901700520546
+quick, 7036, 0.088915376083
+like, 5272, 0.0878154689459
+wouldn, 9854, 0.0871644714186
+compani, 1958, 0.0867487892672
+earli, 2951, 0.0864762011058
+anybodi, 552, 0.084786273276
+came, 1472, 0.0840502193071
+home, 4354, 0.0804096600072
+stuff, 8472, 0.0799095713544
+manag, 5472, 0.0796151754425
+john, 4878, 0.0788498529451
+win, 9770, 0.07579704509
+group, 4064, 0.0725709995572
+player, 6683, 0.0719546187983
+mail, 5447, 0.071686413205
+talk, 8684, 0.0705204307751
+basebal, 924, 0.0702699449114
+play, 6681, 0.0687691033023
+probabl, 6885, 0.0681977607843
+lot, 5356, 0.0650639714783
+better, 1060, 0.0623827883484
+someth, 8126, 0.0613836656403
+want, 9634, 0.0568038167103
+make, 5459, 0.0523013279919
+know, 5052, 0.0449163516677

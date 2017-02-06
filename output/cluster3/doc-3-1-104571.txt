@@ -1,0 +1,41 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104571
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: CROSEN1@ua1vm.ua.edu (Charles Rosen)
+Subject: Lots of runs
+Nntp-Posting-Host: ua1vm.ua.edu
+Organization: The University of Alabama, Tuscaloosa
+Lines: 4
+
+I have noticed that this year has had a lot of high scoring games (at least the
+NL has).  I believe one reason are the expansion teams.  Any thoughts?
+ 
+Charles
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lot run     notic year lot high score game least
+believ one reason expans team thought  charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lot, 5356, 0.418618000594
+expans, 3289, 0.394990038843
+charl, 1668, 0.363772284461
+notic, 6120, 0.309895061929
+score, 7705, 0.290074568513
+thought, 8887, 0.234133104589
+high, 4292, 0.226862279241
+team, 8732, 0.222735843624
+reason, 7156, 0.216376852564
+believ, 1009, 0.207159718684
+game, 3761, 0.203342175944
+run, 7543, 0.202069760625
+year, 9943, 0.168591158296

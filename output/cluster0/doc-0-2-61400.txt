@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61400
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jgladu@bcm.tmc.edu (grungy)
+Subject: Re: Long term Human Missions
+Organization: Systems Support Center, BCM
+Lines: 36
+NNTP-Posting-Host: j.ssctr.bcm.tmc.edu
+
+In article <1993Apr29.064347.15433@wisipc.weizmann.ac.il>,
+ward@pashosh.wisdom.weizmann.ac.il (Ward Paul) wrote:
+> >1.	Calculators
+> >2.	Teflon (So your eggs don't stick in the pan)
+> >3.	Pacemakers (Kept my grandfather alive from 1976 until 1988)
+> 
+> I don't think touting contributions is a good idea.  World War II produced
+> many many beneficial spinoffs.  Eg. Radar, jet aeroplanes, rocket technology.
+> I don't think anyone would argue that World War II was, in and of itself,
+> a good thing.
+> 
+> If you want people to back the space program it must be a good thing in
+> and of itself.
+
+I disagree with what to tout, although I agree that the space program is
+inherently a good thing.  Most people today only care about "what will it
+cost me?" and "what's in it for me?" and could care less about whether
+something is simply worthwhile in and of itself.  Our society has become
+increasingly geared toward the short-term (which you could read as NOW!). 
+They couldn't care less about next week, much less next century.  They want
+something to show for the expenditure and they want it *now*.
+
+I think we *should* tell them about the things that they are using now that
+are spinoffs of the space program.  That is the only way you can *prove*
+its worth to *them* - and they vote and pay taxes too.  The continued
+existence of the space program relies upon that money.
+
+just my $.02
+
+BTW: don't forget Velcro...
+
+bcnu - John Gladu
+Systems Support Center -- Baylor College of Medicine
+INTERNET: jgladu@bcm.tmc.edu  | VOICE: (713)798-7370
+ US MAIL:  One Baylor Plaza, Houston, Texas  77030
+.opinions expressed are just that.obviously.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ long term human mission       calcul teflon egg
+don't stick pan pacemak kept grandfath aliv  don't
+think tout contribut good idea world war produc
+mani mani benefici spinoff radar jet aeroplan
+rocket technolog don't think anyon argu world war
+good thing  want peopl back space program must
+good thing   disagre tout although agre space
+program inher good thing peopl today care cost
+what could care less whether someth simpli
+worthwhil societi becom increas gear toward short
+term could read couldn't care less next week much
+less next centuri want someth show expenditur want
+think tell thing use spinoff space program way
+prove worth vote pay tax continu exist space
+program reli upon money    btw don't forget velcro
+bcnu john gladu system support center baylor
+colleg medicin  mail one baylor plaza houston texa
+opinion express obvious
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baylor, 957, 0.239493097045
+spinoff, 8237, 0.22538165039
+tout, 9021, 0.221025583789
+program, 6905, 0.216059272993
+care, 1516, 0.205526196167
+space, 8164, 0.197442670939
+thing, 8869, 0.190157701772
+good, 3948, 0.178927763978
+war, 9635, 0.169368206093
+don, 2811, 0.157883073155
+term, 8795, 0.142998387463
+want, 9634, 0.142208182589
+velcro, 9455, 0.135691431973
+aeroplan, 302, 0.131808387221
+benefici, 1027, 0.121579985317
+plaza, 6686, 0.119746548523
+pacemak, 6371, 0.119746548523
+think, 8871, 0.119564310109
+grandfath, 3992, 0.116573869948
+expenditur, 3293, 0.116573869948
+egg, 3011, 0.116573869948
+world, 9841, 0.116560660305
+worthwhil, 9853, 0.113891408434
+gear, 3804, 0.113891408434
+teflon, 8749, 0.111567754578
+pan, 6404, 0.106835685106
+radar, 7055, 0.10451203125
+medicin, 5609, 0.103801665072
+inher, 4644, 0.102462423292
+someth, 8126, 0.102449213649
+mani, 5479, 0.0987213354695
+reli, 7255, 0.0979465249832
+vote, 9585, 0.0974563079218
+peopl, 6530, 0.0944262734591
+tax, 8718, 0.0928165546074
+houston, 4399, 0.0913952298688
+colleg, 1900, 0.0910573249822
+disagre, 2676, 0.0900812810504
+aliv, 417, 0.0894597308761
+texa, 8820, 0.087996553898
+kept, 4989, 0.087996553898
+jet, 4860, 0.0861350726897
+stick, 8393, 0.0858846862854
+centuri, 1614, 0.0856378515812
+argu, 628, 0.0856378515812
+calcul, 1451, 0.0837799227981
+express, 3315, 0.0831313425763
+societi, 8093, 0.0825060697461
+btw, 1355, 0.082101364183
+rocket, 7447, 0.08094083057
+forget, 3604, 0.0793333911709
+contribut, 2103, 0.0793333911709
+couldn, 2176, 0.0791636185573
+worth, 9850, 0.0788289629574
+pay, 6474, 0.0788289629574
+increas, 4590, 0.0785006219924
+prove, 6947, 0.077245912567
+produc, 6895, 0.0770952488131
+obvious, 6185, 0.0735760128834
+continu, 2092, 0.0734538962077
+simpli, 7967, 0.0712830225681
+center, 1606, 0.0702407017705
+money, 5835, 0.070139822909
+becom, 983, 0.069742055765
+technolog, 8743, 0.0691619502184
+short, 7904, 0.0687856857244
+mission, 5772, 0.0687856857244
+agre, 337, 0.0673570639714
+human, 4432, 0.0671864591257
+today, 8964, 0.0665202895554
+cost, 2169, 0.0661165230687
+john, 4878, 0.0658001224454
+opinion, 6266, 0.0651840738692
+week, 9691, 0.0640846627458
+exist, 3283, 0.0623938624454
+support, 8576, 0.0599337880461
+mail, 5447, 0.0598222392355
+idea, 4482, 0.0594918200386
+tell, 8767, 0.0568639945348
+long, 5336, 0.0548300284248
+read, 7135, 0.0529715714175
+anyon, 554, 0.0467611228775
+way, 9666, 0.0455203411812
+use, 9363, 0.0384320611461

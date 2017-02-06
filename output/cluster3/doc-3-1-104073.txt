@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104073
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: FLORIDA SUCKS!
+From: csc2imd@cabell.vcu.edu (Ian M. Derby)
+Expires: Sat, 1 May 1993 04:00:00 GMT
+Organization: Virginia Commonwealth University
+Lines: 8
+
+
+This talk about the Phillies winning the NL East is scary.  VERY
+scary!  Don't get me wrong, Im a Phillies fan but as late as last
+year they looked helpless.  The funny thing was they did have a lot
+of injuries in '92 spring training that basically killed their
+chances.  Of course, don't forget the Dykstra wrist injury in the
+first or second game?  
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+florida suck  expir sat gmt     talk philli win
+east scari scari don't get wrong philli fan late
+last year look helpless funni thing lot injuri
+spring train basic kill chanc cours don't forget
+dykstra wrist injuri first second game
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+scari, 7666, 0.428017361728
+injuri, 4650, 0.344910150178
+philli, 6593, 0.310516247517
+wrist, 9863, 0.23402373406
+dykstra, 2940, 0.214008680864
+sat, 7626, 0.184884046466
+funni, 3731, 0.184884046466
+florida, 3552, 0.178487855849
+suck, 8515, 0.173150423357
+expir, 3300, 0.16679029794
+gmt, 3917, 0.161971612783
+spring, 8266, 0.160991766638
+train, 9042, 0.158664687183
+late, 5139, 0.148368298389
+forget, 3604, 0.147403079001
+east, 2965, 0.147087637979
+don, 2811, 0.146675005075
+chanc, 1649, 0.140570938657
+kill, 5012, 0.138340230207
+basic, 937, 0.133049690324
+fan, 3381, 0.128681496219
+wrong, 9869, 0.118677123493
+win, 9770, 0.117524557757
+second, 7753, 0.11252252141
+cours, 2190, 0.110638544951
+talk, 8684, 0.109343080985
+lot, 5356, 0.100882751627
+game, 3761, 0.0980068616351
+thing, 8869, 0.0883292341448
+year, 9943, 0.0812575662052
+look, 5341, 0.0806888903947

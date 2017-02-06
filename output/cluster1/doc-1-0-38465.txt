@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38465
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: stgprao@st.unocal.COM (Richard Ottolini)
+Subject: Re: images of earth
+Organization: Unocal Corporation
+Lines: 16
+
+In article <1993Apr19.144533.6779@cs.ruu.nl> clldomps@cs.ruu.nl (Louis van Dompselaar) writes:
+>In <C5q0HK.KoD@hawnews.watson.ibm.com> ricky@watson.ibm.com (Rick Turner) writes:
+>
+>>Look in the /pub/SPACE directory on ames.arc.nasa.gov - there are a number
+>>of earth images there. You may have to hunt around the subdirectories as
+>>things tend to be filed under the mission (ie, "APOLLO") rather than under	
+>>the image subject.	
+>>
+>For those of you who don't need 24 bit, I got a 32 colour Amiga IFF
+>of a cloudless Earth (scanned). Looks okay when mapped on a sphere.
+>E-mail me and I'll send it you...
+
+Beware.  There is only one such *copyrighted* image and the company
+that generated is known to protect that copyright.  That image took
+hundreds of man-hours to build from the source satellite images,
+so it is unlikely that competing images will appear soon.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ imag earth       look pub space directori ame arc
+nasa gov number earth imag hunt around
+subdirectori thing tend file mission apollo rather
+imag  don't need bit got colour amiga iff
+cloudless earth scan look okay map sphere mail
+i'll send  bewar one copyright imag compani
+generat known protect copyright imag took hundr
+man hour build sourc satellit imag unlik compet
+imag appear soon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.558834075946
+copyright, 2135, 0.282262161911
+earth, 2956, 0.248891419548
+bewar, 1064, 0.163887673548
+subdirectori, 8484, 0.154231060512
+hunt, 4443, 0.149888865125
+iff, 4492, 0.142065166879
+colour, 1912, 0.135453051081
+arc, 608, 0.134051697603
+sphere, 8226, 0.129709502216
+compet, 1969, 0.127542905777
+apollo, 570, 0.12652930012
+scan, 7660, 0.124622991935
+amiga, 472, 0.123724163069
+gov, 3965, 0.120052889181
+ame, 465, 0.119677824135
+look, 5341, 0.118871156597
+okay, 6215, 0.118586817896
+unlik, 9290, 0.118233979766
+tend, 8783, 0.118233979766
+protect, 6940, 0.11622014933
+hundr, 4440, 0.115900464823
+pub, 6971, 0.115273688172
+soon, 8136, 0.113486639816
+directori, 2669, 0.112919562117
+hour, 4395, 0.107216074049
+map, 5498, 0.106779068427
+took, 8987, 0.105107074103
+generat, 3819, 0.103169735115
+satellit, 7632, 0.101901656401
+compani, 1958, 0.0990769256523
+appear, 580, 0.0968355104972
+build, 1378, 0.096132918598
+known, 5054, 0.0951828611943
+mission, 5772, 0.0941415526863
+send, 7785, 0.0914925875931
+nasa, 5956, 0.0896301477907
+sourc, 8153, 0.0879028479782
+file, 3477, 0.0824126646746
+man, 5471, 0.0822575101313
+mail, 5447, 0.0818739891518
+bit, 1122, 0.0803274214769
+got, 3960, 0.0781484272563
+number, 6156, 0.0774431872491
+ll, 5314, 0.0754447281243
+space, 8164, 0.0675560598581
+thing, 8869, 0.0650634689162
+need, 5993, 0.0640342163639
+don, 2811, 0.0540205330992

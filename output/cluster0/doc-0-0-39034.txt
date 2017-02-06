@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39034
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cstxqbe@dcs.warwick.ac.uk (Kate Kingman)
+Subject: Re: LCD VGA display
+Nntp-Posting-Host: shuffle
+Organization: Department of Computer Science, Warwick University, England
+Lines: 24
+
+In article <C6BAB1.LLt@vcd.hp.com> edmoore@vcd.hp.com (Ed Moore) writes:
+>: I've only had the computer for about 21 months.  Is that a reasonable life
+>: cycle for a LCD display?
+>
+>My Toshiba T1100+ LCD (CGA, 1986) died in 11 months.  Replaced under the 12
+>month warranty, fortunately.  When it died, it died instantly and completely.
+
+I worked in support for a while at a company and we had problems with several
+Toshiba 1600's in a short space of time. They were all around 2 years old.
+Some screens went completely (as above), others were just "dodgy".
+
+This happened to about 5 or 6 out of, maybe 100. They were fairly reliable up
+to then and I don't think it was a special problem with Tosh's (no link to the
+company). So I would think that 21 months may not be unreasonable - just
+unlucky!
+
+Regards,
+
+Kate.  :)|
+-- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ Kate Kingman        \ cstxqbe@dcs.warwick.ac.uk \ I leave the typos to   ~
+~ ** The Tall BlondE **\ esudb@csv.warwick.ac.uk   \ occupy all the bored  ~
+~	:)|		\ 	:)|		    \ people out there. :) ~
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lcd vga display      i'v comput month reason life
+cycl lcd display  toshiba t1100 lcd cga die month
+replac month warranti fortun die die instant
+complet  work support compani problem sever
+toshiba short space time around year old screen
+went complet other dodgi  happen mayb fair reliabl
+don't think special problem tosh link compani
+think month unreason unlucki  regard  kate
+peopl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lcd, 5167, 0.477902144795
+month, 5847, 0.369644249989
+toshiba, 9009, 0.339678708987
+die, 2628, 0.275137460587
+display, 2734, 0.193225961883
+compani, 1958, 0.186558274523
+complet, 1975, 0.17336312641
+cga, 1630, 0.165751255909
+instant, 4681, 0.154297286635
+warranti, 9646, 0.152160197539
+unreason, 9305, 0.143758647074
+problem, 6887, 0.14108594763
+fortun, 3619, 0.135621411625
+cycl, 2325, 0.126857225802
+link, 5289, 0.125575593312
+reliabl, 7256, 0.122119155209
+vga, 9492, 0.110347131465
+replac, 7288, 0.108238770705
+screen, 7719, 0.104294868529
+think, 8871, 0.102708311045
+went, 9704, 0.100126546373
+special, 8198, 0.0999272342679
+fair, 3363, 0.0949635269107
+regard, 7224, 0.091850471693
+short, 7904, 0.0886325726927
+old, 6216, 0.0847855781971
+sever, 7823, 0.0827589448124
+life, 5260, 0.082575153093
+happen, 4159, 0.0790273809967
+mayb, 5564, 0.0784870545085
+comput, 1993, 0.0777370694035
+support, 8576, 0.0772266172794
+reason, 7156, 0.0723243539951
+space, 8164, 0.0636028110367
+work, 9833, 0.0635244107322
+peopl, 6530, 0.0608356481317
+year, 9943, 0.0563518993302
+time, 8936, 0.0532762407916
+don, 2811, 0.050859356896

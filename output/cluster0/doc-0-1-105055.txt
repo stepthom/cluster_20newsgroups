@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105055
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mm36@prism.gatech.EDU (Michael J. Minardi)
+Subject: Re: baseball in Spanish
+Organization: Georgia Institute of Technology
+Lines: 15
+
+In article <116085@bu.edu> icop@csa.bu.edu (Antonio Pera) writes:
++>
++>	Recently, I heard the Red Sox on WROL a Spanish-speaking radio station.
++>I thought it was so unreal. The Red Sox in Spanish? Anyway, I want to find
++>out how widespread this is? Being a NY native, I know the scMets are on in
++>Spanish but not the Yankmes. I wuold think that LA,SD,Texas and Fla are on
++>in Spanish. Are there any Spanish-speaking networks or is this a local
+
+The braves day games are broadcast is Spanish on a station called "La
+Favorita".  (the station has a daytime liscence only).
+-- 
+MINARDI,MICHAEL J
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp:	  ...!{decvax,hplabs,ncar,purdue,rutgers}!gatech!prism!mm36
+Internet: mm36@prism.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal spanish      recent heard red sox wrol
+spanish speak radio station thought unreal red sox
+spanish anyway want find widespread nativ know
+scmet spanish yankm wuold think texa fla spanish
+spanish speak network local  brave day game
+broadcast spanish station call favorita station
+daytim liscenc  minardi michael georgia institut
+technolog atlanta georgia uucp decvax hplab ncar
+purdu rutger gatech prism mm36
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spanish, 8182, 0.774610891835
+station, 8346, 0.20056703965
+georgia, 3848, 0.180160249479
+sox, 8162, 0.146334458187
+speak, 8192, 0.139531060447
+red, 7194, 0.126776071853
+yankm, 9935, 0.12350254251
+wuold, 9877, 0.12350254251
+wrol, 9868, 0.12350254251
+scmet, 7698, 0.12350254251
+fla, 3514, 0.117080620672
+unreal, 9304, 0.114639119301
+daytim, 2404, 0.112524194615
+decvax, 2460, 0.10483452371
+hplab, 4409, 0.102568034154
+ncar, 5974, 0.101545846721
+rutger, 7554, 0.099680350939
+widespread, 9750, 0.0988240122256
+purdu, 6989, 0.0980116080981
+prism, 6876, 0.0980116080981
+nativ, 5964, 0.0972388495684
+gatech, 3789, 0.0915896862598
+broadcast, 1324, 0.0825761348363
+texa, 8820, 0.080091999771
+atlanta, 749, 0.0764559060829
+uucp, 9388, 0.0762541401943
+network, 6018, 0.0733330778135
+institut, 4683, 0.0728406524086
+michael, 5680, 0.0722070315942
+radio, 7061, 0.0707257277227
+brave, 1277, 0.0677674946887
+local, 5322, 0.0674193837953
+technolog, 8743, 0.062949270803
+recent, 7168, 0.062949270803
+heard, 4224, 0.0601774082722
+thought, 8887, 0.0552795852736
+basebal, 924, 0.0533726663946
+game, 3761, 0.0480097471673
+day, 2402, 0.0469665120121
+want, 9634, 0.0431446354916
+think, 8871, 0.036274695897
+know, 5052, 0.0341156586396

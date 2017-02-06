@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84008
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pmy@vivaldi.acc.virginia.edu (Pete Yadlowsky)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: University of Virginia
+Lines: 14
+
+John Berryhill, Ph.D. writes
+
+>I don't know who's next, but I hope it's people who pick their noses
+>while driving.  
+
+umm, please don't lump us all together. It's those blatant,
+fundamentalist pickers that give the rest of us a bad name. Some of
+us try very hard to be discreet and stay alert.
+
+--
+Peter M. Yadlowsky              |  Wake! The sky is light!
+Academic Computing Center       | Let us to the Net again...
+University of Virginia          |    Companion keyboard.
+pmy@Virginia.EDU                |                      - after Basho
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew    john berryhil write  don't
+know who next hope it peopl pick nose drive  umm
+pleas don't lump togeth it blatant fundamentalist
+picker give rest bad name tri hard discreet stay
+alert   peter yadlowski wake sky light academ
+comput center let net univers virginia companion
+keyboard
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+umm, 9206, 0.249700564552
+yadlowski, 9925, 0.243690175926
+alert, 395, 0.23860846475
+wake, 9613, 0.230323666135
+blatant, 1144, 0.226850365138
+berryhil, 1049, 0.218201299066
+companion, 1959, 0.21135628689
+keyboard, 4995, 0.205691093767
+fundamentalist, 3725, 0.205691093767
+nose, 6115, 0.202391755546
+academ, 205, 0.199392791788
+virginia, 9533, 0.183720036303
+mormon, 5863, 0.170057866509
+peter, 6575, 0.162701745344
+stay, 8355, 0.157485753456
+jew, 4862, 0.155915653414
+togeth, 8969, 0.152634573775
+don, 2811, 0.149548497373
+pick, 6619, 0.148406558103
+drive, 2873, 0.143064245812
+sky, 8011, 0.142549143623
+rest, 7324, 0.140807145285
+center, 1606, 0.133065454001
+net, 6010, 0.13268434144
+light, 5267, 0.131202479859
+hard, 4167, 0.124801958048
+john, 4878, 0.124653127685
+bad, 861, 0.121403324964
+hope, 4372, 0.117835970068
+comput, 1993, 0.114290296113
+write, 9865, 0.113645991512
+univers, 9282, 0.109551171453
+let, 5225, 0.104109173966
+pleas, 6688, 0.0969767677508
+tri, 9087, 0.0954723605865
+peopl, 6530, 0.0894415533353
+know, 5052, 0.0710079158104

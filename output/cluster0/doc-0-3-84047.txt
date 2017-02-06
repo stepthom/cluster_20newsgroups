@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84047
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dic5340@hertz.njit.edu (David Charlap)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: New Jersey Institute of Technology, Newark, N.J.
+Lines: 22
+Nntp-Posting-Host: hertz.njit.edu
+
+In article <1r1i41$4t@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes:
+>
+>Just maybe you won't be home.  Then you can come home to something 
+>like this:
+>
+>    "Well, it's been a rough month," begins Johnnie Lawmaster.  "I
+> just get laid off, and my divorce became final.  But I just wasn't
+> ready for what happened this particular Monday."
+
+[horror story about FBI ruining a guy's life for the hell of it omitted]
+
+>So if you don't want your tea party to be held in awkward silence, make
+>sure your lawyer isn't there, there's a good chap.
+
+So, is this a real story or a work of fiction?  How about some
+sources?  When, where, and in what newspaper did you get all this
+from?  Or is it all hypothetical?
+-- 
++------------------------+------------------------------------+
+| David Charlap          | "Apple II forever" - Steve Wozniac |
+| dic5340@hertz.njit.edu | "I drank what?" - Socrates         |
++------------------------+------------------------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew       mayb won't home come
+home someth like  well it rough month begin johnni
+lawmast get laid divorc becam final wasn't readi
+happen particular monday  horror stori fbi ruin
+guy life hell omit  don't want tea parti held
+awkward silenc make sure lawyer isn't there good
+chap  real stori work fiction sourc newspap get
+hypothet   david charlap appl forev steve wozniac
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stori, 8418, 0.24386593964
+divorc, 2770, 0.210328173982
+chap, 1656, 0.210328173982
+home, 4354, 0.208021901214
+hypothet, 4466, 0.20430926991
+horror, 4381, 0.195233524262
+tea, 8728, 0.191631750256
+omit, 6234, 0.18304202204
+johnni, 4879, 0.178536032491
+lawyer, 5157, 0.174676139407
+laid, 5095, 0.169758336701
+ruin, 7536, 0.168299968685
+silenc, 7953, 0.160897518387
+parti, 6438, 0.157840676809
+newspap, 6035, 0.156894150296
+monday, 5834, 0.156894150296
+forev, 3602, 0.154238902803
+fiction, 3463, 0.152603660463
+becam, 980, 0.151821772738
+appl, 583, 0.148902901987
+rough, 7493, 0.144450166626
+fbi, 3414, 0.143302196026
+mormon, 5863, 0.139144253083
+held, 4243, 0.13819772657
+readi, 7139, 0.132742743479
+jew, 4862, 0.127572852604
+hell, 4245, 0.123775761034
+steve, 8390, 0.120208065665
+begin, 994, 0.119734838829
+wasn, 9652, 0.117057611242
+won, 9820, 0.11501320599
+particular, 6442, 0.112930026477
+month, 5847, 0.111166441764
+david, 2397, 0.108876428878
+final, 3482, 0.105909348574
+guy, 4100, 0.101273990729
+sourc, 8153, 0.0995553689167
+life, 5260, 0.0993342755658
+isn, 4783, 0.0987893431373
+happen, 4159, 0.0950664618487
+mayb, 5564, 0.0944164728598
+real, 7144, 0.0924700180375
+sure, 8585, 0.0868639777071
+someth, 8126, 0.0794005771745
+come, 1923, 0.0782175763906
+work, 9833, 0.0764170708073
+want, 9634, 0.0734764824725
+good, 3948, 0.0693366363018
+make, 5459, 0.0676524542195
+don, 2811, 0.0611815683504
+like, 5272, 0.0567952308356

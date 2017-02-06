@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38805
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: weilej@cary115.its.rpi.edu (Jason Lee Weiler)
+Subject: Re: need a viewer for gl files
+Nntp-Posting-Host: cary115.its.rpi.edu
+Reply-To: weilej@rpi.edu
+Organization: Rensselaer Polytechnic Institute, Troy, NY.
+Lines: 17
+
+In article <1qu36i$kh7@dux.dundee.ac.uk>, dwestner@cardhu.mcs.dundee.ac.uk (Dominik Westner) writes:
+|> Hi, 
+|> 
+|> the subject says it all. Is there a PD viewer for gl files (for X)?
+|> 
+|> Thanks
+|> 
+|> 
+|> Dominik
+|> 
+
+Dominik,
+
+	Have you tried xgrasp?  It's out there on several ftp sites.(not sure which, but archie can find it, I'm sure.)  It works ok but it lacks an interface.
+
+-Jason Weiler
+<weilej@rpi.edu>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need viewer file         say viewer file  thank
+dominik   dominik  tri xgrasp it sever ftp site
+sure archi find i'm sure work lack interfac  jason
+weiler
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dominik, 2809, 0.630220380855
+viewer, 9512, 0.385821070378
+file, 3477, 0.269722134422
+sure, 8585, 0.251015537266
+jason, 4828, 0.245279926255
+archi, 613, 0.235726765636
+interfac, 4709, 0.202463695807
+lack, 5092, 0.180448119902
+site, 7994, 0.160621841423
+ftp, 3709, 0.15754030287
+sever, 7823, 0.143845268637
+tri, 9087, 0.112869630677
+work, 9833, 0.110413272517
+thank, 8832, 0.109141937066
+need, 5993, 0.10478635524
+say, 7653, 0.0989472075255

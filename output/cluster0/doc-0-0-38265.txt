@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38265
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: boylan@pi.eai.iastate.edu (Terran Boylan)
+Subject: Reaction-Diffusion techniques
+Organization: Engineering Animation, Inc.
+Lines: 24
+
+This past week I've been playing with some of the R-D (Reaction-
+Diffusion, not to be confused with RDS or R&D) techniques
+from SIGGRAPH '91.
+
+I was wondering what material is available to explain the control
+mechanism a little more.  It seems to me very much like a matter of
+picking random magic numbers and sitting back and waiting.  Although
+both of the papers (Turk and Witkin & Kass) were very well organized
+and extremely helpful, I guess what I need is a more basic description
+of the technique, especially wrt the control mechanisms.  The tests
+that I did had a tendency to either turn into blurry mud or become
+unstable.
+
+Is there any info available online?  Source code would be great but
+not necessary.
+
+Thanks!
+
+
+-- 
+---
+Terran J. Boylan, Sr. Artist/Programmer | "It's better to have loved
+Engineering Animation, Inc.,  Ames, IA  | and lost than just to have
+(515) 296-9908 / (515) 296-7892 (> 5PM) | lost." -- Dorky Dog
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ reaction diffus techniqu    past week i'v play
+reaction diffus confus rds techniqu siggraph
+wonder materi avail explain control mechan littl
+seem much like matter pick random magic number sit
+back wait although paper turk witkin kass well
+organ extrem help guess need basic descript
+techniqu especi wrt control mechan test tendenc
+either turn blurri mud becom unstabl  info avail
+onlin sourc code great necessari  thank     terran
+boylan artist programm it better love engin anim
+inc ame lost 5pm lost dorki dog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+techniqu, 8740, 0.336499587966
+diffus, 2637, 0.301300886358
+reaction, 7132, 0.259463807522
+mechan, 5603, 0.218017087978
+lost, 5355, 0.193607762623
+control, 2107, 0.182728879349
+boylan, 1258, 0.177008424234
+wrt, 9872, 0.170710342925
+mud, 5913, 0.170710342925
+turk, 9155, 0.165825171535
+tendenc, 8784, 0.165825171535
+blurri, 1180, 0.161833695878
+unstabl, 9312, 0.158458951296
+avail, 811, 0.152088491264
+siggraph, 7941, 0.129731903761
+dog, 2795, 0.129731903761
+artist, 669, 0.129731903761
+onlin, 6245, 0.12260759212
+random, 7093, 0.121423925189
+magic, 5435, 0.116770422684
+sit, 7993, 0.111062471589
+programm, 6906, 0.111062471589
+ame, 465, 0.110011429502
+extrem, 3333, 0.10836460035
+necessari, 5990, 0.107739057641
+wait, 9611, 0.105401639168
+confus, 2037, 0.105401639168
+descript, 2557, 0.103039679491
+pick, 6619, 0.098556216717
+paper, 6409, 0.0975654365437
+materi, 5543, 0.0964328130154
+anim, 515, 0.0944972756591
+past, 6456, 0.0925643292852
+organ, 6287, 0.0916583032191
+especi, 3190, 0.0906465883033
+basic, 937, 0.0900887872921
+test, 8812, 0.0899515297557
+explain, 3301, 0.0884959027395
+becom, 983, 0.0877409139456
+turn, 9158, 0.0871310554202
+code, 1871, 0.0870110961866
+love, 5366, 0.0868917906851
+info, 4636, 0.0861892970873
+engin, 3109, 0.0853972337622
+matter, 5553, 0.0849571685865
+guess, 4079, 0.0848485206943
+sourc, 8153, 0.0808029226235
+week, 9691, 0.0806234748536
+wonder, 9821, 0.0794916022387
+littl, 5308, 0.0735787362409
+great, 4016, 0.0728149667367
+play, 6681, 0.0721982356621
+number, 6156, 0.0711880901578
+better, 1060, 0.0654934707327
+help, 4249, 0.0643168738829
+thank, 8832, 0.0613088465075
+need, 5993, 0.0588621637309
+like, 5272, 0.0460971687668

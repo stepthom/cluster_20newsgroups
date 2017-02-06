@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38895
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: etllnfr@magrathea.ericsson.se (Lyndon Fletcher)
+Subject: Polaroid Palette system?????????????????????
+Nntp-Posting-Host: magrathea.ericsson.se
+Organization: Ericsson Cellular Division
+Lines: 15
+
+
+Does anyone have any information on the Polaroid Palette system. It appears to
+be a gadget for transfering graphics images to film. Does anyone have any detail
+about it like the maximum supported resolution or types of video input????
+
+What did Polaroid market them as?????
+
+
+
+Fletch
+--
+"All irregularities will be handled by the forces controlling each dimension.
+ Trans-uranic heavy elements may not be used where there is Life. Medium atomic
+ weights are available -- Gold, Lead, Copper, Jet, Diamond, Radium, Sapphire,
+ Silver, and Steel. --- Sapphire and Steel have been assigned......."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ polaroid palett system      anyon inform polaroid
+palett system appear gadget transfer graphic imag
+film anyon detail like maximum support resolut
+type video input  polaroid market    fletch
+irregular handl forc control dimens tran uran
+heavi element use life medium atom weight avail
+gold lead copper jet diamond radium sapphir silver
+steel sapphir steel assign
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sapphir, 7619, 0.418668116001
+steel, 8365, 0.338902150735
+palett, 6398, 0.310992309738
+copper, 2134, 0.209334058001
+tran, 9045, 0.196108497244
+irregular, 4770, 0.171369772165
+assign, 703, 0.167664811384
+silver, 7957, 0.158953357218
+diamond, 2614, 0.155496154869
+dimens, 2652, 0.15244668628
+maximum, 5560, 0.149718843673
+medium, 5614, 0.148869896843
+gold, 3933, 0.147251209876
+film, 3479, 0.141631288579
+transfer, 9052, 0.139221125524
+anyon, 554, 0.139145220275
+heavi, 4230, 0.138652079351
+atom, 756, 0.138652079351
+input, 4662, 0.137550187159
+weight, 9695, 0.134984668335
+element, 3037, 0.129700525548
+jet, 4860, 0.128154361201
+resolut, 7316, 0.125995564767
+handl, 4149, 0.119604219448
+market, 5514, 0.118034614123
+video, 9506, 0.117284110601
+control, 2107, 0.108049597056
+forc, 3594, 0.107200650226
+appear, 580, 0.105270025045
+lead, 5172, 0.105115454086
+type, 9177, 0.101124406874
+life, 5260, 0.0953470956779
+avail, 811, 0.0899315984232
+support, 8576, 0.0891712990023
+imag, 4512, 0.0867870487187
+graphic, 3997, 0.0852397840274
+inform, 4637, 0.0850971359606
+use, 9363, 0.0571803806744
+like, 5272, 0.0545155262641

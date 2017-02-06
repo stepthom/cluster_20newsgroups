@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105049
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: daves@meaddata.com (Dave Spencer)
+Subject: Re: Geronimo Pena?
+Organization: Mead Data Central, Dayton OH
+Lines: 29
+Distribution: world
+NNTP-Posting-Host: thetribe.meaddata.com
+
+In article <1r20avINNb6q@cronkite.Central.Sun.COM>, bobn@hawkwind.central.Sun.COM (Bob Netherton) writes:
+|> In article <1993Apr20.013653.1@eagle.wesleyan.edu>, dhart@eagle.wesleyan.edu writes:
+|> |> 
+|> |> 
+|> |> Hey...I've noticed that Luis Alicea is starting at 2nd for the Cardinals
+|> |> instead of Geronimo Pena.  Is Pena hurt, or was he just benched for poor
+|> |> performance?  Anyone know?
+|> 
+|> After a quick start, Pena has been stuck in a rut.  Torre gave Alicea
+|> the start to try to get Pena out of whatever funk he is in.  It has
+|> worked in the past.
+|> 
+
+   And it has worked again. Pena went 3 for 3 last night against Colorado.
+
+-- 
+Dave Spencer        |                             /\      
+Mead Data Central   |                            /  \  
+Miamisburg, Ohio    |                           |\  /|     GGGGG  OOOO
+                    |               _____ _____ |    |     G      O  O
+daves@meaddata.com  |              /____//_____\|\  /|     G  GG  O  O
+                    |             /____________ \    /     GGGGG  OOOO
+                    |            / / \    / \  \ \  /       
+                    |           /   A  /   A    \_\/  TTT  RRR  III  BBB  EEE
+                    |          /      /          \/O)  T   R R   I   B B  E  
+                    |         (  ____(__)_____     /   T   RRR   I   BBB  EEE
+                    |          \(  |  |   |  |)   /    T   RR    I   B B  E  
+                    |           \\_|__|___|__/   /     T   R R  III  BBB  EEE
+                    |            \______________/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ geronimo pena          hey i'v notic lui alicea
+start 2nd cardin instead geronimo pena pena hurt
+bench poor perform anyon know  quick start pena
+stuck rut torr gave alicea start tri get pena
+whatev funk work past   work pena went last night
+colorado   dave spencer mead data central
+miamisburg ohio ggggg oooo   ggggg oooo  ttt rrr
+iii bbb eee  rrr bbb eee  iii bbb eee
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pena, 6512, 0.709191833822
+oooo, 6253, 0.277757627382
+geronimo, 3856, 0.240016751511
+alicea, 412, 0.227384219157
+iii, 4502, 0.199821029725
+start, 8334, 0.163110618555
+rut, 7553, 0.133937410114
+mead, 5592, 0.130104559727
+funk, 3729, 0.130104559727
+ohio, 6212, 0.110125568601
+torr, 9004, 0.108102454999
+lui, 5385, 0.105454668454
+stuck, 8466, 0.102459867827
+bench, 1022, 0.10113793782
+work, 9833, 0.0973250930547
+2nd, 81, 0.0923636838559
+cardin, 1515, 0.0919861606847
+central, 1611, 0.0902138050085
+hey, 4283, 0.0883033253371
+hurt, 4451, 0.0868590621871
+colorado, 1908, 0.0860474176788
+spencer, 8221, 0.0829157508867
+poor, 6741, 0.0818485373381
+gave, 3798, 0.0808437706437
+notic, 6120, 0.0793492099092
+went, 9704, 0.0767014233639
+whatev, 9718, 0.0749531414307
+dave, 2395, 0.0742741355184
+instead, 4682, 0.0737496180355
+quick, 7036, 0.0732406441205
+past, 6456, 0.0726249289935
+perform, 6539, 0.0697369061849
+night, 6063, 0.0697369061849
+data, 2385, 0.0636104387658
+tri, 9087, 0.0497451395934
+anyon, 554, 0.0461566629605
+know, 5052, 0.0369981286995

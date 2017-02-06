@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104873
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dietz@parody.Data-IO.COM (Kent Dietz)
+Subject: Re: Let's play the name game!
+Organization: Data I/O Corporation
+Lines: 14
+
+In article <1993Apr20.035607.26095@newshub.ariel.yorku.ca>, cs902043@ariel.yorku.ca (SHAWN LUDDINGTON) writes:
+|> How about changing team names!
+|> Post your choices!
+|> 
+
+Minnesota Lumberjacks (thought of Bunyons - as in Paul, not sore feet or Babes
+			as in Big Blue Ox)
+Seattle Rainiers (I think this was considered by the new ownership -- harkening
+                  back to AAA glory days -- and placating at least one local
+                  brewer :-)
+
+Kent Dietz
+Twins in '93
+Mariners ... sometime this century?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ let play name game     chang team name post choic
+minnesota lumberjack thought bunyon paul sore feet
+babe big blue seattl rainier think consid new
+ownership harken back aaa glori day placat least
+one local brewer  kent dietz twin marin sometim
+centuri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+placat, 6656, 0.270071296544
+lumberjack, 5388, 0.270071296544
+sore, 8141, 0.256028049159
+ownership, 6360, 0.246064206572
+dietz, 2631, 0.235034590367
+babe, 846, 0.214328559861
+glori, 3907, 0.209487917615
+brewer, 1302, 0.208013869215
+minnesota, 5744, 0.194946317608
+twin, 9172, 0.192098008506
+aaa, 157, 0.192098008506
+marin, 5511, 0.188631626962
+seattl, 7749, 0.18781665031
+feet, 3430, 0.180574774783
+centuri, 1614, 0.170447944085
+kent, 4987, 0.165459153511
+paul, 6469, 0.163409152298
+choic, 1717, 0.159999689271
+blue, 1176, 0.159640775078
+sometim, 8128, 0.152271132532
+local, 5322, 0.147430490286
+chang, 1650, 0.12444214757
+consid, 2059, 0.121471621448
+thought, 8887, 0.120883578296
+big, 1082, 0.117977010291
+team, 8732, 0.114999140507
+play, 6681, 0.114220795175
+let, 5225, 0.109380152928
+game, 3761, 0.104986135513
+day, 2402, 0.1027048232
+post, 6766, 0.101153243568
+new, 6023, 0.100890358742
+think, 8871, 0.0793243114961

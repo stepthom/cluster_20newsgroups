@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60920
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: C.O.EGALON@LARC.NASA.GOV (CLAUDIO OLIVEIRA EGALON)
+Subject: Re: Space Debris
+Organization: NASA Langley Research Center
+Lines: 10
+Distribution: world
+Reply-To: C.O.EGALON@LARC.NASA.GOV (CLAUDIO OLIVEIRA EGALON)
+NNTP-Posting-Host: tahiti.larc.nasa.gov
+
+> Keesler, Loftus, Potter, Stansbery, Kubriek....?
+
+I gues it is Keesler. The others do not ring the bell but they might be 
+involved as well. Sometime ago Keesler was here at Langley teaching 
+a course on space debris and, if my memory does not fai,l I think there
+was even a reference to a book on the subject.
+
+C.O.Egalon@larc.nasa.gov
+
+Claudio Oliveira Egalon
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space debri       keesler loftus potter stansberi
+kubriek  gue keesler other ring bell might involv
+well sometim ago keesler langley teach cours space
+debri memori fai think even refer book    claudio
+oliveira egalon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+keesler, 4973, 0.691189906173
+debri, 2427, 0.35559742777
+oliveira, 6224, 0.210644997178
+egalon, 3009, 0.210644997178
+claudio, 1794, 0.210644997178
+potter, 6775, 0.20625238253
+langley, 5112, 0.190893358965
+space, 8164, 0.161659275254
+ring, 7406, 0.153869523106
+bell, 1011, 0.149109218318
+teach, 8729, 0.132238373652
+memori, 5628, 0.129084892947
+sometim, 8128, 0.125279837064
+involv, 4750, 0.119496917878
+ago, 336, 0.111009949527
+refer, 7213, 0.105057186631
+book, 1218, 0.102066557437
+cours, 2190, 0.0975091846453
+think, 8871, 0.065263432761

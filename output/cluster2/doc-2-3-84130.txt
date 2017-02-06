@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84130
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: agr00@ccc.amdahl.com (Anthony G Rose)
+Subject: Re: Davidians and compassion
+Reply-To: agr00@JUTS.ccc.amdahl.com (Anthony G Rose)
+Organization: Amdahl Corporation, Sunnyvale CA
+Lines: 31
+
+In article <sandvik-190493200420@sandvik-kent.apple.com> sandvik@newton.apple.com (Kent Sandvik) writes:
+>So we have this highly Christian religious order that put fire
+>on their house, killing most of the people inside.
+>
+>I'm not that annoyed about the adults, they knew supposedly what
+>they were doing, and it's their own actions.
+>
+>What I mostly are angry about is the fact that the people inside,
+>including mothers, let the children suffer and die during awful
+>conditions.
+>
+>If this is considered religious following to the end, I'm proud
+>that I don't follow such fanatical and non-compassionate religions.
+>
+>You might want to die for whatever purpose, but please spare
+>the innocent young ones that has nothing to do with this all.
+>
+>I have a hard time just now understanding that Christianity
+>knows about the word compassion. Christians, do you think 
+>the actions today would produce a good picture of your 
+>religion?
+>
+>
+>Kent
+>
+>---
+>sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+
+Surely you are not equating David Koresh with Christianity? The two are
+not comparable.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass      high christian religi order
+put fire hous kill peopl insid  i'm annoy adult
+knew suppos it action  most angri fact peopl insid
+includ mother let children suffer die aw condit
+consid religi follow end i'm proud don't follow
+fanat non compassion religion  might want die
+whatev purpos pleas spare innoc young one noth
+hard time understand christian know word compass
+christian think action today produc good pictur
+religion   kent      sure equat david koresh
+christian two compar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+christian, 1732, 0.333331879194
+compass, 1963, 0.290593914605
+religi, 7260, 0.23044230827
+insid, 4671, 0.2199636695
+action, 251, 0.213627968615
+religion, 7261, 0.198881334142
+die, 2628, 0.192072707681
+compassion, 1964, 0.169946351718
+angri, 512, 0.159333925741
+follow, 3578, 0.154345528197
+fanat, 3382, 0.150536276687
+adult, 283, 0.146501302891
+proud, 6946, 0.142015404017
+annoy, 525, 0.138250624126
+spare, 8186, 0.137396726704
+innoc, 4658, 0.133538958212
+mother, 5877, 0.132838022838
+peopl, 6530, 0.127407598027
+davidian, 2398, 0.12378282541
+aw, 829, 0.12378282541
+equat, 3157, 0.123317867815
+condit, 2017, 0.120706335361
+suffer, 8521, 0.118732098134
+knew, 5045, 0.117264145705
+hous, 4396, 0.113951677877
+koresh, 5065, 0.112747332289
+kent, 4987, 0.112167559837
+children, 1707, 0.10591941549
+young, 9962, 0.10484710169
+produc, 6895, 0.104023171843
+whatev, 9718, 0.102457285627
+purpos, 6993, 0.100989333198
+kill, 5012, 0.100461679727
+pictur, 6622, 0.0991099631353
+compar, 1960, 0.0987838524583
+suppos, 8577, 0.0954671237485
+david, 2397, 0.0947744602055
+non, 6097, 0.093063705527
+today, 8964, 0.0897545778504
+hard, 4167, 0.0888888727388
+noth, 6119, 0.0854370266597
+understand, 9246, 0.08418686722
+word, 9829, 0.084100066414
+order, 6281, 0.0829999203663
+consid, 2059, 0.0823476675547
+end, 3091, 0.0809431537352
+includ, 4579, 0.0807921590586
+fact, 3350, 0.0805674722598
+high, 4292, 0.0794041586152
+sure, 8585, 0.0756131210708
+let, 5225, 0.0741506564503
+pleas, 6688, 0.0690706756691
+want, 9634, 0.0639596103206
+good, 3948, 0.0603559681898
+time, 8936, 0.0557879966731
+think, 8871, 0.0537752929798
+don, 2811, 0.053257166631
+know, 5052, 0.0505746359323

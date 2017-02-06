@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104953
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: deitch@gisatl.FIDONET.ORG (David Deitch)
+Subject: baseball in Spanish
+Organization: Galaxy Information System (GIS) Atlanta, Ga
+Lines: 31
+
+Dateline Tue, 20/Apr93 03:38.
+In , Antonio Pera of icop@csa.bu.edu  wrote to All at 1:133/411,
+
+ AP>         Recently, I heard the Red Sox on WROL a 
+ AP> Spanish-speaking radio station. I thought it was so 
+ AP> unreal. The Red Sox in Spanish? Anyway, I want to find
+ AP> out how widespread this is? Being a NY native, I know 
+ AP> the scMets are on in Spanish but not the Yankmes. I 
+ AP> wuold think that LA,SD,Texas and Fla are on in Spanish. 
+ AP> Are there any Spanish-speaking networks or is this a 
+ AP> local
+
+    For the last couple of years, the Braves have been fostering a program to reach to the Latin American audience.  This has included licensing Spanish fan magazines, encouraging Spanish co-broadcasts, and marketing programs directed at the Latin American community.  One of the biggest heros to the Latin American audience has been Francisco Cabrerra (a fact of which he was slightly embarrassed!).  
+
+One funny story is that during Spring Training, the Braves played a game in Mexico.  This game was broadcast back to Atlanta in Spanish.  It took the broadcasters a few innings to get a rythm going because they had to keep changing their location.  Seems it took a while to find a place where they could get a clear signal on their cellular phones through which they were calling the game!
+
+        David Deitch, (GIS) Atlanta
+
+
+
+--  
+                 __ 
+FidoNet<==>UUCP /  \  UUCP: wittsend!gisatl!deitch 
+ Gateway & FAQ / oo \ Internet: deitch@gisatl.FIDONET.ORG
+              (_|  /_)         
+David Deitch,  _`@/_ \    _  Galaxy Information System
+Administrator |     | \   \\ (GIS) Atlanta
+(404)252-1699 | (*) |  \_  ))
+    ______    |__U__| /  \//   User: David Deitch
+   / FIDO \    _//|| _\   /    Via FidoNet Node: 1:133/411.0
+  (________)  (_/(_|(____/ (jm)   
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal spanish    datelin tue apr93   recent
+heard red sox wrol spanish speak radio station
+thought unreal red sox spanish anyway want find
+widespread nativ know scmet spanish yankm wuold
+think texa fla spanish spanish speak network local
+last coupl year brave foster program reach latin
+american audienc includ licens spanish fan magazin
+encourag spanish broadcast market program direct
+latin american communiti one biggest hero latin
+american audienc francisco cabrerra fact slight
+embarrass  one funni stori spring train brave play
+game mexico game broadcast back atlanta spanish
+took broadcast inning get rythm go keep chang
+locat seem took find place could get clear signal
+cellular phone call game  david deitch gis atlanta
+fidonet uucp uucp wittsend gisatl deitch   david
+deitch galaxi inform system administr gis atlanta
+user david deitch fido via fidonet node
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spanish, 8182, 0.713500775397
+latin, 5143, 0.228040677314
+broadcast, 1324, 0.177477043848
+atlanta, 749, 0.164323120998
+gis, 3884, 0.156164693645
+american, 469, 0.151405008368
+fidonet, 3465, 0.148528848024
+audienc, 777, 0.14696313514
+david, 2397, 0.137404181691
+uucp, 9388, 0.109259649976
+sox, 8162, 0.104836613724
+game, 3761, 0.103185115409
+took, 8987, 0.100154048635
+speak, 8192, 0.0999625383378
+brave, 1277, 0.0970996818079
+red, 7194, 0.0908246371978
+yankm, 9935, 0.0884794224376
+wuold, 9877, 0.0884794224376
+wrol, 9868, 0.0884794224376
+scmet, 7698, 0.0884794224376
+fla, 3514, 0.0838786431853
+unreal, 9304, 0.0821295080926
+foster, 3623, 0.0806143383568
+tue, 9145, 0.0760135591045
+hero, 4273, 0.0751053210801
+embarrass, 3062, 0.0751053210801
+node, 6089, 0.0720613516756
+widespread, 9750, 0.0707992835368
+mexico, 5671, 0.0707992835368
+program, 6905, 0.0704421768151
+nativ, 5964, 0.0696636447594
+funni, 3731, 0.0648841701951
+licens, 5254, 0.0645350067137
+biggest, 1084, 0.0645350067137
+francisco, 3652, 0.0641962675948
+administr, 273, 0.0617985606786
+encourag, 3089, 0.0615315620587
+galaxi, 3753, 0.0607663113892
+signal, 7947, 0.0585342558501
+magazin, 5432, 0.0585342558501
+texa, 8820, 0.0573793359843
+spring, 8266, 0.0564992890745
+communiti, 1953, 0.0564992890745
+slight, 8034, 0.0561655321369
+train, 9042, 0.0556826116905
+network, 6018, 0.0525371238409
+inning, 4657, 0.0523007211694
+market, 5514, 0.0517304042616
+stori, 8418, 0.051293930535
+radio, 7061, 0.0506691717693
+locat, 5323, 0.0502709934479
+phone, 6601, 0.0497921494944
+reach, 7128, 0.0493326973455
+user, 9366, 0.0489780773033
+local, 5322, 0.0483004480561
+station, 8346, 0.0478966005276
+coupl, 2187, 0.0472040312943
+fan, 3381, 0.0451601544925
+recent, 7168, 0.0450979794449
+clear, 1803, 0.0435364009827
+direct, 2667, 0.0434824962837
+heard, 4224, 0.0431121677295
+chang, 1650, 0.0407691209129
+thought, 8887, 0.0396032800474
+includ, 4579, 0.0390442055045
+fact, 3350, 0.0389356217304
+place, 6657, 0.0388638055552
+basebal, 924, 0.0382371293786
+play, 6681, 0.0374204519946
+inform, 4637, 0.0372950704117
+want, 9634, 0.0309095857623
+year, 9943, 0.0285169534964
+think, 8871, 0.025987838605
+know, 5052, 0.0244410658368

@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61532
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Political banner in space
+Organization: Express Access Online Communications USA
+Lines: 13
+NNTP-Posting-Host: access.digex.net
+
+
+Well,  you better not get the shuttle as your launch vehicle.
+
+and most ELV's have too  far of a backlog for political messages.
+
+If during the campaign season,  the candidates for president had
+launched one,  right around now we'd  be getting a launch
+for PEROT 92.
+
+and if they had used the shuttle,  we'd be seeing launches
+for NIXON now more then ever.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ polit banner space      well better get shuttl
+launch vehicl  elv far backlog polit messag
+campaign season candid presid launch one right
+around we'd get launch perot  use shuttl we'd see
+launch nixon ever  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+launch, 5147, 0.553241573234
+polit, 6723, 0.34145744564
+shuttl, 7929, 0.283179320656
+perot, 6553, 0.254623048273
+elv, 3056, 0.245782202329
+banner, 899, 0.245782202329
+campaign, 1477, 0.227812161075
+nixon, 6080, 0.217691958662
+candid, 1489, 0.198005556243
+vehicl, 9449, 0.168487300778
+presid, 6839, 0.168487300778
+pat, 6458, 0.156157861527
+messag, 5650, 0.145431119508
+season, 7747, 0.135480452005
+far, 3386, 0.117510410751
+right, 7399, 0.10700989733
+better, 1060, 0.105239540105
+space, 8164, 0.0997859441468
+use, 9363, 0.0776930232707

@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104588
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Best Sportwriters...
+From: csc2imd@cabell.vcu.edu (Ian M. Derby)
+Expires: Sat, 1 May 1993 04:00:00 GMT
+Organization: Virginia Commonwealth University
+Keywords: Sportswriters
+Summary: Sportswriters
+Lines: 19
+
+
+Since someone brought up sports radio, howabout sportswriting???
+
+(Anyone give an opinion) 
+
+Which city do you think has the best sports coverage in terms of
+print media? 
+
+(these are general questions) 
+
+Is the Washington Post better than the Philadelphia Inquier or the NY
+Times?  
+
+Howabout the Philadelphia Daily News compared to the New York Daily
+News?  
+
+
+Do you notice papers being subjective or objective to the home team?
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+best sportwrit  expir sat gmt   sportswrit    sinc
+someon brought sport radio howabout sportswrit
+anyon give opinion  citi think best sport coverag
+term print media  general question  washington
+post better philadelphia inquier time  howabout
+philadelphia daili news compar new york daili news
+notic paper subject object home team
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+howabout, 4401, 0.398941454332
+sportswrit, 8259, 0.374186884309
+daili, 2338, 0.306357026887
+philadelphia, 6589, 0.272646969045
+sport, 8257, 0.254925349415
+sportwrit, 8260, 0.199470727166
+news, 6031, 0.181910762506
+best, 1052, 0.176088644547
+coverag, 2195, 0.155060345644
+sat, 7626, 0.1505861487
+subject, 8487, 0.142199846238
+expir, 3300, 0.135848977169
+washington, 9651, 0.132747226223
+gmt, 3917, 0.131924207816
+brought, 1343, 0.129599070955
+media, 5605, 0.128155726432
+print, 6871, 0.12612900008
+york, 9960, 0.124551615728
+notic, 6120, 0.121654803136
+citi, 1775, 0.118798025543
+radio, 7061, 0.117595330442
+paper, 6409, 0.11736124494
+compar, 1960, 0.110794858273
+term, 8795, 0.10820249353
+general, 3818, 0.101675865551
+home, 4354, 0.101547717144
+opinion, 6266, 0.0986455785442
+object, 6173, 0.0969817971956
+team, 8732, 0.0874389060563
+someon, 8124, 0.0860544808916
+sinc, 7977, 0.080277682416
+question, 7032, 0.0797137541089
+better, 1060, 0.0787819491502
+post, 6766, 0.0769112614466
+new, 6023, 0.0767113785469
+anyon, 554, 0.0707654147068
+time, 8936, 0.0625711898345
+think, 8871, 0.0603137640013

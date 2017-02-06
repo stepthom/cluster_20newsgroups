@@ -1,0 +1,152 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62449
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Space Marketing would be wonderfull.
+Organization: Univ. of Southwestern Louisiana
+Lines: 37
+
+dnash@uxa.cso.uiuc.edu (David Nash) writes:
+
+>We're talking about an orbiting ad here, not some little point
+>of light that puts a streak or two on a photograph.  It should have been
+>clear that anything used for advertisement is going to be a bit larger than
+>a point source.  Even if this was not clear there's a previous post on this
+>topic that makes it clear:
+
+>----
+>Message-ID: <FOX.93May15223005@graphics.nyu.edu>
+>Sender: notes@cmcl2.nyu.edu (Notes Person)
+>Nntp-Posting-Host: graphics.cs.nyu.edu
+>Organization: Courant Institute of Mathematical Sciences
+>Date: Sun, 16 May 1993 03:30:05 GMT
+>Lines: 132
+
+>In the New York Times on Sunday May 9th in the week in review
+>section there was a report of a group called "Space Marketing"
+>in Atlanta, Georgia who is planning to put up a one mile wide
+>reflective Earth orbiting satelite which will appear as large
+>						     ^^ ^^^^^
+>and as bright as the Moon and carry some sort of advertising.
+>^^^ ^^ ^^^^^^
+
+From the description I've read, it's prob. only going to be
+as bright as Jupiter. Anything else is probably hype from the
+opponents or wishful thinking from the sponsors.
+
+If we could do something as bright as the full moon that soon,
+that cheap, the CIS would have done it already.
+
+
+--
+Phil Fraering         |"Number one good faith! You convert,
+pgf@srl02.cacs.usl.edu|you not tortured by demons!" - anon. Mahen missionary
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful      we'r talk orbit littl
+point light put streak two photograph clear anyth
+use advertis go bit larger point sourc even clear
+there previous post topic make clear     nntp post
+host graphic nyu edu organ courant institut
+mathemat scienc date sun gmt line  new york time
+sunday 9th week review section report group call
+space market atlanta georgia plan put one mile
+wide reflect earth orbit satelit appear larg
+bright moon carri sort advertis   descript i'v
+read it prob go bright jupit anyth els probabl
+hype oppon wish think sponsor  could someth bright
+full moon soon cheap cis done alreadi    phil
+fraer number one good faith convert
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bright, 1311, 0.323582726818
+clear, 1803, 0.235499553286
+advertis, 291, 0.218253692867
+market, 5514, 0.186548678347
+moon, 5851, 0.166130496374
+courant, 2189, 0.165421779632
+satelit, 7630, 0.151240360974
+prob, 6884, 0.151240360974
+orbit, 6280, 0.148103401055
+nntp, 6084, 0.140789143347
+anyth, 555, 0.140278810356
+9th, 152, 0.13117312178
+cis, 1772, 0.129932774611
+hype, 4458, 0.128763344194
+oppon, 6267, 0.127657157915
+streak, 8436, 0.124657729651
+wonderful, 9822, 0.122877523658
+fraer, 3640, 0.119723683625
+post, 6766, 0.119506070692
+sponsor, 8254, 0.118312126567
+georgia, 3848, 0.11636213153
+space, 8164, 0.11606925145
+photograph, 6604, 0.115751355953
+point, 6710, 0.115499935487
+host, 4386, 0.111921108453
+reflect, 7216, 0.107860908939
+review, 7358, 0.107058474234
+jupit, 4932, 0.107058474234
+mathemat, 5545, 0.105910913902
+mile, 5713, 0.105542264967
+larger, 5125, 0.10482431543
+cheap, 1677, 0.103792527277
+sunday, 8541, 0.102810284464
+gmt, 3917, 0.102493077143
+section, 7759, 0.10068665787
+phil, 6588, 0.10068665787
+wide, 9747, 0.0995653108174
+atlanta, 749, 0.0987628761125
+topic, 8992, 0.0977396897946
+soon, 8136, 0.0974916932749
+york, 9960, 0.0967652455185
+descript, 2557, 0.0962948923355
+previous, 6855, 0.0958351097868
+wish, 9801, 0.0947289235077
+institut, 4683, 0.0940928268115
+faith, 3367, 0.0932743391733
+date, 2391, 0.0899492892508
+carri, 1530, 0.0865052392116
+organ, 6287, 0.0856585199388
+sun, 8539, 0.0845814574545
+plan, 6660, 0.0835582711366
+appear, 580, 0.0831873945936
+convert, 2115, 0.0822300521261
+alreadi, 443, 0.0819975557336
+report, 7291, 0.0814276174211
+light, 5267, 0.0814276174211
+sort, 8144, 0.0786956369184
+scienc, 7692, 0.0764614781136
+larg, 5124, 0.0757678705928
+sourc, 8153, 0.0755137125123
+week, 9691, 0.0753460110621
+edu, 3001, 0.0725410912224
+earth, 2956, 0.0712707856262
+group, 4064, 0.0712024735014
+els, 3053, 0.0707305704178
+talk, 8684, 0.0691905738409
+bit, 1122, 0.0690059759356
+littl, 5308, 0.0687624080308
+line, 5285, 0.0678161370756
+graphic, 3997, 0.0673589233589
+probabl, 6885, 0.0669117041894
+number, 6156, 0.0665282492259
+read, 7135, 0.0622800594556
+someth, 8126, 0.0602261075752
+new, 6023, 0.0595977445636
+good, 3948, 0.0525925108534
+make, 5459, 0.0513150424158
+time, 8936, 0.0486121076095
+think, 8871, 0.0468582936288
+use, 9363, 0.0451855776435

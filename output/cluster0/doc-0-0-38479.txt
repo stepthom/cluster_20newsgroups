@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38479
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ani@ms.uky.edu (Aniruddha B. Deglurkar)
+Subject: help: Splitting a trimming region along a mesh 
+Organization: University Of Kentucky, Dept. of Math Sciences
+Lines: 28
+
+
+
+	Hi,
+
+	I have a problem, I hope some of the 'gurus' can help me solve.
+
+	Background of the problem:
+	I have a rectangular mesh in the uv domain, i.e  the mesh is a 
+	mapping of a 3d Bezier patch into 2d. The area in this domain
+	which is inside a trimming loop had to be rendered. The trimming
+	loop is a set of 2d Bezier curve segments.
+	For the sake of notation: the mesh is made up of cells.
+
+	My problem is this :
+	The trimming area has to be split up into individual smaller
+	cells bounded by the trimming curve segments. If a cell
+	is wholly inside the area...then it is output as a whole ,
+	else it is trivially rejected. 
+
+	Does any body know how thiss can be done, or is there any algo. 
+	somewhere for doing this.
+
+	Any help would be appreciated.
+
+	Thanks, 
+	Ani.
+-- 
+To get irritated is human, to stay cool, divine.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help split trim region along mesh        problem
+hope gurus help solv  background problem
+rectangular mesh domain mesh map bezier patch area
+domain insid trim loop render trim loop set bezier
+curv segment sake notat mesh made cell  problem
+trim area split individu smaller cell bound trim
+curv segment cell wholli insid area output whole
+els trivial reject  bodi know thiss done algo
+somewher  help appreci  thank ani  get irrit human
+stay cool divin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+trim, 9102, 0.540247170938
+mesh, 5648, 0.396605830285
+cell, 1598, 0.300448627345
+bezier, 1065, 0.194659898085
+segment, 7768, 0.19140110828
+area, 622, 0.188639669017
+loop, 5344, 0.187078285921
+curv, 2306, 0.165639315631
+domain, 2805, 0.162447837923
+split, 8247, 0.160112397168
+problem, 6887, 0.14596211395
+insid, 4671, 0.144880150642
+help, 4249, 0.136301044343
+algo, 405, 0.114319931025
+irrit, 4772, 0.109870942716
+rectangular, 7190, 0.103600445879
+trivial, 9110, 0.0957005541402
+sake, 7587, 0.0935391429606
+patch, 6459, 0.0928809607342
+region, 7228, 0.0910594522054
+bound, 1250, 0.0870461250463
+cool, 2124, 0.0853726075805
+divin, 2766, 0.0842265316403
+reject, 7244, 0.0835071020148
+solv, 8119, 0.0824870654688
+smaller, 8055, 0.0812239189615
+background, 855, 0.0792348578939
+render, 7277, 0.0779560348034
+output, 6329, 0.0779560348034
+stay, 8355, 0.0738797138787
+somewher, 8130, 0.0722691901784
+map, 5498, 0.0693367134386
+individu, 4604, 0.0676092170417
+bodi, 1194, 0.0669930021356
+appreci, 587, 0.0597849486711
+human, 4432, 0.0597093253026
+set, 7815, 0.055392921562
+hope, 4372, 0.0552792081963
+els, 3053, 0.0534639951889
+thank, 8832, 0.0433087996038
+know, 5052, 0.0333112322103

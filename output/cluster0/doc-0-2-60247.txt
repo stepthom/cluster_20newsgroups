@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60247
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bobc@sed.stel.com (Bob Combs)
+Subject: Re: Blow up space station, easy way to do it.
+Organization: SED, Stanford Telecom, Reston, VA 22090
+Lines: 16
+
+In article <1993Apr5.184527.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>This might a real wierd idea or maybe not..
+>
+>
+>Why musta  space station be so difficult?? why must we have girders? why be
+>confined to earth based ideas, lets think new ideas, after all space is not
+>earth, why be limited by earth based ideas??
+>
+Choose any or all of the following as an answer to the above:
+ 
+
+1.  Politics
+2.  Traditions
+3.  Congress
+4.  Beauracrats
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ blow space station easi way     might real wierd
+idea mayb   musta space station difficult must
+girder confin earth base idea let think new idea
+space earth limit earth base idea  choos follow
+answer   polit tradit congress beauracrat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+idea, 4482, 0.469697939754
+earth, 2956, 0.358945115033
+space, 8164, 0.2922830894
+station, 8346, 0.289965441411
+confin, 2031, 0.230092584611
+wierd, 9754, 0.227343353593
+base, 923, 0.214979321135
+blow, 1172, 0.195347075805
+congress, 2040, 0.192358491542
+tradit, 9037, 0.176574910871
+choos, 1720, 0.171539513764
+difficult, 2635, 0.167148814345
+polit, 6723, 0.166693879857
+easi, 2959, 0.151582850358
+limit, 5278, 0.150157456955
+answer, 535, 0.126771336418
+mayb, 5564, 0.120227593696
+real, 7144, 0.117749026424
+follow, 3578, 0.112891953033
+let, 5225, 0.108471071668
+new, 6023, 0.100051837931
+way, 9666, 0.0898476902195
+think, 8871, 0.0786650306014

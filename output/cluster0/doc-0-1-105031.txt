@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105031
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jkl@cbnewsl.cb.att.com (jon.k.lyons)
+Subject: Re: John Franco
+Organization: AT&T Bell Laboratories - Holmdel, NJ
+Distribution: na
+Lines: 16
+
+Jason Lee asks:
+>What's with John Franco?  The Mets are hardly using him.  I heard he was
+>completely recovered, but now I'm not so sure.
+
+You must have heard wrong.  His arm is still sore.  He hasn't gone on the DL,
+but he may.  Managmenet is treating him as a day-to-day situation.  
+
+His doctors thought that he was ready, and they had him throw in
+Colorado, but his arm wasn't up to the strain.  He is throwing every day,
+but he's just not quite ready to pitch full strength yet.
+
+(This is based on an interview that he gave on WFAN NY radio on Thursday,
+4/23)
+-- 
+Jon Lyons                                            jon.k.lyons@att.com
+AT&T Bell Laboratories                               att!jon.k.lyons
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ john franco     jason lee ask what john franco
+met hard use heard complet recov i'm sure  must
+heard wrong arm still sore hasn't gone managmenet
+treat day day situat  doctor thought readi throw
+colorado arm wasn't strain throw everi day he quit
+readi pitch full strength yet  base interview gave
+wfan radio thursday    bell laboratori att jon
+lyon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+franco, 3653, 0.346174572833
+arm, 643, 0.261338503211
+readi, 7139, 0.247569947152
+throw, 8899, 0.225545933994
+day, 2402, 0.223762989238
+heard, 4224, 0.191135856631
+john, 4878, 0.190221175983
+sore, 8141, 0.185936096032
+lyon, 5408, 0.185936096032
+strain, 8424, 0.175737422086
+att, 759, 0.168501347765
+wfan, 9714, 0.164623991882
+jason, 4828, 0.158302673819
+recov, 7185, 0.153255198826
+jon, 4887, 0.153255198826
+thursday, 8911, 0.152137102537
+interview, 4726, 0.146306590775
+strength, 8441, 0.145453864203
+doctor, 2786, 0.145453864203
+treat, 9076, 0.14157650832
+bell, 1011, 0.131618535014
+lee, 5190, 0.129309297444
+hasn, 4195, 0.128871842508
+laboratori, 5090, 0.126791895723
+colorado, 1908, 0.126005799719
+gone, 3943, 0.122406380641
+gave, 3798, 0.118385702291
+radio, 7061, 0.11231974708
+met, 5655, 0.111874549177
+wasn, 9652, 0.109158308279
+situat, 7995, 0.106173712129
+complet, 1975, 0.097237462075
+hard, 4167, 0.0952241458586
+wrong, 9869, 0.0923248561716
+quit, 7043, 0.0921228227571
+pitch, 6643, 0.0918227831176
+thought, 8887, 0.0877896804534
+ask, 689, 0.0871211221628
+everi, 3235, 0.0861504670019
+sure, 8585, 0.081002207001
+base, 923, 0.0787168030951
+use, 9363, 0.0555515065548

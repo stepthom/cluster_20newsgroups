@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83899
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@post.RoyalRoads.ca (Malcolm Lee)
+Subject: Re: A KIND and LOVING God!!
+Organization: Royal Roads Military College, Victoria, B.C.
+Lines: 29
+
+
+In article <sandvik-150493181533@sandvik-kent.apple.com>, sandvik@newton.apple.com (Kent Sandvik) writes:
+|> In article <1993Apr15.200231.10206@ra.royalroads.ca>,
+|> mlee@post.RoyalRoads.ca (Malcolm Lee) wrote:
+|> > These laws written for the Israelites, God's chosen people whom God had
+|> > expressly set apart from the rest of the world.  The Israelites were a
+|> > direct witness to God's existence.  To disobey God after KNOWing that God
+|> > is real would be an outright denial of God and therefore immediately punishable.
+|> > Remember, these laws were written for a different time and applied only to 
+|> > God's chosen people.  But Jesus has changed all of that.  We are living in the
+|> > age of grace.  Sin is no longer immediately punishable by death.  There is
+|> > repentance and there is salvation through our Lord Jesus Christ.  And not just
+|> > for a few chosen people.  Salvation is available to everyone, Jew and Gentile
+|> > alike.
+|> 
+|> Jews won't agree with you, Malcolm.
+|> 
+|> Cheers,
+|> Kent
+|> ---
+|> sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+A lot of people won't agree with me.  That's their right and I respect that.
+However, to the point, Jews are also covered by the saving grace of Jesus
+Christ.  There are Jews who have become Christians.
+
+This brings up another question I still have to ponder:  why is there so 
+much anti-Semitism?  Why do people hate Jews?  I don't hate Jews.  I consider
+them to be like anyone else, sinners we all are.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god        law written israelit god
+chosen peopl god expressli set apart rest world
+israelit direct wit god exist disobey god know god
+real outright denial god therefor immedi punish
+rememb law written differ time appli god chosen
+peopl jesus chang live age grace sin longer immedi
+punish death repent salvat lord jesus christ
+chosen peopl salvat avail everyon jew gentil alik
+jew won't agre malcolm  cheer kent    lot peopl
+won't agre that right respect howev point jew also
+cover save grace jesus christ jew becom christian
+bring anoth question still ponder much anti semit
+peopl hate jew don't hate jew consid like anyon
+els sinner
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jew, 4862, 0.423030461166
+god, 3926, 0.42031940575
+chosen, 1727, 0.258613685083
+peopl, 6530, 0.20222740483
+israelit, 4792, 0.195131826059
+jesus, 4859, 0.181835956234
+salvat, 7597, 0.170484949974
+grace, 3975, 0.168677466884
+punish, 6986, 0.167813222603
+hate, 4202, 0.150288751105
+immedi, 4527, 0.142795977283
+christ, 1729, 0.137730549627
+written, 9867, 0.130100064983
+law, 5153, 0.128011046845
+won, 9820, 0.127127594356
+agre, 337, 0.115403848907
+semit, 7783, 0.112914624737
+ponder, 6738, 0.110196726292
+expressli, 3316, 0.0998638634222
+disobey, 2727, 0.0998638634222
+outright, 6331, 0.0986706531701
+denial, 2524, 0.0975659130294
+sinner, 7986, 0.0946715963117
+gentil, 3830, 0.0915215757256
+alik, 415, 0.0889224601398
+repent, 7287, 0.0872330501598
+malcolm, 5462, 0.0872330501598
+apart, 559, 0.0819160361286
+wit, 9802, 0.0771687922153
+anti, 542, 0.0753828953611
+lord, 5347, 0.0746784885727
+sin, 7976, 0.0719605901272
+kent, 4987, 0.071215076285
+cheer, 1687, 0.070505076861
+cover, 2194, 0.0685578995936
+respect, 7321, 0.0675294111282
+age, 328, 0.066701021909
+therefor, 8855, 0.0665673244207
+longer, 5337, 0.0665673244207
+death, 2423, 0.0665673244207
+appli, 584, 0.0660442121501
+rest, 7324, 0.0636730077031
+bring, 1316, 0.0630294327969
+save, 7646, 0.0599998748463
+becom, 983, 0.0597450452218
+everyon, 3241, 0.0594119102407
+love, 5366, 0.0591668553522
+direct, 2667, 0.0571257302156
+rememb, 7269, 0.0548985978658
+live, 5310, 0.0546571809293
+chang, 1650, 0.0535609958362
+exist, 3283, 0.0534501613478
+set, 7815, 0.0533950515992
+kind, 5021, 0.0531766276179
+christian, 1732, 0.0529080226929
+consid, 2059, 0.0522824552422
+avail, 811, 0.0517804828994
+els, 3053, 0.0515356962823
+howev, 4406, 0.0513907307637
+real, 7144, 0.051104961565
+world, 9841, 0.0499262736423
+anoth, 533, 0.0480450692463
+lot, 5356, 0.0465129122636
+differ, 2633, 0.0459015986817
+right, 7399, 0.0453463934599
+question, 7032, 0.0451236567865
+point, 6710, 0.0420777717524
+anyon, 554, 0.0400582599738
+time, 8936, 0.0354197456433
+don, 2811, 0.0338129240741
+know, 5052, 0.0321097879034
+like, 5272, 0.0313887479481

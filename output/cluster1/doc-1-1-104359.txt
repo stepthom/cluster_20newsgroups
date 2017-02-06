@@ -1,0 +1,41 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104359
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: acsddc@smucs1.umassd.edu
+Subject: Fenway Gif
+Reply-To: acsddc@smucs1.umassd.edu
+Organization: UMASS DARTMOUTH, NO. DARTMOUTH, MA.
+Lines: 5
+
+I was wondering if anyone had any kind of Fenway Park gif.
+I would appreciate it if someone could send me one.
+Thanks in advance.
+
+-Dan
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fenway gif     wonder anyon kind fenway park gif
+appreci someon could send one thank advanc  dan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fenway, 3444, 0.672361006117
+gif, 3869, 0.423658711679
+dan, 2350, 0.272131863454
+park, 6430, 0.23130718993
+appreci, 587, 0.194000459641
+send, 7785, 0.192785307849
+advanc, 285, 0.189757089431
+wonder, 9821, 0.182215429994
+kind, 5021, 0.179013156621
+someon, 8124, 0.163986717583
+thank, 8832, 0.140535824089
+anyon, 554, 0.134851642307

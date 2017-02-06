@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38382
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Nntp-Posting-Host: bones.et.byu.edu
+Lines: 6
+Subject: PD 3D Viewer wanted
+Summary: 3D
+Expires: May 20, 1993
+Organization: Brigham Young University, Provo UT USA
+From: qiaok@bones.et.byu.edu (Kun Qiao)
+
+I am looking for a public domain 3d viewer.  It does not have to be very
+fancy.  The features I want is simple wireframe display, flat shading, 
+simple transformation.  It would be nice to have hidden line.    
+
+Any information is appreciated.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  viewer want  expir    look public domain viewer
+fanci featur want simpl wirefram display flat
+shade simpl transform nice hidden line  inform
+appreci
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+viewer, 9512, 0.412541300765
+simpl, 7965, 0.355377635017
+wirefram, 9795, 0.269864633293
+fanci, 3383, 0.260013814632
+flat, 3526, 0.239613308174
+hidden, 4286, 0.235763917212
+shade, 7835, 0.231128910546
+transform, 9053, 0.227962417633
+want, 9634, 0.227033916199
+domain, 2805, 0.218867331485
+expir, 3300, 0.214969903506
+featur, 3422, 0.195198239396
+display, 2734, 0.179555044628
+nice, 6047, 0.168695246898
+appreci, 587, 0.161097523315
+public, 6973, 0.160088464138
+line, 5285, 0.138128819273
+inform, 4637, 0.13696796126
+look, 5341, 0.103996954238

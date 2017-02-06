@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104762
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: klassen@sol.UVic.CA (Melvin Klassen)
+Subject: Re: Is Western insane??
+Nntp-Posting-Host: sol.uvic.ca
+Organization: University of Victoria, Victoria, B.C. CANADA
+Lines: 11
+
+In article <93108.1841463321628@QUCDN.QueensU.CA> <3321628@QUCDN.QueensU.CA> writes:
+>Why are we continuously putting down other universities? Queen's is not
+>as great as is makes itself out to be. This place has only got a good rep
+>because it's been here so long. If someone would take the time to look around
+>and see how dissatisfied people are with the disorganization and the constant
+>misuse of the Bell Curve they could see that Queen's needs some major
+>improvements. I would personally start with hiring professors who can
+>actually teach, not people who are here with the attitude that this place
+>would be okay if it wasn't for all the students running around.
+
+When did George Bell (ex-Blue Jay) learn to throw a curve?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ western insan      continu put univers queen
+great make place got good rep it long someon take
+time look around see dissatisfi peopl disorgan
+constant misus bell curv could see queen need
+major improv person start hire professor actual
+teach peopl attitud place okay wasn't student run
+around  georg bell blue jay learn throw curv
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+queen, 7029, 0.403985039633
+curv, 2306, 0.304520029753
+bell, 1011, 0.297548475791
+disorgan, 2729, 0.221699785105
+misus, 5780, 0.215355462735
+insan, 4668, 0.205789027474
+place, 6657, 0.194759348616
+rep, 7284, 0.177399281248
+hire, 4308, 0.174553751
+professor, 6901, 0.161703102552
+peopl, 6530, 0.154278602781
+western, 9709, 0.151049978054
+attitud, 769, 0.148774237895
+constant, 2067, 0.145183508511
+georg, 3847, 0.143318474526
+student, 8468, 0.141568286742
+okay, 6215, 0.141568286742
+teach, 8729, 0.131941294325
+improv, 4557, 0.131342712765
+blue, 1176, 0.13104808242
+throw, 8899, 0.127472260791
+jay, 4832, 0.12695996632
+wasn, 9652, 0.123386452542
+learn, 5182, 0.120819455389
+continu, 2092, 0.120012831817
+major, 5458, 0.104358858836
+person, 6562, 0.0947269883934
+great, 4016, 0.0945640562919
+univers, 9282, 0.0944829390503
+got, 3960, 0.0932931598516
+someon, 8124, 0.0929073795245
+actual, 254, 0.0914145655956
+start, 8334, 0.0899962379227
+long, 5336, 0.0895841789145
+run, 7543, 0.0856431540506
+need, 5993, 0.0764436930204
+good, 3948, 0.07308539354
+make, 5459, 0.0713101544047
+look, 5341, 0.0709538643549
+time, 8936, 0.0675540102156

@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84187
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: david@terminus.ericsson.se (David Bold)
+Subject: No News Is Bad News
+Reply-To: david@terminus.ericsson.se
+Distribution: world
+Organization: Camtec Electronics (Ericsson), Leicester, England
+Lines: 20
+Nntp-Posting-Host: bangkok
+
+I'm having trouble receiving News at the moment due to an overloaded
+News server. I think that I can post out reasonably quickly, though.
+
+I'm in a couple of threads at the moment which may be pending replies.
+If anyone wants a reply from me over something I've posted then I
+suggest sending an e-mail copy of the point to me so that I can reply by
+News.
+
+This is one way to shut me up!!
+
+Cheers,
+
+David.
+
+---
+On religion:
+
+"Oh, where is the sea?", the fishes cried,
+As they swam its clearness through.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ news bad news       i'm troubl receiv news moment
+due overload news server think post reason quick
+though  i'm coupl thread moment pend repli anyon
+want repli someth i'v post suggest send mail copi
+point repli news  one way shut  cheer  david
+religion  sea fish cri swam clear
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+news, 6031, 0.505706881088
+repli, 7290, 0.381252298998
+moment, 5828, 0.278378149354
+swam, 8620, 0.221809238583
+pend, 6516, 0.204596722097
+fish, 3505, 0.177120798285
+sea, 7739, 0.17587449906
+cri, 2228, 0.172425386373
+post, 6766, 0.171048941188
+shut, 7925, 0.168379845498
+server, 7812, 0.1515902044
+troubl, 9117, 0.141737082058
+thread, 8890, 0.141737082058
+cheer, 1687, 0.138500016727
+copi, 2130, 0.128744344098
+receiv, 7167, 0.128021255218
+quick, 7036, 0.124864582301
+religion, 7261, 0.124021830276
+coupl, 2187, 0.121822026899
+david, 2397, 0.118202163806
+send, 7785, 0.112496551477
+clear, 1803, 0.112356772636
+suggest, 8525, 0.111667714685
+bad, 861, 0.107842683977
+mail, 5447, 0.100669810283
+reason, 7156, 0.094455198199
+someth, 8126, 0.0862015784887
+point, 6710, 0.0826574815741
+want, 9634, 0.0797700595677
+anyon, 554, 0.0786903571121
+way, 9666, 0.0766023500504
+think, 8871, 0.0670682373262

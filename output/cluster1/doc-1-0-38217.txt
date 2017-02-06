@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38217
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rob@rjck.UUCP (Robert J.C. Kyanko)
+Subject: Re: VGA 640x400 graphics mode
+Distribution: world
+Organization: Neptune Software Inc
+Lines: 15
+
+gchen@essex.ecn.uoknor.edu writes in article <C55DoH.2AI@constellation.ecn.uoknor.edu>:
+> 
+> Greetings!
+> 
+> Does anybody know if it is possible to set VGA graphics mode to 640x400
+> instead of 640x480?  Any info is appreciated!
+
+Some VESA bios's support this mode (0x100).  And *any* VGA should be able to
+support this (640x480 by 256 colors) since it only requires 256,000 bytes.
+My 8514/a VESA TSR supports this; it's the only VESA mode by card can support
+due to 8514/a restrictions. (A WD/Paradise)
+
+--
+I am not responsible for anything I do or say -- I'm just an opinion.
+             Robert J.C. Kyanko (rob@rjck.UUCP)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vga 640x400 graphic mode     constel ecn uoknor
+edu  greet  anybodi know possibl set vga graphic
+mode 640x400 instead 640x480 info appreci  vesa
+bio support mode 0x100 vga abl support 640x480
+color sinc requir byte vesa tsr support it vesa
+mode card support due restrict paradis   respons
+anyth say i'm opinion
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mode, 5806, 0.402790525004
+vesa, 9484, 0.363419365585
+640x400, 126, 0.332431153738
+vga, 9492, 0.32397812922
+support, 8576, 0.302315485808
+640x480, 127, 0.281382680999
+ecn, 2980, 0.17111224951
+0x100, 6, 0.17111224951
+constel, 2068, 0.155901795005
+tsr, 9135, 0.1470042495
+greet, 4032, 0.1470042495
+graphic, 3997, 0.144493278705
+paradis, 6415, 0.133703176766
+bio, 1103, 0.130897995217
+restrict, 7330, 0.12170979583
+byte, 1438, 0.12170979583
+instead, 4682, 0.0942191060129
+card, 1513, 0.0942191060129
+anybodi, 552, 0.0892236602988
+color, 1907, 0.0881968508941
+info, 4636, 0.0863922141778
+appreci, 587, 0.0848320819106
+respons, 7323, 0.0845117251658
+opinion, 6266, 0.0821996890283
+requir, 7302, 0.0816345750361
+abl, 180, 0.0802823579555
+set, 7815, 0.0785999982213
+edu, 3001, 0.0778048370495
+anyth, 555, 0.0752288792277
+possibl, 6765, 0.0719456188943
+sinc, 7977, 0.066894032433
+say, 7653, 0.0557129680752
+know, 5052, 0.0472671005365

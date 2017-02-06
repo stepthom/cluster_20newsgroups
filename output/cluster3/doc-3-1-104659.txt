@@ -1,0 +1,209 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104659
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hhenderson@vax.clarku.edu
+Subject: RE: Game Length (was Re: Braves Update!!
+Organization: Clark University
+Lines: 51
+
+
+ecaxron@ariel.lerc.nasa.gov (Ron Graham) writes:
+
+>I hesitate to make assumptions about other people when they write, but
+>neither of you two *sound* as though you have kids, and you may not have
+>spouses either.
+
+I wonder why you say that?  I don't see why having a spouse and/or
+kids would have anything to do with it.  It might if you brought
+your kids to the game and wanted them to get home in time to get
+to bed at a reasonable hour (in which case I'd probably decide
+to take my kids to games on weekends, as many people do, or else
+be prepared to leave the game early), but from what you say later
+on, you don't bring your kids *or* your spouse to the game.
+As it happens, I have a husband but no kids, and my husband usually
+attends games with me.
+
+>Extra innings could put me
+>well past midnight.  Even without extra innings, if the score is beyond
+>2-1 I can't see my family that night at all.  If the next day is a workday,
+>I may have to bag that as well.  
+
+I can see it's a problem if you don't bring your wife to the ballgame,
+but that's a problem even if the game goes a trim 2 1/2 hours.  As far
+as bagging work the next day, I don't really understand why that's
+necessary, unless going to a game also means that you consume vast
+quantities of beer (I note that this is the case for many guys).
+If you don't think you can get up to go to work after a long evening
+out, then don't have long evenings out during the week.
+
+>All that stuff enters into my consideration of even going to a game.  If
+>you say you don't care about whether the game is sped up, IMPO you are 
+>saying you don't care where the time goes, and that the game is for people
+>who don't have families and don't have to get up for work the next day.
+
+Look: if I pay between $8.00 and $20.00 apiece for tickets, plus $10.00 
+for parking, plus spending my time and energy driving to and from Boston, 
+plus spending additional money on concessions etc. at the ballpark, then 
+I see going to a game as a considerable investment of time and money.
+I can't afford to go to a lot of games.  Hence, going to a game is a
+big deal, like going to a play or an opera.  Maybe you have more money than 
+I do and can go to games all year long, so it's not such a big deal for you.  
+But I'm not interested in having games "sped up", any more than I want to
+have _Die Walkure_ cut down to a convenient "weeknight version" of two
+hours.  If I felt that going to a night game during the week would interfere 
+with my family life or my work life, then I'd choose to go to a weekend game.
+
+IMPO.
+
+Heather
+HHENDERSON@vax.clarku.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat       hesit make assumpt
+peopl write neither two sound though kid spous
+either  wonder say don't see spous kid anyth might
+brought kid game want get home time get bed reason
+hour case i'd probabl decid take kid game weekend
+mani peopl els prepar leav game earli say later
+don't bring kid spous game happen husband kid
+husband usual attend game  extra inning could put
+well past midnight even without extra inning score
+beyond can't see famili night next day workday bag
+well  see it problem don't bring wife ballgam that
+problem even game goe trim hour far bag work next
+day don't realli understand that necessari unless
+go game also mean consum vast quantiti beer note
+case mani guy don't think get work long even don't
+long even week  stuff enter consider even go game
+say don't care whether game sped impo say don't
+care time goe game peopl don't famili don't get
+work next day  look pay apiec ticket plus park
+plus spend time energi drive boston plus spend
+addit money concess etc ballpark see go game
+consider invest time money can't afford lot game
+henc go game big deal like go play opera mayb
+money game year long it big deal i'm interest game
+sped want die walkur cut conveni weeknight version
+two hour felt go night game week interfer famili
+life work life i'd choos weekend game  impo
+heather
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.547290622573
+kid, 5008, 0.302427448129
+spous, 8262, 0.234646043661
+don, 2811, 0.227517672131
+impo, 4550, 0.162201952655
+famili, 3378, 0.160504145384
+sped, 8215, 0.14520411346
+plus, 6700, 0.14449892214
+hour, 4395, 0.13546822023
+money, 5835, 0.121290133867
+husband, 4452, 0.119666853342
+weekend, 9692, 0.117393340261
+bag, 864, 0.115351453988
+work, 9833, 0.113669750743
+say, 7653, 0.10186551091
+time, 8936, 0.0953318093235
+long, 5336, 0.0948154872904
+consider, 2060, 0.094649848825
+spend, 8222, 0.0939697419219
+extra, 3325, 0.0935288179688
+inning, 4657, 0.0924671293799
+day, 2402, 0.0892330311928
+goe, 3931, 0.0856875581564
+bring, 1316, 0.0848214711882
+peopl, 6530, 0.0816438855519
+night, 6063, 0.0814484373437
+deal, 2418, 0.0810933620161
+care, 1516, 0.0789797002374
+weeknight, 9693, 0.078215347887
+opera, 6262, 0.078215347887
+apiec, 565, 0.0759770805787
+concess, 2006, 0.0741482830276
+week, 9691, 0.0738794501316
+life, 5260, 0.0738794501316
+hesit, 4277, 0.0712626545873
+trim, 9102, 0.0700812181683
+heather, 4228, 0.0700812181683
+case, 1540, 0.0697498042551
+bed, 984, 0.069024387279
+big, 1082, 0.068334643634
+midnight, 5701, 0.0649573224196
+problem, 6887, 0.0631143379198
+ballpark, 883, 0.0625861973261
+ballgam, 879, 0.0625861973261
+interfer, 4710, 0.061115674151
+quantiti, 7021, 0.0602428964283
+beer, 990, 0.059833426671
+vast, 9434, 0.0576757269938
+henc, 4252, 0.0576757269938
+felt, 3439, 0.0573572679879
+conveni, 2112, 0.0570486092917
+consum, 2077, 0.0570486092917
+mani, 5479, 0.0569050196119
+attend, 764, 0.0567491656776
+assumpt, 711, 0.0559010029761
+afford, 315, 0.0559010029761
+want, 9634, 0.0546478251515
+prepar, 6831, 0.054393579884
+wife, 9755, 0.0535013817948
+ticket, 8919, 0.0530833789735
+invest, 4744, 0.0522962603208
+choos, 1720, 0.050095915992
+length, 5212, 0.0496500374247
+necessari, 5990, 0.0493634288938
+brought, 1343, 0.0493634288938
+energi, 3102, 0.048813668512
+enter, 3125, 0.0486808107267
+boston, 1243, 0.0482924803158
+park, 6430, 0.04623356469
+addit, 263, 0.0455346321531
+pay, 6474, 0.0454386446632
+leav, 5184, 0.0447021219117
+cut, 2313, 0.0440992425206
+drive, 2873, 0.043530553291
+updat, 9333, 0.0434518813885
+decid, 2442, 0.0434518813885
+score, 7705, 0.043373821725
+brave, 1277, 0.0429178061016
+past, 6456, 0.0424107355941
+usual, 9377, 0.0423403450165
+later, 5140, 0.0420636208145
+earli, 2951, 0.0415969963946
+die, 2628, 0.0410272814872
+unless, 9289, 0.0408443472471
+sound, 8150, 0.0393848165292
+version, 9479, 0.0390256256549
+home, 4354, 0.038678853773
+stuff, 8472, 0.0384382998908
+guy, 4100, 0.0376610525677
+wonder, 9821, 0.0364211284253
+note, 6118, 0.0361905293926
+understand, 9246, 0.0359651128019
+happen, 4159, 0.0353526408047
+mayb, 5564, 0.0351109275148
+els, 3053, 0.0346769230136
+write, 9865, 0.0345793797864
+anyth, 555, 0.0343870937164
+far, 3386, 0.0335063835171
+play, 6681, 0.0330794843616
+probabl, 6885, 0.0328046557687
+reason, 7156, 0.032354063566
+lot, 5356, 0.0312972326766
+mean, 5595, 0.0309984751746
+realli, 7150, 0.0297643449662
+year, 9943, 0.0252088381338
+make, 5459, 0.0251581143031
+look, 5341, 0.025032415714
+think, 8871, 0.0229731137628
+like, 5272, 0.0211206071637

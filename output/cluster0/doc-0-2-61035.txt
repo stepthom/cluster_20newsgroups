@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61035
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Crazy? or just Imaginitive?
+Lines: 20
+Nntp-Posting-Host: acad3.alaska.edu
+Organization: University of Alaska Fairbanks
+
+I have a nice quote that I like (or as close as I can remember it).
+
+If I say something that you think is crazy, ask me what I mean before you think
+its crazy.. 
+
+So some of my ideas are a bit odd, off the wall and such, but so was Wilbur and
+Orville Wright, and quite a few others.. Sorry if I do not have the big degrees
+and such, but I think (I might be wrong, to error is human) I have something
+that is in many ways just as important, I have imagination, dreams. And without
+dreams all the knowledge is worthless.. 
+
+Sorry my two cents worth. Or is it two rubles worth?
+
+The basic quote idea is from H. Beam Pipers book "Space Vikings". Its a good
+book on how civilization can fall, and how it can be raised to new heights.
+
+Unfortunately H. Beam Piper killed him self just weeks short of having his
+first book published, and have his ideas see light.. Such a waste.
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ crazi imaginit     nice quot like close rememb
+say someth think crazi ask mean think crazi  idea
+bit odd wall wilbur orvill wright quit other sorri
+big degre think might wrong error human someth
+mani way import imagin dream without dream
+knowledg worthless  sorri two cent worth two rubl
+worth  basic quot idea beam piper book space vike
+good book civil fall rais new height  unfortun
+beam piper kill self week short first book publish
+idea see light wast
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+crazi, 2216, 0.358695284589
+piper, 6638, 0.327854635054
+beam, 969, 0.256178072286
+dream, 2865, 0.234319777704
+book, 1218, 0.225898851244
+idea, 4482, 0.215614228516
+worth, 9850, 0.190464795796
+quot, 7045, 0.180525770103
+sorri, 8142, 0.16212983552
+orvill, 6305, 0.152162724174
+imaginit, 4520, 0.152162724174
+wright, 9861, 0.149355543662
+wilbur, 9757, 0.149355543662
+think, 8871, 0.144444320052
+cent, 1603, 0.140831602382
+worthless, 9852, 0.134783769797
+vike, 9517, 0.127154543368
+height, 4238, 0.123783719821
+someth, 8126, 0.123767761398
+civil, 1778, 0.11659925227
+rais, 7076, 0.110413565907
+odd, 6198, 0.106996991251
+wall, 9619, 0.106307663073
+unfortun, 9264, 0.0999234612977
+wast, 9654, 0.0987079420897
+self, 7776, 0.097558878731
+degre, 2491, 0.097558878731
+publish, 6974, 0.0971162807857
+fall, 3369, 0.0962580952667
+imagin, 4518, 0.0954335728869
+error, 3180, 0.0948357328115
+knowledg, 5053, 0.0936887596965
+kill, 5012, 0.089949108691
+basic, 937, 0.0865091885299
+nice, 6047, 0.0851028960567
+light, 5267, 0.0836689795336
+short, 7904, 0.0830992258029
+human, 4432, 0.0811672178446
+import, 4551, 0.0796826511476
+close, 1830, 0.0796826511476
+week, 9691, 0.0774199719597
+rememb, 7269, 0.0774199719597
+wrong, 9869, 0.0771641153425
+quit, 7043, 0.0769952580018
+ask, 689, 0.07281489079
+big, 1082, 0.07160944193
+bit, 1122, 0.0709054221542
+mean, 5595, 0.0649680276326
+new, 6023, 0.0612382214789
+space, 8164, 0.0596320765094
+mani, 5479, 0.0596320765094
+way, 9666, 0.0549926204937
+good, 3948, 0.0540401629517
+say, 7653, 0.0533736037846
+like, 5272, 0.0442655382918

@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83494
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Christians above the Law? was Clarification of personal position
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+Lines: 24
+
+In article <C5MuIw.AqC@mailer.cc.fsu.edu> 
+dlecoint@garnet.acns.fsu.edu (Darius_Lecointe) writes:
+>... other good stuff deleted ...
+>You can worship every day of the week.  The issue is not whether
+>Christians are at fault for going to church on Sunday or for not going to
+>church on Saturday.  Attending a church service does not mean you have
+>recognized the holiness of that day (my apologies to  Paul Hudson).  The
+>question is "On what authority do we proclaim that the requirements of the
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>fourth commandment are no longer relevant to modern Christians?"  Please
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>note that the commandment does not command you to go to church, only to
+>keep it holy unto the Lord by refraining from doing on it what only serves
+>to give you pleasure and satisfaction.
+
+When are we going to hear a Christian answer to this question? 
+
+In paraphrase: 
+
+On what or whose authority do Christians proclaim that they
+are above the Law and above the Prophets (7 major and 12 minor) and not 
+accountable to the Ten Commandments of which Jesus clearly spoke His opinion 
+in Matthew 5:14-19? What is the source of this pseudo-doctrine? Who is
+the pseudo-teacher? Who is the Great Deceiver?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ christian law clarif person posit      good stuff
+delet worship everi day week issu whether
+christian fault go church sunday go church
+saturday attend church servic mean recogn holi day
+apolog paul hudson question author proclaim requir
+fourth command longer relev modern christian pleas
+note command command church keep holi unto lord
+refrain serv give pleasur satisfact  go hear
+christian answer question  paraphras  whose author
+christian proclaim law prophet major minor account
+ten command jesus clear spoke opinion matthew
+sourc pseudo doctrin pseudo teacher great deceiv
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+church, 1746, 0.375232496492
+christian, 1732, 0.331279405912
+command, 1933, 0.327673307899
+pseudo, 6959, 0.256923040396
+proclaim, 6892, 0.229222047556
+holi, 4344, 0.205164316504
+law, 5153, 0.160306212142
+author, 796, 0.153172968637
+satisfact, 7633, 0.137997619874
+pleasur, 6690, 0.126682268468
+unto, 9321, 0.118555744806
+hudson, 4423, 0.117488710761
+spoke, 8250, 0.11647938314
+deceiv, 2436, 0.11647938314
+paraphras, 6424, 0.115521839225
+question, 7032, 0.11301528541
+day, 2402, 0.110714597075
+teacher, 8730, 0.110624019575
+clarif, 1785, 0.109240570945
+saturday, 7639, 0.107952611084
+attend, 764, 0.105616063833
+fourth, 3630, 0.105074924101
+worship, 9847, 0.104549029788
+prophet, 6928, 0.104037545366
+recogn, 7173, 0.101671342805
+doctrin, 2787, 0.101671342805
+relev, 7254, 0.100383382944
+fault, 3407, 0.0999730804149
+apolog, 571, 0.099571602284
+matthew, 5554, 0.0966372596777
+sunday, 8541, 0.0938081241229
+lord, 5347, 0.0935186917582
+modern, 5811, 0.0921352431284
+serv, 7810, 0.0910978643929
+account, 221, 0.0896424772788
+paul, 6469, 0.0880765765975
+minor, 5745, 0.0858539748491
+longer, 5337, 0.0833612089995
+hear, 4223, 0.0805790107852
+delet, 2502, 0.0800132701096
+servic, 7813, 0.0768198375266
+issu, 4793, 0.0761283505642
+jesus, 4859, 0.0759034320173
+posit, 6761, 0.0732992150094
+clear, 1803, 0.0716263340149
+stuff, 8472, 0.0715376496981
+opinion, 6266, 0.0699280716248
+requir, 7302, 0.0694473236781
+sourc, 8153, 0.0689016643934
+answer, 535, 0.0689016643934
+week, 9691, 0.068748647032
+major, 5458, 0.0685214473079
+note, 6118, 0.0673543164353
+everi, 3235, 0.0639389534954
+person, 6562, 0.0621972146515
+great, 4016, 0.0620902343383
+mean, 5595, 0.0576913668013
+pleas, 6688, 0.0549163013317
+good, 3948, 0.0479874636257

@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104997
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dedwards@serenity.EBay.Sun.COM (David Edwards)
+Subject: Re: Strike zone width 23"" (was Re: Jose Canseco's
+Organization: Sun Microsystems, Inc.
+Lines: 38
+Distribution: usa
+Reply-To: dedwards@serenity.EBay.Sun.COM
+NNTP-Posting-Host: serenity.ebay.sun.com
+
+
+In article 2bd51686@atlas.nafb.trw.com, mspede@atlas.nafb.trw.com () writes:
+ 
+>> Well, it's just studying tape, frame by frame.  That's all.  The biggest
+>> thing that you notice, however, is how bastardized the strike zone has 
+>> become.  Death to the umpires' union!  The plate is 17" (+1") across,
+>> not 23"!  Call the high strikes strikes, and quit calling pitches 3"
+>> outside strikes -- they're balls!
+>> 
+>  Speaking of this 23" wide strike zone....
+>
+>  I'd sure like to see cameras placed in each major league park such that 
+>  an overview shot of home plate is available.  CBS had this during the
+>  WS, or did I just dream it.
+>
+>  Then again, players/managers must not be too upset with the current 23"
+>  wide strike zone.
+>
+>  Mark Pede
+>
+
+
+
+
+Wait a minute.  If I read the rules right. A stike is ANY portion of the ball 
+over ANY portion of the plate.
+
+
+Given that the ball is ~ 2.9 "" in diameter.  This sez that the zone width
+is ~= 17 + (2 * 2.9)  or 22.8 "" . While this is still less than the 23 "
+number given.  I can forgive any UMP for misjudging .2" on an object moving
+at 85 to 100 miles per hour many times not in a straight line.
+
+I think the Umpires Union has a great grasp of the rules!!!
+
+
+David Edwards
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ strike zone width jose canseco          well it
+studi tape frame frame that biggest thing notic
+howev bastard strike zone becom death umpir union
+plate across call high strike strike quit call
+pitch outsid strike they'r ball  speak wide strike
+zone  i'd sure like see camera place major leagu
+park overview shot home plate avail cbs dream
+player manag must upset current wide strike zone
+mark pede      wait minut read rule right stike
+portion ball portion plate   given ball diamet sez
+zone width still less number given forgiv ump
+misjudg object move mile per hour mani time
+straight line  think umpir union great grasp rule
+david edward
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+strike, 8448, 0.522530535403
+zone, 9991, 0.428626887506
+plate, 6674, 0.22816114336
+width, 9752, 0.192233553022
+union, 9275, 0.188702036038
+ball, 877, 0.175894703583
+portion, 6752, 0.16709772801
+umpir, 9210, 0.163297301245
+wide, 9747, 0.145912464356
+frame, 3643, 0.145123386194
+rule, 7537, 0.125129666336
+cbs, 1578, 0.113554291244
+bastard, 941, 0.11082099578
+given, 3887, 0.107617173098
+overview, 6354, 0.0981186283831
+grasp, 4002, 0.0943510180192
+canseco, 1494, 0.0935404627933
+sez, 7828, 0.0927714932245
+edward, 3003, 0.0900381977603
+diamet, 2613, 0.0900381977603
+ump, 9209, 0.0894262099382
+forgiv, 3605, 0.0877272293734
+upset, 9342, 0.0872011536479
+biggest, 1084, 0.0852640604933
+camera, 1473, 0.084381946087
+dream, 2865, 0.0835488640051
+mile, 5713, 0.0773358303638
+jose, 4892, 0.0773358303638
+tape, 8700, 0.0768097546382
+straight, 8422, 0.0760537144535
+shot, 7910, 0.0735682199999
+wait, 9611, 0.0721772715259
+outsid, 6332, 0.0712572516131
+notic, 6120, 0.0692553997409
+minut, 5747, 0.0692553997409
+park, 6430, 0.0691000447774
+hour, 4395, 0.0674896412492
+death, 2423, 0.0669444313541
+speak, 8192, 0.0660355700722
+studi, 8469, 0.064481262474
+mark, 5512, 0.0610453951065
+david, 2397, 0.0605130923321
+leagu, 5176, 0.0601684422151
+becom, 983, 0.0600835036319
+home, 4354, 0.0578088785837
+manag, 5472, 0.0572377001738
+object, 6173, 0.0552096009302
+major, 5458, 0.0550271448872
+quit, 7043, 0.0549067296228
+pitch, 6643, 0.0547279010234
+current, 2299, 0.0543187476022
+avail, 811, 0.0520738217002
+player, 6683, 0.051730299833
+howev, 4406, 0.0516818616008
+place, 6657, 0.0513471065799
+high, 4292, 0.0506992197203
+great, 4016, 0.0498624657717
+line, 5285, 0.0496921046223
+number, 6156, 0.0487484080255
+sure, 8585, 0.0482786582688
+read, 7135, 0.0456355576092
+right, 7399, 0.0456032828501
+mani, 5479, 0.0425247266744
+thing, 8869, 0.0409557075702
+time, 8936, 0.0356204001202
+think, 8871, 0.0343352973176
+like, 5272, 0.0315665666389

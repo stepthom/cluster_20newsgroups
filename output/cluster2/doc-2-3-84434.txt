@@ -1,0 +1,132 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84434
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: phaedrus@IASTATE.EDU (James R. Goodfriend)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Reply-To: phaedrus@IASTATE.EDU (James R. Goodfriend)
+Organization: Iowa State University
+Lines: 32
+
+In article <visser.735260518@convex.convex.com>, visser@convex.com (Lance
+Visser) writes:
+> In <bskendigC5qyJ2.GEw@netcom.com> bskendig@netcom.com (Brian Kendig) writes:
+> 
+> +>b645zaw@utarlg.uta.edu (Stephen Tice) writes:
+> +>>
+> +>>One way or another -- so much for patience. Too bad you couldn't just 
+> +>>wait. Was the prospect of God's Message just too much to take?
+> 
+> +>So you believe that David Koresh really is Jesus Christ?
+> 
+> 	They cut off the water, there were no fire trucks present and
+> the FBI/ATF go blasting holes into the builing and firing gas munitions.
+> The building burns, almost everyone dies.  It probably doesn't bother
+> you much, but it bothers many other people.....most of whom dont believe
+> particularly in Koresh or his message.
+> 
+> 	Four ATF agents and 90 branch Davidians are now dead because of
+> crazy tactics on the part of the ATF and FBI.
+> 
+> 	Attorney General Vampira tells us that todays events were suppose
+> to "save" those in the compound.  Blowing holes in a building and
+> gassing those inside was supposed to "save" them?
+> 
+> 
+> 
+	Personally, I think it was Mrs. O'Leary's cow that knocked over that
+lantern...
+
+:*)
+
+phaedrus - The CyberPyrate
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen     convex com lanc
+one way anoth much patienc bad couldn't wait
+prospect god messag much take  believ david koresh
+realli jesus christ  cut water fire truck present
+fbi atf blast hole buil fire gas munit build burn
+almost everyon die probabl doesn't bother much
+bother mani peopl dont believ particular koresh
+messag  four atf agent branch davidian dead crazi
+tactic part atf fbi  attorney general vampira tell
+today event suppos save compound blow hole build
+gass insid suppos save    person think mrs o'leari
+cow knock lantern    phaedrus cyberpyr
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+atf, 738, 0.383387775677
+messag, 5650, 0.242167746293
+fbi, 3414, 0.207474085305
+bother, 1245, 0.204348251632
+hole, 4343, 0.188016513213
+koresh, 5065, 0.18752528569
+suppos, 8577, 0.158784241645
+build, 1378, 0.157632179542
+save, 7646, 0.15718070546
+buil, 1377, 0.152257420754
+mrs, 5901, 0.147900311612
+leari, 5181, 0.144340294228
+gass, 3786, 0.144340294228
+cow, 2196, 0.144340294228
+attorney, 771, 0.141330342417
+lantern, 5119, 0.138723003563
+lanc, 5103, 0.130805877036
+blast, 1143, 0.1292429602
+tactic, 8670, 0.127795925226
+patienc, 6464, 0.127795925226
+truck, 9120, 0.124004827789
+dont, 2815, 0.120831477229
+believ, 1009, 0.120597923689
+convex, 2116, 0.115708543008
+crazi, 2216, 0.111053320647
+compound, 1983, 0.111053320647
+blow, 1172, 0.111053320647
+prospect, 6937, 0.109904398892
+agent, 331, 0.104997224176
+knock, 5050, 0.103334429697
+branch, 1269, 0.103334429697
+gas, 3780, 0.102939950895
+davidian, 2398, 0.102939950895
+water, 9657, 0.102174125816
+wait, 9611, 0.0940082566064
+presid, 6839, 0.0935200802654
+insid, 4671, 0.0914628069843
+burn, 1413, 0.0914628069843
+christ, 1729, 0.0902026254608
+couldn, 2176, 0.0888283674498
+event, 3232, 0.0886397086241
+dead, 2415, 0.0870191077378
+cut, 2313, 0.0858455163188
+com, 1917, 0.0853633674625
+particular, 6442, 0.0817505055626
+die, 2628, 0.0798655024694
+jesus, 4859, 0.0793921208226
+david, 2397, 0.078816089771
+present, 6837, 0.0781465600685
+everyon, 3241, 0.0778202120279
+general, 3818, 0.075388967655
+today, 8964, 0.0746414682803
+bad, 861, 0.0719084861711
+happen, 4159, 0.06881899846
+god, 3926, 0.06881899846
+person, 6562, 0.0650559355382
+probabl, 6885, 0.0638589792288
+tell, 8767, 0.0638062773437
+doesn, 2793, 0.0633382540612
+anoth, 533, 0.0629314469185
+realli, 7150, 0.0579405771045
+mani, 5479, 0.0553869013445
+peopl, 6530, 0.0529771874291
+way, 9666, 0.0510777256848
+think, 8871, 0.0447204690986
+know, 5052, 0.0420587470203

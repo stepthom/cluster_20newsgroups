@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104856
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Jack Morris
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 19
+
+In article <1993Apr20.004746.13007@ramsey.cs.laurentian.ca> maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+>
+>To say that one player is better than another is to be able to say ab-
+>solutely  that  player A's team would have played better with player B
+>in their lineup.  Sheer speculation.  Impossible to ascertain.
+
+There are very few disciplines where 100% certainty is necessary to
+state something as fact.  Baseball is not one of them.
+
+Therefore I can say that I know Clemens was better than Morris last
+year, and Larkin was better than Griffin.  No, I can't ascertain this.
+I can't prove it.  But I'm not required to do so.
+
+And since you obviously feel that such threads are meaningless,
+why don't you simply stay out of them?
+
+-Valentine
+(No, I'm not going to be cordial.  Roger Maynard is a complete and
+total dickhead.  Send me e-mail if you insist on details.)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri      say one player better anoth abl
+say solut player a team play better player lineup
+sheer specul imposs ascertain  disciplin certainti
+necessari state someth fact basebal one  therefor
+say know clemen better morri last year larkin
+better griffin can't ascertain can't prove i'm
+requir  sinc obvious feel thread meaningless don't
+simpli stay  valentin i'm go cordial roger maynard
+complet total dickhead send mail insist detail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ascertain, 675, 0.359600594993
+better, 1060, 0.297256681949
+player, 6683, 0.25715015072
+morri, 5868, 0.243118692181
+dickhead, 2622, 0.193701713867
+say, 7653, 0.18920382553
+cordial, 2139, 0.188158604677
+certainti, 1620, 0.179800297497
+maynard, 5565, 0.173557395522
+sheer, 7868, 0.170940134843
+disciplin, 2690, 0.164422743876
+griffin, 4048, 0.156338925688
+larkin, 5127, 0.151354064733
+meaningless, 5597, 0.146266766515
+lineup, 5287, 0.135291198656
+clemen, 1807, 0.135291198656
+valentin, 9409, 0.133577346664
+specul, 8214, 0.130468168899
+insist, 4673, 0.128144887995
+imposs, 4553, 0.127273184483
+solut, 8118, 0.122601778804
+necessari, 5990, 0.122249418272
+thread, 8890, 0.120234178528
+roger, 7458, 0.119284725341
+stay, 8355, 0.118671336126
+jack, 4808, 0.116084387837
+therefor, 8855, 0.110926418161
+prove, 6947, 0.110269789594
+obvious, 6185, 0.105030948438
+simpli, 7967, 0.101757667675
+total, 9013, 0.0991404069957
+feel, 3429, 0.0976669238408
+complet, 1975, 0.0960312292313
+send, 7785, 0.0954297228201
+requir, 7302, 0.092411601978
+abl, 180, 0.0908808713215
+state, 8342, 0.0880762793241
+mail, 5447, 0.0853972140965
+fact, 3350, 0.085238990625
+basebal, 924, 0.0837098309409
+team, 8732, 0.0824801853974
+play, 6681, 0.0819219371618
+anoth, 533, 0.0800613136875
+sinc, 7977, 0.075725079688
+someth, 8126, 0.0731239547684
+year, 9943, 0.062430140414
+don, 2811, 0.0563451601476
+know, 5052, 0.0535070891164

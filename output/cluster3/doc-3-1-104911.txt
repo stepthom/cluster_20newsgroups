@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104911
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: Eastgate@world.std.com (Mark Bernstein)
+Subject: Jewish Broadcasters (was Jewish Baseball Players?)
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 8
+
+For that matter, how many Gentleman of The Press Box have been Jewish? The
+only Jewish sportscaster that comes to mind is Steve Williams (?), who had
+a Phillies show on KYW in Philadelphia in the 80s.
+-- 
+Mark Bernstein
+Eastgate Systems, Inc.   134 Main Street   Watertown MA 02172 USA
+voice: (800) 562-1638 in USA   +1(617) 924-9044
+Eastgate@world.std.com    Compuserve: 76146,262    AppleLink:Eastgate 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish broadcast jewish basebal player    matter
+mani gentleman press box jewish jewish sportscast
+come mind steve william philli show kyw
+philadelphia 80s  mark bernstein eastgat system
+inc main street watertown usa voic usa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.613360738393
+usa, 9357, 0.300095878676
+bernstein, 1046, 0.243656871649
+sportscast, 8258, 0.236684209313
+gentleman, 3832, 0.230987129364
+80s, 144, 0.230987129364
+broadcast, 1324, 0.162913590912
+philadelphia, 6589, 0.161756146395
+street, 8440, 0.159562443788
+voic, 9567, 0.157512697344
+william, 9764, 0.157020601673
+press, 6841, 0.150047939338
+philli, 6593, 0.150047939338
+steve, 8390, 0.13925629017
+main, 5450, 0.1371188808
+box, 1254, 0.127617291179
+mark, 5512, 0.127238529823
+mind, 5733, 0.121730256668
+matter, 5553, 0.121260361658
+player, 6683, 0.107822830642
+basebal, 924, 0.105298374114
+come, 1923, 0.0906119689554
+mani, 5479, 0.0886354112991

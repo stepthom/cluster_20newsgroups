@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82792
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: rps@cbnewsh.cb.att.com (raj.sharma)
+Subject: Re: Bhagavad-Gita 2.32
+Organization: AT&T
+Distribution: usa
+Lines: 25
+
+A poster writes:
+
+> In the Kingdom of God (Vaikuntha) the tigers do not eat other living
+> beings. In the material world, everyone is trying to consume everyone
+> else. Therefore we all (even tigers, who are by no means invincible)
+> should try to get out of the miserable material situation and return to
+> the Kingdom of God.
+
+	Is the so-called material world "outside" the Kingdom of God?
+	
+> Right. But, unfortunately, acting like animals is the number one pastime
+> of modern human beings.
+
+	Aha, animals are inferior, and humans are superior.
+	Huh?
+
+	[Isn't the desire to be superior so "overwhelming?"]
+	[that humans constantly "put down" even innocent animals.]
+	
+
+---raj
+
+	[P.S. - Request: please e-mail a copy of any response to
+	        raj, as he does not read trm regularly.]
+	
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bhagavad gita       kingdom god vaikuntha tiger
+eat live be materi world everyon tri consum
+everyon els therefor even tiger mean invinc tri
+get miser materi situat return kingdom god  call
+materi world outsid kingdom god  right unfortun
+act like anim number one pastim modern human be
+aha anim inferior human superior huh  isn't desir
+superior overwhelm human constant put even innoc
+anim   raj  request pleas mail copi respons raj
+read trm regular
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kingdom, 5025, 0.357232905696
+raj, 7078, 0.328240902012
+materi, 5543, 0.278130718257
+anim, 515, 0.272548257492
+superior, 8562, 0.249447786119
+human, 4432, 0.243788538735
+tiger, 8928, 0.224525522083
+god, 3926, 0.222542947511
+everyon, 3241, 0.167767038639
+gita, 3886, 0.155586467114
+bhagavad, 1067, 0.155586467114
+miser, 5760, 0.142828888026
+world, 9841, 0.140981548065
+overwhelm, 6356, 0.139312834883
+inferior, 4625, 0.137753055193
+tri, 9087, 0.121910595979
+innoc, 4658, 0.11970596231
+consum, 2077, 0.11970596231
+huh, 4429, 0.117874599574
+eat, 2968, 0.110134951236
+constant, 2067, 0.107476797436
+modern, 5811, 0.103878581298
+desir, 2565, 0.10328565775
+unfortun, 9264, 0.100041187654
+outsid, 6332, 0.100041187654
+request, 7301, 0.0997921031604
+regular, 7234, 0.0976738192177
+therefor, 8855, 0.0939862297219
+act, 249, 0.0939862297219
+copi, 2130, 0.092534109571
+return, 7346, 0.0898997515844
+situat, 7995, 0.0888433882556
+respons, 7323, 0.0810585010086
+live, 5310, 0.0771703295494
+isn, 4783, 0.0770859711438
+els, 3053, 0.0727631136119
+mail, 5447, 0.0723557319776
+number, 6156, 0.0684400327642
+mean, 5595, 0.065044570709
+read, 7135, 0.0640697652395
+right, 7399, 0.0640244532865
+pleas, 6688, 0.0619158020185
+like, 5272, 0.0443176904134

@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61212
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: 30826
+Article-I.D.: aurora.1993Apr25.151108.1
+Organization: University of Alaska Fairbanks
+Lines: 14
+Nntp-Posting-Host: acad3.alaska.edu
+
+I like option C of the new space station design.. 
+It needs some work, but it is simple and elegant..
+
+Its about time someone got into simple construction versus overly complex...
+
+Basically just strap some rockets and a nose cone on the habitat and go for
+it..
+
+Might be an idea for a Moon/Mars base to.. 
+
+Where is Captain Eugenia(sp) when you need it (reference to russian heavy
+lifter, I think).
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  articl aurora 1993apr25     like option new
+space station design need work simpl eleg  time
+someon got simpl construct versus over complex
+basic strap rocket nose cone habitat   might idea
+moon mar base  captain eugenia need refer russian
+heavi lifter think
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+simpl, 7965, 0.281945091544
+eleg, 3036, 0.250423398394
+1993apr25, 46, 0.250423398394
+lifter, 5265, 0.244395610879
+habitat, 4110, 0.239299189153
+captain, 1507, 0.239299189153
+strap, 8428, 0.221479264649
+versus, 9480, 0.208074061451
+nose, 6115, 0.202977639725
+cone, 2023, 0.202977639725
+aurora, 787, 0.188034424377
+need, 5993, 0.177783179018
+heavi, 4230, 0.177053648329
+russian, 7551, 0.16882482167
+construct, 2074, 0.16772267631
+mar, 5500, 0.162703772319
+complex, 1976, 0.161785343843
+option, 6276, 0.160021656421
+rocket, 7447, 0.153779879168
+station, 8346, 0.139555416021
+basic, 937, 0.136048948794
+moon, 5851, 0.134228601034
+design, 2564, 0.128464251559
+refer, 7213, 0.12188998385
+idea, 4482, 0.113028799342
+got, 3960, 0.108484780652
+someon, 8124, 0.108036180837
+articl, 665, 0.106554926297
+base, 923, 0.103465876661
+new, 6023, 0.0963064825807
+space, 8164, 0.0937805736174
+work, 9833, 0.0936649745518
+time, 8936, 0.0785543333726
+think, 8871, 0.0757202721708
+like, 5272, 0.0696143387163

@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61171
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: DC-X/Y/1 question
+From: kkobayas@husc8.harvard.edu (Ken Kobayashi)
+Keywords: DC-X
+Nntp-Posting-Host: husc8.harvard.edu
+Lines: 17
+
+
+
+   I've been following discussions about the Delta Clipper program, and I
+have one small question.  As I understand it, the DC-X derived orbital
+vehicle (DC-Y & 1) is to reenter the atmosphere sort of sideways, not
+completely nose-first.  So why is the DC-Y look symmetric in every drawing
+I've seen?  I would think that an asymmetric design, sort of like 
+wingless Orbiter, may work better, since less shielding is required on the
+top side.  Can anybody explain?  
+
+- Ken Kobayashi
+kkobayas@husc.harvard.edu
+
+-- 
+---------------------------------------------------------------------------
+      Ken Kobayashi              |   
+kkobayas@husc.harvard.edu        |   "There is no final frontier." - IBM ad
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+question        i'v follow discuss delta clipper
+program one small question understand deriv orbit
+vehicl reenter atmospher sort sideway complet nose
+first look symmetr everi draw i'v seen think
+asymmetr design sort like wingless orbit work
+better sinc less shield requir top side anybodi
+explain  ken kobayashi     ken kobayashi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ken, 4980, 0.324076282289
+sideway, 7935, 0.257477885934
+sort, 8144, 0.254016540732
+wingless, 9781, 0.250109711397
+symmetr, 8645, 0.250109711397
+orbit, 6280, 0.239026679749
+reenter, 7210, 0.234590245327
+clipper, 1823, 0.209700786644
+nose, 6115, 0.202723384544
+question, 7032, 0.199900850794
+shield, 7882, 0.196966255647
+delta, 2509, 0.184925781751
+deriv, 2550, 0.173424734552
+atmospher, 755, 0.160690203556
+vehicl, 9449, 0.158148958782
+draw, 2861, 0.146576051085
+anybodi, 552, 0.134257596956
+explain, 3301, 0.133476024714
+small, 8054, 0.128635194768
+design, 2564, 0.128303333827
+complet, 1975, 0.127649453339
+discuss, 2708, 0.127008270366
+requir, 7302, 0.122838066004
+seen, 7767, 0.122559415526
+understand, 9246, 0.118393914516
+everi, 3235, 0.113094889388
+follow, 3578, 0.108529821068
+program, 6905, 0.102494468585
+sinc, 7977, 0.100657516348
+better, 1060, 0.0987820661466
+work, 9833, 0.0935476473181
+look, 5341, 0.0824044596357
+think, 8871, 0.0756254229476
+like, 5272, 0.0695271379475

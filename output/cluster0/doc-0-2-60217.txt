@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60217
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: adam@sw.stratus.com (Mark Adam)
+Subject: Re: space food sticks
+Organization: Stratus Computer, Inc.
+Lines: 22
+Distribution: world
+NNTP-Posting-Host: paix.sw.stratus.com
+Keywords: food
+
+In article <1pr5u2$t0b@agate.berkeley.edu>, ghelf@violet.berkeley.edu (;;;;RD48) writes:
+> The taste is hard to describe, although I remember it fondly.  It was
+> most certainly more "candy" than say a modern "Power Bar."  Sort of
+> a toffee injected with vitamins.  The chocolate Power Bar is a rough
+> approximation of the taste.  Strawberry sucked.
+> 
+
+Peanut butter was definitely my favorite. I don't think I ever took a second bite
+of the strawberry.
+
+I recently joined Nutri-System and their "Chewy Fudge Bar" is very reminicent of
+the chocolate Space Food. This is the only thing I can find that even comes close
+the taste. It takes you back... your taste-buds are happy and your
+intestines are in knots... joy!
+
+-- 
+
+mark ----------------------------
+(adam@paix.sw.stratus.com)	|	My opinions are not those of Stratus.
+				|	Hell! I don`t even agree with myself!
+
+	"Logic is a wreath of pretty flowers that smell bad."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space food stick        tast hard describ
+although rememb fond certain candi say modern
+power bar sort toffe inject vitamin chocol power
+bar rough approxim tast strawberri suck   peanut
+butter definit favorit don't think ever took
+second bite strawberri  recent join nutri system
+chewi fudg bar reminic chocol space food thing
+find even come close tast take back tast bud happi
+intestin knot joy    mark  hell even agre  logic
+wreath pretti flower smell bad
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tast, 8708, 0.473088487004
+bar, 904, 0.31314275376
+chocol, 1716, 0.286986108873
+strawberri, 8434, 0.228593541217
+food, 3584, 0.212375871154
+toffe, 8967, 0.1513637095
+peanut, 6497, 0.1513637095
+butter, 1431, 0.1513637095
+smell, 8060, 0.14703217545
+fudg, 3714, 0.14703217545
+power, 6783, 0.144098183042
+vitamin, 9550, 0.143493054436
+knot, 5051, 0.143493054436
+bite, 1124, 0.137908735799
+fond, 3580, 0.135622399373
+flower, 3556, 0.133577201748
+candi, 1488, 0.131727095452
+bud, 1362, 0.131727095452
+inject, 4648, 0.130038080735
+joy, 4903, 0.123276951869
+space, 8164, 0.110123589427
+join, 4881, 0.106187935577
+suck, 8515, 0.103954276046
+rough, 7493, 0.103954276046
+favorit, 3411, 0.102335720295
+approxim, 593, 0.100485613999
+logic, 5330, 0.0984757419964
+stick, 8393, 0.0958043151018
+modern, 5811, 0.0958043151018
+happi, 4161, 0.0913621743485
+hell, 4245, 0.0890758379229
+took, 8987, 0.085667875678
+definit, 2484, 0.0839377785671
+describ, 2556, 0.0836391353868
+mark, 5512, 0.0790426953078
+recent, 7168, 0.0771501132317
+agre, 337, 0.0751367637253
+sort, 8144, 0.0746644430066
+close, 1830, 0.0735756665968
+hard, 4167, 0.0734876327777
+rememb, 7269, 0.0714864021566
+bad, 861, 0.0714864021566
+pretti, 6851, 0.0711720402444
+certain, 1619, 0.0686874944393
+second, 7753, 0.0675551178293
+come, 1923, 0.0562896652714
+thing, 8869, 0.0530302000494
+say, 7653, 0.0492829796771
+think, 8871, 0.0444579716365
+don, 2811, 0.0440296179215

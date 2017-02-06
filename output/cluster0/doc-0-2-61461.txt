@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61461
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sdd@larc.nasa.gov (Steve Derry)
+Subject: HST Antenna OK?
+Keywords: HST HGA
+Reply-To: s.d.derry@larc.nasa.gov
+Organization: NASA Langley Research Center, Hampton, VA  USA
+Lines: 15
+NNTP-Posting-Host: jmsparc.larc.nasa.gov
+X-Newsreader: TIN [version 1.1 PL8]
+X-Newsreader: TIN [version 1.1 PL8]
+
+I haven't seen any mention of this in a while, so here goes...
+
+When the Hubble Telescope was first deployed, one of its high gain antennas
+was not able to be moved across its full range of motion.  It was suspected
+that it had been snagged on a cable or something.  Operational procedures
+were modified to work around the problem, and later problems have overshadowed
+the HGA problem.
+
+Is there any plan to look at the affected HGA during the HST repair mission,
+to determine the cause of its limited range of motion?  Is the affected HGA
+still limited, or is it now capable of full range of motion?
+
+--
+Steve Derry
+<s.d.derry@larc.nasa.gov>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst antenna         haven't seen mention goe
+hubbl telescop first deploy one high gain antenna
+abl move across full rang motion suspect snag cabl
+someth oper procedur modifi work around problem
+later problem overshadow hga problem  plan look
+affect hga hst repair mission determin caus limit
+rang motion affect hga still limit capabl full
+rang motion   steve derri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hga, 4284, 0.47625068197
+motion, 5880, 0.357551507359
+rang, 7094, 0.303032560909
+antenna, 538, 0.254171830842
+affect, 310, 0.237426795557
+hst, 4416, 0.229746814441
+problem, 6887, 0.210897605839
+limit, 5278, 0.19537428749
+derri, 2552, 0.174238587226
+cabl, 1442, 0.144703979387
+hubbl, 4420, 0.138275729225
+repair, 7285, 0.129215619484
+procedur, 6888, 0.127085915421
+deploy, 2540, 0.126418851556
+gain, 3746, 0.116499213539
+telescop, 8764, 0.113727259582
+suspect, 8603, 0.108153061657
+modifi, 5814, 0.107021428459
+capabl, 1498, 0.100183167161
+steve, 8390, 0.0995819206627
+determin, 2582, 0.097326733028
+haven, 4207, 0.0954421317512
+goe, 3931, 0.0954421317512
+later, 5140, 0.0937041905752
+oper, 6261, 0.093552698605
+plan, 6660, 0.0912588935833
+caus, 1569, 0.090455993555
+mention, 5632, 0.0894284571182
+mission, 5772, 0.0883262894913
+seen, 7767, 0.0829375281496
+abl, 180, 0.0817491714903
+high, 4292, 0.0755670878445
+someth, 8126, 0.0657764679353
+work, 9833, 0.0633048925653
+look, 5341, 0.055764154564

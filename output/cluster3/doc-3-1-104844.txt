@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104844
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: punjabi@leland.Stanford.EDU (sanjeev punjabi)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: DSG, Stanford University, CA 94305, USA
+Lines: 30
+
+In article <1993Apr21.060530.26367@leland.Stanford.EDU> bohnert@leland.Stanford.EDU (matthew bohnert) writes:
+>>>consistent hitter -- definitely the best in the National League.  IMHO, to 
+>>>have Williams, a streaky hitter (and not really a clutch hitter) batting
+>>>4th ahead of Bonds is simply an injustice to the Giants and fans of the
+>>>Giants.
+>>
+>>(2)   Having Bonds batting behind Williams means that Matt will get
+>>      more good pitches to hit.  This is important since he struggles
+>>      so much with breaking balls.  Opposing pitchers don't want to
+>>      walk Williams to get to Bonds.
+>>
+>
+>You're definitely correct in that Williams absolutely has to be sandwiched
+>in between Clark and Bonds.  He must, and I mean MUST, get fastballs to
+>hit...otherwise he becomes little more than Sixto Lezcano in disguise.
+>What I would suggest is perhaps batting Bonds, Williams, and Clark
+>3-4-5, the reason being that I feel Bonds' potential basestealing
+>abilities are wasted when he's stuck behind two slow runners.
+>I think the chance of getting 20-30 extra stolen bases with Bonds in the
+>3 spot would more than offset any drop in in run production by having 
+>Clark in the 5 spot.
+>
+>Matt
+>
+
+Williams does not like hitting cleanup!!
+Secondly, Bonds and Clark (in that order) are a lot more productive with
+runners in scoring position than Matt "I am streaky, free swinger" Williams.
+
+	Sanjeev
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th     consist hitter definit
+best nation leagu imho william streaki hitter
+realli clutch hitter bat 4th ahead bond simpli
+injustic giant fan giant  bond bat behind william
+mean matt get good pitch hit import sinc struggl
+much break ball oppos pitcher don't want walk
+william get bond   you'r definit correct william
+absolut sandwich clark bond must mean must get
+fastbal hit otherwis becom littl sixto lezcano
+disguis suggest perhap bat bond william clark
+reason feel bond potenti basest abil wast he stuck
+behind two slow runner think chanc get extra
+stolen base bond spot offset drop run product
+clark spot  matt   william like hit cleanup second
+bond clark order lot product runner score posit
+matt streaki free swinger william  sanjeev
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bond, 1211, 0.551596079763
+william, 9764, 0.435539026299
+clark, 1787, 0.268575699342
+matt, 5552, 0.206023495088
+bat, 942, 0.203497825435
+streaki, 8437, 0.179241265251
+hitter, 4322, 0.158117958262
+4th, 112, 0.136705745864
+hit, 4316, 0.129897603962
+runner, 7545, 0.126454146164
+spot, 8261, 0.120844468511
+giant, 3865, 0.112655985258
+definit, 2484, 0.107082072257
+product, 6896, 0.103679534071
+sandwich, 7609, 0.0915293082916
+basest, 934, 0.0915293082916
+injustic, 4651, 0.0879672625591
+cleanup, 1802, 0.0879672625591
+disguis, 2711, 0.0840242057524
+offset, 6209, 0.0779264195847
+fastbal, 3398, 0.0779264195847
+mean, 5595, 0.0765295938079
+stuck, 8466, 0.0738589206964
+stolen, 8407, 0.0724556981861
+clutch, 1849, 0.0711954367843
+struggl, 8461, 0.0704213170455
+imho, 4524, 0.0657819066324
+barri, 918, 0.0645549746798
+slow, 8044, 0.0612884533071
+oppos, 6269, 0.0604222342553
+ahead, 342, 0.0600920311429
+drop, 2878, 0.0599301741597
+potenti, 6774, 0.0593031093905
+wast, 9654, 0.0581368943233
+abil, 177, 0.0579985478237
+extra, 3325, 0.0577264075745
+absolut, 193, 0.0577264075745
+break, 1284, 0.0566939862569
+consist, 2061, 0.0564487924447
+otherwis, 6313, 0.0555138667717
+chanc, 1649, 0.053832387992
+score, 7705, 0.0535410361285
+walk, 9617, 0.0526165858224
+simpli, 7967, 0.0507206421708
+free, 3668, 0.0504186300545
+leagu, 5176, 0.0496943368735
+becom, 983, 0.0496241843748
+fan, 3381, 0.0492792628263
+pitcher, 6644, 0.0492114167229
+nation, 5962, 0.0487466266017
+feel, 3429, 0.0486816296918
+posit, 6761, 0.048616972193
+ball, 877, 0.0484250011709
+perhap, 6540, 0.0479271699808
+correct, 2156, 0.0476855646001
+suggest, 8525, 0.0472160530745
+import, 4551, 0.046931399552
+pitch, 6643, 0.0452008835481
+order, 6281, 0.043769726716
+second, 7753, 0.04309109755
+littl, 5308, 0.0416143918395
+best, 1052, 0.0413965231763
+reason, 7156, 0.0399381474216
+base, 923, 0.0387493052288
+lot, 5356, 0.0386335858548
+sinc, 7977, 0.037744818233
+run, 7543, 0.0372973901489
+realli, 7150, 0.036741375461
+want, 9634, 0.0337288837416
+good, 3948, 0.0318285152768
+think, 8871, 0.0283582185069
+don, 2811, 0.0280849863328
+like, 5272, 0.0260714676788

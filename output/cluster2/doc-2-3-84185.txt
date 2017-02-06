@@ -1,0 +1,257 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84185
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: halat@pooh.bears (Jim Halat)
+Subject: The fact of the theory
+Reply-To: halat@pooh.bears (Jim Halat)
+Lines: 74
+
+In article <C5u6p5.5nx@usenet.ucs.indiana.edu>, adpeters@sunflower.bio.indiana.edu (Andy Peters) writes:
+
+[...stuff deleted...]
+
+Andy-- I think we do agree, given your clarification of how we were 
+each using the terms fact and theory.  I'll only add that I
+think perhaps I feel more strongly about separating them,
+though your usage is quite valid.
+
+>Note that the fact of evolution is still a theory.  In other words, it
+>could, theoretically, still be falsified and rejected.  But since it's
+>so predictive, and so consistently supported by evidence, it seems
+>pointless to explicitly try to falsify it anymore.
+
+I'll add here that any falsification or rejection does not in any way
+reduce its current usefulness.  So long as it accurately predicts or 
+describes things we can observe.
+
+Not to be a pain in the ass, but is there any reason you don't
+just say _the theory of evolution_ rather than the _fact of evolution
+is still a theory_.  I'm asking because this whole thread got started
+because I was bothered by a post that referred to _the fact of evolution_,
+basically leaving off the phrase _is still a theory_.  Without a 
+clarification, like the one you just gave, just saying _the fact of
+evolution_ has a very different meaning to me.
+>
+>[description of atomic theory, and alternative theories of gravity, deleted]
+>>Both are very useful models that 
+>>have no religious overtones or requirements of faith, unless of course you 
+>>want to demand that it is a factual physical entity described exactly 
+>>the way the theory now formulated talks about it.
+>
+>Here is where you fail to make an important distinction.  You have
+>shoehorned the _facts_ of the _existence_ of gravity and atoms and
+>evolution into one category with the _theories_ which have been
+>proposed to explain the _mechanisms_.  The existence of these things
+>is so predictive as to be considered fact.  The mechanisms, on the
+>other hand, are still worth discussing.  
+
+I'm not sure I agree here.  Again, it may be because I feel stronger
+about separating terms.  I was trying to say that the _theories_
+proposed to explain the _mechanisms_ and the _mechanisms_ themselves
+are the only realities here.  It is the existence of mechanisms, not 
+the things themselves, that are so predictive as to be considered 
+fact (as you would say).  There aren't really little planetary particle 
+systems called atoms out there.  Or I should say, and more to my original 
+point, it would be a leap of faith to say there are, because we observe only 
+the mechanisms.  There is no need to _believe_ there are _actually_
+atoms out there as we have decided to think about them.  It's enough
+to discuss the mechanisms.  At any rate, I'm not sure I am being 
+any clearer than before, but I thought it was worth a shot.
+
+The bottom line, though, is I think we agree on two fundamental ideas:
+
+   1. --evolution is a theory supported by observational evidence (my way)
+      --the fact of evolution is a theory supported by observational
+        evidence (your way)
+
+   2. --creation is just an opinion.  If a theist wants to call it
+        a theory then he can.  I won't:  it has no supporting evidence 
+	and it neither predicts nor supports any observations that can
+        be made.  With no mechanisms to talk about, there really isn't
+	much to say.
+
+Do you agree?
+
+-- 
+ jim halat         halat@bear.com     
+bear-stearns       --whatever doesn't kill you will only serve to annoy you--
+   nyc             i speak only for myself
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fact theori      stuff delet  andi think agre
+given clarif use term fact theori i'll add think
+perhap feel strong separ though usag quit valid
+note fact evolut still theori word could theoret
+still falsifi reject sinc it predict consist
+support evid seem pointless explicit tri falsifi
+anymor  i'll add falsif reject way reduc current
+use long accur predict describ thing observ  pain
+ass reason don't say theori evolut rather fact
+evolut still theori i'm ask whole thread got start
+bother post refer fact evolut basic leav phrase
+still theori without clarif like one gave say fact
+evolut differ mean  descript atom theori altern
+theori graviti delet use model religi overton
+requir faith unless cours want demand factual
+physic entiti describ exact way theori formul talk
+fail make import distinct shoehorn fact exist
+graviti atom evolut one categori theori propos
+explain mechan exist thing predict consid fact
+mechan hand still worth discuss  i'm sure agre
+feel stronger separ term tri say theori propos
+explain mechan mechan realiti exist mechan thing
+predict consid fact say aren't realli littl
+planetari particl system call atom say origin
+point leap faith say observ mechan need believ
+actual atom decid think it enough discuss mechan
+rate i'm sure clearer thought worth shot  bottom
+line though think agre two fundament idea  evolut
+theori support observ evid way fact evolut theori
+support observ evid way  creation opinion theist
+want call theori won't support evid neither
+predict support observ made mechan talk realli
+isn't much say  agre    bear stearn whatev doesn't
+kill serv annoy nyc speak
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+theori, 8848, 0.513391473748
+evolut, 3248, 0.384105427229
+mechan, 5603, 0.316206357447
+fact, 3350, 0.272385974319
+predict, 6816, 0.179797354816
+atom, 756, 0.170043679262
+observ, 6179, 0.165115073093
+say, 7653, 0.141076001287
+support, 8576, 0.136700219697
+evid, 3245, 0.133808818441
+agre, 337, 0.122905302578
+falsifi, 3374, 0.117359707811
+clarif, 1785, 0.0929033522384
+reject, 7244, 0.0857275630308
+exist, 3283, 0.0853867741262
+way, 9666, 0.083060201506
+graviti, 4010, 0.0808034930332
+separ, 7797, 0.0754616051759
+think, 8871, 0.0727223290578
+faith, 3367, 0.072379152768
+worth, 9850, 0.0719189419263
+describ, 2556, 0.0684065478228
+add, 260, 0.0681659953063
+delet, 2502, 0.0680470721858
+propos, 6933, 0.0666854241987
+term, 8795, 0.0652316885677
+thing, 8869, 0.0650582929681
+explain, 3301, 0.0641760866402
+feel, 3429, 0.0624200263613
+discuss, 2708, 0.0610663509083
+nyc, 6161, 0.0601271372239
+pointless, 6712, 0.0574561932952
+clearer, 1805, 0.0563962102607
+consid, 2059, 0.0556809070227
+theist, 8838, 0.0554612389622
+factual, 3354, 0.0554612389622
+formul, 3613, 0.0538682986914
+talk, 8684, 0.0536905987061
+use, 9363, 0.0525947520425
+entiti, 3131, 0.0514062636926
+ass, 696, 0.0514062636926
+sure, 8585, 0.05112721816
+leap, 5180, 0.0504127085033
+ll, 5314, 0.0502924842155
+stronger, 8457, 0.0499589803742
+andi, 502, 0.0491226200479
+usag, 9360, 0.0476753367294
+distinct, 2746, 0.0473512884231
+realli, 7150, 0.0471101242777
+phrase, 6612, 0.0470399512182
+explicit, 3304, 0.0470399512182
+annoy, 525, 0.0467403654309
+particl, 6441, 0.0464516761192
+tri, 9087, 0.0459789086691
+theoret, 8847, 0.0456437168292
+fundament, 3724, 0.0442392265049
+pain, 6389, 0.0438213362749
+anymor, 553, 0.0438213362749
+want, 9634, 0.0432474801196
+categori, 1560, 0.0423402018127
+demand, 2514, 0.041849029835
+bother, 1245, 0.0415376926301
+reduc, 7204, 0.0412381068429
+valid, 9411, 0.0406708597859
+accur, 225, 0.0406708597859
+planetari, 6665, 0.0405351627862
+creation, 2218, 0.0401414582412
+bear, 971, 0.0400144462327
+altern, 450, 0.0395257946809
+shot, 7910, 0.0389544631982
+religi, 7260, 0.0389544631982
+serv, 7810, 0.0387369679168
+thread, 8890, 0.038421505962
+fail, 3360, 0.037730802588
+gave, 3798, 0.0373615229274
+descript, 2557, 0.0373615229274
+realiti, 7148, 0.0371831315733
+consist, 2061, 0.036189576384
+leav, 5184, 0.035376597757
+strong, 8456, 0.0351686011979
+speak, 8192, 0.0349659157738
+whatev, 9718, 0.0346391996532
+aren, 623, 0.0346391996532
+physic, 6613, 0.0345121876447
+rate, 7108, 0.034449435688
+decid, 2442, 0.0343871759087
+kill, 5012, 0.0339645166301
+won, 9820, 0.0338477780383
+model, 5807, 0.0332885270345
+basic, 937, 0.0326656129809
+unless, 9289, 0.0323236119767
+exact, 3253, 0.0315064026396
+perhap, 6540, 0.0307263256444
+stuff, 8472, 0.0304195017048
+import, 4551, 0.0300879327146
+opinion, 6266, 0.0297350710148
+requir, 7302, 0.0295306456102
+refer, 7213, 0.0292660183999
+quit, 7043, 0.0290731810342
+isn, 4783, 0.0290731810342
+hand, 4145, 0.0287924337754
+current, 2299, 0.0287618438293
+note, 6118, 0.0286406493961
+given, 3887, 0.0284917129225
+word, 9829, 0.0284329120524
+origin, 6293, 0.0282304727818
+thought, 8887, 0.0277056780976
+ask, 689, 0.0274946867751
+cours, 2190, 0.0271633543929
+idea, 4482, 0.0271384310406
+littl, 5308, 0.0266791749996
+line, 5285, 0.0263120306669
+got, 3960, 0.0260474034566
+doesn, 2793, 0.0257494244058
+reason, 7156, 0.0256045271148
+actual, 254, 0.0255229008822
+start, 8334, 0.025126904507
+long, 5336, 0.0250118578385
+mean, 5595, 0.0245317345226
+believ, 1009, 0.0245138357976
+differ, 2633, 0.0244426417672
+sinc, 7977, 0.0241983738427
+post, 6766, 0.0231836221623
+point, 6710, 0.0224064505561
+need, 5993, 0.0213430407651
+make, 5459, 0.0199097593573
+don, 2811, 0.0180054118807
+like, 5272, 0.0167145359563

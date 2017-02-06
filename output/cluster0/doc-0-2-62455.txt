@@ -1,0 +1,211 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62455
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gfk39017@uxa.cso.uiuc.edu (George F. Krumins)
+Subject: Re: Space Marketing would be wonderfull.
+Organization: University of Illinois at Urbana
+Lines: 44
+
+tfv0@ns1.cc.lehigh.edu (Theodore F. Vaida ][) writes:
+
+>In article <C74tLs.2sG@news.cso.uiuc.edu>, gfk39017@uxa.cso.uiuc.edu (George F. Krumins) writes:
+>[deleted]
+>>To say that "visible light astronomy is already a dying field" is 
+>>pure hokum.  To use the "logic" that things are already bad, so it doesn't
+>>matter if it gets worse is absurd.  Maybe common sense and logic
+>>are the dying fields.
+>>-- 
+>[deleted]
+>Ok, so those scientists can get around the atmosphere with fancy
+>computer algorythims, but have you looked ad the Hubble results, the
+>defects of the mirror are partially correctable with software (see
+>those jupiter pictures for results), but is the effects are completely
+>reversable, why is there going to be a shuttle mission to fix it?
+>[deleted]
+
+The main effect of the spherical aberration problems with the
+primary mirror was to drive the computer engineers to develop the image
+processing software that much faster. When they use the _same_ deconvolution 
+software on the images from the fixed Hubble, be ready for some 
+incredible results!  There is every reason to believe that the results will 
+_exceed_ the original specs by a fair margin.  
+
+Adaptive optics is a combination of hardware and software.  It works 
+realtime, not after the fact, as is the case with Hubble.  You might be
+interested to know this technology has made it to the amateur market, in
+the form of the AO-2 Adaptive Optics System.  Starting on page 52 of the 
+April, 1993 Sky & Telescope is a three page review of this new product.
+It lists for $1,290.  The article states: "The AO-2 Adaptive Optics System 
+comes in a handy soft-plastic case that a three-year-old could carry 
+around."  Even though this device is really only good for the brightest
+objects, "it could cope with image movements of up to 0.8 millimeter
+in the telescope's focal plane."  Now just imagine how well this infant 
+technology will do in a few years, especially in a dedicated system that 
+has hundreds of thousands of dollars, and many man-hours invested in its
+development.
+
+George Krumins
+-- 
+Pufferfish Observatory         |^^^^^\^^^^|     The Universe had its origin
+gfk39017@uxa.cso.uiuc.edu       ^^^/\ \^^^      in two hockeysticks colliding 
+                                  / /\ \ 
+       "Home of the Hockeystick  /_/  \_\  Memorial Telescope"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful       delet say visibl
+light astronomi alreadi die field pure hokum use
+logic thing alreadi bad doesn't matter get wors
+absurd mayb common sens logic die field  delet
+scientist get around atmospher fanci comput
+algorythim look hubbl result defect mirror partial
+correct softwar see jupit pictur result effect
+complet revers go shuttl mission fix delet  main
+effect spheric aberr problem primari mirror drive
+comput engin develop imag process softwar much
+faster use deconvolut softwar imag fix hubbl readi
+incred result everi reason believ result exceed
+origin spec fair margin  adapt optic combin
+hardwar softwar work realtim fact case hubbl might
+interest know technolog made amateur market form
+adapt optic system start page april sky telescop
+three page review new product list articl state
+adapt optic system come handi soft plastic case
+three year old could carri around even though
+devic realli good brightest object could cope imag
+movement millimet telescop focal plane imagin well
+infant technolog year especi dedic system hundr
+thousand dollar mani man hour invest develop
+georg krumin  pufferfish observatori univers
+origin   home hockeystick memori telescop
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hubbl, 4420, 0.258793448352
+adapt, 259, 0.244722073719
+optic, 6273, 0.236602408204
+result, 7332, 0.216386714519
+telescop, 8764, 0.212849137328
+softwar, 8103, 0.186101342605
+delet, 2502, 0.179246714081
+mirror, 5755, 0.147545843782
+logic, 5330, 0.141438584485
+imag, 4512, 0.140184755899
+fix, 3511, 0.137206201055
+page, 6382, 0.132852407178
+market, 5514, 0.12710539812
+die, 2628, 0.114035786383
+effect, 3005, 0.111738470181
+alreadi, 443, 0.111738470181
+technolog, 8743, 0.110809043803
+deconvolut, 2454, 0.10870021581
+aberr, 174, 0.105589571339
+field, 3466, 0.104924957766
+develop, 2588, 0.103836221233
+pufferfish, 6978, 0.103047989746
+brightest, 1314, 0.103047989746
+cope, 2128, 0.100899113128
+origin, 6293, 0.099151353527
+realtim, 7152, 0.0973957636822
+krumin, 5075, 0.0973957636822
+case, 1540, 0.0969351793486
+comput, 1993, 0.0966586791377
+infant, 4622, 0.0959270270615
+plastic, 6673, 0.094598393175
+spheric, 8227, 0.0877332194047
+fanci, 3383, 0.0869795166788
+handi, 4148, 0.086264482784
+exceed, 3260, 0.0849358488975
+defect, 2473, 0.0843161866726
+wonderful, 9822, 0.0837229011911
+dedic, 2462, 0.083153838313
+absurd, 200, 0.0820809933409
+movement, 5891, 0.081574024573
+revers, 7356, 0.0810848479004
+soft, 8097, 0.0801551631565
+partial, 6439, 0.0788674694013
+incred, 4591, 0.0788674694013
+spec, 8196, 0.078463380102
+amateur, 458, 0.0766019385065
+primari, 6863, 0.0743538436424
+devic, 2591, 0.0743538436424
+observatori, 6180, 0.0734912940355
+margin, 5507, 0.0732152433374
+review, 7358, 0.0729445531873
+jupit, 4932, 0.0729445531873
+invest, 4744, 0.0726790193548
+pure, 6990, 0.072162660149
+dollar, 2802, 0.0719114802955
+visibl, 9541, 0.0714223036229
+scientist, 7694, 0.070492618879
+georg, 3847, 0.0702695724452
+year, 9943, 0.0700682466929
+wors, 9846, 0.0696210785561
+thousand, 8888, 0.0686031005274
+readi, 7139, 0.0686031005274
+faster, 3399, 0.0684081308498
+hundr, 4440, 0.0678390679716
+atmospher, 755, 0.0678390679716
+plane, 6663, 0.0676544281238
+combin, 1921, 0.0676544281238
+astronomi, 729, 0.0671147437702
+imagin, 4518, 0.0632820089098
+memori, 5628, 0.0631486097606
+hour, 4395, 0.0627559047859
+hardwar, 4173, 0.062248936018
+use, 9363, 0.0615746076204
+main, 5450, 0.0611714819849
+common, 1948, 0.0608300746015
+drive, 2873, 0.0604968291377
+sky, 8011, 0.0602790105699
+fair, 3363, 0.059039073301
+carri, 1530, 0.0589405562499
+pictur, 6622, 0.0588427305523
+product, 6896, 0.0583636420031
+sens, 7788, 0.0580838980729
+april, 595, 0.0579004729961
+especi, 3190, 0.0577194301305
+process, 6890, 0.056349975996
+shuttl, 7929, 0.0561075332815
+form, 3610, 0.0558692350905
+light, 5267, 0.0554809062278
+mission, 5772, 0.0551031024888
+engin, 3109, 0.0543768911742
+matter, 5553, 0.0540966786296
+complet, 1975, 0.0538901547825
+home, 4354, 0.0537541526822
+correct, 2156, 0.0536866459899
+old, 6216, 0.0527114159392
+object, 6173, 0.051337188865
+bad, 861, 0.051337188865
+list, 5298, 0.0510555610095
+state, 8342, 0.0494260498739
+mayb, 5564, 0.0487956072721
+man, 5471, 0.048147113383
+fact, 3350, 0.0478338394193
+everi, 3235, 0.0477456106139
+univers, 9282, 0.0463253307182
+doesn, 2793, 0.0452186950978
+reason, 7156, 0.0449642402286
+articl, 665, 0.0449282657448
+start, 8334, 0.044125484739
+problem, 6887, 0.0438567515068
+believ, 1009, 0.0430488716618
+realli, 7150, 0.0413651643657
+new, 6023, 0.0406070689803
+come, 1923, 0.0404238161386
+space, 8164, 0.0395420341377
+mani, 5479, 0.0395420341377
+work, 9833, 0.0394932924632
+thing, 8869, 0.0380830663364
+good, 3948, 0.0358340358634
+say, 7653, 0.0353920404326
+look, 5341, 0.0347889393049
+know, 5052, 0.0300267458568

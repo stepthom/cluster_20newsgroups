@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61041
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Commercial mining activities on the moon
+Organization: Express Access Online Communications USA
+Lines: 10
+NNTP-Posting-Host: access.digex.net
+
+In article <1r46j3INN14j@mojo.eng.umd.edu> sysmgr@king.eng.umd.edu writes:
+>In article <STEINLY.93Apr20160116@topaz.ucsc.edu>, steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+|
+|>Very cost effective if you use the right accounting method :-)
+|
+>Sherzer Methodology!!!!!!
+
+Let it never be said that an opportunity was missed to put someone down.
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon        cost effect use
+right account method  sherzer methodolog  let
+never said opportun miss put someon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+methodolog, 5668, 0.391648177584
+sherzer, 7880, 0.376715907307
+opportun, 6268, 0.29781597737
+account, 221, 0.273298282679
+method, 5666, 0.256218049229
+activ, 252, 0.243097963753
+miss, 5770, 0.240640851158
+commerci, 1940, 0.240640851158
+moon, 5851, 0.231071461191
+effect, 3005, 0.228101347206
+cost, 2169, 0.216243525074
+said, 7583, 0.189460987196
+someon, 8124, 0.185981809952
+let, 5225, 0.179740368628
+right, 7399, 0.173128556531
+use, 9363, 0.125697541135

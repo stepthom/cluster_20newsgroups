@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60928
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser)
+Subject: Double sonic booms.
+Originator: news@nimaster
+Nntp-Posting-Host: luma.princeton.edu
+Organization: Princeton University
+Lines: 16
+
+Every time you read about a shuttle landing they mention the double sonic  
+booms.  Having taken various relevant classes, I have several ideas of where  
+they come from, but none of them are very convincing.  Exactly what causes  
+them?  Are they a one time pheneomenon, or a constant one like the supersonic  
+shockwave that is constantly produced by a plane, but you hear only when it  
+goes over you?
+
+---
+---------------------------------------------------------------------
+| Carlos G. Niederstrasser        |  Only two things are infinite,  |
+| Princeton Planetary Society     |      the universe and human     |
+|                                 |   stupidity, and I'm not sure   |
+|                                 |   about the former. - Einstein  |
+| carlosn@phoenix.princeton.edu   |---------------------------------|
+| space@phoenix.princeton.edu     |    Ad Astra per Ardua Nostra    |
+---------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+phoenix princeton edu carlosn carlo niederstrass
+doubl sonic boom origin news nimast     everi time
+read shuttl land mention doubl sonic boom taken
+various relev class sever idea come none convinc
+exact caus one time pheneomenon constant one like
+superson shockwav constant produc plane hear goe
+carlo niederstrass two thing infinit princeton
+planetari societi univers human stupid i'm sure
+former einstein
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+niederstrass, 6057, 0.366781868767
+sonic, 8135, 0.34360887945
+carlo, 1523, 0.296901434394
+boom, 1222, 0.283048163584
+princeton, 6868, 0.280721305048
+constant, 2067, 0.231646516138
+doubl, 2828, 0.211493598423
+shockwav, 7896, 0.183390934384
+phoenix, 6600, 0.164172610797
+superson, 8567, 0.153920730354
+einstein, 3018, 0.140360652524
+nimast, 6072, 0.133553710789
+infinit, 4631, 0.128324996694
+relev, 7254, 0.121967216131
+planetari, 6665, 0.115823258069
+stupid, 8476, 0.11099378306
+plane, 6663, 0.110080294591
+convinc, 2120, 0.108635098992
+class, 1789, 0.108635098992
+time, 8936, 0.107785321337
+societi, 8093, 0.107541783839
+taken, 8678, 0.102748892545
+produc, 6895, 0.100489098661
+various, 9432, 0.100101364469
+hear, 4223, 0.0979046266009
+goe, 3931, 0.0968812094933
+land, 5104, 0.0965500810149
+caus, 1569, 0.0918198902385
+shuttl, 7929, 0.0912923804647
+mention, 5632, 0.0907768605936
+exact, 3253, 0.090024905611
+human, 4432, 0.0875735771494
+sever, 7823, 0.0837164871954
+origin, 6293, 0.0806644184869
+edu, 3001, 0.0804209610733
+news, 6031, 0.0783400077701
+everi, 3235, 0.0776867239522
+idea, 4482, 0.0775440700359
+univers, 9282, 0.0753757912659
+sure, 8585, 0.0730442482066
+read, 7135, 0.0690453114603
+come, 1923, 0.065773456556
+thing, 8869, 0.0619648303518
+like, 5272, 0.047759324954

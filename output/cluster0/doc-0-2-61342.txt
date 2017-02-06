@@ -1,0 +1,251 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61342
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Gamma Ray Bursters. positional stuff.
+From: belgarath@vax1.mankato.msus.edu
+ <1993Apr26.141114.19777@midway.uchicago.edu> <27APR199320210230@stdvax.gsfc.nasa.gov> <1rmh4eINN95h@gap.caltech.edu>
+Organization: Mankato State University
+Nntp-Posting-Host: vax1.mankato.msus.edu
+Lines: 52
+
+In article <1rmh4eINN95h@gap.caltech.edu>, kwp@wag.caltech.edu (Kevin W. Plaxco) writes:
+> In article <27APR199320210230@stdvax.gsfc.nasa.gov> abdkw@stdvax.gsfc.nasa.gov (David Ward) writes:
+> 
+>>Given that fact, and the spacecraft attitude knowledge
+>>of approx. 2 arcmin, we might be able to figure out how well BATSE can
+>>determine the location (rotational) of a Gamma Ray burster from knowledge
+>>of the all-sky map's accuracy.  PR material for the other three instruments
+>>give accuracies on the order of "fractions of a degree", if that's 
+>>any help.
+> 
+> But I believe that there is a fundamental difference here.  The other x
+> three instruments are focusing instruments, that, more or less, form
+> an image, so positional errors are limited by craft attitude and the 
+> resolving power of the optics.  BATSE is an altogether different
+> beast, effectively just 8 coincidence counters, one on each corner of 
+> the craft.  Positional information is triangulated from the 
+> differential signal arrival times at each of the detectors.
+> Positional error would be predominantly determined by timing errors
+> and errors in craft attitude. Since none of the 8 BASTE detectors have
+> any independant angular resolution whatsoever, they can not be used to
+> determine parallax.  Indeed, parallax would just add a very small 
+> component to the positional error.  
+> 
+> Demonstrating that these puppies are beyond the oort cloud would 
+> require resolution on the order of arcseconds, since the oort 
+> cloud is postulated to extend to about 0.5 parsec (all together 
+> now: "Parallax ARc SECond", a parsec is the distance of an object 
+> that demonstrates one arc second of parallax with a 2 AU base line).
+> If the 3 degree accuracy reported above is true, we're going to 
+> have to add a BASTE to the pluto fast flyby to get enough baseline.
+> 
+> The beauty of BASTE is that it both gives positional information and
+> watches the entire sky simultaneously, a realy handy combination
+> when you have no idea where the next burst is coming from.
+> 
+> -Kevin
+        Batse alone isn't always used to determine position.  WHen a
+particularly bright burst occurs, There are a couple of other detectors that
+catch it going off.  Pioneer 10 or 11 is the one I'm getting at here.  This
+puppy is far enough away, that if a bright burst happens nearby, the huge
+annulus created by it will hopefully intersect the line or general circle given
+by BATSE, and we can get a moderately accurate position. Say oh, 2 or 3
+degrees. That is the closest anyone has ever gotten with it.  
+        Actually, my advisor, another classmate of mine, and me were talking
+the other day about putting just one detector on one of the Pluto satellites. 
+THen we realized that the satellite alone is only carrying something like 200
+pounds of eq.  Well, a BATSE detector needs lead shielding to protect it, and 1
+alone weighs about 200 pounds itself.
+
+        We decided against it.
+                                                        -jeremy
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+gamma ray burster posit stuff          given fact
+spacecraft attitud knowledg approx arcmin might
+abl figur well bats determin locat rotat gamma ray
+burster knowledg sky map accuraci materi three
+instrument give accuraci order fraction degre that
+help  believ fundament differ three instrument
+focus instrument less form imag posit error limit
+craft attitud resolv power optic bats altogeth
+differ beast effect coincid counter one corner
+craft posit inform triangul differenti signal
+arriv time detector posit error predomin determin
+time error error craft attitud sinc none bast
+detector independ angular resolut whatsoev use
+determin parallax inde parallax add small compon
+posit error  demonstr puppi beyond oort cloud
+requir resolut order arcsecond sinc oort cloud
+postul extend parsec togeth parallax arc second
+parsec distanc object demonstr one arc second
+parallax base line degre accuraci report true we'r
+go add bast pluto fast flybi get enough baselin
+beauti bast give posit inform watch entir sky
+simultan reali handi combin idea next burst come
+kevin bats alon isn't alway use determin posit
+particular bright burst occur coupl detector catch
+go pioneer one i'm get puppi far enough away
+bright burst happen nearbi huge annulus creat hope
+intersect line general circl given bats get moder
+accur posit say degre closest anyon ever gotten
+actual advisor anoth classmat mine talk day put
+one detector one pluto satellit realiz satellit
+alon carri someth like pound well bats detector
+need lead shield protect alon weigh pound  decid
+jeremi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bats, 948, 0.297681464098
+posit, 6761, 0.291690546545
+detector, 2580, 0.278855611965
+parallax, 6419, 0.229856680027
+bast, 940, 0.225242779403
+error, 3180, 0.209452813456
+accuraci, 226, 0.163019013095
+determin, 2582, 0.161786886658
+craft, 2207, 0.160183534656
+burst, 1417, 0.154511642675
+instrument, 4686, 0.146314672776
+attitud, 769, 0.14577372066
+puppi, 6987, 0.140674745447
+parsec, 6433, 0.137288650219
+alon, 437, 0.13447820938
+degre, 2491, 0.129280268241
+oort, 6255, 0.113158229278
+arc, 608, 0.104535096438
+pluto, 6701, 0.103007761783
+cloud, 1835, 0.100285026562
+burster, 1418, 0.0982860984875
+bright, 1311, 0.0979108916714
+pound, 6776, 0.0975431151837
+gamma, 3762, 0.0908825301791
+resolut, 7316, 0.090380550818
+demonstr, 2520, 0.0896521395869
+knowledg, 5053, 0.0827678501591
+sky, 8011, 0.0803084467545
+add, 260, 0.0797413154907
+satellit, 7632, 0.0794641147369
+ray, 7118, 0.0776315766965
+arcmin, 619, 0.0724094955362
+arcsecond, 620, 0.0703373727234
+annulus, 528, 0.0703373727234
+reali, 7145, 0.0672128737483
+approx, 592, 0.0672128737483
+given, 3887, 0.0666598252932
+order, 6281, 0.0656520497474
+classmat, 1793, 0.0648791546828
+second, 7753, 0.0646341453849
+predomin, 6818, 0.0639007713651
+angular, 514, 0.0639007713651
+advisor, 294, 0.0630157159974
+postul, 6773, 0.0622077237512
+baselin, 927, 0.0622077237512
+line, 5285, 0.0615601937353
+jeremi, 4851, 0.0614644429367
+inform, 4637, 0.0610428314313
+altogeth, 454, 0.06077627239
+triangul, 9091, 0.0584425533245
+whatsoev, 9719, 0.0574641700068
+resolv, 7317, 0.0574641700068
+handi, 4148, 0.0574641700068
+differ, 2633, 0.0571865311971
+sinc, 7977, 0.0566150366992
+simultan, 7975, 0.0561663332221
+moder, 5810, 0.0561663332221
+differenti, 2634, 0.0561663332221
+nearbi, 5983, 0.0557711223929
+closest, 1832, 0.0557711223929
+weigh, 9694, 0.055392047194
+shield, 7882, 0.055392047194
+coincid, 1883, 0.055392047194
+pioneer, 6635, 0.0543396710317
+fraction, 3639, 0.054013811181
+corner, 2149, 0.054013811181
+counter, 2181, 0.0536989995801
+flybi, 3564, 0.0530996914613
+beast, 972, 0.0530996914613
+optic, 6273, 0.0525367280186
+focus, 3569, 0.0522675482189
+fundament, 3724, 0.0517515236436
+intersect, 4722, 0.0515038808916
+beauti, 978, 0.0507982717428
+arriv, 655, 0.0507982717428
+kevin, 4993, 0.0503559951622
+catch, 1556, 0.0491430492438
+circl, 1765, 0.0482407815396
+signal, 7947, 0.0479030696734
+compon, 1980, 0.0479030696734
+accur, 225, 0.0475772098227
+extend, 3319, 0.0469579101938
+gotten, 3962, 0.0466630901031
+independ, 4595, 0.0465191174073
+huge, 4427, 0.045569350608
+distanc, 2744, 0.0454412650895
+protect, 6940, 0.0453149222854
+combin, 1921, 0.0450672795333
+occur, 6192, 0.0444756111129
+inde, 4594, 0.0442491107898
+time, 8936, 0.0441277089993
+rotat, 7490, 0.0430934227471
+togeth, 8969, 0.0429951567204
+realiz, 7149, 0.0426121724274
+map, 5498, 0.0416337891097
+spacecraft, 8166, 0.0413839250795
+locat, 5323, 0.0411406084644
+use, 9363, 0.0410172716071
+fast, 3397, 0.0409818686527
+materi, 5543, 0.0409035048723
+limit, 5278, 0.0405964999578
+entir, 3129, 0.04037272882
+decid, 2442, 0.0402264887448
+figur, 3476, 0.0394609124745
+carri, 1530, 0.039262626232
+particular, 6442, 0.0388783209271
+coupl, 2187, 0.038630678175
+watch, 9655, 0.0385092901346
+lead, 5172, 0.0377012978884
+form, 3610, 0.037216698226
+effect, 3005, 0.037216698226
+report, 7291, 0.0369580170739
+away, 833, 0.0368061981142
+small, 8054, 0.0361755710691
+creat, 2217, 0.0358983548753
+general, 3818, 0.0358529462134
+stuff, 8472, 0.0355850607273
+alway, 457, 0.0350714153611
+requir, 7302, 0.0345452672944
+power, 6783, 0.034466903514
+object, 6173, 0.0341977237144
+isn, 4783, 0.0340101203063
+abl, 180, 0.0339730501858
+hope, 4372, 0.0331928466472
+true, 9121, 0.0331250649386
+happen, 4159, 0.0327284472382
+fact, 3350, 0.0318640046489
+idea, 4482, 0.0317468289256
+talk, 8684, 0.0314039203203
+imag, 4512, 0.0311275292967
+far, 3386, 0.0310192359078
+anoth, 533, 0.0299284875716
+actual, 254, 0.0298569643462
+base, 923, 0.029060854447
+believ, 1009, 0.0286765491421
+day, 2402, 0.0275364488275
+someth, 8126, 0.0273351668949
+help, 4249, 0.0272810206607
+come, 1923, 0.0269278962551
+need, 5993, 0.024967318962
+anyon, 554, 0.0249533022758
+say, 7653, 0.0235760322519
+like, 5272, 0.0195528441854

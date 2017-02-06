@@ -1,0 +1,151 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104444
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: amj@rsf.atd.ucar.edu (Anthony Michael Jivoin)
+Subject: Re: Bosox win again! (the team record is 9-3)
+Organization: National Center for Atmospheric Research
+Lines: 31
+
+In article <jxu.735168686@black.clarku.edu>, jxu@black.clarku.edu (Dark Wing Duck!!) writes:
+|> Today, Frank Viola and rest of pitcher staff of Boston Red Sox shutout Chicago
+|> White Sox 4-0.  It is Red Sox 9th win of this season.
+|> 
+|> So far, Red Sox won all the games Roger and Frank V. pitched (6-0) and 3-3
+|> when other three starters were pitching.  Tomorrow, Dopson will pitch again
+|> (have a good first start and rocky second start).  I wonder that Bosox can
+|> play over 500 ball without Roger and Frank V.
+|> 
+
+As long as the Yankees are in the same division the Red Sox will
+play better than .500 baseball.
+
+Or the Red Sox can hire former East German swimming coaches to
+"train" them at the fine art of body "building". The Red Sox
+can use Chinese women swimmers as a reference.
+
+With the "HAWK", the Red Sox definitely have a chance for the
+east this year. He brings class, work ethic and leadership to
+the park each day. And he has a burning desire to play in the
+World Series.
+
+Future Hall-of-Famer, Andre Dawson will kick butt in Boston!
+
+from Rockies country,
+
+Anthony M. Jivoin
+National Center for Atmospheric Research
+RSF/ATD - FL1
+P.O. Box 3000
+Boulder, CO 80307
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosox win team record     today frank viola rest
+pitcher staff boston red sox shutout chicago white
+sox red sox 9th win season  far red sox game roger
+frank pitch three starter pitch tomorrow dopson
+pitch good first start rocki second start wonder
+bosox play ball without roger frank   long yanke
+divis red sox play better basebal  red sox hire
+former east german swim coach train fine art bodi
+build red sox use chines women swimmer refer  hawk
+red sox definit chanc east year bring class work
+ethic leadership park day burn desir play world
+seri  futur hall famer andr dawson kick butt
+boston  rocki countri  anthoni jivoin nation
+center atmospher research rsf atd fl1 box boulder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sox, 8162, 0.521431561549
+red, 7194, 0.39527200354
+frank, 3655, 0.181106236096
+bosox, 1241, 0.177594811536
+pitch, 6643, 0.154519656577
+rocki, 7450, 0.144094906295
+play, 6681, 0.13959010138
+boston, 1243, 0.135857664315
+roger, 7458, 0.135502711323
+east, 2965, 0.128371857561
+fl1, 3513, 0.110018727637
+rsf, 7514, 0.106870351672
+jivoin, 4871, 0.106870351672
+dopson, 2822, 0.106870351672
+atd, 736, 0.106870351672
+win, 9770, 0.102570453884
+chines, 1711, 0.100238978634
+swim, 8634, 0.0985771547707
+hawk, 4209, 0.0970906026692
+famer, 3377, 0.0970906026692
+shutout, 7927, 0.0945181922012
+anthoni, 539, 0.0945181922012
+butt, 1430, 0.0923432501404
+9th, 152, 0.0904592296316
+start, 8334, 0.0893214360461
+leadership, 5174, 0.0873108536667
+hire, 4308, 0.0866224637075
+dawson, 2401, 0.0866224637075
+viola, 9525, 0.0853389251141
+german, 3854, 0.0847384431987
+boulder, 1248, 0.0841624777019
+kick, 5006, 0.0820683908503
+coach, 1856, 0.0815900672338
+tomorrow, 8979, 0.0798241159946
+ethic, 3209, 0.0790176567657
+andr, 503, 0.0790176567657
+women, 9819, 0.0746677726442
+starter, 8335, 0.0727837521354
+chicago, 1701, 0.0708997316266
+train, 9042, 0.0692379077632
+desir, 2565, 0.0692379077632
+art, 660, 0.0690432950862
+atmospher, 755, 0.0686619422664
+staff, 8301, 0.0684750627743
+hall, 4128, 0.0684750627743
+countri, 2186, 0.0682906262213
+class, 1789, 0.0675760838998
+burn, 1413, 0.0660895317983
+yanke, 9933, 0.065779427109
+divis, 2767, 0.0653266868094
+park, 6430, 0.0650327346066
+fine, 3485, 0.0626310511442
+chanc, 1649, 0.0613421792695
+bodi, 1194, 0.061119982624
+definit, 2484, 0.061010182884
+white, 9737, 0.0604736469296
+rest, 7324, 0.0602646179896
+record, 7184, 0.0596554933814
+bring, 1316, 0.0596554933814
+futur, 3737, 0.0595564810776
+box, 1254, 0.0576232137635
+seri, 7805, 0.0575374433147
+center, 1606, 0.0569512203144
+build, 1378, 0.0569512203144
+pitcher, 6644, 0.056076567645
+nation, 5962, 0.0555469378069
+ball, 877, 0.0551804445939
+season, 7747, 0.0543378542432
+research, 7307, 0.0542698579892
+today, 8964, 0.0539347069485
+refer, 7213, 0.0520176050754
+wonder, 9821, 0.0512304338815
+second, 7753, 0.0491024442614
+basebal, 924, 0.0475455219622
+world, 9841, 0.0472537409059
+far, 3386, 0.0471305157087
+team, 8732, 0.0468471077074
+long, 5336, 0.0444562333513
+game, 3761, 0.0427681178877
+better, 1060, 0.0422089733701
+day, 2402, 0.0418387815189
+work, 9833, 0.0399723381836
+good, 3948, 0.0362686955348
+year, 9943, 0.0354590802394
+use, 9363, 0.0311607476335

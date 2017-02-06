@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60797
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nanderso@Endor.sim.es.com (Norman Anderson)
+Subject: Re: A WRENCH in the works?
+Organization: Evans & Sutherland Computer Corp.
+Lines: 13
+
+jmcocker@eos.ncsu.edu (Mitch) writes:
+
+
+
+>effect that one of the SSRBs that was recovered after the
+>recent space shuttle launch was found to have a wrench of
+>some sort rattling around apparently inside the case.
+
+I heard a similar statement in our local news (UTAH) tonight. They referred
+to the tool as "...the PLIERS that took a ride into space...". They also
+said that a Thiokol (sp?) employee had reported missing a tool of some kind
+during assembly of one SRB. No more info as to the location in the SRB.
+I agree, pretty weird.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ wrench work        effect one ssrbs recov recent
+space shuttl launch found wrench sort rattl around
+appar insid case  heard similar statement local
+news utah tonight refer tool plier took ride space
+also said thiokol employe report miss tool kind
+assembl one srb info locat srb agre pretti weird
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wrench, 9860, 0.389704486822
+srb, 8280, 0.355223365527
+tool, 8988, 0.269947139021
+ssrbs, 8293, 0.207742816828
+thiokol, 8873, 0.202742367327
+plier, 6693, 0.198514547515
+rattl, 7111, 0.194852243411
+weird, 9697, 0.168383413451
+recov, 7185, 0.167107530373
+employe, 3078, 0.165888372321
+ride, 7393, 0.161490728189
+utah, 9380, 0.159530856043
+space, 8164, 0.155594410522
+tonight, 8985, 0.149372784461
+assembl, 698, 0.145710480357
+insid, 4671, 0.12846991971
+appar, 577, 0.12727727354
+statement, 8343, 0.123724602655
+locat, 5323, 0.121509598063
+took, 8987, 0.1210407569
+local, 5322, 0.116746609267
+miss, 5770, 0.11596294052
+similar, 7961, 0.113560428828
+shuttl, 7929, 0.110389092989
+effect, 3005, 0.109920251825
+report, 7291, 0.109156231944
+recent, 7168, 0.109005949156
+info, 4636, 0.107976413904
+launch, 5147, 0.107832442234
+agre, 337, 0.106161273176
+sort, 8144, 0.10549392784
+heard, 4224, 0.104206060257
+refer, 7213, 0.10111582524
+pretti, 6851, 0.100559486891
+kind, 5021, 0.0978355322568
+case, 1540, 0.0953578414621
+news, 6031, 0.0947273185171
+said, 7583, 0.0912997651206
+work, 9833, 0.0777013081696

@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84134
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: skinner@sp94.csrd.uiuc.edu (Gregg Skinner)
+Subject: Re: Davidians and compassion
+Reply-To: g-skinner@uiuc.edu
+Organization: UIUC Center for Supercomputing Research and Development
+Lines: 26
+
+sandvik@newton.apple.com (Kent Sandvik) writes:
+
+>In article <1993Apr20.143400.569@ra.royalroads.ca>, mlee@post.RoyalRoads.ca
+>(Malcolm Lee) wrote:
+>> Do you judge all Christians by the acts of those who would call
+>> themselves Christian and yet are not?  The BD's contradicted scripture
+>> in their actions.  They were NOT Christian.  Simple as that.  Perhaps
+>> you have read too much into what the media has portrayed.  Ask any
+>> true-believing Christian and you will find that they will deny any
+>> association with the BD's.  Even the 7th Day Adventists have denied any
+>> further ties with this cult, which was what they were.
+
+>Well, if they were Satanists, or followers of an obscure religion,
+>then I would be sure that Christians would in unison condemn and 
+>make this to a show case.
+
+You might be sure, but you would also be wrong.
+
+>And does not this show the dangers with religion -- in order 
+>word a mind virus that will make mothers capable of letting
+>their small children burn to ashes while they scream?
+
+I suspect the answer to this question is the same as the answer to,
+"Do not the actions of the likes of Stalin show the dangers of
+atheism?"
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass       post royalroad malcolm lee
+wrote judg christian act call christian yet bd
+contradict scriptur action christian simpl perhap
+read much media portray ask true believ christian
+find deni associ bd even 7th day adventist deni
+tie cult  well satanist follow obscur religion
+sure christian unison condemn make show case
+might sure also wrong  show danger religion order
+word mind virus make mother capabl let small
+children burn ash scream  suspect answer question
+answer action like stalin show danger atheism
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+christian, 1732, 0.374776071066
+bd, 965, 0.282955850322
+deni, 2523, 0.23210219256
+danger, 2356, 0.222677008079
+action, 251, 0.192151200038
+religion, 7261, 0.178887096424
+unison, 9277, 0.164679634179
+satanist, 7628, 0.164679634179
+royalroad, 7504, 0.156116573714
+answer, 535, 0.155896772395
+scream, 7718, 0.152861049217
+ash, 679, 0.152861049217
+adventist, 287, 0.145328393386
+virus, 9537, 0.138222400665
+portray, 6755, 0.138222400665
+sure, 8585, 0.136022937881
+obscur, 6178, 0.135402337073
+atheism, 739, 0.134121999279
+condemn, 2015, 0.131773013337
+compass, 1963, 0.130689744833
+malcolm, 5462, 0.123583752112
+7th, 140, 0.122126684368
+mother, 5877, 0.119483350726
+scriptur, 7725, 0.11309944905
+davidian, 2398, 0.11133850404
+contradict, 2098, 0.110920290261
+tie, 8923, 0.109325638281
+cult, 2289, 0.108945103559
+lee, 5190, 0.10857130432
+make, 5459, 0.105939030433
+judg, 4920, 0.104536388585
+media, 5605, 0.102775443575
+suspect, 8603, 0.10221964556
+associ, 706, 0.0993995819683
+burn, 1413, 0.0989249753508
+children, 1707, 0.0952709653402
+capabl, 1498, 0.094686989728
+act, 249, 0.0943064550063
+simpl, 7965, 0.0900513342055
+wrote, 9871, 0.089593862766
+small, 8054, 0.0822734610392
+mind, 5733, 0.0822734610392
+perhap, 6540, 0.0817467727537
+wrong, 9869, 0.0775182469768
+word, 9829, 0.0756451919168
+true, 9121, 0.075335748935
+order, 6281, 0.0746556474079
+case, 1540, 0.073427866519
+ask, 689, 0.073149062395
+follow, 3578, 0.0694143155873
+let, 5225, 0.0666960310154
+believ, 1009, 0.0652185681899
+read, 7135, 0.0642880606095
+question, 7032, 0.063927041465
+day, 2402, 0.0626256582221
+post, 6766, 0.0616795615083
+like, 5272, 0.0444686874803

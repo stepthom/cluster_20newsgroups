@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61511
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: teezee@netcom.com (TAMOOR A. ZAIDI)
+Subject: Hall Generators from USSR
+Keywords: hall generators,thrusters,USSR,JPL
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 21
+
+Hi Folks,
+
+              Last year America bought two  "Hall Generators" which are
+used as thrusters for space vehicles from former USSR,if I could recall
+correctly these devices were sent to JPL,Pasadena labs for testing and
+evaluation.
+     
+              I am just curious to know  how these devices work and what
+what principle is involved .what became of them.There was also some
+controversy that the Russian actually cheated,sold inferior devices and
+not the one they use in there space vehicles.
+
+Any info will be appreciated...
+  ok   {                         Thank{ in advance...
+Tamoor A Zaidi
+Lockheed Commercial Aircraft Center
+Norton AFB,San Bernardino
+
+teezee@netcom.com
+de244@cleveland.freenet.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hall generat ussr     folk  last year america
+bought two hall generat use thruster space vehicl
+former ussr could recal correct devic sent jpl
+pasadena lab test evalu  curious know devic work
+principl involv becam also controversi russian
+actual cheat sold inferior devic one use space
+vehicl  info appreci thank advanc tamoor zaidi
+lockhe commerci aircraft center norton afb san
+bernardino
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+devic, 2591, 0.392505763162
+ussr, 9376, 0.306103535034
+hall, 4128, 0.238093523627
+vehicl, 9449, 0.234967698849
+generat, 3819, 0.212519294432
+cheat, 1681, 0.191272161475
+norton, 6112, 0.185798578124
+afb, 308, 0.185798578124
+lockhe, 5325, 0.160542604259
+inferior, 4625, 0.160542604259
+controversi, 2108, 0.158850248685
+thruster, 8902, 0.150596777672
+bought, 1247, 0.145357927466
+sold, 8109, 0.141847745833
+evalu, 3226, 0.14026465292
+space, 8164, 0.13915869959
+becam, 980, 0.138066518055
+aircraft, 359, 0.136703421473
+pasadena, 6446, 0.131362789269
+principl, 6870, 0.128831739125
+jpl, 4912, 0.126979582162
+russian, 7551, 0.125257511956
+america, 468, 0.121064015204
+recal, 7166, 0.120372999746
+curious, 2297, 0.119046761814
+folk, 3576, 0.11718287109
+lab, 5085, 0.115731002017
+sent, 7793, 0.111352921763
+san, 7603, 0.110885680463
+use, 9363, 0.10834852722
+commerci, 1940, 0.10371357139
+involv, 4750, 0.102864717604
+test, 8812, 0.100786063865
+center, 1606, 0.0990120795086
+info, 4636, 0.0965706756103
+appreci, 587, 0.0948267334216
+correct, 2156, 0.0944686332435
+advanc, 285, 0.0927525891829
+actual, 254, 0.0788681935055
+work, 9833, 0.0694935824821
+thank, 8832, 0.068693410066
+year, 9943, 0.0616470946992
+know, 5052, 0.0528359630135

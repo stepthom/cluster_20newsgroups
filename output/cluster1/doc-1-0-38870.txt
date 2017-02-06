@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38870
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rigby@echo.unr.edu (Wayne Rigby)
+Subject: Re: Cross, Sobel & Roberts Filters ?
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 20
+
+In article <1993Apr28.090635.15878@waikato.ac.nz> pdenize@waikato.ac.nz writes:
+
+>I saw an imaging program some time ago on an Amiga that had
+>Cross, Sobel and Roberts filters for edge detection. 
+>
+>Can anybody direct me to these algorithms.
+
+OK, never heard of Cross filters, but Roberts, Prewitt and Sobel filters
+are standard spatial masks for edge detection.  Highpass filtering does a
+good job of detecting edges, too.  A good reference for all sorts of general
+digital image processing is the book _Digital Image Processing_ by
+Rafael C. Gonzalez and Richard E. Woods.  Addison-Wesley Publishing Co. 1992.
+ISBN 0-201-50803-6
+
+I've used this source to do the above filters and many other things as a
+grad project.  Not too dificult to do.  The worst part is loading in the
+images from TIFF/GIF/IFF-ILBM/whatever!  :)
+
+Wayne Rigby
+rigby@cs.unr.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cross sobel robert filter      saw imag program
+time ago amiga cross sobel robert filter edg
+detect  anybodi direct algorithm  never heard
+cross filter robert prewitt sobel filter standard
+spatial mask edg detect highpass filter good job
+detect edg good refer sort general digit imag
+process book digit imag process rafael gonzalez
+richard wood addison wesley publish isbn  i'v use
+sourc filter mani thing grad project dificult
+worst part load imag tiff gif iff ilbm whatev
+wayn rigbi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+filter, 3481, 0.548670325026
+sobel, 8088, 0.352687037246
+detect, 2579, 0.257626750949
+cross, 2241, 0.242040409703
+edg, 2993, 0.227347093301
+robert, 7437, 0.214785307148
+imag, 4512, 0.213239789634
+digit, 2642, 0.153135771622
+process, 6890, 0.128573791246
+rigbi, 7398, 0.124010690412
+wesley, 9707, 0.120461910259
+addison, 262, 0.120461910259
+rafael, 7065, 0.117562345749
+ilbm, 4504, 0.107922619676
+wood, 9824, 0.104087280873
+grad, 3977, 0.104087280873
+mask, 5530, 0.10099950618
+wayn, 9667, 0.0992306209761
+isbn, 4777, 0.096192159733
+gonzalez, 3946, 0.096192159733
+spatial, 8189, 0.0948660940808
+iff, 4492, 0.0948660940808
+richard, 7383, 0.0904507569991
+amiga, 472, 0.0826186203957
+good, 3948, 0.0817625520716
+tiff, 8926, 0.0789524701546
+worst, 9849, 0.0780434470464
+load, 5317, 0.0739731914946
+publish, 6974, 0.073468273697
+saw, 7650, 0.0700525786285
+whatev, 9718, 0.0693980181452
+algorithm, 407, 0.0691435555203
+job, 4873, 0.0676967790436
+gif, 3869, 0.067130755787
+standard, 8313, 0.0651467577192
+anybodi, 552, 0.064663329168
+ago, 336, 0.0619553763097
+general, 3818, 0.0614028392314
+sort, 8144, 0.0611717904978
+direct, 2667, 0.0609440504519
+heard, 4224, 0.0604250066063
+project, 6909, 0.0590290606156
+sourc, 8153, 0.0586984130556
+refer, 7213, 0.0586331005418
+book, 1218, 0.0569640108977
+program, 6905, 0.049365054271
+mani, 5479, 0.0451115475456
+thing, 8869, 0.043447083469
+time, 8936, 0.037787224029
+use, 9363, 0.0351237094884

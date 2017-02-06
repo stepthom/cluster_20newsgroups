@@ -1,0 +1,286 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84192
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: To Rob Lanphier
+Organization: Starfleet Headquarters: San Francisco
+Lines: 78
+
+You just don't get it, do you?
+
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>
+>Me:  "Brian K, please step aside before you get run over." 
+>BK:  "There is no truck."
+>Me:  "Turn around at look."
+>BK:  "No."
+>Me:  "Look!  You will be healthier if you do take a look at
+>     the oncoming truck."
+>BK:  "No. Explain to me why trucks exist."
+>Me:  "Turn around or you will run over."
+>BK:  "No. I won't because I like hiking and tomorrow is Tuesday."
+>Me:  "You blind fool!  Why do you choose ignorance? You have nothing
+>      to lose if you look.  But if do not look, you will certainly lose your life."
+>      I do not want to see you squashed all over the road.
+>BK:  "It is my life to lose.  I rather not look.
+>      Besides, a truck running over me will not harm me."
+>      And by the way, I really have an open mind."
+
+I think the discussion is more like this...
+
+Me: [ happily picking daisies by the side of the road ]
+BC: [ dancing on the double yellow broken line ]
+    "Come on out and play on the highway!"
+Me: "Why?"
+BC: "The highway was put here for people to be on.  We must work towards
+     fulfilling its purpose."
+Me: "But --"
+BC: "Look, the highway has been here for several generations.  Look, I
+     have a story about how it was actually created by a divine being!
+     And several people actually saw Elvis bless it!"
+Me: "But --"
+BC: "Look, are you going to come out here, or not?"
+Me: "But --"
+BC: "You probably think that picking daisies is fun.  Well, you're wrong."
+Me: "Where in blazes did you get this silly idea that you're supposed to
+     be playing on the highway?  You'll get yourself killed!"
+BC: "Better to be killed on the highway than to live an empty life off
+     of it.  Besides, you're just asking pointless questions.  You know
+     you really want to be playing on the highway too; you're just
+     denying it."
+Me: "If you want to get run over, then fine, but I'd much rather enjoy
+     the daisies, if you please."
+BC: "Why do you shun me like this?  The Creator of the Highway will flatten
+     you with a steamroller if you don't see the light and come join me!"
+Me: "Well, if he's gonna be THAT way about it, maybe I want to get as
+     far from the highway as I can..."
+BC: [ incoherent but quite familiar righteous sputtering ]
+
+Brian C., don't you see?  I do not believe that your god is:
+
+	(a) real, or even
+
+	(b) beneficial.
+
+In fact, I believe your religion is imaginary and, carried to
+extremes, harmful.  I would like to help you see its shortcomings, and
+perhaps someday finally become strong enough to see it for what it is:
+an elaborate lie, kept alive by the elite priesthood to keep the
+masses properly submissive to their influences.
+
+Please offer me an argument that's more convincing than "you just
+don't believe 'cos you don't want to."  Everything you've said so far
+could apply equally to any religion -- why do you believe yours is the
+real one?
+
+(Note that saying "it's the only one that promises eternal life" or
+something like that isn't an answer to my question, unless you show
+that (a) no other religion promises eternal life and (b) it is
+unarguably true that eternal life must be a reality.)
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rob lanphier    don't get    brian pleas step
+asid get run truck turn around look  look
+healthier take look oncom truck explain truck
+exist turn around run won't like hike tomorrow
+tuesday blind fool choos ignor noth lose look look
+certain lose life want see squash road life lose
+rather look besid truck run harm way realli open
+mind  think discuss like  happili pick daisi side
+road danc doubl yellow broken line come play
+highway  highway put peopl must work toward fulfil
+purpos  look highway sever generat look stori
+actual creat divin sever peopl actual saw elvi
+bless  look go come  probabl think pick daisi fun
+well you'r wrong blaze get silli idea you'r suppos
+play highway you'll get kill better kill highway
+live empti life besid you'r ask pointless question
+know realli want play highway you'r deni want get
+run fine i'd much rather enjoy daisi pleas shun
+like creator highway flatten steamrol don't see
+light come join well he gonna way mayb want get
+far highway incoher quit familiar righteous
+sputter  brian don't see believ god  real even
+benefici  fact believ religion imaginari carri
+extrem harm like help see shortcom perhap someday
+final becom strong enough see elabor lie kept aliv
+elit priesthood keep mass proper submiss influenc
+pleas offer argument that convinc don't believ cos
+don't want everyth you'v said far could appli
+equal religion believ real one  note say it one
+promis etern life someth like isn't answer
+question unless show religion promis etern life
+unargu true etern life must realiti   brian kendig
+sui fait comm aucun  n'etr fait comm aucun ceux
+qui exist mean life vaux pas mieux moin sui autr
+end rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+highway, 4297, 0.49405868673
+life, 5260, 0.237650910008
+truck, 9120, 0.234185434758
+daisi, 2339, 0.223612007233
+look, 5341, 0.20705849586
+etern, 3205, 0.147514270662
+brian, 1304, 0.12985592921
+want, 9634, 0.125562708227
+lose, 5350, 0.121590646427
+religion, 7261, 0.117130539753
+sui, 8527, 0.117092717379
+aucun, 775, 0.117092717379
+fait, 3366, 0.11409625146
+believ, 1009, 0.113875716348
+run, 7543, 0.111077765936
+harm, 4177, 0.110734671779
+comm, 1932, 0.109982010439
+don, 2811, 0.104552139095
+like, 5272, 0.0970564016969
+play, 6681, 0.0912069155182
+besid, 1051, 0.0876366760502
+promis, 6913, 0.0865706194737
+road, 7431, 0.0859593709276
+pick, 6619, 0.0830030304708
+pleas, 6688, 0.0813579168414
+come, 1923, 0.0801988096771
+kill, 5012, 0.0788887894493
+oncom, 6240, 0.0745373357444
+turn, 9158, 0.0733808773196
+sputter, 8272, 0.0718852461441
+elit, 3045, 0.0718852461441
+squash, 8277, 0.0698281256333
+sever, 7823, 0.0680513890656
+pointless, 6712, 0.0667262482312
+happili, 4163, 0.0667262482312
+exist, 3283, 0.0661087895461
+shortcom, 7905, 0.0654952461925
+hike, 4299, 0.0654952461925
+elvi, 3057, 0.0654952461925
+flatten, 3527, 0.0644094254415
+benefici, 1027, 0.0644094254415
+someday, 8122, 0.0634381256817
+real, 7144, 0.0632081749367
+priesthood, 6861, 0.0625594781716
+cos, 2162, 0.0625594781716
+blaze, 1147, 0.0625594781716
+far, 3386, 0.0615893093003
+lanphier, 5116, 0.0610194364275
+submiss, 8490, 0.0597002153304
+empti, 3079, 0.0597002153304
+actual, 254, 0.0592815960185
+yellow, 9947, 0.0591052462409
+rousseau, 7497, 0.0585463586895
+qui, 7034, 0.0585463586895
+mieux, 5706, 0.0585463586895
+imaginari, 4519, 0.0585463586895
+ceux, 1626, 0.0585463586895
+vaux, 9438, 0.0580194254899
+danc, 2352, 0.0580194254899
+moin, 5820, 0.057520989442
+etr, 3212, 0.057520989442
+gonna, 3944, 0.0570481257301
+elabor, 3024, 0.0570481257301
+autr, 807, 0.0570481257301
+pas, 6445, 0.0565983379283
+creator, 2221, 0.05616947822
+broken, 1332, 0.05616947822
+question, 7032, 0.0558103147835
+bless, 1155, 0.055759685367
+kendig, 4982, 0.0549910052194
+blind, 1158, 0.0549910052194
+realli, 7150, 0.0547109313457
+fulfil, 3717, 0.0536227477235
+influenc, 4634, 0.0530079318637
+fool, 3585, 0.0527152462893
+righteous, 7400, 0.0524315678687
+familiar, 3379, 0.0524315678687
+tomorrow, 8979, 0.0521563587379
+tuesday, 9147, 0.0518891278173
+silli, 7956, 0.0518891278173
+deni, 2523, 0.0506581257785
+join, 4881, 0.0504304889971
+rob, 7434, 0.0502083379767
+divin, 2766, 0.0502083379767
+peopl, 6530, 0.0500242042652
+asid, 687, 0.0482394365243
+way, 9666, 0.048230619764
+fun, 3721, 0.0475562483764
+aliv, 417, 0.0473930791391
+proper, 6924, 0.0466179319121
+kept, 4989, 0.0466179319121
+choos, 1720, 0.0460415679171
+extrem, 3333, 0.0456317750641
+lie, 5258, 0.0446204803556
+enjoy, 3114, 0.0441536048357
+convinc, 2120, 0.0441536048357
+equal, 3156, 0.0438183380251
+mass, 5533, 0.0436014145758
+realiti, 7148, 0.0431823050759
+doubl, 2828, 0.0429796854638
+step, 8377, 0.0425873359864
+think, 8871, 0.0422277208284
+stori, 8418, 0.0416738346683
+ignor, 4496, 0.0411662484248
+fine, 3485, 0.0409225649531
+strong, 8456, 0.0408427478203
+appli, 584, 0.0408427478203
+saw, 7650, 0.0406073608735
+offer, 6203, 0.040453710296
+generat, 3819, 0.0399352463861
+everyth, 3242, 0.0397216734079
+purpos, 6993, 0.0396515679655
+won, 9820, 0.0393088213807
+carri, 1530, 0.0389783622997
+argument, 631, 0.0384730949649
+unless, 9289, 0.0375387444379
+suppos, 8577, 0.0374833759757
+explain, 3301, 0.0372651688362
+becom, 983, 0.0369472469437
+light, 5267, 0.0366904386598
+open, 6258, 0.0365896855122
+final, 3482, 0.0361973360348
+mind, 5733, 0.0359136576142
+perhap, 6540, 0.0356837499075
+creat, 2217, 0.0356384484834
+discuss, 2708, 0.0354594366211
+answer, 535, 0.0340256945328
+wrong, 9869, 0.0338379320089
+live, 5310, 0.0338008340866
+quit, 7043, 0.0337638848538
+isn, 4783, 0.0337638848538
+noth, 6119, 0.0335452464345
+note, 6118, 0.0332615680139
+true, 9121, 0.0328852373437
+certain, 1619, 0.0326208802698
+god, 3926, 0.032491491181
+mayb, 5564, 0.0322693401606
+ask, 689, 0.0319307143333
+end, 3091, 0.0317808114981
+fact, 3350, 0.0316333072115
+idea, 4482, 0.0315169798479
+said, 7583, 0.0306883846406
+line, 5285, 0.0305572469921
+probabl, 6885, 0.0301497189275
+ll, 5314, 0.0292033686315
+mean, 5595, 0.0284897156149
+better, 1060, 0.0275789631945
+someth, 8126, 0.0271372585333
+help, 4249, 0.0270835043213
+work, 9833, 0.0261175659
+say, 7653, 0.0234053402662
+know, 5052, 0.019857182442

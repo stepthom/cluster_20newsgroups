@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38245
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: msc_wdqn@jhunix.hcf.jhu.edu (Daniel Q Naiman)
+Subject: Geometry package
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 11
+Distribution: world
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+
+I am looking for a package which takes as inputs a set
+of geometric objects defined by unions of convex polytopes
+specified in some manner, say by inequalities and equalities,
+and determines in some reasonable form things like
+intersections, unions, etc. etc..
+
+Does anyone know where I can find such a thing?
+
+Dan Naiman
+Department of Mathematical Sciences
+Johns Hopkins University
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ geometri packag      look packag take input set
+geometr object defin union convex polytop specifi
+manner say inequ equal determin reason form thing
+like intersect union etc etc  anyon know find
+thing  dan naiman depart mathemat scienc john
+hopkin univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+union, 9275, 0.443976673947
+packag, 6375, 0.307265852281
+hopkin, 4373, 0.250591602023
+geometri, 3844, 0.210401287053
+geometr, 3843, 0.209017887556
+convex, 2116, 0.209017887556
+manner, 5486, 0.202813842803
+specifi, 8204, 0.196573113528
+intersect, 4722, 0.195632466695
+thing, 8869, 0.19272053665
+dan, 2350, 0.191272334743
+input, 4662, 0.187392364927
+mathemat, 5545, 0.182590688302
+equal, 3156, 0.167653504064
+depart, 2535, 0.165614082572
+defin, 2482, 0.154780089551
+determin, 2582, 0.15363292614
+form, 3610, 0.141363997239
+john, 4878, 0.133373876432
+scienc, 7692, 0.131819785166
+object, 6173, 0.129896717097
+set, 7815, 0.126339144925
+univers, 9282, 0.117215385411
+reason, 7156, 0.113771465123
+anyon, 554, 0.0947826841762
+say, 7653, 0.0895512583609
+look, 5341, 0.0880252523933
+know, 5052, 0.0759756386772
+like, 5272, 0.0742695710046

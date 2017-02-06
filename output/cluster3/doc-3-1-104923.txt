@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104923
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rja@mahogany126.cray.com (Russ Anderson)
+Subject: Re: A surfeit of offense?
+Originator: rja@mahogany126
+Lines: 35
+Nntp-Posting-Host: mahogany126
+Organization: The 1991 World Champion Minnesota Twins!
+
+
+In article <1qi008INNphe@jhunix.hcf.jhu.edu>, pablo@jhunix.hcf.jhu.edu (Pablo A Iglesias) writes:
+> In article <1993Apr14.160447.17835@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+> >Last year the American League scored 9802 runs in 1134 games, for a
+> >total of 8.6 runs per game, with 1.0 HR/game.  Through Tuesday, the AL
+> >has 477 runs in 48 games, for a total of 9.9 runs per game, and a
+> >total of 1.7 HR/game.  In 1987 there were 9.8 runs per game, and 2.3
+> >HR/game.
+> 
+> >The big question: How significant is this?  Have we returned to 1987?
+> >Or is this just a minor abberation?
+> >
+> >Some thoughts:
+> 
+> >d) I thought offense was generally down in April, rising as the
+> >weather got warm and pitchers got tired.  This may be a bigger
+> >abberation from the norm than it seems.
+> 
+> 1. I don't get a feeling that the weather has been an issue this year. 
+>    There doesn't seem to be a really cold spell in North America which 
+>    does makes it harder to hit (not to mention making the ball carry less)
+
+You obviously did not watch the Twins in Chicago.
+
+No cold spell?  It's been snowing most of the week in Minnesota.
+(5 inches in Duluth last weekend)
+
+> I would still put things under the too early to tell category.  
+
+Yup.
+
+-- 
+Russ Anderson    |  Disclaimer: Any statements are my own and do not reflect
+------------------              upon my employer or anyone else.  (c) 1993
+EX-Twins' Jack Morris, 10 innings pitched, 0 runs (World Series MVP!)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surfeit offens origin rja mahogany126        last
+year american leagu score run game total run per
+game game tuesday run game total run per game
+total game run per game game  big question
+signific return minor abber  thought  thought
+offens general april rise weather got warm pitcher
+got tire bigger abber norm seem  don't get feel
+weather issu year doesn't seem realli cold spell
+north america make harder hit mention make ball
+carri less  obvious watch twin chicago  cold spell
+it snow week minnesota inch duluth last weekend
+still put thing earli tell categori  yup   russ
+anderson disclaim statement reflect upon employ
+anyon els twin jack morri inning pitch run world
+seri mvp
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.434521573274
+run, 7543, 0.323851913248
+total, 9013, 0.214539035907
+spell, 8220, 0.204924699668
+weather, 9679, 0.200703691383
+twin, 9172, 0.198766076279
+cold, 1888, 0.192706862524
+offens, 6202, 0.168671806331
+surfeit, 8588, 0.135724564344
+norm, 6107, 0.129695461382
+thought, 8887, 0.125079664965
+yup, 9970, 0.120037412232
+russ, 7548, 0.118603160983
+got, 3960, 0.117593241576
+snow, 8081, 0.108379810223
+inch, 4574, 0.107617202586
+anderson, 501, 0.107617202586
+warm, 9639, 0.105506698444
+weekend, 9692, 0.104855042089
+mvp, 5937, 0.104226255648
+harder, 4170, 0.104226255648
+tire, 8948, 0.103031241261
+bigger, 1083, 0.101376043009
+tuesday, 9147, 0.10085662766
+minnesota, 5744, 0.10085662766
+rise, 7414, 0.0993830381397
+employ, 3077, 0.0971680522155
+categori, 1560, 0.0955742400284
+reflect, 7216, 0.0944655209746
+year, 9943, 0.0900655446946
+chicago, 1701, 0.0900421401873
+make, 5459, 0.0898843197839
+north, 6110, 0.0892212985865
+america, 468, 0.0884364180131
+disclaim, 2691, 0.0879316360452
+morri, 5868, 0.08768447937
+jack, 4808, 0.0837352242987
+inning, 4657, 0.0825910969177
+minor, 5745, 0.0824073150516
+statement, 8343, 0.0808329647703
+american, 469, 0.0796974715989
+score, 7705, 0.0774824856747
+signific, 7951, 0.0772068098547
+return, 7346, 0.0765356237162
+obvious, 6185, 0.0757620399226
+carri, 1530, 0.0757620399226
+april, 595, 0.0744251195741
+watch, 9655, 0.0743083857745
+earli, 2951, 0.0743083857745
+seri, 7805, 0.0730721318417
+issu, 4793, 0.0730721318417
+leagu, 5176, 0.0719156935191
+mention, 5632, 0.0717132215924
+pitcher, 6644, 0.0712168304347
+feel, 3429, 0.0704501434407
+ball, 877, 0.0700787607194
+general, 3818, 0.0691826452543
+week, 9691, 0.0659886909756
+pitch, 6643, 0.065412944262
+origin, 6293, 0.0637244478355
+hit, 4316, 0.0626609043951
+els, 3053, 0.0619464479676
+big, 1082, 0.0610361023756
+world, 9841, 0.0600119050581
+tell, 8767, 0.0585534884981
+doesn, 2793, 0.0581239947706
+question, 7032, 0.0542391091782
+realli, 7150, 0.0531706762453
+thing, 8869, 0.0489518758513
+anyon, 554, 0.0481504490314
+don, 2811, 0.0406434897147

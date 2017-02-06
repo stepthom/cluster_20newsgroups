@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104380
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Old Predictions to laugh at...
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 12
+
+In article <C5JCrF.KrM@news.udel.edu> philly@ravel.udel.edu (Robert C Hite) writes:
+>
+>DEAD WRONG!  Last time I checked, Jim Fregosi was still managing the
+>Phillies, and doing quite a fine job thank you...best record in
+>baseball at 8-1
+
+Look, asshole, I got him confused with somebody else.  I didn't flame
+you, and I would appreciate it if you extended me the same courtesy.
+
+No, I don't know everything in the world.  Does that surprise you?
+
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ old predict laugh      dead wrong last time check
+jim fregosi still manag philli quit fine job thank
+best record basebal  look asshol got confus
+somebodi els didn't flame appreci extend courtesi
+don't know everyth world surpris  valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fregosi, 3683, 0.286960830286
+asshol, 702, 0.2712209067
+courtesi, 2192, 0.246532186538
+laugh, 5146, 0.223210488897
+valentin, 9409, 0.208743447479
+extend, 3319, 0.196302911802
+confus, 2037, 0.186896441591
+philli, 6593, 0.186408140461
+flame, 3518, 0.18592590534
+somebodi, 8121, 0.185449587363
+jim, 4868, 0.177359569276
+predict, 6816, 0.175851829162
+surpris, 8593, 0.174758251831
+dead, 2415, 0.17300141683
+fine, 3485, 0.172320356764
+everyth, 3242, 0.167263536408
+job, 4873, 0.165242738211
+record, 7184, 0.164133536235
+check, 1682, 0.158306025177
+appreci, 587, 0.150069531669
+manag, 5472, 0.148211788299
+old, 6216, 0.146787062229
+wrong, 9869, 0.142487757613
+quit, 7043, 0.142175953302
+els, 3053, 0.134202954046
+basebal, 924, 0.130814686284
+world, 9841, 0.130011892545
+best, 1052, 0.129785539554
+didn, 2625, 0.129672856084
+got, 3960, 0.127379058147
+thank, 8832, 0.108711831626
+look, 5341, 0.0968778035583
+time, 8936, 0.0922357674348
+don, 2811, 0.0880514793244
+know, 5052, 0.0836163805143

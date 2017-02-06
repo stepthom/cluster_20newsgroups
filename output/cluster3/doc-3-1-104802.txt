@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104802
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dtate+@pitt.edu (David M. Tate)
+Subject: Re: Torre: The worst manager?
+Organization: Department of Industrial Engineering
+Lines: 19
+
+DAK988S@vma.smsu.edu said:
+
+>No....Hal McRae is the worst manager in baseball.  I've never seen a guy who
+>can waste talent like he can.  One of the best raw-talent staffs in the league,
+>and he's still finding a way to lose.  I'll be surprised if he makes it through
+>the next 2 weeks, unless drastic improvement is made.
+
+I'm confused.  How is it Hal McRae's fault that he can't win with a team 
+whose best offensive player is Phil Hiatt?  I mean, let's be real.  Kansas
+City will have to get outstanding years from their entire staff just to end
+up near .500; they have less offense than any other team in baseball, even
+if you count the expansion teams.
+
+
+-- 
+   David M. Tate   (dtate+@pitt.edu) |  Greetings, sir, with bat not quick 
+     member IIE, ORSA, TIMS, SABR    |  Hands not soft, eye not discerning
+                                     |  And in Denver they call you a slugger?
+   "The Big Catullus" Galarraga      |  And compare you to my own Mattingly!?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ torr worst manag      hal mcrae worst manag
+basebal i'v never seen guy wast talent like one
+best raw talent staff leagu he still find way lose
+i'll surpris make next week unless drastic improv
+made  i'm confus hal mcrae fault can't win team
+whose best offens player phil hiatt mean let real
+kansa citi get outstand year entir staff end near
+less offens team basebal even count expans team
+member iie orsa tim sabr hand soft eye discern
+denver call slugger big catullus galarraga compar
+mat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mcrae, 5586, 0.290746761992
+hal, 4121, 0.287018785161
+talent, 8683, 0.22762341137
+team, 8732, 0.213387491276
+worst, 9849, 0.210251378179
+staff, 8301, 0.207934884
+offens, 6202, 0.201653701307
+manag, 5472, 0.163580216367
+orsa, 6301, 0.155055965779
+iie, 4500, 0.155055965779
+catullus, 1567, 0.152195409176
+slugger, 8050, 0.147415149294
+drastic, 2860, 0.147415149294
+basebal, 924, 0.144379168027
+best, 1052, 0.143243306657
+outstand, 6333, 0.141794689457
+discern, 2687, 0.141794689457
+torr, 9004, 0.134823375984
+sabr, 7565, 0.133665128895
+galarraga, 3751, 0.131521105736
+kansa, 4951, 0.128660549133
+expans, 3289, 0.126137359388
+denver, 2533, 0.124606540251
+soft, 8097, 0.123177854097
+raw, 7114, 0.118816285448
+mat, 5540, 0.114723432761
+fault, 3407, 0.114723432761
+tim, 8935, 0.113811705685
+phil, 6588, 0.105425307299
+confus, 2037, 0.103138086062
+wast, 9654, 0.100584787594
+eye, 3337, 0.100584787594
+improv, 4557, 0.0989628622377
+count, 2180, 0.0989628622377
+citi, 1775, 0.096638951631
+surpris, 8593, 0.0964396724934
+member, 5625, 0.094908853356
+lose, 5350, 0.0941826023553
+entir, 3129, 0.0931374022451
+compar, 1960, 0.0901285934736
+unless, 9289, 0.0872311335833
+near, 5982, 0.0867210534665
+leagu, 5176, 0.085978007206
+guy, 4100, 0.0804325819567
+seen, 7767, 0.0795130265046
+week, 9691, 0.0788920452628
+win, 9770, 0.0778676738881
+hand, 4145, 0.077701608306
+player, 6683, 0.0739202799354
+end, 3091, 0.0738510638725
+real, 7144, 0.0734403991664
+big, 1082, 0.0729710330678
+ll, 5314, 0.0678616983152
+let, 5225, 0.0676537126737
+mean, 5595, 0.0662033380649
+way, 9666, 0.0560382572518
+year, 9943, 0.0538384299159
+make, 5459, 0.0537300992031
+like, 5272, 0.0451072089294

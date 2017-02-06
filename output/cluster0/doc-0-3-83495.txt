@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83495
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: zxmkr08@studserv.zdv.uni-tuebingen.de (Cornelius Krasel)
+Subject: Re: The _real_ probability of abiogenesis (was Re: Albert Sabin)
+Organization: InterNetNews at ZDV Uni-Tuebingen
+Lines: 27
+NNTP-Posting-Host: studserv.zdv.uni-tuebingen.de
+
+In <1qc6tiINNhie@ctron-news.ctron.com> king@ctron.com (John E. King) writes:
+
+>adpeters@sunflower.bio.indiana.edu (Andy Peters) writes:
+
+>>1) We're not just talking about proteins.  In fact, we shouldn't be
+>>talking about proteins at all, since (if I have to say this again I'm
+>>goint to be really upset) *nobody*claims*that*proteins*appeared*de*
+>>*novo*
+>>the proteins did not form randomly.
+>> 
+
+>Before I repond to 2.), Andy, please clarify 1.).  You state that
+>proteins did not form randomly.  That seems to be my point.  
+
+Well, I am not Andy, but if you had familiarized yourself with some of
+the current theories/hypotheses about abiogenesis before posting :-), you
+would be aware of the fact that none of them claims that proteins were
+assembled randomly from amino acids. It is current thinking that RNA-
+based replicators came before proteinaceous enzymes, and that proteins
+were assembled by some kind of primitive translation machinery.
+
+Now respond to 2. :-)
+--Cornelius.
+-- 
+/* Cornelius Krasel, Department of Physiological Chemistry, U Tuebingen    */ 
+/* email: krasel@studserv.zdv.uni-tuebingen.de                             */
+/* "People are DNA's way of making more DNA." (R. Dawkins / anonymous)     */
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ real probabl abiogenesi albert sabin         we'r
+talk protein fact shouldn't talk protein sinc say
+i'm goint realli upset nobodi claim protein appear
+novo protein form random   repond andi pleas
+clarifi state protein form random seem point  well
+andi familiar current theori hypothes abiogenesi
+post awar fact none claim protein assembl random
+amino acid current think rna base replic came
+proteinac enzym protein assembl kind primit
+translat machineri  respond cornelius  cornelius
+krasel depart physiolog chemistri tuebingen  peopl
+dna way make dna dawkin anonym
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+protein, 6941, 0.73771099433
+random, 7093, 0.224881590281
+cornelius, 2148, 0.218550755808
+abiogenesi, 179, 0.218550755808
+dna, 2781, 0.199814651209
+andi, 502, 0.167270682152
+assembl, 698, 0.143606337412
+tuebingen, 9146, 0.109275377904
+enzym, 3142, 0.109275377904
+form, 3610, 0.108332940317
+claim, 1782, 0.10530235535
+rna, 7429, 0.102371445675
+current, 2299, 0.0979388565305
+hypothes, 4464, 0.0978239417703
+acid, 236, 0.0944273663044
+fact, 3350, 0.0927519494857
+physiolog, 6616, 0.0917152531734
+talk, 8684, 0.0914127041876
+sabin, 7563, 0.0829759301708
+clarifi, 1786, 0.0806195018463
+chemistri, 1692, 0.0806195018463
+albert, 383, 0.0790878371713
+upset, 9342, 0.0786135694711
+primit, 6866, 0.0777122193657
+familiar, 3379, 0.076867241574
+awar, 831, 0.0715244940373
+shouldn, 7912, 0.0702113024054
+nobodi, 6088, 0.0683441670663
+translat, 9057, 0.0681279185714
+anonym, 532, 0.0670957192354
+respond, 7322, 0.0647313431055
+depart, 2535, 0.0634583800446
+theori, 8848, 0.0624351164065
+appear, 580, 0.0549524615276
+came, 1472, 0.0544754034397
+kind, 5021, 0.0482113655164
+state, 8342, 0.0479196583093
+real, 7144, 0.046333137171
+probabl, 6885, 0.0442009617944
+base, 923, 0.0422961729603
+sinc, 7977, 0.0411997415415
+realli, 7150, 0.0401044499281
+pleas, 6688, 0.039758227737
+post, 6766, 0.0394720425138
+point, 6710, 0.0381488432972
+peopl, 6530, 0.0366689644245
+way, 9666, 0.0353542231461
+say, 7653, 0.034313372983
+make, 5459, 0.03389801914
+think, 8871, 0.0309539515026

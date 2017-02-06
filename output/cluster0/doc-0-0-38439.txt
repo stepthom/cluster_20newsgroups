@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38439
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: d91-hes@tekn.hj.se (STEFAN HERMANSSON)
+Subject: re: Vesa on the Speedstar 24
+Organization: H|gskolan i J|nk|ping
+Lines: 8
+Nntp-Posting-Host: pc9_b109.et.hj.se
+
+
+
+	Just posting to John Cormack.
+I wanted to tell you that there is a "slight" difference between 
+Speedstar 24 and Speedstar 24X
+
+
+						/Stefan
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vesa speedstar       post john cormack want tell
+slight differ speedstar speedstar 24x   stefan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+speedstar, 8218, 0.799165467737
+stefan, 8368, 0.320759347573
+24x, 69, 0.283067428943
+vesa, 9484, 0.227083213765
+slight, 8034, 0.203613664601
+john, 4878, 0.155544119764
+tell, 8767, 0.134420114241
+differ, 2633, 0.126662354854
+post, 6766, 0.120138085117
+want, 9634, 0.112054738715

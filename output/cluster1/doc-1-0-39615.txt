@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39615
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: chu@TorreyPinesCA.ncr.com (Patrick Chu 3605)
+Subject: Compositing pictures on PC?
+Organization: NCR (Torrey Pines Development Center)
+Disclaimer: This posting does not necessarily reflect the opinions of NCR.
+Lines: 16
+
+
+I was wondering if anyone knows of a graphics package for the PC that
+will do compositing of a series of pictures?
+
+What I mean by "compositing" is, say I have a live video clip
+(digitized) panning around a living room, and a computer-generated
+bird flying around the screen.  I want to combine these two series of
+pictures so that everywhere where the bird frames are black, I want
+the living room picture to show through.  Yes, I realize I can do this
+with a genlock, and I do own a genlock, but I want to be able to do
+manual compositing also.  It's ok if I have to composite one frame at
+a time; I assumed I'd have to do that anyway.  But being able to
+composite a series of frames would be even better.
+
+I've looked around and I haven't found a PC package that will perform
+this.  Help, please!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ composit pictur      wonder anyon know graphic
+packag composit seri pictur  mean composit say
+live video clip digit pan around live room comput
+generat bird fli around screen want combin two
+seri pictur everywher bird frame black want live
+room pictur show yes realiz genlock genlock want
+abl manual composit also it composit one frame
+time assum i'd anyway abl composit seri frame even
+better  i'v look around haven't found packag
+perform help pleas
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+composit, 1982, 0.613092313049
+pictur, 6622, 0.303349960484
+genlock, 3827, 0.290526422901
+frame, 3643, 0.260877889243
+seri, 7805, 0.219799518542
+bird, 1113, 0.211574699651
+live, 5310, 0.19761979658
+room, 7476, 0.180006206805
+packag, 6375, 0.156509008561
+want, 9634, 0.146822867118
+abl, 180, 0.131459069698
+everywher, 3244, 0.114098954531
+pan, 6404, 0.110302524877
+clip, 1821, 0.100618784991
+manual, 5492, 0.0978492770537
+combin, 1921, 0.0871941525543
+digit, 2642, 0.0864985983804
+screen, 7719, 0.0835673770305
+realiz, 7149, 0.0824441213622
+video, 9506, 0.0813869788831
+black, 1133, 0.0785442886091
+generat, 3819, 0.0778284074978
+haven, 4207, 0.0767392110604
+fli, 3542, 0.0767392110604
+perform, 6539, 0.0729427814064
+assum, 710, 0.0697206994416
+yes, 9951, 0.0654454777243
+wonder, 9821, 0.06523534388
+comput, 1993, 0.062287656907
+graphic, 3997, 0.0591504549687
+mean, 5595, 0.0555226121541
+better, 1060, 0.0537476785574
+pleas, 6688, 0.0528518679455
+help, 4249, 0.0527820960564
+anyon, 554, 0.0482785308522
+say, 7653, 0.0456138505383
+look, 5341, 0.0448365637709
+time, 8936, 0.042688156798
+know, 5052, 0.0386989696248

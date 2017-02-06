@@ -1,0 +1,212 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104782
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mtissand@magnus.acs.ohio-state.edu (Michael D Tissandier)
+Subject: Re: Phillies sweep; Reds awful: Reds report 4-14
+Nntp-Posting-Host: bottom.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 63
+
+In article <C5IALu.Jn9@usenet.ucs.indiana.edu> rstimets@silver.ucs.indiana.edu
+(robert and stimets) writes:
+>Actually, I'm not sure that Philly won-- but they were ahead 2-7 in the bottom
+
+>of the eighth. I was going to post the box score but since Cinci was playing
+>so criminally bad, the pub I was at had to turn the game off.
+>
+>So here's what's up:
+>
+>Cincinnati had seven hits, all singles, by the end of the eighth.  This makes
+>it six games with exactly ONE extra base hit.
+>
+>Cincinnati was 0-5 with runners in scoring position.
+>---Now if a team is going to be completely without power, they absolutely
+>HAVE to hit in clutch situations.
+>
+>Cincinnati starter Tom Browning pitched 4.1 innings, giving up 5 runs and 10 h
+its
+>while striking out 5.  He was surely the loser tonight.
+>---Reds starters, while supposedly solid, have won only one game this year.
+>(Of course, the Reds have only won two...)
+>
+>Clean-up batter Sabo went 0-4.  Besides yesterday's homer, he's SUCKED at the
+plate.
+>
+>Dibble may not actually return Friday. This may not mean anything since Cinci
+may
+>not find themselves in a save situation for a while...
+>
+>Speaking of which, The Reds have ha exactly one lead this week... for one-and-
+>a-half innings after Chris' dinger on Tuesday.
+>
+>Manager Tony Perez says the Reds are just not swinging the bat well right now.
+>---Good call, Doggie.
+
+Well, there's a big difference between "just not swinging the bat well" and
+what the Reds are doing at the plate....UUUGGGHHHH!!!!!
+
+  A Reds fan on the verge of a nervous breakdown....
+
+  --Mike
+
+  "Why is it that the prognosis on Kevin Mitchell is 'Out 2-3 days' no matter
+    what day you read it???"
+                            -Gary Burbank
+
+------------------------------------------------------------------------
+  I've told you before and I'll tell you again.  The strong
+   survive and the weak disappear.  We do not intend
+   to disappear.
+
+        ---Jimmy Hoffa
+
+                  mtissand@magnus.acs.ohio-state.edu
+------------------------------------------------------------------------
+
+
+>
+>
+>Cynically yours,
+>
+>
+>RStimets
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli sweep red aw red report     silver uc
+indiana edu  actual i'm sure philli ahead bottom
+eighth go post box score sinc cinci play crimin
+bad pub turn game  here what  cincinnati seven hit
+singl end eighth make six game exact one extra
+base hit  cincinnati runner score posit team go
+complet without power absolut hit clutch situat
+cincinnati starter tom brown pitch inning give run
+strike sure loser tonight red starter suppos solid
+one game year cours red two  clean batter sabo
+went besid yesterday homer he suck plate  dibbl
+actual return friday mean anyth sinc cinci  find
+save situat  speak red exact one lead week one
+half inning chris dinger tuesday  manag toni perez
+say red swing bat well right good call doggi  well
+there big differ swing bat well red plate
+uuuggghhhh  red fan verg nervous breakdown  mike
+prognosi kevin mitchel out day matter day read
+gari burbank   i'v told i'll tell strong surviv
+weak disappear intend disappear  jimmi hoffa
+cynic   rstimet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+red, 7194, 0.452874457371
+cincinnati, 1760, 0.243993801504
+cinci, 1758, 0.204759179663
+eighth, 3016, 0.187246999158
+disappear, 2678, 0.169902708116
+swing, 8635, 0.151498046928
+hit, 4316, 0.148390644254
+starter, 8335, 0.145933252109
+plate, 6674, 0.14351389043
+philli, 6593, 0.135843170713
+inning, 4657, 0.130392267178
+game, 3761, 0.12862672671
+score, 7705, 0.122326949886
+situat, 7995, 0.119412241233
+bat, 942, 0.116234528195
+exact, 3253, 0.112280761892
+dibbl, 2618, 0.107138870393
+breakdown, 1285, 0.107138870393
+rstimet, 7516, 0.104559996576
+dinger, 2657, 0.102379589831
+uc, 9184, 0.0988248362943
+jimmi, 4870, 0.0988248362943
+crimin, 2230, 0.0959864204127
+loser, 5351, 0.0947556753168
+indiana, 4599, 0.0947556753168
+cynic, 2327, 0.0936234995791
+perez, 6537, 0.0915993888522
+sure, 8585, 0.0911021653932
+actual, 254, 0.0909570917864
+sabo, 7564, 0.0898290005455
+sweep, 8629, 0.0875302278748
+silver, 7957, 0.0868401082909
+sinc, 7977, 0.0862368161383
+mitchel, 5783, 0.0843739414102
+day, 2402, 0.0838878083664
+seven, 7820, 0.0827709473134
+clutch, 1849, 0.0813312671681
+tuesday, 9147, 0.0796146608488
+friday, 3690, 0.0792161937762
+brown, 1344, 0.0792161937762
+weak, 9668, 0.0773766383602
+tonight, 8985, 0.0770357870319
+kevin, 4993, 0.0767029564838
+surviv, 8599, 0.0757490234641
+suck, 8515, 0.0757490234641
+chris, 1728, 0.0751470327988
+aw, 829, 0.0745696201512
+yesterday, 9952, 0.0734810334947
+homer, 4355, 0.0734810334947
+gari, 3776, 0.0734810334947
+toni, 8984, 0.0732214914301
+clean, 1799, 0.0732214914301
+runner, 7545, 0.0722284770673
+strike, 8448, 0.0704299121663
+intend, 4700, 0.0694118725172
+solid, 8115, 0.0692167708632
+ahead, 342, 0.0686471108305
+pub, 6971, 0.0684622108687
+besid, 1051, 0.0672314657729
+batter, 949, 0.0672314657729
+extra, 3325, 0.0659447022051
+absolut, 193, 0.0659447022051
+half, 4124, 0.0640751793083
+tom, 8976, 0.0638082912837
+told, 8973, 0.0636767122357
+went, 9704, 0.0631623047954
+strong, 8456, 0.0626659505109
+speak, 8192, 0.0623047910015
+mike, 5710, 0.0610542493375
+return, 7346, 0.0604160367684
+singl, 7983, 0.0586578896097
+box, 1254, 0.0577679958422
+suppos, 8577, 0.0575115904104
+lead, 5172, 0.0574271445138
+save, 7646, 0.0569307902294
+turn, 9158, 0.0562949687761
+report, 7291, 0.0562949687761
+fan, 3381, 0.0562949687761
+posit, 6761, 0.0555383902807
+matter, 5553, 0.0548904306257
+complet, 1975, 0.0546808764869
+manag, 5472, 0.0540039700246
+power, 6783, 0.0525004697425
+week, 9691, 0.0520904513049
+bad, 861, 0.0520904513049
+pitch, 6643, 0.0516359657604
+edu, 3001, 0.0501512704741
+end, 3091, 0.0487620169265
+anyth, 555, 0.0484908652558
+cours, 2190, 0.0484016242932
+big, 1082, 0.0481809545186
+team, 8732, 0.0469648141176
+play, 6681, 0.0466469435346
+tell, 8767, 0.0462212175488
+ll, 5314, 0.0448073881186
+base, 923, 0.0442659001545
+mean, 5595, 0.0437124141756
+differ, 2633, 0.0435536622773
+read, 7135, 0.0430573079929
+right, 7399, 0.0430268566449
+run, 7543, 0.0426072813074
+post, 6766, 0.0413102503256
+good, 3948, 0.0363598229952
+say, 7653, 0.0359113422355
+year, 9943, 0.0355481734886
+make, 5459, 0.0354766454188

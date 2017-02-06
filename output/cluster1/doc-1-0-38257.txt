@@ -1,0 +1,477 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38257
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mogal@deadhead.asd.sgi.com (Joshua Mogal)
+Subject: Re: Hollywood Hits, Virtual Reality
+Organization: Silicon Graphics, Inc.
+Lines: 137
+NNTP-Posting-Host: deadhead.asd.sgi.com
+
+Sorry I missed you Raymond, I was just out in Dahlgren last month...
+
+I'm the Virtual Reality market manager for Silicon Graphics, so perhaps I
+can help a little.
+
+In article <1993Mar17.185725.13487@relay.nswc.navy.mil>,
+rchui@nswc-wo.nswc.navy.mil (Raymond Chui) writes:
+|> Hello, the real reality. Our agency started to express interest in
+|> virtual reality(VR).  So far, we do not know much about VR.  All we
+|> know about are the Hollywood movies "The Terminater 2" and "Lawnmover
+|> Man".  We also know something about VR from ABC news magazine and
+|> Computer Graphics World magazine.
+
+
+Unfortunately, while SGI systems were used to create the special effects
+for both Terminator 2 and Lawnmower Man, those are film-quality computer
+graphics, rendered in software and written to film a frame at a time.  Each
+frame of computer animation for those films took hours to render on
+high-end parallel processing computer systems. Thus, that level of graphics
+would be difficult, if not impossible, to acheive in real time (30 frames
+per second).
+
+
+|> 
+|> We certainly want to know more about VR.  Who are the leading
+|> companies,
+|> agencies, universities?  What machines support VR (i.e. SGI, Sun4,
+|> HP-9000, BIM-6000, etc.)?
+
+
+It depends upon how serious you are and how advanced your application is.
+True immersive visualization (VR), requires the rendering of complex visual
+databases at anywhere from 20 to 60 newly rendered frames per second.  This
+is a similar requirement to that of traditional flight simulators for pilot
+training. If the frame rate is too low, the user notices the stepping of
+the frames as they move their head rapidly around the scene, so the motion
+of the graphics is not smooth and contiguous.  Thus the graphics system
+must be powerful enough to sustain high frame rates while rendering complex
+data representations.
+
+Additionally, the frame rate must be constant.  If the system renders 15
+frames per second at one point, then 60 frames per second the next (perhaps
+due to the scene in the new viewing direction being simpler than what was
+visible before), the user can get heavily distracted by the medium (the
+graphics computer) rather than focusing on the data. To maintain a constant
+frame rate, the system must be able to run in real-time.  UNIX in general
+does not support real-time operation, but Silicon Graphics has modified the
+UNIX kernel for its multi-processor systems to be able to support real-time
+operation, bypassing the usual UNIX process priority-management schemes. 
+Uniprocessor systems running UNIX cannot fundamentally support real-time
+operation (not Sun SPARC10, not HP 700 Series systems, not IBM RS-6000, not
+even SGI's uniprocessor systems like Indigo or Crimson). Only our
+multiprocessor Onyx and Challenge systems support real-time operation due
+to their Symmetric Multi-Processing (SMP) shared-memory architecture.
+
+From a graphics perspective, rendering complex virtual environments
+requires advanced rendering techniques like texture mapping and real-time
+multi-sample anti-aliasing.  Of all of the general purpose graphics systems
+on the market today, only Crimson RealityEngine and Onyx RealityEngine2
+systems fully support these capabilities. The anti-aliasing is particularly
+important, as the crawling jagged edges of aliased polygons is an
+unfortunate distraction when immersed in a virtual environment.
+
+
+|>  What kind of graphics languages are used with VR
+|> (GL, opengl, Phigs, PEX, GKS, etc.)?
+
+You can use the general purpose graphics libraries listed above to develop
+VR applications, but that is starting at a pretty low level. There are
+off-the- shelf software packages available to get you going much faster,
+being targeted directly at the VR application developer. Some of the most
+popular are (in no particular order):
+
+	- Division Inc.		    (Redwood City, CA) - dVS
+	- Sens8 Inc.		    (Sausalito, CA)    - WorldToolKit
+	- Naval Postgraduate School (Monterey, CA)     - NPSnet (FREE!)
+	- Gemini Technology Corp    (Irvine, CA)       - GVS Simation Series
+	- Paradigm Simulation Inc.  (Dallas, TX)       - VisionWorks, AudioWorks
+	- Silicon Graphics Inc.	    (Mountain View,CA) - IRIS Performer
+
+There are some others, but not off the top of my head...
+
+	
+|> What companies are making
+|> interface devices for VR (goggles or BOOM (Binocular Omni-Orientational
+|> Monitor), hamlets, gloves, arms, etc.)?
+
+There are too many to list here, but here is a smattering:
+
+	- Fake Space Labs	    (Menlo Park,CA)    - BOOM
+	- Virtual Technologies Inc. (Stanford, CA)     - CyberGlove
+	- Digital Image Design	    (New York, NY)     - The Cricket (3D input)
+	- Kaiser Electro Optics	    (Carlsbad, CA)     - Sim Eye Helmet Displays
+	- Virtual Research	    (Sunnyvale, CA)    - Flight Helmet display
+	- Virtual Reality Inc.	    (Pleasantville,NY) - Head Mtd Displays, s/w
+	- Software Systems	    (San Jose, CA)     - 3D Modeling software
+	- etc., etc., etc.
+
+
+|> What are those company's
+|> addresses and phone numbers?  Where we can get a list name of VR
+|> experts
+|> and their phone numbers and Email addresses?
+
+
+Read some of the VR books on the market:
+
+	- Virtual Reality - Ken Pimental and Ken Texiera (sp?)
+	- Virtual Mirage
+	- Artificial Reality - Myron Kreuger
+	- etc.
+
+Or check out the newsgroup sci.virtual_worlds
+
+Feel free to contact me for more info.
+
+Regards,
+
+Josh
+
+-- 
+
+
+**************************************************************************
+**				     **					**
+**	Joshua Mogal		     **	Product Manager			**
+**	Advanced Graphics Division   **	  Advanced Graphics Systems	**
+**	Silicon Graphics Inc.	     **	Market Manager			**
+**	2011 North Shoreline Blvd.   **	  Virtual Reality		**
+**	Mountain View, CA 94039-7311 **	  Interactive Entertainment	**
+**	M/S 9L-580		     **					**
+**				     *************************************
+**	Tel:	(415) 390-1460						**
+**	Fax:	(415) 964-8671						**
+**	E-mail:	mogal@sgi.com						**
+**									**
+**************************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hollywood hit virtual realiti     sorri miss
+raymond dahlgren last month  i'm virtual realiti
+market manag silicon graphic perhap help littl
+hello real realiti agenc start express interest
+virtual realiti far know much know hollywood movi
+terminat lawnmov man also know someth abc news
+magazin comput graphic world magazin   unfortun
+sgi system use creat special effect termin lawnmow
+man film qualiti comput graphic render softwar
+written film frame time frame comput anim film
+took hour render high end parallel process comput
+system thus level graphic difficult imposs acheiv
+real time frame per second    certain want know
+lead compani agenc univers machin support sgi sun4
+bim etc   depend upon serious advanc applic true
+immers visual requir render complex visual databas
+anywher newli render frame per second similar
+requir tradit flight simul pilot train frame rate
+low user notic step frame move head rapid around
+scene motion graphic smooth contigu thus graphic
+system must power enough sustain high frame rate
+render complex data represent  addit frame rate
+must constant system render frame per second one
+point frame per second next perhap due scene new
+view direct simpler visibl user get heavili
+distract medium graphic comput rather focus data
+maintain constant frame rate system must abl run
+real time unix general support real time oper
+silicon graphic modifi unix kernel multi processor
+system abl support real time oper bypass usual
+unix process prioriti manag scheme uniprocessor
+system run unix cannot fundament support real time
+oper sun sparc10 seri system ibm even sgi
+uniprocessor system like indigo crimson
+multiprocessor onyx challeng system support real
+time oper due symmetr multi process smp share
+memori architectur  graphic perspect render
+complex virtual environ requir advanc render
+techniqu like textur map real time multi sampl
+anti alias general purpos graphic system market
+today crimson realityengin onyx realityengine2
+system fulli support capabl anti alias particular
+import crawl jag edg alias polygon unfortun
+distract immers virtual environ   kind graphic
+languag use opengl phig pex gks etc  use general
+purpos graphic librari list develop applic start
+pretti low level shelf softwar packag avail get go
+much faster target direct applic develop popular
+particular order  divis inc redwood citi dvs sens8
+inc sausalito worldtoolkit naval postgradu school
+monterey npsnet free gemini technolog corp irvin
+gvs simat seri paradigm simul inc dalla visionwork
+audiowork silicon graphic inc mountain view iri
+perform  other top head   compani make interfac
+devic goggl boom binocular omni orient monitor
+hamlet glove arm etc  mani list smatter  fake
+space lab menlo park boom virtual technolog inc
+stanford cyberglov digit imag design new york
+cricket input kaiser electro optic carlsbad sim
+eye helmet display virtual research sunnyval
+flight helmet display virtual realiti inc
+pleasantvill head mtd display softwar system san
+jose model softwar etc etc etc   compani address
+phone number get list name expert phone number
+email address   read book market  virtual realiti
+ken piment ken texiera virtual mirag artifici
+realiti myron kreuger etc  check newsgroup sci
+virtual world  feel free contact info  regard
+josh       joshua mogal product manag advanc
+graphic divis advanc graphic system silicon
+graphic inc market manag north shorelin blvd
+virtual realiti mountain view interact entertain
+tel fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+virtual, 9536, 0.360653403784
+frame, 3643, 0.315419437067
+graphic, 3997, 0.312074168496
+render, 7277, 0.238906618747
+realiti, 7148, 0.222002228569
+real, 7144, 0.16247807609
+silicon, 7955, 0.140426230395
+support, 8576, 0.122425487585
+time, 8936, 0.112610047077
+alias, 410, 0.110894275646
+unix, 9284, 0.10850436578
+market, 5514, 0.108035099093
+rate, 7108, 0.102840336089
+comput, 1993, 0.102695579154
+oper, 6261, 0.099214068647
+film, 3479, 0.0972245540636
+sgi, 7831, 0.0963780657513
+multi, 5917, 0.0959694754585
+distract, 2751, 0.0957999730316
+manag, 5472, 0.0904754029912
+hollywood, 4349, 0.0897474062591
+advanc, 285, 0.0896056836069
+onyx, 6251, 0.0875871516728
+immers, 4529, 0.0875871516728
+complex, 1976, 0.0869715953485
+helmet, 4248, 0.0841785228339
+second, 7753, 0.0824703380218
+crimson, 2231, 0.0793743303139
+softwar, 8103, 0.0790897840969
+applic, 585, 0.0778441189078
+display, 2734, 0.0765791103863
+head, 4215, 0.0750213640036
+compani, 1958, 0.0739365795308
+boom, 1222, 0.0739295170972
+process, 6890, 0.071843234009
+view, 9510, 0.0694181028917
+general, 3818, 0.0686201830864
+scene, 7671, 0.0673882791445
+requir, 7302, 0.0661173715655
+mountain, 5887, 0.0660326770413
+list, 5298, 0.0650931353959
+simul, 7974, 0.0624650042488
+agenc, 329, 0.0615531239149
+magazin, 5432, 0.0611222183681
+visual, 9547, 0.0605038904281
+constant, 2067, 0.0605038904281
+anti, 542, 0.0599162362777
+ken, 4980, 0.058144495076
+unfortun, 9264, 0.056318025848
+environ, 3139, 0.0551120437576
+divis, 2767, 0.0548599364457
+phone, 6601, 0.0519935991363
+flight, 3544, 0.051513833328
+user, 9366, 0.0511435345458
+know, 5052, 0.0510433468926
+purpos, 6993, 0.0509626364267
+particular, 6442, 0.0496070343235
+low, 5368, 0.0488323403814
+level, 5229, 0.0486094761938
+seri, 7805, 0.048318698493
+free, 3668, 0.0482471055462
+dahlgren, 2337, 0.0478999865158
+technolog, 8743, 0.0470918867518
+sim, 7960, 0.0461956720964
+monterey, 5845, 0.0461956720964
+jag, 4816, 0.0461956720964
+address, 264, 0.046039361531
+perhap, 6540, 0.0458629523669
+direct, 2667, 0.0454049785795
+symmetr, 8645, 0.0448737031296
+multiprocessor, 5921, 0.0448737031296
+mirag, 5753, 0.0448737031296
+hamlet, 4140, 0.0448737031296
+gemini, 3814, 0.0448737031296
+crawl, 2214, 0.0448737031296
+bypass, 1436, 0.0448737031296
+binocular, 1102, 0.0448737031296
+develop, 2588, 0.0441285602982
+data, 2385, 0.0438791069446
+paradigm, 6414, 0.0437935758364
+menlo, 5630, 0.0437935758364
+joshua, 4896, 0.0437935758364
+abc, 170, 0.0437935758364
+abl, 180, 0.0433481237474
+sun4, 8540, 0.0428803412224
+shorelin, 7903, 0.0428803412224
+opengl, 6259, 0.0428803412224
+omni, 6235, 0.0428803412224
+kaiser, 4945, 0.0428803412224
+electro, 3032, 0.0428803412224
+newli, 6030, 0.042089261417
+gks, 3888, 0.042089261417
+sunnyval, 8545, 0.0413914795763
+man, 5471, 0.0409233458399
+prioriti, 6875, 0.0402026465117
+high, 4292, 0.0400700265874
+simpler, 7966, 0.0396871651569
+pex, 6579, 0.0396871651569
+dalla, 2342, 0.0396871651569
+blvd, 1182, 0.0396871651569
+world, 9841, 0.0396826679804
+use, 9363, 0.0392521812662
+kernel, 4991, 0.0392129682781
+number, 6156, 0.0385282064784
+represent, 7295, 0.0383651961901
+phig, 6587, 0.0383651961901
+naval, 5967, 0.0383651961901
+fake, 3368, 0.0383651961901
+artifici, 667, 0.0379828507375
+shelf, 7872, 0.0376236923922
+start, 8334, 0.0375051035347
+scheme, 7680, 0.0369647585486
+iri, 4764, 0.0369647585486
+heavili, 4232, 0.0369647585486
+indigo, 4601, 0.0366608817707
+sustain, 8608, 0.0363718342829
+josh, 4895, 0.0358328903298
+architectur, 617, 0.0358328903298
+run, 7543, 0.035690995911
+rapid, 7100, 0.0355807544775
+entertain, 3127, 0.0351065575987
+new, 6023, 0.0345145744087
+stanford, 8318, 0.0344596284164
+pilot, 6631, 0.0344596284164
+smooth, 8069, 0.0342587855106
+medium, 5614, 0.0340645288183
+textur, 8825, 0.0338764400581
+glove, 3911, 0.0336941395723
+optic, 6273, 0.0335172817127
+focus, 3569, 0.0333455508966
+termin, 8796, 0.0330163385206
+fundament, 3724, 0.0330163385206
+target, 8704, 0.0328583478692
+processor, 6891, 0.0327044613386
+expert, 3298, 0.0327044613386
+perspect, 6564, 0.0325544710912
+anywher, 557, 0.0319898251528
+motion, 5880, 0.0315990704749
+devic, 2591, 0.0315990704749
+databas, 2386, 0.0315990704749
+input, 4662, 0.0314743437981
+fulli, 3718, 0.0314743437981
+corp, 2153, 0.0314743437981
+tel, 8754, 0.0311151854527
+sampl, 7601, 0.0310001469192
+parallel, 6420, 0.0310001469192
+challeng, 1642, 0.0310001469192
+interfac, 4709, 0.0307765619574
+arm, 643, 0.0307765619574
+jose, 4892, 0.0305611091841
+tradit, 9037, 0.0304562516091
+monitor, 5837, 0.0304562516091
+interact, 4704, 0.0304562516091
+visibl, 9541, 0.0303532177369
+techniqu, 8740, 0.0303532177369
+polygon, 6728, 0.0303532177369
+imposs, 4553, 0.0303532177369
+movi, 5892, 0.0302519452141
+share, 7855, 0.0296781779524
+north, 6110, 0.0294986400212
+orient, 6290, 0.0294108710333
+hello, 4247, 0.0293243833904
+train, 9042, 0.029072247538
+faster, 3399, 0.029072247538
+difficult, 2635, 0.0288304058643
+ibm, 4472, 0.0286744942788
+languag, 5113, 0.0285980506592
+qualiti, 7017, 0.0285225808701
+popular, 6746, 0.0285225808701
+digit, 2642, 0.0285225808701
+modifi, 5814, 0.0283744656974
+maintain, 5454, 0.0283744656974
+express, 3315, 0.0283017740084
+edg, 2993, 0.0282299634526
+york, 9960, 0.0280196112377
+lab, 5085, 0.0279511214769
+school, 7685, 0.0278834144734
+eye, 3337, 0.0278164725372
+sci, 7690, 0.0276200689709
+step, 8377, 0.0273679331186
+notic, 6120, 0.0273679331186
+park, 6430, 0.0273065408768
+machin, 5416, 0.0269509762824
+addit, 263, 0.0268937362398
+memori, 5628, 0.0268370439572
+contact, 2078, 0.0268370439572
+san, 7603, 0.0267808890502
+citi, 1775, 0.0267252614272
+hour, 4395, 0.026670151278
+map, 5498, 0.0265614455065
+capabl, 1498, 0.0265614455065
+depend, 2537, 0.0264546985046
+special, 8198, 0.0264020377283
+librari, 5250, 0.0262981000041
+newsgroup, 6032, 0.0261959543991
+took, 8987, 0.0261455345346
+written, 9867, 0.0258517074594
+packag, 6375, 0.0258041224781
+anim, 515, 0.0255717672729
+miss, 5770, 0.0250486955285
+usual, 9377, 0.0250071213345
+like, 5272, 0.0249485726106
+email, 3060, 0.0249248380906
+fax, 3413, 0.0248841211034
+model, 5807, 0.02484368205
+product, 6896, 0.0248035171617
+similar, 7961, 0.0245297384925
+sun, 8539, 0.0244916399797
+month, 5847, 0.0244161701907
+regard, 7224, 0.024268055018
+check, 1682, 0.0241593492465
+perform, 6539, 0.0240526022446
+lead, 5172, 0.0240526022446
+effect, 3005, 0.0237434382746
+info, 4636, 0.0233235575434
+feel, 3429, 0.0232924587931
+design, 2564, 0.0230196807655
+creat, 2217, 0.0229023640938
+sorri, 8142, 0.0228445656029
+research, 7307, 0.0227873255603
+today, 8964, 0.0226465992684
+import, 4551, 0.0224550348271
+power, 6783, 0.0219891294798
+pretti, 6851, 0.0217214565131
+book, 1218, 0.021219870319
+true, 9121, 0.0211330658603
+kind, 5021, 0.0211330658603
+certain, 1619, 0.0209631818665
+order, 6281, 0.020942284849
+hit, 4316, 0.0207171548883
+avail, 811, 0.0205782202522
+news, 6031, 0.0204616729199
+end, 3091, 0.0204233278131
+littl, 5308, 0.0199110324215
+imag, 4512, 0.0198586818747
+far, 3386, 0.0197895930646
+univers, 9282, 0.0196874474597
+read, 7135, 0.0180339856986
+someth, 8126, 0.0174392377302
+help, 4249, 0.0174046936188
+space, 8164, 0.0168046662046
+mani, 5479, 0.0168046662046
+point, 6710, 0.0167222398548
+want, 9634, 0.016138092329
+make, 5459, 0.0148589251382

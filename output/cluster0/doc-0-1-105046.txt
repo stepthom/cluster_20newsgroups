@@ -1,0 +1,168 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105046
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: New Home for the Bosox!!!
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 34
+
+In article <1993Apr15.132741.11322@scott.skidmore.edu> jrogoff@scott.skidmore.edu (jay rogoff) writes:
+>While we're on the multipurpose subject, let's not forget Shea, which
+>was designed to accommodate both the Mets & Jets.  It was the first
+>stadium (I think) to have the box seats on rollers so they could be
+>oriented at right angles for baseball & in parallel for football.
+
+Minor point:  Shea Stadium was designed as a multi-purpose stadium but
+not with the Jets in mind as the tennant.  The New York Football Giants
+had moved to Yankee Stadium (from the Polo Grounds) in 1958 and was
+having problem with stadium management (the City did not own Yankee
+Stadium until 1972).  The idea was to get the Giants to move into Shea.
+When a deal was worked out between the Giants and the Yankees the
+new AFL franchise, the New York Titans, approached the City about using
+the new stadium.  The Titans were playing in Downing Stadium (where the
+Cosmos played soccer in the 70s).  Because Shea Stadium was tied into
+the World's Fair anyway, the city thought it would be a novel idea to
+promote the new franchise and the World's Fair (like they were doing
+with the Mets).  So the deal was worked out.
+
+>Of course, with the Jets gone to Jersey (and a truly good football
+>stadium), the Mets are saddled with a multipurpose stadium where,
+>because it's circular, the seats are almost always too far from the
+>action.  The Mets announcers--Kiner & Murphy in particular--have
+>always hyped it as "beautiful Shea
+>Stadium," a tipoff to how unbeautiful it truly is.
+
+I'm under the impression that when Murph says it, he means it!  As a
+regular goer to Shea, it is not a bad place since they've cleaned and
+renovated the place.  Remember, this is its 30th Year!
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new home bosox     we'r multipurpos let forget
+shea design accommod met jet first stadium think
+box seat roller could orient right angl basebal
+parallel footbal  minor point shea stadium design
+multi purpos stadium jet mind tennant new york
+footbal giant move yanke stadium polo ground
+problem stadium manag citi yanke stadium idea get
+giant move shea deal work giant yanke new afl
+franchis new york titan approach citi use new
+stadium titan play down stadium cosmos play soccer
+70s shea stadium tie world fair anyway citi
+thought novel idea promot new franchis world fair
+like met deal work  cours jet gone jersey truli
+good footbal stadium met saddl multipurpos stadium
+it circular seat almost alway far action met
+announc kiner murphi particular alway hype beauti
+shea stadium tipoff unbeauti truli  i'm impress
+murph say mean regular goer shea bad place sinc
+they'v clean renov place rememb 30th year  scott
+barman met mail list feed follow shell asd com
+subscrib let met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stadium, 8300, 0.615670714744
+shea, 7864, 0.361534452663
+met, 5655, 0.257715069497
+new, 6023, 0.168785192407
+footbal, 3589, 0.164773053937
+multipurpos, 5922, 0.150605853454
+jet, 4860, 0.143403816432
+franchis, 3650, 0.137218246846
+yanke, 9933, 0.13506927828
+giant, 3865, 0.131797242043
+citi, 1775, 0.130693438044
+seat, 7748, 0.112344328199
+titan, 8951, 0.107638954369
+truli, 9127, 0.0958845089113
+york, 9960, 0.0913487621761
+fair, 3363, 0.0817995618075
+deal, 2418, 0.0780737753256
+unbeauti, 9216, 0.075302926727
+tipoff, 8946, 0.075302926727
+tennant, 8787, 0.075302926727
+soccer, 8090, 0.075302926727
+design, 2564, 0.0750481270343
+alway, 457, 0.0729456876226
+saddl, 7575, 0.071387302807
+roller, 7465, 0.0686091234231
+70s, 137, 0.067471678887
+30th, 86, 0.067471678887
+novel, 6128, 0.0664542000779
+place, 6657, 0.0661522921699
+idea, 4482, 0.0660308186018
+kiner, 5023, 0.0655337785363
+jersey, 4855, 0.0655337785363
+world, 9841, 0.0646861687178
+cosmos, 2168, 0.0639205177236
+play, 6681, 0.0636954780447
+barman, 913, 0.0632048483784
+asd, 677, 0.0632048483784
+accommod, 213, 0.0632048483784
+let, 5225, 0.0609960832325
+hype, 4458, 0.0607778755831
+bosox, 1241, 0.0607778755831
+murphi, 5928, 0.0602557421106
+circular, 1768, 0.0584106993679
+shell, 7873, 0.0576054734288
+work, 9833, 0.0547185759735
+promot, 6914, 0.0540840722792
+feed, 3427, 0.0528281340255
+beauti, 978, 0.0528281340255
+angl, 511, 0.0525954211545
+multi, 5917, 0.0521461719285
+subscrib, 8496, 0.0519291489341
+scott, 7713, 0.0507204338396
+parallel, 6420, 0.0505329111158
+tie, 8923, 0.0499912485834
+clean, 1799, 0.0499912485834
+orient, 6290, 0.0479422544557
+gone, 3943, 0.046996046205
+impress, 4554, 0.0464942649356
+approach, 589, 0.0460172733268
+regular, 7234, 0.0448154048237
+minor, 5745, 0.0444129667259
+announc, 524, 0.0443149240886
+forget, 3604, 0.0440266305357
+action, 251, 0.0439324140144
+ground, 4061, 0.0433856387402
+com, 1917, 0.0422187068016
+purpos, 6993, 0.0415367447047
+particular, 6442, 0.0404318705766
+box, 1254, 0.0394405274177
+mind, 5733, 0.0376211207847
+home, 4354, 0.0372386107105
+manag, 5472, 0.0368706760442
+rememb, 7269, 0.0355642400768
+bad, 861, 0.0355642400768
+list, 5298, 0.035369140172
+thought, 8887, 0.0337054968647
+mail, 5447, 0.0331987777878
+cours, 2190, 0.0330457299438
+basebal, 924, 0.032542795517
+far, 3386, 0.0322587421911
+follow, 3578, 0.0317410294633
+problem, 6887, 0.0303821084493
+mean, 5595, 0.0298442181463
+sinc, 7977, 0.0294386663561
+right, 7399, 0.0293761605273
+point, 6710, 0.0272586921101
+good, 3948, 0.0248243092881
+say, 7653, 0.0245181134882
+year, 9943, 0.0242701636206
+think, 8871, 0.0221176885241
+use, 9363, 0.0213281460912
+like, 5272, 0.0203341617297

@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39035
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: abh@genesis.nred.ma.us
+Subject: Creating FLI/FLC Animation Files?
+Organization: Genesis Public Access Unix +1 508 664 0149
+Lines: 15
+
+
+I am looking for a means to add FLI and FLC animation creation
+to a Windows application.  I was hoping for something along the lines
+of AAWIN or AAPLAY by Autodesk but for the creation of these delta 
+compressed animations.  I have FLILIB but this seems to be coded for 
+the Large memory model of DOS with Turbo C. Ideally I would
+like a DLL or Medium model object library, but would settle
+for anything, really.  I've seen other Windows apps with
+FLI/FLC creation, did they hack the FLILIB code into submission?
+
+Any pointers would be appreciated, please send mail directly
+to me and I will summarize the results if there is interest.
+
+- Andrew Hudson
+abh@genesis.nred.ma.us
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ creat fli flc anim file     look mean add fli flc
+anim creation window applic hope someth along line
+aawin aaplay autodesk creation delta compress anim
+flilib seem code larg memori model dos turbo ideal
+like dll medium model object librari settl anyth
+realli i'v seen window app fli flc creation hack
+flilib code submiss  pointer appreci pleas send
+mail direct summar result interest  andrew hudson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+flc, 3532, 0.464139092377
+creation, 2218, 0.324268262936
+anim, 515, 0.276790168039
+fli, 3542, 0.273896823741
+model, 5807, 0.179272889927
+window, 9774, 0.177842992531
+code, 1871, 0.169908361674
+dll, 2777, 0.16667480332
+aaplay, 159, 0.16667480332
+hack, 4111, 0.141481084239
+submiss, 8490, 0.138422307526
+autodesk, 801, 0.138422307526
+app, 576, 0.13704279836
+hudson, 4423, 0.134525189117
+turbo, 9151, 0.130235858359
+summar, 8535, 0.12928570312
+settl, 7817, 0.12928570312
+andrew, 505, 0.125858383256
+medium, 5614, 0.122905423459
+pointer, 6711, 0.12222679588
+ideal, 4483, 0.121569052497
+delta, 2509, 0.119709186637
+compress, 1986, 0.110650168426
+dos, 2825, 0.100848141467
+memori, 5628, 0.0968285300387
+librari, 5250, 0.0948840107082
+applic, 585, 0.0936209866982
+add, 260, 0.0917757262183
+result, 7332, 0.0829488074487
+creat, 2217, 0.0826321353855
+appreci, 587, 0.0826321353855
+send, 7785, 0.0821145562646
+direct, 2667, 0.0819109835516
+seen, 7767, 0.0793371687195
+larg, 5124, 0.0791582976062
+object, 6173, 0.0787175608927
+hope, 4372, 0.0764044984099
+file, 3477, 0.0739653295241
+mail, 5447, 0.0734818684844
+anyth, 555, 0.0732779721214
+line, 5285, 0.0708507434501
+mean, 5595, 0.0660569171209
+realli, 7150, 0.0634270188295
+someth, 8126, 0.0629210786815
+pleas, 6688, 0.062879452625
+look, 5341, 0.0533434048235
+like, 5272, 0.0450074459823

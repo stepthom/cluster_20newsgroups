@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61125
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Eco-Freaks forcing Space Mining.
+Organization: U of Toronto Zoology
+Lines: 22
+
+In article <1993Apr21.212202.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Here is a way to get the commericial companies into space and mineral
+>exploration.
+>
+>Basically get the eco-freaks to make it so hard to get the minerals on earth.
+
+They aren't going to leave a loophole as glaring as space mining.  Quite a
+few of those people are, when you come right down to it, basically against
+industrial civilization.  They won't stop with shutting down the mines here;
+that is only a means to an end for them now.
+
+The worst thing you can say to a true revolutionary is that his revolution
+is unnecessary, that the problems can be corrected without radical change.
+Telling people that paradise can be attained without the revolution is
+treason of the vilest kind.
+
+Trying to harness these people to support spaceflight is like trying to
+harness a buffalo to pull your plough.  He's got plenty of muscle, all
+right, but the furrow will go where he wants, not where you want.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ eco freak forc space mine     way get commerici
+compani space miner explor  basic get eco freak
+make hard get miner earth  aren't go leav loophol
+glare space mine quit peopl come right basic
+industri civil won't stop shut mine mean end
+worst thing say true revolutionari revolut
+unnecessari problem correct without radic chang
+tell peopl paradis attain without revolut treason
+vilest kind  tri har peopl support spaceflight
+like tri har buffalo pull plough he got plenti
+muscl right furrow want want  work one man work
+henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+har, 4164, 0.281263291895
+eco, 2981, 0.281263291895
+revolut, 7365, 0.271267796786
+freak, 3665, 0.271267796786
+miner, 5736, 0.263220571123
+space, 8164, 0.176351663858
+basic, 937, 0.170557416179
+peopl, 6530, 0.168679144759
+treason, 9074, 0.161595665118
+attain, 762, 0.15697132598
+commerici, 1941, 0.153192965791
+revolutionari, 7366, 0.14999840777
+buffalo, 1370, 0.142606816604
+unnecessari, 9295, 0.140631645948
+muscl, 5930, 0.140631645948
+glare, 3892, 0.140631645948
+paradis, 6415, 0.126267136571
+right, 7399, 0.126079035845
+spaceflight, 8168, 0.125345935738
+radic, 7059, 0.123617968089
+tri, 9087, 0.120035155408
+shut, 7925, 0.119160084517
+plenti, 6692, 0.118502136988
+work, 9833, 0.117422855433
+civil, 1778, 0.114940779896
+want, 9634, 0.112904332605
+pull, 6979, 0.104463990363
+zoolog, 9993, 0.104137627611
+worst, 9849, 0.101696738335
+spencer, 8221, 0.100037964762
+industri, 4608, 0.100037964762
+explor, 3307, 0.0980145435454
+henri, 4258, 0.0942763843514
+leav, 5184, 0.0923561592151
+aren, 623, 0.0904310657635
+won, 9820, 0.0883649354596
+stop, 8413, 0.0876220743323
+toronto, 9003, 0.0864862500094
+compani, 1958, 0.0862117611429
+forc, 3594, 0.0858067266258
+correct, 2156, 0.0798115183309
+hard, 4167, 0.0784552845322
+quit, 7043, 0.0759001008216
+chang, 1650, 0.0744592700618
+true, 9121, 0.0739249301654
+kind, 5021, 0.0739249301654
+earth, 2956, 0.0721909347084
+man, 5471, 0.0715763510924
+end, 3091, 0.0714422172491
+support, 8576, 0.0713754744976
+got, 3960, 0.0680008336952
+tell, 8767, 0.0677196406913
+problem, 6887, 0.0651982231759
+mean, 5595, 0.0640439421267
+come, 1923, 0.0600947606851
+thing, 8869, 0.0566149605915
+way, 9666, 0.0542104221512
+say, 7653, 0.0526144338443
+make, 5459, 0.0519775507461
+like, 5272, 0.0436359187106

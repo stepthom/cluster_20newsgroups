@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82802
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+X-Mailer: TMail version 1.17R
+From: "D. C. Sessions" <dcs@witsend.tnet.com>
+Organization: Nobody but me -- really
+Subject: Re: Is THOU SHALT NOT KILL ever applied in the Bible?
+Distribution: world
+Lines: 15
+
+In <1pdj4bINNrtr@crcnis1.unl.edu>, e_p@unl.edu (edgar pearlstein)  wrote:
+#     Are there any places in the Bible where the commandment "Thou 
+#     shalt not kill" is specifically applied?  That is, where someone 
+#     refrained from killing because he remembered the commandment.
+
+  No, for the excellent reason that there IS no such commandment.
+
+  Aside from that, please note that the Abrahamic literary tradition
+  is strong on narrative, light on dialog, and virtually nonexistent
+  w/r/t introspection.
+
+--- D. C. Sessions                            Speaking for myself ---
+--- Note new network address:                dcs@witsend.tnet.com ---
+--- Author (and everything else!) of TMail  (DOS mail/news shell) ---
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+mailer tmail version 17r   thou shalt kill ever
+appli bibl    unl edu edgar pearlstein wrote place
+bibl command thou shalt kill specif appli someon
+refrain kill rememb command  excel reason command
+asid pleas note abraham literari tradit strong
+narrat light dialog virtual nonexist introspect
+session speak  author everyth els tmail dos mail
+news shell
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tmail, 8956, 0.36456911127
+command, 1933, 0.296794346005
+kill, 5012, 0.289389360091
+shalt, 7848, 0.289089311795
+thou, 8886, 0.260745271456
+appli, 584, 0.199765716415
+bibl, 1071, 0.197862897337
+pearlstein, 6499, 0.175798745947
+dialog, 2610, 0.170767961113
+unl, 9288, 0.16665751061
+nonexist, 6101, 0.16665751061
+narrat, 5954, 0.160171700922
+literari, 5306, 0.160171700922
+edgar, 2994, 0.157516275274
+abraham, 189, 0.14922589791
+mailer, 5449, 0.141889230249
+session, 7814, 0.138413893868
+shell, 7873, 0.134483086231
+asid, 687, 0.117971807861
+tradit, 9037, 0.115902001121
+virtual, 9536, 0.114372936593
+excel, 3261, 0.107979714552
+dos, 2825, 0.106368667896
+strong, 8456, 0.0998828582077
+speak, 8192, 0.0993072083727
+everyth, 3242, 0.0971412180743
+wrote, 9871, 0.0956432092975
+author, 796, 0.0924922678705
+light, 5267, 0.0897281911186
+specif, 8203, 0.0894817945638
+version, 9479, 0.0877149592152
+rememb, 7269, 0.0830266375797
+note, 6118, 0.0813427268976
+edu, 3001, 0.0799357896411
+els, 3053, 0.0779407078504
+news, 6031, 0.0778673905163
+mail, 5447, 0.0775043382207
+place, 6657, 0.0772180478929
+someon, 8124, 0.0736717033887
+reason, 7156, 0.0727197916373
+pleas, 6688, 0.0663215356917

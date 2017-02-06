@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84428
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: psyrobtw@ubvmsb.cc.buffalo.edu (Robert Weiss)
+Subject: 23 Apr 93   God's Promise in Matthew 3:11
+Organization: University at Buffalo
+Lines: 8
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsb.cc.buffalo.edu
+
+
+
+	I baptize you with water for repentance.
+	But after me will come one who is more powerful than I,
+	whose sandals I am not fit to carry.
+	He will baptize you with the Holy Spirit and with fire.
+
+	Matthew 3:11 (NIV)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis matthew   news softwar vax vms vnew
+baptiz water repent come one power whose sandal
+fit carri baptiz holi spirit fire  matthew niv
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baptiz, 903, 0.569311900768
+matthew, 5554, 0.398678919551
+niv, 6079, 0.273577995877
+repent, 7287, 0.225337064301
+holi, 4344, 0.211602357897
+spirit, 8238, 0.207932188856
+water, 9657, 0.201499332146
+promis, 6913, 0.180805615325
+vnew, 9564, 0.175179934977
+fit, 3510, 0.173712800235
+vms, 9563, 0.169944605781
+vax, 9439, 0.168034745173
+carri, 1530, 0.162815209659
+power, 6783, 0.142928190508
+god, 3926, 0.135719117907
+news, 6031, 0.13299980283
+softwar, 8103, 0.128519864088
+come, 1923, 0.111665252563

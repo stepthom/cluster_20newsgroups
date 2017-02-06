@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38674
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: richter@fossi.hab-weimar.de (Axel Richter)
+Subject: True Color Display in POV
+Keywords: POV, Raytracing
+Nntp-Posting-Host: fossi.hab-weimar.de
+Organization: Hochschule fuer Architektur und Bauwesen Weimar, Germany
+Lines: 6
+
+
+Hallo POV-Renderers !
+I've got a BocaX3 Card. Now I try to get POV displaying True Colors
+while rendering. I've tried most of the options and UNIVESA-Driver
+but what happens isn't correct.
+Can anybody help me ?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ true color display pov       hallo pov render i'v
+got bocax3 card tri get pov display true color
+render i'v tri option univesa driver happen isn't
+correct anybodi help
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pov, 6778, 0.576300960417
+render, 7277, 0.36016013453
+display, 2734, 0.307855209633
+color, 1907, 0.287164475407
+univesa, 9283, 0.264081426416
+true, 9121, 0.254870723404
+tri, 9087, 0.206922392921
+driver, 2876, 0.179517467405
+option, 6276, 0.172911236552
+card, 1513, 0.153386316389
+anybodi, 552, 0.145253857387
+correct, 2156, 0.137582946426
+isn, 4783, 0.130840256186
+happen, 4159, 0.125909534652
+got, 3960, 0.117223118352
+help, 4249, 0.104952752302

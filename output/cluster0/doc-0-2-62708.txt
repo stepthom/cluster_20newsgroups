@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62708
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cab@col.hp.com (Chris Best)
+Subject: Re: Space Marketing -- Boycott
+Organization: your service
+Lines: 14
+NNTP-Posting-Host: hpctdkz.col.hp.com
+
+> According to the person I talked to, the proposed "billboard"
+> will be too small to resolve with the naked eye -- so small
+> and visually unimportant... 
+> 
+>   Anyway, he suggested that the
+> visual impact would approximate that of a jumbo jet
+> at 45k feet (12km) altitude.
+
+----------
+
+Are you sure he didn't tailor his comments according to what he guessed
+you wanted to hear?  In other words, LIE?  Think about it - what good 
+would a billboard do for an advertiser if nobody can see it?  Who would
+advertise, telescope companies?  Pretty narrow audience here.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market boycott     accord person talk
+propos billboard small resolv nake eye small
+visual unimport  anyway suggest visual impact
+approxim jumbo jet 45k feet 12km altitud    sure
+didn't tailor comment accord guess want hear word
+lie think good billboard advertis nobodi see
+advertis telescop compani pretti narrow audienc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+advertis, 291, 0.309725618216
+billboard, 1090, 0.299551799884
+visual, 9547, 0.296521457526
+accord, 219, 0.260878477247
+small, 8054, 0.226216346874
+tailor, 8675, 0.219920004522
+boycott, 1257, 0.206273828893
+nake, 5950, 0.194501477081
+audienc, 777, 0.18802268436
+resolv, 7317, 0.179670067824
+narrow, 5955, 0.179670067824
+altitud, 452, 0.156125364199
+feet, 3430, 0.151374516086
+impact, 4534, 0.150831805107
+approxim, 593, 0.150299052691
+telescop, 8764, 0.147772747662
+nobodi, 6088, 0.146820721649
+jet, 4860, 0.143714872588
+lie, 5258, 0.140529853158
+eye, 3337, 0.136324803605
+market, 5514, 0.132366385121
+hear, 4223, 0.125323803967
+propos, 6933, 0.121953742257
+compani, 1958, 0.120784422136
+comment, 1936, 0.116527908713
+guess, 4079, 0.112527470239
+suggest, 8525, 0.11071659808
+pretti, 6851, 0.106453946999
+word, 9829, 0.10399574029
+talk, 8684, 0.098188914818
+didn, 2625, 0.0969861431693
+person, 6562, 0.096734763313
+sure, 8585, 0.0935010260598
+space, 8164, 0.0823574167042
+want, 9634, 0.0790906274821
+good, 3948, 0.0746344665405
+think, 8871, 0.0664969915152

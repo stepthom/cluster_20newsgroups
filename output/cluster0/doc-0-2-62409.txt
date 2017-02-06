@@ -1,0 +1,46 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62409
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: SDIO kaput!
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 6
+NNTP-Posting-Host: access.digex.net
+
+
+Not to mention how those those liberal presidents, Nixon, Ford,
+Reagan, Bush.   did nothing to support  true commercial space
+activities.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sdio kaput      mention liber presid nixon ford
+reagan bush noth support true commerci space activ
+pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+reagan, 7143, 0.368739398428
+ford, 3595, 0.348513885599
+bush, 1423, 0.343258265773
+sdio, 7735, 0.308682523219
+nixon, 6080, 0.308682523219
+liber, 5247, 0.290148096145
+presid, 6839, 0.238911374834
+pat, 6458, 0.221428494708
+activ, 252, 0.213062105805
+commerci, 1940, 0.210908580635
+mention, 5632, 0.199637361854
+noth, 6119, 0.181510455933
+true, 9121, 0.17793920326
+support, 8576, 0.171802598068
+space, 8164, 0.14149432625

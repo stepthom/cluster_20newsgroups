@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104439
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert)
+Subject: Re: Notes on Jays vs. Indians Series
+Organization: Computer Science Department at Rose-Hulman
+Lines: 19
+Distribution: na
+Reply-To: rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert)
+NNTP-Posting-Host: g215a-1.nextwork.rose-hulman.edu
+
+In article <C5HpCv.4HL@andy.bgsu.edu> klopfens@andy.bgsu.edu (Bruce  
+Klopfenstein) writes:
+> cmk@athena.mit.edu (Charles M Kozierok) writes:
+> > In article <1993Apr13.195301.22652@CSD-NewsHost.Stanford.EDU>  
+nlu@Xenon.Stanford.EDU (Nelson Lu) writes:
+> > } Guess which line is which:
+> > } 	BA	OBP	SLG	AB	H	2B	3B	HR	BB
+> > } X	.310	.405	.427	571	177	27	8	8	87
+> > } Y	.312	.354	.455	657	205	32	1	20	35
+> I just love how the Alomar fans left RBIs off this list.  Give me a break!
+A little delayed, but in the interests of fairness (stats from Elias);
+        BA    OBP   SLG  R  HR RBI RNI  %   outs
+Alomar .310  .405  .427 105  8  76 264 20.5 419
+Baerga .312  .354  .455  92 20 105 316 21.2 480
+
+So we see that Baerga has a large advantage in RBI (runs batted in), RNI  
+(runners not driven in) and outs. 
+
+john rickert	rickert@nextwork.rose-hulman.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ note jay indian seri       andi bgsu edu bruce
+guess line obp slg   love alomar fan left rbis
+list give break littl delay interest fair stat
+elia obp slg rbi rni out alomar baerga  see baerga
+larg advantag rbi run bat rni runner driven out
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baerga, 863, 0.344704192498
+slg, 8028, 0.3385361425
+alomar, 436, 0.316114883965
+obp, 6177, 0.312253550898
+rbi, 7124, 0.301996695431
+elia, 3042, 0.193746024837
+andi, 502, 0.181136507181
+rbis, 7125, 0.178346667217
+driven, 2875, 0.174604835554
+delay, 2500, 0.172352096249
+bruce, 1347, 0.166478231286
+indian, 4598, 0.150998347715
+runner, 7545, 0.149470809943
+advantag, 286, 0.142840081828
+break, 1284, 0.134026385086
+stat, 8341, 0.132878349135
+jay, 4832, 0.130709122481
+fair, 3363, 0.123969114284
+bat, 942, 0.120268831479
+seri, 7805, 0.119368109192
+left, 5193, 0.116497743277
+fan, 3381, 0.116497743277
+love, 5366, 0.116177836654
+guess, 4079, 0.11344590208
+larg, 5124, 0.108400395548
+list, 5298, 0.107205488226
+note, 6118, 0.105610555584
+edu, 3001, 0.103783871982
+littl, 5308, 0.0983777446964
+line, 5285, 0.0970239235445
+run, 7543, 0.0881722155178

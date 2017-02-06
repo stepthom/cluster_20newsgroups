@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104906
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: erics@netcom.com (Eric Smith)
+Subject: Re: Infield Fly Rule
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 31
+
+jrogoff@scott.skidmore.edu (jay rogoff) writes:
+
+>One last infield fly question that has always puzzled me and hasn't
+>yet been addressed.  I believe the rule also does *not* deal with this
+>situation:
+
+>If Infield Fly is declared and the ball is caught, runners can tag up
+>and advance at their own risk, as on any fly ball.
+
+>However, if the Infield Fly is *not* caught, at what point can a
+>runner legally leave his base w/o fear of being doubled off for
+>advancing too early?  When the
+>ball hits the ground?  When a fielder first touches the ball after it
+>hits the ground?
+
+>Enlightenment would be appreciated.
+
+I'm not sure I understand this question. When the IF rule is invoked,
+the batter is automatically out. This relieves the runners from being
+forced to advance to the next base if the ball is not caught. Other
+than that, isn't it just the same as any situation in which a runner on
+a base is not forced to the next base on a dropped fly ball? That is,
+if the ball is caught he can tag up and run (or decide to stay), and
+if the ball is dropped he can have left the base at any time.
+
+-----
+Eric Smith
+erics@netcom.com
+erics@infoserv.com
+CI$: 70262,3610
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ infield fli rule      one last infield fli
+question alway puzzl hasn't yet address believ
+rule also deal situat  infield fli declar ball
+caught runner tag advanc risk fli ball  howev
+infield fli caught point runner legal leav base
+fear doubl advanc earli ball hit ground fielder
+first touch ball hit ground  enlighten appreci
+i'm sure understand question rule invok batter
+automat reliev runner forc advanc next base ball
+caught isn't situat runner base forc next base
+drop fli ball ball caught tag run decid stay ball
+drop left base time   eric smith
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ball, 877, 0.449864169862
+fli, 3542, 0.368485056755
+infield, 4627, 0.325387099915
+caught, 1568, 0.310558491064
+runner, 7545, 0.293687083707
+base, 923, 0.224986107486
+tag, 8673, 0.180982463651
+rule, 7537, 0.18001614422
+advanc, 285, 0.163105411792
+drop, 2878, 0.139186563739
+ground, 4061, 0.129192402843
+situat, 7995, 0.121385062757
+forc, 3594, 0.119067836977
+hit, 4316, 0.100561480573
+puzzl, 6999, 0.097572221619
+enlighten, 3116, 0.0913130744053
+invok, 4749, 0.0882748023642
+question, 7032, 0.0870457452945
+declar, 2447, 0.0841384143732
+reliev, 7258, 0.0805249323989
+risk, 7416, 0.0801309808856
+fielder, 3467, 0.0793740518732
+touch, 9015, 0.0786549855048
+automat, 803, 0.0752376638822
+fear, 3417, 0.0749637826345
+hasn, 4195, 0.0736675603437
+eric, 3170, 0.0729424488498
+legal, 5200, 0.0720292320947
+smith, 8064, 0.0703603080246
+stay, 8355, 0.0686886860783
+batter, 949, 0.0683422035112
+doubl, 2828, 0.0670341811945
+leav, 5184, 0.0640780072941
+decid, 2442, 0.0622858569904
+earli, 2951, 0.0596269824429
+deal, 2418, 0.0581214137109
+left, 5193, 0.057225023559
+address, 264, 0.0558689934155
+appreci, 587, 0.0555842646903
+alway, 457, 0.0543038487771
+isn, 4783, 0.0526605616281
+understand, 9246, 0.0515539903231
+howev, 4406, 0.049567619062
+sure, 8585, 0.0463036366681
+believ, 1009, 0.0444021711707
+run, 7543, 0.0433112004431
+point, 6710, 0.0405850418977
+time, 8936, 0.0341632125722

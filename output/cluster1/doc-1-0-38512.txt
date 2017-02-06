@@ -1,0 +1,243 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38512
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: bosch@rz.uni-karlsruhe.de (Gerhard Bosch)
+Subject: Re: Newsgroup Split
+Organization: University of Karlsruhe, Germany
+Lines: 55
+Distribution: world
+NNTP-Posting-Host: ifh-hp2.bau-verm.uni-karlsruhe.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+In article <NERONE.93Apr20085951@sylvester.cc.utexas.edu>, nerone@ccwf.cc.utexas.edu (Michael Nerone) writes:
+|> In article <1quvdoINN3e7@srvr1.engin.umich.edu>, tdawson@engin.umich.edu (Chris Herringshaw) writes:
+|> 
+|>   CH> Concerning the proposed newsgroup split, I personally am not in
+|>   CH> favor of doing this.  I learn an awful lot about all aspects of
+|>   CH> graphics by reading this group, from code to hardware to
+|>   CH> algorithms.  I just think making 5 different groups out of this
+|>   CH> is a wate, and will only result in a few posts a week per group.
+|>   CH> I kind of like the convenience of having one big forum for
+|>   CH> discussing all aspects of graphics.  Anyone else feel this way?
+|>   CH> Just curious.
+|> 
+|> I must agree.  There is a dizzying number of c.s.amiga.* newsgroups
+|> already.  In addition, there are very few issues which fall cleanly
+|> into one of these categories.
+|> 
+|> Also, it is readily observable that the current spectrum of amiga
+|> groups is already plagued with mega-crossposting; thus the group-split
+|> would not, in all likelihood, bring about a more structured
+|> environment.
+|> 
+|> --
+|>    /~~~~~~~~~~~~~~~~~~~\/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+|>   /    Michael Nerone   \"I shall do so with my customary lack of tact; and\
+|>  /   Internet Address:   \since you have asked for this, you will be obliged\
+|> /nerone@ccwf.cc.utexas.edu\to pardon it."-Sagredo, fictional char of Galileo.\
+
+Hi,
+It might be nice to know, what's possible on different hard ware platforms.
+But usually the hard ware is fixed ( in my case either Unix or DOS- PC ).
+So I'm not much interested in Amiga news. 
+
+In the case of Software, I won't get any comercial software mentioned in this
+newgroup to run on a Unix- platform, so I'm not interested in this information.
+
+I would suggest to split the group. I don't see the problem of cross-posting.
+Then you need to read just 2 newgroups with half the size. 
+
+BUT WHAT WOULD BE MORE IMPORTANT IS TO HAVE A FAQ. THIS WOULD REDUCE THE
+TRAFFIC A LOT.
+
+Sincerely, Gerhard
+-- 
+I'm writing this as a privat person, not reflecting any opinions of the Inst.
+of Hydromechanics,  the University of Karlsruhe, the Land Baden-Wuerttemberg,
+the Federal Republic of Germany and  the European Community.  The address and
+phone number below  are just to get in touch with me.  Everything I'm saying, 
+writing and typing is always wrong ! (Statement necessary to avoid law suits)
+=============================================================================
+-    Dipl.-Ing. Gerhard Bosch M.Sc.             voice:(0721) - 608 3118     -
+-    Institute for Hydromechanic                  FAX:(0721) - 608 4290     -
+-    University of Karlsruhe, Kaiserstrasse 12, 7500-Karlsruhe, Germany     -
+-    Internet: bosch@ifh-hp2.bau-verm.uni-karlsruhe.de                      -
+-      Bitnet: nd07@DKAUNI2.BITNET                                          -
+=============================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ newsgroup split     mime version content type
+text plain charset iso content transfer encod 8bit
+concern propos newsgroup split person favor learn
+aw lot aspect graphic read group code hardwar
+algorithm think make differ group wate result post
+week per group kind like conveni one big forum
+discuss aspect graphic anyon els feel way curious
+must agre dizzi number amiga newsgroup alreadi
+addit issu fall clean one categori  also readili
+observ current spectrum amiga group alreadi plagu
+mega crosspost thus group split likelihood bring
+structur environ    michael neron shall customari
+lack tact internet address sinc ask oblig    might
+nice know what possibl differ hard ware platform
+usual hard ware fix case either unix dos i'm much
+interest amiga news  case softwar won't get
+comerci softwar mention newgroup run unix platform
+i'm interest inform  suggest split group don't see
+problem cross post need read newgroup half size
+import faq reduc traffic lot  sincer gerhard  i'm
+write privat person reflect opinion inst
+hydromechan univers karlsruh land baden
+wuerttemberg feder republ germani european
+communiti address phone number get touch everyth
+i'm say write type alway wrong statement necessari
+avoid law suit  dipl ing gerhard bosch voic
+institut hydromechan fax univers karlsruh
+kaiserstrass karlsruh germani
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+karlsruh, 4959, 0.296501060541
+group, 4064, 0.272459603078
+split, 8247, 0.270182051684
+amiga, 472, 0.203354807465
+ware, 9637, 0.192909443984
+newsgroup, 6032, 0.173088640329
+germani, 3855, 0.1509089664
+content, 2084, 0.133258949954
+platform, 6676, 0.132388990596
+aspect, 693, 0.12955404234
+unix, 9284, 0.119489653863
+alreadi, 443, 0.104589163784
+type, 9177, 0.101928249943
+charset, 1673, 0.101745304516
+address, 264, 0.10140103274
+plagu, 6658, 0.0988336868469
+mime, 5731, 0.0988336868469
+inst, 4677, 0.0988336868469
+customari, 2312, 0.0988336868469
+hard, 4167, 0.0987954325353
+tact, 8669, 0.0964547219921
+iso, 4784, 0.094443335867
+dizzi, 2772, 0.0927009939539
+comerci, 1925, 0.0927009939539
+case, 1540, 0.0907330244711
+write, 9865, 0.089964172541
+likelihood, 5273, 0.0897893762852
+republ, 7299, 0.0885457517131
+readili, 7140, 0.0885457517131
+ing, 4642, 0.0885457517131
+mega, 5617, 0.0874104114304
+softwar, 8103, 0.0870970569517
+person, 6562, 0.0869466452155
+univers, 9282, 0.0867226407157
+graphic, 3997, 0.0859173594194
+wate, 9656, 0.0853990253053
+crosspost, 2243, 0.0853990253053
+number, 6156, 0.0848578215812
+8bit, 148, 0.0844987937617
+sincer, 7978, 0.0828656422933
+lot, 5356, 0.0814251053075
+traffic, 9038, 0.0814143499638
+encod, 3086, 0.0807450657235
+differ, 2633, 0.0803549449937
+oblig, 6175, 0.0795014411514
+read, 7135, 0.079439189139
+spectrum, 8213, 0.0783661008687
+post, 6766, 0.0762159303954
+conveni, 2112, 0.0742108586279
+plain, 6659, 0.0723700394021
+forum, 3620, 0.0723700394021
+touch, 9015, 0.0713785614588
+european, 3222, 0.0710641322201
+transfer, 9052, 0.0701639006766
+feder, 3425, 0.0701639006766
+categori, 1560, 0.0695964990219
+favor, 3410, 0.069052746095
+reflect, 7216, 0.0687891374931
+aw, 829, 0.0687891374931
+reduc, 7204, 0.0677849358218
+clean, 1799, 0.067545512921
+cross, 2241, 0.0661944952982
+avoid, 827, 0.0661944952982
+voic, 9567, 0.0657735496967
+suit, 8529, 0.0657735496967
+communiti, 1953, 0.0649703311056
+shall, 7846, 0.0643987865132
+necessari, 5990, 0.0642137028143
+fix, 3511, 0.0642137028143
+privat, 6879, 0.0634985549697
+curious, 2297, 0.0633257288405
+internet, 4717, 0.0626564446001
+dos, 2825, 0.0615619437311
+faq, 3385, 0.0609754098413
+environ, 3139, 0.0606917425391
+size, 8000, 0.0605521884602
+lack, 5092, 0.0604141111718
+institut, 4683, 0.0600084355333
+fall, 3369, 0.0597448269314
+structur, 8460, 0.0594864386465
+michael, 5680, 0.0594864386465
+addit, 263, 0.0592330679282
+half, 4124, 0.0591082039898
+statement, 8343, 0.0588620045726
+text, 8822, 0.0583831184584
+hardwar, 4173, 0.0582660936202
+phone, 6601, 0.0572575777872
+algorithm, 407, 0.056729239135
+concern, 2004, 0.0564222089223
+everyth, 3242, 0.0562214637013
+law, 5153, 0.0560237601919
+won, 9820, 0.0556371191038
+land, 5104, 0.0555422228165
+learn, 5182, 0.0554480117069
+bring, 1316, 0.0551693922526
+usual, 9377, 0.0550778256874
+propos, 6933, 0.0548069194444
+fax, 3413, 0.0548069194444
+observ, 6179, 0.0542814182788
+issu, 4793, 0.0532106198359
+nice, 6047, 0.0528210929396
+mention, 5632, 0.0522210708129
+code, 1871, 0.0518596022131
+feel, 3429, 0.0513013060591
+version, 9479, 0.0507659209277
+result, 7332, 0.0506354380204
+agre, 337, 0.0505062470443
+discuss, 2708, 0.0501887573665
+suggest, 8525, 0.0497568632154
+import, 4551, 0.0494568917976
+alway, 457, 0.0492801642834
+opinion, 6266, 0.0488768771096
+week, 9691, 0.048052507303
+wrong, 9869, 0.0478937039392
+current, 2299, 0.0472771396979
+kind, 5021, 0.046545274129
+ask, 689, 0.0451942565062
+els, 3053, 0.0451089739673
+news, 6031, 0.0450665408177
+big, 1082, 0.0444460666182
+inform, 4637, 0.0428867887179
+possibl, 6765, 0.0427796894956
+problem, 6887, 0.0410506870098
+sinc, 7977, 0.0397759582943
+run, 7543, 0.0393044530216
+need, 5993, 0.0350825185553
+anyon, 554, 0.0350628231825
+way, 9666, 0.0341324496895
+say, 7653, 0.0331275692915
+make, 5459, 0.0327265692726
+think, 8871, 0.0298842429089
+don, 2811, 0.0295963074499
+know, 5052, 0.0281055596628
+like, 5272, 0.0274744364818

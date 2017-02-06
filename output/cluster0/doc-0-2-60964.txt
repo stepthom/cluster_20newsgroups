@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60964
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+From: Robert Coe <bob@1776.COM>
+Distribution: world
+Organization: 1776 Enterprises, Sudbury MA
+Lines: 23
+
+jgarland@kean.ucs.mun.ca writes:
+
+> >> Also, perihelions of Gehrels3 were:
+> >> 
+> >> April  1973     83 jupiter radii
+> >> August 1970     ~3 jupiter radii
+> > 
+> > Where 1 Jupiter radius = 71,000 km = 44,000 mi = 0.0005 AU.  So the
+> > 1970 figure seems unlikely to actually be anything but a perijove.
+> > Is that the case for the 1973 figure as well?
+> > -- 
+> Sorry, _perijoves_...I'm not used to talking this language.
+
+Hmmmm....  The prefix "peri-" is Greek, not Latin, so it's usually used
+with the Greek form of the name of the body being orbited.  (That's why
+it's "perihelion" rather than "perisol", "perigee" rather than "periterr",
+and "pericynthion" rather than "perilune".)  So for Jupiter I'd expect it
+to be something like "perizeon".)   :^)
+
+   ___            _                                           -  Bob
+   /__) _   /    / ) _   _
+(_/__) (_)_(_)  (___(_)_(/_______________________________________ bob@1776.COM
+Robert K. Coe ** 14 Churchill St, Sudbury, Massachusetts 01776 ** 508-443-3265
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+comet temporari orbit around jupit        also
+perihelion gehrels3  april jupit radii august
+jupit radii  jupit radius figur seem unlik actual
+anyth perijov case figur well  sorri perijov i'm
+use talk languag  hmmmm prefix peri greek latin it
+usual use greek form name bodi orbit that it
+perihelion rather perisol perige rather periterr
+pericynthion rather perilun jupit i'd expect
+someth like perizeon  bob   robert coe churchil
+sudburi massachusett
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jupit, 4932, 0.549801254755
+perijov, 6544, 0.304200692594
+radii, 7060, 0.293638445863
+perihelion, 6543, 0.285204654729
+greek, 4023, 0.240325431994
+figur, 3476, 0.178597287033
+prefix, 6820, 0.159170976515
+perige, 6542, 0.159170976515
+peri, 6541, 0.155339669891
+orbit, 6280, 0.15211768394
+gehrels3, 3810, 0.149294316566
+massachusett, 5534, 0.140773869607
+latin, 5143, 0.140773869607
+churchil, 1747, 0.132253422647
+temporari, 8778, 0.121518928986
+radius, 7064, 0.116551453351
+august, 784, 0.113953828711
+comet, 1926, 0.109559972033
+unlik, 9290, 0.104322949434
+languag, 5113, 0.101439803991
+robert, 7437, 0.0946013751184
+use, 9363, 0.0928206289613
+bob, 1189, 0.0923873284166
+bodi, 1194, 0.0910311154276
+usual, 9377, 0.0887024614649
+april, 595, 0.0872820555153
+form, 3610, 0.0842200663731
+expect, 3290, 0.0814437384248
+sorri, 8142, 0.0810316858534
+case, 1540, 0.0730624575887
+anyth, 555, 0.0720405054347
+talk, 8684, 0.0710659564074
+actual, 254, 0.0675652499765
+someth, 8126, 0.0618585119032
+like, 5272, 0.0442473919927

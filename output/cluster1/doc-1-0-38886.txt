@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38886
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kenyee@sneakers (Ken Yee)
+Subject: Re: TIFF -> Anything?!
+Lines: 11
+
+In article <1993Apr21.170403.22855@yang.earlham.edu>  
+joshuaf@yang.earlham.edu writes:
+> Are there any TIFF to anything programs out there for the IBM?
+> Our scanner works into TIFF, and I can view it on CSHOW 8.1, but 
+> all of my other programs read errors.  Are there any basic Tiff to 
+> JPEG, GIF, PCX, BMP, etc...?
+  Try WinJPEG on oak.oakland.edu:pub/msdos/windows3/winjp210.zip
+  It has more TIFF support than graphics workshop.  It also converts to
+  all the above formats...
+
+ ken
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+kenye sneaker ken yee tiff anyth     tiff anyth
+program ibm scanner work tiff view cshow program
+read error basic tiff jpeg gif pcx bmp etc tri
+winjpeg oak oakland edu pub msdos windows3
+winjp210 zip tiff support graphic workshop also
+convert format  ken
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiff, 8926, 0.626376333241
+ken, 4980, 0.247665807535
+yee, 9944, 0.191139021986
+winjp210, 9784, 0.191139021986
+winjpeg, 9785, 0.186538232213
+windows3, 9775, 0.182648319886
+cshow, 2272, 0.17927872456
+anyth, 555, 0.173018373747
+program, 6905, 0.156656791733
+bmp, 1183, 0.151555814164
+workshop, 9839, 0.149535978016
+scanner, 7663, 0.148583620445
+pcx, 6490, 0.14509746842
+oak, 6166, 0.14509746842
+msdos, 5903, 0.142034990238
+oakland, 6167, 0.139304276645
+zip, 9988, 0.136840420587
+jpeg, 4905, 0.129289181586
+pub, 6971, 0.122138678338
+ibm, 4472, 0.122138678338
+error, 3180, 0.113835943443
+gif, 3869, 0.106517545493
+basic, 937, 0.103841187291
+convert, 2115, 0.101421660591
+format, 3612, 0.100992735581
+view, 9510, 0.0985618700891
+edu, 3001, 0.0894714005721
+support, 8576, 0.0869116592092
+graphic, 3997, 0.0830797705465
+read, 7135, 0.0768155545127
+tri, 9087, 0.0730815072922
+work, 9833, 0.071491049738

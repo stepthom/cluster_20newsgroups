@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102661
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: genetic+@pitt.edu (David M. Tate)
+Subject: Re: Pinch Hitters (WAS Re: Denny Walling)
+Article-I.D.: blue.7960
+Organization: Department of Industrial Engineering
+Lines: 20
+
+rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert) said:
+>
+>(And I thought Mota didn't really start pinch-hitting for a 
+>living until after 1973)
+
+Depends on what you mean by "for a living".  1974 was the year he led the
+league in pinch-hit at bats with 50, but he'd been getting a lot of PH ABs
+earlier than that, and was never a full-time player.  20-35 PH ABs early in
+his career, 15-20 a year just before going to the Dodgers, and 30-50 in the
+peak years.
+
+We're talking about a guy with a 20-year career as an outfielder, a .300+
+career batting average, and 1130 or so career hits.  
+
+
+-- 
+  David M. Tate   |  (i do not know what it is about you that closes
+  posing as:      |  and opens; only something in me understands
+   e e (can       |  the pocket of your glove is deeper than Pete Rose's)
+     dy) cummings |  nobody, not even Tim Raines, has such soft hands
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pinch hitter denni wall articl blue      thought
+mota didn't realli start pinch hit live  depend
+mean live year led leagu pinch hit bat he'd get
+lot ab earlier never full time player ab earli
+career year go dodger peak year  we'r talk guy
+year career outfield career bat averag career hit
+david tate know close pose open someth understand
+pocket glove deeper pete rose cum nobodi even tim
+rain soft hand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+career, 1517, 0.40288073075
+pinch, 6632, 0.348086165298
+ab, 163, 0.278938687365
+hit, 4316, 0.228214149739
+year, 9943, 0.21868214747
+bat, 942, 0.178760353496
+mota, 5875, 0.164771885273
+live, 5310, 0.159518162796
+pocket, 6707, 0.157452453701
+cum, 2292, 0.151985498152
+tate, 8709, 0.149693543568
+deeper, 2467, 0.143986215974
+pose, 6759, 0.139469343683
+denni, 2526, 0.125794937393
+soft, 8097, 0.125081645661
+rain, 7074, 0.125081645661
+peak, 6496, 0.123721612276
+glove, 3911, 0.123721612276
+outfield, 6325, 0.121232792559
+rose, 7481, 0.120652666212
+pete, 6574, 0.119536860158
+led, 5188, 0.117463535042
+tim, 8935, 0.115570737507
+dodger, 2791, 0.112217428585
+wall, 9619, 0.110003303956
+nobodi, 6088, 0.110003303956
+earlier, 2952, 0.105862453869
+blue, 1176, 0.100266969445
+depend, 2537, 0.0971390868804
+hitter, 4322, 0.0925979497247
+averag, 816, 0.0925979497247
+earli, 2951, 0.0902116199445
+david, 2397, 0.0878069529392
+leagu, 5176, 0.0873068516315
+open, 6258, 0.0863398724902
+close, 1830, 0.0824527098123
+guy, 4100, 0.0816757183311
+hand, 4145, 0.0789025357571
+understand, 9246, 0.0779977250417
+thought, 8887, 0.075924399925
+player, 6683, 0.0750627645673
+talk, 8684, 0.0735666254767
+didn, 2625, 0.0726654662005
+articl, 665, 0.0701102860346
+start, 8334, 0.0688575511469
+lot, 5356, 0.0678744694149
+mean, 5595, 0.0672265524843
+realli, 7150, 0.0645500879562
+someth, 8126, 0.06403518939
+time, 8936, 0.0516866462528
+know, 5052, 0.0468565546835

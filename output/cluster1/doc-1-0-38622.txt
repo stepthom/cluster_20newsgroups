@@ -1,0 +1,192 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38622
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: scott@fcs280s.ncifcrf.gov (Michael Scott)
+Subject: Canon copier-printer/postscript questions.
+Nntp-Posting-Host: fcs280s.ncifcrf.gov
+Organization: Frederick Cancer Research and Development Center
+Lines: 53
+
+
+Printer model and specification:
+
+Canon CLC 500 (Color Laser Copier)
+ps-ipu unit (postscript intelligent processing unit)
+
+
+Hello,
+
+We have recently purchased a very expensive and nice color copier/printer. 
+We want to be able to print to it from our SGI iris network.  The 
+copier/printer has both a parallel and SCSI interface.  I have configured the
+printer with the "lp" system using the parallel interface and can print 
+postscript files to the printer.  I can also print rgb files, but these are in 
+turn converted to postscript by an internal filter.  The Canon CLC 500 is a 
+publication quality printer but the quality of our postscript printouts 
+are less than acceptable.  We create the postscript files with a variaty of 
+programs, such as showcase, xv, and tops.  When we convert to postscript 
+with tops and use the -l option to specify the halftone screen density of 98 
+rather than the default 40 the output is better, but still much less that 
+acceptable.  Note, that we are starting with a screen image in rgb image format
+and translating the image into postscript.
+
+We suspect that if we could use the SCSI interface we would get higher quality 
+pictures.  We have not purchased the software that drives the printer from the 
+SCSI port.  To my knowledge this software is $5000 and does not come with a 
+warranty.  The management here does not want to spend this much money without 
+some assurance that the product will work.
+
+
+Here my questions:
+
+If anybody on the net uses this printer are you using the SCSI or 
+parallel port?  What is the quality of the printouts?
+
+Is there a way to create high quality postscript printouts?  What is the
+limiting component, the postscript language or the postscript interpretor on 
+the printer?
+ 
+The Big question:
+
+Where can I get some software to drive the SCSI port for this printer?
+
+
+
+Please email directly to me, I don't not read news on a regular basis. 
+I will post a summary.
+
+Thanks in advance.
+
+-- 
+	E-mail:		scott@ncifcrf.gov ,Phone #:	(301) 846-5798
+        Title:  	Sr. Systems Manager/Analyst
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ canon copier printer postscript question
+printer model specif  canon clc color laser copier
+ipu unit postscript intellig process unit   hello
+recent purchas expens nice color copier printer
+want abl print sgi iri network copier printer
+parallel scsi interfac configur printer system use
+parallel interfac print postscript file printer
+also print rgb file turn convert postscript intern
+filter canon clc public qualiti printer qualiti
+postscript printout less accept creat postscript
+file variati program showcas top convert
+postscript top use option specifi halfton screen
+densiti rather default output better still much
+less accept note start screen imag rgb imag format
+translat imag postscript  suspect could use scsi
+interfac get higher qualiti pictur purchas softwar
+drive printer scsi port knowledg softwar come
+warranti manag want spend much money without assur
+product work   question  anybodi net use printer
+use scsi parallel port qualiti printout  way creat
+high qualiti postscript printout limit compon
+postscript languag postscript interpretor printer
+big question  get softwar drive scsi port printer
+pleas email direct don't read news regular basi
+post summari  thank advanc    titl system manag
+analyst
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+printer, 6872, 0.524666804094
+postscript, 6772, 0.50024732295
+scsi, 7728, 0.28937829567
+copier, 2131, 0.258602726852
+qualiti, 7017, 0.192484845153
+printout, 6873, 0.177324759676
+canon, 1493, 0.149674165695
+port, 6748, 0.128991059934
+parallel, 6420, 0.12552283063
+interfac, 4709, 0.124617511782
+print, 6871, 0.114891173298
+use, 9363, 0.0882978772428
+rgb, 7374, 0.0870973786615
+purchas, 6988, 0.0863534273994
+file, 3477, 0.0830077242495
+imag, 4512, 0.0804098757334
+softwar, 8103, 0.0800606977735
+screen, 7719, 0.0743848058987
+question, 7032, 0.0726114274412
+unit, 9278, 0.0725970301114
+drive, 2873, 0.0694018758603
+accept, 208, 0.0657079203434
+convert, 2115, 0.0642748365913
+color, 1907, 0.0642748365913
+creat, 2217, 0.0618227084893
+manag, 5472, 0.0610573917355
+showcas, 7916, 0.057875659134
+halfton, 4125, 0.057875659134
+warranti, 9646, 0.0542615706748
+analyst, 491, 0.0503237119097
+iri, 4764, 0.0498913885651
+laser, 5134, 0.0487191421873
+default, 2470, 0.0483637043782
+assur, 712, 0.0483637043782
+densiti, 2531, 0.0465102107693
+filter, 3481, 0.0459769442651
+configur, 2030, 0.0450065387148
+specifi, 8204, 0.0445622002904
+want, 9634, 0.0435632135416
+sgi, 7831, 0.0433605386712
+summari, 8536, 0.0418409435433
+intellig, 4698, 0.0413924502556
+compon, 1980, 0.0412483736713
+translat, 9057, 0.0403065765026
+output, 6329, 0.0403065765026
+hello, 4247, 0.0395791630625
+suspect, 8603, 0.0387020067801
+option, 6276, 0.0387020067801
+languag, 5113, 0.0385988307151
+titl, 8953, 0.0384969690307
+basi, 936, 0.0381020228751
+expens, 3294, 0.0377256694536
+spend, 8222, 0.0374545914905
+regular, 7234, 0.0371068830529
+network, 6018, 0.0370222681459
+higher, 4293, 0.0366924880434
+knowledg, 5053, 0.0356348688571
+intern, 4716, 0.0355644187618
+limit, 5278, 0.034956832859
+pictur, 6622, 0.0337521481645
+email, 3060, 0.0336410903501
+model, 5807, 0.0335315539236
+product, 6896, 0.0334773433153
+anybodi, 552, 0.0325115700144
+nice, 6047, 0.0323692036288
+process, 6890, 0.0323223059337
+money, 5835, 0.0322293277454
+net, 6010, 0.032183240966
+format, 3612, 0.0320015050955
+turn, 9158, 0.0318238081361
+recent, 7168, 0.031779994141
+specif, 8203, 0.0317364189155
+public, 6973, 0.0307177362112
+direct, 2667, 0.0306415829299
+advanc, 285, 0.0302352304871
+abl, 180, 0.0292535129454
+note, 6118, 0.0288497438964
+news, 6031, 0.027617149805
+big, 1082, 0.0272369180719
+high, 4292, 0.0270412866847
+start, 8334, 0.0253103464907
+program, 6905, 0.0248198699146
+read, 7135, 0.024340496819
+better, 1060, 0.0239208814436
+pleas, 6688, 0.0235221929789
+post, 6766, 0.0233528769799
+come, 1923, 0.0231870720287
+work, 9833, 0.022653324314
+thank, 8832, 0.0223924863402
+way, 9666, 0.0209166481204
+don, 2811, 0.0181368625523

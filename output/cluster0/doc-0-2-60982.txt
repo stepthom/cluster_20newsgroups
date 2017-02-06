@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60982
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: todd@phad.la.locus.com (Todd Johnson)
+Subject: Re: Vandalizing the sky.
+Organization: Locus Computing Corporation, Los Angeles, California
+Lines: 28
+
+In article <C5t05K.DB6@research.canon.oz.au> enzo@research.canon.oz.au (Enzo Liguori) writes:
+;From the article "What's New" Apr-16-93 in sci.physics.research:
+;
+;........
+;WHAT'S NEW (in my opinion), Friday, 16 April 1993  Washington, DC
+;
+;1. SPACE BILLBOARDS! IS THIS ONE THE "SPINOFFS" WE WERE PROMISED?
+;What about light pollution in observations? (I read somewhere else that
+;it might even be visible during the day, leave alone at night).
+;Is NASA really supporting this junk?
+;Are protesting groups being organized in the States?
+;Really, really depressed.
+;
+;             Enzo
+
+I wouldn't worry about it.  There's enough space debris up there that
+a mile-long inflatable would probably deflate in some very short
+period of time (less than a year) while cleaning up LEO somewhat.
+Sort of a giant fly-paper in orbit.
+
+Hmm, that could actually be useful.
+
+As for advertising -- sure, why not?  A NASA friend and I spent one
+drunken night figuring out just exactly how much gold mylar we'd need
+to put the golden arches of a certain American fast food organization
+on the face of the Moon.  Fortunately, we sobered up in the morning.
+
+<todd>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky     articl what new sci physic
+research   what new opinion friday april
+washington  space billboard one spinoff promis
+light pollut observ read somewher els might even
+visibl day leav alon night nasa realli support
+junk protest group organ state realli realli
+depress  enzo  wouldn't worri there enough space
+debri mile long inflat probabl deflat short period
+time less year clean leo somewhat sort giant fli
+paper orbit  hmm could actual use  advertis sure
+nasa friend spent one drunken night figur exact
+much gold mylar we'd need put golden arch certain
+american fast food organ face moon fortun sober
+morn  todd
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+realli, 7150, 0.19468107925
+organ, 6287, 0.183121828691
+night, 6063, 0.17757790071
+enzo, 3141, 0.170528959597
+arch, 609, 0.165648978804
+nasa, 5956, 0.164606332657
+drunken, 2886, 0.161661744174
+mylar, 5940, 0.158290585329
+deflat, 2485, 0.158290585329
+todd, 8965, 0.148406012329
+junk, 4931, 0.144752665774
+depress, 2542, 0.143131980441
+spinoff, 8237, 0.141623158494
+debri, 2427, 0.136453514604
+fortun, 3619, 0.132275280995
+leo, 5216, 0.127973375553
+new, 6023, 0.127408785234
+hmm, 4327, 0.127205954915
+gold, 3933, 0.124380192019
+space, 8164, 0.124067130716
+protest, 6942, 0.123093394761
+friday, 3690, 0.122477318976
+pollut, 6726, 0.121294909716
+golden, 3934, 0.119633155368
+food, 3584, 0.119633155368
+inflat, 4632, 0.119106160131
+morn, 5864, 0.116646351655
+advertis, 291, 0.116646351655
+somewhat, 8129, 0.114018886373
+clean, 1799, 0.113208821761
+worri, 9845, 0.112814770665
+mile, 5713, 0.112814770665
+billboard, 1090, 0.112814770665
+visibl, 9541, 0.112047350027
+vandal, 9419, 0.112047350027
+washington, 9651, 0.110238944708
+spent, 8223, 0.108249460684
+alon, 437, 0.105568240575
+promis, 6913, 0.102683084933
+somewher, 8130, 0.10219708173
+sci, 7690, 0.101958071219
+giant, 3865, 0.0994881497983
+friend, 3692, 0.0978523038106
+period, 6546, 0.0974617712166
+paper, 6409, 0.0974617712166
+leav, 5184, 0.0974617712166
+american, 469, 0.0972690894054
+fast, 3397, 0.0965149028029
+physic, 6613, 0.09508033982
+sky, 8011, 0.0945657456284
+face, 3345, 0.0940629822426
+fli, 3542, 0.0934101205044
+figur, 3476, 0.092932954431
+wouldn, 9854, 0.0914136461518
+observ, 6179, 0.0909776999402
+april, 595, 0.090834294547
+moon, 5851, 0.0887889503548
+light, 5267, 0.0870384768423
+exact, 3253, 0.0867994663311
+short, 7904, 0.0864457781245
+sort, 8144, 0.0841182462222
+research, 7307, 0.0841182462222
+opinion, 6266, 0.0819194855383
+orbit, 6280, 0.0791543142933
+state, 8342, 0.0775396147946
+certain, 1619, 0.0773845131225
+group, 4064, 0.0761087581491
+els, 3053, 0.0756043380652
+support, 8576, 0.0753212371009
+probabl, 6885, 0.0715223286646
+articl, 665, 0.0704834885274
+sure, 8585, 0.0704271970057
+actual, 254, 0.0703150467902
+long, 5336, 0.0689071341203
+read, 7135, 0.0665715353628
+day, 2402, 0.0648500854036
+need, 5993, 0.0587996214446
+year, 9943, 0.0549615523774
+time, 8936, 0.0519617782815
+use, 9363, 0.0482991395043

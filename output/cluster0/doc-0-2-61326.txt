@@ -1,0 +1,155 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61326
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: thomsonal@cpva.saic.com
+Subject: Space surveillance: what I really meant
+Organization: Science Applications Int'l Corp./San Diego
+Lines: 33
+
+      Thanks to the people who have answered here and in email to my 
+question about which countries engage in space surveillance. 
+Unfortunately, I apparently didn't make the meaning of the message 
+clear, since most replies have addressed satellite reconnaissance, 
+rather than space surveillance 
+
+     What I meant was _not_ which countries use satellites to look at 
+the Earth (satellite reconnaissance) , but _was_ which countries have 
+programs to detect and track (i.e., determine the orbital elements of) 
+satellites as they pass overhead (space surveillance). 
+
+    The US uses missile-defense radars, supplemented by a fascinating 
+quasi-radar operated by the Navy, to do this for satellites in LEO, and 
+electrooptical systems for objects at altitudes above 5,000 km or so. 
+The FEE, I understand, does much the same thing. 
+
+    Amateur satellite observers use eyeballs, binoculars, stopwatches 
+and PCs for objects out to around 1500 km, enabling them to keep track 
+of satellites for which, ah, official element sets aren't available. 
+See the fascinating books by Desmond King-Hele for details, as well as 
+the files in the molczan directory on kilroy.jpl.nasa.gov.  The 
+material posted in my previous message suggests that Japan engages in 
+optical and radar space surveillance to a modest degree, and it may be 
+that other countries do also. 
+
+    Which was the question I meant to ask: who are they, how do they do 
+it, and why do they do it?
+
+
+Allen Thomson                     SAIC                        McLean, VA
+-------------------------------------------------------------------------
+Oh, yes: I don't speak for SAIC.  
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space surveil realli meant    thank peopl answer
+email question countri engag space surveil
+unfortun appar didn't make mean messag clear sinc
+repli address satellit reconnaiss rather space
+surveil  meant countri use satellit look earth
+satellit reconnaiss countri program detect track
+determin orbit element satellit pass overhead
+space surveil  use missil defens radar supplement
+fascin quasi radar oper navi satellit leo
+electroopt system object altitud fee understand
+much thing  amateur satellit observ use eyebal
+binocular stopwatch pcs object around enabl keep
+track satellit offici element set aren't avail see
+fascin book desmond king hele detail well file
+molczan directori kilroy jpl nasa gov materi post
+previous messag suggest japan engag optic radar
+space surveil modest degre countri also  question
+meant ask    allen thomson saic mclean  yes don't
+speak saic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+surveil, 8596, 0.445632667638
+satellit, 7632, 0.387918068478
+countri, 2186, 0.250755752676
+radar, 7055, 0.233362760901
+meant, 5598, 0.196485691856
+saic, 7582, 0.196208154435
+reconnaiss, 7182, 0.191485348695
+space, 8164, 0.183694029685
+engag, 3108, 0.173530261314
+fascin, 3395, 0.1630272085
+element, 3037, 0.129766435951
+track, 9030, 0.128219485884
+messag, 5650, 0.10708854283
+molczan, 5822, 0.104720218037
+kilroy, 5017, 0.100994200755
+thomson, 8880, 0.0981040772177
+supplement, 8573, 0.0981040772177
+mclean, 5584, 0.0981040772177
+binocular, 1102, 0.0981040772177
+object, 6173, 0.0953955485696
+eyebal, 3338, 0.0920166570645
+modest, 5812, 0.0878920896356
+use, 9363, 0.0858141573648
+overhead, 6341, 0.0838750071203
+pcs, 6487, 0.0830391133744
+question, 7032, 0.0784099441509
+missil, 5771, 0.0777875869671
+enabl, 3083, 0.0767508852025
+leo, 5216, 0.0757910492882
+navi, 5968, 0.0753365515053
+fee, 3426, 0.0736630195381
+optic, 6273, 0.0732763682057
+amateur, 458, 0.0711714461473
+japan, 4825, 0.0699370022553
+detect, 2579, 0.0699370022553
+altitud, 452, 0.0696459370228
+king, 5024, 0.0677733415124
+jpl, 4912, 0.0670468787184
+gov, 3965, 0.0652879964736
+allen, 426, 0.0648832179754
+unfortun, 9264, 0.0615619791907
+directori, 2669, 0.0614087009786
+previous, 6855, 0.0606683933327
+offici, 6207, 0.0602437042115
+degre, 2491, 0.0601051803481
+appar, 577, 0.0601051803481
+pass, 6448, 0.0578359619079
+speak, 8192, 0.0570507604293
+materi, 5543, 0.0570507604293
+aren, 623, 0.0565176869287
+determin, 2582, 0.0564136553833
+repli, 7290, 0.0562080660229
+defens, 2476, 0.0560056891279
+email, 3060, 0.0544913405881
+oper, 6261, 0.054226105563
+observ, 6179, 0.0538807022201
+address, 264, 0.0503262352301
+clear, 1803, 0.0496943119637
+suggest, 8525, 0.0493895483082
+nasa, 5956, 0.0487432898352
+answer, 535, 0.0478039376477
+yes, 9951, 0.0471796308812
+orbit, 6280, 0.0468784113105
+understand, 9246, 0.0464393232353
+set, 7815, 0.046391442006
+book, 1218, 0.046391442006
+earth, 2956, 0.0451179537971
+avail, 811, 0.0449886496507
+ask, 689, 0.0448606236551
+file, 3477, 0.0448182280108
+didn, 2625, 0.0432645320248
+program, 6905, 0.040202858195
+mean, 5595, 0.0400262392159
+sinc, 7977, 0.0394823243815
+realli, 7150, 0.0384326901568
+post, 6766, 0.0378266447366
+thank, 8832, 0.0362710181828
+thing, 8869, 0.0353832678093
+peopl, 6530, 0.0351404133612
+make, 5459, 0.03248497533
+look, 5341, 0.032322669224
+don, 2811, 0.029377821713

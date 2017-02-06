@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38909
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wpwood@darkwing.austin.ibm.com
+Subject: Re: HPGL viewer and utilities
+In-Reply-To: "Gaetan Lord, Ecole Polytechnique de Montreal"'s message of Wed, 28 Apr 1993 03:11:06 GMT
+Reply-To: wpwood@austin.ibm.com (Bill Woodward)
+Organization: The Institute of Knowledge on Jinx
+Lines: 20
+
+
+In article <27APR93.23959946.0053@music.mus.polymtl.ca> "Gaetan Lord, Ecole Polytechnique de Montreal" <DG03@music.mus.polymtl.ca> writes:
+
+   Hi
+
+   I would like to know if there is any software, PD or not, who
+   could produce X11 output of HPGL file on RS/6000. And same kind of
+   software who could produce hardcopy on postscript and lasetjet.
+
+Try export.lcs.mit.edu.  I think that there is a viewer there called
+xviewgl.  Check the README in /contrib.
+
+
+
+--
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Bill Woodward        | wpwood@austin.ibm.com   <-- Try this first
+AIX Software Support | billw@aixwiz.austin.ibm.com  
+Graphics Group       | 512-838-2834
+I am the terror that flaps in the night.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hpgl viewer util           like know softwar
+could produc x11 output hpgl file kind softwar
+could produc hardcopi postscript lasetjet  tri
+export lcs mit edu think viewer call xviewgl check
+readm contrib        graphic group terror flap
+night
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hpgl, 4408, 0.439736771292
+viewer, 9512, 0.30637291409
+produc, 6895, 0.274219261722
+xviewgl, 9915, 0.250222796817
+flap, 3522, 0.228771484617
+terror, 8808, 0.21001297456
+softwar, 8103, 0.206576957697
+hardcopi, 4168, 0.202549563157
+lcs, 5169, 0.196540880733
+contrib, 2102, 0.196540880733
+readm, 7141, 0.188561662361
+x11, 9883, 0.181098250958
+postscript, 6772, 0.176013449134
+mit, 5781, 0.176013449134
+export, 3310, 0.175089568534
+output, 6329, 0.156001824503
+util, 9384, 0.145309342697
+check, 1682, 0.126205044666
+night, 6063, 0.125647413332
+kind, 5021, 0.110396165626
+edu, 3001, 0.109728203687
+group, 4064, 0.107703363483
+file, 3477, 0.10709051768
+graphic, 3997, 0.101889474475
+tri, 9087, 0.0896275510013
+think, 8871, 0.07087950155
+know, 5052, 0.0666608173999
+like, 5272, 0.0651639182941

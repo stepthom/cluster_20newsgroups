@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102709
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dougb@comm.mot.com (Doug Bank)
+Subject: Re: Info needed for Cleveland tickets
+Reply-To: dougb@ecs.comm.mot.com
+Organization: Motorola Land Mobile Products Sector
+Distribution: usa
+Nntp-Posting-Host: 145.1.146.35
+Lines: 17
+
+In article <1993Apr1.234031.4950@leland.Stanford.EDU>, bohnert@leland.Stanford.EDU (matthew bohnert) writes:
+
+|> I'm going to be in Cleveland Thursday, April 15 to Sunday, April 18.
+|> Does anybody know if the Tribe will be in town on those dates, and
+|> if so, who're they playing and if tickets are available?
+
+The tribe will be in town from April 16 to the 19th.
+There are ALWAYS tickets available! (Though they are playing Toronto,
+and many Toronto fans make the trip to Cleveland as it is easier to
+get tickets in Cleveland than in Toronto.  Either way, I seriously
+doubt they will sell out until the end of the season.)
+
+-- 
+Doug Bank                       Private Systems Division
+dougb@ecs.comm.mot.com          Motorola Communications Sector
+dougb@nwu.edu                   Schaumburg, Illinois
+dougb@casbah.acns.nwu.edu       708-576-8207                    
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ info need cleveland ticket         i'm go
+cleveland thursday april sunday april anybodi know
+tribe town date who'r play ticket avail  tribe
+town april 19th alway ticket avail though play
+toronto mani toronto fan make trip cleveland
+easier get ticket cleveland toronto either way
+serious doubt sell end season   doug bank privat
+system divis
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ticket, 8919, 0.468362071072
+cleveland, 1811, 0.466574100604
+tribe, 9092, 0.278495898556
+toronto, 9003, 0.277008925769
+april, 595, 0.275694503688
+town, 9024, 0.26222379609
+avail, 811, 0.153706298777
+play, 6681, 0.145932456686
+19th, 51, 0.141853943935
+thursday, 8911, 0.133824521256
+trip, 9104, 0.119980539201
+easier, 2960, 0.119980539201
+doug, 2833, 0.118012542095
+bank, 897, 0.117090517768
+sunday, 8541, 0.111181651625
+privat, 6879, 0.107672454745
+sell, 7778, 0.105429992092
+divis, 2767, 0.102442262729
+doubt, 2830, 0.098998373791
+date, 2391, 0.0972734449043
+anybodi, 552, 0.0899609603604
+fan, 3381, 0.0880578926513
+info, 4636, 0.0871061165735
+season, 7747, 0.0852100881333
+alway, 457, 0.0835627875494
+end, 3091, 0.0762746750788
+mani, 5479, 0.0627601175622
+need, 5993, 0.0594882969114
+way, 9666, 0.0578772957319
+make, 5459, 0.055493389584
+know, 5052, 0.0476576924045

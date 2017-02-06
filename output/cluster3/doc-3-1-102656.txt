@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102656
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: str@maredsous.Eng.Sun.COM (Todd Rader)
+Subject: Re: Rickey Henderson
+Organization: Sun
+Lines: 6
+Distribution: usa
+NNTP-Posting-Host: maredsous
+
+In article <1993Apr5.173500.26383@ra.msstate.edu> js1@Isis.MsState.Edu (Jiann-ming Su) writes:
+%I say buy out Henderson's contract and let him go bag groceries.  Next 
+%season, you'll be able to sign him for nothing.  That goes for any bitching
+%ball player.
+
+Stay in school.  You have a lot to learn.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rickey henderson       say buy henderson contract
+let bag groceri next season you'll abl sign noth
+goe bitch ball player  stay school lot learn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+henderson, 4253, 0.54057337609
+bitch, 1123, 0.288137166452
+rickey, 7389, 0.259222646563
+bag, 864, 0.253140619813
+contract, 2095, 0.229529967657
+stay, 8355, 0.210316386659
+school, 7685, 0.20720746968
+sign, 7946, 0.200278326968
+buy, 1433, 0.199852964271
+goe, 3931, 0.188042723625
+learn, 5182, 0.187082146681
+ball, 877, 0.172178658696
+season, 7747, 0.169549537502
+abl, 180, 0.161064475186
+noth, 6119, 0.160196109821
+player, 6683, 0.151912254168
+ll, 5314, 0.139461370706
+let, 5225, 0.139033943109
+lot, 5356, 0.137364560295
+say, 7653, 0.111772750485

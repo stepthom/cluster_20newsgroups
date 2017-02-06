@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60224
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: The Area Rule
+Organization: Express Access Online Communications USA
+Lines: 20
+Distribution: sci
+NNTP-Posting-Host: access.digex.net
+
+
+
+I am sure  Mary or Henry can describe this more aptly then me.
+But here is how i understand it.
+
+At Speed,  Near supersonic.  The wind behaves like a fluid pipe.
+It becomes incompressible.  So wind has to bend away from the
+wing edges.   AS the wing thickens,  the more the pipes bend.
+
+If they have no place to go,  they begin to stall,  and force
+compression, stealing power from the vehicle (High Drag).
+
+If you squeeze the fuselage,  so that these pipes  have aplace to bend
+into,  then drag is reduced.   
+
+Essentially,  teh cross sectional area of the aircraft shoulf
+remain constant for all areas of the fuselage.  That is where the wings are
+subtract, teh cross sectional area of the wings from the fuselage.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ area rule        sure mari henri describ apt
+understand  speed near superson wind behav like
+fluid pipe becom incompress wind bend away wing
+edg wing thicken pipe bend  place begin stall forc
+compress steal power vehicl high drag  squeez
+fuselag pipe aplac bend drag reduc  essenti teh
+cross section area aircraft shoulf remain constant
+area fuselag wing subtract teh cross section area
+wing fuselag  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wing, 9779, 0.381099065293
+fuselag, 3734, 0.379123448379
+bend, 1024, 0.332129660562
+pipe, 6636, 0.325710420491
+area, 622, 0.278041229179
+teh, 8750, 0.221419773708
+drag, 2854, 0.189637710011
+wind, 9773, 0.178913343275
+cross, 2241, 0.173455377493
+section, 7759, 0.168264929156
+stall, 8307, 0.126374482793
+subtract, 8509, 0.121456367541
+squeez, 8278, 0.119442788665
+apt, 596, 0.117641580982
+superson, 8567, 0.116012190437
+fluid, 3560, 0.10960655816
+behav, 999, 0.0994396469161
+aircraft, 359, 0.0952747663232
+steal, 8362, 0.0948188550055
+mari, 5508, 0.0901271756627
+reduc, 7204, 0.0888114757756
+compress, 1986, 0.0884977851171
+constant, 2067, 0.087297596894
+essenti, 3196, 0.0870102680931
+vehicl, 9449, 0.0818797816474
+edg, 2993, 0.0814627936279
+remain, 7264, 0.0800785739648
+henri, 4258, 0.0777720390128
+pat, 6458, 0.0758880434627
+begin, 994, 0.0758880434627
+describ, 2556, 0.0736610738219
+rule, 7537, 0.071345672154
+forc, 3594, 0.0707851084512
+speed, 8217, 0.0695103072947
+near, 5982, 0.0692059254637
+becom, 983, 0.0685160933853
+away, 833, 0.0677603610036
+power, 6783, 0.0634537100936
+understand, 9246, 0.061297070456
+place, 6657, 0.0585535619068
+high, 4292, 0.0578147455281
+sure, 8585, 0.0550544635134
+like, 5272, 0.0359968659773

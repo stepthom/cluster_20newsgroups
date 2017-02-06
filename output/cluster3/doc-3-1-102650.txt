@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102650
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: ada41546@uxa.cso.uiuc.edu (Driftwood)
+Subject: Re: Jim Lefebvre is an idiot.
+Article-I.D.: news.C51uC6.BL1
+Organization: University of Illinois at Urbana
+Lines: 9
+
+
+	I totally agree with each point you made.  Jose Viscaino looked
+like a single A hitter up there.  Who swings on 3-1 count with Maddux 
+pitching and your teams down by a run, and you haven't touched the ball all 
+day.  I also think too much is made of that lefty-righty thing.  Watching
+the Cubs games I get the feeling Steve Stone knows a lot more about what
+the Cubs should be doing than Lefebre does.  Harry said it best when he
+stated after another terrible Vizcaino at bat-- we can't wait til
+Sandberg returns!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jim lefebvr idiot articl news c51uc6 bl1
+total agre point made jose viscaino look like
+singl hitter swing count maddux pitch team run
+haven't touch ball day also think much made lefti
+righti thing watch cub game get feel steve stone
+know lot cub lefebr harri said best state anoth
+terribl vizcaino bat can't wait til sandberg
+return
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cub, 2282, 0.289388376604
+viscaino, 9540, 0.227941545712
+lefebr, 5191, 0.221418604579
+til, 8930, 0.216088973607
+vizcaino, 9553, 0.207679439867
+lefebvr, 5192, 0.204236401502
+righti, 7402, 0.201156498734
+maddux, 5426, 0.198370387782
+terribl, 8804, 0.176808866252
+lefti, 5196, 0.176808866252
+sandberg, 7606, 0.171058623137
+harri, 4184, 0.170032832286
+stone, 8409, 0.166255709832
+idiot, 4487, 0.16137237821
+touch, 9015, 0.159910471614
+swing, 8635, 0.156546760407
+jose, 4892, 0.150796517292
+wait, 9611, 0.140737884659
+count, 2180, 0.135040550227
+jim, 4868, 0.1335563716
+steve, 8390, 0.130274569384
+return, 7346, 0.12485883514
+haven, 4207, 0.12485883514
+hitter, 4322, 0.124432082457
+watch, 9655, 0.121225359361
+singl, 7983, 0.121225359361
+bat, 942, 0.120108075354
+total, 9013, 0.116665036989
+feel, 3429, 0.114931092455
+ball, 877, 0.114325225387
+agre, 337, 0.11314990971
+pitch, 6643, 0.106713496631
+state, 8342, 0.103645150313
+news, 6031, 0.100963253516
+best, 1052, 0.0977318890641
+said, 7583, 0.0973100629909
+team, 8732, 0.0970598585565
+articl, 665, 0.0942134131357
+anoth, 533, 0.0942134131357
+lot, 5356, 0.091208947931
+game, 3761, 0.0886088314956
+run, 7543, 0.0880543610121
+day, 2402, 0.0866833923186
+point, 6710, 0.0825119113391
+thing, 8869, 0.079859206732
+look, 5341, 0.0729515074074
+think, 8871, 0.0669501217136
+know, 5052, 0.0629653107154
+like, 5272, 0.0615513959004

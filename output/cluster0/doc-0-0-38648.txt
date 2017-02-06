@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38648
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: xrcjd@mudpuppy.gsfc.nasa.gov (Charles J. Divine)
+Subject: Re: TIFF: philosophical significance of 42 (SILLY)
+Organization: NASA/GSFC Greenbelt Maryland
+Lines: 15
+
+In article <1r3lf9$fu0@geraldo.cc.utexas.edu> Mark A. Cartwright <markc@emx.utexas.edu> writes:
+>Well,
+>
+>42 is 101010 binary, and who would forget that its the
+>answer to the Question of "Life, the Universe, and Everything else."
+>That is to quote Douglas Adams in a round about way.
+>
+>Of course the Question has not yet been discovered...
+
+But the Question was later revealed to be:  What is 9 x 6?  (In the
+base 13 system, of course.)
+
+
+-- 
+Chuck Divine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific silli     well  binari
+forget answer question life univers everyth els
+quot dougla adam round way  cours question yet
+discov  question later reveal base system cours
+chuck divin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+question, 7032, 0.361932368267
+cours, 2190, 0.272768959382
+chuck, 1740, 0.248684112899
+adam, 258, 0.230479408448
+dougla, 2837, 0.229172527107
+silli, 7956, 0.224335531178
+round, 7494, 0.221057824047
+reveal, 7352, 0.221057824047
+philosoph, 6595, 0.218029306188
+divin, 2766, 0.217068866704
+binari, 1096, 0.216131027906
+discov, 2698, 0.207797400408
+tiff, 8926, 0.197864578579
+forget, 3604, 0.181704235566
+signific, 7951, 0.171731209948
+everyth, 3242, 0.171731209948
+quot, 7045, 0.171127314911
+later, 5140, 0.167138357569
+answer, 535, 0.147105426084
+life, 5260, 0.14677873319
+els, 3053, 0.137787566686
+univers, 9282, 0.13244927328
+base, 923, 0.1247309744
+way, 9666, 0.104259236558

@@ -1,0 +1,166 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61397
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: bell@nssdca.gsfc.nasa.gov (E. V. Bell, II - NSSDC/HSTX/GSFC/NASA - (301)513-1663)
+Subject: Displaying compressed Voyager images on a Mac
+Organization: NASA - Goddard Space Flight Center
+Lines: 38
+News-Software: VAX/VMS VNEWS 1.41
+
+
+	Sorry, I've lost track of who asked the question originally 
+	(our news server at GSFC keeps things around for tremendously
+	short periods of time), but wanted to be certain before I
+	replied. Someone asked about displaying the compressed images
+	from the Voyager imaging CD-ROMs on a Mac. As Peter Ford (MIT)
+	pointed out, a decompression program is available via FTP.
+	(Sorry, I don't remember the name of the node offhand, 
+	although it's .mit.edu.) In any case, though, one of the MAC
+	display programs (CD ROM Browser by Dana Swift) does display
+	the compressed images directly. The program is shareware and
+	is distributed by NSSDC for nominal reproduction costs ($9 +
+	shipping, if memory serves). This does *not* cover the
+	shareware price which should go to Dana for his diligent work
+	and upgrades, however.
+
+	To request current pricing information, information about
+	available display software, catalogs, or data from NSSDC,
+	contact our user support office at:
+
+		National Space Science Data Center
+		Coordinated Request and User Support Office (CRUSO)
+		Mail Code 633
+		NASA/Goddard Space Flight Center
+		Greenbelt, MD   20771
+		Phone: (301) 286-6695
+		Fax:   (301) 286-4952
+
++------------------------------------------------------------------------------+
+|  Dr. Edwin V. Bell, II	|  E-mail:				       |
+|  Mail Code 633.9		|	(SPAN) NCF::Bell		       |
+|  National Space Science	|	or   NSSDC::Bell		       |
+|    Data Center		|	or  NSSDCA::Bell		       |
+|  NASA				|	or  NSSDCB::Bell		       |
+|  Goddard Space Flight Center	|   (Internet) Bell@NSSDCA.GSFC.NASA.GOV       |
+|  Greenbelt, MD   20771	|					       |
+|  (301) 513-1663		|					       |
++------------------------------------------------------------------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ display compress voyag imag mac   news softwar
+vax vms vnew   sorri i'v lost track ask question
+origin news server gsfc keep thing around tremend
+short period time want certain repli someon ask
+display compress imag voyag imag rom mac peter
+ford mit point decompress program avail via ftp
+sorri don't rememb name node offhand although it
+mit edu case though one mac display program rom
+browser dana swift display compress imag direct
+program sharewar distribut nssdc nomin reproduct
+cost ship memori serv cover sharewar price dana
+dilig work upgrad howev  request current price
+inform inform avail display softwar catalog data
+nssdc contact user support offic  nation space
+scienc data center coordin request user support
+offic cruso mail code nasa goddard space flight
+center greenbelt phone fax   edwin bell mail mail
+code span ncf bell nation space scienc nssdc bell
+data center nssdca bell nasa nssdcb bell
+greenbelt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bell, 1011, 0.336291467584
+nssdc, 6141, 0.30068006592
+display, 2734, 0.276911606099
+dana, 2351, 0.207848779616
+compress, 1986, 0.199612054575
+greenbelt, 4026, 0.179606908941
+imag, 4512, 0.172342545068
+mac, 5410, 0.171846540689
+center, 1606, 0.155647107054
+voyag, 9588, 0.148656550397
+rom, 7467, 0.147813627061
+mit, 5781, 0.146206425089
+data, 2385, 0.142800961323
+sharewar, 7856, 0.140006906214
+mail, 5447, 0.132560726755
+request, 7301, 0.12188404298
+program, 6905, 0.119692001738
+price, 6857, 0.119571756386
+offic, 6206, 0.113890779779
+user, 9366, 0.110961630825
+space, 8164, 0.109378820847
+code, 1871, 0.102171126791
+nation, 5962, 0.10120614481
+offhand, 6205, 0.10022668864
+dilig, 2646, 0.10022668864
+browser, 1346, 0.10022668864
+sorri, 8142, 0.0991276914004
+nasa, 5956, 0.0967457239544
+scienc, 7692, 0.0960721432744
+nssdca, 6142, 0.0930337066967
+swift, 8633, 0.0913173703875
+ford, 3595, 0.0898034544706
+avail, 811, 0.0892935108586
+ask, 689, 0.0890394047515
+news, 6031, 0.0887877858566
+support, 8576, 0.0885386059555
+softwar, 8103, 0.0857970758466
+decompress, 2452, 0.0850769300219
+inform, 4637, 0.0844933501368
+reproduct, 7298, 0.083237593451
+node, 6089, 0.081628817847
+goddard, 3927, 0.0808941362181
+tremend, 9082, 0.0795398922832
+gsfc, 4072, 0.0795398922832
+nomin, 6096, 0.0789127713594
+catalog, 1552, 0.0783148296293
+upgrad, 9337, 0.0747640263948
+span, 8181, 0.0739068135304
+coordin, 2126, 0.0706305740307
+ship, 7888, 0.0691166581138
+server, 7812, 0.066537351525
+track, 9030, 0.0636225367063
+peter, 6575, 0.0634375920873
+serv, 7810, 0.0627233289365
+distribut, 2753, 0.0602073398612
+cover, 2194, 0.0591127699957
+vnew, 9564, 0.0584731639527
+memori, 5628, 0.0582259750026
+contact, 2078, 0.0582259750026
+period, 6546, 0.0572821802297
+lost, 5355, 0.0568350593474
+vms, 9563, 0.0567256677998
+phone, 6601, 0.0564029706185
+vax, 9439, 0.0560881770253
+flight, 3544, 0.0558825177697
+repli, 7290, 0.0557809091041
+fax, 3413, 0.0539888899702
+ftp, 3709, 0.0519573163397
+short, 7904, 0.0508076405837
+direct, 2667, 0.0492555952136
+cost, 2169, 0.0488360987513
+rememb, 7269, 0.0473352918914
+current, 2299, 0.04657149716
+origin, 6293, 0.0457110952547
+edu, 3001, 0.0455731322565
+certain, 1619, 0.0454819728016
+case, 1540, 0.0446893870746
+howev, 4406, 0.044310698921
+someon, 8124, 0.0420018404418
+question, 7032, 0.0389070312947
+work, 9833, 0.036414664843
+point, 6710, 0.0362807737442
+thing, 8869, 0.0351143703231
+want, 9634, 0.0350134002104
+time, 8936, 0.0305400149353
+don, 2811, 0.0291545630121

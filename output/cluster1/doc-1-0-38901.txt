@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38901
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tmc@spartan.ac.BrockU.CA (Tim Ciceran)
+Subject: Re: Best FTP Viewer please.
+Organization: Brock University, St. Catharines Ontario
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 19
+
+SITUNAYA@IBM3090.BHAM.AC.UK wrote:
+: ==============================================================================
+: Could someone please tell me the Best FTP'able viewer available for MSDOS
+: I am running a 486 33mhz with SVGA monitor.
+: I need to look at gifs mainly and it would be advantageous if it ran
+: under windows...........thanks
+
+FTP to wuarchive.wustl.edu,
+change into mirrors/msdos/graphics
+get "grfwk61t.zip"
+This is the DOS version of Graphic Workshop.  There is a Windows version which
+you could probably find in the mirrors/msdos/windows3 directory but I don't 
+know what the file name is. 
+
+-- 
+
+TMC
+(tmc@spartan.ac.BrockU.ca)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best ftp viewer pleas       could someon pleas
+tell best ftp'abl viewer avail msdos run 33mhz
+svga monitor need look gif main advantag ran
+window thank  ftp wuarchiv wustl edu chang mirror
+msdos graphic get grfwk61t zip dos version graphic
+workshop window version could probabl find mirror
+msdos windows3 directori don't know file name
+tmc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+msdos, 5903, 0.426670639813
+ftp, 3709, 0.306421674423
+mirror, 5755, 0.267443145607
+viewer, 9512, 0.250145383454
+window, 9774, 0.210233395099
+version, 9479, 0.196617779166
+grfwk61t, 4041, 0.186785868173
+33mhz, 93, 0.186785868173
+windows3, 9775, 0.182890791853
+best, 1052, 0.168957586704
+tmc, 8957, 0.167248921413
+graphic, 3997, 0.166380123636
+wustl, 9878, 0.152832405246
+workshop, 9839, 0.149734492204
+pleas, 6688, 0.148663274489
+wuarchiv, 9876, 0.146118622925
+ran, 7089, 0.143710327192
+svga, 8613, 0.142956003111
+zip, 9988, 0.137022080982
+monitor, 5837, 0.12990027166
+advantag, 286, 0.123304979498
+directori, 2669, 0.119803187073
+dos, 2825, 0.119215533141
+main, 5450, 0.11088007052
+gif, 3869, 0.106658951222
+abl, 180, 0.092442975633
+chang, 1650, 0.0907870627753
+edu, 3001, 0.0895901769536
+avail, 811, 0.0877690542929
+file, 3477, 0.0874365760728
+probabl, 6885, 0.0826377342494
+tell, 8767, 0.0825695345315
+someon, 8124, 0.0825695345315
+run, 7543, 0.0761136026218
+thank, 8832, 0.0707616918681
+need, 5993, 0.0679377696676
+look, 5341, 0.063058796653
+don, 2811, 0.0573136479748
+know, 5052, 0.0544267948079

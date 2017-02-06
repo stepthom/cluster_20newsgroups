@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38242
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jgreen@amber (Joe Green)
+Subject: Re: Weitek P9000 ?
+Organization: Harris Computer Systems Division
+Lines: 14
+Distribution: world
+NNTP-Posting-Host: amber.ssd.csd.harris.com
+X-Newsreader: TIN [version 1.1 PL9]
+
+Robert J.C. Kyanko (rob@rjck.UUCP) wrote:
+> abraxis@iastate.edu writes in article <abraxis.734340159@class1.iastate.edu>:
+> > Anyone know about the Weitek P9000 graphics chip?
+> As far as the low-level stuff goes, it looks pretty nice.  It's got this
+> quadrilateral fill command that requires just the four points.
+
+Do you have Weitek's address/phone number?  I'd like to get some information
+about this chip.
+
+--
+Joe Green				Harris Corporation
+jgreen@csd.harris.com			Computer Systems Division
+"The only thing that really scares me is a person with no sense of humor."
+						-- Jonathan Winters
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+jgreen amber joe green weitek p9000        class1
+iastat edu anyon know weitek p9000 graphic chip
+far low level stuff goe look pretti nice it got
+quadrilater fill command requir four point  weitek
+address phone number i'd like get inform chip
+joe green harri corpor  thing realli scare person
+sens humor jonathan winter
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+weitek, 9699, 0.554360642979
+p9000, 6368, 0.369573761986
+chip, 1712, 0.274629456249
+green, 4025, 0.269349529183
+joe, 4876, 0.242223963992
+iastat, 4470, 0.19023065998
+jonathan, 4888, 0.161476356914
+scare, 7665, 0.159668429151
+winter, 9790, 0.152218380978
+humor, 4437, 0.145523257928
+harri, 4184, 0.141902424163
+corpor, 2154, 0.122975166545
+phone, 6601, 0.107053066116
+command, 1933, 0.107053066116
+goe, 3931, 0.104202059957
+sens, 7788, 0.101649644228
+low, 5368, 0.100544141015
+level, 5229, 0.100085271173
+nice, 6047, 0.0987582809702
+address, 264, 0.0947934918103
+stuff, 8472, 0.0934873187203
+requir, 7302, 0.0907556246307
+pretti, 6851, 0.0894474919551
+edu, 3001, 0.0864979891497
+far, 3386, 0.0814922086544
+person, 6562, 0.0812809877621
+graphic, 3997, 0.0803187727625
+inform, 4637, 0.080184359967
+got, 3960, 0.0800506836837
+number, 6156, 0.0793282770182
+realli, 7150, 0.0723910477898
+point, 6710, 0.0688610551499
+thing, 8869, 0.0666472167442
+anyon, 554, 0.0655560866078
+look, 5341, 0.0608823343602
+know, 5052, 0.0525482644061
+like, 5272, 0.0513682691245

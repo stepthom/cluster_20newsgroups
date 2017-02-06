@@ -1,0 +1,437 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60784
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Galileo Update - 04/15/93
+Organization: Jet Propulsion Laboratory
+Lines: 113
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+Keywords: Galileo, JPL
+News-Software: VAX/VMS VNEWS 1.41    
+
+Forwarded from Neal Ausman, Galileo Mission Director
+
+                                GALILEO
+                     MISSION DIRECTOR STATUS REPORT
+                             POST-LAUNCH
+                         April 9 - 15, 1993
+
+SPACECRAFT
+
+1.  On April 9, real-time commands were sent, as planned, to reacquire
+celestial reference after completion of the Low Gain Antenna (LGA-2)
+swing/Dual Drive Actuator (DDA) hammer activities.
+
+2.  On April 9, the EJ-1 (Earth-Jupiter #1) sequence memory load was uplinked
+to the spacecraft without incident.  This sequence covers spacecraft activity
+from April 12, 1993 to June 14, 1993 and includes a window for the Radio Relay
+Antenna (RRA) slew test on April 28, 1993.  The command loss timer was set to
+11 days as a part of this sequence memory load.
+
+3.  On April 12 and 15, a NO-OP command was sent to reset the command loss
+timer to 264 hours, its planned value during this mission phase.
+
+4.  On April 12, cruise science Memory Readouts (MROs) were performed for the
+Extreme Ultraviolet Spectrometer (EUV), Dust Detector (DDS), and Magnetometer
+(MAG) instruments.  Preliminary analysis indicates the data was received
+properly.
+
+5.  On April 12, an Ultra-Stable Oscillator (USO) test was performed to verify
+the health status of the USO and to collect gravitational red shift experiment
+data; long term trend analysis is continuing.
+
+6.  On April 14, a 40bps modulation index test was performed to determine the
+optimal Signal-to-Noise Ratio (SNR) when transmitting at 40bps.  Preliminary
+analysis of the data suggests that the present pre-launch selected modulation
+index is near the optimal level.
+
+7.  On April 15, cruise science Memory Readouts (MROs) were performed for the
+Extreme Ultraviolet Spectrometer (EUV) and Magnetometer (MAG) instrument.
+Preliminary analysis indicates the data was received properly.
+
+8.  On April 15, a periodic RPM (Retro-Propulsion Module) 10-Newton thruster
+flushing maintenance activity was performed; all 12 thrusters were flushed
+during the activity.  Thruster performance throughout the activity was nominal.
+
+9.  The AC/DC bus imbalance measurements have not exhibited significant
+changes (greater than 25 DN) throughout this period.  The AC measurement reads
+19 DN (4.3 volts).  The DC measurement reads 111 DN (12.9 volts).  These
+measurements are consistent with the model developed by the AC/DC special
+anomaly team.
+
+10. The Spacecraft status as of April 15, 1993, is as follows:
+
+       a)  System Power Margin -  60 watts
+       b)  Spin Configuration - Dual-Spin
+       c)  Spin Rate/Sensor - 3.15rpm/Star Scanner
+       d)  Spacecraft Attitude is approximately 18 degrees
+           off-sun (lagging) and 6 degrees off-earth (leading)
+       e)  Downlink telemetry rate/antenna- 40bps(coded)/LGA-1
+       f)  General Thermal Control - all temperatures within
+           acceptable range
+       g)  RPM Tank Pressures - all within acceptable range
+       h)  Orbiter Science- Instruments powered on are the PWS,
+           EUV, UVS, EPD, MAG, HIC, and DDS
+       i)  Probe/RRH - powered off, temperatures within
+           acceptable range
+       j)  CMD Loss Timer Setting - 264 hours
+           Time To Initiation - 260 hours
+
+
+GDS (Ground Data Systems):
+
+1.  Galileo participated in a second DSN (Deep Space Network) acceptance test
+for the DSN Telemetry Phase 3 Upgrade on April 13, 1993, using CTA-21
+(Compatibility Test Area 21).  The purpose of this test was to verify
+the flow of Galileo telemetry data through the new Telemetry Group Controller
+(TGC) and the Telemetry Channel Assembly (TCA).  The TGC/TCA is the replacement
+for the current Telemetry Processing Assembly (TPA).  Seven different telemetry
+rates were run for this test; all ran well on both the MTS (MCCC Telemetry
+Subsystem) and the AMMOS MGDS V18.0 GIF with the exception of 10bps.  The
+10bps rate had some trouble staying in lock; it appears the TGC/TCA was
+not metering the data correctly.  Further comparisons between the MGDS and MTS
+data from this test are being conducted. MVT (Mission Verification Test) of
+the TGC/TCA system is expected to begin May 16, 1993.
+
+
+TRAJECTORY
+
+     As of noon Thursday, April 15, 1993, the Galileo Spacecraft trajectory
+status was as follows:
+
+	Distance from Earth         152,606,000 km (1.02 AU)
+	Distance from Sun           277,519,800 km (1.86 AU)
+	Heliocentric Speed          93,400 km per hour
+	Distance from Jupiter       543,973,900 km
+	Round Trip Light Time       17 minutes, 4 seconds
+
+
+SPECIAL TOPIC
+
+1.  As of April 15, 1993, a total of 70184 real-time commands have been
+transmitted to Galileo since Launch.  Of these, 65076  were initiated in the
+sequence design process and 5108 initiated in the real-time command process.
+In the past week, 7 real time commands were transmitted: 6 were initiated in
+the sequence design process and one initiated in the real time command process.
+Major command activities included commands to reacquire celestial reference,
+uplink the EJ-1 sequence memory load, and reset the command loss timer.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | Being cynical never helps 
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | to correct the situation 
+|_____|/  |_|/       |_____|/                     | and causes more aggravation
+                                                  | instead.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ galileo updat      news softwar vax vms vnew
+forward neal ausman galileo mission director
+galileo mission director status report post launch
+april  spacecraft  april real time command sent
+plan reacquir celesti refer complet low gain
+antenna lga swing dual drive actuat dda hammer
+activ  april earth jupit sequenc memori load
+uplink spacecraft without incid sequenc cover
+spacecraft activ april includ window radio relay
+antenna rra slew test april command loss timer set
+day part sequenc memori load  april command sent
+reset command loss timer hour plan valu mission
+phase  april cruis scienc memori readout mros
+perform extrem ultraviolet spectromet euv dust
+detector dds magnetomet mag instrument preliminari
+analysi indic data receiv proper  april ultra
+stabl oscil uso test perform verifi health status
+uso collect gravit red shift experi data long term
+trend analysi continu  april 40bps modul index
+test perform determin optim signal nois ratio snr
+transmit 40bps preliminari analysi data suggest
+present pre launch select modul index near optim
+level  april cruis scienc memori readout mros
+perform extrem ultraviolet spectromet euv
+magnetomet mag instrument preliminari analysi
+indic data receiv proper  april period rpm retro
+propuls modul newton thruster flush mainten activ
+perform thruster flush activ thruster perform
+throughout activ nomin  bus imbal measur exhibit
+signific chang greater throughout period measur
+read volt measur read volt measur consist model
+develop special anomali team  spacecraft status
+april follow  system power margin watt spin
+configur dual spin spin rate sensor 15rpm star
+scanner spacecraft attitud approxim degre sun lag
+degre earth lead downlink telemetri rate antenna
+40bps code lga general thermal control temperatur
+within accept rang rpm tank pressur within accept
+rang orbit scienc instrument power pws euv uv epd
+mag hic dds probe rrh power temperatur within
+accept rang cmd loss timer set hour time initi
+hour   gds ground data system  galileo particip
+second dsn deep space network accept test dsn
+telemetri phase upgrad april use cta compat test
+area purpos test verifi flow galileo telemetri
+data new telemetri group control tgc telemetri
+channel assembl tca tgc tca replac current
+telemetri process assembl tpa seven differ
+telemetri rate run test ran well mts mccc
+telemetri subsystem ammo mgds v18 gif except 10bps
+10bps rate troubl stay lock appear tgc tca meter
+data correct comparison mgds mts data test conduct
+mvt mission verif test tgc tca system expect begin
+trajectori  noon thursday april galileo spacecraft
+trajectori status follow  distanc earth distanc
+sun heliocentr speed per hour distanc jupit round
+trip light time minut second   special topic
+april total real time command transmit galileo
+sinc launch initi sequenc design process initi
+real time command process past week real time
+command transmit initi sequenc design process one
+initi real time command process major command
+activ includ command reacquir celesti refer uplink
+sequenc memori load reset command loss timer   jet
+propuls lab telo cynic never help pasadena correct
+situat caus aggrav instead
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+april, 595, 0.32592069074
+telemetri, 8759, 0.287984778502
+command, 1933, 0.25251096918
+galileo, 3755, 0.208266821171
+test, 8812, 0.1934461969
+sequenc, 7804, 0.171701319761
+data, 2385, 0.154983494548
+spacecraft, 8166, 0.139880242167
+activ, 252, 0.134065183855
+timer, 8938, 0.13169297815
+perform, 6539, 0.127432733084
+initi, 4647, 0.126941841202
+40bps, 105, 0.122374300544
+memori, 5628, 0.118487451814
+status, 8352, 0.11396330626
+euv, 3223, 0.113591848025
+process, 6890, 0.105730990609
+preliminari, 6824, 0.103876821086
+loss, 5352, 0.100743373432
+mag, 5430, 0.100618187392
+analysi, 490, 0.0992115952988
+thruster, 8902, 0.0963505362709
+measur, 5601, 0.0943951392156
+hour, 4395, 0.0942004870426
+transmit, 9059, 0.0924064784345
+rate, 7108, 0.0908094750405
+real, 7144, 0.0896690282019
+antenna, 538, 0.0892572090735
+spin, 8235, 0.0874616852541
+time, 8936, 0.0870067348303
+accept, 208, 0.085976087511
+mts, 5908, 0.0845927346285
+mros, 5900, 0.0845927346285
+modul, 5815, 0.0837072819104
+mission, 5772, 0.0827131583827
+instrument, 4686, 0.0824254499022
+volt, 9574, 0.0815828670296
+rpm, 7509, 0.0815828670296
+reacquir, 7130, 0.0815828670296
+dds, 2414, 0.0815828670296
+uplink, 9338, 0.0792482323431
+lga, 5239, 0.077340696911
+dsn, 2891, 0.077340696911
+distanc, 2744, 0.0767971519481
+readout, 7142, 0.0757278986834
+flush, 3562, 0.0757278986834
+reset, 7310, 0.0730985267924
+magnetomet, 5438, 0.0730985267924
+dual, 2899, 0.0730985267924
+load, 5317, 0.0729970741884
+spectromet, 8211, 0.0709990138851
+rang, 7094, 0.0709437143514
+ultraviolet, 9201, 0.0700886591935
+celesti, 1597, 0.067754024507
+cruis, 2255, 0.0632819005417
+director, 2668, 0.0624095222216
+launch, 5147, 0.0617027142028
+verifi, 9472, 0.0616043189563
+optim, 6274, 0.0612238232483
+trajectori, 9044, 0.059826753877
+scienc, 7692, 0.0586508518565
+index, 4596, 0.0583077901694
+power, 6783, 0.0582501394082
+phase, 6583, 0.0577570062211
+temperatur, 8773, 0.0572337732535
+assembl, 698, 0.0555845837584
+jupit, 4932, 0.0547471386222
+earth, 2956, 0.0546692582015
+proper, 6924, 0.0529068862441
+extrem, 3333, 0.0517876927056
+propuls, 6936, 0.0507767364808
+degre, 2491, 0.0485528168894
+sent, 7793, 0.0474951009047
+special, 8198, 0.0466267473889
+period, 6546, 0.0466267473889
+receiv, 7167, 0.0457395654174
+indic, 4600, 0.0455708121001
+control, 2107, 0.043663276668
+sun, 8539, 0.0432529307861
+plan, 6660, 0.0427296978185
+v18, 9401, 0.0422963673143
+snr, 8082, 0.0422963673143
+rra, 7510, 0.0422963673143
+rrh, 7511, 0.0407914335148
+gds, 3803, 0.0407914335148
+cmd, 1851, 0.0407914335148
+ausman, 788, 0.0407914335148
+15rpm, 27, 0.0407914335148
+design, 2564, 0.040653409069
+correct, 2156, 0.0402934848695
+uv, 9393, 0.0396241161716
+imbal, 4521, 0.0396241161716
+epd, 3144, 0.0396241161716
+slew, 8027, 0.0386703484555
+neal, 5981, 0.0386703484555
+lag, 5094, 0.0386703484555
+refer, 7213, 0.0385729361648
+downlink, 2842, 0.0378639493417
+aggrav, 332, 0.0378639493417
+set, 7815, 0.0374748927781
+verif, 9471, 0.0365492633962
+second, 7753, 0.0364112389505
+includ, 4579, 0.0360008930686
+newton, 6037, 0.0359980973128
+hammer, 4141, 0.0359980973128
+watt, 9660, 0.0354995069425
+anomali, 530, 0.0354995069425
+mainten, 5455, 0.0350443295967
+noon, 6104, 0.0346256070286
+cynic, 2327, 0.0346256070286
+follow, 3578, 0.0343880948409
+gravit, 4009, 0.0342379304829
+ultra, 9200, 0.0335393957973
+trend, 9084, 0.0332222538854
+subsystem, 8505, 0.0326404059579
+sensor, 7792, 0.032372078454
+relay, 7252, 0.032372078454
+stabl, 8298, 0.0321168454236
+nomin, 6096, 0.0321168454236
+read, 7135, 0.0318485301868
+thursday, 8911, 0.0316409502709
+lock, 5324, 0.031418310738
+exhibit, 3282, 0.031418310738
+detector, 2580, 0.031418310738
+ratio, 7109, 0.0312047611108
+nois, 6092, 0.0312047611108
+health, 4221, 0.0312047611108
+flow, 3555, 0.0312047611108
+dust, 2928, 0.0309995881699
+scanner, 7663, 0.0308021594782
+shift, 7883, 0.0306119116242
+seven, 7820, 0.0306119116242
+upgrad, 9337, 0.0304283405285
+telo, 8769, 0.0302509933947
+meter, 5663, 0.0302509933947
+ran, 7089, 0.0297524030245
+conduct, 2021, 0.0295962350267
+compat, 1965, 0.0295962350267
+channel, 1652, 0.0295962350267
+incid, 4575, 0.0294445942809
+configur, 2030, 0.0294445942809
+round, 7494, 0.0290143870991
+bus, 1419, 0.0290143870991
+thermal, 8857, 0.0286168866268
+pre, 6802, 0.0286168866268
+trip, 9104, 0.0283677328991
+comparison, 1962, 0.028247469225
+swing, 8635, 0.0280149314121
+probe, 6886, 0.0280149314121
+pasadena, 6446, 0.0280149314121
+margin, 5507, 0.0274751499674
+particip, 6440, 0.0273735693111
+deep, 2466, 0.0273735693111
+attitud, 769, 0.0273735693111
+gain, 3746, 0.0272739236426
+approxim, 593, 0.0270801518818
+tank, 8695, 0.0269858927654
+signal, 7947, 0.0269858927654
+greater, 4017, 0.0269858927654
+pressur, 6842, 0.0258938463528
+jet, 4860, 0.0258938463528
+troubl, 9117, 0.0253199850519
+replac, 7288, 0.0252524842518
+collect, 1898, 0.0252524842518
+topic, 8992, 0.024990867768
+stay, 8355, 0.024990867768
+lab, 5085, 0.0246812366104
+select, 7774, 0.024446085138
+network, 6018, 0.0242210508972
+minut, 5747, 0.0241662730205
+cover, 2194, 0.0240584085923
+consist, 2061, 0.0238491311086
+vnew, 9564, 0.0237980942216
+forward, 3621, 0.0237475504523
+ground, 4061, 0.0235019072311
+radio, 7061, 0.0233598739066
+begin, 994, 0.0232215952101
+vms, 9563, 0.0230868777372
+vax, 9439, 0.0228274242633
+determin, 2582, 0.0227854060501
+drive, 2873, 0.0227023687601
+updat, 9333, 0.022661339221
+star, 8324, 0.0226206289811
+signific, 7951, 0.0225401467871
+purpos, 6993, 0.022500365307
+instead, 4682, 0.0224608840673
+past, 6456, 0.0221183533416
+situat, 7995, 0.0220816427388
+gif, 3869, 0.0220816427388
+continu, 2092, 0.0220816427388
+model, 5807, 0.021937323533
+experi, 3295, 0.0219018573672
+window, 9774, 0.0217623493816
+low, 5368, 0.0215598244992
+term, 8795, 0.0214940218777
+level, 5229, 0.0214614283802
+valu, 9414, 0.0213968443571
+speed, 8217, 0.0212700202203
+area, 622, 0.0212700202203
+appear, 580, 0.0212700202203
+lead, 5172, 0.0212387888474
+near, 5982, 0.0211768799659
+caus, 1569, 0.0211768799659
+red, 7194, 0.0209363208285
+present, 6837, 0.0209363208285
+total, 9013, 0.0208778706179
+report, 7291, 0.0208200662792
+light, 5267, 0.0208200662792
+code, 1871, 0.0207914018819
+expect, 3290, 0.0202746519715
+complet, 1975, 0.0202231122499
+general, 3818, 0.020197531566
+suggest, 8525, 0.0199483778384
+develop, 2588, 0.0194830722427
+week, 9691, 0.0192650723903
+major, 5458, 0.0192014054045
+current, 2299, 0.0189542142503
+orbit, 6280, 0.0189341326924
+chang, 1650, 0.0187956797112
+group, 4064, 0.0182056194752
+news, 6031, 0.0180679473344
+softwar, 8103, 0.0174593502122
+team, 8732, 0.0173694126487
+long, 5336, 0.0164829527301
+differ, 2633, 0.0161078361891
+sinc, 7977, 0.0159468622751
+run, 7543, 0.0157578277435
+day, 2402, 0.0155124851135
+help, 4249, 0.0153685912635
+post, 6766, 0.0152781353021
+new, 6023, 0.0152384293094
+space, 8164, 0.0148387585485
+use, 9363, 0.0115534108844

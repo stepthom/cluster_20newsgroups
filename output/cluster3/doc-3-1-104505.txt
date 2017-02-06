@@ -1,0 +1,166 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104505
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: THE ALL TIME GREATS TEAM
+Organization: Allegheny College
+Lines: 33
+
+In article <1993Apr14.203122.12367@iscsvax.uni.edu>  
+reed5575@iscsvax.uni.edu writes:
+>     
+> 
+Dave Winfield's name does not go
+> in the same sentence. As Aaron, Robinson, and Ott. 
+
+
+
+       In terms of PEAK, and I repeat PEAK years, Winfield has Done it  
+all. He has batted in the 340's for a season, drove in 100 and more runs  
+many times in a row before his injury. Consistently hit at or near 300  
+while knocking in 35 home runs. Have you even LOOKED at Dave Winfield's  
+slugging percentage for three or 4 of his best seasons. I still think that  
+dave was one of the BETTER of all time, but obviously not the best. He was  
+one of the best athletes evr to play baseball. He hit line drives that hit  
+the scoreboard in left-center field, a feat np one has done in the new  
+Stadium. Heck, only 2 or 3 other people have hit it over that green fence  
+since it has been remodeled. He could field, had a bullet arm, and his  
+hitting was comparable in many seasons to gary sheffields, and barry bonds  
+of last season. He is older now, and slowing down, takes more of an  
+uppercut to lift the ball out of the park, but he will always be my hero,  
+and my idol. There is nothing that could make me happier than George  
+inviting Dave back to the Bronx to play his last year of ball with the  
+Yankees. Of course, he will most likely refuse the offer, but who knows?  
+For 3 million dollars, he'll play. Heck they are giving gallego 2.5  
+million this year, having Dave as their DH, while leaving him time to play  
+the field when Tartabull is injured, or Nokes and mass are traded, should  
+give the Yanks the inspiration and leadership that will sweep in a new age  
+of Yankee domination.
+
+
+Michael Lurie
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time great team        dave winfield name sentenc
+aaron robinson ott    term peak repeat peak year
+winfield done bat season drove run mani time row
+injuri consist hit near knock home run even look
+dave winfield slug percentag three best season
+still think dave one better time obvious best one
+best athlet evr play basebal hit line drive hit
+scoreboard left center field feat one done new
+stadium heck peopl hit green fenc sinc remodel
+could field bullet arm hit compar mani season gari
+sheffield barri bond last season older slow take
+uppercut lift ball park alway hero idol noth could
+make happier georg invit dave back bronx play last
+year ball yanke cours like refus offer know
+million dollar he'll play heck give gallego
+million year dave leav time play field tartabul
+injur noke mass trade give yank inspir leadership
+sweep new age yanke domin   michael luri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dave, 2395, 0.319138528268
+hit, 4316, 0.258090697975
+winfield, 9778, 0.248000358255
+season, 7747, 0.227388963778
+play, 6681, 0.19471538426
+peak, 6496, 0.167902282852
+heck, 4234, 0.167020977119
+field, 3466, 0.166653017111
+best, 1052, 0.148049717792
+time, 8936, 0.140287630256
+yanke, 9933, 0.137634398493
+million, 5724, 0.136377972724
+ball, 877, 0.115457486239
+gallego, 3757, 0.11509952326
+idol, 4489, 0.111805751551
+happier, 4162, 0.111805751551
+bronx, 1337, 0.111805751551
+year, 9943, 0.111289868147
+luri, 5398, 0.10911454411
+fenc, 3443, 0.104868133824
+ott, 6316, 0.103129564959
+noke, 6093, 0.103129564959
+feat, 3421, 0.103129564959
+scoreboard, 7706, 0.101574362114
+tartabul, 8706, 0.100167510014
+drove, 2881, 0.100167510014
+bullet, 1386, 0.100167510014
+hero, 4273, 0.0977016622902
+sheffield, 7871, 0.0955893829632
+invit, 4748, 0.0937418779966
+aaron, 161, 0.0928981755219
+sweep, 8629, 0.0913429726772
+leadership, 5174, 0.0913429726772
+athlet, 744, 0.0913429726772
+slug, 8048, 0.0906227920514
+sentenc, 7794, 0.0906227920514
+row, 7501, 0.0906227920514
+robinson, 7441, 0.0899361205768
+injur, 4649, 0.0892799781199
+run, 7543, 0.0889264389414
+domin, 2808, 0.0880492009678
+yank, 9932, 0.0874702728533
+new, 6023, 0.0859953082117
+inspir, 4676, 0.0853579935264
+refus, 7222, 0.0844053549498
+mani, 5479, 0.0837398388602
+lift, 5264, 0.0822623559972
+older, 6218, 0.0818687120077
+green, 4025, 0.0814852937025
+percentag, 6534, 0.0803914026145
+injuri, 4650, 0.078731140431
+stadium, 8300, 0.078420375799
+knock, 5050, 0.078116019144
+barri, 918, 0.0769577173002
+gari, 3776, 0.0766818069342
+arm, 643, 0.0766818069342
+dollar, 2802, 0.0761449923285
+georg, 3847, 0.0744064234637
+repeat, 7286, 0.0737197519891
+slow, 8044, 0.0730636095323
+bond, 1211, 0.0730636095323
+trade, 9033, 0.0728512206191
+mass, 5533, 0.0698126848044
+park, 6430, 0.0680360235964
+michael, 5680, 0.0672941199721
+consist, 2061, 0.0672941199721
+age, 328, 0.0660459874096
+leav, 5184, 0.0657823951406
+offer, 6203, 0.0647727178932
+drive, 2873, 0.0640583474524
+obvious, 6185, 0.0624104549795
+compar, 1960, 0.062101856113
+term, 8795, 0.0606488043667
+bat, 942, 0.0606488043667
+near, 5982, 0.0597539379766
+center, 1606, 0.0595812953676
+left, 5193, 0.0587471313583
+home, 4354, 0.056918721834
+alway, 457, 0.0557482573001
+noth, 6119, 0.0537111866393
+cours, 2190, 0.0505099592757
+basebal, 924, 0.0497412306847
+great, 4016, 0.0490946700359
+team, 8732, 0.0490105628294
+line, 5285, 0.0489269321536
+ll, 5314, 0.0467591611267
+sinc, 7977, 0.0449966104941
+better, 1060, 0.044158233935
+peopl, 6530, 0.0400482878703
+make, 5459, 0.037021978942
+look, 5341, 0.036837004406
+think, 8871, 0.0338065931218
+know, 5052, 0.0317944551207
+like, 5272, 0.031080496107

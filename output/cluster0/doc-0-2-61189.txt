@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61189
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: landis@stsci.edu (Robert Landis,S202,,)
+Subject: Re: Space Debris
+Reply-To: landis@stsci.edu
+Organization: Space Telescope Science Institute, Baltimore MD
+Lines: 14
+
+Another fish to check out is Richard Rast -- he works
+for Lockheed Missiles, but is on-site at NASA Johnson.
+
+Nick Johnson at Kaman Sciences in Colo. Spgs and his
+friend, Darren McKnight at Kaman in Alexandria, VA.
+
+Good luck.
+
+R. Landis
+
+"Behind every general is his wife.... and...
+ behind every Hillary is a Bill . ."
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space debri     anoth fish check richard rast
+work lockhe missil site nasa johnson  nick johnson
+kaman scienc colo spgs friend darren mcknight
+kaman alexandria  good luck  landi  behind everi
+general wife behind everi hillari bill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+johnson, 4880, 0.38674131157
+landi, 5106, 0.270100587743
+hillari, 4301, 0.270100587743
+alexandria, 398, 0.258102286173
+darren, 2374, 0.253340675129
+everi, 3235, 0.244268772483
+lockhe, 5325, 0.233385272406
+debri, 2427, 0.222495633599
+fish, 3505, 0.215682773287
+missil, 5771, 0.214165135179
+nick, 6052, 0.203906647595
+richard, 7383, 0.202809357536
+wife, 9755, 0.190198867313
+luck, 5381, 0.183951244872
+friend, 3692, 0.159554045923
+site, 7994, 0.146964067126
+check, 1682, 0.145418228849
+general, 3818, 0.137677901087
+nasa, 5956, 0.134200245356
+scienc, 7692, 0.133265891993
+anoth, 533, 0.114927552315
+space, 8164, 0.10114944616
+work, 9833, 0.101024763819
+good, 3948, 0.0916643000362

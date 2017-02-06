@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39014
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: alex@falcon.demon.co.uk (Alex Kiernan)
+Subject: Re: .SCI files and .SCO files 
+Distribution: world
+Organization: DIS(organised)
+Reply-To: alex@falcon.demon.co.uk
+X-Newsreader: Simple NEWS 1.90 (ka9q DIS 1.21)
+Lines: 16
+
+In article <1993Apr30.094937.14281@daimi.aau.dk> rued@daimi.aau.dk writes:
+
+>Hello there!
+>
+>A week ago a guy asked what a .SCO file was.SC(character).
+>
+>regards 
+>rued
+>
+>
+
+Yes me, why?
+
+-- 
+Alex Kiernan
+akiernan@falcon.demon.co.uk
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sci file sco file         hello  week ago guy ask
+sco file charact  regard ru    yes   alex kiernan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sco, 7700, 0.635931430604
+file, 3477, 0.456039910586
+alex, 396, 0.278986685338
+charact, 1661, 0.238220434994
+hello, 4247, 0.217445763599
+sci, 7690, 0.204807954804
+regard, 7224, 0.179952147133
+ago, 336, 0.171136728576
+guy, 4100, 0.164939177457
+week, 9691, 0.161780073908
+yes, 9951, 0.160022648548
+ask, 689, 0.152157099975

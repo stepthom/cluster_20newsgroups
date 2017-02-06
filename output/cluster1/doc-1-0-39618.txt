@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39618
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: fm24@rummelplatz.uni-mannheim.de (Klimek)
+Subject: TGA Viewer for ATI Ultra +
+Organization: Uni Mannheim
+Lines: 12
+NNTP-Posting-Host: rummelplatz.uni-mannheim.de
+X-Newsreader: TIN [version 1.1 PL8]
+
+Hello,
+
+the subject line says it all: I'm looking for a TGA file viewer for the ATI
+Ultra + card. It should support the true color modes, of course.
+
+If someone knows where to find one via FTP, please let me know.
+
+thanx
+
+Oliver Klimek
+
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tga viewer ati ultra      hello  line say i'm
+look tga file viewer ati ultra card support true
+color mode cours  someon know find one via ftp
+pleas let know  thanx  oliv klimek
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ati, 746, 0.463734741906
+ultra, 9200, 0.432061253643
+tga, 8827, 0.387489689168
+viewer, 9512, 0.333569745396
+oliv, 6223, 0.231867370953
+thanx, 8833, 0.193744844584
+hello, 4247, 0.166784872698
+mode, 5806, 0.154620549647
+know, 5052, 0.145156643198
+card, 1513, 0.144672816808
+ftp, 3709, 0.136204792202
+color, 1907, 0.135425683732
+true, 9121, 0.120196072064
+file, 3477, 0.116596980589
+support, 8576, 0.116050859394
+cours, 2190, 0.11530086156
+line, 5285, 0.11168722984
+someon, 8124, 0.110106763638
+let, 5225, 0.106411644719
+pleas, 6688, 0.0991214987387
+say, 7653, 0.0855468955847
+look, 5341, 0.0840891263075

@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38440
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: sd345@city.ac.uk (Michael Collier)
+Subject: Converting images to HP LaserJet III?
+Nntp-Posting-Host: hampton
+Organization: The City University
+Lines: 14
+
+Does anyone know of a good way (standard PC application/PD utility) to
+convert tif/img/tga files into LaserJet III format.  We would also like to
+do the same, converting to HPGL (HP plotter) files.
+
+Please email any response.
+
+Is this the correct group?
+
+Thanks in advance.  Michael.
+-- 
+Michael Collier (Programmer)                 The Computer Unit,
+Email: M.P.Collier@uk.ac.city                The City University,
+Tel: 071 477-8000 x3769                      London,
+Fax: 071 477-8565                            EC1V 0HB.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ convert imag laserjet iii     anyon know good way
+standard applic util convert tif img tga file
+laserjet iii format also like convert hpgl plotter
+file  pleas email respons  correct group  thank
+advanc michael  michael collier programm comput
+unit  tel x3769 london fax ec1v 0hb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+laserjet, 5136, 0.432436930841
+convert, 2115, 0.344187737054
+iii, 4502, 0.332079033176
+michael, 5680, 0.260276974133
+tif, 8925, 0.202801972638
+img, 4523, 0.202801972638
+hpgl, 4408, 0.202801972638
+plotter, 6695, 0.199439795945
+file, 3477, 0.197556080403
+london, 5334, 0.188942904961
+tga, 8827, 0.164135777364
+tel, 8754, 0.149924726079
+programm, 6906, 0.144813703194
+util, 9384, 0.13403028023
+unit, 9278, 0.129584187924
+applic, 585, 0.125027464182
+email, 3060, 0.120097292333
+fax, 3413, 0.119901102496
+standard, 8313, 0.116932663203
+format, 3612, 0.114244041217
+respons, 7323, 0.109935517895
+correct, 2156, 0.109935517895
+advanc, 285, 0.107938514382
+group, 4064, 0.0993433162753
+comput, 1993, 0.0989652245372
+imag, 4512, 0.0956866365101
+pleas, 6688, 0.0839732498889
+thank, 8832, 0.0799402442093
+anyon, 554, 0.0767069413648
+way, 9666, 0.0746715631923
+good, 3948, 0.0733782716034
+know, 5052, 0.06148653535
+like, 5272, 0.0601058271113

@@ -1,0 +1,29 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104518
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: punjabi@leland.Stanford.EDU (sanjeev punjabi)
+Subject: When does Fred McGriff of the Padres become a free agent?
+Organization: DSG, Stanford University, CA 94305, USA
+Lines: 1
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fred mcgriff padr becom free agent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mcgriff, 5579, 0.516809882063
+padr, 6379, 0.440400830184
+fred, 3666, 0.426515663226
+agent, 331, 0.409521592309
+free, 3668, 0.310111187829
+becom, 983, 0.305224769988

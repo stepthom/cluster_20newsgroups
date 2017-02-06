@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83500
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: keegan@acm.rpi.edu (James G. Keegan Jr.)
+Subject: Re: Spreading Christianity (Re: Christian Extremist Kills Doctor)
+Nntp-Posting-Host: hermes.acm.rpi.edu
+Reply-To: keegan@hermes.acm.rpi.edu
+Organization: T.S.A.K.C.
+Lines: 15
+
+nyikos@math.scarolina.edu (Peter Nyikos) writes:
+
+->I addressed most of the key issues in this very long (284 lines) post
+->by Dean Kaflowitz in two posts yesterday.  The first was made into the
+->title post of a new thread, "Is Dean Kaflowitz terminally irony-impaired?"
+->and the second, more serious one appeared along the thread
+->"A Chaney Post, and a Challenge, reissued and revised"
+
+if you're so insecure about people reading your posts
+that you feel the need to write new posts announcing
+what you wrote in old, posts, why bother? accept it
+PHoney, you're a laughingstock.
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ spread christian christian extremist kill doctor
+address key issu long line post dean kaflowitz two
+post yesterday first made titl post new thread
+dean kaflowitz termin ironi impair second serious
+one appear along thread chaney post challeng
+reissu revis  you'r insecur peopl read post feel
+need write new post announc wrote old post bother
+accept phoney you'r laughingstock
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+post, 6766, 0.517556454648
+kaflowitz, 4944, 0.359714807459
+dean, 2421, 0.300037306002
+thread, 8890, 0.245065839629
+christian, 1732, 0.179700901966
+impair, 4535, 0.176875616309
+ironi, 4768, 0.174208316571
+extremist, 3334, 0.169592676284
+revis, 7359, 0.157959186696
+new, 6023, 0.147488968326
+doctor, 2786, 0.146395921654
+termin, 8796, 0.141086650777
+spread, 8265, 0.139753925555
+challeng, 1642, 0.13247098553
+bother, 1245, 0.13247098553
+yesterday, 9952, 0.131515553921
+titl, 8953, 0.121883757763
+key, 4994, 0.116170660626
+announc, 524, 0.116170660626
+kill, 5012, 0.108318799291
+wrote, 9871, 0.107398118454
+accept, 208, 0.104017646686
+issu, 4793, 0.103238633442
+appear, 580, 0.102933618513
+feel, 3429, 0.0995342047824
+address, 264, 0.0983685595276
+old, 6216, 0.0957265883885
+second, 7753, 0.0881038320818
+write, 9865, 0.0872737271294
+line, 5285, 0.0839136796733
+long, 5336, 0.0797672005353
+read, 7135, 0.0770635011748
+peopl, 6530, 0.0686860804855
+need, 5993, 0.0680666995523

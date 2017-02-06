@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104563
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: aardvark@cygnus.la.locus.com (Warren Usui)
+Subject: Re: The 1964 Phillies: deja vu?
+Keywords: Phillies
+Organization: Locus Computing Corporation, Los Angeles, California
+Lines: 21
+
+In article <ericsC5Hzr5.EuI@netcom.com> erics@netcom.com (Eric Smith) writes:
+>Yeah, the Phillies played over their heads almost the whole year,
+>but it all caught up to them in one 10-game streak. I *am* as old as
+>1964 (man!) and I was a big Phillies fan at the time (age 13).
+	.
+	.
+	.
+>the Dodgers or somebody else finish two games back? That has to be
+>one of the closest last minute scrambles ever.
+
+Since I was born in the late Pleistocene, I too remember 1964.  That year,
+the Dodgers were several games out of first and I think finished sixth in the
+league.  This was kind of odd because they won the World Series both the
+previous year and the following year.
+  
+
+-- 
+Warren Usui
+
+I'm one with the Universe -- on a scale from 1 to 10.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli deja      yeah philli play head almost
+whole year caught one game streak old man big
+philli fan time age    dodger somebodi els finish
+two game back one closest last minut scrambl ever
+sinc born late pleistocen rememb year dodger sever
+game first think finish sixth leagu kind odd world
+seri previous year follow year    warren usui  i'm
+one univers scale
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.389005698098
+dodger, 2791, 0.278600027341
+year, 9943, 0.271458957098
+finish, 3488, 0.261401339917
+game, 3761, 0.245560275403
+usui, 9378, 0.210563619134
+scrambl, 7715, 0.204537977393
+warren, 9647, 0.183246922582
+deja, 2496, 0.183246922582
+sixth, 7997, 0.173128913454
+streak, 8436, 0.164529569742
+closest, 1832, 0.16217996393
+caught, 1568, 0.145812216902
+born, 1233, 0.138352427598
+odd, 6198, 0.137436969349
+yeah, 9942, 0.134863267378
+somebodi, 8121, 0.129001780745
+previous, 6855, 0.126488019824
+scale, 7659, 0.125894513909
+minut, 5747, 0.12474525825
+late, 5139, 0.123914317854
+age, 328, 0.120824845702
+head, 4215, 0.113984486714
+seri, 7805, 0.110120272796
+leagu, 5176, 0.108377511222
+fan, 3381, 0.107472283483
+old, 6216, 0.102107492861
+sever, 7823, 0.0996668129928
+rememb, 7269, 0.099445472146
+kind, 5021, 0.0963262277395
+els, 3053, 0.0933537803952
+man, 5471, 0.0932659642784
+big, 1082, 0.0919818824856
+world, 9841, 0.0904384091373
+univers, 9282, 0.0897369818534
+play, 6681, 0.0890533141441
+follow, 3578, 0.0887549306427
+sinc, 7977, 0.0823170147542
+time, 8936, 0.0641607156781
+think, 8871, 0.0618459433775

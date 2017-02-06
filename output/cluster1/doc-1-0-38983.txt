@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38983
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wolfram@rbg.informatik.th-darmstadt.de (Wolfram Kresse)
+Subject: XV for DOS: what's the problem?
+Organization: TU Darmstadt
+Lines: 31
+Distribution: world
+NNTP-Posting-Host: rbhp21.rbg.informatik.th-darmstadt.de
+
+I downloaded the file xv221exe.zip from the site someone posted here.
+It contained the files:
+  CJPEG.EXE
+  DJPEG.EXE
+  XV.EXE
+
+When I tried to run it, it just said 
+"Couldn't run go32.exe"
+and halts.
+
+What's the matter with this? 
+Are there some files missing in the .zip?
+What is go32.exe?
+
+any help appreciated.
+
+bye,
+
+Wolfram
+
+--
+
++-------+---------------------------------------------------------------+
+|       |Wolfram Kresse * E-Mail: wolfram@rbg.informatik.th-darmstadt.de|
+|  ~ ~  +--------------------------+---------------+--------------------+
+|  + +  |"Meeneemeeneemeenee"      |CU l8r, LE g8r!|
+|   I   |"Yes,that's right,Tweeky."+---------------+
+| _____ +-----+----+---------------+
+|     U | 8^) | =) |
++-------+-----+----+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dos what problem      download file xv221ex zip
+site someon post contain file cjpeg exe djpeg exe
+exe  tri run said couldn't run go32 exe halt  what
+matter file miss zip go32 exe  help appreci  bye
+wolfram       meeneemeeneemeene l8r g8r yes that
+right tweeki
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+exe, 3269, 0.737409195447
+go32, 3923, 0.302991420096
+zip, 9988, 0.238767610447
+file, 3477, 0.228543700967
+wolfram, 9816, 0.159348030005
+djpeg, 2774, 0.159348030005
+halt, 4134, 0.156408291072
+cjpeg, 1781, 0.151495710048
+bye, 1435, 0.149397424088
+run, 7543, 0.132631637837
+download, 2843, 0.129628935124
+dos, 2825, 0.103869419338
+couldn, 2176, 0.100152770591
+contain, 2079, 0.0967896466973
+miss, 5770, 0.0930836876032
+site, 7994, 0.0907331543838
+matter, 5553, 0.0854338447805
+appreci, 587, 0.0851076856382
+yes, 9951, 0.0801951046141
+said, 7583, 0.0732865066771
+someon, 8124, 0.0719407058865
+problem, 6887, 0.0692621246945
+right, 7399, 0.0669688641552
+help, 4249, 0.0646777418727
+post, 6766, 0.0642970636946
+tri, 9087, 0.063758561941

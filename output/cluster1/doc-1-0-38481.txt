@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38481
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Video in/out
+From: djlewis@ualr.edu
+Organization: University of Arkansas at Little Rock
+Nntp-Posting-Host: athena.ualr.edu
+Lines: 40
+
+In article <1993Apr18.080719.4773@nwnexus.WA.COM>, mscrap@halcyon.com (Marta Lyall) writes:
+> Organization: "A World of Information at your Fingertips"
+> Keywords: 
+> 
+> In article <628@toontown.columbiasc.ncr.com> craig@toontown.ColumbiaSC.NCR.COM (Craig S. Williamson) writes:
+>>
+>>I'm getting ready to buy a multimedia workstation and would like a little
+>>advice.  I need a graphics card that will do video in and out under windows.
+>>I was originally thinking of a Targa+ but that doesn't work under Windows.
+>>What cards should I be looking into?
+>>
+>>Thanks,
+>>Craig
+>>
+>>-- 
+>>                                             "To forgive is divine, to be
+>>-Craig Williamson                              an airhead is human."
+>> Craig.Williamson@ColumbiaSC.NCR.COM                -Balki Bartokomas
+>> craig@toontown.ColumbiaSC.NCR.COM (home)                  Perfect Strangers
+> 
+> 
+> Craig,
+> 
+> You should still consider the Targa+. I run windows 3.1 on it all the
+> time at work and it works fine. I think all you need is the right
+> driver. 
+> 
+> Josh West  
+> email: mscrap@halcyon.com
+> 
+AT&T also puts out two new products for windows, Model numbers elude me now,
+a 15 bit video board with framegrabber and a 16bit with same. Yesterday I
+was looking at a product at a local Software ETC store. Media Vision makes
+a 15bit (32,768 color) frame capture board that is stand alone and doesnot
+use the feature connector on your existing video card. It claims upto 30 fps
+live capture as well as single frame from either composite NTSC or s-video
+in and out.
+
+Don Lewis
+<djlewis@ualr.edu>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+video       organ world inform fingertip keyword
+i'm get readi buy multimedia workstat like littl
+advic need graphic card video window origin think
+targa doesn't work window card look  thank craig
+forgiv divin craig williamson airhead human
+craig  still consid targa run window time work
+work fine think need right driver  josh west
+also put two new product window model number elud
+bit video board framegrabb 16bit yesterday look
+product local softwar etc store media vision make
+15bit color frame captur board stand alon doesnot
+use featur connector exist video card claim upto
+fps live captur well singl frame either composit
+ntsc video   lewi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+video, 9506, 0.405023725444
+craig, 2208, 0.298968853265
+window, 9774, 0.297559536845
+card, 1513, 0.230333021828
+targa, 8703, 0.214793399088
+captur, 1509, 0.193115727356
+frame, 3643, 0.173101784482
+board, 1186, 0.171734851693
+work, 9833, 0.151981687364
+product, 6896, 0.149733524169
+williamson, 9765, 0.13943669237
+upto, 9345, 0.13943669237
+framegrabb, 3644, 0.13943669237
+airhead, 361, 0.13943669237
+fps, 3634, 0.123051709352
+keyword, 4997, 0.114647170033
+ntsc, 6147, 0.112540990224
+multimedia, 5918, 0.108157744631
+lewi, 5235, 0.108157744631
+josh, 4895, 0.108157744631
+forgiv, 3605, 0.104640198596
+composit, 1982, 0.101702154358
+advic, 292, 0.101168327836
+divin, 2766, 0.0973897281069
+need, 5993, 0.0961575646297
+workstat, 9840, 0.0942719651653
+yesterday, 9952, 0.092895758566
+vision, 9542, 0.0910117165259
+store, 8417, 0.0907161418547
+driver, 2876, 0.0898576476959
+look, 5341, 0.0892519778658
+readi, 7139, 0.088001567914
+media, 5605, 0.0870214946764
+alon, 437, 0.0863201553562
+west, 9708, 0.0860923578747
+featur, 3422, 0.0837612460369
+think, 8871, 0.0819096272805
+buy, 1433, 0.0811758646766
+fine, 3485, 0.0793780004441
+stand, 8311, 0.0774628865274
+local, 5322, 0.0761177518047
+model, 5807, 0.0749879955012
+organ, 6287, 0.0748667620845
+singl, 7983, 0.0741561310725
+color, 1907, 0.0718702325597
+claim, 1782, 0.0696621615317
+human, 4432, 0.0690408929753
+live, 5310, 0.0655638918581
+exist, 3283, 0.0641160143795
+origin, 6293, 0.0635938791694
+consid, 2059, 0.0627152952877
+bit, 1122, 0.0603122022944
+littl, 5308, 0.0600993204888
+world, 9841, 0.0598889432332
+softwar, 8103, 0.0596810122803
+graphic, 3997, 0.0588726549675
+inform, 4637, 0.058774132071
+number, 6156, 0.0581466339864
+doesn, 2793, 0.0580049011931
+right, 7399, 0.0543951588138
+run, 7543, 0.0538647257565
+new, 6023, 0.0520892745544
+thank, 8832, 0.0500772397475
+make, 5459, 0.0448500753299
+time, 8936, 0.0424876719494
+use, 9363, 0.0394928361301
+like, 5272, 0.0376522982166

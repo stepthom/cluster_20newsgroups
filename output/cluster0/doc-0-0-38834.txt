@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38834
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: zlg1409@uxa.cso.uiuc.edu (Zhenhai Li )
+Subject: What is the difference between Raytracing and rendering?
+Organization: University of Illinois at Urbana
+Lines: 8
+
+
+Hello, I've raytraced and rendered and the only difference I've found 
+is that raytracing takes a hell of a lot longer. Am I missing
+something?
+
+Later,
+Z.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ differ raytrac render     hello i'v raytrac
+render differ i'v found raytrac take hell lot
+longer miss someth  later
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+raytrac, 7121, 0.731239517376
+render, 7277, 0.427370167373
+differ, 2633, 0.261057115281
+hello, 4247, 0.209828705515
+hell, 4245, 0.19452501449
+longer, 5337, 0.18929486319
+miss, 5770, 0.179234300943
+later, 5140, 0.17776734042
+lot, 5356, 0.132266925854
+someth, 8126, 0.124785323851

@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84150
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rwd4f@poe.acc.Virginia.EDU (Rob Dobson)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: University of Virginia
+Lines: 24
+
+In article <bskendigC5rCBG.Azp@netcom.com> bskendig@netcom.com (Brian Kendig) writes:
+
+>They used a tank to knock a hole in the wall, and they released
+>non-toxic, non-flammable tear gas into the building.
+
+How do you know? Were you there?
+
+While obviously Koresh was a nut case, the (typical) inability of the
+government/media to get its story straight is quite disturbing. On
+tuesday night, NBC news reported that the FBI did not know the place
+was burning down until they saw black smoke billowing from the
+building. The next day, FBI agents were insisting that they saw Davidians
+setting the fire. The FBI was also adamantly denying that it was possible
+their battery of the compound's wallks could have accidentally set the
+blaze, while also saying they hadnt been able to do much investigating
+of the site because it was still too hot. So how did they KNOW they
+didnt accidentally set the fire.
+
+Sounds like the FBI just burned the place to the ground to destroy
+evidence to me.
+
+
+--
+Legalize Freedom
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen      use tank knock
+hole wall releas non toxic non flammabl tear gas
+build  know  obvious koresh nut case typic inabl
+govern media get stori straight quit disturb
+tuesday night nbc news report fbi know place burn
+saw black smoke billow build next day fbi agent
+insist saw davidian set fire fbi also adam deni
+possibl batteri compound wallk could accident set
+blaze also say hadnt abl much investig site still
+hot know didnt accident set fire  sound like fbi
+burn place ground destroy evid    legal freedom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fbi, 3414, 0.416766530345
+accident, 211, 0.274041985427
+set, 7815, 0.210736682486
+burn, 1413, 0.183727219071
+saw, 7650, 0.172771635835
+know, 5052, 0.168972216848
+build, 1378, 0.158322945349
+non, 6097, 0.155465089774
+nbc, 5973, 0.148548431041
+flammabl, 3520, 0.148548431041
+didnt, 2626, 0.148548431041
+batteri, 950, 0.137020992714
+place, 6657, 0.134341591804
+toxic, 9025, 0.133085518835
+inabl, 4560, 0.133085518835
+blaze, 1147, 0.133085518835
+disturb, 2756, 0.125737179908
+nut, 6160, 0.119491791972
+tear, 8735, 0.118620021682
+smoke, 8067, 0.117785359449
+adam, 258, 0.113409156857
+compound, 1983, 0.111539971513
+tuesday, 9147, 0.110386015025
+destroy, 2574, 0.109833538989
+deni, 2523, 0.107767250455
+agent, 331, 0.105457336398
+freedom, 3672, 0.104191632586
+knock, 5050, 0.103787255325
+gas, 3780, 0.103391047863
+davidian, 2398, 0.103391047863
+investig, 4745, 0.102248301209
+tank, 8695, 0.101168490754
+insist, 4673, 0.101168490754
+typic, 9178, 0.099815429995
+straight, 8422, 0.0994912638984
+wall, 9619, 0.0991723690293
+hot, 4389, 0.0991723690293
+legal, 5200, 0.0982456642426
+media, 5605, 0.0954392274038
+hole, 4343, 0.0944202136667
+koresh, 5065, 0.0941735235922
+presid, 6839, 0.0939298980701
+stori, 8418, 0.0886545743466
+ground, 4061, 0.0881072382925
+releas, 7253, 0.0857374414341
+black, 1133, 0.0857374414341
+obvious, 6185, 0.0829203778802
+evid, 3245, 0.0826460852645
+govern, 3966, 0.0818455005416
+messag, 5650, 0.081076319512
+site, 7994, 0.0808264868044
+night, 6063, 0.0796229434326
+report, 7291, 0.0780531776802
+sound, 8150, 0.0770041788617
+quit, 7043, 0.0718273915476
+abl, 180, 0.0717491016139
+happen, 4159, 0.0691205727399
+case, 1540, 0.0681865103833
+news, 6031, 0.0677356490941
+possibl, 6765, 0.06429847917
+day, 2402, 0.0581553747516
+say, 7653, 0.0497912058071
+use, 9363, 0.0433130433148
+like, 5272, 0.0412944671329

@@ -1,0 +1,197 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61046
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Vandalizing the sky.
+Organization: Univ. of Southwestern Louisiana
+Lines: 49
+
+hoover@mathematik.uni-bielefeld.de (Uwe Schuerkamp) writes:
+
+>In article <C5t05K.DB6@research.canon.oz.au> enzo@research.canon.oz.au 
+>(Enzo Liguori) writes:
+
+>> hideous vision of the future.  Observers were
+>>startled this spring when a NASA launch vehicle arrived at the
+>>pad with "SCHWARZENEGGER" painted in huge block letters on the
+
+>This is ok in my opinion as long as the stuff *returns to earth*.
+
+>>What do you think of this revolting and hideous attempt to vandalize
+>>the night sky? It is not even April 1 anymore.
+
+>If this turns out to be true, it's time to get seriously active in
+>terrorism. This is unbelievable! Who do those people think they are,
+>selling every bit that promises to make money? I guess we really
+>deserve being wiped out by uv radiation, folks. "Stupidity wins". I
+>guess that's true, and if only by pure numbers.
+
+>	Another depressed planetary citizen,
+>	hoover
+
+
+This isn't inherently bad.
+
+This isn't really light pollution since it will only
+be visible shortly before or after dusk (or during the
+day).
+
+(Of course, if night only lasts 2 hours for you, you're probably going
+to be inconvienenced. But you're inconvienenced anyway in that case).
+
+Finally: this isn't the Bronze Age, and most of us aren't Indo
+European; those people speaking Indo-Eurpoean languages often have
+much non-indo-european ancestry and cultural background. So:
+please try to remember that there are more human activities than
+those practiced by the Warrior Caste, the Farming Caste, and the
+Priesthood.
+
+And why act distressed that someone's found a way to do research
+that doesn't involve socialism?
+
+It certianly doesn't mean we deserve to die.
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky      research canon   hideous vision
+futur observ startl spring nasa launch vehicl
+arriv pad schwarzenegg paint huge block letter
+opinion long stuff return earth  think revolt
+hideous attempt vandal night sky even april anymor
+turn true it time get serious activ terror
+unbeliev peopl think sell everi bit promis make
+money guess realli deserv wipe radiat folk stupid
+win guess that true pure number  anoth depress
+planetari citizen hoover   isn't inher bad  isn't
+realli light pollut sinc visibl short dusk day
+cours night last hour you'r probabl go
+inconvienenc you'r inconvienenc anyway case  final
+isn't bronz age aren't indo european peopl speak
+indo eurpoean languag often much non indo european
+ancestri cultur background pleas tri rememb human
+activ practic warrior cast farm cast priesthood
+act distress someon found way research doesn't
+involv social  certian doesn't mean deserv die
+phil fraer seem like everi day find sort stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+indo, 4605, 0.364443201443
+hideous, 4288, 0.20623720865
+cast, 1545, 0.189845024433
+isn, 4783, 0.171175852478
+deserv, 2560, 0.170448039028
+european, 3222, 0.169697199475
+vandal, 9419, 0.159640118423
+sky, 8011, 0.134733100134
+activ, 252, 0.133086616468
+night, 6063, 0.126502577222
+dusk, 2927, 0.125962914148
+ancestri, 498, 0.121481067148
+guess, 4079, 0.120759980482
+research, 7307, 0.119847964144
+stuff, 8472, 0.11940177513
+hoover, 4370, 0.118004676535
+bronz, 1338, 0.118004676535
+warrior, 9649, 0.115164258585
+true, 9121, 0.111147528602
+wipe, 9792, 0.110682411584
+schwarzenegg, 7689, 0.108847450022
+startl, 8336, 0.107206020971
+everi, 3235, 0.106718973569
+terror, 8808, 0.10572116778
+priesthood, 6861, 0.10572116778
+distress, 2752, 0.104365603022
+revolt, 7364, 0.101964063864
+depress, 2542, 0.101964063864
+doesn, 2793, 0.101070918665
+unbeliev, 9217, 0.0989392749237
+canon, 1493, 0.0972064721986
+citizen, 1776, 0.0949225122164
+realli, 7150, 0.0924576694248
+day, 2402, 0.0923955391277
+social, 8091, 0.0923199487619
+inher, 4644, 0.0917319858961
+fraer, 3640, 0.0911654083003
+farm, 3390, 0.0911654083003
+pad, 6377, 0.0881406193604
+pollut, 6726, 0.0864078166353
+anymor, 553, 0.0860031401992
+arriv, 655, 0.0852240195138
+peopl, 6530, 0.0845374265697
+paint, 6391, 0.0844820141929
+radiat, 7058, 0.0830962864691
+cultur, 2291, 0.0830962864691
+block, 1163, 0.0824470605797
+pure, 6990, 0.0806474660403
+visibl, 9541, 0.0798200592114
+background, 855, 0.0798200592114
+planetari, 6665, 0.0795537421823
+vision, 9542, 0.0792919012821
+spring, 8266, 0.0775727704901
+letter, 5227, 0.0768903621242
+phil, 6588, 0.0766693773292
+huge, 4427, 0.0764514833322
+stupid, 8476, 0.0762365948655
+languag, 5113, 0.0752044846359
+vehicl, 9449, 0.07461652177
+folk, 3576, 0.0744253639505
+sell, 7778, 0.0742365232526
+promis, 6913, 0.0731491634334
+think, 8871, 0.0713619117219
+hour, 4395, 0.0701346747694
+age, 328, 0.0697078215796
+act, 249, 0.0695680971737
+speak, 8192, 0.0686236160765
+attempt, 763, 0.0684932457188
+practic, 6793, 0.0682357329661
+aren, 623, 0.0679824075987
+return, 7346, 0.0665433082338
+futur, 3737, 0.0657613938307
+involv, 4750, 0.0653315964536
+observ, 6179, 0.0648105055087
+april, 595, 0.0647083466716
+die, 2628, 0.0637219941083
+money, 5835, 0.0627943888027
+turn, 9158, 0.0620042899146
+light, 5267, 0.0620042899146
+non, 6097, 0.0617495839662
+short, 7904, 0.0615820644292
+launch, 5147, 0.0612523343048
+final, 3482, 0.0611709807683
+human, 4432, 0.0601503177744
+sort, 8144, 0.059923982072
+nasa, 5956, 0.0586309592156
+opinion, 6266, 0.0583576334887
+rememb, 7269, 0.0573733588402
+bad, 861, 0.0573733588402
+win, 9770, 0.0566283961983
+earth, 2956, 0.0542702168425
+case, 1540, 0.0541663553456
+cours, 2190, 0.053310418502
+bit, 1122, 0.0525456432751
+probabl, 6885, 0.0509509284029
+someon, 8124, 0.0509088793441
+number, 6156, 0.0506589408257
+anoth, 533, 0.050210881617
+long, 5336, 0.0490879215283
+mean, 5595, 0.0481456382398
+sinc, 7977, 0.0474913892431
+pleas, 6688, 0.045829740635
+tri, 9087, 0.0451187807654
+way, 9666, 0.0407531967435
+make, 5459, 0.0390746145804
+time, 8936, 0.0370164240222
+like, 5272, 0.0328037139304

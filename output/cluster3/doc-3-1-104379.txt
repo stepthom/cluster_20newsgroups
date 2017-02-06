@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104379
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: erics@netcom.com (Eric Smith)
+Subject: Re: The 1964 Phillies: deja vu?
+Keywords: Phillies
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 12
+
+jerry@sheldev.shel.isc-br.com (Gerald Lanza) writes:
+
+>	P.S. In 1964, a single team out of 8 won the pennant; no divisions.
+
+Make that ten, not eight. The Mets and Astros joined the N.L. in 1962.
+
+-----
+Eric Smith
+erics@netcom.com
+erics@infoserv.com
+CI$: 70262,3610
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli deja       singl team pennant divis  make
+ten eight met astro join   eric smith
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+deja, 2496, 0.40306088993
+pennant, 6524, 0.343469342791
+join, 4881, 0.32491571811
+eric, 3170, 0.301317812172
+astro, 724, 0.300352011755
+smith, 8064, 0.29065125194
+philli, 6593, 0.285212580296
+divis, 2767, 0.275005462623
+met, 5655, 0.264176397729
+singl, 7983, 0.246312979334
+team, 8732, 0.19721206075
+make, 5459, 0.148971575487

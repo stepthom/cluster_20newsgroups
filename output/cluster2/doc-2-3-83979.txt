@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83979
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615)
+Subject: Re: Is it good that Jesus died?
+Organization: Lunar & Planetary Laboratory, Tucson AZ.
+Lines: 30
+
+In article <bskendigC5wrsM.Gyx@netcom.com> bskendig@netcom.com (Brian Kendig) writes:
+
+>As long as we're trading secrets, let me tell y'all one: I got a
+>really bad feeling in my heart back when I was a Christian.  I
+>couldn't really pinpoint it, but something felt dreadfully cheap and
+>wrong about the whole affair.  I had been a devout follower, even a
+>Bible-banger, but eventually it started ringing terribly hollow to me.
+>
+>And I felt torn when I began to disagree with a lot of what the Bible
+>(and my priests) told me; this was what made me finally realize that
+>either I was very wrong, or else the Bible was very wrong.  And since
+>I felt reasonably sure of myself, I decided to start analyzing the
+>Bible very closely.  That was the catalyst to my break with my faith,
+>though it was a long and difficult effort.
+
+Brian, have you checked out what your priests told you in the
+Bible to see whether they were telling you the truth?  Did you know
+that according to the Bible, there shouldn't even be such things as
+"priests" anymore?  Do you know why the preisthood was established in
+the Old Testament to begin with and the reasons why after Jesus,
+there were no priests--that is until the Roman Catholic Church 
+300 years later devised the doctrine of transubstantiation by ignoring
+the whole concept beyond the book of Hebrews?
+
+You said you analyzed the Bible very closely.  I think you are
+lying.  For if you had, I would think you would have at least
+got the doctrine of hell straight.
+
+So what is your beef against Jesus?  Be specific and point on
+verses.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die      long we'r trade secret let
+tell y'all one got realli bad feel heart back
+christian couldn't realli pinpoint someth felt
+dread cheap wrong whole affair devout follow even
+bibl banger eventu start ring terribl hollow  felt
+torn began disagre lot bibl priest told made final
+realiz either wrong els bibl wrong sinc felt
+reason sure decid start analyz bibl close catalyst
+break faith though long difficult effort  brian
+check priest told bibl see whether tell truth know
+accord bibl shouldn't even thing priest anymor
+know preisthood establish old testament begin
+reason jesus priest roman cathol church year later
+devis doctrin transubstanti ignor whole concept
+beyond book hebrew  said analyz bibl close think
+lie think least got doctrin hell straight  beef
+jesus specif point vers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bibl, 1071, 0.472352109768
+priest, 6860, 0.366911318691
+felt, 3439, 0.263795239612
+jesus, 4859, 0.187572606466
+analyz, 493, 0.179970242711
+wrong, 9869, 0.16933024145
+doctrin, 2787, 0.167500188648
+told, 8973, 0.138453330885
+close, 1830, 0.116571306047
+torn, 9002, 0.11130281958
+catalyst, 1554, 0.11130281958
+devout, 2600, 0.107438239811
+dread, 2864, 0.104352432461
+devis, 2594, 0.104352432461
+beef, 988, 0.101783563494
+got, 3960, 0.100916864873
+tell, 8767, 0.100499559455
+affair, 309, 0.099583034742
+reason, 7156, 0.0992010050944
+hebrew, 4233, 0.0976583424218
+start, 8334, 0.0973505259765
+long, 5336, 0.0969047944425
+cathol, 1564, 0.0959479736931
+terribl, 8804, 0.0930100277591
+realli, 7150, 0.0912606520229
+testament, 8813, 0.0894455056813
+secret, 7755, 0.0874585563176
+began, 993, 0.0852891245807
+vers, 9476, 0.0848896873501
+roman, 7468, 0.0848896873501
+anymor, 553, 0.0848896873501
+ring, 7406, 0.0830347342368
+establish, 3198, 0.0810689805604
+shouldn, 7912, 0.0798855145549
+disagre, 2676, 0.0796033512484
+straight, 8422, 0.078011157693
+heart, 4225, 0.078011157693
+cheap, 1677, 0.078011157693
+church, 1746, 0.077272897425
+trade, 9033, 0.0758948892545
+eventu, 3233, 0.0756767654731
+difficult, 2635, 0.0748339535289
+lie, 5258, 0.0744292599425
+brian, 1304, 0.0722021265666
+effort, 3007, 0.071860390975
+truth, 9132, 0.0715260850098
+concept, 2002, 0.0710378703934
+realiz, 7149, 0.0705646801737
+hell, 4245, 0.0705646801737
+think, 8871, 0.0704380137835
+break, 1284, 0.0704101314481
+faith, 3367, 0.0701056171656
+couldn, 2176, 0.0699555918902
+accord, 219, 0.0690849366167
+ignor, 4496, 0.0686674231306
+begin, 994, 0.0682609465459
+decid, 2442, 0.0666140483126
+know, 5052, 0.066245606588
+later, 5140, 0.0644857709171
+die, 2628, 0.0628970075354
+check, 1682, 0.0627094751045
+specif, 8203, 0.061033480422
+feel, 3429, 0.0604593215615
+final, 3482, 0.060379021281
+old, 6216, 0.0581464894607
+bad, 861, 0.0566305658479
+book, 1218, 0.0550795849637
+christian, 1732, 0.0545771910299
+els, 3053, 0.0531615697903
+said, 7583, 0.0511898065514
+follow, 3578, 0.0505426927503
+sure, 8585, 0.0495212370688
+let, 5225, 0.0485634263589
+lot, 5356, 0.0479803245095
+sinc, 7977, 0.0468765346862
+someth, 8126, 0.0452663452613
+point, 6710, 0.0434052620029
+thing, 8869, 0.0420098108902
+good, 3948, 0.0395288829097
+year, 9943, 0.0386464914219

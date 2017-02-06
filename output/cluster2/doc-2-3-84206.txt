@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84206
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: ash@sumex-aim.stanford.edu (David Ash)
+Subject: Theory on David Koresh 
+Originator: dash@Xenon.Stanford.EDU
+Organization: Computer Science Department, Stanford University.
+Lines: 15
+
+My theory is that Koresh was seriously wounded in the initial gunbattle
+and died on Day 9 of the siege.  On Day 11 of the siege he rose from the
+dead and periodically appeared to his followers and the FBI over the
+next 40 days.  Living with someone who's risen from the dead isn't easy,
+as Timmy Baterman's father in *Pet*Sematary* could attest, so after 40
+days they did what Baterman did--shot themselves and burned the place
+to the ground.
+
+Consistent with the facts, isn't it?  Did anyone actually *see* Koresh
+between Day 9 and Day 11?
+-- 
+David W. Ash               | "What profits a man if he keeps his eternal soul
+ash@sumex-aim.stanford.edu |  when he could have lived life to the full and
+HOME: (415) 853-6860       |  been forgiven at the end of it all anyway?"
+                           |         --David Merritt, a.k.a. THE RED SHARK
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ theori david koresh     theori koresh serious
+wound initi gunbattl die day sieg day sieg rose
+dead period appear follow fbi next day live someon
+who risen dead isn't easi timmi baterman father
+pet sematari could attest day baterman shot burn
+place ground  consist fact isn't anyon actual see
+koresh day day  david ash profit man keep etern
+soul  home forgiven end anyway david merritt red
+shark
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+day, 2402, 0.4045535073
+sieg, 7937, 0.336164171026
+koresh, 5065, 0.327555530565
+david, 2397, 0.275340426833
+theori, 8848, 0.210079181108
+dead, 2415, 0.202664864808
+shark, 7857, 0.168082085513
+isn, 4783, 0.166553955932
+attest, 767, 0.164577042238
+ash, 679, 0.164577042238
+forgiven, 3606, 0.161540835649
+risen, 7415, 0.158862711637
+pet, 6573, 0.154299906773
+wound, 9855, 0.137528548915
+rose, 7481, 0.126112095915
+soul, 8149, 0.124945800595
+etern, 3205, 0.121278921948
+profit, 6903, 0.120800214294
+fbi, 3414, 0.120800214294
+father, 3404, 0.114617047007
+shot, 7910, 0.111580840418
+initi, 4647, 0.110351472176
+burn, 1413, 0.106507052843
+consist, 2061, 0.103661121622
+ground, 4061, 0.102151900324
+period, 6546, 0.101332432404
+easi, 2959, 0.100347959432
+die, 2628, 0.0930021674639
+appear, 580, 0.0924509217092
+red, 7194, 0.0910004850843
+home, 4354, 0.0876786641841
+live, 5310, 0.0833681114495
+man, 5471, 0.0785329946638
+end, 3091, 0.0783858240936
+fact, 3350, 0.0780220119528
+place, 6657, 0.0778781015122
+follow, 3578, 0.0747345566893
+someon, 8124, 0.0743014431424
+actual, 254, 0.0731075850245
+anyon, 554, 0.0611005072927

@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38602
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: renner@adobe.com (John Renner)
+Subject: Re: detecting double points in bezier curves
+Organization: Adobe Systems Incorporated, Mountain View
+Lines: 27
+
+In article <19930420.090030.915@almaden.ibm.com> capelli@vnet.IBM.COM (Ron Capelli) writes:
+>In <ia522B1w165w@oeinck.waterland.wlink.nl> Ferdinand Oeinck writes:
+>>I'm looking for any information on detecting and/or calculating a double
+>>point and/or cusp in a bezier curve.
+>
+>See:
+>   Maureen Stone and Tony DeRose,
+>   "A Geometric Characterization of Parametric Cubic Curves",
+>   ACM TOG, vol 8, no 3, July 1989, pp. 147-163.
+
+I've used that reference, and found that I needed to go to their
+original tech report:
+
+	Maureen Stone and Tony DeRose,
+	"Characterizing Cubic Bezier Curves"
+	Xerox  EDL-88-8, December 1988
+
+This report can be obtained for free from:
+Xerox Corporation
+Palo Alto Research Center
+3333 Coyote Hill Road
+Palo Alto, California 94303
++1-415-494-4440
+
+The TOG paper was good, but this tech report had more interesting details ;-)
+
+-john
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ detect doubl point bezier curv      i'm look
+inform detect calcul doubl point cusp bezier curv
+see maureen stone toni deros geometr character
+parametr cubic curv acm tog vol  i'v use refer
+found need origin tech report  maureen stone toni
+deros character cubic bezier curv xerox edl decemb
+report obtain free xerox corpor palo alto research
+center coyot hill road palo alto california   tog
+paper good tech report interest detail  john
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+curv, 2306, 0.359780860584
+bezier, 1065, 0.317111786176
+alto, 453, 0.271594872178
+tog, 8968, 0.254435722265
+deros, 2551, 0.254435722265
+maureen, 5556, 0.248311356572
+xerox, 9893, 0.234691373057
+cubic, 2285, 0.21140785745
+character, 1662, 0.201744325359
+report, 7291, 0.200535776436
+tech, 8736, 0.20037307323
+stone, 8409, 0.191047142096
+detect, 2579, 0.181383610004
+toni, 8984, 0.173887992183
+doubl, 2828, 0.156606914685
+cusp, 2309, 0.121566639579
+parametr, 6422, 0.111169562686
+acm, 240, 0.101586972949
+decemb, 2438, 0.100872162679
+vol, 9570, 0.100186536615
+geometr, 3843, 0.0995278048823
+hill, 4300, 0.0960403966334
+point, 6710, 0.094815780259
+corpor, 2154, 0.084663140458
+california, 1459, 0.0836292444814
+obtain, 6183, 0.0831352233886
+calcul, 1451, 0.0808620969346
+road, 7431, 0.0783034573427
+paper, 6409, 0.0748503139944
+free, 3668, 0.0683907628005
+center, 1606, 0.0677944099926
+research, 7307, 0.0646025314725
+john, 4878, 0.0635084839158
+refer, 7213, 0.0619214623645
+origin, 6293, 0.0597304400621
+inform, 4637, 0.0552035010086
+need, 5993, 0.0451579124096
+good, 3948, 0.0431740496763
+look, 5341, 0.0419148822494
+use, 9363, 0.0370935774348

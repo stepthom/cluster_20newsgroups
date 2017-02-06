@@ -1,0 +1,206 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61405
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: Re: Gamma Ray Bursters. WHere are they.
+Organization: Lick Observatory/UCO
+Lines: 52
+	<1993Apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au>
+	<STEINLY.93Apr27121443@topaz.ucsc.edu>
+	<ETHANB.93Apr28135146@ptolemy.astro.washington.edu>
+NNTP-Posting-Host: topaz.ucsc.edu
+In-reply-to: ethanb@ptolemy.astro.washington.edu's message of 28 Apr 93 21:51:46 GMT
+
+In article <ETHANB.93Apr28135146@ptolemy.astro.washington.edu> ethanb@ptolemy.astro.washington.edu (Ethan Bradford) writes:
+
+   In article <STEINLY.93Apr27121443@topaz.ucsc.edu> steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+      _The_ problem with Oort cloud sources is that absolutely
+      no plausible mechanism has been proposed. It would have
+      to involve new physics as far as I can tell. Closest to
+      "conventional" Oort sources is a model of B-field pinching
+      by comets, it's got too many holes in it to count, but at
+      least it was a good try...
+
+   So you have a plausible model for GRB's at astronomical distances?
+
+I don't have any plausible models for GRBs at any distances ;-)
+
+   Recent observations have just about ruled out the merging neutron star
+   hypothesis, which had a lot of problems, anyhow.  We have to look for
+   implausible models and what is fundamentally allowed independent of
+   models.
+
+Hmm, the "superbowl" burst has been claimed in press releases
+to cast doubt on the merging NS hypothesis, from what I've read
+(and I haven't seen the papers, only the press) I'd say it is
+consistent with some of the merging NS models
+
+   A paper on the possibility of GRB's in the Oort cloud just came
+   through the astrophysics abstract service.  To get a copy of this
+
+   Here is the abstract of that paper.
+
+ ...
+      indicator to these events all possible sources which are
+      isotropically distributed should remain under consideration. This is
+      why the Oort cloud of comets is kept on the list,
+      although there is no known mechanism for generating \GRBs
+      from cometary nuclei. Unlikely as it may seem, the possibility that \GRBs
+      originate in the solar cometary cloud
+      cannot be excluded until it is disproved.
+
+This does not propose a _mechanism_ for GRBs in the Oort (and, no,
+anti-matter annihilation does not fit the spectra at least as far
+as I understand annihilation spectra...). Big difference.
+That's ignoring the question of how you fit a distribution
+to the Oort distribution when the Oort distribution is not well
+known - in particular comet aphelia (which are not well known)
+are not a good measure of the Oort cloud distribution...
+
+
+*  Steinn Sigurdsson   			Lick Observatory      	*
+*  steinly@lick.ucsc.edu		"standard disclaimer"  	*
+*  The laws of gravity are very,very strict			*
+*  And you're just bending them for your own benefit - B.B. 1988*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster             problem oort cloud
+sourc absolut plausibl mechan propos involv new
+physic far tell closest convent oort sourc model
+field pinch comet it got mani hole count least
+good tri  plausibl model grb astronom distanc
+don't plausibl model grbs distanc  recent observ
+rule merg neutron star hypothesi lot problem
+anyhow look implaus model fundament allow independ
+model  hmm superbowl burst claim press releas cast
+doubt merg hypothesi i'v read haven't seen paper
+press i'd say consist merg model  paper possibl
+grb oort cloud came astrophys abstract servic get
+copi  abstract paper   indic event possibl sourc
+isotrop distribut remain consider oort cloud comet
+kept list although known mechan generat grbs
+cometari nuclei unlik seem possibl grbs origin
+solar cometari cloud cannot exclud disprov  propos
+mechan grbs oort anti matter annihil fit spectra
+least far understand annihil spectra big differ
+that ignor question fit distribut oort distribut
+oort distribut well known particular comet aphelia
+well known good measur oort cloud distribut
+steinn sigurdsson lick observatori  law graviti
+strict you'r bend benefit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oort, 6255, 0.482210439502
+grbs, 4015, 0.272305595811
+cloud, 1835, 0.267095503362
+model, 5807, 0.248915487251
+distribut, 2753, 0.231697878559
+merg, 5642, 0.20140052761
+plausibl, 6680, 0.190280164178
+comet, 1926, 0.154734053644
+mechan, 5603, 0.14777737735
+grb, 4014, 0.143209864617
+cometari, 1927, 0.143209864617
+annihil, 520, 0.143209864617
+spectra, 8208, 0.134267018406
+paper, 6409, 0.132264534548
+hypothesi, 4465, 0.126853442786
+known, 5054, 0.118612454955
+abstract, 199, 0.111939533119
+sourc, 8153, 0.109540441057
+possibl, 6765, 0.0973039572052
+distanc, 2744, 0.0968212941743
+press, 6841, 0.0950095723131
+fit, 3510, 0.0892558445604
+propos, 6933, 0.0831068856435
+aphelia, 563, 0.0771411299235
+superbowl, 8554, 0.0749336032181
+nuclei, 6151, 0.0749336032181
+disprov, 2736, 0.0691187152135
+sigurdsson, 7952, 0.0662727183031
+isotrop, 4788, 0.0662727183031
+far, 3386, 0.0660924065157
+steinn, 8371, 0.0654808674353
+lick, 5255, 0.0647477280429
+bend, 1024, 0.0640651915977
+neutron, 6022, 0.0622615109481
+problem, 6887, 0.0622475188443
+exclud, 3266, 0.0602763049378
+cast, 1545, 0.0602763049378
+astrophys, 731, 0.0598365501145
+closest, 1832, 0.0594155140377
+convent, 2113, 0.0590116679819
+strict, 8445, 0.058250303593
+hmm, 4327, 0.0575433704533
+fundament, 3724, 0.0551332526152
+burst, 1417, 0.0548694275247
+pinch, 6632, 0.0527665880881
+burster, 1418, 0.0523543261623
+observatori, 6180, 0.0521544637165
+good, 3948, 0.0508605800941
+graviti, 4010, 0.0503507830669
+kept, 4989, 0.0500263981178
+anti, 542, 0.0500263981178
+independ, 4595, 0.0495589321991
+benefit, 1028, 0.0494078933173
+astronom, 728, 0.0492591257833
+unlik, 9290, 0.0491125622939
+gamma, 3762, 0.0484106470871
+hole, 4343, 0.0476292262198
+consider, 2060, 0.0466749588329
+remain, 7264, 0.0463395757119
+absolut, 193, 0.0461221415837
+count, 2180, 0.0457011055069
+consist, 2061, 0.0451013549388
+event, 3232, 0.0449092546391
+measur, 5601, 0.0446279222802
+doubt, 2830, 0.0442648409947
+ignor, 4496, 0.0441761152468
+solar, 8107, 0.0439146148783
+copi, 2130, 0.0434935788015
+releas, 7253, 0.0432492983758
+indic, 4600, 0.0430897327457
+physic, 6613, 0.0430109048021
+generat, 3819, 0.0428551085966
+star, 8324, 0.0427781210128
+law, 5153, 0.0424760256441
+haven, 4207, 0.0422553580285
+involv, 4750, 0.0414859145419
+particular, 6442, 0.0414188440844
+ray, 7118, 0.0413522252832
+rule, 7537, 0.0412860520961
+observ, 6179, 0.0411550189939
+servic, 7813, 0.040709606261
+came, 1472, 0.0398747740602
+recent, 7168, 0.0393188494658
+claim, 1782, 0.0385394816969
+matter, 5553, 0.0383907141628
+allow, 432, 0.037910384164
+field, 3466, 0.0372309739171
+seen, 7767, 0.0367191604133
+list, 5298, 0.0362325284803
+understand, 9246, 0.0354711640914
+origin, 6293, 0.0351823011
+big, 1082, 0.0336980641604
+got, 3960, 0.0324616452004
+tell, 8767, 0.0323274117355
+lot, 5356, 0.0308673931317
+differ, 2633, 0.030461706716
+read, 7135, 0.0301145533918
+question, 7032, 0.0299454406483
+new, 6023, 0.0288175617746
+tri, 9087, 0.0286506680485
+mani, 5479, 0.0280617399895
+say, 7653, 0.0251166197687
+look, 5341, 0.024688617836
+don, 2811, 0.0224392920059

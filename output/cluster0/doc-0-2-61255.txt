@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61255
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: seale@possum.den.mmc.com (Eric H Seale)
+Subject: Re: Surviving Large Accelerations?
+Organization: Martin Marietta Astronautics, Denver
+Lines: 24
+Nntp-Posting-Host: pogo.den.mmc.com
+
+>Amruth Laxman <al26+@andrew.cmu.edu> writes:
+>> ... humans (and this was published
+>> in 1986) have already withstood accelerations of 45g. All this is very
+>> long-winded but here's my question finally - Are 45g accelerations in
+>> fact humanly tolerable? - with the aid of any mechanical devices of
+>> course.
+
+lpham@eis.calstate.edu (Lan Pham) writes:
+>are you sure 45g is the right number? as far as i know, pilots are
+>blackout in dives that exceed 8g - 9g. 45g seems to be out of human
+>tolerance. would anybody clarify this please.
+
+Actually, both numbers are correct.  The difference is in the direction
+of the acceleration.  For pilots, accelerations tend to be transverse to
+the direction you're facing (pulling out from a steep dive, the
+acceleration will force blood toward your feet, for instance).  In this
+case, you can only put up with about 8 g's even with a pressure suit.  
+
+The record for acceleration, though, is measured along "the direction
+you're facing" (for lack of a better term).  As I recall, this record
+was set in rocket sleds back in the 60's -- and was about 40 g's or so.
+
+Eric Seale
+seale@pogo.den.mmc.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surviv larg acceler      human publish alreadi
+withstood acceler 45g long wind here question
+final 45g acceler fact human toler aid mechan
+devic cours   sure 45g right number far know pilot
+blackout dive exceed 45g seem human toler anybodi
+clarifi pleas  actual number correct differ direct
+acceler pilot acceler tend transvers direct you'r
+face pull steep dive acceler forc blood toward
+feet instanc case put g even pressur suit  record
+acceler though measur along direct you'r face lack
+better term recal record set rocket sled back g
+eric seal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+acceler, 207, 0.582489489793
+45g, 109, 0.448030560225
+dive, 2759, 0.200427280336
+pilot, 6631, 0.180023831253
+human, 4432, 0.179242621412
+direct, 2667, 0.17790335918
+toler, 8974, 0.166425568512
+face, 3345, 0.133119384652
+record, 7184, 0.130859279225
+sled, 8024, 0.120667608159
+withstood, 9806, 0.11721449608
+blackout, 1135, 0.11721449608
+steep, 8366, 0.114393098078
+number, 6156, 0.100639438965
+exceed, 3260, 0.0942868940693
+clarifi, 1786, 0.0923086923395
+seal, 7741, 0.0889798768806
+aid, 351, 0.0884885706655
+blood, 1169, 0.0846533442113
+surviv, 8599, 0.0828726640608
+devic, 2591, 0.0825398588483
+wind, 9773, 0.0809754120149
+instanc, 4680, 0.0809754120149
+feet, 3430, 0.0806806441323
+eric, 3170, 0.0785051601049
+suit, 8529, 0.0780059282322
+pull, 6979, 0.0780059282322
+mechan, 5603, 0.0770533293218
+tend, 8783, 0.0768240681518
+pressur, 6842, 0.0765981539798
+recal, 7166, 0.0759395505036
+rocket, 7447, 0.0719790209686
+lack, 5092, 0.0716497565056
+publish, 6974, 0.0714877147534
+measur, 5601, 0.0698089935159
+forc, 3594, 0.0640740731399
+term, 8795, 0.0635827669248
+anybodi, 552, 0.0629201340653
+alreadi, 443, 0.0620201801606
+final, 3482, 0.0607613689223
+correct, 2156, 0.0595972980678
+larg, 5124, 0.0573082568438
+set, 7815, 0.055428374145
+case, 1540, 0.0538036477263
+fact, 3350, 0.0531001244916
+cours, 2190, 0.0529534423892
+far, 3386, 0.0516923502392
+sure, 8585, 0.0498348282431
+actual, 254, 0.0497554698849
+long, 5336, 0.0487592200117
+differ, 2633, 0.0476495650698
+right, 7399, 0.0470732172279
+question, 7032, 0.0468419985793
+better, 1060, 0.0462944443079
+pleas, 6688, 0.0455228564813
+know, 5052, 0.0333325520684

@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83505
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dickeney@access.digex.com (Dick Eney)
+Subject: Re: Flaming Nazis
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 10
+NNTP-Posting-Host: access.digex.net
+
+The trouble with trying to find out the truth is that Roehm and his
+buddies were ACCUSED OF being flaming faggots, one of the pretexts for the
+Night of Long Knives in which Roehm and most of the SA wing of the NSDAP
+were purged.  Since the accusers thereafter controlled the records,
+anything bearing on the subject -- true or not -- has to be considered
+tainted evidence.  The available data suggest that Roehm and his crowd,
+the SA -- Sturmabteilung, "Storm Troopers" -- left the world a better
+place when they departed, but concrete particulars are still no more than
+more or less shrewd guesses.  
+-- Diccon Frankborn
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ flame nazi     troubl tri find truth roehm buddi
+accus flame faggot one pretext night long knive
+roehm wing nsdap purg sinc accus thereaft control
+record anyth bear true consid taint evid avail
+data suggest roehm crowd sturmabteilung storm
+trooper left world better place depart concret
+particular still less shrewd guess diccon
+frankborn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+roehm, 7457, 0.511656812813
+accus, 227, 0.253564084126
+flame, 3518, 0.221006367665
+shrewd, 7919, 0.186544517595
+thereaft, 8853, 0.179907135534
+frankborn, 3656, 0.179907135534
+diccon, 2619, 0.179907135534
+taint, 8676, 0.174758782035
+pretext, 6850, 0.174758782035
+trooper, 9116, 0.170552270938
+purg, 6991, 0.170552270938
+faggot, 3358, 0.170552270938
+knive, 5048, 0.166995716481
+concret, 2011, 0.163914888877
+buddi, 1366, 0.158766535378
+nazi, 5971, 0.151003469824
+storm, 8419, 0.143957724272
+crowd, 2245, 0.141648605227
+wing, 9779, 0.128580765676
+bear, 971, 0.116301493973
+troubl, 9117, 0.111671632742
+depart, 2535, 0.108330102534
+truth, 9132, 0.107315788211
+record, 7184, 0.0975511093766
+evid, 3245, 0.0972284197116
+particular, 6442, 0.0965962723616
+control, 2107, 0.0962865773097
+night, 6063, 0.0936718652549
+left, 5193, 0.0918251251106
+guess, 4079, 0.089419621863
+suggest, 8525, 0.08798061765
+data, 2385, 0.0854426841517
+true, 9121, 0.0823018514818
+consid, 2059, 0.0809179344234
+avail, 811, 0.080141028195
+anyth, 555, 0.079095518936
+place, 6657, 0.0790226217665
+world, 9841, 0.0772712551061
+long, 5336, 0.0726966560211
+sinc, 7977, 0.0703322748301
+better, 1060, 0.0690218443349
+tri, 9087, 0.0668185652045

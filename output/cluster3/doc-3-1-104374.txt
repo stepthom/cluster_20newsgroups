@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104374
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: west@esd.dl.nec.com (Mike West)
+Subject: Re: Dean Palmer Hurt?
+Nntp-Posting-Host: swan.esd.dl.nec.com
+Organization: Engineering and Support Division, NEC America, Inc.
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 14
+
+Edward Ouellette (edo@casbah.acns.nwu.edu) wrote:
+: I think Dean got hit by a pitched ball the other night... he got pinch hit for
+: and didn't play against Baltimore tonight... whats up with that? Is he hurt?
+: Please tell me he's not...
+
+He evidentally got hit in the elbow by a Fernando pitch.  His arm swelled
+from the elbow to the wrist (or something like that).  They took X-rays
+of the arm and there is nothing damaged.  He missed the last game with the
+Orioles, but he is suppose to be ready for the next game.
+
+Hope this helps.
+
+Mike West
+west@esd.dl.nec.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dean palmer hurt       think dean got hit pitch
+ball night got pinch hit didn't play baltimor
+tonight what hurt pleas tell he  evident got hit
+elbow fernando pitch arm swell elbow wrist someth
+like took ray arm noth damag miss last game oriol
+suppos readi next game  hope help  mike west
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+elbow, 3026, 0.403444198992
+dean, 2421, 0.306598786574
+hit, 4316, 0.271396071753
+arm, 643, 0.268783304218
+hurt, 4451, 0.261635526172
+got, 3960, 0.254659138235
+swell, 8631, 0.195949473114
+fernando, 3450, 0.191232893932
+pitch, 6643, 0.188877113365
+wrist, 9863, 0.187245083055
+game, 3761, 0.156832835956
+palmer, 6401, 0.149597436854
+tonight, 8985, 0.140893046795
+damag, 2344, 0.140284323086
+oriol, 6295, 0.138539646557
+pinch, 6632, 0.137983290404
+baltimor, 887, 0.131238415671
+readi, 7139, 0.127311260306
+west, 9708, 0.124549219333
+took, 8987, 0.114169398981
+mike, 5710, 0.111663936209
+miss, 5770, 0.109379844958
+ray, 7118, 0.108135020983
+suppos, 8577, 0.105184661716
+night, 6063, 0.105030216099
+ball, 877, 0.101174730646
+noth, 6119, 0.0941336074068
+hope, 4372, 0.0924703405864
+didn, 2625, 0.0864149839152
+play, 6681, 0.0853139852462
+tell, 8767, 0.0845353623029
+someth, 8126, 0.0761517148445
+pleas, 6688, 0.0761013359309
+help, 4249, 0.0760008714784
+think, 8871, 0.0592490459401
+like, 5272, 0.0544713196935

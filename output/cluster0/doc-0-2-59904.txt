@@ -1,0 +1,638 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/59904
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: leech@cs.unc.edu (Jon Leech)
+Subject: Space FAQ 09/15 - Mission Schedules
+Supersedes: <schedule_730956538@cs.unc.edu>
+Organization: University of North Carolina, Chapel Hill
+Lines: 177
+Distribution: world
+Expires: 6 May 1993 19:59:07 GMT
+NNTP-Posting-Host: mahler.cs.unc.edu
+Keywords: Frequently Asked Questions
+
+Archive-name: space/schedule
+Last-modified: $Date: 93/04/01 14:39:23 $
+
+SPACE SHUTTLE ANSWERS, LAUNCH SCHEDULES, TV COVERAGE
+
+    SHUTTLE LAUNCHINGS AND LANDINGS; SCHEDULES AND HOW TO SEE THEM
+
+    Shuttle operations are discussed in the Usenet group sci.space.shuttle,
+    and Ken Hollis (gandalf@pro-electric.cts.com) posts a compressed version
+    of the shuttle manifest (launch dates and other information)
+    periodically there. The manifest is also available from the Ames SPACE
+    archive in SPACE/FAQ/manifest. The portion of his manifest formerly
+    included in this FAQ has been removed; please refer to his posting or
+    the archived copy. For the most up to date information on upcoming
+    missions, call (407) 867-INFO (867-4636) at Kennedy Space Center.
+
+    Official NASA shuttle status reports are posted to sci.space.news
+    frequently.
+
+
+    WHY DOES THE SHUTTLE ROLL JUST AFTER LIFTOFF?
+
+    The following answer and translation are provided by Ken Jenks
+    (kjenks@gothamcity.jsc.nasa.gov).
+
+    The "Ascent Guidance and Flight Control Training Manual," ASC G&C 2102,
+    says:
+
+	"During the vertical rise phase, the launch pad attitude is
+	commanded until an I-loaded V(rel) sufficient to assure launch tower
+	clearance is achieved. Then, the tilt maneuver (roll program)
+	orients the vehicle to a heads down attitude required to generate a
+	negative q-alpha, which in turn alleviates structural loading. Other
+	advantages with this attitude are performance gain, decreased abort
+	maneuver complexity, improved S-band look angles, and crew view of
+	the horizon. The tilt maneuver is also required to start gaining
+	downrange velocity to achieve the main engine cutoff (MECO) target
+	in second stage."
+
+    This really is a good answer, but it's couched in NASA jargon. I'll try
+    to interpret.
+
+    1)	We wait until the Shuttle clears the tower before rolling.
+
+    2)	Then, we roll the Shuttle around so that the angle of attack
+	between the wind caused by passage through the atmosphere (the
+	"relative wind") and the chord of the wings (the imaginary line
+	between the leading edge and the trailing edge) is a slightly
+	negative angle ("a negative q-alpha").	This causes a little bit of
+	"downward" force (toward the belly of the Orbiter, or the +Z
+	direction) and this force "alleviates structural loading."
+	We have to be careful about those wings -- they're about the
+	most "delicate" part of the vehicle.
+
+    3)	The new attitude (after the roll) also allows us to carry more
+	mass to orbit, or to achieve a higher orbit with the same mass, or
+	to change the orbit to a higher or lower inclination than would be
+	the case if we didn't roll ("performance gain").
+
+    4)	The new attitude allows the crew to fly a less complicated
+	flight path if they had to execute one of the more dangerous abort
+	maneuvers, the Return To Launch Site ("decreased abort maneuver
+	complexity").
+
+    5)	The new attitude improves the ability for ground-based radio
+	antennae to have a good line-of-sight signal with the S-band radio
+	antennae on the Orbiter ("improved S-band look angles").
+
+    6)	The new attitude allows the crew to see the horizon, which is a
+	helpful (but not mandatory) part of piloting any flying machine.
+
+    7)	The new attitude orients the Shuttle so that the body is
+	more nearly parallel with the ground, and the nose to the east
+	(usually).  This allows the thrust from the engines to add velocity
+	in the correct direction to eventually achieve orbit.  Remember:
+	velocity is a vector quantity made of both speed and direction.
+	The Shuttle has to have a large horizontal component to its
+	velocity and a very small vertical component to attain orbit.
+
+    This all begs the question, "Why isn't the launch pad oriented to give
+    this nice attitude to begin with?  Why does the Shuttle need to roll to
+    achieve that attitude?"  The answer is that the pads were leftovers
+    from the Apollo days.  The Shuttle straddles two flame trenches -- one
+    for the Solid Rocket Motor exhaust, one for the Space Shuttle Main
+    Engine exhaust.  (You can see the effects of this on any daytime
+    launch.  The SRM exhaust is dirty gray garbage, and the SSME exhaust is
+    fluffy white steam.  Watch for the difference between the "top"
+    [Orbiter side] and the "bottom" [External Tank side] of the stack.) The
+    access tower and other support and service structure are all oriented
+    basically the same way they were for the Saturn V's.  (A side note: the
+    Saturn V's also had a roll program.  Don't ask me why -- I'm a Shuttle
+    guy.)
+
+    I checked with a buddy in Ascent Dynamics.	He added that the "roll
+    maneuver" is really a maneuver in all three axes: roll, pitch and yaw.
+    The roll component of that maneuver is performed for the reasons
+    stated.  The pitch component controls loading on the wings by keeping
+    the angle of attack (q-alpha) within a tight tolerance.  The yaw
+    component is used to determine the orbital inclination.  The total
+    maneuver is really expressed as a "quaternion," a grad-level-math
+    concept for combining all three rotation matrices in one four-element
+    array.
+
+
+    HOW TO RECEIVE THE NASA TV CHANNEL, NASA SELECT
+
+    NASA SELECT is broadcast by satellite. If you have access to a satellite
+    dish, you can find SELECT on Satcom F2R, Transponder 13, C-Band, 72
+    degrees West Longitude, Audio 6.8, Frequency 3960 MHz. F2R is stationed
+    over the Atlantic, and is increasingly difficult to receive from
+    California and points west. During events of special interest (e.g.
+    shuttle missions), SELECT is sometimes broadcast on a second satellite
+    for these viewers.
+
+    If you can't get a satellite feed, some cable operators carry SELECT.
+    It's worth asking if yours doesn't.
+
+    The SELECT schedule is found in the NASA Headline News which is
+    frequently posted to sci.space.news. Generally it carries press
+    conferences, briefings by NASA officials, and live coverage of shuttle
+    missions and planetary encounters. SELECT has recently begun carrying
+    much more secondary material (associated with SPACELINK) when missions
+    are not being covered.
+
+
+    AMATEUR RADIO FREQUENCIES FOR SHUTTLE MISSIONS
+
+    The following are believed to rebroadcast space shuttle mission audio:
+
+	W6FXN  - Los Angeles
+	K6MF   - Ames Research Center, Mountain View, California
+	WA3NAN - Goddard Space Flight Center (GSFC), Greenbelt, Maryland.
+	W5RRR  - Johnson Space Center (JSC), Houston, Texas
+	W6VIO  - Jet Propulsion Laboratory (JPL), Pasadena, California.
+	W1AW Voice Bulletins
+
+	Station    VHF	   10m	   15m	   20m	  40m	 80m
+	------	 ------  ------  ------  ------  -----	-----
+	W6FXN	 145.46
+	K6MF	 145.585			 7.165	3.840
+	WA3NAN	 147.45  28.650  21.395  14.295  7.185	3.860
+	W5RRR	 146.64  28.400  21.350  14.280  7.227	3.850
+	W6VIO	 224.04		 21.340  14.270
+	W6VIO	 224.04		 21.280  14.282  7.165	3.840
+	W1AW		 28.590  21.390  14.290  7.290	3.990
+
+    W5RRR transmits mission audio on 146.64, a special event station on the
+    other frequencies supplying Keplerian Elements and mission information.
+
+    W1AW also transmits on 147.555, 18.160. No mission audio but they
+    transmit voice bulletins at 0245 and 0545 UTC.
+
+    Frequencies in the 10-20m bands require USB and frequencies in the 40
+    and 80m bands LSB. Use FM for the VHF frequencies.
+
+    [This item was most recently updated courtesy of Gary Morris
+    (g@telesoft.com, KK6YB, N5QWC)]
+
+
+    SOLID ROCKET BOOSTER FUEL COMPOSITION
+
+    Reference: "Shuttle Flight Operations Manual" Volume 8B - Solid Rocket
+    Booster Systems, NASA Document JSC-12770
+
+    Propellant Composition (percent)
+
+    Ammonium perchlorate (oxidizer)			69.6
+    Aluminum						16
+    Iron Oxide (burn rate catalyst)			0.4
+    Polybutadiene-acrilic acid-acrylonitrile (a rubber) 12.04
+    Epoxy curing agent					1.96
+
+    End reference
+
+    Comment: The aluminum, rubber, and epoxy all burn with the oxidizer.
+
+NEXT: FAQ #10/15 - Historical planetary probes
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space faq mission schedul     expir gmt    archiv
+name space schedul last modifi date  space shuttl
+answer launch schedul coverag  shuttl launch land
+schedul see  shuttl oper discuss usenet group sci
+space shuttl  shuttl manifest launch date inform
+period manifest also avail ame space archiv space
+faq manifest portion manifest former includ faq
+remov pleas refer post archiv copi date inform
+upcom mission call info kennedi space center
+offici nasa shuttl status report post sci space
+news frequent   shuttl roll liftoff  follow answer
+translat provid ken jenk   ascent guidanc flight
+control train manual asc say  vertic rise phase
+launch pad attitud command load rel suffici assur
+launch tower clearanc achiev tilt maneuv roll
+program orient vehicl head attitud requir generat
+negat alpha turn allevi structur load advantag
+attitud perform gain decreas abort maneuv complex
+improv band look angl crew view horizon tilt
+maneuv also requir start gain downrang veloc
+achiev main engin cutoff meco target second stage
+realli good answer it couch nasa jargon i'll tri
+interpret  wait shuttl clear tower roll  roll
+shuttl around angl attack wind caus passag
+atmospher relat wind chord wing imaginari line
+lead edg trail edg slight negat angl negat alpha
+caus littl bit downward forc toward belli orbit
+direct forc allevi structur load care wing they'r
+delic part vehicl  new attitud roll also allow
+carri mass orbit achiev higher orbit mass chang
+orbit higher lower inclin case didn't roll perform
+gain  new attitud allow crew fli less complic
+flight path execut one danger abort maneuv return
+launch site decreas abort maneuv complex  new
+attitud improv abil ground base radio antenna good
+line sight signal band radio antenna orbit improv
+band look angl  new attitud allow crew see horizon
+help mandatori part pilot fli machin  new attitud
+orient shuttl bodi near parallel ground nose east
+usual allow thrust engin add veloc correct direct
+eventu achiev orbit rememb veloc vector quantiti
+made speed direct shuttl larg horizont compon
+veloc small vertic compon attain orbit  beg
+question isn't launch pad orient give nice attitud
+begin shuttl need roll achiev attitud answer pad
+leftov apollo day shuttl straddl two flame trench
+one solid rocket motor exhaust one space shuttl
+main engin exhaust see effect daytim launch srm
+exhaust dirti gray garbag ssme exhaust fluffi
+white steam watch differ top orbit side bottom
+extern tank side stack access tower support servic
+structur orient basic way saturn v side note
+saturn v also roll program don't ask i'm shuttl
+guy  check buddi ascent dynam ad roll maneuv
+realli maneuv three axe roll pitch yaw roll compon
+maneuv perform reason state pitch compon control
+load wing keep angl attack alpha within tight
+toler yaw compon use determin orbit inclin total
+maneuv realli express quaternion grad level math
+concept combin three rotat matric one four element
+array   receiv nasa channel nasa select  nasa
+select broadcast satellit access satellit dish
+find select satcom f2r transpond band degre west
+longitud audio frequenc mhz f2r station atlant
+increas difficult receiv california point west
+event special interest shuttl mission select
+sometim broadcast second satellit viewer  can't
+get satellit feed cabl oper carri select it worth
+ask doesn't  select schedul found nasa headlin
+news frequent post sci space news general carri
+press confer brief nasa offici live coverag shuttl
+mission planetari encount select recent begun
+carri much secondari materi associ spacelink
+mission cover   amateur radio frequenc shuttl
+mission  follow believ rebroadcast space shuttl
+mission audio  w6fxn los angel k6mf ame research
+center mountain view california wa3nan goddard
+space flight center gsfc greenbelt maryland w5rrr
+johnson space center jsc houston texa w6vio jet
+propuls laboratori jpl pasadena california w1aw
+voic bulletin  station vhf 10m 15m 20m 40m 80m
+w6fxn k6mf wa3nan w5rrr w6vio w6vio w1aw  w5rrr
+transmit mission audio special event station
+frequenc suppli keplerian element mission inform
+w1aw also transmit mission audio transmit voic
+bulletin utc  frequenc 20m band requir usb
+frequenc 80m band lsb use vhf frequenc  item
+recent updat courtesi gari morri    solid rocket
+booster fuel composit  refer shuttl flight oper
+manual volum solid rocket booster system nasa
+document jsc  propel composit percent  ammonium
+perchlor oxid aluminum iron oxid burn rate
+catalyst polybutadien acril acid acrylonitril
+rubber epoxi cure agent  end refer  comment
+aluminum rubber epoxi burn oxid  next faq histor
+planetari probe
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shuttl, 7929, 0.352186806536
+roll, 7464, 0.264456567338
+maneuv, 5476, 0.243666846848
+attitud, 769, 0.228936363254
+mission, 5772, 0.172940998835
+space, 8164, 0.161333393986
+frequenc, 3685, 0.159942615372
+band, 891, 0.144913644324
+select, 7774, 0.143116830494
+orbit, 6280, 0.142518510744
+launch, 5147, 0.137612013807
+nasa, 5956, 0.131722724704
+exhaust, 3281, 0.124331829342
+angl, 511, 0.119140221462
+audio, 778, 0.115835249083
+compon, 1980, 0.11284703282
+achiev, 232, 0.110976192673
+manifest, 5481, 0.108296376377
+veloc, 9456, 0.102407978146
+schedul, 7678, 0.099516600878
+oxid, 6362, 0.0950015114457
+orient, 6290, 0.0868798186285
+tower, 9023, 0.0826051705417
+faq, 3385, 0.0817810459964
+load, 5317, 0.0814005875665
+transmit, 9059, 0.0772833198093
+alpha, 441, 0.0768059836097
+flight, 3544, 0.0760860243025
+abort, 187, 0.0759004315503
+satellit, 7632, 0.0748786215567
+pad, 6377, 0.0742576278894
+negat, 5996, 0.0742576278894
+carri, 1530, 0.0739939365254
+wing, 9779, 0.0731477868983
+crew, 2227, 0.0721245183648
+yaw, 9939, 0.0707483660734
+20m, 61, 0.0707483660734
+center, 1606, 0.0706396803065
+gain, 3746, 0.068430895724
+ascent, 674, 0.0682310906164
+allevi, 427, 0.0682310906164
+allow, 432, 0.0670632348725
+california, 1459, 0.0653543164004
+vhf, 9495, 0.0646831901281
+archiv, 618, 0.064593216312
+answer, 535, 0.064592120678
+solid, 8115, 0.0642286012301
+new, 6023, 0.0637226104524
+rubber, 7525, 0.0633343409638
+aluminum, 455, 0.0621659146711
+sci, 7690, 0.06119233718
+rocket, 7447, 0.0610504406749
+improv, 4557, 0.0606337295202
+structur, 8460, 0.0598380132389
+radio, 7061, 0.0586104557738
+date, 2391, 0.0577049037144
+bulletin, 1387, 0.0561007387258
+station, 8346, 0.0554033446554
+tilt, 8934, 0.0550701136945
+horizon, 4374, 0.0550701136945
+oper, 6261, 0.0549522590624
+perform, 6539, 0.0532886050413
+inclin, 4578, 0.0525528382375
+decreas, 2456, 0.0525528382375
+coverag, 2195, 0.0515222132062
+engin, 3109, 0.0511985357365
+vertic, 9482, 0.0506002877002
+direct, 2667, 0.0502974261544
+saturn, 7640, 0.0500355627804
+composit, 1982, 0.0497663046356
+booster, 1225, 0.0497663046356
+antenna, 538, 0.0497663046356
+jsc, 4914, 0.0495050852596
+frequent, 3686, 0.0492514385359
+requir, 7302, 0.0488277382477
+refer, 7213, 0.0483901877679
+attack, 761, 0.0483045481078
+manual, 5492, 0.0476560885849
+wind, 9773, 0.0457872726508
+broadcast, 1324, 0.0456205971493
+news, 6031, 0.045332891453
+planetari, 6665, 0.0446821773891
+voic, 9567, 0.0441081880966
+ame, 465, 0.0439703868351
+element, 3037, 0.0438347221136
+inform, 4637, 0.0431402566614
+complex, 1976, 0.0428190674868
+west, 9708, 0.0421279031486
+vehicl, 9449, 0.0419091367726
+edg, 2993, 0.0416957066976
+mass, 5533, 0.0413850160986
+burn, 1413, 0.0409872112666
+offici, 6207, 0.0407002937833
+higher, 4293, 0.040153228202
+event, 3232, 0.0397220967055
+ground, 4061, 0.0393112137469
+special, 8198, 0.0389958571214
+realli, 7150, 0.038947350617
+main, 5450, 0.0383973196314
+post, 6766, 0.0383331895117
+receiv, 7167, 0.0382538705292
+fli, 3542, 0.0373747333689
+access, 209, 0.0373747333689
+control, 2107, 0.0365173852724
+forc, 3594, 0.036230467789
+caus, 1569, 0.0354221828317
+15m, 25, 0.0353741830367
+10m, 11, 0.0353741830367
+recent, 7168, 0.0347774006356
+view, 9510, 0.0341768875299
+utc, 9382, 0.0341155453082
+srm, 8286, 0.0341155453082
+keplerian, 4988, 0.0341155453082
+delic, 2504, 0.0341155453082
+40m, 107, 0.0341155453082
+steam, 8364, 0.0331392700396
+rel, 7246, 0.0331392700396
+mandatori, 5475, 0.0331392700396
+cutoff, 2315, 0.0331392700396
+clearanc, 1804, 0.0331392700396
+chord, 1723, 0.0331392700396
+belli, 1013, 0.0331392700396
+attain, 762, 0.0331392700396
+trench, 9083, 0.0323415950641
+downward, 2846, 0.0323415950641
+pitch, 6643, 0.0319431819062
+trail, 9041, 0.0316671704819
+headlin, 4218, 0.0316671704819
+dish, 2713, 0.0316671704819
+catalyst, 1554, 0.0316671704819
+transpond, 9064, 0.0310829573355
+leftov, 5197, 0.0310829573355
+daytim, 2404, 0.0310829573355
+cure, 2295, 0.0310829573355
+spacelink, 8172, 0.0305676448199
+secondari, 7754, 0.0305676448199
+greenbelt, 4026, 0.0305676448199
+acid, 236, 0.0305676448199
+second, 7753, 0.030452209327
+ask, 689, 0.0303075746414
+upcom, 9332, 0.0301066820669
+stack, 8299, 0.0301066820669
+ssme, 8291, 0.0301066820669
+garbag, 3770, 0.0301066820669
+buddi, 1366, 0.0301066820669
+axe, 839, 0.0301066820669
+longitud, 5339, 0.0296896905346
+liftoff, 5266, 0.0296896905346
+kennedi, 4984, 0.0293090070914
+begun, 997, 0.0293090070914
+line, 5285, 0.0290039250102
+thrust, 8901, 0.0289588122707
+follow, 3578, 0.0287601711076
+grad, 3977, 0.0286345825092
+atlant, 748, 0.0286345825092
+mhz, 5676, 0.0283327318228
+cabl, 1442, 0.0283327318228
+horizont, 4375, 0.0280503693629
+guidanc, 4083, 0.0280503693629
+imaginari, 4519, 0.0277851306024
+courtesi, 2192, 0.0277851306024
+jenk, 4846, 0.0275350568472
+goddard, 3927, 0.0275350568472
+beg, 992, 0.0275350568472
+program, 6905, 0.027160815572
+maryland, 5529, 0.0270740940943
+gsfc, 4072, 0.0270740940943
+dirti, 2671, 0.0270740940943
+propel, 6923, 0.0268606322651
+nose, 6115, 0.0268606322651
+assur, 712, 0.026462621672
+quantiti, 7021, 0.0262764191187
+tight, 8929, 0.0256019945366
+pilot, 6631, 0.0254484665163
+percent, 6533, 0.0254484665163
+vector, 9444, 0.0253001438501
+sight, 7943, 0.0248831523178
+gray, 4011, 0.0248831523178
+extern, 3322, 0.0248831523178
+execut, 3272, 0.0248831523178
+channel, 1652, 0.0247525426298
+motor, 5882, 0.024625719268
+los, 5349, 0.0245024688746
+encount, 3088, 0.0245024688746
+portion, 6752, 0.0243825956328
+mountain, 5887, 0.0243825956328
+target, 8704, 0.0242659193949
+rise, 7414, 0.0242659193949
+phase, 6583, 0.0241522740539
+brief, 1308, 0.0241522740539
+complic, 1978, 0.0240415061216
+amateur, 458, 0.0240415061216
+suffici, 8523, 0.0239334734814
+iron, 4767, 0.0239334734814
+feed, 3427, 0.0239334734814
+status, 8352, 0.0238280442924
+johnson, 4880, 0.0237250960219
+toler, 8974, 0.023526193606
+agent, 331, 0.023526193606
+usenet, 9365, 0.0234300336993
+probe, 6886, 0.0234300336993
+pasadena, 6446, 0.0234300336993
+item, 4798, 0.0234300336993
+passag, 6449, 0.0233359419088
+math, 5544, 0.0232438311461
+apollo, 570, 0.0232438311461
+danger, 2356, 0.023065230853
+houston, 4399, 0.0229785923856
+parallel, 6420, 0.0228936363254
+histor, 4313, 0.0228936363254
+dynam, 2942, 0.0228102985747
+gari, 3776, 0.0227285186304
+jpl, 4912, 0.0226482393207
+array, 653, 0.0226482393207
+tank, 8695, 0.0225694065639
+signal, 7947, 0.0225694065639
+expir, 3300, 0.0225694065639
+good, 3948, 0.0224930128236
+path, 6461, 0.0224919691507
+confer, 2025, 0.0224919691507
+suppli, 8574, 0.0222675558775
+stage, 8302, 0.0221952385346
+volum, 9577, 0.0221240971358
+texa, 8820, 0.0221240971358
+translat, 9057, 0.0220540940483
+laboratori, 5090, 0.0220540940483
+gmt, 3917, 0.0219173610568
+angel, 509, 0.0218505643451
+look, 5341, 0.0218370060489
+viewer, 9512, 0.0216560834552
+slight, 8034, 0.0216560834552
+jet, 4860, 0.0216560834552
+eventu, 3233, 0.021531072104
+train, 9042, 0.0214698809019
+ken, 4980, 0.0214698809019
+morri, 5868, 0.0214095337434
+advantag, 286, 0.0213500076601
+fuel, 3715, 0.0212912806088
+difficult, 2635, 0.0212912806088
+atmospher, 755, 0.0212912806088
+propuls, 6936, 0.0212333314222
+combin, 1921, 0.0212333314222
+wait, 9611, 0.0210639515743
+press, 6841, 0.0210089181489
+modifi, 5814, 0.0209545683863
+lower, 5371, 0.0209545683863
+flame, 3518, 0.0209545683863
+remov, 7272, 0.0209008855088
+express, 3315, 0.0209008855088
+interpret, 4720, 0.0206419282995
+associ, 706, 0.0205919266166
+abil, 177, 0.0204936056333
+rotat, 7490, 0.0203033539362
+degre, 2491, 0.0203033539362
+concept, 2002, 0.0202112431734
+document, 2788, 0.0201210317376
+cover, 2194, 0.0201210317376
+machin, 5416, 0.0199033201756
+east, 2965, 0.0199033201756
+worth, 9850, 0.0198191810512
+increas, 4590, 0.0197366295525
+period, 6546, 0.0194979285607
+begin, 994, 0.0194211704581
+use, 9363, 0.0193251807318
+materi, 5543, 0.0192715798308
+sometim, 8128, 0.0192349679048
+copi, 2130, 0.0192349679048
+command, 1933, 0.0191986598157
+determin, 2582, 0.0190563676117
+rate, 7108, 0.0189869201277
+updat, 9333, 0.0189526054449
+generat, 3819, 0.0189526054449
+bodi, 1194, 0.0189526054449
+add, 260, 0.0187849565959
+ad, 257, 0.0187849565959
+white, 9737, 0.0187521841608
+return, 7346, 0.0186873666845
+land, 5104, 0.0186234954825
+usual, 9377, 0.0184677815518
+head, 4215, 0.0184677815518
+watch, 9655, 0.0181435517903
+site, 7994, 0.0180313636016
+servic, 7813, 0.0180037603579
+basic, 937, 0.0180037603579
+level, 5229, 0.0179490709004
+check, 1682, 0.0178417011039
+speed, 8217, 0.0177889884225
+lead, 5172, 0.0177628683471
+nice, 6047, 0.0177110914158
+near, 5982, 0.0177110914158
+comment, 1936, 0.017559338644
+effect, 3005, 0.0175345504778
+total, 9013, 0.0174610176607
+turn, 9158, 0.0174126735264
+report, 7291, 0.0174126735264
+info, 4636, 0.0172244681809
+care, 1516, 0.0172244681809
+small, 8054, 0.0170440261283
+general, 3818, 0.0168920222675
+correct, 2156, 0.0168495452384
+research, 7307, 0.0168284603801
+discuss, 2708, 0.0168284603801
+clear, 1803, 0.0167865930785
+relat, 7247, 0.0167245338872
+guy, 4100, 0.0164267932054
+larg, 5124, 0.0162023799321
+provid, 6949, 0.0161841882235
+rememb, 7269, 0.0161121684963
+live, 5310, 0.016041315132
+isn, 4783, 0.016023779639
+note, 6118, 0.0157853883998
+chang, 1650, 0.0157195961881
+state, 8342, 0.0155123578303
+group, 4064, 0.0152261046635
+case, 1540, 0.0152115452503
+avail, 811, 0.0151970341271
+end, 3091, 0.0150826459218
+support, 8576, 0.0150685554117
+includ, 4579, 0.0150545101359
+bit, 1122, 0.0147564004498
+littl, 5308, 0.0147043153153
+didn, 2625, 0.0146146322413
+doesn, 2793, 0.0141918802083
+reason, 7156, 0.0141120195883
+ll, 5314, 0.0138594342948
+start, 8334, 0.0138487763124
+base, 923, 0.0136919459145
+believ, 1009, 0.0135108814707
+differ, 2633, 0.0134716426459
+question, 7032, 0.0132433247766
+day, 2402, 0.0129737261756
+pleas, 6688, 0.0128703725593
+help, 4249, 0.0128533818598
+tri, 9087, 0.0126707135984
+point, 6710, 0.0123493891426
+need, 5993, 0.0117632873281
+way, 9666, 0.0114447260186
+say, 7653, 0.0111077862167
+don, 2811, 0.00992374215765

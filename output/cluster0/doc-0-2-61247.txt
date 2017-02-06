@@ -1,0 +1,130 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61247
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: robink@hparc0.aus.hp.com (Robin Kenny)
+Subject: Re: Boom!  Whoosh......
+Organization: HP Australasian Response Centre (Melbourne)
+X-Newsreader: TIN [version 1.1 PL8.5]
+Lines: 26
+
+David Fuzzy Wells (wdwells@nyx.cs.du.edu) wrote:
+
+: I love the idea of an inflatable 1-mile long sign.... It will be a
+: really neat thing to see it explode when a bolt  (or even better, a
+: Westford Needle!) comes crashing into it at 10 clicks a sec.  
+
+: <BOOM!>  Whooooooooshhhhhh......  <sputter, sputter>
+
+: <okay, PRETEND it would make a sound!>
+                 ^^^^^^^^^^^^^^^^^^^^^
+
+Just a thought... (let's pretend it IS INFLATED and PRESSURIZED) wouldn't
+there be a large static electricity build up around the puncture?
+If the metalization is behind a clear sandwich (ie. insulated) then the 
+deflating balloon would generate electrical interference - "noise"
+
+By the way, any serious high velocity impact would simply cut a "Bugs
+Bunny" hole through the wall, highly unlikely to "BOOM", and the fabric
+would almost certainly be ripstop.
+
+
+Regards,  Robin Kenny - a private and personal opinion, not in any way
+                        endorsed, authorised or known by my employers.
+ ______________________________________________________________________
+   What the heck would I know about Space? I'm stuck at the 
+   bottom of this huge gravity well!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ boom whoosh       love idea inflat mile long sign
+realli neat thing see explod bolt even better
+westford needl come crash click sec  boom
+whooooooooshhhhhh sputter sputter  okay pretend
+make sound   thought let pretend inflat pressur
+wouldn't larg static electr build around punctur
+metal behind clear sandwich insul deflat balloon
+generat electr interfer nois  way serious high
+veloc impact simpli cut bug bunni hole wall high
+unlik boom fabric almost certain ripstop   regard
+robin kenni privat person opinion way endors
+authoris known employ  heck know space i'm stuck
+bottom huge graviti well
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+boom, 1222, 0.358153434197
+sputter, 8272, 0.298394818128
+pretend, 6848, 0.238768956131
+electr, 3030, 0.213264660541
+inflat, 4632, 0.208414225209
+westford, 9710, 0.149197409064
+sandwich, 7609, 0.141439397933
+needl, 5994, 0.138489938988
+kenni, 4986, 0.138489938988
+deflat, 2485, 0.138489938988
+insul, 4688, 0.133681386802
+fabric, 3344, 0.133681386802
+whoosh, 9742, 0.131665459816
+static, 8345, 0.129841832034
+high, 4292, 0.129413511627
+click, 1815, 0.126645484378
+explod, 3305, 0.123907448686
+endors, 3096, 0.123907448686
+balloon, 882, 0.123907448686
+bolt, 1207, 0.120418979176
+metal, 5658, 0.11840305219
+interfer, 4710, 0.116579424408
+stuck, 8466, 0.114133510569
+sec, 7752, 0.114133510569
+nois, 6092, 0.114133510569
+neat, 5985, 0.114133510569
+crash, 2212, 0.112660968045
+veloc, 9456, 0.111965123735
+robin, 7440, 0.111293700118
+heck, 4234, 0.108250218331
+employ, 3077, 0.103756889251
+way, 9666, 0.10010236999
+impact, 4534, 0.0993985604184
+mile, 5713, 0.0987027161086
+graviti, 4010, 0.0973826334326
+bug, 1373, 0.0970663682202
+wall, 9619, 0.0967552457601
+okay, 6215, 0.0952712767741
+unlik, 9290, 0.0949878107049
+pressur, 6842, 0.0947084829744
+huge, 4427, 0.0938941639226
+privat, 6879, 0.0931130918118
+hole, 4343, 0.0921189144463
+sign, 7946, 0.0870431287303
+cut, 2313, 0.0841202258061
+generat, 3819, 0.0828853709311
+wouldn, 9854, 0.0799786686739
+simpli, 7967, 0.078378141661
+regard, 7224, 0.078378141661
+build, 1378, 0.0772320739975
+known, 5054, 0.0764688088769
+love, 5366, 0.0759416788522
+sound, 8150, 0.0751273598003
+clear, 1803, 0.0734127557304
+opinion, 6266, 0.0716721372313
+larg, 5124, 0.0708578181795
+certain, 1619, 0.0677044467216
+thought, 8887, 0.0667805757624
+idea, 4482, 0.065413307835
+person, 6562, 0.0637484661071
+let, 5225, 0.0604256565906
+long, 5336, 0.0602875071838
+better, 1060, 0.0572399772415
+realli, 7150, 0.056776109439
+come, 1923, 0.0554840538945
+space, 8164, 0.0542737564825
+thing, 8869, 0.0522712377732
+make, 5459, 0.0479896282808
+know, 5052, 0.041213466331

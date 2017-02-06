@@ -1,0 +1,190 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61024
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: abdkw@stdvax (David Ward)
+Subject: Re: Keeping Spacecraft on after Funding Cuts.
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 34
+
+In article <20APR199321040621@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes...
+>In article <1993Apr20.204335.157595@zeus.calpoly.edu>, jgreen@trumpet.calpoly.edu (James Thomas Green) writes...
+>>Why do spacecraft have to be shut off after funding cuts.  For
+>>example, Why couldn't Magellan just be told to go into a "safe"
+>>mode and stay bobbing about Venus in a low-power-use mode and if
+>>maybe in a few years if funding gets restored after the economy
+>>gets better (hopefully), it could be turned on again.  
+> 
+>It can be, but the problem is a political one, not a technical one.
+
+Also remember that every dollar spent keeping one spacecraft in safe mode
+(probably a spin-stabilized sun-pointing orientation) is a dollar not
+spent on mission analysis for a newer spacecraft.  In order to turn the
+spacecraft back on, you either need to insure that the Ops guys will be
+available, or you need to retrain a new team.
+
+Having said that, there are some spacecraft that do what you have proposed.
+Many of the operational satellites Goddard flies (like the Tiros NOAA 
+series) require more than one satellite in orbit for an operational set.
+Extras which get replaced on-orbit are powered into a "standby" mode for
+use in an emergency.  In that case, however, the same ops team is still
+required to fly the operational birds; so the standby maintenance is
+relatively cheap.
+
+Finally, Pat's explanation (some spacecraft require continuous maintenance
+to stay under control) is also right on the mark.  I suggested a spin-
+stabilized control mode because it would require little power or 
+maintenance, but it still might require some momentum dumping from time
+to time.
+
+In the end, it *is* a political decision (since the difference is money),
+but there is some technical rationale behind the decision.
+
+David W. @ GSFC  
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+abdkw stdvax david ward keep spacecraft fund cut
+news softwar vax vms vnew    kelvin jpl nasa gov
+ron baalk write trumpet calpoli edu jame thoma
+green write spacecraft shut fund cut exampl
+couldn't magellan told safe mode stay bob venus
+low power use mode mayb year fund get restor
+economi get better hope could turn  problem polit
+one technic one  also rememb everi dollar spent
+keep one spacecraft safe mode probabl spin stabil
+sun point orient dollar spent mission analysi
+newer spacecraft order turn spacecraft back either
+need insur op guy avail need retrain new team
+said spacecraft propos mani oper satellit goddard
+fli like tiro noaa seri requir one satellit orbit
+oper set extra get replac orbit power standbi mode
+use emerg case howev op team still requir fli oper
+bird standbi mainten relat cheap  final pat explan
+spacecraft requir continu mainten stay control
+also right mark suggest spin stabil control mode
+requir littl power mainten still might requir
+momentum dump time time  end polit decis sinc
+differ money technic rational behind decis  david
+gsfc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spacecraft, 8166, 0.382194408759
+mode, 5806, 0.281098345994
+mainten, 5455, 0.246218213131
+requir, 7302, 0.227883652609
+standbi, 8314, 0.198113572189
+fund, 3723, 0.166848089431
+stabil, 8297, 0.164145475421
+oper, 6261, 0.153880420806
+op, 6256, 0.149293449612
+spin, 8235, 0.136555043972
+power, 6783, 0.136420027669
+safe, 7577, 0.127291364207
+dollar, 2802, 0.126400255008
+decis, 2445, 0.124709736313
+spent, 8223, 0.121285177059
+polit, 6723, 0.1189175488
+stay, 8355, 0.117055681138
+technic, 8737, 0.10876851775
+cut, 2313, 0.107725687929
+satellit, 7632, 0.104839673483
+fli, 3542, 0.104658840172
+control, 2107, 0.102258045589
+david, 2397, 0.0989046120815
+turn, 9158, 0.0975199045615
+tiro, 8949, 0.0955322776099
+stdvax, 8357, 0.0955322776099
+retrain, 7342, 0.0955322776099
+abdkw, 171, 0.0955322776099
+baalk, 845, 0.09279845644
+orbit, 6280, 0.0886863081198
+noaa, 6085, 0.0870402534179
+calpoli, 1467, 0.0870402534179
+momentum, 5829, 0.0855972461948
+kelvin, 4979, 0.0855972461948
+write, 9865, 0.0844705546566
+team, 8732, 0.0813572560757
+ward, 9636, 0.0778054926621
+insur, 4690, 0.0771052220028
+goddard, 3927, 0.0771052220028
+economi, 2985, 0.0771052220028
+gsfc, 4072, 0.075814408056
+restor, 7327, 0.0752166601807
+emerg, 3068, 0.074102128429
+newer, 6028, 0.0735807135184
+magellan, 5433, 0.0721377062953
+bird, 1113, 0.0721377062953
+dump, 2916, 0.0708468923485
+shut, 7925, 0.0704451710742
+venus, 9463, 0.0676325624869
+green, 4025, 0.0676325624869
+explan, 3302, 0.067322383864
+need, 5993, 0.0658804436792
+ron, 7472, 0.0641080540024
+jpl, 4912, 0.063420879444
+cheap, 1677, 0.0621523610469
+gov, 3965, 0.0617571202812
+thoma, 8878, 0.0608214442781
+orient, 6290, 0.0608214442781
+jame, 4820, 0.0606425885295
+replac, 7288, 0.0591405382949
+time, 8936, 0.0582191674612
+analysi, 490, 0.0580876231082
+extra, 3325, 0.057118080045
+vnew, 9564, 0.0557344017572
+couldn, 2176, 0.0557344017572
+told, 8973, 0.0551536579113
+pat, 6458, 0.0543842588752
+use, 9363, 0.0541154630198
+vms, 9563, 0.0540687547138
+bob, 1189, 0.0538628439645
+vax, 9439, 0.0534611226902
+continu, 2092, 0.0517145253904
+propos, 6933, 0.0514601619036
+sun, 8539, 0.0506485141029
+low, 5368, 0.0504924431873
+seri, 7805, 0.0499613395444
+mark, 5512, 0.0498873127259
+money, 5835, 0.0493812832263
+mission, 5772, 0.048427915666
+final, 3482, 0.0481046409423
+relat, 7247, 0.0468329847808
+suggest, 8525, 0.0467184848709
+nasa, 5956, 0.0461071770593
+guy, 4100, 0.0459992345003
+rememb, 7269, 0.0451182046127
+exampl, 3258, 0.0444373960722
+set, 7815, 0.0438825208114
+hope, 4372, 0.0437924365732
+edu, 3001, 0.0434385808945
+order, 6281, 0.0433084762964
+mayb, 5564, 0.0428845100751
+case, 1540, 0.0425962285111
+avail, 811, 0.042555593644
+news, 6031, 0.0423145747002
+howev, 4406, 0.0422352773283
+end, 3091, 0.0422352773283
+everi, 3235, 0.0419617099546
+littl, 5308, 0.0411758545869
+softwar, 8103, 0.0408892590343
+said, 7583, 0.0407834908851
+probabl, 6885, 0.04006762824
+problem, 6887, 0.0385439470271
+differ, 2633, 0.0377240549282
+sinc, 7977, 0.0373470589927
+right, 7399, 0.0372677616207
+better, 1060, 0.0366512088282
+new, 6023, 0.0356879308642
+mani, 5479, 0.0347519142842
+point, 6710, 0.0345814572571
+year, 9943, 0.0307900915597
+like, 5272, 0.0257967235506

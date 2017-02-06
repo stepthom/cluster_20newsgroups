@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84249
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Is it good that Jesus died?
+Organization: Cookamunga Tourist Bureau
+Lines: 26
+
+In article <1993Apr25.190040.8071@organpipe.uug.arizona.edu>,
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) wrote:
+> "Christ" is Greek for "Messiah".  "Messiah" means "Annointed One".
+> "Annoint" means "to rub with oil, i.e. to anoint; by impl. to
+> consecrate"     The major prophet Daniel uses the word "Messiah"
+> in Daniel chapter 9.
+> 
+> How "closely" did you analyze the Bible?  Looks as if you didn't
+> get past the first word.   So was the catalyst to break your faith the
+> "priests" who interpreted the Bible for you?   Did you ever do what
+> the Bereans did to Paul's teachings in Acts 17?  
+
+Brian, does all this mean that you have to be well versed in ancient
+Greek, Hebrew and Aramaic in order to understand the core of
+Christianity? I hope you are not Catholic, because my Christian
+upbringing was based on the teachings of Luther, and the one of
+the core messages was basically that you don't need to know latin
+in order to learn about salvation.
+
+BTW, your statement would also eliminate about 99.5% of all the Christians
+in the world, as well.
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die      christ greek messiah messiah
+mean annoint one annoint mean rub oil anoint impl
+consecr major prophet daniel use word messiah
+daniel chapter  close analyz bibl look didn't get
+past first word catalyst break faith priest
+interpret bibl ever berean paul teach act  brian
+mean well vers ancient greek hebrew arama order
+understand core christian hope cathol christian
+upbring base teach luther one core messag basic
+don't need know latin order learn salvat  btw
+statement also elimin christian world well  cheer
+kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+messiah, 5653, 0.358285321647
+annoint, 522, 0.309517546794
+daniel, 2359, 0.220116333207
+greek, 4023, 0.218900951411
+christian, 1732, 0.203800098012
+core, 2140, 0.199585885818
+teach, 8729, 0.177650584764
+mean, 5595, 0.1774560386
+bibl, 1071, 0.167984715908
+arama, 601, 0.154758773397
+upbring, 9331, 0.149252349947
+luther, 5401, 0.144981236098
+anoint, 529, 0.144981236098
+consecr, 2053, 0.141491481984
+catalyst, 1554, 0.138540936921
+word, 9829, 0.137117412387
+rub, 7524, 0.135985058533
+order, 6281, 0.135323725584
+latin, 5143, 0.12822419057
+oil, 6213, 0.123953076721
+hebrew, 4233, 0.121557372117
+cathol, 1564, 0.119428440549
+priest, 6860, 0.114175539421
+elimin, 3044, 0.113424829261
+analyz, 493, 0.112006354094
+salvat, 7597, 0.109450475706
+prophet, 6928, 0.106671596866
+vers, 9476, 0.105663961298
+ancient, 500, 0.103795096986
+chapter, 1658, 0.101294941069
+kent, 4987, 0.0914394376512
+cheer, 1687, 0.090527805572
+paul, 6469, 0.0903065238528
+interpret, 4720, 0.0903065238528
+btw, 1355, 0.0903065238528
+brian, 1304, 0.0898714902282
+christ, 1729, 0.0884223163289
+break, 1284, 0.0876409565938
+faith, 3367, 0.0872619213262
+statement, 8343, 0.0863459257099
+act, 249, 0.0854717712669
+learn, 5182, 0.0813378670055
+past, 6456, 0.0809291542056
+messag, 5650, 0.0791293784706
+basic, 937, 0.0787647835323
+die, 2628, 0.0782892148321
+jesus, 4859, 0.0778251762135
+close, 1830, 0.0725493658602
+major, 5458, 0.0702562923627
+understand, 9246, 0.0686294665536
+hope, 4372, 0.0684179654455
+world, 9841, 0.0641048303818
+didn, 2625, 0.063937662022
+base, 923, 0.0599009948288
+need, 5993, 0.0514632922016
+good, 3948, 0.0492024235723
+look, 5341, 0.0477674391419
+don, 2811, 0.0434154525133
+use, 9363, 0.0422729376198
+know, 5052, 0.0412286428963

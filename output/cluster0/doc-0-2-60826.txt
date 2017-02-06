@@ -1,0 +1,134 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60826
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: japanese moon landing?
+Organization: U of Toronto Zoology
+Lines: 22
+
+In article <C5LDoD.7pC@news.cso.uiuc.edu> rls@uihepa.hep.uiuc.edu writes:
+>allow it to go into lunar orbit without large expenditures of fuel to slow
+>down. The idea is that 'natural objects sometimes get captured without
+>expending fuel, we'll just find the trajectory that makes it possible". The
+>originator of the technique said that NASA wasn't interested, but that Japan
+>was because their probe was small and couldn't hold a lot of fuel for
+>deceleration.
+
+Actually, Hiten wasn't originally intended to go into lunar orbit at all,
+so it indeed didn't have much fuel on hand.  The lunar-orbit mission was
+an afterthought, after Hagoromo (a tiny subsatellite deployed by Hiten
+during a lunar flyby) had a transmitter failure and its proper insertion
+into lunar orbit couldn't be positively confirmed.
+
+It should be noted that the technique does have disadvantages.  It takes
+a long time, and you end up with a relatively inconvenient lunar orbit.
+If you want something useful like a low circular polar orbit, you do have
+to plan to expend a certain amount of fuel, although it is reduced from
+what you'd need for the brute-force approach.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ japanes moon land     allow lunar orbit without
+larg expenditur fuel slow idea natur object
+sometim get captur without expend fuel we'll find
+trajectori make possibl origin techniqu said nasa
+wasn't interest japan probe small couldn't hold
+lot fuel deceler  actual hiten wasn't origin
+intend lunar orbit inde didn't much fuel hand
+lunar orbit mission afterthought hagoromo tini
+subsatellit deploy hiten lunar flybi transmitt
+failur proper insert lunar orbit couldn't posit
+confirm  note techniqu disadvantag take long time
+end relat inconveni lunar orbit want someth use
+like low circular polar orbit plan expend certain
+amount fuel although reduc you'd need brute forc
+approach  work one man work henri spencer toronto
+zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lunar, 5392, 0.454251136648
+fuel, 3715, 0.383630273451
+orbit, 6280, 0.342390021862
+hiten, 4320, 0.224023413929
+expend, 3292, 0.198452720282
+techniqu, 8740, 0.161557395693
+couldn, 2176, 0.143448697179
+wasn, 9652, 0.136843950242
+hagoromo, 4115, 0.122940054344
+brute, 1352, 0.119421912292
+deceler, 2437, 0.114116999297
+origin, 6293, 0.112140281416
+transmitt, 9060, 0.11015470752
+disadvantag, 2674, 0.108493564913
+expenditur, 3293, 0.105619033553
+polar, 6716, 0.0983739215935
+tini, 8941, 0.0967959785063
+circular, 1768, 0.095361692655
+confirm, 2032, 0.0922603045387
+japanes, 4826, 0.0906555708374
+insert, 4670, 0.0906555708374
+trajectori, 9044, 0.090155012206
+flybi, 3564, 0.090155012206
+work, 9833, 0.0893339076738
+deploy, 2540, 0.0891991878941
+failur, 3361, 0.085867631127
+japan, 4825, 0.0851341838806
+captur, 1509, 0.0851341838806
+probe, 6886, 0.0844333452757
+reduc, 7204, 0.0819053393501
+proper, 6924, 0.0797272234581
+zoolog, 9993, 0.0792266648268
+slow, 8044, 0.078040671864
+intend, 4700, 0.0773696653826
+spencer, 8221, 0.0761076902362
+inde, 4594, 0.0751281036401
+approach, 589, 0.0751281036401
+henri, 4258, 0.0717243485897
+sometim, 8128, 0.069315849363
+hold, 4341, 0.0689265389024
+land, 5104, 0.0671123244847
+natur, 5966, 0.0667732517912
+toronto, 9003, 0.0657977073109
+forc, 3594, 0.0652807340268
+low, 5368, 0.0649784959043
+plan, 6660, 0.0643908649349
+moon, 5851, 0.0640109363684
+mission, 5772, 0.06232166481
+posit, 6761, 0.0619056440358
+small, 8054, 0.0614204896778
+allow, 432, 0.0604178950184
+relat, 7247, 0.0602691554948
+nasa, 5956, 0.0593351168331
+larg, 5124, 0.0583875019837
+object, 6173, 0.0580624126815
+hand, 4145, 0.0571862832615
+note, 6118, 0.0568848157103
+certain, 1619, 0.0557890945393
+man, 5471, 0.0544544340754
+end, 3091, 0.0543523866475
+idea, 4482, 0.0539011747624
+didn, 2625, 0.0526658350533
+said, 7583, 0.0524840892648
+possibl, 6765, 0.0516912045863
+actual, 254, 0.0506924788259
+ll, 5314, 0.0499443755035
+long, 5336, 0.0496774672961
+lot, 5356, 0.0491934587012
+someth, 8126, 0.0464108592205
+want, 9634, 0.0429481347038
+need, 5993, 0.0423906219382
+make, 5459, 0.0395439005664
+time, 8936, 0.0374609911467
+use, 9363, 0.0348204718392
+like, 5272, 0.0331976864213

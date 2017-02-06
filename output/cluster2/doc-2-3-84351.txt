@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84351
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: markp@elvis.wri.com (Mark Pundurs)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Nntp-Posting-Host: elvis.wri.com
+Organization: Wolfram Research, Inc.
+Lines: 32
+
+In <hfk5iji@zola.esd.sgi.com> cj@eno.esd.sgi.com (C J Silverio) writes:
+
+>markp@elvis.wri.com (Mark Pundurs) writes:
+>|In <930415.112243.8v6.rusnews.w165w@mantis.co.uk> mathew@mantis.co.uk (mathew) writes:
+
+>|>There's no objective reality.  LSD should be sufficient to prove that.
+>|Speaking as one who has taken LSD, I say: 
+>|Bullshit.
+
+>Oh, lawdy.  If that experience didn't teach you that your
+>perceptions are always going to get between you & "reality",
+
+It sure did!
+
+>I don't know what will.  Have you read anything about how
+>your brain works?  About various sensory illusions you can
+>be tricked by?  
+
+I have; and all the above teach me that accurately perceiving reality 
+is a tricky business -- _not_ that there's no reality.
+
+>---
+>C J Silverio	cj@sgi.com	ceej@well.sf.ca.us
+>"Last Friday, April 16, 1943, I was forced to interrupt my work in the
+>laboratory in the middle of the afternoon and proceed home, being affected
+>by a remarkable restlessness, combined with a slight dizziness."
+>--Albert Hofmann
+--
+Mark Pundurs
+
+any resemblance between my opinions and those 
+of Wolfram Research, Inc. is purely coincidental
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral          there object
+realiti lsd suffici prove speak one taken lsd say
+bullshit  lawdi experi didn't teach percept alway
+go get realiti  sure  don't know read anyth brain
+work various sensori illus trick  teach accur
+perceiv realiti tricki busi there realiti   well
+last friday april forc interrupt work laboratori
+middl afternoon proceed home affect remark
+restless combin slight dizzi albert hofmann  mark
+pundur  resembl opinion wolfram research inc pure
+coincident
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+realiti, 7148, 0.42268822556
+lsd, 5375, 0.320548768147
+teach, 8729, 0.209382106833
+pundur, 6985, 0.166764351696
+wolfram, 9816, 0.16328678734
+dizzi, 2772, 0.160274384074
+coincident, 1884, 0.157617256081
+tricki, 9095, 0.151127288458
+interrupt, 4721, 0.151127288458
+illus, 4510, 0.151127288458
+bullshit, 1392, 0.149321563907
+afternoon, 324, 0.146093278481
+perceiv, 6532, 0.143269658857
+percept, 6535, 0.141980192843
+trick, 9094, 0.13645034942
+albert, 383, 0.132012660865
+remark, 7266, 0.131221017759
+work, 9833, 0.127825362342
+friday, 3690, 0.126343129605
+suffici, 8523, 0.123409194292
+proceed, 6889, 0.122334728673
+resembl, 7308, 0.120328116654
+affect, 310, 0.119853161983
+pure, 6990, 0.116782086347
+accur, 225, 0.115583954521
+brain, 1266, 0.114819152005
+say, 7653, 0.114551107547
+laboratori, 5090, 0.113718469634
+middl, 5699, 0.113013427454
+slight, 8034, 0.111666190567
+combin, 1921, 0.109486336155
+busi, 1424, 0.103982319311
+taken, 8678, 0.102194492034
+moral, 5855, 0.101145023109
+prove, 6947, 0.100142212968
+various, 9432, 0.0995612491818
+speak, 8192, 0.09937087241
+experi, 3295, 0.0944508955997
+april, 595, 0.0937013411506
+forc, 3594, 0.0934083563366
+mark, 5512, 0.0918616158188
+home, 4354, 0.0869912789671
+research, 7307, 0.0867733109566
+alway, 457, 0.0852024087413
+opinion, 6266, 0.08450514973
+object, 6173, 0.0830798644404
+christian, 1732, 0.0800674611742
+anyth, 555, 0.0773388291161
+didn, 2625, 0.0753580541145
+sure, 8585, 0.0726501245573
+read, 7135, 0.0686727648083
+year, 9943, 0.056696330336
+don, 2811, 0.0511702166835
+know, 5052, 0.048592804369

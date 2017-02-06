@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61145
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wawers@lif.de (Theo Wawers)
+Subject: Re: Sunrise/ sunset times
+Organization: Lahmeyer International, Frankfurt
+Lines: 15
+X-Newsreader: TIN [version 1.1 PL9]
+
+
+There is a nice little tool in Lucid emacs. It's called "calendar".
+On request it shows for given longitude/latitude coordinates times for
+sunset and sunrise. The code is written in lisp.
+I don't know if you like the idea that an editor is the right program to
+calculate these things.
+
+
+Theo W.
+
+Theo Wawers                                  LAHMEYER INTERNATIONAL GMBH
+email : wawers@sunny.lif.de                  Lyonerstr. 22
+phone : +49 69 66 77 639                     D-6000 Frankfurt/Main
+fax   : +49 69 66 77 571                     Germany
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time      nice littl tool lucid
+emac it call calendar request show given longitud
+latitud coordin time sunset sunris code written
+lisp don't know like idea editor right program
+calcul thing   theo  theo wawer lahmey intern gmbh
+phone frankfurt main fax germani
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sunset, 8548, 0.392137073098
+sunris, 8547, 0.392137073098
+gmbh, 3916, 0.231639309091
+lucid, 5379, 0.22606366183
+emac, 3059, 0.221349519242
+lisp, 5296, 0.217265943188
+calendar, 1454, 0.217265943188
+longitud, 5339, 0.207527184345
+latitud, 5144, 0.198042214456
+germani, 3855, 0.176844807817
+coordin, 2126, 0.168047089174
+editor, 2997, 0.160023624379
+tool, 8988, 0.150499472686
+calcul, 1451, 0.147234359223
+time, 8936, 0.145324052187
+request, 7301, 0.144995697124
+intern, 4716, 0.136018614955
+phone, 6601, 0.134196205585
+main, 5450, 0.134196205585
+written, 9867, 0.133447236067
+fax, 3413, 0.128452528268
+nice, 6047, 0.123798290485
+code, 1871, 0.121544817457
+given, 3887, 0.109764093235
+idea, 4482, 0.104550585747
+littl, 5308, 0.102781305569
+program, 6905, 0.0949253339909
+right, 7399, 0.0930261006957
+thing, 8869, 0.0835455155501
+don, 2811, 0.0693657034162
+know, 5052, 0.0658717956358
+like, 5272, 0.0643926143742

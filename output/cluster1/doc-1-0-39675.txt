@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39675
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ddennis@nyx.cs.du.edu (Dave Dennis)
+Subject: Re: Adobe Type Manager - what good is it??
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 29
+
+menchett@dws015.unr.edu (Peter J Menchetti) writes:
+
+>The subject says it all. I bought Adobe Type Manager and find it completely
+>useless. I ftped some atm fonts and couldn't install them. What's the use?
+>Are you supposed to be able to convert ATM fonts to Truetype?
+
+>If there's anyone out there who has this program and actually finds it 
+>useful, enlighten me!
+
+>Pete
+
+There are some tricks to installing ATM to windows... install them first
+to dos, then run the ATM control panel to get them into windows.
+
+The best reason for ATM is that Adobe IS the standard.  Truetype is a
+failed MS venture to undercut Adobe when Adobe was being nasty about
+keeping their formats proprietary.  Just about any service bureau or print
+shop will smirk and send you on your way if you bring a TrueType document
+to them for high resolution printing or ripping.
+
+Although there are lots of pretty TT fonts floating around, they are really
+for dot matrix or your own lazer printer.
+However, you can convert your TT fonts with Fontmonger or some similar program
+to ATM fonts for high end stuff.
+
+If you are using dot matrix for all your printing, you may have wasted
+your money!
+
+Dave
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ adob type manag good      say bought adob type
+manag find complet useless ftped atm font couldn't
+instal what use suppos abl convert atm font
+truetyp  there anyon program actual find use
+enlighten  pete  trick instal atm window instal
+first dos run atm control panel get window  best
+reason atm adob standard truetyp fail ventur
+undercut adob adob nasti keep format proprietari
+servic bureau print shop smirk send way bring
+truetyp document high resolut print rip  although
+lot pretti font float around realli dot matrix
+lazer printer howev convert font fontmong similar
+program atm font high end stuff  use dot matrix
+print wast money  dave
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+atm, 753, 0.558941757855
+font, 3582, 0.383690700806
+adob, 277, 0.34612366737
+truetyp, 9125, 0.287704026703
+instal, 4679, 0.207674200422
+print, 6871, 0.176714563642
+matrix, 5550, 0.160987894061
+dot, 2826, 0.149870206832
+window, 9774, 0.102327294534
+convert, 2115, 0.0988613779058
+type, 9177, 0.0960737797945
+ftped, 3711, 0.0959013422343
+manag, 5472, 0.0939126133714
+high, 4292, 0.0831846179244
+rip, 7408, 0.0823898048302
+use, 9363, 0.0814867864936
+nasti, 5961, 0.0781060743675
+enlighten, 3116, 0.0781060743675
+proprietari, 6935, 0.0767381401612
+bureau, 1408, 0.0767381401612
+program, 6905, 0.0763510782548
+shop, 7901, 0.0761072977131
+trick, 9094, 0.0743884031299
+printer, 6872, 0.0733629151214
+bought, 1247, 0.0728805501067
+ventur, 9461, 0.0719691160658
+float, 3546, 0.0711205912738
+useless, 9364, 0.0703268493401
+panel, 6406, 0.0699483969768
+pete, 6574, 0.0675824667484
+resolut, 7316, 0.0598513777174
+fail, 3360, 0.0584575786617
+dos, 2825, 0.0580259999464
+wast, 9654, 0.0577464712921
+document, 2788, 0.056561720862
+couldn, 2176, 0.055949717424
+dave, 2395, 0.053181476956
+bring, 1316, 0.0520006185294
+control, 2107, 0.0513265467526
+similar, 7961, 0.0509232735305
+servic, 7813, 0.0506099131051
+standard, 8313, 0.0503800235827
+suppos, 8577, 0.0500061731769
+money, 5835, 0.0495720552376
+format, 3612, 0.0492216403274
+complet, 1975, 0.047544875034
+send, 7785, 0.0472470703783
+stuff, 8472, 0.0471299387182
+pretti, 6851, 0.045093333214
+abl, 180, 0.0449949428384
+howev, 4406, 0.0423984425658
+end, 3091, 0.0423984425658
+best, 1052, 0.0411185214659
+reason, 7156, 0.0396699395519
+actual, 254, 0.0395434733337
+lot, 5356, 0.0383741388742
+run, 7543, 0.037046916499
+realli, 7150, 0.0364946357728
+anyon, 554, 0.0330489138711
+way, 9666, 0.032171978398
+good, 3948, 0.0316147682998
+say, 7653, 0.0312248154855

@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38862
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: vax839@tid.es (Juan Carlos Cuesta Cuesta)
+Subject: AUTOCAD GRAPHICS CONVERTER
+Reply-To: vax839@tid.es
+Organization: Telefonica I+D
+X-Newsreader: Tin 1.1 PL4
+Lines: 8
+
+
+  Could anybody tell me if exists any program to convert AUTOCAD graphics to
+another format (GIF, TIFF, BMP, PCX ...) and where to get it?
+
+	Thanks in advance
+
+	J. C. Cuesta Cuesta
+	TIDSA - Madrid (Spain)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ autocad graphic convert       could anybodi tell
+exist program convert autocad graphic anoth format
+gif tiff bmp pcx get  thank advanc  cuesta cuesta
+tidsa madrid spain
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+autocad, 800, 0.523305121777
+convert, 2115, 0.328050494321
+spain, 8178, 0.31822824436
+madrid, 5428, 0.309121593362
+graphic, 3997, 0.268723265199
+bmp, 1183, 0.245105234247
+pcx, 6490, 0.234660406676
+tiff, 8926, 0.202602742406
+gif, 3869, 0.172266620609
+anybodi, 552, 0.165934869383
+format, 3612, 0.163331563678
+advanc, 285, 0.154316725382
+exist, 3283, 0.146328246493
+tell, 8767, 0.133359408807
+anoth, 533, 0.131530954411
+program, 6905, 0.126677421932
+thank, 8832, 0.114288368552

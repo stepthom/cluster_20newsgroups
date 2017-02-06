@@ -1,0 +1,151 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39041
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Fractal terrain generator?
+From: pdbourke@ccu1.aukuni.ac.nz (Paul David Bourke)
+Organization: University of Auckland, New Zealand.
+Keywords: fractal terrain mac
+Lines: 34
+
+deb47099@uxa.cso.uiuc.edu (Daniel E. Bradley) writes:
+
+>	Does anyone know of a fractal terrain generator for Mac, something
+>	I could hopefully import into a 3D program like Swivel or Stratavision?
+>	I know Infini-D has built in capabilities, but I don't have access to
+>	Infini-D. I downloaded two programs from Umich, in graphics/fractals,
+>	but both were from 1990-91 and crashed under System 7. I think they
+>	were Black and white anyway. Please, email me if you know of anything,
+>	as I don't check the newsgroups very often.
+>		Thanks in advance.
+>			Dan Bradley deb47099@uxa.cso.uiuc.edu
+
+Yes I have written something that creates meshed fractal terrain
+surfaces for exactly the purpose you require, importing into 3D
+modelling packages. Be warned, the data content is high and brings
+many packages to their knees. We use it primarily for MicroStation
+but it exports DXF, as well as other formats, so you should be OK.
+You can get it from my FTP mirror site in the US.
+It is
+   wuarchive.wustl.edu
+my stuff is located in the
+   mirrors/architec
+directory. Please FTP the README file first.
+
+-- 
+Paul D Bourke                       School of Architecture, Property, Planning
+pdbourke@ccu1.auckland.ac.nz        The University of Auckland
+Ph:   +64 -9 373 7999 x7367         Private Bag 92019
+Fax:  +64 -9 373 7410               Auckland, New Zealand
+-- 
+Paul D Bourke                       School of Architecture, Property, Planning
+pdbourke@ccu1.auckland.ac.nz        The University of Auckland
+Ph:   +64 -9 373 7999 x7367         Private Bag 92019
+Fax:  +64 -9 373 7410               Auckland, New Zealand
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+fractal terrain generat        anyon know fractal
+terrain generat mac someth could hope import
+program like swivel stratavis know infini built
+capabl don't access infini download two program
+umich graphic fractal crash system think black
+white anyway pleas email know anyth don't check
+newsgroup often thank advanc   yes written someth
+creat mesh fractal terrain surfac exact purpos
+requir import model packag warn data content high
+bring mani packag knee use primarili microst
+export dxf well format get ftp mirror site
+wuarchiv wustl edu stuff locat mirror architec
+directori pleas ftp readm file first   paul bourk
+school architectur properti plan  x7367 privat bag
+fax auckland new zealand  paul bourk school
+architectur properti plan  x7367 privat bag fax
+auckland new zealand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fractal, 3637, 0.361790887319
+terrain, 8801, 0.294481169443
+auckland, 774, 0.249942578707
+infini, 4630, 0.241049450088
+architectur, 617, 0.186976357678
+bag, 864, 0.177749030732
+zealand, 9977, 0.173997397197
+properti, 6925, 0.169106211531
+mirror, 5755, 0.163596016077
+privat, 6879, 0.150437328088
+paul, 6469, 0.145849213911
+school, 7685, 0.145495918132
+packag, 6375, 0.134646153007
+generat, 3819, 0.133913002972
+fax, 3413, 0.129845577209
+plan, 6660, 0.126251632685
+ftp, 3709, 0.124959556199
+stratavis, 8429, 0.120524725044
+microst, 5694, 0.120524725044
+import, 4551, 0.117170582246
+swivel, 8640, 0.117075701813
+architec, 615, 0.117075701813
+umich, 9205, 0.104888893201
+knee, 5042, 0.10230681805
+know, 5052, 0.0998792484834
+mesh, 5648, 0.0990974356208
+program, 6905, 0.0959547853982
+dxf, 2939, 0.0956484123895
+readm, 7141, 0.0941752484894
+wustl, 9878, 0.0934881788391
+download, 2843, 0.0910098391254
+crash, 2212, 0.0910098391254
+someth, 8126, 0.0909981059707
+pleas, 6688, 0.0909379052814
+new, 6023, 0.0900486864213
+wuarchiv, 9876, 0.0893813319871
+primarili, 6864, 0.0879081680871
+export, 3310, 0.0874467451025
+warn, 9643, 0.0811796647001
+content, 2084, 0.0789274668711
+directori, 2669, 0.0732840771595
+don, 2811, 0.0701179643564
+capabl, 1498, 0.0692989358347
+mac, 5410, 0.0688830401942
+locat, 5323, 0.0684780426463
+newsgroup, 6032, 0.0683453678223
+built, 1381, 0.0676985570429
+surfac, 8587, 0.0675723806517
+black, 1133, 0.0675723806517
+written, 9867, 0.0674472259428
+purpos, 6993, 0.0664808786637
+white, 9737, 0.0662484453799
+access, 209, 0.0660194556792
+bring, 1316, 0.0653521640508
+email, 3060, 0.065029019415
+model, 5807, 0.0648172829245
+site, 7994, 0.0637019024796
+check, 1682, 0.0630318554324
+format, 3612, 0.061859662529
+exact, 3253, 0.061347244704
+creat, 2217, 0.0597523752768
+stuff, 8472, 0.0592309009761
+advanc, 285, 0.0584454121404
+requir, 7302, 0.0575001774477
+data, 2385, 0.0572403978521
+yes, 9951, 0.0563033520455
+hope, 4372, 0.0552490897218
+edu, 3001, 0.0548026609394
+file, 3477, 0.0534852948744
+anyth, 555, 0.0529882577679
+high, 4292, 0.0522714435985
+graphic, 3997, 0.0508876855293
+mani, 5479, 0.0438434529005
+thank, 8832, 0.0432852031194
+anyon, 554, 0.041534468283
+think, 8871, 0.0354000627046
+use, 9363, 0.0341363749734
+like, 5272, 0.0325454714444

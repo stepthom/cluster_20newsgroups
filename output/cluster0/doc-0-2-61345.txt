@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61345
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From:  svn@aoibs.msk.su (Vladimir )
+Subject: New inexpensive method for determining ore & oil locations
+Reply-To: svn@aoibs.msk.su
+Organization: INTERBUSINESS Ltd
+Keywords: Space satellites; statistical prognosis
+Summary: Interesting idea from Russia!
+Lines: 18
+
+
+        Dear gentlemen!
+
+The firm called "INTERBUSINESS,LTD" offers quite inexpensive
+method to determine ore & oil locations all over the world.
+In this method used data got from space satellites. Being
+in your office and using theese data you can get a good statis-
+tical prognosis of locations mentioned above.
+
+        This prognosis could be done for any part of the world!
+If you're interested in details please send E-mail:
+
+        svn@aoibs.msk.su
+
+        Sushkov Vladimir,
+        Moscow, Russia.
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new inexpens method determin ore oil locat
+interest idea russia    dear gentlemen  firm call
+interbusi ltd offer quit inexpens method determin
+ore oil locat world method use data got space
+satellit offic use thees data get good stati tical
+prognosi locat mention  prognosi could done part
+world you'r interest detail pleas send mail
+sushkov vladimir moscow russia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ore, 6284, 0.37098766611
+method, 5666, 0.338895499687
+locat, 5323, 0.333516098211
+inexpens, 4617, 0.332184054508
+oil, 6213, 0.325002339329
+russia, 7550, 0.301414552476
+determin, 2582, 0.218593960217
+data, 2385, 0.185856112061
+vladimir, 9557, 0.175319417421
+world, 9841, 0.168081506225
+moscow, 5872, 0.160881691872
+dear, 2422, 0.150707276238
+firm, 3499, 0.147751723379
+offic, 6206, 0.111172032737
+use, 9363, 0.110838746243
+offer, 6203, 0.110113090949
+satellit, 7632, 0.10736578158
+mention, 5632, 0.100427292633
+send, 7785, 0.0963985623268
+quit, 7043, 0.0919037017002
+mail, 5447, 0.086264199689
+idea, 4482, 0.0857877322758
+got, 3960, 0.0823388673749
+pleas, 6688, 0.0738174704788
+new, 6023, 0.0730956605058
+space, 8164, 0.0711785207754
+good, 3948, 0.0645038557522

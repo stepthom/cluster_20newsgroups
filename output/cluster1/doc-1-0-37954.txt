@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37954
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mbh2@engr.engr.uark.edu (M. Barton Hodges)
+Subject: Stereoscopic imaging
+Summary: Stereoscopic imaging
+Keywords: stereoscopic
+Nntp-Posting-Host: engr.engr.uark.edu
+Organization: University of Arkansas
+Lines: 8
+
+I am interested in any information on stereoscopic imaging on a sun
+workstation.  For the most part, I need to know if there is any hardware
+available to interface the system and whether the refresh rates are
+sufficient to produce quality image representations.  Any information
+about the subject would be greatly appreciated.
+
+    Thanks!
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ stereoscop imag stereoscop imag      interest
+inform stereoscop imag sun workstat part need know
+hardwar avail interfac system whether refresh rate
+suffici produc qualiti imag represent inform great
+appreci  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stereoscop, 8383, 0.704639860061
+imag, 4512, 0.403882533642
+refresh, 7219, 0.210453238386
+inform, 4637, 0.198009077304
+represent, 7295, 0.195066227692
+suffici, 8523, 0.164778053058
+workstat, 9840, 0.158800344473
+interfac, 4709, 0.156482135856
+qualiti, 7017, 0.145021863743
+hardwar, 4173, 0.134507802761
+produc, 6895, 0.133450787435
+rate, 7108, 0.130721841719
+sun, 8539, 0.124526714191
+appreci, 587, 0.11644610774
+avail, 811, 0.104629096051
+great, 4016, 0.100185938928
+thank, 8832, 0.0843546955686
+need, 5993, 0.0809883105764
+know, 5052, 0.0648819380316

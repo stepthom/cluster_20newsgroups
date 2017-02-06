@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84438
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: nrp@st-andrews.ac.uk (Norman R. Paterson)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: St. Andrews University, Scotland.
+Lines: 16
+
+In article <1r59na$e81@fido.asd.sgi.com> livesey@solntze.wpd.sgi.com (Jon Livesey) writes:
+>In article <1993Apr21.141259.12012@st-andrews.ac.uk>, nrp@st-andrews.ac.uk (Norman R. Paterson) writes:
+>|> In article <1r2m21$8mo@fido.asd.sgi.com> livesey@solntze.wpd.sgi.com (Jon Livesey) writes:
+...
+>> Ok, so you don't claim to have an absolute moral system.  Do you claim
+>> to have an objective one?  I'll assume your answer is "yes," apologies
+>> if not.
+>
+>I've just spent two solid months arguing that no such thing as an
+>objective moral system exists.
+>
+>jon.
+
+Apologies, I've not been paying attention.
+
+-Norman
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral        don't claim
+absolut moral system claim object one i'll assum
+answer yes apolog   i'v spent two solid month argu
+thing object moral system exist  jon  apolog i'v
+pay attent  norman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moral, 5855, 0.488885546707
+apolog, 571, 0.38773815581
+claim, 1782, 0.283194879572
+object, 6173, 0.267711606554
+norman, 6109, 0.253948228793
+jon, 4887, 0.221460437015
+attent, 766, 0.187500896964
+spent, 8223, 0.179913240566
+argu, 628, 0.178874678014
+solid, 8115, 0.177864968186
+absolut, 193, 0.16945679802
+pay, 6474, 0.164652721978
+month, 5847, 0.149799988724
+assum, 710, 0.141050854803
+answer, 535, 0.134153732948
+yes, 9951, 0.132401720722
+exist, 3283, 0.130324171484
+christian, 1732, 0.129002308851
+ll, 5314, 0.115140659739
+thing, 8869, 0.0992972063413
+say, 7653, 0.092280666442
+year, 9943, 0.0913474388903
+don, 2811, 0.0824439291537

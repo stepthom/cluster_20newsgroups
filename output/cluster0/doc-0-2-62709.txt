@@ -1,0 +1,171 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62709
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mbk@lyapunov.ucsd.edu (Matt Kennel)
+Subject: Re: Space Marketing would be wonderfull.
+Organization: Institute For Nonlinear Science, UCSD
+Lines: 34
+NNTP-Posting-Host: lyapunov.ucsd.edu
+X-Newsreader: Tin 1.1 PL3
+
+fcrary@ucsu.Colorado.EDU (Frank Crary) writes:
+: While I'm sure Sagan considers it sacrilegious, that wouldn't be
+: because of his doubtfull credibility as an astronomer. Modern, 
+: ground-based, visible light astronomy (what these proposed
+: orbiting billboards would upset) is already a dying field: The
+: opacity and distortions caused by the atmosphere itself have
+: driven most of the field to use radio, far infrared or space-based
+: telescopes.
+
+Hardly.  The Keck telescope in Hawaii has taken its first pictures; they're
+nearly as good as Hubble for a tiny fraction of the cost.
+
+: In any case, a bright point of light passing through
+: the field doesn't ruin observations. If that were the case, the
+: thousands of existing satellites would have already done so (satelliets
+: might not seem so bright to the eyes, but as far as astronomy is concerned,
+: they are extremely bright.)
+
+I believe that this orbiting space junk will be FAR brighter still;
+more like the full moon.  The moon upsets deep-sky observation all
+over the sky (and not just looking at it) because of scattered light.
+
+This is a known problem, but of course two weeks out of every four are
+OK.  What happens when this billboard circles every 90 minutes?  What
+would be a good time then?
+
+:                                              Frank Crary
+:                                              CU Boulder
+
+--
+-Matt Kennel  		mbk@inls1.ucsd.edu
+-Institute for Nonlinear Science, University of California, San Diego
+-*** AD: Archive for nonlinear dynamics papers & programs: FTP to
+-***     lyapunov.ucsd.edu, username "anonymous".
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful       i'm sure sagan
+consid sacrilegi wouldn't doubtful credibl
+astronom modern ground base visibl light astronomi
+propos orbit billboard upset alreadi die field
+opac distort caus atmospher driven field use radio
+far infrar space base telescop  hard keck telescop
+hawaii taken first pictur they'r near good hubbl
+tini fraction cost  case bright point light pass
+field doesn't ruin observ case thousand exist
+satellit alreadi done satelliet might seem bright
+eye far astronomi concern extrem bright  believ
+orbit space junk far brighter still like full moon
+moon upset deep sky observ sky look scatter light
+known problem cours two week everi four happen
+billboard circl everi minut good time  frank crari
+boulder    institut nonlinear scienc univers
+california san diego archiv nonlinear dynam paper
+program ftp lyapunov ucsd edu usernam anonym
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bright, 1311, 0.256784393275
+nonlinear, 6102, 0.240038550347
+light, 5267, 0.193854673959
+upset, 9342, 0.188877914
+field, 3466, 0.183308050109
+billboard, 1090, 0.167509599421
+telescop, 8764, 0.165269270796
+far, 3386, 0.162704180024
+astronomi, 729, 0.156336148247
+sky, 8011, 0.140413086652
+space, 8164, 0.138162994381
+observ, 6179, 0.135085485556
+moon, 5851, 0.131835586946
+alreadi, 443, 0.130141017143
+keck, 4970, 0.126602383461
+satelliet, 7631, 0.122979437534
+doubtful, 2831, 0.120019275174
+orbit, 6280, 0.117529889052
+sacrilegi, 7570, 0.117516493559
+opac, 6257, 0.117516493559
+crari, 2211, 0.115348485512
+brighter, 1313, 0.113436166886
+case, 1540, 0.112899727524
+everi, 3235, 0.111217959569
+usernam, 9368, 0.110178088961
+credibl, 2224, 0.110178088961
+ucsd, 9189, 0.108765377224
+sagan, 7581, 0.108765377224
+junk, 4931, 0.107465808404
+hawaii, 4208, 0.107465808404
+scatter, 7669, 0.103110289672
+infrar, 4640, 0.103110289672
+distort, 2748, 0.103110289672
+base, 923, 0.10162129735
+ruin, 7536, 0.101304436627
+hubbl, 4420, 0.100471641635
+tini, 8941, 0.0996794873221
+wonderful, 9822, 0.0975114792744
+driven, 2875, 0.0968486957079
+boulder, 1248, 0.0968486957079
+fraction, 3639, 0.094438957
+deep, 2466, 0.0849580125044
+dynam, 2942, 0.0846487471012
+circl, 1765, 0.0843452626995
+good, 3948, 0.0834713034475
+visibl, 9541, 0.0831850590504
+diego, 2629, 0.081842481085
+california, 1459, 0.0808430306577
+astronom, 728, 0.0808430306577
+anonym, 532, 0.0806024937728
+extrem, 3333, 0.080365468501
+modern, 5811, 0.0801318537833
+thousand, 8888, 0.0799015528615
+archiv, 618, 0.0799015528615
+atmospher, 755, 0.0790116894708
+eye, 3337, 0.0762329361793
+minut, 5747, 0.0750036833752
+institut, 4683, 0.0746689098083
+market, 5514, 0.0740193854854
+taken, 8678, 0.0735487454959
+san, 7603, 0.0733948491515
+ground, 4061, 0.0729417236651
+radio, 7061, 0.0725009017607
+pass, 6448, 0.0725009017607
+paper, 6409, 0.0723565813192
+concern, 2004, 0.0702065433262
+satellit, 7632, 0.0694684188229
+frank, 3655, 0.0694684188229
+pictur, 6622, 0.0685337180038
+propos, 6933, 0.068196627499
+wouldn, 9854, 0.06786639355
+die, 2628, 0.0664083426531
+near, 5982, 0.0657256498962
+caus, 1569, 0.0657256498962
+ftp, 3709, 0.0656304241525
+known, 5054, 0.0648880803293
+cost, 2169, 0.0616878257155
+hard, 4167, 0.0614659187154
+scienc, 7692, 0.0606772631511
+week, 9691, 0.0597920659317
+exist, 3283, 0.0582145208732
+edu, 3001, 0.0575661756739
+happen, 4159, 0.0572231500394
+consid, 2059, 0.0569427295494
+cours, 2190, 0.0555578429144
+univers, 9282, 0.0539547896924
+doesn, 2793, 0.0526658989012
+sure, 8585, 0.0522858464772
+problem, 6887, 0.0510796526966
+program, 6905, 0.0503967320044
+believ, 1009, 0.0501387206739
+point, 6710, 0.045828436439
+look, 5341, 0.0405184350488
+time, 8936, 0.038576937283
+use, 9363, 0.0358577580888
+like, 5272, 0.0341866306206

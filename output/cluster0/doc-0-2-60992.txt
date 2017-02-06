@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60992
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey)
+Subject: Which Gehrels? (was Re: Comet in Temporary Orbit Around Jupiter?)
+Organization: Fermi National Accelerator Laboratory
+Lines: 30
+NNTP-Posting-Host: fnalf.fnal.gov
+
+In article <1993Apr21.170817.15845@sq.sq.com>, msb@sq.sq.com (Mark Brader) writes:
+> 
+>> > > Also, peri[jove]s of Gehrels3 were:
+> 
+> Thanks again.  One final question.  The name Gehrels wasn't known to
+> me before this thread came up, but the May issue of Scientific American
+> has an article about the "Inconstant Cosmos", with a photo of Neil
+> Gehrels, project scientist for NASA's Compton Gamma Ray Observatory.
+> Same person?
+
+I would guess not.  Dr. Neil Gehrels of CGRO is the son of Dr. Tom
+Gehrels of the University of Arizona.  Since he's long had research
+interests in asteroids and other solar-system astronomy, Tom is the
+one more likely to have discovered  a comet (and thus had his name
+attached to it).
+
+Tom Gehrels is a leader in the Spacewatch project, which has recently
+increased mankind's discovery rate on near-Earth asteroids (they're
+finding a couple every month).  For much more on this interesting guy,
+read his autobiography, *On a Glassy Sea*.
+
+"Do you know the asteroids, Mr.Kemp?...    Bill Higgins
+Hundreds of thousands of them.  All        
+wandering around the Sun in strange        Fermilab
+orbits.  Some never named, never
+charted.  The orphans of the Solar         higgins@fnal.fnal.gov
+System, Mr. Kemp."
+                                           higgins@fnal.bitnet
+"And you want to become a father."
+  --*Moon Zero Two*                        SPAN/Hepnet: 43011::HIGGINS
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gehrel comet temporari orbit around jupit
+also peri jove gehrels3  thank one final question
+name gehrel wasn't known thread came issu scientif
+american articl inconst cosmos photo neil gehrel
+project scientist nasa compton gamma ray
+observatori person  guess neil gehrel cgro son tom
+gehrel univers arizona sinc he long research
+interest asteroid solar system astronomi tom one
+like discov comet thus name attach  tom gehrel
+leader spacewatch project recent increas mankind
+discoveri rate near earth asteroid they'r find
+coupl everi month much interest guy read
+autobiographi glassi sea  know asteroid kemp bill
+higgin hundr thousand wander around sun strang
+fermilab orbit never name never  system kemp  want
+becom father moon zero two span hepnet higgin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gehrel, 3809, 0.606548946418
+asteroid, 716, 0.26200157662
+tom, 8976, 0.206694110051
+neil, 6002, 0.195840467312
+higgin, 4291, 0.192242687811
+comet, 1926, 0.159255640259
+cgro, 1634, 0.115684931756
+autobiographi, 799, 0.115684931756
+project, 6909, 0.113376466207
+spacewatch, 8176, 0.112900350955
+peri, 6541, 0.112900350955
+inconst, 4586, 0.112900350955
+orbit, 6280, 0.110558622375
+fermilab, 3448, 0.110546021434
+wander, 9630, 0.108506608438
+gehrels3, 3810, 0.108506608438
+compton, 1990, 0.108506608438
+hepnet, 4260, 0.10109149107
+cosmos, 2168, 0.10109149107
+sea, 7739, 0.0917276013895
+mankind, 5484, 0.0917276013895
+arizona, 639, 0.0911041307249
+discoveri, 2700, 0.0888373252852
+temporari, 8778, 0.088319549924
+span, 8181, 0.087818753898
+attach, 760, 0.0859652204029
+zero, 9985, 0.0821269176576
+photo, 6603, 0.0821269176576
+leader, 5173, 0.081141226607
+observatori, 6180, 0.0805177559423
+jupit, 4932, 0.0799187415045
+discov, 2698, 0.0796278201294
+strang, 8426, 0.0787868970859
+scientist, 7694, 0.0772323791154
+father, 3404, 0.0769880073357
+son, 8132, 0.0760478391515
+thousand, 8888, 0.0751622049611
+gamma, 3762, 0.0747379301675
+hundr, 4440, 0.0743251236759
+thread, 8890, 0.073923181784
+astronomi, 729, 0.0735315472388
+scientif, 7693, 0.0722348856409
+increas, 4590, 0.0688980366838
+american, 469, 0.0679301982482
+solar, 8107, 0.0677968095365
+wasn, 9652, 0.0662808974548
+rate, 7108, 0.0662808974548
+ray, 7118, 0.06384090921
+coupl, 2187, 0.063536455732
+sun, 8539, 0.0631397344555
+month, 5847, 0.0629451724563
+issu, 4793, 0.062283085057
+moon, 5851, 0.0620078900369
+near, 5982, 0.0618271434257
+came, 1472, 0.0615599719994
+becom, 983, 0.0612108617046
+known, 5054, 0.0610392541644
+recent, 7168, 0.0607017175448
+final, 3482, 0.0599684770418
+guess, 4079, 0.0591930358656
+research, 7307, 0.0587459919394
+nasa, 5956, 0.0574783874233
+guy, 4100, 0.0573438234656
+earth, 2956, 0.0532033688506
+everi, 3235, 0.0523105419925
+person, 6562, 0.0508855686711
+univers, 9282, 0.0507544699228
+articl, 665, 0.0492238323414
+long, 5336, 0.0481229474864
+sinc, 7977, 0.0465577999525
+read, 7135, 0.0464918261549
+question, 7032, 0.0462307444059
+thank, 8832, 0.042771007915
+want, 9634, 0.0416041908632
+know, 5052, 0.0328975863926
+like, 5272, 0.0321588560624

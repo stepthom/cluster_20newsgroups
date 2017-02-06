@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84507
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cutter@gloster.via.mind.org (cutter)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Distribution: world
+Organization: Gordian Knot, Gloster,GA
+Lines: 22
+
+netd@susie.sbc.com () writes:
+
+> In article <20APR199301460499@utarlg.uta.edu> b645zaw@utarlg.uta.edu (stephen
+> >For those who think David Koresh didn't have a solid structure,
+> >or sound Biblical backing for his hour long tape broadcast,
+> 
+> I don't think anyone really cares about the solid structure of his
+> sermon.  It's the deaths he's responsible for that concern most people.
+> 
+
+And I think we ought to hold Christ accoountable for all of his followers 
+who died at the hand of the Romans also. It was their own fault for believing.
+
+God, this society reminds me more of the Roman Empire every day; I guess
+I'll just log off and go watch American Gladiators.
+
+
+---------------------------------------------------------------------
+cutter@gloster.via.mind.org (chris)     All jobs are easy 
+                                     to the person who
+                                     doesn't have to do them.
+                                               Holt's law
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos       utarlg
+uta edu stephen think david koresh didn't solid
+structur sound biblic back hour long tape
+broadcast  don't think anyon realli care solid
+structur sermon it death he respons concern peopl
+think ought hold christ accoount follow die hand
+roman also fault believ  god societi remind roman
+empir everi day guess i'll log watch american
+gladiat     person doesn't holt law
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+roman, 7468, 0.278161436277
+tape, 8700, 0.258163391041
+biblic, 1072, 0.250148444399
+solid, 8115, 0.246573330643
+koresh, 5065, 0.241959445884
+structur, 8460, 0.229717881766
+utarlg, 9381, 0.196454152953
+uta, 9379, 0.196454152953
+holt, 4352, 0.182355201924
+think, 8871, 0.173105294301
+empir, 3076, 0.164892063169
+sermon, 7807, 0.155906000452
+log, 5328, 0.154676781853
+ought, 6321, 0.150284125462
+enclos, 3085, 0.146544834276
+fault, 3407, 0.134921701602
+stephen, 8380, 0.132820986707
+remind, 7270, 0.132322079638
+broadcast, 1324, 0.131352960787
+cite, 1774, 0.130419743593
+societi, 8093, 0.11945234721
+christ, 1729, 0.116386316616
+hour, 4395, 0.113418892738
+death, 2423, 0.112502646904
+american, 469, 0.112056724047
+hold, 4341, 0.110142336347
+concern, 2004, 0.108942396058
+law, 5153, 0.108173054335
+watch, 9655, 0.104479528799
+die, 2628, 0.103048571032
+david, 2397, 0.101694538619
+care, 1516, 0.0991869916186
+sound, 8150, 0.0989231778606
+guess, 4079, 0.0976440207238
+respons, 7323, 0.0970280002136
+hand, 4145, 0.091381794962
+edu, 3001, 0.0893278149398
+god, 3926, 0.0887955278799
+everi, 3235, 0.0862907531552
+didn, 2625, 0.0841582677849
+person, 6562, 0.0839401366934
+follow, 3578, 0.0828076321612
+doesn, 2793, 0.0817238528635
+ll, 5314, 0.0798094651631
+long, 5336, 0.0793829546488
+believ, 1009, 0.0778023259188
+realli, 7150, 0.0747593578051
+day, 2402, 0.0747091205328
+peopl, 6530, 0.0683552133658
+anyon, 554, 0.0677007873853
+don, 2811, 0.0571458067603

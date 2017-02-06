@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61513
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Combo Propulsion System!?
+Lines: 9
+Nntp-Posting-Host: acad3.alaska.edu
+Organization: University of Alaska Fairbanks
+
+How hard or easy would it be to have a combo mission such as a solar sail on
+the way out to the outer planets, but once in near to orbit to use more normal
+means..
+Seems that everyone talks about using one system and one system only per
+mission, why not have more than one propulsion system? Or did I miss
+something.. ?? or did it die in committee?
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ combo propuls system     hard easi combo mission
+solar sail way outer planet near orbit use normal
+mean seem everyon talk use one system one system
+per mission one propuls system miss someth die
+committe
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+combo, 1922, 0.517933460051
+propuls, 6936, 0.375224338976
+mission, 5772, 0.30561229738
+sail, 7584, 0.232171574927
+outer, 6324, 0.223545461694
+committe, 1946, 0.218707000366
+planet, 6664, 0.177003199198
+normal, 6108, 0.177003199198
+solar, 8107, 0.171600388615
+use, 9363, 0.170752248469
+easi, 2959, 0.17060486826
+miss, 5770, 0.163447773273
+die, 2628, 0.158116045586
+near, 5982, 0.156490576936
+everyon, 3241, 0.154066822496
+hard, 4167, 0.146348299284
+orbit, 6280, 0.139917369961
+talk, 8684, 0.130732488909
+mean, 5595, 0.11946578316
+someth, 8126, 0.113794531589
+way, 9666, 0.1011226093

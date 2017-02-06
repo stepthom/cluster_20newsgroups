@@ -1,0 +1,154 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61000
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Level 5?
+Organization: Texas Instruments Inc
+Distribution: sci
+Lines: 33
+
+In <C5sy4s.4x2.1@cs.cmu.edu> 18084TM@msu.edu (Tom) writes:
+
+
+>Nick Haines sez;
+>>(given that I've heard the Shuttle software rated as Level 5 in
+>>maturity, I strongly doubt that this [having lots of bugs] is the case).
+
+>Level 5?  Out of how many?  What are the different levels?  I've never
+>heard of this rating system.  Anyone care to clue me in?
+
+SEI Level 5 (the highest level -- the SEI stands for Software
+Engineering Institute).  I'm not sure, but I believe that this rating
+only applies to the flight software.  Also keep in mind that it was
+*not* achieved through the use of sophisticated tools, but rather
+through a 'brute force and ignorance' attack on the problem during the
+Challenger standdown - they simply threw hundreds of people at it and
+did the whole process by hand.  I would not consider receiving a 'Warning'
+status on systems which are not yet in use would detract much (if
+anything) from such a rating -- I'll have to get the latest copy of
+the guidelines to make sure (they just issued new ones, I think).
+
+Also keep in mind that the SEI levels are concerned primarily with
+control of the software process; the assumption is that a
+well controlled process will produce good software.  Also keep in mind
+that SEI Level 5 is DAMNED HARD.  Most software in this country is
+produced by 'engineering practicies' that only rate an SEI Level 1 (if
+that). 
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ level        nick hain sez given i'v heard shuttl
+softwar rate level matur strong doubt lot bug case
+level mani differ level i'v never heard rate
+system anyon care clue  sei level highest level
+sei stand softwar engin institut i'm sure believ
+rate appli flight softwar also keep mind achiev
+use sophist tool rather brute forc ignor attack
+problem challeng standdown simpli threw hundr
+peopl whole process hand consid receiv warn status
+system yet use detract much anyth rate i'll get
+latest copi guidelin make sure issu new one think
+also keep mind sei level concern primarili control
+softwar process assumpt well control process
+produc good softwar also keep mind sei level damn
+hard softwar countri produc engin practici rate
+sei level    insist perfect safeti peopl don't
+ball live real world mari shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+level, 5229, 0.488346251066
+sei, 7769, 0.478655044243
+rate, 7108, 0.286990752741
+softwar, 8103, 0.264853704707
+process, 6890, 0.160391104048
+mind, 5733, 0.154574133838
+produc, 6895, 0.117192785647
+control, 2107, 0.110393384677
+engin, 3109, 0.103183357887
+standdown, 8315, 0.103132535054
+heard, 4224, 0.100503982217
+brute, 1352, 0.100181219387
+guidelin, 4084, 0.0924071027568
+hain, 4118, 0.0910135955784
+sophist, 8139, 0.0897530150004
+matur, 5555, 0.0875435434095
+sure, 8585, 0.0851859459072
+sez, 7828, 0.0818459717703
+shafer, 7839, 0.0764832556219
+clue, 1844, 0.0760495746248
+nick, 6052, 0.0756296636294
+primarili, 6864, 0.0752226750439
+dryden, 2888, 0.0752226750439
+threw, 8894, 0.0744444455653
+assumpt, 711, 0.073709473968
+attack, 761, 0.0730132034529
+status, 8352, 0.072033045084
+peopl, 6530, 0.0717688715926
+highest, 4294, 0.0705454016691
+mari, 5508, 0.0697270322951
+warn, 9643, 0.0694651210552
+latest, 5141, 0.0694651210552
+safeti, 7579, 0.0692082957933
+challeng, 1642, 0.0692082957933
+insist, 4673, 0.0682281374244
+damn, 2346, 0.067537924196
+bug, 1373, 0.0670970138545
+achiev, 232, 0.0670970138545
+ame, 465, 0.0664620398213
+tool, 8988, 0.0650892145634
+hundr, 4440, 0.0643643161466
+countri, 2186, 0.0640162411792
+institut, 4683, 0.0608266112193
+doubt, 2830, 0.0591791340114
+ignor, 4496, 0.0590605136163
+strong, 8456, 0.0585963928235
+appli, 584, 0.0585963928235
+use, 9363, 0.0584207246647
+copi, 2130, 0.0581480080057
+receiv, 7167, 0.0578214214027
+perfect, 6538, 0.0578214214027
+flight, 3544, 0.0575027051275
+stand, 8311, 0.0572944160132
+concern, 2004, 0.0571914887591
+forc, 3594, 0.0547630113414
+simpli, 7967, 0.0541787990356
+issu, 4793, 0.0539361117605
+shuttl, 7929, 0.053233676675
+care, 1516, 0.0520701941711
+ball, 877, 0.0517266401695
+hard, 4167, 0.0500712217513
+nasa, 5956, 0.0497753238305
+live, 5310, 0.048493479445
+hand, 4145, 0.0479727001467
+given, 3887, 0.0474716521488
+consid, 2059, 0.0463865520598
+case, 1540, 0.0459850548944
+real, 7144, 0.0453418445857
+anyth, 555, 0.0453418445857
+world, 9841, 0.0442960775414
+ll, 5314, 0.0418975742678
+problem, 6887, 0.0416103862206
+lot, 5356, 0.0412676416242
+believ, 1009, 0.0408438863952
+differ, 2633, 0.0407252660001
+new, 6023, 0.0385271540984
+mani, 5479, 0.0375166708862
+anyon, 554, 0.0355408817947
+good, 3948, 0.0339985981836
+make, 5459, 0.033172774594
+think, 8871, 0.0302916949734
+don, 2811, 0.0299998337031

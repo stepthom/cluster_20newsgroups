@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60953
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: 18084TM@msu.edu (Tom)
+Subject: Moonbase race
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 26
+
+From: Gene Wright <gene@theporch.raider.net>
+
+>With the continuin talk about the "End of the Space Age" and complaints
+>by government over the large cost, why not try something I read about
+>that might just work.
+
+>Announce that a reward of $1 billion would go to the first corporation
+>who successfully keeps at least 1 person alive on the moon for a year.
+>Then you'd see some of the inexpensive but not popular technologies begin
+>to be developed. THere'd be a different kind of space race then!
+
+I'll say!  Imagine that there were a couple groups up there, maybe landing
+a few weeks apart.  The year-mark starts coming on for the first group.
+Isn't a billion pretty good incentive to take a shot at a potential
+winner?  "Yeah, that's a shame that Team A's life support gave out
+so close to the deadline.  Thanks for the billion."
+
+On the other hand, if Apollo cost ~25billion, for a few days or weeks
+in space, in 1970 dollars, then won't the reward have to be a lot more
+than only 1 billion to get any takers?
+
+-Tommy Mac
+-------------------------------------------------------------------------
+Tom McWilliams 517-355-2178 wk   \\ As the radius of vision increases,
+18084tm@ibm.cl.msu.edu 336-9591 hm \\ the circumference of mystery grows.
+-------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race ad forward space digest
+continuin talk end space age complaint govern larg
+cost tri someth read might work  announc reward
+billion first corpor success keep least person
+aliv moon year you'd see inexpens popular
+technolog begin develop there'd differ kind space
+race  i'll say imagin coupl group mayb land week
+apart year mark start come first group isn't
+billion pretti good incent take shot potenti
+winner yeah that shame team a life support gave
+close deadlin thank billion  hand apollo cost
+25billion day week space dollar won't reward lot
+billion get taker  tommi mac  tom mcwilliam radius
+vision increas
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+billion, 1092, 0.396315779603
+reward, 7368, 0.239113138033
+space, 8164, 0.235917924549
+race, 7049, 0.205241722498
+cost, 2169, 0.158001032164
+incent, 4573, 0.153702688797
+continuin, 2093, 0.153702688797
+week, 9691, 0.153145422502
+taker, 8681, 0.145272030947
+group, 4064, 0.144723426414
+inexpens, 4617, 0.137626091155
+deadlin, 2416, 0.137626091155
+mcwilliam, 5590, 0.130859726158
+shame, 7851, 0.127654538799
+moonbas, 5852, 0.124029285423
+complaint, 1974, 0.124029285423
+winner, 9786, 0.119556569017
+tommi, 8978, 0.117635891156
+radius, 7064, 0.115323225392
+apart, 559, 0.114256706458
+apollo, 570, 0.110465774431
+dollar, 2802, 0.107260587072
+aliv, 417, 0.106892567542
+vision, 9542, 0.105826048608
+digest, 2640, 0.10481157616
+corpor, 2154, 0.10481157616
+year, 9943, 0.104511285883
+yeah, 9942, 0.103844305914
+shot, 7910, 0.102035116581
+popular, 6746, 0.100105946761
+potenti, 6774, 0.0995861056691
+gave, 3798, 0.0978626589757
+announc, 524, 0.0954136480638
+imagin, 4518, 0.0943891767892
+forward, 3621, 0.0943891767892
+tom, 8976, 0.0937978792944
+increas, 4590, 0.0937978792944
+age, 328, 0.0930347638983
+mac, 5410, 0.0926634583055
+success, 8513, 0.0922986671831
+begin, 994, 0.0922986671831
+ad, 257, 0.0892750753946
+won, 9820, 0.0886589544458
+land, 5104, 0.0885077351564
+govern, 3966, 0.0867740179957
+coupl, 2187, 0.0864986158153
+mark, 5512, 0.0846666401122
+moon, 5851, 0.0844176244335
+technolog, 8743, 0.0826393994557
+close, 1830, 0.0788106283637
+develop, 2588, 0.0774391933182
+larg, 5124, 0.0770014390307
+life, 5260, 0.076572711251
+pretti, 6851, 0.0762359822619
+isn, 4783, 0.0761526452339
+hand, 4145, 0.0754172717508
+kind, 5021, 0.0741709025401
+mayb, 5564, 0.0727817792243
+end, 3091, 0.0716799288275
+support, 8576, 0.0716129640011
+talk, 8684, 0.0703170580277
+person, 6562, 0.0692756812496
+team, 8732, 0.0690380493986
+ll, 5314, 0.0658666436241
+start, 8334, 0.065815991807
+lot, 5356, 0.064876334527
+differ, 2633, 0.0640236727067
+read, 7135, 0.0632940343114
+day, 2402, 0.061657336101
+someth, 8126, 0.0612066422644
+come, 1923, 0.0602947155713
+tri, 9087, 0.0602172757773
+work, 9833, 0.0589067798023
+thank, 8832, 0.0582285073829
+good, 3948, 0.0534487637869
+say, 7653, 0.0527894992412

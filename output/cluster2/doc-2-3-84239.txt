@@ -1,0 +1,170 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84239
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cobb@alexia.lis.uiuc.edu (Mike Cobb)
+Subject: Re: Ancient references to Christianity (was: Albert Sabin)
+Organization: University of Illinois at Urbana
+Lines: 35
+
+In <1ren9a$94q@morrow.stanford.edu> salem@pangea.Stanford.EDU (Bruce Salem) 
+writes:
+
+>In article <C5ztJu.FKx@news.cso.uiuc.edu> cobb@alexia.lis.uiuc.edu (Mike 
+Cobb) writes:
+>>Why is the NT tossed out as info on Jesus.  I realize it is normally tossed
+>>out because it contains miracles, but what are the other reasons?
+
+> It is not tossed out as a source, but would it be regarded as
+>unbiased and independant? 
+
+This brings up another something I have never understood.  I asked this once
+before and got a few interesting responses, but somehow didn't seem satisfied.
+Why would the NT NOT be considered a good source.  This might be a 
+literary/historical question, but when I studied history I always looked for 
+firsthand original sources to write my papers.  If the topic was on Mr. X, I 
+looked to see if Mr. X wrote anything about it.  If the topic was on a group, 
+look for the group, etc.  If the topic is on Mr. X, and Mr. X did not write 
+anything about it, (barring the theistic response about the Bible being 
+divinely inspired which I can't adequately argue), wouldn't we look for people
+who ate, worked, walked, talked, etc. with him?  If someone was at an event 
+wouldn't they be a better "reporter" than someone who heard about it second 
+hand?  I guess isn't firsthand better than second hand.  I know, there is bias,
+and winners writing history, but doesn't the principle of firsthand being best
+still apply?
+
+MAC
+--
+****************************************************************
+                                                    Michael A. Cobb
+ "...and I won't raise taxes on the middle     University of Illinois
+    class to pay for my programs."                 Champaign-Urbana
+          -Bill Clinton 3rd Debate             cobb@alexia.lis.uiuc.edu
+                                              
+Nobody can explain everything to anybody.  G.K.Chesterton
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ancient refer christian albert sabin    pangea
+stanford edu bruce salem   alexia lis uiuc edu
+mike  toss info jesus realiz normal toss contain
+miracl reason  toss sourc regard unbias independ
+bring anoth someth never understood ask got
+interest respons somehow didn't seem satisfi
+consid good sourc might literari histor question
+studi histori alway look firsthand origin sourc
+write paper topic look see wrote anyth topic group
+look group etc topic write anyth bar theistic
+respons bibl divin inspir can't adequ argu
+wouldn't look peopl ate work walk talk etc someon
+event wouldn't better report someon heard second
+hand guess isn't firsthand better second hand know
+bias winner write histori doesn't principl
+firsthand best still appli  mac   michael cobb
+won't rais tax middl univers illinoi class pay
+program champaign urbana   nobodi explain everyth
+anybodi chesterton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+firsthand, 3502, 0.395349528463
+toss, 9010, 0.278099497741
+topic, 8992, 0.233592821685
+sourc, 8153, 0.180473881375
+write, 9865, 0.168566916358
+look, 5341, 0.162703405014
+histori, 4314, 0.140958598718
+wouldn, 9854, 0.136260115961
+respons, 7323, 0.125542777113
+urbana, 9350, 0.123457218976
+salem, 7591, 0.120485556232
+ate, 737, 0.120485556232
+hand, 4145, 0.118237254111
+literari, 5306, 0.115796620312
+edu, 3001, 0.115579646456
+unbias, 9218, 0.11387687223
+champaign, 1646, 0.11387687223
+second, 7753, 0.11344682821
+group, 4064, 0.11344682821
+anyth, 555, 0.111753042537
+cobb, 1864, 0.10918793631
+illinoi, 4507, 0.107883318598
+someon, 8124, 0.106522365885
+sabin, 7563, 0.100066747258
+adequ, 265, 0.0985839964046
+better, 1060, 0.0975200771136
+understood, 9248, 0.0972249578732
+uiuc, 9197, 0.0959705683064
+albert, 383, 0.0953778113381
+stanford, 8318, 0.0948058572065
+inspir, 4676, 0.0942532951297
+winner, 9786, 0.093718853144
+satisfi, 7635, 0.093718853144
+miracl, 5751, 0.093718853144
+bruce, 1347, 0.0926998325804
+divin, 2766, 0.0887691273363
+bias, 1069, 0.0883856032829
+ancient, 500, 0.0883856032829
+bar, 904, 0.0876446111278
+tax, 8718, 0.0869358464084
+rais, 7076, 0.0856045745281
+principl, 6870, 0.0856045745281
+histor, 4313, 0.0852880787538
+nobodi, 6088, 0.0824212332218
+middl, 5699, 0.0816510574955
+independ, 4595, 0.0816510574955
+argu, 628, 0.080211974505
+class, 1789, 0.0780642643824
+realiz, 7149, 0.0747935286564
+normal, 6108, 0.074629718029
+michael, 5680, 0.074306954606
+event, 3232, 0.0739904588316
+pay, 6474, 0.0738344861559
+paper, 6409, 0.0726376903601
+mac, 5410, 0.0726376903601
+appli, 584, 0.0722106173622
+contain, 2079, 0.0716580552854
+bibl, 1071, 0.0715227929304
+mike, 5710, 0.0703534375733
+everyth, 3242, 0.0702285402554
+studi, 8469, 0.0701045927361
+won, 9820, 0.06949861141
+walk, 9617, 0.0692623895907
+wrote, 9871, 0.0691455502356
+bring, 1316, 0.0689143545828
+regard, 7224, 0.0667666444603
+jesus, 4859, 0.0662711953646
+anybodi, 552, 0.0662711953646
+explain, 3301, 0.0658854017267
+report, 7291, 0.06486926978
+info, 4636, 0.06416812855
+guess, 4079, 0.0631699174629
+heard, 4224, 0.061927486092
+alway, 457, 0.0615578779585
+refer, 7213, 0.0600910239363
+isn, 4783, 0.0596950768485
+origin, 6293, 0.0579647696685
+christian, 1732, 0.0578479303135
+consid, 2059, 0.0571639549832
+ask, 689, 0.056454002678
+talk, 8684, 0.0551206352693
+best, 1052, 0.0544927435165
+didn, 2625, 0.0544454313781
+univers, 9282, 0.0541644068261
+got, 3960, 0.0534823399345
+doesn, 2793, 0.0528705086279
+reason, 7156, 0.0525729954349
+anoth, 533, 0.0525309334239
+program, 6905, 0.050592525901
+question, 7032, 0.0493367550027
+someth, 8126, 0.0479790978028
+work, 9833, 0.0461762652682
+peopl, 6530, 0.0442217880263
+good, 3948, 0.0418977968778
+know, 5052, 0.0351078093354

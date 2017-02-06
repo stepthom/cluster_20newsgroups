@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38334
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: erich@fi.gs.com (Erich Schlaikjer)
+Subject: character recognition
+Nntp-Posting-Host: raider
+Reply-To: schlae@aron01.gs.com
+Organization: Goldman, Sachs & Co
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 7
+
+  Is there any program available (free or otherwise) for taking a tiff or gif
+or some other bitmapped file and turning it (or parts of it) into ascii
+characters?
+
+  DOS, OS/2 or platform independent programs if possible.
+
+  Thanks.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ charact recognit       program avail free
+otherwis take tiff gif bitmap file turn part ascii
+charact  dos platform independ program possibl
+thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+charact, 1661, 0.495786006028
+recognit, 7175, 0.310214404965
+program, 6905, 0.283791312382
+ascii, 676, 0.267503882933
+bitmap, 1126, 0.256015427081
+platform, 6676, 0.23190820083
+independ, 4595, 0.229004782341
+tiff, 8926, 0.226942170447
+dos, 2825, 0.215678351288
+otherwis, 6313, 0.204955238716
+gif, 3869, 0.192961656453
+free, 3668, 0.186143804413
+turn, 9158, 0.18193730078
+avail, 811, 0.158787067635
+file, 3477, 0.158185565864
+possibl, 6765, 0.149875919112
+thank, 8832, 0.128018259319

@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104785
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: marc@yogi.austin.ibm.com (Marc J. Stephenson)
+Subject: Re: ASTROS FOR REAL?
+Organization: IBM, Austin
+Lines: 29
+
+In article <1993Apr15.234838.4138@ccsvax.sfasu.edu> z_millerwl@ccsvax.sfasu.edu writes:
+>WHO THINKS THE ASTROS ARE GOING PLACES???
+>THEY'RE CURRENTLY FIRST PLACE.
+>THEY'RE 5-4, 5-1 ON THE ROAD! 
+
+I AGREE, LUMBERJACK (except that they're in 2nd)!  They ARE going PLACES -
+San Diego, Los Angeles, San Francisco, Cincinnati, Denver, Atlanta, Miami,
+Philadelphia, New York, Montreal, Pittsburgh, Chicago, St. Louis...and
+points in between.  :-)
+
+But,
+THEY'RE 0-3 AT HOME!
+
+I'm just not used to an overly enthusiastic Houston fan.  I really shouldn't
+discourage it, so HANG IN THERE, LUMBERJACK!  (But, get ahold of that shift
+key, will ya?)
+
+ObBase:  Apparently the new owner (Drayton McLain (sp?)) doesn't particularly
+like excuses.  An item in our paper (the Austin American-Statesman - "If you
+read it here, it was somewhere else first") said that he wouldn't take 
+injuries as an excuse for losing because that possibility should have been
+accounted for.  Uh, oh.  I don't want an owner that'll keep everybody on
+edge - I'd never gotten that feeling about him, but who knows?  Does 
+anybody down there in the Houston area have a feel for how meddling of an
+owner McLain is going to be?
+-- 
+Marc Stephenson	           IBM AWS (Advanced Workstations & Systems - Austin,TX)
+DISCLAIMER: The content of this posting is independent of official IBM position.
+INTERNET->marc@austin.ibm.com      VNET: MARC at AUSVMQ        IBM T/L: 678-3189
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ astro real     think astro go place they'r
+current first place they'r road  agre lumberjack
+except they'r 2nd go place san diego los angel san
+francisco cincinnati denver atlanta miami
+philadelphia new york montreal pittsburgh chicago
+loui point   they'r home  i'm use over enthusiast
+houston fan realli shouldn't discourag hang
+lumberjack get ahold shift key  obbas appar new
+owner drayton mclain doesn't particular like excus
+item paper austin american statesman read somewher
+els first said wouldn't take injuri excus lose
+possibl account don't want owner that'll keep
+everybodi edg i'd never gotten feel know anybodi
+houston area feel meddl owner mclain go  marc
+stephenson ibm aw advanc workstat system austin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+owner, 6359, 0.300247219345
+mclain, 5582, 0.285321382573
+lumberjack, 5388, 0.285321382573
+austin, 791, 0.239481989724
+excus, 3268, 0.201994725955
+houston, 4399, 0.192178776268
+place, 6657, 0.18798734939
+astro, 724, 0.185032304949
+san, 7603, 0.16540857495
+feel, 3429, 0.143862752608
+miami, 5677, 0.138578209138
+ahold, 347, 0.138578209138
+discourag, 2696, 0.132422342695
+marc, 5503, 0.129979343453
+stephenson, 8381, 0.122561230512
+enthusiast, 3128, 0.121096823752
+shift, 7883, 0.107059647029
+new, 6023, 0.106587323469
+denver, 2533, 0.106417640187
+hang, 4152, 0.105797400531
+cincinnati, 1760, 0.105197500307
+francisco, 3652, 0.103507501075
+pittsburgh, 6648, 0.102977164881
+montreal, 5848, 0.102461769738
+los, 5349, 0.102461769738
+2nd, 81, 0.09837928759
+item, 4798, 0.0979771765104
+injuri, 4650, 0.0975837136549
+workstat, 9840, 0.0964516834903
+loui, 5363, 0.0964516834903
+aw, 829, 0.0964516834903
+shouldn, 7912, 0.0950436567976
+philadelphia, 6589, 0.0947079534774
+everybodi, 3239, 0.094054479811
+diego, 2629, 0.0922234211472
+gotten, 3962, 0.0919352999543
+chicago, 1701, 0.0919352999543
+angel, 509, 0.0913723226849
+ibm, 4472, 0.0885520870346
+atlanta, 749, 0.0883160151446
+account, 221, 0.0878528178058
+edg, 2993, 0.0871792944743
+york, 9960, 0.0865296883309
+somewher, 8130, 0.0854957794942
+road, 7431, 0.0852958286774
+appar, 577, 0.0849023658218
+key, 4994, 0.083954209744
+paper, 6409, 0.0815343252466
+american, 469, 0.081373131978
+lose, 5350, 0.0804347048649
+particular, 6442, 0.0765978011369
+wouldn, 9854, 0.0764745998792
+area, 622, 0.0743880645234
+anybodi, 552, 0.0743880645234
+fan, 3381, 0.0728144316612
+agre, 337, 0.0708165959296
+home, 4354, 0.0705482001485
+advanc, 285, 0.069179688196
+current, 2299, 0.066288950271
+els, 3053, 0.0632488883889
+real, 7144, 0.0627202549556
+said, 7583, 0.0609029863864
+possibl, 6765, 0.0599829162193
+doesn, 2793, 0.0593460671044
+ll, 5314, 0.0579558808008
+read, 7135, 0.0556922488549
+realli, 7150, 0.0542886037494
+point, 6710, 0.0516413375816
+want, 9634, 0.049837383097
+think, 8871, 0.0419017543095
+don, 2811, 0.0414980298151
+use, 9363, 0.0404059735455
+know, 5052, 0.039407799599
+like, 5272, 0.0385228794573

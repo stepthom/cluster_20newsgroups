@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61466
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: U of Toronto Zoology
+Lines: 13
+
+In article <1993Apr30.101054.1@stsci.edu> hathaway@stsci.edu writes:
+>... Also, as implied by other posters, why 
+>do you need to boost the orbit on this mission anyway? ...
+
+You don't *need* to, but it's desirable.  HST, like all satellites in
+low Earth orbit, is gradually losing altitude due to air drag.  It was
+deployed in the highest orbit the shuttle could reach, for that reason.
+It needs occasional reboosting or it will eventually reenter.  (It has
+no propulsion system of its own.)  This is an excellent opportunity,
+given that there may not be another visit for several years.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day     also impli
+poster need boost orbit mission anyway  don't need
+it desir hst like satellit low earth orbit gradual
+lose altitud due air drag deploy highest orbit
+shuttl could reach reason need occasion reboost
+eventu reenter propuls system excel opportun given
+anoth visit sever year  svr4 resembl high speed
+collis henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+orbit, 6280, 0.299178005193
+hst, 4416, 0.28329383018
+need, 5993, 0.222243772901
+mission, 5772, 0.217824938435
+reenter, 7210, 0.195750091464
+reboost, 7160, 0.184578344876
+gradual, 3980, 0.176651864529
+occasion, 6187, 0.163274707837
+deploy, 2540, 0.155883252402
+svr4, 8616, 0.153553449684
+drag, 2854, 0.152818661678
+collis, 1903, 0.152102961249
+visit, 9544, 0.148779308279
+poster, 6769, 0.14816011554
+altitud, 452, 0.14816011554
+boost, 1224, 0.147554532541
+resembl, 7308, 0.146961973848
+highest, 4294, 0.146961973848
+opportun, 6268, 0.144176480901
+impli, 4546, 0.143651647561
+zoolog, 9993, 0.138455410657
+eventu, 3233, 0.135595506186
+desir, 2565, 0.135210144418
+propuls, 6936, 0.133720434742
+spencer, 8221, 0.133004734314
+excel, 3261, 0.131964878178
+air, 357, 0.129681081343
+schedul, 7678, 0.125344467798
+henri, 4258, 0.125344467798
+lose, 5350, 0.121135408257
+reach, 7128, 0.119791096899
+satellit, 7632, 0.117890142017
+toronto, 9003, 0.114987152444
+low, 5368, 0.113555510055
+servic, 7813, 0.113381674038
+speed, 8217, 0.112029112068
+shuttl, 7929, 0.110897748319
+sever, 7823, 0.101694904655
+given, 3887, 0.098894152369
+earth, 2956, 0.0959809219787
+high, 4292, 0.0931794845691
+reason, 7156, 0.088872789527
+anoth, 533, 0.0888016851848
+day, 2402, 0.0817041975154
+year, 9943, 0.0692456995738
+don, 2811, 0.0624964160924
+like, 5272, 0.0580158121812

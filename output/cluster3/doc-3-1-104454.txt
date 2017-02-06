@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104454
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: shapiro-david@yale.edu (David Shapiro)
+Subject: Re: And America's Team is....But Why?
+Organization: What, me organized?
+Lines: 21
+Distribution: na
+	<C5p6xq.GuI@me.utoronto.ca>
+NNTP-Posting-Host: minerva.cis.yale.edu
+In-reply-to: steinman@me.utoronto.ca's message of Sun, 18 Apr 1993 21:13:02 GMT
+
+In article <C5p6xq.GuI@me.utoronto.ca> steinman@me.utoronto.ca (David Steinman) writes:
+
+   cka52397@uxa.cso.uiuc.edu (OrioleFan@uiuc) writes:
+
+   >	The defenition of the Underdog is a team that has no talent and comes
+   >out of nowhere to contend.  The '69 Mets and '89 Orioles are prime examples,
+   >not the Cubs. 
+
+   Sorry, but it is *virtually* impossible to win a division with "no talent"
+   over 162 games.
+
+Well, with players, certainly.  However, it is quite possible to win
+it all with no managerial talent.  Cf. Blue Jays, 1992.
+
+David
+
+-------------------------------------------------------------------------------
+David Shapiro			| "People can call it a monkey, but I felt like
+shapiro-david@yale.edu		| I had a piano on my back all winter long....
+shapiro@minerva.cis.yale.edu	| The piano is off my back.  Maybe a trombone
+				| will be next."  -- Stan Belinda
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ america team            defenit underdog team
+talent come nowher contend met oriol prime exampl
+cub  sorri virtual imposs win divis talent game
+well player certain howev quit possibl win
+manageri talent blue jay  david   david shapiro
+peopl call monkey felt like   next stan belinda
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+talent, 8683, 0.486936580694
+david, 2397, 0.24663923497
+win, 9770, 0.222101459256
+defenit, 2475, 0.221132560833
+monkey, 5838, 0.210235635276
+underdog, 9237, 0.207323774065
+stan, 8309, 0.207323774065
+team, 8732, 0.202881250686
+nowher, 6131, 0.179890384469
+contend, 2083, 0.17770721174
+felt, 3439, 0.174699727857
+prime, 6865, 0.173759610028
+oriol, 6295, 0.163612450165
+imposs, 4553, 0.156530581995
+virtual, 9536, 0.15498984787
+cub, 2282, 0.151224915873
+america, 468, 0.15078531953
+divis, 2767, 0.141455476887
+blue, 1176, 0.140818965975
+jay, 4832, 0.136426041856
+met, 5655, 0.135885294665
+sorri, 8142, 0.117808700885
+quit, 7043, 0.111894412159
+exampl, 3258, 0.110813895739
+certain, 1619, 0.108106464576
+player, 6683, 0.105421166593
+howev, 4406, 0.10532245433
+possibl, 6765, 0.100165694096
+game, 3761, 0.0926081637818
+come, 1923, 0.0885936625631
+peopl, 6530, 0.0828907715183
+like, 5272, 0.0643294991744

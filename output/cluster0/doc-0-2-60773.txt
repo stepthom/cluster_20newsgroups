@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60773
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: almo@packmind.EBay.Sun.COM (Alan Monday-WWCS Business Mgt. Group)
+Subject: Re: Solar Sail Data
+Organization: Sun Microsystems, Inc.
+Lines: 14
+Distribution: world
+Reply-To: almo@packmind.EBay.Sun.COM
+NNTP-Posting-Host: packmind.ebay.sun.com
+
+Hey!? What happened to the solar sail race that was supposed to be
+for Columbus+500?
+
+In article 29848@news.duc.auburn.edu, snydefj@eng.auburn.edu (Frank J. Snyder) writes:
+>
+>I am looking for any information concerning projects involving Solar
+> Sails. I understand that the JPL did an extensive study on the subject
+> back in the late 70's but I am having trouble gathering such information.
+>
+>Are there any groups out there currently involved in such a project ?
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ solar sail data       hey happen solar sail race
+suppos columbus    look inform concern project
+involv solar sail understand jpl extens studi back
+late troubl gather inform  group current involv
+project
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sail, 7584, 0.565457512155
+solar, 8107, 0.417935437881
+involv, 4750, 0.263214329414
+project, 6909, 0.232970859906
+inform, 4637, 0.206302270871
+columbus, 1914, 0.197514289289
+gather, 3792, 0.180453768722
+jpl, 4912, 0.162460201839
+hey, 4283, 0.161339245681
+extens, 3320, 0.15921073957
+race, 7049, 0.154891707868
+troubl, 9117, 0.151900546942
+late, 5139, 0.14401343667
+concern, 2004, 0.13570647484
+studi, 8469, 0.134984984766
+suppos, 8577, 0.127603855148
+data, 2385, 0.116222805525
+current, 2299, 0.113710790333
+understand, 9246, 0.112526369166
+happen, 4159, 0.110610088507
+group, 4064, 0.109219794168
+look, 5341, 0.0783205343261

@@ -1,0 +1,181 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37944
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: egerter@gaul.csd.uwo.ca (Barry Egerter)
+Subject: Re: Graphics Library Package
+Organization: Computer Science Dept., Univ. of Western Ontario, London, Canada
+Nntp-Posting-Host: obelix.gaul.csd.uwo.ca
+Lines: 43
+
+
+	WGT is the WordUp Graphics Toolkit, designed by yours truly and my
+co-programmer (and brother) Chris Egerter. It is a Turbo/Borland C++ graphics
+library for programming in 320*200*256 VGA. We are currently producing it as
+shareware, but in a few years it may be a commercial product (excuse typos,
+there's no backspace on this terminal). Features include:
+
+- loading and saving bit-images (called blocks from herein)
+- flipping, resizing and warping blocks
+- loading and saving palette, fading, several in memory at once
+- graphics primitives such as line, circle, bar, rectangle
+- region fill (not the usually useless floodfill)
+- sprites (animated bitmaps), up to 200 onscreen at once
+- joystick/mouse support
+- SB support (VOC and CMF)
+- tile-based game creation using 16*16 pixel tiles to create
+  a 320*200 tile map (or game world) like in Duke Nuke 'Em
+- number of sprites increased to 1000
+- Professional Sprite Creator utility and Map Maker
+-  routines to simplify scrolling games using maps, etc
+- FLI playing routines, sprites can be animated over the FLI while playing
+- PCX support, soon GIF
+- EMS/XMS coming soon as well
+
+Leave E-mail to Barry Egerter at    egerter@obelix.gaul.csd.uwo.ca
+
+Files available on:      (use  mget wgt*.zip)
+
+SIMTEL20 and mirrors                pd1:<msdos.turbo-c>
+
+nic.funet.fi                        pub/msdos/games/programming
+
+Some sites may not have recent files, contact me for info regarding the up-to-
+date information.
+
+
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic librari packag      wgt wordup graphic
+toolkit design truli programm brother chris egert
+turbo borland graphic librari program vga current
+produc sharewar year commerci product excus typo
+there backspac termin featur includ  load save bit
+imag call block herein flip resiz warp block load
+save palett fade sever memori graphic primit line
+circl bar rectangl region fill usual useless
+floodfil sprite anim bitmap onscreen joystick mous
+support support voc cmf tile base game creation
+use pixel tile creat tile map game world like duke
+nuke em number sprite increas profession sprite
+creator util map maker routin simplifi scroll game
+use map etc fli play routin sprite anim fli play
+pcx support soon gif em xms come soon well    file
+avail use mget wgt zip  simtel20 mirror pd1 msdos
+turbo  nic funet pub msdos game program  site
+recent file contact info regard date inform
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sprite, 8269, 0.363394085893
+tile, 8931, 0.276085554143
+wgt, 9716, 0.219297243144
+map, 5498, 0.182406683087
+graphic, 3997, 0.178593486621
+em, 3058, 0.172249986245
+turbo, 9151, 0.165256935997
+game, 3761, 0.164430579376
+msdos, 5903, 0.152663662657
+block, 1163, 0.143537589716
+support, 8576, 0.140123066157
+routin, 7499, 0.133099489182
+soon, 8136, 0.129243317368
+load, 5317, 0.126157856601
+librari, 5250, 0.120398798628
+anim, 515, 0.117073478996
+fli, 3542, 0.115849685949
+save, 7646, 0.10916661406
+xms, 9906, 0.105747248306
+nuke, 6154, 0.102721108102
+mget, 5673, 0.102721108102
+joystick, 4904, 0.102721108102
+rectangl, 7189, 0.100248571523
+borland, 1232, 0.0981580716315
+typo, 9179, 0.0963471982571
+resiz, 7315, 0.0963471982571
+pd1, 6491, 0.0963471982571
+file, 3477, 0.0938549788145
+simtel20, 7973, 0.0920285180477
+funet, 3728, 0.0920285180477
+nic, 6046, 0.0908485214734
+fade, 3356, 0.0908485214734
+duke, 2912, 0.0908485214734
+use, 9363, 0.0898527929253
+play, 6681, 0.0894470085765
+warp, 9644, 0.0878223812692
+maker, 5460, 0.0878223812692
+scroll, 7726, 0.0853498446896
+flip, 3545, 0.0846166171729
+program, 6905, 0.0841898167697
+toolkit, 8989, 0.0839210080036
+simplifi, 7969, 0.0832593447985
+creator, 2221, 0.0826284679984
+palett, 6398, 0.0814484714241
+mous, 5889, 0.0814484714241
+region, 7228, 0.0798511679059
+brother, 1341, 0.0784223312199
+primit, 6866, 0.0779776551333
+pcx, 6490, 0.0779776551333
+useless, 9364, 0.0775470981585
+bitmap, 1126, 0.0759497946403
+termin, 8796, 0.0755782260386
+excus, 3268, 0.074864303017
+sharewar, 7856, 0.0738592947492
+zip, 9988, 0.0735401881301
+bar, 904, 0.0729236544361
+chris, 1728, 0.0720484213748
+mirror, 5755, 0.0717687948581
+profession, 6900, 0.0704511178566
+circl, 1765, 0.0704511178566
+programm, 6906, 0.0687981206027
+creation, 2218, 0.068577605084
+pixel, 6651, 0.0683606179655
+truli, 9127, 0.067324893024
+vga, 9492, 0.0667394176912
+pub, 6971, 0.0656392412742
+util, 9384, 0.063675130048
+featur, 3422, 0.0635236043868
+memori, 5628, 0.0614331044957
+contact, 2078, 0.0614331044957
+increas, 4590, 0.0611772213272
+produc, 6895, 0.0600819838137
+date, 2391, 0.0596222311213
+packag, 6375, 0.0590686274966
+commerci, 1940, 0.0573393676419
+usual, 9377, 0.0572441994928
+gif, 3869, 0.0572441994928
+product, 6896, 0.05677812594
+site, 7994, 0.0558914438231
+regard, 7224, 0.0555523910236
+recent, 7168, 0.0538993937697
+info, 4636, 0.0533903268208
+design, 2564, 0.0526947176515
+creat, 2217, 0.052426166191
+sever, 7823, 0.0500537142398
+current, 2299, 0.0491366894487
+avail, 811, 0.047105931529
+includ, 4579, 0.0466641528692
+bit, 1122, 0.0457401084573
+imag, 4512, 0.045458824776
+world, 9841, 0.0454191134575
+line, 5285, 0.0449514324366
+inform, 4637, 0.044573652978
+number, 6156, 0.0440977653574
+base, 923, 0.0424406408088
+come, 1923, 0.0393256562633
+year, 9943, 0.0340823807304
+like, 5272, 0.0285550873385

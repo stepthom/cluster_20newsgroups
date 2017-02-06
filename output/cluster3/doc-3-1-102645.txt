@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102645
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: wrl@pmafire.inel.gov (William Lechner)
+Subject: Trivia Question!!
+Distribution: usa
+Organization: WINCO
+Lines: 19
+
+Ok all you trivia buffs, I have a good one for you.
+
+1.  Prior to the foul bunt rule what is the record for the most foul balls
+by 1 batter during one at bat?
+
+2.  Total pitches?
+
+3.  Who was the batter?
+
+4.  Who was the pitcher?
+
+5.  Same as 1-4 except after the foul bunt rule.
+
+Associated data would be nice too (such as date, location, teams, etc.)
+
+Bill
+wrl@pmafire.inel.gov
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ trivia question     trivia buff good one  prior
+foul bunt rule record foul ball batter one bat
+total pitch  batter  pitcher  except foul bunt
+rule  associ data nice date locat team etc  bill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+foul, 3626, 0.560388470116
+bunt, 1403, 0.409684628141
+trivia, 9109, 0.387063823661
+batter, 949, 0.286954112218
+rule, 7537, 0.251949601639
+prior, 6874, 0.168226317706
+associ, 706, 0.142072814616
+locat, 5323, 0.133733899659
+date, 2391, 0.132710555945
+record, 7184, 0.127629228464
+bat, 942, 0.12402665725
+nice, 6047, 0.122196657662
+total, 9013, 0.120471288155
+pitcher, 6644, 0.119972338803
+ball, 877, 0.11805513911
+data, 2385, 0.11178738946
+pitch, 6643, 0.110195074159
+team, 8732, 0.100226481646
+question, 7032, 0.0913715584223
+good, 3948, 0.0775946248386

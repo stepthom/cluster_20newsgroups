@@ -1,0 +1,147 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60957
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Re: Conference on Manned Lunar Exploration. May 7 Crystal City
+Distribution: na
+Organization: University of Illinois at Urbana
+Lines: 33
+
+higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey) writes:
+
+>(Josh Hopkins) writes:
+>> I remeber reading the comment that General Dynamics was tied into this, in 
+>> connection with their proposal for an early manned landing. 
+
+>The General Chairman is Paul Bialla, who is some official of General
+>Dynamics.
+
+>The emphasis seems to be on a scaled-down, fast plan to put *people*
+>on the Moon in an impoverished spaceflight-funding climate. You'd
+>think it would be a golden opportunity to do lots of precusor work for
+>modest money using an agressive series of robot spacecraft, but
+>there's not a hint of this in the brochure.
+
+It may be that they just didn't mention it, or that they actually haven't 
+thought about it.  I got the vague impression from their mission proposal
+that they weren't taking a very holistic aproach to the whole thing.  They
+seemed to want to land people on the Moon by the end of the decade without 
+explaining why, or what they would do once they got there.  The only application
+I remember from the Av Week article was placing a telescope on the Moon.  That's
+great, but they don't explain why it can't be done robotically. 
+
+>> Hrumph.  They didn't send _me_ anything :(
+
+>You're not hanging out with the Right People, apparently.
+
+But I'm a _member_.  Besides Bill, I hang out with you :) 
+
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ confer man lunar explor crystal citi        remeb
+read comment general dynam tie connect propos
+earli man land  general chairman paul bialla
+offici general dynam  emphasi seem scale fast plan
+put peopl moon impoverish spaceflight fund climat
+you'd think golden opportun lot precusor work
+modest money use agress seri robot spacecraft
+there hint brochur  didn't mention actual haven't
+thought got vagu impress mission propos weren't
+take holist aproach whole thing seem want land
+peopl moon end decad without explain got applic
+rememb week articl place telescop moon that great
+don't explain can't done robot  hrumph didn't send
+anyth  you'r hang right peopl appar  i'm member
+besid bill hang    find way make one attribut
+hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+robot, 7442, 0.246617319538
+moon, 5851, 0.244631116787
+general, 3818, 0.232637780753
+hang, 4152, 0.232289902883
+dynam, 2942, 0.209429719927
+land, 5104, 0.170989144671
+propos, 6933, 0.168725481312
+peopl, 6530, 0.16347876483
+explain, 3301, 0.16237642989
+agress, 339, 0.156613668946
+man, 5471, 0.138739302767
+remeb, 7268, 0.138210246845
+modest, 5812, 0.136295970722
+climat, 1818, 0.136295970722
+chairman, 1639, 0.136295970722
+brochur, 1327, 0.134548373543
+didn, 2625, 0.134182300469
+got, 3960, 0.131808734456
+vagu, 9406, 0.126404729531
+emphasi, 3075, 0.123308659769
+spaceflight, 8168, 0.12148151913
+hannib, 4155, 0.12148151913
+crystal, 2267, 0.12148151913
+hint, 4306, 0.11753065239
+decad, 2432, 0.114848714772
+weren, 9705, 0.110875444575
+golden, 3934, 0.10987100041
+opportun, 6268, 0.105097437196
+attribut, 773, 0.104714859964
+tie, 8923, 0.10397089723
+confer, 2025, 0.103253510348
+telescop, 8764, 0.10222330005
+impress, 4554, 0.0966979337058
+lunar, 5392, 0.0964452926713
+connect, 2046, 0.0959493490188
+besid, 1051, 0.0954653569867
+explor, 3307, 0.094992754066
+paul, 6469, 0.0947605584461
+scale, 7659, 0.0936382163474
+offici, 6207, 0.0934210823686
+appar, 577, 0.0932062707228
+fund, 3723, 0.0911757858048
+citi, 1775, 0.0906046184786
+spacecraft, 8166, 0.0895088177882
+member, 5625, 0.0889825510669
+fast, 3397, 0.0886392145453
+applic, 585, 0.087969662631
+haven, 4207, 0.0857877848046
+earli, 2951, 0.0832913027748
+plan, 6660, 0.0820276976277
+seri, 7805, 0.0819056018266
+money, 5835, 0.0809546693203
+comment, 1936, 0.0806093651574
+mention, 5632, 0.0803824170091
+mission, 5772, 0.0793917379719
+send, 7785, 0.077157804745
+week, 9691, 0.0739658651237
+rememb, 7269, 0.0739658651237
+thought, 8887, 0.0701000845128
+end, 3091, 0.0692396528882
+anyth, 555, 0.0688546309236
+place, 6657, 0.0687911721111
+great, 4016, 0.0668021567963
+articl, 665, 0.064731983145
+actual, 254, 0.0645772863796
+lot, 5356, 0.0626676805737
+read, 7135, 0.0611392482846
+right, 7399, 0.0610960088763
+work, 9833, 0.05690135374
+thing, 8869, 0.05486952072
+want, 9634, 0.0547117453806
+way, 9666, 0.0525391142269
+make, 5459, 0.0503750822723
+think, 8871, 0.0459999697079
+don, 2811, 0.0455567588014
+use, 9363, 0.0443578935951

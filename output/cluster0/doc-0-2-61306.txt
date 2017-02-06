@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61306
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: flb@flb.optiplan.fi ("F.Baube[tm]")
+Subject: Tsniimach Enterprise
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 26
+
+From: Wales.Larrison@ofa123.fidonet.org
+> 
+> COMMERCIAL SPACE NEWS/SPACE TECHNOLOGY INVESTOR NUMBER 22
+> 
+> 7- ANOTHER PEGASUS COMPETITOR IS ANNOUNCED
+> [..]
+> Tsniimach Enterprise is described as a ex-military 
+> establishment, focusing on aerodynamics and thermal protection 
+> of spacecraft and which has participated in the development of 
+> the Buran shuttle system,  They are located near the NPO Energia 
+> facility in Kaliningrad, outside of Moscow. 
+
+If this facility is in Kaliningrad, this is not near Moscow,
+it is in fact the ex-East Prussian Konigsberg, now a Russian
+enclave on the Baltic coast.  It is served by ships and rail, 
+and the intrepid traveller in Europe would find it accessible 
+and might even want to try to arrange a tour (??).
+
+* Fred Baube (tm)         *  In times of intellectual ferment,
+* baube@optiplan.fi       * advantage to him with the intellect
+* #include <disclaimer.h> * most fermented
+* May '68, Paris: It's Retrospective Time !!  
+
+P.S. I'm quite glad that a couple of people stated quite eloquently 
+     the aesthetic/natural objections to the space billboard.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tsniimach enterpris ad forward space digest
+commerci space news space technolog investor
+number  anoth pegasus competitor announc
+tsniimach enterpris describ militari establish
+focus aerodynam thermal protect spacecraft
+particip develop buran shuttl system locat near
+npo energia facil kaliningrad outsid moscow  facil
+kaliningrad near moscow fact east prussian
+konigsberg russian enclav baltic coast serv ship
+rail intrepid travel europ find access might even
+want tri arrang tour  fred baub time intellectu
+ferment  includ disclaim ferment pari it
+retrospect time  i'm quit glad coupl peopl state
+quit eloqu aesthet natur object space billboard
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tsniimach, 9134, 0.275402671599
+kaliningrad, 4948, 0.275402671599
+ferment, 3446, 0.268773623372
+moscow, 5872, 0.233111551723
+enterpris, 3126, 0.230907294865
+space, 8164, 0.206270026555
+facil, 3348, 0.175514365983
+near, 5982, 0.147187366742
+eloqu, 3052, 0.141757985461
+retrospect, 7344, 0.1377013358
+buran, 1404, 0.1377013358
+prussian, 6956, 0.134386811686
+baub, 952, 0.134386811686
+quit, 7043, 0.133165024952
+rail, 7072, 0.131584421478
+competitor, 1971, 0.131584421478
+aerodynam, 300, 0.12701563791
+npo, 6134, 0.125100231
+energia, 3103, 0.120330566367
+aesthet, 306, 0.118983316678
+pegasus, 6507, 0.115453647433
+pari, 6427, 0.11441453311
+intellectu, 4697, 0.111612142902
+tour, 9019, 0.109958316784
+investor, 4746, 0.109958316784
+europ, 3220, 0.107043359334
+coast, 1859, 0.105744267425
+arrang, 652, 0.103954671061
+focus, 3569, 0.102325562216
+fred, 3666, 0.10181342831
+glad, 3889, 0.0998980213996
+thermal, 8857, 0.0994491207797
+ship, 7888, 0.0977567786483
+travel, 9069, 0.0965834972857
+establish, 3198, 0.0958413717378
+particip, 6440, 0.0951283567669
+billboard, 1090, 0.0937811070777
+russian, 7551, 0.0928323934953
+digest, 2640, 0.0916398643263
+militari, 5715, 0.0899860382081
+disclaim, 2691, 0.08921232351
+serv, 7810, 0.0887142224503
+protect, 6940, 0.0887142224503
+outsid, 6332, 0.086409933302
+time, 8936, 0.0863899835849
+announc, 524, 0.0834229775351
+east, 2965, 0.082702901173
+forward, 3621, 0.0825272519669
+spacecraft, 8166, 0.0810184052011
+locat, 5323, 0.0805420578253
+describ, 2556, 0.0783312947162
+ad, 257, 0.0780558416979
+access, 209, 0.0776503330326
+natur, 5966, 0.0769939602447
+commerci, 1940, 0.0768654823149
+coupl, 2187, 0.0756283008816
+shuttl, 7929, 0.0731708840496
+technolog, 8743, 0.0722540737537
+develop, 2588, 0.0677073795586
+object, 6173, 0.0669497886322
+state, 8342, 0.0644574365123
+news, 6031, 0.0627895515027
+includ, 4579, 0.0625549733912
+fact, 3350, 0.0623810050645
+number, 6156, 0.0591146387308
+anoth, 533, 0.058591792066
+tri, 9087, 0.0526497471414
+want, 9634, 0.0495220299635
+peopl, 6530, 0.0493239628528

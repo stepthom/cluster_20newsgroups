@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102654
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: aardvark@spica.la.locus.com (Warren Usui)
+Subject: Re: quick way to tell if your local beat writer is dumb.
+Organization: Locus Computing Corporation, Los Angeles, California
+Lines: 14
+
+In article <Apr.5.16.22.48.1993.11331@pilot.njin.net> gajarsky@pilot.njin.net (Bob Gajarsky - Hobokenite) writes:
+>anyone who writes "dean palmer has 2 homers  - at this pace, he'll
+> have 324 home runs!" should be shot.
+
+The Dodgers after one inning of play have committed one error.  At this rate
+they'll have 1,455 errors this season!
+
+Well maybe I'm right this time...
+
+-- 
+Warren Usui
+
+I'm one with the Universe -- on a scale from 1 to 10.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quick way tell local beat writer dumb     anyon
+write dean palmer homer pace he'll home run shot
+dodger one inning play commit one error rate
+they'll error season  well mayb i'm right time
+warren usui  i'm one univers scale
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+error, 3180, 0.329151404354
+usui, 9378, 0.28447561471
+warren, 9647, 0.247570217303
+pace, 6370, 0.236255092184
+ll, 5314, 0.231136337111
+dean, 2421, 0.216188207683
+palmer, 6401, 0.21096757824
+dumb, 2914, 0.208613072878
+commit, 1945, 0.193820825485
+writer, 9866, 0.190205774233
+homer, 4355, 0.189523844641
+dodger, 2791, 0.188197074029
+shot, 7910, 0.179028578091
+beat, 974, 0.179028578091
+scale, 7659, 0.17008597867
+inning, 4657, 0.168155254572
+rate, 7108, 0.158324181131
+quick, 7036, 0.155559057326
+local, 5322, 0.155293731276
+home, 4354, 0.140678153337
+season, 7747, 0.140501483883
+mayb, 5564, 0.127701313842
+write, 9865, 0.125768031298
+univers, 9282, 0.121236437614
+play, 6681, 0.120312789015
+tell, 8767, 0.119214747496
+right, 7399, 0.110975783904
+run, 7543, 0.109893606269
+anyon, 554, 0.0980341866959
+way, 9666, 0.0954329013335
+time, 8936, 0.0866823960749

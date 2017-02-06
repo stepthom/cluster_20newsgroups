@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38435
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: bryanw@rahul.net (Bryan Woodworth)
+Subject: Re: CView answers
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Lines: 14
+
+In <1993Apr16.114158.2246@whiting.mcs.com> sean@whiting.mcs.com (Sean Gum) writes:
+
+>A stupid question, but what will CView run on and where can I get it? I
+>am still in need of a GIF viewer for Linux. (Without X-Windows.)
+>Thanks!
+> 
+
+Ho boy. There is no way in HELL you are going to be able to view GIFs or do
+any other graphics in Linux without X windows!  I love Linux because it is
+so easy to learn..  You want text?  Okay.   Use Linux. You want text AND
+graphics?  Use Linux with X windows.  Simple.  Painless.  REQUIRED to have
+X Windows if you want graphics!  This includes fancy word processors like
+doc, image viewers like xv, etc.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cview answer       stupid question cview run get
+still need gif viewer linux without window thank
+boy way hell go abl view gif graphic linux without
+window love linux easi learn want text okay use
+linux want text graphic use linux window simpl
+painless requir window want graphic includ fanci
+word processor like doc imag viewer like etc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+linux, 5290, 0.667766178628
+window, 9774, 0.3395569926
+cview, 2320, 0.2468461867
+viewer, 9512, 0.202010280237
+graphic, 3997, 0.201545766731
+text, 8822, 0.18260757319
+gif, 3869, 0.172269456495
+want, 9634, 0.166758521934
+painless, 6390, 0.142569142501
+fanci, 3383, 0.127321709274
+doc, 2783, 0.120151189269
+processor, 6891, 0.112647507572
+boy, 1256, 0.112130879967
+okay, 6215, 0.101605351048
+stupid, 8476, 0.0998552189781
+hell, 4245, 0.093638409945
+use, 9363, 0.0901336842217
+easi, 2959, 0.0900558877571
+simpl, 7965, 0.0870093921589
+learn, 5182, 0.0867136521938
+like, 5272, 0.085933062556
+love, 5366, 0.0809906322265
+view, 9510, 0.0797014224877
+requir, 7302, 0.0759117340492
+answer, 535, 0.0753152828066
+abl, 180, 0.0746543116476
+word, 9829, 0.0730898906328
+includ, 4579, 0.0702150464485
+imag, 4512, 0.0684014022947
+question, 7032, 0.0617675803413
+run, 7543, 0.0614671755408
+thank, 8832, 0.0571451249947
+need, 5993, 0.0548646059334
+way, 9666, 0.0533788188213

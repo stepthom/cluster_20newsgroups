@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105115
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hamkins@geisel.csl.uiuc.edu (Jon Hamkins)
+Subject: Re: Triva question on Bosio's No-hitter
+Organization: Center for Reliable and High-Performance Computing, University of Illinois at Urbana-Champaign
+Lines: 16
+NNTP-Posting-Host: grinch.csl.uiuc.edu
+
+wall@cc.swarthmore.edu (Matthew Wall) writes:
+
+>I don't actually have the answer to this one.
+
+>Bosio, after walking the first two batters, retired 27-straight for a
+>"back-end" perfect game.
+
+Well, there were 27 outs in a row with no hits or walks in between, but
+really, he only retired 26 batters in a row.  The first out of the game
+was the front end of a double play.  Still counts as a back-end perfect
+game in my book, though. 
+
+Congrats to Chris Bosio.  Too bad the Brewers couldn't hold on to him.
+
+     ----Jon Hamkins  (hamkins@uiuc.edu)
+         University of Illionois
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ triva question bosio hitter       don't actual
+answer one  bosio walk first two batter retir
+straight back end perfect game  well out row hit
+walk realli retir batter row first game front end
+doubl play still count back end perfect game book
+though  congrat chris bosio bad brewer couldn't
+hold   univers illionoi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bosio, 1237, 0.522498461809
+row, 7501, 0.326752660871
+retir, 7339, 0.324276774547
+end, 3091, 0.275214743977
+batter, 949, 0.252971360445
+game, 3761, 0.241991437131
+perfect, 6538, 0.232674232324
+walk, 9617, 0.226165741538
+brewer, 1302, 0.159822929343
+chris, 1728, 0.141377604236
+straight, 8422, 0.134999674957
+doubl, 2828, 0.124064832138
+count, 2180, 0.12293227913
+couldn, 2176, 0.121059377221
+hold, 4341, 0.116337116162
+hitter, 4322, 0.113275008637
+answer, 535, 0.0982183102325
+bad, 861, 0.0980001862321
+book, 1218, 0.0953161866426
+hit, 4316, 0.0930580711545
+univers, 9282, 0.0884327938092
+play, 6681, 0.0877590621512
+actual, 254, 0.0855609013831
+question, 7032, 0.0805508144191
+realli, 7150, 0.0789640784972
+don, 2811, 0.0603598814021

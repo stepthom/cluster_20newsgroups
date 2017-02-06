@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38515
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sigma@rahul.net (Kevin Martin)
+Subject: Re: Stay Away from MAG Innovision!!!
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Lines: 10
+
+In <16BB58B33.D1SAR@VM1.CC.UAKRON.EDU> D1SAR@VM1.CC.UAKRON.EDU (Steve Rimar) writes:
+>My Mag MX15F works fine....................
+
+Mine was beautiful for a year and a half.  Then it went <foomp>.  I bought
+a ViewSonic 6FS instead.  Another great monitor, IMHO.
+
+-- 
+Kevin Martin
+sigma@rahul.net
+"I gotta get me another hat."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ stay away mag innovis      mag mx15f work fine
+mine beauti year half went foomp bought viewson
+6fs instead anoth great monitor imho   kevin
+martin  gotta get anoth hat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mag, 5430, 0.523262138348
+anoth, 533, 0.263040301345
+hat, 4199, 0.248635807755
+gotta, 3961, 0.243419263188
+bought, 1247, 0.241818768766
+martin, 5523, 0.224239647963
+beauti, 978, 0.223232007215
+kevin, 4993, 0.221288431471
+imho, 4524, 0.216799583484
+monitor, 5837, 0.209786825286
+stay, 8355, 0.194946488996
+half, 4124, 0.184857228135
+went, 9704, 0.18222358038
+fine, 3485, 0.181144908497
+instead, 4682, 0.175210822182
+away, 833, 0.161744114536
+great, 4016, 0.135726256176
+work, 9833, 0.115610155193
+year, 9943, 0.102556666829

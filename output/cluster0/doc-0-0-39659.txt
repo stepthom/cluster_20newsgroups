@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39659
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: vicente@cenaath.cena.dgac.fr (Martin VICENTE (CENA/SID))
+Subject: Re: 3D input devices
+Originator: vicente@milou
+Keywords: 3d,input,device
+Organization: C.E.N.A. (Centre d'Etudes de la Navigation Aerienne)
+Lines: 11
+
+
+Hello,
+i'm interested in those devices too.
+Could also send me your suggestions.
+Thank in advance.
+Regards.
+-- 
+
+ Martin VICENTE  (E-mail: vicente@cenaath.cena.dgac.fr - Tph: 69 84 56 88)
+  Centre d'Etudes de la Navigation Aerienne   _/_/_/ _/_/       / o \ / o \
+  Div. Support Informatique & Developpement      _/ _/  _/      \___/ \___/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ input devic origin vicent milou      hello i'm
+interest devic could also send suggest thank
+advanc regard    centr d'etud navig aerienn div
+support informatiqu developp
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+devic, 2591, 0.547317038643
+etud, 3214, 0.379267014475
+navig, 5969, 0.31032481536
+centr, 1610, 0.278222095062
+input, 4662, 0.272578344583
+hello, 4247, 0.25395896835
+regard, 7224, 0.210169473444
+send, 7785, 0.197099786722
+suggest, 8525, 0.195647621719
+advanc, 285, 0.19400379766
+origin, 6293, 0.182462743456
+support, 8576, 0.176707611734
+thank, 8832, 0.143680974779

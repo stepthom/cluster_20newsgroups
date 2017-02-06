@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38414
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dgf1@quads.uchicago.edu (Dr. Eldon Tyrell)
+Subject: Re: So what is the fastest Windows video c
+Reply-To: dgf1@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 21
+
+In article <1993Apr17.054600.24917@exu.ericsson.se> ebuhcb@ebu.ericsson.se writes:
+>In article 16APR199309101156@trentu.ca, ayounes@trentu.ca (Amro Younes, Trent University, C.C. #314, Peterborough, ON, Canada K9J 7B8. (705) 749-0391) writes:
+>>I have the ATI GRAPHICS ULTRA PRO EISA version.  I must admit it has 
+>>received bad press but that was due to the faulty drivers it had.  
+>
+>PC Magazine seems to be impressed with the ATI card in their most recent
+>reviews.  In the April 13th issue they rate the ATI Graphics Ultra Pro
+>(EISA version) as their "Editor's Choice".  They noted that the drivers
+>had improved since they tested the ISA version in January...
+>                                                            ...Cuyler
+Yeah - they also gave it their "Editor's Choice" in the run-down of
+graphics accelerators they tested in the previous issue, which is why
+I bought (and then returned) mine.  The only conclusion I can come up with
+is that PC Magazine has wildly different ways on determining the worthiness
+of a video card than I do.
+
+-- 
+David Farley                           The University of Chicago Library
+312 702-3426                              1100 East 57th Street, JRL-210
+dgf1@midway.uchicago.edu                         Chicago, Illinois 60637
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fastest window video       ati graphic ultra pro
+eisa version must admit receiv bad press due
+faulti driver  magazin seem impress ati card
+recent review april 13th issu rate ati graphic
+ultra pro eisa version editor choic note driver
+improv sinc test isa version januari cuyler yeah
+also gave editor choic run graphic acceler test
+previous issu bought return mine conclus come
+magazin wild differ way determin worthi video card
+david farley univers chicago librari east 57th
+street jrl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ati, 746, 0.380847962053
+eisa, 3020, 0.262131862278
+ultra, 9200, 0.236557142208
+version, 9479, 0.215327228309
+pro, 6883, 0.196022169932
+editor, 2997, 0.193068872422
+magazin, 5432, 0.19033454601
+driver, 2876, 0.185407702069
+graphic, 3997, 0.182212264934
+choic, 1717, 0.170447449862
+video, 9506, 0.167141072894
+card, 1513, 0.158419149187
+test, 8812, 0.15159976109
+issu, 4793, 0.150464393915
+13th, 21, 0.143853291174
+jrl, 4913, 0.13637316507
+farley, 3389, 0.13637316507
+faulti, 3408, 0.13352935311
+57th, 119, 0.131065931139
+cuyler, 2317, 0.126949320684
+januari, 4824, 0.122109156281
+fastest, 3400, 0.122109156281
+isa, 4774, 0.117160152264
+worthi, 9851, 0.11416196065
+bought, 1247, 0.109321796246
+wild, 9758, 0.100474506936
+acceler, 207, 0.0992017084423
+review, 7358, 0.0965344362108
+street, 8440, 0.0942045366149
+chicago, 1701, 0.0927038510345
+yeah, 9942, 0.0921361674468
+conclus, 2009, 0.0918587447617
+admit, 276, 0.0895335126576
+impress, 4554, 0.0888192972359
+press, 6841, 0.0885872405798
+gave, 3798, 0.0868289335156
+previous, 6855, 0.0864143484075
+improv, 4557, 0.0852237249309
+east, 2965, 0.0839253216293
+librari, 5250, 0.0818922653472
+receiv, 7167, 0.0806515787167
+determin, 2582, 0.0803540196705
+rate, 7108, 0.0800611839838
+return, 7346, 0.0787980721589
+window, 9774, 0.0767461526227
+april, 595, 0.0766251799865
+david, 2397, 0.0744656901111
+recent, 7168, 0.0733220514976
+bad, 861, 0.0679393644513
+note, 6118, 0.0665614473771
+univers, 9282, 0.0613066978651
+differ, 2633, 0.0568051929005
+sinc, 7977, 0.0562375093128
+run, 7543, 0.0555708683744
+come, 1923, 0.0534966646571
+way, 9666, 0.0482583962675

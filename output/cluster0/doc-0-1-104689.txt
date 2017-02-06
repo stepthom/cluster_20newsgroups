@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104689
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lynch@hpcc01.corp.hp.com (Howard Lynch)
+Subject: Re: PHILLIES SIGN MARK DAVIS
+Organization: the HP Corporate notes server
+Lines: 8
+
+I had heard the rumors about LA, Cin, Hou, and SD all being
+interested in Mark Davis, so it doesn't surprise me that a
+team had to give up something and cash to actually get him.
+
+Lynch "MOB"
+
+ps.  anyone else draft this guy?  i really did and got a 
+     loud cry of "when will you ever give up on this guy" :-)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli sign mark davi    heard rumor cin hou
+interest mark davi doesn't surpris team give
+someth cash actual get  lynch mob  anyon els draft
+guy realli got loud cri ever give guy
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+davi, 2396, 0.395107341079
+mark, 5512, 0.282879839478
+cin, 1756, 0.280844629812
+lynch, 5405, 0.263101087503
+hou, 4393, 0.263101087503
+guy, 4100, 0.260832972565
+mob, 5801, 0.251413714967
+cash, 1542, 0.224940758973
+loud, 5361, 0.218607814605
+draft, 2853, 0.207197216664
+rumor, 7541, 0.204523972751
+cri, 2228, 0.204523972751
+philli, 6593, 0.1667951408
+sign, 7946, 0.158017517491
+surpris, 8593, 0.156370999399
+heard, 4224, 0.131974371951
+els, 3053, 0.120082741883
+team, 8732, 0.115331565691
+got, 3960, 0.11397682465
+doesn, 2793, 0.112672943974
+actual, 254, 0.111681734544
+realli, 7150, 0.103070971795
+someth, 8126, 0.102248802573
+anyon, 554, 0.0933392976075

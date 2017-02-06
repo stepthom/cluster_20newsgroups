@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61130
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nanderso@Endor.sim.es.com (Norman Anderson)
+Subject: COMET...when did/will she launch?
+Organization: Evans & Sutherland Computer Corp.
+Lines: 12
+
+COMET (Commercial Experiment Transport) is to launch from Wallops Island
+Virginia and orbit Earth for about 30 days. It is scheduled to come down
+in the Utah Test & Training Range, west of Salt Lake City, Utah. I saw
+a message in this group toward the end of March that it was to launch 
+on March 27. Does anyone know if it launched on that day, or if not, 
+when it is scheduled to launch and/or when it will come down.
+
+I would also be interested in what kind(s) of payload(s) are onboard.
+
+Thanks for your help.
+
+Norman Anderson          nanderso@endor.sim.es.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet launch    comet commerci experi transport
+launch wallop island virginia orbit earth day
+schedul come utah test train rang west salt lake
+citi utah saw messag group toward end march launch
+march anyon know launch day schedul launch come
+also interest kind payload onboard  thank help
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+launch, 5147, 0.51236407173
+utah, 9380, 0.303203293092
+march, 5504, 0.279154870504
+comet, 1926, 0.271771096298
+schedul, 7678, 0.237136183307
+wallop, 9624, 0.188647720028
+salt, 7594, 0.176867473237
+onboard, 6239, 0.170581981974
+lake, 5097, 0.168783796569
+island, 4781, 0.165521625679
+day, 2402, 0.154574205782
+come, 1923, 0.151158132375
+virginia, 9533, 0.145252038767
+transport, 9065, 0.140150279206
+payload, 6477, 0.129390149572
+train, 9042, 0.127900409787
+west, 9708, 0.125482206929
+rang, 7094, 0.117819810095
+citi, 1775, 0.117575082
+saw, 7650, 0.114804687034
+commerci, 1940, 0.110199200063
+experi, 3295, 0.10912056266
+messag, 5650, 0.107748490572
+test, 8812, 0.107088623663
+orbit, 6280, 0.09433461182
+kind, 5021, 0.0929727837533
+earth, 2956, 0.0907919986746
+group, 4064, 0.0907049757199
+end, 3091, 0.0898503630683
+help, 4249, 0.076570187535
+thank, 8832, 0.0729890865526
+anyon, 554, 0.0700369336852
+know, 5052, 0.0561400092641

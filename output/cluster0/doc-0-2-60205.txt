@@ -1,0 +1,30 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60205
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: will@rins.ryukoku.ac.jp (William Reiken)
+Subject: Re: nuclear waste
+Organization: Ryukoku Univ., Seta, Japan
+Lines: 4
+
+
+	Thanks for the Update.
+
+							Will...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nuclear wast     thank updat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+nuclear, 6150, 0.617111933253
+wast, 9654, 0.529677219166
+updat, 9333, 0.488682889902
+thank, 8832, 0.315917613391

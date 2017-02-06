@@ -1,0 +1,196 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61556
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Report on redesign team
+Organization: Express Access Online Communications USA
+Lines: 52
+Distribution: world
+NNTP-Posting-Host: access.digex.net
+
+In article <Cohen-270493073219@q5022531.mdc.com> Cohen@ssdgwy.mdc.com (Andy Cohen) writes:
+>The following is what they feed to us..... most has been posted already,
+>but there are a number of items not seen here yet.....
+>
+>
+>The Design Teams then presented the three options under study:
+>
+>¥ Option A - Modular Buildup -- Pete Priest presented the A option. Priest
+>
+
+I don't think this will work.  Still the same in space
+integration problems,  small modules, especially the Bus-1 modules.
+the MOL would be bigger.   
+
+Also,  budget problems  may end up stalling developemnt.  
+A small undersized station wont have the science community support.
+
+>¥ Option B - Freedom Derived -- Mike Griffin presented the status of Option
+>
+
+Program effeciencies may cut costs,  but the basic problems
+with freedom remain.  in space integration,  too many flights
+too build.  not enough science retrurn.  
+
+>¥ Option C - Singe Launch Core Station -- Chet Vaughn presented Option C,
+>the Single Launch Core Station concept.  A Shuttle external tank and solid
+>
+
+Essentialy  $5 billion to build MIR.
+
+I think had NASA  locked onto this design, back in 1984,  with
+scarring to support a TRUSS for real expandability,  we'd be looking
+at a flying space station.
+
+This looks the most realistic, to me,  IMHO,  but,  i dont know if
+there is enough will power  to toss the CDR'd  existing hardware
+and then  take a 1/3rd  power cut  and do it this way.
+
+the core  launch station has a lot of positive ideas.  You could stick
+in more hatches for  experimental  concept modules.  Like the ET
+derived workshops.  Or inflatable modules.
+
+pat
+>(Oct. 31-cancellation .....just my opinion...AC)
+
+
+Sad but true.
+
+epitaph.  Killed by mis-management.
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ report redesign team       follow feed post
+alreadi number item seen yet   design team present
+three option studi  option modular buildup pete
+priest present option priest   don't think work
+still space integr problem small modul especi bus
+modul mol bigger  also budget problem end stall
+developemnt small unders station wont scienc
+communiti support  option freedom deriv mike
+griffin present status option   program effeci cut
+cost basic problem freedom remain space integr
+mani flight build enough scienc retrurn  option
+sing launch core station chet vaughn present
+option singl launch core station concept shuttl
+extern tank solid   essentiali billion build mir
+think nasa lock onto design back scar support
+truss real expand we'd look fli space station
+look realist imho dont know enough power toss
+cdr'd exist hardwar take 3rd power cut way  core
+launch station lot posit idea could stick hatch
+experiment concept modul like deriv workshop
+inflat modul  pat cancel opinion   sad true
+epitaph kill mis manag  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+option, 6276, 0.439383256442
+modul, 5815, 0.276683967706
+station, 8346, 0.27370542265
+present, 6837, 0.20760718245
+core, 2140, 0.202838734949
+priest, 6860, 0.154715161902
+launch, 5147, 0.152962962668
+freedom, 3672, 0.137795925515
+deriv, 2550, 0.136223516033
+integr, 4694, 0.13474100894
+problem, 6887, 0.122399119768
+concept, 2002, 0.119817896688
+pat, 6458, 0.115134124879
+cut, 2313, 0.114030264117
+space, 8164, 0.110357242751
+build, 1378, 0.104692940513
+chet, 1698, 0.101123242348
+buildup, 1380, 0.101123242348
+small, 8054, 0.101041749103
+design, 2564, 0.100781075421
+mol, 5821, 0.0982294260634
+scienc, 7692, 0.0969315334976
+power, 6783, 0.0962692810174
+stall, 8307, 0.0958650059981
+cdr, 1586, 0.0958650059981
+wont, 9823, 0.0938659173172
+truss, 9129, 0.0938659173172
+support, 8576, 0.0893306067348
+mis, 5756, 0.0880043904929
+hatch, 4200, 0.0880043904929
+team, 8732, 0.0861186368501
+vaughn, 9437, 0.0858379652127
+sing, 7979, 0.0848769029037
+modular, 5816, 0.0848769029037
+mir, 5749, 0.0831452135213
+griffin, 4048, 0.0816177552341
+cancel, 1487, 0.0809165895295
+dont, 2815, 0.0802513972362
+lock, 5324, 0.0778869771709
+workshop, 9839, 0.0768489507991
+redesign, 7200, 0.0749931608859
+toss, 9010, 0.073757139729
+extern, 3322, 0.073757139729
+bigger, 1083, 0.0733699943671
+realist, 7147, 0.072994072205
+bus, 1419, 0.0719275751159
+experiment, 3297, 0.0715907144487
+pete, 6574, 0.0712623828227
+feed, 3427, 0.0709421589846
+expand, 3288, 0.0709421589846
+status, 8352, 0.0706296521397
+inflat, 4632, 0.0706296521397
+item, 4798, 0.0694498931384
+sad, 7571, 0.0691709919264
+3rd, 102, 0.0691709919264
+imho, 4524, 0.0688979627574
+tank, 8695, 0.0668988740765
+budget, 1367, 0.066443795576
+look, 5341, 0.0647279366313
+communiti, 1953, 0.0645731080086
+stick, 8393, 0.0640050577914
+solid, 8115, 0.0634608489983
+billion, 1092, 0.0617959498401
+remain, 7264, 0.0607459101219
+think, 8871, 0.059403066362
+hardwar, 4173, 0.0579098596629
+flight, 3544, 0.0563824013757
+mike, 5710, 0.0559771056869
+studi, 8469, 0.0557791109018
+kill, 5012, 0.0554876737715
+fli, 3542, 0.0553919655399
+singl, 7983, 0.0537800222209
+especi, 3190, 0.0536960840216
+basic, 937, 0.0533656608858
+shuttl, 7929, 0.052196544812
+alreadi, 443, 0.051974857251
+report, 7291, 0.0516135969407
+posit, 6761, 0.0509199339302
+manag, 5472, 0.0495131128526
+cost, 2169, 0.0492729503129
+nasa, 5956, 0.0488055697657
+opinion, 6266, 0.0485780480261
+seen, 7767, 0.0481346405087
+exist, 3283, 0.0464986593579
+true, 9121, 0.0462607002685
+end, 3091, 0.0447070696081
+real, 7144, 0.0444584663431
+idea, 4482, 0.0443359293068
+follow, 3578, 0.0426245825271
+number, 6156, 0.0421695040266
+lot, 5356, 0.0404636395579
+program, 6905, 0.0402542259058
+post, 6766, 0.0378749763288
+mani, 5479, 0.0367857475835
+work, 9833, 0.0367404034586
+way, 9666, 0.0339237667855
+don, 2811, 0.029415358135
+know, 5052, 0.0279337246535
+like, 5272, 0.0273064601061

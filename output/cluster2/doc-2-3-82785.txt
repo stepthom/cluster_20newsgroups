@@ -1,0 +1,261 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82785
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bobsarv@microsoft.com (Bob Sarver)
+Subject: Re: Question for those with popular morality 
+Organization: Microsoft Corp.
+Distribution: usa
+Lines: 103
+
+
+In article <1993Apr02.025636.23256@microsoft.com> bobsarv@microsoft.com (Bob Sarver) writes:
+>/Why would it be immoral to hurt someone else?  
+>
+/(me)
+>Because you wouldn't want it to happen to you.
+
+/(hudson)
+/Why does that make something immoral?
+
+
+
+Because you are not being consistent.  Moral systems must be consistent.
+
+A person who thinks they can inflict pain on others, but doesn't want it 
+inflicted upon themselves, has a double standard.  And double standards are
+a violation of *any* moral system.
+
+
+
+
+
+(me)
+>Morality defines how we interact with other people; the rules that we
+>use to guide our daily affairs.  Our conduct towards our fellow man.  By
+>realizing that we don't like pain, we can also realize that other people
+>don't like it, either.  
+
+/(hudson)
+/Of course we don't like pain.  I don't like brussel sprouts.  Are brussel
+/sprouts immoral?
+
+Pain isn't immoral, stupid.  Pain itself is just a physiological
+reaction.  
+
+What >>is<< immoral is subjecting unwilling individuals to pain.
+
+Or brussel sprouts, for that matter.
+
+
+
+
+
+
+(hudson)
+>/Is it immoral to produce these same chemical reactions in a test tube?
+>
+(me)
+>It isn't the chemical reaction that is wrong, bozo.  It's making the human
+>being UNDERGO THE EFFECTS of the chemical reaction.  Sorry; your cute
+>little analogy didn't survive for very long under scrutiny.
+
+/(hudson)
+/Why would it be wrong to make humans undergo the effects of the reactions
+/if humans are composed only of matter?  
+
+What humans are composed of isn't the qualifying criteria of whether or
+not something would be wrong.  
+
+
+
+
+/(hudson)
+/Is it wrong to make matter undergo chemical reactions?
+
+Yes, if it is sentient matter.
+
+
+
+/(me)
+/>Nature is not a sentient force; there is no choice involved.  Therefore,
+/>no question of morality.
+
+
+/(hudson)
+/I actually heard a geologist entertain the notion that matter had a will.
+/There is some sentient force out there.  
+
+Fine.  I have also heard that the government is encoding the DNA for 
+a new race of superhumans in ordinary drinking water.  
+
+What's your point?
+
+
+
+/(hudson)
+/If humans are made only of matter, then choices are also chemical reactions,
+/so why is choice an important issue.
+
+And if that is the case, then god is only an idea contained in the minds
+of people (formed of matter) and on printed pages (also formed of matter)
+and does not really exist.  
+
+I can do the argumentem ad absurdium just as well as you can, but it 
+won't prove any points for you or me.  Got anything relevant you want to 
+talk about, or are you just playing cute little games?
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question popular moral       immor hurt someon
+els   wouldn't want happen  hudson make someth
+immor    consist moral system must consist  person
+think inflict pain other doesn't want inflict upon
+doubl standard doubl standard violat moral system
+moral defin interact peopl rule use guid daili
+affair conduct toward fellow man realiz don't like
+pain also realiz peopl don't like either  hudson
+cours don't like pain don't like brussel sprout
+brussel sprout immor  pain isn't immor stupid pain
+physiolog reaction  immor subject unwil individu
+pain  brussel sprout matter       hudson immor
+produc chemic reaction test tube   isn't chemic
+reaction wrong bozo it make human undergo effect
+chemic reaction sorri cute littl analog didn't
+surviv long scrutini  hudson wrong make human
+undergo effect reaction human compos matter  human
+compos isn't qualifi criteria whether someth wrong
+hudson wrong make matter undergo chemic reaction
+yes sentient matter     natur sentient forc choic
+involv therefor question moral   hudson actual
+heard geologist entertain notion matter sentient
+forc  fine also heard govern encod dna new race
+superhuman ordinari drink water  what point
+hudson human made matter choic also chemic
+reaction choic import issu  case god idea contain
+mind peopl form matter print page also form matter
+realli exist  argumentem absurdium well won't
+prove point got anyth relev want talk play cute
+littl game
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hudson, 4423, 0.368705941921
+reaction, 7132, 0.347163000364
+immor, 4531, 0.321948164829
+pain, 6389, 0.277207768907
+matter, 5553, 0.259823613766
+chemic, 1690, 0.233209404369
+sprout, 8270, 0.195780616327
+sentient, 7795, 0.195780616327
+moral, 5855, 0.187615561365
+undergo, 9239, 0.18173000309
+human, 4432, 0.161565179972
+inflict, 4633, 0.130520410885
+cute, 2314, 0.126785343834
+wrong, 9869, 0.122877531237
+choic, 1717, 0.115987289943
+compos, 1981, 0.103580987892
+isn, 4783, 0.0919564798181
+make, 5459, 0.0839642731158
+doubl, 2828, 0.0780372400086
+realiz, 7149, 0.0768097914883
+consist, 2061, 0.0763101005119
+don, 2811, 0.0759331789791
+like, 5272, 0.0704892428305
+forc, 3594, 0.0693058765387
+standard, 8313, 0.0685665208139
+want, 9634, 0.0683944083746
+peopl, 6530, 0.0681208597566
+form, 3610, 0.0670842782186
+effect, 3005, 0.0670842782186
+heard, 4224, 0.0635969097804
+dna, 2781, 0.0618667859225
+bozo, 1259, 0.0594591164569
+unwil, 9329, 0.0575915829316
+physiolog, 6616, 0.0567939127545
+fellow, 3437, 0.0567939127545
+littl, 5308, 0.0562562684955
+ordinari, 6282, 0.0560656969371
+affair, 309, 0.0541981634118
+criteria, 2236, 0.0526722774173
+encod, 3086, 0.0517904939462
+question, 7032, 0.0506667613167
+tube, 9142, 0.0495947143377
+entertain, 3127, 0.0495947143377
+violat, 9526, 0.0492788578975
+someth, 8126, 0.0492725047772
+daili, 2338, 0.048680803371
+conduct, 2021, 0.0473495587611
+analog, 487, 0.0473495587611
+point, 6710, 0.047246712034
+guid, 4082, 0.0462012948179
+drink, 2872, 0.0459894049608
+notion, 6122, 0.0457827474905
+subject, 8487, 0.0451917347837
+qualifi, 7015, 0.0451917347837
+relev, 7254, 0.0450036549066
+surviv, 8599, 0.0448197089897
+water, 9657, 0.0437936253523
+interact, 4704, 0.0430252693989
+hurt, 4451, 0.0423215607801
+race, 7049, 0.0413058672152
+stupid, 8476, 0.0409546603431
+popular, 6746, 0.0402935903485
+print, 6871, 0.0400843493924
+page, 6382, 0.0398802123865
+therefor, 8855, 0.0373723117551
+prove, 6947, 0.037151086479
+fine, 3485, 0.037151086479
+produc, 6895, 0.0370786254003
+contain, 2079, 0.0367948964556
+defin, 2482, 0.0367254420959
+individu, 4604, 0.0365882389853
+won, 9820, 0.0356860676787
+natur, 5966, 0.0354452107021
+involv, 4750, 0.0350964434751
+wouldn, 9854, 0.0349833444254
+rule, 7537, 0.0349273629303
+govern, 3966, 0.0349273629303
+test, 8812, 0.0343872269901
+issu, 4793, 0.0341296927532
+mind, 5733, 0.0326038067588
+sorri, 8142, 0.0322723098687
+import, 4551, 0.0317220232876
+yes, 9951, 0.0304864277453
+exist, 3283, 0.0300080574161
+happen, 4159, 0.0294970317741
+god, 3926, 0.0294970317741
+case, 1540, 0.0290984229964
+els, 3053, 0.0289332360094
+man, 5471, 0.0289060190673
+anyth, 555, 0.0286914123778
+cours, 2190, 0.0286386096644
+idea, 4482, 0.0286123327125
+talk, 8684, 0.0283032808974
+didn, 2625, 0.0279565779738
+person, 6562, 0.0278841168951
+play, 6681, 0.0276003879505
+got, 3960, 0.0274620508784
+someon, 8124, 0.0273484914385
+doesn, 2793, 0.0271478884373
+actual, 254, 0.0269090623086
+long, 5336, 0.0263702642633
+game, 3761, 0.0253689187258
+realli, 7150, 0.0248343492655
+new, 6023, 0.0243792125371
+think, 8871, 0.0191679787191
+use, 9363, 0.0184837330515

@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104326
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gaf5@ns1.cc.lehigh.edu (Gail A. Fullman)
+Subject: Re: PHILLIES SIGN MARK DAVIS
+Organization: Lehigh University
+Lines: 19
+
+
+>> Does that mean they have to pay his salary?  Didn't they wait
+>> for him to clear waivers?  If not, why not?
+>>
+Davis will be paid by three clubs this year, I think the Phils are
+responsbible for about $600,000 or so.  They didn't wait for him to clear
+waivers as three other clubs were also very interested in him.  A gamble?
+Yes.
+
+>> Oh, it will?  As a Royals fan, I am skeptical.  They say he pitched well
+>> in winter ball.  He also pitched well at Omaha while with KC.  He just
+>> didn't pitch well (or even acceptably) when in the majors.  (I don't have
+>> his Atlanta stats, but he must not have impressed them very much either.)
+>
+>What about the year when he got 40+ saves in San Diego, did he pitch well
+>then?  Ok, I know he was awful the next year when he went to KC but still...
+>
+Won the CY Young, too, for that year.
+-- 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli sign mark davi     mean pay salari didn't
+wait clear waiver  davi paid three club year think
+phil responsb didn't wait clear waiver three club
+also interest gambl yes  royal fan skeptic say
+pitch well winter ball also pitch well omaha
+didn't pitch well even accept major don't atlanta
+stat must impress much either  year got save san
+diego pitch well know aw next year went still
+young year
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pitch, 6643, 0.356330446027
+waiver, 9612, 0.312905603946
+davi, 2396, 0.277574876229
+club, 1842, 0.258281709779
+year, 9943, 0.24531150581
+didn, 2625, 0.244542251943
+wait, 9611, 0.234971183573
+gambl, 3759, 0.190281724467
+clear, 1803, 0.187256680205
+omaha, 6229, 0.176625750925
+skeptic, 8002, 0.156452801973
+winter, 9790, 0.152259241655
+salari, 7589, 0.147597033557
+paid, 6387, 0.134710915955
+royal, 7503, 0.130157769086
+aw, 829, 0.128647860155
+diego, 2629, 0.123008177332
+phil, 6588, 0.120090987629
+atlanta, 749, 0.117796454708
+impress, 4554, 0.117485591786
+philli, 6593, 0.117178639194
+sign, 7946, 0.111012092916
+stat, 8341, 0.110776319011
+pay, 6474, 0.11054280135
+san, 7603, 0.110311497159
+young, 9962, 0.108967905937
+went, 9704, 0.108967905937
+accept, 208, 0.100264177947
+mark, 5512, 0.0993658283043
+save, 7646, 0.0982172676368
+fan, 3381, 0.0971203454689
+ball, 877, 0.0954367531759
+major, 5458, 0.0895697017179
+yes, 9951, 0.0888904655584
+got, 3960, 0.0800721720552
+mean, 5595, 0.0754128629664
+say, 7653, 0.0619544168863
+think, 8871, 0.0558888226064
+don, 2811, 0.0553503323445
+know, 5052, 0.0525623701773

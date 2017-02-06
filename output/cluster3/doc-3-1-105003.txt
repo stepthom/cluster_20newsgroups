@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105003
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: n9143349@janice.cc.wwu.edu (Douglas T. Norris (The Mad Kobold))
+Subject: Re: Bosio No Hits Red Soxs
+Article-I.D.: janice.n9143349.735596287
+Organization: Western Washington University
+Lines: 28
+
+11swhitfield@gallua.gallaudet.edu writes:
+
+>Chris Bosio, A Seattle M's Pitcher, just no hit the Red Sox 7-0!!! This is the
+>second no hitter in Seattle History!! (Randy Johnson got the first) Also, this
+>was Bosio's first career no hitter!
+
+>This is MLB first No Hitter this year! 
+
+>Go M's..
+
+	TRIVIA TIME!!!  OK, We all know that Dave "My Batting Average is Down
+in the" Valle caught Chris Bosio's no hitter last night (and is batting over
+.300, BTW).  Here is the question:  Who caught Randy Johnson's no-hitter
+in June of 1990.  (Hint: Not Dave Valle :-))
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\  The Mad Kobold *is*: Douglas Todd Norris (n9143349@henson.cc.wwu.edu)  \\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\  Depeche Mode, U2, They Might Be Giants, INXS, O.M.D., a-Ha, The Police \\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\ "Exercise your basic rights, we could build a building site             \\\
+\\\  From the bricks of shame is built the hope." Depeche Mode, If You Want \\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\   Van. Canucks     Sea. SuperSonics   Sea. Mariners    Sea. Seahawks    \\\
+\\\   2-0 (1st rnd)       53-26 (2nd)       6-8 (5th)        2-14 (5th)     \\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\  Congratulations to Chris Bosio (Mariners) on his no-hitter of Boston!  \\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosio hit red sox articl janic n9143349
+chris bosio seattl m pitcher hit red sox second
+hitter seattl histori randi johnson got first also
+bosio first career hitter  mlb first hitter year
+m  trivia time know dave bat averag vall caught
+chris bosio hitter last night bat btw question
+caught randi johnson hitter hint dave vall
+depech mode might giant inx polic  exercis basic
+right could build build site brick shame built
+hope depech mode want  van canuck sea superson sea
+marin sea seahawk 1st rnd 2nd 5th 5th  congratul
+chris bosio marin hitter boston
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bosio, 1237, 0.477877907775
+hitter, 4322, 0.372965398205
+sea, 7739, 0.26311374063
+chris, 1728, 0.23274751905
+vall, 9412, 0.221222363226
+5th, 123, 0.19115116311
+randi, 7091, 0.170907015391
+marin, 5511, 0.159064948115
+seattl, 7749, 0.158377713313
+johnson, 4880, 0.158377713313
+caught, 1568, 0.15770627842
+sox, 8162, 0.13492086498
+mode, 5806, 0.13402214387
+dave, 2395, 0.126291498319
+bat, 942, 0.120001624628
+rnd, 7430, 0.118070801789
+build, 1378, 0.117889417874
+red, 7194, 0.116887966684
+seahawk, 7740, 0.113869761567
+congratul, 2038, 0.110611181613
+brick, 1305, 0.103747687707
+hit, 4316, 0.102133268353
+superson, 8567, 0.0990972869299
+trivia, 9109, 0.0936256138474
+polic, 6720, 0.0903670338934
+shame, 7851, 0.0896545479176
+hint, 4306, 0.0854535076953
+exercis, 3279, 0.0854535076953
+1st, 57, 0.0854535076953
+van, 9416, 0.0830541794325
+mlb, 5795, 0.0795324740577
+2nd, 81, 0.0785249666183
+boston, 1243, 0.0703065749575
+btw, 1355, 0.068897959347
+career, 1517, 0.0676133455708
+giant, 3865, 0.0664326570868
+built, 1381, 0.0639604740528
+histori, 4314, 0.0631457491593
+averag, 816, 0.0621608997008
+site, 7994, 0.0601845010977
+basic, 937, 0.0600923678851
+night, 6063, 0.0592883263381
+pitcher, 6644, 0.0580394404153
+hope, 4372, 0.0521984237767
+second, 7753, 0.0508211987224
+got, 3960, 0.0479173665555
+articl, 665, 0.04706495631
+right, 7399, 0.0444213331459
+question, 7032, 0.0442031402706
+want, 9634, 0.0397794997291
+year, 9943, 0.0367002700266
+time, 8936, 0.0346971876067
+know, 5052, 0.0314547525584

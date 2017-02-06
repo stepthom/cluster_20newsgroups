@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102663
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cwamsley@magnus.acs.ohio-state.edu (Christopher Wamsley)
+Subject: Re: New Uniforms
+Article-I.D.: magnus.1993Apr6.121706.8533
+Organization: The Ohio State University
+Lines: 19
+Nntp-Posting-Host: magnusug.magnus.acs.ohio-state.edu
+
+In article <C51vwC.Lru@usenet.ucs.indiana.edu> bodom@silver.ucs.indiana.edu (Br
+ian Odom) writes:
+>As far as I know, Toronto, Pittsburgh, and New York (NL) change their
+>uniforms every year.  Every other year (e.g., New York), it will say Mets
+>in cursive, New York in cursive, or New York in all caps.  Minor changes,
+>but they do change them often.  Last year, I think they had New York in all
+>caps.  Did Toronto have Blue Jays or Toronto last year?  What about
+>Pittsburgh?
+
+
+     It depends on which uniforms you are talking about.  For the last
+couple of years I believe Toronto and Pittsburgh has used the same uniforms,
+or at least very similar.  The home jerseys had the team nick name
+(Blue Jays or Pirates), but the road jerseys had the name of the city
+(Toronto or Pittsburgh).  I believe this is the way most teams design
+their uniforms.
+
+
+  -- Chris
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new uniform articl magnus 1993apr6     silver uc
+indiana edu  far know toronto pittsburgh new york
+chang uniform everi year everi year new york say
+met cursiv new york cursiv new york cap minor
+chang chang often last year think new york cap
+toronto blue jay toronto last year pittsburgh
+depend uniform talk last coupl year believ toronto
+pittsburgh use uniform least similar home jersey
+team nick name blue jay pirat road jersey name
+citi toronto pittsburgh believ way team design
+uniform   chris
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uniform, 9273, 0.436649961286
+york, 9960, 0.361158437581
+pittsburgh, 6648, 0.343845657527
+toronto, 9003, 0.318679634631
+new, 6023, 0.266925111733
+cursiv, 2301, 0.246962516981
+jersey, 4855, 0.20727660891
+year, 9943, 0.191910085353
+cap, 1497, 0.186104796746
+chang, 1650, 0.164617980146
+blue, 1176, 0.140786930341
+jay, 4832, 0.136395005592
+uc, 9184, 0.106702994314
+everi, 3235, 0.104616451995
+indiana, 4599, 0.102309446327
+team, 8732, 0.101417548092
+believ, 1009, 0.0943253245214
+silver, 7957, 0.0937628629471
+1993apr6, 49, 0.0905011092667
+nick, 6052, 0.0873299922571
+pirat, 6639, 0.086860040279
+chris, 1728, 0.0811376341631
+road, 7431, 0.0712017084805
+minor, 5745, 0.070236825498
+citi, 1775, 0.0688949862946
+depend, 2537, 0.0681975027958
+met, 5655, 0.0679271907089
+coupl, 2187, 0.0635336427212
+similar, 7961, 0.0632351530724
+design, 2564, 0.0593423789384
+home, 4354, 0.0588909499877
+edu, 3001, 0.054149249611
+talk, 8684, 0.0516482119376
+far, 3386, 0.0510155437272
+articl, 665, 0.0492216530071
+way, 9666, 0.0399502985098
+say, 7653, 0.0387741370496
+think, 8871, 0.0349779882725
+use, 9363, 0.0337293674716
+know, 5052, 0.032896129886

@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84446
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Disillusioned Protestant Finds Christ
+Organization: Cookamunga Tourist Bureau
+Lines: 23
+
+In article <C5KxDD.K4J@boi.hp.com>, jburrill@boi.hp.com (Jim Burrill)
+wrote:
+> If Jesus never taught the concept of the Trinity, how do you deal with the 
+> following:   
+> 
+>    Mat 28 18 Then Jesus came to them and said, "All authority in heaven
+>    and on earth has been given to me.
+> 
+>    Mat 28 19 Therefore go and make disciples of all nations, baptizing
+>    them in the name of the Father and of the Son and of the Holy Spirit,
+> 
+>    Mat 28 20 and teaching them to obey everything I have commanded you.
+>    And surely I am with you always, to the very end of the age." 
+
+Jim, please, that's a lame explanation of the trinity that Jesus provides
+above. Baptizing people in the name of three things != trinity. If
+this is the case, then I'm wrong, I assumed that trinity implies that
+God is three entities, and yet the same.
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ disillus protest find christ    boi com jim
+burril wrote jesus never taught concept triniti
+deal follow  mat jesus came said author heaven
+earth given  mat therefor make discipl nation
+baptiz name father son holi spirit  mat teach obey
+everyth command sure alway end age  jim pleas that
+lame explan triniti jesus provid baptiz peopl name
+three thing triniti case i'm wrong assum triniti
+impli god three entiti yet  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+triniti, 9103, 0.580407442011
+mat, 5540, 0.31535935145
+baptiz, 903, 0.290203721006
+jesus, 4859, 0.239433025315
+jim, 4868, 0.179363876626
+burril, 1416, 0.148680661202
+disillus, 2716, 0.145101860503
+obey, 6171, 0.129924870128
+entiti, 3131, 0.127115935144
+discipl, 2689, 0.127115935144
+taught, 8715, 0.124659100355
+lame, 5100, 0.120511301568
+protest, 6942, 0.110484274969
+holi, 4344, 0.107863179309
+explan, 3302, 0.107863179309
+spirit, 8238, 0.105992330112
+impli, 4546, 0.102339317379
+heaven, 4229, 0.101258545733
+father, 3404, 0.0989465755097
+son, 8132, 0.0977382519611
+kent, 4987, 0.0937726592479
+cheer, 1687, 0.0928377654372
+teach, 8729, 0.0910918099356
+concept, 2002, 0.0906785513123
+christ, 1729, 0.0906785513123
+age, 328, 0.0878287649926
+therefor, 8855, 0.0876527184353
+command, 1933, 0.0861355555562
+com, 1917, 0.0858137604875
+everyth, 3242, 0.0845768751884
+wrote, 9871, 0.083272620374
+author, 796, 0.0805292248816
+deal, 2418, 0.0793463936216
+came, 1472, 0.0791181461712
+nation, 5962, 0.0772782657835
+assum, 710, 0.0761735259031
+alway, 457, 0.0741347170541
+provid, 6949, 0.0726110081245
+wrong, 9869, 0.0720489925679
+given, 3887, 0.0704534909142
+god, 3926, 0.0691821003129
+earth, 2956, 0.0683780673839
+case, 1540, 0.0682472065021
+end, 3091, 0.0676688945066
+said, 7583, 0.065342858314
+follow, 3578, 0.0645168293002
+sure, 8585, 0.0632129596753
+pleas, 6688, 0.0577434415348
+thing, 8869, 0.0536247605866
+peopl, 6530, 0.0532567049365
+make, 5459, 0.0492322821657

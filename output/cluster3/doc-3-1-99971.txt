@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/99971
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: admiral@jhunix.hcf.jhu.edu (Steve C Liu)
+Subject: Baseball Stats
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 17
+Distribution: usa
+Expires: 5/5/93
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+Summary: 1992 EWB II Stats wanted
+
+	Hello, my friends and I are running the Homewood Fantasy Baseball
+League (pure fantasy baseball teams). Unfortunely, we are running the league
+using Earl Weaver Baseball II with the Comm. Disk II and we need the stats
+for the 1992 season. (Preferably the 1992 Major League Stat Disk) We have
+the '92 total stats but EWB2 needs the split stats otherwise we have 200
+inning games because the Comm. Disk turns total stats into vs. L's stats
+unless you know both right and left -handed stats.
+
+	So, if anyone has the EWB2 '92 Stat Disk please e-mail me!
+__________________________________________________________________________
+|Admiral Steve C. Liu        Internet Address: admiral@jhunix.hcf.jhu.edu|
+|"Committee for the Liberation and Intergration of Terrifying Organisms  |
+|and their Rehabilitation Into Society" from Red Dwarf - "Polymorph"     |
+|****The Bangles are the greatest female rock band that ever existed!****|
+|   This sig has been brought to you by... Frungy! The Sport of Kings!   |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal stat    expir  ewb stat want  hello
+friend run homewood fantasi basebal leagu pure
+fantasi basebal team unfortun run leagu use earl
+weaver basebal comm disk need stat season prefer
+major leagu stat disk total stat ewb2 need split
+stat otherwis inning game comm disk turn total
+stat l stat unless know right left hand stat
+anyon ewb2 stat disk pleas mail   committe liber
+intergr terrifi organ rehabilit societi red dwarf
+polymorph bangl greatest femal rock band ever
+exist sig brought frungi sport king
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stat, 8341, 0.683135611798
+disk, 2720, 0.308404362769
+basebal, 924, 0.202843019712
+fantasi, 3384, 0.187790515389
+leagu, 5176, 0.181189975487
+comm, 1932, 0.179530799315
+total, 9013, 0.120116952241
+weaver, 9680, 0.108921601201
+terrifi, 8806, 0.106912156392
+polymorph, 6731, 0.106912156392
+intergr, 4711, 0.106912156392
+frungi, 3705, 0.105139700455
+earl, 2949, 0.105139700455
+bangl, 895, 0.105139700455
+rehabilit, 7235, 0.100810521856
+dwarf, 2933, 0.0974525500562
+femal, 3441, 0.096481343258
+run, 7543, 0.0906597361926
+liber, 5247, 0.0875319038257
+committe, 1946, 0.0851382215713
+greatest, 4018, 0.0842780741877
+band, 891, 0.0830735529117
+sig, 7940, 0.0812582847629
+rock, 7445, 0.0812582847629
+need, 5993, 0.0809214130382
+king, 5024, 0.0787443743133
+split, 8247, 0.0779003129627
+pure, 6990, 0.0779003129627
+expir, 3300, 0.0776291618001
+hello, 4247, 0.0744877186619
+brought, 1343, 0.0740577327702
+sport, 8257, 0.0728369164385
+unfortun, 9264, 0.071527527265
+societi, 8093, 0.0713494366376
+inning, 4657, 0.0693621382377
+prefer, 6819, 0.0687540360121
+otherwis, 6313, 0.0674694998292
+friend, 3692, 0.0673333135388
+organ, 6287, 0.0630041349404
+unless, 9289, 0.0612769376314
+red, 7194, 0.0602266173377
+turn, 9158, 0.0598921928554
+left, 5193, 0.0598921928554
+season, 7747, 0.0579552709933
+major, 5458, 0.0552358604511
+hand, 4145, 0.054582766616
+exist, 3283, 0.0539568415854
+mail, 5447, 0.0517329583264
+team, 8732, 0.0499658453623
+right, 7399, 0.0457762541158
+game, 3761, 0.045615306246
+pleas, 6688, 0.0442686089688
+want, 9634, 0.0409928374328
+anyon, 554, 0.0404379918244
+use, 9363, 0.0332352022104
+know, 5052, 0.0324141722972

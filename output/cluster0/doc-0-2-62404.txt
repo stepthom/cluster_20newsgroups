@@ -1,0 +1,188 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62404
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: brian@quake.sylmar.ca.us
+Subject: Re: U.S. Government and Science and Technolgy Investment
+Organization: Quake Public Access, San Fernando Valley, CA (818)362-6092
+Lines: 46
+
+In article <pgf.737329707@srl03.cacs.usl.edu> pgf@srl03.cacs.usl.edu (Phil G. Fraering) writes:
+>mccolm@darwin.math.usf.edu. (Gregory McColm) writes:
+>>In article <C6z3sw.1As@rice.edu> conor@owlnet.rice.edu (Conor Frederick Prischmann) writes:
+>>>In article <1srfii$79k@suntan.eng.usf.edu> mccolm@darwin.math.usf.edu. (Gregory McColm) writes:
+
+>>>Huh?  Please state your criteria for selecting the "greatest philosopher"
+>>>title.  P.S. Ever read any Nietzsche?
+
+>>Greatest = most likely to be remembered five hundred years hence.
+>>I must admit that that makes many of my personal favorites not 
+>>that great.  I make no comment on Nietzche except to remark that 
+>>he was no Immanuel Kant.  Interpret that cryptic remark as you 
+>>please.
+
+>Some people have appended that remark, that Nietzche was no Kant,
+>with "thankfully." I haven't read enough of either to comment, although
+>everyone tells me I should read Nietzche.
+
+I would have to say that the "greatest philosopher" title would have to
+go to Plato since the whole enterprise of philosophy was essentially
+defined by him.  Although he got most of his answers wrong, he did 
+definitively identify what the important questions are.  I think it
+was Descartes who said that "All philosophy is just a footnote to Plato."
+
+If I were to choose which philosopher made the most important advances
+in human knowledge over his lifetime, that's simple...it is Aristotle.
+This is so much the case that many simply refer to him as "the philosopher".
+
+Regarding Nietzsche, he's one of the most entertaining, although since his
+ideas were so fragmented (and since his life was cut short) it is doubtful
+that his influence as a philosopher is likely to be very extensive 500 years
+from now.  They'll probably still be reading him in 500 years though.
+
+As for "modern" philosophers, I would have to say that Kant was the most
+influential since he had such a strong influence on almost everyone who
+came after him (and unfortunately, they maintained his errors and 
+amplified them over time).
+
+I would say that the most influential "american" philosopher would have to
+be Dewey.
+
+But as to the question of what philosopher will be most highly regarded in
+500 years, it may very well be Ayn Rand (who in every important respect
+was "American", but was born in Russia).  But I guess that remains to be seen.
+
+--Brian
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ govern scienc technolgi invest         huh pleas
+state criteria select greatest philosoph titl ever
+read nietzsch  greatest like rememb five hundr
+year henc must admit make mani person favorit
+great make comment nietzch except remark immanuel
+kant interpret cryptic remark pleas  peopl append
+remark nietzch kant thank haven't read enough
+either comment although everyon tell read nietzch
+say greatest philosoph titl plato sinc whole
+enterpris philosophi essenti defin although got
+answer wrong definit identifi import question
+think descart said philosophi footnot plato  choos
+philosoph made import advanc human knowledg
+lifetim that simpl aristotl much case mani simpli
+refer philosoph  regard nietzsch he one entertain
+although sinc idea fragment sinc life cut short
+doubt influenc philosoph like extens year they'll
+probabl still read year though  modern philosoph
+say kant influenti sinc strong influenc almost
+everyon came unfortun maintain error amplifi time
+say influenti american philosoph dewey  question
+philosoph high regard year well ayn rand everi
+import respect american born russia guess remain
+seen  brian
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philosoph, 6595, 0.525520886786
+kant, 4952, 0.291274144556
+remark, 7266, 0.209544918877
+greatest, 4018, 0.20175549082
+nietzsch, 6059, 0.194182763037
+plato, 6677, 0.187273606958
+influenti, 4635, 0.173833517381
+sinc, 7977, 0.146424195503
+read, 7135, 0.146216708031
+philosophi, 6596, 0.138094910012
+influenc, 4634, 0.138094910012
+import, 4551, 0.136546407128
+year, 9943, 0.120716717935
+titl, 8953, 0.115628290636
+american, 469, 0.106820174482
+regard, 7224, 0.0983807787788
+footnot, 3590, 0.0970913815185
+comment, 1936, 0.0963900958913
+everyon, 3241, 0.0957173169521
+ayn, 844, 0.0936368034788
+append, 582, 0.0936368034788
+amplifi, 480, 0.0936368034788
+say, 7653, 0.0914624918638
+dewey, 2601, 0.0909572245759
+aristotl, 637, 0.0909572245759
+cryptic, 2266, 0.0887678491973
+rand, 7090, 0.0853132711576
+technolgi, 8742, 0.0826336922547
+fragment, 3642, 0.0785932263691
+lifetim, 5263, 0.0762617390503
+enterpris, 3126, 0.0762617390503
+criteria, 2236, 0.0755753625947
+question, 7032, 0.0726978032043
+russia, 7550, 0.0721207845549
+entertain, 3127, 0.0711596062034
+pleas, 6688, 0.0706505222268
+henc, 4252, 0.0690474550061
+mani, 5479, 0.0681247898565
+huh, 4429, 0.0672518302735
+identifi, 4486, 0.065118178052
+favorit, 3411, 0.0633070487094
+invest, 4744, 0.0626073370844
+born, 1233, 0.0615247739713
+essenti, 3196, 0.0611176733308
+extens, 3320, 0.0609191842034
+make, 5459, 0.0602369092137
+choos, 1720, 0.0599731583066
+modern, 5811, 0.0592665828239
+hundr, 4440, 0.0584380944279
+admit, 276, 0.0582790415225
+maintain, 5454, 0.0575139217106
+unfortun, 9264, 0.0570772074453
+interpret, 4720, 0.0566558196898
+brian, 1304, 0.0563828916051
+remain, 7264, 0.0562487190494
+select, 7774, 0.0561160290938
+respect, 7321, 0.0543976285424
+error, 3180, 0.0541710497676
+doubt, 2830, 0.0537303280539
+knowledg, 5053, 0.0535158880911
+strong, 8456, 0.0532012416501
+cut, 2313, 0.0527941410096
+defin, 2482, 0.0526944863398
+definit, 2484, 0.0519256914494
+haven, 4207, 0.0512911420867
+simpl, 7965, 0.0512031686617
+like, 5272, 0.0505697716821
+govern, 3966, 0.0501145621067
+simpli, 7967, 0.0491903893894
+came, 1472, 0.0484014997723
+short, 7904, 0.0474670481596
+guess, 4079, 0.0465404973219
+human, 4432, 0.0463634673029
+advanc, 285, 0.0454067957327
+scienc, 7692, 0.0448777093289
+seen, 7767, 0.0445710972983
+answer, 535, 0.044321435108
+refer, 7213, 0.044272119561
+rememb, 7269, 0.0442230057142
+life, 5260, 0.0442230057142
+wrong, 9869, 0.0440768580425
+state, 8342, 0.0425767077304
+case, 1540, 0.0417510686212
+everi, 3235, 0.0411291396683
+idea, 4482, 0.0410536154018
+high, 4292, 0.04061018094
+person, 6562, 0.0400087550474
+said, 7583, 0.039974297868
+great, 4016, 0.0399399392786
+got, 3960, 0.0394031652796
+probabl, 6885, 0.0392726387901
+tell, 8767, 0.0392402276535
+ll, 5314, 0.0380399349817
+thank, 8832, 0.0336286853718
+peopl, 6530, 0.0325804447729
+time, 8936, 0.0285320149307
+think, 8871, 0.0275026449004

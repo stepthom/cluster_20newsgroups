@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39027
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: abh@genesis.nred.ma.us (Andrew Hudson)
+Subject: Source to create FLI or FLC ?
+Summary: looking for source to create FLI or FLC
+Organization: Genesis Public Access Unix +1 508 664 0149
+Lines: 12
+
+
+Does anyone know if the source is available to create FLI
+or FLC animations? I would ideally like DLL's for Windows
+but would settle for C source.  I've heard they might be 
+available on Amiga forums somewhere.  The libraries
+currently distributed by Autodesk, AAWIN, AAPLAY, do NOT
+have FLI creation capability, only playback.
+
+Any pointers would be appreciated, thanks!
+
+- Andrew  Hudson
+abh@genesis.nred.ma.us
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sourc creat fli flc look sourc creat fli flc
+anyon know sourc avail creat fli flc anim ideal
+like dll window settl sourc i'v heard might avail
+amiga forum somewher librari current distribut
+autodesk aawin aaplay fli creation capabl playback
+pointer appreci thank  andrew hudson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+flc, 3532, 0.50840333934
+fli, 3542, 0.400023935673
+sourc, 8153, 0.34566660412
+creat, 2217, 0.271537913462
+dll, 2777, 0.182570328557
+aaplay, 159, 0.182570328557
+avail, 811, 0.162654736345
+playback, 6682, 0.156848000113
+autodesk, 801, 0.151623434744
+hudson, 4423, 0.147354654016
+settl, 7817, 0.141615486122
+andrew, 505, 0.137861307918
+pointer, 6711, 0.133883381518
+ideal, 4483, 0.133162910138
+forum, 3620, 0.129859770279
+amiga, 472, 0.121632325572
+creation, 2218, 0.118397746442
+distribut, 2753, 0.109672123954
+somewher, 8130, 0.10941340892
+capabl, 1498, 0.104973726174
+librari, 5250, 0.10393295606
+anim, 515, 0.101062409982
+window, 9774, 0.097401805586
+appreci, 587, 0.0905126378207
+heard, 4224, 0.0889585669792
+current, 2299, 0.0848334276356
+thank, 8832, 0.0655682371587
+anyon, 554, 0.0629162316537
+look, 5341, 0.0584306850886
+know, 5052, 0.0504322168611
+like, 5272, 0.0492997383938

@@ -1,0 +1,337 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38452
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Sean McMains <mcmains@unt.edu>
+Subject: Re: Rumours about 3DO ???
+X-Xxmessage-Id: <A7F81FD2F801023C@seanmac.acs.unt.edu>
+X-Xxdate: Mon, 19 Apr 93 15: 22:26 GMT
+Organization: University of North Texas
+X-Useragent: Nuntius v1.1.1d20
+Lines: 83
+
+First off: Thanks to all who have filled me in on the existence of the
+68070. I assumed rashly that the particular number would be reserved for
+further enhancements to the Motorola line, rather than meted out to
+another company. Ah, well, I guess that's what I get when I assume the
+computer industry will operate in a logical manner! ;-)
+
+In article <1993Apr16.212441.34125@rchland.ibm.com> Ricardo Hernandez
+Muchado, ricardo@rchland.vnet.ibm.com writes:
+>   Sean, I don't want to get into a 'mini-war' by what I am going to say,
+>but I have to be a little bit skeptic about the performance you are
+>claiming on the Centris, you'll see why (please, no-flames, I reserve
+>those for c.s.m.a :-) )
+>
+>   I was in Chicago in the last consumer electronics show, and Apple had
+a
+>booth there.  I walked by, and they were showing real-time video capture
+>using a (Radious or SuperMac?) card to digitize and make right on the
+spot
+>quicktime movies.  I think the quicktime they were using was the old one
+>(1.5).
+
+Version 1.5 of Quicktime is, as has been stated, the current version of
+the software. The older version is 1.0, and 1.6 is on the horizon in the
+not too distant future.
+
+>   They digitized a guy talking there in 160x2xx something.  It played
+back quite
+>nicely and in real time.  The guy then expanded the window (resized) to
+25x by
+>3xx (320 in y I think) and the frame rate decreased enough to notice
+that it
+>wasn't 30fps (or about 30fps) anymore.  It dropped to like 15 fps.  Then
+he
+>increased it just a bit more, and it dropped to 10<->12 fps. 
+
+Quicktime does a much better job of playing back movies at size than it
+does playing back resized movies. Apparently the process of expanding
+each frame's image and dithering the resultant bitmap to the appropriate
+bit depth is pretty processor-intensive. There are optimizers that work
+pretty well for showing movies at double size, but if you drop to 1.9x
+size or increase to 2.1x size, performance suffers dramatically.
+
+>   Then I asked him what Mac he was using... He was using a Quadra
+(don't know
+>what model, 900?) to do it, and he was telling the guys there that the
+Quicktime
+>could play back at the same speed even on an LCII.
+
+He lied. :-) Quicktime is very CPU dependent. He was probably confused by
+the fact that QT is locked to an internal timecode, and will play in the
+same amount of time on any machine. However, an LC will drop frames in
+order to keep the sound and video synced up.
+
+The Centris and Quadras have similar CPUs and will thus boast similar
+performance, though the Quadras will be a bit faster due to marginally
+faster clock speeds and somewhat different architecture.
+
+>   Well, I spoiled his claim so to say, since a 68040 Quadra Mac was
+having
+>a little bit of trouble.  And this wasn't even from the hardisk!  This
+was
+>from memory!
+>
+>   Could it be that you saw either a newer version of quicktime, or some
+>hardware assisted Centris, or another software product running the 
+>animation (like supposedly MacroMind's Accelerator?)?
+
+I expect that the version of the Quicktime software you saw was 1.0 -- I
+was using was 1.5. One of the new codecs in v1.5 allows video at nearly
+twice the size and the same frame rate as what version 1.0 could handle.
+The Centris 650 I saw was a plain-vanilla, with the exception of the nice
+speakers that were playing the sound, and the software was Movie Player,
+the QT player Apple includes with the software.
+
+>   Don't misunderstand me, I just want to clarify this.
+
+No problem -- it still surprises me that Quicktime is able to do the
+things it does as well as it can.
+========================================================================
+Sean McMains              | Check out the Gopher    | Phone:817.565.2039
+University of North Texas | New Bands Info server   | Fax  :817.565.4060
+P.O. Box 13495            | at seanmac.acs.unt.edu  | E-Mail:
+Denton TX 76203           |                         |  McMains@unt.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do  xxdate mon gmt  userag nuntius 1d20
+first thank fill exist assum rash particular
+number reserv enhanc motorola line rather mete
+anoth compani well guess that get assum comput
+industri oper logic manner    sean don't want get
+mini war go say littl bit skeptic perform claim
+centri you'll see pleas flame reserv   chicago
+last consum electron show appl  booth walk show
+real time video captur use radious supermac card
+digit make right spot quicktim movi think quicktim
+use old one   version quicktim state current
+version softwar older version horizon distant
+futur  digit guy talk 160x2xx someth play back
+quit nice real time guy expand window resiz 25x
+3xx think frame rate decreas enough notic  wasn't
+30fps 30fps anymor drop like fps  increas bit drop
+fps  quicktim much better job play back movi size
+play back resiz movi appar process expand frame
+imag dither result bitmap appropri bit depth
+pretti processor intens optim work pretti well
+show movi doubl size drop size increas size
+perform suffer dramat  ask mac use use quadra
+don't know model tell guy quicktim could play back
+speed even lcii  lie quicktim cpu depend probabl
+confus fact lock intern timecod play amount time
+machin howev drop frame order keep sound video
+sync  centri quadra similar cpus thus boast
+similar perform though quadra bit faster due
+margin faster clock speed somewhat differ
+architectur  well spoil claim say sinc quadra mac
+littl bit troubl wasn't even hardisk  memori
+could saw either newer version quicktim hardwar
+assist centri anoth softwar product run anim like
+suppos macromind acceler  expect version quicktim
+softwar saw use one new codec allow video near
+twice size frame rate version could handl centri
+saw plain vanilla except nice speaker play sound
+softwar movi player player appl includ softwar
+don't misunderstand want clarifi  problem still
+surpris quicktim abl thing well  sean mcmain check
+gopher phone univers north texa new band info
+server fax box seanmac ac unt edu mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+quicktim, 7039, 0.462064844539
+centri, 1612, 0.224541866287
+quadra, 7010, 0.218592641219
+movi, 5892, 0.208280579508
+version, 9479, 0.190430234074
+size, 8000, 0.189283270014
+play, 6681, 0.161415322479
+frame, 3643, 0.157936033355
+drop, 2878, 0.157936033355
+bit, 1122, 0.137570361013
+softwar, 8103, 0.13613063514
+30fps, 84, 0.118090155937
+resiz, 7315, 0.115911564654
+fps, 3634, 0.112270933144
+video, 9506, 0.110861665816
+saw, 7650, 0.107798573384
+sean, 7744, 0.0994070941755
+perform, 6539, 0.0993593614969
+guy, 4100, 0.0918858177877
+use, 9363, 0.0900819986201
+reserv, 7309, 0.0900663294464
+appl, 583, 0.0900663294464
+expand, 3288, 0.089250399468
+faster, 3399, 0.0800634077839
+digit, 2642, 0.0785496553119
+increas, 4590, 0.073599934129
+mac, 5410, 0.0727097934278
+wasn, 9652, 0.0708041900972
+rate, 7108, 0.0708041900972
+similar, 7961, 0.0675535819235
+speed, 8217, 0.0663369787955
+nice, 6047, 0.0660464927962
+sound, 8150, 0.0640609830488
+unt, 9319, 0.0636101995222
+seanmac, 7745, 0.0636101995222
+1d20, 54, 0.0636101995222
+claim, 1782, 0.063558937305
+assum, 710, 0.0633135913389
+rash, 7103, 0.0617898837669
+radious, 7063, 0.0617898837669
+lcii, 5168, 0.0617898837669
+hardisk, 4172, 0.0617898837669
+3xx, 103, 0.0617898837669
+25x, 75, 0.0617898837669
+160x2xx, 29, 0.0617898837669
+supermac, 8563, 0.0603025774997
+boast, 1187, 0.0603025774997
+pretti, 6851, 0.0598197242299
+time, 8936, 0.0581478786681
+codec, 1872, 0.0579557823272
+xxdate, 9918, 0.0569949554772
+player, 6683, 0.0562974622781
+userag, 9367, 0.0561354665719
+nuntius, 6158, 0.0561354665719
+mini, 5737, 0.0561354665719
+real, 7144, 0.0559319865317
+don, 2811, 0.0555099922589
+ac, 204, 0.0553579642828
+littl, 5308, 0.0548339135484
+spoil, 8249, 0.0539952039408
+misunderstand, 5778, 0.0533906607734
+anoth, 533, 0.0525830777229
+skeptic, 8002, 0.0523013651321
+dramat, 2859, 0.0523013651321
+booth, 1227, 0.0523013651321
+speaker, 8193, 0.0513405382821
+motorola, 5883, 0.0513405382821
+horizon, 4374, 0.0513405382821
+cpu, 2200, 0.050899479537
+distant, 2745, 0.0504810493768
+gopher, 3952, 0.0500830387508
+dither, 2757, 0.0500830387508
+architectur, 617, 0.0493409274051
+newer, 6028, 0.0489937431096
+lock, 5324, 0.0489937431096
+decreas, 2456, 0.0489937431096
+enhanc, 3113, 0.0486607336215
+clarifi, 1786, 0.0486607336215
+clock, 1827, 0.0480329162595
+optim, 6274, 0.0477362435783
+new, 6023, 0.0475256417957
+rumour, 7542, 0.0474499826402
+mon, 5831, 0.0474499826402
+3do, 98, 0.0474499826402
+manner, 5486, 0.0469059411072
+consum, 2077, 0.0463959250652
+twice, 9170, 0.045915927823
+bitmap, 1126, 0.045686121087
+intens, 4701, 0.0454626112249
+plain, 6659, 0.0452450623419
+older, 6218, 0.0452450623419
+processor, 6891, 0.0450331647232
+band, 891, 0.0450331647232
+anymor, 553, 0.0450331647232
+want, 9634, 0.0444434392387
+depth, 2545, 0.0442366691784
+captur, 1509, 0.0440491298927
+acceler, 207, 0.0438658053317
+margin, 5507, 0.042844774521
+appropri, 590, 0.042844774521
+somewhat, 8129, 0.0425309820021
+server, 7812, 0.0422288141374
+say, 7653, 0.041422084338
+logic, 5330, 0.0413841707314
+texa, 8820, 0.0412515239121
+suffer, 8521, 0.0412515239121
+chicago, 1701, 0.040992530742
+gmt, 3917, 0.0408660537954
+assist, 705, 0.0407415078701
+north, 6110, 0.0406188348871
+electron, 3034, 0.0402615106279
+spot, 8261, 0.0398081940298
+war, 9635, 0.0396986944039
+troubl, 9117, 0.0394840083389
+lie, 5258, 0.0394840083389
+industri, 4608, 0.0393787475281
+confus, 2037, 0.039274827656
+flame, 3518, 0.0390708770419
+doubl, 2828, 0.038032093015
+appar, 577, 0.0378566540029
+notic, 6120, 0.0376849087194
+handl, 4149, 0.0376849087194
+think, 8871, 0.0373666905428
+machin, 5416, 0.0371107703567
+memori, 5628, 0.0369538886054
+surpris, 8593, 0.0367240818694
+hardwar, 4173, 0.0364274091882
+depend, 2537, 0.0364274091882
+intern, 4716, 0.0362830231243
+phone, 6601, 0.0357968946532
+anim, 515, 0.0352116366003
+card, 1513, 0.035025523593
+job, 4873, 0.0347244709924
+walk, 9617, 0.0346655711001
+futur, 3737, 0.0344341343112
+like, 5272, 0.0343535142912
+fax, 3413, 0.0342647662971
+model, 5807, 0.0342090828069
+product, 6896, 0.0341537768347
+particular, 6442, 0.0341537768347
+oper, 6261, 0.0341537768347
+window, 9774, 0.0339362279518
+compani, 1958, 0.0339362279518
+box, 1254, 0.0333163653439
+check, 1682, 0.0332667749198
+suppos, 8577, 0.0331684893977
+near, 5982, 0.0330232463981
+process, 6890, 0.0329754011018
+info, 4636, 0.0321159121965
+result, 7332, 0.0316567956694
+guess, 4079, 0.0316163112209
+expect, 3290, 0.0316163112209
+allow, 432, 0.0312607178949
+old, 6216, 0.0308461548122
+quit, 7043, 0.029877166281
+abl, 180, 0.0298446009697
+current, 2299, 0.0295572194053
+exist, 3283, 0.029249348919
+state, 8342, 0.0289235938553
+edu, 3001, 0.0289235938553
+order, 6281, 0.0288369636644
+comput, 1993, 0.0282818107567
+ask, 689, 0.028255020586
+howev, 4406, 0.0281223737667
+includ, 4579, 0.028069913138
+mail, 5447, 0.0280438087969
+fact, 3350, 0.0279918493878
+talk, 8684, 0.0275876751048
+imag, 4512, 0.0273448714776
+univers, 9282, 0.027109086288
+line, 5285, 0.027039659489
+probabl, 6885, 0.0266790438844
+tell, 8767, 0.0266570260582
+number, 6156, 0.0265261526687
+ll, 5314, 0.0258416323935
+problem, 6887, 0.0256645002308
+differ, 2633, 0.0251185747981
+sinc, 7977, 0.0248675519262
+right, 7399, 0.0248147517442
+run, 7543, 0.024572771301
+better, 1060, 0.0244042198576
+someth, 8126, 0.0240133618841
+pleas, 6688, 0.0239974756091
+work, 9833, 0.0231110508351
+thank, 8832, 0.0228449424446
+thing, 8869, 0.0222858016429
+make, 5459, 0.0204603407599
+know, 5052, 0.0175713293734

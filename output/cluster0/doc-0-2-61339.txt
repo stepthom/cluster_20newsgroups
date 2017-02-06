@@ -1,0 +1,174 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61339
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: u9263012@wampyr.cc.uow.edu.au (Walker Andrew John)
+Subject: Re: Gamma Ray Bursters. WHere are they.
+Organization: University of Wollongong, NSW, Australia.
+Lines: 47
+NNTP-Posting-Host: wampyr.cc.uow.edu.au
+
+steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+>In article <1993Apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au> keithh@tplrd.tpl.oz.au (Keith Harwood) writes:
+
+
+
+>   In article <1rbl0eINNip4@gap.caltech.edu>, palmer@cco.caltech.edu (David M. Palmer) writes:
+>   > prb@access.digex.com (Pat) writes:
+
+>   > >  What  evidence  indicates that Gamma Ray bursters are very far away?
+
+>   > >Given the enormous  power,  i was just wondering,  what if they are
+>   > >quantum  black holes or something  like that  fairly close by?
+
+>   > >Why would they have to be at  galactic ranges?   
+
+>   . . . David gives good explaination of the deductions from the isotropic,
+>   'edged' distribution, to whit, they are either part of the Universe or
+>   part of the Oort cloud.
+
+>   Why couldn't they be Earth centred, with the edge occuring at the edge
+>   of the gravisphere? I know there isn't any mechanism for them, but there
+>   isn't a mechanism for the others either.
+
+>What on Earth is the "gravisphere"?
+>Anyway, before it's decay the Pioneer Venus Orbiter
+>had a gamma ray detector, as does Ulysses, they 
+>detect the brightest bursts that the Earth orbit detectors
+>do, so the bursts are at least at Oort cloud distances.
+>In principle four detectors spaced out by a few AU would
+>see parallax if the bursts are of solar system origin.
+
+>_The_ problem with Oort cloud sources is that absolutely
+>no plausible mechanism has been proposed. It would have
+>to involve new physics as far as I can tell. Closest to
+>"conventional" Oort sources is a model of B-field pinching
+>by comets, it's got too many holes in it to count, but at
+>least it was a good try...
+
+>*  Steinn Sigurdsson   			Lick Observatory      	*
+>*  steinly@lick.ucsc.edu		"standard disclaimer"  	*
+>*  The laws of gravity are very,very strict			*
+>*  And you're just bending them for your own benefit - B.B. 1988*
+
+	Also,if they did come from the Oort cloud we would expect to
+see the same from other stars Oort Clouds.
+Andrew Walker
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster              evid indic gamma
+ray burster far away  given enorm power wonder
+quantum black hole someth like fair close  galact
+rang  david give good explain deduct isotrop edg
+distribut whit either part univers part oort cloud
+couldn't earth centr edg occur edg gravispher know
+isn't mechan isn't mechan other either  earth
+gravispher anyway it decay pioneer venus orbit
+gamma ray detector ulyss detect brightest burst
+earth orbit detector burst least oort cloud
+distanc principl four detector space see parallax
+burst solar system origin  problem oort cloud
+sourc absolut plausibl mechan propos involv new
+physic far tell closest convent oort sourc model
+field pinch comet it got mani hole count least
+good tri  steinn sigurdsson lick observatori  law
+graviti strict you'r bend benefit  also come oort
+cloud expect see star oort cloud andrew walker
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oort, 6255, 0.473192070614
+cloud, 1835, 0.349466993202
+detector, 2580, 0.233217266247
+burst, 1417, 0.215373006446
+gravispher, 4008, 0.196085824559
+mechan, 5603, 0.193351498156
+gamma, 3762, 0.190021056853
+edg, 2993, 0.185035843094
+ray, 7118, 0.16231540011
+burster, 1418, 0.137000501429
+earth, 2956, 0.135269472334
+hole, 4343, 0.12463588691
+brightest, 1314, 0.0956829816729
+sourc, 8153, 0.0955482666641
+isn, 4783, 0.0948130734119
+orbit, 6280, 0.0936983680652
+whit, 9735, 0.0936876887751
+walker, 9618, 0.0904347294342
+deduct, 2463, 0.0904347294342
+ulyss, 9203, 0.0867110352109
+sigurdsson, 7952, 0.0867110352109
+isotrop, 4788, 0.0867110352109
+far, 3386, 0.0864751157837
+steinn, 8371, 0.0856749797986
+lick, 5255, 0.0847157423131
+decay, 2433, 0.083822713579
+bend, 1024, 0.083822713579
+plausibl, 6680, 0.0829873409877
+parallax, 6419, 0.0800990193557
+galact, 3749, 0.0794674900744
+quantum, 7025, 0.0782899711484
+closest, 1832, 0.0777390887489
+enorm, 3117, 0.0772106977238
+convent, 2113, 0.0772106977238
+strict, 8445, 0.0762145307335
+andrew, 505, 0.0762145307335
+pioneer, 6635, 0.0757437958512
+venus, 9463, 0.0714547810979
+centr, 1610, 0.0701909699679
+detect, 2579, 0.0698933986404
+pinch, 6632, 0.06903965304
+observatori, 6180, 0.0682387512618
+principl, 6870, 0.0679824303579
+comet, 1926, 0.0674845311788
+good, 3948, 0.0665458376283
+graviti, 4010, 0.065878820655
+benefit, 1028, 0.0646451464016
+distanc, 2744, 0.0633403522843
+occur, 6192, 0.0619943320328
+distribut, 2753, 0.0606305684163
+absolut, 193, 0.0603460782245
+count, 2180, 0.059795195825
+couldn, 2176, 0.0588842020877
+rang, 7094, 0.0585125847168
+solar, 8107, 0.0574577565925
+black, 1133, 0.0565872583822
+indic, 4600, 0.0563784831679
+physic, 6613, 0.0562753449117
+star, 8324, 0.0559707712672
+law, 5153, 0.0555755105502
+fair, 3363, 0.0548194543393
+evid, 3245, 0.0545469435863
+propos, 6933, 0.0543684058223
+model, 5807, 0.054280052014
+involv, 4750, 0.054280052014
+explain, 3301, 0.0523225512092
+david, 2397, 0.0522470770439
+away, 833, 0.0513039755871
+expect, 3290, 0.0501660634179
+close, 1830, 0.0490611840845
+field, 3466, 0.0487128998617
+power, 6783, 0.0480432445361
+wonder, 9821, 0.0469988248052
+given, 3887, 0.0464583986489
+origin, 6293, 0.0460324222032
+univers, 9282, 0.0430143836965
+got, 3960, 0.0424727238003
+tell, 8767, 0.0422970931183
+problem, 6887, 0.0407222378718
+someth, 8126, 0.0381023525085
+new, 6023, 0.0377048154613
+come, 1923, 0.0375346599993
+tri, 9087, 0.0374864521869
+space, 8164, 0.0367159003978
+mani, 5479, 0.0367159003978
+know, 5052, 0.0278806853059
+like, 5272, 0.0272546117813

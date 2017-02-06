@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104848
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: Neon Deon Sanders (Braves & Giants)
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 22
+
+In <1r28f6$79f@zippy.telcom.arizona.edu> r4938585@joplin.biosci.arizona.edu (Doug Roberts) writes:
+[...]
+
+>	Does anyone else out there not like Deon? I think he's all hype.
+>His .300 season last year was good, but I'm not convinced that he can do
+>it again. It reminds me (sorry) of the year 1987(?) when Tim Wallach hit
+>30 or so homers and had 127 RBI. It never even came close to happening 
+>again. Of course, maybe I just prefer guys who go about their business
+>and don't play it up for the attention. Just my HO.
+
+Tim Wallach can be explained with the rabbitball.  Deion can be explained
+as "learning how to play the game".  I'm not betting that Deion will be able
+to play as well as last year, but I think the odds of Deion playing as well
+or better than he did last year are better than the odds of Otis Nixon
+doing the same thing.  When you factor in defense, Otis was more valuable last
+year.  But I'm not convinced he'll be more valuable this year, and especially
+next year.
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ neon deon sander brave giant       anyon els like
+deon think he hype season last year good i'm
+convinc remind sorri year tim wallach hit homer
+rbi never even came close happen cours mayb prefer
+guy busi don't play attent  tim wallach explain
+rabbitbal deion explain learn play game i'm bet
+deion abl play well last year think odd deion play
+well better last year better odd oti nixon thing
+factor defens oti valuabl last year i'm convinc
+he'll valuabl year especi next year    consid good
+look wise especi overburden inform golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+deion, 2494, 0.37650834787
+year, 9943, 0.320849719939
+deon, 2534, 0.294921798043
+wallach, 9621, 0.251005565247
+oti, 6314, 0.247529021567
+play, 6681, 0.240585537882
+valuabl, 9415, 0.21093247319
+tim, 8935, 0.193788573658
+odd, 6198, 0.185649167094
+convinc, 2120, 0.174702521873
+especi, 3190, 0.151030409567
+explain, 3301, 0.147447054389
+neon, 6004, 0.138144435672
+sander, 7607, 0.114782699945
+hype, 4458, 0.114782699945
+overburden, 6339, 0.112861129575
+nixon, 6080, 0.112861129575
+kimbal, 5019, 0.111122857735
+better, 1060, 0.109121654702
+golden, 3934, 0.0997691314202
+wise, 9799, 0.097278259962
+remind, 7270, 0.0957886119353
+homer, 4355, 0.0947461539166
+rbi, 7124, 0.0940828789979
+attent, 766, 0.0940828789979
+good, 3948, 0.0937644238803
+bet, 1054, 0.0889996899831
+factor, 3352, 0.0875778234792
+busi, 1424, 0.0840636367512
+think, 8871, 0.0835411893219
+prefer, 6819, 0.083326645564
+giant, 3865, 0.0829690252792
+defens, 2476, 0.0788639426453
+brave, 1277, 0.0780347975865
+learn, 5182, 0.0775022619385
+came, 1472, 0.0735114544544
+sorri, 8142, 0.0703273722311
+season, 7747, 0.070239052203
+close, 1830, 0.0691281953089
+guy, 4100, 0.0684767671268
+abl, 180, 0.0667239571829
+happen, 4159, 0.0642795245127
+consid, 2059, 0.0639645244516
+mayb, 5564, 0.0638400321583
+hit, 4316, 0.0637781032357
+els, 3053, 0.0630509085641
+cours, 2190, 0.0624088628996
+inform, 4637, 0.0599448570039
+ll, 5314, 0.057774468994
+game, 3761, 0.0552835975357
+thing, 8869, 0.0498246525767
+anyon, 554, 0.0490089368932
+look, 5341, 0.0455148962814
+don, 2811, 0.0413681338931
+like, 5272, 0.0384022962642

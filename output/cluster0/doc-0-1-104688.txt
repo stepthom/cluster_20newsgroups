@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104688
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kesslerm@columbia.dsu.edu (MICHAEL KESSLER)
+Subject: Box Scores
+Lines: 8
+Organization: Dakota State University
+Lines: 8
+
+
+	I was wondering if anyone types in the box scores each day.
+I am at college and am not able to get them till the weekend.
+I would be thankful if someone could p-mail the Twins box scores every so 
+often.
+Also I am looking for a Twins 93 schedule.
+
+kesslerm@columbia.dsu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ box score      wonder anyon type box score day
+colleg abl get till weekend thank someon could
+mail twin box score everi often also look twin
+schedul
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+score, 7705, 0.503209296045
+box, 1254, 0.475273724207
+twin, 9172, 0.430294822764
+till, 8933, 0.228404096701
+weekend, 9692, 0.226993371285
+colleg, 1900, 0.202980423383
+schedul, 7678, 0.176467569352
+type, 9177, 0.151510205765
+abl, 180, 0.141915787271
+wonder, 9821, 0.140848785951
+mail, 5447, 0.133352736313
+everi, 3235, 0.132860149711
+someon, 8124, 0.126758365548
+day, 2402, 0.115028141207
+thank, 8832, 0.108631306395
+anyon, 554, 0.104237550591
+look, 5341, 0.0968060440512

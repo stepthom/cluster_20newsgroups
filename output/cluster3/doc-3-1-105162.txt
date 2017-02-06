@@ -1,0 +1,204 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105162
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jimdean@bnr.ca (Jim Dean)
+Subject: Re: Rule Book Trivia 2
+Reply-To: jimdean@bnr.ca
+Organization: Bell-Northern Research
+Lines: 56
+
+In article <93108.171548IO20456@MAINE.MAINE.EDU>, Ryan Robbins <IO20456@MAINE.MAINE.EDU> writes:
+|> This week's play:
+|> 
+
+It took three days to get to us, but I'll try anyway as I naturally
+haven't seen the answer.
+
+|> With runners at first and second and one out, the batter hits an
+|> easy pop fly to the third baseman.
+|> 
+|> (A) The umpires declare the infield fly rule and the third baseman
+|> lets the ball drop. The runner at second heads for third and the
+|> third baseman flips the ball to the short stop who tags the bag
+|> before the runner.
+
+SAFE. The correct call is "Infield Fly, (batter out) if fair". Runners
+may advance at own risk. (Gotta tag up if caught, etc.) It is not a
+force, and the pop was not caught, so regardless of whether the SS
+tags 3B or 2B (it wasn't clear, above), he hasn't got the runner out.
+
+|> (B) The umpires don't declare the infield fly rule and the third
+|> baseman allows the ball to drop and throws to the short stop, who
+|> tags the runner from second while the runner is between second and
+|> third.
+
+OUT. See rule 6.05(L) APPROVED RULING. (Below). In this case, the
+umpire has decided for whatever reason that the infield fly rule
+doesn't apply. (Sounds like a bad call here, but that's not the
+point). The batter is not out, so a force situation is created.
+Therefore, the runner is out.  ( UNLESS, by rule 6.05(L) the ball is
+dead AND the batter is safe, then I guess the runners would advance
+unmolested.  I can't really tell from 6.05(L) that the ball is dead in
+this situation.)
+
+|> 
+|> What's the call in (A) and (B)?
+
+Pertinent rules: 2.00 Definition of Infield Fly: "When an Infield fly
+is called, runners may advance at their own risk. If on an infield fly
+rule, the infielder intentionally drops a fair ball, the ball remains
+in play despite the provisions of Rule 6.05(L). The Infield Fly rule
+takes precedence."
+
+6.05(L) A batter is out when: an infielder intentionally drops a fair
+fly ball or line drive, with first, first and second, first and thrid,
+or first,second and third base occupied before two are out. The ball
+is dead and the runners or runners shall return to their original base
+or bases. APPROVED RULING: In this situation, the batter is not out if
+the infielder permits the ball the drop untouched to the ground,
+except when the infield fly rule applies.
+
+-- 
+Jim Dean (Internet: jimdean@bnr.ca) +-----+    National Capital Baseball League
+mild-mannered computer scientist -->|Phone|--> President. Pitcher. My knuckler?
+Bell-Northern Research, Ottawa,Ont. |Booth|    Not too legit to hit!  6-0, 1.99
+Phone: (613) 763-2135 Fax: 763-8112 +-----+    Phone: (613) 723-1580
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rule book trivia      week play   took three day
+get i'll tri anyway natur haven't seen answer
+runner first second one batter hit easi pop fli
+third baseman  umpir declar infield fli rule third
+baseman let ball drop runner second head third
+third baseman flip ball short stop tag bag runner
+safe correct call infield fli batter fair runner
+advanc risk gotta tag caught etc forc pop caught
+regardless whether tag wasn't clear hasn't got
+runner  umpir don't declar infield fli rule third
+baseman allow ball drop throw short stop tag
+runner second runner second third  see rule approv
+rule case umpir decid whatev reason infield fli
+rule doesn't appli sound like bad call that point
+batter forc situat creat therefor runner unless
+rule ball dead batter safe guess runner advanc
+unmolest can't realli tell ball dead situat   what
+call  pertin rule definit infield fli infield fli
+call runner advanc risk infield fli rule infield
+intent drop fair ball ball remain play despit
+provis rule infield fli rule take preced  batter
+infield intent drop fair fli ball line drive first
+first second first thrid first second third base
+occupi two ball dead runner runner shall return
+origin base base approv rule situat batter infield
+permit ball drop untouch ground except infield fli
+rule appli    mild manner comput scientist phone
+presid pitcher knuckler bell northern research
+ottawa ont booth legit hit phone fax phone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+infield, 4627, 0.459356019471
+runner, 7545, 0.414604419711
+rule, 7537, 0.367080554249
+fli, 3542, 0.31789898494
+ball, 877, 0.264617915124
+batter, 949, 0.192960339085
+tag, 8673, 0.170331243655
+drop, 2878, 0.163743906616
+baseman, 928, 0.152334146687
+second, 7753, 0.141282512566
+umpir, 9210, 0.110549810394
+dead, 2415, 0.090460311346
+phone, 6601, 0.089071859041
+fair, 3363, 0.0859668565211
+situat, 7995, 0.0856809616388
+approv, 591, 0.0807202607555
+declar, 2447, 0.0791866817936
+pop, 6743, 0.0769633108778
+advanc, 285, 0.0767531480036
+risk, 7416, 0.0754150946683
+caught, 1568, 0.0730703585081
+intent, 4702, 0.0708097602399
+safe, 7577, 0.0702990530623
+base, 923, 0.063523552592
+appli, 584, 0.0599523002148
+stop, 8413, 0.0572156038265
+forc, 3594, 0.0560302151448
+short, 7904, 0.0534904568637
+legit, 5203, 0.0500160952963
+hit, 4316, 0.0473216070336
+provis, 6950, 0.0472726911975
+pertin, 6568, 0.0472726911975
+occupi, 6191, 0.0459149398215
+play, 6681, 0.0446269711077
+trivia, 9109, 0.0433797388277
+booth, 1227, 0.0433797388277
+ottawa, 6317, 0.042969548573
+northern, 6111, 0.042969548573
+flip, 3545, 0.0422169884706
+preced, 6806, 0.0409242959327
+permit, 6552, 0.0406363347289
+gotta, 3961, 0.0403601303777
+manner, 5486, 0.0389046723648
+bag, 864, 0.0389046723648
+regardless, 7225, 0.038689858544
+despit, 2570, 0.036234415649
+bell, 1011, 0.03540488012
+hasn, 4195, 0.0346660303911
+scientist, 7694, 0.0342147920811
+shall, 7846, 0.0333936563881
+presid, 6839, 0.0324061224323
+remain, 7264, 0.0316932461213
+ground, 4061, 0.0303972857412
+throw, 8899, 0.0303354947453
+therefor, 8855, 0.0302135803294
+took, 8987, 0.0298604880255
+easi, 2959, 0.0298604880255
+whatev, 9718, 0.0295249117974
+wasn, 9652, 0.029363165441
+drive, 2873, 0.029363165441
+decid, 2442, 0.0293100979766
+definit, 2484, 0.0292574434927
+return, 7346, 0.0288999077218
+haven, 4207, 0.0288999077218
+natur, 5966, 0.0286556188404
+head, 4215, 0.0285603205463
+fax, 3413, 0.0284198435205
+unless, 9289, 0.0275512079419
+pitcher, 6644, 0.0268915274727
+sound, 8150, 0.0265666938777
+guess, 4079, 0.0262231649211
+creat, 2217, 0.026156503623
+correct, 2156, 0.0260577271676
+research, 7307, 0.0260251195525
+clear, 1803, 0.0259603720055
+allow, 432, 0.0259282291088
+seen, 7767, 0.0251135097909
+answer, 535, 0.0249728380498
+week, 9691, 0.0249173781734
+bad, 861, 0.0249173781734
+book, 1218, 0.0242349485235
+origin, 6293, 0.0240623983009
+case, 1540, 0.0235245693769
+comput, 1993, 0.0234574673357
+line, 5285, 0.0224272036429
+got, 3960, 0.0222016471889
+tell, 8767, 0.0221098402577
+doesn, 2793, 0.0219476631108
+reason, 7156, 0.0218241591101
+ll, 5314, 0.021433537371
+let, 5225, 0.0213678468838
+realli, 7150, 0.0200772863979
+day, 2402, 0.0200637947344
+tri, 9087, 0.0195951874839
+point, 6710, 0.0190982610159
+don, 2811, 0.0153470115642
+like, 5272, 0.0142467263904

@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61147
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: asimov@wk223.nas.nasa.gov (Daniel A. Asimov)
+Subject: Re: Sunrise/ sunset times
+Organization: NAS, NASA Ames Research Center, Moffett Field, California
+Lines: 19
+
+In article <1993Apr21.141824.23536@cbis.ece.drexel.edu> jpw@cbis.ece.drexel.edu (Joseph Wetstein) writes:
+>
+>Hello. I am looking for a program (or algorithm) that can be used
+>to compute sunrise and sunset times.
+>
+>Joe Wetstein
+
+There is a wonderful book by Jean Meeus called
+"Astronomical Algorithms," (1991) which I am fairly sure
+contains an algorithm for sunrise and sunset times.
+
+
+Dan Asimov
+Mail Stop T045-1
+NASA Ames Research Center
+Moffett Field, CA 94035-1000
+
+asimov@nas.nasa.gov
+(415) 604-4799
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time      hello look program
+algorithm use comput sunris sunset time  joe
+wetstein  wonder book jean meeus call astronom
+algorithm fair sure contain algorithm sunris
+sunset time   dan asimov mail stop t045 nasa ame
+research center moffett field
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sunset, 8548, 0.494949040366
+sunris, 8547, 0.494949040366
+algorithm, 407, 0.335634659803
+wetstein, 9712, 0.200656376314
+moffett, 5819, 0.194914247442
+asimov, 688, 0.190222586541
+jean, 4836, 0.186255843769
+time, 8936, 0.183425656758
+dan, 2350, 0.139543183392
+ame, 465, 0.129309650597
+astronom, 728, 0.128130838761
+joe, 4876, 0.127749603761
+hello, 4247, 0.127373934434
+contain, 2079, 0.113133731952
+fair, 3363, 0.108983836152
+stop, 8413, 0.108801977502
+center, 1606, 0.103869820534
+research, 7307, 0.0989794490549
+nasa, 5956, 0.0968436983002
+field, 3466, 0.0968436983002
+wonder, 9821, 0.0934360307602
+book, 1218, 0.0921710214582
+comput, 1993, 0.0892140836637
+mail, 5447, 0.0884633139573
+sure, 8585, 0.0828695969207
+program, 6905, 0.079875475845
+look, 5341, 0.0642190307049
+use, 9363, 0.0568321670109

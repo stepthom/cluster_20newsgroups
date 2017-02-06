@@ -1,0 +1,261 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83630
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva)
+Subject: OTO, the Ancient Order of Oriental Templars
+Organization: The Portal System (TM)
+Distribution: world
+  <1993Apr14.130150.28931@lynx.dac.northeastern.edu>
+Lines: 68
+
+93!04.16 e.v.  After the Glorious Eve of Taxation
+
+Do what thou wilt shall be the whole of the Law.
+The word of Sin is Restriction.
+
+
+"To all whom it may concern -
+
+...
+
+"It is known only to a few that there exists an external visible
+organization of such men and women, who having themselves found
+the path to real self-knowledge, and who, having travelled the
+burning sands, are willing to give the benefit of their experience,
+and to act as spiritual guides to those who are willing to be
+guided.
+
+"While numberless societies, associations, orders, groups etc.
+have been founded during the last thirty years in all parts of
+the civilised world, all following some line of occult study,
+yet there is but ONE ancient organization of genuine Mystics
+which shows the seeker after truth a Royal Road to discover
+The Lost Mysteries of Antiquity, and to the Unveiling of the
+One Hermetic Truth.
+
+"This organization is known at the present time as the Ancient
+Order of Oriental Templars.  Ordo Templi Orientis.  Otherwise:
+The Hermetic Brotherhood of Light.
+
+"It is a Modern School of Magic.  And, like the ancient schools
+of magic, it derived its knowledge from the East.  This Knowledge
+was never its possessors.[sic] It was recorded in symbol, parable 
+and allegory, requiring a Key for its interpretation....
+
+"This key can be placed within the reach of all those who... apply
+for membership to the Oriental Templars (O.T.O.). 
+
+"The O.T.O.... is a body of Initiates in whose hands are
+concentrated the secret knowledge of all Oriental Orders and of all
+existing Masonic Degrees....
+
+"The O.T.O., although an Academia Masonica, is not a Masonic Body,
+so far as the Craft degrees are concerned in the sense in which that
+expression is usually understood in England, and therefore in no way
+conflicts with or infringes the just priveleges of the United Lodge
+of England.  English Master Masons in good standing, by arrangement,
+on affiliation, are admitted at reduced charges.  Members of the IX
+degree become part-proprietors of the Estates and Goods of the Order.
+For further information see the publications of the O.T.O., and the
+synopsis of the degrees of the O.T.O."
+
+'Constitution of the Ancient Order of Oriental Templars,
+ Ordo Templi Orientis', 
+
+by Frater Superior Merlin Peregrinus X Degree, 
+Past Grand Master Albert Karl Theodor Reuss
+
+
+Taken from _Equinox III: 10_, 
+Edited by Frater Superior Rex Summus Sanctissimus,
+United States Caliph of Ordo Templi Orientis
+
+
+Invoke me under my stars.  Love is the law, love under will.
+
+I am I!
+
+Frater (I) Nigris (DCLXVI) (CCCXXXIII) 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oto ancient order orient templar      glorious
+eve taxat  thou wilt shall whole law word sin
+restrict   concern    known exist extern visibl
+organ men women found path real self knowledg
+travel burn sand will give benefit experi act
+spiritu guid will guid  numberless societi associ
+order group etc found last thirti year part
+civilis world follow line occult studi yet one
+ancient organ genuin mystic show seeker truth
+royal road discov lost mysteri antiqu unveil one
+hermet truth  organ known present time ancient
+order orient templar ordo templi orienti otherwis
+hermet brotherhood light  modern school magic like
+ancient school magic deriv knowledg east knowledg
+never possessor sic record symbol parabl allegori
+requir key interpret  key place within reach appli
+membership orient templar  bodi initi whose hand
+concentr secret knowledg orient order exist mason
+degre  although academia masonica mason bodi far
+craft degre concern sens express usual understood
+england therefor way conflict infring priveleg
+unit lodg england english master mason good stand
+arrang affili admit reduc charg member degre becom
+part proprietor estat good order inform see public
+synopsi degre  constitut ancient order orient
+templar ordo templi orienti  frater superior
+merlin peregrinus degre past grand master albert
+karl theodor reuss   taken equinox iii edit frater
+superior rex summus sanctissimus unit state caliph
+ordo templi orienti   invok star love law love
+frater nigri dclxvi cccxxxiii
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+templar, 8775, 0.267530875291
+ancient, 500, 0.259555313408
+orient, 6290, 0.237618833366
+frater, 3661, 0.223936823178
+degre, 2491, 0.222121056508
+templi, 8777, 0.207865519741
+orienti, 6291, 0.204030703827
+order, 6281, 0.203038446086
+ordo, 6283, 0.200648156468
+mason, 5531, 0.1900876672
+knowledg, 5053, 0.170647687283
+hermet, 4270, 0.149291215452
+organ, 6287, 0.120236822732
+superior, 8562, 0.113454365233
+england, 3110, 0.111363674925
+master, 5537, 0.10831827958
+guid, 4082, 0.10569147633
+magic, 5435, 0.102119168837
+school, 7685, 0.0901112300951
+truth, 9132, 0.0890531907559
+key, 4994, 0.0878561985222
+unit, 9278, 0.0869128727664
+bodi, 1194, 0.0829374842842
+concern, 2004, 0.0827884902266
+law, 5153, 0.0822038451115
+theodor, 8843, 0.077399536391
+taxat, 8719, 0.077399536391
+caliph, 1461, 0.077399536391
+known, 5054, 0.0765168878803
+love, 5366, 0.0759894264278
+unveil, 9326, 0.0746456077258
+dclxvi, 2408, 0.0746456077258
+cccxxxiii, 1580, 0.0746456077258
+allegori, 424, 0.0746456077258
+wilt, 9769, 0.0725094946995
+parabl, 6412, 0.0725094946995
+civilis, 1780, 0.0725094946995
+brotherhood, 1342, 0.0725094946995
+rex, 7370, 0.0707641632742
+reuss, 7350, 0.0707641632742
+nigri, 6066, 0.0707641632742
+genuin, 3833, 0.0707641632742
+estat, 3199, 0.0707641632742
+equinox, 3160, 0.0707641632742
+exist, 3283, 0.0686473377554
+karl, 4957, 0.0680102346091
+glorious, 3909, 0.0680102346091
+antiqu, 545, 0.0668827188227
+sic, 7932, 0.0658741215827
+eve, 3231, 0.0658741215827
+lodg, 5326, 0.0649617343978
+oto, 6315, 0.0626531334636
+mystic, 5943, 0.0626531334636
+occult, 6189, 0.0613748614923
+merlin, 5646, 0.0613748614923
+affili, 311, 0.0607945129068
+membership, 5626, 0.0602473457059
+thirti, 8877, 0.0597297699347
+sand, 7605, 0.059238748466
+spiritu, 8239, 0.058771689012
+invok, 4749, 0.058771689012
+symbol, 8644, 0.0579008325642
+understood, 9248, 0.0571026354397
+conflict, 2034, 0.0571026354397
+albert, 383, 0.0560177603468
+iii, 4502, 0.0556818374626
+concentr, 2001, 0.0556818374626
+thou, 8886, 0.0553573040144
+grand, 3991, 0.0550434129463
+craft, 2207, 0.0550434129463
+arrang, 652, 0.0547394883756
+secret, 7755, 0.0544449168295
+mysteri, 5942, 0.0544449168295
+extern, 3322, 0.0544449168295
+constitut, 2070, 0.05415913979
+restrict, 7330, 0.053094396818
+english, 3111, 0.0512654594474
+royal, 7503, 0.0510595844183
+travel, 9069, 0.050858043924
+women, 9819, 0.0506606592013
+deriv, 2550, 0.0502776953385
+discov, 2698, 0.0499094645602
+reduc, 7204, 0.0497305281376
+good, 3948, 0.0492152359471
+path, 6461, 0.0492129523664
+visibl, 9541, 0.0490464643458
+benefit, 1028, 0.0478095437127
+shall, 7846, 0.0472462742038
+modern, 5811, 0.0472462742038
+initi, 4647, 0.0464590237012
+admit, 276, 0.0464590237012
+sin, 7976, 0.0462103650483
+men, 5629, 0.0459680022325
+express, 3315, 0.0457316242996
+edit, 2996, 0.0456155886984
+charg, 1664, 0.0455009427785
+societi, 8093, 0.045387653647
+interpret, 4720, 0.0451650198942
+associ, 706, 0.0450556150475
+burn, 1413, 0.0448404864461
+road, 7431, 0.0446300863307
+self, 7776, 0.0444242113016
+east, 2965, 0.0435489281161
+taken, 8678, 0.0433648297522
+otherwis, 6313, 0.0429195020212
+therefor, 8855, 0.0427470141133
+act, 249, 0.0427470141133
+member, 5625, 0.0424110912291
+appli, 584, 0.0424110912291
+lost, 5355, 0.0423289205967
+reach, 7128, 0.0416194983269
+stand, 8311, 0.0414687421421
+star, 8324, 0.0413942451133
+studi, 8469, 0.041174170596
+record, 7184, 0.040475114131
+past, 6456, 0.040475114131
+usual, 9377, 0.0404079361719
+experi, 3295, 0.0400789409106
+sens, 7788, 0.0398868377439
+becom, 983, 0.0383660048458
+present, 6837, 0.0383120733235
+light, 5267, 0.0380993352377
+public, 6973, 0.0367751503732
+requir, 7302, 0.0356120761807
+hand, 4145, 0.0347218397651
+word, 9829, 0.0342882794848
+state, 8342, 0.033941400234
+group, 4064, 0.0333150716378
+real, 7144, 0.0328176704155
+place, 6657, 0.0327874245139
+world, 9841, 0.0320607616813
+far, 3386, 0.031977155736
+line, 5285, 0.0317306317291
+inform, 4637, 0.0314639621209
+follow, 3578, 0.0314639621209
+way, 9666, 0.02504132709
+year, 9943, 0.0240583094417
+time, 8936, 0.0227452189206
+like, 5272, 0.0201566648985

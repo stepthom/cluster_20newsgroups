@@ -1,0 +1,280 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61567
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Vandalizing the sky.
+Organization: Univ. of Southwestern Louisiana
+Lines: 69
+
+rbunge@access.digex.net (Robert Bunge) writes:
+
+>That's fine idea, but it only works if the lighting/power company even bothers to supply good light fixtures.  For instance, a power company in Virginia 
+>recently asked a state commission for permission to sell more lights of various
+>type.  Yet, all of the different fixture that they sold and wanted to sell
+
+Uh, why do they have to ask a state commision? Unless the state's buying...
+
+Such a process will only increace the overhead to the power company
+of selling different types of light, and will decreace the likleihood
+that they will do so. And any efficient lights they might have been
+planning in the future, go down the drain.....
+
+>were bad designs - one that wasted the light.  Thus, you couldn't even buy
+>a good light from them.  In most places, to get a good light, you have to
+>either order it special at high cost or call a store in Arizona.
+
+You could order it special. If enough people did so, it would be 
+low cost. Last I checked, you could use UPS to buy stuff in Arizona
+before going there.
+
+Finally, I'm sure your state has things like small factories and
+machine shops. You could go into business making lights that are
+cheaper to use (thanks to their higher efficiency and the
+fact that they aren't wasting energy on broadcasting to space)
+and therefore _better_ than the old style...
+
+>  At some
+>point, society starts to make rules.  Cars have to pass safety tests.
+
+Five year plans have to be enacted or the planning for the economy
+will fall apart.
+  
+>Companies have to meet pollution standards, etc..
+
+As if the clean air act really cleaned up the air...
+
+>  There are two ways to achieve this:  educate the public so that they demand good lighting or force code
+>down the lighting companies backs.  History seems to suggest that the latter
+>is more likely to work.
+
+_MY_ *experience* seems to suggest that you're trying too hard
+to *educate* them (with the same methods used in American schools
+to make any subject whatsoever as relevant and boring as Proto-Ugric)
+instead of *selling* them on the idea.
+
+...
+>Agreed, so I won't respond again.  It's important for all you spacers out 
+>there to realize that some people will object to various wild ideas that 
+>have been presented.  Just like Congress, it would be best to consult
+>the astronomers/lovers of the night sky before you try some PR stunt
+>to boost public knowledge about space.
+
+Well, wake up. Space is becoming a field of human endeavor
+instead of just something we can look at from a long long
+way away. There are practical space projects that could conceivably
+(although probably not) cause lots of light pollution, and 
+have been argued against on those grounds, even though they
+might open up such possibilities, that people could vacation on
+Mars if they wanted really dark skies...
+
+
+>Bob Bunge
+>rbunge@access.digex.com
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky      that fine idea work light power
+compani even bother suppli good light fixtur
+instanc power compani virginia recent ask state
+commiss permiss sell light various type yet differ
+fixtur sold want sell  ask state commis unless
+state buy  process increac overhead power compani
+sell differ type light decreac likleihood effici
+light might plan futur drain  bad design one wast
+light thus couldn't even buy good light place get
+good light either order special high cost call
+store arizona  could order special enough peopl
+low cost last check could use up buy stuff arizona
+go  final i'm sure state thing like small factori
+machin shop could busi make light cheaper use
+thank higher effici fact aren't wast energi
+broadcast space therefor better old style   point
+societi start make rule car pass safeti test  five
+year plan enact plan economi fall apart  compani
+meet pollut standard etc  clean air act realli
+clean air  two way achiev educ public demand good
+light forc code light compani back histori seem
+suggest latter like work  experi seem suggest
+you'r tri hard educ method use american school
+make whatsoev relev bore proto ugric instead sell
+idea   agre won't respond it import spacer realiz
+peopl object various wild idea present like
+congress best consult astronom lover night sky tri
+stunt boost public knowledg space  well wake space
+becom field human endeavor instead someth look
+long long way away practic space project could
+conceiv although probabl caus lot light pollut
+argu ground even though might open possibl peopl
+could vacat mar want realli dark sky   bob bung
+phil fraer seem like everi day find sort stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+light, 5267, 0.503244258935
+compani, 1958, 0.219175122539
+sell, 7778, 0.20084150189
+fixtur, 3512, 0.15578425312
+state, 8342, 0.149441057186
+buy, 1433, 0.143501205383
+sky, 8011, 0.136691467687
+plan, 6660, 0.129103065912
+arizona, 639, 0.125708988866
+space, 8164, 0.119556456563
+power, 6783, 0.117330911464
+pollut, 6726, 0.116885024431
+effici, 3006, 0.115283686023
+clean, 1799, 0.109092920125
+good, 3948, 0.108345219096
+idea, 4482, 0.108071337839
+educ, 3002, 0.105899134828
+air, 357, 0.0991879931064
+wast, 9654, 0.0989498645832
+special, 8198, 0.0939183807166
+various, 9432, 0.0930059373344
+instead, 4682, 0.0904841096235
+like, 5272, 0.08874805668
+peopl, 6530, 0.0857661918331
+type, 9177, 0.0823122806289
+increac, 4589, 0.0821645428291
+bung, 1401, 0.0821645428291
+public, 6973, 0.0809589072939
+stuff, 8472, 0.0807581995856
+suggest, 8525, 0.0803624292673
+cost, 2169, 0.0800704040393
+drain, 2857, 0.0798132624847
+make, 5459, 0.0792851409345
+stunt, 8475, 0.0778921265598
+endeavor, 3093, 0.0778921265598
+factori, 3353, 0.0748607989753
+order, 6281, 0.0744967302056
+wake, 9613, 0.0736197102905
+ask, 689, 0.0729933522144
+vacat, 9404, 0.070588382706
+commiss, 1943, 0.070588382706
+use, 9363, 0.069814711691
+bore, 1231, 0.0689640854256
+overhead, 6341, 0.0682371023616
+lover, 5367, 0.0669182489324
+long, 5336, 0.0664018966166
+economi, 2985, 0.0663159664367
+conceiv, 2000, 0.0657462560691
+whatsoev, 9719, 0.0652057747772
+shop, 7901, 0.0652057747772
+differ, 2633, 0.0648907323134
+realli, 7150, 0.0625343711387
+fraer, 3640, 0.0616603415718
+permiss, 6551, 0.0612905817018
+tri, 9087, 0.0610327861229
+sold, 8109, 0.0609333585079
+consult, 2076, 0.0599290679914
+work, 9833, 0.0597045423669
+car, 1510, 0.0593090612274
+congress, 2040, 0.0590122225829
+virginia, 9533, 0.058723517536
+style, 8479, 0.058723517536
+apart, 559, 0.0579020309234
+want, 9634, 0.0574070651283
+wild, 9758, 0.0573879253025
+relev, 7254, 0.0566609422385
+boost, 1224, 0.0564293488492
+demand, 2514, 0.055550750579
+safeti, 7579, 0.0551374789815
+instanc, 4680, 0.0551374789815
+bother, 1245, 0.0551374789815
+way, 9666, 0.0551274014606
+cheaper, 1678, 0.0549367667218
+broadcast, 1324, 0.0549367667218
+vandal, 9419, 0.053986837848
+suppli, 8574, 0.0536296146541
+store, 8417, 0.0534554441591
+achiev, 232, 0.0534554441591
+astronom, 728, 0.0524668688954
+phil, 6588, 0.0518558528103
+meet, 5615, 0.0518558528103
+mar, 5500, 0.0518558528103
+argu, 628, 0.0518558528103
+energi, 3102, 0.0512783343097
+respond, 7322, 0.0504673900443
+societi, 8093, 0.0499594808804
+dark, 2365, 0.0499594808804
+school, 7685, 0.0495939965532
+busi, 1424, 0.0485679576801
+realiz, 7149, 0.0483529078683
+higher, 4293, 0.0483529078683
+fall, 3369, 0.0482470067253
+machin, 5416, 0.047935543408
+couldn, 2176, 0.047935543408
+method, 5666, 0.0474360624598
+ground, 4061, 0.0473389458734
+therefor, 8855, 0.0470528538643
+pass, 6448, 0.0470528538643
+act, 249, 0.0470528538643
+knowledg, 5053, 0.0469591903583
+american, 469, 0.0468663520922
+fine, 3485, 0.046774324651
+bob, 1189, 0.0463258708003
+practic, 6793, 0.0461517003053
+aren, 623, 0.0459803619768
+histori, 4314, 0.0455638225625
+won, 9820, 0.0449298223369
+futur, 3737, 0.0444781642669
+experi, 3295, 0.0441160298284
+rule, 7537, 0.0439745904559
+forc, 3594, 0.0436290816324
+low, 5368, 0.0434270867879
+test, 8812, 0.0432945432159
+standard, 8313, 0.0431636461905
+check, 1682, 0.0429702999395
+unless, 9289, 0.0429066316187
+night, 6063, 0.0427804375949
+caus, 1569, 0.0426557370267
+process, 6890, 0.0425939358229
+becom, 983, 0.0422305523979
+present, 6837, 0.0421711884378
+recent, 7168, 0.041879284036
+code, 1871, 0.041879284036
+open, 6258, 0.0418218611417
+away, 833, 0.041764749484
+final, 3482, 0.041373407291
+small, 8054, 0.0410491640145
+design, 2564, 0.0409432628715
+agre, 337, 0.0407863804444
+human, 4432, 0.0406830749598
+sort, 8144, 0.040529991274
+import, 4551, 0.039938972355
+hard, 4167, 0.0398911850848
+old, 6216, 0.0398436135591
+field, 3466, 0.0396554465045
+project, 6909, 0.0391103038213
+object, 6173, 0.0388048599701
+bad, 861, 0.0388048599701
+fact, 3350, 0.0361567409812
+place, 6657, 0.0360900504103
+everi, 3235, 0.0360900504103
+high, 4292, 0.0356346738374
+best, 1052, 0.0352287511243
+possibl, 6765, 0.0345467896186
+probabl, 6885, 0.0344610056303
+sure, 8585, 0.0339333474993
+start, 8334, 0.0333536622138
+lot, 5356, 0.0328774707799
+better, 1060, 0.0315226423241
+day, 2402, 0.0312461744457
+someth, 8126, 0.0310177756998
+point, 6710, 0.0297425089926
+thank, 8832, 0.0295085421209
+thing, 8869, 0.0287863065565
+year, 9943, 0.0264816652546
+look, 5341, 0.0262963350367

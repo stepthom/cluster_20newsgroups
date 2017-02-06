@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104325
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kahn@troi.cc.rochester.edu (James Kahn)
+Subject: Re: Tigers-A's
+Organization: University of Rochester (Rochester, NY)
+Lines: 11
+Nntp-Posting-Host: troi.cc.rochester.edu
+
+In article <1993Apr14.185317.12231@sbcs.sunysb.edu> wynblatt@sbgrad5.cs.sunysb.edu (Michael Wynblatt) writes:
+>
+>Weird thing:  Leading 20-4 going into the top of the ninth, Sparky
+>	      used his ace closer, Henneman.  The tigers have 8 relievers
+>	      and at least 6 were rested/available.  Does Sparky trust
+>	      them that little ?
+
+I think he just wanted to get Henneman some work, because the 
+Tigers had days off both the day before and the day after.
+
+Jim
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiger a       weird thing lead go top ninth
+sparki use ace closer henneman tiger reliev least
+rest avail sparki trust littl  think want get
+henneman work tiger day day day  jim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiger, 8928, 0.486335518697
+henneman, 4257, 0.46042864256
+sparki, 8188, 0.431858753547
+day, 2402, 0.270380508903
+ace, 229, 0.198920826247
+weird, 9697, 0.186597418069
+trust, 9130, 0.180106203999
+reliev, 7258, 0.170215554987
+ninth, 6075, 0.169382810724
+closer, 1831, 0.154689896813
+jim, 4868, 0.138861815605
+rest, 7324, 0.129818774905
+lead, 5172, 0.123396401781
+avail, 811, 0.105571875689
+littl, 5308, 0.102149020366
+work, 9833, 0.086106245193
+thing, 8869, 0.0830315641756
+want, 9634, 0.08279280989
+think, 8871, 0.0696096737635
+use, 9363, 0.0671247942466

@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104833
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: brian@meaddata.com (Brian Curran)
+Subject: Re: "You could look it up."
+Organization: Mead Data Central, Dayton OH
+Lines: 19
+Distribution: world
+NNTP-Posting-Host: taurus.meaddata.com
+
+In article <1993Apr21.173432.28160@alchemy.chem.utoronto.ca>, Mark B. writes:
+|> 
+|> Yes, I could look it up but I prefer to post this question 
+|> to the net...
+|> 
+|> I read somewhere in a long forgotten article that the handsignals 
+|> used by major league umps were originally used to help a 
+|> deaf ball player by the name of "Dummy". Urban myth? True? 
+|> I gots ta know.
+
+True.  William "Dummy" Hoy was baseball's first deaf player.  He
+played in the bigs from 1888 through 1903 for several teams, including
+the White Sox and Reds.
+-- 
+------------------------------------------------------------------------------
+Brian Curran                 Mead Data Central              brian@meaddata.com 
+------------------------------------------------------------------------------
+    "I've never had a coach in my life.  When I find one who can beat me,
+           then I'll listen."   - Lee Trevino, professional golfer
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ could look        yes could look prefer post
+question net  read somewher long forgotten articl
+handsign use major leagu ump origin use help deaf
+ball player name dummi urban myth true got know
+true william dummi hoy basebal first deaf player
+play big sever team includ white sox red     i'v
+never coach life find one beat i'll listen lee
+trevino profession golfer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dummi, 2915, 0.405081249142
+deaf, 2417, 0.395330787677
+handsign, 4151, 0.208507424758
+golfer, 3938, 0.208507424758
+urban, 9349, 0.193543444987
+true, 9121, 0.190771167072
+player, 6683, 0.184537054877
+forgotten, 3608, 0.184006050294
+myth, 5944, 0.16416683979
+ump, 9209, 0.159504675829
+coach, 1856, 0.154629445097
+profession, 6900, 0.138912183445
+lee, 5190, 0.137466440093
+listen, 5300, 0.136544288766
+william, 9764, 0.134369127648
+look, 5341, 0.133463435937
+beat, 974, 0.131219640087
+somewher, 8130, 0.124957370171
+sox, 8162, 0.123527096729
+prefer, 6819, 0.122169458031
+use, 9363, 0.11811165939
+white, 9737, 0.114609618361
+net, 6010, 0.107624784246
+leagu, 5176, 0.107319183909
+red, 7194, 0.107017036758
+ball, 877, 0.104577944559
+sever, 7823, 0.0986935473296
+life, 5260, 0.0984743679189
+major, 5458, 0.0981489309803
+yes, 9951, 0.0974046357369
+origin, 6293, 0.095095456946
+includ, 4579, 0.0920101704685
+big, 1082, 0.091083661652
+basebal, 924, 0.0901082438968
+team, 8732, 0.0887846096319
+play, 6681, 0.0881836913455
+got, 3960, 0.0877417021354
+articl, 665, 0.0861808499595
+ll, 5314, 0.0847061047187
+long, 5336, 0.0842534260268
+read, 7135, 0.0813976666102
+question, 7032, 0.0809405659341
+help, 4249, 0.078557312416
+post, 6766, 0.0780949423068
+know, 5052, 0.0575969367292

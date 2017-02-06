@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84310
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: exuptr@exu.ericsson.se (Patrick Taylor, The Sounding Board)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Nntp-Posting-Host: 138.85.253.85
+Organization: Ericsson Network Systems, Inc.
+X-Disclaimer: This article was posted by a user at Ericsson.
+              Any opinions expressed are strictly those of the
+              user and not necessarily those of Ericsson.
+Lines: 19
+
+In article <C5uvqo.GB7@murdoch.acc.Virginia.EDU> rwd4f@poe.acc.Virginia.EDU (Rob Dobson) writes:
+>In article <sandvik-190493200323@sandvik-kent.apple.com> sandvik@newton.apple.com (Kent Sandvik) writes:
+
+>>I'm mostly angry why the Davidians didn't spare the children the
+>>awful suffering. See my other posting, I'm in a bad temper.
+
+>Well, dozens of children left the compound between the original BATF assualt
+>and the FBI assault 7 weeks later. So if Koresh really wanted to kill
+>children, why did he let so many go?
+
+Word is that the ones he let go were not his.
+---
+ ----------------------------------------------------------------------------
+ ---------Visit the SOUNDING BOARD BBS +1 214 596 2915, a Wildcat! BBS-------
+
+    "Foot" the Bill:  let's get a new President.
+
+    Patrick Taylor, Ericsson Network Systems  THX-1138
+    exuptr@exu.ericsson.se                    "Don't let the .se fool you"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen   disclaim articl post
+user ericsson opinion express strict user
+necessarili ericsson      i'm most angri davidian
+didn't spare children aw suffer see post i'm bad
+temper  well dozen children left compound origin
+batf assualt fbi assault week later koresh realli
+want kill children let mani  word one let   visit
+sound board bbs wildcat bbs  foot bill let get new
+presid  patrick taylor ericsson network system thx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ericsson, 3172, 0.488632611376
+children, 1707, 0.291013073808
+bbs, 961, 0.221093375683
+presid, 6839, 0.205980909429
+let, 5225, 0.203728564388
+user, 9366, 0.185635068331
+thx, 8912, 0.167675871884
+assualt, 709, 0.167675871884
+temper, 8772, 0.158957012162
+assault, 697, 0.155642255537
+angri, 512, 0.145923059455
+taylor, 8721, 0.142330836349
+patrick, 6466, 0.140737266396
+batf, 945, 0.132018406674
+dozen, 2848, 0.128269224083
+strict, 8445, 0.126614303578
+spare, 8186, 0.125832277254
+post, 6766, 0.12560356118
+compound, 1983, 0.122299210592
+foot, 3587, 0.119839004319
+visit, 9544, 0.116113081172
+fbi, 3414, 0.114242044737
+davidian, 2398, 0.113364234942
+aw, 829, 0.113364234942
+suffer, 8521, 0.108738618814
+necessarili, 5991, 0.107722523307
+disclaim, 2691, 0.105523185016
+koresh, 5065, 0.103257580559
+board, 1186, 0.103257580559
+express, 3315, 0.102726606571
+network, 6018, 0.0995622236628
+kill, 5012, 0.0920059905357
+later, 5140, 0.090174812044
+messag, 5650, 0.0888970092025
+left, 5193, 0.0855822525773
+sound, 8150, 0.0844320664541
+opinion, 6266, 0.080548906147
+week, 9691, 0.0791903478652
+bad, 861, 0.0791903478652
+word, 9829, 0.0770215064646
+origin, 6293, 0.0764731216366
+happen, 4159, 0.0757880010825
+didn, 2625, 0.0718300464254
+articl, 665, 0.0693042426353
+realli, 7150, 0.0638079689995
+new, 6023, 0.062638566494
+mani, 5479, 0.0609956935293
+want, 9634, 0.0585762384007
+know, 5052, 0.0463178546046

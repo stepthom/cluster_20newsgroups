@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83672
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ch981@cleveland.Freenet.Edu (Tony Alicea)
+Subject: Re: Rosicrucian Order(s) ?!
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 18
+Reply-To: ch981@cleveland.Freenet.Edu (Tony Alicea)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, cdcolvin@rahul.net (Christopher D. Colvin) says:
+
+>I worked at AMORC when I was in HS.
+
+OK: So you were a naive teen.
+
+>He [HS Lewis] dates back to the 20's. 
+
+	Wrong: 1915 and if you do your homework, 1909.
+But he was born LAST century (1883).
+
+>
+>Right now AMORC is embroiled in some internal political turmoil. 
+
+No it isn't. 
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rosicrucian order         work amorc  naiv teen
+lewi date back  wrong homework born last centuri
+right amorc embroil intern polit turmoil  isn't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+amorc, 477, 0.528058639007
+embroil, 3066, 0.30732887621
+teen, 8747, 0.298534129461
+homework, 4357, 0.291348298146
+naiv, 5949, 0.271215150819
+rosicrucian, 7486, 0.241973207631
+lewi, 5235, 0.23838774103
+born, 1233, 0.201932775801
+centuri, 1614, 0.193962023281
+polit, 6723, 0.191279835196
+intern, 4716, 0.175299257132
+date, 2391, 0.173277636828
+wrong, 9869, 0.144666314374
+isn, 4783, 0.144349742752
+order, 6281, 0.139324065996
+right, 7399, 0.119890989562
+work, 9833, 0.111659660472

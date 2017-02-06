@@ -1,0 +1,247 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104653
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: maynard@ramsey.cs.laurentian.ca (Roger Maynard)
+Subject: Re: Jack Morris
+Organization: Dept. of Computer Science, Laurentian University, Sudbury, ON
+Lines: 71
+
+In <48178@sdcc12.ucsd.edu> demers@cs.ucsd.edu (David DeMers) writes:
+
+
+>In article <1993Apr19.212428.7530@ramsey.cs.laurentian.ca>, maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+
+>The facts are that Morris
+>|> has shown us that he has what it takes to play on a WS winning club.
+>|> Clemens hasn't. 
+
+>What *does* it take to play on a WS winning club?
+
+We have no way of knowing because we cannot separate Morris' contribu-
+tion  from the rest of the team's.  There is only one way of determin-
+ing "best" in baseball.  And that is by looking at the  scoreboard  at
+the  end  of  the game.  Each game determines which *team* is the best
+that day.  At the end of the season, the team that was  the  best  the
+most  often  is  the best in the division.  The playoffs determine the
+best of the best.  But the point is that the only decision making pro-
+cess  used to determine the "best" is the score of the game and it re-
+lates to the *teams*.  Not the individual players.  There is no method
+inherent  in  baseball of comparing individual performances.  And that
+is how it should be, because, after all, baseball is a team game.
+
+To say that one player is better than another is to be able to say ab-
+solutely  that  player A's team would have played better with player B
+in their lineup.  Sheer speculation.  Impossible to ascertain.
+
+If you want to select a group of statistics and claim that Clemens has
+done  better  with those statistics as a criteria, then fine.  But you
+have  to  be  able  to  prove  that  those  statistics   measure   the
+individual's  contribution  to  winning  the WS - because  that is the
+only measure of "best" that has any meaning in the  context  of  base-
+ball.   So  until you can prove that Clemens contributes to a WS cham-
+pionship more than Morris your evaluation of  Clemens is totally  sub-
+jective  and  is  mere opinion.  I have yet to see that any of you can
+predict a WS winner with any greater accuracy than Jeanne Dixon.
+
+>The fact is that Morris didn't "win" any ballgames, Toronto did, in
+>spite of Morris' "contribution".   This has been explained to you
+
+Exactly.  The Jays won with Morris pitching.   And  Boston  wins  with
+Clemens pitching.  I am not saying that Morris is better than Clemens.
+I am saying that individual comparisons between  players  are  totally
+meaningless  and  that anyone claiming that Clemens is better based on
+his ERA has missed the point of what baseball is all about.
+
+>many, many times and you are either too stupid or too stubborn to grasp it.
+
+You don't have to be rude.
+
+>You are completely consumed by the post hoc, ergo propter hoc fallacy.
+
+For you to say that means that you have either missed the entire point
+of  my  argument, or you yourself have committed a fallacy - Ignoratio
+Elenchi.  I am not saying that Morris is better than Clemens   because
+he   has  more   rings   (although  I  have,  tongue in cheek, claimed
+that in the past).  I am saying that it is impossible to  isolate   an
+individual's  performance   from that of his team's for the purpose of
+comparing that individual's performance with another individual's per-
+formance.
+
+The stats are a nice hobby and  that's  about  it.  There  is  no  new
+knowledge being produced.  So when a poster claims that Morris is better
+than Clemens because he has more rings, the poster is no more nor less 
+incorrect than the rest of you baying hounds.
+
+-- 
+
+cordially, as always,                      maynard@ramsey.cs.laurentian.ca 
+                                           "So many morons...
+rm                                                   ...and so little time." 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri         fact morri shown take play win
+club clemen hasn't  take play win club  way know
+cannot separ morri contribu tion rest team one way
+determin ing best basebal look scoreboard end game
+game determin team best day end season team best
+often best divis playoff determin best best point
+decis make pro cess use determin best score game
+late team individu player method inher basebal
+compar individu perform basebal team game  say one
+player better anoth abl say solut player a team
+play better player lineup sheer specul imposs
+ascertain  want select group statist claim clemen
+done better statist criteria fine abl prove
+statist measur individu contribut win measur best
+mean context base ball prove clemen contribut cham
+pionship morri evalu clemen total sub jectiv mere
+opinion yet see predict winner greater accuraci
+jeann dixon  fact morri didn't win ballgam toronto
+spite morri contribut explain  exact jay morri
+pitch boston win clemen pitch say morri better
+clemen say individu comparison player total
+meaningless anyon claim clemen better base era
+miss point basebal  mani mani time either stupid
+stubborn grasp  don't rude  complet consum post
+hoc ergo propter hoc fallaci  say mean either miss
+entir point argument commit fallaci ignoratio
+elenchi say morri better clemen ring although
+tongu cheek claim past say imposs isol individu
+perform team purpos compar individu perform anoth
+individu per formanc  stat nice hobbi that new
+knowledg produc poster claim morri better clemen
+ring poster less incorrect rest bay hound     mani
+moron littl time
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clemen, 1807, 0.415492175243
+morri, 5868, 0.414800384735
+individu, 4604, 0.25940322387
+best, 1052, 0.226718547245
+team, 8732, 0.197014623846
+better, 1060, 0.17750903777
+win, 9770, 0.154056464427
+say, 7653, 0.150645961562
+determin, 2582, 0.147683526633
+player, 6683, 0.14624678519
+claim, 1782, 0.132088230976
+statist, 8348, 0.127786062005
+hoc, 4333, 0.125320861597
+contribut, 2103, 0.115933542555
+basebal, 924, 0.114258166721
+fallaci, 3370, 0.107664959003
+perform, 6539, 0.103244349634
+game, 3761, 0.102777433968
+ring, 7406, 0.0915429346408
+poster, 6769, 0.0911619494013
+club, 1842, 0.0897182580334
+imposs, 4553, 0.0868595753229
+play, 6681, 0.0838633609321
+measur, 5601, 0.0764777190373
+prove, 6947, 0.0752553425456
+rest, 7324, 0.07241191689
+mani, 5479, 0.0721330197653
+point, 6710, 0.0717792096124
+miss, 5770, 0.0716800134619
+compar, 1960, 0.071325579723
+total, 9013, 0.0676599213258
+stubborn, 8465, 0.066097382077
+dixon, 2771, 0.066097382077
+cess, 1625, 0.066097382077
+jeann, 4837, 0.0626604307983
+abl, 180, 0.0620230720245
+pitch, 6643, 0.06188852267
+tion, 8944, 0.0613537625657
+rude, 7529, 0.0613537625657
+ascertain, 675, 0.0613537625657
+end, 3091, 0.058443938165
+sheer, 7868, 0.0583303842771
+scoreboard, 7706, 0.0583303842771
+cheek, 1686, 0.0583303842771
+fact, 3350, 0.0581726823033
+tongu, 8983, 0.0575224813581
+ing, 4642, 0.0575224813581
+moron, 5865, 0.0561064365779
+hobbi, 4332, 0.0561064365779
+playoff, 6685, 0.0554782555469
+spite, 8241, 0.0548934329983
+anoth, 533, 0.0546390956976
+isol, 4785, 0.0543463680393
+incorrect, 4588, 0.0538324795016
+grasp, 4002, 0.0533479725006
+criteria, 2236, 0.0533479725006
+base, 923, 0.0530550968666
+ballgam, 879, 0.0528896681939
+mean, 5595, 0.052391713718
+meaningless, 5597, 0.0499110212218
+inher, 4644, 0.0499110212218
+accuraci, 226, 0.049602748528
+winner, 9786, 0.0487399809202
+evalu, 3226, 0.0484708610204
+consum, 2077, 0.0482100230605
+sub, 8482, 0.0474724654817
+bay, 956, 0.047014161175
+lineup, 5287, 0.0461657972492
+comparison, 1962, 0.0457714673204
+shown, 7918, 0.0452123703298
+pro, 6883, 0.0450339097416
+commit, 1945, 0.0450339097416
+specul, 8214, 0.044520021204
+way, 9666, 0.0443473156643
+greater, 4017, 0.0437272415091
+hasn, 4195, 0.0434297876615
+decis, 2445, 0.0431424189605
+context, 2087, 0.0424639317591
+era, 3164, 0.0423345160416
+solut, 8118, 0.041835750728
+stupid, 8476, 0.0414800384735
+mere, 5641, 0.0411386541561
+boston, 1243, 0.0408104880834
+separ, 7797, 0.0402902902304
+time, 8936, 0.0402809882918
+select, 7774, 0.0396118030289
+jack, 4808, 0.0396118030289
+divis, 2767, 0.039247163375
+late, 5139, 0.0388975647629
+stat, 8341, 0.0384799155213
+predict, 6816, 0.0383987994493
+method, 5666, 0.0381600071841
+jay, 4832, 0.0378517344902
+knowledg, 5053, 0.0377763867511
+fine, 3485, 0.0376276712728
+produc, 6895, 0.0375542806426
+entir, 3129, 0.0368533389516
+score, 7705, 0.0366538811646
+purpos, 6993, 0.0364590090228
+past, 6456, 0.0358400067309
+toronto, 9003, 0.0353754211606
+argument, 631, 0.0353754211606
+nice, 6047, 0.0343144676639
+explain, 3301, 0.0342647515986
+exact, 3253, 0.033643655035
+ball, 877, 0.0331514734614
+complet, 1975, 0.0327690071662
+season, 7747, 0.0326452594964
+opinion, 6266, 0.0317521642539
+group, 4064, 0.0294999141417
+littl, 5308, 0.0284889700222
+didn, 2625, 0.0283152129752
+day, 2402, 0.0251360289934
+post, 6766, 0.0247562946304
+new, 6023, 0.0246919560685
+want, 9634, 0.0230905971545
+anyon, 554, 0.0227780616671
+make, 5459, 0.0212603477239
+look, 5341, 0.0211541237168
+don, 2811, 0.019226817895
+use, 9363, 0.0187208476809
+know, 5052, 0.0182583749134

@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105045
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: Jewish Baseball Players?
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 13
+
+In article <1993Apr19.022425.29145@Princeton.EDU> roger@astro.princeton.edu (Roger Lustig) writes:
+>In article <Psm82B2w164w@jwt.oau.org> bbs-comarow@jwt.oau.org writes:
+>>Dave Kingman is Jewish
+>
+>Sez who?
+
+Sez Dave Kingman when he used to take off for Rosh Hashanna and Yom
+Kippur on days they coincided with the season.
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player      dave kingman jewish
+sez  sez dave kingman use take rosh hashanna yom
+kippur day coincid season  scott barman met mail
+list feed follow shell asd com subscrib let met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sez, 7828, 0.376884605926
+kingman, 5026, 0.371079880243
+jewish, 4864, 0.29887122261
+met, 5655, 0.270884085034
+dave, 2395, 0.263355559682
+rosh, 7484, 0.246212947834
+yom, 9959, 0.216344969579
+kippur, 5028, 0.216344969579
+barman, 913, 0.199303683205
+asd, 677, 0.199303683205
+shell, 7873, 0.181647188811
+coincid, 1883, 0.181647188811
+feed, 3427, 0.166582816956
+subscrib, 8496, 0.163748049616
+scott, 7713, 0.159936611468
+com, 1917, 0.133128137818
+season, 7747, 0.117276947385
+list, 5298, 0.111529417267
+player, 6683, 0.105077287157
+mail, 5447, 0.104685619233
+basebal, 924, 0.102617112053
+follow, 3578, 0.100088905251
+let, 5225, 0.0961693949216
+day, 2402, 0.0903003007241
+use, 9363, 0.067253987328

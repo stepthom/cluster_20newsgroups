@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61420
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Gamma Ray Bursters. positional stuff.
+Organization: Univ. of Southwestern Louisiana
+Lines: 24
+
+belgarath@vax1.mankato.msus.edu writes:
+
+>        Actually, my advisor, another classmate of mine, and me were
+>talking the other day about putting just one detector on one of the
+>Pluto satellites.  THen we realized that the satellite alone is only
+>carrying something like 200 pounds of eq.  Well, a BATSE detector
+>needs lead shielding to protect it, and 1 alone weighs about 200
+>pounds itself.
+
+>        We decided against it.
+                                                        -jeremy
+Are you talking about a single BATSE component, or
+the whole thing?
+
+You *could* propose a BATSE probe; launch two or three with ion
+drive on various planetary trajectories... your resolution increaces
+the more they're spaced apart. You could probably cheaply eject them
+from the solar system with enough flybys and patience.
+
+Things would start out slow, then slowly get better and better
+resolution...
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster posit stuff      actual advisor
+anoth classmat mine talk day put one detector one
+pluto satellit realiz satellit alon carri someth
+like pound well bats detector need lead shield
+protect alon weigh pound  decid jeremi talk singl
+bats compon whole thing  could propos bats probe
+launch two three ion drive various planetari
+trajectori resolut increac they'r space apart
+could probabl cheapli eject solar system enough
+flybi patienc  thing start slow slowli get better
+better resolut  phil fraer seem like everi day
+find sort stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bats, 948, 0.403997052788
+detector, 2580, 0.252298421801
+pound, 6776, 0.22063366275
+resolut, 7316, 0.204432593021
+alon, 437, 0.202784993007
+satellit, 7632, 0.179740606588
+increac, 4589, 0.163783699013
+stuff, 8472, 0.160980347463
+classmat, 1793, 0.146750752288
+ion, 4752, 0.142535823314
+advisor, 294, 0.142535823314
+talk, 8684, 0.142065628147
+jeremi, 4851, 0.139026984616
+patienc, 6464, 0.137470405373
+eject, 3022, 0.137470405373
+cheapli, 1680, 0.137470405373
+slowli, 8046, 0.131056105766
+better, 1060, 0.125672091263
+weigh, 9694, 0.125291777247
+shield, 7882, 0.125291777247
+day, 2402, 0.124569889991
+fraer, 3640, 0.122911397998
+trajectori, 9044, 0.120106676888
+flybi, 3564, 0.120106676888
+pluto, 6701, 0.116497098391
+apart, 559, 0.11541972338
+thing, 8869, 0.114763074348
+probe, 6886, 0.112484134508
+burster, 1418, 0.111157111734
+compon, 1980, 0.108352390623
+planetari, 6665, 0.107256270223
+slow, 8044, 0.103967661146
+phil, 6588, 0.103367500095
+gamma, 3762, 0.10278401236
+protect, 6940, 0.102498236418
+realiz, 7149, 0.0963848618395
+solar, 8107, 0.0932381736256
+various, 9432, 0.0926972628476
+drive, 2873, 0.0911534018665
+decid, 2442, 0.0909886621378
+carri, 1530, 0.0888084927205
+like, 5272, 0.0884535135397
+propos, 6933, 0.0882250049851
+ray, 7118, 0.087797786032
+singl, 7983, 0.0871045149242
+lead, 5172, 0.0852769098862
+launch, 5147, 0.0825818715719
+posit, 6761, 0.0824721887757
+sort, 8144, 0.0807909551156
+everi, 3235, 0.071940544549
+probabl, 6885, 0.0686932681602
+anoth, 533, 0.067695519269
+actual, 254, 0.0675337402325
+start, 8334, 0.0664859315819
+someth, 8126, 0.0618296635548
+space, 8164, 0.0595798321954
+need, 5993, 0.0564738066983

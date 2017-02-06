@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61350
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nicho@vnet.IBM.COM (Greg Stewart-Nicholls)
+Subject: Re: Vandalizing the sky.
+Reply-To: nicho@vnet.ibm.com
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+X-X-From: nicho@vnet.ibm.com
+            <C65FDw.E8E@news.cso.uiuc.edu>
+Lines: 11
+
+In <C65FDw.E8E@news.cso.uiuc.edu> George F. Krumins writes:
+>According to this reasoning there are no rights, at least none that I can think
+>of....
+>
+  You've got it. What you regard as a right, someone else will regard
+as a privilege. Followups to some generic ethics and morality
+newsgroup ....
+ -----------------------------------------------------------------
+Greg Nicholls ...         : Vidi
+nicho@vnet.ibm.com or     : Vici
+nicho@olympus.demon.co.uk : Veni
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky   news softwar urepli      accord
+reason right least none think   you'v got regard
+right someon els regard privileg followup generic
+ethic moral newsgroup  greg nichol vidi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+regard, 7224, 0.334806813775
+privileg, 6880, 0.302092351009
+vidi, 9508, 0.290335824168
+urepli, 9351, 0.270494873984
+generic, 3820, 0.25953189415
+followup, 3579, 0.25953189415
+right, 7399, 0.248624420545
+ethic, 3209, 0.228869615528
+nichol, 6050, 0.221608427816
+greg, 4033, 0.213842032435
+vandal, 9419, 0.209379451934
+accord, 219, 0.183596649428
+moral, 5855, 0.183223437823
+newsgroup, 6032, 0.18070224457
+sky, 8011, 0.176712113108
+els, 3053, 0.141279511422
+news, 6031, 0.141146612486
+softwar, 8103, 0.136392258239
+got, 3960, 0.134095789682
+someon, 8124, 0.133541284747
+reason, 7156, 0.131815798401
+think, 8871, 0.0935962595926

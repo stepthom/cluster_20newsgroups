@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62411
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: fcrary@ucsu.Colorado.EDU (Frank Crary)
+Subject: Re: Space Marketing would be wonderfull.
+Nntp-Posting-Host: ucsu.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 29
+
+In article <C73w0t.FpH@cunews.carleton.ca> wcsbeau@superior.carleton.ca (OPIRG) writes:
+>I don't think that idea means what you think it does. Having everyone
+>on Earth subject to some ad agency's "poor taste" *is* an abomination.
+>(abomination : n. loathing; odious or degrading habit or act; an
+>object of disgust. (Oxford Concise Dictionary)) Maybe *you* don't mind
+>having every part of your life saturated with commercials, but many of
+>us loathe it.
+
+It's a moot point: Step out of your door go _anywhere_ (except possibly
+your mailbox). You will be "subject to some ad agency's 'poor taste'"
+ 
+>...I'd rather not have the beauty of the night sky always marred
+>by a giant billboard, and I'll bet the idea is virtually sacrilegious
+>to an astronomer like Sagan.
+
+While I'm sure Sagan considers it sacrilegious, that wouldn't be
+because of his doubtfull credibility as an astronomer. Modern, 
+ground-based, visible light astronomy (what these proposed
+orbiting billboards would upset) is already a dying field: The
+opacity and distortions caused by the atmosphere itself have
+driven most of the field to use radio, far infrared or space-based
+telescopes. In any case, a bright point of light passing through
+the field doesn't ruin observations. If that were the case, the
+thousands of existing satellites would have already done so (satelliets
+might not seem so bright to the eyes, but as far as astronomy is concerned,
+they are extremely bright.)
+
+                                             Frank Crary
+                                             CU Boulder
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful      don't think idea mean
+think everyon earth agenc poor tast abomin abomin
+loath odious degrad habit act object disgust
+oxford concis dictionari mayb don't mind everi
+part life satur commerci mani loath  it moot point
+step door anywher except possibl mailbox agenc
+poor tast  i'd rather beauti night sky alway mar
+giant billboard i'll bet idea virtual sacrilegi
+astronom like sagan  i'm sure sagan consid
+sacrilegi wouldn't doubtful credibl astronom
+modern ground base visibl light astronomi propos
+orbit billboard upset alreadi die field opac
+distort caus atmospher driven field use radio far
+infrar space base telescop case bright point light
+pass field doesn't ruin observ case thousand exist
+satellit alreadi done satelliet might seem bright
+eye far astronomi concern extrem bright  frank
+crari boulder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bright, 1311, 0.249525383776
+sacrilegi, 7570, 0.228388865705
+loath, 5320, 0.228388865705
+abomin, 186, 0.217134365425
+sagan, 7581, 0.211381401707
+tast, 8708, 0.192255428081
+field, 3466, 0.178126135196
+agenc, 329, 0.163921831669
+billboard, 1090, 0.162774289156
+astronom, 728, 0.157115376003
+astronomi, 729, 0.151916699033
+poor, 6741, 0.150358162926
+alreadi, 443, 0.126462075181
+light, 5267, 0.125583078471
+satelliet, 7631, 0.119502945471
+doubtful, 2831, 0.116626463611
+opac, 6257, 0.114194432852
+mailbox, 5448, 0.112087711984
+crari, 2211, 0.112087711984
+moot, 5854, 0.110229452481
+concis, 2007, 0.110229452481
+case, 1540, 0.109708177664
+idea, 4482, 0.107875498304
+disgust, 2712, 0.107063476799
+credibl, 2224, 0.107063476799
+far, 3386, 0.105403142418
+satur, 7638, 0.1044278694
+infrar, 4640, 0.100195476343
+distort, 2748, 0.100195476343
+oxford, 6361, 0.0992936897229
+degrad, 2490, 0.0992936897229
+base, 923, 0.0987485761794
+ruin, 7536, 0.0984406727571
+dictionari, 2624, 0.0961277140404
+wonderful, 9822, 0.0947549380951
+driven, 2875, 0.0941108906836
+boulder, 1248, 0.0941108906836
+upset, 9342, 0.0917692726116
+door, 2818, 0.0907170847503
+space, 8164, 0.0895048533572
+point, 6710, 0.0890658349166
+beauti, 978, 0.086306082571
+habit, 4109, 0.0851919512822
+anywher, 557, 0.0851919512822
+visibl, 9541, 0.0808335098535
+telescop, 8764, 0.080298646066
+virtual, 9536, 0.0800378637534
+extrem, 3333, 0.0780936259962
+modern, 5811, 0.077866615307
+thousand, 8888, 0.0776428247364
+mar, 5500, 0.0776428247364
+bet, 1054, 0.0769898913936
+atmospher, 755, 0.0767781167951
+eye, 3337, 0.0740779157718
+step, 8377, 0.0728834125787
+think, 8871, 0.0722679718772
+market, 5514, 0.0719269396966
+giant, 3865, 0.0717730168104
+don, 2811, 0.0715716680854
+ground, 4061, 0.0708797421787
+radio, 7061, 0.0704513818197
+pass, 6448, 0.0704513818197
+act, 249, 0.0704513818197
+sky, 8011, 0.0682218823491
+concern, 2004, 0.0682218823491
+satellit, 7632, 0.0675046238053
+frank, 3655, 0.0675046238053
+commerci, 1940, 0.0667070619782
+propos, 6933, 0.0662687846092
+wouldn, 9854, 0.065947886007
+observ, 6179, 0.0656333844826
+die, 2628, 0.064531052589
+night, 6063, 0.0640543706894
+caus, 1569, 0.0638676587979
+everyon, 3241, 0.062878464914
+mind, 5733, 0.0614621662633
+alway, 457, 0.0595862096522
+object, 6173, 0.0581018106596
+life, 5260, 0.0581018106596
+orbit, 6280, 0.0571037248346
+exist, 3283, 0.0565688610472
+consid, 2059, 0.055333021851
+mayb, 5564, 0.0552253288001
+earth, 2956, 0.0549592690262
+everi, 3235, 0.0540369757099
+possibl, 6765, 0.051726279411
+doesn, 2793, 0.0511770924535
+sure, 8585, 0.0508077836893
+ll, 5314, 0.0499782650255
+mean, 5595, 0.0487569285403
+mani, 5479, 0.0447524266786
+use, 9363, 0.0348440991072
+like, 5272, 0.0332202125559

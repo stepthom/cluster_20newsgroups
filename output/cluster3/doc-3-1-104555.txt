@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104555
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: eechen@leland.Stanford.EDU (Emery Ethan Chen)
+Subject: Re: Let's Talk Phillies
+Summary: What Bullshit!
+Organization: DSG, Stanford University, CA 94305, USA
+Lines: 19
+
+Article from as follows
+>From: bml2@ns1.cc.lehigh.edu (BRIAN MICHAEL LUCY)
+>Subject: Re: Let's Talk Phillies
+>Date: 15 Apr 93 06:29:05 GMT
+>Organization: Lehigh University
+>Lines: 9
+
+>In article <Uflkll_00VpcEKW15e@andrew.cmu.edu>, al1x+@andrew.cmu.edu (Amit
+>Likhy ani) writes: >Excerpts from netnews.rec.sport.baseball: 9-Apr-93 Re:
+>Let's Talk >Phillies u96_msopher@vaxc.stevens (963) > >> > like this.  Oh
+>well.  How do we spell CELLAR? > > >>                      p - i - r - a - t
+>- e - s > >> ` > > >>
+>NINJA JEW > > >Are there any Philly fans who want to put money on that?   If
+>not, stop >your woofing.  Ben Rivera got hammered. > True (last week), but
+>tonight he pitched 6 shutout innings and got 9 runs behind him. THAT'S why
+>we're 8-1!
+
+One phrase for you....FUCK YOU!!!!
+Thanks.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ let talk philli bullshit    articl follow  let
+talk philli date gmt organ lehigh univers line
+andrew cmu edu amit likhi ani write excerpt netnew
+rec sport basebal  well spell cellar  ninja jew
+philli fan want put money stop woof ben rivera got
+hammer true last week tonight pitch shutout inning
+got run behind that we'r  one phrase fuck thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.394957507245
+cellar, 1599, 0.213785254397
+fuck, 3713, 0.198442499932
+rivera, 7423, 0.188663690601
+hammer, 4141, 0.188663690601
+talk, 8684, 0.18543686971
+shutout, 7927, 0.183665055931
+netnew, 6016, 0.18147055814
+cmu, 1852, 0.18147055814
+bullshit, 1392, 0.18147055814
+got, 3960, 0.179925315696
+excerpt, 3262, 0.179438770537
+woof, 9826, 0.174115675439
+let, 5225, 0.173168079089
+ben, 1020, 0.172548586861
+phrase, 6612, 0.162466828745
+andrew, 505, 0.161432117791
+rec, 7165, 0.157644507133
+spell, 8220, 0.15677406621
+tonight, 8985, 0.149318572071
+gmt, 3917, 0.137345264949
+sport, 8257, 0.132700397589
+jew, 4862, 0.129669716766
+inning, 4657, 0.126369755501
+date, 2391, 0.120536033345
+stop, 8413, 0.115920853683
+organ, 6287, 0.114786212338
+money, 5835, 0.110507050194
+fan, 3381, 0.109116615489
+week, 9691, 0.100966993485
+pitch, 6643, 0.100086063529
+true, 9121, 0.0978000244631
+edu, 3001, 0.0972082766109
+write, 9865, 0.0945154845467
+basebal, 924, 0.0923891025326
+univers, 9282, 0.091109962743
+line, 5285, 0.0908766286864
+follow, 3578, 0.0901128860932
+articl, 665, 0.0883622967102
+run, 7543, 0.0825857520222
+thank, 8832, 0.0767787535472
+want, 9634, 0.0746841861468

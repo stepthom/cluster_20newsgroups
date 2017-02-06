@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38606
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jroberts@ux4.cso.uiuc.edu (Robertson)
+Subject: ATI GUP and Graphics Wkshop/Win
+Organization: University of Illinois at Urbana
+Lines: 11
+
+I have an ATI Graph. Ultra Pro VLB w/2 megs, and have a small question
+about Graphics Workshop for Windows.  When I exit from it it says my
+current driver can handle on 32768 colors when I am actually in 
+1024x768x65000 color mode.  Is this a driver problem, a GWS error, or
+what?  I am using the 1.5(59) driver under Win 3.1.  It correctly
+states that I can display 16M colors when I switch to 800x600x24bit,
+though.
+Another question- Anybody know of any Viewers that support this card
+other than Windows viewers?
+Any help would be appreciated.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ati gup graphic wkshop win    ati graph ultra pro
+vlb meg small question graphic workshop window
+exit say current driver handl color actual
+1024x768x65000 color mode driver problem gws error
+use driver win correct state display 16m color
+switch 800x600x24bit though anoth question anybodi
+know viewer support card window viewer help
+appreci
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+driver, 2876, 0.38961925794
+ati, 746, 0.355698276962
+color, 1907, 0.311626527022
+viewer, 9512, 0.255857870809
+window, 9774, 0.215034425582
+vlb, 9558, 0.208965835676
+gup, 4098, 0.208965835676
+win, 9770, 0.187887049369
+graphic, 3997, 0.170179691468
+meg, 5616, 0.167369886004
+ultra, 9200, 0.165701886849
+exit, 3284, 0.161260414095
+question, 7032, 0.156464528167
+workshop, 9839, 0.153153929258
+graph, 3996, 0.152178529853
+switch, 8638, 0.142020337612
+pro, 6883, 0.137308233938
+handl, 4149, 0.119393833503
+mode, 5806, 0.118598539472
+error, 3180, 0.116590149477
+display, 2734, 0.111359932512
+card, 1513, 0.110968333859
+anybodi, 552, 0.105084853202
+small, 8054, 0.100684139037
+appreci, 587, 0.0999125887069
+correct, 2156, 0.0995352824926
+current, 2299, 0.0936435791513
+state, 8342, 0.0916361181814
+support, 8576, 0.0890144451043
+anoth, 533, 0.0832972062299
+actual, 254, 0.0830981422163
+problem, 6887, 0.081310614026
+help, 4249, 0.0759287551267
+say, 7653, 0.0656170017236
+use, 9363, 0.0570797993697
+know, 5052, 0.0556697215124

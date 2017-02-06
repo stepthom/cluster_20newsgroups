@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104430
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gwittt@alleg.edu (Tom Gwitt)
+Subject: Re: Mel Hall
+Organization: Allegheny College
+Lines: 11
+
+In article <1993Apr17.212119.13901@coe.montana.edu> warped@cs.montana.edu  
+(Doug Dolven) writes:
+> 
+> Has anyone heard anything about Mel Hall this season?  I'd heard he  
+wasn't
+> with the Yankees any more.  What happened to him?
+> 
+
+He is in Japan playing baseball.
+--
+	Tom Gwitt     gwittt@alleg.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mel hall    montana edu   anyon heard anyth mel
+hall season i'd heard wasn't yanke happen   japan
+play basebal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mel, 5620, 0.56520423206
+hall, 4128, 0.423579655348
+heard, 4224, 0.331609415255
+montana, 5844, 0.322588137919
+japan, 4825, 0.235640454823
+yanke, 9933, 0.203452365978
+wasn, 9652, 0.189383213682
+season, 7747, 0.168064172855
+edu, 3001, 0.154726525309
+happen, 4159, 0.153804540066
+anyth, 555, 0.149603848902
+basebal, 924, 0.147055840405
+play, 6681, 0.143914988019
+anyon, 554, 0.117265910958

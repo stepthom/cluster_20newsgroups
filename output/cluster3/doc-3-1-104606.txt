@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104606
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jrogoff@scott.skidmore.edu (jay rogoff)
+Subject: Re: New Home for the Bosox!!!
+Organization: Skidmore College, Saratoga Springs NY
+Lines: 19
+
+
+> I agree, though I'd also be happy with a stadium that looks
+> like new Comiskey. The new park was also made for baseball.
+> Unlike Three Rivers, the Vet, Riverfront, etc., it's not a
+> football park in which they also play baseball.
+ 
+While we're on the multipurpose subject, let's not forget Shea, which
+was designed to accommodate both the Mets & Jets.  It was the first
+stadium (I think) to have the box seats on rollers so they could be
+oriented at right angles for baseball & in parallel for football.
+
+Of course, with the Jets gone to Jersey (and a truly good football
+stadium), the Mets are saddled with a multipurpose stadium where,
+because it's circular, the seats are almost always too far from the
+action.  The Mets announcers--Kiner & Murphy in particular--have
+always hyped it as "beautiful Shea
+Stadium," a tipoff to how unbeautiful it truly is.
+
+Jay 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new home bosox     agre though i'd also happi
+stadium look like new comiskey new park also made
+basebal unlik three river vet riverfront etc it
+footbal park also play basebal  we'r multipurpos
+let forget shea design accommod met jet first
+stadium think box seat roller could orient right
+angl basebal parallel footbal  cours jet gone
+jersey truli good footbal stadium met saddl
+multipurpos stadium it circular seat almost alway
+far action met announc kiner murphi particular
+alway hype beauti shea stadium tipoff unbeauti
+truli  jay
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stadium, 8300, 0.461763050587
+footbal, 3589, 0.296597929582
+multipurpos, 5922, 0.271096415646
+met, 5655, 0.231948592954
+shea, 7864, 0.216925376187
+seat, 7748, 0.202224176513
+basebal, 924, 0.175734907059
+truli, 9127, 0.172595859229
+jet, 4860, 0.1720883119
+park, 6430, 0.160246729173
+new, 6023, 0.151909967727
+unbeauti, 9216, 0.135548207823
+tipoff, 8946, 0.135548207823
+comiskey, 1931, 0.131669261677
+alway, 457, 0.131305085412
+saddl, 7575, 0.128499931907
+vet, 9489, 0.12349910056
+roller, 7465, 0.12349910056
+kiner, 5023, 0.117963359707
+jersey, 4855, 0.117963359707
+accommod, 213, 0.113771194504
+river, 7422, 0.109402548728
+hype, 4458, 0.109402548728
+bosox, 1241, 0.109402548728
+murphi, 5928, 0.108462688094
+circular, 1768, 0.105141539129
+beauti, 978, 0.0950927035777
+angl, 511, 0.0946738113252
+parallel, 6420, 0.0909612127382
+unlik, 9290, 0.0862979296146
+orient, 6290, 0.0862979296146
+gone, 3943, 0.0845947178247
+happi, 4161, 0.0818160379173
+announc, 524, 0.0797685933482
+forget, 3604, 0.0792496536985
+action, 251, 0.0790800602821
+jay, 4832, 0.077623872715
+particular, 6442, 0.0727789454381
+box, 1254, 0.0709944890514
+design, 2564, 0.0675447792145
+agre, 337, 0.067285967675
+home, 4354, 0.0670309530189
+cours, 2190, 0.059483603955
+far, 3386, 0.0580669952773
+play, 6681, 0.0573271735286
+let, 5225, 0.0548976655075
+right, 7399, 0.0528782357508
+good, 3948, 0.0446847258228
+look, 5341, 0.0433814996567
+think, 8871, 0.0398127027851
+like, 5272, 0.0366022849289

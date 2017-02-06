@@ -1,0 +1,170 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105080
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mss@netcom.com (Mark Singer)
+Subject: Re: Bases loaded walk gives Reds win in 12
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 49
+
+In article <1993Apr23.194053.9087@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>In article <mssC5y5u0.4Dn@netcom.com> mss@netcom.com (Mark Singer) writes:
+>>
+>>My *supposition* is that if we were to find the SAME players
+>>consistently (year after year) at one end of the bell or the other,
+>>then we might be able to make some reasonable conclusions about
+>>*those* players (as opposed to all baseball players).
+>
+>This may be the root of the confusion...
+>
+>Please consider the following hypothetical with an open mind.  Note
+>that I am *not* (yet) saying that it has anything to do with the
+>question at hand.
+>
+>Suppose we have a simplified Lotto game.
+
+[detailed explanation deleted..]
+
+
+Indeed, you have struck right at the heart of our disagreement. To 
+rebut my opinion, you have made an analogy with a game of chance.
+Your hypothesis assumes that the Lotto players have no impact on
+the selection of the numbers, and hence their ability to win.
+
+Well, that's certainly true in Lotto.  But it has absolutely
+NOTHING to do with the sport of baseball.  When you start down
+the wrong path, you finish down the wrong path.
+
+
+
+
+
+I repeat.  I do not think that statistical analysis of prior clutch
+hitting performance is an accurate predictor of future clutch hitting
+performance.
+
+I do, however, think that analysis of prior clutch hitting performance
+may, for some players, indicate a deficiency in their game that indeed
+will provide a basis for projecting their particular future performance.
+And I think Chris Sabo is such a player.
+
+
+
+
+--	The Beastmaster
+
+-- 
+Mark Singer    
+mss@netcom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ base load walk give red win       supposit find
+player consist year year one end bell might abl
+make reason conclus player oppos basebal player
+root confus  pleas consid follow hypothet open
+mind note yet say anyth question hand  suppos
+simplifi lotto game  detail explan delet   inde
+struck right heart disagr rebut opinion made
+analog game chanc hypothesi assum lotto player
+impact select number henc abil win  well that
+certain true lotto absolut noth sport basebal
+start wrong path finish wrong path      repeat
+think statist analysi prior clutch hit perform
+accur predictor futur clutch hit perform  howev
+think analysi prior clutch hit perform player
+indic defici game inde provid basi project
+particular futur perform think chris sabo player
+beastmast   mark singer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lotto, 5359, 0.383860018603
+player, 6683, 0.327642959134
+clutch, 1849, 0.272985685738
+perform, 6539, 0.25700306038
+prior, 6874, 0.176390478587
+hit, 4316, 0.166022749468
+path, 6461, 0.162713160756
+inde, 4594, 0.15081916975
+analysi, 490, 0.150065546347
+game, 3761, 0.143910439441
+futur, 3737, 0.133601068377
+supposit, 8578, 0.119869348414
+predictor, 6817, 0.119869348414
+hypothet, 4466, 0.119869348414
+wrong, 9869, 0.116174702523
+win, 9770, 0.11504643974
+defici, 2479, 0.114544559589
+struck, 8459, 0.110567422358
+think, 8871, 0.108734324489
+basebal, 924, 0.106657284241
+disagr, 2675, 0.102483431238
+hypothesi, 4465, 0.101462086953
+sabo, 7564, 0.100502681469
+beastmast, 973, 0.0987424975539
+simplifi, 7969, 0.0971586424131
+singer, 7981, 0.0926059747102
+henc, 4252, 0.0909952285794
+root, 7477, 0.0904927945132
+analog, 487, 0.08953338903
+explan, 3302, 0.086961471096
+chris, 1728, 0.0840761697768
+bell, 1011, 0.0828094664088
+impact, 4534, 0.0822122127432
+accur, 225, 0.0810813500703
+heart, 4225, 0.0802832644733
+year, 9943, 0.0795441724887
+statist, 8348, 0.0795235020739
+repeat, 7286, 0.0790365299961
+conclus, 2009, 0.0787985504167
+oppos, 6269, 0.0772259468539
+sport, 8257, 0.0765970424901
+finish, 3488, 0.0765970424901
+confus, 2037, 0.0761912422097
+basi, 936, 0.0754095848752
+abil, 177, 0.074128221623
+select, 7774, 0.0739533541664
+absolut, 193, 0.0737803978678
+load, 5317, 0.0736093114036
+consist, 2061, 0.0721474718542
+indic, 4600, 0.0689295318221
+chanc, 1649, 0.0688034327979
+delet, 2502, 0.0678292579773
+walk, 9617, 0.0672495102248
+particular, 6442, 0.0662566544145
+mark, 5512, 0.0644402924358
+suppos, 8577, 0.0643452450401
+red, 7194, 0.0633357505071
+open, 6258, 0.0628111054284
+mind, 5733, 0.0616506128202
+assum, 710, 0.0614126332408
+opinion, 6266, 0.0592797820112
+project, 6909, 0.0587386919089
+provid, 6949, 0.0585404595407
+abl, 180, 0.0578970642737
+noth, 6119, 0.0575849171952
+hand, 4145, 0.0574005421721
+note, 6118, 0.0570979451173
+true, 9121, 0.0564519230193
+certain, 1619, 0.0559981186258
+consid, 2059, 0.0555026760966
+howev, 4406, 0.0545560278441
+end, 3091, 0.0545560278441
+anyth, 555, 0.054252657331
+follow, 3578, 0.0520147692877
+number, 6156, 0.0514594370871
+reason, 7156, 0.0510451374107
+start, 8334, 0.0500929498723
+base, 923, 0.0495256725129
+right, 7399, 0.0481394031076
+question, 7032, 0.0479029474672
+pleas, 6688, 0.0465539274309
+say, 7653, 0.0401784075066
+make, 5459, 0.0396920590508

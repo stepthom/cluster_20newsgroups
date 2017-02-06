@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83937
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: syshtg@gsusgi2.gsu.edu (Tom Gillman)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Organization: Georgia State University
+Lines: 16
+
+rick@howtek.MV.COM (Rick Roy) writes:
+
+>In article <1r1u5t$595@lm1.oryx.com> (alt.conspiracy,talk.religion.misc), xcpslf@oryx.com (stephen l favor) writes:
+>] Koresh was killed because he wanted lots of illegal guns.
+
+>Even if what you say is true, do you think this is a reasonable way
+>to deal with people who want "lots of illegal guns"?
+
+What makes you say that the guns were illegal?? I understand that the BD's
+had a valid Class III Federal Firearms Permit, which would allow them to
+have pretty much anything short of a howitzer legally.
+-- 
+ Tom Gillman, Systems Programmer       | "AAAAAGGGGHHHH" 
+ Wells Computer Center-Ga. State Univ. |    -- Any "Classic" Star Trek Security
+ (404) 651-4503 syshtg@gsusgi2.gsu.edu |       officer sometime during the show
+ GSU doesn't care what I say on the Internet, why should you?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos       koresh
+kill want lot illeg gun  even say true think
+reason way deal peopl want lot illeg gun  make say
+gun illeg understand bd valid class iii feder
+firearm permit allow pretti much anyth short
+howitz legal  tom gillman system programm
+aaaaagggghhhh well comput center state univ
+classic star trek secur  gsu doesn't care say
+internet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+illeg, 4506, 0.432059971445
+gun, 4094, 0.396228356785
+koresh, 5065, 0.23187410504
+gsu, 4073, 0.188265561325
+firearm, 3495, 0.188265561325
+say, 7653, 0.183893904226
+trek, 9081, 0.161740831697
+bd, 965, 0.161740831697
+lot, 5356, 0.15066585362
+secur, 7762, 0.14710638015
+permit, 6552, 0.145005590569
+classic, 1790, 0.141283799773
+iii, 4502, 0.140436560233
+enclos, 3085, 0.140436560233
+univ, 9280, 0.138826373732
+want, 9634, 0.131538166808
+feder, 3425, 0.129828557775
+cite, 1774, 0.124983594728
+valid, 9411, 0.123701319105
+tape, 8700, 0.123701319105
+programm, 6906, 0.122483724171
+legal, 5200, 0.120950266069
+biblic, 1072, 0.119860885076
+internet, 4717, 0.11593705252
+class, 1789, 0.115637125068
+tom, 8976, 0.108915968008
+star, 8324, 0.104401464859
+kill, 5012, 0.103303828147
+deal, 2418, 0.0975964930933
+center, 1606, 0.0974557122316
+short, 7904, 0.0954369450281
+care, 1516, 0.0950526846723
+allow, 432, 0.0925215868857
+pretti, 6851, 0.0885234918695
+understand, 9246, 0.0865685870189
+true, 9121, 0.0861255681786
+state, 8342, 0.0856044576751
+comput, 1993, 0.0837049878383
+anyth, 555, 0.0827702704872
+doesn, 2793, 0.0783174435445
+reason, 7156, 0.0778767352309
+peopl, 6530, 0.0655060349724
+way, 9666, 0.0631573597503
+make, 5459, 0.0605559732086
+think, 8871, 0.0552966428555

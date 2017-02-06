@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38616
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Cornerstone DualPage driver wanted
+From: tkelder@ebc.ee (Tonis Kelder)
+Nntp-Posting-Host: kask.ebc.ee
+X-Newsreader: TIN [version 1.1 PL8]Lines: 12
+Lines: 12
+
+
+
+I am looking for a WINDOW 3.1 driver  for 
+     Cornerstone  DualPage (Cornerstone Technology, Inc) 
+video card. Does  anybody know, that has these?  Is there one?
+
+Thanks for any info,
+
+To~nis
+-- 
+To~nis Kelder    Estonian Biocentre     (tkelder@kask.ebc.ee)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+cornerston dualpag driver want        look window
+driver cornerston dualpag cornerston technolog inc
+video card anybodi know one  thank info  nis
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cornerston, 2150, 0.847273770487
+driver, 2876, 0.351055979676
+video, 9506, 0.158234723892
+card, 1513, 0.149977560254
+window, 9774, 0.145313250176
+anybodi, 552, 0.142025831647
+technolog, 8743, 0.13882996409
+info, 4636, 0.137518748114
+thank, 8832, 0.0978209140222
+want, 9634, 0.0951523046984
+look, 5341, 0.0871724369908
+know, 5052, 0.0752395635952

@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104615
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: PHILS, NL EAST NOT SO WEAK
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 10
+
+In <1993Apr15.214133.3371@guvax.acc.georgetown.edu> apanjabi@guvax.acc.georgetown.edu writes:
+[...]
+
+>BRAVES HIT LIKE A AAA CLUB
+Shouldn't this read "Braves Hitters are at the AAA Club?"
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ phil east weak       brave hit like aaa club
+shouldn't read brave hitter aaa club    consid
+good look wise especi overburden inform golden
+kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aaa, 157, 0.43811792074
+club, 1842, 0.418035499088
+brave, 1277, 0.337980867842
+overburden, 6339, 0.244409569188
+kimbal, 5019, 0.240645206088
+weak, 9668, 0.216057827176
+golden, 3934, 0.216057827176
+wise, 9799, 0.210663650967
+shouldn, 7912, 0.205180178048
+phil, 6588, 0.194370309816
+east, 2965, 0.179675888419
+hitter, 4322, 0.168122356811
+especi, 3190, 0.163534059403
+consid, 2059, 0.138520161222
+hit, 4316, 0.138116451555
+inform, 4637, 0.129815258189
+read, 7135, 0.120228386838
+good, 3948, 0.101527082584
+look, 5341, 0.0985660539959
+like, 5272, 0.0831631645109

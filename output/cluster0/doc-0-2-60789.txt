@@ -1,0 +1,130 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60789
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jgarland@kean.ucs.mun.ca
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+Lines: 37
+Organization: Memorial University. St.John's Nfld, Canada
+
+In article <15APR199315012030@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
+> In article <1993Apr15.094320.1723@sq.sq.com>, msb@sq.sq.com (Mark Brader) writes...
+>>> > So how close would the comet have gotten to Jupiter on the pass that
+>>> > put it into temporary orbit, and how far is it likely to get from
+>>> > Jupiter before it makes its escape?
+>>> 
+>>> The answer to all of these questions is we don't know yet.
+>>> We don't know for sure if the comet is in a temporary orbit.
+>> 
+>>I see.  I wasn't so interested in this particular case as in typical
+>>behavior, anyway.  Can these questions be answered for a previous
+>>instance, such as the Gehrels 3 that was mentioned in an earlier posting?
+> 
+> Gehrels 3 was in a temporary Jovian orbit for about 3 or 4 years.  I'll
+> get the orbital elements from Dance of the Planets and post them here.
+
+Sorry folks, I should have done this, and meant to just after i hit the 
+send key...
+
+Orbital Elements of Comet 1977VII (from Dance files)
+
+p(au)          3.424346
+e              0.151899
+i              1.0988
+cap_omega(0) 243.5652
+W(0)         231.1607
+epoch       1977.04110
+
+Also, perihelions of Gehrels3 were:
+
+April  1973     83 jupiter radii
+August 1970     ~3 jupiter radii
+
+Hope this helps...I'm even less of an orbital mechanic than I am an artist.
+
+John Garland
+jgarland@kean.ucs.mun.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet temporari orbit around jupit     com mark
+brader write close comet gotten jupit pass put
+temporari orbit far like get jupit make escap
+answer question don't know yet don't know sure
+comet temporari orbit  see wasn't interest
+particular case typic behavior anyway question
+answer previous instanc gehrel mention earlier
+post  gehrel temporari jovian orbit year i'll get
+orbit element danc planet post  sorri folk done
+meant hit send key  orbit element comet 1977vii
+danc file     cap omega  epoch  also perihelion
+gehrels3  april jupit radii august jupit radii
+hope help i'm even less orbit mechan artist  john
+garland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jupit, 4932, 0.405075957655
+orbit, 6280, 0.392264033375
+temporari, 8778, 0.358125021407
+comet, 1926, 0.32288111537
+radii, 7060, 0.216343403428
+gehrel, 3809, 0.204956843839
+danc, 2352, 0.194880173039
+element, 3037, 0.155120766193
+epoch, 3150, 0.120726886635
+1977vii, 38, 0.120726886635
+omega, 6231, 0.117272078201
+answer, 535, 0.114288157498
+brader, 1263, 0.112062664287
+gehrels3, 3810, 0.109995271441
+jovian, 4902, 0.106540463007
+perihelion, 6543, 0.105064828102
+cap, 1497, 0.0943332129078
+question, 7032, 0.0937300198215
+artist, 669, 0.0917468067253
+post, 6766, 0.0904347579721
+escap, 3185, 0.0895312553518
+behavior, 1000, 0.0850772326184
+august, 784, 0.0839575317346
+instanc, 4680, 0.0810151915311
+typic, 9178, 0.0787996401576
+meant, 5598, 0.0782919734301
+gotten, 3962, 0.0778004258587
+mechan, 5603, 0.0770911820982
+earlier, 2952, 0.0753448317231
+folk, 3576, 0.0739633153332
+previous, 6855, 0.0725220476968
+key, 4994, 0.0710464127921
+planet, 6664, 0.0708908089897
+don, 2811, 0.0702355764003
+pass, 6448, 0.0691362035101
+com, 1917, 0.0676857228725
+wasn, 9652, 0.0671902422519
+know, 5052, 0.0666978536532
+particular, 6442, 0.0648210377435
+april, 595, 0.0643066233811
+mark, 5512, 0.0630440318047
+mention, 5632, 0.0619634225484
+sorri, 8142, 0.0597015511762
+send, 7785, 0.0594777046549
+close, 1830, 0.0586835588907
+john, 4878, 0.0585434452827
+hope, 4372, 0.0553417615275
+hit, 4316, 0.0541418166704
+case, 1540, 0.0538300789976
+file, 3477, 0.0535750081869
+write, 9865, 0.0533739346072
+far, 3386, 0.0517177443265
+sure, 8585, 0.0498593098149
+ll, 5314, 0.0490452765103
+help, 4249, 0.0454850936913
+year, 9943, 0.0389103241986
+make, 5459, 0.0388320309949
+like, 5272, 0.0326000614408

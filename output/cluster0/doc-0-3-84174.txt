@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84174
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: margoli@watson.ibm.com (Larry Margolis)
+Subject: Re: Abortion
+News-Software: IBM OS/2 PM RN (NR/2) v0.17i by O. Vishnepolsky and R. Rogers
+Lines: 22
+Reply-To: margoli@watson.IBM.com (Larry Margolis)
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: netslip63.watson.ibm.com
+Organization: The Village Waterbed
+
+In <18275.459.uupcb@ozonehole.com> anthony.landreneau@ozonehole.com (Anthony Landreneau)  writes:
+>To: margoli@watson.ibm.com (Larry Margolis)
+>From: anthony.landreneau@ozonehole.com
+>
+>LM>>  >>The rape has passed, there is nothing that will ever take that away.
+>LM>>
+>LM>>LM>True.  But forcing her to remain pregnant continues the violation of
+>LM>>LM>her body for another 9 months.  I see this as being unbelievably cruel.
+>LM>>
+>LM>>Life is not a "violation".
+>
+>LM>But forcing someone to harbor that life in their body *is* a violation.
+>
+>Letting a mother force a child from her body, in order to end that
+>childs life is the ultimate violation.
+
+I happen to take the violation of a person much more seriously than the
+"violation" of a mindless clump of cells smaller than my thumb.
+
+Your mileage may vary.
+--
+Larry Margolis, MARGOLI@YKTVMV (Bitnet), margoli@watson.IBM.com (Internet)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ abort news softwar ibm 17i vishnepolski roger
+rape pass noth ever take away  true forc remain
+pregnant continu violat bodi anoth month see
+unbeliev cruel  life violat  forc someon harbor
+life bodi violat  let mother forc child bodi order
+end child life ultim violat  happen take violat
+person much serious violat mindless clump cell
+smaller thumb  mileag vari  larri margoli margoli
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+violat, 9526, 0.676807987782
+bodi, 1194, 0.248965911131
+forc, 3594, 0.237966000243
+child, 1705, 0.215659518077
+life, 5260, 0.211653259055
+clump, 1846, 0.149383292728
+cruel, 2254, 0.145108431725
+pregnant, 6822, 0.141615615963
+mindless, 5734, 0.141615615963
+harbor, 4166, 0.133847939199
+thumb, 8905, 0.126803270808
+cell, 1598, 0.124061823823
+rape, 7099, 0.122825430454
+unbeliev, 9217, 0.121664017408
+larri, 5128, 0.116724669628
+ultim, 9198, 0.112104620041
+abort, 187, 0.110782892687
+mother, 5877, 0.108385086271
+vari, 9426, 0.10479859087
+smaller, 8055, 0.100617409507
+ibm, 4472, 0.0927249280785
+roger, 7458, 0.0919927071776
+remain, 7264, 0.089736284785
+pass, 6448, 0.0855467577676
+continu, 2092, 0.080865716572
+month, 5847, 0.0789547534081
+away, 833, 0.0759324592222
+noth, 6119, 0.069709705907
+true, 9121, 0.0683381542118
+order, 6281, 0.0677212242191
+happen, 4159, 0.0675199181836
+news, 6031, 0.0661670658048
+end, 3091, 0.0660430689441
+softwar, 8103, 0.063938307602
+person, 6562, 0.0638278897281
+someon, 8124, 0.0626018210416
+anoth, 533, 0.0617435045874
+let, 5225, 0.060500940354

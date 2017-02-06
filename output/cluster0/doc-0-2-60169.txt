@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60169
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: DKELO@msmail.pepperdine.edu (Dan Kelo)
+Subject: M-81 Supernova
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 7
+
+
+How 'bout some more info on that alleged supernova in M-81?
+I might just break out the scope for this one.
+____________________________________________________
+"No sir, I don't like it! "-- Mr. Horse
+Dan Kelo     dkelo@pepvax.pepperdine.edu
+____________________________________________________
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ supernova ad forward space digest       bout info
+alleg supernova might break scope one  sir don't
+like hors
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+supernova, 8565, 0.614830253184
+bout, 1252, 0.317383737036
+scope, 7704, 0.289301568357
+sir, 7989, 0.263043062332
+hors, 4382, 0.263043062332
+alleg, 422, 0.250191288238
+digest, 2640, 0.225191274769
+break, 1284, 0.204550519162
+forward, 3621, 0.202798391401
+ad, 257, 0.191810568734
+info, 4636, 0.17587663943
+space, 8164, 0.126719442919
+don, 2811, 0.101329945455
+like, 5272, 0.094065219278

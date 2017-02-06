@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61429
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: oreilly@olivia.la.asu.edu (Tom O'Reilly)
+Subject: RE: Commercials on the Moon
+Organization: Mars Observer TES Project, ASU, Tempe AZ
+Distribution: sci.space
+Lines: 13
+
+u920496@daimi.aau.dk (Hans Erik Martino Hansen) writes
+
+> How about a Coca Cola logo at the moon, easy way to target billions of
+> people.
+
+Arthur C. Clarke was way ahead of you on this one... he wrote a short story
+(title?) in the 1950s describing exactly your proposal!
+
+Tom O'Reilly
+Department of Geology
+Arizona State University
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci moon       coca cola logo moon easi way
+target billion peopl  arthur clark way ahead one
+wrote short stori titl 1950s describ exact propos
+tom o'reilli depart geolog arizona state univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moon, 5851, 0.286241762904
+1950s, 35, 0.267013268694
+coca, 1867, 0.260586156621
+reilli, 7238, 0.250444926184
+cola, 1887, 0.250444926184
+logo, 5332, 0.228285515221
+arthur, 663, 0.223873324138
+arizona, 639, 0.210278135339
+geolog, 3842, 0.206283126881
+target, 8704, 0.195517959441
+clark, 1787, 0.191160379554
+way, 9666, 0.184427339522
+ahead, 342, 0.171083467485
+titl, 8953, 0.169718722071
+billion, 1092, 0.16797755235
+depart, 2535, 0.165517145626
+stori, 8418, 0.159355083827
+tom, 8976, 0.159024081204
+easi, 2959, 0.155574515829
+describ, 2556, 0.151890284301
+wrote, 9871, 0.149547993526
+commerci, 1940, 0.149047963576
+propos, 6933, 0.148068691706
+exact, 3253, 0.13991398796
+short, 7904, 0.139343870083
+state, 8342, 0.124987827568
+univers, 9282, 0.117146777106
+peopl, 6530, 0.095642881529

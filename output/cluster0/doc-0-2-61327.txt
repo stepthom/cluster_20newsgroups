@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61327
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: madison@wam.umd.edu (Rob Shearman Jr.)
+Subject: Re: Long term Human Missions
+Nntp-Posting-Host: rac3.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 15
+
+
+Excerpt From: rek@siss81 (Robert Kaye)
+
+:Just a few contributions from the space program to "regular" society:
+:
+:1.	Calculators
+:2.	Teflon (So your eggs don't stick in the pan)
+:3.	Pacemakers (Kept my grandfather alive from 1976 until 1988)
+
+                    Don't forget Tang!  ::smile::
+
+ -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Robert M. Shearman, Jr.  University of Maryland, College Park, Maryland
+            E-Mail: madison@wam.umd.edu   "WILL WORK FOR CHOCOLATE"
+ -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ long term human mission      excerpt rek siss81
+robert kay  contribut space program regular
+societi  calcul teflon egg don't stick pan pacemak
+kept grandfath aliv  don't forget tang smile
+robert shearman univers maryland colleg park
+maryland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+maryland, 5529, 0.393837801028
+robert, 7437, 0.286510122645
+tang, 8691, 0.235231188852
+kay, 4965, 0.235231188852
+pacemak, 6371, 0.218975922522
+smile, 8062, 0.213174166844
+grandfath, 3992, 0.213174166844
+egg, 3011, 0.213174166844
+excerpt, 3262, 0.208268852312
+teflon, 8749, 0.204019675588
+pan, 6404, 0.195366321559
+colleg, 1900, 0.166513039301
+aliv, 417, 0.163591580207
+kept, 4989, 0.160915924561
+stick, 8393, 0.157054033221
+calcul, 1451, 0.153205132923
+societi, 8093, 0.150875686683
+regular, 7234, 0.147673053065
+park, 6430, 0.146673340808
+forget, 3604, 0.145073931005
+contribut, 2103, 0.145073931005
+don, 2811, 0.144357361533
+term, 8795, 0.130747834489
+mission, 5772, 0.125785746425
+human, 4432, 0.122861302054
+univers, 9282, 0.105748425036
+long, 5336, 0.100265570944
+program, 6905, 0.0987748273474
+space, 8164, 0.0902639607309

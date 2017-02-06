@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38449
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: amann@iam.unibe.ch (Stephan Amann)
+Subject: Re: Radiosity
+Reply-To: amann@iam.unibe.ch
+Organization: University of Berne, Institute of Computer Science and Applied Mathematics, Special Interest Group Computer Graphics
+Lines: 54
+
+In article 16598@rz.uni-jena.de, hahm@fossi.hab-weimar.de (peter hahm) writes:
+>
+>
+>RADIOSITY SOURCES WANTED !!!
+>============================
+>
+>When I read the comp.graphics group, I never found something about 
+>radiosity. Is there anybody interested in out there? I would be glad 
+>to hear from somebody.
+>I am looking for source-code for the radiosity-method. I have already
+>read common literature, e. g.Foley ... . I think little examples could 
+>help me to understand how radiosity works. Common languages ( C, C++, 
+>Pascal) prefered.
+>I hope you will help me!
+>
+>Yours
+>Peter 
+>
+
+
+Peter,  there's a radiosity package ahead. The only problem is: there 
+are a few miles to sail ... ;-^
+
+Let's be serious... I'm working on a radiosity package, written in C++.
+I would like to make it public domain.  I'll announce it in c.g. the minute
+I finished it. 
+
+That were the good news. The bad news: It'll take another 2 months (at least) 
+to finish it. 
+
+In the meantime you may have a look at the file
+  Radiosity_code.tar.Z
+located at
+  compute1.cc.ncsu.edu
+
+(there are some other locations; have a look at archie to get the nearest)
+
+Hope that'll help.
+
+Yours
+
+Stephan
+
+
+
+----------------------------------------------------------------------------
+
+ Stephan Amann     SIG Computer Graphics, University of Berne, Switzerland
+           amann@iam.unibe.ch
+	   Tel +41 31 65 46 79	   Fax +41 31 65 39 65
+
+ Projects: Radiosity, Raytracing, Computer Graphics
+
+----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ radios        radios sourc want   read comp
+graphic group never found someth radios anybodi
+interest glad hear somebodi look sourc code radios
+method alreadi read common literatur foley think
+littl exampl could help understand radios work
+common languag pascal prefer hope help   peter
+peter there radios packag ahead problem mile sail
+let serious i'm work radios packag written like
+make public domain i'll announc minut finish  good
+news bad news it'll take anoth month least finish
+meantim look file radios code tar locat compute1
+ncsu edu  locat look archi get nearest  hope
+that'll help    stephan      stephan amann sig
+comput graphic univers bern switzerland  tel fax
+project radios raytrac comput graphic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+radios, 7062, 0.760875331604
+stephan, 8379, 0.197767752139
+graphic, 3997, 0.128941484307
+peter, 6575, 0.128862978358
+finish, 3488, 0.126374466152
+ll, 5314, 0.124065006402
+locat, 5323, 0.115675143137
+help, 4249, 0.115059162503
+common, 1948, 0.11393385695
+packag, 6375, 0.113724140031
+code, 1871, 0.103771874588
+look, 5341, 0.0977387762597
+compute1, 1994, 0.0965037031409
+bern, 1043, 0.0965037031409
+sourc, 8153, 0.0963678326131
+ncsu, 5979, 0.0944912956038
+hope, 4372, 0.0933284030147
+meantim, 5599, 0.0927480689035
+comput, 1993, 0.0905201595924
+news, 6031, 0.0901788525608
+foley, 3575, 0.0874547997432
+switzerland, 8639, 0.0864098575581
+nearest, 5984, 0.081455693387
+read, 7135, 0.079479529546
+archi, 613, 0.0789615039427
+sail, 7584, 0.0784058963455
+tar, 8701, 0.0768682614226
+pascal, 6447, 0.0763934888084
+raytrac, 7121, 0.0750647352706
+work, 9833, 0.0739703701414
+glad, 3889, 0.0717371658764
+literatur, 5307, 0.0714148085586
+sig, 7940, 0.0704929097732
+tel, 8754, 0.0685655501464
+domain, 2805, 0.0685655501464
+mile, 5713, 0.0673445854107
+comp, 1955, 0.0646193313847
+ahead, 342, 0.0633578865916
+languag, 5113, 0.0630187816024
+somebodi, 8121, 0.0623659051609
+minut, 5747, 0.0603080895501
+announc, 524, 0.0599063714526
+prefer, 6819, 0.0596452665877
+method, 5666, 0.0587704546272
+written, 9867, 0.0569669284752
+hear, 4223, 0.0563500511334
+fax, 3413, 0.0548347512168
+month, 5847, 0.0538035726683
+anybodi, 552, 0.0530803522368
+alreadi, 443, 0.0523211378617
+public, 6973, 0.050151630859
+project, 6909, 0.0484553358139
+bad, 861, 0.048076909084
+exampl, 3258, 0.0473514553434
+understand, 9246, 0.0468084549978
+edu, 3001, 0.0462871411292
+group, 4064, 0.0454329936891
+file, 3477, 0.0451744741907
+littl, 5308, 0.0438760326219
+univers, 9282, 0.0433833398841
+anoth, 533, 0.042074998559
+let, 5225, 0.041228255429
+problem, 6887, 0.041071533162
+someth, 8126, 0.038429175713
+want, 9634, 0.0355619663759
+good, 3948, 0.0335583175161
+make, 5459, 0.0327431883134
+think, 8871, 0.0298994185739
+like, 5272, 0.0274883884111

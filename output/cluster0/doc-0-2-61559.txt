@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61559
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Electrical Spacecraft via Magnetic field of earth?
+Organization: Express Access Online Communications USA
+Lines: 13
+NNTP-Posting-Host: access.digex.net
+
+In article <C6DF6w.Bur@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>No.  A "dragless" satellite does not magically have no drag; it burns fuel
+>constantly to fight drag, maintaining the exact orbit it would have *if*
+>there was no drag.  This is why there are quotes around "dragless".
+
+
+I didn't exactly follow the "dragless" satellitte  thread.
+
+What is the point of it?  are they used for  laser geodesy  missions?
+triad seemed to be some sort of navy navigation bird,  but why
+be "dragless"  why not just update  orbital parameters?
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ electr spacecraft via magnet field earth
+dragless satellit magic drag burn fuel constant
+fight drag maintain exact orbit drag quot around
+dragless   didn't exact follow dragless satellitt
+thread  point use laser geodesi mission triad seem
+sort navi navig bird dragless updat orbit paramet
+pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dragless, 2855, 0.654471943459
+drag, 2854, 0.376131570594
+exact, 3253, 0.179441548285
+triad, 9088, 0.176268252738
+geodesi, 3839, 0.176268252738
+orbit, 6280, 0.163636636383
+laser, 5134, 0.137731959117
+navig, 5969, 0.136727114952
+magnet, 5437, 0.136727114952
+bird, 1113, 0.133102525799
+navi, 5968, 0.13148717651
+fight, 3474, 0.127236204744
+electr, 3030, 0.125980033166
+paramet, 6421, 0.124217691348
+magic, 5435, 0.120572181072
+constant, 2067, 0.115431971932
+fuel, 3715, 0.110007821876
+thread, 8890, 0.109412911974
+maintain, 5454, 0.108268096639
+burn, 1413, 0.105886393568
+spacecraft, 8166, 0.100741927715
+pat, 6458, 0.100345333831
+updat, 9333, 0.0979243513896
+quot, 7045, 0.0970581430549
+satellit, 7632, 0.0967207446781
+mission, 5772, 0.0893551822669
+sort, 8144, 0.0869493153538
+field, 3466, 0.0850731474456
+earth, 2956, 0.0787457381068
+didn, 2625, 0.0755109046713
+follow, 3578, 0.0742990484804
+point, 6710, 0.0638068430938
+use, 9363, 0.0499246869816

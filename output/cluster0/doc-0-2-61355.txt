@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61355
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: What planets are habitable
+From: steveg@arc.ug.eds.com
+Distribution: sci
+Organization: EDS SCICON, GDS Solutions, Cambridge, UK
+Nntp-Posting-Host: 55661
+Nntp-Posting-User: steveg
+Lines: 19
+
+In article <C659w7.IyD@fs7.ece.cmu.edu>, loss@fs7.ECE.CMU.EDU (Doug Loss) writes:
+> In article <JPG.93Apr27135219@holly.bnr.co.uk> jpg@bnr.co.uk (Jonathan P. Gibbons) writes:
+
+>>I would appreciate any thoughts on what makes a planet habitable for Humans.
+>>I am making asumptions that life and a similar atmosphere evolve given a range
+>>of physical aspects of the planet.  The question is what physical aspects
+>>simply disallow earth like conditions.
+>> [deleted]
+
+>>
+>    Dandridge Cole and Isaac Asimov collaborated on a book titled,
+> "Habitable Planets for Man" (I think) in 1964.  It should be available
+> in most good libraries, or through inter-library loan.
+> 
+
+This is the high-school science version; the original Rand study by
+Stephen H Dole "Planets for Man" gives the harder numbers & graphs &
+such (but predates Michael Hart's (& later) work on continuously 
+habitable zones)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+planet habit     nntp post user steveg
+appreci thought make planet habit human make
+asumpt life similar atmospher evolv given rang
+physic aspect planet question physic aspect simpli
+disallow earth like condit delet   dandridg cole
+isaac asimov collabor book titl habit planet man
+think avail good librari inter librari loan   high
+school scienc version origin rand studi stephen
+dole planet man give harder number graph predat
+michael hart later work continu habit zone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+planet, 6664, 0.445904956201
+habit, 4109, 0.420684907374
+aspect, 693, 0.193385076306
+librari, 5250, 0.172917696666
+physic, 6613, 0.169359257971
+dole, 2800, 0.15187502545
+asimov, 688, 0.143977782828
+predat, 6815, 0.140975390527
+dandridg, 2353, 0.140975390527
+rand, 7090, 0.138374600018
+isaac, 4775, 0.138374600018
+disallow, 2677, 0.138374600018
+asumpt, 733, 0.138374600018
+hart, 4187, 0.136080540206
+man, 5471, 0.13454148211
+nntp, 6084, 0.134028433778
+loan, 5319, 0.130477357396
+collabor, 1894, 0.124874174585
+evolv, 3250, 0.122580114774
+inter, 4703, 0.120528008345
+cole, 1890, 0.116181842106
+graph, 3996, 0.114682872152
+harder, 4170, 0.113291066138
+zone, 9991, 0.111373749152
+stephen, 8380, 0.102681416673
+condit, 2017, 0.100129379622
+make, 5459, 0.0977017772926
+atmospher, 755, 0.094784174051
+titl, 8953, 0.093772154381
+school, 7685, 0.0916708014108
+michael, 5680, 0.0887952955313
+rang, 7094, 0.0880460879019
+user, 9366, 0.0840709232951
+studi, 8469, 0.0837735587889
+delet, 2502, 0.0834806660993
+continu, 2092, 0.0822145672259
+later, 5140, 0.0816772366845
+similar, 7961, 0.0806451013434
+simpli, 7967, 0.0797847786647
+version, 9479, 0.0757781950687
+appreci, 587, 0.0752948700986
+human, 4432, 0.0751996278706
+scienc, 7692, 0.0727897898396
+life, 5260, 0.071727887634
+given, 3887, 0.0699077005573
+book, 1218, 0.0697634258471
+origin, 6293, 0.0692667177711
+thought, 8887, 0.0679790735451
+earth, 2956, 0.067848354955
+avail, 811, 0.0676539074482
+high, 4292, 0.0658680351599
+number, 6156, 0.0633335556547
+question, 7032, 0.0589564161827
+post, 6766, 0.0568836882627
+work, 9833, 0.0551796953968
+good, 3948, 0.0500670129142
+think, 8871, 0.0446081534078
+like, 5272, 0.0410110398684

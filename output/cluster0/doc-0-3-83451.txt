@@ -1,0 +1,233 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83451
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Food For Thought On Tyre
+Organization: Cookamunga Tourist Bureau
+Lines: 62
+
+I was curious to check out how many San Jose Mercury News mentioned
+Tyre (1990-92). Here's the outcome from the research (condenced versions,
+copyright San Jose Mercury news):
+
+---
+  Bombings in the two largest cities in southern Lebanon killed 11 people
+and 
+wounded 80 others. A car bomb blew up in Tyre, killing 10 people and
+wounding 
+75. A man was killed and five others seriously wounded in an explosion in 
+Nabatiye.
+---
+  An Israeli navy patrol boat attacked and sank a rubber guerrilla boat off
+
+southern Lebanon early today, killing the two men aboard, the army command 
+said.
+  
+     It said in a communique that a Dvora patrol boat opened fire on the 
+motorized rubber dinghy north of Tyre after identifying it as hostile. The
+army 
+said no one on the Israeli boat was injured. The affiliation of the slain 
+guerrillas was not immediately known.
+---
+  Rival factions of the guerrilla group led by terrorist mastermind Abu
+Nidal 
+battled Sunday in Tyre, Lebanon, with machine guns and rocket-propelled 
+grenades, killing at least four people and wounding 15, police said.
+---
+ Lebanon's mainstream Shiite Muslim militia said Thursday that it had 
+uncovered a network of tunnels in a southern Lebanese village where it said
+pro-
+Iranian kidnappers had held Western hostages.
+  
+     Officials of the militia, Amal, led local journalists through the
+catacomb-
+like alleys and showed them two cells with iron doors at the village, 
+Kawthariyet al Siyad, near Tyre, the ancient port city, about 40 miles
+south of 
+Beirut.
+  
+     The officials said they were certain that U.S. Marine Lt. Col. William
+R. 
+Higgins was detained there shortly after he was seized by gunmen on a road 
+outside Tyre in February 1988.
+--------------
+...anyway, I counted 20 articles during these 3 years of reporting. I also
+found out the possible reason why the numbers for the inhabitants of the
+city is defined between 14000 and 24000. It seems that Tyre is one of the
+places
+where people from Libanon flee to during more extensive bombings, so
+there's
+a constant flow of refugees entering and leaving Tyre (articles mentioned
+thousands of people entering and leaving this place).
+
+I counted 0 articles for my home town, Kristinestad, so from now I will
+consider this place to be a fishing village :-).
+
+Cheers,
+Kent
+
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ food thought tyre    curious check mani san jose
+mercuri news mention tyre here outcom research
+condenc version copyright san jose mercuri news
+bomb two largest citi southern lebanon kill peopl
+wound other car bomb blew tyre kill peopl wound
+man kill five other serious wound explos nabatiy
+isra navi patrol boat attack sank rubber guerrilla
+boat  southern lebanon earli today kill two men
+aboard armi command said  said communiqu dvora
+patrol boat open fire motor rubber dinghi north
+tyre identifi hostil armi said one isra boat injur
+affili slain guerrilla immedi known  rival faction
+guerrilla group led terrorist mastermind abu nidal
+battl sunday tyre lebanon machin gun rocket propel
+grenad kill least four peopl wound polic said
+lebanon mainstream shiit muslim militia said
+thursday uncov network tunnel southern lebanes
+villag said pro iranian kidnapp held western
+hostag  offici militia amal led local journalist
+catacomb like alley show two cell iron door villag
+kawthariyet siyad near tyre ancient port citi mile
+south beirut  offici said certain marin col
+william  higgin detain short seiz gunmen road
+outsid tyre februari  anyway count articl year
+report also found possibl reason number inhabit
+citi defin seem tyre one place peopl libanon flee
+extens bomb there constant flow refuge enter leav
+tyre articl mention thousand peopl enter leav
+place  count articl home town kristinestad consid
+place fish villag  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tyre, 9180, 0.52538898757
+lebanon, 5185, 0.285235857481
+boat, 1188, 0.233506216698
+wound, 9855, 0.213378456712
+said, 7583, 0.205514435624
+kill, 5012, 0.188679868279
+villag, 9519, 0.184859146549
+bomb, 1209, 0.157827681633
+southern, 8156, 0.156789956348
+isra, 4790, 0.133607440435
+rubber, 7525, 0.127672383515
+peopl, 6530, 0.119643872563
+citi, 1775, 0.119358115953
+armi, 645, 0.105218454422
+mercuri, 5640, 0.103860933325
+led, 5188, 0.0952468452693
+jose, 4892, 0.0909929711652
+place, 6657, 0.090622143057
+enter, 3125, 0.0856063232486
+articl, 665, 0.0852747650157
+offici, 6207, 0.0820455922965
+count, 2180, 0.0814855748237
+san, 7603, 0.0797377035778
+leav, 5184, 0.078609707627
+beirut, 1003, 0.0713089643703
+mention, 5632, 0.0705945900704
+tunnel, 9150, 0.0668037202176
+sank, 7612, 0.0668037202176
+iranian, 4762, 0.0668037202176
+flee, 3534, 0.0668037202176
+rival, 7421, 0.0651957289786
+seiz, 7772, 0.0638361917577
+hostag, 4387, 0.0638361917577
+journalist, 4899, 0.0626585070492
+hostil, 4388, 0.0626585070492
+alley, 428, 0.0626585070492
+terrorist, 8809, 0.0616197155164
+inhabit, 4643, 0.0616197155164
+grenad, 4037, 0.0616197155164
+news, 6031, 0.0609228023362
+uncov, 9233, 0.0606904848259
+blew, 1156, 0.0606904848259
+aboard, 182, 0.059849893418
+col, 1886, 0.0590824935869
+outcom, 6323, 0.0571144713637
+muslim, 5934, 0.0571144713637
+mainstream, 5453, 0.0571144713637
+cell, 1598, 0.0571144713637
+battl, 951, 0.0571144713637
+februari, 3423, 0.0565452716575
+affili, 311, 0.0560105907209
+higgin, 4291, 0.0555064801247
+polic, 6720, 0.0545772494342
+propel, 6923, 0.0541469429038
+thursday, 8911, 0.053344614178
+injur, 4649, 0.053344614178
+fish, 3505, 0.053344614178
+flow, 3555, 0.052609227211
+town, 9024, 0.0522633187828
+largest, 5126, 0.0522633187828
+copyright, 2135, 0.0522633187828
+navi, 5968, 0.0513002318727
+explos, 3308, 0.0513002318727
+door, 2818, 0.0507120450022
+motor, 5882, 0.049641698751
+car, 1510, 0.049641698751
+attack, 761, 0.0486873053206
+iron, 4767, 0.0482462366968
+gun, 4094, 0.0482462366968
+food, 3584, 0.0482462366968
+marin, 5511, 0.0480337075121
+identifi, 4486, 0.0478261794811
+ancient, 500, 0.0478261794811
+south, 8154, 0.0474252225098
+port, 6748, 0.0474252225098
+western, 9709, 0.0468560228036
+pro, 6883, 0.0468560228036
+mile, 5713, 0.0454964855826
+held, 4243, 0.045186996481
+constant, 2067, 0.0450362315382
+extens, 3320, 0.0447422198334
+william, 9764, 0.0443188008741
+sunday, 8541, 0.0443188008741
+north, 6110, 0.043914782096
+thousand, 8888, 0.0434033614833
+curious, 2297, 0.0428031616243
+men, 5629, 0.0423507786508
+immedi, 4527, 0.0422412178086
+kent, 4987, 0.0421330013051
+outsid, 6332, 0.0419204721204
+cheer, 1687, 0.0417129440894
+road, 7431, 0.0411181433946
+rocket, 7447, 0.0410227961483
+network, 6018, 0.0408351394011
+machin, 5416, 0.0401220615549
+defin, 2482, 0.0387015736118
+command, 1933, 0.0387015736118
+local, 5322, 0.0375421299323
+earli, 2951, 0.0365746365598
+check, 1682, 0.0359661515575
+near, 5982, 0.0357028623226
+known, 5054, 0.0352478857498
+report, 7291, 0.0351012973162
+open, 6258, 0.0350049080029
+short, 7904, 0.0348622709147
+version, 9479, 0.0343137293209
+home, 4354, 0.0340088261632
+research, 7307, 0.0339236126077
+today, 8964, 0.0337141126294
+certain, 1619, 0.0312080002009
+consid, 2059, 0.0309318878791
+thought, 8887, 0.0307821468563
+group, 4064, 0.0306935075737
+man, 5471, 0.0304614011681
+possibl, 6765, 0.028915671359
+number, 6156, 0.0286785728229
+reason, 7156, 0.0284476817733
+mani, 5479, 0.025017195845
+year, 9943, 0.022165160294
+like, 5272, 0.018570536286

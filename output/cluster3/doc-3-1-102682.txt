@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102682
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: neuharth@hardy.u.washington.edu (John Neuharth)
+Subject: Re: Jim Lefebvre is an idiot.
+Article-I.D.: shelley.1psf0dINNm4q
+Organization: University of Washington
+Lines: 20
+NNTP-Posting-Host: hardy.u.washington.edu
+
+rickc@krill.corp.sgi.com (Richard Casares) writes:
+
+>In article <1993Apr5.190141.17623@bsu-ucs>, 00bjgood@leo.bsuvc.bsu.edu
+>writes:
+>|> I just wanted to let everyone know that I have lost what little respect
+>|> I have
+>|> for Jim LeFebvre after seeing today's Cubs game. 
+>|> 						A dishard Cub fan
+
+
+>Yes, I also wonder if they can win with this manager.
+>I never believed managers had that much to do with winning
+>until I saw how much they had to do with losing....
+
+I like the Mariners a lot, but my heart belongs to the Cubs...You can imagine
+my frustration when I saw the Cubs nabbing LeFebvre...ARHGGHRGHH!
+
+-John Neuharth
+
+neuharth@u.washington.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jim lefebvr idiot articl shelley 1psf0dinnm4q
+articl 1993apr5  want let everyon know lost littl
+respect  jim lefebvr see today cub game dishard
+cub fan   yes also wonder win manag never believ
+manag much win saw much lose  like marin lot heart
+belong cub imagin frustrat saw cub nab lefebvr
+arhgghrghh  john neuharth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lefebvr, 5192, 0.510241555357
+cub, 2282, 0.481983865412
+jim, 4868, 0.222441609402
+saw, 7650, 0.214456842085
+manag, 5472, 0.185884916478
+dishard, 2714, 0.184389221436
+win, 9770, 0.176970374273
+shelley, 7874, 0.170080518452
+1993apr5, 48, 0.170080518452
+articl, 665, 0.156914889152
+frustrat, 3706, 0.154598414303
+idiot, 4487, 0.134384945818
+marin, 5511, 0.132580908697
+belong, 1015, 0.12833656125
+heart, 4225, 0.123495863008
+imagin, 4518, 0.110508265218
+respect, 7321, 0.110275312617
+lost, 5355, 0.107641030259
+lose, 5350, 0.10702470972
+everyon, 3241, 0.0970194596031
+fan, 3381, 0.0968853360627
+today, 8964, 0.0930564788739
+john, 4878, 0.0920490236162
+yes, 9951, 0.0886753706117
+wonder, 9821, 0.0883906496933
+littl, 5308, 0.0818158411302
+let, 5225, 0.0768785187421
+lot, 5356, 0.0759554371185
+believ, 1009, 0.0751754915636
+game, 3761, 0.073790156355
+want, 9634, 0.0663125633158
+know, 5052, 0.052435181056
+like, 5272, 0.0512577251127

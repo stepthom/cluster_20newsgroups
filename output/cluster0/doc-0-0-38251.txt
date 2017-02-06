@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38251
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: Fractals? what good are they?
+Organization: Purdue University
+Lines: 17
+
+In article <7208@pdxgate.UUCP> idr@rigel.cs.pdx.edu (Ian D Romanick) writes:
+> They talked about another routine that could yield up to 150 to 1
+> compress with no image loss that *I* could notice.  The draw back is that it
+> takes a hell of a long time to compress something.  I'll have to see if I can
+> find the book so that I can give more exact numbers.  TTYL.
+
+That's a typical claim, though they say they've improved
+compression speed considerably.  Did you find out anything else
+about the book?  I'd be interested in looking at it if you could give me
+any pointers.
+
+Reportedly, early fractal compression times of 24-100 hours used
+that marvelous piece of hardware called "grad students" to do the
+work.  Supposedly it's been automated since about 1988, but I'm still
+waiting to be impressed.
+
+Allen B (Sign me "Cynical")
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fractal good     talk anoth routin could yield
+compress imag loss could notic draw back take hell
+long time compress someth i'll see find book give
+exact number ttyl  that typic claim though say
+they'v improv compress speed consider find anyth
+els book i'd interest look could give pointer
+report earli fractal compress time hour use marvel
+piec hardwar call grad student work suppos it
+autom sinc i'm still wait impress  allen sign
+cynic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+compress, 1986, 0.526303552152
+fractal, 3637, 0.297471703562
+ttyl, 9141, 0.198195678978
+marvel, 5526, 0.183971743623
+book, 1218, 0.18208141217
+cynic, 2327, 0.168237423982
+grad, 3977, 0.166353797702
+yield, 9954, 0.162959787137
+autom, 802, 0.156047959998
+pointer, 6711, 0.145341841216
+piec, 6624, 0.130668029988
+typic, 9178, 0.129364291746
+allen, 426, 0.127329820374
+student, 8468, 0.126559539511
+routin, 7499, 0.124730165809
+wait, 9611, 0.122371902501
+loss, 5352, 0.122371902501
+impress, 4554, 0.122371902501
+time, 8936, 0.120784175917
+consider, 2060, 0.119920140739
+notic, 6120, 0.117418057591
+improv, 4557, 0.117418057591
+hell, 4245, 0.116635924397
+sign, 7946, 0.115629166132
+hour, 4395, 0.114424328105
+hardwar, 4173, 0.113499959939
+draw, 2861, 0.1128280973
+earli, 2951, 0.105405718527
+suppos, 8577, 0.103345867899
+speed, 8217, 0.103345867899
+report, 7291, 0.101159650864
+exact, 3253, 0.100881863146
+claim, 1782, 0.0990179784762
+els, 3053, 0.0878704306409
+anyth, 555, 0.0871360106596
+talk, 8684, 0.0859572527661
+imag, 4512, 0.0852007289679
+number, 6156, 0.0826497775253
+anoth, 533, 0.0819187714419
+ll, 5314, 0.0805169598054
+long, 5336, 0.0800866683623
+sinc, 7977, 0.0774819349029
+someth, 8126, 0.0748204627391
+work, 9833, 0.0720090558838
+good, 3948, 0.0653370466246
+say, 7653, 0.0645311458833
+look, 5341, 0.0634314973075
+use, 9363, 0.0561352204971

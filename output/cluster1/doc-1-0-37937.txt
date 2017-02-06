@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37937
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: d91-fad@tekn.hj.se (DANIEL FALK)
+Subject: RE: VESA on the Speedstar 24
+Organization: H|gskolan i J|nk|ping
+Lines: 39
+Nntp-Posting-Host: pc5_b109.et.hj.se
+
+>>>kjb/MGL/uvesa32.zip
+>>>
+>>>This is a universal VESA driver.  It supports most video
+>>>boards/chipsets (include the Speedstar-24 and -24X) up to
+>>>24 bit color.
+>>>
+>>>Terry
+>>>
+>>>P.S.  I've tried it on a Speedstar-24 and -24X and it works. :)
+
+>>Not with all software. :( For instance it doesn't work at all with
+>>Animator Pro from Autodesk. It can't detect ANY SVGA modes when 
+>>running UniVESA. This is really a problem as we need a VESA driver
+>>for both AA Pro and some hi-color stuff. :(
+
+>Just out of curiosity... Are you using the latest version (3.2)?  Versions
+>previous to this did not fill in all of the capabilities bits and other
+>information correctly.  I had problems with a lot of software until I got
+>this version.  (I don't think the author got around to posting an 
+>announcementof it (or at least I missed it), but 3.2 was available in the 
+>directory indicated as of 3/29.)
+
+I sure did use version 3.2. It works fine with most software but NOT
+with Animator Pro and that one is quite important to me. Pretty
+useless program without that thing working IMHO.
+So I hope the author can fix that.
+
+/Daniel...
+
+
+
+
+=============================================================================
+!!      Daniel Falk          \\  " Don't quote me! No comments! "          !! 
+!!      ^^^^^^ ^^^^           \\               Ebenezum the Great Wizard   !! 
+!!      d91-fad@tekn.hj.se     \\                                          !!
+!!      d91fad@hjds90.hj.se    //  Also known as the mega-famous musician  !!
+!!      Jkpg, Sweeeeeden...    \\         Leinad of The Yellow Ones        !!
+=============================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vesa speedstar     kjb mgl uvesa32 zip  univers
+vesa driver support video board chipset includ
+speedstar 24x bit color  terri  i'v tri speedstar
+24x work  softwar instanc doesn't work anim pro
+autodesk can't detect svga mode run univesa realli
+problem need vesa driver pro color stuff  curios
+use latest version version previous fill capabl
+bit inform correct problem lot softwar got version
+don't think author got around post announcementof
+least miss avail directori indic  sure use version
+work fine softwar anim pro one quit import pretti
+useless program without thing work imho hope
+author fix  daniel      daniel falk don't quot
+comment ebenezum great wizard   jkpg sweeeeeden
+leinad yellow one
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+speedstar, 8218, 0.33420370633
+vesa, 9484, 0.284892383678
+pro, 6883, 0.274176686064
+version, 9479, 0.267714416171
+24x, 69, 0.236752431663
+daniel, 2359, 0.197826726929
+work, 9833, 0.194942620687
+driver, 2876, 0.172886802691
+softwar, 8103, 0.172240087389
+anim, 515, 0.148505768226
+author, 796, 0.14114760877
+color, 1907, 0.138278878142
+uvesa32, 9396, 0.134138632269
+mgl, 5674, 0.130300023562
+kjb, 5035, 0.130300023562
+chipset, 1713, 0.130300023562
+univesa, 9283, 0.127163651881
+curios, 2296, 0.120188671492
+bit, 1122, 0.11604113935
+wizard, 9811, 0.11523984415
+got, 3960, 0.112893360331
+terri, 8803, 0.112588079677
+autodesk, 801, 0.111401235443
+yellow, 9947, 0.110291016807
+problem, 6887, 0.108240533269
+useless, 9364, 0.0983672090764
+svga, 8613, 0.0973243189738
+zip, 9988, 0.0932845100989
+detect, 2579, 0.0928890347903
+imho, 4524, 0.0913922286881
+latest, 5141, 0.0903493385854
+instanc, 4680, 0.0900153005503
+fix, 3511, 0.0846578454844
+board, 1186, 0.082604792639
+directori, 2669, 0.0815619025363
+previous, 6855, 0.0805786395931
+mode, 5806, 0.0789390740136
+don, 2811, 0.078038160492
+video, 9506, 0.0779268751203
+capabl, 1498, 0.0771266183529
+fine, 3485, 0.0763619405398
+use, 9363, 0.0759845193237
+indic, 4600, 0.0749275752258
+quot, 7045, 0.0738604164829
+miss, 5770, 0.0727340377535
+comment, 1936, 0.0690414193286
+correct, 2156, 0.0662505884697
+stuff, 8472, 0.0659213455337
+import, 4551, 0.065202810622
+pretti, 6851, 0.0630727151555
+quit, 7043, 0.063003767495
+hope, 4372, 0.0614897675699
+avail, 811, 0.0597530936101
+support, 8576, 0.0592479292044
+includ, 4579, 0.0591927047002
+great, 4016, 0.0572156313404
+univers, 9282, 0.0571665516544
+inform, 4637, 0.0565409402274
+doesn, 2793, 0.0558009371758
+sure, 8585, 0.055398261405
+lot, 5356, 0.0536744781998
+program, 6905, 0.0533966937832
+run, 7543, 0.0518180725439
+realli, 7150, 0.0510455892866
+post, 6766, 0.050240650952
+tri, 9087, 0.0498198746819
+thing, 8869, 0.0469954028417
+need, 5993, 0.046251972786
+think, 8871, 0.0393986876278

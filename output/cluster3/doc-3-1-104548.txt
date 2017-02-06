@@ -1,0 +1,160 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104548
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: niguma@ug.cs.dal.ca (Gord Niguma)
+Subject: Re: Notes on Jays vs. Indians Series
+Nntp-Posting-Host: ug.cs.dal.ca
+Organization: Math, Stats & CS, Dalhousie University, Halifax, NS, Canada
+Distribution: na
+Lines: 38
+
+In <1993Apr15.123803.4618@webo.dg.com> lyford@dagny.webo.dg.com (Lyford Beverage) writes:
+
+>In article <1993Apr13.202037.9485@cs.cornell.edu>, tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>|> In article <rudyC5Fr3q.1CL@netcom.com> rudy@netcom.com (Rudy Wade) writes:
+>|> >In article <C5FMxD.2pM@cs.dal.ca> niguma@ug.cs.dal.ca (Gord Niguma) writes:
+>|> >>reference to history because he certainly didn't have the best season for    
+>|> >>second basemen in history. He probably didn't even have as good a season as
+>|> >>Alomar last year.
+>|> >  
+>|> >What?  Do you have some measure (like popularity in Toronto doesn't count)
+>|> >that you are basing this statement on?
+>|> 
+>|> Uh, yes.  Baerga has a lot of flash, but Alomar was the better hitter
+>|> last year.
+>|> 
+>|> BATTERS        BA   SLG   OBP   G  AB   R   H  TB 2B 3B HR RBI  BB  SO SB CS  E
+>|> BAERGA,C     .312  .455  .354 161 657  92 205 299 32  1 20 105  35  76 10  2 19
+>|> ALOMAR,R     .310  .427  .405 152 571 105 177 244 27  8  8  76  87  52 49  9  5
+>|> 
+
+>This is fascinating.  You say that Alomar was the better hitter last 
+>year, and immediately follow that up with numbers showing that Baerga
+>had a better year.  The only category that I see which shows an advantage
+>for Alomar is OBP
+
+ Hmmm...what about walks and SB? Baerga got clobbered by Alomar in OBP and
+beat him in SLG by a lesser margin. Even putting aside any other factors,
+a player with a 51 point edge in OBP is more productive than a player with
+a 28 point edge in SLG. The issue has been studied before, and I doubt you
+could come up with any convincing argument the other way.
+ People see the batting average and the HR, but they don't really know  
+their value is worth unless they've studied the issue closely. The fact is that
+Baerga ate up a LOT more outs than Alomar; while Baerga was making outs,
+Alomar was drawing walks and being on base for Carter, Winfield et.al.
+
+						Gord Niguma
+						(fav player: John Olerud)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ note jay indian seri           refer histori
+certain didn't best season second basemen histori
+probabl didn't even good season alomar last year
+measur like popular toronto doesn't count base
+statement  yes baerga lot flash alomar better
+hitter last year  batter slg obp rbi baerga alomar
+fascin say alomar better hitter last year immedi
+follow number show baerga better year categori see
+show advantag alomar obp  hmmm walk baerga got
+clobber alomar obp beat slg lesser margin even put
+asid factor player point edg obp product player
+point edg slg issu studi doubt could come convinc
+argument way peopl see bat averag don't realli
+know valu worth unless they'v studi issu close
+fact baerga ate lot out alomar baerga make out
+alomar draw walk base carter winfield  gord niguma
+fav player john olerud
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alomar, 436, 0.548140286921
+baerga, 863, 0.448285412748
+obp, 6177, 0.270722385536
+slg, 8028, 0.220131953242
+player, 6683, 0.131354355926
+year, 9943, 0.127559262345
+edg, 2993, 0.120928921874
+better, 1060, 0.1138808199
+histori, 4314, 0.109737955295
+studi, 8469, 0.109154528118
+hitter, 4322, 0.108026432868
+walk, 9617, 0.107843197672
+issu, 4793, 0.103491599005
+season, 7747, 0.0977365537666
+fav, 3409, 0.0961129218084
+niguma, 6067, 0.0937994468146
+clobber, 1826, 0.0937994468146
+ate, 737, 0.0937994468146
+gord, 3953, 0.09014905411
+didn, 2625, 0.0847728392439
+lesser, 5222, 0.0839884540642
+olerud, 6221, 0.080584457106
+flash, 3524, 0.080584457106
+fascin, 3395, 0.0798591750087
+base, 923, 0.0794207552259
+lot, 5356, 0.0791835762617
+basemen, 929, 0.0791731169989
+hmmm, 4328, 0.075193121809
+carter, 1535, 0.0721679285697
+point, 6710, 0.0716331935871
+winfield, 9778, 0.0710638427534
+categori, 1560, 0.0676805963841
+margin, 5507, 0.0666441853001
+asid, 687, 0.0663977895538
+rbi, 7124, 0.0654574348122
+indian, 4598, 0.0654574348122
+beat, 974, 0.0622685104982
+advantag, 286, 0.0619208454017
+popular, 6746, 0.0610912047314
+factor, 3352, 0.0609315927876
+immedi, 4527, 0.0607739636521
+convinc, 2120, 0.0607739636521
+batter, 949, 0.0603124952615
+count, 2180, 0.0586181177937
+worth, 9850, 0.0574810307047
+statement, 8343, 0.0572416088427
+measur, 5601, 0.0572416088427
+doubt, 2830, 0.056775905851
+jay, 4832, 0.056662102557
+draw, 2861, 0.0563266914278
+averag, 816, 0.054013216434
+product, 6896, 0.0531255131465
+toronto, 9003, 0.0529551886801
+argument, 631, 0.0529551886801
+bat, 942, 0.0521362605323
+valu, 9414, 0.051900545106
+seri, 7805, 0.0517457995024
+unless, 9289, 0.0516691286817
+close, 1830, 0.0480954067979
+john, 4878, 0.0479805735958
+refer, 7213, 0.046781580963
+yes, 9951, 0.0462220562329
+note, 6118, 0.045781931804
+certain, 1619, 0.0449000755248
+second, 7753, 0.0441598564248
+fact, 3350, 0.0435407588988
+best, 1052, 0.0424232526877
+follow, 3578, 0.041706170256
+got, 3960, 0.0416366414123
+probabl, 6885, 0.0414987163344
+number, 6156, 0.0412608971226
+doesn, 2793, 0.0411603234212
+realli, 7150, 0.0376526465432
+come, 1923, 0.0367957841902
+peopl, 6530, 0.034427190974
+way, 9666, 0.0331928269885
+good, 3948, 0.0326179360646
+say, 7653, 0.032215609663
+make, 5459, 0.0318256486619
+don, 2811, 0.0287815589452
+know, 5052, 0.0273318495387
+like, 5272, 0.026718100372

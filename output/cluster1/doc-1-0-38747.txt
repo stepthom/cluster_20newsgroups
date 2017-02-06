@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38747
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: joshuaf@yang.earlham.edu
+Subject: Re: TIFF -> Anything?!
+Organization: Earlham College, Richmond, Indiana
+Lines: 15
+
+In article <1993Apr23.033843.26854@spartan.ac.BrockU.CA>, tmc@spartan.ac.BrockU.CA (Tim Ciceran) writes:
+> There is a program called Graphic Workshop you can FTP from
+> wuarchive.  The file is in the msdos/graphics directory and
+> is called "grfwk61t.zip."  This program should od everthing
+> you need.
+> 
+> -- 
+> 
+> TMC
+> (tmc@spartan.ac.BrockU.ca)
+
+
+THANKS!  It did work, and it is just what I needed thanks...
+
+Joshuaf
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff anyth     program call graphic workshop ftp
+wuarchiv file msdos graphic directori call
+grfwk61t zip program everth need    tmc    thank
+work need thank  joshuaf
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+everth, 3238, 0.33125011542
+grfwk61t, 4041, 0.32327679774
+tmc, 8957, 0.289463524563
+graphic, 3997, 0.287959866036
+program, 6905, 0.271491293634
+workshop, 9839, 0.259150692845
+wuarchiv, 9876, 0.252892582139
+msdos, 5903, 0.246151238095
+thank, 8832, 0.24493944187
+zip, 9988, 0.237148880655
+need, 5993, 0.235164521155
+tiff, 8926, 0.217106094326
+directori, 2669, 0.20734754216
+ftp, 3709, 0.176778216029
+file, 3477, 0.151329522916
+anyth, 555, 0.149923222579
+work, 9833, 0.123896304539

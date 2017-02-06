@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83670
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: hudson@athena.cs.uga.edu (Paul Hudson Jr)
+Subject: Re: Clarification of personal position
+Organization: University of Georgia, Athens
+Lines: 26
+
+In article <C5MuIw.AqC@mailer.cc.fsu.edu> dlecoint@garnet.acns.fsu.edu (Darius_Lecointe) writes:
+
+>If it were a sin to violate Sunday no one could
+>ever be forgiven for that for Jesus never kept Sunday holy.  He only
+>recognized one day of the seven as holy.
+
+Jesus also recognized other holy days, like the Passover.  Acts 15 says 
+that no more should be layed on the Gentiles than that which is necessary.
+The sabbath is not in the list, nor do any of the epistles instruct people
+to keep the 7th day, while Christians were living among people who did not
+keep the 7th day.  It looks like that would have been a problem.
+
+Instead, we have Scriptures telling us that all days can be esteemed alike
+(Romans 14:5) and that no man should judge us in regard to what kind of
+food we eat, Jewish holy days we keep, or _in regard to the sabbath. (Col. 2.)
+
+>The
+>question is "On what authority do we proclaim that the requirements of the
+>fourth commandment are no longer relevant to modern Christians?"
+
+I don't think that the Sabbath, or any other command of the law is totally
+irrelevant to modern Christians, but what about Collosions 2, where it says
+that we are not to be judged in regard to the keeping of the sabbath?
+
+Link Hudson.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ clarif person posit      sin violat sunday one
+could ever forgiven jesus never kept sunday holi
+recogn one day seven holi  jesus also recogn holi
+day like passov act say lay gentil necessari
+sabbath list epistl instruct peopl keep 7th day
+christian live among peopl keep 7th day look like
+problem  instead scriptur tell day esteem alik
+roman man judg regard kind food eat jewish holi
+day keep regard sabbath col   question author
+proclaim requir fourth command longer relev modern
+christian  don't think sabbath command law total
+irrelev modern christian collos say judg regard
+keep sabbath  link hudson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sabbath, 7561, 0.448954965815
+holi, 4344, 0.358510231548
+day, 2402, 0.290198972045
+regard, 7224, 0.200441269634
+7th, 140, 0.188639604857
+recogn, 7173, 0.17766352976
+christian, 1732, 0.173666247442
+sunday, 8541, 0.163923107456
+judg, 4920, 0.161469241043
+modern, 5811, 0.160999865428
+command, 1933, 0.143146522126
+jesus, 4859, 0.132635915697
+esteem, 3200, 0.127183920861
+epistl, 3149, 0.127183920861
+forgiven, 3606, 0.115878329078
+passov, 6453, 0.113957226378
+col, 1886, 0.109264981836
+hudson, 4423, 0.102651634595
+proclaim, 6892, 0.100137356663
+gentil, 3830, 0.100137356663
+alik, 415, 0.097293562046
+lay, 5159, 0.0966538517726
+irrelev, 4771, 0.0966538517726
+violat, 9526, 0.096038287353
+seven, 7820, 0.0954451121217
+clarif, 1785, 0.0954451121217
+fourth, 3630, 0.0918055244973
+link, 5289, 0.0913460428113
+roman, 7468, 0.0900405045309
+food, 3584, 0.0892248085059
+peopl, 6530, 0.0885059838798
+instruct, 4684, 0.0880729991788
+relev, 7254, 0.087706455187
+scriptur, 7725, 0.087347967763
+eat, 2968, 0.0853482599893
+say, 7653, 0.0828204145864
+kept, 4989, 0.082479391545
+necessari, 5990, 0.0802685739243
+jewish, 4864, 0.080040451028
+sin, 7976, 0.0787349127476
+longer, 5337, 0.0728339285551
+act, 249, 0.0728339285551
+law, 5153, 0.0700309612962
+instead, 4682, 0.0700309612962
+like, 5272, 0.068687328066
+author, 796, 0.0669147508066
+total, 9013, 0.0650952716203
+posit, 6761, 0.0640426147031
+requir, 7302, 0.0606771599383
+live, 5310, 0.0598025719896
+list, 5298, 0.0597371990716
+kind, 5021, 0.0581826403634
+man, 5471, 0.0563341904391
+person, 6562, 0.0543426318143
+tell, 8767, 0.0532987652617
+problem, 6887, 0.0513142827851
+question, 7032, 0.049371568155
+look, 5341, 0.0407045530723
+think, 8871, 0.03735597631
+don, 2811, 0.036996050505

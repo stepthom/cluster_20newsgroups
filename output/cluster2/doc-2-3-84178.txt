@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84178
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: jwmorris@netcom.com (John W. Morris)
+Subject: Re: What RIGHT ?
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 48
+
+
+stuff deleted - but message is:
+: 
+ 
+: 
+: >He is God.
+: 
+: In other words, the right of might.
+: 
+: >He is God.
+: 
+: In other words, the right of might.
+: 
+: 
+: 
+: >God granted you the gift of life whether you were sinner or saint.
+: 
+: In other words, he can do it, he did it, and your in no position to
+: argue about it.
+:  
+: >one that must be killed by Him.  Note:  I say that God and God alone is
+: >worthy to be Judge, Jury and Executioner.  We are not called to carry out
+: >such duties because we are not worthy.
+:  
+: In other words, you better do what this God wants you to do, or else!
+: 
+: >|> Who is god to impose its rules on us ? Who can tell if god is REALLY so
+: 
+: 
+: >God is God.  Who are we to question the Creator?  If you doubt God's doing
+: >in certain situations, do you claim to know a better solution?  Would you
+: >be playing the role of God?
+: 
+: In other words, its his game, he made the rules, and if you know whats
+: good for you you'll play his game his way.
+: 
+
+ Careful there, you make God out to be some spoiled little deity that when
+he can't have his way takes his ball and goes home.
+
+Now that you mention it....
+
+Naw... Can't be right, makes sense. 
+-- 
++--------------------------------------------------------------------+
+| John Morris                                    jwmorris@netcom.com |
+| San Diego, CA                    I have no opinion, but if I did...|
++--------------------------------------------------------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ right      stuff delet messag    god  word right
+might  god  word right might    god grant gift
+life whether sinner saint  word posit argu  one
+must kill note say god god alon worthi judg juri
+execution call carri duti worthi  word better god
+want els  god impos rule tell god realli   god god
+question creator doubt god certain situat claim
+know better solut play role god  word game made
+rule know what good you'll play game way   care
+make god spoil littl deiti can't way take ball goe
+home  mention  naw can't right make sens    san
+diego opinion
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+god, 3926, 0.725232552373
+word, 9829, 0.28347547878
+worthi, 9851, 0.195900556529
+right, 7399, 0.192595983516
+rule, 7537, 0.132114782362
+execution, 3273, 0.11989323486
+juri, 4933, 0.117007358585
+spoil, 8249, 0.104768924502
+play, 6681, 0.104400073217
+gift, 3874, 0.103595906663
+sinner, 7986, 0.100522708706
+duti, 2931, 0.100522708706
+impos, 4552, 0.0979502782646
+deiti, 2495, 0.0964416613379
+creator, 2221, 0.0964416613379
+game, 3761, 0.0959594110473
+better, 1060, 0.0947048508458
+saint, 7585, 0.0932000735239
+role, 7463, 0.0851144715014
+grant, 3994, 0.0837665513593
+way, 9666, 0.0828108297389
+diego, 2629, 0.079788621602
+make, 5459, 0.0793999370283
+judg, 4920, 0.0783486750534
+solut, 8118, 0.0781209229611
+argu, 628, 0.077896401504
+alon, 437, 0.0764080645254
+san, 7603, 0.0715529853061
+doubt, 2830, 0.0708234323388
+know, 5052, 0.06818862218
+delet, 2502, 0.0678427743593
+kill, 5012, 0.0677250898221
+goe, 3931, 0.0676082738135
+carri, 1530, 0.0669249232063
+situat, 7995, 0.0668138455762
+sens, 7788, 0.0659522180545
+messag, 5650, 0.0654365862277
+mention, 5632, 0.0633483714648
+care, 1516, 0.0623157120385
+posit, 6761, 0.0621499670965
+ball, 877, 0.0619045591213
+claim, 1782, 0.0616628979794
+home, 4354, 0.0610359448428
+stuff, 8472, 0.0606563463787
+opinion, 6266, 0.0592915947333
+life, 5260, 0.0582915676576
+note, 6118, 0.0571093230633
+certain, 1619, 0.0560092774086
+els, 3053, 0.0547208242725
+littl, 5308, 0.0531981521453
+tell, 8767, 0.0517236300026
+ll, 5314, 0.050141491015
+question, 7032, 0.0479124931198
+realli, 7150, 0.0469686854812
+want, 9634, 0.0431176381454
+good, 3948, 0.0406882841105
+say, 7653, 0.0401864138849

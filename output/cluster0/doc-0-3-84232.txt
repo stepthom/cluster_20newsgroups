@@ -1,0 +1,127 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84232
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kring@efes.physik.uni-kl.de (Thomas Kettenring)
+Subject: Re: Branch Athiests Cult (was Rawlins debunks creationism)
+Organization: FB Physik, Universitaet Kaiserslautern, Germany
+Lines: 23
+
+In article <1r9dd7INNqfk@ctron-news.ctron.com>, king@ctron.com (John E. King) writes:
+>scharle@lukasiewicz.cc.nd.edu (scharle) writes:
+>>  For your information, I checked the Library of Congress catalog,
+>>and they list the following books by Francis Hitching:
+>
+>I believe I've just discovered an anthopological parallel.  In my many
+>"discussions" with the fundies, their main tactic is to discredit
+>my sources.  They shrilly bleat:
+[..]
+
+Possibly the parallel just stems from your tending to use bad sources...
+Anyway, don't you think that similarity is rather shallow?  You're only
+looking at the surface, at the way of argumentation.  
+And now you should perhaps go a little deeper and try to find the difference,
+for example, find out whether you can find real science done by Hitching.
+If you can't, will you then admit that your attempt at quoting an authority
+has backfired?
+
+--
+thomas kettenring, 3 dan, kaiserslautern, germany
+Johannes Scotus Eriugena, the greatest European philosopher of the 9th century,
+said that if reason and authority conflict, reason should be given preference.
+And if that doesn't sound reasonable to you, you'll just have to accept it...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ branch athiest cult rawlin debunk creation
+inform check librari congress catalog list follow
+book franci hitch  believ i'v discov anthopolog
+parallel mani discuss fundi main tactic discredit
+sourc shrilli bleat   possibl parallel stem tend
+use bad sourc anyway don't think similar rather
+shallow you'r look surfac way argument perhap
+littl deeper tri find differ exampl find whether
+find real scienc done hitch can't admit attempt
+quot author backfir   thoma kettenr dan
+kaiserslautern germani johann scotus eriugena
+greatest european philosoph 9th centuri said
+reason author conflict reason given prefer doesn't
+sound reason you'll accept
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hitch, 4317, 0.314348936248
+parallel, 6420, 0.23152849158
+reason, 7156, 0.214077040579
+author, 796, 0.181522989697
+shrilli, 7920, 0.172509090132
+sourc, 8153, 0.163308659838
+shallow, 7847, 0.160128607576
+franci, 3651, 0.160128607576
+discredit, 2701, 0.160128607576
+athiest, 743, 0.160128607576
+stem, 8374, 0.154568732457
+rawlin, 7115, 0.154568732457
+fundi, 3726, 0.154568732457
+debunk, 2430, 0.154568732457
+deeper, 2467, 0.146433489807
+tactic, 8670, 0.144793985568
+9th, 152, 0.141839846116
+catalog, 1552, 0.134794635905
+conflict, 2034, 0.131966554818
+germani, 3855, 0.127933021629
+greatest, 4018, 0.12389948844
+congress, 2040, 0.12389948844
+philosoph, 6595, 0.121022299268
+european, 3222, 0.120489184722
+dan, 2350, 0.119968615218
+branch, 1269, 0.117078881003
+discov, 2698, 0.115342839084
+cult, 2289, 0.114124741551
+creation, 2218, 0.111872984366
+thoma, 8878, 0.109829392489
+tend, 8783, 0.109829392489
+centuri, 1614, 0.108874286624
+admit, 276, 0.107368727395
+prefer, 6819, 0.101077177809
+librari, 5250, 0.0982053317558
+attempt, 763, 0.0972637776123
+main, 5450, 0.0970801816779
+surfac, 8587, 0.0967174984221
+quot, 7045, 0.0949882448384
+argument, 631, 0.0923271319633
+similar, 7961, 0.0916017167084
+accept, 208, 0.0908993344416
+check, 1682, 0.0902185674018
+sound, 8150, 0.0868658012529
+perhap, 6540, 0.0856333052919
+discuss, 2708, 0.0850950017732
+scienc, 7692, 0.0826791658399
+bad, 861, 0.0814729913373
+list, 5298, 0.0810260431437
+exampl, 3258, 0.0802436093439
+given, 3887, 0.0794055097646
+book, 1218, 0.0792416335847
+real, 7144, 0.0758429951355
+littl, 5308, 0.0743540234559
+said, 7583, 0.073645505802
+inform, 4637, 0.0727145192169
+follow, 3578, 0.0727145192169
+possibl, 6765, 0.072532932563
+doesn, 2793, 0.0717628377291
+ll, 5314, 0.0700817875941
+believ, 1009, 0.0683192910543
+differ, 2633, 0.0681208755259
+tri, 9087, 0.0640708877562
+mani, 5479, 0.0627538802959
+way, 9666, 0.0578715437333
+look, 5341, 0.0552106380051
+think, 8871, 0.0506687122129
+don, 2811, 0.0501805178507
+use, 9363, 0.0488599744568

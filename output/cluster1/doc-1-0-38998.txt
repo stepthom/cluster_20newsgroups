@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38998
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jdryburn@smt_6.b21.ingr.com (Joe Ryburn)
+Subject: Software Development Libs for Old TARGA-16 Boards
+Organization: Intergraph
+Lines: 17
+
+I am revamping some computer-aided visual inspection systems which
+use the old AT&T Targa-16 Board Set (2 cards) to display images from
+a color CCD camera to a color monitor, providing the option to overlay
+text or a crosshair. No image capture or manipulation is performed, 
+just display. I would like to know if there is still a source for 
+development libraries which would allow me to embed commands in my
+own software to enable the camera, draw crosshairs, print text, etc.
+I'll be glad to pay if they are commercially available. E-Mail if
+possible.
+
+-- 
+
+
+----------------------------------------------------------------
+Joe Ryburn |  CIM Manager               | Intergraph Corporation
+           |  Manufacturing Integration | Huntsville, AL 35894
+----------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ softwar develop lib old targa board    revamp
+comput aid visual inspect system use old targa
+board set card display imag color ccd camera color
+monitor provid option overlay text crosshair imag
+captur manipul perform display like know still
+sourc develop librari allow emb command softwar
+enabl camera draw crosshair print text etc i'll
+glad pay commerci avail mail possibl      joe
+ryburn cim manag intergraph corpor manufactur
+integr huntsvill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+crosshair, 2242, 0.353406152983
+targa, 8703, 0.272199905088
+camera, 1473, 0.255100149574
+board, 1186, 0.217633365502
+text, 8822, 0.202790225964
+display, 2734, 0.195281849087
+color, 1907, 0.182157092019
+old, 6216, 0.171375361001
+develop, 2588, 0.168796166653
+intergraph, 4712, 0.167514817507
+overlay, 6345, 0.164021603564
+inspect, 4674, 0.15377915288
+ccd, 1581, 0.15377915288
+imag, 4512, 0.151922897669
+lib, 5245, 0.151807385025
+softwar, 8103, 0.151263176124
+huntsvill, 4446, 0.148314171083
+enabl, 3083, 0.134286101948
+aid, 351, 0.129580779047
+manufactur, 5494, 0.12691169356
+glad, 3889, 0.124524115232
+captur, 1509, 0.122364287917
+integr, 4694, 0.117723434575
+monitor, 5837, 0.116498215385
+manipul, 5483, 0.116498215385
+visual, 9547, 0.115716722944
+corpor, 2154, 0.114230220633
+joe, 4876, 0.112499529892
+option, 6276, 0.10968281499
+print, 6871, 0.108535175591
+pay, 6474, 0.102654383321
+librari, 5250, 0.100592868676
+draw, 2861, 0.100592868676
+command, 1933, 0.0994403643059
+card, 1513, 0.0972975689606
+commerci, 1940, 0.0958137713147
+perform, 6539, 0.092003614654
+allow, 432, 0.0868392972645
+manag, 5472, 0.0865193714574
+provid, 6949, 0.0838267664717
+sourc, 8153, 0.0836394841251
+set, 7815, 0.0811681310816
+avail, 811, 0.0787137552558
+comput, 1993, 0.0785641769243
+mail, 5447, 0.0779030301455
+possibl, 6765, 0.0742963302456
+ll, 5314, 0.0717855938165
+use, 9363, 0.05004784268
+know, 5052, 0.0488114796312
+like, 5272, 0.0477153955588

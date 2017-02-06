@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60986
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wats@scicom.AlphaCDC.COM (Bruce Watson)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: Alpha Science Computer Network, Denver, Co.
+Lines: 5
+
+The Apollo program cost something like $25 billion at a time when
+the value of a dollar was worth more than it is now. No one would 
+take the offer.
+-- 
+Bruce Watson (wats@scicom.alphaCDC.COM) Bulletin 629-49 Item 6700 Extract 75,131
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid    apollo
+program cost someth like billion time valu dollar
+worth one take offer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+billion, 1092, 0.540923686992
+resid, 7311, 0.324558848423
+apollo, 570, 0.301545167097
+dollar, 2802, 0.292795771525
+worth, 9850, 0.257116747417
+offer, 6203, 0.249066646792
+valu, 9414, 0.232154837574
+moon, 5851, 0.230439942116
+cost, 2169, 0.215652530798
+long, 5336, 0.178839325554
+program, 6905, 0.176180351223
+someth, 8126, 0.167079507332
+year, 9943, 0.142645418127
+time, 8936, 0.134859902404
+like, 5272, 0.11951196735

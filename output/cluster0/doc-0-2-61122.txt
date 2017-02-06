@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61122
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Bruce_Dunn@mindlink.bc.ca (Bruce Dunn)
+Subject: Re: Clementine mission name
+Organization: MIND LINK! - British Columbia, Canada
+Lines: 22
+
+> Wales.Larrison@ofa123.fidonet.org writes:
+>
+> Old pioneer song from the 1850's or so goes as follows:
+>
+>   "In a cavern, in a canyon,
+>    Excavating for a mine,
+>    Dwelt a miner, forty-niner,
+>    And his daughter, CLEMENTINE"
+>
+> Chorus:
+>   "Oh my darling, Oh my darling,
+>    Oh my darling Clementine.
+>    You are lost and gone forever,
+>    Oh my darling Clementine."
+
+
+        Let us hope that the performance of the spacecraft follows the
+sentiments of the first verse (miner) rather than the second (lost and gone
+forever).
+
+--
+Bruce Dunn    Vancouver, Canada   Bruce_Dunn@mindlink.bc.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ clementin mission name      old pioneer song goe
+follow  cavern canyon excav mine dwelt miner forti
+niner daughter clementin  chorus darl darl darl
+clementin lost gone forev darl clementin   let
+hope perform spacecraft follow sentiment first
+vers miner rather second lost gone forev
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+darl, 2368, 0.567758720608
+clementin, 1809, 0.523700337824
+miner, 5736, 0.23801444908
+forev, 3602, 0.214308636515
+gone, 3943, 0.182386489264
+lost, 5355, 0.165720461178
+excav, 3259, 0.146121190463
+dwelt, 2935, 0.141939680152
+chorus, 1725, 0.141939680152
+sentiment, 7796, 0.138523137459
+cavern, 1575, 0.135634491772
+canyon, 1496, 0.127164695338
+forti, 3617, 0.1240342514
+follow, 3578, 0.123183446203
+song, 8133, 0.12264553437
+daughter, 2393, 0.120143275659
+pioneer, 6635, 0.109656576969
+vers, 9476, 0.103447240994
+spacecraft, 8166, 0.0835120912509
+goe, 3931, 0.0800403523345
+perform, 6539, 0.0760806091613
+mission, 5772, 0.074072814611
+old, 6216, 0.0708577696064
+hope, 4372, 0.0669826274998
+second, 7753, 0.0652153298283
+let, 5225, 0.0591797735022

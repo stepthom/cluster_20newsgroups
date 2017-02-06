@@ -1,0 +1,177 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60251
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dpage@ra.csc.ti.com (Doug Page)
+Subject: Re: Quaint US Archaisms
+Nntp-Posting-Host: ra
+Organization: Texas Instruments
+Lines: 41
+
+In article <C512wC.B0M.1@cs.cmu.edu>, nickh@CS.CMU.EDU (Nick Haines) writes:
+|> In article <1993Apr2.170157.24251@ke4zv.uucp> gary@ke4zv.uucp (Gary Coffman) writes:
+|> 
+<stuff deleted>
+|> Of course the units of force have the same names as those of weight,
+|> but in order to use them you need to keep useful constants like the
+|> omnipresent 32.???? ft/sec^2 around.
+|> 
+|> Maybe you'd like to go over again how this system is _so_ natural and
+|> _so_ easy to use, Gary? While you're at it, you can figure out for us
+|> the weight of 17 barrels and a quart of foo (density 17lb 2 3/4 oz per
+|> cubic foot) on the moon (gravity 5 ft 7 3/32 in/sec^2). Let's face it,
+|> even the imperial system uses a basically metric way of relating
+|> quantities (i.e. that would be written as 5.59 ft/sec^2); the only
+|> thing you're hanging on to is the right to express the same quantity
+|> as 1731 inches, 144.25 feet, 48.0833 yards or 2.186 chains. What
+|> everyone else is saying is _why_ do you want to do that?
+|> 
+|> Any apparent remaining complexity in the SI system is due to the
+|> multiplicity of the aforesaid prefixes. In fact what's going on (and
+|> the fundamental difference between SI and imperial) is that you have
+|> exactly one unit of each type, and all values of that type are
+|> expressed as some multiple of the unit.
+
+You mean like: seconds, minutes, hours, days, months, years. . .  :-)
+
+Remember,  the Fahrenheit temperature scale is also a centigrade scale.  Some
+revisionists tell the history something like this:  The coldest point in a
+particular Russian winter was marked on the thermometer as was the body
+temperature of a volunteer (turns out he was sick, but you can't win 'em all).
+Then the space in between the marks on the thermometer was then divided into
+hundredths.
+								:-)
+
+FWIW,
+
+Doug Page
+
+
+***  The opinions are mine (maybe), and do not necessarily represent those  ***
+***  of my employer (or any other sane person, fot that matter).            ***
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quaint archaism        stuff delet cours unit
+forc name weight order use need keep use constant
+like omnipres sec around  mayb you'd like system
+natur easi use gari you'r figur weight barrel
+quart foo densiti 17lb per cubic foot moon graviti
+sec let face even imperi system use basic metric
+way relat quantiti written sec thing you'r hang
+right express quantiti inch feet yard chain
+everyon els say want  appar remain complex system
+due multipl aforesaid prefix fact what go
+fundament differ imperi exact one unit type valu
+type express multipl unit  mean like second minut
+hour day month year  rememb fahrenheit temperatur
+scale also centigrad scale revisionist tell
+histori someth like coldest point particular
+russian winter mark thermomet bodi temperatur
+volunt turn sick can't win em space mark thermomet
+divid hundredth   fwiw  doug page   opinion mine
+mayb necessarili repres employ sane person fot
+matter
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sec, 7752, 0.299284104832
+imperi, 4541, 0.247257580981
+unit, 9278, 0.227762178785
+quantiti, 7021, 0.200888169408
+temperatur, 8773, 0.182975909066
+weight, 9695, 0.174389025521
+multipl, 5919, 0.173150052025
+express, 3315, 0.159791203279
+scale, 7659, 0.155942311398
+use, 9363, 0.14774464371
+like, 5272, 0.140859100789
+mark, 5512, 0.136201056649
+revisionist, 7360, 0.135221143384
+type, 9177, 0.130644368643
+fwiw, 3740, 0.130409882228
+centigrad, 1609, 0.130409882228
+prefix, 6820, 0.126677978146
+foo, 3583, 0.126677978146
+fahrenheit, 3359, 0.121050739062
+barrel, 917, 0.121050739062
+mayb, 5564, 0.117082185168
+metric, 5669, 0.113491635881
+volunt, 9579, 0.108304533515
+em, 3058, 0.106211276321
+cubic, 2285, 0.10525534586
+yard, 9936, 0.104351113214
+winter, 9790, 0.104351113214
+chain, 1637, 0.104351113214
+inch, 4574, 0.100444084704
+divid, 2764, 0.0972791579703
+densiti, 2531, 0.0972791579703
+hang, 4152, 0.0967121806217
+fundament, 3724, 0.0932047662192
+foot, 3587, 0.0932047662192
+employ, 3077, 0.0906914120858
+sick, 7933, 0.0895635085922
+doug, 2833, 0.0892038338689
+feet, 3430, 0.0871945127607
+gari, 3776, 0.0868819012284
+russian, 7551, 0.0854009138412
+constant, 2067, 0.0854009138412
+graviti, 4010, 0.0851198277283
+necessarili, 5991, 0.0837811750729
+complex, 1976, 0.0818399573806
+repres, 7294, 0.0798956016397
+page, 6382, 0.0796928812179
+remain, 7264, 0.0783387359906
+appar, 577, 0.0776114809756
+minut, 5747, 0.0772593789172
+hour, 4395, 0.0752895483351
+easi, 2959, 0.0738085609479
+written, 9867, 0.0729790902954
+bodi, 1194, 0.0724481177616
+histori, 4314, 0.0723179674547
+face, 3345, 0.0719334854636
+delet, 2502, 0.0716819885434
+figur, 3476, 0.0710693108731
+natur, 5966, 0.0708303892379
+particular, 6442, 0.0700200604325
+forc, 3594, 0.0692471862132
+month, 5847, 0.0689265841265
+basic, 937, 0.0688210681296
+valu, 9414, 0.0684055379339
+moon, 5851, 0.0679002357505
+everyon, 3241, 0.0666537278462
+turn, 9158, 0.0665615830951
+exact, 3253, 0.0663788028055
+matter, 5553, 0.0649008968056
+stuff, 8472, 0.064088881495
+relat, 7247, 0.0639311045698
+opinion, 6266, 0.0626468987232
+rememb, 7269, 0.0615902802394
+win, 9770, 0.0607905631091
+order, 6281, 0.0591198434142
+second, 7753, 0.0582032178594
+els, 3053, 0.0578174689292
+fact, 3350, 0.0573872399306
+cours, 2190, 0.0572287152363
+person, 6562, 0.0557210075526
+tell, 8767, 0.0546506638073
+let, 5225, 0.05281661933
+mean, 5595, 0.051684325468
+differ, 2633, 0.0514966217016
+right, 7399, 0.0508737415821
+day, 2402, 0.0495932891396
+someth, 8126, 0.0492307793206
+space, 8164, 0.0474393907735
+point, 6710, 0.0472067020804
+thing, 8869, 0.0456890371267
+want, 9634, 0.0455576599387
+need, 5993, 0.0449662727421
+way, 9666, 0.04374854216
+say, 7653, 0.042460558061
+year, 9943, 0.042031157579

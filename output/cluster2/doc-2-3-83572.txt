@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83572
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: slhw4@cc.usu.edu (Jason Hunsaker)
+Subject: Re: Christian Owned Organization list
+Organization: Utah State University
+Lines: 12
+
+In article <47749@sdcc12.ucsd.edu>, shopper@ucsd.edu writes:
+ 
+> Does anyone have or know where I can find a list of
+> christian-owned corporations and companies?  One that I know of
+> is WordPerfect.
+
+Naw, the owners of WordPerfect are Mormons, and by Tony Rose's
+and Robert Weiss' standards, Mormons aren't Christians.  :-)
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Internet: slhw4@cc.usu.edu (Jason Hunsaker),  Logan, Utah
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ christian own organ list      anyon know find
+list christian own corpor compani one know
+wordperfect  naw owner wordperfect mormon toni
+rose robert weiss standard mormon aren't christian
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wordperfect, 9831, 0.53865649544
+christian, 1732, 0.387932351216
+mormon, 5863, 0.375898511493
+list, 5298, 0.266879631848
+weiss, 9698, 0.205073429624
+rose, 7481, 0.202077155966
+owner, 6359, 0.199308675464
+toni, 8984, 0.188605744339
+corpor, 2154, 0.183657933176
+robert, 7437, 0.164020063969
+aren, 623, 0.158986676416
+know, 5052, 0.156956984145
+organ, 6287, 0.152540359788
+compani, 1958, 0.151568725376
+standard, 8313, 0.149247295037
+anyon, 554, 0.0979050950833

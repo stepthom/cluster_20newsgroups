@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104760
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cka52397@uxa.cso.uiuc.edu (OrioleFan@uiuc)
+Subject: Re: BEST FIRST BASEMEN...
+Organization: University of Illinois at Urbana
+Lines: 26
+
+(Sean Garrison) writes:
+
+>In article <1993Apr20.102857.1@tesla.njit.edu>, drm6640@tesla.njit.edu
+>wrote:
+>> 
+>> DON MATTINGLY IS THE BEST FIRST BASEMAN IN THE HISTORY OF BASEBALL.....ALWAYS
+>> HAS BEEN.....ALWAYS WILL BE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+>Actually, Keith Hernandez is the best.
+
+>                                    -Sean
+
+
+
+>*******************************************************************************
+>  "Behind the bag!"
+>            - Vin Scully
+>*******************************************************************************
+
+	I'll go with Mark Grace, and in 2 years, Frank Thomas.
+
+
+-- 
+Chintan Amin <The University of Illinois UrbanaChampaign> mail: llama@uiuc.edu
+*******SIG UNDER CONSTRUCTION HARD HAT AREA********
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+uiuc best first basemen      tesla njit edu wrote
+mat best first baseman histori basebal alway alway
+actual keith hernandez best  sean     behind bag
+vin sculli   i'll mark grace year frank thoma
+sig construct hard hat area
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+best, 1052, 0.327781216473
+vin, 9521, 0.247537285437
+alway, 457, 0.246852636622
+sculli, 7730, 0.241578967772
+njit, 6081, 0.232177440028
+tesla, 8810, 0.213889045097
+basemen, 929, 0.203909090399
+sean, 7744, 0.199118049309
+hat, 4199, 0.199118049309
+hernandez, 4271, 0.193658676752
+uiuc, 9197, 0.192425312651
+bag, 864, 0.187910522317
+keith, 4974, 0.185867340183
+grace, 3975, 0.184891737293
+baseman, 928, 0.183944416768
+sig, 7940, 0.17646581244
+mat, 5540, 0.175013116846
+construct, 2074, 0.165789683657
+thoma, 8878, 0.162239500424
+histori, 4314, 0.141314170103
+frank, 3655, 0.139828447453
+wrote, 9871, 0.13863994303
+mark, 5512, 0.133073010518
+area, 622, 0.132876732032
+hard, 4167, 0.123720737147
+edu, 3001, 0.115871198836
+basebal, 924, 0.110126796227
+actual, 254, 0.105075177242
+ll, 5314, 0.103524511522
+year, 9943, 0.0821317075246

@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61440
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Re: Space Manuevering Tug (was HST servicing mission_)
+Lines: 39
+Nntp-Posting-Host: acad3.alaska.edu
+Organization: University of Alaska Fairbanks
+
+In article <1rnaih$jvj@access.digex.net>, prb@access.digex.net (Pat) writes:
+> 
+> Given that what i described for the HST  seemed to be the SMT,   and given
+> the mass amrgins on the discovery mission  is tight enough that  spacewalking
+> has to be carefully constrained.....  No EDO pallets,  no spare Suits,
+> no extra MMU's.   
+> 
+> WHy not do this?
+> 
+> 	Quick Test  Goldins philosophjy  of faster cheaper, better.
+> 
+> Build a real fast Space TUg,  to handle the re-boost  of the HST  using
+> clean Cryo fuels,  and get it ready before the  HST mission.
+> 
+> If NASA  could build Mercury in 13 months,  they should be able to make
+> an SMT in 9.   
+> 
+> How much would it need?
+> 
+> Guidance package.  Use a  Voyager spare.   
+> 
+> Thruster gear,  Use H2O2,  or LOX/LH.
+> 
+> Bus  Use a Commsat.
+> 
+> Grapple fixture.   Use a stripped down Canadarm.
+> 
+> Comms package.   SPare  X-band  omni  gear.
+> 
+> pat
+
+
+And then why not build a space dock..
+Either inflated or not.. some place a crew can work on a item without having to 
+wear much of the items they have to for spae.. such as most of he bulky suit..
+More idea to come..
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space manuev tug hst servic mission       given
+describ hst seem smt given mass amrgin discoveri
+mission tight enough spacewalk care constrain edo
+pallet spare suit extra mmu    quick test goldin
+philosophji faster cheaper better  build real fast
+space tug handl boost hst use clean cryo fuel get
+readi hst mission  nasa could build mercuri month
+abl make smt  much need  guidanc packag use voyag
+spare  thruster gear use h2o2 lox  bus use commsat
+grappl fixtur use strip canadarm  comm packag
+spare band omni gear  pat   build space dock
+either inflat place crew work item without wear
+much item spae bulki suit idea come
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hst, 4416, 0.332772493361
+spare, 8186, 0.2840893843
+smt, 8071, 0.234260575593
+gear, 3804, 0.21182674923
+tug, 9148, 0.203692915024
+build, 1378, 0.195961131629
+mission, 5772, 0.191901852838
+use, 9363, 0.178699576437
+item, 4798, 0.173325658625
+suit, 8529, 0.163147028526
+packag, 6375, 0.140971093328
+space, 8164, 0.137708936036
+bulki, 1384, 0.126186317864
+amrgin, 481, 0.122575278373
+philosophji, 6597, 0.119624844279
+fixtur, 3512, 0.119624844279
+omni, 6235, 0.117130287797
+cryo, 2264, 0.117130287797
+given, 3887, 0.116166503315
+canadarm, 1482, 0.114969404682
+grappl, 4001, 0.113063370694
+mmu, 5798, 0.109816000103
+pallet, 6399, 0.108407931097
+manuev, 5493, 0.108407931097
+spacewalk, 8175, 0.107112633175
+edo, 2999, 0.105913374615
+constrain, 2071, 0.105913374615
+lox, 5373, 0.104796891606
+dock, 2784, 0.104796891606
+guidanc, 4083, 0.103752491501
+goldin, 3935, 0.100971510107
+thruster, 8902, 0.0993519010298
+strip, 8451, 0.0965304125185
+comm, 1932, 0.0965304125185
+mercuri, 5640, 0.095284983927
+tight, 8929, 0.0946964614332
+discoveri, 2700, 0.0941285931669
+voyag, 9588, 0.0935799784245
+wear, 9676, 0.0915545152221
+bus, 1419, 0.0897545969254
+band, 891, 0.0893342464082
+crew, 2227, 0.0889245388279
+inflat, 4632, 0.0881349878481
+boost, 1224, 0.0866628293127
+cheaper, 1678, 0.084370557777
+clean, 1799, 0.0837711342487
+readi, 7139, 0.0796389646986
+faster, 3399, 0.0794126311487
+fuel, 3715, 0.0787520257517
+mass, 5533, 0.0765372903914
+extra, 3325, 0.075445916131
+handl, 4149, 0.0747571915522
+pat, 6458, 0.0718348766399
+fast, 3397, 0.0714181346822
+describ, 2556, 0.0697268490491
+quick, 7036, 0.069002134592
+month, 5847, 0.066694269677
+servic, 7813, 0.0665921710101
+test, 8812, 0.0664907124645
+care, 1516, 0.0637097310708
+nasa, 5956, 0.0609018757407
+abl, 180, 0.0592040322587
+real, 7144, 0.0554773564953
+place, 6657, 0.0554262266423
+idea, 4482, 0.0553244490425
+better, 1060, 0.0484117117587
+come, 1923, 0.0469266088805
+work, 9833, 0.045846396156
+need, 5993, 0.0435099571324
+make, 5459, 0.040588067356

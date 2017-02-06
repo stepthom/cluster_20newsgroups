@@ -1,0 +1,69 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104926
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cmk@athena.mit.edu (Charles M Kozierok)
+Subject: Re: Yankees win home opener
+Organization: Massachusetts Institute of Technology
+Lines: 14
+Distribution: usa
+NNTP-Posting-Host: marinara.mit.edu
+
+In article <93105.124117RVESTERM@vma.cc.nd.edu> <RVESTERM@vma.cc.nd.edu> writes:
+} In article <1993Apr14.175545.3528@alleg.edu>, millits@yankee.org (Sam
+} Millitello) says:
+} 
+} i'm telling you, sam, three l's.  call up mom and ask.
+} 
+} bob vesterman.
+} 
+yeah, and in case even that isn't enough to prompt boy genius
+"Sam" to pick up a paper and see how "his" name is spelled,
+here's another hint: the single "L" comes between the two "I"s...
+
+-*-
+charles
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yanke win home open       yanke org sam
+millitello say  i'm tell sam three l call mom ask
+bob vesterman  yeah case even isn't enough prompt
+boy genius sam pick paper see name spell here
+anoth hint singl come two   charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sam, 7599, 0.57746737765
+yanke, 9933, 0.292345054236
+mom, 5827, 0.231766895958
+millitello, 5726, 0.222747224575
+prompt, 6915, 0.191030587817
+genius, 3826, 0.191030587817
+vesterman, 9488, 0.184609686134
+hint, 4306, 0.183469454501
+spell, 8220, 0.179282856182
+org, 6286, 0.176473253844
+boy, 1256, 0.172286655526
+charl, 1668, 0.170019192016
+yeah, 9942, 0.156585890806
+pick, 6619, 0.141145317741
+paper, 6409, 0.1397263917
+bob, 1189, 0.137841958516
+singl, 7983, 0.130020633545
+open, 6258, 0.124440342922
+home, 4354, 0.120899331881
+isn, 4783, 0.114829885821
+win, 9770, 0.113964069853
+case, 1540, 0.109009237745
+ask, 689, 0.108595331874
+tell, 8767, 0.102453600512
+anoth, 533, 0.101048887204
+come, 1923, 0.0909178569354
+say, 7653, 0.07960080903

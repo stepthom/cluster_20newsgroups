@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39024
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kintur@scorch.apana.org.au (Kingsley Turner)
+Subject: Universal VESA Driver
+Organization: Craggenmoore public Unix system , Newcastle , Oz
+Summary: Want to know about universal VESA driver
+Keywords: VESA
+Lines: 12
+
+        Some time ago (about 1 month) there was a bit of discussion
+        about a universal VESA driver for > 8bit cards.  It was in
+        the file uvesa32.zip.  Well i can't find it, does anyone know
+        where it is (gorilla.something.something.au), and what sort
+        of cards it works for ?
+
+        Also would it be pushing my luck to ask for someone to post
+        it to some appropriate group.
+
+                                                        Kingsley Turner
+                                                        NSW Australia
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ univers vesa driver  want know univers vesa
+driver    time ago month bit discuss univers vesa
+driver 8bit card file uvesa32 zip well can't find
+anyon know gorilla someth someth sort card work
+also push luck ask someon post appropri group
+kingsley turner nsw australia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vesa, 9484, 0.462325896139
+driver, 2876, 0.420843363481
+univers, 9282, 0.27831116664
+card, 1513, 0.239722682641
+uvesa32, 9396, 0.217681366451
+gorilla, 3955, 0.217681366451
+nsw, 6143, 0.198331305128
+turner, 9160, 0.187012244868
+8bit, 148, 0.18078291649
+someth, 8126, 0.164352932935
+zip, 9988, 0.15138293334
+push, 6996, 0.149500226527
+appropri, 590, 0.146619710881
+australia, 792, 0.146077630984
+luck, 5381, 0.144008815232
+know, 5052, 0.120262191192
+month, 5847, 0.115052883732
+ago, 336, 0.108752970645
+sort, 8144, 0.107377508339
+discuss, 2708, 0.107377508339
+group, 4064, 0.0971533428219
+ask, 689, 0.0966919069027
+file, 3477, 0.0966005279749
+bit, 1122, 0.0941562969256
+someon, 8124, 0.0912233871526
+post, 6766, 0.0815309755709
+work, 9833, 0.0790886550223
+want, 9634, 0.0760452620486
+anyon, 554, 0.0750159754138
+time, 8936, 0.0663295602475

@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60225
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: DC-X: Vehicle Nears Flight Test
+Organization: Texas Instruments Inc
+Lines: 14
+
+In <1993Apr5.191011.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+
+>Since the DC-X is to take off horizontal, why not land that way??
+>Why do the Martian Landing thing..  Or am I missing something.. Don't know to
+>much about DC-X and such.. (overly obvious?).
+
+You missed something.  I think it takes off vertically and is intended
+to land the same way.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vehicl near flight test      sinc take horizont
+land way martian land thing miss someth don't know
+much over obvious  miss someth think take vertic
+intend land way   insist perfect safeti peopl
+don't ball live real world mari shafer nasa ame
+dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+land, 5104, 0.440158058286
+miss, 5770, 0.291468980286
+martian, 5522, 0.220986014227
+horizont, 4375, 0.220986014227
+someth, 8126, 0.202924612677
+vertic, 9482, 0.199319227368
+shafer, 7839, 0.199319227368
+dryden, 2888, 0.196034090709
+mari, 5508, 0.181712168117
+safeti, 7579, 0.180360314592
+way, 9666, 0.180327349994
+insist, 4673, 0.177805972374
+ame, 465, 0.173203432814
+intend, 4700, 0.169143705206
+vehicl, 9449, 0.165083977599
+don, 2811, 0.156362163882
+perfect, 6538, 0.150685544772
+flight, 3544, 0.14985495406
+obvious, 6185, 0.145734490143
+test, 8812, 0.141620864406
+near, 5982, 0.13953126424
+ball, 877, 0.134802237027
+nasa, 5956, 0.129717008085
+live, 5310, 0.12637645687
+real, 7144, 0.118163137236
+world, 9841, 0.115437815496
+sinc, 7977, 0.105071467444
+thing, 8869, 0.0941629432896
+peopl, 6530, 0.0935166522307
+think, 8871, 0.0789416871534
+know, 5052, 0.074243148971

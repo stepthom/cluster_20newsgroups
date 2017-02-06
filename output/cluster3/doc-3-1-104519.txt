@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104519
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: traven@pitt.edu (Neal Traven)
+Subject: Re: Braves Pitching UpdateDIR
+Lines: 22
+X-Newsreader: TIN [version 1.1 PL8]
+
+Dave Naehring X2079 P7630 (ep502dn@pts.mot.com) wrote:
+: In article 2482@adobe.com, snichols@adobe.com (Sherri Nichols) writes:
+: >Every single piece of evidence we can find points to Major League Baseball
+: >being 50% offense, 50% defense.  A run scored is just as important as a run
+: >prevented.  
+: >
+: This certainly passes the "common sense test" for me, but is there any
+: statistical evidence to say what percent of defense is pitching and what
+: percent is fielding?  I'd really like to know.  BTW, Sherri, thanks for 
+: the DA data I find it fascinating.
+
+One of the chapters in Palmer and Thorn's 'Hidden Game' is titled
+'Pitching is 44% of Baseball,' implying that fielding is 6%.  How do
+they determine that?  Beats me -- it's been a long, long time since I
+read it.
+
+One also has to separate offense into batting and baserunning, with the
+split probably somewhere around 49.5% and 0.5%.
+--
+-----------------------------------------------------------------------------
+neal	traven+@pitt.edu	      You're only young once, but you can be
+	traven@vms.cis.pitt.edu	       immature forever.   -- Larry Andersen
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave pitch updatedir      everi singl piec evid
+find point major leagu basebal offens defens run
+score import run prevent  certain pass common sens
+test statist evid say percent defens pitch percent
+field i'd realli like know btw sherri thank data
+find fascin  one chapter palmer thorn hidden game
+titl pitch basebal impli field determin beat it
+long long time sinc read  one also separ offens
+bat baserun split probabl somewher around
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+percent, 6533, 0.295200565056
+pitch, 6643, 0.277904132525
+offens, 6202, 0.238865016442
+defens, 2476, 0.219454046496
+evid, 3245, 0.213871405075
+field, 3466, 0.190996885503
+baserun, 932, 0.183668564352
+thorn, 8883, 0.180280147002
+basebal, 924, 0.171021568764
+updatedir, 9334, 0.166079652215
+long, 5336, 0.159909376431
+fascin, 3395, 0.159702438946
+run, 7543, 0.15287457591
+palmer, 6401, 0.146740015863
+hidden, 4286, 0.1435639465
+sherri, 7879, 0.142828375104
+chapter, 1658, 0.134290245292
+impli, 4546, 0.132298993812
+split, 8247, 0.131359055382
+piec, 6624, 0.130452693452
+prevent, 6853, 0.128731665478
+statist, 8348, 0.127513410594
+beat, 974, 0.124524614673
+titl, 8953, 0.122170237705
+separ, 7797, 0.120612973915
+btw, 1355, 0.119722516364
+somewher, 8130, 0.118581855284
+pass, 6448, 0.113312915807
+common, 1948, 0.11073013553
+determin, 2582, 0.110526315668
+score, 7705, 0.109727023248
+brave, 1277, 0.10857339567
+sens, 7788, 0.105731218445
+singl, 7983, 0.105232013434
+test, 8812, 0.104262133482
+bat, 942, 0.104262133482
+leagu, 5176, 0.101843596085
+import, 4551, 0.0961812311094
+data, 2385, 0.0939732794541
+major, 5458, 0.0931412233933
+certain, 1619, 0.0897912051982
+everi, 3235, 0.0869122382119
+probabl, 6885, 0.0829891645014
+sinc, 7977, 0.0773542472696
+read, 7135, 0.0772446339834
+game, 3761, 0.0769186067622
+realli, 7150, 0.0752977912064
+point, 6710, 0.07162605752
+thank, 8832, 0.0710626173403
+say, 7653, 0.0644248007165
+time, 8936, 0.0602925638203
+know, 5052, 0.0546582535039
+like, 5272, 0.0534308774533

@@ -1,0 +1,250 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104940
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gspira@nyx.cs.du.edu (Greg Spira)
+Subject: Re: OBP hurt by sac flies (was Re: HBP? BB? BIG-CAT?)
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 68
+
+scottm@helena.stat.uga.edu (scott mclure) writes:
+
+>In article <1993Apr23.061709.26822@mnemosyne.cs.du.edu> gspira@nyx.cs.du.edu (Greg Spira) writes:
+>>paladin@leland.Stanford.EDU (Jason Gische) writes:
+>>
+>>>In article <1993Apr21.213902.4888@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>>>>I think Sac flies are the only way OBP can be below BA.
+>>>>
+>>
+>>>Does this seem dumb to anyone else?
+>>>(The fact not the comment.)
+>>
+>>>Why should a batter's OBP be hurt by a sac fly?  Especially if sac
+>>>bunts don't have the same effect, since they do the same thing,
+>>>but sac flies usually score a run while bunts just advance a base.
+>>
+>>>But both of these situations involve the batter giving up an AB for
+>>>the benefit of the team (sacrifice)?  So why should it hurt their
+>>>stats?
+>>
+>>The sac bunt is a purposeful act, ordered by the manager.  
+>>The batter does not go up "trying" to get a sac fly, and the
+>>evidence available indicates that there is no such ability -
+>>players can't will themselves to hit sac flies, they fly out
+>>to the same place just as often when there's nobody on third.
+>>
+>>Greg 
+>>
+>>
+
+>Sorry, I gotta disagree here.  Last time I played ball, I went up on
+>several occasions intending to hit a fly ball deep enough to score the
+>runner from third or advance a runner to third.  It's relatively easy
+>actually... you swing under the path of the ball you normally would to
+>hit a good line drive.  With fastballs it's very easy, much more
+>difficult with good breaking balls.  A good hitter with excellent bat
+>control can voluntarily hit fly balls to the outfield at least, oh, 60%
+>of the time?
+
+You haven't been facing major league pitching.      
+
+  Maybe more... you have to be good at the plate, and most
+>of those guys are just as likely to opt for getting the base hit and
+>helping their average as getting the sacrifice.  The best example I know
+>of is Jerry Willard in the 91 Series against Minnesota.  All he had to
+>do was put one in the OF and the game was over.  He swung waaaaaay past
+>parallel and accomplished (barely) getting the run in safely.
+
+STATS did a little study in the 1993 Scoreboard book entitled "Can
+you hit sacrifice flies on purpose?"  A summary of the findings:
+
+Over the 5 year period, sac-fly type fly balls were produced 17.6
+percent of the time in situations where a sac fly was useful, and 
+17.7 percent of the time when a sac fly wasn't useful.
+
+They looked at the leaders in sac flies, and found that the leaders
+in sac flies - in other words, the guys you would expect to be good
+at it it - hit sac fly type fly balls only 3% more often when they
+needed to - a difference way too small to be the result of a skill.
+Essentially, the players who hit a lot of sac flies seem to do
+so because they hit hit sac fly type flies often, with and without
+a runner on third.
+
+STATS concludes "So it appears conclusive that hitters cannot hit
+sacrifice flies on purpose - even if they practice in the bATTING
+cage."
+
+gREG 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ obp hurt sac fli hbp big cat          think sac
+fli way obp   seem dumb anyon els fact comment
+batter obp hurt sac fli especi sac bunt don't
+effect sinc thing sac fli usual score run bunt
+advanc base  situat involv batter give benefit
+team sacrific hurt stat  sac bunt purpos act order
+manag batter tri get sac fli evid avail indic abil
+player can't hit sac fli fli place often there
+nobodi third  greg    sorri gotta disagre last
+time play ball went sever occas intend hit fli
+ball deep enough score runner third advanc runner
+third it relat easi actual swing path ball normal
+hit good line drive fastbal it easi much difficult
+good break ball good hitter excel bat control
+voluntarili hit fli ball outfield least time
+haven't face major leagu pitch  mayb good plate
+guy like opt get base hit help averag get sacrific
+best exampl know jerri willard seri minnesota put
+one game swung waaaaaay past parallel accomplish
+bare get run safe  stat littl studi scoreboard
+book entitl hit sacrific fli purpos summari find
+year period sac fli type fli ball produc percent
+time situat sac fli use percent time sac fli
+wasn't use  look leader sac fli found leader sac
+fli word guy expect good hit sac fli type fli ball
+often need differ way small result skill essenti
+player hit lot sac fli seem hit hit sac fli type
+fli often without runner third  stat conclud
+appear conclus hitter cannot hit sacrific fli
+purpos even practic bat cage  greg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sac, 7566, 0.637053968087
+fli, 3542, 0.558503533084
+hit, 4316, 0.228627760458
+ball, 877, 0.162713681485
+sacrific, 7569, 0.140881641052
+bunt, 1403, 0.120999078291
+obp, 6177, 0.0951046444468
+runner, 7545, 0.0910501622411
+hurt, 4451, 0.0901658223192
+batter, 949, 0.0847510028575
+stat, 8341, 0.0809428627011
+purpos, 6993, 0.0766918669537
+good, 3948, 0.0763911021707
+type, 9177, 0.0696432299482
+percent, 6533, 0.0691427661016
+leader, 5173, 0.0631528339521
+greg, 4033, 0.0622013644968
+time, 8936, 0.0564876240951
+easi, 2959, 0.0524606521314
+score, 7705, 0.0514011882195
+hitter, 4322, 0.0505995122071
+situat, 7995, 0.0501764418471
+bat, 942, 0.0488411823144
+voluntarili, 9580, 0.0463454874219
+swung, 8642, 0.0463454874219
+willard, 9762, 0.0450192312307
+advanc, 285, 0.044948140097
+guy, 4100, 0.0446311340478
+opt, 6272, 0.0422257594072
+cage, 1447, 0.0415257146184
+player, 6683, 0.0410175309854
+scoreboard, 7706, 0.040899503216
+bare, 910, 0.0384896168142
+occas, 6186, 0.0377457082752
+jerri, 4854, 0.0374059866037
+fastbal, 3398, 0.0374059866037
+base, 923, 0.0372006310573
+hbp, 4212, 0.0370846374698
+run, 7543, 0.0358067439438
+gotta, 3961, 0.0354535190101
+entitl, 3132, 0.0347799487023
+cat, 1551, 0.0343698887995
+dumb, 2914, 0.0339863033778
+skill, 8006, 0.0338034116806
+minnesota, 5744, 0.0334536925111
+outfield, 6325, 0.0331234124797
+accomplish, 218, 0.0320935700677
+swing, 8635, 0.03182937052
+conclud, 2008, 0.03182937052
+summari, 8536, 0.0311006822484
+parallel, 6420, 0.0311006822484
+deep, 2466, 0.0311006822484
+way, 9666, 0.0310949979519
+safe, 7577, 0.0308763721872
+disagre, 2676, 0.0307673138765
+path, 6461, 0.0305550230533
+essenti, 3196, 0.0302501607848
+plate, 6674, 0.0301519186939
+nobodi, 6088, 0.0300552741064
+benefit, 1028, 0.0296836836659
+conclus, 2009, 0.0295943058737
+intend, 4700, 0.0291665305743
+difficult, 2635, 0.0289239045936
+excel, 3261, 0.0284664857854
+abil, 177, 0.0278402743831
+normal, 6108, 0.0272140629807
+break, 1284, 0.0272140629807
+went, 9704, 0.0265404926729
+act, 249, 0.0265404926729
+period, 6546, 0.0264876611146
+produc, 6895, 0.0263319270214
+use, 9363, 0.0262529856239
+practic, 6793, 0.0260321906792
+indic, 4600, 0.0258878067894
+wasn, 9652, 0.0257934633613
+drive, 2873, 0.0257934633613
+studi, 8469, 0.0255639556512
+face, 3345, 0.0255639556512
+haven, 4207, 0.0253865242311
+averag, 816, 0.0252997561036
+past, 6456, 0.0251299299451
+usual, 9377, 0.0250882209236
+evid, 3245, 0.0250468025596
+involv, 4750, 0.0249242515956
+control, 2107, 0.0248041765789
+especi, 3190, 0.0246092899005
+seri, 7805, 0.02423769946
+appear, 580, 0.0241660900254
+leagu, 5176, 0.0238541140383
+comment, 1936, 0.0238541140383
+effect, 3005, 0.0238204396639
+small, 8054, 0.0231540692495
+result, 7332, 0.0230646914573
+expect, 3290, 0.0230351950633
+sorri, 8142, 0.0229186518945
+relat, 7247, 0.0227200435433
+manag, 5472, 0.0226922050326
+sever, 7823, 0.021936871369
+major, 5458, 0.021815818077
+pitch, 6643, 0.0216971811805
+exampl, 3258, 0.0215578737601
+word, 9829, 0.0212886876267
+book, 1218, 0.0212886876267
+order, 6281, 0.0210102019304
+mayb, 5564, 0.020804523581
+avail, 811, 0.0206449566503
+els, 3053, 0.0205473598568
+fact, 3350, 0.0203944636782
+place, 6657, 0.0203568463932
+big, 1082, 0.0202454022936
+littl, 5308, 0.0199756050896
+best, 1052, 0.0198710244821
+team, 8732, 0.0197343860236
+line, 5285, 0.0197007116492
+play, 6681, 0.0196008183537
+actual, 254, 0.0191098633586
+lot, 5356, 0.0185447682909
+differ, 2633, 0.0183010366435
+sinc, 7977, 0.0181181449463
+game, 3761, 0.0180161079136
+help, 4249, 0.0174611380803
+tri, 9087, 0.017212985822
+thing, 8869, 0.0162371183786
+need, 5993, 0.0159802600245
+anyon, 554, 0.0159712886852
+year, 9943, 0.0149371692668
+look, 5341, 0.0148326324558
+think, 8871, 0.01361241986
+don, 2811, 0.01348126384
+know, 5052, 0.0128022208793
+like, 5272, 0.0125147411613

@@ -1,0 +1,240 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84343
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mathew <mathew@mantis.co.uk>
+Subject: What about when there's complete disagreement? (was Re: After stuff)
+Organization: Mantis Consultants, Cambridge. UK.
+X-Newsreader: rusnews v1.02
+Lines: 63
+
+[ There are actually some talk.abortion related comments below, believe it or
+  not... ]
+
+frank@D012S658.uucp (Frank O'Dwyer) writes:
+> In article <930422.113530.7w1.rusnews.w165w@mantis.co.uk# mathew <mathew@mant
+> is.co.uk> writes:
+> #frank@D012S658.uucp (Frank O'Dwyer) writes:
+> #> Specifically, I'd like to know what relativism concludes when two
+> #> people grotesquely disagree.  Is it:
+> #> 
+> #> (a) Both are right
+> #> 
+> #> (b) One of them is wrong, and sometimes (though perhaps rarely) we have a 
+> #>     pretty good idea who it is
+> #> 
+> #> (c) One of them is wrong, but we never have any information as to who, so
+> #>     we make our best guess if we really must make a decision.
+> #> 
+> #> (d) The idea of a "right" moral judgement is meaningless (implying that
+> #>      whether peace is better than war, e.g., is a meaningless question,
+> #>      and need not be discussed for it has no correct answer)
+> #> 
+> #> (e) Something else.  A short, positive assertion would be nice.
+> #
+> #From whose point of view would you like to know what relativism concludes? 
+> #One of the people involved in the argument, or some third person observing
+> #the arguers?
+> 
+> I've just come from responding another of your posts, where some pennies
+> have dropped for me.  But it would clarify further if you would answer
+> from the point of view of any disinterested observers - perhaps an
+> observer as likely to be in position A as in position B (where A and B
+> disagree) in the future, and have his or her conclusion now binding on
+> them at that time.
+
+Well, if our observer X is as likely to be in A's position as B's, and if he
+agrees that both A and B are making appropriate observations and inferences
+regarding the situation, then I would expect him to conclude that there is no
+right answer.  Hopefully there would be some other factor which would allow
+him to make some judgement regarding which answer to accept.
+
+If, on the other hand, he disagrees with the principles of either A or B, I
+suspect he would make a decision in favour of the other one.
+
+It is unfortunately the case that not all moral arguments have answers from
+all perspectives.  For instance, I am completely unable to come to any
+conclusion regarding whether abortion should be allowed or not, from my
+perspective.  In an ideal world, all living things would have a right to
+life; but in an ideal world, women would have the absolute right to do what
+they like with their own bodies.  Clearly there is no way to resolve in
+favour of both these principles.  Therefore I agree with the compromise
+solution of allowing abortion up to a certain time after conception, and
+deciding on the time based on various (sometimes ill-defined) criteria.  This
+is also a sensible move, I think, because it lets people make their own
+decisions (within reason).  And for what it's worth, I am reasonably happy
+with current UK abortion law.
+
+Similarly, the situation in what's left of Yugoslavia is a horrible mess, and
+I really can't see my way to any sort of conclusion.  There, I don't even
+know enough to imagine what sort of compromise one might manage.
+
+
+mathew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ there complet disagr stuff     actual talk abort
+relat comment believ    mant   specif i'd like
+know relativ conclud two peopl grotesqu disagre
+right  one wrong sometim though perhap rare pretti
+good idea  one wrong never inform make best guess
+realli must make decis  idea right moral judgement
+meaningless impli whether peac better war
+meaningless question need discuss correct answer
+someth els short posit assert nice  whose point
+view like know relativ conclud one peopl involv
+argument third person observ arguer  i'v come
+respond anoth post penni drop clarifi answer point
+view disinterest observ perhap observ like posit
+posit disagre futur conclus bind time  well observ
+like a posit b agre make appropri observ infer
+regard situat expect conclud right answer hope
+factor allow make judgement regard answer accept
+hand disagre principl either suspect make decis
+favour one  unfortun case moral argument answer
+perspect instanc complet unabl come conclus regard
+whether abort allow perspect ideal world live
+thing right life ideal world women absolut right
+like bodi clear way resolv favour principl
+therefor agre compromis solut allow abort certain
+time concept decid time base various sometim ill
+defin criteria also sensibl move think let peopl
+make decis within reason it worth reason happi
+current abort law  similar situat what left
+yugoslavia horribl mess realli can't see way sort
+conclus don't even know enough imagin sort
+compromis one might manag   mathew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+abort, 187, 0.269405232521
+observ, 6179, 0.24226025898
+answer, 535, 0.214937701953
+conclud, 2008, 0.187118709111
+posit, 6761, 0.182924635772
+disagre, 2676, 0.180875083652
+decis, 2445, 0.177834840714
+right, 7399, 0.177144855127
+make, 5459, 0.175272070603
+conclus, 2009, 0.173979196625
+compromis, 1989, 0.168601836367
+relativ, 7249, 0.160293509214
+favour, 3412, 0.160293509214
+regard, 7224, 0.143129876924
+judgement, 4921, 0.13894958445
+meaningless, 5597, 0.137156866687
+allow, 432, 0.133896370991
+ideal, 4483, 0.132482476696
+perspect, 6564, 0.128001397645
+like, 5272, 0.122619568693
+principl, 6870, 0.122342249541
+moral, 5855, 0.104437333317
+sometim, 8128, 0.102410504692
+situat, 7995, 0.0983258635325
+argument, 631, 0.0972126357132
+peopl, 6530, 0.0947997181638
+view, 9510, 0.0909820156201
+perhap, 6540, 0.0901646042202
+agre, 337, 0.0901646042202
+complet, 1975, 0.0900501379721
+sort, 8144, 0.0895978162917
+penni, 6526, 0.0860962984041
+disinterest, 2719, 0.0860962984041
+wrong, 9869, 0.0855006481977
+time, 8936, 0.0830199523958
+idea, 4482, 0.0796361375015
+world, 9841, 0.078014429255
+bind, 1097, 0.0762278902914
+mathew, 5547, 0.0754243360226
+disagr, 2675, 0.0754243360226
+know, 5052, 0.0752617788399
+reason, 7156, 0.0751349862092
+sensibl, 7790, 0.0739665712469
+mess, 5649, 0.0739665712469
+infer, 4624, 0.0739665712469
+ill, 4505, 0.0733008519276
+criteria, 2236, 0.0733008519276
+resolv, 7317, 0.0720737267146
+clarifi, 1786, 0.0694747922252
+realli, 7150, 0.0691209511906
+horribl, 4380, 0.0677461566992
+come, 1923, 0.0675479637297
+unabl, 9211, 0.0662412383478
+rare, 7101, 0.0662412383478
+point, 6710, 0.065750417728
+assert, 699, 0.063432443815
+peac, 6495, 0.0628906290398
+women, 9819, 0.0616370635945
+appropri, 590, 0.0611711247705
+instanc, 4680, 0.0609449639303
+way, 9666, 0.0609338249707
+impli, 4546, 0.0607231111787
+solut, 8118, 0.0574829000177
+war, 9635, 0.0566793457488
+suspect, 8603, 0.0563728302351
+drop, 2878, 0.0563728302351
+factor, 3352, 0.0559276709301
+respond, 7322, 0.055782986867
+unfortun, 9264, 0.0553594159228
+happi, 4161, 0.0548176011476
+absolut, 193, 0.0542998751449
+concept, 2002, 0.0538041868352
+imagin, 4518, 0.0528719360381
+worth, 9850, 0.0527604814334
+therefor, 8855, 0.0520088066148
+various, 9432, 0.0514010034631
+defin, 2482, 0.0511085968758
+decid, 2442, 0.0504535775272
+bodi, 1194, 0.0504535775272
+law, 5153, 0.0500072808835
+futur, 3737, 0.0491629317663
+involv, 4750, 0.0488416171181
+similar, 7961, 0.0482244175017
+accept, 208, 0.0478546430379
+nice, 6047, 0.047148553081
+comment, 1936, 0.0467445732554
+left, 5193, 0.0463541372334
+specif, 8203, 0.0462268472527
+short, 7904, 0.0460384832985
+guess, 4079, 0.045139817868
+expect, 3290, 0.045139817868
+correct, 2156, 0.0448550379765
+discuss, 2708, 0.0447989081459
+clear, 1803, 0.0446874535412
+stuff, 8472, 0.0446321236637
+relat, 7247, 0.0445222462705
+manag, 5472, 0.0444676938649
+life, 5260, 0.0428920733208
+pretti, 6851, 0.0427034551531
+live, 5310, 0.0427034551531
+hand, 4145, 0.0422448558597
+current, 2299, 0.0421999736566
+hope, 4372, 0.0416317186492
+certain, 1619, 0.0412127196058
+case, 1540, 0.0404945314684
+els, 3053, 0.0402646506379
+talk, 8684, 0.0393879798606
+best, 1052, 0.0389393023808
+person, 6562, 0.0388046544384
+inform, 4637, 0.0382811093412
+anoth, 533, 0.0375374365271
+actual, 254, 0.0374477294035
+let, 5225, 0.0367820100842
+base, 923, 0.0364492183783
+believ, 1009, 0.035967208188
+question, 7032, 0.0352549476787
+better, 1060, 0.0348428389349
+someth, 8126, 0.0342847960433
+post, 6766, 0.0340154911597
+thing, 8869, 0.0318182921522
+need, 5993, 0.0313149519684
+good, 3948, 0.0299392336747
+think, 8871, 0.0266749272812
+don, 2811, 0.0264179136619

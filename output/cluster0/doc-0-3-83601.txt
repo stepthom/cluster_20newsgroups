@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83601
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kempmp@phoenix.oulu.fi (Petri Pihko)
+Subject: Re: DID HE REALLY RISE???
+Organization: University of Oulu, Finland
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 19
+
+I must correct the following in my previous posting:
+ 
+: If you are trying to be objective, you must also recognise that
+: 
+: 1) the gospels are not independent sources, on the contrary, they
+: share much of the same material
+
+I should have been a bit more careful here - the gospels not only
+tell us about the same events, they usually use the same wordings.
+Textual analyses show that Matthew and Luke probably had a common
+source, which may have influenced Mark, too.
+
+Petri
+
+--
+ ___. .'*''.*        Petri Pihko    kem-pmp@          Mathematics is the Truth.
+!___.'* '.'*' ' .    Pihatie 15 C    finou.oulu.fi    Physics is the Rule of
+       ' *' .* '*    SF-90650 OULU  kempmp@           the Game.
+          *'  *  .*  FINLAND         phoenix.oulu.fi  -> Chemistry is The Game.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ realli rise     must correct follow previous post
+tri object must also recognis  gospel independ
+sourc contrari share much materi  bit care gospel
+tell event usual use word textual analys show
+matthew luke probabl common sourc influenc mark
+petri   petri pihko kem pmp mathemat truth pihati
+finou oulu physic rule oulu kempmp game finland
+phoenix oulu chemistri game
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oulu, 6322, 0.563917179653
+gospel, 3958, 0.292426041195
+textual, 8824, 0.192608555221
+recognis, 7174, 0.187972393218
+sourc, 8153, 0.187707741112
+phoenix, 6600, 0.184052574096
+finland, 3490, 0.174982868617
+analys, 489, 0.163031385723
+luke, 5386, 0.154933587997
+game, 3761, 0.15415885261
+chemistri, 1692, 0.151682978304
+contrari, 2100, 0.147908881591
+influenc, 4634, 0.146213020598
+rise, 7414, 0.141035806467
+matthew, 5554, 0.131633697684
+mathemat, 5545, 0.131633697684
+share, 7855, 0.127385764453
+independ, 4595, 0.127385764453
+previous, 6855, 0.119110763984
+truth, 9132, 0.118276968281
+event, 3232, 0.115434281559
+materi, 5543, 0.112008235052
+common, 1948, 0.11096164739
+physic, 6613, 0.11055478286
+usual, 9377, 0.107336483833
+rule, 7537, 0.106121239384
+mark, 5512, 0.103543998431
+care, 1516, 0.10011022955
+correct, 2156, 0.097931142135
+object, 6173, 0.0936454391376
+word, 9829, 0.0910807060502
+bit, 1122, 0.0857655877002
+follow, 3578, 0.0835784101207
+probabl, 6885, 0.0831626762178
+tell, 8767, 0.0830940432729
+realli, 7150, 0.0754552219876
+post, 6766, 0.074265367946
+tri, 9087, 0.0736433794978
+use, 9363, 0.0561598842654

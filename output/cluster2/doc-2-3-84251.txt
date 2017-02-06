@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84251
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Is it good that Jesus died?
+Organization: Cookamunga Tourist Bureau
+Lines: 21
+
+In article <C62Ar1.LDt@blaze.cs.jhu.edu>, arromdee@jyusenkyou.cs.jhu.edu
+(Ken Arromdee) wrote:
+> 
+> In article <1993Apr25.194144.8358@organpipe.uug.arizona.edu> brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+> >Even though a new-born is innocent as can be, his sinful nature
+> >will surely manifest itself more explicity as he gets older.
+> 
+> Ah, so you admit newborns are innocent?  Then you cannot say _everyone_ is a
+> sinner.
+> 
+> About the only way top get out of this one is to claim that a newborn is a
+> sinner despite having not committed any sins, which is rather odd.
+
+This all would also implicate that in order for the sinning 2 month
+old baby to get forgivance, he or she has to ask for help from Jesus.
+Somehow I find this a little bit amuzing.
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die    jyusenkyou jhu edu ken arromde
+wrote   even though new born innoc sin natur sure
+manifest explic get older  admit newborn innoc
+cannot say everyon sinner  way top get one claim
+newborn sinner despit commit sin rather odd  also
+implic order sin month old babi get forgiv ask
+help jesus somehow find littl bit amuz  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+newborn, 6025, 0.386138948557
+sin, 7976, 0.358566745904
+sinner, 7986, 0.314487750948
+innoc, 4658, 0.281641526934
+jesus, 4859, 0.201345786013
+jyusenkyou, 4942, 0.187544457716
+explic, 3303, 0.17921343193
+arromde, 657, 0.17921343193
+jhu, 4866, 0.175907205281
+implic, 4547, 0.16586792149
+manifest, 5481, 0.153219919721
+babi, 847, 0.149759425156
+forgiv, 3605, 0.144888893934
+older, 6218, 0.137327668608
+despit, 2570, 0.132597156158
+commit, 1945, 0.131543383494
+born, 1233, 0.126857766652
+odd, 6198, 0.126018366932
+ken, 4980, 0.121504099703
+admit, 276, 0.12016539961
+kent, 4987, 0.118283994604
+cheer, 1687, 0.117104727903
+wrote, 9871, 0.105039339376
+natur, 5966, 0.104863111441
+month, 5847, 0.102044562373
+die, 2628, 0.1012731629
+everyon, 3241, 0.0986796397182
+claim, 1782, 0.0964569416804
+old, 6216, 0.0936241504953
+edu, 3001, 0.0877887996239
+order, 6281, 0.0875258599454
+ask, 689, 0.0857595481738
+bit, 1122, 0.0835106240089
+littl, 5308, 0.0832158595708
+sure, 8585, 0.0797362625851
+help, 4249, 0.0727409061165
+new, 6023, 0.0721248380382
+way, 9666, 0.0647689261807
+good, 3948, 0.0636471456277
+say, 7653, 0.0628620889946

@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104668
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: msilverm@nyx.cs.du.edu (Mike Silverman)
+Subject: Ray Lankford question...
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 12
+
+Does anybody know what is going on with Lankford? I know he was
+out for a few games with a slight injury, but since he has
+beenback (and before the injury for that matter) he has been
+really struggling at the plate and on the basepaths.
+
+Whereis the Ray Lankford we saw last year???
+
+
+--
+msilverm@nyx.cs.du.edu				GO CUBS!!!
+
+"One likes to believe in the freedom of baseball" - Geddy Lee
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ray lankford question    anybodi know go lankford
+know game slight injuri sinc beenback injuri
+matter realli struggl plate basepath  wherei ray
+lankford saw last year      one like believ
+freedom basebal geddi lee
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lankford, 5114, 0.577694234737
+injuri, 4650, 0.331954205768
+ray, 7118, 0.260146535866
+wherei, 9726, 0.235703364978
+geddi, 3805, 0.235703364978
+beenback, 989, 0.235703364978
+basepath, 931, 0.235703364978
+struggl, 8461, 0.176981651242
+freedom, 3672, 0.165321964231
+lee, 5190, 0.159974338828
+plate, 6674, 0.157863839573
+slight, 8034, 0.154029094079
+saw, 7650, 0.137069289974
+know, 5052, 0.13405500085
+anybodi, 552, 0.126524344855
+matter, 5553, 0.120757845926
+basebal, 924, 0.104862006542
+believ, 1009, 0.0960962695512
+sinc, 7977, 0.0948596325231
+game, 3761, 0.0943254058981
+question, 7032, 0.0941932700875
+realli, 7150, 0.0923377972866
+year, 9943, 0.0782052683528
+like, 5272, 0.0655223672844

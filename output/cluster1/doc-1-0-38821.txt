@@ -1,0 +1,282 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38821
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tgl+@cs.cmu.edu (Tom Lane)
+Subject: Re: Vatican library
+Summary: here's the info
+Nntp-Posting-Host: g.gp.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 87
+
+Reposted by request ... these images are great, but they are also LARGE
+(1500x1500 pixels is a typical size).  Be warned.
+
+			regards, tom lane
+
+-------------
+From: rsquires@cyclops.eece.unm.edu (Roger Squires)
+Newsgroups: comp.archives
+Subject: [rec.arts.books] Vatican Library Exhibit at Library of Congress ONLINE
+Date: 14 Feb 1993 22:02:59 GMT
+X-Original-Newsgroups: rec.arts.books
+X-Original-Date: 1 Feb 1993 03:09:17 GMT
+
+Archive-name: auto/rec.arts.books/Vatican-Library-Exhibit-at-Library-of-Congress-ONLINE
+
+
+This is from another newsgroup; looks quite interesting...
+rms
+
+
+                           ANNOUNCING
+                              a new
+                         ONLINE EXHIBIT
+                              from
+                     THE LIBRARY OF CONGRESS
+
+
+
+     ROME REBORN: THE VATICAN LIBRARY & RENAISSANCE CULTURE
+
+                        an Exhibit at the
+                       Library of Congress
+                      Washington, DC  20540
+
+                 Available by anonymous FTP from
+                          seq1.loc.gov
+                         (140.147.3.12)
+
+                      /pub/vatican.exhibit
+
+
+
+ROME REBORN:  THE VATICAN LIBRARY AND RENAISSANCE CULTURE
+presents some 200 of the Vatican Library's most precious
+manuscripts, books, and maps--many of which played a key role in
+the humanist recovery of the classical heritage of Greece and
+Rome.  The exhibition presents the untold story of the Vatican
+Library as the intellectual driving force behind the emergence of
+Rome as a political and scholarly superpower during the
+Renaissance.  The exhibit will be on display in the Jefferson
+Building of the Library of Congress from January 8, 1993 through
+April 30, 1993.  The online exhibit will be available by
+anonymous FTP indefinitely.
+
+     The exhibit is divided into nine (9) sections:  The Vatican
+Library, Archaeology, Humanism, Mathematics, Music, Medicine &
+Biology, Nature Described, A Wider World I: How the Orient Came
+to Rome, and A Wider World II: How Rome Went to China.  Each
+section consists of its own sub-directory within the /exhibit
+directory and contains the exhibit text for that section and
+separate JPEG image files for each object.  This online exhibit
+includes not only objects from the Library of Congress exhibit,
+but also the alternate objects (brought from Rome to be used if
+there were a problem with one of the primary objects) and items
+omitted later in the planning process.
+
+     This exhibit will be of interest to Medieval and Renaissance
+scholars in particular, but also to art historians, historians of
+science or medicine, early music scholars, students of the
+humanist movement, students of printing and the printed word,
+theologians, scholars of both Far and Near Eastern studies, and
+to librarians and information professionals.  Please get the
+README file for details on what files this exhibit contains.  If
+you have questions about how to use FTP, speak to your local
+computer support person.  If you have questions or comments about
+the CONTENT of the exhibit, please write to vatican@kell.loc.gov
+while if you have any questions or comments on the SYSTEM please
+contact me.
+
+-- K.D. Ellis
+
+++++++++++++++++++++++++++++++++++
+   K.D. Ellis
+   Special Projects Office
+   Library of Congress
+   Washington, DC  20540-9100
+   Internet:  kell@seq1.loc.gov
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vatican librari here info     repost request imag
+great also larg 1500x1500 pixel typic size warn
+regard tom lane    newsgroup comp archiv rec art
+book vatican librari exhibit librari congress
+onlin  origin newsgroup rec art book origin date
+gmt  archiv name auto rec art book vatican librari
+exhibit librari congress onlin   anoth newsgroup
+look quit interest rms   announc new onlin exhibit
+librari congress    rome reborn vatican librari
+renaiss cultur  exhibit librari congress
+washington  avail anonym ftp seq1 loc gov   pub
+vatican exhibit    rome reborn vatican librari
+renaiss cultur present vatican librari precious
+manuscript book map mani play key role humanist
+recoveri classic heritag greec rome exhibit
+present untold stori vatican librari intellectu
+drive forc behind emerg rome polit scholar
+superpow renaiss exhibit display jefferson build
+librari congress januari april onlin exhibit avail
+anonym ftp indefinit  exhibit divid nine section
+vatican librari archaeolog human mathemat music
+medicin biolog natur describ wider world orient
+came rome wider world rome went china section
+consist sub directori within exhibit directori
+contain exhibit text section separ jpeg imag file
+object onlin exhibit includ object librari
+congress exhibit also altern object brought rome
+use problem one primari object item omit later
+plan process  exhibit interest mediev renaiss
+scholar particular also art historian historian
+scienc medicin earli music scholar student
+humanist movement student print print word
+theologian scholar far near eastern studi
+librarian inform profession pleas get readm file
+detail file exhibit contain question use ftp speak
+local comput support person question comment
+question comment system pleas contact  elli   elli
+special project offic librari congress washington
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+exhibit, 3282, 0.51913367216
+vatican, 9435, 0.404405065246
+librari, 5250, 0.383697013355
+rome, 7471, 0.277576500388
+congress, 2040, 0.225906977925
+renaiss, 7273, 0.179735584554
+onlin, 6245, 0.161362127089
+scholar, 7683, 0.137494701604
+art, 660, 0.112794769294
+rec, 7165, 0.0994022987736
+humanist, 4433, 0.0898677922769
+section, 7759, 0.0850763148234
+object, 6173, 0.0848859368056
+elli, 3048, 0.083418238611
+book, 1218, 0.0825611063303
+wider, 9749, 0.0782091248322
+newsgroup, 6032, 0.0764413357876
+historian, 4315, 0.0702206262306
+ftp, 3709, 0.0698809275568
+medicin, 5609, 0.068747350802
+music, 5933, 0.0666461008188
+cultur, 2291, 0.0614719642059
+file, 3477, 0.0598209873685
+washington, 9651, 0.0580952971697
+student, 8468, 0.0573858444648
+anonym, 532, 0.0572151010853
+archiv, 618, 0.0567175432156
+print, 6871, 0.0551989065976
+directori, 2669, 0.0546433789495
+question, 7032, 0.0523287118523
+contain, 2079, 0.0506691036155
+comment, 1936, 0.0462551304257
+present, 6837, 0.0461249034207
+rms, 7428, 0.0449338961384
+archaeolog, 610, 0.0449338961384
+untold, 9322, 0.0436480350705
+precious, 6808, 0.0425974100789
+librarian, 5251, 0.0425974100789
+jefferson, 4841, 0.0425974100789
+origin, 6293, 0.040986640074
+repost, 7293, 0.0409396468376
+manuscript, 5496, 0.0409396468376
+china, 1709, 0.0409396468376
+avail, 811, 0.0400323047404
+theologian, 8845, 0.0396537857697
+recoveri, 7186, 0.0391045624161
+omit, 6234, 0.0391045624161
+imag, 4512, 0.0386325345345
+greec, 4020, 0.0386031607781
+world, 9841, 0.0385987864363
+januari, 4824, 0.0381419159832
+lane, 5110, 0.0377148700047
+eastern, 2967, 0.0356595364689
+auto, 798, 0.0356595364689
+intellectu, 4697, 0.0353783839452
+readm, 7141, 0.0351103131153
+emerg, 3068, 0.0348541605599
+biolog, 1107, 0.0346089114773
+pleas, 6688, 0.0339033703621
+movement, 5891, 0.0337206207039
+classic, 1790, 0.0337206207039
+divid, 2764, 0.0335184075469
+sub, 8482, 0.0322724254178
+role, 7463, 0.0309865643499
+item, 4798, 0.0308599112591
+primari, 6863, 0.0307359821029
+warn, 9643, 0.030265313784
+profession, 6900, 0.0299359393583
+mathemat, 5545, 0.0298302027466
+jpeg, 4905, 0.0295241582461
+typic, 9178, 0.0293288011086
+pixel, 6651, 0.0290476485849
+gov, 3965, 0.0290476485849
+gmt, 3917, 0.0288675563136
+altern, 450, 0.0286929222324
+orient, 6290, 0.0286075505427
+comp, 1955, 0.0285234251996
+brought, 1343, 0.0283587716078
+polit, 6723, 0.027966614638
+pub, 6971, 0.0278912869815
+separ, 7797, 0.0273898853436
+request, 7301, 0.0273216894748
+size, 8000, 0.0267417328021
+key, 4994, 0.0264430916955
+announc, 524, 0.0264430916955
+consist, 2061, 0.0262710644832
+contact, 2078, 0.0261040242756
+stori, 8418, 0.0260494031685
+tom, 8976, 0.0259952949432
+map, 5498, 0.0258359534458
+text, 8822, 0.0257838039165
+went, 9704, 0.0257321221022
+special, 8198, 0.025680899688
+offic, 6206, 0.0255299089453
+use, 9363, 0.0254533719456
+speak, 8192, 0.0253827737097
+date, 2391, 0.0253345518078
+drive, 2873, 0.0250078458163
+display, 2734, 0.0248291498338
+describ, 2556, 0.0248291498338
+studi, 8469, 0.0247853284542
+local, 5322, 0.0245291758988
+natur, 5966, 0.0244052467426
+later, 5140, 0.0241651085106
+particular, 6442, 0.0241260406752
+april, 595, 0.0239345784237
+earli, 2951, 0.0238970376807
+forc, 3594, 0.0238597399217
+regard, 7224, 0.023605203998
+plan, 6660, 0.0235344977899
+near, 5982, 0.0233274401739
+process, 6890, 0.0232936425189
+build, 1378, 0.0232600419359
+came, 1472, 0.02322663614
+info, 4636, 0.0226865042692
+human, 4432, 0.022248636722
+scienc, 7692, 0.0215356596445
+project, 6909, 0.0213885244089
+larg, 5124, 0.0213403025069
+quit, 7043, 0.0211050664306
+word, 9829, 0.0206402765826
+comput, 1993, 0.0199781160363
+support, 8576, 0.0198469318813
+includ, 4579, 0.0198284327204
+far, 3386, 0.01924906553
+person, 6562, 0.019199173585
+great, 4016, 0.0191661506656
+play, 6681, 0.0190038164474
+inform, 4637, 0.018940141947
+anoth, 533, 0.0185721988831
+problem, 6887, 0.0181292622327
+new, 6023, 0.0167859263797
+mani, 5479, 0.0163456681462
+look, 5341, 0.0143808599996

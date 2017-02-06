@@ -1,0 +1,125 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102678
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kbanaian@bernard.pitzer.claremont.edu (King Banaian)
+Subject: Re: 15-day, 30-day, 60-day disabled list questions
+Article-I.D.: bernard.kbanaian.448.734117444
+Organization: Pitzer College
+Lines: 25
+
+In article <derichC52GJE.FJA@netcom.com> derich@netcom.com (Scotty*Tissue) writes:
+>
+>  Whenever a person is put on the 15-day, 30-day or 60-day, 
+> the person is on the list longer than the specificed time
+>
+>  I've seen a person on the 15-day for maybe 4 months last year, I don't
+> remember what...
+>
+> I just need a little clarification on the disabled list specifications.
+>
+I believe we are down to two:  the 15-day and the 60-day.  (I don't remember 
+a 30-day, but rather a 21-day.  Anyways, it's gone now.)  The period length 
+is a minimum, not a maximum.  You can keep a guy on the 15-day for as long 
+as you want, IF he's still certified as injured.  The player must be 
+periodically re-evaluated to determine if he's still injured (thus you 
+cannot park a player on the DL who maybe is out of options and you do not 
+wish to expose to waivers).  If you get someone qualified for the 60-day 
+that reduces the frequency of re-evaluations.  There is no longer, I 
+believe, any limit to the number of players you can place on the DL.  When 
+there was, you often had to choose and juggle your injured players between 
+the lists.
+--King "Sparky" Banaian				|"No taxes:  No new taxes,
+kbanaian@pitzer.claremont.edu			|no old taxes, we are taxed
+Dept. of Economics, Pitzer College		|enough." -- Rep. Alan Keyes
+Latest 1993 GDP forecast:  2.4%		| (please run, Alan!)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ day day day disabl list question articl bernard
+kbanaian      whenev person put day day day person
+list longer specif time  i'v seen person day mayb
+month last year don't rememb  need littl clarif
+disabl list specif  believ two day day don't
+rememb day rather day anyway it gone period length
+minimum maximum keep guy day long want he still
+certifi injur player must period evalu determin he
+still injur thus cannot park player mayb option
+wish expos waiver get someon qualifi day reduc
+frequenc evalu longer believ limit number player
+place often choos juggl injur player list king
+sparki banaian tax new tax  dept econom pitzer
+colleg enough rep alan key latest gdp forecast
+pleas run alan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+day, 2402, 0.578884994632
+injur, 4649, 0.272482324256
+list, 5298, 0.219993154799
+player, 6683, 0.207266248366
+disabl, 2673, 0.206669840625
+evalu, 3226, 0.171736655711
+alan, 376, 0.171736655711
+tax, 8718, 0.160191527729
+person, 6562, 0.15009500611
+longer, 5337, 0.134112127521
+period, 6546, 0.133845163649
+specif, 8203, 0.119202520441
+gdp, 3802, 0.113743647379
+rememb, 7269, 0.110603330113
+juggl, 4924, 0.108690972024
+sparki, 8188, 0.106685781987
+forecast, 3597, 0.106685781987
+certifi, 1622, 0.106685781987
+mayb, 5564, 0.105127623435
+bernard, 1044, 0.104917079025
+waiver, 9612, 0.0962770549212
+rep, 7284, 0.0936964451016
+expos, 3311, 0.0929261932467
+believ, 1009, 0.0927465774555
+frequenc, 3685, 0.0914949565973
+whenev, 9722, 0.0889863690689
+clarif, 1785, 0.0878735178922
+maximum, 5560, 0.0868374782328
+econom, 2984, 0.0868374782328
+qualifi, 7015, 0.0810862295314
+minimum, 5740, 0.0800957638643
+latest, 5141, 0.0788692359985
+king, 5024, 0.078577642003
+colleg, 1900, 0.078577642003
+reduc, 7204, 0.0780109098798
+dept, 2544, 0.0777353678569
+choos, 1720, 0.0749975145176
+length, 5212, 0.0743299993387
+gone, 3943, 0.0730778894924
+option, 6276, 0.0726826925024
+wish, 9801, 0.0695281292952
+park, 6430, 0.0692152717516
+key, 4994, 0.0689087995038
+don, 2811, 0.0681223592015
+limit, 5278, 0.0656492245475
+determin, 2582, 0.0654070157657
+month, 5847, 0.0618889028277
+guy, 4100, 0.05638154889
+seen, 7767, 0.0557369598513
+place, 6657, 0.0514327298489
+littl, 5308, 0.0504695020188
+someon, 8124, 0.0490706113571
+number, 6156, 0.048829697865
+articl, 665, 0.0483978176197
+long, 5336, 0.0473154064807
+question, 7032, 0.04545495606
+run, 7543, 0.0452338872253
+pleas, 6688, 0.044174875194
+new, 6023, 0.043742919652
+want, 9634, 0.0409060397339
+need, 5993, 0.0403750355472
+year, 9943, 0.0377396074404
+time, 8936, 0.0356797985032

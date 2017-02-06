@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83651
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: jburrill@boi.hp.com (Jim Burrill)
+Subject: Re: Is it good that Jesus died?
+Organization: Idaho River Country, The Salmon, Payette, Clearwater, Boise, Selway, Priest
+X-Newsreader: TIN [version 1.1.8 PL6]
+Lines: 35
+
+Brian Kendig (bskendig@netcom.com) wrote:
+: 
+: Can you please point to something, anything, that proves to me that
+: the universe cannot possibly be explained without accepting as a fact
+: the existence of a god in precisely the way your holy book describes?
+: 
+: Can you please convince me that your religion is more than a very
+: cleverly-constructed fable, and that it does indeed have some bearing
+: on my own personal day-to-day life?
+
+Would you consider the word of an eye-witness (Peter) to testify to the
+events surrounding Jesus' life?
+
+
+ 2Pe 1 16 ¶ We did not follow cleverly invented stories when we told you
+ about the power and coming of our Lord Jesus Christ, but we were 
+ eyewitnesses of his majesty.
+
+ 2Pe 1 17 For he received honor and glory from God the Father when the
+ voice came to him from the Majestic Glory, saying, "This is my Son, whom 
+ I love; with him I am well pleased."¹
+
+ 2Pe 1 18 We ourselves heard this voice that came from heaven when we
+ were with him on the sacred mountain.
+
+ 2Pe 1 19 ¶ And we have the word of the prophets made more certain, and
+ you will do well to pay attention to it, as to a light shining in a dark
+ place, until the day dawns and the morning star rises in your hearts.
+
+This is a documented testimony. Perhaps further research on your part is
+warranted before making more statements. There is considerably more to study
+in Peters' two books of testimony regarding the Messiah. It is well worth 
+your time, Mr. Brian.
+
+Jim Burrill
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die       pleas point someth anyth
+prove univers cannot possibl explain without
+accept fact exist god precis way holi book describ
+pleas convinc religion clever construct fabl inde
+bear person day day life  consid word eye wit
+peter testifi event surround jesus life   2pe
+follow clever invent stori told power come lord
+jesus christ eyewit majesti  2pe receiv honor
+glori god father voic came majest glori say son
+love well pleas  2pe heard voic came heaven sacr
+mountain  2pe word prophet made certain well pay
+attent light shine dark place day dawn morn star
+rise heart  document testimoni perhap research
+part warrant make statement consider studi peter
+two book testimoni regard messiah well worth time
+brian  jim burril
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clever, 1812, 0.24686893883
+jesus, 4859, 0.224754220487
+glori, 3907, 0.222893914845
+testimoni, 8816, 0.218375854917
+voic, 9567, 0.1857610112
+peter, 6575, 0.181878334952
+day, 2402, 0.163915993656
+pleas, 6688, 0.162610176771
+came, 1472, 0.148535376402
+fabl, 3343, 0.143677137229
+burril, 1416, 0.139565567724
+majesti, 5457, 0.136206170831
+life, 5260, 0.135712340119
+word, 9829, 0.131995491415
+book, 1218, 0.131995491415
+god, 3926, 0.129881573413
+testifi, 8815, 0.128735204432
+shine, 7886, 0.12503771236
+sacr, 7567, 0.120594139813
+dawn, 2400, 0.120594139813
+invent, 4741, 0.115963503017
+messiah, 5653, 0.114967278224
+warrant, 9645, 0.111446957423
+honor, 4364, 0.105362032982
+surround, 8595, 0.103191801601
+prophet, 6928, 0.102686957136
+mountain, 5887, 0.102686957136
+rise, 7414, 0.102195576808
+holi, 4344, 0.101250463477
+morn, 5864, 0.0982789897603
+wit, 9802, 0.0953827400231
+heaven, 4229, 0.0950507369814
+attent, 766, 0.0950507369814
+heart, 4225, 0.0934749336107
+construct, 2074, 0.0934749336107
+father, 3404, 0.0928805056
+bear, 971, 0.0928805056
+lord, 5347, 0.0923046565374
+son, 8132, 0.0917462601594
+precis, 6809, 0.0894238753923
+convinc, 2120, 0.0882498688038
+inde, 4594, 0.0878004399305
+dark, 2365, 0.0873617127681
+consider, 2060, 0.0869331894938
+eye, 3337, 0.086514406233
+brian, 1304, 0.086514406233
+christ, 1729, 0.0851193651682
+document, 2788, 0.0847394409805
+jim, 4868, 0.0841838510407
+event, 3232, 0.083644524627
+worth, 9850, 0.0834682010777
+pay, 6474, 0.0834682010777
+stori, 8418, 0.0832935488668
+statement, 8343, 0.0831205366069
+told, 8973, 0.0829491337867
+prove, 6947, 0.0817919850862
+receiv, 7167, 0.0805528177247
+star, 8324, 0.0796752389971
+describ, 2556, 0.0793917615551
+studi, 8469, 0.0792516417141
+religion, 7261, 0.0780363219461
+accept, 208, 0.0757070606459
+regard, 7224, 0.0754781673882
+die, 2628, 0.0753647782901
+explain, 3301, 0.0744819425952
+light, 5267, 0.0733332286261
+love, 5366, 0.0731318531758
+perhap, 6540, 0.0713211584757
+research, 7307, 0.0708728232114
+heard, 4224, 0.0700076093229
+power, 6783, 0.0683902848568
+exist, 3283, 0.0660658628659
+certain, 1619, 0.0651993968507
+consid, 2059, 0.0646225461481
+fact, 3350, 0.0632255332635
+anyth, 555, 0.063167131724
+place, 6657, 0.0631089147078
+person, 6562, 0.0613897866625
+univers, 9282, 0.0612316254314
+follow, 3578, 0.0605615272104
+possibl, 6765, 0.0604102896694
+someth, 8126, 0.0542392747811
+come, 1923, 0.0534311559125
+point, 6710, 0.0520092779554
+way, 9666, 0.0481993019861
+good, 3948, 0.0473645029116
+say, 7653, 0.0467802847692
+make, 5459, 0.046214022424
+time, 8936, 0.043779775391

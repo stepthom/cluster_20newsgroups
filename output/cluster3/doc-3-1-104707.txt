@@ -1,0 +1,125 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104707
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dtate+@pitt.edu (David M. Tate)
+Subject: Re: How to speed up games (marginally realistic)
+Organization: Department of Industrial Engineering
+Lines: 25
+
+ez027993@chip.ucdavis.edu (Gary Built Like Villanova Huckabay) said:
+
+>Baseball games take about 2:51 in the NL, and just a shade under 3 hours
+>in the AL.  That's just too damn long.  I don't like to PLAY in 3 hour
+>games, much less WATCH a game for that long.  My butt falls asleep, and
+>if I'm watching on TV, I'll channel surf between pitches, catching
+>colorized versions of Mr. Ed, Leave it to Beaver, and "Those Wacky
+>Nieporents" on Nick at Nite.
+
+But, Gary, for certain sofa tubers like myself, this is an advantage.  I
+can watch the Pirates on KBL, the Mets on WWOR, the Braves on TBS, and the
+mediots on ESPN at the same time, without missing anything.  (If something
+impressive happens, I'll catch the replay :-) ).
+
+So, I see (essentially) 4 games in 3 hours, instead of 1 game in 2 hours.
+What a deal!
+
+(Insert smileys as desired...)
+
+
+-- 
+   David M. Tate   (dtate+@pitt.edu) |  Greetings, sir, with bat not quick 
+     member IIE, ORSA, TIMS, SABR    |  Hands not soft, eye not discerning
+                                     |  And in Denver they call you a slugger?
+   "The Big Catullus" Galarraga      |  And compare you to my own Mattingly!?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ speed game margin realist      basebal game take
+shade hour that damn long don't like play hour
+game much less watch game long butt fall asleep
+i'm watch i'll channel surf pitch catch color
+version leav beaver wacki niepor nick nite  gari
+certain sofa tuber like advantag watch pirat kbl
+met wwor brave tbs mediot espn time without miss
+anyth someth impress happen i'll catch replay  see
+essenti game hour instead game hour deal  insert
+smiley desir     member iie orsa tim sabr hand
+soft eye discern denver call slugger big catullus
+galarraga compar mat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.345898400467
+hour, 4395, 0.342474281552
+watch, 9655, 0.236611053274
+catch, 1556, 0.201298415733
+beaver, 979, 0.144057012273
+tbs, 8722, 0.140589504582
+nite, 6077, 0.140589504582
+wacki, 9602, 0.137657768602
+surf, 8586, 0.137657768602
+orsa, 6301, 0.137657768602
+iie, 4500, 0.137657768602
+catullus, 1567, 0.135118183382
+asleep, 691, 0.135118183382
+niepor, 6058, 0.132878110463
+slugger, 8050, 0.130874296954
+replay, 7289, 0.129061627145
+discern, 2687, 0.12588448598
+butt, 1430, 0.124475053284
+mediot, 5611, 0.121935468064
+ll, 5314, 0.120494428146
+long, 5336, 0.119850492738
+sabr, 7565, 0.118667110234
+galarraga, 3751, 0.116763659165
+smiley, 8063, 0.115878911827
+espn, 3192, 0.112701770662
+denver, 2533, 0.110624948856
+soft, 8097, 0.109356569746
+insert, 4670, 0.109356569746
+nick, 6052, 0.108752752745
+pirat, 6639, 0.108167517708
+channel, 1652, 0.107599755008
+realist, 7147, 0.107048451537
+shade, 7835, 0.105484394916
+mat, 5540, 0.101850784527
+tim, 8935, 0.101041358626
+margin, 5507, 0.099888360889
+gari, 3776, 0.0988012857066
+damn, 2346, 0.0971171206975
+essenti, 3196, 0.0967974721982
+desir, 2565, 0.0933299645071
+advantag, 286, 0.092808873335
+impress, 4554, 0.0915653823042
+eye, 3337, 0.0892985790387
+fall, 3369, 0.0870822645708
+leav, 5184, 0.0847578516549
+met, 5655, 0.0845902854782
+member, 5625, 0.0842595182192
+instead, 4682, 0.0816585494988
+brave, 1277, 0.0813746839602
+miss, 5770, 0.0804132484619
+like, 5272, 0.0800918261723
+compar, 1960, 0.0800156317912
+speed, 8217, 0.0773290576539
+deal, 2418, 0.0768788913592
+color, 1907, 0.0764391344722
+version, 9479, 0.0739948809707
+pitch, 6643, 0.0694287976529
+hand, 4145, 0.068983027918
+certain, 1619, 0.0672976183558
+happen, 4159, 0.0670306857211
+anyth, 555, 0.0651999516671
+big, 1082, 0.064783251223
+basebal, 924, 0.0640894853782
+play, 6681, 0.0627206474421
+someth, 8126, 0.0559847819217
+time, 8936, 0.0451886790105
+don, 2811, 0.043138688453

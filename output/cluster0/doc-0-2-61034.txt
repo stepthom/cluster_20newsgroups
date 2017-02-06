@@ -1,0 +1,206 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61034
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Re: Lindbergh and the moon (was:Why not give $1G)
+Organization: University of Illinois at Urbana
+Lines: 42
+
+mancus@sweetpea.jsc.nasa.gov (Keith Mancus) writes:
+
+>cook@varmit.mdc.com (Layne Cook) writes:
+>> All of this talk about a COMMERCIAL space race (i.e. $1G to the first 1-year 
+>> moon base) is intriguing. Similar prizes have influenced aerospace 
+>>development before. The $25k Orteig prize helped Lindbergh sell his Spirit of 
+>> Saint Louis venture to his financial backers.
+>> But I strongly suspect that his Saint Louis backers had the foresight to 
+>> realize that much more was at stake than $25,000.
+>> Could it work with the moon? Who are the far-sighted financial backers of 
+>> today?
+
+>  The commercial uses of a transportation system between already-settled-
+>and-civilized areas are obvious.  Spaceflight is NOT in this position.
+>The correct analogy is not with aviation of the '30's, but the long
+>transocean voyages of the Age of Discovery.
+
+Lindbergh's flight took place in '27, not the thirties.
+
+>It didn't require gov't to
+>fund these as long as something was known about the potential for profit
+>at the destination.  In practice, some were gov't funded, some were private.
+
+Could you give examples of privately funded ones?
+
+>But there was no way that any wise investor would spend a large amount
+>of money on a very risky investment with no idea of the possible payoff.
+
+Your logic certainly applies to standard investment strategies.  However, the
+concept of a prize for a difficult goal is done for different reasons, I 
+suspect.  I'm not aware that Mr Orteig received any significant economic 
+benefit from Lindbergh's flight.  Modern analogies, such as the prize for a
+human powered helicopter face similar arguments.  There is little economic
+benefit in such a thing.  The advantage comes in the new approaches developed
+and the fact that a prize will frequently generate far more work than the 
+equivalent amount of direct investment would.  A person who puts up $ X billion
+for a moon base is much more likely to do it because they want to see it done
+than because they expect to make money off the deal.
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lindbergh moon give       talk commerci space
+race first year moon base intrigu similar prize
+influenc aerospac develop 25k orteig prize help
+lindbergh sell spirit saint loui ventur financi
+backer strong suspect saint loui backer foresight
+realiz much stake could work moon far sight
+financi backer today  commerci use transport
+system alreadi settl civil area obvious
+spaceflight posit correct analog aviat long
+transocean voyag age discoveri  lindbergh flight
+took place thirti  didn't requir gov't fund long
+someth known potenti profit destin practic gov't
+fund privat  could give exampl privat fund one
+way wise investor spend larg amount money riski
+invest idea possibl payoff  logic certain appli
+standard invest strategi howev concept prize
+difficult goal done differ reason suspect i'm awar
+orteig receiv signific econom benefit lindbergh
+flight modern analog prize human power helicopt
+face similar argument littl econom benefit thing
+advantag come new approach develop fact prize
+frequent generat far work equival amount direct
+invest person put billion moon base much like want
+see done expect make money deal   find way make
+one attribut hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+prize, 6881, 0.342712522504
+lindbergh, 5284, 0.336878279758
+backer, 854, 0.278108533977
+moon, 5851, 0.198757356226
+invest, 4744, 0.191426627339
+orteig, 6302, 0.185405689318
+fund, 3723, 0.166676183091
+financi, 3484, 0.15147259044
+saint, 7585, 0.144126763252
+econom, 2984, 0.141547795252
+analog, 487, 0.138484107319
+loui, 5363, 0.129044032064
+gov, 3965, 0.123386981802
+benefit, 1028, 0.12224828548
+privat, 6879, 0.119119236876
+suspect, 8603, 0.118475053468
+flight, 3544, 0.106420432363
+commerci, 1940, 0.103494259156
+similar, 7961, 0.101350072689
+money, 5835, 0.0986608097504
+transocean, 9062, 0.0954338491277
+payoff, 6479, 0.0954338491277
+25k, 72, 0.0927028446589
+develop, 2588, 0.0911634829543
+riski, 7417, 0.0904714515336
+stake, 8305, 0.0885848355279
+intrigu, 4729, 0.0869505744084
+foresight, 3600, 0.0842195699396
+destin, 2572, 0.0830530897727
+far, 3386, 0.0817651071246
+long, 5336, 0.0771255868445
+base, 923, 0.0766029145288
+thirti, 8877, 0.076364062482
+spaceflight, 8168, 0.0740257797832
+settl, 7817, 0.0740257797832
+investor, 4746, 0.0740257797832
+hannib, 4155, 0.0740257797832
+aviat, 823, 0.0740257797832
+strategi, 8431, 0.072063381626
+ventur, 9461, 0.0716182860892
+discoveri, 2700, 0.0711888112034
+voyag, 9588, 0.0707738976261
+influenc, 4634, 0.0703725902518
+aerospac, 304, 0.0699840249697
+sight, 7943, 0.0696074174593
+work, 9833, 0.069346631677
+frequent, 3686, 0.0688872816204
+civil, 1778, 0.0678807877627
+equival, 3162, 0.0663679039524
+spirit, 8238, 0.066086540334
+transport, 9065, 0.065811500032
+goal, 3924, 0.0655425050639
+wise, 9799, 0.0652792953846
+profit, 6903, 0.0650216273756
+awar, 831, 0.0647692724894
+way, 9666, 0.0640302974086
+attribut, 773, 0.0638088757798
+logic, 5330, 0.0620883244436
+make, 5459, 0.0613929554646
+race, 7049, 0.0604040069011
+modern, 5811, 0.0604040069011
+advantag, 286, 0.0597238998088
+difficult, 2635, 0.059559618438
+potenti, 6774, 0.0586177093125
+sell, 7778, 0.0583191877237
+billion, 1092, 0.0583191877237
+approach, 589, 0.0583191877237
+spend, 8222, 0.0573282253126
+concept, 2002, 0.0565383526562
+realiz, 7149, 0.0561617451458
+age, 328, 0.0547615022147
+strong, 8456, 0.0542222617647
+appli, 584, 0.0542222617647
+took, 8987, 0.0540130467835
+practic, 6793, 0.0536050497243
+receiv, 7167, 0.0535051407746
+generat, 3819, 0.053017475531
+signific, 7951, 0.052733939027
+face, 3345, 0.0526408680206
+obvious, 6185, 0.0517471295778
+argument, 631, 0.0510763437186
+standard, 8313, 0.0501344345932
+area, 622, 0.049762406607
+deal, 2418, 0.0494727178551
+alreadi, 443, 0.0490506491894
+known, 5054, 0.0489131333789
+posit, 6761, 0.0480550779369
+expect, 3290, 0.0474336866994
+human, 4432, 0.0472532591806
+correct, 2156, 0.0471344351563
+direct, 2667, 0.0469001930133
+today, 8964, 0.0467847319837
+requir, 7302, 0.0455297720642
+power, 6783, 0.0454264906211
+larg, 5124, 0.0453240734681
+exampl, 3258, 0.0443916114897
+certain, 1619, 0.0433070251973
+howev, 4406, 0.042191761625
+fact, 3350, 0.0419959369935
+place, 6657, 0.0419184761123
+idea, 4482, 0.0418415024097
+talk, 8684, 0.0413895577048
+littl, 5308, 0.0411334304244
+didn, 2625, 0.0408825535623
+person, 6562, 0.0407765894513
+possibl, 6765, 0.0401259837247
+reason, 7156, 0.0394765593255
+differ, 2633, 0.0376851872119
+someth, 8126, 0.0360270455416
+help, 4249, 0.0359556822003
+new, 6023, 0.0356511610001
+come, 1923, 0.0354902733337
+space, 8164, 0.0347161088134
+thing, 8869, 0.033435201393
+want, 9634, 0.0333390596703
+year, 9943, 0.0307583680203
+use, 9363, 0.0270298534826
+like, 5272, 0.0257701447606

@@ -1,0 +1,224 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104828
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Maine System
+From: Wayne Barber <BARBER@MAINE.MAINE.EDU>
+Subject: Re: Braves Update!!
+ <13586@news.duke.edu> <C5sysG.KAD@odin.corp.sgi.com>
+ <steph.735349318@pegasus.cs.uiuc.edu>
+Lines: 56
+
+In article <steph.735349318@pegasus.cs.uiuc.edu>, steph@pegasus.cs.uiuc.edu
+(Dale Stephenson) says:
+>
+>The events I saw were:
+>1)  Called strike by Hirschbeck
+>2)  Shocked-looking Gant asks for appeal to first
+>3)  No appeal to first
+>4)  Gant steps out of batters box.
+>5)  Hirschbeck *immediately* orders Gant back in.  [bad move]
+
+Even I noticed that Gant's demeanor was not one of a batter
+attempting to regain his concentration.  Gant was stalking off.
+I wonder if Gant said something to the ump?
+
+>6)  Gant ignores Hirschbeck and walks off. [bad move]
+
+Actually, there was a small hand wave by Gant...as if to say
+'Don't bother me'. Gant may have said something here, too.
+
+>7)  Hirschbeck yells at Gant.  Gant is silent.
+>8)  Hirschbeck calls for the pitch.
+>9)  Pitch is called a strike.
+>10)  Cox argues (couldn't see when he came on the field)
+
+Cox was already halfway to the ump when the strike was called.
+
+>11)  Cox is ejected, players everywhere
+>12)  Play finally resumes.
+>
+>Gant shouldn't have ignored Hirschbeck.  Not returning made the strike
+>call fairly likely.  Although I suspect an argument might have gotten
+>Gant tossed altogether.  But if Hirschbeck had let Gant step out, the
+>whole incident probably would have been avoided.
+
+My impression was that Gant was not 'stepping out.'  He was making
+a protest about the lack of an appeal to first.  As has been
+pointed out earlier, there is no appeal to first on a strike.
+I can understand Gant feeling a little pressure in a two-out,
+RISP, 1 - 0 game, ninth inning.  He let it get to him.  The ump
+also overreacted.  Gant was stalking off, but I doubt he would
+have been gone long.  Hirschbeck should have let him have a
+moment to compose himself before telling him to come bat.
+IMHO, umpires should be more flexible than what Hirschbeck
+showed.  Gant was disturbed to the point it was pretty likely
+he would not get a hit.
+
+A very bad finish to a pretty good game.
+>--
+>Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+>
+>  "It is considered good to look wise, especially when not
+>   overburdened with information" -- J. Golden Kimball
+--------------------------------------
+Wayne Barber - Data Support Specialist
+University of Maine System
+INTERNET: Barber@Maine.Maine.Edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  brave updat odin corp sgi com    pegasus uiuc
+edu dale stephenson say  event saw call strike
+hirschbeck shock look gant ask appeal first appeal
+first gant step batter box hirschbeck immedi order
+gant back bad move  even notic gant demeanor one
+batter attempt regain concentr gant stalk wonder
+gant said someth ump  gant ignor hirschbeck walk
+bad move  actual small hand wave gant say don't
+bother me gant said someth  hirschbeck yell gant
+gant silent hirschbeck call pitch pitch call
+strike cox argu couldn't see came field  cox
+alreadi halfway ump strike call  cox eject player
+everywher play final resum  gant shouldn't ignor
+hirschbeck return made strike call fair like
+although suspect argument might gotten gant toss
+altogeth hirschbeck let gant step whole incid
+probabl avoid  impress gant step make protest lack
+appeal first point earlier appeal first strike
+understand gant feel littl pressur two risp game
+ninth inning let get ump also overreact gant stalk
+doubt gone long hirschbeck let moment compos tell
+come bat imho umpir flexibl hirschbeck show gant
+disturb point pretti like get hit  bad finish
+pretti good game    consid good look wise especi
+overburden inform golden kimbal  wayn barber data
+support specialist univers main system
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gant, 3766, 0.729905126964
+hirschbeck, 4310, 0.419890399815
+strike, 8448, 0.179360997619
+appeal, 579, 0.176921742224
+cox, 2198, 0.139963466605
+ump, 9209, 0.128923014431
+stalk, 8306, 0.116498785859
+step, 8377, 0.0998433782046
+bad, 861, 0.0795939823728
+batter, 949, 0.0684862576226
+let, 5225, 0.0682556574122
+ignor, 4496, 0.0643411508068
+risp, 7418, 0.0561768395217
+demeanor, 2515, 0.0561768395217
+barber, 908, 0.0561768395217
+overreact, 6350, 0.0545692422051
+pretti, 6851, 0.0528293115497
+pitch, 6643, 0.0525996869622
+odin, 6199, 0.0511831861494
+resum, 7333, 0.050334639593
+regain, 7223, 0.050334639593
+halfway, 4126, 0.050334639593
+specialist, 8200, 0.0488889438977
+stephenson, 8381, 0.0482620861851
+said, 7583, 0.0479646812555
+shock, 7895, 0.0471515355203
+eject, 3022, 0.0471515355203
+altogeth, 454, 0.0471515355203
+yell, 9946, 0.0461895327772
+disturb, 2756, 0.0461895327772
+pegasus, 6507, 0.045752773665
+everywher, 3244, 0.045752773665
+wayn, 9667, 0.0449514687136
+silent, 7954, 0.0449514687136
+overburden, 6339, 0.0445819354605
+dale, 2341, 0.0445819354605
+compos, 1981, 0.0445819354605
+kimbal, 5019, 0.0438952905254
+game, 3761, 0.0436757949639
+flexibl, 3541, 0.0426917796166
+uiuc, 9197, 0.0424198862563
+someth, 8126, 0.0424144174071
+concentr, 2001, 0.0419050730875
+toss, 9010, 0.040974190561
+point, 6710, 0.0406705884831
+protest, 6942, 0.0405502848313
+incid, 4575, 0.0405502848313
+wave, 9661, 0.0403473328484
+ninth, 6075, 0.0401499418993
+golden, 3934, 0.0394103886312
+umpir, 9210, 0.0392367821836
+sgi, 7831, 0.0390672609751
+wise, 9799, 0.0384264549155
+imho, 4524, 0.0382747794405
+corp, 2153, 0.0382747794405
+bother, 1245, 0.0376981262443
+shouldn, 7912, 0.037426232884
+good, 3948, 0.0370384339555
+say, 7653, 0.0365815828592
+avoid, 827, 0.0365480997604
+gotten, 3962, 0.0362022260326
+look, 5341, 0.0359582112308
+pressur, 6842, 0.035660292513
+argu, 628, 0.0354544408243
+gone, 3943, 0.0350595848071
+earlier, 2952, 0.0350595848071
+suspect, 8603, 0.034869986524
+finish, 3488, 0.034869986524
+impress, 4554, 0.034685250275
+immedi, 4527, 0.0345051329196
+moment, 5828, 0.0342431288113
+lack, 5092, 0.0333565646523
+notic, 6120, 0.0332811260682
+inning, 4657, 0.0332064692451
+couldn, 2176, 0.0327740803599
+event, 3232, 0.032704472872
+doubt, 2830, 0.0322351885626
+saw, 7650, 0.0317338162913
+attempt, 763, 0.0316735287515
+main, 5450, 0.0316137415291
+com, 1917, 0.0314956352946
+updat, 9333, 0.0312085726603
+brave, 1277, 0.030824982195
+return, 7346, 0.0307718135481
+walk, 9617, 0.0306146221714
+fair, 3363, 0.0305117015788
+like, 5272, 0.0303390316937
+argument, 631, 0.0300659314349
+especi, 3190, 0.0298297030927
+bat, 942, 0.0296009753436
+box, 1254, 0.0294230818867
+came, 1472, 0.0290381899457
+alreadi, 443, 0.0288735126282
+feel, 3429, 0.0283250932459
+final, 3482, 0.0282874726959
+small, 8054, 0.0280657838521
+field, 3466, 0.0271128832188
+data, 2385, 0.0266798753792
+wonder, 9821, 0.0261588542661
+hand, 4145, 0.0261309845255
+understand, 9246, 0.0258313288228
+edu, 3001, 0.0255436408407
+order, 6281, 0.0254671340797
+consid, 2059, 0.0252670012394
+hit, 4316, 0.0251933619037
+ask, 689, 0.0249531956992
+player, 6683, 0.0248593270233
+support, 8576, 0.0248128473849
+littl, 5308, 0.0242130663391
+univers, 9282, 0.0239411729788
+play, 6681, 0.0237587754149
+inform, 4637, 0.0236791688706
+probabl, 6885, 0.0235613844657
+tell, 8767, 0.0235419395985
+actual, 254, 0.0231636732484
+long, 5336, 0.0226998688347
+come, 1923, 0.0208912394069
+make, 5459, 0.018069386483
+don, 2811, 0.0163410687301

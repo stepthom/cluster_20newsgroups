@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38457
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: sean@whiting.mcs.com (Sean Gum)
+Subject: Re: CView answers
+Organization: -*-  Whiting Corporation, Harvey, Illinois  -*-
+X-Newsreader: Tin 1.1 PL4
+Lines: 23
+
+bryanw@rahul.net (Bryan Woodworth) writes:
+: In <1993Apr16.114158.2246@whiting.mcs.com> sean@whiting.mcs.com (Sean Gum) writes:
+: 
+: >A stupid question, but what will CView run on and where can I get it? I
+: >am still in need of a GIF viewer for Linux. (Without X-Windows.)
+: >Thanks!
+: > 
+: 
+: Ho boy. There is no way in HELL you are going to be able to view GIFs or do
+: any other graphics in Linux without X windows!  I love Linux because it is
+: so easy to learn..  You want text?  Okay.   Use Linux. You want text AND
+: graphics?  Use Linux with X windows.  Simple.  Painless.  REQUIRED to have
+: X Windows if you want graphics!  This includes fancy word processors like
+: doc, image viewers like xv, etc.
+:
+Ummm, I beg to differ. A kind soul sent me a program called DPG-VIEW that
+will do exactly what I want, view GIF images under Linux without X-Windows.
+And, it does support all the way up to 1024x768. The biggest complaint I
+have is it is painfully SLOW. It takes about 1 minute to display an image.
+I am use to CSHOW under DOS which takes a split second. Any idea why it
+is so slow under Linux? Anybody have anything better? Plus, anybody have
+the docs to DPG-View? Thanks!
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cview answer        stupid question cview run get
+still need gif viewer linux without window thank
+boy way hell go abl view gif graphic linux without
+window love linux easi learn want text okay use
+linux want text graphic use linux window simpl
+painless requir window want graphic includ fanci
+word processor like doc imag viewer like etc  ummm
+beg differ kind soul sent program call dpg view
+exact want view gif imag linux without window
+support way 1024x768 biggest complaint pain slow
+take minut display imag use cshow dos take split
+second idea slow linux anybodi anyth better plus
+anybodi doc dpg view thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+linux, 5290, 0.635299583122
+window, 9774, 0.288435563692
+dpg, 2849, 0.224236387984
+view, 9510, 0.216646750662
+gif, 3869, 0.175600463689
+cview, 2320, 0.167746141138
+doc, 2783, 0.163299248187
+want, 9634, 0.151095972922
+imag, 4512, 0.139448027576
+viewer, 9512, 0.13727757124
+slow, 8044, 0.13727757124
+graphic, 3997, 0.136961907671
+text, 8822, 0.124092319005
+anybodi, 552, 0.112764116859
+ummm, 9207, 0.102506430343
+cshow, 2272, 0.0985171879946
+painless, 6390, 0.0968839090427
+1024x768, 9, 0.0954228912347
+use, 9363, 0.091876511747
+beg, 992, 0.087272145394
+fanci, 3383, 0.0865224036846
+complaint, 1974, 0.082716830826
+biggest, 1084, 0.0788669549145
+thank, 8832, 0.0776667797127
+processor, 6891, 0.0765504420246
+pain, 6389, 0.0765504420246
+soul, 8149, 0.0761993639372
+boy, 1256, 0.0761993639372
+way, 9666, 0.072547937608
+split, 8247, 0.0717834158061
+okay, 6215, 0.06904666337
+stupid, 8476, 0.0678573482537
+plus, 6700, 0.0665876002885
+dos, 2825, 0.0654244288566
+minut, 5747, 0.0640593757481
+hell, 4245, 0.0636326699654
+sent, 7793, 0.0629494360275
+easi, 2959, 0.0611981406718
+display, 2734, 0.0597488794085
+simpl, 7965, 0.0591278721883
+learn, 5182, 0.0589268999205
+like, 5272, 0.0583964444928
+love, 5366, 0.0550377796226
+exact, 3253, 0.0550377796226
+requir, 7302, 0.051586377023
+answer, 535, 0.0511810541956
+abl, 180, 0.0507318863847
+word, 9829, 0.0496687725815
+kind, 5021, 0.0494655917487
+second, 7753, 0.0482590185795
+support, 8576, 0.047759667469
+includ, 4579, 0.0477151510784
+anyth, 555, 0.0475385009984
+idea, 4482, 0.0474074747283
+program, 6905, 0.0430429953126
+differ, 2633, 0.0426982650595
+question, 7032, 0.0419746133743
+run, 7543, 0.0417704710834
+better, 1060, 0.0414839558545
+need, 5993, 0.0372836463604

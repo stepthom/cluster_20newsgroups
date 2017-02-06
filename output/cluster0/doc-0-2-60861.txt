@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60861
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Orbital RepairStation
+Organization: U of Toronto Zoology
+Lines: 21
+
+In article <C5MtyJ.12q@well.sf.ca.us> collins@well.sf.ca.us (Steve Collins) writes:
+>The difficulties of a high Isp OTV include...
+>If you go solar, you have to replace the arrays every trip, with
+>current technology.
+
+You're assuming that "go solar" = "photovoltaic".  Solar dynamic power
+(turbo-alternators) doesn't have this problem.  It also has rather less
+air drag due to its higher efficiency, which is a non-trivial win for big
+solar plants at low altitude.
+
+Now, you might have to replace the *rest* of the electronics fairly often,
+unless you invest substantial amounts of mass in shielding.
+
+>Nuclear power sources are strongly restricted
+>by international treaty.
+
+References?  Such treaties have been *proposed*, but as far as I know,
+none of them has ever been negotiated or signed.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orbit repairst     difficulti high isp otv includ
+solar replac array everi trip current technolog
+you'r assum solar photovolta solar dynam power
+turbo altern doesn't problem also rather less air
+drag due higher effici non trivial win big solar
+plant low altitud  might replac rest electron fair
+often unless invest substanti amount mass shield
+nuclear power sourc strong restrict intern treati
+refer treati propos far know none ever negoti sign
+work one man work henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+solar, 8107, 0.398738255342
+treati, 9077, 0.350215066739
+replac, 7288, 0.216805336208
+otv, 6319, 0.175107533369
+photovolta, 6611, 0.170096528778
+power, 6783, 0.166702292635
+isp, 4789, 0.162540567995
+negoti, 5999, 0.145425633338
+trivial, 9110, 0.138965324817
+turbo, 9151, 0.136824999695
+plant, 6670, 0.135826772388
+shield, 7882, 0.133954320225
+difficulti, 2636, 0.131409364034
+work, 9833, 0.127241201433
+substanti, 8503, 0.127049315653
+restrict, 7330, 0.124551586433
+drag, 2854, 0.124551586433
+nuclear, 6150, 0.122845215236
+effici, 3006, 0.122845215236
+trip, 9104, 0.121775659917
+altitud, 452, 0.120754737897
+invest, 4744, 0.117080207358
+dynam, 2942, 0.117080207358
+array, 653, 0.116248393123
+zoolog, 9993, 0.112845125447
+altern, 450, 0.111816407413
+electron, 3034, 0.110832757462
+spencer, 8221, 0.108402668104
+mass, 5533, 0.106210057937
+air, 357, 0.105693795734
+higher, 4293, 0.103048810795
+sign, 7946, 0.102159331481
+henri, 4258, 0.102159331481
+intern, 4716, 0.0998806909929
+strong, 8456, 0.0994901347699
+rest, 7324, 0.0959181116914
+fair, 3363, 0.0951073226591
+propos, 6933, 0.0943247899367
+toronto, 9003, 0.0937178228044
+low, 5368, 0.0925509932509
+unless, 9289, 0.091441808951
+technolog, 8743, 0.0892523450422
+non, 6097, 0.0890082511521
+assum, 710, 0.0871455119727
+sourc, 8153, 0.0828842601286
+refer, 7213, 0.0827920365214
+win, 9770, 0.0816263719917
+current, 2299, 0.081365753011
+orbit, 6280, 0.0812795478503
+man, 5471, 0.0775612283796
+includ, 4579, 0.0772714641426
+everi, 3235, 0.0769144388676
+big, 1082, 0.0764933687165
+high, 4292, 0.0759439488522
+far, 3386, 0.075013668395
+doesn, 2793, 0.0728437759001
+problem, 6887, 0.0706497914536
+know, 5052, 0.048370735632

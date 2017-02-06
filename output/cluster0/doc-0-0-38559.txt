@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38559
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: se92psh@brunel.ac.uk (Peter Hauke)
+Subject: Re: TIFF: philosophical significance of 42
+Organization: Brunel University, Uxbridge, UK
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 20
+
+joachim lous (joachim@kih.no) wrote:
+: ulrich@galki.toppoint.de wrote:
+
+: > Does anyone have any  other suggestions where the 42 came from?
+
+Yep, here's a theory that I once heard bandied around.  Rather than thinking
+of the number think of the sound. For Tea Two. A sort of anagram on Tea For Two,
+Two for Tea, For Tea Two.
+
+:-)
+
+Peter
+
+
+-- 
+***********************************
+* Peter Hauke @ Brunel University *
+*---------------------------------*
+*      se92psh@brunel.ac.uk       *
+***********************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific        anyon suggest came
+yep here theori heard bandi around rather think
+number think sound tea two sort anagram tea two
+two tea tea two    peter     peter hauk brunel
+univers
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tea, 8728, 0.812787972623
+peter, 6575, 0.2823192983
+brunel, 1349, 0.21663961877
+yep, 9949, 0.181638282738
+philosoph, 6595, 0.156459045859
+tiff, 8926, 0.141988724888
+theori, 8848, 0.132125904123
+think, 8871, 0.131010209122
+signific, 7951, 0.123235273838
+came, 1472, 0.115281468927
+sound, 8150, 0.112301125198
+sort, 8144, 0.110011814891
+suggest, 8525, 0.109065119618
+heard, 4224, 0.108668793042
+univers, 9282, 0.0950463370475
+number, 6156, 0.0930025313409
+anyon, 554, 0.0768563522176

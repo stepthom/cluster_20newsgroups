@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38640
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kmembry@viamar.UUCP (Kirk Membry)
+Subject: Re: Rumours about 3DO ???
+Reply-To: rutgers!viamar!kmembry
+Organization: Private System
+Lines: 11
+
+Read Issue #2 of Wired Magazine.  It has a long article on the "hype" of
+3DO.  I've noticed that every article talks with the designers and how
+"great" it is, but never show any pictures of the output (or at least
+pictures that one can understand)
+
+
+-- 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Kirk Membry                                    "Our Age is the Age of Industry"
+rutgers!viamar!kmembry                         - Alexander Rodchenko
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do repli rutger viamar kmembri    read
+issu wire magazin long articl hype 3do i'v notic
+everi articl talk design great never show pictur
+output least pictur one understand     kirk membri
+age age industri rutger viamar kmembri alexand
+rodchenko
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rutger, 7554, 0.419894042546
+3do, 98, 0.388074720216
+age, 328, 0.298523802987
+pictur, 6622, 0.281623222921
+kirk, 5030, 0.229554936292
+alexand, 397, 0.220802753725
+articl, 665, 0.215028141634
+hype, 4458, 0.209947021273
+wire, 9793, 0.194037360108
+rumour, 7542, 0.194037360108
+magazin, 5432, 0.172085342198
+output, 6329, 0.168156230002
+industri, 4608, 0.161031633513
+notic, 6120, 0.154105013257
+repli, 7290, 0.144769896284
+issu, 4793, 0.136037925107
+design, 2564, 0.129620610887
+understand, 9246, 0.119609452593
+everi, 3235, 0.114256022921
+talk, 8684, 0.112814364748
+great, 4016, 0.110952445261
+long, 5336, 0.105109532068
+read, 7135, 0.101546857526

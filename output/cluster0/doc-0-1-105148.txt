@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105148
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steven@advtech.uswest.com ( Steve Novak)
+Subject: Re: Re:ALL-TIME BEST PLAYERS
+Organization: U S WEST Advanced Technologies
+Lines: 11
+Nntp-Posting-Host: jaynes.advtech.uswest.com
+
+> = drm6640@tesla.njit.edu writes:
+
+>1B Career:  DON MATTINGLY!!!!!!!!
+
+Lou Gehrig, IRONMAN 
+
+-- 
++-+-+-+-+-+-+-+
+| Steve Novak |    |"Ban the Bomb!"  "Ban the POPE!!"| 
++-+-+-+-+-+-+-+
+steven@advtech.USWest.Com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time best player       career mat  lou gehrig
+ironman    steve novak ban bomb ban pope
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ban, 889, 0.579568422356
+novak, 6127, 0.345625052653
+pope, 6744, 0.313996764628
+gehrig, 3811, 0.289784211178
+lou, 5360, 0.287176074224
+bomb, 1209, 0.272186442096
+mat, 5540, 0.244362854743
+career, 1517, 0.211270377751
+steve, 8390, 0.203353078609
+player, 6683, 0.157451448181
+best, 1052, 0.152555334579
+time, 8936, 0.108417766799

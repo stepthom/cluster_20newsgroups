@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102658
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Maine System
+From: Ryan Robbins <IO20456@MAINE.MAINE.EDU>
+Subject: Re: Why The RedFlops Can(but won't) win.....
+Lines: 10
+
+Don't knock Vaughn for being a spring training .400 hitter
+but a .250 regular season hitter.
+Around 30 games played isn't an indication of how good any
+hitter is, and the quality of pitching is way down.
+
+Ryan Robbins
+Penobscot Hall
+University of Maine
+
+IO20456@Maine.Maine.Edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  redflop won't win   don't knock vaughn spring
+train hitter regular season hitter around game
+play isn't indic good hitter qualiti pitch way
+ryan robbin penobscot hall univers main
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hitter, 4322, 0.504184724422
+penobscot, 6528, 0.285769905326
+robbin, 7436, 0.275847599684
+vaughn, 9437, 0.261329222505
+knock, 5050, 0.208942182452
+ryan, 7557, 0.206596048391
+spring, 8266, 0.196589470274
+train, 9042, 0.193747838513
+hall, 4128, 0.191613175978
+qualiti, 7017, 0.190084663567
+regular, 7234, 0.183220901768
+main, 5450, 0.173251955082
+indic, 4600, 0.171967886154
+won, 9820, 0.168348715269
+season, 7747, 0.152053147606
+isn, 4783, 0.144601299097
+pitch, 6643, 0.144130339563
+win, 9770, 0.143511007029
+univers, 9282, 0.131204179731
+play, 6681, 0.130204591165
+game, 3761, 0.11967765442
+way, 9666, 0.103279144333
+good, 3948, 0.101490377058
+don, 2811, 0.0895535285822

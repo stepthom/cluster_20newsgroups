@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60163
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: MUNIZB%RWTMS2.decnet@rockwell.com ("RWTMS2::MUNIZB")
+Subject: Long Island (was Why use AC at 20kHz for SSF power)
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 21
+
+on Date: Fri, 2 Apr 1993 23:19:46 GMT, Edmund Hack <arabia!hack> writes:
+
+/In article <1pgdno$3t1@access.digex.net> prb@access.digex.com (Pat) writes:
+/>
+/>I always thought GD's  Fighter plants were in Long Island.  
+/>
+/No, Northrup has a plant on Long Island.
+
+I don't think Northrup ever had a plant on Long Island.  The two main airframe
+manufacturers there were (Fairchild)/Republic which closed its doors after the
+T-46 cancellation, and Grumman (which is still hanging on last I time I called).
+I think Sperry also started there.  If you're ever in the area check out the
+Cradle of Aviation Museum at Mitchell field (now mostly parking lots behind the
+Nassau Coliseum and the community college).  Good display of vehicles from Long
+Island, including a LEM flight article.
+
+Disclaimer: Opinions stated are solely my own (unless I change my mind).
+Ben Muniz     MUNIZB%RWTMS2.decnet@consrt.rockwell.com    w(818)586-3578
+Space Station Freedom:Rocketdyne/Rockwell:Structural Loads and Dynamics
+   "Man will not fly for fifty years": Wilbur to Orville Wright, 1901
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ long island use 20khz ssf power ad forward space
+digest          alway thought gd fighter plant
+long island  northrup plant long island  don't
+think northrup ever plant long island two main
+airfram manufactur fairchild republ close door
+cancel grumman still hang last time call think
+sperri also start you'r ever area check cradl
+aviat museum mitchel field most park lot behind
+nassau coliseum communiti colleg good display
+vehicl long island includ lem flight articl
+space station freedom rocketdyn rockwel structur
+load dynam man fli fifti year wilbur orvill wright
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+island, 4781, 0.566633684272
+plant, 6670, 0.323797926914
+long, 5336, 0.281130722357
+gd, 3801, 0.144280075188
+rocketdyn, 7448, 0.135164573781
+lem, 5206, 0.135164573781
+coliseum, 1893, 0.135164573781
+airfram, 360, 0.131911110504
+orvill, 6305, 0.129160346499
+wright, 9861, 0.126777526333
+wilbur, 9757, 0.126777526333
+fifti, 3472, 0.126777526333
+republ, 7299, 0.121094832867
+rockwel, 7452, 0.11954214582
+fighter, 3475, 0.11954214582
+cradl, 2205, 0.11954214582
+ssf, 8289, 0.114408561649
+museum, 5931, 0.111341954991
+cancel, 1487, 0.111341954991
+aviat, 823, 0.107932642305
+mitchel, 5783, 0.106444727176
+hang, 4152, 0.103191263899
+door, 2818, 0.102606141184
+space, 8164, 0.101235039083
+manufactur, 5494, 0.099937800623
+freedom, 3672, 0.0948042164519
+colleg, 1900, 0.0933758828278
+dynam, 2942, 0.0930359745695
+digest, 2640, 0.0899516561045
+communiti, 1953, 0.0888531774179
+vehicl, 9449, 0.0854670395971
+load, 5317, 0.083001795987
+park, 6430, 0.0822503315221
+think, 8871, 0.0817391536107
+structur, 8460, 0.0813534269731
+forward, 3621, 0.0810069181437
+main, 5450, 0.0783052453493
+flight, 3544, 0.0775826914204
+display, 2734, 0.0768882596709
+ad, 257, 0.0766178811042
+fli, 3542, 0.076219842802
+station, 8346, 0.075324224678
+check, 1682, 0.0727706410656
+area, 622, 0.0725556427538
+close, 1830, 0.0676370568944
+alway, 457, 0.067395365019
+field, 3466, 0.0671569029758
+power, 6783, 0.0662336982835
+thought, 8887, 0.0622817972761
+man, 5471, 0.0616328296124
+includ, 4579, 0.0614025729466
+articl, 665, 0.0575124021539
+start, 8334, 0.0564847670275
+lot, 5356, 0.055678331979
+good, 3948, 0.0458709333024
+year, 9943, 0.0448469701113
+time, 8936, 0.042399244867
+don, 2811, 0.0404757973681
+use, 9363, 0.0394106420226

@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84209
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: psyrobtw@ubvmsd.cc.buffalo.edu (Robert Weiss)
+Subject: 22 Apr 93   God's Promise in Psalm 34:5
+Organization: University at Buffalo
+Lines: 5
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsd.cc.buffalo.edu
+
+
+	They looked unto him, and were lightened:
+	and their faces were not ashamed.
+
+	Psalm 34:5
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis psalm   news softwar vax vms vnew
+look unto lighten face asham  psalm
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+psalm, 6957, 0.60062099213
+asham, 681, 0.361604959208
+lighten, 5268, 0.342802117281
+unto, 9321, 0.294506241285
+promis, 6913, 0.217738458185
+vnew, 9564, 0.210963630075
+vms, 9563, 0.204658889455
+vax, 9439, 0.202358905003
+face, 3345, 0.199459616344
+god, 3926, 0.163442221782
+news, 6031, 0.16016743703
+softwar, 8103, 0.154772389134
+look, 5341, 0.115729788432

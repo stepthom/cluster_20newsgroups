@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37953
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: brr1@ns1.cc.lehigh.edu (BRANT RICHARD RITTER)
+Subject: computer graphics to vcr?
+Organization: Lehigh University
+Lines: 15
+
+
+    HELP   MY FRIEND AND I HAVE A CLASS PROJECT IN WHICH WE ARE TRYING TO MAKE
+    A COMPUTER ANIMATED MOVIE OF SORTS WITH THE DISNEY ANIMATION AND WOULD
+    LIKE TO PUT WHAT WE HAVE ON A VCR IS THIS POSSIBLE?  IS IT EASY AND
+    RELATIVELY CHEAP? IF SO HOW? WE BOTH HAVE 386 IBM COMPATIBLES BUT ARE
+    RELATIVELY CLUELESS WITH COMPUTERS IF YOU COULD HELP PLEASE DO.
+
+                                THANX.
+-- 
+BRANT RITTER
+-----------------------------------------------------
+moshing--   "a cosmic cesspool of physical delight."
+                                  -A. Kiedas
+                                     RHCP
+-----------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comput graphic vcr     help friend class project
+tri make comput anim movi sort disney anim like
+put vcr possibl easi relat cheap ibm compat relat
+clueless comput could help pleas  thanx  brant
+ritter  mosh cosmic cesspool physic delight kieda
+rhcp
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vcr, 9442, 0.479033083098
+comput, 1993, 0.328886919099
+anim, 515, 0.27298220701
+relat, 7247, 0.241755627743
+disney, 2725, 0.233751286274
+clueless, 1845, 0.233751286274
+delight, 2505, 0.224654388381
+cosmic, 2164, 0.188623928639
+help, 4249, 0.185797548745
+thanx, 8833, 0.181821814627
+compat, 1965, 0.178900844773
+movi, 5892, 0.161471881914
+cheap, 1677, 0.160417739024
+ibm, 4472, 0.153052126777
+class, 1789, 0.151450703155
+friend, 3692, 0.141487412482
+easi, 2959, 0.139553626555
+physic, 6613, 0.137479351381
+sort, 8144, 0.121628950337
+project, 6909, 0.117368522706
+graphic, 3997, 0.10410736179
+possibl, 6765, 0.103673591499
+pleas, 6688, 0.0930215759182
+tri, 9087, 0.0915785259126
+make, 5459, 0.0793105563397
+like, 5272, 0.0665823791167

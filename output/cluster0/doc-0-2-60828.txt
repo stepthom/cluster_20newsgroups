@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60828
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Shuttle oxygen (was Budget Astronaut)
+Organization: Express Access Online Communications USA
+Lines: 11
+NNTP-Posting-Host: access.digex.net
+
+
+
+I thought that under emergency conditions,  the STS  can
+put down at any good size Airport.  IF it could take a C-5 or a
+747, then it can take an orbiter.   You just need a VOR/TAC
+
+I don't know if they need ILS.
+
+pat
+
+ANyone know for sure.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ shuttl oxygen budget astronaut       thought
+emerg condit sts put good size airport could take
+take orbit need vor tac  don't know need il  pat
+anyon know sure
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tac, 8668, 0.337858046258
+airport, 365, 0.318575988982
+emerg, 3068, 0.287637034033
+sts, 8462, 0.281806630998
+oxygen, 6363, 0.281806630998
+need, 5993, 0.255723497049
+astronaut, 727, 0.250708893248
+condit, 2017, 0.244477791213
+budget, 1367, 0.243650719851
+size, 8000, 0.220688508475
+pat, 6458, 0.211099562894
+know, 5052, 0.204867047734
+shuttl, 7929, 0.191405767942
+orbit, 6280, 0.172123710666
+thought, 8887, 0.165978994493
+sure, 8585, 0.153146301483
+anyon, 554, 0.127789966768
+good, 3948, 0.122244567739
+don, 2811, 0.107866703311

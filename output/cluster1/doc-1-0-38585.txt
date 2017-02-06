@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38585
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: echen@burn.ee.washington.edu (Ed Chen)
+Subject: Windows BMP to Sun raster or others?
+Article-I.D.: shelley.1r49iaINNc3k
+Distribution: world
+Organization: University of Washington
+Lines: 11
+NNTP-Posting-Host: burn.ee.washington.edu
+
+Hi,
+
+
+Anyone has a converter from BMP to any format that xview or xv can
+
+handle?  This converter must run Unix..  I looked at the FAQ and downloaded
+several packages but had no luck...  thanks in advance.
+
+ed
+
+echen@burn.ee.washington.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ window bmp sun raster other articl shelley
+1r49iainnc3k         anyon convert bmp format
+xview  handl convert must run unix look faq
+download sever packag luck thank advanc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bmp, 1183, 0.489416825132
+convert, 2115, 0.327519385514
+shelley, 7874, 0.284671964089
+xview, 9914, 0.276495705426
+raster, 7104, 0.241447099894
+download, 2843, 0.239909383174
+luck, 5381, 0.210185551838
+faq, 3385, 0.190403702397
+handl, 4149, 0.188224324273
+unix, 9284, 0.186561046107
+packag, 6375, 0.177469138639
+window, 9774, 0.169500837117
+sun, 8539, 0.168442474832
+format, 3612, 0.163067132337
+advanc, 285, 0.154066888929
+sever, 7823, 0.150384221343
+articl, 665, 0.131318007777
+run, 7543, 0.12273330176
+thank, 8832, 0.114103337405
+anyon, 554, 0.109488257116
+look, 5341, 0.101682406976

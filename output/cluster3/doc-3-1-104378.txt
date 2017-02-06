@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104378
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: DAVE KINGMAN FOR THE HALL OF FAME
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 17
+
+In article <C5JBsE.KKK@news.udel.edu> philly@ravel.udel.edu (Robert C Hite) writes:
+>
+>Are you for real?  How many Gold Gloves does Ozzie Smith have?  If a
+>guy hung around and hit 30 homers a year for 15 years, wouldn't he
+>be a given for the Hall?  Is defense not just as important?
+
+Frankly, no.  Offense and defense are equally important.  But the
+pitcher is 80% of the defense.  The primary role of every other player
+is on offense.  Even shortstops are a bigger part of the offensive
+game than of the defensive game.  (They might not do much with their
+part of the offense, but that's another issue.)
+
+That being said, I think both Smith and Yount deserve the HOF.  They
+hit pretty well in addition to their defense.
+
+Cheers,
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dave kingman hall fame      real mani gold glove
+ozzi smith guy hung around hit homer year year
+wouldn't given hall defens import  frank offens
+defens equal import pitcher defens primari role
+everi player offens even shortstop bigger part
+offens game defens game might much part offens
+that anoth issu  said think smith yount deserv hof
+hit pretti well addit defens  cheer valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+defens, 2476, 0.489734724671
+offens, 6202, 0.426441872193
+smith, 8064, 0.221686921829
+hall, 4128, 0.219862419218
+import, 4551, 0.171710805019
+hit, 4316, 0.158421457414
+hof, 4336, 0.158257698857
+yount, 9965, 0.145225022524
+ozzi, 6366, 0.140170557963
+kingman, 5026, 0.138011670003
+game, 3761, 0.137321551573
+shortstop, 7909, 0.133372835069
+fame, 3376, 0.130986295152
+hung, 4441, 0.128827407193
+gold, 3933, 0.128827407193
+glove, 3911, 0.128827407193
+bigger, 1083, 0.128151202376
+deserv, 2560, 0.123910640193
+valentin, 9409, 0.121802032341
+role, 7463, 0.121802032341
+primari, 6863, 0.12081704328
+homer, 4355, 0.117672234092
+year, 9943, 0.11385340661
+equal, 3156, 0.107664201257
+cheer, 1687, 0.107131207745
+addit, 263, 0.102826496046
+dave, 2395, 0.0979469449341
+frank, 3655, 0.0969171685535
+wouldn, 9854, 0.094682142105
+issu, 4793, 0.0923717406766
+pitcher, 6644, 0.0900264222066
+guy, 4100, 0.0850463458211
+pretti, 6851, 0.0830506123187
+given, 3887, 0.0813006165748
+player, 6683, 0.078160485933
+real, 7144, 0.0776530783025
+everi, 3235, 0.0775815105362
+said, 7583, 0.0754031432758
+anoth, 533, 0.0730036264578
+mani, 5479, 0.0642515761897
+think, 8871, 0.0518779812153

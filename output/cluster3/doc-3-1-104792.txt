@@ -1,0 +1,213 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104792
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jtchern@ocf.berkeley.edu (Joseph Hernandez)
+Subject: MLB Standings and Scores for Fri., Apr. 16th, 1993
+Organization: JTC Enterprises Sports Division (Major League Baseball Dept.)
+Lines: 72
+Distribution: world
+NNTP-Posting-Host: monsoon.berkeley.edu
+Keywords: mlb, 04.16
+
+	     MLB Standings and Scores for Friday, April 16th, 1993
+	                   (including yesterday's games)
+
+NATIONAL WEST	      Won  Lost   Pct.    GB   Last 10  Streak    Home   Road
+San Francisco Giants   06   04    .600    --     6-4     Won 1   03-01  03-03
+Houston Astros         05   04    .556   0.5     5-4    Lost 1   00-03  05-01
+Atlanta Braves         06   05    .545   0.5     5-5    Lost 2   03-03  03-02
+Colorado Rockies       03   05    .375   2.0     3-5     Won 1   03-03  00-02
+Los Angeles Dodgers    03   07    .300   3.0     3-7    Lost 4   00-03  03-04
+San Diego Padres       02   07    .222   3.5     2-7    Lost 4   00-04  02-03
+Cincinnati Reds        02   07    .222   3.5     2-7    Lost 3   01-02  01-05
+
+NATIONAL EAST
+Philadelphia Phillies  08   01    .889    --     8-1     Won 5   05-01  03-00
+Pittsburgh Pirates     07   02    .778   1.0     7-2     Won 4   03-02  04-00
+St. Louis Cardinals    07   02    .778   1.0     7-2     Won 3   04-02  03-00
+New York Mets          04   04    .500   3.5     4-4    Lost 1   02-03  02-01
+Chicago Cubs           04   05    .444   4.0     4-5     Won 1   01-02  03-03
+Montreal Expos         04   05    .444   4.0     4-5     Won 1   01-02  03-03
+Florida Marlins        03   06    .333   5.0     3-6     Won 1   02-04  01-02
+
+
+AMERICAN WEST         Won  Lost   Pct.    GB   Last 10  Streak    Home   Road
+Texas Rangers          06   02    .750    --     6-2    Lost 1   04-02  02-00
+California Angels      05   02    .714   0.5     5-2     Won 3   03-02  02-00
+Chicago White Sox      04   04    .500   2.0     4-4     Won 1   02-03  02-01
+Minnesota Twins        04   04    .500   2.0     4-4    Lost 1   01-02  03-02
+Oakland Athletics      04   04    .500   2.0     4-4    Lost 2   04-02  00-02
+Seattle Mariners       04   04    .500   2.0     4-4    Lost 1   03-02  01-02
+Kansas City Royals     02   07    .222   4.5     2-7     Won 1   01-05  01-02
+
+AMERICAN EAST
+Boston Red Sox         07   02    .778    --     7-2     Won 3   03-00  04-02
+Toronto Blue Jays      05   03    .625   1.5     5-3     Won 1   04-02  01-01
+New York Yankees       05   04    .556   2.0     5-4    Lost 1   02-01  03-03
+Detroit Tigers         04   04    .500   2.5     4-4     Won 2   02-00  02-04
+Cleveland Indians      03   06    .333   4.0     3-6    Lost 3   02-01  01-05
+Milwaukee Brewers      02   05    .286   4.0     2-5    Lost 4   00-02  02-03
+Baltimore Orioles      02   06    .222   4.5     2-6     Won 1   00-02  02-04
+
+
+			     YESTERDAY'S SCORES
+                  (IDLE teams listed in alphabetical order)
+
+NATIONAL LEAGUE				AMERICAN LEAGUE
+
+Houston Astros		1		Seattle Mariners	1
+Montreal Expos		2		Toronto Blue Jays	3
+
+New York Mets		3		Oakland Athletics	2
+Colorado Rockies	5		Detroit Tigers		3
+
+Pittsburgh Pirates	5		Kansas City Royals	5
+San Diego Padres	4 (13)		New York Yankees	4
+
+St. Louis Cardinals	4		Cleveland Indians	3
+Los Angeles Dodgers	2		Boston Red Sox		4 (13)
+
+Atlanta Braves		1		California Angels     PPD
+San Francisco Giants	6		Milwaukee Brewers    RAIN
+
+Chicago Cubs	     IDLE		Baltimore Orioles    IDLE
+Cincinnati Reds      IDLE		Chicago White Sox    IDLE
+
+Florida Marlins      IDLE		Minnesota Twins      IDLE
+Philadelphia PhilliesIDLE		Texas Rangers        IDLE
+-- 
+-------------------------------------------------------------------------------
+Joseph Hernandez          |    RAMS  | |    /.\  ******* _|_|_  / |   LAKERS
+jtchern@ocf.Berkeley.EDU  |   KINGS  | |__ |   | DODGERS _|_|_  | |   RAIDERS
+jtcent@soda.Berkeley.EDU  |  ANGELS  |____||_|_| *******  | |  |___|  CLIPPERS
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mlb stand score fri 16th       mlb stand score
+friday april 16th includ yesterday game  nation
+west lost pct last streak home road san francisco
+giant houston astro lost atlanta brave lost
+colorado rocki los angel dodger lost san diego
+padr lost cincinnati red lost  nation east
+philadelphia philli pittsburgh pirat loui cardin
+new york met lost chicago cub montreal expo
+florida marlin   american west lost pct last
+streak home road texa ranger lost california angel
+chicago white sox minnesota twin lost oakland
+athlet lost seattl marin lost kansa citi royal
+american east boston red sox toronto blue jay new
+york yanke lost detroit tiger cleveland indian
+lost milwauke brewer lost baltimor oriol
+yesterday score idl team list alphabet order
+nation leagu american leagu  houston astro seattl
+marin montreal expo toronto blue jay  new york met
+oakland athlet colorado rocki detroit tiger
+pittsburgh pirat kansa citi royal san diego padr
+new york yanke  loui cardin cleveland indian los
+angel dodger boston red sox  atlanta brave
+california angel ppd san francisco giant milwauke
+brewer rain  chicago cub idl baltimor oriol idl
+cincinnati red idl chicago white sox idl  florida
+marlin idl minnesota twin idl philadelphia
+philliesidl texa ranger idl   joseph hernandez ram
+laker
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lost, 5355, 0.509755492926
+idl, 4488, 0.394197597699
+chicago, 1701, 0.154481217663
+angel, 509, 0.15353523267
+york, 9960, 0.145398031268
+sox, 8162, 0.14201637423
+san, 7603, 0.138970113128
+red, 7194, 0.123035123011
+16th, 30, 0.116428240838
+american, 469, 0.102550004073
+score, 7705, 0.0996998908763
+pct, 6488, 0.0985493994248
+athlet, 744, 0.0951194502448
+streak, 8436, 0.0936544333481
+kansa, 4951, 0.0923169777084
+brewer, 1302, 0.0923169777084
+nation, 5962, 0.0907721199326
+new, 6023, 0.0895506923081
+padr, 6379, 0.0888870285284
+milwauke, 5730, 0.0888870285284
+cincinnati, 1760, 0.0883830147434
+pirat, 6639, 0.0874220116317
+marlin, 5517, 0.0869631404437
+francisco, 3652, 0.0869631404437
+pittsburgh, 6648, 0.0865175717605
+minnesota, 5744, 0.0865175717605
+montreal, 5848, 0.086084555992
+los, 5349, 0.086084555992
+detroit, 2584, 0.086084555992
+expo, 3309, 0.0856634051746
+twin, 9172, 0.085253486395
+oakland, 6167, 0.0848542160699
+florida, 3552, 0.0848542160699
+mlb, 5795, 0.0837150992241
+marin, 5511, 0.0837150992241
+seattl, 7749, 0.0833534109306
+ranger, 7095, 0.0830000380514
+oriol, 6295, 0.0823167680861
+cardin, 1515, 0.0823167680861
+tiger, 8928, 0.0819861952753
+royal, 7503, 0.0819861952753
+loui, 5363, 0.0810351057681
+cleveland, 1811, 0.0810351057681
+houston, 4399, 0.0807307187273
+yesterday, 9952, 0.0798521342756
+philadelphia, 6589, 0.0795700888714
+indian, 4598, 0.0792931256439
+dodger, 2791, 0.0792931256439
+rocki, 7450, 0.0784909761744
+baltimor, 887, 0.0779785606164
+texa, 8820, 0.0777286194467
+astro, 724, 0.0777286194467
+diego, 2629, 0.0774826775077
+colorado, 1908, 0.0770022933096
+california, 1459, 0.0765364684716
+cub, 2282, 0.0760843463697
+atlanta, 749, 0.0741998207733
+west, 9708, 0.074004008657
+boston, 1243, 0.074004008657
+yanke, 9933, 0.0716623727894
+road, 7431, 0.0716623727894
+blue, 1176, 0.0708489002674
+giant, 3865, 0.0699263608436
+east, 2965, 0.0699263608436
+citi, 1775, 0.069340726459
+jay, 4832, 0.0686387303473
+met, 5655, 0.068366669382
+stand, 8311, 0.0665862135349
+white, 9737, 0.0658820731749
+brave, 1277, 0.065767789799
+toronto, 9003, 0.0641482887551
+leagu, 5176, 0.0616912474582
+home, 4354, 0.059271965547
+ppd, 6786, 0.0568128841508
+laker, 5098, 0.0521544143223
+alphabet, 442, 0.0508705165414
+fri, 3689, 0.0492746997124
+hernandez, 4271, 0.0455433188931
+rain, 7074, 0.0441915073717
+joseph, 4893, 0.043042277996
+friday, 3690, 0.043042277996
+ram, 7083, 0.0409930976376
+philli, 6593, 0.0369053298258
+april, 595, 0.0319219508572
+list, 5298, 0.0281481829974
+order, 6281, 0.0271681766163
+includ, 4579, 0.02644551509
+team, 8732, 0.0255184260808
+game, 3761, 0.0232965301027

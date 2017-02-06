@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84399
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: anthony.landreneau@ozonehole.com (Anthony Landreneau) 
+Subject: Re: Abortion
+Distribution: world
+Organization: Ozone Online Operations, Inc., DBA The Ozone Hole BBS
+Reply-To: anthony.landreneau@ozonehole.com (Anthony Landreneau) 
+Lines: 21
+
+To: margoli@watson.ibm.com (Larry Margolis)
+From: anthony.landreneau@ozonehole.com
+
+LM>>The rape has passed, there is nothing that will ever take that away.
+
+LM>True.  But forcing her to remain pregnant continues the violation of
+LM>her body for another 9 months.  I see this as being unbelievably cruel.
+
+Life is not a "violation". As for cruel, killing a living being solely
+because it exsist. That my friend is down right cold.
+
+                                   Anthony
+
+
+ * SLMR 2.1 * What's the difference between an Orange?
+                      
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ abort         rape pass noth ever take away  true
+forc remain pregnant continu violat bodi anoth
+month see unbeliev cruel  life violat cruel kill
+live sole exsist friend right cold  anthoni   slmr
+what differ orang   ozon hole bbs privat bulletin
+board servic full servic node usrobot bps gig file
+skydiv new orlean rime network mail hub usenet
+newsgroup
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cruel, 2254, 0.383647997623
+violat, 9526, 0.298232186558
+servic, 7813, 0.20842663712
+hub, 4419, 0.204760612913
+gig, 3875, 0.197475089669
+pregnant, 6822, 0.187206721383
+orlean, 6298, 0.187206721383
+bps, 1260, 0.174270107281
+orang, 6279, 0.17185638534
+anthoni, 539, 0.169652829852
+rape, 7099, 0.162367306609
+bulletin, 1387, 0.162367306609
+unbeliev, 9217, 0.160831993381
+node, 6089, 0.160831993381
+ozon, 6365, 0.159384461566
+sole, 8111, 0.155480609124
+abort, 187, 0.146447847464
+cold, 1888, 0.136179479177
+usenet, 9365, 0.135622865293
+bbs, 961, 0.130192954114
+privat, 6879, 0.123242865076
+hole, 4343, 0.121926989246
+board, 1186, 0.121608432691
+remain, 7264, 0.118625587647
+network, 6018, 0.117256340012
+friend, 3692, 0.113314433601
+pass, 6448, 0.113087302821
+newsgroup, 6032, 0.11198123567
+bodi, 1194, 0.109705632019
+kill, 5012, 0.10835721936
+continu, 2092, 0.106899267914
+forc, 3594, 0.10485857416
+month, 5847, 0.104373097716
+away, 833, 0.1003778195
+life, 5260, 0.0932639912345
+live, 5310, 0.0928538622346
+noth, 6119, 0.0921517404887
+true, 9121, 0.0903386375034
+file, 3477, 0.0876335822169
+mail, 5447, 0.0870607811079
+anoth, 533, 0.0816209355294
+differ, 2633, 0.0779795197605
+right, 7399, 0.0770363143428
+new, 6023, 0.0737706409168

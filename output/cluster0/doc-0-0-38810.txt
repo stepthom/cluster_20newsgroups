@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38810
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: asecchia@cs.uct.ac.za (Adrian Secchia)
+Subject: Raytracing Colours?
+Keywords: raytracer colours realism vectors
+Organization: Computer Science Department, University of Cape Town
+Lines: 25
+
+I have a question about recursive, backward raytracing.
+
+When an incident ray (I) strikes an object at point P, first
+the normal (N) is calculated. Light rays are calculated (L1 to Ln 
+where n is the number of light sources) - these being the light
+rays that do not intersect with anything. The reflected ray (R) and
+the transmitted ray (T) is calculated from the formulae.
+
+Calling the routine recursively on R and T will return the colours 
+along the rays (R and T) as rCol and tCol. Each object has its own
+colour oCol and each light source has liCol (1 <= i <= n).
+
+The question is: 
+  How do you combine rCol, tCol, oCol and all the liCol's to get
+  the correct resulting colour to return along the I ray?
+
+All colours are defined as strucures (records) having r, g, b components
+between 0 and 1.
+
+If anyone has done this before could you give me a few hints?
+
+--
+Adrian Secchia
+
+asecchia@cs.uct.ac.za
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ raytrac colour     question recurs backward
+raytrac  incid ray strike object point first
+normal calcul light ray calcul number light sourc
+light ray intersect anyth reflect ray transmit ray
+calcul formula  call routin recurs return colour
+along ray rcol tcol object colour ocol light sourc
+licol  question combin rcol tcol ocol licol get
+correct result colour return along ray  colour
+defin strucur record compon   anyon done could
+give hint   adrian secchia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ray, 7118, 0.447432701208
+colour, 1912, 0.434850403588
+tcol, 8724, 0.247275386553
+rcol, 7126, 0.247275386553
+ocol, 6196, 0.247275386553
+licol, 5256, 0.247275386553
+light, 5267, 0.243438870247
+recurs, 7193, 0.23165272257
+calcul, 1451, 0.220864327629
+raytrac, 7121, 0.175852231785
+return, 7346, 0.130629895135
+adrian, 282, 0.119238579232
+sourc, 8153, 0.112879226019
+object, 6173, 0.112628542941
+backward, 859, 0.103769600784
+question, 7032, 0.0925745267385
+transmit, 9059, 0.0900386531431
+hint, 4306, 0.0894825343245
+formula, 3614, 0.0879261158927
+incid, 4575, 0.0860703163776
+intersect, 4722, 0.0848127657423
+reflect, 7216, 0.0806161921704
+compon, 1980, 0.0788832172687
+strike, 8448, 0.0761408107247
+routin, 7499, 0.0750402220423
+combin, 1921, 0.0742134486864
+normal, 6108, 0.0700168751145
+defin, 2482, 0.0671019882254
+record, 7184, 0.0646547767546
+result, 7332, 0.0593412906579
+correct, 2156, 0.0588915058158
+anyth, 555, 0.0524228084312
+number, 6156, 0.0497237987061
+point, 6710, 0.0431628339056
+anyon, 554, 0.0410912448495

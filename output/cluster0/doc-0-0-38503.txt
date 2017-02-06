@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38503
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ricky@watson.ibm.com (Rick Turner)
+Subject: Re: M-MOTION VIDEO CARD: YUV to RGB ?
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: danebury.hursley.ibm.com
+Organization: IBM UK Labs
+Lines: 3
+
+I'll contact you offline about this.
+
+Rick
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ motion video card yuv rgb      i'll contact
+offlin  rick
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yuv, 9971, 0.448829409222
+offlin, 6208, 0.426712084474
+rick, 7387, 0.354585391449
+rgb, 7374, 0.337722849245
+motion, 5880, 0.33074811741
+video, 9506, 0.280903888383
+contact, 2078, 0.280903888383
+card, 1513, 0.266245478926
+ll, 5314, 0.196434402317

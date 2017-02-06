@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39026
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cs173sbw@sdcc5.ucsd.edu (cs173sbw)
+Subject: Re: REAL-3D
+Organization: University of California, San Diego
+Lines: 11
+Nntp-Posting-Host: sdcc5.ucsd.edu
+
+I heard a friend who just return from NAB from Las Vegas confirm
+that RealSoft will be releasing a Windows version of REAL-3D 2.0
+this summer.  He was told that the rendering speed on the DX50 isn't
+as fast as A4000.  However, he was also told that they are switching
+from Microsoft C++ to Watcom to gain more speed.  For people who is
+looking for a powerful 3D animation software for PC.  The wait
+shouldn't be too long.  Real 3D 2.0 is absolutely the most powerful and
+flexible 3D package out there that sells for less than $1000.
+
+p.s. I heard a Indigo version is also under development.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ real     heard friend return nab las vega confirm
+realsoft releas window version real summer told
+render speed dx50 isn't fast a4000 howev also told
+switch microsoft watcom gain speed peopl look
+power anim softwar wait shouldn't long real
+absolut power flexibl packag sell less  heard
+indigo version also develop
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+real, 7144, 0.312006748984
+told, 8973, 0.273145108408
+speed, 8217, 0.246699445462
+version, 9479, 0.23606257022
+heard, 4224, 0.230529665169
+power, 6783, 0.225203940276
+las, 5133, 0.224258214637
+vega, 9447, 0.203230100126
+indigo, 4601, 0.187733103221
+microsoft, 5693, 0.183493123299
+flexibl, 3541, 0.179773717464
+confirm, 2032, 0.177525492313
+summer, 8538, 0.175432444771
+switch, 8638, 0.16670498871
+gain, 3746, 0.15816773488
+shouldn, 7912, 0.157600668715
+render, 7277, 0.152924175413
+wait, 9611, 0.146058478684
+sell, 7778, 0.144560042934
+absolut, 193, 0.141436894277
+friend, 3692, 0.135741347235
+fast, 3397, 0.133886095928
+releas, 7253, 0.132627112096
+packag, 6375, 0.132137792512
+anim, 515, 0.130947947598
+return, 7346, 0.12957912189
+window, 9774, 0.126204852388
+develop, 2588, 0.112986801808
+isn, 4783, 0.111109678001
+howev, 4406, 0.104583810407
+softwar, 8103, 0.10125077388
+long, 5336, 0.0955884210732
+peopl, 6530, 0.0823094447248
+look, 5341, 0.0757094382613

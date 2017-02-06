@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61054
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Surviving Large Accelerations?
+Organization: U of Toronto Zoology
+Lines: 13
+
+In article <EfpX7WS00Uh7QAoP1S@andrew.cmu.edu> Amruth Laxman <al26+@andrew.cmu.edu> writes:
+>... here's my question finally - Are 45g accelerations in
+>fact humanly tolerable? - with the aid of any mechanical devices of
+>course. If these are possible, what is used to absorb the acceleration?
+
+This sounds a bit high to me.  Still higher accelerations have been endured
+*very briefly*, during violent deceleration.  If we're talking sustained
+acceleration, I think 30-odd gees has been demonstrated using water immersion.
+
+I doubt that any of this generalizes to another order of magnitude.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surviv larg acceler     here question final 45g
+acceler fact human toler aid mechan devic cours
+possibl use absorb acceler  sound bit high still
+higher acceler endur briefli violent deceler we'r
+talk sustain acceler think odd gee demonstr use
+water immers  doubt general anoth order magnitud
+work one man work henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+acceler, 207, 0.641725406009
+immers, 4529, 0.176436728959
+deceler, 2437, 0.172757464935
+45g, 109, 0.172757464935
+endur, 3099, 0.169570341469
+violent, 9528, 0.157982254786
+absorb, 195, 0.157982254786
+briefli, 1309, 0.148924607331
+sustain, 8608, 0.146535818201
+magnitud, 5441, 0.141438237673
+aid, 351, 0.136482307244
+work, 9833, 0.135239267747
+gee, 3806, 0.1343434468
+toler, 8974, 0.128345081202
+surviv, 8599, 0.127820489284
+devic, 2591, 0.127307179792
+water, 9657, 0.124894220561
+odd, 6198, 0.121478693712
+zoolog, 9993, 0.119938290132
+mechan, 5603, 0.118844909434
+spencer, 8221, 0.115216590939
+demonstr, 2520, 0.115216590939
+higher, 4293, 0.10952620344
+henri, 4258, 0.108580813663
+doubt, 2830, 0.106795460445
+use, 9363, 0.105426824747
+toronto, 9003, 0.0996086926886
+sound, 8150, 0.0937166433978
+final, 3482, 0.0937166433978
+human, 4432, 0.0921529426261
+general, 3818, 0.0921529426261
+larg, 5124, 0.0883906594871
+order, 6281, 0.0843728369999
+man, 5471, 0.082436534813
+fact, 3350, 0.0819001533312
+cours, 2190, 0.0816739149412
+talk, 8684, 0.080717597106
+high, 4292, 0.080717597106
+bit, 1122, 0.0805022455268
+possibl, 6765, 0.0782533848484
+anoth, 533, 0.0769252875805
+question, 7032, 0.0722477941949
+think, 8871, 0.0546647997876

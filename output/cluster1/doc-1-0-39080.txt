@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39080
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rhc52134@uxa.cso.uiuc.edu (Richard)
+Subject: Re: Adobe Photo Shop type software for Unix/X/Motif platforms?
+Organization: University of Illinois at Urbana
+Lines: 6
+
+Appsoft Image is available for NeXTStep. It is a image processing program
+similar to Adobe Photoshop. It is reviewed in the April '93 issue of
+Publish! Magazine.
+
+
+Richardt
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ adob photo shop type softwar unix motif platform
+appsoft imag avail nextstep imag process program
+similar adob photoshop review april issu publish
+magazin   richardt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+adob, 277, 0.437895819724
+appsoft, 594, 0.314512780508
+nextstep, 6039, 0.271777724334
+imag, 4512, 0.260785428471
+shop, 7901, 0.240716474059
+photoshop, 6609, 0.233624325126
+motif, 5879, 0.227627998642
+photo, 6603, 0.209171998632
+review, 7358, 0.203547915415
+magazin, 5432, 0.200665180181
+platform, 6676, 0.197338442511
+publish, 6974, 0.179698688204
+unix, 9284, 0.178110748358
+april, 595, 0.16156820578
+similar, 7961, 0.161063015245
+issu, 4793, 0.158631028096
+process, 6890, 0.157241625954
+type, 9177, 0.151933797524
+avail, 811, 0.135117225289
+softwar, 8103, 0.129826486996
+program, 6905, 0.120743758485

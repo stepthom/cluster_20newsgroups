@@ -1,0 +1,45 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104889
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: snichols@adobe.com (Sherri Nichols)
+Subject: Re: Harry Caray
+Organization: Adobe Systems Incorporated
+Lines: 8
+
+In article <9500@blue.cis.pitt.edu> traven@pitt.edu (Neal Traven) writes:
+>BTW, have we had a show of hands about who will be attending this year's
+>SABR National in San Diego?  I'll be there...
+
+As will I, and the Ultimate Lurker.
+
+Sherri Nichols
+snichols@adobe.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ harri caray     btw show hand attend year sabr
+nation san diego i'll  ultim lurker  sherri nichol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+caray, 1511, 0.367199288993
+sabr, 7565, 0.327928191884
+ultim, 9198, 0.307548528715
+harri, 4184, 0.30570424597
+attend, 764, 0.297344336078
+sherri, 7879, 0.295820847809
+nichol, 6050, 0.285001950326
+diego, 2629, 0.264928740884
+btw, 1355, 0.247964847788
+san, 7603, 0.237583278455
+nation, 5962, 0.206911998179
+hand, 4145, 0.19062973364
+ll, 5314, 0.166488928044
+year, 9943, 0.13208485356

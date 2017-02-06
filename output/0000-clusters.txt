@@ -1,0 +1,36 @@
+Cluster 0:
+ Num docs: 1665
+ Top terms: space orbit like use launch know moon think time shuttl
+Cluster 1:
+ Num docs: 781
+ Top terms: graphic imag file thank program format gif use bit help
+Cluster 2:
+ Num docs: 406
+ Top terms: god christian jesus moral say peopl koresh bibl object believ
+Cluster 3:
+ Num docs: 730
+ Top terms: game team player year hit basebal pitch win run pitcher
+
+Evaluation metrics:
+Confusion matrix:
+ 252  721    0    0
+ 240   25    0  729
+ 955   31    0    1
+ 218    4  406    0
+
+Rows:
+ 0: comp.graphics
+ 1: rec.sport.baseball
+ 2: sci.space
+ 3: talk.religion.misc
+Columns:
+ 0: space orbit like use launch know moon think time shuttl
+ 1: graphic imag file thank program format gif use bit help
+ 2: god christian jesus moral say peopl koresh bibl object believ
+ 3: game team player year hit basebal pitch win run pitcher
+
+Homogeneity: 0.554376051193
+Completeness: 0.603270004933
+V-measure: 0.57779049368
+Adjusted Rand-Index: 0.472138182124
+Silhouette Coefficient: 0.00869370671569

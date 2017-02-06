@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83621
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dmcgee@uluhe.soest.hawaii.edu (Don McGee)
+Subject: Federal Hearing
+Originator: dmcgee@uluhe
+Organization: School of Ocean and Earth Science and Technology
+Distribution: usa
+Lines: 10
+
+
+Fact or rumor....?  Madalyn Murray O'Hare an atheist who eliminated the
+use of the bible reading and prayer in public schools 15 years ago is now
+going to appear before the FCC with a petition to stop the reading of the
+Gospel on the airways of America.  And she is also campaigning to remove
+Christmas programs, songs, etc from the public schools.  If it is true
+then mail to Federal Communications Commission 1919 H Street Washington DC
+20054 expressing your opposition to her request.  Reference Petition number
+
+2493.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ feder hear origin dmcgee uluh      fact rumor
+madalyn murray o'har atheist elimin use bibl read
+prayer public school year ago go appear fcc petit
+stop read gospel airway america also campaign
+remov christma program song etc public school true
+mail feder communic commiss street washington
+express opposit request refer petit number
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+petit, 6576, 0.426382836921
+feder, 3425, 0.28357305556
+school, 7685, 0.24820485831
+airway, 368, 0.205605921365
+public, 6973, 0.202588977602
+christma, 1734, 0.18144549793
+har, 4164, 0.178932393496
+commiss, 1943, 0.1766381089
+song, 8133, 0.172573519389
+campaign, 1477, 0.170754340245
+prayer, 6801, 0.165946951215
+atheist, 740, 0.161882361704
+read, 7135, 0.160529940455
+murray, 5929, 0.156250916882
+elimin, 3044, 0.156250916882
+rumor, 7541, 0.15525579353
+gospel, 3958, 0.151613095247
+opposit, 6270, 0.138486271183
+street, 8440, 0.134644194717
+washington, 9651, 0.132914549239
+communic, 1950, 0.130136441174
+america, 468, 0.130136441174
+remov, 7272, 0.12596444769
+express, 3315, 0.12596444769
+request, 7301, 0.125017005434
+bibl, 1071, 0.115705556066
+hear, 4223, 0.113813838667
+stop, 8413, 0.111485771056
+appear, 580, 0.107209816572
+ago, 336, 0.102720113785
+refer, 7213, 0.0972118824539
+true, 9121, 0.094058237066
+origin, 6293, 0.093772147758
+mail, 5447, 0.0906454183382
+fact, 3350, 0.0904774710238
+number, 6156, 0.0857399300847
+program, 6905, 0.0818457459826
+year, 9943, 0.0662668712862
+use, 9363, 0.0582340331073

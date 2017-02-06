@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38627
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mark@ocsmd.ocs.com (Mark Wilson)
+Subject: Re: TIFF: philosophical significance of 42 (SILLY)
+Organization: Online Computer Systems, Inc.
+X-Newsreader: Tin 1.1 PL5
+Lines: 20
+
+Mark A. Cartwright (markc@emx.utexas.edu) wrote:
+: Well,
+: 
+: 42 is 101010 binary, and who would forget that its the
+: answer to the Question of "Life, the Universe, and Everything else."
+: That is to quote Douglas Adams in a round about way.
+: 
+: Of course the Question has not yet been discovered...
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+But it WAS discovered (sort of).  The question was "What is 7 times 8?"
+When Arthur Dent objected that this was, unfortunately, factually
+inaccurate, the effort to discover the question was begun all over.
+This last effort was, I believe, likely to take far longer than
+the lifespan of the universe, in fact several lifespans of same!
+--
+-------------------------------------------------------------------------------
+Mark Wilson, Online Computer Systems.  1-800-922-9204 or 1-301-601-2215
+(Try email address mark@ocsmd.ocs.com....)
+This file .disclaims everything signed with my .signature, I .mean it!
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific silli      well  binari
+forget answer question life univers everyth els
+quot dougla adam round way  cours question yet
+discov  discov sort question time arthur dent
+object unfortun factual inaccur effort discov
+question begun last effort believ like take far
+longer lifespan univers fact sever lifespan   mark
+wilson onlin comput system  file disclaim everyth
+sign signatur mean
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lifespan, 5261, 0.386990974433
+discov, 2698, 0.374314496395
+question, 7032, 0.289762008338
+effort, 3007, 0.223669665017
+everyth, 3242, 0.206231265777
+inaccur, 4562, 0.173218264145
+dent, 2532, 0.170022639605
+factual, 3354, 0.167203898995
+begun, 997, 0.160319196661
+univers, 9282, 0.159057758273
+arthur, 663, 0.15198364801
+wilson, 9768, 0.140912310773
+signatur, 7948, 0.140041973589
+adam, 258, 0.138390861376
+dougla, 2837, 0.137606147307
+silli, 7956, 0.134701783582
+onlin, 6245, 0.134027608439
+round, 7494, 0.132733691438
+philosoph, 6595, 0.130915224452
+binari, 1096, 0.129775407371
+tiff, 8926, 0.118807357454
+disclaim, 2691, 0.117439463161
+unfortun, 9264, 0.113750385367
+forget, 3604, 0.10910391451
+sign, 7946, 0.108870433293
+longer, 5337, 0.106865683034
+signific, 7951, 0.103115632889
+quot, 7045, 0.102753025422
+mark, 5512, 0.0974488499216
+sort, 8144, 0.0920510626908
+sever, 7823, 0.0883291343291
+answer, 535, 0.0883291343291
+object, 6173, 0.0881329722888
+life, 5260, 0.0881329722888
+comput, 1993, 0.0829692556045
+file, 3477, 0.0828123262886
+els, 3053, 0.0827342458443
+fact, 3350, 0.0821186071386
+cours, 2190, 0.0818917652987
+far, 3386, 0.0799415037537
+mean, 5595, 0.0739579882821
+believ, 1009, 0.0739040274139
+way, 9666, 0.0626022326717
+time, 8936, 0.0568620617396
+like, 5272, 0.0503907888477

@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83515
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: livesey@solntze.wpd.sgi.com (Jon Livesey)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: sgi
+Lines: 31
+NNTP-Posting-Host: solntze.wpd.sgi.com
+
+In article <1qm069$fm8@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+|> In article <1qkndq$k@fido.asd.sgi.com> livesey@solntze.wpd.sgi.com (Jon Livesey) writes:
+|> #In article <1qjbn0$na4@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+|> #|> In article <kmr4.1571.734847050@po.CWRU.edu> kmr4@po.CWRU.edu (Keith M. Ryan) writes:
+|> #|> #	You have only pushed back the undefined meaning. You must now define 
+|> #|> #what "objective values" are.
+|> #|> 
+|> #|> Really?  You don't know what objective value is?  If I offered the people
+|> #|> of the U.S., collectively, $1 for all of the land in America, would that 
+|> #|> sound like a good deal?  
+|> #
+|> #You mean that if you can find a ridiculous price, the rest of
+|> #us are supposed to conclude that an objectively correct price
+|> #exists?
+|> 
+|> I said nothing about the price.  I asked if the deal was good.  It isn't.
+
+So it was a complete non-sequitur, is that it?     How does coming
+up with a derisory deal tell us anything about the existence of
+"objective" values.
+
+You're asking us to accept that the deal you offered would be turned
+down, and we believe that, not because we appeal to objective values
+but becasue we know, or think we know, something about people.
+
+All the people we know exhibit *subjective* values that would lead
+them to reject a deal of $1 for all of the land in America.
+
+Great.   Now, so what?
+
+jon. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral         push back
+undefin mean must defin object valu  realli don't
+know object valu offer peopl collect land america
+sound like good deal  mean find ridicul price rest
+suppos conclud object correct price exist  said
+noth price ask deal good isn't  complet non
+sequitur come derisori deal tell anyth exist
+object valu  you'r ask accept deal offer turn
+believ appeal object valu becasu know think know
+someth peopl  peopl know exhibit subject valu lead
+reject deal land america  great  jon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+valu, 9414, 0.397625549719
+deal, 2418, 0.392967697119
+object, 6173, 0.358010035111
+price, 6857, 0.271306378338
+america, 468, 0.191918491789
+offer, 6203, 0.170636568908
+know, 5052, 0.167517958441
+land, 5104, 0.165524541854
+peopl, 6530, 0.158254184518
+becasu, 981, 0.151608488657
+undefin, 9235, 0.147269949829
+exist, 3283, 0.139425740436
+ask, 689, 0.134685978041
+mean, 5595, 0.120171605673
+appeal, 579, 0.119367866622
+jon, 4887, 0.118463386556
+exhibit, 3282, 0.116771640433
+ridicul, 7396, 0.113774517254
+subject, 8487, 0.104986654025
+reject, 7244, 0.104986654025
+push, 6996, 0.104122386621
+conclud, 2008, 0.104122386621
+good, 3948, 0.0999582931692
+collect, 1898, 0.0938552691676
+moral, 5855, 0.0871713826655
+defin, 2482, 0.0853182844539
+rest, 7324, 0.0830461126863
+accept, 208, 0.0798862871753
+suppos, 8577, 0.0790537458837
+lead, 5172, 0.0789376690303
+turn, 9158, 0.0773814134578
+non, 6097, 0.0770635401891
+sound, 8150, 0.0763414428415
+complet, 1975, 0.0751627295236
+correct, 2156, 0.0748788877645
+isn, 4783, 0.0712092095175
+noth, 6119, 0.0707480934736
+christian, 1732, 0.0690057808334
+anyth, 555, 0.0666541215824
+said, 7583, 0.064722872415
+great, 4016, 0.0646672420045
+tell, 8767, 0.0635343303926
+believ, 1009, 0.0600419633247
+realli, 7150, 0.0576936301904
+someth, 8126, 0.0572334237305
+come, 1923, 0.0563806946
+say, 7653, 0.0493626780822
+year, 9943, 0.0488634769712
+think, 8871, 0.0445298672373
+don, 2811, 0.0441008208063
+like, 5272, 0.0409390665403

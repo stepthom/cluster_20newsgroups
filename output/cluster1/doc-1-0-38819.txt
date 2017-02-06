@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38819
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: s127@ii.uib.no (Torgeir Veimo)
+Subject: C++ classes for graphics
+Organization: Institutt for Informatikk UIB Norway
+Lines: 16
+
+I'm planning on writing several classes to build a raytracing/radiosity library
+on top of, and i'm wondering if anythink like this is freely available on the
+net before i go to it. What i need is classes like rays, vectors, colors,
+shaders, surfaces, media, primitives, worlds (containing primitives) and
+views/images.
+
+Please post or mail.
+-- 
+Torgeir Veimo
+
+Studying at the University of Bergen
+
+"...I'm gona wave my freak flag high!" (Jimi Hendrix)
+
+"...and it would be okay on any other day!" (The Police)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ class graphic    i'm plan write sever class build
+raytrac radios librari top i'm wonder anythink
+like freeli avail net need class like ray vector
+color shader surfac media primit world contain
+primit view imag  pleas post mail  torgeir veimo
+studi univers bergen  i'm gona wave freak flag
+high jimi hendrix  okay day polic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+class, 1789, 0.379129694769
+primit, 6866, 0.303438886475
+veimo, 9452, 0.205750142262
+torgeir, 9000, 0.205750142262
+shader, 7836, 0.205750142262
+gona, 3940, 0.205750142262
+jimi, 4869, 0.199862246478
+bergen, 1038, 0.195051485336
+hendrix, 4254, 0.190984044747
+freak, 3665, 0.172694569929
+radios, 7062, 0.170874114734
+polic, 6720, 0.163283296843
+freeli, 3675, 0.163283296843
+flag, 3515, 0.163283296843
+vector, 9444, 0.152584639917
+raytrac, 7121, 0.151719443238
+wave, 9661, 0.147773878775
+okay, 6215, 0.131383506408
+media, 5605, 0.128407269315
+librari, 5250, 0.117128673997
+contain, 2079, 0.116005690282
+surfac, 8587, 0.115354147682
+studi, 8469, 0.113490823047
+like, 5272, 0.111118036191
+ray, 7118, 0.110294291039
+plan, 6660, 0.107763329791
+build, 1378, 0.106506609678
+net, 6010, 0.106201564262
+color, 1907, 0.106050353908
+view, 9510, 0.103060047961
+sever, 7823, 0.0973884331795
+wonder, 9821, 0.0958079527523
+avail, 811, 0.0916529958814
+write, 9865, 0.0909631230009
+mail, 5447, 0.0907090009601
+high, 4292, 0.0892336153657
+imag, 4512, 0.0884482557659
+world, 9841, 0.0883709903092
+univers, 9282, 0.0876855976282
+graphic, 3997, 0.0868713745932
+day, 2402, 0.0782442719936
+pleas, 6688, 0.0776209484893
+post, 6766, 0.0770622221643
+need, 5993, 0.0709441405482

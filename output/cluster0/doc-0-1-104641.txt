@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104641
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: chuq@apple.com (Chuq Von Rospach)
+Subject: Re: Braves & Giants
+Organization: Go Sharks, Go Giants, Inc.
+Lines: 15
+NNTP-Posting-Host: apple.com
+
+fls@keynes.econ.duke.edu (Forrest Smith) writes:
+
+>	The situation with the Giants' bleachers is a case in point for the
+>need for a commissioner.
+
+Okay, I'm curious. Why? Are you expectin the Commissioner to fly in and
+stand on the pitchers mound to yell at the fans to sit down, or what?
+
+
+-- 
+ Chuq "IMHO" Von Rospach, ESD Support & Training (DAL/AUX) =+= chuq@apple.com
+   Member, SFWA =+= Editor, OtherRealms =+=  GEnie: MAC.BIGOT =+= ALink:CHUQ 
+  Minor League fans: minors-request@medraut.apple.com (San Jose Giants: A/1/9)
+  San Francisco Giants fans: giants-request@medraut.apple.com (The Stick?NOT!)
+   San Jose Sharks fans: sharks-request@medraut.apple.com (New seat: 127/TBD)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave giant       situat giant bleacher case
+point need commission  okay i'm curious expectin
+commission fli stand pitcher mound yell fan sit
+member sfwa editor otherrealm geni mac bigot alink
+chuq
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+commission, 1944, 0.463544122127
+giant, 3865, 0.291344851397
+sfwa, 7830, 0.249691719534
+alink, 416, 0.249691719534
+chuq, 1745, 0.2425463596
+geni, 3825, 0.231772061064
+bigot, 1086, 0.227496204302
+bleacher, 1149, 0.220350844368
+yell, 9946, 0.20530068907
+mound, 5885, 0.201529116112
+editor, 2997, 0.167558553405
+sit, 7993, 0.162446979085
+okay, 6215, 0.159442774973
+curious, 2297, 0.155406779705
+mac, 5410, 0.142705363953
+member, 5625, 0.14186632836
+stand, 8311, 0.138714143374
+brave, 1277, 0.13700918162
+fli, 3542, 0.136772860549
+situat, 7995, 0.135165716684
+fan, 3381, 0.127443379703
+pitcher, 6644, 0.127267919759
+case, 1540, 0.111333319049
+point, 6710, 0.0903851948529
+need, 5993, 0.0860955149267

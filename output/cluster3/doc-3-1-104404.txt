@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104404
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Defensive Averages 1988-1992 -- Shortstop
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 13
+
+In article <1993Apr17.200602.8229@leland.Stanford.EDU> addison@leland.Stanford.EDU (Brett Rogers) writes:
+>In article <steph.735027990@pegasus.cs.uiuc.edu> steph@pegasus.cs.uiuc.edu (Dale Stephenson) writes:
+>>>Smith, Ozzie           .742  .717  .697  .672  .664   0.701
+>>  The Wizard's 1988 is the second highest year ever.  Still very good,
+>>but I don't like the way his numbers have declined every year.  In a few
+>>years may be a defensive liability.
+>
+>That's rich... Ozzie Smith a defensive liability...
+
+Why not?  Brooks Robinson is a defensive liability too, and Ted
+Williams is a weak hitter.  Even great players decline as they age.
+
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ defens averag shortstop      smith ozzi wizard
+second highest year ever still good don't like way
+number declin everi year year defens liabil  that
+rich ozzi smith defens liabil  brook robinson
+defens liabil ted william weak hitter even great
+player declin age  valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+liabil, 5242, 0.502309996055
+defens, 2476, 0.426769046779
+declin, 2448, 0.307902909083
+ozzi, 6366, 0.305371726746
+smith, 8064, 0.241480518805
+year, 9943, 0.186028427855
+wizard, 9811, 0.165289779846
+brook, 1339, 0.165289779846
+robinson, 7441, 0.150334216374
+shortstop, 7909, 0.145281197201
+weak, 9668, 0.134974158297
+valentin, 9409, 0.132677280728
+rich, 7382, 0.132134981573
+highest, 4294, 0.131604345674
+ted, 8745, 0.130576129468
+william, 9764, 0.123986724235
+age, 328, 0.110400267414
+hitter, 4322, 0.105028241273
+averag, 816, 0.105028241273
+second, 7753, 0.0858684663009
+player, 6683, 0.0851391436962
+everi, 3235, 0.0845084737495
+great, 4016, 0.082065011262
+number, 6156, 0.0802314645235
+way, 9666, 0.0645431705726
+good, 3948, 0.0634253000467
+don, 2811, 0.0559654972742
+like, 5272, 0.0519531195787

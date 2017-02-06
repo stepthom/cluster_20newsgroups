@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102715
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gotribe@cbnewse.cb.att.com (richard.g.barry)
+Subject: Re: Reds Without Sleeves (was Re: New Uniforms)
+Article-I.D.: cbnewse.1993Apr6.220115.16282
+Organization: AT&T
+Lines: 21
+
+In article <1993Apr6.204514.2180@adobe.com>, snichols@adobe.com (Sherri Nichols) writes:
+> In article <12805@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+> >
+> >
+> >Am I the only person who thinks the Reds sleeveless uniforms are
+> >ugly?  Yet another reason why they won't win the NL West! ;)
+> 
+
+> If uniforms really were a deciding factor in pennant races, the '79 Pirates
+> would have never won anything; those have to be the ugliest uniforms I've
+> ever seen, particular the all-yellow set.
+> 
+> Sherri Nichols
+> snichols@adobe.com
+> 
+
+My vote goes for the ('75?) Indians with their all-red uniforms.
+Boog Powell once said he felt like a big red blood clot.
+
+Rich Barry
+barry@ihlpe.att.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ red without sleev new uniform articl cbnews
+1993apr6        person think red sleeveless
+uniform ugli yet anoth reason won't win west
+uniform realli decid factor pennant race pirat
+never anyth ugliest uniform i'v ever seen
+particular yellow set  sherri nichol    vote goe
+indian red uniform boog powel said felt like big
+red blood clot  rich barri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uniform, 9273, 0.64843514881
+red, 7194, 0.363070912118
+sleev, 8026, 0.171787155419
+powel, 6782, 0.171787155419
+ugliest, 9194, 0.156066843512
+ugli, 9193, 0.146871050547
+yellow, 9947, 0.145407341669
+1993apr6, 49, 0.134396210828
+pennant, 6524, 0.13115073864
+felt, 3439, 0.129687029762
+pirat, 6639, 0.128989140359
+sherri, 7879, 0.127654660411
+vote, 9585, 0.127015755739
+blood, 1169, 0.124066200726
+nichol, 6050, 0.122986014863
+rich, 7382, 0.12145647251
+barri, 918, 0.118243893173
+indian, 4598, 0.116995158568
+race, 7049, 0.111934348505
+west, 9708, 0.109191189743
+factor, 3352, 0.108905907792
+decid, 2442, 0.0982464059487
+goe, 3931, 0.096871462804
+won, 9820, 0.0967053110277
+particular, 6442, 0.0949537337111
+seen, 7767, 0.0841795916099
+win, 9770, 0.0824376743744
+set, 7815, 0.0812346854891
+anyth, 555, 0.0777505659295
+big, 1082, 0.0772536530558
+person, 6562, 0.0755628841303
+said, 7583, 0.0754978062778
+reason, 7156, 0.0731538051199
+articl, 665, 0.0730952770461
+anoth, 533, 0.0730952770461
+realli, 7150, 0.0672983499194
+new, 6023, 0.0660649795387
+think, 8871, 0.0519431101374
+like, 5272, 0.0477545201492

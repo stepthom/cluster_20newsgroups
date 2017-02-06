@@ -1,0 +1,176 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61543
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: isaackuo@skippy.berkeley.edu (Isaac Kuo)
+Subject: Re: Electrical Spacecraft via Magnetic field of earth?
+Organization: U.C. Berkeley Math. Department.
+Lines: 41
+NNTP-Posting-Host: skippy.berkeley.edu
+
+In article <1993May1.044441.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Okay, the earth has a magnetic field (unless someone missed something?)
+>
+>Okay if you put a object in the earth magnetic field, it produces electricty..
+
+No, if you put a conductor in a changing magnetic field, it produces a voltage.
+The two ways you can do that with a permanent magnet is to move the magnet or
+move the conductor.  The slow shifting of the Earth's magnetic field isn't
+really significant, especially when you consider how weak the Earth's magnetic
+field is to begin with.
+
+>Now the question. Can you use electricity to power a space/low earth orbit
+>vehicle? and i fyou can, can you use the magnetic field of the earth to power
+>it??
+
+Well, it would require generating an incredibly large magnetic field to repel
+the Earth's magnetic field (as a magnet can repel another magnet).  Of course,
+this force only works in one direction, and the magnetic field generated has
+to be unimaginably powerful.  Magnetic repulsion drops off as 1/r^3, and the
+earth's magnetic field on the surface is already very weak.  It would require
+some sort of unknown superconductor, and special nonmagnetic construction.
+And seriously hardenned electronics (optical computers, perhaps).  And the
+physiological danger would be significant (due to the iron content in our
+blood, among other things).  In other words, forget it.
+
+>Can the idea of a "dragless" satellite be used in part to create the electrical
+>field?
+>
+>After all the dragless satellite is (I might be wrong), a suspended between to
+>pilons, the the pilons compensate for drag.. I think I know what I want to say,
+>just not sure how to say it..
+>
+>A dragless satellite sounds interestingly enough liek a generator.
+
+I missed out on the "dragless satellite" thread, but it sounds totally bogus,
+from this little bit.
+-- 
+*Isaac Kuo (isaackuo@math.berkeley.edu)	*       ___
+*					* _____/_o_\_____
+*	Twinkle, twinkle, little .sig,	*(==(/_______\)==)
+*	Keep it less than 5 lines big.	* \==\/     \/==/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ electr spacecraft via magnet field earth
+okay earth magnet field unless someon miss someth
+okay put object earth magnet field produc
+electricti  put conductor chang magnet field
+produc voltag two way perman magnet move magnet
+move conductor slow shift earth magnet field isn't
+realli signific especi consid weak earth magnet
+field begin  question use electr power space low
+earth orbit vehicl fyou use magnet field earth
+power   well requir generat incred larg magnet
+field repel earth magnet field magnet repel anoth
+magnet cours forc work one direct magnet field
+generat unimagin power magnet repuls drop earth
+magnet field surfac alreadi weak requir sort
+unknown superconductor special nonmagnet construct
+serious harden electron optic comput perhap
+physiolog danger signific due iron content blood
+among thing word forget  idea dragless satellit
+use part creat electr field  dragless satellit
+might wrong suspend pilon pilon compens drag think
+know want say sure say  dragless satellit sound
+interest enough liek generat  miss dragless
+satellit thread sound total bogus littl bit
+twinkl twinkl littl sig keep less line big
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+magnet, 5437, 0.743291122525
+field, 3466, 0.346863067088
+earth, 2956, 0.240798557417
+dragless, 2855, 0.22236956514
+satellit, 7632, 0.131451012677
+electr, 3030, 0.128412495623
+pilon, 6630, 0.124200261333
+conductor, 2022, 0.116353386735
+twinkl, 9173, 0.11118478257
+generat, 3819, 0.0998151058396
+power, 6783, 0.085523686744
+weak, 9668, 0.0840314434376
+okay, 6215, 0.0764872616068
+produc, 6895, 0.0680555576905
+signific, 7951, 0.0661875309679
+miss, 5770, 0.0649489646445
+sound, 8150, 0.0603149891284
+voltag, 9575, 0.0598905653652
+superconductor, 8559, 0.0598905653652
+fyou, 3741, 0.0598905653652
+electricti, 3031, 0.0598905653652
+requir, 7302, 0.0571454219817
+bogus, 1200, 0.0528529206838
+physiolog, 6616, 0.0521208831801
+littl, 5308, 0.0516274765409
+use, 9363, 0.0508886486799
+suspend, 8604, 0.0508378108434
+compens, 1968, 0.0508378108434
+liek, 5259, 0.0497387133014
+shift, 7883, 0.0449448459176
+perman, 6550, 0.043682903114
+optic, 6273, 0.0434536150289
+incred, 4591, 0.0434536150289
+unknown, 9287, 0.0425993375904
+drag, 2854, 0.0425993375904
+iron, 4767, 0.0420157217188
+blood, 1169, 0.0420157217188
+sig, 7940, 0.0414733378126
+danger, 2356, 0.0404915033186
+content, 2084, 0.0392202563583
+say, 7653, 0.0389999098924
+construct, 2074, 0.0389642133005
+slow, 8044, 0.0380177150918
+electron, 3034, 0.0379072012362
+thread, 8890, 0.0371751637325
+drop, 2878, 0.0371751637325
+vehicl, 9449, 0.0367861904683
+forget, 3604, 0.0350156349628
+special, 8198, 0.0342290282744
+spacecraft, 8166, 0.0342290282744
+begin, 994, 0.0340942777927
+surfac, 8587, 0.0335777416527
+forc, 3594, 0.0318016783804
+especi, 3190, 0.0318016783804
+low, 5368, 0.0316544422976
+unless, 9289, 0.0312750772666
+alreadi, 443, 0.0307822762922
+total, 9013, 0.0306531878679
+perhap, 6540, 0.0297296047651
+creat, 2217, 0.0296918622791
+sort, 8144, 0.0295427201085
+direct, 2667, 0.0294327337834
+larg, 5124, 0.0284436225665
+object, 6173, 0.0282852544723
+wrong, 9869, 0.0281917776944
+isn, 4783, 0.0281300859535
+orbit, 6280, 0.0277993640806
+chang, 1650, 0.027596085436
+word, 9829, 0.0275105864405
+consid, 2059, 0.0269373464615
+comput, 1993, 0.0266280195392
+cours, 2190, 0.0262822115323
+idea, 4482, 0.0262580966602
+big, 1082, 0.0261623872541
+bit, 1122, 0.0259051748319
+line, 5285, 0.0254585036085
+someon, 8124, 0.0250982448345
+anoth, 533, 0.024754129661
+sure, 8585, 0.0247343598162
+question, 7032, 0.0232489383071
+realli, 7150, 0.0227909674496
+someth, 8126, 0.0226091700759
+space, 8164, 0.0217864772627
+work, 9833, 0.021759622059
+thing, 8869, 0.0209826296731
+want, 9634, 0.0209222948738
+way, 9666, 0.0200914599346
+think, 8871, 0.017590828509
+know, 5052, 0.0165438382255

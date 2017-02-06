@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38438
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: N020BA@tamvm1.tamu.edu
+Subject: Help! Need 3-D graphics code/package for DOS!!!
+Organization: Texas A&M University
+Lines: 7
+NNTP-Posting-Host: tamvm1.tamu.edu
+
+    Help!! I need code/package/whatever to take 3-D data and turn it into
+a wireframe surface with hidden lines removed. I'm using a DOS machine, and
+the code can be in ANSI C or C++, ANSI Fortran or Basic. The data I'm using
+forms a rectangular grid.
+   Please post your replies to the net so that others may benefit. IMHO, this
+is a general interest question.
+   Thank you!!!!!!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help need graphic code packag dos     help need
+code packag whatev take data turn wirefram surfac
+hidden line remov i'm use dos machin code ansi
+ansi fortran basic data i'm use form rectangular
+grid pleas post repli net other benefit imho
+general interest question thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ansi, 534, 0.397494829385
+code, 1871, 0.358021510073
+dos, 2825, 0.283335507371
+packag, 6375, 0.261571763431
+data, 2385, 0.222397320254
+rectangular, 7190, 0.201150839066
+grid, 4043, 0.196522191287
+wirefram, 9795, 0.194450557858
+fortran, 3618, 0.184347381715
+help, 4249, 0.176428258923
+hidden, 4286, 0.169879337894
+need, 5993, 0.161465389042
+imho, 4524, 0.159524890201
+benefit, 1028, 0.149962751669
+remov, 7272, 0.143445004609
+machin, 5416, 0.136598607419
+use, 9363, 0.132630774805
+surfac, 8587, 0.131270195038
+whatev, 9718, 0.131027061928
+repli, 7290, 0.130309256232
+basic, 937, 0.123561725958
+net, 6010, 0.120854779253
+form, 3610, 0.120341488548
+turn, 9158, 0.119505034043
+general, 3818, 0.115931748968
+line, 5285, 0.0995285141156
+graphic, 3997, 0.0988574968059
+question, 7032, 0.0908903492545
+pleas, 6688, 0.0883307384428
+post, 6766, 0.0876949215682
+thank, 8832, 0.0840884544977

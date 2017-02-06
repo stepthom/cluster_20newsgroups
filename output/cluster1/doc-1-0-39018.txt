@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39018
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: psgwe01@sdc.boeing.com (Gerald Edgar)
+Subject: Re: Viewing JPEG files
+Keywords: Windows Viewers
+Distribution: na
+Organization: Boeing Computer Services (ESP), Seattle, WA
+Lines: 9
+Nntp-Posting-Host: crystal
+
+There are JPEG viewers that are windows based and therefore need no hardware
+specific drivers beyond those provided in windows. I got mine from the Library
+of Congress in connection with their online exhibit of books from the Vatican
+library. See a previous message in this newgroup about that.
+
+Gerald Edgar
+gwe3409@atc.boeing.com
+"The opinions expressed in this not may not represent those of his employer"
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ view jpeg file       jpeg viewer window base
+therefor need hardwar specif driver beyond provid
+window got mine librari congress connect onlin
+exhibit book vatican librari see previous messag
+newgroup  gerald edgar  opinion express repres
+employ
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jpeg, 4905, 0.352431162358
+librari, 5250, 0.305347196879
+window, 9774, 0.286159168699
+vatican, 9435, 0.268188937231
+edgar, 2994, 0.240298201417
+gerald, 3853, 0.233396432015
+exhibit, 3282, 0.206564041525
+onlin, 6245, 0.192618673618
+congress, 2040, 0.192618673618
+employ, 3077, 0.186507594422
+driver, 2876, 0.172829881633
+viewer, 9512, 0.170242684207
+repres, 7294, 0.164305926262
+express, 3315, 0.164305926262
+connect, 2046, 0.164305926262
+previous, 6855, 0.161104219944
+therefor, 8855, 0.153582730909
+hardwar, 4173, 0.153582730909
+messag, 5650, 0.14218619622
+specif, 8203, 0.136508524315
+view, 9510, 0.134335580184
+opinion, 6266, 0.12883383454
+provid, 6949, 0.127227051492
+book, 1218, 0.123191940084
+file, 3477, 0.119014288434
+got, 3960, 0.112856191447
+base, 923, 0.107635049954
+need, 5993, 0.0924734896764

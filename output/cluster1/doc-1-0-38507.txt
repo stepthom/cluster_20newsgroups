@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38507
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: nerone@ccwf.cc.utexas.edu (Michael Nerone)
+Subject: Re: Newsgroup Split
+Organization: The University of Texas at Austin
+Lines: 25
+Distribution: world
+	<1993Apr19.193758.12091@unocal.com>
+	<1quvdoINN3e7@srvr1.engin.umich.edu>
+NNTP-Posting-Host: sylvester.cc.utexas.edu
+In-reply-to: tdawson@engin.umich.edu's message of 19 Apr 1993 19:43:52 GMT
+
+In article <1quvdoINN3e7@srvr1.engin.umich.edu>, tdawson@engin.umich.edu (Chris Herringshaw) writes:
+
+  CH> Concerning the proposed newsgroup split, I personally am not in
+  CH> favor of doing this.  I learn an awful lot about all aspects of
+  CH> graphics by reading this group, from code to hardware to
+  CH> algorithms.  I just think making 5 different groups out of this
+  CH> is a wate, and will only result in a few posts a week per group.
+  CH> I kind of like the convenience of having one big forum for
+  CH> discussing all aspects of graphics.  Anyone else feel this way?
+  CH> Just curious.
+
+I must agree.  There is a dizzying number of c.s.amiga.* newsgroups
+already.  In addition, there are very few issues which fall cleanly
+into one of these categories.
+
+Also, it is readily observable that the current spectrum of amiga
+groups is already plagued with mega-crossposting; thus the group-split
+would not, in all likelihood, bring about a more structured
+environment.
+
+--
+   /~~~~~~~~~~~~~~~~~~~\/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+  /    Michael Nerone   \"I shall do so with my customary lack of tact; and\
+ /   Internet Address:   \since you have asked for this, you will be obliged\
+/nerone@ccwf.cc.utexas.edu\to pardon it."-Sagredo, fictional char of Galileo.\
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ newsgroup split           concern propos
+newsgroup split person favor learn aw lot aspect
+graphic read group code hardwar algorithm think
+make differ group wate result post week per group
+kind like conveni one big forum discuss aspect
+graphic anyon els feel way curious  must agre
+dizzi number amiga newsgroup alreadi addit issu
+fall clean one categori  also readili observ
+current spectrum amiga group alreadi plagu mega
+crosspost thus group split likelihood bring
+structur environ    michael neron shall customari
+lack tact internet address sinc ask oblig
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+group, 4064, 0.36036168949
+split, 8247, 0.321614410222
+newsgroup, 6032, 0.274717488343
+amiga, 472, 0.215169606522
+aspect, 693, 0.205621588157
+alreadi, 443, 0.16599860238
+plagu, 6658, 0.156863802053
+customari, 2312, 0.156863802053
+tact, 8669, 0.153088030007
+dizzi, 2772, 0.147130303742
+likelihood, 5273, 0.142509132235
+readili, 7140, 0.140535314552
+mega, 5617, 0.138733360188
+graphic, 3997, 0.136363663958
+wate, 9656, 0.135540990409
+crosspost, 2243, 0.135540990409
+oblig, 6175, 0.126180644734
+spectrum, 8213, 0.124378690369
+conveni, 2112, 0.117783701179
+forum, 3620, 0.11486204651
+categori, 1560, 0.110460024254
+favor, 3410, 0.109597007258
+aw, 829, 0.10917862109
+clean, 1799, 0.107204803407
+shall, 7846, 0.102210479264
+curious, 2297, 0.100507376691
+internet, 4717, 0.0994451227784
+environ, 3139, 0.0963268475725
+lack, 5092, 0.0958862051839
+fall, 3369, 0.0948239512709
+structur, 8460, 0.0944138505241
+michael, 5680, 0.0944138505241
+addit, 263, 0.094011713404
+hardwar, 4173, 0.0924769809532
+algorithm, 407, 0.0900377636635
+concern, 2004, 0.0895504609225
+learn, 5182, 0.0880042646403
+bring, 1316, 0.0875620540103
+propos, 6933, 0.0869867556009
+observ, 6179, 0.0861527068726
+issu, 4793, 0.0844531900343
+code, 1871, 0.0823089235629
+feel, 3429, 0.0814228242968
+address, 264, 0.0804692814521
+result, 7332, 0.0803659924053
+agre, 337, 0.0801609470573
+discuss, 2708, 0.0796570435852
+week, 9691, 0.076266496113
+current, 2299, 0.0750358720777
+kind, 5021, 0.0738742922623
+ask, 689, 0.0717300257909
+els, 3053, 0.0715946696819
+big, 1082, 0.0705425368463
+person, 6562, 0.0689986470171
+number, 6156, 0.0673410096894
+lot, 5356, 0.0646168933317
+differ, 2633, 0.0637676413157
+sinc, 7977, 0.0631303783904
+read, 7135, 0.0630409207525
+post, 6766, 0.0604830245652
+anyon, 554, 0.0556499300047
+way, 9666, 0.0541732885063
+make, 5459, 0.0519419465978
+think, 8871, 0.0474307507262
+like, 5272, 0.0436060285042

@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39061
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: justin@sydney.DIALix.oz.au (Justin Sullivan)
+Subject: Re: LCD VGA display
+Organization: DIALix Services, Sydney, New South Wales, Australia
+X-Newsreader: NN version 6.4.19 #1
+Lines: 30
+
+In <trevorC6Cz03.x2@netcom.com> trevor@netcom.com (Sandy Santra) writes:
+
+>Mike Mattone (mike@nx03.mik.uky.edu) wrote:
+
+>: I've only had the computer for about 21 months.
+
+>"Only"?!?  That's a long time!
+
+>: Is that a reasonable life
+>: cycle for a LCD display?
+
+>I think 21 months with nothing wrong until now is quite reasonable.  If
+>you had bought a Compaq or Toshiba, you might have reasonably expected the
+>machine to last longer before something went wrong; but that's a moot
+>point, perhaps.
+
+Maybe. I've had an Epson portable with backlit LCD since 1988 which is
+still used daily and the screen on that is fine. The only problem it
+has (and ever has had) is the "arm" of the screen is sorta lose and if
+you bend it fairly harshly the screen goes off until you wiggle it
+round a bit. But other than that, it's been perfect! So what's that,
+about um, 60 months???!
+
+*-----------------------------------------+-------------------------*
+| Justin Sullivan (System Administrator)  |  DIALix Services Sydney |
++-----------------------------------------+  Modem    (02) 948 6918 |
+|       justin@sydney.dialix.oz.au        |  Ph Perth (09) 244 2433 |
+*-----------------------------------------+-------------------------*
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lcd vga display         i'v comput month  that
+long time  reason life cycl lcd display  think
+month noth wrong quit reason bought compaq toshiba
+might reason expect machin last longer someth went
+wrong that moot point perhap  mayb i'v epson
+portabl backlit lcd sinc still use daili screen
+fine problem ever arm screen sorta lose bend fair
+harsh screen goe wiggl round bit it perfect what
+month   justin sullivan system administr dialix
+servic sydney modem
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lcd, 5167, 0.468588839473
+screen, 7719, 0.306787144226
+month, 5847, 0.271830497112
+reason, 7156, 0.212744714415
+display, 2734, 0.189460395232
+toshiba, 9009, 0.166529543518
+sorta, 8145, 0.166529543518
+justin, 4940, 0.166529543518
+wrong, 9869, 0.161396724312
+epson, 3154, 0.159132033945
+sydney, 8643, 0.156196279824
+harsh, 4186, 0.156196279824
+moot, 5854, 0.153606761169
+bend, 1024, 0.14237600561
+modem, 5809, 0.140957094104
+portabl, 6749, 0.132042741916
+bought, 1247, 0.130282963154
+daili, 2338, 0.127882162375
+cycl, 2325, 0.124385045903
+round, 7494, 0.121939694961
+administr, 273, 0.119739310317
+arm, 643, 0.114214037541
+vga, 9492, 0.108196698499
+machin, 5416, 0.100017013633
+went, 9704, 0.0981752910644
+longer, 5337, 0.0981752910644
+fine, 3485, 0.0975941427528
+lose, 5350, 0.0966584484494
+perfect, 6538, 0.0961155690729
+goe, 3931, 0.0939066744621
+fair, 3363, 0.0931128879668
+servic, 7813, 0.0904714554793
+expect, 3290, 0.0852089299147
+perhap, 6540, 0.0851003593352
+life, 5260, 0.0809659374385
+quit, 7043, 0.0805217708639
+noth, 6119, 0.0800003512233
+mayb, 5564, 0.0769575072772
+comput, 1993, 0.0762221378008
+bit, 1122, 0.0741530102487
+long, 5336, 0.0692734339385
+problem, 6887, 0.0691682399691
+sinc, 7977, 0.0670203893942
+someth, 8126, 0.0647182669575
+point, 6710, 0.0620574362133
+time, 8936, 0.0522379991718
+think, 8871, 0.0503533712925
+use, 9363, 0.0485558903654

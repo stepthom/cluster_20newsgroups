@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61472
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: stgprao@st.unocal.COM (Richard Ottolini)
+Subject: Re: moon image in weather sat image
+Organization: Unocal Corporation
+Lines: 14
+
+In article <C6B2pA.My4@usenet.ucs.indiana.edu> turner@bigbang.astro.indiana.edu (George Wm Turner) writes:
+>
+>
+>an image of the moon has been caught in a weather satellite images of the earth.
+>it appears in both the 0430-1500UT ir and visual images of the earth.
+>the GIF images can be down loaded from vmd.cso.uiuc.edu and are named
+>CI043015.GIF and CV043015.GIF for the IR and visual images respectively.
+>
+>pretty cool pictures;  in the ir it's saturated but in the visual image
+>details on the moon are viewable.
+
+Near midsummer, you can see the relfection of the Sun in the ocean.
+Also during solar eclise you can see the shadow of the sun move
+across the clouds.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moon imag weather sat imag       imag moon caught
+weather satellit imag earth appear 1500ut visual
+imag earth gif imag load vmd cso uiuc edu name
+ci043015 gif cv043015 gif visual imag respect
+pretti cool pictur it satur visual imag detail
+moon viewabl  near midsumm see relfect sun ocean
+also solar eclis see shadow sun move across cloud
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.548660111562
+visual, 9547, 0.313427819772
+gif, 3869, 0.259088381365
+moon, 5851, 0.249199006147
+weather, 9679, 0.229166850473
+sun, 8539, 0.16916512899
+viewabl, 9511, 0.159538047175
+eclis, 2979, 0.159538047175
+ci043015, 1749, 0.159538047175
+1500ut, 23, 0.159538047175
+midsumm, 5703, 0.15497259033
+cv043015, 2319, 0.151242340477
+vmd, 9561, 0.148088459164
+earth, 2956, 0.142543436901
+cso, 2277, 0.140790986059
+satur, 7638, 0.135423084006
+shadow, 7837, 0.123749890161
+ocean, 6194, 0.122043924943
+uiuc, 9197, 0.120469322809
+sat, 7626, 0.116993234363
+cool, 2124, 0.112945773037
+cloud, 1835, 0.110477756958
+caught, 1568, 0.110477756958
+load, 5317, 0.0951654931934
+respect, 7321, 0.0926824828079
+solar, 8107, 0.0908212247743
+satellit, 7632, 0.0875406574217
+pictur, 6622, 0.0863627937884
+appear, 580, 0.083188483388
+near, 5982, 0.0828242055725
+pretti, 6851, 0.075015658321
+edu, 3001, 0.0725420406731

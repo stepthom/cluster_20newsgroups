@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62375
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dwilmot@zen.holonet.net (Dick Wilmot)
+Subject: Re: looking for PLANET MAPS
+Keywords: topographical maps
+Nntp-Posting-Host: zen.holonet.net
+Organization: HoloNet National Internet Access System: 510-704-1058/modem
+Lines: 24
+
+jbh55289@uxa.cso.uiuc.edu (Josh Hopkins) writes:
+
+>tel002@dunix.drake.edu (Tim "Spock" Larson) writes:
+
+>> Where can I get topographical maps of Mars, Venus, other terrestrial
+>>bodies?
+
+>I still use the old National Geographic maps from the Apollo and Viking eras.
+
+>The other people to ask would be the US Geological Survey.  They have maps of
+>just about everything.  Unfortunately, I do not have their address.
+
+There is an office on the middle left US coast on Middlefield Road in
+Menlo Park, CA (415) 329-4390
+
+>-- 
+>Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+>		    "Find a way or make one."
+>	             -attributed to Hannibal
+-- 
+          Dick Wilmot
+          Editor, Independent RAID Report
+          (510) 938-7425
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look planet map          get topograph map mar
+venus terrestri bodi  still use old nation
+geograph map apollo vike era  peopl ask geolog
+survey map everyth unfortun address  offic middl
+left coast middlefield road menlo park    find way
+make one attribut hannib  dick wilmot editor
+independ raid report
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+map, 5498, 0.504934354093
+topograph, 8993, 0.213262812635
+menlo, 5630, 0.208129494712
+raid, 7070, 0.196713503409
+terrestri, 8802, 0.193747046601
+geograph, 3841, 0.180513953947
+dick, 2621, 0.178807049601
+vike, 9517, 0.170296241309
+hannib, 4155, 0.170296241309
+geolog, 3842, 0.164757804182
+coast, 1859, 0.163769797585
+survey, 8597, 0.160998187914
+venus, 9463, 0.155428344985
+apollo, 570, 0.149582196611
+editor, 2997, 0.147328570254
+attribut, 773, 0.146792262631
+middl, 5699, 0.141045896875
+independ, 4595, 0.141045896875
+era, 3164, 0.140616036634
+mar, 5500, 0.138559992132
+unfortun, 9264, 0.133826046846
+road, 7431, 0.131264709242
+park, 6430, 0.129774663212
+planet, 6664, 0.128917075121
+offic, 6206, 0.124738265518
+bodi, 1194, 0.121966655847
+everyth, 3242, 0.121314380369
+report, 7291, 0.112056654456
+left, 5193, 0.112056654456
+nation, 5962, 0.110845487122
+address, 264, 0.109401309088
+old, 6216, 0.106463021666
+ask, 689, 0.0975199303489
+peopl, 6530, 0.0763897240879
+way, 9666, 0.0736508214469
+make, 5459, 0.0706172200352
+look, 5341, 0.0702643921238
+use, 9363, 0.0621821541724

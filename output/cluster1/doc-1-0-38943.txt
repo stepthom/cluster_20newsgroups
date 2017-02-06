@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38943
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mharring@cch.coventry.ac.uk (MARTIN)
+Subject: Ftp Site(s) with GIFS
+Nntp-Posting-Host: cc_sysh
+Organization: Fire Walk With Me....
+Lines: 11
+
+I have been looking around some Ftp sites and cannot find one with any good
+GIF files. Could someone please tell me of some Ftp sites which do posses
+goods GIFS and a wide range.
+
+Please EMAIL me at the address above.
+
+Thanks
+
+Martin
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ftp site gif     look around ftp site cannot find
+one good gif file could someon pleas tell ftp site
+poss good gif wide rang  pleas email address
+thank  martin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gif, 3869, 0.487104729346
+site, 7994, 0.475593804392
+ftp, 3709, 0.466469512012
+pleas, 6688, 0.226311944923
+martin, 5523, 0.211372280956
+good, 3948, 0.197757969158
+wide, 9747, 0.18719237156
+rang, 7094, 0.173885104406
+email, 3060, 0.16183398787
+address, 264, 0.149464029584
+file, 3477, 0.13310578323
+tell, 8767, 0.125696625582
+someon, 8124, 0.125696625582
+thank, 8832, 0.107721400378
+look, 5341, 0.0959951875409

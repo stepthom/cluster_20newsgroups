@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83461
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: jmeritt@mental.MITRE.ORG (Jim Meritt - System Admin)
+Subject: An invisible God!
+Organization: UTexas Mail-to-News Gateway
+Lines: 14
+NNTP-Posting-Host: cs.utexas.edu
+
+ God CAN be seen:
+        "And I will take away my hand, and thou shalt see my backparts."
+        (Ex. 33:23)
+        "And the Lord spake to Moses face to face, as a man speaketh to his
+        friend." (Ex. 33:11)
+        "For I have seen God face to face, and my life is preserved."
+        (Gen. 32:30)
+God CANNOT be seen:
+        "No man hath seen God at any time." (John 1:18)
+        "And he said, Thou canst not see my face; for there shall no man
+        see me and live." (Ex. 33:20)
+        "Whom no man hath seen nor can see." (1 Tim. 6:16)
+
+Pick what you want!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ invis god     god seen take away hand thou shalt
+see backpart  lord spake mose face face man
+speaketh friend seen god face face life preserv
+gen god cannot seen man hath seen god time john
+said thou canst see face shall man see live man
+hath seen see tim  pick want
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+face, 3345, 0.457938429077
+seen, 7767, 0.39517843333
+god, 3926, 0.375246256156
+hath, 4204, 0.308250239383
+man, 5471, 0.29418215415
+thou, 8886, 0.246273199643
+speaketh, 8194, 0.172167266969
+spake, 8179, 0.166041437361
+gen, 3815, 0.146530173251
+mose, 5873, 0.142647863931
+invis, 4747, 0.142647863931
+shalt, 7848, 0.136522034323
+preserv, 6838, 0.129740960764
+tim, 8935, 0.113128460894
+lord, 5347, 0.106672489041
+shall, 7846, 0.105094452544
+pick, 6619, 0.0958607170729
+friend, 3692, 0.095277290216
+away, 833, 0.0843998980164
+john, 4878, 0.0805175886971
+life, 5260, 0.0784184333553
+live, 5310, 0.0780735877914
+hand, 4145, 0.0772351429381
+said, 7583, 0.0708844132744
+want, 9634, 0.0580052616394
+time, 8936, 0.0505943880386

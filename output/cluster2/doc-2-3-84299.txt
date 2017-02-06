@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84299
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: king@ctron.com (John E. King)
+Subject: Re: Albert Sabin
+Organization: Cabletron Systems Inc.
+Lines: 9
+NNTP-Posting-Host: saturn.ctron.com
+To: rfox@charlie.usd.edu
+
+
+rfox@charlie.usd.edu writes:
+
+[Discussion on Josephus inserts]
+
+Thanks.  Am I correct, then, in assuming that that Josephus
+did in fact write about Jesus, but Christian copists embellished it?
+
+Jack
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ albert sabin         discuss josephus insert
+thank correct assum josephus fact write jesus
+christian copist embellish  jack
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+josephus, 4894, 0.651649325803
+sabin, 7563, 0.305639394263
+albert, 383, 0.291317718245
+insert, 4670, 0.286250670584
+jack, 4808, 0.232640738999
+jesus, 4859, 0.202415773104
+assum, 710, 0.193190431213
+correct, 2156, 0.191726119826
+discuss, 2708, 0.191486201299
+christian, 1732, 0.176688129321
+write, 9865, 0.171621081661
+fact, 3350, 0.170824536701
+thank, 8832, 0.13941475088

@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61501
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bobc@sed.stel.com (Bob Combs)
+Subject: Re: Gamma Ray Bursters.  WHere  are they.
+Organization: SED, Stanford Telecom, Reston, VA 22090
+Lines: 28
+
+Picture our universe floating like a log
+in a river.  As the log floats down the
+river, it occasionally strikes rocks, the
+bank, the bottom, other logs.  When this collission
+occurs, kinetic energy is translated into heat, the
+log degrades, gets scraped up, and other energy 
+translaions occur.  The distribution of damage to
+the log depends on the shape of the log.
+
+However, to a very small virus in a mite on the head of a
+termite in the center of the log, the shock waves from the
+collissions would appear uniformly random in direction.
+
+This is my theory for GRB.  They are evidence of our universe
+interacting with other universes!  Why not!  Makes
+just as much sense as the GRB coming from the Oort cloud!
+
+The log theory of universes can't be ruled out!
+
+Of course, I'm a layman in the physics world.  You 
+physicists out there, Tell me about this !!!!
+
+
+Bob Combs
+Astronautical Engineer,  
+Stanford Telecom
+.
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster    pictur univers float like
+log river log float river occasion strike rock
+bank bottom log colliss occur kinet energi
+translat heat log degrad get scrape energi
+translaion occur distribut damag log depend shape
+log  howev small virus mite head termit center log
+shock wave colliss appear uniform random direct
+theori grb evid univers interact univers make much
+sens grb come oort cloud  log theori univers can't
+rule  cours i'm layman physic world physicist tell
+bob comb astronaut engin stanford telecom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+log, 5328, 0.73246819214
+grb, 4014, 0.215884671702
+univers, 9282, 0.198236208497
+river, 7422, 0.187714804238
+float, 3546, 0.172478726896
+energi, 3102, 0.145149094612
+occur, 6192, 0.142853625629
+theori, 8848, 0.137786153003
+comb, 1919, 0.110241213953
+telecom, 8756, 0.107942335851
+virus, 9537, 0.0976053014884
+shock, 7895, 0.0976053014884
+physicist, 6614, 0.0976053014884
+degrad, 2490, 0.0938574021189
+oort, 6255, 0.0908647622687
+occasion, 6187, 0.0883734532624
+stanford, 8318, 0.0867449436687
+uniform, 9273, 0.0852768883351
+wave, 9661, 0.0835203677561
+random, 7093, 0.0827140531092
+heat, 4226, 0.0823266757915
+damag, 2344, 0.0808705749181
+rock, 7445, 0.0805277279059
+cloud, 1835, 0.0805277279059
+burster, 1418, 0.0789226115534
+bank, 897, 0.0789226115534
+astronaut, 727, 0.0786213247767
+shape, 7853, 0.0771999461267
+interact, 4704, 0.0766672756383
+translat, 9057, 0.0751747121839
+strike, 8448, 0.0742566877396
+gamma, 3762, 0.0729776309843
+distribut, 2753, 0.0698555516142
+depend, 2537, 0.0665941984001
+bob, 1189, 0.0655652947223
+physic, 6613, 0.0648376778211
+pictur, 6622, 0.0629502241077
+head, 4215, 0.0629502241077
+evid, 3245, 0.0628462990306
+ray, 7118, 0.0623372670823
+rule, 7537, 0.0622375129431
+sens, 7788, 0.0621384216269
+appear, 580, 0.0606364551531
+center, 1606, 0.0601965061926
+engin, 3109, 0.0581726485764
+small, 8054, 0.0580971386014
+direct, 2667, 0.0571487925169
+howev, 4406, 0.0514114777811
+cours, 2190, 0.0510315033865
+world, 9841, 0.0499464294419
+tell, 8767, 0.0487326252851
+come, 1923, 0.0432455846513
+make, 5459, 0.0374042519702
+like, 5272, 0.0314014199395

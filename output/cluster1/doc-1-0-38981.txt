@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38981
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ricky@vnet.ibm.com (Rick Turner)
+Subject: Re: raw2gif ?
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: danebury.hursley.ibm.com
+Organization: IBM UK Labs
+Lines: 5
+
+You can use PBM's 'rawtopgm' to convert three raw (r, g, b) files to pgm format. Then you can use pgm3toppm to convert the pgm files to a composite ppm file,
+and feed this to cjpeg for compression. Slow, and circuitous, but it will
+work.
+
+Rick
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ raw2gif      use pbm rawtopgm convert three raw
+file pgm format use pgm3toppm convert pgm file
+composit ppm file feed cjpeg compress slow circuit
+work  rick
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pgm, 6581, 0.483567154885
+file, 3477, 0.359249885202
+rawtopgm, 7116, 0.279802273748
+convert, 2115, 0.278175650225
+circuit, 1766, 0.255815147057
+cjpeg, 1781, 0.238137459983
+pbm, 6482, 0.22649346518
+ppm, 6787, 0.209313716319
+rick, 7387, 0.197885336598
+composit, 1982, 0.196820449233
+raw, 7114, 0.191938267923
+feed, 3427, 0.189308691365
+compress, 1986, 0.179142762159
+slow, 8044, 0.171295020014
+use, 9363, 0.152858074594
+format, 3612, 0.138499605137
+work, 9833, 0.0980415284581

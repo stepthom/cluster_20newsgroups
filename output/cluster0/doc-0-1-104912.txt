@@ -1,0 +1,195 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104912
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: craige@sad.hp.com (Craig Eid)
+Subject: Candlestick Park experience (long)
+Organization: HP Sonoma County (SRSD/MWTD/MID)
+X-Newsreader: TIN [version 1.1.4 PL6]
+Lines: 36
+
+
+I've been a Giants season ticket holder for years and never really complained
+about the old ballyard place. Sure, it's been cold, the food lines were long,
+and the hired hands were surly, but this was all part of the Giants mystique.
+Or so I thought.
+
+I went to Tuesday's game (3 - 1 Giants over the Marlins) and the 'Stick was 
+a much different place. Nothing short of a dome will eliminate the wind, but 
+everything is a lot better. The lines are a lot shorter, the bathrooms are
+CLEAN and have running water, and the hired hands were very polite. 
+
+The new foghorn (lights up and blows after each homerun) and the wooden fence
+are very nice, as are the new bleachers. The bleachers start right at the top
+of the fence and give a great view, and they've got beer stands at the
+bottome of the bleachers. The only complaint is that the electronic 
+old-fashioned scoreboard looks electronic - could be better.
+
+These things should have been done a long time ago, but it took a real 
+businessman (ex - Safeway President Peter Magowan) to figure it out. Just 
+like he used to tell his checkers, "If the customers don't come back, I don't
+need as many checkers". This isn't a knock on Bob Lurie - he was a competent
+businessman but he didn't deal much with the general public.
+
+I'll give an example of how the level of service has changed. The onion 
+dispenser jammed as I was using it. An attendant came over, apoligized for
+the problem and proceeded to fix the machine. After he was done, he cleaned
+the machine and said he was glad to be able to help. In the old days, there
+was no attendant and the folks at the concession stands would say "Go to
+the stand 100 feet away - they might be able to help".
+
+All in all, it was a fun day
+
+
+--
+Craig Eid 
+e-mail address    craige@hpsad.sad.hp.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ candlestick park experi long      i'v giant
+season ticket holder year never realli complain
+old ballyard place sure it cold food line long
+hire hand sur part giant mystiqu thought  went
+tuesday game giant marlin stick much differ place
+noth short dome elimin wind everyth lot better
+line lot shorter bathroom clean run water hire
+hand polit  new foghorn light blow homerun wooden
+fenc nice new bleacher bleacher start right top
+fenc give great view they'v got beer stand bottom
+bleacher complaint electron old fashion scoreboard
+look electron could better  thing done long time
+ago took real businessman safeway presid peter
+magowan figur like use tell checker custom don't
+come back don't need mani checker isn't knock bob
+luri compet businessman didn't deal much general
+public  i'll give exampl level servic chang onion
+dispens jam use attend came apolig problem proceed
+fix machin done clean machin said glad abl help
+old day attend folk concess stand say stand feet
+away might abl help  fun day    craig eid
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bleacher, 1149, 0.295510961949
+checker, 1684, 0.216851473834
+businessman, 1425, 0.216851473834
+fenc, 3443, 0.203395702478
+giant, 3865, 0.195360261818
+stand, 8311, 0.186028558511
+hire, 4308, 0.1757663246
+old, 6216, 0.162381778181
+attend, 764, 0.161971743614
+clean, 1799, 0.148201938985
+electron, 3034, 0.141297691243
+long, 5336, 0.13530974081
+machin, 5416, 0.130240174545
+foghorn, 3572, 0.111619934173
+bathroom, 947, 0.111619934173
+wooden, 9825, 0.108425736917
+onion, 6244, 0.108425736917
+jam, 4819, 0.108425736917
+dispens, 2731, 0.108425736917
+luri, 5398, 0.105815887728
+holder, 4342, 0.105815887728
+concess, 2006, 0.105815887728
+abl, 180, 0.104739567575
+hand, 4145, 0.103841326691
+magowan, 5442, 0.103609291679
+candlestick, 1491, 0.103609291679
+ballyard, 885, 0.103609291679
+dome, 2806, 0.101697851239
+scoreboard, 7706, 0.0985036539829
+place, 6657, 0.098056142282
+line, 5285, 0.0948956310431
+shorter, 7908, 0.0909079547408
+lot, 5356, 0.0893276101313
+better, 1060, 0.0856465609135
+complaint, 1974, 0.0853873737929
+beer, 990, 0.0853873737929
+day, 2402, 0.0848954017072
+elimin, 3044, 0.0848259473317
+help, 4249, 0.084107911753
+new, 6023, 0.0833955725435
+homerun, 4356, 0.0827775246037
+fashion, 3396, 0.0823081533784
+blow, 1172, 0.0814132032374
+marlin, 5517, 0.0809858718069
+tuesday, 9147, 0.0805709285553
+craig, 2208, 0.0797754717069
+glad, 3889, 0.0786594881152
+food, 3584, 0.0783060247284
+proceed, 6889, 0.0776242511235
+complain, 1973, 0.0776242511235
+cold, 1888, 0.0769734781583
+compet, 1969, 0.0766588602224
+ticket, 8919, 0.0757544833178
+knock, 5050, 0.0757544833178
+custom, 2311, 0.0757544833178
+wind, 9773, 0.0749038643978
+water, 9657, 0.0749038643978
+feet, 3430, 0.074631198252
+fun, 3721, 0.0738430428777
+stick, 8393, 0.0706488456215
+peter, 6575, 0.0706488456215
+fix, 3511, 0.0704457990987
+polit, 6723, 0.0694716450876
+presid, 6839, 0.0685595825238
+folk, 3576, 0.0683839417945
+park, 6430, 0.0659792174643
+don, 2811, 0.0649374023707
+went, 9704, 0.0639209599438
+use, 9363, 0.0632285188958
+took, 8987, 0.0631739449008
+bob, 1189, 0.062933358736
+everyth, 3242, 0.0616778937105
+figur, 3476, 0.0608293763159
+experi, 3295, 0.0599313058391
+servic, 7813, 0.0589050688727
+level, 5229, 0.0587261347948
+nice, 6047, 0.0579475086829
+deal, 2418, 0.0578635521968
+came, 1472, 0.0576971021837
+light, 5267, 0.0569711389702
+away, 833, 0.0567371085829
+short, 7904, 0.0565831873166
+view, 9510, 0.0559103174501
+ago, 336, 0.0557649909243
+general, 3818, 0.0552676616045
+season, 7747, 0.0551286843978
+public, 6973, 0.0549910435311
+isn, 4783, 0.052426927735
+noth, 6119, 0.0520874365698
+exampl, 3258, 0.0519206633454
+chang, 1650, 0.051431694141
+thought, 8887, 0.0499609444789
+real, 7144, 0.0490732987927
+didn, 2625, 0.0478164506531
+said, 7583, 0.047651439721
+great, 4016, 0.0476104824975
+got, 3960, 0.0469706200054
+tell, 8767, 0.0467763898905
+sure, 8585, 0.0460982059138
+ll, 5314, 0.0453455786706
+start, 8334, 0.0453107076671
+problem, 6887, 0.0450347561847
+differ, 2633, 0.0440767940761
+right, 7399, 0.0435436608752
+game, 3761, 0.043390562733
+run, 7543, 0.043119045934
+realli, 7150, 0.0424762443124
+come, 1923, 0.0415096112072
+mani, 5479, 0.0406041442939
+thing, 8869, 0.0391059882071
+need, 5993, 0.038487362443
+say, 7653, 0.0363426805909
+year, 9943, 0.0359751497511
+look, 5341, 0.0357233799973
+time, 8936, 0.0340116440339
+like, 5272, 0.0301408974708

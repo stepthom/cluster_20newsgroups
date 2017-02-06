@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61063
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Eco-Freaks forcing Space Mining.
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 16
+
+In article <1993Apr21.212202.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Here is a way to get the commericial companies into space and mineral
+>exploration.
+>Basically get the eci-freaks to make it so hard to get the minerals on earth..
+
+If raw materials where to cost enough that getting them from space would
+be cost effective then the entire world economy would colapse long
+before the space mines could be built.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------55 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ eco freak forc space mine     way get commerici
+compani space miner explor basic get eci freak
+make hard get miner earth  raw materi cost enough
+get space cost effect entir world economi colaps
+long space mine could built  allen    ladi astor
+sir husband poison coffe churchil madam wife drink
+day first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+freak, 3665, 0.34878177925
+miner, 5736, 0.338435082303
+space, 8164, 0.302324850561
+eci, 2973, 0.20777115554
+cost, 2169, 0.202475664063
+commerici, 1941, 0.196967409366
+eco, 2981, 0.18081672898
+madam, 5425, 0.169217541151
+astor, 719, 0.169217541151
+economi, 2985, 0.167694537119
+churchil, 1747, 0.167694537119
+ladi, 5093, 0.163587143451
+dcx, 2412, 0.162347602906
+coffe, 1878, 0.16116317162
+poison, 6713, 0.160029157219
+husband, 4452, 0.158941442251
+sir, 7989, 0.156890790945
+raw, 7114, 0.147784772817
+drink, 2872, 0.146418046749
+wife, 9755, 0.142121005899
+allen, 426, 0.133481537288
+explor, 3307, 0.126021913751
+materi, 5543, 0.117368149163
+built, 1381, 0.116704746018
+flight, 3544, 0.115845145131
+entir, 3129, 0.115845145131
+compani, 1958, 0.110846520671
+forc, 3594, 0.11032574872
+basic, 937, 0.109646850426
+effect, 3005, 0.106789259316
+hard, 4167, 0.100873653471
+earth, 2956, 0.0928192839387
+world, 9841, 0.0892390283226
+long, 5336, 0.0839559152587
+day, 2402, 0.0790128387165
+way, 9666, 0.069700892313
+make, 5459, 0.0668299844105

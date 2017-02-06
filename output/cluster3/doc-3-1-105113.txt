@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105113
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cmk@athena.mit.edu (Charles M Kozierok)
+Subject: Re: Bosox go down in smoke II (Seattle 7-0) ...
+Organization: Massachusetts Institute of Technology
+Lines: 11
+NNTP-Posting-Host: electric-monk.mit.edu
+
+In article <franjion.735593116@spot.Colorado.EDU> franjion@spot.Colorado.EDU (John Franjione) writes:
+} dietz@parody.Data-IO.COM (Kent Dietz) writes:
+} 
+} >Oh, yea, and Chris Bosio pitched a NO-HITTER.  One over the minimum, two
+} 
+} Have there ever been any other no-hitters in Mariner history?
+
+Randy Johnson, June 2, 1990 against the Tigers.
+
+-*-
+charles
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosox smoke seattl        yea chris bosio pitch
+hitter one minimum two  ever hitter marin histori
+randi johnson tiger   charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hitter, 4322, 0.37731986779
+yea, 9941, 0.309656683755
+bosio, 1237, 0.29007435518
+bosox, 1241, 0.278935928514
+smoke, 8067, 0.266185663082
+randi, 7091, 0.259353599939
+marin, 5511, 0.241383110129
+seattl, 7749, 0.240340222454
+johnson, 4880, 0.240340222454
+charl, 1668, 0.240340222454
+tiger, 8928, 0.236398009279
+minimum, 5740, 0.236398009279
+chris, 1728, 0.235464907841
+histori, 4314, 0.191648977403
+pitch, 6643, 0.161795582157

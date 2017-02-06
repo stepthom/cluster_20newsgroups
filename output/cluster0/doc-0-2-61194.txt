@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61194
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dgempey@ucscb.UCSC.EDU (David Gordon Empey)
+Subject: Re: PLANETS STILL: IMAGES ORBIT BY ETHER TWIST
+Organization: University of California, Santa Cruz
+Lines: 22
+Distribution: world
+NNTP-Posting-Host: ucscb.ucsc.edu
+
+
+In <1993Apr23.165459.3323@coe.montana.edu> uphrrmk@gemini.oscs.montana.edu (Jack Coyote) writes:
+
+>In sci.astro, dmcaloon@tuba.calpoly.edu (David McAloon) writes:
+
+>[ a nearly perfect parody  -- needed more random CAPS]
+
+
+>Thanks for the chuckle.  (I loved the bit about relevance to people starving
+>in Somalia!)
+
+>To those who've taken this seriously, READ THE NAME! (aloud)
+
+Well, I thought it must have been a joke, but I don't get the 
+joke in the name. Read it aloud? David MACaloon. David MacALLoon.
+David macalOON. I don't geddit.
+
+-Dave Empey (speaking for himself)
+>-- 
+>Thank you, thank you, I'll be here all week.  Enjoy the buffet! 
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet still imag orbit ether twist
+near perfect parodi need random cap   thank chuckl
+love bit relev peopl starv somalia  who'v taken
+serious read name aloud  well thought must joke
+don't get joke name read aloud david macaloon
+david macalloon david macaloon don't geddit  dave
+empey speak  thank thank i'll week enjoy buffet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aloud, 440, 0.458289845875
+david, 2397, 0.343189355427
+joke, 4883, 0.324117596315
+thank, 8832, 0.238100716999
+somalia, 8120, 0.220991789196
+chuckl, 1741, 0.214667727352
+starv, 8338, 0.195023397006
+ether, 3207, 0.178365065641
+cap, 1497, 0.172677902016
+read, 7135, 0.17254269004
+twist, 9174, 0.170211931899
+random, 7093, 0.157188428181
+relev, 7254, 0.152396673451
+enjoy, 3114, 0.135738342086
+planet, 6664, 0.129766344124
+don, 2811, 0.12856693423
+taken, 8678, 0.128383592914
+speak, 8192, 0.124836372069
+perfect, 6538, 0.123899401512
+dave, 2395, 0.122549585551
+near, 5982, 0.114727926675
+love, 5366, 0.112485113444
+week, 9691, 0.104370512377
+orbit, 6280, 0.102577612504
+thought, 8887, 0.0989156515106
+bit, 1122, 0.0955881932425
+imag, 4512, 0.095000363441
+ll, 5314, 0.0897778755808
+peopl, 6530, 0.0768929578505
+need, 5993, 0.0761995708985

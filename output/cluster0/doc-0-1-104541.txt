@@ -1,0 +1,396 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104541
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: schmke@cco.caltech.edu (Kevin Todd Schmidt)
+Subject: AL OPI through first week+
+Organization: California Institute of Technology, Pasadena
+Lines: 186
+NNTP-Posting-Host: sandman.caltech.edu
+
+Here is the OPI (Offensive Production Index) for all AL players with at
+least 10 at bats.
+
+It is early in the season so there are some very high numbers.  Last years
+leader was Frank Thomas at 0.682.
+
+Teams are denoted by an * as the first character of the name and each
+player has his team preceeding his name.
+
+The equations used are found at the end of the post.
+
+Comments and suggestions are welcome.
+
+Kevin
+
+League OPI: 0.448
+League BA:  0.268
+League SLG: 0.405
+League OBA: 0.341
+
+Rank Player                 OPI     BA    SLG    OBA
+-----------------------------------------------------
+1    Tor,carter            2.142  0.583  1.417  0.615
+2    Cle,baerga            1.432  0.520  1.040  0.538
+3    Det,phillips          1.334  0.565  0.609  0.655
+4    Oak,mcgwire           1.147  0.364  0.636  0.632
+5    Tor,white             1.065  0.500  0.650  0.545
+6    Bal,anderson          0.951  0.423  0.692  0.500
+7    NYY,owen              0.934  0.500  0.577  0.567
+8    Oak,rhenderson        0.911  0.391  0.565  0.533
+9    Mil,thon              0.804  0.476  0.619  0.476
+10   Oak,browne            0.800  0.476  0.476  0.522
+11   Tex,palmer            0.781  0.333  0.875  0.333
+11   Det,gibson            0.781  0.312  0.562  0.500
+13   Cle,howard            0.755  0.455  0.727  0.455
+14   NYY,tartabull         0.742  0.296  0.667  0.424
+15   Tex,rodriguez         0.736  0.429  0.500  0.529
+15   Tex,gonzalez          0.736  0.261  0.913  0.292
+17   Bos,zupcic            0.728  0.400  0.500  0.455
+18   Sea,felder            0.723  0.357  0.429  0.471
+19   Oak,blankenship       0.722  0.333  0.333  0.524
+20   Min,puckett           0.717  0.280  0.720  0.379
+21   NYY,oneill            0.710  0.435  0.609  0.458
+22   Cle,belle             0.703  0.348  0.696  0.375
+23   Sea,buhner            0.699  0.294  0.471  0.478
+24   Mil,hamilton          0.682  0.458  0.458  0.500
+25   Det,whitaker          0.680  0.312  0.500  0.421
+26   Det,fielder           0.666  0.273  0.591  0.407
+27   Tor,sprague           0.649  0.300  0.750  0.300
+28   Whi,cora              0.646  0.350  0.500  0.458
+29   Whi,raines            0.641  0.250  0.750  0.308
+30   NYY,kelly             0.625  0.348  0.565  0.375
+31   Bos,quintana          0.617  0.455  0.455  0.455
+32   Sea,tmartinez         0.612  0.211  0.632  0.348
+32   Cal,gonzales          0.612  0.250  0.250  0.478
+34   Whi,burks             0.609  0.348  0.565  0.375
+35   Cal,snow              0.602  0.368  0.526  0.400
+36   Whi,karkovice         0.598  0.167  0.417  0.412
+37   *Cleveland            0.595  0.340  0.549  0.377
+38   Cle,sorrento          0.594  0.273  0.727  0.273
+39   Sea,amaral            0.587  0.368  0.579  0.429
+39   Bos,cooper            0.587  0.375  0.458  0.423
+41   Min,winfield          0.578  0.292  0.667  0.292
+42   Cal,curtis            0.571  0.333  0.381  0.417
+43   Bos,mvaughn           0.566  0.316  0.526  0.350
+44   Oak,steinbach         0.556  0.333  0.542  0.385
+45   *Oakland              0.555  0.298  0.439  0.406
+46   NYY,maas              0.547  0.333  0.389  0.429
+47   Kan,joyner            0.546  0.300  0.400  0.417
+48   Min,knoblauch         0.535  0.304  0.348  0.448
+49   Bos,greenwell         0.534  0.261  0.478  0.370
+50   Oak,brosius           0.532  0.273  0.545  0.333
+51   Tor,olerud            0.530  0.333  0.400  0.412
+52   Bal,mercedes          0.529  0.286  0.429  0.412
+53   *NYYankees            0.527  0.321  0.468  0.377
+54   Bal,hoiles            0.525  0.263  0.526  0.333
+55   Mil,kmak              0.523  0.286  0.286  0.412
+56   Oak,dhenderson        0.517  0.231  0.462  0.412
+57   Cle,lofton            0.515  0.346  0.385  0.370
+58   Min,larkin            0.514  0.357  0.500  0.400
+59   Bos,dawson            0.504  0.333  0.458  0.360
+60   Cle,camartinez        0.503  0.333  0.389  0.400
+61   Det,gladden           0.498  0.312  0.500  0.312
+62   Cal,polonia           0.494  0.292  0.500  0.320
+63   *California           0.487  0.295  0.404  0.364
+64   *Detroit              0.484  0.260  0.410  0.357
+65   Det,tettleton         0.475  0.211  0.421  0.348
+66   Cal,disarcina         0.473  0.304  0.478  0.304
+67   Cal,easley            0.472  0.304  0.435  0.333
+68   Bal,baines            0.470  0.300  0.400  0.364
+69   Tex,franco            0.469  0.300  0.350  0.391
+70   Whi,ljohnson          0.464  0.280  0.400  0.333
+71   Sea,vizquel           0.463  0.222  0.222  0.417
+72   NYY,bwilliams         0.461  0.294  0.471  0.314
+73   Mil,gvaughn           0.460  0.222  0.389  0.391
+74   Min,hrbek             0.458  0.240  0.360  0.367
+75   Bal,cripken           0.451  0.333  0.407  0.379
+75   *Seattle              0.451  0.237  0.367  0.361
+77   Cal,salmon            0.448  0.267  0.267  0.450
+78   Kan,mcreynolds        0.447  0.182  0.500  0.280
+79   *Toronto              0.443  0.261  0.430  0.318
+79   *Texas                0.443  0.237  0.489  0.289
+81   Min,pagliarulo        0.439  0.286  0.429  0.333
+82   *WhiteSox             0.432  0.243  0.378  0.336
+83   Kan,hiatt             0.431  0.278  0.500  0.316
+84   Whi,guillen           0.426  0.263  0.263  0.364
+85   Whi,thomas            0.419  0.259  0.333  0.355
+86   Kan,mcrae             0.414  0.296  0.333  0.345
+87   *Boston               0.411  0.270  0.365  0.336
+88   Cle,hill              0.410  0.300  0.500  0.300
+89   NYY,mattingly         0.400  0.324  0.353  0.343
+90   *Baltimore            0.394  0.251  0.361  0.315
+91   Bal,gomez             0.382  0.316  0.316  0.350
+91   *Minnesota            0.382  0.237  0.379  0.298
+93   Whi,fisk              0.381  0.273  0.545  0.273
+94   Cle,jefferson         0.379  0.263  0.316  0.333
+95   Oak,neel              0.370  0.188  0.500  0.188
+96   Cal,cdavis            0.369  0.211  0.421  0.250
+97   Bos,fletcher          0.364  0.217  0.391  0.280
+98   *Milwaukee            0.361  0.257  0.293  0.333
+99   Det,livingstone       0.360  0.250  0.438  0.294
+100  Tor,ralomar           0.354  0.263  0.316  0.333
+101  *KansasCity           0.343  0.236  0.327  0.291
+102  Oak,bordick           0.339  0.200  0.250  0.304
+103  Tex,canseco           0.337  0.190  0.381  0.261
+104  Sea,valle             0.336  0.250  0.312  0.294
+105  Bal,devereaux         0.329  0.207  0.379  0.233
+106  Kan,lind              0.323  0.188  0.438  0.188
+107  Mil,surhoff           0.312  0.227  0.273  0.292
+107  Kan,brett             0.312  0.259  0.296  0.286
+109  Whi,bell              0.310  0.207  0.310  0.258
+110  Cle,salomar           0.306  0.200  0.200  0.304
+111  Mil,jaha              0.304  0.267  0.267  0.353
+111  Det,fryman            0.304  0.185  0.296  0.214
+113  NYY,boggs             0.296  0.200  0.233  0.294
+114  Tex,bripken           0.290  0.250  0.333  0.308
+115  Min,mack              0.289  0.233  0.333  0.258
+116  Min,harper            0.288  0.280  0.280  0.280
+117  Cle,fermin            0.284  0.200  0.200  0.304
+118  Bos,rivera            0.276  0.118  0.176  0.286
+119  Mil,spiers            0.275  0.231  0.231  0.286
+120  Mil,yount             0.268  0.208  0.208  0.269
+121  Tor,schofield         0.265  0.133  0.267  0.235
+121  Tex,hulse             0.265  0.154  0.308  0.214
+123  Sea,griffey           0.261  0.105  0.263  0.261
+124  Sea,obrien            0.259  0.100  0.100  0.308
+124  Kan,macfarlane        0.259  0.273  0.273  0.333
+126  Oak,sierra            0.256  0.200  0.240  0.231
+127  Kan,jose              0.254  0.167  0.167  0.286
+128  Bos,hatcher           0.252  0.188  0.188  0.278
+129  Sea,blowers           0.251  0.200  0.200  0.273
+130  Whi,ventura           0.247  0.167  0.167  0.310
+130  Tex,palmeiro          0.247  0.130  0.261  0.167
+132  Bal,reynolds          0.227  0.118  0.118  0.250
+133  Kan,mayne             0.222  0.231  0.231  0.231
+133  Cal,myers             0.222  0.231  0.231  0.231
+135  NYY,nokes             0.219  0.150  0.300  0.150
+136  Bos,calderon          0.209  0.167  0.167  0.286
+137  Bos,pena              0.207  0.267  0.267  0.267
+138  Tor,molitor           0.194  0.150  0.200  0.190
+139  Det,deer              0.182  0.125  0.167  0.192
+140  Det,cuyler            0.179  0.077  0.154  0.143
+141  Tor,borders           0.159  0.111  0.167  0.158
+142  Whi,grebeck           0.141  0.100  0.100  0.182
+143  Bal,gdavis            0.137  0.111  0.148  0.143
+144  Tex,dascenzo          0.128  0.091  0.182  0.091
+145  Min,leius             0.115  0.083  0.083  0.154
+145  Mil,reimer            0.115  0.083  0.083  0.154
+147  Tor,djackson          0.114  0.133  0.133  0.133
+148  Tex,gill              0.070  0.059  0.059  0.158
+149  Kan,gagne             0.042  0.095  0.095  0.095
+
+      0.74*1B + 1.28*2B + 1.64*3B + 2.25*HR + 0.53*BB + 0.34*(SB-2*CS)
+OPI = ----------------------------------------------------------------
+                              AB - H
+
+BA = H / AB
+
+SLG = (H + 2B + 2*3B + 3*HR) / AB
+
+OBA = (H + BB) / (AB + BB)
+-- 
+Jet Propulsion Laboratory | schmke@cco.caltech.edu
+4800 Oak Grove Dr.        | schmidt@spc5.jpl.nasa.gov
+M/S 525-3684              |
+Pasadena, CA  91109       |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ opi first week     opi offens product index
+player least bat  earli season high number last
+year leader frank thoma  team denot first charact
+name player team preceed name  equat use found end
+post  comment suggest welcom  kevin  leagu opi
+leagu leagu slg leagu oba  rank player opi slg oba
+tor carter cle baerga det phillip oak mcgwire tor
+white bal anderson nyy owen oak rhenderson mil
+thon oak brown tex palmer det gibson cle howard
+nyy tartabul tex rodriguez tex gonzalez bos zupcic
+sea felder oak blankenship min puckett nyy oneil
+cle bell sea buhner mil hamilton det whitak det
+fielder tor spragu whi cora whi rain nyy kelli bos
+quintana sea tmartinez cal gonzal whi burk cal
+snow whi karkovic cleveland cle sorrento sea amar
+bos cooper min winfield cal curti bos mvaughn oak
+steinbach oakland nyy maa kan joyner min knoblauch
+bos greenwel oak brosius tor olerud bal merced
+nyyanke bal hoil mil kmak oak dhenderson cle
+lofton min larkin bos dawson cle camartinez det
+gladden cal polonia california detroit det
+tettleton cal disarcina cal easley bal bain tex
+franco whi ljohnson sea vizquel nyy bwilliam mil
+gvaughn min hrbek bal cripken seattl cal salmon
+kan mcreynold toronto texa min pagliarulo whitesox
+kan hiatt whi guillen whi thoma kan mcrae boston
+cle hill nyy mat baltimor bal gomez minnesota whi
+fisk cle jefferson oak neel cal cdavi bos fletcher
+milwauke det livingston tor ralomar kansasc oak
+bordick tex canseco sea vall bal devereaux kan
+lind mil surhoff kan brett whi bell cle salomar
+mil jaha det fryman nyy bogg tex bripken min mack
+min harper cle fermin bos rivera mil spier mil
+yount tor schofield tex huls sea griffey sea
+obrien kan macfarlan oak sierra kan jose bos
+hatcher sea blower whi ventura tex palmeiro bal
+reynold kan mayn cal myer nyy noke bos calderon
+bos pena tor molitor det deer det cuyler tor
+border whi grebeck bal gdavi tex dascenzo min
+leius mil reimer tor djackson tex gill kan gagn
+opi     slg  oba     pasadena
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+whi, 9728, 0.331900276166
+bos, 1236, 0.320091036381
+kan, 4949, 0.301727523787
+det, 2577, 0.301727523787
+cle, 1798, 0.301727523787
+tex, 8819, 0.256797863574
+nyy, 6165, 0.25439815503
+tor, 8996, 0.248274693595
+oak, 6166, 0.214576384608
+min, 5732, 0.207837999403
+cal, 1449, 0.203143947425
+sea, 7739, 0.201714537967
+mil, 5712, 0.193118746147
+opi, 6264, 0.150863761894
+oba, 6169, 0.07821890702
+slg, 8028, 0.064740008956
+leagu, 5176, 0.0599096325463
+bell, 1011, 0.0390546981214
+player, 6683, 0.0386308396114
+thoma, 8878, 0.0370524918055
+felder, 3434, 0.0301727523787
+buhner, 1376, 0.0301727523787
+bordick, 1230, 0.0301727523787
+blower, 1173, 0.0301727523787
+blankenship, 1140, 0.0301727523787
+thon, 8881, 0.0290991851255
+surhoff, 8591, 0.0290991851255
+gladden, 3890, 0.0290991851255
+easley, 2963, 0.0290991851255
+devereaux, 2589, 0.0290991851255
+dascenzo, 2382, 0.0290991851255
+burk, 1412, 0.0290991851255
+bain, 869, 0.0290991851255
+zupcic, 9997, 0.02826646167
+vall, 9412, 0.02826646167
+reynold, 7371, 0.02826646167
+quintana, 7042, 0.02826646167
+knoblauch, 5049, 0.02826646167
+hoil, 4339, 0.02826646167
+guillen, 4086, 0.02826646167
+grebeck, 4019, 0.02826646167
+gagn, 3745, 0.02826646167
+curti, 2304, 0.02826646167
+calderon, 1453, 0.02826646167
+whitak, 9736, 0.0275860770661
+salmon, 7593, 0.0275860770661
+mack, 5419, 0.0275860770661
+jefferson, 4841, 0.0275860770661
+fletcher, 3538, 0.0275860770661
+sierra, 7939, 0.0270108200801
+rodriguez, 7455, 0.0270108200801
+polonia, 6727, 0.0270108200801
+mcreynold, 5587, 0.0270108200801
+lofton, 5327, 0.0270108200801
+hrbek, 4412, 0.0270108200801
+fryman, 3707, 0.0270108200801
+deer, 2469, 0.0270108200801
+pagliarulo, 6384, 0.0265125098129
+myer, 5939, 0.0265125098129
+leius, 5205, 0.0265125098129
+gonzal, 3945, 0.0265125098129
+gomez, 3939, 0.0265125098129
+fisk, 3507, 0.0265125098129
+denot, 2528, 0.0265125098129
+tettleton, 8818, 0.0260729690067
+noke, 6093, 0.0260729690067
+lind, 5281, 0.0260729690067
+hatcher, 4201, 0.0260729690067
+vizquel, 9554, 0.0256797863574
+rivera, 7423, 0.0256797863574
+pena, 6512, 0.0256797863574
+molitor, 5825, 0.0256797863574
+gill, 3877, 0.0256797863574
+franco, 3653, 0.0256797863574
+cuyler, 2317, 0.0256797863574
+tartabul, 8706, 0.0253241093871
+owen, 6358, 0.0253241093871
+mcrae, 5586, 0.0253241093871
+gibson, 3867, 0.0253241093871
+harper, 4182, 0.0249994017535
+greenwel, 4030, 0.0249994017535
+team, 8732, 0.0247814656479
+ventura, 9462, 0.024700699686
+phillip, 6594, 0.024700699686
+howard, 4402, 0.024700699686
+griffey, 4047, 0.024700699686
+mcgwire, 5580, 0.024166678298
+yount, 9965, 0.0239258345003
+hamilton, 4137, 0.0239258345003
+border, 1229, 0.0239258345003
+olerud, 6221, 0.023699596528
+kelli, 4977, 0.023486293694
+brett, 1300, 0.023486293694
+puckett, 6975, 0.0232845265219
+canseco, 1494, 0.0232845265219
+dawson, 2401, 0.022911036708
+larkin, 5127, 0.0227374340745
+snow, 8081, 0.0225715497139
+rank, 7096, 0.0225715497139
+gonzalez, 3946, 0.0225715497139
+anderson, 501, 0.0224127264408
+baerga, 863, 0.0219731856346
+bogg, 1199, 0.0217065162414
+palmer, 6401, 0.0215800029853
+milwauke, 5730, 0.0215800029853
+rain, 7074, 0.0214576384608
+hill, 4300, 0.0213391591876
+cooper, 2125, 0.021224326015
+carter, 1535, 0.021224326015
+minnesota, 5744, 0.0210047459993
+winfield, 9778, 0.0208996183814
+detroit, 2584, 0.0208996183814
+brown, 1344, 0.0208996183814
+index, 4596, 0.0207973713376
+oakland, 6167, 0.0206009163139
+fielder, 3467, 0.0206009163139
+seattl, 7749, 0.02023655067
+kevin, 4993, 0.02023655067
+charact, 1661, 0.02023655067
+pasadena, 6446, 0.0199848744012
+mat, 5540, 0.0199848744012
+leader, 5173, 0.0198260511282
+welcom, 9701, 0.0196737122766
+cleveland, 1811, 0.0196737122766
+equat, 3157, 0.0195998131559
+jose, 4892, 0.0192507941422
+baltimor, 887, 0.018931643894
+texa, 8820, 0.0188709631481
+california, 1459, 0.0185815325976
+boston, 1243, 0.0179667017132
+offens, 6202, 0.0175640834492
+white, 9737, 0.015994857285
+frank, 3655, 0.0159671115538
+product, 6896, 0.0156240207123
+toronto, 9003, 0.0155739289046
+earli, 2951, 0.0154757184038
+bat, 942, 0.0153330851069
+comment, 1936, 0.0149774081366
+season, 7747, 0.0143719829697
+suggest, 8525, 0.0142304765892
+week, 9691, 0.0137430303286
+end, 3091, 0.0128648890674
+high, 4292, 0.0126202852858
+number, 6156, 0.0121346801766
+post, 6766, 0.0108988885465
+year, 9943, 0.00937867908884
+use, 9363, 0.00824180013272

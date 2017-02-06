@@ -1,0 +1,183 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102706
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert)
+Subject: Re: My '93 picks (with only one comment)
+Article-I.D.: master.1psqpdINNh9v
+Reply-To: rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert)
+Organization: Computer Science Department at Rose-Hulman
+Lines: 47
+NNTP-Posting-Host: g215a-1.nextwork.rose-hulman.edu
+
+In article <12786@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush)  
+writes:
+> In article <1psbg8INNgjj@master.cs.rose-hulman.edu>
+> rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert) writes:
+> >In article <jfr2.733938351@Ra.MsState.Edu> jfr2@Ra.MsState.Edu (Jackie F.  
+> >Russell) writes:
+> >> psg+@pitt.edu (Paul S Galvanek) writes:
+> >> >National League West
+> >> >	Cincinnati      ----
+> >> >	Houston          5.0
+> >> >	Atlanta          8.0
+> >> ARGH! Here is where you are obviously dead wrong. Not since the Yankees 
+> >> of the 20's and 30's has a team been so nicely setup as this years(and 
+> >> years to come) Braves. I don't think that the All-Star team will be able  
+> >This may be an appropriate comparison.
+> >The 1929-31 Yankees finshed 2nd, 3rd and 2nd finshing 
+> >18, 16 and 13-1/2 games out of first. 
+> >In 1933,'34 and '35 they also finished second ( though they were only
+> >7, 7 and 3 games out).
+> >Even great teams can lose - That's why they play the season.
+> >(on the other hand... I'm still picking the Braves to go all the way)
+
+> Um, surely you didn't intend to compare the '93 Reds with the
+> 29 Philidelphia A's.  The Yankees were finishing 2nd to
+> a team that was as good as the 26-28 Yankees, while the
+> Yankees had aged some from their peak years.  Ruth and Gehrig
+> couldn't play every position simultaneously.
+> 
+> IMO, given the various ages of the Braves and Reds this season,
+> that the Braves will be closer to their peak, while the Reds
+> have slightly passed their peak.
+> 
+> Also, if you're going to compare Braves and Yankees, a more appropriate
+> comparison to the '93 Braves might be the '23 Yankees.  
+> After falling short two years in a row in exciting World Series,
+>  both teams won/will win the Series this year, despite the
+> heroics of some old fart on the other team. 
+> (Casey Stengel/ Dave Winfield???)
+
+Perhaps so. I was only responding to the "Yankees of the 20's and 30's" 
+part of the comment. If those teams were a 'sure thing' and lost, 
+then it's probably not so unreasonable for someone to pick another 
+team (not that I did).
+
+john rickert
+rickert@nextwork.rose-hulman.edu
+Go Brewers!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pick one comment articl master 1psqpdinnh9v
+bchm biochem duke edu eric roush    msstate edu
+jacki   nation leagu west cincinnati houston
+atlanta argh obvious dead wrong sinc yanke team
+nice setup year year come brave don't think star
+team abl appropri comparison yanke finsh 2nd 3rd
+2nd finsh game first also finish second though
+game even great team lose that play season hand
+i'm still pick brave way  sure didn't intend
+compar red philidelphia a yanke finish 2nd team
+good yanke yanke age peak year ruth gehrig
+couldn't play everi posit simultan  imo given
+various age brave red season brave closer peak red
+slight pass peak  also you'r go compar brave yanke
+appropri comparison brave might yanke fall short
+two year row excit world seri team win seri year
+despit heroic old fart team casey stengel dave
+winfield  perhap respond yanke part comment team
+sure thing lost it probabl unreason someon pick
+anoth team  john rickert  brewer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yanke, 9933, 0.458636154857
+team, 8732, 0.326633695205
+brave, 1277, 0.315683304774
+peak, 6496, 0.209811441332
+2nd, 81, 0.19836974538
+finsh, 3493, 0.191771836663
+pick, 6619, 0.166073476017
+year, 9943, 0.154520350534
+red, 7194, 0.147641171895
+comparison, 1962, 0.13279918325
+appropri, 590, 0.129168296327
+finish, 3488, 0.119036268631
+age, 328, 0.110041813823
+compar, 1960, 0.10347034175
+seri, 7805, 0.100292572168
+comment, 1936, 0.0987053436176
+season, 7747, 0.0947154210234
+stengel, 8376, 0.0931419771216
+roush, 7496, 0.0909000139091
+msstate, 5906, 0.0909000139091
+biochem, 1104, 0.0909000139091
+bchm, 964, 0.0909000139091
+rickert, 7388, 0.0890044610219
+argh, 627, 0.0890044610219
+jacki, 4811, 0.0873624584236
+casey, 1541, 0.0873624584236
+edu, 3001, 0.0871987630632
+duke, 2912, 0.0823765540009
+play, 6681, 0.0811057374707
+setup, 7819, 0.0796326127908
+sure, 8585, 0.0792003478632
+unreason, 9305, 0.0788389985154
+gehrig, 3811, 0.0780935124945
+row, 7501, 0.075495096691
+game, 3761, 0.0745484036595
+simultan, 7975, 0.0743764391735
+brewer, 1302, 0.0738530940927
+imo, 4533, 0.0733511160952
+ruth, 7555, 0.0711091528826
+cincinnati, 1760, 0.0707059445192
+excit, 3265, 0.0699371471107
+master, 5537, 0.0695700525863
+winfield, 9778, 0.06886718967
+despit, 2570, 0.0658529792653
+3rd, 102, 0.0655885227644
+houston, 4399, 0.0645841481636
+closer, 1831, 0.0625856929744
+eric, 3170, 0.0623824362254
+slight, 8034, 0.0608670748426
+intend, 4700, 0.0603437297618
+atlanta, 749, 0.0593594643288
+west, 9708, 0.059202815671
+respond, 7322, 0.0588953808246
+fall, 3369, 0.0563041962788
+couldn, 2176, 0.0559407189786
+pass, 6448, 0.0549106213892
+dead, 2415, 0.0548013161953
+lost, 5355, 0.0543735599061
+various, 9432, 0.0542689060545
+lose, 5350, 0.0540622330662
+star, 8324, 0.0531729237293
+dave, 2395, 0.0531729237293
+obvious, 6185, 0.0519922552214
+nice, 6047, 0.0497791915599
+leagu, 5176, 0.0493526718088
+short, 7904, 0.048607185788
+nation, 5962, 0.0484114773598
+posit, 6761, 0.0482827143681
+perhap, 6540, 0.0475976547752
+old, 6216, 0.0464974470036
+john, 4878, 0.0464974470036
+wrong, 9869, 0.0451355647947
+abl, 180, 0.0449877062597
+win, 9770, 0.0446972182631
+hand, 4145, 0.0446018941164
+given, 3887, 0.0441360523004
+second, 7753, 0.0427948319479
+everi, 3235, 0.0421170435211
+world, 9841, 0.0411836097245
+didn, 2625, 0.0410762138161
+great, 4016, 0.0408992790608
+probabl, 6885, 0.040215950308
+someon, 8124, 0.0401827606702
+articl, 665, 0.0396318258238
+anoth, 533, 0.0396318258238
+sinc, 7977, 0.0374853100763
+come, 1923, 0.0356583904092
+thing, 8869, 0.0335935836129
+way, 9666, 0.0321668041486
+good, 3948, 0.0316096836671
+think, 8871, 0.0281632463396
+don, 2811, 0.0278918927274

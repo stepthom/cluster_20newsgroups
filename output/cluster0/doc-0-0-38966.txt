@@ -1,0 +1,41 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38966
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: PBM+ 10dec91 when's'the'new'version?
+From: j3gum@vax1.mankato.msus.edu
+Organization: Mankato State University
+Lines: 5
+
+Does anyone know if the fabled /new/ version of PBM+ will be out soon.  As
+far as I know the /current/ version is 10dec91.
+Jeff P. are you out there ? ?? ?
+
+Jeffrey E. Hundstad
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+pbm 10dec91 when's'the'new'vers     anyon know
+fabl new version pbm soon far know current version
+10dec91 jeff  jeffrey hundstad
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pbm, 6482, 0.580432850362
+fabl, 3343, 0.34576692708
+version, 9479, 0.345041504631
+jeffrey, 4842, 0.315031125705
+new, 6023, 0.258335852499
+vers, 9476, 0.244787457043
+jeff, 4839, 0.23558023172
+soon, 8136, 0.211296584109
+know, 5052, 0.191025483579
+current, 2299, 0.160664626169
+far, 3386, 0.148121814698
+anyon, 554, 0.119156011025

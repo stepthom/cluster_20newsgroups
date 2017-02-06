@@ -1,0 +1,400 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105034
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rudy@netcom.com (Rudy Wade)
+Subject: Re: Bases loaded walk gives Reds win in 12
+Organization: Home of the Brave
+Lines: 113
+
+In article <1993Apr23.185931.6509@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>In article <mssC5y41D.230@netcom.com> mss@netcom.com (Mark Singer) writes:
+quoted for future reference...
+>shown to be consistent in the past.  Overall performance, L/R splits,
+>even matching hitting/pitching styles.  All of these will give me some
+>advantage if used properly.
+
+>was predicting the future, the next AB.  He was predicting that
+>Sabo was more likely to get a hit than Samuel.
+
+He believed one of two things: 1) Sabo was more likely than Samuel
+to get a hit OR 2) that more good would be done in the long run
+by leaving Sabo in regardless of the expectation of the actual outcome.
+
+In fact you don't know what Perez had in mind when he left Sabo in.
+
+>By supporting the swap, you are predicting the opposite.
+
+In fact, I don't think anyone is claiming that they can predict
+the future, or any particular future event.  But we can believe
+that certain trends are due to a cause (whether or not we have
+identified the cause) and therefore will continue.
+
+>>And I am not dismissing your work.  I'm stating my opinion.
+>>You are saying that your work renders any opinion to the contrary
+>>invalid, so that the retention of that opinion is some kind of insult
+>>to your work.
+>Well, yes.  You are aware of its existance.  You claim to be incapable
+>of understanding it (though I suspect you are simply unwilling).  Yet
+>you rather forcefully state the opposite.  You don't seem to think the
+>work is worth reading (yet you obviously feel the topic is important).
+>I'd say this is insulting.
+
+I think seeing insults in other people's opinions is kind of silly.
+After all, Mark didn't call you a total idiot, or call your work
+stupid, he simply stated that it didn't change his opinion on the 
+subject.
+
+>>I did not say that it is a consistent skill.
+>>	I have said that it is an indicator of performance under a
+>>	certain set of circumstances.
+>RIGHT!  This is the beef.  It has not proven to be an indicator of
+>future performance under *any* circumstances.  At least none that
+>we've been able to come up with.  If you know of some where it *is* an
+>indicator of future performance, please let us in on your secret.
+
+If player A hits better on Tuesdays and always has, and Mark believes
+that it might be an indication that he will hit on Tuesday better next
+season as well, would you respond the same way?  At some point you
+might admit that all variable might not be known to you (who knows
+what this guy does every Monday night?  Maybe he sees his sports
+shrink on Tuesday mornings, or has his Vitamin B shots Monday nights?)
+
+But this is something that's true of one guy only.  It doesn't
+mean that there will be a meaningful correlation for the entire
+league by days of the week, nor that there should be.  But it doesn't
+mean we can't make predictions based on that for that particular
+player.
+
+>>I believe that by
+>>season's end that Chris Sabo's batting average in clutch situations
+>>will be significantly lower than his batting average in non-clutch
+>>situations.  I can't prove that it will happen, so I guess we'll 
+>>just have to wait and see.
+>
+>Is this simply a prediction for Chris Sabo for this year?  Or is this
+>a prediction for *all* batters who have, over the past few years, hit
+>(xxx amount?)  worse in the clutch than overall?
+
+I only see a prediction for one player here.  I don't see anything
+about ALL batters.
+
+>>Here's another one for you.  In 1989 - 1991 Joe Carter's batting
+>>average in clutch situations was significantly below his batting
+>>average in non-clutch situations each year.  I presume you think
+>>this is random.  
+>I'm not going to get into case analysis.  Sure, you can find somebody
+>who hit poorly from '89-'91 and then hit poorly in '92 as well.  You
+>can also find those who hit poorly from '89-'91 and then hit *well* in
+>'92.
+
+That's exactly what Mark is trying to do though.  Find hitters
+that have these correlation and ask whether we can make predictions
+for these hitters based on their past performance.
+
+>>major league ballplayers.  It just makes me think that in 1993
+>>Joe Carter's batting average in the clutch is not going to be
+>>as high as his ba in non-clutch situations.
+>Gambler's fallacy.  Unless there is reason to expect consistency, a
+
+Huh?  What does gambler's fallacy have to do with anything?
+Whether you can know the reason for correlation or not, you can't
+deny that it has existent, you can only make an argument that
+you don't think it is likely to continue to exist because you
+can't see a reason for it to exist.
+
+>run proves nothing.  Can you give us a reason to expect clutch BA to
+>correlate from one year to the next?  I've seen a detailed study of
+
+Someone posted recently on why negative clutch would correlate.
+The argument along the lines of star player with L/R splits will
+always see an adverse condition in late innings of a close game
+(i.e. opposing manager will always bring in a AH pitcher to
+face him, where his manager will not pull him for a PH)
+
+>I don't see how you can deny it.)  As for "total idiot"?  Yes.  If you
+>prove yourself unwilling to even *consider* evidence that might
+>suggest that you are wrong, I would say the term fits nicely.
+>So tell me?  Does the term fit?  Or do you have an open mind?
+
+What about you?  If the shoe fits, will you wear it with an open mind?
+
+Rudy
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ base load walk give red win      quot futur refer
+shown consist past overal perform split even match
+hit pitch style give advantag use proper  predict
+futur next predict sabo like get hit samuel
+believ one two thing sabo like samuel get hit good
+done long run leav sabo regardless expect actual
+outcom  fact don't know perez mind left sabo
+support swap predict opposit  fact don't think
+anyon claim predict futur particular futur event
+believ certain trend due caus whether identifi
+caus therefor continu  dismiss work i'm state
+opinion say work render opinion contrari invalid
+retent opinion kind insult work well yes awar
+exist claim incap understand though suspect simpli
+unwil yet rather forc state opposit don't seem
+think work worth read yet obvious feel topic
+import i'd say insult  think see insult peopl
+opinion kind silli mark didn't call total idiot
+call work stupid simpli state didn't chang opinion
+say consist skill said indic perform certain set
+circumst right beef proven indic futur perform
+circumst least none we'v abl come know indic futur
+perform pleas let secret  player hit better
+tuesday alway mark believ might indic hit tuesday
+better next season well respond way point might
+admit variabl might known know guy everi monday
+night mayb see sport shrink tuesday morn vitamin
+shot monday night  someth that true one guy
+doesn't mean meaning correl entir leagu day week
+doesn't mean can't make predict base particular
+player  believ season end chris sabo bat averag
+clutch situat signific lower bat averag non clutch
+situat can't prove happen guess we'll wait see
+simpli predict chris sabo year predict batter past
+year hit xxx amount wors clutch overal  see
+predict one player don't see anyth batter  here
+anoth one joe carter bat averag clutch situat
+signific bat averag non clutch situat year presum
+think random i'm go get case analysi sure find
+somebodi hit poor hit poor well also find hit poor
+hit well   that exact mark tri though find hitter
+correl ask whether make predict hitter base past
+perform  major leagu ballplay make think joe
+carter bat averag clutch go high non clutch situat
+gambler fallaci unless reason expect consist  huh
+gambler fallaci anyth whether know reason correl
+can't deni exist make argument don't think like
+continu exist can't see reason exist  run prove
+noth give reason expect clutch correl one year
+next i'v seen detail studi  someon post recent
+negat clutch correl argument along line star
+player split alway see advers condit late inning
+close game oppos manag alway bring pitcher face
+manag pull  don't see deni total idiot yes prove
+unwil even consid evid might suggest wrong say
+term fit nice tell term fit open mind  shoe fit
+wear open mind  rudi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clutch, 1849, 0.352528031591
+predict, 6816, 0.277732016504
+sabo, 7564, 0.259574141203
+hit, 4316, 0.238220358254
+correl, 2157, 0.206015836095
+futur, 3737, 0.172529638418
+averag, 816, 0.14498695709
+situat, 7995, 0.143774698681
+bat, 942, 0.139948669375
+perform, 6539, 0.138286834136
+opinion, 6266, 0.127587794021
+insult, 4689, 0.123609501657
+indic, 4600, 0.118685549909
+tuesday, 9147, 0.115029150338
+gambler, 3760, 0.106238039112
+exist, 3283, 0.0977011076149
+poor, 6741, 0.0973823680435
+work, 9833, 0.0964968173731
+player, 6683, 0.0940247325796
+unwil, 9329, 0.0937541768149
+think, 8871, 0.0936114953544
+consist, 2061, 0.0931697431983
+don, 2811, 0.0927095461578
+fit, 3510, 0.0921917326864
+prove, 6947, 0.0907181923117
+samuel, 7602, 0.0901796352034
+circumst, 1770, 0.0882299797453
+reason, 7156, 0.0878915037372
+fallaci, 3370, 0.0865247137342
+past, 6456, 0.0864082339696
+believ, 1009, 0.0841475369162
+simpli, 7967, 0.0837153285526
+mark, 5512, 0.0832168521442
+non, 6097, 0.0810021866443
+mind, 5733, 0.0796143179638
+monday, 5834, 0.0792481889612
+expect, 3290, 0.0792055739478
+carter, 1535, 0.0774877635778
+alway, 457, 0.0771843189058
+idiot, 4487, 0.0752117608676
+deni, 2523, 0.0748668222825
+state, 8342, 0.0724597450962
+overal, 6337, 0.0723828102439
+chris, 1728, 0.0723828102439
+opposit, 6270, 0.0715568393984
+split, 8247, 0.0705280983502
+say, 7653, 0.0691807453688
+year, 9943, 0.0684811256096
+make, 5459, 0.0683433316739
+joe, 4876, 0.0676373592018
+batter, 949, 0.0647584109208
+base, 923, 0.0639564224659
+signific, 7951, 0.0587040167414
+know, 5052, 0.0586932155925
+hitter, 4322, 0.0579947828359
+continu, 2092, 0.0575098794726
+particular, 6442, 0.0570416427939
+argument, 631, 0.0568587629157
+term, 8795, 0.0559794677502
+night, 6063, 0.0553147336546
+caus, 1569, 0.0551534969046
+leagu, 5176, 0.0546809288489
+total, 9013, 0.0543747508771
+open, 6258, 0.0540753026393
+retent, 7338, 0.053119019556
+advers, 289, 0.053119019556
+claim, 1782, 0.0530762119758
+season, 7747, 0.0524705857663
+manag, 5472, 0.0520174778581
+shrink, 7921, 0.0515989270405
+guy, 4100, 0.0511541082892
+vitamin, 9550, 0.0503569210212
+shoe, 7898, 0.0503569210212
+yes, 9951, 0.049629299835
+incap, 4570, 0.0493068198945
+kind, 5021, 0.0486005587868
+swap, 8621, 0.048397180923
+certain, 1619, 0.0482098697558
+xxx, 9919, 0.0475948224864
+fact, 3350, 0.0467503515539
+anyth, 555, 0.0467071681696
+didn, 2625, 0.0455109205387
+invalid, 4738, 0.0450898176017
+beef, 988, 0.0450898176017
+meaning, 5596, 0.0445849812614
+doesn, 2793, 0.0441944430616
+perez, 6537, 0.0441149898726
+outcom, 6323, 0.0441149898726
+dismiss, 2724, 0.0436753422899
+trend, 9084, 0.0432623568671
+like, 5272, 0.0430314244687
+mean, 5595, 0.0421044885305
+ballplay, 884, 0.0418228827266
+run, 7543, 0.0410400070771
+variabl, 9427, 0.0409132437551
+better, 1060, 0.0407585023032
+contrari, 2100, 0.0396240944806
+regardless, 7225, 0.0389535036568
+skill, 8006, 0.0387438817889
+secret, 7755, 0.0387438817889
+proven, 6948, 0.0387438817889
+wear, 9676, 0.038540518234
+negat, 5996, 0.038540518234
+silli, 7956, 0.0383430501128
+huh, 4429, 0.0381511452202
+style, 8479, 0.0379644986631
+match, 5541, 0.0379644986631
+random, 7093, 0.0377828299456
+identifi, 4486, 0.0369407502701
+shown, 7918, 0.0363348245914
+morn, 5864, 0.0363348245914
+presum, 6845, 0.036191405122
+awar, 831, 0.0360509429667
+condit, 2017, 0.0350207314108
+proper, 6924, 0.0344479426548
+render, 7277, 0.0343389455587
+pull, 6979, 0.0343389455587
+wors, 9846, 0.0340220431558
+shot, 7910, 0.0334293065872
+stupid, 8476, 0.0333353440881
+oppos, 6269, 0.03324266003
+advantag, 286, 0.03324266003
+admit, 276, 0.0330609913125
+suspect, 8603, 0.032971942029
+sport, 8257, 0.032971942029
+wait, 9611, 0.032797261351
+respond, 7322, 0.0326269481506
+lower, 5371, 0.0326269481506
+topic, 8992, 0.0325433621549
+somebodi, 8121, 0.0325433621549
+analysi, 490, 0.0322985870854
+load, 5317, 0.03168584412
+inning, 4657, 0.031398973389
+late, 5139, 0.031259944621
+event, 3232, 0.0309243017024
+worth, 9850, 0.0308591129449
+therefor, 8855, 0.0304194653621
+leav, 5184, 0.0303589123129
+entir, 3129, 0.0296171069256
+star, 8324, 0.0294568131022
+studi, 8469, 0.0293002045227
+face, 3345, 0.0293002045227
+quot, 7045, 0.0292487916509
+walk, 9617, 0.0289482058384
+obvious, 6185, 0.0288027446565
+bring, 1316, 0.0288027446565
+evid, 3245, 0.0287074679541
+forc, 3594, 0.0282060115062
+unless, 9289, 0.0277389507147
+nice, 6047, 0.0275767484523
+red, 7194, 0.0272634898972
+known, 5054, 0.0272253263622
+left, 5193, 0.0271121020408
+recent, 7168, 0.0270747749711
+pitcher, 6644, 0.0270747749711
+exact, 3253, 0.0270376513197
+feel, 3429, 0.0267833006425
+guess, 4079, 0.0264018579826
+suggest, 8525, 0.0259769804884
+import, 4551, 0.0258203719089
+close, 1830, 0.0258203719089
+seen, 7767, 0.0252846413062
+refer, 7213, 0.0251150348728
+week, 9691, 0.025087173185
+wrong, 9869, 0.0250042653887
+major, 5458, 0.0250042653887
+abl, 180, 0.0249223545038
+pitch, 6643, 0.0248682893535
+noth, 6119, 0.0247879877575
+win, 9770, 0.0247614295438
+chang, 1650, 0.0244759252648
+understand, 9246, 0.0244252769037
+set, 7815, 0.0244000932404
+true, 9121, 0.0243002793934
+happen, 4159, 0.0240093238603
+consid, 2059, 0.0238916668219
+mayb, 5564, 0.0238451671657
+case, 1540, 0.0236848733423
+ask, 689, 0.0235949423573
+end, 3091, 0.0234841728731
+support, 8576, 0.0234622334881
+everi, 3235, 0.0233320606129
+high, 4292, 0.0230376616392
+said, 7583, 0.0226769329078
+line, 5285, 0.0225800298061
+tell, 8767, 0.0222605038048
+someon, 8124, 0.0222605038048
+anoth, 533, 0.0219552961228
+sure, 8585, 0.0219377615618
+actual, 254, 0.0219028272638
+ll, 5314, 0.0215795923732
+let, 5225, 0.02151345425
+long, 5336, 0.0214642686704
+read, 7135, 0.0207367399483
+right, 7399, 0.0207220743383
+game, 3761, 0.0206492161767
+day, 2402, 0.0202005158707
+someth, 8126, 0.020052857075
+pleas, 6688, 0.0200395909107
+post, 6766, 0.0198953431632
+come, 1923, 0.0197540866317
+tri, 9087, 0.0197287153801
+point, 6710, 0.0192284026957
+thing, 8869, 0.0186102219798
+peopl, 6530, 0.0184824899905
+anyon, 554, 0.0183055404787
+way, 9666, 0.017819812631
+good, 3948, 0.0175111782218
+use, 9363, 0.0150449691474

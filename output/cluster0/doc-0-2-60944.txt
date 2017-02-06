@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60944
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Re: Magellan Update - 04/16/93
+Organization: Jet Propulsion Laboratory
+Lines: 29
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+Keywords: Magellan, JPL
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <1993Apr20.072706.19981@cs.ruu.nl>, jhwitten@cs.ruu.nl (Jurriaan Wittenberg) writes...
+>In <19APR199320262420@kelvin.jpl.nasa.gov> baalke@kelvin.jpl.nasa.gov 
+>(Ron Baalke) writes:
+> 
+>>4.  On Monday morning, April 19, the moon will occult Venus and
+>>interrupt the tracking of Magellan for about 68 minutes.
+
+>Will this mean a loss of data or will the Magellan transmit data later on ??
+
+The gravity data is collected in real-time and it not recorded to the tape
+recorder.  However, you only need to collect the gravity every 3rd or 4th
+orbit, so there is no real data loss if the Moon blocks transmission for
+a short while.
+
+>BTW: When will NASA cut off the connection with Magellan?? Not that I am
+>looking forward to that day but I am just curious. I believe it had something
+>to do with the funding from the goverment (or rather _NO_ funding :-)
+
+The aerobraking starts May 25 and is expected last about 70 days.  If the
+funding is provided (8 million dollars) to extend the mission for the
+high resolution gravity data, then the mission will last through October 1994.
+Otherwise, the mission will end this coming July.   
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ magellan updat      news softwar vax vms vnew
+ruu jurriaan wittenberg write kelvin jpl nasa gov
+monday morn april moon occult venus interrupt
+track magellan minut  mean loss data magellan
+transmit data later  graviti data collect real
+time record tape record howev need collect graviti
+everi 3rd 4th orbit real data loss moon block
+transmiss short  btw nasa cut connect magellan
+look forward day curious believ someth fund gover
+rather fund  aerobrak start expect last day fund
+provid million dollar extend mission high resolut
+graviti data mission last octob otherwis mission
+end come   jet propuls lab telo aweto new zealand
+pasadena part caterpillar part veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+magellan, 5433, 0.399951845606
+data, 2385, 0.314435820678
+graviti, 4010, 0.259284768145
+fund, 3723, 0.231263248899
+mission, 5772, 0.201373545586
+collect, 1898, 0.163945935184
+loss, 5352, 0.163513284536
+record, 7184, 0.143598312433
+moon, 5851, 0.137887942629
+wittenberg, 9809, 0.13241449135
+jurriaan, 4935, 0.13241449135
+nasa, 5956, 0.127815614798
+aerobrak, 299, 0.120643945394
+kelvin, 4979, 0.118643835355
+real, 7144, 0.116431100711
+interrupt, 4721, 0.113758617396
+transmiss, 9058, 0.109969347961
+occult, 6189, 0.108873399438
+caterpillar, 1562, 0.103465638457
+aweto, 836, 0.103465638457
+octob, 6197, 0.10198807144
+day, 2402, 0.100711235124
+veget, 9448, 0.100628841546
+transmit, 9059, 0.0999879614015
+monday, 5834, 0.0987744947047
+telo, 8769, 0.0981988020046
+zealand, 9977, 0.0955811217889
+venus, 9463, 0.0937435135481
+4th, 112, 0.0937435135481
+pasadena, 6446, 0.0909402434165
+morn, 5864, 0.0905750399157
+3rd, 102, 0.0905750399157
+block, 1163, 0.0898673830113
+jpl, 4912, 0.0879058230648
+dollar, 2802, 0.0875998452681
+tape, 8700, 0.0870039487484
+extend, 3319, 0.0858714419585
+gov, 3965, 0.0855997352295
+track, 9030, 0.084054915419
+jet, 4860, 0.084054915419
+resolut, 7316, 0.0826389866128
+propuls, 6936, 0.0824140653341
+curious, 2297, 0.0824140653341
+connect, 2046, 0.0811237252228
+lab, 5085, 0.080118620751
+btw, 1355, 0.080118620751
+minut, 5747, 0.0784469795275
+million, 5724, 0.0784469795275
+vnew, 9564, 0.0772518215207
+forward, 3621, 0.0770877496329
+otherwis, 6313, 0.0761352771085
+vms, 9563, 0.0749431169494
+cut, 2313, 0.074657710092
+vax, 9439, 0.0741008960022
+updat, 9333, 0.0735617615686
+later, 5140, 0.0712115090575
+april, 595, 0.0705321661376
+short, 7904, 0.0671245151953
+expect, 3290, 0.0658142530619
+provid, 6949, 0.0628165556835
+orbit, 6280, 0.0614627467972
+news, 6031, 0.0586509923746
+write, 9865, 0.0585410806104
+howev, 4406, 0.0585410806104
+end, 3091, 0.0585410806104
+everi, 3235, 0.058161896888
+high, 4292, 0.0574280224551
+softwar, 8103, 0.056675404085
+start, 8334, 0.0537519964772
+mean, 5595, 0.0524787964737
+believ, 1009, 0.052440507149
+someth, 8126, 0.0499875353855
+new, 6023, 0.0494659954829
+come, 1923, 0.0492427638025
+need, 5993, 0.0456574764988
+look, 5341, 0.0423785699812
+time, 8936, 0.0403479412356

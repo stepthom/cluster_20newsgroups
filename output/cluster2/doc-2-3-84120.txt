@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84120
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: susan_soric@upubs.uchicago.edu (Susan Soric)
+Subject: Wanted: Moltmann's God in Creation
+Organization: Not important
+Lines: 15
+
+I'm greatly in need of Jurgen
+Moltmann's book God in Creation:
+An Ecological Doctrine of Creation.
+
+If you have a copy you're willing to
+part with, I'd love to hear from you
+soon.  You may call me at 312-702-
+8367 or e-mail me.
+
+Thanks.
+
+==========================================================================================
+Susan Soric
+Independent agent
+susan_soric@upubs.uchicago.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want moltmann god creation    i'm great need
+jurgen moltmann book god creation ecolog doctrin
+creation  copi you'r will part i'd love hear soon
+call mail  thank   susan soric independ agent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+creation, 2218, 0.613571367558
+susan, 8601, 0.315377416478
+ecolog, 2983, 0.292743683957
+god, 3926, 0.285095568168
+doctrin, 2787, 0.22027574177
+agent, 331, 0.217485316209
+independ, 4595, 0.202612640181
+soon, 8136, 0.192725693488
+copi, 2130, 0.177815550918
+hear, 4223, 0.174578213311
+love, 5366, 0.160527522761
+book, 1218, 0.144867853968
+mail, 5447, 0.139040343105
+great, 4016, 0.134521410343
+thank, 8832, 0.113264523329
+want, 9634, 0.110174603694
+need, 5993, 0.108744419393

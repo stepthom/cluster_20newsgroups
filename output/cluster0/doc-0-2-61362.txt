@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61362
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bday@lambda.msfc.nasa.gov (Brian Day)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: NASA/MSFC
+Lines: 13
+
+rdouglas@stsci.edu (Rob Douglas) writes:
+
+>[...]  But try to land a shuttle with that big huge telescope in the 
+>back and you could have problems.  The shuttle just isn't designed to land 
+>with that much weight in the payload.
+
+Is HST really _that_ much heavier than a Spacelab ???
+
+bd
+-- 
+Brian Day                                       bday@lambda.msfc.nasa.gov
+New Technology, Inc.                            (205) 461-4584
+Mission Software Development Division           Opinions are my own -
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day      tri land
+shuttl big huge telescop back could problem shuttl
+isn't design land much weight payload  hst realli
+much heavier spacelab     new technolog inc
+mission softwar develop divis opinion
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hst, 4416, 0.390946626378
+land, 5104, 0.323706327422
+shuttl, 7929, 0.306078678456
+mission, 5772, 0.300599292148
+spacelab, 8170, 0.254718859165
+heavier, 4231, 0.243780284367
+weight, 9695, 0.198239852071
+telescop, 8764, 0.193522981239
+payload, 6477, 0.188763885932
+huge, 4427, 0.186590543743
+divis, 2767, 0.176050120613
+schedul, 7678, 0.172975870281
+servic, 7813, 0.156467166722
+technolog, 8743, 0.151121799981
+design, 2564, 0.14774415859
+opinion, 6266, 0.142429971135
+develop, 2588, 0.141612237751
+isn, 4783, 0.139259540811
+big, 1082, 0.129518339956
+softwar, 8103, 0.126902863288
+problem, 6887, 0.119624012654
+realli, 7150, 0.112827940409
+day, 2402, 0.112752121567
+new, 6023, 0.110760153606
+tri, 9087, 0.11011869841

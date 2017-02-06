@@ -1,0 +1,29 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105094
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: drm6640@tesla.njit.edu
+Subject: RE:Re:ALL-TIME BEST PLAYERS
+Organization: New Jersey Institute of Technology
+Lines: 1
+Nntp-Posting-Host: tesla
+
+1B Career:  DON MATTINGLY!!!!!!!!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time best player     career mat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mat, 5540, 0.603104293705
+career, 1517, 0.52142978968
+player, 6683, 0.388600978441
+best, 1052, 0.3765170341
+time, 8936, 0.267582488095

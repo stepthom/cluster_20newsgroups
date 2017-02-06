@@ -1,0 +1,177 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38223
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: crash@ckctpa.UUCP (Frank "Crash" Edwards)
+Subject: Re: forms for curses
+Reply-To: crash%ckctpa@myrddin.sybus.com (Frank "Crash" Edwards)
+Organization: Edwards & Edwards Consulting
+Lines: 40
+
+Note the Followup-To: header ...
+
+steelem@rintintin.Colorado.EDU (STEELE MARK A) writes:
+>Is there a collection of forms routines that can be used with curses?
+>If so where is it located?
+
+On my SVR4 Amiga Unix box, I've got -lform, -lmenu, and -lpanel for
+use with the curses library.  Guess what they provide? :-)
+
+Unix Press, ie. Prentice-Hall, has a programmer's guide for these
+tools, referred to as the FMLI (Forms Mgmt Language Interface) and
+ETI (Extended Terminal Interface), now in it's 2nd edition.  It is
+ISBN 0-13-020637-7.
+
+Paraphrased from the outside back cover:
+
+    FMLI is a high-level programming tool for creating menus, forms,
+    and text frames.  ETI is a set of screen management library
+    subroutines that promote fast development of application programs
+    for window, panel, menu, and form manipulation.
+
+The FMLI is a shell package which reads ascii text files and produces
+screen displays for data entry and presentation.  It consists of a
+"shell-like" environment of the "fmli" program and it's database
+files.  It is section 1F in the Unix Press manual.
+
+The ETI are subroutines, part of the 3X manual section, provide
+support for a multi-window capability on an ordinary ascii terminal
+with controls built on top of the curses library.
+
+>Thanks
+>-Mark Steele
+>steelem@rintintin.colorado.edu
+
+-- 
+Frank "Crash" Edwards          Edwards & Edwards Consulting
+Voice: 813/786-3675            crash%ckctpa@myrddin.sybus.com, but please
+Data:  813/787-3675            don't ask UUNET to route it -- it's sloooow.
+    There will be times in life when everyone you meet smiles and pats you on
+    the back and tells you how great you are ... so hold on to your wallet.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ form curs     note followup header   collect form
+routin use curs locat  svr4 amiga unix box i'v got
+lform lmenu lpanel use curs librari guess provid
+unix press prentic hall programm guid tool refer
+fmli form mgmt languag interfac eti extend termin
+interfac it 2nd edit isbn  paraphras outsid back
+cover  fmli high level program tool creat menus
+form text frame eti set screen manag librari
+subroutin promot fast develop applic program
+window panel menu form manipul  fmli shell packag
+read ascii text file produc screen display data
+entri present consist shell like environ fmli
+program it databas file section unix press manual
+eti subroutin part manual section provid support
+multi window capabl ordinari ascii termin control
+built top curs librari  thank mark steel    frank
+crash edward edward edward consult  data don't ask
+uunet rout it sloooow time life everyon meet smile
+pat back tell great hold wallet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+curs, 2300, 0.406141837155
+form, 3610, 0.275245953803
+edward, 3003, 0.247482068686
+unix, 9284, 0.188675628854
+subroutin, 8494, 0.184029482184
+librari, 5250, 0.182916531341
+shell, 7873, 0.163866625357
+ascii, 676, 0.160753374645
+termin, 8796, 0.153096842708
+manual, 5492, 0.149614848395
+interfac, 4709, 0.142710993291
+tool, 8988, 0.135192299003
+section, 7759, 0.135192299003
+press, 6841, 0.131913725912
+program, 6905, 0.127905838208
+screen, 7719, 0.127777341046
+text, 8822, 0.122916880065
+window, 9774, 0.114281366883
+prentic, 6829, 0.104039735743
+data, 2385, 0.101733763268
+provid, 6949, 0.10161953863
+wallet, 9622, 0.0975840042171
+menus, 5634, 0.0975840042171
+file, 3477, 0.0950597922317
+smile, 8062, 0.0920147410921
+ordinari, 6282, 0.0920147410921
+rout, 7498, 0.0909153150469
+steel, 8365, 0.0898974055194
+followup, 3579, 0.0872305769561
+paraphras, 6424, 0.0849982993493
+isbn, 4777, 0.0830786001782
+menu, 5633, 0.0813945968501
+header, 4217, 0.080876214842
+crash, 2212, 0.080876214842
+uunet, 9392, 0.0794290362243
+panel, 6406, 0.0781199039236
+consult, 2076, 0.0781199039236
+promot, 6914, 0.0769247597703
+svr4, 8616, 0.0765484213541
+guid, 4082, 0.0758253337251
+multi, 5917, 0.0741684488519
+2nd, 81, 0.0738597730993
+entri, 3135, 0.0732624836517
+databas, 2386, 0.0732624836517
+amiga, 472, 0.0713554966453
+manipul, 5483, 0.0706128567099
+programm, 6906, 0.0696812799175
+extend, 3319, 0.0694579336481
+meet, 5615, 0.0675961495013
+routin, 7499, 0.0674040415736
+hall, 4128, 0.0666614016382
+frame, 3643, 0.0664818501542
+languag, 5113, 0.0663046155284
+collect, 1898, 0.0663046155284
+edit, 2996, 0.0654512048884
+outsid, 6332, 0.0652867060009
+environ, 3139, 0.063888670523
+cover, 2194, 0.0631693704283
+consist, 2061, 0.0626198774376
+capabl, 1498, 0.0615827439841
+pat, 6458, 0.0609721771137
+produc, 6895, 0.0608532543541
+locat, 5323, 0.0608532543541
+use, 9363, 0.0606708202719
+fast, 3397, 0.0606184538856
+built, 1381, 0.0601605617208
+applic, 585, 0.0601605617208
+hold, 4341, 0.0600484346252
+packag, 6375, 0.0598268896138
+display, 2734, 0.0591829204512
+frank, 3655, 0.0587697917775
+control, 2107, 0.0573226131598
+level, 5229, 0.0563505650871
+box, 1254, 0.0560969795535
+mark, 5512, 0.0559304866916
+present, 6837, 0.0549718074971
+everyon, 3241, 0.0547422395974
+guess, 4079, 0.053234485389
+creat, 2217, 0.0530991592409
+manag, 5472, 0.0524418332004
+develop, 2588, 0.0511560605872
+refer, 7213, 0.050639843524
+life, 5260, 0.0505836655605
+note, 6118, 0.0495577493334
+set, 7815, 0.0491982953606
+ask, 689, 0.047574856853
+support, 8576, 0.0473072738531
+high, 4292, 0.0464512028941
+great, 4016, 0.0456845593904
+got, 3960, 0.045070580399
+tell, 8767, 0.044884207215
+read, 7135, 0.0418118179607
+thank, 8832, 0.0384655485672
+time, 8936, 0.0326358165329
+don, 2811, 0.0311552882857
+like, 5272, 0.0289216480984

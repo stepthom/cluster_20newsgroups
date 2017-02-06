@@ -1,0 +1,177 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83440
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: tk@dcs.ed.ac.uk (Tommy Kelly)
+Subject: Objective Values 'v' Scientific Accuracy (was Re: After 2000 years, can we say that Christian Morality is)
+Reply-To: tk@dcs.ed.ac.uk (Tommy Kelly)
+Organization: Laboratory for the Foundations of Computer Science, Edinburgh U
+Lines: 54
+
+Frank, I tried to mail this but it bounced.  It is fast moving out
+of t.a scope, but I didn't know if t.a was the only group of the three
+that you subscribed to.
+Apologies to regular t.a folks.
+
+In article <1qjahh$mrs@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes:
+
+>Science ("the real world") has its basis in values, not the other way round, 
+>as you would wish it.  
+
+You must be using 'values' to mean something different from the way I
+see it used normally.
+
+And you are certainly using 'Science' like that if you equate it to
+"the real world".
+
+Science is the recognition of patterns in our perceptions of the Universe
+and the making of qualitative and quantitative predictions concerning
+those perceptions.
+
+It has nothing to do with values as far as I can see.
+Values are ... well they are what I value.
+They are what I would have rather than not have - what I would experience
+rather than not, and so on.
+
+Objective values are a set of values which the proposer believes are
+applicable to everyone.
+
+>If there is no such thing as objective value, then science can not 
+>objectively be said to be more useful than a kick in the head.
+
+I don't agree.
+Science is useful insofar as it the predictions mentioned above are
+accurate.  That is insofar as what I think *will be* the effect on
+my perceptions of a time lapse (with or without my input to the Universe)
+versus what my perceptions actually turn out to be.
+
+But values are about whether I like (in the loosest sense of the word) the 
+perceptions :-)
+
+>Simple theories with accurate predictions could not objectively be said
+>to be more useful than a set of tarot cards.  
+
+I don't see why.
+'Usefulness' in science is synonomous with 'accuracy' - period.
+Tarot predictions are not useful because they are not accurate - or
+can't be shown to be accurate.
+Science is useful because it is apparently accurate.
+
+Values - objective or otherwise - are beside the point.
+
+No?
+
+tommy
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ object valu v scientif accuraci year say
+christian moral     frank tri mail bounc fast move
+scope didn't know group three subscrib apolog
+regular folk    scienc real world basi valu way
+round wish  must use valu mean someth differ way
+see use normal  certain use scienc like equat real
+world  scienc recognit pattern percept univers
+make qualit quantit predict concern percept  noth
+valu far see valu well valu rather experi rather
+object valu set valu propos believ applic everyon
+thing object valu scienc object said use kick head
+don't agre scienc use insofar predict mention
+accur insofar think effect percept time laps
+without input univers versus percept actual turn
+valu whether like loosest sens word percept  simpl
+theori accur predict could object said use set
+tarot card  don't see use scienc synonom accuraci
+period tarot predict use accur can't shown accur
+scienc use appar accur  valu object otherwis besid
+point    tommi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+valu, 9414, 0.519492280028
+percept, 6535, 0.36333674182
+scienc, 7692, 0.302056228105
+accur, 225, 0.295787015086
+object, 6173, 0.255128268124
+use, 9363, 0.229503553125
+predict, 6816, 0.209217993153
+tarot, 8705, 0.180067630097
+accuraci, 226, 0.135131666233
+quantit, 7020, 0.0835723464046
+set, 7815, 0.082713630648
+qualit, 7016, 0.0806706050079
+real, 7144, 0.0791660797877
+recognit, 7175, 0.0783536092503
+world, 9841, 0.0773401885381
+said, 7583, 0.0768723067689
+univers, 9282, 0.0767403491679
+scope, 7704, 0.07477248022
+versus, 9480, 0.0726673483639
+bounc, 1249, 0.0698371010574
+kick, 5006, 0.0671606596611
+tommi, 8978, 0.0653240575515
+round, 7494, 0.0640398175976
+pattern, 6468, 0.0640398175976
+subscrib, 8496, 0.0620876185557
+shown, 7918, 0.0615855282049
+apolog, 571, 0.0615855282049
+input, 4662, 0.0613424400964
+equat, 3157, 0.0606424525311
+way, 9666, 0.0604072035979
+folk, 3576, 0.0551592080164
+basi, 936, 0.0550192516522
+besid, 1051, 0.0548809714525
+scientif, 7693, 0.0546092822427
+regular, 7234, 0.053582271561
+appar, 577, 0.053582271561
+wish, 9801, 0.0534600877894
+theori, 8848, 0.0533391834525
+normal, 6108, 0.0528678421443
+don, 2811, 0.0523791930007
+otherwis, 6313, 0.0517673661543
+moral, 5855, 0.0517673661543
+period, 6546, 0.0514566857427
+fast, 3397, 0.0509567696238
+applic, 585, 0.0505718586923
+concern, 2004, 0.0499276772224
+card, 1513, 0.0495750923097
+frank, 3655, 0.0494027568915
+simpl, 7965, 0.0492329559097
+head, 4215, 0.0487380404907
+like, 5272, 0.0486239309921
+propos, 6933, 0.0484983171669
+experi, 3295, 0.0483412227889
+sens, 7788, 0.048109517515
+effect, 3005, 0.0462751646035
+mention, 5632, 0.0462101150868
+everyon, 3241, 0.0460171369122
+turn, 9158, 0.045953521001
+agre, 337, 0.0446926777293
+noth, 6119, 0.042014275185
+word, 9829, 0.041356815324
+christian, 1732, 0.0409795900207
+certain, 1619, 0.040856538142
+group, 4064, 0.04018298048
+mail, 5447, 0.0396931799214
+far, 3386, 0.038569252941
+didn, 2625, 0.038569252941
+actual, 254, 0.0371240869164
+mean, 5595, 0.0356823955408
+believ, 1009, 0.0356563611246
+differ, 2633, 0.035552806541
+someth, 8126, 0.0339884892487
+tri, 9087, 0.0334390869132
+point, 6710, 0.0325910844449
+thing, 8869, 0.0315433021495
+say, 7653, 0.0293143891092
+year, 9943, 0.0290179348611
+make, 5459, 0.0289595465765
+time, 8936, 0.0274341504601
+think, 8871, 0.0264443888761
+know, 5052, 0.0248704426467

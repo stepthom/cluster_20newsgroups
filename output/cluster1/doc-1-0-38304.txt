@@ -1,0 +1,479 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38304
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mogal@deadhead.asd.sgi.com (Joshua Mogal)
+Subject: Re: SGI sales practices (Was: Crimson (Was: Kubota Announcement?))
+Organization: Silicon Graphics, Inc.
+Lines: 123
+NNTP-Posting-Host: deadhead.asd.sgi.com
+
+|> My
+|> comment regarding DEC was to indicate that I might be open to other
+|> vendors
+|> that supported OpenGL, rather than deal further with SGI.
+
+OpenGL is a graphics programming library and as such is a great, portable
+interface for the development of interactive 3D graphics applications. It
+is not, however, an indicator of performance, as that will vary strongly
+from machine to machine and vendor to vendor.  SGI is committed to high
+performance interactive graphics systems and software tools, so OpenGL
+means that you can port easily from SGI to other platforms, there is no
+guarantee that your performance would be comparable.
+
+|> 
+|> What I *am* annoyed about is the fact that we were led to believe that
+|> we *would* be able to upgrade to a multiprocessor version of the
+|> Crimson without the assistance of a fork lift truck.
+
+If your sales representative truly mislead you, then you should have a
+valid grievance against us which you should carry up to your local SGI
+sales management team. Feel free to contact the local branch manager...we
+understand that repeat sales come from satisfied customers, so give it a
+shot.
+
+|> 
+|> I'm also annoyed about being sold *several* Personal IRISes at a
+|> previous site on the understanding *that* architecture would be around
+|> for a while, rather than being flushed.
+
+As one of the previous posts stated, the Personal IRIS was introduced in
+1988 and grew to include the 4D/20, 4D/25, 4D/30 and 4D/35 as clock rates
+sped up over time. As a rule of thumb, SGI platforms live for about 4-5
+years. This was true of the motorola-based 3000 series ('85-'89), the PI
+('88-'93), the Professional Series (the early 4D's - '86-'90), the Power
+Series parallel systems ('88-'93). Individual CPU subsystems running at a
+particular clock rate usually live for about 2 years. New graphics
+architectures at the high end (GT, VGX, RealityEngine) are released every
+18 months to 2 years.
+
+These are the facts of life.  If we look at these machines, they become
+almost archaic after four years, and we have to come out with a new
+platform (like Indigo, Onyx, Challenge) which has higher bus bandwidths,
+faster CPUs, faster graphics and I/O, and larger disk capacities. If we
+don't, we become uncompetitive.
+
+From the user perspective, you have to buy a machine that meets your
+current needs and makes economic sense today.  You can't wait to buy, but
+if you need a guaranteed upgrade path for the machine, ask the Sales Rep
+for one in writing. If it's feasible, they should be able to do that. Some
+of our upgrade paths have specific programs associated with them, such as
+the Performance Protection Program for older R3000-based Power Series
+multiprocessing systems which allowed purchasers of those systems to obtain
+a guaranteed upgrade price for moving to the new Onyx or Challenge
+R4400-based 64-bit multiprocessor systems.
+
+|> 
+|> Now I understand that SGI is responsible to its investors and has to
+|> keep showing a positive quarterly bottom line (odd that I found myself
+|> pressured on at least two occasions to get the business on the books
+|> just before the end of the quarter), but I'm just a little tired of
+|> getting boned in the process.
+|> 
+
+If that's happening, it's becausing of misunderstandings or
+mis-communication, not because SGI is directly attempting to annoy our
+customer base.
+
+|> Maybe it's because my lab buys SGIs in onesies and twosies, so we
+|> aren't entitled to a "peek under the covers" as the Big Kids (NASA,
+|> for instance) are.  This lab, and I suspect that a lot of other labs
+|> and organizations, doesn't have a load of money to spend on computers
+|> every year, so we can't be out buying new systems on a regular basis.
+
+Most SGI customers are onesy-twosey types, but regardless, we rarely give a
+great deal of notice when we are about to introduce a new system because
+again, like a previous post stated, if we pre-announced and the schedule
+slipped, we would mess up our potential customers schedules (when they were
+counting on the availability of the new systems on a particular date) and
+would also look awfully bad to both our investors and the financial
+analysts who watch us most carefully to see if we are meeting our
+commitments.
+
+|> The boxes that we buy now will have to last us pretty much through the
+|> entire grant period of five years and, in some case, beyond. That
+|> means that I need to buy the best piece of equipment that I can when I
+|> have the money, not some product that was built, to paraphrase one
+|> previous poster's words, 'to fill a niche' to compete with some other
+|> vendor.  I'm going to be looking at this box for the next five years.
+|> And every time I look at it, I'm going to think about SGI and how I
+|> could have better spent my money (actually *your* money, since we're
+|> supported almost entirely by Federal tax dollars).
+|> 
+
+Five years is an awfully long time in computer years. New processor
+technologies are arriving every 1-2 years, making a 5 year old computer at
+least 2 and probably 3 generations behind the times. The competitive nature
+of the market is demanding that rate of development, so if your timing is
+really 5 years between purchases, you have to accept the limited viability
+of whatever architecture you buy into from any vendor.
+
+There are some realities about the computer biz that we all have to live
+with, but keeping customers happy is the most important, so don't give up,
+we know it.
+
+Josh   |:-)
+
+-- 
+
+
+**************************************************************************
+**				     **					**
+**	Joshua Mogal		     **	Product Manager			**
+**	Advanced Graphics Division   **	  Advanced Graphics Systems	**
+**	Silicon Graphics Inc.	     **	Market Manager			**
+**	2011 North Shoreline Blvd.   **	  Virtual Reality		**
+**	Mountain View, CA 94039-7311 **	  Interactive Entertainment	**
+**	M/S 9L-580		     **					**
+**				     *************************************
+**	Tel:	(415) 390-1460						**
+**	Fax:	(415) 964-8671						**
+**	E-mail:	mogal@sgi.com						**
+**									**
+**************************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sgi sale practic crimson kubota announc
+comment regard indic might open vendor support
+opengl rather deal sgi  opengl graphic program
+librari great portabl interfac develop interact
+graphic applic howev indic perform vari strong
+machin machin vendor vendor sgi commit high
+perform interact graphic system softwar tool
+opengl mean port easili sgi platform guarante
+perform compar   annoy fact led believ abl upgrad
+multiprocessor version crimson without assist fork
+lift truck  sale repres truli mislead valid
+grievanc carri local sgi sale manag team feel free
+contact local branch manag understand repeat sale
+come satisfi custom give shot   i'm also annoy
+sold sever person iris previous site understand
+architectur around rather flush  one previous post
+state person iri introduc grew includ clock rate
+sped time rule thumb sgi platform live year true
+motorola base seri profession seri earli 4d power
+seri parallel system individu cpu subsystem run
+particular clock rate usual live year new graphic
+architectur high end vgx realityengin releas everi
+month year  fact life look machin becom almost
+archaic four year come new platform like indigo
+onyx challeng higher bus bandwidth faster cpus
+faster graphic larger disk capac don't becom
+uncompetit  user perspect buy machin meet current
+need make econom sens today can't wait buy need
+guarante upgrad path machin ask sale rep one write
+it feasibl abl upgrad path specif program associ
+perform protect program older r3000 base power
+seri multiprocess system allow purchas system
+obtain guarante upgrad price move new onyx
+challeng r4400 base bit multiprocessor system
+understand sgi respons investor keep show posit
+quarter bottom line odd found pressur least two
+occas get busi book end quarter i'm littl tire get
+bone process   that happen it becaus misunderstand
+mis communic sgi direct attempt annoy custom base
+mayb it lab buy sgis onesi twosi aren't entitl
+peek cover big kid nasa instanc lab suspect lot
+lab organ doesn't load money spend comput everi
+year can't buy new system regular basi  sgi custom
+onesi twosey type regardless rare give great deal
+notic introduc new system like previous post state
+pre announc schedul slip mess potenti custom
+schedul count avail new system particular date
+also look aw bad investor financi analyst watch
+care see meet commit  box buy last pretti much
+entir grant period five year case beyond mean need
+buy best piec equip money product built paraphras
+one previous poster word to fill nich compet
+vendor i'm go look box next five year everi time
+look i'm go think sgi could better spent money
+actual money sinc we'r support almost entir feder
+tax dollar   five year aw long time comput year
+new processor technolog arriv everi year make year
+old comput least probabl generat behind time
+competit natur market demand rate develop time
+realli year purchas accept limit viabil whatev
+architectur buy vendor  realiti comput biz live
+keep custom happi import don't give know  josh
+joshua mogal product manag advanc graphic divis
+advanc graphic system silicon graphic inc market
+manag north shorelin blvd virtual realiti mountain
+view interact entertain   tel fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sgi, 7831, 0.359970820245
+buy, 1433, 0.210940284579
+year, 9943, 0.200195232447
+vendor, 9458, 0.193059394941
+sale, 7590, 0.180766405347
+custom, 2311, 0.175650026264
+graphic, 3997, 0.174838943179
+upgrad, 9337, 0.154447515953
+machin, 5416, 0.150992318062
+opengl, 6259, 0.14414176435
+new, 6023, 0.135357060153
+previous, 6855, 0.124376314815
+architectur, 617, 0.120451840789
+annoy, 525, 0.117258703599
+guarante, 4076, 0.113262455189
+seri, 7805, 0.108281825709
+perform, 6539, 0.107803387315
+money, 5835, 0.107024662516
+onesi, 6242, 0.103524140146
+interact, 4704, 0.102378332757
+manag, 5472, 0.101377335516
+platform, 6676, 0.101027682419
+multiprocessor, 5921, 0.100561618022
+onyx, 6251, 0.0981410611993
+lab, 5085, 0.0939573671845
+comput, 1993, 0.0920559961244
+everi, 3235, 0.0909441301049
+crimson, 2231, 0.0889386269586
+rate, 7108, 0.0864241460516
+base, 923, 0.08309683547
+investor, 4746, 0.0803012271925
+introduc, 4732, 0.0797361927179
+time, 8936, 0.0788619485765
+clock, 1827, 0.0781724690662
+quarter, 7027, 0.0776896410849
+live, 5310, 0.0730164214366
+purchas, 6988, 0.0716889481647
+understand, 9246, 0.0714039663309
+commit, 1945, 0.0705337584771
+aw, 829, 0.0699917931764
+challeng, 1642, 0.0694710869775
+path, 6461, 0.0682522218382
+look, 5341, 0.0662647263629
+meet, 5615, 0.0653363651626
+faster, 3399, 0.065150679531
+realiti, 7148, 0.0621881574075
+program, 6905, 0.061814930386
+announc, 524, 0.0609227902724
+market, 5514, 0.0605264531913
+schedul, 7678, 0.060396927225
+indic, 4600, 0.0578268368123
+entir, 3129, 0.0577210489518
+local, 5322, 0.0565132797649
+product, 6896, 0.0555844881182
+particular, 6442, 0.0555844881182
+box, 1254, 0.0542216201317
+deal, 2418, 0.0536667086513
+need, 5993, 0.0535438109631
+becom, 983, 0.0532088596166
+twosi, 9175, 0.0517620700728
+biz, 1130, 0.0517620700728
+vgx, 9494, 0.050280809011
+sgis, 7832, 0.050280809011
+nich, 6049, 0.050280809011
+advanc, 285, 0.050201409172
+develop, 2588, 0.0494458793802
+power, 6783, 0.0492774673176
+joshua, 4896, 0.0490705305997
+abl, 180, 0.0485714032746
+sped, 8215, 0.0480472547832
+shorelin, 7903, 0.0480472547832
+flush, 3562, 0.0480472547832
+mislead, 5764, 0.0471608529524
+state, 8342, 0.0470724853291
+grew, 4039, 0.0463789911266
+fork, 3609, 0.0463789911266
+end, 3091, 0.0457685180193
+support, 8576, 0.0457257601523
+fact, 3350, 0.0455560925876
+peek, 6503, 0.0450469083231
+mis, 5756, 0.0450469083231
+high, 4292, 0.0448983082161
+blvd, 1182, 0.0444693134793
+person, 6562, 0.0442333763082
+great, 4016, 0.0441572941158
+thumb, 8905, 0.0439379777295
+slip, 8038, 0.0439379777295
+misunderstand, 5778, 0.0434460376628
+truck, 9120, 0.0421572003095
+occas, 6186, 0.0421572003095
+mess, 5649, 0.0421572003095
+bone, 1213, 0.0421572003095
+motorola, 5883, 0.0417777740062
+kubota, 5078, 0.0417777740062
+capac, 1499, 0.0417777740062
+analyst, 491, 0.0417777740062
+subsystem, 8505, 0.0414188675126
+rep, 7284, 0.0414188675126
+iri, 4764, 0.0414188675126
+cpu, 2200, 0.0414188675126
+bandwidth, 893, 0.0414188675126
+paraphras, 6424, 0.0410783747703
+indigo, 4601, 0.0410783747703
+financi, 3484, 0.0410783747703
+mean, 5595, 0.0410289102455
+josh, 4895, 0.0401506135962
+portabl, 6749, 0.0398680963589
+feasibl, 3419, 0.0398680963589
+silicon, 7955, 0.0393367606091
+entertain, 3127, 0.0393367606091
+competit, 1970, 0.0390862345331
+entitl, 3132, 0.0388448205424
+post, 6766, 0.0387742151696
+come, 1923, 0.0384989190312
+sold, 8109, 0.0383868352972
+econom, 2984, 0.0383868352972
+tire, 8948, 0.0381691714325
+satisfi, 7635, 0.0381691714325
+regardless, 7225, 0.0379584187117
+rare, 7101, 0.0377541517296
+mountain, 5887, 0.0369946782998
+lift, 5264, 0.0369946782998
+older, 6218, 0.0368176503922
+bus, 1419, 0.0368176503922
+processor, 6891, 0.036645221136
+perspect, 6564, 0.0364771576499
+vari, 9426, 0.0363132443066
+pre, 6802, 0.0363132443066
+arriv, 655, 0.0363132443066
+led, 5188, 0.0358444740824
+poster, 6769, 0.0356952958241
+port, 6748, 0.0356952958241
+feder, 3425, 0.0356952958241
+compet, 1969, 0.0355493964759
+tax, 8718, 0.0354066349926
+grant, 3994, 0.0351300052529
+branch, 1269, 0.0351300052529
+demand, 2514, 0.0349958965882
+tel, 8754, 0.034864443716
+parallel, 6420, 0.0347355434888
+instanc, 4680, 0.0347355434888
+profession, 6900, 0.0344850174128
+interfac, 4709, 0.0344850174128
+dollar, 2802, 0.0342436034221
+piec, 6624, 0.0341261109191
+valid, 9411, 0.0340106618679
+larger, 5125, 0.0340106618679
+disk, 2720, 0.0340106618679
+odd, 6198, 0.0337856181769
+virtual, 9536, 0.0336758941395
+equip, 3161, 0.0334617415963
+kid, 5008, 0.0333572015913
+make, 5459, 0.033298735111
+repeat, 7286, 0.0331529346093
+assist, 705, 0.0331529346093
+north, 6110, 0.0330531108767
+truli, 9127, 0.0329547660687
+spent, 8223, 0.0328578570028
+pressur, 6842, 0.0328578570028
+obtain, 6183, 0.0328578570028
+communic, 1950, 0.0327623423604
+tool, 8988, 0.0326681825813
+shot, 7910, 0.0325753397655
+protect, 6940, 0.0323934611794
+suspect, 8603, 0.0321296587928
+wait, 9611, 0.031959440412
+potenti, 6774, 0.0317934779397
+repres, 7294, 0.0317120271862
+basi, 936, 0.031631563739
+easili, 2962, 0.0313958649042
+happi, 4161, 0.031243256962
+associ, 706, 0.031243256962
+spend, 8222, 0.0310940787038
+price, 6857, 0.030876414839
+load, 5317, 0.030876414839
+regular, 7234, 0.0308054178722
+divis, 2767, 0.0307351722101
+notic, 6120, 0.0306656621182
+count, 2180, 0.0306656621182
+busi, 1424, 0.0305968723511
+cover, 2194, 0.0305287881325
+higher, 4293, 0.0304613951362
+don, 2811, 0.0301137462296
+contact, 2078, 0.0300708028873
+period, 6546, 0.0295833801077
+librari, 5250, 0.0294669182938
+strong, 8456, 0.0294094447476
+date, 2391, 0.0291844010565
+attempt, 763, 0.0291844010565
+practic, 6793, 0.0290746770191
+built, 1381, 0.0290746770191
+applic, 585, 0.0290746770191
+releas, 7253, 0.0290204877131
+limit, 5278, 0.0290204877131
+individu, 4604, 0.0290204877131
+whatev, 9718, 0.0289667371918
+aren, 623, 0.0289667371918
+generat, 3819, 0.0287559844709
+user, 9366, 0.0286530653067
+natur, 5966, 0.0281138783991
+carri, 1530, 0.0280669654609
+usual, 9377, 0.0280203817391
+like, 5272, 0.0279547781228
+compar, 1960, 0.0279281836859
+fax, 3413, 0.0278825604608
+organ, 6287, 0.0277922440591
+rule, 7537, 0.0277031399948
+sens, 7788, 0.0276590325028
+watch, 9655, 0.0275284416724
+earli, 2951, 0.0275284416724
+site, 7994, 0.0273582232916
+month, 5847, 0.0273582232916
+accept, 208, 0.0272747234092
+regard, 7224, 0.0271922608193
+free, 3668, 0.0270303466186
+process, 6890, 0.0268333543257
+comment, 1936, 0.0266420398416
+technolog, 8743, 0.0263831375461
+specif, 8203, 0.0263469622352
+open, 6258, 0.0263469622352
+care, 1516, 0.0261339550897
+feel, 3429, 0.0260991090616
+posit, 6761, 0.0260644449978
+view, 9510, 0.0259275710121
+type, 9177, 0.0259275710121
+version, 9479, 0.0258267363676
+respons, 7323, 0.0255651004093
+direct, 2667, 0.0254380505384
+allow, 432, 0.0254380505384
+today, 8964, 0.0253754259879
+import, 4551, 0.0251607787799
+old, 6216, 0.025100704586
+nasa, 5956, 0.0249821629873
+sever, 7823, 0.0245007213462
+life, 5260, 0.0244463099504
+bad, 861, 0.0244463099504
+pretti, 6851, 0.0243388071455
+current, 2299, 0.0240518481863
+word, 9829, 0.0237767817751
+book, 1218, 0.0237767817751
+true, 9121, 0.0236795177182
+happen, 4159, 0.0233959947763
+mayb, 5564, 0.023236031539
+case, 1540, 0.0230798324942
+avail, 811, 0.0230578153824
+ask, 689, 0.0229921988371
+write, 9865, 0.0228842590097
+howev, 4406, 0.0228842590097
+includ, 4579, 0.022841569775
+big, 1082, 0.0226115635086
+bit, 1122, 0.0223892605909
+littl, 5308, 0.0223102340251
+best, 1052, 0.0221934306634
+softwar, 8103, 0.0221549485086
+team, 8732, 0.0220408227213
+line, 5285, 0.022003212688
+probabl, 6885, 0.021709765877
+doesn, 2793, 0.0215327379694
+actual, 254, 0.0213433095922
+long, 5336, 0.0209159541774
+lot, 5356, 0.0207121696017
+believ, 1009, 0.0204994874656
+sinc, 7977, 0.020235685079
+run, 7543, 0.0199958107272
+better, 1060, 0.0198586539239
+realli, 7150, 0.0196977211178
+think, 8871, 0.0152033578639
+know, 5052, 0.0142984676849

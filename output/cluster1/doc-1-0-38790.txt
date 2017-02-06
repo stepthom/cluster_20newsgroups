@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38790
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: thssstb@iitmax.iit.edu (Stephen T Bacon)
+Subject: RE: 48 bit graphics...
+Organization: Illinois Institute of Technology / Academic Computing Center
+Lines: 18
+
+
+A good reason (which is why many companies use it) for 48 bits / pixel
+is so you can use double buffering (for animating scenes) - i.e. you have
+2 * 24-bit planes. You write to the one in the background, and then FLIP! 
+-- the entire screen updates to the second image-plane. The screen updates 
+in one refresh and you don't see different objects appearing in the order 
+that they're drawn (as in the CAD/MacDraw effect). Now your ready to update 
+the image that used to be in the foreground.
+
+Steve. (thssstb@iitmax.iit.edu / iris.iit.edu)
+
+About the SG product line: who can even keep track nowadays? Every co. seems
+to (as their ads / press releases claim) redefine computing (etc. etc.) as
+we know it with each new product. Progress and competition are great, but who
+wants to invest in a system that's obsolete by the time it reaches your desk?
+:-)
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bit graphic     good reason mani compani use bit
+pixel use doubl buffer anim scene bit plane write
+one background flip entir screen updat second imag
+plane screen updat one refresh don't see differ
+object appear order they'r drawn cad macdraw
+effect readi updat imag use foreground    product
+line even keep track nowaday everi seem ad press
+releas claim redefin comput etc etc know new
+product progress competit great want invest system
+that obsolet time reach desk
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+updat, 9333, 0.319499201899
+bit, 1122, 0.248760424013
+plane, 6663, 0.238631480432
+screen, 7719, 0.228705782583
+product, 6896, 0.205860912299
+macdraw, 5413, 0.186218377907
+desk, 2566, 0.177946258713
+redefin, 7197, 0.174663409564
+refresh, 7219, 0.171767731395
+nowaday, 6130, 0.166834272611
+imag, 4512, 0.164820430148
+use, 9363, 0.162890000488
+obsolet, 6182, 0.159209160473
+flip, 3545, 0.153397578015
+drawn, 2863, 0.153397578015
+cad, 1445, 0.145686354234
+competit, 1970, 0.144758513962
+scene, 7671, 0.139825055177
+buffer, 1371, 0.139091124581
+progress, 6907, 0.1357180557
+invest, 4744, 0.128177138334
+background, 855, 0.12596078721
+pixel, 6651, 0.123927823847
+track, 9030, 0.121691296399
+readi, 7139, 0.120988824347
+press, 6841, 0.118054702309
+doubl, 2828, 0.114618676034
+releas, 7253, 0.107479339619
+reach, 7128, 0.106886904947
+entir, 3129, 0.106886904947
+anim, 515, 0.106118565879
+ad, 257, 0.105557670466
+compani, 1958, 0.102274821317
+appear, 580, 0.099961060237
+effect, 3005, 0.0985313057105
+claim, 1782, 0.0957749188448
+object, 6173, 0.0905385628098
+order, 6281, 0.0869069865481
+second, 7753, 0.0855595343196
+comput, 1993, 0.0852339024175
+write, 9865, 0.0847534014706
+everi, 3235, 0.0842044346609
+great, 4016, 0.0817697631038
+line, 5285, 0.0814903868112
+graphic, 3997, 0.080940981843
+reason, 7156, 0.0792991937839
+differ, 2633, 0.0757007453172
+new, 6023, 0.0716148614031
+mani, 5479, 0.0697365598031
+want, 9634, 0.0669703894802
+good, 3948, 0.0631971126288
+time, 8936, 0.0584141123873
+don, 2811, 0.0557641482493
+know, 5052, 0.0529553424298

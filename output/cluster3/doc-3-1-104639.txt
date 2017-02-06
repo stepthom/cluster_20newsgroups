@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104639
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rkoffler@ux4.cso.uiuc.edu (Bighelmet)
+Subject: Phils spot on ESPN
+Distribution: na
+Organization: University of Illinois at Urbana
+Lines: 15
+
+A few weeks ago I posted about the Phillies team personalities.  Did anyone see the ESPN feature on the Phils on Monday Night.  John Kruk had a great line.  He was talking about people on the team always playing and not sitting out because of a minor injury.  He said if they do they know we'll kick their ass.  The 
+time I saw in was in the afternoon and it was not bleeped.  When I saw it at
+they bleeped "ass."  Mitch Williams talked about the team being a bunch of 
+throwaways from other teams, and that is why they are so close.  Kruk said that
+they all get along this year.  Last year, he said, they hated the pitchers.  I 
+assume he was joking, but he always keeps a straight face when he talks.  Oh,
+What a team!!!!!
+
+Rob Koffler
+
+-- 
+******************************************************************
+|You live day to day and                rkoffler@ux4.cso.uiuc.edu|
+|dream about tomorrow --Don Henley                               |
+******************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ phil spot espn     week ago post philli team
+person anyon see espn featur phil monday night
+john kruk great line talk peopl team alway play
+sit minor injuri said know we'll kick ass time saw
+afternoon bleep saw bleep ass mitch william talk
+team bunch throwaway team close kruk said get
+along year last year said hate pitcher assum joke
+alway keep straight face talk team  rob koffler
+dream tomorrow henley
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+team, 8732, 0.360895456665
+kruk, 5074, 0.314689450131
+ass, 696, 0.281553787798
+espn, 3192, 0.257639351548
+talk, 8684, 0.220548874042
+said, 7583, 0.217095471661
+phil, 6588, 0.213962950842
+saw, 7650, 0.191509464465
+koffler, 5058, 0.164659148699
+henley, 4256, 0.164659148699
+alway, 457, 0.164203727646
+mitch, 5782, 0.16069573966
+afternoon, 324, 0.140776893899
+monday, 5834, 0.126445839853
+kick, 5006, 0.126445839853
+joke, 4883, 0.124305893917
+tomorrow, 8979, 0.122988001627
+dream, 2865, 0.121149845339
+rob, 7434, 0.11839444513
+injuri, 4650, 0.11594933516
+bunch, 1399, 0.114173771963
+straight, 8422, 0.11028152032
+sit, 7993, 0.11028152032
+hate, 4202, 0.109580215466
+year, 9943, 0.109266262804
+william, 9764, 0.109237868782
+spot, 8261, 0.106081820204
+philli, 6593, 0.104387048156
+featur, 3422, 0.101826613963
+minor, 5745, 0.0999754053996
+face, 3345, 0.0935009119399
+night, 6063, 0.0882583948587
+pitcher, 6644, 0.0863992655206
+ago, 336, 0.0846866822756
+assum, 710, 0.084359780399
+close, 1830, 0.0823962958429
+john, 4878, 0.082199565404
+week, 9691, 0.0800565596384
+person, 6562, 0.0724275347815
+great, 4016, 0.0723029581361
+line, 5285, 0.0720559263285
+play, 6681, 0.0716905636921
+ll, 5314, 0.0688633952922
+post, 6766, 0.0634887284718
+peopl, 6530, 0.0589801230803
+anyon, 554, 0.0584154532771
+time, 8936, 0.0516512823589
+know, 5052, 0.0468244955281

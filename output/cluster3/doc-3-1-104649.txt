@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104649
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dswartz@osf.org (Dan Swartzendruber)
+Subject: Re: Dopson Pitches First Shutout; Red Sox Win 6-0
+Organization: Open Software Foundation - Research Institute
+Lines: 18
+
+In article <C5r5vt.941@news.cso.uiuc.edu> cka52397@uxa.cso.uiuc.edu (OrioleFan@uiuc) writes:
+>jmann@vineland.pubs.stratus.com (Jim Mann) writes:
+
+[deleted]
+
+>	Someone told me this game started at 10:05 cdt.  Is this true??/ Who
+>in their right mind would go to a game on monday at 11AM????
+
+Keep in mind this was in Massachussetts.  Today was Patriots Day, a state
+holiday.  I think it might be a floating holiday, but given that the
+Marathon also happens the same day, most people don't go in.
+
+
+-- 
+
+#include <std_disclaimer.h>
+
+Dan S.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dopson pitch first shutout red sox win
+delet  someon told game start cdt true right mind
+game monday 11am  keep mind massachussett today
+patriot day state holiday think might float
+holiday given marathon also happen day peopl don't
+includ std disclaim  dan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+holiday, 4345, 0.44862450612
+marathon, 5501, 0.246197128216
+mind, 5733, 0.245998722759
+dopson, 2822, 0.23915177205
+cdt, 1588, 0.233395296917
+patriot, 6467, 0.22852826654
+std, 8356, 0.22431225306
+shutout, 7927, 0.211510421761
+game, 3761, 0.191410826671
+day, 2402, 0.187251535793
+monday, 5834, 0.183650570941
+float, 3546, 0.18258019044
+dan, 2350, 0.171213751809
+disclaim, 2691, 0.154938840151
+sox, 8162, 0.145855796295
+told, 8973, 0.142137008853
+delet, 2502, 0.135326398756
+red, 7194, 0.126361385694
+today, 8964, 0.120693724124
+pitch, 6643, 0.115260060778
+win, 9770, 0.114764784726
+given, 3887, 0.1133239324
+true, 9121, 0.112627436491
+state, 8342, 0.111945974047
+happen, 4159, 0.11127890978
+includ, 4579, 0.108641885354
+someon, 8124, 0.103173442492
+start, 8334, 0.0999406260872
+right, 7399, 0.0960430978472
+peopl, 6530, 0.0856630260866
+think, 8871, 0.0723120818018
+don, 2811, 0.0716153530097

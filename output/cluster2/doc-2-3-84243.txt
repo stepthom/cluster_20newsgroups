@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84243
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bevan@cs.man.ac.uk (Stephen J Bevan)
+Subject: Re: To Rob Lanphier
+	<bskendigC5vCn2.401@netcom.com>
+	<1993Apr23.225933.22683@organpipe.uug.arizona.edu>
+Organization: Department of Computer Science, University of Manchester
+Lines: 7
+In-reply-to: brian@lpl.arizona.edu's message of 23 Apr 93 22:59:33 GMT
+
+In article <1993Apr23.225933.22683@organpipe.uug.arizona.edu> brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+   Brian, it doesn't offend me if you decide to reject Jesus
+   Christ.  I only wish you would make that decision after you
+   learn who Jesus is.
+
+Have you rejected Buddha?  If you have, did you really learn who
+Buddha is before making the decision?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rob lanphier        brian doesn't offend decid
+reject jesus christ wish make decis learn jesus
+reject buddha realli learn buddha make decis
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+buddha, 1364, 0.52473651819
+reject, 7244, 0.374077205524
+decis, 2445, 0.352590739802
+learn, 5182, 0.294389469137
+jesus, 4859, 0.281675843668
+offend, 6201, 0.229270987317
+lanphier, 5116, 0.229270987317
+rob, 7434, 0.188649976031
+make, 5459, 0.173754785036
+brian, 1304, 0.162637780365
+wish, 9801, 0.160377960983
+christ, 1729, 0.160015253179
+decid, 2442, 0.150050441363
+doesn, 2793, 0.112359110478
+realli, 7150, 0.102783883145

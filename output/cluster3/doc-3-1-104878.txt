@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104878
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Hits Stolen -- Centerfield 1992
+From: grabiner@math.harvard.edu (David Grabiner)
+Organization: /etc/organization
+Nntp-Posting-Host: germain.harvard.edu
+In-reply-to: steph@pegasus.cs.uiuc.edu's message of Tue, 20 Apr 1993 23:54:08 GMT
+Lines: 35
+
+In article <steph.735350048@pegasus.cs.uiuc.edu>, Dale Stephenson writes:
+
+> NHS -- Net Hits Stolen -- Extra outs compared to average fielder
+> NEB -- Net Extra Bases --  Extra bases prevented compared to avg. fielder
+
+> National League
+
+> Name            HS   NHS   NEB   DCON    DOPS
+> Lankford, R.    39     4   -12  -.007    .844
+> Martinez, D.    21     5   -16  -.017    .660
+> Butler, B.       1   -29     5  -.088    .716
+
+> American League
+> ---------------
+
+> Name            HS   NHS   NEB   DCON    DOPS
+> Wilson, W.      47    26     0   .125    .787
+> Felix, J.       22     0    32   .063    .713
+
+I suspect that splits such as these are the result of positioning.  An
+outfielder who is fast and gets a good jump would be expected to catch a
+lot of balls, preventing both singles and doubles, and also cut off more
+uncatchable balls, turinging doubles into singles.  However, a fielder
+who plays shallow will catch more short flies and fewer long flies; this
+means that he will allow fewer singles but more doubles.
+
+Has anyone seen these players' positioning?  Do Butler and Felix play
+deep, and Lankford, Martinez, and Wilson shallow, or is this a park
+effect?  I thought Butler liked to play shallow.
+
+--
+David Grabiner, grabiner@zariski.harvard.edu
+"We are sorry, but the number you have dialed is imaginary."
+"Please rotate your phone 90 degrees and try again."
+Disclaimer: I speak for no one and no one speaks for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+hit stolen centerfield         nhs net hit stolen
+extra out compar averag fielder neb net extra base
+extra base prevent compar avg fielder  nation
+leagu  name nhs neb dcon dop lankford martinez
+butler  american leagu   name nhs neb dcon dop
+wilson felix  suspect split result posit outfield
+fast get good jump expect catch lot ball prevent
+singl doubl also cut uncatch ball turing doubl
+singl howev fielder play shallow catch short fli
+fewer long fli mean allow fewer singl doubl  anyon
+seen player posit butler felix play deep lankford
+martinez wilson shallow park effect thought butler
+like play shallow    sorri number dial imaginari
+pleas rotat phone degre tri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+nhs, 6044, 0.305239303759
+neb, 5986, 0.305239303759
+shallow, 7847, 0.291680084032
+butler, 1429, 0.243742007749
+fielder, 3467, 0.222461849872
+dop, 2819, 0.203492869173
+dcon, 2409, 0.198594717546
+extra, 3325, 0.187876864054
+doubl, 2828, 0.187876864054
+felix, 3435, 0.187701712827
+fewer, 3456, 0.169079998261
+martinez, 5524, 0.167627457748
+singl, 7983, 0.167116689944
+lankford, 5114, 0.166249440042
+wilson, 9768, 0.158186993542
+stolen, 8407, 0.157209960224
+catch, 1556, 0.142175627313
+prevent, 6853, 0.136290653535
+play, 6681, 0.132897430361
+fli, 3542, 0.114750441375
+compar, 1960, 0.113028933718
+net, 6010, 0.108130782092
+leagu, 5176, 0.107823744976
+posit, 6761, 0.10548614472
+ball, 877, 0.105069617691
+hit, 4316, 0.0939479694186
+centerfield, 1607, 0.0938508564133
+avg, 820, 0.0889113095998
+dial, 2609, 0.0869890749438
+imaginari, 4519, 0.0853077925354
+base, 923, 0.084075882039
+outfield, 6325, 0.0748610988905
+jump, 4929, 0.0731584777523
+deep, 2466, 0.0702895950346
+split, 8247, 0.0695361605063
+suspect, 8603, 0.0650164205974
+rotat, 7490, 0.0623367343542
+degre, 2491, 0.0623367343542
+park, 6430, 0.0619147291471
+american, 469, 0.0597455119487
+fast, 3397, 0.0592822685386
+cut, 2313, 0.0590565030961
+phone, 6601, 0.0589450275382
+averag, 816, 0.0571791189914
+effect, 3005, 0.0538357661788
+short, 7904, 0.0530975184555
+nation, 5962, 0.0528837304793
+result, 7332, 0.05212772534
+expect, 3290, 0.0520610615425
+sorri, 8142, 0.0517976662871
+allow, 432, 0.0514755230875
+seen, 7767, 0.049858054232
+thought, 8887, 0.0468832226908
+player, 6683, 0.0463511639272
+howev, 4406, 0.0463077625078
+number, 6156, 0.0436793418727
+long, 5336, 0.0423247717245
+lot, 5356, 0.0419124005952
+mean, 5595, 0.0415123126949
+pleas, 6688, 0.0395154907801
+tri, 9087, 0.0389024842961
+anyon, 554, 0.0360961667946
+good, 3948, 0.0345297867934
+like, 5272, 0.028284141202

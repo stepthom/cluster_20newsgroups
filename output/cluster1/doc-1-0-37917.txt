@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37917
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: andrey@cco.caltech.edu (Andre T. Yew)
+Subject: Re: 16 million vs 65 thousand colors
+Organization: California Institute of Technology, Pasadena
+Lines: 28
+NNTP-Posting-Host: punisher.caltech.edu
+
+d9hh@dtek.chalmers.se (Henrik Harmsen) writes:
+
+>1-4 bits per R/G/B gives horrible machbanding visible in almost any picture.
+
+>5 bits per R/G/B (32768, 65000 colors) gives visible machbanding
+
+>color-gradient picture has _almost_ no machbanding. This color-resolution is 
+
+>see some small machbanding on the smooth color-gradient picture, but all in all,
+>There _ARE_ situiations where you get visible mach-banding even in
+>a 24 bit card. If
+>you create a very smooth color gradient of dark-green-white-yellow
+>or something and turn
+>up the contrast on the monitor, you will probably see some mach-banding.
+
+    While I don't mean to damn Henrik's attempt to be helpful here,
+he's using a common misconception that should be corrected.
+
+    Mach banding will occur for any image.  It is not the color
+quantization you see when you don't have enough bits.  It is the
+human eye's response to transitions or edges between intensities.
+The result is that colors near the transistion look brighter on
+the brighter side and darker on the darker side.
+
+--Andre
+
+-- 
+             Andre Yew andrey@cco.caltech.edu (131.215.139.2)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ million thousand color       bit per give horribl
+machband visibl almost pictur  bit per color give
+visibl machband  color gradient pictur almost
+machband color resolut  see small machband smooth
+color gradient pictur situiat get visibl mach band
+even bit card creat smooth color gradient dark
+green white yellow someth turn contrast monitor
+probabl see mach band  don't mean damn henrik
+attempt help he use common misconcept correct
+mach band occur imag color quantize see don't
+enough bit human eye respons transit edg intens
+result color near transist look brighter brighter
+side darker darker side  andr
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+machband, 5415, 0.45032098163
+color, 1907, 0.447703051862
+gradient, 3979, 0.283467124286
+mach, 5414, 0.279832487516
+band, 891, 0.230597744461
+darker, 2366, 0.225160490815
+visibl, 9541, 0.214019227371
+brighter, 1313, 0.194566356587
+bit, 1122, 0.18785216125
+pictur, 6622, 0.176324132524
+smooth, 8069, 0.161038144713
+misconcept, 5759, 0.0932774958386
+quantize, 7023, 0.0901704471412
+yellow, 9947, 0.0892718133834
+transit, 9056, 0.0836261210541
+contrast, 2101, 0.0836261210541
+horribl, 4380, 0.0809911172415
+andr, 503, 0.0779804287248
+intens, 4701, 0.0775989256674
+green, 4025, 0.0768659148204
+monitor, 5837, 0.071581904918
+damn, 2346, 0.0711017197287
+thousand, 8888, 0.0685237982412
+resolut, 7316, 0.0677606488748
+occur, 6192, 0.0666890440661
+edg, 2993, 0.0663494177036
+dark, 2365, 0.0660178784565
+eye, 3337, 0.0653775821747
+million, 5724, 0.0643233714852
+don, 2811, 0.0631656893
+attempt, 763, 0.0612163227877
+common, 1948, 0.060759757605
+card, 1513, 0.059784137526
+white, 9737, 0.0596798374837
+near, 5982, 0.056366503672
+turn, 9158, 0.0554167726439
+small, 8054, 0.0542435324165
+result, 7332, 0.0540341451544
+creat, 2217, 0.0538278600401
+human, 4432, 0.0537597719311
+respons, 7323, 0.053624586495
+correct, 2156, 0.053624586495
+imag, 4512, 0.0466742360812
+probabl, 6885, 0.0455377526166
+mean, 5595, 0.0430305046925
+someth, 8126, 0.0409877706904
+help, 4249, 0.0409065810112
+look, 5341, 0.0347487247607
+use, 9363, 0.0307517149876

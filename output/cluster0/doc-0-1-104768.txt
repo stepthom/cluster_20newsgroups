@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104768
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: franjion@spot.Colorado.EDU (John Franjione)
+Subject: Re: Jack Morris
+Nntp-Posting-Host: spot.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 15
+
+tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+
+>-Valentine
+>(No, I'm not going to be cordial.  Roger Maynard is a complete and
+>total dickhead.  Send me e-mail if you insist on details.)
+
+In fact, he's a complete and total dickhead on at least 2 newsgroups
+(this one and rec.sport.hockey).  Since hockey season is almost over,
+he's back to being a dickhead in r.s.bb.
+
+-- 
+John Franjione
+Department of Chemical Engineering
+University of Colorado, Boulder
+franjion@spot.colorado.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri       valentin i'm go cordial roger
+maynard complet total dickhead send mail insist
+detail  fact he complet total dickhead least
+newsgroup one rec sport hockey sinc hockey season
+almost he back dickhead   john franjion depart
+chemic engin univers colorado boulder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dickhead, 2622, 0.619227622122
+hockey, 4334, 0.359262936299
+total, 9013, 0.211288712094
+complet, 1975, 0.20466241122
+cordial, 2139, 0.200502451303
+maynard, 5565, 0.184943352996
+franjion, 3654, 0.184943352996
+boulder, 1248, 0.157899574793
+rec, 7165, 0.152205435571
+chemic, 1690, 0.14752196375
+valentin, 9409, 0.142340476486
+insist, 4673, 0.136551629988
+colorado, 1908, 0.132606560516
+morri, 5868, 0.129534054059
+sport, 8257, 0.128121950982
+roger, 7458, 0.127110210426
+depart, 2535, 0.124288180857
+jack, 4808, 0.123699919859
+newsgroup, 6032, 0.117047462209
+engin, 3109, 0.103255462035
+season, 7747, 0.10194476582
+send, 7785, 0.101690238325
+john, 4878, 0.100092916123
+mail, 5447, 0.09099956279
+fact, 3350, 0.0908309593188
+univers, 9282, 0.0879664748006
+sinc, 7977, 0.0806929033547

@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102690
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lloyd@uclink.berkeley.edu (Lloyd Nebres)
+Subject: Re: MARLINS WIN! MARLINS WIN!
+Article-I.D.: 128.lloyd-060493114752
+Distribution: world
+Organization: UC Berkeley
+Lines: 14
+NNTP-Posting-Host: tol3mac15.soe.berkeley.edu
+
+>>(Look at all that Teal!!!!  BLEAH!!!!!!!!!)
+
+Indeed, if the color teal on a team's uniforms is any indication of the
+future, the Marlins are in dire trouble! Refer to the San Jose Sharks for
+proof... But I have hope for the Marlins. I was a sometime member of the
+Rene Lachemann fan club at the Oakland Coliseum, and have a deep respect
+for the guy. He's a gem. And, of course, Walt Weiss gives that franchise
+class. But yeah... whoever designed those uniforms was guilty of a paucity
+of style and imagination. Ugghhh!
+
+Lloyd R. Nebres, UC Berkeley
+Internet: lloyd@uclink.berkeley.edu
+Vox: (510) 848-9760 or 643-9390
+"Never underestimate the bandwidth of a 747 carrying a ton of CD-ROMs..."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ marlin win marlin win articl lloyd      look teal
+bleah  inde color teal team uniform indic futur
+marlin dire troubl refer san jose shark proof hope
+marlin sometim member rene lachemann fan club
+oakland coliseum deep respect guy he gem cours
+walt weiss give franchis class yeah whoever design
+uniform guilti pauciti style imagin ugghhh  lloyd
+nebr berkeley  vox never underestim bandwidth
+carri ton rom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+marlin, 5517, 0.468309952137
+teal, 8731, 0.305946162037
+lloyd, 5316, 0.29956621658
+uniform, 9273, 0.236664091052
+dire, 2666, 0.161363719572
+coliseum, 1893, 0.156746017957
+shark, 7857, 0.152973081018
+win, 9770, 0.150439387116
+rene, 7280, 0.14978310829
+bleah, 1150, 0.14978310829
+franchis, 3650, 0.147019828223
+underestim, 9238, 0.144582442465
+walt, 9627, 0.13862918967
+bandwidth, 893, 0.12911969156
+berkeley, 1039, 0.125166021063
+gem, 3813, 0.122628905661
+ton, 8980, 0.119667596706
+rom, 7467, 0.118989048673
+guilti, 4088, 0.117695261102
+weiss, 9698, 0.116477623978
+style, 8479, 0.115327669207
+oakland, 6167, 0.114238267108
+proof, 6919, 0.110822129714
+club, 1842, 0.109514714311
+deep, 2466, 0.108285014313
+jose, 4892, 0.106751434244
+yeah, 9942, 0.103351369753
+troubl, 9117, 0.100161397025
+class, 1789, 0.0991133826615
+inde, 4594, 0.098608629323
+imagin, 4518, 0.0939411229644
+respect, 7321, 0.093743094076
+san, 7603, 0.093546942267
+member, 5625, 0.0916813680044
+sometim, 8128, 0.0909798140092
+indic, 4600, 0.0901350493323
+carri, 1530, 0.0874963064172
+futur, 3737, 0.0873510857446
+color, 1907, 0.0831721396657
+fan, 3381, 0.0823605116827
+design, 2564, 0.0804088595989
+guy, 4100, 0.0776973789606
+refer, 7213, 0.076293867585
+hope, 4372, 0.0739698731294
+cours, 2190, 0.0708124123651
+team, 8732, 0.0687103342607
+articl, 665, 0.0666952868536
+look, 5341, 0.0516436200643

@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38267
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dls@aeg.dsto.gov.au (David Silver)
+Subject: Re: Fractal Generation of Clouds
+Organization: Defence Science and Technology Organisation
+Lines: 14
+NNTP-Posting-Host: kestrel.dsto.gov.au
+
+haabn@nye.nscee.edu (Frederick J. Haab) writes:
+
+
+>I need to implement an algorithm to fractally generate clouds
+>as sort of a benchmark for some algorithms I'm working on.
+
+Just as a matter of interest, a self-promo computer graphics sequence 
+that one of the local TV stations used to play quite a lot a couple of
+years ago showed a 3D flyover of Australia from the West coast to the
+East.  The clouds were quite recognisable as fuzzy, flat, white
+Mandlebrot sets!!
+
+David Silver
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fractal generat cloud        need implement
+algorithm fractal generat cloud sort benchmark
+algorithm i'm work  matter interest self promo
+comput graphic sequenc one local station use play
+quit lot coupl year ago show flyover australia
+west coast east cloud quit recognis fuzzi flat
+white mandlebrot set  david silver
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cloud, 1835, 0.462862728325
+fractal, 3637, 0.334404304111
+algorithm, 407, 0.248452263876
+generat, 3819, 0.24755230792
+benchmark, 1023, 0.216426781134
+recognis, 7174, 0.211217305272
+quit, 7043, 0.209297008941
+fuzzi, 3738, 0.187007454123
+silver, 7957, 0.175422095098
+coast, 1859, 0.166199487386
+flat, 3526, 0.164293914004
+sequenc, 7804, 0.156305332639
+australia, 792, 0.149514337897
+implement, 4544, 0.137928978872
+west, 9708, 0.137564986548
+self, 7776, 0.132597656297
+east, 2965, 0.129985105717
+white, 9737, 0.12246723758
+local, 5322, 0.121626794312
+station, 8346, 0.120609853843
+coupl, 2187, 0.118865874665
+david, 2397, 0.115333851732
+ago, 336, 0.111311555991
+matter, 5553, 0.110881878555
+sort, 8144, 0.109903733762
+set, 7815, 0.102343865314
+comput, 1993, 0.099060572598
+play, 6681, 0.094229552747
+graphic, 3997, 0.0940712531117
+lot, 5356, 0.0891526665018
+work, 9833, 0.080949340506
+need, 5993, 0.0768239737607
+year, 9943, 0.0718093884611
+use, 9363, 0.0631046890232

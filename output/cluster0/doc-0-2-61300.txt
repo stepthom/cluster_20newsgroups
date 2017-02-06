@@ -1,0 +1,209 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61300
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rdouglas@stsci.edu (Rob Douglas)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Originator: rdouglas@phaedrus.stsci.edu
+Organization: Space Telescope Science Institute
+Lines: 52
+
+
+In article <1993Apr27.094238.7682@samba.oit.unc.edu>, Bruce.Scott@launchpad.unc.edu (Bruce Scott) writes:
+|> If re-boosting the HST by carrying it with a shuttle would not damage it,
+|> then why couldn't HST be brought back to earth and the repair job done
+|> here?
+|> 
+
+Reboost may not be a problem, if they have enough fuel.  If they don't do a 
+reboost this time, they will definitely have to do one on the next servicing
+mission.  But try to land a shuttle with that big huge telescope in the 
+back and you could have problems.  The shuttle just isn't designed to land 
+with that much weight in the payload.
+
+|> Is it because two shuttle flights would be required, adding to the alredy
+|> horrendous expense?
+|> 
+
+of course that is a concern too, and the loss of science during the time
+that it is on the ground.  plus a fear that if it comes down, some
+big-wig might not allow it to go back up.  but the main concern, I
+believe is the danger of the landing.  Just to add another bad vibe,
+they also increase the risk of damaging an instrument.  Finally, 
+this is a chance for NASA astronanuts to prove they could build and
+service a space station.  Hubble was designed for in flight servicing.
+
+bringing the telescope down, to my understanding, was considered
+even very recently, but all these factors contribute to the 
+decision to do it the way it was planned in the beginning.
+
+|> Gruss,
+|> Dr Bruce Scott                             The deadliest bullshit is
+|> Max-Planck-Institut fuer Plasmaphysik       odorless and transparent
+|> bds at spl6n1.aug.ipp-garching.mpg.de                 -- W Gibson
+
+ROB
+-- 
+===========================================================================
+| Rob Douglas                     | SPACE     | 3700 San Martin Drive     |
+| AI Software Engineer            | TELESCOPE | Baltimore, MD  21218, USA |
+| Advance Planning Systems Branch | SCIENCE   | Phone: (410) 338-4497     |
+| Internet: rdouglas@stsci.edu    | INSTITUTE | Fax:   (410) 338-1592     |
+===========================================================================
+
+Disclaimer-type-thingie>>>>>  These opinions are mine!  Unless of course 
+	they fall under the standard intellectual property guidelines. 
+	But with my intellect, I doubt it.  Besides, if it was useful
+	intellectual property, do you think I would type it in here?
+-- 
+===========================================================================
+| Rob Douglas                     | SPACE     | 3700 San Martin Drive     |
+| AI Software Engineer            | TELESCOPE | Baltimore, MD  21218, USA |
+| Advance Planning Systems Branch | SCIENCE   | Phone: (410) 338-4497     |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day       boost hst
+carri shuttl damag couldn't hst brought back earth
+repair job done    reboost problem enough fuel
+don't reboost time definit one next servic mission
+tri land shuttl big huge telescop back could
+problem shuttl isn't design land much weight
+payload  two shuttl flight requir ad alredi
+horrend expens   cours concern loss scienc time
+ground plus fear come big wig might allow back
+main concern believ danger land add anoth bad vibe
+also increas risk damag instrument final chanc
+nasa astronanut prove could build servic space
+station hubbl design flight servic  bring telescop
+understand consid even recent factor contribut
+decis way plan begin  gruss bruce scott deadliest
+bullshit max planck institut fuer plasmaphysik
+odorless transpar bds spl6n1 ipp garch mpg gibson
+rob   rob dougla space san martin drive softwar
+engin telescop baltimor usa advanc plan system
+branch scienc phone    disclaim type thingi
+opinion mine unless cours fall standard intellectu
+properti guidelin intellect doubt besid use
+intellectu properti think type   rob dougla space
+san martin drive softwar engin telescop baltimor
+usa advanc plan system branch scienc phone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+telescop, 8764, 0.265095379656
+servic, 7813, 0.214334869689
+rob, 7434, 0.212754752349
+shuttl, 7929, 0.209639296972
+hst, 4416, 0.200825265715
+reboost, 7160, 0.174461948249
+land, 5104, 0.166284614911
+intellectu, 4697, 0.159887990117
+plan, 6660, 0.159541638018
+dougla, 2837, 0.14974523981
+scienc, 7692, 0.145991405729
+martin, 5523, 0.143107133712
+properti, 6925, 0.142464069114
+damag, 2344, 0.141223701692
+branch, 1269, 0.137821987318
+baltimor, 887, 0.132117220639
+usa, 9357, 0.125055645162
+san, 7603, 0.117726878729
+phone, 6601, 0.114280077273
+flight, 3544, 0.113225569131
+drive, 2873, 0.113019696177
+concern, 2004, 0.112612769257
+space, 8164, 0.110808171639
+mission, 5772, 0.102943178849
+type, 9177, 0.101719010217
+engin, 3109, 0.101586476633
+thingi, 8870, 0.101536440342
+planck, 6662, 0.101536440342
+fuer, 3716, 0.101536440342
+alredi, 444, 0.101536440342
+design, 2564, 0.101192875292
+garch, 3773, 0.0986307996824
+advanc, 285, 0.0984750490138
+mpg, 5896, 0.0962567183997
+horrend, 4379, 0.0942494612759
+intellect, 4696, 0.0925106960665
+guidelin, 4084, 0.0909769964575
+bds, 966, 0.089605055407
+cours, 2190, 0.0891159462939
+big, 1082, 0.0887096542312
+gibson, 3867, 0.0883639837646
+softwar, 8103, 0.086918262904
+bullshit, 1392, 0.0861887062902
+transpar, 9063, 0.0843253334648
+problem, 6887, 0.0819328351792
+hubbl, 4420, 0.0805793111316
+max, 5557, 0.077673670472
+repair, 7285, 0.0752995891894
+bruce, 1347, 0.074058517547
+risk, 7416, 0.0725687349999
+boost, 1224, 0.069733671188
+danger, 2356, 0.0686479261967
+scott, 7713, 0.0683900683348
+instrument, 4686, 0.0683900683348
+weight, 9695, 0.06788918364
+fear, 3417, 0.06788918364
+decis, 2445, 0.066273844914
+payload, 6477, 0.0646440460016
+brought, 1343, 0.0640818840337
+huge, 4427, 0.0638997636313
+disclaim, 2691, 0.0638997636313
+fuel, 3715, 0.0633682042544
+loss, 5352, 0.0626916158915
+plus, 6700, 0.0625278225808
+factor, 3352, 0.0625278225808
+besid, 1051, 0.0618925065075
+time, 8936, 0.0618782172013
+expens, 3294, 0.0614355685183
+institut, 4683, 0.0598852493837
+fall, 3369, 0.0596221819213
+contribut, 2103, 0.0593643240594
+schedul, 7678, 0.059237285037
+couldn, 2176, 0.059237285037
+increas, 4590, 0.0587411718324
+ground, 4061, 0.0585000279685
+doubt, 2830, 0.0582632687823
+prove, 6947, 0.0578022862531
+begin, 994, 0.0578022862531
+main, 5450, 0.0571400386366
+chanc, 1649, 0.0566127845653
+definit, 2484, 0.0563063846285
+add, 260, 0.0559087538391
+ad, 257, 0.0559087538391
+job, 4873, 0.0554282049704
+carri, 1530, 0.0550561397583
+bring, 1316, 0.0550561397583
+station, 8346, 0.0549647611622
+standard, 8313, 0.0533403197469
+unless, 9289, 0.0530227089644
+build, 1378, 0.0525603622953
+recent, 7168, 0.0517531441017
+final, 3482, 0.0511279970227
+allow, 432, 0.0498992620904
+nasa, 5956, 0.0490049933901
+opinion, 6266, 0.0487765419777
+requir, 7302, 0.0484412085149
+bad, 861, 0.0479538644488
+isn, 4783, 0.0476907969863
+understand, 9246, 0.0466886567542
+consid, 2059, 0.0456686667639
+earth, 2956, 0.0453601928609
+anoth, 533, 0.0419673147884
+believ, 1009, 0.0402117802315
+day, 2402, 0.0386130710191
+come, 1923, 0.0377597262817
+tri, 9087, 0.0377112294044
+way, 9666, 0.0340623821229
+think, 8871, 0.0298228961202
+don, 2811, 0.0295355517391
+use, 9363, 0.0287582983467

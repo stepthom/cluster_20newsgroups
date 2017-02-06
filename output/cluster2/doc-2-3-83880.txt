@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83880
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: psyrobtw@ubvmsb.cc.buffalo.edu (Robert Weiss)
+Subject: Re: Disillusioned Protestant Finds Christ
+Organization: University at Buffalo
+Lines: 26
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsb.cc.buffalo.edu
+
+In article <1qmhp7$33t@usenet.INS.CWRU.Edu>, cj195@cleveland.Freenet.Edu (John W. Redelfs) writes...
+> 
+>In a previous article, tom@tredysvr.Tredydev.Unisys.COM (Tom Albrecht) says:
+> 
+>>In article <1qb726$j9d@usenet.INS.CWRU.Edu< cj195@cleveland.Freenet.Edu (John W. Redelfs) writes:
+>><
+>><I learned that God loves his children who have never heard of him and has a
+>><plan for redeeming them too, even those who have died without a knowledge
+>><of Christ.  I learned that a man cannot frustrate justice by repenting on
+>><his death bed because repentance is more than a feeling of remorse.  It
+>><requires faith in Christ proven by following him, by keeping his
+>><commandments.  Such cannot be accomplished on ones deathbed.
+>>
+>>So Jesus must have lied to the thief on the cross.
+> 
+>Paradise and salvation are not the same thing.  Salvation is better.  Refer
+>to John 14:2.
+
+	I don't see the effort to equate salvation with paradise. 
+
+	Rather, I see implied the fact that only those who are saved 
+may enter paradise.
+
+=============================
+Robert Weiss
+psyrobtw@ubvms.cc.buffalo.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ disillus protest find christ   news softwar vax
+vms vnew   cleveland freenet edu john redelf write
+learn god love children never heard plan redeem
+even die without knowledg christ learn man cannot
+frustrat justic repent death bed repent feel
+remors requir faith christ proven follow keep
+command cannot accomplish one deathb  jesus must
+lie thief cross  paradis salvat thing salvat
+better refer john  don't see effort equat salvat
+paradis  rather see impli fact save enter paradis
+robert weiss
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+paradis, 6415, 0.384304089751
+salvat, 7597, 0.36067069489
+christ, 1729, 0.291376881356
+repent, 7287, 0.246062031269
+learn, 5182, 0.17868772657
+redelf, 7198, 0.16394309366
+deathb, 2424, 0.16394309366
+john, 4878, 0.159000100154
+disillus, 2716, 0.155418332048
+freenet, 3679, 0.146893570435
+thief, 8865, 0.144678402567
+redeem, 7196, 0.144678402567
+bed, 984, 0.144678402567
+frustrat, 3706, 0.133522129796
+proven, 6948, 0.119576601638
+weiss, 9698, 0.118339500773
+protest, 6942, 0.118339500773
+justic, 4937, 0.117171164154
+accomplish, 218, 0.113528187018
+cleveland, 1811, 0.110840535241
+equat, 3157, 0.110424191952
+impli, 4546, 0.109615451896
+cross, 2241, 0.106659765717
+enter, 3125, 0.102037297385
+lie, 5258, 0.101762461457
+effort, 3007, 0.0982502079497
+faith, 3367, 0.0958510157195
+vnew, 9564, 0.0956458955649
+children, 1707, 0.0948448596679
+robert, 7437, 0.0946492801266
+death, 2423, 0.09388466317
+knowledg, 5053, 0.0936977761699
+vms, 9563, 0.0927874760226
+command, 1933, 0.092259632841
+vax, 9439, 0.0917447177397
+die, 2628, 0.0859951356501
+plan, 6660, 0.0858665441234
+jesus, 4859, 0.0854854222236
+save, 7646, 0.084622118873
+love, 5366, 0.0834472518448
+feel, 3429, 0.0826622404264
+heard, 4224, 0.0798823269551
+requir, 7302, 0.0782142997904
+refer, 7213, 0.0775134132527
+edu, 3001, 0.0745450178119
+god, 3926, 0.0741008185623
+news, 6031, 0.0726161089928
+man, 5471, 0.0726161089928
+write, 9865, 0.0724800266466
+fact, 3350, 0.0721436250847
+softwar, 8103, 0.0701701225099
+follow, 3578, 0.0691038554853
+better, 1060, 0.0628971978057
+thing, 8869, 0.057437381009
+don, 2811, 0.0476887874812

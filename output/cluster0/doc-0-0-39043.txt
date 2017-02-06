@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39043
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: olasov@cs.columbia.edu (Benjamin Olasov)
+Subject: Re: Is there an FTP achive for USGS terrain data
+Organization: none
+Lines: 22
+
+In article <1993Apr24.220701.26139@welchgate.welch.jhu.edu> danj@welchgate.welch.jhu.edu (Dan Jacobson) writes:
+
+[A lot of interesting stuff about gopher - deleted]
+
+>If you've never heard of gopher don't worry it's free and on the net,
+>write me a note if you'd like information on how to get started.
+>
+>
+>Best of luck,
+>
+>Dan Jacobson
+>
+>danj@welchgate.welch.jhu.edu
+
+
+I've heard of it but lost the intro posting that came out a while back -
+could you post it again?  I think it's of general interest.
+
+
+Ben
+-- 
+Ben Olasov		olasov@cs.columbia.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ftp achiv usg terrain data      lot interest
+stuff gopher delet  you'v never heard gopher don't
+worri it free net write note you'd like inform get
+start   best luck  dan jacobson     i'v heard lost
+intro post came back could post think it general
+interest   ben
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gopher, 3952, 0.425858653048
+jacobson, 4815, 0.270440398229
+heard, 4224, 0.263547647308
+achiv, 234, 0.24640049819
+usg, 9369, 0.232338058146
+intro, 4731, 0.224598938925
+terrain, 8801, 0.22025800019
+ben, 1020, 0.218275618102
+post, 6766, 0.20258297585
+dan, 2350, 0.188073336019
+worri, 9845, 0.178911966489
+luck, 5381, 0.178911966489
+lost, 5355, 0.153357317216
+delet, 2502, 0.148652120501
+free, 3668, 0.141224987593
+ftp, 3709, 0.140195765344
+came, 1472, 0.139792478887
+net, 6010, 0.13959258067
+general, 3818, 0.133906264363
+stuff, 8472, 0.132905745619
+data, 2385, 0.128439338768
+note, 6118, 0.125133767803
+write, 9865, 0.119562994893
+best, 1052, 0.115953635901
+inform, 4637, 0.113993665603
+start, 8334, 0.109781876475
+lot, 5356, 0.10821451668
+think, 8871, 0.0794327226358
+don, 2811, 0.0786673862838
+like, 5272, 0.0730274244955

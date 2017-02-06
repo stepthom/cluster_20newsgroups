@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39661
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mckinley@fed3005.ne1300.ingr.com (Chuck McKinley)
+Subject: Ray-Bezier Intersection Problem
+Keywords: bezier
+Organization: Intergraph Corp., Reston, VA
+Lines: 62
+
+
+If some kind person has access to a mathematical package such as Mathematica,
+Maple,... I would like to ask you for the solution to the following problem.
+I sometimes have algebra problems like this where I would like a simplified
+symbolic solution. Is there a FTP-able package out there that can handle such
+beasts?
+
+    I would like to solve the following ray - Bezier patch intersection
+    for the scalar constant t in:
+
+        P                    + t * V                =  Q(u,w)
+         (origin point in 3D)       (dir vector 3D)
+
+    in terms of only:
+       
+          P            V            P                     and various scalars
+           (origin) ,   (dir 3D) ,   (i,j) 0 <= i,j <= 3
+
+    where:
+
+                            T
+    Q(u,w) = [U] [N] [B] [M]  [W]
+
+
+
+               n  n-1  n-2   n-3
+      [U] = [ u  u    u     u ....     u  1 ]      ( 0.0 <= u <= 1.0 )
+               3  2
+          = [ u  u  u 1 ]    ( in my particular case )
+
+
+               n  n-1  n-2   n-3             T
+      [W] = [ w  w    w     w ....     w  1 ]      ( 0.0 <= w <= 1.0 )
+
+               3  2      T
+          = [ w  w  w 1 ]    ( in my particular case )
+
+
+                   T
+      [ N ] = [ M ]   =  | -1  3 -3  1 |     ( for my particular case )
+                         |  3 -6  3  0 |
+                         | -3  3  0  0 |
+                         |  1  0  0  0 |
+
+
+      [ B ] =  | P       P       P       P      | (control points in 3D space)
+               |  (0,0)   (0,1)   (0,2)   (0,3) |
+               |                                |
+               | P       P       P       P      |
+               |  (1,0)   (1,1)   (1,2)   (1,3) |
+               |                                |
+               | P       P       P       P      |
+               |  (2,0)   (2,1)   (2,2)   (2,3) |
+               |                                |
+               | P       P       P       P      |
+               |  (3,0)   (3,1)   (3,2)   (3,3) |
+
+
+
+                                        Thanx,
+
+                                    chuck@elwood.reston.ingr.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ray bezier intersect problem      kind person
+access mathemat packag mathematica mapl like ask
+solut follow problem sometim algebra problem like
+like simplifi symbol solut ftp abl packag handl
+beast  like solv follow ray bezier patch intersect
+scalar constant   origin point dir vector  term
+various scalar origin dir            particular
+case       particular case    particular case
+control point space              thanx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+scalar, 7658, 0.322026262753
+dir, 2665, 0.291830690476
+bezier, 1065, 0.274167413006
+particular, 6442, 0.273580671897
+intersect, 4722, 0.241616510241
+case, 1540, 0.22719274009
+solut, 8118, 0.215003476433
+problem, 6887, 0.205579349277
+packag, 6375, 0.189744841944
+like, 5272, 0.183453747391
+ray, 7118, 0.182093759938
+mathematica, 5546, 0.161013131376
+origin, 6293, 0.154924612804
+mapl, 5499, 0.154746983973
+algebra, 404, 0.154746983973
+follow, 3578, 0.143182956802
+simplifi, 7969, 0.133726073287
+symbol, 8644, 0.131744571392
+patch, 6459, 0.1308175591
+vector, 9444, 0.125957157571
+thanx, 8833, 0.125242946006
+beast, 972, 0.124551411696
+point, 6710, 0.122963249802
+solv, 8119, 0.116178347819
+mathemat, 5545, 0.112754609844
+constant, 2067, 0.1112254557
+handl, 4149, 0.100621986823
+various, 9432, 0.0961276695618
+sometim, 8128, 0.0957615852942
+access, 209, 0.093035344147
+control, 2107, 0.0909011837657
+term, 8795, 0.0894954378907
+ftp, 3709, 0.0880471915121
+abl, 180, 0.0796876826175
+kind, 5021, 0.0776986360387
+ask, 689, 0.0754433646171
+person, 6562, 0.0725705871091
+space, 8164, 0.0617846767627

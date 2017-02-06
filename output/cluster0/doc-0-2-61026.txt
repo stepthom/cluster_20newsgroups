@@ -1,0 +1,203 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61026
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dennisn@ecs.comm.mot.com (Dennis Newkirk)
+Subject: Re: Proton/Centaur?
+Organization: Motorola
+Nntp-Posting-Host: 145.1.146.43
+Lines: 37
+
+In article <1993Apr20.211638.168730@zeus.calpoly.edu> jgreen@trumpet.calpoly.edu (James Thomas Green) writes:
+>Has anyone looked into the possiblity of a Proton/Centaur combo?
+>What would be the benefits and problems with such a combo (other
+>than the obvious instability in the XSSR now)?
+
+I haven't seen any speculation about it. But, the Salyut KB (Design Bureau) 
+was planning a new LH/LOX second stage for the Proton which would boost
+payload to LEO from about 21000 to 31500 kg. (Geostationary goes from
+2600 kg. (Gals launcher version) to 6000 kg.. This scheme was competing
+with the Energia-M last year and I haven't heard which won, except now
+I recently read that the Central Specialized KB was working on the 
+successor to the Soyuz booster which must be the Energia-M. So the early
+results are Energia-M won, but this is a guess, nothing is very clear in 
+Russia. I'm sure if Salyut KB gets funds from someone they will continue 
+their development. 
+
+The Centaur for the Altas is about 3 meters dia. and the Proton 
+is 4 so that's a good fit for their existing upper stage, the Block-D
+which sets inside a shround just under 4 meters dia. I don't know about
+launch loads, etc.. but since the Centaur survives Titan launches which
+are probably worse than the Proton (those Titan SRB's probably shake things
+up pretty good) it seems feasible. EXCEPT, the Centaur is a very fragile
+thing and may require integration on the pad which is not available now.
+Protons are assembled and transported horizontially. Does anyone know 
+how much stress in the way of a payload a Centaur could support while
+bolted to a Proton horizontally and then taken down the rail road track
+and erected on the pad?  
+
+They would also need LOX and LH facilities added to the Proton pads 
+(unless the new Proton second stage is actually built), and of course
+any Centaur support systems and facilities, no doubt imported from the
+US at great cost. These systems may viloate US law so there are political
+problems to solve in addition to the instabilities in the CIS you mention. 
+
+Dennis Newkirk (dennisn@ecs.comm.mot.com)
+Motorola, Land Mobile Products Sector
+Schaumburg, IL
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ proton centaur      anyon look possibl proton
+centaur combo benefit problem combo obvious
+instabl xssr  haven't seen specul salyut design
+bureau plan new lox second stage proton boost
+payload leo geostationari goe gal launcher version
+scheme compet energia last year haven't heard
+except recent read central special work successor
+soyuz booster must energia earli result energia
+guess noth clear russia i'm sure salyut get fund
+someon continu develop  centaur alta meter dia
+proton that good fit exist upper stage block set
+insid shround meter dia don't know launch load etc
+sinc centaur surviv titan launch probabl wors
+proton titan srb probabl shake thing pretti good
+seem feasibl except centaur fragil thing requir
+integr pad avail proton assembl transport
+horizonti anyon know much stress way payload
+centaur could support bolt proton horizont taken
+rail road track erect pad  also need lox facil ad
+proton pad unless new proton second stage actual
+built cours centaur support system facil doubt
+import great cost system viloat law polit problem
+solv addit instabl cis mention   motorola land
+mobil product sector schaumburg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+proton, 6944, 0.550295910168
+centaur, 1604, 0.435637600161
+energia, 3103, 0.194588367554
+pad, 6377, 0.166324392662
+stage, 8302, 0.149140620601
+instabl, 4678, 0.148452599935
+dia, 2605, 0.148452599935
+salyut, 7598, 0.141858097206
+combo, 1922, 0.131294331439
+lox, 5373, 0.12692095201
+meter, 5663, 0.113335994691
+titan, 8951, 0.109225692374
+payload, 6477, 0.0972979711222
+facil, 3348, 0.0946089731256
+haven, 4207, 0.0837130138031
+launch, 5147, 0.0770568467849
+viloat, 9520, 0.076412989682
+shround, 7923, 0.076412989682
+gal, 3748, 0.076412989682
+fragil, 3641, 0.076412989682
+alta, 447, 0.076412989682
+xssr, 9909, 0.0742262999675
+geostationari, 3850, 0.0724396443792
+rail, 7072, 0.0709290486032
+erect, 3168, 0.0709290486032
+schaumburg, 7677, 0.0696205110224
+second, 7753, 0.0682077433053
+support, 8576, 0.0675019765208
+successor, 8514, 0.067433821308
+shake, 7842, 0.0648627891847
+soyuz, 8163, 0.0641365699437
+probabl, 6885, 0.0640974409882
+srb, 8280, 0.0634604760052
+stress, 8442, 0.0628280323629
+mobil, 5802, 0.0628280323629
+horizont, 4375, 0.0628280323629
+cis, 1772, 0.0622339428802
+sector, 7760, 0.0616738204169
+motorola, 5883, 0.0616738204169
+bolt, 1207, 0.0616738204169
+problem, 6887, 0.0616599603855
+scheme, 7680, 0.0611439900187
+bureau, 1408, 0.0611439900187
+russia, 7550, 0.0588546870601
+feasibl, 3419, 0.0588546870601
+leo, 5216, 0.0573440912841
+new, 6023, 0.0570911017956
+launcher, 5148, 0.0560355537033
+booster, 1225, 0.055734007595
+upper, 9340, 0.0554414642206
+thing, 8869, 0.0535425055661
+transport, 9065, 0.0526946520429
+anyon, 554, 0.052665922203
+surviv, 8599, 0.0524792702899
+compet, 1969, 0.0524792702899
+boost, 1224, 0.0524792702899
+solv, 8119, 0.0522685207635
+assembl, 698, 0.0520622084006
+block, 1163, 0.0518601502054
+specul, 8214, 0.0514681189179
+central, 1611, 0.0514681189179
+integr, 4694, 0.0509079964545
+good, 3948, 0.0503805037053
+wors, 9846, 0.0489415289355
+benefit, 1028, 0.0489415289355
+track, 9030, 0.0485059249871
+polit, 6723, 0.0475590326996
+insid, 4671, 0.0459021733834
+road, 7431, 0.0456867916303
+load, 5317, 0.0455808503252
+fund, 3723, 0.044485353206
+addit, 263, 0.044485353206
+taken, 8678, 0.0443915776074
+fit, 3510, 0.0442066763619
+doubt, 2830, 0.0438470222248
+special, 8198, 0.0436720269446
+built, 1381, 0.0429210615408
+know, 5052, 0.0422158025031
+law, 5153, 0.0420750916209
+ad, 257, 0.0420750916209
+goe, 3931, 0.0418565069016
+land, 5104, 0.0417134463276
+obvious, 6185, 0.0414334422707
+continu, 2092, 0.0413646737409
+product, 6896, 0.0410278888681
+earli, 2951, 0.0406384544999
+plan, 6660, 0.0400219320232
+unless, 9289, 0.0399031490504
+mention, 5632, 0.0392191872068
+recent, 7168, 0.038947716238
+version, 9479, 0.0381263372351
+design, 2564, 0.0380772169554
+result, 7332, 0.0380283416657
+guess, 4079, 0.0379797089342
+clear, 1803, 0.0375990989478
+heard, 4224, 0.0372327207516
+cost, 2169, 0.0372327207516
+import, 4551, 0.0371432272047
+develop, 2588, 0.03649687373
+requir, 7302, 0.0364552623075
+seen, 7767, 0.0363725658228
+pretti, 6851, 0.0359298037476
+noth, 6119, 0.0356581177247
+exist, 3283, 0.035136349421
+set, 7815, 0.0351001221144
+avail, 811, 0.0340387586205
+cours, 2190, 0.033532866928
+great, 4016, 0.0325932758767
+possibl, 6765, 0.0321284995666
+someon, 8124, 0.032022271152
+sure, 8585, 0.0315579986581
+actual, 254, 0.0315077448286
+sinc, 7977, 0.0298726305376
+read, 7135, 0.029830300125
+work, 9833, 0.0277625994301
+need, 5993, 0.0263477527651
+way, 9666, 0.0256342298877
+year, 9943, 0.0246279373582
+look, 5341, 0.0244555803348
+don, 2811, 0.0222274860404

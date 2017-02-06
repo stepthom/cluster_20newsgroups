@@ -1,0 +1,99 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61310
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: clarke@acme.ucf.edu (Thomas Clarke)
+Subject: Re: Vandalizing the sky.
+Organization: University of Central Florida
+Lines: 19
+
+Come on, this is sci.space.  An orbital billboard won't
+do any permanent damage; in a few years it will reenter
+and probably hit Los Angles anyway :-)
+
+The boost to space commerce orbital advertising might
+provide might speed the day it is possible for those with a 
+yen for dark skies to get some really dark skies beyond
+the dust producing the zodiacal light. 
+
+Now, if they wanted to paint the CocaCola symbol on the
+moon in lampblack, that would give me pause.  It would
+be very difficult to reverse such a widespread application
+of pigments.
+
+--
+Thomas Clarke
+Institute for Simulation and Training, University of Central FL
+12424 Research Parkway, Suite 300, Orlando, FL 32826
+(407)658-5030, FAX: (407)658-5059, clarke@acme.ucf.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky    come sci space orbit billboard
+won't perman damag year reenter probabl hit los
+angl anyway  boost space commerc orbit advertis
+might provid might speed day possibl yen dark sky
+get realli dark sky beyond dust produc zodiac
+light  want paint cocacola symbol moon lampblack
+give paus difficult revers widespread applic
+pigment   thoma clark institut simul train univers
+central research parkway suit orlando
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sky, 8011, 0.328028951083
+dark, 2365, 0.239783161117
+pigment, 6627, 0.197176526498
+parkway, 6431, 0.186923682987
+orlando, 6297, 0.186923682987
+orbit, 6280, 0.183046595564
+zodiac, 9990, 0.183025732792
+commerc, 1939, 0.183025732792
+reenter, 7210, 0.179649174748
+paus, 6470, 0.169396331238
+widespread, 9750, 0.157776310262
+symbol, 8644, 0.152945168432
+dust, 2928, 0.149844969679
+revers, 7356, 0.147083688302
+perman, 6550, 0.143816359903
+space, 8164, 0.143454378335
+los, 5349, 0.141616135977
+angl, 511, 0.137718185782
+paint, 6391, 0.137123178955
+damag, 2344, 0.137123178955
+clark, 1787, 0.137123178955
+boost, 1224, 0.135417816682
+advertis, 291, 0.134873997369
+simul, 7974, 0.133309377334
+central, 1611, 0.132808635755
+billboard, 1090, 0.130443677543
+vandal, 9419, 0.129556336553
+suit, 8529, 0.127465342272
+thoma, 8878, 0.125534127516
+train, 9042, 0.124088784228
+difficult, 2635, 0.123056533824
+sci, 7690, 0.117890464933
+institut, 4683, 0.116292883837
+produc, 6895, 0.112028984803
+applic, 585, 0.110753758797
+won, 9820, 0.107821524949
+speed, 8217, 0.102814447647
+moon, 5851, 0.102663482283
+light, 5267, 0.100639472474
+research, 7307, 0.0972629144302
+provid, 6949, 0.0935392352449
+hit, 4316, 0.0884268255967
+univers, 9282, 0.0840317356484
+possibl, 6765, 0.0829045686144
+probabl, 6885, 0.0826987062281
+realli, 7150, 0.0750342523873
+day, 2402, 0.0749838303896
+come, 1923, 0.0733266957622
+want, 9634, 0.0688820585418
+year, 9943, 0.0635500739246

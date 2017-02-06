@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83646
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ch981@cleveland.Freenet.Edu (Tony Alicea)
+Subject: Re: OTO, the Ancient Order of Oriental Templars
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 20
+Reply-To: ch981@cleveland.Freenet.Edu (Tony Alicea)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva) says:
+
+>
+>"It is known only to a few that there exists an external visible
+>organization of such men and women, who having themselves found
+>the path to real self-knowledge, and who, having travelled the
+>burning sands, are willing to give the benefit of their experience,
+>and to act as spiritual guides to those who are willing to be
+>guided.
+>"While numberless societies, associations, orders, groups etc.
+>have been founded during the last thirty years in all parts of
+>the civilised world, all following some line of occult study,
+>yet there is but ONE ancient organization of genuine Mystics
+>
+
+	Up to that point I thought you were talking about the
+Rosicrucian Order... :-)  [No offense intended!]
+
+Tony
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oto ancient order orient templar          known
+exist extern visibl organ men women found path
+real self knowledg travel burn sand will give
+benefit experi act spiritu guid will guid
+numberless societi associ order group etc found
+last thirti year part civilis world follow line
+occult studi yet one ancient organ genuin mystic
+point thought talk rosicrucian order offens intend
+toni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+guid, 4082, 0.291273898951
+ancient, 500, 0.286122176565
+order, 6281, 0.279775635093
+organ, 6287, 0.220906165572
+civilis, 1780, 0.199828065284
+genuin, 3833, 0.195018126897
+templar, 8775, 0.184321299696
+oto, 6315, 0.172665035054
+mystic, 5943, 0.172665035054
+occult, 6189, 0.169142260334
+thirti, 8877, 0.164608571821
+sand, 7605, 0.163255371519
+spiritu, 8239, 0.161968207852
+rosicrucian, 7486, 0.161968207852
+extern, 3322, 0.150044107185
+travel, 9069, 0.140159086249
+women, 9819, 0.139615116009
+toni, 8984, 0.136567698689
+path, 6461, 0.135625397737
+visibl, 9541, 0.135166575355
+benefit, 1028, 0.131757760302
+orient, 6290, 0.130970190714
+intend, 4700, 0.129462259048
+men, 5629, 0.126682677754
+societi, 8093, 0.125083301899
+offens, 6202, 0.124168240621
+associ, 706, 0.124168240621
+burn, 1413, 0.123575370233
+self, 7776, 0.122428162449
+act, 249, 0.117805994406
+knowledg, 5053, 0.117571489556
+studi, 8469, 0.113471413419
+experi, 3295, 0.110453082786
+known, 5054, 0.105435996555
+exist, 3283, 0.0945921961493
+thought, 8887, 0.0920777590164
+group, 4064, 0.0918126148553
+real, 7144, 0.0904418326655
+talk, 8684, 0.089218354297
+world, 9841, 0.0883558767699
+line, 5285, 0.0874460755099
+follow, 3578, 0.0867111638671
+point, 6710, 0.0744661707049
+year, 9943, 0.0663020125802

@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38989
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: gzc@mserv1.dl.ac.uk (G. Coulter,office,extension,homephone)
+Subject: Re: REAL-3D
+Organization: Daresbury Laboratory, UK
+Lines: 32
+Distribution: world
+Reply-To: gzc@mserv1.dl.ac.uk
+NNTP-Posting-Host: dlsg.dl.ac.uk
+
+In article 2965@vall.dsv.su.se, matt-dah@dsv.su.se (Mattias Dahlberg) writes:
+>Rauno Haapaniemi (raunoh@otol.fi) wrote:
+>
+>> Earlier today I read an ad for REAL-3D animation & ray-tracing software
+>> and it looked very convincing to me.
+>
+>Yes, it looks like very good indeed.
+>
+>> However, I don't own an Amiga and so I began to wonder, if there's a PC
+>> version of it.
+>
+>Nope.
+
+
+	Did I not hear that there maybe some ports of Real3D Version2
+   	in the pipeline somewhere, Possibly Unix. Not too sure though
+        please put me straight.
+
+        -Gary- WORK    : SERC Daresbury Lab.
+               INTERNET: G.Coulter@Daresbury.AC.UK
+               UNI     : Staffordshire University
+               HARDWARE: A2000/000/20 & A4000/040/120
+>
+>--
+>=========================================================
+>=  Regards  =  email:              =  1280x512x262000+  = 
+>=  Mattias  =  matt-dah@dsv.su.se  =  I love it.        =
+>=========================================================
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ real          earlier today read real anim ray
+trace softwar look convinc  yes look like good
+inde  howev don't amiga began wonder there version
+nope   hear mayb port real3d version2 pipelin
+somewher possibl unix sure though pleas put
+straight  gari work serc daresburi lab  uni
+staffordshir univers hardwar a2000 a4000    regard
+email 1280x512x262000
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+1280x512x262000, 17, 0.269300470495
+pipelin, 6637, 0.245361900541
+real, 7144, 0.236793948169
+uni, 9268, 0.228594375351
+nope, 6105, 0.207420164845
+began, 993, 0.191549730511
+port, 6748, 0.185710500882
+gari, 3776, 0.179413833357
+amiga, 472, 0.179413833357
+trace, 9028, 0.178157838356
+straight, 8422, 0.175204239772
+look, 5341, 0.172376432798
+earlier, 2952, 0.168068598453
+convinc, 2120, 0.165410667614
+inde, 4594, 0.164568283019
+lab, 5085, 0.162942756821
+somewher, 8130, 0.161390313165
+unix, 9284, 0.158133194243
+hardwar, 4173, 0.154219268403
+hear, 4223, 0.149072167271
+anim, 515, 0.149072167271
+email, 3060, 0.145300854392
+ray, 7118, 0.14436103977
+regard, 7224, 0.141472097661
+version, 9479, 0.134367737716
+today, 8964, 0.132019723089
+yes, 9951, 0.125804221422
+wonder, 9821, 0.125400286336
+mayb, 5564, 0.120889180381
+howev, 4406, 0.119059027384
+softwar, 8103, 0.115264672544
+univers, 9282, 0.11476916826
+possibl, 6765, 0.113229701986
+sure, 8585, 0.11121909929
+read, 7135, 0.105130212705
+pleas, 6688, 0.101595837158
+work, 9833, 0.0978430646386
+good, 3948, 0.0887774016438
+don, 2811, 0.0783357970092
+like, 5272, 0.0727196081073

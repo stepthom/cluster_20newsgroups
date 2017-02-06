@@ -1,0 +1,132 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84508
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee)
+Subject: Re: Is it good that Jesus died?
+Organization: Johns Hopkins University CS Dept.
+Lines: 31
+
+In article <1993Apr26.215627.24917@organpipe.uug.arizona.edu> brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>A baby's innocence has nothing to do with whether the baby
+>is a sinner.  Innocence and the sin nature are two different attributes. 
+>The baby is innocent, yet the baby is a sinner.   
+>You have two arms and two legs?  Why?  Because your parents did.
+>Why? Because their parents did.  Etc.  Did you do anything to get them?
+
+The thing is, I know what arms and legs are.  It's therefore generally easy to
+tell whether or not someone has arms and legs.  This "sinful nature", since it
+does not require that the baby actually perform any sins, seems to be totally
+invisible.  As far as I know, maybe half the babies have a sinful nature and
+half don't--it'd look exactly the same, since there is no way to tell the
+difference.
+
+>We are born sinners.  We are born sinners because our parents
+>were born with it.  We got it from them.  We did nothing to earn
+>the title "sinner".  We get it because our parents had it, their
+>parents had it, their grandparents had it, etc, infinitum.
+
+So what's so bad about a sinful nature, then?  I could understand it being
+bad if it always results in people committing sins, but babies can have it,
+never commit sins, die, and they still have it.  So the bad part about can't
+merely be that it results in people committing sins--so what _is_ bad about it?
+--
+"On the first day after Christmas my truelove served to me...  Leftover Turkey!
+On the second day after Christmas my truelove served to me...  Turkey Casserole
+    that she made from Leftover Turkey.
+[days 3-4 deleted] ...  Flaming Turkey Wings! ...
+   -- Pizza Hut commercial (and M*tlu/A*gic bait)
+
+Ken Arromdee (arromdee@jyusenkyou.cs.jhu.edu)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die     babi innoc noth whether babi
+sinner innoc sin natur two differ attribut babi
+innoc yet babi sinner two arm two leg parent
+parent etc anyth get  thing know arm leg it
+therefor general easi tell whether someon arm leg
+sin natur sinc requir babi actual perform sin seem
+total invis far know mayb half babi sin natur half
+don't it'd look exact sinc way tell differ  born
+sinner born sinner parent born got noth earn titl
+sinner get parent parent grandpar etc infinitum
+what bad sin natur could understand bad alway
+result peopl commit sin babi never commit sin die
+still bad part can't mere result peopl commit sin
+bad  first day christma truelov serv leftov turkey
+second day christma truelov serv turkey casserol
+made leftov turkey day delet flame turkey wing
+pizza hut commerci tlu gic bait
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+babi, 847, 0.429415989616
+sin, 7976, 0.391674005541
+sinner, 7986, 0.322054780894
+parent, 6426, 0.291588721556
+turkey, 9156, 0.271774309564
+leg, 5199, 0.189848626622
+innoc, 4658, 0.173050937546
+natur, 5966, 0.171818031206
+commit, 1945, 0.16165020897
+arm, 643, 0.158066446237
+born, 1233, 0.155892177501
+bad, 861, 0.149403678365
+truelov, 9124, 0.146820452954
+leftov, 5197, 0.144111829561
+christma, 1734, 0.139585464402
+serv, 7810, 0.0989863555072
+half, 4124, 0.0918888898132
+day, 2402, 0.0902263286213
+die, 2628, 0.0829679532886
+result, 7332, 0.0787172316335
+noth, 6119, 0.0738109575544
+tlu, 8955, 0.073410226477
+gic, 3868, 0.073410226477
+casserol, 1543, 0.073410226477
+bait, 870, 0.0708613272026
+invis, 4747, 0.0679435773911
+hut, 4453, 0.067131762483
+tell, 8767, 0.0662848924065
+pizza, 6655, 0.0650258275797
+differ, 2633, 0.0624594065466
+sinc, 7977, 0.0618352174861
+earn, 2954, 0.0568011528013
+wing, 9779, 0.0565232649542
+peopl, 6530, 0.0550351362737
+attribut, 773, 0.0528783961084
+mere, 5641, 0.0492227011395
+titl, 8953, 0.0488300480289
+flame, 3518, 0.048576478023
+therefor, 8855, 0.0452898776745
+easi, 2959, 0.0447605955744
+know, 5052, 0.0436925587427
+delet, 2502, 0.0434709532059
+commerci, 1940, 0.0428828306697
+jesus, 4859, 0.0412380913425
+perform, 6539, 0.0411775402854
+total, 9013, 0.0404777958207
+exact, 3253, 0.0402548797718
+general, 3818, 0.0391587616272
+alway, 457, 0.0383051698424
+requir, 7302, 0.0377305083738
+understand, 9246, 0.0363654584316
+mayb, 5564, 0.0355017647815
+second, 7753, 0.0352968634299
+anyth, 555, 0.0347698736277
+far, 3386, 0.0338793598033
+got, 3960, 0.0332800639447
+someon, 8124, 0.0331424462032
+actual, 254, 0.0326099211704
+thing, 8869, 0.0277077413074
+way, 9666, 0.0265309440727
+good, 3948, 0.0260714351868
+look, 5341, 0.0253110640331
+don, 2811, 0.023005028495

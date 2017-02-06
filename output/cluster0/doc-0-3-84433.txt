@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84433
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccullou@snake2.cs.wisc.edu (Mark McCullough)
+Subject: Re: Burden of Proof
+Organization: University of Wisconsin, Madison -- Computer Sciences Dept.
+Lines: 29
+
+In article <1993Apr26.142158.11620@ousrvr.oulu.fi> ktikkane@phoenix.oulu.fi (Kari Tikkanen) writes:
+>In Math exam I have burden of proof when it says:
+>  "Prove that no elements in set A=( n divided by 30 leaves 5 as a remainder,
+>   n prime, n integer) does exist."
+>
+>Well, Mathematics is formal science.  Real world may be different thing.
+>But if entertainment (company) sell computer programs saying they are virus 
+>safe. Doesn`t they have burden of proof that viruses don`t exist in their 
+>floppies ?
+
+I don't think so.  The assumption is there.  If it turns out that
+their software has a virus, then it is up to you to prove that fact
+to a court to get any damages.  You are theoretically suppossed to 
+be able to get damages for that, but you have to give some evidence
+that the virus came from that software.  But since the computer
+company is the defendent, they are uninvolved until proven guilty.
+
+>----------------------- ktikkane@phoenix.oulu.fi -------------------
+>  Kari Tikkanen      !   .  . -#- !      b        !   begin  
+>  SF-90550 OULU      !         !  !  I = / f(x)dx !     s:=s+Eq(i);
+>  FINLAND            ! .  .  Vega !      a        !   end
+>--------------------------------------------------------------------
+Please, not Pascal!  NOOOOO!! ;)
+
+-- 
+***************************************************************************
+* mccullou@whipple.cs.wisc.edu * Never program and drink beer at the same *
+* M^2                          *  time.  It doesn't work.                 *
+***************************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ burden proof     math exam burden proof say prove
+element set divid leav remaind prime integ exist
+well mathemat formal scienc real world differ
+thing entertain compani sell comput program say
+virus safe burden proof virus exist floppi  don't
+think assumpt turn softwar virus prove fact court
+get damag theoret supposs abl get damag give evid
+virus came softwar sinc comput compani defend
+uninvolv proven guilti   kari tikkanen begin oulu
+finland vega end  pleas pascal nooooo     time
+doesn't work
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+virus, 9537, 0.495037929078
+burden, 1406, 0.336161642513
+proof, 6919, 0.303795821635
+damag, 2344, 0.205081083303
+prove, 6947, 0.167877705231
+compani, 1958, 0.157328264556
+uninvolv, 9274, 0.147448359805
+oulu, 6322, 0.139781296256
+exist, 3283, 0.135599905545
+remaind, 7265, 0.134341428097
+formal, 3611, 0.132114232708
+comput, 1993, 0.13111440114
+finland, 3490, 0.130121938542
+vega, 9447, 0.126674364548
+softwar, 8103, 0.126220254119
+integ, 4693, 0.125160812546
+floppi, 3551, 0.117015006834
+entertain, 3127, 0.112053880838
+pascal, 6447, 0.110652550562
+divid, 2764, 0.109988998079
+theoret, 8847, 0.108727910513
+proven, 6948, 0.10754569399
+prime, 6865, 0.10754569399
+guilti, 4088, 0.10754569399
+court, 2191, 0.10754569399
+assumpt, 711, 0.105382273722
+defend, 2474, 0.104877995694
+math, 5544, 0.100460501132
+safe, 7577, 0.0982333057431
+mathemat, 5545, 0.0978863362766
+say, 7653, 0.0960163376503
+element, 3037, 0.0947274595754
+sell, 7778, 0.0901050167587
+leav, 5184, 0.0842706033245
+begin, 994, 0.0839388526157
+evid, 3245, 0.0796865058759
+came, 1472, 0.0762170587673
+turn, 9158, 0.0752580715945
+scienc, 7692, 0.0706682029555
+abl, 180, 0.0691797462524
+set, 7815, 0.0677300476825
+end, 3091, 0.0651876258346
+fact, 3350, 0.0648850704939
+real, 7144, 0.0648251360368
+world, 9841, 0.0633300051808
+doesn, 2793, 0.0613377110156
+program, 6905, 0.0586949097673
+differ, 2633, 0.0582248237299
+sinc, 7977, 0.0576429530393
+pleas, 6688, 0.0556261172673
+work, 9833, 0.0535713857935
+thing, 8869, 0.0516584592385
+time, 8936, 0.0449289023884
+think, 8871, 0.0433079700524
+don, 2811, 0.0428906966326

@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84131
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: agr00@ccc.amdahl.com (Anthony G Rose)
+Subject: Re: Who's next? Mormons and Jews?
+Reply-To: agr00@JUTS.ccc.amdahl.com (Anthony G Rose)
+Organization: Amdahl Corporation, Sunnyvale CA
+Lines: 16
+
+In article <93109.211935ISSCCK@BYUVM.BITNET> ISSCCK@BYUVM.BITNET (Casper C. Knies) writes:
+>
+>Please allow me to explain myself.  In 1838, the governor of Missouri,
+>..............
+>
+>
+>Casper C. Knies              isscck@byuvm.bitnet
+>Brigham Young University     isscck@vm.byu.edu
+>UCS Computer Facilities
+
+
+Capser, before you deceive everone into thinking that the latter-day
+saints have undergone undue persecution through the years for just
+believing in their religion, perhaps you would like to tell us all what
+happened in the Mountain Meadow Massacres and all the killings that were
+done under the Blood Atonement Doctrine, at the command of Brigham Young?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew       pleas allow explain
+governor missouri      uc comput facil   capser
+deceiv everon think latter day saint undergon undu
+persecut year believ religion perhap like tell
+happen mountain meadow massacr kill done blood
+aton doctrin command brigham young
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+governor, 3968, 0.247461043925
+meadow, 5593, 0.238656210019
+everon, 3237, 0.238656210019
+capser, 1505, 0.238656210019
+undu, 9257, 0.231826650255
+massacr, 5535, 0.221528538411
+undergon, 9240, 0.217441659714
+uc, 9184, 0.213836777223
+brigham, 1310, 0.213836777223
+missouri, 5775, 0.205031943317
+aton, 757, 0.202582146079
+deceiv, 2436, 0.190967438704
+persecut, 6558, 0.186480474225
+saint, 7585, 0.180212510521
+mountain, 5887, 0.170569100144
+blood, 1169, 0.167427254117
+doctrin, 2787, 0.166689721405
+mormon, 5863, 0.157884887498
+facil, 3348, 0.147743329072
+jew, 4862, 0.144754993719
+young, 9962, 0.136670337194
+command, 1933, 0.134304738431
+kill, 5012, 0.130953850149
+religion, 7261, 0.129622939311
+explain, 3301, 0.1237189053
+perhap, 6540, 0.118468656212
+allow, 432, 0.117285663483
+happen, 4159, 0.107870481901
+comput, 1993, 0.106109237486
+tell, 8767, 0.100013281788
+believ, 1009, 0.0945157328329
+day, 2402, 0.090758048594
+pleas, 6688, 0.090035035606
+year, 9943, 0.0769189926339
+think, 8871, 0.0700971920609
+like, 5272, 0.0644446926998

@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60935
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 24
+
+In article <1qve4kINNpas@sal-sun121.usc.edu> schaefer@sal-sun121.usc.edu (Peter Schaefer) writes:
+
+>|> > Announce that a reward of $1 billion would go to the first corporation 
+>|> > who successfully keeps at least 1 person alive on the moon for a year. 
+
+>Oh gee, a billion dollars!  That'd be just about enough to cover the cost of the
+>feasability study!  Happy, Happy, JOY! JOY!
+
+Depends. If you assume the existance of a working SSTO like DC, on billion
+$$ would be enough to put about a quarter million pounds of stuff on the
+moon. If some of that mass went to send equipment to make LOX for the
+transfer vehicle, you could send a lot more. Either way, its a lot
+more than needed.
+
+This prize isn't big enough to warrent developing a SSTO, but it is
+enough to do it if the vehicle exists.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------57 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid
+announc reward billion first corpor success keep
+least person aliv moon year  gee billion dollar
+that'd enough cover cost feasabl studi happi happi
+joy joy  depend assum exist work ssto like billion
+enough put quarter million pound stuff moon mass
+went send equip make lox transfer vehicl could
+send lot either way lot need  prize isn't big
+enough warrent develop ssto enough vehicl exist
+allen    ladi astor sir husband poison coffe
+churchil madam wife drink day first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+billion, 1092, 0.390955310055
+joy, 4903, 0.260524289188
+moon, 5851, 0.24982743736
+ssto, 8295, 0.235878952667
+vehicl, 9449, 0.196478257101
+happi, 4161, 0.193077985545
+send, 7785, 0.157593497385
+exist, 3283, 0.147088100704
+warrent, 9648, 0.145723003458
+feasabl, 3418, 0.145723003458
+lox, 5373, 0.132829406572
+madam, 5425, 0.130262144594
+astor, 719, 0.130262144594
+churchil, 1747, 0.129089749757
+lot, 5356, 0.127997666435
+ladi, 5093, 0.125927914973
+dcx, 2412, 0.124973727785
+coffe, 1878, 0.12406196321
+poison, 6713, 0.123189009101
+husband, 4452, 0.12235169588
+sir, 7989, 0.120773122907
+quarter, 7027, 0.120027174316
+reward, 7368, 0.117939476333
+resid, 7311, 0.117288268445
+gee, 3806, 0.115450204281
+prize, 6881, 0.114872382251
+drink, 2872, 0.112711298409
+transfer, 9052, 0.110295412215
+wife, 9755, 0.109403474926
+pound, 6776, 0.107728150237
+dollar, 2802, 0.10580980681
+aliv, 417, 0.105446765021
+equip, 3161, 0.103393920616
+corpor, 2154, 0.103393920616
+year, 9943, 0.10309769199
+allen, 426, 0.10275288952
+mass, 5533, 0.0970105382659
+million, 5724, 0.0947542740883
+cover, 2194, 0.0943313451749
+announc, 524, 0.0941231065782
+went, 9704, 0.0915924393035
+depend, 2537, 0.0915924393035
+success, 8513, 0.0910502581612
+flight, 3544, 0.0891765531095
+studi, 8469, 0.088222365922
+assum, 710, 0.0795972922729
+stuff, 8472, 0.0786014012576
+cost, 2169, 0.077931974574
+develop, 2588, 0.0763917698771
+isn, 4783, 0.0751226233251
+big, 1082, 0.0698677979949
+person, 6562, 0.0683386754606
+long, 5336, 0.0646285101329
+day, 2402, 0.0608233741706
+work, 9833, 0.0581100212184
+need, 5993, 0.0551485993266
+way, 9666, 0.0536551213961
+make, 5459, 0.0514451222566
+like, 5272, 0.0431889371589

@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61192
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Space Station Redesign, JSC Alternative #4
+Organization: U of Toronto Zoology
+Lines: 14
+
+In article <1ralibINNc0f@cbl.umd.edu> mike@starburst.umd.edu (Michael F. Santangelo) writes:
+>... The only thing
+>that scares me is the part about simply strapping 3 SSME's and
+>a nosecone on it and "just launching it."  I have this vision
+>of something going terribly wrong with the launch resulting in the
+>complete loss of the new modular space station (not just a peice of
+>it as would be the case with staged in-orbit construction).
+
+It doesn't make a whole lot of difference, actually, since they weren't
+building spares of the station hardware anyway.  (Dumb.)  At least this
+is only one launch to fail.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space station redesign jsc altern     thing scare
+part simpli strap ssme nosecon launch vision
+someth go terribl wrong launch result complet loss
+new modular space station peic case stage orbit
+construct  doesn't make whole lot differ actual
+sinc weren't build spare station hardwar anyway
+dumb least one launch fail  svr4 resembl high
+speed collis henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+station, 8346, 0.341436688245
+launch, 5147, 0.318025409043
+nosecon, 6116, 0.204228872526
+peic, 6509, 0.199313005016
+ssme, 8291, 0.185539805997
+strap, 8428, 0.180623938487
+scare, 7665, 0.176467631729
+modular, 5816, 0.176467631729
+terribl, 8804, 0.163082390822
+spare, 8186, 0.1577785652
+redesign, 7200, 0.155918336375
+dumb, 2914, 0.154178208522
+space, 8164, 0.152962550126
+jsc, 4914, 0.152543609663
+svr4, 8616, 0.150263720637
+weren, 9705, 0.148844307466
+collis, 1903, 0.148844307466
+resembl, 7308, 0.143813460577
+vision, 9542, 0.137229269846
+stage, 8302, 0.136783596499
+construct, 2074, 0.136783596499
+zoolog, 9993, 0.135489141993
+altern, 450, 0.134253996716
+spencer, 8221, 0.130155240937
+loss, 5352, 0.12981176338
+fail, 3360, 0.128157095578
+henri, 4258, 0.122659087968
+hardwar, 4173, 0.120400432142
+toronto, 9003, 0.112523667734
+simpli, 7967, 0.11044859615
+speed, 8217, 0.109629000415
+build, 1378, 0.108833585104
+result, 7332, 0.104632527094
+complet, 1975, 0.104233073512
+wrong, 9869, 0.0989670371375
+orbit, 6280, 0.0975894719086
+case, 1540, 0.0937448752536
+high, 4292, 0.0911832073277
+doesn, 2793, 0.087460939559
+actual, 254, 0.0866915258473
+lot, 5356, 0.0841279829925
+differ, 2633, 0.0830222990842
+sinc, 7977, 0.082192614434
+someth, 8126, 0.079369332392
+new, 6023, 0.0785412404774
+thing, 8869, 0.0736593737582
+make, 5459, 0.0676258324204

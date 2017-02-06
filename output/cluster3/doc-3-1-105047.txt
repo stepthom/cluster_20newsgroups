@@ -1,0 +1,182 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105047
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: Darrrrrrrrryl
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 37
+
+In article <mssC5KCru.5Ip@netcom.com> mss@netcom.com (Mark Singer) writes:
+>That exuberance disappeared immediately, however, when Strawberry
+>went into a tirade at the man.  All reports indicate he used a lot
+>of profanity and accused the man of interference, and therefore of
+>costing the Dodgers a game.  Shortly afterwards other fans hurled
+>food and beverages toward the man who made the catch.  Dodger Stadium
+>officials started to remove him from the park, but then relented and
+>just relocated him to another area.  In an interview after the game,
+>Lasorda blamed the fan for the loss.  Strawberry also went into a
+>tirade about how the fans are stupid and they don't care about 
+>winning.  L.A. Times columnists similarly blasted the man who made
+>the catch.
+
+Sounds like Darryl being Darryl, Tommy spending too much time on
+Slim Fast and needs a pasta fix, and the media being their usual
+"charming" selves.  Sounds like a New York-like story to me!!  :-)
+
+I saw the replay and am wondering what the big deal is?  I didn't
+realize the folks in LA were making a big to do about it.  I think
+Stawberry, Lasorda and the various media types should sit and watch
+the replay then apologize to the fan.
+
+>Others have questioned why Darryl should be so concerned with what
+>the fan did when he has a grand total of 1 rbi through the first
+>nine games.
+
+Darryl has not gotten off to a good start, he has to blame someone.
+
+>But I guess the big debate continues as to what are the responsibilities
+>of the fan.
+
+As long as the fan doesn't interfere with the play I see no problems.
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ darrrrrrrrryl     exuber disappear immedi howev
+strawberri went tirad man report indic use lot
+profan accus man interfer therefor cost dodger
+game short afterward fan hurl food beverag toward
+man made catch dodger stadium offici start remov
+park relent reloc anoth area interview game
+lasorda blame fan loss strawberri also went tirad
+fan stupid don't care win time columnist similar
+blast man made catch  sound like darryl darryl
+tommi spend much time slim fast need pasta fix
+media usual charm selv sound like new york like
+stori  saw replay wonder big deal didn't realiz
+folk make big think stawberri lasorda various
+media type sit watch replay apolog fan  other
+question darryl concern fan grand total rbi first
+nine game  darryl gotten good start blame someon
+guess big debat continu respons fan  long fan
+doesn't interfer play see problem  scott barman
+met mail list feed follow shell asd com subscrib
+let met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fan, 3381, 0.376834462281
+darryl, 2377, 0.354109813378
+tirad, 8947, 0.210945093725
+man, 5471, 0.186869865335
+lasorda, 5137, 0.186157272674
+replay, 7289, 0.18357890797
+interfer, 4710, 0.164827645215
+strawberri, 8434, 0.15928747431
+blame, 1138, 0.150042351509
+catch, 1556, 0.143164719653
+dodger, 2791, 0.139552381178
+big, 1082, 0.138222786788
+media, 5605, 0.131649403314
+game, 3761, 0.123002576426
+went, 9704, 0.120801118422
+met, 5655, 0.120322303201
+sound, 8150, 0.106219994394
+columnist, 1916, 0.105472546862
+beverag, 1063, 0.105472546862
+reloc, 7263, 0.102454267715
+hurl, 4448, 0.102454267715
+darrrrrrrrryl, 2376, 0.102454267715
+selv, 7779, 0.0999881540859
+profan, 6898, 0.0999881540859
+exuber, 3336, 0.0999881540859
+blast, 1143, 0.0895298508851
+barman, 913, 0.0885274533445
+asd, 677, 0.0885274533445
+afterward, 325, 0.0885274533445
+start, 8334, 0.0856305062926
+like, 5272, 0.0854427278924
+disappear, 2678, 0.0812368913304
+shell, 7873, 0.0806847258113
+interview, 4726, 0.0786771705675
+grand, 3991, 0.0777750912388
+tommi, 8978, 0.0765256333704
+debat, 2426, 0.0765256333704
+accus, 227, 0.0743273735814
+food, 3584, 0.0739933769355
+feed, 3427, 0.0739933769355
+subscrib, 8496, 0.072734219406
+apolog, 571, 0.0721460320897
+stadium, 8300, 0.0718612599526
+scott, 7713, 0.0710412405938
+rbi, 7124, 0.069776190589
+sit, 7993, 0.0686194025427
+gotten, 3962, 0.0679700213514
+fix, 3511, 0.0665660475591
+stupid, 8476, 0.0661902962609
+loss, 5352, 0.0651218850369
+immedi, 4527, 0.0647837130007
+remov, 7272, 0.0646177455578
+folk, 3576, 0.0646177455578
+time, 8936, 0.0642769545747
+york, 9960, 0.063973520142
+spend, 8222, 0.0633585880282
+offici, 6207, 0.0629150670844
+park, 6430, 0.0623454596843
+realiz, 7149, 0.0620694056764
+stori, 8418, 0.0611453074971
+therefor, 8855, 0.0604005592112
+various, 9432, 0.0596946854825
+fast, 3397, 0.0596946854825
+saw, 7650, 0.0595805398524
+com, 1917, 0.0591333527812
+indic, 4600, 0.058915183908
+concern, 2004, 0.0584891273654
+usual, 9377, 0.0570954952522
+continu, 2092, 0.0570954952522
+watch, 9655, 0.0560930977116
+similar, 7961, 0.0560055493354
+area, 622, 0.0549969199694
+deal, 2418, 0.0546767588238
+total, 9013, 0.0539829566505
+report, 7291, 0.0538334946116
+short, 7904, 0.0534669091152
+care, 1516, 0.0532516338514
+type, 9177, 0.052831097071
+guess, 4079, 0.0524232417428
+respons, 7323, 0.0520925118949
+cost, 2169, 0.0513921769144
+list, 5298, 0.0495395525302
+win, 9770, 0.049166024896
+wonder, 9821, 0.0491134959877
+howev, 4406, 0.0466299179577
+mail, 5447, 0.0464996487945
+didn, 2625, 0.0451829941459
+play, 6681, 0.0446073252727
+follow, 3578, 0.0444578632338
+someon, 8124, 0.0442002139791
+doesn, 2793, 0.0438760024737
+anoth, 533, 0.0435941969288
+let, 5225, 0.0427168805171
+long, 5336, 0.0426192181658
+problem, 6887, 0.0425544994926
+lot, 5356, 0.0422039782387
+question, 7032, 0.040943422727
+new, 6023, 0.0394013107891
+need, 5993, 0.0363676987355
+good, 3948, 0.0347700048129
+make, 5459, 0.0339254438098
+think, 8871, 0.0309789943199
+don, 2811, 0.0306805109025
+use, 9363, 0.0298731269271

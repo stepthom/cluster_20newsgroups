@@ -1,0 +1,196 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104345
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dtate+@pitt.edu (David M. Tate)
+Subject: Re: Braves Pitching UpdateDIR
+Organization: Department of Industrial Engineering
+Lines: 54
+
+sbp002@acad.drake.edu said:
+
+>> In article 2482@adobe.com, snichols@adobe.com (Sherri Nichols) writes:
+>>>Every single piece of evidence we can find points to Major League Baseball
+>>>being 50% offense, 50% defense.  A run scored is just as important as a run
+>>>prevented.  
+
+>Of course a run scored is just as important as a run prevented.
+>Just as a penny saved is a penny earned.  Enough with the cliches.
+
+It's not a cliche, and (unlike your comments below) it's not a tautology.
+It needn't have been true.  If every pitcher in baseball were essentially
+the same in quality (i.e. if the variance of pitching ability were much
+smaller than the variance of batting ability), then scoring runs would be
+much more important than preventing them, simply because the *ability* to
+actively prevent runs would be much weaker.
+
+>My point is that IF the Braves starters are able to live up to
+>their potential, they won't need much offensive support.
+
+If that's your point, you should have said so.  What you in fact said was
+"Pitching and defense win championships", and later "Pitching is the essence
+of baseball".  Neither of which says what you are now claiming was "your 
+point", and neither of which is true.
+
+>It seems to me that when quality pitchers take the
+>mound, the other teams score less runs.  The team that scores the most 
+>runs wins.  
+
+And you accuse Sherri of mouthing cliches!?
+
+>This puts the team with the better pitching at the advantage
+>(providing they can stop the opposing team from scoring runs).  A low 
+>scoring game would clearly benefit the Braves.  
+
+It's not clear to me at all that this is true.  In high-scoring games, the
+team with the better offense wins a high percentage of the time.  In low-
+scoring games, the split is essentially 50/50 regardless of team ability.
+
+>They should have many 
+>low scoring games due to their excellent pitching and below average hitting.
+>On the flip side, if you had a starting lineup of great offensive players,
+>I would be arguing that this team would not need great pitchers.
+
+I thought you said "pitching and defense win championships" and "pitching is
+the essence of baseball".
+
+
+
+-- 
+   David M. Tate   (dtate+@pitt.edu) |  Greetings, sir, with bat not quick 
+     member IIE, ORSA, TIMS, SABR    |  Hands not soft, eye not discerning
+                                     |  And in Denver they call you a slugger?
+   "The Big Catullus" Galarraga      |  And compare you to my own Mattingly!?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave pitch updatedir       everi singl piec evid
+find point major leagu basebal offens defens run
+score import run prevent  cours run score import
+run prevent penni save penni earn enough clich  it
+clich unlik comment it tautolog needn't true everi
+pitcher basebal essenti qualiti varianc pitch abil
+much smaller varianc bat abil score run much
+import prevent simpli abil activ prevent run much
+weaker  point brave starter abl live potenti won't
+need much offens support  that point said fact
+said pitch defens win championship later pitch
+essenc basebal neither say claim point neither
+true  seem qualiti pitcher take mound team score
+less run team score run win  accus sherri mouth
+clich  put team better pitch advantag provid stop
+oppos team score run low score game clear benefit
+brave  it clear true high score game team better
+offens win high percentag time low score game
+split essenti regardless team abil  mani low score
+game due excel pitch averag hit flip side start
+lineup great offens player argu team need great
+pitcher  thought said pitch defens win
+championship pitch essenc basebal      member iie
+orsa tim sabr hand soft eye discern denver call
+slugger big catullus galarraga compar mat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+score, 7705, 0.429643670337
+pitch, 6643, 0.290174040913
+run, 7543, 0.269365889804
+team, 8732, 0.23093348756
+clich, 1814, 0.22577954026
+prevent, 6853, 0.201623059141
+offens, 6202, 0.187058464435
+abil, 177, 0.186165309923
+varianc, 9428, 0.150519693507
+penni, 6526, 0.146896626593
+championship, 1648, 0.146896626593
+win, 9770, 0.144463577035
+basebal, 924, 0.133929331782
+defens, 2476, 0.128893101101
+brave, 1277, 0.127537968777
+essenc, 3195, 0.122971457735
+low, 5368, 0.122848601655
+game, 3761, 0.120472027941
+pitcher, 6644, 0.118470103861
+import, 4551, 0.112981258203
+point, 6710, 0.112182692408
+true, 9121, 0.106329844908
+essenti, 3196, 0.101139997405
+said, 7583, 0.099226626988
+qualiti, 7017, 0.0956731856562
+clear, 1803, 0.0762452776474
+orsa, 6301, 0.0719166835822
+iie, 4500, 0.0719166835822
+weaker, 9670, 0.0705899255754
+catullus, 1567, 0.0705899255754
+slugger, 8050, 0.0683727878105
+everi, 3235, 0.0680621635713
+high, 4292, 0.0672033696811
+great, 4016, 0.0660942266755
+discern, 2687, 0.0657659559505
+updatedir, 9334, 0.0650296246393
+mouth, 5890, 0.0637028666324
+mound, 5885, 0.0625325831316
+sabr, 7565, 0.0619953752337
+flip, 3545, 0.0619953752337
+galarraga, 3751, 0.0610009534174
+better, 1060, 0.059448496571
+denver, 2533, 0.057793900947
+soft, 8097, 0.0571312603996
+regardless, 7225, 0.0568158076895
+sherri, 7879, 0.0559254279314
+earn, 2954, 0.0556455241887
+accus, 227, 0.0545986699246
+percentag, 6534, 0.0541138944745
+lineup, 5287, 0.0541138944745
+need, 5993, 0.0534292517952
+mat, 5540, 0.0532100056378
+tim, 8935, 0.0527871364676
+smaller, 8055, 0.0521847747246
+split, 8247, 0.0514345372868
+starter, 8335, 0.0512555067534
+piec, 6624, 0.0510796450689
+benefit, 1028, 0.0496230038298
+unlik, 9290, 0.0493263870035
+argu, 628, 0.048897431508
+oppos, 6269, 0.0484862310716
+advantag, 286, 0.0484862310716
+potenti, 6774, 0.0475881817449
+excel, 3261, 0.0475881817449
+eye, 3337, 0.0466523445663
+member, 5625, 0.0440197830612
+activ, 252, 0.0424393280606
+won, 9820, 0.0423665370699
+averag, 816, 0.042294275473
+stop, 8413, 0.042010372565
+evid, 3245, 0.0418714063028
+compar, 1960, 0.0418026452963
+later, 5140, 0.0416665345954
+singl, 7983, 0.0412043151726
+bat, 942, 0.0408245520387
+simpli, 7967, 0.040701122802
+save, 7646, 0.0399911118393
+leagu, 5176, 0.0398775571658
+comment, 1936, 0.0398775571658
+claim, 1782, 0.038707273665
+provid, 6949, 0.0367545671366
+major, 5458, 0.0364700835708
+live, 5310, 0.0364300999121
+abl, 180, 0.0363506120819
+hand, 4145, 0.0360388711926
+hit, 4316, 0.0347457373322
+thought, 8887, 0.0346786024431
+player, 6683, 0.0342850489866
+support, 8576, 0.0342209460173
+fact, 3350, 0.0340939676018
+cours, 2190, 0.0339997875054
+big, 1082, 0.033844777719
+start, 8334, 0.0314508069051
+mani, 5479, 0.0281839142994
+say, 7653, 0.0252259717079
+time, 8936, 0.0236079660661

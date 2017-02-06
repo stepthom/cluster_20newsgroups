@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38348
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tiang@midway.ecn.uoknor.edu (Tiang)
+Subject: VESA standard VGA/SVGA programming???
+Nntp-Posting-Host: midway.ecn.uoknor.edu
+Organization: Engineering Computer Network, University of Oklahoma, Norman, OK, USA
+Keywords: vga
+Lines: 34
+
+Hi,
+
+	I have a few question about graphics programming in VGA/SVGA :
+
+1. How VESA standard works?  Any documentation for VESA standard?
+
+2. At a higher resolution than 320x200x256 or 640x480x16 VGA mode,
+   where the video memory A0000-AFFFF is no longer sufficient to hold
+   all info, what is the trick to do fast image manipulation?  I
+   heard about memory mapping or video memory bank switching but know
+   nothing on how it is implemented.   Any advice, anyone?  
+
+3. My interest is in 640x480x256 mode.  Should this mode be called
+   SVGA mode?  What is the technique for fast image scrolling for the
+   above mode?  How to deal with different SVGA cards?
+
+
+  Your guidance to books or any other sources to the above questions
+would be greatly appreciated.  Please send me mail.
+
+
+  Thanks in advance!
+
+
+
+************************************************************************
+*                         Tiang   T.    Foo                            *
+*		      tiang@uokmax.ecn.uoknor.edu 		       *
+************************************************************************    
+-- 
+************************************************************************
+*                         Tiang   T.    Foo                            *
+*		      tiang@uokmax.ecn.uoknor.edu 		       *
+************************************************************************    
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vesa standard vga svga program        question
+graphic program vga svga  vesa standard work
+document vesa standard  higher resolut 320x200x256
+640x480x16 vga mode video memori a0000 affff
+longer suffici hold info trick fast imag manipul
+heard memori map video memori bank switch know
+noth implement advic anyon  interest 640x480x256
+mode mode call svga mode techniqu fast imag scroll
+mode deal differ svga card   guidanc book sourc
+question great appreci pleas send mail   thank
+advanc     tiang foo     tiang foo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mode, 5806, 0.386288589978
+svga, 8613, 0.381005472047
+vesa, 9484, 0.278824342853
+tiang, 8914, 0.272249956455
+foo, 3583, 0.255049418833
+vga, 9492, 0.248564048956
+memori, 5628, 0.228801235037
+standard, 8313, 0.206899126778
+video, 9506, 0.152534156691
+fast, 3397, 0.148603812992
+a0000, 153, 0.131281558007
+640x480x16, 128, 0.131281558007
+640x480x256, 129, 0.127524709417
+imag, 4512, 0.112871123123
+320x200x256, 89, 0.112785303
+guidanc, 4083, 0.10794188278
+scroll, 7726, 0.105958885607
+program, 6905, 0.104518750992
+question, 7032, 0.101924462538
+trick, 9094, 0.101831999772
+advic, 292, 0.0952513680119
+switch, 8638, 0.0925151965759
+suffici, 8523, 0.0920994713342
+bank, 897, 0.0890984811062
+manipul, 5483, 0.0865523539512
+techniqu, 8740, 0.0862595462778
+resolut, 7316, 0.0819319305919
+implement, 4544, 0.0812716100042
+document, 2788, 0.0774286434926
+higher, 4293, 0.0772577179956
+map, 5498, 0.0754838665783
+longer, 5337, 0.075180506716
+hold, 4341, 0.0736032163272
+card, 1513, 0.0722872328942
+deal, 2418, 0.0680560989442
+info, 4636, 0.066282247527
+appreci, 587, 0.0650852753913
+send, 7785, 0.0646776037335
+heard, 4224, 0.0639677836119
+advanc, 285, 0.0636616657814
+sourc, 8153, 0.0621399581993
+noth, 6119, 0.0612625323258
+book, 1218, 0.0603038663531
+mail, 5447, 0.0578780594772
+great, 4016, 0.0559969719213
+graphic, 3997, 0.0554294119917
+differ, 2633, 0.0518408314889
+pleas, 6688, 0.0495270571365
+work, 9833, 0.0476976142758
+thank, 8832, 0.0471484079478
+anyon, 554, 0.045241420009
+know, 5052, 0.0362644908162

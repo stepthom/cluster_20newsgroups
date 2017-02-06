@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61354
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dietz@cs.rochester.edu (Paul Dietz)
+Subject: Re: Gamma Ray Bursters. positional stuff.
+Organization: University of Rochester
+Lines: 25
+
+In article <1993Apr29.010847.1@vax1.mankato.msus.edu> belgarath@vax1.mankato.msus.edu writes:
+
+> getting at here.  This puppy is far enough away, that if a bright
+> burst happens nearby, the huge annulus created by it will hopefully
+> intersect the line or general circle given by BATSE, and we can get a
+> moderately accurate position. Say oh, 2 or 3 degrees. That is the
+> closest anyone has ever gotten with it.
+
+
+You can do a whole hell of a lot better than 2 or 3 degrees with
+the differential timing measurements from the interplanetary network.
+Ignore the directional information from BATSE; just look at the time
+of arrival.  With three detectors properly arranged, one can often
+get positions down to ~arc minutes.
+
+BTW, about Oort cloud sources: shouldn't this be testable in the
+fairly near future?  Some of the GRBs have very short rise times (< 1
+ms).  We could detect the curvature of the burst wavefront out to a
+distance of on the order of b^2/(t c) where b is the detector spacing
+and t the time resolution.  For t = 1 ms and b = 2 AU, this is on the
+order of 16 light years.  I understand statistics will reduce this
+number considerably, as would geometry if the burst is coming from the
+wrong direction.
+
+	Paul
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster posit stuff      get puppi far
+enough away bright burst happen nearbi huge
+annulus creat hope intersect line general circl
+given bats get moder accur posit say degre closest
+anyon ever gotten   whole hell lot better degre
+differenti time measur interplanetari network
+ignor direct inform bats look time arriv three
+detector proper arrang one often get posit arc
+minut  btw oort cloud sourc shouldn't testabl fair
+near futur grbs short rise time could detect
+curvatur burst wavefront distanc order detector
+space time resolut order light year understand
+statist reduc number consider geometri burst come
+wrong direct  paul
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+burst, 1417, 0.326383513219
+bats, 948, 0.251523627322
+detector, 2580, 0.235616870647
+posit, 6761, 0.231057795321
+time, 8936, 0.186426814759
+degre, 2491, 0.182057254319
+direct, 2667, 0.150336595188
+puppi, 6987, 0.148577533852
+annulus, 528, 0.148577533852
+curvatur, 2307, 0.145001215468
+wavefront, 9662, 0.141977481359
+order, 6281, 0.138680466246
+grbs, 4015, 0.13498114378
+interplanetari, 4718, 0.121384753708
+oort, 6255, 0.119515202163
+moder, 5810, 0.11864326108
+differenti, 2634, 0.11864326108
+nearbi, 5983, 0.117808435324
+closest, 1832, 0.117808435324
+geometri, 3844, 0.117007693755
+arrang, 652, 0.112165423589
+arc, 608, 0.110407641261
+rise, 7414, 0.108794504406
+intersect, 4722, 0.108794504406
+arriv, 655, 0.107304007063
+detect, 2579, 0.10591881209
+cloud, 1835, 0.10591881209
+burster, 1418, 0.103807588767
+bright, 1311, 0.103411303682
+shouldn, 7912, 0.101901678649
+reduc, 7204, 0.101901678649
+circl, 1765, 0.101901678649
+accur, 225, 0.100499979305
+proper, 6924, 0.0991917983473
+statist, 8348, 0.0985690335166
+gotten, 3962, 0.0985690335166
+huge, 4427, 0.096258666914
+gamma, 3762, 0.0959881047688
+distanc, 2744, 0.0959881047688
+resolut, 7316, 0.0954579253448
+paul, 6469, 0.0925466009671
+consider, 2060, 0.0925466009671
+btw, 1355, 0.0925466009671
+network, 6018, 0.0908210543809
+minut, 5747, 0.0906156551792
+hell, 4245, 0.0900120554154
+measur, 5601, 0.0884877591438
+ignor, 4496, 0.0875919210696
+fair, 3363, 0.083075248822
+futur, 3737, 0.0827989703881
+ray, 7118, 0.0819927427486
+near, 5982, 0.0794064045846
+light, 5267, 0.0780684694396
+away, 833, 0.07774777383
+short, 7904, 0.0775368530394
+creat, 2217, 0.0758300862004
+general, 3818, 0.0757341669651
+stuff, 8472, 0.0751682975939
+sourc, 8153, 0.0723985319016
+wrong, 9869, 0.0719990182028
+given, 3887, 0.0704046232153
+understand, 9246, 0.070331838551
+hope, 4372, 0.0701150911022
+happen, 4159, 0.0691341144714
+far, 3386, 0.065523652572
+line, 5285, 0.0650185059132
+inform, 4637, 0.0644720793673
+number, 6156, 0.0637837475301
+lot, 5356, 0.0612035315398
+better, 1060, 0.0586814310205
+come, 1923, 0.0568812888868
+space, 8164, 0.05564051299
+anyon, 554, 0.0527102444982
+say, 7653, 0.0498009606328
+year, 9943, 0.0492973272027
+look, 5341, 0.0489523230535

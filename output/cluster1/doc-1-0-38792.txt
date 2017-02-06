@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38792
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tpehrson@slack.sim.es.com (tim clinkenpeel)
+Subject: [PC] oak77 vga driver available via ftp?
+Organization: Evans & Sutherland Computer Corporation
+Lines: 9
+Reply-To: tpehrson@slack.sim.es.com
+NNTP-Posting-Host: slack
+
+a user on my bbs "accidentally" deleted his vga driver for his oak77 card and
+has no backup.  i was wondering if someone knew of an ftp site (and path,
+please!) where such a thing might be obtained.  thanks.
+
+-- 
+	       there is no religion when a man has  good curry
+  call the Lizard's Den bbs (801) IT'S-YODA - usenet, nethack, XiX, pc/amiga
+      tim clinkenpeel: aberrant analytical skeptical agnostic idealist.
+		     -- i exclusively represent myself --
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oak77 vga driver avail via ftp      user bbs
+accident delet vga driver oak77 card backup wonder
+someon knew ftp site path pleas thing might obtain
+thank   religion man good curri call lizard den
+bbs it yoda usenet nethack xix amiga tim
+clinkenpeel aberr analyt skeptic agnost idealist
+exclus repres
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bbs, 961, 0.303171674491
+driver, 2876, 0.296340789806
+vga, 9492, 0.290219639713
+ftp, 3709, 0.238383828219
+aberr, 174, 0.223343894925
+lizard, 5313, 0.213422600686
+den, 2521, 0.213422600686
+analyt, 492, 0.209485264727
+accident, 211, 0.20601228828
+agnost, 335, 0.202905604984
+skeptic, 8002, 0.189046974786
+exclus, 3267, 0.187259383877
+backup, 858, 0.185573998338
+usenet, 9365, 0.157907973784
+tim, 8935, 0.15665305165
+amiga, 472, 0.153180075202
+path, 6461, 0.151585837246
+knew, 5045, 0.14726305502
+obtain, 6183, 0.14595234059
+repres, 7294, 0.140862643363
+user, 9366, 0.127274945114
+card, 1513, 0.126602226516
+delet, 2502, 0.126381354925
+religion, 7261, 0.12487991396
+site, 7994, 0.121523345952
+wonder, 9821, 0.107064349119
+avail, 811, 0.102421229834
+man, 5471, 0.101841154349
+someon, 8124, 0.0963537016742
+pleas, 6688, 0.0867405689114
+thank, 8832, 0.0825746564627
+thing, 8869, 0.0805536025804
+good, 3948, 0.0757964355678

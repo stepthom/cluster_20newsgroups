@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102616
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mmontgom@liberty.uc.wlu.edu (Matthew R. Montgomery)
+Subject: Re: With a surge in the last two weeks...
+Organization: Washington & Lee University
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 15
+
+
+
+: 			Watch us soar in 1993!
+
+
+Shouldn't that be 'Watch us stoned in 1993!'? :)
+
+or maybe 'Watch us suck in 1993!'
+
+or even 'Watch us sore in 1993!'
+
+________________________________________________________________________
+Matt  
+Montgomery              'No, really I *like* the Phillies' 
+________________________________________________________________________
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surg last two week       watch soar   shouldn't
+watch stone  mayb watch suck  even watch sore
+matt montgomeri no realli like philli
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+watch, 9655, 0.636080773823
+soar, 8087, 0.290451020483
+montgomeri, 5846, 0.290451020483
+surg, 8589, 0.283459752709
+sore, 8141, 0.283459752709
+stone, 8409, 0.21808980629
+matt, 5552, 0.212680033168
+suck, 8515, 0.205353865362
+shouldn, 7912, 0.19920539657
+philli, 6593, 0.18413386017
+week, 9691, 0.141216018831
+mayb, 5564, 0.134224751058
+realli, 7150, 0.113785424546
+like, 5272, 0.0807414796303

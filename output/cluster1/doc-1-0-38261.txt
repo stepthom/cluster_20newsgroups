@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38261
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ad994@Freenet.carleton.ca (Jason Wiggle)
+Subject: PCX
+Organization: National Capital Freenet, Ottawa, Canada
+Lines: 27
+
+
+Hello
+	HELP!!! please
+		I am a student of turbo c++ and graphics programming
+	and I am having some problems finding algorithms and code
+	to teach me how to do some stuff..
+
+	1) Where is there a book or code that will teach me how
+	to read and write pcx,dbf,and gif files?
+
+	2) How do I access the extra ram on my paradise video board
+	so I can do paging in the higher vga modes ie: 320x200x256
+	800x600x256
+	3) anybody got a line on a good book to help answer these question?
+
+Thanks very much !
+
+send reply's to : Palm@snycanva.bitnet
+
+Peace be
+Blessed be
+Stephen Palm
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pcx     hello help pleas student turbo graphic
+program problem find algorithm code teach stuff
+book code teach read write pcx dbf gif file
+access extra ram paradis video board page higher
+vga mode 320x200x256 800x600x256 anybodi got line
+good book help answer question  thank much    peac
+bless stephen palm
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pcx, 6490, 0.331182026201
+teach, 8729, 0.267289027401
+code, 1871, 0.228918276769
+dbf, 2405, 0.224561689496
+800x600x256, 143, 0.224561689496
+palm, 6400, 0.212884864157
+book, 1218, 0.206303738574
+320x200x256, 89, 0.192923199393
+turbo, 9151, 0.175467340014
+paradis, 6415, 0.175467340014
+bless, 1155, 0.174187191718
+help, 4249, 0.169211842877
+peac, 6495, 0.15550567525
+ram, 7083, 0.153606178464
+stephen, 8380, 0.151824253787
+student, 8468, 0.143395780175
+hello, 4247, 0.142548701615
+vga, 9492, 0.141725828641
+board, 1186, 0.138288809731
+page, 6382, 0.137228619038
+extra, 3325, 0.134263862189
+mode, 5806, 0.132152024572
+higher, 4293, 0.132152024572
+video, 9506, 0.130457500857
+algorithm, 407, 0.125206896226
+access, 209, 0.123007461759
+gif, 3869, 0.121562067645
+anybodi, 552, 0.117093989221
+stuff, 8472, 0.110359025409
+answer, 535, 0.106292568509
+file, 3477, 0.0996538110812
+write, 9865, 0.0992797981001
+line, 5285, 0.0954575156788
+graphic, 3997, 0.0948139448797
+got, 3960, 0.0944974736207
+problem, 6887, 0.0906028211698
+program, 6905, 0.0893914867522
+read, 7135, 0.0876649719127
+question, 7032, 0.0871726762537
+pleas, 6688, 0.0847177607819
+thank, 8832, 0.080648998279
+good, 3948, 0.0740288469068

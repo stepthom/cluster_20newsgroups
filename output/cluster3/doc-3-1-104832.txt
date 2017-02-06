@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104832
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: bohnert@leland.Stanford.EDU (matthew bohnert)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: DSG, Stanford University, CA 94305, USA
+Lines: 23
+
+>>consistent hitter -- definitely the best in the National League.  IMHO, to 
+>>have Williams, a streaky hitter (and not really a clutch hitter) batting
+>>4th ahead of Bonds is simply an injustice to the Giants and fans of the
+>>Giants.
+>
+>(2)   Having Bonds batting behind Williams means that Matt will get
+>      more good pitches to hit.  This is important since he struggles
+>      so much with breaking balls.  Opposing pitchers don't want to
+>      walk Williams to get to Bonds.
+>
+
+You're definitely correct in that Williams absolutely has to be sandwiched
+in between Clark and Bonds.  He must, and I mean MUST, get fastballs to
+hit...otherwise he becomes little more than Sixto Lezcano in disguise.
+What I would suggest is perhaps batting Bonds, Williams, and Clark
+3-4-5, the reason being that I feel Bonds' potential basestealing
+abilities are wasted when he's stuck behind two slow runners.
+I think the chance of getting 20-30 extra stolen bases with Bonds in the
+3 spot would more than offset any drop in in run production by having 
+Clark in the 5 spot.
+
+Matt
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th    consist hitter definit best
+nation leagu imho william streaki hitter realli
+clutch hitter bat 4th ahead bond simpli injustic
+giant fan giant  bond bat behind william mean matt
+get good pitch hit import sinc struggl much break
+ball oppos pitcher don't want walk william get
+bond   you'r definit correct william absolut
+sandwich clark bond must mean must get fastbal hit
+otherwis becom littl sixto lezcano disguis suggest
+perhap bat bond william clark reason feel bond
+potenti basest abil wast he stuck behind two slow
+runner think chanc get extra stolen base bond spot
+offset drop run product clark spot  matt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bond, 1211, 0.580616794209
+william, 9764, 0.368400308526
+bat, 942, 0.240979843382
+clark, 1787, 0.238533249036
+hitter, 4322, 0.187241513448
+matt, 5552, 0.162647142046
+4th, 112, 0.161885411587
+spot, 8261, 0.143102664773
+giant, 3865, 0.13340595471
+definit, 2484, 0.126805389426
+sandwich, 7609, 0.108387980706
+basest, 934, 0.108387980706
+streaki, 8437, 0.106127748381
+injustic, 4651, 0.104169846085
+hit, 4316, 0.102548857518
+disguis, 2711, 0.0995005224221
+offset, 6209, 0.092279592407
+fastbal, 3398, 0.092279592407
+mean, 5595, 0.0906254869825
+stuck, 8466, 0.0874629058259
+stolen, 8407, 0.0858012254613
+clutch, 1849, 0.0843088380386
+struggl, 8461, 0.0833921341229
+imho, 4524, 0.0778981963261
+barri, 918, 0.0764452772634
+runner, 7545, 0.0748727910787
+slow, 8044, 0.0725770992761
+oppos, 6269, 0.0715513323866
+ahead, 342, 0.0711603095629
+drop, 2878, 0.0709686403381
+potenti, 6774, 0.0702260772687
+wast, 9654, 0.068845058461
+abil, 177, 0.0686812300873
+extra, 3325, 0.0683589646553
+absolut, 193, 0.0683589646553
+break, 1284, 0.0671363829058
+consist, 2061, 0.0668460271424
+otherwis, 6313, 0.0657388986423
+chanc, 1649, 0.063747710323
+walk, 9617, 0.0623079710247
+product, 6896, 0.0613880709266
+simpli, 7967, 0.0600628158086
+leagu, 5176, 0.0588474765819
+becom, 983, 0.0587644027795
+fan, 3381, 0.0583559505488
+pitcher, 6644, 0.0582756079538
+nation, 5962, 0.0577252087032
+feel, 3429, 0.0576482400913
+ball, 877, 0.0573443434739
+perhap, 6540, 0.0567548173601
+correct, 2156, 0.056468710977
+suggest, 8525, 0.0559127206923
+import, 4551, 0.0555756371823
+pitch, 6643, 0.053526379532
+littl, 5308, 0.0492792962602
+best, 1052, 0.0490212986319
+reason, 7156, 0.0472943064136
+base, 923, 0.0458864928176
+sinc, 7977, 0.0446969905789
+run, 7543, 0.0441671512579
+realli, 7150, 0.0435087248982
+want, 9634, 0.0399413659784
+good, 3948, 0.0376909709482
+think, 8871, 0.0335814844202
+don, 2811, 0.0332579259429

@@ -1,0 +1,124 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38499
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: joachim@kih.no (joachim lous)
+Subject: Re: TIFF: philosophical significance of 42
+Organization: Kongsberg Ingeniorhogskole
+Lines: 30
+NNTP-Posting-Host: samson.kih.no
+X-Newsreader: TIN [version 1.1 PL8]
+
+ulrich@galki.toppoint.de wrote:
+
+> According to the TIFF 5.0 Specification, the TIFF "version number"
+> (bytes 2-3) 42 has been chosen for its "deep philosophical 
+> significance".
+
+> When I first read this, I rotfl. Finally some philosphy in a technical
+> spec. But still I wondered what makes 42 so significant.
+
+> Last week, I read the Hitchhikers Guide To The Galaxy, and rotfl the
+> second time. (After millions of years of calculation, the second-best
+> computer of all time reveals that 42 is the answer to the question
+> about life, the universe and everything)
+
+> Is this actually how they picked the number 42?
+
+Yes.
+
+> Does anyone have any  other suggestions where the 42 came from?
+
+I don't know where Douglas Adams took it from, but I'm pretty sure he's
+the one who launched it (in the Guide). Since then it's been showing up 
+all over the place.
+
+    _______________________________
+   / _ L*   /  _  / .    /      _  /_  "One thing is for sure: The sheep
+  /  _)    /()(/(/)//)) /_ ()(/_) / /  Is NOT a creature of the earth."
+ / \_)~  (/ Joachim@kih.no       / /     
+/_______________________________/ / -The back-masking on 'Haaden II'
+ /_______________________________/  from 'Exposure' by Robert Fripp.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific        accord tiff specif
+tiff version number byte chosen deep philosoph
+signific  first read rotfl final philosphi technic
+spec still wonder make signific  last week read
+hitchhik guid galaxi rotfl second time million
+year calcul second best comput time reveal answer
+question life univers everyth  actual pick number
+yes  anyon suggest came  don't know dougla adam
+took i'm pretti sure he one launch guid sinc it
+show place   one thing sure sheep creatur earth
+back mask haaden ii exposur robert fripp
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rotfl, 7491, 0.345979830875
+tiff, 8926, 0.318650450433
+signific, 7951, 0.276564040903
+guid, 4082, 0.236223114574
+philosoph, 6595, 0.234083119284
+ii, 4499, 0.166834815432
+haaden, 4107, 0.166834815432
+fripp, 3696, 0.166834815432
+hitchhik, 4318, 0.154861559294
+second, 7753, 0.148920050278
+number, 6156, 0.139143905155
+sure, 8585, 0.137803085665
+mask, 5530, 0.13587726926
+sheep, 7867, 0.133497541871
+exposur, 3313, 0.133497541871
+creatur, 2222, 0.132400096507
+read, 7135, 0.130258811659
+chosen, 1727, 0.123724970288
+adam, 258, 0.123724970288
+dougla, 2837, 0.123023415837
+spec, 8196, 0.120426840369
+reveal, 7352, 0.118667315646
+byte, 1438, 0.118667315646
+galaxi, 3753, 0.114579594507
+deep, 2466, 0.111956457281
+calcul, 1451, 0.103008773315
+time, 8936, 0.101672275601
+million, 5724, 0.0988387843143
+robert, 7437, 0.0963187581017
+pick, 6619, 0.0963187581017
+accord, 219, 0.0961215632143
+technic, 8737, 0.0949751018067
+took, 8987, 0.0944241144353
+everyth, 3242, 0.0921880136344
+came, 1472, 0.0862380493688
+specif, 8203, 0.0849191420573
+launch, 5147, 0.0841202841598
+final, 3482, 0.0840085580896
+version, 9479, 0.0832423971654
+suggest, 8525, 0.0815878150892
+answer, 535, 0.0789685056644
+week, 9691, 0.0787931317822
+life, 5260, 0.0787931317822
+pretti, 6851, 0.0784466384796
+yes, 9951, 0.0779371978924
+wonder, 9821, 0.0776869553458
+earth, 2956, 0.0745314625805
+comput, 1993, 0.0741766369719
+place, 6657, 0.0732807205127
+best, 1052, 0.0715318553397
+univers, 9282, 0.0711008524002
+actual, 254, 0.0687918221106
+sinc, 7977, 0.0652218271127
+question, 7032, 0.0647636619859
+thing, 8869, 0.058450494288
+anyon, 554, 0.0574935586661
+year, 9943, 0.0537709282246
+make, 5459, 0.053662733335
+don, 2811, 0.0485299495085
+know, 5052, 0.0460855258263

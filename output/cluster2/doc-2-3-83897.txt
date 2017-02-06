@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83897
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: b645zaw@utarlg.uta.edu (stephen)
+Subject: Re: A KIND and LOVING God!!
+News-Software: VAX/VMS VNEWS 1.41    
+Nntp-Posting-Host: utarlg.uta.edu
+Organization: The University of Texas at Arlington
+Lines: 29
+
+In article <sandvik-150493181533@sandvik-kent.apple.com>, 
+sandvik@newton.apple.com (Kent Sandvik) writes...
+
+>In article <1993Apr15.200231.10206@ra.royalroads.ca>,
+>mlee@post.RoyalRoads.ca (Malcolm Lee) wrote:
+>> These laws written for the Israelites...
+
+>> Remember, these laws were written for a different time and applied
+>> only to God's chosen people.  But Jesus has changed all of that.  We
+>> are living in the age of grace.  Sin is no longer immediately punishable
+>> by death.  There is repentance and there is salvation through our
+>> Lord Jesus Christ.  And not just for a few chosen people.  Salvation
+>> is available to everyone, Jew and Gentile alike. 
+>
+>Jews won't agree with you, Malcolm.
+
+Which Jews KS? 
+
+(ex. as a people, as a language, religiously, politically, or...) 
+
+Do you mean those Jews who are God's chosen?
+
+{And Malcolm, please, if you will, set your word wrap at 75 or less 
+to avoid clutter?}
+
+   |
+-- J --
+   |
+   | stephen
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god news softwar vax vms vnew
+law written israelit  rememb law written differ
+time appli god chosen peopl jesus chang live age
+grace sin longer immedi punish death repent salvat
+lord jesus christ chosen peopl salvat avail
+everyon jew gentil alik  jew won't agre malcolm
+jew  peopl languag religi polit  mean jew god
+chosen  malcolm pleas set word wrap less avoid
+clutter     stephen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jew, 4862, 0.404050378268
+chosen, 1727, 0.370515720057
+malcolm, 5462, 0.249957510039
+salvat, 7597, 0.244253717579
+god, 3926, 0.225821789784
+written, 9867, 0.186394309494
+law, 5153, 0.183401374068
+peopl, 6530, 0.173838671743
+jesus, 4859, 0.173677533047
+clutter, 1850, 0.151734635541
+israelit, 4792, 0.139782643395
+wrap, 9857, 0.134415196412
+gentil, 3830, 0.131122923831
+alik, 415, 0.127399172002
+repent, 7287, 0.12497875502
+grace, 3975, 0.120832068651
+punish, 6986, 0.120212967438
+stephen, 8380, 0.112595283626
+avoid, 827, 0.108348327137
+lord, 5347, 0.106991839807
+religi, 7260, 0.10480741966
+polit, 6723, 0.10365267918
+sin, 7976, 0.103097907824
+languag, 5113, 0.103097907824
+immedi, 4527, 0.102291868907
+christ, 1729, 0.0986632508495
+vnew, 9564, 0.0971600932399
+age, 328, 0.0955625266049
+longer, 5337, 0.0953709782685
+death, 2423, 0.0953709782685
+appli, 584, 0.0946215155339
+vms, 9563, 0.0942564212359
+vax, 9439, 0.0931971547468
+won, 9820, 0.0910678260252
+everyon, 3241, 0.0851194193212
+love, 5366, 0.0847683292834
+agre, 337, 0.0826695233883
+rememb, 7269, 0.0786531985413
+live, 5310, 0.0783073205959
+chang, 1650, 0.0767368166646
+word, 9829, 0.0764990684246
+set, 7815, 0.0764990684246
+kind, 5021, 0.0761861324767
+avail, 811, 0.0741858765138
+news, 6031, 0.0737657154945
+softwar, 8103, 0.0712810058962
+mean, 5595, 0.066002906574
+differ, 2633, 0.0657632015174
+pleas, 6688, 0.0628280400891
+time, 8936, 0.0507458549885

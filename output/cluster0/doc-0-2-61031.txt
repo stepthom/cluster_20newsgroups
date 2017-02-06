@@ -1,0 +1,170 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61031
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: djf@cck.coventry.ac.uk (Marvin Batty)
+Subject: Re: Vandalizing the sky.
+Nntp-Posting-Host: cc_sysk
+Organization: Starfleet, Coventry, UK
+Lines: 30
+
+In article <C5t05K.DB6@research.canon.oz.au> enzo@research.canon.oz.au (Enzo Liguori) writes:
+>From the article "What's New" Apr-16-93 in sci.physics.research:
+>
+>........
+>WHAT'S NEW (in my opinion), Friday, 16 April 1993  Washington, DC
+>
+>1. SPACE BILLBOARDS! IS THIS ONE THE "SPINOFFS" WE WERE PROMISED?
+>In 1950, science fiction writer Robert Heinlein published "The
+>Man Who Sold the Moon," which involved a dispute over the sale of
+>rights to the Moon for use as billboard. NASA has taken the firsteps toward this
+> hideous vision of the future.  Observers were
+>startled this spring when a NASA launch vehicle arrived at the
+>pad with "SCHWARZENEGGER" painted in huge block letters on the
+>side of the booster rockets. 
+
+Things could be worse. A lot worse! In the mid-eighties the
+teen/adult sci-fi comic 2000AD (Fleetway) produced a short story
+featuring the award winning character "Judge Dredd". The story
+focussed on an advertising agency of the future who use high powered
+multi-coloured lasers/search lights pointed at the moon to paint
+images on the moon. Needless to say, this use hacked off a load of lovers,
+romantics and werewolfs/crazies. The ad guys got chopped, the service
+discontinued. A cautionary tale indeed!
+
+Marvin Batty.
+-- 
+****************************************************************************  
+                  Marvin Batty - djf@uk.ac.cov.cck
+"And they shall not find those things, with a sort of rafia like base,
+that their fathers put there just the night before. At about 8 O'clock!"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky      articl what new sci physic
+research   what new opinion friday april
+washington  space billboard one spinoff promis
+scienc fiction writer robert heinlein publish man
+sold moon involv disput sale right moon use
+billboard nasa taken firstep toward hideous vision
+futur observ startl spring nasa launch vehicl
+arriv pad schwarzenegg paint huge block letter
+side booster rocket  thing could wors lot wors mid
+eighti teen adult sci comic 2000ad fleetway produc
+short stori featur award win charact judg dredd
+stori focuss advertis agenc futur use high power
+multi colour laser search light point moon paint
+imag moon needless say use hack load lover romant
+werewolf crazi guy got chop servic discontinu
+cautionari tale inde  marvin batti    shall find
+thing sort rafia like base father put night
+o'clock
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moon, 5851, 0.275539121587
+paint, 6391, 0.184012851689
+billboard, 1090, 0.175049275203
+wors, 9846, 0.169473904445
+sci, 7690, 0.158203454767
+stori, 8418, 0.153396762837
+futur, 3737, 0.143236897527
+discontinu, 2693, 0.132300808673
+teen, 8747, 0.128514792464
+rafia, 7066, 0.128514792464
+marvin, 5527, 0.128514792464
+focuss, 3570, 0.128514792464
+firstep, 3501, 0.128514792464
+comic, 1930, 0.128514792464
+nasa, 5956, 0.127705880425
+needless, 5995, 0.125421391981
+eighti, 3017, 0.125421391981
+romant, 7470, 0.122805959139
+heinlein, 4241, 0.12054036816
+tale, 8682, 0.118541975289
+schwarzenegg, 7689, 0.118541975289
+startl, 8336, 0.116754351951
+use, 9363, 0.112415191468
+hideous, 4288, 0.112302888522
+hack, 4111, 0.112302888522
+spinoff, 8237, 0.109874935259
+lover, 5367, 0.107751326106
+disput, 2737, 0.105864190874
+chop, 1721, 0.105864190874
+adult, 283, 0.105864190874
+laser, 5134, 0.103376809427
+clock, 1827, 0.0999021180846
+new, 6023, 0.0988470542381
+award, 832, 0.0986896931934
+sold, 8109, 0.0981144947464
+crazi, 2216, 0.0964973927351
+colour, 1912, 0.0964973927351
+booster, 1225, 0.0964973927351
+pad, 6377, 0.0959908855933
+fiction, 3463, 0.0959908855933
+friday, 3690, 0.0950210942638
+arriv, 655, 0.0928145180544
+thing, 8869, 0.092703044525
+sale, 7590, 0.0924056614222
+charact, 1661, 0.0920064258446
+multi, 5917, 0.0916163689143
+mid, 5698, 0.0912350780545
+advertis, 291, 0.0904972779357
+block, 1163, 0.0897902285806
+writer, 9866, 0.088458821931
+agenc, 329, 0.0881416775719
+vandal, 9419, 0.0869292526807
+vision, 9542, 0.0863540542337
+washington, 9651, 0.0855262447303
+father, 3404, 0.0855262447303
+spring, 8266, 0.0844818086293
+judg, 4920, 0.0839827512041
+shall, 7846, 0.0837386213921
+letter, 5227, 0.0837386213921
+huge, 4427, 0.0832606537511
+search, 7746, 0.0830266261897
+vehicl, 9449, 0.0812622608801
+inde, 4594, 0.0808484177
+promis, 6913, 0.0796642119074
+featur, 3422, 0.0794746375419
+rocket, 7447, 0.0789183014973
+load, 5317, 0.0789183014973
+publish, 6974, 0.0783796299303
+taken, 8678, 0.0768592047003
+robert, 7437, 0.0763812370593
+produc, 6895, 0.075168812168
+physic, 6613, 0.0737658042177
+sky, 8011, 0.07336656864
+involv, 4750, 0.0711503713761
+observ, 6179, 0.0705828693362
+april, 595, 0.0704716116969
+servic, 7813, 0.0698189647265
+night, 6063, 0.0688847803969
+light, 5267, 0.0675267174508
+short, 7904, 0.0670668863473
+launch, 5147, 0.0667077887271
+sort, 8144, 0.0652611264716
+research, 7307, 0.0652611264716
+guy, 4100, 0.0637034526443
+opinion, 6266, 0.0635552706613
+scienc, 7692, 0.0634083716553
+power, 6783, 0.0629751550345
+win, 9770, 0.0616720184206
+man, 5471, 0.0586006383554
+high, 4292, 0.0573787184003
+imag, 4512, 0.0568737189432
+got, 3960, 0.0556733083263
+articl, 665, 0.0546829263035
+base, 923, 0.0530976568141
+lot, 5356, 0.0529390880972
+right, 7399, 0.0516114042626
+space, 8164, 0.048127255811
+point, 6710, 0.0478911931619
+say, 7653, 0.0430762306674
+like, 5272, 0.0357253848881

@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104724
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: al stats
+From: "michael mcguire" <michael.mcguire@canrem.com>
+Reply-To: "michael mcguire" <michael.mcguire@canrem.com>
+Distribution: rec
+Organization: Canada Remote Systems
+Lines: 11
+
+
+ I am looking for a source of American League baseball stats for
+individual players in the same format as printed in newspapers, ie. I do
+not want to provide a list of players and get back nice printed reports
+for $35 a week.
+
+Does anyone know of such statistics availability and an idea of the
+cost?
+--
+Canada Remote Systems - Toronto, Ontario
+416-629-7000/629-7044
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+stat        look sourc american leagu basebal stat
+individu player format print newspap want provid
+list player get back nice print report week  anyon
+know statist avail idea cost  canada remot system
+toronto ontario
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+print, 6871, 0.383256878173
+stat, 8341, 0.363256510398
+player, 6683, 0.276118573159
+ontario, 6248, 0.237093974071
+newspap, 6035, 0.232724903981
+remot, 7271, 0.225200923145
+canada, 1481, 0.207851121894
+statist, 8348, 0.201053451446
+american, 469, 0.177955029757
+individu, 4604, 0.174914829153
+toronto, 9003, 0.16697479543
+nice, 6047, 0.161967010724
+leagu, 5176, 0.16057923951
+format, 3612, 0.16012714364
+report, 7291, 0.159237994631
+cost, 2169, 0.15201664411
+provid, 6949, 0.148003560368
+sourc, 8153, 0.147672896843
+week, 9691, 0.147344943705
+list, 5298, 0.146536632198
+avail, 811, 0.13897608745
+idea, 4482, 0.136784973174
+basebal, 924, 0.134826903741
+want, 9634, 0.108989451143
+anyon, 554, 0.107514258838
+look, 5341, 0.0998491428296
+know, 5052, 0.0861809786578

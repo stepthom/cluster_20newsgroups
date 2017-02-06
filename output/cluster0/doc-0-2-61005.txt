@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61005
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: matthew@phantom.gatech.edu (Matthew DeLuca)
+Subject: Re: Boom!  Whoosh......
+Organization: The Dorsai Grey Captains
+Lines: 13
+NNTP-Posting-Host: oit.gatech.edu
+
+In article <1993Apr21.024423.29182@mnemosyne.cs.du.edu> wdwells@nyx.cs.du.edu (David "Fuzzy" Wells) writes:
+
+>I hear <insert favorite rumor here> that it will supposedly coincide
+>with the Atlanta Olympics. 
+
+Even worse, the city of Atlanta has a proposal before it to rent space on this
+orbiting billboard.  Considering the caliber of people running this city, 
+there's no telling what we're going to have leering down at us from orbit.
+-- 
+Matthew DeLuca
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp:	  ...!{decvax,hplabs,ncar,purdue,rutgers}!gatech!prism!matthew
+Internet: matthew@phantom.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ boom whoosh       hear insert favorit rumor
+suppos coincid atlanta olymp  even wors citi
+atlanta propos rent space orbit billboard consid
+calib peopl run citi there tell we'r go leer orbit
+matthew deluca georgia institut technolog atlanta
+georgia uucp decvax hplab ncar purdu rutger gatech
+prism matthew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+atlanta, 749, 0.376978005773
+georgia, 3848, 0.296102921922
+matthew, 5554, 0.269508049205
+citi, 1775, 0.234860664145
+deluca, 2510, 0.19717426803
+orbit, 6280, 0.188436947754
+whoosh, 9742, 0.179130771205
+olymp, 6227, 0.176649726811
+calib, 1456, 0.176649726811
+decvax, 2460, 0.172301097933
+hplab, 4409, 0.16857600218
+ncar, 5974, 0.166895982938
+rent, 7283, 0.16531784744
+rutger, 7554, 0.163829941714
+boom, 1222, 0.162422503636
+purdu, 6989, 0.16108727438
+prism, 6876, 0.16108727438
+coincid, 1883, 0.155278565822
+rumor, 7541, 0.153275172689
+gatech, 3789, 0.150532505355
+insert, 4670, 0.149678944841
+favorit, 3411, 0.137235068997
+billboard, 1090, 0.13428498014
+wors, 9846, 0.130007964136
+uucp, 9388, 0.125327722322
+institut, 4683, 0.119717474167
+hear, 4223, 0.112361898899
+propos, 6933, 0.109340393637
+suppos, 8577, 0.105842125279
+technolog, 8743, 0.103460464068
+consid, 2059, 0.0912968968119
+tell, 8767, 0.0850637560788
+run, 7543, 0.0784128064236
+space, 8164, 0.0738394098836
+peopl, 6530, 0.0706268840122

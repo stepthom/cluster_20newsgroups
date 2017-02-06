@@ -1,0 +1,184 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60214
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: games@max.u.washington.edu
+Subject: Aerospace companies cooperate in reusable vehicle market.
+Article-I.D.: max.1993Apr6.121843.1
+Distribution: world
+Lines: 34
+NNTP-Posting-Host: max.u.washington.edu
+
+What would all of you out there in net land think of the big 6 (Martin
+Mariatta, Boeing, Mcdonell Douglas, General Dynamics, Lockheed, Rockwell)
+getting together, and forming a consortium to study exactly what the market
+price pints are for building reusable launch vehicles, and spending say
+$3million to do that.  Recognizing that most of the military requirements
+for launch vehicles are pulled out of a hat somewhere (say, has the shuttle 
+ever really used that 1200mi crossrange capability?  You get the idea, figure
+out how many, how often, where to, etc...)
+
+Then taking this data, and forming a sematech type company (bad example, I
+know... but at least its an example...)  To develop between 3 and 5 craft
+designs.  Then to take all of those designs, and figure out EXACTLY what
+the technologies are, and demonstrate those technologies, in order to 
+eliminate designs that can't be built today.  And lets say that this
+portion again funded by the GOV cost about $20 million.
+
+And from here all of these companies went their separate ways, with the
+intention of taking all of the market data and the design data to wall
+street, and saying "I want to build this vehicle, and here are the numbers
+that show %20 ROI, fund me...)
+
+
+Now many of you think that this is a joke, but I have it on good authority that
+just this project is shaping up in the background. It seems that the aerospace
+companies have learned that everyone yelling similar but different things
+ends up in many programs that do nothing much and get canceled (NASP, NLS,
+ALS, DCY?, etc...)  They need to work more in the japaneese, and european
+spirit of initial cooperation.  They have also learned that design requirements
+that are phony (I.E. some generals idea of what a space vehicle ought to be)
+ends up getting chopped up in congress, because it is not a REAL requirement.
+
+Any feedback?
+
+			John.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ aerospac compani cooper reusabl vehicl market
+articl max 1993apr6     net land think big martin
+mariatta boe mcdonel dougla general dynam lockhe
+rockwel get togeth form consortium studi exact
+market price pint build reusabl launch vehicl
+spend say 3million recogn militari requir launch
+vehicl pull hat somewher say shuttl ever realli
+use 1200mi crossrang capabl get idea figur mani
+often etc  take data form sematech type compani
+bad exampl know least exampl develop craft design
+take design figur exact technolog demonstr
+technolog order elimin design can't built today
+let say portion fund gov cost million  compani
+went separ way intent take market data design data
+wall street say want build vehicl number show roi
+fund   mani think joke good author project shape
+background seem aerospac compani learn everyon
+yell similar differ thing end mani program noth
+much get cancel nasp nls al dci etc need work
+japanees european spirit initi cooper also learn
+design requir phoni general idea space vehicl
+ought end get chop congress real requir  feedback
+john
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vehicl, 9449, 0.339807386885
+design, 2564, 0.275679466577
+compani, 1958, 0.236120237151
+market, 5514, 0.194071274008
+reusabl, 7349, 0.177073262182
+aerospac, 304, 0.162279208298
+cooper, 2125, 0.161405929451
+requir, 7302, 0.158361898328
+data, 2385, 0.157646436364
+say, 7653, 0.144102526525
+fund, 3723, 0.128829777204
+mani, 5479, 0.120749756588
+learn, 5182, 0.120597417025
+figur, 3476, 0.120597417025
+crossrang, 2244, 0.11472828721
+build, 1378, 0.114552038166
+form, 3610, 0.113738821401
+technolog, 8743, 0.112792756355
+exact, 3253, 0.11263810026
+launch, 5147, 0.111578482443
+roi, 7459, 0.110646175952
+general, 3818, 0.109571026997
+exampl, 3258, 0.10293542806
+nls, 6083, 0.102705417293
+consortium, 2064, 0.102705417293
+al, 372, 0.100810652018
+nasp, 5960, 0.0991393505989
+end, 3091, 0.0978344082977
+idea, 4482, 0.097022225972
+rockwel, 7452, 0.095057239341
+feedback, 3428, 0.0939214604052
+lockhe, 5325, 0.0928698933582
+boe, 1196, 0.0918909078586
+yell, 9946, 0.0909751280832
+chop, 1721, 0.0885366310908
+cancel, 1487, 0.0885366310908
+hat, 4199, 0.0864563774019
+ought, 6321, 0.0846424651184
+max, 5557, 0.0846424651184
+elimin, 3044, 0.0840859364709
+1993apr6, 49, 0.0840859364709
+dougla, 2837, 0.0815901074343
+craft, 2207, 0.0815901074343
+joke, 4883, 0.0811396041489
+congress, 2040, 0.0794683027301
+portion, 6752, 0.0790795205581
+martin, 5523, 0.0779732726665
+recogn, 7173, 0.0772809567473
+european, 3222, 0.0772809567473
+spirit, 8238, 0.0766208534675
+intent, 4702, 0.0742504125365
+dynam, 2942, 0.0739801250957
+shape, 7853, 0.0734545219851
+background, 855, 0.0727009115361
+street, 8440, 0.0724583473114
+wall, 9619, 0.0717545835
+pull, 6979, 0.0715275440707
+gov, 3965, 0.0715275440707
+militari, 5715, 0.0702366853224
+initi, 4647, 0.068865583222
+demonstr, 2520, 0.06849699986
+separ, 7797, 0.0674454328129
+spend, 8222, 0.0664664473134
+somewher, 8130, 0.0663096538771
+price, 6857, 0.0660011708234
+togeth, 8969, 0.0656992517396
+million, 5724, 0.0655506675379
+think, 8871, 0.0649971458602
+capabl, 1498, 0.0636189980508
+went, 9704, 0.0633633215551
+built, 1381, 0.0621497908543
+studi, 8469, 0.0610319168566
+land, 5104, 0.060401161388
+similar, 7961, 0.0587527280832
+author, 796, 0.0582138154051
+shuttl, 7929, 0.0571119749251
+net, 6010, 0.0571119749251
+everyon, 3241, 0.0565523100942
+type, 9177, 0.0554225628956
+today, 8964, 0.0542423022256
+cost, 2169, 0.0539130609678
+john, 4878, 0.0536550600128
+develop, 2588, 0.0528475528733
+project, 6909, 0.0526675547522
+bad, 861, 0.0522562314132
+noth, 6119, 0.0516330323458
+order, 6281, 0.0501601909678
+real, 7144, 0.0486451895263
+big, 1082, 0.0483342924848
+number, 6156, 0.046140672055
+articl, 665, 0.0457325752279
+let, 5225, 0.0448122247771
+program, 6905, 0.0440450292034
+differ, 2633, 0.0436922736863
+realli, 7150, 0.0421056869169
+space, 8164, 0.0402499188626
+work, 9833, 0.0402003046107
+thing, 8869, 0.0387648325006
+want, 9634, 0.0386533656147
+need, 5993, 0.0381516035496
+way, 9666, 0.0371184208647
+good, 3948, 0.0364755397003
+use, 9363, 0.0313384606377
+know, 5052, 0.0305642871137

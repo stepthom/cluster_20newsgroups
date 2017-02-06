@@ -1,0 +1,166 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38463
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rws@cs.arizona.edu (Ronald W. Schmidt)
+Subject: outlining of spline surface
+Keywords: spline rasterization
+Lines: 38
+
+
+	About a year ago I started work on a problem that appeared to
+be very simple and turned out to be quite difficult.  I am wondering if
+anyone on the net has seen this problem and (hopefully) some published 
+solutions to it.
+
+	The problem is to draw an outline of a surface defined by two
+roughly parallel cubic splines.  For inputs the problem essentially
+starts with two sets of points where each set of points is on the 
+edge of an object which we treat as two dimensional, i.e. only extant
+between the edges, but which exists in three dimensional space.  To draw 
+the object we 
+
+1) fit a cubic spline through the points.  Each spline is effectively
+	computed as a sequence of line segments approximating the
+        curve.  Each spline has an equal number of segments.  We assume
+	that the nth segment along each spline is roughly, but not
+	exactly, the same distance along each spline by any reasonable
+	measure.
+2) Take each segment (n) along each spline and match it to the nth segment
+	of the opposing spline.  Use the pair of segments to form two
+	triangles which will be filled in to color the surface.
+3) Depth sort the triangles
+4) Take each triangle in sorted order, project onto a 2D pixmap, draw
+	and color the triangle.  Take the edge of the triangle that is
+	along the edge of the surface and draw a line along that edge
+	colored with a special "edge color"
+
+	It is the edge coloring in step 4 that is at the heart of the
+problem.  The idea is to effectively outline the edge of the surface.
+The net result however generally has lots of breaks and gaps in
+the edge of the surface.  The reasons for this are fairly complicated.
+They involve both rasterization problems and problems resulting
+from the projecting the splines.  If anything about this problem
+sounds familiar we would appreciate knowing about other work in this
+area.
+
+-Thanks
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ outlin spline surfac     year ago start work
+problem appear simpl turn quit difficult wonder
+anyon net seen problem hope publish solut  problem
+draw outlin surfac defin two rough parallel cubic
+spline input problem essenti start two set point
+set point edg object treat two dimension extant
+edg exist three dimension space draw object  fit
+cubic spline point spline effect comput sequenc
+line segment approxim curv spline equal number
+segment assum nth segment along spline rough exact
+distanc along spline reason measur take segment
+along spline match nth segment oppos spline use
+pair segment form two triangl fill color surfac
+depth sort triangl take triangl sort order project
+onto pixmap draw color triangl take edg triangl
+along edg surfac draw line along edg color special
+edg color  edg color step heart problem idea
+effect outlin edg surfac net result howev general
+lot break gap edg surfac reason fair complic
+involv raster problem problem result project
+spline anyth problem sound familiar appreci know
+work area  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spline, 8245, 0.551667717478
+edg, 2993, 0.375920012134
+segment, 7768, 0.325459368571
+triangl, 9090, 0.273464212069
+surfac, 8587, 0.229926078126
+problem, 6887, 0.220617496213
+color, 1907, 0.176151316387
+outlin, 6327, 0.159054410281
+draw, 2861, 0.155642065121
+nth, 6145, 0.126891008474
+cubic, 2285, 0.110333543496
+dimension, 2653, 0.10529015603
+rough, 7493, 0.0938846306587
+point, 6710, 0.074226387383
+net, 6010, 0.0705609916717
+effect, 3005, 0.0702613071964
+result, 7332, 0.0680321352054
+sort, 8144, 0.0674319895401
+extant, 3318, 0.0663948709568
+project, 6909, 0.0650699769551
+object, 6173, 0.0645617931157
+set, 7815, 0.0627935941675
+pixmap, 6653, 0.0622750271441
+line, 5285, 0.0581096643346
+gap, 3769, 0.0567649218278
+reason, 7156, 0.0565471549849
+start, 8334, 0.055492333722
+pair, 6394, 0.0542432280951
+raster, 7104, 0.0519434590627
+familiar, 3379, 0.0498536535405
+work, 9833, 0.0496668756868
+treat, 9076, 0.0493378837573
+match, 5541, 0.0488507830347
+complic, 1978, 0.0481674066642
+sequenc, 7804, 0.04795096215
+depth, 2545, 0.0475334757505
+curv, 2306, 0.0469423153293
+input, 4662, 0.0465692565842
+parallel, 6420, 0.0458676376318
+approxim, 593, 0.0453759821897
+essenti, 3196, 0.0446132789661
+heart, 4225, 0.0444683904203
+solut, 8118, 0.0432620623265
+distanc, 2744, 0.0428942227285
+oppos, 6269, 0.0427749616038
+difficult, 2635, 0.042657301348
+equal, 3156, 0.0416639122464
+step, 8377, 0.0404934351533
+publish, 6974, 0.0404934351533
+break, 1284, 0.0401356076152
+measur, 5601, 0.0395425418452
+fit, 3510, 0.0395425418452
+special, 8198, 0.0390643019345
+defin, 2482, 0.0384647139024
+simpl, 7965, 0.03737611599
+fair, 3363, 0.037123852323
+involv, 4750, 0.0367585679087
+area, 622, 0.0356404226573
+appear, 580, 0.0356404226573
+form, 3610, 0.0351306535982
+turn, 9158, 0.0348864718632
+exact, 3253, 0.0347906724676
+sound, 8150, 0.0344176137224
+ago, 336, 0.0341478829806
+assum, 710, 0.0340160676027
+appreci, 587, 0.0338862051172
+general, 3818, 0.0338433416702
+seen, 7767, 0.0325349884776
+quit, 7043, 0.0321038085662
+wonder, 9821, 0.0318277051906
+exist, 3283, 0.0314292021389
+hope, 4372, 0.031332344165
+order, 6281, 0.0309860832318
+comput, 1993, 0.0303895566902
+howev, 4406, 0.0302182374106
+anyth, 555, 0.0300502024097
+idea, 4482, 0.0299673776286
+number, 6156, 0.0285030554526
+lot, 5356, 0.0273500338398
+space, 8164, 0.0248640866769
+thank, 8832, 0.0245474973112
+anyon, 554, 0.0235546370358
+year, 9943, 0.0220295060315
+use, 9363, 0.0193590999345
+know, 5052, 0.0188808600237

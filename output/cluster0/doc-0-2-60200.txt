@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60200
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: apryan@vax1.tcd.ie
+Subject: Cosmos 2238
+Lines: 11
+Nntp-Posting-Host: vax1.tcd.ie
+Organization: Trinity College Dublin
+Lines: 11
+
+I need as much information about Cosmos 2238 and its rocket fragment (1993-
+018B) as possible. Both its purpose, launch date, location, in short,
+EVERYTHING! Can you help?
+
+-Tony Ryan, "Astronomy & Space", new International magazine, available from:
+              Astronomy Ireland, P.O.Box 2888, Dublin 1, Ireland.
+6 issues (one year sub.): UK 10.00 pounds, US$20 surface (add US$8 airmail).
+ACCESS/VISA/MASTERCARD accepted (give number, expiration date, name&address).
+
+   (WORLD'S LARGEST ASTRO. SOC. per capita - unless you know better? 0.033%)
+Tel: 0891-88-1950 (UK/N.Ireland) 1550-111-442 (Eire). Cost up to 48p per min
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cosmos      need much inform cosmos rocket
+fragment 018b possibl purpos launch date locat
+short everyth help  toni ryan astronomi space new
+intern magazin avail astronomi ireland box dublin
+ireland issu one year sub pound surfac add airmail
+access visa mastercard accept give number expir
+date name address  world largest astro soc per
+capita unless know better tel ireland eir cost 48p
+per min
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ireland, 4763, 0.474442180743
+cosmos, 2168, 0.304235496402
+astronomi, 729, 0.22129366714
+date, 2391, 0.202078730097
+eir, 3019, 0.16634448335
+capita, 1503, 0.16634448335
+48p, 110, 0.16634448335
+mastercard, 5538, 0.163275670048
+dublin, 2905, 0.163275670048
+airmail, 363, 0.160568784878
+visa, 9539, 0.158147393581
+soc, 8089, 0.150414601651
+fragment, 3642, 0.150414601651
+min, 5732, 0.142217511882
+largest, 5126, 0.136187866502
+sub, 8482, 0.128709021479
+tel, 8754, 0.120704250501
+pound, 6776, 0.120704250501
+ryan, 7557, 0.120257984803
+toni, 8984, 0.118968938849
+magazin, 5432, 0.118554838252
+expir, 3300, 0.118554838252
+astro, 724, 0.116215672308
+rocket, 7447, 0.106897288873
+intern, 4716, 0.102218185557
+locat, 5323, 0.101818489198
+surfac, 8587, 0.100471880381
+everyth, 3242, 0.099023718791
+purpos, 6993, 0.098848950182
+add, 260, 0.0986755005939
+access, 209, 0.0981628705373
+accept, 208, 0.0944278667843
+box, 1254, 0.0938603821166
+issu, 4793, 0.0937206737148
+unless, 9289, 0.0935818094776
+short, 7904, 0.0908441792036
+launch, 5147, 0.0903577703312
+address, 264, 0.0892995903171
+cost, 2169, 0.0873190578346
+avail, 811, 0.0798285022583
+world, 9841, 0.0769699204225
+inform, 4637, 0.0755371530065
+possibl, 6765, 0.0753485175179
+number, 6156, 0.0747306856516
+better, 1060, 0.0687526798753
+help, 4249, 0.0675175310024
+new, 6023, 0.0669457015079
+space, 8164, 0.065189861787
+need, 5993, 0.0617913733153
+year, 9943, 0.0577580215229
+know, 5052, 0.0495027495424

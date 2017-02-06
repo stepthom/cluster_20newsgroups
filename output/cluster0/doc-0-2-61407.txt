@@ -1,0 +1,196 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61407
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Mars Observer Update - 04/28/93
+Organization: Jet Propulsion Laboratory
+Lines: 40
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+Keywords: Mars Observer, JPL
+News-Software: VAX/VMS VNEWS 1.41    
+
+Forwarded from the Mars Observer Project
+
+                     MARS OBSERVER STATUS REPORT
+                           April 28, 1993
+                            12:40 PM PDT
+
+Flight Sequence C9 is active as of 00:11 AM, Tuesday, April 27.  With
+activities beginning at shortly before 5:00 AM yesterday, C9 commanded
+the spacecraft to execute a series of slews and rolls to provide the MAG
+(Magnetometer) Team data points in varying spacecraft attitudes and
+orientations for the purpose of better characterizing the
+spacecraft-generated magnetic field and its effect on their instrument.
+
+The spacecraft was commanded back to Sun Star Init state at 9:07 AM to
+re-establish Inertial Reference.  Transition back to Array Normal Spin
+began at 11:17 AM, after which the sequence powered on the on-board
+transmitter at 11:18 AM.  Telemetry reacquisition occurred at
+approximately 11:30 AM at the 4 KBS Science and Engineering downlink
+data rate on the High Gain Antenna.  Subsystem engineers report that all
+systems appear to be nominal.  The command to terminate using the Low
+Gain Antenna for uplink was sent at 12:31 PM.  Uplink and Downlink are
+currently via the HGA.
+
+MAG Calibration data has been recorded on Digital Tape Recorders 2 and 3.
+Playback of DTR 2 is scheduled to take place tomorrow morning between
+8:11 AM and 12:42 PM.  Playback of DTR 3 is scheduled to take place
+tomorrow evening beginning at 11:57 PM and ending at 4:28 AM on Friday.
+DTR playback will be performed via the High Gain Antenna at 42,667 bits
+per second.  Upon verification of successful DTR playbacks, downlink will
+be maintained at the 4K S & E rate.
+
+The MAG Cal activity timeline ends at shortly before 5:00 AM on Friday
+morning.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mar observ updat      news softwar vax vms vnew
+forward mar observ project  mar observ status
+report april pdt  flight sequenc activ tuesday
+april activ begin short yesterday command
+spacecraft execut seri slew roll provid mag
+magnetomet team data point vari spacecraft attitud
+orient purpos better character spacecraft generat
+magnet field effect instrument  spacecraft command
+back sun star init state establish inerti refer
+transit back array normal spin began sequenc power
+board transmitt telemetri reacquisit occur
+approxim kbs scienc engin downlink data rate high
+gain antenna subsystem engin report system appear
+nomin command termin use low gain antenna uplink
+sent uplink downlink current via hga  mag calibr
+data record digit tape record playback dtr schedul
+take place tomorrow morn playback dtr schedul take
+place tomorrow even begin end friday dtr playback
+perform via high gain antenna bit per second upon
+verif success dtr playback downlink maintain rate
+mag cal activ timelin end short friday morn   jet
+propuls lab telo aweto new zealand pasadena part
+caterpillar part veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dtr, 2897, 0.366078923042
+playback, 6682, 0.303311874095
+downlink, 2842, 0.245786955428
+mag, 5430, 0.217714900934
+spacecraft, 8166, 0.201779379092
+antenna, 538, 0.193132324631
+gain, 3746, 0.177043725529
+uplink, 9338, 0.171475172641
+mar, 5500, 0.167114919932
+command, 1933, 0.149011739053
+activ, 252, 0.145043301705
+observ, 6179, 0.14126634148
+tomorrow, 8979, 0.128079058943
+friday, 3690, 0.126785082332
+data, 2385, 0.125755903467
+sequenc, 7804, 0.123840884009
+morn, 5864, 0.120749028653
+schedul, 7678, 0.102987339768
+begin, 994, 0.100492513963
+rate, 7108, 0.0982455377841
+record, 7184, 0.0957181843844
+april, 595, 0.0940291117491
+report, 7291, 0.0900997878202
+short, 7904, 0.0894862427462
+engin, 3109, 0.0883068913295
+inerti, 4612, 0.0882633958815
+timelin, 8937, 0.0836738496421
+slew, 8027, 0.0836738496421
+pdt, 6494, 0.0804175147631
+hga, 4284, 0.0804175147631
+verif, 9471, 0.0790843034027
+transmitt, 9060, 0.0790843034027
+magnetomet, 5438, 0.0790843034027
+end, 3091, 0.0780433398273
+telemetri, 8759, 0.077891705202
+place, 6657, 0.0775378355933
+calibr, 1457, 0.0768128689013
+high, 4292, 0.0765594796908
+subsystem, 8505, 0.0706264238483
+nomin, 6096, 0.069493557785
+caterpillar, 1562, 0.0689669877829
+aweto, 836, 0.0689669877829
+magnet, 5437, 0.0684638287794
+cal, 1449, 0.0684638287794
+transit, 9056, 0.0679820874054
+character, 1662, 0.0679820874054
+veget, 9448, 0.0670760668856
+telo, 8769, 0.0654562778442
+execut, 3272, 0.0643774415435
+zealand, 9977, 0.0637114133448
+tuesday, 9147, 0.0637114133448
+termin, 8796, 0.0630824063198
+spin, 8235, 0.0630824063198
+began, 993, 0.0627805427299
+roll, 7464, 0.0621999429652
+vari, 9426, 0.0619204420045
+status, 8352, 0.0616476766666
+pasadena, 6446, 0.0606179476611
+establish, 3198, 0.0596741334041
+instrument, 4686, 0.0594499832323
+attitud, 769, 0.0592301857673
+yesterday, 9952, 0.0588029949267
+array, 653, 0.0585952971034
+approxim, 593, 0.0585952971034
+tape, 8700, 0.0579941356368
+orient, 6290, 0.0561936483533
+jet, 4860, 0.0560284014217
+propuls, 6936, 0.0549346616116
+digit, 2642, 0.0544964437718
+board, 1186, 0.0543540618469
+occur, 6192, 0.0542134486873
+maintain, 5454, 0.0542134486873
+lab, 5085, 0.0534045893974
+normal, 6108, 0.0518282522857
+vnew, 9564, 0.051493669884
+sent, 7793, 0.0513843046489
+forward, 3621, 0.0513843046489
+success, 8513, 0.0502462569815
+vms, 9563, 0.0499547589728
+vax, 9439, 0.0493933605931
+flight, 3544, 0.0492122493089
+updat, 9333, 0.0490339902896
+generat, 3819, 0.0490339902896
+star, 8324, 0.0489459025783
+purpos, 6993, 0.0486856793068
+sun, 8539, 0.0467947584095
+low, 5368, 0.0466505626534
+seri, 7805, 0.0461598697457
+appear, 580, 0.0460234920263
+perform, 6539, 0.0459559144299
+effect, 3005, 0.0453652127334
+field, 3466, 0.0425989636548
+scienc, 7692, 0.0423023734001
+project, 6909, 0.0420133564961
+power, 6783, 0.0420133564961
+provid, 6949, 0.0418715690834
+refer, 7213, 0.0417315357867
+current, 2299, 0.0410126139694
+state, 8342, 0.0401334162437
+second, 7753, 0.039392824928
+news, 6031, 0.039094933689
+bit, 1122, 0.0381776109079
+softwar, 8103, 0.0377780677666
+team, 8732, 0.0375834633094
+better, 1060, 0.0338624832912
+new, 6023, 0.0329724994406
+point, 6710, 0.0319502154498
+use, 9363, 0.0249989566633

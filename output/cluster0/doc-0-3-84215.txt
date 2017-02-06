@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84215
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: keith@cco.caltech.edu (Keith Allan Schneider)
+Subject: Re: The Universe and Black Holes, was Re: 2000 years.....
+Organization: California Institute of Technology, Pasadena
+Lines: 13
+NNTP-Posting-Host: punisher.caltech.edu
+
+kv07@IASTATE.EDU (Warren Vonroeschlaub) writes:
+
+>  Let's say that we drop a marble into the black hole.  It races, ever faster,
+>towards the even horizon.  But, thanks to the curving of space caused by the
+>excessive gravity, as the object approaches the event horizon it has further to
+>travel.  Integrating the curve gives a time to reach the event horizon of . . .
+>infinity.  So the math says that nothing can enter a black hole.
+
+This is not correct.  The event horizon is not the "center" of the black
+hole but merely the distance at which the escape velocity is equal to the
+speed of light.  That is, the event horizon is a finite radius...
+
+keith
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ univers black hole year       let say drop marbl
+black hole race ever faster toward even horizon
+thank curv space caus excess graviti object
+approach event horizon travel integr curv give
+time reach event horizon infin math say noth enter
+black hole  correct event horizon center black
+hole mere distanc escap veloc equal speed light
+event horizon finit radius  keith
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+horizon, 4374, 0.582051048259
+hole, 4343, 0.356209036715
+event, 3232, 0.335866937261
+black, 1133, 0.323452471008
+curv, 2306, 0.198110732091
+marbl, 5502, 0.13673085488
+infin, 4629, 0.12551937404
+finit, 3489, 0.119782547383
+excess, 3263, 0.117467448736
+veloc, 9456, 0.108237784583
+escap, 3185, 0.106961647697
+keith, 4974, 0.105198728813
+radius, 7064, 0.102589247584
+travel, 9069, 0.0982681558217
+math, 5544, 0.0982681558217
+integr, 4694, 0.0960895644241
+graviti, 4010, 0.0941407480111
+say, 7653, 0.0939209771332
+race, 7049, 0.0912894770862
+faster, 3399, 0.09076841028
+distanc, 2744, 0.0905132800502
+mere, 5641, 0.0897683478983
+enter, 3125, 0.0897683478983
+drop, 2878, 0.0895265582018
+approach, 589, 0.08813865875
+equal, 3156, 0.0879171393551
+reach, 7128, 0.0804173938133
+speed, 8217, 0.0752066677488
+caus, 1569, 0.0748773418671
+center, 1606, 0.074661004332
+light, 5267, 0.0736157178486
+correct, 2156, 0.0712349752761
+object, 6173, 0.0681175609337
+noth, 6119, 0.0673052023057
+univers, 9282, 0.0614674976899
+let, 5225, 0.0584140755901
+space, 8164, 0.0524669733456
+thank, 8832, 0.0517989220302
+year, 9943, 0.0464855806204
+time, 8936, 0.0439484208324

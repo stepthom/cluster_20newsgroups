@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104652
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: snichols@adobe.com (Sherri Nichols)
+Subject: Re: USA McWeekly Stats
+Organization: Adobe Systems Incorporated
+Lines: 9
+
+In article <1993Apr20.033504.13966@mnemosyne.cs.du.edu> gspira@nyx.cs.du.edu (Greg Spira) writes:
+>Uh, Bill James doesn't sell statistics.  He sells books with statistics,
+>but he is not in the business of providing stats like Elias, STATS,
+>Howe, Baseball workshop etc. are.
+
+Bill James is, however, very closely tied to STATS.
+
+Sherri Nichols
+snichols@adobe.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ usa mcweek stat     bill jame doesn't sell
+statist sell book statist busi provid stat like
+elia stat howe basebal workshop etc  bill jame
+howev close tie stat  sherri nichol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stat, 8341, 0.572514117693
+statist, 8348, 0.316872336953
+jame, 4820, 0.312128878895
+sell, 7778, 0.300479867774
+mcweek, 5589, 0.228209279871
+howe, 4404, 0.208691512177
+elia, 3042, 0.208691512177
+workshop, 9839, 0.186837184592
+sherri, 7879, 0.177465102658
+nichol, 6050, 0.170974766474
+tie, 8923, 0.16321440492
+usa, 9357, 0.151400646432
+busi, 1424, 0.145325476701
+close, 1830, 0.119505749751
+provid, 6949, 0.11663125829
+book, 1218, 0.112932201247
+howev, 4406, 0.108693000101
+basebal, 924, 0.106247656445
+doesn, 2793, 0.102273702167
+like, 5272, 0.0663881819382

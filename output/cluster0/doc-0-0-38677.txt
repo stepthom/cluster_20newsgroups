@@ -1,0 +1,150 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38677
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sts@mfltd.co.uk (Steve Sherwood (x5543))
+Subject: Re: Virtual Reality for X on the CHEAP!
+Reply-To: sts@mfltd.co.uk
+Organization: Micro Focus Ltd, Newbury, England
+Lines: 39
+
+In article <1r6v3a$rj2@fg1.plk.af.mil>, ridout@bink.plk.af.mil (Brian S.  Ridout) writes:
+|> In article <1993Apr15.134802.21995@mfltd.co.uk>, sts@mfltd.co.uk (Steve Sherwood (x5543)) writes:
+|> |> Has anyone got multiverse to work ?
+|> |> 
+|> |> I have built it on 486 svr4, mips svr4s and Sun SparcStation.
+|> |> 
+|> |> There seems to be many bugs in it.  The 'dogfight' and 'dactyl' simply do nothing
+|> |> (After fixing a bug where a variable is defined twice in two different modules - One needed
+|> |> setting to static - else the client core-dumped)
+|> |> 
+|> |> Steve
+|> |> -- 
+|> |> 
+|> |>          Extn 5543, sts@mfltd.co.uk, !uunet!mfocus!sts
+|> |> +-----------------------------------+------------------------+ Micro Focus
+|> |> | Just like Pariah, I have no name, |    rm -rf *            | 26 West Street
+|> |> | Living in a blaze of obscurity,   |      "rum ruff splat"  | Newbury
+|> |> | Need courage to survive the day.  |                        | Berkshire
+|> |> +-----------------------------------+------------------------+ England
+|> |>          (A)bort (R)etry (I)nfluence with large hammer
+|> I built it on a rs6000 (my only Motif machine) works fine.  I added some objects
+|> into dogfight so I could get used to flying.  This was very easy. 
+|> All in all Cool!.  
+|> Brian
+
+The RS6000 compiler is so forgiving, I think that if you mixed COBOL & pascal
+the C compiler still wouldn't complain. :-)
+
+Steve
+-- 
+
+         Extn 5543, sts@mfltd.co.uk, !uunet!mfocus!sts
++-----------------------------------+------------------------+ Micro Focus
+| Just like Pariah, I have no name, |    rm -rf *            | 26 West Street
+| Living in a blaze of obscurity,   |      "rum ruff splat"  | Newbury
+| Need courage to survive the day.  |                        | Berkshire
++-----------------------------------+------------------------+ England
+         (A)bort (R)etry (I)nfluence with large hammer
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ virtual realiti cheap       anyon got multivers
+work  built svr4 mip svr4s sun sparcstat  seem
+mani bug dogfight dactyl simpli noth fix bug
+variabl defin twice two differ modul one need set
+static els client core dump  steve    micro focus
+like pariah name west street live blaze obscur rum
+ruff splat newburi need courag surviv day berkshir
+england bort etri nfluenc larg hammer built rs6000
+motif machin work fine ad object dogfight could
+get use fli easi cool brian  rs6000 compil forgiv
+think mix cobol pascal compil still wouldn't
+complain  steve    micro focus like pariah name
+west street live blaze obscur rum ruff splat
+newburi need courag surviv day berkshir england
+bort etri nfluenc larg hammer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rum, 7540, 0.205985547198
+ruff, 7532, 0.205985547198
+nfluenc, 6042, 0.205985547198
+newburi, 6026, 0.205985547198
+etri, 3213, 0.205985547198
+bort, 1235, 0.205985547198
+berkshir, 1040, 0.205985547198
+pariah, 6428, 0.200090914895
+splat, 8243, 0.195274649617
+dogfight, 2797, 0.191202555346
+rs6000, 7512, 0.184563752035
+hammer, 4141, 0.181780514538
+courag, 2188, 0.179262769968
+blaze, 1147, 0.179262769968
+obscur, 6178, 0.169364746485
+micro, 5684, 0.162181257407
+england, 3110, 0.153654770966
+focus, 3569, 0.148687122329
+surviv, 8599, 0.141467717102
+compil, 1972, 0.140343448547
+street, 8440, 0.134892798523
+bug, 1373, 0.134012172851
+west, 9708, 0.127181598652
+steve, 8390, 0.117726140606
+built, 1381, 0.115701772495
+need, 5993, 0.106537964815
+svr4s, 8617, 0.100045457448
+larg, 5124, 0.0978280155304
+live, 5310, 0.0968555256964
+dactyl, 2332, 0.0956012776729
+multivers, 5923, 0.0938375734209
+mip, 5748, 0.0922818760174
+static, 8345, 0.0896313849841
+sparcstat, 8185, 0.0874249075885
+variabl, 9427, 0.0793269244518
+client, 1816, 0.0793269244518
+day, 2402, 0.0783337936223
+pascal, 6447, 0.0772908773163
+motif, 5879, 0.0772908773163
+forgiv, 3605, 0.0772908773163
+dump, 2916, 0.0763796083001
+work, 9833, 0.0748392944585
+twice, 9170, 0.0743435611646
+svr4, 8616, 0.073609585574
+cool, 2124, 0.0729142586194
+mix, 5788, 0.0719354285254
+complain, 1973, 0.0716246339061
+modul, 5815, 0.0704498011106
+core, 2140, 0.068862915589
+virtual, 9536, 0.0670060864256
+cheap, 1677, 0.0670060864256
+fix, 3511, 0.0650010080309
+brian, 1304, 0.0620165380941
+realiti, 7148, 0.0618689593309
+machin, 5416, 0.0600869231372
+fine, 3485, 0.0586313422209
+easi, 2959, 0.0582911990832
+defin, 2482, 0.0579595960124
+ad, 257, 0.0567106509444
+fli, 3542, 0.056416032888
+like, 5272, 0.0556225848419
+wouldn, 9854, 0.0552102410302
+sun, 8539, 0.0546038582628
+simpli, 7967, 0.0541053779008
+object, 6173, 0.0486416648817
+noth, 6119, 0.0480615725295
+set, 7815, 0.0473094816115
+els, 3053, 0.0456620417545
+got, 3960, 0.0433402372781
+differ, 2633, 0.0406700766032
+mani, 5479, 0.0374658296605
+anyon, 554, 0.0354927180864
+think, 8871, 0.0302506447719
+use, 9363, 0.0291707775134

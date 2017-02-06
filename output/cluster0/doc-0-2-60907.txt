@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60907
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ghasting@vdoe386.vak12ed.edu (George Hastings)
+Subject: Re: Soviet space book
+Organization: Virginia's Public Education Network (Richmond)
+Lines: 13
+
+     I have received my copies of Cosmonautics 1990 and
+Cosmonautics 1991, as well as Soviet Space 1990 and Space
+Station [MIR] Handbook from Aerospace Ambassadors with no
+problem.
+     I'm getting ready to FAX them some material in Huntsville,
+and I'll include a printout of your inquiry.
+ ____________________________________________________________
+| George Hastings		ghasting@vdoe386.vak12ed.edu |  
+| Space Science Teacher		72407.22@compuserve.com      |  If it's not
+| Mathematics & Science Center 	STAREACH BBS: 804-343-6533   |   FUN, it's
+| 2304 Hartman Street		OFFICE:       804-343-6525   |  probably not
+| Richmond, VA 23223		FAX:          804-343-6529   |    SCIENCE!
+ ------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ soviet space book    receiv copi cosmonaut
+cosmonaut well soviet space space station mir
+handbook aerospac ambassador problem i'm get readi
+fax materi huntsvill i'll includ printout inquiri
+mathemat scienc center stareach bbs fun it hartman
+street offic probabl richmond fax scienc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cosmonaut, 2167, 0.424767012589
+soviet, 8161, 0.32244916582
+space, 8164, 0.238605264223
+fax, 3413, 0.235548952835
+stareach, 8330, 0.226706653969
+scienc, 7692, 0.209577310789
+printout, 6873, 0.207271353613
+ambassador, 460, 0.202949090108
+inquiri, 4664, 0.199204975156
+huntsvill, 4446, 0.183513789752
+mir, 5749, 0.179769674801
+handbook, 4146, 0.172144867854
+richmond, 7386, 0.1708404833
+aerospac, 304, 0.160334374445
+mathemat, 5545, 0.145148413727
+fun, 3721, 0.144643189041
+bbs, 961, 0.144146906857
+street, 8440, 0.143179941674
+readi, 7139, 0.137988693845
+offic, 6206, 0.12422395575
+materi, 5543, 0.123508022096
+copi, 2130, 0.123273382974
+receiv, 7167, 0.122581021589
+station, 8346, 0.118356626286
+center, 1606, 0.113179190196
+book, 1218, 0.100431882086
+includ, 4579, 0.096481595533
+probabl, 6885, 0.0917009150903
+ll, 5314, 0.0888225735593
+problem, 6887, 0.0882137368452

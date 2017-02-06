@@ -1,0 +1,208 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61448
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: roeber@vxcrna.cern.ch (Frederick Roeber)
+Subject: Re: Internet resources
+Reply-To: roeber@cern.ch
+Organization: CERN -- European Organization for Nuclear Research
+Distribution: sci
+Lines: 39
+
+In article <C69C9K.9FA.1@cs.cmu.edu>, STK1203@VAX003.STOCKTON.EDU writes:
+> I am taking a course entitled "Exploring Science Using Internet".
+> For our final project, we are to find a compendium of Internet resources 
+> dealing with a science-related topic. I chose Astronomy. Anyway, I was 
+> wondering if anyone out there knew of any interesting resources on Internet
+> that provide information on Astronomy, space, NASA, or anything like that.
+
+Do you know of the world-wide-web?  This is a global hypertext (well, 
+hypermedia) network running on the internet.  One of the nice things
+about it is that is understands and incorporates virtually all of the
+other systems being used, like WAIS, Gopher, FTP, Archie, etc.  It
+is usually quite easy to add existing resources to the web.
+
+If you'd like to explore, I'd suggest getting the XMosaic program,
+written at the NCSA.  It's an X-windows web browser, and is pretty
+slick.  It can understand and cope with more than text: gif, jpeg, mpeg,
+audio, etc.  There are other browsers, including a text-mode browser
+for people stuck on a text terminal, but I'm most familliar with mosaic.
+
+Under the page "The World-Wide Web Virtual Library: Subject Catalogue"
+(this is available under the Documents menu in mosaic, or by any
+browser via the URL 
+http://info.cern.ch/hypertext/DataSources/bySubject/Overview.html )
+there is a subject "Space Science."  Currently this points to a
+page under construction, with only the NASA JPL FTP archive.  I've
+volunteered to take over this page, and in fact I have a replacement
+with all sorts of information pointers (mostly gleaned from the
+sci.space FAQ).  As soon as the overworked "Subject Catalogue" 
+maintainer switches the "Space Science" pointer, it'll be visible.
+
+I'll post a short note when this happens.
+
+-- 
+Frederick G. M. Roeber | CERN -- European Center for Nuclear Research
+e-mail: roeber@cern.ch or roeber@caltech.edu | work: +41 22 767 31 80
+r-mail: CERN/PPE, 1211 Geneva 23, Switzerland | home: +33 50 20 82 99
+--  
+"Sorry, baby, I can't take you to the pizza joint tonight, I've got to go
+back to the lab and split the atom." -- Ayn Rand, "What is Romanticism?"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ internet resourc       take cours entitl explor
+scienc use internet final project find compendium
+internet resourc deal scienc relat topic chose
+astronomi anyway wonder anyon knew interest
+resourc internet provid inform astronomi space
+nasa anyth like  know world wide web global
+hypertext well hypermedia network run internet one
+nice thing understand incorpor virtual system use
+like wai gopher ftp archi etc usual quit easi add
+exist resourc web  you'd like explor i'd suggest
+get xmosaic program written ncsa it window web
+browser pretti slick understand cope text gif jpeg
+mpeg audio etc browser includ text mode browser
+peopl stuck text termin i'm familliar mosaic  page
+world wide web virtual librari catalogu avail
+document menu mosaic browser via url http info
+cern hypertext datasourc bysubject overview html
+space scienc current point page construct nasa jpl
+ftp archiv i'v volunt take page fact replac sort
+inform pointer most glean sci space faq soon
+overwork catalogu maintain switch space scienc
+pointer it'll visibl  i'll post short note happen
+frederick roeber cern european center nuclear
+research caltech edu work mail cern ppe geneva
+switzerland home  sorri babi can't take pizza
+joint tonight i'v got back lab split atom ayn rand
+romantic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+browser, 1346, 0.355651175687
+web, 9681, 0.337157920362
+internet, 4717, 0.273769859608
+cern, 1618, 0.266738381765
+resourc, 7320, 0.216790569292
+mosaic, 5871, 0.172736801428
+scienc, 7692, 0.170454452651
+page, 6382, 0.163002602341
+catalogu, 1553, 0.156929587031
+text, 8822, 0.15305884251
+pointer, 6711, 0.130403944655
+space, 8164, 0.129375740658
+virtual, 9536, 0.115691580014
+wide, 9747, 0.110979744161
+astronomi, 729, 0.109794802843
+explor, 3307, 0.107858671892
+ftp, 3709, 0.0921844315745
+ayn, 844, 0.0889127939218
+nasa, 5956, 0.0858247711612
+wai, 9609, 0.0842894800905
+geneva, 3824, 0.0842894800905
+cope, 2128, 0.0825317777484
+understand, 9246, 0.0817680608556
+rand, 7090, 0.0810091867237
+compendium, 1967, 0.0810091867237
+glean, 3897, 0.0784647935157
+ncsa, 5977, 0.0763858728925
+frederick, 3667, 0.0763858728925
+world, 9841, 0.0763772171784
+switzerland, 8639, 0.0754731863257
+slick, 8030, 0.0754731863257
+audio, 778, 0.0754731863257
+inform, 4637, 0.0749554827203
+overview, 6354, 0.0746281705504
+volunt, 9579, 0.0738414796845
+pizza, 6655, 0.0731055795257
+caltech, 1468, 0.0731055795257
+ll, 5314, 0.0722416138564
+like, 5272, 0.0720277634626
+mpeg, 5895, 0.0711460578459
+gopher, 3952, 0.0700048567191
+incorpor, 4587, 0.0694744124776
+chose, 1726, 0.0694744124776
+babi, 847, 0.0689675514812
+archi, 613, 0.0689675514812
+stuck, 8466, 0.0680167931097
+menu, 5633, 0.0675695791276
+joint, 4882, 0.0671392452299
+entitl, 3132, 0.0667245633524
+termin, 8796, 0.0635465351994
+global, 3904, 0.0632424506478
+switch, 8638, 0.0626575791197
+nuclear, 6150, 0.0623760217303
+tonight, 8985, 0.0621012495211
+european, 3222, 0.0621012495211
+atom, 756, 0.0610639442832
+split, 8247, 0.0590264120716
+jpl, 4912, 0.0590264120716
+visibl, 9541, 0.0584208275588
+jpeg, 4905, 0.0584208275588
+construct, 2074, 0.057845790007
+knew, 5045, 0.0569474914483
+archiv, 618, 0.056114822718
+replac, 7288, 0.0550426580983
+maintain, 5454, 0.0546123242006
+topic, 8992, 0.0544724145323
+soon, 8136, 0.0543342007805
+lab, 5085, 0.0537975137275
+faq, 3385, 0.0532849557562
+sci, 7690, 0.0531603370851
+network, 6018, 0.0527944502418
+document, 2788, 0.052439939981
+mode, 5806, 0.052324177617
+librari, 5250, 0.0506159438771
+use, 9363, 0.0503657730334
+easi, 2959, 0.0503223011714
+written, 9867, 0.0497567723025
+add, 260, 0.0489578272765
+usual, 9377, 0.0481311976835
+gif, 3869, 0.0481311976835
+window, 9774, 0.0474352362518
+nice, 6047, 0.0461590927819
+deal, 2418, 0.0460922157872
+center, 1606, 0.0460257287481
+short, 7904, 0.0450723189419
+info, 4636, 0.0448908430438
+final, 3482, 0.0447714441003
+sorri, 8142, 0.0439689274235
+home, 4354, 0.0439689274235
+sort, 8144, 0.0438587575335
+research, 7307, 0.0438587575335
+relat, 7247, 0.0435879016887
+suggest, 8525, 0.0434813355401
+project, 6909, 0.0423224698166
+provid, 6949, 0.0421796392028
+pretti, 6851, 0.0418072797512
+quit, 7043, 0.0417615783076
+wonder, 9821, 0.0414024149168
+current, 2299, 0.0413143643255
+note, 6118, 0.0411402770523
+exist, 3283, 0.0408840304278
+edu, 3001, 0.0404286979015
+happen, 4159, 0.0401877911609
+avail, 811, 0.0396068933198
+includ, 4579, 0.0392354437022
+mail, 5447, 0.0391989556874
+fact, 3350, 0.0391263280857
+anyth, 555, 0.0390901870257
+cours, 2190, 0.039018246756
+got, 3960, 0.0374152617797
+program, 6905, 0.0353936010092
+run, 7543, 0.0343472236714
+post, 6766, 0.033301641511
+work, 9833, 0.0323040662607
+point, 6710, 0.032185289198
+thing, 8869, 0.0311505529575
+peopl, 6530, 0.030936749914
+anyon, 554, 0.0306405645625
+know, 5052, 0.0245607779765

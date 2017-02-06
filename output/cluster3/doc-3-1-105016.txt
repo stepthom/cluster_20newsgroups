@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105016
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: How to speed up games (marginally realistic)
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 19
+
+In article <he82p38@zola.esd.sgi.com> archer@elysium.esd.sgi.com (Archer (Bad Cop) Surly) writes:
+>In <m0nll6S-0000ahC@udcps3.cps.udayton.edu> mbohler@udcps3.cps.udayton.edu (Michael Bohler) writes:
+>
+>*To really speed up the game umps need to START CALLING STRIKES the way
+>*they used to.  I'm talking about making the strike zone start at the
+>*knees and go up to the top of the letters.  Forget this "the strike zone
+>*is in the general area of the groin".  A lot less 3-and-2 counts and a
+>*quicker game. 
+>
+>They tried that in the '60's and people stopped coming to the ballparks 
+>in droves, as offense suffered immensely.
+
+They lowered the mound first (before the 69 season).  The shrinkage of
+the strike zone didn't start until the mid-70s.
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ speed game margin realist       realli speed game
+ump need start call strike way use i'm talk make
+strike zone start knee top letter forget strike
+zone general area groin lot less count quicker
+game  tri peopl stop come ballpark drove offens
+suffer immens  lower mound first season shrinkag
+strike zone didn't start mid 70s  scott barman met
+mail list feed follow shell asd com subscrib let
+met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+strike, 8448, 0.444149090316
+zone, 9991, 0.382547890957
+start, 8334, 0.21176218978
+game, 3761, 0.202788282356
+met, 5655, 0.198369448057
+speed, 8217, 0.181341419986
+quicker, 7038, 0.161407988069
+70s, 137, 0.155803691183
+drove, 2881, 0.151328746543
+knee, 5042, 0.147603450335
+immens, 4528, 0.147603450335
+barman, 913, 0.14595084694
+asd, 677, 0.14595084694
+mound, 5885, 0.140346550053
+ballpark, 883, 0.139140854217
+ump, 9209, 0.133020928789
+shell, 7873, 0.133020928789
+realist, 7147, 0.125517617814
+feed, 3427, 0.121989231856
+subscrib, 8496, 0.119913320927
+mid, 5698, 0.119913320927
+scott, 7713, 0.117122190243
+margin, 5507, 0.117122190243
+suffer, 8521, 0.112766816618
+letter, 5227, 0.110060476684
+lower, 5371, 0.106805713066
+offens, 6202, 0.104957323154
+count, 2180, 0.103016974594
+forget, 3604, 0.101665049113
+com, 1917, 0.0974902427974
+stop, 8413, 0.0942870190336
+area, 622, 0.0906707099928
+general, 3818, 0.0860988616008
+season, 7747, 0.08588235562
+list, 5298, 0.0816734174049
+mail, 5447, 0.0766616780168
+talk, 8684, 0.0754147727021
+didn, 2625, 0.0744909744234
+follow, 3578, 0.0732954868457
+let, 5225, 0.0704252144906
+lot, 5356, 0.0695796177959
+realli, 7150, 0.0661717209342
+come, 1923, 0.0646658491906
+tri, 9087, 0.0645827953111
+peopl, 6530, 0.0605032230886
+need, 5993, 0.0599576315727
+way, 9666, 0.0583339203522
+make, 5459, 0.0559312063069
+use, 9363, 0.0492503512868

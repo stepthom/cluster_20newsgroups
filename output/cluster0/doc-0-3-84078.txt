@@ -1,0 +1,155 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84078
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Rawlins debunks creationism
+From: rfox@charlie.usd.edu (Rich Fox, Univ of South Dakota)
+Reply-To: rfox@charlie.usd.edu
+Organization: The University of South Dakota Computer Science Dept.
+Nntp-Posting-Host: charlie
+Lines: 36
+
+In article <30151@ursa.bear.com>, halat@pooh.bears (Jim Halat) writes:
+>In article <C5snCL.J8o@usenet.ucs.indiana.edu>, adpeters@sunflower.bio.indiana.edu (Andy Peters) writes:
+>
+>>Evolution, as I have said before, is theory _and_ fact.  It is exactly
+>>the same amount of each as the existence of atoms and the existence of
+>>gravity.  If you accept the existence of atoms and gravity as fact,
+>>then you should also accept the existence of evolution as fact.
+>>
+>>-- 
+>>--Andy
+>
+>I don't accept atoms or gravity as fact either.  They are extremely useful
+>mathematical models to describe physical observations we can make.
+>Other posters have aptly explained the atomic model.  Gravity, too, is
+>very much a theory; no gravity waves have even been detected, but we
+>have a very useful model that describes much of the behavior on
+>objects by this thing we _call_ gravity.  Gravity, however, is _not_ 
+>a fact.  It is a theoretical model used to talk about how objects 
+>behave in our physical environment.  Newton thought gravity was a
+>simple vector force; Einstein a wave. Both are very useful models that 
+>have no religious overtones or requirements of faith, unless of course you 
+>want to demand that it is a factual physical entity described exactly 
+>the way the theory now formulated talks about it.  That takes a great 
+>leap of faith, which, of course, is what religion takes.  Evolution
+>is no different.
+>
+>-- 
+> jim halat         halat@bear.com     
+
+Are you serious?!!!  Here's an exercise next time you are in the barnyard. 
+Take *your* model and hold it directly above a fresh cowpie.  Then release the
+model.  You will observe that on its own *your* model will assume a trajectory
+earthward and come to rest exactly where it belongs.  Watch out for splatters,
+particularly if you are wearing shorts when you perform this experiment.
+
+Rich Fox, Anthro, Usouthdakota
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+rawlin debunk creation          evolut said theori
+fact exact amount exist atom exist graviti accept
+exist atom graviti fact also accept exist evolut
+fact   andi  don't accept atom graviti fact either
+extrem use mathemat model describ physic observ
+make poster apt explain atom model graviti much
+theori graviti wave even detect use model describ
+much behavior object thing call graviti graviti
+howev fact theoret model use talk object behav
+physic environ newton thought graviti simpl vector
+forc einstein wave use model religi overton requir
+faith unless cours want demand factual physic
+entiti describ exact way theori formul talk take
+great leap faith cours religion take evolut differ
+serious here exercis next time barnyard take model
+hold direct fresh cowpi releas model observ model
+assum trajectori earthward come rest exact belong
+watch splatter particular wear short perform
+experi  rich fox anthro usouthdakota
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+graviti, 4010, 0.490226269653
+model, 5807, 0.403915964961
+atom, 756, 0.257909266771
+evolut, 3248, 0.218468166964
+fact, 3350, 0.206567122106
+exist, 3283, 0.172677517544
+theori, 8848, 0.166858495839
+physic, 6613, 0.157036351755
+describ, 2556, 0.155630741476
+accept, 208, 0.148407665386
+exact, 3253, 0.143359516307
+wave, 9661, 0.134857121048
+faith, 3367, 0.109779171451
+use, 9363, 0.106362271107
+observ, 6179, 0.100173573329
+object, 6173, 0.088678437605
+usouthdakota, 9373, 0.0855374648448
+anthro, 540, 0.0855374648448
+rawlin, 7115, 0.0841193717813
+factual, 3354, 0.0841193717813
+debunk, 2430, 0.0841193717813
+newton, 6037, 0.0828508443097
+apt, 596, 0.0828508443097
+cours, 2190, 0.0823986030518
+fresh, 3687, 0.0817033216287
+formul, 3613, 0.0817033216287
+talk, 8684, 0.0814337998616
+entiti, 3131, 0.0779690949637
+leap, 5180, 0.0764621463286
+fox, 3632, 0.0764621463286
+einstein, 3018, 0.0745054386812
+andi, 502, 0.0745054386812
+exercis, 3279, 0.0704543549054
+behav, 999, 0.0700318597903
+vector, 9444, 0.0696236893351
+theoret, 8847, 0.0692289039568
+trajectori, 9044, 0.0688466535877
+wear, 9676, 0.0681167407
+behavior, 1000, 0.0661600330526
+detect, 2579, 0.0650125103716
+poster, 6769, 0.0647419399891
+rich, 7382, 0.0644773166927
+demand, 2514, 0.0634734125175
+belong, 1015, 0.0634734125175
+mathemat, 5545, 0.0623258898365
+creation, 2218, 0.0608834983282
+extrem, 3333, 0.0595955673467
+religi, 7260, 0.0590831548956
+environ, 3139, 0.0560017489822
+releas, 7253, 0.0526355821013
+hold, 4341, 0.0526355821013
+rest, 7324, 0.0514259294429
+simpl, 7965, 0.0513377248336
+religion, 7261, 0.0509912296888
+particular, 6442, 0.0504078690341
+experi, 3295, 0.0504078690341
+watch, 9655, 0.0499294004322
+forc, 3594, 0.0498514721646
+unless, 9289, 0.0490259861493
+perform, 6539, 0.0488817943023
+explain, 3301, 0.0486686936009
+short, 7904, 0.0475917862268
+assum, 710, 0.0467225518825
+direct, 2667, 0.0461379771024
+requir, 7302, 0.0447898280584
+thought, 8887, 0.042021856705
+howev, 4406, 0.0415060665361
+said, 7583, 0.0400793458296
+great, 4016, 0.0400448969497
+differ, 2633, 0.0370727323912
+come, 1923, 0.0349134899714
+thing, 8869, 0.0328918167958
+want, 9634, 0.032797237556
+way, 9666, 0.031494842621
+make, 5459, 0.0301976025202
+time, 8936, 0.0286069938589
+don, 2811, 0.0273092336992

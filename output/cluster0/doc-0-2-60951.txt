@@ -1,0 +1,199 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60951
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gary@ke4zv.uucp (Gary Coffman)
+Subject: Re: What if the USSR had reached the Moon first?
+Reply-To: gary@ke4zv.UUCP (Gary Coffman)
+Organization: Destructive Testing Systems
+Lines: 38
+
+In article <C5qIv3.H0o.1@cs.cmu.edu> nickh@CS.CMU.EDU (Nick Haines) writes:
+>In article <1993Apr18.091051.14496@ke4zv.uucp> gary@ke4zv.uucp (Gary Coffman) writes:
+>   If I read you right, you're saying in essence that, with a larger
+>   economy, nations will have more discretionary funds to *waste* on a
+>   lunar facility. That was certainly partially the case with Apollo,
+>   but real Lunar colonies will probably require a continuing
+>   military, scientific, or commercial reason for being rather than
+>   just a "we have the money, why not?" approach.
+>
+>Ah, but the whole point is that money spent on a lunar base is not
+>wasted on the moon. It's not like they'd be using $1000 (1000R?) bills
+>to fuel their moon-dozers. The money to fund a lunar base would be
+>spent in the country to which the base belonged. It's a way of funding
+>high-tech research, just like DARPA was a good excuse to fund various
+>fields of research, under the pretense that it was crucial to the
+>defense of the country, or like ESPRIT is a good excuse for the EC to
+>fund research, under the pretense that it's good for pan-European
+>cooperation.
+>
+>Now maybe you think that government-funded research is a waste of
+>money (in fact, I'm pretty sure you do), but it does count as
+>investment spending, which does boost the economy (and just look at
+>the size of that multiplier :->).
+
+Actually I favor government funded research. It *is* a pump prime
+for a lot of basic technologies. I also understand the short term
+value of high tech welfare programs. But they can't substitute for
+long range wealth generation via commercial enterprise. That's what's
+needed to maintain a healthy economy *anywhere*, on Earth or Luna.
+I don't see that long term potential on Luna due to a bunch of
+factors I outline in another post.
+
+Gary
+-- 
+Gary Coffman KE4ZV          |    You make it,     | gatech!wa4mei!ke4zv!gary
+Destructive Testing Systems |    we break it.     | uunet!rsiatl!ke4zv!gary
+534 Shannon Way             |    Guaranteed!      | emory!kd4nc!ke4zv!gary 
+Lawrenceville, GA 30244     |                     | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ussr reach moon first       read right you'r say
+essenc larger economi nation discretionari fund
+wast lunar facil certain partial case apollo real
+lunar coloni probabl requir continu militari
+scientif commerci reason rather money approach
+whole point money spent lunar base wast moon it
+like they'd use 1000r bill fuel moon dozer money
+fund lunar base spent countri base belong it way
+fund high tech research like darpa good excus fund
+various field research pretens crucial defens
+countri like esprit good excus fund research
+pretens it good pan european cooper  mayb think
+govern fund research wast money fact i'm pretti
+sure count invest spend boost economi look size
+multipli  actual favor govern fund research pump
+prime lot basic technolog also understand short
+term valu high tech welfar program can't substitut
+long rang wealth generat via commerci enterpris
+that what need maintain healthi economi anywher
+earth luna don't see long term potenti luna due
+bunch factor outlin anoth post  gari  gari coffman
+ke4zv make gatech wa4mei ke4zv gari destruct test
+system break uunet rsiatl ke4zv gari shannon way
+guarante emori kd4nc ke4zv gari lawrencevill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fund, 3723, 0.356526260626
+ke4zv, 4969, 0.318840615668
+gari, 3776, 0.291428788255
+research, 7307, 0.215777275084
+lunar, 5392, 0.215503831402
+economi, 2985, 0.211835405079
+pretens, 6849, 0.181429427329
+money, 5835, 0.180890543491
+luna, 5391, 0.162416658491
+wast, 9654, 0.158039502195
+moon, 5851, 0.136655044242
+tech, 8736, 0.133852202867
+excus, 3268, 0.123873765388
+spent, 8223, 0.11107113952
+countri, 2186, 0.10860957287
+base, 923, 0.105336223753
+commerci, 1940, 0.0948762372526
+govern, 3966, 0.0936463789234
+term, 8795, 0.0921981798414
+good, 3948, 0.086522728269
+welfar, 9702, 0.0849834295699
+esprit, 3193, 0.0849834295699
+darpa, 2372, 0.0849834295699
+wa4mei, 9600, 0.0829378457347
+rsiatl, 7515, 0.0829378457347
+lawrencevill, 5155, 0.0829378457347
+discretionari, 2704, 0.0829378457347
+coffman, 1879, 0.0812083292454
+shannon, 7852, 0.0797101539169
+kd4nc, 4968, 0.0783886696227
+emori, 3072, 0.0783886696227
+high, 4292, 0.0758860545234
+wealth, 9672, 0.0751609778049
+multipli, 5920, 0.0751609778049
+pump, 6982, 0.0734314613155
+enterpris, 3126, 0.0712530990219
+crucial, 2251, 0.0712530990219
+like, 5272, 0.0708727533764
+long, 5336, 0.0707032982834
+coloni, 1906, 0.0706118016929
+ussr, 9376, 0.0700051864588
+healthi, 4222, 0.0700051864588
+essenc, 3195, 0.0694296937102
+substitut, 8504, 0.0688822852035
+pan, 6404, 0.0688822852035
+outlin, 6327, 0.0678616138017
+destruct, 2575, 0.0669261014334
+uunet, 9392, 0.0648805175982
+gatech, 3789, 0.0648805175982
+prime, 6865, 0.0638111708541
+guarante, 4076, 0.0638111708541
+cooper, 2125, 0.0638111708541
+partial, 6439, 0.063476231092
+european, 3222, 0.0611054172737
+anywher, 557, 0.0605834790363
+boost, 1224, 0.0600847458719
+apollo, 570, 0.0596072419452
+favor, 3410, 0.0593759007844
+belong, 1015, 0.0591492335035
+bunch, 1399, 0.05892705498
+way, 9666, 0.0586984605509
+invest, 4744, 0.0584954768186
+larger, 5125, 0.0574840131718
+militari, 5715, 0.0555355697599
+fuel, 3715, 0.0546000573915
+facil, 3348, 0.0541600147644
+factor, 3352, 0.0538759578505
+potenti, 6774, 0.053736581539
+maintain, 5454, 0.053736581539
+approach, 589, 0.0534629180013
+scientif, 7693, 0.0530645454269
+spend, 8222, 0.0525544735563
+size, 8000, 0.0520665858725
+count, 2180, 0.0518303740154
+break, 1284, 0.0513723655737
+rang, 7094, 0.0507186088888
+various, 9432, 0.0495153517033
+reach, 7128, 0.0487793732318
+generat, 3819, 0.0486026821975
+defens, 2476, 0.0485153693149
+continu, 2092, 0.0473593839256
+basic, 937, 0.0461694327768
+test, 8812, 0.0460990899207
+valu, 9414, 0.0458906693987
+technolog, 8743, 0.0445921526638
+short, 7904, 0.0443495562114
+nation, 5962, 0.0441709903925
+field, 3466, 0.042224258728
+requir, 7302, 0.0417384837735
+pretti, 6851, 0.0411368739595
+understand, 9246, 0.0402284295145
+certain, 1619, 0.0397008262182
+mayb, 5564, 0.0392729888127
+earth, 2956, 0.0390837828314
+case, 1540, 0.0390089848957
+fact, 3350, 0.0384989130252
+real, 7144, 0.0384633515095
+probabl, 6885, 0.0366933308289
+reason, 7156, 0.036189325273
+anoth, 533, 0.0361603713246
+sure, 8585, 0.0361314919038
+actual, 254, 0.0360739551172
+lot, 5356, 0.0350072172904
+program, 6905, 0.0348260425541
+read, 7135, 0.0341534093823
+right, 7399, 0.0341292551237
+post, 6766, 0.0327676289305
+point, 6710, 0.0316691780228
+need, 5993, 0.0301661593319
+say, 7653, 0.0284851708109
+make, 5459, 0.0281403657353
+look, 5341, 0.0279997667927
+think, 8871, 0.0256963544873
+don, 2811, 0.0254487694423
+use, 9363, 0.0247790632334

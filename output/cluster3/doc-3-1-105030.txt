@@ -1,0 +1,149 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105030
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: nlu@Xenon.Stanford.EDU (Nelson Lu)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: Computer Science Department, Stanford University.
+Lines: 37
+
+In article <1r93di$car@apple.com> chuq@apple.com (Chuq Von Rospach) writes:
+>punjabi@leland.Stanford.EDU (sanjeev punjabi) writes:
+>
+>>Some evidence that is NOT working:
+>
+>Take a look at the standings. It's REAL easy to get so focussed on 
+>minutinae and forget that the Giants happen to be in first place. If it's
+>working, you don't SCREW IT UP by changing things, just because you think it
+>ought to be different.
+
+So, that is the reason why the Toronto Blue Jays *should* keep Alfredo
+Griffin, just because it "worked"?
+
+A team winning doesn't mean that everything that it's doing is right.
+A team not winning doesn't mean that everything that it's doing is wrong, or
+otherwise (to borrow the Sharks' situation) you would say that George Kingston
+should be fired.
+
+>Some folks like to argue about theoretical details. I prefer to watch teams
+>win. When the Giants slip to third, then we can talk about how to re-arrange
+>the batting order. Until then, I think it's stupid to focus on what's wrong,
+>for the simple fact that IT'S WORKING AS IT IS.
+
+By then, it's too late.  The problem with "not fixing something while it's
+working" is that by then, there may not be anything left to fix.
+
+>Mostly, though, the Giants are winning, and frankly, as long as that
+>continues, it's rather silly to second-guess their strategy. But evidently,
+>some folks would rather be right than be first.
+
+So, the Blue Jays were simply perfect last year; there was nothing that they
+could have done to have improved that team.  NOT.
+
+===============================================================================
+GO CALIFORNIA ANGELS!
+===============================================================================
+Nelson Lu (claudius@leland.stanford.edu)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th       evid work  take look
+stand it real easi get focuss minutina forget
+giant happen first place it work don't screw chang
+thing think ought differ  reason toronto blue jay
+keep alfredo griffin work  team win doesn't mean
+everyth it right team win doesn't mean everyth it
+wrong otherwis borrow shark situat say georg
+kingston fire  folk like argu theoret detail
+prefer watch team win giant slip third talk arrang
+bat order think it stupid focus what wrong simpl
+fact it work  it late problem fix someth it work
+anyth left fix  most though giant win frank long
+continu it rather silli second guess strategi evid
+folk rather right first  blue jay simpli perfect
+last year noth could done improv team   california
+angel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+win, 9770, 0.275180119138
+work, 9833, 0.268098472002
+giant, 3865, 0.258300868232
+team, 8732, 0.251366591294
+fix, 3511, 0.186283647464
+folk, 3576, 0.180831366361
+blue, 1176, 0.174472423385
+jay, 4832, 0.169029661386
+everyth, 3242, 0.163098199684
+evid, 3245, 0.159516728179
+bat, 942, 0.155528546701
+focuss, 3570, 0.143358028514
+shark, 7857, 0.139907345631
+wrong, 9869, 0.138939408091
+alfredo, 403, 0.134462572009
+borrow, 1234, 0.128435402987
+slip, 8038, 0.125273677733
+doesn, 2793, 0.122786045989
+screw, 7720, 0.120196417737
+griffin, 4048, 0.119114617188
+mean, 5595, 0.116979495767
+right, 7399, 0.115144864215
+ought, 6321, 0.112897231922
+strategi, 8431, 0.111440639778
+theoret, 8847, 0.108825957144
+arrang, 652, 0.108225069943
+silli, 7956, 0.106529038231
+focus, 3569, 0.106529038231
+4th, 112, 0.10448094929
+barri, 918, 0.0986756627283
+georg, 3847, 0.0954043779376
+angel, 509, 0.0945239235114
+california, 1459, 0.094239311275
+bond, 1211, 0.0936826135812
+argu, 628, 0.0931418237319
+stupid, 8476, 0.0926160577827
+improv, 4557, 0.0874323415001
+late, 5139, 0.0868499461009
+think, 8871, 0.0866940470148
+prefer, 6819, 0.0864714063415
+forget, 3604, 0.0862849382611
+otherwis, 6313, 0.0848558553618
+easi, 2959, 0.0835271444952
+perfect, 6538, 0.0827417057703
+stand, 8311, 0.0819875678778
+frank, 3655, 0.0809798431847
+simpl, 7965, 0.0807015093882
+situat, 7995, 0.0798902556134
+continu, 2092, 0.0798902556134
+toronto, 9003, 0.0789857524456
+watch, 9655, 0.0784876616716
+simpli, 7967, 0.0775291603015
+left, 5193, 0.0753259364173
+guess, 4079, 0.0733526553087
+noth, 6119, 0.0688688168451
+chang, 1650, 0.0680018092095
+order, 6281, 0.0669043216664
+happen, 4159, 0.0667054439304
+second, 7753, 0.0658670014128
+fact, 3350, 0.0649435813448
+real, 7144, 0.0648835928412
+anyth, 555, 0.0648835928412
+place, 6657, 0.064823793875
+talk, 8684, 0.0640058610442
+reason, 7156, 0.0610475518659
+long, 5336, 0.059634481114
+problem, 6887, 0.0595439242089
+differ, 2633, 0.0582773286275
+someth, 8126, 0.0557131363234
+thing, 8869, 0.0517050428422
+say, 7653, 0.0480514607379
+year, 9943, 0.0475655198708
+look, 5341, 0.0472326356629
+don, 2811, 0.0429293738066
+like, 5272, 0.0398516049966

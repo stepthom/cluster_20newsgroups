@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83967
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615)
+Subject: Re: [rw] Is Robert Weiss the only orthodox Christian?
+Organization: Lunar & Planetary Laboratory, Tucson AZ.
+Lines: 11
+
+Rick Anderson writes:
+
+> Are we to simply assume that you [referring to Robert Weiss] are the only
+> one who really understands it [Biblical Scriptures]?
+
+No.  I also understand it. I have read the Bible from cover to cover, examining
+each book within, cross-comparing them, etc.  And I have come to same conclusions
+as Robert Weiss.
+
+So Rick, why not read the Bible for yourself?  It is written in plain
+english.  Decide for yourself.   
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ robert weiss orthodox christian      simpli assum
+refer robert weiss one realli understand biblic
+scriptur  also understand read bibl cover cover
+examin book within cross compar etc come conclus
+robert weiss  rick read bibl written plain english
+decid
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+weiss, 9698, 0.503295413025
+robert, 7437, 0.402541401835
+cover, 2194, 0.274153020498
+bibl, 1071, 0.26158552139
+understand, 9246, 0.213739383302
+read, 7135, 0.181461934933
+orthodox, 6303, 0.179010692971
+rick, 7387, 0.170436099493
+examin, 3257, 0.169518925679
+plain, 6659, 0.165313965606
+scriptur, 7725, 0.159619411987
+english, 3111, 0.159619411987
+cross, 2241, 0.151207248323
+conclus, 2009, 0.148410905542
+biblic, 1072, 0.147969330101
+written, 9867, 0.130062786322
+decid, 2442, 0.129116491062
+compar, 1960, 0.125399604486
+simpli, 7967, 0.12209525654
+assum, 710, 0.115665890588
+refer, 7213, 0.109887639892
+book, 1218, 0.106759503736
+christian, 1732, 0.105785725028
+realli, 7150, 0.088444220549
+come, 1923, 0.0864314928954

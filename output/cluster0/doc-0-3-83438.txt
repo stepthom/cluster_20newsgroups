@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83438
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: skinner@sp94.csrd.uiuc.edu (Gregg Skinner)
+Subject: Re: Language and agreement
+Reply-To: g-skinner@uiuc.edu
+Organization: UIUC Center for Supercomputing Research and Development
+Lines: 16
+
+m23364@mwunix.mitre.org (James Meritt) writes:
+
+Mr. Meritt, please state explicitly the inductive argument which leads
+you to conclude Mr. Tice thinks it "OK" to take biblical quotes out of
+context in some other t.r.m. articles.
+
+Also, please explain why you rely on inductive reasoning (with its
+implicit uncertainty) in determining Mr. Tice's opinions when the man
+is himself clearly available for questioning.
+
+Finally, please indicate whether you agree (yes or no) with the
+following statement:
+
+   The word "agree" and the phrase "not disagree" are identical in
+   meaning.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ languag agreement       meritt pleas state
+explicit induct argument lead conclud tice think
+take biblic quot context articl  also pleas
+explain reli induct reason implicit uncertainti
+determin tice opinion man clear avail question
+final pleas indic whether agre yes follow
+statement  word agre phrase disagre ident mean
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tice, 8917, 0.403402126341
+induct, 4607, 0.395959944994
+pleas, 6688, 0.245929881557
+agre, 337, 0.215730705233
+meritt, 5645, 0.205996747098
+uncertainti, 9222, 0.186680963308
+implicit, 4548, 0.186680963308
+agreement, 338, 0.171086270193
+ident, 4484, 0.168551179164
+phrase, 6612, 0.165134646555
+explicit, 3304, 0.165134646555
+reli, 7255, 0.156851202116
+conclud, 2008, 0.149235395375
+disagre, 2676, 0.144255829631
+context, 2087, 0.139600569289
+biblic, 1072, 0.138343207798
+languag, 5113, 0.134519853577
+statement, 8343, 0.125710605133
+indic, 4600, 0.1213777407
+determin, 2582, 0.1213777407
+quot, 7045, 0.119649013769
+argument, 631, 0.116297024988
+lead, 5172, 0.113138918825
+explain, 3301, 0.112645688507
+final, 3482, 0.109417828152
+clear, 1803, 0.106920625349
+opinion, 6266, 0.10438553432
+yes, 9951, 0.101510121344
+word, 9829, 0.0998142804298
+state, 8342, 0.0988045038141
+avail, 811, 0.0967960791519
+man, 5471, 0.0962478624131
+follow, 3578, 0.0915926020717
+reason, 7156, 0.089885181124
+articl, 665, 0.089813266799
+mean, 5595, 0.0861191222537
+question, 7032, 0.0843521112465
+think, 8871, 0.0638232810336

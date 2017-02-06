@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38351
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: cormackj@access.digex.com (John Cormack)
+Subject: Re: VESA on the Speedstar 24
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 8
+NNTP-Posting-Host: access.digex.net
+Summary: Speedstar 24X
+Keywords: VESA driver for Speedstar 24X
+
+I need a VESA driver for the Diamond Speedstar 24X that works. I've tried
+several and none work for the hicolor modes.
+
+John Cormack
+Cormackj@access.digex.com
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vesa speedstar    speedstar 24x   need vesa
+driver diamond speedstar 24x work i'v tri sever
+none work hicolor mode  john cormack
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+speedstar, 8218, 0.647082161059
+24x, 69, 0.458397893905
+vesa, 9484, 0.367737352616
+hicolor, 4285, 0.2462131003
+diamond, 2614, 0.200039565247
+work, 9833, 0.18872306005
+driver, 2876, 0.16737092346
+mode, 5806, 0.152841113481
+john, 4878, 0.125943661507
+sever, 7823, 0.122933224657
+tri, 9087, 0.0964607859289
+need, 5993, 0.0895526468941

@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39649
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: brendan@gu.uwa.edu.au (Brendan Langoulant)
+Subject: 3D input devices
+Organization: The University of Western Australia
+Lines: 9
+NNTP-Posting-Host: mackerel.gu.uwa.edu.au
+Keywords: 3d,input,device
+
+Greetings all,
+   Does anyone use some form of 3D input device?  I would like to hear any
+information on any systems that people are currently using...
+
+Please email responses. I will summarise if I get some feedback.
+
+--
+Brendan Langoulant
+brendan@gu.uwa.edu.au
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ input devic      greet anyon use form input devic
+like hear inform system peopl current use  pleas
+email respons summaris get feedback   brendan
+langoul
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+devic, 2591, 0.448494798518
+input, 4662, 0.446724516515
+brendan, 1296, 0.318452760499
+summaris, 8537, 0.310787480074
+greet, 4032, 0.281645739468
+feedback, 3428, 0.278280532352
+use, 9363, 0.18570587535
+hear, 4223, 0.181473765501
+email, 3060, 0.176882738472
+form, 3610, 0.16849876286
+respons, 7323, 0.161916185477
+current, 2299, 0.152332024896
+inform, 4637, 0.138185842215
+pleas, 6688, 0.123678212142
+peopl, 6530, 0.114068262577
+anyon, 554, 0.112976184433
+like, 5272, 0.0885255869727

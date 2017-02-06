@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104851
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: st1ge@Elroy.UH.EDU (Edward Hui)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: University of Houston
+Lines: 26
+Reply-To: st1ge@Elroy.UH.EDU
+NNTP-Posting-Host: elroy.uh.edu
+
+In article <1993Apr21.032427.22464@leland.Stanford.EDU>, punjabi@leland.Stanford.EDU (sanjeev punjabi) writes:
+>
+>As the heading indicates, it is impossible for me to fathom why Barry is not
+>batting 4th for the Giants behind Will Clark.  Barry is such an awesome and
+>consistent hitter -- definitely the best in the National League.  IMHO, to 
+>have Williams, a streaky hitter (and not really a clutch hitter) batting
+>4th ahead of Bonds is simply an injustice to the Giants and fans of the
+>Giants.
+
+2 simple reasons:
+
+(1)   Batting Williams ahead of Bonds will create a Left(Clark), 
+      Right(Williams), Left(Bonds) situation in the middle of the
+      batting order.  This makes it tougher for opposing manager
+      to change pitchers.
+
+(2)   Having Bonds batting behind Williams means that Matt will get
+      more good pitches to hit.  This is important since he struggles
+      so much with breaking balls.  Opposing pitchers don't want to
+      walk Williams to get to Bonds.
+
+
+Edward Hui
+
+      
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th        head indic imposs
+fathom barri bat 4th giant behind clark barri
+awesom consist hitter definit best nation leagu
+imho william streaki hitter realli clutch hitter
+bat 4th ahead bond simpli injustic giant fan giant
+simpl reason  bat william ahead bond creat left
+clark right william left bond situat middl bat
+order make tougher oppos manag chang pitcher  bond
+bat behind william mean matt get good pitch hit
+import sinc struggl much break ball oppos pitcher
+don't want walk william get bond   edward hui
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bond, 1211, 0.453365597501
+william, 9764, 0.383546205025
+bat, 942, 0.376330728874
+4th, 112, 0.252811413941
+barri, 918, 0.238764425338
+giant, 3865, 0.208335931618
+hitter, 4322, 0.194939499898
+clark, 1787, 0.165559981579
+oppos, 6269, 0.148985988156
+ahead, 342, 0.148171790575
+left, 5193, 0.121510231428
+pitcher, 6644, 0.121342940051
+tougher, 9018, 0.112844092983
+streaki, 8437, 0.110490936618
+injustic, 4651, 0.108452539858
+fathom, 3405, 0.108452539858
+awesom, 835, 0.0952480945226
+edward, 3003, 0.0916818937476
+clutch, 1849, 0.0877749940253
+struggl, 8461, 0.0868206020233
+matt, 5552, 0.0846669949049
+imho, 4524, 0.0811007941299
+imposs, 4553, 0.0782119582432
+middl, 5699, 0.0764725649471
+break, 1284, 0.0698965345216
+consist, 2061, 0.0695942414762
+indic, 4600, 0.0664901812799
+definit, 2484, 0.0660093446793
+simpl, 7965, 0.0650908541519
+walk, 9617, 0.0648696140483
+situat, 7995, 0.064436526847
+head, 4215, 0.064436526847
+simpli, 7967, 0.0625321546518
+leagu, 5176, 0.0612668496631
+fan, 3381, 0.0607551157142
+nation, 5962, 0.060098442428
+ball, 877, 0.0597019188368
+creat, 2217, 0.0590131418586
+manag, 5472, 0.0582826053411
+import, 4551, 0.0578604964214
+pitch, 6643, 0.0557269884501
+chang, 1650, 0.0548477454619
+order, 6281, 0.0539625525809
+hit, 4316, 0.0533824541136
+best, 1052, 0.0510366919368
+reason, 7156, 0.049238698569
+mean, 5595, 0.0471756684322
+sinc, 7977, 0.0465346003134
+right, 7399, 0.046435795438
+realli, 7150, 0.0452974819347
+want, 9634, 0.0415834595955
+good, 3948, 0.0392405449624
+make, 5459, 0.0382873948494
+don, 2811, 0.0346252459273

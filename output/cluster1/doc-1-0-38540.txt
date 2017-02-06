@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38540
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: srlnjal@grace.cri.nz
+Subject: CorelDraw Bitmap to SCODAL
+Organization: Industrial Research Ltd., New Zealand.
+Lines: 10
+NNTP-Posting-Host: grv.grace.cri.nz
+
+
+Does anyone know of software that will allow
+you to convert CorelDraw (.CDR) files
+containing bitmaps to SCODAL, as this is the
+only format our bureau's filmrecorder recognises.
+
+Jeff Lyall
+Inst.Geo.Nuc.Sci.Ltd
+Lower Hutt New Zealand
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ coreldraw bitmap scodal      anyon know softwar
+allow convert coreldraw cdr file contain bitmap
+scodal format bureau filmrecord recognis  jeff
+lyall inst geo nuc sci ltd lower hutt new zealand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+scodal, 7701, 0.429907807243
+coreldraw, 2142, 0.410637559923
+bitmap, 1126, 0.338893193212
+filmrecord, 3480, 0.235925737664
+lyall, 5404, 0.229174315085
+inst, 4677, 0.229174315085
+recognis, 7174, 0.223658001178
+cdr, 1586, 0.223658001178
+geo, 3834, 0.198022190183
+bureau, 1408, 0.188782574912
+zealand, 9977, 0.17029893356
+jeff, 4839, 0.16074249905
+lower, 5371, 0.144911123633
+sci, 7690, 0.14105834704
+contain, 2079, 0.133019242427
+convert, 2115, 0.121603842895
+format, 3612, 0.121089564888
+allow, 432, 0.115943794937
+file, 3477, 0.104696838286
+softwar, 8103, 0.100979782347
+new, 6023, 0.0881346245007
+anyon, 554, 0.081303235204
+know, 5052, 0.0651708197002

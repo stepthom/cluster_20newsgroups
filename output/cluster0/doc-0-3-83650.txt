@@ -1,0 +1,40 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83650
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: asiivo@cs.joensuu.fi (Antti Siivonen)
+Subject: Re: Part 1 and part 2 (re: Homosexuality)
+Organization: University of Joensuu
+Lines: 9
+
+	Long time, no see.
+
+			Andreas
+
+-- 
+
+		Andreas - Siperian Sirri   Siberian Stint
+
+	No ITU, love, evolution.           Tuusniemi ! Siis imein suut !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ part part homosexu    long time see  andrea
+andrea siperian sirri siberian stint  itu love
+evolut tuusniemi sii imein suut
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+andrea, 504, 0.779496678586
+siberian, 7930, 0.389748339293
+evolut, 3248, 0.291561867006
+homosexu, 4360, 0.287542514718
+love, 5366, 0.191323838198
+long, 5336, 0.151885465848
+time, 8936, 0.114534423777

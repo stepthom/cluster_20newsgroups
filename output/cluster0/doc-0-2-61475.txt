@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61475
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Vandalizing the sky.
+Organization: Texas Instruments Inc
+Lines: 18
+
+In <C5y4t7.9w3@news.cso.uiuc.edu> gfk39017@uxa.cso.uiuc.edu (George F. Krumins) writes:
+
+>It is so typical that the rights of the minority are extinguished by the
+>wants of the majority, no matter how ridiculous those wants might be.
+
+Right?  What right?  And don't you mean something more like: It so
+typical that the wants of the minority can obstruct the wants of the
+majority, no matter how ridiculous those minority wants might be or
+what benefits those majority wants might have?
+
+[My sole connection with the project is that I spent a lot of time in
+classes at the University of Colorado.]
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky      typic right minor extinguish want
+major matter ridicul want might  right right don't
+mean someth like typic want minor obstruct want
+major matter ridicul minor want might benefit
+major want might  sole connect project spent lot
+time class univers colorado   insist perfect
+safeti peopl don't ball live real world mari
+shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+want, 9634, 0.412619312285
+minor, 5745, 0.348310509067
+ridicul, 7396, 0.295460122405
+major, 5458, 0.277992256454
+typic, 9178, 0.256978993407
+right, 7399, 0.230383741101
+matter, 5553, 0.195937510418
+extinguish, 3324, 0.186619281219
+sole, 8111, 0.154992723039
+shafer, 7839, 0.145988305484
+dryden, 2888, 0.143582157615
+mari, 5508, 0.133092285474
+safeti, 7579, 0.132102141131
+insist, 4673, 0.130231252422
+vandal, 9419, 0.12934535645
+ame, 465, 0.12686019304
+colorado, 1908, 0.126468782957
+benefit, 1028, 0.126083348835
+spent, 8223, 0.124961144323
+class, 1789, 0.120913222826
+connect, 2046, 0.120603458882
+don, 2811, 0.114525064382
+perfect, 6538, 0.110367311938
+sky, 8011, 0.109164920664
+ball, 877, 0.0987338272323
+nasa, 5956, 0.0950092294301
+project, 6909, 0.0937031393256
+live, 5310, 0.092562494021
+real, 7144, 0.086546774255
+world, 9841, 0.084550654222
+univers, 9282, 0.0838948915178
+lot, 5356, 0.0787700918725
+mean, 5595, 0.0780181673773
+someth, 8126, 0.074314507278
+peopl, 6530, 0.0684948350141
+time, 8936, 0.0599837009262
+like, 5272, 0.0531571651678

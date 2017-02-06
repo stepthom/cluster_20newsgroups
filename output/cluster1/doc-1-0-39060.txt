@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39060
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: orourke@sophia.smith.edu (Joseph O'Rourke)
+Subject: Re: Looking for polygon "convexifier"
+Organization: Smith College, Northampton, MA, US
+Lines: 10
+
+In article <1rvpmc$3dd@nwfocus.wa.com> mpdillon@halcyon.com (Michael Dillon) writes:
+>>Does anyone know where I can find a code which would take concave
+>>polygons and break them up into a set of convex polygons?
+>
+>I also would like code or algorithms to do this.
+
+	Although I am not offering code, I would like to point out that
+any polygon triangulation code satisfies the task as stated.  If you
+want code to partition a polygon into the *minimum* number of convex
+pieces, I doubt very much if it exists, although an algorithm is known.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look polygon convexifi     anyon know find code
+take concav polygon break set convex polygon  also
+like code algorithm  although offer code like
+point polygon triangul code satisfi task state
+want code partit polygon minimum number convex
+piec doubt much exist although algorithm known
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polygon, 6728, 0.609650688743
+code, 1871, 0.472925167955
+convex, 2116, 0.282049003238
+algorithm, 407, 0.206933210445
+partit, 6443, 0.185569935646
+convexifi, 2117, 0.185569935646
+concav, 1997, 0.155756491227
+triangul, 9091, 0.149775672087
+satisfi, 7635, 0.13683862868
+task, 8707, 0.130772664002
+minimum, 5740, 0.12693478
+piec, 6624, 0.122344029097
+break, 1284, 0.108966637248
+doubt, 2830, 0.106483061668
+offer, 6203, 0.104430224823
+like, 5272, 0.100219453549
+known, 5054, 0.0951109810236
+exist, 3283, 0.0853290798861
+set, 7815, 0.0852411014026
+state, 8342, 0.0843787551479
+number, 6156, 0.0773847037211
+point, 6710, 0.0671739328143
+want, 9634, 0.0648273879139
+anyon, 554, 0.0639499372727
+look, 5341, 0.0593906937527
+know, 5052, 0.0512608117178

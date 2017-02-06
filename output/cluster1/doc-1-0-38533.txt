@@ -1,0 +1,113 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38533
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: comp.graphics.programmer
+Organization: Purdue University
+Lines: 26
+
+In article <1qukk7INNd4l@no-names.nerdc.ufl.edu> lioness@maple.circa.ufl.edu  
+writes:
+> However, that is almost overkill.  Something more like this would probably
+> make EVERYONE a lot happier:
+> 
+> comp.graphics.programmer
+> comp.graphics.hardware
+> comp.graphics.apps
+> comp.graphics.misc
+
+That's closer, but I dislike "apps".  "software" (vs. "hardware")
+would be better.  Would that engulf alt.graphics.pixutils?  Or would
+that be "programmer"?
+
+I don't know if traffic is really heavy enough to warrant a newsgroup
+split.  Look how busy comp.graphics.research is (not).
+
+It's true that a lot of the traffic here is rehashing FAQs and
+discussing things that would probably be better diverted to
+system-specific groups, but I don't know whether a split would help
+or hurt that cause.
+
+Maybe we need a comp.graphics.RTFB for all those people who can't be
+bothered to read the fine books out there.  Right, Dr. Rogers? :-)
+
+ab
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comp graphic programm    mapl circa ufl edu
+howev almost overkil someth like probabl make
+everyon lot happier  comp graphic programm comp
+graphic hardwar comp graphic app comp graphic misc
+that closer dislik app softwar hardwar better
+engulf alt graphic pixutil programm  don't know
+traffic realli heavi enough warrant newsgroup
+split look busi comp graphic research  it true lot
+traffic rehash faq discuss thing probabl better
+divert system specif group don't know whether
+split help hurt caus  mayb need comp graphic rtfb
+peopl can't bother read fine book right roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+comp, 1955, 0.569757640369
+graphic, 3997, 0.433102863568
+programm, 6906, 0.25026105603
+app, 576, 0.210853483968
+traffic, 9038, 0.205201767973
+split, 8247, 0.170245892477
+hardwar, 4173, 0.146857469587
+pixutil, 6654, 0.124553271538
+happier, 4162, 0.124553271538
+overkil, 6342, 0.121555226388
+mapl, 5499, 0.116824662118
+divert, 2763, 0.116824662118
+circa, 1764, 0.110157306253
+dislik, 2722, 0.107622495197
+probabl, 6885, 0.107556835997
+lot, 5356, 0.102614438204
+warrant, 9645, 0.0994592246233
+better, 1060, 0.0983858598623
+heavi, 4230, 0.088061304489
+misc, 5757, 0.0873614659847
+bother, 1245, 0.0860452658832
+alt, 446, 0.0839685268657
+closer, 1831, 0.0836921552702
+hurt, 4451, 0.0831529685112
+roger, 7458, 0.0789615910006
+faq, 3385, 0.0768430989615
+busi, 1424, 0.0757931430523
+don, 2811, 0.0745963655904
+fine, 3485, 0.0729940736401
+newsgroup, 6032, 0.0727105541536
+know, 5052, 0.0708389925762
+caus, 1569, 0.066566776387
+everyon, 3241, 0.0655357780804
+specif, 8203, 0.0652654642203
+research, 7307, 0.0632494256145
+discuss, 2708, 0.0632494256145
+book, 1218, 0.058898733234
+true, 9121, 0.0586577952553
+edu, 3001, 0.0583028809846
+mayb, 5564, 0.057559212007
+group, 4064, 0.057227004287
+howev, 4406, 0.056687817528
+softwar, 8103, 0.0548812036197
+read, 7135, 0.0500558625872
+right, 7399, 0.0500204616632
+realli, 7150, 0.0487942747008
+someth, 8126, 0.0484050559891
+help, 4249, 0.0483091739515
+thing, 8869, 0.0449227176723
+peopl, 6530, 0.0446143888355
+need, 5993, 0.0442120758545
+make, 5459, 0.0412430356406
+look, 5341, 0.0410369712541
+like, 5272, 0.0346241353191

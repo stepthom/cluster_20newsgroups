@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84220
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: colby@bu-bio.bu.edu (Chris Colby)
+Subject: Re: The gospels, Josephus, etc and origins
+Organization: animal -- coelomate -- deuterostome
+Lines: 17
+
+In article <1993Apr21.225146.20804@rambo.atlanta.dg.com> wpr@atlanta.dg.com (Bill Rawlins) writes:
+
+>       The macroevolutionary tree is full of holes.  (Please show me a few
+>        intermediate forms between reptile and bird.)
+
+Are you so ignorant that you have never heard of _Archaeopteryx_?
+
+>            //  Bill Rawlins            <wpr@atlanta.dg.com>        //
+
+The special creation "theory" is nothing but holes. Please show me a
+species poofed into existence by your god. I have never seen this.
+
+Chris Colby 	---	 email: colby@bu-bio.bu.edu	---
+"'My boy,' he said, 'you are descended from a long line of determined,
+resourceful, microscopic tadpoles--champions every one.'"
+ 	--Kurt Vonnegut from "Galapagos"
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gospel josephus etc origin      macroevolutionari
+tree full hole pleas show intermedi form reptil
+bird  ignor never heard archaeopteryx    special
+creation theori noth hole pleas show speci poof
+exist god never seen   my boy said you descend
+long line determin resourc microscop tadpol
+champion everi one kurt vonnegut galapago
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hole, 4343, 0.303764804301
+vonnegut, 9582, 0.245991401651
+tadpol, 8672, 0.245991401651
+galapago, 3750, 0.238951932707
+microscop, 5690, 0.224124813875
+intermedi, 4715, 0.224124813875
+kurt, 5081, 0.214078612059
+josephus, 4894, 0.206470716605
+champion, 1647, 0.198542546139
+speci, 8197, 0.195218757154
+bird, 1113, 0.185751412271
+pleas, 6688, 0.185604595034
+gospel, 3958, 0.181393208721
+tree, 9080, 0.180391638322
+descend, 2554, 0.180391638322
+boy, 1256, 0.173352169377
+creation, 2218, 0.159526620945
+resourc, 7320, 0.149946407184
+theori, 8848, 0.145733916677
+ignor, 4496, 0.140870953275
+special, 8198, 0.140590535271
+determin, 2582, 0.137406643712
+form, 3610, 0.126433524963
+heard, 4224, 0.119860892802
+seen, 7767, 0.117091851603
+noth, 6119, 0.114791874992
+exist, 3283, 0.113112179997
+origin, 6293, 0.112191039585
+god, 3926, 0.111185923205
+everi, 3235, 0.108049552525
+said, 7583, 0.105015690383
+line, 5285, 0.104566937187
+long, 5336, 0.0993999057173

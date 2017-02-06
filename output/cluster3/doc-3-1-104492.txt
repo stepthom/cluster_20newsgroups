@@ -1,0 +1,198 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104492
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dkeisen@leland.Stanford.EDU (Dave Eisen)
+Subject: Re: BOB KNEPPER WAS DAMN RIGHT!
+Organization: Sequoia Peripherals, Inc.
+Lines: 51
+
+Why did I get sucked into this?
+
+In article <1993Apr19.035406.11473@news.yale.edu> (Austin Jacobs) writes:
+>Don't you GUYS think so?  I mean, c'mon!  What the heck are women doing
+>even THINKING of getting into baseball.  They cause so many problems.  Just
+
+Assuming you're serious, I guess you'd be surprised to hear
+that us GUYS don't think so. I would guess that a tiny fraction
+of 1% of the folks reading your post agree with it. I kind of
+doubt that even you agree with it.
+
+I'm not going to go through your points one at a time, because, 
+after all, not many of them have anything at all to do with baseball.
+
+I'm only replying to this because you brought up Pam Postema, the
+AAA umpire who sued (is suing?) baseball on the grounds of sex
+discrimination because she wasn't promoted to the majors.
+
+>Jeez!  Look at Pam Postema.  Just because she's a woman, everybody on the
+>face of the earth thinks it's great that she's getting an opportunity to
+>ump.  If you even watched the games and had an IQ greater than that of
+>roast beef, you'd see that she is not nearly as good as most AAA umpires.
+
+I've never seen her ump a game. I have no first hand experience
+with her ability as an umpire.
+
+But I have seen her on talk shows. And her point seems to be
+that she can call balls and strikes as well as any of the
+umpires and she knows the rulebook better than most. It seems
+to me that she is missing the point and if that's how she sees
+the role of umpires in the game, well I wouldn't promote her
+either.
+
+The umpires primary role has nothing to do with calling baserunners
+safe or out; hell, Joe Lundy could do that. Their primary function is
+to maintain order in the game, keep the game moving, and keep the
+players from trying to kill each other. 
+
+Umpires have to be extremely tough people. That disqualifies most
+of us, both men and women. And if Ms. Postema thinks that she
+deserves to be a major league umpire because of her command of
+the rulebook, then I think that disqualifies her as well. Umpires
+need to command the game; command of the rulebook is secondary.
+
+
+
+-- 
+Dave Eisen                               "To succeed in the world, it is not
+dkeisen@leland.Stanford.EDU               enough to be stupid, you must also
+Sequoia Peripherals: (415) 967-5644       be well-mannered." --- Voltaire
+Home:                (415) 321-5154  
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bob knepper damn right    get suck   don't guy
+think mean c'mon heck women even think get basebal
+caus mani problem  assum you'r serious guess you'd
+surpris hear guy don't think guess tini fraction
+folk read post agre kind doubt even agre  i'm go
+point one time mani anyth basebal  i'm repli
+brought pam postema aaa umpir su su basebal ground
+sex discrimin wasn't promot major  jeez look pam
+postema she woman everybodi face earth think it
+great she get opportun ump even watch game greater
+roast beef you'd see near good aaa umpir  i'v
+never seen ump game first hand experi abil umpir
+seen talk show point seem call ball strike well
+umpir know rulebook better seem miss point that
+see role umpir game well wouldn't promot either
+umpir primari role noth call baserunn safe hell
+joe lundi could primari function maintain order
+game keep game move keep player tri kill  umpir
+extrem tough peopl disqualifi men women postema
+think deserv major leagu umpir command rulebook
+think disqualifi well umpir need command game
+command rulebook secondari     dave eisen succeed
+world  sequoia peripher well manner voltair home
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+umpir, 9210, 0.554481818035
+postema, 6768, 0.250864432532
+rulebook, 7538, 0.245633115407
+game, 3761, 0.205737515056
+su, 8481, 0.176416302232
+disqualifi, 2738, 0.176416302232
+pam, 6403, 0.163755410271
+think, 8871, 0.155448970961
+command, 1933, 0.148918471414
+ump, 9209, 0.134955506411
+promot, 6914, 0.126705726535
+aaa, 157, 0.125482495772
+role, 7463, 0.121657269262
+primari, 6863, 0.120673450871
+women, 9819, 0.119730637036
+basebal, 924, 0.114359691561
+point, 6710, 0.0957906526633
+guess, 4079, 0.0876845656468
+agre, 337, 0.0875728406889
+lundi, 5395, 0.0856839224795
+jeez, 4838, 0.0856839224795
+guy, 4100, 0.0849452672866
+seen, 7767, 0.0839741200007
+major, 5458, 0.0830429491503
+roast, 7433, 0.0818777051357
+knepper, 5044, 0.0803671807976
+baserunn, 933, 0.0803671807976
+voltair, 9576, 0.0790348039049
+secondari, 7754, 0.0790348039049
+peripher, 6547, 0.0757805071919
+beef, 988, 0.0748750537576
+succeed, 8511, 0.0718404169367
+discrimin, 2705, 0.0718404169367
+tough, 9017, 0.0705822182048
+tini, 8941, 0.0694500612114
+sex, 7825, 0.067034083439
+mon, 5831, 0.0657988069622
+fraction, 3639, 0.0657988069622
+woman, 9818, 0.0654153082365
+manner, 5486, 0.065044385531
+mani, 5479, 0.0641752124717
+heck, 4234, 0.0639994466181
+deserv, 2560, 0.0618816855047
+suck, 8515, 0.0605800064029
+opportun, 6268, 0.0591931131204
+safe, 7577, 0.0587661896619
+greater, 4017, 0.0583547941798
+everybodi, 3239, 0.0581545742805
+damn, 2346, 0.0577644622083
+strike, 8448, 0.0563260664609
+joe, 4876, 0.0561584762994
+extrem, 3333, 0.0559933327972
+brought, 1343, 0.0556701071223
+men, 5629, 0.0543200412049
+maintain, 5454, 0.0541795160563
+folk, 3576, 0.0540407151861
+function, 3722, 0.0529876643122
+abil, 177, 0.0529876643122
+hell, 4245, 0.0519095032638
+don, 2811, 0.0513170720252
+surpris, 8593, 0.0509252193433
+ground, 4061, 0.0508209593519
+doubt, 2830, 0.050615278613
+bob, 1189, 0.0497333675993
+wasn, 9652, 0.0490920225582
+repli, 7290, 0.0490920225582
+dave, 2395, 0.0489152669465
+hear, 4223, 0.048827914165
+face, 3345, 0.0486552065508
+kill, 5012, 0.0484009907066
+miss, 5770, 0.0478291368037
+experi, 3295, 0.0473609819
+wouldn, 9854, 0.0472848056593
+watch, 9655, 0.046911434176
+near, 5982, 0.0457932773441
+caus, 1569, 0.0457932773441
+leagu, 5176, 0.0454009098379
+ball, 877, 0.0442412405593
+assum, 710, 0.0438984225366
+home, 4354, 0.0436204692657
+noth, 6119, 0.0411623292044
+hand, 4145, 0.0410305359195
+kind, 5021, 0.0403524525644
+order, 6281, 0.0399881664851
+earth, 2956, 0.0394059387257
+player, 6683, 0.03903379566
+anyth, 555, 0.0387803933746
+talk, 8684, 0.0382557802501
+world, 9841, 0.0378859600376
+great, 4016, 0.0376243962691
+problem, 6887, 0.0355889170555
+mean, 5595, 0.034958844478
+read, 7135, 0.0344349256877
+right, 7399, 0.0344105723327
+better, 1060, 0.0338412884921
+post, 6766, 0.0330377226634
+tri, 9087, 0.0327610246221
+peopl, 6530, 0.0306915730695
+need, 5993, 0.0304148099315
+good, 3948, 0.0290786363853
+look, 5341, 0.0282305604687
+time, 8936, 0.0268778534845
+know, 5052, 0.0243661313488

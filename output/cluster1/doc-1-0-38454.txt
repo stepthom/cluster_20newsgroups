@@ -1,0 +1,173 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38454
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: boebert@sctc.com (Earl Boebert)
+Subject: Removing Distortion From Bitmapped Drawings?
+Organization: SCTC
+Lines: 47
+
+Let's say you have a scanned image of a line drawing; in this case a
+boat, but it could be anything.  On the drawing you have a set of
+reference points whose true x,y positions are known.  
+
+Now you digitize the drawing manually (in this case, using Yaron
+Danon's excellent Digitize program).  That is, you use a program which
+converts cursor positions to x,y and saves those values when you click
+the mouse.
+
+Upon digitizing you notice that the reference point values that come
+out of the digitizing process differ in small but significant ways
+from the known true values.  This is understandable because the
+scanned drawing is a reproduction of the original and there are
+successive sources of distortion such as differential expansion and
+contraction of paper, errors introduced in the printing process,
+scanner errors and what have you.
+
+The errors are not uniform over the entire drawing, so "global"
+adjustments such as stretching/contracting uniformly over x or y, or
+rotating the whole drawing, are not satisfactory.
+
+So the question is: does any kind soul know of an algorithm for
+removing such distortion?  In particular, if I have three sets of
+points 
+
+Reference(x,y) (the known true values)
+
+DistortedReference(x,y) (the same points, with known errors)
+
+DistortedData(x,y) (other points, with unknown errors)
+
+what function of Reference and Distorted could I apply to
+DistortedData to remove the errors.
+
+I suspect the problem could be solved by treating the distorted
+reference points as resulting from the projection of a "bumpy" 3d
+surface, solving for the surface and then "flattening" it to remove
+the errors in the other data points.
+
+Any kind and informed soul out there have any ideas, or better yet,
+pointers to treatments of the same or similar problems?
+
+Thanks,
+
+Earl
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ remov distort bitmap draw    let say scan imag
+line draw case boat could anyth draw set refer
+point whose true posit known  digit draw manual
+case use yaron danon excel digit program use
+program convert cursor posit save valu click mous
+upon digit notic refer point valu come digit
+process differ small signific way known true valu
+understand scan draw reproduct origin success
+sourc distort differenti expans contract paper
+error introduc print process scanner error  error
+uniform entir draw global adjust stretch contract
+uniform rotat whole draw satisfactori  question
+kind soul know algorithm remov distort particular
+three set point  refer known true valu
+distortedrefer point known error  distorteddata
+point unknown error  function refer distort could
+appli distorteddata remov error  suspect problem
+could solv treat distort refer point result
+project bumpi surfac solv surfac flatten remov
+error data point  kind inform soul idea better yet
+pointer treatment similar problem  thank  earl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+distort, 2748, 0.360376319263
+error, 3180, 0.358380877181
+draw, 2861, 0.352652720473
+point, 6710, 0.224242183894
+digit, 2642, 0.218561487325
+remov, 7272, 0.21686949892
+refer, 7213, 0.209208755164
+valu, 9414, 0.185680743754
+distorteddata, 2749, 0.183522878652
+known, 5054, 0.181430021213
+uniform, 9273, 0.129793393489
+soul, 8149, 0.124728432767
+true, 9121, 0.121453095195
+solv, 8119, 0.121067933377
+scan, 7660, 0.118773231791
+contract, 2095, 0.118340871731
+surfac, 8587, 0.0992314145011
+distortedrefer, 2750, 0.091761439326
+process, 6890, 0.091752824138
+posit, 6761, 0.0891236484682
+set, 7815, 0.081301310686
+kind, 5021, 0.0809687301297
+flatten, 3527, 0.0792931693312
+earl, 2949, 0.0792931693312
+case, 1540, 0.078918192123
+treatment, 9079, 0.0770157358481
+satisfactori, 7634, 0.0770157358481
+cursor, 2302, 0.0760282342954
+click, 1815, 0.0751198209264
+boat, 1188, 0.0751198209264
+reproduct, 7298, 0.0734957539344
+problem, 6887, 0.0714105150381
+program, 6905, 0.070455776394
+differenti, 2634, 0.0686446454592
+mous, 5889, 0.0681616317801
+introduc, 4732, 0.0681616317801
+scanner, 7663, 0.0668248993363
+expans, 3289, 0.0668248993363
+pointer, 6711, 0.0648966967443
+treat, 9076, 0.063879678638
+bitmap, 1126, 0.0635599643005
+unknown, 9287, 0.0629463495434
+global, 3904, 0.0629463495434
+manual, 5492, 0.0618104915195
+stretch, 8443, 0.0610274839395
+adjust, 269, 0.0587500504565
+suspect, 8603, 0.0549313905569
+print, 6871, 0.0543566293414
+excel, 3261, 0.0543566293414
+function, 3722, 0.0531608814242
+rotat, 7490, 0.0526673641734
+notic, 6120, 0.0524284267494
+paper, 6409, 0.0505780723402
+success, 8513, 0.0503789600675
+appli, 584, 0.0502806987746
+use, 9363, 0.0501299605235
+entir, 3129, 0.0493422215246
+algorithm, 407, 0.0493422215246
+signific, 7951, 0.0489005662457
+particular, 6442, 0.0475158053407
+similar, 7961, 0.0469913307726
+save, 7646, 0.0456790312951
+convert, 2115, 0.0456139932464
+small, 8054, 0.0442125933431
+result, 7332, 0.0440419268422
+project, 6909, 0.0421243160461
+data, 2385, 0.0420293438731
+sourc, 8153, 0.0418883593466
+understand, 9246, 0.0406926114293
+origin, 6293, 0.0403612270565
+anyth, 555, 0.0389071668006
+idea, 4482, 0.0387999303325
+imag, 4512, 0.0380430426915
+line, 5285, 0.0376184222019
+inform, 4637, 0.0373022706045
+let, 5225, 0.0358415029541
+differ, 2633, 0.0349457489377
+question, 7032, 0.0343534871661
+better, 1060, 0.0339519159435
+come, 1923, 0.0329103892911
+thank, 8832, 0.0317826003101
+way, 9666, 0.0296878808783
+say, 7653, 0.0288138513309
+know, 5052, 0.0244457844333

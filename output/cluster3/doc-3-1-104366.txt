@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104366
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Illinois at Chicago, academic Computer Center
+From: <U49839@uicvm.uic.edu>
+Subject: Re: White Sox Update
+ <1993Apr11.213102.4954@midway.uchicago.edu>
+Lines: 9
+
+i think lamont is tryin sax out in left because he is messing with his
+mind.  he is trying to stir loose the mental block that he has had.
+sax was supposed to play in left last night (4-14) but we were rained
+out.  it's not like we need to add any more outfielders to our team.
+
+it's mental
+
+jimmy
+go sox, cubs suck!  (that's the white sox, dontcha know?)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  white sox updat    think lamont tryin sax left
+mess mind tri stir loos mental block sax suppos
+play left last night rain it like need add
+outfield team  it mental  jimmi sox cub suck that
+white sox dontcha know
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sax, 7652, 0.434474817459
+sox, 8162, 0.407274726447
+mental, 5631, 0.355497083482
+white, 9737, 0.251915583448
+left, 5193, 0.233920687489
+stir, 8400, 0.208783181344
+jimmi, 4870, 0.205321844469
+loos, 5345, 0.190310008867
+mess, 5649, 0.186631789846
+rain, 7074, 0.168976609668
+outfield, 6325, 0.163777076637
+suck, 8515, 0.157378750096
+block, 1163, 0.155522086607
+cub, 2282, 0.145463185836
+updat, 9333, 0.127304014764
+add, 260, 0.126177923071
+suppos, 8577, 0.119488038273
+night, 6063, 0.119312590603
+mind, 5733, 0.114484151542
+team, 8732, 0.0975756967719
+play, 6681, 0.0969152780265
+tri, 9087, 0.0851087580379
+need, 5993, 0.0790136062315
+think, 8871, 0.0673059375145
+know, 5052, 0.06329994868
+like, 5272, 0.0618785194166

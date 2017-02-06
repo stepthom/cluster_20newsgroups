@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38285
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: joerg@sax.sax.de (Joerg Wunsch)
+Subject: About the various DXF format questions
+Organization: SaxNet, Dresden, Germany
+Lines: 25
+Distribution: world
+NNTP-Posting-Host: sax.sax.de
+Summary: List of sites holding documentation of DXF format
+Keywords: DXF, graphics formats
+
+Archie told me the following sites holding documentation about DXF:
+
+Host nic.funet.fi   (128.214.6.100)
+Last updated 15:11  7 Apr 1993
+
+    Location: /pub/csc/graphics/format
+      FILE      rwxrwxr--     95442  Dec  4  1991   dxf.doc
+
+Host rainbow.cse.nau.edu   (134.114.64.24)
+Last updated 17:09  1 Jun 1992
+
+    Location: /graphics/formats
+      FILE      rw-r--r--     95442  Mar 23 23:31   dxf.doc
+
+Host ftp.waseda.ac.jp   (133.9.1.32)
+Last updated 00:47  5 Apr 1993
+
+    Location: /pub/data/graphic
+      FILE      rw-r--r--     39753  Nov 18  1991   dxf.doc.Z
+
+-- 
+J"org Wunsch, ham: dl8dtl    : joerg_wunsch@uriah.sax.de
+If anything can go wrong...  :   ...or:
+     .o .o                   : joerg@sax.de,wutcd@hadrian.hrz.tu-chemnitz.de,
+       <_      ... IT WILL!  : joerg_wunsch@tcd-dresden.de
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ various dxf format question     list site hold
+document dxf format   archi told follow site hold
+document dxf  host nic funet last updat  locat pub
+csc graphic format file rwxrwxr dxf doc  host
+rainbow cse nau edu last updat jun  locat graphic
+format file dxf doc  host ftp waseda last updat
+locat pub data graphic file dxf doc    anyth wrong
+hadrian hrz chemnitz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dxf, 2939, 0.626220381253
+doc, 2783, 0.297925573102
+host, 4386, 0.276789111319
+format, 3612, 0.270001215809
+locat, 5323, 0.224166532942
+updat, 9333, 0.219185686622
+file, 3477, 0.175086971707
+graphic, 3997, 0.166583558666
+pub, 6971, 0.163267147181
+document, 2788, 0.15513230867
+hold, 4341, 0.147467866661
+site, 7994, 0.139021055205
+rainbow, 7075, 0.122076276454
+jun, 4930, 0.122076276454
+csc, 2269, 0.122076276454
+funet, 3728, 0.114453132831
+nic, 6046, 0.112985606161
+archi, 613, 0.10201285021
+told, 8973, 0.0759273986091
+various, 9432, 0.0744338643514
+ftp, 3709, 0.0681769644412
+data, 2385, 0.0624598340083
+wrong, 9869, 0.0619068035751
+list, 5298, 0.0617713336332
+edu, 3001, 0.0597998133124
+anyth, 555, 0.0578199647236
+follow, 3578, 0.0554349274907
+question, 7032, 0.0510527385932

@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104925
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Sparky Anderson Gets win #2000, Tigers beat A's
+From: tim@cs.cosc.georgetown.edu (Tim Snyder)
+Distribution: world
+Organization: Georgetown University, Washington DC
+Nntp-Posting-Host: cs.cosc.georgetown.edu
+Lines: 33
+
+In article <ragraca.734906386@vela.acs.oakland.edu> ragraca@vela.acs.oakland.edu (Randy A. Graca) writes:
+>Tigers' manager Sparky Anderson gets his 2,000th career win as moments ago,
+>the Tigers completed a two game sweep over the Oakland A's at Tiger Stadium
+>by beating the A's 3-2. Here are the highlights:
+>				R    H   E    
+>             Oakland		2    9   0
+>	     Detroit            3    7   1
+>
+> [game description deleted]
+>
+>In the post game interview (on WJR radio in Detroit), Sparky Anderson said
+>its one of the few times he's gotten emotional in his managing career.  It
+>was a big moment for him, and I'm sure all of us Tiger fans are unanimously
+>very happy for him.  And what a way to get number 2,000!.
+>
+> [woofing deleted]
+>--Randy
+>
+
+In another post-game interview, LaRussa claimed that Sparky was "the
+best manager in basebal," explaining that to be part of the history
+of Sparky softened the blow of losing.
+
+Go Tigers!!!
+ Tim
+
+ Timothy Law Snyder
+ Department of Computer Science
+ Reiss 225
+ Georgetown University
+ Washington, DC 20057
+
+tim@normal.georgetown.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+sparki anderson get win tiger beat a        tiger
+manag sparki anderson get 000th career win moment
+ago tiger complet two game sweep oakland a tiger
+stadium beat a highlight  oakland detroit  game
+descript delet  post game interview wjr radio
+detroit sparki anderson said one time he gotten
+emot manag career big moment i'm sure tiger fan
+unanim happi way get number  woof delet randi
+anoth post game interview larussa claim sparki
+best manag baseb explain part histori sparki
+soften blow lose  tiger tim  timothi law snyder
+depart comput scienc reiss georgetown univers
+washington
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sparki, 8188, 0.523897913593
+tiger, 8928, 0.471987957097
+anderson, 501, 0.265730721908
+game, 3761, 0.178821676238
+interview, 4726, 0.171571814974
+manag, 5472, 0.168926253144
+detroit, 2584, 0.165193963788
+oakland, 6167, 0.162832974338
+beat, 974, 0.144748463773
+moment, 5828, 0.140201539519
+career, 1517, 0.136571682544
+delet, 2502, 0.126425938833
+timothi, 8939, 0.115002332726
+000th, 0, 0.115002332726
+snyder, 8083, 0.109022407317
+win, 9770, 0.107216668642
+larussa, 5132, 0.106748945191
+highlight, 4296, 0.0955086668756
+woof, 9826, 0.0936627219501
+sweep, 8629, 0.0912658422768
+emot, 3073, 0.0873964125773
+randi, 7091, 0.0863034451757
+post, 6766, 0.0861465777521
+blow, 1172, 0.0838802527197
+tim, 8935, 0.0783541572952
+stadium, 8300, 0.0783541572952
+washington, 9651, 0.0743435943585
+gotten, 3962, 0.0741113326963
+happi, 4161, 0.0694146781135
+descript, 2557, 0.0694146781135
+depart, 2535, 0.0692480287614
+radio, 7061, 0.0658579451609
+lose, 5350, 0.0648404168533
+histori, 4314, 0.0637738092634
+law, 5153, 0.063323444171
+explain, 3301, 0.0596169808892
+fan, 3381, 0.058697525027
+claim, 1782, 0.0574548272963
+ago, 336, 0.0574548272963
+complet, 1975, 0.0570145465193
+scienc, 7692, 0.0551176574646
+comput, 1993, 0.0511313316916
+big, 1082, 0.0502372209305
+best, 1052, 0.0493082346572
+said, 7583, 0.0490954126274
+univers, 9282, 0.0490111363367
+number, 6156, 0.0479572373307
+anoth, 533, 0.0475330736695
+sure, 8585, 0.0474951114588
+way, 9666, 0.0385797787391
+time, 8936, 0.0350422926937

@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38263
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: davidr@rincon.ema.rockwell.com (David J. Ray)
+Subject: Re: Fractals? what good are they?
+Organization: Rockwell International
+X-Newsreader: Tin 1.1 PL5
+Lines: 16
+
+In regards to fractal commpression, I have seen 2 fractal compressed "movies".
+They were both fairly impressive.  The first one was a 64 gray scale "movie" of
+Casablanca, it was 1.3MB and had 11 minutes of 13 fps video.  It was a little
+grainy but not bad at all.  The second one I saw was only 3 minutes but it
+had 8 bit color with 10fps and measured in at 1.2MB.
+
+I consider the fractal movies a practical thing to explore.  But unlike many 
+other formats out there, you do end up losing resolution.  I don't know what
+kind of software/hardware was used for creating the "movies" I saw but the guy
+that showed them to me said it took 5-15 minutes per frame to generate.  But as
+I said above playback was 10 or more frames per second.  And how else could you
+put 11 minutes on one floppy disk?
+
+davidr@rincon.ema.rockwell.com
+My opinions are my own except where they are shared by others in which case I 
+will probably change my mind.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fractal good     regard fractal commpress seen
+fractal compress movi fair impress first one gray
+scale movi casablanca 3mb minut fps video littl
+graini bad second one saw minut bit color 10fps
+measur 2mb  consid fractal movi practic thing
+explor unlik mani format end lose resolut don't
+know kind softwar hardwar use creat movi saw guy
+show said took minut per frame generat said
+playback frame per second els could put minut one
+floppi disk   opinion except share other case
+probabl chang mind
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fractal, 3637, 0.47485169235
+movi, 5892, 0.414370206993
+minut, 5747, 0.374867005447
+frame, 3643, 0.196381687949
+saw, 7650, 0.178719323681
+2mb, 80, 0.153662231658
+second, 7753, 0.141202701161
+fps, 3634, 0.139600538838
+playback, 6682, 0.135901829822
+said, 7583, 0.135064363452
+floppi, 3551, 0.125538846018
+gray, 4011, 0.115379750709
+compress, 1986, 0.105016766905
+disk, 2720, 0.103939341979
+share, 7855, 0.101627785042
+unlik, 9290, 0.100712438751
+resolut, 7316, 0.0987247362208
+impress, 4554, 0.0976706427925
+explor, 3307, 0.0959483103174
+scale, 7659, 0.0945801469597
+video, 9506, 0.0918988132905
+measur, 5601, 0.0915160333591
+hardwar, 4173, 0.0905895374473
+took, 8987, 0.0895308589282
+lose, 5350, 0.0891898973812
+practic, 6793, 0.0888545718211
+generat, 3819, 0.087880621538
+fair, 3363, 0.0859182932879
+regard, 7224, 0.0831017551925
+color, 1907, 0.0815358294864
+format, 3612, 0.0811910041675
+mind, 5733, 0.0790308020722
+creat, 2217, 0.0784251829348
+guy, 4100, 0.0761687780059
+opinion, 6266, 0.0759916001592
+seen, 7767, 0.0752979690204
+bad, 861, 0.0747099065561
+chang, 1650, 0.072889602823
+kind, 5021, 0.072366527284
+consid, 2059, 0.0711496740813
+case, 1540, 0.0705338405866
+els, 3053, 0.0701334315126
+end, 3091, 0.0699361521508
+bit, 1122, 0.0684233968234
+littl, 5308, 0.068181885227
+softwar, 8103, 0.06770732009
+probabl, 6885, 0.0663468058499
+mani, 5479, 0.0575446716266
+thing, 8869, 0.0554214671716
+good, 3948, 0.0521485015068
+don, 2811, 0.0460150258144
+use, 9363, 0.0448041009184
+know, 5052, 0.0436972772905

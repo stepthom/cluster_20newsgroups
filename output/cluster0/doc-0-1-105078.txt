@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105078
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: doctor8@jhuvms.hcf.jhu.edu (Jason Abner Miller)
+Subject: Re: John Franco
+Organization: The Johns Hopkins University - HCF
+Lines: 30
+Distribution: na
+NNTP-Posting-Host: jhuvms.hcf.jhu.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <1993Apr23.174759.182922@zeus.calpoly.edu>, jplee@cymbal.calpoly.edu (Jason Lee) writes...
+>What's with John Franco?  The Mets are hardly using him.  
+
+	Don't worry.  This is a perfectly normal state of affairs.  Had they
+actually been using him, you should be worried.
+
+>I heard he was completely recovered, but now I'm not so sure.
+
+	He's recovered totally from his injury.  That's why he's not
+pitching...so he can rest his arm enough that he can get injured again
+pitching on 38 days rest and then have fun dining in the Diamond Club in
+Shea Stadium while AY struggles every day out there...
+
+>If there is anybody out there with information about Franco, I would
+>appreciate it if you could drop me a line.
+
+	I've be quite happy to drop John Franco, just the same.
+	Bring back Randy Myers!
+	No, better make that...Bring Back Neil Allen!
+
+> 
+>-- 
+>Jason Lee   jplee@oboe.calpoly.edu   jlee@cash.busfac.calpoly.edu    SF Giants
+>e ^ i*pi + 1 = 0    The most beautiful equation in mathematics.      Magic
+>For all sad words of tongue and pen, the saddest are these:          Number:
+>     "It might have been."            John Greenleaf Whittier        148
+
+Jason A. Miller
+"some doctor guy"
+Tanana:  1-0, 1.50
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ john franco     news softwar vax vms vnew  cymbal
+calpoli edu jason lee write what john franco met
+hard use  don't worri perfect normal state affair
+actual use worri  heard complet recov i'm sure  he
+recov total injuri that he pitch rest arm enough
+get injur pitch day rest fun dine diamond club
+shea stadium struggl everi day  anybodi inform
+franco appreci could drop line  i'v quit happi
+drop john franco bring back randi myer better make
+bring back neil allen    cash busfac calpoli edu
+giant beauti equat mathemat magic sad word tongu
+pen saddest number might john greenleaf whittier
+jason miller doctor guy tanana
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+franco, 3653, 0.463207442327
+john, 4878, 0.254530145535
+calpoli, 1467, 0.239113980334
+jason, 4828, 0.2118208049
+recov, 7185, 0.205066906246
+worri, 9845, 0.173621209173
+drop, 2878, 0.162903130876
+rest, 7324, 0.143757576914
+bring, 1316, 0.142304547249
+saddest, 7574, 0.124398194204
+greenleaf, 4029, 0.124398194204
+busfac, 1422, 0.124398194204
+pitch, 6643, 0.122865744203
+whittier, 9740, 0.121804098273
+tanana, 8689, 0.119556990167
+myer, 5939, 0.119556990167
+edu, 3001, 0.11933297032
+tongu, 8983, 0.114197951018
+cash, 1542, 0.108978566723
+affair, 309, 0.108978566723
+neil, 6002, 0.107892492272
+shea, 7864, 0.105000542313
+pen, 6511, 0.104137362686
+miller, 5722, 0.103316306519
+injur, 4649, 0.101785404937
+diamond, 2614, 0.101069198413
+day, 2402, 0.0998038658977
+randi, 7091, 0.0984751024823
+doctor, 2786, 0.0973140688276
+struggl, 8461, 0.0957101592642
+beauti, 978, 0.0920573297706
+sad, 7571, 0.0897589938828
+magic, 5435, 0.0897589938828
+injuri, 4650, 0.0897589938828
+stadium, 8300, 0.0894047005174
+club, 1842, 0.089057712693
+equat, 3157, 0.0883844903897
+arm, 643, 0.0874226106957
+mathemat, 5545, 0.087113825642
+fun, 3721, 0.0868106045867
+lee, 5190, 0.0865127505586
+allen, 426, 0.0843025871725
+happi, 4161, 0.0792044573317
+normal, 6108, 0.0770532373098
+vnew, 9564, 0.0765558125258
+giant, 3865, 0.0765558125258
+met, 5655, 0.074848252663
+use, 9363, 0.0743320662119
+vms, 9563, 0.0742679084887
+perfect, 6538, 0.0735695380164
+vax, 9439, 0.073433275626
+anybodi, 552, 0.0684232806728
+total, 9013, 0.0671617791778
+complet, 1975, 0.0650554945986
+appreci, 587, 0.0650554945986
+heard, 4224, 0.0639385141451
+hard, 4167, 0.063708510839
+guy, 4100, 0.0631837547674
+quit, 7043, 0.0616336098289
+word, 9829, 0.0602762733693
+state, 8342, 0.05966648516
+news, 6031, 0.0581225696468
+write, 9865, 0.0580136481451
+everi, 3235, 0.0576378807212
+softwar, 8103, 0.0561647806427
+line, 5285, 0.0557801167344
+inform, 4637, 0.0553113311774
+number, 6156, 0.0547208034546
+sure, 8585, 0.0541935024585
+actual, 254, 0.054107203227
+better, 1060, 0.0503434680095
+make, 5459, 0.0422076393558
+don, 2811, 0.0381705231827

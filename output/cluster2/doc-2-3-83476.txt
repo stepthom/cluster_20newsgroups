@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83476
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Is it good that Jesus died?
+Organization: Cookamunga Tourist Bureau
+Lines: 17
+
+In article <1993Apr17.010734.23670@organpipe.uug.arizona.edu>,
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) wrote:
+> The truth is, is that it is not some sort of magic spell.  The truth
+> is is that you do not understand it, and enjoy not understanding it.
+
+I'm curious about this statement, is it a known understanding amongst
+Christian believers that people who don't understand the Christian
+doctrines are enjoying this state? I come from a background with 
+a heavy Christian teaching (Lutheran church), and consider myself
+knowledgeable with the basic understandings of Christianity. At the 
+same time I'm *not* proud of things I don't understand or know of at
+this point of time. Ignorance is not bliss!
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die      truth sort magic spell truth
+understand enjoy understand  i'm curious statement
+known understand amongst christian believ peopl
+don't understand christian doctrin enjoy state
+come background heavi christian teach lutheran
+church consid knowledg basic understand christian
+time i'm proud thing don't understand know point
+time ignor bliss  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+understand, 9246, 0.556024733113
+christian, 1732, 0.366923360074
+enjoy, 3114, 0.247576724299
+truth, 9132, 0.24043552764
+lutheran, 5402, 0.183621457068
+bliss, 1162, 0.173141909544
+proud, 6946, 0.156326989636
+spell, 8220, 0.147791647426
+doctrin, 2787, 0.140763318137
+heavi, 4230, 0.138412084815
+magic, 5435, 0.137856240933
+background, 855, 0.13242099956
+church, 1746, 0.129876742604
+curious, 2297, 0.125435144799
+kent, 4987, 0.123471232473
+time, 8936, 0.122820050939
+cheer, 1687, 0.122240250095
+teach, 8729, 0.119941336112
+don, 2811, 0.117248302656
+statement, 8343, 0.116593432115
+ignor, 4496, 0.115413056019
+knowledg, 5053, 0.115183314556
+basic, 937, 0.106356569419
+die, 2628, 0.105714406092
+jesus, 4859, 0.105087811904
+known, 5054, 0.103294324183
+sort, 8144, 0.0994135268998
+state, 8342, 0.0916386982299
+consid, 2059, 0.090646244057
+believ, 1009, 0.079815048328
+come, 1923, 0.0749480465842
+point, 6710, 0.0729535740044
+thing, 8869, 0.0706081637633
+peopl, 6530, 0.0701235418587
+good, 3948, 0.0664383337779
+know, 5052, 0.0556712889138

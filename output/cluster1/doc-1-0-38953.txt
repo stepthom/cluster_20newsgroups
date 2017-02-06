@@ -1,0 +1,36 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38953
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: menchett@dws012.unr.edu (Peter J Menchetti)
+Subject: A graphic design newsgroup???
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 3
+
+Which newsgroup discusses graphic design on PCs and macs?
+
+Y'know like with Corel Draw??
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic design newsgroup    newsgroup discuss
+graphic design pcs mac  y'know like corel draw
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+newsgroup, 6032, 0.48859916042
+design, 2564, 0.42935624806
+graphic, 3997, 0.363794668426
+pcs, 6487, 0.35422242492
+corel, 2141, 0.35422242492
+mac, 5410, 0.246221482732
+draw, 2861, 0.245252174952
+discuss, 2708, 0.212511213895
+know, 5052, 0.119005668093
+like, 5272, 0.116333341453

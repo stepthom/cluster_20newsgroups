@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84301
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: jwmorris@netcom.com (John W. Morris)
+Subject: Re: Davidians and compassion
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 26
+
+: 
+: > Surely you are not equating David Koresh with Christianity? The two are
+: > not comparable.
+: 
+: This is always an option: when the sect is causing harm, re-label
+: the cult to something else.
+: 
+: Cheers,
+: Kent
+
+Good point.
+
+I would not doubt that DK could have spouted verse and debated with best.
+According to reports his extensive Bible knowledge was one way he sucked
+in the fools (followers?).
+
+Quote bible all you want. I too judge what you say be what you do and
+even more by if it makes sense.
+
+Sense, common that is.  Doesn't seem so common after all!
+
+-- 
++--------------------------------------------------------------------+
+| John Morris                                    jwmorris@netcom.com |
+| San Diego, CA                    I have no opinion, but if I did...|
++--------------------------------------------------------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass      sure equat david koresh
+christian two compar  alway option sect caus harm
+label cult someth els  cheer kent  good point
+doubt could spout vers debat best accord report
+extens bibl knowledg one way suck fool follow
+quot bibl want judg say even make sens  sens
+common doesn't seem common     san diego opinion
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bibl, 1071, 0.264089603114
+common, 1948, 0.262615678705
+sens, 7788, 0.250759881756
+sect, 7757, 0.204200154207
+spout, 8263, 0.194867245267
+compass, 1963, 0.186210569713
+harm, 4177, 0.180724310002
+label, 5086, 0.178315735339
+fool, 3585, 0.172067634448
+debat, 2426, 0.170243371723
+vers, 9476, 0.166114836411
+suck, 8515, 0.161147401954
+davidian, 2398, 0.158638356015
+equat, 3157, 0.158042472795
+cult, 2289, 0.155228169028
+extens, 3320, 0.152654711107
+diego, 2629, 0.151683945655
+judg, 4920, 0.148946503026
+option, 6276, 0.145645539823
+koresh, 5065, 0.14449542075
+kent, 4987, 0.143752392399
+cheer, 1687, 0.142319211097
+san, 7603, 0.136027404869
+accord, 219, 0.135187598197
+doubt, 2830, 0.134640471865
+knowledg, 5053, 0.13410311617
+quot, 7045, 0.129199427969
+compar, 1960, 0.12660001824
+caus, 1569, 0.121813583542
+david, 2397, 0.121461636615
+report, 7291, 0.119761120956
+alway, 457, 0.11364765617
+opinion, 6266, 0.112717613774
+christian, 1732, 0.106798380848
+els, 3053, 0.104028248245
+best, 1052, 0.100604062133
+follow, 3578, 0.0989035464741
+doesn, 2793, 0.0976091052089
+sure, 8585, 0.0969047295538
+someth, 8126, 0.0885786221241
+point, 6710, 0.0849367952936
+want, 9634, 0.0819697514494
+way, 9666, 0.078714691052
+good, 3948, 0.0773513735653
+say, 7653, 0.0763972819355
+make, 5459, 0.0754725140713

@@ -1,0 +1,152 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104743
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rstimets@silver.ucs.indiana.edu (robert and stimets)
+Subject: Re: Rule Book Trivia 2
+Nntp-Posting-Host: silver.ucs.indiana.edu
+Organization: Indiana University
+Lines: 39
+
+In article <93109.145942IO20456@MAINE.MAINE.EDU> Ryan Robbins <IO20456@MAINE.MAINE.EDU> writes:
+>        If I were the manager, I'd argue that the runner was out of
+>        the base line since he was to the *left* of the first base
+>        line.  If the umps don't budge (which they won't:  they nev-
+>        er admit when they are wrong), I'd file a protest with the
+>        league.
+>
+>Rule 7.09(k) states: "It is interference by a batter or runner when -
+>in running the last half of the distance from home base to first base
+>... he runs outside the three-foot line, or inside (to the left of)
+>the foul line and, in the umpire's judgment, interferes with the field-
+>er taking the throw at first base..."
+>
+>The key word in the rule is "and." A runner isn't out just for running
+>out of the baseline. He's out for interfering with the fielding of the
+>ball or throw or fielding of the throw to first. Because the catcher
+>opted to throw the ball over the batter-runner's head, there's no inter-
+>ference.
+>
+>
+>
+So what is your definition of "interfering with the fielder taking the throw"?
+
+The rule book certainly doesn't have a definiton or clarification, so it's
+possible to interpret the rule as saying that if the catcher has to alter
+his throw to avoid hitting the batter-runner, then again we have interference.
+You know, it seems that there is no way to apply this rule justly--if the
+catcher (or the pitcher, say Rob Dibble, for example) throws toward first
+and hits the runner running inside the baseline, the fielder takes the chance
+of being ejected.  Therefore he probably would throw around the runner or
+(your scenario) above him.
+
+You should note that in our American Legion League, (which uses MLB rules) we
+interpret the rule to say in this very circumstance there IS interference
+per rule 7.09.
+
+RStimets
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rule book trivia      manag i'd argu runner base
+line sinc left first base line ump don't budg
+won't nev admit wrong i'd file protest leagu  rule
+state interfer batter runner run last half distanc
+home base first base run outsid three foot line
+insid left foul line umpir judgment interfer field
+take throw first base  key word rule runner isn't
+run baselin he interf field ball throw field throw
+first catcher opt throw ball batter runner head
+there inter ferenc    definit interf fielder take
+throw  rule book certain doesn't definiton clarif
+it possibl interpret rule say catcher alter throw
+avoid hit batter runner interfer know seem way
+appli rule just catcher pitcher say rob dibbl
+exampl throw toward first hit runner run insid
+baselin fielder take chanc eject therefor probabl
+throw around runner scenario  note american legion
+leagu use mlb rule interpret rule say circumst
+interfer per rule  rstimet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rule, 7537, 0.420999612685
+throw, 8899, 0.402033487872
+runner, 7545, 0.400656212989
+interfer, 4710, 0.273175938168
+base, 923, 0.175389943537
+catcher, 1557, 0.173464617854
+interf, 4708, 0.165714663718
+batter, 949, 0.159830338179
+baselin, 927, 0.150176027015
+line, 5285, 0.148612821045
+run, 7543, 0.135054543325
+field, 3466, 0.12654980559
+fielder, 3467, 0.123753512
+interpret, 4720, 0.105766898629
+insid, 4671, 0.105006910116
+leagu, 5176, 0.0899720589763
+left, 5193, 0.0892205635544
+ball, 877, 0.0876739148841
+say, 7653, 0.0853725544724
+dibbl, 2618, 0.0849009298951
+rstimet, 7516, 0.0828573318589
+book, 1218, 0.0802958791763
+opt, 6272, 0.0796327733992
+hit, 4316, 0.078393606595
+scenario, 7670, 0.0741908342431
+judgment, 4922, 0.0741908342431
+eject, 3022, 0.0733601759873
+circumst, 1770, 0.0725868516521
+trivia, 9109, 0.0718634550479
+inter, 4703, 0.0693622931925
+foul, 3626, 0.0693622931925
+ump, 9209, 0.0668611313371
+clarif, 1785, 0.065590857636
+protest, 6942, 0.0630896957805
+foot, 3587, 0.0624668268193
+alter, 449, 0.0621679089166
+umpir, 9210, 0.0610460977443
+rob, 7434, 0.0610460977443
+mlb, 5795, 0.0610460977443
+avoid, 827, 0.0568629420196
+argu, 628, 0.0551613853017
+distanc, 2744, 0.0548500109165
+admit, 276, 0.0543985905653
+outsid, 6332, 0.053276779393
+key, 4994, 0.0514351464074
+half, 4124, 0.0507756175375
+therefor, 8855, 0.0500522209333
+american, 469, 0.0498538306736
+appli, 584, 0.0496588908548
+chanc, 1649, 0.0487320195013
+definit, 2484, 0.0484682718724
+won, 9820, 0.0477938575328
+head, 4215, 0.0473134086833
+pitcher, 6644, 0.0445488637766
+home, 4354, 0.0432218588499
+manag, 5472, 0.0427948069296
+wrong, 9869, 0.0411420450889
+isn, 4783, 0.0410520144277
+exampl, 3258, 0.0406555927047
+note, 6118, 0.0404412695964
+word, 9829, 0.0401479395881
+state, 8342, 0.0397417807661
+certain, 1619, 0.039662285702
+file, 3477, 0.038786453553
+possibl, 6765, 0.0367489621674
+probabl, 6885, 0.0366577099099
+doesn, 2793, 0.0363587920073
+sinc, 7977, 0.0341686721845
+way, 9666, 0.0293207388158
+don, 2811, 0.0254240644473
+use, 9363, 0.0247550083716
+know, 5052, 0.0241434699719

@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62477
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: raptor!rlove (Robert B. Love )
+Subject: Re: ASTRONAUTS---WHAT DOES WEIGHTLESSNESS FEEL
+Organization: Rocky Mountain NeXT Users' Group
+Lines: 10
+
+In article <1so442$3qm@access.digex.net> prb@access.digex.net (Pat)  
+writes:
+> >Adaptation Trainer (PAT).  Dr. Harm here at MSC (oops, I mean JSC)
+> 
+> 
+> Now is that an aptly named person or what?
+When I went thru all the spinning chair tests at JSC the PhD in charge 
+was Milt Reshke but the technician who strapped me in and, on occasion,
+inserted the "probe" (needle) was named Bev Bloodworth.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+raptor rlove robert love astronaut weightless feel
+access digex net pat  adapt trainer pat harm msc
+oop mean jsc   apt name person went thru spin
+chair test jsc phd charg milt reshk technician
+strap occas insert probe needl name bev bloodworth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jsc, 4914, 0.332265266299
+pat, 6458, 0.260699697425
+trainer, 9043, 0.22897467376
+technician, 8738, 0.22897467376
+weightless, 9696, 0.217068380756
+needl, 5994, 0.212541818238
+msc, 5902, 0.212541818238
+milt, 5728, 0.212541818238
+apt, 596, 0.202068225555
+digex, 2641, 0.199269486763
+strap, 8428, 0.196714438429
+chair, 1638, 0.19218787591
+oop, 6254, 0.188266789104
+occas, 6186, 0.186486575478
+harm, 4177, 0.176360496101
+adapt, 259, 0.171833933583
+insert, 4670, 0.168845132433
+spin, 8235, 0.163649645052
+probe, 6886, 0.157256296918
+astronaut, 727, 0.154807835022
+charg, 1664, 0.139573698251
+robert, 7437, 0.132193967765
+went, 9704, 0.131126048927
+access, 209, 0.125424748494
+test, 8812, 0.120652456243
+net, 6010, 0.118189315751
+love, 5366, 0.116548412262
+feel, 3429, 0.115452009056
+person, 6562, 0.0978353734236
+mean, 5595, 0.090747735987

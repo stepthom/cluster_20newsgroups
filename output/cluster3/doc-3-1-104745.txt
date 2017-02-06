@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104745
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Maine System
+From: Ryan Robbins <IO20456@MAINE.MAINE.EDU>
+Subject: Re: lame, dumb and useless question
+Lines: 10
+
+It depends. If, in the judgment of the umpire the batter made no
+attempt to avoid getting hit, the batter is awarded first for a
+base on balls. If the umpire rules he did try to get out of the
+way, he's awarded first because of a hit batsman.
+
+Ryan Robbins
+Penobscot Hall
+University of Maine
+
+IO20456@Maine.Maine.Edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  lame dumb useless question   depend judgment
+umpir batter made attempt avoid get hit batter
+award first base ball umpir rule tri get way he
+award first hit batsman  ryan robbin penobscot
+hall univers main
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+award, 832, 0.397965327745
+umpir, 9210, 0.372625024392
+batter, 949, 0.325201150514
+penobscot, 6528, 0.247606980003
+hit, 4316, 0.239257058592
+robbin, 7436, 0.239009741144
+judgment, 4922, 0.226430209637
+lame, 5100, 0.210024449135
+useless, 9364, 0.195615118185
+dumb, 2914, 0.195615118185
+ryan, 7557, 0.179006335759
+avoid, 827, 0.17354553313
+hall, 4128, 0.166024339682
+depend, 2537, 0.152759232247
+attempt, 763, 0.150399048632
+main, 5450, 0.150115154108
+rule, 7537, 0.142765509948
+ball, 877, 0.133790266206
+univers, 9282, 0.113682617034
+base, 923, 0.107057919185
+question, 7032, 0.103550131042
+tri, 9087, 0.0990728593946
+way, 9666, 0.0894868093142

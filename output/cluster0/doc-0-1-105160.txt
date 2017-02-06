@@ -1,0 +1,151 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105160
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: Bonilla
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 37
+
+In article <1993Apr23.200913.6611@island.COM> fester@island.COM (Mike Fester) writes:
+>In article <1993Apr21.012139.13444@Princeton.EDU> roger@astro.princeton.edu (Roger Lustig) writes:
+
+>>When I say "black," I mean US-born black people for the purposes of this
+>>discussion.  Hispanic players were in baseball before 1947, and one 
+>>team in the 50's signed lots of hispanics because they went over better
+>>with the local audience than blacks did.  
+
+>What about black hispanics?
+
+Good question.  It's my impression, not backed by evidence, that general
+south-of-the-borderness seems to exempt one from the hiring-firing effect
+I was talking about.  
+
+Back in the 20's there were some attempts to hire black Cuban ballplayers; 
+they were rejected by the commissioner and others.
+
+>>>And why would more hispanics stick around than blacks?
+
+>>Don't know.  But remember: this is the country that had special racial
+>			    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>laws for one group and one group only: blacks.  Our national history 
+> ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+>Man, you had better do some SERIOUS reading. I really, really doubt that you
+>meant to say this.
+
+Well, what *did* I mean to say?  Aside from some short-lived exceptions
+such as Japanese internment in WW II, only blacks were affected by laws
+regarding: slavery, Jim Crow, miscegenation, military service, etc.  If
+my claim of exclusivity is not 100% airtight, that is, if you can come
+up with this or that exception, fine -- have a cookie.  But compared to
+this list, no other racial group put up with a legal onslaught worth
+discussing at length.
+
+Roger
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bonilla origin news nimast         say black mean
+born black peopl purpos discuss hispan player
+basebal one team sign lot hispan went better local
+audienc black  black hispan  good question it
+impress back evid general south border seem exempt
+one hire fire effect talk  back attempt hire black
+cuban ballplay reject commission other  hispan
+stick around black  don't know rememb countri
+special racial  law one group one group black
+nation histori   man better serious read realli
+realli doubt meant say  well mean say asid short
+live except japanes intern black affect law regard
+slaveri jim crow miscegen militari servic etc
+claim exclus airtight come except fine cooki
+compar list racial group put legal onslaught worth
+discuss length  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+black, 1133, 0.536567106739
+hispan, 4311, 0.453638699843
+racial, 7050, 0.217992222169
+hire, 4308, 0.188380045474
+group, 4064, 0.160176476521
+law, 5153, 0.131743398399
+discuss, 2708, 0.118022021982
+say, 7653, 0.11685234651
+slaveri, 8022, 0.116206817759
+exempt, 3278, 0.116206817759
+cooki, 2123, 0.113409674961
+commission, 1944, 0.111044724423
+audienc, 777, 0.0993521160725
+border, 1229, 0.098361978303
+exclus, 3267, 0.0974318868357
+bonilla, 1215, 0.0965549732748
+mean, 5595, 0.0948242319388
+ballplay, 884, 0.0941900227368
+better, 1060, 0.091792913553
+realli, 7150, 0.0910490317565
+nimast, 6072, 0.0903344043701
+japanes, 4826, 0.088214928039
+reject, 7244, 0.0828421886852
+south, 8154, 0.0824974143865
+affect, 310, 0.081507276617
+asid, 687, 0.0802792765538
+born, 1233, 0.0786039616957
+meant, 5598, 0.0775807952577
+legal, 5200, 0.0768558504467
+militari, 5715, 0.0759396492571
+length, 5212, 0.0759396492571
+stick, 8393, 0.0757188999719
+countri, 2186, 0.0742566692425
+impress, 4554, 0.073863267928
+roger, 7458, 0.0736702866334
+jim, 4868, 0.0700942044347
+sign, 7946, 0.06979337498
+worth, 9850, 0.0694983310672
+doubt, 2830, 0.0686457889341
+went, 9704, 0.0685081932977
+special, 8198, 0.0683718207497
+intern, 4716, 0.0682366497376
+fine, 3485, 0.0681026592735
+attempt, 763, 0.0674497177287
+histori, 4314, 0.0663401878342
+purpos, 6993, 0.0659874869992
+local, 5322, 0.0653055164758
+evid, 3245, 0.064652574931
+compar, 1960, 0.0645464028074
+servic, 7813, 0.0631323410677
+regard, 7224, 0.0628455699028
+effect, 3005, 0.0614870004503
+short, 7904, 0.0606438316554
+nation, 5962, 0.060399659754
+claim, 1782, 0.0597669180945
+general, 3818, 0.0592338983588
+rememb, 7269, 0.0564992477478
+live, 5310, 0.0562507919433
+list, 5298, 0.056189301638
+origin, 6293, 0.0545606120174
+news, 6031, 0.0529884036799
+man, 5471, 0.0529884036799
+player, 6683, 0.052938673294
+talk, 8684, 0.0518835080736
+basebal, 924, 0.0516992198441
+team, 8732, 0.0509397903414
+lot, 5356, 0.0478690650694
+read, 7135, 0.0467015633519
+question, 7032, 0.0464393037925
+come, 1923, 0.0444885131699
+peopl, 6530, 0.0416247288312
+good, 3948, 0.0394372211415
+don, 2811, 0.0347987899256
+know, 5052, 0.0330459962988

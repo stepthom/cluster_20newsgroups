@@ -1,0 +1,304 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60840
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Re: Guns for Space
+Keywords: Sopa Gun, Space Launcer
+Organization: Boeing AI Center, Huntsville, AL
+Lines: 72
+
+
+Okay, lets get the record straight on the Livermore gas gun.  
+The project manager is Dr. John Hunter, and he works for the
+Laser group at Livermore.  What, you may ask, does gas guns
+have to do with lasers? Nothing, really, but the gun is physically
+located across the road from the Free Electron Laser building,
+and the FEL building has a heavily shielded control room (thick walls)
+from which the gun firings are controlled.  So I suspect that the
+office he works for is an administrative convenience.
+
+I visited Hunter at the beginning of Feb. and we toured the gun.
+At the time I was working on gas gun R&D at Boeing, where I work,
+but I am now doing other things (helping to save the space station),
+
+The gun uses a methane-air mixture, which is burned in a chamber
+about 200 ft long by 16 inch ID (i.e. it looks like a pipe).
+The chamber holds a 1 ton piston which is propelled at several
+hundred m/s down the chamber.  On the other side of the piston
+is hudrogen gas, initially at room temperature andsome tens
+of atmospheres.
+
+The piston compresses and heats the hydrogen ahead of it until
+a stainless steel burst diaphragm ruptures, at around 50,000 psi.
+The barrel of the gun is about 100 feet long and has a 4 inch
+bore.  It is mounted at right angles to the chamber (i.e. they
+intersect).  This was done so that in the future, the barrel
+could be raised and the gun fired into the air without having to
+move the larger and heavier chamber.  The projectile being used
+in testing is a 5 kg cylinder of Lexan plastic, 4 in in diameter
+and about 50 cm long.
+
+All of the acceleration comes from the expansion of the hydrogen
+gas from 50,000 psi downwards until the projectile leaves the
+barrel.  The barrel is evacuated, and the end is sealed with a
+sheet of plastic film (a little thicker than Saran wrap).  The
+plastic is blown off by the small amount of residual air trapped
+in the barrel ahead of the projectile.  
+
+The gun is fired into a bunker filled with sandbags and plastic
+water jugs.  In the early testing fragments of the plastic
+projectile were found.  At the higher speeds in later testing,
+the projectile vaporizes.
+
+The testing is into a bunker because the Livermore test range is
+about 3 miles across, and the projectile would go 100-200 km
+if fired for maximum range.  The intent is to move the whole gun
+to Vandenberg AFB after the testing is complete, where they can
+fire into the Pacific Ocean, and use the tracking radar at VAFB
+to follow the projectiles.
+
+The design goal of the gun is to throw a 5 kg projectile at 4
+km/s (half of orbital speed).  So far they have reached 2 km/s,
+and the gun is currently down for repairs, as on the last test
+they blew a seal and damaged some of the hardware (I think it
+had to do with the methane-air more detonating than burning, but
+I haven't had a chance to talk to Hunter directly on this).
+
+There are people waiting to test scramjet components in this
+gun by firing then out of the gun into the air (at Mach 12=
+4 km/s), since the most you can get in wind tunnels is Mach 8.
+
+This gun cost about 4 million to develop, and is basically
+a proof-of-concept for a bigger gun capable of firing useful-
+sized payloads into space.  This would require on the order of
+100 kg projectiles, which deliver on the order of 20 kg
+useful payload to orbit.
+
+Dani Eder
+
+-- 
+Dani Eder/Meridian Investment Company/(205)464-2697(w)/232-7467(h)/
+Rt.1, Box 188-2, Athens AL 35611/Location: 34deg 37' N 86deg 43' W +100m alt.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gun space      okay let get record straight
+livermor gas gun project manag john hunter work
+laser group livermor ask gas gun laser noth realli
+gun physic locat across road free electron laser
+build fel build heavili shield control room thick
+wall gun fire control suspect offic work administr
+conveni  visit hunter begin tour gun time work gas
+gun boe work thing help save space station  gun
+use methan air mixtur burn chamber long inch look
+like pipe chamber hold ton piston propel sever
+hundr chamber side piston hudrogen gas initi room
+temperatur andsom ten atmospher  piston compress
+heat hydrogen ahead stainless steel burst
+diaphragm ruptur around psi barrel gun feet long
+inch bore mount right angl chamber intersect done
+futur barrel could rais gun fire air without move
+larger heavier chamber projectil use test cylind
+lexan plastic diamet long  acceler come expans
+hydrogen gas psi downward projectil leav barrel
+barrel evacu end seal sheet plastic film littl
+thicker saran wrap plastic blown small amount
+residu air trap barrel ahead projectil  gun fire
+bunker fill sandbag plastic water jug earli test
+fragment plastic projectil found higher speed
+later test projectil vapor  test bunker livermor
+test rang mile across projectil fire maximum rang
+intent move whole gun vandenberg afb test complet
+fire pacif ocean use track radar vafb follow
+projectil  design goal gun throw projectil half
+orbit speed far reach gun current repair last test
+blew seal damag hardwar think methan air deton
+burn haven't chanc talk hunter direct  peopl wait
+test scramjet compon gun fire gun air mach sinc
+get wind tunnel mach  gun cost million develop
+basic proof concept bigger gun capabl fire use
+size payload space requir order projectil deliv
+order use payload orbit  dani eder   dani eder
+meridian invest compani box athen locat 34deg
+86deg 100m alt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gun, 4094, 0.573115032424
+projectil, 6910, 0.42353810603
+chamber, 1643, 0.226926849621
+barrel, 917, 0.210640960564
+plastic, 6673, 0.197487329556
+test, 8812, 0.191317450754
+gas, 3780, 0.153423318489
+air, 357, 0.136971606126
+piston, 6641, 0.132259767462
+livermor, 5312, 0.116973079305
+hunter, 4444, 0.110891244979
+laser, 5134, 0.106389253048
+methan, 5664, 0.0907707398486
+psi, 6962, 0.0860508159939
+eder, 2992, 0.0860508159939
+dani, 2358, 0.0842563842256
+bunker, 1402, 0.0842563842256
+mach, 5414, 0.07798205287
+hydrogen, 4457, 0.07798205287
+inch, 4574, 0.0699132897461
+seal, 7741, 0.0669340295986
+work, 9833, 0.0659582016324
+use, 9363, 0.0642727874083
+room, 7476, 0.0583152067681
+payload, 6477, 0.0577899704048
+ahead, 342, 0.0564952189751
+long, 5336, 0.0550177948636
+burn, 1413, 0.054527041227
+rang, 7094, 0.0526222696321
+locat, 5323, 0.0515728419385
+space, 8164, 0.0495297042474
+control, 2107, 0.0485806404172
+speed, 8217, 0.0473309051835
+build, 1378, 0.0469874948954
+thicker, 8864, 0.0453853699243
+tunnel, 9150, 0.044086589154
+stainless, 8303, 0.044086589154
+afb, 308, 0.044086589154
+downward, 2846, 0.0430254079969
+86deg, 145, 0.0430254079969
+34deg, 94, 0.0430254079969
+100m, 7, 0.0430254079969
+orbit, 6280, 0.0421329942292
+deton, 2583, 0.0421281921128
+order, 6281, 0.0411498870695
+vapor, 9425, 0.0406654460696
+residu, 7312, 0.0406654460696
+meridian, 5643, 0.0406654460696
+vandenberg, 9420, 0.0400522075921
+blew, 1156, 0.0400522075921
+mixtur, 5789, 0.0394974659111
+trap, 9067, 0.0385251472782
+steel, 8365, 0.0380938105508
+fragment, 3642, 0.0380938105508
+bore, 1231, 0.0380938105508
+sheet, 7870, 0.0376922456647
+boe, 1196, 0.0376922456647
+athen, 741, 0.0376922456647
+heavier, 4231, 0.0373166068004
+cylind, 2326, 0.0373166068004
+pipe, 6636, 0.0369637483263
+wrap, 9857, 0.0366310645077
+heavili, 4232, 0.0363163726115
+propel, 6923, 0.0357338486235
+tour, 9019, 0.0352043580983
+blown, 1174, 0.0352043580983
+radar, 7055, 0.0349566448731
+diamet, 2613, 0.0349566448731
+shield, 7882, 0.0347190452598
+pacif, 6372, 0.0347190452598
+ocean, 6194, 0.0347190452598
+expans, 3289, 0.0342711025803
+ton, 8980, 0.0336578641028
+repair, 7285, 0.0336578641028
+maximum, 5560, 0.0336578641028
+deliv, 2507, 0.0336578641028
+conveni, 2112, 0.0331031224219
+bigger, 1083, 0.0329293667644
+mount, 5886, 0.0327606482186
+intersect, 4722, 0.0322819910495
+burst, 1417, 0.0322819910495
+heat, 4226, 0.0321308037889
+temperatur, 8773, 0.0318397240236
+film, 3479, 0.0318397240236
+angl, 511, 0.0316994670616
+administr, 273, 0.0316994670616
+damag, 2344, 0.0315625105716
+visit, 9544, 0.0314287027872
+acceler, 207, 0.0312979021754
+proof, 6919, 0.0311699765364
+goal, 3924, 0.0311699765364
+rais, 7076, 0.030569404837
+wind, 9773, 0.0304563841543
+water, 9657, 0.0304563841543
+intent, 4702, 0.0304563841543
+invest, 4744, 0.030345516378
+feet, 3430, 0.030345516378
+compress, 1986, 0.030129922017
+mile, 5713, 0.030025047427
+compon, 1980, 0.030025047427
+larger, 5125, 0.0298208025312
+alt, 446, 0.0297213063943
+straight, 8422, 0.0295272756848
+wall, 9619, 0.0294326332373
+okay, 6215, 0.0289812146651
+track, 9030, 0.0288100146091
+electron, 3034, 0.0287262666567
+hundr, 4440, 0.0283247017705
+atmospher, 755, 0.0283247017705
+initi, 4647, 0.0282476094876
+suspect, 8603, 0.0281715249757
+wait, 9611, 0.0280222762272
+road, 7431, 0.0271355949745
+size, 8000, 0.0270104206388
+million, 5724, 0.0268878817492
+concept, 2002, 0.0268878817492
+higher, 4293, 0.0267087789326
+half, 4124, 0.0263663047293
+throw, 8899, 0.026095540455
+capabl, 1498, 0.026095540455
+hardwar, 4173, 0.025990665865
+leav, 5184, 0.025938928793
+begin, 994, 0.0258368142042
+offic, 6206, 0.0257864209693
+hold, 4341, 0.0254453805343
+reach, 7128, 0.0253051235723
+physic, 6613, 0.0253051235723
+chanc, 1649, 0.0253051235723
+haven, 4207, 0.0248606036405
+record, 7184, 0.0246093250967
+station, 8346, 0.0245684801412
+futur, 3737, 0.0245684801412
+later, 5140, 0.0244079076881
+compani, 1958, 0.0242132279256
+earli, 2951, 0.0241371434138
+basic, 937, 0.0239511728887
+box, 1254, 0.0237709608997
+free, 3668, 0.0237004099477
+save, 7646, 0.0234264590419
+small, 8054, 0.0226743973706
+design, 2564, 0.022615900574
+complet, 1975, 0.0225006417131
+direct, 2667, 0.0223042728433
+manag, 5472, 0.0222221013758
+cost, 2169, 0.0221143134385
+john, 4878, 0.0220084853908
+develop, 2588, 0.0216772583066
+requir, 7302, 0.0216525432704
+project, 6909, 0.021603425829
+sever, 7823, 0.0214824156018
+noth, 6119, 0.0211790805526
+current, 2299, 0.0210888402601
+group, 4064, 0.0202559386466
+ask, 689, 0.0201597317906
+end, 3091, 0.0200650893432
+talk, 8684, 0.0196835861133
+littl, 5308, 0.0195617799463
+far, 3386, 0.0194424707149
+follow, 3578, 0.0191304432189
+let, 5225, 0.0183812895578
+sinc, 7977, 0.0177427999245
+right, 7399, 0.0177051274158
+realli, 7150, 0.0172711091025
+help, 4249, 0.0170994039584
+come, 1923, 0.0168780699792
+thing, 8869, 0.0159007416926
+peopl, 6530, 0.0157916063276
+look, 5341, 0.0145253518391
+time, 8936, 0.0138293491897
+think, 8871, 0.0133304178093
+like, 5272, 0.0122554792

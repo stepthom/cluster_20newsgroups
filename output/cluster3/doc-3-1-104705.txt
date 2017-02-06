@@ -1,0 +1,151 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104705
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mzimmers@netcom.com (Michael Zimmers)
+Subject: Re: Game Length (was Re: Braves Update!!
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 33
+
+In article <20APR93.15151474@vax.clarku.edu> hhenderson@vax.clarku.edu writes:
+
+>nflynn@wvnvms.wvnet.edu writes:
+
+>>However, what is with this policy of trying to speed up the games.
+>>You are the first person ( non-mediot ) I have seen endorse this policy.
+>>I have no problem with the length of games at all and am tired of the
+>>ESPN crowd ( and other announcers ) bitching about it.  I have never
+>>been in a ballpark filled with people looking at their watches and
+>>shouting "Hurry up!"  If I cough up big bucks for a ticket, I don't mind
+>>a game that last more than 2:10.  I really don't understand it.
+
+>I agree with Nick.  What's the big deal about long games?  If you want
+>to watch baseball, there's that much more baseball to watch.  And yes,
+>baseball includes the space between plays as well as the plays themselves.
+
+First, a longer game in no way suggests "more baseball to watch," unless
+you include watching the grass grow as baseball.  The lengthier games
+are so because of batters stepping out of the box, pitchers taking
+longer between pitches and excessive trips to the mound by managers
+and pitching coaches.
+
+And while it's true that the gaps between plays can be interesting, this
+is only true when they don't become extra-long.  Quickly-pitched games
+can grab and hold your attention much better.
+
+Bring back the two-hour baseball game!  (And the three and a half hour
+golf game with it!)
+-- 
+|----------------------------------------------------------------------------|
+| Michael Zimmers                                    |  Voice:  408 996 1965 |
+| SoftHelp -- Suppliers to Software Developers       |  Data:   408 996 1974 |
+|----------------------------------------------------------------------------|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat        howev polici tri
+speed game first person non mediot seen endors
+polici problem length game tire espn crowd announc
+bitch never ballpark fill peopl look watch shout
+hurri cough big buck ticket don't mind game last
+realli don't understand  agre nick what big deal
+long game want watch basebal there much basebal
+watch yes basebal includ space play well play
+first longer game way suggest basebal watch unless
+includ watch grass grow basebal lengthier game
+batter step box pitcher take longer pitch excess
+trip mound manag pitch coach  it true gap play
+interest true don't becom extra long quick pitch
+game grab hold attent much better  bring back two
+hour basebal game three half hour golf game
+michael zimmer voic softhelp supplier softwar
+develop data
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.465601255337
+watch, 9655, 0.318493532443
+basebal, 924, 0.310566690394
+polici, 6721, 0.179767881653
+pitch, 6643, 0.168220042475
+length, 5212, 0.1520611311
+play, 6681, 0.151966767876
+hour, 4395, 0.138297652024
+longer, 5337, 0.13718042504
+zimmer, 9987, 0.116345942619
+softhelp, 8099, 0.116345942619
+supplier, 8575, 0.113545451032
+golf, 3937, 0.113545451032
+true, 9121, 0.109585182254
+cough, 2175, 0.107317434752
+includ, 4579, 0.105707287477
+grass, 4003, 0.105699078465
+big, 1082, 0.104642853694
+don, 2811, 0.10452135496
+shout, 7913, 0.10053080498
+bitch, 1123, 0.10053080498
+hurri, 4449, 0.0994710621853
+gap, 3769, 0.0994710621853
+endors, 3096, 0.0994710621853
+mediot, 5611, 0.0984797390053
+excess, 3263, 0.0975485340161
+long, 5336, 0.0967958333367
+mound, 5885, 0.0966705705987
+ballpark, 883, 0.0958400884498
+crowd, 2245, 0.0943027887
+grab, 3973, 0.0916246896185
+espn, 3192, 0.0910222524787
+coach, 1856, 0.0888241980319
+tire, 8948, 0.088320540513
+buck, 1359, 0.088320540513
+nick, 6052, 0.087832874852
+trip, 9104, 0.0832944919153
+ticket, 8919, 0.0812881426479
+grow, 4066, 0.0812881426479
+attent, 766, 0.0792370766733
+voic, 9567, 0.0774279082666
+batter, 949, 0.0730090603933
+extra, 3325, 0.0716117176766
+step, 8377, 0.0709579944186
+announc, 524, 0.0704853362606
+michael, 5680, 0.0700267894293
+half, 4124, 0.0695815356999
+hold, 4341, 0.0671511867977
+updat, 9333, 0.0665391465452
+brave, 1277, 0.0657213013186
+quick, 7036, 0.0654954122753
+bring, 1316, 0.0649448093065
+box, 1254, 0.0627323389243
+unless, 9289, 0.0625461526675
+speed, 8217, 0.0624538990682
+deal, 2418, 0.0620903275831
+becom, 983, 0.0615606137761
+pitcher, 6644, 0.0610485604231
+non, 6097, 0.0608816003215
+mind, 5733, 0.0598384721072
+agre, 337, 0.0594554054186
+manag, 5472, 0.0586448482668
+suggest, 8525, 0.0585732389151
+develop, 2588, 0.057206989687
+seen, 7767, 0.0570121433773
+data, 2385, 0.0568836055718
+yes, 9951, 0.0559524005826
+understand, 9246, 0.0550744371652
+howev, 4406, 0.0529524233595
+softwar, 8103, 0.051264854695
+person, 6562, 0.051176323164
+problem, 6887, 0.0483244228529
+better, 1060, 0.0459514048273
+realli, 7150, 0.0455790186348
+tri, 9087, 0.0444845681723
+space, 8164, 0.0435701667927
+want, 9634, 0.0418419125932
+peopl, 6530, 0.0416745626937
+way, 9666, 0.0401803490258
+look, 5341, 0.0383328759157

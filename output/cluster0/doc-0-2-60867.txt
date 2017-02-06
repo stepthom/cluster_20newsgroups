@@ -1,0 +1,158 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60867
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: David.Anderman@ofa123.fidonet.org
+Subject: LRDPA news
+X-Sender: newtout 0.08 Feb 23 1993
+Lines: 28
+
+        Many of you at this point have seen a copy of the 
+Lunar Resources Data Purchase Act by now. This bill, also known as the Back to 
+the Moon bill, would authorize the U.S. 
+government to purchase lunar science data from private 
+and non-profit vendors, selected on the basis of competitive bidding, with an 
+aggregate cap on bid awards of $65 million. 
+        If you have a copy of the bill, and can't or don't want to go through 
+all of the legalese contained in all Federal legislation,don't both - you have 
+a free resource to evaluate the bill for you. Your local congressional office, 
+listed in the phone book,is staffed by people who can forward a copy of the
+bill to legal experts. Simply ask them to do so, and to consider supporting
+the Lunar Resources Data Purchase Act. 
+        If you do get feedback, negative or positive, from your congressional 
+office, please forward it to: David Anderman
+3136 E. Yorba Linda Blvd., Apt G-14, Fullerton, CA 92631,
+or via E-Mail to: David.Anderman@ofa123.fidonet.org. 
+        Another resource is your local chapter of the National Space Society. 
+Members of the chapter will be happy to work with you to evaluate and support 
+the Back to the Moon bill. For the address and telephone number of the nearest 
+chapter to you, please send E-mail, or check the latest issue of Ad Astra, in 
+a library near you.
+        Finally, if you have requested, and not received, information about
+the Back to the Moon bill, please re-send your request. The database for the
+bill was recently corrupted, and some information was lost. The authors of the 
+bill thank you for your patience.
+
+
+--- Maximus 2.01wb
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lrdpa news sender newtout   mani point seen copi
+lunar resourc data purchas act bill also known
+back moon bill author govern purchas lunar scienc
+data privat non profit vendor select basi competit
+bid aggreg cap bid award million copi bill can't
+don't want legales contain feder legisl don't free
+resourc evalu bill local congression offic list
+phone book staf peopl forward copi bill legal
+expert simpli ask consid support lunar resourc
+data purchas act get feedback negat posit
+congression offic pleas forward david anderman
+yorba linda blvd apt fullerton  anoth resourc
+local chapter nation space societi member chapter
+happi work evalu support back moon bill address
+telephon number nearest chapter pleas send mail
+check latest issu astra librari near final request
+receiv inform back moon bill pleas send request
+databas bill recent corrupt inform lost author
+bill thank patienc   maximus 01wb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+resourc, 7320, 0.284932479584
+purchas, 6988, 0.242771476761
+chapter, 1658, 0.237932442091
+congression, 2041, 0.221566931103
+lunar, 5392, 0.215892947341
+bid, 1078, 0.212944211713
+copi, 2130, 0.197663386736
+moon, 5851, 0.182535719998
+evalu, 3226, 0.171392692125
+data, 2385, 0.166499747045
+request, 7301, 0.14211152458
+forward, 3621, 0.136064764997
+act, 249, 0.133843520402
+offic, 6206, 0.132791725268
+pleas, 6688, 0.132259197999
+local, 5322, 0.127586494491
+author, 796, 0.122966122966
+send, 7785, 0.115145249121
+aggreg, 333, 0.113515835368
+linda, 5282, 0.110783465552
+astra, 721, 0.110783465552
+support, 8576, 0.103232186666
+apt, 596, 0.103127955471
+blvd, 1182, 0.100395585655
+newtout, 6038, 0.0991960221892
+maximus, 5561, 0.0991960221892
+feedback, 3428, 0.0991960221892
+01wb, 4, 0.0991960221892
+inform, 4637, 0.0985155932737
+patienc, 6464, 0.0980853998917
+legisl, 5202, 0.0960842259593
+nearest, 5984, 0.0935087847265
+corrupt, 2160, 0.0913117054841
+cap, 1497, 0.0913117054841
+competit, 1970, 0.0882425452511
+vendor, 9458, 0.0871716224281
+sender, 7786, 0.0871716224281
+award, 832, 0.0871716224281
+negat, 5996, 0.084787792572
+telephon, 8763, 0.0835205696562
+expert, 3298, 0.0827316220905
+feder, 3425, 0.0805870351708
+databas, 2386, 0.079935343679
+profit, 6903, 0.0796198258607
+latest, 5141, 0.0787112723703
+legal, 5200, 0.0750761120101
+privat, 6879, 0.0729315250904
+basi, 936, 0.071412601596
+societi, 8093, 0.0710557622899
+happi, 4161, 0.0705359456902
+select, 7774, 0.0700335564307
+million, 5724, 0.0692319459637
+don, 2811, 0.0679859200071
+librari, 5250, 0.0665256170622
+member, 5625, 0.0663958626342
+lost, 5355, 0.0662672219919
+contain, 2079, 0.0658877955786
+phone, 6601, 0.0657634252149
+receiv, 7167, 0.0655177386828
+govern, 3966, 0.0625436451934
+simpli, 7967, 0.0613902652555
+issu, 4793, 0.0611152751033
+check, 1682, 0.0611152751033
+free, 3668, 0.061024721699
+near, 5982, 0.060667882393
+david, 2397, 0.0604925991923
+known, 5054, 0.059894766082
+recent, 7168, 0.0595635582855
+non, 6097, 0.0594006594772
+nation, 5962, 0.0590009946505
+posit, 6761, 0.0588440660668
+final, 3482, 0.0588440660668
+address, 264, 0.0582322854982
+scienc, 7692, 0.0560079827372
+seen, 7767, 0.0556253268136
+list, 5298, 0.0548881351131
+book, 1218, 0.0536793519963
+consid, 2059, 0.0525608316524
+ask, 689, 0.0519080482051
+news, 6031, 0.0517613598287
+mail, 5447, 0.0515200254217
+number, 6156, 0.0487318990701
+anoth, 533, 0.0483008838183
+space, 8164, 0.0425103254079
+mani, 5479, 0.0425103254079
+work, 9833, 0.0424579248552
+point, 6710, 0.0423018136226
+thank, 8832, 0.0419690500684
+want, 9634, 0.0408241108758
+peopl, 6530, 0.0406608317514

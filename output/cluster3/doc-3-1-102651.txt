@@ -1,0 +1,181 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102651
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: bodom@silver.ucs.indiana.edu (Brian Odom)
+Subject: Re: New Uniforms
+Article-I.D.: usenet.C51vwC.Lru
+Organization: Indiana University
+Lines: 37
+Nntp-Posting-Host: silver.ucs.indiana.edu
+
+In <1993Apr5.224631.636@Virginia.EDU> tek2q@Virginia.EDU ("Todd Karlin") writes:
+
+>	Usually one or two teams changes their logo or a minor
+>uniform change per season, but the past few seasons have been
+>incredible.
+>	Any thoughts on the new (old) Reds uniforms.  I
+>remember seeing a Pete Rose rookie card, and unless I miss my
+>guess he was wearing the exact same duds.  
+>	The Mets (HOW ABOUT DOC'S PERFORMANCE TODAY?!!!!!) have
+>reinserted the Mets patch on the shoulder, and changed the Mets
+>insgnia on the front of the jersey.  To my knowledge it is the
+>first time that has been changed since 1962, and it reminds me
+>a little of the Dodger logo.  
+
+As far as I know, Toronto, Pittsburgh, and New York (NL) change their
+uniforms every year.  Every other year (e.g., New York), it will say Mets
+in cursive, New York in cursive, or New York in all caps.  Minor changes,
+but they do change them often.  Last year, I think they had New York in all
+caps.  Did Toronto have Blue Jays or Toronto last year?  What about
+Pittsburgh?
+
+>	Many teams have opted for a return to a previous style
+>of uniform, or at least uniforms that look more traditional.
+>(Phillies, Reds, Expos, White Sox, Padres, etc.) and the once
+>bright colors have been altered to gray.  The trend has also
+>seen the newer baseball fields resembling the parks of the
+>early years, as opposed to the cookie-cutter saucer stadiums
+>construcrted throughout the sixties.
+
+I hate the gray.  They should opt for more color (like the White Sox).
+I hate white team versus gray team.  Spring training uniforms look much
+better.
+
+>	With salaries now reaching unbelievable highs, no one
+>in the comissioner's office, and inter-league play on the
+>horizon, it's nice to see that baseball at least looks like it
+>was meant to be. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new uniform articl usenet c51vwc lru       usual
+one two team chang logo minor uniform chang per
+season past season incred thought new old red
+uniform rememb see pete rose rooki card unless
+miss guess wear exact dud met doc perform today
+reinsert met patch shoulder chang met insgnia
+front jersey knowledg first time chang sinc remind
+littl dodger logo  far know toronto pittsburgh new
+york chang uniform everi year everi year new york
+say met cursiv new york cursiv new york cap minor
+chang chang often last year think new york cap
+toronto blue jay toronto last year pittsburgh
+mani team opt return previous style uniform least
+uniform look tradit philli red expo white sox padr
+etc bright color alter gray trend also seen newer
+basebal field resembl park earli year oppos cooki
+cutter saucer stadium construcrt throughout sixti
+hate gray opt color like white sox hate white team
+versus gray team spring train uniform look much
+better  salari reach unbeliev high one comission
+offic inter leagu play horizon it nice see basebal
+least look like meant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uniform, 9273, 0.452213849462
+chang, 1650, 0.284142666104
+york, 9960, 0.267165369132
+new, 6023, 0.230366126564
+met, 5655, 0.200995364821
+gray, 4011, 0.192763000744
+cursiv, 2301, 0.182689438057
+opt, 6272, 0.160527467246
+team, 8732, 0.15004637219
+logo, 5332, 0.146323968809
+white, 9737, 0.145268061023
+year, 9943, 0.141964643376
+toronto, 9003, 0.14144511665
+cap, 1497, 0.137670206608
+pittsburgh, 6648, 0.127179158035
+hate, 4202, 0.113898038136
+sox, 8162, 0.104380662415
+minor, 5745, 0.103914766807
+color, 1907, 0.090813688788
+red, 7194, 0.0904296262305
+dud, 2906, 0.0880946111869
+cutter, 2316, 0.0880946111869
+season, 7747, 0.0870192238197
+look, 5341, 0.0845826678126
+cooki, 2123, 0.0835138414642
+saucer, 7643, 0.0802637336228
+everi, 3235, 0.0773895612179
+jersey, 4855, 0.0766659808682
+basebal, 924, 0.0761416598958
+sixti, 7998, 0.0756829639
+unbeliev, 9217, 0.0717479452574
+trend, 9084, 0.0717479452574
+versus, 9480, 0.0711021941773
+horizon, 4374, 0.0711021941773
+inter, 4703, 0.0699118765632
+shoulder, 7911, 0.0693606663546
+salari, 7589, 0.0683329064836
+patch, 6459, 0.0678520863359
+newer, 6028, 0.0678520863359
+doc, 2783, 0.0665214244545
+padr, 6379, 0.0653311068404
+rooki, 7475, 0.0649606615799
+wear, 9676, 0.0639170676933
+incred, 4591, 0.0639170676933
+style, 8479, 0.0629617748329
+expo, 3309, 0.0629617748329
+rose, 7481, 0.062660488492
+alter, 449, 0.062660488492
+pete, 6574, 0.062080998999
+usenet, 9365, 0.0605020289194
+resembl, 7308, 0.0602590610986
+stadium, 8300, 0.0600212087718
+bright, 1311, 0.0595600195035
+remind, 7270, 0.0593362979706
+dodger, 2791, 0.0582796809491
+tradit, 9037, 0.0580797187693
+meant, 5598, 0.0571297840158
+spring, 8266, 0.0562535645717
+train, 9042, 0.0554404390491
+oppos, 6269, 0.0551308972688
+philli, 6593, 0.0542501214349
+previous, 6855, 0.0529194595535
+park, 6430, 0.0520732569141
+blue, 1176, 0.0520732569141
+jay, 4832, 0.050448803385
+knowledg, 5053, 0.0503483798951
+offic, 6206, 0.0500523568053
+reach, 7128, 0.0491181415036
+card, 1513, 0.0485073133825
+return, 7346, 0.0482553125651
+past, 6456, 0.0477675720079
+miss, 5770, 0.0477675720079
+usual, 9377, 0.047688290502
+like, 5272, 0.0475766387642
+earli, 2951, 0.0468510506304
+unless, 9289, 0.0460033354977
+perform, 6539, 0.0458680336623
+nice, 6047, 0.0457343330696
+leagu, 5176, 0.0453424706117
+exact, 3253, 0.0448402737912
+guess, 4079, 0.0437858498336
+today, 8964, 0.0431868022852
+old, 6216, 0.0427192499819
+field, 3466, 0.042517502331
+seen, 7767, 0.0419330150197
+rememb, 7269, 0.0416055263441
+thought, 8887, 0.0394310390076
+high, 4292, 0.0382065381049
+littl, 5308, 0.0379701080187
+far, 3386, 0.0377385245729
+play, 6681, 0.0372577044253
+articl, 665, 0.0364115017859
+sinc, 7977, 0.0344394033435
+better, 1060, 0.0337977286005
+mani, 5479, 0.0320463036522
+say, 7653, 0.0286829977088
+time, 8936, 0.0268432567999
+think, 8871, 0.0258748133117
+know, 5052, 0.0243347677072

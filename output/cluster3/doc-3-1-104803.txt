@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104803
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker)
+Subject: Re: Braves Pitching UpdateDIR
+Organization: University of Virginia
+Lines: 34
+
+In article <8994@blue.cis.pitt.edu> traven@pitt.edu (Neal Traven) writes:
+>
+>One of the chapters in Palmer and Thorn's 'Hidden Game' is titled
+>'Pitching is 44% of Baseball,' implying that fielding is 6%.  How do
+>they determine that?  Beats me -- it's been a long, long time since I
+>read it.
+
+This was (my opinion) the stupidest thing in the Hidden Game. The
+argument was
+
+1) Defense, or runs allowed, is 50% of the game.
+2) Unearned runs amount to 12% of the runs allowed; earned runs, 88%.
+
+3) Since unearned runs are the result of fielding, not pitching, and
+earned runs are the product of pitching, not fielding, fielding is 12%
+of defense and pitching is 88% of defense.
+4) Caombining with #1, pitching is 44% of the game, fielding 6%.
+
+Pete is usually sharper than that. My own feel is that fielding is in
+the 25-33% of defense range; call it 30-70 between fielding and
+pitching.
+
+>One also has to separate offense into batting and baserunning, with the
+>split probably somewhere around 49.5% and 0.5%.
+
+I'd give baserunning a little more credit than that, maybe 45-5, or
+even 40-10. Give a team of Roberto Alomar and a team of John Oleruds
+identical batting stats (which wouldn't be that unreasonable), and
+even if you don't let Roberto steal a single base, they'll score a lot
+more than the Oleruds by going first-to-third more often. (No offense,
+Gordon).
+
+Clay D.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave pitch updatedir      one chapter palmer
+thorn hidden game titl pitch basebal impli field
+determin beat it long long time sinc read  opinion
+stupidest thing hidden game argument  defens run
+allow game unearn run amount run allow earn run
+sinc unearn run result field pitch earn run
+product pitch field field defens pitch defens
+caombin pitch game field  pete usual sharper feel
+field defens rang call field pitch  one also separ
+offens bat baserun split probabl somewher around
+i'd give baserun littl credit mayb even give team
+roberto alomar team john olerud ident bat stat
+wouldn't unreason even don't let roberto steal
+singl base they'll score lot olerud go first third
+often offens gordon  clay
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+field, 3466, 0.395794699798
+pitch, 6643, 0.383925920801
+run, 7543, 0.271538968755
+defens, 2476, 0.259865863329
+unearn, 9258, 0.227600991249
+baserun, 932, 0.21749058996
+roberto, 7438, 0.201294689309
+olerud, 6221, 0.190828683298
+game, 3761, 0.182165883668
+hidden, 4286, 0.170000824754
+earn, 2954, 0.168283314546
+offens, 6202, 0.141425653132
+bat, 942, 0.12346169853
+allow, 432, 0.115147819454
+thorn, 8883, 0.106739102764
+clay, 1796, 0.103386566353
+team, 8732, 0.0997699360448
+updatedir, 9334, 0.0983313657079
+unreason, 9305, 0.0963251734917
+gordon, 3954, 0.0963251734917
+long, 5336, 0.0946781087521
+sinc, 7977, 0.0915988042589
+ident, 4484, 0.0908728363118
+palmer, 6401, 0.0868808789717
+steal, 8362, 0.0833293446302
+pete, 6574, 0.082558707809
+alomar, 436, 0.081126755838
+credit, 2225, 0.0801357951434
+chapter, 1658, 0.0795096993804
+impli, 4546, 0.0783307320904
+split, 8247, 0.0777742194272
+beat, 974, 0.0737277280014
+titl, 8953, 0.0723337637222
+separ, 7797, 0.071411749055
+somewher, 8130, 0.0702091774802
+stat, 8341, 0.068202985264
+rang, 7094, 0.0679168028185
+determin, 2582, 0.0654397057155
+score, 7705, 0.0649664658321
+brave, 1277, 0.0642834334814
+usual, 9377, 0.0634184968822
+product, 6896, 0.0629021531406
+wouldn, 9854, 0.0628009802053
+argument, 631, 0.0627004840171
+singl, 7983, 0.0623050895105
+feel, 3429, 0.0590700827013
+result, 7332, 0.0583033794117
+john, 4878, 0.0568103950314
+opinion, 6266, 0.0562785120854
+mayb, 5564, 0.0525900827275
+basebal, 924, 0.0506286718383
+littl, 5308, 0.0504947263081
+probabl, 6885, 0.0491356874579
+ll, 5314, 0.0475933987062
+let, 5225, 0.0474475322778
+base, 923, 0.0470182423837
+lot, 5356, 0.0468778289868
+read, 7135, 0.0457345030043
+thing, 8869, 0.0410445062806
+time, 8936, 0.0356976310065
+don, 2811, 0.0340782031301

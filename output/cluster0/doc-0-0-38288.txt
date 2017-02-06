@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38288
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sts@mfltd.co.uk (Steve Sherwood (x5543))
+Subject: Re: Virtual Reality for X on the CHEAP!
+Reply-To: sts@mfltd.co.uk
+Organization: Micro Focus Ltd, Newbury, England
+Lines: 19
+
+Has anyone got multiverse to work ?
+
+I have built it on 486 svr4, mips svr4s and Sun SparcStation.
+
+There seems to be many bugs in it.  The 'dogfight' and 'dactyl' simply do nothing
+(After fixing a bug where a variable is defined twice in two different modules - One needed
+setting to static - else the client core-dumped)
+
+Steve
+-- 
+
+         Extn 5543, sts@mfltd.co.uk, !uunet!mfocus!sts
++-----------------------------------+------------------------+ Micro Focus
+| Just like Pariah, I have no name, |    rm -rf *            | 26 West Street
+| Living in a blaze of obscurity,   |      "rum ruff splat"  | Newbury
+| Need courage to survive the day.  |                        | Berkshire
++-----------------------------------+------------------------+ England
+         (A)bort (R)etry (I)nfluence with large hammer
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ virtual realiti cheap     anyon got multivers
+work  built svr4 mip svr4s sun sparcstat  seem
+mani bug dogfight dactyl simpli noth fix bug
+variabl defin twice two differ modul one need set
+static els client core dump  steve    micro focus
+like pariah name west street live blaze obscur rum
+ruff splat newburi need courag surviv day berkshir
+england bort etri nfluenc larg hammer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bug, 1373, 0.231661223572
+rum, 7540, 0.178039288846
+ruff, 7532, 0.178039288846
+nfluenc, 6042, 0.178039288846
+newburi, 6026, 0.178039288846
+etri, 3213, 0.178039288846
+bort, 1235, 0.178039288846
+berkshir, 1040, 0.178039288846
+svr4s, 8617, 0.172944387006
+pariah, 6428, 0.172944387006
+splat, 8243, 0.168781549095
+dogfight, 2797, 0.165261919791
+dactyl, 2332, 0.165261919791
+multivers, 5923, 0.162213078209
+mip, 5748, 0.159523809344
+hammer, 4141, 0.15711817637
+static, 8345, 0.15494201664
+courag, 2188, 0.15494201664
+blaze, 1147, 0.15494201664
+sparcstat, 8185, 0.151127771692
+obscur, 6178, 0.146386867573
+micro, 5684, 0.140177969404
+variabl, 9427, 0.137129127823
+client, 1816, 0.137129127823
+england, 3110, 0.132808279623
+dump, 2916, 0.132034225983
+twice, 9170, 0.128514596679
+focus, 3569, 0.128514596679
+svr4, 8616, 0.127245803854
+need, 5993, 0.122778474825
+surviv, 8599, 0.12227465514
+modul, 5815, 0.121783616954
+core, 2140, 0.119040434497
+street, 8440, 0.116591762121
+virtual, 9536, 0.115830611786
+cheap, 1677, 0.115830611786
+fix, 3511, 0.112364516846
+west, 9708, 0.109926748193
+realiti, 7148, 0.106950275597
+steve, 8390, 0.101754121283
+defin, 2482, 0.100192323162
+built, 1381, 0.10000440115
+sun, 8539, 0.0943914000332
+simpli, 7967, 0.0935296979346
+larg, 5124, 0.0845555940749
+live, 5310, 0.0837150428769
+noth, 6119, 0.0830820250288
+set, 7815, 0.0817819169968
+els, 3053, 0.0789340567993
+got, 3960, 0.0749204507631
+differ, 2633, 0.0703046559742
+day, 2402, 0.0677061721018
+mani, 5479, 0.0647656086507
+work, 9833, 0.0646857750183
+anyon, 554, 0.0613547734125
+like, 5272, 0.0480762149757

@@ -1,0 +1,3601 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38376
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: nfotis@ntua.gr (Nick C. Fotis)
+Subject: (17 Apr 93) Computer Graphics Resource Listing : WEEKLY [part 3/3]
+Lines: 1529
+Reply-To: nfotis@theseas.ntua.gr (Nick (Nikolaos) Fotis)
+Organization: National Technical Univ. of Athens
+
+Archive-name: graphics/resources-list/part3
+Last-modified: 1993/04/17
+
+
+Computer Graphics Resource Listing : WEEKLY POSTING [ PART 3/3 ]
+===================================================
+Last Change : 17 April 1993
+
+
+11. Scene generators/geographical data/Maps/Data files
+======================================================
+
+DEMs (Digital Elevation Models)
+-------------------------------
+  DEMs (Digital Elevation Models) as well as other cartographic data
+  [huge] is available from spectrum.xerox.com [192.70.225.78], /pub/map.
+
+  Contact:
+  Lee Moore -- Webster Research Center, Xerox Corp. --
+  Voice: +1 (716) 422 2496
+  Arpa, Internet:  Moore.Wbst128@Xerox.Com
+[ Check also on ncgia.ucsb.edu (128.111.254.105), /pub/dems -- nfotis ]
+
+  Many of these files are also available on CD-ROM selled by USGS:
+  "1:2,000,000 scale  Digital Line Graph (DLG) Data". Contains datas
+  for all 50 states. Price is about $28, call to or visit in offices
+  in Menlo Park, in Reston, Virginia (800-USA-MAPS).
+
+  The Data User Services Division of the Bureau of the Census also has
+  data on CD-ROM (TSO standard format) that is derived from USGS
+  1:100,000 map data. Call (301) 763-4100 for more info or they have
+  a BBS at (301) 763-1568.
+
+[ From Dr.Dobbs #198 March 1993: ]
+
+      "The U.S. Defense Mapping Agency, in cooperation with their counterpart
+agencies in CANADA, the U.K., and Australia, have released the Digital Chart
+of the World (DCW). This chart consists of over 1.5 gigabytes of reasonable
+quality vector data distributed on four CD-ROMS. .... includes coastlines,
+rivers, roads, railrays, airports,cities, towns, spot elevations, and depths,
+and over 100,000 place names."
+
+It is ISO9660 compatible and only $200.00 available from:
+
+U.S. Geological Survey
+P.O. Box 25286
+Denver Federal Center
+Denver, CO 80225
+
+Digital Distribution Services
+Energy, Mines, and Resources Canada
+615 Booth Street
+Ottawa, ON
+K1A 0E9 Canada
+
+Director General of Military Survey
+(Survey 3)
+Elmwood Avenue
+Feltham, Middlesex
+TW13 7AH United Kingdom
+
+Director of Survey, Australian Army
+Department of Defense
+Campbell Park Offices (CP2-4-24)
+Campbell ACT 2601 Australia
+
+
+Fractal Landscape Generators
+----------------------------
+
+Public Domain:
+
+  Many people have written fractal landscape generators. for example
+  for the Mac some of these generators were written by
+  pdbourke@ccu1.aukuni.ac.nz (Paul D. Bourke).
+  Many of the programs are available from the FTP sites and mail
+  archive servers. Check with Archie.
+
+Commercial:
+
+  Vista Pro 3.0 for the Amiga from Virtual Reality Labs -- list price
+  is about $100. Their address is:
+	VRL
+	2341 Ganador court
+	San Luis Obispo,
+	CA 93401
+	Telephone or FAX (805) 545-8515
+
+  Scenery Animator (also for the Amiga) is of the same caliber with Vista Pro 2.
+  Check with:
+	Natural Graphics
+	P.O. Box 1963
+	Raklin, CA 95677
+	Phone (916) 624-1436
+
+  Don't forget to ask about companion programs and data disks/tapes.
+
+  Vista Pro 3 has been ported to the PCs.
+
+
+CIA World Map II
+----------------
+[  NOTE: this database is quite out of date, and not topologically structured.
+  If you need a standard for world cartographic data, wait for the
+  Digital Chart of the World. This 1:1M database has been produced from
+  the Defense Mapping Agency's ONCs and will be available, together with
+  searching and viewing software, on a number of CD-ROMs later this summer. ]
+
+  Check into HANAUMA.STANFORD.EDU and UCSD.EDU (see ftp list above)
+  The CIA database consists of coastlines, rivers and political boundaries
+  in the form of line strokes. Also on hanauma.stanford.edu is a 720x360
+  array of elevation data, containing one ieee floating point number for
+  every half degree longitude and latitude.
+ 
+  A program for decoding the database, mfil, can be found on the machine
+  pi1.arc.umn.edu (137.66.130.11).
+  There's another program, which reads a compressed CIA Data Bank file and
+  builds a PHIGS hierachical structure. It uses a PHIGS extension known as
+  polyline sets for performance, but you can use regular polylines. Ask
+  Joe Stewart <joes@lpi.liant.com>.
+  The raw data at Stanford require the vplot package to be able to view it.
+  (was posted in comp.sources.unix). To be more exact, you'll have to
+  compile just the libvplot routines, not the whole package.
+
+NCAR data
+---------
+  NCAR (National Center for Atmospheric Research) has many types of
+  terrain  data, ranging from elevation datasets at
+  various resolutions, to information about soil types, vegetation, etc.
+  This data is not free -- they charge from $40 to $90 or more, depending
+  on the data volume and media (exabyte tape, 3480 cartridge, 9-track tape,
+  IBM PC floppy, and FTP transfer are all available).  Their data archive
+  is mostly research oriented, not hobbyist oriented.  For more information,
+  email to ilana@ncar.ucar.edu.
+
+UNC data tapes with voxel data
+--------------
+  There are 2 "public domain" tapes with data for the comparison and
+  testing of various volume rendering algorithms (mainly MRI and CT
+  scans). These tapes are distributed by the SoftLab of UNC @ Chapel Hill.
+  (softlab@cs.unc.edu)
+
+  The data sets (volume I and II) are also available via anonymous FTP from
+  omicron.cs.unc.edu [128.109.136.159] in pub/softlab/CHVRTD
+
+NASA
+----
+  Many US agencies such as NASA publish CD-ROMs with many altimetry data
+  from various space missions, eg. Viking for Mars, Magellan for Venus,
+  etc. Especially for NASA, I would suggest to call the following
+  address for more info:
+
+     National Space Science Date Center
+     Goddard Space Flight Center
+     Greenbelt, Maryland 20771
+     Telephone: (301) 286-6695
+     Email address:  request@nssdca.gsfc.nasa.gov
+
+  The data catalog (*not* the data itself) is available online.
+  Internet users can telnet to nssdca.gsfc.nasa.gov (128.183.10.4) and log
+  in as 'NODIS' (no password).
+
+  You can also dial in at (301)-286-9000 (300, 1200, or 2400 baud, 8 bits,
+  no parity, one stop). At the "Enter Number:" prompt, enter MD and
+  carriage return. When the system responds "Call Complete," enter a few
+  more carriage returns to get the "Username:" and log in as 'NODIS' (no
+  password).
+
+  NSSDCA is also an anonymous FTP site, but no comprehensive list of
+  what's there is available at present.
+
+Earth Sciences Data
+-------------------
+
+  There's a listing of anonymous FTP sites for earth science data, including
+  imagery. This listing is called "Earth Sciences Resources on Internet",
+  and you can get it via anonymous FTP from csn.org [128.138.213.21]
+  in the directory COGS under the name "internet.resources.earth.sci"
+
+  Some sites include:
+  aurelie.soest.hawaii.edu [128.171.151.121]: pub/avhrr/images - AVHRR images
+  ames.arc.nasa.gov [128.102.18.3]: pub/SPACE/CDROM  - images from
+        Magellan and Viking missions etc.
+        pub/SPACE/Index contains a listing of files available in the whole
+        archive (the index is about 200K by itself). There's also an
+        e-mail server for the people without Internet access: send a letter
+        to archive-server@ames.arc.nasa.gov (or ames!archive-server). In the
+        subject of your letter (or in the body), use commands like:
+
+        send SPACE Index
+        send SPACE SHUTTLE/ss01.23.91
+
+        (Capitalization is important! Only text files are handled by the
+        email server at present)
+
+  vab02.larc.nasa.gov [128.155.23.47]: pub/gifs/misc/landsat -
+	Landsat photos in GIF and JPEG format
+[ It was shut down - nfotis; anyone has a copy of this archive?? ]
+
+Others
+------
+  Daily values of river discharge, streamflow, and daily weather data is
+  available from EarthInfo, 5541 Central Ave., Boulder CO  80301.  These
+  disks are expensive, around $500, but there are quantity discounts.
+  (303) 938-1788.
+
+  Check vmd.cso.uiuc.edu [128.174.5.98], the wx directory carries
+  data regarding surface analysis, weather radar, and sat view pics in
+  GIF format (updated hourly)
+
+  pioneer.unm.edu [129.24.9.217] is the Space and Planetary Image Facility
+  (located on the University of New Mexico campus) FTP server. It provides
+  Anonymous FTP access to >150 CD-ROMS  with data/images.
+
+  A disk with earthquake data, topography, gravity, geopolitical info
+  is available from NGDC (National Geophysical Data Center), 325 Broadway,
+  Boulder, CO  80303.  (303) 497-6958.
+
+  EOSAT (at least in the US) now sells Landsat MSS data older than two years
+  old for $200 per scene, and they have been talking about a similar deal
+  for Landsat TM data. The MSS data are 4 bands, 80 meter resolution.
+
+  Check out anonymous FTP to ftp.ncsa.uiuc.edu in
+  UNIX/PolyView/alpha-shape for a tool that creates convex hulls
+  alpha-shapes (a generalization of the convex hull) from 3D point sets.
+
+  The GRIPS II (Gov. Raster Image Processing Software) CD-ROM
+  is available from CD-ROM Inc. at 1-800-821-5245 for $49.
+  Code for viewing ADRG (Arc Digitised Raster Graphics) files is
+  available on the GRIPS II CD-ROM. The U.S. Army Engineer 
+  Topographic Labs (Juan Perez) code is also available via FTP
+  ( adrg.zip archive in  spectrum.xerox.com )
+
+NRCC range data
+---------------
+  Rioux M., Cournoyer L. "The NRCC Three-Dimensional Image Data Files",
+  Tech. Report, CNRC 29077, National Research Council Canada,
+  Ottawa, Canada, 1988
+  [ From what I understand, these data are from a laser range finder,
+   and you can a copy for research purposes ]
+
+==========================================================================
+
+12. 3D scanners - Digitized 3D Data
+===================================
+
+a. Cyberware Labs, Monterey, CA, manufactures a 3D color laser digitizer
+  which can be used to model parts of, or a complete, human body.
+  They run a service bureau also, so they can digitize models for you.
+
+  Address:
+    Cyberware Labs, Inc
+    8 Harris Ct, Suite 3D
+    Monterey, CA 93940
+  Phone: (408)373-1441, Fax: (408)373-3582
+
+b. Polhemus makes a 6D input device (actually a couple of models)
+  that senses position (3D) and *orientation* (+3D) based on electromagnetic
+  field interference.  This equipment is also incorporated in the
+  VPL Dataglove.
+  This hardware is also called ISOTRACK, from Keiser Aerospace.
+
+Ascension Technology makes a similar 3D input device.
+There is a company, Applied Sciences(?), that makes a 3D input
+device (position only) based on speed of sound triangulation.
+
+c. A company that specializes in digitizing is Viewpoint. You can ask
+   for Viewpoint's _free_ 100 page catalog full of ready to 
+   ship datasets from categories such as cars, anatomy, aircraft,sports,
+   boats, trains, animals and others. Though these objects are
+   quite expensive, the cataloge is nevertheless of interest for it
+   has pictures of all the available objects in wireframe , polygon mesh.
+
+  Contact:
+
+  Viewpoint,
+  870 West Center,
+  Orem, Utah 84057
+  ph# 801-224-2222
+  fax# 801-224-2272
+  1-800-DATASET
+
+------
+
+  Some addresses for companies that make digitizers:
+
+  Ascension Technology
+  Bird, Flock of Birds, Big Bird: 6d trackers
+  P.O. Box 527,
+  Burlington, VT 05402
+  Phone: (802) 655-7879, Fax: (802) 655-5904
+
+  Polhemus Incorporated
+  Digitizer: 6d trackers
+  P.O. Box 560, Hercules Dr.
+  Colchester, Vt. 05446
+  Tel: (802) 655-3159
+
+  Logitech Inc.
+  Red Baron, ultrasonic 6D mouse
+  6506 Kaiser Dr.
+  Freemont, CA 94555
+  Tel: (415) 795-8500w
+
+  Shooting Star Technology
+  Mechanical Headtracker
+  1921 Holdom Ave.
+  Burnaby, B.C. Canada V5B 3W4
+  Tel: (604) 298-8574
+  Fax: (604) 298-8580
+
+  Spaceball Technologies, Inc.
+  Spaceball: 6d stationary input device
+  600 Suffolk Street
+  Lowell, MA, 01854
+  Tel: (508) 970-0330 
+  Fax: (508) 970-0199
+  Tel in Mountain View: (415) 966-8123 
+
+  Transfinite Systems 
+  Gold Brick: PowerGlove for Macintosh
+  P.O. Box N
+  MIT Branch Post Office
+  Cambridge, MA 02139-0903
+  Tel: (617) 969-9570
+  email: D2002@AppleLink.Apple.com
+
+  VPL Research, Inc.
+  EyePhone: head-mounted display
+  DataGlove: glove/hand input device
+  VPL Research Inc.
+  950 Tower Lane
+  14th Floor
+  Foster City, CA 94404
+  Tel: (415) 312-0200
+  Fax: (415) 312-9356
+
+  SimGraphics Engineering
+  Flying Mouse: 6d input device
+  1137 Huntington Rd. Suite A-1
+  South Pasadena, CA 91030-4563
+  (213) 255-0900
+
+========================================================================
+
+13. Background imagery/textures/datafiles
+=========================================
+
+ First, check in the FTP places that are mentioned in the FAQ or in the FTP
+list above.
+
+24-bit scanning:
+----------------
+  Get a good 24-bit scanner, like Epson's. Suggested is an SCSI port for
+  speed. Eric Haines had a suggestion in RT News, Volume 4, #3 :
+  scan textures for wallpapers and floor coverings, etc. from doll
+  house supplies.
+  So you have a rather cheap way to scan patterns that don't have
+  scaling troubles associated with real materials and scanning area.
+
+Books with textures:
+--------------------
+  Find some houses/books/magazines that carry photographic material.
+  Educorp, 1-619-536-9999, sells CD-ROMS with various imagery - also
+  a wide variety of stock art is available.
+  Stock art from big-name stock art houses, such as Comstock,
+  UNIPHOTO, and Metro Image Base, is available.
+
+  In Italy, there's a company called Belvedere that makes such books
+  for the purpose of clipping their pages for inclusion in your
+  graphics work. Their address is:
+	Edition Belvedere Co. Ltd.,
+	00196 Rome Italy,
+	Piazzale Flaminio, 19
+	Tel. (06) 360-44-88, Fax (06)  360-29-60
+
+Texture Libraries:
+------------------
+a. Mannikin Sceptre Graphics announced TexTiles, a set of 256x256 24-bit
+   textures. Initial shipments in 24-bit IFF (for Amigas), soon in 24-bit
+   TIFF format. Algorithmically built for tiled surfaces. SRP is $40 / volume
+   (each volume = 40 images @ 10 disks). Demo disks for $5 are available.
+
+   Contact:
+   Mannikin Sceptre Graphics
+   1600 Indiana Ave.
+   Winter Park, FL 32789
+   Phone: (407) 384-9484
+   FAX: (407) 647-7242
+
+b. ESSENCE is a library of 65 (sixty-five) new algoritmic textures for Imagine
+   by Impulse, Inc. These textures are FULLY compatible with the floating point
+   versions of Imagine 2.0, Imagine 1.1, and even Turbo Silver.
+   Written by Steve Worley.
+
+   For more info contact:
+   Essence Info
+   Apex Software Publishing
+   405 El Camino Real Suite 121
+   Menlo Park CA 94025 USA
+
+[ What about Texture City ?? ]
+
+==========================================================================
+
+14. Introduction to rendering algorithms
+========================================
+
+a. Ray-Tracing:
+---------------
+
+  I assume you have a general understanding of Computer Graphics. No? Then read
+  some of the books that the FAQ contains. For Ray-Tracing, I would
+  suggest:
+   An Introduction to Ray Tracing, Andrew Glassner (ed.), Academic Press
+     1989, ISBN 0-12-286160-4
+  Note that I have not read the book, but I feel that you can't be wrong
+  using his book. An errata list was posted in comp.graphics by Eric Haines
+  (erich@eye.com)
+
+There's a more concise reference also:
+
+  Roman Kuchkuda , UNC @ Chapel Hill: "An Introduction to Ray Tracing", in
+  "Theoretical Foundations for Computer Graphics and CAD", ed. R.A.E.Earnshaw,
+  NATO AS, Vol. F-40., pp. 1039-1060. Printed by Springer-Verlag, 1988.
+
+It contains code for a small, but fundamentally complete ray-tracer.
+
+b. Z-buffer (depth-buffer)
+--------------------------
+
+A good reference is:
+
+        _Procedural Elements for Computer Graphics_, David F. Rogers,
+        McGraw-Hill, New York, 1985, pages 265-272 and 280-284.
+
+c. Others:
+----------
+???
+[ More info is needed -- nfotis ]
+
+========================================================================
+
+15. Where can I find the geometric data for the:
+================================================
+
+a. Teapot ?
+-----------
+
+"Displays on Display" column of IEEE CG&A Jan '87 has the whole
+story about origin of the Martin Newell's teapot. The article also has
+the bezier patch model and a Pascal program to display the wireframe
+model of the teapot.
+
+IEEE CG&A Sep '87 in Jim Blinn's column "Jim Blinn's Corner" describes
+an another way to model the teapot; Bezier curves with rotations for
+example are used.
+
+The OFF and SPD packages have these objects, so you're advised to get
+them to avoid typing the data yourself.  The OFF data is triangles at
+a specific resolution (around 8x8[x4 triangles] meshing per patch).
+The SPD package provides the spline patch descriptions and performs a
+tessellation at any specified resolution.
+
+b. Space Shuttle ?
+------------------
+
+Tolis Lerios <tolis@nova.stanford.edu> has built a list of Space Shuttle
+datafiles. Here's a summary (From his sci.space list):
+
+model1:
+A modified version of the newsgroup model (model2)
+
+406 vertices (296 useful, i.e. referred to in the polygon descriptions.)
+389 polygons (233 3-vertex, 146 4-vertex, 7 5-vertex, 3 6-vertex).
+Payload doors non-existent.
+Units: unknown.
+
+Simon Marshall (S.Marshall@sequent.cc.hull.ac.uk) has a copy. He
+said there is no proprietary information associated with it.
+
+model2:
+The newsgroup model, in OFF format. You can find it in
+
+gondwana.ecr.mu.oz.au , file pub/off/objects/shuttle.geo
+hanauma.stanford.edu ,  /pub/graphics/Comp.graphics/objects/shuttle.data
+
+model3:
+The triangles' model.
+
+This model is stored in several files, each defining portions of the model.
+
+Greg Henderson (henders@infonode.ingr.com) has a copy.  He did
+not mention any restriction on the model's distribution.
+
+model4:
+The NASA model.
+
+The file starts off with a header line containing three real numbers,
+defining the offsets used by Lockheed in their simulations:
+
+<x offset> <y offset> <z offset>
+
+From then on, the file consists of a sequence of polygon descriptions
+
+3473 vertices.
+2748 polygons (407 3-vertex, 2268 4-vertex, 33 5-vertex, 14 6-vertex,
+ 10 7-vertex, 8 8-vertex, 8 12-vertex, 2 13-vertex, 2 15-vertex,
+ 17 16-vertex, 2 17-vertex, 2 18-vertex, 3 19-vertex, 8 24-vertex).
+Payload doors closed.
+Units: inches.
+
+Jon Berndt (jon@l14h11.jsc.nasa.gov) seems to be responsible for the model
+Proprietary info: unknown
+
+model5:
+The old shuttle model.
+
+The file consists of a sequence of polygon descriptions.
+
+104 vertices.
+452 polygons (11 3-vertex, 41 4-vertex).
+Payload doors open.
+Units: meters.
+
+We have been using this model at STAR Labs, Stanford University, for
+some years now. Contact me (tolis@nova.stanford.edu) or my supervisor
+Scott Williams (scott@star5.stanford.edu) if you want a copy.
+
+========================================================================
+
+16. Image annotation software
+=============================
+
+a. Touchup runs in Sunview and is pretty good.  It reads in
+  rasterfiles, but even if your image isn't normally stored
+  in rasterfile format you could use screendump to make it a
+  rasterfile.
+
+b. Idraw (part of Stanford's InterViews distribution) can handle some
+  image formats in addition to being a MacDraw like tool.  I'm not
+  sure exactly what they are.
+  You can ftp the idraw's binary from interviews.stanford.edu.
+
+c. Tgif is another MacDraw like tool that can handle X11 bitmap (xbm)
+  and X11 pixmap (xpm) formats.  If the image you have is in formats
+  other than xbm or xpm, you can get the pbmplus toolkit to convert
+  things like gif or even some Macintosh formats to xpm.
+  Tgif's sources are available in the pub directory on cs.ucla.edu
+  (Version 2.12 of tgif at patchlevel 7 plus patch8 and patch9)
+
+d. Use the editimage facility of KHOROS (see below).
+  This is just one utility in the overall system- you can essentially do all
+  your image processing and macdraw-type graphics using this package.
+
+e. You might be able to get by with PBMPlus.  pbmtext gives you text output
+  bitmaps which can be overlaid on top of your image.
+
+f. 'ice' requires Sun hardware running OpenWindows 3.It's a PostScript-based
+  graphical editor,and it's available for anonymous ftp from Internet host
+  eo.soest.hawaii.edu (128.171.151.12). Requires Sun C++ 2.0 and
+  two other locally developed packages, the LXT library (an Xlib-based
+  toolkit) and a small C++ class library. All files (pub/ice.tar.Z,
+  pub/lxt.tar.Z and pub/ldgoc++.tar.Z) are available in compressed
+  tar format. pub/ice.tar.Z contains a README that gives installation
+  instructions, as well as an extensive man page (ice.1).
+  A statically-linked compressed executable pub/ice-sun4.Z for
+  SPARC systems is also available for ftp.
+
+  All software is the property of Columbia University and may not
+  be redistributed without permission.
+
+  ice means Image Composition Environment and it's an imaging tool that
+  allows raster images to be combined with a wide variety of
+  PostScript annotations in WYSIWYG fashion via X11 imaging
+  routines and NeWS PostScript rasterizing.
+
+g. Use ImageMagick to annotate an image from your X server.  Pick the 
+  position of your text with the cursor and choose your font and pen 
+  color from a pull-down menu.  ImageMagick can read and write many
+  of the more popular image formats.  ImageMagick is available as
+  export.lcs.mit.edu: contrib/ImageMagick.tar.Z or at your nearest
+  X11 archive.
+
+========================================================================
+
+17. Scientific visualization stuff
+==================================
+
+X Data Slice (xds)
+-------------------
+  Bundled with the X11 distribution from MIT,
+  in the contrib directory. Available at ftp.ncsa.uiuc.edu [141.142.20.50]
+  (either as a source or binaries for various platforms).
+
+National Center for Supercomputing Applications (NCSA) Tool Suite
+-----------------------------------------------------------------
+
+Platforms: Unix Workstations (DEC, IBM, SGI, Sun)
+           Apple MacIntosh
+           Cray supercomputers
+
+Availability: Now available.  Source code in the public domain.
+              FTP from ftp.ncsa.uiuc.edu.
+
+Contact: National Center for Supercomputing Applications
+         Computing Applications Building
+         605 E. Springfield Ave.
+         Champaign, IL 61820
+
+Cost: Free (zero dollars).
+
+The suite includes tools for 2D image and 3D scene analysis and visualization.
+The code is actively maintained and updated.
+
+Spyglass
+--------
+  They sell commercial versions of the NCSA tools. Examples are:
+
+	Spyglass Dicer (3D volumetric data analysis package)
+		Platform: Mac
+
+	Spyglass Transform (2D data analysis package)
+		Platforms: Mac, SGI, Sun, DEC, HP, IBM
+
+  Contact:
+  Spyglass, Inc.
+  P.O. Box 6388
+  Champaign, IL  61826
+  (217) 355-6000
+
+KHOROS 1.0 Patch 5
+------------------
+  Available via anonymous ftp at pprg.eece.unm.edu (129.24.24.10).
+  cd to /pub/khoros to see what is available. It is HUGE (> 100 MB), but good.
+  Needs Unix and X11R4. Freely copied (NOT PD), complete with sources
+  and docs. Very extensive and at its heart is visual programming.
+  Khoros components include a visual programming language, code
+  generators for extending the visual language and adding new application
+  packages to the system, an interactive user interface editor, an
+  interactive image display package, an extensive library of image and
+  signal processing routines, and 2D/3D plotting packages.
+
+  See comp.soft-sys.khoros on Usenet and the relative FAQ for more info....
+
+  Contact:
+
+  The Khoros Group
+  Room 110 EECE Dept.
+  University of New Mexico
+  Albuquerque, NM 87131
+
+  Email: khoros-request@chama.eece.unm.edu
+
+
+MacPhase
+--------
+  Analysis & Visualization Application for the Macintosh.
+  Operates on 1D and 2D data arrays. Import/Export several different file
+  formats.  Several different plotting options such as gray scale,
+  color raster, 3D Wire frame, 3D surface, contour, vector, line, and
+  combinations.  FFTs, filtering, and other math functions, color look up
+  editor, array calculator, etc. Shareware, available via anonymous ftp from
+  sumex-aim.stanford.edu in the info-mac/app directory.
+  For other information contact Doug Norton (e-mail: 74017.461@@compuserve.com)
+
+
+IRIS Explorer
+-------------
+  It's an application creation system developed by Silicon
+  Graphics that provides visualisation and analysis functionality for
+  computational scientists, engineers and other scientists. The Explorer
+  GUI allows users to build custom applications without having to write
+  any, or a minimal amount of, traditonal code. Also, existing code can
+  be easily integrated into the Explorer environment. Explorer currently
+  is available now on SGI and Cray machines, but will become available on
+  other platforms in time. [ Bundled with every new SGI machine, as far as
+  I know]
+
+  See comp.graphics.explorer or comp.sys.sgi for discussion of the package.
+
+  There are also two FTP servers for related stuff, modules etc.:
+
+  ftp.epcc.ed.ac.uk [129.215.56.29]
+  swedishchef.lerc.nasa.gov [139.88.54.33] - mirror of the UK site
+
+apE
+---
+  Back in the 'old good days', you could get apE for nearly free.
+  Now has gone commercial and the following vendor supplies it:
+
+  TaraVisual Corporation
+  929 Harrison Avenue
+  Columbus, Ohio 43215
+  Tel: 1-800-458-8731 and (614) 291-2912
+  Fax: (614) 291-2867
+
+        Cost:
+  $895 (plus tax); runtime version with a site-license for a single user
+  (at a time), no limit on the number of machines in a cluster.
+  $895 includes support/maintenance and upgrades.
+  Source code more.  Additional user licenses $360.
+
+  The name of the package has become apE III (TM).
+  Khoros is very similar to apE on philosophy, as are AVS and Explorer.
+
+AVS
+---
+See also:
+        comp.graphics.avs
+
+Platforms: CONVEX, CRAY, DEC, Evans & Sutherland, HP, IBM, Kubota,
+Set Technologies, SGI, Stardent, SUN, Wavetracer
+Availability: AVS4 available on all the above:
+  For all UNIX workstations.
+
+Contact:
+  Advanced Visual Systems Inc.
+  300 Fifth Ave.
+  Waltham, MA    02154
+
+  (617)-890-4300   Telephone
+  (617)-890-8287   Fax
+  avs@avs.com      Email
+
+  Advanced Visual Systems Inc. for: CRAY, HP, IBM, SGI, Stardent, SUN
+  CONVEX for CONVEX
+  Advanced Visual Systems Inc. or CRAY for CRAY
+  DEC for DEC
+  Evans & Sutherland for Evans & Sutherland
+  Advanced Visual Systems Inc. or IBM for IBM
+  Kubota Pacific Inc. for Kubota
+  Set Technologies for Set Technologies
+  Wavetracer for Wavetracer
+
+  FTP Site: for modules, data sets, other info:
+	avs.ncsc.org (128.109.178.23)
+
+WIT
+---
+  In a nutshell it's a package of the same genre as AVS,Explorer,etc.
+  It seems more a image processing system than a generic SciVi system (IMHO)
+  Major elements are:
+
+  - a visual programming language, which automatically exploits the inherent
+        parallelism
+  - a code generator which converts the graph to a standalone program
+
+  Iconified libraries present a rich set of point, filter, io, transform,
+  morphological, segmentation, and measurement operations.
+  A flow library allows graphs to employ broadcast, merge,
+  synchronization, conditional, and sequencing control strategies.
+
+  WIT delivers an object-oriented, distributed, visual programming
+  environment which allows users to rapidly design solutions to their
+  imaging problems. Users can consolidate both software and hardware
+  developments within a complete CAD-like workspace by adding their
+  own operators (C functions), objects (data structures), and servers
+  (specialized hardware). WIT runs on Sun, HP9000/7xx, SGI and supports
+  Datacube MV-20/200 hardware allowing you to run your graphs in real-time.
+
+  For a free WIT demo disk, call, FAX, or e-mail (poon@ee.ubc.ca)
+  us stating your complete name, address, voice, FAX, e-mail info.
+  and desired platform.
+
+  Pricing: WIT for Sparc, one yr. free upgrades, 30 days
+  technical support....................$5000 US
+
+  Academic institutions: discounts available
+
+
+  Contact:
+  Logical Vision Ltd.
+  Suite 108-3700 Gilmore Way
+  Burnaby, B.C., CANADA
+  V5G 4M1
+  Tel: 604-435-2587
+  Fax: 604-435-8840
+
+  Terry Arden <poon@ee.ubc.ca>
+
+VIS-5D
+------
+  A system for visually exploring the output of 5-D gridded data sets
+  such as those made by weather models. Platforms:
+
+    SGI IRIS with VGX, GTX, TG, or G graphics,
+    SGI Crimson or Indigo (R4000, Elan graphics suggested), IRIX 4.0.x
+    IBM RS/6000 with GL graphics, AIX version 3 or later;
+    Stardent GS-1000 and GS-2000 (with TrueColor display)
+
+  In any case, 32 (or more) MB of RAM are suggested.
+
+  You can get it freely (thanks to NASA support) via anonymous ftp:
+
+ ftp iris.ssec.wisc.edu  (or ftp 144.92.108.63), then
+
+  ftp> cd pub/vis5d
+  ftp> ascii
+  ftp> get README
+  ftp> bye
+
+ NOTE: You can find the package also on wuarchive.wustl.edu in the
+ graphics/graphics/packages directory.
+
+  Read section 2 of the README file for full instructions
+  on how to get and install VIS-5D.
+
+  Contact:
+  Bill Hibbard (whibbard@vms.macc.wisc.edu)
+  Brian Paul (bpaul@vms.macc.wisc.edu)
+
+DATAexplorer (IBM)
+------------------
+  Platforms : IBM Risc System 6000, IBM POWER Visualization Server
+        (SIMD mesh 32 i860s, 40 MHz)
+
+  Working on (announced) : SGI, HP, Sun
+
+  Contact:
+  Your local IBM Rep.  For a trial package ask your rep to contact :
+
+  David Kilgore
+  Data Explorer Product Marketing
+  YKTVMH(KILCORE), (708) 981-4510
+
+Wavefront
+---------
+  Data Visualizer, Personal Visualizer, Advanced Visualizer.
+  Platforms: SGI, SUN, IBM RS6000, HP, DEC
+
+  Availability:
+    Available on all the above platforms from Wavefront
+    Technologies.  Educational programs and site licenses are
+    available.
+
+  Contacts:
+    Mike Wilson (mike@wti.com)
+
+    Wavefront Technologies, Inc.
+    530 East Montecito Street
+    Santa Barbara, CA 93103
+    805-962-8117
+    FAX: 805-963-0410
+
+    Wavefront Europe
+    Guldenspoorstraat 21-23
+    B-9000 Gent, Belgium
+    32-91-25-45-55
+    FAX: 32-91-23-44-56
+
+    Wavefront Technologies Japan
+    17F Shinjuku-sumitomo Bldg
+    2-6-1  Nishi-shinjuku, Shunjuku-Ku
+    Tokyo 168 Japan
+    81-3-3342-7330
+   FAX 81-3-3342-7353
+
+
+PLOT3D and FAST from NASA Ames
+------------------------------
+  These packages are distributed from COSMIC at least
+  (for FAST ask Pat Elson <pelson@nas.nasa.gov> for
+  distribution information). In general, these codes are for US
+  citizens only :-(
+
+XGRAPH
+------
+  On the contrib tape of X11R5. Its specialty is display of up
+  to 64 data sets (2D).
+
+NCAR
+----
+  National Center for Atmospheric Research. One of the original graphics
+  packages. Runs on Sun, RS6000, SGI, VAX, Cray Y-MP, DecStations, and more.
+
+  Contact:
+	Graphics Information
+	NCAR Scientific Computing Division
+	P.O. Box 3000
+	Boulder, CO   80307-3000
+	(303)-497-1201
+	scdinfo@ncar.ucar.edu
+
+  Cost:
+	.edu
+	$750 Unlimited users
+
+	.gov
+	$750 1 user
+	$1500 5 users
+	$3000 25 users
+
+	.com users multiply .gov * 2.0
+
+IDL
+---
+  An environment for scientific computing and visualization.
+  Based on an array oriented language, IDL includes 2D and 3D
+  graphics, matrix manupulation, signal and image processing,
+  basic statistics, gridding, mapping, and a widget based system
+  for building GUI for IDL applications (Open Look, Motif, or
+  MS-Windows).
+
+  Environments:  DEC (VMS and Ultrix), HP, IBM RS6000, SGI, Sun,
+          Microsoft Windows.  (Mac version in progress)
+  Cost:  $1500 to $3750, Educational and quantity discounts
+          available.
+  See also:   comp.lang.idl-pvwave (the IDL-PVWAVE bundle)
+  Contact:    Research Systems Inc.
+              777 29th Street, Suite 302
+              Boulder, CO  80303
+              Phone:  303-786-9900
+              FAX:    303-786-9909
+              E-mail: info@rsinc.com
+  Demo available via FTP.  Call or E-mail for details.
+
+IDL/SIPS
+--------
+  "A lot of people are using IDL with a package called SIPS. This was
+  developed at the University of Colorado (Boulder) by some people working
+  for Alex Goetz.  You might try contacting them if you already have IDL
+  or would be willing to buy it.  It's a few thousand dollars (American) I
+  expect for IDL and the other should be free.  Those are the general
+  purpose packages I've heard of, besides what TerraMar has.
+  SIPS _was_ written for AVIRIS imagery.  I'm not sure how general purpose
+  it is.  You would have to contact Goetz or one of his people and ask.  I
+  have another piece of software (PCW) that does PC and Walsh
+  transformations with pseudocoloring and clustering and limited image
+  modification (you can compute an image using selected components).  I've
+  used it on 70 megabyte AVIRIS images without problems, but for the best
+  speed you need an external DSP card.  It will work without it, but large
+  images take quite a while (50-70 times as long) to process.  That's a
+  freebie if you want it"
+
+  "My  favorite is IDL (Interactive Data Language) from Research Systems,
+  Inc.  IDL is in my opinion, much better and infinitely easier. Its
+  programming language is very strong and easy -- very Pascal-like. It
+  handles the number-crunching very well, also. Personally, I like doing
+  the number-crunching with IDL on the VAX (or Mathematica, Igor, or even
+  Excel on the Mac if it's not too hairy), then bringing it over to NIH
+  Image for the imaging part. I have yet to encounter any situation which
+  that combination couldn't handle, and the speed and ease of use
+  (compared to IRAF) was incredible. By the way, it's mostly astronomical
+  image processing which I've been doing. This means image enhancement,
+  cleaning up bad lines/pixels, and some other traditional image
+  processing routines. Then, for example, taking a graph of intensity
+  versus position along a line I choose with the mouse, then doing a curve
+  fit to that line (which I might do like in KaleidaGraph.) "
+
+[ For IDL call Research Systems , for PV-WAVE call Precision Visuals and
+ for SIPS call University of Colorado @ Boulder . From what I can
+ understand, you can get packaged programs from Research Systems, though
+ -- nfotis ]
+
+Visual3
+-------
+  contact Robert Haimes, MIT
+
+FieldView
+---------
+ An interactive program designed to assist an engineer in
+ investigating fluid dynamics data sets.          
+
+ Platforms:  SGI, IBM, HP, SUN, X-terminals
+
+ Availability:  Currently available on all of the above
+       platforms.  Educational programs and volume 
+       discounts are available.
+
+ Contact:
+
+ Intelligent Light 
+ P.O. Box 65
+ Fair Lawn, NJ 07410
+ (201)794-7550
+        
+ Steve Kramer (kramer@ilight.com)
+
+
+SciAn
+------
+  SciAn is primarily intended to do 3-D visualizations of data in an 
+  interactive environment with the ability to generate animations using
+  frame-accurate video recording devices.  A user manual, on-line help, and
+  technical notes will help you use the program.
+
+  Cost : 0 (Free), source code provided via ftp.
+  Platforms : SGI 4D machines and IBM RS/6000 with the GL card + Z-buffer
+
+  Where to find it:
+  ftp.scri.fsu.edu [144.174.128.34] : /pub/SciAn
+	A mirror is monu1.cc.monash.edu.au [130.194.1.101] : /pub/SciAn
+
+SCRY
+----
+[ From the README : ]
+
+      Scry is a distributed image handling system  that  pro-
+ vides image transport and compression on local and wide area
+ networks, image viewing on workstations, recording on  video
+ equipment,  and  storage on disk.  The system can be distri-
+ buted among workstations, between supercomputers and  works-
+ tations,  and between supercomputers, workstations and video
+ animation controllers.  The system is most commonly used  to
+ produce  video based movie displays of images resulting from
+ visualization of time dependent data, complex 3D data  sets,
+ and  image  processing  operations.   Both  the  clients and
+ servers run on a variety of systems that provide UNIX-like C
+ run-time environments, and 4BSD sockets.
+ 
+ The source is available for anonymous ftp:
+ 
+ csam.lbl.gov [128.3.254.6] : pub/scry.tar.Z
+ 
+ Contact:
+ 
+ Bill Johnston, (wejohnston@lbl.gov, ...ucbvax!csam.lbl.gov!johnston)
+
+       or
+
+ David Robertson (dwrobertson@lbl.gov, ...ucbvax!csam.lbl.gov!davidr)
+ 
+ Imaging Technologies Group
+ MS 50B/2239
+ Lawrence Berkeley Laboratory
+ 1 Cyclotron Road
+ Berkeley, CA  94720
+
+
+SVLIB / FVS
+-----------
+  SVLIB is an X-Windows widget set based on the OSF (Open Software 
+  Foundation) Motif widget set. SVLIB widgets are macro-widgets 
+  comprising lower level Motif widgets such as buttons, scrollbars, 
+  menus, and drawing areas. It is designed to address the reusability 
+  of 2D visualization routines and each widget in the library is an 
+  encapsulation of a specific visualization technique such as colormap 
+  manipulation, image display, and contour plotting. It is targetted
+  to run on UNIX workstations supporting OSF/Motif. Currently, only 
+  color monitors are supported. Since SVLIB is a collection of widgets 
+  developed in the same spirit as the OSF/Motif user interface widget 
+  set, it integrates seamlessly with the Motif widgets. Programmers 
+  using SVLIB widgets see the same interface and design as other 
+  Motif widgets.
+
+  FVS is a visualization software for Computational Fluid Dynamics (CFD) 
+  simulations.  FVS is designed to accept data generated from these
+  simulations and apply various visualization techniques to present these
+  data graphically. 
+  FVS accepts three-dimensional multi-block data recorded in NCSA HDF format.
+
+ iti.gov.sg [192.122.132.130] : /pub/svlib (Scientific Visualization)
+      /pu/fvs; These directories contain demo binaries for Sun4/SGI
+
+  Cost : US$200 for academic and US$300 for non-academic institutions.
+  (For each of the above items). You're getting the source for the licence.
+
+  Contact
+  -------
+  Miss Quek Lee Hian
+  Member of Technical Staff
+  Information Technology Institute
+  National Computer Board
+  NCB Building
+  71, Sicence Park Drive
+  Singapore 0511
+  Republic of Singapore
+  Tel : (65)7720435
+  Fax : (65)7795966
+  Email : leehian@iti.gov.sg
+
+
+---------------------------------------------------------
+GVLware Distribution:
+        Bob  - An interactive volume renderer for the SGI
+        Raz  - A disk based movie player for the SGI
+        Icol - Motif color editor
+---------------------------------------------------------
+
+The Army High Performance Computing Research Center (AHPCRC) has been
+developing a set of tools to work with large time dependent 2D and 3D
+data sets.  In the Graphics and Visualization Lab (GVL) we are using
+these tools along side standard packages, such as SGI Explorer and the
+Utah Raster Toolkit, to render 3D volumes and create digital movies.
+A couple of the more general purpose programs have been bundled into a
+package called "GVLware".
+
+GVLware, currently consisting of Bob, Raz and Icol, is now available
+via ftp.  The most interesting program is probably Bob, an interactive
+volume renderer for the SGI.  Raz streams raster images from disk to
+an SGI screen, enabling movies larger than memory to be played.  Icol
+is a color map editor that works with Bob and Raz.  Source and
+pre-built binaries for IRIX 4.0.5 are included.
+
+To acquire GVLware, anonymous ftp to:
+        machine - ftp.arc.umn.edu
+        file    - /pub/gvl.tar.Z
+
+To use GVLware:
+        mkdir gvl ; cd gvl
+        zcat gvl.tar.Z | tar xvf -
+        more README
+
+Some Bob features:
+        Motif interface, SGI GL rendering
+        Renders 64 cubed data set in 0.1 to 1.0 seconds on a VGX
+        Alpha Compositing and Maximum Value rendering, in perspective
+            (only Maximum Value rendering on Personal Iris)
+        Data must be a "Brick of Bytes", on a regularly spaced grid
+        Animation, subvolumes, subsampling, stereo
+
+Some Raz features:
+        Motif interface, SGI GL rendering
+        Loads files to a raw disk partition, then streams to screen
+            (requires an empty disk partition to be set aside)
+        Script interface available for movie sequences
+        Can stream from memory, like NCSA XImage
+        
+Some Icol features:
+        Motif interface
+        Easy to create interpolated color maps between key points
+        RGB, HSV and YUV color spaces, multiple file formats
+        Communicates changes automatically to Bob and Raz
+        Has been tested on SGI, Sun, DEC and Cray systems
+
+BTW:    Bob  == Brick of Bytes
+        Icol == Interpolated Color
+        Raz  == ? (just a name)
+
+Please send any comments to
+        gvlware@ahpcrc.umn.edu
+
+This software collection is supported by the Army Research Office
+contract number DAALO3-89-C-0038 with the University of Minnesota Army
+High Performance Computing Research Center.
+
+
+IAP
+---
+  Imaging Applications Platform is a commercial package for medical and
+  scientific visualization. It does volume rendering, binary surface
+  rendering, multiplanar reformating, image manipulation, cine sequencing,
+  intermixes geometry and text with images and provides measurement and
+  coordinate transform abilities.
+
+  It can provide hardcopy on most medical film printers, image database
+  functionality and interconnection to most medical (CT/MRI/etc) scanners.
+
+  It is client/server based and provides an object oriented interface. It
+  runs on most high performance workstations and takes full advantage of
+  parallelism where it is available. It is robust, efficient and
+  will be submitted for FDA approval for use in medical applications.
+
+  Cost: $20K for OEM developer, $10K for educational developer
+  and run times starting at $8900 and going down based on quantity.
+
+  The developer packages include two days training for two people in Toronto.
+
+  Available from:
+
+  ISG Technologies
+  6509 Airport Road
+  Mississauga, Ontario,
+  Canada, L4V-1S7
+
+  (416) 672-2100
+  e-mail: Rod Gilchrist <rod@isgtec.com>
+
+========================================================================
+
+18. Molecular visualization stuff
+=================================
+
+[ Based on a list from cristy@dupont.com < Cristy > , which asked for
+ systems for displaying Molecular Dynamics, MD for short ]
+
+Flex
+----
+  It is a public domain package written by Michael Pique, at The Scripps
+  Research Institute, La Jolla, CA. Flex is stored as a compressed,
+  tar'ed archive (about 3.4MB) at perutz.scripps.edu [137.131.152.27], in
+  pub/flex. It displays molecular models and MD trajectories.
+
+MacMolecule
+-----------
+  (for Macintosh). I searched with Archie, and the most
+  promising place is sumex-aim.stanford.edu (info-mac/app, and
+  info-mac/art/qt for a demo)
+
+MD-DISPLAY
+----------
+  Runs on SGI machines. Call Terry Lybrand (lybrand@milton.u.washington.edu).
+
+XtalView
+--------
+  It is a crystallography package that does visualize molecules and much more.
+  It uses the XView toolkit.
+  Call Duncan McRee <dem@scripps.edu>
+
+landman@hal.physics.wayne.edu:
+-----------------------------
+  I am writing my own visualization code right now.  I look at MD output
+  (a specific format, easy to alter for the subroutine) on PC's.  My
+  program has hooks into GKS.  If your friend has access to Phigs for X
+  (PEX) and fortran bindings, I would be happy to share my evolving code
+  (free of charge).  Right now it can display supercells of up to 65
+  atoms (easy to change), and up to 100 time steps, drawing nearest
+  neighbor bonds between 2 defining nn radii.  It works acceptably fast
+  on a 10Mhz 286.
+
+icsg0001@caesar.cs.montana.edu:
+------------------------------
+  I did a project on Molecular Visualization for my Master's Thesis, using
+  UNIX/X11/Motif which generates a simple point and space-filling model.
+
+KGNGRAF
+-------
+
+KGNGRAF is part of MOTECC-91. Look on malena.crs4.it (156.148.7.12),
+in pub/motecc.
+
+motecc.info.txt          Information about MOTECC-91 in plain ascii format.
+----------------------------------------------------------------------------
+motecc.info.troff        Information about MOTECC-91 in troff format.
+motecc.form.troff        MOTECC-91 order form in troff format.
+motecc.license.troff     MOTECC-91 license agreement in troff format.
+----------------------------------------------------------------------------
+motecc.info.ps           Information about MOTECC-91 in PostScript format.
+motecc.form.ps           MOTECC-91 order form in PostScript format.
+motecc.license.ps        MOTECC-91 license agreement in PostScript format.
+
+
+ditolla@itnsg1.cineca.it:
+------------------------
+  I'm working on molecular dynamic too.  A friend of mine and I have
+
+  developed a program to display an MD run dynamically on Silicon
+  Graphics.  We are working to improve it, but it doesn't work under X,
+  we are using the graphi. lib. of the Silicon Gr. because they are much
+  faster then X.  When we'll end it we'll post on the news info about
+  where to get it with ftp. (Will be free software).
+
+XBall V2.0
+----------
+  Written by David Nedde. Call daven@maxine.wpi.edu.
+
+XMol
+----
+  An X Window System program that uses OSF/Motif  for  the
+  display and  analysis  of  molecular  model data.  Data from several
+  common file formats can be read and written; current formats include:
+  Alchemy, CHEMLAB-II, Gaussian, MOLSIM, MOPAC, PDB, and MSCI's XYZ
+  format (which has been designed  for  simplicity  in  translating to
+  and from other formats). XMol also allows for conversion between
+  several of these formats.
+  Xmol is available at ftp.msc.edu. Read pub/xmol/README for
+  further details.
+
+INSIGHT II
+----------
+  from BIOSYM Technologies Inc.
+
+SCARECROW
+---------
+  The program has been published in J. Molecular Graphics 10
+  (1992) 33. The program can analyze and display CHARMM, DISCOVER, YASP
+  and MUMOD trajectories. The program package contains also software for
+  the generation of probe surfaces, proton affinity
+  surfaces and molecular orbitals from an extended Huckel program.
+  It works on Silicon Graphics machines.
+  Contact Leif Laaksonen <Leif.Laaksonen@csc.fi or laaksone@csc.fi>
+
+MULTI
+-----
+ns.niehs.nih.gov [157.98.8.8] : /pub - MULTI 3.0 (Multi-Process
+		Molecular Modeling Suite)
+
++MindTool
++--------
++  It runs under SunView, and requires a fortran compiler and Sun's CGI
++  libraries. MindTool is a tool  provided  for  the  interactive  graphic
++  manipulation  of  molecules  and  atoms. Currently, up to 10,000
++  atoms may be input.
++  Available via anonymous FTP, at rani.chem.yale.edu, directory
++  /pub/MindTool ( Check with Archie for other  sites if that's too far )
+
+[ I would also suggest looking at least in SGI's Applications Directory.
+ It contains many more packages - nfotis ]
+
+===========================================================================
+
+19. GIS (Geographical Information Systems software)
+===================================================
+
+GRASS
+-----
+  (Geographic Resource Analysis Support System) of the US Army
+  Construction Engineering Research Lab (CERL). It is a popular geographic and
+  remote sensing image processing package. Many may think of GRASS as a
+  Geographic Information System rather than an Image Processing package,
+  although it is reported to have significant image processing
+  capabilities.
+
+  Feature Descriptions
+
+  I use GRASS  because it's public domain and can be obtained through the
+  internet for free.  GRASS runs in Unix and is written in C.  The source
+  code can be obtained through an anonymous ftp from the Office of Grass
+  Integration.  You then compile the source code for your machine, using
+  scripts provided with GRASS.  I would recommend GRASS for someone who
+  already has a workstation and is on a limited budget. GRASS is not very
+  user-friendly, compared to Macintosh software." A first review  of
+  overview documentation indicates that it looks useful and has some pixel
+  resampling functions not in other packages plus good general purpose
+  image enhancement routines (fft). Kelly Maurice at Vexcel Corp. in
+  Boulder, CO is a primary user of GRASS .  This gentleman has used the
+  GRASS software and developed multi-spectral (238 bands ??) volumetric
+  rendering, full color, on Suns and Stardents. It was a really effective
+  interface.  Vexcel Corp. currently has a contract to map part of Venus
+  and convert the Magellan radar data into contour maps. You can call them
+  at (303) 444-0094 or email care of greg@vexcel.com 192.92.90.68
+
+  Host Configuration Requirements
+
+  If you are willing to run A/UX you could install GRASS   on a Macintosh
+  which has significant image analysis and import capabilities for
+  satellite data. GRASS  is public-domain, and can run on a high-end PC
+  under UNIX. It is raster-based, has some image-processing capability,
+  and can display vector data (but analysis must be done in the raster
+  environment). I have used GRASS V.3 on a SUN workstation and found it
+  easy to use. It is best, of course, for data that are well represented
+  in raster (grid-cell) form.
+
+  Availability
+
+  CERL's Office of Grass Integration (OGI)  maintains an ftp server:
+  moon.cecer.army.mil (129.229.20.254).
+
+  Mail regarding this site should be addressed to
+  grass-ftp-admin@moon.cecer.army.mil.
+
+  This location will be the new "canonical" source for GRASS software, as
+  well as bug fixes, contributed sources, documentation, and other files.
+  This FTP server also supports dynamic compression and uncompression and
+  "tar" archiving of files.  A feature attraction of the server is John
+  Parks' GRASS tutorial.  Because the manual is still in beta-test stage,
+  John requests that people only acquire it if they are willing to review
+  it and mail him comments/corrections. The OGI is not currently
+  maintaining this document, so all correspondence about it should be
+  directed to grassx@tang.uark.edu
+
+  Support
+
+  Listserv mailing lists:
+
+  grassu-list@amber.cecer.army.mil (for GRASS users; application-level
+  questions, support concerns, miscellaneous questions, etc) Send
+  subscribe commands to grassu-request@amber.cecer.army.mil.
+
+  grassp-list@amber.cecer.army.mil (for GRASS programmers; system-level
+  questions and tips, tricks, and techniques of design and implementation
+  of GRASS applications) Send subscribe commands to
+  grassp-request@amber.cecer.army.mil.
+
+  Both lists are maintained by the Office of Grass Integration (subset of
+  the Army Corps of Engineers Construction Engineering Research Lab in
+  Champaign, IL). The OGI is providing the lists as a service to the
+  community; while OGI and CERL employees will participate in the lists,
+  we can make no claim as to content or veracity of messages that pass
+  through the list.  If you have questions, problems, or comments, send
+  E-mail to lists-owner@amber.cecer.army.mil and a human will respond.
+
+Microstation Imager
+-------------------
+  Intergraph (based in Huntsville Alabama) sells a wide range of GIS
+  software/hardware. Microstation is a base  graphics package that Imager
+  sits on top of. Imager is basically an  image processing package with a
+  heavy GIS/remote sensing flavor.
+
+  Feature Description
+
+  Basic geometry manipulations: flip, mirror, rotate, generalized affine.
+  Rectification: Affine, 2nd, 3rd, 4th and 5th order models as well as a
+  projective model (warp an image to a vector map or to another image).
+  RGB to IHS and IHS to RGB conversion.  Principal component analysis.
+  Classification: K-means and isodata.  Fourier Xforms: Forward, filtering
+  and reverse.  Filters: High pass, low pass, edge enhancing, median,
+  generic.  Complex Histogram/Contrast control.  Layer Controller: manages
+  up to 64 images at a time -- user can extract single bands from a 3 band
+  image or create color images by combining various individual bands, etc.
+
+  The package is designed for a remote sensing application (it can handle
+  VERY LARGE images) and there is all kinds of other software available
+  for GIS applications.
+  Host Configuration Requirements
+
+  It runs on Intergraph Workstations (a Unix machine similar to a Sun)
+  though there  were rumors (there are always rumors) that the software
+  would be  ported to PC and possibly a Sun environment.
+
+PCI
+---
+  A company called PCI, Inc., out of Richmond Hill, Ontario, Canada, makes
+  an array of software utilities for processing, manipulation, and use of
+  remote sensing data in eight or ten different "industry standard"
+  formats: LGSOWG, BSQ, LANDSAT, and a couple of others whose titles I
+  forget.  The software is available in versions for MS-DOS, Unix
+  workstations (among them HP, Sun, and IBM), and VMS, and quite possibly
+  other platforms by now.  I use the VMS version.
+
+  The "PCI software" consists of several classes/groups/packages of
+  utilities, grouped by function but all operating on a common "PCI
+  database" disk file.  The "Tape I/O" package is a set of utility
+  programs which read from the various remote-sensing industry tape
+  formats INTO, or write those formats out FROM, the "PCI database" file;
+  this is the only package I use or know much about.  Other packages can
+  display data from the PCI database to one or another of several
+  PCI-supported third-party color displays, output numeric or bitmap
+  representation of image data to an attached printer, e.g. an Epson-type
+  dot-matrix graphics printer.  You might be more spe- cifically
+  interested in the mathematical operations package: histo- gram and
+  Fourier analysis, equalization, user-specified operations (e.g.
+  "multiply channel 1 by 3, add channel 2, and store as channel 5"), and
+  God only knows what all else -- there's a LOT.  I don't have and don't
+  use these, so can't say much about them; you only buy the packages your
+  particular application/interest calls for.
+
+  Each utility is controlled by from one to eight "parameters," read from
+  a common "parameter file" which must be (in VMS anyway) in your "default
+  directory."  Some utilities will share parameters and use the same
+  parameter for a different purpose, so it can get a bit confusing setting
+  up a series of operations.  The standard PCI environment contains a
+  scripting language very similar to IBM-PC BASIC, but which allows you to
+  automate the process of setting up parameters for a common, complicated,
+  lengthy or difficult series of utility executions.  (In VMS I can also
+  invoke utilities independently from a DCL command procedure.)  There's
+  also an optional programming library which allows you to write compiled
+  language programs which can interface with (read from/write to) the PCI
+  data structures (database file, parameter file).
+
+  The PCI software is designed specifically for remote-sensing images, but
+  requires such a level of operator expertise that, once you reach the
+  level where you can handle r-s images, you can figure out ways to handle
+  a few other things as well.  For instance, the Tape I/O package offers a
+  utility for reading headerless multi-band (what Adobe PhotoShop on the
+  Macintosh calls "raw") data from tape, in a number of different
+  "interleave" orders. This turns out to be ideal for manipulating the
+  graphic-arts industry's "CT2T" format, would probably (I haven't tried)
+  handle Targa, and so on. Above all, however, you HAVE TO KNOW WHAT
+  YOU'RE DOING or you can screw up to the Nth degree and have to start
+  over.  It's worth noting that the PCI "database" file is designed to
+  contain not only "raster" (image) data, but vectors (for overlaying map
+  information entered via digitizing table), land-use, and all manner of
+  other information (I observe that a remote-sensing image tape often
+  contains all manner of information about the spectral bands, latitude,
+  longitude, time, date, etc. of the original satellite pass; all of this
+  can go into the PCI "database").
+
+  I _believe_ that on workstations the built-in display is used.  On VAX
+  systems OTHER than workstations PCI supports only a couple of specific
+  third-party display systems (the name Gould/Deanza seems to come to
+  mind).  One of MY personal workarounds was a display program which would
+  display directly from a PCI "database" file to a Peritek VCT-Q (Q-bus
+  24-bit DirectColor) display subsystem.  PCI software COULD be "overkill"
+  in your case; it seems designed for the very "high end"
+  applications/users, i.e. those for whom a Mac/PC largely doesn't suffice
+  (although as you know the gap is getting smaller all the time).  It's
+  probably no coincidence that PCI is located in Canada, a country which
+  does a LOT of its land/resource management via remote sensing; I believe
+  the Canadian government uses PCI software for some of its work in these
+  areas.
+
+SPAM (Spectral Analysis Manager)
+--------------------------------
+  Back in 1985 JPL developed something called SPAM (Spectral Analysis
+  Manager) which got a fair amount of use at the time.  That was designed
+  for Airborne Imaging Spectrometer imagery (byte data, <= 256 pixels
+  across by <= 512 lines by <= 256 bands); a modified version has since
+  been developed for AVIRIS (Airborne VIsual and InfraRed Imaging
+  Spectrometer) which uses much larger images.
+
+  Spam does none of these things (rectification, classification, PC and
+  IHS transformations, filtering, contrast enhancement, overlays).
+  Actually, it does limited filtering and contrast enhancement
+  (stretching).  Spam is aimed at spectral identification and clustering.
+
+  The original Spam uses X or SunView to display.  The AVIRIS version may
+  require VICAR, an executive based on TAE, and may also require a frame
+  buffer.  I can refer you to people if you're interested.  PCW requires X
+  for display.
+
+MAP II
+------
+  Among the Mac GIS systems, MAP II is distributed by John Wiley.
+
+CLRview
+-------
+  CLRview is a 3-dimensional visualization program designed to exploit
+  the real-time capabilities of Silicon Graphics IRIS computers.
+
+  This program is designed to provide a core set of tools to aid in the
+  visualization of information from CAD and GIS sources.  It supports
+  the integration of many common but disperate data sources such as DXF,
+  TIN, DEM, Lattices, and Arc/Info Coverages among others.
+
+  CLRview can be obtained from explorer.dgp.utoronto.ca (128.100.1.129) 
+  in the directory pub/sgi/clrview.
+
+  Contact:
+  Rodney Hoinkes
+  Head of Design Applications
+  Centre for Landscape Research
+  University of Toronto
+  Tel:   (416) 978-7197
+  Email: rodney@dgp.utoronto.ca
+
+==========================================================================
+
+End of Resource Listing
+-- 
+Nick (Nikolaos) Fotis         National Technical Univ. of Athens, Greece
+HOME: 16 Esperidon St.,       InterNet : nfotis@theseas.ntua.gr
+      Halandri, GR - 152 32   UUCP:    mcsun!ariadne!theseas!nfotis
+      Athens, GREECE          FAX: (+30 1) 77 84 578
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comput graphic resourc list week part     archiv
+name graphic resourc list part3 last modifi
+comput graphic resourc list week post part  last
+chang april   scene generat geograph data map data
+file   dem digit elev model  dem digit elev model
+well cartograph data huge avail spectrum xerox com
+pub map  contact lee moor webster research center
+xerox corp voic  check also ncgia ucsb edu pub dem
+nfoti  mani file also avail rom sell usg scale
+digit line graph dlg data contain data state price
+call visit offic menlo park reston virginia usa
+map  data user servic divis bureau census also
+data rom tso standard format deriv usg map data
+call info bbs  dobb march  defens map agenc cooper
+counterpart agenc canada australia releas digit
+chart world dcw chart consist gigabyt reason
+qualiti vector data distribut four rom includ
+coastlin river road railray airport citi town spot
+elev depth place name  iso9660 compat avail
+geolog survey box denver feder center denver
+digit distribut servic energi mine resourc canada
+booth street ottawa k1a 0e9 canada  director
+general militari survey survey elmwood avenu
+feltham middlesex tw13 7ah unit kingdom  director
+survey australian armi depart defens campbel park
+offic cp2 campbel act australia   fractal landscap
+generat   public domain  mani peopl written
+fractal landscap generat exampl mac generat
+written  mani program avail ftp site mail archiv
+server check archi  commerci  vista pro amiga
+virtual realiti lab list price address vrl ganador
+court san lui obispo  telephon fax  sceneri anim
+also amiga calib vista pro check natur graphic box
+raklin phone  don't forget ask companion program
+data disk tape  vista pro port pcs   cia world map
+note databas quit date topolog structur need
+standard world cartograph data wait digit chart
+world databas produc defens map agenc onc avail
+togeth search view softwar number rom later summer
+check hanauma stanford edu ucsd edu see ftp list
+cia databas consist coastlin river polit boundari
+form line stroke also hanauma stanford edu 720x360
+array elev data contain one ieee float point
+number everi half degre longitud latitud  program
+decod databas mfil found machin pi1 arc umn edu
+there anoth program read compress cia data bank
+file build phig hierach structur use phig extens
+known polylin set perform use regular polylin ask
+raw data stanford requir vplot packag abl view
+post comp sourc unix exact you'll compil libvplot
+routin whole packag  ncar data  ncar nation center
+atmospher research mani type terrain data rang
+elev dataset various resolut inform soil type
+veget etc data free charg depend data volum media
+exabyt tape cartridg track tape ibm floppi ftp
+transfer avail data archiv most research orient
+hobbyist orient inform   unc data tape voxel data
+public domain tape data comparison test various
+volum render algorithm main mri scan tape
+distribut softlab unc chapel hill   data set volum
+also avail via anonym ftp omicron unc edu pub
+softlab chvrtd  nasa  mani agenc nasa publish rom
+mani altimetri data various space mission vike mar
+magellan venus etc especi nasa suggest call follow
+address info  nation space scienc date center
+goddard space flight center greenbelt maryland
+telephon   data catalog data avail onlin internet
+user telnet nssdca gsfc nasa gov log nodi password
+also dial baud bit pariti one stop enter number
+prompt enter carriag return system respond call
+complet enter carriag return get usernam log nodi
+password  nssdca also anonym ftp site comprehens
+list what avail present  earth scienc data   there
+list anonym ftp site earth scienc data includ
+imageri list call earth scienc resourc internet
+get via anonym ftp csn org directori cog name
+internet resourc earth sci  site includ aureli
+soest hawaii edu pub avhrr imag avhrr imag ame arc
+nasa gov pub space cdrom imag magellan vike
+mission etc pub space index contain list file
+avail whole archiv index 200k there also mail
+server peopl without internet access send letter
+letter bodi use command like  send space index
+send space shuttl ss01  capit import text file
+handl email server present  vab02 larc nasa gov
+pub gif misc landsat landsat photo gif jpeg format
+shut nfoti anyon copi archiv  other  daili valu
+river discharg streamflow daili weather data avail
+earthinfo central ave boulder disk expens around
+quantiti discount   check vmd cso uiuc edu
+directori carri data regard surfac analysi weather
+radar sat view pic gif format updat hour  pioneer
+unm edu space planetari imag facil locat univers
+new mexico campus ftp server provid anonym ftp
+access rom data imag  disk earthquak data
+topographi graviti geopolit info avail ngdc nation
+geophys data center broadway boulder  eosat least
+sell landsat mss data older two year old per scene
+talk similar deal landsat data mss data band meter
+resolut  check anonym ftp ftp ncsa uiuc edu unix
+polyview alpha shape tool creat convex hull alpha
+shape general convex hull point set  grip gov
+raster imag process softwar rom avail rom inc code
+view adrg arc digitis raster graphic file avail
+grip rom armi engin topograph lab juan perez code
+also avail via ftp adrg zip archiv spectrum xerox
+com  nrcc rang data  rioux cournoy nrcc three
+dimension imag data file tech report cnrc nation
+research council canada ottawa canada understand
+data laser rang finder copi research purpos
+scanner digit data   cyberwar lab monterey
+manufactur color laser digit use model part
+complet human bodi run servic bureau also digit
+model  address cyberwar lab inc harri suit
+monterey phone fax  polhemus make input devic
+actual coupl model sens posit orient base
+electromagnet field interfer equip also incorpor
+vpl dataglov hardwar also call isotrack keiser
+aerospac  ascens technolog make similar input
+devic compani appli scienc make input devic posit
+base speed sound triangul  compani special digit
+viewpoint ask viewpoint free page catalog full
+readi ship dataset categori car anatomi aircraft
+sport boat train anim other though object quit
+expens catalog nevertheless interest pictur avail
+object wirefram polygon mesh  contact  viewpoint
+west center orem utah  fax dataset    address
+compani make digit  ascens technolog bird flock
+bird big bird tracker box burlington phone fax
+polhemus incorpor digit tracker box hercul
+colchest tel  logitech inc red baron ultrason mous
+kaiser freemont tel 8500w  shoot star technolog
+mechan headtrack holdom ave burnabi canada v5b 3w4
+tel fax  spacebal technolog inc spacebal
+stationari input devic suffolk street lowel tel
+fax tel mountain view  transfinit system gold
+brick powerglov macintosh box mit branch post
+offic cambridg tel   vpl research inc eyephon head
+mount display dataglov glove hand input devic vpl
+research inc tower lane 14th floor foster citi tel
+fax  simgraph engin fli mous input devic
+huntington suit south pasadena     background
+imageri textur datafil   first check ftp place
+mention faq ftp list  bit scan  get good bit
+scanner like epson suggest scsi port speed eric
+hain suggest news volum scan textur wallpap floor
+cover etc doll hous suppli rather cheap way scan
+pattern don't scale troubl associ real materi scan
+area  book textur  find hous book magazin carri
+photograph materi educorp sell rom various imageri
+also wide varieti stock art avail stock art big
+name stock art hous comstock uniphoto metro imag
+base avail  itali there compani call belveder make
+book purpos clip page inclus graphic work address
+edit belveder ltd rome itali piazzal flaminio tel
+fax  textur librari  mannikin sceptr graphic
+announc textil set 256x256 bit textur initi
+shipment bit iff amiga soon bit tiff format
+algorithm built tile surfac srp volum   contact
+mannikin sceptr graphic indiana ave winter park
+phone fax  essenc librari sixti five new algoritm
+textur imagin impuls inc textur fulli compat float
+point version imagin imagin even turbo silver
+written steve worley  info contact essenc info
+apex softwar publish camino real suit menlo park
+usa  textur citi    introduct render algorithm
+ray trace   assum general understand comput
+graphic read book faq contain ray trace suggest
+introduct ray trace andrew glassner academ press
+isbn note read book feel can't wrong use book
+errata list post comp graphic eric hain   there
+concis refer also  roman kuchkuda unc chapel hill
+introduct ray trace theoret foundat comput graphic
+cad earnshaw nato vol print springer verlag
+contain code small fundament complet ray tracer
+buffer depth buffer   good refer  procedur element
+comput graphic david roger mcgraw hill new york
+page  other   info need nfoti    find geometr data
+teapot   display display column ieee whole stori
+origin martin newel teapot articl also bezier
+patch model pascal program display wirefram model
+teapot  ieee jim blinn column jim blinn corner
+describ anoth way model teapot bezier curv rotat
+exampl use  spd packag object you'r advis get
+avoid type data data triangl specif resolut around
+8x8 triangl mesh per patch spd packag provid
+spline patch descript perform tessel specifi
+resolut  space shuttl    datafil here summari sci
+space list  model1 modifi version newsgroup model
+model2  vertic use refer polygon descript polygon
+vertex vertex vertex vertex payload door non exist
+unit unknown   said proprietari inform associ
+model2 newsgroup model format find  gondwana ecr
+file pub object shuttl geo hanauma stanford edu
+pub graphic comp graphic object shuttl data
+model3 triangl model  model store sever file defin
+portion model   mention restrict model distribut
+model4 nasa model  file start header line contain
+three real number defin offset use lockhe simul
+offset offset offset  file consist sequenc polygon
+descript  vertic polygon vertex vertex vertex
+vertex vertex vertex vertex vertex vertex vertex
+vertex vertex vertex vertex payload door close
+unit inch   proprietari info unknown  model5 old
+shuttl model  file consist sequenc polygon
+descript  vertic polygon vertex vertex payload
+door open unit meter  use model star lab stanford
+univers      imag annot softwar   touchup run
+sunview pretti good read rasterfil even imag isn't
+normal store rasterfil format could use screendump
+make rasterfil  idraw part stanford interview
+distribut handl imag format addit macdraw like
+tool i'm sure exact ftp idraw binari interview
+stanford edu  tgif anoth macdraw like tool handl
+x11 bitmap xbm x11 pixmap xpm format imag format
+xbm xpm get pbmplus toolkit convert thing like gif
+even macintosh format xpm tgif sourc avail pub
+directori ucla edu version tgif patchlevel plus
+patch8 patch9  use editimag facil khoro see one
+util overal system essenti imag process macdraw
+type graphic use packag  might abl get pbmplus
+pbmtext give text output bitmap overlaid top imag
+ice requir sun hardwar run openwindow it
+postscript base graphic editor it avail anonym ftp
+internet host soest hawaii edu requir sun two
+local develop packag lxt librari xlib base toolkit
+small class librari file pub ice tar pub lxt tar
+pub ldgoc tar avail compress tar format pub ice
+tar contain readm give instal instruct well extens
+man page ice static link compress execut pub ice
+sun4 sparc system also avail ftp  softwar properti
+columbia univers redistribut without permiss  ice
+mean imag composit environ it imag tool allow
+raster imag combin wide varieti postscript annot
+wysiwyg fashion via x11 imag routin news
+postscript raster  use imagemagick annot imag
+server pick posit text cursor choos font pen color
+pull menu imagemagick read write mani popular imag
+format imagemagick avail export lcs mit edu
+contrib imagemagick tar nearest x11 archiv
+scientif visual stuff   data slice xds  bundl x11
+distribut mit contrib directori avail ftp ncsa
+uiuc edu either sourc binari various platform
+nation center supercomput applic ncsa tool suit
+platform unix workstat ibm sgi sun appl macintosh
+cray supercomput  avail avail sourc code public
+domain ftp ftp ncsa uiuc edu  contact nation
+center supercomput applic comput applic build
+springfield ave champaign  cost free zero dollar
+suit includ tool imag scene analysi visual code
+activ maintain updat  spyglass  sell commerci
+version ncsa tool exampl  spyglass dicer volumetr
+data analysi packag platform mac  spyglass
+transform data analysi packag platform mac sgi sun
+ibm  contact spyglass inc box champaign   khoro
+patch  avail via anonym ftp pprg eec unm edu pub
+khoro see avail huge good need unix x11r4 freeli
+copi complet sourc doc extens heart visual program
+khoro compon includ visual program languag code
+generat extend visual languag ad new applic packag
+system interact user interfac editor interact imag
+display packag extens librari imag signal process
+routin plot packag  see comp soft sys khoro usenet
+relat faq info  contact  khoro group room eec dept
+univers new mexico albuquerqu     macphas  analysi
+visual applic macintosh oper data array import
+export sever differ file format sever differ plot
+option gray scale color raster wire frame surfac
+contour vector line combin ffts filter math
+function color look editor array calcul etc
+sharewar avail via anonym ftp sumex aim stanford
+edu info mac app directori inform contact doug
+norton mail compuserv com   iri explor  it applic
+creation system develop silicon graphic provid
+visualis analysi function comput scientist engin
+scientist explor gui allow user build custom
+applic without write minim amount traditon code
+also exist code easili integr explor environ
+explor current avail sgi cray machin becom avail
+platform time bundl everi new sgi machin far know
+see comp graphic explor comp sys sgi discuss
+packag  also two ftp server relat stuff modul etc
+ftp epcc swedishchef lerc nasa gov mirror site
+ape  back old good day could get ape near free
+gone commerci follow vendor suppli  taravisu
+corpor harrison avenu columbus ohio tel fax  cost
+plus tax runtim version site licens singl user
+time limit number machin cluster includ support
+mainten upgrad sourc code addit user licens  name
+packag becom ape iii khoro similar ape philosophi
+av explor  av  see also comp graphic av  platform
+convex cray evan sutherland ibm kubota set
+technolog sgi stardent sun wavetrac avail avs4
+avail unix workstat  contact advanc visual system
+inc fifth ave waltham  telephon fax   advanc
+visual system inc cray ibm sgi stardent sun convex
+convex advanc visual system inc cray cray  evan
+sutherland evan sutherland advanc visual system
+inc ibm ibm kubota pacif inc kubota set technolog
+set technolog wavetrac wavetrac  ftp site modul
+data set info av ncsc org  wit  nutshel it packag
+genr av explor etc seem imag process system
+generic scivi system imho major element  visual
+program languag automat exploit inher parallel
+code generat convert graph standalon program
+iconifi librari present rich set point filter
+transform morpholog segment measur oper flow
+librari allow graph employ broadcast merg synchron
+condit sequenc control strategi  wit deliv object
+orient distribut visual program environ allow user
+rapid design solut imag problem user consolid
+softwar hardwar develop within complet cad like
+workspac ad oper function object data structur
+server special hardwar wit run sun hp9000 7xx sgi
+support datacub hardwar allow run graph real time
+state complet name address voic fax mail info
+desir platform  price wit sparc one free upgrad
+day technic support  academ institut discount
+avail   contact logic vision ltd suit gilmor way
+burnabi canada v5g 4m1 tel fax    vis  system
+visual explor output grid data set made weather
+model platform  sgi iri vgx gtx graphic sgi
+crimson indigo r4000 elan graphic suggest irix ibm
+graphic aix version later stardent truecolor
+display  case ram suggest  get freeli thank nasa
+support via anonym ftp  ftp iri ssec wisc edu ftp
+ftp pub vis5d ftp ascii ftp get readm ftp bye
+note find packag also wuarchiv wustl edu graphic
+graphic packag directori  read section readm file
+full instruct get instal vis  contact
+dataexplor ibm  platform ibm risc system ibm power
+visual server simd mesh i860 mhz  work announc sgi
+sun  contact local ibm rep trial packag ask rep
+contact  david kilgor data explor product market
+yktvmh kilcor  wavefront  data visual person
+visual advanc visual platform sgi sun ibm rs6000
+avail avail platform wavefront technolog educ
+program site licens avail  contact   wavefront
+technolog inc east montecito street santa barbara
+fax  wavefront europ guldenspoorstraat gent
+belgium  fax  wavefront technolog japan 17f
+shinjuku sumitomo bldg nishi shinjuku shunjuku
+tokyo japan  fax   plot3d fast nasa ame  packag
+distribut cosmic least  distribut inform general
+code citizen  xgraph  contrib tape x11r5 specialti
+display data set  ncar  nation center atmospher
+research one origin graphic packag run sun rs6000
+sgi vax cray decstat  contact graphic inform ncar
+scientif comput divis box boulder    cost edu
+unlimit user  gov user user user  com user
+multipli gov  idl  environ scientif comput visual
+base array orient languag idl includ graphic
+matrix manupul signal imag process basic statist
+grid map widget base system build gui idl applic
+open look motif window  environ vms ultrix ibm
+rs6000 sgi sun microsoft window mac version
+progress cost educ quantiti discount avail see
+also comp lang idl pvwave idl pvwave bundl contact
+research system inc 29th street suit boulder phone
+fax  demo avail via ftp call mail detail  idl sip
+lot peopl use idl packag call sip develop univers
+colorado boulder peopl work alex goetz might tri
+contact alreadi idl will buy it thousand dollar
+american expect idl free general purpos packag i'v
+heard besid terramar sip written aviri imageri i'm
+sure general purpos contact goetz one peopl ask
+anoth piec softwar pcw walsh transform pseudocolor
+cluster limit imag modif comput imag use select
+compon i'v use megabyt aviri imag without problem
+best speed need extern dsp card work without larg
+imag take quit time long process that freebi want
+favorit idl interact data languag research system
+inc idl opinion much better infinit easier program
+languag strong easi pascal like handl number
+crunch well also person like number crunch idl vax
+mathematica igor even excel mac it hairi bring nih
+imag imag part yet encount situat combin couldn't
+handl speed eas use compar iraf incred way it most
+astronom imag process i'v mean imag enhanc clean
+bad line pixel tradit imag process routin exampl
+take graph intens versus posit along line choos
+mous curv fit line might like kaleidagraph  idl
+call research system wave call precis visual
+understand get packag program research system
+though nfoti  visual3  contact robert haim mit
+fieldview  interact program design assist engin
+investig fluid dynam data set  platform sgi ibm
+sun termin  avail current avail platform educ
+program volum discount avail  contact  intellig
+light box fair lawn      scian  scian primarili
+intend visual data interact environ abil generat
+anim use frame accur video record devic user
+manual line help technic note help use program
+cost free sourc code provid via ftp platform sgi
+machin ibm card buffer  find ftp scri fsu edu pub
+scian mirror monu1 monash edu pub scian  scri
+readm  scri distribut imag handl system pro vide
+imag transport compress local wide area network
+imag view workstat record video equip storag disk
+system distri bute among workstat supercomput work
+tation supercomput workstat video anim control
+system common use produc video base movi display
+imag result visual time depend data complex data
+set imag process oper client server run varieti
+system provid unix like run time environ 4bsd
+socket  sourc avail anonym ftp  csam lbl gov pub
+scri tar  contact        imag technolog group 50b
+lawrenc berkeley laboratori cyclotron road
+berkeley   svlib fvs  svlib window widget set base
+osf open softwar foundat motif widget set svlib
+widget macro widget compris lower level motif
+widget button scrollbar menus draw area design
+address reusabl visual routin widget librari
+encapsul specif visual techniqu colormap manipul
+imag display contour plot target run unix workstat
+support osf motif current color monitor support
+sinc svlib collect widget develop spirit osf motif
+user interfac widget set integr seamless motif
+widget programm use svlib widget see interfac
+design motif widget  fvs visual softwar comput
+fluid dynam cfd simul fvs design accept data
+generat simul appli various visual techniqu
+present data graphic fvs accept three dimension
+multi block data record ncsa hdf format  iti gov
+pub svlib scientif visual fvs directori contain
+demo binari sun4 sgi  cost academ non academ
+institut item you'r get sourc licenc  contact
+miss quek lee hian member technic staff inform
+technolog institut nation comput board ncb build
+sicenc park drive singapor republ singapor tel fax
+gvlware distribut bob interact volum render sgi
+raz disk base movi player sgi icol motif color
+editor   armi high perform comput research center
+ahpcrc develop set tool work larg time depend data
+set graphic visual lab gvl use tool along side
+standard packag sgi explor utah raster toolkit
+render volum creat digit movi coupl general purpos
+program bundl packag call gvlware  gvlware current
+consist bob raz icol avail via ftp interest
+program probabl bob interact volum render sgi raz
+stream raster imag disk sgi screen enabl movi
+larger memori play icol color map editor work bob
+raz sourc pre built binari irix includ  acquir
+gvlware anonym ftp machin ftp arc umn edu file pub
+gvl tar  use gvlware mkdir gvl gvl zcat gvl tar
+tar xvf readm  bob featur motif interfac sgi
+render render cube data set second vgx alpha
+composit maximum valu render perspect maximum valu
+render person iri data must brick byte regular
+space grid anim subvolum subsampl stereo  raz
+featur motif interfac sgi render load file raw
+disk partit stream screen requir empti disk partit
+set asid script interfac avail movi sequenc stream
+memori like ncsa ximag  icol featur motif interfac
+easi creat interpol color map key point rgb hsv
+yuv color space multipl file format communic chang
+automat bob raz test sgi sun cray system  btw bob
+brick byte icol interpol color raz name  pleas
+send comment   softwar collect support armi
+research offic contract number daalo3 univers
+minnesota armi high perform comput research center
+iap  imag applic platform commerci packag medic
+scientif visual volum render binari surfac render
+multiplanar reform imag manipul cine sequenc
+intermix geometri text imag provid measur coordin
+transform abil  provid hardcopi medic film printer
+imag databas function interconnect medic mri etc
+scanner  client server base provid object orient
+interfac run high perform workstat take full
+advantag parallel avail robust effici submit fda
+approv use medic applic  cost 20k oem develop 10k
+educ develop run time start go base quantiti
+develop packag includ two day train two peopl
+toronto  avail  isg technolog airport road
+mississauga ontario canada l4v 1s7       molecular
+visual stuff    system display molecular dynam
+short  flex  public domain packag written michael
+piqu scripp research institut jolla flex store
+compress tar' archiv 4mb perutz scripp edu pub
+flex display molecular model trajectori
+macmolecul  macintosh search archi promis place
+sumex aim stanford edu info mac app info mac art
+demo  display    xtalview  crystallographi packag
+visual molecul much use xview toolkit     write
+visual code right look output specif format easi
+alter subroutin pc program hook gks friend access
+phig pex fortran bind happi share evolv code free
+charg right display supercel atom easi chang time
+step draw nearest neighbor bond defin radii work
+accept fast 10mhz    project molecular visual
+master thesi use unix x11 motif generat simpl
+point space fill model  kgngraf   kgngraf part
+motecc look malena crs4 pub motecc  motecc info
+txt inform motecc plain ascii format  motecc info
+troff inform motecc troff format motecc form troff
+motecc order form troff format motecc licens troff
+motecc licens agreement troff format  motecc info
+inform motecc postscript format motecc form motecc
+order form postscript format motecc licens motecc
+licens agreement postscript format     i'm work
+molecular dynam friend mine  develop program
+display run dynam silicon graphic work improv
+doesn't work use graphi lib silicon much faster
+we'll end we'll post news info get ftp free
+softwar  xball    xmol  window system program use
+osf motif display analysi molecular model data
+data sever common file format read written current
+format includ alchemi chemlab gaussian molsim
+mopac pdb msci xyz format design simplic translat
+format xmol also allow convers sever format xmol
+avail ftp msc edu read pub xmol readm detail
+insight  biosym technolog inc  scarecrow  program
+publish molecular graphic program analyz display
+charmm discov yasp mumod trajectori program packag
+contain also softwar generat probe surfac proton
+affin surfac molecular orbit extend huckel program
+work silicon graphic machin csc  multi  nieh nih
+gov pub multi multi process molecular model suit
+mindtool  run sunview requir fortran compil sun
+cgi librari mindtool tool provid interact graphic
+manipul molecul atom current atom input avail via
+anonym ftp rani chem yale edu directori pub
+mindtool check archi site that far  also suggest
+look least sgi applic directori contain mani
+packag nfoti    gis geograph inform system softwar
+grass  geograph resourc analysi support system
+armi construct engin research lab cerl popular
+geograph remot sens imag process packag mani think
+grass geograph inform system rather imag process
+packag although report signific imag process
+capabl  featur descript  use grass it public
+domain obtain internet free grass run unix written
+sourc code obtain anonym ftp offic grass integr
+compil sourc code machin use script provid grass
+recommend grass someon alreadi workstat limit
+budget grass user friend compar macintosh softwar
+first review overview document indic look use
+pixel resampl function packag plus good general
+purpos imag enhanc routin fft kelli mauric vexcel
+corp boulder primari user grass gentleman use
+grass softwar develop multi spectral band volumetr
+render full color sun stardent realli effect
+interfac vexcel corp current contract map part
+venus convert magellan radar data contour map call
+host configur requir  will run could instal grass
+macintosh signific imag analysi import capabl
+satellit data grass public domain run high end
+unix raster base imag process capabl display
+vector data analysi must done raster environ use
+grass sun workstat found easi use best cours data
+well repres raster grid cell form  avail  cerl
+offic grass integr ogi maintain ftp server moon
+cecer armi mil  mail regard site address   locat
+new canon sourc grass softwar well bug fix
+contribut sourc document file ftp server also
+support dynam compress uncompress tar archiv file
+featur attract server john park grass tutori
+manual still beta test stage john request peopl
+acquir will review mail comment correct ogi
+current maintain document correspond   support
+listserv mail list   question support concern
+miscellan question etc send    question tip trick
+techniqu design implement grass applic send
+subscrib command   list maintain offic grass
+integr subset armi corp engin construct engin
+research lab champaign ogi provid list servic
+communiti ogi cerl employe particip list make
+claim content verac messag pass list question
+problem comment send   microst imag  intergraph
+base huntsvill alabama sell wide rang gis softwar
+hardwar microst base graphic packag imag sit top
+imag basic imag process packag heavi gis remot
+sens flavor  featur descript  basic geometri
+manipul flip mirror rotat general affin rectif
+affin 2nd 3rd 4th 5th order model well project
+model warp imag vector map anoth imag rgb ih ih
+rgb convers princip compon analysi classif mean
+isodata fourier xform forward filter revers filter
+high pass low pass edg enhanc median generic
+complex histogram contrast control layer control
+manag imag time user extract singl band band imag
+creat color imag combin various individu band etc
+packag design remot sens applic handl larg imag
+kind softwar avail gis applic host configur requir
+run intergraph workstat unix machin similar sun
+though rumor alway rumor softwar port possibl sun
+environ  pci  compani call pci inc richmond hill
+ontario canada make array softwar util process
+manipul use remot sens data eight ten differ
+industri standard format lgsowg bsq landsat coupl
+other whose titl forget softwar avail version dos
+unix workstat among sun ibm vms quit possibl
+platform use vms version  pci softwar consist
+sever class group packag util group function oper
+common pci databas disk file tape packag set util
+program read various remot sens industri tape
+format write format pci databas file packag use
+know much packag display data pci databas one
+anoth sever pci support third parti color display
+output numer bitmap represent imag data attach
+printer epson type dot matrix graphic printer
+might spe cific interest mathemat oper packag
+histo gram fourier analysi equal user specifi oper
+multipli channel add channel store channel god
+know els there lot don't don't use can't say much
+buy packag particular applic interest call  util
+control one eight paramet read common paramet file
+must vms anyway default directori util share
+paramet use paramet differ purpos get bit confus
+set seri oper standard pci environ contain script
+languag similar ibm basic allow autom process set
+paramet common complic lengthi difficult seri util
+execut vms also invok util independ dcl command
+procedur there also option program librari allow
+write compil languag program interfac read write
+pci data structur databas file paramet file  pci
+softwar design specif remot sens imag requir level
+oper expertis reach level handl imag figur way
+handl thing well instanc tape packag offer util
+read headerless multi band adob photoshop
+macintosh call raw data tape number differ
+interleav order turn ideal manipul graphic art
+industri ct2t format probabl haven't tri handl
+targa howev know you'r screw nth degre start it
+worth note pci databas file design contain raster
+imag data vector overlay map inform enter via
+digit tabl land use manner inform observ remot
+sens imag tape often contain manner inform
+spectral band latitud longitud time date etc
+origin satellit pass pci databas  believ workstat
+built display use vax system workstat pci support
+coupl specif third parti display system name gould
+deanza seem come mind one person workaround
+display program display direct pci databas file
+peritek vct bus bit directcolor display subsystem
+pci softwar could overkil case seem design high
+end applic user mac larg doesn't suffic although
+know gap get smaller time it probabl coincid pci
+locat canada countri lot land resourc manag via
+remot sens believ canadian govern use pci softwar
+work area  spam spectral analysi manag  back jpl
+develop someth call spam spectral analysi manag
+got fair amount use time design airborn imag
+spectromet imageri byte data pixel across line
+band modifi version sinc develop aviri airborn
+visual infrar imag spectromet use much larger imag
+spam none thing rectif classif ih transform filter
+contrast enhanc overlay actual limit filter
+contrast enhanc stretch spam aim spectral identif
+cluster  origin spam use sunview display aviri
+version requir vicar execut base tae also requir
+frame buffer refer peopl you'r interest pcw requir
+display  map  among mac gis system map distribut
+john wiley  clrview  clrview dimension visual
+program design exploit real time capabl silicon
+graphic iri comput  program design provid core set
+tool aid visual inform cad gis sourc support
+integr mani common disper data sourc dxf tin dem
+lattic arc info coverag among other  clrview
+obtain explor dgp utoronto directori pub sgi
+clrview  contact rodney hoink head design applic
+centr landscap research univers toronto tel
+end resourc list  nick nikolao foti nation technic
+univ athen greec  halandri uucp mcsun ariadn
+thesea nfoti athen greec fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+data, 2385, 0.291156021193
+imag, 4512, 0.236853424196
+packag, 6375, 0.186392507333
+ftp, 3709, 0.181028950287
+avail, 811, 0.179755445261
+visual, 9547, 0.177865718011
+sgi, 7831, 0.145710757438
+vertex, 9481, 0.139063080923
+pub, 6971, 0.134872900964
+motecc, 5876, 0.128743785324
+pci, 6485, 0.128147970366
+format, 3612, 0.127454028106
+grass, 4003, 0.123269397768
+graphic, 3997, 0.121230100093
+display, 2734, 0.111489331248
+contact, 2078, 0.103689173758
+edu, 3001, 0.102328282509
+model, 5807, 0.100160873765
+use, 9363, 0.09890675537
+file, 3477, 0.096424737831
+program, 6905, 0.0957622579349
+ibm, 4472, 0.0867040077623
+user, 9366, 0.0859135449616
+set, 7815, 0.0855509560968
+softwar, 8103, 0.0830369344624
+idl, 4488, 0.0829472151009
+widget, 9751, 0.0810413728969
+platform, 6676, 0.0807792231459
+fax, 3413, 0.0794230951154
+sun, 8539, 0.0781704060818
+motif, 5879, 0.07570717235
+applic, 585, 0.0741010521179
+research, 7307, 0.0727307152173
+map, 5498, 0.0713908559676
+info, 4636, 0.0705242050523
+tar, 8701, 0.0703178581139
+anonym, 532, 0.0691682555507
+process, 6890, 0.0683887145531
+workstat, 9840, 0.0682057565861
+digit, 2642, 0.0670791817201
+server, 7812, 0.0669726788366
+analysi, 490, 0.066059259315
+list, 5298, 0.0656080820091
+render, 7277, 0.0652157431231
+raster, 7104, 0.0648711850996
+databas, 2386, 0.0636980964127
+code, 1871, 0.0632859025596
+tel, 8754, 0.0627226704165
+tape, 8700, 0.0611866792531
+sourc, 8153, 0.0587705029794
+design, 2564, 0.0580044690696
+rom, 7467, 0.0572233509908
+molecular, 5824, 0.0568819956422
+contain, 2079, 0.0568793586857
+distribut, 2753, 0.0559396176324
+technolog, 8743, 0.0553751647397
+unix, 9284, 0.0546813675906
+tool, 8988, 0.0538738748764
+raz, 7123, 0.0527668113273
+inform, 4637, 0.0523360962305
+stanford, 8318, 0.0520983536911
+color, 1907, 0.0519981054723
+directori, 2669, 0.0519037037475
+explor, 3307, 0.051775665612
+comput, 1993, 0.0517539978535
+interfac, 4709, 0.0517000548158
+canada, 1481, 0.0517000548158
+cray, 2215, 0.0515582669381
+run, 7543, 0.0509622380967
+volum, 9577, 0.0503251907116
+gov, 3965, 0.0501659562486
+base, 923, 0.0498316227873
+svlib, 8615, 0.0482789194967
+center, 1606, 0.0482047519691
+develop, 2588, 0.048184129312
+support, 8576, 0.0479865500618
+armi, 645, 0.047491301507
+ncsa, 5977, 0.0466679816886
+khoro, 5002, 0.0466679816886
+troff, 9111, 0.0465611223815
+environ, 3139, 0.0462900256244
+handl, 4149, 0.045974064432
+disk, 2720, 0.0458900094398
+textur, 8825, 0.0455259118388
+remot, 7271, 0.044812459861
+macintosh, 5418, 0.044812459861
+mac, 5410, 0.044351503579
+librari, 5250, 0.0441769036335
+provid, 6949, 0.0441765747381
+archiv, 618, 0.0440786248989
+band, 891, 0.043950911639
+generat, 3819, 0.0431110692402
+version, 9479, 0.042591483627
+resourc, 7320, 0.042572664951
+nfoti, 6043, 0.042422226214
+util, 9384, 0.0420547896561
+gis, 3884, 0.0410897992559
+site, 7994, 0.0410155409495
+interact, 4704, 0.0409295847887
+machin, 5416, 0.040746274966
+requir, 7302, 0.040724701618
+free, 3668, 0.0405239871317
+gvlware, 4103, 0.0402324329139
+fvs, 3739, 0.0402324329139
+suit, 8529, 0.0401327649989
+licens, 5254, 0.0396208064334
+comp, 1955, 0.0394084883378
+languag, 5113, 0.0384323834157
+icol, 4478, 0.0376905795195
+gvl, 4102, 0.0376905795195
+lab, 5085, 0.0375629874323
+oper, 6261, 0.0374996037177
+nasa, 5956, 0.0374533432998
+sens, 7788, 0.0373198636233
+devic, 2591, 0.0371572229074
+input, 4662, 0.0370105572978
+spam, 8180, 0.0367833527743
+av, 810, 0.0367833527743
+space, 8164, 0.036698147593
+work, 9833, 0.0366529114486
+readm, 7141, 0.036381790281
+read, 7135, 0.0363533022482
+ice, 4475, 0.0361163614732
+wavefront, 9662, 0.0360163034907
+polygon, 6728, 0.0356922295643
+boulder, 1248, 0.0356184761303
+spectral, 8209, 0.0353518551784
+nation, 5962, 0.0352621025261
+various, 9432, 0.0351364930364
+x11, 9883, 0.0349417718539
+general, 3818, 0.0345815159466
+filter, 3481, 0.0343340105945
+includ, 4579, 0.0342441587113
+postscript, 6772, 0.0339606912286
+supercomput, 8557, 0.033767238707
+landsat, 5108, 0.0333342726347
+time, 8936, 0.0331044280574
+elev, 3040, 0.0329359824576
+paramet, 6421, 0.0328120069209
+box, 1254, 0.0325156945633
+check, 1682, 0.032467295914
+multi, 5917, 0.0322428941135
+xmol, 9905, 0.0321859463311
+scri, 7721, 0.0321859463311
+scian, 7691, 0.0321859463311
+aviri, 826, 0.0321859463311
+geograph, 3841, 0.0319027750388
+imageri, 4516, 0.0316011086901
+ave, 814, 0.0316011086901
+domain, 2805, 0.0313613352083
+dynam, 2942, 0.0311316466994
+iri, 4764, 0.0310476531761
+stardent, 8328, 0.0310407482544
+integr, 4694, 0.0310200328895
+address, 264, 0.0309357168371
+compress, 1986, 0.0309104671553
+offic, 6206, 0.0308635173689
+manipul, 5483, 0.0306971885915
+bob, 1189, 0.0306273469846
+allow, 432, 0.0305094491674
+written, 9867, 0.0303989213027
+teapot, 8734, 0.0301524636156
+clrview, 1841, 0.0301524636156
+ape, 560, 0.0301524636156
+purpos, 6993, 0.0299633820426
+line, 5285, 0.0296885618362
+enhanc, 3113, 0.0296820634419
+orient, 6290, 0.0296435380931
+silicon, 7955, 0.029486902318
+convex, 2116, 0.029486902318
+spyglass, 8273, 0.0294266822194
+osf, 6309, 0.0294266822194
+ogi, 6211, 0.0294266822194
+dem, 2513, 0.0294266822194
+object, 6173, 0.0293199924907
+routin, 7499, 0.0293022357744
+graph, 3996, 0.0292991075475
+number, 6156, 0.0291247500399
+current, 2299, 0.0288468897613
+vector, 9444, 0.0287748366967
+internet, 4717, 0.0286731107535
+mani, 5479, 0.0282293443023
+descript, 2557, 0.028103997946
+arc, 608, 0.0280077874131
+function, 3722, 0.0279698088162
+featur, 3422, 0.0279698088162
+park, 6430, 0.0275225607482
+mail, 5447, 0.0273698499767
+consist, 2061, 0.0272224390408
+transform, 9053, 0.0272204693812
+sequenc, 7804, 0.0272204693812
+engin, 3109, 0.0271740392613
+binari, 1096, 0.0269834735996
+bit, 1122, 0.0268528442014
+send, 7785, 0.0267621148005
+bundl, 1400, 0.0266674181078
+hardwar, 4173, 0.0266639795189
+suggest, 8525, 0.0265649405308
+cost, 2169, 0.0264684074508
+imagemagick, 4514, 0.026348785966
+surfac, 8587, 0.0261045680376
+common, 1948, 0.0260562182595
+grid, 4043, 0.0260537786809
+scan, 7660, 0.0260378221784
+editor, 2997, 0.0260378221784
+array, 653, 0.0257587226294
+sever, 7823, 0.0257120950535
+ncar, 5974, 0.025522220031
+movi, 5892, 0.0254093882873
+unc, 9220, 0.0250533520729
+offset, 6209, 0.0250533520729
+discount, 2695, 0.0250533520729
+toolkit, 8989, 0.0246339353923
+art, 660, 0.0243498946436
+wavetrac, 9664, 0.0241394597483
+vpl, 9592, 0.0241394597483
+tgif, 8829, 0.0241394597483
+sip, 7987, 0.0241394597483
+rasterfil, 7105, 0.0241394597483
+mindtool, 5735, 0.0241394597483
+ih, 4498, 0.0241394597483
+cerl, 1617, 0.0241394597483
+academ, 205, 0.0240775743155
+form, 3610, 0.023931270725
+patch, 6459, 0.0239081539961
+sell, 7778, 0.0237110737054
+scientif, 7693, 0.02353439346
+uiuc, 9197, 0.023439286038
+view, 9510, 0.0233224213262
+affin, 312, 0.0232805611908
+univers, 9282, 0.0231503921711
+complet, 1975, 0.0230835428733
+like, 5272, 0.0230504438843
+public, 6973, 0.0229389555433
+survey, 8597, 0.0227629559194
+medic, 5608, 0.0227629559194
+hill, 4300, 0.0227629559194
+mit, 5781, 0.0226404608191
+xpm, 9907, 0.0226143477117
+macdraw, 5413, 0.0226143477117
+buffer, 1371, 0.0225216228404
+hanauma, 4144, 0.0220700116646
+flex, 3540, 0.0220700116646
+vms, 9563, 0.0219603081478
+easi, 2959, 0.0219603081478
+phone, 6601, 0.021835381817
+sutherland, 8610, 0.0216097820944
+dataset, 2390, 0.0216097820944
+peopl, 6530, 0.0216009378073
+anim, 515, 0.0214783862404
+book, 1218, 0.0213877390242
+sunview, 8551, 0.021211113107
+brick, 1305, 0.021211113107
+pro, 6883, 0.0211488898845
+corp, 2153, 0.0211488898845
+compil, 1972, 0.0211488898845
+xerox, 9893, 0.0208594621384
+rs6000, 7512, 0.0208594621384
+cluster, 1848, 0.0208594621384
+champaign, 1646, 0.0208594621384
+annot, 523, 0.0208594621384
+ray, 7118, 0.0207996048289
+control, 2107, 0.0207663206191
+compani, 1958, 0.0207004127574
+agenc, 329, 0.0206800219263
+wit, 9802, 0.0206069781036
+similar, 7961, 0.0206031594178
+write, 9865, 0.0205848951339
+vista, 9546, 0.020544899628
+stock, 8402, 0.020544899628
+trace, 9028, 0.0205352504576
+standard, 8313, 0.0203833647247
+street, 8440, 0.0203275106299
+new, 6023, 0.0202927762682
+landscap, 5109, 0.0202603432242
+perform, 6539, 0.0202024003888
+store, 8417, 0.0201948057865
+extens, 3320, 0.0201948057865
+high, 4292, 0.0201935086892
+build, 1378, 0.0200853133204
+output, 6329, 0.0200663824994
+shuttl, 7929, 0.0200277870056
+educ, 3002, 0.0200036918077
+ieee, 4491, 0.0200005635808
+cia, 1750, 0.0200005635808
+make, 5459, 0.0199686305497
+specif, 8203, 0.0197497274756
+type, 9177, 0.0194353511051
+wide, 9747, 0.019372320607
+resolut, 7316, 0.019372320607
+viewpoint, 9513, 0.0193343501018
+script, 7724, 0.0193343501018
+phig, 6587, 0.0193343501018
+enter, 3125, 0.0193195943176
+combin, 1921, 0.0193195943176
+anoth, 533, 0.0192447684133
+stream, 8438, 0.0191416650233
+mesh, 5648, 0.0191416650233
+contour, 2094, 0.0191416650233
+chart, 1674, 0.0191416650233
+maintain, 5454, 0.0190659558914
+page, 6382, 0.0189688589644
+contrib, 2102, 0.0189606652141
+advanc, 285, 0.0188155306329
+river, 7422, 0.0187900140547
+kubota, 5078, 0.0187900140547
+triangl, 9090, 0.0186285919057
+scienc, 7692, 0.0185962894097
+evan, 3227, 0.0184754515442
+institut, 4683, 0.0183075449958
+catalog, 1552, 0.0181908951405
+structur, 8460, 0.0181482926939
+unit, 9278, 0.0180709936311
+archi, 613, 0.0180581807366
+video, 9506, 0.0180328997839
+rang, 7094, 0.0179951670213
+note, 6118, 0.0179533356051
+quantiti, 7021, 0.0179311154971
+mous, 5889, 0.0179311154971
+dimension, 2653, 0.0179311154971
+contrast, 2101, 0.0179311154971
+capabl, 1498, 0.0178477139919
+text, 8822, 0.017811688618
+printer, 6872, 0.0178092380651
+demo, 2517, 0.0178092380651
+pass, 6448, 0.0177759863459
+cad, 1445, 0.0176921413908
+aim, 353, 0.0176921413908
+technic, 8737, 0.0176707614534
+scanner, 7663, 0.0175794645285
+magellan, 5433, 0.0175794645285
+bird, 1113, 0.0175794645285
+introduct, 4733, 0.0174708859269
+alpha, 441, 0.0174708859269
+limit, 5278, 0.0174030453584
+com, 1917, 0.0174030453584
+vertic, 9482, 0.017264902018
+ask, 689, 0.0172349911555
+door, 2818, 0.0171670052972
+real, 7144, 0.0170586903352
+scene, 7671, 0.0169803456143
+execut, 3272, 0.0169803456143
+channel, 1652, 0.0168912171303
+point, 6710, 0.0168545281633
+commerci, 1940, 0.0168312358434
+instal, 4679, 0.0168046724479
+gif, 3869, 0.016803300454
+weather, 9679, 0.0167205659709
+bitmap, 1126, 0.0167205659709
+telephon, 8763, 0.0166387640734
+index, 4596, 0.0166387640734
+window, 9774, 0.0165603302059
+coupl, 2187, 0.0165603302059
+raw, 7114, 0.0165591438219
+byte, 1438, 0.0165591438219
+servic, 7813, 0.0163811009864
+basic, 937, 0.0163811009864
+host, 4386, 0.0163322816287
+rgb, 7374, 0.0162603364007
+varieti, 9431, 0.0161900841598
+speed, 8217, 0.0161856862124
+area, 622, 0.0161856862124
+vexcel, 9491, 0.0160929731656
+soest, 8096, 0.0160929731656
+shinjuku, 7887, 0.0160929731656
+scripp, 7723, 0.0160929731656
+sceptr, 7674, 0.0160929731656
+pvwave, 7002, 0.0160929731656
+polhemus, 6718, 0.0160929731656
+pcw, 6489, 0.0160929731656
+nrcc, 6137, 0.0160929731656
+model2, 5808, 0.0160929731656
+mannikin, 5488, 0.0160929731656
+lxt, 5403, 0.0160929731656
+kgngraf, 5000, 0.0160929731656
+idraw, 4490, 0.0160929731656
+goetz, 3932, 0.0160929731656
+dataglov, 2389, 0.0160929731656
+burnabi, 1414, 0.0160929731656
+belveder, 1018, 0.0160929731656
+adrg, 281, 0.0160929731656
+port, 6748, 0.0160543524919
+atom, 756, 0.0159887326529
+present, 6837, 0.0159317535133
+mirror, 5755, 0.0158001068306
+simul, 7974, 0.0157397899814
+plot, 6694, 0.0157397899814
+posit, 6761, 0.0156303616612
+volumetr, 9578, 0.0155203741272
+tracker, 9031, 0.0155203741272
+partit, 6443, 0.0155203741272
+nodi, 6090, 0.0155203741272
+mri, 5898, 0.0155203741272
+monterey, 5845, 0.0155203741272
+microst, 5694, 0.0155203741272
+cartograph, 1536, 0.0155203741272
+blinn, 1160, 0.0155203741272
+airborn, 358, 0.0155203741272
+amiga, 472, 0.0155100164447
+compon, 1980, 0.0154014378432
+creat, 2217, 0.0153890285822
+good, 3948, 0.0153493065016
+differ, 2633, 0.0153218226533
+techniqu, 8740, 0.0152966698133
+manag, 5472, 0.0151985244505
+vgx, 9494, 0.0150762318078
+spacebal, 8165, 0.0150762318078
+singapor, 7980, 0.0150762318078
+rectif, 7191, 0.0150762318078
+mss, 5905, 0.0150762318078
+crunch, 2257, 0.0150762318078
+coastlin, 1861, 0.0150762318078
+carriag, 1531, 0.0150762318078
+avhrr, 821, 0.0150762318078
+ascens, 673, 0.0150762318078
+pixel, 6651, 0.0150497868746
+look, 5341, 0.0149016453043
+payload, 6477, 0.0148217690466
+obtain, 6183, 0.0147781831267
+larg, 5124, 0.0147420770224
+spd, 8191, 0.0147133411097
+softlab, 8101, 0.0147133411097
+menlo, 5630, 0.0147133411097
+intergraph, 4712, 0.0147133411097
+datafil, 2388, 0.0147133411097
+refer, 7213, 0.0146762775632
+quit, 7043, 0.0145795737798
+post, 6766, 0.0145326086523
+hous, 4396, 0.0144896957382
+frame, 3643, 0.0144506679604
+exampl, 3258, 0.0144387850794
+industri, 4608, 0.0144121437809
+xbm, 9890, 0.0144065213963
+sun4, 8540, 0.0144065213963
+polylin, 6730, 0.0144065213963
+overlay, 6345, 0.0144065213963
+nssdca, 6142, 0.0144065213963
+irix, 4766, 0.0144065213963
+hull, 4430, 0.0144065213963
+grip, 4052, 0.0144065213963
+epson, 3154, 0.0144065213963
+plus, 6700, 0.0143365553767
+modifi, 5814, 0.0142994669186
+origin, 6293, 0.014156973751
+umn, 9208, 0.0141407420713
+eec, 3004, 0.0141407420713
+order, 6281, 0.0140719717317
+faq, 3385, 0.0139519142107
+scale, 7659, 0.0139192845691
+road, 7431, 0.0139192845691
+unm, 9292, 0.0139063080923
+nih, 6068, 0.0139063080923
+cyberwar, 2324, 0.0139063080923
+price, 6857, 0.0138870076873
+earth, 2956, 0.0138670838038
+group, 4064, 0.0138537923836
+publish, 6974, 0.0137922193296
+document, 2788, 0.0137306587468
+end, 3091, 0.0137232634226
+hain, 4118, 0.013696599752
+fourier, 3629, 0.013696599752
+classif, 1791, 0.013696599752
+imagin, 4518, 0.0135532452233
+vis, 9538, 0.0135068954828
+sumex, 8533, 0.0135068954828
+spectromet, 8211, 0.0135068954828
+longitud, 5339, 0.0135068954828
+citi, 1775, 0.0134683414216
+friend, 3692, 0.0133587664635
+usg, 9369, 0.0133337090539
+multipli, 5920, 0.0133337090539
+itali, 4795, 0.0133337090539
+greec, 4020, 0.0133337090539
+chapel, 1657, 0.0133337090539
+airport, 365, 0.0133337090539
+world, 9841, 0.0133321981361
+depend, 2537, 0.0133319897594
+person, 6562, 0.0132629654928
+locat, 5323, 0.0132272217295
+pbmplus, 6483, 0.013174392983
+hawaii, 4208, 0.013174392983
+gui, 4081, 0.013174392983
+date, 2391, 0.0131260058505
+copi, 2130, 0.0131260058505
+defin, 2482, 0.0131012290902
+command, 1933, 0.0131012290902
+built, 1381, 0.0130766562561
+vax, 9439, 0.0130281091297
+sys, 8661, 0.0130268893404
+matrix, 5550, 0.0130268893404
+way, 9666, 0.0130165316125
+algorithm, 407, 0.0129803387908
+defens, 2476, 0.0129100865498
+wirefram, 9795, 0.0128895667345
+latitud, 5144, 0.0128895667345
+athen, 741, 0.0128895667345
+molecul, 5823, 0.0127611100155
+interpol, 4719, 0.0127611100155
+fluid, 3560, 0.0127611100155
+app, 576, 0.0127611100155
+access, 209, 0.0127523209628
+local, 5322, 0.0127087350429
+sparc, 8184, 0.012640443476
+ottawa, 6317, 0.012640443476
+generic, 3820, 0.012640443476
+record, 7184, 0.0126234268825
+campbel, 1479, 0.0125266760364
+bezier, 1065, 0.0125266760364
+rep, 7284, 0.0124190612705
+proprietari, 6935, 0.0124190612705
+nearest, 5984, 0.0124190612705
+mexico, 5671, 0.0124190612705
+column, 1915, 0.0124190612705
+bureau, 1408, 0.0124190612705
+password, 6455, 0.0123169676961
+freeli, 3675, 0.0123169676961
+exploit, 3306, 0.0123169676961
+essenc, 3195, 0.0123169676961
+avenu, 815, 0.0123169676961
+acquir, 244, 0.0123169676961
+test, 8812, 0.012267107293
+accept, 208, 0.012267107293
+level, 5229, 0.0122485054728
+log, 5328, 0.012219856323
+fortran, 3618, 0.012219856323
+agreement, 338, 0.012219856323
+valu, 9414, 0.0122116459615
+laser, 5134, 0.012127263427
+incorpor, 4587, 0.012127263427
+question, 7032, 0.0120497182949
+vike, 9517, 0.0120387871577
+berkeley, 1039, 0.0120387871577
+convert, 2115, 0.0119995628013
+comment, 1936, 0.0119825508893
+spectrum, 8213, 0.0119540769981
+radar, 7055, 0.0119540769981
+foundat, 3627, 0.0119540769981
+floor, 3549, 0.0119540769981
+client, 1816, 0.0119540769981
+geometri, 3844, 0.0118728253768
+director, 2668, 0.0118728253768
+open, 6258, 0.0118498364854
+ontario, 6248, 0.0117947609272
+rumor, 7541, 0.011719643019
+pascal, 6447, 0.0116472572846
+parti, 6438, 0.0116472572846
+fractal, 3637, 0.0116472572846
+ascii, 676, 0.0116472572846
+utah, 9380, 0.0115774119313
+upgrad, 9337, 0.0115774119313
+interview, 4726, 0.0115774119313
+denver, 2533, 0.0115774119313
+daili, 2338, 0.0115774119313
+meter, 5663, 0.0115099346787
+maximum, 5560, 0.0115099346787
+float, 3546, 0.0115099346787
+manner, 5486, 0.0114446701982
+stuff, 8472, 0.0114410434378
+trajectori, 9044, 0.0113814779597
+procedur, 6888, 0.0113202304095
+composit, 1982, 0.0113202304095
+import, 4551, 0.0113163374102
+old, 6216, 0.0112893183797
+john, 4878, 0.0112893183797
+export, 3310, 0.0112608114202
+compat, 1965, 0.0112608114202
+org, 6286, 0.0112031149652
+configur, 2030, 0.0112031149652
+specifi, 8204, 0.0110925093823
+unknown, 9287, 0.0110394292146
+venus, 9463, 0.0109877279097
+manual, 5492, 0.0108402242672
+depth, 2545, 0.0107933894398
+japan, 4825, 0.0107476313712
+instruct, 4684, 0.0107476313712
+chang, 1650, 0.0107271045398
+know, 5052, 0.0107181555723
+understand, 9246, 0.0107049067982
+need, 5993, 0.0107030750145
+curv, 2306, 0.0106591551019
+modul, 5815, 0.0106163494021
+review, 7358, 0.0104151288714
+parallel, 6420, 0.0104151288714
+automat, 803, 0.0104151288714
+australia, 792, 0.0104151288714
+contract, 2095, 0.0103772155665
+news, 6031, 0.0103117717929
+shape, 7853, 0.0103034890518
+signal, 7947, 0.0102676252288
+dollar, 2802, 0.0102676252288
+lee, 5190, 0.0102323961972
+place, 6657, 0.0102257810732
+larger, 5125, 0.0101977798755
+suppli, 8574, 0.0101303026229
+eric, 3170, 0.0100974028932
+construct, 2074, 0.0100974028932
+scientist, 7694, 0.0100650381423
+extend, 3319, 0.0100650381423
+voic, 9567, 0.0100331912497
+equip, 3161, 0.0100331912497
+ame, 465, 0.0100018459039
+share, 7855, 0.00997098655199
+element, 3037, 0.00997098655199
+choos, 1720, 0.0099405983537
+letter, 5227, 0.00982348290941
+train, 9042, 0.00976741192479
+huge, 4427, 0.00976741192479
+convers, 2114, 0.00976741192479
+probabl, 6885, 0.00976420634311
+search, 7746, 0.00973995785745
+complex, 1976, 0.00973995785745
+atmospher, 755, 0.00968616030348
+option, 6276, 0.00963377864026
+facil, 3348, 0.00960809585392
+collect, 1898, 0.00960809585392
+popular, 6746, 0.00958274024573
+usa, 9357, 0.00955770358448
+class, 1789, 0.00953297794571
+charg, 1664, 0.00946059221134
+ll, 5314, 0.00945772389845
+start, 8334, 0.0094504508559
+problem, 6887, 0.00939289567618
+expens, 3294, 0.00939074685807
+associ, 706, 0.00936799931533
+abil, 177, 0.00932326960541
+lot, 5356, 0.00931552642946
+sci, 7690, 0.00927952304607
+screen, 7719, 0.00925800512488
+rotat, 7490, 0.00923671734628
+regular, 7234, 0.00923671734628
+degre, 2491, 0.00923671734628
+mean, 5595, 0.00922660216466
+divis, 2767, 0.00921565483942
+announc, 524, 0.00913356533625
+jim, 4868, 0.00909375624274
+forget, 3604, 0.00907414634693
+buy, 1433, 0.00903549681554
+addit, 263, 0.00903549681554
+don, 2811, 0.0090293260528
+memori, 5628, 0.00901644989196
+measur, 5601, 0.00897889428108
+special, 8198, 0.0088703007158
+day, 2402, 0.00885331374231
+draw, 2861, 0.0088353807267
+produc, 6895, 0.00881814781969
+appli, 584, 0.00881814781969
+newsgroup, 6032, 0.00880106283646
+fast, 3397, 0.00878412325911
+materi, 5543, 0.00876732663348
+updat, 9333, 0.00862221384803
+bodi, 1194, 0.00862221384803
+star, 8324, 0.00860672436655
+signific, 7951, 0.00857610240371
+card, 1513, 0.00854594442789
+ad, 257, 0.00854594442789
+satellit, 7632, 0.00851623658795
+return, 7346, 0.00850154730855
+land, 5104, 0.00847249002862
+fair, 3363, 0.00842968432883
+carri, 1530, 0.0084156179217
+head, 4215, 0.00840165022701
+compar, 1960, 0.00837400550031
+later, 5140, 0.00834673948044
+toronto, 9003, 0.00830652824765
+singl, 7983, 0.00825414658443
+thing, 8869, 0.0081563329895
+regard, 7224, 0.00815334588988
+seri, 7805, 0.0081168239785
+david, 2397, 0.00803412532818
+becom, 983, 0.00797709024166
+alreadi, 443, 0.00797709024166
+mention, 5632, 0.00796587675664
+report, 7291, 0.00792164408464
+exact, 3253, 0.00789989099025
+non, 6097, 0.00788910295123
+mission, 5772, 0.00786770072002
+xgraph, 9898, 0.00776018706359
+workaround, 9835, 0.00776018706359
+walsh, 9626, 0.00776018706359
+wallpap, 9625, 0.00776018706359
+voxel, 9587, 0.00776018706359
+touchup, 9016, 0.00776018706359
+topographi, 8994, 0.00776018706359
+tation, 8711, 0.00776018706359
+sumitomo, 8534, 0.00776018706359
+ss01, 8288, 0.00776018706359
+springfield, 8268, 0.00776018706359
+newel, 6027, 0.00776018706359
+manupul, 5495, 0.00776018706359
+lattic, 5145, 0.00776018706359
+k1a, 4943, 0.00776018706359
+igor, 4497, 0.00776018706359
+hercul, 4263, 0.00776018706359
+gram, 3988, 0.00776018706359
+genr, 3829, 0.00776018706359
+fsu, 3708, 0.00776018706359
+fda, 3416, 0.00776018706359
+encapsul, 3084, 0.00776018706359
+elan, 3025, 0.00776018706359
+earthquak, 2957, 0.00776018706359
+doll, 2801, 0.00776018706359
+csn, 2276, 0.00776018706359
+crystallographi, 2268, 0.00776018706359
+cine, 1761, 0.00776018706359
+cgi, 1631, 0.00776018706359
+cfd, 1628, 0.00776018706359
+bute, 1428, 0.00776018706359
+apex, 562, 0.00776018706359
+anatomi, 496, 0.00776018706359
+256x256, 71, 0.00776018706359
+10k, 10, 0.00776018706359
+small, 8054, 0.00775393328042
+relat, 7247, 0.00760858490424
+ximag, 9900, 0.0075381159039
+x11r5, 9885, 0.0075381159039
+webster, 9684, 0.0075381159039
+verac, 9467, 0.0075381159039
+topograph, 8993, 0.0075381159039
+swedishchef, 8628, 0.0075381159039
+specialti, 8201, 0.0075381159039
+seamless, 7743, 0.0075381159039
+scivi, 7697, 0.0075381159039
+runtim, 7546, 0.0075381159039
+pseudocolor, 6960, 0.0075381159039
+polyview, 6736, 0.0075381159039
+part3, 6437, 0.0075381159039
+norton, 6112, 0.0075381159039
+ncsc, 5978, 0.0075381159039
+nato, 5965, 0.0075381159039
+monash, 5833, 0.0075381159039
+macro, 5422, 0.0075381159039
+lengthi, 5213, 0.0075381159039
+lang, 5111, 0.0075381159039
+interleav, 4714, 0.0075381159039
+interconnect, 4707, 0.0075381159039
+hdf, 4213, 0.0075381159039
+hairi, 4120, 0.0075381159039
+gould, 3963, 0.0075381159039
+ffts, 3459, 0.0075381159039
+exabyt, 3251, 0.0075381159039
+datacub, 2387, 0.0075381159039
+camino, 1475, 0.0075381159039
+7xx, 141, 0.0075381159039
+20k, 60, 0.0075381159039
+200k, 59, 0.0075381159039
+14th, 22, 0.0075381159039
+project, 6909, 0.00738769457765
+xyz, 9921, 0.00735667055486
+worley, 9843, 0.00735667055486
+topolog, 8995, 0.00735667055486
+tessel, 8811, 0.00735667055486
+subsampl, 8495, 0.00735667055486
+standalon, 8312, 0.00735667055486
+shipment, 7890, 0.00735667055486
+sceneri, 7672, 0.00735667055486
+pprg, 6791, 0.00735667055486
+powerglov, 6785, 0.00735667055486
+overkil, 6342, 0.00735667055486
+median, 5606, 0.00735667055486
+mathematica, 5546, 0.00735667055486
+identif, 4485, 0.00735667055486
+hp9000, 4407, 0.00735667055486
+harrison, 4185, 0.00735667055486
+gondwana, 3942, 0.00735667055486
+gentleman, 3832, 0.00735667055486
+freebi, 3670, 0.00735667055486
+errata, 3178, 0.00735667055486
+ecr, 2987, 0.00735667055486
+dgp, 2603, 0.00735667055486
+counterpart, 2183, 0.00735667055486
+consolid, 2063, 0.00735667055486
+chvrtd, 1748, 0.00735667055486
+broadway, 1326, 0.00735667055486
+bldg, 1148, 0.00735667055486
+belgium, 1007, 0.00735667055486
+albuquerqu, 388, 0.00735667055486
+week, 9691, 0.00732999812268
+abl, 180, 0.00728184121737
+yuv, 9971, 0.00720326069814
+vmd, 9561, 0.00720326069814
+springer, 8267, 0.00720326069814
+scsi, 7728, 0.00720326069814
+pdb, 6492, 0.00720326069814
+openwindow, 6260, 0.00720326069814
+omicron, 6232, 0.00720326069814
+nth, 6145, 0.00720326069814
+msc, 5902, 0.00720326069814
+miscellan, 5758, 0.00720326069814
+middlesex, 5700, 0.00720326069814
+lbl, 5165, 0.00720326069814
+kaiser, 4945, 0.00720326069814
+huntington, 4445, 0.00720326069814
+glassner, 3894, 0.00720326069814
+gaussian, 3796, 0.00720326069814
+fft, 3458, 0.00720326069814
+csc, 2269, 0.00720326069814
+barbara, 906, 0.00720326069814
+exist, 3283, 0.00713660453213
+xlib, 9902, 0.00707037103567
+wisc, 9796, 0.00707037103567
+verlag, 9473, 0.00707037103567
+unlimit, 9291, 0.00707037103567
+txt, 9176, 0.00707037103567
+tutori, 9165, 0.00707037103567
+truecolor, 9122, 0.00707037103567
+tin, 8940, 0.00707037103567
+thesea, 8859, 0.00707037103567
+socket, 8094, 0.00707037103567
+robust, 7443, 0.00707037103567
+pixmap, 6653, 0.00707037103567
+overlaid, 6343, 0.00707037103567
+nikolao, 6071, 0.00707037103567
+morpholog, 5867, 0.00707037103567
+menus, 5634, 0.00707037103567
+mcsun, 5588, 0.00707037103567
+inclus, 4580, 0.00707037103567
+hsv, 4417, 0.00707037103567
+histogram, 4312, 0.00707037103567
+halandri, 4122, 0.00707037103567
+gks, 3888, 0.00707037103567
+foster, 3623, 0.00707037103567
+electromagnet, 3033, 0.00707037103567
+aix, 369, 0.00707037103567
+4mb, 111, 0.00707037103567
+state, 8342, 0.00705712293168
+vicar, 9499, 0.00695315404614
+ultrix, 9202, 0.00695315404614
+suffic, 8522, 0.00695315404614
+stationari, 8347, 0.00695315404614
+radii, 7060, 0.00695315404614
+megabyt, 5618, 0.00695315404614
+lowel, 5369, 0.00695315404614
+licenc, 5253, 0.00695315404614
+lerc, 5219, 0.00695315404614
+larc, 5123, 0.00695315404614
+iraf, 4760, 0.00695315404614
+greenbelt, 4026, 0.00695315404614
+geophys, 3846, 0.00695315404614
+foti, 3624, 0.00695315404614
+dsp, 2892, 0.00695315404614
+concis, 2007, 0.00695315404614
+compris, 1988, 0.00695315404614
+button, 1432, 0.00695315404614
+baud, 953, 0.00695315404614
+australian, 793, 0.00695315404614
+ariadn, 632, 0.00695315404614
+case, 1540, 0.00692027259728
+wiley, 9760, 0.00684829987598
+subset, 8499, 0.00684829987598
+soil, 8104, 0.00684829987598
+rome, 7471, 0.00684829987598
+reston, 7326, 0.00684829987598
+redistribut, 7202, 0.00684829987598
+listserv, 5301, 0.00684829987598
+eas, 2958, 0.00684829987598
+discharg, 2688, 0.00684829987598
+decstat, 2458, 0.00684829987598
+cso, 2277, 0.00684829987598
+colormap, 1909, 0.00684829987598
+cartridg, 1539, 0.00684829987598
+everi, 3235, 0.00681718738216
+big, 1082, 0.00677986650765
+yale, 9929, 0.00675344774141
+xview, 9914, 0.00675344774141
+usernam, 9368, 0.00675344774141
+trial, 9089, 0.00675344774141
+tile, 8931, 0.00675344774141
+synchron, 8651, 0.00675344774141
+static, 8345, 0.00675344774141
+slice, 8029, 0.00675344774141
+republ, 7299, 0.00675344774141
+moor, 5853, 0.00675344774141
+merg, 5642, 0.00675344774141
+mcgraw, 5578, 0.00675344774141
+iti, 4801, 0.00675344774141
+flavor, 3529, 0.00675344774141
+expertis, 3299, 0.00675344774141
+columbia, 1913, 0.00675344774141
+calib, 1456, 0.00675344774141
+bye, 1435, 0.00675344774141
+x11r4, 9884, 0.00666685452695
+ucsd, 9189, 0.00666685452695
+thesi, 8860, 0.00666685452695
+subroutin, 8494, 0.00666685452695
+sixti, 7998, 0.00666685452695
+simplic, 7968, 0.00666685452695
+pex, 6579, 0.00666685452695
+mainten, 5455, 0.00666685452695
+lib, 5245, 0.00666685452695
+indiana, 4599, 0.00666685452695
+cursor, 2302, 0.00666685452695
+crimson, 2231, 0.00666685452695
+council, 2177, 0.00666685452695
+best, 1052, 0.00665449327235
+far, 3386, 0.00664871565341
+uncompress, 9228, 0.00658719649151
+tracer, 9029, 0.00658719649151
+stereo, 8382, 0.00658719649151
+santa, 7614, 0.00658719649151
+modif, 5813, 0.00658719649151
+flock, 3547, 0.00658719649151
+dobb, 2782, 0.00658719649151
+boat, 1188, 0.00658719649151
+alchemi, 390, 0.00658719649151
+follow, 3578, 0.00654201202881
+possibl, 6765, 0.00652567496041
+tokyo, 8972, 0.00651344467022
+overview, 6354, 0.00651344467022
+lockhe, 5325, 0.00651344467022
+lane, 5110, 0.00651344467022
+jolla, 4885, 0.00651344467022
+huntsvill, 4446, 0.00651344467022
+hook, 4367, 0.00651344467022
+hardcopi, 4168, 0.00651344467022
+geo, 3834, 0.00651344467022
+cdrom, 1587, 0.00651344467022
+bind, 1097, 0.00651344467022
+5th, 123, 0.00651344467022
+doesn, 2793, 0.00645639072776
+warp, 9644, 0.00644478336726
+telnet, 8768, 0.00644478336726
+represent, 7295, 0.00644478336726
+reform, 7218, 0.00644478336726
+perez, 6537, 0.00644478336726
+pariti, 6429, 0.00644478336726
+neighbor, 6000, 0.00644478336726
+mhz, 5676, 0.00644478336726
+gap, 3769, 0.00644478336726
+empti, 3079, 0.00644478336726
+dial, 2609, 0.00644478336726
+cell, 1598, 0.00644478336726
+sure, 8585, 0.00640979953692
+actual, 254, 0.00639959239493
+visualis, 9548, 0.00638055500776
+risc, 7413, 0.00638055500776
+pcs, 6487, 0.00638055500776
+pc, 6484, 0.00638055500776
+ohio, 6212, 0.00638055500776
+companion, 1959, 0.00638055500776
+canadian, 1483, 0.00638055500776
+campus, 1480, 0.00638055500776
+booth, 1227, 0.00638055500776
+alabama, 374, 0.00638055500776
+advis, 293, 0.00638055500776
+terrain, 8801, 0.00632022173802
+screw, 7720, 0.00632022173802
+lcs, 5169, 0.00632022173802
+infrar, 4640, 0.00632022173802
+compuserv, 1991, 0.00632022173802
+alex, 396, 0.00632022173802
+versus, 9480, 0.00626333801822
+triangul, 9091, 0.00626333801822
+tower, 9023, 0.00626333801822
+stroke, 8454, 0.00626333801822
+spline, 8245, 0.00626333801822
+kelli, 4977, 0.00626333801822
+insight, 4672, 0.00626333801822
+goddard, 3927, 0.00626333801822
+evolv, 3250, 0.00626333801822
+columbus, 1914, 0.00626333801822
+boundari, 1251, 0.00626333801822
+winter, 9790, 0.00620953063523
+subsystem, 8505, 0.00620953063523
+reusabl, 7349, 0.00620953063523
+proton, 6944, 0.00620953063523
+lawrenc, 5154, 0.00620953063523
+font, 3582, 0.00620953063523
+flip, 3545, 0.00620953063523
+canon, 1493, 0.00620953063523
+segment, 7768, 0.00615848384807
+pic, 6618, 0.00615848384807
+pen, 6511, 0.00615848384807
+maryland, 5529, 0.00615848384807
+juan, 4915, 0.00615848384807
+indigo, 4601, 0.00615848384807
+gsfc, 4072, 0.00615848384807
+floppi, 3551, 0.00615848384807
+dxf, 2939, 0.00615848384807
+cube, 2284, 0.00615848384807
+comprehens, 1985, 0.00615848384807
+believ, 1009, 0.00614658019733
+tip, 8945, 0.0061099281615
+silver, 7957, 0.0061099281615
+lui, 5385, 0.0061099281615
+invok, 4749, 0.0061099281615
+autom, 802, 0.0061099281615
+sinc, 7977, 0.00606748151115
+turbo, 9151, 0.00606363171349
+storag, 8416, 0.00606363171349
+richmond, 7386, 0.00606363171349
+prompt, 6915, 0.00606363171349
+interfer, 4710, 0.00606363171349
+dot, 2826, 0.00606363171349
+citizen, 1776, 0.00606363171349
+cambridg, 1470, 0.00606363171349
+right, 7399, 0.00605459869384
+wustl, 9878, 0.00601939357887
+trick, 9094, 0.00601939357887
+princip, 6869, 0.00601939357887
+microsoft, 5693, 0.00601939357887
+layer, 5160, 0.00601939357887
+isbn, 4777, 0.00601939357887
+impuls, 4558, 0.00601939357887
+extract, 3326, 0.00601939357887
+employe, 3078, 0.00601939357887
+default, 2470, 0.00601939357887
+decod, 2450, 0.00601939357887
+beta, 1055, 0.00601939357887
+targa, 8703, 0.00597703849903
+rapid, 7100, 0.00597703849903
+photoshop, 6609, 0.00597703849903
+inch, 4574, 0.00597703849903
+vol, 9570, 0.00593641268838
+tech, 8736, 0.00593641268838
+pacif, 6372, 0.00593641268838
+iff, 4492, 0.00593641268838
+flow, 3555, 0.00593641268838
+cosmic, 2164, 0.00593641268838
+correspond, 2158, 0.00593641268838
+coincid, 1883, 0.00593641268838
+approv, 591, 0.00593641268838
+veget, 9448, 0.0058973804636
+town, 9024, 0.0058973804636
+menu, 5633, 0.0058973804636
+geometr, 3843, 0.0058973804636
+enabl, 3083, 0.0058973804636
+strategi, 8431, 0.0058598215095
+inher, 4644, 0.0058598215095
+header, 4217, 0.0058598215095
+europ, 3220, 0.0058598215095
+doc, 2783, 0.0058598215095
+coverag, 2195, 0.0058598215095
+andrew, 505, 0.0058598215095
+help, 4249, 0.0058474602549
+pioneer, 6635, 0.00582362864231
+geolog, 3842, 0.00582362864231
+capit, 1502, 0.00582362864231
+analyz, 493, 0.00582362864231
+wire, 9793, 0.00578870596567
+vendor, 9458, 0.00578870596567
+revers, 7356, 0.00578870596567
+permiss, 6551, 0.00578870596567
+iii, 4502, 0.00578870596567
+harri, 4184, 0.00578870596567
+corner, 2149, 0.00578870596567
+tri, 9087, 0.00576435797021
+wuarchiv, 9876, 0.00575496733934
+summer, 8538, 0.00575496733934
+submit, 8491, 0.00575496733934
+deliv, 2507, 0.00575496733934
+univ, 9280, 0.00572233509908
+theoret, 8847, 0.00572233509908
+soft, 8097, 0.00572233509908
+shut, 7925, 0.00572233509908
+philosophi, 6596, 0.00572233509908
+mil, 5712, 0.00572233509908
+fashion, 3396, 0.00572233509908
+attract, 772, 0.00572233509908
+sat, 7626, 0.00569073897985
+nick, 6052, 0.00569073897985
+aid, 351, 0.00569073897985
+aerospac, 304, 0.00569073897985
+primarili, 6864, 0.00566011520477
+ideal, 4483, 0.00566011520477
+gray, 4011, 0.00566011520477
+gold, 3933, 0.00566011520477
+glove, 3911, 0.00566011520477
+extern, 3322, 0.00566011520477
+court, 2191, 0.00566011520477
+cooper, 2125, 0.00566011520477
+photograph, 6604, 0.0056304057101
+master, 5537, 0.0056304057101
+kingdom, 5025, 0.0056304057101
+infinit, 4631, 0.0056304057101
+incred, 4591, 0.0056304057101
+mount, 5886, 0.00560155748262
+minnesota, 5744, 0.00560155748262
+minim, 5739, 0.00560155748262
+car, 1510, 0.00560155748262
+attach, 760, 0.00560155748262
+adob, 277, 0.00560155748262
+wave, 9661, 0.00557352199031
+onlin, 6245, 0.00557352199031
+manufactur, 5494, 0.00557352199031
+link, 5289, 0.00557352199031
+encount, 3088, 0.00557352199031
+clip, 1821, 0.00557352199031
+virginia, 9533, 0.00554625469113
+termin, 8796, 0.00554625469113
+portion, 6752, 0.00554625469113
+mountain, 5887, 0.00554625469113
+intens, 4701, 0.00554625469113
+fundament, 3724, 0.00554625469113
+aircraft, 359, 0.00554625469113
+target, 8704, 0.00551971460731
+restrict, 7330, 0.00551971460731
+plain, 6659, 0.00551971460731
+pattern, 6468, 0.00551971460731
+older, 6218, 0.00551971460731
+fifth, 3471, 0.00551971460731
+bus, 1419, 0.00551971460731
+alter, 449, 0.00551971460731
+shoot, 7900, 0.00549386395487
+roman, 7468, 0.00549386395487
+progress, 6907, 0.00549386395487
+appl, 583, 0.00549386395487
+4th, 112, 0.00549386395487
+perspect, 6564, 0.00546866782016
+martin, 5523, 0.00546866782016
+coordin, 2126, 0.00546866782016
+complic, 1978, 0.00546866782016
+tabl, 8667, 0.00544409387625
+properti, 6925, 0.00544409387625
+pre, 6802, 0.00544409387625
+film, 3479, 0.00544409387625
+effici, 3006, 0.00544409387625
+sharewar, 7856, 0.00542011213358
+zip, 9988, 0.00539669471992
+employ, 3077, 0.00539669471992
+easier, 2960, 0.00539669471992
+centr, 1610, 0.00539669471992
+visit, 9544, 0.00537381568558
+spirit, 8238, 0.00537381568558
+comparison, 1962, 0.00537381568558
+zero, 9985, 0.00535145083062
+transport, 9065, 0.00535145083062
+transfer, 9052, 0.00535145083062
+subscrib, 8496, 0.00535145083062
+stretch, 8443, 0.00535145083062
+south, 8154, 0.00535145083062
+ship, 7888, 0.00535145083062
+photo, 6603, 0.00535145083062
+feder, 3425, 0.00535145083062
+2nd, 81, 0.00535145083062
+usenet, 9365, 0.00532957755095
+rich, 7382, 0.00532957755095
+probe, 6886, 0.00532957755095
+pasadena, 6446, 0.00532957755095
+march, 5504, 0.00532957755095
+item, 4798, 0.00532957755095
+heavi, 4230, 0.00532957755095
+tax, 8718, 0.00530817470106
+ram, 7083, 0.00530817470106
+primari, 6863, 0.00530817470106
+doug, 2833, 0.00530817470106
+categori, 1560, 0.00530817470106
+3rd, 102, 0.00530817470106
+overal, 6337, 0.00528722247112
+numer, 6157, 0.00528722247112
+misc, 5757, 0.00528722247112
+math, 5544, 0.00528722247112
+imho, 4524, 0.00528722247112
+fulli, 3718, 0.00528722247112
+custom, 2311, 0.00526670227686
+branch, 1269, 0.00526670227686
+block, 1163, 0.00526670227686
+bank, 897, 0.00526670227686
+favorit, 3411, 0.00524659666047
+smaller, 8055, 0.00522688920138
+deriv, 2550, 0.00522688920138
+central, 1611, 0.00522688920138
+summari, 8536, 0.00520756443568
+particip, 6440, 0.00520756443568
+instanc, 4680, 0.00520756443568
+asid, 687, 0.00520756443568
+investig, 4745, 0.00518860778324
+discov, 2698, 0.00518860778324
+core, 2140, 0.00518860778324
+broadcast, 1324, 0.00518860778324
+multipl, 5919, 0.00515174452589
+mathemat, 5545, 0.00515174452589
+jpl, 4912, 0.00515174452589
+intellig, 4698, 0.00515174452589
+dept, 2544, 0.00515174452589
+clean, 1799, 0.00515174452589
+magazin, 5432, 0.00513381261439
+tradit, 9037, 0.00511619809858
+piec, 6624, 0.00511619809858
+monitor, 5837, 0.00511619809858
+condit, 2017, 0.00511619809858
+bbs, 961, 0.00511619809858
+jpeg, 4905, 0.00509888993776
+budget, 1367, 0.00509888993776
+background, 855, 0.00509888993776
+accur, 225, 0.00509888993776
+planetari, 6665, 0.00508187765747
+content, 2084, 0.00508187765747
+vision, 9542, 0.00506515131143
+graviti, 4010, 0.00506515131143
+essenti, 3196, 0.00506515131143
+virtual, 9536, 0.00504870144662
+stage, 8302, 0.00504870144662
+sit, 7993, 0.00504870144662
+recommend, 7178, 0.00504870144662
+programm, 6906, 0.00504870144662
+logic, 5330, 0.00504870144662
+heart, 4225, 0.00504870144662
+cheap, 1677, 0.00504870144662
+bug, 1373, 0.00504870144662
+avoid, 827, 0.00504870144662
+creation, 2218, 0.00503251907116
+translat, 9057, 0.00501659562486
+pull, 6979, 0.00501659562486
+laboratori, 5090, 0.00501659562486
+corpor, 2154, 0.00501659562486
+statist, 8348, 0.00500092295193
+room, 7476, 0.00498549327599
+independ, 4595, 0.00498549327599
+colorado, 1908, 0.00498549327599
+assist, 705, 0.00497029917685
+mechan, 5603, 0.00495533356908
+communiti, 1953, 0.00495533356908
+astronom, 728, 0.00495533356908
+tiff, 8926, 0.00494058968219
+track, 9030, 0.00492606104222
+militari, 5715, 0.00492606104222
+bond, 1211, 0.00492606104222
+solut, 8118, 0.00491174145471
+communic, 1950, 0.00491174145471
+thousand, 8888, 0.00489762498876
+section, 7759, 0.00489762498876
+readi, 7139, 0.00489762498876
+mar, 5500, 0.00489762498876
+fix, 3511, 0.00489762498876
+intend, 4700, 0.00488370596239
+faster, 3399, 0.00488370596239
+desir, 2565, 0.00488370596239
+spot, 8261, 0.00485643866322
+advantag, 286, 0.00485643866322
+media, 5605, 0.00484308015174
+gone, 3943, 0.00484308015174
+energi, 3102, 0.00484308015174
+difficult, 2635, 0.00484308015174
+staff, 8301, 0.0048298985794
+precis, 6809, 0.0048298985794
+polit, 6723, 0.0048298985794
+initi, 4647, 0.0048298985794
+troubl, 9117, 0.00481688932013
+sport, 8257, 0.00481688932013
+countri, 2186, 0.00481688932013
+implement, 4544, 0.00480404792696
+west, 9708, 0.00479137012287
+wait, 9611, 0.00479137012287
+uucp, 9388, 0.00479137012287
+titl, 8953, 0.00479137012287
+qualiti, 7017, 0.00479137012287
+confus, 2037, 0.00479137012287
+calcul, 1451, 0.00479137012287
+roger, 7458, 0.00477885179224
+press, 6841, 0.00477885179224
+board, 1186, 0.00477885179224
+respond, 7322, 0.00476648897285
+print, 6871, 0.00476648897285
+lower, 5371, 0.00476648897285
+excel, 3261, 0.00476648897285
+repres, 7294, 0.00475427784833
+soon, 8136, 0.00474221474109
+edit, 2996, 0.00474221474109
+edg, 2993, 0.00474221474109
+equal, 3156, 0.00473029610567
+besid, 1051, 0.00473029610567
+request, 7301, 0.0047185185225
+york, 9960, 0.004706878692
+easili, 2962, 0.004706878692
+dos, 2825, 0.00469537342903
+btw, 1355, 0.00469537342903
+happi, 4161, 0.00468399965766
+promis, 6913, 0.00467275440624
+depart, 2535, 0.00467275440624
+realiti, 7148, 0.0046616348027
+select, 7774, 0.00465063807023
+load, 5317, 0.00462900256244
+togeth, 8969, 0.00460782741971
+network, 6018, 0.00460782741971
+step, 8377, 0.0045974064432
+improv, 4557, 0.0045974064432
+cover, 2194, 0.00457688624894
+key, 4994, 0.00456678266813
+normal, 6108, 0.00455678063255
+michael, 5680, 0.00453707317346
+market, 5514, 0.00453707317346
+contribut, 2103, 0.00453707317346
+east, 2965, 0.00452736388511
+couldn, 2176, 0.00452736388511
+forward, 3621, 0.00451774840777
+worth, 9850, 0.00450822494598
+half, 4124, 0.00450822494598
+stori, 8418, 0.00449879175533
+san, 7603, 0.00449879175533
+fit, 3510, 0.00448944714054
+robert, 7437, 0.00448018945367
+pick, 6619, 0.00448018945367
+hour, 4395, 0.00448018945367
+act, 249, 0.00444399658648
+steve, 8390, 0.0044351503579
+american, 469, 0.00442638207067
+strong, 8456, 0.00440907390985
+member, 5625, 0.00440907390985
+offer, 6203, 0.0043670763634
+main, 5450, 0.0043670763634
+releas, 7253, 0.00435076133961
+individu, 4604, 0.00435076133961
+indic, 4600, 0.00433470947286
+reach, 7128, 0.00432677959694
+flight, 3544, 0.00432677959694
+drive, 2873, 0.00431891240844
+concern, 2004, 0.00430336218328
+describ, 2556, 0.00428805120186
+add, 260, 0.00427297221395
+haven, 4207, 0.00425077365428
+fli, 3542, 0.00425077365428
+activ, 252, 0.00425077365428
+simpl, 7965, 0.00424348282194
+figur, 3476, 0.00422905946567
+natur, 5966, 0.00421484216442
+stop, 8413, 0.00420780896085
+miss, 5770, 0.00420780896085
+bring, 1316, 0.00420780896085
+situat, 7995, 0.0042008251135
+pictur, 6622, 0.0042008251135
+email, 3060, 0.00418700275016
+product, 6896, 0.00416662263531
+particular, 6442, 0.00416662263531
+govern, 3966, 0.00415326412383
+observ, 6179, 0.00414008255148
+april, 595, 0.00413355666474
+especi, 3190, 0.00412063188356
+messag, 5650, 0.00411423189904
+low, 5368, 0.00410155409495
+moon, 5851, 0.00404048007775
+near, 5982, 0.00402870249459
+deal, 2418, 0.00402286556194
+effect, 3005, 0.00398854512083
+red, 7194, 0.00398293837832
+known, 5054, 0.0039773630463
+turn, 9158, 0.00396082204232
+light, 5267, 0.00396082204232
+short, 7904, 0.00393385036001
+feel, 3429, 0.00391278726346
+sound, 8150, 0.00390759041529
+mind, 5733, 0.00387696664021
+claim, 1782, 0.00387696664021
+result, 7332, 0.00386200103244
+assum, 710, 0.00386200103244
+expect, 3290, 0.00385706209346
+human, 4432, 0.00384239066073
+correct, 2156, 0.00383272850558
+discuss, 2708, 0.00382793237986
+direct, 2667, 0.00381368114593
+heard, 4224, 0.00378120106439
+close, 1830, 0.00377211247006
+alway, 457, 0.0037586333363
+field, 3466, 0.00374533432998
+opinion, 6266, 0.00372787433543
+power, 6783, 0.00369384728882
+bad, 861, 0.00366499906134
+wrong, 9869, 0.00365288701534
+major, 5458, 0.00365288701534
+pretti, 6851, 0.00364888220445
+isn, 4783, 0.00364489344495
+hand, 4145, 0.00360969626985
+orbit, 6280, 0.00360204089239
+kind, 5021, 0.00355004131037
+god, 3926, 0.00350753545497
+second, 7753, 0.00346344809591
+els, 3053, 0.00344049367093
+man, 5471, 0.0034372572643
+player, 6683, 0.00343403134847
+howev, 4406, 0.00343081585565
+cours, 2190, 0.00340545921869
+talk, 8684, 0.00336558478154
+said, 7583, 0.00331288572085
+play, 6681, 0.00328200274688
+got, 3960, 0.00326555288206
+someon, 8124, 0.00325204936196
+reason, 7156, 0.00321002964664
+articl, 665, 0.00320746140221
+long, 5336, 0.00313572692903
+better, 1060, 0.0029772161172
+realli, 7150, 0.00295308901645
+someth, 8126, 0.0029295330253
+pleas, 6688, 0.002927594964
+come, 1923, 0.00288588548534
+thank, 8832, 0.00278699057948
+want, 9634, 0.00271095991548
+anyon, 554, 0.00267426657347
+say, 7653, 0.00252666337663
+year, 9943, 0.00250111141686
+think, 8871, 0.00227929255636

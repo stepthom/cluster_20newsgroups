@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104894
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: savastan@savy.East.Sun.COM (Paul Savastano - Sun USOPS CSU Supply Unit Master Scheduling)
+Subject: No No Box
+Organization: Sun Microsystems, Inc.
+Lines: 39
+Distribution: world
+Reply-To: savastan@savy.East.Sun.COM
+NNTP-Posting-Host: savy.east.sun.com
+
+
+
+BOSTON (0) AT SEATTLE (7)
+ 
+ BOSTON          AB  R  H BI  SEATTLE         AB  R  H BI
+ RILES 2B         3  0  0  0  FELDER LF        4  0  1  1
+ QUINTANA RF      2  0  0  0  COTTO DH         3  0  0  0
+ GREENWELL LF     3  0  0  0  SASSER PH        1  0  0  0
+ DAWSON DH        3  0  0  0  GRIFFEY JR CF    4  0  0  0
+ M VAUGHN 1B      3  0  0  0  BUHNER RF        3  1  0  0
+ CALDERON CF      3  0  0  0  BOONE 2B         4  2  3  2
+ COOPER 3B        3  0  0  0  T MARTINEZ 1B    3  1  1  0
+ JOHN VALENTIN SS 3  0  0  0  BLOWERS 3B       4  1  2  1
+ PENA C           3  0  0  0  VALLE C          4  1  2  2
+                              VIZQUEL SS       4  1  2  0
+ TOTALS          26  0  0  0  TOTALS          34  7 11  6
+ 
+ BOSTON                  000 000 000-- 0
+ SEATTLE                 022 102 00x-- 7
+ E--GREENWELL. DP--BOSTON 1, SEATTLE 1. LOB--BOSTON 1, 
+ SEATTLE 6. HR--BOONE (1) (OFF HESKETH). SB--FELDER (4), 
+ BLOWERS (1).
+                                   IP   H   R  ER  BB  SO  HR
+  BOSTON
+ HESKETH (L,2-1)                   3   6   5   5   2   1   1
+ QUANTRILL                     2 2-3   4   2   1   0   2   0
+ FOSSAS                          1-3   0   0   0   0   0   0
+ GR HARRIS                         1   0   0   0   1   2   0
+ K RYAN                            1   1   0   0   0   0   0
+  SEATTLE
+ BOSIO (W,1-1)                     9   0   0   0   2   4   0
+ HESKETH PITCHED TO TWO BATTERS IN THE FOURTH
+ SO--BOS: DAWSON, M VAUGHN, JOHN VALENTIN, COOPER. SEA: 
+ BUHNER 2, GRIFFEY JR, BLOWERS, BOONE.
+ BB--BOS: RILES, QUINTANA. SEA: FELDER, BUHNER, T MARTINEZ.
+ UMPIRES: HP--VOLTAGGIO. 1B--KAISER. 2B--JOHNSON. 
+ 3B--MCKEAN.
+ T--2:12. A--13,604.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ box         boston seattl  boston seattl rile
+felder quintana cotto greenwel sasser dawson
+griffey vaughn buhner calderon boon cooper
+martinez john valentin blower pena vall vizquel
+total total  boston seattl 00x greenwel boston
+seattl lob boston seattl boon hesketh felder
+blower  boston hesketh quantril fossa harri ryan
+seattl bosio hesketh pitch two batter fourth bos
+dawson vaughn john valentin cooper sea buhner
+griffey blower boon bos rile quintana sea felder
+buhner martinez umpir voltaggio kaiser johnson
+mckean
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+seattl, 7749, 0.37926094048
+boston, 1243, 0.336720832527
+felder, 3434, 0.282739549606
+buhner, 1376, 0.282739549606
+blower, 1173, 0.282739549606
+boon, 1223, 0.264876287759
+hesketh, 4278, 0.253110057978
+bos, 1236, 0.181786321491
+quintana, 7042, 0.176584191839
+rile, 7405, 0.168740038652
+greenwel, 4030, 0.156174451781
+vaughn, 9437, 0.154308421861
+griffey, 4047, 0.154308421861
+martinez, 5524, 0.145461407453
+dawson, 2401, 0.143128168941
+sea, 7739, 0.140015161136
+cooper, 2125, 0.132591072079
+valentin, 9409, 0.125360452418
+total, 9013, 0.0930418711279
+00x, 3, 0.0908931607456
+vall, 9412, 0.0882920959196
+quantril, 7024, 0.0882920959196
+cotto, 2174, 0.0882920959196
+calderon, 1453, 0.0882920959196
+john, 4878, 0.0881526713888
+kaiser, 4945, 0.084370019326
+vizquel, 9554, 0.0802124505971
+pena, 6512, 0.0802124505971
+bosio, 1237, 0.0762903740035
+harri, 4184, 0.0678016879665
+fourth, 3630, 0.0656096638549
+umpir, 9210, 0.0634844391482
+johnson, 4880, 0.0632101567466
+ryan, 7557, 0.0609949202857
+batter, 949, 0.0554047938257
+box, 1254, 0.0476060407514
+pitch, 6643, 0.0425526946952

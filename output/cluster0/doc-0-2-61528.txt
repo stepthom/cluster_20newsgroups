@@ -1,0 +1,218 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61528
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kjenks@gothamcity.jsc.nasa.gov
+Subject: Re: Deployable Space Dock..
+Organization: NASA/JSC/GM2, Space Shuttle Program Office
+X-Newsreader: TIN [version 1.1 PL8]
+X-Posted-From: algol.jsc.nasa.gov
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 42
+
+: In article <1993Apr30.000050.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+: >Why not build a inflatable space dock.
+
+Henry Spencer (henry@zoo.toronto.edu) wrote:
+: If you're doing large-scale satellite servicing, being able to do it in
+: a pressurized hangar makes considerable sense.  The question is whether
+: anyone is going to be doing large-scale satellite servicing in the near
+: future, to the point of justifying development of such a thing.
+
+That's a mighty fine idea.  But since you asked "Why not," I'll
+respond.
+
+Putting aside the application of such a space dock, there are other
+factors to consider than just pressurized volume.  Temperature control
+is difficult in space, and your inflatable hangar will have to 
+incorporate thermal insulation (maybe a double-walled inflatable).
+Micrometeoroid protection and radiation protection are also required.
+Don't think this will be a clear plastic bubble; it's more likely
+to look like a big white ball made out of the same kind of multi-layer
+fabric that soft-torso space suits are made out of today.
+
+Because almost all manned space vessels (Skylab, Mir, Salyut) used
+their pressurization for increased structural rigidity, even though
+they had (have) metal skins, they still kind of qualify as inflatable.
+
+The inflation process would have to be carefully controlled.  The
+space environment reduces ductility in exposed materials (due to
+temperature extremes, monotomic Oxygen impingement, and radiation
+effects on materials), so your "fabric" may not retain any flexibility
+for long.  (This may not matter.)  Even after inflation, pressure
+changes in the hangar may cause flexing in the fabric, which could
+lead to holes and tears as ductility decreases.
+
+These are some of the technical difficulties which the LLNL proposal
+for an inflatable space station dealt with to varying degrees of
+success.
+
+-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+     "Good ideas are common -- what's uncommon are people who'll
+      work hard enough to bring them about." -- Ashleigh Brilliant
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ deploy space dock   post algol jsc nasa gov
+build inflat space dock   you'r larg scale
+satellit servic abl pressur hangar make consider
+sens question whether anyon go larg scale satellit
+servic near futur point justifi develop thing
+that mighti fine idea sinc ask i'll respond  put
+asid applic space dock factor consid pressur volum
+temperatur control difficult space inflat hangar
+incorpor thermal insul mayb doubl wall inflat
+micrometeoroid protect radiat protect also requir
+don't think clear plastic bubbl it like look like
+big white ball made kind multi layer fabric soft
+torso space suit made today  almost man space
+vessel skylab mir salyut use pressur increas
+structur rigid even though metal skin still kind
+qualifi inflat  inflat process care control space
+environ reduc ductil expos materi due temperatur
+extrem monotom oxygen imping radiat effect materi
+fabric retain flexibl long matter even inflat
+pressur chang hangar caus flex fabric could lead
+hole tear ductil decreas  technic difficulti llnl
+propos inflat space station dealt vari degre
+success  ken jenk nasa jsc gm2 space shuttl
+program offic   good idea common what uncommon
+peopl who'll work hard enough bring ashleigh
+brilliant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+inflat, 4632, 0.436841699308
+space, 8164, 0.292523712433
+hangar, 4153, 0.260376534118
+fabric, 3344, 0.240171174708
+pressur, 6842, 0.226870253766
+dock, 2784, 0.222611376331
+jsc, 4914, 0.12965446036
+temperatur, 8773, 0.125364154915
+radiat, 7058, 0.122234269038
+protect, 6940, 0.111831893929
+scale, 7659, 0.106842349813
+materi, 5543, 0.100945035046
+satellit, 7632, 0.0980540405043
+control, 2107, 0.0956395056471
+servic, 7813, 0.0943041637604
+uncommon, 9227, 0.0893490556298
+torso, 9005, 0.0893490556298
+imping, 4543, 0.0893490556298
+bubbl, 1356, 0.0867921780393
+brilliant, 1315, 0.0867921780393
+algol, 406, 0.0867921780393
+nasa, 5956, 0.0862458811005
+larg, 5124, 0.0848684863639
+rigid, 7403, 0.0847030569328
+flex, 3540, 0.0847030569328
+salyut, 7598, 0.0829367302051
+kind, 5021, 0.0817487609331
+skin, 8008, 0.0814066683977
+llnl, 5315, 0.0814066683977
+insul, 4688, 0.0800570582359
+dealt, 2420, 0.0800570582359
+vessel, 9486, 0.0788497908073
+idea, 4482, 0.0783474366929
+retain, 7337, 0.0777576845759
+plastic, 6673, 0.0777576845759
+skylab, 8013, 0.0758435049235
+mighti, 5709, 0.074994342973
+mir, 5749, 0.0734642811657
+gm2, 3915, 0.072769617412
+ll, 5314, 0.0725960763411
+jenk, 4846, 0.0721146710038
+metal, 5658, 0.0709074035752
+expos, 3311, 0.0709074035752
+incorpor, 4587, 0.0698152973438
+tear, 8735, 0.0693059493707
+layer, 5160, 0.0693059493707
+decreas, 2456, 0.0688182824687
+oxygen, 6363, 0.0679011176914
+flexibl, 3541, 0.0679011176914
+difficulti, 2636, 0.0670519557409
+soft, 8097, 0.0658856845731
+deploy, 2540, 0.0648272301799
+vari, 9426, 0.0626820774573
+thermal, 8857, 0.0626820774573
+qualifi, 7015, 0.0618729101117
+multi, 5917, 0.0618729101117
+justifi, 4939, 0.0604081387526
+asid, 687, 0.0599587304594
+reduc, 7204, 0.0595262850747
+wall, 9619, 0.057943297341
+volum, 9577, 0.057943297341
+suit, 8529, 0.057759958347
+gov, 3965, 0.057759958347
+extrem, 3333, 0.0567175634416
+ken, 4980, 0.0562298965396
+difficult, 2635, 0.0557621400556
+hole, 4343, 0.0551667623658
+factor, 3352, 0.055022629111
+respond, 7322, 0.0548802863777
+consider, 2060, 0.0540614779355
+doubl, 2828, 0.0534211749065
+environ, 3139, 0.0532972986441
+degre, 2491, 0.0531747472869
+structur, 8460, 0.0522388442509
+increas, 4590, 0.0516904887757
+technic, 8737, 0.050864297316
+success, 8513, 0.050864297316
+fine, 3485, 0.050864297316
+offic, 6206, 0.0507650894004
+applic, 585, 0.0501872303552
+common, 1948, 0.050000910109
+white, 9737, 0.0491122135269
+bring, 1316, 0.0484477698594
+station, 8346, 0.0483673594054
+futur, 3737, 0.0483673594054
+like, 5272, 0.0482541177758
+propos, 6933, 0.0481294593166
+sens, 7788, 0.0477436167117
+lead, 5172, 0.0465211825798
+near, 5982, 0.0463855781253
+caus, 1569, 0.0463855781253
+process, 6890, 0.0463183729903
+build, 1378, 0.0462515597242
+shuttl, 7929, 0.0461190907034
+effect, 3005, 0.0459232151188
+care, 1516, 0.0451111055616
+ball, 877, 0.0448134669398
+matter, 5553, 0.0444662148299
+clear, 1803, 0.0439643049893
+today, 8964, 0.0438017711624
+hard, 4167, 0.0433792922415
+develop, 2588, 0.0426754824643
+requir, 7302, 0.0426268265836
+abl, 180, 0.0419207443511
+chang, 1650, 0.0411698262948
+consid, 2059, 0.0401870720845
+mayb, 5564, 0.0401088571551
+ask, 689, 0.0396879655326
+man, 5471, 0.0395758102228
+big, 1082, 0.0390309321664
+long, 5336, 0.036104057483
+program, 6905, 0.035567264125
+sinc, 7977, 0.0349298115258
+question, 7032, 0.0346844393516
+post, 6766, 0.0334650401667
+work, 9833, 0.0324625701891
+point, 6710, 0.032343210332
+thing, 8869, 0.0313033970291
+peopl, 6530, 0.0310885449343
+anyon, 554, 0.0307909063125
+good, 3948, 0.0294547461561
+make, 5459, 0.0287392924168
+look, 5341, 0.0285957010305
+think, 8871, 0.0262432639505
+don, 2811, 0.0259904094186
+use, 9363, 0.0253064494889

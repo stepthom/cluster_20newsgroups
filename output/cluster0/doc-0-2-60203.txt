@@ -1,0 +1,153 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60203
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: shag@aero.org (Rob Unverzagt)
+Subject: Re: space food sticks
+Keywords: food
+Article-I.D.: news.1pscc6INNebg
+Organization: Organization?  You must be kidding.
+Lines: 35
+NNTP-Posting-Host: aerospace.aero.org
+
+In article <1pr5u2$t0b@agate.berkeley.edu> ghelf@violet.berkeley.edu (;;;;RD48) writes:
+> I had spacefood sticks just about every morning for breakfast in
+> first and second grade (69-70, 70-71).  They came in Chocolate,
+> strawberry, and peanut butter and were cylinders about 10cm long
+> and 1cm in diameter wrapped in yellow space foil (well, it seemed
+> like space foil at the time).  
+
+Wasn't there a "plain" flavor too?  They looked more like some
+kind of extruded industrial product than food -- perfectly
+smooth cylinders with perfectly smooth ends.  Kinda scary.
+
+> The taste is hard to describe, although I remember it fondly.  It was
+> most certainly more "candy" than say a modern "Power Bar."  Sort of
+> a toffee injected with vitamins.  The chocolate Power Bar is a rough
+> approximation of the taste.  Strawberry sucked.
+
+An other post described it as like a "microwaved Tootsie Roll" --
+which captures the texture pretty well.  As for taste, they were
+like candy, only not very sweet -- does that make sense? I recall
+liking them for their texture, not taste. I guess I have well
+developed texture buds.
+
+> Man, these were my "60's."
+
+It was obligatory to eat a few while watching "Captain Scarlet".
+Does anybody else remember _that_, as long as we're off the
+topic of space?
+
+Shag
+
+-- 
+----------------------------------------------------------------------
+       Rob Unverzagt        |
+  shag@aerospace.aero.org   |       Tuesday is soylent green day.
+unverzagt@courier2.aero.org | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space food stick  articl news 1pscc6innebg
+spacefood stick everi morn breakfast first second
+grade came chocol strawberri peanut butter cylind
+10cm long 1cm diamet wrap yellow space foil well
+seem like space foil time  wasn't plain flavor
+look like kind extrud industri product food
+perfect smooth cylind perfect smooth end kinda
+scari  tast hard describ although rememb fond
+certain candi say modern power bar sort toffe
+inject vitamin chocol power bar rough approxim
+tast strawberri suck  post describ like microwav
+tootsi roll captur textur pretti well tast like
+candi sweet make sens recal like textur tast guess
+well develop textur bud  man  obligatori eat watch
+captain scarlet anybodi els rememb long we'r topic
+space  shag    rob unverzagt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tast, 8708, 0.358872771864
+textur, 8825, 0.252602487439
+foil, 3573, 0.223069661623
+chocol, 1716, 0.217700289073
+candi, 1488, 0.199849580673
+cylind, 2326, 0.188814853034
+strawberri, 8434, 0.173405187444
+smooth, 8069, 0.170302318696
+space, 8164, 0.167073851387
+food, 3584, 0.161102879592
+bar, 904, 0.158361365253
+like, 5272, 0.155025918915
+stick, 8393, 0.145349384149
+perfect, 6538, 0.128748731407
+describ, 2556, 0.126892998571
+scarlet, 7667, 0.119056741907
+unverzagt, 9327, 0.114820621258
+toffe, 8967, 0.114820621258
+peanut, 6497, 0.114820621258
+extrud, 3335, 0.114820621258
+butter, 1431, 0.114820621258
+breakfast, 1286, 0.114820621258
+sweet, 8630, 0.111534830811
+shag, 7840, 0.111534830811
+power, 6783, 0.109309179549
+vitamin, 9550, 0.108850144536
+rememb, 7269, 0.108455496159
+captain, 1507, 0.106580274633
+fond, 3580, 0.102879667815
+flavor, 3529, 0.0999247903367
+bud, 1362, 0.0999247903367
+inject, 4648, 0.0986435471657
+scari, 7666, 0.097464917702
+yellow, 9947, 0.0944074265168
+long, 5336, 0.0927931533447
+wrap, 9857, 0.0926730704439
+microwav, 5696, 0.09112163607
+kinda, 5022, 0.09112163607
+grade, 3978, 0.090403200541
+diamet, 2613, 0.088436949795
+plain, 6659, 0.0816703328394
+roll, 7464, 0.0809150386994
+rob, 7434, 0.0801966031704
+captur, 1509, 0.0795115955954
+suck, 8515, 0.0788570430621
+rough, 7493, 0.0788570430621
+morn, 5864, 0.0785403640309
+eat, 2968, 0.0770517229607
+approxim, 593, 0.0762258051486
+modern, 5811, 0.0726746920747
+recal, 7166, 0.0722598757026
+industri, 4608, 0.0710812462389
+topic, 8992, 0.0703448424253
+wasn, 9652, 0.0639031252511
+product, 6896, 0.061649828234
+sens, 7788, 0.0613543332194
+watch, 9655, 0.0610646516001
+anybodi, 552, 0.0598713191822
+came, 1472, 0.0593515590795
+guess, 4079, 0.0570695348157
+sort, 8144, 0.0566385282194
+hard, 4167, 0.0557458302139
+develop, 2588, 0.0548413788428
+pretti, 6851, 0.0539892812092
+kind, 5021, 0.0525268199605
+certain, 1619, 0.0521045685933
+second, 7753, 0.0512455767895
+els, 3053, 0.0509059404746
+news, 6031, 0.0508580542295
+man, 5471, 0.0508580542295
+end, 3091, 0.0507627464054
+everi, 3235, 0.0504339447
+articl, 665, 0.0474579681966
+post, 6766, 0.0430052301648
+say, 7653, 0.0373848022268
+make, 5459, 0.0369322695865
+look, 5341, 0.0367477432693
+time, 8936, 0.0349869235

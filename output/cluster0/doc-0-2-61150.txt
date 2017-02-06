@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61150
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jafoust@cco.caltech.edu (Jeff Foust)
+Subject: Re: New planet/Kuiper object found?
+Organization: Caltech:  Pasadena, California, USA
+Lines: 12
+Distribution: sci
+NNTP-Posting-Host: sandman.caltech.edu
+
+In a recent article jdnicoll@prism.ccs.uwo.ca (James Davis Nicoll) writes:
+>	If the  new  Kuiper belt object *is*  called 'Karla', the next
+>one  should be called 'Smiley'.
+
+Unless I'm imaging things, (always a possibility =) 1992 QB1, the Kuiper Belt
+object discovered last year, is known as Smiley.
+
+-- 
+Jeff Foust              [49 days!]	"You're from outer space."
+Senior, Planetary Science, Caltech	"No, I'm from Iowa.  I only work in
+jafoust@cco.caltech.edu			 outer space."
+jeff@scn1.jpl.nasa.gov			-- from Star Trek IV: The Voyage Home
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new planet kuiper object found       new kuiper
+belt object call karla next one call smiley
+unless i'm imag thing alway possibl qb1 kuiper
+belt object discov last year known smiley   jeff
+foust day you'r outer space senior planetari
+scienc caltech i'm iowa work
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kuiper, 5080, 0.531286314961
+smiley, 8063, 0.329730755532
+belt, 1017, 0.314780725776
+object, 6173, 0.298945326815
+foust, 3631, 0.21099338354
+qb1, 7005, 0.192237828222
+karla, 4958, 0.18619988803
+iowa, 4754, 0.179100692342
+caltech, 1468, 0.173482272904
+senior, 7787, 0.17029523514
+new, 6023, 0.157641322346
+outer, 6324, 0.156473036171
+jeff, 4839, 0.143755421045
+discov, 2698, 0.141074165233
+planetari, 6665, 0.138172257048
+planet, 6664, 0.123895281884
+unless, 9289, 0.110181534149
+known, 5054, 0.108141373376
+alway, 457, 0.102194284573
+scienc, 7692, 0.101123696934
+imag, 4512, 0.0907022301277
+possibl, 6765, 0.0887139851462
+day, 2402, 0.0802382127616
+space, 8164, 0.0767533671632
+work, 9833, 0.0766587567639
+thing, 8869, 0.0739214265771
+year, 9943, 0.0680032525157

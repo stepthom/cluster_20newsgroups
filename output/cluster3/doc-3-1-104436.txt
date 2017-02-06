@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104436
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jxu@black.clarku.edu (Dark Wing Duck!!)
+Subject: Bosox win again! (the team record is 9-3)
+Organization: Clark University (Worcester, MA)
+Lines: 8
+
+Today, Frank Viola and rest of pitcher staff of Boston Red Sox shutout Chicago
+White Sox 4-0.  It is Red Sox 9th win of this season.
+
+So far, Red Sox won all the games Roger and Frank V. pitched (6-0) and 3-3
+when other three starters were pitching.  Tomorrow, Dopson will pitch again
+(have a good first start and rocky second start).  I wonder that Bosox can
+play over 500 ball without Roger and Frank V.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosox win team record    today frank viola rest
+pitcher staff boston red sox shutout chicago white
+sox red sox 9th win season  far red sox game roger
+frank pitch three starter pitch tomorrow dopson
+pitch good first start rocki second start wonder
+bosox play ball without roger frank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sox, 8162, 0.456332665908
+frank, 3655, 0.316991519596
+bosox, 1241, 0.310845448477
+red, 7194, 0.29650601553
+pitch, 6643, 0.270456842358
+roger, 7458, 0.237171349246
+dopson, 2822, 0.187055928644
+win, 9770, 0.179529787285
+shutout, 7927, 0.165435856993
+9th, 152, 0.158331426242
+start, 8334, 0.156339938122
+viola, 9525, 0.14936932121
+tomorrow, 8979, 0.139716711997
+starter, 8335, 0.127393913587
+rocki, 7450, 0.126105164287
+chicago, 1701, 0.124096299231
+staff, 8301, 0.119852384275
+boston, 1243, 0.118896312983
+white, 9737, 0.105847449811
+rest, 7324, 0.105481584987
+record, 7184, 0.104415429898
+pitcher, 6644, 0.0981512109945
+ball, 877, 0.0965827205117
+season, 7747, 0.0951079286909
+today, 8964, 0.0944022971438
+wonder, 9821, 0.089668988963
+second, 7753, 0.085944353755
+far, 3386, 0.0824928733316
+team, 8732, 0.0819968223124
+play, 6681, 0.0814418456091
+game, 3761, 0.0748573377245
+good, 3948, 0.0634813530398

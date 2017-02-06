@@ -1,0 +1,137 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60881
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Re: NASP
+Distribution: sci
+Organization: Boeing AI Center, Huntsville, AL
+Lines: 39
+
+I have before me a pertinent report from the United States General
+Accounting Office:
+
+National Aero-Space Plane: Restructuring Future Research and Development
+Efforts
+December 1992
+Report number GAO/NSIAD-93-71
+
+In the back it lists the following related reports:
+
+NASP: Key Issues Facing the Program (31 Mar 92) GAO/T-NSIAD-92-26
+
+Aerospace Plane Technology: R&D Efforts in Japan and Australia
+(4 Oct 91) GAO/NSIAD-92-5
+
+Aerospace Plane Technology: R&D Efforts in Europe (25 July 91)
+GAO/NSIAD-91-194
+
+Aerospace Technology: Technical Data and Information on Foreign
+Test Facilities (22 Jun 90) GAO/NSIAD-90-71FS
+
+Investment in Foreign Aerospace Vehicle Research and Technological
+Development Efforts (2 Aug 89) GAO/T-NSIAD-89-43
+
+NASP: A Technology Development and Demonstration Program to Build
+the X-30 (27 Apr 88) GAO/NSIAD-88-122
+
+
+On the inside back cover, under "Ordering Information" it says
+
+"The first copy of each GAO report is free.  . . .  Orders
+may also be placed by calling (202)275-6241
+"
+
+Dani
+
+-- 
+Dani Eder/Meridian Investment Company/(205)464-2697(w)/232-7467(h)/
+Rt.1, Box 188-2, Athens AL 35611/Location: 34deg 37' N 86deg 43' W +100m alt.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nasp     pertin report unit state general account
+offic  nation aero space plane restructur futur
+research develop effort decemb report number gao
+nsiad  back list follow relat report  nasp key
+issu face program gao nsiad  aerospac plane
+technolog effort japan australia gao nsiad
+aerospac plane technolog effort europ gao nsiad
+aerospac technolog technic data inform foreign
+test facil jun gao nsiad 71fs  invest foreign
+aerospac vehicl research technolog develop effort
+gao nsiad  nasp technolog develop demonstr program
+build gao nsiad   insid back cover order inform
+say  first copi gao report free order also place
+call   dani   dani eder meridian invest compani
+box athen locat 34deg 86deg 100m alt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gao, 3768, 0.66826787532
+aerospac, 304, 0.263973373062
+nasp, 5960, 0.241899277073
+technolog, 8743, 0.22934457119
+effort, 3007, 0.215726748782
+report, 7291, 0.183728608589
+plane, 6663, 0.168031510152
+dani, 2358, 0.16706696883
+foreign, 3598, 0.142835206471
+develop, 2588, 0.128947635403
+invest, 4744, 0.120340636154
+research, 7307, 0.0887821621886
+eder, 2992, 0.085312520384
+aero, 298, 0.085312520384
+86deg, 145, 0.085312520384
+34deg, 94, 0.085312520384
+100m, 7, 0.085312520384
+restructur, 7331, 0.083533484415
+jun, 4930, 0.083533484415
+order, 6281, 0.0815936615792
+pertin, 6568, 0.0806330923575
+meridian, 5643, 0.0806330923575
+inform, 4637, 0.0758652341977
+athen, 741, 0.0747377102576
+program, 6905, 0.0716463621396
+decemb, 2438, 0.0693134502873
+europ, 3220, 0.0679541292827
+japan, 4825, 0.0623181039299
+australia, 792, 0.060390151191
+alt, 446, 0.0589326092569
+facil, 3348, 0.0557107231645
+demonstr, 2520, 0.0557107231645
+account, 221, 0.0554185331391
+vehicl, 9449, 0.0552751662079
+insid, 4671, 0.0540592121344
+cover, 2194, 0.0530764152746
+key, 4994, 0.0529592478769
+unit, 9278, 0.0523906161426
+technic, 8737, 0.0512302809216
+offic, 6206, 0.0511303591758
+locat, 5323, 0.0511303591758
+copi, 2130, 0.0507391051126
+face, 3345, 0.0496391408551
+futur, 3737, 0.048715376807
+compani, 1958, 0.0480109683356
+test, 8812, 0.0474189980907
+box, 1254, 0.0471340233763
+issu, 4793, 0.047063865777
+free, 3668, 0.0469941320933
+build, 1378, 0.0465843533237
+nation, 5962, 0.0454356932575
+general, 3818, 0.0445587482982
+relat, 7247, 0.0441169378115
+data, 2385, 0.0427395700642
+list, 5298, 0.0422684479345
+state, 8342, 0.0409193900605
+place, 6657, 0.0395281692421
+follow, 3578, 0.0379326170989
+number, 6156, 0.037527632053
+space, 8164, 0.032736500748
+say, 7653, 0.0293007576206

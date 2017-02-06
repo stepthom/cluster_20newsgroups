@@ -1,0 +1,177 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60866
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Wales.Larrison@ofa123.fidonet.org
+Subject: Space Clipper Launch Article
+X-Sender: newtout 0.08 Feb 23 1993
+Lines: 40
+
+To All -- I thought the net would find this amusing..
+  
+From the March 1993 "Aero Vision" (The newsletter for the Employees
+of McDonnell Douglas Aerospace at Huntington Beach, California).
+  
+  SPACE CLIPPERS LAUNCHED SUCCESSFULLY
+  
+  "On Monday, March 15 at noon, Quest Aerospace Education, Inc.
+  launched two DC-Y Space Clippers in the mall near the cafeteria.
+  The first rocket was launched by Dr. Bill Gaubatz, director and
+  SSTO program manager, and the second by Air Force Captain Ed
+  Spalding, who with Staff Sgt. Don Gisburne represents Air Force
+  Space Command, which was requested by SDIO to assess the DC-X for
+  potential military operational use.  Both rocket launches were
+  successful.  The first floated to the ground between the cafeteria
+  and Building 11, and the second landed on the roof of the
+  cafeteria.
+  
+  Quest's Space Clipper is the first flying model rocket of the
+  McDonnell Douglas DC-X.  The 1/122nd semi-scale model of the
+  McDonnell Douglas Delta Clipper has an estimated maximum altitude
+  of 300 feet.  The Space Clippers can be used in educational
+  settings to teach mathematics and science, as well as social
+  studies and other applications.  The Space Clipper is available
+  either in the $35 Space Clipper outfit, which includes everything
+  needed for three launches, or as individual rockets for $12 each.
+  Both are available through hobby shops or by calling 1-800-858-
+  7302."
+  
+By the way -- this is not an endorsement to buy the product nor is
+it an advertisement to buy the product.  I make no claims about the
+product.  This is posted for public information only (hey, I found
+it amusing...), and is merely a repeat of what was included in the
+MDSSC Huntington Beach Newsletter.
+  
+-----------------------------------------------------------------
+ Wales Larrison                         Space Technology Investor
+  
+
+--- Maximus 2.01wb
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space clipper launch articl sender newtout
+thought net find amus  march aero vision newslett
+employe mcdonnel dougla aerospac huntington beach
+california  space clipper launch success  monday
+march noon quest aerospac educ inc launch two
+space clipper mall near cafeteria first rocket
+launch bill gaubatz director ssto program manag
+second air forc captain spald staff sgt gisburn
+repres air forc space command request sdio assess
+potenti militari oper use rocket launch success
+first float ground cafeteria build second land
+roof cafeteria  quest space clipper first fli
+model rocket mcdonnel dougla 122nd semi scale
+model mcdonnel dougla delta clipper estim maximum
+altitud feet space clipper use educ set teach
+mathemat scienc well social studi applic space
+clipper avail either space clipper outfit includ
+everyth need three launch individu rocket avail
+hobbi shop call   way endors buy product advertis
+buy product make claim product post public inform
+hey found amus mere repeat includ mdssc huntington
+beach newslett   wale larrison space technolog
+investor   maximus 01wb
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clipper, 1823, 0.547415977307
+space, 8164, 0.275066984722
+launch, 5147, 0.254174895194
+mcdonnel, 5574, 0.21155687812
+rocket, 7447, 0.200466855967
+dougla, 2837, 0.185861615537
+huntington, 4445, 0.155974748922
+quest, 7031, 0.144359756576
+beach, 967, 0.144359756576
+newslett, 6033, 0.136853994327
+product, 6896, 0.135332028083
+amus, 485, 0.132300433214
+aerospac, 304, 0.123223581758
+march, 5504, 0.115403225734
+educ, 3002, 0.108286751583
+air, 357, 0.101424299518
+buy, 1433, 0.0978244024648
+success, 8513, 0.0956578102769
+model, 5807, 0.0903674495019
+forc, 3594, 0.0892254980586
+mall, 5469, 0.0796482933758
+aero, 298, 0.0796482933758
+captain, 1507, 0.0779873744609
+larrison, 5129, 0.0765486210542
+second, 7753, 0.0749952653113
+avail, 811, 0.0748520801279
+includ, 4579, 0.0741500867574
+wale, 9616, 0.0731173950219
+roof, 7474, 0.0713174464953
+noon, 6104, 0.0713174464953
+newtout, 6038, 0.0713174464953
+maximus, 5561, 0.0713174464953
+hobbi, 4332, 0.0713174464953
+01wb, 4, 0.0713174464953
+endors, 3096, 0.0697755856471
+assess, 700, 0.0697755856471
+shop, 7901, 0.0666759133256
+sdio, 7735, 0.0666759133256
+investor, 4746, 0.0651700279547
+employe, 3078, 0.0651700279547
+director, 2668, 0.0642716206846
+social, 8091, 0.0638490314077
+sender, 7786, 0.0626724477577
+monday, 5834, 0.0626724477577
+maximum, 5560, 0.0623071705595
+float, 3546, 0.0623071705595
+ssto, 8295, 0.0619538718455
+semi, 7781, 0.0603427204344
+delta, 2509, 0.0603427204344
+estim, 3201, 0.0579384277934
+altitud, 452, 0.0579384277934
+advertis, 291, 0.0574698911317
+feet, 3430, 0.0561753787735
+mathemat, 5545, 0.0557762722056
+hey, 4283, 0.0553914225308
+vision, 9542, 0.0548387554719
+repeat, 7286, 0.0538118220805
+california, 1459, 0.0536497942842
+militari, 5715, 0.053332870101
+staff, 8301, 0.0522917502093
+mere, 5641, 0.0522917502093
+potenti, 6774, 0.0516052349023
+repres, 7294, 0.0514730290054
+request, 7301, 0.0510858743472
+scale, 7659, 0.0502331977794
+teach, 8729, 0.050001476044
+ground, 4061, 0.0484062563901
+use, 9363, 0.0475925093185
+command, 1933, 0.0472809237266
+applic, 585, 0.0471922430169
+individu, 4604, 0.0471042862394
+everyth, 3242, 0.0464253438548
+studi, 8469, 0.0463434069929
+fli, 3542, 0.0460217519005
+land, 5104, 0.0458644550133
+oper, 6261, 0.0451106760277
+near, 5982, 0.0436174592595
+build, 1378, 0.0434914385784
+net, 6010, 0.0433668748164
+technolog, 8743, 0.0428235002508
+claim, 1782, 0.0419746642268
+public, 6973, 0.0413921090893
+manag, 5472, 0.0411373774755
+scienc, 7692, 0.0402672024948
+set, 7815, 0.0385930224762
+thought, 8887, 0.0376059214607
+inform, 4637, 0.0354141244638
+articl, 665, 0.0347261474942
+program, 6905, 0.0334447420221
+post, 6766, 0.0314679709747
+need, 5993, 0.0289696831067
+way, 9666, 0.028185155795
+make, 5459, 0.0270242382827

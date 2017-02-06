@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38992
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kknudsen@vyasa.helios.nd.edu (keith knudsen)
+Subject: Wanted: Shareware graphics display program for DOS.
+Distribution: usa
+Organization: University of Notre Dame, Notre Dame
+Lines: 16
+
+
+I need a graphics display program that can take as a parameter the name of
+the file to be displayed, then just display that image and then quit.
+
+All of the other graphics display programs come up with a menu first or some
+other silliness.
+
+This program is going to be run from within another program.  I have lots of
+memory and VGA color.  Any graphics format will do.  Has anyone heard of such
+a beast?
+
+					Keith
+
+--
+Keith Knudsen
+Notre Dame, IN
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want sharewar graphic display program dos
+need graphic display program take paramet name
+file display display imag quit  graphic display
+program come menu first silli  program go run
+within anoth program lot memori vga color graphic
+format anyon heard beast  keith   keith knudsen
+notr dame
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+display, 2734, 0.560414334385
+program, 6905, 0.403721572804
+graphic, 3997, 0.342568952292
+keith, 4974, 0.295892893597
+notr, 6124, 0.184808300614
+dame, 2345, 0.184808300614
+menu, 5633, 0.154148184877
+beast, 972, 0.148746903776
+silli, 7956, 0.146415840687
+paramet, 6421, 0.142942315385
+sharewar, 7856, 0.141673146642
+vga, 9492, 0.128016160206
+dos, 2825, 0.122729624767
+memori, 5628, 0.117837859831
+color, 1907, 0.104549855457
+format, 3612, 0.104107700916
+heard, 4224, 0.0988346070477
+quit, 7043, 0.0952717417634
+file, 3477, 0.0900139259506
+imag, 4512, 0.087196808073
+anoth, 533, 0.0838379609837
+lot, 5356, 0.0811643688886
+run, 7543, 0.0783571875519
+come, 1923, 0.0754324758379
+want, 9634, 0.070860198494
+need, 5993, 0.0699403572599
+anyon, 554, 0.0699010926499

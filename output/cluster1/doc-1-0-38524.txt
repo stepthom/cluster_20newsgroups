@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38524
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lmp8913@rigel.tamu.edu (PRESTON, LISA M)
+Subject: Another CVIEW question (was CView answers)
+Organization: Texas A&M University, Academic Computing Services
+Lines: 12
+Distribution: world
+NNTP-Posting-Host: rigel.tamu.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+
+	Has anybody gotten CVIEW to work in 32k or 64k color mode on a Trident
+8900c hi-color card? At best the colors come out screwed up, and at worst the 
+program hangs. I loaded the VESA driver, and the same thing happens on 2 
+different machines.
+
+	If it doesn't work on the Trident, does anybody know of a viewer that 
+does?
+
+Thanx!
+LISA 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ anoth cview question cview answer     news
+softwar vax vms vnew   anybodi gotten cview work
+32k 64k color mode trident 8900c color card best
+color come screw worst program hang load vesa
+driver thing happen differ machin  doesn't work
+trident anybodi know viewer   thanx lisa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cview, 2320, 0.478445716953
+trident, 9098, 0.362887025207
+color, 1907, 0.317924574537
+anybodi, 552, 0.214417287024
+64k, 130, 0.205603671681
+8900c, 147, 0.199719967405
+lisa, 5295, 0.187327216879
+screw, 7720, 0.167452251412
+hang, 4152, 0.152476017096
+thanx, 8833, 0.151611436338
+work, 9833, 0.149401100572
+vesa, 9484, 0.145558166521
+gotten, 3962, 0.132497852473
+driver, 2876, 0.132497852473
+viewer, 9512, 0.130514410143
+worst, 9849, 0.129392225864
+load, 5317, 0.12264394083
+mode, 5806, 0.120995444651
+vnew, 9564, 0.119951056616
+machin, 5416, 0.119951056616
+vms, 9563, 0.116366266675
+vax, 9439, 0.115058526734
+card, 1513, 0.113211030737
+answer, 535, 0.097319103748
+happen, 4159, 0.0929310288765
+news, 6031, 0.0910690307156
+best, 1052, 0.0881543343454
+softwar, 8103, 0.0880014797103
+doesn, 2793, 0.085530002599
+anoth, 533, 0.084980662923
+program, 6905, 0.0818448504488
+differ, 2633, 0.0811893571262
+question, 7032, 0.0798133570704
+come, 1923, 0.076460611964
+thing, 8869, 0.0720331437182
+know, 5052, 0.0567948200543

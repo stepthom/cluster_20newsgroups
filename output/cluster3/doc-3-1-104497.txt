@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104497
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: paula@koufax.cv.hp.com (Paul Andresen)
+Subject: Re: Let it be Known
+Nntp-Posting-Host: koufax.cv.hp.com
+Organization: Hewlett-Packard Company, Corvallis, Oregon USA
+Lines: 15
+
+In article <93104.233239ISSBTL@BYUVM.BITNET>, <ISSBTL@BYUVM.BITNET> writes:
+|> I would like to make everyone aware that in winning the NL West the Atlanta
+|> Braves did not lead wire-to-wire.  Through games of 4/14/93 the Houston
+|> Astros are percentage points ahead of the "unbeatable" Braves.
+
+And they deserve to be, if for no other reason than salvaging a little of the
+honor of the NL West. The supposed strongest division in baseball lost 6 of 7
+to the East yesterday, with only the Astros prevailing.
+--------------------------------------------------------------------------------
+           We will stretch no farm animal beyond its natural length
+
+  paula@koufax.cv.hp.com   Paul Andresen  Hewlett-Packard  (503)-750-3511
+
+    home: 3006 NW McKinley    Corvallis, OR 97330       (503)-752-8424
+                            A SABR member since 1979
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ let known      like make everyon awar win west
+atlanta brave lead wire wire game houston astro
+percentag point ahead unbeat brave  deserv reason
+salvag littl honor west suppos strongest divis
+basebal lost east yesterday astro prevail  stretch
+farm anim beyond natur length    home mckinley
+corval sabr member sinc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wire, 9793, 0.321832999916
+astro, 724, 0.279791497342
+west, 9708, 0.266384409486
+brave, 1277, 0.236737362837
+strongest, 8458, 0.209547217414
+salvag, 7596, 0.204503335297
+mckinley, 5581, 0.200238793731
+corval, 2161, 0.196544679798
+prevail, 6852, 0.193286240381
+sabr, 7565, 0.172614733263
+farm, 3390, 0.1618872929
+honor, 4364, 0.158193178967
+deserv, 2560, 0.151336850965
+percentag, 6534, 0.150670197984
+stretch, 8443, 0.14876152675
+awar, 831, 0.146405656418
+houston, 4399, 0.145298918436
+yesterday, 9952, 0.143717644633
+length, 5212, 0.136936390654
+ahead, 342, 0.134263232432
+atlanta, 749, 0.133544626834
+divis, 2767, 0.128090019633
+east, 2965, 0.125853265781
+member, 5625, 0.122564999127
+lost, 5355, 0.122327531918
+anim, 515, 0.119412758535
+natur, 5966, 0.117165676232
+suppos, 8577, 0.112483860389
+lead, 5172, 0.112318697152
+known, 5054, 0.110564147543
+everyon, 3241, 0.110256758158
+home, 4354, 0.106677515366
+win, 9770, 0.100558072768
+basebal, 924, 0.093225405099
+littl, 5308, 0.0929787637028
+reason, 7156, 0.0892335417556
+let, 5225, 0.0873677949063
+sinc, 7977, 0.0843330006848
+game, 3761, 0.0838580575174
+point, 6710, 0.0780880245248
+make, 5459, 0.0693868836159
+like, 5272, 0.0582513098364

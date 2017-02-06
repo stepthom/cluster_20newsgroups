@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104987
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: st1ge@Rosie.UH.EDU (Edward Hui)
+Subject: Re: Reason for Giants June Swoon (Giants off to a fast start)
+Organization: University of Houston
+Lines: 39
+Reply-To: st1ge@Rosie.UH.EDU
+NNTP-Posting-Host: rosie.uh.edu
+
+In article <1993Apr22.220456.377@bnlux1.bnl.gov>, kyee@bnlux1.bnl.gov (kenton yee) writes:
+>In article <93111.185620NXM122@psuvm.psu.edu> <NXM122@psuvm.psu.edu> writes:
+>>The Giants have won 8 of their last 10 games behind some solid pitching
+>>(excluding that 13-12 win against Atlanta).  If they can stay around first
+>>place after say the first 50 games, I think they've got a legitimate chance
+>>at winning the pennant (and maybe even more than that).
+>
+>Don't you remember that the Giants were in 1st place as late as
+>June last year?   Then their pitching collapsed....   Their problem
+>is they have (optimistically) only 2-3 good starting pitchers
+>(Swift,Brantly,and the bowler(can't remember his name));  the
+>other starters are extremely unreliable and often get blasted
+>before 4 innings... that means the already shallow bullpen gets
+>over worked.  This means after a few months, the bullpen collapses
+>and their post-all-star record tends to be much worst than
+>their pre-all-star record.  
+
+    THe bowler is John Burkett, who went to 4-0 last night.  He is
+a bargain pickup on my roto team, I got him at a minimum of $5.
+
+>   Just a thought... does someone have the won/lost pre/post
+>allstar records for the Giants the last few seasons?   I bet
+>their records tends to be worst and worst as the season goes on.
+>
+     This is not really true.  Excluding last season, the Giants
+has been a better 2nd half team.  In 1991, they had a hot August
+to pull to within a few games of the Braves and Dodgers before
+fading in September.
+     The Giants may go back to earth, but not as fast as last
+season for two reasons:
+(1)   Barry Bonds
+(2)   Roger Craig is no longer the manager.  Dusty can manage
+      his pitching staffs much better than Craig.
+
+Edward Hui
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ reason giant swoon giant fast start        giant
+last game behind solid pitch exclud win atlanta
+stay around first place say first game think
+they'v got legitim chanc win pennant mayb even
+don't rememb giant 1st place late last year pitch
+collaps problem optimist good start pitcher swift
+brant bowler can't rememb name starter extrem
+unreli often get blast inning mean alreadi shallow
+bullpen get work mean month bullpen collaps post
+star record tend much worst pre star record
+bowler john burkett went last night bargain pickup
+roto team got minimum  thought someon lost pre
+post allstar record giant last season bet record
+tend worst worst season goe  realli true exclud
+last season giant better 2nd half team hot august
+pull within game brave dodger fade septemb giant
+back earth fast last season two reason barri bond
+roger craig longer manag dusti manag pitch staff
+much better craig  edward hui
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+giant, 3865, 0.463785991835
+record, 7184, 0.246314620148
+season, 7747, 0.224358347722
+worst, 9849, 0.214409956031
+collaps, 1896, 0.178829962129
+exclud, 3266, 0.17747492295
+craig, 2208, 0.162331944036
+pitch, 6643, 0.159501029821
+pre, 6802, 0.159341824648
+bullpen, 1391, 0.155990074909
+tend, 8783, 0.144604886082
+game, 3761, 0.132440603306
+fast, 3397, 0.128550155439
+star, 8324, 0.125954033488
+manag, 5472, 0.111210454529
+bargain, 912, 0.110315616321
+unreli, 9307, 0.107660277007
+dusti, 2929, 0.107660277007
+rememb, 7269, 0.107269942628
+win, 9770, 0.105877099303
+shallow, 7847, 0.105415219607
+swift, 8633, 0.103470462429
+place, 6657, 0.0997652778525
+fade, 3356, 0.0975652504468
+team, 8732, 0.0967147104645
+blast, 1143, 0.0963995048698
+got, 3960, 0.0955786521208
+reason, 7156, 0.0939535564034
+septemb, 7801, 0.0924924961624
+optimist, 6275, 0.0924924961624
+start, 8334, 0.0922009623243
+mean, 5595, 0.0900170385028
+edward, 3003, 0.0874702238861
+better, 1060, 0.087139395328
+legitim, 5204, 0.0863044783091
+1st, 57, 0.0852251664858
+post, 6766, 0.08507025897
+pennant, 6524, 0.0842203512176
+august, 784, 0.0789772552866
+2nd, 81, 0.0783151392358
+minimum, 5740, 0.0776818201193
+barri, 918, 0.0759320329843
+starter, 8335, 0.0751301399251
+dodger, 2791, 0.0751301399251
+hot, 4389, 0.0736477722098
+pull, 6979, 0.0734147425223
+extrem, 3333, 0.0720898254729
+bond, 1211, 0.0720898254729
+solid, 8115, 0.0712690987828
+bet, 1054, 0.0710709454573
+staff, 8301, 0.0706825479132
+atlanta, 749, 0.0703042397666
+roger, 7458, 0.069935510078
+stay, 8355, 0.0695758857631
+inning, 4657, 0.0671292466706
+late, 5139, 0.0668320109507
+half, 4124, 0.0659750552749
+went, 9704, 0.0650351133645
+longer, 5337, 0.0650351133645
+lost, 5355, 0.0643990277849
+chanc, 1649, 0.0633197159616
+brave, 1277, 0.0623149006934
+goe, 3931, 0.0622074164804
+month, 5847, 0.0600236814644
+night, 6063, 0.0591299013827
+alreadi, 443, 0.0583698657379
+pitcher, 6644, 0.0578843526211
+john, 4878, 0.0550707069148
+true, 9121, 0.0519526364559
+mayb, 5564, 0.0509796320006
+thought, 8887, 0.0508317724083
+earth, 2956, 0.0507340267745
+someon, 8124, 0.0475917104809
+problem, 6887, 0.0458197197975
+realli, 7150, 0.0432166126195
+work, 9833, 0.0412609582875
+good, 3948, 0.0374379183607
+say, 7653, 0.0369761398182
+year, 9943, 0.0366022028521
+think, 8871, 0.0333560224247
+don, 2811, 0.0330346362796

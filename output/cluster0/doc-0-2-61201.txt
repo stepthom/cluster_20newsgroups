@@ -1,0 +1,129 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61201
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re:  PLANETS STILL: IMAGES ORBIT BY ETHER TWIST
+From: alien@acheron.amigans.gen.nz (Ross Smith)
+Distribution: world
+Organization: Muppet Labs
+Lines: 27
+
+In article <1993Apr22.213815.12288@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+>In <1993Apr22.130923.115397@zeus.calpoly.edu> dmcaloon@tuba.calpoly.edu (David McAloon) writes:
+>
+>> ETHER IMPLODES 2 EARTH CORE, IS GRAVITY!!!
+>
+>If not for the lack of extraneously capitalized words, I'd swear that
+>McElwaine had changed his name and moved to Cal Poly.  I also find the
+>choice of newsgroups 'interesting'.  Perhaps someone should tell this
+>guy that 'sci.astro' doesn't stand for 'astrology'?
+>
+>It's truly frightening that posts like this are originating at what
+>are ostensibly centers of higher learning in this country.  Small
+>wonder that the rest of the world thinks we're all nuts and that we
+>have the problems that we do.
+>
+>[In case you haven't gotten it yet, David, I don't think this was
+>quite appropriate for a posting to 'sci' groups.]
+
+Was that post for real? I thought it was a late April Fool joke. Some of it
+seemed a bit over the top even by McElwaine/Abian/etc standards :-)
+
+--
+... Ross Smith (Wanganui, NZ) ............ alien@acheron.amigans.gen.nz ...
+      "And crawling on the planet's face
+      Some insects called the human race
+      Lost in time and lost in space"      (RHPS)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+planet still imag orbit ether twist         ether
+implod earth core graviti  lack extran capit word
+i'd swear mcelwain chang name move cal poli also
+find choic newsgroup interest perhap someon tell
+guy sci astro doesn't stand astrolog  it truli
+frighten post like origin ostens center higher
+learn countri small wonder rest world think we'r
+nut problem  case haven't gotten yet david don't
+think quit appropri post sci group  post real
+thought late april fool joke seem bit top even
+mcelwain abian etc standard    crawl planet face
+insect call human race lost time lost space rhps
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mcelwain, 5576, 0.288392322872
+ether, 3207, 0.280272973826
+sci, 7690, 0.207620881409
+planet, 6664, 0.203907637628
+lost, 5355, 0.196915769741
+post, 6766, 0.195092334116
+implod, 4549, 0.16865848173
+extran, 3328, 0.16865848173
+crawl, 2214, 0.16865848173
+frighten, 3693, 0.164598807207
+astrolog, 726, 0.161166401306
+swear, 8625, 0.153224476015
+poli, 6719, 0.149164801492
+nut, 6160, 0.135668240129
+cal, 1449, 0.134678452135
+twist, 9174, 0.133730795777
+capit, 1502, 0.130298389876
+joke, 4883, 0.127325104642
+fool, 3585, 0.127325104642
+appropri, 590, 0.116946888071
+core, 2140, 0.116090376186
+graviti, 4010, 0.113328150006
+astro, 724, 0.112598033334
+gotten, 3962, 0.111891098927
+truli, 9127, 0.110541196935
+race, 7049, 0.109895744104
+countri, 2186, 0.107773513933
+lack, 5092, 0.103095944211
+choic, 1717, 0.102862784347
+late, 5139, 0.102177605255
+higher, 4293, 0.102177605255
+think, 8871, 0.101994192415
+newsgroup, 6032, 0.0984578848704
+stand, 8311, 0.0964570932116
+face, 3345, 0.0957719141197
+rest, 7324, 0.0951071912199
+haven, 4207, 0.0951071912199
+learn, 5182, 0.0946213560154
+april, 595, 0.0924845677765
+standard, 8313, 0.0912118463248
+david, 2397, 0.0898781205514
+center, 1606, 0.0898781205514
+small, 8054, 0.0867435995405
+perhap, 6540, 0.0861882948633
+human, 4432, 0.0859699934726
+guy, 4100, 0.083602263973
+quit, 7043, 0.0815511730426
+wonder, 9821, 0.0808498059722
+orbit, 6280, 0.080592386186
+chang, 1650, 0.0800030665533
+word, 9829, 0.0797551987228
+origin, 6293, 0.0791873503004
+thought, 8887, 0.0777152849613
+earth, 2956, 0.0775658443768
+group, 4064, 0.0774914985197
+case, 1540, 0.0774174000703
+real, 7144, 0.0763345336931
+bit, 1122, 0.0751009932536
+imag, 4512, 0.0746391516761
+world, 9841, 0.0745739493938
+tell, 8767, 0.0727616442747
+someon, 8124, 0.0727616442747
+doesn, 2793, 0.0722279327808
+problem, 6887, 0.0700524969366
+space, 8164, 0.0631605882819
+time, 8936, 0.0529058174473
+don, 2811, 0.050505737857
+like, 5272, 0.0468847909175

@@ -1,0 +1,193 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38258
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: Point within a polygon
+Keywords: Obfuscated PostScript
+Organization: Purdue University
+Lines: 60
+
+In article <jonas-y.734802983@gouraud> jonas-y@isy.liu.se (Jonas Yngvesson)  
+writes:
+> Intersection Between a Line and a Polygon (UNDECIDABLE??),
+> 	by Dave Baraff, Tom Duff
+> 
+> 	From: deb@charisma.graphics.cornell.edu
+> In recent years, many geometric problems have been successfully modeled in a
+> new language called PostScript.  (See "PostScript Language", by Adobe Systems
+> Incorporated, ISBN # 0-201-10179-3, co. 1985).
+> 
+> So, given a line L and a polygon P, we can write a PostScript program that
+> draws the line L and the polygon P, and then "outputs" the answer.  By
+> "output", we mean the program executes a command called "showpage", which
+> actually prints a page of paper containing the line and the polygon.  A quick
+> examination of the paper provides an answer to the reduced problem Q, and  
+thus
+> the original problem.
+
+Curiously, in modern PostScript, the point in a polygon problem can
+be solved even more easily.  To wit:
+
+%!
+%%Title: Point in Polygon
+%%Creator: Allen B (ab@cc.purdue.edu)
+%%For: the amusement of comp.graphics regulars
+%%LanguageLevel: 2
+%%DocumentNeededResource: humor sense thereof
+%%EndComments
+
+% This program will test whether a point is inside a given polygon.
+% Currently it uses the even-odd rule, but that can be changed by
+% replacing ineofill with infill.  These are Level 2 operators,
+% so if you've only got Level 1 you're out of luck.
+%
+% The result will be printed on the output stream.
+%
+% Caution: only accurate to device pixels!
+% Put a huge scale in first if you aren't sure.
+
+% Point to test
+% PUT X AND Y COORDINATES HERE
+
+50 75
+
+% Vertices of polygon in counter-clockwise order
+% PUT ARRAY OF PAIRS OF COORDINATES HERE
+[
+[   0   0 ]
+[ 100   0 ]
+[ 100 100 ]
+[  67 100 ]
+[  67  50 ]
+[  33  50 ]
+[  33 100 ]
+[   0 100 ]
+]
+
+dup 0 get aload pop moveto dup length 1 dup 3 1 roll
+sub getinterval { aload pop lineto } forall closepath
+ineofill { (Yes!) } { (No!) } ifelse =
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ point within polygon     articl jona  intersect
+line polygon undecid dave baraff tom duff   recent
+year mani geometr problem success model new
+languag call postscript see postscript languag
+adob system incorpor isbn  given line polygon
+write postscript program draw line polygon output
+answer output mean program execut command call
+showpag actual print page paper contain line
+polygon quick examin paper provid answer reduc
+problem thus origin problem  curious modern
+postscript point polygon problem solv even easili
+wit   titl point polygon  amus comp graphic
+regular languagelevel documentneededresourc humor
+sens thereof endcom  program test whether point
+insid given polygon current use even odd rule
+chang replac ineofil infil level oper you'v got
+level you'r luck  result print output stream
+caution accur devic pixel put huge scale first
+aren't sure  point test put coordin    vertic
+polygon counter clockwis order put array pair
+coordin            dup get aload pop moveto dup
+length dup roll sub getinterv aload pop lineto
+foral closepath ineofil yes ifels
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polygon, 6728, 0.595941763242
+postscript, 6772, 0.294015980947
+output, 6329, 0.195441156712
+point, 6710, 0.18239840136
+line, 5285, 0.171353238414
+problem, 6887, 0.162638705884
+pop, 6743, 0.147007990474
+coordin, 2126, 0.142035601348
+languag, 5113, 0.124773685046
+print, 6871, 0.123798180808
+program, 6905, 0.120348203853
+paper, 6409, 0.115192450679
+test, 8812, 0.106202949753
+level, 5229, 0.106041903784
+baraff, 905, 0.104494147214
+undecid, 9234, 0.0978922893704
+answer, 535, 0.0954014762683
+given, 3887, 0.0927740496171
+thereof, 8856, 0.0918180107873
+clockwis, 1828, 0.0918180107873
+caution, 1571, 0.0855433576914
+stream, 8438, 0.0828598478885
+pair, 6394, 0.0799759635729
+amus, 485, 0.0793454045073
+incorpor, 4587, 0.0787441846079
+isbn, 4777, 0.0781696945986
+humor, 4437, 0.0770920792572
+geometr, 3843, 0.0765851947927
+vertic, 9482, 0.0747357742017
+counter, 2181, 0.0747357742017
+execut, 3272, 0.0735039952368
+examin, 3257, 0.0735039952368
+adob, 277, 0.0727435466639
+sub, 8482, 0.0723794691463
+intersect, 4722, 0.0716807099373
+roll, 7464, 0.0710178006741
+solv, 8119, 0.0689335877146
+devic, 2591, 0.0689335877146
+reduc, 7204, 0.0671392797752
+wit, 9802, 0.0669021373935
+array, 653, 0.0669021373935
+luck, 5381, 0.0666692680809
+accur, 225, 0.0662157514714
+odd, 6198, 0.065777611303
+pixel, 6651, 0.0651470522374
+length, 5212, 0.0639713423287
+comp, 1955, 0.0639713423287
+modern, 5811, 0.0637853837652
+huge, 4427, 0.0634213062475
+curious, 2297, 0.0627225470385
+replac, 7288, 0.0623868425228
+titl, 8953, 0.0622222046633
+page, 6382, 0.0615838577715
+easili, 2962, 0.0611249729804
+insid, 4671, 0.0605374219318
+scale, 7659, 0.0602533688011
+regular, 7234, 0.0599754248158
+tom, 8976, 0.0583013400428
+success, 8513, 0.0573694844854
+draw, 2861, 0.0573694844854
+contain, 2079, 0.0568194484042
+command, 1933, 0.0567121955298
+aren, 623, 0.0563956761052
+dave, 2395, 0.0558847836093
+quick, 7036, 0.0551071718238
+model, 5807, 0.0541966618008
+oper, 6261, 0.0541090418232
+rule, 7537, 0.0539355640885
+sens, 7788, 0.0538496907015
+recent, 7168, 0.051365636034
+result, 7332, 0.0501531320871
+provid, 6949, 0.0478075478097
+yes, 9951, 0.0470777791259
+current, 2299, 0.0468268217807
+chang, 1650, 0.0464351585595
+origin, 6293, 0.0459617027887
+order, 6281, 0.0456857372033
+write, 9865, 0.0445536288907
+graphic, 3997, 0.0425494954127
+got, 3960, 0.0424074731353
+articl, 665, 0.0416530793281
+sure, 8585, 0.0416198131651
+actual, 254, 0.041553536624
+mean, 5595, 0.0399398302583
+new, 6023, 0.0376468897136
+mani, 5479, 0.0366594939161
+year, 9943, 0.0324802013776
+use, 9363, 0.0285429670308

@@ -1,0 +1,194 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102724
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mebonar@sn01.sncc.lsu.edu (MsciDave)
+Subject: Re: Young Catchers
+News-Software: VAX/VMS VNEWS 1.3-4   
+Reply-To: mebonar@sn01.sncc.lsu.edu
+Organization: LSU news
+Nntp-Posting-Host-[nntpd-681]: sn01.sncc.lsu.edu
+Lines: 47
+
+>mss@netcom.com (Mark Singer) said:
+> 
+>>Most catchers need to be solid defensively players to help their
+>>clubs in the bigs.  Those are the arguments against Lopez for the
+>>Braves for this year.
+
+>>Now.  The Braves have two catchers who have demonstrated solid
+>>abilities to call games, to work with the pitchers, to throw out
+>>runners.  
+
+	This is the crux of the argument (to me at least).  Both the
+SDCN and the non-SDCN camps seem to agree on the fact that a catcher's
+defense is basically nonmeasurable at present.  You can talk about how
+important calling a game is, or framing the pitches, or blocking balls
+in the dirt.  But there is little or no way to tell exactly how various
+catcher's rank in "defense".  
+
+	Looking at Lopez specifically; is there any reason to suspect
+that he is a bad defensive catcher other then the fact that the Braves
+(or the media) has labeled him a bad defensive catcher?  As far as I
+can tell he doesn't have any particular problem in his mechanics
+(such as Sasser).  He might be a little rough around the edges in blocking
+the ball, or framing the pitch to get a good call but all he needs to
+clear that up is playing and practice time.  I can't see how repetitions
+at AAA are any better then reps in the majors!  
+
+	All we're left with is the calling the game aspect.  Olsen  and
+Berryhill at always given credit for calling good games and helping
+the pitchering staff.  But this is a reputation that is given to almost
+all veteran catchers.  How is catching at AAA going to help Lopez learn
+the major league pitching staff?  The only way any catcher is going to
+learn Tom Glavine's pitches is to catch Tom Glavine.  Similarly, I wouldn't
+be supprised if the pitcher's claimed to prefer pitching to Olsen over
+pitching to Lopez because they are used to pitching to Olsen.  But 
+given time they will say they are comfortable with Lopez.
+
+	Now, since Lopez can't learn how to handle the major league
+pitcher's while he's in AAA and since he doesn't have any glaring
+problem in his mechanics, what is he going to learn in AAA that he
+can't learn just as well while in the majors?  
+
+Dave
+__________
+Dave Bonar
+mebonar@lsuvax.sncc.lsu.edu
+__________
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ young catcher news softwar vax vms vnew   nntp
+post host nntpd sn01 sncc lsu edu     catcher need
+solid defens player help club big argument lopez
+brave year  brave two catcher demonstr solid abil
+call game work pitcher throw runner  crux argument
+least sdcn non sdcn camp seem agre fact catcher
+defens basic nonmeasur present talk import call
+game frame pitch block ball dirt littl way tell
+exact various catcher rank defens  look lopez
+specif reason suspect bad defens catcher fact
+brave media label bad defens catcher far tell
+doesn't particular problem mechan sasser might
+littl rough around edg block ball frame pitch get
+good call need clear play practic time can't see
+repetit aaa better rep major  we'r left call game
+aspect olsen berryhil alway given credit call good
+game help pitcher staff reput given almost veteran
+catcher catch aaa go help lopez learn major leagu
+pitch staff way catcher go learn tom glavin pitch
+catch tom glavin similar wouldn't suppris pitcher
+claim prefer pitch olsen pitch lopez use pitch
+olsen given time say comfort lopez  sinc lopez
+can't learn handl major leagu pitcher he aaa sinc
+doesn't glare problem mechan go learn aaa can't
+learn well major  dave  dave bonar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+catcher, 1557, 0.469580789321
+lopez, 5346, 0.38907874542
+pitch, 6643, 0.258460327979
+aaa, 157, 0.224390473021
+defens, 2476, 0.218678306893
+learn, 5182, 0.214902563232
+pitcher, 6644, 0.160795831637
+major, 5458, 0.148499171348
+glavin, 3895, 0.146415457169
+sdcn, 7733, 0.135512317873
+brave, 1277, 0.129827524538
+game, 3761, 0.122634736256
+given, 3887, 0.108908028896
+catch, 1556, 0.107052438327
+block, 1163, 0.107052438327
+mechan, 5603, 0.100723472376
+solid, 8115, 0.0989885304913
+staff, 8301, 0.0981738462926
+frame, 3643, 0.0979094165124
+tom, 8976, 0.0912537367543
+help, 4249, 0.0891428134819
+dave, 2395, 0.0874713227571
+argument, 631, 0.0844203883378
+leagu, 5176, 0.0811868744831
+ball, 877, 0.0791131291662
+crux, 2262, 0.078867847788
+bad, 861, 0.0744957784508
+dirt, 2670, 0.0706658603025
+nntp, 6084, 0.0696002129588
+fact, 3350, 0.0694120418864
+glare, 3892, 0.0686362176773
+littl, 5308, 0.0679864672621
+berryhil, 1049, 0.0669465833729
+camp, 1476, 0.0661970334758
+tell, 8767, 0.0661020493389
+doesn, 2793, 0.0656171864163
+problem, 6887, 0.0636408598922
+rep, 7284, 0.0631083133642
+sinc, 7977, 0.0616646485911
+veteran, 9490, 0.0611759243255
+rank, 7096, 0.0611759243255
+reput, 7300, 0.059935888264
+label, 5086, 0.059935888264
+comfort, 1929, 0.0591863383668
+host, 4386, 0.0553290743711
+need, 5993, 0.0543884112709
+rough, 7493, 0.0541652292166
+credit, 2225, 0.0539477091112
+club, 1842, 0.0535262191636
+way, 9666, 0.0529155199753
+good, 3948, 0.0519990372612
+runner, 7545, 0.051647821152
+aspect, 693, 0.0502118920388
+media, 5605, 0.0492208892779
+suspect, 8603, 0.0489547082562
+demonstr, 2520, 0.0488241994123
+edg, 2993, 0.0481957802452
+time, 8936, 0.0480635503785
+abil, 177, 0.0473768352554
+handl, 4149, 0.0467240736094
+prefer, 6819, 0.0462105473294
+vnew, 9564, 0.046012221464
+throw, 8899, 0.0453471926302
+young, 9962, 0.0451649481489
+vms, 9563, 0.0446371260431
+various, 9432, 0.0446371260431
+practic, 6793, 0.044299951652
+vax, 9439, 0.044135487946
+particular, 6442, 0.0423459585572
+wouldn, 9854, 0.0422778485688
+similar, 7961, 0.0418785482257
+basic, 937, 0.0416208452389
+present, 6837, 0.0404791502056
+left, 5193, 0.0402543788428
+specif, 8203, 0.0401438389987
+exact, 3253, 0.0401438389987
+non, 6097, 0.040089018837
+claim, 1782, 0.039402144865
+agre, 337, 0.0391499049828
+clear, 1803, 0.0388070146859
+import, 4551, 0.0383364975213
+alway, 457, 0.0381995072321
+edu, 3001, 0.0358612551886
+news, 6031, 0.0349333180383
+player, 6683, 0.0349005326123
+big, 1082, 0.034452357615
+talk, 8684, 0.0342049007444
+far, 3386, 0.0337859055357
+softwar, 8103, 0.0337566311446
+play, 6681, 0.0333554450375
+reason, 7156, 0.0326239725269
+better, 1060, 0.0302578566263
+post, 6766, 0.0295393798567
+work, 9833, 0.0286545059311
+say, 7653, 0.0256788271941
+year, 9943, 0.0254191391147
+look, 5341, 0.0252412449171
+use, 9363, 0.02233784333

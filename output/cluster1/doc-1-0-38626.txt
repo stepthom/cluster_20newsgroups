@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38626
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: e-sink@uiuc.edu (Eric W. Sink)
+Subject: Re: Looking for WMF Converter
+Keywords: WMF, windowsmetafile
+Reply-To: e-sink@uiuc.edu
+Originator: sink@ux2.cso.uiuc.edu
+Organization: University of Illinois at Urbana
+Lines: 19
+
+buck@HQ.Ileaf.COM (David Buchholz x3252) writes:
+
+>I'm looking for any leads to the source of a good Windows
+>Meta File converter or interpreter. I need this for use
+>outside the Windows environment. PD sources preferred, but
+>not a requirement. Please reply to the address below.
+
+On a related topic, I have been searching (with no success)
+for a specification of the Enhanced Metafile format.  I have
+the original WMF format (Graphics File Formats, Levine et al),
+but no info on the 32 bit version.
+
+Any pointers ?
+
+-- 
+Eric W. Sink, Spyglass        | "In all the earth, only humans have the ability
+1800 Woodfield Drive          |    to be content in bad situations...
+Savoy, IL  61826              |    and vice-versa."
+---- e-sink@uiuc.edu ---------|---------- 217-355-6000 -----------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look wmf convert         i'm look lead sourc good
+window meta file convert interpret need use outsid
+window environ sourc prefer requir pleas repli
+address  relat topic search success specif enhanc
+metafil format origin wmf format graphic file
+format levin info bit version  pointer   eric sink
+spyglass earth human abil woodfield drive content
+bad situat savoy vice versa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wmf, 9812, 0.407585063746
+format, 3612, 0.30262640274
+window, 9774, 0.209710883539
+convert, 2115, 0.202607789084
+spyglass, 8273, 0.186321632816
+sourc, 8153, 0.186059304866
+versa, 9477, 0.182436237271
+metafil, 5657, 0.179070554561
+levin, 5232, 0.179070554561
+meta, 5656, 0.176101812013
+file, 3477, 0.17443852451
+sink, 7985, 0.171043871128
+vice, 9500, 0.166833242949
+enhanc, 3113, 0.150350909004
+pointer, 6711, 0.144128756446
+content, 2084, 0.128708188826
+eric, 3170, 0.127867938372
+look, 5341, 0.125804142151
+search, 7746, 0.123341451681
+topic, 8992, 0.120411102408
+outsid, 6332, 0.119803719296
+interpret, 4720, 0.118919236284
+abil, 177, 0.118064741591
+environ, 3139, 0.117238268223
+prefer, 6819, 0.115158311014
+success, 8513, 0.111886386054
+repli, 7290, 0.109384647026
+drive, 2873, 0.109384647026
+situat, 7995, 0.106393862344
+lead, 5172, 0.102332820239
+specif, 8203, 0.100039860246
+info, 4636, 0.0992310685201
+version, 9479, 0.0980645538475
+address, 264, 0.0979382118315
+human, 4432, 0.0973158301005
+relat, 7247, 0.096350920719
+requir, 7302, 0.0937663907114
+bad, 861, 0.0928230514448
+origin, 6293, 0.0896380517977
+earth, 2956, 0.0878025486345
+bit, 1122, 0.0850124003113
+graphic, 3997, 0.0829833022355
+pleas, 6688, 0.0741468942844
+need, 5993, 0.0677689179493
+good, 3948, 0.0647917158684
+use, 9363, 0.0556666920921

@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83511
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Ignorance is BLISS, was Is it good that Jesus died?
+Organization: Cookamunga Tourist Bureau
+Lines: 17
+
+In article <f1682Ap@quack.kfu.com>, pharvey@quack.kfu.com (Paul Harvey)
+wrote:
+> In article <sandvik-170493104859@sandvik-kent.apple.com> 
+> sandvik@newton.apple.com (Kent Sandvik) writes:
+> >Ignorance is not bliss!
+ 
+> Ignorance is STRENGTH!
+> Help spread the TRUTH of IGNORANCE!
+
+Huh, if ignorance is strength, then I won't distribute this piece
+of information if I want to follow your advice (contradiction above).
+
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ignor bliss good jesus die    quack kfu com paul
+harvey wrote   ignor bliss  ignor strength help
+spread truth ignor  huh ignor strength won't
+distribut piec inform want follow advic contradict
+cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ignor, 4496, 0.615760964275
+bliss, 1162, 0.369504223715
+strength, 8441, 0.318963722792
+kfu, 4998, 0.215050582342
+harvey, 4192, 0.195934375825
+advic, 292, 0.156030005057
+huh, 4429, 0.154453641373
+spread, 8265, 0.152246155037
+contradict, 2098, 0.144847741089
+piec, 6624, 0.141780265277
+kent, 4987, 0.131750718316
+cheer, 1687, 0.130437191196
+paul, 6469, 0.130118356935
+distribut, 2753, 0.129183390912
+truth, 9132, 0.128279085099
+com, 1917, 0.120568454348
+won, 9820, 0.117595548218
+wrote, 9871, 0.11699814891
+die, 2628, 0.112803190347
+jesus, 4859, 0.112134579265
+inform, 4637, 0.0906462360348
+follow, 3578, 0.0906462360348
+help, 4249, 0.0810225141952
+want, 9634, 0.075126218447
+good, 3948, 0.0708934220843

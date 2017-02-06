@@ -1,0 +1,171 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104537
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: edo@casbah.acns.nwu.edu (Edward Ouellette)
+Subject: Re: Notes on Jays vs. Indians Series
+Nntp-Posting-Host: unseen1.acns.nwu.edu
+Organization: Northwestern University, Evanston Illinois.
+Distribution: na
+Lines: 41
+
+In article <8966@blue.cis.pitt.edu> dtate+@pitt.edu (David M. Tate) writes:
+>Substituting irony for brains, (Bruce Klopfenstein) said:
+>
+>>dtate+@pitt.edu (David M. Tate) writes:
+>
+>>> Of *course* they left RBIs off; we're comparing Alomar the individual with
+>>> Baerga the individual, so only individual stats count.  
+>
+>>I forgot.  Most runs are scored by players stealing home, so RBI don't
+>>count for anything.
+>
+>Uh, right.  You also forgot that you can't get an RBI (barring a HR) with
+>nobody on base.  What fraction of all runs come on solo HR?
+>
+>Most runs are scored because there happened to be players on base when the
+>batter did something good.  I use the phrase "happened to be" advisedly.
+>Lots of people have tried to figure out who the players are who have the
+>most ability to "turn it up a notch" in clutch/RBI/whatever situations, and
+>what they've found is that there is no evidence that *anyone* has such an
+>ability to any measurable extent.  There are no clutch hitters.  People who
+>tend to do things that *would* cause an RBI if there were somebody on base
+>end up getting RBIs proportional to how many of their teammates obliged by
+>being in position.  
+>
+>>My mistake.
+>
+>I agree.
+>
+Me, too... RBI are a worthless stat. Of course, so is stolen bases because 
+sometimes runners are in front of a player that would otherwise run. And of
+course pitchers pitch differently with different people on different bases,
+so batting average, slugging and obp out, too.  Hmmm... i guess homers would
+not count then, either.
+My point? RBI might not be a perfect stat but nothing is. And no stat (or lack
+of) can tell me there are no clutch hitters. Maybe no stat CAN tell me,
+either, but some people are... I just know it!!! 8)
+
+Ed O.
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ note jay indian seri       substitut ironi brain
+bruce klopfenstein said    cours left rbis we'r
+compar alomar individu baerga individu individu
+stat count  forgot run score player steal home rbi
+don't count anyth  right also forgot can't get rbi
+bar nobodi base fraction run come solo  run score
+happen player base batter someth good use phrase
+happen advis lot peopl tri figur player abil turn
+notch clutch rbi whatev situat they'v found evid
+anyon abil measur extent clutch hitter peopl tend
+thing caus rbi somebodi base end get rbis proport
+mani teammat oblig posit  mistak  agre  rbi
+worthless stat cours stolen base sometim runner
+front player otherwis run cours pitcher pitch
+differ differ peopl differ base bat averag slug
+obp hmmm guess homer count either point rbi might
+perfect stat noth stat lack tell clutch hitter
+mayb stat tell either peopl know
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rbi, 7124, 0.430529760356
+stat, 8341, 0.31572135653
+clutch, 1849, 0.239942099949
+base, 923, 0.217654157066
+count, 2180, 0.192772939228
+player, 6683, 0.191988917991
+individu, 4604, 0.182430912228
+rbis, 7125, 0.169501960471
+run, 7543, 0.167599020745
+forgot, 3607, 0.167081345185
+peopl, 6530, 0.150957440992
+cours, 2190, 0.142793636177
+abil, 177, 0.130310723902
+differ, 2633, 0.128491262354
+score, 7705, 0.120295618393
+hitter, 4322, 0.118419433912
+happen, 4159, 0.0980491830855
+ironi, 4768, 0.0957182353515
+proport, 6932, 0.0920688105806
+teammat, 8733, 0.0910379862424
+solo, 8116, 0.0910379862424
+tell, 8767, 0.0909073585678
+worthless, 9852, 0.0891805962014
+advis, 293, 0.0891805962014
+substitut, 8504, 0.0853980626336
+slug, 8048, 0.0853980626336
+oblig, 6175, 0.0847509802356
+phrase, 6612, 0.0824272974891
+hmmm, 4328, 0.0824272974891
+baerga, 863, 0.0819023384666
+stolen, 8407, 0.0813964731508
+fraction, 3639, 0.0809083612045
+bruce, 1347, 0.0791110566268
+extent, 3321, 0.0786958089809
+steal, 8362, 0.0771486867432
+alomar, 436, 0.075109467144
+bar, 904, 0.0747968750424
+obp, 6177, 0.0741920074359
+mistak, 5776, 0.0730558853721
+homer, 4355, 0.0722608253751
+indian, 4598, 0.0717549600593
+runner, 7545, 0.0710290685942
+brain, 1266, 0.0707952855597
+nobodi, 6088, 0.0703391868913
+tend, 8783, 0.0690542958893
+somebodi, 8121, 0.0664502276848
+batter, 949, 0.0661150364505
+lack, 5092, 0.0644032997103
+measur, 5601, 0.0627487063619
+otherwis, 6313, 0.0623640801111
+jay, 4832, 0.0621134469677
+sometim, 8128, 0.0611537724681
+perfect, 6538, 0.0608103040761
+whatev, 9718, 0.0606976737998
+averag, 816, 0.0592097169559
+figur, 3476, 0.0591092850169
+situat, 7995, 0.0587146553402
+evid, 3245, 0.0586177228007
+compar, 1960, 0.0585214610801
+bat, 942, 0.0571521829853
+seri, 7805, 0.0567241565023
+caus, 1569, 0.0563089088564
+turn, 9158, 0.0553601482554
+left, 5193, 0.0553601482554
+pitcher, 6644, 0.0552839301846
+posit, 6761, 0.054616133318
+guess, 4079, 0.0539099022988
+agre, 337, 0.0538412119709
+home, 4354, 0.0536371531065
+pitch, 6643, 0.0507785115074
+noth, 6119, 0.0506145438352
+note, 6118, 0.0501865173522
+mayb, 5564, 0.0486894003084
+end, 3091, 0.0479522867668
+anyth, 555, 0.0476856377747
+said, 7583, 0.0463039850567
+lot, 5356, 0.0434008326809
+right, 7399, 0.0423123631581
+someth, 8126, 0.0409458897338
+come, 1923, 0.0403358309486
+tri, 9087, 0.0402840254395
+mani, 5479, 0.0394559682064
+point, 6710, 0.0392624379454
+thing, 8869, 0.0380001759479
+anyon, 554, 0.0373780473852
+good, 3948, 0.0357560406429
+don, 2811, 0.0315505735671
+use, 9363, 0.0307202931459
+know, 5052, 0.0299613905987

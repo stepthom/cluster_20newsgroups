@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60868
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: degroff@netcom.com (21012d)
+Subject: Re: Talking to Boeing management about SSTO type stuff from a shareholder perspective.
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 9
+
+
+  I might suggest giving the management some more mumble time by asking
+the very leading question (in two or three parts)
+   What are your long term expectations of space market, what projects
+specifically are they funding by internal funds and at what levels
+and what competition do you expect in this  area. (This last point
+is always worth hitting upper management with "gently" if you want 
+them to think and as hard as you can if you have a good case that
+there really is competion)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ talk boe manag ssto type stuff sharehold perspect
+might suggest give manag mumbl time ask lead
+question two three part long term expect space
+market project specif fund intern fund level
+competit expect area last point alway worth hit
+upper manag gentl want think hard good case realli
+compet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+manag, 5472, 0.387937583038
+fund, 3723, 0.307504306977
+expect, 3290, 0.262534142888
+gentl, 3831, 0.240625345765
+boe, 1196, 0.219334772999
+competit, 1970, 0.199426815046
+ssto, 8295, 0.194747751546
+upper, 9340, 0.191619126345
+perspect, 6564, 0.186114714271
+compet, 1969, 0.181381066779
+market, 5514, 0.154409831622
+worth, 9850, 0.15342804231
+intern, 4716, 0.150642690584
+term, 8795, 0.139161811972
+level, 5229, 0.138950787241
+area, 622, 0.137711526087
+lead, 5172, 0.137509320354
+specif, 8203, 0.13442816448
+type, 9177, 0.132288335538
+stuff, 8472, 0.129790691287
+suggest, 8525, 0.129154628281
+hard, 4167, 0.128222385218
+alway, 457, 0.127917253788
+project, 6909, 0.125712395657
+hit, 4316, 0.11844048554
+case, 1540, 0.117758529086
+ask, 689, 0.117311402333
+talk, 8684, 0.114540665217
+long, 5336, 0.106717932159
+question, 7032, 0.102521763584
+realli, 7150, 0.100502231364
+space, 8164, 0.0960726912234
+point, 6710, 0.0956014577484
+want, 9634, 0.0922618719337
+good, 3948, 0.0870636106074
+time, 8936, 0.0804743021211
+think, 8871, 0.0775709728254

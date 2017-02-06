@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60178
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ken@sugra.uucp (Kenneth Ng)
+Subject: Re: nuclear waste
+Organization: Private Computer, Totowa, NJ
+Lines: 18
+
+In article <1993Mar31.191658.9836@mksol.dseg.ti.com: mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+:Just a bit off, Phil.  We don't reprocess nuclear fuel because what
+:you get from the reprocessing plant is bomb-grade plutonium.  It is
+:also cheaper, given current prices of things, to simply fabricate new
+:fuel rods rather than reprocess the old ones, creating potentially
+:dangerous materials (from a national security point of view) and then
+:fabricate that back into fuel rods.
+
+Fabricating with reprocessed plutonium may result in something that may go
+kind of boom, but its hardly decent bomb grade plutonium.  If you want bomb
+grade plutonium use a research reactor, not a power reactor.  But if you want
+a bomb, don't use plutonium, use uranium.
+
+-- 
+Kenneth Ng
+Please reply to ken@eies2.njit.edu for now.
+"All this might be an elaborate simulation running in a little device sitting
+on someone's table" -- J.L. Picard: ST:TNG
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nuclear wast     bit phil don't reprocess nuclear
+fuel get reprocess plant bomb grade plutonium also
+cheaper given current price thing simpli fabric
+new fuel rod rather reprocess old one creat
+potenti danger materi nation secur point view
+fabric back fuel rod  fabric reprocess plutonium
+result someth kind boom hard decent bomb grade
+plutonium want bomb grade plutonium use research
+reactor power reactor want bomb don't use
+plutonium use uranium   kenneth  might elabor
+simul run littl devic sit someon tabl picard tng
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+plutonium, 6702, 0.580510504728
+bomb, 1209, 0.355264624192
+fabric, 3344, 0.312083633941
+grade, 3978, 0.274236493411
+fuel, 3715, 0.217375602956
+reactor, 7134, 0.208055755961
+rod, 7453, 0.189116838605
+nuclear, 6150, 0.162900902156
+tng, 8959, 0.116102100946
+kenneth, 4985, 0.102459128497
+uranium, 9347, 0.101040021971
+use, 9363, 0.0986512481557
+boom, 1222, 0.0929023420091
+elabor, 3024, 0.09213861825
+secur, 7762, 0.0907195117242
+plant, 6670, 0.0900576539197
+tabl, 8667, 0.0814504510778
+want, 9634, 0.0811186996364
+devic, 2591, 0.0794169302787
+decent, 2440, 0.0794169302787
+simul, 7974, 0.0784956458012
+danger, 2356, 0.0784956458012
+cheaper, 1678, 0.0776280596951
+sit, 7993, 0.0755348859758
+phil, 6588, 0.0732745932772
+potenti, 6774, 0.0713126345213
+wast, 9654, 0.0699102482094
+price, 6857, 0.0692556659238
+don, 2811, 0.0675450035072
+materi, 5543, 0.0655850840632
+simpli, 7967, 0.0609921242745
+nation, 5962, 0.0586183490667
+view, 9510, 0.0581554304666
+result, 7332, 0.0577803640616
+creat, 2217, 0.0575597770796
+research, 7307, 0.0572706544233
+hard, 4167, 0.056367993274
+old, 6216, 0.0563007726228
+power, 6783, 0.0552645738164
+current, 2299, 0.0539481922213
+given, 3887, 0.0534415114198
+kind, 5021, 0.0531130565798
+bit, 1122, 0.0502190153826
+littl, 5308, 0.050041759135
+someon, 8124, 0.0486547244556
+run, 7543, 0.044850517614
+someth, 8126, 0.0438294768206
+new, 6023, 0.0433721864002
+point, 6710, 0.0420274690583
+thing, 8869, 0.040676313098

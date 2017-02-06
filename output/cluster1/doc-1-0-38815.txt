@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38815
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rickt@sapphire.zed.com (Rickey Thomas Tom)
+Subject: wanted, how to do a screen dump of a VGA screen
+Organization: Project Zed
+Lines: 14
+
+	How can one dump to the printer, the content of a VGA screen. If it were
+a text screen, we can execute a shift printscr. but with graphics, we have
+to do a pixed by pixel print. It would be greatly appreciated if someone can
+supply source code for this. Alternately, are there commercial or shareware
+programs that are available to do this. I must be able to shell out of my 
+program to execute this print screen.  Therefore, it would be prefferable to have source code.
+
+Thank you in advance
+
+-- 
+--------------------------------------------------------------------------------
+Rickey Tom                       | Internet Style: aruba!rickt@uu2.psi.com
+Programmer/Analyst Project ZE    | UUCP          : ...!uunet!uupsi2!aruba!rickt
+--------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want screen dump vga screen    one dump printer
+content vga screen text screen execut shift
+printscr graphic pix pixel print great appreci
+someon suppli sourc code altern commerci sharewar
+program avail must abl shell program execut print
+screen therefor preffer sourc code  thank advanc
+programm analyst project uucp uunet uupsi2 aruba
+rickt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+screen, 7719, 0.557599944477
+dump, 2916, 0.277292520417
+execut, 3272, 0.272722244703
+vga, 9492, 0.235983055526
+print, 6871, 0.2296645077
+code, 1871, 0.19058217876
+pix, 6649, 0.181605127791
+sourc, 8153, 0.176984289575
+analyst, 491, 0.150893713455
+program, 6905, 0.148842849494
+shell, 7873, 0.143017565481
+printer, 6872, 0.143017565481
+shift, 7883, 0.140300419531
+uunet, 9392, 0.138646260208
+sharewar, 7856, 0.130579068989
+content, 2084, 0.122430465804
+suppli, 8574, 0.122027501689
+programm, 6906, 0.121631198443
+pixel, 6651, 0.120857718446
+altern, 450, 0.119381818684
+uucp, 9388, 0.115431680084
+text, 8822, 0.107277933534
+therefor, 8855, 0.107062902492
+commerci, 1940, 0.101372769243
+appreci, 587, 0.0926865060804
+advanc, 285, 0.090659175014
+project, 6909, 0.0889906201336
+abl, 180, 0.0877155327466
+avail, 811, 0.0832806311486
+great, 4016, 0.0797440534324
+graphic, 3997, 0.0789358038468
+someon, 8124, 0.0783470097157
+thank, 8832, 0.067143008517
+want, 9634, 0.065311309638

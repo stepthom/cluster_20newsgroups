@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39674
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mike@leah.prc.utexas.edu (Michael Kline)
+Subject: IGES and e00 formats
+Organization: Population Research Center, UT-Austin
+Lines: 10
+
+I am trying to find out anything I can about available documentation
+for IGES and e00(Arc/Info) formats.  If you know anything about these
+formats (or just one) PLEASE send me a note.  I don't read this group,
+so please send responses to:
+
+mike@prc.utexas.edu
+
+Thank You
+
+Mike Kline
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ige e00 format    tri find anyth avail document
+ige e00 arc info format know anyth format one
+pleas send note don't read group pleas send
+respons    thank  mike kline
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ige, 4493, 0.559827830149
+format, 3612, 0.464323001081
+send, 7785, 0.297130846845
+anyth, 555, 0.265155739761
+pleas, 6688, 0.227528782441
+arc, 608, 0.217672794472
+document, 2788, 0.177854752518
+mike, 5710, 0.166927157963
+info, 4636, 0.152251314223
+respons, 7323, 0.148937278043
+note, 6118, 0.139530933794
+group, 4064, 0.134587287176
+avail, 811, 0.134330325549
+read, 7135, 0.117722093561
+tri, 9087, 0.111999556517
+thank, 8832, 0.108300598447
+don, 2811, 0.0877183997581
+know, 5052, 0.0833000779607

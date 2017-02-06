@@ -1,0 +1,488 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104651
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: 00mbstultz@leo.bsuvc.bsu.edu
+Subject: ALL-TIME PEAK PLAYERS
+Organization: Ball State University, Muncie, In - Univ. Computing Svc's
+Lines: 195
+
+Last week I posted the ALL-TIME GREATEST PLAYERS (and haphazardly misspelled
+several names--SORRY!)  This week, it's time for the greatest PEAK players.
+I evaluated the following players on 4 consectutive seasons which constituted
+their "prime" or "peak" years.  (3 was too few; 5 seemed to many--so I settled
+for 4).  Sources, as usual, include Total Baseball 1993 and my own (biased)
+opinions.
+Here goes, feel free to comment.
+
+ 1.  Ted Williams (includes season after war)--missed actual peak years
+ 2.  Babe Ruth
+ 3.  Walter Johnson
+ 4.  Mickey Mantle
+ 5.  Mike Schmidt  (actual peak year shortened by strike)
+ 6.  Barrry Bonds  (currently at peak)
+ 7.  Honus Wagner
+ 8.  Ty Cobb
+ 9.  Tris Speaker
+10.  Willie Mays
+11.  Lefty Grove
+12.  Sandy Koufax
+13.  Joe Morgan
+14.  Ed Walsh
+15.  Christy Mathewson
+16.  Lou Gehrig
+17.  Jimmie Foxx
+18.  Cal Ripken Jr.
+19.  Pete Alexander
+20.  Cy Young
+21.  Tim Raines
+22.  Rickey Henderson  (again, strike year '81 included)
+23.  Carl Yastrzemski
+24.  Jackie Robinson
+25.  Joe DiMaggio
+26.  Rogers Hornsby  
+27.  George Sisler
+28.  Eddie Collins
+29.  Hank Aaron
+30.  Stan Musial
+31.  Joe Jackson
+32.  Wade Boggs
+33.  Charlie Gehringer
+34.  Ernie Banks
+35.  Bob Gibson
+36.  Carl Hubbell
+37.  Robin Yount
+38.  Rod Carew
+39.  Chuck Klein
+40.  Willie McCovey
+41.  Frank Robinson
+42.  Tom Seaver
+43.  Roger Clemens  (arguably, still in peak)
+44.  Mel Ott
+45.  Frank Baker
+46.  Nap Lajoie  (peak came in suspect league)
+47.  Dizzy Trout
+48.  George Brett
+49.  Mordecai Brown
+50.  Ryne Sandberg
+
+1B  Peak
+ 1) Gehrig
+ 2) Foxx
+ 3) Sisler
+ 4) McCovey
+ 5) Greenberg
+ 6) Frank Thomas (projected--sorry)
+ 7) Dick Allen
+ 8) Johnny Mize
+ 9) Eddie Murray (yes, Mr.Consistency had a peak)
+10) Bill Terry
+
+2B
+ 1) Morgan
+ 2) J.Robinson
+ 3) Collins
+ 4) Hornsby 
+ 5) Gehringer
+ 6) Carew (treated as a 2B, even though played 1B)
+ 7) Sandberg
+ 8) Bobby Grich
+ 9) Nap Lajoie
+10) Bill Herman, Mazeroski (tough call)
+
+3B)
+ 1) Schmidt
+ 2) Boggs
+ 3) F.Baker
+ 4) Brett
+ 5) Ed Mathews
+ 6) Ron Santo
+ 7) Harland Clift
+ 8) Ken Boyer
+ 9) Buddy Bell
+10) Darrell Evans
+
+SS
+ 1) Wagner
+ 2) Ripken
+ 3) Banks
+ 4) Yount
+ 5) John Lloyd (estimated)
+ 6) Arky Vaughan
+ 7) Barry Larkin  (still in peak?)
+ 8) Lou Boudreau
+ 9) Ozzie Smith
+10) Joe Sewell
+
+LF
+ 1) Williams
+ 2) Ba.Bonds
+ 3) Raines
+ 4) Henderson (actually had 2 peaks; 80-83 & 83-86)
+ 5) Yastrzemski
+ 6) Musial
+ 7) J.Jackson
+ 8) Ralph Kiner
+ 9) Al Simmons
+10) George Foster
+11) Willie Stargell
+
+CF
+ 1) Mantle
+ 2) Cobb
+ 3) Speaker
+ 4) Mays
+ 5) DiMaggio
+ 6) Oscar Charleston (again, estimated)
+ 7) Duke Snider
+ 8) Ken Griffey Jr.  (personal assumption)
+ 9) Kirby Puckett
+10) Richie Ashburn
+11) Dale Murphy (strike season?)
+
+RF
+ 1) Ruth
+ 2) Aaron
+ 3) Klein
+ 4) F.Robinson
+ 5) Ott
+ 6) Roberto Clemente
+ 7) Tony Gwynn
+ 8) Dave Parker
+ 9) Reggie Jackson
+10) Harry Heilmann
+11) Jose Canseco
+12) Darryl Strawberry
+
+ C
+ 1) Josh Gibson (estimated)
+ 2) Mickey Cochrane
+ 3) Gary Carter
+ 4) Johnny Bench
+ 5) Roy Campanella
+ 6) Yogi Berra
+ 7) Bill Dickey
+ 8) Gabby Hartnett
+ 9) Elston Howard
+10) Ted Simmons
+11) Joe Torre
+
+ P
+ 1) W.Johnson
+ 2) Grove
+ 3) Koufax
+ 4) Walsh
+ 5) Mathewson
+ 6) Alexander
+ 7) Young
+ 8) Gibson
+ 9) Hubbell
+10) Seaver
+11) Clemens
+12) Satchel Paige (estimated)
+13) D.Trout
+14) Juan Marichal
+15) Mordecai Brown
+16) Joe Wood
+17) Dave Steib
+18) Jim Palmer
+19) Bob Lemon
+20) Fergie Jenkins
+
+ RP
+ 1) Who cares?
+
+
+I hope there are some surprises here: Raines above Muisial?  Carter above
+ Bench?  Ripken above Banks?  Bonds above Mays?
+Check the numbers of each player in comparison to the numbers of the rest
+of the players that year(s), and you'll see that I'm fairly close with
+this ranking system (which is primarily based on Total Player Rating) for
+four consecutive years.
+
+Enjoy,
+Mike
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time peak player    last week post time greatest
+player haphazard misspel sever name sorri week it
+time greatest peak player evalu follow player
+consectut season constitut prime peak year seem
+mani settl sourc usual includ total basebal bias
+opinion goe feel free comment  ted william includ
+season war miss actual peak year babe ruth walter
+johnson mickey mantl mike schmidt actual peak year
+shorten strike barrri bond current peak honus
+wagner cobb tris speaker willi may lefti grove
+sandi koufax joe morgan walsh christi mathewson
+lou gehrig jimmi foxx cal ripken pete alexand
+young tim rain rickey henderson strike year includ
+carl yastrzemski jacki robinson joe dimaggio roger
+hornsbi georg sisler eddi collin hank aaron stan
+musial joe jackson wade bogg charli gehring erni
+bank bob gibson carl hubbel robin yount rod carew
+chuck klein willi mccovey frank robinson tom
+seaver roger clemen arguabl still peak mel ott
+frank baker nap lajoi peak came suspect leagu
+dizzi trout georg brett mordecai brown ryne
+sandberg  peak gehrig foxx sisler mccovey
+greenberg frank thoma project sorri dick allen
+johnni mize eddi murray yes consist peak bill
+terri   morgan robinson collin hornsbi gehring
+carew treat even though play sandberg bobbi grich
+nap lajoi bill herman mazeroski tough call
+schmidt bogg baker brett mathew ron santo harland
+clift ken boyer buddi bell darrel evan   wagner
+ripken bank yount john lloyd estim arki vaughan
+barri larkin still peak lou boudreau ozzi smith
+joe sewel   william bond rain henderson actual
+peak yastrzemski musial jackson ralph kiner simmon
+georg foster willi stargel   mantl cobb speaker
+may dimaggio oscar charleston estim duke snider
+ken griffey person assumpt kirbi puckett richi
+ashburn dale murphi strike season   ruth aaron
+klein robinson ott roberto clement toni gwynn dave
+parker reggi jackson harri heilmann jose canseco
+darryl strawberri   josh gibson estim mickey
+cochran gari carter johnni bench roy campanella
+yogi berra bill dickey gabbi hartnett elston
+howard ted simmon joe torr   johnson grove koufax
+walsh mathewson alexand young gibson hubbel seaver
+clemen satchel paig estim trout juan marich
+mordecai brown joe wood dave steib jim palmer bob
+lemon fergi jenkin   care   hope surpris rain
+muisial carter bench ripken bank bond may check
+number player comparison number rest player year
+you'll see i'm fair close rank system primarili
+base total player rate four consecut year  enjoy
+mike
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+peak, 6496, 0.426812927839
+joe, 4876, 0.186277793934
+robinson, 7441, 0.152413647152
+player, 6683, 0.151054387407
+estim, 3201, 0.134512479845
+gibson, 3867, 0.127314493577
+ripken, 7409, 0.122790009101
+willi, 9763, 0.117060689361
+rain, 7074, 0.107876187558
+jackson, 4812, 0.107280544551
+trout, 9118, 0.101127049332
+sisler, 7991, 0.101127049332
+mordecai, 5858, 0.101127049332
+lajoi, 5096, 0.101127049332
+gehring, 3812, 0.101127049332
+bank, 897, 0.0992866990124
+yastrzemski, 9938, 0.0975288794594
+walsh, 9626, 0.0975288794594
+musial, 5932, 0.0975288794594
+mathewson, 5548, 0.0975288794594
+hornsbi, 4378, 0.0975288794594
+georg, 3847, 0.0945717440799
+year, 9943, 0.0943007914206
+strike, 8448, 0.0934168454407
+bond, 1211, 0.0928650062801
+nap, 5952, 0.0924575438567
+mickey, 5683, 0.0924575438567
+dimaggio, 2650, 0.0924575438567
+wagner, 9608, 0.0905295115423
+mccovey, 5571, 0.0905295115423
+klein, 5039, 0.0888593739843
+foxx, 3633, 0.0888593739843
+ott, 6316, 0.0873862082539
+carew, 1518, 0.0873862082539
+simmon, 7963, 0.0848763290511
+seaver, 7750, 0.0848763290511
+collin, 1902, 0.0848763290511
+grove, 4065, 0.0837880383816
+cobb, 1864, 0.0837880383816
+baker, 871, 0.0837880383816
+johnni, 4879, 0.0827869080129
+alexand, 397, 0.0827869080129
+mantl, 5491, 0.0818600060672
+frank, 3655, 0.080273098267
+yount, 9965, 0.0801898685092
+koufax, 5067, 0.0794316089281
+gehrig, 3811, 0.0794316089281
+carl, 1520, 0.0794316089281
+speaker, 8193, 0.0787167027788
+lou, 5360, 0.0787167027788
+brett, 1300, 0.0787167027788
+aaron, 161, 0.0787167027788
+schmidt, 7681, 0.078040459574
+morgan, 5861, 0.078040459574
+henderson, 4253, 0.0767886704644
+eddi, 2990, 0.0767886704644
+bench, 1022, 0.0736453671761
+sandberg, 7606, 0.0731905005921
+bogg, 1199, 0.0727515975744
+ruth, 7555, 0.0723275755252
+season, 7747, 0.0722537446634
+carter, 1535, 0.0711354879732
+greatest, 4018, 0.0700471973037
+brown, 1344, 0.0700471973037
+clemen, 1807, 0.0681191649893
+johnson, 4880, 0.0678248584094
+ted, 8745, 0.0661911326749
+includ, 4579, 0.0645563257646
+william, 9764, 0.062850857559
+ken, 4980, 0.0613776918286
+actual, 254, 0.0603218456746
+roger, 7458, 0.0600599001778
+young, 9962, 0.0558514896419
+bob, 1189, 0.054988564575
+dave, 2395, 0.0540840173315
+mike, 5710, 0.0539874342064
+ashburn, 683, 0.0505635246659
+total, 9013, 0.0499172289723
+vaughan, 9436, 0.0487644397297
+snider, 8078, 0.0487644397297
+sewel, 7824, 0.0487644397297
+satchel, 7629, 0.0487644397297
+richi, 7385, 0.0487644397297
+paig, 6388, 0.0487644397297
+marich, 5509, 0.0487644397297
+lemon, 5208, 0.0487644397297
+hartnett, 4190, 0.0487644397297
+grich, 4042, 0.0487644397297
+gabbi, 3742, 0.0487644397297
+cochran, 1868, 0.0487644397297
+charleston, 1669, 0.0487644397297
+berra, 1047, 0.0487644397297
+sorri, 8142, 0.0482297320048
+mize, 5791, 0.0473689610391
+herman, 4269, 0.0473689610391
+arguabl, 629, 0.0473689610391
+ryne, 7559, 0.0462287719283
+christi, 1731, 0.0462287719283
+week, 9691, 0.0460611643435
+lloyd, 5316, 0.0452647557711
+campanella, 1478, 0.0452647557711
+time, 8936, 0.0445769506465
+santo, 7616, 0.0444296869921
+jacki, 4811, 0.0444296869921
+foster, 3623, 0.0444296869921
+dizzi, 2772, 0.0444296869921
+consecut, 2054, 0.0444296869921
+oscar, 6308, 0.043693104127
+jimmi, 4870, 0.043693104127
+gwynn, 4104, 0.0430342083015
+clement, 1808, 0.0430342083015
+buddi, 1366, 0.0430342083015
+yogi, 9956, 0.0424381645255
+stan, 8309, 0.0424381645255
+kiner, 5023, 0.0424381645255
+darrel, 2373, 0.0424381645255
+walter, 9628, 0.0418940191908
+shorten, 7907, 0.0418940191908
+roberto, 7438, 0.0418940191908
+reggi, 7226, 0.0418940191908
+duke, 2912, 0.0418940191908
+howard, 4402, 0.0413934540064
+griffey, 4047, 0.0413934540064
+wood, 9824, 0.0409300030336
+terri, 8803, 0.0409300030336
+erni, 3173, 0.0409300030336
+darryl, 2377, 0.0409300030336
+number, 6156, 0.0406706151777
+mel, 5620, 0.0404985405002
+mathew, 5547, 0.0404985405002
+kirbi, 5029, 0.0404985405002
+rod, 7453, 0.0397158044641
+greenberg, 4027, 0.0397158044641
+dick, 2621, 0.0397158044641
+charli, 1670, 0.0397158044641
+torr, 9004, 0.0393583513894
+sandi, 7608, 0.0393583513894
+ralph, 7082, 0.0393583513894
+tough, 9017, 0.039020229787
+roy, 7502, 0.039020229787
+puckett, 6975, 0.039020229787
+murphi, 5928, 0.039020229787
+hank, 4154, 0.039020229787
+chuck, 1740, 0.039020229787
+canseco, 1494, 0.039020229787
+ozzi, 6366, 0.038699455564
+juan, 4915, 0.038699455564
+evan, 3227, 0.038699455564
+dale, 2341, 0.038699455564
+babe, 846, 0.038699455564
+larkin, 5127, 0.038103411788
+wade, 9605, 0.0378254226323
+settl, 7817, 0.0378254226323
+rank, 7096, 0.0378254226323
+lefti, 5196, 0.0378254226323
+josh, 4895, 0.0378254226323
+cal, 1449, 0.0378254226323
+murray, 5929, 0.0370587012689
+strawberri, 8434, 0.0368226835881
+rickey, 7389, 0.0368226835881
+bobbi, 1190, 0.0368226835881
+robin, 7440, 0.0363757987872
+harri, 4184, 0.0363757987872
+palmer, 6401, 0.0361637877626
+evalu, 3226, 0.035760181517
+prime, 6865, 0.0355677439866
+primarili, 6864, 0.0355677439866
+constitut, 2070, 0.0353810517265
+treat, 9076, 0.0351997716054
+assumpt, 711, 0.034852252967
+pete, 6574, 0.0343647028264
+bias, 1069, 0.0339124292047
+comparison, 1962, 0.0337686590504
+tim, 8935, 0.0332245137157
+ron, 7472, 0.0327239485313
+bell, 1011, 0.0327239485313
+barri, 918, 0.0326048263339
+gari, 3776, 0.0324879308505
+toni, 8984, 0.0323731803598
+jose, 4892, 0.0322604975585
+allen, 426, 0.0313284698407
+thoma, 8878, 0.0310462989889
+smith, 8064, 0.0306025862532
+war, 9635, 0.0304335563345
+suspect, 8603, 0.0302689750919
+enjoy, 3114, 0.0299522630491
+jim, 4868, 0.0285722447527
+consist, 2061, 0.0285106311876
+tom, 8976, 0.0282113527304
+surpris, 8593, 0.0281531781129
+rate, 7108, 0.0271397251269
+rest, 7324, 0.0267115462514
+goe, 3931, 0.0267115462514
+fair, 3363, 0.0264857554351
+miss, 5770, 0.0264415593057
+usual, 9377, 0.0263976733272
+check, 1682, 0.0255027598209
+free, 3668, 0.0254649728402
+came, 1472, 0.0252066701424
+leagu, 5176, 0.0250991535753
+comment, 1936, 0.0250991535753
+care, 1516, 0.0246204928837
+feel, 3429, 0.0245876648489
+close, 1830, 0.0237036748847
+john, 4878, 0.0236470796905
+opinion, 6266, 0.023425685729
+project, 6909, 0.0232118622928
+sourc, 8153, 0.0230818425102
+sever, 7823, 0.0230818425102
+yes, 9951, 0.0227803997594
+current, 2299, 0.0226589643656
+hope, 4372, 0.0223538440339
+basebal, 924, 0.0210739643145
+person, 6562, 0.0208358727732
+play, 6681, 0.0206238617486
+follow, 3578, 0.0205547590977
+ll, 5314, 0.0198105450829
+base, 923, 0.0195711387668
+post, 6766, 0.0182643669008
+mani, 5479, 0.017739110508

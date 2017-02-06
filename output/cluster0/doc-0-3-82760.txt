@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82760
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: joslin@pogo.isp.pitt.edu (David Joslin)
+Subject: Re: Food For Thought On Tyre
+Organization: Intelligent Systems Program
+Lines: 10
+
+af664@yfn.ysu.edu (Frank DeCenso, Jr.) writes:
+>PPS...Am I giving you too many clues?
+
+Too many clues, not enough substance.  You ask a lot of
+good questions, though, but they are questions *you* should
+be worried about, not me.  I'm not the inerrantist here.
+
+Let me know when you are ready to get serious.
+
+dj
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ food thought tyre     pps give mani clue  mani
+clue enough substanc ask lot good question though
+question worri i'm inerrantist  let know readi get
+serious
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clue, 1844, 0.499007201187
+pps, 6792, 0.338357432782
+inerrantist, 4610, 0.31407449041
+tyre, 9180, 0.287213036984
+substanc, 8502, 0.264384716902
+question, 7032, 0.262694166687
+mani, 5479, 0.246169541765
+food, 3584, 0.237371807238
+worri, 9845, 0.223843013365
+readi, 7139, 0.213544828797
+thought, 8887, 0.151448368416
+ask, 689, 0.150295020303
+let, 5225, 0.137036361197
+lot, 5356, 0.135390963382
+good, 3948, 0.111542670735
+know, 5052, 0.0934659841032

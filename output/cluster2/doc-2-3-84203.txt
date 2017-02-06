@@ -1,0 +1,198 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84203
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: royc@rbdc.wsnc.org (Roy Crabtree)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Red Barn Data Center
+Lines: 54
+
+In article <C5srEw.FCG@noose.ecn.purdue.edu> tbrent@bank.ecn.purdue.edu (Timothy J Brent) writes:
+...
+>Give me a break!  What fireman should have to deal with a blaze like that
+>AND get shot at at the same time.
+
+	Nearly all of them.  Witness LA>  Firemen are among our real
+	heroes most of the time.  I wonder when they were actually
+	aasked to come, or if they found out about the fire over the
+	TV ....
+
+
+	Shot at by whom?  prove it!
+
+>
+>These people were breaking the law.  I agree these weren't the best tactics,
+
+	When "law" replaces "justice" the system is dying or dead.
+	Note that we had a small revolution 216 years ago on this
+	point.
+
+>they probably should have backed off, pulled the perimeter way back, and let
+>them sit there with no media attention until they decided to come out.  The 
+>only other alternative I see would have been to send in a couple of special
+>forces guys to capture or assassinate Koresh.  But remember, these fruit-
+
+	Or perhaps just wait.
+	Or maybeeven send in a few agents who are Christian to
+		sit down and pray outside the line?  Try affinity
+		rather than subversion?
+
+
+>loops were putting their lives on the lines voluntarily.  Why should 
+
+	Chuckle.  SO would you if someone points a gun at you.
+	At that point you can die or live; and if living means
+	stayng in a building to keep badge carrying nuts off your
+	kids, I suspect you might as well.
+
+BOTH sides were wrong.
+
+>law-abiding citizens have to put themselves in any more danger than necessary
+>when dealing with a nut?  Look at the man who jumped out of his Bradley to
+>grab a flaming women who was running back into the building.  Yeah, I would
+>have to say they were trying to save those people.  I don't think I would 
+>risk my life that much to save someone that stupid that obviously didn't
+>even want to be saved.
+
+	Try again:  go see the movie Sophie's CHoice.
+	Grow up.
+
+>
+>-Tim
+
+royc
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen      give break fireman
+deal blaze like get shot time  near wit firemen
+among real hero time wonder actual aask come found
+fire    shot prove   peopl break law agre weren't
+best tactic  law replac justic system die dead
+note small revolut year ago point  probabl back
+pull perimet way back let sit media attent decid
+come altern see send coupl special forc guy captur
+assassin koresh rememb fruit  perhap wait
+maybeeven send agent christian sit pray outsid
+line tri affin rather subvers   loop put live line
+voluntarili  chuckl someon point gun point die
+live live mean stayng build keep badg carri nut
+kid suspect might well  side wrong  law abid
+citizen put danger necessari deal nut look man
+jump bradley grab flame women run back build yeah
+say tri save peopl don't think risk life much save
+someon stupid obvious didn't even want save  tri
+see movi sophi choic grow   tim  royc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+law, 5153, 0.217578551253
+nut, 6160, 0.205838955103
+save, 7646, 0.203961863701
+live, 5310, 0.185800062342
+sit, 7993, 0.171385644693
+shot, 7910, 0.165784628722
+break, 1284, 0.154686664421
+tri, 9087, 0.146759748632
+point, 6710, 0.143037977479
+die, 2628, 0.138180800087
+deal, 2418, 0.136562126943
+build, 1378, 0.136365138984
+voluntarili, 9580, 0.13171551902
+perimet, 6545, 0.13171551902
+affin, 312, 0.13171551902
+send, 7785, 0.129782800784
+chuckl, 1741, 0.127946251885
+badg, 862, 0.127946251885
+fruit, 3703, 0.120007105885
+abid, 176, 0.120007105885
+royc, 7506, 0.118017553766
+blaze, 1147, 0.114627890687
+line, 5285, 0.111980242491
+hero, 4273, 0.111806068289
+bradley, 1264, 0.111806068289
+tactic, 8670, 0.110554260911
+revolut, 7365, 0.110554260911
+someon, 8124, 0.110395629919
+citizen, 1776, 0.102919477552
+loop, 5344, 0.102168613067
+pray, 6800, 0.10076015848
+grab, 3973, 0.10076015848
+come, 1923, 0.0979656550591
+risk, 7416, 0.0941379130776
+justic, 4937, 0.0941379130776
+weren, 9705, 0.0932486725269
+gun, 4094, 0.0924039130276
+jump, 4929, 0.091996865149
+peopl, 6530, 0.0916594764819
+captur, 1509, 0.0912110644167
+agent, 331, 0.0908314603614
+tim, 8935, 0.089741296988
+women, 9819, 0.0893930028019
+grow, 4066, 0.0893930028019
+danger, 2356, 0.0890517453456
+wit, 9802, 0.087441797282
+attent, 766, 0.0871374346409
+movi, 5892, 0.0862559301423
+pull, 6979, 0.0851478825221
+kid, 5008, 0.08488186648
+yeah, 9942, 0.0843620817898
+altern, 450, 0.0841080669344
+necessari, 5990, 0.0831285653391
+stupid, 8476, 0.0826593221215
+media, 5605, 0.0822027627187
+suspect, 8603, 0.0817582194427
+replac, 7288, 0.0815402593919
+wait, 9611, 0.0813250759779
+koresh, 5065, 0.0811125993453
+presid, 6839, 0.0809027622423
+flame, 3518, 0.0809027622423
+outsid, 6332, 0.0802884520141
+time, 8936, 0.0802699155815
+choic, 1717, 0.0780328838531
+special, 8198, 0.0752788723434
+dead, 2415, 0.0752788723434
+prove, 6947, 0.0749825196621
+decid, 2442, 0.0731734533451
+obvious, 6185, 0.0714201522041
+carri, 1530, 0.0714201522041
+coupl, 2187, 0.0702706155901
+forc, 3594, 0.0699404747315
+messag, 5650, 0.069831846257
+near, 5982, 0.0683801351311
+small, 8054, 0.065804686028
+ago, 336, 0.065804686028
+perhap, 6540, 0.0653834255531
+agre, 337, 0.0653834255531
+guy, 4100, 0.0634216329633
+rememb, 7269, 0.0622069093974
+life, 5260, 0.0622069093974
+wrong, 9869, 0.0620013287312
+wonder, 9821, 0.0613335868653
+note, 6118, 0.0609452555199
+christian, 1732, 0.0599513412364
+happen, 4159, 0.0595342417838
+man, 5471, 0.0583413931728
+real, 7144, 0.057908249708
+best, 1052, 0.0564741563572
+didn, 2625, 0.0564251239002
+probabl, 6885, 0.0552434065382
+actual, 254, 0.0543109094476
+let, 5225, 0.053345408408
+mean, 5595, 0.0522017782539
+run, 7543, 0.0508820181351
+want, 9634, 0.0460137738154
+way, 9666, 0.0441865435233
+say, 7653, 0.0428856643937
+year, 9943, 0.0424519648429
+look, 5341, 0.0421548675184
+think, 8871, 0.038686980043
+don, 2811, 0.0383142299824
+know, 5052, 0.036384365804
+like, 5272, 0.0355673382493

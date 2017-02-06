@@ -1,0 +1,150 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82778
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: *** The list of Biblical contradictions
+Organization: Starfleet Headquarters: San Francisco
+Lines: 30
+
+joslin@pogo.isp.pitt.edu (David Joslin) writes:
+>
+>I'm curious to know what purpose people think these lists serve.
+>Lists like this seem to value quantity over quality, an "argument
+>from article length."  And the list you have here is of poorer
+>quality than most.
+
+I agree, which is why I've asked for help with it.
+
+The reason I'm working on this list is because I've recently had one
+too many Christians tell me "the Bible contains no contradictions
+whatsoever."  They believe that it's true, and that it describes
+reality perfectly, and even predicts history before it happens.
+
+Before I can carry on any sort of meaningful conversation with these
+people, I've got to SHOW them, with concrete evidence, that the Bible
+is not nearly as airtight as they thought.  I hope to do that with
+this list.
+
+Specifically: when I bring up the fact that Genesis contains two
+contradictory creation stories, I usually get blank stares or flat
+denials.  I've never had a fundamentalist acknowledge that there are
+indeed two different accounts of creation.
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ list biblic contradict      i'm curious know
+purpos peopl think list serv list like seem valu
+quantiti qualiti argument articl length list
+poorer qualiti  agre i'v ask help  reason i'm work
+list i'v recent one mani christian tell bibl
+contain contradict whatsoev believ it true describ
+realiti perfect even predict histori happen  carri
+sort meaning convers peopl i'v got show concret
+evid bibl near airtight thought hope list  specif
+bring fact genesi contain two contradictori
+creation stori usual get blank stare flat denial
+i'v never fundamentalist acknowledg inde two
+differ account creation   brian kendig sui fait
+comm aucun  n'etr fait comm aucun ceux qui exist
+mean life vaux pas mieux moin sui autr end
+rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+list, 5298, 0.383614772506
+sui, 8527, 0.221728514229
+aucun, 775, 0.221728514229
+fait, 3366, 0.21605436172
+comm, 1932, 0.208263573622
+contradict, 2098, 0.183371790532
+creation, 2218, 0.176552820887
+qualiti, 7017, 0.168092738278
+contain, 2079, 0.153497239793
+bibl, 1071, 0.153207497097
+poorer, 6742, 0.129044810405
+stare, 8329, 0.124022774024
+genesi, 3822, 0.124022774024
+concret, 2011, 0.124022774024
+contradictori, 2099, 0.11694461129
+meaning, 5596, 0.11425361871
+denial, 2524, 0.11425361871
+blank, 1139, 0.113049217241
+rousseau, 7497, 0.110864257115
+qui, 7034, 0.110864257115
+mieux, 5706, 0.110864257115
+ceux, 1626, 0.110864257115
+vaux, 9438, 0.109866448557
+moin, 5820, 0.10892260263
+fundamentalist, 3725, 0.10892260263
+etr, 3212, 0.10892260263
+whatsoev, 9719, 0.10802718086
+autr, 807, 0.10802718086
+pas, 6445, 0.107175455977
+quantiti, 7021, 0.104844412175
+kendig, 4982, 0.104131786811
+flat, 3526, 0.100376609558
+acknowledg, 239, 0.0987640579996
+peopl, 6530, 0.0947265785225
+biblic, 1072, 0.0866638588847
+length, 5212, 0.0864090091431
+convers, 2114, 0.0856660503269
+serv, 7810, 0.0851877492496
+curious, 2297, 0.0847222044003
+account, 221, 0.0838267826302
+inde, 4594, 0.0831841248837
+brian, 1304, 0.0819657074387
+realiti, 7148, 0.0817706562781
+predict, 6816, 0.0790796636983
+stori, 8418, 0.078914194239
+perfect, 6538, 0.0763175634957
+histori, 4314, 0.0754861255379
+describ, 2556, 0.0752175525905
+purpos, 6993, 0.0750847998803
+carri, 1530, 0.0738100076012
+bring, 1316, 0.0738100076012
+usual, 9377, 0.0736875025563
+evid, 3245, 0.073565851212
+argument, 631, 0.0728532258479
+valu, 9414, 0.0714022974609
+near, 5982, 0.070668265721
+recent, 7168, 0.0693819068373
+specif, 8203, 0.0692867736468
+agre, 337, 0.0675712804878
+sort, 8144, 0.0671465175066
+life, 5260, 0.0642884720036
+exist, 3283, 0.0625922944297
+hope, 4372, 0.0623993985747
+true, 9121, 0.0622719754012
+christian, 1732, 0.061957428202
+happen, 4159, 0.061526371801
+thought, 8887, 0.0609284744133
+ask, 689, 0.0604644764071
+end, 3091, 0.0601806181649
+fact, 3350, 0.0599013018499
+got, 3960, 0.0572817077224
+tell, 8767, 0.0570448398107
+reason, 7156, 0.0563077636896
+articl, 665, 0.0562627136071
+mean, 5595, 0.0539485499653
+believ, 1009, 0.0539091882863
+differ, 2633, 0.0537526231359
+help, 4249, 0.0512857273081
+mani, 5479, 0.0495176500862
+work, 9833, 0.0494566119218
+think, 8871, 0.0399815206621
+know, 5052, 0.0376018565304
+like, 5272, 0.0367574896652

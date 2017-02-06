@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102639
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gajarsky@pilot.njin.net (Bob Gajarsky - Hobokenite)
+Subject: Re: quick way to tell if your local beat writer is dumb.
+Article-I.D.: pilot.Apr.6.00.33.22.1993.26417
+Distribution: na
+Organization: Somewhere in Hoboken
+Lines: 7
+
+ok - sorry about that...i didn't realise he was being sarcastic about
+ those sort of things.
+
+but i'll tell you, mike lupica (daily news) usually says some pretty
+ funny things in his "shooting from the lip" columns...
+
+- bob gaj
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quick way tell local beat writer dumb articl
+pilot     sorri didn't realis sarcast sort thing
+i'll tell mike lupica daili news usual say pretti
+funni thing shoot lip column  bob gaj
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sarcast, 7621, 0.26556500292
+realis, 7146, 0.26556500292
+gaj, 3747, 0.260027132392
+lupica, 5397, 0.250998649565
+lip, 5292, 0.243789545256
+tell, 8767, 0.234788411922
+column, 1915, 0.224154936527
+pilot, 6631, 0.208963783986
+daili, 2338, 0.208963783986
+funni, 3731, 0.205427319673
+dumb, 2914, 0.205427319673
+shoot, 7900, 0.198320420405
+thing, 8869, 0.19628776161
+writer, 9866, 0.187301120912
+beat, 974, 0.176294612963
+bob, 1189, 0.157943178056
+mike, 5710, 0.155067639963
+quick, 7036, 0.153183497833
+local, 5322, 0.152922223607
+usual, 9377, 0.151643617206
+sorri, 8142, 0.138529841768
+sort, 8144, 0.138182737157
+pretti, 6851, 0.131719288781
+news, 6031, 0.124079939237
+didn, 2625, 0.120004435345
+articl, 665, 0.115784646097
+ll, 5314, 0.113803314329
+way, 9666, 0.0939755349896
+say, 7653, 0.091208837203

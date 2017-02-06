@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60900
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pjs@euclid.JPL.NASA.GOV (Peter J. Scott)
+Subject: Re: Orion drive in vacuum -- how?
+Organization: Jet Propulsion Laboratory, NASA/Caltech
+Lines: 19
+Distribution: world
+Reply-To: pjs@euclid.jpl.nasa.gov
+NNTP-Posting-Host: euclid.jpl.nasa.gov
+
+In article <1993Apr18.014305.28536@sfu.ca>, Leigh Palmer <palmer@sfu.ca> writes:
+> In article <C5nGxq.663@zoo.toronto.edu> Henry Spencer,
+> henry@zoo.toronto.edu writes:
+> >The National Air & Space Museum has both the prototype and the film.
+> >When I was there, some years ago, they had the prototype on display and
+> >the film continuously repeating.
+> 
+> Great! I'll visit the National Air and Space Museum at the end of the
+> month with my wife, who was also working at General Atomic at the time.
+> Once again netnews has enriched my life.
+
+Sorry to put a damper on your plans, but I was there three weeks ago and
+it wasn't there.  Not that I would have known to look for it, of course,
+but I combed the space exhibits pretty thoroughly and something like that
+would have caught my attention instantly.
+
+-- 
+This is news.  This is your       |    Peter Scott, NASA/JPL/Caltech
+brain on news.  Any questions?    |    (pjs@euclid.jpl.nasa.gov)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orion drive vacuum          nation air space
+museum prototyp film year ago prototyp display
+film continu repeat  great i'll visit nation air
+space museum end month wife also work general atom
+time netnew enrich life  sorri put damper plan
+three week ago wasn't known look cours comb space
+exhibit pretti thorough someth like caught attent
+instant   news peter scott nasa jpl caltech
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+prototyp, 6945, 0.309129554131
+museum, 5931, 0.300843646719
+film, 3479, 0.263759235766
+air, 357, 0.226933663915
+space, 8164, 0.205151227604
+nation, 5962, 0.189822533173
+damper, 2348, 0.187985462395
+ago, 336, 0.187833968583
+comb, 1919, 0.178210538562
+instant, 4681, 0.165895590951
+enrich, 3119, 0.163597859952
+netnew, 6016, 0.159570532024
+thorough, 8885, 0.156120667118
+orion, 6296, 0.156120667118
+caltech, 1468, 0.154564777065
+exhibit, 3282, 0.144789853232
+vacuum, 9405, 0.139410324453
+visit, 9544, 0.130177174622
+caught, 1568, 0.130177174622
+atom, 756, 0.129105534709
+wife, 9755, 0.128587064651
+scott, 7713, 0.12661797652
+jpl, 4912, 0.124797645843
+attent, 766, 0.124363257001
+repeat, 7286, 0.120402250789
+peter, 6575, 0.118983728222
+wasn, 9652, 0.104622831833
+drive, 2873, 0.104622831833
+display, 2734, 0.103875239263
+continu, 2092, 0.101762244251
+month, 5847, 0.0993574686743
+plan, 6660, 0.0984589325536
+known, 5054, 0.0963490216466
+general, 3818, 0.0930794037747
+sorri, 8142, 0.0929620900225
+nasa, 5956, 0.0907282775629
+week, 9691, 0.0887822081577
+life, 5260, 0.0887822081577
+pretti, 6851, 0.0883917878276
+news, 6031, 0.0832653118932
+end, 3091, 0.0831092729763
+cours, 2190, 0.0824950250098
+great, 4016, 0.0801835141137
+ll, 5314, 0.07636906111
+someth, 8126, 0.0709660238664
+work, 9833, 0.0682994489925
+year, 9943, 0.0605877902615
+look, 5341, 0.0601637705383
+time, 8936, 0.0572809389102
+like, 5272, 0.0507619950686

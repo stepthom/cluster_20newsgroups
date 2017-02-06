@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84186
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: halat@pooh.bears (Jim Halat)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Reply-To: halat@pooh.bears (Jim Halat)
+Lines: 45
+
+In article <1r3qab$o1v@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank O'Dwyer) writes:
+>In article <930421.102525.9Y9.rusnews.w165w@mantis.co.uk> mathew <mathew@mantis.co.uk> writes:
+>#frank@D012S658.uucp (Frank O'Dwyer) writes:
+>#> In article <930420.100544.6n0.rusnews.w165w@mantis.co.uk> mathew
+>#> <mathew@mantis.co.uk> writes:
+>#> #This is complete nonsense.  Relativism means saying that there is no absolut
+>#> #standard of morality; it does NOT mean saying that all standards of morality
+>#> #are equally good.
+>#> 
+>#> Presumably this means that some moral systems are better than others?
+>#> How so?  How do you manage this without an objective frame of reference?
+>#
+
+Either Frank O'Dwyer or mathew said:
+
+[...stiff deleted...]
+
+>#Which goes faster, a bullet or a snail?  How come you can answer that when
+>#Einstein proved that there isn't an objective frame of reference?
+
+[...stiff deleted...]
+
+Speed is a quantifiable measure resulting from a set of methods that
+will result in the same value measured no matter the reference.  A 
+bullet with zero velocity sitting on a table on a train moving 60mph
+will be moving at a speed of
+
+        (a) 0mph to someone on the train.
+        (b) 60mph to someone stationary next to the train.
+
+The reference frame makes the speed relative.  But what's interesting
+here is that every person on the train will see a stationary bullet.
+Every person off, a bullet moving 60mph.  
+
+I know of no train where all the people on it, every time it is
+filled, will see a moral problem in exactly the same way.
+
+-- 
+ jim halat         halat@bear.com     
+bear-stearns       --whatever doesn't kill you will only serve to annoy you--
+   nyc             i speak only for myself
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral         complet nonsens
+relativ mean say absolut standard moral mean say
+standard moral equal good  presum mean moral
+system better other manag without object frame
+refer   either frank o'dwyer mathew said  stiff
+delet  goe faster bullet snail come answer
+einstein prove isn't object frame refer  stiff
+delet  speed quantifi measur result set method
+result valu measur matter refer bullet zero veloc
+sit tabl train move 60mph move speed  0mph someon
+train 60mph someon stationari next train  refer
+frame make speed relat what interest everi person
+train see stationari bullet everi person bullet
+move 60mph  know train peopl everi time fill see
+moral problem exact way    bear stearn whatev
+doesn't kill serv annoy nyc speak
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bullet, 1386, 0.403880383262
+train, 9042, 0.365078903279
+moral, 5855, 0.333549147941
+refer, 7213, 0.21942350167
+frame, 3643, 0.216050435929
+stationari, 8347, 0.207911768075
+stiff, 8395, 0.204776440458
+speed, 8217, 0.181492885221
+everi, 3235, 0.152884590847
+mean, 5595, 0.137945970753
+measur, 5601, 0.134242515911
+delet, 2502, 0.127546619542
+standard, 8313, 0.12189982765
+quantifi, 7018, 0.116021750868
+result, 7332, 0.115480752711
+say, 7653, 0.113327645227
+nyc, 6161, 0.112701588023
+object, 6173, 0.109590040689
+relativ, 7249, 0.102388220229
+dwyer, 2938, 0.0996754496591
+person, 6562, 0.0991466098417
+someon, 8124, 0.0972421045508
+mathew, 5547, 0.0963552868133
+nonsens, 6103, 0.0953950152808
+snail, 8072, 0.0936425162435
+einstein, 3018, 0.092074852435
+annoy, 525, 0.087609582828
+veloc, 9456, 0.0870684670294
+tabl, 8667, 0.0813940821579
+zero, 9985, 0.080008985604
+presum, 6845, 0.0790487140714
+sit, 7993, 0.0754826110052
+bear, 971, 0.0750026001984
+faster, 3399, 0.0730157806559
+serv, 7810, 0.0726081100977
+equal, 3156, 0.0707221658201
+absolut, 193, 0.0693685926774
+method, 5666, 0.0669828472403
+prove, 6947, 0.0660484298317
+speak, 8192, 0.0655396949917
+whatev, 9718, 0.0649273021966
+kill, 5012, 0.0636626843946
+frank, 3655, 0.0636626843946
+goe, 3931, 0.0635528754492
+valu, 9414, 0.0608583501846
+exact, 3253, 0.0590552248836
+matter, 5553, 0.0577403763554
+complet, 1975, 0.0575199420336
+relat, 7247, 0.0568775813642
+manag, 5472, 0.0568078901615
+answer, 535, 0.0549169804093
+isn, 4783, 0.0544944233621
+set, 7815, 0.0532943108281
+christian, 1732, 0.0528082008022
+said, 7583, 0.0495306103591
+doesn, 2793, 0.0482644136274
+problem, 6887, 0.0468107359245
+better, 1060, 0.0445120489753
+come, 1923, 0.0431465741832
+peopl, 6530, 0.0403691722292
+way, 9666, 0.0389217624662
+good, 3948, 0.0382476479055
+year, 9943, 0.0373938570453
+make, 5459, 0.0373186151931
+time, 8936, 0.0353529189922
+know, 5052, 0.0320492061697

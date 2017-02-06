@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105032
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: Queen's University at Kingston
+From: <HEALEY@QUCDN.QueensU.CA>
+Subject: Re: HBP? BB? BIG-CAT?
+Distribution: na
+ <1r6g60INNban@gap.caltech.edu> <1993Apr22.182119.24472@adobe.com>
+Lines: 15
+
+The original poster wanted to know how the Big Cat looked. I was also at
+the Saturday game in Montreal (Apr 17) that Rockies won 9-1. I haven't
+paid much attention to Gallarraga since he left the Expos but his stance
+seemed to be MUCH different. He stands more erect and very open, with his
+left foot pointing to 3rd base. I'm wondering if this is a recent change
+in stance for him? Andres had one glaring weakness as a hitter. He could
+always be fooled by a curve ball low and away. If this is indeed a new
+stance for him, maybe he is not being fooled as easily? As for his patience,
+
+Dennis Martinez definitely did not have his good stuff. If he was grooving
+pitches to Andres, you can hardly fault him for drilling them (which he did!).
+Does Andres generally start hot or cold? Does it take until May for most
+pitchers to have confidence in that curve ball low and away?
+
+Roger Healey
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  hbp big cat  adob com   origin poster want know
+big cat look also saturday game montreal rocki
+haven't paid much attent gallarraga sinc left expo
+stanc seem much differ stand erect open left foot
+point 3rd base i'm wonder recent chang stanc andr
+one glare weak hitter could alway fool curv ball
+low away inde new stanc mayb fool easili patienc
+denni martinez definit good stuff groov pitch andr
+hard fault drill andr general start hot cold take
+pitcher confid curv ball low away  roger healey
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stanc, 8310, 0.390262371652
+andr, 503, 0.330206623288
+cat, 1551, 0.22730430723
+fool, 3585, 0.224767475672
+curv, 2306, 0.210502659983
+low, 5368, 0.161999340247
+left, 5193, 0.156440837507
+away, 833, 0.155798197909
+ball, 877, 0.153728917702
+groov, 4057, 0.153252298445
+erect, 3168, 0.14225382059
+drill, 2871, 0.135243865623
+big, 1082, 0.133892407095
+glare, 3892, 0.133370675258
+patienc, 6464, 0.128630967054
+martinez, 5524, 0.122629111169
+hbp, 4212, 0.122629111169
+confid, 2029, 0.121621012086
+saturday, 7639, 0.113652153615
+denni, 2526, 0.113652153615
+adob, 277, 0.110622534231
+montreal, 5848, 0.110068874429
+foot, 3587, 0.109530385313
+expo, 3309, 0.109530385313
+paid, 6387, 0.108495745209
+weak, 9668, 0.107512859245
+poster, 6769, 0.105683295143
+cold, 1888, 0.105683295143
+fault, 3407, 0.105251329991
+3rd, 102, 0.104828655137
+attent, 766, 0.101385259981
+rocki, 7450, 0.10035962085
+hot, 4389, 0.0993848612546
+roger, 7458, 0.0943753050137
+inde, 4594, 0.093651777056
+easili, 2962, 0.0929539419786
+com, 1917, 0.0859211472375
+stand, 8311, 0.0851380307632
+definit, 2484, 0.084985083507
+haven, 4207, 0.083946537287
+hitter, 4322, 0.0836596179834
+recent, 7168, 0.0781127273976
+pitcher, 6644, 0.0781127273976
+open, 6258, 0.0780056229187
+general, 3818, 0.0758815728868
+stuff, 8472, 0.0753146021303
+hard, 4167, 0.0744045495957
+alway, 457, 0.0742274887293
+pitch, 6643, 0.071746853268
+wonder, 9821, 0.0713622299706
+chang, 1650, 0.0706148538649
+origin, 6293, 0.0698948604137
+mayb, 5564, 0.0687950701179
+start, 8334, 0.0622108420472
+base, 923, 0.0615063356788
+differ, 2633, 0.0605166993718
+sinc, 7977, 0.0599119247859
+game, 3761, 0.0595745152417
+new, 6023, 0.0572503615377
+point, 6710, 0.05547536331
+want, 9634, 0.0535374772072
+good, 3948, 0.0505210437506
+look, 5341, 0.0490476018766
+know, 5052, 0.042333566526

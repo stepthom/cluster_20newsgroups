@@ -1,0 +1,181 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83508
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: b645zaw@utarlg.uta.edu (stephen)
+Subject: Re: A KIND and LOVING God!!
+News-Software: VAX/VMS VNEWS 1.41    
+Nntp-Posting-Host: utarlg.uta.edu
+Organization: The University of Texas at Arlington
+Lines: 45
+
+In article <sandvik-160493205355@sandvik-kent.apple.com>, 
+sandvik@newton.apple.com (Kent Sandvik) writes...
+
+>(stephen) wrote:
+>> sandvik@newton.apple.com (Kent Sandvik) quotes ML...
+
+>> >> Remember, these laws were written for a different time and applied
+>> >> only to God's chosen people.  But Jesus has changed all of that.  We
+>> >> are living in the age of grace.  Sin is no longer immediately punishable
+>> >> by death.  There is repentance and there is salvation through our
+>> >> Lord Jesus Christ.  And not just for a few chosen people.  Salvation
+>> >> is available to everyone, Jew and Gentile alike. 
+>> >
+>> >Jews won't agree with you, Malcolm.
+>> 
+>> Which Jews KS? 
+> 
+>Most religious Jews with the exception of the Messianic ones and 
+>atheists/agnostics, Malcolm.
+
+KS, I see you're wanting Malcolm's response. Allow me one last inter-
+jection then please:
+
+Distinguishing among the religious Jews, you've excepted the Messianic
+for obvious reasons. Specifically, are you saying it's these religious 
+Jews, who trace their lineage back to Abraham by blood and orthodoxy, 
+rather than by faith, who won't agree?  Orthodox Jews?  
+
+As to the a/a (if I understand your direction), the issue remains 
+unproven I suspect, considering how atheists and agnostics so often 
+look to reason. Atheist, it is reasonable to conclude will not agree.
+For agnostics, a poll seems in order. Who knows?  Myself, I'm not so 
+sure the atheists can be counted out. 
+
+For the orthodox, I wonder how many would follow Moses, or Abraham,
+or David in accepting God's Word? Is the particular covenant to which
+one adheres, more important than God promisimg? I reckon for many it
+depends on the ongoing dialogue. Under these considerations, you might 
+understand why I think it's premature to assert who will and won't agree.
+
+   |
+-- J --
+   |
+   | stephen
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god news softwar vax vms vnew
+stephen wrote   rememb law written differ time
+appli god chosen peopl jesus chang live age grace
+sin longer immedi punish death repent salvat lord
+jesus christ chosen peopl salvat avail everyon jew
+gentil alik  jew won't agre malcolm  jew  religi
+jew except messian one atheist agnost malcolm  see
+you'r want malcolm respons allow one last inter
+jection pleas  distinguish among religi jew you'v
+except messian obvious reason specif say it religi
+jew trace lineag back abraham blood orthodoxi
+rather faith won't agre orthodox jew  understand
+direct issu remain unproven suspect consid atheist
+agnost often look reason atheist reason conclud
+agre agnost poll seem order know i'm sure atheist
+count  orthodox wonder mani follow mose abraham
+david accept god word particular coven one adher
+import god promisimg reckon mani depend ongo
+dialogu consider might understand think it
+prematur assert won't agre     stephen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jew, 4862, 0.422417629879
+atheist, 740, 0.313333684179
+agnost, 335, 0.263399540934
+malcolm, 5462, 0.223988601366
+agre, 337, 0.197548571797
+messian, 5654, 0.193287512186
+religi, 7260, 0.187837263532
+god, 3926, 0.17987592938
+abraham, 189, 0.168904649166
+won, 9820, 0.163212979499
+orthodox, 6303, 0.153259370968
+chosen, 1727, 0.147565165343
+salvat, 7597, 0.145918263122
+stephen, 8380, 0.134529851872
+reason, 7156, 0.123464268595
+jesus, 4859, 0.103755734884
+prematur, 6825, 0.0966437560928
+unproven, 9301, 0.0943175037135
+poll, 6725, 0.0943175037135
+coven, 2193, 0.0943175037135
+dialogu, 2611, 0.0923506853514
+understand, 9246, 0.0914961081159
+reckon, 7172, 0.0906469497907
+orthodoxi, 6304, 0.0906469497907
+ongo, 6243, 0.0854735945987
+mose, 5873, 0.0854735945987
+adher, 266, 0.0844523245831
+distinguish, 2747, 0.07961039228
+inter, 4703, 0.0789559378632
+gentil, 3830, 0.0783334210447
+alik, 415, 0.0761088350506
+repent, 7287, 0.0746628671219
+mani, 5479, 0.0723838662125
+grace, 3975, 0.0721856181422
+punish, 6986, 0.0718157643092
+blood, 1169, 0.0697969741285
+assert, 699, 0.06948951193
+peopl, 6530, 0.0692346665744
+conclud, 2008, 0.0683287972058
+trace, 9028, 0.0658189580071
+lord, 5347, 0.0639174035409
+suspect, 8603, 0.0617557865274
+sin, 7976, 0.0615911511616
+immedi, 4527, 0.0611096199082
+consider, 2060, 0.0601978704261
+remain, 7264, 0.0597653183646
+count, 2180, 0.0589418672545
+christ, 1729, 0.0589418672545
+faith, 3367, 0.0581683538355
+vnew, 9564, 0.0580438741767
+age, 328, 0.0570894807251
+longer, 5337, 0.0569750488924
+depend, 2537, 0.0569750488924
+death, 2423, 0.0569750488924
+appli, 584, 0.0565273165033
+vms, 9563, 0.0563092075371
+written, 9867, 0.0556763969997
+vax, 9439, 0.0556763969997
+law, 5153, 0.0547824004964
+wrote, 9871, 0.0541279460797
+obvious, 6185, 0.0539469634165
+particular, 6442, 0.0534189268022
+accept, 208, 0.052424210519
+issu, 4793, 0.0520315929621
+david, 2397, 0.0515014665822
+everyon, 3241, 0.0508507217349
+specif, 8203, 0.0506409789763
+love, 5366, 0.0506409789763
+respons, 7323, 0.0491381777072
+direct, 2667, 0.048893977644
+allow, 432, 0.048893977644
+import, 4551, 0.0483610390393
+rememb, 7269, 0.0469877725256
+live, 5310, 0.0467811434944
+wonder, 9821, 0.0463281113903
+chang, 1650, 0.045842917423
+word, 9829, 0.0457008855613
+kind, 5021, 0.0455139362266
+order, 6281, 0.0451030543018
+consid, 2059, 0.0447486130704
+avail, 811, 0.0443189743697
+news, 6031, 0.0440679682979
+softwar, 8103, 0.0425835916729
+follow, 3578, 0.04193651457
+sure, 8585, 0.0410889876825
+differ, 2633, 0.0392872306628
+pleas, 6688, 0.0375337521002
+want, 9634, 0.0347563439179
+say, 7653, 0.0323935373524
+look, 5341, 0.0318415324759
+time, 8936, 0.0303158006927
+think, 8871, 0.0292220757401
+know, 5052, 0.027482804088

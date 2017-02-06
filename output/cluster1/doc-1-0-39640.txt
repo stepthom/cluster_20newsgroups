@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39640
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: da1-lst@hemul.nada.kth.se (Lars-Erik Stenholm)
+Subject: Parametric Drafting
+Organization: Royal Institute of Technology, Stockholm, Sweden
+Lines: 24
+Nntp-Posting-Host: hemul.nada.kth.se
+
+
+Hello networld!
+
+I'm looking for documentation/books on parametric drafting.
+
+Does anyone know of such material, electronic on a Gopher/ftp-site
+or books/authors.
+
+Im not looking for commercial software rather info on implementation 
+and theory of the subject. Im planning to make a parametric
+generator for autocad and i would need some referance.
+
+Everything you know is of interest!
+
+Thanks in advace!!
+
+//Lasse
+
+
+
+
+-- 
+---
+Lars-Erik Stenholm, Student at the University Of Stockholm, Sweden.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ parametr draft      hello networld  i'm look
+document book parametr draft  anyon know materi
+electron gopher ftp site book author  look
+commerci softwar rather info implement theori plan
+make parametr generat autocad need refer  everyth
+know interest  thank advac  lass       lar erik
+stenholm student univers stockholm sweden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+parametr, 6422, 0.564989009027
+draft, 2853, 0.339447181241
+stockholm, 8403, 0.221865776767
+lar, 5122, 0.210329134298
+book, 1218, 0.203827016583
+sweden, 8626, 0.198792491829
+autocad, 800, 0.182421735636
+gopher, 3952, 0.174684443356
+look, 5341, 0.142013978248
+student, 8468, 0.141674282132
+hello, 4247, 0.140837372937
+electron, 3034, 0.140427972186
+implement, 4544, 0.137348986076
+theori, 8848, 0.131441052036
+document, 2788, 0.130854374318
+materi, 5543, 0.125330080175
+generat, 3819, 0.12325567394
+everyth, 3242, 0.122596504816
+know, 5052, 0.122573947874
+commerci, 1940, 0.12030235817
+site, 7994, 0.117264503777
+author, 796, 0.116729324464
+plan, 6660, 0.116204025952
+ftp, 3709, 0.115014778048
+info, 4636, 0.112016969913
+refer, 7213, 0.104899653028
+softwar, 8103, 0.0949619065308
+univers, 9282, 0.0945536805717
+thank, 8832, 0.0796807892247
+need, 5993, 0.0765009281488
+anyon, 554, 0.0764579804255
+make, 5459, 0.0713635459361

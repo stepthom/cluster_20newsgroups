@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38099
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: amjad@eng.umd.edu (Amjad A Soomro)
+Subject: Gamma-Law Correction
+Organization: Project GLUE, University of Maryland, College Park
+Lines: 22
+Distribution: USA
+Expires: 05/15/93
+NNTP-Posting-Host: filter.eng.umd.edu
+
+Hi:
+
+I am digitizing a NTSC signal and displaying on a PC video monitor.
+It is known that the display response of tubes is non-linear and is
+sometimes said to follow Gamma-Law. I am not certain if these
+non-linearities are "Gamma-corrected" before encoding NTSC signals
+or if the TV display is supposed to correct this.
+ 
+Also, if  256 grey levels, for example, are coded in a C program do
+these intensity levels appear with linear brightness on a PC
+monitor? In other words does PC monitor display circuitry
+correct for "gamma errrors"?
+ 
+Your response is much appreciated.
+ 
+Amjad.
+
+Amjad Soomro
+CCS, Computer Science Center
+U. of Maryland at College Park
+email: amjad@wam.umd.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma law correct    expir     digit ntsc signal
+display video monitor known display respons tube
+non linear sometim said follow gamma law certain
+non linear gamma correct encod ntsc signal display
+suppos correct  also grey level exampl code
+program intens level appear linear bright monitor
+word monitor display circuitri correct gamma
+errror  respons much appreci  amjad  amjad soomro
+ccs comput scienc center maryland colleg park
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gamma, 3762, 0.383073307277
+linear, 5286, 0.352616090191
+display, 2734, 0.3372987809
+monitor, 5837, 0.301830709382
+correct, 2156, 0.301483026111
+ntsc, 6147, 0.24633757603
+signal, 7947, 0.201913253211
+law, 5153, 0.168056332672
+level, 5229, 0.160578227316
+non, 6097, 0.155139519247
+ccs, 1582, 0.152604383255
+respons, 7323, 0.150741513056
+grey, 4040, 0.125473864716
+maryland, 5529, 0.121106826642
+encod, 3086, 0.121106826642
+tube, 9142, 0.115972218336
+intens, 4701, 0.109067316236
+bright, 1311, 0.103174529299
+colleg, 1900, 0.102406959067
+expir, 3300, 0.100956626606
+digit, 2642, 0.094222481566
+park, 6430, 0.0902053729327
+video, 9506, 0.0886544205468
+sometim, 8128, 0.0860411401175
+suppos, 8577, 0.0795730386961
+appear, 580, 0.0795730386961
+center, 1606, 0.0789956949914
+known, 5054, 0.0782150004491
+code, 1871, 0.0777824848948
+appreci, 587, 0.0756564628031
+scienc, 7692, 0.073139352259
+exampl, 3258, 0.0709848188563
+word, 9829, 0.070098454592
+certain, 1619, 0.0692505010672
+comput, 1993, 0.0678496266367
+said, 7583, 0.065148027758
+follow, 3578, 0.0643244616866
+program, 6905, 0.060747372959

@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38600
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kardank@ERE.UMontreal.CA (Kardan Kaveh)
+Subject: Re: Newsgroup Split
+Organization: Universite de Montreal
+Lines: 8
+
+I haven't been following this thread, so appologies if this has already been
+mentioned, but how about
+
+	comp.graphics.3d
+
+-- 
+Kaveh Kardan
+kardank@ERE.UMontreal.CA
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ newsgroup split    haven't follow thread appolog
+alreadi mention  comp graphic   kaveh kardan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kaveh, 4964, 0.459600534547
+kardan, 4955, 0.459600534547
+split, 8247, 0.305114363681
+comp, 1955, 0.291748158861
+thread, 8890, 0.285282415004
+newsgroup, 6032, 0.260623432855
+haven, 4207, 0.251753962596
+alreadi, 443, 0.236223360929
+mention, 5632, 0.235891299107
+graphic, 3997, 0.19405153144
+follow, 3578, 0.193726787822

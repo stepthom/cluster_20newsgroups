@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38356
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dfegan@lescsse.jsc.nasa.gov (Doug Egan)
+Subject: Re: Any graphics packages available for AIX ?
+Organization: LESC
+Lines: 20
+
+In <1993Apr8.122037.19260@sun1x.res.utc.com> mark@sun1x.res.utc.com (MARK STUCKY) writes:
+
+>In <1pr9qnINNiag@tahko.lpr.carel.fi>, 
+>   Ari Suutari (ari@tahko.lpr.carel.fi) wrote:
+
+>   > Does anybody know if there are any good 2d-graphics packages
+>   > available for IBM RS/6000 & AIX ? I'm looking for something
+>   > like DEC's GKS or Hewlett-Packards Starbase, both of which
+>   > have reasonably good support for different output devices
+>   > like plotters, terminals, X etc.
+
+   Try graPHIGS from IBM... It is an excellent package! :^)
+
+Doug
+ 
+--
+ Doug Egan                                  "It's not what you got -
+ Lockheed Engineering and Sciences Co.       It's what you give."          
+ Houston, TX                                                  -Tesla      
+ ***** email:  egan@blkbox.com  *****                                    
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ graphic packag avail aix         anybodi know
+good graphic packag avail ibm aix i'm look someth
+like dec gks hewlett packard starbas reason good
+support differ output devic like plotter termin
+etc  tri graphig ibm excel packag  doug   doug
+egan it got lockhe engin scienc it give houston
+tesla
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aix, 369, 0.369576152322
+packag, 6375, 0.339870122869
+doug, 2833, 0.277464191337
+ibm, 4472, 0.251784158443
+graphig, 3998, 0.202816801395
+egan, 3010, 0.202816801395
+packard, 6376, 0.188261221339
+hewlett, 4281, 0.188261221339
+starbas, 8325, 0.184788076161
+gks, 3888, 0.184788076161
+plotter, 6695, 0.181724545
+dec, 2431, 0.181724545
+avail, 811, 0.180692632904
+graphic, 3997, 0.171265731669
+tesla, 8810, 0.170232496105
+lockhe, 5325, 0.170232496105
+termin, 8796, 0.144954448515
+devic, 2591, 0.138732095669
+houston, 4399, 0.136607653963
+good, 3948, 0.13372088511
+output, 6329, 0.131111514476
+excel, 3261, 0.124574838137
+like, 5272, 0.109533847363
+anybodi, 552, 0.105755475966
+engin, 3109, 0.101458373892
+scienc, 7692, 0.0972048716087
+support, 8576, 0.0895825109235
+got, 3960, 0.0853470393044
+reason, 7156, 0.0838959086912
+differ, 2633, 0.080088869936
+someth, 8126, 0.0765649736152
+tri, 9087, 0.075327349459
+look, 5341, 0.0649104635273
+know, 5052, 0.0560249904344

@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37923
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: sloan@cis.uab.edu (Kenneth Sloan)
+Subject: Re: More gray levels out of the screen
+Organization: CIS, University of Alabama at Birmingham
+Lines: 22
+
+In article <C51C4r.BtG@csc.ti.com> rowlands@hc.ti.com (Jon Rowlands) writes:
+>
+>A few years ago a friend and I took some 256 grey-level photos from
+>a 1 bit Mac Plus screen using this method. Displaying all 256 levels
+>synchronized to the 60Hz display took about 10 seconds.
+
+Why didn't you create 8 grey-level images, and display them for
+1,2,4,8,16,32,64,128... time slices?
+
+This requires the same total exposure time, and the same precision in
+timing, but drastically reduces the image-preparation time, no?
+
+
+
+
+
+
+-- 
+Kenneth Sloan                   Computer and Information Sciences
+sloan@cis.uab.edu               University of Alabama at Birmingham
+(205) 934-2213                  115A Campbell Hall, UAB Station 
+(205) 934-5473 FAX              Birmingham, AL 35294-1170
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gray level screen      year ago friend took grey
+level photo bit mac plus screen use method display
+level synchron 60hz display took second  didn't
+creat grey level imag display time slice  requir
+total exposur time precis time drastic reduc imag
+prepar time        kenneth sloan comput inform
+scienc  115a campbel hall uab station fax
+birmingham
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+level, 5229, 0.385099364707
+display, 2734, 0.30334174598
+grey, 4040, 0.300911938044
+time, 8936, 0.223032940204
+screen, 7719, 0.218307362068
+took, 8987, 0.207133043341
+birmingham, 1114, 0.177751705227
+115a, 13, 0.177751705227
+uab, 9181, 0.173473153317
+sloan, 8040, 0.173473153317
+kenneth, 4985, 0.161485574961
+drastic, 2860, 0.161485574961
+synchron, 8651, 0.159248924731
+slice, 8029, 0.159248924731
+imag, 4512, 0.157326644364
+campbel, 1479, 0.147691946813
+exposur, 3313, 0.146423147792
+gray, 4011, 0.133467718227
+prepar, 6831, 0.127256160728
+photo, 6603, 0.126189292219
+reduc, 7204, 0.121910740309
+precis, 6809, 0.113890887259
+hall, 4128, 0.113890887259
+plus, 6700, 0.112687184162
+method, 5666, 0.105644610043
+friend, 3692, 0.105001636522
+mac, 5410, 0.104582570645
+station, 8346, 0.0990570902337
+fax, 3413, 0.0985698672211
+total, 9013, 0.0936570316868
+ago, 336, 0.0914203814574
+creat, 2217, 0.0907198200167
+scienc, 7692, 0.0877015475909
+requir, 7302, 0.0873003914041
+second, 7753, 0.0816694533304
+comput, 1993, 0.0813586267271
+bit, 1122, 0.0791500639523
+didn, 2625, 0.0783896506785
+inform, 4637, 0.0771315941914
+year, 9943, 0.0589771801039
+use, 9363, 0.0518279947745

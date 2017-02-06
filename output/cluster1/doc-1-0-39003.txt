@@ -1,0 +1,606 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39003
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Oh make up your mind!! (was: Re: XV problems)
+Lines: 220
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+
+
+In article <1rqisi$rhj@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes:
+
+>In article <1993Apr29.201420.19271@nessie.mcc.ac.uk>
+>C.C.Lilley@mcc.ac.uk writes:
+
+>>In article <1rohjc$avt@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia
+>>Juhana) writes:
+
+>>>I wrote something about making color modifications quickly
+>>>with 8bit quantized images and only at the saving the image to file
+>>>process we have to make the modifications to the 24bit image.
+>>>This makes sense, because the main use of XV is only viewing images.
+
+>>>Doing many changes to image, we should keep all modifications
+>>>in a buffer; and then before making the operations to 24bit image,
+>>>we should simplify the operation list for unnecessary operations.
+
+>>Think about what you are saying here. The 24 bit image is quantised down to 8
+>>bits so many 'similar' colours are mapped onto a single palette colour. This
+>>colour gets modified in fairly arbitrary ways. You then want to apply these
+>>modifications back to the 24 bit file, so you have to find which
+>>colours mapped to this one palette colour.
+
+>I suppose you don't know what about we have discussed.
+>We discussed about error(s) in XV 2.21 which shows images only as 8bit,
+>and my suggestion above works perfectly with it.
+
+Look be consistent. First you post something that seems to suggest that you see
+xv being an 8 bit program as some sort of error. 
+So I post and asy it is not a bug, it is meant to be like that. 
+So you post and say it is not a bug, you never said it was, I have misunderstood
+etc.
+Now you are saying:
+
+>We discussed about error(s) in XV 2.21 which shows images only as 8bit,
+
+If you would make up your mind what you are claiming it would make the
+discussion a *lot* easier.
+
+----------------
+
+>So far I have seen a colormap editing window in XV -- that is, there
+>must be a colormap anyway. The problems you present are exist anyway,
+>and I didn't tried to solve them at all, because I would not make such
+>problems to my programs in the first place.
+
+Eh? Sorry, I don't understand what you are saying here. I am aware that English is
+not your native language and have tried hard to fathom your meaning, but this
+paragraph defeats me.
+
+>Gamma and color corrections are easily done to 24bit image
+>as I presented. There's no need make tricks from 8bit/quantized image
+>back to 24 bit image.
+
+Yes *as I originally said*, global changes are easily possible.
+
+But this statement contradicts what you said earlier: 
+
+>>>I wrote something about making color modifications quickly
+>>>with 8bit quantized images and only at the saving the image to file
+>>>process we have to make the modifications to the 24bit image.
+
+---------------
+
+>>>>How would you suggest doing colour editing on a 24 bit file? How
+>>>>would you group 'related' colours to edit them together? Only global
+>>>>changes could be done unless the software were very different and
+>>>>much more complicated.
+
+>Ok, you're writing about situation that user want edit images as 24bit
+>and user want edit individual colors -- your questions, by the way,
+>jumps off the discussion a bit.
+
+No I don't think so actually. 
+
+You were talking about loading a 24 bit image into xv (by quantising),
+manipulating the colours in the colour editor, then somewhow applying these
+changes to the 24 bit file when you exit xv. Xv lets you edit individual
+colours. Where is this sudden jumping off the topic?
+
+>My solution doesn't work, because there's no colormap withing real 24bit
+>image 
+
+Yes I am aware there is no colourmap in a 24 bit file!!
+
+>-- you see, user see 24bit image; going back to 8bit is silly.
+
+I do not understand what this statement is supposed to mean.
+
+>About changing individual colors in 8bit/quantized/rasterized image:
+>changing individual colors in colormap is useless in most
+>cases if the image is quantized and rasterized -- small change may
+>make serious errors to anywhere in the image.
+
+???
+What are you saying
+???
+
+>XV allows this feature, but I don't recommend to use it with the
+>mentioned type images.
+
+Ah! now we see thew problem! First you want to extend xv to allow editing of 8
+bit previews of 24 bit images. Then I point out problems with this. Now you are
+saying there is no problem because you, personally, happen not to use those
+parts of the program that cause the problem!!
+
+
+>Moreover, XV is not a paint program; you can only make those global
+>changes. 
+
+Not sure what you are saying here. Certainly one can make local changes.
+
+>In full 24bit XV, changing individual colors sounds like
+>paint program job.
+>If person have 8bit screen, there's need for tricks to get the
+>original 24bit image modified. Because user don't see full 24bit
+>image, there's need to make approximations and it is not possible to
+>modify individual colors but individual pixels or pixel groups (if
+>image is rasterized). To select indiavidual color, there could be 7x7
+>cursor window which shows true color image in cursor window area --
+>selecting individual color is possible from that.
+
+Yes that is one possible approach. I would find a program that took such an
+approach clumsy, however.
+
+>Ok, I don't have thought very much 24bit painting programs, never seen
+>such in good view and are not planned to make such. Not to mention
+>24bit painting program in 8bit screen...
+
+Well here we agree - you have not thought it through very much. You don't seem
+to have a consistent point to make and contradict yourself from one post to the
+next. OK, we all have off days - perhaps you should step back and think this one
+through.
+
+>>Yes again. What *is* (was?) wrong with xv?
+
+>It saved 8bit/quantized/rasterized images as 24bit jpegs; jpeg is not
+>designed for that.
+
+As I said in the last post, JPEG is a compression algorithm. It is a way of
+saving disk space by trading off quality against compression. I fail to see what
+the problem is. You have not proposed any workable alternatives.
+
+>Also, human expect that 24bit will be saved as 24bit image; 
+
+Speak for yourself. You are the *only* person I have met or spoken to who,
+having quantised a 24 bit image down to 8 bits, expects this process to somehow
+reverse when the file is saved; keeping all modificvations that heve been made
+to the 8 bit image palette.
+
+Perhaps that is why you yused the singular?
+
+>say,
+>person would like to crop part of the image and save it, then it is
+>expected that the image still is the same. 
+
+Look, next time you import a 24 bit image into xv look carefully at the main
+control panel - it tells you how many colours have been allocated to the 8 bit
+image. XV makes it abundantly clear that you are not editing the original 24 bit
+file. You are the *only* person who claims this is confusing.
+
+>So, XV were designed
+>without thinking about human interface and how human expect the
+>program work -- design error.
+
+Is a design error the same as a bug? ;-)
+
+Read my lips. XV is a program for viewing and modifying 8 bit images. It lets
+you import other images. It shows, I would say, a good deal of thought about the
+human interface. And everyone else seems to use it happily for the purpose it
+was designed for. It makes no false claims.
+
+>I have heard XV were designed first for 8bit images/files, but
+>it were not good idea to take full 24bit images without making
+>major change to the original design.
+
+If you would come up with a solid, logical, well argued and lucid description of
+precisely how these proposed extensions would work, feel free to post them. So 
+far, you have not done so.
+
+>So, even all screen images are 8bit, the processed images and saved
+>images could have been 24bit very easily, instead of 8bit.
+
+Argh!! After all this, a comment like that. `Very easily'. OK, go ahead and code it
+if it is so easy.
+
+Or alternatively, look up the terms `import' and 'non-reversible transformation'.
+
+>Before anybody will make a note: yes, I may as well make a lift where
+>'up' means that the lift goes down and 'down' means that the lift goes
+>up, and put a note on this design solution to the manuals -- however,
+>even the manuals tells the correct situation, it doesn't solve the problem.
+>(Americans: the lift is just an example :)
+
+I think this is a bit of an exageration.
+
+What you are actually saying is, you got into a lift (elevator, if you are in
+the states ;-) ) and mistakenly pressed the down button to go up. Everyone else
+had no problem. Now you are trying to sue the manufacturer...
+
+>Well, my text may be a bit hard reading, 
+
+you bet
+
+>hopefully you suggeeded to
+>read it.
+
+Mostly. Leaving aside the language issue however, it betrays some very wooly
+thinking (as you yourself admit) which is the same in any language. Go think
+some more.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ make mind problem           lehtori tut kouhia
+wrote someth make color modif quick 8bit quantiz
+imag save imag file process make modif 24bit imag
+make sens main use view imag  mani chang imag keep
+modif buffer make oper 24bit imag simplifi oper
+list unnecessari oper  think say bit imag quantis
+bit mani similar colour map onto singl palett
+colour colour get modifi fair arbitrari way want
+appli modif back bit file find colour map one
+palett colour  suppos don't know discuss discuss
+error show imag 8bit suggest work perfect  look
+consist first post someth seem suggest see bit
+program sort error post asi bug meant like post
+say bug never said misunderstood etc say  discuss
+error show imag 8bit  make mind claim make discuss
+lot easier    far seen colormap edit window must
+colormap anyway problem present exist anyway
+didn't tri solv make problem program first place
+sorri don't understand say awar english nativ
+languag tri hard fathom mean paragraph defeat
+gamma color correct easili done 24bit imag present
+there need make trick 8bit quantiz imag back bit
+imag  yes origin said global chang easili possibl
+statement contradict said earlier  wrote someth
+make color modif quick 8bit quantiz imag save imag
+file process make modif 24bit imag    suggest
+colour edit bit file group relat colour edit
+togeth global chang could done unless softwar
+differ much complic  you'r write situat user want
+edit imag 24bit user want edit individu color
+question way jump discuss bit  don't think actual
+talk load bit imag quantis manipul colour colour
+editor somewhow appli chang bit file exit let edit
+individu colour sudden jump topic  solut doesn't
+work there colormap with real 24bit imag  yes awar
+colourmap bit file  see user see 24bit imag go
+back 8bit silli  understand statement suppos mean
+chang individu color 8bit quantiz raster imag
+chang individu color colormap useless case imag
+quantiz raster small chang make serious error
+anywher imag   say   allow featur don't recommend
+use mention type imag  see thew problem first want
+extend allow edit bit preview bit imag point
+problem say problem person happen use part program
+caus problem   moreov paint program make global
+chang  sure say certain one make local chang  full
+24bit chang individu color sound like paint
+program job person 8bit screen there need trick
+get origin 24bit imag modifi user don't see full
+24bit imag there need make approxim possibl modifi
+individu color individu pixel pixel group imag
+raster select indiavidu color could 7x7 cursor
+window show true color imag cursor window area
+select individu color possibl  yes one possibl
+approach find program took approach clumsi howev
+don't thought much 24bit paint program never seen
+good view plan make mention 24bit paint program
+8bit screen  well agre thought much don't seem
+consist point make contradict one post next day
+perhap step back think one   yes wrong  save 8bit
+quantiz raster imag 24bit jpeg jpeg design  said
+last post jpeg compress algorithm way save disk
+space trade qualiti compress fail see problem
+propos workabl altern  also human expect 24bit
+save 24bit imag  speak person met spoken quantis
+bit imag bit expect process somehow revers file
+save keep modificv heve made bit imag palett
+perhap yuse singular  say person like crop part
+imag save expect imag still  look next time import
+bit imag look care main control panel tell mani
+colour alloc bit imag make abund clear edit origin
+bit file person claim confus  design without think
+human interfac human expect program work design
+error  design error bug  read lip program view
+modifi bit imag let import imag show say good deal
+thought human interfac everyon els seem use
+happili purpos design make fals claim  heard
+design first 8bit imag file good idea take full
+24bit imag without make major chang origin design
+come solid logic well argu lucid descript precis
+propos extens work feel free post far done  even
+screen imag 8bit process imag save imag could
+24bit easili instead 8bit  argh comment like
+easili ahead code easi  altern look term import
+non revers transform  anybodi make note yes well
+make lift up mean lift goe down mean lift goe put
+note design solut manual howev even manual tell
+correct situat doesn't solv problem american lift
+exampl  think bit exager  actual say got lift elev
+state mistaken press button everyon els problem
+tri sue manufactur  well text bit hard read  bet
+hope suggeed read  most leav asid languag issu
+howev betray wooli think admit languag think
+chris lilley  technic author itti comput graphic
+visualis train project comput graphic unit
+manchest comput centr oxford road
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.49332473182
+24bit, 67, 0.3630369328
+8bit, 148, 0.288134186809
+bit, 1122, 0.242416799815
+colour, 1912, 0.214121890852
+make, 5459, 0.188853087629
+color, 1907, 0.151314297999
+quantiz, 7022, 0.139354150403
+modif, 5813, 0.135923635713
+chang, 1650, 0.135268619355
+edit, 2996, 0.130471097939
+individu, 4604, 0.119701160711
+save, 7646, 0.110203670756
+problem, 6887, 0.107676605992
+file, 3477, 0.106589900972
+design, 2564, 0.106390609705
+program, 6905, 0.10623699984
+lift, 5264, 0.0953702513633
+colormap, 1909, 0.0942075857609
+error, 3180, 0.0926375854235
+say, 7653, 0.0868941419965
+raster, 7104, 0.0811264088679
+quantis, 7019, 0.0759006817125
+paint, 6391, 0.0742388023099
+discuss, 2708, 0.0658229550568
+modifi, 5814, 0.0655694737118
+easili, 2962, 0.0647494540357
+yes, 9951, 0.0623366430075
+palett, 6398, 0.0616666593013
+post, 6766, 0.0599746798797
+user, 9366, 0.059092824508
+person, 6562, 0.0570156088799
+global, 3904, 0.0569483298768
+process, 6890, 0.055339932435
+think, 8871, 0.0548707916586
+don, 2811, 0.0543421101515
+expect, 3290, 0.0530590824781
+human, 4432, 0.0528572571664
+jpeg, 4905, 0.0526065724117
+bug, 1373, 0.0520887647073
+languag, 5113, 0.0495646107728
+origin, 6293, 0.0486870589386
+screen, 7719, 0.0477586222623
+cursor, 2302, 0.0458557803379
+said, 7583, 0.0455732037608
+possibl, 6765, 0.0448847228227
+oper, 6261, 0.0429881284067
+window, 9774, 0.0427143074656
+mean, 5595, 0.0423081120107
+trick, 9094, 0.0414024317771
+view, 9510, 0.0401039135082
+claim, 1782, 0.0399996722395
+revers, 7356, 0.0398157224115
+suggest, 8525, 0.0391539134625
+import, 4551, 0.0389178645202
+work, 9833, 0.0387853960524
+want, 9634, 0.0372929038385
+manual, 5492, 0.0372804701827
+jump, 4929, 0.0372804701827
+solv, 8119, 0.0365105451309
+awar, 831, 0.0362252906129
+contradict, 2098, 0.035951449383
+thought, 8887, 0.0358364875671
+comput, 1993, 0.03559729626
+interfac, 4709, 0.0355601933042
+compress, 1986, 0.0354345912876
+howev, 4406, 0.0353966186649
+pixel, 6651, 0.0345050137344
+look, 5341, 0.0341653659401
+altern, 450, 0.0340836427023
+solut, 8118, 0.0337838085882
+approach, 589, 0.0326177744848
+select, 7774, 0.0319878942788
+read, 7135, 0.0312555387948
+consist, 2061, 0.0312067752459
+statement, 8343, 0.0308791951412
+map, 5498, 0.0306899171505
+appli, 584, 0.0303263741374
+use, 9363, 0.0302354576483
+someth, 8126, 0.0302247534481
+main, 5450, 0.0300375077377
+tri, 9087, 0.0297361895107
+goe, 3931, 0.0292375575571
+quick, 7036, 0.0291874099494
+mani, 5479, 0.0291249480436
+wrote, 9871, 0.0290391344511
+situat, 7995, 0.0288940028411
+like, 5272, 0.0288263538314
+propos, 6933, 0.0287518845629
+suppos, 8577, 0.0278319884052
+need, 5993, 0.0276066015177
+present, 6837, 0.0273953401319
+mention, 5632, 0.0273953401319
+everyon, 3241, 0.027280934385
+way, 9666, 0.0268589877867
+tut, 9163, 0.0266879554617
+suggeed, 8524, 0.0266879554617
+exager, 3254, 0.0266879554617
+clumsi, 1847, 0.0266879554617
+asi, 684, 0.0266879554617
+mind, 5733, 0.0266664481597
+perhap, 6540, 0.0264957381192
+good, 3948, 0.026393797271
+correct, 2156, 0.0263621706063
+allow, 432, 0.0262311595671
+hard, 4167, 0.0259141993419
+seen, 7767, 0.025406921539
+misunderstood, 5779, 0.0253002272375
+lucid, 5379, 0.0253002272375
+betray, 1058, 0.0253002272375
+abund, 201, 0.0253002272375
+singular, 7984, 0.0247726374526
+happili, 4163, 0.0247726374526
+argh, 627, 0.0247726374526
+note, 6118, 0.024697230471
+understand, 9246, 0.0245434011243
+fathom, 3405, 0.0243156183931
+moreov, 5859, 0.0239124990133
+kouhia, 5068, 0.0239124990133
+button, 1432, 0.0239124990133
+group, 4064, 0.023822195978
+els, 3053, 0.0236643114666
+spoken, 8251, 0.0235518964402
+workabl, 9834, 0.0232256917338
+unnecessari, 9295, 0.0232256917338
+lip, 5292, 0.0232256917338
+lilley, 5275, 0.0232256917338
+defeat, 2472, 0.0232256917338
+far, 3386, 0.0228655090118
+itti, 4803, 0.0226539392855
+elev, 3040, 0.0226539392855
+graphic, 3997, 0.0225362602479
+manchest, 5473, 0.0224003003841
+tell, 8767, 0.0223681588652
+doesn, 2793, 0.0222040869342
+actual, 254, 0.022008752548
+visualis, 9548, 0.0219432813246
+alloc, 431, 0.0219432813246
+sue, 8519, 0.0217357899842
+mistaken, 5777, 0.0217357899842
+let, 5225, 0.0216174964693
+oxford, 6361, 0.0215401619448
+crop, 2240, 0.0215401619448
+preview, 6854, 0.0213551136941
+exit, 3284, 0.0213551136941
+simplifi, 7969, 0.0210125721599
+nativ, 5964, 0.0210125721599
+sudden, 8518, 0.0207012158886
+paragraph, 6418, 0.0207012158886
+arbitrari, 604, 0.0201524337206
+useless, 9364, 0.0195709442561
+panel, 6406, 0.0194656264411
+buffer, 1371, 0.0193634529156
+point, 6710, 0.0193213940705
+silli, 7956, 0.0192642413626
+fals, 3372, 0.0192642413626
+manufactur, 5494, 0.0191678248763
+complic, 1978, 0.0188072223032
+transform, 9053, 0.0187227103816
+easier, 2960, 0.0185597005775
+centr, 1610, 0.0185597005775
+anywher, 557, 0.0184810175967
+english, 3111, 0.01832887882
+chris, 1728, 0.0181832160319
+editor, 2997, 0.0179092651484
+asid, 687, 0.0179092651484
+approxim, 593, 0.0177172956438
+manipul, 5483, 0.0175950484014
+disk, 2720, 0.0175355241372
+recommend, 7178, 0.0173629215691
+logic, 5330, 0.0173629215691
+extens, 3320, 0.0173629215691
+meant, 5598, 0.0173072689783
+extend, 3319, 0.0173072689783
+trade, 9033, 0.0168919042941
+argu, 628, 0.016843356545
+train, 9042, 0.0167954878077
+solid, 8115, 0.01674827935
+gamma, 3762, 0.01674827935
+bet, 1054, 0.0167017132041
+earlier, 2952, 0.0166557721261
+precis, 6809, 0.0166104395571
+ahead, 342, 0.0166104395571
+admit, 276, 0.0166104395571
+qualiti, 7017, 0.0164779368579
+confus, 2037, 0.0164779368579
+press, 6841, 0.0164348852346
+topic, 8992, 0.016350373313
+fail, 3360, 0.0162678980228
+descript, 2557, 0.0161086805282
+featur, 3422, 0.0160317658548
+road, 7431, 0.0159565417515
+load, 5317, 0.0159195407541
+togeth, 8969, 0.0158467176042
+step, 8377, 0.0158108789634
+unit, 9278, 0.0155369280799
+text, 8822, 0.01531398498
+leav, 5184, 0.0152528662322
+met, 5655, 0.0152227113329
+american, 469, 0.0152227113329
+technic, 8737, 0.0151928197986
+took, 8987, 0.0151046803632
+easi, 2959, 0.0151046803632
+speak, 8192, 0.015075797838
+perfect, 6538, 0.0149626450889
+algorithm, 407, 0.0148801697987
+purpos, 6993, 0.014720952304
+instead, 4682, 0.014695121548
+local, 5322, 0.0145688135273
+job, 4873, 0.0145688135273
+fair, 3363, 0.0144952072727
+control, 2107, 0.0142834350576
+sens, 7788, 0.0142606937186
+singl, 7983, 0.0141933625191
+similar, 7961, 0.0141712099568
+term, 8795, 0.0140625481661
+author, 796, 0.0140412237424
+plan, 6660, 0.0139780362445
+issu, 4793, 0.0139572303511
+unless, 9289, 0.0139365501738
+free, 3668, 0.0139365501738
+area, 622, 0.0139159942026
+anybodi, 552, 0.0139159942026
+caus, 1569, 0.0138550568257
+deal, 2418, 0.0138349831087
+comment, 1936, 0.0137363434596
+code, 1871, 0.0136028562764
+non, 6097, 0.0135656541827
+care, 1516, 0.0134743805356
+feel, 3429, 0.0134564143058
+sound, 8150, 0.0134385418948
+type, 9177, 0.0133679711694
+small, 8054, 0.0133332240798
+agre, 337, 0.0132478690596
+sorri, 8142, 0.0131976594708
+sort, 8144, 0.0131645910114
+clear, 1803, 0.0131318390014
+relat, 7247, 0.0130832912523
+heard, 4224, 0.0130038779699
+project, 6909, 0.0127034607695
+wrong, 9869, 0.0125625948412
+major, 5458, 0.0125625948412
+list, 5298, 0.0125351042603
+exampl, 3258, 0.0124140581265
+exist, 3283, 0.0122717005621
+hope, 4372, 0.0122338818467
+true, 9121, 0.0122088995538
+state, 8342, 0.012135028508
+certain, 1619, 0.0121107549387
+happen, 4159, 0.0120627182354
+case, 1540, 0.0118997084313
+write, 9865, 0.0117988728883
+real, 7144, 0.0117332627208
+place, 6657, 0.0117224489396
+idea, 4482, 0.0117009233408
+talk, 8684, 0.0115745375744
+didn, 2625, 0.0114327545059
+softwar, 8103, 0.011422848395
+got, 3960, 0.0112305192079
+sure, 8585, 0.0110219278967
+lot, 5356, 0.010678967419
+differ, 2633, 0.0105386150414
+question, 7032, 0.0103600062262
+day, 2402, 0.0101491042637
+come, 1923, 0.00992481014557
+space, 8164, 0.00970831601454
+time, 8936, 0.00813207110253
+know, 5052, 0.00737213307364

@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61275
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: scott@psy.uwa.oz.au (Scott Fisher)
+Subject: Re: TRUE "GLOBE", Who makes it?
+Organization: The University of Western Australia
+Lines: 22
+NNTP-Posting-Host: wapsy.psy.uwa.oz.au
+
+bill@xpresso.UUCP (Bill Vance) writes:
+
+>It has been known for quite a while that the earth is actually more pear
+>shaped than globular/spherical.  Does anyone make a "globe" that is accurate
+>as to actual shape, landmass configuration/Long/Lat lines etc.?
+>Thanks in advance.
+
+Even if they did, a globe at a scale that you could fit into your average room
+or even average "hall" the deviations you mention would not be visually
+evident. In other words a micrometer would be required to test the fact that 
+the Globe was infact pear-shaped.  
+
+Regards Scott.
+_______________________________________________________________________________
+Scott Fisher [scott@psy.uwa.oz.au]  PH: Aus [61] Perth (09) Local (380 3272).                
+                                                             _--_|\       N
+Department of Psychology                                    /      \    W + E
+University of Western Australia.      Perth [32S, 116E]-->  *_.--._/      S
+Nedlands, 6009.  PERTH, W.A.                                      v       
+
+    *** ERROR 144 - REBOOT? is a registered trademark of ENSONIQ Corp ***
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ true globe make       known quit earth actual
+pear shape globular spheric anyon make globe accur
+actual shape landmass configur long lat line etc
+thank advanc  even globe scale could fit averag
+room even averag hall deviat mention visual evid
+word micromet requir test fact globe infact pear
+shape  regard scott    depart psycholog univers
+western australia perth 32s 116e nedland perth
+error reboot regist trademark ensoniq corp
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+globe, 3905, 0.541448521497
+shape, 7853, 0.32787952458
+pear, 6498, 0.312140432159
+averag, 816, 0.179742091159
+reboot, 7161, 0.164630733808
+trademark, 9034, 0.159919540936
+landmass, 5107, 0.156070216079
+psycholog, 6968, 0.147509698351
+globular, 3906, 0.147509698351
+lat, 5138, 0.145285239219
+deviat, 2590, 0.141435914362
+actual, 254, 0.135766004533
+spheric, 8227, 0.132875396634
+regist, 7229, 0.124314878905
+configur, 2030, 0.11883586198
+western, 9709, 0.112167310929
+corp, 2153, 0.112167310929
+scott, 7713, 0.110887353321
+australia, 792, 0.110477382488
+accur, 225, 0.108171875907
+visual, 9547, 0.107810963965
+make, 5459, 0.10590757264
+room, 7476, 0.105766189616
+hall, 4128, 0.102465280905
+depart, 2535, 0.0991315003748
+scale, 7659, 0.098431563308
+fit, 3510, 0.0952426753483
+error, 3180, 0.0952426753483
+evid, 3245, 0.0889724914832
+test, 8812, 0.0867480323518
+regard, 7224, 0.0864857577428
+mention, 5632, 0.0844971986579
+known, 5054, 0.0843789191636
+advanc, 285, 0.0798335037467
+requir, 7302, 0.0785423605308
+quit, 7043, 0.0773256466083
+word, 9829, 0.0756227296497
+true, 9121, 0.0753133785546
+earth, 2956, 0.0735468154213
+fact, 3350, 0.0724462230894
+univers, 9282, 0.0701615275848
+line, 5285, 0.0699818428022
+long, 5336, 0.0665237862332
+thank, 8832, 0.0591254180415
+anyon, 554, 0.0567340020004

@@ -1,0 +1,151 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61267
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Gamma Ray Bursters How energetic could they be?
+From: belgarath@vax1.mankato.msus.edu
+Organization: Mankato State University
+Nntp-Posting-Host: vax1.mankato.msus.edu
+Lines: 38
+
+In article <1rgvjsINNbhq@senator-bedfellow.MIT.EDU>, jfc@athena.mit.edu (John F Carr) writes:
+> 
+> If gamma ray bursters are extragalactic, would absorption from the
+> galaxy be expected?  How transparent is the galactic core to gamma
+> rays?
+> 
+> How much energy does a burster put out?  I know energy depends on
+> distance, which is unknown.  An answer of the form _X_ ergs per
+> megaparsec^2 is OK.
+> 
+> 
+> --
+>     John Carr (jfc@athena.mit.edu)
+        I had to turn to one of my problem sets that I did in class for this
+little problem.  I don't have a calculator, but I DO have the problem set that
+we did not too long ago, so I'll use that, and hope it's what you wanted.  
+This is a highly simplified problem, with a very simple burst.  Bursts are
+usually more complex than this example I will use here.
+        Our burst has a peak flux of 5.43E-6 ergs cm^-2 sec^-1 and a duration
+of 8.95 seconds.  During the frst second of the burst, and the last 4 seconds,
+its flux is half of the peak flux.  It's flux is the peak flux the rest of the
+time.  Assume that the background flux is 10E-7 erg cm^-2 sec^-1.
+        Then we had to find the integrated luminosity of the burst, for several
+different spheres: R=.25pc(Oort Cloud Radius), R=22.5pc(at the edge of the
+galaxy), R=183.5pc or the edge of the galactic corona, and lastly at a
+R=8800Mpc.  
+        We integrated the flux over all time to find the fluence, then used the
+old standby formula:
+                        Luminosity=4(pi)(r^2)Fpeak
+        For a radius of .25 pc, we found an L around 10^32 erg/sec.  Pretty
+energetic for close by.  for the coronal model, we found around 10^43 erg/sec.
+And lastly, for the cosmological model an L=10^53. That's what you'd call
+moderately energetic, I'd say.  Any suggestions about what could put out that
+much energy in one second? 
+                                                -jeremy
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+gamma ray burster energet could        gamma ray
+burster extragalact absorpt galaxi expect transpar
+galact core gamma ray  much energi burster put
+know energi depend distanc unknown answer form erg
+per megaparsec     turn one problem set class
+littl problem don't calcul problem set long ago
+i'll use hope it want high simplifi problem simpl
+burst burst usual complex exampl use burst peak
+flux 43e erg sec durat second frst second burst
+last second flux half peak flux it flux peak flux
+rest time assum background flux 10e erg sec find
+integr luminos burst sever differ sphere 25pc oort
+cloud radius 5pc edg galaxi 5pc edg galact corona
+last 8800mpc integr flux time find fluenc use old
+standbi formula luminos fpeak radius found around
+erg sec pretti energet close coron model found
+around erg sec last cosmolog model that you'd call
+moder energet i'd say suggest could put much
+energi one second jeremi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+flux, 3563, 0.531183733518
+erg, 3169, 0.353197964957
+burst, 1417, 0.284676781355
+sec, 7752, 0.244934236952
+energet, 3101, 0.201556775612
+peak, 6496, 0.175150727154
+5pc, 122, 0.165997560712
+burster, 1418, 0.162976670991
+gamma, 3762, 0.150700174773
+energi, 3102, 0.149867799427
+luminos, 5390, 0.148601963448
+second, 7753, 0.142900613742
+problem, 6887, 0.129182490952
+ray, 7118, 0.128727624033
+galact, 3749, 0.126046711257
+radius, 7064, 0.113870712542
+galaxi, 3753, 0.109948219509
+integr, 4694, 0.106656276622
+edg, 2993, 0.0978310311332
+model, 5807, 0.0860958618023
+standbi, 8314, 0.0829987803559
+extragalact, 3327, 0.0777549828449
+corona, 2152, 0.0777549828449
+set, 7815, 0.0735375303377
+absorpt, 197, 0.0729302368913
+use, 9363, 0.0680142815975
+jeremi, 4851, 0.0679463352279
+coron, 2151, 0.0679463352279
+cosmolog, 2166, 0.0671855918708
+transpar, 9063, 0.0664773567492
+simplifi, 7969, 0.0630233556285
+oort, 6255, 0.0625458119603
+moder, 5810, 0.0620894996081
+durat, 2925, 0.0604435281645
+formula, 3614, 0.0590253682928
+unknown, 9287, 0.0569353562709
+sphere, 8226, 0.0559079657751
+cloud, 1835, 0.0554304221069
+core, 2140, 0.053520019368
+background, 855, 0.0525945879173
+distanc, 2744, 0.0502333915909
+complex, 1976, 0.0502333915909
+calcul, 1451, 0.0494225488778
+class, 1789, 0.0491659020688
+time, 8936, 0.0487813110353
+half, 4124, 0.0465019320218
+depend, 2537, 0.0458394223105
+rest, 7324, 0.0438463452644
+simpl, 7965, 0.0437711409892
+usual, 9377, 0.04333113059
+form, 3610, 0.0411414816911
+turn, 9158, 0.0408555206471
+ago, 336, 0.0399905597689
+assum, 710, 0.0398361908801
+expect, 3290, 0.0397852461718
+suggest, 8525, 0.0391449936672
+close, 1830, 0.0389089985001
+old, 6216, 0.0388160988828
+sever, 7823, 0.0378882759731
+answer, 535, 0.0378882759731
+pretti, 6851, 0.0376378894709
+exampl, 3258, 0.0372336901045
+hope, 4372, 0.0366932844048
+high, 4292, 0.034715702211
+littl, 5308, 0.0345008741508
+ll, 5314, 0.0325185218186
+long, 5336, 0.0323447392799
+differ, 2633, 0.0316086426037
+want, 9634, 0.0279633060049
+say, 7653, 0.0260623038979
+don, 2811, 0.0232841701191
+know, 5052, 0.0221113608037

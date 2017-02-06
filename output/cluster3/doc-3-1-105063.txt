@@ -1,0 +1,99 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105063
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Notre Dame - Office of Univ. Computing
+From: <RVESTERM@vma.cc.nd.edu>
+Subject: Re: Jack Morris
+ <1993Apr18.032345.5178@cs.cornell.edu>
+ <1993Apr19.024222.11181@newshub.ariel.yorku.ca>
+ <1993Apr19.053221.11240@cs.cornell.edu>
+ <1993Apr19.212428.7530@ramsey.cs.laurentian.ca> <48178@sdcc12.ucsd.edu>
+ <1993Apr20.004746.13007@ramsey.cs.laurentian.ca>
+Lines: 20
+
+In article <1993Apr20.004746.13007@ramsey.cs.laurentian.ca>,
+maynard@ramsey.cs.laurentian.ca (Roger Maynard) says:
+>
+>To say that one player is better than another is to be able to say ab-
+>solutely  that  player A's team would have played better with player B
+>in their lineup.  Sheer speculation.  Impossible to ascertain.
+>
+
+to take this to its, er, "logical" conclusion, it is impossible to
+ascertain whether or not i am a better hitter than roberto alomar,
+or a better pitcher than juan guzman, or a better center fielder than
+devon white.  after all, if i were on the blue jays, can you really
+prove that they wouldn't have won the world series in both 1991 AND
+1992?
+
+while i thank you, mister maynard, for your faith in my atheletic
+prowess, i can assure you that your faith is misplaced.
+
+bob vesterman.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  jack morri    sdcc12 ucsd edu       say one
+player better anoth abl say solut player a team
+play better player lineup sheer specul imposs
+ascertain   take logic conclus imposs ascertain
+whether better hitter roberto alomar better
+pitcher juan guzman better center fielder devon
+white blue jay realli prove wouldn't world seri
+thank mister maynard faith athelet prowess assur
+faith misplac  bob vesterman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+better, 1060, 0.357539126156
+ascertain, 675, 0.346020904644
+player, 6683, 0.247439323017
+imposs, 4553, 0.244933868547
+faith, 3367, 0.217946042731
+misplac, 5766, 0.173010452322
+prowess, 6953, 0.167003302671
+maynard, 5565, 0.167003302671
+devon, 2596, 0.167003302671
+sheer, 7868, 0.164484878284
+ucsd, 9189, 0.160126859989
+roberto, 7438, 0.160126859989
+guzman, 4101, 0.158213605239
+juan, 4915, 0.147916633983
+assur, 712, 0.144575914912
+vesterman, 9488, 0.140743256751
+fielder, 3467, 0.13195355932
+lineup, 5287, 0.130182162102
+alomar, 436, 0.129070197709
+specul, 8214, 0.125541265666
+say, 7653, 0.121372581662
+logic, 5330, 0.121261489417
+conclus, 2009, 0.119018946852
+solut, 8118, 0.117971936097
+morri, 5868, 0.116968869039
+jack, 4808, 0.111700663052
+blue, 1176, 0.110174426177
+jay, 4832, 0.106737475119
+prove, 6947, 0.106105642987
+bob, 1189, 0.105088343763
+white, 9737, 0.102450702551
+hitter, 4322, 0.101747624692
+wouldn, 9854, 0.0999144468145
+seri, 7805, 0.0974763684661
+center, 1606, 0.0964832258118
+pitcher, 6644, 0.095001443498
+abl, 180, 0.0874489134539
+edu, 3001, 0.0847502319899
+world, 9841, 0.0800543575555
+team, 8732, 0.0793654648067
+play, 6681, 0.0788282978437
+anoth, 533, 0.0770379375753
+realli, 7150, 0.0709283320282
+thank, 8832, 0.0669389212717

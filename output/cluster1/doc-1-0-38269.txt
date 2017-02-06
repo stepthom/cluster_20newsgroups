@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38269
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kai_h@postoffice.utas.edu.au (Kai Howells)
+Subject: Re: HOT NEW 3D Software
+Organization: University of Tasmania (Australia)
+Lines: 20
+
+In article <1qflpk$re1@usenet.INS.CWRU.Edu>, mbc@po.CWRU.Edu (Michael B.
+Comet) wrote:
+> 
+> 
+> In a previous article, trb3@Ra.MsState.Edu (Tony R. Boutwell) says:
+> 
+> >There is a new product for the (IBM'ers) out there... it is called
+> >IMAGINE and it just started shipping yesterday... I can personally attest that it will blow the doors off of 3D-Studio.  It is made by IMPUlSE, and is in its
+> >
+> 	Well....I don't know about its competing with 3D studio, but
+> it's pretty powerful allright.
+
+Yes but a key issue is _SPEED_ how fast is Imagine? And is it as easy to
+use
+as 3D Studio? Can it just do a render as fast as 3DS if you don't want
+things like IOR etc.. 3DS can do fine shadows, animated reflection maps,
+animated bump maps, animated anything maps, and with the IPAS routines 
+(Not that I've ever seen them) It can do explosions, top quality
+morphing, fire, rain, lens flares etc..
+I'm not knocking imagine, I just want to know how it compares with 3DS
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hot new softwar    cwru edu michael comet wrote
+new product ibm'er call imagin start ship
+yesterday person attest blow door studio made
+impuls  well don't know compet studio it pretti
+power allright  yes key issu speed fast imagin
+easi use studio render fast 3ds don't want thing
+like ior etc 3ds fine shadow anim reflect map anim
+bump map anim anyth map ipa routin i'v ever seen
+explos top qualiti morph fire rain len flare etc
+i'm knock imagin want know compar 3ds
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3ds, 99, 0.385307478042
+studio, 8470, 0.359875146618
+imagin, 4518, 0.270097867722
+map, 5498, 0.266760621543
+anim, 515, 0.256821133096
+fast, 3397, 0.175055709758
+flare, 3523, 0.143551254563
+bump, 1396, 0.143551254563
+attest, 767, 0.143551254563
+ipa, 4755, 0.140902943116
+len, 5210, 0.129804153025
+morph, 5866, 0.125953481018
+er, 3163, 0.125953481018
+shadow, 7837, 0.119958382206
+impuls, 4558, 0.119958382206
+new, 6023, 0.115545033362
+explos, 3308, 0.11536108972
+rain, 7074, 0.114038408011
+door, 2818, 0.114038408011
+blow, 1172, 0.112798449573
+want, 9634, 0.10805153756
+ship, 7888, 0.106647185582
+compet, 1969, 0.106211280668
+knock, 5050, 0.104958261395
+reflect, 7216, 0.104557583622
+comet, 1926, 0.103401943638
+yesterday, 9952, 0.103031224897
+hot, 4389, 0.100291306473
+render, 7277, 0.0999739736994
+routin, 7499, 0.097325662252
+ibm, 4472, 0.0959940968367
+qualiti, 7017, 0.0954855337102
+key, 4994, 0.0910098091406
+michael, 5680, 0.0904177390477
+don, 2811, 0.0899711350914
+fine, 3485, 0.0880386009207
+easi, 2959, 0.087527854879
+know, 5052, 0.085439344402
+wrote, 9871, 0.0841372702012
+compar, 1960, 0.0834413084342
+product, 6896, 0.0830351602775
+issu, 4793, 0.0808786682873
+speed, 8217, 0.080639715093
+seen, 7767, 0.0736133863118
+power, 6783, 0.0736133863118
+pretti, 6851, 0.0727172929251
+yes, 9951, 0.0722450593008
+edu, 3001, 0.0703194631504
+anyth, 555, 0.0679913306333
+softwar, 8103, 0.0661925570471
+person, 6562, 0.0660782462107
+start, 8334, 0.0627782395319
+thing, 8869, 0.0541815659299
+use, 9363, 0.0438017337276
+like, 5272, 0.0417603824471

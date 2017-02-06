@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38343
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mdpyssc@fs1.mcc.ac.uk (Sue Cunningham)
+Subject: Fractals? What good are they ?
+Organization: Manchester Computing Centre
+Lines: 5
+
+We have been using Iterated Systems compression board to compress 
+pathology images and are getting ratios of 40:1 to 70:1 without too
+much loss in quality. It is taking about 4 mins per image to compress,
+on a 25Mhz 486 but decompression is almost real time on a 386 in software 
+alone.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fractal good    use iter system compress board
+compress patholog imag get ratio without much loss
+qualiti take min per imag compress 25mhz
+decompress almost real time softwar alon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+compress, 1986, 0.573037447293
+25mhz, 73, 0.28772633963
+patholog, 6463, 0.267077045578
+iter, 4799, 0.262149863303
+imag, 4512, 0.247376673459
+decompress, 2452, 0.244235083433
+min, 5732, 0.228339600677
+ratio, 7109, 0.220105814379
+fractal, 3637, 0.215924092923
+alon, 437, 0.178120851225
+qualiti, 7017, 0.177650793205
+loss, 5352, 0.177650793205
+board, 1186, 0.177186648022
+real, 7144, 0.12649784055
+softwar, 8103, 0.123151223089
+good, 3948, 0.0948516605633
+time, 8936, 0.0876729225402
+use, 9363, 0.0814931062132

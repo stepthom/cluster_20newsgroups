@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104480
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Organization: University of Notre Dame - Office of Univ. Computing
+From: <RVESTERM@vma.cc.nd.edu>
+Subject: Re: Jewish Baseball Players?
+ <1993Apr16.173252.7393@asd.com>
+Lines: 11
+
+In article <1993Apr16.173252.7393@asd.com>, scott@asd.com (Scott Barman) says:
+>
+>Wasn't Ron Bloomberg, the former Yankee who got the first base hit
+>by a Designated Hitter, Jewish??
+
+i have no idea, nor do i care.  however, i'd like to point out that
+blomberg got the first plate appearance by a designated hitter, and
+the first walk by a designated hitter.  i am not sure, but i do not
+think that he also got the first hit by a designated hitter.
+
+bob vesterman.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  jewish basebal player    asd com scott barman
+say  wasn't ron bloomberg former yanke got first
+base hit design hitter jewish  idea care howev i'd
+like point blomberg got first plate appear design
+hitter first walk design hitter sure think also
+got first hit design hitter  bob vesterman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hitter, 4322, 0.481685548515
+design, 2564, 0.439696231068
+got, 3960, 0.278484181018
+jewish, 4864, 0.277652800692
+blomberg, 1167, 0.209123993035
+hit, 4316, 0.197857976738
+barman, 913, 0.185154078559
+asd, 677, 0.185154078559
+vesterman, 9488, 0.166573895541
+scott, 7713, 0.148581879913
+ron, 7472, 0.148032545518
+plate, 6674, 0.143516635451
+yanke, 9933, 0.131891927087
+bob, 1189, 0.124375229057
+com, 1917, 0.123676679185
+wasn, 9652, 0.122771327285
+walk, 9617, 0.120217127524
+appear, 580, 0.115025380894
+care, 1516, 0.111375136469
+player, 6683, 0.0976173042469
+howev, 4406, 0.0975258992161
+idea, 4482, 0.0967162780101
+basebal, 924, 0.0953317897641
+sure, 8585, 0.0911039079239
+base, 923, 0.0885334936757
+point, 6710, 0.0798523871169
+say, 7653, 0.0718240582389
+think, 8871, 0.0647921851504
+like, 5272, 0.0595674710869

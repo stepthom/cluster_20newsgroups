@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60926
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jmcocker@eos.ncsu.edu (Mitch)
+Subject: *** HELP  I NEED SOME ADDRESSES ***
+Originator: jmcocker@c00137-100lez.eos.ncsu.edu
+Reply-To: jmcocker@eos.ncsu.edu (Mitch)
+Organization: North Carolina State University, Project Eos
+Lines: 21
+
+
+Hi all,
+
+    I'm trying to get mailing addresses for the following
+companies.  Specifically, I need addresses for their personnel
+offices or like bureau.  The companies are:
+
+	- AMROC
+	- Orbital Sciences Corp. (sp?)
+	- Spacehab, Inc.  (I know this one is somewhere in 
+		 	   Seattle, WA, or at least part of it is.)
+	- Space Industries, Inc.  (Somewhere in Houston)
+	- Space Enterprises Inc.
+
+If anybody could point me in the right direction on this, I
+would be most appreciative.  I prefer an email response, but I
+will post a summary if sufficient interest exists.
+
+Thanks,
+
+Mitch-------------------------------->jmcocker@eos.ncsu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help need address         i'm tri get mail
+address follow compani specif need address
+personnel offic like bureau compani  amroc orbit
+scienc corp spacehab inc know one somewher seattl
+least part space industri inc somewher houston
+space enterpris inc  anybodi could point right
+direct appreci prefer email respons post summari
+suffici interest exist  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+address, 264, 0.3782959191
+somewher, 8130, 0.303307216048
+compani, 1958, 0.270009597379
+spacehab, 8169, 0.226736822414
+personnel, 6563, 0.217400822836
+enterpris, 3126, 0.206097403325
+bureau, 1408, 0.202487854515
+space, 8164, 0.184107292416
+suffici, 8523, 0.177527570687
+seattl, 7749, 0.175981921904
+need, 5993, 0.17450938112
+corp, 2153, 0.172412118953
+houston, 4399, 0.17044469902
+summari, 8536, 0.169814533783
+industri, 4608, 0.156656181419
+prefer, 6819, 0.14827007863
+offic, 6206, 0.143776392911
+email, 3060, 0.136534829045
+anybodi, 552, 0.131950588036
+specif, 8203, 0.12880458053
+appreci, 587, 0.125455995136
+respons, 7323, 0.124982227744
+direct, 2667, 0.124361108497
+scienc, 7692, 0.121282040969
+orbit, 6280, 0.117459688183
+exist, 3283, 0.116359498416
+mail, 5447, 0.111563629478
+follow, 3578, 0.10666490414
+right, 7399, 0.0987178235751
+help, 4249, 0.0953405137144
+post, 6766, 0.0947793615774
+tri, 9087, 0.0939855640153
+point, 6710, 0.0916021260203
+thank, 8832, 0.0908815458273
+know, 5052, 0.069902105447
+like, 5272, 0.0683324217375

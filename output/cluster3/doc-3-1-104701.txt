@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104701
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@watson.ibm.com (Mike Jones)
+Subject: Re: Dopson Pitches First Shutout; Red Sox Win 6-0
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: fenway.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 23
+
+cka52397@uxa.cso.uiuc.edu (OrioleFan@uiuc) writes:
+>jmann@vineland.pubs.stratus.com (Jim Mann) writes:
+>>John Dopson pitched his first major league shutout as the 
+>>Red Sox beat the White Sox 6-0. All 6 Sox runs came in 
+>>the 6th inning, which featured big hits from, among others,
+>>Vaughan and Greenwell.
+>>The Sox are now 10-3.
+
+AND the first team in the majors to win 10 games! Yes! It'll never last, but
+God it's good while it's here!
+
+>	Someone told me this game started at 10:05 cdt.  Is this true??/ Who
+>in their right mind would go to a game on monday at 11AM????
+
+Well, there's a holiday in Massachusetts called Patriots' Day. Three things
+happen on Patriots' Day: almost all businesses are closed, the Sox play a
+morning game, and they run the Boston Marathon.
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+There is nothing so deadly as not to hold up to people the opportunity to do
+great and wonderful things, if we wish to stimulate them in an active way.
+	- Dr. Harold Urey, Nobel Laureate in chemistry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dopson pitch first shutout red sox win
+john dopson pitch first major leagu shutout red
+sox beat white sox sox run came 6th inning featur
+big hit among other vaughan greenwel sox  first
+team major win game yes it'll never last god it
+good it  someon told game start cdt true right
+mind game monday 11am  well there holiday
+massachusett call patriot day three thing happen
+patriot day almost busi close sox play morn game
+run boston marathon    noth dead hold peopl
+opportun great wonder thing wish stimul activ way
+harold urey nobel laureat chemistri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sox, 8162, 0.510986148622
+dopson, 2822, 0.279278680359
+patriot, 6467, 0.266872673186
+shutout, 7927, 0.246999430384
+game, 3761, 0.223527355123
+red, 7194, 0.147563368411
+vaughan, 9436, 0.143753083004
+marathon, 5501, 0.143753083004
+stimul, 8397, 0.13963934018
+cdt, 1588, 0.136278167555
+major, 5458, 0.135335338187
+pitch, 6643, 0.134599369246
+win, 9770, 0.134020991587
+holiday, 4345, 0.130974630641
+harold, 4180, 0.126860887817
+massachusett, 5534, 0.123499715192
+greenwel, 4030, 0.123499715192
+6th, 134, 0.111505866764
+run, 7543, 0.11106431544
+chemistri, 1692, 0.109968692629
+day, 2402, 0.10933509161
+monday, 5834, 0.107232509004
+thing, 8869, 0.100727641713
+morn, 5864, 0.0983309386938
+opportun, 6268, 0.0964671903446
+beat, 974, 0.0904678950169
+boston, 1243, 0.0887574257338
+featur, 3422, 0.0863541521922
+wish, 9801, 0.0853574008084
+inning, 4657, 0.0849733158774
+busi, 1424, 0.0849733158774
+told, 8973, 0.0829929795674
+dead, 2415, 0.0821586557529
+hold, 4341, 0.0805953968454
+white, 9737, 0.0790163036183
+activ, 252, 0.0787431814399
+came, 1472, 0.0743069450879
+leagu, 5176, 0.0739899961376
+mind, 5733, 0.0718186176014
+close, 1830, 0.0698762533128
+john, 4878, 0.0697094158859
+yes, 9951, 0.0671545231656
+noth, 6119, 0.0670823688275
+wonder, 9821, 0.0669389018789
+true, 9121, 0.0657625104881
+happen, 4159, 0.0649751135207
+god, 3926, 0.0649751135207
+hit, 4316, 0.0644682662059
+big, 1082, 0.0627965991571
+great, 4016, 0.0613165891294
+team, 8732, 0.0612115437748
+play, 6681, 0.0607972474666
+someon, 8124, 0.0602423779264
+ll, 5314, 0.0583996647445
+start, 8334, 0.0583547550759
+right, 7399, 0.056079010819
+peopl, 6530, 0.0500181467943
+way, 9666, 0.0482247794797
+good, 3948, 0.0473895391418

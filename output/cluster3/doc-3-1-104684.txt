@@ -1,0 +1,324 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104684
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sam@steamer.clam.com (Sam Mandelbaum)
+Subject: Yankee Thoughts
+Organization: CLaM Associates, Cambridge, MA 02141
+Lines: 76
+
+
+Yes - Everyone seems to be in agreement that the Yankees are 
+finally moving in the right direction.  They should finish
+over .500 this year and maybe even be in the pennent race 
+in August.  However, I would take back a few moves:
+
+1.  The Jim Abbott Trade.
+    I think Abbott is not only an inspirational person, but a
+    great pitcher also.  He could win the Cy Young this year, 
+    but he won't because the right side of the Yanks infield
+    isn't good enough.  So why was this not a good trade?  
+    JT Snow.  How many rookies have been able to step in and
+    immediately have the impact that he has had so far on 
+    the Angels?  I know it's early, but if you've seen this kid
+    hit, field or talk you can just tell that he is going to be 
+    a tremendous player.  The Yanks should have kept him.  What
+    about Mattingly, you ask?  Well - it's great that the Yanks
+    have taken care of him and remained loyal, but he's 10 years
+    older than Snow and just doesn't have the same bat speed as
+    before his back injury.  It's a shame, but as a Yankee fan 
+    who wants to see the *best* Yankee team, I'd take 
+    Snow over Mattingly at first.  The Yanks also gave up two
+    promising propects with Snow for Abbott.  Besides, with
+    Domingo Jean, Brien taylor, Wickman, Militello, and Sterling
+    Hitchcock, they are just loaded with propects.  I know Abbotts
+    only 26, but this was too much to give up.  I believe George
+    forced this trade because he believes (and he's right) that
+    Abbott will be a big hit in NY.  However, I'd like to see the
+    Yankees build a baseball team, not an amusement show.
+
+2.  Wade Boggs.
+    I live in Boston and like Wade a lot.  But, his career is 
+    winding down and I would rather see the Yanks start to develop
+    a long term solution (i.e. Hensley Muelins, Russ Davis, Velarde?).
+    Besides, Wade just doesn't have any range.  What a shame about
+    Charlie Hayes, huh?
+
+3.  Spike Owen.
+    See Wade Boggs.  I'd much rather see them develop Dave Silvestri
+    or whoever.  Wade and Spike next to each other in the infield is
+    going to raise the Yankee staff ERA 1/2 point.  And these guys
+    are on the down sides of their careers.
+
+4.  Danny Tartabull.
+    Yes - he's put up some tremendous numbers and it's nice to think
+    about what he could do if he were ever healthy all year.  But he
+    never is.  We should expect 120 games max out of him.  Meanwhile,
+    Gerald Williams is playing at Columbus and Paul O'Neil is playing
+    left field!  I believe O'Neil led NL outfielders in assists
+    last year - and Tartabull is a poor defensive outfielder.
+
+What I'm basically getting at is the Yanks are moving in the right
+direction but are NOT ready to win a pennent this year.  They should
+(at the GM level) be planning for a 1994 or 1995 world series.  This
+means getting the younger players experience in the majors NOW so they 
+will be ready in a year or two.  
+
+I'm afraid that all this stuff wreaks of George Steinbrenner.
+Certainly, the Boggs deal was all George.  It looks like George is
+planning the right mix of veterans and young players to win a world
+series now.  The veterans are always available and can be added at any
+time (like Boston did this year).  Develop the young players first,
+then add the one or two veterans (or in the Yankees case, just keep
+them).  Let's all us Yankee fans hope that George doesn't dismantle
+the terrific job Stick and company have done building the Yankee
+organization back into one of respect.  I'm really afraid that he will
+trade whoever it takes to patch holes today (relief pitching for
+example).  George must realize that the Yankees rebuilding process is
+still one or two years away.  Have patience George and we will all
+enjoy the future.  Fire Bucky and trade the kids and it's baseball
+hell for all loyal Yankee fans for a long time!
+
+Sam "I'm not Militello or Millitello" Mandelbaum.
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yanke thought     yes everyon seem agreement
+yanke final move right direct finish year mayb
+even pennent race august howev take back move  jim
+abbott trade think abbott inspir person great
+pitcher also could win young year won't right side
+yank infield isn't good enough good trade snow
+mani rooki abl step immedi impact far angel know
+it earli you'v seen kid hit field talk tell go
+tremend player yank kept mat ask well it great
+yank taken care remain loyal he year older snow
+doesn't bat speed back injuri it shame yanke fan
+want see best yanke team i'd take snow mat first
+yank also gave two promis propect snow abbott
+besid domingo jean brien taylor wickman militello
+sterl hitchcock load propect know abbott much give
+believ georg forc trade believ he right abbott big
+hit howev i'd like see yanke build basebal team
+amus show  wade bogg live boston like wade lot
+career wind rather see yank start develop long
+term solut hensley muelin russ davi velard besid
+wade doesn't rang shame charli hay huh  spike owen
+see wade bogg i'd much rather see develop dave
+silvestri whoever wade spike next infield go rais
+yanke staff era point guy side career  danni
+tartabul yes he put tremend number it nice think
+could ever healthi year never expect game max
+meanwhil gerald william play columbus paul o'neil
+play left field believ o'neil led outfield assist
+last year tartabul poor defens outfield  i'm basic
+get yank move right direct readi win pennent year
+level plan world seri mean get younger player
+experi major readi year two  i'm afraid stuff
+wreak georg steinbrenn certain bogg deal georg
+look like georg plan right mix veteran young
+player win world seri veteran alway avail ad time
+like boston year develop young player first add
+one two veteran yanke case keep let yanke fan hope
+georg doesn't dismantl terrif job stick compani
+done build yanke organ back one respect i'm realli
+afraid trade whoever take patch hole today relief
+pitch exampl georg must realiz yanke rebuild
+process still one two year away patienc georg
+enjoy futur fire bucki trade kid it basebal hell
+loyal yanke fan long time  sam i'm militello
+millitello mandelbaum
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yanke, 9933, 0.392851467981
+yank, 9932, 0.272364457549
+abbott, 167, 0.272114851627
+georg, 3847, 0.270300700506
+wade, 9605, 0.231666256598
+trade, 9033, 0.189036443835
+snow, 8081, 0.185333005279
+year, 9943, 0.173266891596
+veteran, 9490, 0.138999753959
+bogg, 1199, 0.133672718759
+right, 7399, 0.116510591659
+pennent, 6525, 0.110891731493
+spike, 8233, 0.107041425241
+militello, 5716, 0.107041425241
+player, 6683, 0.105731473062
+tartabul, 8706, 0.103967015075
+young, 9962, 0.102620708219
+neil, 6002, 0.0982264591474
+tremend, 9082, 0.0948077496984
+shame, 7851, 0.0940602515328
+fan, 3381, 0.0914632482731
+afraid, 318, 0.0876069776442
+infield, 4627, 0.0866781676193
+develop, 2588, 0.0855897887047
+outfield, 6325, 0.0853826915021
+win, 9770, 0.0835332050076
+mat, 5540, 0.0820470211361
+kid, 5008, 0.076987496141
+readi, 7139, 0.0753972593752
+doesn, 2793, 0.0745454430636
+boston, 1243, 0.0737615021047
+besid, 1051, 0.0728212885264
+believ, 1009, 0.070968372804
+career, 1517, 0.0709359250488
+like, 5272, 0.0645188526069
+plan, 6660, 0.0625709977383
+seri, 7805, 0.0624778626594
+build, 1378, 0.0618413039597
+direct, 2667, 0.0587103151413
+steinbrenn, 8370, 0.0580233563524
+muelin, 5914, 0.0580233563524
+hensley, 4259, 0.0580233563524
+bucki, 1360, 0.0580233563524
+field, 3466, 0.0576581393171
+yes, 9951, 0.0558084967074
+terrif, 8805, 0.0554458657463
+sterl, 8386, 0.0554458657463
+jean, 4836, 0.0554458657463
+silvestri, 7959, 0.0544229703253
+millitello, 5726, 0.0544229703253
+hit, 4316, 0.0535760936521
+wickman, 9746, 0.0535207126204
+velard, 9454, 0.0535207126204
+howev, 4406, 0.0528162351202
+owen, 6358, 0.0519835075373
+gerald, 3853, 0.0519835075373
+basebal, 924, 0.0516279907499
+world, 9841, 0.0513111560817
+great, 4016, 0.0509569050784
+team, 8732, 0.0508696075584
+taylor, 8721, 0.0507038170099
+russ, 7548, 0.0507038170099
+play, 6681, 0.0505253082758
+patienc, 6464, 0.0501361249947
+danni, 2361, 0.0501361249947
+hay, 4210, 0.0486488245613
+charli, 1670, 0.0486488245613
+long, 5336, 0.0482734421563
+columbus, 1914, 0.0482109718688
+healthi, 4222, 0.0477967987521
+younger, 9963, 0.0474038748492
+meanwhil, 5600, 0.0474038748492
+sam, 7599, 0.0470301257664
+amus, 485, 0.0470301257664
+agreement, 338, 0.0470301257664
+patch, 6459, 0.0460072303455
+max, 5557, 0.0456945201247
+inspir, 4676, 0.044297875621
+rooki, 7475, 0.0440466945394
+relief, 7257, 0.0435677675574
+davi, 2396, 0.0435677675574
+huh, 4429, 0.0429012311172
+older, 6218, 0.0424870580005
+mix, 5788, 0.0417203850148
+august, 784, 0.0415401334831
+led, 5188, 0.041364026034
+injuri, 4650, 0.040858765796
+rais, 7076, 0.0402330845814
+wind, 9773, 0.0400843355066
+impact, 4534, 0.039795231889
+good, 3948, 0.0393828861332
+kept, 4989, 0.0387369537878
+william, 9764, 0.0384937480705
+era, 3164, 0.0382580268058
+assist, 705, 0.0382580268058
+angel, 509, 0.0382580268058
+stick, 8393, 0.0378072887669
+solut, 8118, 0.0378072887669
+race, 7049, 0.0378072887669
+staff, 8301, 0.0371773172489
+finish, 3488, 0.0370771807034
+hole, 4343, 0.0368807510523
+immedi, 4527, 0.0366892326607
+enjoy, 3114, 0.0366892326607
+poor, 6741, 0.0365023859184
+time, 8936, 0.03640223803
+paul, 6469, 0.0361418329399
+gave, 3798, 0.0360542852824
+promis, 6913, 0.0359677268852
+remain, 7264, 0.0358821356411
+load, 5317, 0.0356309545596
+step, 8377, 0.0353877488423
+realiz, 7149, 0.0351520275776
+hell, 4245, 0.0351520275776
+think, 8871, 0.0350889282986
+jim, 4868, 0.0349988157373
+taken, 8678, 0.0347012895387
+respect, 7321, 0.0347012895387
+rang, 7094, 0.034628679169
+defens, 2476, 0.0331243935032
+dave, 2395, 0.0331243935032
+know, 5052, 0.0330004668616
+add, 260, 0.0328904719183
+ad, 257, 0.0328904719183
+won, 9820, 0.032663482373
+job, 4873, 0.0326077705882
+futur, 3737, 0.032335131967
+organ, 6287, 0.0320718642478
+experi, 3295, 0.0320718642478
+compani, 1958, 0.0318675764973
+earli, 2951, 0.0317674399518
+forc, 3594, 0.0317178583117
+basic, 937, 0.0315226799407
+term, 8795, 0.0314746525944
+bat, 942, 0.0314746525944
+level, 5229, 0.0314269244858
+speed, 8217, 0.0311466370006
+nice, 6047, 0.0310102475819
+process, 6890, 0.0309653187924
+deal, 2418, 0.0309653187924
+everyon, 3241, 0.0305299552427
+left, 5193, 0.0304877494244
+pitcher, 6644, 0.030445774872
+away, 833, 0.0303625095233
+care, 1516, 0.0301582217728
+final, 3482, 0.0300780080906
+expect, 3290, 0.0296890749857
+stuff, 8472, 0.0293551575707
+today, 8964, 0.0292828897078
+alway, 457, 0.0289314364823
+guy, 4100, 0.0287615772691
+seen, 7767, 0.0284327569758
+major, 5458, 0.0281174722846
+live, 5310, 0.0280866459386
+isn, 4783, 0.0280559431454
+abl, 180, 0.0280253629185
+pitch, 6643, 0.0279645662768
+exampl, 3258, 0.0277850189172
+hope, 4372, 0.0273817501961
+certain, 1619, 0.0271061688003
+mayb, 5564, 0.0268140581809
+thought, 8887, 0.0267362875977
+case, 1540, 0.0266338066492
+avail, 811, 0.0266083992075
+ask, 689, 0.0265326786241
+big, 1082, 0.0260934307333
+talk, 8684, 0.0259060125372
+best, 1052, 0.0256109112283
+far, 3386, 0.0255886751121
+person, 6562, 0.0255223514367
+tell, 8767, 0.0250320930867
+number, 6156, 0.0249091973495
+start, 8334, 0.0242477423932
+let, 5225, 0.0241920306083
+lot, 5356, 0.0239015565038
+mean, 5595, 0.0236733967368
+game, 3761, 0.0232201888166
+realli, 7150, 0.0227308970207
+mani, 5479, 0.0217290543808
+point, 6710, 0.0216224740647
+want, 9634, 0.0208671497279
+look, 5341, 0.0191171438317

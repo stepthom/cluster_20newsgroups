@@ -1,0 +1,175 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84256
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: popec@brewich.hou.tx.us (Pope Charles)
+Subject: Re: Merlin, Mithras and Magick
+Organization: The Brewers' Witch BBS, +1 713 272 7350, Brewich.Hou.TX.US
+Lines: 42
+
+caldwell@facman.ohsu.edu (Larry Caldwell) writes:
+
+> kosinski@us.oracle.com (Kevin Osinski) writes:
+> 
+> >I recall reading in Michael (?) Rutherford's novel "Sarum" a scene in
+> >which the son of a Roman nobleman living in Britain takes part in a
+> >secret ceremony involving a bull.  He stands naked in a pit covered
+> >with some sort of scaffolding while assistants coax a bull to stand on
+> >the scaffolding.  They then fatally stab the bull, which douses the
+> >worshipper in the pit with blood.  This is supposedly some sort of
+> >rite of passage for members of the bull cult.  I wonder if this is
+> >related to the Mithras cult?
+> >
+> >I don't know where Rutherford got his information for this chapter.
+> >The book is historical fiction, and most of the general events which
+> >take place are largely based on historical accounts.
+> 
+> There is a rite like this described in Joseph Campbell's
+> _Occidental_Mythology_.  He also described levels of initiation, I think
+> 6?  I don't know where Campbell got his info, but I remember thinking he
+> was being a little eclectic.
+> 
+> >I also wonder what if any connection there is between the ancient bull
+> >cults and the current practice of bullfighting popular in some
+> >Mediterranean cultures.
+> 
+> Quite a bit.  If you haven't read Campbell, give him a try.  
+> 
+> -- 
+> -- Larry Caldwell  caldwell@ohsu.edu  CompuServe 72210,2273
+> Oregon Health Sciences University.  (503) 494-2232
+
+
+Yes.  I cannot remeber which works I read about this in, as it was many 
+years ago.  This ritual was called The Tarobaullum I believe, (The 
+spelling may be off).
+
+Pope Charles
+
+------------------
+popec@brewich.hou.tx.us (Pope Charles)
+Origin: The Brewers' Witch BBS -- Houston, TX -- +1 713 272 7350
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ merlin mithra magick        recal read michael
+rutherford novel sarum scene son roman nobleman
+live britain take part secret ceremoni involv bull
+stand nake pit cover sort scaffold assist coax
+bull stand scaffold fatal stab bull dous worshipp
+pit blood suppos sort rite passag member bull cult
+wonder relat mithra cult  don't know rutherford
+got inform chapter book histor fiction general
+event take place larg base histor account  rite
+like describ joseph campbel occident mytholog also
+describ level initi think don't know campbel got
+info rememb think littl eclect  also wonder
+connect ancient bull cult current practic
+bullfight popular mediterranean cultur  quit bit
+haven't read campbel give tri    oregon health
+scienc univers   yes cannot remeb work read mani
+year ago ritual call tarobaullum believ spell
+pope charl    origin brewer witch bbs houston
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bull, 1385, 0.440523044001
+campbel, 1479, 0.261934929858
+scaffold, 7656, 0.216355777944
+cult, 2289, 0.214697792638
+rite, 7419, 0.200828544378
+rutherford, 7556, 0.197123550404
+mithra, 5784, 0.177891322865
+pit, 6642, 0.169055429436
+histor, 4313, 0.145188079288
+read, 7135, 0.126692290474
+stand, 8311, 0.120194640245
+describ, 2556, 0.119551841475
+sarum, 7622, 0.108177888972
+dous, 2839, 0.108177888972
+bullfight, 1388, 0.108177888972
+sort, 8144, 0.106723624208
+mediterranean, 5613, 0.105082191786
+coax, 1863, 0.105082191786
+witch, 9803, 0.102552823014
+britain, 1319, 0.102552823014
+wonder, 9821, 0.100746487575
+worshipp, 9848, 0.100414272189
+fatal, 3402, 0.0969277570559
+remeb, 7268, 0.095466078016
+pope, 6744, 0.095466078016
+novel, 6128, 0.095466078016
+stab, 8296, 0.0929367092441
+nake, 5950, 0.0929367092441
+ritual, 7420, 0.0918262671836
+got, 3960, 0.0910443560737
+ceremoni, 1616, 0.090798158419
+oregon, 6285, 0.089841012058
+merlin, 5646, 0.0889456614323
+magick, 5436, 0.0865615622563
+brewer, 1302, 0.0833205954742
+health, 4221, 0.08275426706
+spell, 8220, 0.0793295476624
+secret, 7755, 0.07890264876
+scene, 7671, 0.07890264876
+fiction, 3463, 0.0784884950303
+joseph, 4893, 0.0776955295162
+roman, 7468, 0.0765850874557
+blood, 1169, 0.0758912869074
+charl, 1668, 0.0752305372851
+ancient, 500, 0.0752305372851
+passag, 6449, 0.0739965581692
+cultur, 2291, 0.0739965581692
+chapter, 1658, 0.073418427866
+houston, 4399, 0.0728634290723
+bbs, 961, 0.0713203825284
+assist, 705, 0.0692865349901
+son, 8132, 0.0690779127182
+recal, 7166, 0.0680794157464
+initi, 4647, 0.0673293347166
+popular, 6746, 0.066792243657
+account, 221, 0.0666177367064
+connect, 2046, 0.0662751731375
+cover, 2194, 0.0638023140961
+think, 8871, 0.0635471941788
+michael, 5680, 0.0632473153024
+event, 3232, 0.062977925874
+don, 2811, 0.0629349153073
+member, 5625, 0.0614629910311
+practic, 6793, 0.0607633577647
+know, 5052, 0.0597649223653
+haven, 4207, 0.0592562674906
+involv, 4750, 0.0581772481381
+level, 5229, 0.0569151857744
+suppos, 8577, 0.0564075759923
+info, 4636, 0.0546175237606
+ago, 336, 0.0540453552622
+general, 3818, 0.0535633621815
+relat, 7247, 0.0530322688268
+scienc, 7692, 0.0518468772612
+larg, 5124, 0.0513765569785
+rememb, 7269, 0.0510905031401
+live, 5310, 0.0508658323247
+quit, 7043, 0.0508102285643
+yes, 9951, 0.0505355043464
+current, 2299, 0.050266114918
+book, 1218, 0.0496912518251
+origin, 6293, 0.0493374554657
+place, 6657, 0.0475161831594
+bit, 1122, 0.0467914622225
+littl, 5308, 0.0466263040856
+univers, 9282, 0.0461027279999
+inform, 4637, 0.045598195321
+base, 923, 0.043416155057
+believ, 1009, 0.0428420130015
+tri, 9087, 0.0401779023744
+mani, 5479, 0.0393520265512
+work, 9833, 0.0393035190905
+year, 9943, 0.0348657771961
+like, 5272, 0.0292114368663

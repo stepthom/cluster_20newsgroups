@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38906
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sigma@rahul.net (Kevin Martin)
+Subject: Re: TIFF: philosophical significance of 42 (SILLY)
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Lines: 26
+
+In <C5wD3w.Bqs@skates.gsfc.nasa.gov> xrcjd@mudpuppy.gsfc.nasa.gov (Charles J. Divine) writes:
+>In article <1r3lf9$fu0@geraldo.cc.utexas.edu> Mark A. Cartwright <markc@emx.utexas.edu> writes:
+>>Of course the Question has not yet been discovered...
+>But the Question was later revealed to be:  What is 9 x 6?  (In the
+>base 13 system, of course.)
+
+If you read the last couple of books in the series closely (well, #3 and #4
+at least), there are at least two points at which the real Question is
+implied.  Conversations proceed much like:
+
+Zaphod: What *is* the ultimate Question, I wonder?
+Arthur (not paying much attention to Zaphod, but needing a random seed for
+  the Infinite Improbability Drive): Think of a number, any number.
+
+Actually, it may be Marvin who uses this phrase a few times as well, and
+everytime it's arranged such that "Think of a number, any number" could be
+an answer to someone's question about the Question.
+
+I kind of like it.  Very mystifying.  It's not even "pick a number" or
+"tell me a number", just "think of one".
+
+
+-- 
+Kevin Martin
+sigma@rahul.net
+"Use the flipper!"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific silli       cours
+question yet discov question later reveal base
+system cours  read last coupl book seri close well
+least least two point real question impli convers
+proceed much like  zaphod ultim question wonder
+arthur pay much attent zaphod need random seed
+infinit improb drive think number number  actual
+marvin use phrase time well everytim it arrang
+think number number could answer someon question
+question  kind like mystifi it even pick number
+tell number think one    kevin martin  use flipper
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+number, 6156, 0.428263592326
+question, 7032, 0.398665230841
+zaphod, 9975, 0.332531670687
+improb, 4556, 0.171163988588
+marvin, 5527, 0.166265835344
+everytim, 3243, 0.153363516891
+think, 8871, 0.150820902348
+cours, 2190, 0.150226271111
+seed, 7765, 0.14073388123
+arthur, 663, 0.139403129406
+phrase, 6612, 0.13007665332
+ultim, 9198, 0.128449932754
+arrang, 652, 0.125518827552
+infinit, 4631, 0.124188075727
+silli, 7956, 0.123551779509
+reveal, 7352, 0.121746597126
+random, 7093, 0.121746597126
+martin, 5523, 0.120620674307
+philosoph, 6595, 0.120078654608
+proceed, 6889, 0.119033186428
+kevin, 4993, 0.119033186428
+impli, 4546, 0.114443478762
+discov, 2698, 0.114443478762
+attent, 766, 0.113234879075
+tiff, 8926, 0.108973022048
+convers, 2114, 0.107718355855
+pay, 6474, 0.0994364899818
+pick, 6619, 0.0988181200061
+use, 9363, 0.0969579991862
+drive, 2873, 0.0952608832923
+signific, 7951, 0.0945801874317
+like, 5272, 0.0924393347649
+later, 5140, 0.0920506947493
+coupl, 2187, 0.0913164897687
+seri, 7805, 0.0895151080407
+close, 1830, 0.0832002902105
+answer, 535, 0.081017648309
+wonder, 9821, 0.0797028432215
+book, 1218, 0.0786237644415
+kind, 5021, 0.0783021369661
+real, 7144, 0.0752516261253
+tell, 8767, 0.0717294229272
+someon, 8124, 0.0717294229272
+actual, 254, 0.0705768914253
+base, 923, 0.0686950202054
+read, 7135, 0.0668194396192
+point, 6710, 0.0619591650425
+need, 5993, 0.059018584044
+time, 8936, 0.0521552775892

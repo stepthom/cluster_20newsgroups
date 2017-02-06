@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105056
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Bosox win again! (5-2 against Seattle)
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 17
+
+In article <jxu.735398917@black.clarku.edu> jxu@black.clarku.edu (Dark Wing Duck!!) writes:
+>Last night, Boston Red Sox win its 11 games of 14 games by beating Seattle
+>5-2.  Roger Clemson pitch not so dominate.  He walked at least 6 man in
+>first 6 inns.
+
+Be fair.  He did walk 6 batters in 6.1 IP.  He also allowed only three
+hits, none for extra bases.  Only one run.  A pretty good outing, all
+told.
+
+>I think that game is must win for Red Sox in Seattle, considering Darwin will
+>faced Seattle ace Randy Johnson tonight.
+
+There is no such thing as a "must win" game this early in the season.
+And we can always *hope* that Darwin pitches well!
+
+Cheers,
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosox win seattl     last night boston red sox
+win game game beat seattl roger clemson pitch
+domin walk least man first inn  fair walk batter
+also allow three hit none extra base one run
+pretti good outing told  think game must win red
+sox seattl consid darwin face seattl ace randi
+johnson tonight  thing must win game earli season
+alway hope darwin pitch well  cheer valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+seattl, 7749, 0.474979353754
+win, 9770, 0.318379234768
+darwin, 2379, 0.31699033287
+game, 3761, 0.265504931097
+sox, 8162, 0.202315792783
+walk, 9617, 0.186106129422
+red, 7194, 0.175275200392
+inn, 4654, 0.161870682301
+clemson, 1810, 0.161870682301
+pitch, 6643, 0.159876612139
+outing, 6326, 0.155571161591
+ace, 229, 0.143316969957
+bosox, 1241, 0.137813810056
+domin, 2808, 0.130620389363
+randi, 7091, 0.12813877348
+tonight, 8985, 0.119260097712
+johnson, 4880, 0.118744838439
+valentin, 9409, 0.117749325703
+beat, 974, 0.107457417101
+boston, 1243, 0.105425728278
+roger, 7458, 0.105150284284
+batter, 949, 0.104081901235
+cheer, 1687, 0.103566641961
+extra, 3325, 0.102089845922
+told, 8973, 0.0985787413333
+face, 3345, 0.094184553016
+fair, 3363, 0.0927402378367
+earli, 2951, 0.0908090371499
+night, 6063, 0.0889037047577
+season, 7747, 0.0843324943867
+allow, 432, 0.0839133905163
+alway, 457, 0.0827021596425
+pretti, 6851, 0.0802872777386
+hope, 4372, 0.0782722930952
+consid, 2059, 0.0767989847539
+hit, 4316, 0.0765751581838
+man, 5471, 0.0756308406726
+base, 923, 0.0685286122352
+run, 7543, 0.0659608829579
+thing, 8869, 0.0598219523464
+good, 3948, 0.0562891119865
+think, 8871, 0.0501518504207

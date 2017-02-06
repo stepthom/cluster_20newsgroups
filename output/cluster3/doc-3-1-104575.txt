@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104575
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sbp002@acad.drake.edu
+Subject: Re: Braves Pitching UpdateDIR
+Lines: 12
+Nntp-Posting-Host: acad.drake.edu
+Organization: Drake University, Des Moines, Iowa, USA
+
+ 
+> Not clear to me at all.  I'd certainly rather have a team who was winning
+> 4-1 games than 2-1 games.  In the 2-1 game, luck is going to play a much
+> bigger role than in the 4-1 game. 
+
+But you still need the pitching staff to hold the opposing team to
+one run.
+
+Sam
+> 
+> Sherri Nichols
+> snichols@adobe.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave pitch updatedir      clear i'd certain
+rather team win game game game luck go play much
+bigger role game  still need pitch staff hold
+oppos team one run  sam  sherri nichol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.484612634849
+pitch, 6643, 0.291814641406
+team, 8732, 0.265416172402
+updatedir, 9334, 0.261589169522
+sam, 7599, 0.245383374624
+bigger, 1083, 0.226125073345
+sherri, 7879, 0.224966487642
+nichol, 6050, 0.216738908738
+role, 7463, 0.214921850019
+luck, 5381, 0.206181190795
+oppos, 6269, 0.195041459791
+staff, 8301, 0.193975572409
+hold, 4341, 0.174732741773
+brave, 1277, 0.171012065757
+clear, 1803, 0.153352714016
+win, 9770, 0.145280352426
+certain, 1619, 0.141428564456
+play, 6681, 0.131809881928
+run, 7543, 0.120395041837
+need, 5993, 0.107462665538

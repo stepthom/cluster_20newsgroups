@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61538
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Vandalizing the sky
+Organization: Express Access Online Communications USA
+Lines: 13
+Distribution: sci
+NNTP-Posting-Host: access.digex.net
+
+In article <C6BIr5.InC.1@cs.cmu.edu> 18084TM@msu.edu (Tom) writes:
+|On the other hand, I lived in OakBrook IL for a while, where zoning
+|laws prohibit billboards, as you mention above.  I think it was a
+|fine law, despite it's contradictory basis.
+
+And I lived out there too.  It was a nice sleepy farm valley until
+the Butler family decided to stick up all sorts of really tacky
+High RIse office buildings and ruin my view of the sky.
+
+I guess i should have sued somebody :-;
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       hand live oakbrook zone law
+prohibit billboard mention think fine law despit
+it contradictori basi  live nice sleepi farm
+valley butler famili decid stick sort realli tacki
+high rise offic build ruin view sky  guess su
+somebodi  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sky, 8011, 0.27975761672
+law, 5153, 0.27778199277
+su, 8481, 0.252241311067
+live, 5310, 0.237210475375
+prohibit, 6908, 0.219517712467
+contradictori, 2099, 0.216703039861
+ruin, 7536, 0.201837937115
+valley, 9413, 0.200178684778
+butler, 1429, 0.195657619555
+farm, 3390, 0.189294370337
+zone, 9991, 0.184974852984
+rise, 7414, 0.17941578442
+despit, 2570, 0.17323546686
+famili, 3378, 0.172539777069
+billboard, 1090, 0.166872217643
+vandal, 9419, 0.165737072102
+stick, 8393, 0.159653896743
+somebodi, 8121, 0.154535614646
+basi, 936, 0.154143508894
+pat, 6458, 0.143594993266
+fine, 3485, 0.143594993266
+offic, 6206, 0.143314919408
+decid, 2442, 0.140130547595
+nice, 6047, 0.130951121514
+build, 1378, 0.130572774177
+mention, 5632, 0.129463579964
+view, 9510, 0.126347429608
+guess, 4079, 0.125372029224
+sort, 8144, 0.124425181282
+hand, 4145, 0.117331516908
+high, 4292, 0.109396785264
+realli, 7150, 0.0959888001542
+think, 8871, 0.0740873561436

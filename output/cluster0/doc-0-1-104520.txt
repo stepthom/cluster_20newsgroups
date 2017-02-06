@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104520
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kbos@carina.unm.edu (K. Mitchell Bose)
+Subject: Re: TIGERS
+Organization: University of New Mexico, Albuquerque
+Lines: 9
+NNTP-Posting-Host: carina.unm.edu
+
+*thud*
+
+(see .sig)
+
+-- 
+            Kurt Bose (as in Daisy, not Rose) * kbos@carina.unm.edu
+Help cleanse R.S.B of all mindless woofing! Whenever someone at your site posts
+an article with a subject of the form "MY TEAM R00LZ!!!!!!", simply look him up
+in the directory, hunt him down, and beat him senseless!  Easy, fun, rewarding!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiger     thud  see sig    help cleans mindless
+woof whenev someon site post articl form team
+r00lz simpli look directori hunt beat senseless
+easi fun reward
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+thud, 8904, 0.326721325102
+mindless, 5734, 0.309732372728
+cleans, 1801, 0.297678519191
+woof, 9826, 0.266095546958
+hunt, 4443, 0.263700614444
+whenev, 9722, 0.248292978495
+reward, 7368, 0.240923175038
+sig, 7940, 0.226249724041
+tiger, 8928, 0.223486090991
+fun, 3721, 0.216145055068
+beat, 974, 0.205615002624
+directori, 2669, 0.19866023996
+easi, 2959, 0.184915670689
+site, 7994, 0.172684650241
+simpli, 7967, 0.171637097877
+form, 3610, 0.167926718316
+team, 8732, 0.13912130631
+someon, 8124, 0.136918590767
+articl, 665, 0.1350413374
+help, 4249, 0.123095612728
+post, 6766, 0.12237110052
+look, 5341, 0.104565462579

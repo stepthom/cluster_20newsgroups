@@ -1,0 +1,31 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39622
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kkt@philabs.philips.com (Kim-Kiat Tan)
+Subject: Autodesk BBS ?
+Organization: Philips Laboratories, Briarcliff, New York
+Lines: 7
+
+	Does Autodesk has a BBS ?
+
+-- 
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ autodesk bbs    autodesk bbs
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+autodesk, 801, 0.78321252095
+bbs, 961, 0.62175408887

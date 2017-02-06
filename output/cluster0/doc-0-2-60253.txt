@@ -1,0 +1,137 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60253
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: Re: DC-X Rollout Report
+Article-I.D.: topaz.STEINLY.93Apr6170313
+Distribution: sci
+Organization: Lick Observatory/UCO
+Lines: 29
+NNTP-Posting-Host: topaz.ucsc.edu
+In-reply-to: buenneke@monty.rand.org's message of Tue, 6 Apr 1993 22:34:39 GMT
+
+In article <C532v3.Ftn.1@cs.cmu.edu> buenneke@monty.rand.org (Richard Buenneke) writes:
+
+   McDonnell Douglas rolls out DC-X
+
+ ...
+
+
+   SSTO research remains cloudy.  The SDI Organization -- which paid $60
+   million for the DC-X -- can't itself afford to fund full development of a
+   follow-on vehicle.  To get the necessary hundreds of millions required for
+
+This is a little peculiar way of putting it, SDIO's budget this year
+was, what, $3-4 billion? They _could_ fund all of the DC development
+out of one years budget - of course they do have other irons in the
+fire ;-) and launcher development is not their primary purpose, but
+the DC development could as easily be paid for by diverting that money
+as by diverting the comparable STS ops budget...
+
+- oh, and before the flames start. I applaud the SDIO for funding DC-X
+devlopment and I hope it works, and, no, launcher development is not
+NASAs primary goal either, IMHO they are supposed to provide the
+enabling technology research for others to do launcher development,
+and secondarily operate such launchers as they require - but that's
+just me.
+
+|  Steinn Sigurdsson	|I saw two shooting stars last night		|
+|  Lick Observatory	|I wished on them but they were only satellites	|
+| steinly@lick.ucsc.edu |Is it wrong to wish on space hardware?		|
+| "standard disclaimer"	|I wish, I wish, I wish you'd care - B.B. 1983	|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rollout report articl topaz stein 93apr6170313
+mcdonnel dougla roll     ssto research remain
+cloudi sdi organ paid million can't afford fund
+full develop follow vehicl get necessari hundr
+million requir  littl peculiar way put sdio budget
+year billion could fund develop one year budget
+cours iron fire launcher develop primari purpos
+develop could easili paid divert money divert
+compar sts op budget  flame start applaud sdio
+fund devlop hope work launcher develop nasa
+primari goal either imho suppos provid enabl
+technolog research other launcher develop
+secondarili oper launcher requir that   steinn
+sigurdsson saw two shoot star last night lick
+observatori wish satellit  standard disclaim wish
+wish wish you'd care
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+launcher, 5148, 0.360339748653
+develop, 2588, 0.352042768492
+wish, 9801, 0.291769378306
+budget, 1367, 0.242147732275
+divert, 2763, 0.223849286613
+fund, 3723, 0.214549155852
+sdio, 7735, 0.194978765478
+paid, 6387, 0.173936773734
+primari, 6863, 0.168057816776
+million, 5724, 0.145554759063
+topaz, 8990, 0.122844496378
+research, 7307, 0.121193064425
+stein, 8369, 0.119329088882
+rollout, 7466, 0.119329088882
+cloudi, 1837, 0.119329088882
+requir, 7302, 0.117213797213
+peculiar, 6501, 0.116456791818
+sdi, 7734, 0.110069087258
+sigurdsson, 7952, 0.105536938746
+steinn, 8371, 0.104275944499
+mcdonnel, 5574, 0.103108446181
+lick, 5255, 0.103108446181
+op, 6256, 0.0959878644629
+sts, 8462, 0.0933560914272
+enabl, 3083, 0.0933560914272
+ssto, 8295, 0.090585106724
+dougla, 2837, 0.090585106724
+afford, 315, 0.0877977371852
+shoot, 7900, 0.086968386867
+roll, 7464, 0.0865695296675
+iron, 4767, 0.0861805218074
+goal, 3924, 0.0843677175292
+imho, 4524, 0.083697232603
+observatori, 6180, 0.0830541221717
+year, 9943, 0.0791856613434
+necessari, 5990, 0.0775298675487
+disclaim, 2691, 0.0773095280427
+hundr, 4440, 0.0766664176114
+vehicl, 9449, 0.0754539719937
+flame, 3518, 0.0754539719937
+billion, 1092, 0.0750697086053
+easili, 2962, 0.0745103356007
+remain, 7264, 0.0737941205469
+saw, 7650, 0.0693938055904
+star, 8324, 0.0681226310404
+purpos, 6993, 0.0677604537594
+satellit, 7632, 0.0674064159866
+compar, 1960, 0.0662806501908
+organ, 6287, 0.065958031042
+oper, 6261, 0.065958031042
+standard, 8313, 0.0645341189221
+suppos, 8577, 0.0640552365232
+night, 6063, 0.0639611824058
+money, 5835, 0.0634991546334
+report, 7291, 0.0627001881585
+technolog, 8743, 0.0626138645569
+care, 1516, 0.062022491505
+nasa, 5956, 0.059288997258
+provid, 6949, 0.0582766135977
+hope, 4372, 0.0563124835982
+cours, 2190, 0.0539087420481
+littl, 5308, 0.0529478334048
+follow, 3578, 0.0517803350869
+articl, 665, 0.0507744178559
+start, 8334, 0.0498671774459
+work, 9833, 0.0446322354266
+way, 9666, 0.0412105857094

@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60948
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: U of Toronto Zoology
+Lines: 15
+
+In article <1993Apr20.101044.2291@iti.org> aws@iti.org (Allen W. Sherzer) writes:
+>This prize isn't big enough to warrent developing a SSTO, but it is
+>enough to do it if the vehicle exists.
+
+Actually, there are people who will tell you that it *would* be enough
+to do SSTO development, if done privately as a cut-rate operation.  Of
+course, they may be over-optimistic.
+
+You can also assume that a working SSTO would have other applications
+that would help pay for its development costs.
+
+I'd be inclined to make the prize somewhat larger, but $1G might be enough.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid     prize
+isn't big enough warrent develop ssto enough
+vehicl exist  actual peopl tell enough ssto
+develop done privat cut rate oper cours optimist
+also assum work ssto applic help pay develop cost
+i'd inclin make prize somewhat larger might enough
+work one man work henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ssto, 8295, 0.48760373294
+prize, 6881, 0.316615516923
+develop, 2588, 0.315830740614
+work, 9833, 0.240247490902
+warrent, 9648, 0.200823571181
+optimist, 6275, 0.179516675105
+inclin, 4578, 0.169769056023
+resid, 7311, 0.161637135989
+somewhat, 8129, 0.147374832131
+larger, 5125, 0.144826527659
+zoolog, 9993, 0.142043918394
+privat, 6879, 0.137560624001
+spencer, 8221, 0.136451970617
+vehicl, 9449, 0.135385163338
+billion, 1092, 0.134695689209
+henri, 4258, 0.128593164185
+pay, 6474, 0.12804955055
+cut, 2313, 0.124275013619
+applic, 585, 0.123807779215
+rate, 7108, 0.122672404193
+oper, 6261, 0.118346835429
+toronto, 9003, 0.117967406406
+moon, 5851, 0.114763940167
+assum, 710, 0.109694503347
+cost, 2169, 0.107399498169
+isn, 4783, 0.103527879159
+exist, 3283, 0.101352418495
+man, 5471, 0.0976302764594
+cours, 2190, 0.0967270993779
+big, 1082, 0.0962861070038
+tell, 8767, 0.0923697162751
+actual, 254, 0.0908855413928
+long, 5336, 0.089065747322
+help, 4249, 0.0830442875487
+peopl, 6530, 0.0766928894082
+year, 9943, 0.0710404198195
+make, 5459, 0.0708974762135

@@ -1,0 +1,38 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102712
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: G.R.Price@cm.cf.ac.uk (and thats a fact)
+Subject: Sax
+Organization: University of Wales College of Cardiff, Cardiff, WALES, UK.
+Lines: 5
+
+Any more news on Steve's status since he lost the starting job
+would be appreciated
+
+Thanks 
+gwyn
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sax    news steve status sinc lost start job
+appreci  thank gwyn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sax, 7652, 0.528192192011
+status, 8352, 0.389151707615
+steve, 8390, 0.318433695238
+lost, 5355, 0.31594813421
+job, 4873, 0.304152744549
+appreci, 587, 0.27622430144
+news, 6031, 0.246787243685
+start, 8334, 0.226173616441
+sinc, 7977, 0.217815677313
+thank, 8832, 0.20009957661

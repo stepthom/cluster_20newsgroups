@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38891
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: Best FTP Viewer please.
+Organization: The University of Birmingham, United Kingdom
+Lines: 5
+NNTP-Posting-Host: ibm3090.bham.ac.uk
+
+==============================================================================
+Could someone please tell me the Best FTP'able viewer available for MSDOS
+I am running a 486 33mhz with SVGA monitor.
+I need to look at gifs mainly and it would be advantageous if it ran
+under windows...........thanks
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best ftp viewer pleas      could someon pleas
+tell best ftp'abl viewer avail msdos run 33mhz
+svga monitor need look gif main advantag ran
+window thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+viewer, 9512, 0.412783546835
+ftp, 3709, 0.337099500161
+33mhz, 93, 0.308229286899
+best, 1052, 0.278809510459
+pleas, 6688, 0.245320352829
+ran, 7089, 0.237147125227
+svga, 8613, 0.235902358823
+msdos, 5903, 0.234693677733
+monitor, 5837, 0.214358122985
+advantag, 286, 0.203474739676
+main, 5450, 0.182971471032
+gif, 3869, 0.176005887373
+window, 9774, 0.173460899605
+abl, 180, 0.152547046181
+avail, 811, 0.144834260113
+tell, 8767, 0.136254144905
+someon, 8124, 0.136254144905
+run, 7543, 0.125600730338
+thank, 8832, 0.116769143392
+need, 5993, 0.112109178831
+look, 5341, 0.104058021708

@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104576
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sbp002@acad.drake.edu
+Subject: Re: Jewish Baseball Players?
+Lines: 28
+Nntp-Posting-Host: acad.drake.edu
+Organization: Drake University, Des Moines, Iowa, USA
+
+In article <1qkkodINN5f5@jhunix.hcf.jhu.edu>, pablo@jhunix.hcf.jhu.edu (Pablo A Iglesias) writes:
+> In article <15APR93.14691229.0062@lafibm.lafayette.edu> VB30@lafibm.lafayette.edu (VB30) writes:
+>>Just wondering.  A friend and I were talking the other day, and
+>>we were (for some reason) trying to come up with names of Jewish
+>>baseball players, past and present.  We weren't able to come up
+>>with much, except for Sandy Koufax, (somebody) Stankowitz, and
+>>maybe John Lowenstein.  Can anyone come up with any more.  I know
+>>it sounds pretty lame to be racking our brains over this, but
+>>humor us.  Thanks for your help.
+>>
+>>Thanks.
+>>Bobby
+> 
+> 
+> 
+> Hank Greenberg would have to be the most famous, because his Jewish
+> faith actually affected his play. (missing late season or was it world
+> series games because of Yom Kippur)
+> 
+I thought that was Sandy Koufax.
+
+Sam
+> 
+> 
+> -- 
+> Pablo Iglesias                        
+> pi@ruth.ece.jhu.edu
+> 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player       wonder friend talk
+day reason tri come name jewish basebal player
+past present weren't abl come much except sandi
+koufax somebodi stankowitz mayb john lowenstein
+anyon come know sound pretti lame rack brain humor
+thank help  thank bobbi    hank greenberg famous
+jewish faith actual affect play miss late season
+world seri game yom kippur  thought sandi koufax
+sam    pablo iglesia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.349372280506
+koufax, 5067, 0.301425501988
+sandi, 7608, 0.298712590241
+come, 1923, 0.206451494225
+pablo, 6369, 0.175428031395
+iglesia, 4494, 0.175428031395
+yom, 9959, 0.168600899384
+kippur, 5028, 0.168600899384
+player, 6683, 0.163776630941
+basebal, 924, 0.159942127778
+stankowitz, 8321, 0.155320367764
+lowenstein, 5370, 0.153683062257
+greenberg, 4027, 0.150712750994
+rack, 7053, 0.149356295121
+hank, 4154, 0.148073197936
+sam, 7599, 0.145698065632
+lame, 5100, 0.145698065632
+humor, 4437, 0.14156039525
+bobbi, 1190, 0.139733992989
+famous, 3380, 0.133575398625
+thank, 8832, 0.132917810367
+weren, 9705, 0.131007326095
+affect, 310, 0.126079728967
+brain, 1266, 0.120784193971
+somebodi, 8121, 0.113371068803
+late, 5139, 0.108900036681
+faith, 3367, 0.108191580577
+friend, 3692, 0.10618490548
+past, 6456, 0.100339907433
+miss, 5770, 0.100339907433
+seri, 7805, 0.0967773696747
+present, 6837, 0.0949776170708
+sound, 8150, 0.0931808606814
+season, 7747, 0.0913956947768
+john, 4878, 0.0897354713375
+pretti, 6851, 0.0870116742546
+abl, 180, 0.0868218211055
+wonder, 9821, 0.0861690466716
+mayb, 5564, 0.0830692315838
+thought, 8887, 0.0828283004072
+talk, 8684, 0.0802561305845
+world, 9841, 0.0794802912453
+play, 6681, 0.0782630235543
+reason, 7156, 0.0765467445401
+actual, 254, 0.0763027165074
+game, 3761, 0.0719355208828
+day, 2402, 0.0703723869628
+help, 4249, 0.0697196125289
+tri, 9087, 0.0687287791011
+anyon, 554, 0.0637708752772
+know, 5052, 0.0511172797046

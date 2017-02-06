@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104415
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mike@cunixf.cc.columbia.edu (Michael Chen)
+Subject: Re: Mel Hall
+Nntp-Posting-Host: cunixf.cc.columbia.edu
+Reply-To: mike@cunixf.cc.columbia.edu (Michael Chen)
+Organization: Columbia University
+Lines: 17
+
+In article <1993Apr17.212119.13901@coe.montana.edu> warped@cs.montana.edu (Doug Dolven) writes:
+>
+>Has anyone heard anything about Mel Hall this season?  I'd heard he wasn't
+>with the Yankees any more.  What happened to him?
+>
+>				Doug Dolven
+>-- 
+>Doug Dolven
+>warped@cs.montana.edu
+>gdd7548@trex.oscs.montana.edu
+
+Mel Hall signed with a Japanese team.
+
+
+-Mike
+/mike@columbia.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mel hall        anyon heard anyth mel hall season
+i'd heard wasn't yanke happen  doug dolven  doug
+dolven    mel hall sign japanes team   mike
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mel, 5620, 0.570253825982
+dolven, 2804, 0.444663452588
+hall, 4128, 0.42736396044
+doug, 2833, 0.313122180609
+heard, 4224, 0.223048032381
+japanes, 4826, 0.168776476407
+yanke, 9933, 0.136846687177
+sign, 7946, 0.133531593434
+wasn, 9652, 0.127383455458
+mike, 5710, 0.126698149822
+season, 7747, 0.113043783875
+happen, 4159, 0.103452430645
+anyth, 555, 0.100626950259
+team, 8732, 0.0974601296387
+anyon, 554, 0.078875717942

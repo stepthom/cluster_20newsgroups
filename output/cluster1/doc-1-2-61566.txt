@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61566
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: perky@acs.bu.edu (Melissa Sherrin)
+Subject: Re: moon image in weather sat image
+Organization: Boston University, Boston, MA, USA
+Lines: 14
+Originator: perky@acs.bu.edu
+
+
+I'm afraid I was not able to find the GIFs... is the list 
+updated weekly, perhaps, or am I just missing something?
+
+   _______
+  (       )
+ (_  (     )
+   (      )
+  (    )  )
+ (  (     )
+(__________)
+ / / / / /
+ Melissa Sherrin
+ perky@acs.bu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moon imag weather sat imag      i'm afraid abl
+find gif list updat week perhap miss someth
+melissa sherrin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.403061120629
+sat, 7626, 0.343786057375
+afraid, 318, 0.343786057375
+weather, 9679, 0.336704803634
+updat, 9333, 0.260440420406
+miss, 5770, 0.254200035876
+gif, 3869, 0.253778131207
+moon, 5851, 0.244091447658
+perhap, 6540, 0.232713997497
+week, 9691, 0.221408077588
+list, 5298, 0.220193467215
+abl, 180, 0.219953462232
+someth, 8126, 0.176977473802

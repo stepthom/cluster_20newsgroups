@@ -1,0 +1,135 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38279
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jxl9011@ultb.isc.rit.edu (J.X. Lee)
+Subject: JOB
+Nntp-Posting-Host: ultb-gw.isc.rit.edu
+Organization: Rochester Institute of Technology
+Distribution: SERI
+Lines: 45
+
+		
+	              JOB OPPORTUNITY
+		      ---------------
+
+
+SERI(Systems Engineering Research Institute), of KIST(Korea
+Institute of Science and Technology) is looking for the resumes
+for the following position and need them by the end of June (6/30). 
+If you are interested, send resumes to:
+
+	CAD/CAE lab (6th floor)
+	Systems Engineering Research Institute
+	Korea Institute of Science and Technology 
+	Yousung-Gu, Eoeun-Dong,
+	Daejon. Korea
+	305-600
+
+
+	COMPANY: Systems Engineering Research Institute
+
+	TITLE  : Senior Research Scientist
+
+	JOB DESCRIPTION : In depth knowledge of C.
+	Working knowledge of Computer Aided Design.
+	Working knowledge of Computer Graphics.
+	Working knowledge of Virtual Reality.
+	Skills not required but desirable : knowledge of
+	data modeling, virtual reality experience,
+	understanding of client/server architecture.
+
+	REQUIREMENT : Ph.D
+
+	JOB LOCATION : Daejon, Korea
+
+	Contact Info : Chul-Ho, Lim
+		       CAD/CAE lab (6th floor)
+		       Systems Engineering Research Institute
+		       Korea Institute of Science and Technology 
+	       	       Yousung-Gu, Eoeun-Dong,
+		       Daejon. Korea
+		       305-600
+
+		       Phone) 82-42-869-1681
+		       Fax)   82-42-861-1999 
+		       E-mail) jxl9011@129.21.200.201
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ job       job opportun    seri system engin
+research institut kist korea institut scienc
+technolog look resum follow posit need end
+interest send resum  cad cae lab 6th floor system
+engin research institut korea institut scienc
+technolog yousung eoeun dong daejon korea
+compani system engin research institut  titl
+senior research scientist  job descript depth
+knowledg work knowledg comput aid design work
+knowledg comput graphic work knowledg virtual
+realiti skill requir desir knowledg data model
+virtual realiti experi understand client server
+architectur  requir  job locat daejon korea
+contact info chul lim cad cae lab 6th floor system
+engin research institut korea institut scienc
+technolog yousung eoeun dong daejon korea   phone
+fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+korea, 5063, 0.554972155415
+institut, 4683, 0.393120138006
+knowledg, 5053, 0.272104349979
+research, 7307, 0.234850448785
+job, 4873, 0.207920923162
+engin, 3109, 0.190534349918
+dong, 2814, 0.180537920729
+resum, 7333, 0.170635338994
+6th, 134, 0.147720193894
+floor, 3549, 0.146680770151
+technolog, 8743, 0.145601343719
+cad, 1445, 0.144725905382
+scienc, 7692, 0.136909845218
+virtual, 9536, 0.123898719503
+lab, 5085, 0.115227798989
+realiti, 7148, 0.114399829135
+work, 9833, 0.103787132407
+requir, 7302, 0.0908557367037
+comput, 1993, 0.0846719911515
+senior, 7787, 0.0768533818526
+architectur, 617, 0.073860096947
+client, 1816, 0.0733403850754
+aid, 351, 0.0698273882982
+skill, 8006, 0.0694516237022
+depth, 2545, 0.0662193608017
+opportun, 6268, 0.0638986650462
+server, 7812, 0.0632137349291
+scientist, 7694, 0.0617507962577
+desir, 2565, 0.0599248065635
+titl, 8953, 0.0587918130202
+descript, 2557, 0.0574743392805
+contact, 2078, 0.0553175211433
+locat, 5323, 0.0541009027173
+phone, 6601, 0.0535855779074
+fax, 3413, 0.0512920833407
+model, 5807, 0.0512087288477
+experi, 3295, 0.0511259394743
+compani, 1958, 0.0508002832203
+seri, 7805, 0.0497981564171
+info, 4636, 0.0480753912243
+posit, 6761, 0.0479475221417
+design, 2564, 0.0474490290171
+send, 7785, 0.0469115218472
+data, 2385, 0.0452226301457
+understand, 9246, 0.0437843360555
+end, 3091, 0.0420973289726
+graphic, 3997, 0.0402036859983
+follow, 3578, 0.0401364054655
+need, 5993, 0.0328326328826
+look, 5341, 0.0304747466785

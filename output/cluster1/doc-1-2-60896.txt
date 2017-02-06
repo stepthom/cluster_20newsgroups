@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60896
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: pvtmakela@hylkn1.Helsinki.FI (M{kel{ Veikko)
+Subject: Re: Astronomy Program
+Organization: University of Helsinki
+Lines: 20
+
+In article <28641@galaxy.ucr.edu> datadec@ucrengr.ucr.edu 
+(kevin marcus) writes:
+
+>Are there any public domain or shareware astronomy programs which will
+>map out the sky at any given time, and allow you to locate planets, nebulae,
+>and so forth?  If so, is there any ftp site where I can get one?
+
+
+   There are several star map programs available.  Your
+   job is to choose that you like.  Try anonymous-FTP
+   from:
+
+	ftp.funet.fi:pub/astro/pc/stars
+			       pc/solar
+                               mac
+			       amiga
+			       atari
+   
+					regards,
+					-Veikko-	
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ astronomi program    ucrengr ucr edu   public
+domain sharewar astronomi program map sky given
+time allow locat planet nebula forth ftp site get
+one   sever star map program avail job choos like
+tri anonym ftp   ftp funet pub astro star solar
+mac amiga atari  regard veikko
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ftp, 3709, 0.356456436064
+astronomi, 729, 0.283034517156
+program, 6905, 0.273718168236
+map, 5498, 0.263573830788
+star, 8324, 0.254207044427
+veikko, 9450, 0.229203833377
+nebula, 5987, 0.217285624464
+atari, 735, 0.202270456992
+funet, 3728, 0.1994689172
+forth, 3616, 0.172005906307
+sharewar, 7856, 0.160087697394
+domain, 2805, 0.154380691055
+amiga, 472, 0.152700581217
+astro, 724, 0.148639801232
+choos, 1720, 0.146802082866
+anonym, 532, 0.145924587259
+pub, 6971, 0.14227099013
+planet, 6664, 0.134588455186
+mac, 5410, 0.130995999878
+solar, 8107, 0.130480303845
+locat, 5323, 0.130225809443
+sky, 8011, 0.127103522214
+job, 4873, 0.125121158607
+site, 7994, 0.121142945868
+regard, 7224, 0.120408059593
+public, 6973, 0.112920313671
+allow, 432, 0.112640369461
+sever, 7823, 0.10848985068
+given, 3887, 0.105501960595
+edu, 3001, 0.104219113232
+avail, 811, 0.102100624406
+tri, 9087, 0.0851276478844
+time, 8936, 0.0698405643203
+like, 5272, 0.0618922533232

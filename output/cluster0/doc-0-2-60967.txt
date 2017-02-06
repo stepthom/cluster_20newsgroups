@@ -1,0 +1,132 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60967
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dietz@cs.rochester.edu (Paul Dietz)
+Subject: Re: Commercial mining activities on the moon
+Organization: University of Rochester
+Lines: 31
+
+In article <STEINLY.93Apr20145301@topaz.ucsc.edu> steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+> Why Paul, it's obvious.
+> Once chlorine chemistry has been banned on Earth,
+> as is being advocated by some groups, Ti prices will
+> sharply increase (we are of course not allowed to
+> assume any developments in Ti processing).
+> Lunar Ti will then be eminently competitive for
+> the trendy jewelry market and certain applications
+> of National Importance 
+>
+> :-) :-) :-) 
+
+Well, there already is a sulfate process for TiO2 purification.  The
+chlorine process is cleaner, however, and for that reason is achieving
+dominance in the marketplace.
+
+Most Ti is used in pigment, btw (as the oxide), where it replaced
+white lead pigment some decades ago.  Very little is reduced to the
+metal.
+
+> Seriously, I'd say there is a flaw in Gary's analysis
+> in that he assumes an export oriented economy, maybe
+> the lunatics will just want some native Ti for local
+> use...
+
+Which merely evades the issue of why those lunatics are
+there at all (and, why their children would want to stay.)
+
+	Paul F. Dietz
+	dietz@cs.rochester.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon      paul it obvious
+chlorin chemistri ban earth advoc group price
+sharpli increas cours allow assum develop process
+lunar emin competit trendi jewelri market certain
+applic nation import    well alreadi sulfat
+process tio2 purif chlorin process cleaner howev
+reason achiev domin marketplac  use pigment btw
+oxid replac white lead pigment decad ago littl
+reduc metal  serious i'd say flaw gari analysi
+assum export orient economi mayb lunat want nativ
+local use  mere evad issu lunat children want stay
+paul dietz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pigment, 6627, 0.299907005526
+lunat, 5393, 0.29132464843
+chlorin, 1714, 0.278383540023
+process, 6890, 0.233206794069
+paul, 6469, 0.181461525784
+sharpli, 7860, 0.149953502763
+cleaner, 1800, 0.149953502763
+assum, 710, 0.149254284141
+purif, 6992, 0.145662324215
+marketplac, 5515, 0.145662324215
+evad, 3225, 0.145662324215
+trendi, 9085, 0.142156176048
+tio2, 8943, 0.142156176048
+emin, 3069, 0.142156176048
+oxid, 6362, 0.139191770012
+jewelri, 4863, 0.134358849333
+dietz, 2631, 0.130499836699
+ban, 889, 0.12212842037
+economi, 2985, 0.121029231271
+metal, 5658, 0.119003088091
+nativ, 5964, 0.118064825234
+domin, 2808, 0.114711909542
+chemistri, 1692, 0.114711909542
+flaw, 3531, 0.113957672721
+advoc, 296, 0.113957672721
+competit, 1970, 0.113231904555
+decad, 2432, 0.109964648577
+export, 3310, 0.108798802308
+want, 9634, 0.104770138103
+reduc, 7204, 0.0999022864932
+gari, 3776, 0.0999022864932
+achiev, 232, 0.097558275351
+orient, 6290, 0.0954691842463
+mere, 5641, 0.0933302514535
+replac, 7288, 0.0928307279433
+lunar, 5392, 0.0923438519665
+stay, 8355, 0.0918689988559
+analysi, 490, 0.091178005698
+btw, 1355, 0.0907307628921
+price, 6857, 0.0894482494879
+market, 5514, 0.0876718575311
+increas, 4590, 0.0867515587804
+children, 1707, 0.0867515587804
+use, 9363, 0.0849430520918
+applic, 585, 0.084228657289
+white, 9737, 0.0824244687859
+activ, 252, 0.0821395661842
+local, 5322, 0.0818588228935
+obvious, 6185, 0.0813093405438
+commerci, 1940, 0.0813093405438
+issu, 4793, 0.0784224772492
+moon, 5851, 0.078075971048
+lead, 5172, 0.078075971048
+alreadi, 443, 0.0770724090664
+nation, 5962, 0.0757094548431
+ago, 336, 0.0749163290822
+allow, 432, 0.0736934356824
+import, 4551, 0.0728901859024
+develop, 2588, 0.0716217763301
+certain, 1619, 0.0680475552642
+mayb, 5564, 0.0673142382964
+earth, 2956, 0.0669899376283
+group, 4064, 0.0669257286409
+howev, 4406, 0.0662951615307
+cours, 2190, 0.0658051840986
+littl, 5308, 0.0646322246161
+reason, 7156, 0.0620288126487
+say, 7653, 0.0488238260914

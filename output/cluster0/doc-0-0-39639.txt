@@ -1,0 +1,125 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39639
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: broehl@sunee.uwaterloo.ca (Bernie Roehl)
+Subject: Re: Optimizing projections
+Organization: University of Waterloo
+Lines: 31
+
+In article <1sua3tINNqs2@no-names.nerdc.ufl.edu> LIONESS@ufcc.ufl.edu writes:
+>My three-d library does a lot of projections ( duh ), but currently it
+>is projecting an object's vertices on a _per triangle basis_.  This is
+>grossly inefficient for 99% of the objects displayed ( which can
+>be optimized by doing projections ONE time, once for each vertex ), but
+>objects whose Z-extents intersect the hither plane can't benefit from
+>this because new vertices must be created during Z-clipping.
+
+>Anyone have any better ideas?
+
+Yes.  Here's what you should do.
+
+Keep the vertices in an array, and have the polygons (triangles are okay,
+but n-sided polygons are slightly more efficient) store the indices into
+the array of the vertices that comprise them.  You set a flag for each
+vertex when you transform it, so you don't have to transform any vertex
+more than once; you also do backface elimination before processing the
+polygon, so that vertices that belong only to bacfacing polys don't have
+to be transformed at all.
+
+Whenever you transform a vertex, check if it's on the far side of the hither
+plane; if it is, you can project it right away and store the result.
+
+Then do your Z clip; any vertices that get produced will have to have their
+projection done at that stage.
+
+-- 
+	Bernie Roehl
+        University of Waterloo Dept of Electrical and Computer Engineering
+	Mail: broehl@sunee.UWaterloo.ca
+	Voice:  (519) 885-1211 x 2607 [work]
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ optim project     three librari lot project duh
+current project object vertic per triangl basi
+grossli ineffici object display optim project one
+time vertex object whose extent intersect hither
+plane can't benefit new vertic must creat clip
+anyon better idea  yes here  keep vertic array
+polygon triangl okay side polygon slight effici
+store indic array vertic compris set flag vertex
+transform don't transform vertex also backfac
+elimin process polygon vertic belong bacfac poli
+don't transform  whenev transform vertex check it
+far side hither plane project right away store
+result  clip vertic get produc project done stage
+berni roehl univers waterloo dept electr comput
+engin  voic work
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vertic, 9482, 0.48471178292
+vertex, 9481, 0.390419324836
+project, 6909, 0.311114068877
+transform, 9053, 0.305685655949
+polygon, 6728, 0.214726851337
+triangl, 9090, 0.174332449854
+optim, 6274, 0.16349825903
+clip, 1821, 0.156476519719
+object, 6173, 0.154342164314
+array, 653, 0.144635125741
+store, 8417, 0.141742193327
+plane, 6663, 0.135599307155
+berni, 1045, 0.108933549216
+waterloo, 9658, 0.105816227507
+duh, 2911, 0.101115700865
+grossli, 4059, 0.0992502635412
+compris, 1988, 0.097604831209
+poli, 6719, 0.0935859045377
+flag, 3515, 0.0864496561569
+whenev, 9722, 0.0827844199776
+elimin, 3044, 0.0827844199776
+extent, 3321, 0.0790367645138
+electr, 3030, 0.0778554954166
+intersect, 4722, 0.0774829392523
+effici, 3006, 0.0764214139873
+belong, 1015, 0.0736490487725
+dept, 2544, 0.0723175628707
+stage, 8302, 0.0708710966637
+voic, 9567, 0.0704204115081
+benefit, 1028, 0.0697705255767
+okay, 6215, 0.0695604460055
+slight, 8034, 0.0691495331991
+basi, 936, 0.0665687925637
+don, 2811, 0.0633745376175
+librari, 5250, 0.0620132848182
+produc, 6895, 0.0618923314374
+indic, 4600, 0.0608484413881
+display, 2734, 0.0601934763699
+check, 1682, 0.0569699181923
+process, 6890, 0.0564709355703
+away, 833, 0.0553716023574
+engin, 3109, 0.0544936153696
+result, 7332, 0.0542128013272
+creat, 2217, 0.0540058341606
+yes, 9951, 0.0508885124511
+current, 2299, 0.0506172412436
+set, 7815, 0.0500383625318
+comput, 1993, 0.0484330822278
+idea, 4482, 0.0477602381512
+far, 3386, 0.0466656401399
+univers, 9282, 0.0464247716174
+lot, 5356, 0.0435888700647
+right, 7399, 0.0424956846655
+better, 1060, 0.0417926418233
+new, 6023, 0.0406942351892
+work, 9833, 0.0395780678648
+anyon, 554, 0.037539990597
+time, 8936, 0.0331930772647

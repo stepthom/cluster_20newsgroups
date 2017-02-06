@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84442
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: markk@cypress.West.Sun.COM (Mark Kampe)
+Subject: Re: Cybele and Transgender/sexualism
+Organization: SunSoft South
+Lines: 29
+Distribution: world
+Reply-To: markk@cypress.West.Sun.COM
+NNTP-Posting-Host: sagredo
+
+In article 260493115730@raven.aims.unc.edu, fhunt@med.unc.edu (Freb Hunt) writes:
+> > Is there some relation between the name 'Cybele' and the phenemenon of the
+> > 'sibyl'?  Your paragraph above seems to indicate there might be.
+
+The OED gives the etymology of "sibyl" as coming from the ancient Greek 
+
+	sigma iota beta upsilon lambda lambda alpha 
+	( S i b ih l l a )
+
+which is claimed to come from the Doric 
+
+	sigma iota omicron beta upsilon lambda lambda alpha 
+	( s i o b ih l l a )
+
+which (if I read it properly) in turn came from the Attican (Athenian)
+
+	theta epsilon omicron beta omicron upsilon lambda eta 
+	( th eh o b o ih l ae )
+
+I don't know much about Attis, but it wouldn't surprise me to learn that
+this God was tied to the Athenian capital
+
+	Alpha tau tau iota kappa upsilon sigma
+	(a t t i k u s)
+
+The OED does not list any etymology for "Cybele" since that is a propper noun,
+but I suggest that the Greek spelling of that word would be much closer to
+the anticedants of Sibyl than the two words are now. Perhaps "Cybele" is a
+French or Latin spelling?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cybel transgend sexual        relat name cybel
+phenemenon sibyl paragraph seem indic might  o
+give etymolog sibyl come ancient greek  sigma iota
+beta upsilon lambda lambda alpha   claim come
+doric  sigma iota omicron beta upsilon lambda
+lambda alpha   read proper turn came attican
+athenian  theta epsilon omicron beta omicron
+upsilon lambda eta   don't know much atti wouldn't
+surpris learn god tie athenian capit  alpha tau
+tau iota kappa upsilon sigma   o list etymolog
+cybel sinc propper noun suggest greek spell word
+much closer anticed sibyl two word perhap cybel
+french latin spell
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cybel, 2322, 0.423538768264
+sibyl, 7931, 0.339076673094
+iota, 4753, 0.327012092177
+omicron, 6232, 0.303543372356
+sigma, 7945, 0.293003948645
+beta, 1055, 0.253655546153
+alpha, 441, 0.24540606699
+tau, 8713, 0.218008061452
+etymolog, 3215, 0.211769384132
+spell, 8220, 0.159870756086
+greek, 4023, 0.159870756086
+theta, 8861, 0.113025557698
+atti, 768, 0.109004030726
+epsilon, 3153, 0.103336006804
+word, 9829, 0.100141476086
+latin, 5143, 0.0936464559095
+paragraph, 6418, 0.0845518487176
+french, 3684, 0.0845518487176
+sexual, 7827, 0.0828379826399
+capit, 1502, 0.0818020223301
+come, 1923, 0.0810735997824
+ancient, 500, 0.0758050640077
+tie, 8923, 0.0723643533319
+closer, 1831, 0.0711480154612
+proper, 6924, 0.0706896443302
+surpris, 8593, 0.0629313062769
+indic, 4600, 0.0608878111694
+learn, 5182, 0.0594037906767
+wouldn, 9854, 0.0584326317208
+came, 1472, 0.0563449239225
+turn, 9158, 0.0556359742442
+claim, 1782, 0.0544580932534
+perhap, 6540, 0.0541094700229
+relat, 7247, 0.0534372699966
+suggest, 8525, 0.0533066235594
+list, 5298, 0.0511982602751
+god, 3926, 0.0492688513011
+sinc, 7977, 0.042613659674
+read, 7135, 0.0425532748414
+don, 2811, 0.031707770909
+know, 5052, 0.0301106700072

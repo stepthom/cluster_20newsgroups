@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84414
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: russotto@eng.umd.edu (Matthew T. Russotto)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Project GLUE, University of Maryland, College Park
+Lines: 16
+NNTP-Posting-Host: tea.eng.umd.edu
+Keywords: Success
+
+In article <C5w7CA.M3s@noose.ecn.purdue.edu> tbrent@ecn.purdue.edu (Timothy J Brent) writes:
+>
+>If you check the news today, (AP) the "authorities also found a state-of-the-art
+>automatic machine gun that investigators did not know was in the cult's arsenal."
+>[Carl Stern, Justice Department]
+
+
+Yeah.  In a fire that reportedly burned hotter than 1000 degrees-- hot
+enough to make the bodies still unidentifiable-- the authorities found
+a gun that was recognizably fully-automatic and state of the art.
+Isn't that CONVEEEENIENT?
+-- 
+Matthew T. Russotto	russotto@eng.umd.edu	russotto@wam.umd.edu
+Some news readers expect "Disclaimer:" here.
+Just say NO to police searches and seizures.  Make them use force.
+(not responsible for bodily harm resulting from following above advice)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen        check news today
+author also found state art automat machin gun
+investig know cult arsenal carl stern justic
+depart   yeah fire report burn hotter degre hot
+enough make bodi still unidentifi author found gun
+recogniz fulli automat state art isn't conveeeeni
+wam umd edu news reader expect disclaim say polic
+search seizur make use forc respons bodili harm
+result follow advic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gun, 4094, 0.270676662864
+automat, 803, 0.258916579167
+art, 660, 0.242132056245
+author, 796, 0.202995800698
+conveeeeni, 2110, 0.192915624282
+bodili, 1195, 0.192915624282
+unidentifi, 9271, 0.187395010403
+hotter, 4392, 0.187395010403
+recogniz, 7176, 0.182884340429
+arsenal, 659, 0.182884340429
+stern, 8387, 0.179070623306
+state, 8342, 0.175437687887
+news, 6031, 0.170898104782
+carl, 1520, 0.157118573586
+polic, 6720, 0.153097824376
+harm, 4177, 0.148587154401
+advic, 292, 0.139969980572
+justic, 4937, 0.137878014718
+reader, 7137, 0.132491494339
+fulli, 3718, 0.131438561387
+investig, 4745, 0.128987033619
+cult, 2289, 0.127624844265
+hot, 4389, 0.125106721059
+make, 5459, 0.124103349474
+yeah, 9942, 0.123559955542
+disclaim, 2691, 0.121407277534
+search, 7746, 0.121066028123
+presid, 6839, 0.118493302842
+depart, 2535, 0.116163093236
+burn, 1413, 0.115886663655
+degre, 2491, 0.114810833719
+machin, 5416, 0.112548734082
+bodi, 1194, 0.107172659213
+know, 5052, 0.106579888162
+forc, 3594, 0.102437514166
+messag, 5650, 0.102278412716
+check, 1682, 0.100890748649
+report, 7291, 0.0984646955936
+result, 7332, 0.0960080387299
+expect, 3290, 0.0958852583782
+respons, 7323, 0.0952803336184
+today, 8964, 0.0945734229523
+isn, 4783, 0.0906108175761
+edu, 3001, 0.0877188439433
+happen, 4159, 0.0871961444284
+follow, 3578, 0.0813161025797
+say, 7653, 0.0628119964971
+use, 9363, 0.0546397437232

@@ -1,0 +1,192 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104693
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kkerr@MK (Kevin Kerr)
+Subject: Re: WFAN
+Lines: 41
+Nntp-Posting-Host: kerr.dseg.ti.com
+Organization: ENGINEERING AUTOMATION
+
+In article <C5JC3z.KnD@news.udel.edu> philly@ravel.udel.edu (Robert C Hite) writes:
+>From: philly@ravel.udel.edu (Robert C Hite)
+>Subject: Re: WFAN
+>Date: Thu, 15 Apr 1993 17:19:09 GMT
+
+>In article <1993Apr15.151202.3551@Virginia.EDU> jja2h@Virginia.EDU ("") writes:
+>>Does any one out there listen to WFAN?  For those of you who do
+>>not know what I am talking about, it is an all sports radio
+>>staion in New York.  On a clear night the signal reaches up and
+>>down the East coast.  In particular, I want to know how Len
+>>Berman and Mike Lupica's show is.  I go to school in Virginia
+>>so I can't listen when there are on during the day.  Just
+>>wondering.
+
+>The FAN is an okay Sports Radio station, but doesn't come close to
+>the ULTIMATE in Sports Radio, 610 WIP in Philadelphia.  The signal
+>might not be as powerful, but then again only stations in New York
+>feel "obligated" to pollute everyone else's airwaves with a bunch of
+>hoodlum Mets fans complaining 24 hours a day.  WIP took two of your
+>best sports jockeys too, Jody MacDonald and Steve Fredericks.  610
+>WIP is rockin with sports talk from 5:30 AM till midnight, check it
+>out anytime your within a few hours of Philadelphia.  If I'm not
+>mistaken, WIP has the highest sports talk ratings in the nation?
+
+I'm from Dallas, and you have alot of nerve saying that WFAN has a bunch of 
+Hoodlum Mets fans.  During the football season, the local cowboy station here 
+had the WIP on several times for simultanious broadcasts.  I have never heard  
+a bigger bunch of low intellect, bed wetting ,obnoxious, woofing, cranial 
+deformed, assholes in my entire life!  The IQ of the average eagles fan must 
+be in the 10-15 range at best, and they have been known to be big droolers.
+
+(Please no flames) ... <let's see if it works for me Bob>  ;-)
+
+
+=========================================================================
+|   Kevin P. Kerr                            kkerr@mkcase1.dseg.ti.com  |                                                                       #
+|                                                                       |
+|   S.A.B.R member since '92            GO YANKEES !!!  GO DOLPHINS !!! |
+|                                                                       |
+|  "Strolling through cyberspace, sniffing the electric wind...."       |
+=========================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+kkerr kevin kerr wfan       wfan date thu gmt
+one listen wfan know talk sport radio staion new
+york clear night signal reach east coast
+particular want know len berman mike lupica show
+school virginia can't listen day wonder  fan okay
+sport radio station doesn't come close ultim sport
+radio wip philadelphia signal might power station
+new york feel oblig pollut everyon els airwav
+bunch hoodlum met fan complain hour day wip took
+two best sport jockey jodi macdonald steve
+frederick wip rockin sport talk till midnight
+check anytim within hour philadelphia i'm mistaken
+wip highest sport talk rate nation  i'm dalla alot
+nerv say wfan bunch hoodlum met fan footbal season
+local cowboy station wip sever time simultani
+broadcast never heard bigger bunch low intellect
+bed wet obnoxi woof cranial deform asshol entir
+life averag eagl fan must rang best known big
+drooler  pleas flame let see work bob      member
+sinc yanke dolphin  stroll cyberspac snif electr
+wind
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wip, 9791, 0.394943821646
+sport, 8257, 0.34242247264
+wfan, 9714, 0.308684669178
+fan, 3381, 0.187710973795
+bunch, 1399, 0.185784248464
+hoodlum, 4366, 0.183885094429
+radio, 7061, 0.157957158491
+station, 8346, 0.149313885673
+philadelphia, 6589, 0.1220755403
+signal, 7947, 0.121650626415
+listen, 5300, 0.120419977671
+talk, 8684, 0.119626151462
+york, 9960, 0.111534016597
+hour, 4395, 0.106162397117
+met, 5655, 0.104887379438
+rockin, 7451, 0.0919425472146
+dolphin, 2803, 0.0919425472146
+wet, 9711, 0.0893114523817
+stroll, 8455, 0.0893114523817
+staion, 8304, 0.0893114523817
+nerv, 6008, 0.0893114523817
+kerr, 4992, 0.0893114523817
+airwav, 367, 0.0893114523817
+obnoxi, 6176, 0.0871616913729
+deform, 2486, 0.0871616913729
+macdonald, 5412, 0.0853440943382
+cyberspac, 2323, 0.0853440943382
+anytim, 556, 0.0853440943382
+intellect, 4696, 0.0837696201709
+cowboy, 2197, 0.0837696201709
+berman, 1042, 0.0837696201709
+thu, 8903, 0.0823808355312
+lupica, 5397, 0.0823808355312
+asshol, 702, 0.0823808355312
+eagl, 2947, 0.0811385253381
+bed, 984, 0.0811385253381
+jodi, 4875, 0.0800147190702
+frederick, 3667, 0.0789887643292
+dalla, 2342, 0.0789887643292
+best, 1052, 0.0788423084223
+jockey, 4874, 0.0780449774561
+len, 5210, 0.0771711672946
+midnight, 5701, 0.0763576694964
+woof, 9826, 0.0748818657067
+mistaken, 5777, 0.0748818657067
+alot, 438, 0.0723903114529
+oblig, 6175, 0.0718417920266
+day, 2402, 0.0699292607328
+till, 8933, 0.0694270526459
+ultim, 9198, 0.0689982402509
+new, 6023, 0.0686938352264
+coast, 1859, 0.0685844770492
+footbal, 3589, 0.0670609361849
+bigger, 1083, 0.066708938663
+virginia, 9533, 0.0657119190072
+electr, 3030, 0.0657119190072
+pollut, 6726, 0.0653974726041
+kevin, 4993, 0.0639399353421
+complain, 1973, 0.0639399353421
+highest, 4294, 0.0628911518596
+wind, 9773, 0.0616991233687
+broadcast, 1324, 0.0614745253148
+gmt, 3917, 0.0590680285359
+okay, 6215, 0.0587106969079
+flame, 3518, 0.0564732697606
+school, 7685, 0.0554959379392
+yanke, 9933, 0.0549718053702
+east, 2965, 0.0536401203158
+rang, 7094, 0.0533015982712
+steve, 8390, 0.0525475762174
+member, 5625, 0.0522386229619
+took, 8987, 0.0520370617919
+date, 2391, 0.0518388883654
+bob, 1189, 0.0518388883654
+reach, 7128, 0.0512636015239
+entir, 3129, 0.0512636015239
+rate, 7108, 0.0511703912257
+mike, 5710, 0.0508951014922
+know, 5052, 0.0507954005071
+local, 5322, 0.0501909495286
+averag, 816, 0.0501909495286
+particular, 6442, 0.0493660649199
+low, 5368, 0.0485951341041
+check, 1682, 0.0480839872648
+night, 6063, 0.0478715303219
+known, 5054, 0.0471237209461
+everyon, 3241, 0.0469927080281
+nation, 5962, 0.0464205236839
+feel, 3429, 0.0463586283118
+season, 7747, 0.0454100936869
+clear, 1803, 0.0452404354891
+heard, 4224, 0.0447995975538
+close, 1830, 0.0446919160628
+power, 6783, 0.0437646316994
+sever, 7823, 0.0435194868752
+life, 5260, 0.0434228384545
+wonder, 9821, 0.0428132254131
+els, 3053, 0.0407629029029
+big, 1082, 0.0401638640525
+doesn, 2793, 0.0382475966403
+let, 5225, 0.0372371666432
+sinc, 7977, 0.0359437021776
+pleas, 6688, 0.0346860888787
+come, 1923, 0.034191915777
+work, 9833, 0.0334048454265
+want, 9634, 0.0321194009865
+say, 7653, 0.0299358591356
+time, 8936, 0.0280157591079

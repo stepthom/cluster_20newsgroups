@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84231
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Albert Sabin
+From: rfox@charlie.usd.edu (Rich Fox, Univ of South Dakota)
+Reply-To: rfox@charlie.usd.edu
+Organization: The University of South Dakota Computer Science Dept.
+Nntp-Posting-Host: charlie
+Lines: 17
+
+In article <1r7houINNop9@titan.ucs.umass.edu>, cma@titan.ucs.umass.edu (COLIN MA) writes:
+>I just started reading this newsgroup and haven't been following the
+>thread. I'm just curious:  How did this thread get started with
+>"Albert Sabin" and changed into something else?  What was it about
+>Sabin that initiated a religious discussion?
+>
+>Colin
+
+Its just variation within a thread.  The variation at times has been so great
+that speciation has occurred.  So Albert Sabin is the common ancestor of
+several threads, some of which have themselves speciated.  On a separate topic,
+I subscribed to t.o. just recently.  Albert Sabin existed at that time, so I
+have no clue as to its origins.  Maybe the abiogenesists have an answer.  I
+might also point out that evolution is aimless.  Thus why Albert 
+Sabin evolved into a religious discussion is probably unexplainable.
+
+Rich Fox, Anthro, Usouthdakota
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+albert sabin        start read newsgroup haven't
+follow thread i'm curious thread get start albert
+sabin chang someth els sabin initi religi discuss
+colin  variat within thread variat time great
+speciat occur albert sabin common ancestor sever
+thread speciat separ topic subscrib recent albert
+sabin exist time clue origin mayb abiogenesist
+answer might also point evolut aimless thus albert
+sabin evolv religi discuss probabl unexplain  rich
+fox anthro usouthdakota
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sabin, 7563, 0.584932767643
+albert, 383, 0.464603283027
+thread, 8890, 0.307429299437
+speciat, 8202, 0.256776268736
+variat, 9430, 0.190736867338
+religi, 7260, 0.155846875742
+unexplain, 9261, 0.123819996366
+discuss, 2708, 0.122155450502
+usouthdakota, 9373, 0.112813429467
+anthro, 540, 0.112813429467
+ancestor, 497, 0.11094313857
+fox, 3632, 0.100844196953
+start, 8334, 0.100526338781
+evolv, 3250, 0.0999365716706
+evolut, 3248, 0.0960442428714
+clue, 1844, 0.0913044370411
+subscrib, 8496, 0.0853866816576
+rich, 7382, 0.0850376759717
+initi, 4647, 0.0770648980044
+curious, 2297, 0.0770648980044
+occur, 6192, 0.0760531469748
+topic, 8992, 0.0758583087085
+separ, 7797, 0.0754756608077
+time, 8936, 0.0754582355185
+newsgroup, 6032, 0.0702140012542
+common, 1948, 0.0692913032417
+haven, 4207, 0.0678244962542
+recent, 7168, 0.0631110770975
+sever, 7823, 0.0586081511771
+answer, 535, 0.0586081511771
+chang, 1650, 0.0570531798719
+exist, 3283, 0.0569351189601
+origin, 6293, 0.0564714620939
+mayb, 5564, 0.0555828879465
+els, 3053, 0.0548958305183
+great, 4016, 0.0528143096797
+follow, 3578, 0.0521915192893
+probabl, 6885, 0.0519319093735
+read, 7135, 0.0483371697464
+someth, 8126, 0.0467430444106
+point, 6710, 0.0448212480541

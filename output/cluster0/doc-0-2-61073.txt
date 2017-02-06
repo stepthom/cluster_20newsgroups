@@ -1,0 +1,46 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61073
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: PLANETS STILL: IMAGES ORBIT BY ETHER TWIST
+Organization: Univ. of Southwestern Louisiana
+Lines: 8
+
+The only ether I see here is the stuff you must
+have been breathing before you posted...
+
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet still imag orbit ether twist    ether see
+stuff must breath post   phil fraer seem like
+everi day find sort stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ether, 3207, 0.600665507517
+stuff, 8472, 0.365738958103
+twist, 9174, 0.286604431457
+fraer, 3640, 0.279248289319
+breath, 1291, 0.277573715216
+phil, 6588, 0.234845572037
+planet, 6664, 0.218501775198
+sort, 8144, 0.183552838678
+orbit, 6280, 0.172721136432
+everi, 3235, 0.163445167211
+imag, 4512, 0.1599624941
+day, 2402, 0.141508148338
+post, 6766, 0.139370360123
+like, 5272, 0.100480885998

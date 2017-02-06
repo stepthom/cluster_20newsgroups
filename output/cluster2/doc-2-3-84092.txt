@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84092
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@post.RoyalRoads.ca (Malcolm Lee)
+Subject: Re: A KIND and LOVING God!!
+Organization: Royal Roads Military College, Victoria, B.C.
+Lines: 11
+
+
+In article <f2jjowk@quack.kfu.com>, pharvey@quack.kfu.com (Paul Harvey) writes:
+|>
+|> So, do you adhere to the Ten Commandments?
+|>
+
+Jesus did and so do I.
+
+Peace be with you,
+
+Malcolm Lee  :)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god       adher ten command   jesus
+peac  malcolm lee
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+adher, 266, 0.456398016134
+malcolm, 5462, 0.403493741605
+peac, 6495, 0.372328170433
+lee, 5190, 0.354478975289
+command, 1933, 0.302575608778
+jesus, 4859, 0.280358840312
+love, 5366, 0.273674436482
+kind, 5021, 0.245966825695
+god, 3926, 0.243021781

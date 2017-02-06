@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61202
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Re: Vandalizing the sky.
+Organization: Boeing AI Center, Huntsville, AL
+Lines: 18
+
+Re: Space billboards
+
+Even easier to implement than writing messages on the Moon, once upon
+a time a group of space activists I belonged to in Seattle considered
+a "Goodyear Blimp in orbit".  The idea was to use a large structure
+that could carry an array of lights like the Goodyear Blimp has.
+Placed in a low Earth orbit of high inclination, it could eventually
+be seen by almost everyone on Earth.  Only our collective disapproval
+of cluttering up space with such a thing stopped us from pursuing
+it.  It had quite feasible economics, which I will not post here
+because I don't want to encourage the idea (if you want to do such
+a thing, go figure it out for yourself).
+
+Dani Eder
+
+-- 
+Dani Eder/Meridian Investment Company/(205)464-2697(w)/232-7467(h)/
+Rt.1, Box 188-2, Athens AL 35611/Location: 34deg 37' N 86deg 43' W +100m alt.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky    space billboard  even easier
+implement write messag moon upon time group space
+activist belong seattl consid goodyear blimp orbit
+idea use larg structur could carri array light
+like goodyear blimp place low earth orbit high
+inclin could eventu seen almost everyon earth
+collect disapprov clutter space thing stop pursu
+quit feasibl econom post don't want encourag idea
+want thing figur  dani eder   dani eder meridian
+invest compani box athen locat 34deg 86deg 100m
+alt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+goodyear, 3950, 0.328498919603
+eder, 2992, 0.300337085545
+blimp, 1157, 0.300337085545
+dani, 2358, 0.294074107079
+space, 8164, 0.172870028596
+disapprov, 2680, 0.153872308417
+86deg, 145, 0.150168542772
+34deg, 94, 0.150168542772
+100m, 7, 0.150168542772
+orbit, 6280, 0.147053814027
+clutter, 1850, 0.144324434181
+meridian, 5643, 0.141931734335
+earth, 2956, 0.141531400094
+activist, 253, 0.139791391388
+idea, 4482, 0.138900776715
+pursu, 6995, 0.13155458295
+athen, 741, 0.13155458295
+inclin, 4578, 0.122006708714
+feasibl, 3419, 0.122006708714
+econom, 2984, 0.117473665921
+thing, 8869, 0.110994471413
+want, 9634, 0.110675310791
+seattl, 7749, 0.11016040148
+encourag, 3089, 0.11016040148
+easier, 2960, 0.11016040148
+belong, 1015, 0.107096514536
+invest, 4744, 0.105912812599
+array, 653, 0.105160338827
+billboard, 1090, 0.104794302453
+vandal, 9419, 0.104081440918
+alt, 446, 0.103734176579
+eventu, 3233, 0.0999731063289
+implement, 4544, 0.0980629581303
+collect, 1898, 0.0980629581303
+structur, 8460, 0.0926133176454
+locat, 5323, 0.0900005238891
+sky, 8011, 0.0878426760129
+figur, 3476, 0.0863259666886
+stop, 8413, 0.0858921892999
+carri, 1530, 0.0858921892999
+compani, 1958, 0.0845097193189
+messag, 5650, 0.0839820411012
+low, 5368, 0.0837232545548
+box, 1254, 0.0829661059543
+moon, 5851, 0.0824765769857
+everyon, 3241, 0.0809624776016
+light, 5267, 0.0808505518685
+seen, 7767, 0.0754009113837
+larg, 5124, 0.0752309148338
+quit, 7043, 0.0744016376847
+consid, 2059, 0.0712469451723
+group, 4064, 0.0706978720404
+write, 9865, 0.0700317641956
+place, 6657, 0.0695781527357
+high, 4292, 0.068700230417
+post, 6766, 0.0593295743699
+time, 8936, 0.0482676007502
+don, 2811, 0.04607793449
+use, 9363, 0.0448653540982
+like, 5272, 0.0427744334829

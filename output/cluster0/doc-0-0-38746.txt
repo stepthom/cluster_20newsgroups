@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38746
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: johnm@spudge.lonestar.org (John Munsch)
+Subject: Re: Rumours about 3DO ???
+Organization: /etc/organization
+Lines: 16
+
+In article <loT1rAPNBh107h@viamar.UUCP> rutgers!viamar!kmembry writes:
+>Read Issue #2 of Wired Magazine.  It has a long article on the "hype" of
+>3DO.  I've noticed that every article talks with the designers and how
+>"great" it is, but never show any pictures of the output (or at least
+>pictures that one can understand)
+
+Gamepro magazine published pictures a few months ago and Computer Chronicles
+(a program that is syndicated to public tv stations around the nation) spent
+several minutes on it when it was shown at CES.  It was very impressive what
+it can do in real time.
+
+John Munsch
+
+P.S.  Don't take that to mean that I believe that the system is going to take
+over the world or something.  Just that it clearly has a lot more horsepower
+than any of the VIS, CD-I, Sega CD, or Turbo Duo crowd.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do     read issu wire magazin long articl
+hype 3do i'v notic everi articl talk design great
+never show pictur output least pictur one
+understand  gamepro magazin publish pictur month
+ago comput chronicl program syndic public station
+around nation spent sever minut shown ces impress
+real time  john munsch  don't take mean believ
+system go take world someth clear lot horsepow vis
+sega turbo duo crowd
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pictur, 6622, 0.340907052317
+3do, 98, 0.313178266042
+magazin, 5432, 0.277747486622
+horsepow, 4383, 0.20991927584
+ces, 1623, 0.20991927584
+chronicl, 1738, 0.19900383107
+syndic, 8652, 0.194853971567
+vis, 9538, 0.182686170795
+articl, 665, 0.173528800097
+hype, 4458, 0.169428310214
+crowd, 2245, 0.165278450711
+turbo, 9151, 0.16402609471
+wire, 9793, 0.156589133021
+rumour, 7542, 0.156589133021
+shown, 7918, 0.143590377416
+output, 6329, 0.135702929855
+spent, 8223, 0.133253896878
+impress, 4554, 0.129610399625
+publish, 6974, 0.124363526728
+notic, 6120, 0.124363526728
+minut, 5747, 0.124363526728
+station, 8346, 0.113635684106
+month, 5847, 0.110950323539
+issu, 4793, 0.109783295024
+nation, 5962, 0.105985346405
+ago, 336, 0.104875052998
+design, 2564, 0.104604489924
+public, 6973, 0.103419520189
+clear, 1803, 0.10329101971
+john, 4878, 0.101795034904
+sever, 7823, 0.0993618237318
+understand, 9246, 0.0965254344429
+comput, 1993, 0.0933324730639
+real, 7144, 0.0922902474542
+everi, 3235, 0.0922051895659
+talk, 8684, 0.0910417641135
+world, 9841, 0.0901616596082
+great, 4016, 0.0895391856511
+long, 5336, 0.0848239250912
+lot, 5356, 0.0839974838286
+program, 6905, 0.0835627671285
+mean, 5595, 0.0831956596321
+believ, 1009, 0.0831349588189
+read, 7135, 0.0819488286796
+someth, 8126, 0.0792462148377
+time, 8936, 0.0639643782146
+don, 2811, 0.0610626255139

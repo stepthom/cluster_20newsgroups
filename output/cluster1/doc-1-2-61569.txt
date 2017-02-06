@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61569
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: gene@jackatak.raider.net (Gene Wright)
+Subject: Will NASA's Mars Observer Image the Face on Mars?
+Organization: Jack's Amazing CockRoach Capitalist Ventures
+Lines: 12
+
+All consipiracy theories aside, (they are watching though :-)), will NASA 
+try to image the Cydonia region of Mars where the "Face
+" is? If they can image it with the High resolution camera, it would 
+settle the FACE question once and for all. I mean, with a camera that 
+will have a pixel resolution of about 6 feet, we'd know whether all this 
+stuff is real or imagination. 
+
+Come on JPL and NASA folks, try to image it and settle this thing.
+
+--
+     gene@jackatak.raider.net (Gene Wright)
+------------jackatak.raider.net   (615) 377-5980 ------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nasa mar observ imag face mar    consipiraci
+theori asid watch though nasa tri imag cydonia
+region mar face imag high resolut camera settl
+face question mean camera pixel resolut feet we'd
+know whether stuff real imagin  come jpl nasa folk
+tri imag settl thing    jackatak raider net
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mar, 5500, 0.384085371109
+imag, 4512, 0.348820735697
+face, 3345, 0.33568739186
+settl, 7817, 0.314705055599
+nasa, 5956, 0.293719533317
+camera, 1473, 0.292859809865
+resolut, 7316, 0.253205208873
+raider, 7071, 0.184826052719
+region, 7228, 0.153181165992
+tri, 9087, 0.150685660585
+asid, 687, 0.136130561476
+feet, 3430, 0.135635017009
+jpl, 4912, 0.134671377292
+pixel, 6651, 0.131138459743
+folk, 3576, 0.12428122991
+theori, 8848, 0.120180465969
+imagin, 4518, 0.118098131084
+observ, 6179, 0.108225595525
+watch, 9655, 0.107885521429
+net, 6010, 0.104708983398
+stuff, 8472, 0.0996931602281
+real, 7144, 0.0891859955666
+high, 4292, 0.0879795059022
+mean, 5595, 0.0803973110463
+question, 7032, 0.0787477014143
+come, 1923, 0.0754397216445
+thing, 8869, 0.0710713682731
+know, 5052, 0.0560365043608

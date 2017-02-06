@@ -1,0 +1,173 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102151
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: admiral@jhunix.hcf.jhu.edu (Steve C Liu)
+Subject: Re: NO JOKE: ROCKIES HAVE ATTENDANCE RECORD!!!!
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 23
+Distribution: usa
+Expires: 5/9/93
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+Summary: OPCY is just too small...
+
+Hell, the Orioles' Opening Day game could easily be the largest in history
+if we had a stadium with 80,000 seats. But unfortunely the Yards (a
+definitely excellent ballpark) only holds like 45,000 with 275 SRO spots.
+Ticket sales for the entire year is moving fast. Bleacher seats are almost
+gone for every game this year. It's a extremely likelyhood that the O's
+could sell out every game this year (especially if we lead the division for
+most of the year like '89). 
+	On another front, the sale of the Orioles to anyone is likely to be
+forced upon Eli Jacobs who is major debt apparently. Maybe we can get an
+owner willing to spend on a proven rightfielder free agent in the winter.
+	Fernando has made the O's as the fifth starter. The O's pitching
+staff looks pretty good. Sutcliffe, Mussina, McDonald, Rhodes, and Fernando.
+	Baltimore is my pick for the victors in a very competitive AL East.
+__________________________________________________________________________
+|Admiral Steve C. Liu        Internet Address: admiral@jhunix.hcf.jhu.edu|
+|"Committee for the Liberation and Intergration of Terrifying Organisms  |
+|and their Rehabilitation Into Society" from Red Dwarf - "Polymorph"     |
+|****The Bangles are the greatest female rock band that ever existed!****|
+|   This sig has been brought to you by... Frungy! The Sport of Kings!   |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Second to last day of the season - Gregg (The True Wild Thing) Olson
+uncorks a wild pitch allowing the Blue Jays to tie. Blue Jays win in the
+11th and ends the Baby Birds' miracle season of '89.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ joke rocki attend record    expir  opci small
+hell oriol open day game could easili largest
+histori stadium seat unfortun yard definit excel
+ballpark hold like sro spot ticket sale entir year
+move fast bleacher seat almost gone everi game
+year it extrem likelyhood o could sell everi game
+year especi lead divis year like anoth front sale
+oriol anyon like forc upon eli jacob major debt
+appar mayb get owner will spend proven rightfield
+free agent winter fernando made o fifth starter o
+pitch staff look pretti good sutcliff mussina
+mcdonald rhode fernando baltimor pick victor
+competit east   committe liber intergr terrifi
+organ rehabilit societi red dwarf polymorph bangl
+greatest femal rock band ever exist sig brought
+frungi sport king  second last day season gregg
+true wild thing olson uncork wild pitch allow blue
+jay tie blue jay win 11th end babi bird miracl
+season
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fernando, 3450, 0.238279500449
+seat, 7748, 0.187493779348
+wild, 9758, 0.175555178384
+sale, 7590, 0.175555178384
+oriol, 6295, 0.172622800896
+year, 9943, 0.162019917715
+blue, 1176, 0.148574049843
+game, 3761, 0.146562323971
+jay, 4832, 0.143939201671
+season, 7747, 0.12414048269
+gregg, 4034, 0.122078219931
+eli, 3041, 0.119139750225
+debt, 2428, 0.119139750225
+pitch, 6643, 0.117672078515
+terrifi, 8806, 0.114503189032
+polymorph, 6731, 0.114503189032
+intergr, 4711, 0.114503189032
+frungi, 3705, 0.112604884255
+bangl, 895, 0.112604884255
+11th, 15, 0.112604884255
+jacob, 4813, 0.110906792768
+bleacher, 1149, 0.110906792768
+everi, 3235, 0.110402932398
+sutcliff, 8609, 0.109370682168
+rehabilit, 7235, 0.107968323062
+rhode, 7376, 0.106678277738
+mussina, 5935, 0.106678277738
+mcdonald, 5573, 0.104371926798
+dwarf, 2933, 0.104371926798
+femal, 3441, 0.103331761868
+like, 5272, 0.101808312721
+yard, 9936, 0.10056205771
+winter, 9790, 0.10056205771
+ballpark, 883, 0.10056205771
+olson, 6226, 0.097482827611
+babi, 847, 0.097482827611
+day, 2402, 0.0955850503344
+largest, 5126, 0.0955068505751
+competit, 1970, 0.0948985911217
+bird, 1113, 0.0948985911217
+liber, 5247, 0.093746889674
+miracl, 5751, 0.0926720272876
+joke, 4883, 0.0921603347053
+proven, 6948, 0.0916643890344
+committe, 1946, 0.0911832499448
+attend, 764, 0.0911832499448
+greatest, 4018, 0.0902620299285
+fifth, 3471, 0.0893906305472
+band, 891, 0.0889719846051
+owner, 6359, 0.0881659685287
+sig, 7940, 0.0870278278413
+rock, 7445, 0.0870278278413
+agent, 331, 0.0866656336647
+stadium, 8300, 0.0856254687354
+ticket, 8919, 0.0852931484553
+king, 5024, 0.084335423412
+tie, 8923, 0.0834314315775
+starter, 8335, 0.0831410279988
+expir, 3300, 0.0831410279988
+rocki, 7450, 0.0822999521683
+baltimor, 887, 0.0817626703307
+extrem, 3333, 0.0797765344779
+brought, 1343, 0.0793160185038
+spot, 8261, 0.078649014524
+gone, 3943, 0.0784326762078
+staff, 8301, 0.078219203384
+sport, 8257, 0.0780085211347
+excel, 3261, 0.0771922979886
+sell, 7778, 0.0767991818516
+unfortun, 9264, 0.0766061620288
+societi, 8093, 0.0764154265179
+easili, 2962, 0.0762269218828
+spend, 8222, 0.0754942065016
+appar, 577, 0.0747933585802
+divis, 2767, 0.0746228071202
+hell, 4245, 0.0739580959014
+east, 2965, 0.0733197169053
+pick, 6619, 0.0725557367954
+fast, 3397, 0.0711285250052
+hold, 4341, 0.0704596753956
+entir, 3129, 0.0700712960588
+histori, 4314, 0.0696920559129
+definit, 2484, 0.0696920559129
+record, 7184, 0.0681445913407
+organ, 6287, 0.0674775873609
+forc, 3594, 0.0667327766976
+especi, 3190, 0.0667327766976
+free, 3668, 0.0656277546885
+lead, 5172, 0.0654347348657
+red, 7194, 0.064502859006
+open, 6258, 0.0639685461216
+small, 8054, 0.0627866687382
+allow, 432, 0.0617617733151
+major, 5458, 0.0591577457983
+pretti, 6851, 0.0590928887185
+win, 9770, 0.0585832189743
+exist, 3283, 0.0577879133685
+true, 9121, 0.0574921809875
+mayb, 5564, 0.0564154281591
+second, 7753, 0.0560898218815
+end, 3091, 0.0555613495345
+anoth, 533, 0.0519441705953
+thing, 8869, 0.0440300390361
+anyon, 554, 0.0433091911921
+good, 3948, 0.0414298046263
+look, 5341, 0.0402215079555

@@ -1,0 +1,169 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83828
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: donc@microsoft.com (Don Corbitt)
+Subject: Re: Christian Owned Organization list
+Organization: Microsoft Corp.
+Distribution: usa
+Lines: 28
+
+In article <1993Apr16.232149.22105@organpipe.uug.arizona.edu> ece_0028@bigdog.engr.arizona.edu wrote:
+> Sorry, but Mormons aren't generally considered to be Christians.
+> >--
+> >=kcochran@nyx.cs.du.edu | B(0-4) c- d- e++ f- g++ k(+) m r(-) s++(+) t | TSAKC=
+> >=My thoughts, my posts, my ideas, my responsibility, my beer, my pizza.  OK???=
+> >="Do you have some pumps and a purse in this shade?  A perfume that whispers, =
+> >='please come back to me'?  I'm looking for something in Green."-Laurie Morgan=
+
+Sorry, but it doesn't matter what _you_ think, I am a Christian, who happens to
+belong to the LDS Church.  [The Church of Jesus Christ of Latter-Day Saints].
+
+I don't usually read t.r.m.  It is truly informative to stop by, and see that there
+are still people in the world like those that forced my ancestors into the deserts
+of Utah, and then out of the country entirely.  (My grandmother was born in Mexico,
+where her family had moved to escape religious persecution in the US).  I'm willing
+to admit that members of other churches are Christians, if they believe in Christ and
+(try to) follow his teachings, even though they have different interpretations of 
+the bible.  And yet these other churches often go out of their way to define whether
+or not I am considered to be Christian.  Could someone mail me a set of rules/beliefs
+that must be followed to be a Christian?  Does this set of rules exclude other large
+bodies of believers?  
+
+I know, this is a waste of everyone's time, this has probably been discussed N times,
+etc.  I guess I'm more sensitive to this 'demonization' after what went on in Texas.
+--
+Don Corbitt, donc@microsoft.com
+Mail flames, post apologies.   Support short .sigs, three lines max.
+(I consider this a rebuttal, not a flame...)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ christian own organ list     bigdog engr arizona
+edu wrote sorri mormon aren't general consid
+christian   thought post idea respons beer pizza
+pump purs shade perfum whisper pleas come back me
+i'm look someth green lauri morgan  sorri doesn't
+matter think christian happen belong lds church
+church jesus christ latter day saint  don't usual
+read truli inform stop see still peopl world like
+forc ancestor desert utah countri entir grandmoth
+born mexico famili move escap religi persecut i'm
+will admit member church christian believ christ
+tri follow teach even though differ interpret bibl
+yet church often way defin whether consid
+christian could someon mail set rule belief must
+follow christian set rule exclud larg bodi believ
+know wast everyon time probabl discuss time etc
+guess i'm sensit demon went texa   mail flame post
+apolog support short sig three line max consid
+rebutt flame
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+christian, 1732, 0.357363451928
+church, 1746, 0.337314408495
+consid, 2059, 0.176569050681
+flame, 3518, 0.160750867783
+christ, 1729, 0.155048523033
+rule, 7537, 0.1400697276
+grandmoth, 3993, 0.135684747007
+whisper, 9734, 0.130856990516
+engr, 3112, 0.130856990516
+sorri, 8142, 0.129422128471
+lauri, 5150, 0.127112291657
+set, 7815, 0.120217684604
+purs, 6994, 0.119224893418
+ancestor, 497, 0.117248309301
+rebutt, 7164, 0.115480194559
+desert, 2559, 0.115480194559
+mail, 5447, 0.11538176108
+follow, 3578, 0.110315382734
+pump, 6982, 0.109833662572
+demon, 2519, 0.108675853952
+pizza, 6655, 0.10759279632
+sensit, 7791, 0.105616212203
+morgan, 5861, 0.10470887941
+mexico, 5671, 0.10470887941
+lds, 5171, 0.103848097461
+believ, 1009, 0.103647370868
+persecut, 6558, 0.102248643122
+exclud, 3266, 0.102248643122
+max, 5557, 0.100103398603
+beer, 990, 0.100103398603
+arizona, 639, 0.100103398603
+saint, 7585, 0.0988118715964
+post, 6766, 0.0980230717121
+utah, 9380, 0.0976126780761
+escap, 3185, 0.0970437568543
+shade, 7835, 0.093076782312
+green, 4025, 0.0926408728999
+sig, 7940, 0.0906165460238
+famili, 3378, 0.0895096678495
+apolog, 571, 0.0895096678495
+belong, 1015, 0.088471301505
+mormon, 5863, 0.0865694683757
+born, 1233, 0.0859805809781
+texa, 8820, 0.0848613950887
+truli, 9127, 0.0833112258618
+religi, 7260, 0.0823520180075
+admit, 276, 0.081444685214
+countri, 2186, 0.0812253151778
+time, 8936, 0.0797467121575
+interpret, 4720, 0.079176240371
+wast, 9654, 0.0787948246619
+belief, 1008, 0.0780570544816
+teach, 8729, 0.0778775707515
+went, 9704, 0.0749373712777
+member, 5625, 0.0743484838801
+defin, 2482, 0.0736402957279
+bibl, 1071, 0.0736402957279
+aren, 623, 0.0732292979907
+entir, 3129, 0.0729607871616
+bodi, 1194, 0.0726965050256
+wrote, 9871, 0.0711926724194
+stop, 8413, 0.0709546319914
+usual, 9377, 0.070836866113
+organ, 6287, 0.0702601231391
+forc, 3594, 0.0694845991324
+jesus, 4859, 0.0682332194387
+everyon, 3241, 0.0668822491331
+short, 7904, 0.0663349755659
+matter, 5553, 0.065123408538
+guess, 4079, 0.0650401251473
+general, 3818, 0.064792726532
+respons, 7323, 0.0646297973998
+discuss, 2708, 0.0645489222129
+larg, 5124, 0.0621474655603
+list, 5298, 0.0614624084507
+edu, 3001, 0.0595007479183
+happen, 4159, 0.0591461945444
+thought, 8887, 0.0585714271045
+support, 8576, 0.0577984550672
+idea, 4482, 0.0573722335842
+world, 9841, 0.0562039069018
+line, 5285, 0.0556251747655
+inform, 4637, 0.055157691367
+probabl, 6885, 0.0548833271828
+someon, 8124, 0.0548380327726
+doesn, 2793, 0.0544357921597
+differ, 2633, 0.0516731770817
+read, 7135, 0.0510842896841
+day, 2402, 0.0497633189731
+someth, 8126, 0.0493995662948
+pleas, 6688, 0.0493668855273
+come, 1923, 0.0486635549491
+tri, 9087, 0.0486010536895
+peopl, 6530, 0.0455310176581
+way, 9666, 0.0438985333679
+look, 5341, 0.0418800999313
+think, 8871, 0.0384348163242
+don, 2811, 0.0380644958676
+know, 5052, 0.0361472106428
+like, 5272, 0.0353355085155

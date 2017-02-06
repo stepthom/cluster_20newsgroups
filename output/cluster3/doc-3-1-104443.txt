@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104443
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cmk@athena.mit.edu (Charles M Kozierok)
+Subject: Re: Baseball spreads?
+Organization: Massachusetts Institute of Technology
+Lines: 9
+NNTP-Posting-Host: marinara.mit.edu
+
+In article <1993Apr18.225909.16116@colorado.edu> davewood@bruno.cs.colorado.edu (David Rex Wood) writes:
+} How does one read the betting spreads for baseball?  They tend to be something
+} like 8-9 which means it must not be runs!
+
+that spread means you bet $5 on the underdog to win $8, or $9 on the
+favorite to win $5.
+
+-*-
+charles
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ basebal spread      one read bet spread basebal
+tend someth like mean must run  spread mean bet
+underdog win favorit win   charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spread, 8265, 0.642053332925
+bet, 1054, 0.378372751307
+win, 9770, 0.2818381626
+underdog, 9237, 0.263085851581
+basebal, 924, 0.261286599449
+mean, 5595, 0.239619680755
+charl, 1668, 0.210232473912
+favorit, 3411, 0.204385286327
+tend, 8783, 0.192464544573
+read, 7135, 0.118014282556
+run, 7543, 0.116780820017
+someth, 8126, 0.114122255803
+like, 5272, 0.0816316466762

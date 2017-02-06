@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61002
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 34
+
+In article <C5sJDp.F23@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+
+>>This prize isn't big enough to warrent developing a SSTO, but it is
+>>enough to do it if the vehicle exists.
+
+>Actually, there are people who will tell you that it *would* be enough
+>to do SSTO development, if done privately as a cut-rate operation.  Of
+>course, they may be over-optimistic.
+
+In spite of my great respect for the people you speak of, I think their
+cost estimates are a bit over-optimistic. If nothing else, a working SSTO
+is at least as complex as a large airliner and has a smaller experience
+base. It therefore seems that SSTO development should cost at least as
+much as a typical airliner development. That puts it in the $3G to $5G
+range.
+
+>You can also assume that a working SSTO would have other applications
+>that would help pay for its development costs.
+
+True it and the contest would result in a much larger market. But I
+don't think it would be enough to attract the investors given the
+risks involved.
+
+If you could gurantee the SSTO costs and gurantee that it captures
+100% of the available launch market, then I think you could
+do it.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------56 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid
+prize isn't big enough warrent develop ssto enough
+vehicl exist  actual peopl tell enough ssto
+develop done privat cut rate oper cours optimist
+spite great respect peopl speak think cost estim
+bit optimist noth els work ssto least complex larg
+airlin smaller experi base therefor seem ssto
+develop cost least much typic airlin develop put
+rang  also assum work ssto applic help pay develop
+cost  true contest result much larger market don't
+think enough attract investor given risk involv
+could gurante ssto cost gurante captur avail
+launch market think could   allen    ladi astor
+sir husband poison coffe churchil madam wife drink
+day first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ssto, 8295, 0.56248138289
+develop, 2588, 0.303608749856
+cost, 2169, 0.247784067968
+airlin, 362, 0.224386322366
+optimist, 6275, 0.207083705155
+market, 5514, 0.148658379764
+warrent, 9648, 0.115831270767
+think, 8871, 0.112022418027
+spite, 8241, 0.105582499629
+madam, 5425, 0.103541852578
+astor, 719, 0.103541852578
+churchil, 1747, 0.102609947658
+ladi, 5093, 0.100096690778
+dcx, 2412, 0.0993382332122
+investor, 4746, 0.0986134962324
+coffe, 1878, 0.0986134962324
+poison, 6713, 0.0979196086421
+husband, 4452, 0.0972540510285
+sir, 7989, 0.0959992861039
+attract, 772, 0.0937468971484
+resid, 7311, 0.0932292696259
+work, 9833, 0.0923801656887
+prize, 6881, 0.0913089470877
+contest, 2086, 0.0913089470877
+risk, 7416, 0.0908622370214
+drink, 2872, 0.0895911600419
+peopl, 6530, 0.088470041507
+captur, 1509, 0.0880372326415
+estim, 3201, 0.0876708375036
+wife, 9755, 0.0869618606966
+smaller, 8055, 0.0856301904526
+larger, 5125, 0.0835332259104
+typic, 9178, 0.0829804984874
+allen, 426, 0.0816754903875
+complex, 1976, 0.079783061607
+privat, 6879, 0.0793423889034
+vehicl, 9449, 0.0780876239787
+billion, 1092, 0.0776899482276
+respect, 7321, 0.0738565800525
+pay, 6474, 0.0738565800525
+rang, 7094, 0.0737020395829
+therefor, 8855, 0.0728043506204
+speak, 8192, 0.0718159330015
+cut, 2313, 0.0716794979168
+applic, 585, 0.0714100058723
+flight, 3544, 0.0708840280821
+rate, 7108, 0.0707551428459
+involv, 4750, 0.0683707712017
+oper, 6261, 0.0682602358801
+experi, 3295, 0.0682602358801
+moon, 5851, 0.0661936890659
+launch, 5147, 0.0641017449695
+result, 7332, 0.0632697329511
+assum, 710, 0.0632697329511
+larg, 5124, 0.0603784973461
+isn, 4783, 0.0597129397325
+noth, 6119, 0.059326267914
+given, 3887, 0.0585186717139
+exist, 3283, 0.0584581748078
+true, 9121, 0.0581590123321
+avail, 811, 0.0566320558188
+els, 3053, 0.0563643339169
+cours, 2190, 0.0557903774577
+big, 1082, 0.0555360213242
+bit, 1122, 0.0549900254857
+great, 4016, 0.0542271308816
+tell, 8767, 0.0532771205773
+actual, 254, 0.0524210763309
+long, 5336, 0.0513714532288
+base, 923, 0.0510233140765
+day, 2402, 0.0483468536563
+help, 4249, 0.0478983881233
+year, 9943, 0.0409747822686
+don, 2811, 0.0369810263701

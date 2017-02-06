@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62407
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Why we like DC-X (was Re: Shuttle 0-Defects & Bizarre? DC-X?)
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 26
+NNTP-Posting-Host: access.digex.net
+
+In article <1993May13.184233.6060@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+>
+>Hmmm.  Not sure what's required for ships.  Probably not much, since
+>if a ship goes down it doesn't hurt too many people other than those
+>on the ship and those who invested in it.  If a plane or spacecraft
+>goes down, it can make quite a nasty mess on the ground, should it
+>land in an inappropriate place.
+
+
+Considering the magnitude of loss of life in both the Moro Castle
+and Titanic disasters,  I can't believe you can be so blithe
+there fred.
+
+Besides if a LNG tanker breaks up in a close harbor, you can kiss
+off quite a lot of population.  same thing for any chemical
+tankers.
+
+I know the coast guard makes  mandatory safety equipment
+checks on all watercraft.  they use this as an excuse to
+make narcotics  searches, without warrants.
+
+I suspect, that  commercial craft need a certificate at least similiar
+in scope to an air worthiness certificate from the DOT.
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ like shuttl defect bizarr       hmmm sure what
+requir ship probabl much sinc ship goe doesn't
+hurt mani peopl ship invest plane spacecraft goe
+make quit nasti mess ground land inappropri place
+consid magnitud loss life moro castl titan disast
+can't believ blith fred  besid lng tanker break
+close harbor kiss quit lot popul thing chemic
+tanker  know coast guard make mandatori safeti
+equip check watercraft use excus make narcot
+search without warrant  suspect commerci craft
+need certif least similiar scope air worthi certif
+dot  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ship, 7888, 0.341423358093
+certif, 1621, 0.30637940185
+goe, 3931, 0.180799993805
+similiar, 7962, 0.160310971552
+mandatori, 5475, 0.160310971552
+make, 5459, 0.159250199492
+castl, 1548, 0.156452224809
+quit, 7043, 0.155029828889
+guard, 4077, 0.153189700925
+kiss, 5032, 0.147870753739
+harbor, 4166, 0.147870753739
+inappropri, 4566, 0.145640849861
+disast, 2681, 0.143623656435
+scope, 7704, 0.137059378791
+nasti, 5961, 0.134410361974
+mess, 5649, 0.134410361974
+worthi, 9851, 0.130970728171
+bizarr, 1131, 0.129938108165
+dot, 2826, 0.128953534744
+warrant, 9645, 0.12801273489
+defect, 2473, 0.12801273489
+magnitud, 5441, 0.125417916596
+hmmm, 4328, 0.125417916596
+coast, 1859, 0.123106766892
+craft, 2207, 0.121695276508
+popul, 6745, 0.121023330808
+fred, 3666, 0.118530510358
+titan, 8951, 0.117950624446
+chemic, 1690, 0.117950624446
+excus, 3268, 0.116836445526
+safeti, 7579, 0.110747794906
+invest, 4744, 0.110344649158
+hurt, 4451, 0.107025154818
+equip, 3161, 0.106686515404
+search, 7746, 0.103568459739
+plane, 6663, 0.102716082325
+suspect, 8603, 0.1024394181
+loss, 5352, 0.101896708574
+besid, 1051, 0.100597864784
+air, 357, 0.0996132913635
+break, 1284, 0.0969077604622
+ground, 4061, 0.0950838515922
+spacecraft, 8166, 0.0943210839308
+pat, 6458, 0.093949767182
+land, 5104, 0.0900910204396
+commerci, 1940, 0.089486278961
+check, 1682, 0.0863090959661
+shuttl, 7929, 0.0851850524409
+close, 1830, 0.0802204453455
+requir, 7302, 0.0787346064836
+life, 5260, 0.0779424948819
+consid, 2059, 0.0742282163579
+place, 6657, 0.0724895946425
+probabl, 6885, 0.0692175350467
+doesn, 2793, 0.0686531146163
+sure, 8585, 0.0681576938
+lot, 5356, 0.0660368855851
+believ, 1009, 0.0653587883044
+sinc, 7977, 0.0645177036492
+mani, 5479, 0.0600345453567
+thing, 8869, 0.057819472952
+peopl, 6530, 0.0574226267289
+need, 5993, 0.0569048146791
+use, 9363, 0.0467427087986
+know, 5052, 0.045587994532
+like, 5272, 0.0445642952899

@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38591
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: u122743@twncu865.ncu.edu.tw
+Subject: QUESTION: Video Projector
+Organization: Computer Center, NCU, Taiwan, R.O.C.
+Lines: 15
+
+I am setting up a video-aid for a computer room for the teacher to share his
+display with the class.
+
+I have seen people using video projector, TV sets and large monitor to do
+presentations before. I am told that there are three ways to connect video
+projector: composite, Y/C & RGB.
+
+Can anyone explain to me the difference and their likely costs?
+
+Please reply to my INETNET E-mail account as well as posting in bulletin:
+u129008@sparc20.nuc.edu.tw
+
+I also like to know if there are TELNET or KERMIT for windows.
+
+Tim Chen
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question video projector    set video aid comput
+room teacher share display class  seen peopl use
+video projector set larg monitor present told
+three way connect video projector composit rgb
+anyon explain differ like cost  pleas repli
+inetnet mail account well post bulletin   also
+like know telnet kermit window  tim chen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+projector, 6911, 0.585417952641
+video, 9506, 0.437324752987
+chen, 1693, 0.188196126601
+set, 7815, 0.17289487174
+kermit, 4990, 0.159749353296
+telnet, 8768, 0.15629562233
+bulletin, 1387, 0.154737988683
+teacher, 8730, 0.143020284337
+aid, 351, 0.138008919724
+composit, 1982, 0.13726624744
+rgb, 7374, 0.131445814505
+tim, 8935, 0.128223041711
+monitor, 5837, 0.124075445242
+share, 7855, 0.120905658079
+room, 7476, 0.120905658079
+account, 221, 0.115894293466
+class, 1789, 0.115594476631
+connect, 2046, 0.115298338624
+told, 8973, 0.108651285685
+repli, 7290, 0.104740076462
+display, 2734, 0.103991646109
+like, 5272, 0.101637762077
+window, 9774, 0.100403185337
+explain, 3301, 0.0975604982703
+present, 6837, 0.0965922044338
+cost, 2169, 0.0916997732641
+seen, 7767, 0.0895813137384
+larg, 5124, 0.0893793464943
+comput, 1993, 0.0836741163784
+mail, 5447, 0.0829699675578
+differ, 2633, 0.0743154166822
+question, 7032, 0.0730559164087
+pleas, 6688, 0.0709985504173
+post, 6766, 0.0704874930298
+peopl, 6530, 0.0654818755168
+anyon, 554, 0.0648549585857
+way, 9666, 0.063134066516
+use, 9363, 0.0533030342432
+know, 5052, 0.0519862561686

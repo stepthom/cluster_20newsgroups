@@ -1,0 +1,123 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61220
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Re: Space Advertising (2 of 2)
+Organization: University of Illinois at Urbana
+Lines: 24
+
+Wales.Larrison@ofa123.fidonet.org writes:
+
+>the "Environmental
+>Billboard" is a large inflatable outer support structure of up to
+>804x1609 meters.  Advertising is carried by a mylar reflective area,
+>deployed by the inflatable 'frame'.
+>   To help sell the concept, the spacecraft responsible for
+>maintaining the billboard on orbit will carry "ozone reading
+>sensors" to "continuously monitor the condition of the Earth's
+>delicate protective ozone layer," according to Mike Lawson, head of
+>SMI. Furthermore, the inflatable billboard has reached its minimum
+>exposure of 30 days it will be released to re-enter the Earth's
+>atmosphere. According to IMI, "as the biodegradable material burns,
+>it will release ozone-building components that will literally
+>replenish the ozone layer."
+ ^^^^^^^^^ ^^^ ^^^^^ ^^^^^
+
+ Can we assume that this guy studied advertising and not chemistry?  Granted 
+it probably a great advertising gimic, but it doesn't sound at all practical.
+
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space advertis      environment billboard larg
+inflat outer support structur 804x1609 meter
+advertis carri mylar reflect area deploy inflat
+frame help sell concept spacecraft respons
+maintain billboard orbit carri ozon read sensor
+continu monitor condit earth delic protect ozon
+layer accord mike lawson head smi furthermor
+inflat billboard reach minimum exposur day releas
+enter earth atmospher accord imi biodegrad materi
+burn releas ozon build compon liter replenish ozon
+layer   assum guy studi advertis chemistri grant
+probabl great advertis gimic doesn't sound practic
+find way make one attribut hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ozon, 6365, 0.434805087195
+advertis, 291, 0.368497015014
+inflat, 4632, 0.282200839472
+billboard, 1090, 0.267294512321
+layer, 5160, 0.208935151057
+accord, 219, 0.155190488763
+releas, 7253, 0.151016371632
+carri, 1530, 0.14605444707
+smi, 8061, 0.139648111361
+delic, 2504, 0.134679335644
+mylar, 5940, 0.125013786053
+earth, 2956, 0.120332771538
+lawson, 5156, 0.118853382017
+exposur, 3313, 0.107767435728
+sensor, 7792, 0.106881510257
+hannib, 4155, 0.104467575529
+chemistri, 1692, 0.103027428389
+liter, 5304, 0.101698175756
+environment, 3140, 0.101070042533
+furthermor, 3732, 0.100463953679
+outer, 6324, 0.0998784142141
+meter, 5663, 0.0998784142141
+deploy, 2540, 0.097716626446
+minimum, 5740, 0.0921242537535
+grant, 3994, 0.091404492942
+reflect, 7216, 0.0910555566295
+attribut, 773, 0.0900491500319
+compon, 1980, 0.0890981707738
+monitor, 5837, 0.0887924679257
+condit, 2017, 0.0887924679257
+protect, 6940, 0.0842842997726
+atmospher, 755, 0.0840524605867
+enter, 3125, 0.0838236922089
+frame, 3643, 0.0835979143531
+maintain, 5454, 0.0827232079535
+sell, 7778, 0.0823019246286
+burn, 1413, 0.0809034464117
+concept, 2002, 0.0797887525627
+structur, 8460, 0.0787416586435
+spacecraft, 8166, 0.0769727712475
+materi, 5543, 0.0760792050949
+practic, 6793, 0.0756491805583
+reach, 7128, 0.0750919786881
+mike, 5710, 0.0745521922567
+studi, 8469, 0.074288496142
+head, 4215, 0.0729060177039
+continu, 2092, 0.0729060177039
+area, 622, 0.0702263182627
+build, 1378, 0.0697167898669
+sound, 8150, 0.067816880803
+assum, 710, 0.0670256694902
+respons, 7323, 0.0665176399237
+guy, 4100, 0.0648487244064
+larg, 5124, 0.0639627989352
+orbit, 6280, 0.062514018074
+support, 8576, 0.0594867534324
+great, 4016, 0.0574462635188
+probabl, 6885, 0.0564864743855
+doesn, 2793, 0.0560258668218
+read, 7135, 0.0525764666403
+day, 2402, 0.0512169102494
+help, 4249, 0.0507418220644
+space, 8164, 0.0489924959946
+way, 9666, 0.0451808136993
+make, 5459, 0.0433198625581

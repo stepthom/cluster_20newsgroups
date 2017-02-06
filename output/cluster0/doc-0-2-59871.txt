@@ -1,0 +1,838 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/59871
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Space FAQ 01/15 - Introduction
+From: leech@cs.unc.edu (Jon Leech)
+Expires: 6 May 1993 19:53:44 GMT
+Organization: University of North Carolina, Chapel Hill
+Keywords: Frequently Asked Questions
+Supersedes: <intro_730956346@cs.unc.edu>
+NNTP-Posting-Host: mahler.cs.unc.edu
+Lines: 310
+
+Archive-name: space/intro
+Last-modified: $Date: 93/04/01 14:39:10 $
+
+    FREQUENTLY ASKED QUESTIONS ON SCI.SPACE/SCI.ASTRO
+
+    INTRODUCTION
+
+    This series of linked messages is periodically posted to the Usenet
+groups sci.space and sci.astro in an attempt to provide good answers to
+frequently asked questions and other reference material which is worth
+preserving. If you have corrections or answers to other frequently asked
+questions that you would like included in this posting, send email to
+leech@cs.unc.edu (Jon Leech).
+
+    If you don't want to see the FAQ, add 'Frequently Asked Questions' to
+your KILL file for this group (if you're not reading this with a newsreader
+that can kill articles by subject, you're out of luck).
+
+    The FAQ volume is excessive right now and will hopefully be trimmed down
+by rewriting and condensing over time. The FAQ postings are available in
+the Ames SPACE archive in FAQ/faq<#>.
+
+    Good summaries will be accepted in place of the answers given here. The
+point of this is to circulate existing information, and avoid rehashing old
+answers. Better to build on top than start again. Nothing more depressing
+than rehashing old topics for the 100th time. References are provided
+because they give more complete information than any short generalization.
+
+    Questions fall into three basic types:
+
+    1) Where do I find some information about space?
+
+    Try your local public library first. The net is not a good place to ask
+    for general information. Ask INDIVIDUALS (by email) if you must. There
+    are other sources, use them, too. The net is a place for open ended
+    discussion.
+
+    2) I have an idea which would improve space flight?
+
+    Hope you aren't surprised, but 9,999 out of 10,000 have usually been
+    thought of before. Again, contact a direct individual source for
+    evaluation. NASA fields thousands of these each day.
+
+    3) Miscellanous queries.
+
+    These are addressed on a case-by-case basis in the following series of
+    FAQ postings.
+
+
+    SUGGESTIONS FOR BETTER NETIQUETTE
+
+    Read news.announce.newusers if you're on Usenet.
+    Minimize cross references, [Do you REALLY NEED to?]
+    Edit "Subject:" lines, especially if you're taking a tangent.
+    Send mail instead, avoid posting follow ups. (1 mail message worth
+	100 posts).
+    Internet mail readers: send requests to add/drop to SPACE-REQUEST
+	not SPACE.
+    Read all available articles before posting a follow-up. (Check all
+	references.)
+    Cut down attributed articles (leave only the points you're
+	responding to; remove signatures and headers). Summarize!
+    Put a return address in the body (signature) of your message (mail
+	or article), state your institution, etc. Don't assume the
+	'reply' function of mailers will work.
+    Use absolute dates. Post in a timely way. Don't post what everyone
+	will get on TV anyway.
+    Some editors and window systems do character count line wrapping:
+	keep lines under 80 characters for those using ASCII terminals
+	(use carriage returns).
+
+
+    INDEX TO LINKED POSTINGS
+
+    I've attempted to break the postings up into related areas. There isn't
+    a keyword index yet; the following lists the major subject areas in each
+    posting. Only those containing astronomy-related material are posted to
+    sci.astro (indicated by '*' following the posting number).
+
+    #	Contents
+
+    1*	Introduction
+	    Suggestions for better netiquette
+	    Index to linked postings
+	    Notes on addresses, phone numbers, etc.
+	    Contributors
+
+    2*	Network resources
+	    Overview
+	    Mailing lists
+	    Periodically updated information
+	    Warning about non-public networks
+
+    3*	Online (and some offline) sources of images, data, etc.
+	    Introduction
+	    Viewing Images
+	    Online Archives
+		NASA Ames
+		NASA Astrophysics Data System
+		NASA Jet Propulsion Lab (Mission Information and Images)
+		NASA Langley (Technical Reports)
+		NASA Spacelink
+		National Space Science Data Center
+		Space Telescope Science Institute Electronic Info. Service
+		Starcat
+		Astronomical Databases
+		Astronomy Programs
+		Orbital Element Sets
+		SPACE Digest
+	    Landsat & NASA Photos
+	    Planetary Maps
+	    Cometary Orbits
+
+    4*	Performing calculations and interpreting data formats
+	    Computing spacecraft orbits and trajectories
+	    Computing planetary positions
+	    Computing crater diameters from Earth-impacting asteroids
+	    Map projections and spherical trignometry
+	    Performing N-body simulations efficiently
+	    Interpreting the FITS image format
+	    Sky (Unix ephemeris program)
+	    Three-dimensional star/galaxy coordinates
+
+    5*	References on specific areas
+	    Publishers of space/astronomy material
+	    Careers in the space industry
+	    DC-X single-stage to orbit (SSTO) program
+	    How to name a star after a person
+	    LLNL "great exploration"
+	    Lunar Prospector
+	    Lunar science and activities
+	    Orbiting Earth satellite histories
+	    Spacecraft models
+	    Rocket propulsion
+	    Spacecraft design
+	    Esoteric propulsion schemes (solar sails, lasers, fusion...)
+	    Spy satellites
+	    Space shuttle computer systems
+	    SETI computation (signal processing)
+	    Amateur satellies & weather satellites
+	    Tides
+
+    6*	Constants and equations for calculations
+
+    7*	Astronomical Mnemonics
+
+    8	Contacting NASA, ESA, and other space agencies/companies
+	    NASA Centers / Arianespace / ESA / NASDA / Soyuzkarta / Space
+		Camp / Space Commerce Corporation / Spacehab / SPOT Image
+	    Other commercial space businesses
+
+    9	Space shuttle answers, launch schedules, TV coverage
+	    Shuttle launchings and landings; schedules and how to see them
+	    Why does the shuttle roll just after liftoff?
+	    How to receive the NASA TV channel, NASA SELECT
+	    Amateur radio frequencies for shuttle missions
+	    Solid Rocket Booster fuel composition
+
+    10	Planetary probes - Historical Missions
+	    US planetary missions
+	    Mariner (Venus, Mars, & Mercury flybys and orbiters)
+	    Pioneer (Moon, Sun, Venus, Jupiter, and Saturn flybys and orbiters)
+	    Ranger (Lunar lander and impact missions)
+	    Lunar Orbiter (Lunar surface photography)
+	    Surveyor (Lunar soft landers)
+	    Viking (Mars orbiters and landers)
+	    Voyager (Outer planet flybys)
+	    Soviet planetary missions
+	    Soviet Lunar probes
+	    Soviet Venus probes
+	    Soviet Mars probes
+	    Japanese planetary missions
+	    Planetary mission references
+
+    11	Upcoming planetary probes - missions and schedules
+	    Cassini
+	    Galileo
+	    Magellan
+	    Mars Observer
+	    TOPEX/Poseidon
+	    Ulysses
+	    Other space science missions
+	    Proposed missions
+
+    12	Controversial questions
+	    What happened to the Saturn V plans
+	    Why data from space missions isn't immediately available
+	    Risks of nuclear (RTG) power sources for space probes
+	    Impact of the space shuttle on the ozone layer
+	    How long can a human live unprotected in space
+	    How the Challenger astronauts died
+	    Using the shuttle beyond Low Earth Orbit
+	    The "Face on Mars"
+
+    13	Space activist/interest/research groups and space publications
+	    Groups
+	    Publications
+	    Undocumented Groups
+
+    14	How to become an astronaut
+
+    15	Orbital and Planetary Launch Services
+
+
+    NOTES ON ADDRESSES, PHONE NUMBERS, ETC.
+
+    Unless otherwise specified, telephone numbers, addresses, and so on are
+    for the United States of America. Non-US readers should remember to add
+    the country code for telephone calls, etc.
+
+
+    CREDITS
+
+    Eugene Miya started a series of linked FAQ postings some years ago which
+    inspired (and was largely absorbed into) this set.
+
+    Peter Yee and Ron Baalke have and continue to spend a lot of their own
+    time setting up the SPACE archives at NASA Ames and forwarding official
+    NASA announcements.
+
+    Many other people have contributed material to this list in the form of
+    old postings to sci.space and sci.astro which I've edited. Please let me
+    know if corrections need to be made. Contributors I've managed to keep
+    track of are:
+
+    0004847546@mcimail.com (Francis Reddy)	- map projections
+    ad038@yfn.ysu.edu (Steven Fisk)		- publication refs.
+    akerman@bill.phy.queensu.CA (Richard Akerman)   - crater diameters
+    alweigel@athena.mit.edu (Lisa Weigel)	- SEDS info
+    aoab314@emx.utexas.edu (Srinivas Bettadpur) - tides
+    awpaeth@watcgl.waterloo.edu (Alan Wm Paeth) - map projections
+    aws@iti.org (Allen W. Sherzer)		- Great Exploration
+    baalke@kelvin.jpl.nasa.gov (Ron Baalke)	- planetary probe schedules
+    bankst@rata.vuw.ac.nz (Timothy Banks)	- map projections,
+	variable star analysis archive
+    bern@uni-trier.de (Jochen Bern)		- German mnemonic translation
+    brosen@pioneer.arc.nasa.gov (Bernie Rosen)	- Space Camp
+    bschlesinger@nssdca.gsfc.nasa.gov (Barry Schlesinger)   - FITS format
+    cew@venera.isi.edu (Craig E. Ward)		- space group contact info
+    chapin@cbnewsc.att.com (Tom Chapin)		- planetary positions
+    cunnida@tenet.edu (D. Alan Cunningham)	- NASA Spacelink
+    cyamamot@kilroy.Jpl.Nasa.Gov (Cliff Yamamoto) - orbital elements
+    datri@convex.com (Anthony Datri)		- PDS/VICAR viewing software
+    daver@sjc.mentorg.com (Dave Rickel)		- orbit formulae
+    dlbres10@pc.usl.edu (Phil Fraering)		- propulsion
+    eder@hsvaic.boeing.com (Dani Eder)		- Saturn V plans, SRBs
+    eugene@eos.arc.nasa.gov (Eugene N. Miya)	- introduction,
+	NASA contact info, started FAQ postings
+    french@isu.isunet.edu (Patrick M. French)	- space group contact info
+    g@telesoft.com (Gary Morris)		- amateur radio info
+    gaetz@cfa.harvard.edu (Terry Gaetz)		- N-body calculations,
+	orbital dynamics
+    grandi@noao.edu (Steve Grandi)		- planetary positions
+    greer%utd201.dnet%utadnx@utspan.span.nasa.gov (Dale M. Greer)   - constants
+    henry@zoo.toronto.edu (Henry Spencer)	- survival in vacuum,
+	astronaut how-to, Challenger disaster, publication refs, DC-X
+    higgins@fnal.bitnet (William Higgins)	- RTGs, publishers,
+	shuttle landings, spysats, propulsion, "Face on Mars"
+    hmueller@cssun.tamu.edu (Hal Mueller)	- map projections,
+	orbital dynamics
+    jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)	- launch services
+    jim@pnet01.cts.com (Jim Bowery)		- propulsion, launch services
+    jnhead@pirl.lpl.arizona.edu (James N. Head) - atmospheric scale heights
+    jscotti@lpl.arizona.edu (Jim Scotti)	- planetary positions
+    kcarroll@zoo.toronto.edu (Kieran A. Carroll)- refs for spacecraft design
+    ken@orion.bitnet (Kenneth Ng)		- RTGs
+    kjenks@gothamcity.jsc.nasa.gov (Ken Jenks)	- shuttle roll manuever
+    klaes@verga.enet.dec.com (Larry Klaes)	- planetary probe history
+    leech@cs.unc.edu (Jon Leech)		- crater diameters
+    lfa@ssi.com (Lou Adornato)			- orbital dynamics
+    maury.markowitz@egsgate.fidonet.org (Maury Markowitz)   - propulsion
+    max@west.darkside.com (Erik Max Francis)	- equations
+    mbellon@mcdurb.Urbana.Gould.COM		- N-body calculations
+    mcconley@phoenix.Princeton.edu (Marc Wayne Mcconley)    - space careers
+    msb@sq.com (Mark Brader)			- Mariner 1 info.
+    mwm@cmu.edu (Mark Maimone)			- SPACE Digest
+    nickw@syma.sussex.ac.uk (Dr. Nick Watkins)	- models, spysats
+    ohainaut@eso.org (Olivier R. Hainaut)	- publishers, STARCAT
+    oneil@aio.jsc.nasa.gov (Graham O'Neil)	- Lunar Prospector
+    panama@cup.portal.com (Kenneth W Durham)	- cometary orbits, IAU
+    paul.blase@nss.fidonet.org (Paul Blase)	- propulsion
+    pjs@plato.jpl.nasa.gov (Peter Scott)	- RTGs
+    pschleck@unomaha.edu (Paul W. Schleck)	- AMSAT, ARRL contact info
+    rdb@mel.cocam.oz.au (Rodney Brown)		- propulsion refs
+    rja7m@phil.cs.virginia.edu (Ran Atkinson)	- FTPable astro. programs
+    rjungcla@ihlpb.att.com (R. Michael Jungclas)- models
+    roelle@sigi.jhuapl.edu (Curt Roelle)	- German mnemonic translation
+    seal@leonardo.jpl.nasa.gov (David Seal)	- Cassini mission schedule
+    shafer@skipper.dfrf.nasa.gov (Mary Shafer)	- photos, shuttle landings
+    smith@sndpit.enet.dec.com (Willie Smith)	- photos
+    stephen@gpwd.gp.co.nz (Stephen Dixon)	- shuttle audio frequencies
+    sterner@warper.jhuapl.edu (Ray Sterner)	- planetary positions
+    stooke@vaxr.sscl.uwo.ca (Phil Stooke)	- planetary maps
+    ted_anderson@transarc.com (Ted Anderson)	- propulsion
+    terry@astro.as.utexas.edu (Terry Hancock)	- NASA center info
+    thorson@typhoon.atmos.coloState.edu (Bill Thorson) - FITS info
+    tm2b+@andrew.cmu.edu (Todd L. Masco)	- SPACE Digest
+    tom@ssd.csd.harris.com (Tom Horsley)	- refs for algorithms
+    veikko.makela@helsinki.fi (Veikko Makela)	- orbital element sets
+    Wales.Larrison@ofa123.fidonet.org (Wales Larrison) - groups & publications
+    wayne@csri.utoronto.ca (Wayne Hayes)	- constants
+    weemba@libra.wistar.upenn.edu (Matthew P Wiener) - Voyager history
+    yamada@yscvax.ysc.go.jp (Yoshiro Yamada)	- ISAS/NASDA missions
+    yee@ames.arc.nasa.gov (Peter Yee)		- AMES archive server,
+	propulsion
+
+    In Net memoriam:
+	Ted Flinn
+
+NEXT: FAQ #2/15 - Network Resources
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+space faq introduct  expir gmt       archiv name
+space intro last modifi date  frequent ask
+question sci space sci astro  introduct  seri link
+messag period post usenet group sci space sci
+astro attempt provid good answer frequent ask
+question refer materi worth preserv correct answer
+frequent ask question like includ post send email
+don't want see faq add frequent ask question kill
+file group you'r read newsread kill articl you'r
+luck  faq volum excess right hope trim rewrit
+condens time faq post avail ame space archiv faq
+faq  good summari accept place answer given point
+circul exist inform avoid rehash old answer better
+build top start noth depress rehash old topic
+100th time refer provid give complet inform short
+general  question fall three basic type  find
+inform space  tri local public librari first net
+good place ask general inform ask individu email
+must sourc use net place open end discuss  idea
+improv space flight  hope aren't surpris usual
+thought contact direct individu sourc evalu nasa
+field thousand day  miscellan queri  address case
+case basi follow seri faq post   suggest better
+netiquett  read news announc newus you'r usenet
+minim cross refer realli need edit line especi
+you'r take tangent send mail instead avoid post
+follow up mail messag worth post internet mail
+reader send request add drop space request space
+read avail articl post follow check refer cut
+attribut articl leav point you'r respond remov
+signatur header summar put return address bodi
+signatur messag mail articl state institut etc
+don't assum repli function mailer work use absolut
+date post time way don't post everyon get anyway
+editor window system charact count line wrap keep
+line charact use ascii termin use carriag return
+index link post  i'v attempt break post relat area
+isn't keyword index yet follow list major area
+post contain astronomi relat materi post sci astro
+indic follow post number  content  introduct
+suggest better netiquett index link post note
+address phone number etc contributor  network
+resourc overview mail list period updat inform
+warn non public network  onlin offlin sourc imag
+data etc introduct view imag onlin archiv nasa ame
+nasa astrophys data system nasa jet propuls lab
+mission inform imag nasa langley technic report
+nasa spacelink nation space scienc data center
+space telescop scienc institut electron info
+servic starcat astronom databas astronomi program
+orbit element set space digest landsat nasa photo
+planetari map cometari orbit  perform calcul
+interpret data format comput spacecraft orbit
+trajectori comput planetari posit comput crater
+diamet earth impact asteroid map project spheric
+trignometri perform bodi simul effici interpret
+fit imag format sky unix ephemeri program three
+dimension star galaxi coordin  refer specif area
+publish space astronomi materi career space
+industri singl stage orbit ssto program name star
+person llnl great explor lunar prospector lunar
+scienc activ orbit earth satellit histori
+spacecraft model rocket propuls spacecraft design
+esoter propuls scheme solar sail laser fusion spi
+satellit space shuttl comput system seti comput
+signal process amateur satelli weather satellit
+tide  constant equat calcul  astronom mnemon
+contact nasa esa space agenc compani nasa center
+arianespac esa nasda soyuzkarta space camp space
+commerc corpor spacehab spot imag commerci space
+busi  space shuttl answer launch schedul coverag
+shuttl launch land schedul see shuttl roll liftoff
+receiv nasa channel nasa select amateur radio
+frequenc shuttl mission solid rocket booster fuel
+composit  planetari probe histor mission planetari
+mission marin venus mar mercuri flybi orbit
+pioneer moon sun venus jupit saturn flybi orbit
+ranger lunar lander impact mission lunar orbit
+lunar surfac photographi surveyor lunar soft
+lander vike mar orbit lander voyag outer planet
+flybi soviet planetari mission soviet lunar probe
+soviet venus probe soviet mar probe japanes
+planetari mission planetari mission refer  upcom
+planetari probe mission schedul cassini galileo
+magellan mar observ topex poseidon ulyss space
+scienc mission propos mission  controversi
+question happen saturn plan data space mission
+isn't immedi avail risk nuclear rtg power sourc
+space probe impact space shuttl ozon layer long
+human live unprotect space challeng astronaut die
+use shuttl beyond low earth orbit face mar  space
+activist interest research group space public
+group public undocu group  becom astronaut  orbit
+planetari launch servic   note address phone
+number etc  unless otherwis specifi telephon
+number address unit state america non reader
+rememb add countri code telephon call etc   credit
+eugen miya start seri link faq post year ago
+inspir larg absorb set  peter yee ron baalk
+continu spend lot time set space archiv nasa ame
+forward offici nasa announc  mani peopl contribut
+materi list form old post sci space sci astro i'v
+edit pleas let know correct need made contributor
+i'v manag keep track           variabl star
+analysi archiv             nasa contact info start
+faq post    orbit dynam    astronaut challeng
+disast public ref  shuttl land spysat propuls face
+mar  orbit dynam
+propuls  net memoriam ted flinn  next faq network
+resourc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+space, 8164, 0.356868264431
+nasa, 5956, 0.2285744941
+post, 6766, 0.228063203075
+mission, 5772, 0.205782397133
+orbit, 6280, 0.204127318879
+faq, 3385, 0.202731709544
+planetari, 6665, 0.199377366433
+lunar, 5392, 0.145824582608
+sci, 7690, 0.141580303577
+shuttl, 7929, 0.139688960929
+probe, 6886, 0.139396919528
+mar, 5500, 0.128099052863
+archiv, 618, 0.10674921072
+propuls, 6936, 0.105273037929
+introduct, 4733, 0.101545996276
+soviet, 8161, 0.0997797514838
+frequent, 3686, 0.0976737649684
+link, 5289, 0.0971849130562
+refer, 7213, 0.0959657619619
+lander, 5105, 0.0909310583974
+ask, 689, 0.0901574149999
+astro, 724, 0.0877515024136
+inform, 4637, 0.0855542785161
+address, 264, 0.0842848156755
+public, 6973, 0.0833300291671
+data, 2385, 0.0803300114913
+answer, 535, 0.0800605500248
+question, 7032, 0.0787911234726
+materi, 5543, 0.0764374732971
+group, 4064, 0.0754897223563
+comput, 1993, 0.075202415254
+mail, 5447, 0.0745695589503
+flybi, 3564, 0.0744216099726
+imag, 4512, 0.0727110579169
+index, 4596, 0.0725320920348
+venus, 9463, 0.0718469432424
+follow, 3578, 0.0712952320967
+astronaut, 727, 0.0686132630106
+impact, 4534, 0.0676116288006
+ame, 465, 0.06540042317
+scienc, 7692, 0.0648523060495
+sourc, 8153, 0.0640484400198
+astronomi, 729, 0.0626599602936
+network, 6018, 0.0602596492767
+schedul, 7678, 0.0592073736741
+contact, 2078, 0.0589570809321
+spacecraft, 8166, 0.0580014355384
+contributor, 2104, 0.0574301240244
+number, 6156, 0.0564272426611
+star, 8324, 0.0562779531989
+articl, 665, 0.055928165
+add, 260, 0.0558805231897
+satellit, 7632, 0.055686268517
+messag, 5650, 0.0538045696371
+esa, 3183, 0.0536924155295
+seri, 7805, 0.0530745752426
+area, 622, 0.0529177682679
+net, 6010, 0.0523833603482
+launch, 5147, 0.0511701430444
+signatur, 7948, 0.0507729981382
+send, 7785, 0.0499980175002
+saturn, 7640, 0.0496144066484
+old, 6216, 0.049212662438
+onlin, 6245, 0.0485924565281
+telephon, 8763, 0.0483547280232
+use, 9363, 0.0479062951478
+amateur, 458, 0.0476782909944
+list, 5298, 0.0476667159243
+charact, 1661, 0.0470507973287
+set, 7815, 0.046616967717
+usenet, 9365, 0.0464656398428
+reader, 7137, 0.0464656398428
+challeng, 1642, 0.0454018749542
+earth, 2956, 0.0453372886176
+dynam, 2942, 0.045236602383
+avail, 811, 0.0452073558766
+place, 6657, 0.0445764655752
+avoid, 827, 0.0440168363908
+astronom, 728, 0.0432028134915
+line, 5285, 0.0431396925474
+calcul, 1451, 0.0417733068624
+edit, 2996, 0.0413447482676
+resourc, 7320, 0.0412408362754
+time, 8936, 0.0412313148815
+start, 8334, 0.0411966278401
+request, 7301, 0.0411381540398
+interpret, 4720, 0.0409363647673
+program, 6905, 0.040398298944
+rocket, 7447, 0.0403577138791
+institut, 4683, 0.0399033405578
+announc, 524, 0.0398152530232
+read, 7135, 0.0396180427345
+worth, 9850, 0.0393047206214
+better, 1060, 0.0389350517505
+map, 5498, 0.0389010874895
+period, 6546, 0.0386676236923
+date, 2391, 0.0381461291316
+attempt, 763, 0.0381461291316
+phone, 6601, 0.0380741241736
+individu, 4604, 0.0379318825021
+bodi, 1194, 0.0375861575782
+face, 3345, 0.0373191658158
+kill, 5012, 0.0371241790113
+return, 7346, 0.0370601451587
+land, 5104, 0.03693347798
+email, 3060, 0.0365041619059
+servic, 7813, 0.0357044405202
+perform, 6539, 0.0352267117403
+trignometri, 9100, 0.0350764337305
+center, 1606, 0.0350225482585
+format, 3612, 0.0347250374789
+non, 6097, 0.034390363299
+info, 4636, 0.0341589749827
+topex, 8991, 0.0338283901268
+surveyor, 8598, 0.0338283901268
+prospector, 6938, 0.0338283901268
+mnemon, 5799, 0.0338283901268
+general, 3818, 0.0334996796407
+good, 3948, 0.0334555291167
+correct, 2156, 0.0334154406523
+relat, 7247, 0.033167522425
+suggest, 8525, 0.0330864326045
+yee, 9944, 0.0328603322998
+unprotect, 9300, 0.0328603322998
+tide, 8922, 0.0328603322998
+rtg, 7521, 0.0328603322998
+miya, 5790, 0.0328603322998
+carriag, 1531, 0.0328603322998
+baalk, 845, 0.0328603322998
+arianespac, 634, 0.0328603322998
+provid, 6949, 0.0320959274234
+starcat, 8326, 0.032069371463
+poseidon, 6760, 0.032069371463
+condens, 2016, 0.032069371463
+isn, 4783, 0.0317778106162
+tangent, 8692, 0.0314006236042
+miscellan, 5758, 0.0314006236042
+ephemeri, 3146, 0.0314006236042
+commerc, 1939, 0.0314006236042
+cometari, 1927, 0.0314006236042
+note, 6118, 0.0313050412807
+hope, 4372, 0.0310141800461
+undocu, 9255, 0.0308213278593
+rewrit, 7369, 0.0308213278593
+nasda, 5957, 0.0308213278593
+llnl, 5315, 0.0308213278593
+esoter, 3188, 0.0308213278593
+circul, 1767, 0.0308213278593
+state, 8342, 0.0307635764125
+trim, 9102, 0.0303103527991
+spacelink, 8172, 0.0303103527991
+spacehab, 8169, 0.0303103527991
+seti, 7816, 0.0303103527991
+photographi, 6605, 0.0303103527991
+crater, 2213, 0.0303103527991
+cassini, 1544, 0.0303103527991
+case, 1540, 0.0301670152132
+upcom, 9332, 0.0298532700323
+offlin, 6208, 0.0298532700323
+eugen, 3217, 0.0298532700323
+activist, 253, 0.0298532700323
+don, 2811, 0.0295206380136
+spi, 8229, 0.0294397883744
+liftoff, 5266, 0.0294397883744
+disast, 2681, 0.0294397883744
+ulyss, 9203, 0.0290623091954
+langley, 5112, 0.0290623091954
+landsat, 5108, 0.0290623091954
+absorb, 195, 0.0287150620122
+ref, 7212, 0.0283935613367
+queri, 7030, 0.0283935613367
+overview, 6354, 0.0283935613367
+fusion, 3735, 0.0283935613367
+depress, 2542, 0.0283935613367
+camp, 1476, 0.0283935613367
+intro, 4731, 0.0280942513684
+controversi, 2108, 0.0280942513684
+keyword, 4997, 0.0278142655917
+excess, 3263, 0.027551259382
+wrap, 9857, 0.0273032905316
+spheric, 8227, 0.0273032905316
+ozon, 6365, 0.0273032905316
+mailer, 5449, 0.0273032905316
+scheme, 7680, 0.027068732121
+preserv, 6838, 0.0264327261068
+laser, 5134, 0.0264327261068
+frequenc, 3685, 0.0264327261068
+vike, 9517, 0.026239882189
+summar, 8535, 0.026239882189
+layer, 5160, 0.026239882189
+astrophys, 731, 0.026239882189
+variabl, 9427, 0.0260552469279
+sail, 7584, 0.0260552469279
+dimension, 2653, 0.0260552469279
+diamet, 2613, 0.0260552469279
+mercuri, 5640, 0.0255442718677
+magellan, 5433, 0.0255442718677
+header, 4217, 0.0255442718677
+coverag, 2195, 0.0255442718677
+pioneer, 6635, 0.0253864990691
+ascii, 676, 0.0253864990691
+voyag, 9588, 0.0250871891009
+outer, 6324, 0.0250871891009
+inspir, 4676, 0.0250871891009
+ssto, 8295, 0.0249449378709
+soft, 8097, 0.0249449378709
+japanes, 4826, 0.0249449378709
+trajectori, 9044, 0.0248072033242
+evalu, 3226, 0.0248072033242
+asteroid, 716, 0.0248072033242
+galileo, 3755, 0.024673707443
+composit, 1982, 0.024673707443
+booster, 1225, 0.024673707443
+channel, 1652, 0.0245441971145
+point, 6710, 0.0244908853116
+minim, 5739, 0.0244184412421
+weather, 9679, 0.024296228264
+termin, 8796, 0.0241773640116
+specifi, 8204, 0.0241773640116
+risk, 7416, 0.0241773640116
+roll, 7464, 0.0238391454972
+coordin, 2126, 0.0238391454972
+nuclear, 6150, 0.0237320221824
+effici, 3006, 0.0237320221824
+marin, 5511, 0.0236274804053
+ranger, 7095, 0.0234256638393
+need, 5993, 0.0233285482799
+photo, 6603, 0.023328170437
+galaxi, 3753, 0.0232328199214
+databas, 2386, 0.0231395201143
+credit, 2225, 0.0231395201143
+ted, 8745, 0.0229587325465
+simul, 7974, 0.0228710876702
+warn, 9643, 0.0227851784506
+equat, 3157, 0.0227851784506
+summari, 8536, 0.0227009374771
+ron, 7472, 0.0227009374771
+jupit, 4932, 0.0227009374771
+histor, 4313, 0.0227009374771
+editor, 2997, 0.0227009374771
+attribut, 773, 0.0226183011915
+agenc, 329, 0.0225372096002
+signal, 7947, 0.0223794368016
+luck, 5381, 0.0223794368016
+expir, 3300, 0.0223794368016
+content, 2084, 0.0221530407147
+constant, 2067, 0.0221530407147
+telescop, 8764, 0.0220801268334
+stage, 8302, 0.0220084181954
+cross, 2241, 0.0220084181954
+volum, 9577, 0.0219378756034
+digest, 2640, 0.0218684617414
+corpor, 2154, 0.0218684617414
+gmt, 3917, 0.0217328796501
+element, 3037, 0.0217328796501
+track, 9030, 0.0214738012576
+jet, 4860, 0.0214738012576
+peter, 6575, 0.0214113789746
+electron, 3034, 0.0214113789746
+america, 468, 0.0214113789746
+thousand, 8888, 0.0213498421439
+solid, 8115, 0.0212293267882
+spot, 8261, 0.0211703017441
+fuel, 3715, 0.0211120690064
+drop, 2878, 0.0209978973166
+countri, 2186, 0.0209978973166
+industri, 4608, 0.0209419188132
+internet, 4717, 0.0208320832297
+respond, 7322, 0.0207781909364
+modifi, 5814, 0.0207781909364
+immedi, 4527, 0.0207781909364
+topic, 8992, 0.0207249599149
+remov, 7272, 0.0207249599149
+basi, 936, 0.0206723741338
+analysi, 490, 0.0205690770199
+explor, 3307, 0.0205183363968
+lab, 5085, 0.0204681823836
+spend, 8222, 0.0203211081695
+function, 3722, 0.0203211081695
+select, 7774, 0.0202731709544
+absolut, 193, 0.0202257576539
+offici, 6207, 0.0201788569396
+career, 1517, 0.0200865497589
+publish, 6974, 0.0200411223928
+improv, 4557, 0.0200411223928
+count, 2180, 0.0200411223928
+busi, 1424, 0.0199961657851
+unix, 9284, 0.0198640254027
+planet, 6664, 0.0198640254027
+fall, 3369, 0.0198640254027
+break, 1284, 0.0198640254027
+contribut, 2103, 0.0197781161831
+unit, 9278, 0.0196938752095
+forward, 3621, 0.0196938752095
+fit, 3510, 0.0195705036592
+surpris, 8593, 0.0195301473327
+otherwis, 6313, 0.0194505437447
+radio, 7061, 0.019372374534
+leav, 5184, 0.0193338118461
+technic, 8737, 0.0192576998269
+solar, 8107, 0.0192576998269
+librari, 5250, 0.0192576998269
+cut, 2313, 0.0190730645658
+contain, 2079, 0.0190730645658
+surfac, 8587, 0.018965941251
+receiv, 7167, 0.018965941251
+aren, 623, 0.0189308133359
+indic, 4600, 0.0188959675757
+flight, 3544, 0.0188613994739
+repli, 7290, 0.0188271046406
+updat, 9333, 0.0187930787891
+sky, 8011, 0.018759317733
+histori, 4314, 0.018759317733
+instead, 4682, 0.0186268410632
+activ, 252, 0.0185300725794
+local, 5322, 0.01846673899
+commerci, 1940, 0.0183427798764
+usual, 9377, 0.0183123357246
+continu, 2092, 0.0183123357246
+propos, 6933, 0.0182222645206
+model, 5807, 0.0181926516151
+window, 9774, 0.0180475453183
+observ, 6179, 0.0180475453183
+compani, 1958, 0.0180475453183
+singl, 7983, 0.0179908350491
+especi, 3190, 0.0179627555089
+sun, 8539, 0.0179348565457
+low, 5368, 0.0178795911637
+basic, 937, 0.0178522202601
+accept, 208, 0.0178250209621
+die, 2628, 0.0177444315149
+plan, 6660, 0.0177178976473
+check, 1682, 0.0176915250809
+unless, 9289, 0.0176653118663
+moon, 5851, 0.0176133558702
+process, 6890, 0.0175365702582
+build, 1378, 0.0175112741293
+form, 3610, 0.0173869597834
+becom, 983, 0.0173869597834
+everyon, 3241, 0.0172900110825
+report, 7291, 0.0172661086869
+code, 1871, 0.017242337264
+specif, 8203, 0.0172186953863
+open, 6258, 0.0172186953863
+short, 7904, 0.0171485330944
+nation, 5962, 0.0170794874913
+posit, 6761, 0.0170340601253
+view, 9510, 0.0169446080114
+type, 9177, 0.0169446080114
+ago, 336, 0.016900564244
+design, 2564, 0.0168569631351
+assum, 710, 0.0168353258143
+complet, 1975, 0.0167710539155
+human, 4432, 0.0167498398203
+research, 7307, 0.016686812942
+discuss, 2708, 0.016686812942
+direct, 2667, 0.0166246886276
+manag, 5472, 0.0165634413917
+field, 3466, 0.0163267495786
+project, 6909, 0.0161023060567
+power, 6783, 0.0161023060567
+larg, 5124, 0.0160660022983
+rememb, 7269, 0.0159765501844
+major, 5458, 0.0159237510683
+live, 5310, 0.0159062932024
+noth, 6119, 0.0157860165216
+given, 3887, 0.0155711247476
+exist, 3283, 0.0155550272381
+happen, 4159, 0.0152901311247
+thought, 8887, 0.0151415455802
+file, 3477, 0.0150120352517
+news, 6031, 0.0149837727815
+end, 3091, 0.0149556932413
+includ, 4579, 0.0149277942781
+idea, 4482, 0.0148315370275
+person, 6562, 0.0144540578485
+great, 4016, 0.0144291966125
+let, 5225, 0.0137006580586
+long, 5336, 0.0136693346459
+lot, 5356, 0.0135361540347
+right, 7399, 0.0131966745775
+realli, 7150, 0.0128731751579
+day, 2402, 0.0128645245592
+pleas, 6688, 0.0127620408844
+tri, 9087, 0.01256406248
+mani, 5479, 0.0123058022218
+work, 9833, 0.0122906334167
+want, 9634, 0.0118176802811
+peopl, 6530, 0.0117704145735
+way, 9666, 0.0113483942043
+year, 9943, 0.010902903766
+know, 5052, 0.00934456721649
+like, 5272, 0.00913473069099

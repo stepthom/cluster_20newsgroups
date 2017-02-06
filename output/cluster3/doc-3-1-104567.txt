@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104567
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: sepinwal@mail.sas.upenn.edu (Alan Sepinwall)
+Subject: Re: Yankee fears.
+Organization: University of Pennsylvania, School of Arts and Sciences
+Lines: 26
+Nntp-Posting-Host: mail.sas.upenn.edu
+
+
+I would e-mail this to you, but my mailserver doesn't recognize you or
+something.
+
+Anyway, the worst pitcher on the Yanks. If you mean currently on the team,
+then I have to go with Scott "I'm a schizophrenic...No, I'm NOT!"
+Kamienicki. Sure, occasionally the guy can pitch well for 5 or 6 innings,
+but then he starts to go insane. A sure sign that he's losing his stuff
+(and his mind) is when he starts to stalk around the mound between batters
+and yell at himself.
+
+The worst all-time Yanks pitcher?  Gotta go with Ed "New York? I have to
+pitch in [gulp] New York?" Whitson. 'Nuff said!
+
+
+--I'm outta here like Vladimir!
+-Alan Sepinwall XVIII
+
+===========================================================================
+| "What's this?  This is ice.  This is what happens to water when it gets |
+|  too cold.  This?  This is Kent.  This is what happens to people when   |
+|  they get too sexually frustrated."                                     |
+|               -Val Kilmer, "Real Genius"                                |
+===========================================================================
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yanke fear      mail mailserv doesn't recogn
+someth  anyway worst pitcher yank mean current
+team scott i'm schizophren i'm kamienicki sure
+occasion guy pitch well inning start insan sure
+sign he lose stuff mind start stalk around mound
+batter yell  worst time yank pitcher gotta new
+york pitch gulp new york whitson nuff said   i'm
+outta like vladimir alan sepinwal xviii   what ice
+happen water get cold kent happen peopl get sexual
+frustrat val kilmer real genius
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yank, 9932, 0.284836188544
+worst, 9849, 0.235876962812
+york, 9960, 0.227336424171
+stalk, 8306, 0.194317679142
+pitcher, 6644, 0.191039430397
+sepinwal, 7799, 0.182040841364
+kilmer, 5014, 0.177659048297
+pitch, 6643, 0.175470482696
+insan, 4668, 0.173954295048
+happen, 4159, 0.169409627943
+vladimir, 9557, 0.16791437394
+outta, 6334, 0.165382210519
+val, 9408, 0.163091590077
+sure, 8585, 0.154792698275
+yell, 9946, 0.154086460965
+frustrat, 3706, 0.15262944978
+start, 8334, 0.152148365896
+mound, 5885, 0.151255743095
+genius, 3826, 0.146432959232
+ice, 4475, 0.145364635615
+gotta, 3961, 0.143360698383
+sexual, 7827, 0.142418094272
+occasion, 6187, 0.142418094272
+new, 6023, 0.140016573772
+alan, 376, 0.137427830121
+recogn, 7173, 0.130892359001
+cold, 1888, 0.129234230959
+scott, 7713, 0.126226144578
+water, 9657, 0.125759463427
+fear, 3417, 0.125301671984
+kent, 4987, 0.114812872423
+batter, 949, 0.114233728156
+yanke, 9933, 0.112047373926
+inning, 4657, 0.110775472699
+sign, 7946, 0.109333040419
+lose, 5350, 0.105661643627
+mind, 5733, 0.0936263488278
+stuff, 8472, 0.0920980432443
+guy, 4100, 0.0902357611512
+current, 2299, 0.0870793204466
+mail, 5447, 0.0826206206776
+real, 7144, 0.0823913662451
+said, 7583, 0.0800041431644
+team, 8732, 0.0797984358534
+doesn, 2793, 0.0779589233727
+mean, 5595, 0.0742722470882
+someth, 8126, 0.0707464124362
+peopl, 6530, 0.0652061626343
+time, 8936, 0.0571036773385
+like, 5272, 0.0506049070181

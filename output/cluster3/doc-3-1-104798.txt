@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104798
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jbrown@stein.u.washington.edu (Jeffery Brown)
+Subject: Re: Early BBDDD Returns?
+Organization: University of Washington, Seattle
+Lines: 17
+NNTP-Posting-Host: stein.u.washington.edu
+
+In article <1993Apr16.073051.9160@news.cs.brandeis.edu> st902415@pip.cc.brandeis.edu writes:
+>Just curious if anyone has started to standout early in the season in the
+>BB DDD this year....
+
+The tater that Jack Morris served to Griffey the Younger in his first
+at-bat this year went 394 feet, if I remember right (I'll have to check
+my scorecard at home).  I think that's the longest so far in the Kingdome
+through the first stand (five games) there.  A weak showing, despite some
+promising taterball candidates ... Ben McDonald, Rich DeLucia, and the
+rest of the Mariner bullpen ... making appearances.
+
+Anyone have the tape-measure value for Omar Vizquel's grand slam in the
+Skydome?
+---
+Jeff Brown         Big Enchilada of the Brown Bag Lunches
+Astronomy Dept.    jbrown@u.washington.edu
+U. of Washington   jbrown@phast.phys.washington.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ earli bbddd return      curious anyon start
+standout earli season ddd year  tater jack morri
+serv griffey younger first bat year went feet
+rememb right i'll check scorecard home think that
+longest far kingdom first stand five game weak
+show despit promis taterbal candid ben mcdonald
+rich delucia rest marin bullpen make appear  anyon
+tape measur valu omar vizquel grand slam skydom
+jeff brown big enchilada brown bag lunch
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brown, 1344, 0.272772390988
+earli, 2951, 0.201982095281
+ddd, 2413, 0.189894718594
+tater, 8710, 0.18446055315
+standout, 8316, 0.18446055315
+longest, 5338, 0.18446055315
+bbddd, 959, 0.18002051669
+skydom, 8012, 0.176266519353
+omar, 6230, 0.173014658947
+vizquel, 9554, 0.167580493503
+griffey, 4047, 0.161191194726
+slam, 8015, 0.159386459707
+lunch, 5394, 0.159386459707
+mcdonald, 5573, 0.1577062916
+ben, 1020, 0.153266255141
+younger, 9963, 0.150700433857
+grand, 3991, 0.140027708666
+bag, 864, 0.140027708666
+kingdom, 5025, 0.137778161677
+candid, 1489, 0.137072234616
+weak, 9668, 0.133219040489
+marin, 5511, 0.132632198157
+anyon, 554, 0.130880633225
+rich, 7382, 0.130416782607
+despit, 2570, 0.130416782607
+bullpen, 1391, 0.130416782607
+jeff, 4839, 0.129380337751
+feet, 3430, 0.126967198963
+tape, 8700, 0.12477176928
+year, 9943, 0.122406288607
+morri, 5868, 0.119170230131
+serv, 7810, 0.118838894702
+curious, 2297, 0.118189448792
+promis, 6913, 0.114344071317
+jack, 4808, 0.113802876192
+measur, 5601, 0.109858473051
+went, 9704, 0.108746280767
+stand, 8311, 0.105494420361
+return, 7346, 0.104018042383
+rest, 7324, 0.104018042383
+bat, 942, 0.100060254917
+valu, 9414, 0.0996078683167
+check, 1682, 0.0993108795342
+appear, 580, 0.099017469017
+home, 4354, 0.0939062505143
+season, 7747, 0.0937883191539
+rememb, 7269, 0.089683916083
+big, 1082, 0.0829529515219
+far, 3386, 0.0813482959668
+ll, 5314, 0.0771446961057
+start, 8334, 0.0770853714031
+right, 7399, 0.0740791623799
+game, 3761, 0.0738187023747
+make, 5459, 0.0610799947196
+think, 8871, 0.0557751527168

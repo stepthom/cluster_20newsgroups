@@ -1,0 +1,163 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105014
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dwarner@journalism.indiana.edu (David J.)
+Subject: Re: Why Spanky?
+Nntp-Posting-Host: clove.journalism.indiana.edu
+Reply-To: dwarner@journalism.indiana.edu
+Organization: Indiana University
+Lines: 37
+
+Sherri Nichols writes
+> In article <1ql93bINN1s5@postoffice1.psc.edu> boone@psc.edu (Jon Boone)  
+writes:
+> >       Spanky is too slow!  If he were quicker, he would still be here.
+> >But with Slaught and Tom Prince, they didn't want to lose Prince in order
+> >to bring up that 11th pitcher.  Slaught is about as good as Spanky and
+> >Prince is coming along nicely!
+> 
+> Tom Prince is a 28 year old no-hit catcher.  Think of him as a young Dann
+> Bilardello.  
+
+Or a young Don Bordello...
+
+> I can't begin to fathom why the Pirates have been so afraid of
+> losing this guy, who's been in AAA most of the last 5 seasons.  The Pirates
+> released Kirk Gibson last year because Prince was out of options, then
+> eventually sent Prince down anyway, and he cleared waivers without a peep.
+> He's another year older, and still can't hit; why do they think he wouldn't
+> clear waivers now?  Why would they care?
+
+There's a strong possibility that the Bucs have absolutely no other catching  
+prospects in the minors at this point -- at least nobody ready for any serious  
+AAA/majors duty.  The main reason they might have stayed with Prince could be  
+just age, especially if Spanky was creeping toward his mid-30s or something.
+ 
+All things considered, though, I'd be a lot more comfortable with Spanky behind  
+the plate than Prince.  Isn't there decent backup backstop out there looking  
+for work?
+
+> Sherri Nichols
+> snichols@adobe.com
+
+--
+David J.(dwarner@journalism.indiana.edu)*****Blue Riddle Productions 1993
+*-------------------------------It's on.--------------------------------*
+***"THE RAP IS AN ART EP" is coming out on tape -- this time for real.***
+*------------------------E-mail me for the 411.-------------------------*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ spanki      sherri nichol write psc edu jon boon
+spanki slow quicker still slaught tom princ didn't
+want lose princ order bring 11th pitcher slaught
+good spanki princ come along nice  tom princ year
+old hit catcher think young dann bilardello  young
+bordello  can't begin fathom pirat afraid lose guy
+who aaa last season pirat releas kirk gibson last
+year princ option eventu sent princ anyway clear
+waiver without peep he anoth year older still
+can't hit think wouldn't clear waiver care  there
+strong possibl buc absolut catch prospect minor
+point least nobodi readi serious aaa major duti
+main reason might stay princ could age especi
+spanki creep toward mid 30s someth  thing consid
+though i'd lot comfort spanki behind plate princ
+isn't decent backup backstop look work  sherri
+nichol     it rap art come tape time real mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+princ, 6867, 0.608018953572
+spanki, 8183, 0.442329727298
+slaught, 8019, 0.164705302161
+waiver, 9612, 0.15345578604
+pirat, 6639, 0.136128820576
+sherri, 7879, 0.134720475805
+aaa, 157, 0.132752110554
+nichol, 6050, 0.129793415974
+tom, 8976, 0.107973622828
+young, 9962, 0.106880512512
+lose, 5350, 0.105229171178
+dann, 2360, 0.0933183401926
+30s, 85, 0.0933183401926
+clear, 1803, 0.0918347919942
+peep, 6504, 0.0906478746668
+boon, 1223, 0.0906478746668
+year, 9943, 0.0902296159147
+psc, 6958, 0.0884659454595
+quicker, 7038, 0.0866211506007
+fathom, 3405, 0.0850231166064
+buc, 1357, 0.0850231166064
+hit, 4316, 0.0837000705891
+11th, 15, 0.0836135507265
+kirk, 5030, 0.0823526510806
+rap, 7098, 0.0812120286072
+gibson, 3867, 0.0812120286072
+duti, 2931, 0.0760023691965
+backup, 858, 0.0753183271403
+jon, 4887, 0.072916805021
+comfort, 1929, 0.0700307034283
+come, 1923, 0.0694071009554
+afraid, 318, 0.068432669434
+prospect, 6937, 0.0673602379025
+older, 6218, 0.0663760552768
+mid, 5698, 0.0643526380283
+decent, 2440, 0.0638322309109
+catch, 1556, 0.0633335138364
+catcher, 1557, 0.0617354798421
+tape, 8700, 0.0613155252467
+plate, 6674, 0.0607119951189
+nobodi, 6088, 0.0605173976942
+slow, 8044, 0.0592372112142
+readi, 7139, 0.0588952600101
+eventu, 3233, 0.0588952600101
+art, 660, 0.0585628086897
+option, 6276, 0.0579243918429
+stay, 8355, 0.0571714720258
+absolut, 193, 0.055794382361
+minor, 5745, 0.0550382902502
+think, 8871, 0.0548182141565
+sent, 7793, 0.0543271417771
+age, 328, 0.053547588616
+begin, 994, 0.0531239168353
+strong, 8456, 0.0530203016605
+main, 5450, 0.0525152698494
+releas, 7253, 0.0523190772927
+bring, 1316, 0.0506000364239
+wouldn, 9854, 0.0500241703813
+especi, 3190, 0.0495517085822
+nice, 6047, 0.0484462329121
+pitcher, 6644, 0.0475643767996
+care, 1516, 0.0471151425786
+season, 7747, 0.046089592895
+old, 6216, 0.0452523650298
+guy, 4100, 0.0449332133714
+major, 5458, 0.0439269505218
+isn, 4783, 0.0438308256843
+edu, 3001, 0.0424319022933
+order, 6281, 0.0423048128377
+consid, 2059, 0.0419723615173
+write, 9865, 0.041256484996
+mail, 5447, 0.0411412274959
+real, 7144, 0.0410270694481
+didn, 2625, 0.0399762985161
+possibl, 6765, 0.0392364997745
+reason, 7156, 0.0386014713484
+anoth, 533, 0.0385705875172
+lot, 5356, 0.0373405717024
+someth, 8126, 0.0352284239053
+work, 9833, 0.0339047027087
+point, 6710, 0.033780040353
+thing, 8869, 0.0326940338938
+want, 9634, 0.0326000233716
+good, 3948, 0.0307632576831
+look, 5341, 0.0298660499319
+time, 8936, 0.0284349761714

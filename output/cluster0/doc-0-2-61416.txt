@@ -1,0 +1,475 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61416
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Galileo Update - 04/29/93
+Keywords: Galileo, JPL
+Organization: Jet Propulsion Laboratory
+Lines: 134
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41
+
+Forwarded from Neal Ausman, Galileo Mission Director
+
+                                 GALILEO
+                     MISSION DIRECTOR STATUS REPORT
+                               POST-LAUNCH
+                           April 23 - 29, 1993
+
+SPACECRAFT
+
+1.  On April 22 and 23, delta Differenced One-way Range (DOR) passes were
+performed over DSS-14/63 (Goldstone/Madrid 70 meter antennas) and DSS-14/43
+(Goldstone/Canberra 70 meter antennas), respectively.  Initial results 
+indicate the delta DOR pass on April 22 was unsuccessful due to ground
+station hardware problems but the one on April 23 was successfully performed.
+
+2.  On April 23, a cruise science Memory Readout (MRO) was performed for the
+Magnetometer (MAG) instrument.  Analysis indicates the data was received
+properly.
+
+3.  On April 23, the spare power relay contacts were commanded closed via the
+spacecraft stored sequence.  These relays were commanded closed by the CDS
+(Command Data Subsystem) prior to launch and were again commanded closed to
+preclude the possibility at Jupiter of the PPS relays/wiring being a
+source of internal electrostatic charge (IESD).
+
+4.  On April 26, cruise science Memory Readouts (MRO) were performed for the
+Extreme Ultraviolet Spectrometer (EUV), Dust Detector (DDS), and Magnetometer
+(MAG) instruments.  Preliminary analysis indicates the data was received
+properly.
+
+5.  During the period from April 26 to April 27, a navigation cycle was
+performed.  This navigation cycle provided near-continuous acquisition of
+two-way doppler and ranging data during three consecutive passes of the
+spacecraft over DSS-63, DSS-14, and DSS-43.
+
+6.  On April 26, real-time commands were sent to test slew the Radio Relay
+Antenna (RRA) in preparation for the mini-sequence slew test on April 28.
+The RRA was slewed from approximately 3.5 degrees from stow to approximately
+20.3 degrees.  Preliminary analysis indicated the antenna slewed to about 18
+degrees which was well within the predicted range.  The RRA was commanded back
+to approximately 15.2 degrees from stow.  Preliminary analysis indicated the
+antenna reached about 15.8 degrees also well within the predicted range.  The
+RRA motor temperature was at 1 degree C at the start of the activity and had
+increased to 1.6 degrees C at its completion.
+
+     After verifying proper RRA slewing, the RRA slew test mini-sequence was
+uplinked to the spacecraft for execution on April 28.  Upon successful uplink,
+a Delayed Action Command (DAC) was sent which will reposition the stator on
+May 4 to its initial pre-test position.  Also, a DAC was sent to turn the
+Two-Way Noncoherent (TWNC) on April 28 prior to the start of the RRA slew test
+mini-sequence.
+
+7.  On April 27, a NO-OP command was sent to reset the command loss timer to
+264 hours, its planned value during this mission phase.
+
+8.  On April 28, the RRA slew test executed nominally.  The spacecraft under
+stored sequence control performed six RRA slews starting at about 16 degrees
+from stow and going to 53 degrees, back to 25 degrees, then to 51 degrees,
+back to 22 degrees, then to 48 degrees and then back to 21 degrees.  All of
+the slews were well within the predicted range.  The RRA motor temperature was
+at 2.3 degrees C at the start of the activity and had increased to 4.4
+degrees C at its completion.  After completion of the RRA slews, real-time
+commands were sent to reconfigure back to the pre-test configuration.
+
+9.  The AC/DC bus imbalance measurements have not exhibited significant change
+(greater than 25 DN) throughout this period.  The AC measurement reads 17 DN
+(3.9 volts).  The DC measurement reads 134 DN (15.7 volts).  These
+measurements are consistent with the model developed by the AC/DC special
+anomaly team.
+
+10. The Spacecraft status as of April 29, 1993, is as follows:
+
+       a)  System Power Margin -  75 watts
+       b)  Spin Configuration - Dual-Spin
+       c)  Spin Rate/Sensor - 3.15rpm/Star Scanner
+       d)  Spacecraft Attitude is approximately 23 degrees
+           off-sun (lagging) and 4 degrees off-earth (leading)
+       e)  Downlink telemetry rate/antenna- 40bps(coded)/LGA-1
+       f)  General Thermal Control - all temperatures within
+           acceptable range
+       g)  RPM Tank Pressures - all within acceptable range
+       h)  Orbiter Science- Instruments powered on are the PWS,
+           EUV, UVS, EPD, MAG, HIC, and DDS
+       i)  Probe/RRH - powered off, temperatures within
+           acceptable range
+       j)  CMD Loss Timer Setting - 264 hours
+           Time To Initiation - 203 hours
+
+
+GDS (Ground Data Systems):
+
+1.  The first Galileo-GDS test of the MGDS V18.0 Command System (CMD) took
+place April 27, 1993 with DSS-61 (Madrid 34 meter antenna).  The test went
+well and demonstrated that the new command system interfaced with the new DSN
+(Deep Space Network) Group 5 Command Processor Assembly (CPA).  The test was
+successful and the next test for V18.0 CMD is scheduled for May 1, 1993 with
+DSS-15 (Goldstone 34 meter antenna).
+
+2.  The April System Engineers Monthly Report(SEMR)/Ground System Development
+Office (GSDO) MMR was conducted Thursday, April 29.   A review of current
+Project and Institutional (DSN and MOSO) system status was conducted.  On-going
+cruise development plus the GSDO Phase 1 and 2 delivery schedules, past months
+accomplishments  and potential problem areas were discussed.  No significant
+schedule changes or significant problems were reported.
+
+
+TRAJECTORY
+
+     As of noon Thursday, April 29, 1993, the Galileo Spacecraft trajectory
+status was as follows:
+
+	Distance from Earth         187,745,300 km (1.26 AU)
+	Distance from Sun           296,335,800 km (1.98 AU)
+	Heliocentric Speed          89,100 km per hour
+	Distance from Jupiter       522,015,800 km
+	Round Trip Light Time       20 minutes, 58 seconds
+
+SPECIAL TOPIC
+
+1.  As of April 29, 1993, a total of 70259 real-time commands have been
+transmitted to Galileo since Launch.  Of these, 65150  were initiated in the
+sequence design process and 5109 initiated in the real-time command process.
+In the past week, 74 real time commands were transmitted: 73 were initiated
+in the sequence design process and one initiated in the real time command
+process.  Major command activities included commands to perform the initial
+RRA slew test, uplink the RRA slew test mini-sequence, DACs to reposition the
+stator and turn the TWNC on, reset the command loss timer, and execute the
+RRA slew test.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ galileo updat     news softwar vax vms vnew
+forward neal ausman galileo mission director
+galileo mission director status report post launch
+april  spacecraft  april delta differenc one way
+rang dor pass perform dss goldston madrid meter
+antenna dss goldston canberra meter antenna
+respect initi result indic delta dor pass april
+unsuccess due ground station hardwar problem one
+april success perform  april cruis scienc memori
+readout mro perform magnetomet mag instrument
+analysi indic data receiv proper  april spare
+power relay contact command close via spacecraft
+store sequenc relay command close cds command data
+subsystem prior launch command close preclud
+possibl jupit pps relay wire sourc intern
+electrostat charg iesd  april cruis scienc memori
+readout mro perform extrem ultraviolet spectromet
+euv dust detector dds magnetomet mag instrument
+preliminari analysi indic data receiv proper
+period april april navig cycl perform navig cycl
+provid near continu acquisit two way doppler rang
+data three consecut pass spacecraft dss dss dss
+april real time command sent test slew radio relay
+antenna rra prepar mini sequenc slew test april
+rra slew approxim degre stow approxim degre
+preliminari analysi indic antenna slew degre well
+within predict rang rra command back approxim
+degre stow preliminari analysi indic antenna reach
+degre also well within predict rang rra motor
+temperatur degre start activ increas degre complet
+verifi proper rra slew rra slew test mini sequenc
+uplink spacecraft execut april upon success uplink
+delay action command dac sent reposit stator initi
+pre test posit also dac sent turn two way noncoher
+twnc april prior start rra slew test mini sequenc
+april command sent reset command loss timer hour
+plan valu mission phase  april rra slew test
+execut nomin spacecraft store sequenc control
+perform six rra slew start degre stow go degre
+back degre degre back degre degre back degre slew
+well within predict rang rra motor temperatur
+degre start activ increas degre complet complet
+rra slew real time command sent reconfigur back
+pre test configur  bus imbal measur exhibit
+signific chang greater throughout period measur
+read volt measur read volt measur consist model
+develop special anomali team  spacecraft status
+april follow  system power margin watt spin
+configur dual spin spin rate sensor 15rpm star
+scanner spacecraft attitud approxim degre sun lag
+degre earth lead downlink telemetri rate antenna
+40bps code lga general thermal control temperatur
+within accept rang rpm tank pressur within accept
+rang orbit scienc instrument power pws euv uv epd
+mag hic dds probe rrh power temperatur within
+accept rang cmd loss timer set hour time initi
+hour   gds ground data system  first galileo gds
+test mgds v18 command system cmd took place april
+dss madrid meter antenna test went well demonstr
+new command system interfac new dsn deep space
+network group command processor assembl cpa test
+success next test v18 cmd schedul dss goldston
+meter antenna  april system engin month report
+semr ground system develop offic gsdo mmr conduct
+thursday april review current project institut dsn
+moso system status conduct go cruis develop plus
+gsdo phase deliveri schedul past month accomplish
+potenti problem area discuss signific schedul
+chang signific problem report   trajectori  noon
+thursday april galileo spacecraft trajectori
+status follow  distanc earth distanc sun
+heliocentr speed per hour distanc jupit round trip
+light time minut second  special topic  april
+total real time command transmit galileo sinc
+launch initi sequenc design process initi real
+time command process past week real time command
+transmit initi sequenc design process one initi
+real time command process major command activ
+includ command perform initi rra slew test uplink
+rra slew test mini sequenc dac reposit stator turn
+twnc reset command loss timer execut rra slew test
+jet propuls lab telo aweto new zealand pasadena
+part caterpillar part veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rra, 7510, 0.38480598187
+slew, 8027, 0.351817008211
+command, 1933, 0.298351529956
+april, 595, 0.296517737517
+degre, 2491, 0.283966854532
+test, 8812, 0.195549374998
+dss, 2894, 0.185557160369
+antenna, 538, 0.154675933329
+sequenc, 7804, 0.148772643484
+initi, 4647, 0.131988315366
+rang, 7094, 0.122940044228
+spacecraft, 8166, 0.121200893665
+galileo, 3755, 0.116006949997
+perform, 6539, 0.0966136516573
+mini, 5737, 0.0935729341819
+relay, 7252, 0.0841475131363
+goldston, 3936, 0.0795244973012
+dac, 2331, 0.0795244973012
+cmd, 1851, 0.0795244973012
+meter, 5663, 0.0786339952712
+uplink, 9338, 0.0772487664206
+sent, 7793, 0.0771612995317
+temperatur, 8773, 0.0743863217422
+status, 8352, 0.0740586430382
+indic, 4600, 0.0740350692046
+stow, 8421, 0.073817252246
+approxim, 593, 0.0703917556434
+real, 7144, 0.0699253130063
+preliminari, 6824, 0.0675039770716
+mag, 5430, 0.0653863657328
+time, 8936, 0.0646182999294
+analysi, 490, 0.0644722969405
+timer, 8938, 0.0641851547192
+data, 2385, 0.062947165168
+cruis, 2255, 0.0616852718233
+measur, 5601, 0.0613423403476
+hour, 4395, 0.0612158463359
+execut, 3272, 0.0580034749984
+spin, 8235, 0.0568366603282
+v18, 9401, 0.0549722831243
+mro, 5899, 0.0549722831243
+process, 6890, 0.0549671219525
+instrument, 4686, 0.0535638809712
+volt, 9574, 0.0530163315341
+gds, 3803, 0.0530163315341
+dds, 2414, 0.0530163315341
+proper, 6924, 0.0515720234594
+madrid, 5428, 0.0514991776138
+power, 6783, 0.050471523662
+dsn, 2891, 0.0502595726015
+distanc, 2744, 0.0499063518702
+readout, 7142, 0.0492115014973
+euv, 3223, 0.0492115014973
+loss, 5352, 0.0491007880716
+reset, 7310, 0.0475028136689
+magnetomet, 5438, 0.0475028136689
+schedul, 7678, 0.0463953167769
+predict, 6816, 0.0461991856139
+ground, 4061, 0.0458178886382
+pass, 6448, 0.0455409891092
+success, 8513, 0.0452714093744
+signific, 7951, 0.0439428989836
+activ, 252, 0.0435608878017
+start, 8334, 0.0430426252716
+accept, 208, 0.0419034374997
+thursday, 8911, 0.0411235145489
+navig, 5969, 0.0411235145489
+report, 7291, 0.0405895346638
+director, 2668, 0.0405566026478
+mission, 5772, 0.0403131354662
+launch, 5147, 0.0400972860091
+transmit, 9059, 0.0400333442136
+complet, 1975, 0.0394257494028
+trajectori, 9044, 0.0388781999657
+close, 1830, 0.0386556851642
+cycl, 2325, 0.0384660129134
+conduct, 2021, 0.0384660129134
+motor, 5882, 0.0382689265314
+configur, 2030, 0.0382689265314
+scienc, 7692, 0.0381140442841
+delta, 2509, 0.0380773926233
+develop, 2588, 0.037983012424
+prior, 6874, 0.0378911068855
+phase, 6583, 0.0375331819257
+pre, 6802, 0.0371931608711
+jupit, 4932, 0.0355772303355
+store, 8417, 0.034491904321
+problem, 6887, 0.0320853651564
+memori, 5628, 0.030799457076
+increas, 4590, 0.0306711701738
+special, 8198, 0.0303002234162
+period, 6546, 0.0303002234162
+receiv, 7167, 0.0297236914157
+new, 6023, 0.0297079147771
+rate, 7108, 0.0295061047159
+past, 6456, 0.0287470640943
+control, 2107, 0.0283744226696
+sun, 8539, 0.0281077608801
+month, 5847, 0.0280211481916
+turn, 9158, 0.0270596897758
+way, 9666, 0.0266780458926
+rrh, 7511, 0.0265081657671
+rpm, 7509, 0.0265081657671
+pps, 6792, 0.0265081657671
+electrostat, 3035, 0.0265081657671
+ausman, 788, 0.0265081657671
+40bps, 105, 0.0265081657671
+15rpm, 27, 0.0265081657671
+design, 2564, 0.0264184710794
+uv, 9393, 0.0257495888069
+unsuccess, 9314, 0.0257495888069
+reconfigur, 7181, 0.0257495888069
+imbal, 4521, 0.0257495888069
+epd, 3144, 0.0257495888069
+preclud, 6810, 0.0251297863008
+neal, 5981, 0.0251297863008
+lga, 5239, 0.0251297863008
+lag, 5094, 0.0251297863008
+canberra, 1486, 0.0251297863008
+downlink, 2842, 0.0246057507487
+doppler, 2821, 0.0246057507487
+chang, 1650, 0.024428609174
+consecut, 2054, 0.0241518105057
+dual, 2899, 0.0237514068345
+earth, 2956, 0.0236844133502
+telemetri, 8759, 0.0233932335455
+watt, 9660, 0.0230692263938
+spectromet, 8211, 0.0230692263938
+anomali, 530, 0.0230692263938
+ultraviolet, 9201, 0.0227734310394
+noon, 6104, 0.0225013256905
+follow, 3578, 0.0223469792531
+acquisit, 245, 0.0222493954873
+deliveri, 2508, 0.0215893617181
+subsystem, 8505, 0.0212112499435
+sensor, 7792, 0.0210368782841
+nomin, 6096, 0.020871016021
+caterpillar, 1562, 0.0207128711324
+aweto, 836, 0.0207128711324
+read, 7135, 0.0206966523332
+exhibit, 3282, 0.020417075778
+detector, 2580, 0.020417075778
+veget, 9448, 0.0201449704291
+dust, 2928, 0.0201449704291
+verifi, 9472, 0.0200166721068
+scanner, 7663, 0.0200166721068
+delay, 2500, 0.0200166721068
+spare, 8186, 0.0198930402259
+wire, 9793, 0.0197737472122
+telo, 8769, 0.0196584988178
+zealand, 9977, 0.0191344632657
+round, 7494, 0.0188548946821
+bus, 1419, 0.0188548946821
+processor, 6891, 0.0187665909628
+thermal, 8857, 0.0185965804356
+trip, 9104, 0.0184346687854
+prepar, 6831, 0.0184346687854
+accomplish, 218, 0.018356515871
+probe, 6886, 0.018205402013
+pasadena, 6446, 0.018205402013
+assembl, 698, 0.0180607205166
+margin, 5507, 0.0178546269904
+review, 7358, 0.0177886151677
+deep, 2466, 0.0177886151677
+attitud, 769, 0.0177886151677
+interfac, 4709, 0.0176603168454
+tank, 8695, 0.0175366849645
+greater, 4017, 0.0175366849645
+pressur, 6842, 0.0168270225467
+jet, 4860, 0.0168270225467
+extrem, 3333, 0.0168270225467
+propuls, 6936, 0.0164985394207
+demonstr, 2520, 0.0164102357014
+plus, 6700, 0.0163241677613
+potenti, 6774, 0.0162819373791
+topic, 8992, 0.0162402251742
+charg, 1664, 0.0161583054982
+lab, 5085, 0.0160390124845
+network, 6018, 0.0157399624605
+minut, 5747, 0.0157043652552
+institut, 4683, 0.0156342699461
+consist, 2061, 0.015498271729
+vnew, 9564, 0.0154651055923
+action, 251, 0.0154651055923
+forward, 3621, 0.0154322599063
+respect, 7321, 0.015399728538
+contact, 2078, 0.015399728538
+went, 9704, 0.0151803297031
+radio, 7061, 0.0151803297031
+hardwar, 4173, 0.0151803297031
+intern, 4716, 0.0151201599544
+offic, 6206, 0.0150610366894
+vms, 9563, 0.0150029241282
+took, 8987, 0.0150029241282
+vax, 9439, 0.0148343192251
+reach, 7128, 0.0147799260319
+updat, 9333, 0.0147263894601
+star, 8324, 0.0146999340577
+station, 8346, 0.0143496757945
+continu, 2092, 0.0143496757945
+model, 5807, 0.0142558904798
+valu, 9414, 0.013904662039
+plan, 6660, 0.0138838699128
+speed, 8217, 0.0138222458317
+area, 622, 0.0138222458317
+lead, 5172, 0.0138019502368
+near, 5982, 0.0137617189737
+total, 9013, 0.0135674088287
+light, 5267, 0.0135298448879
+code, 1871, 0.0135112174328
+posit, 6761, 0.0133480099938
+engin, 3109, 0.0132606143824
+result, 7332, 0.0131922803821
+general, 3818, 0.0131252929526
+discuss, 2708, 0.0130759046449
+project, 6909, 0.0126178809155
+provid, 6949, 0.0125752978696
+sourc, 8153, 0.0125472026514
+week, 9691, 0.0125193377245
+major, 5458, 0.0124779639637
+current, 2299, 0.0123173276848
+orbit, 6280, 0.0123042777568
+set, 7815, 0.0121764618729
+second, 7753, 0.0118308560734
+group, 4064, 0.0118308560734
+news, 6031, 0.0117413903298
+includ, 4579, 0.0116975251786
+place, 6657, 0.0116434779027
+softwar, 8103, 0.0113458956877
+team, 8732, 0.0112874500868
+possibl, 6765, 0.0111455865803
+sinc, 7977, 0.0103630108635
+post, 6766, 0.009928441055
+space, 8164, 0.00964291365826

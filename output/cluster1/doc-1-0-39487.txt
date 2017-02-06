@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39487
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: walsh@mari.acc-admin.stolaf.edu (Brian L Walsh)
+Subject: VESA driver for XGA-2
+Organization: St. Olaf College; Northfield, MN
+Lines: 6
+
+	I heard that there is a VESA driver for the XGA-2 card available on 
+compuserve. I just got this card, and I am wondering if this driver is 
+available on a FTP site anywhere. My news service has beeen erratic lately so
+please E-Mail me at:
+				walsh@stolaf.edu
+	Thanks in advance. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vesa driver xga    heard vesa driver xga card
+avail compuserv got card wonder driver avail ftp
+site anywher news servic beeen errat late pleas
+mail  thank advanc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+xga, 9895, 0.506482596629
+driver, 2876, 0.489591376113
+vesa, 9484, 0.358566933837
+card, 1513, 0.278883233679
+avail, 811, 0.225616599009
+compuserv, 1991, 0.206250332042
+anywher, 557, 0.175365883576
+late, 5139, 0.149029651286
+site, 7994, 0.133847660579
+servic, 7813, 0.133642760401
+ftp, 3709, 0.131279786106
+heard, 4224, 0.123393451587
+advanc, 285, 0.12280295222
+wonder, 9821, 0.117922301667
+news, 6031, 0.112169395547
+mail, 5447, 0.111646412097
+got, 3960, 0.106566097543
+pleas, 6688, 0.0955373811931
+thank, 8832, 0.0909489818936

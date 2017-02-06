@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62454
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Dan Gaubatz <dgaubat1@cc.swarthmore.edu>
+Subject: Re: Space Marketing -- Boycott
+X-Xxmessage-Id: <A81C7BFCE602410B@erewhon.swarthmore.edu>
+X-Xxdate: Sun, 16 May 93 04:17:16 GMT
+Nntp-Posting-Host: erewhon.swarthmore.edu
+Organization: Swarthmore College
+Lines: 12
+
+For some reasons we humans think that it is our place to control
+everything.  I doubt that space advertising is any worse than any other
+kind advertising, but it will be a lot harder to escape, and is probably
+the most blatant example yet of our disregard for the fact that we are 
+not in fact creaters of the universe.  Annoying little species, aren't we?
+
+
+**********
+Dan Gaubatz (dgaubat1@cc.swarthmore.edu)
+Itty Bitty Programmer Guy
+The Geometry Forum
+Swarthmore College
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market boycott  xxdate sun gmt     reason
+human think place control everyth doubt space
+advertis wors kind advertis lot harder escap
+probabl blatant exampl yet disregard fact fact
+creater univers annoy littl speci aren't     itti
+bitti programm guy geometri forum swarthmor colleg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+advertis, 291, 0.322407932794
+swarthmor, 8622, 0.235669133946
+bitti, 1129, 0.235669133946
+boycott, 1257, 0.214720109838
+xxdate, 9918, 0.211160346886
+blatant, 1144, 0.207976030417
+fact, 3350, 0.207413746611
+itti, 4803, 0.200046581296
+disregard, 2739, 0.195721636887
+speci, 8197, 0.187027006309
+geometri, 3844, 0.180282926888
+annoy, 525, 0.177956929248
+harder, 4170, 0.175797221178
+escap, 3185, 0.174772612778
+space, 8164, 0.17145940089
+forum, 3620, 0.167628222165
+colleg, 1900, 0.158148533079
+programm, 6906, 0.153324022698
+gmt, 3917, 0.151404453658
+wors, 9846, 0.150943024036
+market, 5514, 0.137786382813
+doubt, 2830, 0.135230800376
+aren, 623, 0.131883556002
+everyth, 3242, 0.130223834139
+control, 2107, 0.126130485141
+sun, 8539, 0.124945115441
+human, 4432, 0.116689568419
+guy, 4100, 0.113475780418
+exampl, 3258, 0.109622872072
+kind, 5021, 0.107811210507
+place, 6657, 0.10351558752
+littl, 5308, 0.101576956321
+univers, 9282, 0.100436328381
+probabl, 6885, 0.0988430662688
+reason, 7156, 0.0974853957212
+lot, 5356, 0.0943010792521
+think, 8871, 0.0692198394661

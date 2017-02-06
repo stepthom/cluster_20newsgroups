@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38497
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: markus@octavia.anu.edu.au (Markus Buchhorn)
+Subject: HDF readers/viewers
+Organization: Australian National University, Canberra
+Lines: 33
+Distribution: world
+NNTP-Posting-Host: 150.203.5.35
+Originator: markus@octavia
+
+
+
+G'day all,
+
+Can anybody point me at a utility which will read/convert/crop/whatnot/
+display HDF image files ? I've had a look at the HDF stuff under NCSA 
+and it must take an award for odd directory structure, strange storage
+approaches and minimalist documentation :-)
+
+Part of the problem is that I want to look at large (5MB+) HDF files and
+crop out a section. Ideally I would like a hdftoppm type of utility, from
+which I can then use the PBMplus stuff quite merrily. I can convert the cropped
+part into another format for viewing/animation.
+
+Otherwise, can someone please explain how to set up the NCSA Visualisation S/W
+for HDF (3.2.r5 or 3.3beta) and do the above cropping/etc. This is for
+Suns with SunOS 4.1.2.
+
+Any help GREATLY appreciated. Ta muchly !
+
+Cheers,
+	Markus
+
+-- 
+Markus Buchhorn, Parallel Computing Research Facility
+email = markus@octavia.anu.edu.au
+Australian National University, Canberra, 0200 , Australia.
+[International = +61 6, Australia = 06] [Phone = 2492930, Fax = 2490747]
+-- 
+Markus Buchhorn, Parallel Computing Research Facility
+email = markus@octavia.anu.edu.au
+Australian National University, Canberra, 0200 , Australia.
+[International = +61 6, Australia = 06] [Phone = 2492930, Fax = 2490747]
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hdf reader viewer     origin markus octavia
+g'day  anybodi point util read convert crop
+whatnot display hdf imag file i'v look hdf stuff
+ncsa must take award odd directori structur strang
+storag approach minimalist document  part problem
+want look larg 5mb hdf file crop section ideal
+like hdftoppm type util use pbmplus stuff quit
+merrili convert crop part anoth format view anim
+otherwis someon pleas explain set ncsa visualis
+hdf 3beta crop etc sun suno  help great appreci
+much  cheer markus   markus buchhorn parallel
+comput research facil  australian nation univers
+canberra australia intern australia phone fax
+markus buchhorn parallel comput research facil
+australian nation univers canberra australia
+intern australia phone fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hdf, 4213, 0.483537023409
+markus, 5516, 0.398225530269
+crop, 2240, 0.321412497292
+australia, 792, 0.267233907097
+buchhorn, 1358, 0.206458707759
+canberra, 1486, 0.188759240513
+australian, 793, 0.178405715892
+ncsa, 5977, 0.171059773267
+parallel, 6420, 0.133616953549
+facil, 3348, 0.123263428927
+util, 9384, 0.119894667873
+intern, 4716, 0.113573186627
+phone, 6601, 0.112051506381
+fax, 3413, 0.107255635344
+convert, 2115, 0.102629232611
+nation, 5962, 0.100529288232
+5mb, 121, 0.0995563825672
+research, 7307, 0.0982180190574
+stuff, 8472, 0.0978523574348
+suno, 8546, 0.0907066489444
+comput, 1993, 0.0885277767571
+file, 3477, 0.0883603339694
+univers, 9282, 0.0848569124387
+pbmplus, 6483, 0.08450794402
+visualis, 9548, 0.0818569153216
+storag, 8416, 0.0777910678787
+award, 832, 0.0742640120613
+ideal, 4483, 0.072614305568
+reader, 7137, 0.0683737978526
+strang, 8426, 0.0658623056995
+odd, 6198, 0.0649814415026
+look, 5341, 0.0637250059669
+viewer, 9512, 0.0631970355419
+section, 7759, 0.0628322259575
+approach, 589, 0.0608384490105
+directori, 2669, 0.0605344473435
+cheer, 1687, 0.060385118544
+document, 2788, 0.0587174297002
+structur, 8460, 0.0582066629183
+otherwis, 6313, 0.0572426227476
+anim, 515, 0.0551097652661
+display, 2734, 0.0550119297926
+sun, 8539, 0.0527819808408
+anybodi, 552, 0.0519120336748
+explain, 3301, 0.0516098310027
+format, 3612, 0.0510976003136
+view, 9510, 0.0498676960774
+type, 9177, 0.0498676960774
+appreci, 587, 0.0493569292954
+larg, 5124, 0.0472819742569
+quit, 7043, 0.0467607807967
+set, 7815, 0.0457309836969
+origin, 6293, 0.0454053840199
+imag, 4512, 0.0427974838395
+great, 4016, 0.0424648826829
+someon, 8124, 0.0417209363323
+anoth, 533, 0.04114891198
+problem, 6887, 0.0401675332347
+read, 7135, 0.03886507757
+day, 2402, 0.0378600791749
+pleas, 6688, 0.0375584714454
+help, 4249, 0.0375088889877
+point, 6710, 0.0360381315568
+want, 9634, 0.0347792340904
+use, 9363, 0.0281974840022
+like, 5272, 0.0268833586201

@@ -1,0 +1,153 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61308
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: djf@cck.coventry.ac.uk (Marvin Batty)
+Subject: Re: What counntries do space surveillance?
+Nntp-Posting-Host: cc_sysk
+Organization: Starfleet, Coventry, UK
+Lines: 35
+
+The European Space Agency has involvement with remote earth 
+observation, and I presume this includes surveillance (optical etc.).
+So it's not just the US/USSR(ex) who are in the game.
+
+But what *is* the game? What can be done with space observation?
+The military functions of missile spotting, troop spotting etc. are well
+documented, but what about anything else?
+
+The biggest eg I can think of is to get a  metal sensing sat over a
+paying country and scan their territory for  precious metals.
+
+More importantly, if radar can spot water vapour (clouds), presumably
+a radar based sat will be capable of spotting rivers,open water and 
+*underground water* from space. This would be a positive life saver
+for African or other drought affected countries. Implementing a
+clean water and irrigation program would be of imense benifit to such
+countries and should cut down mortalities considerably.
+
+So how about it? Is there a charity or government agency that would
+pay for a third world country to have their minerals and water deposits
+mapped?
+
+Or is this still sci-fi?
+
+Mail replies would be great.
+
+Thought for the day: Thermal energy needs water to make steam so sstick
+it in the ocean!
+
+
+-- 
+****************************************************************************  
+                  Marvin Batty - djf@uk.ac.cov.cck
+"And they shall not find those things, with a sort of rafia like base,
+that their fathers put there just the night before. At about 8 O'clock!"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ counntri space surveil     european space agenc
+involv remot earth observ presum includ surveil
+optic etc it ussr game  game done space observ
+militari function missil spot troop spot etc well
+document anyth els  biggest think get metal sens
+sat pay countri scan territori precious metal
+import radar spot water vapour cloud presum radar
+base sat capabl spot river open water underground
+water space posit life saver african drought
+affect countri implement clean water irrig program
+imens benifit countri cut mortal consider  chariti
+govern agenc pay third world countri miner water
+deposit map  still sci  mail repli great  thought
+day thermal energi need water make steam sstick
+ocean      shall find thing sort rafia like base
+father put night o'clock
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+water, 9657, 0.455083478863
+spot, 8261, 0.282932649103
+countri, 2186, 0.280628532612
+surveil, 8596, 0.199488530601
+metal, 5658, 0.179394435967
+radar, 7055, 0.174108997724
+sat, 7626, 0.165769194936
+space, 8164, 0.164462144377
+presum, 6845, 0.154014903089
+agenc, 329, 0.150600414029
+pay, 6474, 0.131322983278
+observ, 6179, 0.12059912675
+benifit, 1030, 0.117195640814
+drought, 2880, 0.11302573942
+steam, 8364, 0.109791312618
+saver, 7647, 0.109791312618
+rafia, 7066, 0.109791312618
+counntri, 2178, 0.109791312618
+territori, 8807, 0.107148593496
+precious, 6808, 0.107148593496
+deposit, 2541, 0.104914206316
+troop, 9115, 0.102978692103
+african, 320, 0.101271447573
+underground, 9242, 0.0997442653006
+mortal, 5870, 0.0997442653006
+chariti, 1667, 0.0997442653006
+miner, 5736, 0.0920529014809
+river, 7422, 0.0912244002556
+base, 923, 0.090723586395
+ussr, 9376, 0.0904407053266
+game, 3761, 0.0878740965597
+missil, 5771, 0.0870544988619
+ocean, 6194, 0.0864627911813
+clock, 1827, 0.085347254332
+biggest, 1084, 0.0824385676504
+optic, 6273, 0.0820058541636
+remot, 7271, 0.0815856848796
+thermal, 8857, 0.0792922555594
+european, 3222, 0.0789429657581
+cloud, 1835, 0.0782686662567
+affect, 310, 0.0770074515446
+scan, 7660, 0.0758472464771
+clean, 1799, 0.0750342394546
+father, 3404, 0.0730658198346
+militari, 5715, 0.0717471997986
+shall, 7846, 0.0715386375623
+energi, 3102, 0.0705385979404
+implement, 4544, 0.0699701005535
+consider, 2060, 0.0683872758892
+function, 3722, 0.0678958788189
+sci, 7690, 0.0675772984049
+document, 2788, 0.0666615312607
+map, 5498, 0.0649871921373
+capabl, 1498, 0.0649871921373
+cut, 2313, 0.0637259774252
+repli, 7290, 0.062904188321
+involv, 4750, 0.0607843853371
+govern, 3966, 0.0604915506231
+sens, 7788, 0.060395239137
+night, 6063, 0.0588488711236
+open, 6258, 0.0575302510876
+posit, 6761, 0.0569133569101
+sort, 8144, 0.0557531518426
+import, 4551, 0.05494014482
+life, 5260, 0.0533800571413
+thought, 8887, 0.0505901811687
+earth, 2956, 0.0504929000965
+els, 3053, 0.0501101762033
+includ, 4579, 0.049876005919
+mail, 5447, 0.0498296224383
+anyth, 555, 0.0496913559653
+world, 9841, 0.0485452715277
+great, 4016, 0.0482101161257
+program, 6905, 0.0449922643115
+day, 2402, 0.042982311459
+thing, 8869, 0.0395985113735
+need, 5993, 0.038972094283
+make, 5459, 0.0363549424548
+think, 8871, 0.0331974892392
+like, 5272, 0.0305205091605

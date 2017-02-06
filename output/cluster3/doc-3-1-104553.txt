@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104553
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Pleasant Yankee Surprises
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 22
+
+In article <1993Apr15.200629.7200@alleg.edu> luriem@alleg.edu(Michael Lurie) The Liberalizer writes:
+>
+>     Actually, I kind of liked the Abott trade. We did trade the rookie of  
+>the year, SNOW, but with Don mattingly at first for another 8 years, Why  
+>bother.
+
+I'd be willing to make two wagers:
+1) Snow doesn't win ROY.
+2) Mattingly is out of baseball within five years.
+
+I'm skeptical of the first, because I don't think Snow is that good a
+player, and he is on a losing team.
+
+I'm skeptical of the second because of his back.  Mattingly is 32 this
+year, and how many players play until they are 40?  Not too many, and
+most of them didn't have chronic back problems when they were 32.
+
+Could be wrong on either or both, but I think that's the smart way to
+bet...
+
+Cheers,
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleasant yanke surpris      actual kind like
+abott trade trade rooki year snow mat first anoth
+year bother  i'd will make two wager snow doesn't
+win roy mat basebal within five year  i'm skeptic
+first don't think snow good player lose team  i'm
+skeptic second back mat year mani player play mani
+didn't chronic back problem  could wrong either
+think that smart way bet  cheer valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+snow, 8081, 0.439547125616
+mat, 5540, 0.389175497926
+skeptic, 8002, 0.310613195693
+year, 9943, 0.243514305269
+trade, 9033, 0.239109561442
+abott, 188, 0.188887682973
+chronic, 1737, 0.183482335593
+wager, 9607, 0.17209714041
+player, 6683, 0.167172832138
+pleasant, 6689, 0.156869955264
+smart, 8057, 0.153838049288
+roy, 7502, 0.151143760379
+rooki, 7475, 0.139285124083
+mani, 5479, 0.137423889229
+valentin, 9409, 0.130257574934
+bother, 1245, 0.126755292383
+bet, 1054, 0.118208677069
+cheer, 1687, 0.114568296213
+yanke, 9933, 0.112934623412
+think, 8871, 0.110958740108
+surpris, 8593, 0.109050541984
+lose, 5350, 0.106498327574
+wrong, 9869, 0.0889134963932
+win, 9770, 0.0880499883605
+kind, 5021, 0.0864101692498
+second, 7753, 0.0843024376311
+basebal, 924, 0.0816294068483
+didn, 2625, 0.080916895703
+team, 8732, 0.0804303214455
+play, 6681, 0.0798859472444
+doesn, 2793, 0.0785762427466
+anoth, 533, 0.0780715654822
+actual, 254, 0.0778849897268
+problem, 6887, 0.0762096019139
+way, 9666, 0.0633660626085
+good, 3948, 0.062268579279
+make, 5459, 0.0607560798111
+don, 2811, 0.0549448248781
+like, 5272, 0.0510056230383

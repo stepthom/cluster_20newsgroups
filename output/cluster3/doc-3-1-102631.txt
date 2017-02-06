@@ -1,0 +1,135 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102631
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: aardvark@cygnus.la.locus.com (Warren Usui)
+Subject: rec.sport.baseball.fantasy
+Organization: Locus Computing Corporation, Los Angeles, California
+Lines: 40
+
+
+
+							April 1, 1993
+
+
+I am participating in an NL-league that uses standard Rotisserie rules
+except that the following catagories are used:
+
+For position players:
+	lowest batting average
+	strike-outs
+	caught-stealing
+	errors
+
+For pitchers:
+	losses
+	blown saves
+	higest ERA
+	'taters allowed
+
+This is the fifth year that I've participated in this Blowtisserie
+league.  Last year I won the pennant due primarily to the fact that
+I had terrible pitching.  I would like to lower my batting average
+which is rather high because I do have Jose Offerman (who made up
+for this by helping me lock first place in errors).  Anyway,
+someone offered:
+
+Andres Gallaraga for Bud Black
+
+I can afford to give up Bud Black because I still have Kyle Abbott.
+However, I am afraid of Andres actually doing well this season.
+Should I make the trade or not?
+
+Your comments will be appreciated.
+
+-- 
+Warren Usui
+
+I'm one with the Universe -- on a scale from 1 to 10.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rec sport basebal fantasi      april   particip
+leagu use standard rotisseri rule except follow
+catagori use  posit player lowest bat averag
+strike out caught steal error  pitcher loss blown
+save higest era tater allow  fifth year i'v
+particip blowtisseri leagu last year pennant due
+primarili fact terribl pitch like lower bat averag
+rather high jose offerman made help lock first
+place error anyway someon offer  andr gallaraga
+bud black  afford give bud black still kyle abbott
+howev afraid andr actual well season make trade
+comment appreci   warren usui  i'm one univers
+scale
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bud, 1362, 0.299540833457
+andr, 503, 0.247206684081
+particip, 6440, 0.230975088736
+error, 3180, 0.199123883049
+black, 1133, 0.192972645638
+averag, 816, 0.187893415468
+bat, 942, 0.181364131001
+leagu, 5176, 0.177157081723
+usui, 9378, 0.17209675634
+tater, 8710, 0.167171910334
+offerman, 6204, 0.163148018157
+abbott, 167, 0.156798787373
+warren, 9647, 0.149770416729
+lowest, 5372, 0.138901311007
+fantasi, 3384, 0.137708030999
+terribl, 8804, 0.13349138385
+blown, 1174, 0.13349138385
+lock, 5324, 0.132552080223
+pennant, 6524, 0.127627234218
+rec, 7165, 0.126903552862
+afraid, 318, 0.126202849439
+primarili, 6864, 0.125523709579
+afford, 315, 0.122998638352
+steal, 8362, 0.122410062033
+fifth, 3471, 0.122410062033
+caught, 1568, 0.119174478795
+jose, 4892, 0.113851958896
+year, 9943, 0.110933707798
+era, 3164, 0.110225740612
+strike, 8448, 0.109893850088
+trade, 9033, 0.108927112891
+sport, 8257, 0.106823588252
+loss, 5352, 0.106257652014
+lower, 5371, 0.105705865675
+scale, 7659, 0.102895445917
+use, 9363, 0.0974863772385
+offer, 6203, 0.096848139184
+rule, 7537, 0.0921064502795
+april, 595, 0.0916694002758
+standard, 8313, 0.0904078967082
+save, 7646, 0.0888307756522
+comment, 1936, 0.0885785408615
+pitcher, 6644, 0.0877177513835
+posit, 6761, 0.086658173323
+appreci, 587, 0.0853201694918
+season, 7747, 0.084997969551
+allow, 432, 0.0845755584949
+pitch, 6643, 0.0805691063055
+player, 6683, 0.0761561095625
+howev, 4406, 0.0760847999561
+fact, 3350, 0.0757316675591
+place, 6657, 0.0755919816246
+high, 4292, 0.0746381780933
+basebal, 924, 0.0743730661492
+univers, 9282, 0.073343360853
+follow, 3578, 0.0725407158917
+someon, 8124, 0.0721203164387
+actual, 254, 0.0709615041518
+help, 4249, 0.0648392193671
+make, 5459, 0.0553552465615
+like, 5272, 0.046471544051

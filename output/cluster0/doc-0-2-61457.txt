@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61457
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: Express Access Online Communications USA
+Lines: 14
+NNTP-Posting-Host: access.digex.net
+
+In article <C6A2At.E9z@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>
+>No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+>dictated a rather odd design for the solar arrays, since they had to be
+>retractable as well as extendable, and may thus have indirectly contributed
+>to the array-flapping problems.
+
+
+Why not design the solar arrays to be detachable.  if the shuttle is going
+to retunr the HST,  what bother are some arrays.  just fit them with a quick release.
+
+one  space walk,  or use the second canadarm to remove the arrays.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day       thing design
+retriev pinch inde dictat rather odd design solar
+array sinc retract well extend thus indirect
+contribut array flap problem   design solar array
+detach shuttl go retunr hst bother array fit quick
+releas  one space walk use second canadarm remov
+array  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+array, 653, 0.616760196421
+design, 2564, 0.277768802834
+hst, 4416, 0.245001849634
+solar, 8107, 0.211552072315
+retunr, 7345, 0.176146218184
+flap, 3522, 0.176146218184
+detach, 2578, 0.172473012228
+canadarm, 1482, 0.1692911365
+retract, 7341, 0.157722130108
+dictat, 2623, 0.155956235562
+indirect, 4602, 0.149967746535
+retriev, 7343, 0.137795450406
+pinch, 6632, 0.127097562964
+bother, 1245, 0.124688576776
+odd, 6198, 0.12127867374
+extend, 3319, 0.120497335814
+remov, 7272, 0.113835199895
+inde, 4594, 0.113546363974
+contribut, 2103, 0.108634507304
+schedul, 7678, 0.108402030614
+fit, 3510, 0.107494161883
+pat, 6458, 0.105776036158
+releas, 7253, 0.104173504913
+quick, 7036, 0.101604855816
+walk, 9617, 0.101259506702
+servic, 7813, 0.0980562119413
+shuttl, 7929, 0.0959080310397
+mission, 5772, 0.0941910961825
+second, 7753, 0.0829279059624
+problem, 6887, 0.0749670220522
+sinc, 7977, 0.0726391044779
+day, 2402, 0.0706604852685
+space, 8164, 0.067591612314
+thing, 8869, 0.0650977096062
+use, 9363, 0.0526266174391

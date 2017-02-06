@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61038
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Eco-Freaks forcing Space Mining.
+Article-I.D.: aurora.1993Apr21.212202.1
+Organization: University of Alaska Fairbanks
+Lines: 24
+Nntp-Posting-Host: acad3.alaska.edu
+
+Here is a way to get the commericial companies into space and mineral
+exploration.
+
+Basically get the eci-freaks to make it so hard to get the minerals on earth..
+You think this is crazy. Well in a way it is, but in a way it is reality.
+
+There is a billin the congress to do just that.. Basically to make it so
+expensive to mine minerals in the US, unless you can by off the inspectors or
+tax collectors.. ascially what I understand from talking to a few miner friends 
+of mine, that they (the congress) propose to have a tax on the gross income of
+the mine, versus the adjusted income, also the state governments have there
+normal taxes. So by the time you get done, paying for materials, workers, and
+other expenses you can owe more than what you made.
+BAsically if you make a 1000.00 and spend 500. ofor expenses, you can owe
+600.00 in federal taxes.. Bascially it is driving the miners off the land.. And
+the only peopel who benefit are the eco-freaks.. 
+
+Basically to get back to my beginning statement, is space is the way to go
+cause it might just get to expensive to mine on earth because of either the
+eco-freaks or the protectionist.. 
+Such fun we have in these interesting times..
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ eco freak forc space mine articl aurora 1993apr21
+way get commerici compani space miner explor
+basic get eci freak make hard get miner earth
+think crazi well way way realiti  billin congress
+basic make expens mine miner unless inspector tax
+collector ascial understand talk miner friend mine
+congress propos tax gross incom mine versus adjust
+incom also state govern normal tax time get done
+pay materi worker expens owe made basic make spend
+ofor expens owe feder tax bascial drive miner land
+peopel benefit eco freak  basic get back begin
+statement space way caus might get expens mine
+earth either eco freak protectionist fun interest
+time
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+miner, 5736, 0.451544132656
+freak, 3665, 0.372279055531
+tax, 8718, 0.303391272108
+eco, 2981, 0.28949740967
+expens, 3294, 0.268366321359
+basic, 937, 0.234067421792
+owe, 6357, 0.195708932746
+incom, 4581, 0.177454351515
+congress, 2040, 0.159278661874
+way, 9666, 0.14879322203
+space, 8164, 0.121009628935
+eci, 2973, 0.110884303815
+peopel, 6529, 0.107711157892
+inspector, 4675, 0.107711157892
+make, 5459, 0.106998436949
+commerici, 1941, 0.105118508895
+collector, 1899, 0.101027612296
+earth, 2956, 0.0990724785969
+worker, 9837, 0.0964991365568
+gross, 4058, 0.0930697638827
+versus, 9480, 0.0894960224562
+crazi, 2216, 0.080876650118
+aurora, 787, 0.080876650118
+feder, 3425, 0.0764661850146
+adjust, 269, 0.0736126075962
+fun, 3721, 0.0733563808447
+benefit, 1028, 0.071019958599
+time, 8936, 0.0675749810863
+explor, 3307, 0.0672559775463
+spend, 8222, 0.0666094934956
+realiti, 7148, 0.0666094934956
+normal, 6108, 0.0651112458936
+pay, 6474, 0.0644174400023
+statement, 8343, 0.0641491263823
+friend, 3692, 0.0636272256064
+begin, 994, 0.0631238031242
+materi, 5543, 0.0626375950801
+drive, 2873, 0.0617123777717
+land, 5104, 0.0605311541271
+propos, 6933, 0.0597298041002
+govern, 3966, 0.0593454509738
+compani, 1958, 0.0591571012007
+forc, 3594, 0.0588791731361
+unless, 9289, 0.0579041982375
+caus, 1569, 0.0575656060516
+hard, 4167, 0.0538347337448
+understand, 9246, 0.0509870070568
+state, 8342, 0.0504191559303
+talk, 8684, 0.0480904032819
+articl, 665, 0.0458309988771
+think, 8871, 0.0325685149381

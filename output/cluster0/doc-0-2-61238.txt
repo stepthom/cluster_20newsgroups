@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61238
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sichase@csa2.lbl.gov (SCOTT I CHASE)
+Subject: Re: Vandalizing the sky.
+Organization: Lawrence Berkeley Laboratory - Berkeley, CA, USA
+Lines: 22
+Distribution: world
+NNTP-Posting-Host: 128.3.254.197
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <pgf.735606045@srl02.cacs.usl.edu>, pgf@srl02.cacs.usl.edu (Phil G. Fraering) writes...
+>Jeff.Cook@FtCollinsCO.NCR.COM (Jeff Cook) writes:
+>....
+>>people in primitive tribes out in the middle of nowhere as they look up
+>>and see a can of Budweiser flying across the sky... :-D
+> 
+>Seen that movie already. Or one just like it.
+>Come to think of it, they might send someone on
+>a quest to get rid of the dang thing...
+
+Actually, the idea, like most good ideas, comes from Jules Verne, not
+_The Gods Must Be Crazy._  In one of his lesser known books (I can't
+remember which one right now), the protagonists are in a balloon gondola,
+travelling over Africa on their way around the world in the balloon, when
+one of them drops a fob watch.  They then speculate about the reaction
+of the natives to finding such a thing, dropped straight down from heaven.
+But the notion is not pursued further than that.
+
+-Scott
+--------------------                          New .sig under construction
+Scott I. Chase                                     Please be patient
+SICHASE@CSA2.LBL.GOV                                   Thank you 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky     news softwar vax vms vnew  srl02
+cac usl edu phil fraer write   peopl primit tribe
+middl nowher look see budweis fli across sky  seen
+movi alreadi one like come think might send someon
+quest get rid dang thing  actual idea like good
+idea come jule vern god must crazi one lesser
+known book can't rememb one right protagonist
+balloon gondola travel africa way around world
+balloon one drop fob watch specul reaction nativ
+find thing drop straight heaven notion pursu
+scott new sig construct scott chase pleas patient
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+balloon, 882, 0.273384564404
+scott, 7713, 0.221722088405
+drop, 2878, 0.204330093585
+sky, 8011, 0.182546523119
+srl02, 8285, 0.164591673542
+gondola, 3941, 0.164591673542
+cac, 1443, 0.159881598448
+usl, 9371, 0.156033186881
+protagonist, 6939, 0.156033186881
+dang, 2355, 0.152779401264
+vern, 9474, 0.149960843958
+jule, 4927, 0.149960843958
+budweis, 1368, 0.149960843958
+africa, 319, 0.145250768863
+idea, 4482, 0.144325372352
+chase, 1676, 0.14323897824
+quest, 7031, 0.141402357297
+lesser, 5222, 0.139712829808
+patient, 6465, 0.138148571679
+pursu, 6995, 0.136692282202
+tribe, 9092, 0.132843870635
+nativ, 5964, 0.129590085018
+rid, 7391, 0.128608148656
+reaction, 7132, 0.125082000223
+nowher, 6131, 0.124285383974
+fraer, 3640, 0.123517742095
+come, 1923, 0.122417853537
+primit, 6866, 0.121369330766
+crazi, 2216, 0.120049661994
+notion, 6122, 0.115467902342
+thing, 8869, 0.115329221294
+sig, 7940, 0.113977319071
+travel, 9069, 0.112140698128
+specul, 8214, 0.110861044202
+heaven, 4229, 0.10888691251
+vandal, 9419, 0.108146211063
+movi, 5892, 0.10778538475
+straight, 8422, 0.107081725415
+construct, 2074, 0.107081725415
+middl, 5699, 0.105741095544
+phil, 6588, 0.103877430618
+vnew, 9564, 0.0960242829818
+vms, 9563, 0.0931545551655
+vax, 9439, 0.0921076715972
+fli, 3542, 0.0901578716949
+like, 5272, 0.0888898706768
+watch, 9655, 0.0875342172078
+alreadi, 443, 0.0845960685042
+known, 5054, 0.0843588994327
+send, 7785, 0.0810882747037
+seen, 7767, 0.0783455994161
+rememb, 7269, 0.0777337355523
+book, 1218, 0.0756047874111
+edu, 3001, 0.0748399274529
+god, 3926, 0.0743939708942
+news, 6031, 0.0729033876234
+write, 9865, 0.072766766918
+world, 9841, 0.070693167099
+softwar, 8103, 0.0704477245046
+someon, 8124, 0.0689751732196
+actual, 254, 0.0678668963544
+right, 7399, 0.0642082802567
+pleas, 6688, 0.0620935746305
+new, 6023, 0.0614864045238
+peopl, 6530, 0.0572688273275
+way, 9666, 0.0552154916952
+good, 3948, 0.0542591740834
+look, 5341, 0.0526767099614
+think, 8871, 0.0483432387996

@@ -1,0 +1,179 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38475
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: zyeh@caspian.usc.edu (zhenghao yeh)
+Subject: Ellipse Again
+Organization: University of Southern California, Los Angeles, CA
+Lines: 39
+Distribution: world
+NNTP-Posting-Host: caspian.usc.edu
+Keywords: ellipse
+
+
+Hi! Everyone,
+
+Because no one has touched the problem I posted last week, I guess
+my question was not so clear. Now I'd like to describe it in detail:
+
+The offset of an ellipse is the locus of the center of a circle which
+rolls on the ellipse. In other words, the distance between the ellipse
+and its offset is same everywhere.
+
+This problem comes from the geometric measurement when a probe is used.
+The tip of the probe is a ball and the computer just outputs the
+positions of the ball's center. Is the offset of an ellipse still
+an ellipse? The answer is no! Ironically, DMIS - an American Indutrial
+Standard says it is ellipse. So almost all the software which was
+implemented on the base of DMIS was wrong. The software was also sold
+internationaly. Imagine, how many people have or will suffer from this bug!!!
+How many qualified parts with ellipse were/will be discarded? And most
+importantly, how many defective parts with ellipse are/will be used?
+
+I was employed as a consultant by a company in Los Angeles last year
+to specially solve this problem. I spent two months on analysis of this
+problem and six months on programming. Now my solution (nonlinear)
+is not ideal because I can only reconstruct an ellipse from its entire
+or half offset. It is very difficult to find the original ellipse from
+a quarter or a segment of its offset because the method I used is not
+analytical. I am now wondering if I didn't touch the base and make things
+complicated. Please give me a hint.
+
+I know you may argue this is not a CG problem. You are right, it is not.
+However, so many people involved in the problem "sphere from 4 poits".
+Why not an ellipse? And why not its offset?
+
+Please post here and let the others share our interests 
+(I got several emails from our netters, they said they need the
+summary of the answers).
+
+Yeh
+USC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ellips        everyon  one touch problem post
+last week guess question clear i'd like describ
+detail  offset ellips locus center circl roll
+ellips word distanc ellips offset everywher
+problem come geometr measur probe use tip probe
+ball comput output posit ball center offset ellips
+still ellips answer iron dmis american indutri
+standard say ellips almost softwar implement base
+dmis wrong softwar also sold internationali imagin
+mani peopl suffer bug mani qualifi part ellips
+discard import mani defect part ellips use  employ
+consult compani los angel last year special solv
+problem spent two month analysi problem six month
+program solut nonlinear ideal reconstruct ellips
+entir half offset difficult find origin ellips
+quarter segment offset method use analyt wonder
+didn't touch base make thing complic pleas give
+hint  know argu problem right howev mani peopl
+involv problem sphere poit ellips offset  pleas
+post let other share interest got sever email
+netter said need summari answer  yeh usc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ellips, 3049, 0.77464499826
+offset, 6209, 0.359213815965
+problem, 6887, 0.179566544708
+mani, 5479, 0.107933612604
+touch, 9015, 0.10407622528
+probe, 6886, 0.101886985502
+month, 5847, 0.0784105266526
+center, 1606, 0.0767952809584
+ball, 877, 0.0744074968474
+nonlinear, 6102, 0.0703197372584
+answer, 535, 0.0702207319405
+reconstruct, 7183, 0.0675831043188
+discard, 2686, 0.0675831043188
+analyt, 492, 0.0675831043188
+yeh, 9945, 0.0637260368232
+softwar, 8103, 0.0634975876176
+use, 9363, 0.0630275792909
+usc, 9361, 0.0609894038835
+everywher, 3244, 0.0604127001091
+base, 923, 0.0595402939998
+segment, 7768, 0.0588667064642
+tip, 8945, 0.0584025803222
+netter, 6017, 0.0584025803222
+defect, 2473, 0.057537193186
+geometr, 3843, 0.0563709142092
+pleas, 6688, 0.0559676302297
+quarter, 7027, 0.0556659473826
+hint, 4306, 0.0556659473826
+post, 6766, 0.0555647674849
+sold, 8109, 0.0550096389686
+ideal, 4483, 0.0541029819242
+consult, 2076, 0.0541029819242
+los, 5349, 0.0532752688923
+roll, 7464, 0.0522730060289
+complic, 1978, 0.0522730060289
+iron, 4767, 0.0520381126398
+sphere, 8226, 0.051808879887
+peopl, 6530, 0.0516188763591
+employ, 3077, 0.0515850413497
+qualifi, 7015, 0.0513663489845
+solv, 8119, 0.0507389106956
+summari, 8536, 0.0497772137739
+circl, 1765, 0.0494182013967
+bug, 1373, 0.0482587002605
+suffer, 8521, 0.0481040188212
+output, 6329, 0.0479518123914
+share, 7855, 0.0476545163545
+angel, 509, 0.0475092814889
+spent, 8223, 0.0470864252552
+solut, 8118, 0.0469495495279
+argu, 628, 0.046814615366
+distanc, 2744, 0.0465503567365
+difficult, 2635, 0.0462932411139
+implement, 4544, 0.0459201462783
+analysi, 490, 0.0451026018192
+imagin, 4518, 0.0431835133387
+half, 4124, 0.0430924820323
+measur, 5601, 0.0429129918221
+method, 5666, 0.0428245009615
+special, 8198, 0.0423939886316
+american, 469, 0.0423101757641
+entir, 3129, 0.0413581119561
+describ, 2556, 0.040987921318
+email, 3060, 0.0400220359327
+involv, 4750, 0.0398917229507
+compani, 1958, 0.0395735428245
+standard, 8313, 0.0389674334659
+everyon, 3241, 0.0379124685346
+posit, 6761, 0.0373512350822
+guess, 4079, 0.0368682532375
+clear, 1803, 0.0364987815971
+import, 4551, 0.0360562506946
+sever, 7823, 0.0351103659702
+week, 9691, 0.0350323925917
+wrong, 9869, 0.0349166179507
+wonder, 9821, 0.0345405729836
+word, 9829, 0.0340729359728
+origin, 6293, 0.0338303403396
+comput, 1993, 0.0329798423892
+howev, 4406, 0.0327939205313
+didn, 2625, 0.0317763269653
+said, 7583, 0.0316666692793
+got, 3960, 0.0312142318944
+let, 5225, 0.030041956889
+program, 6905, 0.0295276316917
+right, 7399, 0.0289368530357
+question, 7032, 0.0287947182838
+come, 1923, 0.0275851293834
+thing, 8869, 0.0259878065101
+need, 5993, 0.0255766999917
+say, 7653, 0.024151455942
+year, 9943, 0.023907214055
+make, 5459, 0.0238591092804
+know, 5052, 0.0204901899065
+like, 5272, 0.0200300733321

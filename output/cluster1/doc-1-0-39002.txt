@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39002
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: quartz@tunica.eel.ufl.edu (Bill Devore)
+Subject: fractel trees
+Organization: UF EE Department
+Lines: 7
+Distribution: world
+NNTP-Posting-Host: tunica.eel.ufl.edu
+Keywords: tree growth
+
+I'm working on my senior project here at UF (florida). The project requires fractel trees. I'm interested in either psuedo or real code; just about anything will help.
+
+Perhaps some good books on the subject could help too.
+
+	mail will reach at: quartz@iriquois.eel.ufl.edu
+
+	Thanks Bill Devore
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fractel tree       i'm work senior project
+florida project requir fractel tree i'm interest
+either psuedo real code anyth help  perhap good
+book could help    thank bill devor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tree, 9080, 0.576206104933
+project, 6909, 0.374014230147
+senior, 7787, 0.317091823763
+help, 4249, 0.296037325658
+florida, 3552, 0.278135929418
+code, 1871, 0.200247078742
+perhap, 6540, 0.19502132676
+requir, 7302, 0.18743229352
+book, 1218, 0.18046493083
+real, 7144, 0.172724870146
+anyth, 555, 0.172724870146
+work, 9833, 0.142739548583
+thank, 8832, 0.141095997547
+good, 3948, 0.129513995518

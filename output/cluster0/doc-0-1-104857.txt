@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104857
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: IO20456@MAINE.MAINE.EDU (Ryan Robbins)
+Subject: Re: Infield Fly Rule
+ <1993Apr15.200624.14745@scott.skidmore.edu>
+ <93106.202527IO20456@MAINE.MAINE.EDU> <1993Apr20.212819.23902@holos0.uucp>
+Organization: University of Maine System
+Lines: 7
+
+You can't call time when there's a play in progress.
+
+Ryan Robbins
+Penobscot Hall
+University of Maine
+
+IO20456@Maine.Maine.Edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ infield fli rule  holos0 uucp    can't call time
+there play progress  ryan robbin penobscot hall
+univers main
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+holos0, 4350, 0.389768520765
+penobscot, 6528, 0.372454377565
+robbin, 7436, 0.359522273439
+infield, 4627, 0.291127774223
+progress, 6907, 0.284067697323
+ryan, 7557, 0.269264191844
+hall, 4128, 0.249736465814
+uucp, 9388, 0.247744299642
+main, 5450, 0.22580561455
+fli, 3542, 0.219792025018
+rule, 7537, 0.214750162312
+univers, 9282, 0.171003209872
+play, 6681, 0.169700409506
+time, 8936, 0.122264958126

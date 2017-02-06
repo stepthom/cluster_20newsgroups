@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102633
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: horan@cse.unl.edu (Mark Horan)
+Subject: Re: Best Second Baseman?
+Article-I.D.: crcnis1.1pqvusINNmjm
+Distribution: usa
+Organization: University of Nebraska--Lincoln
+Lines: 29
+NNTP-Posting-Host: cse.unl.edu
+
+thf2@ellis.uchicago.edu (Ted Frank) writes:
+
+>In article <1993Mar29.044248.16010@sarah.albany.edu> js8484@albnyvms.bitnet writes:
+>>Personally, I think that Alomar is all hype. He is producing incredibly now,
+>>but in the long run, he will never put up the numbers that Sandberg has. For
+>>THIS moment, Alomar may be the best, but overall Sandberg wins out by a long
+>>shot.
+
+>When Sandberg was Alomar's age, he was putting up .261 seasons with no power.
+>Alomar's 1992 OBA is 25 points higher than Sandberg's career high.  Alomar's
+>career high in doubles and triples is higher than Sandberg's.  Sandberg is
+>still better than Alomar, but only because Alomar hasn't reached his full
+>potential yet.  Alomar's got a 2.5 year-headstart on Sandberg (he has 862
+>hits; Sandberg didn't have 862 hits until he was 26), and is likely to
+>put up better career numbers than Sandberg in everything except home runs.
+>He'll pass Sandberg in stolen bases sometime in 1995.
+
+Sandberg is not particulary known for his stolen bases.  What competition did 
+Alomar have?  Sandberg came in a year after Ripken, and the same year as Boggs,
+Gwynn, and the other magicians.  So less attention was given to Sandberg. 
+Alomar is the only one in his class to be worth a mediocre.  Besides the 
+numbers don't count.  National league pitchers are much better pitchers. 
+
+Larry                          on someone elses account 
+--
+
+Mark Horan --
+horan@cse.unl.edu      
+ianr053@unlvm
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best second baseman articl crcnis1 1pqvusinnmjm
+person think alomar hype produc incred long run
+never put number sandberg moment alomar best
+overal sandberg win long shot  sandberg alomar age
+put season power alomar oba point higher sandberg
+career high alomar career high doubl tripl higher
+sandberg sandberg still better alomar alomar
+hasn't reach full potenti yet alomar got year
+headstart sandberg hit sandberg didn't hit like
+put better career number sandberg everyth except
+home run he'll pass sandberg stolen base sometim
+sandberg particulari known stolen base competit
+alomar sandberg came year ripken year bogg gwynn
+magician less attent given sandberg alomar one
+class worth mediocr besid number don't count
+nation leagu pitcher much better pitcher  larri
+someon els account   mark horan  ianr053 unlvm
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sandberg, 7606, 0.733418128266
+alomar, 436, 0.520591869888
+career, 1517, 0.133915878376
+stolen, 8407, 0.112833558195
+number, 6156, 0.0940492998547
+higher, 4293, 0.0884820048798
+better, 1060, 0.0865259210327
+pitcher, 6644, 0.0766357842331
+year, 9943, 0.0726890358072
+hit, 4316, 0.0674288299516
+oba, 6169, 0.0673591294955
+gwynn, 4104, 0.066343347941
+high, 4292, 0.0652086404597
+mediocr, 5610, 0.0645855843878
+best, 1052, 0.0644658339345
+ripken, 7409, 0.0630994164795
+long, 5336, 0.0607551148367
+hype, 4458, 0.0606764921133
+base, 923, 0.0603433835571
+tripl, 9105, 0.0596607105589
+larri, 5128, 0.0587418243709
+run, 7543, 0.0580823502807
+competit, 1970, 0.0567673998389
+bogg, 1199, 0.056078463409
+incred, 4591, 0.0545449194455
+baseman, 928, 0.0542654503761
+overal, 6337, 0.0512203096236
+attent, 766, 0.0497341417152
+hasn, 4195, 0.0493958260268
+shot, 7910, 0.0473112173491
+account, 221, 0.0462954357947
+potenti, 6774, 0.0461756701823
+class, 1789, 0.0461756701823
+moment, 5828, 0.0458250494408
+besid, 1051, 0.0458250494408
+doubl, 2828, 0.0449479898165
+count, 2180, 0.0445376722415
+worth, 9850, 0.0436737207195
+age, 328, 0.0431379713505
+pass, 6448, 0.0430515043331
+produc, 6895, 0.0427131886447
+sometim, 8128, 0.0423863435202
+reach, 7128, 0.0419159571663
+everyth, 3242, 0.0415407733343
+mark, 5512, 0.0392578746101
+came, 1472, 0.0388596642925
+leagu, 5176, 0.0386939122246
+known, 5054, 0.0385309617346
+nation, 5962, 0.0379559887432
+home, 4354, 0.037176493048
+season, 7747, 0.0371298052676
+power, 6783, 0.0357843844985
+win, 9770, 0.035043902929
+given, 3887, 0.0346039326962
+second, 7753, 0.0335523774168
+els, 3053, 0.0333300049403
+didn, 2625, 0.0322049314387
+person, 6562, 0.0321214589882
+got, 3960, 0.0316352547344
+someon, 8124, 0.0315044385101
+articl, 665, 0.0310724897665
+ll, 5314, 0.0305407706383
+point, 6710, 0.0272132219327
+think, 8871, 0.0220807940459
+don, 2811, 0.02186804502
+like, 5272, 0.0203002423495

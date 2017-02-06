@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84101
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: agr00@ccc.amdahl.com (Anthony G Rose)
+Subject: Re: Who's next?  Mormons and Jews?
+Reply-To: agr00@JUTS.ccc.amdahl.com (Anthony G Rose)
+Organization: Amdahl Corporation, Sunnyvale CA
+Lines: 18
+
+In article <1993Apr20.142356.456@ra.royalroads.ca> mlee@post.RoyalRoads.ca (Malcolm Lee) writes:
+>
+>In article <C5rLps.Fr5@world.std.com>, jhallen@world.std.com (Joseph H Allen) writes:
+>|> In article <1qvk8sINN9vo@clem.handheld.com> jmd@cube.handheld.com (Jim De Arras) writes:
+>|> 
+>|> It was interesting to watch the 700 club today.  Pat Robertson said that the
+>|> "Branch Dividians had met the firey end for worshipping their false god." He
+>|> also said that this was a terrible tragedy and that the FBI really blew it.
+>
+>I don't necessarily agree with Pat Robertson.  Every one will be placed before
+>the judgement seat eventually and judged on what we have done or failed to do
+>on this earth.  God allows people to choose who and what they want to worship.
+
+I'm sorry, but He does not!  Ever read the FIRST commandment?
+
+>Worship of money is one of the greatest religions in this country.
+
+You mean, false religion!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew          interest watch club
+today pat robertson said branch dividian met firey
+end worship fals god also said terribl tragedi fbi
+realli blew  don't necessarili agre pat robertson
+everi one place judgement seat eventu judg done
+fail earth god allow peopl choos want worship  i'm
+sorri ever read first command  worship money one
+greatest religion countri  mean fals religion
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+worship, 9847, 0.406261552174
+robertson, 7439, 0.350036939781
+fals, 3372, 0.272203398071
+pat, 6458, 0.214674281619
+religion, 7261, 0.204817028665
+dividian, 2765, 0.188550175101
+firey, 3498, 0.183154486093
+god, 3926, 0.170446000538
+blew, 1156, 0.166393945169
+said, 7583, 0.160987145706
+tragedi, 9039, 0.152181058314
+terribl, 8804, 0.146253911665
+judgement, 4921, 0.144237715238
+seat, 7748, 0.140648867675
+greatest, 4018, 0.135420517391
+fbi, 3414, 0.1284642644
+club, 1842, 0.127965682834
+branch, 1269, 0.127965682834
+mormon, 5863, 0.124736847121
+necessarili, 5991, 0.121133114763
+choos, 1720, 0.120763941954
+judg, 4920, 0.11968908281
+eventu, 3233, 0.118998168684
+countri, 2186, 0.117036524675
+fail, 3360, 0.114932559189
+jew, 4862, 0.114363583543
+met, 5655, 0.107548324242
+command, 1933, 0.106107366517
+watch, 9655, 0.100275983752
+money, 5835, 0.0974628662897
+agre, 337, 0.0935960806177
+sorri, 8142, 0.0932413503057
+allow, 432, 0.0926614580234
+today, 8964, 0.0924333398289
+earth, 2956, 0.0842325403349
+end, 3091, 0.0833589351677
+place, 6657, 0.0828190006293
+everi, 3235, 0.0828190006293
+mean, 5595, 0.0747266115916
+read, 7135, 0.073606703982
+realli, 7150, 0.0717515501339
+want, 9634, 0.0658685109738
+peopl, 6530, 0.0656050648739
+don, 2811, 0.0548466484877

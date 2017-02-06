@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61531
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: Express Access Online Communications USA
+Lines: 25
+NNTP-Posting-Host: access.digex.net
+
+In article <C6BDGM.90r@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+|In article <1rrgu7$9lp@access.digex.net> prb@access.digex.net (Pat) writes:
+|>>No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+|>>dictated a rather odd design for the solar arrays, since they had to be
+|>>retractable as well as extendable...
+|>
+|>Why not design the solar arrays to be detachable.  if the shuttle is going
+|>to retunr the HST,  what bother are some arrays...
+|
+|They can be detached in an emergency.  But expensive hardware is not thrown
+|away casually (bearing in mind that nobody knew the design was defective).
+|If the deployment crew had found some nasty flaw -- the lid failing to open,
+|for example -- it would have been a bit embarrassing to have to throw the
+|solar arrays away to get the thing back in the payload bay.
+
+
+I guess it's  kind of an aesthetics argument.
+
+I can see the solar arrays being expensive,  and  there could be
+contingencies where you would be throwing away brand new
+solar cells,   but  it seems so cheap compared toa shuttle
+mission, i wouldn't think they would bother.
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day       thing design
+retriev pinch inde dictat rather odd design solar
+array sinc retract well extend  design solar array
+detach shuttl go retunr hst bother array  detach
+emerg expens hardwar thrown away casual bear mind
+nobodi knew design defect deploy crew found nasti
+flaw lid fail open exampl bit embarrass throw
+solar array away get thing back payload bay
+guess it kind aesthet argument  see solar array
+expens could conting throw away brand new solar
+cell seem cheap compar toa shuttl mission wouldn't
+think bother  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+array, 653, 0.429930670981
+solar, 8107, 0.368671344737
+design, 2564, 0.258169119804
+detach, 2578, 0.240454680129
+away, 833, 0.197511773432
+bother, 1245, 0.173835613219
+hst, 4416, 0.170785680101
+expens, 3294, 0.15673797788
+throw, 8899, 0.148945267248
+shuttl, 7929, 0.133710976735
+mission, 5772, 0.131317297767
+toa, 8961, 0.125816302117
+lid, 5257, 0.125816302117
+retunr, 7345, 0.122787855335
+casual, 1550, 0.122787855335
+retract, 7341, 0.109944807754
+embarrass, 3062, 0.109944807754
+conting, 2091, 0.109944807754
+dictat, 2623, 0.108713839492
+aesthet, 306, 0.108713839492
+cell, 1598, 0.107567835458
+nasti, 5961, 0.105488816805
+brand, 1270, 0.102789300973
+emerg, 3068, 0.100467789397
+defect, 2473, 0.100467789397
+flaw, 3531, 0.0984313071817
+thrown, 8900, 0.0978044225892
+retriev, 7343, 0.0960543348858
+deploy, 2540, 0.0939753162323
+bay, 956, 0.0921278061371
+crew, 2227, 0.0912758004003
+thing, 8869, 0.0907565116321
+pinch, 6632, 0.0885970606439
+odd, 6198, 0.0845408343135
+cheap, 1677, 0.0842662748364
+nobodi, 6088, 0.0839961799394
+extend, 3319, 0.0839961799394
+bear, 971, 0.0837304067466
+knew, 5045, 0.0829576874142
+payload, 6477, 0.08246181566
+inde, 4594, 0.0791508024254
+fail, 3360, 0.0789518722611
+schedul, 7678, 0.0755647949202
+hardwar, 4173, 0.0741733377757
+pat, 6458, 0.0737342689474
+compar, 1960, 0.0698839351497
+wouldn, 9854, 0.0694319216748
+argument, 631, 0.0693208144366
+servic, 7813, 0.0683529404758
+open, 6258, 0.0659272876799
+mind, 5733, 0.0647092207551
+guess, 4079, 0.0643770002772
+exampl, 3258, 0.0602482957584
+kind, 5021, 0.059252613747
+bit, 1122, 0.0560240383973
+sinc, 7977, 0.0506352049125
+day, 2402, 0.0492559507239
+new, 6023, 0.0483857562269
+think, 8871, 0.0380429492648

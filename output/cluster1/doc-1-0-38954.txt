@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38954
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: hwstock@snll-arpagw.llnl.gov (stockman harlan w)
+Subject: screen capture
+Keywords: capture
+Organization: Sandia National Laboratories
+Lines: 4
+
+Is there a DOS screen capture utility -- PD or shareware -- that will
+work reliably with VESA 6a 800x600 screens?
+
+Thanks, H.W. Stockman, hwstock@sandia.llnl.gov
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ screen captur     dos screen captur util sharewar
+work reliabl vesa 800x600 screen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+screen, 7719, 0.619037604026
+captur, 1509, 0.479094425723
+800x600, 142, 0.327936429246
+vesa, 9484, 0.24489857398
+sharewar, 7856, 0.24161095783
+reliabl, 7256, 0.24161095783
+dos, 2825, 0.209304465221
+util, 9384, 0.208296182804
+work, 9833, 0.125682115114

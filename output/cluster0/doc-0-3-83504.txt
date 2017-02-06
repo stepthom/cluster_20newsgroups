@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83504
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dickeney@access.digex.com (Dick Eney)
+Subject: Re: Swastika (was: Hitler - pagan or Christian?)
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 6
+NNTP-Posting-Host: access.digex.net
+
+RE: Red, wwhite, and black, the colors of the Imperial German war-flag --
+
+Go further back still.  There are +XVIII Prussian drinking songs
+celebrating the red, the white and the black -- the colors, as Fletcher
+Pratt points out, of blood and iron.
+-- Diccon Frankborn
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ swastika hitler pagan christian     red wwhite
+black color imperi german war flag  back still
+xviii prussian drink song celebr red white black
+color fletcher pratt point blood iron diccon
+frankborn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+black, 1133, 0.275404758889
+color, 1907, 0.253192214888
+red, 7194, 0.252121433039
+pratt, 6799, 0.245611317234
+frankborn, 3656, 0.245611317234
+diccon, 2619, 0.245611317234
+swastika, 8623, 0.238582725061
+prussian, 6956, 0.232839947108
+imperi, 4541, 0.232839947108
+fletcher, 3538, 0.232839947108
+pagan, 6381, 0.213747836495
+song, 8133, 0.206151696096
+hitler, 4321, 0.206151696096
+celebr, 1596, 0.200036155516
+flag, 3515, 0.19491712219
+german, 3854, 0.189174344236
+drink, 2872, 0.173084320754
+iron, 4767, 0.172306551006
+blood, 1169, 0.172306551006
+war, 9635, 0.153284358456
+white, 9737, 0.135004397882
+christian, 1732, 0.11179189818
+point, 6710, 0.0889081416385

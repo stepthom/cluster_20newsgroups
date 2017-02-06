@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84316
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cfaehl@vesta.unm.edu (Chris Faehl)
+Subject: Re: Burden of Proof
+Organization: University of New Mexico, Albuquerque
+Lines: 35
+Distribution: world
+NNTP-Posting-Host: vesta.unm.edu
+
+>  hamilton@hydra.cs.gmr.com (Bill Hamilton) writes:
+> >cfaehl@vesta.unm.edu (Chris Faehl) writes:
+> >>ray@engr.LaTech.edu (Bill Ray) writes:
+
+> >********NOTE: FOLLOWUPS go to alt.atheism,talk.religion.misc,talk.origins!
+> >
+> >[deleted]
+> >[more deleted]
+> >If you say X statement and give it the authority of fact, I will respond
+> >by asking you why. You aren't obligated to say anything, but if your
+> >intent is to convince me that X statement is true, then yes, the burden
+> >of proof is upon you. 
+> 
+>[some interesting stuff, on the lines of the burden of proof belongs to God] 
+> 
+> >
+> >If you are merely giving testimony to your beliefs, then you are an egotist.
+> 
+> Please excuse me if I missed an earlier part of this thread
+> in which Bill came across like an egotist. What I saw was simply
+> obedience to the scriptural command to "always be ready
+> to give a reason for the joy that is in you". 
+
+The remainder of my article deleted stated why. One would be an egotist to
+believe that someone CARED about what Bill R. thought he needed
+to say about God. Whether they did or not is irrelevant.
+
+Jumping on your trailer, "always be ready etc.", then that goes right
+back to the burden of proof question. Go ahead and give me a reason why
+you think God exists, if you state such a thing. 
+> 
+> Bill Hamilton
+> 
+Chris Faehl
+cfaehl@vesta.unm.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ burden proof          note followup alt atheism
+talk religion misc talk origin  delet delet say
+statement give author fact respond ask aren't
+oblig say anyth intent convinc statement true yes
+burden proof upon  interest stuff line burden
+proof belong god   mere give testimoni belief
+egotist  pleas excus miss earlier part thread bill
+came across like egotist saw simpli obedi scriptur
+command alway readi give reason joy  remaind
+articl delet state one egotist believ someon care
+bill thought need say god whether irrelev  jump
+trailer alway readi etc goe right back burden
+proof question ahead give reason think god exist
+state thing  bill hamilton  chris faehl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+burden, 1406, 0.405074583854
+egotist, 3013, 0.399769172705
+proof, 6919, 0.366073788505
+delet, 2502, 0.219739859957
+god, 3926, 0.180692106463
+readi, 7139, 0.168202087049
+statement, 8343, 0.154183789177
+say, 7653, 0.130162084948
+alway, 457, 0.129085010197
+remaind, 7265, 0.121411007084
+state, 8342, 0.121183513273
+talk, 8684, 0.11558630677
+obedi, 6170, 0.111847578155
+reason, 7156, 0.11024398301
+hamilton, 4137, 0.109565623266
+joy, 4903, 0.108529592342
+followup, 3579, 0.108529592342
+atheism, 739, 0.108529592342
+oblig, 6175, 0.104123479405
+testimoni, 8816, 0.101268645963
+irrelev, 4771, 0.101268645963
+excus, 3268, 0.0943395406234
+jump, 4929, 0.093073088997
+scriptur, 7725, 0.0915184471264
+misc, 5757, 0.0907911341082
+chris, 1728, 0.0907911341082
+belong, 1015, 0.0900935157569
+intent, 4702, 0.0894232621457
+alt, 446, 0.0872649937545
+earlier, 2952, 0.0831644104169
+mere, 5641, 0.0829380590747
+ahead, 342, 0.0829380590747
+thread, 8890, 0.0827146666585
+respond, 7322, 0.0818492019058
+convinc, 2120, 0.0818492019058
+belief, 1008, 0.0794883125742
+saw, 7650, 0.0752753957771
+command, 1933, 0.0749905679089
+aren, 623, 0.0745720340964
+goe, 3931, 0.0729934408883
+religion, 7261, 0.0723764324813
+miss, 5770, 0.0722556597066
+author, 796, 0.0701096343797
+simpli, 7967, 0.0700038180881
+came, 1472, 0.0688811336383
+care, 1516, 0.0672793134113
+stuff, 8472, 0.0654877751518
+yes, 9951, 0.0622509737026
+note, 6118, 0.0616582226119
+exist, 3283, 0.0612741777647
+true, 9121, 0.0609606042606
+origin, 6293, 0.0607751853368
+thought, 8887, 0.0596453957496
+ask, 689, 0.0591911689701
+fact, 3350, 0.0586398541758
+anyth, 555, 0.0585856884363
+line, 5285, 0.0566451207789
+someon, 8124, 0.0558435457107
+articl, 665, 0.055077890122
+believ, 1009, 0.0527739271471
+right, 7399, 0.051984183093
+question, 7032, 0.0517288423012
+pleas, 6688, 0.0502720792332
+thing, 8869, 0.0466863100192
+need, 5993, 0.0459477695671
+think, 8871, 0.0391395590571
+like, 5272, 0.035983422184

@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104552
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cherylm@hplsla.hp.com (Cheryl Marks)
+Subject: Re: Omar Vizquel - GRAND SALAMI?
+Organization: HP Lake Stevens, WA
+Lines: 20
+
+
+Do you think Omar's grand slam is the result of his new fan club?  Last week 
+a banner appeared in the Kingdome:    
+
+	OLDER WOMEN FOR OMAR  
+
+
+Cheryl
+*****************************************************************************
+*
+*  Cheryl Marks
+*  HP-UX Address:  cherylm@lsid.hp.com         HP Desk:  CHERYL MARKS/HPA100 
+*  Telenet:  1-335-2193                        Ma Bell:  (206) 335-2193
+*  USPS:  Cheryl Marks			
+*         MS 330 				       	 
+*         8600 Soper Hill Road					
+*         Everett, WA  98205-1298			
+*
+* "Too much of a good thing is wonderful." 		Mae West            *
+*****************************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ omar vizquel grand salami     think omar grand
+slam result new fan club last week banner appear
+kingdom  older women omar   cheryl   cheryl mark
+telenet bell usp cheryl mark  soper hill road
+everett  much good thing wonder mae west
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cheryl, 1695, 0.558418030549
+omar, 6230, 0.490676598833
+grand, 3991, 0.264749512167
+mark, 5512, 0.187488248039
+soper, 8138, 0.186139343516
+usp, 9374, 0.179516377828
+mae, 5429, 0.170181831966
+banner, 899, 0.160847286104
+vizquel, 9554, 0.158421694985
+slam, 8015, 0.150675490784
+hill, 4300, 0.131643843177
+kingdom, 5025, 0.130248153878
+older, 6218, 0.127687537018
+women, 9819, 0.12183460374
+club, 1842, 0.12183460374
+bell, 1011, 0.120466568285
+west, 9708, 0.110838746829
+road, 7431, 0.107331585666
+appear, 580, 0.0936058543979
+fan, 3381, 0.0916256812408
+result, 7332, 0.0893396551951
+week, 9691, 0.0847824093469
+wonder, 9821, 0.0835921494686
+new, 6023, 0.0670618166047
+thing, 8869, 0.0628934733417
+good, 3948, 0.0591792414873
+think, 8871, 0.0527268660375

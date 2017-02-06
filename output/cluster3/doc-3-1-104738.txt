@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104738
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jja2h@Virginia.EDU ("")
+Subject: Re: Yankee fears.
+Organization: University of Virginia
+Lines: 8
+
+How can anyone pick the worst Yankee pitcher.  In the past 12
+years there have been so many.
+
+Does the name Steve "You mean I should try and throw the ball
+to the catcher" Trout?
+
+Jonathan Alboum
+UVA
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yanke fear    anyon pick worst yanke pitcher past
+year mani  name steve mean tri throw ball catcher
+trout  jonathan alboum uva
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yanke, 9933, 0.399656949551
+trout, 9118, 0.346551677959
+uva, 9394, 0.334221131235
+alboum, 385, 0.334221131235
+jonathan, 4888, 0.283701957829
+fear, 3417, 0.223466567061
+catcher, 1557, 0.221106610636
+worst, 9849, 0.210334843477
+pick, 6619, 0.192955913959
+throw, 8899, 0.192169438425
+steve, 8390, 0.191016138872
+past, 6456, 0.181224841539
+pitcher, 6644, 0.170352577935
+ball, 877, 0.167630284502
+mean, 5595, 0.132459238747
+tri, 9087, 0.124131688183
+mani, 5479, 0.121580102508
+anyon, 554, 0.115177171901
+year, 9943, 0.107719605241

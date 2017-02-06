@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60239
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jaskew@spam.maths.adelaide.edu.au (Joseph Askew)
+Subject: Re: the call to space (was Re: Clueless Szaboisms )
+Keywords: trumpet calls, infrastructure, public perception
+Organization: Statistics, Pure & Applied Mathematics, University of Adelaide
+Lines: 32
+
+In article <1pfj8k$6ab@access.digex.com> prb@access.digex.com (Pat) writes:
+>In article <1993Mar31.161814.11683@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+
+>>It isn't feasible for Japan to try to stockpile the amount of oil they
+>>would need to run their industries if they did no use nuclear power.
+
+>Of course,  Given they export 50 % of the GNP,  What do they do.
+
+Well they don't export anywhere near 50% of their GNP. Mexico's perhaps
+but not their own. They actually export around the 9-10% mark. Similar
+to most developed countries actually. Australia exports a larger share
+of GNP as does the United States (14% I think off hand. Always likely to
+be out by a factor of 12 or more though) This would be immediately obvious
+if you thought about it.
+
+>Anything serious enough to disrupt the sea lanes for oil will
+>also hose their export routes.
+
+It is their import routes that count. They can do without exports but
+they couldn't live without imports for any longer than six months if that.
+
+>Given they import everything,  oil is just one more critical commodity.
+
+Too true! But one that is unstable and hence a source of serious worry.
+
+Joseph Askew
+
+-- 
+Joseph Askew, Gauche and Proud  In the autumn stillness, see the Pleiades,
+jaskew@spam.maths.adelaide.edu  Remote in thorny deserts, fell the grief.
+Disclaimer? Sue, see if I care  North of our tents, the sky must end somwhere,
+Actually, I rather like Brenda  Beyond the pale, the River murmurs on.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ call space clueless szaboism        isn't feasibl
+japan tri stockpil amount oil need run industri
+use nuclear power  cours given export gnp  well
+don't export anywher near gnp mexico perhap actual
+export around mark similar develop countri actual
+australia export larger share gnp unit state think
+hand alway like factor though immedi obvious
+thought  anyth serious enough disrupt sea lane oil
+also hose export rout  import rout count without
+export couldn't live without import longer six
+month  given import everyth oil one critic commod
+true one unstabl henc sourc serious worri  joseph
+askew   joseph askew gauch proud autumn still see
+pleiad  disclaim sue see care north tent sky must
+end somwher actual rather like brenda beyond pale
+river murmur
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+export, 3310, 0.50069898413
+gnp, 3919, 0.304501750626
+oil, 6213, 0.286559854748
+askew, 690, 0.223449082811
+rout, 7498, 0.19526139331
+import, 4551, 0.167722627731
+joseph, 4893, 0.165213482074
+actual, 254, 0.142275245159
+pleiad, 6691, 0.111724541406
+gauch, 3794, 0.111724541406
+brenda, 1295, 0.111724541406
+autumn, 808, 0.111724541406
+stockpil, 8404, 0.109035288724
+murmur, 5927, 0.109035288724
+clueless, 1845, 0.109035288724
+unstabl, 9312, 0.106761557979
+tent, 8791, 0.106761557979
+somwher, 8131, 0.106761557979
+pale, 6396, 0.106761557979
+hose, 4384, 0.106761557979
+given, 3887, 0.105883090635
+disrupt, 2740, 0.103054656765
+lane, 5110, 0.0965376001151
+sue, 8519, 0.093673788552
+river, 7422, 0.0928306989009
+mexico, 5671, 0.0920332045049
+proud, 6946, 0.0892151295779
+sea, 7739, 0.0885873729964
+feasibl, 3419, 0.0885873729964
+henc, 4252, 0.0848123420845
+nuclear, 6150, 0.0806884504626
+japan, 4825, 0.0796468375817
+anywher, 557, 0.0796468375817
+australia, 792, 0.0771827809276
+worri, 9845, 0.0760896843878
+larger, 5125, 0.0755720855499
+share, 7855, 0.0738914016503
+north, 6110, 0.0734443961298
+disclaim, 2691, 0.0723827831735
+critic, 2237, 0.0723827831735
+countri, 2186, 0.0713924748776
+industri, 4608, 0.0712021489684
+factor, 3352, 0.070828709951
+immedi, 4527, 0.0706454771188
+count, 2180, 0.068139457269
+couldn, 2176, 0.0671013367649
+unit, 9278, 0.0669588230639
+longer, 5337, 0.0658657265241
+sky, 8011, 0.0637813443782
+everyth, 3242, 0.0635544160052
+obvious, 6185, 0.0623651231245
+like, 5272, 0.0621158415565
+similar, 7961, 0.0610730470799
+month, 5847, 0.0607902897954
+mark, 5512, 0.0600617440213
+near, 5982, 0.0597105356837
+care, 1516, 0.0580699516366
+perhap, 6540, 0.0570937649821
+alway, 457, 0.0557077645348
+develop, 2588, 0.0549346590361
+power, 6783, 0.0547475522568
+sourc, 8153, 0.0544408872959
+live, 5310, 0.054081112062
+isn, 4783, 0.0540219935328
+hand, 4145, 0.0535003262758
+true, 9121, 0.0526161632998
+state, 8342, 0.0522978044672
+thought, 8887, 0.0514809838404
+end, 3091, 0.0508490892162
+anyth, 555, 0.0505663319317
+cours, 2190, 0.0504732713498
+run, 7543, 0.0444309235963
+tri, 9087, 0.0427175874536
+space, 8164, 0.0418395072001
+need, 5993, 0.0396583232094
+think, 8871, 0.0337820376916
+don, 2811, 0.0334565468783
+use, 9363, 0.0325761091337

@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61412
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: garym@alsys.com (Gary Morris @ignite)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: Alsys Group, San Diego, CA, USA
+Lines: 24
+
+In <1993Apr28.141606.17449@lambda.msfc.nasa.gov> bday@lambda.msfc.nasa.gov (Brian Day) writes:
+>rdouglas@stsci.edu (Rob Douglas) writes:
+>>[...]  But try to land a shuttle with that big huge telescope in the 
+>>back and you could have problems.  The shuttle just isn't designed to land 
+>>with that much weight in the payload.
+
+>Is HST really _that_ much heavier than a Spacelab ???
+
+HST is about 25,500 lbs (11,600 kg).  That doesn't include the cradle that
+would have been in the cargo bay when it was deployed.  Spacelab-J on STS-47
+was 21,861 lbs (according to the press-kit). 
+
+As someone else pointed out if they had been unable to deploy it for some
+reason that would have had to land with it still in the cargo bay and this
+was a planned for contingency.  This is not a problem for the shuttle,
+though it would eliminate KSC as a landing site, they still have to go to
+Edwards when landing with something like Spacelab in the cargo bay. 
+
+--GaryM
+-- 
+Gary Morris                      Internet: garym@alsys.com
+TeleUSE Development              UUCP:     uunet!alsys.com!garym
+Alsys Group (TeleSoft)           Phone:    +1 619-457-2700 x128
+San Diego, CA, USA               Fax:      +1 619-452-1334
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ignit hst servic mission schedul day      tri land
+shuttl big huge telescop back could problem shuttl
+isn't design land much weight payload  hst realli
+much heavier spacelab  hst lbs doesn't includ
+cradl cargo bay deploy spacelab sts lbs accord
+press kit  someon els point unabl deploy reason
+land still cargo bay plan conting problem shuttl
+though elimin ksc land site still edward land
+someth like spacelab cargo bay  garym   teleus
+develop uucp uunet alsi com garym alsi group
+telesoft phone x128 san diego usa fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+land, 5104, 0.371623532975
+spacelab, 8170, 0.350908886257
+cargo, 1519, 0.346716097531
+bay, 956, 0.290529348957
+hst, 4416, 0.269290318153
+lbs, 5166, 0.252761696317
+shuttl, 7929, 0.210831911928
+deploy, 2540, 0.197570372347
+ignit, 4495, 0.124049305687
+ksc, 5077, 0.120153078313
+cradl, 2205, 0.116969628752
+conting, 2091, 0.11557203251
+kit, 5033, 0.1142780605
+heavier, 4231, 0.111946518028
+problem, 6887, 0.109865256117
+edward, 3003, 0.104866841093
+sts, 8462, 0.103469244851
+elimin, 3044, 0.103469244851
+uunet, 9392, 0.100970613719
+unabl, 9211, 0.0993064377691
+weight, 9695, 0.0910338636749
+telescop, 8764, 0.0888678260605
+diego, 2629, 0.0880159189716
+payload, 6477, 0.0866823985144
+huge, 4427, 0.0856843764997
+uucp, 9388, 0.0840643488201
+usa, 9357, 0.0838447153363
+press, 6841, 0.0838447153363
+schedul, 7678, 0.0794323726019
+san, 7603, 0.078931076016
+accord, 219, 0.0784437709445
+phone, 6601, 0.0766201360618
+com, 1917, 0.0763338897866
+fax, 3413, 0.0733407487227
+site, 7994, 0.0719615611612
+servic, 7813, 0.0718513990813
+plan, 6660, 0.0713107790623
+mission, 5772, 0.0690192075314
+design, 2564, 0.0678457003035
+develop, 2588, 0.0650298565675
+isn, 4783, 0.0639494729297
+group, 4064, 0.0607660233689
+els, 3053, 0.0603632891323
+includ, 4579, 0.0600812049401
+big, 1082, 0.0594762091466
+someon, 8124, 0.05705704317
+doesn, 2793, 0.0566385259685
+reason, 7156, 0.0563198093693
+realli, 7150, 0.0518117988821
+day, 2402, 0.0517769820575
+someth, 8126, 0.0513985101973
+tri, 9087, 0.0505676859338
+point, 6710, 0.0492853087386
+like, 5272, 0.0367653530382

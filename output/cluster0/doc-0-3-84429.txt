@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84429
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mwilson@ncratl.AtlantaGA.NCR.COM (Mark Wilson)
+Subject: Re: Who's next? Mormons and Jews?
+Organization: NCR Engineering and Manufacturing Atlanta -- Atlanta, GA
+Lines: 27
+
+In <1rdlsf$vi@agate.berkeley.edu> isaackuo@skippy.berkeley.edu (Isaac Kuo) writes:
+
+|I merely point out that it IS a valid strategy which is used every day.
+|Furthermore, we don't know of any substitute strategy capable of apprehending
+|potentially dangerous and armed suspects.  Do you suggest that the police
+|always knock with guns holstered and never arrest any suspects until they have
+|been allowed to inspect the officers's badges?  Just what should the police do
+|when apprehending potentially dangerous and armed suspects?  How far can they
+|reasonably go to identiy themselves?  What do you suggest they can do which
+|can't be faked by the "competition"?
+
+So instead you are asking individual citizens to place themselves at risk
+by assuming that everyone who claims to be a cop, actually is a cop.
+Around here the police have actually made public service announcements saying
+that if you are a lady driving by yourself at night and you see blue lights
+flashing behind you. Do not pull over until you reach a well lit, preferably
+occupied place, gas station etc.
+
+|Even if you've got deadly enemies who may pretend to be cops, that's not an
+|excuse to murder police.
+
+It wouldn't be murder, it would be self defense.
+-- 
+Mob rule isn't any prettier merely because the mob calls itself a government
+It ain't charity if you are using someone else's money.
+Wilson's theory of relativity: If you go back far enough, we're all related.
+Mark.Wilson@AtlantaGA.NCR.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew      mere point valid
+strategi use everi day furthermor don't know
+substitut strategi capabl apprehend potenti danger
+arm suspect suggest polic alway knock gun holster
+never arrest suspect allow inspect offic badg
+polic apprehend potenti danger arm suspect far
+reason identiy suggest can't fake competit
+instead ask individu citizen place risk assum
+everyon claim cop actual cop around polic actual
+made public servic announc say ladi drive night
+see blue light flash behind pull reach well lit
+prefer occupi place gas station etc  even you'v
+got dead enemi pretend cop that excus murder polic
+wouldn't murder self defens  mob rule isn't
+prettier mere mob call govern ain't chariti use
+someon els money wilson theori relat back far
+enough we'r relat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polic, 6720, 0.377758241009
+cop, 2127, 0.331383237902
+apprehend, 588, 0.225627199571
+suspect, 8603, 0.221599140502
+mob, 5801, 0.220922158602
+murder, 5926, 0.180871146653
+strategi, 8431, 0.179719223161
+danger, 2356, 0.16091177428
+arm, 643, 0.158562742463
+mere, 5641, 0.148131750981
+potenti, 6774, 0.146186994607
+holster, 4351, 0.119001473713
+relat, 7247, 0.116676674036
+suggest, 8525, 0.116391416354
+badg, 862, 0.115596040951
+lit, 5302, 0.106625725858
+chariti, 1667, 0.105017800601
+place, 6657, 0.104540694497
+occupi, 6191, 0.103563255278
+inspect, 4674, 0.103563255278
+arrest, 654, 0.103563255278
+far, 3386, 0.101957202136
+fake, 3368, 0.0988299266735
+ain, 354, 0.0988299266735
+actual, 254, 0.0981369289067
+flash, 3524, 0.0969197900587
+pretend, 6848, 0.0952223561887
+enemi, 3100, 0.0952223561887
+substitut, 8504, 0.0936949650238
+ladi, 5093, 0.0936949650238
+citizen, 1776, 0.0929850149292
+wilson, 9768, 0.0898596115807
+competit, 1970, 0.0898596115807
+furthermor, 3732, 0.0887690638336
+risk, 7416, 0.0850511046224
+excus, 3268, 0.0842476993987
+gun, 4094, 0.0834844816238
+knock, 5050, 0.0807642041899
+gas, 3780, 0.0804558871402
+mormon, 5863, 0.0787263582534
+valid, 9411, 0.0781908234845
+pull, 6979, 0.0769288507468
+jew, 4862, 0.0721793812892
+self, 7776, 0.0708219381488
+theori, 8848, 0.070500638389
+blue, 1176, 0.0703424900836
+announc, 524, 0.0700310267243
+prefer, 6819, 0.0697257930517
+capabl, 1498, 0.068423101468
+dead, 2415, 0.0680124621231
+offic, 6206, 0.0676125831354
+use, 9363, 0.0674098850269
+individu, 4604, 0.0667183673468
+reach, 7128, 0.0663506103977
+drive, 2873, 0.0662299680706
+defens, 2476, 0.0659915073614
+instead, 4682, 0.0655254810779
+station, 8346, 0.0644191145423
+wouldn, 9854, 0.0637918546813
+rule, 7537, 0.0636897728632
+govern, 3966, 0.0636897728632
+servic, 7813, 0.0628005208655
+night, 6063, 0.0619602439764
+money, 5835, 0.0615126701132
+everyon, 3241, 0.0608227820366
+light, 5267, 0.0607386982157
+claim, 1782, 0.0594527863752
+assum, 710, 0.0592232906987
+public, 6973, 0.0586276570554
+allow, 432, 0.058482311434
+alway, 457, 0.0576381603307
+isn, 4783, 0.0558939736791
+ask, 689, 0.0528592759462
+els, 3053, 0.05275952935
+everi, 3235, 0.0522703472487
+got, 3960, 0.0500768347812
+someon, 8124, 0.0498697600317
+reason, 7156, 0.0492253930844
+day, 2402, 0.0452548103952
+point, 6710, 0.0430770047539
+say, 7653, 0.0387460589459
+don, 2811, 0.0346158893502
+know, 5052, 0.0328723083128

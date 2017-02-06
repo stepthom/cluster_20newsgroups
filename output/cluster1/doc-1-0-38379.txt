@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38379
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: d88-jwa@hemul.nada.kth.se (Jon Wtte)
+Subject: Re: Please Recommend 3D Graphics Library For Mac.
+Organization: Royal Institute of Technology, Stockholm, Sweden
+Lines: 21
+Nntp-Posting-Host: hemul.nada.kth.se
+
+In <Z2442B4w164w@cellar.org> tsa@cellar.org (The Silent Assassin) writes:
+
+>> I'm building a CAD package and need a 3D graphics library that can handle
+>> some rudimentry tasks, such as hidden line removal, shading, animation, etc.
+>> 
+>> Can you please offer some recommendations?
+
+I think APDA has something called MacWireFrame which is a full
+wire-frame (and supposedly hidden-line removal) library.
+I think it weighs in at $99 (but I've been wrong on an order
+of magnitude before)
+
+>Libertarian, atheist, semi-anarchal Techno-Rat.
+
+I can relate to that
+
+					/h+
+-- 
+ -- Jon W{tte, h+@nada.kth.se, Mac Hacker Deluxe --
+
+  "On a clear disc, you can seek forever."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleas recommend graphic librari mac       i'm
+build cad packag need graphic librari handl
+rudimentri task hidden line remov shade anim etc
+pleas offer recommend  think apda someth call
+macwirefram full wire frame suppos hidden line
+remov librari think weigh i'v wrong order magnitud
+libertarian atheist semi anarch techno rat  relat
+clear disc seek forev
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+librari, 5250, 0.342314021295
+hidden, 4286, 0.290855878921
+recommend, 7178, 0.260806160741
+remov, 7272, 0.245596806591
+anarch, 494, 0.200438134051
+disc, 2685, 0.194702250559
+techno, 8741, 0.190015692504
+libertarian, 5248, 0.186053264127
+rudimentri, 7530, 0.182620852542
+line, 5285, 0.170405970554
+graphic, 3997, 0.169257100233
+rat, 7106, 0.160386176733
+atheist, 740, 0.157813541071
+weigh, 9694, 0.153331804049
+magnitud, 5441, 0.152323639395
+cad, 1445, 0.152323639395
+pleas, 6688, 0.151233898625
+wire, 9793, 0.149516682114
+forev, 3602, 0.146986289525
+semi, 7781, 0.143958687938
+shade, 7835, 0.142568895224
+task, 8707, 0.141250406032
+seek, 7766, 0.137105023833
+frame, 3643, 0.124415597117
+handl, 4149, 0.118746566468
+think, 8871, 0.117743849011
+mac, 5410, 0.114555648555
+offer, 6203, 0.112797363049
+packag, 6375, 0.111961357539
+anim, 515, 0.110953192885
+suppos, 8577, 0.104515159112
+build, 1378, 0.103756847375
+clear, 1803, 0.098625813052
+relat, 7247, 0.0982611983759
+wrong, 9869, 0.0943505422298
+order, 6281, 0.0908663584145
+someth, 8126, 0.0756670075634
+need, 5993, 0.06911252161

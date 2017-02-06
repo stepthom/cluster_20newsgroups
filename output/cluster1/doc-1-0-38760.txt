@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38760
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: stusoft@hardy.u.washington.edu (Stuart Denman)
+Subject: Re: 3D2 files - what are they?
+Article-I.D.: shelley.1rft1nINNc7s
+Organization: University of Washington
+Lines: 16
+NNTP-Posting-Host: hardy.u.washington.edu
+
+doug@hparc0.aus.hp.com (Doug Parsons) writes:
+
+>I was chaining around in the anonymous ftp world looking for 3D Studio
+>meshes and other interesting graphical stuff for the program, and found
+>a few files with the extension 3D2.  My 3DS v2.01 doesn't know this type
+>of file, so what are they?
+
+They are 3D object files for CAD 3D 2.0, a program written by Tom Hudson
+for the Atari ST computers.  Don't know much more about them except that
+they are stored with the points first, then the surfaces are next, and are
+made by listing 3 point numbers that make up the triangle surface. Then
+there's a header that describes coloring, lighting, etc.  Don't know much
+more than this, hope this helps.
+
+Stuart Denman
+stusoft@u.washington.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ 3d2 file articl shelley 1rft1ninnc7       chain
+around anonym ftp world look studio mesh interest
+graphic stuff program found file extens 3d2 3ds
+doesn't know type file  object file cad program
+written tom hudson atari comput don't know much
+except store point first surfac next made list
+point number make triangl surfac there header
+describ color light etc don't know much hope help
+stuart denman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3d2, 96, 0.423382931126
+file, 3477, 0.362399412429
+surfac, 8587, 0.228924521236
+stuart, 8464, 0.193543400017
+shelley, 7874, 0.182927462212
+atari, 735, 0.180168900109
+3ds, 99, 0.169552962304
+know, 5052, 0.169187535795
+mesh, 5648, 0.167863206731
+hudson, 4423, 0.164779396666
+triangl, 9090, 0.163363801966
+chain, 1637, 0.163363801966
+program, 6905, 0.162539806173
+studio, 8470, 0.158361570035
+cad, 1445, 0.155151580815
+header, 4217, 0.154163458861
+point, 6710, 0.147806115193
+store, 8417, 0.132824058977
+extens, 3320, 0.132824058977
+anonym, 532, 0.129979794263
+don, 2811, 0.118774277786
+tom, 8976, 0.118110884169
+written, 9867, 0.114250258454
+describ, 2556, 0.11281244727
+ftp, 3709, 0.105835795264
+color, 1907, 0.10523040126
+light, 5267, 0.104203519679
+type, 9177, 0.10226321555
+stuff, 8472, 0.100332454751
+object, 6173, 0.0964208433832
+list, 5298, 0.0958918935917
+hope, 4372, 0.0935875818738
+comput, 1993, 0.0907715397825
+world, 9841, 0.0876877297184
+graphic, 3997, 0.0861997086255
+number, 6156, 0.0851366888405
+doesn, 2793, 0.0849291676154
+articl, 665, 0.0843836869653
+help, 4249, 0.0769191260339
+make, 5459, 0.0656682364233
+look, 5341, 0.0653401353356

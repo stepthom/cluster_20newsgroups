@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102632
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: 00bjgood@leo.bsuvc.bsu.edu
+Subject: Jim Lefebvre is an idiot.
+Organization: Ball State University, Muncie, In - Univ. Computing Svc's
+Lines: 14
+
+I just wanted to let everyone know that I have lost what little respect I have
+for Jim LeFebvre after seeing today's Cubs game. First of all how could he
+start Maldonado over May. After the way May played at the end of last year and
+the way he tore up the Cactus League how could you let him sit the bench? Not
+to mention that a right hander (Maddux) started. I really blew my top when
+Lefebvre pinch hit for Rick Wilkins with TOMMY SHIELDS! How can you do that
+just because of the lefty-righty thing, too much is made of that. Wilkins is
+twice the hitter that Shields is. Then the next batter was Jose Vizcaino, one
+of the weakest hitters I have ever seen, and who had looked terrible at bat all
+day, and Lefebre let him hit, while May still sat the bench. I think even Arnie
+Harris was stunned by this because he showed May sitting in the dugout while
+Vizcaino was batting. Face it Lefebvre has got to be the worst manager in
+baseball.
+						A dishard Cub fan
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jim lefebvr idiot    want let everyon know lost
+littl respect jim lefebvr see today cub game first
+could start maldonado way play end last year way
+tore cactus leagu could let sit bench mention
+right hander maddux start realli blew top lefebvr
+pinch hit rick wilkin tommi shield lefti righti
+thing much made wilkin twice hitter shield next
+batter jose vizcaino one weakest hitter ever seen
+look terribl bat day lefebr let hit still sat
+bench think even arni harri stun show sit dugout
+vizcaino bat face lefebvr got worst manag basebal
+dishard cub fan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lefebvr, 5192, 0.486665258544
+wilkin, 9761, 0.263803958676
+vizcaino, 9553, 0.247434755886
+shield, 7882, 0.207750741365
+bench, 1022, 0.205070355915
+sit, 7993, 0.17668439233
+cub, 2282, 0.172392467851
+let, 5225, 0.164984081689
+jim, 4868, 0.159122579611
+hitter, 4322, 0.14825166115
+bat, 942, 0.143099925173
+weakest, 9671, 0.131901979338
+lefebr, 5191, 0.131901979338
+dishard, 2714, 0.131901979338
+stun, 8474, 0.126042681737
+maldonado, 5464, 0.123717377943
+hit, 4316, 0.121792209933
+righti, 7402, 0.119831575988
+hander, 4147, 0.119831575988
+dugout, 2910, 0.119831575988
+blew, 1156, 0.119831575988
+maddux, 5426, 0.118171852994
+start, 8334, 0.110242682161
+terribl, 8804, 0.105327370604
+lefti, 5196, 0.105327370604
+harri, 4184, 0.101290797915
+sat, 7626, 0.0995765712423
+rick, 7387, 0.0995765712423
+tommi, 8978, 0.0985208594702
+twice, 9170, 0.0980160730814
+idiot, 4487, 0.0961316513436
+pinch, 6632, 0.092882460109
+way, 9666, 0.0911053268847
+jose, 4892, 0.0898314716863
+worst, 9849, 0.0854551045854
+batter, 949, 0.0827707383578
+respect, 7321, 0.0788849364027
+lost, 5355, 0.0770005146649
+face, 3345, 0.0748999096148
+leagu, 5176, 0.069890239593
+mention, 5632, 0.0696934701429
+everyon, 3241, 0.0694024230718
+fan, 3381, 0.0693064784155
+today, 8964, 0.0665675230804
+manag, 5472, 0.0664859589451
+seen, 7767, 0.0646349532137
+end, 3091, 0.0600324282451
+basebal, 924, 0.0586818360506
+littl, 5308, 0.0585265847008
+play, 6681, 0.0574284959298
+got, 3960, 0.0571406561358
+right, 7399, 0.0529716949166
+game, 3761, 0.0527854481032
+realli, 7150, 0.0516731622857
+day, 2402, 0.0516384386231
+thing, 8869, 0.0475731813789
+want, 9634, 0.0474363864017
+year, 9943, 0.0437644566141
+look, 5341, 0.0434581739011
+think, 8871, 0.0398830693912
+know, 5052, 0.0375092649905

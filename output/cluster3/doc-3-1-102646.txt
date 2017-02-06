@@ -1,0 +1,121 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102646
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: thf2@kimbark.uchicago.edu (Ted Frank)
+Subject: Re: Best Second Baseman?
+Reply-To: thf2@midway.uchicago.edu
+Organization: University of Chicago
+Distribution: usa
+Lines: 22
+
+In article <1pqvusINNmjm@crcnis1.unl.edu> horan@cse.unl.edu (Mark Horan) writes:
+>Sandberg is not particulary known for his stolen bases.  What competition did 
+>Alomar have?  Sandberg came in a year after Ripken, and the same year as Boggs,
+>Gwynn, and the other magicians.  So less attention was given to Sandberg. 
+>Alomar is the only one in his class to be worth a mediocre.  Besides the 
+>numbers don't count.  National league pitchers are much better pitchers. 
+
+You're right: Thomas, Gonzalez, Sheffield, and Griffey don't even begin
+to compare with Ripken, Boggs, and Gwynn, so no wonder Alomar gets so
+much attention.
+
+Sandberg got no attention his rookie year because his rookie year was
+terrible.  So was his sophomore year.
+
+National League pitchers are "much better pitchers"?  That certainly explains
+Sheffield's 1993, hm?  Are you confusing "have ERA's that are 0.40 lower
+because they don't face DH's" with "much better"?
+-- 
+ted frank                 | "However Teel should have mentioned that though 
+thf2@kimbark.uchicago.edu |  his advice is legally sound, if you follow it 
+the u of c law school     |  you will probably wind up in jail."
+standard disclaimers      |                    -- James Donald, in misc.legal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best second baseman       sandberg particulari
+known stolen base competit alomar sandberg came
+year ripken year bogg gwynn magician less attent
+given sandberg alomar one class worth mediocr
+besid number don't count nation leagu pitcher much
+better pitcher  you'r right thoma gonzalez
+sheffield griffey don't even begin compar ripken
+bogg gwynn wonder alomar get much attent  sandberg
+got attent rooki year rooki year terribl sophomor
+year  nation leagu pitcher much better pitcher
+certain explain sheffield confus era lower don't
+face dh much better  ted frank howev teel mention
+though  law school probabl wind jail standard
+disclaim jame donald misc legal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sandberg, 7606, 0.384676689292
+alomar, 436, 0.266223400447
+pitcher, 6644, 0.26126978739
+attent, 766, 0.254333444135
+gwynn, 4104, 0.226180401033
+ripken, 7409, 0.215121059868
+sheffield, 7871, 0.212853366963
+year, 9943, 0.206511978716
+bogg, 1199, 0.19118494524
+rooki, 7475, 0.188992899113
+better, 1060, 0.147493819096
+leagu, 5176, 0.131916836519
+nation, 5962, 0.129401078209
+sophomor, 8140, 0.128148756182
+dh, 2604, 0.128148756182
+teel, 8746, 0.121485239147
+donald, 2812, 0.114821722112
+don, 2811, 0.111830123425
+mediocr, 5610, 0.110093881536
+jail, 4818, 0.108778439256
+griffey, 4047, 0.108778439256
+terribl, 8804, 0.0994019594862
+gonzalez, 3946, 0.0994019594862
+competit, 1970, 0.0967668474659
+stolen, 8407, 0.0961691723229
+baseman, 928, 0.0925019742689
+misc, 5757, 0.0873111663131
+ted, 8745, 0.0869723036866
+wind, 9773, 0.0859957240336
+legal, 5200, 0.0823285259796
+era, 3164, 0.0820776164473
+thoma, 8878, 0.0815870052344
+jame, 4820, 0.0813470848401
+disclaim, 2691, 0.0806476492783
+confus, 2037, 0.0791228505989
+lower, 5371, 0.0787119728197
+class, 1789, 0.0787119728197
+besid, 1051, 0.0781142976768
+school, 7685, 0.077349775871
+count, 2180, 0.0759198087019
+worth, 9850, 0.0744470996228
+begin, 994, 0.0729520462097
+face, 3345, 0.0706862588361
+law, 5153, 0.0705622261331
+frank, 3655, 0.0703169341894
+compar, 1960, 0.0691425593437
+standard, 8313, 0.0673206152085
+explain, 3301, 0.0664320606997
+came, 1472, 0.0662409625566
+mention, 5632, 0.0657727184858
+known, 5054, 0.0656806495888
+wonder, 9821, 0.0596727168328
+given, 3887, 0.0589865571867
+certain, 1619, 0.0581527567388
+second, 7753, 0.0571940549827
+howev, 4406, 0.0566551786686
+best, 1052, 0.0549448762564
+got, 3960, 0.0539260892364
+probabl, 6885, 0.0537474542696
+number, 6156, 0.0534394404719
+base, 923, 0.0514312704899
+right, 7399, 0.0499916616338

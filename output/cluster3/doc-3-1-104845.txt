@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104845
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tac@world.std.com (Tackey Chan)
+Subject: Re: ugliest swing
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 5
+
+	Ugliest swing..I am not sure. I think the ugliset stance is
+Jolio Franco of the Ranger. I wonder how that bat comes around in time
+to hit the ball. It looks bad but hey.it get the job done. 
+
+				------TAC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ugliest swing    ugliest swing sure think ugliset
+stanc jolio franco ranger wonder bat come around
+time hit ball look bad hey get job done  tac
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ugliest, 9194, 0.549838457362
+swing, 8635, 0.427902800998
+tac, 8668, 0.283834088287
+franco, 3653, 0.274919228681
+stanc, 8310, 0.264437453297
+ranger, 7095, 0.215727303142
+hey, 4283, 0.20538546216
+job, 4873, 0.170060486972
+bat, 942, 0.164150895658
+ball, 877, 0.156247513652
+bad, 861, 0.147128299477
+wonder, 9821, 0.145062765916
+hit, 4316, 0.13970867085
+sure, 8585, 0.128658001008
+come, 1923, 0.115851441388
+look, 5341, 0.0997023326305
+time, 8936, 0.0949249552265
+think, 8871, 0.091500279322

@@ -1,0 +1,412 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102734
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: "Seer" Stephenson picks the A.L. East
+Summary: The division has gone to the birds
+Keywords: last chance for foolishness
+Article-I.D.: pegasus.steph.733989466
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 95
+
+Having run completely out of time, I've got to get my prophesies and
+predictions for the A.L. out.  Qualifications -- one of the worse
+finishes in last year's prediction contest.
+
+AL East -- 1993
+
+1.  Baltimore Orioles
+Why the Orioles?  Well, I pondered long and hard, and it all came down to
+this:
+  -- The Blue Jays are going the wrong direction.
+  -- Can't bring myself to pick the Yankees
+  -- Milwaukee was a fluke
+  -- Indians aren't ready to contend
+  -- Red Sox were bad last year, and didn't get any better
+  -- Detroit's pitching will be the new definition of "replacement level"
+"But you don't really think the Orioles will win, do you."  No.  As a matter
+of fact, I can't see any team in the American League winning either division
+on paper (with the possible exception of the Yankees, who I hate).  But some-
+body has to win, so I pick the Orioles.  "You don't really think that Brady
+Anderson is going to repeat, do you?"  No.  I'm basing the Orioles prediction
+on the expectation of big years from Cal Ripken and Glenn Davis.  "Glenn
+Davis?  That's insane".  Yes.  So, without further ado:
+STRONG POINTS:  Hoiles, Ripken some years, Olson, getting rid of Billy Ripken.
+WEAK POINTS:  Segui may start.  Valenzuela (the original 30-something) may be
+  the fifth starter.  Oates puts his best hitters at the bottom of the lineup.
+  (Does anybody else think that might be a calculated maneuver to minimize
+  the effect of a slumping Ripken?  If you can't move Ripken out of the #3
+  spot, why not move the rest of the line up?)
+WOULD BE A GOOD SIGN:  Glenn Davis wins comeback player of the year.
+WOULD BE A BAD SIGN:  In a tight pennant race, team trades for Pecota.
+ObPrediction:  "The Streak" continues.  Harold Reynolds leads the team in
+  caught stealing.
+
+2. New York Yankees.
+STRONG POINTS:  Abbot, Key, Perez.  Could have best pitching in American
+  League.  Boggs should improve on Hayes.
+WEAK POINTS:  Mattingly still considered best hitter.  The Steinbrenner 
+  factor.  (The Yankees lost to the Mets.  Can wholesale changes be far
+  behind?)  Never count on rookie pitchers (i.e. Wickman & Millitello) to
+  win a division.
+WOULD BE A GOOD SIGN:  Boggs hits over .300
+WOULD BE A BAD SIGN:  Howe gets arrested again.
+ObPrediction:  Mattingly won't top a 700 OPS.
+
+3.  Toronto Blue Jays
+STRONG POINTS:  Management willing to make big deals.  Management has eerie
+  power to convince other teams its prospects are not suspects.  Olerud.
+  Guzman.  Alomar.
+WEAK POINTS:  The Jackson for Bell trade has shaken my faith in Gillick.
+  Losing Stewart may hurt rotation (that's *really* a bad sign).  No one in
+  the outfield can get on base.  Pitching is thin behind Guzman and Ward.
+WOULD BE A GOOD SIGN:  Jack Morris considered Cy Young contender in August
+WOULD BE A BAD SIGN:  Club makes no major deals in August.
+ObPrediction:  Morris will post better ERA and WHIP totals than last year.  And
+  have a losing record.
+
+4.  Milwaukee Brewers
+STRONG POINTS:  Pitching staff was exceptional -- last year.
+WEAK POINTS:  Molitor gone.  Surhoff at third?  Why?  Eldred can't keep it up.
+WOULD BE A GOOD SIGN:  Listach and Eldred play like last year.
+WOULD BE BAD SIGN:  Bones plays like last year.
+ObPrediction:  Surhoff won't finish the year at third.
+
+5.  Cleveland Indians
+STRONG POINTS:  Baerga, Belle, Nagy
+WEAK POINTS:  Pitching staff thin -- losing Olin really hurts.  Starts Felix
+  Fermin.
+WOULD BE A GOOD SIGN:  Bielecki's ERA is consistent with his Atlanta starts.
+WOULD BE A BAD SIGN:  Ted Power -- bullpen ace.
+ObPrediction:  Alomar will be back on the DL by the all-star break.
+
+6.  Boston Red Sox
+STRONG POINTS:  Clemens, Viola, Clemens, Detroit, Clemens
+WEAK POINTS:  Most incompetent GM in baseball.  Key free agent signing -- Andre
+  Dawson.  Burks is gone -- Hatcher in center.
+WOULD BE A GOOD SIGN:  Rainouts in between Clemens starts.
+WOULD BE A BAD SIGN:  Clemens on the DL
+ObPrediction:  Russell will make Sox fans forget Reardon.  Interpret that how
+  you will :->
+
+7.  Detroit Tigers
+STRONG POINTS:  Tettleton, Phillips, Whitaker
+WEAK POINTS:  If Fielder keeps declining, he'll be a shortstop this year.
+  Worst rotation in baseball entirely replaced -- but not necessarily better.
+  This year could be *very* ugly.
+WOULD BE A GOOD SIGN:  Cecil Fielder deserving the MVP.
+WOULD BE A BAD SIGN:  Cecil Fielder not whining about deserving an MVP.
+ObPrediction:  Cecil *won't* lead the league in RBIs.
+
+One more division to go....
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ seer stephenson pick east divis gone bird  articl
+pegasus steph    run complet time i'v got get
+prophesi predict qualif one wors finish last year
+predict contest  east  baltimor oriol oriol well
+ponder long hard came  blue jay go wrong direct
+can't bring pick yanke milwauke fluke indian
+aren't readi contend red sox bad last year didn't
+get better detroit pitch new definit replac level
+don't realli think oriol win matter fact can't see
+team american leagu win either divis paper possibl
+except yanke hate bodi win pick oriol don't realli
+think bradi anderson go repeat i'm base oriol
+predict expect big year cal ripken glenn davi
+glenn davi that insan yes without ado strong point
+hoil ripken year olson get rid billi ripken weak
+point segui start valenzuela origin someth fifth
+starter oat put best hitter bottom lineup anybodi
+els think might calcul maneuv minim effect slump
+ripken can't move ripken spot move rest line good
+sign glenn davi win comeback player year bad sign
+tight pennant race team trade pecota obpredict
+streak continu harold reynold lead team caught
+steal  new york yanke strong point abbot key perez
+could best pitch american leagu bogg improv hay
+weak point mat still consid best hitter steinbrenn
+factor yanke lost met wholesal chang far behind
+never count rooki pitcher wickman millitello win
+divis good sign bogg hit bad sign howe get arrest
+obpredict mat won't top op  toronto blue jay
+strong point manag will make big deal manag eeri
+power convinc team prospect suspect olerud guzman
+alomar weak point jackson bell trade shaken faith
+gillick lose stewart hurt rotat that realli bad
+sign one outfield get base pitch thin behind
+guzman ward good sign jack morri consid young
+contend august bad sign club make major deal
+august obpredict morri post better era whip total
+last year lose record  milwauke brewer strong
+point pitch staff except last year weak point
+molitor gone surhoff third eldr can't keep good
+sign listach eldr play like last year bad sign
+bone play like last year obpredict surhoff won't
+finish year third  cleveland indian strong point
+baerga bell nagi weak point pitch staff thin lose
+olin realli hurt start felix fermin good sign
+bielecki era consist atlanta start bad sign ted
+power bullpen ace obpredict alomar back star break
+boston red sox strong point clemen viola clemen
+detroit clemen weak point incompet basebal key
+free agent sign andr dawson burk gone hatcher
+center good sign rainout clemen start bad sign
+clemen obpredict russel make sox fan forget
+reardon interpret   detroit tiger strong point
+tettleton phillip whitak weak point fielder keep
+declin he'll shortstop year worst rotat basebal
+entir replac necessarili better year could ugli
+good sign cecil fielder deserv mvp bad sign cecil
+fielder whine deserv mvp obpredict cecil won't
+lead leagu rbis  one divis    consid good look
+wise especi overburden inform golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sign, 7946, 0.435313980316
+point, 6710, 0.236336399297
+weak, 9668, 0.229013390054
+bad, 861, 0.198222800392
+ripken, 7409, 0.195712228801
+strong, 8456, 0.185473833854
+year, 9943, 0.180364687992
+clemen, 1807, 0.162860403323
+oriol, 6295, 0.160140072401
+glenn, 3900, 0.127467858613
+cecil, 1592, 0.127467858613
+good, 3948, 0.1229885624
+yanke, 9933, 0.111530302598
+divis, 2767, 0.110762672583
+pitch, 6643, 0.109162955735
+win, 9770, 0.108693879132
+davi, 2396, 0.10204312631
+detroit, 2584, 0.100481984531
+fielder, 3467, 0.0990458733078
+surhoff, 8591, 0.0932694500699
+eldr, 3028, 0.08841959754
+gone, 3943, 0.0873132474828
+sox, 8162, 0.0828841303422
+predict, 6816, 0.0812763258264
+pick, 6619, 0.0807708892444
+team, 8732, 0.0794301855166
+guzman, 4101, 0.0791713123964
+lose, 5350, 0.0788805306665
+won, 9820, 0.0765034346351
+start, 8334, 0.075723119131
+leagu, 5176, 0.0720089556294
+realli, 7150, 0.0709861724504
+mvp, 5937, 0.069574279281
+contend, 2083, 0.069574279281
+bogg, 1199, 0.069574279281
+milwauke, 5730, 0.0691687757669
+deserv, 2560, 0.0654323971582
+august, 784, 0.0648627081535
+alomar, 436, 0.0645877257422
+mat, 5540, 0.0640560289602
+consid, 2059, 0.062925557861
+bell, 1011, 0.0625895570738
+indian, 4598, 0.061703136198
+hurt, 4451, 0.0604856922117
+best, 1052, 0.0599851127544
+era, 3164, 0.0597378732122
+trade, 9033, 0.0590340697476
+morri, 5868, 0.0585321272299
+staff, 8301, 0.0580504027419
+finish, 3488, 0.0578940448541
+replac, 7288, 0.0577397045439
+rotat, 7490, 0.0555079111032
+blue, 1176, 0.0551321354427
+key, 4994, 0.0548880206823
+east, 2965, 0.0544142475394
+better, 1060, 0.0536746036627
+jay, 4832, 0.0534122585367
+american, 469, 0.053200550212
+hitter, 4322, 0.050915298769
+lead, 5172, 0.0485624060068
+bielecki, 1080, 0.0483552376006
+deal, 2418, 0.0483506976821
+red, 7194, 0.0478708140879
+steph, 8378, 0.046634725035
+shaken, 7843, 0.046634725035
+pecota, 6500, 0.046634725035
+burk, 1412, 0.046634725035
+manag, 5472, 0.0456676496893
+steinbrenn, 8370, 0.0453001918097
+reynold, 7371, 0.0453001918097
+olin, 6222, 0.0453001918097
+hoil, 4339, 0.0453001918097
+abbot, 166, 0.0453001918097
+make, 5459, 0.0450004420341
+power, 6783, 0.0443962371587
+whitak, 9736, 0.04420979877
+whip, 9733, 0.04420979877
+qualif, 7014, 0.04420979877
+ponder, 6738, 0.04420979877
+listach, 5299, 0.04420979877
+insan, 4668, 0.0432878845909
+comeback, 1924, 0.0432878845909
+millitello, 5726, 0.0424892862043
+wickman, 9746, 0.041784872505
+tettleton, 8818, 0.041784872505
+incompet, 4583, 0.041784872505
+hatcher, 4201, 0.041784872505
+felix, 3435, 0.041784872505
+whine, 9732, 0.0411547529791
+slump, 8052, 0.0411547529791
+molitor, 5825, 0.0411547529791
+harold, 4180, 0.0411547529791
+think, 8871, 0.0410921208867
+big, 1082, 0.0407435037026
+arrest, 654, 0.0405847405324
+basebal, 924, 0.0403071802589
+stewart, 8392, 0.0400643599393
+stephenson, 8381, 0.0400643599393
+phillip, 6594, 0.0395856561982
+howe, 4404, 0.0395856561982
+fluke, 3561, 0.0395856561982
+play, 6681, 0.0394462902531
+prophesi, 6927, 0.0391424457603
+ace, 229, 0.0391424457603
+ugli, 9193, 0.0387298267141
+perez, 6537, 0.0387298267141
+billi, 1091, 0.0387298267141
+ward, 9636, 0.0379812755153
+reardon, 7155, 0.0379812755153
+pegasus, 6507, 0.0379812755153
+olerud, 6221, 0.0379812755153
+hay, 4210, 0.0379812755153
+bone, 1213, 0.0379812755153
+base, 923, 0.0374327965243
+declin, 2448, 0.0373160790322
+russel, 7549, 0.0370093141484
+overburden, 6339, 0.0370093141484
+maneuv, 5476, 0.0370093141484
+dawson, 2401, 0.0367175194953
+streak, 8436, 0.0364393017017
+rid, 7391, 0.0364393017017
+rbis, 7125, 0.0364393017017
+op, 6256, 0.0364393017017
+kimbal, 5019, 0.0364393017017
+viola, 9525, 0.0361734533108
+olson, 6226, 0.0361734533108
+cal, 1449, 0.0361734533108
+brewer, 1302, 0.0359189211087
+anderson, 501, 0.0359189211087
+shortstop, 7909, 0.0352145074094
+bird, 1113, 0.0352145074094
+baerga, 863, 0.0352145074094
+tight, 8929, 0.0349970069296
+new, 6023, 0.0348426078506
+pennant, 6524, 0.0345843878835
+rooki, 7475, 0.0343882849365
+jackson, 4812, 0.034198408543
+prospect, 6937, 0.0336624737044
+minim, 5739, 0.0336624737044
+contest, 2086, 0.0334939948437
+andr, 503, 0.0334939948437
+outfield, 6325, 0.0333301324279
+steal, 8362, 0.0331706402016
+fifth, 3471, 0.0331706402016
+golden, 3934, 0.0327161985791
+lineup, 5287, 0.0325720806647
+caught, 1568, 0.0322938628711
+agent, 331, 0.0321594616185
+bullpen, 1391, 0.0320280144801
+wise, 9799, 0.0318993943822
+tiger, 8928, 0.0318993943822
+ted, 8745, 0.0316501664856
+club, 1842, 0.0316501664856
+cleveland, 1811, 0.0315293420926
+starter, 8335, 0.030851568099
+baltimor, 887, 0.0303400938427
+hate, 4202, 0.0301471543997
+necessarili, 5991, 0.0299602453117
+wors, 9846, 0.0298689366061
+repeat, 7286, 0.0298689366061
+race, 7049, 0.0295170348738
+readi, 7139, 0.0294322021884
+worst, 9849, 0.0293485560131
+spot, 8261, 0.0291846935973
+suspect, 8603, 0.0289470224271
+atlanta, 749, 0.0288698522719
+calcul, 1451, 0.0287936652029
+boston, 1243, 0.0287936652029
+factor, 3352, 0.0287184364871
+convinc, 2120, 0.0286441423138
+york, 9960, 0.0282859152461
+interpret, 4720, 0.0282167745449
+jack, 4808, 0.0279479380929
+improv, 4557, 0.0276280434474
+count, 2180, 0.0276280434474
+break, 1284, 0.0273839032619
+forget, 3604, 0.027265471589
+faith, 3367, 0.027265471589
+consist, 2061, 0.027265471589
+don, 2811, 0.0271307981543
+young, 9962, 0.0267061292684
+paper, 6409, 0.0266529679935
+met, 5655, 0.026600275106
+lost, 5355, 0.026444926007
+aren, 623, 0.0260974072752
+entir, 3129, 0.0260017155691
+bodi, 1194, 0.0259075308817
+star, 8324, 0.0258609889811
+definit, 2484, 0.0258609889811
+rest, 7324, 0.0255449590234
+record, 7184, 0.0252867633577
+bring, 1316, 0.0252867633577
+continu, 2092, 0.0252447940343
+like, 5272, 0.0251856888516
+toronto, 9003, 0.024958976997
+especi, 3190, 0.02476287405
+level, 5229, 0.0245357352055
+free, 3668, 0.02435282786
+anybodi, 552, 0.0243169082082
+center, 1606, 0.0241404764154
+came, 1472, 0.02410580615
+effect, 3005, 0.023969100677
+total, 9013, 0.0238685839572
+fan, 3381, 0.0238024992622
+pitcher, 6644, 0.0237697287471
+matter, 5553, 0.0232086359203
+expect, 3290, 0.0231789554423
+complet, 1975, 0.0231200327584
+direct, 2667, 0.0229182583041
+hard, 4167, 0.0226413290172
+wrong, 9869, 0.0219519684446
+major, 5458, 0.0219519684446
+yes, 9951, 0.0217854995332
+chang, 1650, 0.0214881233547
+origin, 6293, 0.0212690291096
+hit, 4316, 0.0209140548861
+els, 3053, 0.0206755939018
+player, 6683, 0.0206367586741
+fact, 3350, 0.0205217435132
+far, 3386, 0.0199776773286
+didn, 2625, 0.0199776773286
+line, 5285, 0.0198236618463
+inform, 4637, 0.0196570604316
+got, 3960, 0.0196242899165
+possibl, 6765, 0.0196079717507
+articl, 665, 0.0192751900601
+ll, 5314, 0.0189453488619
+long, 5336, 0.0188441028447
+run, 7543, 0.0180151051494
+someth, 8126, 0.0176049837454
+post, 6766, 0.0174666977223
+look, 5341, 0.0149252014511
+time, 8936, 0.0142100394455

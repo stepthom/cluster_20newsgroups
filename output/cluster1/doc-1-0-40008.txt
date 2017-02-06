@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/40008
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: gcdcrgm@state.systems.sa.gov.au
+Subject: PICLAB processing half a GIF
+Organization: State Systems, South Australia
+Lines: 6
+
+I've been playing with a program called PICLAB to modify some .gif files. The
+problem is it keeps displaying only 50% of the image. Starting from the top, it
+displays20%, leaves 20% blank, then down another 20% etc. ANyone know what I'm
+doing wrong, or is there another piece of software I should use instead?
+
+Thanks for your tolerance!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ piclab process half gif    i'v play program call
+piclab modifi gif file problem keep display imag
+start top displays20 leav blank anoth etc anyon
+know i'm wrong anoth piec softwar use instead
+thank toler
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gif, 3869, 0.402652345447
+blank, 1139, 0.308868742284
+anoth, 533, 0.307437663229
+toler, 8974, 0.25647035645
+piec, 6624, 0.245195778032
+modifi, 5814, 0.228435832558
+half, 4124, 0.21605842891
+leav, 5184, 0.212556300937
+display, 2734, 0.205506516835
+instead, 4682, 0.204783850492
+process, 6890, 0.192797392199
+wrong, 9869, 0.175066026868
+file, 3477, 0.165042605567
+imag, 4512, 0.159877355081
+softwar, 8103, 0.159183091495
+play, 6681, 0.157291254466
+start, 8334, 0.15097217411
+problem, 6887, 0.150052722674
+program, 6905, 0.148046559675
+thank, 8832, 0.133567604369
+anyon, 554, 0.128165262664
+use, 9363, 0.105336546867
+know, 5052, 0.102734352501

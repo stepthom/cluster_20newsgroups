@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84313
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wvhorn@magnus.acs.ohio-state.edu (William VanHorne)
+Subject: Re: Why did they behave as they did (Waco--reading suggestion)
+Nntp-Posting-Host: photon.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 10
+
+In article <pgf.735710979@srl03.cacs.usl.edu> pgf@srl03.cacs.usl.edu (Phil G. Fraering) writes:
+>How come noone mentions Eric Hoffer when talking about 
+>fanatic behavior anymore?
+
+Good point.  If you haven't read "The True Believer" by Eric Hoffer, do
+so at your first opportunity.  I don't know why Hoffer is out of style
+now, but "The True Believer" is still the best explanation of nutball
+behavior ever written.
+
+---Bill VanHorne
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ behav waco read suggest      come noon mention
+eric hoffer talk fanat behavior anymor  good point
+haven't read true believ eric hoffer first
+opportun don't know hoffer style true believ still
+best explan nutbal behavior ever written  bill
+vanhorn
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hoffer, 4337, 0.663897545899
+behavior, 1000, 0.300805004171
+eric, 3170, 0.277704682319
+true, 9121, 0.195270626465
+noon, 6104, 0.181164932052
+fanat, 3382, 0.17548175706
+believ, 1009, 0.169046844926
+read, 7135, 0.166634964767
+waco, 9603, 0.163266695127
+behav, 999, 0.159204378416
+style, 8479, 0.152536341607
+anymor, 553, 0.151095460924
+explan, 3302, 0.150402502085
+opportun, 6268, 0.143221484035
+written, 9867, 0.119435559993
+haven, 4207, 0.11690726415
+mention, 5632, 0.109541101682
+suggest, 8525, 0.104372076788
+talk, 8684, 0.092562281852
+best, 1052, 0.0915078837466
+come, 1923, 0.0793693111377
+point, 6710, 0.0772571825106
+good, 3948, 0.0703576013708
+don, 2811, 0.0620824520315
+know, 5052, 0.05895539714

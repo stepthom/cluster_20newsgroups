@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38867
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rsc@altair.csustan.edu (Steve Cunningham)
+Subject: Re: ACM SIGGRAPH Registration Problem
+Summary: It's fixed...
+Organization: CSU Stanislaus
+Lines: 29
+
+zyda@cs.nps.navy.mil (Michael Zyda) notes:
+
+> A word of warning for those of you registering for SIGGRAPH '93.
+> I just received my registration form back in the mail with the
+> envelope marked "Return to sender. Moved - Left No Address.
+> Closed PO Box". The address I used to register for SIGGRAPH '93
+> is the one printed on the registration form:
+> 
+>      ACM SIGGRAPH '93
+>      PO Box 95316,
+>      Chicago, IL 60694-5316
+> 
+> I printed the envelope in my best printing, honest but evidently
+> SIGGRAPH '93 has skipped town or moved?
+> 
+> I ended up faxing my registration to: 312-321-6876. I hope that
+> number is real!
+> 
+>      Michael Zyda
+
+I had the same problem and called the people who handle the box; the
+problem happened some time ago and was caught almost instantly.  All
+registrations going to that address are now fixed.  See what trouble
+you get into when you don't procrastinate, Mike?
+
+And no, SIGGRAPH 93 has not skipped town -- we're preparing the best
+SIGGRAPH conference yet!
+
+-- Steve Cunningham 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ acm siggraph registr problem it fix      word
+warn regist siggraph receiv registr form back mail
+envelop mark return sender move left address close
+box address use regist siggraph one print registr
+form  acm siggraph box chicago  print envelop best
+print honest evid siggraph skip town move  end fax
+registr hope number real  michael zyda  problem
+call peopl handl box problem happen time ago
+caught almost instant registr go address fix see
+troubl get don't procrastin mike  siggraph skip
+town we'r prepar best siggraph confer yet  steve
+cunningham
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+siggraph, 7941, 0.589629317072
+registr, 7230, 0.455669902327
+print, 6871, 0.204240436331
+envelop, 3137, 0.188170914803
+skip, 8009, 0.182267960931
+box, 1254, 0.174159105451
+acm, 240, 0.171950965445
+town, 9024, 0.168465519163
+regist, 7229, 0.167392604038
+address, 264, 0.165696499589
+fix, 3511, 0.139906343417
+problem, 6887, 0.134159484563
+form, 3610, 0.113937421646
+cunningham, 2293, 0.105075917349
+instant, 4681, 0.0978148180464
+best, 1052, 0.0950466627357
+sender, 7786, 0.0826805529854
+prepar, 6831, 0.0770814248266
+caught, 1568, 0.0767546417386
+honest, 4361, 0.076435202716
+warn, 9643, 0.0746560789451
+confer, 2025, 0.0730750690193
+chicago, 1701, 0.0714285848262
+troubl, 9117, 0.0688000176584
+handl, 4149, 0.0656651260708
+michael, 5680, 0.0648033811256
+steve, 8390, 0.0633476093516
+receiv, 7167, 0.0621422742146
+mike, 5710, 0.061355503704
+return, 7346, 0.0607141420614
+evid, 3245, 0.0599016673154
+fax, 3413, 0.0597056029893
+mark, 5512, 0.0578807368192
+left, 5193, 0.0565727398624
+ago, 336, 0.0553750264083
+close, 1830, 0.0538773858609
+word, 9829, 0.0509137995064
+hope, 4372, 0.050809281107
+happen, 4159, 0.0500984110702
+end, 3091, 0.0490026188613
+mail, 5447, 0.0488657211263
+real, 7144, 0.0487301292719
+number, 6156, 0.046221238643
+peopl, 6530, 0.0385659915511
+time, 8936, 0.0337738006472
+don, 2811, 0.0322416475961
+use, 9363, 0.0313931809687

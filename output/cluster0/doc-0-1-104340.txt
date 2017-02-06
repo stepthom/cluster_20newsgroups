@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104340
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jja2h@Virginia.EDU ("")
+Subject: WFAN
+Organization: University of Virginia
+Lines: 14
+
+Does any one out there listen to WFAN?  For those of you who do
+not know what I am talking about, it is an all sports radio
+staion in New York.  On a clear night the signal reaches up and
+down the East coast.  In particular, I want to know how Len
+Berman and Mike Lupica's show is.  I go to school in Virginia
+so I can't listen when there are on during the day.  Just
+wondering.
+
+Jonathan Alboum
+UVA
+
+PS.  Did any one see Steve Sommers on 48 hours last night.  The
+Chief was on too, doing Rangers Round up.  It was pretty neat
+shmoozing S P O R T S on TV.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ wfan    one listen wfan know talk sport radio
+staion new york clear night signal reach east
+coast particular want know len berman mike lupica
+show school virginia can't listen day wonder
+jonathan alboum uva  one see steve sommer hour
+last night chief ranger round pretti neat shmooz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wfan, 9714, 0.37360390667
+listen, 5300, 0.291490822779
+night, 6063, 0.231757421503
+uva, 9394, 0.222557828479
+alboum, 385, 0.222557828479
+staion, 8304, 0.216188951716
+berman, 1042, 0.202774290278
+lupica, 5397, 0.19941257252
+jonathan, 4888, 0.188917114356
+len, 5210, 0.186801953335
+neat, 5985, 0.17025299855
+chief, 1703, 0.167018415134
+coast, 1859, 0.166016852283
+virginia, 9533, 0.159063485215
+round, 7494, 0.158302330442
+ranger, 7095, 0.154118030897
+signal, 7947, 0.147234876932
+sport, 8257, 0.138145693954
+york, 9960, 0.134990650615
+school, 7685, 0.134334492695
+east, 2965, 0.129842266269
+hour, 4395, 0.128489329937
+radio, 7061, 0.127451338731
+steve, 8390, 0.127197633839
+reach, 7128, 0.124089620973
+mike, 5710, 0.123197622989
+know, 5052, 0.122956284942
+particular, 6442, 0.119496408812
+clear, 1803, 0.109509833988
+pretti, 6851, 0.104647902576
+wonder, 9821, 0.103634484434
+talk, 8684, 0.0965230907973
+day, 2402, 0.0846360302567
+new, 6023, 0.0831407833537
+want, 9634, 0.0777488154525

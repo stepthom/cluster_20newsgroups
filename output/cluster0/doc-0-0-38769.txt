@@ -1,0 +1,248 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38769
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: roy@mchip00.med.nyu.edu (Roy Smith)
+Subject: Re: Why does Illustrator AutoTrace so poorly?
+Organization: New York University, School of Medicine
+Lines: 47
+NNTP-Posting-Host: mchip00.med.nyu.edu
+
+mac@utkvx.bitnet (Richard J. McDougald) writes:
+> Since there's no (not really) such thing as a decent raster to vector
+> conversion program, this "tracing" technique is about it.  Simple stuff,
+> like b&w logos, etc. do pretty well, while more complicated stuff goes
+> haywire.
+
+	The first and only thing I've ever tried to auto-trace was a piece
+of a USCG nautical chart using Adobe Illustrator 3.2.  I wanted to get the
+outline of the coast for Western Long Island Sound.  I was simultaneously
+suprised at how good a job it did and disappointed at how poorly it did.  I
+suspect what I gave it was a very difficult thing; not only is the coastline
+very irregular, but overlaid on the chart are numerous sets of gridlines
+(not only lattitude and longitude, but loran grids as well).  The most
+common mistake it make was whenever the coastline was roughly parallel and
+tangent to a grid line, it would take off following the gridline instead of
+the coast.  I think the best improvement would be some sort of interactive
+algorithm that would let you step in and say "no, dummy, you're going the
+wrong way".
+
+	Steve Reisberg, a friend of mine a few years back(*), did his
+doctoral work analysing electron micrographs of filimentous phage (virii).
+A good chunk of the work was writing a program to take a digitized
+micrograph and automatically trace the centerline of the virus particles.
+This is essentially the same problem that Illustrator tries to solve with
+its auto-trace tool.
+
+	In some respects the problem Steve worked on was harder, since he
+was trying to do quantitative analysis of the virus structure and finding a
+good centerline was only the first step, but a step on which all future
+analysis depended.  However, in other respects, it was an easier problem
+since the program could be written with a lot of knowledge about what the
+virus particles were supposed to look like, and the analysis could be
+restricted to those particles which happend to be relatively straight,
+clean, and well imaged; you don't always have that freedom auto-tracing real
+life images.  In any case, it gave me some insight into just how difficult
+this problem is to solve in the general case.
+
+	(*) Steve is no longer with us.  He and his wife disappeared while
+on vacation in Hawaii a couple of years after they graduated.  Their last
+known location was hiking in a densely wooded in a mountainous area.  While no
+bodies were ever found, they are presumed to have been the victim of some
+sort of fall or accident in the woods.
+-- 
+Roy Smith <roy@nyu.edu>
+Hippocrates Project, Department of Microbiology, Coles 202
+NYU School of Medicine, 550 First Avenue, New York, NY 10016
+"This never happened to Bart Simpson."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ illustr autotrac poor      sinc there realli
+thing decent raster vector convers program trace
+techniqu simpl stuff like logo etc pretti well
+complic stuff goe haywir  first thing i'v ever tri
+auto trace piec uscg nautic chart use adob illustr
+want get outlin coast western long island sound
+simultan supris good job disappoint poor suspect
+gave difficult thing coastlin irregular overlaid
+chart numer set gridlin lattitud longitud loran
+grid well common mistak make whenev coastlin rough
+parallel tangent grid line take follow gridlin
+instead coast think best improv sort interact
+algorithm let step say dummi you'r go wrong way
+steve reisberg friend mine year back doctor work
+analys electron micrograph filiment phage virii
+good chunk work write program take digit
+micrograph automat trace centerlin virus particl
+essenti problem illustr tri solv auto trace tool
+respect problem steve work harder sinc tri quantit
+analysi virus structur find good centerlin first
+step step futur analysi depend howev respect
+easier problem sinc program could written lot
+knowledg virus particl suppos look like analysi
+could restrict particl happend relat straight
+clean well imag don't alway freedom auto trace
+real life imag case gave insight difficult problem
+solv general case  steve longer wife disappear
+vacat hawaii coupl year graduat last known locat
+hike dens wood mountain area bodi ever found
+presum victim sort fall accid wood   hippocr
+project depart microbiolog cole nyu school medicin
+first avenu new york never happen bart simpson
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+trace, 9028, 0.287901886269
+virus, 9537, 0.219162616268
+auto, 798, 0.207218990983
+particl, 6441, 0.195951874015
+illustr, 4511, 0.190450018302
+coastlin, 1861, 0.169093650326
+centerlin, 1608, 0.165023501128
+analysi, 490, 0.158767429012
+step, 8377, 0.154692282679
+steve, 8390, 0.149232734013
+wood, 9824, 0.146108410845
+grid, 4043, 0.146108410845
+chart, 1674, 0.143127454012
+problem, 6887, 0.14046648944
+coast, 1859, 0.129851203521
+solv, 8119, 0.119072013248
+difficult, 2635, 0.108639096576
+poor, 6741, 0.106376501957
+gave, 3798, 0.105070631752
+program, 6905, 0.103941368777
+sinc, 7977, 0.10207848454
+respect, 7321, 0.101127685263
+tri, 9087, 0.0969787752733
+work, 9833, 0.0948682464755
+thing, 8869, 0.0914806919962
+virii, 9534, 0.0870375551747
+happend, 4160, 0.0870375551747
+good, 3948, 0.0860782156784
+sort, 8144, 0.0858674856641
+stuff, 8472, 0.0855478045665
+dummi, 2915, 0.0845468251632
+bart, 920, 0.0845468251632
+simpson, 7971, 0.0825117505641
+tangent, 8692, 0.0807911195072
+quantit, 7020, 0.0807911195072
+overlaid, 6343, 0.0793006410903
+hike, 4299, 0.0793006410903
+chunk, 1744, 0.0793006410903
+supris, 8583, 0.0779859459534
+case, 1540, 0.0776171506014
+autotrac, 806, 0.0768099110788
+longitud, 5339, 0.0757460581293
+imag, 4512, 0.0748317338369
+vacat, 9404, 0.0747748364796
+irregular, 4770, 0.0738813991698
+hawaii, 4208, 0.0738813991698
+logo, 5332, 0.0722841064681
+victim, 9503, 0.0715637270059
+analys, 489, 0.0715637270059
+island, 4781, 0.0708870345176
+dens, 2530, 0.0708870345176
+insight, 4672, 0.070249031869
+avenu, 815, 0.0690729969944
+disappoint, 2679, 0.0680091440448
+simultan, 7975, 0.067512973134
+outlin, 6327, 0.067512973134
+graduat, 3981, 0.0670379223952
+disappear, 2678, 0.0670379223952
+accid, 210, 0.0670379223952
+medicin, 5609, 0.0665822669829
+cole, 1890, 0.0665822669829
+whenev, 9722, 0.0661444850853
+raster, 7104, 0.0661444850853
+harder, 4170, 0.0649256017605
+vector, 9444, 0.0645471923837
+doctor, 2786, 0.0645471923837
+adob, 277, 0.0628265613268
+mountain, 5887, 0.0622062902269
+restrict, 7330, 0.0619086190508
+complic, 1978, 0.06133608291
+easier, 2960, 0.0605288391371
+rough, 7493, 0.0597760590496
+wife, 9755, 0.0595360066239
+decent, 2440, 0.0595360066239
+western, 9709, 0.0593010083108
+presum, 6845, 0.0593010083108
+numer, 6157, 0.0593010083108
+freedom, 3672, 0.0593010083108
+mistak, 5776, 0.0586243158225
+parallel, 6420, 0.0584075710009
+automat, 803, 0.0584075710009
+clean, 1799, 0.0577814999489
+piec, 6624, 0.0573828144401
+interact, 4704, 0.0573828144401
+techniqu, 8740, 0.0571886876761
+essenti, 3196, 0.0568102782993
+straight, 8422, 0.0566257781056
+year, 9943, 0.0561044781934
+electron, 3034, 0.0550896472424
+tool, 8988, 0.0549313182391
+convers, 2114, 0.0547752037001
+suspect, 8603, 0.0540257942928
+digit, 2642, 0.0537395732879
+york, 9960, 0.0527919250527
+school, 7685, 0.052535315876
+depart, 2535, 0.0524091901546
+improv, 4557, 0.0515640942264
+fall, 3369, 0.0511084388141
+structur, 8460, 0.050887401738
+friend, 3692, 0.0499435715318
+longer, 5337, 0.0498434631695
+depend, 2537, 0.0498434631695
+knowledg, 5053, 0.049744244671
+locat, 5323, 0.0494517735917
+written, 9867, 0.0487073639639
+common, 1948, 0.0487073639639
+algorithm, 407, 0.0485287680325
+bodi, 1194, 0.0483529847526
+instead, 4682, 0.0479252692988
+goe, 3931, 0.0476762922643
+simpl, 7965, 0.0475945189493
+job, 4873, 0.0475133403545
+futur, 3737, 0.0471160739554
+like, 5272, 0.047005761938
+coupl, 2187, 0.046434790882
+suppos, 8577, 0.045384297608
+area, 622, 0.045384297608
+known, 5054, 0.0446097436513
+sound, 8150, 0.043827180142
+general, 3818, 0.0430959056007
+relat, 7247, 0.042668599544
+alway, 457, 0.0421564910367
+project, 6909, 0.0414298565967
+life, 5260, 0.0411062974904
+wrong, 9869, 0.0409704498795
+pretti, 6851, 0.0409255322834
+set, 7815, 0.0399804905932
+happen, 4159, 0.0393401999446
+write, 9865, 0.038479719868
+howev, 4406, 0.038479719868
+real, 7144, 0.0382657451191
+best, 1052, 0.0373180968839
+line, 5285, 0.0369982467018
+follow, 3578, 0.0366873071645
+let, 5225, 0.0352506216594
+long, 5336, 0.0351700291968
+lot, 5356, 0.0348273668724
+realli, 7150, 0.0331215789128
+new, 6023, 0.0325145629245
+want, 9634, 0.0304058808489
+way, 9666, 0.0291984479013
+say, 7653, 0.028338827563
+make, 5459, 0.0279957939318
+look, 5341, 0.0278559173196
+think, 8871, 0.0255643388501
+don, 2811, 0.0253180257793
+use, 9363, 0.0246517602021

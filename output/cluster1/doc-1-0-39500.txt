@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39500
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: brian@ccnext.ucsf.edu (Brian Huddleston)
+Subject: 3d IMages
+Organization: UTexas Mail-to-News Gateway
+Lines: 9
+NNTP-Posting-Host: cs.utexas.edu
+
+Can anyone around here point me to information regarding STEREOSCOPIC images?
+I believe I saw some at a show room in Texas (Lone Star Illusions)  and 
+they were amazing.  I've now heard that they were created with a simple 
+graphic program.  Does anyone have any of these images digitized??  
+I really want to find a out as much as I can..
+
+					Thanks..	
+					brian@ccnext.ucsf.edu
+					(please reply to this address)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ imag     anyon around point inform regard
+stereoscop imag believ saw show room texa lone
+star illus amaz i'v heard creat simpl graphic
+program anyon imag digit realli want find much
+thank  pleas repli address
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.407141736464
+stereoscop, 8383, 0.315700479235
+lone, 5335, 0.299284592074
+illus, 4510, 0.271221447615
+anyon, 554, 0.217589403949
+amaz, 459, 0.214260354701
+texa, 8820, 0.204733296956
+room, 7476, 0.20282019023
+digit, 2642, 0.194922858378
+saw, 7650, 0.178336501241
+repli, 7290, 0.175702300208
+star, 8324, 0.175069684848
+simpl, 7965, 0.172633668433
+regard, 7224, 0.165847497213
+address, 264, 0.157316127674
+creat, 2217, 0.156514387429
+heard, 4224, 0.153827089261
+graphic, 3997, 0.133294365143
+inform, 4637, 0.133071298136
+program, 6905, 0.125671192048
+believ, 1009, 0.125027805261
+realli, 7150, 0.120137776329
+pleas, 6688, 0.119100625484
+point, 6710, 0.114279517896
+thank, 8832, 0.113380547963
+want, 9634, 0.11028746311

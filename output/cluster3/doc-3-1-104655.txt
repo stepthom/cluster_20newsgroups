@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104655
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: pablo@jhunix.hcf.jhu.edu (Pablo A Iglesias)
+Subject: Re: Braves Update!!
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 23
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+
+In article <13591@news.duke.edu> fls@keynes.econ.duke.edu (Forrest Smith) writes:
+>>
+[argument over "reasonable" players and umpires deleted]
+
+>	Incidentally, a "reasonable" home plate umpire would not have been
+>so resistant to seeking the appeal to the first base umpire, as Gant
+>requested.  If the home plate umpire had appealed to first, the first base
+>umpire could have wrung up the strike, and Gant would not have been so
+>upset.  If the call had been a ball, and the catcher had requested the
+>appeal, it is likely the home plate umpire would have asked for the help.
+
+
+Yes, but the baseball rules say you can only appeal a ball and not a
+strike. There was no decision made by the umpire regarding an appeal.
+Once he called it a strike the call could not be changed.  
+
+I thought that the umpire did the right thing.
+
+
+-- 
+Pablo Iglesias                        
+pi@ruth.ece.jhu.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat       argument reason player umpir
+delet  incident reason home plate umpir resist
+seek appeal first base umpir gant request home
+plate umpir appeal first first base umpir could
+wrung strike gant upset call ball catcher request
+appeal like home plate umpir ask help   yes
+basebal rule say appeal ball strike decis made
+umpir regard appeal call strike call could chang
+thought umpir right thing    pablo iglesia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+umpir, 9210, 0.659240588215
+appeal, 579, 0.464463711251
+plate, 6674, 0.23027491148
+strike, 8448, 0.226016335297
+home, 4354, 0.175033323412
+gant, 3766, 0.170327382476
+request, 7301, 0.143476686903
+ball, 877, 0.118349504217
+wrung, 9873, 0.117982574861
+pablo, 6369, 0.111847681938
+iglesia, 4494, 0.111847681938
+incident, 4576, 0.0990276351733
+reason, 7156, 0.0976078437254
+base, 923, 0.0947023428332
+resist, 7314, 0.0902546869909
+upset, 9342, 0.0880090169669
+seek, 7766, 0.0807032245373
+catcher, 1557, 0.0780522977267
+decis, 2445, 0.0770084005563
+updat, 9333, 0.0655442312447
+delet, 2502, 0.064851109709
+brave, 1277, 0.0647386147101
+rule, 7537, 0.0631444566211
+argument, 631, 0.0631444566211
+regard, 7224, 0.0619799969988
+yes, 9951, 0.055115781805
+chang, 1650, 0.0543634409857
+thought, 8887, 0.0528088545814
+ask, 689, 0.052406691168
+player, 6683, 0.0522095482141
+basebal, 924, 0.0509871657738
+right, 7399, 0.0460257683093
+help, 4249, 0.0444511460625
+thing, 8869, 0.0413351361955
+say, 7653, 0.0384143125083
+like, 5272, 0.0318590108352

@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38720
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From:  Valentin E. Vulihman <vulih@ipmce.su>
+Subject: Attractive drawing on the sphere
+Lines: 23
+Reply-To: vulih@ipmce.su
+Organization: Inst. of Prec. Mech. & Comp. Equip., Moscow, Russia
+
+
+	   S P H E R I C A L   D E S I G N I N G
+
+ I have made an attractive program on AT-computer  for  drawing
+ on the sphere and pasting it of paper.  For children,  artists
+ and education.  I can send an example to alt.source.wanted, on
+ which  you  can  see  the  rotation of the sphere,  if you are
+ interested.  Children can  design  tesselations  of  the  many
+ famous  regular  polyhedra  without  serious difficaltis,  and
+ print patterns to paste their spherical models.  Moscow,  tel.
+ 280-53-53, after 21 o'clock, or E-mail, Valentin Vulihman.
+
+
+
+
+
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ attract draw sphere        made attract program
+comput draw sphere past paper children artist educ
+send exampl alt sourc want see rotat sphere
+interest children design tessel mani famous
+regular polyhedra without serious difficalti print
+pattern past spheric model moscow tel o'clock mail
+valentin vulihman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sphere, 8226, 0.45888201437
+attract, 772, 0.322979376619
+children, 1707, 0.253392856886
+draw, 2861, 0.249342769157
+past, 6456, 0.237496667283
+tessel, 8811, 0.207612174808
+polyhedra, 6729, 0.203282804102
+moscow, 5872, 0.180065274334
+spheric, 8227, 0.176757300442
+artist, 669, 0.166429633431
+clock, 1827, 0.165369684357
+famous, 3380, 0.158081230172
+pattern, 6468, 0.155771547115
+valentin, 9409, 0.151022984792
+tel, 8754, 0.147507738247
+alt, 446, 0.143415375843
+educ, 3002, 0.141130757774
+print, 6871, 0.134514809991
+rotat, 7490, 0.130334433359
+regular, 7234, 0.130334433359
+paper, 6409, 0.125164122076
+model, 5807, 0.117776426385
+design, 2564, 0.109129384752
+send, 7785, 0.107893156573
+sourc, 8153, 0.103659935625
+exampl, 3258, 0.101869029936
+comput, 1993, 0.0973697722746
+mail, 5447, 0.0965503694142
+program, 6905, 0.0871774564504
+mani, 5479, 0.0796658695032
+want, 9634, 0.07650584319

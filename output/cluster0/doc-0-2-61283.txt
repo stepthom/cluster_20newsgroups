@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61283
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gnb@baby.bby.com.au (Gregory N. Bond)
+Subject: Re: Lindbergh and the moon (was:Why not give $1G)
+In-Reply-To: jbh55289@uxa.cso.uiuc.edu's message of Thu, 22 Apr 1993 03:56:14 GMT
+Nntp-Posting-Host: baby
+Organization: Burdett, Buckeridge & Young, Melbourne, Australia
+	<1993Apr21.160351.21895@aio.jsc.nasa.gov>
+	<C5v9Lr.KxF@news.cso.uiuc.edu>
+Lines: 14
+
+In article <C5v9Lr.KxF@news.cso.uiuc.edu> jbh55289@uxa.cso.uiuc.edu (Josh Hopkins) writes:
+
+   [re: voyages of discovery...]
+   Could you give examples of privately funded ones?
+
+If you believe 1492 (the film), Columbus had substantial private
+funds.  When Columbus asked the merchant why he put the money in, the
+guy said (slightly paraphrased) , "There is Faith, Hope and Charity.
+But greater than these is Banking."
+--
+Gregory Bond <gnb@bby.com.au> Burdett Buckeridge & Young Ltd Melbourne Australia
+   Knox's 386 is slick.            Fox in Sox, on Knox's Box
+   Knox's box is very quick.       Plays lots of LSL. He's sick!
+(Apologies to John "Iron Bar" Mackin.)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lindbergh moon give          voyag discoveri
+could give exampl privat fund one  believ film
+columbus substanti privat fund columbus ask
+merchant put money guy said slight paraphras faith
+hope chariti greater bank   knox slick fox sox
+knox box knox box quick play lot lsl he sick
+apolog john iron bar mackin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+knox, 5055, 0.509207325625
+columbus, 1914, 0.300723265739
+privat, 6879, 0.232532058022
+fund, 3723, 0.216911820984
+box, 1254, 0.195148055007
+merchant, 5637, 0.172926008049
+mackin, 5420, 0.169735775208
+lsl, 5376, 0.169735775208
+lindbergh, 5284, 0.164404595239
+chariti, 1667, 0.164404595239
+slick, 8030, 0.158136383126
+fox, 3632, 0.151727219234
+paraphras, 6424, 0.147844437695
+discoveri, 2700, 0.138967317214
+voyag, 9588, 0.138157366525
+substanti, 8503, 0.135167061689
+iron, 4767, 0.130694342592
+film, 3479, 0.130694342592
+bar, 904, 0.128470295355
+sick, 7933, 0.127945191643
+apolog, 571, 0.127431381363
+bank, 897, 0.126435768257
+greater, 4017, 0.123245535416
+slight, 8034, 0.118258120473
+sox, 8162, 0.110368231405
+faith, 3367, 0.108919832975
+quick, 7036, 0.101871718292
+moon, 5851, 0.0969983067015
+money, 5835, 0.0962976331073
+john, 4878, 0.0903394931276
+guy, 4100, 0.0897023551784
+exampl, 3258, 0.0866566395935
+hope, 4372, 0.0853989146187
+ask, 689, 0.0827508081182
+said, 7583, 0.0795312188241
+play, 6681, 0.0787898227217
+lot, 5356, 0.0745447960228
+believ, 1009, 0.073779335583

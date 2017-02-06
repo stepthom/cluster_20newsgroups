@@ -1,0 +1,215 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104811
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: noel@chaos.cs.brandeis.edu (Noel Rappin)
+Subject: Re: USA McWeekly Stats
+Organization: Brandeis University
+Lines: 61
+
+<RVESTERM@vma.cc.nd.edu> writes:
+
+[Some discussion about whether Elias is money grubbing deleted]
+
+>funny, it seems to me that the stats major league and minor league handbooks,
+>which are nothing BUT collections of statistics, are authored by "bill james
+>and stats inc. (and howe, for the minor league handbook)".
+
+>and i am not sure how the 1993 bill james player ratings book qualifies
+>as a "book with statistics", while the elias analyst is a "statistics book".
+>the analyst contains more stats, sure, but it also contains more dialogue.
+
+>finally, the point was not about the word "statistics".  it was about
+>"money-grubbing".  i don't see how anyone who has looked at the bill
+>james player ratings book cannot consider him money-grubbing.
+
+>bob vesterman.
+
+Some thoughts and facts,
+
+1.)  Bill James is a partial owner of STATS, inc.  However he has almost
+nothing to do with the day-to-day operations of the company, although he
+does have significant input into the design of the books that bear his name.
+(The handbook, but not the scoreboard).  To the best of my knowledge, the
+only things that Bill actually writes for STATS are the predictions section
+of the handbook, and the Bill James Fantasy Baseball rulebook.
+
+2.) The debate over Elias goes way back.  Bill James' early stuff was hampered
+by the fact that Elias would not give access to their stats at any price.
+Project Scoresheet, and later, STATS were founded to fill this void.  You
+can call STATS, and ask them for a report on just about anything in their
+database, and they will provide it -- for a price, of course.  Or you could
+just log into their online system and look at the data yourself.  Having
+attempted to pry numbers from Elias in the past (football, not baseball), they
+just don't do that.  In STATS eyes, the high ground comes from making the
+information available at all.
+
+3.)  That being said, I'm pretty dissapointed by Bill's book this year, too.
+I am given to understant that it was mostly a response to the publishers 
+desire to have the book come out sooner than April.
+
+Hope this makes things just a little bit clearer.
+
+(Bias alert.  I am a former part-time employee of STATS.)
+
+Noel Rappin
+noel@chaos.cs.brandeis.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ usa mcweek stat      discuss whether elia money
+grub delet  funni seem stat major leagu minor
+leagu handbook noth collect statist author bill
+jame stat inc howe minor leagu handbook  sure bill
+jame player rate book qualifi book statist elia
+analyst statist book analyst contain stat sure
+also contain dialogu  final point word statist
+money grub don't see anyon look bill jame player
+rate book cannot consid money grub  bob vesterman
+thought fact  bill jame partial owner stat inc
+howev almost noth day day oper compani although
+signific input design book bear name handbook
+scoreboard best knowledg thing bill actual write
+stat predict section handbook bill jame fantasi
+basebal rulebook  debat elia goe way back bill
+jame earli stuff hamper fact elia give access stat
+price project scoresheet later stat found fill
+void call stat ask report anyth databas provid
+price cours could log onlin system look data
+attempt pri number elia past footbal basebal don't
+stat eye high ground come make inform avail  said
+i'm pretti dissapoint bill book year given underst
+most respons publish desir book come sooner april
+hope make thing littl bit clearer  bias alert
+former part time employe stat  noel rappin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stat, 8341, 0.508412289155
+elia, 3042, 0.336955023637
+jame, 4820, 0.302379505526
+book, 1218, 0.255277759029
+handbook, 4146, 0.25003304404
+grub, 4069, 0.22578956956
+statist, 8348, 0.204649867499
+analyst, 491, 0.128155473285
+money, 5835, 0.123113873981
+leagu, 5176, 0.122588743886
+price, 6857, 0.0947149926287
+minor, 5745, 0.0936486298039
+contain, 2079, 0.0895246532134
+rate, 7108, 0.0883701729286
+pri, 6856, 0.0771194855308
+noth, 6119, 0.0740959927985
+rulebook, 7538, 0.0736937142207
+mcweek, 5589, 0.0736937142207
+dialogu, 2611, 0.0736937142207
+alert, 395, 0.0736937142207
+noel, 6091, 0.0723341725883
+clearer, 1805, 0.0723341725883
+player, 6683, 0.0702644359059
+scoreboard, 7706, 0.070062250293
+fact, 3350, 0.0698728300569
+basebal, 924, 0.0686193342805
+void, 9568, 0.0673910047275
+howe, 4404, 0.0673910047275
+sooner, 8137, 0.0659340323201
+sure, 8585, 0.0655761265739
+fantasi, 3384, 0.0635272545662
+log, 5328, 0.06250826101
+employe, 3078, 0.061582037465
+day, 2402, 0.0603831699905
+vesterman, 9488, 0.0599495186696
+come, 1923, 0.0590487083954
+funni, 3731, 0.0582197021127
+footbal, 3589, 0.0579064023692
+partial, 6439, 0.0576024562674
+debat, 2426, 0.0576024562674
+onlin, 6245, 0.0570205014047
+owner, 6359, 0.0556963735063
+thing, 8869, 0.0556294801855
+bias, 1069, 0.0552114514652
+qualifi, 7015, 0.0549773851043
+databas, 2386, 0.0543058381261
+input, 4662, 0.0540914841398
+bear, 971, 0.0513228077994
+make, 5459, 0.0510727924053
+look, 5341, 0.0508176151742
+section, 7759, 0.0501056662263
+desir, 2565, 0.0499632661669
+collect, 1898, 0.049148316279
+usa, 9357, 0.0488905445796
+eye, 3337, 0.0478051041421
+publish, 6974, 0.047034248902
+don, 2811, 0.0461877336963
+predict, 6816, 0.0461218682392
+ground, 4061, 0.0457412093889
+knowledg, 5053, 0.045374271
+bob, 1189, 0.0447623266067
+attempt, 763, 0.0447623266067
+signific, 7951, 0.0438693576529
+delet, 2502, 0.0436388246733
+goe, 3931, 0.0434879857918
+access, 209, 0.0434879857918
+past, 6456, 0.0430484309885
+later, 5140, 0.0426960969291
+oper, 6261, 0.0426270699645
+compani, 1958, 0.0423555488528
+april, 595, 0.0422887850838
+earli, 2951, 0.0422224562611
+author, 796, 0.0417698733841
+report, 7291, 0.0405216054087
+final, 3482, 0.0399770136642
+design, 2564, 0.0395613870465
+respons, 7323, 0.0392111310436
+discuss, 2708, 0.0391620637762
+stuff, 8472, 0.0390162650326
+project, 6909, 0.0377902921864
+data, 2385, 0.0377050913689
+provid, 6949, 0.0376627568452
+major, 5458, 0.0373712438116
+pretti, 6851, 0.0373302721737
+given, 3887, 0.036543669696
+word, 9829, 0.0364682512899
+hope, 4372, 0.0363933874358
+consid, 2059, 0.0357083598333
+thought, 8887, 0.0355354959478
+avail, 811, 0.035365518072
+ask, 689, 0.035264877006
+write, 9865, 0.0350993215163
+howev, 4406, 0.0350993215163
+anyth, 555, 0.0349041441987
+cours, 2190, 0.0348399077819
+high, 4292, 0.0344319681697
+bit, 1122, 0.0343401049455
+littl, 5308, 0.0342188959154
+best, 1052, 0.0340397457517
+said, 7583, 0.033892824901
+inform, 4637, 0.0334643701709
+number, 6156, 0.0331070900641
+actual, 254, 0.0327358506685
+point, 6710, 0.0287386697461
+anyon, 554, 0.0273593647203
+way, 9666, 0.0266333984286
+year, 9943, 0.0255878827259
+time, 8936, 0.0241913088584

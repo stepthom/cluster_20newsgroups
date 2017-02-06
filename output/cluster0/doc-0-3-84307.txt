@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84307
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dmeier@casbah.acns.nwu.edu (Douglas Meier)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Keywords: Success
+Nntp-Posting-Host: casbah.acns.nwu.edu
+Organization: Northwestern University, Evanston IL
+Lines: 5
+
+-- 
+Douglas C. Meier		|  You can't play Electro-magnetic Golf
+Northwestern University, ACNS 	|  according to the rules of Centrifugal
+This University is too Commie-	|  Bumblepuppy. -Huxley, Brave New World
+Lib Pinko to have these views.	|  dmeier@casbah.acns.nwu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen       dougla meier
+can't play electro magnet golf northwestern
+univers acn accord rule centrifug univers commi
+bumblepuppi huxley brave new world
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+acn, 241, 0.335563882408
+commi, 1942, 0.325961142177
+centrifug, 1613, 0.325961142177
+golf, 3937, 0.318115132117
+electro, 3032, 0.311481425133
+univers, 9282, 0.286017975471
+magnet, 5437, 0.260288967587
+dougla, 2837, 0.24744364621
+presid, 6839, 0.206111209959
+accord, 219, 0.193334495872
+brave, 1277, 0.184128384377
+rule, 7537, 0.179594309085
+messag, 5650, 0.177906488318
+happen, 4159, 0.151671886941
+world, 9841, 0.144126814564
+play, 6681, 0.141919463383
+new, 6023, 0.125356381482
+know, 5052, 0.0926943092128

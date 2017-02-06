@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62130
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: elowitz@noao.edu (Mark Elowitz)
+Subject: Need help in finding address...
+Keywords: White Sands Tracking Facility
+Nntp-Posting-Host: ursa.tuc.noao.edu
+Organization: National Optical Astronomy Observatories, Tucson, AZ, USA
+Lines: 7
+
+Could someone please help me. I am trying to find the 
+address to the TDRS receiving station at White Sands
+Missile Range. I am interested in possible employment
+and would like to write for information.
+
+Thanks...
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need help find address      could someon pleas
+help tri find address tdrs receiv station white
+sand missil rang interest possibl employ like
+write inform  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tdrs, 8727, 0.382362992996
+address, 264, 0.381069205658
+sand, 7605, 0.303443241403
+missil, 5771, 0.294502994711
+help, 4249, 0.288118364437
+employ, 3077, 0.265908067484
+rang, 7094, 0.221666239014
+receiv, 7167, 0.214372426076
+white, 9737, 0.21017226007
+station, 8346, 0.206984709298
+write, 9865, 0.169044509911
+inform, 4637, 0.16117029648
+possibl, 6765, 0.160767813246
+someon, 8124, 0.160236256835
+pleas, 6688, 0.144249611967
+tri, 9087, 0.14201185797
+thank, 8832, 0.137321697362
+need, 5993, 0.131841531759
+like, 5272, 0.103250049858

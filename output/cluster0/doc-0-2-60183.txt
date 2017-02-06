@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60183
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: seale@possum.den.mmc.com (Eric H Seale)
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+Nntp-Posting-Host: pogo.den.mmc.com
+Organization: Martin Marietta Astronautics, Denver
+Lines: 8
+
+baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
+>According the IAU Circular #5744, Comet Shoemaker-Levy 1993e, may be
+>temporarily in orbit around Jupiter.  The comet had apparently made a
+>close flyby of Jupiter sometime in 1992 resulting in the breakup of the
+>comet.
+
+Ooooh -- who would have thought that Galileo would get the chance to
+check out a comet TOO?!?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet temporari orbit around jupit      accord
+iau circular comet shoemak levi 1993e temporarili
+orbit around jupit comet appar made close flybi
+jupit sometim result breakup comet  ooooh thought
+galileo get chanc check comet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+comet, 1926, 0.65878313154
+jupit, 4932, 0.396714003057
+breakup, 1288, 0.191418731519
+1993e, 50, 0.18681120903
+orbit, 6280, 0.182936454491
+shoemak, 7899, 0.182915604272
+temporarili, 8779, 0.179541077939
+levi, 5231, 0.179541077939
+iau, 4471, 0.176564534764
+circular, 1768, 0.152853139706
+temporari, 8778, 0.146138446539
+flybi, 3564, 0.144507467226
+galileo, 3755, 0.143729824078
+appar, 577, 0.117276036901
+accord, 219, 0.113534526574
+sometim, 8128, 0.111104835826
+chanc, 1649, 0.10987183967
+check, 1682, 0.103057061588
+result, 7332, 0.0980695107608
+close, 1830, 0.095786930497
+thought, 8887, 0.0882028648324

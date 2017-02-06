@@ -1,0 +1,141 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60976
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Article-I.D.: aurora.1993Apr20.141137.1
+Organization: University of Alaska Fairbanks
+Lines: 33
+Nntp-Posting-Host: acad3.alaska.edu
+
+In article <1993Apr20.101044.2291@iti.org>, aws@iti.org (Allen W. Sherzer) writes:
+> In article <1qve4kINNpas@sal-sun121.usc.edu> schaefer@sal-sun121.usc.edu (Peter Schaefer) writes:
+> 
+>>|> > Announce that a reward of $1 billion would go to the first corporation 
+>>|> > who successfully keeps at least 1 person alive on the moon for a year. 
+> 
+>>Oh gee, a billion dollars!  That'd be just about enough to cover the cost of the
+>>feasability study!  Happy, Happy, JOY! JOY!
+> 
+> Depends. If you assume the existance of a working SSTO like DC, on billion
+> $$ would be enough to put about a quarter million pounds of stuff on the
+> moon. If some of that mass went to send equipment to make LOX for the
+> transfer vehicle, you could send a lot more. Either way, its a lot
+> more than needed.
+> 
+> This prize isn't big enough to warrent developing a SSTO, but it is
+> enough to do it if the vehicle exists.
+> 
+>   Allen
+> 
+> -- 
+> +---------------------------------------------------------------------------+
+> | Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+> | W. Churchill: "Madam, if you were my wife, I would drink it."             |
+> +----------------------57 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+Or have different classes of competetors.. and made the total purse $6billion
+or $7billion (depending on how many different classes there are, as in auto
+racing/motocycle racing and such)..
+
+We shall see how things go..
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid articl
+aurora 1993apr20        announc reward billion
+first corpor success keep least person aliv moon
+year  gee billion dollar that'd enough cover cost
+feasabl studi happi happi joy joy  depend assum
+exist work ssto like billion enough put quarter
+million pound stuff moon mass went send equip make
+lox transfer vehicl could send lot either way lot
+need  prize isn't big enough warrent develop ssto
+enough vehicl exist  allen    ladi astor sir
+husband poison coffe churchil madam wife drink day
+first flight dcx  differ class competetor made
+total purs 6billion 7billion depend mani differ
+class auto race motocycl race  shall see thing
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+billion, 1092, 0.353728298656
+joy, 4903, 0.235717001926
+moon, 5851, 0.226038711081
+ssto, 8295, 0.213418409905
+race, 7049, 0.183186764315
+vehicl, 9449, 0.177769473441
+class, 1789, 0.177769473441
+happi, 4161, 0.174692977888
+depend, 2537, 0.165741898838
+send, 7785, 0.142587345089
+1993apr20, 43, 0.134325272612
+exist, 3283, 0.133082278912
+warrent, 9648, 0.131847167087
+purs, 6994, 0.131847167087
+feasabl, 3418, 0.131847167087
+lox, 5373, 0.120181306635
+madam, 5425, 0.117858500963
+astor, 719, 0.117858500963
+churchil, 1747, 0.116797742303
+lot, 5356, 0.115809647843
+auto, 798, 0.114842438229
+differ, 2633, 0.114287575645
+ladi, 5093, 0.113936979422
+dcx, 2412, 0.113073650541
+coffe, 1878, 0.112248704764
+poison, 6713, 0.111458873896
+husband, 4452, 0.110701290169
+sir, 7989, 0.109273029911
+quarter, 7027, 0.108598111016
+reward, 7368, 0.106709204952
+resid, 7311, 0.10612000549
+aurora, 787, 0.105548938149
+gee, 3806, 0.104456962956
+prize, 6881, 0.103934161504
+drink, 2872, 0.10197885743
+transfer, 9052, 0.0997930134446
+wife, 9755, 0.0989860069867
+pound, 6776, 0.0974702077728
+dollar, 2802, 0.0957345302173
+aliv, 417, 0.0954060574968
+equip, 3161, 0.0935486862316
+corpor, 2154, 0.0935486862316
+year, 9943, 0.0932806646829
+allen, 426, 0.0929686945216
+shall, 7846, 0.0915933821575
+mass, 5533, 0.0877731335782
+million, 5724, 0.0857317122998
+cover, 2194, 0.0853490549445
+announc, 524, 0.0851606449584
+went, 9704, 0.082870949419
+success, 8513, 0.0823803951073
+flight, 3544, 0.0806851054333
+studi, 8469, 0.0798217765521
+total, 9013, 0.0740658518479
+assum, 710, 0.0720179878601
+stuff, 8472, 0.0711169262159
+cost, 2169, 0.0705112427637
+develop, 2588, 0.0691176973302
+isn, 4783, 0.067969399714
+big, 1082, 0.0632149421686
+person, 6562, 0.0618314236472
+articl, 665, 0.0598122357777
+long, 5336, 0.0584745426039
+day, 2402, 0.0550317340898
+mani, 5479, 0.0526416372804
+work, 9833, 0.0525767483184
+thing, 8869, 0.0506993382693
+need, 5993, 0.0498973148884
+way, 9666, 0.0485460468691
+make, 5459, 0.0465464852427
+like, 5272, 0.0390764593014

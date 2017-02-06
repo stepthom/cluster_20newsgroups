@@ -1,0 +1,141 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60923
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gnb@leo.bby.com.au (Gregory N. Bond)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+In-Reply-To: gene@theporch.raider.net's message of Sun, 18 Apr 1993 19:29:40 GMT
+Nntp-Posting-Host: leo-gw
+Organization: Burdett, Buckeridge & Young, Melbourne, Australia
+Lines: 32
+
+In article <6ZV82B2w165w@theporch.raider.net> gene@theporch.raider.net (Gene Wright) writes:
+
+   Announce that a reward of $1 billion would go to the first corporation 
+   who successfully keeps at least 1 person alive on the moon for a
+   year. 
+
+And with $1B on offer, the problem of "keeping them alive" is highly
+likely to involve more than just the lunar environment! 
+
+"Oh Dear, my freighter just landed on the roof of ACME's base and they
+all died.  How sad.  Gosh, that leaves us as the oldest residents."
+
+"Quick Boss, the slime from YoyoDyne are back, and this time they've
+got a tank!  Man the guns!"
+
+One could imagine all sorts of technologies being developed in that
+sort of environment.....
+
+Greg.
+
+(I'm kidding, BTW, although the problem of winner-takes-all prizes is
+that it encourages all sorts of undesirable behaviour - witness
+military procurement programs.  And $1b is probably far too small a
+reward to encourage what would be a very expensive and high risk
+proposition.)
+
+
+--
+Gregory Bond <gnb@bby.com.au> Burdett Buckeridge & Young Ltd Melbourne Australia
+   Knox's 386 is slick.            Fox in Sox, on Knox's Box
+   Knox's box is very quick.       Plays lots of LSL. He's sick!
+(Apologies to John "Iron Bar" Mackin.)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid
+announc reward billion first corpor success keep
+least person aliv moon year  offer problem keep
+aliv high like involv lunar environ  dear
+freighter land roof acm base die sad gosh leav
+oldest resid  quick boss slime yoyodyn back time
+they'v got tank man gun  one could imagin sort
+technolog develop sort environ  greg  i'm kid btw
+although problem winner take prize encourag sort
+undesir behaviour wit militari procur program
+probabl far small reward encourag expens high risk
+proposit     knox slick fox sox knox box knox box
+quick play lot lsl he sick apolog john iron bar
+mackin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+knox, 5055, 0.380876023773
+sort, 8144, 0.206208083954
+reward, 7368, 0.205505503482
+resid, 7311, 0.20437079601
+encourag, 3089, 0.193810821343
+aliv, 417, 0.183737381324
+billion, 1092, 0.170306563861
+environ, 3139, 0.166240789073
+quick, 7036, 0.152395666933
+box, 1254, 0.145966508134
+moon, 5851, 0.145105254815
+slime, 8036, 0.135357706016
+proposit, 6934, 0.12934489949
+procur, 6894, 0.12934489949
+oldest, 6219, 0.12934489949
+gosh, 3957, 0.12934489949
+boss, 1242, 0.12934489949
+undesir, 9253, 0.126958674591
+mackin, 5420, 0.126958674591
+lsl, 5376, 0.126958674591
+behaviour, 1001, 0.126958674591
+high, 4292, 0.120867824597
+slick, 8030, 0.118282581156
+roof, 7474, 0.118282581156
+fox, 3632, 0.113488665719
+problem, 6887, 0.112441961872
+acm, 240, 0.108086863725
+dear, 2422, 0.107326317387
+winner, 9786, 0.102752751741
+prize, 6881, 0.100080598475
+risk, 7416, 0.0995909749259
+iron, 4767, 0.0977565306531
+gun, 4094, 0.0977565306531
+bar, 904, 0.0960929916077
+sick, 7933, 0.0957002254316
+sad, 7571, 0.0953159064982
+apolog, 571, 0.0953159064982
+greg, 4033, 0.0935093045706
+wit, 9802, 0.0925069778571
+tank, 8695, 0.0921849846117
+corpor, 2154, 0.0900801850819
+year, 9943, 0.0898221009581
+kid, 5008, 0.0897987597123
+militari, 5715, 0.0884545065202
+lunar, 5392, 0.0858111528446
+expens, 3294, 0.084312178845
+btw, 1355, 0.084312178845
+sox, 8162, 0.0825530408009
+announc, 524, 0.0820031469021
+imagin, 4518, 0.0811226662777
+leav, 5184, 0.0796394995694
+success, 8513, 0.079325980271
+offer, 6203, 0.0784171331515
+land, 5104, 0.0760678682273
+involv, 4750, 0.0749388523068
+die, 2628, 0.0730925519103
+technolog, 8743, 0.0710243340548
+small, 8054, 0.0696165086092
+john, 4878, 0.0675719794287
+develop, 2588, 0.0665550230446
+man, 5471, 0.0617208947454
+far, 3386, 0.0596936230667
+person, 6562, 0.0595389022592
+play, 6681, 0.0589330767289
+got, 3960, 0.0586376957619
+probabl, 6885, 0.0584434531795
+long, 5336, 0.0563064841691
+base, 923, 0.0559249008104
+lot, 5356, 0.0557578889252
+program, 6905, 0.0554693221209
+time, 8936, 0.0424598277603
+like, 5272, 0.0376276228775

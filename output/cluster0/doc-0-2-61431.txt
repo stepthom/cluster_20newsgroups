@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61431
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: NASA budget and STS costs
+Organization: Lick Observatory/UCO
+Lines: 12
+NNTP-Posting-Host: topaz.ucsc.edu
+
+
+What fraction of the NASA workforce is civil servant 
+as opposed to contractor and what are the rules on
+reduction in work force for civil servants?
+
+eg, if say the shuttle program is terminated, how
+much is payroll reduced and how?
+
+|  Steinn Sigurdsson	|I saw two shooting stars last night		|
+|  Lick Observatory	|I wished on them but they were only satellites	|
+| steinly@lick.ucsc.edu |Is it wrong to wish on space hardware?		|
+| "standard disclaimer"	|I wish, I wish, I wish you'd care - B.B. 1983	|
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nasa budget sts cost      fraction nasa workforc
+civil servant oppos contractor rule reduct work
+forc civil servant  say shuttl program termin much
+payrol reduc  steinn sigurdsson saw two shoot star
+last night lick observatori wish satellit
+standard disclaim wish wish wish you'd care
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wish, 9801, 0.488406258718
+servant, 7811, 0.357915547218
+civil, 1778, 0.29253083015
+payrol, 6480, 0.213221657939
+nasa, 5956, 0.19849319008
+sigurdsson, 7952, 0.176663163587
+steinn, 8371, 0.174552326987
+lick, 5255, 0.172597997548
+contractor, 2096, 0.170778560368
+reduct, 7205, 0.163191987331
+sts, 8462, 0.156273079811
+fraction, 3639, 0.153393343868
+termin, 8796, 0.146968693533
+shoot, 7900, 0.145580405672
+observatori, 6180, 0.139028136936
+reduc, 7204, 0.136998568133
+budget, 1367, 0.135114096692
+disclaim, 2691, 0.129411995096
+oppos, 6269, 0.128689446357
+saw, 7650, 0.116161501126
+star, 8324, 0.114033623246
+satellit, 7632, 0.112834717737
+rule, 7537, 0.110056215621
+forc, 3594, 0.109191502767
+standard, 8313, 0.108026646817
+night, 6063, 0.10706758188
+shuttl, 7929, 0.106142175377
+care, 1516, 0.103822317503
+cost, 2169, 0.100197017873
+program, 6905, 0.08185735514
+work, 9833, 0.0747119634331
+say, 7653, 0.0669533651338

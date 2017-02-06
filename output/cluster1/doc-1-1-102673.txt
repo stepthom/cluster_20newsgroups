@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102673
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jhunter@mta.ca (John Hunter)
+Subject: White Sox Mailing List?
+Reply-To: jhunter@mta.ca
+Organization: Mount Allison U, Sackville, N.B. Canada 
+Lines: 9
+
+Hi Gang,
+
+I'd like to subscribe to the White Sox mailing list, if one exists.
+Can someone please e-mail me the address?
+
+Thanks alot,
+-John
+
+jhunter@mta.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ white sox mail list     gang  i'd like subscrib
+white sox mail list one exist someon pleas mail
+address  thank alot john
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mail, 5447, 0.456764939007
+sox, 8162, 0.409196557605
+white, 9737, 0.379656468448
+list, 5298, 0.324417227177
+gang, 3764, 0.314652568196
+alot, 438, 0.271909999886
+subscrib, 8496, 0.238155499751
+address, 264, 0.172091441571
+john, 4878, 0.167469429984
+exist, 3283, 0.158800078023
+someon, 8124, 0.14472588192
+pleas, 6688, 0.130286694915
+thank, 8832, 0.124029381053
+like, 5272, 0.0932557638275

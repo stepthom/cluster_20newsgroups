@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39657
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: fitz@cse.ogi.edu (Bob Fitzsimmons)
+Subject: Re: VGA Graphics Library
+Keywords: C, library, graphics
+Article-I.D.: ogicse.53715
+Organization: Oregon Grad. Inst. Computer Science and Eng., Beaverton
+Lines: 26
+
+In article <2054@mwca.UUCP> bill@mwca.UUCP (Bill Sheppard) writes:
+>Many high-end graphics cards come with C source code for doing basic graphics
+>sorts of things (change colors, draw points/lines/polygons/fills, etc.).  Does
+>such a library exist for generic VGA graphics cards/chips, hopefully in the
+>public domain?  This would be for the purpose of compiling under a non-DOS
+>operating system running on a standard PC.
+>
+
+I'm also interested in info both public domain and commercial graphics library 
+package to do PC VGA graphics.  
+
+I'm currently working on a realtime application running on a PCC with a 
+non-DOS kernel that needs to do some simple graphics.  I'm not sure if 
+reentrancy of the graphics library is going to be an issue or not.  
+I suspect I'll implement the display controller as a server process that 
+handles graphics requests, queued on a mailbox, one at a time.  If this 
+provides sufficiently frequent display updates then I believe that I can 
+restrict all graphics operations to be performed by the server and thus 
+constrain access to the library to a this single process and avoid the need
+for a reentrant graphics library.  
+
+Being fairly new to the realtime systems world I may be overlooking something,
+what do you think?
+
+Cheers,
+Bob Fitzsimmons		fitz@cse.ogi.edu		(503)297-3165
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vga graphic librari  articl ogics     mani high
+end graphic card come sourc code basic graphic
+sort thing chang color draw point line polygon
+fill etc librari exist generic vga graphic card
+chip hope public domain purpos compil non dos oper
+system run standard   i'm also interest info
+public domain commerci graphic librari packag vga
+graphic  i'm current work realtim applic run pcc
+non dos kernel need simpl graphic i'm sure
+reentranc graphic librari go issu suspect i'll
+implement display control server process handl
+graphic request queu mailbox one time provid
+suffici frequent display updat believ restrict
+graphic oper perform server thus constrain access
+librari singl process avoid need reentrant graphic
+librari  fair new realtim system world overlook
+someth think  cheer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+graphic, 3997, 0.551472710221
+librari, 5250, 0.40557308338
+vga, 9492, 0.224817122134
+realtim, 7152, 0.212781785184
+domain, 2805, 0.159954289499
+server, 7812, 0.157654697387
+dos, 2825, 0.143688739485
+display, 2734, 0.131223784722
+card, 1513, 0.130762334574
+oper, 6261, 0.127507803889
+process, 6890, 0.123108521708
+non, 6097, 0.120711938663
+public, 6973, 0.116997070163
+mailbox, 5448, 0.108184441255
+kernel, 4991, 0.100791340126
+overlook, 6346, 0.0996628562686
+constrain, 2071, 0.0996628562686
+generic, 3820, 0.0967063332159
+run, 7543, 0.0917386126645
+frequent, 3686, 0.0857099808989
+chip, 1712, 0.0857099808989
+restrict, 7330, 0.0844576950299
+suffici, 8523, 0.0833006148009
+need, 5993, 0.0818844007134
+compil, 1972, 0.0809003100323
+polygon, 6728, 0.0780186154524
+avoid, 827, 0.0772506764228
+suspect, 8603, 0.0737036963204
+implement, 4544, 0.0735072089029
+request, 7301, 0.0721985150896
+cheer, 1687, 0.0720204129006
+handl, 4149, 0.0703453672758
+draw, 2861, 0.0675955138967
+applic, 585, 0.0666957336663
+packag, 6375, 0.0663258151459
+updat, 9333, 0.0659646702291
+purpos, 6993, 0.0654960928406
+access, 209, 0.0650415049464
+simpl, 7965, 0.0649299472052
+fair, 3363, 0.0644917136929
+commerci, 1940, 0.0643840979548
+control, 2107, 0.0635495020493
+singl, 7983, 0.0631487535639
+basic, 937, 0.0626622085466
+standard, 8313, 0.0623775729029
+issu, 4793, 0.0620981602273
+perform, 6539, 0.0618237822893
+color, 1907, 0.0612021627726
+code, 1871, 0.0605214879565
+info, 4636, 0.0599498769037
+sort, 8144, 0.0585715690998
+provid, 6949, 0.0563291755422
+sourc, 8153, 0.0562033271931
+current, 2299, 0.0551736364865
+chang, 1650, 0.0547121598505
+exist, 3283, 0.0545989432429
+hope, 4372, 0.05443068116
+end, 3091, 0.0524952501813
+high, 4292, 0.0514971431132
+world, 9841, 0.0509993180973
+line, 5285, 0.0504741776589
+articl, 665, 0.0490776817644
+sure, 8585, 0.049038485955
+ll, 5314, 0.0482378539182
+believ, 1009, 0.0470247134784
+someth, 8126, 0.0448250723875
+new, 6023, 0.0443573945213
+come, 1923, 0.044157217094
+mani, 5479, 0.0431939968205
+work, 9833, 0.0431407535369
+point, 6710, 0.0429821316488
+thing, 8869, 0.0416002839034
+time, 8936, 0.0361810073777
+think, 8871, 0.0348756791437

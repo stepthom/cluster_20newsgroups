@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61168
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: drchambe@tekig5.pen.tek.com (Dennis Chamberlin)
+Subject: Re: PLANETS STILL: IMAGES ORBIT BY ETHER TWIST
+Reply-To: drchambe@tekig5.pen.tek.com
+Organization: Tektronix, Inc., Beaverton,  OR.
+Lines: 31
+
+
+----- News saved at 23 Apr 93 22:22:40 GMT
+In article <1993Apr22.130923.115397@zeus.calpoly.edu> dmcaloon@tuba.calpoly.edu (David McAloon) writes:
+>
+> ETHER IMPLODES 2 EARTH CORE, IS GRAVITY!!!
+>
+>  This paper BOTH describes how heavenly bodys can be stationary, 
+>ether sucking structures, AND why we observe "orbital" motion!!
+  
+
+>  "Light-Years" between galaxies is a misnomer. The distance is 
+>closer to zero, as time and matter are characteristics of this phase 
+>of reality, which dissipates outward with each layer of the onion. 
+>(defining edge = 0 ether spin)  
+
+>  To find out about all of this, I recommend studying history.  
+
+Well, I'm working on it, but getting a little impatient. So far, 
+I've made it through Egyptian, Chinese, and Greek cultures, and
+up through the Rennaisance. But so far, these insights just don't 
+seem to be gelling. Perhaps it's in an appendix somewhere.
+
+In its own right, though, the history is kind of fun. Lots of 
+good yarns in there, with varied and interesting characters. And,
+more to come.
+
+
+
+
+
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet still imag orbit ether twist      news
+save gmt   ether implod earth core graviti  paper
+describ heaven bodi stationari ether suck structur
+observ orbit motion   light year galaxi misnom
+distanc closer zero time matter characterist phase
+realiti dissip outward layer onion defin edg ether
+spin  find recommend studi histori  well i'm work
+get littl impati far i'v made egyptian chines
+greek cultur rennais far insight don't seem gell
+perhap it appendix somewher  right though histori
+kind fun lot good yarn vari interest charact come
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ether, 3207, 0.52722806501
+histori, 4314, 0.181121736551
+onion, 6244, 0.158633712977
+implod, 4549, 0.158633712977
+impati, 4537, 0.158633712977
+misnom, 5765, 0.154815338493
+orbit, 6280, 0.15160422799
+egyptian, 3015, 0.148790390571
+chines, 1711, 0.148790390571
+stationari, 8347, 0.146323651334
+outward, 6335, 0.144117077895
+far, 3386, 0.139916985103
+insight, 4672, 0.131807016253
+layer, 5160, 0.126673397631
+twist, 9174, 0.12578206833
+characterist, 1663, 0.121108755654
+greek, 4023, 0.119757120408
+spin, 8235, 0.116716562333
+phase, 6583, 0.115614040546
+vari, 9426, 0.114566668435
+charact, 1661, 0.113569190516
+zero, 9985, 0.112617068495
+suck, 8515, 0.11215676255
+galaxi, 3753, 0.11215676255
+motion, 5880, 0.111706356428
+cultur, 2291, 0.111706356428
+core, 2140, 0.109190164801
+heaven, 4229, 0.108037043624
+fun, 3721, 0.108037043624
+graviti, 4010, 0.106592120573
+closer, 1831, 0.106592120573
+recommend, 7178, 0.106245946122
+gmt, 3917, 0.104915779947
+distanc, 2744, 0.102484871476
+edg, 2993, 0.0997961747607
+realiti, 7148, 0.0981004334136
+somewher, 8130, 0.0978690158387
+planet, 6664, 0.0958938599748
+structur, 8460, 0.0954791320178
+paper, 6409, 0.0933342466279
+defin, 2482, 0.0919016830215
+bodi, 1194, 0.0907238502453
+describ, 2556, 0.0902386607286
+studi, 8469, 0.0900793970148
+observ, 6179, 0.0871247770059
+save, 7646, 0.0842938011543
+light, 5267, 0.0833523807572
+matter, 5553, 0.0812727704252
+perhap, 6540, 0.0810654115289
+kind, 5021, 0.0747078237407
+earth, 2956, 0.0729554646018
+news, 6031, 0.0723343723079
+littl, 5308, 0.0703877946756
+imag, 4512, 0.0702027294586
+lot, 5356, 0.0653459725957
+right, 7399, 0.063707130776
+come, 1923, 0.0607311874216
+work, 9833, 0.0593332044223
+good, 3948, 0.0538356779734
+year, 9943, 0.0526339201576
+time, 8936, 0.0497611870665
+don, 2811, 0.0475037640604

@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104635
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scottwa@pogo.wv.tek.com (Scott Walsh)
+Subject: Predicted Runs from Lineup
+Summary: Estimated runs/27 outs
+Reply-To: scottwa@pogo.wv.tek.com
+Distribution: usa
+Organization: Tektronix, Inc., Wilsonville, OR
+Lines: 20
+
+
+Some time back in this newsgroup, I seem to recall a thread about
+predicting the runs a given lineup of 9 batters could be expected
+to score given the appropriate statistical alphabet soup for these
+hitters (OBP, SLG, AVG, bat length, hat size, day-of-the-week,
+weather conditions, etc.).  :-)  Anyway, was I dreaming or is there
+some such animal?
+
+My apologies if this has been covered recently, I probably get to
+read 10% of the articles posted here.  No time.  
+
+Many thanks in advance,
+
+scotty
+
+
+----------------------------------------------------------------------------
+ M. Scott Walsh                                     scottwa@pogo.wv.tek.com
+ Tektronix, Inc.   Graphics Printing & Imaging Products IBD   (503)685-3622
+----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ predict run lineup estim run out       time back
+newsgroup seem recal thread predict run given
+lineup batter could expect score given appropri
+statist alphabet soup hitter obp slg avg bat
+length hat size day week weather condit etc anyway
+dream anim  apolog cover recent probabl get read
+articl post time  mani thank advanc  scotti
+tektronix inc graphic print imag product ibd
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lineup, 5287, 0.306476323306
+predict, 6816, 0.254914321333
+run, 7543, 0.254260845984
+tektronix, 8753, 0.207988809812
+soup, 8152, 0.203651585075
+given, 3887, 0.201975876416
+avg, 820, 0.186234132418
+alphabet, 442, 0.186234132418
+hat, 4199, 0.17143183643
+slg, 8028, 0.162705234452
+weather, 9679, 0.15757538639
+dream, 2865, 0.156804481528
+estim, 3201, 0.151296959777
+obp, 6177, 0.150073451042
+apolog, 571, 0.150073451042
+appropri, 590, 0.147775336126
+condit, 2017, 0.144645861923
+statist, 8348, 0.141386786995
+length, 5212, 0.139270280706
+recal, 7166, 0.138072812017
+thread, 8890, 0.136183762644
+print, 6871, 0.134758837038
+batter, 949, 0.13373558728
+time, 8936, 0.133704711349
+size, 8000, 0.130570876669
+cover, 2194, 0.129398362542
+newsgroup, 6032, 0.12441243432
+score, 7705, 0.121665252238
+anim, 515, 0.121447982685
+hitter, 4322, 0.119767706332
+product, 6896, 0.117799332781
+bat, 942, 0.115605786009
+recent, 7168, 0.111826738172
+expect, 3290, 0.109047394226
+advanc, 285, 0.106391058105
+week, 9691, 0.103617361556
+imag, 4512, 0.0943148288003
+graphic, 3997, 0.0926333566609
+probabl, 6885, 0.0920183317946
+articl, 665, 0.0906817934267
+read, 7135, 0.0856488000806
+day, 2402, 0.0834340378312
+post, 6766, 0.0821735853065
+mani, 5479, 0.0798103935664
+thank, 8832, 0.0787941840348

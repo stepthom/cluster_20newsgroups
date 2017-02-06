@@ -1,0 +1,342 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38856
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: gorgen@ann-arbor.applicon.slb.com (David Gorgen)
+Subject: Need help: Z-buffering lines & areas together
+Organization: Applicon, Inc.; Ann Arbor, MI (USA)
+Keywords: Z-buffer, roundoff, lines, areas
+Lines: 84
+
+I'm asking for help on a sticky problem involving unreasonably low
+apparent precision in Z-buffering, that I've encountered in 2 different
+PEX implementations.  I can't find any discussion of this problem in any
+resources I can lay hands on (e.g. the comp.windows.x.pex FAQ, Gaskins's
+_PEXlib_Programming_Manual_, vendors' documentation).
+
+I'm posting this article by itself on comp.graphics, and virtually the
+same article with a test program demonstrating the problem on
+comp.windows.x.pex.  The problem is hard to describe without pictures,
+hence this article is longish.  If you can run PEXlib 5.x programs and
+are interested, I encourage you to build and run the test program in
+comp.windows.x.pex to see the effect yourself and play with my approach
+to dealing with it.  (It depends on the utility code from the above
+Gaskins book; instructions for fetching it via anonymous FTP are given.)
+
+The problem to be solved is to eliminate or minimize "stitching"
+artifacts resulting from the use of Z-buffering with polylines that are
+coplanar with filled areas.  The interpolated Z values along a line will
+differ slightly, due to roundoff error, from the interpolated Z values
+across an area, even when the endpoints of the line are coincident with
+vertices of the area.  Because of this, it's a tossup whether the
+Z-buffer will allow the line pixels or the area pixels to be displayed.
+Visually, the result tends to be a dashed-line effect even though the
+line is supposed to be solid.
+
+Using the PEXlib API, my approach to a solution is to use two slightly
+different PEX view mapping transforms, in two view table entries, one
+for the areas and one for the lines.  The PEX structures or immediate-
+mode output must be organized so that one view table index is always in
+effect for areas, and the other is always in effect for lines.  The
+result is a slight shift in NPC Z coordinates for the lines, so as to
+attempt to bias the tossup situations in favor of the lines.
+
+This shift is effected by moving the front and back clipping planes used
+in the PEXlib view table entry for lines just a hair "backwards" (i.e.
+smaller VRC Z coordinates), compared to their positions in the view
+table entry used for areas.  This means that when a point is transformed
+to NPC, its Z value will be slightly bigger if it comes from a line than
+if it comes from an area, thus accomplishing the desired bias.
+
+I would expect the Z roundoff errors which cause the problem to amount
+to a few units at most, out of the entire dynamic range of the Z-buffer,
+typically from 0 to 65535 if not 16777215 (i.e. 16 or 24 bit Z-buffers).
+Therefore, it seems that a tiny fraction of the range of Z in VRC
+between the front and back clip planes ought to suffice to reliably fix
+the stitching.
+
+But in fact, experience shows that the shift has to be as much as 0.003
+to 0.006 of the range.  (Empirically, it's worst when the NPC Z
+component of the slope of the surface is high, i.e. when it appears more
+or less edge-on to the viewer.)  It's as if only 8 or 9 bits of the
+Z-buffer have any dependable meaning!  This amount is so great that one
+problem is replaced by another: sometimes the polylines "show through"
+areas which they are supposed to lie behind.
+
+I've observed the problem on both Hewlett-Packard and Digital
+workstation PEX servers, to approximately the same degree.  The test
+program demonstrates the problem on an MIT PEXlib 5.x implementation;
+this version is known to compile and run on an HP-UX system with PEX
+5.1.
+
+Open questions:
+    (1) Why does this happen?
+        --  Am I configuring the PEX view table wrongly?
+        --  Is there a systematic difference in Z interpolation for lines
+            as opposed to areas (e.g. pixel centers versus corners) which
+            could be corrected for?
+        --  Are PEX implementors wantonly discarding Z precision in their
+            interpolators?
+        --  Something else?
+    (2) What to do about it?
+        --  Can I fix my use of the view table to allow better precision
+            in Z-buffered HLHSR?
+        --  Is there another approach I can take to remove the stitching
+            artifacts?
+        --  Am I just out of luck?
+
+Any help would be immensely appreciated!
+
+-- 
+===============================================================================
+Dave Gorgen                         Internet: gorgen@ann-arbor.applicon.slb.com
+Applicon Inc.                                 gorgen@aaaca1.sinet.slb.com
+Ann Arbor, Michigan (USA)               UUCP: ...!uunet!sharkey!applga!gorgen
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need help buffer line area togeth     i'm ask
+help sticki problem involv unreason low appar
+precis buffer i'v encount differ pex implement
+can't find discuss problem resourc lay hand comp
+window pex faq gaskin pexlib program manual vendor
+document  i'm post articl comp graphic virtual
+articl test program demonstr problem comp window
+pex problem hard describ without pictur henc
+articl longish run pexlib program interest
+encourag build run test program comp window pex
+see effect play approach deal depend util code
+gaskin book instruct fetch via anonym ftp given
+problem solv elimin minim stitch artifact result
+use buffer polylin coplanar fill area interpol
+valu along line differ slight due roundoff error
+interpol valu across area even endpoint line
+coincid vertic area it tossup whether buffer allow
+line pixel area pixel display visual result tend
+dash line effect even though line suppos solid
+use pexlib api approach solut use two slight
+differ pex view map transform two view tabl entri
+one area one line pex structur immedi mode output
+must organ one view tabl index alway effect area
+alway effect line result slight shift npc coordin
+line attempt bias tossup situat favor line  shift
+effect move front back clip plane use pexlib view
+tabl entri line hair backward smaller vrc coordin
+compar posit view tabl entri use area mean point
+transform npc valu slight bigger come line come
+area thus accomplish desir bias  expect roundoff
+error caus problem amount unit entir dynam rang
+buffer typic bit buffer therefor seem tini
+fraction rang vrc front back clip plane ought
+suffic reliabl fix stitch  fact experi show shift
+much rang empir it worst npc compon slope surfac
+high appear less edg viewer it bit buffer depend
+mean amount great one problem replac anoth sometim
+polylin show area suppos lie behind  i'v observ
+problem hewlett packard digit workstat pex server
+approxim degre test program demonstr problem mit
+pexlib implement version known compil run system
+pex   open question happen configur pex view tabl
+wrong systemat differ interpol line oppos area
+pixel center versus corner could correct pex
+implementor wanton discard precis interpol someth
+els  fix use view tabl allow better precis buffer
+hlhsr anoth approach take remov stitch artifact
+luck  help immens appreci      ann arbor michigan
+usa uucp uunet sharkey applga gorgen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pex, 6579, 0.413302196328
+buffer, 1371, 0.27923921685
+area, 622, 0.27593738535
+line, 5285, 0.265850044543
+pexlib, 6580, 0.219158815157
+tabl, 8667, 0.202499329809
+problem, 6887, 0.174689775987
+view, 9510, 0.168681385981
+interpol, 4719, 0.158221385383
+npc, 6133, 0.149649159012
+stitch, 8401, 0.144324539151
+effect, 3005, 0.12363210056
+slight, 8034, 0.122153668706
+comp, 1955, 0.122153668706
+shift, 7883, 0.108308280857
+vrc, 9594, 0.0997661060081
+tossup, 9011, 0.0997661060081
+entri, 3135, 0.098721829923
+program, 6905, 0.0957523458143
+pixel, 6651, 0.0932990204658
+roundoff, 7495, 0.0912132726368
+precis, 6809, 0.0898268148571
+polylin, 6730, 0.0893111873141
+gaskin, 3783, 0.0893111873141
+approach, 589, 0.0881960642771
+rang, 7094, 0.0836688653899
+use, 9363, 0.0817544546899
+artifact, 666, 0.0816727818667
+window, 9774, 0.0769975648001
+test, 8812, 0.0760481928364
+differ, 2633, 0.0759883741724
+valu, 9414, 0.0757043681735
+result, 7332, 0.0718257839199
+clip, 1821, 0.0691045190971
+coordin, 2126, 0.0678044619669
+transform, 9053, 0.0674997766029
+bias, 1069, 0.066912087901
+fix, 3511, 0.0607242637877
+plane, 6663, 0.0598845432381
+articl, 665, 0.0596526069443
+implement, 4544, 0.059564028327
+demonstr, 2520, 0.059564028327
+run, 7543, 0.0557529125882
+error, 3180, 0.0556633823637
+depend, 2537, 0.0550998538288
+help, 4249, 0.0543757514849
+suppos, 8577, 0.0501704337
+implementor, 4545, 0.048108179717
+allow, 432, 0.0472847513722
+sticki, 8394, 0.0467314810404
+endpoint, 3098, 0.0467314810404
+arbor, 607, 0.0467314810404
+alway, 457, 0.0466022291863
+systemat, 8663, 0.0456066363184
+packard, 6376, 0.044655593657
+hewlett, 4281, 0.044655593657
+slope, 8041, 0.0438317630313
+discard, 2686, 0.0438317630313
+dash, 2383, 0.0438317630313
+suffic, 8522, 0.0431050929198
+api, 564, 0.0431050929198
+coplanar, 2133, 0.0424550643548
+ann, 518, 0.0424550643548
+michigan, 5682, 0.0418670419915
+backward, 859, 0.0418670419915
+bit, 1122, 0.0416176003287
+fetch, 3453, 0.0413302196328
+immens, 4528, 0.0408363909334
+empir, 3076, 0.0403791769714
+anoth, 533, 0.0397684046295
+unreason, 9305, 0.0395553463457
+versus, 9480, 0.0388286762342
+mean, 5595, 0.0381326748507
+tini, 8941, 0.0378776335728
+hair, 4119, 0.0370538029471
+ought, 6321, 0.0368019489925
+coincid, 1883, 0.0368019489925
+lay, 5159, 0.0365599742477
+elimin, 3044, 0.0365599742477
+vendor, 9458, 0.0358862621021
+fraction, 3639, 0.0358862621021
+corner, 2149, 0.0358862621021
+come, 1923, 0.0357812760011
+vertic, 9482, 0.0356771042705
+uunet, 9392, 0.0356771042705
+henc, 4252, 0.0354748053225
+mit, 5781, 0.0350890819072
+bigger, 1083, 0.0349049021063
+minim, 5739, 0.0347260616092
+configur, 2030, 0.0347260616092
+encount, 3088, 0.0345522595485
+index, 4596, 0.0343832197924
+reliabl, 7256, 0.0336012168872
+manual, 5492, 0.0336012168872
+encourag, 3089, 0.0334560439505
+instruct, 4684, 0.0333142086201
+accomplish, 218, 0.0333142086201
+solv, 8119, 0.032907276641
+compil, 1972, 0.0327773862614
+favor, 3410, 0.0326501742258
+workstat, 9840, 0.0325255323069
+smaller, 8055, 0.0324033587077
+dynam, 2942, 0.0321660384823
+server, 7812, 0.0319375099436
+approxim, 593, 0.0319375099436
+luck, 5381, 0.0318263436001
+compon, 1980, 0.0318263436001
+visual, 9547, 0.0315043801962
+typic, 9178, 0.0314006875849
+virtual, 9536, 0.0312987089797
+output, 6329, 0.0310996734886
+tend, 8783, 0.0306284854207
+anonym, 532, 0.0306284854207
+viewer, 9512, 0.0305384171766
+solut, 8118, 0.0304496449235
+worst, 9849, 0.0302758428629
+desir, 2565, 0.0302758428629
+solid, 8115, 0.0301907440634
+oppos, 6269, 0.0301068031067
+lie, 5258, 0.0298616225602
+replac, 7288, 0.0297820141635
+uucp, 9388, 0.0297034199141
+digit, 2642, 0.0297034199141
+usa, 9357, 0.0296258142978
+immedi, 4527, 0.0295491727514
+remov, 7272, 0.0294734716158
+edg, 2993, 0.0293986880924
+resourc, 7320, 0.0293248002015
+util, 9384, 0.0289680785922
+faq, 3385, 0.0288309715021
+degre, 2491, 0.0286308599554
+appar, 577, 0.0286308599554
+togeth, 8969, 0.0285655729425
+document, 2788, 0.0283737575401
+mode, 5806, 0.028311121823
+structur, 8460, 0.0281269420221
+unit, 9278, 0.0280071408764
+map, 5498, 0.0276610932579
+therefor, 8855, 0.0275499269144
+sometim, 8128, 0.0271242708992
+attempt, 763, 0.0271242708992
+surfac, 8587, 0.0269719282172
+entir, 3129, 0.0268232568029
+display, 2734, 0.0265831656072
+describ, 2556, 0.0265831656072
+situat, 7995, 0.0260424198365
+pictur, 6622, 0.0260424198365
+compar, 1960, 0.0259567300543
+involv, 4750, 0.0258722141416
+organ, 6287, 0.0258303864211
+experi, 3295, 0.0258303864211
+observ, 6179, 0.0256658549334
+low, 5368, 0.0254270032284
+appear, 580, 0.02508521685
+caus, 1569, 0.0249753700584
+ftp, 3709, 0.0249391848219
+deal, 2418, 0.0249391848219
+center, 1606, 0.0249032105792
+build, 1378, 0.0249032105792
+known, 5054, 0.024657098426
+code, 1871, 0.0245207488955
+open, 6258, 0.0244871272038
+posit, 6761, 0.0242245528901
+version, 9479, 0.0240036241389
+expect, 3290, 0.0239113097212
+appreci, 587, 0.0238505253364
+correct, 2156, 0.0237604570924
+discuss, 2708, 0.0237307241907
+hard, 4167, 0.023356696637
+wrong, 9869, 0.0226455552656
+hand, 4145, 0.0223778003611
+given, 3887, 0.0221440767634
+book, 1218, 0.0220983760719
+happen, 4159, 0.0217444688702
+ask, 689, 0.0213691769318
+els, 3053, 0.0213288528331
+fact, 3350, 0.0211701414407
+high, 4292, 0.0208644657914
+great, 4016, 0.0205201128756
+play, 6681, 0.020346310815
+graphic, 3997, 0.0203121303113
+question, 7032, 0.0186751301393
+better, 1060, 0.018456829307
+someth, 8126, 0.0181612247377
+post, 6766, 0.0180185694771
+point, 6710, 0.0174145430448
+need, 5993, 0.0165880491057

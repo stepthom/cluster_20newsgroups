@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38235
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: g9134255@wampyr.cc.uow.edu.au (Coronado Emmanuel Abad)
+Subject: Fonts in POV??
+Organization: University of Wollongong, NSW, Australia.
+Lines: 11
+NNTP-Posting-Host: wampyr.cc.uow.edu.au
+Keywords: fonts, raytrace
+
+
+
+	I have seen several ray-traced scenes (from MTV or was it 
+RayShade??) with stroked fonts appearing as objects in the image.
+The fonts/chars had color, depth and even textures associated with
+them.  Now I was wondering, is it possible to do the same in POV??
+
+
+Thanks,
+
+Noel
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ font pov        seen sever ray trace scene mtv
+rayshad stroke font appear object imag font char
+color depth even textur associ wonder possibl pov
+thank  noel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+font, 3582, 0.597313079991
+pov, 6778, 0.343181233906
+mtv, 5909, 0.230967635953
+char, 1659, 0.230967635953
+noel, 6091, 0.226706619662
+rayshad, 7120, 0.211213957812
+stroke, 8454, 0.200829656994
+textur, 8825, 0.182469659794
+scene, 7671, 0.181487729356
+depth, 2545, 0.173041331371
+trace, 9028, 0.164612196151
+associ, 706, 0.150189250823
+ray, 7118, 0.133385025405
+appear, 580, 0.129745744233
+color, 1907, 0.128252596004
+seen, 7767, 0.118440691185
+sever, 7823, 0.117777253123
+object, 6173, 0.117515692468
+wonder, 9821, 0.115865890169
+imag, 4512, 0.106965398945
+possibl, 6765, 0.104620655962
+thank, 8832, 0.0893629499945

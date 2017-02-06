@@ -1,0 +1,123 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104814
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: doctor8@jhuvms.hcf.jhu.edu (Jason Abner Miller)
+Subject: Re: "You could look it up."
+Organization: The Johns Hopkins University - HCF
+Lines: 22
+Distribution: na
+NNTP-Posting-Host: jhuvms.hcf.jhu.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <1993Apr21.173432.28160@alchemy.chem.utoronto.ca>, Mark B. writes... 
+>Yes, I could look it up but I prefer to post this question 
+>to the net...
+>I read somewhere in a long forgotten article that the handsignals 
+>used by major league umps were originally used to help a 
+>deaf ball player by the name of "Dummy". Urban myth? True? 
+>I gots ta know.
+
+	Dummy Hoy, a late 19th-Century baseball player, was deaf.  In
+order for him to be able to find out whether the pitch was a ball or
+strike, the umpires developed hand signals.  This also helped to relieve
+the stress on umpires' vocal cords, so they didn't have to shout "STRIKE!!!"
+or "BALL!!!!!" 350 times a game...
+	Heard about this one from the only worthwhile baseball book
+John Thorn has ever authored, "A Century of Baseball Lore" :-) 
+> 
+>Mark B.
+>mbrownel@alchemy.chem.utoronto.ca
+
+Jason A. Miller
+"some doctor guy"
+Frank Tanana:  1 win?!?!?!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ could look     news softwar vax vms vnew   yes
+could look prefer post question net read somewher
+long forgotten articl handsign use major leagu ump
+origin use help deaf ball player name dummi urban
+myth true got know  dummi hoy late 19th centuri
+basebal player deaf order abl find whether pitch
+ball strike umpir develop hand signal also help
+reliev stress umpir vocal cord didn't shout strike
+ball time game heard one worthwhil basebal book
+john thorn ever author centuri basebal lore  mark
+jason miller doctor guy frank tanana win
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dummi, 2915, 0.307865734578
+deaf, 2417, 0.300455287939
+ball, 877, 0.23844080014
+umpir, 9210, 0.221363909069
+basebal, 924, 0.205449455567
+strike, 8448, 0.202381792582
+centuri, 1614, 0.200024904642
+handsign, 4151, 0.158467694133
+vocal, 9565, 0.153932867289
+cord, 2137, 0.153932867289
+urban, 9349, 0.14709492229
+thorn, 8883, 0.144381235337
+tanana, 8689, 0.144381235337
+player, 6683, 0.140249977201
+forgotten, 3608, 0.139846408493
+worthwhil, 9853, 0.133008463494
+shout, 7913, 0.133008463494
+stress, 8442, 0.130294776541
+19th, 51, 0.130294776541
+jason, 4828, 0.12790113501
+myth, 5944, 0.12476841333
+miller, 5722, 0.12476841333
+ump, 9209, 0.121225122854
+help, 4249, 0.119408660582
+doctor, 2786, 0.117519899534
+reliev, 7258, 0.113814676214
+signal, 7947, 0.104835545902
+look, 5341, 0.101433524339
+somewher, 8130, 0.0949688306736
+late, 5139, 0.0932564528528
+prefer, 6819, 0.0928499900187
+vnew, 9564, 0.09245149756
+use, 9363, 0.0897660231311
+vms, 9563, 0.0896885440032
+vax, 9439, 0.08868061194
+frank, 3655, 0.0869533404109
+author, 796, 0.0833739531852
+mark, 5512, 0.0827524226571
+net, 6010, 0.0817958948504
+leagu, 5176, 0.0815636355881
+heard, 4224, 0.077214403315
+john, 4878, 0.0768448937855
+guy, 4100, 0.0763029292876
+develop, 2588, 0.0756883803019
+major, 5458, 0.0745941531442
+abl, 180, 0.0743497919125
+pitch, 6643, 0.0741885016671
+yes, 9951, 0.0740284814367
+win, 9770, 0.0738697113773
+hand, 4145, 0.0737121721058
+book, 1218, 0.0727917522716
+true, 9121, 0.0724939819004
+origin, 6293, 0.0722734828377
+order, 6281, 0.071839534729
+news, 6031, 0.0701908637449
+didn, 2625, 0.0678853892251
+softwar, 8103, 0.0678265687376
+got, 3960, 0.0666845568347
+articl, 665, 0.0654982938251
+long, 5336, 0.0640334326741
+read, 7135, 0.0618630274222
+game, 3761, 0.061601921506
+question, 7032, 0.0615156264114
+post, 6766, 0.0593529244591
+time, 8936, 0.0482865972253
+know, 5052, 0.0437742385587

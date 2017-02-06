@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38990
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: holzapfe@jocki.NoSubdomain.NoDomain (Roland Holzapfel)
+Subject: Re: Tom Gaskins Pexlib vs Phigs Programming Manuals (O'Reilly)
+Reply-To: holzapfe@igd.fhg.de
+Organization: Zentrum fuer Graphische Datenverarbeitung, 6100 Darmstadt, Germany
+Lines: 33
+
+
+In article <1rb22k$l7v@neuro.usc.edu>, merlin@neuro.usc.edu (merlin) writes:
+|> Could someone explain the difference between Tom Gaskins' two books:
+|> 
+|>   o  PEXLIB Programming Manual
+|>   o  PHIGS Programming Manual
+|> 
+|> Why would I want to buy one book vs the other book?  I have an 80386
+
+PEXLIB and PHIGS (as it comes from MIT with PEX and as is explained in the
+PHIGS Programming Manual) are just different API's for the PEX protocol,
+which is an extension to the X protocol.
+
+So it depends on You, what you go to use.
+
+Advantage of Phigs is the protability to other platforms (IBM GraPhigs, 
+SunPhigs) and the standardized structuring of the 3D objects.
+
+Advantage of PEXlib is the sometimes faster and easier programming for
+immediate mode graphics, because PEX is not an exactly mapping of Phigs
+to a Prortocol.
+
+-- 
+       \|/
+      (o o)
+ -oOO--(_)--OOo--------------------------------------------------------
+  \\    Roland Holzapfel       Computer     email:                   //
+   \\   Wilhelminenstrasse 7   Graphics       holzapfe@igd.fhg.de   //
+   //   6100 Darmstadt          Center      phone:                  \\
+  //    Germany                 (ZGDV)        ++49 6151 155150       \\
+ -----------------------------------------------------------------------
+  >>             This space intentionally left blank                 <<
+ -----------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tom gaskin pexlib phig program manual o'reilli
+could someon explain differ tom gaskin two book
+pexlib program manual phig program manual  want
+buy one book book  pexlib phig come mit pex
+explain phig program manual differ api pex
+protocol extens protocol  depend use  advantag
+phig protabl platform ibm graphig sunphig standard
+structur object  advantag pexlib sometim faster
+easier program immedi mode graphic pex exact map
+phig prortocol     ooo ooo roland holzapfel comput
+email  darmstadt center phone germani zgdv  space
+intent left blank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phig, 6587, 0.534953702084
+pexlib, 6580, 0.3912540262
+manual, 5492, 0.299933438291
+pex, 6579, 0.276693436164
+program, 6905, 0.213677754595
+gaskin, 3783, 0.199303879223
+protocol, 6943, 0.189482623018
+ooo, 6252, 0.189482623018
+book, 1218, 0.147942006196
+advantag, 286, 0.134370683688
+tom, 8976, 0.124216555276
+explain, 3301, 0.111306913034
+graphig, 3998, 0.107356615989
+roland, 7462, 0.101774254827
+darmstadt, 2369, 0.101774254827
+reilli, 7238, 0.09781350655
+api, 564, 0.0961918936649
+blank, 1139, 0.0891589503473
+differ, 2633, 0.0847865659605
+germani, 3855, 0.0796158409087
+mit, 5781, 0.0783036297334
+easier, 2960, 0.074659396469
+intent, 4702, 0.0720429147875
+platform, 6676, 0.069845159402
+extens, 3320, 0.069845159402
+faster, 3399, 0.0675625653492
+ibm, 4472, 0.0666382050797
+immedi, 4527, 0.0659409524641
+mode, 5806, 0.063178159133
+structur, 8460, 0.0627671496066
+buy, 1433, 0.062499805349
+map, 5498, 0.0617275769773
+depend, 2537, 0.0614795018574
+sometim, 8128, 0.0605296220316
+phone, 6601, 0.0604153658019
+email, 3060, 0.0579241766607
+standard, 8313, 0.0563978430255
+center, 1606, 0.0555731775918
+left, 5193, 0.054795128972
+exact, 3253, 0.0546446597512
+object, 6173, 0.0507026304395
+comput, 1993, 0.0477319599636
+graphic, 3997, 0.0453278753543
+someon, 8124, 0.0449897678583
+come, 1923, 0.0399241535414
+space, 8164, 0.0390532708946
+want, 9634, 0.037504183884
+use, 9363, 0.0304067542815

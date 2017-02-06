@@ -1,0 +1,182 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102612
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: admiral@jhunix.hcf.jhu.edu (Steve C Liu)
+Subject: Opening Day of 1990?
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 30
+Distribution: usa
+Expires: 5/9/93
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+Summary: Baltimore O's not looking stellar
+
+The O's just lost to the Rangers a few minutes ago I was not too happy about
+the pitching of Rick Sutcliffe (6 runs in 6 innings, 5 in the 3?) This puts
+me in remembering the 1990 O's season. After '89 we didn't do much over
+winter and we wound up in 5th. Now I know that Mussina, McDonald, and Rhodes
+are better pitching prospects than Ballard and Milacki but are any other
+Oriole fans scared out there?
+
+Admiral Steve C. Liu
+
+P.S. Other scores as of now.
+Cincy over Montreal, 2-1 I think
+FLORIDA IS LEADING LA 6-3 IN THE 8TH!
+Braves vs. Cubs, 1-0 in the 8th. Futility of Cubs batting haunting them.
+Yanks beat the Tribe I believe.
+____________________________________________________________________________
+|Admiral Steve C. Liu          Internet Address: admiral@jhunix.hcf.jhu.edu|
+|Commander-In-Chief of the Security Division of the Pi Club - Earth Chapter|
+|    President of the Earth Chapter of the Pi Club - Founded April 1990    |
+|1993 World Champions  - Baltimore Orioles - Why Not? - Series in the Yards|
+|         1992-1993 Stanley Cup Champions -  Washington Capitals           |
+| "Committee for the Liberation and Intergration of Terrifying Organisms   |
+|   and their Rehabilitation Into Society, the only problem is that the    |
+|   abbreviation is CLITORIS." from the "Polymorph" episode of Red Dwarf   |
+|*****The Bangles are the greatest female rock band that ever existed!*****|
+|   This sig has been brought to you by... Frungy! The Sport of Kings!     |
+|"My God man, drilling holes through his head is not the answer!" Dr. McCoy|
+|"You know, Susanna Hoffs has a really nice ass." - comment by M. Flanagan |
+|  The Pi Club - Creating the largest .signatures for the past nine months | 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ open day    expir  baltimor o look stellar  o
+lost ranger minut ago happi pitch rick sutcliff
+run inning put rememb o season didn't much winter
+wound 5th know mussina mcdonald rhode better pitch
+prospect ballard milacki oriol fan scare  admir
+steve liu  score cinci montreal think florida lead
+8th brave cub 8th futil cub bat haunt yank beat
+tribe believ   command chief secur divis club
+earth chapter presid earth chapter club found
+april world champion baltimor oriol seri yard
+stanley cup champion washington capit committe
+liber intergr terrifi organ rehabilit societi
+problem abbrevi clitori polymorph episod red dwarf
+bangl greatest femal rock band ever exist sig
+brought frungi sport king god man drill hole head
+answer mccoy know susanna hoff realli nice ass
+comment flanagan club creat largest signatur past
+nine month
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+club, 1842, 0.249479812512
+8th, 150, 0.213270567649
+champion, 1647, 0.197793142951
+oriol, 6295, 0.168305445329
+chapter, 1658, 0.166319875008
+baltimor, 887, 0.159435515701
+cub, 2282, 0.155562591876
+futil, 3736, 0.122531450859
+clitori, 1824, 0.122531450859
+susanna, 8602, 0.119025001702
+flanagan, 3521, 0.119025001702
+mccoy, 5572, 0.116160024133
+liu, 5309, 0.116160024133
+pitch, 6643, 0.114729059397
+cinci, 1758, 0.113737720113
+terrifi, 8806, 0.111639424928
+polymorph, 6731, 0.111639424928
+intergr, 4711, 0.111639424928
+frungi, 3705, 0.109788597406
+bangl, 895, 0.109788597406
+earth, 2956, 0.109478926458
+drill, 2871, 0.108132975771
+sutcliff, 8609, 0.106635283825
+stellar, 8372, 0.106635283825
+stanley, 8322, 0.106635283825
+rehabilit, 7235, 0.105267998202
+rhode, 7376, 0.104010217355
+mussina, 5935, 0.104010217355
+episod, 3148, 0.104010217355
+abbrevi, 169, 0.104010217355
+scare, 7665, 0.102845694182
+5th, 123, 0.102845694182
+mcdonald, 5573, 0.101761549044
+dwarf, 2933, 0.101761549044
+ass, 696, 0.101761549044
+femal, 3441, 0.100747398997
+admir, 274, 0.100747398997
+tribe, 9092, 0.0988965714753
+yard, 9936, 0.0980469660918
+winter, 9790, 0.0980469660918
+cup, 2294, 0.0964742674552
+secur, 7762, 0.0957432578936
+wound, 9855, 0.0950447485954
+yank, 9932, 0.0931181914242
+largest, 5126, 0.0931181914242
+signatur, 7948, 0.0919536682507
+chief, 1703, 0.0919536682507
+capit, 1502, 0.0919536682507
+liber, 5247, 0.09140224775
+rick, 7387, 0.0898553730662
+committe, 1946, 0.0889027255313
+prospect, 6937, 0.0884472190932
+montreal, 5848, 0.0880045455442
+greatest, 4018, 0.0880045455442
+florida, 3552, 0.0867467646976
+band, 891, 0.0867467646976
+sig, 7940, 0.0848512319625
+rock, 7445, 0.0848512319625
+ranger, 7095, 0.0848512319625
+king, 5024, 0.0822261654931
+expir, 3300, 0.0810616423196
+washington, 9651, 0.0792108147976
+brought, 1343, 0.0773322976265
+beat, 974, 0.0771125196132
+sport, 8257, 0.0760575012159
+hole, 4343, 0.0756545593487
+presid, 6839, 0.0752616920911
+societi, 8093, 0.0745042504428
+happi, 4161, 0.0739592060315
+divis, 2767, 0.0727564650723
+minut, 5747, 0.0725919204086
+inning, 4657, 0.0724290809017
+steve, 8390, 0.0700299366085
+lost, 5355, 0.06948331204
+command, 1933, 0.0689550649277
+score, 7705, 0.0679490336469
+know, 5052, 0.0676948193157
+brave, 1277, 0.0672346437292
+past, 6456, 0.0664402716954
+head, 4215, 0.0663299984583
+organ, 6287, 0.0657899497144
+april, 595, 0.0652678461472
+month, 5847, 0.0647625334176
+bat, 942, 0.0645648720467
+seri, 7805, 0.0640813301475
+lead, 5172, 0.063798189662
+nice, 6047, 0.0636122245118
+comment, 1936, 0.0630671801004
+red, 7194, 0.0628896203378
+fan, 3381, 0.0625404088155
+open, 6258, 0.0623686708023
+ago, 336, 0.0612163525784
+creat, 2217, 0.0607472469427
+season, 7747, 0.0605178432802
+answer, 535, 0.0579982394335
+rememb, 7269, 0.0578694364845
+exist, 3283, 0.0563426177981
+god, 3926, 0.0553831247515
+man, 5471, 0.0542734493538
+world, 9841, 0.0526280348456
+didn, 2625, 0.0524907949183
+problem, 6887, 0.0494371731653
+believ, 1009, 0.0485264970568
+run, 7543, 0.0473341907707
+better, 1060, 0.0470095124478
+realli, 7150, 0.0466285514431
+day, 2402, 0.0465972176903
+look, 5341, 0.0392155542206
+think, 8871, 0.0359894705599

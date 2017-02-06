@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104354
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mcdowell@iies.ecn.purdue.edu (James M McDowell)
+Subject: Texas Ranger Ticket Info
+Organization: Purdue University Engineering Computer Network
+Lines: 4
+
+Would someone please give me the address for Texas Ranger
+ticket orders. Thanks very much.
+
+Jim
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ texa ranger ticket info    someon pleas give
+address texa ranger ticket order thank much  jim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ranger, 7095, 0.525660103063
+ticket, 8919, 0.515182399926
+texa, 8820, 0.492274884067
+jim, 4868, 0.222385039024
+info, 4636, 0.191627550377
+address, 264, 0.189130883114
+order, 6281, 0.17206289124
+someon, 8124, 0.159055753193
+pleas, 6688, 0.143186886241
+thank, 8832, 0.136310011448

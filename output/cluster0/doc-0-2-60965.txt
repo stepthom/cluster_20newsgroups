@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60965
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jgreen@trumpet.calpoly.edu (James Thomas Green)
+Subject: Proton/Centaur?
+Organization: California Polytechnic State University, San Luis Obispo
+Lines: 9
+
+Has anyone looked into the possiblity of a Proton/Centaur combo?
+What would be the benefits and problems with such a combo (other
+than the obvious instability in the XSSR now)?
+
+
+/~~~(-: James T. Green :-)~~~~(-: jgreen@oboe.calpoly.edu :-)~~~\ 
+| "I know you believe you understand what it is that you        |   
+| think I said.  But I am not sure that you realize that        |
+| what I said is not what I meant."                             |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ proton centaur    anyon look possibl proton
+centaur combo benefit problem combo obvious
+instabl xssr    know believ understand think said
+sure realiz said meant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+combo, 1922, 0.467360939564
+centaur, 1604, 0.443061230419
+proton, 6944, 0.435301544409
+xssr, 9909, 0.264219124412
+instabl, 4678, 0.264219124412
+said, 7583, 0.232240463161
+meant, 5598, 0.176395242461
+benefit, 1028, 0.174214367796
+realiz, 7149, 0.160070677254
+obvious, 6185, 0.147488260131
+understand, 9246, 0.125072858045
+possibl, 6765, 0.114365986556
+sure, 8585, 0.112335207026
+problem, 6887, 0.109743721238
+believ, 1009, 0.107722145598
+anyon, 554, 0.0937359389927
+look, 5341, 0.0870531338068
+think, 8871, 0.0798916720304
+know, 5052, 0.075136591603

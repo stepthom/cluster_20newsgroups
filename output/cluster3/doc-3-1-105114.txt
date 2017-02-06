@@ -1,0 +1,130 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105114
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: MLOCKER@biomed.med.yale.edu (Michael Locker)
+Subject: Re: Yanks over A's George Speaks
+In-Reply-To: kwolfer@eagle.wesleyan.edu's message of 23 Apr 93 15:00:58 EDT
+Nntp-Posting-Host: biomed.med.yale.edu
+Organization: Yale University
+X-News-Reader: VMS NEWS 1.20
+Lines: 19
+
+In <1993Apr23.150058.1@eagle.wesleyan.edu> kwolfer@eagle.wesleyan.edu writes:
+
+> How about Matt Nokes 2 run single against Ron Darling.  Was that a hit or what?  
+> While watching the game yesterday they flashed up something regarding The
+> Boss' talking about Mark Connor as bullpen coach.  He said something like it's
+> Mark Connor's fault that the bullpen is so horrible!!  Here we go again!! 
+> George sticking his non-baseball nose in the baseball business.  Shut up
+> George, just spend the money, get the players and leave Buck and the coaches
+> and players alone.
+ 
+  	I saw that quote flashed on the screen yesterday also, and what enraged
+me more than anything was not that George was speaking up agai and complaining
+to the media instead of to the proper people, it was that the idiot reporter
+provided George with an outlet and an opportunity to create trouble.  This is a
+supreme example of how the media can truly control situations.  The local beat
+reporters should know better and should stop trying to one-up each other with
+quotes from the Boss.  If they just ignored him, he'd really simply go away,
+and problems would be avoided.  What that reporter did was potentially to open
+up the floodgates again--asshole.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yank a georg speak         matt noke run singl
+ron darl hit watch game yesterday flash someth
+regard boss talk mark connor bullpen coach said
+someth like it mark connor fault bullpen horribl
+georg stick non basebal nose basebal busi shut
+georg spend money get player leav buck coach
+player alon  saw quot flash screen yesterday also
+enrag anyth georg speak agai complain media
+instead proper peopl idiot report provid georg
+outlet opportun creat troubl suprem exampl media
+truli control situat local beat report know better
+stop tri one quot boss ignor he'd realli simpli
+away problem avoid report potenti open floodgat
+asshol
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+georg, 3847, 0.433742626832
+boss, 1242, 0.249122030206
+connor, 2047, 0.236845845244
+flash, 3524, 0.218582463791
+report, 7291, 0.205475284697
+coach, 1856, 0.199033355507
+bullpen, 1391, 0.184321411548
+yesterday, 9952, 0.178802672251
+media, 5605, 0.167496084122
+speak, 8192, 0.151607327705
+quot, 7045, 0.147779118036
+mark, 5512, 0.140150667446
+darl, 2368, 0.130351435038
+noke, 6093, 0.120236093409
+asshol, 702, 0.120236093409
+player, 6683, 0.118764667443
+basebal, 924, 0.115984029629
+suprem, 8580, 0.111445190169
+nose, 6115, 0.105654770235
+yank, 9932, 0.101979329609
+someth, 8126, 0.101316784912
+horribl, 4380, 0.10010009653
+shut, 7925, 0.0989523909476
+buck, 1359, 0.0989523909476
+matt, 5552, 0.0954486146451
+idiot, 4487, 0.0950015971562
+complain, 1973, 0.0933213166486
+fault, 3407, 0.0921607057742
+ron, 7472, 0.0900508171931
+opportun, 6268, 0.0900508171931
+avoid, 827, 0.0873037091805
+proper, 6924, 0.087023878532
+truli, 9127, 0.085434207064
+stick, 8393, 0.084935354579
+beat, 974, 0.0844505561623
+troubl, 9117, 0.0832951420887
+alon, 437, 0.0830730847406
+potenti, 6774, 0.0824236036728
+spend, 8222, 0.0806104328855
+screen, 7719, 0.0800461460794
+busi, 1424, 0.0793214408654
+ignor, 4496, 0.0768469654401
+leav, 5184, 0.0766939937155
+saw, 7650, 0.0758036638523
+instead, 4682, 0.0738895590178
+local, 5322, 0.0732544609059
+stop, 8413, 0.0727627358618
+situat, 7995, 0.0726419690103
+control, 2107, 0.0718195296455
+watch, 9655, 0.071366629673
+singl, 7983, 0.071366629673
+simpli, 7967, 0.0704950912571
+regard, 7224, 0.0704950912571
+money, 5835, 0.0693645280264
+open, 6258, 0.0683036809428
+non, 6097, 0.0682104058868
+away, 833, 0.0682104058868
+creat, 2217, 0.0665279621957
+provid, 6949, 0.0636595844546
+exampl, 3258, 0.062419985952
+hit, 4316, 0.0601802543863
+anyth, 555, 0.058996831394
+talk, 8684, 0.0581987344859
+said, 7583, 0.0572874460056
+problem, 6887, 0.0541416204508
+game, 3761, 0.0521649405407
+run, 7543, 0.0518385180011
+better, 1060, 0.0514829432503
+realli, 7150, 0.051065729951
+tri, 9087, 0.0498395317256
+peopl, 6530, 0.0466912633946
+know, 5052, 0.0370683331915
+like, 5272, 0.0362359468367

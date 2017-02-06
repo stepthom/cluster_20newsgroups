@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62450
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tony2@prefect.cc.bellcore.com (gozdz,antoni s)
+Subject: Re: Space Marketing -- Boycott
+Organization: Bellcore, Livingston, NJ
+Distribution: usa
+Lines: 16
+
+In article <C74rAn.4qA@ucdavis.edu> ez012344@hamlet.ucdavis.edu (Dan Herrin) writes:
+>
+>[Space ad proposed]
+>
+>This is undoubtedly the sickest thing to come down the marketing pipe
+>in years, and the best reason for resurrecting the "Star Wars" killer
+>satellite system.
+>
+>Dan
+>
+
+Why don't you activist guys cut misc.invest out of this thread?
+They didn't offer any shares for sale yet...
+
+Tony
+tony2@cc.bellcore.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market boycott       space propos  undoubt
+sickest thing come market pipe year best reason
+resurrect star war killer satellit system  dan
+don't activist guy cut misc invest thread didn't
+offer share sale yet  toni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+market, 5514, 0.328733301268
+killer, 5013, 0.260955860602
+boycott, 1257, 0.256141605269
+activist, 253, 0.248096530542
+undoubt, 9256, 0.241523225869
+pipe, 6636, 0.228965599325
+resurrect, 7335, 0.221347196557
+space, 8164, 0.204535505387
+sale, 7590, 0.196356911911
+dan, 2350, 0.195508558424
+misc, 5757, 0.191542656578
+invest, 4744, 0.187970096619
+toni, 8984, 0.186634634326
+share, 7855, 0.180611773318
+war, 9635, 0.175452507125
+thread, 8890, 0.174503679741
+cut, 2313, 0.158507297206
+offer, 6203, 0.158208097483
+star, 8324, 0.155899894378
+satellit, 7632, 0.154260823052
+propos, 6933, 0.151436696928
+guy, 4100, 0.135366308155
+best, 1052, 0.120537704487
+didn, 2625, 0.120433050249
+reason, 7156, 0.116291230333
+come, 1923, 0.104548309715
+thing, 8869, 0.0984944172659
+year, 9943, 0.0906089213759
+don, 2811, 0.0817773939299

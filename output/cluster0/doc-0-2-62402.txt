@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62402
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wcsbeau@superior.carleton.ca (OPIRG)
+Subject: Re: Space Marketing would be wonderfull.
+Organization: Carleton University, Ottawa, Canada
+Lines: 19
+
+In article <C73u77.84x@world.std.com> vis@world.std.com (Tom R Courtney) writes:
+>I got incensed when I read that Carl Sagan called this idea an "abomination." 
+>I don't think that word means what he thinks it does. Children starving in the
+>richest country in the world is an abomination; an ad agency is at worst just
+>in poor taste.
+>
+>Tom Courtney
+
+I don't think that idea means what you think it does. Having everyone
+on Earth subject to some ad agency's "poor taste" *is* an abomination.
+(abomination : n. loathing; odious or degrading habit or act; an
+object of disgust. (Oxford Concise Dictionary)) Maybe *you* don't mind
+having every part of your life saturated with commercials, but many of
+us loathe it. I'd rather not have the beauty of the night sky always marred
+by a giant billboard, and I'll bet the idea is virtually sacrilegious
+to an astronomer like Sagan.
+
+Reid Cooper
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful     got incens read carl
+sagan call idea abomin don't think word mean think
+children starv richest countri world abomin agenc
+worst poor tast  tom courtney  don't think idea
+mean think everyon earth agenc poor tast abomin
+abomin loath odious degrad habit act object
+disgust oxford concis dictionari mayb don't mind
+everi part life satur commerci mani loath i'd
+rather beauti night sky alway mar giant billboard
+i'll bet idea virtual sacrilegi astronom like
+sagan  reid cooper
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+abomin, 186, 0.509130640079
+loath, 5320, 0.267759940154
+sagan, 7581, 0.247820625125
+tast, 8708, 0.225397598776
+agenc, 329, 0.192179683112
+idea, 4482, 0.189707608211
+poor, 6741, 0.176277825902
+think, 8871, 0.169451936855
+richest, 7384, 0.144231016397
+reid, 7236, 0.144231016397
+sacrilegi, 7570, 0.133879970077
+concis, 2007, 0.129231482053
+starv, 8338, 0.12728266002
+don, 2811, 0.125864447271
+disgust, 2712, 0.125519736051
+satur, 7638, 0.122429786472
+carl, 1520, 0.117467787524
+oxford, 6361, 0.116410545391
+degrad, 2490, 0.116410545391
+mean, 5595, 0.114323894273
+dictionari, 2624, 0.112698799388
+wonderful, 9822, 0.1110893759
+cooper, 2125, 0.105199032216
+beauti, 978, 0.101184054804
+habit, 4109, 0.0998778627255
+billboard, 1090, 0.0954171600889
+virtual, 9536, 0.0938352819544
+astronom, 728, 0.0920999444212
+mar, 5500, 0.0910273714116
+worst, 9849, 0.0907686720653
+bet, 1054, 0.0902618814117
+countri, 2186, 0.0895268164055
+market, 5514, 0.0843261470264
+giant, 3865, 0.0841456899683
+tom, 8976, 0.0834409684761
+children, 1707, 0.0834409684761
+act, 249, 0.0825962234262
+sky, 8011, 0.0799823891528
+commerci, 1940, 0.0782064347489
+night, 6063, 0.0750964562544
+everyon, 3241, 0.0737178406241
+mind, 5733, 0.0720573917192
+alway, 457, 0.0698580461934
+object, 6173, 0.0681177573916
+life, 5260, 0.0681177573916
+word, 9829, 0.0662521687647
+mayb, 5564, 0.0647454099343
+earth, 2956, 0.0644334851435
+everi, 3235, 0.0633522012447
+world, 9841, 0.0619481357931
+got, 3960, 0.0606936414572
+ll, 5314, 0.0585938251014
+read, 7135, 0.0563052764244
+space, 8164, 0.0524671246657
+mani, 5479, 0.0524671246657
+like, 5272, 0.0389469166914

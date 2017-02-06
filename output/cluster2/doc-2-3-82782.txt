@@ -1,0 +1,175 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82782
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bobsarv@microsoft.com (Bob Sarver)
+Subject: Re: Question for those with popular morality
+Organization: Microsoft Corp.
+Distribution: usa
+Lines: 57
+
+
+(hudson)
+>/These people hurt their own bodies.  Why can't they hurt other peoples bodies
+>/too?  
+>
+(me)
+>Because other people might not *want* to be hurt, Hudson.  And hurting
+>them against their will is a violation of choice.
+
+/(hudson)
+/So. Why is someone elses will such a big deal if morality is all relative.
+
+
+I don't believe I ever said that morality was all relative.
+
+What I said was that I can make my mind up on my own, thank you, and that 
+you don't have the right to tell others what to think.
+
+I think that you will find that in most moral systems, there is 
+a respect for human life and the dignity of the person.  It is all the
+stuff besides these points that forms the core of the disagreement between 
+primitive moral absolutists like yourself and the rest of us.
+
+
+
+/(hudson)
+/Maybe (the insane lover of pain might reason) if other people experienced
+/enough pain, they might learn to enjoy it, too.  
+
+Fine.  There is still the clinical definition of crazy.  And this also
+involves a violation of free will, because the insane lover of your
+little example would be inflicting pain on a non-willing subject.
+
+Try again.
+
+
+
+
+(hudson)
+>/You have to have other premises to derive this.  
+>
+(me)
+>No, you don't.  That is a patently false statement.
+
+/(hudson)
+/You have to have some sort of premise about choice or self-awareness.
+
+
+No, you do not.  I demonstrated to you the example of the football
+team which doesn't require premises about freedom of choice or 
+sentience/self-awareness.  
+
+As I said, you are wrong, and you don't seem to know much about moral 
+systems.  If I were you, I would take David Bold's suggestion and do some 
+reading on the subject before you try preaching about it.
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question popular moral      hudson peopl hurt
+bodi can't hurt peopl bodi    peopl might want
+hurt hudson hurt violat choic  hudson someon els
+big deal moral relat   don't believ ever said
+moral relat  said make mind thank don't right tell
+other think  think find moral system respect human
+life digniti person stuff besid point form core
+disagr primit moral absolutist like rest    hudson
+mayb insan lover pain might reason peopl experienc
+enough pain might learn enjoy  fine still clinic
+definit crazi also involv violat free insan lover
+littl exampl inflict pain non will  tri     hudson
+premis deriv   don't patent fals statement  hudson
+sort premis choic self awar   demonstr exampl
+footbal team doesn't requir premis freedom choic
+sentienc self awar  said wrong don't seem know
+much moral system take david bold suggest read tri
+preach
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hudson, 4423, 0.49479319699
+moral, 5855, 0.352484866669
+hurt, 4451, 0.265040376542
+premis, 6827, 0.245271251996
+pain, 6389, 0.217003018371
+insan, 4668, 0.189681837343
+choic, 1717, 0.181593698542
+lover, 5367, 0.166428971811
+violat, 9526, 0.15430535656
+peopl, 6530, 0.142203154353
+awar, 831, 0.138686881744
+said, 7583, 0.13085620737
+self, 7776, 0.121614196034
+don, 2811, 0.118883601985
+bodi, 1194, 0.113523405107
+inflict, 4633, 0.10217362678
+absolutist, 194, 0.10217362678
+relat, 7247, 0.100177574066
+exampl, 3258, 0.095053316742
+digniti, 2643, 0.0948409186714
+bold, 1205, 0.0857585338261
+disagr, 2675, 0.0848545125331
+patent, 6460, 0.0840088570896
+experienc, 3296, 0.0832144859057
+preach, 6803, 0.0824655328317
+tri, 9087, 0.0758957683687
+primit, 6866, 0.0753424789807
+footbal, 3589, 0.0745232677674
+crazi, 2216, 0.0745232677674
+fals, 3372, 0.0737522741305
+freedom, 3672, 0.0696136176927
+deriv, 2550, 0.0688192465088
+core, 2140, 0.0683152185392
+demonstr, 2520, 0.0632519546116
+popular, 6746, 0.0630850337355
+enjoy, 3114, 0.0627574388831
+besid, 1051, 0.0622809095838
+think, 8871, 0.0600200961829
+respect, 7321, 0.0593570347335
+statement, 8343, 0.0591097988784
+fine, 3485, 0.0581650213734
+definit, 2484, 0.0566597322992
+rest, 7324, 0.0559673313698
+learn, 5182, 0.0556814339573
+involv, 4750, 0.0549482014749
+free, 3668, 0.053355450106
+deal, 2418, 0.0529666052049
+david, 2397, 0.0528902020055
+form, 3610, 0.052514728992
+non, 6097, 0.0519354916296
+mind, 5733, 0.0510456435252
+human, 4432, 0.0505904027953
+sort, 8144, 0.0504000394726
+stuff, 8472, 0.0502124022102
+suggest, 8525, 0.0499663271552
+requir, 7302, 0.0487451986983
+life, 5260, 0.0482547963309
+wrong, 9869, 0.0480953244448
+mayb, 5564, 0.0458658166296
+els, 3053, 0.0452988714567
+big, 1082, 0.0446331734336
+littl, 5308, 0.0440383763915
+person, 6562, 0.0436563344143
+team, 8732, 0.0435065829378
+tell, 8767, 0.0428177407397
+someon, 8124, 0.0428177407397
+doesn, 2793, 0.0425036697673
+reason, 7156, 0.0422644929022
+believ, 1009, 0.040464127083
+read, 7135, 0.0398868041207
+right, 7399, 0.0398585950429
+question, 7032, 0.039662813853
+point, 6710, 0.03698554034
+thank, 8832, 0.0366945967893
+want, 9634, 0.0356935476363
+make, 5459, 0.0328643399376
+know, 5052, 0.0282238770341
+like, 5272, 0.0275900969825

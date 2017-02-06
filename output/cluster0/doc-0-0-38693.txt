@@ -1,0 +1,51 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38693
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: patrick@Erc.MsState.Edu (Patrick Bridges)
+Subject: Re: Diamond Stelth 24- any good?
+In-Reply-To: hintmatt@cwis.isu.edu's message of 23 Apr 1993 07:24:32 -0600
+Nntp-Posting-Host: andy.erc.msstate.edu
+Organization: /merlin-home2/patrick/.organization
+Lines: 7
+
+The real problem w/ the Stealth from what I've heard is that Diamond won't
+tell anyone how to program their proprietary clock stuff, so X under Linux
+and 386BSD won't run....
+
+
+					Patrick Bridges
+					patrick@erc.msstate.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ diamond stelth good      real problem stealth i'v
+heard diamond won't tell anyon program proprietari
+clock stuff linux 386bsd won't run   patrick bridg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+diamond, 2614, 0.475512123944
+won, 9820, 0.337596542152
+stelth, 8373, 0.308686570566
+stealth, 8363, 0.292635394708
+bridg, 1307, 0.286533020864
+patrick, 6466, 0.259093354496
+linux, 5290, 0.259093354496
+proprietari, 6935, 0.247004189577
+clock, 1827, 0.233093376625
+stuff, 8472, 0.151701517569
+heard, 4224, 0.150409517145
+real, 7144, 0.135712929979
+tell, 8767, 0.129360794608
+problem, 6887, 0.124544280965
+program, 6905, 0.122879158708
+run, 7543, 0.119246356075
+anyon, 554, 0.10637761314
+good, 3948, 0.101761395392

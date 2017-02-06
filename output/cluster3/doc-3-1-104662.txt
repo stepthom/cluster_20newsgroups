@@ -1,0 +1,191 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104662
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: vigil@esca.com (Sandra Vigil)
+Subject: Re: Hispanic All-Star team
+Organization: ESCA Corporation, Bellevue WA
+Lines: 49
+
+icop@csa.bu.edu (Antonio Pera) writes:
+
+
+> Hispanic magazine(April 1993) had a couple of interesting articles about
+>Hispanic players including its Hispanic All-Star team. 
+>Some of the major points are:
+
+	NPR's Morning Edition aired a report this morning (4/19) on
+	Hispanic/Latin American players in MLB and how they have many of
+	the same problems faced by black/negro/African American players
+	when they first entered the league.  However, although baseball
+	has adjusted to the presence of black players, many Hispanic
+	players still labor under the stereotype of being "fireballs,
+	hot blooded, flashy".  The report also emphasised that despite
+	the rantings (my word) of Jessie Jackson about baseballs
+	discrimination against black players in its upper echelons,
+	baseball has actually done much better by black players than
+	Hispanic players.
+
+	Another interesting point was the language barrier problem.  The
+	reporter elaborated on an interview with Ruben Sierra which he
+	gave in Spanish to a Spanish speaking newspaper reporter with
+	the fact that there are maybe 2 major baseball writers that
+	speak Spanish, despite the fact that Spanish is one of (if not
+	the) easiest languages to learn, so easy that the author Cormac
+	McCarthy learned Spanish at age 50 in order to research his
+	book, _All The Pretty Horses_.  Yet, few MLB organizations
+	employ Spanish speaking personel, one of the exceptions being
+	the Oakland A's.
+
+	Another point:
+
+	Nearly 90% of Latin American players have some African blood.
+	Yet, most report that they'd never really felt black until
+	playing ball in the US.
+
+  
+	Ironically enough, it is the early presence of Latin American
+	baseball players in the Major Leagues that support the idea that
+	baseball was integrated before the arrival of Jackie Robinson,
+	as many "light black" or "brown", Latin Americans were
+	incorporated into baseball. 
+
+	/S
+-- 
+"I did not know the cure for the disease      ------------------- 
+ of images, but I believed in the healing     |  Sandra Vigil   | 
+ power of words and stories."                 |  vigil@esca.com |    
+             - Until the End of the World     ------------------- 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hispan star team       hispan magazin april coupl
+interest articl hispan player includ hispan star
+team major point  npr morn edit air report morn
+hispan latin american player mlb mani problem face
+black negro african american player first enter
+leagu howev although basebal adjust presenc black
+player mani hispan player still labor stereotyp
+firebal hot blood flashi report also emphasis
+despit rant word jessi jackson basebal discrimin
+black player upper echelon basebal actual done
+much better black player hispan player  anoth
+interest point languag barrier problem report
+elabor interview ruben sierra gave spanish spanish
+speak newspap report fact mayb major basebal
+writer speak spanish despit fact spanish one
+easiest languag learn easi author cormac mccarthi
+learn spanish age order research book pretti hors
+yet mlb organ employ spanish speak personel one
+except oakland a  anoth point  near latin american
+player african blood yet report they'd never
+realli felt black play ball   iron enough earli
+presenc latin american basebal player major leagu
+support idea basebal integr arriv jacki robinson
+mani light black brown latin american incorpor
+basebal    know cure diseas imag believ heal
+sandra vigil  end world
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hispan, 4311, 0.470873859695
+spanish, 8182, 0.381468195624
+player, 6683, 0.313999884926
+latin, 5143, 0.243840704042
+black, 1133, 0.238694133166
+basebal, 924, 0.214653742722
+american, 469, 0.202369070022
+report, 7291, 0.181084203855
+african, 320, 0.127156065208
+speak, 8192, 0.120249610793
+presenc, 6836, 0.106499827053
+major, 5458, 0.100203462293
+blood, 1169, 0.0995590707948
+mlb, 5795, 0.0991205037771
+despit, 2570, 0.0974648492042
+morn, 5864, 0.0970734437846
+languag, 5113, 0.0878542065097
+star, 8324, 0.0786978972075
+mani, 5479, 0.0774367787856
+learn, 5182, 0.0773390834746
+point, 6710, 0.0770569538645
+leagu, 5176, 0.0730437828225
+stereotyp, 8384, 0.0709573558803
+mccarthi, 5569, 0.0709573558803
+firebal, 3496, 0.0709573558803
+npr, 6135, 0.0689267885525
+barrier, 919, 0.0672676942421
+sierra, 7939, 0.06586494999
+flashi, 3525, 0.06586494999
+jacki, 4811, 0.0646498376486
+cure, 2295, 0.0646498376486
+labor, 5088, 0.063578032604
+easiest, 2961, 0.063578032604
+diseas, 2709, 0.063578032604
+fact, 3350, 0.0624499729186
+rant, 7097, 0.0617519643379
+heal, 4220, 0.0617519643379
+team, 8732, 0.0604287463592
+anoth, 533, 0.0586565706017
+discrimin, 2705, 0.0577906459512
+problem, 6887, 0.0572576439012
+elabor, 3024, 0.0563117520892
+robinson, 7441, 0.0554444461062
+incorpor, 4587, 0.0554444461062
+hors, 4382, 0.0535808527342
+newspap, 6035, 0.0529305886478
+interview, 4726, 0.0529305886478
+jackson, 4812, 0.0520348011853
+felt, 3439, 0.0520348011853
+upper, 9340, 0.0514831277195
+brown, 1344, 0.0509629961407
+oakland, 6167, 0.0502346214865
+iron, 4767, 0.0497795353974
+arriv, 655, 0.0497795353974
+employ, 3077, 0.0493461284735
+writer, 9866, 0.047443429647
+integr, 4694, 0.0472733345026
+adjust, 269, 0.0471063605468
+magazin, 5432, 0.046942395295
+hot, 4389, 0.046016190561
+enter, 3125, 0.0441634756425
+edit, 2996, 0.0433617149028
+gave, 3798, 0.0428294096429
+air, 357, 0.0428294096429
+age, 328, 0.0407164903931
+easi, 2959, 0.0401599958278
+face, 3345, 0.0391397480048
+organ, 6287, 0.0380986337996
+coupl, 2187, 0.0378559574108
+april, 595, 0.0377962862116
+earli, 2951, 0.0377370037526
+author, 796, 0.0373325004801
+near, 5982, 0.0368375239284
+light, 5267, 0.036216840771
+ball, 877, 0.0355890176954
+research, 7307, 0.0350017284297
+pretti, 6851, 0.0333645350331
+word, 9829, 0.0325940899143
+book, 1218, 0.0325940899143
+order, 6281, 0.0321677138039
+mayb, 5564, 0.0318528095349
+howev, 4406, 0.0313705867699
+end, 3091, 0.0313705867699
+support, 8576, 0.0313412797388
+includ, 4579, 0.0313120667915
+idea, 4482, 0.0311101606421
+imag, 4512, 0.0305032807869
+world, 9841, 0.0304766341346
+play, 6681, 0.030009874118
+articl, 665, 0.0293282853009
+actual, 254, 0.0292581964413
+believ, 1009, 0.0281014539298
+better, 1060, 0.0272229756615
+realli, 7150, 0.0270023630319
+know, 5052, 0.0196008671723

@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104863
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gspira@nyx.cs.du.edu (Greg Spira)
+Subject: Re: USA McWeekly Stats
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 18
+
+<RVESTERM@vma.cc.nd.edu> writes:
+
+>In article <franjion.734996049@spot.Colorado.EDU>, franjion@spot.Colorado.EDU
+>(John Franjione) says:
+>>
+>>Also, I have the impression from reading this group and Bill James
+>>that Elias is a bunch of money-grubbing jerks whose mission is to
+>>charge as much as they can for baseball statistical info
+>>
+
+>and bill james is not? yeah.  sure.  do you own "the bill james players
+>rating book"?
+
+Uh, Bill James doesn't sell statistics.  He sells books with statistics,
+but he is not in the business of providing stats like Elias, STATS,
+Howe, Baseball workshop etc. are.
+
+Greg 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ usa mcweek stat      spot colorado edu john
+franjion say  also impress read group bill jame
+elia bunch money grub jerk whose mission charg
+much basebal statist info   bill jame yeah sure
+bill jame player rate book  bill jame doesn't sell
+statist sell book statist busi provid stat like
+elia stat howe basebal workshop etc  greg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jame, 4820, 0.461526230273
+statist, 8348, 0.351405072649
+stat, 8341, 0.317453342653
+elia, 3042, 0.308579607391
+sell, 7778, 0.222150768518
+grub, 4069, 0.172312949405
+mcweek, 5589, 0.168719679232
+book, 1218, 0.166986064547
+franjion, 3654, 0.162861510846
+jerk, 4853, 0.160405545041
+basebal, 924, 0.157102029547
+howe, 4404, 0.154289803696
+workshop, 9839, 0.138132462759
+bunch, 1399, 0.122427759648
+greg, 4033, 0.121975121822
+colorado, 1908, 0.116773619835
+yeah, 9942, 0.116417733294
+spot, 8261, 0.113750814777
+impress, 4554, 0.112226735098
+usa, 9357, 0.11193352223
+charg, 1664, 0.110796217861
+busi, 1424, 0.107442027893
+rate, 7108, 0.101160508653
+money, 5835, 0.0939552468244
+mission, 5772, 0.0921413230342
+info, 4636, 0.0917703319305
+john, 4878, 0.0881420352807
+provid, 6949, 0.0862278190359
+edu, 3001, 0.0826483704554
+group, 4064, 0.081123240747
+player, 6683, 0.0804342216484
+doesn, 2793, 0.0756129909934
+sure, 8585, 0.0750673456875
+read, 7135, 0.0709576508863
+say, 7653, 0.0591812308754
+like, 5272, 0.0490821090523

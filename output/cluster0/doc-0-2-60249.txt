@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60249
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dpage@ra.csc.ti.com (Doug Page)
+Subject: Re: Sr-71 in propoganda films?
+Nntp-Posting-Host: ra
+Organization: Texas Instruments
+Distribution: sci
+Lines: 28
+
+In article <1993Apr5.220610.1532@sequent.com>, bigfoot@sequent.com (Gregory Smith) writes:
+|> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+|> 
+|> >In <1phv98$jbk@access.digex.net> prb@access.digex.com (Pat) writes:
+|> 
+|> 
+|> >>THe SR-71 stopped being a real secret by the mid 70's.
+|> >>I had a friend in high school who had a poster with it's picture.
+|> 
+|> >It was known well before that.  I built a model of it sometime in the
+|> >mid 60's, billed as YF-12A/SR-71.  The model was based on YF-12A specs
+|> >and had a big radar in the nose and 8 AAMs in closed bays on the
+|> >underside of the fuselage.  The description, even then, read "speeds
+|> >in excess of Mach 3 at altitudes exceeding 80,000 feet."
+|> 
+|> L.B.J. publically announced the existance of the Blackbird program
+|> in 1964.
+
+
+He's also the one who dubbed it the SR-71 - it was the RS-71 until LBJ
+mippselled (sic) it.
+
+FWIW,
+
+Doug Page
+
+***  The opinions are mine (maybe), and don't necessarily represent those  ***
+***  of my employer.                                                       ***
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ propoganda film            stop real secret mid
+friend high school poster it pictur  known well
+built model sometim mid bill 12a model base 12a
+spec big radar nose aam close bay undersid fuselag
+descript even read speed excess mach altitud
+exceed feet  public announc exist blackbird
+program    he also one dub lbj mippsel sic  fwiw
+doug page  opinion mine mayb don't necessarili
+repres employ
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mid, 5698, 0.301436400856
+model, 5807, 0.23507747595
+fwiw, 3740, 0.218557820342
+dub, 2903, 0.218557820342
+fuselag, 3734, 0.207193185972
+sic, 7932, 0.192875439945
+mach, 5414, 0.187765215195
+excess, 3263, 0.178002653264
+nose, 6115, 0.172079947362
+exceed, 3260, 0.170776054726
+radar, 7055, 0.168337244418
+secret, 7755, 0.159411420357
+spec, 8196, 0.157762201335
+bay, 956, 0.155457179524
+film, 3479, 0.153327398113
+employ, 3077, 0.151992448812
+poster, 6769, 0.150718200428
+altitud, 452, 0.150718200428
+doug, 2833, 0.149499372006
+feet, 3430, 0.146131890691
+necessarili, 5991, 0.140411376015
+repres, 7294, 0.133899427336
+page, 6382, 0.13355968212
+school, 7685, 0.131920113172
+descript, 2557, 0.131920113172
+announc, 524, 0.128618815209
+friend, 3692, 0.125412048996
+sometim, 8128, 0.123226893243
+built, 1381, 0.122763599437
+stop, 8413, 0.118508683794
+pictur, 6622, 0.118311990796
+speed, 8217, 0.113963370674
+known, 5054, 0.112018407673
+public, 6973, 0.107675413908
+close, 1830, 0.106237732775
+opinion, 6266, 0.104991810453
+exist, 3283, 0.100497624503
+mayb, 5564, 0.0981107671976
+real, 7144, 0.0960881521798
+big, 1082, 0.0954740416681
+high, 4292, 0.0947882915712
+base, 923, 0.0877160786466
+program, 6905, 0.0870015208097
+read, 7135, 0.0853211659773
+don, 2811, 0.0635754591058

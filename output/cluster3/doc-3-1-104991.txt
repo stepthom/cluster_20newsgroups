@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104991
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dudgeon@hardy.u.washington.edu (Doug Dudgeon)
+Subject: Re: bosio's no-hitter
+Organization: University of Washington
+Lines: 19
+Reply-To: dudgeon@opus.cheme.washington.edu
+NNTP-Posting-Host: hardy.u.washington.edu
+
+pb6755@csc.albany.edu (BROWN PHILIP H) writes:
+
+>I watched the final inning of Bosio's no-hitter with several people at
+>work. After Vizquel made that barehanded grab of the chopper up the
+>middle, someone remarked that if he had fielded it with his glove, he
+>wouldn't have had time to throw Riles out. Yet, the throw beat Riles
+>by about two steps. I wonder how many others who watched the final out
+>think Vizquel had no choice but to make the play with his bare hand.
+
+In this morning's paper (or was it on the radio?), Vizquel was quoted as
+saying that he could have fielded the ball with his glove and still
+easily thrown out Riles, that he barehanded it instead so as to make the
+final play more memorable.  Seems a litle cocky to me, but he made it
+work so he's entitled.
+-- 
+Doug Dudgeon                             Dept. of Chemical Engineering, BF-10
+dudgeon@opus.cheme.washington.edu        University of Washington, Seattle
+
+<This space available>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosio hitter        watch final inning bosio
+hitter sever peopl work vizquel made barehand grab
+chopper middl someon remark field glove wouldn't
+time throw rile yet throw beat rile two step
+wonder mani other watch final think vizquel choic
+make play bare hand  morn paper radio vizquel quot
+say could field ball glove still easili thrown
+rile barehand instead make final play memor seem
+litl cocki made work he entitl  doug dudgeon dept
+chemic engin   space avail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rile, 7405, 0.416533374686
+vizquel, 9554, 0.396007527388
+barehand, 911, 0.290597734166
+bosio, 1237, 0.251096200551
+final, 3482, 0.225959033107
+glove, 3911, 0.218199968612
+throw, 8899, 0.172009336026
+hitter, 4322, 0.163309136955
+watch, 9655, 0.159100518318
+chopper, 1722, 0.149579338268
+field, 3466, 0.144384310862
+memor, 5627, 0.138844458229
+play, 6681, 0.126522671438
+bare, 910, 0.124224638331
+grab, 3973, 0.114425679991
+thrown, 8900, 0.112949367918
+entitl, 3132, 0.112251742322
+remark, 7266, 0.111578599933
+work, 9833, 0.108691238718
+chemic, 1690, 0.106905297484
+morn, 5864, 0.102316252519
+doug, 2833, 0.102316252519
+dept, 2544, 0.0993010259665
+make, 5459, 0.0962249530604
+middl, 5699, 0.0960964960059
+beat, 974, 0.0941345228101
+easili, 2962, 0.0907261376931
+step, 8377, 0.0886160356557
+choic, 1717, 0.0886160356557
+inning, 4657, 0.088417250564
+radio, 7061, 0.0856590264155
+paper, 6409, 0.0854885133845
+quot, 7045, 0.0823624934503
+instead, 4682, 0.0823624934503
+wouldn, 9854, 0.0801834054011
+ball, 877, 0.0750222672538
+engin, 3109, 0.0748265248443
+sever, 7823, 0.0708009104137
+wonder, 9821, 0.069651908941
+hand, 4145, 0.0695777015383
+avail, 811, 0.0666312757962
+someon, 8124, 0.0626839775369
+space, 8164, 0.0544126914193
+mani, 5479, 0.0544126914193
+peopl, 6530, 0.0520453623846
+say, 7653, 0.0487020007128
+time, 8936, 0.0455782315738
+think, 8871, 0.0439338729215

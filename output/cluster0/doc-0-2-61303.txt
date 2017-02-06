@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61303
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: U of Toronto Zoology
+Lines: 12
+
+In article <1993Apr27.094238.7682@samba.oit.unc.edu> Bruce.Scott@launchpad.unc.edu (Bruce Scott) writes:
+>If re-boosting the HST by carrying it with a shuttle would not damage it,
+>then why couldn't HST be brought back to earth and the repair job done
+>here?
+
+The forces and accelerations involved in doing a little bit of orbital
+maneuvering with HST aboard are much smaller than those involved in
+reentry, landing, and re-launch.  The OMS engines aren't very powerful;
+they don't have to be.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission schedul day     boost hst
+carri shuttl damag couldn't hst brought back earth
+repair job done   forc acceler involv littl bit
+orbit maneuv hst aboard much smaller involv
+reentri land launch om engin aren't power don't
+svr4 resembl high speed collis henri spencer
+toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hst, 4416, 0.564904631714
+involv, 4750, 0.2304011544
+aboard, 182, 0.186420357248
+reentri, 7211, 0.179795376944
+om, 6228, 0.1761271264
+maneuv, 5476, 0.169997133764
+repair, 7285, 0.158858572455
+svr4, 8616, 0.153097324581
+collis, 1903, 0.151651144771
+damag, 2344, 0.148968911313
+acceler, 207, 0.147720011147
+boost, 1224, 0.147116227011
+resembl, 7308, 0.146525428492
+smaller, 8055, 0.144281645394
+zoolog, 9993, 0.138044133747
+brought, 1343, 0.135192724521
+spencer, 8221, 0.132609648445
+schedul, 7678, 0.124972136481
+henri, 4258, 0.124972136481
+couldn, 2176, 0.124972136481
+aren, 623, 0.119874808208
+land, 5104, 0.116936169375
+job, 4873, 0.116936169375
+carri, 1530, 0.116151228195
+toronto, 9003, 0.114645587166
+forc, 3594, 0.113744815572
+servic, 7813, 0.113044877777
+speed, 8217, 0.111696333545
+shuttl, 7929, 0.110568330471
+mission, 5772, 0.108588948572
+launch, 5147, 0.108007528513
+engin, 3109, 0.107157839985
+power, 6783, 0.101963968268
+orbit, 6280, 0.0994297691629
+earth, 2956, 0.0956958140377
+high, 4292, 0.092902698199
+bit, 1122, 0.0926548372184
+littl, 5308, 0.0923277967807
+day, 2402, 0.0814614980805
+don, 2811, 0.0623107726943

@@ -1,0 +1,151 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60168
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Blow up space station, easy way to do it.
+Article-I.D.: aurora.1993Apr5.184527.1
+Organization: University of Alaska Fairbanks
+Lines: 28
+Nntp-Posting-Host: acad3.alaska.edu
+
+This might a real wierd idea or maybe not..
+
+I have seen where people have blown up ballons then sprayed material into them
+that then drys and makes hard walls...
+
+Why not do the same thing for a space station..
+
+Fly up the docking rings and baloon materials and such, blow up the baloons,
+spin then around (I know a problem in micro gravity) let them dry/cure/harden?
+and cut a hole for the docking/attaching ring and bingo a space station..
+
+Of course the ballons would have to be foil covered or someother radiation
+protective covering/heat shield(?) and the material used to make the wals would
+have to meet the out gasing and other specs or atleast the paint/covering of
+the inner wall would have to be human safe.. Maybe a special congrete or maybe
+the same material as makes caplets but with some changes (saw where someone
+instea dof water put beer in the caplet mixture, got a mix that was just as
+strong as congret but easier to carry around and such..)
+
+Sorry for any spelling errors, I missed school today.. (grin)..
+
+Why musta  space station be so difficult?? why must we have girders? why be
+confined to earth based ideas, lets think new ideas, after all space is not
+earth, why be limited by earth based ideas??
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+going crazy in Nome Alaska, break up is here..
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ blow space station easi way articl aurora
+1993apr5     might real wierd idea mayb  seen
+peopl blown ballon spray materi drys make hard
+wall  thing space station  fli dock ring baloon
+materi blow baloon spin around know problem micro
+graviti let dri cure harden cut hole dock attach
+ring bingo space station  cours ballon foil cover
+someoth radiat protect cover heat shield materi
+use make wal meet gase spec atleast paint cover
+inner wall human safe mayb special congret mayb
+materi make caplet chang saw someon instea dof
+water put beer caplet mixtur got mix strong
+congret easier carri around  sorri spell error
+miss school today grin  musta space station
+difficult must girder confin earth base idea let
+think new idea space earth limit earth base idea
+go crazi nome alaska break
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+materi, 5543, 0.274244882693
+station, 8346, 0.262806403509
+ballon, 881, 0.251696767012
+space, 8164, 0.22075581133
+cover, 2194, 0.214749778053
+idea, 4482, 0.212852306954
+dock, 2784, 0.201594959607
+blow, 1172, 0.177050279435
+ring, 7406, 0.168094735592
+mayb, 5564, 0.163450071919
+earth, 2956, 0.162662616413
+wall, 9619, 0.157418864383
+nome, 6095, 0.117897381848
+grin, 4051, 0.117897381848
+foil, 3573, 0.117897381848
+make, 5459, 0.11711725902
+bingo, 1100, 0.115059546523
+atleast, 752, 0.115059546523
+spray, 8264, 0.110581774601
+gase, 3781, 0.110581774601
+cure, 2295, 0.110581774601
+1993apr5, 48, 0.108748481461
+mixtur, 5789, 0.105625041763
+confin, 2031, 0.104270709539
+wierd, 9754, 0.103024844665
+let, 5225, 0.0983113439005
+base, 923, 0.0974218547242
+inner, 4656, 0.0963197078816
+dri, 2869, 0.0963197078816
+alaska, 378, 0.0963197078816
+micro, 5684, 0.0955602888976
+blown, 1174, 0.0941443130232
+shield, 7882, 0.0928464781456
+beer, 990, 0.0928464781456
+spell, 8220, 0.0890041006344
+crazi, 2216, 0.0885251397177
+aurora, 787, 0.0885251397177
+spec, 8196, 0.0876092872399
+attach, 760, 0.0876092872399
+spin, 8235, 0.0867443424171
+heat, 4226, 0.0859249426205
+mix, 5788, 0.0847714519144
+paint, 6391, 0.0844051996843
+easier, 2960, 0.0844051996843
+radiat, 7058, 0.083020731921
+water, 9657, 0.0814471706988
+safe, 7577, 0.0808597424329
+graviti, 4010, 0.0792198058368
+meet, 5615, 0.0765996663902
+protect, 6940, 0.0759555054338
+difficult, 2635, 0.0757465761007
+hole, 4343, 0.0749378226805
+school, 7685, 0.0732585308128
+break, 1284, 0.0712688041791
+error, 3180, 0.0702156972065
+special, 8198, 0.0693664865286
+strong, 8456, 0.0689586465601
+easi, 2959, 0.0686925716772
+saw, 7650, 0.0685612206732
+cut, 2313, 0.0684309688536
+limit, 5278, 0.0680466282988
+fli, 3542, 0.0664828043316
+miss, 5770, 0.0658108294069
+carri, 1530, 0.0658108294069
+human, 4432, 0.060095626641
+sorri, 8142, 0.0600198843913
+today, 8964, 0.0594997643453
+hard, 4167, 0.058925874396
+seen, 7767, 0.0577723836899
+chang, 1650, 0.0559245641825
+real, 7144, 0.053360148714
+cours, 2190, 0.0532619464853
+got, 3960, 0.0510737881972
+someon, 8124, 0.0508625909052
+articl, 665, 0.0501652278262
+problem, 6887, 0.0489688149449
+new, 6023, 0.0453403404957
+thing, 8869, 0.0425221331697
+peopl, 6530, 0.0422302808389
+way, 9666, 0.0407161422673
+think, 8871, 0.035648513274
+use, 9363, 0.0343759565207
+know, 5052, 0.0335267458428

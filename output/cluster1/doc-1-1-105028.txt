@@ -1,0 +1,71 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105028
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wall@cc.swarthmore.edu (Matthew Wall)
+Subject: Rules on-line?
+Organization: Hi, I'm Matt, and I'm a...a...Boston Red Sox fan
+Lines: 17
+Nntp-Posting-Host: elvis.swarthmore.edu
+
+Well, I'm finally about to key in the official rules for the archives, but
+before I do, I will ask again...
+
+does anybody have the official MLB rules in electronic format?
+
+Just trying to save myself a ton of work...no, they don't scan well because
+of the ridiculous format they're printed in.
+
+thanks
+
+- Matt
+
+
+
+Matt Wall * wall@cc.swarthmore.edu * Hey, I gotta job here, OK?
+---------------------------------------------------------------
+April 6, 1993: Boston Red Sox seize first place.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rule line     well i'm final key offici rule
+archiv ask  anybodi offici mlb rule electron
+format  tri save ton work don't scan well ridicul
+format they'r print  thank  matt      april boston
+red sox seiz first place
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rule, 7537, 0.443238985146
+offici, 6207, 0.329340062313
+format, 3612, 0.283374475605
+seiz, 7772, 0.256245518897
+ridicul, 7396, 0.207167115817
+ton, 8980, 0.204724589864
+matt, 5552, 0.196355816204
+mlb, 5795, 0.192812603119
+scan, 7660, 0.185251528014
+electron, 3034, 0.174728055876
+archiv, 618, 0.174225883139
+boston, 1243, 0.170446020881
+print, 6871, 0.16956091017
+sox, 8162, 0.163546045186
+key, 4994, 0.162456648943
+april, 595, 0.147045264198
+anybodi, 552, 0.143945559379
+save, 7646, 0.142491876629
+red, 7194, 0.141687237802
+final, 3482, 0.139006843646
+ask, 689, 0.122621946835
+place, 6657, 0.121255761201
+line, 5285, 0.117347487969
+tri, 9087, 0.102529323947
+work, 9833, 0.100297999719
+thank, 8832, 0.0991431349118
+don, 2811, 0.0803012842604

@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61001
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Conference on Manned Lunar Exploration. May 7 Crystal City
+Organization: Evil Geniuses for a Better Tomorrow
+Distribution: na
+Lines: 19
+
+In article <C5rHoC.Fty@news.cso.uiuc.edu> jbh55289@uxa.cso.uiuc.edu (Josh Hopkins) writes:
+
+
+>I remeber reading the comment that General Dynamics was tied into this, in 
+>connection with their proposal for an early manned landing.  Sorry I don't 
+>rember where I heard this, but I'm fairly sure it was somewhere reputable. 
+>Anyone else know anything on this angle?
+
+If by that you mean anything on the GD approach, there was an article on
+it in a recent Avation Week. I don't remember the exact date but it was
+recent.
+
+ Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------56 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ confer man lunar explor crystal citi        remeb
+read comment general dynam tie connect propos
+earli man land sorri don't rember heard i'm fair
+sure somewher reput anyon els know anyth angl
+mean anyth approach articl recent avat week don't
+rememb exact date recent  allen    ladi astor sir
+husband poison coffe churchil madam wife drink day
+first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+recent, 7168, 0.220324273384
+rember, 7267, 0.204892783886
+man, 5471, 0.19146411534
+remeb, 7268, 0.19073400338
+anyth, 555, 0.190042630082
+madam, 5425, 0.176026344666
+astor, 719, 0.176026344666
+churchil, 1747, 0.174442059544
+ladi, 5093, 0.170169396743
+dcx, 2412, 0.168879980825
+crystal, 2267, 0.167647891595
+coffe, 1878, 0.167647891595
+poison, 6713, 0.166468247875
+husband, 4452, 0.165336766537
+reput, 7300, 0.164249668626
+sir, 7989, 0.163203603207
+drink, 2872, 0.152309467369
+angl, 511, 0.150957128737
+wife, 9755, 0.147839526555
+dynam, 2942, 0.144509433347
+tie, 8923, 0.143482743982
+confer, 2025, 0.142492730035
+allen, 426, 0.138852431783
+lunar, 5392, 0.133097199364
+connect, 2046, 0.132412783263
+approach, 589, 0.132076810133
+explor, 3307, 0.131092655493
+somewher, 8130, 0.129526281482
+don, 2811, 0.125739200755
+citi, 1775, 0.125036905741
+date, 2391, 0.121858743027
+flight, 3544, 0.120506404394
+land, 5104, 0.117984899247
+fair, 3363, 0.117388802213
+propos, 6933, 0.116422939896
+earli, 2951, 0.114944325675
+comment, 1936, 0.111243176808
+exact, 3253, 0.110011087578
+general, 3818, 0.107015546419
+sorri, 8142, 0.106880668081
+heard, 4224, 0.10531133707
+week, 9691, 0.102074961087
+rememb, 7269, 0.102074961087
+els, 3053, 0.0958221957779
+articl, 665, 0.0893319458859
+sure, 8585, 0.0892606010749
+mean, 5595, 0.085657598739
+read, 7135, 0.0843738713679
+day, 2402, 0.0821920770524
+anyon, 554, 0.0744817807196
+know, 5052, 0.0597028973084

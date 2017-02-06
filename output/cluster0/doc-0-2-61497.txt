@@ -1,0 +1,238 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61497
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bobo@thejester.cray.com (Bob Kierski)
+Subject: Re: Philosophy Quest.  How Boldly?
+Originator: bobo@thejester.cray.com
+Lines: 47
+Nntp-Posting-Host: thejester
+Organization: Cray Research, Inc.
+
+
+In article <C6Assy.Ao9@fs7.ece.cmu.edu>, loss@fs7.ECE.CMU.EDU (Doug Loss) writes:
+
+>    Analog SF magazine did an article on a similar subject quite a few
+> years ago.  The question was, if an alien spacecraft landed in
+> Washington, D.C., what was the proper organization to deal with it: The
+> State Department (alien ambassadors), the Defense Department (alien
+> invaders), the Immigration and Naturalization Service (illegal aliens),
+> the Department of the Interior (new non-human species), etc.  It was
+> very much a question of our perception of the aliens, not of anything
+> intrinsic in their nature.  The bibliography for the article cited a
+> philosophical paper (the name and author of which I sadly forget; I
+> believe the author was Italian) on what constitutes a legal and/or moral
+> person, i.e., a being entitled to the rights normally accorded to a
+> person.  The paper was quite interesting, as I recall.
+
+This is a whole different situation.  If aliens were able to get here prior
+to us being able to get there, one might conclude that they would be more advanced
+and therefore "more intelegent" that we are.  However if we get somewhere where there
+is life, chances are we wont be able to communicate with them.  So we will have
+no clue as to weather they are "intelegent" or not.
+
+>    I think you'd have to be very careful here if the answer is yes.  The
+> human track record on helping those poor underpriveleged cultures (does
+> underpriveleged mean not having enough priveleges?) is terrible.  The
+> usual result is the destruction or radical reorganization of the
+> culture.  This may not always be wrong, but that's the way to bet.
+
+That's a good point, I hadn't thought of it that way.  My question however was
+more along the lines of... Every year the US spends millions of tax dollars
+and giving tax breaks to individuals and companies who feed the poor of foreign
+countries while thousands of our own people sleep on the streets at night.
+Would we give to the economicly dissadvantaged on another planet if we hadn't resolved
+these issues on our own?
+
+
+But... Your comment brings up another good question.  Over the years we have decided
+that certain cultures need improvements.  The native americans is a good example.  Prior
+to our attempt to civilize them, the native american culture had very little crime, no
+homelessnes, no poverty.  Then the europeans came along and now they have those and
+more.  If we encounter life elsewhere, do we tell them they have to live in houses, farm
+the land and go to church on sunday?
+-- 
+Have a day,
+
+  @   @
+   ( )     bobo
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philosophi quest bold         analog magazin
+articl similar quit year ago question alien
+spacecraft land washington proper organ deal state
+depart alien ambassador defens depart alien invad
+immigr natur servic illeg alien depart interior
+new non human speci etc much question percept
+alien anyth intrins natur bibliographi articl cite
+philosoph paper name author sad forget believ
+author italian constitut legal moral person entitl
+right normal accord person paper quit interest
+recal  whole differ situat alien abl get prior abl
+get one might conclud advanc therefor inteleg
+howev get somewher life chanc wont abl communic
+clue weather inteleg  think you'd care answer yes
+human track record help poor underpriveleg cultur
+underpriveleg mean enough priveleg terribl usual
+result destruct radic reorgan cultur alway wrong
+that way bet  that good point hadn't thought way
+question howev along line everi year spend million
+tax dollar give tax break individu compani feed
+poor foreign countri thousand peopl sleep street
+night give econom dissadvantag anoth planet hadn't
+resolv issu   comment bring anoth good question
+year decid certain cultur need improv nativ
+american good exampl prior attempt civil nativ
+american cultur littl crime homelessn poverti
+european came along encount life elsewher tell
+live hous farm land church sunday  day   bobo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alien, 413, 0.465308283183
+cultur, 2291, 0.25549735512
+underpriveleg, 9245, 0.193649997946
+depart, 2535, 0.168684593927
+nativ, 5964, 0.147044000353
+question, 7032, 0.144996695082
+hadn, 4114, 0.142868106854
+prior, 6874, 0.133478406817
+abl, 180, 0.131435800173
+tax, 8718, 0.12774867756
+poor, 6741, 0.114128056441
+paper, 6409, 0.1067381209
+american, 469, 0.106527099756
+land, 5104, 0.101951184518
+natur, 5966, 0.101436094882
+author, 796, 0.0982591609077
+bobo, 1192, 0.093379899007
+human, 4432, 0.092472526475
+good, 3948, 0.0923506533543
+poverti, 6779, 0.0907076718694
+immigr, 4530, 0.0907076718694
+year, 9943, 0.0902891372067
+life, 5260, 0.0882033485544
+quit, 7043, 0.087719478665
+wont, 9823, 0.0866782915156
+invad, 4737, 0.0866782915156
+ambassador, 460, 0.0866782915156
+intrins, 4730, 0.0850792033546
+interior, 4713, 0.0836687076339
+howev, 4406, 0.0825674008852
+italian, 4796, 0.0812656013153
+quest, 7031, 0.0802236076681
+bibliographi, 1075, 0.0802236076681
+person, 6562, 0.0797979718855
+bold, 1205, 0.0783775958632
+sleep, 8025, 0.0775513805305
+articl, 665, 0.0771920623441
+anoth, 533, 0.0771920623441
+percept, 6535, 0.0753680119816
+speci, 8197, 0.0741062805647
+resolv, 7317, 0.0741062805647
+foreign, 3598, 0.0741062805647
+crime, 2229, 0.0729649056629
+terribl, 8804, 0.0724325792499
+radic, 7059, 0.0714340534271
+illeg, 4506, 0.0714340534271
+destruct, 2575, 0.0714340534271
+farm, 3390, 0.0700769002109
+entitl, 3132, 0.0700769002109
+econom, 2984, 0.0692506848782
+philosophi, 6596, 0.0688580145372
+elsewher, 3055, 0.0688580145372
+clue, 1844, 0.0688580145372
+constitut, 2070, 0.0677518096239
+analog, 487, 0.0677518096239
+weather, 9679, 0.0670673163293
+encount, 3088, 0.0670673163293
+civil, 1778, 0.066419841217
+philosoph, 6595, 0.0655098816798
+feed, 3427, 0.0655098816798
+european, 3222, 0.0652213045244
+conclud, 2008, 0.0641318835976
+sad, 7571, 0.06387433878
+way, 9666, 0.0626522220371
+cite, 1774, 0.061991982873
+magazin, 5432, 0.0617762045586
+dollar, 2802, 0.0617762045586
+street, 8440, 0.0611512607276
+proper, 6924, 0.0605573188849
+washington, 9651, 0.0603657088379
+sunday, 8541, 0.0601771163976
+church, 1746, 0.0601771163976
+legal, 5200, 0.0599914479893
+track, 9030, 0.0592762879111
+communic, 1950, 0.059103977421
+thousand, 8888, 0.0589341111338
+recal, 7166, 0.0587666206769
+bet, 1054, 0.0584385077562
+hous, 4396, 0.0581191455647
+countri, 2186, 0.0579626025192
+spend, 8222, 0.0560943935393
+somewher, 8130, 0.0559620676355
+million, 5724, 0.0553215207111
+improv, 4557, 0.0553215207111
+planet, 6664, 0.0548326621224
+normal, 6108, 0.0548326621224
+break, 1284, 0.0548326621224
+forget, 3604, 0.054595518285
+accord, 219, 0.0538006521128
+moral, 5855, 0.0536912872207
+therefor, 8855, 0.0534755089062
+spacecraft, 8166, 0.0533690604502
+attempt, 763, 0.0526492935735
+individu, 4604, 0.0523535903409
+chanc, 1649, 0.0520650131855
+decid, 2442, 0.0518764207453
+defens, 2476, 0.051783226715
+record, 7184, 0.0506334154815
+bring, 1316, 0.0506334154815
+usual, 9377, 0.0505493774352
+situat, 7995, 0.0505493774352
+organ, 6287, 0.0501378121039
+compani, 1958, 0.0498184499124
+similar, 7961, 0.0495843960949
+servic, 7813, 0.0492792745587
+issu, 4793, 0.0488356915342
+night, 6063, 0.0486199132197
+deal, 2418, 0.0484079541917
+came, 1472, 0.0482687041058
+comment, 1936, 0.0480628187059
+non, 6097, 0.0474655849663
+care, 1516, 0.0471462227748
+ago, 336, 0.0466523229852
+result, 7332, 0.0464722388029
+advanc, 285, 0.0452822164173
+alway, 457, 0.0452283944281
+answer, 535, 0.0441998336174
+wrong, 9869, 0.0439559275802
+live, 5310, 0.0439077368816
+yes, 9951, 0.0436225954951
+exampl, 3258, 0.0434362046124
+state, 8342, 0.0424598931212
+certain, 1619, 0.0423749610456
+thought, 8887, 0.0417967272987
+anyth, 555, 0.0410541335573
+everi, 3235, 0.041016296646
+littl, 5308, 0.0402481468991
+line, 5285, 0.0396942737364
+tell, 8767, 0.0391325671015
+mean, 5595, 0.0370085227437
+believ, 1009, 0.036981520765
+differ, 2633, 0.0368741176016
+right, 7399, 0.0364281047561
+day, 2402, 0.0355112377386
+help, 4249, 0.0351818354104
+new, 6023, 0.0348838681882
+point, 6710, 0.033802323853
+peopl, 6530, 0.0324910561816
+need, 5993, 0.0321980660946
+think, 8871, 0.0274271878985

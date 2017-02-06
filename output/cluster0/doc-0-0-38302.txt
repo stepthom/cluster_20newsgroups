@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38302
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: XGA-2 info?
+From: rleberle@sparc2.cstp.umkc.edu (Rainer Leberle)
+Distribution: World
+Organization: University of Missouri Kansas City
+NNTP-Posting-Host: sparc2.cstp.umkc.edu
+Lines: 13
+
+Hi,
+has anyone more info about the XGA-2 chipset?
+HW-funcs, TrueColor, Resolutions,...
+Any boards with XGA-2 out yet?
+
+thanks
+Rainer
+
+-- 
+Rainer Leberle	                           rleberle@sparc2.cstp.umkc.edu
+University of Kansas City, MO  
+
+>> New mail from clinton@whitehouse.dc.gov - (No Subject Specified)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+xga info        anyon info xga chipset func
+truecolor resolut board xga yet  thank rainer
+univers kansa citi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+xga, 9895, 0.804102975969
+info, 4636, 0.27065366631
+chipset, 1713, 0.260364060035
+truecolor, 9122, 0.244208305135
+kansa, 4951, 0.206444956596
+resolut, 7316, 0.167278405832
+board, 1186, 0.165059979283
+citi, 1775, 0.155064037185
+univers, 9282, 0.114229568652
+thank, 8832, 0.0962617438897
+anyon, 554, 0.092368293558

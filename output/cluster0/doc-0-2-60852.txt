@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60852
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: u1452@penelope.sdsc.edu (Jeff Bytof - SIO)
+Subject: End of the Space Age?
+Organization: San Diego Supercomputer Center @ UCSD
+Lines: 16
+Distribution: world
+NNTP-Posting-Host: penelope.sdsc.edu
+
+We are not at the end of the Space Age, but only at the end of Its
+beginning.
+
+That space exploration is no longer a driver for technical innovation,
+or a focus of American cultural attention is certainly debatable; however,
+technical developments in other quarters will always be examined for
+possible applications in the space area and we can look forward to
+many innovations that might enhance the capabilities and lower the
+cost of future space operations. 
+
+The Dream is Alive and Well.
+
+-Jeff Bytof
+member, technical staff
+Institute for Remote Exploration
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ end space age      end space age end begin  space
+explor longer driver technic innov focus american
+cultur attent certain debat howev technic develop
+quarter alway examin possibl applic space area
+look forward mani innov might enhanc capabl lower
+cost futur space oper  dream aliv well  jeff bytof
+member technic staff institut remot explor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+space, 8164, 0.363211148344
+technic, 8737, 0.341039672629
+innov, 4659, 0.31957819899
+end, 3091, 0.264854306216
+explor, 3307, 0.2422430782
+age, 328, 0.229173012579
+enhanc, 3113, 0.152760988459
+quarter, 7027, 0.149858730267
+examin, 3257, 0.14565105879
+debat, 2426, 0.144886547963
+remot, 7271, 0.14414420002
+focus, 3569, 0.14414420002
+dream, 2865, 0.142721099987
+cultur, 2291, 0.136594616448
+jeff, 4839, 0.136055455254
+attent, 766, 0.132107777998
+aliv, 417, 0.131654505797
+driver, 2876, 0.128688144414
+staff, 8301, 0.124287194957
+lower, 5371, 0.122655483235
+institut, 4683, 0.117776459312
+forward, 3621, 0.116254672411
+capabl, 1498, 0.114818265435
+longer, 5337, 0.114356825729
+american, 469, 0.113903553528
+begin, 994, 0.113679890876
+member, 5625, 0.113458164722
+applic, 585, 0.112166670361
+futur, 3737, 0.108099323677
+oper, 6261, 0.10721919545
+area, 622, 0.104126075565
+cost, 2169, 0.0973011888629
+alway, 457, 0.0967204562501
+develop, 2588, 0.0953781816644
+certain, 1619, 0.0906184183131
+howev, 4406, 0.0882847687386
+possibl, 6765, 0.0839622015555
+mani, 5479, 0.0726422296688
+look, 5341, 0.0639103721908

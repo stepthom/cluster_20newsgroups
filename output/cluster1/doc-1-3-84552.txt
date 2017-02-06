@@ -1,0 +1,232 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84552
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Lynn Anderson <dba+lynn@cs.cmu.edu>
+Subject: Revised Easy-to-Read BoM available!
+X-Sender: lma@rimu.mach.cs.cmu.edu (Unverified)
+Originator: mnr@GS80.SP.CS.CMU.EDU
+Nntp-Posting-Host: gs80.sp.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 51
+
+I am pleased to announce that a *revised version* of _The Easy-to-Read Book
+of Mormon_ (former title: _Mormon's Book_) by Lynn Matthews Anderson is now
+available through anonymous ftp (see information below). In addition to the
+change in title, the revised ETR BOM has been shortened by several pages
+(eliminating many extraneous "that's" and "of's"), and many (minor) errors
+have been corrected. This release includes a simplified Joseph Smith Story,
+testimonies of the three and eight witnesses, and a "Words-to-Know"
+glossary.
+
+As with the previous announcement, readers are reminded that this is a
+not-for-profit endeavor. This is a copyrighted work, but people are welcome
+to make *verbatim* copies for personal use. People can recuperate the
+actual costs of printing (paper, copy center charges), but may not charge
+anything for their time in making copies, or in any way realize a profit
+from the use of this book. See the permissions notice in the book itself
+for the precise terms.
+
+Negotiations are currently underway with a Mormon publisher vis-a-vis the
+printing and distribution of bound books. (Sorry, I'm out of the wire-bound
+"first editions.") I will make another announcement about the availability
+of printed copies once everything has been worked out.
+
+FTP information: connect via anonymous ftp to carnot.itc.cmu.edu, then "cd
+pub" (you won't see anything at all until you do).
+
+"The Easy-to-Read Book of Mormon" is currently available in postscript and
+RTF (rich text format). (ASCII, LaTeX, and other versions can be made
+available; contact dba@andrew.cmu.edu for details.) You should be able to
+print the postscript file on any postscript printer (such as an Apple
+Laserwriter); let dba know if you have any difficulties. (The postscript in
+the last release had problems on some printers; this time it should work
+better.) RTF is a standard document interchange format that can be read in
+by a number of word processors, including Microsoft Word for both the
+Macintosh and Windows. If you don't have a postscript printer, you may be
+able to use the RTF file to print out a copy of the book.
+
+-r--r--r--  1 dba                   1984742 Apr 27 13:12 etrbom.ps
+-r--r--r--  1 dba                   1209071 Apr 27 13:13 etrbom.rtf
+
+For more information about how this project came about, please refer to my
+article in the current issue of _Sunstone_, entitled "Delighting in
+Plainness: Issues Surrounding a Simple Modern English Book of Mormon."
+
+Send all inquiries and comments to:
+
+    Lynn Matthews Anderson
+    5806 Hampton Street
+    Pittsburgh, PA 15206
+
+    dba+lynn@cs.cmu.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ revis easi read bom avail       pleas announc
+revis version easi read book mormon former titl
+mormon book lynn matthew anderson avail anonym ftp
+see inform addit chang titl revis etr bom shorten
+sever page elimin mani extran that of mani minor
+error correct releas includ simplifi joseph smith
+stori testimoni three eight wit word know glossari
+previous announc reader remind profit endeavor
+copyright work peopl welcom make verbatim copi
+person use peopl recuper actual cost print paper
+copi center charg charg anyth time make copi way
+realiz profit use book see permiss notic book
+precis term  negoti current underway mormon
+publish vis vis print distribut bound book sorri
+i'm wire bound first edit make anoth announc avail
+print copi everyth work  ftp inform connect via
+anonym ftp carnot itc cmu edu pub won't see anyth
+easi read book mormon current avail postscript rtf
+rich text format ascii latex version made  print
+postscript file postscript printer appl laserwrit
+let dba know difficulti postscript last releas
+problem printer time work better rtf standard
+document interchang format read number word
+processor includ microsoft word macintosh window
+don't postscript printer abl use rtf file print
+copi book  dba etrbom dba etrbom rtf  inform
+project came pleas refer articl current issu
+sunston entitl delight plain issu surround simpl
+modern english book mormon  send inquiri comment
+lynn matthew anderson hampton street pittsburgh
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rtf, 7519, 0.302567734353
+book, 1218, 0.277967514892
+postscript, 6772, 0.275858078493
+mormon, 5863, 0.250207572092
+print, 6871, 0.232305252038
+copi, 2130, 0.21324152255
+revis, 7359, 0.181581023785
+printer, 6872, 0.173594423941
+bom, 1208, 0.156865240161
+lynn, 5406, 0.146954617952
+avail, 811, 0.134781142825
+announc, 524, 0.133543277423
+vis, 9538, 0.131657611179
+easi, 2959, 0.128434030537
+read, 7135, 0.118117173029
+ftp, 3709, 0.117637884439
+anderson, 501, 0.116521611011
+bound, 1250, 0.109201655996
+current, 2299, 0.105443713937
+word, 9829, 0.104237818084
+profit, 6903, 0.103073734628
+matthew, 5554, 0.100432609188
+anonym, 532, 0.0963161721656
+inform, 4637, 0.0956517739898
+titl, 8953, 0.0934071556938
+charg, 1664, 0.0922165254383
+releas, 7253, 0.0848175430855
+work, 9833, 0.0824473709668
+issu, 4793, 0.0791182294058
+format, 3612, 0.0776468808884
+verbatim, 9468, 0.0756419335883
+hampton, 4142, 0.0756419335883
+version, 9479, 0.0754832360598
+glossari, 3910, 0.0734773089761
+extran, 3328, 0.0734773089761
+make, 5459, 0.0729911122073
+underway, 9252, 0.0717086818889
+endeavor, 3093, 0.0717086818889
+latex, 5142, 0.0702133289936
+inquiri, 4664, 0.0689179953966
+delight, 2505, 0.0689179953966
+file, 3477, 0.067135288985
+includ, 4579, 0.0667585551173
+interchang, 4706, 0.0667533707844
+anyth, 555, 0.066511402927
+shorten, 7907, 0.0649847436972
+use, 9363, 0.0642724903392
+cmu, 1852, 0.0642082820248
+negoti, 5999, 0.0628201190851
+etr, 3212, 0.0605270079284
+simplifi, 7969, 0.0595561391026
+microsoft, 5693, 0.0586736589728
+testimoni, 8816, 0.0574843438331
+elimin, 3044, 0.0574843438331
+copyright, 2135, 0.0574843438331
+pleas, 6688, 0.0570730942504
+entitl, 3132, 0.0567654526102
+difficulti, 2636, 0.0567654526102
+ascii, 676, 0.0567654526102
+wire, 9793, 0.056425046024
+permiss, 6551, 0.056425046024
+mani, 5479, 0.0550327503566
+pittsburgh, 6648, 0.054600827998
+macintosh, 5418, 0.054600827998
+surround, 8595, 0.0543275538062
+joseph, 4893, 0.0543275538062
+plain, 6659, 0.0538030697367
+processor, 6891, 0.0535510921338
+appl, 583, 0.0535510921338
+peopl, 6530, 0.0526384444626
+rich, 7382, 0.0519497207811
+reader, 7137, 0.0519497207811
+english, 3111, 0.0519497207811
+welcom, 9701, 0.0511408697888
+remind, 7270, 0.0509487725752
+wit, 9802, 0.0502163045939
+street, 8440, 0.0495352817039
+modern, 5811, 0.0478768898063
+smith, 8064, 0.0474698122203
+precis, 6809, 0.047079131545
+pub, 6971, 0.0469523246114
+connect, 2046, 0.0463420232421
+page, 6382, 0.0462244388656
+edit, 2996, 0.0462244388656
+time, 8936, 0.0460976175681
+previous, 6855, 0.0454389910023
+distribut, 2753, 0.0454389910023
+publish, 6974, 0.0448129291221
+notic, 6120, 0.0448129291221
+minor, 5745, 0.0446129098238
+document, 2788, 0.0446129098238
+realiz, 7149, 0.0445144258075
+addit, 263, 0.0440364674497
+stori, 8418, 0.0438516886765
+error, 3180, 0.0437606026337
+text, 8822, 0.0434045776376
+paper, 6409, 0.043231348172
+everyth, 3242, 0.0417975084332
+know, 5052, 0.0417898179695
+won, 9820, 0.0413630809631
+simpl, 7965, 0.0413630809631
+window, 9774, 0.0403551933533
+term, 8795, 0.0398576180176
+standard, 8313, 0.0397371122159
+center, 1606, 0.0391560647658
+came, 1472, 0.0390998292908
+comment, 1936, 0.0389330528227
+sorri, 8142, 0.0374062555164
+correct, 2156, 0.0373592791908
+send, 7785, 0.0372660035463
+cost, 2169, 0.0368570187101
+project, 6909, 0.0360055432964
+sever, 7823, 0.0358038605166
+refer, 7213, 0.0357640222993
+abl, 180, 0.0354896438224
+chang, 1650, 0.0348539248063
+edu, 3001, 0.0343944301695
+person, 6562, 0.0323199797495
+number, 6156, 0.0315435180771
+articl, 665, 0.0312645275668
+anoth, 533, 0.0312645275668
+actual, 254, 0.0311898114674
+let, 5225, 0.0306353409991
+problem, 6887, 0.0305188859116
+better, 1060, 0.029020226184
+way, 9666, 0.0253755640608
+don, 2811, 0.0220031964447

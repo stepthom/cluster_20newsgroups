@@ -1,0 +1,169 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38539
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: andreasa@dhhalden.no (ANDREAS ARFF)
+Subject: Re: Newsgroup Split
+Lines: 41
+Nntp-Posting-Host: pc137
+Organization: Ostfold College
+
+In article <NERONE.93Apr20085951@sylvester.cc.utexas.edu> nerone@ccwf.cc.utexas.edu (Michael Nerone) writes:
+>From: nerone@ccwf.cc.utexas.edu (Michael Nerone)
+>Subject: Re: Newsgroup Split
+>Date: 20 Apr 93 08:59:51
+>In article <1quvdoINN3e7@srvr1.engin.umich.edu>, tdawson@engin.umich.edu (Chris Herringshaw) writes:
+>
+>  CH> Concerning the proposed newsgroup split, I personally am not in
+>  CH> favor of doing this.  I learn an awful lot about all aspects of
+>  CH> graphics by reading this group, from code to hardware to
+>  CH> algorithms.  I just think making 5 different groups out of this
+>  CH> is a wate, and will only result in a few posts a week per group.
+>  CH> I kind of like the convenience of having one big forum for
+>  CH> discussing all aspects of graphics.  Anyone else feel this way?
+>  CH> Just curious.
+>
+>I must agree.  There is a dizzying number of c.s.amiga.* newsgroups
+>already.  In addition, there are very few issues which fall cleanly
+>into one of these categories.
+>
+>Also, it is readily observable that the current spectrum of amiga
+>groups is already plagued with mega-crossposting; thus the group-split
+>would not, in all likelihood, bring about a more structured
+>environment.
+>
+>--
+>   /~~~~~~~~~~~~~~~~~~~\/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+>  /    Michael Nerone   \"I shall do so with my customary lack of tact; and\
+> /   Internet Address:   \since you have asked for this, you will be obliged\
+>/nerone@ccwf.cc.utexas.edu\to pardon it."-Sagredo, fictional char of Galileo.\
+
+
+Maybe I should point out that we are not talking about c.s.amiga.*.
+Only comp.graphics.
+
+Arff
+"Also for the not religous confessor, there is a mystery of higher values,
+who's birth mankind - to the last - builds upon. They are indisputible. And 
+often disregarded. Seldom you hear them beeing prized, as seldom as you hear 
+a seeing man prizeing what he sees." Per Lagerkvist, The Fist 
+(Free translation from Swedish)
+              --Andreas Arff  andreasa@dhhalden.no--
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ newsgroup split       newsgroup split date
+concern propos newsgroup split person favor learn
+aw lot aspect graphic read group code hardwar
+algorithm think make differ group wate result post
+week per group kind like conveni one big forum
+discuss aspect graphic anyon els feel way curious
+must agre dizzi number amiga newsgroup alreadi
+addit issu fall clean one categori  also readili
+observ current spectrum amiga group alreadi plagu
+mega crosspost thus group split likelihood bring
+structur environ    michael neron shall customari
+lack tact internet address sinc ask oblig    mayb
+point talk amiga comp graphic  arff also relig
+confessor mysteri higher valu who birth mankind
+last build upon indisput often disregard seldom
+hear bee prize seldom hear see man prize see per
+lagerkvist fist free translat swedish
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+split, 8247, 0.330789295993
+newsgroup, 6032, 0.282554517701
+group, 4064, 0.277981456475
+amiga, 472, 0.24897136275
+seldom, 7773, 0.226991366279
+prize, 6881, 0.178935640744
+aspect, 693, 0.158615608223
+graphic, 3997, 0.157785515315
+hear, 4223, 0.137910958663
+alreadi, 443, 0.12805060751
+fist, 3509, 0.124568813663
+confessor, 2028, 0.124568813663
+arff, 625, 0.124568813663
+plagu, 6658, 0.121004061849
+customari, 2312, 0.121004061849
+tact, 8669, 0.118091447541
+bee, 987, 0.118091447541
+relig, 7259, 0.113495683139
+dizzi, 2772, 0.113495683139
+swedish, 8627, 0.111614081419
+likelihood, 5273, 0.109930931325
+readili, 7140, 0.10840833686
+mega, 5617, 0.107018317017
+wate, 9656, 0.104555736709
+crosspost, 2243, 0.104555736709
+disregard, 2739, 0.103453565204
+birth, 1115, 0.102422552616
+oblig, 6175, 0.0973352063359
+spectrum, 8213, 0.0959451864938
+mankind, 5484, 0.0959451864938
+mysteri, 5942, 0.090857840214
+conveni, 2112, 0.090857840214
+forum, 3620, 0.0886040883753
+categori, 1560, 0.0852083873505
+favor, 3410, 0.0845426597541
+aw, 829, 0.0842199184643
+clean, 1799, 0.0826973239983
+translat, 9057, 0.0805278739411
+comp, 1955, 0.0790745860935
+shall, 7846, 0.0788447238473
+curious, 2297, 0.0775309578517
+internet, 4717, 0.0767115397545
+environ, 3139, 0.0743061156801
+lack, 5092, 0.0739662060378
+higher, 4293, 0.0733073435684
+fall, 3369, 0.0731467879406
+structur, 8460, 0.0728304379894
+michael, 5680, 0.0728304379894
+addit, 263, 0.0725202311455
+hardwar, 4173, 0.0713363451376
+date, 2391, 0.0702341736326
+algorithm, 407, 0.0694547434174
+concern, 2004, 0.0690788401801
+learn, 5182, 0.0678861110219
+bring, 1316, 0.067544991645
+propos, 6933, 0.0671012089277
+observ, 6179, 0.066457827328
+valu, 9414, 0.0653416486757
+issu, 4793, 0.0651468273528
+free, 3668, 0.06505030047
+build, 1378, 0.0644830757784
+code, 1871, 0.0634927494245
+feel, 3429, 0.0628092162639
+address, 264, 0.062073657417
+result, 7332, 0.0619939806907
+agre, 337, 0.0618358095918
+discuss, 2708, 0.0614471006219
+week, 9691, 0.0588316468928
+current, 2299, 0.057882348808
+kind, 5021, 0.0569863111371
+mayb, 5564, 0.0559190325848
+ask, 689, 0.0553322332088
+els, 3053, 0.0552278200888
+man, 5471, 0.0551758683341
+big, 1082, 0.0544162093473
+talk, 8684, 0.0540253604821
+person, 6562, 0.053225259377
+number, 6156, 0.051946565076
+lot, 5356, 0.0498451934408
+differ, 2633, 0.0491900840903
+sinc, 7977, 0.0486985022122
+read, 7135, 0.0486294949753
+post, 6766, 0.0466563448642
+point, 6710, 0.0450923102959
+anyon, 554, 0.0429281165192
+way, 9666, 0.041789041622
+make, 5459, 0.0400677940762
+think, 8871, 0.0365878769945
+like, 5272, 0.0336375027319

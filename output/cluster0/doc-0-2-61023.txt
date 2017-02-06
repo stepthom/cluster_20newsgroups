@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61023
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: n4hy@harder.ccr-p.ida.org (Bob McGwier)
+Subject: Re: NAVSTAR positions
+Organization: IDA Center for Communications Research
+Lines: 11
+Distribution: world
+NNTP-Posting-Host: harder.ccr-p.ida.org
+In-reply-to: Thomas.Enblom@eos.ericsson.se's message of 19 Apr 93 06:34:55 GMT
+
+
+You have missed something.  There is a big difference between being in
+the SAME PLANE and in exactly the same state (positions and velocities
+equal).  IN addition to this, there has always been redundancies proposed.
+
+Bob
+--
+------------------------------------------------------------------------------
+Robert W. McGwier                  | n4hy@ccr-p.ida.org
+Center for Communications Research | Interests: amateur radio, astronomy,golf
+Princeton, N.J. 08520              | Asst Scoutmaster Troop 5700, Hightstown
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ navstar posit        miss someth big differ plane
+exact state posit veloc equal addit alway redund
+propos  bob    center communic research interest
+amateur radio astronomi golf princeton asst
+scoutmast troop hightstown
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+posit, 6761, 0.291391116877
+asst, 708, 0.2893406595
+navstar, 5970, 0.274295438064
+golf, 3937, 0.274295438064
+troop, 9115, 0.263620683575
+redund, 7206, 0.259250216629
+princeton, 6868, 0.229620724799
+veloc, 9456, 0.217135558491
+amateur, 458, 0.203900748874
+communic, 1950, 0.183135599716
+plane, 6663, 0.180084066122
+astronomi, 729, 0.17864752227
+equal, 3156, 0.17637036113
+addit, 263, 0.168445463112
+radio, 7061, 0.165695606641
+bob, 1189, 0.163135551513
+miss, 5770, 0.156889287566
+propos, 6933, 0.15585849679
+center, 1606, 0.149777260645
+exact, 3253, 0.147274778969
+research, 7307, 0.142725487186
+alway, 457, 0.14014165373
+state, 8342, 0.131563362229
+big, 1082, 0.126394572101
+differ, 2633, 0.114255654791
+someth, 8126, 0.10922842589

@@ -1,0 +1,54 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38298
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rschmitt@shearson.com (Robert Schmitt)
+Subject: Re: Please Recommend 3D Graphics Library F
+Reply-To: rschmitt@shearson.com
+Organization: Lehman Brothers, Inc.
+Lines: 9
+
+What hardware do plan to run on?  Workstation or PC?  Cost level?
+Run-time licensing needs?
+
+Bob
+------------------------------------------------------------------
+Robert A. Schmitt | Applied Derivatives Technology | Lehman Brothers
+rschmitt@shearson.com
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleas recommend graphic librari     hardwar plan
+run workstat cost level run time licens need  bob
+robert schmitt appli deriv technolog lehman
+brother
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+run, 7543, 0.309795364435
+brother, 1341, 0.29736387768
+licens, 5254, 0.292462790171
+workstat, 9840, 0.271095948176
+deriv, 2550, 0.270077647618
+recommend, 7178, 0.260870540334
+robert, 7437, 0.231495059855
+hardwar, 4173, 0.229624944753
+librari, 5250, 0.22826568065
+appli, 584, 0.227820461438
+bob, 1189, 0.226077158972
+level, 5229, 0.21096343781
+plan, 6660, 0.210014072424
+technolog, 8743, 0.204377152358
+cost, 2169, 0.195377757074
+graphic, 3997, 0.169298881084
+pleas, 6688, 0.151271230476
+need, 5993, 0.138259163856
+time, 8936, 0.122180922957

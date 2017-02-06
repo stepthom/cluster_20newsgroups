@@ -1,0 +1,168 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84565
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bakerj@gtephx.UUCP (Jon Baker)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: AG Communication Systems, Phoenix, Arizona
+Lines: 37
+
+In article <1993Apr23.111105.7703@ifi.uio.no>, joakimr@ifi.uio.no (Joakim Ruud) writes:
+> In article <C5u5nv.JGs@ncratl.AtlantaGA.NCR.COM>, mwilson@ncratl.AtlantaGA.NCR.COM (Mark Wilson) writes:
+> > In <C5sqyA.F7v@noose.ecn.purdue.edu> tbrent@bank.ecn.purdue.edu (Timothy J Brent) writes:
+> > |Probably not.  But then, I don't pack heavy weaponry with intent to use it.
+> > Please cite your evidence that he was intending to use it.
+> Well, he would be pretty stupid not to, I mean what's the use of spending
+> thousands of $$ on something you won't use? (sorry if I'm stepping on the toes
+> of any members of some "rifle-association" here...). Rifles bought for
+> hunting, I can understand, rifles bought for killing people, or for "just
+> keeping" I cannot.
+> Just for the record, I am myself a collector of medieval armour & weaponry,
+> and I don't just have it hanging around, I use it... (obviously, only in
+> fencing practice with friends...)
+
+Well, let me see if I can explain it.  It's similar to collecting coins,
+or stamps, or campaign buttons, or coke bottles, or juke boxes, or model
+trains, or just about anything else that is collected (and just about
+everything is collected).  In all cases, you might consider it something
+of an aberration; I mean, what purpose does it serve?  Not much really;
+it's just a hobby.  The collector yearns for diversity (not much use in
+having TWO of the same thing, except for trading/selling it), historical
+significance (this was the thingy used by so-and-so), technical significance
+(this is the only one that does such-and-such like this; this is the first
+one to do it this way), rarity, and so on.
+
+Some people use their collections, other people do not.  As you state, you
+use your collection.  In one sense, this diminishes the value of your
+collection as the items suffer wear and exposure.  In another sense, it
+can enhance your own enjoyment of your collection.  Some people collect
+firearms that they do not use; other people use some or all of the firearms
+they collect.  It's just personal preference.
+
+Oops, 'personal preference' ... I guess we're not supposed to have that any
+more, are we?
+
+J.Baker.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen       probabl don't
+pack heavi weaponri intent use pleas cite evid
+intend use well pretti stupid mean what use spend
+thousand someth won't use sorri i'm step toe
+member rifl associ rifl bought hunt understand
+rifl bought kill peopl keep cannot record
+collector mediev armour weaponri don't hang around
+use obvious fenc practic friend  well let see
+explain it similar collect coin stamp campaign
+button coke bottl juke box model train anyth els
+collect everyth collect case might consid someth
+aberr mean purpos serv much realli it hobbi
+collector yearn divers much use two thing except
+trade sell histor signific thingi use technic
+signific one like first one way rariti  peopl use
+collect peopl state use collect one sens diminish
+valu collect item suffer wear exposur anoth sens
+enhanc enjoy collect peopl collect firearm use
+peopl use firearm collect it person prefer  oop
+person prefer guess we'r suppos   baker
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+collect, 1898, 0.552288369091
+use, 9363, 0.308831921039
+rifl, 7397, 0.281915282311
+firearm, 3495, 0.198252303629
+weaponri, 9675, 0.18794352154
+collector, 1899, 0.180629324248
+peopl, 6530, 0.172452176642
+bought, 1247, 0.150662510157
+prefer, 6819, 0.116160738716
+signific, 7951, 0.109548393857
+sens, 7788, 0.105936004919
+thingi, 8870, 0.0991261518146
+aberr, 174, 0.0962894857254
+stamp, 8308, 0.0939717607702
+toe, 8966, 0.0920121522423
+coke, 1885, 0.0920121522423
+fenc, 3443, 0.0903146621241
+coin, 1882, 0.0888173697257
+button, 1432, 0.0888173697257
+baker, 871, 0.0851602710797
+person, 6562, 0.0847084432489
+hobbi, 4332, 0.0841427447689
+bottl, 1246, 0.0841427447689
+divers, 2762, 0.0823236049905
+campaign, 1477, 0.0823236049905
+oop, 6254, 0.0815031724336
+hunt, 4443, 0.0800058800352
+exposur, 3313, 0.0793185617049
+mean, 5595, 0.0785717800712
+enhanc, 3113, 0.0758298402552
+pack, 6374, 0.0748514889908
+someth, 8126, 0.0748418390002
+hang, 4152, 0.0735121153
+wear, 9676, 0.0719210048191
+item, 4798, 0.068078321965
+heavi, 4230, 0.068078321965
+intent, 4702, 0.0665197653879
+histor, 4313, 0.0665197653879
+cite, 1774, 0.0658067396828
+suffer, 8521, 0.0642837917914
+trade, 9033, 0.0627410170816
+thousand, 8888, 0.0625606978529
+train, 9042, 0.0623829006542
+intend, 4700, 0.0623829006542
+stupid, 8476, 0.062207555909
+serv, 7810, 0.0620345968807
+presid, 6839, 0.0608856082559
+enjoy, 3114, 0.0608856082559
+sell, 7778, 0.0605755369698
+associ, 706, 0.0598319160815
+spend, 8222, 0.059546234565
+step, 8377, 0.0587258020082
+don, 2811, 0.0576688640209
+friend, 3692, 0.0568802058363
+technic, 8737, 0.0564301661853
+member, 5625, 0.0563201023594
+practic, 6793, 0.0556790105981
+everyth, 3242, 0.0547741969286
+purpos, 6993, 0.054677525037
+kill, 5012, 0.0543918435206
+won, 9820, 0.0542048946738
+record, 7184, 0.0537492081624
+obvious, 6185, 0.0537492081624
+evid, 3245, 0.0535714109637
+model, 5807, 0.0533092925541
+similar, 7961, 0.0526356360117
+messag, 5650, 0.0525538846529
+valu, 9414, 0.0519958888263
+box, 1254, 0.0519181375596
+suppos, 8577, 0.0516876969448
+explain, 3301, 0.051386800235
+guess, 4079, 0.0492688796677
+sorri, 8142, 0.0490196110443
+pretti, 6851, 0.0466096562348
+understand, 9246, 0.0455803538301
+state, 8342, 0.0450727175368
+happen, 4159, 0.0448041379873
+consid, 2059, 0.044584576528
+case, 1540, 0.0441986762983
+els, 3053, 0.0439477676437
+anyth, 555, 0.0435804527409
+probabl, 6885, 0.0415749514105
+anoth, 533, 0.0409710878475
+let, 5225, 0.0401465604951
+realli, 7150, 0.0377218162098
+pleas, 6688, 0.0373961633239
+thing, 8869, 0.0347287977958
+way, 9666, 0.0332538037587
+know, 5052, 0.0273820594202
+like, 5272, 0.0267671827677

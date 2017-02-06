@@ -1,0 +1,123 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61250
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tholen@newton.ifa.hawaii.edu (Dave Tholen)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+Organization: Institute for Astronomy, Hawaii
+Lines: 23
+
+Alan Carter writes:
+
+>> 3.  On April 19, a NO-OP command was sent to reset the command loss timer to
+>> 264 hours, its planned value during this mission phase.
+
+> This activity is regularly reported in Ron's interesting posts. Could
+> someone explain what the Command Loss Timer is?
+
+The name is rather descriptive.  It's a command to the spacecraft that tells
+it "If you don't hear from Earth after 264 hours, assume something is wrong
+with your (the spacecraft) attitude, and go into a preprogrammed search mode
+in an attempt to reacquire the signal from Earth."
+
+The spacecraft and Earth are not in constant communication with each other.
+Earth monitors the telemetry from the spacecraft, and if everything is fine,
+there's no reason to send it any new information.  But from the spacecraft's
+point of view, no information from Earth could mean either everything is
+fine, or that the spacecraft has lost signal acquisition.  Just how long
+should the spacecraft wait before it decides that something is wrong and
+begins to take corrective action?  That "how long" is the command loss timer.
+During relatively inactive cruise phases, the command loss timer can be set
+to rather long values.  In this case, Earth is telling Galileo "expect to
+hear back from us sometime within the next 264 hours".
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ command loss timer galileo updat      april
+command sent reset command loss timer hour plan
+valu mission phase  activ regular report ron
+interest post could someon explain command loss
+timer  name rather descript it command spacecraft
+tell don't hear earth hour assum someth wrong
+spacecraft attitud preprogram search mode attempt
+reacquir signal earth  spacecraft earth constant
+communic earth monitor telemetri spacecraft
+everyth fine there reason send new inform
+spacecraft point view inform earth could mean
+either everyth fine spacecraft lost signal
+acquisit long spacecraft wait decid someth wrong
+begin take correct action long command loss timer
+relat inact cruis phase command loss timer set
+rather long valu case earth tell galileo expect
+hear back sometim within next hour
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+timer, 8938, 0.408515008603
+spacecraft, 8166, 0.404984638204
+command, 1933, 0.398768632024
+loss, 5352, 0.312508537983
+earth, 2956, 0.271336714207
+hour, 4395, 0.175327401576
+galileo, 3755, 0.147668352233
+phase, 6583, 0.143330976183
+signal, 7947, 0.133937494559
+long, 5336, 0.122713304918
+fine, 3485, 0.115254377876
+hear, 4223, 0.112071143077
+everyth, 3242, 0.111872184993
+valu, 9414, 0.106197699278
+reacquir, 7130, 0.101228861537
+wrong, 9869, 0.0953012062358
+reset, 7310, 0.0907014048009
+telemetri, 8759, 0.0893336196966
+inform, 4637, 0.0853382044034
+acquisit, 245, 0.0849655534398
+tell, 8767, 0.0848436389168
+cruis, 2255, 0.078520833859
+someth, 8126, 0.0764294186617
+ron, 7472, 0.0679308133796
+attitud, 769, 0.0679308133796
+monitor, 5837, 0.0667389722279
+constant, 2067, 0.0662912743627
+communic, 1950, 0.0640719085187
+search, 7746, 0.0635271313213
+wait, 9611, 0.0625017075965
+descript, 2557, 0.0611010983243
+regular, 7234, 0.0602448351854
+mode, 5806, 0.0595720446679
+action, 251, 0.0590578407582
+sent, 7793, 0.0589324102994
+begin, 994, 0.0576271889379
+lost, 5355, 0.057403356643
+sometim, 8128, 0.0570746820877
+attempt, 763, 0.0570746820877
+updat, 9333, 0.0562368461364
+decid, 2442, 0.0562368461364
+activ, 252, 0.0554498202363
+april, 595, 0.0539207665799
+plan, 6660, 0.0530194490767
+explain, 3301, 0.0524768407794
+report, 7291, 0.0516675052819
+mission, 5772, 0.051315669344
+view, 9510, 0.0507054391817
+assum, 710, 0.0503784205931
+expect, 3290, 0.0503139939026
+correct, 2156, 0.0499965709619
+send, 7785, 0.0498717435435
+relat, 7247, 0.0496256328267
+set, 7815, 0.0464992328694
+case, 1540, 0.0451362390372
+someon, 8124, 0.0424218194584
+reason, 7156, 0.0418736873181
+mean, 5595, 0.0401192404828
+post, 6766, 0.0379145352293
+new, 6023, 0.03781600002
+point, 6710, 0.0366435474588
+don, 2811, 0.0294460813021

@@ -1,0 +1,418 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38873
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lee@hobbes.cs.umass.edu (Peter Lee)
+Subject: Re: QuickTime performance (was Re: Rumours about 3DO ???)
+	<1993Apr16.212441.34125@rchland.ibm.com>
+	<1993Apr26.170915.15833@waikato.ac.nz>
+Reply-To: lee@cs.umass.edu
+Organization: Software Development Lab, UMass, Amherst
+Lines: 108
+In-reply-to: ldo@waikato.ac.nz's message of 26 Apr 93 05:09:15 GMT
+
+In article <1993Apr26.170915.15833@waikato.ac.nz> ldo@waikato.ac.nz (Lawrence D'Oliveiro, Waikato University) writes:
+
+   Path: dime!ymir.cs.umass.edu!nic.umass.edu!noc.near.net!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!decwrl!waikato.ac.nz!ldo
+   From: ldo@waikato.ac.nz (Lawrence D'Oliveiro, Waikato University)
+   Newsgroups: comp.multimedia,comp.graphics
+   Date: 26 Apr 93 05:09:15 GMT
+   References: <1993Mar31.074502.3590@aragorn.unibe.ch>  <1993Apr16.212441.34125@rchland.ibm.com>
+   Organization: University of Waikato, Hamilton, New Zealand
+   Lines: 67
+   Xref: dime comp.multimedia:6358 comp.graphics:32606
+
+   OK, with all the discussion about observed playback speeds with QuickTime,
+   the effects of scaling and so on, I thought I'd do some more tests.
+
+   First of all, I felt that my original speed test was perhaps less than
+   realistic. The movie I had been using only had 18 frames in it (it was a
+   version of the very first movie I created with the Compact Video compressor).
+   I decided something a little longer would give closer to real-world results
+   (for better or for worse).
+
+   I pulled out a copy of "2001: A Space Odyssey" that I had recorded off TV
+   a while back. About fifteen minutes into the movie, there's a sequence where
+   the Earth shuttle is approaching the space station. Specifically, I digitized
+   a portion of about 30 seconds' duration, zooming in on the rotating space
+   station. I figured this would give a reasonable amount of movement between
+   frames. To increase the differences between frames, I digitized it at only
+   5 frames per second, to give a total of 171 frames.
+
+   I captured the raw footage at a resolution of 384*288 pixels with the Spigot
+   card in my Centris 650 (quarter-size resolution from a PAL source). I then
+   imported it into Premiere and put it through the Compact Video compressor,
+   keeping the 5 fps frame rate. I created two versions of the movie: one scaled
+   to 320*240 resolution, the other at 160*120 resolution. I used the default
+   "2.00" quality setting in Premiere 2.0.1, and specified a key frame every ten
+   frames.
+
+   I then ran the 320*240 movie through the same "Raw Speed Test" program I used
+   for the results I'd been reporting earlier.
+
+   Result: a playback rate of over 45 frames per second.
+
+   That's right, I was getting a much higher result than with that first short
+   test movie. Just for fun, I copied the 320*240 movie to my external hard
+   disk (a Quantum LP105S), and ran it from there. This time the playback rate
+   was only about 35 frames per second. Obviously the 230MB internal hard disk
+   (also a Quantum) is a significant contributor to the speed of playback.
+
+   I modified my speed test program to allow the specification of optional
+   scaling factors, and tried playing back the 160*120 movie scaled to 320*240
+   size. This time the playback speed was over 60 fps. Clearly, the poster who
+   observed poor performance on scaled playback was seeing QuickTime 1.0 in
+   action, not 1.5. I'd try my tests with QuickTime 1.0, but I don't think it's
+   entirely compatible with my Centris and System 7.1...
+
+   Unscaled, the playback rate for the 160*120 movie was over 100 fps.
+
+   The other thing I tried was saving versions of the 320*240 movie with
+   "preferred" playback rates greater than 1.0, and seeing how well they played
+   from within MoviePlayer (ie with QuickTime's normal synchronized playback).
+   A preferred rate of 9.0 (=> 45 fps) didn't work too well: the playback was
+   very jerky. Compare this with the raw speed test, which achieved 45 fps with
+   ease. I can't believe that QuickTime's synchronization code would add this
+   much overhead: I think the slowdown was coming from the Mac system's task
+   switching.
+
+   A preferred rate of 7.0 (=> 35 fps) seemed to work fine: I couldn't see
+   any evidence of stutter. At 8.0 (=> 40 fps) I *think* I could see slight
+   stutter, but with four key frames every second, it was hard to tell.
+
+   I guess I could try recreating the movies with a longer interval between the
+   key frames, to make the stutter more noticeable. Of course, this will also
+   improve the compression slightly, which should speed up the playback performance
+   even more...
+
+   Lawrence D'Oliveiro                       fone: +64-7-856-2889
+   Computer Services Dept                     fax: +64-7-838-4066
+   University of Waikato            electric mail: ldo@waikato.ac.nz
+   Hamilton, New Zealand    37^ 47' 26" S, 175^ 19' 7" E, GMT+12:00
+
+
+I'm afraid I missed the start of this thread, but there are three factors that
+can significantly affect QuickTime's playback speed that you may want to take
+into account:
+
+(1) playback bit depth (things are fastest when you play a
+movie back at the bit depth it was compressed for, this is usually 8 or 16
+bit, but other depths are (of course) possible).
+
+(2) type of scaling (QT is optimized for "double size" scaling, other scaling
+factors hit peformance much harder).
+
+(3) playback window position (MoviePlayer limits your window placement choices
+to advantagous pixel boundaries by default, I'm not sure about Premiere).
+
+Any combination of those can radically alter playback performance.  Image size
+is, of course, another biggie.  Giving the movie player lots of RAM can also
+make a real difference.
+
+Forgive me if these were mentioned earlier in the thread...
+
+-Peter Lee
+
+ 
+--
+/-------------------- Peter E. Lee, Software Conductor ----------------------\
+|                       Specular International, Inc.                         |
+|       lee@cs.umass.edu or (413) 256-1329 (H) or (413) 549-7600 (W)         |
+\-------- Beauty is 24 bits deep, plus eight bits of alpha channel ----------/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quicktim perform rumour 3do          path dime
+ymir umass edu nic umass edu noc near net howland
+reston an net usc elroy jpl nasa gov decwrl
+waikato ldo  newsgroup comp multimedia comp
+graphic date gmt rchland ibm com organ univers
+waikato hamilton new zealand line xref dime comp
+multimedia comp graphic  discuss observ playback
+speed quicktim effect scale thought i'd test
+first felt origin speed test perhap less realist
+movi use frame version first movi creat compact
+video compressor decid someth littl longer give
+closer real world result better wors  pull copi
+space odyssey record back fifteen minut movi there
+sequenc earth shuttl approach space station specif
+digit portion second durat zoom rotat space
+station figur give reason amount movement frame
+increas differ frame digit frame per second give
+total frame  captur raw footag resolut pixel
+spigot card centri quarter size resolut pal sourc
+import premier put compact video compressor keep
+fps frame rate creat two version movi one scale
+resolut resolut use default qualiti set premier
+specifi key frame everi ten frame  ran movi raw
+speed test program use result i'd report earlier
+result playback rate frame per second  that right
+get much higher result first short test movi fun
+copi movi extern hard disk quantum lp105s ran time
+playback rate frame per second obvious 230mb
+intern hard disk also quantum signific contributor
+speed playback  modifi speed test program allow
+specif option scale factor tri play back movi
+scale size time playback speed fps clear poster
+observ poor perform scale playback see quicktim
+action i'd tri test quicktim don't think it entir
+compat centri system  unscal playback rate movi
+fps  thing tri save version movi prefer playback
+rate greater see well play within movieplay
+quicktim normal synchron playback prefer rate fps
+didn't work well playback jerki compar raw speed
+test achiev fps eas can't believ quicktim synchron
+code add much overhead think slowdown come mac
+system task switch  prefer rate fps seem work fine
+couldn't see evid stutter fps think could see
+slight stutter four key frame everi second hard
+tell  guess could tri recreat movi longer interv
+key frame make stutter notic cours also improv
+compress slight speed playback perform even
+lawrenc d'oliveiro fone comput servic dept fax
+hamilton new zealand gmt   i'm afraid miss start
+thread three factor signific affect quicktim
+playback speed want take account  playback bit
+depth thing fastest play movi back bit depth
+compress usual bit depth cours possibl  type scale
+optim doubl size scale scale factor hit peform
+much harder  playback window posit movieplay limit
+window placement choic advantag pixel boundari
+default i'm sure premier  combin radic alter
+playback perform imag size cours anoth biggi give
+movi player lot ram also make real differ  forgiv
+mention earlier thread  peter lee    peter lee
+softwar conductor specular intern inc  beauti bit
+deep plus eight bit alpha channel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+playback, 6682, 0.501806209687
+movi, 5892, 0.33150596798
+frame, 3643, 0.290049223357
+fps, 3634, 0.240549579793
+quicktim, 7039, 0.220002534303
+scale, 7659, 0.186255642993
+speed, 8217, 0.182741602128
+rate, 7108, 0.15170371973
+test, 8812, 0.143629200339
+stutter, 8477, 0.121129894678
+premier, 6826, 0.110745568308
+comp, 1955, 0.0988743346274
+resolut, 7316, 0.0972087685163
+size, 8000, 0.0926982302824
+second, 7753, 0.0868965394116
+bit, 1122, 0.0842159016767
+raw, 7114, 0.0830924705033
+depth, 2545, 0.0812405583861
+perform, 6539, 0.0810992344266
+waikato, 9610, 0.0807532631184
+movieplay, 5893, 0.0807532631184
+result, 7332, 0.077516859645
+umass, 9204, 0.0756513356162
+compressor, 1987, 0.0722907818814
+factor, 3352, 0.0719396979439
+dime, 2651, 0.0709571223061
+key, 4994, 0.0687472598028
+centri, 1612, 0.0687284513694
+prefer, 6819, 0.0684476214914
+synchron, 8651, 0.067776530391
+hamilton, 4137, 0.0640342380594
+compact, 1956, 0.0628578669438
+quantum, 7025, 0.0604096792416
+multimedia, 5918, 0.0604096792416
+default, 2470, 0.0604096792416
+version, 9479, 0.0582874601438
+tri, 9087, 0.0578501823235
+ran, 7089, 0.0568040184631
+hard, 4167, 0.0567165406542
+zealand, 9977, 0.0562163424513
+compress, 1986, 0.0517020909609
+lee, 5190, 0.0513453526543
+cours, 2190, 0.0512649728854
+disk, 2720, 0.0511716506975
+pixel, 6651, 0.0503457580256
+gmt, 3917, 0.0500336197855
+slight, 8034, 0.0494371673137
+play, 6681, 0.0494064885302
+peter, 6575, 0.0492934582045
+earlier, 2952, 0.0486043842581
+thread, 8890, 0.0483415372261
+digit, 2642, 0.0480854306099
+video, 9506, 0.0452438305234
+longer, 5337, 0.0445992448945
+intern, 4716, 0.0444224684076
+copi, 2130, 0.0439101709481
+signific, 7951, 0.0430342017484
+space, 8164, 0.0424957833084
+station, 8346, 0.0421588145603
+window, 9774, 0.041549211842
+observ, 6179, 0.041549211842
+net, 6010, 0.0401991387696
+specif, 8203, 0.0396410265014
+spigot, 8232, 0.0389400032764
+oliveiro, 6225, 0.0389400032764
+footag, 3588, 0.0389400032764
+creat, 2217, 0.0386104625121
+recreat, 7187, 0.0378256678081
+odyssey, 6200, 0.0378256678081
+fone, 3581, 0.0378256678081
+conductor, 2022, 0.0378256678081
+decwrl, 2461, 0.0361453909407
+edu, 3001, 0.0354120832178
+reston, 7326, 0.0343642256847
+eas, 2958, 0.0343642256847
+think, 8871, 0.034311927877
+real, 7144, 0.0342396621164
+everi, 3235, 0.034208105658
+nic, 6046, 0.0334537473125
+use, 9363, 0.0330870836541
+interv, 4724, 0.0330540296078
+fastest, 3400, 0.0330540296078
+contributor, 2104, 0.0330540296078
+graphic, 3997, 0.032882325855
+zoom, 9994, 0.0323394118441
+pal, 6395, 0.0323394118441
+overhead, 6341, 0.0323394118441
+usc, 9361, 0.0320171190297
+boundari, 1251, 0.0314289334719
+lawrenc, 5154, 0.0311589322911
+program, 6905, 0.0310017687775
+differ, 2633, 0.030753476401
+radic, 7059, 0.029788448093
+durat, 2925, 0.0294041196313
+quarter, 7027, 0.029222506694
+optim, 6274, 0.029222506694
+movement, 5891, 0.029222506694
+forgiv, 3605, 0.029222506694
+alpha, 441, 0.029222506694
+new, 6023, 0.0290935834369
+rumour, 7542, 0.0290472674721
+harder, 4170, 0.0290472674721
+3do, 98, 0.0290472674721
+felt, 3439, 0.0285556769063
+afraid, 318, 0.0285556769063
+extern, 3322, 0.0284020092315
+work, 9833, 0.0282956004541
+compat, 1965, 0.0282529293434
+channel, 1652, 0.0282529293434
+realist, 7147, 0.0281081712256
+specifi, 8204, 0.0278306662037
+portion, 6752, 0.0278306662037
+alter, 449, 0.0276974901678
+task, 8707, 0.027441341438
+switch, 8638, 0.027441341438
+sequenc, 7804, 0.0273180313362
+beauti, 978, 0.0273180313362
+thing, 8869, 0.0272852214113
+captur, 1509, 0.0269653809488
+poster, 6769, 0.0268531558802
+ram, 7083, 0.026635999694
+affect, 310, 0.0265308630657
+deep, 2466, 0.0261311453611
+jpl, 4912, 0.0258510454804
+dept, 2544, 0.0258510454804
+greater, 4017, 0.0257610645706
+fun, 3721, 0.0257610645706
+path, 6461, 0.0256726763272
+closer, 1831, 0.0254165275974
+achiev, 232, 0.0253339834803
+pull, 6979, 0.0251728790128
+gov, 3965, 0.0251728790128
+make, 5459, 0.0250502511299
+wors, 9846, 0.0249405671082
+advantag, 286, 0.0243692240803
+combin, 1921, 0.0242360480444
+option, 6276, 0.0241707686131
+ibm, 4472, 0.0241707686131
+qualiti, 7017, 0.024042715305
+plus, 6700, 0.0239798993146
+account, 221, 0.0239798993146
+modifi, 5814, 0.0239178636673
+poor, 6741, 0.0237960574974
+approach, 589, 0.0237960574974
+time, 8936, 0.0237307706716
+doubl, 2828, 0.0232819553741
+rotat, 7490, 0.0231745575706
+notic, 6120, 0.0230694209424
+minut, 5747, 0.0230694209424
+improv, 4557, 0.0230694209424
+choic, 1717, 0.0230694209424
+higher, 4293, 0.0229157532676
+normal, 6108, 0.0228655638463
+couldn, 2176, 0.0227179529405
+action, 251, 0.0227179529405
+increas, 4590, 0.0225276897231
+mac, 5410, 0.0222552327738
+fine, 3485, 0.0221676199057
+newsgroup, 6032, 0.0220815176799
+date, 2391, 0.021955085474
+limit, 5278, 0.0218317753723
+com, 1917, 0.0218317753723
+entir, 3129, 0.0217114368894
+decid, 2442, 0.0216327926596
+card, 1513, 0.0214414357087
+add, 260, 0.0214414357087
+figur, 3476, 0.0212210850203
+record, 7184, 0.0211144516723
+obvious, 6185, 0.0211144516723
+miss, 5770, 0.0211144516723
+usual, 9377, 0.0210794072801
+evid, 3245, 0.0210446071018
+compar, 1960, 0.021010047757
+fax, 3413, 0.0209757259354
+organ, 6287, 0.0209077819569
+servic, 7813, 0.0205497664185
+near, 5982, 0.0202157096283
+shuttl, 7929, 0.0200995693848
+save, 7646, 0.0200995693848
+effect, 3005, 0.0200142031114
+mention, 5632, 0.0199860689222
+total, 9013, 0.0199302716334
+report, 7291, 0.019875090902
+code, 1871, 0.0198477275163
+short, 7904, 0.0197397491391
+posit, 6761, 0.019607978819
+type, 9177, 0.0195050101115
+guess, 4079, 0.0193544317071
+perhap, 6540, 0.0193297708897
+discuss, 2708, 0.0192082611143
+clear, 1803, 0.0191604731383
+allow, 432, 0.0191367495527
+import, 4551, 0.0189281612337
+nasa, 5956, 0.0187937906504
+sourc, 8153, 0.0184316077034
+set, 7815, 0.0178869963841
+origin, 6293, 0.0177596428969
+hit, 4316, 0.0174632393603
+thought, 8887, 0.0174294973036
+earth, 2956, 0.0173959817055
+comput, 1993, 0.0173131637976
+player, 6683, 0.0172316969765
+littl, 5308, 0.0167837295691
+imag, 4512, 0.0167396013993
+world, 9841, 0.0167249782398
+didn, 2625, 0.0166813639418
+softwar, 8103, 0.0166669100811
+univers, 9282, 0.0165952617159
+line, 5285, 0.016552760988
+possibl, 6765, 0.0163726597218
+tell, 8767, 0.0163185258
+reason, 7156, 0.0161076742008
+anoth, 533, 0.0160947869539
+sure, 8585, 0.0160819328789
+start, 8334, 0.0158072043142
+lot, 5356, 0.0155815242903
+believ, 1009, 0.015421525993
+right, 7399, 0.0151907480479
+better, 1060, 0.014939434373
+someth, 8126, 0.0147001643993
+come, 1923, 0.0144811445051
+want, 9634, 0.0136033818677
+don, 2811, 0.0113271105193

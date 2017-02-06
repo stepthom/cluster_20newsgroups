@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61052
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cain@geomag.gly.fsu.edu (Joe Cain)
+Subject: Re: Keeping Spacecraft on after Funding Cuts.
+Organization: Florida State University Geology Dept.
+Lines: 4
+
+This discussion is better followed in talk.politics.space
+Joseph Cain		cain@geomag.gly.fsu.edu   
+cain@fsu.bitnet		scri::cain
+(904) 644-4014		FAX (904) 644-4214 or -0098
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ keep spacecraft fund cut    discuss better follow
+talk polit space   fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polit, 6723, 0.389789020118
+fund, 3723, 0.364597453975
+spacecraft, 8166, 0.357931514226
+cut, 2313, 0.353104237038
+fax, 3413, 0.337353170932
+discuss, 2708, 0.308926986125
+talk, 8684, 0.271613983722
+follow, 3578, 0.263981159893
+better, 1060, 0.240271329496
+space, 8164, 0.227820279728

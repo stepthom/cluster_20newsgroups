@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102667
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: derich@netcom.com (Scotty*Tissue)
+Subject: 15-day, 30-day, 60-day disabled list questions
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 20
+
+
+ I've a curiousity --
+
+  Whenever a person is put on the 15-day, 30-day or 60-day, 
+ the person is on the list longer than the specificed time
+
+  I've seen a person on the 15-day for maybe 4 months last year, I don't
+ remember what...
+
+ I just need a little clarification on the disabled list specifications.
+
+- Scotyy
+
+-- 
+Scott Allen Steinbrink        ************************************************
+                              * GO CLEVELAND CAVALIERS!! NBA FINALS '93!!!!!!* 
+NetCom: Derich@netcom.com     * GO CLEVELAND INDIANS!!!! WORLD SERIES '93!!!!*
+Digex:  derich@digex.com      * GO CLEVELAND BROWNS!!!!! SUPER BOWL '94!!!!!!*
+                              ************************************************
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ day day day disabl list question     i'v curious
+whenev person put day day day person list longer
+specif time  i'v seen person day mayb month last
+year don't rememb  need littl clarif disabl list
+specif  scotyy   scott allen steinbrink cleveland
+cavali nba final
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+day, 2402, 0.569771407324
+disabl, 2673, 0.377772879014
+list, 5298, 0.301594975833
+person, 6562, 0.274359444089
+specif, 8203, 0.217890908497
+cavali, 1573, 0.214037663492
+nba, 5972, 0.19867679435
+whenev, 9722, 0.162658647892
+clarif, 1785, 0.160624461425
+cleveland, 1811, 0.144709049059
+scott, 7713, 0.144165487614
+allen, 426, 0.137507423907
+curious, 2297, 0.133215887499
+longer, 5337, 0.122572128499
+month, 5847, 0.113127048095
+final, 3482, 0.107777237265
+seen, 7767, 0.10188187946
+rememb, 7269, 0.101086201835
+mayb, 5564, 0.0960816654445
+littl, 5308, 0.0922534658291
+question, 7032, 0.083087351131
+need, 5993, 0.073801737945
+year, 9943, 0.0689844251705
+time, 8936, 0.0652192896768
+don, 2811, 0.0622606077473

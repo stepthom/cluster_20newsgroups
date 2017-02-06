@@ -1,0 +1,114 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61219
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Vandalizing the sky.
+Organization: Express Access Online Communications USA
+Lines: 20
+NNTP-Posting-Host: access.digex.net
+
+In article <C5y4t7.9w3@news.cso.uiuc.edu> gfk39017@uxa.cso.uiuc.edu (George F. Krumins) writes:
+>It is so typical that the rights of the minority are extinguished by the
+>wants of the majority, no matter how ridiculous those wants might be.
+
+
+George.
+
+	It's called a democracy.  The majority rules.  sorry.
+If ytou don't like it, I suggest you modify the constitution to include
+a constitutional right to Dark Skies.   The theory of government
+here is that the majority rules,  except in the nature of fundamental
+civil rights.   If you really are annoyed,   get some legislation
+to create a dark sky zone,  where in all light emissions are protected
+in the zone.  Kind of like the national radio quiet zone.  Did you
+know about that?  near teh Radio telescope  observatory in West virginia,
+they have a 90?????? mile EMCON zone.  Theoretically they can prevent
+you from running light AC motors, like air conditioners and Vacuums.
+In practice, they use it mostly to  control  large radio users.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky      typic right minor extinguish want
+major matter ridicul want might   georg  it call
+democraci major rule sorri ytou don't like suggest
+modifi constitut includ constitut right dark sky
+theori govern major rule except natur fundament
+civil right realli annoy get legisl creat dark sky
+zone light emiss protect zone kind like nation
+radio quiet zone know near teh radio telescop
+observatori west virginia mile emcon zone theoret
+prevent run light motor like air condition vacuum
+practic use most control larg radio user  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+zone, 9991, 0.431189983396
+radio, 7061, 0.252542792042
+sky, 8011, 0.244550840619
+constitut, 2070, 0.213309251509
+major, 5458, 0.207585732328
+dark, 2365, 0.178762189812
+right, 7399, 0.172034927242
+rule, 7537, 0.157347393277
+light, 5267, 0.15005667952
+ytou, 9968, 0.146998260812
+emcon, 3067, 0.146998260812
+democraci, 2518, 0.146998260812
+condition, 2018, 0.146998260812
+extinguish, 3324, 0.139354601645
+emiss, 3070, 0.127927982192
+teh, 8750, 0.122081070796
+legisl, 5202, 0.120864417503
+quiet, 7040, 0.119721547409
+like, 5272, 0.119082479497
+annoy, 525, 0.111000361655
+ridicul, 7396, 0.11031477399
+vacuum, 9405, 0.109014149141
+theoret, 8847, 0.108396009073
+motor, 5882, 0.106108164795
+virginia, 9533, 0.10506058513
+fundament, 3724, 0.10506058513
+civil, 1778, 0.104557846455
+want, 9634, 0.102705357343
+observatori, 6180, 0.0993842774605
+mile, 5713, 0.0972478523351
+vandal, 9419, 0.0965863254047
+typic, 9178, 0.095947227487
+telescop, 8764, 0.095947227487
+prevent, 6853, 0.0956356239782
+georg, 3847, 0.0950274556542
+protect, 6940, 0.0919936634756
+west, 9708, 0.090761094958
+modifi, 5814, 0.0902897808326
+air, 357, 0.0887272172282
+theori, 8848, 0.0870869150268
+minor, 5745, 0.0866982088213
+pat, 6458, 0.0836826219392
+practic, 6793, 0.0825687023237
+user, 9366, 0.0813713740797
+natur, 5966, 0.0798401459515
+govern, 3966, 0.0786736966383
+control, 2107, 0.0786736966383
+near, 5982, 0.0763141732515
+nation, 5962, 0.0742173939517
+matter, 5553, 0.0731564110984
+creat, 2217, 0.0728771232781
+sorri, 8142, 0.0726932039356
+suggest, 8525, 0.0718870751921
+larg, 5124, 0.0698133841781
+kind, 5021, 0.0672470771852
+includ, 4579, 0.0648674024517
+run, 7543, 0.0567857776225
+realli, 7150, 0.0559392377896
+don, 2811, 0.0427597690363
+use, 9363, 0.0416345090162
+know, 5052, 0.0406059857924

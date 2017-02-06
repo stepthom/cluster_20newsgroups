@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62425
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gary@ke4zv.uucp (Gary Coffman)
+Subject: Re: Math?? (Was US govt & Technolgy Investment
+Keywords: science?
+Reply-To: gary@ke4zv.UUCP (Gary Coffman)
+Organization: Destructive Testing Systems
+Lines: 23
+
+In article <C71EnF.HJM@ncratl.AtlantaGA.NCR.COM> mwilson@ncratl.AtlantaGA.NCR.COM (Mark Wilson) writes:
+>In <1993May13.100935.21187@ke4zv.uucp> gary@ke4zv.uucp (Gary Coffman) writes:
+>
+>|It is, however, now somewhat of an experimental science with the exploration
+>|of fractals, strange attractors, and artificial life. Whether important
+>|insights will be gained from these experiments is unknown, but it does
+>|tend to change the shape of what has mostly been viewed as an abstract
+>|deductive field.
+>
+>How do you do experiments in mathematics?
+
+Nowadays, usually with a computer. No theory predicted the numeric 
+discoveries listed above. No one can yet write an algorithm that will
+predict the precise behavior of any of these at any precise level of
+their evolution. So it remains for experimenters to gather data on their
+behavior.
+
+Gary
+-- 
+Gary Coffman KE4ZV          |    You make it,     | gatech!wa4mei!ke4zv!gary
+Destructive Testing Systems |    we break it.     | uunet!rsiatl!ke4zv!gary
+534 Shannon Way             |    Guaranteed!      | emory!kd4nc!ke4zv!gary 
+Lawrenceville, GA 30244     |                     | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ math govt technolgi invest         howev somewhat
+experiment scienc explor fractal strang attractor
+artifici life whether import insight gain experi
+unknown tend chang shape most view abstract deduct
+field  experi mathemat  nowaday usual comput
+theori predict numer discoveri list one yet write
+algorithm predict precis behavior precis level
+evolut remain experiment gather data behavior
+gari  gari coffman ke4zv make gatech wa4mei ke4zv
+gari destruct test system break uunet rsiatl ke4zv
+gari shannon way guarante emori kd4nc ke4zv gari
+lawrencevill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ke4zv, 4969, 0.479900554061
+gari, 3776, 0.438641848248
+experiment, 3297, 0.186447666083
+behavior, 1000, 0.185592573829
+precis, 6809, 0.163914382471
+predict, 6816, 0.152997603555
+experi, 3295, 0.141404496395
+wa4mei, 9600, 0.124833274573
+rsiatl, 7515, 0.124833274573
+lawrencevill, 5155, 0.124833274573
+govt, 3969, 0.12223010584
+coffman, 1879, 0.12223010584
+shannon, 7852, 0.119975138515
+kd4nc, 4968, 0.117986116371
+emori, 3072, 0.117986116371
+deduct, 2463, 0.117986116371
+technolgi, 8742, 0.116206875434
+nowaday, 6130, 0.114597356227
+artifici, 667, 0.108269844255
+insight, 4672, 0.106280822111
+evolut, 3248, 0.102141397496
+destruct, 2575, 0.100733318093
+fractal, 3637, 0.0988195173205
+discoveri, 2700, 0.098226924238
+uunet, 9392, 0.0976544229723
+gatech, 3789, 0.0976544229723
+gather, 3792, 0.0971006956606
+guarante, 4076, 0.096044903765
+abstract, 199, 0.0955407717019
+unknown, 9287, 0.0936624854955
+numer, 6157, 0.0897173917936
+math, 5544, 0.0897173917936
+somewhat, 8129, 0.0880440268771
+invest, 4744, 0.0880440268771
+gain, 3746, 0.0880440268771
+shape, 7853, 0.0874185046259
+mathemat, 5545, 0.0874185046259
+strang, 8426, 0.0871142230607
+tend, 8783, 0.083835477442
+explor, 3307, 0.0798697013492
+remain, 7264, 0.0791019705105
+theori, 8848, 0.0780120975337
+break, 1284, 0.0773227295733
+algorithm, 407, 0.0734199066568
+usual, 9377, 0.071282620435
+test, 8812, 0.0693856983946
+level, 5229, 0.0692804820419
+view, 9510, 0.0659586018659
+import, 4551, 0.0640079161061
+field, 3466, 0.0635535253749
+scienc, 7692, 0.0631110414584
+data, 2385, 0.0625385401926
+life, 5260, 0.0621903387848
+list, 5298, 0.0618491722322
+chang, 1650, 0.0606750737942
+comput, 1993, 0.0585466027159
+write, 9865, 0.0582165497998
+howev, 4406, 0.0582165497998
+way, 9666, 0.0441747731573
+make, 5459, 0.0423552597889

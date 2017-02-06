@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38471
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: 235wardell@gw.wmich.edu
+Subject: VGA Passthrough Cables!
+Organization: Western Michigan University
+Lines: 14
+
+
+	Does anyone know the phone number to a place where i can get
+a VGA passthrough?
+
+	I want to hook up my VGA card to my XGA card (whcih you can can).
+All I need is the cable that connects them.  It is the same type of
+cable that you would connect from your VGA card to say a Video Blaster
+or something.
+
+	Thanks.
+						-Brad
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vga passthrough cabl     anyon know phone number
+place get vga passthrough  want hook vga card xga
+card whcih need cabl connect type cabl connect vga
+card say video blaster someth  thank brad
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vga, 9492, 0.543887787861
+cabl, 1442, 0.536776342141
+card, 1513, 0.355889448003
+connect, 2046, 0.263984448354
+xga, 9895, 0.215444781148
+brad, 1262, 0.209279456523
+hook, 4367, 0.1808316797
+video, 9506, 0.125161098424
+phone, 6601, 0.121242413831
+type, 9177, 0.107916083236
+place, 6657, 0.094632219015
+number, 6156, 0.089842842804
+someth, 8126, 0.0813321375286
+thank, 8832, 0.0773747553426
+want, 9634, 0.0752639286794
+need, 5993, 0.0742869223132
+anyon, 554, 0.0742452175358
+say, 7653, 0.0701473345622
+know, 5052, 0.0595132736537

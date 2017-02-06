@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61367
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sysmgr@king.eng.umd.edu (Doug Mohney)
+Subject: Re: I want that Billion
+Organization: Computer Aided Design Lab, U. of Maryland College Park
+Lines: 18
+Reply-To: sysmgr@king.eng.umd.edu
+NNTP-Posting-Host: queen.eng.umd.edu
+
+In article <C663u5.IKC@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry Spencer) writes:
+>>... C'mon. Allen is telling us how cheap we can get improved this
+>>or that... 
+>
+>Sure, you can get a heavylift launcher fairly cheap if you do it privately
+>rather than as a gummint project.  But we're still talking about something
+>that will cost nine digits per launch, unless you can guarantee a large
+>market to justify volume production.
+
+"Let's make a deal!"  If you're going to put up a billion, I'd want to budget
+the whole sheebang for $450-600 million.  If I have that much money to throw
+around in the first place, you betcha I'm going to sign a contract committing
+to volume production...
+
+
+
+    Software engineering? That's like military intelligence, isn't it?
+  -- >                  SYSMGR@CADLAB.ENG.UMD.EDU                        < --
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want billion       c'mon allen tell cheap get
+improv   sure get heavylift launcher fair cheap
+privat rather gummint project we'r still talk
+someth cost nine digit per launch unless guarante
+larg market justifi volum product  let make deal
+you'r go put billion i'd want budget whole
+sheebang million much money throw around first
+place betcha i'm go sign contract commit volum
+product    softwar engin that like militari
+intellig isn't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cheap, 1677, 0.301784307439
+volum, 9577, 0.300817011784
+billion, 1092, 0.283464175194
+product, 6896, 0.24905836474
+gummint, 4093, 0.231931190955
+mon, 5831, 0.173008905289
+launcher, 5148, 0.170080934673
+guarante, 4076, 0.169165672119
+want, 9634, 0.162046650854
+commit, 1945, 0.158020907811
+justifi, 4939, 0.156806711224
+contract, 2095, 0.155073579117
+intellig, 4698, 0.153971835162
+budget, 1367, 0.152392153195
+allen, 426, 0.149003030922
+militari, 5715, 0.147226760757
+privat, 6879, 0.144746684362
+digit, 2642, 0.143201210202
+million, 5724, 0.137404155717
+improv, 4557, 0.137404155717
+market, 5514, 0.135600956001
+sign, 7946, 0.135310771397
+throw, 8899, 0.133355083068
+fair, 3363, 0.125970334848
+unless, 9289, 0.121115335503
+deal, 2418, 0.120232668773
+money, 5835, 0.119886808062
+launch, 5147, 0.116942723485
+engin, 3109, 0.116022742333
+cost, 2169, 0.113009964698
+project, 6909, 0.110399194489
+larg, 5124, 0.110150291898
+isn, 4783, 0.108936095311
+place, 6657, 0.101873729045
+talk, 8684, 0.10058830802
+softwar, 8103, 0.0992700559679
+tell, 8767, 0.0971950386483
+sure, 8585, 0.0957858636782
+let, 5225, 0.0939332297069
+someth, 8126, 0.0875558898172
+make, 5459, 0.0746011054112
+like, 5272, 0.0626287257617

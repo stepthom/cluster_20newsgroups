@@ -1,0 +1,208 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84121
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: isaackuo@skippy.berkeley.edu (Isaac Kuo)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: U.C. Berkeley Math. Department.
+Lines: 41
+NNTP-Posting-Host: skippy.berkeley.edu
+
+In article <GERRY.93Apr21132149@onion.cmu.edu> gerry@cmu.edu (Gerry Roston) writes:
+>No, a no-knock warrant is in clear violation of the 4th amendment.
+>Okay, what about the fact that they were tipped off - they shouldn't
+>have opened fire - right?  WRONG!  Think about this: I am a drug
+>dealer and my competition wants to do away with me. They call me and
+>tell me that the Feds are on their way with a no-knock warrant. So,
+>being moronic sheep we wait, with our guns holstered. Now, instead of
+>the Feds, in comes my competition, and we're history.  The only
+>acceptable answer to a no-knock warrant is blazing guns!  I may sound
+>paranoid, but our government is out of control, and killing a few
+>federal officers make knock some sense back into it.
+
+Hmm.  The police strategy of bursting in with weapons drawn, clearly marked as
+officers and yelling "Police" repeatedly.  This is used every day to bust drug
+houses.  The idea is to awe the suspects into submission with surprise and
+display of firepowere in order to avoid a gun fight.  As for not knocking, it's
+a sad necessity in many cases since the suspects will attempt to escape or even
+fight.  Usually this strategy works; if it didn't, then it wouldn't be used so
+commonly, now would it?
+
+Whether or not it was appropriate to use this strategy on the BD is not my
+point, since I don't think any of us have enough information to make a clear
+judgement on this issue.
+
+I merely point out that it IS a valid strategy which is used every day.
+Furthermore, we don't know of any substitute strategy capable of apprehending
+potentially dangerous and armed suspects.  Do you suggest that the police
+always knock with guns holstered and never arrest any suspects until they have
+been allowed to inspect the officers's badges?  Just what should the police do
+when apprehending potentially dangerous and armed suspects?  How far can they
+reasonably go to identiy themselves?  What do you suggest they can do which
+can't be faked by the "competition"?
+
+Even if you've got deadly enemies who may pretend to be cops, that's not an
+excuse to murder police.  In the case of the BD's, there was almost definitely
+at most the paranoid delusion of deadly enimies who would pretend to be cops.
+-- 
+*Isaac Kuo (isaackuo@math.berkeley.edu)	*       ___
+*					* _____/_o_\_____
+*	Twinkle, twinkle, little .sig,	*(==(/_______\)==)
+*	Keep it less than 5 lines big.	* \==\/     \/==/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew      knock warrant clear
+violat 4th amend okay fact tip shouldn't open fire
+right wrong think drug dealer competit want away
+call tell fed way knock warrant moron sheep wait
+gun holster instead fed come competit we'r histori
+accept answer knock warrant blaze gun sound
+paranoid govern control kill feder offic make
+knock sens back  hmm polic strategi burst weapon
+drawn clear mark offic yell polic repeat use everi
+day bust drug hous idea awe suspect submiss
+surpris display firepower order avoid gun fight
+knock it sad necess mani case sinc suspect attempt
+escap even fight usual strategi work didn't
+wouldn't use common  whether appropri use strategi
+point sinc don't think enough inform make clear
+judgement issu  mere point valid strategi use
+everi day furthermor don't know substitut strategi
+capabl apprehend potenti danger arm suspect
+suggest polic alway knock gun holster never arrest
+suspect allow inspect offic badg polic apprehend
+potenti danger arm suspect far reason identiy
+suggest can't fake competit  even you'v got dead
+enemi pretend cop that excus murder polic case bd
+almost definit paranoid delus dead enimi pretend
+cop    twinkl twinkl littl sig keep less line big
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+knock, 5050, 0.323990139957
+polic, 6720, 0.315707998885
+strategi, 8431, 0.300397397838
+suspect, 8603, 0.246932609653
+gun, 4094, 0.223268457083
+warrant, 9645, 0.185146612202
+competit, 1970, 0.180238438703
+holster, 4351, 0.159127031215
+apprehend, 588, 0.150852696646
+twinkl, 9173, 0.147706940641
+cop, 2127, 0.147706940641
+paranoid, 6423, 0.144981962841
+offic, 6206, 0.135615836822
+drug, 2883, 0.133561872267
+pretend, 6848, 0.127329942838
+fed, 3424, 0.124338202809
+clear, 1803, 0.117447956496
+fight, 3474, 0.11486310898
+danger, 2356, 0.107584436267
+arm, 643, 0.106013890762
+potenti, 6774, 0.0977395561929
+dead, 2415, 0.0909452702185
+use, 9363, 0.0901395129333
+dealer, 2419, 0.0824988825099
+firepower, 3497, 0.0795635156075
+bust, 1426, 0.0795635156075
+suggest, 8525, 0.0778184503328
+delus, 2511, 0.0772866681507
+badg, 862, 0.0772866681507
+awe, 834, 0.0754263483231
+case, 1540, 0.0709520546721
+everi, 3235, 0.0698951443097
+necess, 5989, 0.0692416355914
+inspect, 4674, 0.0692416355914
+blaze, 1147, 0.0692416355914
+arrest, 654, 0.0692416355914
+bd, 965, 0.0683538141363
+moron, 5865, 0.0675370975683
+amend, 467, 0.0667809361335
+submiss, 8490, 0.0660769666795
+fake, 3368, 0.0660769666795
+yell, 9946, 0.0654184472339
+sheep, 7867, 0.0636649714192
+enemi, 3100, 0.0636649714192
+drawn, 2863, 0.0636649714192
+tip, 8945, 0.0626437688492
+substitut, 8504, 0.0626437688492
+sinc, 7977, 0.0622085725453
+judgement, 4921, 0.0608647523203
+day, 2402, 0.0605140709747
+murder, 5926, 0.0604645633815
+violat, 9526, 0.0600794795676
+hmm, 4327, 0.0593503473142
+furthermor, 3732, 0.0593503473142
+escap, 3185, 0.0590044324927
+point, 6710, 0.057601941104
+weapon, 9674, 0.0568645469581
+burst, 1417, 0.0565924372324
+excus, 3268, 0.0563273960972
+4th, 112, 0.0563273960972
+sig, 7940, 0.0550965672177
+feder, 3425, 0.0548672652084
+sad, 7571, 0.0544235644339
+appropri, 590, 0.0535901618279
+shouldn, 7912, 0.0530069453808
+mormon, 5863, 0.0526358677599
+valid, 9411, 0.0522778131274
+avoid, 827, 0.0517632414082
+make, 5459, 0.0511835099909
+repeat, 7286, 0.0509593999334
+okay, 6215, 0.0508059608014
+mere, 5641, 0.0495199030456
+hous, 4396, 0.0495199030456
+wait, 9611, 0.0491248791335
+jew, 4862, 0.04825860681
+think, 8871, 0.0467381848907
+don, 2811, 0.0462878612616
+surpris, 8593, 0.045934411194
+capabl, 1498, 0.0457471855741
+attempt, 763, 0.0448593641191
+common, 1948, 0.0445247928341
+histori, 4314, 0.0441214395256
+definit, 2484, 0.0441214395256
+display, 2734, 0.0439644593524
+instead, 4682, 0.0438098577584
+kill, 5012, 0.0436575637372
+usual, 9377, 0.0430701491786
+wouldn, 9854, 0.0426507678198
+govern, 3966, 0.0425825166623
+control, 2107, 0.0425825166623
+sens, 7788, 0.0425147190043
+accept, 208, 0.0419239972167
+issu, 4793, 0.0416100182898
+mark, 5512, 0.0415483654738
+open, 6258, 0.0404979348403
+away, 833, 0.0404426311277
+sound, 8150, 0.0400636773891
+allow, 432, 0.0391008460092
+alway, 457, 0.038536452751
+answer, 535, 0.0376600766253
+wrong, 9869, 0.0374522586473
+order, 6281, 0.0360692188646
+fact, 3350, 0.0350121515476
+idea, 4482, 0.0348833989245
+big, 1082, 0.0347562507371
+littl, 5308, 0.0342930769687
+far, 3386, 0.0340839200992
+didn, 2625, 0.0340839200992
+line, 5285, 0.0338211542477
+inform, 4637, 0.033536915534
+got, 3960, 0.0334810057502
+tell, 8767, 0.0333425570861
+reason, 7156, 0.0329117380545
+right, 7399, 0.0310382439062
+come, 1923, 0.0295883582409
+mani, 5479, 0.0289429347203
+work, 9833, 0.0289072580756
+want, 9634, 0.0277948842959
+way, 9666, 0.0266911353455
+know, 5052, 0.0219781850921

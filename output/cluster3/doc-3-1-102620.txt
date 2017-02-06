@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102620
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker)
+Subject: Re: Bo was a good player, you shorts (plus idiots)
+Organization: University of Virginia
+Lines: 35
+
+In article <1993Apr5.101636.1@otago.ac.nz> guilford@otago.ac.nz writes:
+>In article <1993Apr4.030934.23187@Princeton.EDU>, roger@crux.Princeton.EDU (Roger Lustig) writes:
+>> In article <1993Apr4.133620.1@otago.ac.nz> guilford@otago.ac.nz writes:
+
+     BO JACKSON 1963          
+  1988 KCR    437  106  16   4  23   28   29   7  .253   67  .243  .288  .455
+  1989 KCR    517  134  19   5  33   41   27  10  .274   92  .259  .314  .507
+  1990 KCR    405  110  17   1  27   44   16   9  .286   77  .272  .343  .519
+  1991 CWS     71   16   3   0   3   12    0   1  .240   10  .225  .337  .394
+    MAJ      1430  366  55  10  86  125   72  27  .270  246  .256  .316  .489
+    MAJ       598  153  23   4  36   52   30  11
+
+This is what Jackson looked like in 88-91, with everything converted
+to a neutral park, on the basis of run production. His equivalent
+average started at .253 in 88, was up to .274 in 89 and 286 in 90. So
+let us say he had established, in his last two seasons, a .280 level
+of play.
+
+That is good. Very good, in fact. But it probably doesn't make the top
+ten in the league. The 10th best EQA in the AL in 1992 was Dave
+Winfield's .296; Thomas was first at .350. First in the NL was Bonds,
+an incroyable .378; tenth was Bip Roberts, .297. But .280 is better
+than any season in the past five years by Joe Carter; it is about what
+Mattingly had in 1988 (.285); what Felix Jose had the last two years;
+just ahead of Time Raines' five-year average; better than Ryan
+Klesko's MLEs. 
+
+He got more attention from the media than was warranted from his
+baseball playing, though; his hype was a lot better than his hitting.
+That is the basis for the net.comments about him being overrated. The
+media would have you beleive he was a great hitter. I think he was a
+good, maybe very good hitter. He was IMO, something like the 30th best
+hitter in the majors.
+
+Clay D.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good player short plus idiot        jackson kcr
+kcr kcr cws maj maj  jackson look like everyth
+convert neutral park basi run product equival
+averag start let say establish last two season
+level play  good good fact probabl doesn't make
+top ten leagu 10th best eqa dave winfield thoma
+first first bond incroy tenth bip robert better
+season past five year joe carter mat felix jose
+last two year ahead time rain five year averag
+better ryan klesko mles  got attent media warrant
+basebal play though hype lot better hit basi net
+comment overr media beleiv great hitter think good
+mayb good hitter imo someth like 30th best hitter
+major  clay
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kcr, 4967, 0.420807057421
+maj, 5456, 0.262813866183
+good, 3948, 0.222978495574
+hitter, 4322, 0.221542878453
+jackson, 4812, 0.198405693385
+media, 5605, 0.168852354506
+basi, 936, 0.165335716015
+better, 1060, 0.155699452264
+averag, 816, 0.147695252302
+season, 7747, 0.133626785449
+bip, 1112, 0.131406933092
+year, 9943, 0.130800607791
+eqa, 3155, 0.128243917672
+overr, 6349, 0.125569626239
+klesko, 5041, 0.125569626239
+beleiv, 1006, 0.12325304963
+felix, 3435, 0.121209684245
+30th, 86, 0.121209684245
+10th, 12, 0.121209684245
+tenth, 8793, 0.119381831623
+clay, 1796, 0.119381831623
+neutral, 6020, 0.117728337798
+best, 1052, 0.116003330719
+play, 6681, 0.114425917793
+hype, 4458, 0.109184582777
+warrant, 9645, 0.104932062515
+imo, 4533, 0.103485512148
+rain, 7074, 0.0997536407079
+carter, 1535, 0.0986690029028
+winfield, 9778, 0.0971594813083
+idiot, 4487, 0.0957708560516
+equival, 3162, 0.094076969765
+mat, 5540, 0.0929069610461
+establish, 3198, 0.0914604106795
+ryan, 7557, 0.0907799880095
+jose, 4892, 0.0894943218339
+attent, 766, 0.0894943218339
+thoma, 8878, 0.0861259956835
+joe, 4876, 0.0861259956835
+bond, 1211, 0.0858727276196
+ahead, 342, 0.0841963917182
+plus, 6700, 0.0833065272176
+park, 6430, 0.0799637324247
+robert, 7437, 0.0781001464134
+dave, 2395, 0.07501763487
+everyth, 3242, 0.0747507287709
+past, 6456, 0.0733519194491
+like, 5272, 0.0730587222167
+product, 6896, 0.0726339457811
+level, 5229, 0.0711733347188
+net, 6010, 0.0698262032733
+convert, 2115, 0.0697267843522
+leagu, 5176, 0.0696279319238
+comment, 1936, 0.0696279319238
+short, 7904, 0.068576182383
+major, 5458, 0.0636783363025
+mayb, 5564, 0.0607264620801
+hit, 4316, 0.0606675535201
+player, 6683, 0.0598631718317
+fact, 3350, 0.0595295355059
+basebal, 924, 0.0584615950594
+great, 4016, 0.0577016828837
+got, 3960, 0.0569261994046
+probabl, 6885, 0.056737626306
+doesn, 2793, 0.0562749707747
+start, 8334, 0.054914463116
+let, 5225, 0.0547882912562
+lot, 5356, 0.0541304473529
+run, 7543, 0.0522582713767
+someth, 8126, 0.0510685899704
+say, 7653, 0.0440456328227
+make, 5459, 0.0435124726793
+look, 5341, 0.043295069405
+time, 8936, 0.0412205253014
+think, 8871, 0.0397333827535

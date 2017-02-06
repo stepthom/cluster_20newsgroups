@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39082
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: roddi@cs.monash.edu.au (Roddi Walker)
+Subject: Re: Where did the hacker ethic go?
+Organization: Computer Science, Monash University, Australia
+Lines: 11
+
+
+On a more cheerful note, perhaps hackerism/hacking isn't completely dead.
+
+As someone else said, take the GNU offerings for example - free, redistributable and 
+often better than the commercial stuff.  Take also the number of papers published
+every year in all the fields of computer science - the vast majority of these papers
+detail original work of real, often exceptional merit - and the authors are sharing
+this knowledge.
+
+Have Fun,
+Roddi
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hacker ethic     cheer note perhap hacker hack
+isn't complet dead  someon els said take gnu offer
+exampl free redistribut often better commerci
+stuff take also number paper publish everi year
+field comput scienc vast major paper detail origin
+work real often except merit author share knowledg
+fun roddi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hacker, 4112, 0.41961115147
+paper, 6409, 0.291673458869
+redistribut, 7202, 0.225185974659
+merit, 5644, 0.222067044302
+hack, 4111, 0.216600366379
+gnu, 3920, 0.209805575735
+vast, 9434, 0.188161971576
+ethic, 3209, 0.183268695063
+fun, 3721, 0.168810159926
+share, 7855, 0.163933119583
+cheer, 1687, 0.154771707585
+publish, 6974, 0.151172038252
+knowledg, 5053, 0.145836729435
+dead, 2415, 0.145836729435
+offer, 6203, 0.143598318577
+commerci, 1940, 0.138361283703
+author, 796, 0.134251891854
+free, 3668, 0.133251079897
+perhap, 6540, 0.126666415756
+complet, 1975, 0.126505609534
+stuff, 8472, 0.125401562641
+field, 3466, 0.123154180861
+scienc, 7692, 0.122296734418
+major, 5458, 0.120114325856
+isn, 4783, 0.119851481067
+exampl, 3258, 0.11869412664
+note, 6118, 0.118068409673
+origin, 6293, 0.116377494782
+comput, 1993, 0.113451753576
+els, 3053, 0.113130402381
+real, 7144, 0.112184859866
+everi, 3235, 0.112081466414
+said, 7583, 0.108934394447
+someon, 8124, 0.106933971712
+number, 6156, 0.106408976489
+better, 1060, 0.0978968978086
+work, 9833, 0.0927093836663
+year, 9943, 0.0822416106675

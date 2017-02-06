@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104506
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: Pleasant Yankee Surprises
+Organization: Allegheny College
+Lines: 22
+
+In article <120399@netnews.upenn.edu> sepinwal@mail.sas.upenn.edu (Alan  
+Sepinwall) writes:
+> 
+> Some pleasant (and then some not so pleasant) surprises about the 1993
+> edition of the Bronx Bombers so far.
+> 
+> 	4)Wickman. A friend made a comparison between Wickman and Jack
+> 	  Morris - they never have impressive stats but they always
+> 	  find some way to win (although Morris seems to be losing that
+> 	  ability). I figured that Wickman would be the least important
+> 	  part of the Steve Sax trade (best trade since we got that Ruth
+> 	  guy), maybe winding up as a good middle reliever. But I like  
+what
+> 	  I've seen so far. He doesn't pitch pretty, but he gets the job  
+done.
+> 
+
+
+
+     Actually, I kind of liked the Abott trade. We did trade the rookie of  
+the year, SNOW, but with Don mattingly at first for another 8 years, Why  
+bother.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleasant yanke surpris    mail sas upenn edu alan
+pleasant pleasant surpris edit bronx bomber far
+wickman friend made comparison wickman jack morri
+never impress stat alway find way win although
+morri seem lose abil figur wickman least import
+part steve sax trade best trade sinc got ruth guy
+mayb wind good middl reliev like  i'v seen far
+doesn't pitch pretti get job done     actual kind
+like abott trade trade rooki year snow mat first
+anoth year bother
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wickman, 9746, 0.419444771992
+trade, 9033, 0.39506373863
+pleasant, 6689, 0.388777621218
+morri, 5868, 0.19585233673
+surpris, 8593, 0.18017646202
+abott, 188, 0.156042848656
+bronx, 1337, 0.151577412954
+sax, 7652, 0.147928886326
+upenn, 9335, 0.142171938436
+sas, 7623, 0.139814923997
+far, 3386, 0.133693237284
+snow, 8081, 0.12103874733
+ruth, 7555, 0.115721630187
+rooki, 7475, 0.115065456864
+alan, 376, 0.114430117998
+reliev, 7258, 0.112073103559
+comparison, 1962, 0.108057383264
+mat, 5540, 0.107167837111
+wind, 9773, 0.104714381553
+bother, 1245, 0.104714381553
+year, 9943, 0.10058534597
+middl, 5699, 0.100248945852
+impress, 4554, 0.0963454922941
+edit, 2996, 0.0953570694975
+abil, 177, 0.0937367576381
+jack, 4808, 0.0935156339144
+yanke, 9933, 0.0932969268917
+stat, 8341, 0.090843471334
+friend, 3692, 0.0895399366195
+steve, 8390, 0.089182579027
+lose, 5350, 0.087979809748
+job, 4873, 0.0851829645625
+figur, 3476, 0.085038476618
+like, 5272, 0.084272966782
+import, 4551, 0.0758501271238
+alway, 457, 0.0755790869527
+guy, 4100, 0.0751353549501
+seen, 7767, 0.0742763607016
+pretti, 6851, 0.073372196949
+pitch, 6643, 0.0730532819384
+win, 9770, 0.0727393697229
+kind, 5021, 0.0713846914226
+edu, 3001, 0.0709527719209
+mayb, 5564, 0.0700477501713
+mail, 5447, 0.0687945619521
+best, 1052, 0.0669047071977
+got, 3960, 0.0656641611829
+doesn, 2793, 0.0649129713587
+anoth, 533, 0.0644960501664
+actual, 254, 0.0643419172346
+sinc, 7977, 0.0610028528569
+way, 9666, 0.0523476214112
+good, 3948, 0.051440974549

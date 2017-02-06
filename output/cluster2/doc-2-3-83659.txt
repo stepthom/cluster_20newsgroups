@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83659
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@post.RoyalRoads.ca (Malcolm Lee)
+Subject: Re: A KIND and LOVING God!!
+Organization: Royal Roads Military College, Victoria, B.C.
+Lines: 39
+
+
+In article <sandvik-190493200858@sandvik-kent.apple.com>, sandvik@newton.apple.com (Kent Sandvik) writes:
+|> In article <1993Apr19.165717.25790@ra.royalroads.ca>,
+|> mlee@post.RoyalRoads.ca (Malcolm Lee) wrote:
+|> > 
+|> > It is true what you stated above:  Jesus' saving grace is available to
+|> > everyone, not just Jews.  In other words, everyone can have salvation but
+|> > not everyone will.  This option is now open to people other than just
+|> > Jews.  Of course, if the Jews don't accept the deity of Christ, I would
+|> > hardly expect them to accept anything that Christ said.  But I don't feel
+|> > any animosity towards them.  Even though they persecuted Jesus and his
+|> > disciples and eventually crucified Him, I bear them no ill will.  If anything,
+|> > I feel pity for them.  Jesus had to die to pay the price for our sins and
+|> > so the Jews were merely fulfilling prophesy.  Jesus knew He had to die even
+|> > before He began His ministry.  That demonstrates the great depth of His love
+|> > for us.
+|> 
+|> Jesus certainly demonstrated the great depth of his love for the
+|> children who died today at the Davidian complex.
+|> 
+|> Sorry, but the events today made me even more negative concering
+|> organized religion.
+|> 
+
+I understand and sympathize with your pain.  What happened in Waco was a very
+sad tradgedy.  Don't take it out on us Christians though.  The Branch
+Davidians were not an organized religion.  They were a cult led by a ego-maniac
+cult leader.  The Christian faith stands only on the shoulders of one man,
+the Lord of Lords and King of Kings, Jesus Christ.   BTW, David Koresh was NOT
+Jesus Christ as he claimed.
+
+God be with you,
+
+Malcolm Lee  :)
+
+|> Cheers,
+|> Kent
+|> ---
+|> sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god         true state jesus save grace
+avail everyon jew word everyon salvat everyon
+option open peopl jew cours jew don't accept deiti
+christ hard expect accept anyth christ said don't
+feel animos toward even though persecut jesus
+discipl eventu crucifi bear ill anyth feel piti
+jesus die pay price sin jew mere fulfil prophesi
+jesus knew die even began ministri demonstr great
+depth love   jesus certain demonstr great depth
+love children die today davidian complex  sorri
+event today made even negat concer organ religion
+understand sympath pain happen waco sad tradgedi
+don't take christian though branch davidian organ
+religion cult led ego maniac cult leader christian
+faith stand shoulder one man lord lord king king
+jesus christ btw david koresh jesus christ claim
+god  malcolm lee  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jesus, 4859, 0.409302691974
+jew, 4862, 0.272062342231
+christ, 1729, 0.265734735686
+die, 2628, 0.176461367511
+everyon, 3241, 0.171942335675
+love, 5366, 0.171233129226
+depth, 2545, 0.155967202671
+davidian, 2398, 0.151629292955
+king, 5024, 0.150501241948
+cult, 2289, 0.148369777069
+lord, 5347, 0.14408327329
+demonstr, 2520, 0.138839411075
+religion, 7261, 0.121811066996
+organ, 6287, 0.120417498254
+accept, 208, 0.118175198503
+feel, 3429, 0.113081527824
+tradgedi, 9036, 0.112136662469
+maniac, 5480, 0.112136662469
+today, 8964, 0.109945972988
+sympath, 8646, 0.10892767814
+piti, 6645, 0.106305747033
+animos, 516, 0.104088935868
+crucifi, 2252, 0.102168646691
+christian, 1732, 0.1020797453
+god, 3926, 0.101369545912
+anyth, 555, 0.0986009530238
+don, 2811, 0.0978570309848
+great, 4016, 0.0956617766418
+prophesi, 6927, 0.0941209200901
+discipl, 2689, 0.0931287469257
+ministri, 5742, 0.0905068158182
+ill, 4505, 0.0905068158182
+ego, 3012, 0.0889916465845
+shoulder, 7911, 0.0882900046535
+persecut, 6558, 0.0876210092903
+deiti, 2495, 0.0876210092903
+waco, 9603, 0.0857826622554
+malcolm, 5462, 0.0841529043123
+fulfil, 3717, 0.0836482628172
+salvat, 7597, 0.0822326151359
+negat, 5996, 0.0813607841544
+grace, 3975, 0.0813607841544
+began, 993, 0.0797612697702
+pain, 6389, 0.0793877213153
+led, 5188, 0.0776529935125
+sad, 7571, 0.0767044647122
+leader, 5173, 0.0764016996993
+branch, 1269, 0.076105177711
+lee, 5190, 0.0739303543336
+bear, 971, 0.0724910734392
+knew, 5045, 0.071822078076
+eventu, 3233, 0.0707719177083
+complex, 1976, 0.0703724251603
+mere, 5641, 0.0697932539924
+option, 6276, 0.0696052669112
+sin, 7976, 0.0694197055376
+koresh, 5065, 0.069055615029
+kent, 4987, 0.0687005153348
+cheer, 1687, 0.0680155855578
+btw, 1355, 0.0678493316029
+price, 6857, 0.0668902558224
+faith, 3367, 0.0655618529401
+event, 3232, 0.0652826051964
+pay, 6474, 0.0651449887689
+children, 1707, 0.0648736447391
+stand, 8311, 0.0622965835804
+david, 2397, 0.0580475697801
+save, 7646, 0.0578813158252
+open, 6258, 0.0570777097419
+claim, 1782, 0.0560231468617
+expect, 3290, 0.0557355211353
+sorri, 8142, 0.0554535354941
+hard, 4167, 0.0544427584371
+understand, 9246, 0.0515628687193
+word, 9829, 0.0515097048624
+true, 9121, 0.0512989932988
+kind, 5021, 0.0512989932988
+state, 8342, 0.0509886041218
+certain, 1619, 0.0508866121558
+happen, 4159, 0.0506847729558
+avail, 811, 0.0499521455996
+man, 5471, 0.0496692353558
+cours, 2190, 0.0492097455679
+said, 7583, 0.0478720351499
+peopl, 6530, 0.0390173756777

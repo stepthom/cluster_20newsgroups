@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104465
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: gt0523e@prism.gatech.EDU (Michael Andre Mule)
+Subject: Militello update
+Distribution: usa
+Organization: Georgia Institute of Technology
+Lines: 22
+
+HEY!!! All you Yankee fans who've been knocking my prediction of Baltimore.
+You flooded my mailbox with cries of "Militello's good, Militello's good."
+
+Where is he??!! I noticed he got skipped over after that oh so strong first
+outing.  He's not by any chance in Columbus  now, is he?  Please don't tell
+me you're relying on this guy to be the *fourth*, not the fifth, but the 
+*fourth* starter on this brittle pitching staff.  
+
+As for the O's, it's still early.
+
+
+See y'all at the ballyard
+Go Braves
+Chop Chop
+
+Michael Mule'
+
+-- 
+Michael Andre Mule
+Georgia Institute of Technology, Atlanta Georgia, 30332
+uucp:	  ...!{decvax,hplabs,ncar,purdue,rutgers}!gatech!prism!gt0523e
+Internet: gt0523e@prism.gatech.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ militello updat     hey yanke fan who'v knock
+predict baltimor flood mailbox cri militello good
+militello good  notic got skip strong first outing
+he chanc columbus pleas don't tell you'r reli guy
+fourth fifth fourth starter brittl pitch staff  o
+it still earli   see y'all ballyard brave chop
+chop  michael mule   michael andr mule georgia
+institut technolog atlanta georgia uucp decvax
+hplab ncar purdu rutger gatech prism gt0523e
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+militello, 5716, 0.42728266114
+mule, 5916, 0.289657224268
+chop, 1721, 0.254390526145
+georgia, 3848, 0.231882209714
+fourth, 3630, 0.229483231334
+michael, 5680, 0.185873699569
+brittl, 1321, 0.158958718948
+gt0523e, 4074, 0.147550707663
+ballyard, 885, 0.147550707663
+outing, 6326, 0.144828612134
+mailbox, 5448, 0.144828612134
+decvax, 2460, 0.1349313241
+flood, 3548, 0.133420600848
+hplab, 4409, 0.132014151149
+skip, 8009, 0.13069850532
+ncar, 5974, 0.13069850532
+rutger, 7554, 0.128297446899
+columbus, 1914, 0.128297446899
+purdu, 6989, 0.126149626953
+prism, 6876, 0.126149626953
+cri, 2228, 0.120031864281
+gatech, 3789, 0.117884044335
+reli, 7255, 0.114741615667
+andr, 503, 0.114167340085
+fifth, 3471, 0.113065156258
+knock, 5050, 0.107882482748
+starter, 8335, 0.10516038722
+good, 3948, 0.104804436553
+hey, 4283, 0.104799573641
+baltimor, 887, 0.10341698051
+staff, 8301, 0.0989350494441
+atlanta, 749, 0.0984055278537
+uucp, 9388, 0.0981458372714
+yanke, 9933, 0.0950403053283
+notic, 6120, 0.0941727090737
+institut, 4683, 0.0937523759341
+predict, 6816, 0.092345926235
+strong, 8456, 0.0903149285855
+chanc, 1649, 0.0886292219847
+updat, 9333, 0.088308184877
+brave, 1277, 0.0872227722856
+earli, 2951, 0.0845384625603
+fan, 3381, 0.0811329923712
+technolog, 8743, 0.0810212910779
+guy, 4100, 0.0765393600123
+pitch, 6643, 0.0744183806688
+got, 3960, 0.0668911842636
+tell, 8767, 0.066614579816
+pleas, 6688, 0.0599684957675
+don, 2811, 0.0462389015419

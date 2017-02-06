@@ -1,0 +1,120 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38881
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rigby@echo.unr.edu (Wayne Rigby)
+Subject: Re: Need gif/iff file format
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 22
+
+In article <1rkjm5$i2q@bigboote.WPI.EDU> rtaraz@bigwpi.WPI.EDU (Ramin Taraz) writes:
+>Could somebody please _email_ me some info on either what gif or iff
+>file formats are, or where I can get such info?
+
+Well, GIF stands for Graphics Interchange Format and was put forth by
+Compuserve back in 1987(?) or so.  It was to create a format that could be
+read and displayed by any system.  GIF is limited to 8 bit color but has
+a built in compression scheme (LZW?).
+
+IFF is not really a graphics format, but rather a standard way to package
+images, sounds, animations, text, or whatever into one file.  IFF was
+created by Electronic Arts, I do believe (I could be wrong), for the Amiga.
+It was quickly adopted as pretty much the standard file format for the Amiga.
+The most common image format for the IFF package is an ILBM (InterLeaved
+BitMap?) but many others exist.  This format supports 24 bit color images.
+
+Information on both of these and many more are available via anonymous ftp at
+zamenhof.cs.rice.edu in the directory /pub/graphics.formats
+(Taken from the FAQ for this news group.)  :)
+
+Wayne Rigby
+rigby@cs.unr.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need gif iff file format     could somebodi pleas
+email info either gif iff file format get info
+well gif stand graphic interchang format put forth
+compuserv back creat format could read display
+system gif limit bit color built compress scheme
+lzw  iff realli graphic format rather standard way
+packag imag sound anim text whatev one file iff
+creat electron art believ could wrong amiga quick
+adopt pretti much standard file format amiga
+common imag format iff packag ilbm interleav
+bitmap mani other exist format support bit color
+imag  inform mani avail via anonym ftp zamenhof
+rice edu directori pub graphic format taken faq
+news group  wayn rigbi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+format, 3612, 0.532687581171
+iff, 4492, 0.441083248295
+gif, 3869, 0.24970145222
+file, 3477, 0.204699556599
+amiga, 472, 0.153655275078
+imag, 4512, 0.148719887736
+graphic, 3997, 0.146068466417
+packag, 6375, 0.128829839506
+standard, 8313, 0.121160858531
+color, 1907, 0.118877767127
+info, 4636, 0.116445353938
+rigbi, 7398, 0.115318415247
+creat, 2217, 0.114342500622
+zamenhof, 9972, 0.112018379565
+interleav, 4714, 0.112018379565
+lzw, 5409, 0.109322054086
+rice, 7381, 0.107042343376
+interchang, 4706, 0.101767532453
+ilbm, 4504, 0.100358004854
+bit, 1122, 0.0997600770707
+adopt, 278, 0.0967914962636
+compuserv, 1991, 0.0939201528091
+wayn, 9667, 0.0922752539875
+scheme, 7680, 0.0922752539875
+forth, 3616, 0.0865406491514
+mani, 5479, 0.0838990921671
+bitmap, 1126, 0.0828239987002
+compress, 1986, 0.0765562749475
+anonym, 532, 0.0734184585846
+electron, 3034, 0.0729897663573
+art, 660, 0.072369164267
+pub, 6971, 0.071580238758
+somebodi, 8121, 0.0706498158642
+directori, 2669, 0.0701184229028
+faq, 3385, 0.0691097015772
+taken, 8678, 0.0669934051961
+text, 8822, 0.0661715912088
+built, 1381, 0.0647741806492
+limit, 5278, 0.064653454703
+whatev, 9718, 0.0645337063054
+common, 1948, 0.0645337063054
+stand, 8311, 0.064064179686
+anim, 515, 0.0638348906544
+display, 2734, 0.0637215656072
+quick, 7036, 0.0630592677915
+email, 3060, 0.0622199591102
+ftp, 3709, 0.0597808374405
+sound, 8150, 0.0580678185247
+wrong, 9869, 0.0542828591932
+pretti, 6851, 0.0542233466529
+exist, 3283, 0.0530259076326
+edu, 3001, 0.0524353489173
+group, 4064, 0.0514677471611
+avail, 811, 0.0513694820401
+news, 6031, 0.0510785445335
+support, 8576, 0.0509351943356
+inform, 4637, 0.0486080073527
+believ, 1009, 0.0456698969843
+read, 7135, 0.0450183005675
+realli, 7150, 0.043883677374
+pleas, 6688, 0.0435048290677
+need, 5993, 0.0397626255279
+way, 9666, 0.0386858147945

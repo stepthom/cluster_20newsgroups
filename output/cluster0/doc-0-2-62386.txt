@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62386
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tombaker@bumetb.bu.edu (Thomas A. Baker)
+Subject: Re: Soyuz and Shuttle Comparisons
+Reply-To: tombaker@bumetb.bu.edu (Thomas A. Baker)
+Organization: Thomas A. Baker, UNLIMITED
+Lines: 22
+
+In article <511151978@ofa123.fidonet.org> David.Anderman@ofa123.fidonet.org writes:
+>The most revealing comparison between Shuttle and Soyuz is cost. All
+>other comparisons are apples and oranges.
+>
+>--- Maximus 2.01wb
+
+I like this statement, though for my own reasons.  Cost comparisons depend
+a lot on whether the two options are similar, and *then* it becomes very
+revealing to consider what their differences are.  Can Soyuz launch the
+Long Exposure Facility?  Course not.  Will the Shuttle take my television 
+relay to LEO by year's end?  Almost certainly not, but the Russians are
+pretty good about making space accessible on a tight schedule.
+
+Comparing S and SS points up that there are TWO active space
+launcher-and-work-platform resources, with similarities and differences.
+Where they are in direct competition, we may get to see some market
+economics come into play.
+
+tombaker
+                                   --------------------------------------
+                                   My employer's opinions are not my own.
+                                   I am self-employed.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ soyuz shuttl comparison      reveal comparison
+shuttl soyuz cost comparison appl orang  maximus
+01wb  like statement though reason cost comparison
+depend lot whether two option similar becom reveal
+consid differ soyuz launch long exposur facil
+cours shuttl take televis relay leo year end
+almost certain russian pretti good make space
+access tight schedul  compar point two activ space
+launcher work platform resourc similar differ
+direct competit get see market econom come play
+tombak  employ opinion self employ
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+comparison, 1962, 0.44344139713
+soyuz, 8163, 0.40311175155
+shuttl, 7929, 0.247900664188
+reveal, 7352, 0.227740408347
+employ, 3077, 0.222664675019
+similar, 7961, 0.170015019719
+cost, 2169, 0.156010289609
+orang, 6279, 0.139321781631
+maximus, 5561, 0.135892063772
+01wb, 4, 0.135892063772
+exposur, 3313, 0.128100920348
+relay, 7252, 0.127047839076
+differ, 2633, 0.126434005955
+televis, 8765, 0.125091065457
+competit, 1970, 0.120886516636
+tight, 8929, 0.120139867676
+leo, 5216, 0.120139867676
+econom, 2984, 0.118723403756
+launcher, 5148, 0.117398390249
+space, 8164, 0.116472731946
+appl, 583, 0.113336912277
+russian, 7551, 0.10483774753
+platform, 6676, 0.104153331365
+option, 6276, 0.0993711105347
+facil, 3348, 0.0991061961023
+resourc, 7320, 0.0975847161806
+self, 7776, 0.0952754775327
+market, 5514, 0.0935985798844
+schedul, 7678, 0.0933982799185
+statement, 8343, 0.0926160678383
+depend, 2537, 0.0916784353266
+activ, 252, 0.0876922990304
+access, 209, 0.0876922990304
+compar, 1960, 0.0863767227028
+becom, 983, 0.0822825960352
+launch, 5147, 0.0807197321373
+direct, 2667, 0.0786752000119
+opinion, 6266, 0.0769050289567
+pretti, 6851, 0.0752754428778
+certain, 1619, 0.0726476513295
+consid, 2059, 0.0720049023052
+end, 3091, 0.0707767936853
+cours, 2190, 0.0702536931931
+play, 6681, 0.0677068199122
+reason, 7156, 0.0662220345198
+long, 5336, 0.0646891897577
+lot, 5356, 0.0640589216393
+come, 1923, 0.0595350290395
+work, 9833, 0.0581645806424
+point, 6710, 0.0579507184622
+good, 3948, 0.0527753331951
+year, 9943, 0.0515972451403
+make, 5459, 0.0514934240156
+like, 5272, 0.0432294871963

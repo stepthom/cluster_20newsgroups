@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84204
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: salem@pangea.Stanford.EDU (Bruce Salem)
+Subject: Re: Ancient references to Christianity (was: Albert Sabin)
+Organization: Stanford Univ. Earth Sciences
+Lines: 7
+NNTP-Posting-Host: pangea.stanford.edu
+
+In article <C5ztJu.FKx@news.cso.uiuc.edu> cobb@alexia.lis.uiuc.edu (Mike Cobb) writes:
+>Why is the NT tossed out as info on Jesus.  I realize it is normally tossed
+>out because it contains miracles, but what are the other reasons?
+
+	It is not tossed out as a source, but would it be regarded as
+unbiased and independant? 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ancient refer christian albert sabin      toss
+info jesus realiz normal toss contain miracl
+reason  toss sourc regard unbias independ
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+toss, 9010, 0.664243056229
+unbias, 9218, 0.271995894486
+sabin, 7563, 0.239010291517
+albert, 383, 0.227810727507
+miracl, 5751, 0.223848291508
+ancient, 500, 0.211109778076
+independ, 4595, 0.195024257202
+realiz, 7149, 0.178644990244
+normal, 6108, 0.178253727143
+contain, 2079, 0.171155884972
+regard, 7224, 0.1594727079
+jesus, 4859, 0.158289323449
+info, 4636, 0.153266130168
+sourc, 8153, 0.143687808989
+refer, 7213, 0.143527930527
+christian, 1732, 0.138170282004
+reason, 7156, 0.125571054412

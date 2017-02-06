@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39737
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: eric@ithaca.com (Eric Wagner)
+Subject: Re: Email address of ITHACA(HOOPS) ?
+Organization: Ithaca Software
+Lines: 12
+
+Ithaca technical support can be reached at:
+
+     tech_support@ithaca.com
+
+or by phone at:
+ 
+     510-523-5900
+
+-- 
+Eric Wagner               PP-ASEL-IA
+Ithaca Software           Skylane N613WD
+eric@ithaca.com           Oakland Flyers
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ email address ithaca hoop    ithaca technic
+support reach    phone     eric wagner asel ithaca
+softwar skylan n613wd
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ithaca, 4800, 0.810399864669
+hoop, 4368, 0.275886392377
+wagner, 9608, 0.270133288223
+eric, 3170, 0.189334022491
+technic, 8737, 0.165670142205
+phone, 6601, 0.163772039831
+reach, 7128, 0.162260849484
+email, 3060, 0.157019004045
+address, 264, 0.145017084327
+support, 8576, 0.128540641939
+softwar, 8103, 0.124560479429

@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84144
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@post.RoyalRoads.ca (Malcolm Lee)
+Subject: Re: Who's next?  Mormons and Jews?
+Organization: Royal Roads Military College, Victoria, B.C.
+Distribution: usa
+Lines: 21
+
+
+In article <9601@blue.cis.pitt.edu>, rjl+@pitt.edu (Richard J. Loether) writes:
+|> 
+|> Yes, of course, as in Matthew 10:34-35 "Do not suppose that I have come to 
+|> bring peace to the earth; it is not peace I have come to bring but a sword..."
+|> :
+
+Remember the armor of God?  The sword that Christians wield is the
+Word of God, the Bible.
+
+God be with you,
+
+Malcolm Lee  :)
+
+
+|> RJL
+|> -- 
+|> Rich Loether          Snail mail: University of Pittsburgh     The Ideas:
+|> EMail: rjl+@pitt.edu              Computing and Info Services      Mine,
+|> Voice: (412) 624-6429             600 Epsilon Drive                   all
+|> FAX  : (412) 624-6426             Pittsburgh, PA 15238                  Mine.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ who next mormon jew        yes cours matthew
+suppos come bring peac earth peac come bring sword
+rememb armor god sword christian wield word god
+bibl  god  malcolm lee   rjl  rich loether snail
+mail univers pittsburgh idea  voic epsilon drive
+fax pittsburgh mine
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sword, 8641, 0.370070377305
+pittsburgh, 6648, 0.324888742213
+peac, 6495, 0.311679782701
+god, 3926, 0.305154089492
+bring, 1316, 0.244051724008
+wield, 9753, 0.225044322248
+epsilon, 3153, 0.213342400828
+armor, 646, 0.198599723372
+snail, 8072, 0.181635912611
+malcolm, 5462, 0.168884403185
+come, 1923, 0.167380538075
+rich, 7382, 0.154556991732
+matthew, 5554, 0.149399859272
+mormon, 5863, 0.148879836387
+lee, 5190, 0.148369017931
+voic, 9567, 0.145480560345
+jew, 4862, 0.136498813298
+bibl, 1071, 0.126644594048
+drive, 2873, 0.125247846198
+fax, 3413, 0.121224130191
+suppos, 8577, 0.117345650109
+rememb, 7269, 0.106284452042
+yes, 9951, 0.10512987851
+word, 9829, 0.103373565476
+christian, 1732, 0.102430670712
+earth, 2956, 0.100535865006
+mail, 5447, 0.0992152200646
+cours, 2190, 0.0987578334818
+idea, 4482, 0.0986672196262
+univers, 9282, 0.0959082976673

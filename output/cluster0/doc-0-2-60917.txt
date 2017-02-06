@@ -1,0 +1,159 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60917
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: fleice_mike@tandem.com (Mike Fleice)
+Subject: Last call: S/W wizard position at Tandem (Cupertino CA)
+Nntp-Posting-Host: 130.252.132.77
+Organization: Tandem Computers Incorporated, Cupertino, CA
+Lines: 28
+
+Well, we got some responses and are doing some interviews with interesting
+responders. However, just in case the other posting was overlooked by an
+incredibly talented person ... Mea Culpa for posting this here for Mike,
+but we're looking for someone special:
+
+   Tandem Computers is currently looking for a software wizard to help
+ us architect & implement a fault-tolerant generalized instrumentation
+ subsystem as part of our proprietary operating system kernel (TNS
+ Kernel). The TNS Kernel is a proprietary, loosely-coupled parallel,
+ message-based operating system. The TNS Kernel has wide connectivity
+ to open standards.
+   In this key individual contributor role, you will work with other
+ developers working on various components of the Transaction Management
+ Facility.
+   Your background needs to encompass some of the following 4 categories
+ (3 of 4 would be excellent):
+   Category 1. Math: Working knowledge of statistics, real analysis, as
+ used in experimental physics or chemistry, or in engineering.
+   Category 2. Working knowledge of telemetry issues-- i.e. time series,
+ autocorrelation, and statistical correlation of data streams.
+   Category 3. Integration & Test -- Instrumentation of systems under test,
+ i.e. payloads, flight modules, etc.
+   Category 4: Software Engineering: programming skills, algorithms, and
+ systems software techniques.
+
+   Please send your resume to Mike Fleice, Tandem Computers 10555
+ Ridgeview Ct., LOC 100-27, Cupertino, CA 95014-0789; Fax (408) 285-0813;
+ or e-mail fleice_mike@tandem.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ last call wizard posit tandem cupertino     well
+got respons interview interest respond howev case
+post overlook incred talent person mea culpa post
+mike we'r look someon special  tandem comput
+current look softwar wizard help architect
+implement fault toler general instrument subsystem
+part proprietari oper system kernel tns kernel tns
+kernel proprietari loos coupl parallel messag base
+oper system tns kernel wide connect open standard
+key individu contributor role work develop work
+various compon transact manag facil background
+need encompass follow categori excel categori math
+work knowledg statist real analysi use experiment
+physic chemistri engin categori work knowledg
+telemetri issu time seri autocorrel statist correl
+data stream categori integr test instrument system
+test payload flight modul etc categori softwar
+engin program skill algorithm system softwar
+techniqu  pleas send resum mike fleic tandem
+comput ridgeview loc cupertino fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+categori, 1560, 0.381850595103
+kernel, 4991, 0.379086980667
+tandem, 8690, 0.325358625814
+wizard, 9811, 0.191835612952
+proprietari, 6935, 0.178676332405
+work, 9833, 0.162256975467
+instrument, 4686, 0.150401285903
+statist, 8348, 0.143899213029
+softwar, 8103, 0.143360931208
+knowledg, 5053, 0.127619371925
+mike, 5710, 0.123606098588
+oper, 6261, 0.119892612618
+test, 8812, 0.117660086786
+engin, 3109, 0.111702891135
+culpa, 2288, 0.111647872017
+architect, 616, 0.111647872017
+resum, 7333, 0.100036873686
+comput, 1993, 0.0992798013997
+telemetri, 8759, 0.0985283088957
+encompass, 3087, 0.0985283088957
+transact, 9046, 0.0971636460474
+contributor, 2104, 0.0947717451668
+overlook, 6346, 0.093710658129
+loos, 5345, 0.0927228097301
+stream, 8438, 0.091798739266
+subsystem, 8505, 0.0893381662025
+correl, 2157, 0.0866026138813
+chemistri, 1692, 0.0854087457742
+post, 6766, 0.0836337999378
+interview, 4726, 0.0832836499308
+skill, 8006, 0.0814335805061
+incred, 4591, 0.0810061421169
+experiment, 3297, 0.0790416796255
+toler, 8974, 0.0769927441887
+role, 7463, 0.0769927441887
+fault, 3407, 0.0766780475057
+modul, 5815, 0.0763701190207
+talent, 8683, 0.0760686737247
+math, 5544, 0.0760686737247
+parallel, 6420, 0.0749226124155
+integr, 4694, 0.074382241769
+compon, 1980, 0.0738615253777
+techniqu, 8740, 0.0733590835551
+background, 855, 0.0733590835551
+look, 5341, 0.0714646427183
+payload, 6477, 0.0710815757413
+wide, 9747, 0.0696786802329
+implement, 4544, 0.0691171132498
+facil, 3348, 0.0691171132498
+respond, 7322, 0.0685767426033
+excel, 3261, 0.0685767426033
+connect, 2046, 0.0684010579121
+analysi, 490, 0.0678865789954
+key, 4994, 0.0657035149648
+special, 8198, 0.0638096859623
+various, 9432, 0.0631897569853
+individu, 4604, 0.0625955587464
+physic, 6613, 0.0622505270463
+flight, 3544, 0.0622505270463
+algorithm, 407, 0.0622505270463
+fax, 3413, 0.0601411137047
+coupl, 2187, 0.0595644670755
+messag, 5650, 0.0591925468742
+standard, 8313, 0.0586521762276
+seri, 7805, 0.0583894510089
+issu, 4793, 0.0583894510089
+open, 6258, 0.0568289147544
+posit, 6761, 0.0562195409734
+general, 3818, 0.0552814947906
+respons, 7323, 0.0551424827987
+send, 7785, 0.0550048074813
+manag, 5472, 0.0546663018171
+develop, 2588, 0.0533259895235
+data, 2385, 0.0530245442275
+current, 2299, 0.0518784829183
+case, 1540, 0.0497818997747
+howev, 4406, 0.0493600587753
+real, 7144, 0.0490855815645
+person, 6562, 0.0477044516382
+follow, 3578, 0.0470608321515
+got, 3960, 0.0469823764884
+someon, 8124, 0.0467880977589
+base, 923, 0.0448087993706
+program, 6905, 0.0444437753152
+pleas, 6688, 0.0421200861759
+help, 4249, 0.0420644817461
+need, 5993, 0.0384969956143
+time, 8936, 0.0340201569579
+use, 9363, 0.0316221723199

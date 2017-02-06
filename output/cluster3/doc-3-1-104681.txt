@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104681
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cs902043@ariel.yorku.ca (SHAWN LUDDINGTON)
+Subject: Let's play the name game!
+Organization: York University, Toronto, Canada
+Lines: 10
+
+How about changing team names!
+Post your choices!
+
+Here I'll start:
+How about the 
+Baltimore Baseblazers
+San Francisco Quakes
+
+Shawn - Go Rangers!!!!!!!!!!!!!!!!!!!
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ let play name game    chang team name post choic
+i'll start  baltimor baseblaz san francisco quak
+shawn ranger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baseblaz, 926, 0.402422172044
+quak, 7012, 0.390906166348
+shawn, 7863, 0.350215411899
+francisco, 3652, 0.291977509921
+ranger, 7095, 0.278671449881
+baltimor, 887, 0.261811910654
+choic, 1717, 0.238408980542
+san, 7603, 0.233295091332
+chang, 1650, 0.185426144725
+team, 8732, 0.171355506854
+play, 6681, 0.17019572637
+ll, 5314, 0.163483936775
+start, 8334, 0.163358216714
+let, 5225, 0.162982883717
+game, 3761, 0.156435538424
+post, 6766, 0.150724303201

@@ -1,0 +1,218 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62476
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pjc@jet.uk (Peter J Card)
+Subject: Re: Over zealous shuttle critics
+Organization: Joint European Torus
+Lines: 40
+
+We`ve had the the Great Western, the [ dunno ] and the Great Northern
+postulated as Brunel`s masterpiece. Keep boxing the compass chaps, you`ll
+get round to it eventually.
+
+The Great Western was a highly successful transatlantic mail ship,
+with hybrid sail and steam propulsion. The Great Eastern, which broke
+the 'Little Giant' financially and otherwise, was a revolutionary leap
+forward in ship design. A thirty thousand ton all steel vessel, with
+primary steam propulsion, it was at the time easily the biggest ocean
+going vessel ever built. Brunel took advantage of the fact that cargo
+and / or fuel capacity rose with the cube of scale, while drag rose
+with the square, so a really big ship could steam thousands of miles
+without coaling.
+
+Unfortunately, there was no real market for such a beast at the time,
+and it was eventually sold off at scrap values. As another poster
+said, it then went on to a successful career as a telegraph cable
+laying ship. It was in fact the only ship of its day capable of laying
+a transatlantic cable in one go, with the endurance and capacity to
+carry the huge reel all the way, and the manoeuverabilty to dredge for
+defective sections. See Arthur C Clarke`s book "How the World was One"
+[ I think that`s right ]
+
+If that`s how the Shuttle goes down in history, as a technical triumph
+and a financial disaster for the builder, it would not be entirely
+ignoble, but I doubt if history will be so charitable.  Its true the
+Shuttle can do things no other launch system can do, but are they
+worth doing? With low cost access to space, you could have an
+affordable space station for doing shuttle-like extended manned
+missions. As it is, the shuttle is not so much a space-truck as a
+space-RV, ( only not so cheap to run :-( )
+-- 
+__._____.___._____.__._______________________________________________________
+__|_. ._| ._|_._._|__| Peter Card, Joint European Torus, Abingdon
+    | | | |_. | |    | Oxfordshire OX14 3EA UK. tel 0235-464867 FAX 464404
+    | | |  _| | |    | email pjc@jet.uk or compuserve 100010,366 
+  ._| | | |_. | |    | It wasnt me. It was the others. They made me do it.
+--`--~'-+---+-+-+----+-------------------------------------------------------
+- Disclaimer: Please note that the above is a personal view and should not 
+  be construed as an official comment from the JET project.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ zealous shuttl critic    great western dunno
+great northern postul brunel masterpiec keep box
+compass chap get round eventu  great western high
+success transatlant mail ship hybrid sail steam
+propuls great eastern broke littl giant financi
+otherwis revolutionari leap forward ship design
+thirti thousand ton steel vessel primari steam
+propuls time easili biggest ocean go vessel ever
+built brunel took advantag fact cargo fuel capac
+rose cube scale drag rose squar realli big ship
+could steam thousand mile without coal  unfortun
+real market beast time eventu sold scrap valu
+anoth poster said went success career telegraph
+cabl lay ship fact ship day capabl lay transatlant
+cabl one endur capac carri huge reel way
+manoeuverabilti dredg defect section see arthur
+clark book world one think right  shuttl goe
+histori technic triumph financi disast builder
+entir ignobl doubt histori charit true shuttl
+thing launch system worth low cost access space
+could afford space station shuttl like extend man
+mission shuttl much space truck space cheap run
+peter card joint european torus abingdon
+oxfordshir ox14 3ea tel fax  wasnt other made
+disclaim pleas note person view constru offici
+comment jet project
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ship, 7888, 0.322862792758
+steam, 8364, 0.272872971824
+shuttl, 7929, 0.241662586467
+transatlant, 9047, 0.18727449785
+brunel, 1349, 0.181915314549
+vessel, 9486, 0.165268170714
+great, 4016, 0.159760517118
+cabl, 1442, 0.155530215826
+capac, 1499, 0.151151444239
+financi, 3484, 0.148621026879
+lay, 5159, 0.142319889443
+space, 8164, 0.136250227875
+rose, 7481, 0.133205781367
+western, 9709, 0.127595111456
+thousand, 8888, 0.118193060671
+eventu, 3233, 0.118193060671
+propuls, 6936, 0.116558637531
+success, 8513, 0.106610928019
+histori, 4314, 0.103851876937
+torus, 9007, 0.0936372489248
+dredg, 2866, 0.0936372489248
+chap, 1656, 0.0936372489248
+abingdon, 178, 0.0936372489248
+coal, 1857, 0.0909576572747
+charit, 1666, 0.0909576572747
+scrap, 7716, 0.0887682714809
+triumph, 9108, 0.086917172168
+revolutionari, 7366, 0.086917172168
+reel, 7209, 0.086917172168
+constru, 2073, 0.086917172168
+endur, 3099, 0.0853136770071
+dunno, 2921, 0.082634085357
+builder, 1379, 0.082634085357
+fact, 3350, 0.0824106759191
+disast, 2681, 0.0814895648882
+postul, 6773, 0.0804446995633
+cargo, 1519, 0.0794835166392
+steel, 8365, 0.0785936002503
+broke, 1331, 0.0785936002503
+truck, 9120, 0.0762621018402
+northern, 6111, 0.0762621018402
+leap, 5180, 0.0762621018402
+arthur, 663, 0.0762621018402
+thirti, 8877, 0.074926462601
+eastern, 2967, 0.0743105134394
+cube, 2284, 0.0743105134394
+compass, 1963, 0.0743105134394
+defect, 2473, 0.0726321994949
+sail, 7584, 0.0721211276456
+squar, 8276, 0.0716309217893
+ocean, 6194, 0.0716309217893
+joint, 4882, 0.0707067446755
+ton, 8980, 0.0694415359955
+sold, 8109, 0.0694415359955
+beast, 972, 0.0686665331719
+biggest, 1084, 0.0682970155267
+afford, 315, 0.0669231330197
+round, 7494, 0.0666028906834
+drag, 2854, 0.0666028906834
+european, 3222, 0.0654010508888
+clark, 1787, 0.0651184878301
+poster, 6769, 0.0645725585516
+primari, 6863, 0.0640503729802
+tel, 8754, 0.0630695524787
+mile, 5713, 0.0619464564151
+cheap, 1677, 0.0609194740062
+extend, 3319, 0.0607242115588
+jet, 4860, 0.0594396501334
+peter, 6575, 0.059266864765
+section, 7759, 0.0590965303356
+huge, 4427, 0.0589285782841
+disclaim, 2691, 0.0589285782841
+critic, 2237, 0.0589285782841
+advantag, 286, 0.058599561102
+fuel, 3715, 0.0584383724278
+unfortun, 9264, 0.0570774789712
+time, 8936, 0.0570643013247
+easili, 2962, 0.0567949159125
+scale, 7659, 0.0559850556596
+offici, 6207, 0.0558552341149
+career, 1517, 0.0555997271156
+market, 5514, 0.0547459805611
+giant, 3865, 0.0546288247447
+forward, 3621, 0.0545128008863
+worth, 9850, 0.0543978873211
+otherwis, 6313, 0.0538392574852
+capabl, 1498, 0.0538392574852
+doubt, 2830, 0.0537305836581
+went, 9704, 0.0536228844974
+technic, 8737, 0.0533054640095
+took, 8987, 0.0529962183553
+built, 1381, 0.0525959020886
+entir, 3129, 0.0522085015273
+card, 1513, 0.0515592420089
+goe, 3931, 0.0512913860873
+access, 209, 0.0512913860873
+carri, 1530, 0.0507729584179
+station, 8346, 0.0506886887673
+fax, 3413, 0.050439370969
+low, 5368, 0.0494908484319
+valu, 9414, 0.0491167254651
+box, 1254, 0.0490432795118
+comment, 1936, 0.0481952772176
+mission, 5772, 0.0474672739684
+launch, 5147, 0.0472131189591
+view, 9510, 0.0469028077406
+design, 2564, 0.0466602060364
+cost, 2169, 0.0456253518633
+project, 6909, 0.0445713093305
+note, 6118, 0.0433262997737
+book, 1218, 0.0430120439653
+true, 9121, 0.0428360939174
+man, 5471, 0.0414752004608
+mail, 5447, 0.041281824689
+real, 7144, 0.0411672765143
+big, 1082, 0.0409041716812
+high, 4292, 0.0406103741294
+littl, 5308, 0.0403590686007
+world, 9841, 0.0402177919603
+person, 6562, 0.0400089453758
+said, 7583, 0.0399744880324
+anoth, 533, 0.0387023997327
+right, 7399, 0.0365284986296
+run, 7543, 0.0361722918709
+realli, 7150, 0.0356330497016
+day, 2402, 0.0356091047765
+pleas, 6688, 0.0353254291616
+thing, 8869, 0.0328057634089
+way, 9666, 0.031412444075
+think, 8871, 0.0275027757351
+like, 5272, 0.0252850061255

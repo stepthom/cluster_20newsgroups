@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61085
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sysmgr@king.eng.umd.edu (Doug Mohney)
+Subject: Re: Boom! Whoosh......
+Organization: Computer Aided Design Lab, U. of Maryland College Park
+Lines: 24
+Reply-To: sysmgr@king.eng.umd.edu
+NNTP-Posting-Host: queen.eng.umd.edu
+
+In article <C5ut0z.CtG@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry Spencer) writes:
+>In article <1r46ofINNdku@gap.caltech.edu> palmer@cco.caltech.edu (David M. Palmer) writes:
+>>>orbiting billboard...
+>>
+>>I would just like to point out that it is much easier to place an
+>>object at orbital altitude than it is to place it with orbital
+>>velocity.  For a target 300 km above the surface of Earth,
+>>you need a delta-v of 2.5 km/s.  
+>Unfortunately, if you launch this from the US (or are a US citizen),
+>you will need a launch permit from the Office of Commercial Space
+>Transportation, and I think it may be difficult to get a permit for
+>an antisatellite weapon... :-)
+
+Well Henry, we are often reminded how CANADA is not a part of the United States
+(yet).  You could have quite a commercial A-SAT, er sky-cleaning service going
+in a few years. 
+
+"Toronto SkySweepers:  Clear skies in 48 hours, or your money back."
+	   Discount rates available for astro-researchers. 
+
+
+
+    Software engineering? That's like military intelligence, isn't it?
+  -- >                  SYSMGR@CADLAB.ENG.UMD.EDU                        < --
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ boom whoosh        orbit billboard  like point
+much easier place object orbit altitud place orbit
+veloc target surfac earth need delta unfortun
+launch citizen need launch permit offic commerci
+space transport think difficult get permit
+antisatellit weapon  well henri often remind
+canada part unit state yet could quit commerci sat
+sky clean servic go year  toronto skysweep clear
+sky hour money back discount rate avail astro
+research    softwar engin that like militari
+intellig isn't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+permit, 6552, 0.306512362472
+orbit, 6280, 0.277077869875
+sky, 8011, 0.220683488919
+commerci, 1940, 0.215783362552
+launch, 5147, 0.200654164795
+whoosh, 9742, 0.175596039263
+place, 6657, 0.174798289342
+discount, 2695, 0.160597136294
+boom, 1222, 0.159217470755
+citizen, 1776, 0.155476502449
+veloc, 9456, 0.149322626381
+sat, 7626, 0.145915226178
+delta, 2509, 0.142909686195
+weapon, 9674, 0.142210530226
+target, 8704, 0.141530020656
+easier, 2960, 0.1383756896
+need, 5993, 0.137217821541
+transport, 9065, 0.137215599081
+altitud, 452, 0.137215599081
+remind, 7270, 0.134021736497
+canada, 1481, 0.132563191153
+intellig, 4698, 0.132094965236
+clean, 1799, 0.132094965236
+billboard, 1090, 0.131635176282
+astro, 724, 0.129037926553
+militari, 5715, 0.126308255165
+difficult, 2635, 0.124180556909
+unfortun, 9264, 0.12128868124
+henri, 4258, 0.116085332261
+unit, 9278, 0.115838783517
+hour, 4395, 0.114875741054
+offic, 6206, 0.113052280041
+surfac, 8587, 0.111557097798
+rate, 7108, 0.110740465018
+like, 5272, 0.10746042409
+toronto, 9003, 0.10649310681
+servic, 7813, 0.105006224321
+money, 5835, 0.102852860891
+engin, 3109, 0.0995378154637
+research, 7307, 0.0981513334173
+clear, 1803, 0.0979071440271
+object, 6173, 0.0939735891722
+quit, 7043, 0.0934580646378
+isn, 4783, 0.0934580646378
+state, 8342, 0.0904752170492
+earth, 2956, 0.0888908574456
+avail, 811, 0.0886361039499
+softwar, 8103, 0.0851654107921
+space, 8164, 0.0723823597133
+point, 6710, 0.072027326556
+year, 9943, 0.0641305530583
+think, 8871, 0.0584429351031

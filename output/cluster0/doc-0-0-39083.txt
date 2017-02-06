@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39083
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: christen@astro.ocis.temple.edu (Carl Christensen)
+Subject: Re: Where did the hacker ethic go?
+Organization: Temple University
+Lines: 14
+Nntp-Posting-Host: astro.ocis.temple.edu
+X-Newsreader: TIN [version 1.1 PL8]
+
+I think the main reason is that in the good old hacker days of the young(er)
+Gates' and Jobs' of the world, the computer was not as widespread a
+phenomenom as it is now.  With the increased popularity of the PC
+come a plethora of mundane business uses which required more practical
+minded and narrower-focused programmers.
+
+Why be a hacker when you can get a good job programming databases or
+programs for accountants?  Basically, the yuppies caught up and
+disciplined the hackers, and molded them in their own image.
+
+--
+Carl Christensen                /~~\_/~\        ,,,  Dept. of Computer Science
+christen@astro.ocis.temple.edu |  #=#==========#   | Temple University        
+"Curiouser and curiouser!" - LC \__/~\_/        ```  Philadelphia, PA  USA   
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hacker ethic      think main reason good old
+hacker day young gate job world comput widespread
+phenomenom increas popular come plethora mundan
+busi use requir practic mind narrow focus programm
+hacker get good job program databas program
+account basic yuppi caught disciplin hacker mold
+imag   carl christensen dept comput scienc
+curious curious philadelphia usa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hacker, 4112, 0.62294894545
+curious, 2297, 0.235777312711
+job, 4873, 0.206797399374
+mundan, 5924, 0.179562364034
+comput, 1993, 0.168428913297
+disciplin, 2690, 0.16078096274
+carl, 1520, 0.154264615771
+widespread, 9750, 0.151562856062
+program, 6905, 0.15079838343
+narrow, 5955, 0.150316900883
+gate, 3788, 0.149131748741
+focus, 3569, 0.136723385443
+ethic, 3209, 0.136039092292
+caught, 1568, 0.13116464047
+databas, 2386, 0.129562468636
+philadelphia, 6589, 0.125744304991
+dept, 2544, 0.125744304991
+good, 3948, 0.124882478705
+programm, 6906, 0.123229219019
+popular, 6746, 0.116948249865
+usa, 9357, 0.116642701176
+account, 221, 0.116642701176
+busi, 1424, 0.111962244228
+increas, 4590, 0.109578882968
+young, 9962, 0.108469521216
+main, 5450, 0.106592044578
+practic, 6793, 0.106392119166
+basic, 937, 0.0999578952417
+mind, 5733, 0.0946293965465
+old, 6216, 0.0918502775353
+scienc, 7692, 0.0907800251149
+requir, 7302, 0.0903647876452
+imag, 4512, 0.0814245422057
+world, 9841, 0.0813534124317
+reason, 7156, 0.078350730493
+day, 2402, 0.072030861119
+come, 1923, 0.0704389867964
+think, 8871, 0.0556332048165
+use, 9363, 0.0536472479281

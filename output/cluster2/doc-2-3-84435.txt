@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84435
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Is it good that Jesus died?
+Organization: Cookamunga Tourist Bureau
+Lines: 28
+
+In article <1993Apr22.155850.28992@atlastele.com>, jasons@atlastele.com
+(Jason Smith) wrote:
+> For several years all I knew is I really liked dropping 'cid (LSD).
+> Frankly speaking, I didn't really care.  It was fun anyway.
+> 
+> It didn't matter that every child my wife and I want to have are at a 
+> *tremendously* greater risk of serious birth defects.
+> 
+> For several years all I knew is I really liked having sex with as many women
+> as I could convice.  Frankly speaking, I didn't care.  
+> 
+> I didn't care that I was putting each one of them at risk (as well as their
+> future partners).
+
+It seems you lived a fairly 'wild life'-- my background is far more
+traditional, mostly working, working, working. Maybe there's a clear
+indication that the way you lived your life produced a certain 
+amount of anxiety that needed to be released. Religion was one
+possible medicine. While my more stable environment didn't and 
+still does not produce the situation where I feel such guilt.
+
+This is just one possible explanation why you feel this burden,
+while I haven't felt it so far.
+
+Regards,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die    atlastel com jason smith wrote
+sever year knew realli like drop cid lsd frank
+speak didn't realli care fun anyway  didn't matter
+everi child wife want tremend greater risk serious
+birth defect  sever year knew realli like sex mani
+women could convic frank speak didn't care  didn't
+care put one risk well futur partner  seem live
+fair wild life background far tradit most work
+work work mayb there clear indic way live life
+produc certain amount anxieti need releas religion
+one possibl medicin stabl environ didn't still
+produc situat feel guilt  one possibl explan feel
+burden haven't felt far  regard kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+didn, 2625, 0.325715470368
+care, 1516, 0.230328440543
+risk, 7416, 0.217365404048
+knew, 5045, 0.194792909627
+realli, 7150, 0.173603473785
+produc, 6895, 0.172797714
+speak, 8192, 0.171801837658
+frank, 3655, 0.16688155431
+work, 9833, 0.165747504402
+feel, 3429, 0.153347552869
+cid, 1753, 0.152066240238
+anxieti, 550, 0.152066240238
+sever, 7823, 0.143956088812
+life, 5260, 0.143636389991
+live, 5310, 0.143004748044
+lsd, 5375, 0.138548817402
+far, 3386, 0.130286188147
+guilt, 4087, 0.129080677562
+possibl, 6765, 0.12787512055
+birth, 1115, 0.125031394567
+partner, 6444, 0.123849122359
+jason, 4828, 0.122734446472
+tremend, 9082, 0.120679756386
+stabl, 8298, 0.119728274078
+defect, 2473, 0.117954186226
+medicin, 5609, 0.116328118205
+sex, 7825, 0.115563254726
+burden, 1406, 0.115563254726
+felt, 3439, 0.111513971732
+child, 1705, 0.109766398526
+explan, 3302, 0.10716233355
+wild, 9758, 0.106210851242
+wife, 9755, 0.104017359724
+women, 9819, 0.103204678848
+greater, 4017, 0.100600613872
+fun, 3721, 0.100600613872
+tradit, 9037, 0.100255445235
+background, 855, 0.0999162798356
+year, 9943, 0.09802202098
+smith, 8064, 0.0954306100691
+drop, 2878, 0.0943902824187
+kent, 4987, 0.093163367264
+environ, 3139, 0.0907085112709
+releas, 7253, 0.0852561817989
+com, 1917, 0.0852561817989
+indic, 4600, 0.0849416343525
+haven, 4207, 0.083296853853
+wrote, 9871, 0.0827315528551
+religion, 7261, 0.082592751423
+fair, 3363, 0.082592751423
+situat, 7995, 0.0823180776021
+futur, 3737, 0.0823180776021
+like, 5272, 0.082125347766
+regard, 7224, 0.079885229871
+die, 2628, 0.0797652201453
+jesus, 4859, 0.0792924328955
+matter, 5553, 0.0756785850632
+clear, 1803, 0.07482436739
+certain, 1619, 0.0690062965902
+mayb, 5564, 0.0682626477115
+everi, 3235, 0.0667937541781
+mani, 5479, 0.0553173553325
+want, 9634, 0.0531231371622
+need, 5993, 0.0524335419721
+way, 9666, 0.0510135904464
+good, 3948, 0.0501300486452

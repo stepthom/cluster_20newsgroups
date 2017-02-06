@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104627
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hhenderson@vax.clarku.edu
+Subject: RE: Game Length (was Re: Braves Update!!
+Organization: Clark University
+Lines: 23
+
+nflynn@wvnvms.wvnet.edu writes:
+
+>However, what is with this policy of trying to speed up the games.
+>You are the first person ( non-mediot ) I have seen endorse this policy.
+>I have no problem with the length of games at all and am tired of the
+>ESPN crowd ( and other announcers ) bitching about it.  I have never
+>been in a ballpark filled with people looking at their watches and
+>shouting "Hurry up!"  If I cough up big bucks for a ticket, I don't mind
+>a game that last more than 2:10.  I really don't understand it.
+
+I agree with Nick.  What's the big deal about long games?  If you want
+to watch baseball, there's that much more baseball to watch.  And yes,
+baseball includes the space between plays as well as the plays themselves.
+
+I suspect that a lot of the complaining about long games, especially when
+it's coming from TV people, has to something to do with advertising.
+Probably time "wasted" in the middle of an inning, say by a batter
+stepping out of the box to fiddle with his gloves, or by a pitcher
+walking around behind the mound trying to collect his thoughts, could
+otherwise be sold as advertising time.
+
+Heather
+HHENDERSON@vax.clarku.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat      howev polici tri
+speed game first person non mediot seen endors
+polici problem length game tire espn crowd announc
+bitch never ballpark fill peopl look watch shout
+hurri cough big buck ticket don't mind game last
+realli don't understand  agre nick what big deal
+long game want watch basebal there much basebal
+watch yes basebal includ space play well play
+suspect lot complain long game especi it come
+peopl someth advertis probabl time wast middl
+inning say batter step box fiddl glove pitcher
+walk around behind mound tri collect thought could
+otherwis sold advertis time  heather
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.365969050786
+watch, 9655, 0.250340338247
+polici, 6721, 0.235500084591
+advertis, 291, 0.214655787294
+basebal, 924, 0.203424775288
+length, 5212, 0.199203600263
+fiddl, 3464, 0.156906013601
+heather, 4228, 0.140588322729
+cough, 2175, 0.140588322729
+big, 1082, 0.137084559656
+play, 6681, 0.13271998817
+shout, 7913, 0.131697680693
+bitch, 1123, 0.131697680693
+hurri, 4449, 0.13030939311
+endors, 3096, 0.13030939311
+mediot, 5611, 0.129010736806
+long, 5336, 0.126804781417
+mound, 5885, 0.126640684332
+ballpark, 883, 0.1255527335
+crowd, 2245, 0.123538835257
+espn, 3192, 0.119241256899
+tri, 9087, 0.116551627256
+sold, 8109, 0.116361754713
+tire, 8948, 0.115701951709
+buck, 1359, 0.115701951709
+nick, 6052, 0.115063098409
+glove, 3911, 0.114443905285
+peopl, 6530, 0.109189282862
+complain, 1973, 0.109117711749
+ticket, 8919, 0.106489347784
+middl, 5699, 0.100803481844
+suspect, 8603, 0.097394417813
+collect, 1898, 0.0971347730655
+batter, 949, 0.0956435584621
+time, 8936, 0.0956214769506
+wast, 9654, 0.0944801021433
+step, 8377, 0.0929566145759
+inning, 4657, 0.0927480926192
+announc, 524, 0.0923374214521
+don, 2811, 0.0912835956684
+otherwis, 6313, 0.0902173372695
+updat, 9333, 0.0871678216147
+brave, 1277, 0.0860964254437
+walk, 9617, 0.0855088745417
+especi, 3190, 0.0833165382572
+box, 1254, 0.082180815546
+speed, 8217, 0.0818160528917
+deal, 2418, 0.0813397658336
+pitcher, 6644, 0.0799750267487
+non, 6097, 0.0797563051524
+mind, 5733, 0.0783897830549
+agre, 337, 0.077887956829
+seen, 7767, 0.0746872270206
+yes, 9951, 0.0732989394383
+understand, 9246, 0.0721487870464
+thought, 8887, 0.0702309376188
+howev, 4406, 0.06936889986
+includ, 4579, 0.0692394962709
+person, 6562, 0.0670421675069
+probabl, 6885, 0.0658086667551
+problem, 6887, 0.0633061121097
+lot, 5356, 0.0627846598999
+realli, 7150, 0.0597095690585
+someth, 8126, 0.0592332820003
+come, 1923, 0.0583507566896
+space, 8164, 0.0570779266628
+want, 9634, 0.0548138736715
+say, 7653, 0.0510875156605
+look, 5341, 0.0502169544289

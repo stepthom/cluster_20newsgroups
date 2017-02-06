@@ -1,0 +1,330 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39489
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: abig@netcom.com (Access Bus Industry Gp)
+Subject: ACCESS.bus (Re: ACCESS.bus Software Creator's Contest)
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 92
+
+	Intro to ACCESS.bus (RE: the ACCESS.bus Software Creator's 
+	Contest Announcement)
+
+WHAT IS ACCESS.bus?
+
+ACCESS.bus is a new open industry standard for computer 
+peripheral connectivity.  ACCESS.bus is a serial protocol that 
+uses simple, low-cost I2C technology to link multiple devices to 
+a single PC port.  Peripheral devices such as keyboards or 
+keypads, locators (Mice, Trackballs, Joysticks), printers, VR 
+gloves, digitizers, sensors, actuators or data transmitters and 
+others can be easily daisy chained to the host PC.  Applications 
+such as CAD/CAM, Data Acquisition, Simulation, Virtual Reality, 
+Multiple-Player/Single PC Games, Education and many, many more 
+can now take advantage of ACCESS.bus, the technology that puts 
+Plug and Play on every PC.
+
+The ACCESS.bus offers advantages to end-users and developers of 
+systems and peripherals.  Multiple devices connect to the host 
+computer with only one port.  Common communication methods for a 
+number of device types lead to simplified hardware and software 
+development.  As an open standard, ACCESS.bus enables cross-
+platform use of the same device.
+
+ACCESS.bus TECHNOLOGICAL DESCRIPTION:
+=====================================
+
+ACCESS.bus technology is an open specification, enabling anyone 
+to implement it on host systems or in peripheral devices without 
+fee or royalty.
+ACCESS.bus has a bus topology architecture.  That is, a single 
+host can accommodate up to 125 peripheral devices.  ACCESS.bus 
+data rate is 100 Kbits/sec.
+
+ACCESS.bus Physical Layer
+^^^^^^^^^^^^^^^^^^^^^^^^^
+ACCESS.bus is a serial bus architecture, based on I2C hardware 
+protocol, with one data line and one clock line.
+Standard low-cost I2C microcontrollers handle bit-level 
+handshaking, including automatic arbitration and clock 
+synchronization.  
+
+ACCESS.bus Software Protocols
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The ACCESS.bus communication protocol is composed of three 
+levels: I2C Protocol, Base Protocol, and Application Protocol.
+
+I2C PROTOCOL: This simple and efficient protocol defines 
+arbitration among contending masters without losing data.  I2C 
+provides for cooperative synchronization of bus partners with 
+different clock rates.  Bus transactions include addressing, 
+framing of bits into bytes, and byte acknowledgment by the 
+receiver.  
+
+BASE PROTOCOL: Establishes the asymmetrical interconnect between 
+a host computer and multiple peripherals.  The host becomes the 
+ACCESS.bus manager.  The Base Protocol defines the format of an 
+ACCESS.bus message envelope, which is an I2C bus transaction with 
+additional semantics, including checksum.
+Unique features of the Base Protocol are auto-addressing and hot 
+plugging.  Auto-addressing assigns devices with unique bus 
+addresses, without the need for setting jumpers or switches.  Hot 
+plugging is the ability to attach and detach devices while the 
+system is running, without rebooting.
+
+APPLICATION PROTOCOL: This is the highest level of the ACCESS.bus 
+protocol which defines message semantics specific to particular 
+types of devices.  Each type requires a different Application 
+Protocol.  Three broad device types have been identified: 
+keyboards, locators, and text devices.
+
+ACCESS.bus support on the PC
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+All three levels of the ACCESS.bus protocol are supported on the 
+PC.  An add-on card implements the physical layer and uses the 
+base protocol to communicate with physical ACCESS.bus devices.  
+An ACCESS.bus Manager - TSR under DOS and a DLL under Windows 3.1 
+- controls the operation of the physical layer and interacts with 
+the ACCESS.bus device drivers.  Drivers are available for 
+multiple ACCESS.bus keyboards, locators and printers for DOS and 
+Windows 3.1.  Also available are C language source code examples 
+of the interface from applications to the device drivers.
+
+
+To Contact ABIG (the ACCESS.bus Industry Group):
+------------------------------------------------
+Postal Address:
+370 Altair Way, Suite 215, Sunnyvale, CA 94086
+Internet Email:  abig@netcom.com
+Fax: (408) 991-3773
+Voice: (408) 991-3517
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ access bus access bus softwar creator contest
+intro access bus access bus softwar creator
+contest announc  access bus  access bus new open
+industri standard comput peripher connect access
+bus serial protocol use simpl low cost i2c
+technolog link multipl devic singl port peripher
+devic keyboard keypad locat mice trackbal joystick
+printer glove digit sensor actuat data transmitt
+other easili daisi chain host applic cad cam data
+acquisit simul virtual realiti multipl player
+singl game educ mani mani take advantag access bus
+technolog put plug play everi  access bus offer
+advantag end user develop system peripher multipl
+devic connect host comput one port common communic
+method number devic type lead simplifi hardwar
+softwar develop open standard access bus enabl
+cross platform use devic  access bus technolog
+descript   access bus technolog open specif enabl
+anyon implement host system peripher devic without
+fee royalti access bus bus topolog architectur
+singl host accommod peripher devic access bus data
+rate kbit sec  access bus physic layer  access bus
+serial bus architectur base i2c hardwar protocol
+one data line one clock line standard low cost i2c
+microcontrol handl bit level handshak includ
+automat arbitr clock synchron  access bus softwar
+protocol  access bus communic protocol compos
+three level i2c protocol base protocol applic
+protocol  i2c protocol simpl effici protocol defin
+arbitr among contend master without lose data i2c
+provid cooper synchron bus partner differ clock
+rate bus transact includ address frame bit byte
+byte acknowledg receiv  base protocol establish
+asymmetr interconnect host comput multipl peripher
+host becom access bus manag base protocol defin
+format access bus messag envelop i2c bus transact
+addit semant includ checksum uniqu featur base
+protocol auto address hot plug auto address assign
+devic uniqu bus address without need set jumper
+switch hot plug abil attach detach devic system
+run without reboot  applic protocol highest level
+access bus protocol defin messag semant specif
+particular type devic type requir differ applic
+protocol three broad devic type identifi keyboard
+locat text devic  access bus support  three level
+access bus protocol support add card implement
+physic layer use base protocol communic physic
+access bus devic access bus manag tsr dos dll
+window control oper physic layer interact access
+bus devic driver driver avail multipl access bus
+keyboard locat printer dos window also avail
+languag sourc code exampl interfac applic devic
+driver   contact abig access bus industri group
+postal address altair way suit sunnyval  fax voic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bus, 1419, 0.633683381723
+access, 209, 0.401885918144
+protocol, 6943, 0.393104909692
+devic, 2591, 0.268851983138
+i2c, 4467, 0.190187123049
+peripher, 6547, 0.135066923137
+host, 4386, 0.110294443378
+multipl, 5919, 0.0869763343277
+applic, 585, 0.0735905815143
+address, 264, 0.0652855366946
+base, 923, 0.0630976341392
+keyboard, 4995, 0.06290089229
+data, 2385, 0.0622222148896
+plug, 6697, 0.0609748545256
+layer, 5160, 0.0609748545256
+clock, 1827, 0.0593584319427
+physic, 6613, 0.0584388339747
+level, 5229, 0.0551440443347
+technolog, 8743, 0.0534224454609
+type, 9177, 0.052499982078
+semant, 7780, 0.0509060715851
+driver, 2876, 0.0506580182028
+communic, 1950, 0.0497546333769
+arbitr, 603, 0.0486447421903
+serial, 7806, 0.0469557329879
+transact, 9046, 0.0456070851859
+synchron, 8651, 0.0456070851859
+softwar, 8103, 0.0448609088408
+locat, 5323, 0.0446627449631
+defin, 2482, 0.0442373209978
+singl, 7983, 0.0418061537781
+auto, 798, 0.0415892012835
+standard, 8313, 0.0412956116774
+creator, 2221, 0.0409486500351
+architectur, 617, 0.0406499030171
+printer, 6872, 0.0400895201303
+open, 6258, 0.040011896347
+enabl, 3083, 0.0398259294328
+uniqu, 9276, 0.038430447286
+contest, 2086, 0.0376388626863
+byte, 1438, 0.0372754930425
+port, 6748, 0.036139181533
+comput, 1993, 0.0349502813851
+includ, 4579, 0.0346884211576
+hot, 4389, 0.0339853856529
+advantag, 286, 0.0327962872143
+industri, 4608, 0.0324424844067
+implement, 4544, 0.0324424844067
+connect, 2046, 0.0321063793086
+dos, 2825, 0.0317085885843
+hardwar, 4173, 0.0300110015871
+rate, 7108, 0.0291662886372
+simpl, 7965, 0.0286569008832
+window, 9774, 0.0279586227409
+messag, 5650, 0.0277840492559
+low, 5368, 0.0276984340689
+daisi, 2339, 0.027169589007
+specif, 8203, 0.0266745975646
+reboot, 7161, 0.0262028763692
+mice, 5679, 0.0262028763692
+dll, 2777, 0.0262028763692
+manag, 5472, 0.0256595011118
+cost, 2169, 0.0255350401235
+joystick, 4904, 0.0254530357926
+interconnect, 4707, 0.0254530357926
+develop, 2588, 0.0250303796302
+topolog, 8995, 0.0248403714316
+detach, 2578, 0.0243223710952
+cam, 1469, 0.0243223710952
+royalti, 7505, 0.0238736587938
+transmitt, 9060, 0.0234778664939
+sunnyval, 8545, 0.0234778664939
+postal, 6767, 0.0234778664939
+avail, 811, 0.0233445488158
+support, 8576, 0.0231471894087
+bit, 1122, 0.02266768027
+tsr, 9135, 0.0225111538562
+line, 5285, 0.0222768317023
+use, 9363, 0.0222644244853
+envelop, 3137, 0.0222421822918
+acquisit, 245, 0.0219931535198
+accommod, 213, 0.0219931535198
+intro, 4731, 0.0217613132795
+assign, 703, 0.0217613132795
+broad, 1323, 0.0215444412184
+partner, 6444, 0.0213407212314
+chain, 1637, 0.0209669640967
+sensor, 7792, 0.0207946006418
+compos, 1981, 0.0207946006418
+differ, 2633, 0.0206941312855
+simplifi, 7969, 0.0206306485821
+sec, 7752, 0.0200447600651
+cad, 1445, 0.0199129647164
+contend, 2083, 0.0195460168052
+glove, 3911, 0.0191118200799
+fee, 3426, 0.0191118200799
+cooper, 2125, 0.0191118200799
+mani, 5479, 0.0190637161882
+master, 5537, 0.019011503656
+acknowledg, 239, 0.019011503656
+attach, 760, 0.0189140953677
+link, 5289, 0.0188194313431
+switch, 8638, 0.0184653830664
+effici, 3006, 0.0183824072297
+identifi, 4486, 0.0182223602846
+highest, 4294, 0.0179234655425
+simul, 7974, 0.0177155424897
+establish, 3198, 0.0177155424897
+automat, 803, 0.017583747141
+interfac, 4709, 0.0174569264055
+interact, 4704, 0.0172752415836
+virtual, 9536, 0.0170473338783
+platform, 6676, 0.0170473338783
+cross, 2241, 0.0170473338783
+voic, 9567, 0.0169389260691
+suit, 8529, 0.0169389260691
+educ, 3002, 0.0168860060676
+frame, 3643, 0.0162646021681
+languag, 5113, 0.0162212422034
+digit, 2642, 0.0161784346099
+easili, 2962, 0.0158931427092
+descript, 2557, 0.0158158898668
+realiti, 7148, 0.0157403731911
+featur, 3422, 0.0157403731911
+abil, 177, 0.0157403731911
+handl, 4149, 0.01552350113
+announc, 524, 0.0154200975669
+addit, 263, 0.0152545295656
+contact, 2078, 0.0152223728547
+method, 5666, 0.0151277088301
+text, 8822, 0.0150356386695
+lose, 5350, 0.0147736605533
+offer, 6203, 0.0147457736659
+receiv, 7167, 0.0146906847167
+common, 1948, 0.014663475251
+user, 9366, 0.014504688989
+card, 1513, 0.0144280236718
+add, 260, 0.0144280236718
+fax, 3413, 0.0141146457934
+particular, 6442, 0.0140689260317
+oper, 6261, 0.0140689260317
+control, 2107, 0.0140238199767
+lead, 5172, 0.0136429958559
+becom, 983, 0.0134676334266
+format, 3612, 0.0134487018236
+code, 1871, 0.0133556113652
+requir, 7302, 0.0125009207888
+provid, 6949, 0.0124304706058
+sourc, 8153, 0.0124026989548
+exampl, 3258, 0.0121884207577
+set, 7815, 0.0120362279259
+group, 4064, 0.0116946024013
+player, 6683, 0.0115952744611
+end, 3091, 0.011584417099
+everi, 3235, 0.0115093822286
+play, 6681, 0.0110819380403
+number, 6156, 0.010926887577
+game, 3761, 0.0101859722397
+run, 7543, 0.0101222334356
+new, 6023, 0.00978859149706
+need, 5993, 0.00903494171846
+anyon, 554, 0.00902986949011
+way, 9666, 0.00879026667276

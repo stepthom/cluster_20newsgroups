@@ -1,0 +1,144 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104978
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: wynblatt@sbgrad5.cs.sunysb.edu (Michael Wynblatt)
+Subject: Good Hands (Was Re: Apology for Article)
+Organization: State University of New York at Stony Brook
+Lines: 28
+NNTP-Posting-Host: sbgrad5.cs.sunysb.edu
+Keywords: Mattingly, Fielding, Good-Hands
+
+In article <C5w7zo.5xL@eskimo.com> stevet@eskimo.com (Steven Thornton) writes:
+[stuff deleted]
+>Mattingly scores badly on both counts. He doesn't get to very many
+>balls, and he lets a lot of balls go through. The fact that he "looks
+>smooth", "has great hands", and makes few errors means NOTHING. This is
+>traditional brainless reliance on observations that can easily be
+>misled. Like a lot of bad fielders, Mattingly actually makes himself
+>look better by not having any range. He's nowhere near as bad as Steve
+>Garvey, but that's not much of a compliment. 
+
+I agree with the flavor of this post, but disagree with one specific
+argument.  That "has great hands" means nothing.  It seems to me that
+a first-baseman's defensive value is not entirely (or even primarily)
+from his ability to field grounders or catch popups.  How many such
+chances does he get during a game?  Many fewer than he gets chances
+to catch throws from 2B,SS,3B and P (I mean the total of these is
+much higher than Grounder/Popup totals).  This implies to me that there
+is value in catching these throws well, even if they are high, up-the-line
+or in the dirt.  "Good Hands" are needed for such plays, and thus have
+value.  I don't have any numbers for the relative number of occurences
+of these plays, but I'd guess that the values of these abilities are
+similar.  It's just like: you don't judge catcher's defense primarily
+on how they field bunts and popups. (But not as marked I suppose).
+
+Michael
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good hand apolog articl       stuff delet mat
+score bad count doesn't get mani ball let lot ball
+fact look smooth great hand make error mean noth
+tradit brainless relianc observ easili misl like
+lot bad fielder mat actual make look better rang
+he nowher near bad steve garvey that much
+compliment  agre flavor post disagre one specif
+argument great hand mean noth seem first baseman
+defens valu entir even primarili abil field
+grounder catch popup mani chanc get game mani
+fewer get chanc catch throw mean total much higher
+grounder popup total impli valu catch throw well
+even high line dirt good hand need play thus valu
+don't number relat number occur play i'd guess
+valu abil similar it like don't judg catcher
+defens primarili field bunt popup mark suppos
+michael
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+valu, 9414, 0.280421526985
+catch, 1556, 0.272118727765
+hand, 4145, 0.248673244328
+grounder, 4062, 0.224356745943
+primarili, 6864, 0.194963662593
+bad, 861, 0.189362304798
+mat, 5540, 0.183578235039
+abil, 177, 0.160570829731
+mean, 5595, 0.158905966242
+throw, 8899, 0.153691910981
+chanc, 1649, 0.149036683342
+defens, 2476, 0.148230066414
+mani, 5479, 0.14585470857
+total, 9013, 0.136809995464
+ball, 877, 0.134066160439
+compliment, 1979, 0.1298258633
+field, 3466, 0.129008698974
+misl, 5763, 0.126700904838
+noth, 6119, 0.124736001102
+dirt, 2670, 0.119751306322
+garvey, 3779, 0.117945446166
+flavor, 3529, 0.116311846947
+bunt, 1403, 0.116311846947
+great, 4016, 0.114014848654
+play, 6681, 0.113049161196
+number, 6156, 0.111467459082
+fewer, 3456, 0.107870889188
+lot, 5356, 0.106958314802
+nowher, 6131, 0.100921290672
+smooth, 8069, 0.0991154305159
+baseman, 928, 0.096473315783
+fielder, 3467, 0.0946185545416
+apolog, 571, 0.0914205050569
+impli, 4546, 0.0893612533121
+disagre, 2676, 0.0887263726244
+catcher, 1557, 0.0884175387035
+good, 3948, 0.0881182598337
+tradit, 9037, 0.0881141711577
+make, 5459, 0.0859778734197
+look, 5341, 0.0855482984026
+judg, 4920, 0.084839519003
+occur, 6192, 0.0820912750215
+easili, 2962, 0.0810646317234
+count, 2180, 0.0791792363025
+higher, 4293, 0.0786518156462
+michael, 5680, 0.0781401412647
+don, 2811, 0.0777541805384
+rang, 7094, 0.0774808361782
+error, 3180, 0.0773198977293
+steve, 8390, 0.0763847666208
+entir, 3129, 0.074518341671
+score, 7705, 0.0741150332071
+delet, 2502, 0.0734632505341
+like, 5272, 0.0721796899161
+argument, 631, 0.0715299561937
+observ, 6179, 0.0713029354061
+similar, 7961, 0.0709679445693
+mark, 5512, 0.0697927927988
+suppos, 8577, 0.0696898506342
+near, 5982, 0.0693846825927
+specif, 8203, 0.0680282832514
+guess, 4079, 0.0664285907074
+agre, 337, 0.0663439494545
+stuff, 8472, 0.065681458528
+relat, 7247, 0.0655197609242
+fact, 3350, 0.0588132844826
+high, 4292, 0.0579640795317
+line, 5285, 0.0568126515618
+doesn, 2793, 0.0555978782178
+articl, 665, 0.0552407857417
+actual, 254, 0.0551087710797
+let, 5225, 0.0541290862189
+game, 3761, 0.0519546136008
+better, 1060, 0.051275366096
+post, 6766, 0.0500578258106
+need, 5993, 0.0460836623978

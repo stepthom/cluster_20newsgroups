@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84331
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Nntp-Posting-Host: hymir.ifi.uio.no
+From: joakimr@ifi.uio.no (Joakim Ruud)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Dept. of Informatics, University of Oslo, Norway
+Lines: 20
+Originator: joakimr@hymir.ifi.uio.no
+
+
+ 
+> Tell me are you really this stupid, or are you just pretending.
+
+Tell me are you really this stupid, or are you just pretending. 
+
+> I have fire insurance that I hope I never have to use.
+
+A fire insurance is not an offensive weapon.
+
+> I have a spare tire in my trunk that I hope I never have to use.
+
+A spare tire is not an offensive weapon.
+
+		 	How should one deal with a man who is convinced that
+		 	he is acting according to God's will, and who there-
+     Jokke		fore believes that he is doing you a favour by
+		 	stabbing you in the back?
+ 
+							-Voltaire
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  messag presid know happen       tell realli
+stupid pretend  tell realli stupid pretend  fire
+insur hope never use  fire insur offens weapon
+spare tire trunk hope never use  spare tire offens
+weapon  one deal man convinc act accord god jokk
+fore believ favour stab back  voltair
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+insur, 4690, 0.330639734357
+pretend, 6848, 0.327799258756
+spare, 8186, 0.307427608359
+tire, 8948, 0.30208035261
+weapon, 9674, 0.292785120717
+stupid, 8476, 0.257084726169
+offens, 6202, 0.247266936262
+jokk, 4884, 0.19012898528
+hope, 4372, 0.187789091573
+voltair, 9576, 0.183527457729
+favour, 3412, 0.180759847641
+stab, 8296, 0.175970624879
+fore, 3596, 0.175970624879
+tell, 8767, 0.171674709879
+realli, 7150, 0.155892682958
+presid, 6839, 0.125810761228
+convinc, 2120, 0.125810761228
+accord, 219, 0.118011825276
+act, 249, 0.117298623079
+use, 9363, 0.116027954091
+messag, 5650, 0.108594533636
+deal, 2418, 0.106182932877
+happen, 4159, 0.092580872029
+god, 3926, 0.092580872029
+man, 5471, 0.0907258897315
+believ, 1009, 0.0811190310078
+know, 5052, 0.056580821615

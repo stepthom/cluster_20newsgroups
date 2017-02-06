@@ -1,0 +1,134 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38284
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: esuoc@csv.warwick.ac.uk (Ajay Soni)
+Subject: Re: Please Recommend 3D Graphics Library For M
+Organization: Computing Services, University of Warwick, UK
+Lines: 44
+Distribution: world
+Reply-To: esuoc@csv.warwick.ac.uk
+NNTP-Posting-Host: thyme.csv.warwick.ac.uk
+
+
+
+
+In article 2G1@bcstec.ca.boeing.com, rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
+>Hi Netters,
+>
+>I'm building a CAD package and need a 3D graphics library that can handle
+>some rudimentry tasks, such as hidden line removal, shading, animation, etc.
+>
+>Can you please offer some recommendations?
+>
+>I'll also need contact info (name, address, email...) if you can find it.
+>
+>Thanks
+>
+>(Please Post Your Responses, in case others have same need)
+>
+>Bob Carpenter
+>
+
+I've been given the sites of some excellent 3D objects on all sorts of file formats ...
+Here's where they are:
+
+
+Host plaza.aarnet.edu.au
+
+    Location: /graphics/graphics/mirrors
+      DIRECTORY drwxr-xr-x        512  Apr  4 14:32  avalon.chinalake.navy.mil
+
+Host compute1.cc.ncsu.edu
+
+    Location: /mirrors/wustl/graphics/graphics/mirrors
+      DIRECTORY drwxr-xr-x        512  Mar 14 09:15  avalon.chinalake.navy.mil
+
+Host wuarchive.wustl.edu
+
+    Location: /graphics/graphics/mirrors
+      DIRECTORY drwxr-xr-x        512  Jan  3 06:29  avalon.chinalake.navy.mil
+
+
+See ya!
+					Ajay 8*)
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleas recommend graphic librari           netter
+i'm build cad packag need graphic librari handl
+rudimentri task hidden line remov shade anim etc
+pleas offer recommend  i'll also need contact info
+name address email find  thank  pleas post respons
+case other need  bob carpent   i'v given site
+excel object sort file format here   host plaza
+aarnet edu  locat graphic graphic mirror directori
+drwxr avalon chinalak navi mil  host compute1 ncsu
+edu  locat mirror wustl graphic graphic mirror
+directori drwxr avalon chinalak navi mil  host
+wuarchiv wustl edu  locat graphic graphic mirror
+directori drwxr avalon chinalak navi mil   see
+ajay
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+graphic, 3997, 0.354530690421
+drwxr, 2887, 0.326499601793
+chinalak, 1710, 0.314882521711
+avalon, 812, 0.305871614346
+mirror, 5755, 0.284940295115
+navi, 5968, 0.234886390879
+mil, 5712, 0.232193282366
+host, 4386, 0.220903181088
+directori, 2669, 0.191461752008
+locat, 5323, 0.17890552119
+wustl, 9878, 0.162831283469
+edu, 3001, 0.143177261485
+recommend, 7178, 0.136572982915
+librari, 5250, 0.119503432099
+pleas, 6688, 0.11879204422
+need, 5993, 0.10857377609
+aarnet, 160, 0.101957204782
+compute1, 1994, 0.0995030556493
+ncsu, 5979, 0.0974281021228
+rudimentri, 7530, 0.0956306956221
+carpent, 1529, 0.0956306956221
+plaza, 6686, 0.0926270598338
+netter, 6017, 0.0826401722536
+cad, 1445, 0.0797653465761
+wuarchiv, 9876, 0.0778391299646
+hidden, 4286, 0.0761543647391
+shade, 7835, 0.0746572060885
+task, 8707, 0.0739667699374
+excel, 3261, 0.0644694109898
+remov, 7272, 0.0643042487477
+handl, 4149, 0.0621824758563
+contact, 2078, 0.0609762465689
+bob, 1189, 0.0591788400681
+offer, 6203, 0.059067133586
+packag, 6375, 0.0586293534127
+anim, 515, 0.0581014208914
+email, 3060, 0.0566315379417
+site, 7994, 0.0554757974161
+build, 1378, 0.0543330038814
+format, 3612, 0.0538714539615
+info, 4636, 0.0529932804038
+address, 264, 0.0523028442527
+respons, 7323, 0.0518397819959
+sort, 8144, 0.0517749117313
+object, 6173, 0.0495711480942
+given, 3887, 0.0483132166799
+case, 1540, 0.0468002654339
+file, 3477, 0.0465785050006
+line, 5285, 0.04461714332
+ll, 5314, 0.042640323063
+post, 6766, 0.0393123208842
+thank, 8832, 0.0376955956714

@@ -1,0 +1,134 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60240
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jaskew@spam.maths.adelaide.edu.au (Joseph Askew)
+Subject: Re: Small Astronaut (was: Budget Astronaut)
+Organization: Statistics, Pure & Applied Mathematics, University of Adelaide
+Lines: 25
+
+In article <1pfkf5$7ab@access.digex.com> prb@access.digex.com (Pat) writes:
+
+>Only one problem with sending a corp of Small astronauts.
+>THey may want to start a galactic empire:-)   Napoleon
+>complex you know.  Genghis Khan was a little guy too.  I'd bet
+>Julius caesar never broke 5'1".
+
+I think you would lose your money. Julius was actually rather tall
+for a Roman. He did go on record as favouring small soldiers though.
+Thought they were tougher and had more guts. He was probably right
+if you think about it. As for Napoleon remember that the French
+avergae was just about 5 feet and that height is relative! Did he
+really have a complex?
+
+ObSpace :  We have all seen the burning candle from High School that goes
+out and relights. If there is a large hot body placed in space but in an
+atmosphere, exactly how does it heat the surroundings? Diffusion only?
+
+Joseph Askew
+
+-- 
+Joseph Askew, Gauche and Proud  In the autumn stillness, see the Pleiades,
+jaskew@spam.maths.adelaide.edu  Remote in thorny deserts, fell the grief.
+Disclaimer? Sue, see if I care  North of our tents, the sky must end somwhere,
+Actually, I rather like Brenda  Beyond the pale, the River murmurs on.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ small astronaut budget astronaut      one problem
+send corp small astronaut want start galact empir
+napoleon complex know genghi khan littl guy i'd
+bet julius caesar never broke  think lose money
+julius actual rather tall roman record favour
+small soldier though thought tougher gut probabl
+right think napoleon rememb french averga feet
+height relat realli complex  obspac seen burn
+candl high school goe relight larg hot bodi place
+space atmospher exact heat surround diffus  joseph
+askew   joseph askew gauch proud autumn still see
+pleiad  disclaim sue see care north tent sky must
+end somwher actual rather like brenda beyond pale
+river murmur
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+astronaut, 727, 0.285067429075
+julius, 4928, 0.281093531485
+askew, 690, 0.273049554451
+small, 8054, 0.210650252774
+joseph, 4893, 0.201887012031
+complex, 1976, 0.176402909378
+khan, 5001, 0.145732010779
+candl, 1490, 0.140546765743
+caesar, 1446, 0.140546765743
+pleiad, 6691, 0.136524777226
+gauch, 3794, 0.136524777226
+brenda, 1295, 0.136524777226
+autumn, 808, 0.136524777226
+tougher, 9018, 0.133238573329
+murmur, 5927, 0.133238573329
+tent, 8791, 0.130460127524
+somwher, 8131, 0.130460127524
+soldier, 8110, 0.130460127524
+pale, 6396, 0.130460127524
+gut, 4099, 0.130460127524
+favour, 3412, 0.124031339776
+diffus, 2637, 0.124031339776
+tall, 8685, 0.120745135879
+empir, 3076, 0.117966690074
+broke, 1331, 0.117966690074
+actual, 254, 0.115904681912
+sue, 8519, 0.114467179306
+river, 7422, 0.113436943466
+galact, 3749, 0.11065849766
+proud, 6946, 0.109018802293
+french, 3684, 0.109018802293
+height, 4238, 0.106128751052
+surround, 8595, 0.100943506015
+roman, 7468, 0.0995007986225
+heat, 4226, 0.0995007986225
+corp, 2153, 0.0957582609786
+feet, 3430, 0.0939722247242
+budget, 1367, 0.092347321496
+hot, 4389, 0.091145261473
+north, 6110, 0.0897473347747
+disclaim, 2691, 0.0884500685651
+bet, 1054, 0.0879562234196
+atmospher, 755, 0.0877142839447
+school, 7685, 0.0848331357518
+burn, 1413, 0.0844280800482
+think, 8871, 0.0825617203176
+lose, 5350, 0.0792428350114
+bodi, 1194, 0.0780795784916
+sky, 8011, 0.0779393114783
+goe, 3931, 0.0769868669553
+record, 7184, 0.0762087222208
+money, 5835, 0.0726495779156
+exact, 3253, 0.0715384899423
+care, 1516, 0.0709601230933
+send, 7785, 0.0692422314202
+relat, 7247, 0.0689005298073
+guy, 4100, 0.0676739191968
+seen, 7767, 0.0669002287364
+larg, 5124, 0.0667493975612
+rememb, 7269, 0.0663777509872
+thought, 8887, 0.0629085585113
+end, 3091, 0.0621363980557
+place, 6657, 0.0617339266549
+high, 4292, 0.0609549811109
+littl, 5308, 0.0605777788792
+probabl, 6885, 0.0589473600023
+start, 8334, 0.0570531909314
+problem, 6887, 0.0567057253228
+right, 7399, 0.0548282056422
+realli, 7150, 0.0534841630506
+space, 8164, 0.0511268994963
+want, 9634, 0.0490988999436
+know, 5052, 0.0388238605094
+like, 5272, 0.0379520529867

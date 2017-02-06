@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61387
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: palmer@cco.caltech.edu (David M. Palmer)
+Subject: Re: Political banner in space
+Organization: California Institute of Technology, Pasadena
+Lines: 15
+NNTP-Posting-Host: alumni.caltech.edu
+
+u1452@penelope.sdsc.edu (Jeff Bytof - SIO) writes:
+
+>I propose that PepsiCo, Mcdonalds and other companies could put 
+>into orbit banners that have timely political messages, such as,
+
+>     "Stop the slaughter in Bosnia!"
+
+Or how about:
+    "End light pollution now!!"
+
+Your banner would have no effect on its subject, but my banner would.
+
+-- 
+		David M. Palmer		palmer@alumni.caltech.edu
+					palmer@tgrs.gsfc.nasa.gov
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ polit banner space       propos pepsico mcdonald
+compani could put orbit banner time polit messag
+stop slaughter bosnia   end light pollut  banner
+effect banner
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+banner, 899, 0.807362719302
+polit, 6723, 0.280410877218
+bosnia, 1239, 0.218821333247
+slaughter, 8020, 0.209100938455
+mcdonald, 5573, 0.18708336498
+pollut, 6726, 0.160229867106
+stop, 8413, 0.12214701639
+propos, 6933, 0.121344488571
+compani, 1958, 0.120181010111
+messag, 5650, 0.119430600552
+effect, 3005, 0.115782082974
+light, 5267, 0.114977319413
+orbit, 6280, 0.104562386747
+end, 3091, 0.0995919549696
+space, 8164, 0.0819459774255
+time, 8936, 0.0686412055389

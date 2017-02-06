@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60175
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Alaska Pipeline and Space Station, Go Commerical.
+Article-I.D.: aurora.1993Apr5.191701.1
+Organization: University of Alaska Fairbanks
+Lines: 15
+Nntp-Posting-Host: acad3.alaska.edu
+
+Sounds liek what the FED has to do is sign a 50 or more year lease to use
+certain parts of a space station that is built and designed and such by a
+commerical company or consortium of companies (such as like Alyeska) for a
+small amount of rent in return for certain incentives and such.. Such as tax
+and other right off and also a monopoly on certain products.. The commerical
+builders would have certain perks given to them to make there end easier (taxes
+, contracts, regulatory concesions and such..)
+
+Is it workable, just might work..
+
+After all, if China can lease out Hong Kong and the people of Hong Kong can
+make money, this could work..
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ alaska pipelin space station commer articl aurora
+1993apr5     sound liek fed sign year leas use
+certain part space station built design commer
+compani consortium compani like alyeska small
+amount rent return certain incent tax right also
+monopoli certain product commer builder certain
+perk given make end easier tax contract regulatori
+conces  workabl might work  china leas hong kong
+peopl hong kong make money could work
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+commer, 1938, 0.412505061601
+hong, 4363, 0.327656487036
+kong, 5060, 0.299566873752
+certain, 1619, 0.286794340755
+leas, 5183, 0.283135503321
+tax, 8718, 0.216151217955
+station, 8346, 0.171059453736
+compani, 1958, 0.168585989786
+incent, 4573, 0.149783436876
+consortium, 2064, 0.14665997832
+pipelin, 6637, 0.143954315449
+china, 1709, 0.143954315449
+1993apr5, 48, 0.14156775166
+builder, 1379, 0.139432897604
+workabl, 9834, 0.1375016872
+liek, 5259, 0.131217212388
+rent, 7283, 0.128681110113
+alaska, 378, 0.125388090962
+fed, 3424, 0.123456880558
+aurora, 787, 0.115241195343
+space, 8164, 0.114951136627
+work, 9833, 0.114809441567
+easier, 2960, 0.109877896107
+contract, 2095, 0.10564120013
+make, 5459, 0.101641431784
+sign, 7946, 0.0921781283588
+built, 1381, 0.0887478695821
+return, 7346, 0.0865466901869
+product, 6896, 0.0848333568599
+money, 5835, 0.0816708194623
+sound, 8150, 0.0795594036651
+small, 8054, 0.0789358968427
+design, 2564, 0.0787322531899
+given, 3887, 0.0727266071742
+end, 3091, 0.0698521683572
+articl, 665, 0.0653046223678
+right, 7399, 0.0616364831417
+peopl, 6530, 0.054974982915
+year, 9943, 0.0509231807015
+use, 9363, 0.0447502972954
+like, 5272, 0.0426647388276

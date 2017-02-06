@@ -1,0 +1,233 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61033
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Vandalizing the sky
+Organization: University of Illinois at Urbana
+Lines: 50
+
+yamauchi@ces.cwru.edu (Brian Yamauchi) writes:
+
+>enzo@research.canon.oz.au (Enzo Liguori) writes:
+>>WHAT'S NEW (in my opinion), Friday, 16 April 1993  Washington, DC
+
+>>1. SPACE BILLBOARDS! IS THIS ONE THE "SPINOFFS" WE WERE PROMISED?
+>>In 1950, science fiction writer Robert Heinlein published "The
+>>Man Who Sold the Moon," which involved a dispute over the sale of
+>>rights to the Moon for use as billboard. NASA has taken the firsteps toward this
+>>hideous vision of the future.  Observers were
+>>startled this spring when a NASA launch vehicle arrived at the
+>>pad with "SCHWARZENEGGER" painted in huge block letters on the
+>>side of the booster rockets.  Space Marketing Inc. had arranged
+>>for the ad to promote Arnold's latest movie.
+
+>Well, if you're going to get upset with this, you might as well direct
+>some of this moral outrage towards Glavcosmos as well.  They pioneered
+>this capitalist application of booster adverts long before NASA.
+
+In fact, you can all direct your ire at the proper target by ingoring NASA 
+altogether.  The rocket is a commercial launch vechicle - a Conestoga flying 
+a COMET payload.  NASA is simply the primary customer.  I believe SDIO has a
+small payload as well.  The advertising space was sold by the owners of the
+rocket, who can do whatever they darn well please with it.  In addition, these
+anonymous "observers" had no reason to be startled.  The deal made Space News
+at least twice. 
+
+>>Now, Space Marketing
+>>is working with University of Colorado and Livermore engineers on
+>>a plan to place a mile-long inflatable billboard in low-earth
+>>orbit.
+>>NASA would provide contractual launch services. However,
+>>since NASA bases its charge on seriously flawed cost estimates
+>>(WN 26 Mar 93) the taxpayers would bear most of the expense. 
+
+>>Is NASA really supporting this junk?
+
+>And does anyone have any more details other than what was in the WN
+>news blip?  How serious is this project?  Is this just in the "wild
+>idea" stage or does it have real funding?
+
+I think its only fair to find that out before everyone starts having a hissy
+fit.  The fact that they bothered to use the conditional tense suggests that
+it has not yet been approved.
+
+
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       what new opinion friday april
+washington  space billboard one spinoff promis
+scienc fiction writer robert heinlein publish man
+sold moon involv disput sale right moon use
+billboard nasa taken firstep toward hideous vision
+futur observ startl spring nasa launch vehicl
+arriv pad schwarzenegg paint huge block letter
+side booster rocket space market inc arrang promot
+arnold latest movi  well you'r go get upset might
+well direct moral outrag toward glavcosmo well
+pioneer capitalist applic booster advert long nasa
+fact direct ire proper target ingor nasa altogeth
+rocket commerci launch vechicl conestoga fli comet
+payload nasa simpli primari custom believ sdio
+small payload well advertis space sold owner
+rocket whatev darn well pleas addit anonym observ
+reason startl deal made space news least twice
+space market work univers colorado livermor engin
+plan place mile long inflat billboard low earth
+orbit nasa provid contractu launch servic howev
+sinc nasa base charg serious flaw cost estim
+taxpay bear expens  nasa realli support junk
+anyon detail news blip serious project wild idea
+stage real fund  think fair find everyon start
+hissi fit fact bother use condit tens suggest yet
+approv     find way make one attribut hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+nasa, 5956, 0.399242493063
+billboard, 1090, 0.205218943742
+space, 8164, 0.188073226644
+rocket, 7447, 0.185039674759
+startl, 8336, 0.1825025535
+launch, 5147, 0.156409695796
+sold, 8109, 0.153365981887
+booster, 1225, 0.150838236742
+payload, 6477, 0.131663368883
+market, 5514, 0.120909927218
+observ, 6179, 0.110330396015
+moon, 5851, 0.107676057548
+capitalist, 1504, 0.103401864725
+direct, 2667, 0.101632019621
+tens, 8788, 0.100442841724
+firstep, 3501, 0.100442841724
+conestoga, 2024, 0.100442841724
+advert, 290, 0.100442841724
+blip, 1161, 0.0980251438921
+arnold, 649, 0.0959810095018
+heinlein, 4241, 0.094210299751
+contractu, 2097, 0.094210299751
+schwarzenegg, 7689, 0.0926484230596
+outrag, 6330, 0.0926484230596
+news, 6031, 0.0916005781188
+fact, 3350, 0.0910045698812
+taxpay, 8720, 0.0899874041773
+livermor, 5312, 0.0888335789184
+junk, 4931, 0.0877721625715
+hideous, 4288, 0.0877721625715
+altogeth, 454, 0.086789444528
+spinoff, 8237, 0.0858745559174
+darn, 2370, 0.0842148143891
+long, 5336, 0.0835649989035
+disput, 2737, 0.0827398929286
+sdio, 7735, 0.0820597117762
+hannib, 4155, 0.0802063810404
+approv, 591, 0.0791006887752
+flaw, 3531, 0.0785805975978
+pioneer, 6635, 0.0775978795543
+upset, 9342, 0.0771325467143
+arrang, 652, 0.0758271698035
+pad, 6377, 0.0750232494154
+fiction, 3463, 0.0750232494154
+twice, 9170, 0.0746388565533
+promot, 6914, 0.0742652931121
+friday, 3690, 0.0742652931121
+target, 8704, 0.0735483279549
+owner, 6359, 0.0725407073216
+arriv, 655, 0.0725407073216
+wild, 9758, 0.0722211587217
+sale, 7590, 0.0722211587217
+inflat, 4632, 0.0722211587217
+paint, 6391, 0.0719091296146
+estim, 3201, 0.0713062701111
+primari, 6863, 0.0707296303396
+advertis, 291, 0.0707296303396
+custom, 2311, 0.0701770243313
+block, 1163, 0.0701770243313
+latest, 5141, 0.0696465285828
+bother, 1245, 0.069389032624
+writer, 9866, 0.0691364416497
+comet, 1926, 0.0691364416497
+attribut, 773, 0.0691364416497
+mile, 5713, 0.0684063145805
+condit, 2017, 0.0681716071223
+vandal, 9419, 0.0679409817406
+movi, 5892, 0.0677142988667
+vision, 9542, 0.0674914259699
+stage, 8302, 0.0672722370918
+proper, 6924, 0.0670566124189
+washington, 9651, 0.0668444378891
+bear, 971, 0.0668444378891
+colorado, 1908, 0.066430009623
+spring, 8266, 0.0660281417416
+anonym, 532, 0.0658316844416
+letter, 5227, 0.0654472915795
+huge, 4427, 0.0650737281383
+vehicl, 9449, 0.0635118514469
+charg, 1664, 0.063029593748
+expens, 3294, 0.062564260908
+promis, 6913, 0.0622628700889
+publish, 6974, 0.0612588839972
+fund, 3723, 0.0601974676503
+addit, 263, 0.0601974676503
+taken, 8678, 0.0600705707469
+fit, 3510, 0.0598203628484
+robert, 7437, 0.0596970073058
+moral, 5855, 0.059453686255
+use, 9363, 0.0585732898523
+applic, 585, 0.0580806721181
+whatev, 9718, 0.0578650474451
+sky, 8011, 0.0573408438083
+fli, 3542, 0.0566401194679
+fair, 3363, 0.0561613445333
+commerci, 1940, 0.0560676294775
+futur, 3737, 0.0559745720766
+involv, 4750, 0.055608738525
+april, 595, 0.0550782427765
+low, 5368, 0.0546518193714
+servic, 7813, 0.0545681558434
+simpli, 7967, 0.0543202864732
+plan, 6660, 0.0541575773741
+deal, 2418, 0.053603321316
+everyon, 3241, 0.052849673908
+engin, 3109, 0.0517264101405
+small, 8054, 0.0516592675909
+suggest, 8525, 0.0505669766661
+cost, 2169, 0.050383223723
+opinion, 6266, 0.0496726631181
+scienc, 7692, 0.0495578517931
+project, 6909, 0.0492192642449
+provid, 6949, 0.0490531582082
+orbit, 6280, 0.0479959751017
+earth, 2956, 0.0461935489397
+man, 5471, 0.0458002890594
+howev, 4406, 0.0457144594704
+support, 8576, 0.0456717521059
+real, 7144, 0.0454602543977
+place, 6657, 0.0454183566528
+idea, 4482, 0.0453349562194
+univers, 9282, 0.0440673051526
+reason, 7156, 0.042772558002
+start, 8334, 0.0419746857897
+base, 923, 0.0414993436712
+believ, 1009, 0.0409505498306
+sinc, 7977, 0.0404235682268
+right, 7399, 0.0403377386378
+realli, 7150, 0.0393489111147
+pleas, 6688, 0.0390092114992
+new, 6023, 0.0386277674085
+work, 9833, 0.0375682794591
+anyon, 554, 0.0356336964821
+way, 9666, 0.0346881751676
+make, 5459, 0.0332594049911
+think, 8871, 0.0303708014575

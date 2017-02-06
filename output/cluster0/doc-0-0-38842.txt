@@ -1,0 +1,172 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38842
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: hollasch@kpc.com (Steve Hollasch)
+Subject: Re: Raytracing Colours?
+Summary: Illumination Equations
+Organization: Kubota Pacific Computer, Inc.
+Lines: 44
+
+asecchia@cs.uct.ac.za (Adrian Secchia) writes:
+| When an incident ray (I) strikes an object at point P ...  The reflected
+| ray (R) and the transmitted ray (T) is calculated from the formulae.
+| 
+| Calling the routine recursively on R and T will return the colours 
+| along the rays (R and T) as rCol and tCol. Each object has its own
+| colour oCol and each light source has liCol (1 <= i <= n).
+| 
+| The question is: 
+|   How do you combine rCol, tCol, oCol and all the liCol's to get
+|   the correct resulting colour to return along the I ray?
+
+    First of all (this is NOT a snide response), if you're confused about
+this issue, you will stumble over a lot of other things as well.  I suggest
+that the weakness is your reference material.  Get "An Introduction to Ray
+Tracing" by Andrew Glassner for very good coverage of the raytracing
+algorithm.  You could also refer to the 2nd edition of Foley & Van Dam.
+
+    On to the question.  The simple answer is that you just keep adding up
+all the contributions and then clamping at the maximum intensity.  For
+example, if your intensity values range from 0.0 to 1.0, then keep adding up
+and clamp the resultant values to 1.0 (you might have to clamp the lower
+bound to 0.0 if you have dark bulbs, but that's another issue =^).  So, you
+get some illumination equation like this:
+
+        I = Lambient + Ldiffuse(light[n]) + Lreflected + Ltransparent
+
+    The contribution due to reflection is just summed with the light
+intensity, as is the light due to transparency.  Now, a slightly less
+hand-waving illumination equation is this:
+
+        I = KaLa + KdLd(light[n]) + KrLr + KtLt
+
+    That is, each component of the illumination equation is governed by the
+material constants Ka, Kd, Kr and Kt.  So the maximum you can get from
+transparency for a given object, for example, might be [0.4, 0.1, 0.5] for a
+purple-colored glass object.
+
+    Hopefully this answers your question.  I'll forward my "illumination
+equation sermon" to you also.
+
+______________________________________________________________________________
+Steve Hollasch                                   Kubota Pacific Computer, Inc.
+hollasch@kpc.com                                 Santa Clara, California
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ raytrac colour illumin equat     incid ray strike
+object point reflect ray transmit ray calcul
+formula  call routin recurs return colour along
+ray rcol tcol object colour ocol light sourc licol
+question combin rcol tcol ocol licol get correct
+result colour return along ray  first snide
+respons you'r confus issu stumbl lot thing well
+suggest weak refer materi get introduct ray trace
+andrew glassner good coverag raytrac algorithm
+could also refer 2nd edit foley van dam  question
+simpl answer keep ad contribut clamp maximum
+intens exampl intens valu rang keep ad clamp
+result valu might clamp lower bound dark bulb that
+anoth issu get illumin equat like  lambient
+ldiffus light lreflect ltranspar  contribut due
+reflect sum light intens light due transpar slight
+less hand wave illumin equat  kala kdld light krlr
+ktlt  compon illumin equat govern materi constant
+maximum get transpar given object exampl might
+purpl color glass object  hope answer question
+i'll forward illumin equat sermon also   steve
+hollasch kubota pacif comput inc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+illumin, 4509, 0.36431150153
+equat, 3157, 0.289078343987
+ray, 7118, 0.276082316095
+clamp, 1783, 0.267011401235
+colour, 1912, 0.250430673715
+light, 5267, 0.219057231311
+intens, 4701, 0.184044703418
+tcol, 8724, 0.178007600823
+rcol, 7126, 0.178007600823
+ocol, 6196, 0.178007600823
+licol, 5256, 0.178007600823
+object, 6173, 0.162157155975
+transpar, 9063, 0.142574080405
+maximum, 5560, 0.127313693791
+raytrac, 7121, 0.126591790294
+reflect, 7216, 0.116067313903
+contribut, 2103, 0.100370950981
+question, 7032, 0.099963261397
+materi, 5543, 0.0969771566512
+ad, 257, 0.0945284037156
+return, 7346, 0.0940373182825
+valu, 9414, 0.0900503085975
+issu, 4793, 0.0897818164396
+stumbl, 8473, 0.0858369840624
+result, 7332, 0.0854367345411
+recurs, 7193, 0.0833806104675
+snide, 8077, 0.0813736071045
+hollasch, 4346, 0.0813736071045
+answer, 535, 0.0812590387037
+refer, 7213, 0.0811686234469
+exampl, 3258, 0.0798551474718
+glassner, 3894, 0.0796767099397
+dam, 2343, 0.0747012386938
+foley, 3575, 0.0737434137975
+glass, 3893, 0.0712870402025
+kubota, 5078, 0.0692800368396
+sermon, 7807, 0.0681202238533
+pacif, 6372, 0.0656638502584
+transmit, 9059, 0.0648166598817
+coverag, 2195, 0.0648166598817
+andrew, 505, 0.0648166598817
+introduct, 4733, 0.0644163233256
+sum, 8532, 0.0632958951472
+formula, 3614, 0.0632958951472
+van, 9416, 0.0626076684289
+incid, 4575, 0.0619599497306
+bound, 1250, 0.0619599497306
+wave, 9661, 0.0616498435326
+weak, 9668, 0.0602182132287
+2nd, 81, 0.0591934699376
+trace, 9028, 0.0567861300186
+compon, 1980, 0.0567861300186
+constant, 2067, 0.0562116670535
+strike, 8448, 0.0548119375355
+slight, 8034, 0.0544881482504
+routin, 7499, 0.0540196502255
+combin, 1921, 0.0534244759805
+confus, 2037, 0.0529983050027
+calcul, 1451, 0.0529983050027
+lower, 5371, 0.0527230896168
+edit, 2996, 0.0524545874753
+dark, 2365, 0.0521924788533
+forward, 3621, 0.0499717203848
+rang, 7094, 0.0497620370537
+steve, 8390, 0.0490580868046
+algorithm, 407, 0.0478593761028
+simpl, 7965, 0.0469380137839
+govern, 3966, 0.0459400866864
+color, 1907, 0.0442431895216
+respons, 7323, 0.0423945779855
+correct, 2156, 0.0423945779855
+suggest, 8525, 0.0419771614538
+sourc, 8153, 0.0406295193519
+hand, 4145, 0.0399275737359
+given, 3887, 0.0395105525796
+hope, 4372, 0.0393480693043
+comput, 1993, 0.0381640893664
+anoth, 533, 0.0354783732668
+ll, 5314, 0.0348712597126
+lot, 5356, 0.0343469681468
+point, 6710, 0.0310718855417
+thing, 8869, 0.030072944509
+good, 3948, 0.0282969591401
+like, 5272, 0.0231786889591

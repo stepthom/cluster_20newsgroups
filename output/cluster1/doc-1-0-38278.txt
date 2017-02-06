@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38278
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: williams4000@iscsvax.uni.edu
+Subject: BOOK OF KELLS CORRECTION!!!
+Organization: University of Northern Iowa
+Lines: 11
+
+I aparantly mistyped the address for the ftp site which holds the images. The
+correct address should be:
+
+jupiter.csd.unb.ca
+                ^^
+rather than jupiter.csd.unb.edu.  They are in the directory:
+
+\pub\library.info
+
+Jon Williams
+University of Northern Iowa
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ book kell correct    apar mistyp address ftp site
+hold imag correct address  jupit csd unb  rather
+jupit csd unb edu directori  pub librari info  jon
+william univers northern iowa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+unb, 9215, 0.499519270935
+csd, 2270, 0.467960037192
+jupit, 4932, 0.323281318312
+address, 264, 0.240057983093
+correct, 2156, 0.237932634213
+iowa, 4754, 0.204463870976
+northern, 6111, 0.196177084386
+jon, 4887, 0.188212635514
+william, 9764, 0.155226592455
+pub, 6971, 0.149514264183
+directori, 2669, 0.146460875067
+librari, 5250, 0.137123292683
+hold, 4341, 0.135045843302
+site, 7994, 0.127310552881
+ftp, 3709, 0.124868093167
+info, 4636, 0.121613462833
+book, 1218, 0.110644437735
+edu, 3001, 0.109525097242
+imag, 4512, 0.103546942425
+univers, 9282, 0.102654093633

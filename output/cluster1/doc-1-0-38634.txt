@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38634
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: Marching Cubs
+From: abild@bert.cs.byu.edu
+Distribution: world
+Organization: BYU
+Keywords: Cube,Program,C
+Nntp-Posting-Host: bigler-quadra.byu.edu
+Lines: 24
+
+ Hello,
+
+Hello,
+
+     I was wondering if anyone knew of a PC or MAC
+implementation of the marching cubes algorithm that will output
+the individual faces.  If there is no such application, might there
+be some C source code that I could modify to implement the
+algorithm and get to the individual faces.
+
+Thanks in advance
+Sincerly
+
+Tracy
+
++------------------------------------+-------------------------------+
+| Tracy J. Abildskov                 | Phone:  (801) 378-3407        |
+|                                    | FAX:    (801) 378-7862        |
+| Address : Brigham Young University |                               |
+|           Department of Psychology | E-mail: abild@bert.cs.byu.edu |
+|           Provo, UT 84602          |                               |
+|           USA                      |                               |
++------------------------------------+-------------------------------+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+march cub        hello  hello  wonder anyon knew
+mac implement march cube algorithm output individu
+face applic might sourc code could modifi
+implement algorithm get individu face  thank
+advanc sincer  traci   traci abildskov phone fax
+address brigham young univers  provo usa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+march, 5504, 0.333464633448
+hello, 4247, 0.308217138053
+implement, 4544, 0.300582938462
+individu, 4604, 0.272221394934
+algorithm, 407, 0.270720888946
+face, 3345, 0.267824181296
+provo, 6951, 0.235824981694
+brigham, 1310, 0.217524835987
+sincer, 7978, 0.197723966396
+cube, 2284, 0.192664103239
+output, 6329, 0.156940883701
+knew, 5045, 0.155492529876
+cub, 2282, 0.154108569026
+usa, 9357, 0.149503224783
+modifi, 5814, 0.149116462137
+young, 9962, 0.13902750064
+mac, 5410, 0.138750752217
+phone, 6601, 0.13662110222
+applic, 585, 0.136364853921
+fax, 3413, 0.130773637886
+code, 1871, 0.123741106223
+address, 264, 0.120975435868
+advanc, 285, 0.117726291918
+sourc, 8153, 0.114912275212
+wonder, 9821, 0.113047406912
+univers, 9282, 0.103463534609
+thank, 8832, 0.0871891611598
+anyon, 554, 0.0836626650179

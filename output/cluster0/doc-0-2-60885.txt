@@ -1,0 +1,77 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60885
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gene@theporch.raider.net (Gene Wright)
+Subject: Why not give $1 billion to first year-long moon residents?
+Organization: The MacInteresteds of Nashville, Tn.
+Lines: 12
+
+With the continuin talk about the "End of the Space Age" and complaints 
+by government over the large cost, why not try something I read about 
+that might just work.
+
+Announce that a reward of $1 billion would go to the first corporation 
+who successfully keeps at least 1 person alive on the moon for a year. 
+Then you'd see some of the inexpensive but not popular technologies begin 
+to be developed. THere'd be a different kind of space race then!
+
+--
+  gene@theporch.raider.net (Gene Wright)
+theporch.raider.net  615/297-7951 The MacInteresteds of Nashville
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid
+continuin talk end space age complaint govern larg
+cost tri someth read might work  announc reward
+billion first corpor success keep least person
+aliv moon year you'd see inexpens popular
+technolog begin develop there'd differ kind space
+race    theporch raider net macinterest nashvill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+billion, 1092, 0.302303552204
+moon, 5851, 0.257569837471
+continuin, 2093, 0.234484071531
+theporch, 8850, 0.229594336759
+nashvill, 5958, 0.229594336759
+macinterest, 5417, 0.229594336759
+raider, 7071, 0.225358655837
+inexpens, 4617, 0.209958111048
+complaint, 1974, 0.189215244461
+reward, 7368, 0.18239180655
+resid, 7311, 0.18138472235
+space, 8164, 0.179954547082
+aliv, 417, 0.163071997307
+corpor, 2154, 0.159897301173
+year, 9943, 0.159439187606
+race, 7049, 0.156555214212
+popular, 6746, 0.152718538399
+announc, 524, 0.145560112531
+age, 328, 0.141930960372
+success, 8513, 0.140807993974
+begin, 994, 0.140807993974
+govern, 3966, 0.132379759925
+net, 6010, 0.12767180495
+technolog, 8743, 0.126072113669
+cost, 2169, 0.120520745661
+develop, 2588, 0.118138839909
+larg, 5124, 0.117471015497
+kind, 5021, 0.113152836511
+end, 3091, 0.109352684004
+talk, 8684, 0.107273530434
+person, 6562, 0.105684838207
+long, 5336, 0.0999471176594
+differ, 2633, 0.0976725362979
+read, 7135, 0.0965594225129
+someth, 8126, 0.0933749617213
+tri, 9087, 0.0918656147869
+work, 9833, 0.0898663626311

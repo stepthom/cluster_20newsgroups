@@ -1,0 +1,129 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104489
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Jack Morris
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 30
+
+In article <1993Apr19.024222.11181@newshub.ariel.yorku.ca> cs902043@ariel.yorku.ca (SHAWN LUDDINGTON) writes:
+>
+>Hey Valentine, I don't see Boston with any world series rings on their
+>fingers.
+
+Yah.  So?
+
+>Damn, Morris now has three and probably the Hall of Fame in his 
+>future.
+
+He certainly didn't earn his last one.  *HOW* many games did he blow
+in the World Series?  All of the ones he started?
+
+>Therefore, I would have to say Toronto easily made the best signing.
+
+Oh, yes.  Definitely.  Therefore Morris is better than Clemens.
+
+Don't give me that shit.  If Boston had Alomar, Olerud, Henke, and
+Ward while Toronto had Rivera, Jack Clark, Jeff Reardon, things would
+have looked a little different last fall.  Give credit where credit is
+due.  This lavishing of praise on Morris makes me sick.
+
+>And don't tell me Boston will win this year.  They won't 
+>even be in the top 4 in the division, more like 6th.
+
+I'm willing to bet they don't finish sixth.  I'm also willing to bet
+they don't finish first.  And if you give me 3-2 odds, I'm willing to
+bet that they finish ahead of the Blue Jays.
+
+-Valentine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri      hey valentin don't see boston
+world seri ring finger  yah  damn morri three
+probabl hall fame futur  certain didn't earn last
+one mani game blow world seri one start  therefor
+say toronto easili made best sign  yes definit
+therefor morri better clemen  don't give shit
+boston alomar olerud henk ward toronto rivera jack
+clark jeff reardon thing look littl differ last
+fall give credit credit due lavish prais morri
+make sick  don't tell boston win year won't even
+top divis like 6th  i'm will bet don't finish
+sixth i'm also will bet don't finish first give
+odd i'm will bet finish ahead blue jay  valentin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+morri, 5868, 0.360723433145
+bet, 1054, 0.269790370723
+finish, 3488, 0.267593280906
+boston, 1243, 0.26617560961
+don, 2811, 0.20900305348
+valentin, 9409, 0.198193230831
+credit, 2225, 0.196590481183
+jack, 4808, 0.172238335685
+therefor, 8855, 0.164585281479
+toronto, 9003, 0.153817882524
+seri, 7805, 0.150304993852
+henk, 4255, 0.136228693076
+yah, 9926, 0.133387893813
+rivera, 7423, 0.126814832191
+world, 9841, 0.123440890439
+prais, 6798, 0.119342630437
+sixth, 7997, 0.118153268292
+ward, 9636, 0.11703603429
+reardon, 7155, 0.11703603429
+olerud, 6221, 0.11703603429
+shit, 7893, 0.113141878792
+6th, 134, 0.111465385631
+finger, 3486, 0.106568817169
+fame, 3376, 0.106568817169
+blow, 1172, 0.104812372833
+earn, 2954, 0.103208864786
+clemen, 1807, 0.100368065523
+clark, 1787, 0.0999344286442
+ring, 7406, 0.0995107613176
+alomar, 436, 0.0995107613176
+sick, 7933, 0.0986915723626
+jeff, 4839, 0.0979072532704
+hey, 4283, 0.0947402735096
+damn, 2346, 0.0941047375284
+odd, 6198, 0.0937950039005
+hall, 4128, 0.0894386619944
+ahead, 342, 0.0894386619944
+easili, 2962, 0.0871606153757
+divis, 2767, 0.0853264126244
+blue, 1176, 0.0849424671318
+fall, 3369, 0.0843811430153
+sign, 7946, 0.0838364122123
+jay, 4832, 0.0822926407395
+definit, 2484, 0.0796884136225
+won, 9820, 0.0785795849647
+futur, 3737, 0.0777896618838
+yes, 9951, 0.0671301433614
+win, 9770, 0.0669861682771
+certain, 1619, 0.0652101778366
+littl, 5308, 0.061937256156
+best, 1052, 0.0616129888388
+didn, 2625, 0.0615594947023
+probabl, 6885, 0.0602702476673
+tell, 8767, 0.0602205075101
+start, 8334, 0.0583335699429
+differ, 2633, 0.0567450142025
+game, 3761, 0.0558615514162
+better, 1060, 0.0551312251414
+mani, 5479, 0.0522742815791
+thing, 8869, 0.0503455367554
+say, 7653, 0.0467880200798
+year, 9943, 0.0463148562947
+make, 5459, 0.0462216641009
+look, 5341, 0.0459907247748
+like, 5272, 0.038803767173

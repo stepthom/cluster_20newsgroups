@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60218
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+Organization: Express Access Online Communications USA
+Lines: 23
+Distribution: world
+NNTP-Posting-Host: access.digex.net
+
+In article <6APR199314571378@kelvin.jpl.nasa.gov> baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
+|Comet Gehrels 3, which was discovered in 1977, was determined to have
+|been in a temporary Jovian orbit from 1970 to 1973.  Comet Shoemaker-Levy 1993e
+|may remain in orbit around Jupiter long enough to allow Galileo to
+|make some closeup observations.  The orbital trajectory for Comet
+|Shoemaker-Levy is still being determined.
+a
+
+What about positional uncertainties in S-L 1993e?   I assume we know where
+and what Galileo is doing within a few meters.   But without the
+HGA,  don't we have to have some pretty good ideas, of where to look
+before imaging?  If the HGA was working,  they could slew around
+in near real time (Less speed of light delay).  But when they were
+imaging toutatis????  didn't someone have to get lucky on a guess to
+find the first images?   
+
+Also, I imagine S-L 1993e will be mostly a visual image.  so how will
+that affect the other imaging missions.  with the LGA,  there is a real
+tight allocation of bandwidth.   It may be premature to hope for answers,
+but I thought i'd throw it on the floor.
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet temporari orbit around jupit       comet
+gehrel discov determin temporari jovian orbit
+comet shoemak levi 1993e remain orbit around jupit
+long enough allow galileo make closeup observ
+orbit trajectori comet shoemak levi still determin
+posit uncertainti 1993e assum know galileo within
+meter without hga don't pretti good idea look imag
+hga work could slew around near real time less
+speed light delay imag toutati didn't someon get
+lucki guess find first imag  also imagin 1993e
+most visual imag affect imag mission lga real
+tight alloc bandwidth prematur hope answer thought
+i'd throw floor  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+1993e, 50, 0.365687490443
+comet, 1926, 0.343889072282
+imag, 4512, 0.276375069462
+orbit, 6280, 0.238735042723
+shoemak, 7899, 0.23870783285
+levi, 5231, 0.234304021206
+hga, 4284, 0.234304021206
+temporari, 8778, 0.190713045003
+galileo, 3755, 0.187569753592
+jupit, 4932, 0.172572737953
+determin, 2582, 0.143647321354
+toutati, 9022, 0.133325687818
+prematur, 6825, 0.124902275969
+slew, 8027, 0.121895830148
+lga, 5239, 0.121895830148
+closeup, 1833, 0.121895830148
+jovian, 4902, 0.113472418298
+real, 7144, 0.11306110307
+uncertainti, 9222, 0.110465972477
+gehrel, 3809, 0.109146084318
+alloc, 431, 0.105722152932
+bandwidth, 893, 0.102888376741
+floor, 3549, 0.0990361148065
+delay, 2500, 0.0970938962253
+tight, 8929, 0.0964942010835
+lucki, 5382, 0.0959155522739
+meter, 5663, 0.0953565225017
+trajectori, 9044, 0.0942922952617
+affect, 310, 0.0876062571358
+discov, 2698, 0.0859722680705
+visual, 9547, 0.0842038108335
+remain, 7264, 0.0772406267052
+imagin, 4518, 0.0748565113059
+throw, 8899, 0.0739316072759
+pat, 6458, 0.0731986066469
+observ, 6179, 0.0685988037292
+speed, 8217, 0.0670468944699
+near, 5982, 0.0667532997888
+light, 5267, 0.0656285594571
+mission, 5772, 0.0651816540831
+posit, 6761, 0.0647465417946
+assum, 710, 0.0639911517541
+guess, 4079, 0.0639093163554
+allow, 432, 0.0631905188271
+answer, 535, 0.0608621046322
+pretti, 6851, 0.0604598944734
+hope, 4372, 0.0589425213312
+thought, 8887, 0.057553085203
+idea, 4482, 0.0563747412516
+didn, 2625, 0.0550827108503
+someon, 8124, 0.0538846008805
+long, 5336, 0.0519572045915
+work, 9833, 0.0467167548046
+good, 3948, 0.0423882072797
+make, 5459, 0.0413586006675
+look, 5341, 0.0411519588784
+time, 8936, 0.0391801049278
+don, 2811, 0.0374026941492
+know, 5052, 0.0355187434696

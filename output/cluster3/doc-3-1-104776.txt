@@ -1,0 +1,137 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104776
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: nlu@Xenon.Stanford.EDU (Nelson Lu)
+Subject: Re: HBP? BB? BIG-CAT?
+Organization: Computer Science Department, Stanford University.
+Distribution: na
+Lines: 32
+
+In article <1993Apr20.230501.28364@ncar.ucar.edu> woods@ncar.ucar.edu (Greg Woods) writes:
+
+>Alright, that's enough. I've suffered with all kinds of insults (as
+>typical for the net), but give me a break. Galarraga is currently
+>batting over .400 and you guys are complaining that he isn't drawing
+>enough walks.  What would he have to do to please you guys, bat 1.000?
+>You can hardly claim that he is "hurting his team".
+
+Fine, are you willing to bet that he will bat .400 the rest of the way?
+
+The point is that he has hurt the Rockies so far; it's that he *will* hurt
+them, eventually.  Just as much as he hurt the Expos and the Cardinals the
+past couple seasons.
+
+>If it happens that the pitchers start throwing him fewer good pitches
+>and he starts making lots of outs (as someone speculated might happen),
+>*THEN* I would agree with you that he isn't taking enough pitches. My comment
+
+It has happened for the past 3+ seasons; where have you been?
+
+>that "he isn't paid to walk" doesn't mean that he should have a license
+>to swing at bad pitches and make outs; it's more along the lines of: he's
+>batting .400 and leading the league in RBI's so what bloody difference
+>does it make if he isn't drawing  a lot of walks? Sheesh.
+
+We'll see come September.  (I have an outstanding bet with someone that
+Galarraga's OBP will be less than .300 on June 1.)
+
+===============================================================================
+GO CALIFORNIA ANGELS!
+===============================================================================
+Nelson Lu (claudius@leland.stanford.edu)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hbp big cat       alright that enough i'v suffer
+kind insult typic net give break galarraga current
+bat guy complain isn't draw enough walk pleas guy
+bat hard claim hurt team  fine will bet bat rest
+way  point hurt rocki far it hurt eventu much hurt
+expo cardin past coupl season  happen pitcher
+start throw fewer good pitch start make lot out
+someon specul might happen agre isn't take enough
+pitch comment  happen past season  isn't paid walk
+doesn't mean licens swing bad pitch make out it
+along line he bat lead leagu rbi bloodi differ
+make isn't draw lot walk sheesh  we'll see come
+septemb outstand bet someon galarraga obp less
+california angel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hurt, 4451, 0.359933805832
+bat, 942, 0.29245437206
+isn, 4783, 0.260688603647
+walk, 9617, 0.226851818201
+galarraga, 3751, 0.218495912825
+pitch, 6643, 0.194879664975
+happen, 4159, 0.188148405532
+bet, 1054, 0.173670126841
+draw, 2861, 0.157980137082
+past, 6456, 0.150474610436
+season, 7747, 0.13706143367
+make, 5459, 0.133892659348
+guy, 4100, 0.133622587167
+sheesh, 7869, 0.126421058695
+alright, 445, 0.126421058695
+bloodi, 1170, 0.122450337643
+outstand, 6333, 0.117781704819
+someon, 8124, 0.116295883538
+septemb, 7801, 0.113008089572
+start, 8334, 0.11265189114
+fewer, 3456, 0.111990985937
+lot, 5356, 0.111043556042
+hbp, 4212, 0.111028888433
+insult, 4689, 0.107629161907
+cat, 1551, 0.102901115107
+licens, 5254, 0.101205121048
+expo, 3309, 0.0991692495777
+paid, 6387, 0.0982324822835
+complain, 1973, 0.0964950575439
+swing, 8635, 0.0952949757498
+cardin, 1515, 0.0952949757498
+obp, 6177, 0.0949122842434
+specul, 8214, 0.093458867036
+rbi, 7124, 0.0917946204771
+rocki, 7450, 0.0908660026995
+typic, 9178, 0.0905669289503
+suffer, 8521, 0.0899834514579
+angel, 509, 0.0888709348911
+california, 1459, 0.0886033438454
+eventu, 3233, 0.0875714913751
+break, 1284, 0.0814770581205
+throw, 8899, 0.0797810640613
+fine, 3485, 0.0789900685412
+rest, 7324, 0.0760055311006
+coupl, 2187, 0.0740263299622
+lead, 5172, 0.0722453979412
+net, 6010, 0.0716209665316
+leagu, 5176, 0.0714175989557
+comment, 1936, 0.0714175989557
+pitcher, 6644, 0.0707235762599
+claim, 1782, 0.0693217123552
+agre, 337, 0.0688779370069
+hard, 4167, 0.0673661772253
+bad, 861, 0.065531647365
+current, 2299, 0.0644742391396
+kind, 5021, 0.0634761568527
+big, 1082, 0.0606133608393
+far, 3386, 0.0594408460054
+team, 8732, 0.0590834127987
+line, 5285, 0.0589825940066
+doesn, 2793, 0.0577214227536
+ll, 5314, 0.0563692938721
+mean, 5595, 0.0549917775614
+differ, 2633, 0.0547920620059
+pleas, 6688, 0.0523465675155
+come, 1923, 0.0516007853743
+point, 6710, 0.0502276161429
+way, 9666, 0.0465481570537
+good, 3948, 0.0457419553697

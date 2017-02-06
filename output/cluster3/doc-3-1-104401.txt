@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104401
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jplee@cymbal.calpoly.edu (JASON LEE)
+Subject: Re: Surgery for Hal Morris
+Organization: California Polytechnic State University, San Luis Obispo
+Lines: 17
+
+And then cjkuo@symantec.com (Jimmy Kuo) quoth:
+>Does it strike anyone else how silly it is to impose a 3 game suspension on 
+>Morris?
+>
+>"Let's see...  I expect to be back June 15th.  How many games do we play 
+>before June 15th?  Take me off the DL 3 games before June 15th."
+>
+>It would be a lot more meaningful if the suspension went into effect some 
+>number of games after he came back.
+
+Well, either way, the Reds have to play a man down for 3 days.
+
+-- 
+Jason Lee   jplee@oboe.calpoly.edu   jlee@cash.busfac.calpoly.edu    Giants
+e ^ i*pi + 1 = 0    The most beautiful equation in mathematics.      Magic
+For all sad words of tongue and pen, the saddest are these:          Number:
+     "It might have been."            John Greenleaf Whittier        153
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surgeri hal morri     strike anyon els silli
+impos game suspens morri  let see expect back 15th
+mani game play 15th take game 15th  lot meaning
+suspens went effect number game came back  well
+either way red play man day   cash busfac calpoli
+edu giant beauti equat mathemat magic sad word
+tongu pen saddest number might john greenleaf
+whittier
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+15th, 28, 0.48440439958
+suspens, 8605, 0.337948480224
+game, 3761, 0.270485129245
+morri, 5868, 0.218330680858
+saddest, 7574, 0.164906965164
+greenleaf, 4029, 0.164906965164
+busfac, 1422, 0.164906965164
+whittier, 9740, 0.161468133193
+calpoli, 1467, 0.158489281446
+tongu, 8983, 0.15138513586
+surgeri, 8590, 0.149444064272
+hal, 4121, 0.149444064272
+play, 6681, 0.147138602608
+meaning, 5596, 0.146005232301
+number, 6156, 0.145079945682
+cash, 1542, 0.144466122046
+pen, 6511, 0.138048438328
+impos, 4552, 0.138048438328
+silli, 7956, 0.125564389184
+beauti, 978, 0.122034688451
+sad, 7571, 0.118987927213
+magic, 5435, 0.118987927213
+equat, 3157, 0.117165833242
+mathemat, 5545, 0.115481391851
+strike, 8448, 0.111078648168
+giant, 3865, 0.101485289156
+went, 9704, 0.0996165296255
+came, 1472, 0.0899170646692
+effect, 3005, 0.0894071396005
+red, 7194, 0.089281458984
+expect, 3290, 0.0864598189542
+john, 4878, 0.0843537040696
+word, 9829, 0.0799045145012
+edu, 3001, 0.0790961561192
+els, 3053, 0.0771220303678
+man, 5471, 0.077049483148
+let, 5225, 0.0704514568924
+lot, 5356, 0.0696055451048
+day, 2402, 0.0661518952991
+mani, 5479, 0.0632788360269
+anyon, 554, 0.0599463006235
+way, 9666, 0.0583556572001

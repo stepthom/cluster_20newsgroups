@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105018
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: RE:Re:ALL-TIME BEST PLAYERS
+Organization: Allegheny College
+Lines: 20
+
+In article <1993Apr21.120525.1@tesla.njit.edu> drm6640@tesla.njit.edu  
+writes:
+> Overall (career)
+> 1.	Don Mattingly
+> 2.	Don Mattingly
+> 3.	Don Mattingly
+> 4.	Don Mattingly
+> 5.	Don Mattingly
+> 6.	Don Mattingly
+> 7.	Don Mattingly
+> 8.	Don Mattingly
+> 9.	Don Mattingly
+> 10.	Don Mattingly
+> 11.	Don Mattingly
+> ..
+
+
+Wanna go to a game sometime?
+Jesus christ boy, have you not heard of the real all-time best....STEVE  
+BALBONI...Now that's Yankee pride.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time best player    tesla njit edu  overal career
+mat mat mat mat mat mat mat mat mat mat mat
+wanna game sometim jesus christ boy heard real
+time best steve balboni that yanke pride
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mat, 5540, 0.929751563732
+balboni, 873, 0.119548534608
+njit, 6081, 0.112130472286
+wanna, 9633, 0.105731020762
+best, 1052, 0.105534981076
+tesla, 8810, 0.103298062208
+pride, 6859, 0.103298062208
+boy, 1256, 0.0867287306922
+overal, 6337, 0.0838511514848
+time, 8936, 0.0750014216085
+yanke, 9933, 0.0735829347916
+career, 1517, 0.0730764852616
+christ, 1729, 0.0729112168463
+steve, 8390, 0.0703379641294
+sometim, 8128, 0.0693893445299
+jesus, 4859, 0.0641730338514
+heard, 4224, 0.0599668474282
+edu, 3001, 0.0559601839362
+player, 6683, 0.0544610113111
+real, 7144, 0.0541074575636
+game, 3761, 0.0478417609882

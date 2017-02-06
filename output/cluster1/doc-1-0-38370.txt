@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38370
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: orourke@sophia.smith.edu (Joseph O'Rourke)
+Subject: Re: Need a good concave -> convex polygon algorithm
+Organization: Smith College, Northampton, MA, US
+Lines: 16
+
+In article <C5Juyz.ALy@murdoch.acc.Virginia.EDU> rws2v@uvacs.cs.Virginia.EDU (Richard Stoakley) writes:
+>	We need a good concave ->convex polygon conversion routine.
+>I've tried a couple without much luck.  Please E-mail responses and I
+>will post a summary of any replies.  Thank you.
+>
+>Richard Stoakley
+>rws2v@uvacs.cs.Virginia.EDU
+
+The problem is not precisely defined above, but if you need to find
+the smallest convex polygon that encloses a given polygon, then
+you are seeking the convex hull of your original polygon.  There
+are two ways to do this:  use a somewhat tricky but by-now well
+examined linear-time algorithm that exploits the polygon boundary,
+or just feed the vertices of the original polygon to a convex hull
+routine and accept O(n log n).  Both methods are discussed in
+Preparata and Shamos, for example.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need good concav convex polygon algorithm
+need good concav convex polygon convers routin i'v
+tri coupl without much luck pleas mail respons
+post summari repli thank  richard stoakley
+problem precis defin need find smallest convex
+polygon enclos given polygon seek convex hull
+origin polygon two way use somewhat tricki well
+examin linear time algorithm exploit polygon
+boundari feed vertic origin polygon convex hull
+routin accept log method discuss preparata shamo
+exampl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polygon, 6728, 0.594324520707
+convex, 2116, 0.490997320739
+hull, 4430, 0.239888318225
+concav, 1997, 0.216915554396
+routin, 7499, 0.162640789931
+algorithm, 407, 0.14409361598
+need, 5993, 0.133665646677
+origin, 6293, 0.117866504026
+smallest, 8056, 0.112454157138
+tricki, 9095, 0.111012261484
+boundari, 1251, 0.104293158795
+exploit, 3306, 0.102547193212
+log, 5328, 0.101738674509
+linear, 5286, 0.0995258795696
+enclos, 3085, 0.096389884873
+vertic, 9482, 0.0958280905226
+richard, 7383, 0.0942486725342
+examin, 3257, 0.0942486725342
+feed, 3427, 0.0906516214644
+seek, 7766, 0.0883883809878
+summari, 8536, 0.086713082233
+somewhat, 8129, 0.0863974279992
+luck, 5381, 0.0854850133683
+good, 3948, 0.085195660616
+convers, 2114, 0.0813203949656
+precis, 6809, 0.0804244283225
+method, 5666, 0.0746012922765
+defin, 2482, 0.0727178043583
+repli, 7290, 0.0719158085235
+coupl, 2187, 0.0689380464077
+accept, 208, 0.0680880474673
+respons, 7323, 0.0638201804675
+discuss, 2708, 0.0637403184034
+exampl, 3258, 0.0601063881878
+given, 3887, 0.0594786106106
+mail, 5447, 0.0569681873611
+problem, 6887, 0.0521348604345
+pleas, 6688, 0.0487484669646
+post, 6766, 0.0483975687557
+tri, 9087, 0.0479922286958
+thank, 8832, 0.0464072113337
+way, 9666, 0.043348616807
+time, 8936, 0.0393738628801
+use, 9363, 0.0365985106547

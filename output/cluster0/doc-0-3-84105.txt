@@ -1,0 +1,127 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84105
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: V2110A@VM.TEMPLE.EDU (Richard Hoenes)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Temple University
+Lines: 31
+Nntp-Posting-Host: vm.temple.edu
+X-Newsreader: NNR/VM S_1.3.2
+
+In article <cjkC5sy5G.Ko4@netcom.com>
+cjk@netcom.com writes:
+ 
+>This was obviously a lot different than the ordinary FBI adventure.
+>
+>I believe that the Federal officers had a conflict of interests here.
+>
+>Throught out the whole affair, it seamed to me that they were chiefly
+>concerned with saving face rather than saving lifes.  Its true that
+>The BD were resisting arrest and that they should have surrendered
+>when they first realized that these where federal officers.  But they
+>didn`t.
+ 
+I'm not sure what you mean by 'saving face' unless you are confusing
+the FBI with the BATF who are the ones who were in charge of the
+original search warrant.
+ 
+>But when they didn`t, the FBI should not have treated as a hostage
+>situation, it wasn't.
+>
+>I think  more discussions, possible independant negotiators, and
+>family intervention should have been used.
+>
+Independant Negotiators? What was there to negotiate? Any sort of plea
+bargin has to be brought to the court, the negotiators can't negotiate
+charges or sentences. FBI negotitators did make a deal for the
+Dividians to come out. Koresh showed he was not negotiating in good
+faith and there is no reason to believe independent negotiators
+would have done any better.
+ 
+Richard
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen         obvious lot
+differ ordinari fbi adventur  believ feder offic
+conflict interest  throught whole affair seam
+chiefli concern save face rather save life true
+resist arrest surrend first realiz feder offic
+i'm sure mean save face unless confus fbi batf one
+charg origin search warrant  fbi treat hostag
+situat wasn't  think discuss possibl independ
+negoti famili intervent use  independ negoti
+negoti sort plea bargin brought court negoti can't
+negoti charg sentenc fbi negotit make deal
+dividian come koresh show negoti good faith reason
+believ independ negoti done better  richard
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+negoti, 5999, 0.67399416098
+fbi, 3414, 0.315963813146
+independ, 4595, 0.223449383089
+save, 7646, 0.17952874082
+feder, 3425, 0.1599010463
+charg, 1664, 0.141340978465
+offic, 6206, 0.131742877533
+face, 3345, 0.127900592914
+dividian, 2765, 0.115936973937
+chiefli, 1704, 0.115936973937
+intervent, 4725, 0.11261923713
+adventur, 288, 0.11261923713
+hostag, 4387, 0.107616509883
+surrend, 8594, 0.105631142107
+arrest, 654, 0.100896317108
+ordinari, 6282, 0.0996026169474
+affair, 309, 0.0962848801401
+believ, 1009, 0.0918297332658
+sentenc, 7794, 0.0912821528933
+batf, 945, 0.0912821528933
+warrant, 9645, 0.0899295688046
+resist, 7314, 0.0886898366618
+conflict, 2034, 0.0886898366618
+richard, 7383, 0.0845619601178
+court, 2191, 0.0845619601178
+treat, 9076, 0.083687109415
+famili, 3378, 0.0793039790057
+brought, 1343, 0.073170377985
+search, 7746, 0.0727573466346
+confus, 2037, 0.0715829333117
+koresh, 5065, 0.0713959098083
+presid, 6839, 0.0712112096384
+realiz, 7149, 0.0682276031278
+faith, 3367, 0.0677837441229
+wasn, 9652, 0.0645244285006
+concern, 2004, 0.064292108579
+obvious, 6185, 0.0628645461546
+situat, 7995, 0.062760207674
+messag, 5650, 0.0614665075137
+unless, 9289, 0.0605427214761
+deal, 2418, 0.060101497037
+sort, 8144, 0.0571892008428
+discuss, 2708, 0.0571892008428
+life, 5260, 0.0547549817
+true, 9121, 0.0530375161713
+origin, 6293, 0.0528761962617
+happen, 4159, 0.0524024799009
+possibl, 6765, 0.0487466991201
+reason, 7156, 0.0479577515891
+sure, 8585, 0.0478811113551
+lot, 5356, 0.0463912332703
+mean, 5595, 0.045948391275
+differ, 2633, 0.0457815189007
+better, 1060, 0.0444795240833
+come, 1923, 0.0431150470418
+good, 3948, 0.0382197004027
+make, 5459, 0.0372913465332
+think, 8871, 0.0340525659417
+use, 9363, 0.0328369802475
+know, 5052, 0.0320257878596

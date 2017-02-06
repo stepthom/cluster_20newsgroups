@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104740
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: admiral@jhunix.hcf.jhu.edu (Steve C Liu)
+Subject: Re: Let's play the name game!
+Organization: Homewood Academic Computing, Johns Hopkins University, Baltimore, Md, USA
+Lines: 30
+Distribution: world
+Expires: 5/9/93
+NNTP-Posting-Host: jhunix.hcf.jhu.edu
+Summary: Never change the O's
+
+Somebody wrote:
+>How about changing team names!
+>Post your choices!
+
+>Here I'll start:
+>How about the 
+>Baltimore Baseblazers
+>San Francisco Quakes
+
+>Shawn - Go Rangers!!!!!!!!!!!!!!!!!!!
+
+	Baltimore Baseblazers? Where the hell did you come up with that? The
+Orioles are not a base-stealing team except for Anderson. Besides we would
+never call them anything but the Baltimore Orioles. Why? The ballpark has
+all these orthologically (spelling error?) correct BALTIMORE ORIOLES all
+over the place. I bet you thought the bird is just an oriole. It's not. The
+bird was named after Lord Baltimore when Maryland was founded. They're
+called Baltimore Orioles. But the post is just a joke so why do I care what
+a non-O's fan thinks of us? But I still wonder where Baseblazers came from.
+San Diego Padres, now there's a name that needs to be changed. How is padre
+being used? As "Father" ie priest or "father" ie parents?
+
+____________________________________________________________________________
+|Admiral Steve C. Liu          Internet Address: admiral@jhunix.hcf.jhu.edu|
+|1993 World Champions  - Baltimore Orioles - Why Not? - Series in the Yards|
+|         1992-1993 Stanley Cup Champions -  Washington Capitals           |
+|*****The Bangles are the greatest female rock group that ever existed!****|
+|   This sig has been brought to you by... Frungy! The Sport of Kings!     |
+|"My God man, drilling holes through his head is not the answer!" Dr. McCoy|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ let play name game    expir  never chang o
+somebodi wrote chang team name post choic  i'll
+start  baltimor baseblaz san francisco quak  shawn
+ranger  baltimor baseblaz hell come oriol base
+steal team except anderson besid never call anyth
+baltimor oriol ballpark ortholog spell error
+correct baltimor oriol place bet thought bird
+oriol it bird name lord baltimor maryland found
+they'r call baltimor oriol post joke care non o
+fan think still wonder baseblaz came san diego
+padr there name need chang padr use father priest
+father parent    world champion baltimor oriol
+seri yard stanley cup champion washington capit
+bangl greatest femal rock group ever exist sig
+brought frungi sport king god man drill hole head
+answer mccoy
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+baltimor, 887, 0.490042006342
+oriol, 6295, 0.443404009691
+baseblaz, 926, 0.322811519961
+champion, 1647, 0.173696643232
+bird, 1113, 0.162506210454
+padr, 6379, 0.159598365256
+chang, 1650, 0.14874353298
+father, 3404, 0.139121634175
+san, 7603, 0.124761752316
+quak, 7012, 0.104524570204
+mccoy, 5572, 0.102008623598
+frungi, 3705, 0.0964134072097
+bangl, 895, 0.0964134072097
+drill, 2871, 0.0949594846104
+stanley, 8322, 0.0936442516362
+shawn, 7863, 0.0936442516362
+team, 8732, 0.0916376473331
+femal, 3441, 0.0884736687991
+yard, 9936, 0.0861022209119
+ballpark, 883, 0.0861022209119
+maryland, 5529, 0.0853943990164
+cup, 2294, 0.0847211190703
+anderson, 501, 0.0828784524105
+priest, 6860, 0.0823151292337
+capit, 1502, 0.080751249865
+post, 6766, 0.0806044742583
+parent, 6426, 0.0793466994169
+spell, 8220, 0.0789085832052
+joke, 4883, 0.0789085832052
+francisco, 3652, 0.0780719936423
+greatest, 4018, 0.0772832360218
+steal, 8362, 0.076537135318
+sig, 7940, 0.0745140804484
+rock, 7445, 0.0745140804484
+ranger, 7095, 0.0745140804484
+king, 5024, 0.0722088173478
+expir, 3300, 0.071186164271
+washington, 9651, 0.0695608170877
+diego, 2629, 0.0695608170877
+lord, 5347, 0.0691295475651
+brought, 1343, 0.0679111535958
+bet, 1054, 0.0673400582411
+sport, 8257, 0.0667916615142
+hole, 4343, 0.0664378087532
+somebodi, 8121, 0.0659234820828
+besid, 1051, 0.0655909478824
+choic, 1717, 0.0637482812226
+hell, 4245, 0.0633236476711
+error, 3180, 0.0622513024213
+wrote, 9871, 0.0585418088944
+head, 4215, 0.058249228997
+seri, 7805, 0.0562745086831
+came, 1472, 0.0556211558184
+fan, 3381, 0.0549213128197
+non, 6097, 0.0546957028645
+care, 1516, 0.0543276943475
+correct, 2156, 0.0531451499106
+answer, 535, 0.050932501262
+wonder, 9821, 0.0501059367643
+exist, 3283, 0.0494785786627
+god, 3926, 0.0486359775547
+thought, 8887, 0.0481633456885
+group, 4064, 0.0480246560633
+man, 5471, 0.0476614903263
+anyth, 555, 0.0473076375653
+place, 6657, 0.0472640372082
+world, 9841, 0.0462165313529
+play, 6681, 0.0455087094574
+ll, 5314, 0.0437140411123
+start, 8334, 0.0436804247703
+let, 5225, 0.0435800643166
+base, 923, 0.0431857660193
+game, 3761, 0.041829366805
+come, 1923, 0.0400160920659
+need, 5993, 0.0371025840548
+think, 8871, 0.0316049896103
+use, 9363, 0.0304767758568

@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104720
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: sbp002@acad.drake.edu
+Subject: Re: Cardinals Mailing list???
+Lines: 15
+Nntp-Posting-Host: acad.drake.edu
+Organization: Drake University, Des Moines, Iowa, USA
+
+In article <poe.735289475@husc.harvard.edu>, poe@husc10.harvard.edu (Leslie Poe) writes:
+> 
+> Likewise, I would love to know about a Cardinals mailing list.  Please
+> e-mail me if you have any information.
+> Thanks a lot.
+> 
+> Les Poe
+> poe@husc.harvard.edu
+
+This is the fifth request to find out about a Cardinals mailing list.
+It looks like one does not exist.  If anyone has the initiative, 
+creating a list might be a worthwhile activity.
+
+Sam Passer
+> 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cardin mail list       likewis love know cardin
+mail list pleas mail inform thank lot  les poe
+fifth request find cardin mail list look like one
+exist anyon initi creat list might worthwhil activ
+sam passer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cardin, 1515, 0.512334988326
+list, 5298, 0.467180603019
+mail, 5447, 0.438512922593
+worthwhil, 9853, 0.208713577964
+likewis, 5274, 0.208713577964
+sam, 7599, 0.195783495869
+fifth, 3471, 0.176870986607
+initi, 4647, 0.154766865268
+request, 7301, 0.151197858181
+activ, 252, 0.136209674514
+love, 5366, 0.126570086765
+creat, 2217, 0.12327959242
+exist, 3283, 0.114340901153
+inform, 4637, 0.104814488089
+lot, 5356, 0.0995006968992
+pleas, 6688, 0.0938103953748
+thank, 8832, 0.089304938484
+anyon, 554, 0.085692866561
+look, 5341, 0.079583483765
+know, 5052, 0.0686894481164
+like, 5272, 0.0671469951812

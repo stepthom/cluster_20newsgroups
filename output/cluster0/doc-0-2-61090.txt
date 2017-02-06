@@ -1,0 +1,251 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61090
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Vandalizing the sky.
+Article-I.D.: mksol.1993Apr22.204742.10671
+Organization: Texas Instruments Inc
+Lines: 62
+
+In <C5tvL2.1In@hermes.hrz.uni-bielefeld.de> hoover@mathematik.uni-bielefeld.de (Uwe Schuerkamp) writes:
+
+>In article <C5t05K.DB6@research.canon.oz.au> enzo@research.canon.oz.au 
+>(Enzo Liguori) writes:
+
+>> hideous vision of the future.  Observers were
+>>startled this spring when a NASA launch vehicle arrived at the
+>>pad with "SCHWARZENEGGER" painted in huge block letters on the
+
+>This is ok in my opinion as long as the stuff *returns to earth*.
+
+>>What do you think of this revolting and hideous attempt to vandalize
+>>the night sky? It is not even April 1 anymore.
+
+>If this turns out to be true, it's time to get seriously active in
+>terrorism. This is unbelievable! Who do those people think they are,
+>selling every bit that promises to make money? 
+
+Well, I guess I'm left wondering just who all the 'light fascists'
+think *they* are.  Yes, I understand the issues.  I don't even
+particularly care for the idea.  But am I the only one that finds the
+sort of overreaction above just a *little* questionable?  You must
+find things like the Moon *really* obnoxious in their pollution.
+
+A few questions for those frothing at the mouth to ask themselves:
+
+	1) How long is this thing supposed to stay up?  Sounds like it
+would have a *huge* drag area, not a lot of mass, and be in a fairly
+low orbit.
+
+	2) Just what orbital parameters are we talking about here?
+What real impact are we talking about, really?  How many optical
+astronomers are *really* going to be impacted?
+
+	3) Which is more important; adding a few extra days of
+'seeing' for (very few) optical astronomers or getting the data the
+sensors are supposed to return along with the data for large
+inflatables (and the potential there for an inflatable space station)?
+The choice would seem to be one or the other, since the advertising is
+being used to help fund this thing.
+
+	4) If your answer to 3) above was "the astronomers", then feel
+free to come up with some other way to fund the (to my mind) more
+important research data that would be gained by this WITHOUT SPENDING
+ANY MORE OF MY MONEY TO DO IT.  In other words, put up or shut up.
+
+>I guess we really
+>deserve being wiped out by uv radiation, folks. "Stupidity wins". I
+>guess that's true, and if only by pure numbers.
+
+Probably so.  I'm just not sure we agree about who the 'stupid' are. 
+
+>	Another depressed planetary citizen,
+>	hoover
+
+Yeah, me too.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky articl mksol 1993apr22      research
+canon   hideous vision futur observ startl spring
+nasa launch vehicl arriv pad schwarzenegg paint
+huge block letter  opinion long stuff return earth
+think revolt hideous attempt vandal night sky even
+april anymor  turn true it time get serious activ
+terror unbeliev peopl think sell everi bit promis
+make money  well guess i'm left wonder light
+fascist think yes understand issu don't even
+particular care idea one find sort overreact littl
+question must find thing like moon realli obnoxi
+pollut  question froth mouth ask  long thing
+suppos stay sound like huge drag area lot mass
+fair low orbit  orbit paramet talk real impact
+talk realli mani optic astronom realli go impact
+import ad extra day see optic astronom get data
+sensor suppos return along data larg inflat
+potenti inflat space station choic seem one sinc
+advertis use help fund thing  answer astronom feel
+free come way fund mind import research data gain
+without spend money word put shut  guess realli
+deserv wipe radiat folk stupid win guess that true
+pure number  probabl i'm sure agre stupid  anoth
+depress planetari citizen hoover  yeah   insist
+perfect safeti peopl don't ball live real world
+mari shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+astronom, 728, 0.21256466798
+hideous, 4288, 0.188376855714
+realli, 7150, 0.168901481618
+guess, 4079, 0.165453064227
+optic, 6273, 0.16101510338
+data, 2385, 0.158094539142
+inflat, 4632, 0.155001248658
+impact, 4534, 0.147848842508
+vandal, 9419, 0.145815121098
+huge, 4427, 0.139661413564
+stupid, 8476, 0.139268855752
+fund, 3723, 0.129195969948
+sky, 8011, 0.123065076035
+return, 7346, 0.121561179536
+thing, 8869, 0.116625059287
+suppos, 8577, 0.115717235708
+money, 5835, 0.114712661178
+research, 7307, 0.109469008027
+import, 4551, 0.107872702359
+overreact, 6350, 0.107785351007
+mksol, 5794, 0.107785351007
+hoover, 4370, 0.107785351007
+1993apr22, 44, 0.107785351007
+nasa, 5956, 0.107106916514
+obnoxi, 6176, 0.105190916153
+orbit, 6280, 0.103009093221
+true, 9121, 0.10152203909
+wipe, 9792, 0.101097201681
+schwarzenegg, 7689, 0.0994211496645
+startl, 8336, 0.0979218700463
+think, 8871, 0.0977728459078
+real, 7144, 0.0975669225012
+terror, 8808, 0.0965656066578
+talk, 8684, 0.0962470573941
+revolt, 7364, 0.0931338717786
+depress, 2542, 0.0931338717786
+mouth, 5890, 0.0912337207201
+unbeliev, 9217, 0.0903710326507
+long, 5336, 0.0896737147631
+canon, 1493, 0.0887882924116
+sensor, 7792, 0.0880583890854
+citizen, 1776, 0.0867021256969
+question, 7032, 0.0861477279278
+shafer, 7839, 0.0822886225967
+shut, 7925, 0.0818220235797
+dryden, 2888, 0.0809323592082
+pad, 6377, 0.0805075516898
+pollut, 6726, 0.0789248114507
+drag, 2854, 0.0789248114507
+anymor, 553, 0.0785551804073
+paramet, 6421, 0.0781949081245
+deserv, 2560, 0.0778435323692
+arriv, 655, 0.0778435323692
+peopl, 6530, 0.0772163990753
+paint, 6391, 0.0771657854669
+radiat, 7058, 0.0759000631796
+advertis, 291, 0.0759000631796
+block, 1163, 0.0753070609153
+mari, 5508, 0.0750195764898
+safeti, 7579, 0.0744614659351
+gain, 3746, 0.0741904102146
+pure, 6990, 0.0736633131013
+insist, 4673, 0.0734069098568
+planetari, 6665, 0.0726643068466
+vision, 9542, 0.0724251416358
+ame, 465, 0.0715067587983
+yeah, 9942, 0.0710688782473
+spring, 8266, 0.0708548893265
+letter, 5227, 0.0702315782221
+vehicl, 9449, 0.0681546547653
+potenti, 6774, 0.0681546547653
+stay, 8355, 0.0679800514083
+folk, 3576, 0.0679800514083
+sell, 7778, 0.0678075645077
+mass, 5533, 0.067302304506
+promis, 6913, 0.0668143711595
+spend, 8222, 0.0666553751471
+extra, 3325, 0.0663426154129
+choic, 1717, 0.0657369923096
+don, 2811, 0.0645538679935
+attempt, 763, 0.0625616606749
+perfect, 6538, 0.0622102849196
+ad, 257, 0.0610980005874
+activ, 252, 0.060780589768
+fair, 3363, 0.06026681573
+station, 8346, 0.0600663899509
+futur, 3737, 0.0600663899509
+like, 5272, 0.0599257575913
+particular, 6442, 0.0595773385534
+observ, 6179, 0.0591978495289
+april, 595, 0.0591045377515
+low, 5368, 0.0586469422115
+issu, 4793, 0.0580300656517
+free, 3668, 0.0579440835468
+area, 622, 0.057858617854
+night, 6063, 0.0577736624072
+moon, 5851, 0.0577736624072
+turn, 9158, 0.0566346550718
+light, 5267, 0.0566346550718
+left, 5193, 0.0566346550718
+care, 1516, 0.0560225178942
+launch, 5147, 0.0559478195858
+feel, 3429, 0.0559478195858
+sound, 8150, 0.0558735113487
+ball, 877, 0.0556528868508
+mind, 5733, 0.0554356307977
+agre, 337, 0.0550807496857
+sort, 8144, 0.0547345040133
+stuff, 8472, 0.0545307297187
+opinion, 6266, 0.0533038028173
+larg, 5124, 0.052698179714
+answer, 535, 0.0525214073157
+live, 5310, 0.0521743170581
+yes, 9951, 0.0518354916446
+win, 9770, 0.0517243192427
+wonder, 9821, 0.0516690570564
+understand, 9246, 0.0510221276975
+word, 9829, 0.0509695213712
+earth, 2956, 0.0495703606279
+ask, 689, 0.0492876361941
+everi, 3235, 0.0487385007233
+idea, 4482, 0.0486490036039
+bit, 1122, 0.0479951368931
+littl, 5308, 0.0478257301892
+world, 9841, 0.0476583165515
+probabl, 6885, 0.0465385259578
+number, 6156, 0.046271824803
+articl, 665, 0.0458625679794
+anoth, 533, 0.0458625679794
+sure, 8585, 0.0458259399153
+lot, 5356, 0.0444000109495
+sinc, 7977, 0.0433785864231
+day, 2402, 0.0421969955295
+help, 4249, 0.0418055760955
+come, 1923, 0.0412644464438
+space, 8164, 0.0403643274144
+mani, 5479, 0.0403643274144
+way, 9666, 0.0372239282768
+make, 5459, 0.0356907130438
+time, 8936, 0.0338107638903
+use, 9363, 0.0314275387774

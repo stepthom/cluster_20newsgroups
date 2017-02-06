@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38236
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lm001@rrz.Uni-Koeln.DE (Erwin H. Keeve)
+Subject: Polygon Reduction for Marching Cubes
+Organization: Regional Computing Center, University of Cologne
+Lines: 36
+Distribution: world
+NNTP-Posting-Host: rs1.rrz.uni-koeln.de
+Keywords: Polygon Reduction, Marching Cubes, Surfaces, Midical Visualisation
+
+
+Dear Reader,
+
+
+I'am searching for an implementation of a polygon reduction algorithm
+for marching cubes surfaces. I think the best one is the reduction algorithm
+from Schroeder et al., SIGGRAPH '92. So, is there any implementation of this 
+algorithm, it would be very nice if you could leave it to me.
+
+Also I'am looking for a fast !!! connectivity
+test for marching cubes surfaces.
+
+Any help or hints will be very useful.
+Thanks a lot
+
+
+                                                 ,,,
+                                                (o o)
+ ___________________________________________oOO__(-)__OOo_____________
+|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|_|
+|_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+|                               |                                     |
+| Erwin Keeve                   | adress:  Peter-Welter-Platz 2       |
+|                               |          W-5000 Cologne 1, Germany  |
+|                               |                                     |
+| Dept. of Computergraphics &   | phone:   +49-221-20189-132 (-192)   |
+|          Computeranimation    | FAX:     +49-221-20189-17           |
+|                               |                                     |
+| Academy of Media Arts Cologne | Email:   keeve@khm.uni-koeln.de     |
+|_______________________________|_____________________________________|
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ polygon reduct march cube        dear reader
+i'am search implement polygon reduct algorithm
+march cube surfac think best one reduct algorithm
+schroeder siggraph implement algorithm nice could
+leav  also i'am look fast connect test march cube
+surfac  help hint use thank lot     ooo ooo
+erwin keev adress peter welter platz cologn
+germani  dept computergraph phone computeranim fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+reduct, 7205, 0.401639224554
+cube, 2284, 0.401639224554
+march, 5504, 0.34758025637
+ooo, 6252, 0.297751407604
+algorithm, 407, 0.282180556937
+polygon, 6728, 0.22169030032
+implement, 4544, 0.208871115219
+surfac, 8587, 0.18916305309
+erwin, 3182, 0.174923174341
+adress, 280, 0.168699287655
+dear, 2422, 0.129935287489
+siggraph, 7941, 0.128203595492
+hint, 4306, 0.126600299126
+germani, 3855, 0.12510766592
+reader, 7137, 0.115860085457
+dept, 2544, 0.111994160009
+peter, 6575, 0.106776715273
+search, 7746, 0.105868836594
+connect, 2046, 0.103353602143
+leav, 5184, 0.0964160657327
+fast, 3397, 0.0954793566408
+phone, 6601, 0.0949362000689
+fax, 3413, 0.0908728743097
+test, 8812, 0.0888918546661
+nice, 6047, 0.0875802651975
+best, 1052, 0.0723312637667
+lot, 5356, 0.0675036421976
+help, 4249, 0.0635591881684
+thank, 8832, 0.060586596896
+look, 5341, 0.0539913305166
+think, 8871, 0.0495497115553
+use, 9363, 0.0477809191353

@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102718
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: iacs3650@Oswego.EDU (Kevin Mundstock)
+Subject: Joe Robbie Stadium "NOT FOR BASEBALL"
+Reply-To: iacs3650@oswego.Oswego.EDU (Kevin Mundstock)
+Organization: Instructional Computing Center, SUNY at Oswego, Oswego, NY
+Lines: 16
+
+Did anyone notice the words "NOT FOR BASEBALL" printed on the picture
+of Joe Robbie Stadium in the Opening Day season preview section in USA
+Today? Any reason given for this?
+
+Also, I just noticed something looking at the Nolan Ryan timeline in
+the preview. On 8/22/89, Rickey Henderson became Nolan's 5000th strikeout.
+On 6/11/90 he pitched his 6th no-hitter against Oakland. I believe the
+last out in the game was made by Rickey Henderson. And on 5/1/91, Nolan
+pitched his 7th no-hitter on the same day a certain someone stole his
+939th base, which overshadowed it. It seems that Nolan is having a lot of
+publicity at Rickey's expense. IMO, Rickey deserves it, and it seems as
+most of the net agrees with me from what I've seen on it lately. They are
+both great players, but IMO, Nolan has outclassed Rickey, both in playing
+and more importantly, in attitude. Just my thoughts.
+
+						Kevin
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ joe robbi stadium basebal     anyon notic word
+basebal print pictur joe robbi stadium open day
+season preview section usa today reason given
+also notic someth look nolan ryan timelin preview
+rickey henderson becam nolan 5000th strikeout
+pitch 6th hitter oakland believ last game made
+rickey henderson nolan pitch 7th hitter day
+certain someon stole 939th base overshadow seem
+nolan lot public rickey expens imo rickey deserv
+seem net agre i'v seen late great player imo nolan
+outclass rickey play import attitud thought  kevin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+nolan, 6094, 0.503508121085
+rickey, 7389, 0.479089949885
+robbi, 7435, 0.223962565349
+preview, 6854, 0.203072651003
+henderson, 4253, 0.199815313279
+imo, 4533, 0.194140770518
+stadium, 8300, 0.172910054998
+joe, 4876, 0.161573990567
+notic, 6120, 0.150350738083
+hitter, 4322, 0.138539537992
+timelin, 8937, 0.120294002871
+pitch, 6643, 0.118812112029
+stole, 8406, 0.111981282674
+strikeout, 8449, 0.11043028989
+basebal, 924, 0.109675053782
+6th, 134, 0.0984272631295
+day, 2402, 0.0965110997607
+7th, 140, 0.0941034469984
+becam, 980, 0.0915949364422
+oakland, 6167, 0.089833965166
+deserv, 2560, 0.0890201402249
+kevin, 4993, 0.0882450838722
+ryan, 7557, 0.0851524839271
+attitud, 769, 0.0851524839271
+section, 7759, 0.0800844498973
+usa, 9357, 0.0781423073021
+print, 6871, 0.077940154301
+expens, 3294, 0.0767772949112
+late, 5139, 0.0746746185379
+pictur, 6622, 0.0686905937269
+net, 6010, 0.0654976364537
+open, 6258, 0.0645882877572
+agre, 337, 0.0629891258975
+season, 7747, 0.0626715917776
+public, 6973, 0.0625151183862
+today, 8964, 0.0622066142213
+import, 4551, 0.0616804171019
+seen, 7767, 0.0604006490511
+given, 3887, 0.0584081583032
+word, 9829, 0.0582876162163
+certain, 1619, 0.0575825337732
+thought, 8887, 0.0567967828619
+player, 6683, 0.0561522191068
+great, 4016, 0.0541247221118
+play, 6681, 0.0536662944076
+someon, 8124, 0.0531765059165
+reason, 7156, 0.0524894125203
+base, 923, 0.0509269557639
+lot, 5356, 0.0507748695418
+believ, 1009, 0.0502534896998
+game, 3761, 0.049327417556
+someth, 8126, 0.0479028184734
+anyon, 554, 0.0437287803592
+look, 5341, 0.0406111829542

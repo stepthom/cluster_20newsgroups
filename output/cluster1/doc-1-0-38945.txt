@@ -1,0 +1,165 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38945
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jk87377@lehtori.cc.tut.fi (Kouhia Juhana)
+Subject: Re: XV problems
+Organization: Tampere University of Technology
+Lines: 47
+Distribution: world
+NNTP-Posting-Host: cc.tut.fi
+
+In article <1993Apr27.143603.9351@nessie.mcc.ac.uk>
+C.C.Lilley@mcc.ac.uk writes:
+>
+>2) Yes XV is an 8 bit program. This is not a bug.
+
+Never claimed it is a bug.
+
+
+>XV can import 24 bit images and quantises them down to 8 bits. This is a handy
+>facility, not a bug.
+
+Never claimed it is a bug.
+
+
+>How would you suggest doing colour editing on a 24 bit file? How
+>would you group 'related' colours to edit them together? Only global
+>changes could be done unless the software were very different and
+>much more complicated.
+>If you want to do colour editing on a 24 bit image, you need much
+>more powerfull software - which is readily available commercially.
+
+I guess I edited my note on this away from the article I posted to
+many newsgroups.
+
+I wrote something about making color modifications quickly
+with 8bit quantized images and only at the saving the image to file
+process we have to make the modifications to the 24bit image.
+This makes sense, because the main use of XV is only viewing images.
+
+Doing many changes to image, we should keep all modifications
+in a buffer; and then before making the operations to 24bit image,
+we should simplify the operation list for unnecessary operations.
+
+
+>And lastly, JPEG is a compression algorithm. It can be applied to any
+>image of arbitrary bit depth. Again, this is not a bug.
+
+Never claimed it is a bug.
+I tried kept sure I don't claim that JPEG is noting else than
+a compression algorithm, because I know what the JPEG is.
+(You propably misunderstood what I wrote as you have done in many
+places so far.)
+
+You also missed what is (were) wrong with XV. However, I did wrote it.
+
+
+Juhana Kouhia
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ problem         yes bit program bug  never claim
+bug   import bit imag quantis bit handi facil bug
+never claim bug   suggest colour edit bit file
+group relat colour edit togeth global chang could
+done unless softwar differ much complic want
+colour edit bit imag need much powerful softwar
+readili avail commerci  guess edit note away
+articl post mani newsgroup  wrote someth make
+color modif quick 8bit quantiz imag save imag file
+process make modif 24bit imag make sens main use
+view imag  mani chang imag keep modif buffer make
+oper 24bit imag simplifi oper list unnecessari
+oper   last jpeg compress algorithm appli imag
+arbitrari bit depth bug  never claim bug tri kept
+sure don't claim jpeg note els compress algorithm
+know jpeg propabl misunderstood wrote done mani
+place far  also miss wrong howev wrote   juhana
+kouhia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bug, 1373, 0.391296784188
+imag, 4512, 0.387828005882
+bit, 1122, 0.260151835413
+modif, 5813, 0.255268491433
+edit, 2996, 0.245028468903
+colour, 1912, 0.219342032915
+claim, 1782, 0.200321421889
+jpeg, 4905, 0.197593307573
+wrote, 9871, 0.163608985405
+oper, 6261, 0.16146587943
+24bit, 67, 0.160422067243
+compress, 1986, 0.133094360154
+make, 5459, 0.128971462619
+algorithm, 407, 0.11178154489
+mani, 5479, 0.109394977719
+powerful, 6784, 0.0973729100846
+quantis, 7019, 0.0950291066883
+misunderstood, 5779, 0.0950291066883
+note, 6118, 0.0927642161985
+chang, 1650, 0.0923775825095
+juhana, 4925, 0.0913308593153
+kouhia, 5068, 0.0898167197706
+file, 3477, 0.0889683978487
+unnecessari, 9295, 0.08723703218
+readili, 7140, 0.08723703218
+quantiz, 7022, 0.08723703218
+softwar, 8103, 0.0858097493452
+8bit, 148, 0.0832498888761
+handi, 4148, 0.0795516415031
+simplifi, 7969, 0.0789244279443
+arbitrari, 604, 0.0756936985621
+buffer, 1371, 0.0727302413414
+global, 3904, 0.0713003993309
+complic, 1978, 0.0706410072123
+depth, 2545, 0.0697113013936
+kept, 4989, 0.0650070963703
+facil, 3348, 0.062055841645
+togeth, 8969, 0.0595211815186
+appli, 584, 0.056953801567
+newsgroup, 6032, 0.0568434547272
+main, 5450, 0.0564113021724
+quick, 7036, 0.0548147941122
+miss, 5770, 0.0543539803342
+commerci, 1940, 0.0543539803342
+sens, 7788, 0.0535639847069
+unless, 9289, 0.0523464829349
+process, 6890, 0.0519649912046
+save, 7646, 0.0517414146493
+color, 1907, 0.0516677449468
+away, 833, 0.0509533762887
+view, 9510, 0.0502108675364
+guess, 4079, 0.0498232403435
+relat, 7247, 0.0491415934165
+suggest, 8525, 0.0490214492906
+import, 4551, 0.0487259114955
+wrong, 9869, 0.0471858277888
+list, 5298, 0.0470825715879
+yes, 9951, 0.0468280023206
+group, 4064, 0.0447387681916
+avail, 811, 0.0446533504162
+els, 3053, 0.0444422565449
+howev, 4406, 0.0443172442673
+place, 6657, 0.0440301915264
+far, 3386, 0.0429420825941
+articl, 665, 0.0414320839184
+sure, 8585, 0.0413989942531
+problem, 6887, 0.0404439516793
+program, 6905, 0.0399032273396
+differ, 2633, 0.0395836434082
+someth, 8126, 0.0378419699961
+post, 6766, 0.0375447237383
+tri, 9087, 0.0372302785924
+want, 9634, 0.035018572208
+need, 5993, 0.0345639936525
+don, 2811, 0.0291588695727
+use, 9363, 0.0283915288948
+know, 5052, 0.0276901552622

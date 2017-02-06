@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61092
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Mark.Perew@p201.f208.n103.z1.fidonet.org
+Subject: Re: Comet in Temporary Orbit Around Jupiter?
+X-Sender: newtout 0.08 Feb 23 1993
+Lines: 15
+
+In a message of <Apr 19 04:55>, jgarland@kean.ucs.mun.ca writes:
+
+ >In article <1993Apr19.020359.26996@sq.sq.com>, msb@sq.sq.com (Mark Brader) 
+ >writes:
+
+MB>                                                             So the
+MB> 1970 figure seems unlikely to actually be anything but a perijove.
+
+JG>Sorry, _perijoves_...I'm not used to talking this language.
+
+Couldn't we just say periapsis or apoapsis?
+
+ 
+
+--- msged 2.07
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ comet temporari orbit around jupit sender newtout
+com mark brader    figur seem unlik actual anyth
+perijov  sorri perijov i'm use talk languag
+couldn't say periapsi apoapsi    msged
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+perijov, 6544, 0.580060560187
+brader, 1263, 0.290030280094
+newtout, 6038, 0.265225225565
+sender, 7786, 0.233075003524
+temporari, 8778, 0.231716559945
+jupit, 4932, 0.209676066879
+comet, 1926, 0.208912800984
+unlik, 9290, 0.198926662438
+languag, 5113, 0.19342897949
+couldn, 2176, 0.182288642701
+com, 1917, 0.175177962152
+figur, 3476, 0.170277788458
+mark, 5512, 0.163164764276
+sorri, 8142, 0.154514063358
+orbit, 6280, 0.14503167006
+anyth, 555, 0.137369364883
+talk, 8684, 0.135511060584
+actual, 254, 0.128835790663
+say, 7653, 0.101732939781
+use, 9363, 0.0884968169747

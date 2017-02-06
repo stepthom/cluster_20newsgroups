@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104922
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: timlin@spot.Colorado.EDU (Michael Timlin)
+Subject: Re: Best Homeruns
+Nntp-Posting-Host: spot.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 17
+
+dswartz@osf.org (Dan Swartzendruber) writes:
+
+>In article <4200419@hpcc01.corp.hp.com> boell@hpcc01.corp.hp.com (Donald P Boell) writes:
+>>I'd have to say the most impressive HRs I've ever see came from Dave Kingman
+>>and his infamous moon-raker drives...
+
+>I remember one he hit circa 1976 at Wrigley Field that went across
+>the street (in dead center field) and hit a house on the roof.  He
+>whiffed a lot, but when he *did* connect, watch out!
+
+My favorite was the Barry Foote homer that bounced on Waveland and through
+a second floor window across the street.  Second though, would be the Kong
+drive that was last seen bouncing down the street that dead ends to the 
+park at Waveland.
+
+Mike Timlin
+timlin@spot.colorado.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best homerun        i'd say impress hrs i'v ever
+see came dave kingman infam moon raker drive
+rememb one hit circa wrigley field went across
+street dead center field hit hous roof whif lot
+connect watch  favorit barri foot homer bounc
+waveland second floor window across street second
+though kong drive last seen bounc street dead end
+park waveland  mike timlin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+street, 8440, 0.383089241586
+bounc, 1249, 0.302508255985
+dead, 2415, 0.222891157094
+drive, 2873, 0.217049548815
+whif, 9730, 0.194996441416
+raker, 7079, 0.18941628136
+field, 3466, 0.188224036425
+kong, 5060, 0.184856958616
+hit, 4316, 0.174898266273
+infam, 4621, 0.174717475817
+second, 7753, 0.174057673661
+circa, 1764, 0.167523398282
+roof, 7474, 0.165521766966
+wrigley, 9862, 0.163668545829
+hrs, 4414, 0.154749160691
+kingman, 5026, 0.152365735066
+floor, 3549, 0.150189837947
+homerun, 4356, 0.144609677891
+foot, 3587, 0.139365187862
+favorit, 3411, 0.1318354403
+barri, 918, 0.130378307294
+homer, 4355, 0.129910872348
+hous, 4396, 0.121364733565
+impress, 4554, 0.12039659815
+connect, 2046, 0.119464550833
+park, 6430, 0.115263574632
+went, 9704, 0.111667864825
+dave, 2395, 0.108134031434
+mike, 5710, 0.107940925906
+window, 9774, 0.10403117323
+watch, 9655, 0.103704279143
+moon, 5851, 0.101528382025
+center, 1606, 0.100939953899
+came, 1472, 0.100794985136
+seen, 7767, 0.092818262054
+rememb, 7269, 0.0920933695154
+end, 3091, 0.0862088603694
+best, 1052, 0.083606393564
+lot, 5356, 0.0780262335078
+say, 7653, 0.063489496202

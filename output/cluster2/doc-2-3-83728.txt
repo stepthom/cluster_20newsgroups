@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83728
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: e_p@unl.edu (edgar pearlstein)
+Subject: Re: cults (who keeps them going ?)
+Organization: University of Nebraska--Lincoln	
+Lines: 20
+Distribution: world
+NNTP-Posting-Host: unlinfo.unl.edu
+
+muttiah@thistle.ecn.purdue.edu (Ranjan S Muttiah) writes:
+
+
+>Mr. Clinton said today that the horrible tragedy of the Waco fiasco
+>should remind those who join cults of the dangers of doing so.
+>Now, I began scratching my head thinking (a bad sign :-), "don't the 
+>mainstream religions (in this case Christianity...or the 7th day 
+>adventist in particular) just keep these guys going ? Isn't Mr. Clinton 
+>condemning his own religion ? After all, isn't it a cult too ?"
+
+
+A good point.  What helps to keep such things going is the public
+attitude that one should have "faith""; that some authority from
+on high should not be subjected to mere reason.  Couple this with a
+variety of personality quirks, mojor and minor mental illnesses, and
+ego of would-be leaders, and you get all the variety of cults and 
+religions that people subscribe to.
+
+
+.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cult keep go         clinton said today horribl
+tragedi waco fiasco remind join cult danger began
+scratch head think bad sign don't mainstream
+religion case christian 7th day adventist
+particular keep guy go isn't clinton condemn
+religion isn't cult   good point help keep thing
+go public attitud one faith author high subject
+mere reason coupl varieti person quirk mojor minor
+mental ill ego leader get varieti cult religion
+peopl subscrib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cult, 2289, 0.466085329455
+religion, 7261, 0.286990816527
+clinton, 1820, 0.281873468051
+varieti, 9431, 0.244975851811
+isn, 4783, 0.165455139262
+scratch, 7717, 0.155434778383
+adventist, 287, 0.155434778383
+fiasco, 3461, 0.151316542014
+mainstream, 5453, 0.14627622805
+tragedi, 9039, 0.142157991681
+ill, 4505, 0.142157991681
+condemn, 2015, 0.140936734025
+ego, 3012, 0.139778133177
+mental, 5631, 0.136621223351
+waco, 9603, 0.134737819213
+horribl, 4380, 0.131385343106
+7th, 140, 0.130619582844
+began, 993, 0.125280088819
+join, 4881, 0.123563737055
+subject, 8487, 0.121968644084
+subscrib, 8496, 0.121461032511
+leader, 5173, 0.120003251601
+danger, 2356, 0.119081174007
+remind, 7270, 0.118633876927
+attitud, 769, 0.118195265779
+mere, 5641, 0.109623443613
+minor, 5745, 0.103880862794
+faith, 3367, 0.102977231721
+sign, 7946, 0.10275686154
+head, 4215, 0.095345462723
+particular, 6442, 0.0945691744887
+coupl, 2187, 0.0939667984068
+author, 796, 0.0926674633682
+public, 6973, 0.0867736405573
+today, 8964, 0.0863454236682
+guy, 4100, 0.0848082480741
+bad, 861, 0.083183903624
+christian, 1732, 0.080167727988
+case, 1540, 0.0785341659232
+high, 4292, 0.0763881451047
+person, 6562, 0.0752568571546
+said, 7583, 0.0751920428651
+reason, 7156, 0.072857534828
+day, 2402, 0.0669807535889
+help, 4249, 0.0663594399545
+point, 6710, 0.0637574263504
+thing, 8869, 0.0617076663112
+peopl, 6530, 0.0612841333203
+good, 3948, 0.0580634633805
+think, 8871, 0.0517327424008
+don, 2811, 0.0512342960799

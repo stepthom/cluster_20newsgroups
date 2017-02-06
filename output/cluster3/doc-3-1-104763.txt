@@ -1,0 +1,209 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104763
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Re: Braves Update!!
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 49
+
+In <C5sysG.KAD@odin.corp.sgi.com> luigi@sgi.com (Randy Palermo) writes:
+
+>In article <13586@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+[...]
+>>
+>>When Gant turned away, Hirschbeck IMMEDIATELY motioned for Gant
+>>to step into the box.  IMO, at this point in time, Hirschbeck
+>>was determined to show Gant exactly WHO was in charge of this game.
+>>Gant wasn't dawdling; he hadn't had a chance to dawdle.  And Hirschbeck
+>>was simply exercising a power play.  Gant resisted, as many of
+>>us might to what we thought was an unreasonable request, and
+>>Hirschbeck called for the pitch.  At that point, Cox came out on
+>>the field, the pitch was thrown, and many other Braves left the
+>>dugout.  Cox was tossed "protecting his player".  I was pleasantly
+>>surprised that Gant kept his cool enough to stay in the game.
+>>
+>Did you see the same game I saw? Gant, most reasonable, argued a
+>horrible call which Hirschbeck, correctly, did nothing about. Gant
+>then proceeded to walk halfway to 3rd base, lean on his bat and
+>glare at Hirschbeck. While I don't necessasarily subscribe to the
+>theory of showing people up, this was an obvious attempt by Gant to
+>do so to Hirschbeck. He left Hirschbeck no choice but to take control
+>of the situation. The bottom line is: Gant started a dangerous
+>power struggle with Hirschbeck when his team needed him most and
+>he lost.
+
+The events I saw were:
+1)  Called strike by Hirschbeck
+2)  Shocked-looking Gant asks for appeal to first
+3)  No appeal to first
+4)  Gant steps out of batters box.
+5)  Hirschbeck *immediately* orders Gant back in.  [bad move]
+6)  Gant ignores Hirschbeck and walks off. [bad move]
+7)  Hirschbeck yells at Gant.  Gant is silent.
+8)  Hirschbeck calls for the pitch.
+9)  Pitch is called a strike.
+10)  Cox argues (couldn't see when he came on the field)
+11)  Cox is ejected, players everywhere
+12)  Play finally resumes.
+
+Gant shouldn't have ignored Hirschbeck.  Not returning made the strike
+call fairly likely.  Although I suspect an argument might have gotten
+Gant tossed altogether.  But if Hirschbeck had let Gant step out, the
+whole incident probably would have been avoided.
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave updat         gant turn away hirschbeck
+immedi motion gant step box imo point time
+hirschbeck determin show gant exact charg game
+gant wasn't dawdl hadn't chanc dawdl hirschbeck
+simpli exercis power play gant resist mani might
+thought unreason request hirschbeck call pitch
+point cox came field pitch thrown mani brave left
+dugout cox toss protect player pleasant surpris
+gant kept cool enough stay game  see game saw gant
+reason argu horribl call hirschbeck correct noth
+gant proceed walk halfway 3rd base lean bat glare
+hirschbeck don't necessasarili subscrib theori
+show peopl obvious attempt gant hirschbeck left
+hirschbeck choic take control situat bottom line
+gant start danger power struggl hirschbeck team
+need lost  event saw call strike hirschbeck shock
+look gant ask appeal first appeal first gant step
+batter box hirschbeck immedi order gant back bad
+move gant ignor hirschbeck walk bad move
+hirschbeck yell gant gant silent hirschbeck call
+pitch pitch call strike cox argu couldn't see came
+field cox eject player everywher play final resum
+gant shouldn't ignor hirschbeck return made strike
+call fair like although suspect argument might
+gotten gant toss altogeth hirschbeck let gant step
+whole incid probabl avoid    consid good look wise
+especi overburden inform golden kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gant, 3766, 0.649458789582
+hirschbeck, 4310, 0.62924171663
+cox, 2198, 0.157310429157
+strike, 8448, 0.0907158867043
+dawdl, 2399, 0.0897843213811
+pitch, 6643, 0.0886782765203
+step, 8377, 0.084163416291
+appeal, 579, 0.0745684817033
+toss, 9010, 0.0690787495253
+argu, 628, 0.059772954724
+immedi, 4527, 0.0581725081485
+game, 3761, 0.0552250561753
+ignor, 4496, 0.054236657026
+saw, 7650, 0.0535003209838
+brave, 1277, 0.0519681095591
+walk, 9617, 0.0516134617385
+box, 1254, 0.0496046334554
+came, 1472, 0.0489557407348
+left, 5193, 0.0483397640997
+field, 3466, 0.0457098491302
+power, 6783, 0.045081476687
+bad, 861, 0.0447293991393
+resum, 7333, 0.0424298065841
+halfway, 4126, 0.0424298065841
+player, 6683, 0.0419105588492
+lean, 5179, 0.0417899613959
+dugout, 2910, 0.0417899613959
+glare, 3892, 0.0412111510175
+play, 6681, 0.0400551291786
+shock, 7895, 0.0397465949582
+eject, 3022, 0.0397465949582
+altogeth, 454, 0.0397465949582
+pleasant, 6689, 0.0393276072894
+yell, 9946, 0.0389356705003
+unreason, 9305, 0.0389356705003
+everywher, 3244, 0.0385675024792
+silent, 7954, 0.037892038934
+overburden, 6339, 0.0375805392475
+kimbal, 5019, 0.0370017288691
+resist, 7314, 0.0362254079947
+imo, 4533, 0.0362254079947
+hadn, 4114, 0.0362254079947
+thrown, 8900, 0.0357580303292
+exercis, 3279, 0.0355371728098
+horribl, 4380, 0.0353240662965
+struggl, 8461, 0.0345393747626
+mani, 5479, 0.0344524401673
+point, 6710, 0.0342834520511
+incid, 4575, 0.034182041557
+cool, 2124, 0.0335248699306
+golden, 3934, 0.0332211610245
+proceed, 6889, 0.0329319200524
+subscrib, 8496, 0.0326558310345
+wise, 9799, 0.0323917497564
+motion, 5880, 0.0323917497564
+3rd, 102, 0.0323917497564
+danger, 2356, 0.0320159858463
+shouldn, 7912, 0.0315486081808
+avoid, 827, 0.0308083819888
+kept, 4989, 0.0307096332691
+gotten, 3962, 0.0305168262035
+look, 5341, 0.0303111328494
+protect, 6940, 0.0296351485672
+suspect, 8603, 0.0293938090302
+stay, 8355, 0.0290117388761
+charg, 1664, 0.0288653965549
+batter, 949, 0.0288653965549
+request, 7301, 0.0287935269296
+theori, 8848, 0.028054472097
+choic, 1717, 0.028054472097
+couldn, 2176, 0.0276270556795
+event, 3232, 0.0275683797404
+surpris, 8593, 0.0273391860324
+lost, 5355, 0.0268530936757
+attempt, 763, 0.0266993408442
+determin, 2582, 0.0264514324451
+chanc, 1649, 0.0264030424484
+wasn, 9652, 0.0263550349852
+updat, 9333, 0.0263074040551
+return, 7346, 0.025939236034
+fair, 3363, 0.0257199735015
+obvious, 6185, 0.0256770552136
+situat, 7995, 0.0256344381092
+control, 2107, 0.0253442095914
+argument, 631, 0.0253442095914
+especi, 3190, 0.0251450798679
+bat, 942, 0.0249522728023
+simpli, 7967, 0.0248768319259
+turn, 9158, 0.0241698820498
+exact, 3253, 0.0241035107612
+away, 833, 0.024070595166
+final, 3482, 0.0238450499486
+correct, 2156, 0.0233882246966
+noth, 6119, 0.0220979819067
+order, 6281, 0.0214676330652
+consid, 2059, 0.0212989302043
+thought, 8887, 0.0211958222528
+ask, 689, 0.0210344064392
+team, 8732, 0.0201640402756
+line, 5285, 0.0201296327475
+inform, 4637, 0.0199604599014
+probabl, 6885, 0.0198611730176
+reason, 7156, 0.0195883675426
+start, 8334, 0.019222969379
+let, 5225, 0.0191788025482
+base, 923, 0.0190052789587
+peopl, 6530, 0.0164767601709
+need, 5993, 0.016328179978
+good, 3948, 0.0156108556813
+time, 8936, 0.0144293661577
+don, 2811, 0.0137747760032
+like, 5272, 0.0127872103299

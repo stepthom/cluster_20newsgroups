@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38904
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kardank@ERE.UMontreal.CA (Kardan Kaveh)
+Subject: Re: Human head modeling software
+Organization: Universite de Montreal
+Lines: 19
+
+In article <C65wBp.6K4@taurus.cs.nps.navy.mil> adaptive@cs.nps.navy.mil (zyda res acct) writes:
+>>Hi, there!
+>>I am interested in facial animation and want to implement some program about this area.
+>>But I don't have any 3-D information for the face.
+>>I am looking for some 3D images of face.
+>
+>Try getting the Cyberware_demo via ftp which contains 3D images of the
+>face.
+>
+
+What is the copyright status of this data?  Are there restrictions regarding the
+uses they can be put to?
+
+Kaveh
+
+
+-- 
+Kaveh Kardan
+kardank@ERE.UMontreal.CA
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ human head model softwar      interest facial
+anim want implement program area don't inform face
+look imag face  tri get cyberwar demo via ftp
+contain imag face   copyright status data restrict
+regard use put  kaveh    kaveh kardan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kaveh, 4964, 0.495314839525
+face, 3345, 0.409820048144
+kardan, 4955, 0.247657419762
+facial, 3347, 0.240570274831
+cyberwar, 2324, 0.221901891819
+imag, 4512, 0.212926869111
+demo, 2517, 0.189453764066
+copyright, 2135, 0.18820809563
+restrict, 7330, 0.176155325416
+status, 8352, 0.172976627345
+implement, 4544, 0.153315648741
+contain, 2079, 0.13963377919
+anim, 515, 0.137091584864
+head, 4215, 0.134064488389
+model, 5807, 0.133188281817
+regard, 7224, 0.130102315123
+area, 622, 0.129136876843
+ftp, 3709, 0.128385114554
+human, 4432, 0.122625466237
+data, 2385, 0.117619096273
+softwar, 8103, 0.10600111964
+inform, 4637, 0.104390384267
+program, 6905, 0.0985852262134
+tri, 9087, 0.091981418089
+want, 9634, 0.086517158961
+look, 5341, 0.079261470461
+don, 2811, 0.0720401317039
+use, 9363, 0.0701443338108

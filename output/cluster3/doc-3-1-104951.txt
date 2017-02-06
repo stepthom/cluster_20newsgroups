@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104951
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: paul@csd4.csd.uwm.edu (Paul R Krueger)
+Subject: Re: Twins Update 4-22
+Organization: Computing Services Division, University of Wisconsin - Milwaukee
+Lines: 12
+NNTP-Posting-Host: 129.89.7.4
+
+In article <1993Apr23.151050.8995@sctc.com> macomber@sctc.com (Chuck Macomber) writes:
+
+
+>
+>Wednesday's game marked the first opposing left-handed starting pitcher for the
+>Twins this year (Rickey Bones).   
+   Nice post Chuck, but you made just one mistake. Bones is a right-handed
+   pitcher. However, Hrbek's grand slam came off Graehme Lloyd, a lefty.
+
+   --salty
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ twin updat         wednesday game mark first
+oppos left hand start pitcher twin year rickey
+bone nice post chuck made one mistak bone right
+hand pitcher howev hrbek grand slam came graehm
+lloyd lefti  salti
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bone, 1213, 0.405487267876
+twin, 9172, 0.354129030333
+pitcher, 6644, 0.253765104965
+salti, 7595, 0.248935652977
+hand, 4145, 0.231587741538
+lloyd, 5316, 0.231070255235
+hrbek, 4412, 0.231070255235
+slam, 8015, 0.208941948026
+wednesday, 9688, 0.199192822376
+chuck, 1740, 0.199192822376
+lefti, 5196, 0.193093498752
+rickey, 7389, 0.187974656003
+grand, 3991, 0.183564289465
+mistak, 5776, 0.167671096807
+oppos, 6269, 0.15578757572
+updat, 9333, 0.138294116932
+mark, 5512, 0.129995129179
+nice, 6047, 0.129234988528
+came, 1472, 0.128676529989
+left, 5193, 0.127057481134
+howev, 4406, 0.110055644055
+start, 8334, 0.101052295753
+right, 7399, 0.097111414133
+game, 3761, 0.096769973455
+post, 6766, 0.0932370417021
+year, 9943, 0.0802320612405

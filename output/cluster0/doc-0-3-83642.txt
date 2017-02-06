@@ -1,0 +1,159 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83642
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: swaim@owlnet.rice.edu (Michael Parks Swaim)
+Subject: Re: OTO, the Ancient Order of Oriental Templars
+Organization: Rice University
+Lines: 33
+
+In article <79615@cup.portal.com> Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva) writes:
+
+>"To all whom it may concern -
+>
+>"It is known only to a few that there exists an external visible
+>organization of such men and women, who having themselves found
+>the path to real self-knowledge, and who, having travelled the
+>burning sands, are willing to give the benefit of their experience,
+>and to act as spiritual guides to those who are willing to be
+>guided.
+>
+>"While numberless societies, associations, orders, groups etc.
+>have been founded during the last thirty years in all parts of
+>the civilised world, all following some line of occult study,
+>yet there is but ONE ancient organization of genuine Mystics
+>which shows the seeker after truth a Royal Road to discover
+>The Lost Mysteries of Antiquity, and to the Unveiling of the
+>One Hermetic Truth.
+>
+>"This organization is known at the present time as the Ancient
+>Order of Oriental Templars.  Ordo Templi Orientis.  Otherwise:
+>The Hermetic Brotherhood of Light.
+
+  Up to this point, I was kinda hoping that this was a joke. Still,
+it would make a great premise for a bad syndicated TV show- "These
+are the adventures of the Oriental Templars... dedicated to truth,
+justice, and good karma! (Dramatic music in the background.)"
+  No doubt I've just horribly offended someone.
+-- 
+Mike Swaim            |Whenever the soft drink  machine needs to be 
+swaim@owlnet.rice.edu |restocked, rather than getting angry,
+Disclamer: I lie      |meditate on the impermanence of all things
+                      |and the emptiness of coke.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oto ancient order orient templar      concern
+known exist extern visibl organ men women found
+path real self knowledg travel burn sand will give
+benefit experi act spiritu guid will guid
+numberless societi associ order group etc found
+last thirti year part civilis world follow line
+occult studi yet one ancient organ genuin mystic
+show seeker truth royal road discov lost mysteri
+antiqu unveil one hermet truth  organ known
+present time ancient order orient templar ordo
+templi orienti otherwis hermet brotherhood light
+point kinda hope joke still make great premis bad
+syndic show adventur orient templar dedic truth
+justic good karma dramat music background doubt
+i'v horribl offend someon  mike swaim whenev soft
+drink machin need  disclam lie medit imperman
+thing empti coke
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+templar, 8775, 0.326420052177
+ancient, 500, 0.253351120998
+hermet, 4270, 0.242871139188
+orient, 6290, 0.231938992168
+truth, 9132, 0.217311345029
+organ, 6287, 0.195604637693
+guid, 4082, 0.171941859949
+order, 6281, 0.165154321206
+swaim, 8618, 0.125915738036
+known, 5054, 0.124479820667
+unveil, 9326, 0.121435569594
+civilis, 1780, 0.117960480972
+brotherhood, 1342, 0.117960480972
+adventur, 288, 0.117960480972
+karma, 4960, 0.115121126827
+genuin, 3833, 0.115121126827
+templi, 8777, 0.112720487102
+syndic, 8652, 0.112720487102
+medit, 5612, 0.112720487102
+coke, 1885, 0.112720487102
+orienti, 6291, 0.110640958385
+ordo, 6283, 0.108806684059
+antiqu, 545, 0.108806684059
+offend, 6201, 0.103079983951
+oto, 6315, 0.101925875893
+mystic, 5943, 0.101925875893
+empti, 3079, 0.100851426995
+occult, 6189, 0.099846347175
+dramat, 2859, 0.099846347175
+thirti, 8877, 0.0971700660592
+premis, 6827, 0.0971700660592
+sand, 7605, 0.0963712585532
+kinda, 5022, 0.0963712585532
+spiritu, 8239, 0.0956114331253
+dedic, 2462, 0.0928961699315
+whenev, 9722, 0.0922853727419
+horribl, 4380, 0.0905847759074
+music, 5933, 0.0900568157858
+soft, 8097, 0.0895461689867
+joke, 4883, 0.0890517359654
+mysteri, 5942, 0.0885725187069
+extern, 3322, 0.0885725187069
+justic, 4937, 0.0867907683169
+drink, 2872, 0.0855766473437
+royal, 7503, 0.0830651649304
+travel, 9069, 0.0827372931979
+women, 9819, 0.0824161821915
+discov, 2698, 0.0811941176669
+path, 6461, 0.0800610120822
+visibl, 9541, 0.0797901646978
+background, 855, 0.0797901646978
+benefit, 1028, 0.0777779074974
+lie, 5258, 0.0753772677731
+men, 5629, 0.0747820361341
+societi, 8093, 0.0738379087675
+associ, 706, 0.0732977390553
+burn, 1413, 0.0729477618087
+road, 7431, 0.0726054769961
+self, 7776, 0.0722705537208
+machin, 5416, 0.0708466184697
+otherwis, 6313, 0.0698226504335
+doubt, 2830, 0.0696817143399
+act, 249, 0.0695420422641
+knowledg, 5053, 0.0694036117343
+lost, 5355, 0.0688618759974
+concern, 2004, 0.067341319689
+mike, 5710, 0.067221061701
+studi, 8469, 0.0669832962878
+experi, 3295, 0.0652015458978
+present, 6837, 0.0623271561196
+light, 5267, 0.061981067831
+bad, 861, 0.0573518711506
+exist, 3283, 0.0558387078317
+hope, 4372, 0.0556666250636
+group, 4064, 0.0541978935353
+real, 7144, 0.0533887072672
+world, 9841, 0.0521573468956
+great, 4016, 0.0517972538111
+line, 5285, 0.0516202822241
+follow, 3578, 0.0511864566215
+someon, 8124, 0.050889812756
+point, 6710, 0.0439581161936
+thing, 8869, 0.0425448911761
+need, 5993, 0.0418718646904
+good, 3948, 0.0400323635377
+year, 9943, 0.0391387330016
+make, 5459, 0.0390599802064
+time, 8936, 0.0370025604897

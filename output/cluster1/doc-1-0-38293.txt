@@ -1,0 +1,330 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38293
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: cheinan@access.digex.com (Cheinan Marks)
+Subject: Re: Please Recommend 3D Graphics Library For Mac.
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 100
+NNTP-Posting-Host: access.digex.net
+X-Newsreader: TIN [version 1.1 PL8]
+
+: Robert G. Carpenter writes:
+
+: >Hi Netters,
+: >
+: >I'm building a CAD package and need a 3D graphics library that can handle
+: >some rudimentry tasks, such as hidden line removal, shading, animation, etc.
+: >
+: >Can you please offer some recommendations?
+: >
+: >I'll also need contact info (name, address, email...) if you can find it.
+: >
+: >Thanks
+: >
+: >(Please Post Your Responses, in case others have same need)
+: >
+: >Bob Carpenter
+: >
+
+The following is extracted from sumex-aim.stanford.edu.  It should also be on
+the mirrors.  I think there is source for some applications that may have some
+bearing on your project.  Poke around the source directory.  I've never used
+this package, nor do I know anyone who did, but the price is right :-)
+
+Hope this helps.
+
+					Cheinan
+
+Abstracts of files as of Thu Apr  1 03:11:39 PST 1993
+Directory: info-mac/source
+
+#### BINHEX     3d-grafsys-121.hqx   ****
+
+Date: Fri, 5 Mar 93 14:13:07 +0100
+From: Christian Steffen Ove Franz <cfranz@iiic.ethz.ch>
+To: questions@mac.archive.umich.edu
+Subject: 3d GrafSys 1.21 in incoming directory
+A 3d GrafSys short description follows:
+
+Programmers 3D GrafSys Vers 1.21 now available. 
+
+Version 1.21 is mainly a bugfix for THINK C users. THIS VERSION
+NOW RUNS WITH THINK C, I PROMISE! The Docs now contain a chapter for
+C programmers on how to use the GrafSys. If you have problems, feel free 
+to contact me.
+The other change is that I removed the FastPerfTrig calls from
+the FPU version to make it run faster.
+
+Those of you who don't know what all this is about, read on.
+
+********
+
+Programmers 3D GrafSys -- What it is:
+-------------------------------------
+
+Didn't you always have this great game in mind where you needed some way of 
+drawing three-dimensional scenes? 
+
+Didn't you always want to write this program that visualized the structure 
+of three-dimensional molecules?
+
+And didn't the task of writing your 3D conversions routines keep you from 
+actually doing it?
+
+Well if the answer to any of the above questions is 'Yes, but what has it to 
+do with this package???' , read on.
+
+GrafSys is a THINK Pascal/C library that provides you with simple routines 
+for building, saving, loading (as resources), and manipulating 
+(independent rotating around arbitrary achses, translating and scaling) 
+three dimensional objects. Objects, not just simple single-line drawings.
+
+GrafSys supports full 3D clipping, animation and some (primitive) hidden-
+line/hidden-surface drawing with simple commands from within YOUR PROGRAM.
+
+GrafSys also supports full eye control with both perspective and parallel
+projections (If you can't understand a word, don't worry, this is just showing
+off for those who know about it. The docs that come with it will try to explain
+what it all means later on). 
+
+GrafSys provides a powerful interface to supply your own drawing routines with
+data so you can use GrafSys to do the 3D transformations and your own routines
+to do the actual drawing. (Note that GrafSys also provides drawing routines so
+you don't have to worry about that if you don't want to)
+
+GrafSys 1.11 comes in two versions. One for the 881 and 020 or above 
+processors. The other version uses fixed-point arithmetic and runs on any Mac.
+Both versions are *100% source compatibel*. 
+
+GrafSys comes with an extensive manual that teaches you the fundamentals of 3D
+graphics and how to use the package.
+
+If demand is big enough I will convert the GrafSys to an object-class library. 
+However, I feelt that the way it is implemented now makes it easier to use for
+a lot more people than the select 'OOP-Guild'.
+
+GrafSys is free for any non-commercial usage. Read the documentation enclosed.
+
+
+Enjoy,
+Christian Franz
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pleas recommend graphic librari mac        netter
+i'm build cad packag need graphic librari handl
+rudimentri task hidden line remov shade anim etc
+pleas offer recommend  i'll also need contact info
+name address email find  thank  pleas post respons
+case other need  bob carpent   follow extract
+sumex aim stanford edu also mirror think sourc
+applic bear project poke around sourc directori
+i'v never use packag know anyon price right  hope
+help  cheinan  abstract file thu pst directori
+info mac sourc  binhex grafsi hqx     grafsi incom
+directori grafsi short descript follow  programm
+grafsi ver avail  version main bugfix think user
+version run think promis doc contain chapter
+programm use grafsi problem feel free contact
+chang remov fastperftrig call fpu version make run
+faster  don't know read    programm grafsi
+didn't alway great game mind need way draw three
+dimension scene  didn't alway want write program
+visual structur three dimension molecul  didn't
+task write convers routin keep actual  well answer
+question yes packag read  grafsi think pascal
+librari provid simpl routin build save load
+resourc manipul independ rotat around arbitrari
+achs translat scale three dimension object object
+simpl singl line draw  grafsi support full clip
+anim primit hidden line hidden surfac draw simpl
+command within program  grafsi also support full
+eye control perspect parallel project can't
+understand word don't worri show know doc come tri
+explain mean later  grafsi provid power interfac
+suppli draw routin data use grafsi transform
+routin actual draw note grafsi also provid draw
+routin don't worri don't want  grafsi come two
+version one processor version use fix point
+arithmet run mac version sourc compatibel  grafsi
+come extens manual teach fundament graphic use
+packag  demand big enough convert grafsi object
+class librari howev feelt way implement make
+easier use lot peopl select oop guild  grafsi free
+non commerci usag read document enclos   enjoy
+christian franz
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grafsi, 3984, 0.786789470464
+draw, 2861, 0.16796271629
+routin, 7499, 0.154734044931
+version, 9479, 0.147213520938
+dimension, 2653, 0.113624941892
+librari, 5250, 0.111975144193
+packag, 6375, 0.109871828566
+hidden, 4286, 0.107035369062
+programm, 6906, 0.0959770308652
+sourc, 8153, 0.0931034517499
+directori, 2669, 0.089700173928
+mac, 5410, 0.0843132768481
+use, 9363, 0.0835662777255
+simpl, 7965, 0.0806696308118
+doc, 2783, 0.0742644124538
+provid, 6949, 0.0699839440892
+object, 6173, 0.0696725151508
+task, 8707, 0.0693071285381
+need, 5993, 0.067822678226
+worri, 9845, 0.0650633431134
+recommend, 7178, 0.0639846872435
+didn, 2625, 0.063196843211
+line, 5285, 0.0627096348069
+graphic, 3997, 0.0622868489268
+remov, 7272, 0.0602533115516
+think, 8871, 0.0577732008507
+read, 7135, 0.0575904195171
+don, 2811, 0.0572165545553
+contact, 2078, 0.057134961582
+run, 7543, 0.0569884955508
+pleas, 6688, 0.0556542856004
+come, 1923, 0.054861378362
+anim, 515, 0.0544412396184
+free, 3668, 0.0513580505779
+build, 1378, 0.0509102193736
+info, 4636, 0.0496548936733
+franz, 3659, 0.049174341904
+alway, 457, 0.0476350168511
+project, 6909, 0.0468139512704
+poke, 6714, 0.0466173598878
+hqx, 4410, 0.0466173598878
+fpu, 3635, 0.0466173598878
+binhex, 1101, 0.0466173598878
+ver, 9466, 0.0456452404422
+rudimentri, 7530, 0.0448031522755
+carpent, 1529, 0.0448031522755
+thu, 8903, 0.0440603778716
+write, 9865, 0.0434804239931
+support, 8576, 0.0434398037093
+arithmet, 638, 0.043395943526
+sumex, 8533, 0.0427948895491
+follow, 3578, 0.0414550749368
+know, 5052, 0.0407509439432
+actual, 254, 0.0405525977526
+oop, 6254, 0.040431962647
+molecul, 5823, 0.040431962647
+incom, 4581, 0.0393482244716
+program, 6905, 0.039149754731
+netter, 6017, 0.0387170687975
+extract, 3326, 0.0381433740548
+usag, 9360, 0.0378749806308
+cad, 1445, 0.0373702078157
+aim, 353, 0.0373702078157
+arbitrari, 604, 0.0371322062269
+pascal, 6447, 0.0369028611852
+stanford, 8318, 0.0366815650197
+enclos, 3085, 0.0366815650197
+primit, 6866, 0.0362609896315
+scene, 7671, 0.0358667179044
+abstract, 199, 0.035678456354
+clip, 1821, 0.0353179986146
+fundament, 3724, 0.035145212639
+shade, 7835, 0.0349770348431
+processor, 6891, 0.0348132257995
+perspect, 6564, 0.034653564269
+transform, 9053, 0.0344978454043
+want, 9634, 0.0343573340899
+manual, 5492, 0.034345879169
+easier, 2960, 0.0341974889438
+mirror, 5755, 0.0333737597234
+chapter, 1658, 0.0333737597234
+demand, 2514, 0.0332463555195
+parallel, 6420, 0.0329990181872
+way, 9666, 0.0329929869304
+interfac, 4709, 0.0327610165984
+manipul, 5483, 0.0324200528269
+visual, 9547, 0.0322025728755
+suppli, 8574, 0.0320965822528
+extens, 3320, 0.0319923436217
+translat, 9057, 0.0317888971528
+bear, 971, 0.0317888971528
+make, 5459, 0.0316340398098
+independ, 4595, 0.0315918094377
+fix, 3511, 0.0310350103344
+faster, 3399, 0.0309468089861
+convers, 2114, 0.0309468089861
+implement, 4544, 0.030442036171
+enjoy, 3114, 0.0302040345822
+class, 1789, 0.0302040345822
+resourc, 7320, 0.0299746895405
+descript, 2557, 0.0296813206637
+promis, 6913, 0.0296100623507
+eye, 3337, 0.0296100623507
+select, 7774, 0.0294699167254
+scale, 7659, 0.0294009947978
+price, 6857, 0.0293328179868
+load, 5317, 0.0293328179868
+teach, 8729, 0.0292653703535
+rotat, 7490, 0.0292653703535
+handl, 4149, 0.0291326013738
+document, 2788, 0.0290025700949
+structur, 8460, 0.0287502847093
+contain, 2079, 0.0277253926243
+bob, 1189, 0.0277253926243
+offer, 6203, 0.0276730579373
+main, 5450, 0.0276730579373
+command, 1933, 0.0276730579373
+applic, 585, 0.0276211539932
+surfac, 8587, 0.0275696737596
+user, 9366, 0.0272206198092
+commerci, 1940, 0.0266638207059
+email, 3060, 0.0265319770132
+later, 5140, 0.0264455880787
+control, 2107, 0.0263181838748
+singl, 7983, 0.0261522192018
+explain, 3301, 0.0254918811822
+save, 7646, 0.0253822037465
+convert, 2115, 0.0253460644292
+non, 6097, 0.0249956246326
+short, 7904, 0.0249278143706
+feel, 3429, 0.0247943428572
+mind, 5733, 0.0245673566312
+address, 264, 0.0245039762626
+respons, 7323, 0.0242870307654
+power, 6783, 0.0234069756352
+data, 2385, 0.0233542029958
+answer, 535, 0.0232758629375
+yes, 9951, 0.0229718863313
+note, 6118, 0.0227531490189
+chang, 1650, 0.0226583157492
+understand, 9246, 0.0226114285919
+word, 9829, 0.0225881150955
+hope, 4372, 0.0225417450807
+christian, 1732, 0.0223820835502
+edu, 3001, 0.0223596011963
+case, 1540, 0.021926008225
+avail, 811, 0.0219050918091
+file, 3477, 0.0218221130646
+howev, 4406, 0.0217402119965
+big, 1082, 0.0214811492931
+great, 4016, 0.0209748748008
+ll, 5314, 0.0199770677693
+problem, 6887, 0.0198401344222
+lot, 5356, 0.0196767113088
+mean, 5595, 0.0194888811202
+right, 7399, 0.0191832299803
+game, 3761, 0.019115782347
+question, 7032, 0.01908900399
+help, 4249, 0.0185269380421
+post, 6766, 0.0184178927845
+tri, 9087, 0.0182636389665
+point, 6710, 0.0178004800602
+thank, 8832, 0.0176604541251
+peopl, 6530, 0.0171099596646
+anyon, 554, 0.016946150621

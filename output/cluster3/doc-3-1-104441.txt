@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104441
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: davewood@bruno.cs.colorado.edu (David Rex Wood)
+Subject: Rockies need some relief
+Nntp-Posting-Host: bruno.cs.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 13
+
+Once again, the Rockies bullpen fell apart.  Andy Ashby pitched six (somewhat
+shaky) innings giving up just one run.  Then game the dreaded relief.  Three
+picthers combined to give up 3 runs (one each I believe) in the 7th inning
+and blew the save opportunity.  (Final was 4-2 vs Expos).
+
+Despite their problems in the pen, I think the Rockies are a team that wont
+be taken lightly.  Going into today's game, the had the league's leading
+hitter and RBI man (Galarraga), two of the leaders in stolen bases (Young
+and Cole) and increasingly strong starting pitching.
+-- 
+-------------------------------------------------------------------------------
+David Rex Wood -- davewood@cs.colorado.edu -- University of Colorado at Boulder
+-------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rocki need relief     rocki bullpen fell apart
+andi ashbi pitch six somewhat shaki inning give
+one run game dread relief three picther combin
+give run one believ 7th inning blew save opportun
+final expo  despit problem pen think rocki team
+wont taken light go today game leagu lead hitter
+rbi man galarraga two leader stolen base young
+cole increas strong start pitch
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rocki, 7450, 0.38202859609
+relief, 7257, 0.283664951045
+inning, 4657, 0.229888896982
+ashbi, 682, 0.188891851269
+pitch, 6643, 0.18207422066
+wont, 9823, 0.180500972099
+shaki, 7845, 0.17717099221
+blew, 1156, 0.171606281744
+dread, 2864, 0.169229455024
+fell, 3436, 0.161494871768
+pen, 6511, 0.154320712218
+andi, 502, 0.154320712218
+galarraga, 3751, 0.153103992597
+game, 3761, 0.151184099925
+run, 7543, 0.150238064191
+cole, 1890, 0.148756001752
+stolen, 8407, 0.145929833048
+7th, 140, 0.144209302242
+expo, 3309, 0.138979332445
+apart, 559, 0.137035142693
+despit, 2570, 0.133549786567
+bullpen, 1391, 0.133549786567
+leader, 5173, 0.132488443183
+opportun, 6268, 0.130492353713
+somewhat, 8129, 0.130017333533
+rbi, 7124, 0.128644263522
+combin, 1921, 0.121028715363
+taken, 8678, 0.11296814308
+increas, 4590, 0.112497604489
+young, 9962, 0.111358693997
+strong, 8456, 0.110483593491
+hitter, 4322, 0.106152807065
+lead, 5172, 0.101247284021
+save, 7646, 0.100372183515
+leagu, 5176, 0.100087176922
+light, 5267, 0.0992511945504
+final, 3482, 0.0979173041322
+today, 8964, 0.0953288398868
+man, 5471, 0.0861315872851
+team, 8732, 0.0828016073966
+start, 8334, 0.078937194221
+problem, 6887, 0.0784564505539
+base, 923, 0.0780432703613
+believ, 1009, 0.0770112138928
+need, 5993, 0.0670500321147
+think, 8871, 0.0571150398912

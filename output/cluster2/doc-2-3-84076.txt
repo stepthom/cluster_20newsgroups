@@ -1,0 +1,117 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84076
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: kde@boi.hp.com (Keith Emmen)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Hewlett-Packard / Boise, Idaho
+X-Newsreader: Tin 1.1scd1 PL4
+Lines: 23
+
+tbrent@bank.ecn.purdue.edu (Timothy J Brent) writes:
+: 
+: Probably not.  But then, I don't pack heavy weaponry with intent to use it.
+: You don't really think he should have been allowed to keep that stuff do 
+: you?  If so, tell me where you live so I can be sure to steer well clear.
+
+I understand that they had the neccessary licenses and permits to own
+automatic weapons.  
+
+: The public also has rights, and they should be placed above those of the
+: individual.  Go ahead, call me a commie, but you'd be singing a different
+: tune if I exercised my right to rape your daughter.  He broke the law, he
+: was a threat to society, they did there job - simple.
+
+I haven't seen any proof (or even evidence) that the BD's had broken the
+law.  If you have proof (or evidence), let's hear it.  "The FBI said so" is
+NOT evidence.
+
+:  
+: I'll support them all (except no. 2)
+
+I guess there will always be people who wish to be peasants.  The politicians
+prefer unarmed peasants
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen       probabl don't
+pack heavi weaponri intent use don't realli think
+allow keep stuff tell live sure steer well clear
+understand neccessari licens permit automat weapon
+public also right place individu ahead call commi
+you'd sing differ tune exercis right rape daughter
+broke law threat societi job simpl  haven't seen
+proof even evid bd broken law proof evid let hear
+fbi said evid   i'll support except  guess alway
+peopl wish peasant politician prefer unarm peasant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+evid, 3245, 0.301495471578
+proof, 6919, 0.2554261115
+law, 5153, 0.204787089919
+commi, 1942, 0.180636421458
+weaponri, 9675, 0.176288433319
+politician, 6724, 0.176288433319
+neccessari, 5988, 0.172612261728
+steer, 8367, 0.166618937776
+bd, 965, 0.159758321506
+sing, 7979, 0.156082149915
+broke, 1331, 0.156082149915
+rape, 7099, 0.152897705237
+daughter, 2393, 0.152897705237
+broken, 1332, 0.14530324921
+right, 7399, 0.145086790301
+permit, 6552, 0.143228209694
+pack, 6374, 0.14041933042
+exercis, 3279, 0.139552038103
+tune, 9149, 0.13790670229
+threat, 8891, 0.137124733535
+licens, 5254, 0.135633753667
+weapon, 9674, 0.132905305871
+heavi, 4230, 0.12771305575
+fbi, 3414, 0.126698097881
+intent, 4702, 0.124789246566
+automat, 803, 0.124789246566
+ahead, 342, 0.115739212093
+presid, 6839, 0.114219723065
+societi, 8093, 0.113070203663
+wish, 9801, 0.110417704689
+prefer, 6819, 0.108957172206
+don, 2811, 0.108185199534
+individu, 4604, 0.104257611454
+hear, 4223, 0.102937627349
+haven, 4207, 0.101861599254
+simpl, 7965, 0.101686888507
+job, 4873, 0.101513448395
+messag, 5650, 0.0985896392101
+guess, 4079, 0.0924270603933
+public, 6973, 0.0916146442546
+clear, 1803, 0.0915008115309
+stuff, 8472, 0.0913875195823
+allow, 432, 0.0913875195823
+alway, 457, 0.0900684049032
+seen, 7767, 0.0885159321202
+live, 5310, 0.0874384305222
+understand, 9246, 0.0855074875788
+happen, 4159, 0.0840513280504
+support, 8576, 0.0821360857631
+place, 6657, 0.0816803793427
+said, 7583, 0.0793869222683
+probabl, 6885, 0.0779934630296
+tell, 8767, 0.077929096161
+sure, 8585, 0.0767992470115
+ll, 5314, 0.0755453759679
+let, 5225, 0.0753138410391
+differ, 2633, 0.0734315908531
+realli, 7150, 0.0707650875865
+peopl, 6530, 0.0647031061107
+think, 8871, 0.0546188538469
+use, 9363, 0.0526691065801
+know, 5052, 0.0513679888156

@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38522
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: tristant@syma.sussex.ac.uk (Tristan Tarrant)
+Subject: Paradise VGA
+Organization: University of Sussex
+Lines: 13
+
+I have a Paradise SVGA with 1Mb, the 90c030 chip (1D). The docs say that
+I can display the following modes : 640x480x32k colours and 800x600x32k cols
+if I have the RAMDAC HiColor Chip. I have checked the board and I do have
+such a chip. Now, the problem is that I can't get this mode to work !
+Graphics Workshop 6.1 claims that it can display 24 bit images dithered
+down to 15 bit colour with my board, but it doesn't work. I have tried
+writing some assembler code to get the modes working and I have found out
+that each pixel is addressed by a word ( 16 bit ), but only the lower 8 bits
+are considered ( this happens in 800x600 mode, the 640x480 mode refuses to
+work i.e. remains in text mode ).
+Could someone please help me.
+
+Tristan
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ paradis vga    paradis svga 1mb 90c030 chip doc
+say display follow mode 640x480x32k colour
+800x600x32k col ramdac hicolor chip check board
+chip problem can't get mode work graphic workshop
+claim display bit imag dither bit colour board
+doesn't work tri write assembl code get mode work
+found pixel address word bit lower bit consid
+happen 800x600 mode 640x480 mode refus work remain
+text mode could someon pleas help  tristan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mode, 5806, 0.543433985893
+chip, 1712, 0.333284604414
+bit, 1122, 0.266284260667
+paradis, 6415, 0.240518237201
+colour, 1912, 0.224512469709
+work, 9833, 0.223671328604
+board, 1186, 0.189556533646
+display, 2734, 0.17008858137
+hicolor, 4285, 0.145903768329
+800x600, 142, 0.145903768329
+1mb, 55, 0.140225631948
+col, 1886, 0.132222748203
+640x480, 127, 0.126544611822
+dither, 2757, 0.121177309265
+workshop, 9839, 0.11696188194
+doc, 2783, 0.116216980711
+refus, 7222, 0.112863591695
+svga, 8613, 0.111667010804
+assembl, 698, 0.104860707949
+pixel, 6651, 0.0994934053922
+vga, 9492, 0.0971338782124
+lower, 5371, 0.0945330768388
+remain, 7264, 0.092453519458
+text, 8822, 0.0883141521118
+check, 1682, 0.0804898898556
+code, 1871, 0.0784462515747
+claim, 1782, 0.0768913108554
+address, 264, 0.0766929419506
+word, 9829, 0.0706966486267
+happen, 4159, 0.069564436332
+consid, 2059, 0.0692235377043
+write, 9865, 0.0680428677688
+imag, 4512, 0.0661616792929
+graphic, 3997, 0.0649821296734
+follow, 3578, 0.0648733826221
+someon, 8124, 0.064497418114
+doesn, 2793, 0.064024325268
+problem, 6887, 0.0620959741892
+pleas, 6688, 0.0580625616174
+help, 4249, 0.0579859108807
+tri, 9087, 0.0571618331677
+say, 7653, 0.0501109442379

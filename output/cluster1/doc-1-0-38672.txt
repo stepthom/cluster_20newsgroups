@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38672
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: aron@tikal.ced.berkeley.edu (Aron Bonar)
+Subject: Re: Photoshop for Windows
+Organization: University of California, Berkeley
+Lines: 26
+Distribution: world
+NNTP-Posting-Host: tikal.ced.berkeley.edu
+
+In article <1993Apr22.011720.28958@midway.uchicago.edu>, dgf1@quads.uchicago.edu (David Farley) writes:
+|> In article <C5uHIM.JFq@rot.qc.ca> beaver@rot.qc.ca (Andre Boivert) writes:
+|> >
+|> >
+|> >I am looking for comments from people who have used/heard about PhotoShop
+|> >for Windows. Is it good? How does it compare to the Mac version? Is there
+|> >a lot of bugs (I heard the Windows version needs "fine-tuning)?
+|> >
+|> >Any comments would be greatly appreciated..
+|> >
+|> >Thank you.
+|> >
+|> >Andre Boisvert
+|> >beaver@rot.qc.ca
+|> >
+|> An review of both the Mac and Windows versions in either PC Week or Info
+|> World this week, said that the Windows version was considerably slower
+|> than the Mac.  A more useful comparison would have been between PhotoStyler
+|> and PhotoShop for Windows.  David
+|> 
+
+I don't know about that...I've used Photoshop 2.5 on both a 486dx-50 and a Quadra
+950...I'd say they are roughly equal.  If anything the 486 was faster.
+
+Both systems were running in 24 bit color and had the same amount of RAM (16 megs)
+I also believe the quadra had one of those photoshop accelerators.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ photoshop window          look comment peopl use
+heard photoshop window good compar mac version lot
+bug heard window version need fine tune  comment
+great appreci  thank  andr boisvert   review mac
+window version either week info world week said
+window version consider slower mac use comparison
+photostyl photoshop window david   don't know i'v
+use photoshop 486dx quadra i'd say rough equal
+anyth faster  system run bit color amount ram meg
+also believ quadra one photoshop acceler
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+photoshop, 6609, 0.54091424722
+window, 9774, 0.449606534164
+version, 9479, 0.280325391705
+quadra, 7010, 0.241336681927
+mac, 5410, 0.240825219801
+comment, 1936, 0.144587379298
+heard, 4224, 0.13687752071
+photostyl, 6610, 0.136437946327
+boisvert, 1204, 0.136437946327
+week, 9691, 0.132671068366
+use, 9363, 0.119345777756
+meg, 5616, 0.116648910465
+slower, 8045, 0.115486393786
+tune, 9149, 0.104163418945
+andr, 503, 0.100879305102
+comparison, 1962, 0.0972646726881
+acceler, 207, 0.0968598746033
+rough, 7493, 0.0964639739041
+ram, 7083, 0.096076587862
+review, 7358, 0.0942555681056
+bug, 1373, 0.0913801891313
+faster, 3399, 0.0883938135824
+equal, 3156, 0.0856171348918
+consider, 2060, 0.0849850434858
+fine, 3485, 0.0799590518859
+compar, 1960, 0.0757836658096
+david, 2397, 0.0727077942473
+color, 1907, 0.0723963267169
+info, 4636, 0.0709149918621
+appreci, 587, 0.0696343583225
+anyth, 555, 0.0617515757525
+bit, 1122, 0.060753691018
+world, 9841, 0.0603273336766
+said, 7583, 0.0599623738783
+great, 4016, 0.0599108351974
+lot, 5356, 0.0562028722291
+believ, 1009, 0.0556257551454
+run, 7543, 0.054259018588
+thank, 8832, 0.0504438079678
+peopl, 6530, 0.0488714227588
+need, 5993, 0.048430721714
+good, 3948, 0.0463030789859
+say, 7653, 0.0457319529922
+look, 5341, 0.0449526536897
+don, 2811, 0.040857115991
+know, 5052, 0.0387991682097

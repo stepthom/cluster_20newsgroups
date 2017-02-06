@@ -1,0 +1,235 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61385
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: wingo%cspara.decnet@Fedex.Msfc.Nasa.Gov
+Subject: Re: HyperKnowledge
+Organization: University of Houston
+Lines: 45
+NNTP-Posting-Host: judy.uh.edu
+News-Software: VAX/VMS VNEWS 1.41
+
+In article <1993Apr28.200843.83413@embl-heidelberg.de>, tuparev@EMBL-Heidelberg.DE (Georg Tuparev) writes...
+> 
+> 
+>ANNOUNCEMENT:	The "HyperKnowledge" PROJECT for NeXTSTEP
+> 
+>Motivation
+> 
+>We are a heterogeneous group of scientists and students who feel that our  
+>work is continuously hindered by computer environments dominated by  
+>incompatible scientific tools and monstrous software packages (too often  
+>claiming to do everything).  
+
+>What we need is an object-oriented scientific environment where the tools  
+>we choose to use are integrated without being parts of a closed system,  
+>highly interactive, and extendable (both by the addition of our own  
+>specialized objects and by combining the available tools - graphically).   
+>The use of such an environment should be a natural extension of our work,  
+>requiring a very short learning phase and practically no  
+>user-documentation.  
+
+
+I know this is kinda off the subject of sci.space, but not really, I want to
+answer this for their, as well as everyone else's information.  What these
+people are proposing, by and large already exists and can be purchased today.
+
+It is called labview by National Instruments.  IT is a wonderful object
+oriented graphical programming language.  IT has been implemented on
+both Mac's PC's and VME unix boxes.  IT is fare superior to any programming
+approach that I have ever seen and allowed us to decrease the software
+development time for our shuttle payloads by 90 percent.  This program is
+not dependendant on specific hardware and already has exensive analysis 
+capability.
+
+Why re-invent the wheel on a platform that may not exist? It is a great
+idea but look out there at what is available today.  The Hydrogen leak on
+the Shuttle was found using this software. All SSME control and simulation
+studies, along with the real testing at MSFC is handled with LabVIEW.  There
+are tons of applications, with the ability to create "virtual" instruments
+that can accomplish any specific custom task the maker desires.  With the
+addition of IEEE-488 support, the computer becomes a virtual control station,
+allowing the graphic representation of remote instrumentation. With serial
+I/O support that instrument can be anywhere.  The ground control software
+for the main control of SEDSAT 1 will utilize this approach.
+
+Dennis, University of Alabama in Huntsville
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hyperknowledg    news softwar vax vms vnew  embl
+heidelberg georg tuparev write   announc
+hyperknowledg project nextstep  motiv  heterogen
+group scientist student feel work continu hinder
+comput environ domin incompat scientif tool
+monstrous softwar packag often claim everyth  need
+object orient scientif environ tool choos use
+integr without part close system high interact
+extend addit special object combin avail tool
+graphic use environ natur extens work requir short
+learn phase practic user document   know kinda sci
+space realli want answer well everyon els inform
+peopl propos larg alreadi exist purchas today
+call labview nation instrument wonder object
+orient graphic program languag implement mac pc
+vme unix box fare superior program approach ever
+seen allow decreas softwar develop time shuttl
+payload percent program dependend specif hardwar
+alreadi exens analysi capabl  invent wheel
+platform exist great idea look avail today
+hydrogen leak shuttl found use softwar ssme
+control simul studi along real test msfc handl
+labview ton applic abil creat virtual instrument
+accomplish specif custom task maker desir addit
+ieee support comput becom virtual control station
+allow graphic represent remot instrument serial
+support instrument anywher ground control softwar
+main control sedsat util approach  denni univers
+alabama huntsvill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+instrument, 4686, 0.271675463121
+control, 2107, 0.215872177663
+softwar, 8103, 0.21579850612
+hyperknowledg, 4460, 0.209114148459
+labview, 5091, 0.195902481414
+tool, 8988, 0.190921093659
+environ, 3139, 0.180449551323
+object, 6173, 0.142870397521
+virtual, 9536, 0.131206942679
+orient, 6290, 0.128397306532
+graphic, 3997, 0.127725356939
+approach, 589, 0.123241887896
+scientif, 7693, 0.122323565628
+program, 6905, 0.120420678279
+addit, 263, 0.117408399495
+shuttl, 7929, 0.104097448796
+alreadi, 443, 0.103655329311
+specif, 8203, 0.102652192379
+embl, 3064, 0.100836861716
+allow, 432, 0.0991109196694
+today, 8964, 0.0988669238968
+hinder, 4302, 0.0979512407071
+exist, 3283, 0.0927339506674
+heidelberg, 4237, 0.0918733041562
+fare, 3387, 0.0918733041562
+serial, 7806, 0.090350171625
+nextstep, 6039, 0.090350171625
+leak, 5178, 0.090350171625
+avail, 811, 0.089837123512
+comput, 1993, 0.0896664076441
+support, 8576, 0.0890776228006
+ssme, 8291, 0.0889876831477
+wheel, 9721, 0.087755162398
+msfc, 5904, 0.087755162398
+ieee, 4491, 0.0866299591109
+hydrogen, 4457, 0.0866299591109
+use, 9363, 0.0856804673415
+huntsvill, 4446, 0.0846365318415
+represent, 7295, 0.0837443381024
+maker, 5460, 0.0837443381024
+incompat, 4582, 0.0837443381024
+pc, 6484, 0.0829097465968
+alabama, 374, 0.0829097465968
+invent, 4741, 0.0813866140656
+kinda, 5022, 0.0800241255883
+decreas, 2456, 0.0776664015516
+domin, 2808, 0.0771385045798
+superior, 8562, 0.0766313148664
+percent, 6533, 0.0752191845622
+ton, 8980, 0.0747807805431
+denni, 2526, 0.0747807805431
+motiv, 5881, 0.0743567530457
+work, 9833, 0.073272709555
+remot, 7271, 0.0727873532736
+phase, 6583, 0.0713879698211
+task, 8707, 0.071060568029
+purchas, 6988, 0.0698280472792
+anywher, 557, 0.0698280472792
+accomplish, 218, 0.0698280472792
+custom, 2311, 0.0684362019674
+simul, 7974, 0.0681749470205
+integr, 4694, 0.067179711461
+interact, 4704, 0.0664805314549
+platform, 6676, 0.0656034713396
+extens, 3320, 0.0656034713396
+scientist, 7694, 0.0653931954864
+extend, 3319, 0.0653931954864
+georg, 3847, 0.0651862841916
+choos, 1720, 0.0645847022339
+student, 8468, 0.0643902372154
+payload, 6477, 0.0641986532662
+desir, 2565, 0.0634594989469
+combin, 1921, 0.0627603189408
+languag, 5113, 0.0624244122617
+implement, 4544, 0.0624244122617
+analysi, 490, 0.0613130322577
+util, 9384, 0.0607183674867
+abil, 177, 0.0605738779384
+sci, 7690, 0.0602896537491
+handl, 4149, 0.0597392864328
+document, 2788, 0.0594726444081
+announc, 524, 0.0593413571886
+unix, 9284, 0.0592113894611
+vnew, 9564, 0.0588291444881
+ground, 4061, 0.0580969670667
+capabl, 1498, 0.0579788687113
+hardwar, 4173, 0.0577458591634
+special, 8198, 0.0576309101395
+mac, 5410, 0.0576309101395
+vms, 9563, 0.0570710097008
+main, 5450, 0.0567463479616
+practic, 6793, 0.0566399137802
+applic, 585, 0.0566399137802
+vax, 9439, 0.056429637927
+packag, 6375, 0.0563257684526
+user, 9366, 0.0558185787392
+everyth, 3242, 0.0557194849206
+studi, 8469, 0.0556211446746
+learn, 5182, 0.0549529387672
+natur, 5966, 0.054768197339
+station, 8346, 0.0545860579894
+continu, 2092, 0.0545860579894
+propos, 6933, 0.054317570559
+test, 8812, 0.0531334529102
+box, 1254, 0.0528141359449
+becom, 983, 0.0518276646555
+everyon, 3241, 0.051538676539
+short, 7904, 0.0511169539486
+nation, 5962, 0.0509111403729
+feel, 3429, 0.0508432573822
+claim, 1782, 0.0503777996293
+creat, 2217, 0.0499917506616
+close, 1830, 0.049015311152
+develop, 2588, 0.0481623638164
+requir, 7302, 0.0481074521414
+seen, 7767, 0.0479983233922
+project, 6909, 0.0479983233922
+larg, 5124, 0.0478901078649
+answer, 535, 0.047729463811
+wonder, 9821, 0.0469548802091
+group, 4064, 0.0450044868564
+els, 3053, 0.0447062141269
+news, 6031, 0.0446641598458
+write, 9865, 0.0445804593591
+real, 7144, 0.0443325601376
+idea, 4482, 0.0442103701258
+high, 4292, 0.0437328384519
+great, 4016, 0.043011059587
+univers, 9282, 0.0429741646118
+inform, 4637, 0.0425038698736
+realli, 7150, 0.0383728158027
+space, 8164, 0.0366815704881
+want, 9634, 0.0352265593437
+peopl, 6530, 0.0350856680508
+need, 5993, 0.0347692808925
+look, 5341, 0.032272313682
+time, 8936, 0.0307259404118
+know, 5052, 0.0278546164529

@@ -1,0 +1,166 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84159
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cutter@gloster.via.mind.org (cutter)
+Subject: Re: That Kill by Sword, Must be Killed by Sword
+Distribution: world
+Organization: Gordian Knot, Gloster,GA
+Lines: 36
+
+sandvik@newton.apple.com (Kent Sandvik) writes:
+> 
+> And I find is extremely discusting to talk about politically
+> incorrect actions, and forget the actual tragedy. Think,
+> imagine your eight month old son dying in flames...
+> 
+> Kent
+> ---
+> sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+We have reached the point in our society when there are certain crimes
+that are so heinous that to merely be accused with them one is automaticly
+considered guilty and deemed not to have any natural rights much less civil 
+rights. Among these are drug abuse, sexual perversion, and political 
+incorrectness.
+Today Billary accused Koresh of having SEX with infants. He had been accused of
+a number of differing crimes (inconsistantly) over the last two months, but 
+this is the first time I have heard that one. I had heard child abuse but
+this is somewhat stronger.
+It is fairly obvious that Koresh  was hiding behind the children; and ironicly
+considering his apocalyptic dread, believed enough in the American People's
+inherent goodness to believe he was protected.
+It is truly amazing that all these people who 60 days ago had never heard of 
+the Branch Davidian now believe that he was suicidal, crazy, a child abuser and 
+a immenant danger to others based solely on what the Government spokespersons
+had said. Remember that these people have an awful lot to loose if it is found
+that they have screwed up. 
+But they don't have as much to lose as David Koresh and his followers lost.
+For in our society as it stands murder is not one of the heinous crimes.
+
+
+---------------------------------------------------------------------
+cutter@gloster.via.mind.org (chris)     All jobs are easy 
+                                     to the person who
+                                     doesn't have to do them.
+                                               Holt's law
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kill sword must kill sword       find extrem
+discust talk polit incorrect action forget actual
+tragedi think imagin eight month old son die flame
+kent    reach point societi certain crime heinous
+mere accus one automat consid guilti deem natur
+right much less civil right among drug abus sexual
+pervers polit incorrect today billari accus koresh
+sex infant accus number differ crime inconsist
+last two month first time heard one heard child
+abus somewhat stronger fair obvious koresh hide
+behind children iron consid apocalypt dread believ
+enough american peopl inher good believ protect
+truli amaz peopl day ago never heard branch
+davidian believ suicid crazi child abus immen
+danger other base sole govern spokesperson said
+rememb peopl aw lot loos found screw don't much
+lose david koresh follow lost societi stand murder
+one heinous crime     person doesn't holt law
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+abus, 202, 0.293253208915
+crime, 2229, 0.283902841023
+accus, 227, 0.256046277893
+koresh, 5065, 0.223748681442
+sword, 8641, 0.199160918692
+incorrect, 4588, 0.197277692325
+heard, 4224, 0.177038081365
+child, 1705, 0.174845500586
+polit, 6723, 0.150759148239
+societi, 8093, 0.147282561261
+believ, 1009, 0.14389326917
+kill, 5012, 0.132911753021
+month, 5847, 0.128024800448
+peopl, 6530, 0.126421093456
+spokesperson, 8253, 0.125580428201
+holt, 4352, 0.112420315825
+apocalypt, 568, 0.112420315825
+deem, 2465, 0.11034632483
+consid, 2059, 0.108946743491
+hide, 4287, 0.108516935122
+infant, 4622, 0.106880490265
+dread, 2864, 0.105400145825
+drug, 2883, 0.101654450341
+loos, 5345, 0.100582862669
+inconsist, 4585, 0.100582862669
+suicid, 8528, 0.0986388461624
+screw, 7720, 0.0986388461624
+tragedi, 9039, 0.0977510696383
+stronger, 8457, 0.0977510696383
+sole, 8111, 0.0953568227456
+right, 7399, 0.0944933032245
+sexual, 7827, 0.0920396195613
+sex, 7825, 0.0920396195613
+murder, 5926, 0.0920396195613
+inher, 4644, 0.0914534420426
+guilti, 4088, 0.0883366527453
+crazi, 2216, 0.0883366527453
+civil, 1778, 0.0861454396032
+iron, 4767, 0.0849652370775
+branch, 1269, 0.0821967103694
+amaz, 459, 0.0821967103694
+davidian, 2398, 0.0818829247327
+danger, 2356, 0.0818829247327
+aw, 829, 0.0818829247327
+automat, 803, 0.0812737540777
+somewhat, 8129, 0.080977900166
+son, 8132, 0.0773372210446
+truli, 9127, 0.0771071151953
+extrem, 3333, 0.0768803686756
+protect, 6940, 0.0757937816196
+mere, 5641, 0.0753795741196
+flame, 3518, 0.0743899489634
+kent, 4987, 0.0741993715939
+forget, 3604, 0.0708094875996
+action, 251, 0.0706579560489
+imagin, 4518, 0.0705078885941
+children, 1707, 0.0700661945429
+american, 469, 0.0690819465239
+lost, 5355, 0.0686784988863
+lose, 5350, 0.0682852662184
+reach, 7128, 0.0675274641828
+stand, 8311, 0.0672828628954
+law, 5153, 0.0666876996312
+natur, 5966, 0.0657804718075
+fair, 3363, 0.0657804718075
+obvious, 6185, 0.0656707055503
+govern, 3966, 0.0648194316534
+die, 2628, 0.0635285024966
+david, 2397, 0.0626937538859
+ago, 336, 0.0605072941825
+today, 8964, 0.0593730779546
+old, 6216, 0.0587302885403
+rememb, 7269, 0.0571991448373
+certain, 1619, 0.0549596262285
+talk, 8684, 0.0525262266537
+person, 6562, 0.0517483273187
+said, 7583, 0.0517037595385
+follow, 3578, 0.0510501486222
+number, 6156, 0.0505051151296
+doesn, 2793, 0.0503820085875
+actual, 254, 0.0499387866369
+base, 923, 0.048607212471
+lot, 5356, 0.0484620538374
+differ, 2633, 0.0478251229235
+day, 2402, 0.0460574901986
+point, 6710, 0.0438410570482
+good, 3948, 0.0399257585538
+time, 8936, 0.0369040237805
+think, 8871, 0.0355726107636
+don, 2811, 0.0352298677321

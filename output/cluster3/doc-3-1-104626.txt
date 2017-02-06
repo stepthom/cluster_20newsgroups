@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104626
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hoyt@terminus.gatech.edu (Kurt Hoyt)
+Subject: Re: Hunter on DL, Klesko up.
+Organization: Georgia Tech College of Computing
+Lines: 20
+
+steph@pegasus.cs.uiuc.edu (Dale Stephenson) writes:
+>In <13557@news.duke.edu> fierkelab@bchm.biochem.duke.edu (Eric Roush) writes:
+>>As a touter of Braves prospects, all I can say is that, IMO,
+>>someone on the Braves roster is about to become Pipped.
+>>It may not even be Hunter.  But I think they'll have a
+>>problem getting Klesko out of the lineup once he's in.
+
+>Well, this may be good news.  If Klesko hits, I'd look for Bream to be
+>traded (if possible) or released, since Bream is also a lefthander.  Hope
+>Klesko hits.
+
+According to the Atlanta paper, Bream will be the full-time first baseman
+with Klesko used as a late-inning defensive replacement if Bream is lifted
+for a pinch-runner. He'd have to hit a homer in his first AB (or win the
+game or do some other amazing thing) to be rewarded with a start so he could
+even attempt to push Hunter or Bream out of the lineup.
+---------------+
+Kurt in Atlanta
+hoyt@cc.gatech.edu	kwh@salestech.com	70242.652@compuserve.com
+politics: from the Greek -- poli = many; tics = ugly, blood-sucking parasites
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hunter klesko      touter brave prospect say imo
+someon brave roster becom pip even hunter think
+they'll problem get klesko lineup he  well good
+news klesko hit i'd look bream trade possibl
+releas sinc bream also lefthand hope klesko hit
+accord atlanta paper bream full time first baseman
+klesko use late inning defens replac bream lift
+pinch runner he'd hit homer first win game amaz
+thing reward start could even attempt push hunter
+bream lineup  kurt atlanta  polit greek poli mani
+tic ugli blood suck parasit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+klesko, 5041, 0.554728182761
+bream, 1289, 0.513419165493
+hunter, 4444, 0.29203483808
+lineup, 5287, 0.166962662062
+hit, 4316, 0.160806411827
+atlanta, 749, 0.147985246576
+brave, 1277, 0.131168276267
+tic, 8916, 0.11952349493
+lefthand, 5195, 0.116103123628
+kurt, 5081, 0.104017553993
+poli, 6719, 0.102683833099
+ugli, 9193, 0.0992634617967
+roster, 7489, 0.0941059747207
+imo, 4533, 0.0914334649472
+reward, 7368, 0.0881362117432
+greek, 4023, 0.0876495638614
+prospect, 6937, 0.0862759778712
+baseman, 928, 0.0862759778712
+lift, 5264, 0.085424196482
+blood, 1169, 0.0838507012118
+suck, 8515, 0.0820869046288
+push, 6996, 0.0820869046288
+pinch, 6632, 0.0817572549181
+amaz, 459, 0.0811184907952
+homer, 4355, 0.0796291531252
+runner, 7545, 0.0782717959568
+trade, 9033, 0.0756513341816
+polit, 6723, 0.0743907786806
+replac, 7288, 0.0739926232881
+inning, 4657, 0.0706510599787
+late, 5139, 0.0703382303298
+accord, 219, 0.0688632354331
+paper, 6409, 0.0683108109344
+attempt, 763, 0.067389530728
+releas, 7253, 0.0670110393803
+defens, 2476, 0.0662809908937
+becom, 983, 0.0614321341253
+win, 9770, 0.0557158739615
+hope, 4372, 0.0547901212207
+news, 6031, 0.0529411208566
+possibl, 6765, 0.050254682758
+someon, 8124, 0.0500885226402
+ll, 5314, 0.0485563988412
+start, 8334, 0.0485190586991
+problem, 6887, 0.0482235677023
+sinc, 7977, 0.0467261027146
+game, 3761, 0.0464629525475
+mani, 5479, 0.0434792339792
+thing, 8869, 0.0418749967722
+good, 3948, 0.0394020303633
+say, 7653, 0.0389160254531
+look, 5341, 0.0382528735537
+time, 8936, 0.0364199333512
+think, 8871, 0.035105985213
+use, 9363, 0.0338527952631

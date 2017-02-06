@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60844
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: help for school
+From: mcrandall@eagle.wesleyan.edu
+Organization: Wesleyan University
+Nntp-Posting-Host: wesleyan.edu
+Lines: 14
+
+I am a newbie to the net, and I am trying to get some information for a paper
+I am working on to get back into college.  If anyone can send me data on
+Solar coronal holes and recurrant aurora  for the past thirty years it would be
+a big help.  Or, if you have information on more esoteric things like Telluric
+current, surge bafflers power companies use, or other effects sporatic aurora
+have on the Earth's magnetic field, I'd be eternally gratefull.  Please send 
+anything interesting to me at
+        Marty Crandall-Grela
+        Van Vleck Observatory
+        Wesleyan University
+        Middletown,Ct 06487
+ or e-mail it to me at mcrandall@eagle.wesleyan.edu
+ Thank-you in advance,      Marty
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+help school      newbi net tri get inform paper
+work get back colleg anyon send data solar coron
+hole recurr aurora past thirti year big help
+inform esoter thing like tellur current surg
+baffler power compani use effect sporat aurora
+earth magnet field i'd etern grateful pleas send
+anyth interest marti crandal grela van vleck
+observatori wesleyan univers middletown  thank
+advanc marti
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aurora, 787, 0.351075301569
+send, 7785, 0.23713594876
+grateful, 4005, 0.233780251681
+surg, 8589, 0.228153071109
+newbi, 6024, 0.228153071109
+esoter, 3188, 0.219274038933
+coron, 2151, 0.204289304289
+inform, 4637, 0.202887994572
+thirti, 8877, 0.192576719863
+magnet, 5437, 0.186679982607
+help, 4249, 0.181347799306
+van, 9416, 0.175537650785
+etern, 3205, 0.164622888982
+observatori, 6180, 0.162713163792
+colleg, 1900, 0.161502653971
+hole, 4343, 0.148595183133
+school, 7685, 0.14526529345
+paper, 6409, 0.137547708224
+solar, 8107, 0.137006219877
+past, 6456, 0.130497149478
+compani, 1958, 0.128396744386
+net, 6010, 0.124224704063
+effect, 3005, 0.123697100718
+advanc, 285, 0.116705541357
+field, 3466, 0.116154383065
+power, 6783, 0.114557610928
+data, 2385, 0.114299332901
+current, 2299, 0.111828891241
+earth, 2956, 0.107515272486
+anyth, 555, 0.105808532815
+big, 1082, 0.105132298225
+univers, 9282, 0.10256644986
+pleas, 6688, 0.0907937601689
+tri, 9087, 0.0893852704199
+work, 9833, 0.0874399974796
+thank, 8832, 0.0864331840222
+thing, 8869, 0.0843176908477
+anyon, 554, 0.0829372645073
+year, 9943, 0.0775671884021
+use, 9363, 0.0681645312321
+like, 5272, 0.064987767637

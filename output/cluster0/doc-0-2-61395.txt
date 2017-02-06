@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61395
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gfk39017@uxa.cso.uiuc.edu (George F. Krumins)
+Subject: Re: Gamma Ray Bursters. Where are they?
+Organization: University of Illinois at Urbana
+Lines: 21
+
+kwp@wag.caltech.edu (Kevin W. Plaxco) writes:
+
+>In article <27APR199320210230@stdvax.gsfc.nasa.gov> abdkw@stdvax.gsfc.nasa.gov (David Ward) writes:
+
+>Demonstrating that these puppies are beyond the oort cloud would 
+>require resolution on the order of arcseconds, since the oort 
+>cloud is postulated to extend to about 0.5 parsec (all together 
+>now: "Parallax ARc SECond", a parsec is the distance of an object 
+>that demonstrates one arc second of parallax with a 2 AU base line).
+
+According to my *Glossary of Astronomy and Astrophysics*:
+"parsec (abbreviation for parallax second) 	The distance at which
+one astronomical unit subtends an angle of 1 second of arc.  1 pc =
+206,265 AU = 3.086 X 10^13 km = 3.26 lt-yr."
+
+George
+-- 
+|  George Krumins                     /^\        The Serpent and the Rainbow  | 
+|  gfk39017@uxa.cso.uiuc.edu       <^^. .^^>                                  |
+|  Pufferfish Observatory          <_ (o) _>                                  |
+|                                     \_/                                     | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster        demonstr puppi beyond
+oort cloud requir resolut order arcsecond sinc
+oort cloud postul extend parsec togeth parallax
+arc second parsec distanc object demonstr one arc
+second parallax base line  accord glossari
+astronomi astrophys parsec abbrevi parallax second
+distanc one astronom unit subtend angl second arc
+georg  georg krumin serpent rainbow  pufferfish
+observatori
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+parsec, 6433, 0.424199488105
+parallax, 6419, 0.355109784565
+arc, 608, 0.322996360786
+second, 7753, 0.266278592271
+oort, 6255, 0.233093621156
+cloud, 1835, 0.206576226387
+georg, 3847, 0.192844238457
+distanc, 2744, 0.187208108454
+demonstr, 2520, 0.184673637914
+puppi, 6987, 0.144887322957
+glossari, 3910, 0.144887322957
+arcsecond, 620, 0.144887322957
+pufferfish, 6978, 0.141399829368
+serpent, 7809, 0.138451195553
+rainbow, 7075, 0.138451195553
+krumin, 5075, 0.13364398859
+postul, 6773, 0.128141131984
+abbrevi, 169, 0.126610054504
+astrophys, 731, 0.115696525841
+angl, 511, 0.104177960007
+burster, 1418, 0.101229326192
+observatori, 6180, 0.100842883615
+extend, 3319, 0.0967281778692
+astronom, 728, 0.0952446240329
+gamma, 3762, 0.0936040542272
+resolut, 7316, 0.0930870428364
+astronomi, 729, 0.0920931435983
+togeth, 8969, 0.0885653375459
+unit, 9278, 0.0868339623508
+accord, 219, 0.085935757112
+ray, 7118, 0.0799562941363
+requir, 7302, 0.0711594861354
+object, 6173, 0.0704435842334
+order, 6281, 0.0676180340993
+line, 5285, 0.0634036453572
+base, 923, 0.0598621933211
+sinc, 7977, 0.0583104030535

@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83499
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: buddha@iastate.edu (Scott H Vann)
+Subject: The bad press Islam has recieved.
+Organization: Iowa State University, Ames IA
+Lines: 16
+
+
+	I recently read an article in a local paper written by an Islamic
+  person who was upset with the way Islam has been portrayed by western media.
+  When a terrorist action takes place in the middle east, it is always played
+  up as an Islamic Terrorist.  However, when the a Serbian terrorist attacks
+  the Croations, its not a Christian terrorist, its just a terrorist.
+	I have often tried to explain this to some close friends who believe
+  the press, that Islam is somehow tied to violence.  Often times you hear
+  things like "They just don't value human life like we do..." and so on.
+  I was wondering if anyone out there had any suggestions for how we can
+  change this image, or how I can help my friends to see that this is just 
+  hype.  I would appreciate any serious suggestions or comments via e-mail,
+  and I'm not interested in hearing about how right the press is.
+
+					-Scott Vann
+					buddha@iastate.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bad press islam reciev     recent read articl
+local paper written islam person upset way islam
+portray western media terrorist action take place
+middl east alway play islam terrorist howev
+serbian terrorist attack croation christian
+terrorist terrorist often tri explain close friend
+believ press islam somehow tie violenc often time
+hear thing like don't valu human life like wonder
+anyon suggest chang imag help friend see hype
+appreci serious suggest comment via mail i'm
+interest hear right press  scott vann
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+terrorist, 8809, 0.585009326693
+islam, 4780, 0.554219187253
+press, 6841, 0.24124357241
+friend, 3692, 0.149860105163
+hear, 4223, 0.144568133421
+suggest, 8525, 0.127717890906
+reciev, 7169, 0.117001865339
+portray, 6755, 0.109602803438
+violenc, 9527, 0.107366647258
+hype, 4458, 0.10539421772
+upset, 9342, 0.0974075062032
+attack, 761, 0.0924461512533
+western, 9709, 0.0889689610609
+scott, 7713, 0.08795372322
+tie, 8923, 0.0866892514214
+middl, 5699, 0.0838917143291
+media, 5605, 0.0814953052929
+east, 2965, 0.0761826958111
+action, 251, 0.0761826958111
+paper, 6409, 0.0746310036407
+written, 9867, 0.0730753774906
+local, 5322, 0.0712839907497
+like, 5272, 0.0705224737762
+valu, 9414, 0.0684957908729
+explain, 3301, 0.0676934196526
+comment, 1936, 0.0672107840679
+recent, 7168, 0.0665576424021
+appreci, 587, 0.0647384279825
+human, 4432, 0.064656538843
+close, 1830, 0.0634739561839
+alway, 457, 0.0632471405858
+life, 5260, 0.0616715412597
+bad, 861, 0.0616715412597
+wonder, 9821, 0.0608057347585
+chang, 1650, 0.060168916749
+christian, 1732, 0.0594353850794
+howev, 4406, 0.0577309019879
+mail, 5447, 0.0575696202052
+place, 6657, 0.0573569659743
+imag, 4512, 0.0561348095378
+person, 6562, 0.0557945247684
+play, 6681, 0.0552267993608
+articl, 665, 0.0539724799092
+believ, 1009, 0.0517147573439
+read, 7135, 0.0509769157282
+right, 7399, 0.0509408634093
+help, 4249, 0.0491980871398
+tri, 9087, 0.0484988992419
+thing, 8869, 0.0457493183555
+anyon, 554, 0.0450003229373
+way, 9666, 0.0438062631374
+time, 8936, 0.0397895463595
+don, 2811, 0.0379844881876

@@ -1,0 +1,141 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61393
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Re: ASTRONAUTS---What does weightlessness feel like?
+Keywords: weightlessness
+Organization: Jet Propulsion Laboratory
+Lines: 26
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41
+
+In article <1993Apr29.121501@is.morgan.com>, jlieb@is.morgan.com (Jerry Liebelson) writes...
+> I want to know what weightlessness actually FEELS like. For example, is
+>there a constant sensation of falling? 
+
+Yes, weightlessness does feel like falling.  It may feel strange at first,
+but the body does adjust.  The feeling is not too different from that
+of sky diving.
+
+>And what is the motion sickness
+>that some astronauts occasionally experience? 
+
+It is the body's reaction to a strange environment.  It appears to be induced
+partly to physical discomfort and part to mental distress.  Some people are 
+more prone to it than others, like some people are more prone to get sick 
+on a roller coaster ride than others.  The mental part is usually induced by 
+a lack of clear indication of which way is up or down, ie: the Shuttle is 
+normally oriented with its cargo bay pointed towards Earth, so the Earth 
+(or ground) is "above" the head of the astronauts.  About 50% of the astronauts 
+experience some form of motion sickness, and NASA has done numerous tests in 
+space to try to see how to keep the number of occurances down.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ astronaut weightless feel like     news softwar
+vax vms vnew  morgan com jerri liebelson write
+want know weightless actual feel like exampl
+constant sensat fall  yes weightless feel like
+fall feel strang first bodi adjust feel differ sky
+dive  motion sick astronaut occasion experi  bodi
+reaction strang environ appear induc part physic
+discomfort part mental distress peopl prone other
+like peopl prone get sick roller coaster ride
+other mental part usual induc lack clear indic way
+shuttl normal orient cargo bay point toward earth
+earth ground head astronaut astronaut experi form
+motion sick nasa done numer test space tri see
+keep number occur   jet propuls lab telo aweto new
+zealand pasadena part caterpillar part veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+weightless, 9696, 0.343992402537
+astronaut, 727, 0.327102571182
+feel, 3429, 0.30493166742
+sick, 7933, 0.249207052645
+induc, 4606, 0.220403501036
+prone, 6916, 0.200902160635
+mental, 5631, 0.187641555471
+motion, 5880, 0.165470847615
+strang, 8426, 0.16003548727
+fall, 3369, 0.142047765216
+bodi, 1194, 0.134389419537
+like, 5272, 0.130645028307
+experi, 3295, 0.129885434821
+coaster, 1860, 0.120953510705
+discomfort, 2692, 0.117492217031
+sensat, 7789, 0.112273024197
+roller, 7465, 0.110201750518
+earth, 2956, 0.108069074597
+distress, 2752, 0.103912373992
+cargo, 1519, 0.102670790643
+dive, 2759, 0.100451080318
+jerri, 4854, 0.0976229974652
+morgan, 5861, 0.0967843331621
+caterpillar, 1562, 0.0945102917444
+aweto, 836, 0.0945102917444
+veget, 9448, 0.0919190304553
+reaction, 7132, 0.0919190304553
+occasion, 6187, 0.0919190304553
+ride, 7393, 0.0913336209388
+telo, 8769, 0.0896993201303
+zealand, 9977, 0.0873082101486
+bay, 956, 0.0860325729747
+peopl, 6530, 0.0841703054614
+pasadena, 6446, 0.0830690175484
+numer, 6157, 0.0824088536168
+adjust, 269, 0.0802972378832
+constant, 2067, 0.0792082637453
+orient, 6290, 0.0770060904613
+jet, 4860, 0.076779641022
+propuls, 6936, 0.0752808127873
+occur, 6192, 0.074292484225
+lab, 5085, 0.0731840477118
+environ, 3139, 0.0721495637158
+lack, 5092, 0.0718195191135
+normal, 6108, 0.0710238826081
+vnew, 9564, 0.0705653809189
+ground, 4061, 0.069687136316
+vms, 9563, 0.0684565035579
+com, 1917, 0.0678127800212
+vax, 9439, 0.0676871800548
+indic, 4600, 0.0675625889343
+physic, 6613, 0.0674389905823
+sky, 8011, 0.0670739970105
+usual, 9377, 0.0654758114945
+head, 4215, 0.0654758114945
+test, 8812, 0.0637334160945
+appear, 580, 0.0630692132328
+shuttl, 7929, 0.0624322875244
+form, 3610, 0.0621671270315
+clear, 1803, 0.0595153132475
+nasa, 5956, 0.0583763422537
+yes, 9951, 0.0565036600737
+exampl, 3258, 0.0562622309026
+news, 6031, 0.0535745246742
+write, 9865, 0.0534741261935
+softwar, 8103, 0.0517699311067
+number, 6156, 0.0504389439882
+actual, 254, 0.0498733574917
+differ, 2633, 0.0477624630729
+new, 6023, 0.0451845243914
+tri, 9087, 0.0449228432089
+space, 8164, 0.0439994328783
+point, 6710, 0.0437836170685
+want, 9634, 0.0422541514105
+way, 9666, 0.0405762176307
+know, 5052, 0.0334115282051

@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39042
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Organization: Penn State University
+From: <GNR100@psuvm.psu.edu>
+Subject: Direct Acess to Video memory
+Lines: 12
+
+      Hi.  I'm  looking for information on how to directly manipulate
+ video memory.  I have an application that I would like to use this for,
+ because it is much faster than going through the BIOS.  I know that
+ video memory ispart of the system area above the first 640K, so I guess
+ I am looking to find out exactly what section of memory it is, and how it
+ is layed out.     Thanks.
+
+           Regards,       Gordon Rogers
+                          gnr100@psuvm.psu.edu
+/*********************************************************************/
+void signature(void){
+                    }
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  direct acess video memori   i'm look inform
+direct manipul video memori applic like use much
+faster go bio know video memori ispart system area
+first 640k guess look find exact section memori
+lay thank  regard gordon roger   void signatur
+void
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+memori, 5628, 0.538651085692
+video, 9506, 0.403988314269
+void, 9568, 0.393525232695
+direct, 2667, 0.22783285155
+gordon, 3954, 0.190590139325
+bio, 1103, 0.177323402117
+lay, 5159, 0.176157491447
+signatur, 7948, 0.173954490317
+manipul, 5483, 0.152823211654
+look, 5341, 0.148373020386
+section, 7759, 0.146294331423
+faster, 3399, 0.145878563646
+roger, 7458, 0.14274652092
+applic, 585, 0.130201930434
+regard, 7224, 0.121772112867
+area, 622, 0.120868489752
+exact, 3253, 0.117986705126
+guess, 4079, 0.115212234811
+inform, 4637, 0.0977064677383
+thank, 8832, 0.0832487020633
+use, 9363, 0.0656531263545
+know, 5052, 0.0640312562576
+like, 5272, 0.0625934051485

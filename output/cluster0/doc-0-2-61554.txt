@@ -1,0 +1,40 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61554
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: France spied on by the U.S.
+Organization: Express Access Online Communications USA
+Lines: 5
+Distribution: sci
+NNTP-Posting-Host: access.digex.net
+
+
+You mena in the same way french intelliegence agents steal
+documents from US corporate executives?
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ franc spi       mena way french intellieg agent
+steal document corpor execut  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spi, 8229, 0.402793330109
+french, 3684, 0.359012415244
+franc, 3648, 0.356486247233
+execut, 3272, 0.337584111024
+steal, 8362, 0.329210251276
+agent, 331, 0.319174558465
+corpor, 2154, 0.299202916039
+document, 2788, 0.272977495989
+pat, 6458, 0.263482635978
+way, 9666, 0.155268014662

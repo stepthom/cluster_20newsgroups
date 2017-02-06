@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38932
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: hollasch@kpc.com (Steve Hollasch)
+Subject: Re: Kubota Kenai/Denali specs
+Summary: Some clarifications
+Organization: Kubota Pacific Computer, Inc.
+Lines: 35
+
+lioness@maple.circa.ufl.edu:
+> Okay, I got enough replies about the Kubota Kenai/Denali systems that I
+> will post a summary of their capabilities.  [ ... ]
+> 
+> GRAPHICS
+> 
+> Transform Modules           1-6                     1-6
+> Frame Buffer Modules        5,10,20                 5,10,20
+> Frame Buffer                1280x1024x24bit         1280x1024x24bit
+>                             double buffered         double buffered
+> Z-buffer                    24-bit                  24-bit
+> Alpha/stencil               8-bit                   8-bit
+
+pmartz@dsd.es.com (Paul Martz):
+| Does this mean they can either do alpha or stenciling, but not both
+| simultaneously?
+
+lioness@maple.circa.ufl.edu:
+> Stereo support              yes                     yes
+> Other:                      both machines will double buffer or do
+>                             stereo output per window.  Both have an
+>                             auxiliary video output that is RS-170A,
+>                             NTSC, and PAL
+
+pmartz@dsd.es.com (Paul Martz):
+| Same question again, does this mean they can either do double
+| buffering or stereo, but not both simultaneously?
+
+    For both these questions, it's an inclusive or.  Alpha plus stencil is
+supported (they're separate), as is double-buffered stereo.
+
+______________________________________________________________________________
+Steve Hollasch                                   Kubota Pacific Computer, Inc.
+hollasch@kpc.com                                 Santa Clara, California
+            --- Barbie had it right; math IS hard. ---
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kubota kenai denali spec clarif     okay got
+enough repli kubota kenai denali system post
+summari capabl  graphic  transform modul frame
+buffer modul frame buffer 1280x1024x24bit
+1280x1024x24bit doubl buffer doubl buffer buffer
+bit bit alpha stencil bit bit   mean either alpha
+stencil simultan   stereo support yes yes machin
+doubl buffer stereo output per window auxiliari
+video output 170a ntsc pal   question mean either
+doubl buffer stereo simultan  question it inclus
+alpha plus stencil support they'r separ doubl
+buffer stereo   steve hollasch kubota pacif comput
+inc  barbi right math hard
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+buffer, 1371, 0.553987817712
+stereo, 8382, 0.324064267929
+doubl, 2828, 0.285322618519
+stencil, 8375, 0.278134333981
+kubota, 5078, 0.231098774602
+alpha, 441, 0.214874790257
+1280x1024x24bit, 16, 0.190885404966
+kenai, 4981, 0.177186107007
+denali, 2522, 0.173917281549
+bit, 1122, 0.165131845337
+simultan, 7975, 0.148065294243
+modul, 5815, 0.130570702631
+output, 6329, 0.123398428357
+frame, 3643, 0.118486044346
+170a, 31, 0.0927114446604
+hollasch, 4346, 0.0904798445297
+yes, 9951, 0.0891724760395
+inclus, 4580, 0.0869586407743
+auxiliari, 809, 0.0855169865762
+support, 8576, 0.0843125113795
+pal, 6395, 0.0792645249979
+ntsc, 6147, 0.0770329248672
+mean, 5595, 0.0756521149226
+question, 7032, 0.0740998682637
+pacif, 6372, 0.0730120634196
+clarif, 1785, 0.0716249300856
+spec, 8196, 0.0688936722627
+transform, 9053, 0.0669570240851
+math, 5544, 0.0650276594029
+summari, 8536, 0.0640479435643
+okay, 6215, 0.0609457508773
+plus, 6700, 0.0587751978246
+separ, 7797, 0.0581780104231
+machin, 5416, 0.0556821428116
+video, 9506, 0.0554467526003
+capabl, 1498, 0.0548773516211
+steve, 8390, 0.054548006718
+repli, 7290, 0.0531183937542
+window, 9774, 0.0509189616151
+hard, 4167, 0.046337780004
+comput, 1993, 0.0424348999062
+graphic, 3997, 0.0402976088786
+got, 3960, 0.0401631029783
+right, 7399, 0.0372328177824
+post, 6766, 0.0357473713595

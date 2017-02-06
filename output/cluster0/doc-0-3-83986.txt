@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83986
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jmk@cbnews.cb.att.com (joseph.m.knapp)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Organization: AT&T
+Lines: 9
+
+cotera@woods.ulowell.edu writes:
+>           David Thibedeau (sp?), one of the cult members, said that the fire
+>was started when one of the tanks spraying the tear gas into the facilities
+>knocked over a lantern.
+
+Sort of a "Mrs. O'Leary's" tank theory? Moooo.
+
+---
+Joe Knapp   jmk@cbvox.att.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos     david
+thibedeau one cult member said fire start one tank
+spray tear gas facil knock lantern  sort mrs
+o'leari tank theori moooo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tank, 8695, 0.377531115252
+thibedeau, 8863, 0.277169573362
+mrs, 5901, 0.277169573362
+leari, 5181, 0.270497995129
+spray, 8264, 0.259971025711
+lantern, 5119, 0.259971025711
+tear, 8735, 0.221327553386
+enclos, 3085, 0.21284538249
+knock, 5050, 0.193651788021
+gas, 3780, 0.192912523039
+cite, 1774, 0.189424897483
+cult, 2289, 0.188765557626
+tape, 8700, 0.187481482997
+biblic, 1072, 0.181660928516
+facil, 3348, 0.176640414037
+koresh, 5065, 0.175713975389
+theori, 8848, 0.169042397156
+member, 5625, 0.162117583504
+david, 2397, 0.147703691342
+sort, 8144, 0.140749545126
+said, 7583, 0.12181175423
+start, 8334, 0.11582812227

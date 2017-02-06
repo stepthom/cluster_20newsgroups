@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38732
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ib@ivan.asd.sgi.com (Ivan Bach)
+Subject: Re: Adobe Photo Shop type software for Unix/X/Motif platforms?
+Nntp-Posting-Host: ivan.asd.sgi.com
+Organization: Silicon Graphics, Inc., Mountain View, CA
+Lines: 9
+
+We have been shipping for over one year the Adobe Display PostScript (DPS)
+on Silicon Graphics workstations, file servers, and supercomputers.
+The Adobe Illustrator 3.5 for Silicon Graphics machines was released
+last February.  Adobe and SGI announced last October that Photoshop
+will be available on SGI systems in 1993.  Initial release will support 
+24-bit color graphics.
+
+Ivan Bach, ib@sgi.com
+Disclaimer: I do not speak for my employer.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ adob photo shop type softwar unix motif platform
+ship one year adob display postscript dps silicon
+graphic workstat file server supercomput adob
+illustr silicon graphic machin releas last
+februari adob sgi announc last octob photoshop
+avail sgi system initi releas support bit color
+graphic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+adob, 277, 0.557309958893
+silicon, 7955, 0.293370984226
+sgi, 7831, 0.268463880077
+graphic, 3997, 0.244488260061
+releas, 7253, 0.216432896641
+dps, 2851, 0.187495490208
+supercomput, 8557, 0.167978445942
+februari, 3423, 0.158703488276
+shop, 7901, 0.153179914285
+photoshop, 6609, 0.148666825724
+octob, 6197, 0.148666825724
+motif, 5879, 0.144851063714
+postscript, 6772, 0.140783995428
+illustr, 4511, 0.140783995428
+ship, 7888, 0.13310658918
+photo, 6603, 0.13310658918
+workstat, 9840, 0.130498552333
+server, 7812, 0.128139296029
+platform, 6676, 0.125576306429
+initi, 4647, 0.120134024648
+announc, 524, 0.113589544914
+unix, 9284, 0.113340764372
+machin, 5416, 0.112609081873
+display, 2734, 0.106656659619
+color, 1907, 0.0994883398096
+type, 9177, 0.0966830632292
+avail, 811, 0.0859818384646
+file, 3477, 0.0856561304022
+support, 8576, 0.0852549310913
+bit, 1122, 0.0834888195408
+softwar, 8103, 0.0826150774591
+year, 9943, 0.0622101221509

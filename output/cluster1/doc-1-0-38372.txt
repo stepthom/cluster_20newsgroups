@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38372
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jian@coos.dartmouth.edu (Jian Lu)
+Subject: Grayscale Printer
+Summary: image printer under $5000
+Distribution: na
+Organization: Dartmouth College, Hanover, NH
+Lines: 6
+
+We are interested in purchasing a grayscale printer that offers a good
+resoltuion for grayscale medical images.  Can anybody give me some
+recommendations on these products in the market, in particular, those
+under $5000?
+
+Thank for the advice.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ grayscal printer imag printer     interest
+purchas grayscal printer offer good resoltuion
+grayscal medic imag anybodi give recommend product
+market particular   thank advic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grayscal, 4013, 0.616886172057
+printer, 6872, 0.579424433332
+imag, 4512, 0.217071486341
+medic, 5608, 0.185148471629
+advic, 292, 0.183185525741
+purchas, 6988, 0.174837356717
+recommend, 7178, 0.164259749017
+market, 5514, 0.147613898074
+offer, 6203, 0.142083043526
+product, 6896, 0.135561271658
+particular, 6442, 0.135561271658
+anybodi, 552, 0.131650523557
+thank, 8832, 0.0906748751018
+good, 3948, 0.0832317398908

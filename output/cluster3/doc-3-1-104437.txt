@@ -1,0 +1,34 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104437
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: bbs-comarow@jwt.oau.org (Bob Comarow)
+Subject: Re: Jewish Baseball Players?
+Reply-To: bbs-comarow@jwt.oau.org
+Organization: The Matrix
+Lines: 4
+
+Dave Kingman is Jewish
+
+bob
+comarow@eisner.decus.org
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player     dave kingman jewish
+bob
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.703307213221
+kingman, 5026, 0.436614730213
+bob, 1189, 0.315048130339
+dave, 2395, 0.309865672494
+player, 6683, 0.247269085854
+basebal, 924, 0.241479773383

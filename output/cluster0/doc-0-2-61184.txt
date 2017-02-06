@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61184
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Jemison on Star Trek
+Organization: Express Access Online Communications USA
+Lines: 14
+NNTP-Posting-Host: access.digex.net
+
+In article <1993Apr22.214735.22733@Princeton.EDU> phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser) writes:
+>A transporter operator!?!?  That better be one important transport.  Usually  
+>it is a nameless ensign who does the job.  For such a guest appearance I would  
+>have expected a more visible/meaningful role.
+
+
+Christian  Slater, only gota  cameo on ST6,  
+
+and besides.
+
+Maybe she can't act:-)
+
+pat
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jemison star trek      transport oper better one
+import transport usual nameless ensign job guest
+appear expect visibl meaning role   christian
+slater gota cameo st6  besid  mayb can't act  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+transport, 9065, 0.431873937857
+ensign, 3122, 0.30417132685
+jemison, 4845, 0.285297303286
+trek, 9081, 0.269014965176
+meaning, 5596, 0.262824707521
+guest, 4080, 0.252732627065
+role, 7463, 0.215936968929
+visibl, 9541, 0.205745857135
+besid, 1051, 0.190872687711
+act, 249, 0.179320184972
+pat, 6458, 0.178258699728
+star, 8324, 0.173645431019
+job, 4873, 0.170937178904
+usual, 9377, 0.169507946671
+oper, 6261, 0.168127838789
+appear, 580, 0.163277591972
+expect, 3290, 0.155636728019
+import, 4551, 0.152208916614
+christian, 1732, 0.142524526836
+mayb, 5564, 0.140565251096
+better, 1060, 0.120133968253

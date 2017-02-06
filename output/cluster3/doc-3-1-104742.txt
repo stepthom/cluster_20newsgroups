@@ -1,0 +1,235 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104742
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kubey@sgi.com (Ken Kubey)
+Subject: Re: HBP? BB? BIG-CAT?
+Nntp-Posting-Host: summit.wpd.sgi.com
+Organization: Silicon Graphics, Inc., Mountain View, CA
+Distribution: na
+Lines: 60
+
+In article <9460@blue.cis.pitt.edu> dtate+@pitt.edu (David M. Tate) writes:
+>kubey@sgi.com (Ken Kubey) said:
+>
+>>And finally, I'd like to point out that many high OBP guys draw 
+>>their walks more because pitchers are afraid to throw a strike
+>>to them, than because they have a great "eye"
+>
+>I'm not sure.  I used to think this was true, but more and more I'm becoming
+>convinced that it's the other way around: among players with the physical
+>ability to hit the ball real hard, the patient ones are the ones who get the
+>chance to do it a lot.
+>
+>Let's break down the four basic categories of hitter, according to whether
+>they are power threats and whether they walk a lot:
+>
+>
+>			Power			No Power
+>
+>	Patient		Frank Thomas		Brett Butler
+>			Barry Bonds		Ozzie Smith
+>			Mark McGwire		Craig Grebeck
+>			Babe Ruth		Miller Huggins
+>			Ted Williams		Billy Hamilton
+>			Rickey Henderson	Eddie Joost
+>			Joe Morgan		Mike Hargrove
+>			   .			   .
+>			   .			   .
+>			   .			   .
+>
+>	Impatient	Ernie Banks		Ozzie Guillen
+>			Dave Kingman		Shawon Dunston
+>			Joe Carter		Andres Thomas
+>			George Bell		Jose Lind
+>			Kirby Puckett		Devon White
+
+Okay, I think we all agree that singles hitters should take a
+strike or two and try to get on base any way they can.
+
+So the "No Power/Impatient" guys have no excuse.
+The "No Power/Patient" guys are doing the right thing.
+
+Now the "Impatient/Power" guys (how could you leave out the Big Cat?).
+Would these guys have a better slugging percentage if they took
+more pitches?   Perhaps, but I doubt it.  If you tell Joe Carter
+to go up there and take a few pitches, he will draw more walks, but
+he also won't hit as many frozen ropes into the bleachers because
+he is more likely to hold back on a pitch that he used to drive.
+
+The "Patient/Power" guys?   Joe Morgan had a small strike zone and
+Rickey Henderson has "a strike zone the size of Hitler's heart" 
+so they get their walks based on the small zone.
+
+Look at the other 5 guys: Thomas, Bonds, McGwire, Ruth and Williams.  Wow!
+A lot of pitchers would rather nibble at the corners and maybe
+walk these guys that to throw a clear strike to them.
+The pitchers would do better (in my opinion) by just coming after
+them with a good fastball for a strike on the first pitch, but pitchers
+would rather nibble, go 2-0 or 3-1 and then get hurt.
+
+Ken Kubey         kubey@wpd.sgi.com  (415) 390-3536
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hbp big cat         final i'd like point mani
+high obp guy draw walk pitcher afraid throw strike
+great eye  i'm sure use think true i'm becom
+convinc it way around among player physic abil hit
+ball real hard patient one one get chanc lot  let
+break four basic categori hitter accord whether
+power threat whether walk lot   power power
+patient frank thoma brett butler barri bond ozzi
+smith mark mcgwire craig grebeck babe ruth miller
+huggin ted william billi hamilton rickey henderson
+eddi joost joe morgan mike hargrov     impati erni
+bank ozzi guillen dave kingman shawon dunston joe
+carter andr thoma georg bell jose lind kirbi
+puckett devon white  okay think agre singl hitter
+take strike two tri get base way  power impati guy
+excus power patient guy right thing  impati power
+guy could leav big cat guy better slug percentag
+took pitch perhap doubt tell joe carter take pitch
+draw walk also won't hit mani frozen rope bleacher
+like hold back pitch use drive  patient power guy
+joe morgan small strike zone rickey henderson
+strike zone size hitler heart get walk base small
+zone  look guy thoma bond mcgwire ruth william wow
+lot pitcher rather nibbl corner mayb walk guy
+throw clear strike pitcher better opinion come
+good fastbal strike first pitch pitcher rather
+nibbl get hurt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+guy, 4100, 0.298686148322
+strike, 8448, 0.297082163234
+patient, 6465, 0.260329361049
+power, 6783, 0.258362459206
+impati, 4537, 0.225962566215
+walk, 9617, 0.211283814533
+joe, 4876, 0.197465491808
+zone, 9991, 0.170585594589
+pitcher, 6644, 0.158088187308
+nibbl, 6045, 0.155079580941
+thoma, 8878, 0.148099118856
+pitch, 6643, 0.145204633817
+mcgwire, 5580, 0.128792553023
+morgan, 5861, 0.124091262345
+ozzi, 6366, 0.123071143333
+henderson, 4253, 0.122100806476
+rickey, 7389, 0.117102675056
+ruth, 7555, 0.115007269284
+cat, 1551, 0.115007269284
+carter, 1535, 0.113111744194
+william, 9764, 0.0999384459873
+bond, 1211, 0.098442405558
+lot, 5356, 0.0930807416813
+throw, 8899, 0.0891671806345
+draw, 2861, 0.0882831257369
+hitter, 4322, 0.0846571218195
+hargrov, 4175, 0.0775397904707
+dunston, 2922, 0.0775397904707
+small, 8054, 0.0774773026682
+guillen, 4086, 0.075320855405
+grebeck, 4019, 0.075320855405
+rope, 7478, 0.0735078534463
+frozen, 3702, 0.0719749821316
+hit, 4316, 0.069547807242
+lind, 5281, 0.0694759164219
+devon, 2596, 0.0694759164219
+bleacher, 1149, 0.0684282135357
+big, 1082, 0.0677444273076
+hitler, 4321, 0.0650823402623
+erni, 3173, 0.0650823402623
+kirbi, 5029, 0.0643962765113
+billi, 1091, 0.0643962765113
+hamilton, 4137, 0.0637545067322
+fastbal, 3398, 0.0625832745526
+brett, 1300, 0.0625832745526
+base, 923, 0.06223969793
+puckett, 6975, 0.0620456311725
+hbp, 4212, 0.0620456311725
+babe, 846, 0.0615355716665
+slug, 8048, 0.0610504032379
+miller, 5722, 0.0610504032379
+eddi, 2990, 0.0610504032379
+kingman, 5026, 0.0605878091215
+butler, 1429, 0.0601457816727
+better, 1060, 0.0594966879077
+corner, 2149, 0.0578407510021
+wow, 9856, 0.057503634642
+threat, 8891, 0.0571775732917
+afraid, 318, 0.0568618648629
+mani, 5479, 0.0564135226223
+andr, 503, 0.0556906326833
+craig, 2208, 0.0554181778253
+excus, 3268, 0.0548946895796
+percentag, 6534, 0.0541577613686
+obp, 6177, 0.0530392825236
+categori, 1560, 0.0530392825236
+ted, 8745, 0.0526248900539
+bank, 897, 0.0526248900539
+bell, 1011, 0.0520339847348
+way, 9666, 0.0520244744419
+barri, 918, 0.0518445698603
+jose, 4892, 0.0512970565238
+heart, 4225, 0.0504466257207
+hurt, 4451, 0.0502849314224
+georg, 3847, 0.0501258243442
+okay, 6215, 0.0495136938724
+smith, 8064, 0.0486608302913
+convinc, 2120, 0.0476267586345
+eye, 3337, 0.0466901628288
+abil, 177, 0.0465790557484
+size, 8000, 0.0461466406543
+think, 8871, 0.0455493832284
+break, 1284, 0.0455313528622
+accord, 219, 0.0446744035534
+doubt, 2830, 0.0444935989316
+leav, 5184, 0.044316023137
+use, 9363, 0.04392339185
+took, 8987, 0.043885480556
+hold, 4341, 0.0434728080518
+physic, 6613, 0.0432331824749
+chanc, 1649, 0.0432331824749
+drive, 2873, 0.0431545735261
+dave, 2395, 0.0429991956736
+mike, 5710, 0.0429224077998
+white, 9737, 0.0426210520031
+frank, 3655, 0.0425471187239
+won, 9820, 0.0424008810848
+like, 5272, 0.041876370772
+singl, 7983, 0.0412377170438
+basic, 937, 0.0409199909666
+mark, 5512, 0.0404915686373
+becom, 983, 0.0398535435316
+final, 3482, 0.0390446441
+ball, 877, 0.0388904707754
+perhap, 6540, 0.0384906589245
+agre, 337, 0.0384906589245
+clear, 1803, 0.0381535425644
+hard, 4167, 0.0376458509546
+opinion, 6266, 0.0372489209992
+true, 9121, 0.0354720133823
+mayb, 5564, 0.034807669291
+player, 6683, 0.034312841823
+real, 7144, 0.0340900873512
+high, 4292, 0.0336289237146
+great, 4016, 0.0330739026538
+tell, 8767, 0.0324944777826
+sure, 8585, 0.0320233590363
+let, 5225, 0.0314039820161
+right, 7399, 0.0302487755938
+come, 1923, 0.0288357682646
+tri, 9087, 0.0287987329136
+point, 6710, 0.0280684080499
+thing, 8869, 0.0271660268768
+good, 3948, 0.0255617121996
+look, 5341, 0.0248162070728

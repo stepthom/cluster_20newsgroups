@@ -1,0 +1,76 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60778
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sysmgr@king.eng.umd.edu (Doug Mohney)
+Subject: Re: How many read sci.space?
+Article-I.D.: mojo.1qkmkiINNep3
+Reply-To: sysmgr@king.eng.umd.edu
+Organization: Computer Aided Design Lab, U. of Maryland College Park
+Lines: 15
+NNTP-Posting-Host: queen.eng.umd.edu
+
+In article <1993Apr15.204210.26022@mksol.dseg.ti.com>, pyron@skndiv.dseg.ti.com (Dillon Pyron) writes:
+>
+>There are actually only two of us.  I do Henry, Fred, Tommy and Mary.  Oh yeah,
+>this isn't my real name, I'm a bald headed space baby.
+
+Damn!  So it was YOU who was drinking beer with ROBERT McELWANE in the PARKING
+LOT of the K-MART!
+
+				UNLIMITED INSEMINATION OF THIS MESSAGE
+					RIGIDLY REFUSED
+
+
+
+    Software engineering? That's like military intelligence, isn't it?
+  -- >                  SYSMGR@CADLAB.ENG.UMD.EDU                        < --
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mani read sci space articl mojo 1qkmkiinnep3
+actual two henri fred tommi mari yeah isn't real
+name i'm bald head space babi  damn drink beer
+robert mcelwan park lot mart  unlimit insemin
+messag rigid refus    softwar engin that like
+militari intellig isn't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rigid, 7403, 0.264503909944
+isn, 4783, 0.262099154863
+bald, 874, 0.258988166561
+unlimit, 9291, 0.254210212316
+babi, 847, 0.216423057853
+beer, 990, 0.213439538363
+refus, 7222, 0.204606513152
+space, 8164, 0.202993239603
+tommi, 8978, 0.202437272919
+fred, 3666, 0.200392058826
+drink, 2872, 0.196622100966
+mari, 5508, 0.188637688781
+intellig, 4698, 0.185227347068
+damn, 2346, 0.182715333007
+yeah, 9942, 0.178703607299
+militari, 5715, 0.177113056317
+sci, 7690, 0.166819358689
+park, 6430, 0.164925715496
+henri, 4258, 0.162778180757
+robert, 7437, 0.16108205729
+head, 4215, 0.151037709141
+messag, 5650, 0.147924311086
+engin, 3109, 0.13957477833
+real, 7144, 0.122666639984
+softwar, 8103, 0.11942138048
+articl, 665, 0.115322016332
+actual, 254, 0.115046419293
+lot, 5356, 0.111644397893
+read, 7135, 0.108921448821
+mani, 5479, 0.101496619801
+like, 5272, 0.0753420436331

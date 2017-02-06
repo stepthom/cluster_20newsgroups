@@ -1,0 +1,155 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84060
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dmu5391@hertz.njit.edu (David Utidjian Eng.Sci.)
+Subject: Re: The fact of the theory
+Organization: New Jersey Institute of Technology, Newark, N.J.
+Lines: 42
+Nntp-Posting-Host: hertz.njit.edu
+
+Jim and Andy both have it incorrect I believe:
+
+The *facts* are what is there, the processes that exist in the
+present or the physical evidence of the processes having occured
+in the past. These *facts* exist with or without a theory.
+
+The *theory* tries and explains the *facts* and how they relate
+to the rest of the physical universe in a manner that is both
+coherent and useful, that it can be used to make predictions.
+
+The *facts* of gravity, evolution, electromagnetic radiation,
+relativity, atoms will exist and behave in the way in which they
+behave regardless of whether we have a theory to try and explain
+how they interact... or even why.
+
+A theory never really becomes a fact... but a theory can predict
+the existence of a previously unknown fact, and if we find this
+fact as the theory predicted we say the *theory* is *supported*
+by the *facts*. A theory is a mental construct, a speculation, 
+a model.  If it is a good model, it may be useful.
+
+In science a theory is something that is supported by the 
+evidence, considerable evidence, sometimes *all* of the evidence.
+A *hypothesis* is a new fledgling theory because there is not
+yet enough evidence to support it.  When a new hypothesis 
+is proposed to replace an existing theory, it must explain
+*all* of the facts that the current theory explains and at least
+some of the facts that the current theory could not and/or
+predict new facts.
+
+It is so simple.... I'm surprised that this subject gets
+beat to death about once a month. A quick glance in a dictionary
+would clear up 99% of the confusion and bandwidth in this
+newsgroup.  Then we could talk about really important things
+like, why do men have nipples?
+
+-David Utidjian-
+utidjian@remarque.berkeley.edu
+
+
+
+-
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fact theori     jim andi incorrect believ  fact
+process exist present physic evid process occur
+past fact exist without theori  theori tri explain
+fact relat rest physic univers manner coher use
+use make predict  fact graviti evolut
+electromagnet radiat relat atom exist behav way
+behav regardless whether theori tri explain
+interact even  theori never realli becom fact
+theori predict exist previous unknown fact find
+fact theori predict say theori support fact theori
+mental construct specul model good model use
+scienc theori someth support evid consider evid
+sometim evid hypothesi new fledgl theori yet
+enough evid support new hypothesi propos replac
+exist theori must explain fact current theori
+explain least fact current theori could predict
+new fact  simpl i'm surpris get beat death month
+quick glanc dictionari clear confus bandwidth
+newsgroup could talk realli import thing like men
+nippl  david utidjian
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+theori, 8848, 0.667378779742
+fact, 3350, 0.424902933037
+evid, 3245, 0.217429511727
+predict, 6816, 0.18698080571
+exist, 3283, 0.184996323587
+explain, 3301, 0.166850290979
+hypothesi, 4465, 0.132318299389
+behav, 999, 0.120044687039
+support, 8576, 0.106621356774
+new, 6023, 0.0901770740193
+physic, 6613, 0.0897276361385
+model, 5807, 0.08654626221
+process, 6890, 0.0834251454896
+fledgl, 3533, 0.0804643760571
+relat, 7247, 0.0788924328731
+coher, 1881, 0.0762803655638
+current, 2299, 0.0747774173101
+electromagnet, 3033, 0.0733117628758
+glanc, 3891, 0.0720963550706
+use, 9363, 0.0683700903381
+incorrect, 4588, 0.0655335618233
+bandwidth, 893, 0.0643858200938
+andi, 502, 0.0638565225596
+dictionari, 2624, 0.0628730130431
+mental, 5631, 0.0624143135464
+evolut, 3248, 0.0624143135464
+realli, 7150, 0.0612403961921
+tri, 9087, 0.0597698823033
+manner, 5486, 0.0593341525873
+regardless, 7225, 0.0590065365132
+unknown, 9287, 0.0572332069125
+atom, 756, 0.0552617003651
+radiat, 7058, 0.0550397769825
+specul, 8214, 0.0541969381488
+interact, 4704, 0.0530491964193
+graviti, 4010, 0.0525198988851
+construct, 2074, 0.0523493323642
+beat, 974, 0.0506385155268
+replac, 7288, 0.0498125516593
+confus, 2037, 0.0496810971483
+men, 5629, 0.049551296197
+occur, 6192, 0.0494231077216
+consider, 2060, 0.0486857198449
+previous, 6855, 0.0483358883918
+jim, 4868, 0.0471459912043
+surpris, 8593, 0.0464545050335
+death, 2423, 0.0460792258744
+newsgroup, 6032, 0.0456285411661
+sometim, 8128, 0.0453672857038
+rest, 7324, 0.0440757222794
+simpl, 7965, 0.0440001245818
+quick, 7036, 0.0440001245818
+past, 6456, 0.0436302269298
+propos, 6933, 0.0433435685086
+month, 5847, 0.042528483967
+david, 2397, 0.0416524032474
+becom, 983, 0.0413567085295
+present, 6837, 0.0412985729415
+clear, 1803, 0.0395925882463
+import, 4551, 0.0391125463643
+scienc, 7692, 0.0385645039756
+talk, 8684, 0.0348973133373
+univers, 9282, 0.0342919174916
+believ, 1009, 0.0318665475723
+someth, 8126, 0.0303759490703
+thing, 8869, 0.0281906539768
+way, 9666, 0.0269933465789
+good, 3948, 0.0265258290047
+say, 7653, 0.0261986457854
+make, 5459, 0.0258815184597
+like, 5272, 0.0217279155982

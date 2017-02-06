@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61373
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mancus@sweetpea.jsc.nasa.gov (Keith Mancus)
+Subject: Re: Vandalizing the sky.
+Organization: MDSSC
+Lines: 26
+
+sichase@csa2.lbl.gov (SCOTT I CHASE) writes:
+>pgf@srl02.cacs.usl.edu (Phil G. Fraering) writes...
+>>Jeff.Cook@FtCollinsCO.NCR.COM (Jeff Cook) writes:
+>>>people in primitive tribes out in the middle of nowhere as they look up
+>>>and see a can of Budweiser flying across the sky... :-D
+
+>>Seen that movie already. Or one just like it.
+>>Come to think of it, they might send someone on
+>>a quest to get rid of the dang thing...
+
+> In one of his lesser known books (I can't
+> remember which one right now), the protagonists are in a balloon gondola,
+> travelling over Africa on their way around the world in the balloon...
+
+  That's _Five Weeks In A Balloon_.  And if anyone can tell me where to
+get it, I sure would like a reply!  I've been looking for that book for
+TEN YEAR+, and never found it.  (Note that I am _not_ looking for a $200
+collector's item; I'm hoping that *someone* has published it in modern
+times, either in paperback or hardcover.  I'm willing to spend $50 or
+so to get a copy.
+
+-- 
+ Keith Mancus    <mancus@butch.jsc.nasa.gov>                           |
+ N5WVR           <mancus@sweetpea.jsc.nasa.gov>                        |
+ "Black powder and alcohol, when your states and cities fall,          |
+  when your back's against the wall...." -Leslie Fish                  |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       peopl primit tribe middl nowher
+look see budweis fli across sky  seen movi alreadi
+one like come think might send someon quest get
+rid dang thing  one lesser known book can't rememb
+one right protagonist balloon gondola travel
+africa way around world balloon  that five week
+balloon anyon tell get sure like repli i'v look
+book ten year never found note look collector item
+i'm hope someon publish modern time either
+paperback hardcov i'm will spend get copi
+black powder alcohol state citi fall back wall
+lesli fish
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+balloon, 882, 0.429649139898
+sky, 8011, 0.19125916837
+gondola, 3941, 0.172447363359
+powder, 6781, 0.167512484129
+lesli, 5221, 0.167512484129
+look, 5341, 0.165572648016
+protagonist, 6939, 0.163480394209
+alcohol, 391, 0.163480394209
+paperback, 6410, 0.160071310757
+dang, 2355, 0.160071310757
+book, 1218, 0.158426559082
+hardcov, 4169, 0.157118228347
+collector, 1899, 0.157118228347
+budweis, 1368, 0.157118228347
+africa, 319, 0.152183349117
+quest, 7031, 0.148151259197
+lesser, 5222, 0.14638109334
+someon, 8124, 0.14453448954
+tribe, 9092, 0.139184290046
+rid, 7391, 0.134746404024
+fish, 3505, 0.133763341424
+nowher, 6131, 0.130217320896
+primit, 6866, 0.127162089265
+item, 4798, 0.118434206412
+travel, 9069, 0.117492989173
+vandal, 9419, 0.113307851811
+movi, 5892, 0.112929803852
+wall, 9619, 0.111832954253
+middl, 5699, 0.110787944085
+modern, 5811, 0.10914902649
+spend, 8222, 0.103591140791
+publish, 6974, 0.102163854161
+fall, 3369, 0.10126106485
+citi, 1775, 0.0997647757695
+copi, 2130, 0.0972289749298
+black, 1133, 0.0966828912079
+repli, 7290, 0.0959751422631
+fli, 3542, 0.0944609585969
+like, 5272, 0.0931324379762
+alreadi, 443, 0.0886336996893
+known, 5054, 0.0883852109283
+send, 7785, 0.0849584846613
+seen, 7767, 0.082084905994
+week, 9691, 0.0814438388745
+rememb, 7269, 0.0814438388745
+note, 6118, 0.0797920298375
+hope, 4372, 0.0790506665504
+state, 8342, 0.078411914075
+world, 9841, 0.074067235671
+tell, 8767, 0.07226724477
+sure, 8585, 0.0712194835477
+right, 7399, 0.0672728358477
+come, 1923, 0.0641303281514
+thing, 8869, 0.0604168476523
+peopl, 6530, 0.0600021742459
+anyon, 554, 0.059427719427
+way, 9666, 0.0578508362817
+year, 9943, 0.0555798546828
+time, 8936, 0.0525463339557
+think, 8871, 0.0506505820606

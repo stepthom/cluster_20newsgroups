@@ -1,0 +1,205 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38770
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dks@world.std.com (David K Shute)
+Subject: Re: Rumours about 3DO ???
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 42
+
+johnm@spudge.lonestar.org (John Munsch) writes:
+
+>In article <loT1rAPNBh107h@viamar.UUCP> rutgers!viamar!kmembry writes:
+>>Read Issue #2 of Wired Magazine.  It has a long article on the "hype" of
+>>3DO.  I've noticed that every article talks with the designers and how
+>>"great" it is, but never show any pictures of the output (or at least
+>>pictures that one can understand)
+
+>Gamepro magazine published pictures a few months ago and Computer Chronicles
+>(a program that is syndicated to public tv stations around the nation) spent
+>several minutes on it when it was shown at CES.  It was very impressive what
+>it can do in real time.
+
+>John Munsch
+
+The April 1993 edition of MIX Magazine carries a story on 3DO which
+includes pictures of the unit, a schematic of what's inside and some
+indication from the people at 3DO as to where they intend to go and in
+what stages. (MIX is a trade rag aimed at the professional sound
+engineering community.)
+
+The schematic shows a central DMA Engine connecting and mediating between
+two Graphics Animation processors (32 bit bus), a 32-bit RISC processor
+with math co-processor, Video Decomp module, a control port, an expansion
+port (where 3DO hangs its double-fast CD player), 1Mb DRAM, an optional
+video port (for editing video) and on the outbound side 1MB VRAM to Video
+Processor to TV chain parallel with a DSP to sound chain. 
+
+They promise Red Book CD-quality audio, full 30 fps video and a future
+connection path to your PC via a PC expansion card.
+
+I am not informed enough to have an opinion about the various means and
+methods discussed here. The article, written by Philip De Lancie, does
+cover the other machines mentioned in this thread.  I come from the PC
+TCP/IP world and see a tremendous potential for bringing connectedness to
+the educated consumer; 3DO seems to have the right business partners to
+make this happen. 
+
+Hope this helps.
+
+David Shute
+EMAIL: dks@world.std.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do       read issu wire magazin long
+articl hype 3do i'v notic everi articl talk design
+great never show pictur output least pictur one
+understand  gamepro magazin publish pictur month
+ago comput chronicl program syndic public station
+around nation spent sever minut shown ces impress
+real time  john munsch  april edit mix magazin
+carri stori 3do includ pictur unit schemat what
+insid indic peopl 3do intend stage mix trade rag
+aim profession sound engin communiti  schemat show
+central dma engin connect mediat two graphic anim
+processor bit bus bit risc processor math
+processor video decomp modul control port expans
+port 3do hang doubl fast player 1mb dram option
+video port edit video outbound side 1mb vram video
+processor chain parallel dsp sound chain  promis
+red book qualiti audio full fps video futur
+connect path via expans card  inform enough
+opinion various mean method discuss articl written
+philip lanci cover machin mention thread come tcp
+world see tremend potenti bring connected educ
+consum 3do seem right busi partner make happen
+hope help  david shute
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3do, 98, 0.42517640937
+video, 9506, 0.275938310814
+processor, 6891, 0.269013646429
+pictur, 6622, 0.205698446681
+schemat, 7679, 0.197002939494
+port, 6748, 0.196530162576
+magazin, 5432, 0.188537475103
+1mb, 55, 0.173104604477
+chain, 1637, 0.152028562458
+expans, 3289, 0.143466598795
+mix, 5788, 0.132701149964
+articl, 665, 0.11779289968
+connect, 2046, 0.116399462257
+edit, 2996, 0.11610411999
+sound, 8150, 0.0956699287609
+engin, 3109, 0.095043533372
+vram, 9593, 0.0949967197995
+mediat, 5607, 0.0949967197995
+dma, 2778, 0.0949967197995
+ces, 1623, 0.0949967197995
+tcp, 8725, 0.0922782245416
+rag, 7067, 0.0922782245416
+chronicl, 1738, 0.0900570521858
+syndic, 8652, 0.0881790777176
+dsp, 2892, 0.0851173845721
+fps, 3634, 0.0838338069805
+bit, 1122, 0.0821801103348
+philip, 6590, 0.080637496782
+audio, 778, 0.080637496782
+risc, 7413, 0.0781078846773
+partner, 6444, 0.0773693119247
+hype, 4458, 0.0766729670111
+tremend, 9082, 0.0753893894195
+aim, 353, 0.072193079221
+wire, 9793, 0.070862734895
+rumour, 7542, 0.070862734895
+hang, 4152, 0.0704497218058
+consum, 2077, 0.0692885846351
+bus, 1419, 0.0675698636679
+shown, 7918, 0.064980287278
+modul, 5815, 0.064980287278
+math, 5544, 0.0647237995026
+central, 1611, 0.06398522675
+parallel, 6420, 0.0637486616599
+profession, 6900, 0.0632888818364
+path, 6461, 0.0626301960542
+stage, 8302, 0.0618039323982
+output, 6329, 0.0614109073682
+educ, 3002, 0.0612190495552
+communiti, 1953, 0.0606609648347
+spent, 8223, 0.0603026237266
+trade, 9033, 0.0601273297765
+intend, 4700, 0.0597841318889
+thread, 8890, 0.0589661926059
+option, 6276, 0.0589661926059
+qualiti, 7017, 0.0586537980706
+impress, 4554, 0.0586537980706
+potenti, 6774, 0.0583492142227
+promis, 6913, 0.0572017578163
+insid, 4671, 0.0570656366311
+doubl, 2828, 0.0567978737791
+publish, 6974, 0.0562793819415
+notic, 6120, 0.0562793819415
+minut, 5747, 0.0562793819415
+busi, 1424, 0.0561531350155
+cover, 2194, 0.0560281829526
+machin, 5416, 0.0554219524478
+unit, 9278, 0.0553042440988
+stori, 8418, 0.0550721852856
+method, 5666, 0.0548444642753
+various, 9432, 0.053765643089
+fast, 3397, 0.053765643089
+written, 9867, 0.053161417475
+indic, 4600, 0.0530635637816
+anim, 515, 0.052585748841
+card, 1513, 0.0523078040249
+carri, 1530, 0.0515101047884
+bring, 1316, 0.0515101047884
+station, 8346, 0.0514246116703
+futur, 3737, 0.0514246116703
+control, 2107, 0.0508423914258
+april, 595, 0.0506011415753
+month, 5847, 0.0502093805095
+issu, 4793, 0.0496812542551
+david, 2397, 0.0491750744138
+red, 7194, 0.0487573402553
+mention, 5632, 0.0487573402553
+nation, 5962, 0.0479625332878
+ago, 336, 0.0474600818993
+design, 2564, 0.0473376414784
+discuss, 2708, 0.0468598265378
+public, 6973, 0.0468013961172
+john, 4878, 0.0460662527015
+opinion, 6266, 0.0456349609602
+sever, 7823, 0.044965129048
+understand, 9246, 0.0436815514563
+book, 1218, 0.0436365136256
+hope, 4372, 0.0435469344033
+happen, 4159, 0.0429376714855
+comput, 1993, 0.0422366109846
+player, 6683, 0.042037867273
+includ, 4579, 0.0419201589241
+real, 7144, 0.0417649629484
+everi, 3235, 0.0417264709122
+talk, 8684, 0.0411999751853
+world, 9841, 0.0408016933184
+great, 4016, 0.0405199993965
+graphic, 3997, 0.0401093070463
+inform, 4637, 0.0400421844559
+long, 5336, 0.0383861587361
+program, 6905, 0.0378154352086
+mean, 5595, 0.0376493046433
+read, 7135, 0.0370850646507
+right, 7399, 0.0370588370425
+help, 4249, 0.0357909892391
+come, 1923, 0.0353277121515
+peopl, 6530, 0.033053620671
+make, 5459, 0.0305558742586
+time, 8936, 0.0289463942274

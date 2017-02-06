@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39672
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: povlphp@uts.uni-c.dk (Povl H. Pedersen)
+Subject: Re: Products to handle HDTV moving pircture (180MB/sec)
+Organization: UNI-C, Danish Computing Centre for Research and Education
+Lines: 9
+
+How does the 16 bit color of HDTV work ? It can not be 5 bit Red Green and
+Blue like on the Macintosh. This gives only 64 gray levels.
+
+Apple also has developed a point-point network that is around 200MB (not
+sure if it is bits or bytes) per sec.
+-- 
+Povl H. Pedersen   -   Macintosh specialist. Knows some DOS and UNIX too.
+pope@imv.aau.dk    -   povlphp@uts.uni-c.dk
+--- Finger me at pope@imv.aau.dk for PGP Public Key ---
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ product handl hdtv move pirctur 180mb sec    bit
+color hdtv work bit red green blue like macintosh
+give gray level  appl also develop point point
+network around 200mb sure bit byte per sec  povl
+pedersen macintosh specialist know dos unix ut uni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hdtv, 4214, 0.462631715099
+sec, 7752, 0.353905487208
+macintosh, 5418, 0.333942741866
+bit, 1122, 0.30016135403
+180mb, 33, 0.23131585755
+specialist, 8200, 0.201306945686
+uni, 9268, 0.196351324111
+gray, 4011, 0.168716861036
+point, 6710, 0.167466737754
+byte, 1438, 0.16453179638
+green, 4025, 0.163761239461
+appl, 583, 0.163761239461
+dos, 2825, 0.139959813127
+network, 6018, 0.137350239407
+handl, 4149, 0.137039610669
+blue, 1176, 0.136732200939
+unix, 9284, 0.13582863545
+product, 6896, 0.124198795734
+level, 5229, 0.121701256422
+color, 1907, 0.119227759883
+red, 7194, 0.118723530631
+develop, 2588, 0.11048259831
+sure, 8585, 0.0955317355403
+work, 9833, 0.0840423797277
+know, 5052, 0.0638974119374
+like, 5272, 0.0624625663636

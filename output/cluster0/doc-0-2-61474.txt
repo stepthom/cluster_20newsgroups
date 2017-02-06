@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61474
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Abyss-breathing fluids
+Organization: Texas Instruments Inc
+Distribution: usa
+Lines: 18
+
+In <1993Apr29.192623.11760@cc.ic.ac.uk> atae@spva.ph.ic.ac.uk (Ata Etemadi) writes:
+
+>"The Forever War", one of my favorite SciFi books, had a passage devoted to 
+>breathing fluids. The idea was to protect people from the high accelerations 
+>required for interstellar travel by emersing the passengers in dry-cleaning 
+>fluid saturated with oxygen. Plenty of very imaginative ideas is this book.
+>I would certainly recommend it (won the Hugo and the Nebula awards).
+
+And most definitely read it in conjunction with Heinlein's _Starship
+Trooper_.  The two books are radically different viewpoints of the
+same basic premises.  I've even heard tell of English classes built
+around this.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ abyss breath fluid       forev war one favorit
+scifi book passag devot breath fluid idea protect
+peopl high acceler requir interstellar travel
+emers passeng dri clean fluid satur oxygen plenti
+imagin idea book certain recommend hugo nebula
+award  definit read conjunct heinlein starship
+trooper two book radic differ viewpoint basic
+premis i'v even heard tell english class built
+around   insist perfect safeti peopl don't ball
+live real world mari shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fluid, 3560, 0.421212764295
+breath, 1291, 0.254761206878
+book, 1218, 0.235318836304
+trooper, 9116, 0.161883699075
+nebula, 5987, 0.161883699075
+heinlein, 4241, 0.155583671792
+conjunct, 2045, 0.150696990987
+idea, 4482, 0.149736896449
+passeng, 6451, 0.148609767657
+satur, 7638, 0.144951405208
+abyss, 203, 0.143328494741
+viewpoint, 9513, 0.141817601243
+premis, 6827, 0.136640859646
+dri, 2869, 0.13551757396
+interstellar, 4723, 0.133430350631
+devot, 2597, 0.133430350631
+radic, 7059, 0.130630893155
+oxygen, 6363, 0.129771988181
+award, 832, 0.127380603439
+shafer, 7839, 0.126638184217
+plenti, 6692, 0.125224837738
+forev, 3602, 0.125224837738
+dryden, 2888, 0.124550960887
+peopl, 6530, 0.118832279142
+acceler, 207, 0.117758794473
+english, 3111, 0.117277472468
+passag, 6449, 0.11680650228
+travel, 9069, 0.116345447995
+mari, 5508, 0.115451476129
+favorit, 3411, 0.115451476129
+safeti, 7579, 0.114592571155
+clean, 1799, 0.113364252799
+insist, 4673, 0.112969660688
+recommend, 7178, 0.111096787549
+ame, 465, 0.110045420712
+protect, 6940, 0.106866040727
+war, 9635, 0.106572086385
+class, 1789, 0.104886695791
+imagin, 4518, 0.0994131541281
+built, 1381, 0.0959173705226
+perfect, 6538, 0.0957385999816
+definit, 2484, 0.094695580493
+basic, 937, 0.0901166228263
+ball, 877, 0.0856470835798
+heard, 4224, 0.083205413466
+nasa, 5956, 0.0824161651781
+requir, 7302, 0.0814679967532
+live, 5310, 0.0802937340119
+certain, 1619, 0.0774907588642
+real, 7144, 0.0750753719972
+high, 4292, 0.074059767924
+world, 9841, 0.0733438290794
+tell, 8767, 0.0715614184926
+differ, 2633, 0.067431409608
+read, 7135, 0.0666629353325
+don, 2811, 0.0496726301212

@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39017
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: corvus@cats.ucsc.edu (Scott Corbin Crow)
+Subject: mode 13h
+Organization: University of California; Santa Cruz
+Lines: 7
+NNTP-Posting-Host: am.ucsc.edu
+
+
+Does anyone know how to access and/or display multiple pages in mode 13h
+while still maintaining the 1 byte per pixel memory organization?
+Examples in C or Assembly would be appreciated...
+Thanks
+Scott
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mode 13h      anyon know access display multipl
+page mode 13h still maintain byte per pixel memori
+organ exampl assembl appreci thank scott
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+13h, 20, 0.576955081789
+mode, 5806, 0.378940039343
+byte, 1438, 0.229005956979
+assembl, 698, 0.219360153178
+scott, 7713, 0.216857002353
+multipl, 5919, 0.213739345092
+pixel, 6651, 0.208132188632
+maintain, 5454, 0.197755580916
+page, 6382, 0.196748473833
+memori, 5628, 0.187040534064
+display, 2734, 0.177905804723
+access, 209, 0.176359206563
+organ, 6287, 0.172867887536
+appreci, 587, 0.1596178185
+exampl, 3258, 0.149761719127
+thank, 8832, 0.115628703683
+anyon, 554, 0.110951927671
+know, 5052, 0.0889365356187

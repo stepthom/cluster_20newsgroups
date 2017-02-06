@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38583
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: haberj@Informatik.TU-Muenchen.DE (Haber Joerg)
+Subject: ray tracing spline surfaces
+Keywords: ray tracing, splines
+Originator: haberj@sunbulirsch4.mathematik.tu-muenchen.de
+Organization: Technische Universitaet Muenchen, Germany
+Lines: 17
+
+
+Hi net!
+Due to further investigation I would like to study the following article:
+	Peterson, "Ray tracing general B-Splines",
+	Proc. ACM Mountain Regional Conference, April 1986
+Unfortunately I didn't find it in any library's register.
+If there is anyone having access to this paper or knowing about a
+library containing those proceedings (preferrably in Germany), please 
+let me know! Any help would be appreciated! 
+
+Thanks a lot, 
+Joerg Haber
+
+--
+  Joerg Haber                	haberj@mathematik.tu-muenchen.de
+  Mathematisches Institut
+  TU Muenchen
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ray trace spline surfac       net due investig
+like studi follow articl peterson ray trace
+general spline proc acm mountain region confer
+april unfortun didn't find librari regist anyon
+access paper know librari contain proceed preferr
+germani pleas let know help appreci  thank lot
+joerg haber    mathematisch institut muenchen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spline, 8245, 0.402797714705
+trace, 9028, 0.33015749474
+librari, 5250, 0.284103393024
+ray, 7118, 0.26752614237
+acm, 240, 0.193554776257
+regist, 7229, 0.188423705198
+region, 7228, 0.188423705198
+germani, 3855, 0.185052098877
+mountain, 5887, 0.178340902907
+proceed, 6889, 0.17353177282
+investig, 4745, 0.166840696727
+confer, 2025, 0.164512349173
+unfortun, 9264, 0.152103595215
+institut, 4683, 0.147170671308
+paper, 6409, 0.142613126047
+contain, 2079, 0.140689760647
+surfac, 8587, 0.139899580681
+know, 5052, 0.137857754374
+studi, 8469, 0.137639771733
+access, 209, 0.136684457129
+april, 595, 0.132915321935
+net, 6010, 0.128799480612
+appreci, 587, 0.123709304975
+general, 3818, 0.123552822205
+didn, 2625, 0.106895375243
+follow, 3578, 0.105179837297
+articl, 665, 0.10313654788
+let, 5225, 0.101060964604
+lot, 5356, 0.0998475239599
+pleas, 6688, 0.0941373878955
+help, 4249, 0.0940131133211
+thank, 8832, 0.0896162264477
+anyon, 554, 0.085991564017
+like, 5272, 0.0673810477628

@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39073
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: krs@allegra.att.com (K. R. Subramanian)
+Subject: Companies involved with Scientific Visualization...
+Reply-To: krs@allegra.att.com
+Organization: AT&T Bell Laboratories
+Lines: 10
+
+If anyone has a list of companies doing data visualization (software
+or hardware) I would like to hear from them.  Thanks.
+
+	-- krs
+-- 
+
+K.R.Subramanian                               Ph:     (908) 582-6346
+AT&T Bell Laboratories, Rm. 2A240             email : krs@research.att.com
+600 Mountain Av.
+Murray Hill, NJ 07974
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ compani involv scientif visual     anyon list
+compani data visual softwar hardwar like hear
+thank  krs   subramanian  mountain murray hill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+visual, 9547, 0.50518334172
+compani, 1958, 0.411560623716
+murray, 5929, 0.293125747096
+hill, 4300, 0.282854756496
+mountain, 5887, 0.275673251872
+scientif, 7693, 0.233952572943
+hardwar, 4173, 0.220886176082
+hear, 4223, 0.213514052621
+involv, 4750, 0.207434831543
+data, 2385, 0.183186516777
+list, 5298, 0.181167235306
+softwar, 8103, 0.165092034344
+thank, 8832, 0.138525689635
+anyon, 554, 0.13292281075
+like, 5272, 0.104155312934

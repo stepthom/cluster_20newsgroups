@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38250
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: channui@austin.ibm.com (Christopher Chan-Nui)
+Subject: Re: Two pointing devices in one COM-port?
+Reply-To: channui@austin.ibm.com
+Organization: IBM Austin
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 22
+
+Bob Davis (sonny@trantor.harris-atd.com) wrote:
+: In article <C4tKGM.1v6@unix.portal.com>, wil@shell.portal.com (Ville V Walveranta) writes:
+: |> 
+: |>         Is there any way to connect two pointing devices to one serial
+: |>         port? I haven't tried this but I believe they would interfere
+: |>         with each other (?) even if only one at a time would be used.
+
+: 	Just get an A-B switch for RS232. Look in Computer Shopper.
+: They are available fairly cheap. They allow switching between two
+: serial devices on a single port.
+
+Unfortunately the poster wants to use an internal and an external modem so a
+switch isn't going to help them.  If you aren't using your com ports for
+anything else, just define them on different com ports.  Define your internal
+modem to be say, com1, and your external modem to be com3.  You really
+shouldn't have to worry about interrupt conflicts since you won't be using
+both modems at the same time :).
+
+---
+Christopher Chan-Nui    | Investment in reliability will increase until it
+channui@austin.ibm.com  | exceeds the probable cost of errors, or until someone
+#include <disclaimer.h> | insists on getting some useful work done.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ two point devic one com port         way connect
+two point devic one serial port haven't tri believ
+interfer even one time use  get switch rs232 look
+comput shopper avail fair cheap allow switch two
+serial devic singl port  unfortun poster want use
+intern extern modem switch isn't go help aren't
+use com port anyth els defin differ com port defin
+intern modem say com1 extern modem com3 realli
+shouldn't worri interrupt conflict sinc won't use
+modem time   christoph chan nui invest reliabl
+increas  includ disclaim insist get use work done
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+port, 6748, 0.456983245612
+modem, 5809, 0.435890277765
+switch, 8638, 0.280195743031
+devic, 2591, 0.271972627231
+serial, 7806, 0.23750381
+com, 1917, 0.222918057266
+extern, 3322, 0.193336566003
+use, 9363, 0.187690451774
+intern, 4716, 0.151195069076
+defin, 2482, 0.149169322006
+christoph, 1735, 0.12874238335
+interrupt, 4721, 0.113862237221
+interfer, 4710, 0.103559882669
+conflict, 2034, 0.101387127472
+point, 6710, 0.0959520103629
+reliabl, 7256, 0.0925693055131
+poster, 6769, 0.0913966491225
+invest, 4744, 0.0886154764398
+shouldn, 7912, 0.0882977704397
+worri, 9845, 0.0876796377337
+insist, 4673, 0.0876796377337
+cheap, 1677, 0.0862260364985
+disclaim, 2691, 0.0834081026604
+connect, 2046, 0.0811976187558
+unfortun, 9264, 0.0807880380666
+time, 8936, 0.0807693862931
+increas, 4590, 0.0766746136787
+aren, 623, 0.0741683926191
+haven, 4207, 0.0725983439773
+won, 9820, 0.072473824914
+fair, 3363, 0.0719846752966
+singl, 7983, 0.0704856835147
+allow, 432, 0.0651333047041
+isn, 4783, 0.0622506041485
+avail, 811, 0.0590387896607
+comput, 1993, 0.058926599312
+els, 3053, 0.0587596901856
+includ, 4579, 0.058485099785
+anyth, 555, 0.0582685774158
+believ, 1009, 0.05248827387
+differ, 2633, 0.0523358353942
+sinc, 7977, 0.051812816401
+realli, 7150, 0.050435377098
+help, 4249, 0.0499339609099
+tri, 9087, 0.0492243150031
+work, 9833, 0.0481530565336
+want, 9634, 0.0463000894566
+way, 9666, 0.0444614894253
+say, 7653, 0.0431525157185
+look, 5341, 0.0424171715401

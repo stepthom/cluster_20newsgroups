@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102655
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: niepornt@phoenix.Princeton.EDU (David Marc Nieporent)
+Subject: Re: DESIGNATED HITTER RULE
+Originator: news@nimaster
+Nntp-Posting-Host: phoenix.princeton.edu
+Organization: Princeton University
+Lines: 17
+
+In <ekdfc.14.0@ttacs1.ttu.edu> ekdfc@ttacs1.ttu.edu (David Coons) writes:
+>In <1993Apr4.221228.17577@bsu-ucs> 00ecgillespi@leo.bsuvc.bsu.edu writes:
+
+>>I AM DOING A POSTITION PAPER ON THE DESIGNATED HITTER RULE. ANY INFORMATION
+>>OR EVEN OPINIONS WOULD BE GREATLY APPRECITATED. 00ECGILLESPIE "MAGIC"
+
+>Should be rescinded.  The rules say baseball is a game between two teams of 
+>nine players each.  Let's keep it that way.
+
+Not any more the rules don't say that.  So that's a pretty dumb argument.
+
+
+-- 
+David M. Nieporent   |  "Only one thing wrong with theory...
+niepornt@phoenix.    |    Is stupid!  Is stupidest theory I ever heard!"
+   princeton.edu     |   --------------------- 
+Baltimore Orioles 93 |  Who's the dangerous cult -- the BDs or the BATF?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ design hitter rule origin news nimast
+1993apr4  postit paper design hitter rule inform
+even opinion great apprecit 00ecgillespi magic
+rescind rule say basebal game two team nine player
+let keep way  rule don't say that pretti dumb
+argument    david niepor one thing wrong theori
+princeton edu baltimor oriol who danger cult bds
+batf
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rule, 7537, 0.512275026054
+hitter, 4322, 0.261255058717
+design, 2564, 0.238481027757
+niepor, 6058, 0.214405288464
+bds, 966, 0.211172037992
+princeton, 6868, 0.18990108621
+batf, 945, 0.18840383821
+nimast, 6072, 0.180691627534
+dumb, 2914, 0.175477851411
+oriol, 6295, 0.164341190289
+magic, 5435, 0.163681218688
+danger, 2356, 0.161782417444
+cult, 2289, 0.158304643793
+say, 7653, 0.155822806894
+baltimor, 887, 0.155680182382
+theori, 8848, 0.141764190481
+paper, 6409, 0.136760912466
+argument, 631, 0.128068756514
+david, 2397, 0.123868890802
+opinion, 6266, 0.11495156974
+wrong, 9869, 0.112639284137
+pretti, 6851, 0.112515793038
+origin, 6293, 0.109135006241
+edu, 3001, 0.108805620288
+news, 6031, 0.10599019242
+player, 6683, 0.105890719086
+basebal, 924, 0.103411499096
+great, 4016, 0.10206730626
+team, 8732, 0.101892448256
+inform, 4637, 0.100863720756
+let, 5225, 0.0969138684287
+game, 3761, 0.0930206463565
+thing, 8869, 0.0838353796382
+way, 9666, 0.0802747414095
+don, 2811, 0.0696063701501

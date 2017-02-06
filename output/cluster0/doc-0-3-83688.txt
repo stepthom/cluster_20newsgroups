@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83688
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cdcolvin@rahul.net (Christopher D. Colvin)
+Subject: Re: Rosicrucian Order(s) ?!
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Lines: 26
+
+In article <1qvibv$b75@usenet.INS.CWRU.Edu> ch981@cleveland.Freenet.Edu (Tony 
+Alicea) writes:
+>
+>In a previous article, cdcolvin@rahul.net (Christopher D. Colvin) says:
+>
+>>I worked at AMORC when I was in HS.
+>
+>OK: So you were a naive teen.
+>
+>>He [HS Lewis] dates back to the 20's. 
+>
+>Wrong: 1915 and if you do your homework, 1909.
+>But he was born LAST century (1883).
+>
+>>
+>>Right now AMORC is embroiled in some internal political turmoil. 
+>
+>No it isn't. 
+>
+>
+
+I guess the San Jose Mercury news is wrong then, and if so, why is the DA 
+involved? 
+ 
+-- 
+Christopher D. Colvin <cdcolvin@rahul.net>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rosicrucian order     cleveland freenet edu toni
+work amorc  naiv teen  lewi date back  wrong
+homework born last centuri   right amorc embroil
+intern polit turmoil  isn't    guess san jose
+mercuri news wrong involv
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+amorc, 477, 0.44019288434
+embroil, 3066, 0.256191215267
+teen, 8747, 0.248859861034
+homework, 4357, 0.242869708465
+wrong, 9869, 0.24118943423
+freenet, 3679, 0.229548201664
+naiv, 5949, 0.226086594739
+rosicrucian, 7486, 0.201710333535
+lewi, 5235, 0.198721466829
+mercuri, 5640, 0.193453428566
+cleveland, 1811, 0.173208707915
+toni, 8984, 0.170077303552
+jose, 4892, 0.169485307746
+born, 1233, 0.168332386702
+centuri, 1614, 0.161687919056
+polit, 6723, 0.1594520308
+san, 7603, 0.148521023731
+intern, 4716, 0.146130523998
+date, 2391, 0.14444528905
+involv, 4750, 0.137777692309
+guess, 4079, 0.127335258414
+isn, 4783, 0.120330821091
+edu, 3001, 0.116490291107
+order, 6281, 0.116141386465
+news, 6031, 0.113476016559
+right, 7399, 0.0999418560803
+work, 9833, 0.0930801702247

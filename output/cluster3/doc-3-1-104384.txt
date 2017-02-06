@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104384
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: brucek@Ingres.COM (Bruce Kleinman)
+Subject: Re: Jewish Baseball Players?
+Article-I.D.: pony.1993Apr15.223040.8733
+Organization: Ingres Corporation, A subsidiary of The ASK Group, Inc.
+Lines: 12
+
+In article <15APR93.14691229.0062@lafibm.lafayette.edu> VB30@lafibm.lafayette.edu (VB30) writes:
+>Just wondering.  A friend and I were talking the other day, and
+>we were (for some reason) trying to come up with names of Jewish
+>baseball players, past and present.  We weren't able to come up
+>with much, except for Sandy Koufax, (somebody) Stankowitz, and
+>maybe John Lowenstein.  Can anyone come up with any more.  I know
+>it sounds pretty lame to be racking our brains over this, but
+>humor us.  Thanks for your help.
+
+Hank Greenberg, Sid Gordon, Ron Blomberg.
+
+Guess it goes from the sublime to the ridiculous.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player articl poni 1993apr15
+wonder friend talk day reason tri come name jewish
+basebal player past present weren't abl come much
+except sandi koufax somebodi stankowitz mayb john
+lowenstein anyon come know sound pretti lame rack
+brain humor thank help  hank greenberg sid gordon
+ron blomberg  guess goe sublim ridicul
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.269999711674
+come, 1923, 0.239322838526
+poni, 6739, 0.208375477178
+1993apr15, 42, 0.208375477178
+blomberg, 1167, 0.203359799299
+sublim, 8488, 0.199119104077
+sid, 7934, 0.192205427818
+player, 6683, 0.189853255111
+basebal, 924, 0.185408219802
+stankowitz, 8321, 0.180050580083
+lowenstein, 5370, 0.178152581703
+gordon, 3954, 0.176377122792
+koufax, 5067, 0.174709335505
+greenberg, 4027, 0.174709335505
+sandi, 7608, 0.173136903825
+rack, 7053, 0.173136903825
+hank, 4154, 0.171649511053
+lame, 5100, 0.168896208602
+humor, 4437, 0.164099735588
+ridicul, 7396, 0.160982056089
+weren, 9705, 0.15186639974
+ron, 7472, 0.143952247226
+brain, 1266, 0.140015533716
+somebodi, 8121, 0.131422085825
+friend, 3692, 0.123091736796
+goe, 3931, 0.117503763523
+past, 6456, 0.116316094269
+present, 6837, 0.110100016467
+sound, 8150, 0.10801717933
+guess, 4079, 0.106620429359
+john, 4878, 0.104023212802
+pretti, 6851, 0.100865730935
+abl, 180, 0.100645649241
+wonder, 9821, 0.0998889396271
+mayb, 5564, 0.0962955699182
+talk, 8684, 0.0930345651057
+reason, 7156, 0.0887345681467
+articl, 665, 0.0886635743911
+day, 2402, 0.0815771252471
+help, 4249, 0.0808204156334
+tri, 9087, 0.0796718210477
+thank, 8832, 0.0770405362947
+anyon, 554, 0.0739245164776
+know, 5052, 0.0592562069971

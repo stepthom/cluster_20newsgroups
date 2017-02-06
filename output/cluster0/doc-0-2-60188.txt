@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60188
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: drickel@bounce.mentorg.com (Dave Rickel)
+Subject: Re: Quaint US Archaisms
+Article-I.D.: news.1993Apr06.090626.21880
+Organization: Mentor Graphics
+Lines: 14
+Originator: drickel@bounce
+Nntp-Posting-Host: bounce.mentorg.com
+
+
+In article <C512wC.B0M.1@cs.cmu.edu>, nickh@CS.CMU.EDU (Nick Haines) writes:
+|> Oh, and the other advantage is that you don't have shit constants like
+|> 32.??? hanging around.
+
+No, instead you have stupid things like 3600 and 86400 and 31556925.9747 and
+299792.458 and 9.80665 and ...
+
+How many cc's in a ml anyway?  The metric system has its problems, just not
+as many of them.
+
+
+david rickel
+drickel@sjc.mentorg.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ quaint archaism articl news 1993apr06   origin
+drickel bounc     advantag don't shit constant
+like hang around  instead stupid thing like   mani
+cc anyway metric system problem mani   david
+rickel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+metric, 5669, 0.352924224287
+shit, 7893, 0.319294934885
+bounc, 1249, 0.314563744452
+hang, 4152, 0.300745258097
+mani, 5479, 0.295043948558
+constant, 2067, 0.265570683132
+stupid, 8476, 0.254497199286
+advantag, 286, 0.253789606974
+instead, 4682, 0.223298596769
+like, 5272, 0.219014328649
+david, 2397, 0.209925178801
+origin, 6293, 0.184955121097
+news, 6031, 0.179625489102
+articl, 665, 0.167616730098
+problem, 6887, 0.163619163981
+thing, 8869, 0.142078910583
+don, 2811, 0.117964483292

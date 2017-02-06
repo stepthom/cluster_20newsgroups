@@ -1,0 +1,113 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38884
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rmalayte@grumpy.helios.nd.edu (ryan malayter)
+Subject: GeoSphere Image
+Organization: University of Notre Dame, Notre Dame
+Lines: 29
+
+Article 31 of alt.graphics:
+Newsgroups: alt.graphics
+Path: news.nd.edu!moliere!rmalayte
+From: rmalayte@moliere.helios.nd.edu (ryan malayter)
+Subject: GeoSphere images via ftp?
+Message-ID: <1993Apr26.213648.26856@news.nd.edu>
+Sender: news@news.nd.edu (USENET News System)
+Organization: University of Notre Dame, Notre Dame
+Date: Mon, 26 Apr 1993 21:36:48 GMT
+
+Does anyone know if a digitized version of the GeoSphere image is
+available via ftp?  For those of you who don't know, it is a composite
+photograph of the entire earth, with cloudcover removed.  I just think
+it's really cool.  It was created with government funds and sattelites
+as a research project, so I would assume it's in the public domain.
+
+Thanks for any info,
+	Ryan
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||"College men get smashed and break something,           ||   --     ---   ||
+|| College women get smashed and get broken."             ||    |\     |    ||
+||       -Robin Wilson              ======================|| ------------\  ||
+||        President,                ||Ryan P. Malayter    ||  | |   \  |  | ||
+||        Chico State University    ||332 Stanford Hall   || ------------/  ||
+||==================================||Notre Dame, IN 46556||    |     \|    ||
+|| N.D. Dept. of Physics/Comp. Sci. ||>>>malayter@nd.edu<<||   ---     --   ||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ geospher imag    articl alt graphic newsgroup alt
+graphic path news edu molier rmalayt  geospher
+imag via ftp      anyon know digit version
+geospher imag avail via ftp don't know composit
+photograph entir earth cloudcov remov think it
+realli cool creat govern fund sattelit research
+project assum it public domain  thank info ryan
+colleg men get smash break someth colleg women get
+smash get broken robin wilson presid ryan malayt
+chico state univers stanford hall notr dame
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+geospher, 3849, 0.4780209261
+smash, 8058, 0.311009852371
+ryan, 7557, 0.220154461761
+colleg, 1900, 0.220154461761
+alt, 446, 0.214840940373
+imag, 4512, 0.2115462919
+ftp, 3709, 0.170070253276
+cloudcov, 1836, 0.164034437523
+sattelit, 7637, 0.152262156475
+notr, 6124, 0.149453141582
+dame, 2345, 0.149453141582
+graphic, 3997, 0.138516522143
+broken, 1332, 0.128172737245
+wilson, 9768, 0.123864607569
+stanford, 8318, 0.122361370839
+robin, 7440, 0.122361370839
+composit, 1982, 0.119643225907
+photograph, 6604, 0.119015228127
+cool, 2124, 0.116129015484
+women, 9819, 0.111327283545
+domain, 2805, 0.11048571679
+path, 6461, 0.108145933917
+hall, 4128, 0.102094149313
+digit, 2642, 0.101279736768
+men, 5629, 0.101015124935
+presid, 6839, 0.100753800291
+remov, 7272, 0.100495682165
+break, 1284, 0.0963209961117
+fund, 3723, 0.0954959349392
+newsgroup, 6032, 0.0930182082053
+entir, 3129, 0.0914592459764
+know, 5052, 0.0906239298712
+govern, 3966, 0.0877914847741
+info, 4636, 0.0828187245483
+version, 9479, 0.0818451458215
+assum, 710, 0.081634780435
+creat, 2217, 0.0813231249075
+research, 7307, 0.0809146389979
+public, 6973, 0.0808137449755
+project, 6909, 0.0780803551969
+state, 8342, 0.0745865519185
+edu, 3001, 0.0745865519185
+earth, 2956, 0.0732804271731
+avail, 811, 0.073070411818
+news, 6031, 0.0726565683729
+univers, 9282, 0.0699074009266
+articl, 665, 0.067799155185
+realli, 7150, 0.0624222446959
+someth, 8126, 0.061924319359
+thank, 8832, 0.0589112644246
+anyon, 554, 0.0565285101471
+think, 8871, 0.0481795695607
+don, 2811, 0.0477153581527

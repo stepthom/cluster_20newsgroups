@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38925
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: alford@novavax.UUCP (Steven Alford)
+Subject: .gif to .wpg or .tiff converter
+Keywords: GIF, CONVERT
+Organization: Nova University, Fort Lauderdale, FL
+Lines: 16
+
+I am looking for an available program that would convert gif
+files to other formats usable on DOS-based software such
+as WordPerfect Presentations (which will handle .wpg and .tiff,
+among others).  
+
+Any suggestions would be appreciated.  Thank you very much for
+your time and help.
+
+Steve
+alford@novavax.nova.edu
+  
+-- 
+Steve Alford, Nova University 
+3301 College Avenue, Ft. Lauderdale, Fl. 33314	
+UUCP:	...{gatech!uflorida,ucf-cs}!novavax!alford
+Internet: alford@novavax.nova.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gif wpg tiff convert     look avail program
+convert gif file format usabl dos base softwar
+wordperfect present handl wpg tiff among other
+suggest appreci thank much time help  steve
+steve alford nova univers colleg avenu lauderdal
+uucp gatech uflorida ucf novavax alford
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alford, 401, 0.498013216951
+tiff, 8926, 0.305783019203
+steve, 8390, 0.274500364187
+gif, 3869, 0.259997504141
+convert, 2115, 0.247559014783
+wordperfect, 9831, 0.227659558702
+usabl, 9358, 0.222912136615
+nova, 6126, 0.218799732547
+avenu, 815, 0.190580467709
+gatech, 3789, 0.17809324409
+colleg, 1900, 0.161153311474
+uucp, 9388, 0.148273760476
+dos, 2825, 0.145303046375
+handl, 4149, 0.142271359609
+present, 6837, 0.123256028224
+format, 3612, 0.123256028224
+appreci, 587, 0.11905723621
+suggest, 8525, 0.117439823454
+avail, 811, 0.106975245844
+file, 3477, 0.106570012592
+softwar, 8103, 0.102786453272
+univers, 9282, 0.102344590846
+base, 923, 0.0963806008487
+program, 6905, 0.0955954595755
+help, 4249, 0.0904777651269
+thank, 8832, 0.086246222486
+look, 5341, 0.0768577299701
+time, 8936, 0.0731749838117

@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38613
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lusardi@cs.buffalo.edu (Christopher Lusardi)
+Subject: Looking for Mr. radon
+Organization: State University of New York at Buffalo/Comp Sci
+Lines: 9
+Nntp-Posting-Host: homam.cs.buffalo.edu
+
+Does anyone have a radon transform in C that they could 
+send me?
+
+				Any help accepted,
+-- 
+|  .-,                ###|For a lot of .au music: ftp sounds.sdsu.edu
+| /   /   __  ,  _    ###|then cat file.au > /dev/audio
+| \_>/ >_/ (_/\_/<>_     |UB library catalog:telnet bison.acsu.buffalo.edu
+|_                14261 _|(When in doubt ask: xarchie, xgopher, or xwais.)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look radon     anyon radon transform could send
+help accept  lot music ftp sound sdsu edu cat file
+dev audio librari catalog telnet bison acsu
+buffalo edu doubt ask xarchi xgopher xwai
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+acsu, 248, 0.280333071759
+xgopher, 9897, 0.270358628524
+sdsu, 7738, 0.270358628524
+bison, 1121, 0.270358628524
+xarchi, 9888, 0.262621849285
+dev, 2587, 0.246325997131
+edu, 3001, 0.245864443924
+buffalo, 1370, 0.238589217892
+audio, 778, 0.229492587572
+telnet, 8768, 0.224531029733
+catalog, 1552, 0.211252014997
+music, 5933, 0.20049839834
+cat, 1551, 0.20049839834
+transform, 9053, 0.189667818814
+doubt, 2830, 0.155136199263
+librari, 5250, 0.153908752211
+accept, 208, 0.142458692319
+ftp, 3709, 0.140153376092
+sound, 8150, 0.1361372834
+send, 7785, 0.133195770275
+ask, 689, 0.120090624962
+file, 3477, 0.119977133017
+lot, 5356, 0.1081817972
+help, 4249, 0.101860388281
+anyon, 554, 0.0931692802233
+look, 5341, 0.0865268743783

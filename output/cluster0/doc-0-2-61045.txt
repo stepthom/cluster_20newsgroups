@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61045
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: gene@theporch.raider.net (Gene Wright)
+Subject: Re: Why not give $1 billion to first year-long moon residents?
+Organization: The MacInteresteds of Nashville, Tn.
+Lines: 8
+
+You forget that Apollo was a Government program and had to start 
+relatively from scratch. Some people at NASA think that this could work. 
+One of them replied to me personally after I posted this original message 
+several days ago. I have heard Jerry Pournelle suggest this idea before.
+
+--
+  gene@theporch.raider.net (Gene Wright)
+theporch.raider.net  615/297-7951 The MacInteresteds of Nashville
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year long moon resid    forget
+apollo govern program start relat scratch peopl
+nasa think could work one repli person post origin
+messag sever day ago heard jerri pournell suggest
+idea    theporch raider net macinterest nashvill
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+theporch, 8850, 0.277385740565
+nashvill, 5958, 0.277385740565
+macinterest, 5417, 0.277385740565
+raider, 7071, 0.272268377889
+scratch, 7717, 0.263716782207
+jerri, 4854, 0.241190861666
+resid, 7311, 0.219141012999
+apollo, 570, 0.203602254887
+billion, 1092, 0.182614902195
+forget, 3604, 0.174715237301
+repli, 7290, 0.166314224495
+govern, 3966, 0.159935381076
+messag, 5650, 0.158432314197
+moon, 5851, 0.155592252672
+net, 6010, 0.154247437743
+ago, 336, 0.149295618707
+relat, 7247, 0.146497055067
+suggest, 8525, 0.146138890844
+heard, 4224, 0.145607843645
+nasa, 5956, 0.144226674602
+sever, 7823, 0.141447222441
+origin, 6293, 0.136290452777
+idea, 4482, 0.131018317787
+person, 6562, 0.127683755298
+start, 8334, 0.12130711443
+long, 5336, 0.120751694666
+program, 6905, 0.118956364385
+day, 2402, 0.113642191214
+post, 6766, 0.111925378861
+work, 9833, 0.108572571528
+peopl, 6530, 0.10397708034
+year, 9943, 0.0963136934332
+think, 8871, 0.087771813378

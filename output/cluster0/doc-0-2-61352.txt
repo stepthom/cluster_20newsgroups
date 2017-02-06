@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61352
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: STK1203@VAX003.STOCKTON.EDU
+Subject: Internet resources
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 4
+
+exit
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ internet resourc ad forward space digest
+exit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+exit, 3284, 0.497839060278
+digest, 2640, 0.402197428177
+internet, 4717, 0.383136701502
+resourc, 7320, 0.379243827983
+forward, 3621, 0.362203160596
+ad, 257, 0.342578625752
+space, 8164, 0.226324195262

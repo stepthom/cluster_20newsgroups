@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61462
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Rocket Types
+Organization: U of Toronto Zoology
+Lines: 14
+
+In article <1rpv9o$k00@wraith.cs.uow.edu.au> u9152083@wraith.cs.uow.edu.au (Glen Justin Balmer) writes:
+>It said that in the 60's they developed a rocket that used ions or nuclear
+>particles for propolsion.
+>The government however, didn't give them $1billion for the developement...
+
+I'd guess this was a garbled report of the NERVA effort to develop a
+solid-core fission rocket (the most mundane type of nuclear rocket).
+That was the only advanced-propulsion project that was done on a large
+enough scale to be likely to attract news attention.  It *could* be any
+number of things -- the description given is awfully vague -- but I'd
+put a small bet on NERVA.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rocket type     said develop rocket use ion
+nuclear particl propols govern howev didn't give
+1billion develop  i'd guess garbl report nerva
+effort develop solid core fission rocket mundan
+type nuclear rocket advanc propuls project done
+larg enough scale like attract news attent could
+number thing descript given aw vagu i'd put small
+bet nerva  svr4 resembl high speed collis henri
+spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rocket, 7447, 0.450585722266
+develop, 2588, 0.27059011777
+nuclear, 6150, 0.264963233248
+type, 9177, 0.189183125243
+propols, 6930, 0.188843570823
+garbl, 3771, 0.188843570823
+mundan, 5924, 0.179024026814
+fission, 3508, 0.179024026814
+1billion, 52, 0.179024026814
+ion, 4752, 0.16434464484
+vagu, 9406, 0.152417861444
+particl, 6441, 0.141717566722
+attract, 772, 0.139252595937
+svr4, 8616, 0.134967692401
+collis, 1903, 0.133692767759
+resembl, 7308, 0.129174033678
+aw, 829, 0.127675536674
+core, 2140, 0.126264381691
+attent, 766, 0.124930945362
+zoolog, 9993, 0.121697085382
+solid, 8115, 0.118510572387
+bet, 1054, 0.11818107104
+propuls, 6936, 0.117535220089
+spencer, 8221, 0.116906146398
+descript, 2557, 0.113984780759
+effort, 3007, 0.113172929028
+scale, 7659, 0.112908249067
+henri, 4258, 0.110173060968
+toronto, 9003, 0.101069371304
+govern, 3966, 0.101069371304
+speed, 8217, 0.0984693653491
+report, 7291, 0.0963863076674
+small, 8054, 0.0943456927393
+guess, 4079, 0.0938613170852
+advanc, 285, 0.0915749056701
+project, 6909, 0.089889497042
+larg, 5124, 0.0896868349774
+given, 3887, 0.0869242310391
+news, 6031, 0.0836453980181
+howev, 4406, 0.0834886468211
+high, 4292, 0.0819012535197
+didn, 2625, 0.0808979986624
+said, 7583, 0.0806188258258
+number, 6156, 0.0787498455874
+thing, 8869, 0.0661612507508
+use, 9363, 0.0534864107143
+like, 5272, 0.0509937113687

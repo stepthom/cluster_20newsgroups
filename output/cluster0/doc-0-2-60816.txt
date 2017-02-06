@@ -1,0 +1,247 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60816
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: MUNIZB%RWTMS2.decnet@rockwell.com ("RWTMS2::MUNIZB")
+Subject: Space Event near Los Angeles, CA
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 55
+
+Apologies if this gets posted twice, but I don't think the first one
+made it.
+--------------------------------------------------------------------
+   FOR IMMEDIATE RELEASE           Contact:  OASIS (310) 364-2290
+
+   15 April 1993                                Los Angeles, CA
+
+     LOCAL NATIONAL SPACE SOCIETY CHAPTERS SPONSOR TALK BY L.A.
+  ADVOCATE OF LUNAR POWER SYSTEM AS ENERGY SOURCE FOR THE WORLD
+
+   On April 21, the OASIS and Ventura County chapters of the National 
+Space Society will sponsor a talk by Lunar Power System (LPS) co-
+inventor and vice-president of the LPS Coalition, Dr. Robert D.
+Waldron.  It will be held at 7:30 p.m. at the Rockwell Science
+Center in Thousand Oaks, CA.
+
+   Dr. Waldron is currently a Technical Specialist in Space
+Materials Processing with the Space Systems Division of Rockwell
+International in Downey, California.  He is a recognized world
+authority on lunar materials refinement.  He has written or
+coauthored more than 15 articles or reports on nonterrestrial
+materials processing or utilization.  Along with Dr. David
+Criswell, Waldron invented the lunar/solar power system concept.
+
+   Momentum is building for a coalition of entrepreneurs, legal
+experts, and Soviet and U.S. scientists and engineers to build
+the Lunar Power System, a pollution-free, energy source with a
+potential to power the globe.
+
+   For the past three years members of the coalition, nearly half
+from California, have rejuvenated the commercial and scientific
+concept of a solar power system based on the Moon.
+
+   The LPS concept entails collecting solar energy on the lunar
+surface and beaming the power to Earth as microwaves transmitted
+through orbiting antennae.  A mature LPS offers an enormous
+source of clean, sustainable power to meet the Earth's ever
+increasing demand using proven, basic technology.
+
+   OASIS (Organization for the Advancement of Space
+Industrialization) is the Greater Los Angeles chapter of the
+National Space Society, which is an international non-profit
+organization that promotes development of the space frontier.
+The Ventura County chapter is based in Oxnard, CA.
+
+       WHERE:  Rockwell Science Center Auditorium, 1049 Camino
+               Dos Rios, Thousand Oaks, CA.
+
+   DIRECTIONS: Ventura Freeway 101 to Thousand Oaks, exit onto
+               Lynn Road heading North (right turn from 101
+               North, Left turn from 101 South), after about 1/2
+               mile turn Left on Camino Dos Rios, after about 1/2
+               mile make First Right into Rockwell after Camino
+               Colindo, Parking at Top of Hill to the Left
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space event near los angel ad forward space
+digest      apolog get post twice don't think
+first one made  immedi releas contact oasi  april
+los angel  local nation space societi chapter
+sponsor talk advoc lunar power system energi sourc
+world  april oasi ventura counti chapter nation
+space societi sponsor talk lunar power system lps
+inventor vice presid lps coalit robert waldron
+held rockwel scienc center thousand oak  waldron
+current technic specialist space materi process
+space system divis rockwel intern downey
+california recogn world author lunar materi refin
+written coauthor articl report nonterrestri materi
+process util along david criswel waldron invent
+lunar solar power system concept  momentum build
+coalit entrepreneur legal expert soviet scientist
+engin build lunar power system pollut free energi
+sourc potenti power globe  past three year member
+coalit near half california rejuven commerci
+scientif concept solar power system base moon  lps
+concept entail collect solar energi lunar surfac
+beam power earth microwav transmit orbit antenna
+matur lps offer enorm sourc clean sustain power
+meet earth ever increas demand use proven basic
+technolog  oasi organ advanc space industri
+greater los angel chapter nation space societi
+intern non profit organ promot develop space
+frontier ventura counti chapter base oxnard
+rockwel scienc center auditorium camino dos rio
+thousand oak  direct ventura freeway thousand oak
+exit onto lynn road head north right turn north
+left turn south mile turn left camino dos rio mile
+make first right rockwel camino colindo park top
+hill left
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lps, 5374, 0.276265158515
+power, 6783, 0.253646432211
+lunar, 5392, 0.246113052136
+rockwel, 7452, 0.228897370764
+space, 8164, 0.218073620654
+waldron, 9615, 0.207198868886
+coalit, 1858, 0.194108207695
+camino, 1475, 0.194108207695
+oasi, 6168, 0.182063670414
+chapter, 1658, 0.180825050089
+ventura, 9462, 0.169621815451
+oak, 6166, 0.147351436894
+los, 5349, 0.143519465325
+rio, 7407, 0.138132579258
+angel, 509, 0.127986339985
+thousand, 8888, 0.126114963029
+energi, 3102, 0.124710421007
+societi, 8093, 0.12150293058
+counti, 2184, 0.119363537426
+concept, 2002, 0.118384266853
+solar, 8107, 0.113756536714
+materi, 5543, 0.112880332486
+turn, 9158, 0.10199207301
+left, 5193, 0.10199207301
+nation, 5962, 0.100889688973
+sponsor, 8254, 0.0987944830267
+sourc, 8153, 0.0945846178946
+mile, 5713, 0.0881312322535
+north, 6110, 0.0850673147761
+california, 1459, 0.0850673147761
+dos, 2825, 0.0806046260884
+intern, 4716, 0.0759869001099
+organ, 6287, 0.0715276568831
+april, 595, 0.0709600193493
+near, 5982, 0.0691600067823
+process, 6890, 0.0690598052157
+center, 1606, 0.0689601879182
+build, 1378, 0.0689601879182
+entrepreneur, 3134, 0.0666088636069
+criswel, 2234, 0.0666088636069
+lynn, 5406, 0.0647027358982
+downey, 2841, 0.0647027358982
+auditorium, 780, 0.0647027358982
+scienc, 7692, 0.0638478271069
+entail, 3124, 0.0618285365334
+momentum, 5829, 0.0596817687128
+earth, 2956, 0.0595134296472
+refin, 7215, 0.0587817624293
+specialist, 8200, 0.0579676077133
+talk, 8684, 0.0577763849851
+inventor, 4742, 0.057224342691
+world, 9841, 0.0572178582779
+vice, 9500, 0.0565406051504
+matur, 5555, 0.0565406051504
+frontier, 3699, 0.0565406051504
+globe, 3905, 0.0547669166691
+invent, 4741, 0.0537607952439
+base, 923, 0.0534656532496
+exit, 3284, 0.0532989444398
+microwav, 5696, 0.0528607889604
+sustain, 8608, 0.0524440156175
+beam, 969, 0.0520466342444
+right, 7399, 0.0519691001374
+enorm, 3117, 0.0509546612517
+advoc, 296, 0.0506196316815
+transmit, 9059, 0.0502972477968
+soviet, 8161, 0.0491171456312
+hill, 4300, 0.0488459432002
+proven, 6948, 0.0485830867973
+antenna, 538, 0.0485830867973
+twice, 9170, 0.0480804618869
+promot, 6914, 0.047839821775
+pollut, 6726, 0.0473779709709
+expert, 3298, 0.0471560842344
+recogn, 7173, 0.0465230421486
+south, 8154, 0.0459336940663
+apolog, 571, 0.0455622373233
+profit, 6903, 0.0453823957532
+demand, 2514, 0.0450336877828
+clean, 1799, 0.0442195330668
+greater, 4017, 0.0440656161267
+held, 4243, 0.0437658604913
+scientist, 7694, 0.0431961721623
+digest, 2640, 0.0430594947015
+legal, 5200, 0.0427925305038
+meet, 5615, 0.0420383210097
+industri, 4608, 0.0412351107655
+collect, 1898, 0.0412351107655
+presid, 6839, 0.0409127268808
+potenti, 6774, 0.0409127268808
+immedi, 4527, 0.0409127268808
+scientif, 7693, 0.040401067428
+util, 9384, 0.0401081647083
+road, 7431, 0.0398249732802
+divis, 2767, 0.0395508697933
+park, 6430, 0.0393729017091
+forward, 3621, 0.0387776847436
+event, 3232, 0.0387776847436
+half, 4124, 0.0386959409709
+contact, 2078, 0.0386959409709
+increas, 4590, 0.0385347633768
+robert, 7437, 0.038455300859
+technic, 8737, 0.0379188455715
+member, 5625, 0.0378448870224
+offer, 6203, 0.0374844048819
+surfac, 8587, 0.0373443663512
+releas, 7253, 0.0373443663512
+written, 9867, 0.0372751986934
+ad, 257, 0.0366766704285
+local, 5322, 0.0363614258331
+past, 6456, 0.0361173475408
+commerci, 1940, 0.0361173475408
+head, 4215, 0.0360574023189
+basic, 937, 0.0351514245853
+author, 796, 0.0350446462067
+free, 3668, 0.0347833977396
+moon, 5851, 0.0346810952108
+david, 2397, 0.0344800939591
+report, 7291, 0.0339973576702
+technolog, 8743, 0.033950551202
+non, 6097, 0.0338577007328
+engin, 3109, 0.0333208439431
+direct, 2667, 0.0327343870976
+advanc, 285, 0.0323002809945
+develop, 2588, 0.0318141626768
+current, 2299, 0.030950583566
+orbit, 6280, 0.0309177921282
+articl, 665, 0.0275309547713
+post, 6766, 0.0249478663244
+year, 9943, 0.0214680635745
+make, 5459, 0.0214248667236
+think, 8871, 0.0195641014531
+don, 2811, 0.0193756008259
+use, 9363, 0.0188657152614

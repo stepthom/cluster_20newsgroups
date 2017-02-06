@@ -1,0 +1,98 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61015
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: clj@ksr.com (Chris Jones)
+Subject: Re: Proton/Centaur?
+Reply-To: clj@ksr.com (Chris Jones)
+Organization: Kendall Square Research Corp
+Lines: 20
+In-reply-to: prb@access.digex.com (Pat)
+
+In article <1r2aii$ivs@access.digex.net>, prb@access (Pat) writes:
+>In article <1993Apr20.211638.168730@zeus.calpoly.edu> jgreen@trumpet.calpoly.edu (James Thomas Green) writes:
+>>Has anyone looked into the possiblity of a Proton/Centaur combo?
+>
+>I don't know a whole lot on Proton, but given that it is a multi stage
+>rocket,  up to 4 stages, it may not really need the Centaur,  plus
+>it may end up seriously beating on said centaur.   
+
+The Proton has been used in 2, 3, and 4 stage versions.  The two stage version
+was used for the first 3 launches, while the 3 and 4 stage versions are used
+today.  The four stage version is used mostly for escape (and geosynchronous?)
+orbits, while the 3 stage version is used for low earth orbits.  Since this is
+the version that launched Mir and the Salyuts (and the add-on modules for Mir),
+as long as Centaur is smaller than Mir (which I believe it is), it should fit
+under the shroud.
+
+I vaguely recall that the Russians are developing a LH2/LOX upper stage for the
+Proton.
+--
+Chris Jones    clj@ksr.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ proton centaur        anyon look possibl proton
+centaur combo  don't know whole lot proton given
+multi stage rocket stage realli need centaur plus
+end serious beat said centaur  proton use stage
+version two stage version use first launch stage
+version use today four stage version use most
+escap geosynchron orbit stage version use low
+earth orbit sinc version launch mir salyut add
+modul mir long centaur smaller mir believ fit
+shroud  vagu recal russian develop lh2 lox upper
+stage proton
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stage, 8302, 0.544371328605
+centaur, 1604, 0.425919855455
+proton, 6944, 0.418460380067
+version, 9479, 0.31311718254
+mir, 5749, 0.257991429346
+use, 9363, 0.14811840012
+launch, 5147, 0.10547312134
+shroud, 7922, 0.0991532319351
+geosynchron, 3851, 0.0991532319351
+orbit, 6280, 0.0970966399487
+salyut, 7598, 0.0970855733399
+combo, 1922, 0.0898558890545
+lox, 5373, 0.0868628131734
+vagu, 9406, 0.0844172921129
+escap, 3185, 0.0775654702928
+upper, 9340, 0.0758866282103
+multi, 5917, 0.0724283069461
+modul, 5815, 0.0715435975229
+smaller, 8055, 0.0704480312688
+russian, 7551, 0.0684935651636
+recal, 7166, 0.0658226063517
+beat, 974, 0.0658226063517
+plus, 6700, 0.064409381473
+rocket, 7447, 0.0623897130201
+fit, 3510, 0.0605087845469
+add, 260, 0.0575911347154
+low, 5368, 0.0552807606972
+today, 8964, 0.0512742672166
+develop, 2588, 0.0499558358806
+given, 3887, 0.0481433615051
+earth, 2956, 0.046725151222
+end, 3091, 0.0462405483193
+said, 7583, 0.0446510855426
+possibl, 6765, 0.043976535177
+long, 5336, 0.0422633387157
+lot, 5356, 0.0418515661294
+believ, 1009, 0.0414218148936
+sinc, 7977, 0.0408887687066
+realli, 7150, 0.0398017442795
+need, 5993, 0.0360640207896
+anyon, 554, 0.0360437744002
+look, 5341, 0.0334740714125
+don, 2811, 0.0304243221731
+know, 5052, 0.0288918677941

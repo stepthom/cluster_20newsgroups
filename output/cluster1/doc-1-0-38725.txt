@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38725
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: kohut1@urz.unibas.ch
+Subject: Help ! Miro Crystal or ATI GUP ?
+Organization: University of Basel, Switzerland
+Lines: 21
+
+
+
+I'm planning to buy a new VLB/EISA system with a good graphic performance.
+So far I looked at the ATI GUP VLB as my favorite graphics-card. But 
+recently I heard something about a new card from  Miro. It was the Miro
+Crystal 24s with 3 MB and True Color support up to 1024x768. It costs just a
+little more than the ATI. So, can't decide which one matches better my needs.
+Any technical references and performance comparisons (especially from the
+Miro card) would be greatly appreciated.
+
+-Peter-
+
+E-Mail : kohut1@urz.unibas.ch
+
+                     ******************************
+                    **** Universitas Basiliensis *****
+                    ****      Switzerland        *****
+                     ********************************
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help miro crystal ati gup      i'm plan buy new
+vlb eisa system good graphic perform far look ati
+gup vlb favorit graphic card recent heard someth
+new card miro miro crystal 24s true color support
+1024x768 cost littl ati can't decid one match
+better need technic refer perform comparison
+especi miro card great appreci  peter
+universita basiliensi switzerland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ati, 746, 0.468058155345
+vlb, 9558, 0.366633445298
+gup, 4098, 0.366633445298
+card, 1513, 0.292043211968
+crystal, 2267, 0.274270140603
+perform, 6539, 0.184102106718
+eisa, 3020, 0.161078656236
+1024x768, 9, 0.156019385115
+switzerland, 8639, 0.150070873771
+graphic, 3997, 0.149291309751
+new, 6023, 0.132089779652
+match, 5541, 0.126355922239
+comparison, 1962, 0.122427381127
+favorit, 3411, 0.119529050967
+peter, 6575, 0.111900310367
+buy, 1433, 0.10292427923
+technic, 8737, 0.100644736153
+decid, 2442, 0.0982165301799
+especi, 3190, 0.0938770883871
+plan, 6660, 0.0925974103835
+color, 1907, 0.0911255077325
+recent, 7168, 0.0901120331196
+appreci, 587, 0.0876490085274
+heard, 4224, 0.0861441052154
+cost, 2169, 0.0861441052154
+refer, 7213, 0.0835894982203
+true, 9121, 0.0808777758579
+support, 8576, 0.0780885367798
+littl, 5308, 0.0762009652518
+far, 3386, 0.075736208025
+great, 4016, 0.0754099762186
+better, 1060, 0.0678275537538
+someth, 8126, 0.0667412276856
+help, 4249, 0.0666090248657
+need, 5993, 0.0609599175286
+good, 3948, 0.0582818462415
+look, 5341, 0.0565820612337

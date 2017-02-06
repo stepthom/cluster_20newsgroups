@@ -1,0 +1,131 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60153
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Space Research Spin Off
+Organization: Express Access Online Communications USA
+Lines: 30
+NNTP-Posting-Host: access.digex.net
+
+In article <C50zxA.1K9@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>In article <1ppm7j$ip@access.digex.net> prb@access.digex.com (Pat) writes:
+|>I thought the area rule was pioneered by Boeing.
+|>NASA guys developed the rule,  but no-one knew if it worked
+|>until Boeing built the hardware 727 and maybe the FB-111?????
+|
+|Nope.  The decisive triumph of the area rule was when Convair's YF-102 --
+|contractually commmitted to being a Mach 1.5 fighter and actually found
+|to be incapable of going supersonic in level flight -- was turned into
+|the area-ruled YF-102A which met the specs.  This was well before either
+|the 727 or the FB-111; the 102 flew in late 1953, and Convair spent most
+|of the first half of 1954 figuring out what went wrong and most of the
+|second half building the first 102A.
+|-- 
+|All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+|                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+
+
+Good thing i stuck in a couple of question marks up there.
+
+I seem to recall, somebody built  or at least proposed a wasp waisetd
+Passenger civil transport.  I thought it was a 727,  but maybe it
+was a DC- 8,9???   Sure it had a funny passenger compartment,
+but on the other hand  it seemed to save fuel.
+
+I thought Area rules  applied even before transonic speeds,  just
+not as badly.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space research spin       thought area rule
+pioneer boe nasa guy develop rule one knew work
+boe built hardwar mayb  nope decis triumph area
+rule convair contractu commmit mach fighter actual
+found incap go superson level flight turn area
+rule 102a met spec well either flew late convair
+spent first half figur went wrong second half
+build first 102a  work one man work henri spencer
+toronto zoolog     good thing stuck coupl question
+mark  seem recal somebodi built least propos wasp
+waisetd passeng civil transport thought mayb sure
+funni passeng compart hand seem save fuel  thought
+area rule appli even transon speed bad  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rule, 7537, 0.395092298977
+area, 622, 0.307942850996
+passeng, 6451, 0.256977174061
+boe, 1196, 0.245232106706
+thought, 8887, 0.198253714223
+half, 4124, 0.171543624976
+built, 1381, 0.165861068279
+work, 9833, 0.160925693623
+wasp, 9653, 0.147642435253
+triumph, 9108, 0.137046561187
+incap, 4570, 0.137046561187
+contractu, 2097, 0.134518251853
+mayb, 5564, 0.132553596763
+superson, 8567, 0.12848858703
+mach, 5414, 0.126841096712
+fighter, 3475, 0.126841096712
+flew, 3539, 0.118140222297
+nope, 6105, 0.113716913312
+stuck, 8466, 0.112943981736
+pioneer, 6635, 0.110798194388
+funni, 3731, 0.108269885054
+spec, 8196, 0.106573151029
+spin, 8235, 0.10552098067
+civil, 1778, 0.105016038898
+transport, 9065, 0.101814714812
+decis, 2445, 0.0963676865537
+zoolog, 9993, 0.0951457016543
+knew, 5045, 0.0945630650899
+spent, 8223, 0.0937214067802
+recal, 7166, 0.0929155747712
+fuel, 3715, 0.0921426431949
+spencer, 8221, 0.0914000305913
+somebodi, 8121, 0.0904531235708
+late, 5139, 0.0868859099486
+henri, 4258, 0.0861359428316
+went, 9704, 0.0845498275886
+hardwar, 4173, 0.0845498275886
+met, 5655, 0.0842147003567
+pat, 6458, 0.0840493351632
+appli, 584, 0.0838854017209
+flight, 3544, 0.0823197007055
+figur, 3476, 0.0804605138025
+propos, 6933, 0.0795302259302
+toronto, 9003, 0.0790184597954
+coupl, 2187, 0.0787676720985
+level, 5229, 0.0776785044563
+mark, 5512, 0.0770994319756
+speed, 8217, 0.0769857127491
+build, 1378, 0.0764271414372
+save, 7646, 0.0762082465795
+turn, 9158, 0.0753571282674
+research, 7307, 0.0728288189335
+nasa, 5956, 0.0712573391315
+guy, 4100, 0.0710905169571
+develop, 2588, 0.0705179490951
+bad, 861, 0.0697289101642
+wrong, 9869, 0.069498470878
+hand, 4145, 0.0686767398049
+second, 7753, 0.0658942763958
+man, 5471, 0.0653959793665
+sure, 8585, 0.0609752319987
+actual, 254, 0.0608781333536
+question, 7032, 0.0573133655989
+space, 8164, 0.0537081014185
+thing, 8869, 0.0517264534748
+good, 3948, 0.0486717002388

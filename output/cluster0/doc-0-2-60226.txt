@@ -1,0 +1,201 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60226
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Alaska Pipeline and Space Station!
+Organization: Texas Instruments Inc
+Lines: 45
+
+In <1pq7rj$q2u@access.digex.net> prb@access.digex.com (Pat) writes:
+
+>In article <1993Apr5.160550.7592@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+>|
+>|I think this would be a great way to build it, but unfortunately
+>|current spending rules don't permit it to be workable.  For this to
+>|work it would be necessary for the government to guarantee a certain
+>|minimum amount of business in order to sufficiently reduce the risk
+>|enough to make this attractive to a private firm.  Since they
+>|generally can't allocate money except one year at a time, the
+>|government can't provide such a tenant guarantee.
+
+
+>Fred.
+
+>	Try reading a bit.  THe government does lots of multi year
+>contracts with Penalty for cancellation clauses.  They just like to be
+>damn sure they know what they are doing before they sign a multi year
+>contract.   THe reason they aren't cutting defense spending as much
+>as they would like is the Reagan administration signed enough
+>Multi year contracts,  that it's now cheaper to just finish them out.
+
+I don't have to "try reading a bit", Pat.  I *work* as a government
+contractor and know what the rules are like.  Yes, they sign some
+(damned few -- which is why everyone is always having to go to
+Washington to see about next week's funding) multi-year contracts;
+they also aren't willing to include sufficient cancellation penalties
+when they *do* decide to cut the multi-year contract and not pay on it
+(which can happen arbitrarily at any time, no matter what previous
+plans were) to make the risk acceptable of something like putting up a
+private space station with the government as the expected prime
+occupant.
+
+I'd like a source for that statement about "the reason they aren't
+cutting defense spending as much as they would like"; I just don't buy
+it. The other thing I find a bit 'funny' about your posting, Pat, is
+that several other people answered the question pretty much the same
+way I did; mine is the one you comment (and incorrectly, I think) on.
+I think that says a lot.  You and Tommy should move in together.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ alaska pipelin space station        think great
+way build unfortun current spend rule don't permit
+workabl work necessari govern guarante certain
+minimum amount busi order suffici reduc risk
+enough make attract privat firm sinc general can't
+alloc money except one year time govern can't
+provid tenant guarante   fred  tri read bit govern
+lot multi year contract penalti cancel claus like
+damn sure know sign multi year contract reason
+aren't cut defens spend much like reagan administr
+sign enough multi year contract it cheaper finish
+don't tri read bit pat work govern contractor know
+rule like yes sign damn everyon alway washington
+see next week fund multi year contract also aren't
+will includ suffici cancel penalti decid cut multi
+year contract pay happen arbitrarili time matter
+previous plan make risk accept someth like put
+privat space station govern expect prime occup
+i'd like sourc statement reason aren't cut defens
+spend much like don't buy thing find bit funni
+post pat sever peopl answer question pretti much
+way mine one comment incorrect think think say lot
+tommi move togeth   insist perfect safeti peopl
+don't ball live real world mari shafer nasa ame
+dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+multi, 5917, 0.33358668206
+contract, 2095, 0.322089657739
+govern, 3966, 0.257819337292
+year, 9943, 0.186311739999
+penalti, 6514, 0.182670003215
+spend, 8222, 0.173626269801
+sign, 7946, 0.168625243433
+cut, 2313, 0.162962818101
+aren, 623, 0.16174740454
+like, 5272, 0.156096724872
+cancel, 1487, 0.154185915033
+guarante, 4076, 0.140543640624
+risk, 7416, 0.137716424122
+suffici, 8523, 0.1351797173
+damn, 2346, 0.126185697878
+bit, 1122, 0.125019423699
+privat, 6879, 0.120256230083
+don, 2811, 0.112101459947
+pat, 6458, 0.109693577666
+defens, 2476, 0.106854748761
+station, 8346, 0.104308699332
+rule, 7537, 0.103127734917
+tenant, 8782, 0.0963447652904
+occup, 6190, 0.0963447652904
+reagan, 7143, 0.0913350016074
+pipelin, 6637, 0.0877805177074
+arbitrarili, 605, 0.0877805177074
+think, 8871, 0.0848940513565
+workabl, 9834, 0.0838458315779
+claus, 1795, 0.0827707540244
+contractor, 2096, 0.0800136821159
+reason, 7156, 0.0797067262287
+alloc, 431, 0.0792162701244
+incorrect, 4588, 0.0784672166976
+lot, 5356, 0.0771031419774
+alaska, 378, 0.0764591982158
+read, 7135, 0.0752226362572
+permit, 6552, 0.0742065064414
+firm, 3499, 0.0727512266585
+tri, 9087, 0.0715660216872
+shafer, 7839, 0.0714494345329
+attract, 772, 0.0710442966794
+funni, 3731, 0.0706520225414
+prime, 6865, 0.070271820312
+dryden, 2888, 0.070271820312
+space, 8164, 0.070094948197
+work, 9833, 0.0700085453292
+tommi, 8978, 0.0699029691146
+fred, 3666, 0.0691967427585
+administr, 273, 0.0672921190016
+peopl, 6530, 0.0670453323497
+minimum, 5740, 0.0659023863088
+mari, 5508, 0.0651378787243
+safeti, 7579, 0.0646532833783
+way, 9666, 0.0646414666462
+cheaper, 1678, 0.0644179315478
+reduc, 7204, 0.0641869790755
+insist, 4673, 0.0637376351015
+washington, 9651, 0.0622823553186
+ame, 465, 0.0620877749584
+make, 5459, 0.0619789512713
+necessari, 5990, 0.0608053035521
+finish, 3488, 0.0598029489721
+unfortun, 9264, 0.0587278714186
+time, 8936, 0.0587143127411
+previous, 6855, 0.057875423267
+togeth, 8969, 0.0572073904421
+busi, 1424, 0.0569499728497
+fund, 3723, 0.0560890357953
+buy, 1433, 0.0560890357953
+pay, 6474, 0.05597079951
+statement, 8343, 0.0557376681122
+perfect, 6538, 0.0540158473841
+decid, 2442, 0.0535235273754
+know, 5052, 0.0532274892087
+accept, 208, 0.0507664554669
+plan, 6660, 0.050461363484
+build, 1378, 0.0498728904802
+money, 5835, 0.0498012636274
+comment, 1936, 0.0495888412459
+everyon, 3241, 0.0492427234451
+ball, 877, 0.0483222002038
+matter, 5553, 0.0479477595028
+expect, 3290, 0.0478864412751
+general, 3818, 0.0477042915755
+alway, 457, 0.0466644223433
+nasa, 5956, 0.0464993116789
+provid, 6949, 0.045705317084
+sourc, 8153, 0.0456032041267
+sever, 7823, 0.0456032041267
+answer, 535, 0.0456032041267
+week, 9691, 0.0455019281701
+pretti, 6851, 0.045301833149
+live, 5310, 0.045301833149
+yes, 9951, 0.0450076383571
+current, 2299, 0.0447677163037
+certain, 1619, 0.0437203907859
+order, 6281, 0.0436768083861
+happen, 4159, 0.0435469760442
+includ, 4579, 0.0425150245293
+real, 7144, 0.0423576262541
+world, 9841, 0.0413806874017
+great, 4016, 0.0410949961185
+sure, 8585, 0.0397896743263
+sinc, 7977, 0.0376646901231
+question, 7032, 0.0374001061902
+someth, 8126, 0.0363709237188
+post, 6766, 0.0360852324355
+thing, 8869, 0.0337543404158
+say, 7653, 0.0313691909737

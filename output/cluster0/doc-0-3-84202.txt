@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84202
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: royc@rbdc.wsnc.org (Roy Crabtree)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Organization: Red Barn Data Center
+Lines: 11
+
+In article <keng.735334134@tunfaire> keng@den.mmc.com (Ken Garrido) writes:
+
+[lotsa stuff taken out]
+
+Bottom line: due process was not served.  No peaceful attempt to serve
+a warrant occurred.
+
+Think on that.
+
+royc
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen    articl keng  lotsa
+stuff taken  bottom line due process serv peac
+attempt serv warrant occur  think  royc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+serv, 7810, 0.435564991195
+lotsa, 5357, 0.338039828669
+keng, 4983, 0.338039828669
+royc, 7506, 0.311807755735
+warrant, 9645, 0.269934132087
+peac, 6495, 0.24098378916
+presid, 6839, 0.213748785012
+occur, 6192, 0.213748785012
+taken, 8678, 0.202167173836
+attempt, 763, 0.196207859956
+messag, 5650, 0.184498920418
+process, 6890, 0.180401681621
+stuff, 8472, 0.171021000155
+happen, 4159, 0.157292180083
+line, 5285, 0.147928452097
+articl, 665, 0.143835637006
+think, 8871, 0.102212764444
+know, 5052, 0.0961291526823

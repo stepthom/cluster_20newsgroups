@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38868
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: "Gaetan Lord, Ecole Polytechnique de Montreal" <DG03@music.mus.polymtl.ca>
+Subject: HPGL viewer and utilities
+Lines: 20
+Organization: Ecole Polytechnique de Montreal
+
+Hi
+
+I would like to know if there is any software, PD or not, who
+could produce X11 output of HPGL file on RS/6000. And same kind of
+software who could produce hardcopy on postscript and lasetjet.
+
+Thank You
+
++----------------------------------------------------------------------+
+|                                                                      |
+| Gaetan Lord                      | VOICE:    (514) 340-4352          |
+! analyste                         | FAX:      (514) 340-4189          |
+| Ecole Polytechnique de Montreal  |                                   |
+| P.O. Box 6079  Station A         |                                   |
+| Montreal, Quebec                 |                                   |
+| Canada                           | THERE'S NO FUTURE IN TIME TRAVEL. |
+| J0T-2C0                          | ********************************* |
+|                                                                      |
++----------------------------------------------------------------------+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hpgl viewer util      like know softwar could
+produc x11 output hpgl file kind softwar could
+produc hardcopi postscript lasetjet  thank
+gaetan lord voic analyst fax ecol polytechniqu
+montreal box station montreal quebec canada there
+futur time travel j0t 2c0
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hpgl, 4408, 0.46179402546
+montreal, 5848, 0.364028866789
+produc, 6895, 0.287974135884
+ecol, 2982, 0.235236788667
+softwar, 8103, 0.21693888501
+hardcopi, 4168, 0.212709475832
+analyst, 491, 0.204541746229
+x11, 9883, 0.190182162997
+postscript, 6772, 0.184842306846
+travel, 9069, 0.17266475381
+canada, 1481, 0.168836800144
+voic, 9567, 0.163826896497
+output, 6329, 0.163826896497
+lord, 5347, 0.162811187504
+viewer, 9512, 0.160870309837
+util, 9384, 0.1525980784
+station, 8346, 0.137186289774
+futur, 3737, 0.137186289774
+fax, 3413, 0.136511524169
+box, 1254, 0.132733075528
+kind, 5021, 0.115933651784
+file, 3477, 0.112462192104
+thank, 8832, 0.0910147142294
+time, 8936, 0.0772207761499
+know, 5052, 0.0700045327506
+like, 5272, 0.0684325489892

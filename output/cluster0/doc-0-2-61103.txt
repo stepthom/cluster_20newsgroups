@@ -1,0 +1,88 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61103
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Moonbase race
+Organization: U of Toronto Zoology
+Lines: 13
+
+In article <1r6rn3INNn96@mojo.eng.umd.edu> sysmgr@king.eng.umd.edu writes:
+>You'd need to launch HLVs to send up large amounts of stuff.  Do you know 
+>of a private Titan pad? 
+
+You'd need to launch HLVs to send up large amounts of stuff *if* you assume
+no new launcher development.  If you assume new launcher development, with
+lower costs as a specific objective, then you probably don't want to
+build something HLV-sized anyway.
+
+Nobody who is interested in launching things cheaply will buy Titans.  It
+doesn't take many Titan pricetags to pay for a laser launcher or a large
+gas gun or a development program for a Big Dumb Booster, all of which
+would have far better cost-effectiveness.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race     you'd need launch hlvs send larg
+amount stuff know privat titan pad  you'd need
+launch hlvs send larg amount stuff assum new
+launcher develop assum new launcher develop lower
+cost specif object probabl don't want build someth
+hlv size anyway  nobodi interest launch thing
+cheapli buy titan doesn't take mani titan pricetag
+pay laser launcher larg gas gun develop program
+big dumb booster far better cost effect
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+launcher, 5148, 0.367174498452
+titan, 8951, 0.357852168535
+hlvs, 4326, 0.316441834218
+launch, 5147, 0.252458548195
+develop, 2588, 0.239146763461
+larg, 5124, 0.237794896059
+assum, 710, 0.166121166001
+send, 7785, 0.164450415285
+stuff, 8472, 0.164042721221
+cost, 2169, 0.162645614132
+pricetag, 6858, 0.158220917109
+hlv, 4325, 0.158220917109
+cheapli, 1680, 0.140085542988
+laser, 5134, 0.130411354371
+moonbas, 5852, 0.127675237445
+new, 6023, 0.124697002067
+dumb, 2914, 0.122391499484
+booster, 1225, 0.121732869776
+pad, 6377, 0.121093903622
+gun, 4094, 0.117086869597
+need, 5993, 0.115096247144
+gas, 3780, 0.112839270038
+nobodi, 6088, 0.108235074124
+race, 7049, 0.105637493452
+privat, 6879, 0.104160785443
+lower, 5371, 0.102513528512
+size, 8000, 0.0993276699499
+buy, 1433, 0.0971638312488
+pay, 6474, 0.0969590088571
+build, 1378, 0.0863955146635
+effect, 3005, 0.0857821839707
+specif, 8203, 0.0849520165555
+object, 6173, 0.078823634736
+big, 1082, 0.0729077568935
+far, 3386, 0.0714974172376
+probabl, 6885, 0.0700000392355
+doesn, 2793, 0.0694292380326
+program, 6905, 0.0664378046402
+better, 1060, 0.0640313931395
+someth, 8126, 0.0630058663778
+mani, 5479, 0.060713235853
+thing, 8869, 0.0584731220563
+want, 9634, 0.0583049846904
+don, 2811, 0.0485487367654
+know, 5052, 0.0461033667806

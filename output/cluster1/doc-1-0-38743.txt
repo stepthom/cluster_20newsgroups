@@ -1,0 +1,204 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38743
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mor@expo.lcs.mit.edu (Ralph Mor)
+Subject: Re: Tom Gaskins Pexlib vs Phigs Programming Manuals (O'Reilly)
+Organization: X Consortium, MIT Laboratory for Computer Science
+Lines: 49
+
+merlin@neuro.usc.edu (merlin) writes:
+
+>Could someone explain the difference between Tom Gaskins' two books:
+
+>  o  PEXLIB Programming Manual
+>  o  PHIGS Programming Manual
+
+>Why would I want to buy one book vs the other book?  I have an 80386
+>running SCO UNIX (X11R4) on my desktop, a SUN IV/360 in my lab, and 
+>access to a variety of other systems (Alliant FX/2800, Cray Y/MP) on
+>the network.  Mostly, we would like to do 3D modeling/visualization
+>of rat, rabbit, monkey, and human brain structure.
+
+Rather than decide which book you want to buy, you need to decide which
+programming interface you want to use, then buy the appropriate book.
+
+I wrote an article for the X Resource which discusses the differences
+between PHIGS and PEXlib (it will appear in Issue 6 which should be out
+pretty soon).  But here's a brief summary...
+
+PHIGS is a graphics API which was designed to be portable to many
+devices.  Most implementations support the X Window System and take
+advantage of a 3D extension to X called "PEX".  PEXlib is a slightly
+"lower" level API which was designed to efficiently support the PEX
+extension to X.
+
+Some advantages of using PEXlib...
+- Integrates with Xlib,Xt,Motif,etc. better than PHIGS
+- Provides immediate mode capabilities
+- Is free of "policy"
+- PEX supports PHIGS, but is currently being extended to support
+  features not found in PHIGS (like texture mapping, anti-aliasing).
+  PEXlib will give you access to all of these features.
+
+Some advantages of using PHIGS...
+- Support for multiple devices, not just X based ones
+- Support for archiving, metafiles, hardcopy output
+- PHIGS has predefined input devices to make input easier
+- PHIGS can handle exposure events and resizing for you
+- PHIGS can help you with colormap selection/creation.
+
+If you're working strictly in X and don't care about things like
+archiving, I would go with PEXlib.  Either way, you will find that
+both API's have a lot in common.
+
+Ralph Mor
+MIT X Consortium
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tom gaskin pexlib phig program manual o'reilli
+could someon explain differ tom gaskin two book
+pexlib program manual phig program manual  want
+buy one book book run sco unix x11r4 desktop sun
+lab access varieti system alliant cray network
+most like model visual rat rabbit monkey human
+brain structur  rather decid book want buy need
+decid program interfac want use buy appropri book
+wrote articl resourc discuss differ phig pexlib
+appear issu pretti soon here brief summari  phig
+graphic api design portabl mani devic implement
+support window system take advantag extens call
+pex pexlib slight lower level api design effici
+support pex extens  advantag use pexlib integr
+xlib motif etc better phig provid immedi mode
+capabl free polici pex support phig current extend
+support featur found phig like textur map anti
+alias pexlib give access featur  advantag use phig
+support multipl devic base one support archiv
+metafil hardcopi output phig predefin input devic
+make input easier phig handl exposur event resiz
+phig help colormap select creation  you'r work
+strict don't care thing like archiv pexlib either
+way find api lot common  ralph mor mit consortium
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phig, 6587, 0.613040296792
+pexlib, 6580, 0.427984715107
+api, 564, 0.180381136911
+support, 8576, 0.177840535166
+pex, 6579, 0.17295385536
+book, 1218, 0.154124486989
+manual, 5492, 0.140610431231
+devic, 2591, 0.137706511483
+advantag, 286, 0.125987418314
+gaskin, 3783, 0.124579660355
+buy, 1433, 0.117200998089
+program, 6905, 0.106851516174
+input, 4662, 0.0914419743055
+extens, 3320, 0.0873167774724
+archiv, 618, 0.084703925516
+featur, 3422, 0.0806224992761
+tom, 8976, 0.0776445311908
+decid, 2442, 0.0745601553041
+access, 209, 0.0735166975469
+want, 9634, 0.0703286635721
+design, 2564, 0.066878759112
+rabbit, 7048, 0.0651854735224
+alliant, 430, 0.0651854735224
+sco, 7700, 0.0622898301776
+consortium, 2064, 0.0622898301776
+xlib, 9902, 0.0611406735867
+resiz, 7315, 0.0611406735867
+reilli, 7238, 0.0611406735867
+metafil, 5657, 0.0611406735867
+desktop, 2567, 0.0601270456371
+monkey, 5838, 0.0592203245387
+colormap, 1909, 0.0592203245387
+x11r4, 9884, 0.0576512851201
+use, 9363, 0.057019408789
+hardcopi, 4168, 0.056324681194
+cray, 2215, 0.055730936072
+like, 5272, 0.0543620563686
+ralph, 7082, 0.0541618966534
+rat, 7106, 0.0536966000482
+exposur, 3313, 0.0536966000482
+alias, 410, 0.0536966000482
+differ, 2633, 0.0529978725513
+portabl, 6749, 0.0516861361364
+strict, 8445, 0.0506725081868
+polici, 6721, 0.0503595322103
+motif, 5879, 0.0503595322103
+textur, 8825, 0.0492103756194
+mit, 5781, 0.0489455580834
+brief, 1308, 0.0475079088636
+effici, 3006, 0.0470775246424
+varieti, 9431, 0.0466676428511
+easier, 2960, 0.0466676428511
+appropri, 590, 0.0451992582741
+summari, 8536, 0.0450321483466
+interfac, 4709, 0.0447073592031
+integr, 4694, 0.0447073592031
+multipl, 5919, 0.0445494485184
+visual, 9547, 0.0439452783306
+brain, 1266, 0.0438006381047
+extend, 3319, 0.0435184524683
+creation, 2218, 0.0435184524683
+anti, 542, 0.0435184524683
+output, 6329, 0.043380755277
+slight, 8034, 0.0425978620827
+implement, 4544, 0.04154275988
+lower, 5371, 0.0412179707364
+immedi, 4527, 0.0412179707364
+soon, 8136, 0.041008060553
+resourc, 7320, 0.04090499476
+lab, 5085, 0.0406030026916
+select, 7774, 0.0402161559538
+network, 6018, 0.0398459530329
+handl, 4149, 0.0397558381691
+mode, 5806, 0.0394910206331
+unix, 9284, 0.0394045285397
+structur, 8460, 0.0392341092905
+event, 3232, 0.0390669993629
+map, 5498, 0.0385842995347
+capabl, 1498, 0.0385842995347
+common, 1948, 0.0375533034846
+wrote, 9871, 0.0365088851949
+model, 5807, 0.0360890023672
+window, 9774, 0.0358011530972
+sun, 8539, 0.0355776108963
+level, 5229, 0.0353061091729
+issu, 4793, 0.0350949110681
+free, 3668, 0.0350429115693
+appear, 580, 0.0349912243818
+explain, 3301, 0.0347875251476
+care, 1516, 0.0338808040492
+human, 4432, 0.0332268776271
+discuss, 2708, 0.0331018503793
+provid, 6949, 0.0318345567559
+pretti, 6851, 0.0315535231027
+current, 2299, 0.0311815013312
+graphic, 3997, 0.0283332734831
+someon, 8124, 0.0281219312996
+articl, 665, 0.0277363591875
+base, 923, 0.026932276324
+lot, 5356, 0.0268518468521
+run, 7543, 0.0259231387949
+better, 1060, 0.025745324807
+help, 4249, 0.0252828074335
+mani, 5479, 0.0244111817732
+work, 9833, 0.024381091215
+thing, 8869, 0.0235104914325
+need, 5993, 0.0231385740768
+way, 9666, 0.0225119588925
+make, 5459, 0.0215847145124
+don, 2811, 0.0195201593423

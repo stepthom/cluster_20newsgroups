@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82808
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lance@wolves.Durham.NC.US (Lance A. Brown)
+Subject: Re: Religion and homosexuality
+Distribution: usa
+Organization: Wolves Den UNIX
+Lines: 20
+X-Md4-Signature: c6a7a6853f7ccbdf5ccfea6cc9d0a079
+
+In article <C4uzus.FKp@mailer.cc.fsu.edu> dlecoint@garnet.acns.fsu.edu (Darius_Lecointe) writes:
+>lfoard@hopper.Virginia.EDU (Lawrence C. Foard) writes:
+>> Unlike kleptomaniacs and adulterers homosexuals hurt no one by having sex
+>> with the same sex. 
+>
+>What about the homosexual whose family does not accept that decision and
+>is hurt (emotionally) by it?
+
+Good question.  I don't have a nice concise answer, though.  What about the
+child whose parents are crushed emotionally because he/she starts a carerr
+doing something they greatly dislike.  It is the same kind of harm, and
+is probably "caused" by the same thing:  The desire of the child to be 
+true to his or her self.
+
+What is more important, being true to yourself or burying that truth within
+you in order to maintain peace in the family?
+
+hard question, no good answer.
+
+Lance
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ religion homosexu    md4 signatur
+c6a7a6853f7ccbdf5ccfea6cc9d0a079    unlik
+kleptomaniac adulter homosexu hurt one sex sex
+homosexu whose famili accept decis hurt emot  good
+question don't nice concis answer though child
+whose parent crush emot start carerr someth great
+dislik kind harm probabl caus thing desir child
+true self  import true buri truth within order
+maintain peac famili  hard question good answer
+lanc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+homosexu, 4360, 0.423099621881
+sex, 7825, 0.280211813117
+emot, 3073, 0.280211813117
+child, 1705, 0.266155895516
+famili, 3378, 0.252215923071
+hurt, 4451, 0.239118249566
+answer, 535, 0.174528645592
+true, 9121, 0.168678876725
+concis, 2007, 0.165188248764
+crush, 2259, 0.160443763811
+buri, 1410, 0.160443763811
+lanc, 5103, 0.158386541814
+dislik, 2722, 0.154741936013
+question, 7032, 0.143134457401
+harm, 4177, 0.141998367345
+signatur, 7948, 0.138353761543
+parent, 6426, 0.135947299252
+peac, 6495, 0.127667414872
+good, 3948, 0.121552753562
+decis, 2445, 0.12033437909
+unlik, 9290, 0.117375129624
+desir, 2565, 0.116023725356
+maintain, 5454, 0.113238964785
+truth, 9132, 0.109972657263
+self, 7776, 0.109719787066
+religion, 7261, 0.100133319546
+accept, 208, 0.0971444976711
+nice, 6047, 0.0957111413691
+caus, 1569, 0.0957111413691
+import, 4551, 0.0896152521481
+hard, 4167, 0.0895080268486
+kind, 5021, 0.0843394383625
+order, 6281, 0.0835780550666
+great, 4016, 0.0786376105641
+probabl, 6885, 0.0773237649026
+start, 8334, 0.0748391025884
+someth, 8126, 0.0695978295511
+thing, 8869, 0.0645908486964
+don, 2811, 0.0536281286263

@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104977
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: chyang@engin.umich.edu (Chung Hsiung Yang)
+Subject: Re: Seattle BB (was Re: AL Stats and Standings)
+Organization: University of Michigan Engineering, Ann Arbor
+Lines: 24
+Distribution: world
+NNTP-Posting-Host: anaphora.engin.umich.edu
+
+In article <1r8rctINN8dd@senator-bedfellow.MIT.EDU> cmk@athena.mit.edu (Charles M Kozierok) writes:
+>In article <franjion.735549550@spot.Colorado.EDU> franjion@spot.Colorado.EDU (John Franjione) writes:
+> 
+>} >	Griffey, well, most of it are intentional walks.  
+>} 
+>} Are you sure about this?
+>
+>i'd say pitching around him is more likely.
+>
+
+	Yeah, maybe that is more likely.  But from the Mariners-Tigers 
+series, it seems like every time there are base runners, the pitchers 
+seem to purposely pitch around him or give him a free pass.  The 
+funny thing was that Griffey was struggling up until the last game of the
+four game series if I remember correctly.
+
+- Chung Yang
+
+>cheers,
+>
+>-*-
+>charles
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ seattl stat stand         griffey well intent
+walk  sure  i'd say pitch around like   yeah mayb
+like marin tiger seri seem like everi time base
+runner pitcher seem purpos pitch around give free
+pass funni thing griffey struggl last game four
+game seri rememb correct  chung yang  cheer
+charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+griffey, 4047, 0.419374214683
+seri, 7805, 0.258379014964
+yang, 9931, 0.247026360894
+chung, 1742, 0.247026360894
+pitch, 6643, 0.23129655148
+like, 5272, 0.200114691111
+game, 3761, 0.192055530018
+funni, 3731, 0.181150599782
+struggl, 8461, 0.180175767648
+marin, 5511, 0.172535863507
+seattl, 7749, 0.171790428065
+charl, 1668, 0.171790428065
+tiger, 8928, 0.168972612212
+intent, 4702, 0.165769933267
+runner, 7545, 0.16176900556
+yeah, 9942, 0.158217180611
+cheer, 1687, 0.149831841027
+stat, 8341, 0.143811346229
+pass, 6448, 0.141463639418
+stand, 8311, 0.137233425707
+purpos, 6993, 0.136258593573
+walk, 9617, 0.134621647809
+free, 3668, 0.128998089711
+pitcher, 6644, 0.125909385923
+correct, 2156, 0.122005431992
+rememb, 7269, 0.116666180001
+mayb, 5564, 0.110890316107
+everi, 3235, 0.108504149239
+sure, 8585, 0.102020057035
+base, 923, 0.0991416535269
+thing, 8869, 0.0865455622021
+say, 7653, 0.0804300790715
+time, 8936, 0.0752712561243

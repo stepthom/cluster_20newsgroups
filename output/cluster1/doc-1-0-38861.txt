@@ -1,0 +1,347 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38861
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lioness@maple.circa.ufl.edu
+Subject: Kubota Kenai/Denali specs
+Organization: Center for Instructional and Research Computing Activities
+Lines: 118
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+
+Okay, I got enough replies about the Kubota Kenai/Denali systems that I
+will post a summary of their capabilities.  I haven't actually used one
+or seen one, so take the specs with a grain of salt.  I'd like to see
+an independent review of one against, say, an SGI Indigo Extreme or
+something.
+
+Basically, the Kenai workstations are DEC Alpha AXP based workstations that
+run OSF/1 ( DEC's ) and will likely run Windows NT in the future.  They are
+binary compatible with Digital's OSF/1 Alpha AXP implementation.  Denali
+is their graphics subsystem, which is upgradable in the field by
+simply adding "transformation engines".
+
+The two main Kenai machines are the 3400 Imaging and 3D Graphics Workstation
+and the 3500 Imaging and 3D Graphics Workstation.
+
+
+			3400			3500
+
+CPU			DEC Alpha AXP 133MHz	DEC Alpha AXP 150MHz
+On-chip cache		8k/8k			8k/8k
+Onboard cache		512K			512K
+Word Size		64-bit			64-bit
+Memory ( initial )	32-128MB		32-256MB
+Memory ( future )	512MB			1GB
+SPECMARK89		111			126
+SPECINT92		75			84
+SPECFP92		112			128
+
+GRAPHICS
+
+Transform Modules	1-6			1-6
+Frame Buffer Modules	5,10,20			5,10,20
+Frame Buffer		1280x1024x24bit		1280x1024x24bit
+			double buffered		double buffered
+Z-buffer		24-bit			24-bit
+Alpha/stencil		8-bit			8-bit
+Stereo support		yes			yes
+Other:				both machines will double buffer or do
+				stereo output per window.  Both have an
+				auxiliary video output that is RS-170A,
+				NTSC, and PAL
+
+STORAGE
+
+Internal-fixed		2 3.5"			4 3.5"
+Internal-removable	1 5.25"			2 5.25"
+Max capacity		9.5GB			11.6 GB
+
+IO
+
+Both have TurboChannel 100MB/sec, SCSI-2, Ethernet, and FDDI
+
+APPLICATION PROGRAMMING INTERFACES
+
+Both have libraries for Xlib, Motif, MIT PEXlib, DEC-PEXlib DEC-PHIGS, and GL
+
+Okay, now the real stuff.  The Kenai stations work with a graphics architecture
+known as Denali.  The Denali comes in three models, the E, P, and V.  They
+use a DECchip 21064 superscalar RISC processor at 150MHz.  Their
+capabilities are as follows:
+
+			E		P		V
+
+2D Vectors		800-200K	2000-3800K	4000-4800K
+3D Vectors #1		350-1100K	1100-1800K	1800-2100K
+3D Vectors #2		300-1000K	1000-1600K	1600-1900K
+3D Vectors #3		300-500K	800-1000K	1300-1400K
+3D Triangles, #4	200-500K	600-1000K	1000-1200K
+3D Triangles, #5	100-200K	300-400K	500-600K
+
+#1: 10 pixel, flat shaded, connected
+#2: 10 pixel, Gouraud shaded, connected
+#3: 10 pixel, 2-pixel wide, anti-aliased, connected
+#4: 50-pixel, Gouraud shaded, Z-buffered, strip
+#5: 50-pixel, texture mapped, persp., point sampled
+
+IMAGE PROCESSING
+
+Cine loop - 8-bit	15-36Mp/s	37-58 Mp/s	60-68 Mp/s
+Cine loop - 16-bit	14 Mp/s		25 Mp/s		38 Mp/s
+Cine loop - 24-bit	12-21 Mp/s	21 Mp/s		21 Mp/s
+Contrast stretching #1	14 Mp/s		25 Mp/s		20 Mp/s
+Bilinear zoom		6 Mp/s		11 Mp/s		20 Mp/s
+Trilinear interp#2	--		6 Mvoxels/s	11 Mvoxels/s
+
+#1: Lookup table -- 12-,16-bit to 8
+#2: Trilinear interpolation, 8-bit voxels
+
+CONFIGURATIONS
+Frame Buffer Modules	5		10		20
+Transform Engine Mod.	1-3		3-5		5-6
+
+
+As you can see, these are pretty powerful workstations, and the best part
+is the pricing.  I would recommend that you call Kubota for more information.
+Their number is 408-727-8100.  I'm sure they'll send you an information you
+may want.  Oh, some prices:
+
+Low-end
+
+Kenai 3400, E Series w/ 1 TEM and 5 FBM --- 27,795 dollars U.S.
+Kenai 3500, E Series w/ 1 TEM and 5 FBM --- 45,345 dollars U.S.
+
+High-end
+
+Kenai 3400, V Series w/ 6 TEM and 20 FBM -- 61,795 dollars U.S.
+Kenai 3500, V Series w/ 6 TEM and 20 FBM -- 79,345 dollars U.S.
+
+If someone could post a relative comparision with an Indigo Extreme or
+something I would appreciate it.
+
+Hope this helps someone out there,
+
+Brian
+
+PS I am not affiliated with Kubota in any way.  Hell, I thought they made
+tractors or something. :-)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kubota kenai denali spec       okay got enough
+repli kubota kenai denali system post summari
+capabl haven't actual use one seen one take spec
+grain salt i'd like see independ review one say
+sgi indigo extrem someth  basic kenai workstat
+alpha axp base workstat run osf dec like run
+window futur binari compat digit osf alpha axp
+implement denali graphic subsystem upgrad field
+simpli ad transform engin  two main kenai machin
+imag graphic workstat imag graphic workstat
+cpu alpha axp 133mhz alpha axp 150mhz chip cach
+onboard cach 512k 512k word size bit bit memori
+initi 128mb 256mb memori futur 512mb 1gb
+specmark89 specint92 specfp92  graphic  transform
+modul frame buffer modul frame buffer
+1280x1024x24bit 1280x1024x24bit doubl buffer doubl
+buffer buffer bit bit alpha stencil bit bit stereo
+support yes yes machin doubl buffer stereo output
+per window auxiliari video output 170a ntsc pal
+storag  intern fix intern remov max capac 5gb
+turbochannel 100mb sec scsi ethernet fddi  applic
+program interfac  librari xlib motif mit pexlib
+pexlib phig  okay real stuff kenai station work
+graphic architectur known denali denali come three
+model use decchip superscalar risc processor
+150mhz capabl follow    vector 200k 3800k 4800k
+vector 1100k 1800k 2100k vector 1000k 1600k 1900k
+vector 500k 1000k 1400k triangl 500k 1000k 1200k
+triangl 200k 400k 600k  pixel flat shade connect
+pixel gouraud shade connect pixel pixel wide anti
+alias connect pixel gouraud shade buffer strip
+pixel textur map persp point sampl  imag process
+cine loop bit 36mp cine loop bit cine loop bit
+contrast stretch bilinear zoom trilinear interp
+mvoxel mvoxel  lookup tabl bit trilinear interpol
+bit voxel  configur frame buffer modul transform
+engin mod   see pretti power workstat best part
+price recommend call kubota inform number i'm sure
+they'll send inform want price  low end  kenai
+seri tem fbm dollar kenai seri tem fbm dollar
+high end  kenai seri tem fbm dollar kenai seri tem
+fbm dollar  someon could post relat comparis
+indigo extrem someth appreci  hope help someon
+brian  affili kubota way hell thought made tractor
+someth
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kenai, 4981, 0.409189963114
+buffer, 1371, 0.284304024263
+bit, 1122, 0.233048504536
+denali, 2522, 0.223133891451
+tem, 8770, 0.203151303338
+axp, 843, 0.203151303338
+fbm, 3415, 0.190316364147
+pixel, 6651, 0.18998253381
+alpha, 441, 0.183787939101
+workstat, 9840, 0.165577382547
+kubota, 5078, 0.15813178442
+cine, 1761, 0.146942280326
+vector, 9444, 0.145296845229
+dollar, 2802, 0.129614424007
+loop, 5344, 0.113979651703
+shade, 7835, 0.104518028303
+graphic, 3997, 0.103402746469
+transform, 9053, 0.103086119179
+seri, 7805, 0.102463563024
+gouraud, 3964, 0.101575651669
+cach, 1444, 0.101575651669
+modul, 5815, 0.10051243463
+512k, 117, 0.0979615202174
+1280x1024x24bit, 16, 0.0979615202174
+200k, 59, 0.0951581820735
+osf, 6309, 0.0928676880322
+frame, 3643, 0.0912097472623
+connect, 2046, 0.0900241737233
+pexlib, 6580, 0.0892535565806
+doubl, 2828, 0.0878557607926
+stereo, 8382, 0.0831541529852
+triangl, 9090, 0.0783866491721
+indigo, 4601, 0.0777422547998
+spec, 8196, 0.0707118374965
+output, 6329, 0.06332751127
+imag, 4512, 0.0631678221469
+okay, 6215, 0.0625541634028
+extrem, 3333, 0.0621846386467
+price, 6857, 0.0584346903484
+machin, 5416, 0.0571516440427
+memori, 5628, 0.0569100416744
+capabl, 1498, 0.0563256136974
+intern, 4716, 0.0558768897132
+someth, 8126, 0.055471892559
+futur, 3737, 0.053029548246
+window, 9774, 0.0522627582616
+engin, 3109, 0.0490048974092
+voxel, 9587, 0.0489807601087
+ethernet, 3208, 0.0489807601087
+bilinear, 1089, 0.0489807601087
+stencil, 8375, 0.0475790910367
+mod, 5805, 0.0475790910367
+170a, 31, 0.0475790910367
+comparis, 1961, 0.0464338440161
+yes, 9951, 0.0457629084629
+scsi, 7728, 0.0454655514571
+xlib, 9902, 0.0446267782903
+lookup, 5342, 0.0446267782903
+dec, 2431, 0.0438869279235
+auxiliari, 809, 0.0438869279235
+end, 3091, 0.043309257116
+salt, 7594, 0.0426264213759
+grain, 3987, 0.0415770764926
+inform, 4637, 0.0412918811345
+onboard, 6239, 0.0411115696386
+someon, 8124, 0.0410525798811
+zoom, 9994, 0.0406781931257
+phig, 6587, 0.0406781931257
+pal, 6395, 0.0406781931257
+risc, 7413, 0.0402727964719
+interpol, 4719, 0.0402727964719
+affili, 311, 0.0398919848513
+ntsc, 6147, 0.0395329461051
+capac, 1499, 0.0395329461051
+subsystem, 8505, 0.0391933245861
+cpu, 2200, 0.0391933245861
+alias, 410, 0.0391933245861
+storag, 8416, 0.0382724395575
+architectur, 617, 0.0379932172344
+run, 7543, 0.0378427681517
+contrast, 2101, 0.0377258803793
+strip, 8451, 0.0374694583279
+sec, 7752, 0.0374694583279
+max, 5557, 0.0374694583279
+motif, 5879, 0.0367575878202
+post, 6766, 0.0366907762568
+upgrad, 9337, 0.0365371628185
+flat, 3526, 0.0361182430852
+textur, 8825, 0.0359188146535
+mit, 5781, 0.0357255234649
+compat, 1965, 0.0355380030329
+configur, 2030, 0.0353559187482
+chip, 1712, 0.0353559187482
+processor, 6891, 0.0346761785816
+tabl, 8667, 0.0343620397262
+sgi, 7831, 0.0340628656616
+binari, 1096, 0.0340628656616
+stretch, 8443, 0.0337772952147
+summari, 8536, 0.0328691128558
+sampl, 7601, 0.0328691128558
+review, 7358, 0.0328691128558
+interfac, 4709, 0.0326320481941
+recommend, 7178, 0.031866401208
+anti, 542, 0.0317642612668
+independ, 4595, 0.0314674437838
+fix, 3511, 0.0309128365993
+wide, 9747, 0.0305685604169
+initi, 4647, 0.0304853609492
+implement, 4544, 0.0303221967632
+digit, 2642, 0.0302421769807
+remov, 7272, 0.0300080579078
+brian, 1304, 0.0294934981262
+size, 8000, 0.0291501630581
+hell, 4245, 0.0288246255539
+video, 9506, 0.0284550208372
+map, 5498, 0.0281628068487
+librari, 5250, 0.0278835845256
+use, 9363, 0.0277457690601
+main, 5450, 0.0275641190063
+applic, 585, 0.0275124193896
+repli, 7290, 0.0272601176847
+ad, 257, 0.0269701522976
+haven, 4207, 0.026830039396
+station, 8346, 0.026514774123
+like, 5272, 0.0264526955587
+model, 5807, 0.0263414812575
+low, 5368, 0.0258881951623
+basic, 937, 0.025848564318
+simpli, 7967, 0.0257311502831
+process, 6890, 0.025391528764
+known, 5054, 0.0251043259189
+appreci, 587, 0.0242831233034
+send, 7785, 0.0241310222164
+stuff, 8472, 0.0240711982597
+relat, 7247, 0.0240119386883
+field, 3466, 0.0236398067264
+seen, 7767, 0.0233148307444
+power, 6783, 0.0233148307444
+pretti, 6851, 0.0230310200587
+word, 9829, 0.0224991937657
+hope, 4372, 0.0224530062931
+thought, 8887, 0.0219237276429
+support, 8576, 0.0216343983699
+real, 7144, 0.0215342133438
+high, 4292, 0.0212429029686
+best, 1052, 0.0210009202064
+follow, 3578, 0.0206459405673
+got, 3960, 0.0206115214785
+number, 6156, 0.0204255155656
+sure, 8585, 0.020228691067
+actual, 254, 0.0201964783401
+ll, 5314, 0.019898425199
+base, 923, 0.0196579568699
+program, 6905, 0.0194978180749
+help, 4249, 0.0184540041138
+come, 1923, 0.0182151362461
+work, 9833, 0.0177958384869
+point, 6710, 0.0177304059371
+want, 9634, 0.0171110407773
+way, 9666, 0.0164315526709
+say, 7653, 0.0159477976127

@@ -1,0 +1,36 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38890
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: peng@cipserv1.physik.uni-ulm.de (WEIGUO PENG)
+Subject: SW convert plot to ASCII file
+Keywords: plot ASCII
+Organization: Uni Ulm Physik
+Lines: 2
+
+I am looking for software that reads a plot in PCX or other format and 
+converts it into x,y coordinate.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ convert plot ascii file     look softwar read
+plot pcx format convert coordin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+plot, 6694, 0.582263955006
+convert, 2115, 0.443901278434
+ascii, 676, 0.323151298375
+pcx, 6490, 0.317530551926
+coordin, 2126, 0.303454635418
+format, 3612, 0.221011981937
+file, 3477, 0.191092071011
+softwar, 8103, 0.18430772175
+read, 7135, 0.168102763518
+look, 5341, 0.137814591891

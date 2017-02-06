@@ -1,0 +1,252 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102713
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker)
+Subject: Re: Young Catchers
+Organization: University of Virginia
+Lines: 70
+
+Most of this discussion has been between Mark Singer and David Tate,
+with Valentine weighing in on the same side as Dave at various times.
+My opinion, FWIW, to all:
+
+Mark, age doesn't matter; ability does. I would rather have the untried
+rookie with great minor league numbers than the veteran who has proven
+himself to be average at best. I don't care if he is 15; if he plays
+better than what I have, I want him out there. Sandy Alomar had decent
+minor league numbers, grossly inflated by the PCL in general and Las
+Vegas in particular; he should have been projected as an average major
+league hitter (which is good for a catcher, I'll admit). Santiago's
+numbers would probably come out the same as Sandy's, but I don't have
+the league data from the mid-80s to check it out.
+
+That being said, I agree with sending Lopez to Richmond, at least to
+start the season. As the box below shows, he has *one* minor league
+season in which he hit well. He has two in which he hit very, very
+poorly. I want to see that the 92 Lopez is real. Olson and Berryhill
+are not complete mediocrities; for catchers, especially NL catchers,
+they are essentially average hitters, with equivalent averages around
+.220. If he had hit well at prior levels, I would say he belongs on
+the Braves; but there is a reasonable chance that Lopez last year was
+just as much a fluke as Alomar in 90 or Santiago in 87. One year at
+any level, at any age, doesn't satisfy MY standards of evidence.
+
+    JAVIER LOPEZ 1971         
+  1990 BUR    428  101  10   1   9    5    0   1  .179   33  .236  .245  .327
+  1991 DUR    389   84   8   1   9   14    7   2  .175   29  .216  .243  .311
+  1992 GRN    445  135  22   2  14   22    7   2  .271   71  .303  .336  .456
+  1992 ATL     16    6   2   0   0    0    0   0  .306    3  .375  .375  .500
+    MAJ        16    6   2   0   0    0    0   0  .306    3  .375  .375  .500
+    MIN      1262  320  40   4  32   41   14   5  .213  133  .254  .277  .368
+    TOT      1278  326  42   4  32   41   14   5  .214  136  .255  .278  .369
+    MAJ       650  244  81   0   0    0    0   0
+    MIN       630  160  20   2  16   20    7   2
+    TOT       630  161  21   2  16   20    7   2
+
+On a similar note, I don't understand why more people are not
+supportive of Neon Deion. Granted, I thought his behavior with
+McCarver last year was completely bush. Last year was the first time
+he ever got 300 AB in one place, so his lines are hard to read. But he
+has a combined 720 OPS in minor league play; with his speed is more
+valuable than the OPS alone indicates; and at a still young age (24),
+had a monster year with an 868 OPS. He has a total, major and minor,
+EQA of .249; above major league average, and above average for CF
+(which was about .240 in the NL last year). He has shown at least the
+potential of going into the .290s, which would make him one of the 15
+best hitters in the league. He has two full seasons before reaching
+his "prime" season of 27. He should be considered as a legitimate
+prospect, and not as a simple side-show attraction.
+
+      DEION SANDERS 1968      
+  1988 FLA     21    8   2   0   0    1    1   0  .325    4  .381  .409  .476
+  1988 INT     20    3   1   0   0    1    1   1  .086    0  .150  .190  .200
+  1989 EAS    123   35   1   2   2    9   15   4  .257   19  .285  .333  .374
+  1989 NYY     47   11   1   0   2    3    1   0  .222    6  .234  .280  .383
+  1989 INT    263   70  11   4   6   18   15   6  .246   37  .266  .313  .407
+  1990 NYY    133   21   2   2   3   13    8   2  .161    9  .158  .233  .271
+  1990 INT     85   26   7   1   1   14    8   1  .312   18  .306  .404  .447
+  1991 ATL    110   20   2   1   4   12   10   3  .201   12  .182  .262  .327
+  1991 RIC    129   30   5   2   4    7   11   3  .230   17  .233  .272  .395
+  1992 ATL    306   92  10  12  11   22   24   9  .295   60  .301  .348  .520
+    MAJ       596  144  15  15  20   50   43  14  .245   87  .242  .300  .418
+    MIN       641  172  27   9  13   50   51  15  .252   96  .268  .321  .399
+    TOT      1237  316  42  24  33  100   94  29  .249  182  .255  .311  .408
+    MAJ       600  145  15  15  20   50   43  14
+    MIN       603  162  25   8  12   47   48  14
+    TOT       601  154  20  12  16   49   46  14
+
+Clay D.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ young catcher    discuss mark singer david tate
+valentin weigh side dave various time opinion fwiw
+mark age doesn't matter abil rather untri rooki
+great minor leagu number veteran proven averag
+best don't care play better want sandi alomar
+decent minor leagu number grossli inflat pcl
+general las vega particular project averag major
+leagu hitter good catcher i'll admit santiago
+number probabl come sandi don't leagu data mid 80s
+check  said agre send lopez richmond least start
+season box show one minor leagu season hit well
+two hit poor want see lopez real olson berryhil
+complet mediocr catcher especi catcher essenti
+averag hitter equival averag around hit well prior
+level say belong brave reason chanc lopez last
+year much fluke alomar santiago one year level age
+doesn't satisfi standard evid  javier lopez bur
+dur grn atl maj min tot maj min tot  similar note
+don't understand peopl support neon deion grant
+thought behavior mccarver last year complet bush
+last year first time ever got one place line hard
+read combin op minor leagu play speed valuabl op
+alon indic still young age monster year op total
+major minor eqa major leagu averag averag last
+year shown least potenti go 290s make one best
+hitter leagu two full season reach prime season
+consid legitim prospect simpl side show attract
+deion sander fla int ea nyy int nyy int atl ric
+atl maj min tot maj min tot  clay
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tot, 9012, 0.291753178159
+leagu, 5176, 0.289645861245
+maj, 5456, 0.273320442366
+lopez, 5346, 0.23134907177
+averag, 816, 0.230399553955
+min, 5732, 0.22329711444
+atl, 747, 0.211029299771
+minor, 5745, 0.207438534736
+catcher, 1557, 0.186144117798
+int, 4691, 0.183652189855
+op, 6256, 0.164893441883
+season, 7747, 0.138968817138
+nyy, 6165, 0.136660221183
+year, 9943, 0.136029656663
+santiago, 7615, 0.128180367866
+deion, 2494, 0.124154389202
+age, 328, 0.121092060861
+hitter, 4322, 0.115199776978
+sandi, 7608, 0.113549482367
+major, 5458, 0.0993360318087
+alomar, 436, 0.0974231292739
+hit, 4316, 0.0946393134018
+number, 6156, 0.0880015385165
+young, 9962, 0.0805662269176
+level, 5229, 0.0740186490633
+mark, 5512, 0.073466859826
+fwiw, 3740, 0.0703430999238
+ea, 2945, 0.0703430999238
+complet, 1975, 0.0697478015941
+pcl, 6486, 0.0683301105914
+neon, 6004, 0.0683301105914
+javier, 4831, 0.0683301105914
+las, 5133, 0.0666853785491
+fla, 3514, 0.0666853785491
+eqa, 3155, 0.0666853785491
+80s, 144, 0.0666853785491
+grn, 4055, 0.0652947774215
+grossli, 4059, 0.0640901839331
+tate, 8709, 0.0620771946008
+clay, 1796, 0.0620771946008
+bush, 1423, 0.0620771946008
+don, 2811, 0.061385516184
+vega, 9447, 0.0604324625584
+monster, 5842, 0.0604324625584
+mediocr, 5610, 0.0604324625584
+best, 1052, 0.0603204125575
+fluke, 3561, 0.0597103932191
+berryhil, 1049, 0.0597103932191
+play, 6681, 0.0595001757772
+doesn, 2793, 0.058524689468
+sander, 7607, 0.0567747411837
+richmond, 7386, 0.0549644806276
+veteran, 9490, 0.0545634790153
+olson, 6226, 0.0545634790153
+weigh, 9694, 0.0538112892777
+legitim, 5204, 0.0534574772284
+singer, 7981, 0.0527889454401
+valuabl, 9415, 0.0521665572354
+satisfi, 7635, 0.051870758575
+rooki, 7475, 0.051870758575
+attract, 772, 0.051870758575
+proven, 6948, 0.0513067592529
+prime, 6865, 0.0513067592529
+prospect, 6937, 0.0507759561078
+prior, 6874, 0.0502746576525
+behavior, 1000, 0.0495713626194
+want, 9634, 0.0491476101443
+inflat, 4632, 0.0491312240654
+equival, 3162, 0.0489189542508
+valentin, 9409, 0.0485088358606
+mid, 5698, 0.0485088358606
+shown, 7918, 0.0481165544528
+decent, 2440, 0.0481165544528
+grant, 3994, 0.0477406229379
+belong, 1015, 0.047558373287
+essenti, 3196, 0.0459136412447
+combin, 1921, 0.0437811660477
+admit, 276, 0.0437811660477
+alon, 437, 0.043546839863
+potenti, 6774, 0.0432063824436
+poor, 6741, 0.0429863459037
+time, 8936, 0.0428684086328
+abil, 177, 0.04225591987
+various, 9432, 0.0398123431236
+indic, 4600, 0.039292467964
+reach, 7128, 0.0392205867
+chanc, 1649, 0.0392205867
+dave, 2395, 0.0390083168854
+brave, 1277, 0.0385981984953
+simpl, 7965, 0.0384655335912
+evid, 3245, 0.0380159932116
+particular, 6442, 0.0377688256711
+similar, 7961, 0.0373519372612
+especi, 3190, 0.0373519372612
+standard, 8313, 0.0369534664529
+box, 1254, 0.0368427773232
+check, 1682, 0.0367879379392
+speed, 8217, 0.0366792492643
+david, 2397, 0.0364131222694
+total, 9013, 0.0360030038793
+care, 1516, 0.0355152607247
+matter, 5553, 0.0350075484399
+agre, 337, 0.0349182303746
+general, 3818, 0.0348297879908
+discuss, 2708, 0.0346987292563
+send, 7785, 0.0346554627422
+hard, 4167, 0.0341518314577
+opinion, 6266, 0.0337917417109
+project, 6909, 0.0334832996694
+data, 2385, 0.0334078092633
+note, 6118, 0.0325480112809
+understand, 9246, 0.0323452825046
+consid, 2059, 0.0316386469601
+thought, 8887, 0.0314854845221
+support, 8576, 0.0310699679414
+real, 7144, 0.0309260884818
+place, 6657, 0.0308975859276
+said, 7583, 0.0300300301254
+great, 4016, 0.0300042188033
+line, 5285, 0.0299017057583
+got, 3960, 0.0296009762145
+probabl, 6885, 0.0295029203481
+reason, 7156, 0.02909767952
+ll, 5314, 0.0285768720002
+start, 8334, 0.0285548962258
+read, 7135, 0.0274607208956
+better, 1060, 0.026987314753
+come, 1923, 0.0261594378332
+peopl, 6530, 0.024475520277
+good, 3948, 0.0231892563104
+say, 7653, 0.0229032280949
+make, 5459, 0.0226259908845

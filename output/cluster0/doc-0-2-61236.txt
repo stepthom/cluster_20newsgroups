@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61236
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: n4hy@harder.ccr-p.ida.org (Bob McGwier)
+Subject: Re: What counntries do space surveillance?
+Organization: IDA Center for Communications Research
+Lines: 13
+Distribution: world
+NNTP-Posting-Host: harder.ccr-p.ida.org
+In-reply-to: thomsonal@cpva.saic.com's message of 23 Apr 93 20:17:25 GMT
+
+
+I can tell you that when AMSAT launched some birds along a Spot satellite
+(French), that during installation of some instruments on Spot 2, there
+heavily armed legionaires who had a `take no prisoners' look on there faces.
+Spot satellites are completely capable of doing some very good on orbit
+surveillance.
+
+BMc
+--
+------------------------------------------------------------------------------
+Robert W. McGwier                  | n4hy@ccr-p.ida.org
+Center for Communications Research | Interests: amateur radio, astronomy,golf
+Princeton, N.J. 08520              | Asst Scoutmaster Troop 5700, Hightstown
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ counntri space surveil        tell amsat launch
+bird along spot satellit french instal instrument
+spot heavili arm legionair take prison look face
+spot satellit complet capabl good orbit surveil
+bmc    center communic research interest amateur
+radio astronomi golf princeton asst scoutmast
+troop hightstown
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spot, 8261, 0.407691400032
+surveil, 8596, 0.383270287536
+satellit, 7632, 0.238308814224
+asst, 708, 0.217152372198
+prison, 6877, 0.210938181905
+counntri, 2178, 0.210938181905
+golf, 3937, 0.205860818738
+amsat, 483, 0.205860818738
+troop, 9115, 0.197849334061
+heavili, 4232, 0.173760541676
+princeton, 6868, 0.17233210563
+french, 3684, 0.168439959518
+bird, 1113, 0.16397467368
+instal, 4679, 0.156747702779
+amateur, 458, 0.153029067493
+instrument, 4686, 0.146263405765
+arm, 643, 0.144671635542
+communic, 1950, 0.137444664642
+astronomi, 729, 0.134076328281
+capabl, 1498, 0.124857603299
+radio, 7061, 0.124355816798
+face, 3345, 0.119780240132
+center, 1606, 0.112408976695
+launch, 5147, 0.109491050822
+complet, 1975, 0.107657329491
+research, 7307, 0.107116566919
+orbit, 6280, 0.100795472858
+tell, 8767, 0.0910017023649
+space, 8164, 0.0789938313423
+good, 3948, 0.0715862966342
+look, 5341, 0.0694984884808

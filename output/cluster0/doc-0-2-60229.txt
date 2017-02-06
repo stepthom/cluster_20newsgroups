@@ -1,0 +1,300 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60229
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dbm0000@tm0006.lerc.nasa.gov (David B. Mckissock)
+Subject: Gibbons Outlines SSF Redesign Guidance
+News-Software: VAX/VMS VNEWS 1.41    
+Nntp-Posting-Host: tm0006.lerc.nasa.gov
+Organization: NASA Lewis Research Center / Cleveland, Ohio
+Lines: 76
+
+NASA Headquarters distributed the following press
+release today (4/6). I've typed it in verbatim, for you
+folks to chew over. Many of the topics recently
+discussed on sci.space are covered in this.
+
+Gibbons Outlines Space Station Redesign Guidance
+
+Dr. John H. Gibbons, Director, Office of Science and
+Technology Policy, outlined to the members-designate of
+the Advisory Committee on the Redesign of the Space
+Station on April 3, three budget options as guidance to
+the committee in their deliberations on the redesign of
+the space station.
+
+A low option of $5 billion, a mid-range option of $7
+billion and a high option of $9 billion will be
+considered by the committee. Each option would cover
+the total expenditures for space station from fiscal
+year 1994 through 1998 and would include funds for
+development, operations, utilization, Shuttle
+integration, facilities, research operations support,
+transition cost and also must include adequate program
+reserves to insure program implementation within the
+available funds.
+
+Over the next 5 years, $4 billion is reserved within
+the NASA budget for the President's new technology
+investment. As a result, station options above $7
+billion must be accompanied by offsetting reductions in
+the rest of the NASA budget.  For example, a space
+station option of $9 billion would require $2 billion
+in offsets from the NASA budget over the next 5 years.
+
+Gibbons presented the information at an organizational
+session of the advisory committee. Generally, the
+members-designate focused upon administrative topics
+and used the session to get acquainted. They also
+received a legal and ethics briefing and an orientation
+on the process the Station Redesign Team is following
+to develop options for the advisory committee to
+consider.
+
+Gibbons also announced that the United States and its
+international partners -- the Europeans, Japanese, and
+Canadians -- have decided, after consultation, to give
+"full consideration" to use of Russian assets in the
+course of the space station redesign process.
+
+To that end, the Russians will be asked to participate
+in the redesign effort on an as-needed consulting
+basis, so that the redesign team can make use of their
+expertise in assessing the capabilities of MIR and the
+possible use of MIR and other Russian capabilities and
+systems. The U.S. and international partners hope to
+benefit from the expertise of the Russian participants
+in assessing Russian systems and technology. The
+overall goal of the redesign effort is to develop
+options for reducing station costs while preserving key
+research and exploration capabilities. Careful
+integration of Russian assets could be a key factor in
+achieving that goal.
+
+Gibbons reiterated that, "President Clinton is
+committed to the redesigned space station and to making
+every effort to preserve the science, the technology
+and the jobs that the space station program represents.
+However, he also is committed to a space station that
+is well managed and one that does not consume the
+national resources which should be used to invest in
+the future of this industry and this nation."
+
+NASA Administrator Daniel S. Goldin said the Russian
+participation will be accomplished through the East-
+West Space Science Center at the University of Maryland
+under the leadership of Roald Sagdeev.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gibbon outlin ssf redesign guidanc news softwar
+vax vms vnew     nasa headquart distribut follow
+press releas today i'v type verbatim folk chew
+mani topic recent discuss sci space cover  gibbon
+outlin space station redesign guidanc  john gibbon
+director offic scienc technolog polici outlin
+member design advisori committe redesign space
+station april three budget option guidanc committe
+deliber redesign space station  low option billion
+mid rang option billion high option billion consid
+committe option cover total expenditur space
+station fiscal year includ fund develop oper util
+shuttl integr facil research oper support transit
+cost also must includ adequ program reserv insur
+program implement within avail fund  next year
+billion reserv within nasa budget presid new
+technolog invest result station option billion
+must accompani offset reduct rest nasa budget
+exampl space station option billion requir billion
+offset nasa budget next year  gibbon present
+inform organiz session advisori committe general
+member design focus upon administr topic use
+session get acquaint also receiv legal ethic brief
+orient process station redesign team follow
+develop option advisori committe consid  gibbon
+also announc unit state intern partner european
+japanes canadian decid consult give full consider
+use russian asset cours space station redesign
+process  end russian ask particip redesign effort
+need consult basi redesign team make use expertis
+assess capabl mir possibl use mir russian capabl
+system intern partner hope benefit expertis
+russian particip assess russian system technolog
+overal goal redesign effort develop option reduc
+station cost preserv key research explor capabl
+care integr russian asset could key factor achiev
+goal  gibbon reiter presid clinton commit redesign
+space station make everi effort preserv scienc
+technolog job space station program repres howev
+also commit space station well manag one consum
+nation resourc use invest futur industri nation
+nasa administr daniel goldin said russian particip
+accomplish east west space scienc center univers
+maryland leadership roald sagdeev
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+redesign, 7200, 0.379299182082
+station, 8346, 0.332242273987
+gibbon, 3866, 0.306875688336
+option, 6276, 0.285724985811
+russian, 7551, 0.234455966069
+billion, 1092, 0.218785380793
+space, 8164, 0.204659787459
+committe, 1946, 0.185544778511
+budget, 1367, 0.134423336841
+advisori, 295, 0.133532149889
+guidanc, 4083, 0.126159150155
+nasa, 5956, 0.1234240061
+outlin, 6327, 0.119018106957
+technolog, 8743, 0.10427640012
+particip, 6440, 0.102966262776
+asset, 701, 0.0931989981078
+effort, 3007, 0.0919544688364
+expertis, 3299, 0.0890214332595
+capabl, 1498, 0.0882232198724
+assess, 700, 0.0849527344208
+mir, 5749, 0.0841061001034
+partner, 6444, 0.0833108094088
+offset, 6209, 0.0825609893969
+session, 7814, 0.0805387977928
+preserv, 6838, 0.0799285352552
+consult, 2076, 0.0746095308997
+scienc, 7692, 0.073538808618
+develop, 2588, 0.0732859903443
+use, 9363, 0.072430667673
+reserv, 7309, 0.0724180688327
+administr, 273, 0.0714458997884
+goal, 3924, 0.0702525066337
+commit, 1945, 0.0696941977436
+invest, 4744, 0.0683942956504
+integr, 4694, 0.0681490870371
+presid, 6839, 0.0628300826817
+topic, 8992, 0.0626691201855
+program, 6905, 0.0610791495426
+cover, 2194, 0.0603308101799
+key, 4994, 0.06019762854
+fund, 3723, 0.0595512771795
+intern, 4716, 0.0583469201471
+member, 5625, 0.0581187704164
+oper, 6261, 0.054922868
+process, 6890, 0.0530279157917
+nation, 5962, 0.0516457671666
+verbatim, 9468, 0.0511459480561
+acquaint, 243, 0.0511459480561
+design, 2564, 0.0509728874273
+research, 7307, 0.0504583791751
+cost, 2169, 0.0498423843766
+year, 9943, 0.0494530789893
+reiter, 7243, 0.0484864458783
+chew, 1699, 0.0484864458783
+fiscal, 3503, 0.0474753500763
+organiz, 6289, 0.0465994990539
+consid, 2059, 0.0460084527334
+includ, 4579, 0.0451393748197
+expenditur, 3293, 0.0439399968762
+team, 8732, 0.0435569432378
+follow, 3578, 0.0431171832155
+ssf, 8289, 0.0420530500517
+canadian, 1483, 0.0420530500517
+accompani, 215, 0.0420530500517
+headquart, 4219, 0.0416554047044
+insur, 4690, 0.0412804946985
+goldin, 3935, 0.0409258602556
+deliber, 2503, 0.0409258602556
+clinton, 1820, 0.0409258602556
+reduct, 7205, 0.0405894203859
+maryland, 5529, 0.0405894203859
+leadership, 5174, 0.0405894203859
+adequ, 265, 0.039672702319
+transit, 9056, 0.039393547874
+director, 2668, 0.0391257907202
+polici, 6721, 0.0383824520719
+japanes, 4826, 0.0377148451885
+daniel, 2359, 0.0377148451885
+consum, 2077, 0.0373047654499
+focus, 3569, 0.0369188224061
+ethic, 3209, 0.0367340456963
+brief, 1308, 0.0362090344164
+european, 3222, 0.0357229498942
+accomplish, 218, 0.0354178186254
+mid, 5698, 0.0352704160305
+overal, 6337, 0.0348470988718
+reduc, 7204, 0.0340745435186
+achiev, 232, 0.0332750512099
+make, 5459, 0.0329023814915
+legal, 5200, 0.0328584579261
+benefit, 1028, 0.0327583164477
+orient, 6290, 0.0325625067
+industri, 4608, 0.0316625854142
+implement, 4544, 0.0316625854142
+facil, 3348, 0.0316625854142
+west, 9708, 0.0315790283679
+press, 6841, 0.0314965223816
+factor, 3352, 0.0314965223816
+repres, 7294, 0.0313345600927
+folk, 3576, 0.0313345600927
+basi, 936, 0.0312550543989
+resourc, 7320, 0.031176500892
+explor, 3307, 0.0310221610787
+consider, 2060, 0.0309463320326
+util, 9384, 0.0307972542648
+distribut, 2753, 0.0307239670283
+sci, 7690, 0.0305798043147
+announc, 524, 0.03009881427
+vnew, 9564, 0.0298390124106
+east, 2965, 0.0298390124106
+unit, 9278, 0.0297756385897
+rang, 7094, 0.029650698823
+offic, 6206, 0.0290593852082
+vms, 9563, 0.0289472604363
+releas, 7253, 0.028675057915
+receiv, 7167, 0.028675057915
+vax, 9439, 0.0286219471841
+decid, 2442, 0.0284137030452
+rest, 7324, 0.0280160576979
+job, 4873, 0.027920302137
+futur, 3737, 0.0276868561656
+april, 595, 0.0272435023446
+low, 5368, 0.0270325793658
+center, 1606, 0.0264757120765
+shuttl, 7929, 0.0263998830305
+present, 6837, 0.0262508052627
+total, 9013, 0.0261775180262
+recent, 7168, 0.02606910003
+care, 1516, 0.0258228835833
+type, 9177, 0.0256189560878
+result, 7332, 0.0254537297335
+general, 3818, 0.0253244814248
+discuss, 2708, 0.0252291895876
+today, 8964, 0.0250733832254
+manag, 5472, 0.0250426612047
+john, 4878, 0.0248019318223
+requir, 7302, 0.0244008114341
+exampl, 3258, 0.0237908360202
+hope, 4372, 0.0234455384322
+state, 8342, 0.0232560916336
+avail, 811, 0.0227833590538
+ask, 689, 0.0227185235398
+news, 6031, 0.0226543226413
+howev, 4406, 0.0226118685162
+end, 3091, 0.0226118685162
+support, 8576, 0.0225907440553
+everi, 3235, 0.0224654063671
+cours, 2190, 0.0224447476432
+high, 4292, 0.0221819426522
+softwar, 8103, 0.0218912389712
+said, 7583, 0.0218346129553
+univers, 9282, 0.0217971320566
+inform, 4637, 0.0215585916078
+possibl, 6765, 0.0215047543198
+new, 6023, 0.0191065585776
+mani, 5479, 0.0186054352236
+need, 5993, 0.01763549365

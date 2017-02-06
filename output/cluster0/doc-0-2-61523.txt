@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61523
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Organization: Penn State University
+From: <RFM@psuvm.psu.edu>
+Subject: Re: moon image in weather sat image
+ <1993Apr30.173625.10139@unocal.com> <billoshC6Bqyy.H6H@netcom.com>
+Lines: 10
+
+In article <billoshC6Bqyy.H6H@netcom.com>, billosh@netcom.com (William E.
+O'Shaughnessy) says:
+>
+>If you brighten up the dark part of CV043015.GIF with your viewer you
+>will see two other objects near the upper left part of the moon.
+>One is actually between the weather satellite and the moon.
+>
+>                            Bill O'Shaughnessy
+>
+What are those other objects?  UFOs????
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+  moon imag weather sat imag netcom com   netcom
+com william o'shaughnessi say  brighten dark part
+cv043015 gif viewer see two object near upper left
+part moon one actual weather satellit moon  bill
+o'shaughnessi  object ufo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shaughnessi, 7862, 0.454650285436
+netcom, 6011, 0.364149317513
+moon, 5851, 0.342448608176
+weather, 9679, 0.31492047339
+com, 1917, 0.245830880915
+brighten, 1312, 0.219236758006
+cv043015, 2319, 0.207836820034
+object, 6173, 0.20708328439
+ufo, 9191, 0.196436882063
+imag, 4512, 0.188491814705
+sat, 7626, 0.160771789955
+upper, 9340, 0.159067285882
+william, 9764, 0.141283467272
+viewer, 9512, 0.139168507639
+dark, 2365, 0.133305124605
+satellit, 7632, 0.120298137446
+gif, 3869, 0.118679520389
+near, 5982, 0.113816801921
+left, 5193, 0.111899078783
+actual, 254, 0.0903989734868
+say, 7653, 0.0713819760693

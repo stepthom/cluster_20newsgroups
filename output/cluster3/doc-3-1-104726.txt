@@ -1,0 +1,135 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104726
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: maynard@ramsey.cs.laurentian.ca (Roger Maynard)
+Subject: Re: Jack Morris
+Organization: Dept. of Computer Science, Laurentian University, Sudbury, ON
+Distribution: na
+Lines: 31
+
+In <1993Apr20.142325.1@stsci.edu> sandoval@stsci.edu writes:
+
+>  Ok, Roger, here's a question for you.  Say you are running an expansion
+>team.  You don't HAVE a team at the moment, but the draft is coming up.  Who
+>are you going to pick, guys who have won the most WS rings, or guys who 
+>COULD contribute the most to your team.  Say the Reds were dumb enough to 
+>not protect Larkin, and the Jays didn't protect Alfredo.  Who would you
+>pick?
+
+For an expansion team?  I'm pretty sure I would go with the rings, as long
+as their salaries and ages weren't too high.  I would want the fans to be 
+able to identify the players.  I would like a championship attitude in the 
+clubhouse.
+
+As for Larkin and Griffin?  Salaries aside, I would have to consider which
+player is likeliest to contribute to a WS victory.  Past performance, age and
+attitude would all be integral to my decision.  I certainly wouldn't just
+haul out my copy of Gillete and pick Larkin, as many others would.  And,
+unlike many others who post to this group, I hardly consider myself quali-
+fied to make those kinds of decisions.
+
+>    (I can't believe I'm getting involved in this... :)
+
+I have never been able to believe it about myself, to tell you the truth.
+It's like banging your head against a stone wall.
+
+-- 
+
+cordially, as always,                      maynard@ramsey.cs.laurentian.ca 
+                                           "So many morons...
+rm                                                   ...and so little time." 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri       roger here question say run
+expans team don't team moment draft come go pick
+guy ring guy could contribut team say red dumb
+enough protect larkin jay didn't protect alfredo
+pick  expans team i'm pretti sure ring long salari
+age weren't high want fan abl identifi player like
+championship attitud clubhous  larkin griffin
+salari asid consid player likeliest contribut
+victori past perform age attitud integr decis
+certain wouldn't haul copi gillet pick larkin mani
+other unlik mani other post group hard consid
+quali fie make kind decis  can't believ i'm get
+involv  never abl believ tell truth it like bang
+head stone wall     mani moron littl time
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+larkin, 5127, 0.335611104394
+pick, 6619, 0.247970424572
+team, 8732, 0.243854401141
+salari, 7589, 0.222108402163
+expans, 3289, 0.216220384227
+ring, 7406, 0.19828735234
+attitud, 769, 0.192152880655
+decis, 2445, 0.186898007209
+protect, 6940, 0.179196760863
+contribut, 2103, 0.167412557404
+age, 328, 0.164307485752
+mani, 5479, 0.156244341102
+guy, 4100, 0.137874804573
+championship, 1648, 0.135726159187
+abl, 180, 0.134345602793
+alfredo, 403, 0.130444104781
+consid, 2059, 0.128789612571
+player, 6683, 0.126711637276
+clubhous, 1843, 0.124597060093
+moron, 5865, 0.12152982425
+griffin, 4048, 0.115554829669
+bang, 894, 0.115554829669
+victori, 9504, 0.114562115727
+believ, 1009, 0.113400717905
+draft, 2853, 0.109523253424
+dumb, 2914, 0.104990720858
+stone, 8409, 0.104425730576
+weren, 9705, 0.101358494733
+identifi, 4486, 0.0995657806305
+asid, 687, 0.0960764403273
+integr, 4694, 0.095383500152
+say, 7653, 0.0932308475989
+wall, 9619, 0.0928469583446
+unlik, 9290, 0.0911509162575
+morri, 5868, 0.0898481902086
+roger, 7458, 0.0881669491988
+moment, 5828, 0.0872711259053
+jack, 4808, 0.0858014829306
+truth, 9132, 0.0854023207889
+jay, 4832, 0.0819890714995
+copi, 2130, 0.0807223116431
+past, 6456, 0.0776315514726
+head, 4215, 0.077502703678
+like, 5272, 0.0773212479903
+involv, 4750, 0.0769961685087
+wouldn, 9854, 0.0767480466871
+perform, 6539, 0.0745444339438
+red, 7194, 0.0734828241029
+fan, 3381, 0.0730747909691
+hard, 4167, 0.0695099437656
+pretti, 6851, 0.0673196880628
+kind, 5021, 0.0654961328521
+certain, 1619, 0.0649696240769
+group, 4064, 0.0638985399841
+high, 4292, 0.0620930205327
+littl, 5308, 0.0617087758739
+didn, 2625, 0.061332407944
+tell, 8767, 0.0599983601403
+sure, 8585, 0.0591284784206
+long, 5336, 0.0578522810233
+question, 7032, 0.0555775187719
+run, 7543, 0.0553072191528
+post, 6766, 0.0536235825875
+come, 1923, 0.0532428562427
+want, 9634, 0.0500155843996
+make, 5459, 0.0460511570505
+time, 8936, 0.0436254886811
+don, 2811, 0.041646412465

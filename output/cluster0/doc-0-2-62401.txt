@@ -1,0 +1,94 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62401
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: vis@world.std.com (Tom R Courtney)
+Subject: Re: Space Marketing would be wonderfull.
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 17
+
+In some sense, I think that the folks who think the idea is wonderful, and the
+folks who want to boycott anyone who has anything to do with this project are
+both right.
+
+That is, I think that space advertising is an interesting idea, and if someone
+wants to try it out, more power to them. However, a company may discover that
+the cost of launch is not the only cost of advertising, and a company who 
+gauged that ill will would lose them more revenue than the advertising would
+gain might decide to bow out of the project.
+
+I got incensed when I read that Carl Sagan called this idea an "abomination." 
+I don't think that word means what he thinks it does. Children starving in the
+richest country in the world is an abomination; an ad agency is at worst just
+in poor taste.
+
+Tom Courtney
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful    sens think folk think
+idea wonder folk want boycott anyon anyth project
+right  think space advertis interest idea someon
+want tri power howev compani discov cost launch
+cost advertis compani gaug ill lose revenu
+advertis gain might decid bow project  got incens
+read carl sagan call idea abomin don't think word
+mean think children starv richest countri world
+abomin agenc worst poor tast  tom courtney
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+advertis, 291, 0.36740506999
+abomin, 186, 0.31600317585
+think, 8871, 0.262935217333
+idea, 4482, 0.235492433409
+folk, 3576, 0.21937808305
+compani, 1958, 0.191037083399
+richest, 7384, 0.179040331301
+cost, 2169, 0.174477106218
+project, 6909, 0.170446314489
+boycott, 1257, 0.163125136324
+bow, 1253, 0.163125136324
+starv, 8338, 0.158001587925
+sagan, 7581, 0.153815344071
+revenu, 7354, 0.15197750164
+carl, 1520, 0.145817953175
+ill, 4505, 0.144505551817
+tast, 8708, 0.139897997558
+wonderful, 9822, 0.137900149094
+space, 8164, 0.130259518614
+want, 9634, 0.125092644657
+gain, 3746, 0.119709750408
+discov, 2698, 0.119709750408
+agenc, 329, 0.119280564587
+worst, 9849, 0.112675161864
+countri, 2186, 0.111133591581
+poor, 6741, 0.109410725719
+market, 5514, 0.104677770968
+tom, 8976, 0.103578959735
+children, 1707, 0.103578959735
+lose, 5350, 0.100946210741
+decid, 2442, 0.0994643564161
+sens, 7788, 0.0956700985063
+launch, 5147, 0.0902744640326
+power, 6783, 0.0852231572443
+wonder, 9821, 0.0833704774801
+word, 9829, 0.0822417434289
+howev, 4406, 0.0791545876914
+anyth, 555, 0.0787144316017
+world, 9841, 0.0768989571932
+got, 3960, 0.0753416979634
+someon, 8124, 0.0750301494539
+mean, 5595, 0.0709576498094
+read, 7135, 0.0698942266153
+right, 7399, 0.0698447954382
+tri, 9087, 0.0664966290287
+anyon, 554, 0.0616997463305
+don, 2811, 0.0520803659328

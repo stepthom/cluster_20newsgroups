@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38502
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: koolish@bbn.com (Dick Koolish)
+Subject: Re: Flat globe
+Lines: 17
+NNTP-Posting-Host: bbn.com
+
+sp1marse@kristin (Marco Seirio) writes:
+
+
+>Does anybody have an algorithm for "flattening" out a globe, or any other
+>parametric surface, that is definied parametrically. 
+>That is, I would like to take a sheet of paper and a knife and to be
+>able to calculate how I must cut in the paper so I can fold it to a
+>globe (or any other object).
+
+
+There is a library of map projections in:
+
+    charon.er.usgs.gov
+
+in
+
+    /pub/PROJ.4.1.3.tar.Z
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ flat globe       anybodi algorithm flatten globe
+parametr surfac defini parametr like take sheet
+paper knife abl calcul must cut paper fold globe
+object   librari map project  charon usg gov
+pub proj tar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+globe, 3905, 0.540663390932
+parametr, 6422, 0.37211559052
+paper, 6409, 0.25054491643
+defini, 2483, 0.212916864906
+knife, 5046, 0.207791874078
+flatten, 3527, 0.196394401411
+fold, 3574, 0.193432756689
+charon, 1672, 0.193432756689
+usg, 9369, 0.188307765861
+sheet, 7870, 0.182035284022
+tar, 8701, 0.165512820527
+flat, 3526, 0.161629466139
+gov, 3965, 0.141695594305
+pub, 6971, 0.136054816046
+calcul, 1451, 0.135334016904
+map, 5498, 0.126028816661
+librari, 5250, 0.124779294227
+cut, 2313, 0.12358295937
+surfac, 8587, 0.122888859258
+algorithm, 407, 0.122211486088
+anybodi, 552, 0.114292669701
+project, 6909, 0.104334079524
+object, 6173, 0.103519250695
+abl, 180, 0.102839145916
+like, 5272, 0.0591880265465

@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38575
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: emarciniak@email.bony.com
+Subject: Image of pictures...
+Lines: 8
+Organization: ***
+
+Hi there,
+  I am looking for advice on software/hardware package for making, 
+storing and processing of pictures. The ideal software would allow me to
+cahnge size of the picture, edit it ( it means add text below, above...) 
+and the most important is it would have DOS command interface...
+Thank you in advance...
+emanuel marciniak
+the bank of new york.. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ imag pictur     look advic softwar hardwar packag
+make store process pictur ideal softwar allow
+cahng size pictur edit mean add text import dos
+command interfac thank advanc emanuel marciniak
+bank new york
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pictur, 6622, 0.498687817092
+softwar, 8103, 0.262865867006
+ideal, 4483, 0.223974292327
+advic, 292, 0.222798669075
+bank, 897, 0.208406697157
+interfac, 4709, 0.204580344599
+store, 8417, 0.199780268204
+edit, 2996, 0.187652397923
+york, 9960, 0.1862541284
+dos, 2825, 0.185798857962
+size, 8000, 0.18275133599
+text, 8822, 0.176204909663
+hardwar, 4173, 0.175851719365
+command, 1933, 0.172807938115
+packag, 6375, 0.17152716005
+add, 260, 0.169084178171
+process, 6890, 0.159187301807
+allow, 432, 0.150909743869
+import, 4551, 0.149264845413
+advanc, 285, 0.148908458779
+imag, 4512, 0.132006167123
+mean, 5595, 0.121700802643
+new, 6023, 0.114713975135
+thank, 8832, 0.11028295718
+make, 5459, 0.0987713971868
+look, 5341, 0.0982779013262

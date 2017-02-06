@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38594
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kimd@rs6401.ecs.rpi.edu (Daniel Chungwan Kim)
+Subject: WANTED: Super 8mm Projector with SOUNDS
+Keywords: projector
+Nntp-Posting-Host: rs6401.ecs.rpi.edu
+Lines: 9
+
+	I am looking for Super 8mm Projector with SOUNDS.
+If anybody out there has one for sale, send email with
+the name of brand, condition of the projector, and price
+for sale to kimd@rpi.edu
+(IT MUST HAVE SOUND CAPABILITY)
+
+Danny
+kimd@rpi.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want super 8mm projector sound     look super 8mm
+projector sound anybodi one sale send email name
+brand condit projector price  must sound capabl
+danni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+projector, 6911, 0.661954790187
+8mm, 149, 0.425601322734
+sound, 8150, 0.321463059297
+super, 8552, 0.312104079104
+danni, 2361, 0.178612361048
+brand, 1270, 0.168878588254
+sale, 7590, 0.148630881866
+condit, 2017, 0.14029691941
+price, 6857, 0.126936992457
+capabl, 1498, 0.122355469986
+email, 3060, 0.114816427372
+anybodi, 552, 0.110961395081
+send, 7785, 0.104839073051
+want, 9634, 0.0743402263666
+look, 5341, 0.068105746039

@@ -1,0 +1,179 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39038
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: edwest@gpu.utcc.utoronto.ca (Dr. Edmund West)
+Subject: AVS presentation
+Organization: UTCC Public Access
+Distribution: tor
+Lines: 46
+
+                      University of Toronto
+              Instructional and Research Computing
+
+             is sponsoring a technical presentation
+                    on Visualization Software
+
+
+             _A_d_v_a_n_c_e_d _V_i_s_u_a_l _S_y_s_t_e_m_s (_A_V_S) _S_o_f_t_w_a_r_e
+
+
+                        2:10 PM - 4:00 PM
+                      Thursday, May 6, 1993
+                    Sandford Fleming Building
+                            Room 1105
+
+
+"Advanced Visual Systems will present this technical seminar on
+AVS, the world's leading visualization software package.  AVS is
+a point and click, module driven, easy-to-use product that
+produces full color, two or three dimensional rendered scenes for
+interactive observation.  It is supported on all current Unix
+RISC platforms from Sun, SGI, IBM, H-P, DG, and DEC.  It also
+runs under DEC VMS.
+
+"AVS is in its fourth year on the street and is very mature.  All
+fields of science, engineering, medicine, and even business
+applications now use AVS.  This seminar will focus on its many
+features in technical detail during a half hour slide
+presentation.  Following a question period there will be a live
+demonstration using a Sun SPARCstation.  In addition, a new AVS
+program called CAMPUS will be introduced at this meeting.
+
+"Also discussed will be the International AVS Center, which
+provides an on-line repository of over 1000 graphics modules at
+the North Carolina Supercomputer Center in Raliegh, NC.  AVS has
+imbedded tools to write one's own customized modules should these
+not be available with AVS or from AVS International."
+
+
+                            _S_p_e_a_k_e_r_s
+
+     The scheduled speaker for this presentation is Mr. Paul
+Ecklund of Ecklund Associates, the distributor of AVS in
+Canada.
+
+          _T_h_i_s _p_r_e_s_e_n_t_a_t_i_o_n _i_s _o_p_e_n _t_o _t_h_e _p_u_b_l_i_c
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ av present     univers toronto instruct research
+comput  sponsor technic present visual softwar
+thursday sandford fleme build room   advanc visual
+system present technic seminar av world lead
+visual softwar packag av point click modul driven
+easi use product produc full color two three
+dimension render scene interact observ support
+current unix risc platform sun sgi ibm also run
+vms  av fourth year street matur field scienc
+engin medicin even busi applic use av seminar
+focus mani featur technic detail half hour slide
+present follow question period live demonstr use
+sun sparcstat addit new av program call campus
+introduc meet  also discuss intern av center
+provid line repositori graphic modul north
+carolina supercomput center raliegh av imbed tool
+write one custom modul avail av av intern
+schedul speaker present paul ecklund ecklund
+associ distributor av canada
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+av, 810, 0.809291580136
+present, 6837, 0.199161147803
+modul, 5815, 0.159256618976
+visual, 9547, 0.152467222606
+seminar, 7782, 0.139073016868
+technic, 8737, 0.132540180113
+intern, 4716, 0.0885339666422
+sun, 8539, 0.0822905171521
+center, 1606, 0.0803469935997
+fleme, 3536, 0.0753865449622
+distributor, 2754, 0.0753865449622
+repositori, 7292, 0.0720377536532
+supercomput, 8557, 0.0675393026982
+softwar, 8103, 0.0664342939077
+use, 9363, 0.0659425481187
+sparcstat, 8185, 0.0658766714141
+matur, 5555, 0.0658766714141
+click, 1815, 0.0658766714141
+carolina, 1527, 0.0658766714141
+risc, 7413, 0.0638101089328
+campus, 1480, 0.0638101089328
+speaker, 8193, 0.0626378552869
+slide, 8031, 0.0626378552869
+thursday, 8911, 0.060198236597
+introduc, 4732, 0.0597746555363
+dimension, 2653, 0.0597746555363
+medicin, 5609, 0.0593683684029
+driven, 2875, 0.0593683684029
+sponsor, 8254, 0.0575537852713
+scene, 7671, 0.0566051961545
+fourth, 3630, 0.056019577094
+focus, 3569, 0.056019577094
+sgi, 7831, 0.0539708030942
+instruct, 4684, 0.0537419964039
+custom, 2311, 0.052670785785
+canada, 1481, 0.0517037487432
+interact, 4704, 0.0511656364683
+street, 8440, 0.0508224075354
+platform, 6676, 0.0504906217228
+render, 7277, 0.0501695405658
+room, 7476, 0.0498584948548
+north, 6110, 0.0495568762368
+tool, 8988, 0.0489797492013
+meet, 5615, 0.0489797492013
+ibm, 4472, 0.04817233483
+demonstr, 2520, 0.0480439117232
+paul, 6469, 0.0469570890969
+associ, 706, 0.0468433432567
+featur, 3422, 0.0466196787276
+busi, 1424, 0.0458742120218
+unix, 9284, 0.0455710621086
+schedul, 7678, 0.0452768736162
+addit, 263, 0.0451807119726
+half, 4124, 0.0450854705503
+hour, 4395, 0.044805095596
+period, 6546, 0.0443546724583
+produc, 6895, 0.0440938893463
+vms, 9563, 0.0439237543883
+easi, 2959, 0.0439237543883
+applic, 585, 0.0435919685756
+packag, 6375, 0.0433501918437
+product, 6896, 0.0416692033714
+toronto, 9003, 0.0415356087121
+observ, 6179, 0.0414037835705
+lead, 5172, 0.0404076876681
+build, 1378, 0.0401734967999
+color, 1907, 0.0400014005347
+engin, 3109, 0.0388228297494
+research, 7307, 0.0382820588255
+discuss, 2708, 0.0382820588255
+advanc, 285, 0.0376337499749
+field, 3466, 0.0374560193111
+scienc, 7692, 0.0371952361992
+provid, 6949, 0.036816442599
+live, 5310, 0.0364914291415
+current, 2299, 0.0360611885605
+avail, 811, 0.034570824739
+comput, 1993, 0.0345051304234
+write, 9865, 0.0343106098468
+support, 8576, 0.0342785561873
+world, 9841, 0.0333328767774
+univers, 9282, 0.0330743517829
+line, 5285, 0.0329896478446
+graphic, 3997, 0.0327672329422
+follow, 3578, 0.0327123972515
+program, 6905, 0.0308932580875
+question, 7032, 0.030126448094
+run, 7543, 0.0299799290045
+new, 6023, 0.0289917516725
+mani, 5479, 0.0282313612663
+point, 6710, 0.028092887343
+year, 9943, 0.0250129011926

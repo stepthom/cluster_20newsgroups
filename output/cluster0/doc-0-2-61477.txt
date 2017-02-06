@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61477
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Long term Human Missions
+Organization: Texas Instruments Inc
+Lines: 28
+
+In <jgladu-290493130832@128.249.27.63> jgladu@bcm.tmc.edu (grungy) writes:
+
+>In article <1993Apr29.064347.15433@wisipc.weizmann.ac.il>,
+>ward@pashosh.wisdom.weizmann.ac.il (Ward Paul) wrote:
+>> If you want people to back the space program it must be a good thing in
+>> and of itself.
+
+>I think we *should* tell them about the things that they are using now that
+>are spinoffs of the space program.  That is the only way you can *prove*
+>its worth to *them* - and they vote and pay taxes too.  The continued
+>existence of the space program relies upon that money.
+
+I have to agree with Ward.  The problem with your approach is they add
+up what you can reasonably claim as 'spin-offs', add up what's been
+spent on space, and then come back with something like, "You spent $X
+billion for that?  Wouldn't it be better just to spend the money on
+direct research and forget all this space stuff?  We could have got
+all that stuff a *lot* cheaper that way.  Space is wasteful and
+inefficient."
+
+Then they cancel your funding and spend it studying mating rituals of
+New Guinea tribesmen or something.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ long term human mission        want peopl back
+space program must good thing   think tell thing
+use spinoff space program way prove worth vote pay
+tax continu exist space program reli upon money
+agre ward problem approach add reason claim spin
+off add what spent space come back someth like
+spent billion wouldn't better spend money direct
+research forget space stuff could got stuff lot
+cheaper way space wast ineffici  cancel fund spend
+studi mate ritual new guinea tribesmen someth
+insist perfect safeti peopl don't ball live real
+world mari shafer nasa ame dryden
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+space, 8164, 0.382951805829
+spent, 8223, 0.222752130022
+spend, 8222, 0.210795008992
+program, 6905, 0.209529906492
+add, 260, 0.193220029964
+money, 5835, 0.181387145381
+stuff, 8472, 0.172451293478
+guinea, 4089, 0.170433472054
+ritual, 7420, 0.148933604028
+spinoff, 8237, 0.145713706173
+ward, 9636, 0.142897422737
+cancel, 1487, 0.14039474578
+someth, 8126, 0.132470896273
+shafer, 7839, 0.130117270377
+dryden, 2888, 0.127972705497
+reli, 7255, 0.126648741256
+vote, 9585, 0.126014871154
+spin, 8235, 0.12539836956
+thing, 8869, 0.122940724919
+peopl, 6530, 0.122096916426
+tax, 8718, 0.120015486111
+mari, 5508, 0.118623233804
+safeti, 7579, 0.117740732437
+way, 9666, 0.117719212869
+cheaper, 1678, 0.117312130895
+insist, 4673, 0.116073236323
+ame, 465, 0.113068659734
+billion, 1092, 0.107219381322
+approach, 589, 0.107219381322
+wast, 9654, 0.105648913822
+forget, 3604, 0.10258122106
+fund, 3723, 0.102144296641
+worth, 9850, 0.101928975375
+pay, 6474, 0.101928975375
+prove, 6947, 0.0998820284381
+perfect, 6538, 0.0983687927645
+studi, 8469, 0.0967798339056
+continu, 2092, 0.0949788008982
+wouldn, 9854, 0.0940539761801
+term, 8795, 0.0924512930751
+mission, 5772, 0.0889426196072
+ball, 877, 0.0880000356927
+claim, 1782, 0.0876565038202
+agre, 337, 0.0870953550229
+human, 4432, 0.0868747561915
+research, 7307, 0.0865478608451
+direct, 2667, 0.0862256467389
+nasa, 5956, 0.0846803554096
+live, 5310, 0.0824996154406
+exist, 3283, 0.0806777386147
+real, 7144, 0.0771378912073
+world, 9841, 0.0753587782217
+got, 3960, 0.0738327087245
+tell, 8767, 0.0735274000977
+reason, 7156, 0.0725773528884
+long, 5336, 0.0708974012526
+problem, 6887, 0.0707897412358
+lot, 5356, 0.0702066464008
+better, 1060, 0.0673135417892
+new, 6023, 0.0655443872768
+come, 1923, 0.0652485965307
+want, 9634, 0.0612936066365
+good, 3948, 0.0578401737259
+think, 8871, 0.051533798254
+don, 2811, 0.0510372687652
+use, 9363, 0.0496941792357
+like, 5272, 0.0473782143691

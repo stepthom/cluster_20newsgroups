@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60980
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Moonbase race
+Organization: U of Toronto Zoology
+Lines: 11
+
+In article <C5sx3y.3z9.1@cs.cmu.edu> 18084TM@msu.edu (Tom) writes:
+>On the other hand, if Apollo cost ~25billion, for a few days or weeks
+>in space, in 1970 dollars, then won't the reward have to be a lot more
+>than only 1 billion to get any takers?
+
+Apollo was done the hard way, in a big hurry, from a very limited
+technology base... and on government contracts.  Just doing it privately,
+rather than as a government project, cuts costs by a factor of several.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moonbas race     hand apollo cost 25billion day
+week space dollar won't reward lot billion get
+taker  apollo done hard way big hurri limit
+technolog base govern contract privat rather
+govern project cut cost factor sever  work one man
+work henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+apollo, 570, 0.359476835637
+govern, 3966, 0.282379312191
+cost, 2169, 0.257082844718
+taker, 8681, 0.236371537972
+hurri, 4449, 0.219089545019
+moonbas, 5852, 0.201807552066
+reward, 7368, 0.194530013169
+work, 9833, 0.191693969557
+contract, 2095, 0.176386024748
+dollar, 2802, 0.174523270342
+zoolog, 9993, 0.170005704114
+race, 7049, 0.166973991093
+privat, 6879, 0.164639859321
+spencer, 8221, 0.163312964081
+factor, 3352, 0.162456424865
+billion, 1092, 0.161210953232
+henri, 4258, 0.153907127238
+cut, 2313, 0.148738935345
+limit, 5278, 0.147903547422
+won, 9820, 0.144256628621
+toronto, 9003, 0.141189656096
+technolog, 8743, 0.134462234879
+hard, 4167, 0.12807902575
+project, 6909, 0.125571842491
+sever, 7823, 0.124868459735
+week, 9691, 0.124591150872
+hand, 4145, 0.122711139902
+man, 5471, 0.116849099068
+big, 1082, 0.115240325687
+base, 923, 0.105876207759
+lot, 5356, 0.10556002329
+day, 2402, 0.100322403883
+space, 8164, 0.0959652768285
+way, 9666, 0.0884990488026

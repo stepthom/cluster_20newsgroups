@@ -1,0 +1,156 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61551
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jafoust@cco.caltech.edu (Jeff Foust)
+Subject: Re: Mothership for Flybys and cutting costs..
+Organization: Caltech:  Pasadena, California, USA
+Lines: 32
+NNTP-Posting-Host: sandman.caltech.edu
+
+In a recent article nsmca@aurora.alaska.edu writes:
+>Okay we have figure out that a mission specifically to Pluto is to large 
+>and to expensive..
+
+I'd hardly call the current Pluto Fast Flyby proposal "too large" (if the
+new technology insertion currently taking place succeeds, the S/C mass will
+drop to 110-120 kg) or "too expensive" ($400 million [FY92 $] for two S/C),
+especially when compared to other NASA planetary missions.
+
+>Basically what I mean is design a mother ship that has piggy backed probes for
+>different missions,namely different planets. Each probe would be tied in with
+>the mother ship (or earth as the case may be).. This is good when and if we go
+>for Mars (the MArs mission can act as either Mother ship or relay point for 
+>the probes.
+
+This proposal would work only if your various targets are relaively nearby and
+the require minimal delta-v from the mother ship.  A mission to the main belt
+might be one possibility for such a mission -- I recall a paper being presented
+at an AIAA deisgn conference in Irvine in February where such a proposed
+spacecraft was designed by some grad students at UT Austin (I think).  Four
+mini-spacecraft would detatch from the main S/C, each visiting a seperate
+asteroid and then returning to the main S/C.  After analysis, the main S/C
+would then be targeted for the most "interesting" object for further study.
+
+Now, if I could only *find* that paper...  =)
+
+
+-- 
+Jeff Foust              [40 days!]	"Historical analogy is the last refuge
+Senior, Planetary Science, Caltech	 of people who can't grasp the current
+jafoust@cco.caltech.edu			 situation." -- from _Red_Mars_ by
+jeff@scn1.jpl.nasa.gov					Kim Stanley Robinson
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mothership flybi cut cost      okay figur mission
+specif pluto larg expens  i'd hard call current
+pluto fast flybi propos larg new technolog insert
+current take place succeed mass drop expens
+million fy92 two especi compar nasa planetari
+mission  basic mean design mother ship piggi back
+probe differ mission name differ planet probe tie
+mother ship earth case good mar mar mission act
+either mother ship relay point probe  propos work
+various target relaiv nearbi requir minim delta
+mother ship mission main belt might one possibl
+mission recal paper present aiaa deisgn confer
+irvin februari propos spacecraft design grad
+student austin think four mini spacecraft detatch
+main visit seper asteroid return main analysi main
+target interest object studi  could find paper
+jeff foust day histor analog last refug senior
+planetari scienc caltech peopl can't grasp current
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mission, 5772, 0.335104278128
+mother, 5877, 0.319750010529
+ship, 7888, 0.303908199078
+main, 5450, 0.248005700668
+probe, 6886, 0.226999513771
+propos, 6933, 0.178043182015
+flybi, 3564, 0.161588164549
+target, 8704, 0.156731938574
+pluto, 6701, 0.156731938574
+current, 2299, 0.153582293508
+planetari, 6665, 0.144299586757
+mar, 5500, 0.139067744169
+expens, 3294, 0.133324824238
+spacecraft, 8166, 0.125935806996
+paper, 6409, 0.125935806996
+foust, 3631, 0.110175004389
+design, 2564, 0.109802209353
+larg, 5124, 0.104650080426
+piggi, 6625, 0.102268060361
+refug, 7220, 0.100381363684
+mothership, 5878, 0.100381363684
+mini, 5737, 0.0972285155902
+seper, 7798, 0.0924744196564
+grad, 3977, 0.0924744196564
+austin, 791, 0.0924744196564
+februari, 3423, 0.0905877229794
+caltech, 1468, 0.0905877229794
+aiaa, 350, 0.0905877229794
+succeed, 8511, 0.0897311433372
+senior, 7787, 0.0889235385685
+grasp, 4002, 0.0889235385685
+relay, 7252, 0.0874348748853
+differ, 2633, 0.0870124322643
+nearbi, 5983, 0.0848588104216
+belt, 1017, 0.0821849653816
+insert, 4670, 0.0812426671536
+asteroid, 716, 0.0807940822746
+analog, 487, 0.0799375026324
+minim, 5739, 0.0795279308574
+delta, 2509, 0.0791298978637
+visit, 9544, 0.0762945740732
+jeff, 4839, 0.0750651697167
+histor, 4313, 0.0739342273397
+tie, 8923, 0.0731417259791
+confer, 2025, 0.0726370567292
+student, 8468, 0.0703531877839
+okay, 6215, 0.0703531877839
+recal, 7166, 0.0693362571589
+drop, 2878, 0.0683876300453
+analysi, 490, 0.0669910138334
+mass, 5533, 0.0668257577171
+million, 5724, 0.0652715290119
+planet, 6664, 0.0646947453815
+act, 249, 0.0630934975418
+various, 9432, 0.0623561526737
+fast, 3397, 0.0623561526737
+cut, 2313, 0.0621186809178
+studi, 8469, 0.0607720208105
+return, 7346, 0.0603502212227
+figur, 3476, 0.0600419347336
+compar, 1960, 0.0594448358778
+especi, 3190, 0.0585025376498
+basic, 937, 0.0581425376182
+present, 6837, 0.0565476385708
+technolog, 8743, 0.0561562219372
+specif, 8203, 0.0560792231806
+cost, 2169, 0.053683479593
+hard, 4167, 0.0534903662878
+nasa, 5956, 0.0531742627934
+scienc, 7692, 0.0528040432671
+requir, 7302, 0.0525625119688
+object, 6173, 0.0520337054198
+earth, 2956, 0.0492193682457
+case, 1540, 0.0491251729843
+place, 6657, 0.0483933984836
+possibl, 6765, 0.0463240294025
+mean, 5595, 0.0436647950906
+day, 2402, 0.0418982116636
+new, 6023, 0.0411580047914
+work, 9833, 0.0400291171278
+point, 6710, 0.0398819362462
+peopl, 6530, 0.0383348268255
+good, 3948, 0.0363202136179
+think, 8871, 0.0323601822151

@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105026
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rudy@netcom.com (Rudy Wade)
+Subject: Re: bob vesterman's plan to generate fan interest
+Organization: Home of the Brave
+Lines: 19
+
+In article <1254@rd1.interlan.com> tonyf@rm1.interlan.com (Tony Fernandez) writes:
+>The Marlins tried something like this and was a complete failure.  On
+>Opening Day, instead of having a 7th-inning stretch with the singing of
+>Take Me Out to the Ballgame, they had some young women on the field lead
+>the crowd into doing aerobics while the PA was playing Gloria Estefan's
+>Get On Your Feet.  The fans actually booed and started singing Take Me
+>Out... on their own.  I actually kind of felt sorry for the girls.
+
+Are you kidding?  I'm stuck with the Toronto SkyDome, where their idea
+of a 7th inning stretch is that "Blue Jays" song where everyone gets
+to yell:  "Okay, okay, Blue Jays, Blue Jays, Let's Play Ball!"
+
+Wow.. what genius did it take to compose that one, to outshine the
+old classic.  And there are women on the field to "lead the crowd".
+
+Then again, this is the same crowd who is more entertained by the
+"grounds crew" and the word ground is used loosely, than it is by
+the outstanding plays by the opponents' fielders.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bob vesterman plan generat fan interest
+marlin tri someth like complet failur open day
+instead 7th inning stretch sing take ballgam young
+women field lead crowd aerob play gloria estefan
+get feet fan actual boo start sing take actual
+kind felt sorri girl  kid i'm stuck toronto skydom
+idea 7th inning stretch blue jay song everyon get
+yell okay okay blue jay blue jay let play ball
+wow genius take compos one outshin old classic
+women field lead crowd  crowd entertain ground
+crew word ground use loos outstand play oppon
+fielder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+crowd, 2245, 0.337677057275
+blue, 1176, 0.253514637065
+jay, 4832, 0.245606110284
+sing, 7979, 0.239985454365
+7th, 140, 0.212039638274
+stretch, 8443, 0.197172222092
+women, 9819, 0.194049693044
+okay, 6215, 0.18257742843
+play, 6681, 0.181386261874
+inning, 4657, 0.169009758043
+ground, 4061, 0.164732967377
+lead, 5172, 0.148869990674
+fan, 3381, 0.145935019888
+field, 3466, 0.137995455007
+skydom, 8012, 0.132700735101
+boo, 1217, 0.130252599925
+outstand, 6333, 0.121351406441
+song, 8133, 0.119992727183
+loos, 5345, 0.118727827055
+girl, 3883, 0.118727827055
+actual, 254, 0.117895304743
+yell, 9946, 0.117544592007
+oppon, 6267, 0.114393927203
+ballgam, 879, 0.114393927203
+compos, 1981, 0.113453527228
+genius, 3826, 0.111706131359
+stuck, 8466, 0.109362462449
+entertain, 3127, 0.108643398522
+vesterman, 9488, 0.107951475652
+classic, 1790, 0.107284719264
+wow, 9856, 0.106019819137
+felt, 3439, 0.104836584089
+marlin, 5517, 0.103725105609
+fielder, 3467, 0.101209690431
+crew, 2227, 0.10074551931
+failur, 3361, 0.0998510111735
+feet, 3430, 0.0955861651882
+kid, 5008, 0.0921285761704
+young, 9962, 0.0818687034281
+bob, 1189, 0.0806038033005
+generat, 3819, 0.0794205682522
+instead, 4682, 0.0787180386242
+toronto, 9003, 0.0765127385216
+plan, 6660, 0.0748767945464
+everyon, 3241, 0.0730685227613
+open, 6258, 0.072767138769
+ball, 877, 0.0717026098162
+complet, 1975, 0.0708753816821
+sorri, 8142, 0.070696514117
+old, 6216, 0.0693251251324
+word, 9829, 0.0656686096661
+kind, 5021, 0.0653999780469
+idea, 4482, 0.062678878325
+start, 8334, 0.0580330597566
+let, 5225, 0.057899722587
+day, 2402, 0.0543661771576
+someth, 8126, 0.0539687791753
+tri, 9087, 0.0530964081467
+use, 9363, 0.0404909193028
+like, 5272, 0.0386038663729

@@ -1,0 +1,116 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61454
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: shag@aero.org (Rob Unverzagt)
+Subject: Re: Satellite around Pluto Mission?
+Organization: Organization?  You must be kidding.
+Lines: 32
+NNTP-Posting-Host: aerospace.aero.org
+
+In article <1993Apr30.004311.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+> Being wierd again, so be warned:
+
+Being what?  Oh, _weird_.  OK, I'm warned!
+
+> Is there a plan to put a satellite around each planet in the solar system to
+> keep watch? I help it better to ask questions before I spout an opinion.
+
+Keep watch for what?
+
+> How about a mission (unmanned) to Pluto to stay in orbit and record things
+> around and near and on Pluto.. I know it is a strange idea, but why not??
+
+Oh, the several tens (or hundreds) of millions of dollars it would cost
+to "record things" there.  And I'd prefer a manned mission, anyway.
+
+> It could do some scanning of not only Pluto, but also of the solar system,
+> objects near and aaroundpluto, as well as SETI and looking at the galaxy
+> without having much of the solar system to worry about..
+
+We've already got a pretty good platform to "scan" the solar
+system, as well as SETI and looking at the galaxy without having
+much of the solar system to worry about..
+Care to guess where it is?
+
+Shag
+
+-- 
+----------------------------------------------------------------------
+       Rob Unverzagt        |
+  shag@aerospace.aero.org   |       Tuesday is soylent green day.
+unverzagt@courier2.aero.org | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ satellit around pluto mission      wierd warn
+weird i'm warn  plan put satellit around planet
+solar system keep watch help better ask question
+spout opinion  keep watch  mission unman pluto
+stay orbit record thing around near pluto know
+strang idea  sever ten hundr million dollar cost
+record thing i'd prefer man mission anyway  could
+scan pluto also solar system object near
+aaroundpluto well seti look galaxi without much
+solar system worri  we'v alreadi got pretti good
+platform scan solar system well seti look galaxi
+without much solar system worri care guess  shag
+rob unverzagt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+solar, 8107, 0.413364196204
+pluto, 6701, 0.413184665155
+seti, 7816, 0.260243221861
+mission, 5772, 0.220854712527
+galaxi, 3753, 0.199475867184
+warn, 9643, 0.195632439186
+scan, 7660, 0.194909150265
+worri, 9845, 0.192148761028
+satellit, 7632, 0.159373201937
+record, 7184, 0.157490220076
+watch, 9655, 0.154468438826
+near, 5982, 0.150786608517
+unverzagt, 9327, 0.145224460027
+shag, 7840, 0.141068611207
+aaroundpluto, 162, 0.141068611207
+wierd, 9754, 0.123273066195
+spout, 8263, 0.120607941128
+unman, 9293, 0.118276889672
+weird, 9697, 0.114341447028
+thing, 8869, 0.101758634124
+rob, 7434, 0.101432201497
+strang, 8426, 0.0960743805141
+dollar, 2802, 0.0960743805141
+platform, 6676, 0.0944816066181
+look, 5341, 0.0929566678012
+hundr, 4440, 0.0906336012448
+stay, 8355, 0.0889717512848
+million, 5724, 0.0860360533542
+planet, 6664, 0.085275780262
+prefer, 6819, 0.0850904642602
+plan, 6660, 0.0760625057535
+alreadi, 443, 0.0746417975135
+care, 1516, 0.073321826406
+guess, 4079, 0.072181218729
+cost, 2169, 0.0707615523095
+opinion, 6266, 0.0697635937095
+sever, 7823, 0.0687396006919
+object, 6173, 0.0685869432429
+pretti, 6851, 0.0682853317198
+orbit, 6280, 0.0674087414786
+ask, 689, 0.0645072667353
+man, 5471, 0.0643249738818
+idea, 4482, 0.0636714294743
+got, 3960, 0.0611116910073
+question, 7032, 0.0563747309994
+better, 1060, 0.0557157449251
+help, 4249, 0.054714805912
+good, 3948, 0.0478745922452
+know, 5052, 0.0401160008832

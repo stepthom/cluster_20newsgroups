@@ -1,0 +1,35 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38221
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: aad@scr.siemens.com (Anthony A. Datri)
+Subject: Re: Nice gif code
+Nntp-Posting-Host: lovecraft.siemens.com
+Organization: Siemens Weyland-Yutani
+Lines: 7
+
+>There is a thing called xgif
+
+xgif is the grandfather of XV.
+
+-- 
+
+======================================================================8--<
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nice gif code     thing call xgif  xgif grandfath
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grandfath, 3992, 0.662194383459
+gif, 3869, 0.417252661628
+nice, 6047, 0.400156348659
+code, 1871, 0.392872390736
+thing, 8869, 0.270046285118

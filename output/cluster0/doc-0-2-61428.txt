@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61428
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: bobo@thejester.cray.com (Bob Kierski)
+Subject: Philosophy Quest.  How Boldly?
+Originator: bobo@thejester.cray.com
+Lines: 21
+Nntp-Posting-Host: thejester
+Organization: Cray Research, Inc.
+
+
+
+There are a number of Philosophical questions that I would like to ask:
+
+1)  If we encounter a life form during our space exploration, how do we
+determine if we should capture it, imprison it, and then discect it?
+
+2)  If we encounter a civilization that is suffering economicly, will
+we expend resources from earth to help them?
+
+3)  With all of the deseases we currently have that are deadly and undetectable,
+what will be done to ensure that more new deadly deseases aren't brought
+back, or that our deseases don't destroy life elsewhere?
+
+
+
+-- 
+Have a day,
+
+  @   @
+   ( )     bobo
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philosophi quest bold        number philosoph
+question like ask  encount life form space explor
+determin captur imprison discect  encount civil
+suffer econom expend resourc earth help  deseas
+current dead undetect done ensur new dead deseas
+aren't brought back deseas don't destroy life
+elsewher     day   bobo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+deseas, 2558, 0.594996779776
+encount, 3088, 0.274755746054
+dead, 2415, 0.218637882395
+undetect, 9254, 0.191275461896
+bobo, 1192, 0.191275461896
+life, 5260, 0.180672033435
+imprison, 4555, 0.174272665665
+quest, 7031, 0.164326667462
+ensur, 3123, 0.164326667462
+bold, 1205, 0.160545374438
+expend, 3292, 0.154380669259
+econom, 2984, 0.141850193431
+philosophi, 6596, 0.141045864002
+elsewher, 3055, 0.141045864002
+destroy, 2574, 0.137377873027
+civil, 1778, 0.13605161221
+philosoph, 6595, 0.134187689324
+captur, 1509, 0.132455451007
+suffer, 8521, 0.12404306777
+brought, 1343, 0.12071815721
+resourc, 7320, 0.116593783772
+explor, 3307, 0.116016584204
+aren, 623, 0.107040271539
+determin, 2582, 0.106843243573
+form, 3610, 0.0983108788525
+current, 2299, 0.0888783691386
+earth, 2956, 0.0854500296837
+ask, 689, 0.0849626656429
+number, 6156, 0.0797639709063
+question, 7032, 0.0742512845919
+day, 2402, 0.0727397274275
+help, 4249, 0.0720649935376
+new, 6023, 0.0714546499985
+space, 8164, 0.0695805503942
+don, 2811, 0.0556393968731
+like, 5272, 0.051650398546

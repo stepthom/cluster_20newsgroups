@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60830
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: C.O.EGALON@LARC.NASA.GOV (CLAUDIO OLIVEIRA EGALON)
+Subject: Re: japanese moon landing?
+Organization: NASA Langley Research Center
+Lines: 13
+Distribution: world
+Reply-To: C.O.EGALON@LARC.NASA.GOV (CLAUDIO OLIVEIRA EGALON)
+NNTP-Posting-Host: tahiti.larc.nasa.gov
+
+> there is no such thing as a stable lunar orbit
+
+Is it right??? That is new stuff for me. So it means that  you just can 
+not put a sattellite around around the Moon for too long because its 
+orbit will be unstable??? If so, what is the reason??? Is that because 
+the combined gravitacional atraction of the Sun,Moon and Earth 
+that does not provide a stable  orbit around the Moon???
+
+ C.O.EGALON@LARC.NASA.GOV
+
+C.O.Egalon@larc.nasa.gov
+
+Claudio Oliveira Egalon
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ japanes moon land       thing stabl lunar orbit
+right new stuff mean put sattellit around around
+moon long orbit unstabl reason combin gravitacion
+atract sun moon earth provid stabl orbit around
+moon      claudio oliveira egalon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moon, 5851, 0.524359651606
+stabl, 8298, 0.396462764381
+orbit, 6280, 0.350595387997
+oliveira, 6224, 0.238680870521
+egalon, 3009, 0.238680870521
+claudio, 1794, 0.238680870521
+unstabl, 9312, 0.233703619212
+japanes, 4826, 0.185656257498
+combin, 1921, 0.156701919552
+lunar, 5392, 0.155045750297
+land, 5104, 0.137441338472
+sun, 8539, 0.133482727528
+stuff, 8472, 0.123731615955
+provid, 6949, 0.119439258522
+earth, 2956, 0.112476412027
+reason, 7156, 0.104146660469
+long, 5336, 0.101735972483
+mean, 5595, 0.0997830662749
+right, 7399, 0.0982181325184
+new, 6023, 0.0940545332074
+thing, 8869, 0.0882084109326

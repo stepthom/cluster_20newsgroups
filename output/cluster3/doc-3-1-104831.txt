@@ -1,0 +1,127 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104831
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scunning@louven.berkeley.edu (Sean Cunningham)
+Subject: Candlestick
+Nntp-Posting-Host: louven.berkeley.edu
+Organization: University of California, Berkeley
+Lines: 24
+
+Hey folks,
+
+Saw the Giants play ball at the 'Stick Saturday, April 17.  It was the game
+where Pendelton broke up the scoreless tie in the ninth with a two-out,
+two-run homer to right to win it.  (It wasn't the game where the fans 
+threw the give-away "fotoballs" onto the field in response to the homer --
+too bad, huh?)
+
+Well, the 'Stick is still cold.  The Saturday game ended at 5:45pm, and it
+was cold then.  I can't imagine night games in April at the 'Stick.  The
+wind kicked up a little, too, and I got this idea.
+
+At most games, there's a pile of hot dog wrappers and cups and trash on
+the field a lot of the time.  I propose a Kid's Clean-up Corps composed
+mainly of 10-12 year old kids who would love nothing better than to run
+out on the field in the fifth inning (when the guy in the Toro smooths
+the infield) and grab the trash.
+
+It might not be glamorous, but at that age I probably would have given
+anything to be on the field with the ballplayers.  Everybody wins here!
+
+Whaddaya think?
+
+Sean
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ candlestick     hey folk  saw giant play ball
+stick saturday april game pendelton broke
+scoreless tie ninth two two run homer right win
+wasn't game fan threw give away fotobal onto field
+respons homer bad huh  well stick still cold
+saturday game end 45pm cold can't imagin night
+game april stick wind kick littl got idea  game
+there pile hot dog wrapper cup trash field lot
+time propos kid clean corp compos main year old
+kid love noth better run field fifth inning guy
+toro smooth infield grab trash  might glamor age
+probabl given anyth field ballplay everybodi win
+whaddaya think  sean
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.290743655827
+field, 3466, 0.288778671794
+stick, 8393, 0.284034624519
+trash, 9068, 0.223164966448
+saturday, 7639, 0.221864282071
+cold, 1888, 0.206307999084
+homer, 4355, 0.199312956415
+kid, 5008, 0.19279452254
+april, 595, 0.159356001128
+win, 9770, 0.13945766246
+candlestick, 1491, 0.138849290459
+scoreless, 7707, 0.134028261119
+pile, 6628, 0.130178743536
+broke, 1331, 0.12555246975
+compos, 1981, 0.118710282529
+cup, 2294, 0.117774328256
+ballplay, 884, 0.117774328256
+sean, 7744, 0.116881922827
+run, 7543, 0.115569730015
+grab, 3973, 0.11442966237
+dog, 2795, 0.113677281338
+kick, 5006, 0.111582483224
+smooth, 8069, 0.110932141036
+infield, 4627, 0.10853110426
+threw, 8894, 0.107975028882
+huh, 4429, 0.107434619701
+ninth, 6075, 0.106909018129
+fifth, 3471, 0.106397434284
+corp, 2153, 0.101915940485
+wind, 9773, 0.100380460629
+tie, 8923, 0.0993044819591
+clean, 1799, 0.0993044819591
+hey, 4283, 0.0986192927904
+everybodi, 3239, 0.0986192927904
+hot, 4389, 0.0970063047187
+folk, 3576, 0.0916429563705
+inning, 4657, 0.0884203277665
+giant, 3865, 0.0872689868435
+imagin, 4518, 0.0870836399205
+age, 328, 0.0858340559269
+saw, 7650, 0.0844990299042
+main, 5450, 0.084179301548
+wasn, 9652, 0.0832508982524
+propos, 6933, 0.0805763774355
+night, 6063, 0.0778838661294
+fan, 3381, 0.0763483862734
+love, 5366, 0.0761387311014
+away, 833, 0.0760347565526
+ball, 877, 0.0750248782681
+respons, 7323, 0.0738792688232
+old, 6216, 0.0725372352179
+guy, 4100, 0.0720256513725
+bad, 861, 0.070646133817
+noth, 6119, 0.0698036198522
+given, 3887, 0.0688533976298
+end, 3091, 0.0661320431419
+anyth, 555, 0.0657643017088
+idea, 4482, 0.0655830412362
+littl, 5308, 0.064473197862
+play, 6681, 0.0632635374151
+got, 3960, 0.0629464515629
+probabl, 6885, 0.0627379358436
+lot, 5356, 0.0598550336754
+right, 7399, 0.0583539016483
+better, 1060, 0.0573885026156
+year, 9943, 0.0482111588269
+time, 8936, 0.0455798178417
+think, 8871, 0.0439354019605

@@ -1,0 +1,244 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38963
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: XV problems
+Lines: 69
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+Distribution: inet
+
+
+In article <1rohjc$avt@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes:
+
+>In article <1993Apr27.143603.9351@nessie.mcc.ac.uk>
+>C.C.Lilley@mcc.ac.uk writes:
+
+>> [moved on a bit]
+
+>I wrote something about making color modifications quickly
+>with 8bit quantized images and only at the saving the image to file
+>process we have to make the modifications to the 24bit image.
+>This makes sense, because the main use of XV is only viewing images.
+>
+>Doing many changes to image, we should keep all modifications
+>in a buffer; and then before making the operations to 24bit image,
+>we should simplify the operation list for unnecessary operations.
+>
+Think about what you are saying here. The 24 bit image is quantised down to 8
+bits so many 'similar' colours are mapped onto a single palette colour. This
+colour gets modified in fairly arbitrary ways. You then want to apply these
+modifications back to the 24 bit file, so you have to find which colours mapped
+to this one palette colour. Ok you could do this by copying the 24 bit file to a
+32 bit file and using the extra 8 bits to hold the index entry. 
+Having done this, you need to do something to them ... what, exactly?
+
+Apply the difference in RGB between the original and modified palette entry to
+each colour in the group? This could generate colours with RGB outside the range
+0...255. It would also lead to discontinuities when different parts of a smooth
+colour gradient mapped to several different palette entries.
+
+You could interpolate from full modification to no modification depending how
+far each colour was from the palette entry. However I suspect this would look
+rather odd.
+
+So in summary, what I said in my previous posting still holds:
+
+>>How would you suggest doing colour editing on a 24 bit file? How
+>>would you group 'related' colours to edit them together? Only global
+>>changes could be done unless the software were very different and
+>>much more complicated.
+
+>>If you want to do colour editing on a 24 bit image, you need much
+>>more powerfull software - which is readily available commercially.
+
+In other words, to edit a 24 bit file you need software built for the job.
+Tacking mods onto xv is going to create more problems than it solves.
+
+As to the other bits - you seemed to be claiming that there were bugs in XV. If
+that was not what you meant, then:
+
+>(You propably misunderstood what I wrote as you have done in many
+>places so far.)
+
+Yes, I probably did. I found that the collected digest format of your posting
+made it a little difficult to understand precisely what your point was. Sorry
+if I misunderstood.
+
+>You also missed what is (were) wrong with XV. However, I did wrote it.
+
+Yes again. What *is* (was?) wrong with xv?
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ problem            move bit  wrote someth make
+color modif quick 8bit quantiz imag save imag file
+process make modif 24bit imag make sens main use
+view imag  mani chang imag keep modif buffer make
+oper 24bit imag simplifi oper list unnecessari
+oper  think say bit imag quantis bit mani similar
+colour map onto singl palett colour colour get
+modifi fair arbitrari way want appli modif back
+bit file find colour map one palett colour could
+copi bit file bit file use extra bit hold index
+entri done need someth exact  appli differ rgb
+origin modifi palett entri colour group could
+generat colour rgb outsid rang also lead
+discontinu differ part smooth colour gradient map
+sever differ palett entri  could interpol full
+modif modif depend far colour palett entri howev
+suspect look rather odd  summari said previous
+post still hold  suggest colour edit bit file
+group relat colour edit togeth global chang could
+done unless softwar differ much complic  want
+colour edit bit imag need much powerful softwar
+readili avail commerci  word edit bit file need
+softwar built job tack mod onto go creat problem
+solv  bit seem claim bug meant  propabl
+misunderstood wrote done mani place far  yes
+probabl found collect digest format post made
+littl difficult understand precis point sorri
+misunderstood  also miss wrong howev wrote  yes
+wrong   chris lilley  technic author itti comput
+graphic visualis train project comput graphic unit
+manchest comput centr oxford road
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+colour, 1912, 0.559261001385
+modif, 5813, 0.325431724699
+bit, 1122, 0.304019198268
+palett, 6398, 0.246073063839
+imag, 4512, 0.219745163451
+entri, 3135, 0.17482889726
+file, 3477, 0.170133448471
+edit, 2996, 0.156188562066
+misunderstood, 5779, 0.121148857474
+map, 5498, 0.110217836105
+wrote, 9871, 0.104289319057
+oper, 6261, 0.102923238446
+24bit, 67, 0.102257880966
+differ, 2633, 0.100927249359
+rgb, 7374, 0.0892578221993
+comput, 1993, 0.0852279256345
+make, 5459, 0.0822103137002
+softwar, 8103, 0.0820465970026
+modifi, 5814, 0.0784940264645
+appli, 584, 0.0726081537447
+hold, 4341, 0.0716478686255
+mani, 5479, 0.0697316697268
+need, 5993, 0.0660964069852
+discontinu, 2693, 0.0638969619156
+powerful, 6784, 0.062068439959
+mod, 5805, 0.062068439959
+quantis, 7019, 0.060574428737
+wrong, 9869, 0.0601553495008
+yes, 9951, 0.0596991719342
+chang, 1650, 0.0588842669749
+group, 4064, 0.0570356898017
+howev, 4406, 0.0564983055875
+unnecessari, 9295, 0.0556075246119
+readili, 7140, 0.0556075246119
+quantiz, 7022, 0.0556075246119
+lilley, 5275, 0.0556075246119
+gradient, 3979, 0.0556075246119
+far, 3386, 0.0547451662457
+itti, 4803, 0.0542386207832
+graphic, 3997, 0.0539568707258
+manchest, 5473, 0.0536313522628
+8bit, 148, 0.0530659987958
+visualis, 9548, 0.0525371459464
+interpol, 4719, 0.0525371459464
+oxford, 6361, 0.0515719875739
+problem, 6887, 0.0515603977395
+simplifi, 7969, 0.0503088190843
+arbitrari, 604, 0.0482494543954
+someth, 8126, 0.0482432339876
+post, 6766, 0.0478642864653
+smooth, 8069, 0.0473860908112
+buffer, 1371, 0.0463604570714
+index, 4596, 0.045667562118
+global, 3904, 0.0454490324986
+complic, 1978, 0.0450287160052
+want, 9634, 0.0446437955824
+centr, 1610, 0.044436093378
+solv, 8119, 0.043707224315
+chris, 1728, 0.0435347047833
+summari, 8536, 0.042878804814
+odd, 6198, 0.0417061828267
+bug, 1373, 0.0415707355266
+meant, 5598, 0.0414374907196
+digest, 2640, 0.0413063779211
+train, 9042, 0.0402121716047
+difficult, 2635, 0.03987766087
+precis, 6809, 0.039769124514
+suspect, 8603, 0.0396620069745
+collect, 1898, 0.0395562716355
+outsid, 6332, 0.0389490031151
+previous, 6855, 0.0383836496481
+road, 7431, 0.0382035462426
+extra, 3325, 0.0382035462426
+togeth, 8969, 0.0379406025574
+unit, 9278, 0.0371988968294
+rang, 7094, 0.0370428087752
+depend, 2537, 0.036591628309
+technic, 8737, 0.036375024286
+use, 9363, 0.0361952396209
+copi, 2130, 0.0360262748421
+main, 5450, 0.0359582713391
+built, 1381, 0.035890827542
+generat, 3819, 0.0354974219926
+quick, 7036, 0.0349406087819
+job, 4873, 0.034881013064
+fair, 3363, 0.0347047831519
+miss, 5770, 0.0346468721329
+commerci, 1940, 0.0346468721329
+sens, 7788, 0.0341433050102
+singl, 7983, 0.0339820989899
+similar, 7961, 0.0339290607784
+author, 796, 0.0336178445744
+unless, 9289, 0.033367232532
+lead, 5172, 0.0332690951305
+process, 6890, 0.0331240581569
+save, 7646, 0.0329815436938
+color, 1907, 0.0329345843958
+format, 3612, 0.0327952998795
+exact, 3253, 0.032523638258
+view, 9510, 0.0320059266408
+claim, 1782, 0.0319227343011
+creat, 2217, 0.0316781079237
+sorri, 8142, 0.0315981621668
+relat, 7247, 0.0313243389543
+suggest, 8525, 0.0312477554522
+project, 6909, 0.0304149394341
+sever, 7823, 0.0302445720691
+list, 5298, 0.0300118561228
+understand, 9246, 0.029381208485
+word, 9829, 0.0293509150121
+origin, 6293, 0.0291419396594
+avail, 811, 0.0284633970256
+place, 6657, 0.0280661766888
+littl, 5308, 0.027540555697
+said, 7583, 0.0272781224217
+probabl, 6885, 0.0267993162076
+point, 6710, 0.023129879373
+way, 9666, 0.0214354839104
+say, 7653, 0.0208044100261
+look, 5341, 0.0204498906767
+think, 8871, 0.0187675720282

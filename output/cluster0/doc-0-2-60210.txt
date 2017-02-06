@@ -1,0 +1,183 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60210
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: glover@casbah.acns.nwu.edu (Eric Glover)
+Subject: Re: What if the USSR had reached the Moon first?
+Nntp-Posting-Host: unseen1.acns.nwu.edu
+Organization: Northwestern University, Evanston Illinois.
+Lines: 45
+
+In article <1993Apr06.020021.186145@zeus.calpoly.edu> jgreen@trumpet.calpoly.edu (James Thomas Green) writes:
+>Suppose the Soviets had managed to get their moon rocket working
+>and had made it first.  They could have beaten us if either:
+>* Their rocket hadn't blown up on the pad thus setting them back,
+>and/or
+>* A Saturn V went boom.
+
+The Apollo fire was harsh, A Saturn V explosion would have been
+hurtful but The Soviets winning would have been crushing. That could have
+been *the* technological turning point for the US turning us
+from Today's "We can do anything, we're *the* Super Power" to a much more
+reserved attitude like the Soviet Program today.
+
+Kennedy was gone by 68\69, the war was still on is the east, I think
+the program would have stalled badly and the goal of the moon
+by 70 would have been dead with Nasa trying to figure were they went wrong.
+ 
+>If they had beaten us, I speculate that the US would have gone
+>head and done some landings, but we also would have been more
+>determined to set up a base (both in Earth Orbit and on the
+>Moon).  Whether or not we would be on Mars by now would depend
+>upon whether the Soviets tried to go.  Setting up a lunar base
+>would have stretched the budgets of both nations and I think
+>that the military value of a lunar base would outweigh the value
+>of going to Mars (at least in the short run).  Thus we would
+>have concentrated on the moon.
+
+I speulate that:
++The Saturn program would have been pushed into
+the 70s with cost over runs that would just be too evil. 
+Nixon still wins.
++The Shuttle was never proposed and Skylab never built.
++By 73 the program stalled yet again under the fuel crisis.
++A string of small launches mark the mid seventies.
++By 76 the goal of a US man on the moon is dead and the US space program
+drifts till the present day.
+
+
+>/~~~(-: James T. Green :-)~~~~(-: jgreen@oboe.calpoly.edu :-)~~~\ 
+>| "I believe that this nation should commit itself to achieving	| 
+>| the goal, before this decade is out, of landing a man on the 	|
+>| Moon and returning him safely to the Earth."    		|
+>|                  <John F. Kennedy; May 25, 1961> 		|
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ussr reach moon first      suppos soviet manag
+get moon rocket work made first could beaten
+either rocket hadn't blown pad thus set back
+saturn went boom  apollo fire harsh saturn explos
+hurt soviet win crush could technolog turn point
+turn today anyth we'r super power much reserv
+attitud like soviet program today  kennedi gone
+war still east think program stall bad goal moon
+dead nasa tri figur went wrong  beaten specul gone
+head done land also determin set base earth orbit
+moon whether mar depend upon whether soviet tri
+set lunar base stretch budget nation think
+militari valu lunar base outweigh valu go mar
+least short run thus concentr moon  speulat saturn
+program push 70s cost run evil nixon still win
+shuttl never propos skylab never built program
+stall yet fuel crisi string small launch mark mid
+seventi goal man moon dead space program drift
+till present day    believ nation commit achiev
+goal decad land man moon return safe earth john
+kennedi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moon, 5851, 0.374703015412
+soviet, 8161, 0.30324207245
+saturn, 7640, 0.226175781233
+goal, 3924, 0.211821587759
+program, 6905, 0.20462508196
+stall, 8307, 0.194924972652
+beaten, 975, 0.190860170252
+kennedi, 4984, 0.176647360603
+set, 7815, 0.14167429455
+mar, 5500, 0.129769222351
+gone, 3943, 0.128323982852
+lunar, 5392, 0.12662216528
+base, 923, 0.123783420901
+rocket, 7447, 0.122651706524
+went, 9704, 0.117749722055
+dead, 2415, 0.11751532922
+land, 5104, 0.112245062138
+valu, 9414, 0.107854712143
+turn, 9158, 0.104947356623
+nation, 5962, 0.103813030324
+today, 8964, 0.10079989265
+outweigh, 6336, 0.0974624863259
+crisi, 2232, 0.0974624863259
+win, 9770, 0.0958482146797
+harsh, 4186, 0.0936695391271
+drift, 2870, 0.0921166275001
+70s, 137, 0.0921166275001
+earth, 2956, 0.0918568023084
+man, 5471, 0.091074797117
+seventi, 7822, 0.090727500714
+crush, 2259, 0.0894708826827
+skylab, 8013, 0.087268356411
+ussr, 9376, 0.0822649716489
+boom, 1222, 0.0822649716489
+nixon, 6080, 0.0815886946894
+blown, 1174, 0.0797460019441
+run, 7543, 0.0794302162931
+string, 8450, 0.0786466562763
+hadn, 4114, 0.0786466562763
+till, 8933, 0.0776319626497
+explos, 3308, 0.0766898112151
+concentr, 2001, 0.0766898112151
+tri, 9087, 0.0763672446196
+super, 8552, 0.0753919270778
+decad, 2432, 0.0753919270778
+pad, 6377, 0.0745926211372
+reserv, 7309, 0.0727836915606
+stretch, 8443, 0.0708969770378
+mid, 5698, 0.0708969770378
+evil, 3247, 0.0708969770378
+push, 6996, 0.0706071959195
+commit, 1945, 0.070046068252
+apollo, 570, 0.070046068252
+specul, 8214, 0.0692467623115
+attitud, 769, 0.0689907443618
+safe, 7577, 0.0684931566251
+budget, 1367, 0.0675510051905
+achiev, 232, 0.0668860990899
+hurt, 4451, 0.0666717120878
+militari, 5715, 0.0652613370937
+war, 9635, 0.0641619914259
+fuel, 3715, 0.0641619914259
+think, 8871, 0.0603929503029
+east, 2965, 0.0599793258994
+depend, 2537, 0.0588748610275
+built, 1381, 0.0577472930653
+determin, 2582, 0.057427005814
+reach, 7128, 0.0573219494005
+return, 7346, 0.056315009088
+figur, 3476, 0.0560273356366
+head, 4215, 0.0556532818928
+propos, 6933, 0.0553795452062
+mark, 5512, 0.0536869024139
+suppos, 8577, 0.0536077159288
+shuttl, 7929, 0.0530663403401
+present, 6837, 0.0527666794835
+technolog, 8743, 0.0524014342395
+short, 7904, 0.0521163526437
+launch, 5147, 0.0518373049761
+small, 8054, 0.0513627469573
+manag, 5472, 0.0503381920661
+cost, 2169, 0.0500940274932
+john, 4878, 0.0498543025231
+nasa, 5956, 0.0496188585855
+power, 6783, 0.0489367490623
+bad, 861, 0.0485545625887
+wrong, 9869, 0.0483941000385
+orbit, 6280, 0.0477204815143
+anyth, 555, 0.0451993156723
+believ, 1009, 0.0407154964984
+day, 2402, 0.0390967609199
+space, 8164, 0.0373987398584
+work, 9833, 0.0373526401257
+point, 6710, 0.0372153002366
+like, 5272, 0.0277614909319

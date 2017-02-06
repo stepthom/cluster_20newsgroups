@@ -1,0 +1,157 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38297
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: george@ccmail.larc.nasa.gov (George M. Brown)
+Subject: Re: PCX
+Organization: Client Specific Systems, Inc.
+Lines: 41
+NNTP-Posting-Host: thrasher.larc.nasa.gov
+
+In article <1993Apr14.220100.17867@freenet.carleton.ca> ad994@Freenet.carleton.ca (Jason Wiggle) writes:
+>From: ad994@Freenet.carleton.ca (Jason Wiggle)
+>Subject: PCX
+>Date: Wed, 14 Apr 1993 22:01:00 GMT
+>
+>Hello
+>	HELP!!! please
+>		I am a student of turbo c++ and graphics programming
+>	and I am having some problems finding algorithms and code
+>	to teach me how to do some stuff..
+>
+>	1) Where is there a book or code that will teach me how
+>	to read and write pcx,dbf,and gif files?
+>
+>	2) How do I access the extra ram on my paradise video board
+>	so I can do paging in the higher vga modes ie: 320x200x256
+>	800x600x256
+>	3) anybody got a line on a good book to help answer these question?
+>
+>Thanks very much !
+>
+>send reply's to : Palm@snycanva.bitnet
+>
+>Peace be
+>Blessed be
+>Stephen Palm
+
+A book that I can somewhat recommend is :
+                     
+                     Pratical Image Processing in C
+                     by Craig A. Lindley
+                     published by Wiley
+
+It addresses reading/writing to/from PCX/TIFF files; image acquisition, 
+manipulation and storage; and has source code in the book. The source is 
+primarily written in Turbo C and naturally has conversion possibilities. I 
+have converted some of it to Quick C. Naturally, the code has some problems 
+in the book - as usuall. Typos, syntax, etc. are problems. It can be a good 
+learning experience for someone who is studying C. There is also a companion 
+disk with source available for order and $50.00. Overall, the book is not 
+bad. I acquired the book at WaldenSoftware.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pcx       pcx date wed gmt  hello help pleas
+student turbo graphic program problem find
+algorithm code teach stuff  book code teach read
+write pcx dbf gif file  access extra ram paradis
+video board page higher vga mode 320x200x256
+800x600x256 anybodi got line good book help answer
+question  thank much    peac bless stephen palm
+book somewhat recommend  pratic imag process craig
+lindley publish wiley  address read write pcx tiff
+file imag acquisit manipul storag sourc code book
+sourc primarili written turbo natur convers
+possibl convert quick natur code problem book
+usual typo syntax etc problem good learn experi
+someon studi also companion disk sourc avail order
+overal book bad acquir book waldensoftwar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+book, 1218, 0.406176535158
+pcx, 6490, 0.37259450234
+code, 1871, 0.257543238043
+turbo, 9151, 0.197408558005
+sourc, 8153, 0.179375797293
+problem, 6887, 0.152898302415
+teach, 8729, 0.150356019147
+natur, 5966, 0.137219071542
+syntax, 8656, 0.126320941843
+dbf, 2405, 0.126320941843
+800x600x256, 143, 0.126320941843
+palm, 6400, 0.11975246804
+typo, 9179, 0.11509206171
+file, 3477, 0.112114967627
+write, 9865, 0.111694186396
+wiley, 9760, 0.111477169721
+wed, 9686, 0.109933159135
+imag, 4512, 0.108606165224
+320x200x256, 89, 0.108523587907
+acquisit, 245, 0.106026370066
+companion, 1959, 0.103863181577
+acquir, 244, 0.100248289589
+storag, 8416, 0.0987042790026
+paradis, 6415, 0.0987042790026
+read, 7135, 0.0986269905924
+bless, 1155, 0.0979841671309
+help, 4249, 0.0951854228171
+primarili, 6864, 0.0921358051999
+craig, 2208, 0.0902823747087
+peac, 6495, 0.0874753988699
+ram, 7083, 0.0864068897063
+overal, 6337, 0.086065827642
+stephen, 8380, 0.0854045174671
+somewhat, 8129, 0.0844605699143
+good, 3948, 0.0832857437599
+manipul, 5483, 0.083281879312
+disk, 2720, 0.0830001356943
+recommend, 7178, 0.0821831634462
+gmt, 3917, 0.0811542558207
+student, 8468, 0.0806633137143
+tiff, 8926, 0.0804233115516
+hello, 4247, 0.0801868131954
+vga, 9492, 0.0797239288569
+convers, 2114, 0.0794973538393
+board, 1186, 0.0777905293232
+page, 6382, 0.0771941484924
+extra, 3325, 0.0755264068654
+publish, 6974, 0.0748369475093
+mode, 5806, 0.0743384512645
+higher, 4293, 0.0743384512645
+video, 9506, 0.0733852440089
+date, 2391, 0.0712220555205
+written, 9867, 0.0706908653197
+algorithm, 407, 0.070431662195
+studi, 8469, 0.0696780449345
+access, 209, 0.0691944314189
+quick, 7036, 0.0690757506706
+learn, 5182, 0.0688409661309
+usual, 9377, 0.068381365102
+gif, 3869, 0.068381365102
+experi, 3295, 0.0678246144433
+anybodi, 552, 0.0658679716728
+process, 6890, 0.0654845253765
+convert, 2115, 0.06510994569
+address, 264, 0.0629467572017
+stuff, 8472, 0.0620794048256
+answer, 535, 0.0597919324311
+bad, 861, 0.0596591460345
+order, 6281, 0.0572661685915
+avail, 811, 0.0562706428057
+line, 5285, 0.0536969743754
+graphic, 3997, 0.0533349514957
+got, 3960, 0.0531569293781
+possibl, 6765, 0.0531127278508
+someon, 8124, 0.0529371180046
+program, 6905, 0.05028469827
+question, 7032, 0.0490365680454
+pleas, 6688, 0.0476556235252
+thank, 8832, 0.0453668541779

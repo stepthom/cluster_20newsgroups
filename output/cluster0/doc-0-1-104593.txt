@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104593
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mtt@kepler.unh.edu (Matthew T Thompson)
+Subject: RE: survey
+Organization: University of New Hampshire  -  Durham, NH
+Lines: 17
+NNTP-Posting-Host: kepler.unh.edu
+Keywords: survey,complaints
+
+Yes, I know this is not Rec.music, (as someone has already pointed out, thanks I know that), I'm trying to get a random sample and also I'm desperate for respones.
+So please, don't mail me complaining that it doesn't belong here or that it is wasting bandwidth.  
+This affects EVERYBODY not just readers of music groups.  Please either complete the survey, or hit 'n', because I'll just bounce back complaints.
+
+Thank you
+-Matt
+
+
+
+-- 
+********************************************************************************
+*     /           \         #   Matthew T. Thompson                            *
+*    /\  /|       |\        #   Electrical/Computer Engineering                *
+*   /  \/ |ETALLIC| \       #   University of New Hampshire                    *
+* \/                 \/     #   E-mail:  mtt@kepler.unh.edu or my evil twin at *
+*  \                 /      #            shazam@unh.edu                        *
+********************************************************************************
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ survey      yes know rec music someon alreadi
+point thank know i'm tri get random sampl also i'm
+desper respon pleas don't mail complain doesn't
+belong wast bandwidth affect everybodi reader
+music group pleas either complet survey hit n i'll
+bounc back complaint  thank matt      matthew
+thompson electr comput engin etal univers new
+hampshir
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+music, 5933, 0.353267377674
+survey, 8597, 0.349324734251
+desper, 2569, 0.210190674948
+thompson, 8879, 0.197805789814
+bandwidth, 893, 0.190585321753
+bounc, 1249, 0.184749561501
+complaint, 1974, 0.182202679838
+pleas, 6688, 0.179709759386
+rec, 7165, 0.175632127467
+thank, 8832, 0.171078790819
+electr, 3030, 0.170227799318
+random, 7093, 0.169413220776
+matt, 5552, 0.169413220776
+complain, 1973, 0.165637446696
+reader, 7137, 0.163577460524
+affect, 310, 0.162277481992
+belong, 1015, 0.161030578861
+sampl, 7601, 0.159832586685
+matthew, 5554, 0.158119340371
+everybodi, 3239, 0.157028335643
+wast, 9654, 0.14341798991
+know, 5052, 0.131586314545
+alreadi, 443, 0.122417973247
+engin, 3109, 0.119148021236
+complet, 1975, 0.118081507931
+yes, 9951, 0.111265613799
+hit, 4316, 0.106814863271
+group, 4064, 0.106301491773
+comput, 1993, 0.105896917844
+mail, 5447, 0.105005755881
+univers, 9282, 0.101505830308
+someon, 8124, 0.0998131598692
+doesn, 2793, 0.0990810237116
+ll, 5314, 0.0967600429149
+new, 6023, 0.0889762509907
+tri, 9087, 0.0884609548603
+point, 6710, 0.0862176188427
+don, 2811, 0.069282893993

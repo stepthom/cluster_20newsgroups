@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105021
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: luriem@alleg.edu(Michael Lurie) The Liberalizer
+Subject: Re: BEST FIRST BASEMEN...
+Organization: Allegheny College
+Lines: 15
+
+In article <1993Apr22.144327.52161@ns1.cc.lehigh.edu>  
+ch00@ns1.cc.lehigh.edu (Chris Hartzell) writes:
+> In article <1993Apr20.102857.1@tesla.njit.edu>, drm6640@tesla.njit.edu  
+writes:
+> >DON MATTINGLY IS THE BEST FIRST BASEMAN IN THE HISTORY OF  
+BASEBALL.....ALWAYS
+> >HAS BEEN.....ALWAYS WILL BE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+> 
+> Don is good - but so was Keith Hernandez....I just heard Don talk about  
+how he
+> learned how to be a good fielder by talking and watching Keith play....
+
+
+
+JT SNOW
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best first basemen      tesla njit edu  mat best
+first baseman histori basebal alway alway  good
+keith hernandez heard talk  learn good fielder
+talk watch keith play    snow
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+keith, 4974, 0.429530954616
+alway, 457, 0.285232598027
+njit, 6081, 0.268275742681
+talk, 8684, 0.255405197908
+best, 1052, 0.252495818932
+tesla, 8810, 0.247143918968
+basemen, 929, 0.23561230867
+snow, 8081, 0.228397813172
+hernandez, 4271, 0.223768189217
+baseman, 928, 0.212543583107
+fielder, 3467, 0.208457296689
+mat, 5540, 0.202223669514
+good, 3948, 0.194136280382
+histori, 4314, 0.163285304253
+learn, 5182, 0.160465987325
+watch, 9655, 0.156596258808
+heard, 4224, 0.143472601177
+edu, 3001, 0.133886530575
+basebal, 924, 0.127249004224
+play, 6681, 0.12453119079

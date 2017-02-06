@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105104
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dwarner@journalism.indiana.edu (David J.)
+Subject: Re: Bonilla
+Nntp-Posting-Host: clove.journalism.indiana.edu
+Reply-To: dwarner@journalism.indiana.edu
+Organization: Indiana University
+Distribution: usa
+Lines: 11
+
+Jiann-ming Su writes
+> Bobby Bonilla supposedly use the word 'faggot' when he got mad at that author
+> in the clubhouse.  Should he be banned from baseball for a year like Schott?
+
+It wouldn't bother me...
+
+--
+David J.(dwarner@journalism.indiana.edu)*****Blue Riddle Productions 1993
+*-------------------------------It's on.--------------------------------*
+***"THE RAP IS AN ART EP" is coming out on tape -- this time for real.***
+*------------------------E-mail me for the 411.-------------------------*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bonilla       jiann ming write bobbi bonilla
+suppos use word faggot got mad author clubhous ban
+basebal year like schott  wouldn't bother    it
+rap art come tape time real mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bonilla, 1215, 0.471293317818
+schott, 7686, 0.29196287167
+faggot, 3358, 0.276781299668
+rap, 7098, 0.254086142525
+clubhous, 1843, 0.254086142525
+mad, 5424, 0.247831242747
+ban, 889, 0.237786805022
+bobbi, 1190, 0.220465086907
+bother, 1245, 0.195925105232
+tape, 8700, 0.191836425638
+art, 660, 0.183224066811
+wouldn, 9854, 0.156509432201
+author, 796, 0.153609219391
+suppos, 8577, 0.152239223997
+word, 9829, 0.134112439405
+write, 9865, 0.129078183448
+mail, 5447, 0.128717580049
+real, 7144, 0.128360416479
+basebal, 924, 0.126174219838
+got, 3960, 0.122860465763
+come, 1923, 0.108576173062
+year, 9943, 0.0940997511593
+time, 8936, 0.0889638337089
+use, 9363, 0.082693024705
+like, 5272, 0.0788391701313

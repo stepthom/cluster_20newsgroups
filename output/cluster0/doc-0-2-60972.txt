@@ -1,0 +1,100 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60972
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sheaffer@netcom.com (Robert Sheaffer)
+Subject: Re: Astronomy Program
+Organization: Netcom - Online Communication Services (408 241-9760 guest)
+Lines: 23
+
+In article <28641@galaxy.ucr.edu> datadec@ucrengr.ucr.edu (kevin marcus) writes:
+>Are there any public domain or shareware astronomy programs which will
+>map out the sky at any given time, and allow you to locate planets, nebulae,
+>and so forth?  If so, is there any ftp site where I can get one?
+
+I posted my public-domain MSDOS program "sunlight.zip" to "sci.astro" yesterday.
+It easily locates the sun, moon, and planets, and can also be used to
+locate other objects if you input their Right Ascesion and Declination.
+Use "uudecode" to extract.
+
+
+-- 
+  
+        Robert Sheaffer - Scepticus Maximus - sheaffer@netcom.com
+  
+ Past Chairman, The Bay Area Skeptics - for whom I speak only when authorized!
+
+         "Marxism and feminism are one and that one is Marxism"
+
+                             - Heidi Hartmann and Amy Bridges,
+                       quoted by Catharine MacKinnon above the first chapter
+                       of her "Toward a Feminist Theory of the State"
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ astronomi program     public domain sharewar
+astronomi program map sky given time allow locat
+planet nebula forth ftp site get one  post public
+domain msdos program sunlight zip sci astro
+yesterday easili locat sun moon planet also use
+locat object input right asces declin use uudecod
+extract       past chairman bay area skeptic speak
+author  marxism femin one one marxism  heidi
+hartmann ami bridg quot catharin mackinnon first
+chapter toward feminist theori state
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+locat, 5323, 0.326661096308
+domain, 2805, 0.258167798456
+astronomi, 729, 0.236656532892
+program, 6905, 0.228866759204
+planet, 6664, 0.225069631023
+feminist, 3442, 0.191646535121
+public, 6973, 0.188834423413
+nebula, 5987, 0.181681241743
+hartmann, 4189, 0.181681241743
+bridg, 1307, 0.177892613034
+chairman, 1639, 0.166783976876
+skeptic, 8002, 0.157574972017
+sunlight, 8544, 0.154680166812
+declin, 2448, 0.153351333057
+extract, 3326, 0.148655684904
+forth, 3616, 0.143821049929
+msdos, 5903, 0.138336753229
+bay, 956, 0.136315551504
+sharewar, 7856, 0.133855756551
+zip, 9988, 0.13327743722
+input, 4662, 0.130573897086
+chapter, 1658, 0.130067127842
+yesterday, 9952, 0.127679091881
+astro, 724, 0.124283710562
+easili, 2962, 0.116241655667
+sci, 7690, 0.114584121799
+theori, 8848, 0.113538115533
+map, 5498, 0.110192335518
+use, 9363, 0.108560595892
+speak, 8192, 0.108259488967
+sky, 8011, 0.106276362289
+quot, 7045, 0.105525847865
+past, 6456, 0.103916568144
+sun, 8539, 0.101605577504
+site, 7994, 0.101292484894
+author, 796, 0.100830199712
+area, 622, 0.0999309248522
+moon, 5851, 0.0997841934458
+ftp, 3709, 0.0993491831948
+allow, 432, 0.0941831391031
+object, 6173, 0.090511268037
+given, 3887, 0.0882144286094
+state, 8342, 0.0871417883809
+right, 7399, 0.0747625573789
+post, 6766, 0.0717798184933
+time, 8936, 0.0583965022124

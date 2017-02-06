@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61537
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: claypool@wam.umd.edu (Mr. Krinkle)
+Subject: Re: moon image in weather sat image
+Nntp-Posting-Host: rac2.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 14
+
+In article <1993Apr30.173625.10139@unocal.com> stgprao@st.unocal.COM (Richard Ottolini) writes:
+>In article <C6B2pA.My4@usenet.ucs.indiana.edu> turner@bigbang.astro.indiana.edu (George Wm Turner) writes:
+>>
+>>
+>>an image of the moon has been caught in a weather satellite images of the earth.
+>Near midsummer, you can see the relfection of the Sun in the ocean.
+             Cool!
+>Also during solar eclise you can see the shadow of the sun move
+>across the clouds.                       ^^^^^^^^^^^^^^^^^
+	I think you mean Moon.
+		(Sorry, I had to.)  ; )
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moon imag weather sat imag         imag moon
+caught weather satellit imag earth near midsumm
+see relfect sun ocean cool also solar eclis see
+shadow sun move across cloud think mean moon sorri
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.439678265295
+moon, 5851, 0.399399863147
+weather, 9679, 0.367293634641
+sun, 8539, 0.271126801075
+eclis, 2979, 0.255697144196
+midsumm, 5703, 0.248379928661
+shadow, 7837, 0.198338227584
+ocean, 6194, 0.195604018144
+sat, 7626, 0.187509101725
+cool, 2124, 0.181022095518
+cloud, 1835, 0.177066520817
+caught, 1568, 0.177066520817
+solar, 8107, 0.145562317067
+satellit, 7632, 0.140304438347
+near, 5982, 0.132745217898
+sorri, 8142, 0.12644669771
+earth, 2956, 0.114229647363
+mean, 5595, 0.101338443039
+think, 8871, 0.0751023902742

@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61064
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ajjb@adam4.bnsc.rl.ac.uk (Andrew Broderick)
+Subject: DC-X & DC-Y
+Organization: Rutherford Appleton Lab, UK
+Lines: 15
+
+
+Hi guys,
+	I've been hearing lots of talk on the net about DC-X and DC-Y,
+but none of the many posts actually explain what they are !!! Sorry if
+this is a FAQ, but would somebody please explain to me what they are.
+Reply by Email please . . . thanks.
+
+	Andy
+
+ajjb@adam4.bnsc.rl.ac.uk
+-- 
+                                  ----------------------------------- 
+Andy Jonathan J. Broderick,      | "I have come that they might have |
+Rutherford Lab., UK              |  life, and have it to the full"   |
+Mail : ajjb@adam2.bnsc.rl.ac.uk  |  - Jesus Christ                   |
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+      guy i'v hear lot talk net none mani post
+actual explain sorri faq somebodi pleas explain
+repli email pleas thank  andi     andi jonathan
+broderick come might rutherford lab life full
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+andi, 502, 0.508416001333
+explain, 3301, 0.332109212813
+rutherford, 7556, 0.291848599313
+jonathan, 4888, 0.271904269203
+pleas, 6688, 0.24168872759
+somebodi, 8121, 0.196245617632
+lab, 5085, 0.193814179143
+faq, 3385, 0.191967606772
+repli, 7290, 0.178274737012
+hear, 4223, 0.177315643214
+email, 3060, 0.172829810739
+net, 6010, 0.165340165472
+sorri, 8142, 0.158405119232
+guy, 4100, 0.154236822978
+life, 5260, 0.151282703148
+talk, 8684, 0.138923572668
+actual, 254, 0.132080202525
+lot, 5356, 0.128174477529
+post, 6766, 0.119974509347
+come, 1923, 0.119122692773
+mani, 5479, 0.116524218497
+thank, 8832, 0.115040539289

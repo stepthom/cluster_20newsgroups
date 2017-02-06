@@ -1,0 +1,42 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104890
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: stevel@gvlf9-g.vfl.paramax.com (Steve Loomis)
+Subject: stats
+Organization: Paramax Systems Corporation, Paoli PA
+Lines: 6
+Nntp-Posting-Host: gvlf9-g
+
+
+	Im trying to find a site that has UPDATED(daily) stats more the
+	National league. I'll take both leagues but I'm really interested in the
+	National league.
+
+	How about them Philadelphia Sillies
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ stat      tri find site updat daili stat nation
+leagu i'll take leagu i'm realli interest nation
+leagu  philadelphia silli
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+leagu, 5176, 0.570968832547
+stat, 8341, 0.430541636413
+nation, 5962, 0.373386670494
+daili, 2338, 0.275831975823
+silli, 7956, 0.266914346191
+philadelphia, 6589, 0.245480748191
+updat, 9333, 0.205424346631
+site, 7994, 0.195439149382
+ll, 5314, 0.150220255625
+realli, 7150, 0.140714761299
+tri, 9087, 0.137335896632

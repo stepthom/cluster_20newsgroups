@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84271
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Davidians and compassion
+Organization: Cookamunga Tourist Bureau
+Lines: 17
+
+In article <1e9e02bm40FM01@JUTS.ccc.amdahl.com>, agr00@ccc.amdahl.com
+(Anthony G Rose) wrote:
+> >I have a hard time just now understanding that Christianity
+> >knows about the word compassion. Christians, do you think 
+> >the actions today would produce a good picture of your 
+> >religion?
+
+> Surely you are not equating David Koresh with Christianity? The two are
+> not comparable.
+
+This is always an option: when the sect is causing harm, re-label
+the cult to something else.
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass    ccc amdahl com anthoni rose
+wrote hard time understand christian know word
+compass christian think action today produc good
+pictur religion  sure equat david koresh christian
+two compar  alway option sect caus harm label cult
+someth els  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+compass, 1963, 0.408332745813
+christian, 1732, 0.351290016732
+sect, 7757, 0.223890646463
+anthoni, 539, 0.221019903769
+harm, 4177, 0.198151087374
+label, 5086, 0.195510260091
+rose, 7481, 0.182989862222
+davidian, 2398, 0.173935442017
+equat, 3157, 0.173282099321
+cult, 2289, 0.170196419528
+option, 6276, 0.159689762195
+koresh, 5065, 0.158428740117
+kent, 4987, 0.157614063466
+cheer, 1687, 0.1560426842
+action, 251, 0.1500914001
+produc, 6895, 0.146169844763
+com, 1917, 0.144236663439
+wrote, 9871, 0.139965488639
+religion, 7261, 0.139730663961
+pictur, 6622, 0.139265969969
+compar, 1960, 0.138807730269
+caus, 1569, 0.133559752064
+david, 2397, 0.133173867806
+today, 8964, 0.126120098808
+hard, 4167, 0.124903639249
+alway, 457, 0.124606405454
+understand, 9246, 0.118296540036
+word, 9829, 0.118174570478
+els, 3053, 0.114059422925
+sure, 8585, 0.106249001767
+someth, 8126, 0.0971200293517
+good, 3948, 0.0848101662784
+time, 8936, 0.078391407115
+think, 8871, 0.075563223921
+know, 5052, 0.07106576883

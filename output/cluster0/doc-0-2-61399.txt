@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61399
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: stephens@geod.emr.ca (Dave Stephenson)
+Subject: Re: Vandalizing the sky.
+Nntp-Posting-Host: ngis.geod.emr.ca
+Organization: Dept. of Energy, Mines, and Resources, Ottawa
+Lines: 15
+
+mancus@sweetpea.jsc.nasa.gov (Keith Mancus) writes:
+>>>Jeff.Cook@FtCollinsCO.NCR.COM (Jeff Cook) writes:
+>>>>people in primitive tribes out in the middle of nowhere as they look up
+
+That has sort of happened for real. Back in the 1920's travellers
+in the Sudan would find strange cigar shaped designs on native huts.
+When asked the locals would say it was a picture of the great omen
+that appeared in the sky. This was LZ 53 a zepplin flying from Bulgaria
+to German East Africa with supplies in 1917 (and back since it was fooled
+by the British secret service.)
+--
+Dave Stephenson
+Geological Survey of Canada
+Ottawa, Ontario, Canada
+Internet: stephens@geod.emr.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       peopl primit tribe middl nowher
+look  sort happen real back travel sudan find
+strang cigar shape design nativ hut ask local say
+pictur great omen appear sky zepplin fli bulgaria
+german east africa suppli back sinc fool british
+secret servic  dave stephenson geolog survey
+canada ottawa ontario canada
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+canada, 1481, 0.293810711528
+sky, 8011, 0.244559490224
+sudan, 8517, 0.214195053099
+cigar, 1755, 0.214195053099
+africa, 319, 0.194593977365
+stephenson, 8381, 0.189438220055
+hut, 4453, 0.187174742371
+ottawa, 6317, 0.179588672824
+tribe, 9092, 0.177972325777
+nativ, 5964, 0.173613195083
+german, 3854, 0.169837144321
+british, 1320, 0.169837144321
+ontario, 6248, 0.167573666637
+nowher, 6131, 0.166506431498
+geolog, 3842, 0.165478013627
+primit, 6866, 0.162599764454
+survey, 8597, 0.161701962865
+fool, 3585, 0.161701962865
+secret, 7755, 0.160831790369
+travel, 9069, 0.150236068586
+shape, 7853, 0.146386471944
+strang, 8426, 0.145876937893
+vandal, 9419, 0.1448846124
+suppli, 8574, 0.143925931617
+middl, 5699, 0.141662453933
+east, 2965, 0.128644738305
+dave, 2395, 0.122279745112
+fli, 3542, 0.12078544562
+local, 5322, 0.120372615299
+pictur, 6622, 0.119366161216
+servic, 7813, 0.116366968893
+appear, 580, 0.114978794499
+design, 2564, 0.109879537458
+sort, 8144, 0.108770439433
+happen, 4159, 0.0996663825023
+ask, 689, 0.0979462213843
+real, 7144, 0.0969443062095
+great, 4016, 0.0940545124859
+sinc, 7977, 0.0862035381936
+peopl, 6530, 0.0767236481837
+say, 7653, 0.0717949687988
+look, 5341, 0.0705715404201

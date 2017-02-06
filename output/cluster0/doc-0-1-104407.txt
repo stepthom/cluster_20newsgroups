@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104407
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pjtier01@ulkyvx.louisville.edu
+Subject: Re: Phills vs  Pirates
+Lines: 28
+Nntp-Posting-Host: ulkyvx.louisville.edu
+Organization: University of Louisville
+
+>>>$ mlb -m pit phi
+>>>           Monday,  5/10 Pittsburg    at Philadelphia (5:35 pm) 
+>>>          Tuesday,  5/11 Pittsburg    at Philadelphia (5:35 pm) 
+>>>        Wednesday,  5/12 Pittsburg    at Philadelphia (5:35 pm) 
+>>>           Friday,  6/25 Philadelphia at Pittsburg    (5:35 pm) 
+>>>         Saturday,  6/26 Philadelphia at Pittsburg    (5:05 pm) 
+>>>           Sunday,  6/27 Philadelphia at Pittsburg    (11:35 am) 
+>>>           Friday,  7/30 Pittsburg    at Philadelphia (5:35 pm) 
+>>>         Saturday,  7/31 Pittsburg    at Philadelphia (5:05 pm) 
+>>>           Sunday,  8/ 1 Pittsburg    at Philadelphia (11:35 am) 
+>>>           Monday,  9/27 Philadelphia at Pittsburg    (5:35 pm) 
+>>>          Tuesday,  9/28 Philadelphia at Pittsburg    (5:35 pm) 
+>>>        Wednesday,  9/29 Philadelphia at Pittsburg    (5:35 pm) 
+>>>         Thursday,  9/30 Philadelphia at Pittsburg    (5:35 pm) 
+>> 
+>> 
+>> 	Are these times correct??
+>> 
+>> 		They seem as if they are 2 hrs ahead of the usual tiems
+>> for these two teams.
+>> 
+> 
+> The origin of that first message was Boise, which is on Central time.
+>  
+>                                                                    P. Tierney
+
+Whoops!  I meant Mountain Time.
+                                                                     P. Tierney
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ phill pirat     mlb pit phi monday pittsburg
+philadelphia tuesday pittsburg philadelphia
+wednesday pittsburg philadelphia friday
+philadelphia pittsburg saturday philadelphia
+pittsburg sunday philadelphia pittsburg friday
+pittsburg philadelphia saturday pittsburg
+philadelphia sunday pittsburg philadelphia monday
+philadelphia pittsburg tuesday philadelphia
+pittsburg wednesday philadelphia pittsburg
+thursday philadelphia pittsburg   time correct
+seem hrs ahead usual tiem two team   origin first
+messag bois central time  tierney  whoop meant
+mountain time tierney
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pittsburg, 6647, 0.776089402064
+philadelphia, 6589, 0.543481497352
+tierney, 8924, 0.116908535781
+wednesday, 9688, 0.100780350021
+monday, 5834, 0.0939503881466
+saturday, 7639, 0.0934028120462
+tuesday, 9147, 0.0909129782785
+friday, 3690, 0.090457963738
+sunday, 8541, 0.0811647119773
+bois, 1203, 0.0652970233893
+phi, 6586, 0.0611716089282
+phill, 6592, 0.0584542678903
+time, 8936, 0.0575660460425
+hrs, 4414, 0.049975931698
+pit, 6642, 0.0492062091631
+thursday, 8911, 0.0488472178839
+pirat, 6639, 0.0459316834881
+mountain, 5887, 0.0450077084656
+mlb, 5795, 0.0439840649852
+central, 1611, 0.0424160660587
+meant, 5598, 0.0408387576511
+ahead, 342, 0.0391944977802
+usual, 9377, 0.0340895834311
+messag, 5650, 0.033386881812
+correct, 2156, 0.0311024893038
+origin, 6293, 0.0287208658286
+team, 8732, 0.0268148547026

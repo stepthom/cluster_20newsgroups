@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104528
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: niguma@ug.cs.dal.ca (Gord Niguma)
+Subject: Re: Notes on Jays vs. Indians Series
+Nntp-Posting-Host: ug.cs.dal.ca
+Organization: Math, Stats & CS, Dalhousie University, Halifax, NS, Canada
+Distribution: na
+Lines: 22
+
+In <C5HpCv.4HL@andy.bgsu.edu> klopfens@andy.bgsu.edu (Bruce Klopfenstein) writes:
+
+>cmk@athena.mit.edu (Charles M Kozierok) writes:
+>> In article <1993Apr13.195301.22652@CSD-NewsHost.Stanford.EDU> nlu@Xenon.Stanford.EDU (Nelson Lu) writes:
+>> } 
+>> } Guess which line is which:
+>> } 	BA	OBP	SLG	AB	H	2B	3B	HR	BB
+>> } X	.310	.405	.427	571	177	27	8	8	87
+>> } Y	.312	.354	.455	657	205	32	1	20	35
+
+
+>I just love how the Alomar fans left RBIs off this list.  Give me a break!
+
+  Alomar fans left RBI fans and Runs off this list because they are dependant
+on the team. (To a large extent). If Frank Thomas hit first, he'd lose a LOT
+of RBI's; and anyways how many 2nd place hitters have you known to drive
+in 100 runs? Doesn't happen that often.....very unlikely with Devon White's
+~.300 OBP in front of you...
+
+						Gord Niguma
+						(fav player: John Olerud)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ note jay indian seri           guess line obp slg
+love alomar fan left rbis list give break  alomar
+fan left rbi fan run list depend team larg extent
+frank thoma hit first he'd lose lot rbi anyway
+mani 2nd place hitter known drive run doesn't
+happen often unlik devon white obp front  gord
+niguma fav player john olerud
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fan, 3381, 0.313708515838
+alomar, 436, 0.283747788565
+obp, 6177, 0.280281818519
+rbi, 7124, 0.271075165483
+left, 5193, 0.209139010559
+fav, 3409, 0.199013498306
+niguma, 6067, 0.19422316686
+list, 5298, 0.19245737388
+gord, 3953, 0.186664584635
+devon, 2596, 0.183569943554
+olerud, 6221, 0.166859922849
+rbis, 7125, 0.160085699812
+run, 7543, 0.158288473179
+slg, 8028, 0.151936663941
+extent, 3321, 0.14864811732
+2nd, 81, 0.141283440636
+indian, 4598, 0.135537582741
+unlik, 9290, 0.13043631179
+thoma, 8878, 0.13043631179
+break, 1284, 0.120303384328
+jay, 4832, 0.117325777212
+depend, 2537, 0.117325777212
+lose, 5350, 0.115513052882
+drive, 2873, 0.1140234348
+white, 9737, 0.112613759032
+frank, 3655, 0.112418411801
+hitter, 4322, 0.111840936214
+seri, 7805, 0.107145973589
+known, 5054, 0.105006203668
+love, 5366, 0.104282353989
+guess, 4079, 0.101830142995
+john, 4878, 0.0993496152481
+larg, 5124, 0.0973012473518
+note, 6118, 0.0947970599176
+happen, 4159, 0.0926023041069
+hit, 4316, 0.09187994709
+player, 6683, 0.0906617251133
+place, 6657, 0.0899901465319
+team, 8732, 0.0872384776932
+line, 5285, 0.0870896156433
+doesn, 2793, 0.0852274574671
+lot, 5356, 0.0819796143106
+mani, 5479, 0.0745281796687

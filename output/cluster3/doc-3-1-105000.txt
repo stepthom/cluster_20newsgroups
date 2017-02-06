@@ -1,0 +1,110 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105000
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: west@esd.dl.nec.com (Mike West)
+Subject: Re: Why is Barry Bonds not batting 4th?
+Organization: Engineering and Support Division, NEC America, Inc.
+Lines: 25
+Nntp-Posting-Host: swan.esd.dl.nec.com
+X-Newsreader: TIN [version 1.1 PL9]
+
+Timothy Cree (timothy@lamar.ColoState.EDU) wrote:
+: In article <1993Apr22.192035.23822@hpcvaac.cv.hp.com> paula@koufax.cv.hp.com (Paul Andresen) writes:
+: >|> >In article <1993Apr21.032427.22464@leland.Stanford.EDU>, punjabi@leland.Stanford.EDU (sanjeev punjabi) writes:
+: >|> >(2)   Having Bonds batting behind Williams means that Matt will get
+: >|> >      more good pitches to hit.  This is important since he struggles
+: >|> >      so much with breaking balls.  Opposing pitchers don't want to
+: >|> >      walk Williams to get to Bonds.
+: >
+: >I have to wonder if this "good hitter behind you" argument is really valid.
+: >Has anyone done a study on this. 
+:
+: 	You want a study? Look at Matt Williams the year after
+: 	Mitchell was gone. Look no further. Not a scientific
+: 	study, but it'll show the truth for Matt. Besides, Bonds
+: 	_wants_ to bat 5th
+
+I had thought that Williams batted after Mitchell.  Wouldn't that show that
+Williams does better at 5th rather than 4th?
+
+The point is moot, though, becase Clark pretty much demands to be 3rd
+and, like you point out, Bonds does like to bat 5th.  The only person
+left to bat 4th is Williams.
+
+Mike West
+west@esd.dl.nec.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ barri bond bat 4th         bond bat behind
+william mean matt get good pitch hit import sinc
+struggl much break ball oppos pitcher don't want
+walk william get bond  wonder good hitter behind
+argument realli valid anyon done studi  want studi
+look matt william year mitchel gone look scientif
+studi it'll show truth matt besid bond want bat
+5th  thought william bat mitchel wouldn't show
+william better 5th rather 4th  point moot though
+becas clark pretti much demand 3rd like point bond
+like bat 5th person left bat 4th william  mike
+west
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+william, 9764, 0.464524028961
+bond, 1211, 0.381308567811
+bat, 942, 0.379820962264
+5th, 123, 0.302509315751
+matt, 5552, 0.256356685831
+4th, 112, 0.255156082528
+studi, 8469, 0.198802030881
+mitchel, 5783, 0.183806493727
+want, 9634, 0.125907360941
+moot, 5854, 0.107643701058
+struggl, 8461, 0.0876258090948
+point, 6710, 0.086976537508
+clark, 1787, 0.0835477237057
+3rd, 102, 0.0821773208087
+demand, 2514, 0.0812240141296
+barri, 918, 0.0803262722814
+good, 3948, 0.0792089532097
+valid, 9411, 0.0789373254992
+look, 5341, 0.0768988309362
+oppos, 6269, 0.075183870255
+gone, 3943, 0.0749770634438
+west, 9708, 0.0741765261836
+besid, 1051, 0.0732310224301
+scientif, 7693, 0.0728684909718
+truth, 9132, 0.0716628690691
+break, 1284, 0.0705447813957
+mike, 5710, 0.0665025676785
+hitter, 4322, 0.0655824808283
+walk, 9617, 0.0654712393623
+like, 5272, 0.0648818722935
+wouldn, 9854, 0.0644008871216
+argument, 631, 0.0642978307099
+left, 5193, 0.0613185816158
+pitcher, 6644, 0.0612341601657
+ball, 877, 0.0602556169927
+import, 4551, 0.0583971165299
+pretti, 6851, 0.056489354702
+pitch, 6643, 0.0562438215995
+wonder, 9821, 0.055942307552
+hit, 4316, 0.0538775431656
+thought, 8887, 0.0537734422553
+person, 6562, 0.0513319093455
+ll, 5314, 0.048805879905
+mean, 5595, 0.0476131934083
+sinc, 7977, 0.0469661797815
+better, 1060, 0.0460911062199
+realli, 7150, 0.0457175878995
+anyon, 554, 0.0414010605364
+year, 9943, 0.0387203976615
+don, 2811, 0.0349463735425

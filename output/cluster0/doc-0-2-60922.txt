@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60922
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: arthurc@sfsuvax1.sfsu.edu (Arthur Chandler)
+Subject: Stereo Pix of planets?
+Organization: California State University, Sacramento
+Lines: 5
+
+Can anyone tell me where I might find stereo images of planetary and
+planetary satellite surfaces?  GIFs preferred, but any will do.  I'm
+especially interested in stereos of the surfaces of Phobos, Deimos, Mars
+and the Moon (in that order).
+  Thanks. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ stereo pix planet    anyon tell might find stereo
+imag planetari planetari satellit surfac gif
+prefer i'm especi interest stereo surfac phobo
+deimo mar moon order thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stereo, 8382, 0.65269771574
+planetari, 6665, 0.335694650774
+surfac, 8587, 0.287399147903
+pix, 6649, 0.248973446078
+deimo, 2493, 0.248973446078
+phobo, 6599, 0.233524485992
+mar, 5500, 0.161761716933
+planet, 6664, 0.150504103621
+prefer, 6819, 0.1501770375
+satellit, 7632, 0.140639703472
+gif, 3869, 0.138747389695
+especi, 3190, 0.136098719249
+moon, 5851, 0.133451416985
+order, 6281, 0.116194395915
+imag, 4512, 0.110182225136
+tell, 8767, 0.107410650988
+thank, 8832, 0.0920504085645
+anyon, 554, 0.0883272919942

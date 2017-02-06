@@ -1,0 +1,57 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61183
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Pat.Hoage@f6507.n124.z1.fidonet.org (Pat Hoage)
+Subject: army in space
+Lines: 7
+
+I just got out of the Army. Go signal corps or Intelligence; 
+photointelligence interpretation. If you go ADA you might get to play with 
+rockets but space will look pretty far away dug in the mud next to a grunt 
+protecting the foward troops from low flying objects. Good Luck  
+ 
+
+ * Origin: *AmeriComm*, 214/373-7314. Dallas'Info Source. (1:124/6507)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ armi space   got armi signal corp intellig
+photointellig interpret ada might get play rocket
+space look pretti far away dug mud next grunt
+protect foward troop low fli object good luck
+origin americomm dallas'info sourc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+armi, 645, 0.454866161094
+mud, 5913, 0.297304675759
+dug, 2909, 0.297304675759
+troop, 9115, 0.270876765087
+space, 8164, 0.216301900609
+corp, 2153, 0.202561607028
+intellig, 4698, 0.197371239032
+signal, 7947, 0.196684239983
+luck, 5381, 0.196684239983
+protect, 6940, 0.186057618235
+interpret, 4720, 0.179886961931
+rocket, 7447, 0.177344192174
+fli, 3542, 0.162853662245
+low, 5368, 0.157136831924
+away, 833, 0.151121820629
+info, 4636, 0.150105029288
+sourc, 8153, 0.140724260167
+object, 6173, 0.140411738617
+pretti, 6851, 0.139794277095
+origin, 6293, 0.135593847684
+far, 3386, 0.127361250145
+play, 6681, 0.125738562035
+got, 3960, 0.125108342469
+good, 3948, 0.0980092480417
+look, 5341, 0.0951508167944

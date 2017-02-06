@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104794
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ching@fledgling.WPI.EDU (Jay Heminger)
+Subject: Re: TIGER STADIUM GIF?
+Organization: Worcester Polytechnic Institute
+Lines: 9
+Distribution: world
+NNTP-Posting-Host: fledgling.wpi.edu
+Originator: ching@fledgling.WPI.EDU
+
+
+
+I hate to be rude, but screw the seating chart, post the stadium instead.
+
+-- 
+------------------------THE LOGISTICIAN REIGNS SUPREME!!!----------------------
+|									      |
+|   GO BLUE!!!   GO TIGERS!!!   GO PISTONS!!!   GO LIONS!!!   GO RED WINGS!!! |
+-------------------------------ching@wpi.wpi.edu-------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiger stadium gif         hate rude screw seat
+chart post stadium instead   logistician reign
+suprem  blue tiger piston lion red wing
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiger, 8928, 0.393468208256
+stadium, 8300, 0.391915125165
+piston, 6641, 0.27938124924
+rude, 7529, 0.266970685793
+reign, 7237, 0.266970685793
+lion, 5291, 0.2620454657
+suprem, 8580, 0.238859636968
+chart, 1674, 0.236479174855
+screw, 7720, 0.234243074417
+seat, 7748, 0.214543783194
+wing, 9779, 0.205557938345
+hate, 4202, 0.185927461248
+blue, 1176, 0.170009046959
+instead, 4682, 0.158366935494
+gif, 3869, 0.155692985225
+red, 7194, 0.147617563058
+post, 6766, 0.107722895529

@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61419
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Gamma Ray Bursters. WHere are they.
+Organization: Univ. of Southwestern Louisiana
+Lines: 33
+
+ethanb@ptolemy.astro.washington.edu (Ethan Bradford) writes:
+
+>u9263012@wampyr.cc.uow.edu.au (Walker Andrew John) writes:
+>	   Also,if they did come from the Oort cloud we would expect to
+>   see the same from other stars Oort Clouds.
+
+>That's a very good point.  Perhaps none of the nearby stars have Oort
+>clouds?  Alpha-centauri is a multiple-star system; you wouldn't expect
+>an Oort cloud in it.
+
+Sure about that? Maybe Proxima might cause problems, but at Oort
+Cloud distances AC a and AC b together look like a point source.
+
+Besides, even the solar system's Oort cloud is unstable over
+geologic time, right, and needs to be replentished from somewhere
+else, like the short period comets of the Kupier Belt?
+
+(Or maybe I'm misremembering something I read or heard somewhere...)
+
+>  What's the nearest single-star that is likely to
+>have a planetary system?
+
+Until we're able to perform a broad-band survey of nearby stars
+to detect planets, we won't know enough to say whether or not
+a single star has planets. And we're likely to find out about the
+close ones first.
+
+Heck, if neutron stars can have planets, anything can have planets.
+(Or was that discovery disconfirmed?)
+
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gamma ray burster       also come oort cloud
+expect see star oort cloud  that good point perhap
+none nearbi star oort cloud alpha centauri multipl
+star system wouldn't expect oort cloud  sure mayb
+proxima might caus problem oort cloud distanc
+togeth look like point sourc  besid even solar
+system oort cloud unstabl geolog time right need
+replentish somewher els like short period comet
+kupier belt  mayb i'm misrememb someth read heard
+somewher  what nearest singl star like planetari
+system  we'r abl perform broad band survey nearbi
+star detect planet won't know enough say whether
+singl star planet we'r like find close one first
+heck neutron star planet anyth planet discoveri
+disconfirm   phil fraer seem like everi day find
+sort stuff
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+oort, 6255, 0.498650340865
+cloud, 1835, 0.441922456702
+star, 8324, 0.412874435835
+planet, 6664, 0.249821704553
+nearbi, 5983, 0.163843079843
+like, 5272, 0.143604704082
+somewher, 8130, 0.127483680218
+singl, 7983, 0.11313167868
+proxima, 6954, 0.106361448806
+expect, 3290, 0.10573010909
+centauri, 1605, 0.100830834642
+unstabl, 9312, 0.0987281927231
+mayb, 5564, 0.0954914660685
+broad, 1323, 0.0874521540848
+neutron, 6022, 0.0858455731184
+nearest, 5984, 0.0851080868742
+geolog, 3842, 0.0798188980019
+fraer, 3640, 0.0798188980019
+alpha, 441, 0.0798188980019
+discoveri, 2700, 0.0793402463337
+belt, 1017, 0.0793402463337
+survey, 8597, 0.0779975067242
+heck, 4234, 0.077170576403
+point, 6710, 0.0770029562304
+band, 891, 0.0752991293889
+detect, 2579, 0.0736537427836
+burster, 1418, 0.072185641919
+comet, 1926, 0.0711152755197
+multipl, 5919, 0.070610026171
+planetari, 6665, 0.0696524279472
+phil, 6588, 0.0671270531554
+gamma, 3762, 0.066748135099
+distanc, 2744, 0.066748135099
+besid, 1051, 0.0648336364778
+togeth, 8969, 0.0631550755403
+period, 6546, 0.0607883565013
+solar, 8107, 0.060549049085
+won, 9820, 0.0581613532285
+wouldn, 9854, 0.0570160509294
+ray, 7118, 0.0570160509294
+perform, 6539, 0.0553789891172
+caus, 1569, 0.0552175650691
+short, 7904, 0.0539175177412
+perhap, 6540, 0.0527976955296
+sort, 8144, 0.0524658014706
+stuff, 8472, 0.0522704734617
+heard, 4224, 0.0518253001042
+close, 1830, 0.0517007314498
+sourc, 8153, 0.0503444359067
+abl, 180, 0.0499026103049
+els, 3053, 0.0471555503043
+anyth, 555, 0.0467614247934
+everi, 3235, 0.0467183278449
+sure, 8585, 0.0439264904129
+problem, 6887, 0.0429131404701
+read, 7135, 0.0415216568913
+right, 7399, 0.0414922915993
+day, 2402, 0.0404479629443
+someth, 8126, 0.0401523023019
+come, 1923, 0.0395540672916
+need, 5993, 0.0366741985694
+good, 3948, 0.0350630395956
+say, 7653, 0.0346305540294
+look, 5341, 0.0340404290766
+time, 8936, 0.0324093340721
+know, 5052, 0.0293806978069

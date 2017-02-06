@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62417
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wb8foz@skybridge.SCL.CWRU.Edu (David Lesher)
+Subject: Re: No. Re: Space Marketing would be wonderfull.
+Organization: NRK Clinic for habitual NetNews abusers - Beltway Annex
+Lines: 11
+Reply-To: wb8foz@skybridge.scl.cwru.edu (David Lesher)
+NNTP-Posting-Host: skybridge.scl.cwru.edu
+
+Others said:
+# >Coca Cola company will want to paint the moon red and white.  (Well,
+# >if not this moon, then a moon of Jupiter)...
+
+This reminds me of the old Arthur C. Clarke story about the Coca Cola
+ad stashed inside an experiment.
+--
+A host is a host from coast to coast..wb8foz@skybridge.scl.cwru.edu
+& no one will talk to a host that's close............(301) 56-LINUX
+Unless the host (that isn't close).........................pob 1433
+is busy, hung or dead....................................20915-1433
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ space market wonderful      other said coca cola
+compani want paint moon red white well moon moon
+jupit  remind old arthur clark stori coca cola
+stash insid experi   one talk host that close
+linux unless host isn't close pob busi hung dead
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+coca, 1867, 0.41533039627
+cola, 1887, 0.399166984864
+moon, 5851, 0.342165830174
+host, 4386, 0.307353394459
+close, 1830, 0.21295951141
+linux, 5290, 0.183862491585
+arthur, 663, 0.178408165718
+wonderful, 9822, 0.168720737854
+hung, 4441, 0.159774579642
+paint, 6391, 0.152338706746
+clark, 1787, 0.152338706746
+remind, 7270, 0.147545411139
+jupit, 4932, 0.146999908759
+insid, 4671, 0.131589325323
+busi, 1424, 0.129485161083
+market, 5514, 0.128073180999
+stori, 8418, 0.126992567395
+dead, 2415, 0.125196088497
+white, 9737, 0.120407667943
+experi, 3295, 0.11761604773
+compani, 1958, 0.116866870269
+unless, 9289, 0.11439171775
+red, 7194, 0.112430981016
+old, 6216, 0.106225523292
+isn, 4783, 0.102888598012
+talk, 8684, 0.0950042312331
+said, 7583, 0.0935166342559
+space, 8164, 0.0796862158506
+want, 9634, 0.0765253824793

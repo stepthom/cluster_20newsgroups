@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84262
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: kaamran@sun14.vlsi.uwaterloo.ca ()
+Subject: What was Koresh's messsage?
+Organization: University of Waterloo
+Distribution: na
+Lines: 15
+
+Dear netters
+
+I am wondering about the accident of Koresh. I have heard different 
+explanations.
+Without any explanation about your opinions and believes,
+ please kindly tell me:
+
+     1)- What was Koresh talking about?. (Or  what was his message)
+     2)- What was the main reason that Government went in war with
+             Koresh?
+(Some say that due to Tax payment, ....)
+
+Thanks in advance for your historical explanation.
+
+Kaamran
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ koresh messsag     dear netter  wonder accid
+koresh heard differ explan without explan opinion
+believ pleas kind tell  koresh talk messag main
+reason govern went war koresh say due tax payment
+thank advanc histor explan  kaamran
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+koresh, 5065, 0.579320564716
+explan, 3302, 0.497208095304
+payment, 6478, 0.218305423398
+netter, 6017, 0.18517037077
+dear, 2422, 0.181142953848
+accid, 210, 0.181142953848
+tax, 8718, 0.160872051442
+histor, 4313, 0.157822909186
+war, 9635, 0.1467766762
+went, 9704, 0.134681861041
+main, 5450, 0.132350680403
+govern, 3966, 0.125870785611
+messag, 5650, 0.124687856558
+heard, 4224, 0.114594866673
+advanc, 285, 0.114046472935
+opinion, 6266, 0.11297872162
+wonder, 9821, 0.109513837756
+kind, 5021, 0.107589229908
+talk, 8684, 0.10199900316
+tell, 8767, 0.0985581450712
+reason, 7156, 0.0972846757176
+believ, 1009, 0.0931405823457
+differ, 2633, 0.0928700798628
+pleas, 6688, 0.0887250767307
+thank, 8832, 0.0844638537954
+say, 7653, 0.0765742545403

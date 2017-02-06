@@ -1,0 +1,327 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104766
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Hits Stolen -- Centerfield 1992
+Summary: DCON and DOPS for leftfielders
+Keywords: defense center
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 118
+
+Disclaimer -- This is for fun.
+
+In my computerized baseball game, I keep track of a category called
+"stolen hits", defined as a play made that "an average fielder would not
+make with average effort."  Using the 1992 Defensive Averages posted
+by Sherri Nichols (Thanks Sherri!), I've figured out some defensive stats
+for the centerfielders. Hits Stolen have been redefined as "Plays Juan
+Gonzalez would not have made."
+
+OK, I realize that's unfair.  Juan's probably the victim of pitching staff,
+fluke shots, and a monster park factor.  But let's put it this way:  If we
+replaced every centerfielder in the league with someone with Kevin's 55.4% out
+making ability, how many extra hits would go by?
+
+To try and correlate it to reality a little more, I've calculated Net
+Hits Stolen, based on the number of outs made compared to what a league
+average fielder would make.  By the same method I've calculated Net Extra 
+Bases (doubles and triples let by).
+
+Finally, I throw all this into a a formula I call Defensive Contribution, or
+DCON :->.  Basically, it represents the defensive contribution of a player.
+I add this number to OPS to get DOPS (Defense + Onbase Plus Slug), which
+should represent the player's total contribution to the team.  So don't
+take it too seriously.  The formula for DCON appears at the end of this
+article.
+
+The short version -- definition of terms
+HS -- Hits Stolen -- Extra outs compared to Kurt Stillwell
+NHS -- Net Hits Stolen -- Extra outs compared to average fielder
+NDP -- Net Double Plays -- Extra double plays turned compared to avg fielder
+NEB -- Net Extra Bases --  Extra bases prevented compared to avg. fielder
+DCON -- Defensive Contribution -- bases and hits prevented, as a rate.
+DOPS -- DCON + OPS -- quick & dirty measure of player's total contribution.
+
+National League
+
+Name            HS   NHS   NEB   DCON    DOPS
+Nixon, O.       34    12    15   .083    .777
+Grissom, M.     48    18    12   .072    .812
+Jackson, D.     46    13    20   .060    .735
+Lewis, D.       25     8    -6   .029    .596
+Dykstra, L.     25     5    -5   .013    .794
+Dascenzo, D.    10    -5    10   .001    .616
+Finley, S.      32    -2     2  -.003    .759
+Lankford, R.    39     4   -12  -.007    .844
+Martinez, D.    21     5   -16  -.017    .660
+VanSlyke, A.    30    -4   -17  -.040    .846
+Sanders, R.      7   -10    -4  -.059    .759
+Butler, B.       1   -29     5  -.088    .716
+Johnson, H.      3   -12   -19  -.118    .548
+
+Ordered by DOPS
+
+.846 VanSlyke
+.844 Lankford
+.812 Grissom
+.794 Dykstra
+.777 Nixon
+.759 Finley
+.759 Sanders
+.735 Jackson
+.730 *NL Average*
+.716 Butler
+.660 Martinez
+.616 Dascenzo
+.596 Lewis
+.548 Johnson
+
+American League
+---------------
+
+Name            HS   NHS   NEB   DCON    DOPS
+Lofton, K.      57    32    17   .220    .947
+Wilson, W.      47    26     0   .125    .787
+White, D.       52    25    28   .119    .812
+Felix, J.       22     0    32   .063    .713
+Devereaux, M.   43    16     0   .047    .832
+McRae, H.       38    11    -1   .038    .631
+Yount, R.       31     8    -3   .022    .737
+Kelly, R.       13    -6    -3  -.025    .681
+Johnson, L.     23    -5   -13  -.040    .641
+Griffey, K.     15    -9   -12  -.052    .844
+Puckett, K.     13   -13   -15  -.063    .801
+Cuyler, M.       6   -10    -6  -.088    .503
+Gonzalez, J.     0   -21   -15  -.095    .738
+
+
+Order by DOPS
+
+.947 Lofton
+.844 Griffey
+.832 Devereaux
+.812 White
+.801 Puckett
+.787 Wilson
+.738 Gonzalez
+.737 Yount
+.713 Felix
+.709 *AL Average*
+.681 Kelly
+.641 Johnson
+.631 McRae
+.503 Cuyler
+
+More discussion --
+
+DCON formula:  ((NHS + NDP)/PA) + ((NHS + NDP + NEB)/AB)
+Why such a bizzare formula?  Basically, it's designed to be added into the
+OPS, with the idea that "a run prevented is as important as a run scored".
+The extra outs are factored into OBP, while the extra bases removed are 
+factored into SLG.  That's why I used PA and AB as the divisors.
+
+For more discussion see the post on Hits Stolen -- First Base 1992
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hit stolen centerfield dcon dop leftfield
+disclaim fun  computer basebal game keep track
+categori call stolen hit defin play made averag
+fielder make averag effort use defens averag post
+sherri nichol thank sherri i'v figur defens stat
+centerfield hit stolen redefin play juan gonzalez
+made  realiz that unfair juan probabl victim pitch
+staff fluke shot monster park factor let put way
+replac everi centerfield leagu someon kevin make
+abil mani extra hit  tri correl realiti littl i'v
+calcul net hit stolen base number out made compar
+leagu averag fielder make method i'v calcul net
+extra base doubl tripl let  final throw formula
+call defens contribut dcon basic repres defens
+contribut player add number op get dop defens
+onbas plus slug repres player total contribut team
+don't take serious formula dcon appear end articl
+short version definit term hit stolen extra out
+compar kurt stillwel nhs net hit stolen extra out
+compar averag fielder ndp net doubl play extra
+doubl play turn compar avg fielder neb net extra
+base extra base prevent compar avg fielder dcon
+defens contribut base hit prevent rate dop dcon op
+quick dirti measur player total contribut  nation
+leagu  name nhs neb dcon dop nixon grissom jackson
+lewi dykstra dascenzo finley lankford martinez
+vanslyk sander butler johnson  order dop  vanslyk
+lankford grissom dykstra nixon finley sander
+jackson averag butler martinez dascenzo lewi
+johnson  american leagu   name nhs neb dcon dop
+lofton wilson white felix devereaux mcrae yount
+kelli johnson griffey puckett cuyler gonzalez
+order dop  lofton griffey devereaux white puckett
+wilson gonzalez yount felix averag kelli johnson
+mcrae cuyler  discuss  dcon formula nhs ndp nhs
+ndp neb bizzar formula basic it design ad op idea
+run prevent import run score extra out factor obp
+extra base remov factor slg that use divisor
+discuss see post hit stolen first base    consid
+good look wise especi overburden inform golden
+kimbal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dcon, 2409, 0.352095923663
+dop, 2819, 0.315682533193
+extra, 3325, 0.249820383447
+stolen, 8407, 0.243882936482
+nhs, 6044, 0.22548752371
+hit, 4316, 0.187384310429
+neb, 5986, 0.180390018968
+averag, 816, 0.177406207916
+fielder, 3467, 0.164337852399
+defens, 2476, 0.154471673511
+ndp, 5980, 0.139278200558
+formula, 3614, 0.136937684459
+contribut, 2103, 0.135717387185
+base, 923, 0.130428587156
+johnson, 4880, 0.129144984675
+compar, 1960, 0.12524573699
+centerfield, 1607, 0.124793742189
+net, 6010, 0.119818165569
+op, 6256, 0.10882878299
+gonzalez, 3946, 0.108034806281
+vanslyk, 9423, 0.0962777626263
+leagu, 5176, 0.0955823537229
+grissom, 4054, 0.0928521337055
+devereaux, 2589, 0.0928521337055
+dascenzo, 2382, 0.0928521337055
+prevent, 6853, 0.0906130286395
+lofton, 5327, 0.0861884024159
+factor, 3352, 0.0857698239622
+finley, 3491, 0.0845983519949
+doubl, 2828, 0.0832734611489
+felix, 3435, 0.0831958281259
+cuyler, 2317, 0.0819412277732
+mcrae, 5586, 0.0808063037038
+griffey, 4047, 0.07881707546
+dykstra, 2940, 0.07881707546
+avg, 820, 0.07881707546
+play, 6681, 0.0785395907025
+yount, 9965, 0.0763445702844
+sander, 7607, 0.0749420464153
+kelli, 4977, 0.0749420464153
+puckett, 6975, 0.0742982307083
+martinez, 5524, 0.0742982307083
+nixon, 6080, 0.0736874460626
+lankford, 5114, 0.0736874460626
+juan, 4915, 0.0736874460626
+lewi, 5235, 0.0720232041871
+butler, 1429, 0.0720232041871
+wilson, 9768, 0.0701138936255
+jackson, 4812, 0.0680907885738
+sherri, 7879, 0.067023714773
+player, 6683, 0.0616332703008
+calcul, 1451, 0.0573296668799
+repres, 7294, 0.0568858506669
+white, 9737, 0.0510377394012
+basic, 937, 0.0490007575387
+total, 9013, 0.0475235770618
+onbas, 6238, 0.0464260668528
+leftfield, 5194, 0.0464260668528
+divisor, 2769, 0.0464260668528
+discuss, 2708, 0.0458019486177
+bizzar, 1132, 0.0450975047419
+make, 5459, 0.0447990961395
+stillwel, 8396, 0.0440119904578
+unfair, 9262, 0.0430942012079
+computer, 1995, 0.0430942012079
+redefin, 7197, 0.0422991759975
+order, 6281, 0.0420934634059
+kurt, 5081, 0.0404031518519
+monster, 5842, 0.0398850996026
+fluke, 3561, 0.03940853773
+number, 6156, 0.0387203607721
+victim, 9503, 0.0381722851422
+let, 5225, 0.0376055534757
+tripl, 9105, 0.0368437230313
+overburden, 6339, 0.0368437230313
+dirti, 2671, 0.0368437230313
+slug, 8048, 0.0365532339577
+kimbal, 5019, 0.0362762609966
+correl, 2157, 0.0360116020935
+run, 7543, 0.0358689999952
+post, 6766, 0.0347770926298
+slg, 8028, 0.0344296466364
+golden, 3934, 0.0325698161887
+nichol, 6050, 0.0322862461688
+kevin, 4993, 0.0322862461688
+wise, 9799, 0.0317566666265
+obp, 6177, 0.0317566666265
+categori, 1560, 0.0317566666265
+fun, 3721, 0.0307135286421
+track, 9030, 0.0294706348433
+shot, 7910, 0.0292172414971
+disclaim, 2691, 0.0292172414971
+staff, 8301, 0.0288953336436
+replac, 7288, 0.0287406796245
+plus, 6700, 0.0285899413207
+remov, 7272, 0.0284429253335
+realiti, 7148, 0.0278886793862
+abil, 177, 0.0278886793862
+effort, 3007, 0.0278228903746
+park, 6430, 0.0274427286092
+realiz, 7149, 0.0273212173515
+stat, 8341, 0.0270278651641
+measur, 5601, 0.0268585501059
+method, 5666, 0.0268031651022
+throw, 8899, 0.0266939171752
+american, 469, 0.0264812572487
+use, 9363, 0.0262986308584
+defin, 2482, 0.0261264551404
+rate, 7108, 0.025838309639
+score, 7705, 0.0257452789186
+definit, 2484, 0.0257452789186
+add, 260, 0.0255634679988
+ad, 257, 0.0255634679988
+quick, 7036, 0.0253870448696
+figur, 3476, 0.025300755751
+especi, 3190, 0.0246520772933
+term, 8795, 0.0244630504655
+appear, 580, 0.0242081068406
+turn, 9158, 0.0236959995193
+short, 7904, 0.023534638831
+nation, 5962, 0.0234398806775
+final, 3482, 0.0233775361814
+version, 9479, 0.0231643322515
+design, 2564, 0.0231344883546
+import, 4551, 0.0225670263199
+pitch, 6643, 0.0217349053821
+consid, 2059, 0.0208813364849
+end, 3091, 0.020525186438
+everi, 3235, 0.0203922401972
+idea, 4482, 0.0203547945079
+basebal, 924, 0.0200634167344
+littl, 5308, 0.0200103360414
+team, 8732, 0.0197686975754
+inform, 4637, 0.019569108664
+probabl, 6885, 0.0194717684309
+someon, 8124, 0.0194556986642
+articl, 665, 0.0191889468986
+game, 3761, 0.0180474319497
+tri, 9087, 0.0172429134952
+mani, 5479, 0.0168884772371
+thank, 8832, 0.0166734396865
+way, 9666, 0.0155745309199
+good, 3948, 0.015304784192
+look, 5341, 0.014858421484
+don, 2811, 0.0135047032864

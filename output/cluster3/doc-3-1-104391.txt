@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104391
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: Jewish Baseball Players?
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 16
+
+In article <1993Apr16.200100.23703@scott.skidmore.edu> jrogoff@scott.skidmore.edu (jay rogoff) writes:
+
+>There is a book that you can find in sale catalogues occasionally
+>called _Jewish Baseball Stars_, and baseball mavin Peter Bjarkman has
+>compiled a pretty definitive list of Jewish ballplayers in the bigs.  
+
+I wish I hadn't sold my copy of Jewish Baseball Stars.  It's a Short Shelf
+(i.e., the one on top of the toilet tank) Special.  The writing in that 
+books is so astonishingly awful -- every sportswriting cliche taken to
+the nth degree and then mangled -- that it's funny.
+
+Rusinow is the author, I think.
+
+Roger
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player origin news nimast
+book find sale catalogu occasion call jewish
+basebal star basebal mavin peter bjarkman compil
+pretti definit list jewish ballplay big  wish
+hadn't sold copi jewish basebal star it short
+shelf one top toilet tank special write book
+astonish aw everi sportswrit clich taken nth degre
+mangl it funni  rusinow author think  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.469902474778
+basebal, 924, 0.322681016172
+star, 8324, 0.20703135645
+mangl, 5477, 0.193555057759
+clich, 1814, 0.181326401798
+astonish, 717, 0.181326401798
+toilet, 8970, 0.176961805567
+nth, 6145, 0.173271592035
+book, 1218, 0.171491205906
+sportswrit, 8259, 0.170074983673
+catalogu, 1553, 0.164733149607
+shelf, 7872, 0.152030438499
+ballplay, 884, 0.146971909545
+hadn, 4114, 0.142798063349
+occasion, 6187, 0.141859158593
+nimast, 6072, 0.140955692781
+sold, 8109, 0.138433467118
+funni, 3731, 0.136888479289
+sale, 7590, 0.130378657354
+compil, 1972, 0.127182048992
+aw, 829, 0.126204811157
+tank, 8695, 0.123491835459
+peter, 6575, 0.118150001393
+roger, 7458, 0.114953393031
+degre, 2491, 0.111092794419
+wish, 9801, 0.110839469275
+taken, 8678, 0.108443571096
+special, 8198, 0.106685790731
+copi, 2130, 0.105246962734
+definit, 2484, 0.103515678225
+author, 796, 0.0982109876923
+short, 7904, 0.0946272172102
+pretti, 6851, 0.087772420742
+list, 5298, 0.0876764727071
+origin, 6293, 0.0851351034979
+news, 6031, 0.0826818663625
+player, 6683, 0.0826042682308
+write, 9865, 0.0825269208206
+everi, 3235, 0.0819923754259
+big, 1082, 0.0815435059755
+think, 8871, 0.0548274825116

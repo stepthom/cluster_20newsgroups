@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38690
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ldawes@uahcs2.cs.uah.edu (Lisa Dawes)
+Subject: gif aerial maps?
+Reply-To: ldawes@uahcs2.cs.uah.edu (Lisa Dawes)
+Organization: Computer Science Dept. - Univ. of Alabama in Huntsville
+Lines: 5
+
+Is there an ftp site for maps of the US.  Preferably aerial
+photographs?
+
+Thanks
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gif aerial map     ftp site map prefer aerial
+photograph  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aerial, 297, 0.737646171205
+map, 5498, 0.436624285787
+photograph, 6604, 0.275483109263
+prefer, 6819, 0.222468537226
+gif, 3869, 0.205536940555
+site, 7994, 0.200679832514
+ftp, 3709, 0.196829779276
+thank, 8832, 0.136361191334

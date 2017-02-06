@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38843
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: hollasch@kpc.com (Steve Hollasch)
+Subject: Re: What is the difference between Raytracing and rendering?
+Summary: Raytracing is a form of rendering
+Organization: Kubota Pacific Computer, Inc.
+Lines: 31
+
+zlg1409@uxa.cso.uiuc.edu (Zhenhai Li ) writes:
+| Hello, I've raytraced and rendered and the only difference I've found 
+| is that raytracing takes a hell of a lot longer. Am I missing something?
+
+    Yes.  There are many methods of rendering, raytracing is one of them.
+You didn't say what you mean by rendering, so I won't guess.  Methods of
+rendering include:
+
+        o  Pencil and graph paper, doing the math by hand
+
+        o  Wireframe rendering of the 2D projection
+
+        o  Hidden line rendering
+
+        o  Scanline rendering using:
+            - Painter's algorithm.
+            - BSP trees.
+            - Z buffer
+            - Other
+
+        o  Raytracing
+
+        o  Radiosity
+
+        o  Holographic projection to film
+
+        o  Combination of any of the above
+
+______________________________________________________________________________
+Steve Hollasch                                   Kubota Pacific Computer, Inc.
+hollasch@kpc.com                                 Santa Clara, California
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ differ raytrac render raytrac form render
+hello i'v raytrac render differ i'v found raytrac
+take hell lot longer miss someth  yes mani method
+render raytrac one didn't say mean render won't
+guess method render includ  pencil graph paper
+math hand  wirefram render project  hidden line
+render  scanlin render use painter algorithm bsp
+tree buffer   raytrac  radios  holograph project
+film  combin   steve hollasch kubota pacif comput
+inc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+render, 7277, 0.68888870412
+raytrac, 7121, 0.523868150931
+method, 5666, 0.136717413683
+scanlin, 7662, 0.122773249458
+painter, 6393, 0.118404892918
+project, 6909, 0.11272140455
+hollasch, 4346, 0.112248040175
+pencil, 6515, 0.107879683635
+wirefram, 9795, 0.0983344703197
+radios, 7062, 0.0983344703197
+kubota, 5078, 0.0955659781497
+differ, 2633, 0.0935121154014
+pacif, 6372, 0.0905777532069
+graph, 3996, 0.089409125407
+tree, 9080, 0.0868292650694
+hidden, 4286, 0.0859087003608
+buffer, 1371, 0.0859087003608
+film, 3479, 0.0830659553913
+math, 5544, 0.0806724123267
+hello, 4247, 0.0751618131667
+combin, 1921, 0.0736945668206
+hell, 4245, 0.0696799456467
+longer, 5337, 0.0678064762664
+steve, 8390, 0.0676715005578
+paper, 6409, 0.0676715005578
+algorithm, 407, 0.0660179800638
+won, 9820, 0.0647470383142
+miss, 5770, 0.0642027267315
+form, 3610, 0.0608572002273
+guess, 4079, 0.0588510328954
+yes, 9951, 0.0553130684797
+hand, 4145, 0.0550767264753
+comput, 1993, 0.0526441482549
+includ, 4579, 0.0522497191376
+didn, 2625, 0.0507230340283
+line, 5285, 0.0503319909445
+lot, 5356, 0.0473787508951
+mean, 5595, 0.046926482242
+someth, 8126, 0.0446987993097
+mani, 5479, 0.0430723185134
+say, 7653, 0.0385518163543
+use, 9363, 0.0335359721572

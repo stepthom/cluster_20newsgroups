@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60171
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: nsmca@aurora.alaska.edu
+Subject: Re: Portable Small Ground Station?dir
+Article-I.D.: aurora.1993Apr5.185700.1
+Organization: University of Alaska Fairbanks
+Lines: 21
+Nntp-Posting-Host: acad3.alaska.edu
+
+In article <C4zGAM.2nJ@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry Spencer) writes:
+> In article <1993Apr2.214705.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>>How difficult would it be to set up your own ground station?
+> 
+> Ground station for *what*?  At one extreme, some of the amateur-radio
+> satellites have sometimes been reachable with hand-held radios.  At the
+> other, nothing you can do in your back yard will let you listen in on
+> Galileo.  Please be more specific.
+> -- 
+> All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+>                     - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+
+SPECIFIC:
+Basically to be able to do the things the big dadies can do.. Monitor, and
+control if need be the Shuttle...
+
+Such as the one in Australia and such....
+
+==
+Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ portabl small ground station dir articl aurora
+1993apr5       difficult set ground station
+ground station one extrem amateur radio satellit
+sometim reachabl hand held radio noth back yard
+let listen galileo pleas specif  work one man work
+henri spencer toronto zoolog    specif basic abl
+thing big dadi monitor control need shuttl  one
+australia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ground, 4061, 0.373513776736
+station, 8346, 0.350941636133
+radio, 7061, 0.247504302272
+specif, 8203, 0.21998858117
+reachabl, 7129, 0.209914215834
+1993apr5, 48, 0.193624759526
+dir, 2665, 0.185652165335
+yard, 9936, 0.172917048585
+portabl, 6749, 0.166442830746
+galileo, 3755, 0.157617455063
+aurora, 787, 0.157617455063
+work, 9833, 0.157026937661
+amateur, 458, 0.152286212067
+australia, 792, 0.14501525565
+monitor, 5837, 0.142470973597
+held, 4243, 0.141988992549
+listen, 5300, 0.141515250897
+zoolog, 9993, 0.139260901966
+extrem, 3333, 0.137176219365
+difficult, 2635, 0.13486544718
+spencer, 8221, 0.133778515252
+henri, 4258, 0.126073683644
+sometim, 8128, 0.121840137079
+satellit, 7632, 0.118575990872
+toronto, 9003, 0.115656112591
+control, 2107, 0.115656112591
+basic, 937, 0.114041294002
+shuttl, 7929, 0.111542917561
+small, 8054, 0.107962045486
+abl, 180, 0.101388862181
+noth, 6119, 0.100842232788
+hand, 4145, 0.100519356766
+set, 7815, 0.0992642043663
+man, 5471, 0.0957174408638
+big, 1082, 0.0943996072466
+articl, 665, 0.089318306278
+let, 5225, 0.0875208097881
+pleas, 6688, 0.0815248543514
+thing, 8869, 0.0757099106019
+need, 5993, 0.0745122397734

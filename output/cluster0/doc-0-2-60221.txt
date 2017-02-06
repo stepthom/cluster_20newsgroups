@@ -1,0 +1,202 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60221
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: nuclear waste
+Organization: Express Access Online Communications USA
+Lines: 45
+NNTP-Posting-Host: access.digex.net
+
+In article <1993Apr6.125608.7506@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+|In <1993Apr2.150038.2521@cs.rochester.edu> dietz@cs.rochester.edu (Paul Dietz) writes:
+|>>
+|>>Paul, quite frankly I'll believe that this is really going to work on
+|>>the typical trash one needs to process when I see them put a couple
+|>>tons in one end and get (relatively) clean material out the other end,
+|>>plus be able to run it off its own residual power.  Sounds almost like
+|>>perpetual motion, doesn't it?
+|
+|I will believe that this process comes even close to approaching
+|technological and economic feasibility (given the mixed nature of the
+|trash that will have to be run through it as opposed to the costs of
+|separating things first and having a different 'run' for each
+|actinide) when I see them dump a few tons in one end and pull
+|(relatively) clean material out the other.  Once the costs,
+|technological risks, etc., are taken into account I still class this
+|one with the idea of throwing waste into the sun.  Sure, it's possible
+|and the physics are well understood, but is it really a reasonable
+|approach? 
+|
+
+How is it ever going to be an Off- the Shelf Technology if someone doesn't
+do it?  Maybe we should do this as part of the SSF design goals. ;-)
+
+Gee fred.  After your bitter defense of 20 KHz power as a Basic technology
+for SSF, Id think you would support a minor research program like this.
+
+And does anyone who knows more Particle physics then me,  know if the IPNS
+could Prove this technology?
+
+|
+|>The real reason why accelerator breeders or incinerators are not being
+|>built is that there isn't any reason to do so.  Natural uranium is
+|>still too cheap, and geological disposal of actinides looks
+|>technically reasonable.
+|
+
+It may also help there is political gridlock on the entire
+nuclear technical agenda.  There were big political opponenents to
+Fast Breeder Technologies.  WIPP is being fought to death in Courts.
+Even if you could make a nuclear incinerator, do you really think
+even Deaf SMith County Nevada would accept it?  NIMBY'ism rules
+nuclear power concerns.  Only the medical community has been
+able to overrule  nuclear  technology opposition. 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ nuclear wast        paul quit frank i'll believ
+realli go work typic trash one need process see
+put coupl ton one end get relat clean materi end
+plus abl run residu power sound almost like
+perpetu motion doesn't  believ process come even
+close approach technolog econom feasibl given mix
+natur trash run oppos cost separ thing first
+differ run actinid see dump ton one end pull relat
+clean materi cost technolog risk etc taken account
+still class one idea throw wast sun sure it
+possibl physic well understood realli reason
+approach   ever go shelf technolog someon doesn't
+mayb part ssf design goal  gee fred bitter defens
+khz power basic technolog ssf think support minor
+research program like  anyon know particl physic
+know ipn could prove technolog   real reason
+acceler breeder inciner built isn't reason natur
+uranium still cheap geolog dispos actinid look
+technic reason   also help polit gridlock entir
+nuclear technic agenda big polit opponen fast
+breeder technolog wipp fought death court even
+could make nuclear inciner realli think even deaf
+smith counti nevada accept nimby' rule nuclear
+power concern medic communiti abl overrul nuclear
+technolog opposit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+technolog, 8743, 0.354544602758
+nuclear, 6150, 0.348563134721
+actinid, 250, 0.198741255415
+breeder, 1294, 0.193053931036
+inciner, 4577, 0.188407048666
+reason, 7156, 0.164420088501
+ssf, 8289, 0.163408369166
+trash, 9068, 0.148250896714
+ton, 8980, 0.147386838039
+power, 6783, 0.141901189007
+clean, 1799, 0.131938079103
+end, 3091, 0.131796690852
+polit, 6723, 0.123695485602
+approach, 589, 0.121449870134
+wast, 9654, 0.119670965317
+run, 7543, 0.115161329175
+realli, 7150, 0.113444549791
+technic, 8737, 0.11313868102
+materi, 5543, 0.112267235795
+physic, 6613, 0.110810422733
+natur, 5966, 0.107943663763
+process, 6890, 0.103027072105
+khz, 5003, 0.0993706277074
+relat, 7247, 0.0974293340746
+cost, 2169, 0.0968379551106
+fought, 3625, 0.094203524333
+deaf, 2417, 0.094203524333
+abl, 180, 0.0932453208546
+bitter, 1128, 0.0905374061453
+residu, 7312, 0.0890364209586
+dispos, 2735, 0.0890364209586
+counti, 2184, 0.0890364209586
+uranium, 9347, 0.0864791448652
+agenda, 330, 0.0864791448652
+perpetu, 6556, 0.084350266924
+doesn, 2793, 0.0826752749753
+shelf, 7872, 0.0809316059279
+believ, 1009, 0.078708093949
+feasibl, 3419, 0.0765370812087
+understood, 9248, 0.0760168602047
+particl, 6441, 0.0745726396773
+geolog, 3842, 0.0745726396773
+econom, 2984, 0.0736934190194
+dump, 2916, 0.0736934190194
+medic, 5608, 0.0728709630209
+court, 2191, 0.0724788199286
+gee, 3806, 0.071728977488
+fred, 3666, 0.0713699778342
+risk, 7416, 0.0710208150354
+mix, 5788, 0.0694055363028
+acceler, 207, 0.068526315645
+goal, 3924, 0.0682462242616
+motion, 5880, 0.0679721568182
+opposit, 6270, 0.0669312809913
+typic, 9178, 0.0648601974573
+cheap, 1677, 0.0646495539021
+pull, 6979, 0.0642384329284
+communiti, 1953, 0.0634539609966
+smith, 8064, 0.0623609790723
+oppos, 6269, 0.0621875934732
+plus, 6700, 0.0611940792696
+account, 221, 0.0611940792696
+class, 1789, 0.0610357710854
+separ, 7797, 0.0605723147407
+paul, 6469, 0.0601251234204
+minor, 5745, 0.0586078732093
+think, 8871, 0.058373523782
+taken, 8678, 0.0577286525515
+throw, 8899, 0.0571358179895
+death, 2423, 0.0569061965529
+prove, 6947, 0.0565693405102
+fast, 3397, 0.0562411598435
+built, 1381, 0.0558163323399
+entir, 3129, 0.0554052113663
+defens, 2476, 0.0551053470619
+concern, 2004, 0.0551053470619
+know, 5052, 0.0548991841749
+frank, 3655, 0.0545259907084
+like, 5272, 0.053666397916
+rule, 7537, 0.0531833137059
+coupl, 2187, 0.053014521239
+sun, 8539, 0.0526834988631
+basic, 937, 0.0524407554296
+accept, 208, 0.0523608577074
+sound, 8150, 0.0500374165222
+design, 2564, 0.0495171955182
+research, 7307, 0.0490173806753
+close, 1830, 0.0483025964273
+quit, 7043, 0.0466735333289
+isn, 4783, 0.0466735333289
+given, 3887, 0.0457400554526
+mayb, 5564, 0.0446075482727
+support, 8576, 0.0438911879137
+real, 7144, 0.0436879356795
+idea, 4482, 0.0435675223905
+big, 1082, 0.0434087210216
+possibl, 6765, 0.0417812361814
+someon, 8124, 0.041643092336
+sure, 8585, 0.0410393330884
+ll, 5314, 0.0403693000685
+program, 6905, 0.0395565609175
+differ, 2633, 0.0392397534286
+help, 4249, 0.0374389039376
+come, 1923, 0.0369542963101
+work, 9833, 0.0361036381856
+thing, 8869, 0.0348144498028
+need, 5993, 0.0342637127777
+anyon, 554, 0.0342444770835
+make, 5459, 0.0319627499943
+look, 5341, 0.0318030531057

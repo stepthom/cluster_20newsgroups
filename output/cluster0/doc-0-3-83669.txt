@@ -1,0 +1,92 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83669
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ch981@cleveland.Freenet.Edu (Tony Alicea)
+Subject: Re: Rosicrucian Order(s) ?!
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 21
+Reply-To: ch981@cleveland.Freenet.Edu (Tony Alicea)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, cdcolvin@rahul.net (Christopher D. Colvin) says:
+>
+>I guess the San Jose Mercury news is wrong then,... 
+				      ^^^^^
+>
+	No: It is old. You said AMORC *IS*, not *was*... :-)
+Nothing personal, OK? Good! :-)
+
+	Maybe you didn't know that it's over by now. There is no more
+pending legal actions from no where, period. So yes, there was a
+situation and it has been resolved by BOTH parties. As long as humans 
+handle anything, it is subjected to "breaking" :-)
+
+	BTW, Gary L. Stewart has a P.O. Box in TX calling his org ARC:
+Ancient Rosae Crucis. I guess he couldn't take the "MO" from AMORC :-)
+
+
+Tony
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rosicrucian order         guess san jose mercuri
+news wrong   old said amorc noth person good  mayb
+didn't know it pend legal action period yes situat
+resolv parti long human handl anyth subject break
+btw gari stewart box call org arc ancient rosa
+cruci guess couldn't take amorc   toni
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+amorc, 477, 0.394763927783
+guess, 4079, 0.228387911505
+pend, 6516, 0.205858279241
+cruci, 2250, 0.202753918415
+rosa, 7479, 0.199945682458
+stewart, 8392, 0.197381963891
+resolv, 7317, 0.182330907568
+rosicrucian, 7486, 0.180893345561
+mercuri, 5640, 0.173488572898
+parti, 6438, 0.172417030212
+org, 6286, 0.165842289239
+arc, 608, 0.165842289239
+ancient, 500, 0.159777027987
+subject, 8487, 0.159099660765
+gari, 3776, 0.153065562052
+toni, 8984, 0.152524919792
+jose, 4892, 0.151994019366
+legal, 5200, 0.147602808762
+btw, 1355, 0.13901338703
+handl, 4149, 0.136112931353
+break, 1284, 0.134910144903
+couldn, 2176, 0.134039219137
+action, 251, 0.134039219137
+san, 7603, 0.133193299511
+period, 6546, 0.131309103005
+situat, 7995, 0.124371561959
+box, 1254, 0.120334327535
+human, 4432, 0.113759586562
+old, 6216, 0.111412252149
+wrong, 9869, 0.108149054407
+yes, 9951, 0.107328924978
+noth, 6119, 0.107213605158
+order, 6281, 0.104155318112
+mayb, 5564, 0.103135694693
+news, 6031, 0.101765020743
+anyth, 555, 0.101009487643
+didn, 2625, 0.0984224680261
+person, 6562, 0.0981673653376
+said, 7583, 0.0980828195795
+long, 5336, 0.0928377748424
+good, 3948, 0.0757397722673
+know, 5052, 0.0634653294926

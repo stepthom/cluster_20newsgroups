@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61450
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: devdjn@space.alcbel.be
+Subject: Re: Statement by NASA Administrator Daniel S. G
+Reply-To: devdjn@space.alcbel.be
+Organization: Alcatel Bell Telephone
+Lines: 20
+Nntp-Posting-Host: 138.203.8.26
+
+If this man Clark is a NASA administrator then god save NASA. Of course
+the Shuttles record is unrivaled !  There is only one Shuttle. Furthermore,
+there is only likely to be one Shuttle now that Hermes and Boron are 
+effectively cancelled.
+
+These officials should spend more of their time explaining to their
+European and Asian partners how we are expected to believe in them
+when their paymasters change their minds on major international
+projects everytime a new US administration takes office (considering
+the major impacts this has on the European and Asian (Japanese)
+industry). It is also appreciated how this affects American
+industry. I am of course talking about Space Stattion Freedom.
+
+---
+Dennis Newport,                  email: devdjn@space.alcbel.be
+Alcatel Bell Telephone,
+Berkenrodelei 33,                phone: (+32) 3/829.5488
+2660 Hoboken,
+Belgium.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ statement nasa administr daniel      man clark
+nasa administr god save nasa cours shuttl record
+unriv one shuttl furthermor like one shuttl herm
+boron effect cancel  offici spend time explain
+european asian partner expect believ paymast chang
+mind major intern project everytim new administr
+take offic consid major impact european asian
+japanes industri also appreci affect american
+industri cours talk space stattion freedom
+alcatel bell telephon berkenrodelei phone hoboken
+belgium
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+administr, 273, 0.371306458566
+asian, 686, 0.335980661561
+shuttl, 7929, 0.274401948989
+nasa, 5956, 0.256575286994
+european, 3222, 0.247537639044
+industri, 4608, 0.219401859663
+belgium, 1007, 0.16799033078
+major, 5458, 0.166828103402
+everytim, 3243, 0.158775989691
+cours, 2190, 0.155528024896
+herm, 4268, 0.154215675627
+partner, 6444, 0.144322915163
+cancel, 1487, 0.141795272416
+furthermor, 3732, 0.132185697689
+japanes, 4826, 0.130670112106
+daniel, 2359, 0.130670112106
+telephon, 8763, 0.126649297832
+clark, 1787, 0.123234080466
+freedom, 3672, 0.120734270375
+affect, 310, 0.120734270375
+bell, 1011, 0.118915270921
+impact, 4534, 0.118057608331
+spend, 8222, 0.106448911453
+offici, 6207, 0.105703750881
+statement, 8343, 0.102516988431
+intern, 4716, 0.101076891056
+american, 469, 0.101076891056
+offic, 6206, 0.100681657419
+phone, 6601, 0.0997226391149
+record, 7184, 0.0960857515532
+explain, 3301, 0.0918625499668
+save, 7646, 0.0914673163295
+effect, 3005, 0.0910788391546
+mind, 5733, 0.0885309330432
+expect, 3290, 0.0880764106654
+appreci, 587, 0.0878525136688
+project, 6909, 0.08434938377
+chang, 1650, 0.081651512801
+god, 3926, 0.0800949338304
+consid, 2059, 0.0797024307862
+man, 5471, 0.078490124099
+talk, 8684, 0.076853475564
+believ, 1009, 0.0701788963375
+new, 6023, 0.0661982341123
+space, 8164, 0.0644619988308
+time, 8936, 0.0539959306143
+like, 5272, 0.0478508421077

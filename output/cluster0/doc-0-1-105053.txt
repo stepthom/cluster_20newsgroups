@@ -1,0 +1,43 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105053
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: scordova@epas.utoronto.ca (Stephen Cordova)
+Subject: Rusty's religion
+Organization: University of Toronto - EPAS
+Nntp-Posting-Host: epas.utoronto.ca
+Lines: 4
+
+As I recall from Kieth Hernandez' 'auto'biography, Rusty is a devout
+Roman Catholic.  Kieth and Rusty would carpool to Shea everyday but
+Sunday, when Rusty would go to mass.
+SC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rusti religion     recal kieth hernandez
+auto'biographi rusti devout roman cathol kieth
+rusti carpool shea everyday sunday rusti mass
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rusti, 7552, 0.721266172648
+kieth, 5011, 0.429681164573
+biographi, 1106, 0.188778371114
+devout, 2600, 0.185648686372
+everyday, 3240, 0.182849087971
+shea, 7864, 0.165793997626
+cathol, 1564, 0.165793997626
+auto, 798, 0.164431052275
+hernandez, 4271, 0.157459611687
+roman, 7468, 0.146685751468
+sunday, 8541, 0.133524264026
+recal, 7166, 0.130394579284
+mass, 5533, 0.125673304558
+religion, 7261, 0.112535966541

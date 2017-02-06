@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102674
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jpopovich@guvax.acc.georgetown.edu
+Subject: Re: New Uniforms
+Distribution: world
+Organization: Georgetown University
+Lines: 10
+
+While I enjoy the trend towards the more classic style of uniform - 
+and I disagree with the person who wants a return to the non-gray road 
+uniforms - it should be remembered that one of the, if not THE reason 
+for the redesigning of uniforms, especially hats (re: the new road all 
+green A's caps and the cardinal navy blue road cap), is the marketing 
+money to be made in sales of new merchandise. 
+
+Jeffrey Popovich
+jpopovich@guvax.georgetown.edu
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new uniform     enjoy trend toward classic style
+uniform disagre person want return non gray road
+uniform rememb one reason redesign uniform especi
+hat new road green a cap cardin navi blue road cap
+market money made sale new merchandis  jeffrey
+popovich
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uniform, 9273, 0.575145027213
+road, 7431, 0.351694539613
+cap, 1497, 0.306416059427
+new, 6023, 0.219742162291
+merchandis, 5636, 0.185878868345
+jeffrey, 4842, 0.178645021153
+trend, 9084, 0.159691215692
+hat, 4199, 0.153208029714
+classic, 1790, 0.147143941491
+navi, 5968, 0.146261560315
+redesign, 7200, 0.145409096196
+gray, 4011, 0.143012494731
+style, 8479, 0.140135614046
+green, 4025, 0.138811872457
+sale, 7590, 0.136948406508
+cardin, 1515, 0.134660895379
+disagre, 2676, 0.13016763974
+enjoy, 3114, 0.120433499046
+blue, 1176, 0.11590076443
+market, 5514, 0.114636916359
+return, 7346, 0.107403069167
+especi, 3190, 0.104114814666
+money, 5835, 0.10135219097
+non, 6097, 0.0996658418978
+rememb, 7269, 0.0926024718554
+person, 6562, 0.0837778788079
+reason, 7156, 0.0811068911704
+want, 9634, 0.0684970405375

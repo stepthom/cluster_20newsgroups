@@ -1,0 +1,220 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104822
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: 00cgbabbitt@leo.bsuvc.bsu.edu
+Subject: Re: And America's Team is....But Why?
+Organization: Ball State University, Muncie, In - Univ. Computing Svc's
+Lines: 52
+
+In article <kingoz.735066879@camelot>, kingoz@camelot.bradley.edu (Orin Roth) writes:
+> 
+>    Well, officially it's the Braves. At least up until they started winning
+>    it was. Are they still, officially? 
+>    If so, why? and how did they receive this label?
+>    
+>    Unoffically, but without a doubt, America's Team is the Cubs. Why?
+>    Well, my guess is because America loves underdogs. Every year, no matter
+>    the Cubs' talent or the predictions, they never (as close to never as
+>    possible) win anything. Over the years, as the losing has mounted, America
+>    has fallen in love with these perennial losers. The Cubs have more fans
+>    in Chicago then some teams do worldwide. The Cubs have more fans 
+>    worldwide than most of the teams in their division combined. 
+>    An aura of excitement surrounds the Cubs at the beginning of the season
+>    like no one else. (including the WS champs) It must be that Eternal Hope.
+>    "this is the year. they've got the talent. they're off to a good start.
+>     they've got the pitching (or hitting, or whatever their strong point is
+>     at the time)." It's that inevitability that the Cubs WILL eventually 
+>     win the WS again. When? Only God knows. Since it's been so long, it 
+>    could come at any time, or it could be another 85 years. But until they
+>    do finally win, and start winning consistently, The Cubs will remain
+>    America's Lovable Underdogs. The Cubs are...AMERICA'S TEAM.
+>    Orin.
+>    Bradley U>
+> 
+> 
+>  
+> --
+> I'm really a jester in disguise!                                   
+
+
+	You are absolutely correct.  Braves fans are nothing but a bunch of
+bandwagoners.  Correct me if I am wrong, but 4 or 5 years ago you couldnt give
+away a ticket to see the Braves play.I  would bet my next paycheck that 80% of
+the so-called Braves fans living outside of Georgia at the present time can not
+name more than 3 players from their 1988 season. On the other hand, ask any
+Cubs fan living anywhere in the United States to name 3 players from any given
+year and 80% of them probably could.
+	Granted, the fact that a team wins brings people to the ball park, but
+that does not mean they diserve the title "America's Team"
+	The only reason they are considered America's team is because of Ted
+Turner and his little TV station which broadcasts across the nation.
+	I'll consider Toronto AMerica's team before the Braves
+
+
+	GO REDS!
+
+-- 
+Chris Babbitt			
+00CGBABBITT@LEO.BSUVC.BSU.EDU	
+"All I want in life is a woman to love, and a woman to care for my kids.
+Hopefully the two will never meet."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ america team    articl kingoz  well offici it
+brave least start win still offici receiv label
+unoff without doubt america team cub well guess
+america love underdog everi year matter cub talent
+predict never close never possibl win anyth year
+lose mount america fallen love perenni loser cub
+fan chicago team worldwid cub fan worldwid team
+divis combin aura excit surround cub begin season
+like one els includ champ must etern hope year
+they'v got talent they'r good start they'v got
+pitch hit whatev strong point time it inevit cub
+eventu win god know sinc it long could come time
+could anoth year final win start win consist cub
+remain america lovabl underdog cub america team
+orin bradley     i'm realli jester disguis
+absolut correct brave fan noth bunch bandwagon
+correct wrong year ago couldnt give away ticket
+see brave play bet next paycheck call brave fan
+live outsid georgia present time name player
+season hand ask cub fan live anywher unit state
+name player given year probabl could grant fact
+team win bring peopl ball park mean diserv titl
+america team reason consid america team ted turner
+littl station broadcast across nation i'll consid
+toronto america team brave   red   chris babbitt
+want life woman love woman care kid hope two never
+meet
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cub, 2282, 0.445935431181
+america, 468, 0.444639139604
+team, 8732, 0.299130396208
+win, 9770, 0.218312591827
+brave, 1277, 0.214149669276
+fan, 3381, 0.199198019374
+year, 9943, 0.150943345139
+underdog, 9237, 0.135858001159
+worldwid, 9842, 0.132513552017
+love, 5366, 0.119190609049
+woman, 9818, 0.115771734586
+talent, 8683, 0.106362187746
+start, 8334, 0.0950565853541
+offici, 6207, 0.0931208857418
+unoff, 9297, 0.0780552055369
+diserv, 2710, 0.0780552055369
+season, 7747, 0.0771023710689
+correct, 2156, 0.0771023710689
+paycheck, 6476, 0.0758215209786
+perenni, 6536, 0.073996467807
+jester, 4858, 0.073996467807
+live, 5310, 0.0734039651658
+orin, 6294, 0.0724534073369
+kingoz, 5027, 0.0724534073369
+bandwagon, 892, 0.0724534073369
+hope, 4372, 0.0715617322899
+time, 8936, 0.0713524663506
+consid, 2059, 0.0702147358888
+aura, 785, 0.0699377300771
+player, 6683, 0.0690818457154
+fallen, 3371, 0.0688830630007
+champ, 1645, 0.0688830630007
+disguis, 2711, 0.0679290005793
+turner, 9160, 0.0670580098291
+loser, 5351, 0.0670580098291
+bradley, 1264, 0.0662567760086
+got, 3960, 0.0656925920245
+inevit, 4616, 0.064178289581
+label, 5086, 0.0593183180307
+georgia, 3848, 0.0569318048715
+excit, 3265, 0.0569318048715
+mount, 5886, 0.0563428068228
+surround, 8595, 0.0560608141212
+anywher, 557, 0.0540520846235
+etern, 3205, 0.0533918401607
+chris, 1728, 0.0531810938732
+ticket, 8919, 0.0529746931811
+ted, 8745, 0.0529746931811
+grant, 3994, 0.0529746931811
+bunch, 1399, 0.0525742366246
+broadcast, 1324, 0.0521891861179
+kid, 5008, 0.0503013736252
+chicago, 1701, 0.0503013736252
+meet, 5615, 0.0492623595292
+eventu, 3233, 0.0492623595292
+bet, 1054, 0.0488480902495
+combin, 1921, 0.0485811389916
+titl, 8953, 0.0481936036695
+outsid, 6332, 0.0475792956733
+remain, 7264, 0.046888671585
+absolut, 193, 0.0466686609943
+divis, 2767, 0.0463474544333
+park, 6430, 0.0461389035793
+consist, 2061, 0.0456357786467
+unit, 9278, 0.0454414020748
+predict, 6816, 0.045345611115
+doubt, 2830, 0.0447893525196
+begin, 994, 0.044434976436
+strong, 8456, 0.0443483085447
+lose, 5350, 0.044008951337
+receiv, 7167, 0.0437617763363
+whatev, 9718, 0.0436807226229
+bring, 1316, 0.0423239015513
+station, 8346, 0.0422536550952
+toronto, 9003, 0.0417752667787
+red, 7194, 0.0400620592278
+present, 6837, 0.0400620592278
+away, 833, 0.0396759477133
+nation, 5962, 0.0394089964554
+care, 1516, 0.0394089964554
+final, 3482, 0.0393041779174
+ball, 877, 0.0391489797866
+ago, 336, 0.0389961511858
+matter, 5553, 0.0388456208466
+guess, 4079, 0.0387959429336
+close, 1830, 0.0379414841094
+life, 5260, 0.036864092667
+wrong, 9869, 0.036742264645
+pitch, 6643, 0.0365424560367
+noth, 6119, 0.0364244576694
+hand, 4145, 0.0363078340716
+given, 3887, 0.0359286190698
+state, 8342, 0.0354917462954
+god, 3926, 0.0352802578884
+hit, 4316, 0.0350050493815
+ask, 689, 0.0346713491839
+els, 3053, 0.0346059235986
+includ, 4579, 0.034444206367
+fact, 3350, 0.0343484154071
+anyth, 555, 0.0343166877137
+everi, 3235, 0.0342850602658
+littl, 5308, 0.0336429725465
+play, 6681, 0.0330117556292
+possibl, 6765, 0.0328189833652
+probabl, 6885, 0.0327374897353
+reason, 7156, 0.0322878200995
+articl, 665, 0.0322619876235
+anoth, 533, 0.0322619876235
+ll, 5314, 0.0317099135521
+long, 5336, 0.0315404523045
+mean, 5595, 0.0309350072135
+sinc, 7977, 0.0305146327378
+realli, 7150, 0.0297034038302
+come, 1923, 0.0290274426207
+point, 6710, 0.0282549816827
+want, 9634, 0.0272679681136
+peopl, 6530, 0.0271589078092
+good, 3948, 0.0257316235639
+know, 5052, 0.0215615378681
+like, 5272, 0.0210773636858

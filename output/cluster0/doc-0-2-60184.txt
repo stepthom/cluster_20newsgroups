@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60184
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: drickel@bounce.mentorg.com (Dave Rickel)
+Subject: Re: So I'm an idiot, what else is new?
+Originator: drickel@bounce
+Nntp-Posting-Host: bounce.mentorg.com
+Organization: Mentor Graphics 
+Keywords: 
+Lines: 17
+
+
+In article <9303311213.AA49462@jsc.nasa.gov>, mcelwre@cnsvax.uwec.edu (R. E. McElwaine) writes:
+|> RUSSIA'S OPERATIVE
+|> 
+|>                In March 1993, Russian President Boris Yeltsin
+|>           proposed to the United States and the United Nations a global
+|>           defense shield (with "Star Wars"-type weapons) AGAINST
+...
+
+Funny.  A bit disturbing.  Forging a posting seems somewhat unethical, even
+if the subject is as notorious as McElwaine.
+
+Followups should definitely not go to sci.space.
+
+
+david rickel
+drickel@sjc.mentorg.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ i'm idiot els new origin drickel bounc
+russia oper  march russian presid bori yeltsin
+propos unit state unit nation global defens shield
+star war type weapon   funni bit disturb forg post
+seem somewhat uneth even notori mcelwain  followup
+definit sci space   david rickel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+unit, 9278, 0.309226259658
+notori, 6123, 0.265580705623
+mcelwain, 5576, 0.220562996773
+disturb, 2756, 0.218364877978
+followup, 3579, 0.216300062759
+bounc, 1249, 0.206004672438
+russia, 7550, 0.204555133671
+shield, 7882, 0.203164776535
+funni, 3731, 0.194756964155
+weapon, 9674, 0.18981220715
+global, 3904, 0.188903912784
+idiot, 4487, 0.188019213168
+march, 5504, 0.182396758616
+somewhat, 8129, 0.177572280794
+russian, 7551, 0.17391960311
+war, 9635, 0.165747118407
+presid, 6839, 0.163125900752
+sci, 7690, 0.158788844793
+star, 8324, 0.147276084432
+definit, 2484, 0.147276084432
+defens, 2476, 0.147276084432
+propos, 6933, 0.143059774683
+oper, 6261, 0.142596379505
+david, 2397, 0.137477914916
+nation, 5962, 0.134088034418
+type, 9177, 0.133029119485
+origin, 6293, 0.121125272093
+state, 8342, 0.120759697705
+els, 3053, 0.117745710165
+bit, 1122, 0.114874764818
+post, 6766, 0.0994713253377
+new, 6023, 0.0992128116093
+space, 8164, 0.0966106759752

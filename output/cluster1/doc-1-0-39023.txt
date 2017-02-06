@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39023
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: GIF TO TARGA
+From: david.mason@channel1.com (David Mason)
+Distribution: world
+Organization: Channel 1 Communications
+Lines: 6
+
+Krzysztof Muchorowski was asking about GIF-to-TGA conversion so that he
+could use DTA 1.5 to convert the TGA files to FLI animation files.
+
+Krzysztof, update your copy of DTA to a more recent release (the current
+is 1.8g).  Later versions of DTA can read GIF files.
+--dkm
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+gif targa      krzysztof muchorowski ask gif tga
+convers could use dta convert tga file fli anim
+file  krzysztof updat copi dta recent releas
+current later version dta read gif file dkm
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+dta, 2895, 0.614542133849
+krzysztof, 5076, 0.409694755899
+gif, 3869, 0.33267033488
+tga, 8827, 0.302107495912
+file, 3477, 0.272715554668
+targa, 8703, 0.157777210059
+convers, 2114, 0.128916268754
+copi, 2130, 0.115496695264
+releas, 7253, 0.11484801142
+updat, 9333, 0.113801245023
+anim, 515, 0.113393944447
+fli, 3542, 0.112208614329
+later, 5140, 0.110165366053
+convert, 2115, 0.105585039649
+recent, 7168, 0.104410749817
+version, 9479, 0.102208803057
+current, 2299, 0.0951847178616
+ask, 689, 0.0909911763275
+read, 7135, 0.079968848091
+use, 9363, 0.0580191898669

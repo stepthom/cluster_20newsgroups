@@ -1,0 +1,75 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104377
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: DAK988S@vma.smsu.edu
+Subject: Re: Torre: The worst manager?
+Organization: SouthWest Mo State Univ
+Lines: 15
+NNTP-Posting-Host: vma.smsu.edu
+X-Newsreader: NNR/VM S_1.3.2
+
+In article <93095@hydra.gatech.EDU>
+gt7469a@prism.gatech.EDU (Brian R. Landmann) writes:
+ 
+>
+>Joe Torre has to be the worst manager in baseball.
+>brian, a very distressed cardinal fan.
+>--
+ 
+No....Hal McRae is the worst manager in baseball.  I've never seen a guy who
+can waste talent like he can.  One of the best raw-talent staffs in the league,
+and he's still finding a way to lose.  I'll be surprised if he makes it through
+the next 2 weeks, unless drastic improvement is made.
+ 
+An even more frustrated Royals fan,
+Darin J. Keener      dak988s@vma.smsu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ torr worst manag          joe torr worst manag
+basebal brian distress cardin fan   hal mcrae
+worst manag basebal i'v never seen guy wast talent
+like one best raw talent staff leagu he still find
+way lose i'll surpris make next week unless
+drastic improv made  even frustrat royal fan
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+worst, 9849, 0.407440646551
+torr, 9004, 0.34836092527
+manag, 5472, 0.316997822782
+talent, 8683, 0.294070303533
+fan, 3381, 0.220297168615
+drastic, 2860, 0.190447974737
+mcrae, 5586, 0.187810181816
+basebal, 924, 0.186525742277
+hal, 4121, 0.185402065551
+distress, 2752, 0.185402065551
+frustrat, 3706, 0.17576237193
+raw, 7114, 0.153500647916
+cardin, 1515, 0.148213026468
+royal, 7503, 0.147617823354
+joe, 4876, 0.137395458146
+staff, 8301, 0.134317191024
+wast, 9654, 0.129947086025
+brian, 1304, 0.129947086025
+improv, 4557, 0.127851694874
+surpris, 8593, 0.124591945934
+lose, 5350, 0.121676001143
+unless, 9289, 0.112695288134
+leagu, 5176, 0.111076354247
+guy, 4100, 0.103912131215
+seen, 7767, 0.102724142909
+week, 9691, 0.101921887371
+best, 1052, 0.0925291524589
+ll, 5314, 0.0876716068074
+way, 9666, 0.0723967153479
+make, 5459, 0.0694147692735
+like, 5272, 0.0582747202563

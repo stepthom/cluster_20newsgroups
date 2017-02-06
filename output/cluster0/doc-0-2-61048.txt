@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61048
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wats@scicom.AlphaCDC.COM (Bruce Watson)
+Subject: Re: First Spacewalk
+Distribution: sci
+Organization: Alpha Science Computer Network, Denver, Co.
+Lines: 13
+
+In article <C5suMG.2rF.1@cs.cmu.edu+ flb@flb.optiplan.fi ("F.Baube[tm]") writes:
++At one time there was speculation that the first spacewalk 
++(Alexei Leonov ?) was a staged fake.
++
++Has any evidence to support or contradict this claim emerged ?
++
++Was this claim perhaps another fevered Cold War hallucination ?
+
+I, for one, would be an avid reader of a sci.space.ussr.what.really.
+happened.
+
+-- 
+Bruce Watson (wats@scicom.alphaCDC.COM) Bulletin 629-49 Item 6700 Extract 75,131
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ first spacewalk      one time specul first
+spacewalk alexei leonov stage fake  evid support
+contradict claim emerg  claim perhap anoth fever
+cold war hallucin  one avid reader sci space ussr
+realli happen
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spacewalk, 8175, 0.4543627214
+alexei, 399, 0.267635838503
+claim, 1782, 0.267420156009
+avid, 824, 0.259976976604
+hallucin, 4131, 0.253719230788
+fever, 3455, 0.239802623072
+fake, 3368, 0.222269770862
+ussr, 9376, 0.214156298637
+emerg, 3068, 0.207598790411
+cold, 1888, 0.184562565119
+reader, 7137, 0.183808192384
+specul, 8214, 0.180266643409
+contradict, 2098, 0.180266643409
+stage, 8302, 0.174121246556
+war, 9635, 0.167029712909
+sci, 7690, 0.160017594357
+evid, 3245, 0.144640230965
+perhap, 6540, 0.13285410901
+happen, 4159, 0.120969015937
+support, 8576, 0.118212545812
+anoth, 533, 0.110619965062
+realli, 7150, 0.101847088043
+space, 8164, 0.0973582746246
+time, 8936, 0.0815511578405

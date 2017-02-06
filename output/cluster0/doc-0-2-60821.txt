@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60821
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Re: japanese moon landing?
+Organization: Jet Propulsion Laboratory
+Lines: 16
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <C5Kys1.C6r@panix.com> dannyb@panix.com (Daniel Burstein) writes:
+>A short story in the newspaper a few days ago made some sort of mention
+>about how the Japanese, using what sounded like a gravity assist, had just
+>managed to crash (or crash-land) a package on the moon.
+
+The Japanese spacecraft, Hiten, crashed on the Moon last weekend.  For the
+past three years it has made several lunar flybys and even did some
+aerobraking experiments with Earth's atmosphere.  It was placed in lunar
+orbit in February 1992, and I guess it finally ran out of fuel and was
+unable to maintain its orbit around the Moon.  
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ japanes moon land     news softwar vax vms vnew
+short stori newspap day ago made sort mention
+japanes use sound like graviti assist manag crash
+crash land packag moon  japanes spacecraft hiten
+crash moon last weekend past three year made sever
+lunar flybi even aerobrak experi earth atmospher
+place lunar orbit februari guess final ran fuel
+unabl maintain orbit around moon   jet propuls lab
+telo aweto new zealand pasadena part caterpillar
+part veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+crash, 2212, 0.379901679759
+japanes, 4826, 0.37098821402
+moon, 5851, 0.349267787101
+lunar, 5392, 0.206547112997
+land, 5104, 0.183095064608
+orbit, 6280, 0.155684080521
+hiten, 4320, 0.152794519345
+aerobrak, 299, 0.152794519345
+februari, 3423, 0.137887224114
+caterpillar, 1562, 0.131038341336
+aweto, 836, 0.131038341336
+veget, 9448, 0.127445562444
+weekend, 9692, 0.125851745935
+newspap, 6035, 0.125097048117
+telo, 8769, 0.124367938263
+flybi, 3564, 0.122979928883
+unabl, 9211, 0.122318132639
+ran, 7089, 0.122318132639
+zealand, 9977, 0.121052668781
+pasadena, 6446, 0.115175036232
+graviti, 4010, 0.109460643032
+assist, 705, 0.107410837408
+jet, 4860, 0.106454827535
+fuel, 3715, 0.104661565878
+atmospher, 755, 0.104661565878
+propuls, 6936, 0.104376705013
+maintain, 5454, 0.103006389325
+lab, 5085, 0.101469544189
+vnew, 9564, 0.0978387676169
+stori, 8418, 0.097221308531
+spacecraft, 8166, 0.0958459837169
+vms, 9563, 0.0949148131315
+vax, 9439, 0.0938481475446
+packag, 6375, 0.093675402191
+past, 6456, 0.0909330139004
+experi, 3295, 0.0900429552623
+mention, 5632, 0.0860734397142
+short, 7904, 0.0850126212471
+sound, 8150, 0.0844451297236
+final, 3482, 0.0844451297236
+ago, 336, 0.0837833334798
+guess, 4079, 0.0833531855231
+sort, 8144, 0.082723676751
+manag, 5472, 0.0821120711506
+sever, 7823, 0.0793788853963
+earth, 2956, 0.0749187841004
+news, 6031, 0.0742809774641
+place, 6657, 0.0736615422363
+softwar, 8103, 0.0717789118848
+day, 2402, 0.0637749566013
+new, 6023, 0.0626482578885
+year, 9943, 0.0540503623981
+use, 9363, 0.0474984035349
+like, 5272, 0.0452847713651

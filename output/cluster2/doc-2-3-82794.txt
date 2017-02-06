@@ -1,0 +1,117 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82794
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: bskendig@netcom.com (Brian Kendig)
+Subject: Re: *** The list of Biblical contradictions
+Organization: Starfleet Headquarters: San Francisco
+Lines: 24
+
+hudson@athena.cs.uga.edu (Paul Hudson Jr) writes:
+>bskendig@netcom.com (Brian Kendig) writes:
+>
+>>Specifically: when I bring up the fact that Genesis contains two
+>>contradictory creation stories, I usually get blank stares or flat
+>>denials.  I've never had a fundamentalist acknowledge that there are
+>>indeed two different accounts of creation.
+>
+>That is because two creation stories is one of the worst examples of 
+>a difficulty with the Bible.  "were formed" can also be translated "had been
+>formed" in chapter two without any problems.  So the text does not demand
+>that there are two creation stories.  
+
+Really?  I don't get it... Genesis first says that God created the
+earth, then the animals, then humans; then it turns around and says
+that humans were created before animals!  How can you escape this
+contradiction?
+
+-- 
+_/_/_/  Brian Kendig                             Je ne suis fait comme aucun
+/_/_/  bskendig@netcom.com                de ceux que j'ai vus; j'ose croire
+_/_/                            n'etre fait comme aucun de ceux qui existent.
+  /  The meaning of life     Si je ne vaux pas mieux, au moins je suis autre.
+ /    is that it ends.                                           -- Rousseau
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ list biblic contradict       specif bring fact
+genesi contain two contradictori creation stori
+usual get blank stare flat denial i'v never
+fundamentalist acknowledg inde two differ account
+creation  two creation stori one worst exampl
+difficulti bibl form also translat form chapter
+two without problem text demand two creation stori
+realli don't get genesi first say god creat earth
+anim human turn around say human creat anim escap
+contradict   brian kendig sui fait comm aucun
+n'etr fait comm aucun ceux qui exist mean life
+vaux pas mieux moin sui autr end rousseau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+creation, 2218, 0.368236294742
+genesi, 3822, 0.258674353322
+stori, 8418, 0.246887053487
+sui, 8527, 0.231229628924
+aucun, 775, 0.231229628924
+fait, 3366, 0.225312337755
+comm, 1932, 0.217187712706
+contradict, 2098, 0.191229311337
+anim, 515, 0.157160286019
+form, 3610, 0.145923647376
+creat, 2217, 0.140754530302
+human, 4432, 0.140576486631
+stare, 8329, 0.129337176661
+contradictori, 2099, 0.121955713127
+denial, 2524, 0.119149410934
+blank, 1139, 0.117893400602
+rousseau, 7497, 0.115614814462
+qui, 7034, 0.115614814462
+mieux, 5706, 0.115614814462
+ceux, 1626, 0.115614814462
+vaux, 9438, 0.114574249592
+moin, 5820, 0.113589959664
+fundamentalist, 3725, 0.113589959664
+etr, 3212, 0.113589959664
+autr, 807, 0.112656168878
+pas, 6445, 0.111767947399
+kendig, 4982, 0.108593856353
+difficulti, 2636, 0.106530715675
+escap, 3185, 0.105274705343
+flat, 3526, 0.104677768944
+acknowledg, 239, 0.102996119203
+chapter, 1658, 0.0963429499479
+demand, 2514, 0.0959751610941
+say, 7653, 0.0924397053161
+translat, 9057, 0.0917677886061
+biblic, 1072, 0.0903774239443
+worst, 9849, 0.0893368590745
+account, 221, 0.0874187783599
+inde, 4594, 0.0867485825903
+brian, 1304, 0.0854779556947
+text, 8822, 0.0814565991583
+contain, 2079, 0.0800373148255
+bibl, 1071, 0.0798862357088
+bring, 1316, 0.0769727823588
+usual, 9377, 0.0768450279463
+turn, 9158, 0.072454689807
+specif, 8203, 0.0722557268531
+life, 5260, 0.0670432469056
+list, 5298, 0.0666754580518
+exampl, 3258, 0.0660316017068
+exist, 3283, 0.0652743877566
+god, 3926, 0.0641627901131
+earth, 2956, 0.0634170915027
+end, 3091, 0.0627593706432
+fact, 3350, 0.0624680855639
+problem, 6887, 0.057274250592
+mean, 5595, 0.0562602569761
+differ, 2633, 0.0560559346398
+realli, 7150, 0.0540203892962
+don, 2811, 0.0412930075709

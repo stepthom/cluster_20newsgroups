@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38215
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: thining algorithm
+Organization: Purdue University
+Lines: 15
+
+In article <1q7615INNmi@shelley.u.washington.edu> kshin@stein.u.washington.edu  
+(Kevin Shin) writes:
+> I am trying obtain program to preprocess handwriting characters.
+> Like thining algorithm, graph alogrithm.
+> Do anyone know where I can obtain those?
+
+I usually use "Algorithms for graphics and image processing" by
+Theodosios Pavlidis, but other people here got them same idea and now
+3 of 4 copies in the libraries have been stolen!
+
+Another reference is "Digital Image Processing" by Gonzalez and
+Wintz/Wood, which is widely available but a little expensive ($55
+here- I just checked today).
+
+ab
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ thine algorithm    stein washington edu  tri
+obtain program preprocess handwrit charact like
+thine algorithm graph alogrithm anyon know obtain
+usual use algorithm graphic imag process theodosio
+pavlidi peopl got idea copi librari stolen  anoth
+refer digit imag process gonzalez wintz wood wide
+avail littl expens check today
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+thine, 8868, 0.427716498099
+algorithm, 407, 0.38537443558
+obtain, 6183, 0.292500530898
+process, 6890, 0.238870428627
+stein, 8369, 0.223799795106
+imag, 4512, 0.198083448643
+wood, 9824, 0.193378239499
+gonzalez, 3946, 0.178710312602
+graph, 3996, 0.173972763208
+stolen, 8407, 0.172898229948
+charact, 1661, 0.160222950664
+washington, 9651, 0.148938154744
+wide, 9747, 0.143786638394
+digit, 2642, 0.142251414736
+expens, 3294, 0.139401360335
+librari, 5250, 0.131157203042
+copi, 2130, 0.129899719301
+usual, 9377, 0.124718671305
+check, 1682, 0.120490555363
+today, 8964, 0.11294597777
+refer, 7213, 0.108931328247
+edu, 3001, 0.104759775936
+avail, 811, 0.10263029692
+idea, 4482, 0.101012214897
+littl, 5308, 0.0993028135746
+graphic, 3997, 0.097275979717
+got, 3960, 0.096951290645
+anoth, 533, 0.0952266075207
+program, 6905, 0.0917127165546
+tri, 9087, 0.0855692688398
+peopl, 6530, 0.0801640210401
+anyon, 554, 0.0793965387152
+use, 9363, 0.0652544772862
+know, 5052, 0.0636424552657
+like, 5272, 0.0622133348605

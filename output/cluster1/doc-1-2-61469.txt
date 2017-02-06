@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61469
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: turner@bigbang.astro.indiana.edu (George Wm Turner)
+Subject: moon image in weather sat image
+Lines: 14
+Nntp-Posting-Host: bigbang.astro.indiana.edu
+Reply-To: turner@bigbang.astro.indiana.edu (George Wm Turner)
+Organization: Astronomy / Indiana University / Home of RoboScope
+
+
+
+an image of the moon has been caught in a weather satellite images of the earth.
+it appears in both the 0430-1500UT ir and visual images of the earth.
+the GIF images can be down loaded from vmd.cso.uiuc.edu and are named
+CI043015.GIF and CV043015.GIF for the IR and visual images respectively.
+
+pretty cool pictures;  in the ir it's saturated but in the visual image
+details on the moon are viewable.
+
+the moon is not in the 1400UT images.
+
+
+ george wm turner            turner@bigbang.astro.indiana.edu   
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moon imag weather sat imag        imag moon
+caught weather satellit imag earth appear 1500ut
+visual imag earth gif imag load vmd cso uiuc edu
+name ci043015 gif cv043015 gif visual imag respect
+pretti cool pictur it satur visual imag detail
+moon viewabl  moon 1400ut imag
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+imag, 4512, 0.619522797683
+moon, 5851, 0.333492771645
+visual, 9547, 0.314585661704
+gif, 3869, 0.260045486552
+weather, 9679, 0.230013421747
+viewabl, 9511, 0.160127400861
+ci043015, 1749, 0.160127400861
+1500ut, 23, 0.160127400861
+cv043015, 2319, 0.151801048774
+vmd, 9561, 0.148635516626
+earth, 2956, 0.143070010351
+cso, 2277, 0.141311085734
+satur, 7638, 0.135923353973
+uiuc, 9197, 0.120914351695
+sat, 7626, 0.117425422139
+cool, 2124, 0.11336300898
+caught, 1568, 0.110885875738
+load, 5317, 0.0955170465385
+respect, 7321, 0.0930248635992
+satellit, 7632, 0.0878640436609
+pictur, 6622, 0.0866818288507
+appear, 580, 0.0834957921469
+pretti, 6851, 0.0752927756325
+edu, 3001, 0.0728100201287

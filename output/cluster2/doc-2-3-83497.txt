@@ -1,0 +1,41 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83497
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Ignorance is BLISS, was Is it good that Jesus died?
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+	<1993Apr17.010734.23670@organpipe.uug.arizona.edu> 
+	<sandvik-170493104859@sandvik-kent.apple.com>
+Lines: 7
+
+In article <sandvik-170493104859@sandvik-kent.apple.com> 
+sandvik@newton.apple.com (Kent Sandvik) writes:
+>Ignorance is not bliss!
+
+Ignorance is STRENGTH!
+
+Help spread the TRUTH of IGNORANCE!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ignor bliss good jesus die        ignor bliss
+ignor strength  help spread truth ignor
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ignor, 4496, 0.710165685199
+bliss, 1162, 0.532692951167
+strength, 8441, 0.229915811382
+spread, 8265, 0.219484510394
+truth, 9132, 0.184932566473
+die, 2628, 0.162621860618
+jesus, 4859, 0.161657962542
+help, 4249, 0.116805490784
+good, 3948, 0.102202962252

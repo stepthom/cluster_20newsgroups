@@ -1,0 +1,36 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102659
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: carrd@iccgcc.decnet.ab.com
+Subject: Re: David Wells
+Lines: 5
+
+Has David Wells landed with a team yet?  I'd think the Tigers with their 
+anemic pitching would grab this guy pronto!
+
+DC
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ david well   david well land team yet i'd think
+tiger anem pitch grab guy pronto
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+david, 2397, 0.508727474341
+anem, 508, 0.491381476392
+grab, 3973, 0.375898571437
+tiger, 8928, 0.336118021405
+land, 5104, 0.268242545242
+guy, 4100, 0.236602458637
+pitch, 6643, 0.230045976752
+team, 8732, 0.209235295158
+think, 8871, 0.144326693712

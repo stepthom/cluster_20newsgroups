@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104625
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tmiller@cimmeria.gatech.edu (Thomas Miller)
+Subject: Re: Braves & Giants
+Organization: Georgia Institute of Technology
+Lines: 31
+NNTP-Posting-Host: cimmeria.gatech.edu
+
+In article <15780004@hpspdla.spd.HP.COM> garyr@hpspdla.spd.HP.COM (Gary  
+Rosen) writes:
+> >(Thomas Miller) /  5:39 am  Apr 19, 1993 /
+> 
+> 
+> >  Does anyone else think that this weekend's four-game series was a
+> >really strange one?
+> 
+> Yeah, it was real strange if you think the Braves should be awarded the
+> NL West title without actually having to play the games.
+> 
+> - Gary Rosen
+
+
+
+
+  I didn't say that.  Did you say that?  Wow, I can't believe that
+anyone would think that the Braves (or any other team, for that matter)
+should get the title for free.  What a dolt that person would be, if
+that was what they thought.  Incredible.
+
+
+
+
+--
+
+
+Thomas Miller                             tmiller@cimmeria.gatech.edu
+Systems Support Specialist II           Georgia Tech Network Services
+ "...And I looked.  And behold, a pale horse.  And his name, that sat
+  on him, was Death...and Hell followed with him."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ brave giant     hpspdla spd com gari  thoma
+miller   anyon els think weekend four game seri
+realli strang one  yeah real strang think brave
+award west titl without actual play game  gari
+rosen     didn't say say wow can't believ anyon
+think brave team matter get titl free dolt person
+thought incred         system support specialist
+georgia tech network servic look behold pale hors
+name sat death hell follow
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brave, 1277, 0.325428773866
+gari, 3776, 0.263413465541
+strang, 8426, 0.261569427153
+titl, 8953, 0.244121870518
+rosen, 7483, 0.192034731972
+spd, 8191, 0.187412382115
+pale, 6396, 0.183504240997
+behold, 1002, 0.180118855174
+think, 8871, 0.174196048745
+specialist, 8200, 0.172045182568
+miller, 5722, 0.155651416324
+game, 3761, 0.153699579481
+tech, 8736, 0.15123108135
+hors, 4382, 0.149279908577
+weekend, 9692, 0.148357889383
+award, 832, 0.147468228501
+wow, 9856, 0.146608731493
+sat, 7626, 0.14497250356
+georgia, 3848, 0.144192357896
+incred, 4591, 0.143435503674
+anyon, 554, 0.13625475416
+say, 7653, 0.128734323139
+yeah, 9942, 0.126619182089
+thoma, 8878, 0.125862327868
+west, 9708, 0.122060935259
+network, 6018, 0.117385154964
+hell, 4245, 0.116339533224
+giant, 3865, 0.115335333298
+death, 2423, 0.11321153777
+com, 1917, 0.110836354651
+servic, 7813, 0.104327804767
+seri, 7805, 0.103388707274
+free, 3668, 0.103235518085
+matter, 5553, 0.0983851061186
+thought, 8887, 0.0884867085517
+els, 3053, 0.0876471373445
+support, 8576, 0.0873189420354
+real, 7144, 0.0869145836458
+didn, 2625, 0.0846885577734
+person, 6562, 0.0844690522153
+team, 8732, 0.0841793035348
+play, 6681, 0.0836095552074
+follow, 3578, 0.0833294116543
+actual, 254, 0.0815153299549
+believ, 1009, 0.0782925664572
+realli, 7150, 0.0752304242853
+look, 5341, 0.0632703073825

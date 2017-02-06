@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38695
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dgf1@ellis.uchicago.edu (David Farley)
+Subject: Re: Why does Illustrator AutoTrace so poorly?
+Reply-To: dgf1@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 25
+
+In article <0010580B.vmcbrt@diablo.UUCP> diablo.UUCP!cboesel (Charles Boesel) writes:
+>I've been trying to figure out a way to get Adobe Illustrator
+>to auto-trace >exactly< what I see on my screen. But it misses
+>the edges of templates by as many as 6 pixels or more - resulting in images
+>that are useless  - I need exact tracing, not approximate.
+>
+>I've tried adjusting the freehand tolerances as well as autotrace
+>tolerances but it doesn't help. Any suggestions?
+>
+>--
+>charles boesel @ diablo creative |  If Pro = for   and   Con = against
+>cboesel@diablo.uu.holonet.net    |  Then what's the opposite of Progress?
+>+1.510.980.1958(pager)           |  What else, Congress.
+
+I've had exactly the same problems in Aldus Freehand.  I think autotracing
+is one of those "features" that barely works, but everybody feels compelled
+to throw it in because the other guys are doing it.  :)
+
+
+
+-- 
+David Farley                           The University of Chicago Library
+312 702-3426                              1100 East 57th Street, JRL-210
+dgf1@midway.uchicago.edu                         Chicago, Illinois 60637
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ illustr autotrac poor      i'v tri figur way get
+adob illustr auto trace exact see screen miss edg
+templat mani pixel result imag useless need exact
+trace approxim  i'v tri adjust freehand toler well
+autotrac toler doesn't help suggest   charl boesel
+diablo creativ pro con  pager els congress  i'v
+exact problem aldus freehand think autotrac one
+featur bare work everybodi feel compel throw guy
+david farley univers chicago librari east 57th
+street jrl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+autotrac, 806, 0.418830181857
+freehand, 3674, 0.3073454251
+exact, 3253, 0.241571838267
+illustr, 4511, 0.230775240909
+toler, 8974, 0.218190321216
+trace, 9028, 0.209316736499
+pager, 6383, 0.149973751255
+jrl, 4913, 0.149973751255
+farley, 3389, 0.149973751255
+templat, 8776, 0.146846324041
+diablo, 2606, 0.144137223364
+aldus, 393, 0.144137223364
+57th, 119, 0.144137223364
+boesel, 1197, 0.141747627215
+compel, 1966, 0.132783672111
+bare, 910, 0.131383936579
+auto, 798, 0.125547408688
+creativ, 2220, 0.124557548071
+tri, 9087, 0.117512722898
+useless, 9364, 0.116011919503
+adob, 277, 0.114193857435
+congress, 2040, 0.113622323353
+charl, 1668, 0.110017506627
+pro, 6883, 0.107785795463
+approxim, 593, 0.105023929819
+adjust, 269, 0.105023929819
+everybodi, 3239, 0.104299277137
+street, 8440, 0.103599617521
+pixel, 6651, 0.1022687721
+chicago, 1701, 0.101949267572
+poor, 6741, 0.0966752185887
+edg, 2993, 0.0966752185887
+featur, 3422, 0.0950325086773
+screen, 7719, 0.094367264876
+east, 2965, 0.092295249608
+throw, 8899, 0.0909612778881
+librari, 5250, 0.0900594352747
+figur, 3476, 0.0862139887353
+miss, 5770, 0.0857807740221
+david, 2397, 0.0818922027656
+feel, 3429, 0.0797664350179
+result, 7332, 0.0787311023194
+suggest, 8525, 0.0773650400205
+guy, 4100, 0.0761739732756
+els, 3053, 0.0701382151273
+imag, 4512, 0.0680072581159
+univers, 9282, 0.0674208554969
+doesn, 2793, 0.0658102826399
+problem, 6887, 0.0638281402434
+help, 4249, 0.0596034267948
+mani, 5479, 0.0575485965955
+work, 9833, 0.057477659047
+need, 5993, 0.0545484638029
+way, 9666, 0.0530712381284
+think, 8871, 0.0464658641889

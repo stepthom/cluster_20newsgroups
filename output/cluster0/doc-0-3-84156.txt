@@ -1,0 +1,184 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84156
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Merlin, Mithras and Magick
+From: <A54SI@CUNYVM.BITNET>
+Organization: City University of New York
+Lines: 41
+
+In article <ss.113@apmaths.uwo.ca>, ss@apmaths.uwo.ca (SULTAN SIAL) says:
+>
+>In article <93111.195217A54SI@CUNYVM.BITNET> <A54SI@CUNYVM.BITNET> writes:
+>
+>[stuff about Mithras deleted]
+>
+>>Oh, His B-day was 25 Dec. Ahem.
+>
+>I thought that Saturnalia was celebrated by the Romans at that time.  Was
+>Mithras connected with this?
+>
+
+Rome was under attack by barbarians, they sent for advice to some Oracle,
+and she said Worship Cybele and you'll be saved. They did, they were.
+
+Cybele was the quintessential wiccan goddess, there was Her and her son &
+lover, Attis. Yucky idea if you ask me. OK the book says she was Phrygian,
+from the neolithic matriarchal society Catal Huyuk (Turkey). Worshipped 1st
+as Black Stone (that Kaaba in Mecca ring a bell maybe????) Carried to Rome
+in 205BC to save them from Hannibal.
+
+It gets more interesting. Romans called her Great Mother (Magna Mater),
+could be the reason why so many of those Mary statues in Europe are black,
+prob. IS connected to that Ka'aba they've got in Mecca, 3rd cent. AD She was
+supreme Goddess in Lyons, France . . . Attis was castrated and formed into
+a pine tree . . . she should be worshiped on 25 Mar . . . in Rome it was
+an ecstatic cult, her priests wore drag, worked themselves up in dance and
+castrated themselves in order to initiate to her, lived their lives as women.
+They wore make up and jewelry and the whole bit.
+
+Wow.
+
+Only other such primitive transsexualism I know of goes on in India (where
+else?) where they do that castration thing under some meditation maybe, I
+forget by now...there's a book on that.)
+
+Of course, that excepts that weird Russian / Romanian 18th cent. Xian cult
+that did all kinds of self-castration too, I forget their name.
+-------
+CHARLES HOPE   A54SI@CUNYVM   A54SI@CUNYVM.CUNY.EDU
+GOVERNMENT BY REPORTERS...MEDIA-OCRACY.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+merlin mithra magick     apmath uwo sultan sial
+say    stuff mithra delet  day ahem  thought
+saturnalia celebr roman time mithra connect   rome
+attack barbarian sent advic oracl said worship
+cybel you'll save  cybel quintessenti wiccan
+goddess son lover atti yucki idea ask book say
+phrygian neolith matriarch societi catal huyuk
+turkey worship 1st black stone kaaba mecca ring
+bell mayb carri rome 205bc save hannib  get
+interest roman call great mother magna mater could
+reason mani mari statu europ black prob connect
+ka'aba they'v got mecca 3rd cent suprem goddess
+lyon franc atti castrat form pine tree worship
+rome ecstat cult priest wore drag work danc
+castrat order initi live live women wore make
+jewelri whole bit  wow  primit transsexu know goe
+india els castrat thing medit mayb forget there
+book  cours except weird russian romanian 18th
+cent xian cult kind self castrat forget name
+charl hope a54si govern report media ocraci
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+castrat, 1549, 0.393555835053
+rome, 7471, 0.251214149368
+mithra, 5784, 0.234056003358
+worship, 9847, 0.20445185099
+mecca, 5602, 0.189776424068
+atti, 768, 0.189776424068
+wore, 9832, 0.184345643826
+goddess, 3928, 0.184345643826
+cybel, 2322, 0.184345643826
+cent, 1603, 0.16303882903
+roman, 7468, 0.134353185964
+cult, 2289, 0.125548081742
+connect, 2046, 0.116266507713
+forget, 3604, 0.110954738016
+black, 1133, 0.106398456923
+uwo, 9399, 0.0983889587633
+transsexu, 9066, 0.0983889587633
+apmath, 566, 0.0983889587633
+save, 7646, 0.0979564479251
+yucki, 9969, 0.0948882120339
+saturnalia, 7641, 0.0948882120339
+barbarian, 907, 0.0948882120339
+a54si, 155, 0.0948882120339
+statu, 8350, 0.0921728219132
+pine, 6633, 0.0921728219132
+mater, 5542, 0.0921728219132
+xian, 9899, 0.0899541866392
+prob, 6884, 0.0899541866392
+lyon, 5408, 0.0899541866392
+ecstat, 2988, 0.0899541866392
+ahem, 343, 0.0899541866392
+live, 5310, 0.0892339077564
+oracl, 6278, 0.0880783572432
+medit, 5612, 0.0880783572432
+book, 1218, 0.0871733416916
+18th, 34, 0.0864534399099
+mayb, 5564, 0.0851907771233
+jewelri, 4863, 0.0850201612446
+turkey, 9156, 0.0815194145152
+suprem, 8580, 0.0788040243945
+merlin, 5646, 0.0780186677859
+lover, 5367, 0.0772809386506
+india, 4597, 0.0772809386506
+celebr, 1596, 0.0772809386506
+danc, 2352, 0.0765853891205
+magick, 5436, 0.0759274557067
+weird, 9697, 0.0747095597245
+hannib, 4155, 0.0736025419937
+franc, 3648, 0.0730846423912
+priest, 6860, 0.0725878875445
+europ, 3220, 0.0716513637259
+1st, 57, 0.0712088129951
+wow, 9856, 0.0703692522705
+primit, 6866, 0.0699702393462
+tree, 9080, 0.0695838956619
+stone, 8409, 0.0692094413814
+mother, 5877, 0.0688461665266
+advic, 292, 0.0688461665266
+drag, 2854, 0.0674926835827
+attack, 761, 0.0671765929821
+charl, 1668, 0.0659884495915
+ring, 7406, 0.0657086946521
+3rd, 102, 0.0649060650754
+women, 9819, 0.0643989582044
+mari, 5508, 0.0641531154205
+bell, 1011, 0.0636758462527
+russian, 7551, 0.0621390026736
+say, 7653, 0.061789894562
+son, 8132, 0.0605916762765
+media, 5605, 0.0592190900258
+initi, 4647, 0.0590579114587
+societi, 8093, 0.0576960042819
+self, 7776, 0.0564712929514
+sent, 7793, 0.0552410741287
+delet, 2502, 0.0521569041525
+goe, 3931, 0.0519766222786
+carri, 1530, 0.0514512685846
+govern, 3966, 0.0507843179018
+form, 3610, 0.048770205155
+report, 7291, 0.048431219338
+stuff, 8472, 0.0466320440783
+hope, 4372, 0.0434971939433
+kind, 5021, 0.0434083701627
+order, 6281, 0.0430164964606
+thought, 8887, 0.042471846344
+ask, 689, 0.0421484039435
+els, 3053, 0.0420688689942
+cours, 2190, 0.0416404828605
+idea, 4482, 0.0416022762234
+bit, 1122, 0.0410431210198
+said, 7583, 0.0405085341563
+great, 4016, 0.0404737163817
+got, 3960, 0.0399297686695
+reason, 7156, 0.0392508545541
+ll, 5314, 0.0385483194877
+day, 2402, 0.0360848308037
+mani, 5479, 0.0345176216216
+work, 9833, 0.0344750733128
+thing, 8869, 0.0332440377096
+make, 5459, 0.030520972531
+time, 8936, 0.0289133308904
+know, 5052, 0.0262113943962

@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84293
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cayley@plains.NoDak.edu (Michele Cayley)
+Subject: Re: New Religion Forming -- Sign Up
+Nntp-Posting-Host: plains.nodak.edu
+Organization: North Dakota Higher Education Computing Network
+Lines: 10
+
+
+refrettably you are mistaken.  alt.drugs was used to recruit people for the
+worldwide pot religion.  I, however hve no problem being in both of them
+
+
+
+Death to Dupont
+Free Bobby Fischer
+Michele Cayley is my mom, sue me not her
+johan engevik (drunken naked genius at large)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new religion form sign      refrett mistaken alt
+drug use recruit peopl worldwid pot religion howev
+hve problem    death dupont free bobbi fischer
+michel cayley mom sue johan engevik drunken nake
+genius larg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+religion, 7261, 0.312943899382
+recruit, 7188, 0.279845281619
+mom, 5827, 0.273109298059
+fischer, 3504, 0.273109298059
+drunken, 2886, 0.273109298059
+nake, 5950, 0.247500543424
+worldwid, 9842, 0.244543315697
+drug, 2883, 0.241805350473
+sue, 8519, 0.234632135499
+mistaken, 5777, 0.234632135499
+genius, 3826, 0.225106478347
+bobbi, 1190, 0.21754022112
+alt, 446, 0.188659806023
+sign, 7946, 0.168074017111
+death, 2423, 0.164979086566
+free, 3668, 0.150441393258
+form, 3610, 0.148070890235
+larg, 5124, 0.136821347289
+howev, 4406, 0.127365729255
+problem, 6887, 0.116234063844
+new, 6023, 0.10762139206
+peopl, 6530, 0.100239247462
+use, 9363, 0.0815959530453

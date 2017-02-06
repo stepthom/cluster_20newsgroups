@@ -1,0 +1,179 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104356
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: philly@ravel.udel.edu (Robert C Hite)
+Subject: Re: DAVE KINGMAN FOR THE HALL OF FAME
+Nntp-Posting-Host: ravel.udel.edu
+Organization: University of Delaware
+Lines: 39
+
+In article <1993Apr15.093231.5148@news.yale.edu> (Steve Tomassi) writes:
+
+>Honestly, Ozzie Smith and Robin Yount don't belong there. They're both
+>
+>shortstops that just hung around for a long time. Big deal.
+
+Are you for real?  How many Gold Gloves does Ozzie Smith have?  If a
+guy hung around and hit 30 homers a year for 15 years, wouldn't he
+be a given for the Hall?  Is defense not just as important?  And if
+Robin Yount couldn't hit, why would he have stuck around long enough
+to get 3,000 hits?  Are you saying 3,000 hits is a fluke?  3,000
+hits is no big deal?  
+
+>     Let's be a little more selective, huh? Stop handing out these honors
+>so
+>
+>liberally. Save them for the guys who really deserve it. Face it, if
+>something
+>
+>isn't done, there will be little prestige in the Hall of Fame anymore. When
+>
+>certain individuals believe that Steve Garvey or Jack Morris are potential
+>
+>candidates, the absurdity is apparent. Gee, can these guys even compare to
+I agree, Garvey and Morris don't deserve it. 
+
+>the more likely future Hall of Famers like Kirby Puckett or Nolan Ryan?
+
+Well, based on your argument, Nolan Ryan doesn't deserve the Hall of
+Fame.  He is just a right hander who stuck around for a long time
+and could throw hard.  Very few 20 game winning seasons, lots of
+losing seasons, lots of walks.  No Cy Young awards.  How does Nolan
+Ryan compare to a guy like Steve Carlton who dominated 5 or 6 Major
+League seasons, won 7 divisons, 2 World Series, and won half of his
+teams games in 1972?  He doesn't compare.  Not even close.
+
+Kirby Puckett hasn't done it long enough for me.  Give me 5 more
+seasons like he's been having, then I'll think about it. 
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dave kingman hall fame       honest ozzi smith
+robin yount don't belong they'r  shortstop hung
+around long time big deal  real mani gold glove
+ozzi smith guy hung around hit homer year year
+wouldn't given hall defens import robin yount
+couldn't hit stuck around long enough get hit say
+hit fluke hit big deal  let littl select huh stop
+hand honor   liber save guy realli deserv face
+someth  isn't done littl prestig hall fame anymor
+certain individu believ steve garvey jack morri
+potenti  candid absurd appar gee guy even compar
+agre garvey morri don't deserv  like futur hall
+famer like kirbi puckett nolan ryan  well base
+argument nolan ryan doesn't deserv hall fame right
+hander stuck around long time could throw hard
+game win season lot lose season lot walk young
+award nolan ryan compar guy like steve carlton
+domin major leagu season divison world seri half
+team game doesn't compar even close  kirbi puckett
+hasn't done long enough give season like he i'll
+think
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hall, 4128, 0.308366678427
+nolan, 6094, 0.235914420623
+hit, 4316, 0.222193036845
+fame, 3376, 0.220456823312
+deserv, 2560, 0.208548123908
+ryan, 7557, 0.199487337632
+season, 7747, 0.195761586154
+guy, 4100, 0.190849963474
+garvey, 3779, 0.174892905175
+kirbi, 5029, 0.164587840301
+yount, 9965, 0.162947566863
+compar, 1960, 0.16039245248
+long, 5336, 0.160161325405
+puckett, 6975, 0.158579920891
+ozzi, 6366, 0.157276280415
+stuck, 8466, 0.151604993968
+robin, 7440, 0.14783283762
+hung, 4441, 0.14454886756
+smith, 8064, 0.124370249319
+morri, 5868, 0.124370249319
+steve, 8390, 0.113265532326
+like, 5272, 0.107030123455
+deal, 2418, 0.102736541623
+prestig, 6843, 0.0902820958112
+hander, 4147, 0.0874464525876
+famer, 3377, 0.0874464525876
+big, 1082, 0.0865726217964
+littl, 5308, 0.0854189252202
+fluke, 3561, 0.0841124039705
+carlton, 1524, 0.0841124039705
+doesn, 2793, 0.0824421354038
+lot, 5356, 0.0793004351439
+kingman, 5026, 0.0774269662171
+game, 3761, 0.0770397976798
+domin, 2808, 0.075802496984
+shortstop, 7909, 0.0748244985005
+absurd, 200, 0.0748244985005
+liber, 5247, 0.0739164188102
+award, 832, 0.0739164188102
+honor, 4364, 0.0726654710514
+gold, 3933, 0.0722744337802
+glove, 3911, 0.0722744337802
+gee, 3806, 0.0715267058527
+candid, 1489, 0.0715267058527
+huh, 4429, 0.0711687185575
+anymor, 553, 0.0701515591537
+honest, 4361, 0.0683330753339
+belong, 1015, 0.0669941846041
+homer, 4355, 0.0660161861206
+hasn, 4195, 0.0651081064302
+year, 9943, 0.063873756959
+potenti, 6774, 0.0608636536837
+time, 8936, 0.0603875591854
+select, 7774, 0.0593843448557
+jack, 4808, 0.0593843448557
+appar, 577, 0.0589721668234
+couldn, 2176, 0.057810247579
+don, 2811, 0.0576480693656
+half, 4124, 0.0575658610359
+throw, 8899, 0.0569746982336
+young, 9962, 0.0567457243165
+lose, 5350, 0.0558689830109
+individu, 4604, 0.0555551964858
+defens, 2476, 0.0549499531185
+dave, 2395, 0.0549499531185
+face, 3345, 0.0546578090203
+walk, 9617, 0.0540011761681
+stop, 8413, 0.0537298268849
+futur, 3737, 0.0536406496165
+wouldn, 9854, 0.0531183414994
+argument, 631, 0.0530333397872
+seri, 7805, 0.0518221657967
+save, 7646, 0.0511472616134
+leagu, 5176, 0.0510020290773
+agre, 337, 0.0491883596953
+import, 4551, 0.0481663858537
+close, 1830, 0.0481663858537
+hard, 4167, 0.0481087544234
+major, 5458, 0.0466439871178
+isn, 4783, 0.0465419166205
+win, 9770, 0.0461909911253
+hand, 4145, 0.046092481263
+given, 3887, 0.0456110710987
+certain, 1619, 0.0449663389204
+real, 7144, 0.0435647381866
+world, 9841, 0.0425599584317
+team, 8732, 0.0421937166974
+ll, 5314, 0.0402554609392
+let, 5225, 0.0401320841585
+base, 923, 0.0397689820681
+believ, 1009, 0.0392430708012
+right, 7399, 0.0386558114573
+realli, 7150, 0.037708214205
+someth, 8126, 0.0374074259948
+mani, 5479, 0.0360462605729
+say, 7653, 0.0322631533623
+think, 8871, 0.0291044568831

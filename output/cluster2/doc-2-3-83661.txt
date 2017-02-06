@@ -1,0 +1,145 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83661
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@post.RoyalRoads.ca (Malcolm Lee)
+Subject: Re: A KIND and LOVING God!!
+Organization: Royal Roads Military College, Victoria, B.C.
+Lines: 32
+
+
+In article <1r0ejoINNjfj@owl.csrv.uidaho.edu>, lanph872@crow.csrv.uidaho.edu (Rob Lanphier) writes:
+|> Malcolm Lee (mlee@post.RoyalRoads.ca) wrote:
+|> : What bothers me most is why people who have no religious affiliation 
+|> : continue to persecute Jews?  Why this hatred of Jews?  The majority of
+|> : people who persecute Jews are NOT Christians (I can't speak for all 
+|> : Christians and there are bound to be a few who are on the anti-Semitism
+|> : bandwagon.)
+|> 
+|> Do you even have anecdotal evidence to back this up?  The most blatent
+|> persecution of the Jews in history was of course done by the Nazis before
+|> and during World War II, a predominately Lutheran crowd.  Sure, many
+|> Muslims in the Middle East consider the Israelites to be a thorn in their
+|> side, but the most of the modern persecution of Jews has been at the hands
+|> of Christians (at least as far as I'm aware).
+|> 
+|> Rob Lanphier
+|> lanph872@uidaho.edu
+
+Do you consider Neo-Nazis and white supremists to be Christian?  I'd hardly
+classify them as Christian.  Do they follow the teachings of Christ?  Love
+one another.  Love your neighbour as yourself.  Love your enemies.  Is Jesus
+Christ their Lord and Saviour?  By the persecution of Jews, they are violating
+all the precepts of what Christ died for.  They are in direct violation of
+the teachings of Christ.  Even Jesus who was crucified by the Jewish leaders
+of that time, loved His enemies by asking the Father for forgiveness of their
+sins.  I am a Christian and I bear no animosity towards Jews or any one else.
+The enemy is Satan, not our fellow man.
+
+God be with you,
+
+Malcolm Lee  :)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god       bother peopl religi affili
+continu persecut jew hatr jew major peopl persecut
+jew christian can't speak christian bound anti
+semit bandwagon  even anecdot evid back blatent
+persecut jew histori cours done nazi world war
+predomin lutheran crowd sure mani muslim middl
+east consid israelit thorn side modern persecut
+jew hand christian least far i'm awar  rob
+lanphier   consid neo nazi white supremist
+christian i'd hard classifi christian follow teach
+christ love one anoth love neighbour love enemi
+jesus christ lord saviour persecut jew violat
+precept christ die direct violat teach christ even
+jesus crucifi jewish leader time love enemi ask
+father forgiv sin christian bear animos toward jew
+one els enemi satan fellow man  god  malcolm lee
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jew, 4862, 0.426416518388
+persecut, 6558, 0.392379034608
+christian, 1732, 0.274276356127
+love, 5366, 0.255601902187
+enemi, 3100, 0.241092112893
+christ, 1729, 0.237999401958
+nazi, 5971, 0.168594614741
+violat, 9526, 0.151676171345
+teach, 8729, 0.11954203047
+jesus, 4859, 0.104737956237
+supremist, 8582, 0.10413800793
+precept, 6807, 0.100432706083
+semit, 7783, 0.0975586506862
+blatent, 1145, 0.0975586506862
+hatr, 4206, 0.0932249388588
+bandwagon, 892, 0.0932249388588
+animos, 516, 0.0932249388588
+thorn, 8883, 0.0915050745949
+neo, 6003, 0.0915050745949
+lutheran, 5402, 0.0915050745949
+crucifi, 2252, 0.0915050745949
+god, 3926, 0.0907893777658
+consid, 2059, 0.09034446689
+saviour, 7649, 0.0886310191981
+predomin, 6818, 0.0886310191981
+anecdot, 507, 0.0886310191981
+fellow, 3437, 0.0874034384097
+lanphier, 5116, 0.0852518069117
+classifi, 1792, 0.0852518069117
+israelit, 4792, 0.0842973073706
+muslim, 5934, 0.0834086895572
+affili, 311, 0.0817966070912
+crowd, 2245, 0.0790749777298
+satan, 7627, 0.0779032749018
+malcolm, 5462, 0.0753696758825
+forgiv, 3605, 0.0753696758825
+bound, 1250, 0.0724956204856
+rob, 7434, 0.0701473462416
+peopl, 6530, 0.0698900883491
+leader, 5173, 0.0684274819778
+awar, 831, 0.0681619086582
+bother, 1245, 0.0673965439353
+lee, 5190, 0.066214076502
+anti, 542, 0.0651310985921
+father, 3404, 0.0649250166008
+bear, 971, 0.0649250166008
+middl, 5699, 0.0645224885385
+lord, 5347, 0.0645224885385
+modern, 5811, 0.0635679889975
+religi, 7260, 0.0632051523369
+jewish, 4864, 0.0632051523369
+war, 9635, 0.0626793711841
+sin, 7976, 0.0621742142945
+east, 2965, 0.0585933564073
+speak, 8192, 0.0567335768906
+histori, 4314, 0.0556943158432
+white, 9737, 0.0552045287045
+continu, 2092, 0.054367276262
+evid, 3245, 0.0542775208488
+die, 2628, 0.0526812321917
+direct, 2667, 0.0493568408191
+hard, 4167, 0.0487604449434
+major, 5458, 0.0472758356158
+hand, 4145, 0.0467168589557
+kind, 5021, 0.0459448016634
+ask, 689, 0.0446112132834
+els, 3053, 0.0445270309597
+man, 5471, 0.0444851452328
+cours, 2190, 0.0440736134304
+world, 9841, 0.0431364838848
+far, 3386, 0.0430239953997
+follow, 3578, 0.0423335137347
+anoth, 533, 0.041511116374
+sure, 8585, 0.0414779635895
+mani, 5479, 0.0365345502112
+time, 8936, 0.0306027903884

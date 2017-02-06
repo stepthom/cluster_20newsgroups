@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/82787
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: hudson@athena.cs.uga.edu (Paul Hudson Jr)
+Subject: Re: Question for those with popular morality
+Organization: University of Georgia, Athens
+Lines: 11
+
+In article <1993Apr5.165709.4347@midway.uchicago.edu> dsoconne@midway.uchicago.edu writes:
+>>But there is a base of true absolute morality that we can stand on.
+>
+>Note that if the majority of people remain unconvinced, this idea
+>probably isn't worth very much in a pragmatic sense.
+
+Maybe not to you.  But to those who stand on this base, He is 
+precious.
+
+Link
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ question popular moral     base true absolut
+moral stand  note major peopl remain unconvinc
+idea probabl isn't worth much pragmat sens  mayb
+stand base precious  link
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moral, 5855, 0.382357293996
+stand, 8311, 0.36943289843
+pragmat, 6797, 0.332497946558
+precious, 6808, 0.315208619709
+base, 923, 0.266889704376
+link, 5289, 0.238806693922
+popular, 6746, 0.205294113918
+remain, 7264, 0.199735391274
+absolut, 193, 0.19879819472
+worth, 9850, 0.193162294269
+sens, 7788, 0.177670087345
+major, 5458, 0.156513937313
+isn, 4783, 0.156171439675
+note, 6118, 0.15384802386
+true, 9121, 0.152107344349
+mayb, 5564, 0.149258574127
+idea, 4482, 0.145778607479
+probabl, 6885, 0.139454480167
+question, 7032, 0.129072487455
+peopl, 6530, 0.115690952515

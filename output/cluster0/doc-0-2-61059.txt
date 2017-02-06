@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61059
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Eco-Freaks forcing Space Mining.
+Organization: Express Access Online Communications USA
+Lines: 7
+NNTP-Posting-Host: access.digex.net
+
+ Besides this was the same line of horse puckey the mining companies claimed
+when they were told to pay for  restoring land  after strip mining.
+
+they still mine coal in the midwest,  but now it doesn't look like
+the moon when theyare done.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ eco freak forc space mine     besid line hors
+puckey mine compani claim told pay restor land
+strip mine  still mine coal midwest doesn't look
+like moon theyar done  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+puckey, 6976, 0.31737778739
+coal, 1857, 0.31737778739
+midwest, 5705, 0.297684294582
+eco, 2981, 0.284340852376
+freak, 3665, 0.274235987357
+restor, 7327, 0.257246705374
+strip, 8451, 0.24994117205
+hors, 4382, 0.246716448631
+besid, 1051, 0.199159966609
+pay, 6474, 0.189810090035
+told, 8973, 0.188629709866
+pat, 6458, 0.185998306575
+land, 5104, 0.178358901166
+compani, 1958, 0.174310166698
+forc, 3594, 0.173491233954
+moon, 5851, 0.170116597226
+claim, 1782, 0.163232180261
+line, 5285, 0.138886606952
+doesn, 2793, 0.135916920741
+space, 8164, 0.118854193121
+look, 5341, 0.104567491299
+like, 5272, 0.0882267588975

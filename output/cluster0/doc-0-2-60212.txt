@@ -1,0 +1,81 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60212
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: clarke@acme.ucf.edu (Thomas Clarke)
+Subject: Re: pushing the envelope
+Organization: University of Central Florida
+Distribution: na
+Lines: 18
+
+> In <1993Apr3.233154.7045@Princeton.EDU> lije@cognito.Princeton.EDU (Elijah  
+Millgram) writes:
+> 
+> 
+> A friend of mine and I were wondering where the expression "pushing
+> the envelope" comes from.  Anyone out there know?
+> 
+Everbody has been defining envelope.
+Why was the world "envelope" chosen, rather than say "shell", 
+or "boundary".  In analogy with the envelopes of airships perhaps?
+
+Actually, "shell" might be good.  Push the shell too hard and
+it (the aircraft?) breaks. 
+--
+Thomas Clarke
+Institute for Simulation and Training, University of Central FL
+12424 Research Parkway, Suite 300, Orlando, FL 32826
+(407)658-5030, FAX: (407)658-5059, clarke@acme.ucf.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ push envelop     cognito princeton edu elijah
+friend mine wonder express push envelop come anyon
+know  everbodi defin envelop world envelop chosen
+rather say shell boundari analog envelop airship
+perhap  actual shell might good push shell hard
+aircraft break  thoma clark institut simul train
+univers central research parkway suit orlando
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+envelop, 3137, 0.681791236597
+shell, 7873, 0.368660095655
+push, 6996, 0.330974727141
+parkway, 6431, 0.152286743573
+orlando, 6297, 0.152286743573
+boundari, 1251, 0.129654215664
+princeton, 6868, 0.127483682132
+chosen, 1727, 0.11913068948
+analog, 487, 0.116552201732
+aircraft, 359, 0.114810233738
+clark, 1787, 0.111714267864
+simul, 7974, 0.108607163295
+central, 1611, 0.108199209079
+suit, 8529, 0.103846027335
+thoma, 8878, 0.102272666476
+train, 9042, 0.101095145152
+express, 3315, 0.0984159187453
+institut, 4683, 0.0947438243098
+break, 1284, 0.0943276280394
+friend, 3692, 0.0921777058296
+defin, 2482, 0.090400655209
+perhap, 6540, 0.0797413722585
+research, 7307, 0.0792401062951
+hard, 4167, 0.0779911775699
+wonder, 9821, 0.0748022046993
+edu, 3001, 0.0730429793101
+world, 9841, 0.0689957849708
+univers, 9282, 0.0684606635936
+actual, 254, 0.0662373745535
+come, 1923, 0.0597392665077
+anyon, 554, 0.0553586496613
+good, 3948, 0.0529563812371
+say, 7653, 0.0523031899911
+know, 5052, 0.044374231442

@@ -1,0 +1,138 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102628
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: tek2q@Virginia.EDU ("Todd Karlin")
+Subject: New Uniforms
+Organization: University of Virginia
+Lines: 22
+
+	Usually one or two teams changes their logo or a minor
+uniform change per season, but the past few seasons have been
+incredible.
+	Any thoughts on the new (old) Reds uniforms.  I
+remember seeing a Pete Rose rookie card, and unless I miss my
+guess he was wearing the exact same duds.  
+	The Mets (HOW ABOUT DOC'S PERFORMANCE TODAY?!!!!!) have
+reinserted the Mets patch on the shoulder, and changed the Mets
+insgnia on the front of the jersey.  To my knowledge it is the
+first time that has been changed since 1962, and it reminds me
+a little of the Dodger logo.  
+	Many teams have opted for a return to a previous style
+of uniform, or at least uniforms that look more traditional.
+(Phillies, Reds, Expos, White Sox, Padres, etc.) and the once
+bright colors have been altered to gray.  The trend has also
+seen the newer baseball fields resembling the parks of the
+early years, as opposed to the cookie-cutter saucer stadiums
+construcrted throughout the sixties.
+	With salaries now reaching unbelievable highs, no one
+in the comissioner's office, and inter-league play on the
+horizon, it's nice to see that baseball at least looks like it
+was meant to be. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ new uniform    usual one two team chang logo
+minor uniform chang per season past season incred
+thought new old red uniform rememb see pete rose
+rooki card unless miss guess wear exact dud met
+doc perform today reinsert met patch shoulder
+chang met insgnia front jersey knowledg first time
+chang sinc remind littl dodger logo mani team opt
+return previous style uniform least uniform look
+tradit philli red expo white sox padr etc bright
+color alter gray trend also seen newer basebal
+field resembl park earli year oppos cooki cutter
+saucer stadium construcrt throughout sixti salari
+reach unbeliev high one comission offic inter
+leagu play horizon it nice see basebal least look
+like meant
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uniform, 9273, 0.487764709835
+chang, 1650, 0.245184467922
+met, 5655, 0.227636478211
+logo, 5332, 0.220958149739
+red, 7194, 0.13655427102
+dud, 2906, 0.133028255372
+cutter, 2316, 0.133028255372
+season, 7747, 0.131404354621
+cooki, 2123, 0.126111012691
+saucer, 7643, 0.121203150904
+opt, 6272, 0.121203150904
+jersey, 4855, 0.115770324017
+basebal, 924, 0.114978567254
+sixti, 7998, 0.114285908223
+team, 8732, 0.113289603351
+unbeliev, 9217, 0.1083437892
+trend, 9084, 0.1083437892
+horizon, 4374, 0.107368665542
+inter, 4703, 0.105571213082
+shoulder, 7911, 0.104738851926
+salari, 7589, 0.103186871609
+patch, 6459, 0.102460803754
+newer, 6028, 0.102460803754
+doc, 2783, 0.10045142286
+new, 6023, 0.0993905578194
+padr, 6379, 0.0986539704009
+rooki, 7475, 0.0980945753817
+gray, 4011, 0.0970279768678
+wear, 9676, 0.0965186847321
+incred, 4591, 0.0965186847321
+style, 8479, 0.0950761340372
+expo, 3309, 0.0950761340372
+rose, 7481, 0.0946211732199
+alter, 449, 0.0946211732199
+pete, 6574, 0.0937461086136
+resembl, 7308, 0.0909948708589
+stadium, 8300, 0.0906356992859
+bright, 1311, 0.0899392752603
+remind, 7270, 0.089601442051
+dodger, 2791, 0.0880058856706
+tradit, 9037, 0.0877039305388
+meant, 5598, 0.0862694709133
+look, 5341, 0.0851500039351
+oppos, 6269, 0.0832510295688
+philli, 6593, 0.0819210041452
+previous, 6855, 0.0799116232514
+sox, 8162, 0.0788105948175
+park, 6430, 0.0786338054678
+minor, 5745, 0.0784588293742
+knowledg, 5053, 0.0760291355853
+offic, 6206, 0.0755821225993
+reach, 7128, 0.0741714003083
+card, 1513, 0.0732490124551
+white, 9737, 0.0731212214488
+return, 7346, 0.0728684757953
+past, 6456, 0.0721319576982
+miss, 5770, 0.0721319576982
+usual, 9377, 0.0720122377713
+earli, 2951, 0.0707479543157
+unless, 9289, 0.0694678525748
+perform, 6539, 0.0692635385211
+nice, 6047, 0.069061642442
+color, 1907, 0.0685671144955
+leagu, 5176, 0.0684699061437
+exact, 3253, 0.0677115582042
+guess, 4079, 0.0661193134844
+today, 8964, 0.0652147150171
+old, 6216, 0.0645086824193
+field, 3466, 0.0642040311169
+seen, 7767, 0.0633214194989
+rememb, 7269, 0.0628268915524
+thought, 8887, 0.0595432825688
+high, 4292, 0.0576942112512
+littl, 5308, 0.0573371873485
+play, 6681, 0.0562614143146
+sinc, 7977, 0.0520056071662
+mani, 5479, 0.048391880145
+year, 9943, 0.0428750602981
+time, 8936, 0.0405349609072
+like, 5272, 0.0359218184064

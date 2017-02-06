@@ -1,0 +1,211 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38734
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: lansd@dgp.toronto.edu (Robert Lansdale)
+Subject: Advice sought: Turning font outlines into renderable polygons
+Organization: CSRI, University of Toronto
+Distribution: na
+Lines: 53
+
+
+I am seeking some alternate solutions on how to turn a Postscript Type 1 or
+TrueType font outline into polygons that can be subsequently scan converted
+by a 3D scanline renderer. 
+
+I have been studying the problem of font conversion for a few years but
+have never had the need to implement such a system. Well, I now have the
+opportunity to write some font rendering software so I would like to have
+some of my questions answered before I jump into the deep end.
+
+The main problem I face is how to use the even/odd or non-winding rules to
+turn the outlines into a single outline polygon (my renderer can handle
+complex polygons so there is no need to reduce the polygons to simple
+polygons). For example, in the letter "O" there are two outlines:
+
+	1) The outside outline which is clockwise (TrueType font)
+	2) The inside outline which is counterclockwise.
+
+One common solution used by a number of rendering packages is to simply 
+connect the inner outline to the outer outline at the point where the
+two outlines are closest. This is equivalent to descibing a "polygon with
+holes". The renderer will then make the appropriate hole since the interior
+polygon edges are in the opposite direction to the outside edges.
+
+I do not want to use this simplistic system since:
+
+	1) It will not handle all outline fonts properly (it is not a simple
+		matter to connect the outer outline to the inner outline for
+		some fancy fonts).
+	2) It does not properly handle the even/odd or non-winding rules.
+
+From my research over the years the proper solution is to use a trapezoid
+decomposition algorithm to scan convert the outlines into trapezoids (as
+is done by the Postscript and TrueType font rasterizers). These trapezoidal
+polygons can then be easily and properly rendered by the 3D scanline renderer.
+
+My question is: are there any better solutions to turning the outlines into
+polgyons other than the trapezoid decomposer? I am not fond of this solution
+since it creates excess number of polygons.
+
+Another question, for those in the know: what is the best algorithm to create
+bevelled and/or offset curves for font outlines? I have a dozen papers on these
+subjects but I can't tell which method is the best to implement.
+
+Thanks for any pointers.
+
+--> Rob Lansdale
+
+-- 
+Robert Lansdale - (416) 978-6619       Dynamic Graphics Project	
+Internet: lansd@dgp.toronto.edu        Computer Systems Research Institute
+UUCP:   ..!uunet!dgp.toronto.edu!lansd University of Toronto
+Bitnet:	  lansd@dgp.utoronto           Toronto, Ontario M5S 1A4, CANADA
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ advic sought turn font outlin render polygon
+seek altern solut turn postscript type truetyp
+font outlin polygon subsequ scan convert scanlin
+render  studi problem font convers year never need
+implement system well opportun write font render
+softwar like question answer jump deep end  main
+problem face use even odd non wind rule turn
+outlin singl outlin polygon render handl complex
+polygon need reduc polygon simpl polygon exampl
+letter two outlin  outsid outlin clockwis truetyp
+font insid outlin counterclockwis  one common
+solut use number render packag simpli connect
+inner outlin outer outlin point two outlin closest
+equival descib polygon hole render make appropri
+hole sinc interior polygon edg opposit direct
+outsid edg  want use simplist system sinc  handl
+outlin font proper simpl matter connect outer
+outlin inner outlin fanci font proper handl even
+odd non wind rule  research year proper solut use
+trapezoid decomposit algorithm scan convert outlin
+trapezoid done postscript truetyp font raster
+trapezoid polygon easili proper render scanlin
+render  question better solut turn outlin polgyon
+trapezoid decompos fond solut sinc creat excess
+number polygon  anoth question know best algorithm
+creat bevel offset curv font outlin dozen paper
+subject can't tell method best implement  thank
+pointer  rob lansdal   robert lansdal dynam
+graphic project  uucp uunet dgp toronto edu lansd
+univers toronto
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+outlin, 6327, 0.639202778398
+font, 3582, 0.370908865686
+polygon, 6728, 0.338408737967
+render, 7277, 0.266357550764
+solut, 8118, 0.162993930757
+truetyp, 9125, 0.154510990194
+proper, 6924, 0.133601505305
+scanlin, 7662, 0.1068076151
+turn, 9158, 0.105150478242
+handl, 4149, 0.0915377188775
+inner, 4656, 0.0817466065067
+outer, 6324, 0.0763904009744
+postscript, 6772, 0.0751313508067
+wind, 9773, 0.0691242733251
+scan, 7660, 0.0691242733251
+odd, 6198, 0.0672339071381
+implement, 4544, 0.0637680677928
+hole, 4343, 0.0635997849024
+connect, 2046, 0.0631074287242
+edg, 2993, 0.0629473052091
+outsid, 6332, 0.0627890993871
+sinc, 7977, 0.0604039933953
+question, 7032, 0.0599796722053
+use, 9363, 0.0583497988686
+algorithm, 407, 0.0574328938548
+simpl, 7965, 0.0563272274509
+toronto, 9003, 0.0551296806852
+rule, 7537, 0.0551296806852
+convert, 2115, 0.05309334585
+non, 6097, 0.0523592665464
+bevel, 1061, 0.051503663398
+creat, 2217, 0.0510677991152
+decomposit, 2451, 0.0500297970897
+sought, 8148, 0.0488255606318
+simplist, 7970, 0.0488255606318
+dgp, 2603, 0.0488255606318
+counterclockwis, 2182, 0.0488255606318
+clockwis, 1828, 0.0469254164798
+interior, 4713, 0.0461474578656
+fond, 3580, 0.0461474578656
+best, 1052, 0.0441652731789
+subsequ, 8498, 0.043229146296
+number, 6156, 0.0429551879589
+excess, 3263, 0.0419467430782
+offset, 6209, 0.0415692109475
+problem, 6887, 0.041559869049
+fanci, 3383, 0.0412120961873
+closest, 1832, 0.0396690667955
+dozen, 2848, 0.0393994369451
+raster, 7104, 0.0391403835807
+uunet, 9392, 0.0381952004872
+pointer, 6711, 0.0377689226435
+advic, 292, 0.0373684961601
+rob, 7434, 0.0359727966117
+jump, 4929, 0.0359727966117
+equival, 3162, 0.0358173773439
+subject, 8487, 0.0356655312514
+need, 5993, 0.0355176729861
+curv, 2306, 0.0353719267317
+seek, 7766, 0.0352298779424
+opposit, 6270, 0.0346903933939
+appropri, 590, 0.0346903933939
+opportun, 6268, 0.0345621366625
+deep, 2466, 0.0345621366625
+dynam, 2942, 0.0344363230657
+reduc, 7204, 0.0343128612631
+year, 9943, 0.0331993029238
+altern, 450, 0.0328881030928
+letter, 5227, 0.0325987861514
+convers, 2114, 0.0324127171112
+complex, 1976, 0.0323216120236
+uucp, 9388, 0.0317998924512
+easili, 2962, 0.0312391304258
+insid, 4671, 0.0309388508029
+robert, 7437, 0.029734614345
+method, 5666, 0.029734614345
+paper, 6409, 0.0294356939183
+main, 5450, 0.0289838929411
+common, 1948, 0.028822129408
+packag, 6375, 0.0287690768005
+studi, 8469, 0.028409181567
+face, 3345, 0.028409181567
+singl, 7983, 0.0273910141494
+simpli, 7967, 0.0270565115788
+type, 9177, 0.0257981353578
+matter, 5553, 0.0256317534085
+research, 7307, 0.0254056428262
+direct, 2667, 0.0253110586688
+project, 6909, 0.02451573214
+answer, 535, 0.0243784088127
+exampl, 3258, 0.0239572293977
+edu, 3001, 0.0234187450027
+write, 9865, 0.0227700161815
+end, 3091, 0.0227700161815
+softwar, 8103, 0.0220443465453
+univers, 9282, 0.0219495814459
+graphic, 3997, 0.0217457639969
+tell, 8767, 0.0215835590456
+anoth, 533, 0.0212876327681
+better, 1060, 0.0197595155255
+point, 6710, 0.0186436645178
+thank, 8832, 0.0184970057452
+want, 9634, 0.0179923970683
+make, 5459, 0.0165662505608
+know, 5052, 0.0142270868555
+like, 5272, 0.0139076111212

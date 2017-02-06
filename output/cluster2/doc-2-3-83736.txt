@@ -1,0 +1,128 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83736
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615)
+Subject: Re: 14 Apr 93 God's Promise in 1 John 1: 7
+Organization: Lunar & Planetary Laboratory, Tucson AZ.
+Lines: 30
+
+I had said:
+
+> Merlyn, you missed the point too.  Christianity is a relationship.  I have
+> a relationship with my God.  I <<know>> Him.  
+>
+> Consider your mother Merlyn.  You know your mother.  What would you think
+> of me if I asserted that your mother is 9 feet tall, murdered your father,
+> and sexually abused you when you were a kid?   Would you, who knows your
+> mother well, think was a blind arrogant idiot to proclaim such things?
+
+Merlyn LeRoy says:
+ 
+>This analogy is not good; for example, there are plenty of people who
+>"know" god as well as you do, but don't agree on things like:
+>
+>1) how many children he/she has
+>2) whether he/she approves of polygamy
+>3) whether Mohammed was one of his/her prophets
+>
+>Now, if you AND all these other people who ABSOLUTELY KNOW what god is
+>like can't agree on basic attributes like these, at least one of you
+>who "knows" what this god-thing is like must be wrong; therefore,
+>subjective certainty is worthless regarding knowledge of this god.
+>
+>On the other hand, I don't know any large groups of people who claim
+>absolute knowledge of my mother and who disagree about her basic
+>attributes.  This is the difference between real people and imaginary friends.
+
+Meryln, therefore by your logic, since your people disagree about
+the characteristics of your mother, you mother must be imaginary.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john    said  merlyn miss point
+christian relationship relationship god know
+consid mother merlyn know mother think assert
+mother feet tall murder father sexual abus kid
+know mother well think blind arrog idiot proclaim
+thing  merlyn leroy say  analog good exampl plenti
+peopl know god well don't agre thing like  mani
+children whether approv polygami whether moham one
+prophet  peopl absolut know god like can't agre
+basic attribut like least one know god thing like
+must wrong therefor subject certainti worthless
+regard knowledg god  hand don't know larg group
+peopl claim absolut knowledg mother disagre basic
+attribut differ real peopl imaginari friend
+meryln therefor logic sinc peopl disagre
+characterist mother mother must imaginari
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mother, 5877, 0.561166520221
+merlyn, 5647, 0.314236468528
+god, 3926, 0.299645212161
+know, 5052, 0.213649615157
+peopl, 6530, 0.192223573457
+imaginari, 4519, 0.179976720398
+relationship, 7248, 0.157181215111
+attribut, 773, 0.147752507897
+disagre, 2676, 0.146702777613
+absolut, 193, 0.132123380628
+therefor, 8855, 0.126548713676
+knowledg, 5053, 0.126296805551
+like, 5272, 0.11934400883
+basic, 937, 0.116618409695
+thing, 8869, 0.11613121523
+agre, 337, 0.109695024995
+certainti, 1620, 0.10256121465
+tall, 8685, 0.0949237750561
+worthless, 9852, 0.0908473952509
+arrog, 656, 0.0908473952509
+abus, 202, 0.0891784404083
+proclaim, 6892, 0.0869941655494
+blind, 1158, 0.0845236236061
+approv, 591, 0.0845236236061
+sexual, 7827, 0.0839678763477
+murder, 5926, 0.0839678763477
+characterist, 1663, 0.0819401747807
+plenti, 6692, 0.0810256807978
+analog, 487, 0.0801666457458
+prophet, 6928, 0.0789684896494
+idiot, 4487, 0.0782225416999
+assert, 699, 0.0771724510963
+subject, 8487, 0.0765132746289
+feet, 3430, 0.0738762539486
+logic, 5330, 0.0718842444375
+father, 3404, 0.0714271164485
+kid, 5008, 0.0712039663448
+promis, 6913, 0.06653144843
+think, 8871, 0.0649058871865
+don, 2811, 0.0642805172724
+children, 1707, 0.063921489328
+friend, 3692, 0.0634014405485
+miss, 5770, 0.0599114784437
+regard, 7224, 0.0580443422065
+claim, 1782, 0.0552008908801
+john, 4878, 0.0535797260954
+larg, 5124, 0.0524750314214
+wrong, 9869, 0.0520104081989
+hand, 4145, 0.0513954512365
+exampl, 3258, 0.0513954512365
+christian, 1732, 0.0502907565626
+consid, 2059, 0.0496961348251
+group, 4064, 0.049313145599
+real, 7144, 0.0485768896737
+said, 7583, 0.047169413654
+differ, 2633, 0.0436309279319
+sinc, 7977, 0.0431949015682
+mani, 5479, 0.0401934063163
+point, 6710, 0.039996258945
+good, 3948, 0.0364243265381
+say, 7653, 0.0359750501585

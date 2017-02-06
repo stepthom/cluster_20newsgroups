@@ -1,0 +1,82 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38398
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ccgwt@trentu.ca (Grant Totten)
+Subject: MS-Windows screen grabber?
+Keywords: windows screen grab document graphics
+Lines: 20
+Reply-To: ccgwt@trentu.ca (Grant Totten)
+Organization: Trent University
+
+
+Howdy all,
+
+Where could I find a screen-grabber program for MS-Windows?  I'm 
+writing up some documentation and it would be VERY helpful to include
+sample screens into the document.
+
+Please e-mail as I don't usualy follow this group.
+
+Thanks a lot,
+
+Grant
+
+--
+Grant Totten, Programmer/Analyst, Trent University, Peterborough Ontario
+GTotten@TrentU.CA            Phone: (705) 748-1653   FAX: (705) 748-1246
+========================================================================
+"The human brain is like an enormous fish -- it is flat and slimy and
+has gills through which it can see."
+		-- Monty Python
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ window screen grabber       howdi  could find
+screen grabber program window i'm write document
+help includ sampl screen document  pleas mail
+don't usuali follow group  thank lot  grant
+grant totten programm analyst trent univers
+peterborough ontario   human brain like enorm fish
+flat slimi gill see monti python
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grabber, 3974, 0.40074848261
+screen, 7719, 0.378241571182
+grant, 3994, 0.286899206654
+document, 2788, 0.249322054816
+window, 9774, 0.225527538309
+trent, 9086, 0.21136485366
+totten, 9014, 0.21136485366
+slimi, 8037, 0.21136485366
+howdi, 4403, 0.200374241305
+gill, 3877, 0.186527707289
+analyst, 491, 0.170595053031
+fish, 3505, 0.163950718261
+enorm, 3117, 0.161690560918
+ontario, 6248, 0.160627437
+flat, 3526, 0.155859712001
+sampl, 7601, 0.141838861081
+brain, 1266, 0.137959943096
+programm, 6906, 0.137511896774
+human, 4432, 0.104655510628
+group, 4064, 0.0943342208057
+write, 9865, 0.0934454137922
+includ, 4579, 0.0932710968872
+mail, 5447, 0.0931843570202
+univers, 9282, 0.090078448097
+follow, 3578, 0.089092659995
+lot, 5356, 0.084575919987
+program, 6905, 0.0841382096752
+pleas, 6688, 0.079739144955
+help, 4249, 0.0796338780837
+thank, 8832, 0.0759094917629
+don, 2811, 0.0614831241875
+like, 5272, 0.0570751669968

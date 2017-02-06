@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84269
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: [rw] Is Robert Weiss the only orthodox Christian?
+Organization: Cookamunga Tourist Bureau
+Lines: 20
+
+In article <1993Apr23.170101.19708@organpipe.uug.arizona.edu>,
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) wrote:
+> No.  I also understand it. I have read the Bible from cover to cover, examining
+> each book within, cross-comparing them, etc.  And I have come to same conclusions
+> as Robert Weiss.
+> 
+> So Rick, why not read the Bible for yourself?  It is written in plain
+> english.  Decide for yourself.   
+
+I'm curious to know if Christians ever read books based on critique
+on the religion, classical text such as "Age of Reason" by Paine,
+or "The Myth Maker" by Jacobi. Sometimes it is good to know your
+enemy, and if you want to do serious research you have to understand
+both sides, and not solely the one and only right one.
+
+Cheers,
+Kent
+
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ robert weiss orthodox christian      also
+understand read bibl cover cover examin book
+within cross compar etc come conclus robert weiss
+rick read bibl written plain english decid  i'm
+curious know christian ever read book base critiqu
+religion classic text age reason pain myth maker
+jacobi sometim good know enemi want serious
+research understand side sole one right one  cheer
+kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+weiss, 9698, 0.297738014101
+cover, 2194, 0.243273951353
+read, 7135, 0.241534610039
+robert, 7437, 0.238134253709
+bibl, 1071, 0.232121985341
+jacobi, 4814, 0.200335680411
+understand, 9246, 0.189664969735
+book, 1218, 0.189469415811
+christian, 1732, 0.187741220414
+critiqu, 2238, 0.182002881464
+maker, 5460, 0.171278881546
+enemi, 3100, 0.165026720298
+sole, 8111, 0.16237964912
+myth, 5944, 0.16237964912
+orthodox, 6303, 0.158847925637
+classic, 1790, 0.15477085009
+rick, 7387, 0.151239126607
+examin, 3257, 0.150425258143
+plain, 6659, 0.14669392135
+pain, 6389, 0.14600690511
+english, 3111, 0.14164077053
+cross, 2241, 0.134176106125
+conclus, 2009, 0.131694727818
+curious, 2297, 0.128361122402
+kent, 4987, 0.126351398646
+cheer, 1687, 0.125091701613
+text, 8822, 0.118342461301
+age, 328, 0.118342461301
+sometim, 8128, 0.116280484703
+written, 9867, 0.115413238545
+decid, 2442, 0.114573528712
+know, 5052, 0.113939823516
+religion, 7261, 0.112015161826
+compar, 1960, 0.111275291536
+research, 7307, 0.101732508184
+reason, 7156, 0.0853109028301
+base, 923, 0.0827714460117
+right, 7399, 0.0804545966401
+come, 1923, 0.0766963309752
+want, 9634, 0.072047446094
+good, 3948, 0.067988115356

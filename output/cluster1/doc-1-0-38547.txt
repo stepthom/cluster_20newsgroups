@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38547
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: seth@north13.acpub.duke.edu (Seth Wandersman)
+Subject: univesa driver
+Reply-To: seth@north13.acpub.duke.edu (Seth Wandersman)
+Lines: 7
+Nntp-Posting-Host: north13.acpub.duke.edu
+
+
+	I got the univesa driver available over the net. I thought that finally
+my 1-meg oak board would be able to show 680x1024 256 colors. Unfortunately a
+program still says that I can't do this. Is it the fault of the program (fractint)
+or is there something wrong with my card.
+	univesa- a free driver available over the net that makes many boards
+vesa compatible. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ univesa driver      got univesa driver avail net
+thought final meg oak board abl show 680x1024
+color unfortun program still say can't fault
+program fractint someth wrong card univesa free
+driver avail net make mani board vesa compat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+univesa, 9283, 0.589022082276
+driver, 2876, 0.400405866822
+board, 1186, 0.255083619921
+680x1024, 132, 0.21475105469
+net, 6010, 0.213807024386
+fractint, 3638, 0.196340694092
+avail, 811, 0.184517567717
+meg, 5616, 0.17200352118
+program, 6905, 0.164889003494
+oak, 6166, 0.152722245315
+compat, 1965, 0.150268760426
+vesa, 9484, 0.146624625107
+fault, 3407, 0.142240018466
+unfortun, 9264, 0.126245917052
+card, 1513, 0.114040492104
+free, 3668, 0.108153650506
+color, 1907, 0.106751302401
+final, 3482, 0.104288891101
+wrong, 9869, 0.0974911635205
+abl, 180, 0.0971717945111
+thought, 8887, 0.0927022087809
+got, 3960, 0.0871536810948
+someth, 8126, 0.0781857150274
+mani, 5479, 0.0753407266608
+say, 7653, 0.0674336083702
+make, 5459, 0.0666173432831

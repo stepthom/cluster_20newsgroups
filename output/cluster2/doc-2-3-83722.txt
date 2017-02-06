@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83722
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: muttiah@thistle.ecn.purdue.edu (Ranjan S Muttiah)
+Subject: cults (who keeps them going ?)
+Organization: Purdue University Engineering Computer Network
+Lines: 9
+
+
+Mr. Clinton said today that the horrible tragedy of the Waco fiasco
+should remind those who join cults of the dangers of doing so.
+Now, I began scratching my head thinking (a bad sign :-), "don't the 
+mainstream religions (in this case Christianity...or the 7th day 
+adventist in particular) just keep these guys going ? Isn't Mr. Clinton 
+condemning his own religion ? After all, isn't it a cult too ?"
+
+... bad thoughts these.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cult keep go     clinton said today horribl
+tragedi waco fiasco remind join cult danger began
+scratch head think bad sign don't mainstream
+religion case christian 7th day adventist
+particular keep guy go isn't clinton condemn
+religion isn't cult  bad thought
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cult, 2289, 0.445682410368
+clinton, 1820, 0.359379248735
+religion, 7261, 0.24393579798
+bad, 861, 0.212113392566
+isn, 4783, 0.210949771394
+scratch, 7717, 0.198174146254
+adventist, 287, 0.198174146254
+fiasco, 3461, 0.192923532556
+mainstream, 5453, 0.18649730075
+tragedi, 9039, 0.181246687052
+condemn, 2015, 0.179689624367
+waco, 9603, 0.171786215212
+horribl, 4380, 0.167511920248
+7th, 140, 0.166535601513
+began, 993, 0.159727925131
+join, 4881, 0.157539634009
+danger, 2356, 0.151824515975
+remind, 7270, 0.151254227152
+sign, 7946, 0.131011563302
+head, 4215, 0.121562277573
+particular, 6442, 0.120572536026
+today, 8964, 0.11008752865
+guy, 4100, 0.108127681155
+christian, 1732, 0.102211173178
+thought, 8887, 0.100513708048
+case, 1540, 0.100128436155
+said, 7583, 0.0958673409831
+day, 2402, 0.0853982216594
+think, 8871, 0.0659575171355
+don, 2811, 0.0653220147395

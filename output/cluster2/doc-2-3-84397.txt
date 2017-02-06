@@ -1,0 +1,181 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84397
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: Catholic Lit-Crit of a.s.s.
+From: NUNNALLY@acs.harding.edu (John Nunnally)
+Distribution: world
+Organization: Harding University, Searcy, AR
+Nntp-Posting-Host: acs.harding.edu
+X-News-Reader: VMS NEWS 1.24In-Reply-To: dlphknob@camelot.bradley.edu's message of 16 Apr 93 18:57:20 GMTLines: 45
+Lines: 45
+
+In <dlphknob.734986640@camelot> dlphknob@camelot.bradley.edu writes:
+
+> In <1993Apr14.101241.476@mtechca.maintech.com> foster@mtechca.maintech.com writes:
+> 
+> >I am surprised and saddened. I would expect this kind of behavior
+> >from the Evangelical Born-Again Gospel-Thumping In-Your-Face We're-
+> >The-Only-True-Christian Protestants, but I have always thought 
+> >that Catholics behaved better than this.
+> >                                   Please do not stoop to the
+> >level of the E B-A G-T I-Y-F W-T-O-T-C Protestants, who think
+> >that the best way to witness is to be strident, intrusive, loud,
+> >insulting and overbearingly self-righteous.
+> 
+> (Pleading mode on)
+> 
+> Please!  I'm begging you!  Quit confusing religious groups, and stop
+> making generalizations!  I'm a Protestant!  I'm an evangelical!  I don't
+> believe that my way is the only way!  I'm not a "creation scientist"!  I
+> don't think that homosexuals should be hung by their toenails!  
+> 
+> If you want to discuss bible thumpers, you would be better off singling
+> out (and making obtuse generalizations about) Fundamentalists.  If you
+> compared the actions of Presbyterians or Methodists with those of Southern 
+> Baptists, you would think that they were different religions!
+> 
+[Sarcasm on]
+Be sure we pick on the "correct groups" here.  "Bible thumpers",
+"fundamentalists", and Southern Baptists *deserve* our hasty generalizations
+and prejudicial statements.  Just don't pick on the Presbyterians
+and the Methodists!
+[Sarcasm off] 
+> Please, prejudice is about thinking that all people of a group are the
+> same, so please don't write off all Protestants or all evangelicals!
+> 
+> (Pleading mode off.)
+> 
+> God.......I wish I could get ahold of all the Thomas Stories......
+> --
+> 	"Fbzr enval jvagre Fhaqnlf jura gurer'f n yvggyr oberqbz, lbh fubhyq
+> nyjnlf pneel n tha.  Abg gb fubbg lbhefrys, ohg gb xabj rknpgyl gung lbh'er 
+> nyjnlf znxvat n pubvpr."
+> 			--Yvan Jregzhyyre
+> =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+>         Jemaleddin Sasha David Cole IV - Chief of Knobbery Research
+>                         dlphknob@camelot.bradley.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+cathol lit crit        dlphknob    surpris sadden
+expect kind behavior evangel born gospel thump
+face we'r true christian protest alway thought
+cathol behav better pleas stoop level protest
+think best way wit strident intrus loud insult
+overbear self righteous  plead mode  pleas i'm beg
+quit confus religi group stop make general i'm
+protest i'm evangel don't believ way way i'm
+creation scientist don't think homosexu hung
+toenail  want discuss bibl thumper better singl
+make obtus general fundamentalist compar action
+presbyterian methodist southern baptist think
+differ religion  sarcasm sure pick correct group
+bibl thumper fundamentalist southern baptist
+deserv hasti general prejudici statement don't
+pick presbyterian methodist sarcasm pleas prejudic
+think peopl group pleas don't write protest
+evangel  plead mode  god wish could get ahold
+thoma stori  fbzr enval jvagr fhaqnlf jura gurer'f
+yvggyr oberqbz lbh fubhyq nyjnlf pneel tha abg
+fubbg lbhefri ohg xabj rknpgyl gung lbh'er nyjnlf
+znxvat pubvpr yvan jregzhyyr  jemaleddin sasha
+david cole chief knobberi research
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+evangel, 3228, 0.291321422478
+protest, 6942, 0.288640417974
+thumper, 8908, 0.207312096474
+nyjnlf, 6163, 0.207312096474
+lbh, 5164, 0.207312096474
+methodist, 5667, 0.199935789693
+presbyterian, 6833, 0.189539469196
+plead, 6687, 0.185586971583
+sarcasm, 7620, 0.176441654375
+baptist, 902, 0.169714508375
+fundamentalist, 3725, 0.15998421185
+cathol, 1564, 0.15998421185
+southern, 8156, 0.151941881097
+pleas, 6688, 0.15085487147
+general, 3818, 0.148494760133
+group, 4064, 0.133849975092
+mode, 5806, 0.11765995995
+think, 8871, 0.117448755671
+don, 2811, 0.11631713385
+pick, 6619, 0.115428946371
+bibl, 1071, 0.112514666748
+way, 9666, 0.100608548699
+thump, 8907, 0.0999678948464
+strident, 8447, 0.0999678948464
+hasti, 4198, 0.0999678948464
+gung, 4096, 0.0999678948464
+tha, 8831, 0.0971071408261
+stoop, 8412, 0.0971071408261
+overbear, 6338, 0.0971071408261
+crit, 2235, 0.0971071408261
+ahold, 347, 0.0971071408261
+obtus, 6184, 0.0947697345981
+sadden, 7573, 0.0927934857913
+intrus, 4735, 0.0910815812077
+lit, 5302, 0.0895715743498
+prejudic, 6823, 0.086998927749
+er, 3163, 0.08141804533
+loud, 5361, 0.0806852607112
+beg, 992, 0.0806852607112
+insult, 4689, 0.0775427318182
+better, 1060, 0.0767058900258
+homosexu, 4360, 0.0764737595285
+cole, 1890, 0.0764737595285
+chief, 1703, 0.0750208585139
+behav, 999, 0.0745709793503
+gospel, 3958, 0.0737159798821
+righteous, 7400, 0.072914453862
+hung, 4441, 0.072914453862
+behavior, 1000, 0.0704481999101
+deserv, 2560, 0.0701316346752
+wit, 9802, 0.0663655464513
+born, 1233, 0.0656846657116
+scientist, 7694, 0.0648296662434
+creation, 2218, 0.0648296662434
+make, 5459, 0.0643097241942
+thoma, 8878, 0.0636454180526
+religi, 7260, 0.0629126334338
+confus, 2037, 0.061723149286
+self, 7776, 0.0594943898151
+wish, 9801, 0.0593587246273
+action, 251, 0.058322181294
+stori, 8418, 0.0579541108284
+statement, 8343, 0.0578337320978
+surpris, 8593, 0.0577144731855
+face, 3345, 0.0551418265847
+religion, 7261, 0.0542962295669
+stop, 8413, 0.0542056267826
+compar, 1960, 0.0539375980527
+singl, 7983, 0.0531655777778
+level, 5229, 0.0525956954857
+david, 2397, 0.0517484043496
+expect, 3290, 0.0496872529767
+correct, 2156, 0.0493737840443
+research, 7307, 0.0493119996326
+discuss, 2708, 0.0493119996326
+alway, 457, 0.0484192789491
+quit, 7043, 0.0469540645922
+true, 9121, 0.0457321651537
+kind, 5021, 0.0457321651537
+christian, 1732, 0.0455011635776
+god, 3926, 0.0451845983427
+thought, 8887, 0.0447455060881
+write, 9865, 0.0441962849457
+best, 1052, 0.0428620907109
+sure, 8585, 0.0412859999922
+believ, 1009, 0.0395905844664
+differ, 2633, 0.0394756039592
+want, 9634, 0.0349229926473
+peopl, 6530, 0.0347833154924

@@ -1,0 +1,203 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104964
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: dtate+@pitt.edu (David M. Tate)
+Subject: Re: Winfield's spot on THE ALL TIME GREATS TEAM
+Organization: Department of Industrial Engineering
+Lines: 50
+
+In article <C5wEwD.Kto@murdoch.acc.Virginia.EDU> drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker) writes:
+>In article <9729@blue.cis.pitt.edu> dtate+@pitt.edu (David M. Tate) writes:
+
+>>Winfield can't touch Frank Robinson or Mel Ott, as far as I can tell.  
+>>You'd also have a hard time convincing me to rate him better than or
+>>equal to Clemente.  
+
+>Two sets of numbers; career equivalent average and equivalent runs
+>
+>1. Ruth     .377, 2721
+>2. Aaron    .318, 2808
+>3. Ott      .318, 2197
+>4. Robinson .313, 2245
+
+>7. Clemente .289, 1745
+>8. Winfield .288, 1921
+>
+>Ruth is in a class by himself for both rate (eqa) and total (eqr)
+>performance, Aaron runs over everybody in the total category. Ott and
+>Robinson, who lead Winfield in both categories, could be safely put
+>ahead of ahead of him. Reggie too, although he is barely ahead. These
+>numbers are normalized for league and park. Clemente is held down by
+>some really anemic offensive production in his earliest years, and was
+>still productive when he died; it is reasonably safe to assume he had
+>150-200 runs more he could have gotten. Still, Jackson, Waner,
+>Clemente, and Winfield form a pretty tight knot.
+
+
+Yes, but
+
+	(a) we were talking about peak level, not career averages
+and
+	(b) Clemente was the best fielding RF of all time, as far
+	    as anyone can tell
+
+I did a quick scan last night, looking for players with a peak comparable
+to or better than Winfield.  In my quick-n-dirty subjective judgement, you
+could make good cases for Ruth, Aaron, Ott, Robinson, Clemente, Kaline, 
+Maris, Klein, Jackson, Waner, and probably a few others.  This is not a
+knock on Winfield, but a comment on his consistency: all of those other
+players had awesome stretches and very good stretches, while Winfield has
+been more uniformly excellent.  Hall of Fame?  Absolutely.  Top-10 peak?
+I'm not so sure.  Top 10 total career value?  Yes, almost certainly.
+
+
+-- 
+   David M. Tate      | My free agent says he will be no one's but mine
+ (dtate+@pitt.edu)    | Not even should Steinbrenner himself try to seduce him.
+Prof. of Story Probs. | He says but what player says to owner;
+ "The Big Catullus"   | Write it on the wind, or swift-running water.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ winfield spot time great team       winfield
+can't touch frank robinson mel ott far tell you'd
+also hard time convinc rate better equal clement
+two set number career equival averag equival run
+ruth aaron ott robinson  clement winfield  ruth
+class rate eqa total eqr perform aaron run
+everybodi total categori ott robinson lead
+winfield categori could safe put ahead ahead reggi
+although bare ahead number normal leagu park
+clement held realli anem offens product earliest
+year still product die reason safe assum run could
+gotten still jackson waner clement winfield form
+pretti tight knot   yes  talk peak level career
+averag  clement best field time far anyon tell
+quick scan last night look player peak compar
+better winfield quick dirti subject judgement
+could make good case ruth aaron ott robinson
+clement kalin mari klein jackson waner probabl
+other knock winfield comment consist player awesom
+stretch good stretch winfield uniform excel hall
+fame absolut top peak i'm sure top total career
+valu yes almost certain    david tate free agent
+say one mine  prof stori prob say player say owner
+big catullus write wind swift run water
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+winfield, 9778, 0.442138658294
+clement, 1808, 0.407448574352
+ott, 6316, 0.275791340396
+robinson, 7441, 0.24050914259
+aaron, 161, 0.186322751079
+ruth, 7555, 0.171199661253
+peak, 6496, 0.168377985238
+waner, 9631, 0.15390083247
+ahead, 342, 0.143680572264
+career, 1517, 0.137074364953
+run, 7543, 0.118904514928
+total, 9013, 0.118154281112
+jackson, 4812, 0.112859324034
+equival, 3162, 0.107027807858
+stretch, 8443, 0.106130526366
+categori, 1560, 0.105272269689
+safe, 7577, 0.102532083437
+player, 6683, 0.10215609732
+rate, 7108, 0.0856531175834
+quick, 7036, 0.0841571902223
+averag, 816, 0.0840136492728
+product, 6896, 0.0826328910514
+anem, 508, 0.0769504162352
+say, 7653, 0.0751635741221
+kalin, 4947, 0.0747483471315
+prob, 6884, 0.0729491256671
+knot, 5051, 0.0729491256671
+eqa, 3155, 0.0729491256671
+yes, 9951, 0.0718950634195
+time, 8936, 0.0703425472693
+swift, 8633, 0.0701101648291
+klein, 5039, 0.0701101648291
+catullus, 1567, 0.0701101648291
+tate, 8709, 0.0679080957254
+earliest, 2953, 0.0679080957254
+reggi, 7226, 0.066108874261
+far, 3386, 0.065929008253
+prof, 6897, 0.0645876541882
+tell, 8767, 0.0644949793014
+number, 6156, 0.0641783394583
+mel, 5620, 0.0639068051572
+bare, 910, 0.0639068051572
+awesom, 835, 0.0615740269005
+dirti, 2671, 0.0610678443192
+better, 1060, 0.0590444579657
+judgement, 4921, 0.0588657752155
+tight, 8929, 0.0577474027821
+fame, 3376, 0.0570665537511
+uniform, 9273, 0.0564296620168
+touch, 9015, 0.0539839164144
+owner, 6359, 0.0539839164144
+subject, 8487, 0.0532870342414
+agent, 331, 0.053065263183
+knock, 5050, 0.0522248921412
+mari, 5508, 0.0520255238093
+wind, 9773, 0.0516384782498
+water, 9657, 0.0516384782498
+scan, 7660, 0.0516384782498
+good, 3948, 0.0507348390163
+everybodi, 3239, 0.0507324849262
+held, 4243, 0.0505608563084
+gotten, 3962, 0.0495894106106
+spot, 8261, 0.0481566969319
+hall, 4128, 0.0478935240882
+excel, 3261, 0.0472647511505
+convinc, 2120, 0.0472647511505
+class, 1789, 0.0472647511505
+equal, 3156, 0.0469058608078
+offens, 6202, 0.0464467828352
+absolut, 193, 0.0460081152045
+park, 6430, 0.0454858559483
+normal, 6108, 0.0451852724032
+consist, 2061, 0.0449898522197
+stori, 8418, 0.0446102516977
+frank, 3655, 0.0422237212087
+compar, 1960, 0.0415185357985
+level, 5229, 0.0404856045636
+valu, 9414, 0.0403637709571
+die, 2628, 0.0403637709571
+free, 3668, 0.0401837952068
+perform, 6539, 0.0400656094016
+night, 6063, 0.0400656094016
+lead, 5172, 0.0400656094016
+david, 2397, 0.0398334011167
+leagu, 5176, 0.039606531429
+comment, 1936, 0.039606531429
+form, 3610, 0.039550619683
+assum, 710, 0.0382958019584
+hard, 4167, 0.0373597076147
+field, 3466, 0.0371389289035
+pretti, 6851, 0.0361825046387
+set, 7815, 0.0353469877027
+certain, 1619, 0.0349194090494
+case, 1540, 0.0343108904758
+write, 9865, 0.0340201474469
+big, 1082, 0.033614753453
+talk, 8684, 0.0333733127427
+best, 1052, 0.0329931497106
+great, 4016, 0.0328225103561
+team, 8732, 0.0327662800229
+probabl, 6885, 0.0322741250158
+reason, 7156, 0.0318308199805
+sure, 8585, 0.0317799518432
+realli, 7150, 0.0292829834041
+anyon, 554, 0.0265181656404
+year, 9943, 0.0248011501528
+make, 5459, 0.0247512466493
+look, 5341, 0.0246275809109

@@ -1,0 +1,66 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84164
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: merlyn@digibd.digibd.com (Merlyn LeRoy)
+Subject: Re: 14 Apr 93 God's Promise in 1 John 1: 7
+Nntp-Posting-Host: digibd.digibd.com
+Organization: DigiBoard, Incorporated, Eden Prairie,MN
+Lines: 13
+
+brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>In article <bskendigC5Ku3C.6Dx@netcom.com> bskendig@netcom.com (Brian Kendig) writes:
+>>I've asked your god several times with all my heart to come to me...
+
+>Brian K., I am pleased with your honesty.  And to be honest as well, I
+>believe you have not asked my god to come to you.  Why do I say this?
+
+Because that would contradict your religious beliefs; therefore,
+you feel more comfortable simply accusing his sincerity, so you will
+not have to critically examine your religious beliefs.
+
+---
+Merlyn LeRoy
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john       i'v ask god sever time
+heart come  brian pleas honesti honest well believ
+ask god come say  contradict religi belief
+therefor feel comfort simpli accus sincer critic
+examin religi belief   merlyn leroy
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+god, 3926, 0.355178233932
+religi, 7260, 0.329687531514
+belief, 1008, 0.31249310256
+honesti, 4362, 0.254440259483
+merlyn, 5647, 0.248315784577
+ask, 689, 0.232698763335
+sincer, 7978, 0.213331670607
+comfort, 1929, 0.196569753208
+come, 1923, 0.194819358335
+examin, 3257, 0.191050548939
+accus, 227, 0.184588467055
+honest, 4361, 0.180631945079
+contradict, 2098, 0.176427513406
+heart, 4225, 0.170412994773
+critic, 2237, 0.164843765757
+promis, 6913, 0.157723343443
+brian, 1304, 0.157723343443
+therefor, 8855, 0.15000189159
+simpli, 7967, 0.137603312971
+feel, 3429, 0.132071544045
+john, 4878, 0.127019232858
+sever, 7823, 0.123983086579
+believ, 1009, 0.103735302049
+pleas, 6688, 0.0988175336913
+say, 7653, 0.0852845582866
+time, 8936, 0.0798143667686

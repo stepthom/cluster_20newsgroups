@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60878
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wallacen@CS.ColoState.EDU (nathan wallace)
+Subject: ORION test film
+Reply-To: wallacen@CS.ColoState.EDU
+Nntp-Posting-Host: sor.cs.colostate.edu
+Organization: Colorado State University -=- Computer Science Dept.
+Lines: 11
+
+Is the film from the "putt-putt" test vehicle which used conventional
+explosives as a proof-of-concept test, or another one?
+
+---
+C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/
+C/    Nathan F. Wallace                   C/C/           "Reality Is"         C/
+C/    e-mail: wallacen@cs.colostate.edu   C/C/    ancient Alphaean proverb    C/
+C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/
+ 
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orion test film      film putt putt test vehicl
+use convent explos proof concept test anoth one
+nathan wallac realiti
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+test, 8812, 0.526650234368
+film, 3479, 0.467450597336
+wallac, 9620, 0.315835851057
+orion, 6296, 0.276686800706
+convent, 2113, 0.254861481111
+explos, 3308, 0.248520150733
+proof, 6919, 0.228808895142
+vehicl, 9449, 0.204634432121
+realiti, 7148, 0.200132843281
+concept, 2002, 0.197375397718
+anoth, 533, 0.137702414991
+use, 9363, 0.0943612226168

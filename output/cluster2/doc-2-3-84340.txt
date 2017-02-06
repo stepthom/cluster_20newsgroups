@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84340
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: tph@susie.sbc.com (Timothy P. Henrion)
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Organization: /usr/lib/news/organization
+Lines: 22
+NNTP-Posting-Host: susie.sbc.com
+
+In article <1993Apr22.125956.1@woods.ulowell.edu> cotera@woods.ulowell.edu writes:
+>In article <1r477q$1vk@sbctri.sbc.com>, tph@susie.sbc.com (Timothy P. Henrion) writes:
+> 
+>> Please explain how Koresh was defending himself from those children who
+>> burned.  
+>
+>Who ever said he was? What is obvious is that he was defending himself, and his
+>followers, from the government.  Whether you think he was right or wrong in
+>this is another question.  If he was right, then he had the moral right to kill
+>those kgBATF agents.
+>--Ray Cote
+>
+
+The killing of the ATF agents is a separate issue.  My point is that many
+children died because of Koresh defending himself.  Did he have what you
+call the "moral right" to keep those children in a dangerous enviroment in
+order to defend himself?  
+
+
+-- 
+  Tim Henrion              Southwestern Bell Technology Resources
+  thenrion@sbctri.sbc.com       
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos        pleas
+explain koresh defend children burn  ever said
+obvious defend follow govern whether think right
+wrong anoth question right moral right kill kgbatf
+agent ray cote   kill atf agent separ issu point
+mani children die koresh defend call moral right
+keep children danger enviro order defend    tim
+henrion southwestern bell technolog resourc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+defend, 2474, 0.497658418081
+koresh, 5065, 0.323146574465
+children, 1707, 0.303576994596
+right, 7399, 0.272941829646
+agent, 331, 0.241243863521
+moral, 5855, 0.201144120291
+kill, 5012, 0.191956338773
+southwestern, 8159, 0.169909456509
+enviro, 3138, 0.165819670542
+cote, 2172, 0.165819670542
+atf, 738, 0.146813322855
+enclos, 3085, 0.130477681301
+tim, 8935, 0.119174221777
+danger, 2356, 0.118258514258
+bell, 1011, 0.117378726234
+cite, 1774, 0.116120543067
+tape, 8700, 0.114929198379
+biblic, 1072, 0.111361103814
+separ, 7797, 0.106621077559
+resourc, 7320, 0.106621077559
+burn, 1413, 0.105073448839
+obvious, 6185, 0.0948441948552
+ray, 7118, 0.093764797388
+govern, 3966, 0.093614751884
+die, 2628, 0.091750341635
+issu, 4793, 0.0914767806933
+explain, 3301, 0.0906755626939
+technolog, 8743, 0.0891541852571
+wrong, 9869, 0.0823362303493
+order, 6281, 0.0792957119334
+said, 7583, 0.0746725865563
+follow, 3578, 0.0737286161727
+anoth, 533, 0.0722963178823
+question, 7032, 0.0679002920846
+pleas, 6688, 0.0659881163348
+mani, 5479, 0.0636290634046
+point, 6710, 0.0633169648855
+think, 8871, 0.0513753521985

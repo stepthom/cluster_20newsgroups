@@ -1,0 +1,161 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83974
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cotera@woods.ulowell.edu
+Subject: Re: Biblical Backing of Koresh's 3-02 Tape (Cites enclosed)
+Lines: 38
+Organization: University of Massachusetts Lowell
+
+In article <1r17j9$5ie@sbctri.sbc.com>, netd@susie.sbc.com () writes:
+> In article <20APR199301460499@utarlg.uta.edu> b645zaw@utarlg.uta.edu (stephen) writes:
+>>For those who think David Koresh didn't have a solid structure,
+>>or sound Biblical backing for his hour long tape broadcast,
+> 
+> I don't think anyone really cares about the solid structure of his
+> sermon.  It's the deaths he's responsible for that concern most people.
+
+I assume you have evidence that he was responsible for the deaths?
+ 
+> Koresh was a nut, okay?  
+
+Again, I'd like to see some evidence.
+ 
+> I'll type this very slowly so that you can understand.  He either set
+> the fire himself or told his followers to do so.  Don't make him out to
+> be a martyr.  He did not "get killed", he killed himself.
+
+Once again, where's your proof? Suicide is considered a sin by Branch
+Davidians.  Also, Koresh said over and over again that he was not going to
+commit suicide.  Furthermore, all the cult experts said that he was not
+suicidal.  David Thibedeau (sp?), one of the cult members, said that the fire
+was started when one of the tanks spraying the tear gas into the facilities
+knocked over a lantern.
+ 
+> The evil was inside the compound.  
+
+Evidence please?
+
+> All that "thou shalt not kill" stuff.
+
+I'd like to point out that the Bible says "Do not commit murder." The NKJ
+translation mistranslates.  Self-defense was never considered murder.  The
+reason why they were stockpiling weapons is because they were afraid the
+government would try something.  Their fears were obviously well founded.
+--Ray Cote
+
+There's no government like no government.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ biblic back koresh tape cite enclos      think
+david koresh didn't solid structur sound biblic
+back hour long tape broadcast  don't think anyon
+realli care solid structur sermon it death he
+respons concern peopl  assum evid respons death
+koresh nut okay  i'd like see evid  i'll type
+slowli understand either set fire told follow
+don't make martyr get kill kill  where proof
+suicid consid sin branch davidian also koresh said
+go commit suicid furthermor cult expert said
+suicid david thibedeau one cult member said fire
+start one tank spray tear gas facil knock lantern
+evil insid compound  evid pleas  thou shalt kill
+stuff  i'd like point bibl say commit murder nkj
+translat mistransl self defens never consid murder
+reason stockpil weapon afraid govern tri someth
+fear obvious well found ray cote  there govern
+like govern
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+koresh, 5065, 0.306183620832
+suicid, 8528, 0.303705020631
+kill, 5012, 0.204614957818
+evid, 3245, 0.201528598501
+govern, 3966, 0.199576410243
+murder, 5926, 0.188924179099
+commit, 1945, 0.169377602689
+cult, 2289, 0.164463076413
+tape, 8700, 0.163344319016
+said, 7583, 0.1591937859
+biblic, 1072, 0.15827312749
+solid, 8115, 0.156011092894
+structur, 8460, 0.145346366933
+death, 2423, 0.142364633281
+david, 2397, 0.12868768954
+respons, 7323, 0.122782494888
+thibedeau, 8863, 0.120742791472
+stockpil, 8404, 0.117836466043
+martyr, 5525, 0.117836466043
+cote, 2172, 0.117836466043
+spray, 8264, 0.113250624755
+lantern, 5119, 0.113250624755
+consid, 2059, 0.11181420663
+shalt, 7848, 0.102201403189
+like, 5272, 0.100694619237
+slowli, 8046, 0.0994619971605
+sermon, 7807, 0.0986443483401
+nut, 6160, 0.09712504144
+tear, 8735, 0.0964164511328
+furthermor, 3732, 0.0927213810742
+enclos, 3085, 0.0927213810742
+thou, 8886, 0.0921809680618
+afraid, 318, 0.0911521816228
+compound, 1983, 0.0906616611618
+weapon, 9674, 0.0888378849782
+expert, 3298, 0.0879987092711
+evil, 3247, 0.0857175877835
+proof, 6919, 0.0853672295668
+knock, 5050, 0.0843601163563
+branch, 1269, 0.0843601163563
+gas, 3780, 0.0840380719253
+davidian, 2398, 0.0840380719253
+fear, 3417, 0.0831092272379
+broadcast, 1324, 0.0831092272379
+cite, 1774, 0.0825187650253
+tank, 8695, 0.0822315382065
+translat, 9057, 0.080353999216
+okay, 6215, 0.0793727259483
+sin, 7976, 0.0769494877051
+facil, 3348, 0.0769494877051
+insid, 4671, 0.0746683662175
+self, 7776, 0.0739751849565
+think, 8871, 0.0730177538646
+don, 2811, 0.0723142259038
+told, 8973, 0.0717620407879
+hour, 4395, 0.0717620407879
+member, 5625, 0.0706229379421
+bibl, 1071, 0.0699502365592
+defens, 2476, 0.068929686058
+concern, 2004, 0.068929686058
+obvious, 6185, 0.0673991493884
+ray, 7118, 0.0666320969478
+care, 1516, 0.0627572776136
+sound, 8150, 0.0625903582124
+type, 9177, 0.0622616732243
+assum, 710, 0.061860124104
+stuff, 8472, 0.0610861537836
+understand, 9246, 0.0571557643732
+set, 7815, 0.0570968339653
+didn, 2625, 0.0532483513077
+follow, 3578, 0.0523937814351
+reason, 7156, 0.0514170842137
+ll, 5314, 0.0504967907556
+start, 8334, 0.0504579584412
+long, 5336, 0.0502269303806
+realli, 7150, 0.047301502903
+someth, 8126, 0.0469241916275
+pleas, 6688, 0.0468931484684
+tri, 9087, 0.0461656918811
+point, 6710, 0.0449949475733
+peopl, 6530, 0.0432494930185
+anyon, 554, 0.0428354266953
+say, 7653, 0.0404711725177
+make, 5459, 0.0399812802228

@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38214
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mlee@eng.sdsu.edu (Mike Lee)
+Subject: MPEG for x-windows MONO needed.
+Organization: San Diego State University Computing Services
+Lines: 4
+NNTP-Posting-Host: eng.sdsu.edu
+X-Newsreader: TIN [version 1.1 PL9]
+
+Hello, and thank you for reading this request.  I have a Mpeg viewer for x-windows and it did not run because I was running it on a monochrome monitor.  I need the mono-driver for mpeg_play.   
+
+Please post the location of the file or better yet, e-mail me at mlee@eng.sdsu.edu.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mpeg window mono need      hello thank read
+request mpeg viewer window run run monochrom
+monitor need mono driver mpeg play
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mpeg, 5895, 0.616184159987
+mono, 5839, 0.49868155786
+window, 9774, 0.273885788274
+monochrom, 5840, 0.24934077893
+run, 7543, 0.198317056552
+need, 5993, 0.177014594568
+monitor, 5837, 0.169230194298
+driver, 2876, 0.165417199749
+viewer, 9512, 0.162940967343
+hello, 4247, 0.162940967343
+request, 7301, 0.156076014059
+play, 6681, 0.108559901677
+read, 7135, 0.10020586062
+thank, 8832, 0.0921862187868

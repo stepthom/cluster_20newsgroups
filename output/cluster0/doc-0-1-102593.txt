@@ -1,0 +1,40 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102593
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jaufrecht@pomona.claremont.edu
+Subject: Dodgers newsletter?
+Article-I.D.: pomona.0096A95C.A0CBE0E8
+Reply-To: jaufrecht@pomona.claremont.edu
+Organization: Pomona College
+Lines: 3
+
+Could somebody please tell me if there is a Dodgers newsletter on the Net,
+and if so how to subscribe?  Thanks,
+Joel
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dodger newslett articl pomona 0096a95c a0cbe0e8
+could somebodi pleas tell dodger newslett net
+subscrib thank joel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+newslett, 6033, 0.585192086937
+dodger, 2791, 0.475341948794
+joel, 4877, 0.327324368772
+pomona, 6737, 0.317043536012
+subscrib, 8496, 0.247746583073
+somebodi, 8121, 0.220100329646
+net, 6010, 0.185438153286
+tell, 8767, 0.150554334312
+articl, 665, 0.148490124994
+pleas, 6688, 0.135533647213
+thank, 8832, 0.129024336573

@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38517
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: oberto@genes.icgeb.trieste.it (Jacques Oberto)
+Subject: Re: HELP!!! GRASP
+Organization: ICGEB
+Lines: 33
+
+CBW790S@vma.smsu.edu.Ext (Corey Webb) writes:
+
+>In article <1993Apr19.160944.20236W@baron.edb.tih.no>
+>havardn@edb.tih.no (Haavard Nesse,o92a) writes:
+>>
+>>Could anyone tell me if it's possible to save each frame
+>>of a .gl (grasp) animation to .gif, .jpg, .iff or any other
+>>picture formats.
+>>
+> 
+>     If you have the GRASP animation system, then yes, it's quite easy.
+>You simply use GLIB to extract the image (each "frame" in a .GL is
+>actually a complete .PCX or .CLP file), then use one of MANY available
+>utilities to convert it.  If you don't have the GRASP package, I'm afraid
+>I can't help you.  Sorry.
+>     By the way, before you ask, GRASP (GRaphics Animation System for
+>Professionals) is a commercial product that sells for just over US$300
+>from most mail-order companies I've seen.  And no, I don't have it.  :)
+> 
+> 
+>                                               Corey Webb
+> 
+
+There are several public domain utilities available at your usual
+archive site that allow 'extraction' of single frames from a .gl
+file, check in the 'graphics' directories under *grasp.  The problem 
+is that the .clp files you generate cannot be decoded by any of 
+the many pd format converters I have used. Any hint welcome!
+Let me know if you have problems locating the utilities.
+Hope it helps.
+
+-- 
+Jacques Oberto  <oberto@genes.icgeb.trieste.it>
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help grasp         could anyon tell it possibl
+save frame grasp anim gif jpg iff pictur format
+grasp anim system yes it quit easi simpli use glib
+extract imag frame actual complet pcx clp file use
+one mani avail util convert don't grasp packag i'm
+afraid can't help sorri way ask grasp graphic anim
+system profession commerci product sell mail order
+compani i'v seen don't   corey webb   sever public
+domain util avail usual archiv site allow extract
+singl frame file check graphic directori grasp
+problem clp file generat cannot decod mani format
+convert use hint welcom let know problem locat
+util hope help
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grasp, 4002, 0.598807581443
+clp, 1839, 0.240227651768
+frame, 3643, 0.230259794017
+util, 9384, 0.223369771561
+anim, 515, 0.205344506084
+extract, 3326, 0.191828409507
+file, 3477, 0.164619727999
+help, 4249, 0.139761877877
+webb, 9682, 0.12821430457
+corey, 2144, 0.12821430457
+convert, 2115, 0.127468933916
+format, 3612, 0.126929851698
+glib, 3901, 0.123652351552
+avail, 811, 0.110163797146
+use, 9363, 0.105066650117
+graphic, 3997, 0.104416450291
+jpg, 4910, 0.0998012635738
+problem, 6887, 0.0997788351166
+decod, 2450, 0.0959142047533
+iff, 4492, 0.0945919708744
+hint, 4306, 0.0927948476349
+pcx, 6490, 0.0911808163345
+afraid, 318, 0.0906773575376
+mani, 5479, 0.0899623882037
+welcom, 9701, 0.0836003062031
+domain, 2805, 0.0832862836622
+profession, 6900, 0.0823798872493
+archiv, 618, 0.0780397227432
+sell, 7778, 0.0755633851984
+directori, 2669, 0.0751858049768
+don, 2811, 0.0719375312866
+locat, 5323, 0.0702550534735
+easi, 2959, 0.0699839764433
+packag, 6375, 0.0690701158645
+generat, 3819, 0.068694028195
+commerci, 1940, 0.0670480580719
+usual, 9377, 0.0669367760706
+pictur, 6622, 0.0669367760706
+gif, 3869, 0.0669367760706
+product, 6896, 0.0663917870357
+compani, 1958, 0.0659688921045
+singl, 7983, 0.0657616000009
+site, 7994, 0.0653549720775
+simpli, 7967, 0.0649585109248
+check, 1682, 0.0646675372544
+save, 7646, 0.0638253418203
+complet, 1975, 0.0613029543196
+sorri, 8142, 0.0611482446035
+public, 6973, 0.060918973813
+allow, 432, 0.060767947718
+seen, 7767, 0.0588584913988
+sever, 7823, 0.0585287992716
+quit, 7043, 0.0580784511932
+yes, 9951, 0.0577644286523
+hope, 4372, 0.0566828081349
+order, 6281, 0.0560563934006
+ask, 689, 0.0549251498162
+mail, 5447, 0.0545145736099
+imag, 4512, 0.0531559040292
+possibl, 6765, 0.0519906960814
+tell, 8767, 0.0518187960771
+actual, 254, 0.0509861838459
+let, 5225, 0.050079787433
+anyon, 554, 0.042612291144
+way, 9666, 0.0414815965063
+know, 5052, 0.0341570410598

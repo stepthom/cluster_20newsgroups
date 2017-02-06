@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84238
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee)
+Subject: Re: Is it good that Jesus died?
+Organization: Johns Hopkins University CS Dept.
+Lines: 17
+
+In article <1993Apr25.194144.8358@organpipe.uug.arizona.edu> brian@lpl.arizona.edu (Brian Ceccarelli 602/621-9615) writes:
+>Even though a new-born is innocent as can be, his sinful nature
+>will surely manifest itself more explicity as he gets older.
+
+Ah, so you admit newborns are innocent?  Then you cannot say _everyone_ is a
+sinner.
+
+About the only way top get out of this one is to claim that a newborn is a
+sinner despite having not committed any sins, which is rather odd.
+--
+"On the first day after Christmas my truelove served to me...  Leftover Turkey!
+On the second day after Christmas my truelove served to me...  Turkey Casserole
+    that she made from Leftover Turkey.
+[days 3-4 deleted] ...  Flaming Turkey Wings! ...
+   -- Pizza Hut commercial (and M*tlu/A*gic bait)
+
+Ken Arromdee (arromdee@jyusenkyou.cs.jhu.edu)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ good jesus die     even though new born innoc sin
+natur sure manifest explic get older  admit
+newborn innoc cannot say everyon sinner  way top
+get one claim newborn sinner despit commit sin
+rather odd  first day christma truelov serv leftov
+turkey second day christma truelov serv turkey
+casserol made leftov turkey day delet flame turkey
+wing pizza hut commerci tlu gic bait
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+turkey, 9156, 0.498559755153
+newborn, 6025, 0.29016059573
+truelov, 9124, 0.2693366021
+leftov, 5197, 0.264367734299
+christma, 1734, 0.256064287557
+sinner, 7986, 0.236318955925
+innoc, 4658, 0.21163696007
+serv, 7810, 0.181586748373
+sin, 7976, 0.179627810126
+day, 2402, 0.165516808332
+tlu, 8955, 0.13466830105
+gic, 3868, 0.13466830105
+explic, 3303, 0.13466830105
+casserol, 1543, 0.13466830105
+bait, 870, 0.129992441142
+hut, 4453, 0.123150694855
+pizza, 6655, 0.119287436435
+manifest, 5481, 0.115135713064
+wing, 9779, 0.103689804902
+older, 6218, 0.10319362572
+despit, 2570, 0.0996389252282
+commit, 1945, 0.098847077358
+born, 1233, 0.095326113261
+odd, 6198, 0.0946953539871
+admit, 276, 0.0902971950049
+flame, 3518, 0.0891117229887
+delet, 2502, 0.0797458296236
+natur, 5966, 0.0787984299419
+commerci, 1940, 0.0786669409378
+die, 2628, 0.0761007958099
+jesus, 4859, 0.0756497284664
+everyon, 3241, 0.0741519164383
+claim, 1782, 0.0724816902434
+second, 7753, 0.0647507691859
+sure, 8585, 0.0599170882383
+new, 6023, 0.0541975525915
+way, 9666, 0.0486700196278
+good, 3948, 0.0478270678491
+say, 7653, 0.0472371441928

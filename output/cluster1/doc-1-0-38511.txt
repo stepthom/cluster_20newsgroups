@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38511
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: clldomps@cs.ruu.nl (Louis van Dompselaar)
+Subject: Re: images of earth
+Organization: Utrecht University, Dept. of Computer Science
+Lines: 16
+
+In <1993Apr19.193758.12091@unocal.com> stgprao@st.unocal.COM (Richard Ottolini) writes:
+
+>Beware.  There is only one such *copyrighted* image and the company
+>that generated is known to protect that copyright.  That image took
+>hundreds of man-hours to build from the source satellite images,
+>so it is unlikely that competing images will appear soon.
+
+So they should sue the newspaper I got it from for printing it.
+The article didn't say anything about copyrights.
+
+Louis
+
+-- 
+I'm hanging on your words, Living on your breath, Feeling with your skin,
+Will I always be here?  -- In Your Room [ DM ]
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ imag earth      bewar one copyright imag compani
+generat known protect copyright imag took hundr
+man hour build sourc satellit imag unlik compet
+imag appear soon  sue newspap got print articl
+didn't say anyth copyright  loui   i'm hang word
+live breath feel skin alway room
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+copyright, 2135, 0.488814364819
+imag, 4512, 0.460845002127
+skin, 8008, 0.195346558141
+bewar, 1064, 0.189210976785
+sue, 8519, 0.174620759926
+newspap, 6035, 0.159935565019
+breath, 1291, 0.159935565019
+hang, 4152, 0.159003403963
+compet, 1969, 0.147250353011
+loui, 5363, 0.144957682476
+room, 7476, 0.137743683774
+unlik, 9290, 0.136503046974
+protect, 6940, 0.134178047078
+hundr, 4440, 0.133808966131
+print, 6871, 0.131692836284
+soon, 8136, 0.131022166017
+hour, 4395, 0.123782696153
+took, 8987, 0.121347821514
+generat, 3819, 0.119111132236
+satellit, 7632, 0.117647114796
+compani, 1958, 0.11438591734
+appear, 580, 0.111798167196
+build, 1378, 0.110987013455
+known, 5054, 0.109890156776
+feel, 3429, 0.108105999077
+alway, 457, 0.103846895991
+sourc, 8153, 0.101485263462
+live, 5310, 0.100814593195
+word, 9829, 0.0984866089705
+earth, 2956, 0.0957830600003
+man, 5471, 0.0949676293704
+anyth, 555, 0.0942625620795
+didn, 2625, 0.0918483423572
+got, 3960, 0.0902236265566
+articl, 665, 0.0886186230017
+say, 7653, 0.0698089239895

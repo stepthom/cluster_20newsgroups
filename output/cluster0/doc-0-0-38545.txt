@@ -1,0 +1,129 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38545
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: kaufman@Xenon.Stanford.EDU (Marc T. Kaufman)
+Subject: Re: TIFF: philosophical significance of 42
+Reply-To: kaufman@CS.Stanford.EDU
+Organization: CS Department, Stanford University, California, USA
+Lines: 33
+
+joachim@kih.no (joachim lous) writes:
+
+>ulrich@galki.toppoint.de wrote:
+-> According to the TIFF 5.0 Specification, the TIFF "version number"
+-> (bytes 2-3) 42 has been chosen for its "deep philosophical 
+-> significance".
+
+-> Last week, I read the Hitchhikers Guide To The Galaxy, and rotfl the
+-> second time. (After millions of years of calculation, the second-best
+-> computer of all time reveals that 42 is the answer to the question
+-> about life, the universe and everything)
+
+-> Is this actually how they picked the number 42?
+
+>Yes.
+
+-> Does anyone have any  other suggestions where the 42 came from?
+
+   At this moment the King, who had been for some time busily writing in
+his note-book, called out "Silence!" and read out from his book
+"Rule Forty-two. All persons more than a mile high to leave the court."
+   Everybody looked at Alice.
+   "I'm not a mile high," said Alice.
+   "You are," said the King.
+   "Nearly two miles high," added the queen.
+   "Well, I sha'n't go, at any rate," said Alice; "besides, that's not
+a regular rule: you invented it just now."
+   "It's the oldest rule in the book," said the King.
+   "Then it ought to be Number One," said Alice.
+
+-- 
+Marc Kaufman (kaufman@CS.Stanford.EDU)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific        accord tiff specif
+tiff version number byte chosen deep philosoph
+signific  last week read hitchhik guid galaxi
+rotfl second time million year calcul second best
+comput time reveal answer question life univers
+everyth  actual pick number  yes  anyon suggest
+came  moment king time busili write note book call
+silenc read book rule forti two person mile high
+leav court everybodi look alic i'm mile high said
+alic said king near two mile high ad queen well
+sha'n't rate said alic besid that regular rule
+invent it oldest rule book said king ought number
+one said alic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alic, 411, 0.503160499682
+said, 7583, 0.268504035572
+king, 5024, 0.253238810687
+mile, 5713, 0.249652331107
+tiff, 8926, 0.240256087209
+rule, 7537, 0.20196920848
+philosoph, 6595, 0.176494005405
+book, 1218, 0.173344169514
+high, 4292, 0.163665125582
+number, 6156, 0.1573675959
+signific, 7951, 0.139015848955
+rotfl, 7491, 0.130430947621
+oldest, 6219, 0.116762528484
+hitchhik, 4318, 0.116762528484
+time, 8936, 0.114988303392
+queen, 7029, 0.114608429993
+second, 7753, 0.112282749132
+forti, 3617, 0.10677632675
+invent, 4741, 0.101526685539
+read, 7135, 0.0982125472321
+silenc, 7953, 0.0962273315749
+ought, 6321, 0.0962273315749
+chosen, 1727, 0.0932861610935
+court, 2191, 0.0917486386395
+reveal, 7352, 0.0894727903193
+byte, 1438, 0.0894727903193
+guid, 4082, 0.0890537595959
+galaxi, 3753, 0.0863907300706
+deep, 2466, 0.0844129368955
+everybodi, 3239, 0.0829319180924
+calcul, 1451, 0.0776665615606
+moment, 5828, 0.0766765714753
+besid, 1051, 0.0766765714753
+regular, 7234, 0.074862101862
+million, 5724, 0.0745224729845
+pick, 6619, 0.0726224234579
+accord, 219, 0.0724737424439
+leav, 5184, 0.071892354268
+rate, 7108, 0.0700081746647
+everyth, 3242, 0.0695079244775
+ad, 257, 0.0692634989556
+near, 5982, 0.0653039657303
+came, 1472, 0.065021770036
+specif, 8203, 0.0640273402161
+version, 9479, 0.0627631079941
+suggest, 8525, 0.0615155860934
+answer, 535, 0.059540679004
+week, 9691, 0.059408450593
+life, 5260, 0.059408450593
+yes, 9951, 0.0587630935034
+note, 6118, 0.0582035538577
+comput, 1993, 0.0559277055376
+write, 9865, 0.0556124164952
+best, 1052, 0.0539335929116
+person, 6562, 0.0537470963164
+univers, 9282, 0.0536086252874
+actual, 254, 0.0518676624805
+question, 7032, 0.0488305100493
+anyon, 554, 0.0433489970785
+year, 9943, 0.0405422079376
+look, 5341, 0.0402584759231

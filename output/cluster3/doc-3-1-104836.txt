@@ -1,0 +1,161 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104836
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hhenderson@vax.clarku.edu
+Subject: RE: Game Length (was Re: Braves Update!!
+Organization: Clark University
+Lines: 35
+
+mzimmers@netcom.com (Michael Zimmers) writes:
+
+>First, a longer game in no way suggests "more baseball to watch," unless
+>you include watching the grass grow as baseball.
+
+I definitely do.  That's why I don't like going to see games played
+on artificial turf :-)
+
+>The lengthier games
+>are so because of batters stepping out of the box, pitchers taking
+>longer between pitches and excessive trips to the mound by managers
+>and pitching coaches.
+>
+>And while it's true that the gaps between plays can be interesting, this
+>is only true when they don't become extra-long.
+
+Well, your idea of "interesting" differs from mine.  I think
+batting practice is interesting, for example, and make a special
+effort to get to the game very early in order to see it.  I think the
+delaying tactics of batters, pitchers, catchers, and managers are
+interesting because they're attempts to gain advantage through control
+of the flow and timing of the game.  Of course, the umpires can, and
+should, intervene when these tactics get out of hand.  As Ryan Robbins
+has pointed out, there are rules that cover this.
+
+One of the more fascinating things about baseball, I think, is its
+open-endedness with regard to time.  You never know if the game is going
+to zip right by and be over in less than two hours, or if it's going to
+go on until four in the morning.  Likewise, some games are action-packed,
+and some games are slow and lazy.  That's fine by me.  Those folks who
+want constant action should watch the games on TV so they can channel-
+surf and cater to their short attention spans.
+
+Heather
+HHENDERSON@vax.clarku.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat      first longer game
+way suggest basebal watch unless includ watch
+grass grow basebal  definit that don't like go see
+game play artifici turf  lengthier game batter
+step box pitcher take longer pitch excess trip
+mound manag pitch coach  it true gap play interest
+true don't becom extra long  well idea interest
+differ mine think bat practic interest exampl make
+special effort get game earli order see think
+delay tactic batter pitcher catcher manag interest
+they'r attempt gain advantag control flow time
+game cours umpir interven tactic get hand ryan
+robbin point rule cover  one fascin thing basebal
+think open ended regard time never know game go
+zip right less two hour it go four morn likewis
+game action pack game slow lazi that fine folk
+want constant action watch game channel surf cater
+short attent span  heather
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.497466713248
+tactic, 8670, 0.214822140449
+watch, 9655, 0.204174618035
+basebal, 924, 0.165910839956
+batter, 949, 0.156011509397
+action, 251, 0.14931853261
+longer, 5337, 0.146568967296
+pitcher, 6644, 0.130453371223
+cater, 1561, 0.127970688299
+manag, 5472, 0.125316929806
+pitch, 6643, 0.119821944455
+turf, 9154, 0.118786599083
+surf, 8586, 0.118786599083
+true, 9121, 0.117085123401
+lazi, 5163, 0.11659515944
+robbin, 7436, 0.114662172682
+heather, 4228, 0.114662172682
+grass, 4003, 0.112933057106
+think, 8871, 0.112761187925
+play, 6681, 0.108244852108
+likewis, 5274, 0.107411070225
+gap, 3769, 0.106278799298
+artifici, 667, 0.105219630581
+excess, 3263, 0.104224694506
+mound, 5885, 0.103286643823
+fascin, 3395, 0.103286643823
+flow, 3555, 0.0978954259132
+pack, 6374, 0.0966323860149
+delay, 2500, 0.0966323860149
+coach, 1856, 0.0949032704388
+span, 8181, 0.0943651429151
+channel, 1652, 0.0928491656474
+umpir, 9210, 0.0893812835575
+zip, 9988, 0.0889951147035
+trip, 9104, 0.0889951147035
+morn, 5864, 0.0875353602351
+grow, 4066, 0.0868514521506
+ryan, 7557, 0.0858762294945
+gain, 3746, 0.0855636215843
+catcher, 1557, 0.0846600125069
+attent, 766, 0.0846600125069
+constant, 2067, 0.0838035702421
+slow, 8044, 0.0812340497733
+length, 5212, 0.0812340497733
+advantag, 286, 0.080085930058
+folk, 3576, 0.0784012297163
+time, 8936, 0.0779877452792
+effort, 3007, 0.0766921402794
+extra, 3325, 0.0765127787228
+step, 8377, 0.075814315055
+cover, 2194, 0.0754759232918
+don, 2811, 0.074449820628
+hour, 4395, 0.0738813282973
+special, 8198, 0.073138603407
+fine, 3485, 0.072850676389
+attempt, 763, 0.0721522127212
+practic, 6793, 0.0718809434199
+updat, 9333, 0.0710930440045
+definit, 2484, 0.0709653280364
+brave, 1277, 0.0702192259635
+rule, 7537, 0.0684901103873
+control, 2107, 0.0684901103873
+earli, 2951, 0.0680582060117
+bat, 942, 0.0674309416707
+regard, 7224, 0.067227070489
+box, 1254, 0.0670257008575
+unless, 9289, 0.06682677213
+becom, 983, 0.065773783575
+open, 6258, 0.065137249864
+short, 7904, 0.0648718302933
+suggest, 8525, 0.0625819546521
+hand, 4145, 0.0595263119841
+exampl, 3258, 0.0595263119841
+order, 6281, 0.0580140624663
+includ, 4579, 0.0564709139687
+cours, 2190, 0.0561583060584
+idea, 4482, 0.0561067787977
+long, 5336, 0.0517102397322
+differ, 2633, 0.0505334259306
+right, 7399, 0.0499221961966
+point, 6710, 0.0463237452124
+thing, 8869, 0.0448344667513
+want, 9634, 0.0447055468497
+way, 9666, 0.0429302669139
+make, 5459, 0.0411620134747
+know, 5052, 0.0353499144967
+like, 5272, 0.0345561160187

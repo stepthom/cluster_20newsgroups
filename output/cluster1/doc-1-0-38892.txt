@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38892
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: remcoha@htsa.aha.nl (Remco Hartog)
+Subject: RGB to HVS, and back
+Organization: Hogeschool van Amsterdam, The Netherlands, E.E. & C.S. Dept.
+Lines: 9
+
+I have a little question:
+
+I need to convert RGB-coded (Red-Green-Blue) colors into HVS-coded
+(Hue-Value-Saturnation) colors. Does anyone know which formulas to
+use?
+
+Thanks!
+
+R.W.Hartog  remcoha@solist.htsa.aha.nl
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rgb hvs back    littl question  need convert rgb
+code red green blue color hvs code hue valu saturn
+color anyon know formula use  thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hvs, 4455, 0.538196958104
+rgb, 7374, 0.404967692427
+color, 1907, 0.29885207403
+code, 1871, 0.295528317624
+hue, 4424, 0.25975502718
+formula, 3614, 0.213774252567
+saturn, 7640, 0.212593888842
+green, 4025, 0.205239057189
+blue, 1176, 0.171364042557
+valu, 9414, 0.152067028747
+convert, 2115, 0.149426037015
+red, 7194, 0.148794095435
+littl, 5308, 0.124953029482
+question, 7032, 0.112537953368
+thank, 8832, 0.104116032655
+need, 5993, 0.099961022108
+anyon, 554, 0.0999049038566
+use, 9363, 0.082109905356
+know, 5052, 0.0800814931911

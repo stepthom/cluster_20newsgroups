@@ -1,0 +1,34 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38555
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jr0930@eve.albany.edu (REGAN JAMES P)
+Subject: Pascal-Fractals
+Organization: State University of New York at Albany
+  Thanks in advance
+Lines: 5
+
+-- 
+ |||||||||||   		 	   ||||||||||| 
+_|||||||||||_______________________|||||||||||_      jr0930@eve.albany.edu
+-|||||||||||-----------------------|||||||||||-     jr0930@Albnyvms.bitnet
+ |||||||||||  GO HEAVY OR GO HOME  |||||||||||
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ pascal fractal  thank advanc       heavi home
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pascal, 6447, 0.50518396335
+fractal, 3637, 0.50518396335
+heavi, 4230, 0.46232637339
+home, 4354, 0.332896850936
+advanc, 285, 0.326439233045
+thank, 8832, 0.2417638612

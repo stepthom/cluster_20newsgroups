@@ -1,0 +1,117 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61148
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey)
+Subject: Re: Level 5?
+Organization: Fermi National Accelerator Laboratory
+Lines: 20
+NNTP-Posting-Host: fnalf.fnal.gov
+
+In article <19930422.121236.246@almaden.ibm.com>, Wingert@vnet.IBM.COM (Bret Wingert) writes:
+> 3. The Onboard Flight Software project was rated "Level 5" by a NASA team.
+>    This group generates 20-40 KSLOCs of verified code per year for NASA.
+
+Will someone tell an ignorant physicist where the term "Level 5" comes
+from? It sounds like the RISKS Digest  equivalent of Large, Extra
+Large, Jumbo... Or maybe it's like "Defcon 5..."
+
+I gather it means that Shuttle software was developed with extreme
+care to have reliablility and safety, and almost everything else in
+the computing world is Level 1, or cheesy dime-store software.  Not
+surprising.  But who is it that invents this standard, and how come
+everyone but me seems to be familiar with it?
+
+Of course, what Shakespeare        | Bill Higgins, Beam Jockey
+ORIGINALLY wrote was "First thing  | Fermi National Accelerator Laboratory  
+we do, let's kill all the EDITORS."| Bitnet:           HIGGINS@FNAL.BITNET  
+But for some reason it didn't      | Internet:       HIGGINS@FNAL.FNAL.GOV  
+survive past the first draft.      | SPAN/Hepnet:           43011::HIGGINS  
+-- David D. "Laserdave" Levine (davidl@ssd.intel.com)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ level      onboard flight softwar project rate
+level nasa team group generat ksloc verifi code
+per year nasa  someon tell ignor physicist term
+level come sound like risk digest equival larg
+extra larg jumbo mayb it like defcon  gather mean
+shuttl softwar develop extrem care reliablil
+safeti almost everyth els comput world level
+cheesi dime store softwar surpris invent standard
+come everyon seem familiar  cours shakespear bill
+higgin beam jockey origin wrote first thing fermi
+nation acceler laboratori   surviv past first
+draft span hepnet higgin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+level, 5229, 0.36377218689
+higgin, 4291, 0.27902524596
+softwar, 8103, 0.221952584977
+defcon, 2471, 0.172854163212
+nasa, 5956, 0.166850779822
+larg, 5124, 0.164186079977
+shakespear, 7844, 0.163866041162
+dime, 2651, 0.15748886708
+fermi, 3447, 0.14850074503
+jockey, 4874, 0.146726403388
+hepnet, 4260, 0.146726403388
+physicist, 6614, 0.145083619618
+onboard, 6239, 0.145083619618
+invent, 4741, 0.13951262298
+beam, 969, 0.135064268074
+draft, 2853, 0.132230529925
+verifi, 9472, 0.13052450093
+come, 1923, 0.128563220605
+span, 8181, 0.12746206207
+gather, 3792, 0.12746206207
+familiar, 3379, 0.126076146024
+risk, 7416, 0.123539961826
+equival, 3162, 0.120208590628
+acceler, 207, 0.119200806336
+surviv, 8599, 0.118713590316
+safeti, 7579, 0.115995811123
+store, 8417, 0.112457220002
+laboratori, 5090, 0.111742079386
+digest, 2640, 0.111742079386
+extrem, 3333, 0.109725468266
+extra, 3325, 0.103348294184
+surpris, 8593, 0.099793908665
+ignor, 4496, 0.098987731221
+flight, 3544, 0.0963767832535
+rate, 7108, 0.0962015456885
+generat, 3819, 0.0960276825499
+everyth, 3242, 0.0955141282337
+wrote, 9871, 0.0940412107097
+past, 6456, 0.0937267737137
+like, 5272, 0.0933521355194
+term, 8795, 0.0910811620386
+standard, 8313, 0.090805786615
+shuttl, 7929, 0.0892217245662
+everyon, 3241, 0.0883474024743
+code, 1871, 0.0881038018192
+nation, 5962, 0.0872716823751
+care, 1516, 0.0872716823751
+sound, 8150, 0.0870395604999
+develop, 2588, 0.0825597401008
+project, 6909, 0.0822785426321
+origin, 6293, 0.0788348216127
+mayb, 5564, 0.0775943617095
+group, 4064, 0.0771465194773
+comput, 1993, 0.076852906754
+els, 3053, 0.0766352215035
+cours, 2190, 0.0758548471547
+world, 9841, 0.0742419587865
+team, 8732, 0.0736030835444
+tell, 8767, 0.0724377217432
+someon, 8124, 0.0724377217432
+mean, 5595, 0.0685059343457
+thing, 8869, 0.0605593697776
+year, 9943, 0.0557109664393

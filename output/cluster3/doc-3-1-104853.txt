@@ -1,0 +1,246 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104853
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: doctor8@jhuvms.hcf.jhu.edu (Jason Abner Miller)
+Subject: Re: And America's Team is....But Why?
+Organization: The Johns Hopkins University - HCF
+Lines: 50
+Distribution: na
+NNTP-Posting-Host: jhuvms.hcf.jhu.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <1993Apr20.182807.18366@bsu-ucs>, 00cgbabbitt@leo.bsuvc.bsu.edu writes...
+>	You are absolutely correct.  Braves fans are nothing but a bunch of
+>bandwagoners.  Correct me if I am wrong, but 4 or 5 years ago you couldnt give
+>away a ticket to see the Braves play.I  would bet my next paycheck that 80% of
+>the so-called Braves fans living outside of Georgia at the present time can not
+>name more than 3 players from their 1988 season
+
+	John Smoltz, Tom Glavine, German Jiminez, Dale Murphy, Bruce Sutter,
+Pete Smith, Rick Mahler, Jim Acker, Jim "Break on Through" Morrison, Ron
+Gant, Andres Thomas, Gerald Perry, Ozzie "The Aeneid" Virgil, Lonnie Smith,
+Jerry Royster.
+	How'm I doing so far?
+	NOTE:  I am not a Braves fun.n
+
+ On the other hand, ask any
+>Cubs fan living anywhere in the United States to name 3 players from any given
+>year and 80% of them probably could.
+
+	On the other hand , II like the Braves *much* more than the
+Cubs.  And all I can name is Ron Santo, Ernie Banks, and Don Kessinger
+from 1969, my favorite Cubbie season.
+
+>	Granted, the fact that a team wins brings people to the ball park, but
+>that does not mean they diserve the title "America's Team"
+>	The only reason they are considered America's team is because of Ted
+>Turner and his little TV station which broadcasts across the nation.
+
+	Right.  I've watched enough Braves' games to know a great deal
+of their players.  I like many of their players.  The only Cubs games I
+get to see while living in New York are those against the Mets, and they
+put me to sleep because, face it, watching guys like Rick Sutcliffe and
+Luis Salazar doesn't put me at the edge of my chair.u
+
+>	I'll consider Toronto AMerica's team before the Braves
+
+	Actually, I notice a lot of anti-Toronto sentiment here in the
+States.  Partly because of some of that post-Series arrogance (thanks
+in part to "Upside-Down Flag" dork posts), partly because Roberto Alomar
+is about as exciting as Swiss Cheese, and partly because, living in 
+Baltimore during the winters, I've become so fond of O's fans (especially
+those who call in to Rex Barney's radio show) that I have to side against
+their most hated rivals.
+> 
+>	GO REDS!
+
+	Sorry, but METS is spelled with an "M" and a "T".... =) 
+
+Jason A. Miller
+"some doctor guy"
+Frank Banananna:  1 win!!!R
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ america team     news softwar vax vms vnew
+articl 1993apr20 absolut correct brave fan noth
+bunch bandwagon correct wrong year ago couldnt
+give away ticket see brave play bet next paycheck
+call brave fan live outsid georgia present time
+name player season  john smoltz tom glavin german
+jiminez dale murphi bruce sutter pete smith rick
+mahler jim acker jim break morrison ron gant andr
+thoma gerald perri ozzi aeneid virgil lonni smith
+jerri royster how'm far note brave fun  hand ask
+cub fan live anywher unit state name player given
+year probabl could  hand like brave much cub name
+ron santo erni bank kessing favorit cubbi season
+grant fact team win bring peopl ball park mean
+diserv titl america team reason consid america
+team ted turner littl station broadcast across
+nation  right i'v watch enough brave game know
+great deal player like mani player cub game get
+see live new york met put sleep face watch guy
+like rick sutcliff lui salazar doesn't put edg
+chair  i'll consid toronto america team brave
+actual notic lot anti toronto sentiment state part
+post seri arrog thank part upsid flag dork post
+part roberto alomar excit swiss chees part live
+baltimor winter i'v becom fond o fan especi call
+rex barney radio show side hate rival  red  sorri
+met spell  jason miller doctor guy frank banananna
+win
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+brave, 1277, 0.35898015633
+america, 468, 0.236619302374
+team, 8732, 0.198981655474
+fan, 3381, 0.190809503539
+cub, 2282, 0.177981852976
+live, 5310, 0.175782045864
+player, 6683, 0.165431773944
+rick, 7387, 0.137073449389
+ron, 7472, 0.125435171538
+smith, 8064, 0.117303712677
+jim, 4868, 0.109521148353
+met, 5655, 0.10661874686
+toronto, 9003, 0.100040125139
+watch, 9655, 0.0994092637263
+upsid, 9344, 0.093460235347
+sutter, 8611, 0.093460235347
+morrison, 5869, 0.093460235347
+diserv, 2710, 0.093460235347
+chees, 1689, 0.093460235347
+season, 7747, 0.0923193488038
+correct, 2156, 0.0923193488038
+paycheck, 6476, 0.0907857092462
+barney, 915, 0.0907857092462
+guy, 4100, 0.0900030730919
+sentiment, 7796, 0.0886004623077
+rival, 7421, 0.0886004623077
+rex, 7370, 0.0886004623077
+perri, 6557, 0.0886004623077
+cubbi, 2283, 0.0886004623077
+win, 9770, 0.0871329724094
+hand, 4145, 0.0869471470591
+smoltz, 8068, 0.0867528623469
+glavin, 3895, 0.0867528623469
+bandwagon, 892, 0.0867528623469
+1993apr20, 43, 0.0867528623469
+santo, 7616, 0.0851523984628
+state, 8342, 0.0849928442012
+consid, 2059, 0.0840723651403
+fond, 3580, 0.0837406892683
+lonni, 5340, 0.0824778723621
+swiss, 8637, 0.0813355155158
+sutcliff, 8609, 0.0813355155158
+gerald, 3853, 0.0813355155158
+turner, 9160, 0.0802926254235
+roberto, 7438, 0.0802926254235
+erni, 3173, 0.0784450254627
+chair, 1638, 0.0784450254627
+sleep, 8025, 0.0776180993227
+acker, 238, 0.0776180993227
+arrog, 656, 0.0768445615786
+like, 5272, 0.0757116206545
+jerri, 4854, 0.0754328523841
+jason, 4828, 0.0754328523841
+winter, 9790, 0.0747848202379
+murphi, 5928, 0.0747848202379
+ozzi, 6366, 0.0741700354779
+flag, 3515, 0.0741700354779
+dale, 2341, 0.0741700354779
+miller, 5722, 0.0735852524234
+lui, 5385, 0.0735852524234
+game, 3761, 0.0726625084473
+german, 3854, 0.0719847885393
+post, 6766, 0.0700097053703
+doctor, 2786, 0.0693102624385
+spell, 8220, 0.0685367246945
+georgia, 3848, 0.0681679055922
+excit, 3265, 0.0681679055922
+bruce, 1347, 0.0681679055922
+gant, 3766, 0.0674626624778
+andr, 503, 0.0671250154999
+pete, 6574, 0.0658621985937
+anywher, 557, 0.0647198417474
+alomar, 436, 0.0647198417474
+ticket, 8919, 0.0634298155785
+ted, 8745, 0.0634298155785
+grant, 3994, 0.0634298155785
+bank, 897, 0.0634298155785
+favorit, 3411, 0.063187672493
+bunch, 1399, 0.0629503246366
+broadcast, 1324, 0.0624892802933
+fun, 3721, 0.0618293516944
+baltimor, 887, 0.060804310712
+anti, 542, 0.0606094173923
+hate, 4202, 0.0604176424999
+year, 9943, 0.0602445430073
+thoma, 8878, 0.0595022607918
+bet, 1054, 0.0584887834138
+titl, 8953, 0.0577051269059
+edg, 2993, 0.0571131213895
+outsid, 6332, 0.056969578655
+york, 9960, 0.0566875497588
+absolut, 193, 0.0558792204806
+notic, 6120, 0.0553691147709
+park, 6430, 0.0552449097727
+break, 1284, 0.0548798356088
+vnew, 9564, 0.0545255534096
+unit, 9278, 0.0544097488848
+tom, 8976, 0.0540689010323
+radio, 7061, 0.0535215148102
+vms, 9563, 0.0528960333292
+vax, 9439, 0.0523015805081
+face, 3345, 0.0515522318239
+frank, 3655, 0.0512828794757
+bring, 1316, 0.0506769762834
+station, 8346, 0.0505928659377
+especi, 3190, 0.0496270544074
+seri, 7805, 0.0488777057231
+deal, 2418, 0.0484496003908
+becom, 983, 0.0480362602899
+red, 7194, 0.0479687351813
+present, 6837, 0.0479687351813
+away, 833, 0.0475064204289
+nation, 5962, 0.0471867834846
+ball, 877, 0.0468754497447
+ago, 336, 0.0466924587845
+sorri, 8142, 0.0462177165254
+john, 4878, 0.0453211734903
+wrong, 9869, 0.0439937436239
+noth, 6119, 0.0436132140419
+note, 6118, 0.0432443949397
+given, 3887, 0.0430195163905
+ask, 689, 0.0415141108429
+news, 6031, 0.0413967949789
+fact, 3350, 0.0411274426307
+littl, 5308, 0.0402827730751
+far, 3386, 0.0400370844563
+softwar, 8103, 0.0400023936215
+great, 4016, 0.0398646257245
+play, 6681, 0.0395269787467
+probabl, 6885, 0.0391985835447
+doesn, 2793, 0.0388789466004
+reason, 7156, 0.0386601667959
+articl, 665, 0.0386292360043
+actual, 254, 0.0385369196937
+ll, 5314, 0.0379682042092
+lot, 5356, 0.0373973498896
+mean, 5595, 0.037040361815
+right, 7399, 0.0364594444838
+new, 6023, 0.0349138793826
+mani, 5479, 0.0339981644845
+thank, 8832, 0.0335652727613
+peopl, 6530, 0.0325190087984
+time, 8936, 0.0284782129599
+know, 5052, 0.0258169380214

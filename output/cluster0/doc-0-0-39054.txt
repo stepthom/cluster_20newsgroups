@@ -1,0 +1,61 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39054
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: xyzzy@hal.gnu.ai.mit.edu (Daniel Drucker)
+Subject: Re: Where did the hacker ethic go?
+Organization: dis
+Lines: 18
+NNTP-Posting-Host: hal.ai.mit.edu
+
+In article <gradyC6D7Ep.AwE@netcom.com> grady@netcom.com (1016/2EF221) writes:
+>Where did the hacker ethic go?
+>
+>We hackers of the 70's and 80' are now comfortably employed
+>and supporting families.  The next generation takes
+>the radical lead now.  Don't look for radicalism among us
+>old ones; we're gone...
+
+And guess who's here in your place.
+
+Please finger xyzzy@gnu.ai.mit.edu for information, or if you are
+a mail/news only site, mail xyzzy@gnu.ai.mit.edu with the subject line
+"SEND FINGER".
+
+
+-- 
+Daniel Drucker   N2SXX          | xyzzy@gnu.ai.mit.edu
+Forever, forever, my Coda.      | und2dzd@vaxc.hofstra.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hacker ethic      hacker ethic  hacker comfort
+employ support famili next generat take radic lead
+don't look radic among old one we'r gone  guess
+who place    send finger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hacker, 4112, 0.64069091733
+radic, 7059, 0.397395491598
+ethic, 3209, 0.37310285311
+comfort, 1929, 0.194922749536
+finger, 3486, 0.192624586177
+employ, 3077, 0.180632838703
+famili, 3378, 0.177669984008
+gone, 3943, 0.162102798338
+generat, 3819, 0.144297115559
+lead, 5172, 0.135238960891
+guess, 4079, 0.129099775168
+send, 7785, 0.127965012899
+old, 6216, 0.125954973787
+support, 8576, 0.114725602655
+place, 6657, 0.114089083478
+look, 5341, 0.0831288604215
+don, 2811, 0.075555172246

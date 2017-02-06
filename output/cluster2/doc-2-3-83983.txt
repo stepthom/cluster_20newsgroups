@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83983
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: eeb1@quads.uchicago.edu (E. Elizabeth Bartley)
+Subject: Re: What part of "No" don't you understand?
+Reply-To: eeb1@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 30
+
+In article <1993Apr21.182127.23528@advtech.uswest.com>
+steven@advtech.uswest.com ( Steve Novak) writes:
+>> = "David R. Sacco" writes:
+
+>>Some
+>>people even raised protests when we had a moment of silence for a class
+>>member who had tragically died, saying this implied endorsing religion.
+
+>Because, of course, that possibility existed.  Meaning any student who
+>really gave a shit could have a moment of silence on his/her own, which
+>makes more sense than forcing those who DON'T want to participate to
+>have to take part.  What other reason is there for an organized "moment
+>of silence"?
+
+A "moment of silence" doesn't mean much unless *everyone*
+participates.  Otherwise it's not silent, now is it?
+
+Non-religious reasons for having a "moment of silence" for a dead
+classmate: (1) to comfort the friends by showing respect to the
+deceased , (2) to give the classmates a moment to grieve together, (3)
+to give the friends a moment to remember their classmate *in the
+context of the school*, (4) to deal with the fact that the classmate
+is gone so that it's not disruptive later.
+
+Blindly opposing everything with a flavor of religion in it is
+utterly idiotic.
+
+-- 
+Pro-Choice                 Anti-Roe                     - E. Elizabeth Bartley
+            Abortions should be safe, legal, early, and rare.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ part don't understand          peopl even rais
+protest moment silenc class member tragic die say
+impli endors religion  cours possibl exist mean
+student realli gave shit could moment silenc make
+sens forc don't want particip take part reason
+organ moment silenc  moment silenc doesn't mean
+much unless everyon particip otherwis it silent
+non religi reason moment silenc dead classmat
+comfort friend show respect deceas give classmat
+moment griev togeth give friend moment rememb
+classmat context school deal fact classmat gone it
+disrupt later  blind oppos everyth flavor religion
+utter idiot   pro choic anti roe elizabeth bartley
+abort safe legal earli rare
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+moment, 5828, 0.485314994641
+silenc, 7953, 0.435042244969
+classmat, 1793, 0.407642245192
+particip, 6440, 0.15265182135
+friend, 3692, 0.130530632047
+religion, 7261, 0.123551679686
+roe, 7456, 0.113739033276
+bartley, 921, 0.113739033276
+griev, 4046, 0.107824797287
+elizabeth, 3047, 0.107824797287
+deceas, 2434, 0.105576309118
+tragic, 9040, 0.103628580073
+disrupt, 2740, 0.101910561298
+flavor, 3529, 0.0989835181928
+endors, 3096, 0.0944595051458
+reason, 7156, 0.0940971308563
+silent, 7954, 0.0910114673476
+mean, 5595, 0.0901545973941
+shit, 7893, 0.0895516199262
+utter, 9387, 0.0882246782144
+blind, 1158, 0.0870084489938
+comfort, 1929, 0.0853554027123
+abort, 187, 0.0843490519428
+rare, 7101, 0.0829588290007
+protest, 6942, 0.0821005637742
+idiot, 4487, 0.0805221278891
+pro, 6883, 0.0774934376779
+rais, 7076, 0.0766091487144
+impli, 4546, 0.0760480679755
+safe, 7577, 0.0757754189027
+anti, 542, 0.0737603165242
+legal, 5200, 0.073071071737
+context, 2087, 0.073071071737
+student, 8468, 0.0726290287965
+religi, 7260, 0.0715792016888
+oppos, 6269, 0.0711795520125
+gone, 3943, 0.0709837598016
+class, 1789, 0.0698611829137
+school, 7685, 0.0686521585837
+gave, 3798, 0.0686521585837
+togeth, 8969, 0.0675357220034
+choic, 1717, 0.0673829844748
+don, 2811, 0.0661702358438
+respect, 7321, 0.066075874582
+otherwis, 6313, 0.0653973196455
+dead, 2415, 0.0650048394463
+member, 5625, 0.0646226437635
+everyth, 3242, 0.0628488455679
+later, 5140, 0.0611679893624
+organ, 6287, 0.0610690988094
+sens, 7788, 0.0607763873005
+earli, 2951, 0.0604894344259
+forc, 3594, 0.0603950243831
+die, 2628, 0.0596609675769
+unless, 9289, 0.0593949486409
+deal, 2418, 0.0589620889633
+everyon, 3241, 0.0581330988107
+non, 6097, 0.0578142598713
+rememb, 7269, 0.0537169332104
+understand, 9246, 0.0522996735585
+exist, 3283, 0.0522996735585
+fact, 3350, 0.0500511853899
+cours, 2190, 0.0499129255804
+possibl, 6765, 0.0478225560408
+doesn, 2793, 0.0473148155973
+realli, 7150, 0.0432826537758
+want, 9634, 0.0397338308356
+peopl, 6530, 0.0395749123689
+say, 7653, 0.0370326446409
+make, 5459, 0.0365843747702

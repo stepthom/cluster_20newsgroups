@@ -1,0 +1,132 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38542
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: xz775327@longs.LANCE.ColoState.Edu (Xia Zhao)
+Subject: more on radiosity
+Nntp-Posting-Host: zirkel.lance.colostate.edu
+Organization: Colorado State U. Engineering College
+Keywords: radiosity
+Lines: 45
+
+
+
+In article <1993Apr19.131239.11670@aragorn.unibe.ch>, you write:
+|>
+|>
+|> Let's be serious... I'm working on a radiosity package, written in C++.
+|> I would like to make it public domain.  I'll announce it in c.g. the minute
+|> I finished it.
+|>
+|> That were the good news. The bad news: It'll take another 2 months (at least)
+|> to finish it.
+
+
+ Are you using the traditional radiosity method, progressive refinement, or
+  something else in your package?
+
+ If you need to project patches on the hemi-cube surfaces, what technique are
+  you using?  Do you have hardware to facilitate the projection?
+
+
+|>
+|> In the meantime you may have a look at the file
+|>   Radiosity_code.tar.Z
+|> located at
+|>   compute1.cc.ncsu.edu
+
+
+  What are the guest username and password for this ftp site?
+
+
+|>
+|> (there are some other locations; have a look at archie to get the nearest)
+|>
+|> Hope that'll help.
+|>
+|> Yours
+|>
+|> Stephan
+|>
+
+
+   Thanks, Stephan.
+
+
+    Josephine
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ radios           let serious i'm work radios
+packag written like make public domain i'll
+announc minut finish  good news bad news it'll
+take anoth month least finish   use tradit radios
+method progress refin someth els packag  need
+project patch hemi cube surfac techniqu use
+hardwar facilit project    meantim look file
+radios code tar locat compute1 ncsu edu   guest
+usernam password ftp site    locat look archi get
+nearest  hope that'll help    stephan    thank
+stephan   josephin
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+radios, 7062, 0.528880921657
+stephan, 8379, 0.309301760791
+finish, 3488, 0.197645189759
+ll, 5314, 0.194033276495
+locat, 5323, 0.180911827459
+packag, 6375, 0.177860527692
+project, 6909, 0.151564858526
+compute1, 1994, 0.150928374224
+ncsu, 5979, 0.147781040101
+meantim, 5599, 0.145054695275
+news, 6031, 0.141036531899
+refin, 7215, 0.14049871593
+usernam, 9368, 0.138552743448
+facilit, 3349, 0.138552743448
+guest, 4080, 0.128497724243
+nearest, 5984, 0.127393819865
+password, 6455, 0.126346551465
+cube, 2284, 0.126346551465
+archi, 613, 0.1234929959
+patch, 6459, 0.122624045294
+tar, 8701, 0.120219238727
+progress, 6907, 0.112711307205
+domain, 2805, 0.107234092315
+tradit, 9037, 0.104963169884
+techniqu, 8740, 0.104608078194
+look, 5341, 0.101906656563
+minut, 5747, 0.0943197163643
+announc, 524, 0.0936914434858
+method, 5666, 0.0919149097971
+hardwar, 4173, 0.0911723822418
+use, 9363, 0.0901847328078
+surfac, 8587, 0.0892595815901
+written, 9867, 0.0890942587639
+site, 7994, 0.0841468823059
+month, 5847, 0.0841468823059
+ftp, 3709, 0.0825325199026
+code, 1871, 0.0811477684894
+public, 6973, 0.0784353746424
+bad, 861, 0.0751905832585
+hope, 4372, 0.0729811586368
+edu, 3001, 0.0723914495582
+file, 3477, 0.0706512778694
+els, 3053, 0.0705846635933
+anoth, 533, 0.0658038077432
+let, 5225, 0.0644795314736
+someth, 8126, 0.0601018699216
+help, 4249, 0.0599828185202
+work, 9833, 0.0578435196932
+thank, 8832, 0.0571774900074
+need, 5993, 0.0548956793393
+good, 3948, 0.0524840201936
+make, 5459, 0.0512091869867
+like, 5272, 0.0429908660279

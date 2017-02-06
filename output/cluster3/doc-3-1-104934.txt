@@ -1,0 +1,243 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104934
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: doctor8@jhuvms.hcf.jhu.edu (Jason Abner Miller)
+Subject: Re: sex, uniforms, and good taste
+Organization: The Johns Hopkins University - HCF
+Lines: 47
+Distribution: na
+NNTP-Posting-Host: jhuvms.hcf.jhu.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <1993Apr23.052741.28429@news.cs.brandeis.edu>, st902415@pip.cc.brandeis.edu writes...
+>In article <1r6r9s$5ob@network.ucsd.edu>, king@cogsci.ucsd.edu (Jonathan King) writes:
+>>Which reminds me yet again of a Bucs-Cards game in Whitey Herzog's
+>>last year as Cards manager.  Karen and I were watching the game on TV,
+>>and for some barely explicable reason the camera kept dwelling on The
+>>White Rhino himself at his uniform-filling worst.  Truly horrible.
+
+	Do you remember Game 7 of the 1988 NLCS, after the Dodgers defeated
+the Mets, and Ugh-a-dugh foo-boo fat stomach Tom Lasorda came running out
+on to the field in celebration?  YUCK!!!!!!
+	He undulated.  His arms flew up and down, keeping time with his
+rolling set of 9 stomachs, which flew all around the cozy confines of
+Chavez Ravine.  He oozed, like a white gastropod.  He ran.  It was a 
+disgusting sight.  Not only couldn't I watch my Mets in the Series, I had
+to watch Fat Stomach Lasorda roll around Dodger....
+	BLARGH!
+
+>>But what made it memorable was what Karen eventually said about this,
+>>which was:
+>>
+>>"I would rather sleep with a jar of Bill Landrum's spit under my pillow
+>> than look at Whitey Herzog in one of those uniforms."
+
+	"If you like short, fat men, who grunt, curse, and spit a lot,
+Whitey's certainly your man" - Former WFAN host Pete Franklin, on The White
+Rat ...
+	But it's true, this emphasis on the appearance of ballplayers in
+tight uniforms only works if the player actually has an extraodinary 
+physique.  Looking at Charlie Hough's scrawny torso through those tight
+white shirts just sort of makes me decide, "Hmmm, I don't want to eat lunch
+today...or tomorrow...or anytime soon...".
+	When Al Harazin first became Mets' GM, he was asked if he intended
+to help redesign the Mets' uniforms and change their image.  In particular,
+they asked him about the orange and blue racing stripe that runs down the 
+sides the uniforms.  He said that he's very much in favor of keeping them
+because "they're sleek and they're sexy".
+	Sid Fernandez, in a tight-fitting uniform, with a sleek racing
+stripe to denote speed and potencty.  Mmmmmmmm...lard.
+	Kevin McReynolds, diving after a fly ball.  Mmmmmmmm...Man O' War, baby!
+	Pat Howell....well, never mind.  Nothing could be tight on him. 
+They don't make uniform sizes *that* small ... :-)
+
+>Adam "Wishes he contribute something more interesting to r.s.b" Levin
+
+Jason A. Miller
+"some doctor guy"
+Frank Tanana:  1-0, 1.50
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sex uniform good tast     news softwar vax vms
+vnew  pip brandei edu write  remind yet buc card
+game whitey herzog last year card manag karen
+watch game bare explic reason camera kept dwell
+white rhino uniform fill worst truli horribl
+rememb game nlcs dodger defeat met ugh dugh foo
+boo fat stomach tom lasorda came run field celebr
+yuck undul arm flew keep time roll set stomach
+flew around cozi confin chavez ravin ooz like
+white gastropod ran disgust sight couldn't watch
+met seri watch fat stomach lasorda roll around
+dodger blargh  made memor karen eventu said
+rather sleep jar bill landrum spit pillow look
+whitey herzog one uniform  like short fat men
+grunt curs spit lot whitey certain man former wfan
+host pete franklin white rat it true emphasi
+appear ballplay tight uniform work player actual
+extraodinari physiqu look charli hough scrawni
+torso tight white shirt sort make decid hmmm don't
+want eat lunch today tomorrow anytim soon harazin
+first becam met ask intend help redesign met
+uniform chang imag particular ask orang blue race
+stripe run side uniform said he much favor keep
+they'r sleek they'r sexi sid fernandez tight fit
+uniform sleek race stripe denot speed potencti
+mmmmmmmm lard kevin mcreynold dive fli ball
+mmmmmmmm man war babi pat howel well never mind
+noth could tight don't make uniform size small
+adam wish contribut someth interest levin  jason
+miller doctor guy frank tanana
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+uniform, 9273, 0.45348336751
+tight, 8929, 0.23203653666
+whitey, 9739, 0.219839269691
+stomach, 8408, 0.215254925372
+fat, 3401, 0.201813171909
+met, 5655, 0.176364673762
+white, 9737, 0.169955190845
+karen, 4956, 0.160302020753
+stripe, 8452, 0.154598364754
+spit, 8240, 0.150174265455
+herzog, 4276, 0.150174265455
+lasorda, 5137, 0.13643175783
+flew, 3539, 0.123706203759
+watch, 9655, 0.123329265835
+roll, 7464, 0.108946742579
+dodger, 2791, 0.102275760705
+race, 7049, 0.0978516614058
+game, 3761, 0.0901466672684
+card, 1513, 0.0851261073351
+ugh, 9192, 0.077299182377
+torso, 9005, 0.077299182377
+hough, 4394, 0.077299182377
+foo, 3583, 0.0750871327276
+shirt, 7892, 0.0732797565636
+nlcs, 6082, 0.0732797565636
+curs, 2300, 0.0732797565636
+memor, 5627, 0.0717516417906
+mcreynold, 5587, 0.0717516417906
+franklin, 3657, 0.0717516417906
+explic, 3303, 0.0717516417906
+anytim, 556, 0.0717516417906
+tanana, 8689, 0.0704279285642
+levin, 5232, 0.0704279285642
+howel, 4405, 0.0704279285642
+denot, 2528, 0.0704279285642
+buc, 1357, 0.0704279285642
+boo, 1217, 0.0704279285642
+sid, 7934, 0.0692603307502
+fernandez, 3449, 0.0692603307502
+ask, 689, 0.0686710623689
+man, 5471, 0.0684770029311
+dwell, 2934, 0.0682158789148
+orang, 6279, 0.067271057303
+disgust, 2712, 0.067271057303
+defeat, 2472, 0.067271057303
+confin, 2031, 0.0664085027508
+said, 7583, 0.0659992743556
+wfan, 9714, 0.0648803879778
+lunch, 5394, 0.0648803879778
+sleep, 8025, 0.0641964531014
+dive, 2759, 0.0641964531014
+bare, 910, 0.0641964531014
+charli, 1670, 0.0629556953701
+celebr, 1596, 0.0629556953701
+jason, 4828, 0.0623890769374
+rat, 7106, 0.0618531018795
+miller, 5722, 0.0608609621644
+emphasi, 3075, 0.0608609621644
+ballplay, 884, 0.0608609621644
+tast, 8708, 0.0603998034902
+babi, 847, 0.0599591476647
+run, 7543, 0.0597217158434
+sex, 7825, 0.0587437756676
+hmmm, 4328, 0.0587437756676
+horribl, 4380, 0.0576612695675
+redesign, 7200, 0.0573251992887
+doctor, 2786, 0.0573251992887
+adam, 258, 0.0573251992887
+sight, 7943, 0.0563803776768
+ran, 7089, 0.0563803776768
+tomorrow, 8979, 0.0560844415573
+camera, 1473, 0.0557970845156
+becam, 980, 0.0557970845156
+pete, 6574, 0.0544733712893
+host, 4386, 0.0542285903638
+kevin, 4993, 0.0537564476178
+favor, 3410, 0.0524615935786
+remind, 7270, 0.0520650157439
+eat, 2968, 0.0518725218549
+arm, 643, 0.0514983973113
+kept, 4989, 0.0501288959029
+make, 5459, 0.0497268558745
+look, 5341, 0.0494784034051
+truli, 9127, 0.0492131877446
+eventu, 3233, 0.0487852166602
+worst, 9849, 0.048646569312
+intend, 4700, 0.048646569312
+war, 9635, 0.0482418958265
+men, 5629, 0.0476021174766
+soon, 8136, 0.0472371760034
+size, 8000, 0.0460034463644
+wish, 9801, 0.0458985446045
+blue, 1176, 0.0456920137218
+contribut, 2103, 0.0451937619312
+vnew, 9564, 0.0450970477611
+couldn, 2176, 0.0450970477611
+don, 2811, 0.0449705345746
+tom, 8976, 0.0447193592687
+fit, 3510, 0.0447193592687
+pat, 6458, 0.0440045903898
+vms, 9563, 0.0437493027078
+vax, 9439, 0.0432576420901
+decid, 2442, 0.0429429133132
+frank, 3655, 0.0424150938491
+fli, 3542, 0.0423419339318
+like, 5272, 0.0417464272465
+particular, 6442, 0.0415037060761
+seri, 7805, 0.0404258204019
+speed, 8217, 0.0403063837306
+appear, 580, 0.0403063837306
+came, 1472, 0.039956472447
+short, 7904, 0.0391850626706
+ball, 877, 0.0387697925793
+small, 8054, 0.0386184442379
+mind, 5733, 0.0386184442379
+sort, 8144, 0.0381300142294
+today, 8964, 0.037894537034
+manag, 5472, 0.0378481054559
+field, 3466, 0.0373072554906
+guy, 4100, 0.0372199146278
+rememb, 7269, 0.0365070363037
+noth, 6119, 0.0360716595005
+chang, 1650, 0.0356175438986
+set, 7815, 0.0355071925869
+true, 9121, 0.0353619427531
+edu, 3001, 0.0351479821352
+certain, 1619, 0.0350776759979
+news, 6031, 0.0342385014656
+player, 6683, 0.034206368135
+write, 9865, 0.034174338628
+imag, 4512, 0.0332295170161
+softwar, 8103, 0.0330852186342
+reason, 7156, 0.0319750883655
+actual, 254, 0.0318731530323
+lot, 5356, 0.0309306365301
+someth, 8126, 0.029181063001
+help, 4249, 0.0291232603661
+work, 9833, 0.0280845736509
+want, 9634, 0.0270038574079
+good, 3948, 0.0254823935065
+year, 9943, 0.0249135576208
+time, 8936, 0.0235537880809

@@ -1,0 +1,58 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105144
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: kmelcher@rafael.Arco.COM (Kenneth Melcher)
+Subject: Re: The 1964 Phillies: deja vu?
+Reply-To: kmelcher@rafael.Arco.COM
+Organization: ARCO Exploration and Production Technology
+Lines: 3
+
+My dad has always blamed the Phillies collapse in '64 on me...  On Sept 21,  1964,  the Phillies had something like a 9 game lead with 12 to play.  I was born on Sept 21,  1964.  The Phils proceeded to lose something like 10 straight while the Cards won 10 straight (does anyone know hte exact numbers?),  and a pennant was blown.  To this day my dad likes to remind me that it all began when I was born!
+
+KRM
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ philli deja     dad alway blame philli collaps
+sept philli someth like game lead play born sept
+phil proceed lose someth like straight card
+straight anyon know hte exact number pennant blown
+day dad like remind began born  krm
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.392601842812
+sept, 7800, 0.387239559996
+dad, 2333, 0.352976535859
+born, 1233, 0.279262840098
+straight, 8422, 0.276514049528
+hte, 4418, 0.20145999795
+deja, 2496, 0.184940940061
+like, 5272, 0.172153310994
+collaps, 1896, 0.167318368508
+blown, 1174, 0.164839108808
+someth, 8126, 0.1604485923
+pennant, 6524, 0.157597883409
+blame, 1138, 0.151155564896
+began, 993, 0.151155564896
+proceed, 6889, 0.147786705834
+remind, 7270, 0.143136637687
+phil, 6588, 0.134119845769
+lose, 5350, 0.119817114369
+card, 1513, 0.117013935454
+lead, 5172, 0.110647214947
+exact, 3253, 0.108167955248
+alway, 457, 0.102928934846
+play, 6681, 0.0898765632803
+number, 6156, 0.0886190753998
+game, 3761, 0.0826101152384
+day, 2402, 0.0808150260852
+anyon, 554, 0.0732339085176
+know, 5052, 0.0587026314017

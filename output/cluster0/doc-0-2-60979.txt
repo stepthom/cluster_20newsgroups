@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60979
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Why not give $1 billion to first year-lo
+Organization: U of Toronto Zoology
+Lines: 16
+
+In article <C5szvL.I48@oakhill.sps.mot.com> dong@oakhill.sps.mot.com writes:
+>>I'd be inclined to make the prize somewhat larger, but $1G might be enough.
+>
+>this all sounds like that Indecent Proposal movie.  wouldn't there be
+>a lot of people that would try this with little hope of working just
+>to get the dough?  if you have a 1:100 chance and it costs you $10Mil,
+>then you might pay some stooge a few grand to be your lucky hero.
+>just send up a few dozen and 1 is bound to survive enough to make YOU
+>rich.
+
+Any prize like this is going to need to be worded carefully enough that
+you cannot get it without demonstrating sustained and reliable capability,
+rather than a lucky one-shot.  It can be done.
+-- 
+All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
+                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ give billion first year     i'd inclin make prize
+somewhat larger might enough  sound like indec
+propos movi wouldn't lot peopl tri littl hope work
+get dough chanc cost 10mil might pay stoog grand
+lucki hero send dozen bound surviv enough make
+rich  prize like go need word care enough cannot
+get without demonstr sustain reliabl capabl rather
+lucki one shot done  work one man work henri
+spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lucki, 5382, 0.324992253786
+prize, 6881, 0.312911293801
+work, 9833, 0.237436730648
+stoog, 8411, 0.217838036562
+dough, 2834, 0.217838036562
+hero, 4273, 0.18491074228
+sustain, 8608, 0.171513230716
+inclin, 4578, 0.16778285374
+dozen, 2848, 0.166642437053
+grand, 3991, 0.160633014684
+bound, 1250, 0.157242637801
+reliabl, 7256, 0.152149242725
+surviv, 8599, 0.149607825158
+rich, 7382, 0.149607825158
+somewhat, 8129, 0.145650629647
+larger, 5125, 0.143132138902
+movi, 5892, 0.14265458318
+zoolog, 9993, 0.140382084597
+make, 5459, 0.140136031391
+shot, 7910, 0.137091658909
+spencer, 8221, 0.134855559458
+demonstr, 2520, 0.134855559458
+billion, 1092, 0.133119825552
+henri, 4258, 0.127088696632
+pay, 6474, 0.12655144297
+capabl, 1498, 0.125251844487
+chanc, 1649, 0.121458047894
+like, 5272, 0.117646260481
+propos, 6933, 0.117342336127
+wouldn, 9854, 0.116774120007
+toronto, 9003, 0.11658725423
+care, 1516, 0.109983419449
+sound, 8150, 0.109690889766
+send, 7785, 0.107320802866
+cost, 2169, 0.106142984565
+word, 9829, 0.100063375564
+hope, 4372, 0.0998579604512
+man, 5471, 0.0964880572438
+littl, 5308, 0.0938914840239
+lot, 5356, 0.0871661112594
+tri, 9087, 0.0809063242923
+peopl, 6530, 0.075795625822
+need, 5993, 0.0751121341288
+year, 9943, 0.0702092869421

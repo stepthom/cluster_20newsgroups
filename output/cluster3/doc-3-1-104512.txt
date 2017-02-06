@@ -1,0 +1,161 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104512
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: scott@asd.com (Scott Barman)
+Subject: Re: BaseballIsDead
+Organization: American Software Development Corp., West Babylon, NY
+Lines: 29
+
+In article <1993Apr8.195853.10650@midway.uchicago.edu> as16@midway.uchicago.edu writes:
+>My question to you all is why does the media seem to embrace the theme of the
+>death of baseball so strongly?  I have seen articles of a similar vein in 
+>the Chicago Tribune and in sports editorials on tv.
+
+Maybe because baseball is the only business where those who are
+responsible for the fiscal aspects of the game preach gloom and doom. 
+These allegedly intelligent people seem to predict bad times, losing
+money, bankruptcies at an alarming rate, and there's going to be an
+increased degradation of the product they produce.  Could you imagine
+IBM, with all their problems, promoting themselves the way Major League
+Baseball does?  Their stock would plummet to unthinkable depths (not
+that they are too far from it now :-).  What would happen at GM?  Where
+would GM be if they admitted to cutting corners and producing an
+inferior product because of alleged labor problems? I think it shows a
+lack of confidence for the people who run the game.
+
+>Anyway, it just frustrates me when the media says such things, because it
+>inevitably leads to owners trying quick fixes like increasing play-offs to
+>satisfy television or trying interleague play to drum up interest.  
+
+Forget it.  Word has it three divisions with a wild card is just about
+a done deal.  It has to be decided soon since negotiations with the
+networks also have to begin soon.
+-- 
+scott barman    | Mets Mailing List (feed the following into your shell):
+scott@asd.com   |            mail mets-request@asd.com <<!
+                |            subscribe
+ Let's Go Mets! |            !
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ baseballisdead     question media seem embrac
+theme death basebal strong seen articl similar
+vein chicago tribun sport editori  mayb basebal
+busi respons fiscal aspect game preach gloom doom
+alleg intellig peopl seem predict bad time lose
+money bankruptci alarm rate there go increas
+degrad product produc could imagin ibm problem
+promot way major leagu basebal stock plummet
+unthink depth far happen admit cut corner produc
+inferior product alleg labor problem think show
+lack confid peopl run game  anyway frustrat media
+say thing inevit lead owner tri quick fix like
+increas play off satisfi televis tri interleagu
+play drum interest  forget word three divis wild
+card done deal decid soon sinc negoti network also
+begin soon  scott barman met mail list feed follow
+shell asd com subscrib let met
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alleg, 422, 0.206273621544
+basebal, 924, 0.186174598276
+media, 5605, 0.179240287213
+soon, 8136, 0.175507302292
+increas, 4590, 0.166152483479
+met, 5655, 0.163818472708
+produc, 6895, 0.163177905214
+product, 6896, 0.154204889133
+alarm, 377, 0.148898482057
+tribun, 9093, 0.139491193344
+vein, 9453, 0.133294770678
+fiscal, 3503, 0.133294770678
+embrac, 3065, 0.130835676411
+doom, 2817, 0.130835676411
+labor, 5088, 0.128666601544
+stock, 8402, 0.126726297958
+editori, 2998, 0.126726297958
+play, 6681, 0.121465492321
+inferior, 4625, 0.120529875292
+barman, 913, 0.120529875292
+asd, 677, 0.120529875292
+negoti, 5999, 0.119259312832
+inevit, 4616, 0.118070781025
+frustrat, 3706, 0.116954327006
+preach, 6803, 0.115901706158
+degrad, 2490, 0.115901706158
+problem, 6887, 0.115875659429
+theme, 8840, 0.114906012253
+confid, 2029, 0.113961402572
+televis, 8765, 0.112206184476
+game, 3761, 0.111645104707
+shell, 7873, 0.109852024119
+corner, 2149, 0.107118743379
+tri, 9087, 0.106668189025
+satisfi, 7635, 0.105890564945
+promot, 6914, 0.103136810772
+owner, 6359, 0.100741771705
+feed, 3427, 0.100741771705
+wild, 9758, 0.100297994779
+peopl, 6530, 0.0999301626067
+depth, 2545, 0.0998646606385
+subscrib, 8496, 0.0990274323191
+scott, 7713, 0.0967224464938
+intellig, 4698, 0.095331910637
+chicago, 1701, 0.0925409902529
+aspect, 693, 0.0914245362342
+fix, 3511, 0.0906294839381
+admit, 276, 0.0893762214805
+sport, 8257, 0.0891354879705
+ibm, 4472, 0.0891354879705
+network, 6018, 0.0852668430274
+lack, 5092, 0.0852668430274
+divis, 2767, 0.0852668430274
+busi, 1424, 0.0848831655816
+forget, 3604, 0.0839575511077
+imagin, 4518, 0.0835999505266
+predict, 6816, 0.0834237209399
+death, 2423, 0.0822351891334
+begin, 994, 0.0817483982026
+strong, 8456, 0.0815889526068
+lose, 5350, 0.0809646266733
+cut, 2313, 0.0809646266733
+com, 1917, 0.0805098911924
+rate, 7108, 0.0799205336564
+decid, 2442, 0.0797760948668
+card, 1513, 0.0790704203609
+quick, 7036, 0.0785247255833
+similar, 7961, 0.0762513957199
+lead, 5172, 0.0747682040069
+deal, 2418, 0.0744422512274
+money, 5835, 0.0742281110092
+leagu, 5176, 0.0739114983178
+respons, 7323, 0.0709238064027
+seen, 7767, 0.0683538397285
+bad, 861, 0.0678200095607
+major, 5458, 0.0675958787869
+list, 5298, 0.0674479595075
+word, 9829, 0.0659625755617
+happen, 4159, 0.0649061798132
+mayb, 5564, 0.0644624028873
+mail, 5447, 0.0633091392396
+far, 3386, 0.06151651769
+follow, 3578, 0.0605292540209
+articl, 665, 0.0593533748093
+let, 5225, 0.0581589110165
+sinc, 7977, 0.0561387120717
+question, 7032, 0.0557443532923
+run, 7543, 0.0554732422784
+thing, 8869, 0.0503103886313
+way, 9666, 0.0481736166166
+say, 7653, 0.0467553555928
+time, 8936, 0.0437564451836
+think, 8871, 0.0421778124297
+like, 5272, 0.038776676795

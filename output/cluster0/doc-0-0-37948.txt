@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37948
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sloan@cis.uab.edu (Kenneth Sloan)
+Subject: Re: Surface normal orientations
+Organization: CIS, University of Alabama at Birmingham
+Lines: 42
+
+In article <1pscti$aqe@travis.csd.harris.com> srp@travis.csd.harris.com (Stephen Pietrowicz) writes:
+>...
+>How do you go about orienting all normals in the same direction, given a 
+>set of points, edges and faces? 
+
+Look for edge inconsistencies.  Consider two vertices, p and q, which
+are connected by at least one edge.
+
+If (p,q) is an edge, then (q,p) should *not* appear.  
+
+If *both* (p,q) and (q,p) appear as edges, then the surface "flips" when
+you travel across that edge.  This is bad.  
+
+Assuming (warning...warning...warning) that you have an otherwise
+acceptable surface - you can pick an edge, any edge, and traverse the
+surface enforcing consistency with that edge.  
+
+    0) pick an edge (p,q), and mark it as "OK"
+    1) for each face, F, containing this edge (if more than 2, oops)
+       make sure that all edges in F are consistent (i.e., the Face
+       should be [(p,q),(q,r),(r,s),(s,t),(t,p)]).  Flip those which
+       are wrong. Mark all of the edges in F as "OK",
+       and add them to a queue (check for duplicates, and especially
+       inconsistencies - don't let the queue have both (p,q) and (q,p)). 
+    2) remove an edge from the queue, and go to 1).
+
+If a *marked* edge is discovered to be inconsistent, then you lose.
+
+If step 1) finds more than one face sharing a particular edge, then you
+lose. 
+    
+Otherwise, when done, all of the edges will be consistent.  Which means
+that all of the surface normals will either point IN or OUT.  Deciding
+which way is OUT is left as an exercise...
+
+
+
+-- 
+Kenneth Sloan                   Computer and Information Sciences
+sloan@cis.uab.edu               University of Alabama at Birmingham
+(205) 934-2213                  115A Campbell Hall, UAB Station 
+(205) 934-5473 FAX              Birmingham, AL 35294-1170
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ surfac normal orient      orient normal direct
+given set point edg face  look edg inconsist
+consid two vertic connect least one edg  edg
+appear  appear edg surfac flip travel across edg
+bad  assum warn warn warn otherwis accept surfac
+pick edg edg travers surfac enforc consist edg
+pick edg mark face contain edg oop make sure edg
+consist face flip wrong mark edg add queue check
+duplic especi inconsist don't let queue remov edg
+queue  mark edg discov inconsist lose  step find
+one face share particular edg lose  otherwis done
+edg consist mean surfac normal either point decid
+way left exercis     kenneth sloan comput inform
+scienc  115a campbel hall uab station fax
+birmingham
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+edg, 2993, 0.781187686414
+queue, 7033, 0.233912159088
+surfac, 8587, 0.210795102548
+inconsist, 4585, 0.187350488537
+face, 3345, 0.165912090121
+warn, 9643, 0.151946184938
+normal, 6108, 0.132466062708
+consist, 2061, 0.131893164927
+flip, 3545, 0.120341112266
+mark, 5512, 0.117803630533
+orient, 6290, 0.0957489531063
+pick, 6619, 0.0868263663856
+otherwis, 6313, 0.0864724678628
+lose, 5350, 0.0847942856692
+appear, 580, 0.0784199159327
+birmingham, 1114, 0.0730445910935
+115a, 13, 0.0730445910935
+uab, 9181, 0.0712863796922
+sloan, 8040, 0.0712863796922
+travers, 9070, 0.0685121279328
+kenneth, 4985, 0.0663602510898
+duplic, 2924, 0.0654411307854
+oop, 6254, 0.0618277879291
+campbel, 1479, 0.0606919514443
+enforc, 3106, 0.0592054048859
+exercis, 3279, 0.0564311531264
+vertic, 9482, 0.0557658228419
+point, 6710, 0.0544403107911
+travel, 9069, 0.0512333596812
+discov, 2698, 0.0502777801115
+share, 7855, 0.0483095938543
+hall, 4128, 0.0468018761256
+remov, 7272, 0.0460691087539
+connect, 2046, 0.0460691087539
+step, 8377, 0.0445490196775
+contain, 2079, 0.0423971428346
+decid, 2442, 0.0417747679181
+add, 260, 0.041405241323
+station, 8346, 0.0407061335462
+fax, 3413, 0.0405059160255
+particular, 6442, 0.0403747104073
+especi, 3190, 0.0399290585099
+accept, 208, 0.0396228910751
+check, 1682, 0.0393261456872
+left, 5193, 0.038380495891
+assum, 710, 0.0374229170543
+direct, 2667, 0.0369546957644
+scienc, 7692, 0.03603973123
+bad, 861, 0.0355139614735
+wrong, 9869, 0.0353965953492
+given, 3887, 0.0346127491856
+set, 7815, 0.034541315791
+consid, 2059, 0.0338215760218
+comput, 1993, 0.0334331961183
+inform, 4637, 0.0316961558873
+sure, 8585, 0.0310555841894
+let, 5225, 0.0304549253024
+mean, 5595, 0.029802026169
+way, 9666, 0.0252261239071
+make, 5459, 0.0241870858679
+look, 5341, 0.0240662388708
+don, 2811, 0.0218736166233

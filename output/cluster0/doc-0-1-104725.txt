@@ -1,0 +1,111 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104725
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: paula@koufax.cv.hp.com (Paul Andresen)
+Subject: Re: MLB = NBA?
+Nntp-Posting-Host: koufax.cv.hp.com
+Organization: Hewlett-Packard Company, Corvallis, Oregon USA
+Lines: 20
+
+In article <kbanaian.495.735252811@bernard.pitzer.claremont.edu>, kbanaian@bernard.pitzer.claremont.edu (King Banaian) writes:
+|> 
+|> There is absolutely, positively, quite verifiably, NO causation that runs 
+|> from salaries to ticket prices.  The two are separable decisions.  The 
+|> owners do not raise ticket prices to recoup costs;  they raise ticket prices 
+|> because demand for seats has risen.  (Wish I had bold type for that "NO".)
+|> 
+|> For more evidence, please come to my Intro to Econ course, somewhere around 
+|> lecture four:  Sunk Costs, Opportunity Costs, Marginal Costs.
+
+Right on. Ticket prices are set to maximize revenue. Period. For an excellent
+discussion on how this works, see Gerald Scully's book of a couple of years
+back, titled (I think) "The Business Of Baseball".
+--------------------------------------------------------------------------------
+           We will stretch no farm animal beyond its natural length
+
+  paula@koufax.cv.hp.com   Paul Andresen  Hewlett-Packard  (503)-750-3511
+
+    home: 3006 NW McKinley    Corvallis, OR 97330       (503)-752-8424
+                            A SABR member since 1979
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mlb nba       absolut posit quit verifi causat
+run salari ticket price two separ decis owner rais
+ticket price recoup cost rais ticket price demand
+seat risen wish bold type  evid pleas come intro
+econ cours somewher around lectur four sunk cost
+opportun cost margin cost  right ticket price set
+maxim revenu period excel discuss work see gerald
+sculli book coupl year back titl think busi
+basebal  stretch farm anim beyond natur length
+home mckinley corval sabr member sinc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ticket, 8919, 0.417847654909
+price, 6857, 0.367254073537
+cost, 2169, 0.299991515457
+rais, 7076, 0.207344490011
+sunk, 8543, 0.145915194067
+sculli, 7730, 0.145915194067
+nba, 5972, 0.142872400612
+mckinley, 5581, 0.142872400612
+corval, 2161, 0.140236613031
+risen, 7415, 0.137911683615
+maxim, 5559, 0.135831963384
+gerald, 3853, 0.133950627592
+revenu, 7354, 0.130653132725
+lectur, 5187, 0.129190309123
+bold, 1205, 0.129190309123
+intro, 4731, 0.127828452932
+sabr, 7565, 0.123162354621
+salari, 7589, 0.119391098959
+verifi, 9472, 0.116226081674
+farm, 3390, 0.115508217635
+seat, 7748, 0.114815547071
+owner, 6359, 0.107980370814
+mlb, 5795, 0.107504707182
+stretch, 8443, 0.10614285099
+demand, 2514, 0.104063130759
+margin, 5507, 0.103672245005
+opportun, 6268, 0.103288949748
+decis, 2445, 0.100464269954
+length, 5212, 0.0977054970184
+titl, 8953, 0.0950339825757
+excel, 3261, 0.0945404797329
+separ, 7797, 0.0938226156937
+somewher, 8130, 0.0922426458401
+absolut, 193, 0.092026915982
+wish, 9801, 0.0913935219962
+busi, 1424, 0.0909822761727
+period, 6546, 0.0879685749639
+member, 5625, 0.0874513640939
+anim, 515, 0.0852022086118
+natur, 5966, 0.0835988927052
+evid, 3245, 0.0831833176601
+coupl, 2187, 0.0821160801546
+posit, 6761, 0.0775047366238
+type, 9177, 0.0770977307499
+home, 4354, 0.0761154840561
+discuss, 2708, 0.0759247667702
+quit, 7043, 0.072294298135
+set, 7815, 0.0707021848879
+book, 1218, 0.0707021848879
+cours, 2190, 0.0675452623679
+basebal, 924, 0.0665172675901
+sinc, 7977, 0.0601724472773
+right, 7399, 0.0600446857598
+run, 7543, 0.0594591614791
+pleas, 6688, 0.058067108502
+come, 1923, 0.0572398257484
+work, 9833, 0.0559222110817
+year, 9943, 0.0496080604742
+think, 8871, 0.045208415032

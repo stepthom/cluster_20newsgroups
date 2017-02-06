@@ -1,0 +1,296 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104834
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: spira@panix.com (Greg "Sarcasm Is A Way Of Life" Spira)
+Subject: Re: Relative value of players
+Organization: Boo!
+Lines: 76
+
+In <KIME.93Apr20133127@mongoose.torolab.ibm.com> kime@mongoose.torolab.ibm.com (Edward Kim) writes:
+
+>In article <C5ro4H.Lww@world.std.com> jle@world.std.com (Joe M Leonard) writes:
+
+>> Before folks jump on me, let me ask the net - would the Jays
+>> have won the AL with a good pitcher from AAA in place of Morris (given
+>> his run support)?  How about an average ML pitcher?  I can't believe
+>> that Morris' performance in the playoffs and series had a large positive
+>> impact on the Jays performance ...
+
+>I know it's very trendy nowadays to dump on Morris, but let's give credit
+>where credit is due.
+
+>It is doubtful that the blue jays would have won the AL east without Morris.
+
+Well, when you say, without Morris, you have to mention an assumed
+replacement.  If the alternative to Morris was letting Cito Gaston
+soft-toss the ball underhand to the opposition every 5 days, then
+of course the Blue Jays wouldn't have won without Morris.  If the
+alternative was replacement level, then I think it would've been very
+close, and yes, Morris might've made the difference.  If the alternative
+was Frank Viola, the Blue Jays probably would have won more easily with
+Viola.
+
+>Last year, when the team went 13-15 for the month of August, and all the 
+>other starters were being shelled, and Milwaukee was making a charge,
+>Morris went 5-1 with a pretty good era (I can't remember exactly).
+
+Yes.  You can make the argument that the his presence prevented 
+the team from collapsing in August.
+
+>Also, let's not underestimate the importance his 240+ innings to save 
+>the bullpen every fifth day.  If he didn't help us win the AL east, forget
+>about the pennent and the world series.
+
+Those innings were probably helpful.
+
+>His run support was high (5.98 runs) but so was Stottlemyer's (5.90 runs)
+>and he won only 12 games.  I do remember Morris winning an inordinate number of
+>6-5 and 8-6 ballgames, but this is to his credit.  He pitched only as good
+>as he needed to be.  When he was up 6-1 in a ballgame, he just put it in cruise
+>control and threw the ball up there and let the batters "get themseleves out"
+>(I hate this expression!).  An inexperienced pitcher would wear himself out 
+>trying to make perfect pitches to keep his era down.  But Morris, being a 
+>veteran pitcher, knows that winning is the only thing that really matters in
+>baseball.  By saving himself, he was able to reach back for that little extra
+>(I hate this too!) when the game was on the line.
+
+Well, I think is complete bs.  What happened most of the time is that
+Morris fell behind, and the team came back and rescued him.  Mostly,
+this is because he's a lousy 1st inning pitcher, and much better
+the rest of the way.  That the team can climb out of 4-0, 5-0 holes
+consistently and win them 6-5 is not to Morris' credit; it's to the
+team's credit.
+
+Furthermore, while Morris did exceed the W-L percentage that would
+be projected from his runs allowed and run support, he hasn't done
+this in previous years.  In fact, his W-L record in 1991 is a lot
+worse than what it projects to be with run support and runs allowed.
+Do you think he just came up with this ability in 1992.
+
+Look at the 2 postseason games he pitched decently in.  Typical
+Morris games.  Morris gets behind; team rescues him.  He's not
+responsible for that rescue.  And in both those games, the team
+just didn't rescue him enough.  Jack Morris pitched as well as he did
+during much of the season in those 2 games; the offense just didn't
+earn him a victory.
+
+>BTW, I think he should be put in the bullpen; it would be embarrassing a 
+>veteran pitcher which Cito would never do, but his era is 17+, how much more
+>can he be embarrassed?
+
+Morris is one of those guys who will reture when he can't start
+anymore; he's too bad a first inning pitcher to serve in the bullpen.
+
+Greg 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ relat valu player        folk jump let ask net
+jay good pitcher aaa place morri given run support
+averag pitcher can't believ morri perform playoff
+seri larg posit impact jay perform  know it trendi
+nowaday dump morri let give credit credit due
+doubt blue jay east without morri  well say
+without morri mention assum replac altern morri
+let cito gaston soft toss ball underhand opposit
+everi day cours blue jay wouldn't without morri
+altern replac level think would'v close yes morri
+might'v made differ altern frank viola blue jay
+probabl easili viola  last year team went month
+august starter shell milwauke make charg morri
+went pretti good era can't rememb exact  yes make
+argument presenc prevent team collaps august  also
+let underestim import inning save bullpen everi
+fifth day didn't help win east forget pennent
+world seri  inning probabl help  run support high
+run stottlemy run game rememb morri win inordin
+number ballgam credit pitch good need ballgam put
+cruis control threw ball let batter get themselev
+hate express inexperienc pitcher wear tri make
+perfect pitch keep era morri veteran pitcher know
+win thing realli matter basebal save abl reach
+back littl extra hate game line  well think
+complet happen time morri fell behind team came
+back rescu most he lousi 1st inning pitcher much
+better rest way team climb hole consist win morri
+credit it team credit  furthermor morri exceed
+percentag project run allow run support hasn't
+done previous year fact record lot wors project
+run support run allow think came abil  look
+postseason game pitch decent typic morri game
+morri get behind team rescu he respons rescu game
+team didn't rescu enough jack morri pitch well
+much season game offens didn't earn victori  btw
+think put bullpen embarrass veteran pitcher cito
+never era much embarrass  morri one guy retur
+can't start anymor he bad first inning pitcher
+serv bullpen  greg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+morri, 5868, 0.639081601008
+pitcher, 6644, 0.201856046424
+credit, 2225, 0.193495976747
+rescu, 7306, 0.187942518519
+run, 7543, 0.174842209244
+team, 8732, 0.168633216071
+jay, 4832, 0.161994566605
+inning, 4657, 0.133768638612
+game, 3761, 0.13195738132
+bullpen, 1391, 0.116565697847
+let, 5225, 0.114566862235
+cito, 1777, 0.109913119428
+era, 3164, 0.108707751509
+altern, 450, 0.108380431661
+pitch, 6643, 0.105946050217
+win, 9770, 0.105490796757
+blue, 1176, 0.100326478959
+support, 8576, 0.0999558486709
+embarrass, 3062, 0.0960477822175
+ballgam, 879, 0.0905410438103
+viola, 9525, 0.0877686591388
+veteran, 9490, 0.0877686591388
+august, 784, 0.0786890993491
+hate, 4202, 0.0731468819353
+didn, 2625, 0.0727085939285
+replac, 7288, 0.0700477281413
+think, 8871, 0.0664686396847
+east, 2965, 0.0660134035802
+went, 9704, 0.0647978266419
+seri, 7805, 0.0591756252291
+perform, 6539, 0.058914160381
+came, 1472, 0.0584885901014
+save, 7646, 0.0584049535213
+ball, 877, 0.056751519031
+good, 3948, 0.0559519838962
+allow, 432, 0.055607209626
+themselev, 8841, 0.054956559714
+stottlemy, 8420, 0.054956559714
+inordin, 4660, 0.054956559714
+inexperienc, 4618, 0.054956559714
+gaston, 3787, 0.054956559714
+make, 5459, 0.0545929140917
+project, 6909, 0.0538599145173
+trendi, 9085, 0.0536337341849
+rememb, 7269, 0.0534392790809
+yes, 9951, 0.052858765412
+pennent, 6525, 0.0525153011362
+climb, 1819, 0.0525153011362
+underestim, 9238, 0.0506919010544
+lousi, 5365, 0.0506919010544
+everi, 3235, 0.0497006374306
+nowaday, 6130, 0.0492359442078
+playoff, 6685, 0.0474862041824
+probabl, 6885, 0.0474572334162
+fell, 3436, 0.0469856296298
+victori, 9504, 0.0452705219051
+collaps, 1896, 0.0445443710519
+exceed, 3260, 0.044206847254
+cruis, 2255, 0.0438843295694
+shell, 7873, 0.0432793582051
+day, 2402, 0.0430299977297
+help, 4249, 0.0426308513653
+presenc, 6836, 0.0424571072286
+1st, 57, 0.0424571072286
+furthermor, 3732, 0.0422025037987
+milwauke, 5730, 0.0419565326759
+dump, 2916, 0.0419565326759
+soft, 8097, 0.0417186276499
+toss, 9010, 0.0412650141235
+wear, 9676, 0.0410484173454
+threw, 8894, 0.0408380996273
+earn, 2954, 0.0406337071468
+fifth, 3471, 0.0402414249513
+aaa, 157, 0.0402414249513
+anymor, 553, 0.0400529610245
+percentag, 6534, 0.0395152740981
+jump, 4929, 0.0395152740981
+decent, 2440, 0.0386991953494
+opposit, 6270, 0.038106584215
+greg, 4033, 0.0379656972011
+impact, 4534, 0.0376918740163
+starter, 8335, 0.0374280102748
+hasn, 4195, 0.0371734068449
+typic, 9178, 0.0369274357221
+prevent, 6853, 0.0368075081448
+year, 9943, 0.0364686562755
+wors, 9846, 0.0362359171697
+serv, 7810, 0.0354058182171
+hole, 4343, 0.0349314366649
+folk, 3576, 0.0346610158029
+express, 3315, 0.0346610158029
+charg, 1664, 0.0344861771443
+batter, 949, 0.0344861771443
+easili, 2962, 0.0343154527207
+btw, 1355, 0.0342315737145
+offens, 6202, 0.0341486533464
+previous, 6855, 0.0339856025917
+abil, 177, 0.0339856025917
+jack, 4808, 0.033905431022
+extra, 3325, 0.0338261356618
+forget, 3604, 0.0330774872612
+consist, 2061, 0.0330774872612
+doubt, 2830, 0.0324639850866
+perfect, 6538, 0.0317191826724
+reach, 7128, 0.0315443440138
+know, 5052, 0.0312562430318
+frank, 3655, 0.0310437694612
+rest, 7324, 0.0309902234378
+averag, 816, 0.0308843025313
+record, 7184, 0.0306769897638
+wouldn, 9854, 0.0303278628077
+control, 2107, 0.030279331167
+argument, 631, 0.030279331167
+month, 5847, 0.029902339711
+level, 5229, 0.0297658694826
+valu, 9414, 0.0296762948482
+net, 6010, 0.0292024767606
+mention, 5632, 0.0290375729978
+exact, 3253, 0.028797038708
+posit, 6761, 0.0284882494159
+matter, 5553, 0.0281558804694
+assum, 710, 0.0281558804694
+complet, 1975, 0.0280483903074
+season, 7747, 0.0279424694009
+respons, 7323, 0.0279424694009
+relat, 7247, 0.0277351566333
+import, 4551, 0.0275005487912
+close, 1830, 0.0275005487912
+guy, 4100, 0.0272413979132
+larg, 5124, 0.0268692418145
+bad, 861, 0.0267196395405
+pretti, 6851, 0.0266021397541
+abl, 180, 0.0265440958187
+given, 3887, 0.0260415944427
+happen, 4159, 0.0255716526699
+ask, 689, 0.0251303066358
+player, 6683, 0.0250357717058
+fact, 3350, 0.0248962394587
+place, 6657, 0.0248503187153
+cours, 2190, 0.0248274668752
+high, 4292, 0.0245367626841
+basebal, 924, 0.0244496090448
+littl, 5308, 0.0243849240407
+world, 9841, 0.0242995647828
+line, 5285, 0.024049351945
+number, 6156, 0.0235926336845
+start, 8334, 0.0229661396123
+lot, 5356, 0.0226382512118
+believ, 1009, 0.022405791179
+differ, 2633, 0.0223407194134
+better, 1060, 0.0217053647639
+realli, 7150, 0.0215294663736
+tri, 9087, 0.0210124974889
+thing, 8869, 0.0198212217615
+need, 5993, 0.0195076657303
+way, 9666, 0.0189793790902
+say, 7653, 0.0184206144487
+look, 5341, 0.0181067163741
+time, 8936, 0.0172391076093

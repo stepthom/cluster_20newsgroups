@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104599
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jplee@cymbal.calpoly.edu (JASON LEE)
+Subject: Re: Ryan out for 2-5 weeks!!
+Organization: California Polytechnic State University, San Luis Obispo
+Lines: 12
+
+And then cs1442aq@news.uta.edu (cs1442aq) quoth:
+>Nolan Ryan has torn cartlidge inhis right knee.  Is having surgery and
+>is expected to miss 2-5 weeks.  
+
+That's too bad.  I really had hoped Nolan could end his career with a great
+year.  I suppose there is still hope.
+
+-- 
+Jason Lee   jplee@oboe.calpoly.edu   jlee@cash.busfac.calpoly.edu    Giants
+e ^ i*pi + 1 = 0    The most beautiful equation in mathematics.      Magic
+For all sad words of tongue and pen, the saddest are these:          Number:
+     "It might have been."            John Greenleaf Whittier        155
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ryan week     nolan ryan torn cartlidg inhi right
+knee surgeri expect miss week  that bad realli
+hope nolan could end career great year suppos
+still hope   cash busfac calpoli edu giant beauti
+equat mathemat magic sad word tongu pen saddest
+number might john greenleaf whittier
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+nolan, 6094, 0.350600368281
+ryan, 7557, 0.296464853045
+saddest, 7574, 0.209406362791
+greenleaf, 4029, 0.209406362791
+busfac, 1422, 0.209406362791
+week, 9691, 0.208647136593
+whittier, 9740, 0.205039577589
+torn, 9002, 0.205039577589
+hope, 4372, 0.202516181082
+calpoli, 1467, 0.20125689619
+tongu, 8983, 0.192235729095
+surgeri, 8590, 0.18977086813
+knee, 5042, 0.187503415844
+cash, 1542, 0.183449650742
+pen, 6511, 0.175300184141
+beauti, 978, 0.154965196391
+sad, 7571, 0.151096280432
+magic, 5435, 0.151096280432
+equat, 3157, 0.148782502656
+mathemat, 5545, 0.146643522385
+career, 1517, 0.131161015453
+giant, 3865, 0.128870634772
+miss, 5770, 0.119774558781
+suppos, 8577, 0.115180693961
+expect, 3290, 0.109790609492
+john, 4878, 0.107116169045
+bad, 861, 0.104323568297
+word, 9829, 0.101466385823
+edu, 3001, 0.100439895593
+end, 3091, 0.0976575836008
+great, 4016, 0.0942196695091
+number, 6156, 0.0921145559525
+right, 7399, 0.0861715555412
+realli, 7150, 0.0840591712405
+year, 9943, 0.0711937065596

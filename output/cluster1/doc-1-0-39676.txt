@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39676
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ball@stdank.as.ntu.edu.tw (Chin Hsu)
+Subject: How to print out NCAR3.0's cgm file
+Nntp-Posting-Host: stdank.as.ntu.edu.tw
+Organization: Subtropical Meteorology Data Bank, Dept. of Atmospheric Sciences,
+X-Newsreader: Tin 1.1 PL4
+Lines: 17
+
+
+
+I have a lots of .cgm files produced by NCAR Graph Utility V3.00.
+
+They are all color graphs, and I want to print them out. 
+
+The printers I own are Postscript, and HP 7475a. Anyone who have 
+
+experiences in this please tell me, e-mail me will be very nice.
+
+Or if someone knows how to convert those .cgm  files into .gif
+
+pcx, .bmp .... , it will helps a lot. 
+
+--
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ print ncar3 cgm file        lot cgm file produc
+ncar graph util  color graph want print  printer
+postscript 7475a anyon  experi pleas tell mail
+nice  someon know convert cgm file gif  pcx bmp
+help lot
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cgm, 1633, 0.596394822392
+graph, 3996, 0.344985982688
+file, 3477, 0.3041156405
+print, 6871, 0.280618083607
+ncar, 5974, 0.187821594556
+lot, 5356, 0.182811372571
+bmp, 1183, 0.175943456368
+printer, 6872, 0.174747572228
+pcx, 6490, 0.168445864283
+postscript, 6772, 0.16661432459
+util, 9384, 0.137549818547
+produc, 6895, 0.129787971619
+gif, 3869, 0.123657843292
+experi, 3295, 0.122651039968
+nice, 6047, 0.118591145379
+convert, 2115, 0.11774195278
+color, 1907, 0.11774195278
+mail, 5447, 0.10070928115
+tell, 8767, 0.0957291483255
+someon, 8124, 0.0957291483255
+pleas, 6688, 0.0861783267574
+help, 4249, 0.0860645592616
+want, 9634, 0.0798013360096
+anyon, 554, 0.0787212102216
+know, 5052, 0.0631011273421

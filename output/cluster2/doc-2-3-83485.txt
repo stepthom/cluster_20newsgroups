@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83485
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mathew@mantis.co.uk (mathew)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: Mantis Consultants, Cambridge. UK.
+Lines: 31
+X-Newsreader: rusnews v1.01
+
+frank@D012S658.uucp (Frank O'Dwyer) writes:
+> In article <1qg8bu$kl5@fido.asd.sgi.com> livesey@solntze.wpd.sgi.com (Jon
+> Livesey) writes:
+> #And this "objective morality" is........?
+> 
+> And here, children, we have a person playing the "objective morality doesn't 
+> exist, show me one" game.  You can play this with just about anything:
+> 
+> And this "objective medicine" is.....?
+> And this "objective physics" is.....?
+> And this "objective reality" is.....?
+
+Precisely.
+
+There's no objective medicine; some people get marvellous results from
+alternative therapy, others only respond to traditional medicine.
+
+There's no objective physics; Einstein and Bohr have told us that.
+
+There's no objective reality.  LSD should be sufficient to prove that.
+
+> One wonders just what people who ask such questions understand by the term 
+> "objective", if anything.
+
+I consider it to be a useful fiction; an abstract ideal we can strive
+towards.  Like an ideal gas or a light inextensible string, it doesn't
+actually exist; but we can talk about things as if they were like it, and not
+be too far wrong.
+
+
+mathew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral      solntz wpd sgi com
+jon  object moral  children person play object
+moral doesn't exist show one game play anyth
+object medicin object physic object realiti
+precis  there object medicin peopl get marvel
+result altern therapi other respond tradit medicin
+there object physic einstein bohr told  there
+object realiti lsd suffici prove  one wonder peopl
+ask question understand term object anyth  consid
+use fiction abstract ideal strive toward like
+ideal gas light inextens string doesn't actual
+exist talk thing like far wrong   mathew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+object, 6173, 0.598038018152
+medicin, 5609, 0.322892350009
+moral, 5855, 0.242692456524
+ideal, 4483, 0.205242682826
+realiti, 7148, 0.169036565273
+physic, 6613, 0.156894306979
+therapi, 8852, 0.130599510548
+marvel, 5526, 0.130599510548
+bohr, 1201, 0.130599510548
+exist, 3283, 0.129390993597
+lsd, 5375, 0.128190139903
+strive, 8453, 0.124163854312
+anyth, 555, 0.123713784728
+play, 6681, 0.119009423738
+doesn, 2793, 0.117058302384
+mathew, 5547, 0.116847853858
+einstein, 3018, 0.111657068928
+jon, 4887, 0.109937341867
+string, 8450, 0.107630783336
+fiction, 3463, 0.102082690152
+abstract, 199, 0.102082690152
+suffici, 8523, 0.0987047429509
+peopl, 6530, 0.0979095448312
+sgi, 7831, 0.0978453673324
+gas, 3780, 0.0951239979527
+tradit, 9037, 0.0927597924808
+altern, 450, 0.0898432204312
+precis, 6809, 0.0875690075511
+respond, 7322, 0.0864193527038
+children, 1707, 0.0813964152845
+told, 8973, 0.0812285677741
+prove, 6947, 0.0800954211413
+com, 1917, 0.0788819571132
+like, 5272, 0.0759852015854
+term, 8795, 0.0741367127771
+light, 5267, 0.0718121197849
+result, 7332, 0.0700204345936
+wrong, 9869, 0.0662290699009
+wonder, 9821, 0.0655157961111
+understand, 9246, 0.0646954967987
+christian, 1732, 0.0640392980385
+consid, 2059, 0.0632821179667
+ask, 689, 0.0624961806476
+talk, 8684, 0.0610201051438
+far, 3386, 0.0602726353036
+person, 6562, 0.0601164137455
+actual, 254, 0.0580142569812
+game, 3761, 0.0546938036494
+question, 7032, 0.0546171857964
+thing, 8869, 0.0492930975262
+say, 7653, 0.0458099483189
+year, 9943, 0.0453466757011
+use, 9363, 0.0398497735418

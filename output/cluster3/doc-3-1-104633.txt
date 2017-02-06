@@ -1,0 +1,73 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104633
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: brekke@msus1.msus.edu
+Subject: Re: Devon White, why is he not playing?
+Organization: Minnesota State University System
+Lines: 15
+
+In article <C5r5rt.FIr@helios.physics.utoronto.ca>, wyllie@helios.physics.utoronto.ca (Andrew Wyllie) writes:
+> In article <1993Apr19.190341.10176@bmerh85.bnr.ca> hsslee@bnr.ca writes:
+>>Devon White has not been in the Blue Jays line up
+>>lately. Does anybody know why he is not playing? 
+> 
+> During one of the games last week (Wednesday?), both White and Sprauge
+> were not playing because they had the flu.  I guess White is probably
+> still sick.  I hope White gets back in the lineup soon, watching
+> Darrin Jackson play center is painful.
+> 
+> andrew
+
+I heard he had a strained abdominal muscle or something like that.
+
+--Dan Brekke--
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ devon white play      devon white blue jay line
+late anybodi know play  one game last week
+wednesday white spraug play flu guess white
+probabl still sick hope white get back lineup soon
+watch darrin jackson play center pain  andrew
+heard strain abdomin muscl someth like  dan brekk
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+white, 9737, 0.554539299699
+devon, 2596, 0.361578367758
+play, 6681, 0.341341839493
+flu, 3559, 0.195998796116
+strain, 8424, 0.180789183879
+darrin, 2375, 0.180789183879
+muscl, 5930, 0.175596613772
+wednesday, 9688, 0.161454207452
+andrew, 505, 0.152361409132
+jackson, 4812, 0.147965088794
+pain, 6389, 0.142846134884
+lineup, 5287, 0.140928511386
+dan, 2350, 0.140319634454
+sick, 7933, 0.138574518767
+soon, 8136, 0.123302479297
+blue, 1176, 0.119269165785
+late, 5139, 0.118741064277
+jay, 4832, 0.115548499386
+watch, 9655, 0.107308166532
+anybodi, 552, 0.105211138047
+center, 1606, 0.104447776622
+guess, 4079, 0.100287596596
+heard, 4224, 0.0983151315185
+week, 9691, 0.0952937594681
+hope, 4372, 0.0924936165601
+line, 5285, 0.0857703621391
+probabl, 6885, 0.084626481943
+game, 3761, 0.0784361563988
+someth, 8126, 0.0761708832103
+know, 5052, 0.0557366221359
+like, 5272, 0.054485030825

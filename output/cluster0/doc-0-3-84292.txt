@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84292
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: markbr%radian@natinst.com (mark)
+Subject: Re: RFD: misc.taoism
+Nntp-Posting-Host: zippy.radian.com
+Organization: n.o.y.b
+Lines: 16
+
+In article <1993Apr22.004331.22548@coe.montana.edu> uphrrmk@gemini.oscs.montana.edu (Jack Coyote) writes:
+>Sunlight shining off of the ocean.
+>
+The universe, mirrored in a puddle.
+>
+>Aleph null bottles of beer on the wall, Aleph null bottles of beer!
+>Take one down, pass it around  ...  Aleph null bottles of beer on the wall!
+>
+Isn't it amazing how there *always* seems to be *another* bottle of bheer there?
+
+Aleph *one* bottles of beer on the wall, Aleph *one* null bottles of beer!
+
+	you, too, are a puddle.
+	As above, so below.
+
+	mark
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rfd misc taoism      sunlight shine ocean
+univers mirror puddl  aleph null bottl beer wall
+aleph null bottl beer take one pass around aleph
+null bottl beer wall  isn't amaz alway seem anoth
+bottl bheer  aleph one bottl beer wall aleph one
+null bottl beer  puddl   mark
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bottl, 1246, 0.528225214135
+aleph, 394, 0.518572465878
+beer, 990, 0.396699221431
+null, 6155, 0.371714156866
+puddl, 6977, 0.215081742473
+wall, 9619, 0.201778060471
+taoism, 8698, 0.0983215161961
+rfd, 7373, 0.0915271687309
+shine, 7886, 0.0902594749261
+sunlight, 8544, 0.0837091841761
+ocean, 6194, 0.0793398442862
+misc, 5757, 0.0706634510747
+mirror, 5755, 0.0703891997545
+amaz, 459, 0.0703891997545
+pass, 6448, 0.0593937813437
+mark, 5512, 0.0541600963016
+alway, 457, 0.0502339374441
+isn, 4783, 0.0487138097605
+univers, 9282, 0.0442005396293
+anoth, 533, 0.0428675534474

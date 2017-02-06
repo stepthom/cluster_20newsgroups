@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60191
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Alaska Pipeline and Space Station!
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 20
+
+In article <1993Apr5.160550.7592@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+
+>>Why can't the government just be a tennant?
+
+>I think this would be a great way to build it, but unfortunately
+>current spending rules don't permit it to be workable. 
+
+Actually, that is no longer true. In the last few years Congress has
+ammended laws to provide whatever is needed. Note that both Spacehab
+and Comet are funded this way.
+
+The problems aren't legal nor technical. The problem is NASA's culture.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Allen W. Sherzer | "A great man is one who does nothing but leaves        |
+|  aws@iti.org     |  nothing undone"                                       |
++----------------------71 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ alaska pipelin space station      can't govern
+tennant  think great way build unfortun current
+spend rule don't permit workabl  actual longer
+true last year congress ammend law provid whatev
+need note spacehab comet fund way  problem aren't
+legal technic problem nasa cultur  allen    allen
+sherzer great man one noth leav  day first flight
+dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+allen, 426, 0.302481433384
+tennant, 8787, 0.235414268597
+pipelin, 6637, 0.214487899896
+spacehab, 8169, 0.210931986664
+workabl, 9834, 0.204873664452
+great, 4016, 0.200827692611
+sherzer, 7880, 0.199830240102
+problem, 6887, 0.189962917774
+alaska, 378, 0.186824745187
+dcx, 2412, 0.183947295751
+permit, 6552, 0.181320390229
+congress, 2040, 0.169079249263
+cultur, 2291, 0.161029631708
+way, 9666, 0.157948629027
+comet, 1926, 0.157402430678
+legal, 5200, 0.151240716692
+unfortun, 9264, 0.143499014758
+spend, 8222, 0.141416094554
+fund, 3723, 0.137051134
+longer, 5337, 0.134813787023
+leav, 5184, 0.134545426427
+technic, 8737, 0.134015757256
+whatev, 9718, 0.131740929991
+aren, 623, 0.131740929991
+flight, 3544, 0.131257873792
+law, 5153, 0.129625564466
+station, 8346, 0.127436898556
+rule, 7537, 0.125994080811
+govern, 3966, 0.125994080811
+build, 1378, 0.121862251673
+nasa, 5956, 0.113619057726
+provid, 6949, 0.111678966261
+noth, 6119, 0.109856056393
+current, 2299, 0.109387979291
+note, 6118, 0.108927048684
+true, 9121, 0.107694617632
+man, 5471, 0.104273182879
+actual, 254, 0.0970695261999
+day, 2402, 0.0895251777749
+space, 8164, 0.0856369877097
+need, 5993, 0.0811725463455
+year, 9943, 0.0758741136075
+think, 8871, 0.0691449813873
+don, 2811, 0.0684787676902

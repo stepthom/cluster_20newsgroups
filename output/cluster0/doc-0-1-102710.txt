@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102710
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ccox@math.nwu.edu (Christopher L. Cox)
+Subject: Re: Yogi-isms
+Article-I.D.: news.1993Apr6.213008.1009
+Organization: Dept of Math, Northwestern Univ
+Lines: 13
+Nntp-Posting-Host: poincare.math.nwu.edu
+
+> 
+> Here's one I remember: (sort of)
+> Yogi's asleep in a hotel room late at night and gets a call from someone.
+> After he answers the phone the person at the other end asks if he woke Yogi
+> up. Yogi answered, "No, the phone did."
+> 
+> Kevin
+
+One of my favorites came back in the seventies when two
+streakers interupted a game Yogi was at, dashing across the
+field unclad.  Later someone who wasn't present asked Yogi
+if they were men or women.  He replied, "I couldn't tell,
+they had bags over their heads."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yogi ism articl news 1993apr6      here one
+rememb sort yogi asleep hotel room late night get
+call someon answer phone person end ask woke yogi
+yogi answer phone  kevin  one favorit came back
+seventi two streaker interupt game yogi dash
+across field unclad later someon wasn't present
+ask yogi men women repli couldn't tell bag head
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yogi, 9956, 0.798412510949
+phone, 6601, 0.172096216052
+ism, 4782, 0.144954548522
+answer, 535, 0.144750462561
+dash, 2383, 0.139313352924
+asleep, 691, 0.139313352924
+ask, 689, 0.13583809921
+seventi, 7822, 0.134937701677
+hotel, 4390, 0.131362534289
+someon, 8124, 0.128155622443
+1993apr6, 49, 0.116200952073
+bag, 864, 0.112751888859
+kevin, 4993, 0.106335527845
+women, 9819, 0.103774179508
+favorit, 3411, 0.103378021963
+room, 7476, 0.0982332865923
+men, 5629, 0.0941616589776
+late, 5139, 0.0899830860875
+couldn, 2176, 0.0892063852888
+wasn, 9652, 0.0850990938907
+repli, 7290, 0.0850990938907
+head, 4215, 0.0827723225073
+later, 5140, 0.0822313466393
+night, 6063, 0.079612911998
+came, 1472, 0.0790378229361
+present, 6837, 0.0784791204274
+sort, 8144, 0.0754249093739
+field, 3466, 0.0737974118615
+rememb, 7269, 0.0722144997941
+news, 6031, 0.0677271153009
+end, 3091, 0.0676001949126
+person, 6562, 0.0653327874592
+tell, 8767, 0.0640778112216
+articl, 665, 0.0631992578696
+game, 3761, 0.059439650946

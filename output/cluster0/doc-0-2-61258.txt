@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61258
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: vamwendt@atlas.cs.upei.ca (Michael Wendt)
+Subject: Historic shuttle flights
+Organization: University of Prince Edward Island
+Lines: 7
+
+        Would someone please send me a list of the historic space flights?  I 
+am not looking for a list of all flights, just the ones in which something 
+monumental happened.  Or better yet, is there an ftp site with the list of all
+shuttle flights?
+
+Thanks (if you helped),
+vamwendt@upei.ca
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ histor shuttl flight    someon pleas send list
+histor space flight look list flight one someth
+monument happen better yet ftp site list shuttl
+flight  thank help
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+flight, 3544, 0.62255499571
+list, 5298, 0.393331790794
+histor, 4313, 0.374642985884
+shuttl, 7929, 0.288168106879
+monument, 5849, 0.264627068649
+site, 7994, 0.147537154064
+ftp, 3709, 0.144706645933
+send, 7785, 0.137523003059
+happen, 4159, 0.126169687593
+someon, 8124, 0.116979587891
+better, 1060, 0.107093551078
+someth, 8126, 0.105378340816
+pleas, 6688, 0.105308626741
+help, 4249, 0.105169604562
+space, 8164, 0.101543878809
+thank, 8832, 0.100250941224
+look, 5341, 0.0893379390744

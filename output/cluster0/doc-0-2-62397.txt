@@ -1,0 +1,39 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62397
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: DC-X Publicity
+Organization: Express Access Online Communications USA
+Lines: 4
+Distribution: sci
+NNTP-Posting-Host: access.digex.net
+
+
+Even better.  Make up pete conrad in a Martian Suit,
+and have him get ou;t  and throw a football
+to the refs.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ public       even better make pete conrad martian
+suit get throw footbal ref
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+conrad, 2049, 0.476957982516
+ref, 7212, 0.386086448685
+martian, 5522, 0.378209372815
+footbal, 3589, 0.335505080522
+pete, 6574, 0.324156977548
+suit, 8529, 0.297360258259
+throw, 8899, 0.264482192648
+public, 6973, 0.226618948208
+better, 1060, 0.176475406771
+make, 5459, 0.147955844495

@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61363
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dempsey@stsci.edu
+Subject: Re: HST Servicing Mission
+Distribution: na
+Organization: Space Telescope Science Institute
+Lines: 22
+
+In article <1993Apr28.132251.1@stsci.edu>, zellner@stsci.edu writes:
+> 
+> I have never heard of any serious consideration that HST might be brought 
+> down for refurbishment.  You would have the horrendous cost of transporting,
+
+Back in January and February there were several articles (Wash Post, Time...)
+saying that NASA was "considering" the option just as it is now "considering"
+a followup mission 6-12 months after the servicing mission.  However, the
+down time was estimated to be a year+ (servicing, checkout, sceheduling
+and training another shuttle, orbit verification...) and to be quite
+expensive.  I think it may have been more a mental exercise than a
+real plan.  Don't know.
+ 
+
+----------------------------------------------------------------------------
+Robert Dempsey                                 (410) 338-1334
+STScI/PODPS                                                                   
+
+"He which hath no stomach for this fight, Let him depart; his passport
+shall be made, and crowns for convoy put into his purse: We would not die
+in this man's company that fears his fellowship to die with us." -Shakespeare
+------------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hst servic mission       never heard serious
+consider hst might brought refurbish horrend cost
+transport  back januari februari sever articl wash
+post time say nasa consid option consid followup
+mission month servic mission howev time estim year
+servic checkout scehedul train anoth shuttl orbit
+verif quit expens think mental exercis real plan
+don't know    robert dempsey stsci podp  hath
+stomach fight let depart passport shall made crown
+convoy put purs die man compani fear fellowship
+die shakespear
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+servic, 7813, 0.283685980371
+mission, 5772, 0.272503831565
+hst, 4416, 0.236271245272
+die, 2628, 0.187982087646
+shakespear, 7844, 0.169869273977
+crown, 2247, 0.169869273977
+stomach, 8408, 0.166326962167
+horrend, 4379, 0.166326962167
+hath, 4204, 0.166326962167
+checkout, 1685, 0.166326962167
+refurbish, 7221, 0.163258472106
+purs, 6994, 0.163258472106
+consid, 2059, 0.16118777776
+verif, 9471, 0.160551872054
+fellowship, 3438, 0.160551872054
+stsci, 8463, 0.158130735804
+januari, 4824, 0.152101725531
+wash, 9650, 0.150398758374
+februari, 3423, 0.147330268313
+followup, 3579, 0.145937142353
+mental, 5631, 0.138990866778
+exercis, 3279, 0.13447055458
+fight, 3474, 0.129342818278
+transport, 9065, 0.123567728164
+estim, 3201, 0.123567728164
+fear, 3417, 0.119807599174
+shall, 7846, 0.113414614485
+brought, 1343, 0.113088658089
+train, 9042, 0.112767260673
+option, 6276, 0.111224430336
+time, 8936, 0.109199731777
+expens, 3294, 0.108418566455
+consider, 2060, 0.108418566455
+depart, 2535, 0.107896281686
+robert, 7437, 0.10344985875
+compani, 1958, 0.0955966169722
+month, 5847, 0.0947069752668
+plan, 6660, 0.093850495736
+shuttl, 7929, 0.0924903626614
+heard, 4224, 0.0873098604563
+cost, 2169, 0.0873098604563
+nasa, 5956, 0.0864816792718
+sever, 7823, 0.0848150549041
+quit, 7043, 0.0841624480257
+orbit, 6280, 0.0831729607384
+man, 5471, 0.0793680227493
+howev, 4406, 0.0792192873393
+real, 7144, 0.0787787714733
+articl, 665, 0.0740619191302
+anoth, 533, 0.0740619191302
+let, 5225, 0.0725714515517
+post, 6766, 0.0671130686727
+say, 7653, 0.0583419456086
+year, 9943, 0.0577519378295
+think, 8871, 0.0526300272443
+don, 2811, 0.0521229355606
+know, 5052, 0.0494975353827

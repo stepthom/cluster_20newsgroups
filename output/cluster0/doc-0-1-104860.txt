@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104860
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ts@chainsaw.ecn.purdue.edu (Thomas Ruschak)
+Subject: Re: Jack Morris
+Organization: Purdue University Engineering Computer Network
+Lines: 38
+
+In article <1993Apr20.051540.1367@ramsey.cs.laurentian.ca> maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+>In <1993Apr20.030713.1715@cs.cornell.edu> tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+>
+>On the contrary.  It's statistically impaired, opinionated little assholes
+>like yourself, who, while springing up all over the continent like some
+>dirty virus, are diligently working at destroying the glory of sport.
+>
+>cordially, as always,                      maynard@ramsey.cs.laurentian.ca 
+>                                           "So many morons...
+>rm                                                   ...and so little time." 
+
+	Heheheheh.. Sorry, Roger, I wronged you.. You're not boring ALL
+the time..  This one is a classic. 'cordially, as always' HEHEHEHEHHE!
+
+	Are you a jerk?
+
+		Do people hate you?
+
+			Are you no fun at parties?
+
+	Well! Come to the ROGER MAYNARD SCHOOL OF CORDIALITY!
+
+	We can teach you to be 'cordial' with the best of them! Use
+such time honored 'cordiality' techniques as:
+
+	1) Calling people assholes!
+	2) Comparing them to viruses!
+
+	For advanced students:
+
+	3) Comparing them to DIRTY viruses. What is a DIRTY virus,
+		and how can you tell it from a clean one? We know,
+		and here at the ROGER MAYNARD SCHOOL OF CORDIALITY,
+		we can teach you to know, too!
+
+	HEHEHEH.. Thanks, Roger.. This made my evening :-)
+
+Tom
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jack morri       contrari it statist impair
+opinion littl asshol like spring contin like dirti
+virus dilig work destroy glori sport   mani moron
+littl time  heheheheh sorri roger wrong you'r bore
+time one classic cordial alway hehehehehh  jerk
+peopl hate  fun parti  well come roger maynard
+school cordial  teach cordial best use time honor
+cordial techniqu  call peopl asshol compar virus
+advanc student  compar dirti virus dirti virus
+tell clean one know roger maynard school cordial
+teach know  heheheh thank roger made even  tom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cordial, 2139, 0.56332272171
+virus, 9537, 0.389399306258
+roger, 7458, 0.285698530781
+dirti, 2671, 0.276133765556
+maynard, 5565, 0.207843429932
+asshol, 702, 0.207843429932
+school, 7685, 0.140013948805
+teach, 8729, 0.138051810864
+compar, 1960, 0.125157735174
+dilig, 2646, 0.115983615889
+time, 8936, 0.106023896716
+impair, 4535, 0.103921714966
+jerk, 4853, 0.10235456643
+littl, 5308, 0.0999813805722
+moron, 5865, 0.0984521199553
+contin, 2089, 0.0973498265645
+bore, 1231, 0.0973498265645
+glori, 3907, 0.0899657478637
+parti, 6438, 0.0870398486528
+classic, 1790, 0.0870398486528
+contrari, 2100, 0.0865178949577
+honor, 4364, 0.0850536821544
+destroy, 2574, 0.0833017591429
+peopl, 6530, 0.0807118067182
+clean, 1799, 0.0769978807669
+fun, 3721, 0.0767298707411
+techniqu, 8740, 0.076207917046
+hate, 4202, 0.0749779477296
+statist, 8348, 0.0747437042428
+student, 8468, 0.0740623261489
+spring, 8266, 0.0740623261489
+morri, 5868, 0.0727866172336
+sport, 8257, 0.0719931409011
+jack, 4808, 0.0695083527186
+tom, 8976, 0.0670991959907
+know, 5052, 0.0640773439485
+like, 5272, 0.0626384579192
+sorri, 8142, 0.0573559210595
+advanc, 285, 0.0562433162964
+alway, 457, 0.0561764660535
+opinion, 6266, 0.0557167425813
+wrong, 9869, 0.0545959834476
+best, 1052, 0.0497289682139
+tell, 8767, 0.0486050711098
+come, 1923, 0.043132392414
+mani, 5479, 0.0421915270797
+work, 9833, 0.0421395194952
+thank, 8832, 0.0416543109346
+use, 9363, 0.0328501907083

@@ -1,0 +1,138 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38668
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ferdinan@oeinck.waterland.wlink.nl (Ferdinand Oeinck)
+Subject: Re: detecting double points in bezier curves
+Organization: My own node in Groningen, NL.
+Lines: 34
+
+renner@adobe.com (John Renner) writes:
+
+> In article <19930420.090030.915@almaden.ibm.com> capelli@vnet.IBM.COM (Ron Ca
+> >In <ia522B1w165w@oeinck.waterland.wlink.nl> Ferdinand Oeinck writes:
+> >>I'm looking for any information on detecting and/or calculating a double
+> >>point and/or cusp in a bezier curve.
+> >
+> >See:
+> >   Maureen Stone and Tony DeRose,
+> >   "A Geometric Characterization of Parametric Cubic Curves",
+> >   ACM TOG, vol 8, no 3, July 1989, pp. 147-163.
+> 
+> I've used that reference, and found that I needed to go to their
+> original tech report:
+> 
+> 	Maureen Stone and Tony DeRose,
+> 	"Characterizing Cubic Bezier Curves"
+> 	Xerox  EDL-88-8, December 1988
+> 
+
+First, thanks to all who replied to my original question.
+
+I've implemented the ideas from the article above and I'm very satisfied
+with the results. I needed it for my bezier curve approximation routine.
+In some cases (generating offset curves) loops can occur. I now have a
+fast method of detecting the generation of a curve with a loop. Although
+I did not follow the article above strictly. The check if the fourth control
+point lies in the the loop area, which is bounded by two parabolas and
+one ellips is too complicated. Instead I enlarged the loop-area and
+surrounded it by for straight lines. The check is now simple and fast and
+my approximation routine never ever outputs self-intersecting bezier curves
+again!
+Ferdinand.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ detect doubl point bezier curv      vnet ibm com
+ron  i'm look inform detect calcul doubl point
+cusp bezier curv  see maureen stone toni deros
+geometr character parametr cubic curv acm tog vol
+i'v use refer found need origin tech report
+maureen stone toni deros character cubic bezier
+curv xerox edl decemb   first thank repli origin
+question  i'v implement idea articl i'm satisfi
+result need bezier curv approxim routin case
+generat offset curv loop occur fast method detect
+generat curv loop although follow articl strict
+check fourth control point lie loop area bound two
+parabola one ellip complic instead enlarg loop
+area surround straight line check simpl fast
+approxim routin never ever output self intersect
+bezier curv  ferdinand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+curv, 2306, 0.52577425674
+bezier, 1065, 0.386182331029
+loop, 5344, 0.296913043735
+detect, 2579, 0.198801916352
+deros, 2551, 0.18591282558
+maureen, 5556, 0.181437832365
+cubic, 2285, 0.154472932411
+character, 1662, 0.147411917
+stone, 8409, 0.139595626314
+toni, 8984, 0.127057661846
+approxim, 593, 0.127057661846
+routin, 7499, 0.120447017046
+doubl, 2828, 0.114430606502
+fast, 3397, 0.108321575057
+generat, 3819, 0.106324986222
+point, 6710, 0.103920959647
+check, 1682, 0.100092761893
+area, 622, 0.0997970413317
+ferdinand, 3445, 0.0956948873178
+tog, 8968, 0.0929564127902
+cusp, 2309, 0.0888271397559
+origin, 6293, 0.0872884891025
+xerox, 9893, 0.0857429450471
+enlarg, 3115, 0.0844499339489
+parametr, 6422, 0.0812301328345
+articl, 665, 0.0791057367421
+offset, 6209, 0.0772364662057
+acm, 240, 0.0742282609338
+decemb, 2438, 0.0737059584998
+vol, 9570, 0.0732049805799
+tech, 8736, 0.0732049805799
+geometr, 3843, 0.0727236539931
+strict, 8445, 0.0722604950704
+satisfi, 7635, 0.0705650789103
+fourth, 3630, 0.0690757075456
+bound, 1250, 0.0690757075456
+surround, 8595, 0.0687299873644
+intersect, 4722, 0.0680664606465
+complic, 1978, 0.0674369762662
+need, 5993, 0.0659925816913
+ron, 7472, 0.0642171751518
+straight, 8422, 0.062258153325
+output, 6329, 0.0618622398025
+lie, 5258, 0.0593995578889
+ibm, 4472, 0.0593995578889
+implement, 4544, 0.0592412040164
+calcul, 1451, 0.0590848674457
+occur, 6192, 0.0587780450937
+self, 7776, 0.05695137362
+method, 5666, 0.0552475373877
+com, 1917, 0.0536514922551
+repli, 7290, 0.0532587465837
+instead, 4682, 0.0526922342432
+simpl, 7965, 0.0523285852716
+control, 2107, 0.0512160517619
+report, 7291, 0.0488429487485
+result, 7332, 0.0476243356755
+refer, 7213, 0.0452451956423
+case, 1540, 0.0426687334325
+idea, 4482, 0.0419559505868
+line, 5285, 0.0406783375519
+inform, 4637, 0.0403364699072
+follow, 3578, 0.0403364699072
+question, 7032, 0.0371478298459
+thank, 8832, 0.0343678248054
+look, 5341, 0.0306266514918
+use, 9363, 0.0271037876694

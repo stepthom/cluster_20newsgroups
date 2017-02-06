@@ -1,0 +1,148 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61282
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: 18084TM@msu.edu (Tom)
+Subject: McElwaine's secret messages
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 32
+
+Robert MacElwaine sez (again!);
+
+>                     LARSONIAN Astronomy and Physics
+> etc.
+
+OK, I got it.  Actually, these message of MacElwaine's are coded messages.
+Read only the caps, and it all comes clear!:
+
+>               Are a few more types of anti-matter atoms worth the $8.3
+>          BILLION cost?!!  Don't we have much more important uses for
+>          this WASTED money?!
+
+>               Another thing to consider is that the primary proposed
+>         location in Texas has a serious and growing problem with some
+>         kind of "fire ants" eating the insulation off underground
+>         cables.  How much POISONING of the ground and ground water
+>         with insecticides will be required to keep the ants out of
+>         the "Supercollider"?!
+>
+>              Naming the "Super Collider" after Ronald Reagon, as
+>         proposed, is TOTALLY ABSURD!  If it is built, it should be
+>         named after a leading particle PHYSICIST.
+
+Maybe it's a message telling us what actually happened to the legendary
+Larson.  Perhaps it's a warning that one should not expend too much
+effort trying to counter MacElwaine's postings.  Who can be sure? :-)
+
+-Tommy Mac
+-------------------------------------------------------------------------
+Tom McWilliams 517-355-2178 wk   \ They communicated with the communists,
+18084tm@ibm.cl.msu.edu 336-9591 hm \ and pacified the pacifists. -TimBuk3
+-------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mcelwain secret messag ad forward space digest
+robert macelwain sez  larsonian astronomi physic
+etc  got actual messag macelwain code messag read
+cap come clear  type anti matter atom worth
+billion cost don't much import use wast money
+anoth thing consid primari propos locat texa
+serious grow problem kind fire ant eat insul
+underground cabl much poison ground ground water
+insecticid requir keep ant supercollid  name super
+collid ronald reagon propos total absurd built
+name lead particl physicist  mayb it messag tell
+actual happen legendari larson perhap it warn one
+expend much effort tri counter macelwain post sure
+tommi mac  tom mcwilliam communic communist
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+messag, 5650, 0.332900100664
+ant, 536, 0.281304717222
+ground, 4061, 0.18088455836
+propos, 6933, 0.169117430011
+supercollid, 8556, 0.156977481948
+larsonian, 5131, 0.156977481948
+ronald, 7473, 0.148814920279
+larson, 5130, 0.148814920279
+communist, 1952, 0.145711658358
+insul, 4688, 0.140652358611
+underground, 9242, 0.138531308762
+collid, 1901, 0.134860928941
+physicist, 6614, 0.13175766702
+mcelwain, 5576, 0.130368747093
+cabl, 1442, 0.130368747093
+actual, 254, 0.129454598377
+mcwilliam, 5590, 0.126698367273
+expend, 3292, 0.126698367273
+sez, 7828, 0.124577317423
+cap, 1497, 0.122658594444
+poison, 6713, 0.120906937603
+absurd, 200, 0.118535805604
+particl, 6441, 0.117803675682
+counter, 2181, 0.116414755755
+super, 8552, 0.115115507933
+secret, 7755, 0.114496032776
+tommi, 8978, 0.113895052203
+atom, 756, 0.107809728933
+primari, 6863, 0.1073767799
+grow, 4066, 0.106537852092
+warn, 9643, 0.105732490535
+water, 9657, 0.105341578173
+eat, 2968, 0.105341578173
+texa, 8820, 0.101800660883
+anti, 542, 0.101800660883
+digest, 2640, 0.101478552345
+communic, 1950, 0.0993575024957
+astronomi, 729, 0.0969225626656
+billion, 1092, 0.0959282196178
+wast, 9654, 0.0945231364193
+effort, 3007, 0.0940757545834
+forward, 3621, 0.0913875868344
+worth, 9850, 0.0911949408274
+tom, 8976, 0.0908150926885
+robert, 7437, 0.0906278229278
+mac, 5410, 0.089716746457
+locat, 5323, 0.0891892572199
+built, 1381, 0.0881740158478
+physic, 6613, 0.0875245610067
+ad, 257, 0.0864361146299
+lead, 5172, 0.0817331313367
+money, 5835, 0.0811427267322
+total, 9013, 0.0803442114101
+code, 1871, 0.0800114541795
+type, 9177, 0.0786298694157
+matter, 5553, 0.0781227555965
+perhap, 6540, 0.0779234336306
+clear, 1803, 0.0772409494891
+cost, 2169, 0.0764882878419
+import, 4551, 0.0763044385814
+requir, 7302, 0.0748911317904
+kind, 5021, 0.0718122567338
+happen, 4159, 0.0709524240913
+consid, 2059, 0.0706047236673
+mayb, 5564, 0.0704673077474
+got, 3960, 0.0660574628411
+tell, 8767, 0.0657843059487
+anoth, 533, 0.0648823553141
+sure, 8585, 0.0648305371282
+problem, 6887, 0.0633349470987
+read, 7135, 0.0612812745433
+post, 6766, 0.0587947763031
+come, 1923, 0.0583773345882
+tri, 9087, 0.0583023573913
+space, 8164, 0.0571039248062
+thing, 8869, 0.0549969824236
+don, 2811, 0.0456625869917
+use, 9363, 0.0444609368259

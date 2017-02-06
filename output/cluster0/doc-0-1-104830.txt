@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104830
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mse@cc.bellcore.com (25836-michael evenchick(F113))
+Subject: Re: BEST FIRST BASEMEN...
+Organization: Bellcore, Livingston, NJ
+Lines: 19
+
+In article <1993Apr20.102857.1@tesla.njit.edu>, drm6640@tesla.njit.edu says:
+>
+>DON MATTINGLY IS THE BEST FIRST BASEMAN IN THE HISTORY OF BASEBALL.....ALWAYS
+>HAS BEEN.....ALWAYS WILL BE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Always has been??????
+
+Even before he was even conceived of? That's a neat trick.
+
+Always will be??????
+
+We leave a lot of room for error don't we.
+
+Hopefully I missed an earlier post that this was with regard to otherwise ...
+well I leave that to the individual to fill in but I will say what about
+Gehrig! (shortened and not capitalized for the ease of the reader)
+
+
+Mike
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best first basemen    tesla njit edu say  mat
+best first baseman histori basebal alway alway
+alway  even even conceiv that neat trick  alway
+leav lot room error don't  hope miss earlier post
+regard otherwis well leav individu fill say gehrig
+shorten capit eas reader   mike
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+alway, 457, 0.45185770372
+leav, 5184, 0.266593822417
+njit, 6081, 0.21249755794
+eas, 2958, 0.205823285984
+shorten, 7907, 0.200370008727
+best, 1052, 0.199998495492
+tesla, 8810, 0.195759328502
+gehrig, 3811, 0.189952080053
+conceiv, 2000, 0.186625297213
+basemen, 929, 0.186625297213
+trick, 9094, 0.180910793696
+neat, 5985, 0.178416831711
+capit, 1502, 0.175027146185
+baseman, 928, 0.168352874229
+reader, 7137, 0.160178611379
+mat, 5540, 0.160178611379
+say, 7653, 0.151875989128
+room, 7476, 0.149837277412
+earlier, 2952, 0.145557100181
+error, 3180, 0.134928782246
+otherwis, 6313, 0.134101718954
+individu, 4604, 0.130760628429
+histori, 4314, 0.129336063166
+mike, 5710, 0.129105095095
+miss, 5770, 0.12646424409
+regard, 7224, 0.122522996452
+hope, 4372, 0.106913588399
+edu, 3001, 0.106049695377
+basebal, 924, 0.100792201254
+lot, 5356, 0.0933249757899
+post, 6766, 0.0873545061083
+don, 2811, 0.0678433184902

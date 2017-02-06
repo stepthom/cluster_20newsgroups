@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38955
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: menchett@dws012.unr.edu (Peter J Menchetti)
+Subject: Arts&Letters Graphics Editor
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 5
+
+
+Does anyone on this group use this program? It stacks up pretty well to 
+Corel Draw, and since I don't have a CDROM, it was the best buy...
+
+Maybe someone would be interested in trading tips and tricks?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ art letter graphic editor     anyon group use
+program stack pretti well corel draw sinc don't
+cdrom best buy  mayb someon interest trade tip
+trick
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stack, 8299, 0.3234568743
+cdrom, 1587, 0.307641092258
+corel, 2141, 0.301364487024
+tip, 8945, 0.288582319861
+trick, 9094, 0.284306217231
+editor, 2997, 0.245962143245
+trade, 9033, 0.2319899197
+letter, 5227, 0.2319899197
+art, 660, 0.230017404424
+buy, 1433, 0.213380956634
+draw, 2861, 0.208655044673
+pretti, 6851, 0.172342925093
+mayb, 5564, 0.164534178649
+group, 4064, 0.163584556122
+best, 1052, 0.157151529059
+graphic, 3997, 0.154754168453
+someon, 8124, 0.153599833643
+program, 6905, 0.145903698203
+sinc, 7977, 0.143288746113
+anyon, 554, 0.126310167862
+don, 2811, 0.106617614407
+use, 9363, 0.103811880381

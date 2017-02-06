@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61329
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dennisn@ecs.comm.mot.com (Dennis Newkirk)
+Subject: Re: Tsniimach Enterprise
+Organization: Motorola
+Distribution: sci
+Nntp-Posting-Host: 145.1.146.43
+Lines: 27
+
+In article <C67Hv9.7nG.1@cs.cmu.edu> flb@flb.optiplan.fi ("F.Baube[tm]") writes:
+>From: Wales.Larrison@ofa123.fidonet.org
+>> 
+>> Tsniimach Enterprise is described as a ex-military 
+>> establishment, focusing on aerodynamics and thermal protection 
+>> of spacecraft and which has participated in the development of 
+>> the Buran shuttle system,  They are located near the NPO Energia 
+>> facility in Kaliningrad, outside of Moscow. 
+>
+>If this facility is in Kaliningrad, this is not near Moscow,
+
+Correction, and some more info: The Kaliningrad that Mr. Larrison
+writes about is indeed near Moscow. I've read that it may also be known by
+the name Podlipk, and is a short distance from Zvezdny Gorodok (Star 
+City) and the Cosmonaut Training Center there. I read that the Tsniimach
+(Central Scientific Research Institute of Machine Building, est. 1961) 
+Enterprise was also responsible for creating the NKIK (Ground Command and 
+Measurement Complex) including the Kaliningrad Flight Control Center
+which has controlled all Soviet/Russian manned spaceflights since its
+completion in 1973. However, it appears to have been a part of the 
+Ministry of General Machine Building which was not part of the military
+(Ministry of Defense) but would have been a part of the military-industrial
+complex. 
+
+Dennis Newkirk (dennisn@ecs.comm.mot.com)
+Motorola, Land Mobile Products Sector
+Schaumburg, IL
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tsniimach enterpris         tsniimach enterpris
+describ militari establish focus aerodynam thermal
+protect spacecraft particip develop buran shuttl
+system locat near npo energia facil kaliningrad
+outsid moscow  facil kaliningrad near moscow
+correct info kaliningrad larrison write inde near
+moscow i'v read also known name podlipk short
+distanc zvezdni gorodok star citi cosmonaut train
+center read tsniimach central scientif research
+institut machin build est enterpris also respons
+creat nkik ground command measur complex includ
+kaliningrad flight control center control soviet
+russian man spaceflight sinc complet howev appear
+part ministri general machin build part militari
+ministri defens part militari industri complex
+motorola land mobil product sector schaumburg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kaliningrad, 4948, 0.445758244841
+tsniimach, 9134, 0.33431868363
+moscow, 5872, 0.282980359843
+enterpris, 3126, 0.280304553372
+militari, 5715, 0.218472926672
+ministri, 5742, 0.18518782395
+near, 5982, 0.178674688994
+complex, 1976, 0.143990440539
+facil, 3348, 0.142041061676
+machin, 5416, 0.133860357476
+control, 2107, 0.122799367229
+center, 1606, 0.118772305002
+build, 1378, 0.118772305002
+cosmonaut, 2167, 0.11143956121
+buran, 1404, 0.11143956121
+schaumburg, 7677, 0.104524665825
+larrison, 5129, 0.104524665825
+aerodynam, 300, 0.102791791186
+npo, 6134, 0.101241681999
+est, 3197, 0.101241681999
+energia, 3103, 0.0973816661853
+mobil, 5802, 0.0943267866144
+sector, 7760, 0.0925939119748
+motorola, 5883, 0.0925939119748
+read, 7135, 0.0895713664336
+spaceflight, 8168, 0.0889875650271
+soviet, 8161, 0.0845960078975
+focus, 3569, 0.0828104948126
+thermal, 8857, 0.0804826352487
+establish, 3198, 0.0775629397509
+central, 1611, 0.0772715949876
+particip, 6440, 0.0769859077633
+russian, 7551, 0.0751278201996
+train, 9042, 0.0721981535528
+distanc, 2744, 0.0719952202697
+protect, 6940, 0.0717950480694
+industri, 4608, 0.0710205308379
+inde, 4594, 0.0701064213722
+outsid, 6332, 0.0699302225026
+scientif, 7693, 0.0695840317121
+institut, 4683, 0.0676622914523
+measur, 5601, 0.0663696374262
+citi, 1775, 0.0663696374262
+ground, 4061, 0.0660971772366
+spacecraft, 8166, 0.0655669422023
+locat, 5323, 0.0651814416388
+command, 1933, 0.0645605718873
+flight, 3544, 0.0639648455773
+star, 8324, 0.0636186547868
+defens, 2476, 0.0636186547868
+describ, 2556, 0.0633923052489
+land, 5104, 0.0626264296798
+product, 6896, 0.0615971688584
+appear, 580, 0.059820178954
+shuttl, 7929, 0.0592160647135
+known, 5054, 0.0587992541245
+short, 7904, 0.0581559853383
+info, 4636, 0.05792183032
+creat, 2217, 0.0568758365656
+complet, 1975, 0.0568758365656
+general, 3818, 0.0568038930004
+respons, 7323, 0.0566610527545
+correct, 2156, 0.0566610527545
+research, 7307, 0.0565901493412
+develop, 2588, 0.054794535034
+man, 5471, 0.0508146128533
+write, 9865, 0.0507193864382
+howev, 4406, 0.0507193864382
+includ, 4579, 0.0506247724159
+sinc, 7977, 0.044849235928

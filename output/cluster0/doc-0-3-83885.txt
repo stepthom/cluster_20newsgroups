@@ -1,0 +1,203 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83885
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: joslin@pogo.isp.pitt.edu (David Joslin)
+Subject: Re: Language and agreement
+Organization: Intelligent Systems Program
+Lines: 59
+
+I responded to Jim's other articles today, but I see that I neglected
+to respond to this one.  I wouldn't want him to think me a hypocrite
+for not responding to *every* stupid article on t.r.m.
+
+m23364@mwunix.mitre.org (James Meritt) writes:
+>From my handy dictionary:
+[dictionary definitions of "not" "disagree" and "agree" deleted]
+>Please operationally differentiate between "not disagree" and "agree".
+
+Oh, but I'm weary of trying to wade through Jim's repertoire of 
+red herrings and smoke screens.
+
+Let's see what we get when we run all four articles posted by Jim today
+through the 'discord' filter (a Markov chain program that Steve Lamont
+was kind enough to send me):
+
+	Taking action? A white geese be held
+	as an accomplice to be held as
+	a decision upon the door
+	A black and white goose waddles past
+	the eyes of the door. 
+	Hits it with the confidence interval for 
+	that individual is held responsible 
+	for that, that individual 
+	may be held as a 
+	getaway car may be held 
+	as an uncountably large number 
+	of the driver of something 
+	and agree.
+
+	A black goose 
+	waddles past the person imprisoned?
+
+	White goose waddles past the 
+	confidence interval for the population 
+	of geese be axed, 
+	fine.
+	And white goose 
+	waddles past the door.
+
+Does running Jim's articles through 'discord' make them more
+coherent?  Less coherent?
+
+Or has 'discord' turned Jim's articles into an angst-ridden poem
+about making choices in a world filled with uncertainty, yet being
+held responsible for the choices we make?  Do the geese symbolize
+an inner frustration with ambiguity, a desire that everything be
+black and white, with no shades of gray?  Does the "getaway car"
+tell us that to try to renounce the existential nature of our
+being is not to "get away" from responsibility for our actions,
+but rather to take the role of the passive accomplice, the
+"driver" of the getaway car, as it were?  Does the juxtaposition
+of man and machine, car and driver, reveal a subtext: an internal
+conflict between determinism and moral responsibility?
+
+Or am I reading too much into a collaboration between Jim and
+a random number generator?
+
+dj
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ languag agreement    respond jim articl today see
+neglect respond one wouldn't want think hypocrit
+respond everi stupid articl   handi dictionari
+dictionari definit disagre agre delet pleas oper
+differenti disagre agre  i'm weari tri wade jim
+repertoir red herring smoke screen  let see get
+run four articl post jim today discord filter
+markov chain program steve lamont kind enough send
+take action white gees held accomplic held decis
+upon door black white goos waddl past eye door hit
+confid interv individu held respons individu held
+getaway car held uncount larg number driver someth
+agre  black goos waddl past person imprison  white
+goos waddl past confid interv popul gees axe fine
+white goos waddl past door  run jim articl discord
+make coher less coher  discord turn jim articl
+angst ridden poem make choic world fill
+uncertainti yet held respons choic make gees
+symbol inner frustrat ambigu desir everyth black
+white shade gray getaway car tell tri renounc
+existenti natur get away respons action rather
+take role passiv accomplic driver getaway car
+juxtaposit man machin car driver reveal subtext
+intern conflict determin moral respons  read much
+collabor jim random number generat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+waddl, 9604, 0.302103532857
+held, 4243, 0.287155017535
+goos, 3951, 0.283016869814
+jim, 4868, 0.256067277899
+getaway, 3859, 0.226577649643
+gees, 3807, 0.226577649643
+discord, 2694, 0.218515861248
+car, 1510, 0.210309218513
+white, 9737, 0.200184873453
+door, 2818, 0.161132840263
+past, 6456, 0.157981243066
+accomplic, 217, 0.151051766429
+articl, 665, 0.150529273109
+respons, 7323, 0.143898931553
+driver, 2876, 0.140818897395
+coher, 1881, 0.138102272453
+respond, 7322, 0.134217569048
+interv, 4724, 0.123657406946
+black, 1133, 0.122511268532
+confid, 2029, 0.115609446956
+dictionari, 2624, 0.113828845904
+agre, 337, 0.108471011255
+disagre, 2676, 0.0967105460028
+choic, 1717, 0.0863042965513
+action, 251, 0.0849894304894
+individu, 4604, 0.0816741790216
+weari, 9677, 0.072838620416
+today, 8964, 0.071415653154
+uncount, 9232, 0.0707542174534
+poem, 6709, 0.0707542174534
+ambigu, 462, 0.0707542174534
+make, 5459, 0.0702860392855
+imprison, 4555, 0.0663638734283
+axe, 839, 0.0642794704657
+neglect, 5997, 0.0633891699395
+uncertainti, 9222, 0.0625763892388
+herring, 4275, 0.0618287034732
+number, 6156, 0.0607490113172
+collabor, 1894, 0.0598891264406
+frustrat, 3706, 0.0593228266727
+hypocrit, 4463, 0.0587889050494
+chain, 1637, 0.0582838585198
+inner, 4656, 0.057804723478
+handi, 4148, 0.057804723478
+agreement, 338, 0.0573489703892
+wade, 9605, 0.0564991952427
+symbol, 8644, 0.0564991952427
+differenti, 2634, 0.0564991952427
+run, 7543, 0.0562754644635
+smoke, 8067, 0.0561016422511
+conflict, 2034, 0.0557203205153
+tri, 9087, 0.0541053815705
+filter, 3481, 0.0537109467542
+popul, 6745, 0.0534143794529
+gray, 4011, 0.0531269387623
+shade, 7835, 0.051809111532
+reveal, 7352, 0.051809111532
+random, 7093, 0.051809111532
+role, 7463, 0.050229755099
+decis, 2445, 0.0475424923008
+desir, 2565, 0.0458394110739
+stupid, 8476, 0.0457105664743
+languag, 5113, 0.0450917253083
+eye, 3337, 0.043859378866
+screen, 7719, 0.043448715577
+machin, 5416, 0.0424947152447
+moral, 5855, 0.0418805260137
+steve, 8390, 0.0416291811989
+intern, 4716, 0.0415468803548
+fine, 3485, 0.0414652983046
+determin, 2582, 0.0406864235772
+generat, 3819, 0.0404648854774
+definit, 2484, 0.0403921918392
+everyth, 3242, 0.0402484799989
+delet, 2502, 0.0400369746906
+natur, 5966, 0.0395613257788
+oper, 6261, 0.0391087279292
+wouldn, 9854, 0.0390458247598
+red, 7194, 0.0373846318783
+turn, 9158, 0.0371770436604
+away, 833, 0.0370243249666
+send, 7785, 0.0358849140677
+larg, 5124, 0.0345929983253
+kind, 5021, 0.0333213760633
+hit, 4316, 0.0326655920897
+man, 5471, 0.032262763139
+everi, 3235, 0.0319937212831
+world, 9841, 0.0312846491776
+person, 6562, 0.0311221914242
+tell, 8767, 0.0305243658573
+let, 5225, 0.0294999859006
+program, 6905, 0.028994939371
+read, 7135, 0.028434928626
+someth, 8126, 0.0274971649881
+pleas, 6688, 0.027478973969
+post, 6766, 0.0272811765131
+want, 9634, 0.0254455953998
+think, 8871, 0.0213938818703

@@ -1,0 +1,127 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60874
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tombaker@world.std.com (Tom A Baker)
+Subject: Re: Shuttle Launch Question
+Organization: Me, at The World Public Access UNIX, Brookline, MA
+Distribution: sci
+Lines: 29
+
+In article <15APR199320340428@stdvax> abdkw@stdvax (David Ward) writes:
+>In article <C5JLwx.4H9.1@cs.cmu.edu>, ETRAT@ttacs1.ttu.edu (Pack Rat) writes...
+>>There has been something bothering me while watching
+>>NASA Select for a while.  Well, I should'nt say
+>>bothering, maybe wondering would be better.  When
+>>they are going to launch they say (sorry but I forget
+>>exactly who is saying what, OTC to PLT I think)
+>>"Clear caution & warning memory.  Verify no unexpected
+>>errors. ...".  I am wondering what an "expected error" might
+>>be.  Sorry if this is a really dumb question, but
+>
+>
+>In pure speculation, I would guess cautions based on hazardous
+>pre-launch ops would qualify.  Something like "Caution:  SRBs
+>have just been armed."  
+
+Also in pure speculation:
+
+Parity errors in memory or previously known conditions that were waivered.
+   "Yes that is an error, but we already knew about it"
+
+Any problem where they decided a backup would handle it.
+
+Any problem in an area that was not criticality 1,2,3..., that is, any
+   problem in a system they decided they could do without.
+
+I'd be curious as to what the real meaning of the quote is.
+
+tom
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ shuttl launch question      ttacs1 ttu edu pack
+rat write someth bother watch nasa select well
+should'nt say bother mayb wonder better go launch
+say sorri forget exact say otc plt think clear
+caution warn memori verifi unexpect error wonder
+expect error might sorri realli dumb question
+pure specul guess caution base hazard pre launch
+op qualifi someth like caution srbs arm  also pure
+specul  pariti error memori previous known condit
+waiver yes error alreadi knew  problem decid
+backup handl  problem area critic problem system
+decid could without  i'd curious real mean quot
+tom
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+caution, 1571, 0.368790162165
+error, 3180, 0.335127686186
+launch, 5147, 0.219060939091
+specul, 8214, 0.195088084253
+bother, 1245, 0.194366807912
+pure, 6990, 0.192283389105
+problem, 6887, 0.175289924127
+memori, 5628, 0.168264704724
+decid, 2442, 0.160907484053
+ttu, 9140, 0.144820367273
+ttacs1, 9137, 0.144820367273
+sorri, 8142, 0.143232395187
+say, 7653, 0.141457537756
+nt, 6144, 0.13728995486
+wonder, 9821, 0.134871769737
+srbs, 8281, 0.134427024932
+hazard, 4211, 0.127802757216
+unexpect, 9260, 0.126032629659
+pariti, 6429, 0.120272344803
+waiver, 9612, 0.119073717175
+backup, 858, 0.116886217397
+rat, 7106, 0.115882065705
+op, 6256, 0.11315930461
+question, 7032, 0.1124357322
+verifi, 9472, 0.109355804984
+pack, 6374, 0.109355804984
+someth, 8126, 0.109341706634
+dumb, 2914, 0.106200392125
+pre, 6802, 0.101597508948
+qualifi, 7015, 0.100285979561
+warn, 9643, 0.0975440421266
+arm, 643, 0.0964824799342
+condit, 2017, 0.0954783282425
+knew, 5045, 0.0927555671471
+critic, 2237, 0.0911395672983
+curious, 2297, 0.0901354156066
+previous, 6855, 0.0869952822903
+select, 7774, 0.0867900616143
+handl, 4149, 0.0857966546624
+forget, 3604, 0.0846707170772
+tom, 8976, 0.0837819215466
+quot, 7045, 0.0797420732648
+watch, 9655, 0.0770193121693
+area, 622, 0.0755141919466
+shuttl, 7929, 0.0747515864259
+alreadi, 443, 0.0744341037854
+known, 5054, 0.0742254242618
+exact, 3253, 0.0737137587827
+guess, 4079, 0.0719803716578
+expect, 3290, 0.0719803716578
+clear, 1803, 0.0712590273125
+nasa, 5956, 0.0698953116447
+yes, 9951, 0.0676531070198
+edu, 3001, 0.0658499032617
+mayb, 5564, 0.0650099699787
+write, 9865, 0.0640257777539
+real, 7144, 0.0636697486621
+base, 923, 0.058122261219
+mean, 5595, 0.0573955199457
+better, 1060, 0.0555607136803
+realli, 7150, 0.0551104544838
+think, 8871, 0.0425360861061
+like, 5272, 0.0391060599885

@@ -1,0 +1,330 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38726
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From:  Club@spektr.msk.su (Koltovoy Nikolay Alexeevich)
+Subject: [NEWS]Re:List or image processing systems?
+Distribution: eunet
+Reply-To: Club@spektr.msk.su
+Organization: Moscow Scientific Industrial Ass. Spectrum
+Lines: 137
+
+
+       Moscow Scientific Inductrial Association "Spectrum" offer
+       VIDEOSCAN vision system for PC/AT,wich include software and set of
+       controllers.
+
+                     SOFTWARE
+
+            For support VIDEOSCAN family program kit was developed. Kit
+       includes more then 200 different functions for image processing.
+            Kit works in the interactive regime, and has include Help for
+       non professional users.
+            There are next possibility:
+       - input frame by any board of VIDEOSCAN family;
+       - read - white image to - from disk;
+       - print image on the printer;
+       - makes arithmetic with 2 frames;
+       - filter image;
+       - work with gistogramme;
+       - edit image.
+       - include users exe modules.
+
+                     CONTROLLER VS9
+
+       The function of VS-9 controller is to load TV-images into  PC/AT.
+       VS-9 controller allows one to load a fragment of the TV-frame from
+       a field of 724x600 pixels.
+       The clock rate is 14,7 MHz when loading an image with 512 pixel in
+       the line and 7,4 MHz when loading a 256 pixels image. This
+       provides the equal pixel size of input image in both horizontal
+       and vertical directions.
+       The number of gray levels in any input modes is 256.
+       Video signal capture time - 2.5s.
+
+                     CONTROLLER VS52
+
+       The purpose of the controller is to enter the TV images into a IBM
+       PC AT or any other machine of that type. The controller was
+       created on the base of modern elements, including user
+       programmable gate arrays.
+       The controller allows to digitize a input signal with different
+       resolutions. Its flexible architecture makes possible to change
+       technical parameters. Instead of TV signal one can process any
+       other analog signal (including signals from slow-speed scanning
+       devices).
+       The controller has the following technical characteristics:
+       - memory volume - from 256 K to 2 Mb ;
+       - resolution when working with standard video signal - from 64x64
+       to 1024x512 pixels ;
+       - resolution when working in slow input regime - up to 2048x1024
+       pixels;
+       - video signal capture time - 40 ms.
+       - maximum size of a screen when memory volume is 2Mb - 2048x1024
+       pixels ;
+       - number of gray level - 256 ;
+       - clock rate for input - up to 30 MHz ;
+       - 4 input video multiplexer ;
+       - input/output lookup table (LUT);
+       - possibility to realize "scroll" and "zoom";
+
+
+
+
+
+
+
+
+
+
+
+
+
+       - 8 lines for external synchronization (an input using external
+       controlling signal) ;
+       - electronic adjustment of black and white reference for analog -
+       digital converter;
+       - possibility output image to the color RGB monitor.
+       One can change all listed above functions and parameters of the
+       controller by reprogramming it.
+
+
+              IMAGE PROCESSOR VS100
+
+
+            Image processor VS100 allows to digitize and process TV
+       signal in real time. It is possible digitize TV signal with
+       512*512*8 resolution and realize arithmetic and logic operation
+       with two images.
+            Processor was created on the base of modern elements
+       including user programmable gate arrays and designed as a board
+       for PC.
+            Memory volume allows write to the 256 frames with 512*512*8
+       format. It is possible to accumulate until 16 images.
+            The processor has the following technical characteristics:
+       - memory volume to 64 Mb;
+       - number of the gray level - 256;
+       - 4 input video multiplexer;
+       - input/output lookup table;
+       - electronic adjustment for black and white ADC reference;
+       - image size from 256*256 to 8192*8192;
+       - possibility color and black / white output;
+       - possibility input from slow-scan video sources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ news list imag process system       moscow
+scientif inductri associ spectrum offer videoscan
+vision system wich includ softwar set control
+softwar  support videoscan famili program kit
+develop kit includ differ function imag process
+kit work interact regim includ help non profession
+user next possibl input frame board videoscan
+famili read white imag disk print imag printer
+make arithmet frame filter imag work gistogramm
+edit imag includ user exe modul  control vs9
+function control load imag control allow one load
+fragment frame field 724x600 pixel clock rate mhz
+load imag pixel line mhz load pixel imag provid
+equal pixel size input imag horizont vertic direct
+number gray level input mode video signal captur
+time  control vs52  purpos control enter imag ibm
+machin type control creat base modern element
+includ user programm gate array control allow
+digit input signal differ resolut flexibl
+architectur make possibl chang technic paramet
+instead signal one process analog signal includ
+signal slow speed scan devic control follow
+technic characterist memori volum resolut work
+standard video signal 64x64 1024x512 pixel resolut
+work slow input regim 2048x1024 pixel video signal
+captur time maximum size screen memori volum 2mb
+2048x1024 pixel number gray level clock rate input
+mhz input video multiplex input output lookup tabl
+lut possibl realiz scroll zoom              line
+extern synchron input use extern control signal
+electron adjust black white refer analog digit
+convert possibl output imag color rgb monitor one
+chang list function paramet control reprogram
+imag processor vs100   imag processor vs100 allow
+digit process signal real time possibl digit
+signal resolut realiz arithmet logic oper two imag
+processor creat base modern element includ user
+programm gate array design board  memori volum
+allow write frame format possibl accumul imag
+processor follow technic characterist memori volum
+number gray level input video multiplex input
+output lookup tabl electron adjust black white adc
+refer imag size possibl color black white output
+possibl input slow scan video sourc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+input, 4662, 0.389685311087
+imag, 4512, 0.348317620891
+signal, 7947, 0.315315425795
+control, 2107, 0.280599854028
+pixel, 6651, 0.21568122427
+video, 9506, 0.166135343285
+possibl, 6765, 0.160321081683
+includ, 4579, 0.147227774117
+processor, 6891, 0.134971817813
+volum, 9577, 0.123637616947
+output, 6329, 0.123246413869
+kit, 5033, 0.120015458326
+resolut, 7316, 0.118983530947
+mhz, 5676, 0.118750318578
+frame, 3643, 0.118340081422
+digit, 2642, 0.117713132435
+load, 5317, 0.113724128527
+memori, 5628, 0.110756895523
+user, 9366, 0.105535079076
+white, 9737, 0.104794123257
+gray, 4011, 0.104292176394
+process, 6890, 0.0988327126724
+regim, 7227, 0.0953251266454
+allow, 432, 0.0936935244581
+slow, 8044, 0.0907666378784
+lookup, 5342, 0.0868515164496
+function, 3722, 0.0858943716758
+size, 8000, 0.0850969741716
+arithmet, 638, 0.0841236232625
+technic, 8737, 0.0813994991195
+black, 1133, 0.0801662780105
+level, 5229, 0.0752295225515
+gate, 3788, 0.0750535613403
+clock, 1827, 0.0719812838189
+characterist, 1663, 0.0706932688565
+extern, 3322, 0.0695281175957
+work, 9833, 0.0692676289122
+analog, 487, 0.0691631700348
+paramet, 6421, 0.067176402871
+tabl, 8667, 0.0668745397463
+captur, 1509, 0.0660112516102
+famili, 3378, 0.0652049263101
+scan, 7660, 0.063969042921
+array, 653, 0.0632833584231
+adjust, 269, 0.0632833584231
+programm, 6906, 0.062017590665
+element, 3037, 0.0612411497339
+modern, 5811, 0.0603351919719
+electron, 3034, 0.0603351919719
+number, 6156, 0.0596274390321
+board, 1186, 0.0587027926753
+realiz, 7149, 0.0560977631897
+rate, 7108, 0.0530529572202
+color, 1907, 0.049133688589
+wich, 9744, 0.0476625633227
+creat, 2217, 0.047259205433
+2mb, 80, 0.0462986167291
+refer, 7213, 0.0450703702735
+list, 5298, 0.0447733961052
+chang, 1650, 0.0439234514328
+time, 8936, 0.0435696943244
+accumul, 224, 0.0427058191125
+synchron, 8651, 0.0414792360009
+exe, 3269, 0.0409473861197
+softwar, 8103, 0.0408005952898
+line, 5285, 0.0405211583141
+follow, 3578, 0.0401806116304
+fragment, 3642, 0.0400051527753
+zoom, 9994, 0.0395834395261
+moscow, 5872, 0.0391889531269
+horizont, 4375, 0.0391889531269
+scroll, 7726, 0.0384690140146
+base, 923, 0.038257822542
+differ, 2633, 0.0376422545718
+architectur, 617, 0.0369707231625
+spectrum, 8213, 0.0367105810218
+printer, 6872, 0.0364610599398
+flexibl, 3541, 0.0362213265584
+vertic, 9482, 0.0353466344283
+maximum, 5560, 0.0353466344283
+filter, 3481, 0.0351462093347
+rgb, 7374, 0.0332899755723
+modul, 5815, 0.0326024631551
+devic, 2591, 0.0326024631551
+profession, 6900, 0.0317538368116
+monitor, 5837, 0.0314233553711
+interact, 4704, 0.0314233553711
+disk, 2720, 0.031317049775
+vision, 9542, 0.0311098293304
+logic, 5330, 0.0310087953325
+make, 5459, 0.0306615069406
+enter, 3125, 0.0296649223783
+ibm, 4472, 0.0295850203555
+print, 6871, 0.0292754647065
+edit, 2996, 0.0291263739566
+equal, 3156, 0.0290531704744
+scientif, 7693, 0.0289093422454
+associ, 706, 0.0287688207072
+screen, 7719, 0.0284310321317
+mode, 5806, 0.0280488815949
+machin, 5416, 0.0278067739979
+offer, 6203, 0.0268222984833
+purpos, 6993, 0.0262904486021
+instead, 4682, 0.0262443169288
+oper, 6261, 0.0255911247461
+standard, 8313, 0.0250386596086
+speed, 8217, 0.0248528575309
+convert, 2115, 0.0245668442945
+format, 3612, 0.0244629480078
+non, 6097, 0.0242271781525
+type, 9177, 0.0238741320321
+design, 2564, 0.0237506446462
+direct, 2667, 0.0234233811145
+field, 3466, 0.0230035994242
+develop, 2588, 0.0227649063657
+provid, 6949, 0.0226108036398
+sourc, 8153, 0.0225602875035
+set, 7815, 0.0218936832583
+news, 6031, 0.0211114101598
+write, 9865, 0.0210718474475
+support, 8576, 0.0210521617052
+real, 7144, 0.0209546729129
+program, 6905, 0.0189730822181
+read, 7135, 0.0186066344814
+help, 4249, 0.0179573599446
+use, 9363, 0.0134995299361

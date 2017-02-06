@@ -1,0 +1,334 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62150
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Shuttle 0-Defects & Bizarre?  DC-X?
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 92
+
+In article <1sp513$beo@hsc.usc.edu> khayash@hsc.usc.edu (Ken Hayashida) writes:
+
+>Well, Spenz...what can I say? 8-)
+>You've attacked my beloved vehicle! ;-)
+
+If I may offer a constructive criticism, perhaps you should decide if you
+love vehicles or the use they are put to. I, myself, think the F-86 is
+a beautiful aircraft, but rest assured, I wouldn't even think of flying
+it in combat today. Most of us want access to space and judge vehicles
+on how they perform.
+
+>We see "zero-defects operation" in many area|s of life.  
+
+Not to this degree.
+
+>Calling shuttle flight characteristics *bizarre* in the same post 
+>as touting DC-X is interesting.  
+
+Why?
+
+>DC-X will also have similar "zero-defects" issues (am I wrong?).  
+
+Your wrong. The DC approach is very tollerent of failure. It also has
+the advantage of far greater reliability do to its reusable nature (Shuttle
+isn't reusable, it's salvagable).
+
+>I am thinking of how DC-X will deploy a chute or reverse orientation at 
+>supersonic speeds.  
+
+The flip over happens at a very low speed, not supersonic. If the DC-X
+shows the flip over works, it will work unless the laws of physics change.
+
+>How much in DC-X is redundant?  That's the real question.
+
+The final DC-1 will have fully intact abort throughout the entire flight
+envelop. Upon re-entry for example, it can loose about 80% of available
+thrust and still land safely.
+
+>Everything we do in life has zero-defects issues at times (agree?).
+
+Everything can suffer from catastrophic failure but that's not the same
+thing. Shuttle simply isn't a fault tolerent design, SSTO is.
+
+>As a doctor, I can not error in my diagnosis and treatment recommendations.  
+
+You don't put your patients in conditions where there is no way out. You
+wouldn't for example, give a patient a drug and not monitor them for
+harmful side effects would you?
+
+>While DC-X's R&D program makes good sense, I am less optimistic about DC-X 
+>as you (and apparently others) are.  
+
+You are very much in the minority. If the DC series fails to make orbit, it
+will still be a very worthwhile effort. It will show us EXACTLY what we do
+need to do to build SSTO.
+
+>But, DC-X will still have failures.  It is the nature of aerospace R&D.  
+
+Again, refering to the DC-1, it will provide fully intact abort theroughout
+the flight envelop. Shuttle doesn't. DC is fault tollerent, Shuttle isn't.
+
+>It's successors are not slated to be passenger carrying.  
+
+Not true. Build a passenger pallet (a fairly easy thing to do) and it will
+carry passengers.
+
+>The impression I had
+>when I visited MacDac Huntington Beach's Open House was that the payload space
+>was limited and the man-ratable version was decades away.
+
+I would suggest you talk to the DC-X crew themselves. Their original
+schedule had an operational DC-1 flying in 96.
+
+>Shuttle is the only method in the free world of orbiting large life sciences
+>and medical related packages.  As for now, it is our only ticket into space 
+>and has my support.
+
+Your ignoring the dammage it does. Mannes space has a reputation for being
+unreliable and hugely expensive. Shuttle supporters only make it easy for
+opponents of manned space to kill it.
+
+>You could change my view on DC-X if you could prove the following:
+
+The only way to prove those things is to build it.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------35 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ shuttl defect bizarr      well spenz say you'v
+attack belov vehicl  offer construct critic perhap
+decid love vehicl use put think beauti aircraft
+rest assur wouldn't even think fli combat today
+want access space judg vehicl perform  see zero
+defect oper mani area life  degre  call shuttl
+flight characterist bizarr post tout interest
+also similar zero defect issu wrong  wrong
+approach toller failur also advantag far greater
+reliabl reusabl natur shuttl isn't reusabl it
+salvag  think deploy chute revers orient superson
+speed  flip happen low speed superson show flip
+work work unless law physic chang  much redund
+that real question  final fulli intact abort
+throughout entir flight envelop upon entri exampl
+loos avail thrust still land safe  everyth life
+zero defect issu time agre  everyth suffer
+catastroph failur that thing shuttl simpli isn't
+fault toler design ssto  doctor error diagnosi
+treatment recommend  don't put patient condit way
+wouldn't exampl give patient drug monitor harm
+side effect  x program make good sens less
+optimist appar other  much minor seri fail make
+orbit still worthwhil effort show exact need build
+ssto  still failur natur aerospac  refer provid
+fulli intact abort theroughout flight envelop
+shuttl doesn't fault toller shuttl isn't  it
+successor slate passeng carri  true build passeng
+pallet fair easi thing carri passeng  impress
+visit macdac huntington beach open hous payload
+space limit man ratabl version decad away  suggest
+talk crew origin schedul oper fli  shuttl method
+free world orbit larg life scienc medic relat
+packag ticket space support  ignor dammag mann
+space reput unreli huge expens shuttl support make
+easi oppon man space kill  could chang view could
+prove follow  way prove thing build  allen    ladi
+astor sir husband poison coffe churchil madam wife
+drink day first flight dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+shuttl, 7929, 0.320209769335
+defect, 2473, 0.240599301971
+passeng, 6451, 0.202454963842
+flight, 3544, 0.172944356797
+failur, 3361, 0.162484207777
+zero, 9985, 0.160425878144
+vehicl, 9449, 0.142889882265
+space, 8164, 0.141043288772
+intact, 4692, 0.138961175082
+superson, 8567, 0.134969975894
+envelop, 3137, 0.131647387485
+patient, 6465, 0.13017343197
+reusabl, 7349, 0.124099605452
+flip, 3545, 0.124099605452
+bizarr, 1131, 0.122109015758
+build, 1378, 0.120423568457
+abort, 187, 0.115015001642
+ssto, 8295, 0.114362835096
+life, 5260, 0.109869400172
+isn, 4783, 0.109266673684
+fault, 3407, 0.106513440412
+fulli, 3718, 0.105666959574
+prove, 6947, 0.088289061333
+easi, 2959, 0.0877768622734
+everyth, 3242, 0.0856981781025
+fli, 3542, 0.0849531734928
+natur, 5966, 0.0842350703097
+carri, 1530, 0.0840945093174
+oper, 6261, 0.0832713864358
+wouldn, 9854, 0.0831374512655
+thing, 8869, 0.0815035600432
+issu, 4793, 0.0811087594564
+speed, 8217, 0.0808691264657
+slate, 8018, 0.0753259195004
+ratabl, 7107, 0.0753259195004
+mann, 5485, 0.0753259195004
+combat, 1920, 0.0753259195004
+catastroph, 1555, 0.0753259195004
+make, 5459, 0.0748274905409
+unreli, 9307, 0.073512795647
+salvag, 7596, 0.073512795647
+belov, 1016, 0.073512795647
+wrong, 9869, 0.0730042033763
+exampl, 3258, 0.0721410214729
+orbit, 6280, 0.0719880261213
+huntington, 4445, 0.0719798212718
+chang, 1650, 0.07146162457
+redund, 7206, 0.0694805875408
+man, 5471, 0.0686947686381
+support, 8576, 0.0685019791064
+successor, 8514, 0.0684328142137
+think, 8871, 0.068328668519
+treatment, 9079, 0.0674849879472
+pallet, 6399, 0.0666196903603
+beach, 967, 0.0666196903603
+thrust, 8901, 0.0658236937424
+worthwhil, 9853, 0.0650867159851
+drug, 2883, 0.0650867159851
+loos, 5345, 0.0644006061075
+tout, 9021, 0.0631559026064
+optimist, 6275, 0.0631559026064
+madam, 5425, 0.0631559026064
+astor, 719, 0.0631559026064
+churchil, 1747, 0.0625874822541
+oppon, 6267, 0.0620498027262
+ladi, 5093, 0.0610545078788
+dcx, 2412, 0.0605918826606
+coffe, 1878, 0.0601498254927
+assur, 712, 0.0601498254927
+poison, 6713, 0.0597265850736
+harm, 4177, 0.0597265850736
+husband, 4452, 0.0593206246743
+reput, 7300, 0.0589305884557
+sir, 7989, 0.0585552741478
+revers, 7356, 0.0578446398465
+doctor, 2786, 0.0575075008208
+characterist, 1663, 0.0575075008208
+medic, 5608, 0.0568656878932
+decad, 2432, 0.0568656878932
+aerospac, 304, 0.0568656878932
+work, 9833, 0.0563477724394
+deploy, 2540, 0.0562627973198
+aircraft, 359, 0.0554219037912
+attack, 761, 0.0548983803495
+drink, 2872, 0.0546466036404
+crew, 2227, 0.0546466036404
+beauti, 978, 0.0544010442799
+reliabl, 7256, 0.0541614025922
+visit, 9544, 0.0536987773739
+toler, 8974, 0.0534752927146
+wife, 9755, 0.0530428485477
+entri, 3135, 0.0530428485477
+ticket, 8919, 0.0526284282169
+way, 9666, 0.0520279722368
+safe, 7577, 0.0516621688612
+greater, 4017, 0.0513005054117
+monitor, 5837, 0.0511244893333
+condit, 2017, 0.0511244893333
+recommend, 7178, 0.0504500174311
+construct, 2074, 0.0504500174311
+suffer, 8521, 0.0502883122615
+allen, 426, 0.0498183989163
+payload, 6477, 0.0493696920331
+orient, 6290, 0.0493696920331
+judg, 4920, 0.0492245120997
+huge, 4427, 0.0488012716807
+critic, 2237, 0.0488012716807
+advantag, 286, 0.0485287985046
+hous, 4396, 0.0482635921529
+impress, 4554, 0.0478785899252
+approach, 589, 0.0473873963196
+fail, 3360, 0.0472682973055
+expens, 3294, 0.0469193264536
+effort, 3007, 0.0464723006876
+degre, 2491, 0.0461497432611
+appar, 577, 0.0461497432611
+minor, 5745, 0.0457353229303
+schedul, 7678, 0.0452404621933
+error, 3180, 0.0448615726026
+method, 5666, 0.0447690635745
+ignor, 4496, 0.044407400125
+offer, 6203, 0.0436387615679
+limit, 5278, 0.043475730887
+packag, 6375, 0.0433153298481
+physic, 6613, 0.0432360891993
+entir, 3129, 0.0432360891993
+decid, 2442, 0.0430794773198
+law, 5153, 0.0426984096714
+kill, 5012, 0.0425499793217
+rest, 7324, 0.0424765867464
+access, 209, 0.0424765867464
+land, 5104, 0.0423314068131
+fair, 3363, 0.0421175351548
+sens, 7788, 0.0414361283508
+similar, 7961, 0.041176122722
+low, 5368, 0.0409854846386
+simpli, 7967, 0.0407368554683
+seri, 7805, 0.0405543797282
+unless, 9289, 0.0404942910329
+free, 3668, 0.0404942910329
+area, 622, 0.0404345632328
+perform, 6539, 0.0403751920188
+effect, 3005, 0.0398562230305
+open, 6258, 0.0394705096326
+love, 5366, 0.0394705096326
+exact, 3253, 0.0394705096326
+away, 833, 0.0394166089651
+final, 3482, 0.0390472692136
+view, 9510, 0.0388422176436
+version, 9479, 0.0386911567823
+design, 2564, 0.0386413088142
+perhap, 6540, 0.0384932467917
+agre, 337, 0.0384932467917
+today, 8964, 0.0380150465525
+relat, 7247, 0.0380150465525
+suggest, 8525, 0.0379221052329
+scienc, 7692, 0.0371653239864
+larg, 5124, 0.0368281849608
+provid, 6949, 0.0367868350101
+refer, 7213, 0.0366638068578
+true, 9121, 0.0354743982949
+origin, 6293, 0.0353664986959
+happen, 4159, 0.0350496512251
+avail, 811, 0.0345430230641
+real, 7144, 0.0340923793519
+talk, 8684, 0.0336311847096
+world, 9841, 0.0333060706537
+far, 3386, 0.0332192172736
+follow, 3578, 0.0326860901142
+doesn, 2793, 0.0322582973267
+program, 6905, 0.0308684138923
+question, 7032, 0.0301022205633
+day, 2402, 0.0294894200252
+post, 6766, 0.0290439182265
+mani, 5479, 0.0282086577545
+want, 9634, 0.0270897331596
+need, 5993, 0.0267380794229
+good, 3948, 0.0255634308066
+say, 7653, 0.0252481183016
+time, 8936, 0.0236286921669
+don, 2811, 0.0225567733392
+use, 9363, 0.0219631724898

@@ -1,0 +1,87 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60246
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: ralph.buttigieg@f635.n713.z3.fido.zeta.org.au (Ralph Buttigieg)
+Subject: Commercial point of view
+Organization: Fidonet. Gate admin is fido@socs.uts.edu.au
+Lines: 29
+
+Original to: szabo@techbook.com
+G'day szabo@techbook.com
+
+29 Mar 93 07:28, szabo@techbook.com wrote to All:
+
+ sc> szabo@techbook.com (Nick Szabo), via Kralizec 3:713/602
+
+ sc> Here are some longer-term markets to consider:
+
+Here are some more:
+
+* Terrestrial illumination from orbiting mirrors.
+
+* World enviroment and disaster monitering system. (the Japanese have
+already developed a plan for this, called WEDOS) Although this may be more
+of a "public good".
+
+* Space tourism.
+
+* Energy relay satellites
+
+ta
+
+Ralph
+
+--- GoldED 2.41
+ * Origin: VULCAN'S WORLD - Sydney Australia (02) 635-6797  3:713/6
+(3:713/635)
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci point view           longer term market
+consid    terrestri illumin orbit mirror  world
+enviro disast monit system japanes alreadi develop
+plan call wedo although public good  space tourism
+energi relay satellit    ralph  gold origin vulcan
+world sydney australia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tourism, 9020, 0.277507920837
+enviro, 3138, 0.253717486379
+sydney, 8643, 0.243843563955
+terrestri, 8802, 0.236184754713
+disast, 2681, 0.232913486144
+world, 9841, 0.22990099759
+illumin, 4509, 0.227179798748
+vulcan, 9598, 0.224636239597
+ralph, 7082, 0.216010539887
+relay, 7252, 0.212394320255
+japanes, 4826, 0.197352384714
+gold, 3933, 0.195206539651
+mirror, 5755, 0.181638480781
+australia, 792, 0.179598929832
+energi, 3102, 0.167028564521
+market, 5514, 0.156474969554
+longer, 5337, 0.153264936222
+satellit, 7632, 0.146854349695
+commerci, 1940, 0.14511927709
+term, 8795, 0.14102301688
+plan, 6660, 0.14017550859
+alreadi, 443, 0.13755728693
+view, 9510, 0.134057611865
+public, 6973, 0.131853445052
+develop, 2588, 0.127829107153
+orbit, 6280, 0.124227495881
+origin, 6293, 0.122061731868
+consid, 2059, 0.120375382937
+space, 8164, 0.0973576052523
+point, 6710, 0.0968800693151
+good, 3948, 0.0882280336422

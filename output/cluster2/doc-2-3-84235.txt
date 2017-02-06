@@ -1,0 +1,55 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84235
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: nrp@st-andrews.ac.uk (Norman R. Paterson)
+Subject: Re: After 2000 years, can we say that Christian Morality is oxymoron
+Keywords: ... and blessed are aluminium siding salesman ...
+Organization: St. Andrews University, Scotland.
+Lines: 10
+
+In article <a5kB3B1w165w@anarky.tch.org> melchar@anarky.tch.org (Melchar) writes:
+>
+>      It took someone THIS long to figure that out?
+
+What is "aluminium siding"?  I keep seeing references to it.  Something to do
+with railway lines, perhaps?
+
+E-mail reply please, I'll never find it otherwise.
+
+-Norman
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral oxymoron       took
+someon long figur  aluminium side keep see refer
+someth railway line perhap  mail repli pleas i'll
+never find otherwis  norman
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+norman, 6109, 0.393681231593
+oxymoron, 6364, 0.377471214301
+otherwis, 6313, 0.252630316358
+moral, 5855, 0.252630316358
+took, 8987, 0.248674518079
+repli, 7290, 0.244532875989
+figur, 3476, 0.239445484435
+perhap, 6540, 0.218105075695
+refer, 7213, 0.207739357848
+christian, 1732, 0.199984808196
+mail, 5447, 0.193706988509
+line, 5285, 0.186771028424
+someon, 8124, 0.184128064692
+ll, 5314, 0.17849589638
+long, 5336, 0.17754199478
+someth, 8126, 0.165867484273
+pleas, 6688, 0.165757753012
+say, 7653, 0.143057372717
+year, 9943, 0.141610644091

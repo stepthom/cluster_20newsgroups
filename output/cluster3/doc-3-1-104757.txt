@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104757
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: r4938585@joplin.biosci.arizona.edu (Doug Roberts)
+Subject: Re: lame, dumb and useless question
+Organization: University of Arizona, Biotechnology, Tucson
+Lines: 13
+NNTP-Posting-Host: joplin.biosci.arizona.edu
+
+In article <93109.184451RVESTERM@vma.cc.nd.edu> RVESTERM@vma.cc.nd.edu writes:
+>ok, there are three balls on this batter.  the pitcher proceeds to
+>bean the batter.
+>
+>is that a walk or a hit by pitch?
+>
+>bob vesterman.
+It's gotta be an HBP.
+
+
+Doug Roberts -- Watching Chris Nabholz pitch reminds me of a quote by Bart
+		Simpson: "Come on snipers! Where are you?"
+		Go Expos! 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lame dumb useless question      three ball batter
+pitcher proceed bean batter  walk hit pitch  bob
+vesterman it gotta hbp   doug robert watch chris
+nabholz pitch remind quot bart simpson come sniper
+expo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+batter, 949, 0.32044522467
+sniper, 8080, 0.262849812308
+bart, 920, 0.255327910817
+simpson, 7971, 0.249182069802
+pitch, 6643, 0.246112418626
+bean, 970, 0.243985835264
+hbp, 4212, 0.210326625971
+lame, 5100, 0.206952932617
+gotta, 3961, 0.201075689044
+vesterman, 9488, 0.19848142465
+useless, 9364, 0.192754331885
+dumb, 2914, 0.192754331885
+expo, 3309, 0.187860420455
+proceed, 6889, 0.182794587629
+doug, 2833, 0.179796274554
+chris, 1728, 0.17908658938
+remind, 7270, 0.177043006087
+robert, 7437, 0.151751104368
+bob, 1189, 0.148199527748
+quot, 7045, 0.144732328645
+walk, 9617, 0.143244934392
+watch, 9655, 0.139790501357
+pitcher, 6644, 0.133974602297
+ball, 877, 0.131833641564
+hit, 4316, 0.117879013917
+question, 7032, 0.102035755267
+come, 1923, 0.0977495068029

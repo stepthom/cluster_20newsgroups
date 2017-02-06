@@ -1,0 +1,103 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61060
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Why DC-1 will be the way of the future.
+Organization: Express Access Online Communications, Greenbelt MD USA
+Lines: 20
+NNTP-Posting-Host: access.digex.net
+
+
+
+I once read an article on  Computer technology  which stated that 
+every new computer technology was actually lower and slower then what it
+replaced.  Silicon was less  effective then the germanium  products
+then available.   GaAs  was less capable then Silicon.  Multi-processors
+were slower then  existent single processors.
+
+What the argument was, though was that these new technologies promised either
+theoretically future higher performance  or lower cost or higher densities.
+
+I think that the DC-1  may g=fit into this same model.
+
+ELV's can certainly launch more weight  then  a SSRT,  but 
+an SSRT offers the prospect of  greater cycle times and  lower costs.
+
+This is kind of a speculative posting,  but I thought i'd throw it out as
+a hjistorical framework  for those interested in the project.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ way futur       read articl comput technolog
+state everi new comput technolog actual lower
+slower replac silicon less effect germanium
+product avail gaa less capabl silicon multi
+processor slower exist singl processor  argument
+though new technolog promis either theoret futur
+higher perform lower cost higher densiti  think
+fit model  elv certain launch weight ssrt ssrt
+offer prospect greater cycl time lower cost  kind
+specul post thought i'd throw hjistor framework
+interest project  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lower, 5371, 0.319844845403
+ssrt, 8294, 0.306360150008
+slower, 8045, 0.285435483947
+technolog, 8743, 0.265416402876
+silicon, 7955, 0.263820568054
+processor, 6891, 0.245769171301
+higher, 4293, 0.204295992962
+futur, 3737, 0.187924804001
+cost, 2169, 0.169152833006
+framework, 3646, 0.155525411794
+elv, 3056, 0.155525411794
+comput, 1993, 0.154348406009
+new, 6023, 0.129685951137
+densiti, 2531, 0.12947949565
+theoret, 8847, 0.12799493824
+cycl, 2325, 0.125938697866
+prospect, 6937, 0.125293432073
+multi, 5917, 0.120199393234
+specul, 8214, 0.11691299949
+weight, 9695, 0.116056735803
+greater, 4017, 0.114831099042
+replac, 7288, 0.107455052364
+promis, 6913, 0.104518330591
+fit, 3510, 0.100418185852
+throw, 8899, 0.0998026596908
+capabl, 1498, 0.0998026596908
+pat, 6458, 0.0988131585148
+offer, 6203, 0.097681044494
+model, 5807, 0.0933482910216
+product, 6896, 0.0931973744357
+argument, 631, 0.0928985765111
+singl, 7983, 0.0923127503026
+perform, 6539, 0.0903758673789
+effect, 3005, 0.0892142067126
+launch, 5147, 0.0875196847898
+project, 6909, 0.0826225216481
+exist, 3283, 0.0798143800142
+kind, 5021, 0.0794059261478
+state, 8342, 0.0789254734434
+certain, 1619, 0.0787675996529
+thought, 8887, 0.0776927648175
+avail, 811, 0.0773211349647
+everi, 3235, 0.0762420814967
+articl, 665, 0.0717432336581
+actual, 254, 0.0715717813767
+read, 7135, 0.067761362502
+post, 6766, 0.06501193358
+way, 9666, 0.0582297307302
+time, 8936, 0.0528904865299
+think, 8871, 0.0509823183947

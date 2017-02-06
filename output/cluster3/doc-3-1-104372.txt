@@ -1,0 +1,65 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104372
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: wynblatt@sbgrad5.cs.sunysb.edu (Michael Wynblatt)
+Subject: Re: TIGERS
+Keywords: Tigers
+Nntp-Posting-Host: sbgrad5
+Organization: State University of New York at Stony Brook
+Lines: 15
+
+In article <93104.100921RK0VSANU@MIAMIU.BITNET> Ryan Kearns <RK0VSANU@MIAMIU.BITNET> writes:
+>I think that the Detroit Tigers are the greatest baseball organization of all
+>time.
+...
+[shameless woofing deleted]
+
+On behalf of the rest of us Tiger fans out here, I appoligize for this 
+shameless woofing.  We try to keep it to a minimum, but we did WIN A GAME
+the other day, so sometimes it's hard to control.  see: Phillies Fans
+
+:-)
+Michael
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiger       think detroit tiger greatest basebal
+organ time  shameless woof delet  behalf rest
+tiger fan appolig shameless woof tri keep minimum
+win game day sometim it hard control see philli
+fan   michael
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+tiger, 8928, 0.552941723733
+woof, 9826, 0.438909731877
+fan, 3381, 0.275060498297
+behalf, 998, 0.2554431185
+greatest, 4018, 0.193527469745
+detroit, 2584, 0.193527469745
+minimum, 5740, 0.184313907911
+philli, 6593, 0.165934412253
+michael, 5680, 0.157539217184
+sometim, 8128, 0.151923248563
+delet, 2502, 0.148110085209
+rest, 7324, 0.147598138341
+organ, 6287, 0.144676191714
+control, 2107, 0.144212348756
+hard, 4167, 0.130821036333
+win, 9770, 0.125606106428
+basebal, 924, 0.116446942869
+game, 3761, 0.104746280507
+day, 2402, 0.10247018016
+tri, 9087, 0.100076900622
+time, 8936, 0.0821052547392
+think, 8871, 0.0791430843924

@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84302
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: tbrent@ecn.purdue.edu (Timothy J Brent)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Keywords: Success
+Organization: Purdue University Engineering Computer Network
+Lines: 39
+
+
+
+|> >One more thought.  The government claimed that they believed he had automatic
+|> >weapons on the premises. 
+|> 
+|> >        HE HAD A LICENSE FOR THE 50 CALIBER MACHINE GUN!
+|> 
+|> >THEY KNEW DAMN WELL HE HAD ONE. THEY ALSO KNEW HE HAD IT LEGALLY!
+|> 
+|> >Still, without the element of surprise they sent in agents to get him.
+|> >For all of this my President takes full responsibility.  What a guy!
+|> >I hope he gets it.
+|> 
+|> 	The .50cal gun was a semi-auto, and was thus legal. The BATF
+|> 	claims that the Davidians also possessed illegally modified
+|> 	AR-15's and illegal explosives.
+|> 
+|> 
+|>                   _____  _____
+|>                   \\\\\\/ ___/___________________
+|>   Mitchell S Todd  \\\\/ /                 _____/__________________________
+|> ________________    \\/ / mst4298@zeus._____/.'.'.'.'.'.'.'.'.'.'.'.'_'_'_/
+|> \_____        \__    / / tamu.edu  _____/.'.'.'.'.'.'.'.'.'.'.'.'.'_'_/
+|>     \__________\__  / /        _____/_'_'_'_'_'_'_'_'_'_'_'_'_'_'_/
+|>                 \_ / /__________/
+|>                  \/____/\\\\\\
+|>  			 \\\\\\
+|> 			  ------
+
+If you check the news today, (AP) the "authorities also found a state-of-the-art
+automatic machine gun that investigators did not know was in the cult's arsenal."
+[Carl Stern, Justice Department]
+
+I imagine the authorities know the difference between semi and fully automatic
+and probably knew weather the guns were legal as they have access to any relative
+documentation (i.e. permits).  In addition the .50 caliber guns (plural) were
+semi-automatic rifles.
+
+-Tim
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen       one thought
+govern claim believ automat weapon premis  licens
+calib machin gun  knew damn well one also knew
+legal  still without element surpris sent agent
+get presid take full respons guy hope get  50cal
+gun semi auto thus legal batf claim davidian also
+possess illeg modifi illeg explos     mitchel todd
+tamu edu       check news today author also found
+state art automat machin gun investig know cult
+arsenal carl stern justic depart  imagin author
+know differ semi fulli automat probabl knew
+weather gun legal access relat document permit
+addit calib gun plural semi automat rifl  tim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gun, 4094, 0.437728352737
+automat, 803, 0.33496830202
+semi, 7781, 0.268880954872
+legal, 5200, 0.240512945833
+knew, 5045, 0.239779943633
+calib, 1456, 0.217202393812
+illeg, 4506, 0.190925153484
+presid, 6839, 0.153298412104
+machin, 5416, 0.14560774158
+author, 796, 0.131310939793
+plural, 6699, 0.124790423438
+claim, 1782, 0.124689857274
+rifl, 7397, 0.118301533986
+arsenal, 659, 0.118301533986
+stern, 8387, 0.11583457271
+todd, 8965, 0.108601196906
+know, 5052, 0.103414247213
+carl, 1520, 0.101634553452
+premis, 6827, 0.0998545461564
+auto, 798, 0.0990336703023
+possess, 6764, 0.0982528534691
+batf, 945, 0.0982528534691
+permit, 6552, 0.09611587441
+mitchel, 5783, 0.0954625767418
+explos, 3308, 0.0930873267227
+licens, 5254, 0.0910194776653
+weather, 9679, 0.0896269849573
+weapon, 9674, 0.0891885035416
+justic, 4937, 0.0891885035416
+agent, 331, 0.0860558913968
+tim, 8935, 0.0850230446222
+fulli, 3718, 0.0850230446222
+davidian, 2398, 0.084369746954
+investig, 4745, 0.0834372363734
+cult, 2289, 0.0825560833462
+damn, 2346, 0.081720924965
+element, 3037, 0.0801709819445
+art, 660, 0.0783134127659
+modifi, 5814, 0.0766492060518
+depart, 2535, 0.0751418743131
+document, 2788, 0.0736002326175
+sent, 7793, 0.0726492457172
+imagin, 4518, 0.0726492457172
+addit, 263, 0.0726492457172
+surpris, 8593, 0.0720452657167
+access, 209, 0.0683560640886
+govern, 3966, 0.0667880277134
+messag, 5650, 0.0661603562644
+check, 1682, 0.0652627245292
+respons, 7323, 0.0616335417197
+today, 8964, 0.0611762657387
+relat, 7247, 0.0611762657387
+guy, 4100, 0.0600871673402
+hope, 4372, 0.0572045055357
+state, 8342, 0.0567422764223
+edu, 3001, 0.0567422764223
+happen, 4159, 0.0564041602431
+thought, 8887, 0.0558560391842
+news, 6031, 0.0552740270259
+probabl, 6885, 0.0523389206176
+believ, 1009, 0.0494211247253
+differ, 2633, 0.0492775939828

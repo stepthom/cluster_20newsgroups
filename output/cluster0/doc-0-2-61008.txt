@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61008
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+Subject: Re: Commercial mining activities on the moon
+Organization: Lick Observatory/UCO
+Lines: 26
+	<1993Apr20.204838.13217@cs.rochester.edu>	<STEINLY.93Apr20145301@topaz.ucsc.edu>	<1993Apr20.223807.16712@cs.rochester.edu>,<STEINLY.93Apr20160116@topaz.ucsc.edu>
+	<1r46j3INN14j@mojo.eng.umd.edu>
+NNTP-Posting-Host: topaz.ucsc.edu
+In-reply-to: sysmgr@king.eng.umd.edu's message of 21 Apr 1993 19:16:51 GMT
+
+In article <1r46j3INN14j@mojo.eng.umd.edu> sysmgr@king.eng.umd.edu (Doug Mohney) writes:
+
+   In article <STEINLY.93Apr20160116@topaz.ucsc.edu>, steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+   >Very cost effective if you use the right accounting method :-)
+
+   Sherzer Methodology!!!!!!
+
+Hell, yes. I'm not going to let a bunch of seven suits tell
+me what the right way to estimate cost effectiveness is, at
+least not until they can make their mind up long enough
+to leave their scheme stable for a fiscal year or two.
+
+
+Seriously though. If you were to ask the British government
+whether their colonisation efforts in the Americas were cost
+effective, what answer do you think you'd get? What if you asked
+in 1765, 1815, 1865, 1915 and 1945 respectively? ;-)
+
+*  Steinn Sigurdsson   			Lick Observatory      	*
+*  steinly@lick.ucsc.edu		"standard disclaimer"  	*
+*  If you ever have to go to Shoeburyness			*
+*  Take the A-road, the ok road, that's the best!		*
+*  Go motoring on The A13!	- BB 1983			*
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon   topaz ucsc edu
+cost effect use right account method  sherzer
+methodolog  hell yes i'm go let bunch seven suit
+tell right way estim cost effect least make mind
+long enough leav scheme stabl fiscal year two
+serious though ask british govern whether colonis
+effort america cost effect answer think you'd get
+ask respect  steinn sigurdsson lick observatori
+ever shoebury take road road that best motor a13
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+effect, 3005, 0.319340017856
+cost, 2169, 0.302739163991
+road, 7431, 0.24765279615
+topaz, 8990, 0.207104612533
+fiscal, 3503, 0.192241308571
+ask, 689, 0.183987635144
+methodolog, 5668, 0.182768080293
+sigurdsson, 7952, 0.177925649511
+steinn, 8371, 0.175799728263
+sherzer, 7880, 0.175799728263
+lick, 5255, 0.173831432622
+scheme, 7680, 0.165720545868
+stabl, 8298, 0.163062345549
+right, 7399, 0.161585707439
+british, 1320, 0.159515773562
+seven, 7820, 0.155421556673
+motor, 5882, 0.149494900382
+estim, 3201, 0.142820030198
+observatori, 6180, 0.140021672104
+bunch, 1399, 0.139495717556
+suit, 8529, 0.133883382527
+america, 468, 0.131085024433
+account, 221, 0.127538452446
+effort, 3007, 0.124116672404
+hell, 4245, 0.121878731434
+respect, 7321, 0.12031593736
+method, 5666, 0.119567723467
+leav, 5184, 0.118365715784
+activ, 252, 0.113445052731
+commerci, 1940, 0.112298406895
+govern, 3966, 0.110842709082
+moon, 5851, 0.107832717703
+mind, 5733, 0.103468855486
+answer, 535, 0.0980295493215
+yes, 9951, 0.0967493093669
+edu, 3001, 0.0941705849604
+best, 1052, 0.0887978755846
+tell, 8767, 0.0867910035579
+let, 5225, 0.0838783479803
+long, 5336, 0.0836865793729
+way, 9666, 0.0694772874424
+year, 9943, 0.0667499000533
+make, 5459, 0.066615589594
+think, 8871, 0.0608299771469
+use, 9363, 0.0586585093601

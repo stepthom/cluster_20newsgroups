@@ -1,0 +1,53 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60994
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: sysmgr@king.eng.umd.edu (Doug Mohney)
+Subject: Re: Commercial mining activities on the moon
+Organization: Computer Aided Design Lab, U. of Maryland College Park
+Lines: 10
+Reply-To: sysmgr@king.eng.umd.edu
+NNTP-Posting-Host: queen.eng.umd.edu
+
+In article <STEINLY.93Apr20160116@topaz.ucsc.edu>, steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+>Very cost effective if you use the right accounting method :-)
+
+Sherzer Methodology!!!!!!
+
+
+
+    Software engineering? That's like military intelligence, isn't it?
+  -- >                  SYSMGR@CADLAB.ENG.UMD.EDU                        < --
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon        cost effect use
+right account method  sherzer methodolog
+softwar engin that like militari intellig isn't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+methodolog, 5668, 0.380410280172
+sherzer, 7880, 0.365906474346
+intellig, 4698, 0.286169796002
+militari, 5715, 0.273633499577
+account, 221, 0.265456300412
+method, 5666, 0.248866164765
+activ, 252, 0.236122545165
+commerci, 1940, 0.233735936611
+moon, 5851, 0.224441129367
+effect, 3005, 0.221556239413
+engin, 3109, 0.215638168305
+cost, 2169, 0.210038663952
+isn, 4783, 0.202467030022
+softwar, 8103, 0.184501870978
+right, 7399, 0.168160830218
+use, 9363, 0.122090793668
+like, 5272, 0.116400831725

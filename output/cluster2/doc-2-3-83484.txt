@@ -1,0 +1,167 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83484
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mathew@mantis.co.uk (mathew)
+Subject: Re: After 2000 years, can we say that Christian Morality is oxymoronic?
+Organization: Mantis Consultants, Cambridge. UK.
+Lines: 32
+X-Newsreader: rusnews v1.01
+
+forgach@noao.edu (Suzanne Forgach) writes:
+> From article <1qcq3f$r05@fido.asd.sgi.com>, by livesey@solntze.wpd.sgi.com 
+> (Jon Livesey):
+> > If there is a Western ethic against infanticide, why
+> > are so many children dying all over the world?
+> 
+> The majority of the world isn't "Western".
+
+Superficially a good answer, but it isn't that simple.  An awful lot of the
+starvation and poverty in the world is directly caused by the economic
+policies of the Western countries, as well as by the diet of the typical
+Westerner.  For instance, some third-world countries with terrible
+malnutrition problems export all the soya they can produce -- so that it can
+be fed to cattle in the US, to make tender juicy steaks and burgers.  They
+have to do this to get money to pay the interest on the crippling bank loans
+we encouraged them to take out.  Fund-raising for Ethiopia is a truly bizarre
+idea; instead, we ought to stop bleeding them for every penny they've got.
+
+Perhaps it's more accurate to say that there's a Western ethic against
+Western infanticide.  All the evidence suggests that so long as the children
+are dying in the Third World, we couldn't give a shit.  And that goes for the
+supposed "Pro-Life" movement, too.  They could save far more lives by
+fighting against Third World debt than they will by fighting against
+abortion.  Hell, if they're only interested in fetuses, they could save more
+of those by fighting for human rights in China.
+
+And besides, Suzanne's answer implies that non-Western countries lack this
+ethic against infanticide.  Apart from China, with its policy of mandatory
+forced abortion in Tibet, I don't believe this to be the case.
+
+
+mathew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral oxymoron      solntz wpd
+sgi com jon livesey western ethic infanticid mani
+children die world  major world isn't western
+superfici good answer isn't simpl aw lot starvat
+poverti world direct caus econom polici western
+countri well diet typic western instanc third
+world countri terribl malnutrit problem export
+soya produc fed cattl make tender juici steak
+burger get money pay interest crippl bank loan
+encourag take fund rais ethiopia truli bizarr idea
+instead ought stop bleed everi penni they'v got
+perhap it accur say there western ethic western
+infanticid evid suggest long children die third
+world couldn't give shit goe suppos pro life
+movement could save far live fight third world
+debt fight abort hell they'r interest fetus could
+save fight human right china  besid suzann answer
+impli non western countri lack ethic infanticid
+apart china polici mandatori forc abort tibet
+don't believ case   mathew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+western, 9709, 0.49958273385
+world, 9841, 0.269944705485
+fight, 3474, 0.226835930499
+ethic, 3209, 0.225700628933
+countri, 2186, 0.195060672756
+china, 1709, 0.190877173932
+polici, 6721, 0.157219157476
+abort, 187, 0.155365524138
+children, 1707, 0.121200567605
+die, 2628, 0.109891661906
+fetus, 3454, 0.108614569961
+save, 7646, 0.108137108066
+tibet, 8915, 0.104749988962
+superfici, 8560, 0.104749988962
+steak, 8361, 0.104749988962
+diet, 2630, 0.104749988962
+cattl, 1566, 0.104749988962
+starvat, 8339, 0.101752387057
+poverti, 6779, 0.101752387057
+mandatori, 5475, 0.101752387057
+bleed, 1152, 0.101752387057
+tender, 8785, 0.0993031679651
+penni, 6526, 0.0993031679651
+debt, 2428, 0.0993031679651
+answer, 535, 0.0991633559849
+isn, 4783, 0.0984003465371
+oxymoron, 6364, 0.0899917659696
+loan, 5319, 0.0899917659696
+mathew, 5547, 0.0869941640645
+shit, 7893, 0.0824741597373
+bizarr, 1131, 0.0824741597373
+jon, 4887, 0.08184923248
+fed, 3424, 0.08184923248
+terribl, 8804, 0.0812520891282
+ought, 6321, 0.0801319811603
+movement, 5891, 0.0786095787382
+econom, 2984, 0.0776827620689
+export, 3310, 0.0760013813005
+apart, 559, 0.0738181810699
+sgi, 7831, 0.0728466604875
+encourag, 3089, 0.0728466604875
+pro, 6883, 0.0713689619785
+bank, 897, 0.0710919725059
+aw, 829, 0.0708205791648
+rais, 7076, 0.070554560304
+instanc, 4680, 0.0702937071858
+impli, 4546, 0.0700378230019
+accur, 225, 0.0688267770249
+typic, 9178, 0.0683713600734
+say, 7653, 0.0682117476405
+truli, 9127, 0.066689979305
+besid, 1051, 0.0638513557462
+lack, 5092, 0.062198226331
+hell, 4245, 0.0616441884914
+couldn, 2176, 0.0611120986008
+fund, 3723, 0.0609823051903
+pay, 6474, 0.060853753841
+moral, 5855, 0.0602288265838
+produc, 6895, 0.0595153750294
+com, 1917, 0.0587282495337
+instead, 4682, 0.0576782220038
+goe, 3931, 0.0573785773095
+simpl, 7965, 0.0572801628511
+stop, 8413, 0.0567986233566
+evid, 3245, 0.0566107389865
+forc, 3594, 0.0556218736457
+suppos, 8577, 0.0546201540694
+caus, 1569, 0.0543809754043
+money, 5835, 0.0541459808379
+non, 6097, 0.0532450725922
+perhap, 6540, 0.051997768797
+human, 4432, 0.0518660666295
+direct, 2667, 0.0514785345593
+suggest, 8525, 0.0512262545913
+life, 5260, 0.0494715666097
+major, 5458, 0.0493080735553
+live, 5310, 0.049254015078
+christian, 1732, 0.0476777708465
+case, 1540, 0.0467062502641
+everi, 3235, 0.0460105083279
+idea, 4482, 0.0459260205433
+far, 3386, 0.0448734602399
+got, 3960, 0.0440796884852
+long, 5336, 0.04232724785
+problem, 6887, 0.0422629725433
+lot, 5356, 0.0419148525958
+believ, 1009, 0.0414844515053
+right, 7399, 0.0408636506537
+mani, 5479, 0.038105054425
+good, 3948, 0.034531806889
+year, 9943, 0.0337609636419
+make, 5459, 0.0336930316969
+don, 2811, 0.0304703287631

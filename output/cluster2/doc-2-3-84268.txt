@@ -1,0 +1,97 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/84268
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: cutter@gloster.via.mind.org (cutter)
+Subject: Re: A Message for you Mr. President: How do you know what happened?
+Distribution: world
+Organization: Gordian Knot, Gloster,GA
+Lines: 26
+
+bskendig@netcom.com (Brian Kendig) writes:
+
+> b645zaw@utarlg.uta.edu (Stephen Tice) writes:
+> >
+> >One way or another -- so much for patience. Too bad you couldn't just 
+> >wait. Was the prospect of God's Message just too much to take?
+> 
+> So you believe that David Koresh really is Jesus Christ?
+> 
+
+You know, everybody scoffed at that guy they hung up on a cross too.
+He claimed also to be the son of God; and it took almost two thousand 
+years to forget what he preached.
+
+	Love thy neighbor as thyself.
+
+
+Anybody else wonder if those two guys setting the fires were 'agent 
+provacateurs.'
+
+
+---------------------------------------------------------------------
+cutter@gloster.via.mind.org (chris)     All jobs are easy 
+                                     to the person who
+                                     doesn't have to do them.
+                                               Holt's law
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ messag presid know happen         one way anoth
+much patienc bad couldn't wait prospect god messag
+much take  believ david koresh realli jesus christ
+know everybodi scof guy hung cross claim also son
+god took almost two thousand year forget preach
+love thi neighbor thyself   anybodi els wonder two
+guy set fire agent provacateur     person doesn't
+holt law
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+messag, 5650, 0.262732707581
+guy, 4100, 0.238615162577
+holt, 4352, 0.229998239413
+god, 3926, 0.223989388453
+thi, 8862, 0.222012399106
+patienc, 6464, 0.207972593169
+neighbor, 6000, 0.205780255635
+preach, 6803, 0.199986752862
+hung, 4441, 0.18072600542
+prospect, 6937, 0.178856272592
+agent, 331, 0.170870432284
+everybodi, 3239, 0.163358873776
+cross, 2241, 0.161203723245
+son, 8132, 0.158222511215
+thousand, 8888, 0.156379891264
+wait, 9611, 0.152987201049
+koresh, 5065, 0.15258749401
+presid, 6839, 0.152192752405
+christ, 1729, 0.146793991238
+forget, 3604, 0.144867565637
+couldn, 2176, 0.144557550586
+took, 8987, 0.140237384779
+know, 5052, 0.136891167192
+law, 5153, 0.136434890733
+jesus, 4859, 0.129201187092
+anybodi, 552, 0.129201187092
+david, 2397, 0.128263765407
+love, 5366, 0.12612073167
+claim, 1782, 0.123790535825
+bad, 861, 0.117022466197
+wonder, 9821, 0.1153795883
+set, 7815, 0.113817490133
+happen, 4159, 0.111994694227
+els, 3053, 0.10985406751
+person, 6562, 0.105870759111
+doesn, 2793, 0.103075437817
+anoth, 533, 0.102413407818
+believ, 1009, 0.0981293530139
+realli, 7150, 0.0942913637416
+way, 9666, 0.083122893356
+year, 9943, 0.0798598366157

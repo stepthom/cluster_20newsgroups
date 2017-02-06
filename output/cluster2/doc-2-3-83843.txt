@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83843
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Davidians and compassion
+Organization: Cookamunga Tourist Bureau
+Lines: 27
+
+In article <C5sLAs.B68@blaze.cs.jhu.edu>, arromdee@jyusenkyou.cs.jhu.edu
+(Ken Arromdee) wrote:
+> 
+> In article <sandvik-190493200420@sandvik-kent.apple.com> sandvik@newton.apple.com (Kent Sandvik) writes:
+> >So we have this highly Christian religious order that put fire
+> >on their house, killing most of the people inside.
+> 
+> We have no way to know that the cultists burned the house; it could have been
+> the BATF and FBI.  We only have the government's word for it, after all, and
+> people who started it by a no-knock search with concussion grenades are hardly
+> disinterested observers.
+
+Well, looking at the videos it seems that this fire started in various
+places at the same time, which would indicate that this was a planned
+action. I'm sure FBI and BATF didn't *deliberately* start a possible
+fire, having a sniper kill Korresh would have been a far easier 
+method. Looking at the careful operation, and use of tear gas
+that as I know don't start fires, it is less likely that this 
+was the case.
+
+Sorry, but my bets are on fanatical people keen to start
+Armageddon -- theirs.
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ davidian compass    jyusenkyou jhu edu ken
+arromde wrote   high christian religi order put
+fire hous kill peopl insid  way know cultist burn
+hous could batf fbi govern word peopl start knock
+search concuss grenad hard disinterest observ
+well look video seem fire start various place time
+indic plan action i'm sure fbi batf didn't deliber
+start possibl fire sniper kill korresh far easier
+method look care oper use tear gas know don't
+start fire less like case  sorri bet fanat peopl
+keen start armageddon  cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+start, 8334, 0.33911250576
+batf, 945, 0.263092597014
+fbi, 3414, 0.227667012467
+hous, 4396, 0.207974713774
+kill, 5012, 0.183353939808
+peopl, 6530, 0.174399968649
+sniper, 8080, 0.167076249827
+jyusenkyou, 4942, 0.16229507429
+concuss, 2014, 0.16229507429
+armageddon, 644, 0.16229507429
+keen, 4971, 0.158388569431
+disinterest, 2719, 0.158388569431
+cultist, 2290, 0.155085666635
+arromde, 657, 0.155085666635
+jhu, 4866, 0.152224562095
+grenad, 4037, 0.149700889035
+fanat, 3382, 0.137372874362
+deliber, 2503, 0.133690732352
+compass, 1963, 0.132591698825
+tear, 8735, 0.129597095682
+easier, 2960, 0.116190435601
+knock, 5050, 0.113391707979
+gas, 3780, 0.112958835554
+davidian, 2398, 0.112958835554
+look, 5341, 0.106943771385
+religi, 7260, 0.105145825838
+ken, 4980, 0.105145825838
+search, 7746, 0.104850283825
+bet, 1054, 0.104558762916
+kent, 4987, 0.102359248176
+cheer, 1687, 0.101338747869
+insid, 4671, 0.1003646503
+burn, 1413, 0.1003646503
+action, 251, 0.097473807439
+video, 9506, 0.0970617475043
+method, 5666, 0.0964581454417
+various, 9432, 0.0945607599486
+indic, 4600, 0.0933259722842
+know, 5052, 0.0923044366543
+wrote, 9871, 0.0908977401677
+oper, 6261, 0.0897070751836
+govern, 3966, 0.0894194674258
+observ, 6179, 0.0891356691545
+plan, 6660, 0.0875075604437
+care, 1516, 0.0843544936169
+sorri, 8142, 0.0826221197065
+hard, 4167, 0.0811161283887
+word, 9829, 0.0767460715222
+christian, 1732, 0.0760460524351
+edu, 3001, 0.0759696657009
+order, 6281, 0.0757421259742
+case, 1540, 0.0744964769445
+place, 6657, 0.0733867684405
+high, 4292, 0.0724607898196
+far, 3386, 0.0715731765509
+didn, 2625, 0.0715731765509
+possibl, 6765, 0.0702486480702
+sure, 8585, 0.069001253449
+way, 9666, 0.0560489913387
+time, 8936, 0.0509097051324
+don, 2811, 0.0486001794482
+use, 9363, 0.0473212240157
+like, 5272, 0.045115849182

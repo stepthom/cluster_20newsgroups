@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60799
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: lazarus@katarina.dev.cdx.mot.com (John McGlaughlin)
+Subject: Re: How many read sci.space?
+Nntp-Posting-Host: katarina.dev.cdx.mot.com
+Organization: Motorola Codex, Canton, Massachusetts
+Lines: 18
+
+rborden@ugly.UVic.CA (Ross  Borden) writes:
+
+>	Quick!  Everyone who sees this, post a reply that says:
+
+>			"Hey, I read sci.space!"
+
+>Then we can count them, and find out how many there are! :-)
+>(This will also help answer that nagging question: "Just what is
+>the maximum bandwidth of the Internet, anyways?")
+
+Don't you think it would be better to E-mail back to you that we read sci.space
+so that you can count them and every server in the world does not have to get
+BW'd to death.  Or instead you could possible cut and past all the senders into
+a single post and save on header bandwidth....  Not meaning to be taken as a 
+flame  it's late and we have to work toward a demo .... little punchy
+-- 
+
+-jftm-
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mani read sci space       quick everyon see post
+repli say  hey read sci space  count find mani
+also help answer nag question maximum bandwidth
+internet anyway  don't think better mail back read
+sci space count everi server world get bw'd death
+instead could possibl cut past sender singl post
+save header bandwidth mean taken flame it late
+work toward demo littl punchi   jftm
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sci, 7690, 0.390132704348
+bandwidth, 893, 0.348084122776
+count, 2180, 0.257714194975
+read, 7135, 0.254729545324
+space, 8164, 0.237365441736
+nag, 5946, 0.206194346004
+demo, 2517, 0.166387052779
+header, 4217, 0.164240338729
+post, 6766, 0.162929233514
+sender, 7786, 0.162247096958
+maximum, 5560, 0.161301463476
+mani, 5479, 0.158243627824
+server, 7812, 0.144394204603
+hey, 4283, 0.143397901686
+internet, 4717, 0.13394268679
+flame, 3518, 0.133596179027
+late, 5139, 0.127998767727
+taken, 8678, 0.126357499285
+death, 2423, 0.124557292998
+cut, 2313, 0.122632839218
+repli, 7290, 0.121051406729
+instead, 4682, 0.119763785068
+quick, 7036, 0.11893725004
+past, 6456, 0.117937375382
+singl, 7983, 0.115674498681
+save, 7646, 0.112268625127
+everyon, 3241, 0.111168456534
+answer, 535, 0.102952019325
+mail, 5447, 0.095891005892
+everi, 3235, 0.0955367977516
+littl, 5308, 0.0937475926547
+world, 9841, 0.0934194298552
+possibl, 6765, 0.0914515112958
+mean, 5595, 0.0862017305696
+question, 7032, 0.084433024587
+better, 1060, 0.083446054247
+help, 4249, 0.0819469374121
+work, 9833, 0.0790242840356
+say, 7653, 0.0708178650426
+think, 8871, 0.0638845024397
+don, 2811, 0.0632689735944

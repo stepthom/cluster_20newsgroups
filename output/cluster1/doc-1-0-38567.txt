@@ -1,0 +1,213 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38567
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: amann@iam.unibe.ch (Stephan Amann)
+Subject: Re: more on radiosity
+Reply-To: amann@iam.unibe.ch
+Organization: University of Berne, Institute of Computer Science and Applied Mathematics, Special Interest Group Computer Graphics
+Lines: 80
+
+In article 66319@yuma.ACNS.ColoState.EDU, xz775327@longs.LANCE.ColoState.Edu (Xia Zhao) writes:
+>
+>
+>In article <1993Apr19.131239.11670@aragorn.unibe.ch>, you write:
+>|>
+>|>
+>|> Let's be serious... I'm working on a radiosity package, written in C++.
+>|> I would like to make it public domain.  I'll announce it in c.g. the minute
+>|> I finished it.
+>|>
+>|> That were the good news. The bad news: It'll take another 2 months (at least)
+>|> to finish it.
+>
+>
+> Are you using the traditional radiosity method, progressive refinement, or
+>  something else in your package?
+>
+
+My package is based on several articles about non-standard radiosity and
+some unpublished methods.
+
+The main articles are:
+
+-  Cohen, Chen, Wallace, Greenberg : 
+    A Progressive Refinement Approach to fast Radiosity Image Generation
+     Computer Graphics (SIGGRAPH), V. 22(No. 4), pp 75-84, August 1988
+
+-  Silion, Puech
+    A General Two-Pass Method Integrating Specular and Diffuse Reflection
+    Computer Graphics (SIGGRAPH), V23(No. 3), pp335-344, July 1989 
+
+> If you need to project patches on the hemi-cube surfaces, what technique are
+>  you using?  Do you have hardware to facilitate the projection?
+>
+
+I do not use hemi-cubes. I have no special hardware (SUN SPARCstation).
+
+>
+>|>
+>|> In the meantime you may have a look at the file
+>|>   Radiosity_code.tar.Z
+>|> located at
+>|>   compute1.cc.ncsu.edu
+>
+>
+>  What are the guest username and password for this ftp site?
+>
+
+Use anonymous as username and your e-mail address as password.
+
+>
+>|>
+>|> (there are some other locations; have a look at archie to get the nearest)
+>|>
+>|> Hope that'll help.
+>|>
+>|> Yours
+>|>
+>|> Stephan
+>|>
+>
+>
+>   Thanks, Stephan.
+>
+>
+>    Josephine
+
+
+Stephan.
+
+
+----------------------------------------------------------------------------
+
+ Stephan Amann     SIG Computer Graphics, University of Berne, Switzerland
+           amann@iam.unibe.ch
+	   Tel +41 31 65 46 79	   Fax +41 31 65 39 65
+
+ Projects: Radiosity, Raytracing, Computer Graphics
+
+----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ radios           let serious i'm work radios
+packag written like make public domain i'll
+announc minut finish  good news bad news it'll
+take anoth month least finish   use tradit radios
+method progress refin someth els packag   packag
+base sever articl non standard radios unpublish
+method  main articl  cohen chen wallac greenberg
+progress refin approach fast radios imag generat
+comput graphic siggraph august  silion puech
+general two pass method integr specular diffus
+reflect comput graphic siggraph v23 pp335  need
+project patch hemi cube surfac techniqu use
+hardwar facilit project   use hemi cube special
+hardwar sun sparcstat    meantim look file radios
+code tar locat compute1 ncsu edu   guest usernam
+password ftp site   use anonym usernam mail
+address password    locat look archi get nearest
+hope that'll help    stephan    thank stephan
+josephin   stephan     stephan amann sig comput
+graphic univers bern switzerland  tel fax  project
+radios raytrac comput graphic
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+radios, 7062, 0.541883208989
+stephan, 8379, 0.362178055199
+comput, 1993, 0.16577230111
+refin, 7215, 0.164517497616
+usernam, 9368, 0.16223885385
+method, 5666, 0.161442161802
+graphic, 3997, 0.157422955346
+packag, 6375, 0.15619983827
+password, 6455, 0.147945967633
+cube, 2284, 0.147945967633
+siggraph, 7941, 0.14167345092
+project, 6909, 0.13310657905
+progress, 6907, 0.1319797273
+finish, 3488, 0.115716687586
+ll, 5314, 0.113601995904
+hardwar, 4173, 0.106758642446
+locat, 5323, 0.105919690958
+use, 9363, 0.105602150642
+chen, 1693, 0.0932119343382
+unpublish, 9302, 0.0905445137998
+cohen, 1880, 0.0905445137998
+wallac, 9620, 0.0883650725284
+compute1, 1994, 0.0883650725284
+bern, 1043, 0.0883650725284
+ncsu, 5979, 0.0865223811893
+meantim, 5599, 0.0849261693467
+news, 6031, 0.0825736276196
+diffus, 2637, 0.0822587488082
+facilit, 3349, 0.0811194269249
+switzerland, 8639, 0.0791224904514
+sparcstat, 8185, 0.0791224904514
+articl, 665, 0.0770532151262
+greenberg, 4027, 0.075915707807
+guest, 4080, 0.075232445727
+nearest, 5984, 0.0745861352438
+archi, 613, 0.0723022930287
+patch, 6459, 0.0717935425453
+tar, 8701, 0.0703855839171
+raytrac, 7121, 0.0687341579714
+august, 784, 0.0648227097819
+sig, 7940, 0.0645478969418
+reflect, 7216, 0.0630197982867
+tel, 8754, 0.0627830810056
+domain, 2805, 0.0627830810056
+integr, 4694, 0.0620998189256
+tradit, 9037, 0.0614535084424
+techniqu, 8740, 0.0612456104707
+look, 5341, 0.0596639905822
+anonym, 532, 0.0593441778239
+approach, 589, 0.0569613857813
+minut, 5747, 0.0552220125622
+announc, 524, 0.0548541733221
+pass, 6448, 0.0533793212231
+special, 8198, 0.0532730642384
+fast, 3397, 0.0527555014936
+main, 5450, 0.0524553895286
+surfac, 8587, 0.0522594206796
+written, 9867, 0.0521626279883
+generat, 3819, 0.0517831093804
+fax, 3413, 0.0502102676959
+sun, 8539, 0.0494183336669
+site, 7994, 0.0492660534921
+month, 5847, 0.0492660534921
+standard, 8313, 0.0489671921242
+ftp, 3709, 0.048320881641
+code, 1871, 0.0475101417142
+non, 6097, 0.0473802074777
+address, 264, 0.0464482683036
+general, 3818, 0.0461530969595
+public, 6973, 0.0459220978474
+sever, 7823, 0.0441203303143
+bad, 861, 0.0440223475357
+hope, 4372, 0.0427287805179
+edu, 3001, 0.0423835194909
+file, 3477, 0.0413646892127
+els, 3053, 0.0413256880947
+mail, 5447, 0.0410943163801
+imag, 4512, 0.0400701205751
+univers, 9282, 0.0397246100472
+anoth, 533, 0.0385266075631
+let, 5225, 0.0377512744343
+base, 923, 0.0374097131387
+someth, 8126, 0.0351882548396
+help, 4249, 0.0351185529974
+work, 9833, 0.0338660430106
+thank, 8832, 0.033476098033
+need, 5993, 0.0321401506592
+good, 3948, 0.0307281800048
+make, 5459, 0.0299817946457
+like, 5272, 0.0251701577927

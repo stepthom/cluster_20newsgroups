@@ -1,0 +1,182 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105145
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: ALL-TIME BEST PLAYERS
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 49
+
+In article <1993Apr22.204633.1@woods.ulowell.edu> poiriera@woods.ulowell.edu writes:
+>	This chatting about the best player of all time is pointless.  You
+>can't compare players from different era's.  
+
+Of course you can.  You just have to be careful about what conclusions
+you draw.
+
+>If you will notice the best
+>pitchers (stat wise were in the 20's and 30's) and the best all around hitters
+>probably came from the 40's to 60's.  
+
+Huh?  The 20's and 30's were the *worst* decades for great pitching.  Grove,
+Vance, Dean, and not a whole lot else.  
+
+As for the best all-around hitters, stat-wise, Ruth, Gehrig, Foxx, Greenberg,
+Hornsby, Cobb, etc. all played before the 40's.  Stat-wise, the 60's were 
+a graveyard for hitters.
+
+>Now we have a great number of great
+>pitchers and an equally great number of great hitters and fielders. (Also,
+
+How do you know?  Which ones do you consider great?
+
+>about fielding, the gloves were much smaller than they are now in the early
+>years of baseball)  Maybe a hitter like Sheffield with the .330 BA, 30hr, and
+>100+ RBI(Even though it was probably a fluke year) can be compared to a Mantle
+>because the pitching Sheffield faces is faster and not to mention better. The
+
+So?  Sheffield also has better shoes.  More time between pitches.  You can
+run the comparison, but there are *lots* of things to take into account.
+
+>same could be said for Frank Thomas who is said to be the best hitter since Ted
+>Williams, although Frank's defense does suck.
+
+Well, can we compare them or can't we?
+
+>	All I am saying is that you can't compare players from different era's,
+>if you want a best player try choosing best players from different era's. That
+
+Why?  We can compare players to the *standard* of their era; and we can
+keep in mind era-to-era differences without throwing up our hands in
+despair.
+
+>way there is reasonable basis for comparison.
+
+You haven't shown us what's *un*reasonable about the MAntle-Sheffield
+comparison that you yourself did.
+
+Roger
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ time best player origin news nimast       chat
+best player time pointless can't compar player
+differ era  cours care conclus draw  notic best
+pitcher stat wise best around hitter probabl came
+huh worst decad great pitch grove vanc dean whole
+lot els  best around hitter stat wise ruth gehrig
+foxx greenberg hornsbi cobb etc play stat wise
+graveyard hitter  great number great pitcher equal
+great number great hitter fielder also  know one
+consid great  field glove much smaller earli year
+basebal mayb hitter like sheffield 30hr rbi even
+though probabl fluke year compar mantl pitch
+sheffield face faster mention better  sheffield
+also better shoe time pitch run comparison lot
+thing take account  could said frank thoma said
+best hitter sinc ted william although frank defens
+suck  well compar can't  say can't compar player
+differ era want best player tri choos best player
+differ era  compar player standard era keep mind
+era era differ without throw hand despair  way
+reason basi comparison  haven't shown what reason
+mantl sheffield comparison  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+era, 3164, 0.345498046323
+best, 1052, 0.308380420448
+sheffield, 7871, 0.29866211042
+hitter, 4322, 0.294472087919
+player, 6683, 0.278492888719
+compar, 1960, 0.24254094483
+great, 4016, 0.230089116209
+comparison, 1962, 0.186773748884
+wise, 9799, 0.184492313591
+stat, 8341, 0.157020049812
+mantl, 5491, 0.150921995392
+differ, 2633, 0.142007810917
+pitch, 6643, 0.126270273477
+frank, 3655, 0.0986641849404
+pitcher, 6644, 0.0916492268882
+hornsbi, 4378, 0.0899050330162
+despair, 2568, 0.0899050330162
+vanc, 9417, 0.0852301244422
+shoe, 7898, 0.0852301244422
+pointless, 6712, 0.0834528066893
+time, 8936, 0.0821847280898
+foxx, 3633, 0.0819132240229
+grove, 4065, 0.0772383154489
+cobb, 1864, 0.0772383154489
+said, 7583, 0.0767623506164
+fluke, 3561, 0.0763154435842
+probabl, 6885, 0.0754149598423
+number, 6156, 0.0749827747557
+reason, 7156, 0.0743790888026
+greenberg, 4027, 0.0732224287083
+gehrig, 3811, 0.0732224287083
+lot, 5356, 0.0719495294242
+better, 1060, 0.0689846033659
+dean, 2421, 0.0683236345908
+nimast, 6072, 0.0678884983008
+ruth, 7555, 0.0666737186116
+decad, 2432, 0.0659296060362
+glove, 3911, 0.0655748167139
+huh, 4429, 0.0645715978815
+fielder, 3467, 0.0636487260168
+suck, 8515, 0.0617453988872
+shown, 7918, 0.0614974378638
+ted, 8745, 0.0610169623757
+smaller, 8055, 0.0605557111409
+rbi, 7124, 0.0594773797093
+year, 9943, 0.0579528567204
+william, 9764, 0.0579377970429
+choos, 1720, 0.0575830077205
+conclus, 2009, 0.0574096248562
+thoma, 8878, 0.0572388107216
+worst, 9849, 0.0565797888882
+faster, 3399, 0.0565797888882
+roger, 7458, 0.055365009199
+account, 221, 0.055365009199
+basi, 936, 0.0549405535426
+equal, 3156, 0.0548024711353
+notic, 6120, 0.0532628884689
+throw, 8899, 0.0516933194573
+draw, 2861, 0.05118080205
+defens, 2476, 0.0498562619687
+face, 3345, 0.0495911987272
+haven, 4207, 0.0492470017283
+earli, 2951, 0.0478138809743
+standard, 8313, 0.0472299717401
+came, 1472, 0.0464725222712
+mention, 5632, 0.0461440173375
+care, 1516, 0.045391810874
+mind, 5733, 0.0449162901532
+field, 3466, 0.0433912744416
+hand, 4145, 0.0418198504315
+origin, 6293, 0.0410036247215
+consid, 2059, 0.0404371374394
+mayb, 5564, 0.040358435815
+els, 3053, 0.0398595671139
+news, 6031, 0.039822071981
+cours, 2190, 0.0394536782403
+basebal, 924, 0.0388532190256
+play, 6681, 0.0380233830576
+sinc, 7977, 0.035147163407
+run, 7543, 0.0347305279925
+tri, 9087, 0.0333912565111
+thing, 8869, 0.0314981834288
+want, 9634, 0.0314076115318
+way, 9666, 0.0301603993509
+say, 7653, 0.0292724585678
+know, 5052, 0.024834868611
+like, 5272, 0.0242771902916

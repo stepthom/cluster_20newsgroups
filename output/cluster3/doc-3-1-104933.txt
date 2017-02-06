@@ -1,0 +1,124 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104933
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: Jewish Baseball Players?
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 24
+
+In article <15APR93.14691229.0062@lafibm.lafayette.edu> VB30@lafibm.lafayette.edu (VB30) writes:
+>Just wondering.  A friend and I were talking the other day, and
+>we were (for some reason) trying to come up with names of Jewish
+>baseball players, past and present.  We weren't able to come up
+>with much, except for Sandy Koufax, (somebody) Stankowitz, and
+>maybe John Lowenstein.  Can anyone come up with any more.  I know
+>it sounds pretty lame to be racking our brains over this, but
+>humor us.  Thanks for your help.
+
+Stankiewicz?  I doubt it.
+
+Koufax was one of two Jewish HOFs: the other is Hank Greenberg.
+
+Other good players: Buddy Myer, Johnny Kling, Norm and Larry Sherry,
+Ken Holtzman, Saul Rogovin, Ed Reulbach.  
+
+There have been over 150 Jewish major leaguers.  A few years ago there
+was an article about someone who keeps track of this in Spy magazine;
+the article was entitled "Jews on First," of course.
+
+There have also been at least two books on the subject.
+
+Roger
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jewish basebal player origin news nimast
+wonder friend talk day reason tri come name jewish
+basebal player past present weren't abl come much
+except sandi koufax somebodi stankowitz mayb john
+lowenstein anyon come know sound pretti lame rack
+brain humor thank help  stankiewicz doubt  koufax
+one two jewish hof hank greenberg  good player
+buddi myer johnni kling norm larri sherri ken
+holtzman saul rogovin reulbach  jewish major
+leaguer year ago articl someon keep track spi
+magazin articl entitl jew first cours  also least
+two book  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+jewish, 4864, 0.404350347594
+koufax, 5067, 0.26164391103
+player, 6683, 0.213242532428
+come, 1923, 0.179204400526
+holtzman, 4353, 0.160627726194
+reulbach, 7347, 0.156031086301
+stankiewicz, 8320, 0.152275358043
+saul, 7645, 0.149099935046
+norm, 6107, 0.149099935046
+myer, 5939, 0.14634925853
+hof, 4336, 0.143922989891
+leaguer, 5177, 0.141752618637
+buddi, 1366, 0.141752618637
+spi, 8229, 0.139789279019
+basebal, 924, 0.138833255893
+johnni, 4879, 0.136348052664
+stankowitz, 8321, 0.134821467382
+lowenstein, 5370, 0.133400250485
+articl, 665, 0.13278216818
+greenberg, 4027, 0.130821955515
+sandi, 7608, 0.129644522227
+rack, 7053, 0.129644522227
+hank, 4154, 0.128530765882
+lame, 5100, 0.12646909923
+larri, 5128, 0.125510811355
+humor, 4437, 0.122877511079
+nimast, 6072, 0.121292154076
+entitl, 3132, 0.120542999717
+sherri, 7879, 0.115946359824
+weren, 9705, 0.113717216848
+magazin, 5432, 0.106264532053
+brain, 1266, 0.104843315157
+track, 9030, 0.10196429259
+ken, 4980, 0.101087586899
+roger, 7458, 0.0989172156439
+somebodi, 8121, 0.0984085608008
+jew, 4862, 0.0974274480206
+friend, 3692, 0.0921708142774
+doubt, 2830, 0.0921708142774
+past, 6456, 0.0870972284691
+present, 6837, 0.0824426434619
+sound, 8150, 0.0808830197214
+ago, 336, 0.0802491397237
+john, 4878, 0.0778923466131
+major, 5458, 0.0756109267095
+pretti, 6851, 0.0755280313281
+abl, 180, 0.0753632346532
+wonder, 9821, 0.074796612205
+book, 1218, 0.0737839577779
+origin, 6293, 0.0732586239476
+mayb, 5564, 0.0721059050893
+news, 6031, 0.0711476172139
+cours, 2190, 0.0704894310488
+talk, 8684, 0.0696640720568
+someon, 8124, 0.0673140080519
+reason, 7156, 0.0664442440536
+day, 2402, 0.061084766989
+help, 4249, 0.0605181445407
+tri, 9087, 0.0596580795112
+thank, 8832, 0.0576877794359
+anyon, 554, 0.0553545108403
+good, 3948, 0.0529524220187
+year, 9943, 0.0517703808627
+know, 5052, 0.0443709138574

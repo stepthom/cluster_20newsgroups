@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104546
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@fenway.aix.kingston.ibm.com (Mike Jones)
+Subject: Two stooges
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 9
+
+Well, the Red Sox have apparenly resigned Herm Winningham to a AAA contract.
+Ted "Larry" Simmons signed him to a AAA contract then released him from
+Buffalo, allowing Lou "Curly" Gorman to circumvent the rule about not
+resigning free agents until May 1. Clearly, neither of these guys is bright
+enough to be Moe.
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+Make it right before you make it faster.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ two stoog     well red sox apparen resign herm
+winningham aaa contract ted larri simmon sign aaa
+contract releas buffalo allow lou cur gorman
+circumv rule resign free agent clear neither guy
+bright enough moe    make right make faster
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+resign, 7313, 0.406298328099
+aaa, 157, 0.317189975634
+contract, 2095, 0.29816294744
+stoog, 8411, 0.22296927656
+winningham, 9788, 0.216588625499
+circumv, 1771, 0.216588625499
+gorman, 3956, 0.206967411169
+moe, 5817, 0.196768512988
+buffalo, 1370, 0.196768512988
+simmon, 7963, 0.194043177677
+herm, 4268, 0.194043177677
+lou, 5360, 0.179961118892
+larri, 5128, 0.174223065166
+agent, 331, 0.15376035532
+ted, 8745, 0.151325320756
+bright, 1311, 0.150747636906
+make, 5459, 0.143436977455
+faster, 3399, 0.140320893871
+sox, 8162, 0.132094803939
+sign, 7946, 0.13008230883
+releas, 7253, 0.125008082979
+rule, 7537, 0.119333501817
+free, 3668, 0.116435390282
+red, 7194, 0.11443962388
+clear, 1803, 0.109712287487
+allow, 432, 0.109576446956
+guy, 4100, 0.107360740217
+right, 7399, 0.0869817621382

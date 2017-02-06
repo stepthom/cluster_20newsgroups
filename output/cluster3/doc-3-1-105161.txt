@@ -1,0 +1,197 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105161
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: roger@crux.Princeton.EDU (Roger Lustig)
+Subject: Re: Winfield's spot on THE ALL TIME GREATS TEAM
+Originator: news@nimaster
+Nntp-Posting-Host: crux.princeton.edu
+Reply-To: roger@astro.princeton.edu (Roger Lustig)
+Organization: Princeton University
+Lines: 43
+
+In article <1993Apr23.212201.18900@alleg.edu> luriem@alleg.edu(Michael Lurie) The Liberalizer writes:
+>In article <9834@blue.cis.pitt.edu> dtate+@pitt.edu (David M. Tate)  
+>writes:
+>> In article <C5wEwD.Kto@murdoch.acc.Virginia.EDU>  
+>drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker) writes:
+>> >In article <9729@blue.cis.pitt.edu> dtate+@pitt.edu (David M. Tate)  
+>writes:
+
+>ielding RF of all time, as far
+>> 	    as anyone can tell
+
+>> I did a quick scan last night, looking for players with a peak  
+>comparable
+>> to or better than Winfield.  In my quick-n-dirty subjective judgement,  
+>you
+>> could make good cases for Ruth, Aaron, Ott, Robinson, Clemente, Kaline, 
+>> Maris, Klein, Jackson, Waner, and probably a few others.  This is not a
+>> knock on Winfield, but a comment on his consistency: all of those other
+>> players had awesome stretches and very good stretches, while Winfield  
+>has
+>> been more uniformly excellent.  Hall of Fame?  Absolutely.  Top-10 peak?
+>> I'm not so sure.  Top 10 total career value?  Yes, almost certainly.
+
+>Point taken. When was winfield's peak years anyway? probably around 85.
+
+That's the trouble: *what* peak years?  He wavers between excellent and
+very good, with no real bell-shaped pattern in there.  1979 was a fine
+year; 78 and 80 were merely really good.  With the Yankees, 84 (I think)
+was the best; that was the one with the .340 BA.  
+
+Of course, 1992 wasn't bad, either.  He's been in the bigs since 1973,
+with a one-year intermission for surgery.  Though he doesn't have the
+mix of skills that Pete Rose did, he's like Pete Rose in one way: he's 
+not a natural hitter.  Winfield's swing used to be the ugliest thing
+in New York, and that includes the Gulf+Western Building.  But his sheer
+athletic prowess and physical size made up for a lot.  
+
+Fascinating player to watch, even now.  Not obviously great in any one
+way; but able to do quite a few things in surprising ways and at surprising
+levels.
+
+Roger
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ winfield spot time great team origin news nimast
+pitt edu david tate    pitt edu david tate   ield
+time far anyon tell  quick scan last night look
+player peak compar better winfield quick dirti
+subject judgement  could make good case ruth aaron
+ott robinson clement kalin mari klein jackson
+waner probabl other knock winfield comment consist
+player awesom stretch good stretch winfield
+uniform excel hall fame absolut top peak i'm sure
+top total career valu yes almost certain  point
+taken winfield peak year anyway probabl around
+that troubl peak year waver excel good real bell
+shape pattern fine year mere realli good yanke
+think best one  cours wasn't bad either he big
+sinc one year intermiss surgeri though doesn't mix
+skill pete rose he like pete rose one way he natur
+hitter winfield swing use ugliest thing new york
+includ gulf western build sheer athlet prowess
+physic size made lot  fascin player watch even
+obvious great one way abl quit thing surpris way
+surpris level  roger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+winfield, 9778, 0.459564579468
+peak, 6496, 0.311136413486
+pitt, 6646, 0.19432907339
+tate, 8709, 0.188225449907
+rose, 7481, 0.151709297802
+pete, 6574, 0.150306277395
+stretch, 8443, 0.147084569673
+player, 6683, 0.141576473125
+good, 3948, 0.140625175803
+year, 9943, 0.137486041859
+excel, 3261, 0.131006899178
+surpris, 8593, 0.123137959911
+quick, 7036, 0.116632080633
+david, 2397, 0.110408924981
+way, 9666, 0.10732777025
+waner, 9631, 0.106644329823
+kalin, 4947, 0.103592518082
+gulf, 4091, 0.101099006329
+klein, 5039, 0.0971645366952
+edu, 3001, 0.096982474696
+prowess, 6953, 0.0955536828343
+ott, 6316, 0.0955536828343
+ugliest, 9194, 0.0941127249536
+sheer, 7868, 0.0941127249536
+clement, 1808, 0.0941127249536
+surgeri, 8590, 0.0916192132007
+great, 4016, 0.0909763661147
+probabl, 6885, 0.0894563694737
+fascin, 3395, 0.0860738897062
+aaron, 161, 0.0860738897062
+awesom, 835, 0.0853344420289
+dirti, 2671, 0.0846329318255
+athlet, 744, 0.0846329318255
+robinson, 7441, 0.0833294268659
+judgement, 4921, 0.0815811200838
+nimast, 6072, 0.0805285662116
+ruth, 7555, 0.0790876083309
+fame, 3376, 0.0790876083309
+uniform, 9273, 0.078204950439
+jackson, 4812, 0.078204950439
+skill, 8006, 0.0777841033714
+pattern, 6468, 0.0758546489008
+thing, 8869, 0.074725575415
+mix, 5788, 0.0744858624305
+subject, 8487, 0.0738496337378
+swing, 8635, 0.0732416914058
+western, 9709, 0.0726596269445
+knock, 5050, 0.072377628283
+mari, 5508, 0.0721013269557
+scan, 7660, 0.0715649268123
+bell, 1011, 0.0715649268123
+shape, 7853, 0.0707978219961
+spot, 8261, 0.0667395827347
+mere, 5641, 0.0663748557727
+hall, 4128, 0.0663748557727
+troubl, 9117, 0.0661960760957
+roger, 7458, 0.0656733455692
+time, 8936, 0.0649910611587
+york, 9960, 0.0646842556185
+yanke, 9933, 0.0637618982777
+absolut, 193, 0.0637618982777
+size, 8000, 0.0634677697258
+career, 1517, 0.063323044031
+consist, 2061, 0.0623507041749
+taken, 8678, 0.0619542575607
+fine, 3485, 0.060710086536
+physic, 6613, 0.0594607458078
+wasn, 9652, 0.0593526310113
+hitter, 4322, 0.0582165747832
+natur, 5966, 0.0579224462313
+obvious, 6185, 0.0578257924683
+compar, 1960, 0.0575398632276
+watch, 9655, 0.0567162829676
+level, 5229, 0.0561083406356
+valu, 9414, 0.0559394934227
+night, 6063, 0.0555262761743
+build, 1378, 0.0552044624904
+comment, 1936, 0.0548900474816
+total, 9013, 0.0545826985801
+bad, 861, 0.0503662302851
+quit, 7043, 0.0500899289578
+abl, 180, 0.0500353322764
+yes, 9951, 0.0498190993051
+origin, 6293, 0.0486380342908
+certain, 1619, 0.0483942408383
+case, 1540, 0.0475509048483
+news, 6031, 0.0472364898395
+includ, 4579, 0.0470600170615
+real, 7144, 0.0468857924056
+cours, 2190, 0.0467995053652
+big, 1082, 0.046586139875
+best, 1052, 0.0457246693623
+far, 3386, 0.0456849699134
+team, 8732, 0.0454102543534
+tell, 8767, 0.0446912712177
+doesn, 2793, 0.0443634577748
+sure, 8585, 0.0440433181775
+lot, 5356, 0.0426728576206
+sinc, 7977, 0.0416911663449
+better, 1060, 0.0409143768
+realli, 7150, 0.0405828102451
+new, 6023, 0.0398390529883
+point, 6710, 0.0386038774095
+anyon, 554, 0.036751094292
+make, 5459, 0.0343023500112
+look, 5341, 0.0341309636765
+think, 8871, 0.0313231659434
+use, 9363, 0.0302050125424
+like, 5272, 0.0287973275998

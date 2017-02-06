@@ -1,0 +1,46 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38926
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rak@crosfield.co.uk (Richard Kirk)
+Subject: Re: TIFF: philosophical significance of 42 (SILLY)
+Organization: Crosfield, Hemel Hempstead, UK
+Lines: 9
+
+It's the number of legs on a centipede.
+So, now you know.
+
+
+
+
+-- 
+Richard Kirk         Image Processing Group    Crosfield Electronics Ltd. U.K.
+rak@crosfield.co.uk  0442-230000 x3361/3591    Hemel Hempstead, Herts, HP2 7RH
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific silli    it number leg
+centiped know      richard kirk imag process group
+crosfield electron ltd
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+kirk, 5030, 0.395514043109
+leg, 5199, 0.358622813227
+richard, 7383, 0.326892088495
+silli, 7956, 0.323510168623
+philosoph, 6595, 0.314416076844
+tiff, 8926, 0.285336891773
+electron, 3034, 0.283670802482
+signific, 7951, 0.247650438593
+process, 6890, 0.232335010455
+group, 4064, 0.200026632057
+imag, 4512, 0.192663949137
+number, 6156, 0.186895496391
+know, 5052, 0.123802436279

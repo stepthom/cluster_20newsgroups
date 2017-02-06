@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104371
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: wynblatt@sbgrad5.cs.sunysb.edu (Michael Wynblatt)
+Subject: Dumb Fans (Was Re: Indians Woofing)
+Keywords: woofing
+Nntp-Posting-Host: sbgrad5
+Organization: State University of New York at Stony Brook
+Lines: 22
+
+In article <795.2bcc3ee1@ohstpy.mps.ohio-state.edu> letizia@ohstpy.mps.ohio-state.edu writes:
+>Do you mean just like Reds' fans?  Have you listened to WLW anytime they open
+>up the lines for fans to call?  Talk about clueless idiots!  The broadcasters
+>are just as bad too.
+>
+>JL
+
+The New York talk shows are just awful in this regard.  People are constantly
+calling WFAN and WABC with (stuff like) "I was thinking, why don't the Yankees
+trade Kaminicki and Silvestri to Seattle for Ken Griffey Jr and Randy Johnson,
+that would really help the team"  or "Do you think the Yankees can get Roger 
+Clemens?".  The show hosts are pretty good about handling these guys, but it's
+still annoying.
+
+The best one was at the end of one show, a caller started out with "I was 
+thinking, why don't the Yankees trade for..." and then the host hung up on
+him.  I cheered!
+
+Michael
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dumb fan indian woof       mean like red fan
+listen wlw anytim open line fan call talk clueless
+idiot broadcast bad    new york talk show aw
+regard peopl constant call wfan wabc stuff like
+think don't yanke trade kaminicki silvestri seattl
+ken griffey randi johnson realli help team think
+yanke get roger clemen show host pretti good handl
+guy it still annoy  best one end one show caller
+start think don't yanke trade host hung cheer
+michael
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+yanke, 9933, 0.334537388801
+fan, 3381, 0.285584303625
+host, 4386, 0.261687724064
+trade, 9033, 0.236098508162
+clueless, 1845, 0.176810909029
+anytim, 556, 0.173123842166
+silvestri, 7959, 0.169929959574
+caller, 1464, 0.164592680526
+think, 8871, 0.16434219223
+talk, 8684, 0.161777559617
+griffey, 4047, 0.158317297333
+wfan, 9714, 0.156544739154
+woof, 9826, 0.151900801107
+annoy, 525, 0.1408354989
+randi, 7091, 0.139965636141
+dumb, 2914, 0.136771753549
+hung, 4441, 0.136035738871
+idiot, 4487, 0.132040040762
+clemen, 1807, 0.130267482583
+seattl, 7749, 0.12970466627
+johnson, 4880, 0.12970466627
+aw, 829, 0.126097195453
+broadcast, 1324, 0.124703485348
+indian, 4598, 0.123386533129
+listen, 5300, 0.12213832351
+constant, 2067, 0.12213832351
+ken, 4980, 0.117375446433
+roger, 7458, 0.114855371489
+york, 9960, 0.113125563258
+cheer, 1687, 0.113125563258
+handl, 4149, 0.110494496979
+michael, 5680, 0.109044441524
+don, 2811, 0.108505833951
+like, 5272, 0.100726641248
+regard, 7224, 0.0979791393174
+red, 7194, 0.0957263139655
+open, 6258, 0.0949333599211
+stuff, 8472, 0.0916583697922
+guy, 4100, 0.0898049781811
+bad, 861, 0.0880849306479
+pretti, 6851, 0.0876975766001
+end, 3091, 0.0824565495522
+best, 1052, 0.0799673572327
+team, 8732, 0.0794174803789
+line, 5285, 0.0792819639275
+start, 8334, 0.0757110069517
+mean, 5595, 0.0739176734825
+realli, 7150, 0.0709748179624
+help, 4249, 0.0702692036748
+new, 6023, 0.0696740693057
+peopl, 6530, 0.0648948702592
+good, 3948, 0.0614844449734

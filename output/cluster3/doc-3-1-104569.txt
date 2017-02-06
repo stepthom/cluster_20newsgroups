@@ -1,0 +1,129 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104569
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: wilbanks@spot.Colorado.EDU (Kokopeli)
+Subject: Re: Old Predictions to laugh at...
+Nntp-Posting-Host: spot.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 35
+
+tedward@cs.cornell.edu (Edward [Ted] Fischer) writes:
+
+
+>From jpalmer@uwovax.uwo.ca Thu Sep 12 10:35:58 1991
+>>
+
+>>Ron Hassey will be a minor league manager with the Yankees.
+
+>Dunno what happened to him.
+
+Maybe I can help you. He's a major league coach with the Rockies.
+So above prediction is doubly wrong.
+
+My prediction: The Red Sox-Cubs Series and Vikings-Broncos SuperBore will
+occur at the end of the world.
+
+And one Rockie will finish in the top 10 of an offensive catagory this 
+year.
+
+And no Rockie starter will have an ERA below 3.50.
+
+And the Rangers fade will not begin until...August. They'll give way
+to the Angels. But still challenge to the end.
+
+Really. Not making any of this up. If I am, may God strike me down *ZZZZZZT*
+
+>------------------------------------------------------------------------------
+
+>Thanks for listening!
+>-Valentine
+-- 
+Dylan Wilbanks, Environ. Con : The official USENET rabid fan of the 
+major, U of Colorado, Boulder: Colorado Rockies. Clip this .sig for 
+PO Box 1143, Boulder, CO     : 20% off on your next Rockies woof!!!
+80306-1143. Life is bigger.  : (this space intenionally blank)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ old predict laugh           ron hassey minor
+leagu manag yanke  dunno happen  mayb help he
+major leagu coach rocki predict doubli wrong
+predict red sox cub seri vike bronco superbor
+occur end world  one rocki finish top offens
+catagori year  rocki starter era  ranger fade
+begin august they'll give way angel still challeng
+end  realli make god strike zzzzzzt    thank
+listen valentin  dylan wilbank environ con offici
+usenet rabid fan major colorado boulder colorado
+rocki clip sig box boulder next rocki woof life
+bigger space intenion blank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rocki, 7450, 0.512981083555
+predict, 6816, 0.273044839751
+boulder, 1248, 0.239696239742
+colorado, 1908, 0.201300693575
+leagu, 5176, 0.161274299337
+bronco, 1335, 0.156667650691
+major, 5458, 0.147493667934
+dylan, 2941, 0.142741200772
+end, 3091, 0.138527036952
+dunno, 2921, 0.138257885281
+fade, 3356, 0.134594749801
+blank, 1139, 0.13011143431
+woof, 9826, 0.127596703975
+vike, 9517, 0.121523391493
+coach, 1856, 0.116184984391
+laugh, 5146, 0.115526183724
+bigger, 1083, 0.113670254056
+clip, 1821, 0.112521848912
+august, 784, 0.108951946176
+sig, 7940, 0.108490049506
+ranger, 7095, 0.108490049506
+valentin, 9409, 0.108038533421
+usenet, 9365, 0.107596941574
+ron, 7472, 0.105133662278
+challeng, 1642, 0.105133662278
+starter, 8335, 0.103644713045
+listen, 5300, 0.102596216711
+era, 3164, 0.100343598535
+angel, 509, 0.100343598535
+strike, 8448, 0.100041463214
+cub, 2282, 0.099450490603
+finish, 3488, 0.0972464616173
+occur, 6192, 0.0962289469702
+offens, 6202, 0.0945635995872
+yanke, 9933, 0.0936704916549
+offici, 6207, 0.0934532828341
+environ, 3139, 0.0934532828341
+sox, 8162, 0.0928154000446
+minor, 5745, 0.0924011251566
+begin, 994, 0.0891871761639
+box, 1254, 0.0820559710107
+seri, 7805, 0.0819338331256
+red, 7194, 0.0804101232954
+fan, 3381, 0.0799636244706
+manag, 5472, 0.0767093982438
+old, 6216, 0.075972008319
+life, 5260, 0.0739913597468
+wrong, 9869, 0.0737468339671
+happen, 4159, 0.0708123831219
+god, 3926, 0.0708123831219
+mayb, 5564, 0.070328224267
+world, 9841, 0.0672897490555
+ll, 5314, 0.0636462056009
+realli, 7150, 0.059618861594
+help, 4249, 0.0590261454483
+space, 8164, 0.0569912170435
+thank, 8832, 0.0562655594519
+way, 9666, 0.0525572234576
+year, 9943, 0.0504940469327
+make, 5459, 0.0503924456025

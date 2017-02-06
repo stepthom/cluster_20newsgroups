@@ -1,0 +1,62 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38789
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: davidla@ecs.comm.mot.com (David Lau)
+Subject: Format of GIF files?
+Organization: Motorola
+Nntp-Posting-Host: 145.1.161.169
+Lines: 11
+
+Could anyone tell me the format of GIF files.  I would like to know how I 
+could determine the size of the picture.  Also, are gif files in compressed
+format?  How many bits store pixel color information?  
+
+(This is probally a simple question, but I couldn't find it in the FAQ.)
+
+email responses would be perferred
+
+----------
+David Lau
+davidla@ecs.comm.mot.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ format gif file     could anyon tell format gif
+file like know could determin size pictur also gif
+file compress format mani bit store pixel color
+inform  probal simpl question couldn't find faq
+email respons perfer   david lau
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gif, 3869, 0.465322636915
+format, 3612, 0.441187466461
+file, 3477, 0.381460887012
+compress, 1986, 0.190218451751
+store, 8417, 0.186413780361
+pixel, 6651, 0.185228333436
+faq, 3385, 0.171716040834
+size, 8000, 0.170524184967
+couldn, 2176, 0.167164374012
+determin, 2582, 0.160050973136
+simpl, 7965, 0.156682601081
+pictur, 6622, 0.155107545638
+email, 3060, 0.154597180937
+david, 2397, 0.148322463723
+color, 1907, 0.147687076114
+respons, 7323, 0.141516272527
+bit, 1122, 0.123936329321
+inform, 4637, 0.120775728804
+tell, 8767, 0.12007579016
+question, 7032, 0.111228281341
+mani, 5479, 0.104231530507
+anyon, 554, 0.0987422502453
+know, 5052, 0.0791495365637
+like, 5272, 0.0773721975642

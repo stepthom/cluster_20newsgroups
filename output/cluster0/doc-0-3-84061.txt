@@ -1,0 +1,104 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84061
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: mikec@sail.LABS.TEK.COM (Micheal Cranford)
+Subject: Evolution as Fact and Theory
+Keywords: evolution, fact, theory, Gould
+Organization: Tektronix, Inc., Beaverton,  OR.
+Lines: 22
+
+In article <30187@ursa.bear.com> halat@pooh.bears (Jim Halat) writes:
+[ deleted ]
+>What is the fact of evolution?  There is a difference between calling evolution
+>a fact and talking about the theory of evolution providing facts (I happen to
+>think the latter is more accurate).
+[ deleted ]
+
+  Evolution is both fact and theory.  The THEORY of evolution represents the
+scientific attempt to explain the FACT of evolution.  The theory of evolution
+does not provide facts; it explains facts.  It can be safely assumed that ALL
+scientific theories neither provide nor become facts but rather EXPLAIN facts.
+I recommend that you do some appropriate reading in general science.  A good
+starting point with regard to evolution for the layman would be "Evolution as
+Fact and Theory" in "Hen's Teeth and Horse's Toes" [pp 253-262] by Stephen Jay
+Gould.  There is a great deal of other useful information in this publication.
+
+
+  UUCP:  uunet!tektronix!sail!mikec  or                  M.Cranford
+         uunet!tektronix!sail.labs.tek.com!mikec         Principal Troll
+  ARPA:  mikec%sail.LABS.TEK.COM@RELAY.CS.NET            Resident Skeptic
+  CSNet: mikec@sail.LABS.TEK.COM                         TekLabs, Tektronix
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ evolut fact theori      delet fact evolut differ
+call evolut fact talk theori evolut provid fact
+happen think latter accur delet  evolut fact
+theori theori evolut repres scientif attempt
+explain fact evolut theori evolut provid fact
+explain fact safe assum scientif theori neither
+provid becom fact rather explain fact recommend
+appropri read general scienc good start point
+regard evolut layman evolut fact theori hen teeth
+hors toe stephen jay gould great deal use inform
+public   uucp uunet tektronix sail mikec cranford
+uunet tektronix sail lab tek com mikec princip
+troll
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+evolut, 3248, 0.671047889178
+fact, 3350, 0.418765103882
+theori, 8848, 0.358766359815
+mikec, 5711, 0.179406040357
+tektronix, 8753, 0.164025767132
+explain, 3301, 0.134541897373
+sail, 7584, 0.133265220682
+uunet, 9392, 0.128313878624
+provid, 6949, 0.12312119502
+scientif, 7693, 0.104945488927
+delet, 2502, 0.095104814289
+troll, 9112, 0.0865113251097
+gould, 3963, 0.0840356540807
+toe, 8966, 0.0803026554644
+tek, 8751, 0.0788211884973
+teeth, 8748, 0.0734347113761
+princip, 6869, 0.0671047889178
+hors, 4382, 0.0653258638663
+stephen, 8380, 0.0584895732144
+appropri, 590, 0.0582698725311
+safe, 7577, 0.0576357272539
+accur, 225, 0.0568429242091
+recommend, 7178, 0.0562834179964
+uucp, 9388, 0.0534146632064
+repres, 7294, 0.0530011548986
+lab, 5085, 0.0523444826655
+jay, 4832, 0.0495421090148
+attempt, 763, 0.0487766660874
+com, 1917, 0.0485027133549
+regard, 7224, 0.0454471490978
+deal, 2418, 0.0448472991244
+becom, 983, 0.0444646914869
+assum, 710, 0.0430539656008
+general, 3818, 0.0428353472571
+public, 6973, 0.042620953688
+scienc, 7692, 0.0414626509843
+happen, 4159, 0.0391023486408
+talk, 8684, 0.0375198686365
+great, 4016, 0.0369006303443
+inform, 4637, 0.0364654952811
+start, 8334, 0.0351181837813
+differ, 2633, 0.03416183579
+read, 7135, 0.0337725143719
+point, 6710, 0.0313159883381
+good, 3948, 0.0285192619304
+think, 8871, 0.0254097765618
+use, 9363, 0.0245027153748

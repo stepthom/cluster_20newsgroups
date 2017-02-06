@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38531
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: zyeh@caspian.usc.edu (zhenghao yeh)
+Subject: Re: Need polygon splitting algo...
+Organization: University of Southern California, Los Angeles, CA
+Lines: 25
+Distribution: world
+NNTP-Posting-Host: caspian.usc.edu
+Keywords: polygons, splitting, clipping
+
+
+In article <1qvq4b$r4t@wampyr.cc.uow.edu.au>, g9134255@wampyr.cc.uow.edu.au (Coronado Emmanuel Abad) writes:
+|> 
+|> The idea is to clip one polygon using another polygon (not
+|> necessarily rectangular) as a window.  My problem then is in
+|> finding out all the new vertices of the resulting "subpolygons"
+|> from the first one.  Is this simply a matter of extending the
+|> usual algorithm whereby each of the edges of one polygon is checked
+|> against another polygon???  Is there a simpler way??
+|> 
+|> Comments welcome.
+|> 
+|> Noel.
+
+	It depends on what kind of the polygons. 
+	Convex - simple, concave - trouble, concave with loop(s)
+	inside - big trouble.
+
+	Of cause, you can use the box test to avoid checking
+	each edges. According to my experience, there is not
+	a simple way to go. The headache stuff is to deal with
+	the special cases, for example, the overlapped lines.
+
+	Yeh
+	USC
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need polygon split algo          idea clip one
+polygon use anoth polygon necessarili rectangular
+window problem find new vertic result subpolygon
+first one simpli matter extend usual algorithm
+wherebi edg one polygon check anoth polygon
+simpler way  comment welcom  noel  depend kind
+polygon convex simpl concav troubl concav loop
+insid big troubl  caus use box test avoid check
+edg accord experi simpl way headach stuff deal
+special case exampl overlap line  yeh usc
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+polygon, 6728, 0.599087316201
+concav, 1997, 0.255096183309
+troubl, 9117, 0.188651342446
+edg, 2993, 0.185726745544
+simpl, 7965, 0.166194130237
+check, 1682, 0.158945912826
+overlap, 6344, 0.147613489773
+headach, 4216, 0.147613489773
+algo, 405, 0.1440603763
+noel, 6091, 0.1384539792
+wherebi, 9724, 0.132247898787
+yeh, 9945, 0.130552206291
+simpler, 7966, 0.130552206291
+rectangular, 7190, 0.130552206291
+anoth, 533, 0.125618808978
+usc, 9361, 0.12494580919
+loop, 5344, 0.117873445277
+convex, 2116, 0.115484150396
+vertic, 9482, 0.112695376845
+clip, 1821, 0.109142263372
+welcom, 9701, 0.102740320307
+way, 9666, 0.101957342155
+split, 8247, 0.100882899332
+avoid, 827, 0.0988650809905
+extend, 3319, 0.0985481931974
+necessarili, 5991, 0.0976273209499
+insid, 4671, 0.0912854339261
+accord, 219, 0.0875527047133
+depend, 2537, 0.0870235816258
+special, 8198, 0.0868503523085
+use, 9363, 0.0860808751941
+algorithm, 407, 0.0847282058175
+usual, 9377, 0.0822617299646
+experi, 3295, 0.0815919674895
+window, 9774, 0.0810722521598
+test, 8812, 0.0800726397249
+simpli, 7967, 0.0798305475448
+box, 1254, 0.0795914258959
+caus, 1569, 0.0788911767958
+deal, 2418, 0.0787768763515
+comment, 1936, 0.0782152187492
+result, 7332, 0.075626782232
+matter, 5553, 0.075626782232
+stuff, 8472, 0.0746805687267
+exampl, 3258, 0.0706860799443
+kind, 5021, 0.069517899876
+case, 1540, 0.0677573548407
+idea, 4482, 0.066625465602
+big, 1082, 0.0663826192212
+line, 5285, 0.064596633884
+problem, 6887, 0.0613114350017
+new, 6023, 0.0567684013261
+need, 5993, 0.0523976506309

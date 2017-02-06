@@ -1,0 +1,117 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61074
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: aws@iti.org (Allen W. Sherzer)
+Subject: Re: Commercial mining activities on the moon
+Organization: Evil Geniuses for a Better Tomorrow
+Lines: 27
+
+In article <STEINLY.93Apr21152344@topaz.ucsc.edu> steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+>Seriously though. If you were to ask the British government
+>whether their colonisation efforts in the Americas were cost
+>effective, what answer do you think you'd get? What if you asked
+>in 1765, 1815, 1865, 1915 and 1945 respectively? ;-)
+
+What do you mean? Are you saying they thought the effort was
+profitable or that the money was efficiently spent (providing max
+value per money spent)?
+
+I think they would answer yes on ballance to both questions. Exceptions
+would be places like the US from the French Indian War to the end of
+the US Revolution. 
+
+But even after the colonies revolted or where given independance the
+British engaged in very lucrative trading with the former colonies.
+Five years after the American Revolution England was still the largest
+US trading partner.
+
+  Allen
+
+-- 
++---------------------------------------------------------------------------+
+| Lady Astor:   "Sir, if you were my husband I would poison your coffee!"   |
+| W. Churchill: "Madam, if you were my wife, I would drink it."             |
++----------------------55 DAYS TO FIRST FLIGHT OF DCX-----------------------+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ commerci mine activ moon      serious though ask
+british govern whether colonis effort america cost
+effect answer think you'd get ask respect  mean
+say thought effort profit money effici spent
+provid max valu per money spent  think answer yes
+ballanc question except place like french indian
+war end revolut  even coloni revolt given independ
+british engag lucrat trade former coloni five year
+american revolut england still largest trade
+partner  allen    ladi astor sir husband poison
+coffe churchil madam wife drink day first flight
+dcx
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+revolut, 7365, 0.286264751843
+coloni, 1906, 0.275272608316
+british, 1320, 0.262689794619
+spent, 8223, 0.216499519565
+trade, 9033, 0.215870176203
+effort, 3007, 0.204394728211
+money, 5835, 0.176295642274
+answer, 535, 0.161434581689
+ask, 689, 0.151494968206
+engag, 3108, 0.146503544081
+revolt, 7364, 0.143132375922
+partner, 6444, 0.138886318917
+madam, 5425, 0.138886318917
+astor, 719, 0.138886318917
+churchil, 1747, 0.137636304158
+ladi, 5093, 0.134265135998
+dcx, 2412, 0.13324777561
+french, 3684, 0.132275646478
+coffe, 1878, 0.132275646478
+poison, 6713, 0.131344897309
+max, 5557, 0.13045214868
+husband, 4452, 0.13045214868
+largest, 5126, 0.12959441896
+sir, 7989, 0.128769064235
+england, 3110, 0.127206306391
+drink, 2872, 0.120173496184
+effici, 3006, 0.11963348592
+wife, 9755, 0.116646673955
+profit, 6903, 0.116186250538
+indian, 4598, 0.112815082378
+independ, 4595, 0.109555777912
+allen, 426, 0.109555777912
+america, 468, 0.107935088101
+war, 9635, 0.106426261985
+think, 8871, 0.10017450843
+respect, 7321, 0.0990678481782
+american, 469, 0.0972693581644
+flight, 3544, 0.0950806025313
+activ, 252, 0.0934103786009
+commerci, 1940, 0.0924662332274
+govern, 3966, 0.091267615213
+valu, 9414, 0.0894499500077
+moon, 5851, 0.0887891956827
+effect, 3005, 0.0876479295548
+cost, 2169, 0.0830915620821
+provid, 6949, 0.0808980299273
+yes, 9951, 0.0796631444013
+given, 3887, 0.0784942774337
+thought, 8887, 0.0763287622965
+end, 3091, 0.0753918778205
+place, 6657, 0.0749035477013
+mean, 5595, 0.0675845913785
+question, 7032, 0.0661978759342
+day, 2402, 0.0648502645873
+say, 7653, 0.0555232063159
+year, 9943, 0.0549617042386
+like, 5272, 0.0460483167893

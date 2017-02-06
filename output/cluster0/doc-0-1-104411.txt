@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104411
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: krattige@hpcc01.corp.hp.com (Kim Krattiger)
+Subject: Re: Kevin Rogers
+Organization: the HP Corporate notes server
+Lines: 14
+
+>/ hpcc01:rec.sport.baseball / pjtier01@ulkyvx.louisville.edu / 12:23 pm  Apr 14, 1993 /
+>
+>What's up with Kevin Rogers of San Francisco??  I thought he was slated to be
+>the fifth starter, but he's only gotten a few relief appearences.  Are they
+>going with four starters for now, or is someone else the fifth?
+>
+>                                                             Thanks,
+>                                                                   P. Tierney
+>----------
+>
+Giant's have a five man rotation of  John Burkett, Trevor Wilson,
+Bill Swift, Jeff Brantley, and Bud Black/Dave Burba.  Black has
+been put on the 15 day disables and Dave Burba will take his starts.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kevin roger      what kevin roger san francisco
+thought slate fifth starter he gotten relief
+appear go four starter someon els fifth  thank
+tierney   giant five man rotat john burkett trevor
+wilson bill swift jeff brantley bud black dave
+burba black put day disabl dave burba take start
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+burba, 1405, 0.415787406152
+fifth, 3471, 0.295743878397
+kevin, 4993, 0.289152526995
+starter, 8335, 0.275067419525
+roger, 7458, 0.256048774959
+black, 1133, 0.233111876989
+dave, 2395, 0.230572251063
+slate, 8018, 0.201944465596
+tierney, 8924, 0.19297376835
+swift, 8633, 0.189413683547
+disabl, 2673, 0.183464446067
+bud, 1362, 0.180923378262
+wilson, 9768, 0.156983328236
+relief, 7257, 0.151633240296
+francisco, 3652, 0.150837329475
+jeff, 4839, 0.141643526052
+gotten, 3962, 0.13397362496
+rotat, 7490, 0.12372481215
+giant, 3865, 0.121287081811
+san, 7603, 0.120521640744
+appear, 580, 0.108402742612
+john, 4878, 0.100812784706
+thought, 8887, 0.0930529643638
+els, 3053, 0.0921700680408
+man, 5471, 0.0920833654196
+someon, 8124, 0.0871216864883
+start, 8334, 0.084391832657
+day, 2402, 0.0790594420513
+thank, 8832, 0.0746628640854

@@ -1,0 +1,146 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104496
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: pcaster@mizar.usc.edu (Dodger)
+Subject: Re: Dodger Question
+Organization: University of Southern California, Los Angeles, CA
+Lines: 31
+Distribution: usa
+NNTP-Posting-Host: mizar.usc.edu
+
+The Dodgers have been shopping Harris to other teams in their
+quest for more left-handed pitching.  So far, no takers.
+Personally, I think Harris is a defensive liability, and he
+has also led the team in past years for hitting into double
+plays, or at least been among the leaders.
+ 
+Sharperson showed last year that if given a chance to play
+every day, he can get the job done.  If Sharpy played just
+one base every day, say third, he'd also improve defensively.
+ 
+Wallach has helped tremendously on defense, as has Reed.
+The improved defense is quite noticeable and is having an
+effect on the pitching staff.  Both Astacio AND Martinez
+were bailed out in recent starts by great defensive plays.
+Martinez pitched into the ninth in a game that might
+have seen him lifted in the third in past years.
+ 
+Astacio lasted 7 innings the other day under similar circumstances.
+The Dodgers are turning double plays, and keeping more balls
+in the infield than last year.  And Piazza has also been great
+on defense.  He has thrown out 10 of 14 batters trying to
+steal and has at least one pick off at first.
+ 
+Wallach, clearly, has contributed to the over all improvement on
+defense.  But his offense is awful and he has cost the Dodgers
+some runs.  But I don't think he is as bad as his current average.
+I suspect he will come out of this slump much as Davis and Straw
+seem to have come out of theirs.
+ 
+Dodger
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dodger question      dodger shop harri team quest
+left hand pitch far taker person think harri
+defens liabil also led team past year hit doubl
+play least among leader  sharperson show last year
+given chanc play everi day get job done sharpi
+play one base everi day say third he'd also improv
+defens  wallach help tremend defens reed improv
+defens quit notic effect pitch staff astacio
+martinez bail recent start great defens play
+martinez pitch ninth game might seen lift third
+past year  astacio last inning day similar
+circumst dodger turn doubl play keep ball infield
+last year piazza also great defens thrown batter
+tri steal least one pick first  wallach clear
+contribut improv defens offens aw cost dodger run
+don't think bad current averag suspect come slump
+much davi straw seem come  dodger
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+defens, 2476, 0.438350638016
+dodger, 2791, 0.373530200529
+play, 6681, 0.238794680729
+astacio, 713, 0.234181180543
+improv, 4557, 0.200701148986
+wallach, 9621, 0.199309715262
+martinez, 5524, 0.18071927416
+harri, 4184, 0.168471789882
+pitch, 6643, 0.158600667357
+year, 9943, 0.145582352806
+doubl, 2828, 0.135033448416
+day, 2402, 0.128831350339
+past, 6456, 0.122462103157
+bail, 868, 0.112924426648
+straw, 8433, 0.102886385193
+piazza, 6617, 0.102886385193
+taker, 8681, 0.101180670984
+slump, 8052, 0.099654857631
+everi, 3235, 0.0992021158997
+liabil, 5242, 0.0982745915594
+quest, 7031, 0.0970145073611
+great, 4016, 0.096333804142
+team, 8732, 0.0961687685658
+reed, 7208, 0.093782979799
+circumst, 1770, 0.093782979799
+tremend, 9082, 0.0896168161757
+shop, 7901, 0.0896168161757
+thrown, 8900, 0.085270751697
+come, 1923, 0.0839894608556
+davi, 2396, 0.0823646722721
+infield, 4627, 0.0819323466563
+ninth, 6075, 0.0807078007154
+lift, 5264, 0.0807078007154
+steal, 8362, 0.0803215956247
+led, 5188, 0.0781985086488
+leader, 5173, 0.0769384244505
+aw, 829, 0.0763472471583
+staff, 8301, 0.0702835541694
+suspect, 8603, 0.070094246472
+batter, 949, 0.0688341622738
+offens, 6202, 0.0681604671935
+notic, 6120, 0.0669003829952
+inning, 4657, 0.0667503108478
+think, 8871, 0.0663354640764
+contribut, 2103, 0.066022427369
+pick, 6619, 0.0651946687865
+chanc, 1649, 0.0629622844417
+job, 4873, 0.0616448463759
+averag, 816, 0.0616448463759
+similar, 7961, 0.059962471145
+effect, 3005, 0.0580403754755
+turn, 9158, 0.0576369557229
+left, 5193, 0.0576369557229
+recent, 7168, 0.0575576030168
+ball, 877, 0.0566378125055
+clear, 1803, 0.0555645932564
+cost, 2169, 0.0550231532746
+seen, 7767, 0.053752001569
+bad, 861, 0.0533322089117
+quit, 7043, 0.0530396366857
+hand, 4145, 0.0525274556281
+current, 2299, 0.0524716488822
+given, 3887, 0.0519788357588
+hit, 4316, 0.0506426842901
+far, 3386, 0.0483752773585
+person, 6562, 0.048249892743
+start, 8334, 0.0458402499719
+base, 923, 0.0453211322912
+game, 3761, 0.0438976644708
+question, 7032, 0.043836170397
+run, 7543, 0.0436229744785
+help, 4249, 0.042545436806
+tri, 9087, 0.0419407943035
+say, 7653, 0.0367674143422
+don, 2811, 0.0328481600759

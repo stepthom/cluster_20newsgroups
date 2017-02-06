@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38893
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: beck@irzr17.inf.tu-dresden.de (Andre Beck)
+Subject: Re: WANTED: 24 bit viewer
+Organization: Dept. of Computer Science, TU Dresden, Germany.
+Lines: 22
+Distribution: world
+Reply-To: Andre_Beck@IRS.Inf.TU-Dresden.DE
+NNTP-Posting-Host: irzr17.inf.tu-dresden.de
+
+
+In article <5731@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+|> 
+|> Thanks to the people who helped me with the problem of
+|> displaying 24 bit images. All the viewers like xli,
+|> xloadimage and display are converting the 24 bit images
+|> to 8 bit before display them on the screen.
+|> 
+|> What I really want is a viewer with make use of the 24 bit
+|> frame/screen buffer (in our case, the Parallax one).
+|> 
+
+Try ImageMagick. I cannot test it but one told me it does 24bit.
+Anyway, are you SURE your Xserver supports 24bit TrueColor visuals ?
+Check with xdpyinfo !
+
+--
++-o-+--------------------------------------------------------------+-o-+
+| o |                \\\-  Brain Inside -///                       | o |
+| o |                    ^^^^^^^^^^^^^^^                           | o |
+| o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
++-o-+--------------------------------------------------------------+-o-+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ want bit viewer          thank peopl help problem
+display bit imag viewer like xli xloadimag display
+convert bit imag bit display screen  realli want
+viewer make use bit frame screen buffer case
+parallax one   tri imagemagick cannot test one
+told 24bit anyway sure xserver support 24bit
+truecolor visual check xdpyinfo    brain insid
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bit, 1122, 0.435119116542
+viewer, 9512, 0.383141238251
+display, 2734, 0.333517841756
+24bit, 67, 0.321978315757
+screen, 7719, 0.240024332956
+truecolor, 9122, 0.183307426243
+imag, 4512, 0.172977322029
+imagemagick, 4514, 0.170780575577
+xli, 9901, 0.168868475565
+parallax, 6419, 0.15966571175
+xloadimag, 9903, 0.158406850244
+buffer, 1371, 0.145974684245
+want, 9634, 0.140569450245
+visual, 9547, 0.131753469397
+brain, 1266, 0.131319819815
+frame, 3643, 0.12488334478
+insid, 4671, 0.120858194493
+told, 8973, 0.116154017051
+test, 8812, 0.10601291191
+check, 1682, 0.105218955643
+convert, 2115, 0.103700779966
+case, 1540, 0.0897079765905
+support, 8576, 0.0888647138655
+sure, 8585, 0.0830906786871
+problem, 6887, 0.0811738414049
+realli, 7150, 0.0765621979867
+help, 4249, 0.075801035333
+tri, 9087, 0.0747237746175
+thank, 8832, 0.0722559067283
+peopl, 6530, 0.0700036160394
+make, 5459, 0.0647136878178
+use, 9363, 0.0569837854131
+like, 5272, 0.0543280931969

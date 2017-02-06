@@ -1,0 +1,105 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105091
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert)
+Subject: Re: Gotta a Question....
+Organization: Computer Science Department at Rose-Hulman
+Lines: 24
+Distribution: usa
+Reply-To: rickert@NeXTwork.Rose-Hulman.Edu (John H. Rickert)
+NNTP-Posting-Host: g215a-1.nextwork.rose-hulman.edu
+
+In article <47844@sdcc12.ucsd.edu> demers@cs.ucsd.edu (David DeMers) writes:
+>In article <cjkuo.68.0@symantec.com>, cjkuo@symantec.com (Jimmy Kuo) writes:
+> |> gt0523e@prism.gatech.EDU (Michael Andre Mule) writes:
+> ....
+> |> >>What is the maximum runs allowed before a stopper can get credit for a
+> |> >>relief? i.e. if a stopper comes in with a 5 run lead does he getcredit
+> |> >> with the save.
+> |> >If you come in and pitch the last three innings,and your team was ahead 
+> |> >when you got out there and wins the game, you get a save.
+> |> Sort'a correct. If you pitched at least 3 innings,entered with your team 
+> |> in the lead, was the pitcher when the game ended,the game was never tied 
+> |> during your stint, and your team won, you get a save.
+> Well, the rulebook says that in the opinion of the scorer, you must have
+> "pitched effectively" for your 3 innings - this save is not automatic,
+> unlike the others.
+
+Someone in SABR actually looked at these games a few years ago 
+and found that the official scorer awarded the save in every one 
+of the games - even those in which the pitcher had pitched badly 
+(allowing 4 or 5 runs).
+
+seeing, hearing (my two sense worth)
+john rickert
+rickert@nextwork.rose-hulman.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gotta question           maximum run allow
+stopper get credit relief stopper come run lead
+getcredit save come pitch last three inning team
+ahead got win game get save sort'a correct pitch
+least inning enter team lead pitcher game end game
+never tie stint team get save well rulebook say
+opinion scorer must pitch effect inning save
+automat unlik other  someon sabr actual look game
+year ago found offici scorer award save everi one
+game even pitcher pitch bad allow run  see hear
+two sens worth john rickert
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+save, 7646, 0.392900209989
+stopper, 8414, 0.315707997809
+game, 3761, 0.295900031899
+pitch, 6643, 0.285086951486
+scorer, 7708, 0.282623600911
+inning, 4657, 0.269965420902
+team, 8732, 0.194472817832
+run, 7543, 0.176429061026
+lead, 5172, 0.158530292994
+pitcher, 6644, 0.155190912993
+allow, 432, 0.149631721433
+rulebook, 7538, 0.141311800456
+rickert, 7388, 0.141311800456
+sabr, 7565, 0.121817047976
+gotta, 3961, 0.116459087127
+award, 832, 0.113561412893
+come, 1923, 0.113229186318
+maximum, 5560, 0.112899536802
+relief, 7257, 0.111038750906
+credit, 2225, 0.104134468482
+automat, 803, 0.102160720989
+tie, 8923, 0.101065659699
+unlik, 9290, 0.0969232757997
+enter, 3125, 0.0947517649124
+ahead, 342, 0.0947517649124
+offici, 6207, 0.0908106361583
+worth, 9850, 0.0884412505214
+hear, 4223, 0.0842715419504
+sens, 7788, 0.0813479916692
+effect, 3005, 0.0782462992584
+ago, 336, 0.0760573800108
+correct, 2156, 0.0751895271431
+sort, 8144, 0.0750954379257
+john, 4878, 0.0738236923995
+opinion, 6266, 0.0731325237678
+bad, 861, 0.0718990520724
+win, 9770, 0.0709654810061
+end, 3091, 0.0673049034194
+everi, 3235, 0.066868954449
+got, 3960, 0.0640628149647
+someon, 8124, 0.0637979062216
+actual, 254, 0.0627728164652
+question, 7032, 0.0590971040267
+say, 7653, 0.0495674619953
+year, 9943, 0.0490661899198
+look, 5341, 0.0487228033698

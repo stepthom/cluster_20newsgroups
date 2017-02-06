@@ -1,0 +1,186 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61056
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: rouben@math9.math.umbc.edu (Rouben Rostamian)
+Subject: Re: Sunrise/ sunset times
+Organization: University of Maryland, Baltimore County Campus
+Lines: 60
+NNTP-Posting-Host: math9.math.umbc.edu
+
+In article <1993Apr21.141824.23536@cbis.ece.drexel.edu> jpw@cbis.ece.drexel.edu (Joseph Wetstein) writes:
+>
+>Hello. I am looking for a program (or algorithm) that can be used
+>to compute sunrise and sunset times.
+
+Here is a computation I did a long time ago that computes the length
+of the daylight.  You should be able to convert the information here
+to sunrise and sunset times.
+
+--
+Rouben Rostamian                          Telephone: 410-455-2458
+Department of Mathematics and Statistics  e-mail:
+University of Maryland Baltimore County   bitnet: rostamian@umbc.bitnet
+Baltimore, MD 21228, USA                  internet: rouben@math.umbc.edu
+======================================================================
+Definitions:
+
+z = the tilt of the axis of the planet away from the normal to its
+orbital plane.  In case of the Earth z is about 23.5 degrees, I think.
+I do not recall the exact value.  In case of Uranus, z is almost
+90 degrees.
+
+u = latitude of the location where the length of the day is measured.
+Paris is at about 45 degrees.  North pole is at 90.
+
+a = angular position of the planet around the sun.  As a goes from
+0 to 360 degrees, the planet makes a full circle around the sun.
+The spring equinox occurs at a=0.
+
+L = daylight fraction = (duration of daylight)/(duration of a full day).
+On the equator (u=0) L is always 1/2.  Near the north pole (u=90 degrees)
+L is sometimes one and sometimes zero, depending on the time of the year.
+
+Computation:
+Define the auxiliary angles p and q by:
+sin p = sin a sin z
+cos q = h ( tan u tan p ),       (0 < q < 180 degrees)
+
+Conclusion:
+L = q / 180   (if q is measured in degrees)
+L = q / pi    (if q is measured in radians)
+
+Wait!  But what is h?
+The cutoff function h is defined as follows:
+
+h (s) = s    if  |s| < 1
+      = 1    if   s > 1
+      = -1   if   s < 1
+
+As an interesting exercise, plot L versus a.   The graph will shows
+how the length of the daylight varies with the time of the year.
+Experiment with various choices of latitudes and tilt angles.
+Compare the behavior of the function at locations above and below
+the arctic circle.
+
+--
+Rouben Rostamian                          Telephone: 410-455-2458
+Department of Mathematics and Statistics  e-mail:
+University of Maryland Baltimore County   bitnet: rostamian@umbc.bitnet
+Baltimore, MD 21228, USA                  internet: rouben@math.umbc.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time       hello look program
+algorithm use comput sunris sunset time  comput
+long time ago comput length daylight abl convert
+inform sunris sunset time   rouben rostamian
+telephon depart mathemat statist mail    definit
+tilt axi planet away normal orbit plane case earth
+degre think recal exact valu case uranus almost
+degre  latitud locat length day measur pari degre
+north pole  angular posit planet around sun goe
+degre planet make full circl around sun spring
+equinox occur  daylight fraction durat daylight
+durat full day equat alway near north pole degre
+sometim one sometim zero depend time year  comput
+defin auxiliari angl sin sin sin cos tan tan degre
+conclus measur degre measur radian  wait cutoff
+function defin follow      interest exercis plot
+versus graph show length daylight vari time year
+experi various choic latitud tilt angl compar
+behavior function locat arctic circl   rouben
+rostamian telephon depart mathemat statist mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+degre, 2491, 0.382342313208
+daylight, 2403, 0.334479004134
+sunset, 8548, 0.226384337616
+sunris, 8547, 0.226384337616
+tan, 8688, 0.178303337113
+length, 5212, 0.174778379741
+sin, 7976, 0.170449311463
+time, 8936, 0.16779382288
+comput, 1993, 0.163222227656
+planet, 6664, 0.16167618082
+measur, 5601, 0.159287164822
+latitud, 5144, 0.152442121613
+tilt, 8934, 0.148150291712
+pole, 6717, 0.144521601234
+durat, 2925, 0.138605686534
+telephon, 8763, 0.131188712474
+angl, 511, 0.128204990911
+circl, 1765, 0.122289076211
+mathemat, 5545, 0.121857139454
+statist, 8348, 0.118289671099
+north, 6110, 0.117211319532
+depart, 2535, 0.110527314088
+function, 3722, 0.11026429579
+locat, 5323, 0.104290329537
+sometim, 8128, 0.103492290645
+defin, 2482, 0.103296937716
+sun, 8539, 0.0973162639856
+cutoff, 2315, 0.0891516685567
+arctic, 621, 0.0891516685567
+equinox, 3160, 0.087005753606
+auxiliari, 809, 0.0822334510172
+case, 1540, 0.0818445692239
+angular, 514, 0.0809933633954
+mail, 5447, 0.0809243259417
+cos, 2162, 0.0798715676879
+uranus, 9348, 0.0762210608065
+versus, 9480, 0.0740751458558
+pari, 6427, 0.0740751458558
+day, 2402, 0.0698041528719
+graph, 3996, 0.069302843267
+exercis, 3279, 0.0688747980444
+fraction, 3639, 0.0684617750912
+axi, 840, 0.0676768211881
+behavior, 1000, 0.0646767530726
+vari, 9426, 0.064386122346
+zero, 9985, 0.0632904530563
+plot, 6694, 0.0620503654345
+equat, 3157, 0.0618172895727
+year, 9943, 0.0591602089705
+spring, 8266, 0.0586056597658
+conclus, 2009, 0.0586056597658
+hello, 4247, 0.0582594599135
+recal, 7166, 0.0577585355331
+plane, 6663, 0.0571221672368
+wait, 9611, 0.0566664995036
+occur, 6192, 0.0563722355168
+choic, 1717, 0.0543725329605
+normal, 6108, 0.0538920602732
+depend, 2537, 0.0525581877217
+various, 9432, 0.0519439642041
+algorithm, 407, 0.0511718877054
+definit, 2484, 0.0508949350122
+goe, 3931, 0.0502729818388
+compar, 1960, 0.0495187771304
+experi, 3295, 0.0492777459141
+valu, 9414, 0.0481414996874
+near, 5982, 0.0476465942007
+convert, 2115, 0.0473054124455
+exact, 3253, 0.0467151521796
+away, 833, 0.046651358276
+posit, 6761, 0.0462142277992
+ago, 336, 0.0458520470261
+alway, 457, 0.0444525446008
+abl, 180, 0.0430603815973
+orbit, 6280, 0.0426005595908
+earth, 2956, 0.0410007512119
+inform, 4637, 0.0386854815926
+follow, 3578, 0.0386854815926
+long, 5336, 0.0370855650703
+program, 6905, 0.0365341787057
+make, 5459, 0.029520585034
+look, 5341, 0.0293730900412
+think, 8871, 0.0269567007352
+use, 9363, 0.0259944184851

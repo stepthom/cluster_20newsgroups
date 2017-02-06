@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104538
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: Phillies: A New Ballpark in Future?
+From: csc2imd@cabell.vcu.edu (Ian M. Derby)
+Expires: Sat, 1 May 1993 04:00:00 GMT
+Organization: Virginia Commonwealth University
+Keywords: Phillies
+Summary: Phillies
+Lines: 17
+
+
+ATTN: Those who live inthe Philadelphia Metro area...
+
+Back in September I was listening to WIP, and I remember the morning
+guys were talking with Mayor Ed Rendell.  The topic of conversation
+was a new ball park for the Phillies.  The location for this new park
+was suggested to be near 30th St Station.  At the time, the mayor was
+optimisitic that in the future this could become a reality.  Has
+there been any new news on this subject or is it still a pipe dream?
+I know the city of Philadelphia has other projects ahead, such as the
+new convention center and the upcoming Spectrum II.  But it would be
+nice to see this a reality.  It is planned that the Phillies leave
+the VET and leave it solely to the Eagles (and if that's the case,
+the Eagles should make the VET a grass stadium, but that's another
+story).  I want to see that day!
+
+comments?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+philli new ballpark futur  expir sat gmt   philli
+attn live inth philadelphia metro area  back
+septemb listen wip rememb morn guy talk mayor
+rendel topic convers new ball park philli locat
+new park suggest near 30th station time mayor
+optimisit futur could becom realiti new news still
+pipe dream know citi philadelphia project ahead
+new convent center upcom spectrum nice see realiti
+plan philli leav vet leav sole eagl that case eagl
+make vet grass stadium that anoth stori want see
+day  comment
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.380152013731
+new, 6023, 0.288261852799
+vet, 9489, 0.281219831027
+eagl, 2947, 0.272387081842
+philadelphia, 6589, 0.204907595055
+realiti, 7148, 0.185413770354
+park, 6430, 0.182448932406
+leav, 5184, 0.176405485361
+futur, 3737, 0.167085337196
+inth, 4727, 0.149912053417
+attn, 770, 0.140609915514
+30th, 86, 0.138278797258
+upcom, 9332, 0.136193540921
+grass, 4003, 0.136193540921
+wip, 9791, 0.132585100138
+septemb, 7801, 0.125691542937
+pipe, 6636, 0.125691542937
+ballpark, 883, 0.123490206326
+sole, 8111, 0.121509391551
+spectrum, 8213, 0.118866587642
+convent, 2113, 0.118058653832
+sat, 7626, 0.113172890521
+dream, 2865, 0.110299501908
+morn, 5864, 0.105564756429
+stadium, 8300, 0.105148075145
+expir, 3300, 0.102097181934
+listen, 5300, 0.101064340819
+gmt, 3917, 0.0991475249027
+convers, 2114, 0.0971232597696
+ahead, 342, 0.096053181334
+topic, 8992, 0.0945492963819
+stori, 8418, 0.0894683921732
+citi, 1775, 0.0892825539069
+locat, 5323, 0.0876841550222
+station, 8346, 0.0835426685978
+plan, 6660, 0.0808307838858
+area, 622, 0.0804720133981
+nice, 6047, 0.080119630856
+near, 5982, 0.080119630856
+center, 1606, 0.0798881471652
+comment, 1936, 0.0794331471278
+becom, 983, 0.0793210129471
+ball, 877, 0.0774041970308
+suggest, 8525, 0.0754717725726
+guy, 4100, 0.074309853462
+project, 6909, 0.0734602968615
+rememb, 7269, 0.0728865862587
+live, 5310, 0.0725660670278
+case, 1540, 0.0688124385781
+news, 6031, 0.0683574385408
+talk, 8684, 0.0669320732107
+anoth, 533, 0.063787441211
+day, 2402, 0.0586892206477
+want, 9634, 0.0539134145511
+make, 5459, 0.0496400302111
+time, 8936, 0.0470253238964
+know, 5052, 0.0426308305995

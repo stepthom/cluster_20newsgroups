@@ -1,0 +1,199 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84341
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: mathew <mathew@mantis.co.uk>
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: Mantis Consultants, Cambridge. UK.
+X-Newsreader: rusnews v1.02
+Lines: 60
+
+markp@avignon (Mark Pundurs) writes:
+>mathew <mathew@mantis.co.uk> writes:
+>>markp@elvis.wri.com (Mark Pundurs) writes:
+>>> In <930415.112243.8v6.rusnews.w165w@mantis.co.uk> mathew@mantis.co.uk
+>>> (mathew) writes:
+>>> > There's no objective physics; Einstein and Bohr have told us that.
+>>> 
+>>> Speaking as one who knows relativity and quantum mechanics, I say: 
+>>> Bullshit.
+> 
+>>Speaking as someone who also knows relativity and quantum mechanics, I say:
+>>Go ahead, punk, make my day.  My degree can beat up your degree.
+> 
+> OK, refer us to the place in Einstein's (or Bohr's) writings where
+> he said 'there's no objective physics.'
+
+Ah, you taking everything as literal quotation.  No wonder you're confused.
+
+First, can I ask that we decide on a definition of "objective"?
+
+>>>>There's no objective reality.  LSD should be sufficient to prove that.
+>>> 
+>>> Speaking as one who has taken LSD, I say: 
+>>> Bullshit.
+> 
+>>Well, I'll have to bow to your superior knowledge on that one, but I think I
+>>detect a pattern in your responses.  How about some actual support for your
+>>dismissals?
+> 
+> You take LSD, and it skews your perception of reality. You come down,
+> and your perceptions unskew.
+
+And?
+
+>>> How could striving toward an ideal be in any way useful, if the ideal 
+>>> had no objective existence?
+> 
+>>A perfectly efficient power station would convert all of the energy in coal
+>>into electricity.  There is absolutely no way we can build a perfect power
+>>station; it's an ideal.  But striving towards that ideal is undeniably
+>>useful and valuable, is it not?
+> 
+> OK, let me narrow the question. Is it useful to strive toward a
+> (nonexistent) objective ethics?
+
+I'd guess that it might be.
+
+> In what way?
+
+It may be the case that some people are unable to evaluate complex moral
+issues.  Rather than leaving them to behave "immorally", it might be better
+to offer them an abstract (nonexistent objective) system of ethics which they
+can strive towards, coded into rules which they don't have to derive for
+themselves.
+
+I tend to feel that this is pretty much what we all have as morality
+anyway...
+
+
+mathew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral        manti  there
+object physic einstein bohr told  speak one know
+relat quantum mechan say bullshit  speak someon
+also know relat quantum mechan say ahead punk make
+day degre beat degre  refer place einstein bohr
+write said there object physic  take everyth liter
+quotat wonder you'r confus  first ask decid
+definit object  there object realiti lsd suffici
+prove  speak one taken lsd say bullshit  well i'll
+bow superior knowledg one think detect pattern
+respons actual support dismiss  take lsd skew
+percept realiti come percept unskew    could
+strive toward ideal way use ideal object exist
+perfect effici power station convert energi coal
+electr absolut way build perfect power station it
+ideal strive toward ideal undeni use valuabl  let
+narrow question use strive toward nonexist object
+ethic  i'd guess might  way  case peopl unabl
+evalu complex moral issu rather leav behav immor
+might better offer abstract nonexist object system
+ethic strive toward code rule don't deriv   tend
+feel pretti much moral anyway   mathew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+strive, 8453, 0.345849921065
+object, 6173, 0.32390438551
+ideal, 4483, 0.285844725294
+lsd, 5375, 0.267798648081
+nonexist, 6101, 0.185761720191
+bohr, 1201, 0.181888000597
+moral, 5855, 0.169000808241
+bullshit, 1392, 0.166331894622
+speak, 8192, 0.166036422125
+percept, 6535, 0.15815421334
+einstein, 3018, 0.155506563038
+quantum, 7025, 0.151994424296
+ethic, 3209, 0.140735815845
+say, 7653, 0.127600476788
+mechan, 5603, 0.125126071781
+realiti, 7148, 0.117709946829
+degre, 2491, 0.116617190506
+perfect, 6538, 0.109860147272
+physic, 6613, 0.109254589399
+station, 8346, 0.106074139584
+way, 9666, 0.0986032996268
+undeni, 9236, 0.0979754147741
+relat, 7247, 0.0960613778674
+skew, 8004, 0.0951716790134
+coal, 1857, 0.0951716790134
+power, 6783, 0.0932725505891
+bow, 1253, 0.0892662160268
+quotat, 7046, 0.0877863054171
+use, 9363, 0.0832491133004
+mathew, 5547, 0.0813679255877
+immor, 4531, 0.0805570172796
+dismiss, 2724, 0.0805570172796
+narrow, 5955, 0.0777532815189
+superior, 8562, 0.0744567485638
+liter, 5304, 0.0739825519914
+behav, 999, 0.0730846902716
+valuabl, 9415, 0.0726587268404
+evalu, 3226, 0.0718478185323
+unabl, 9211, 0.0714611813236
+abstract, 199, 0.0710860872649
+electr, 3030, 0.0700236475428
+pattern, 6468, 0.0696885685428
+suffici, 8523, 0.0687338270616
+effici, 3006, 0.0687338270616
+detect, 2579, 0.0678465372548
+deriv, 2550, 0.0659915325864
+tend, 8783, 0.0623768885176
+beat, 974, 0.0616587091754
+complex, 1976, 0.0614853999747
+energi, 3102, 0.0611457923324
+ahead, 342, 0.0609793697956
+confus, 2037, 0.0604929328736
+absolut, 193, 0.0585788146532
+taken, 8678, 0.0569181136174
+told, 8973, 0.0565641544969
+leav, 5184, 0.0559955181931
+knowledg, 5053, 0.0559955181931
+prove, 6947, 0.0557750788925
+offer, 6203, 0.0551360572301
+decid, 2442, 0.0544294210378
+definit, 2484, 0.0543316406389
+everyth, 3242, 0.0541383334747
+know, 5052, 0.0541283723811
+rule, 7537, 0.0524365935852
+issu, 4793, 0.0512390480684
+build, 1378, 0.0507169965701
+convert, 2115, 0.0504997337879
+code, 1871, 0.0499380886522
+feel, 3429, 0.049400478612
+guess, 4079, 0.0486969264168
+respons, 7323, 0.0483897052963
+refer, 7213, 0.0463234445835
+pretti, 6851, 0.0460685734137
+wonder, 9821, 0.0456224418917
+exist, 3283, 0.0450512199889
+christian, 1732, 0.0445942708013
+case, 1540, 0.0436855820944
+ask, 689, 0.0435197088228
+write, 9865, 0.043315399966
+support, 8576, 0.043274933851
+place, 6657, 0.0430348363955
+said, 7583, 0.0418264856169
+someon, 8124, 0.041058402651
+actual, 254, 0.0403986858913
+ll, 5314, 0.0398024950591
+let, 5225, 0.039680506549
+question, 7032, 0.0380331085507
+better, 1060, 0.0375885248081
+day, 2402, 0.0372588563876
+come, 1923, 0.0364354396485
+peopl, 6530, 0.0340900422863
+year, 9943, 0.031577515652
+make, 5459, 0.0315139771204
+think, 8871, 0.0287769652679
+don, 2811, 0.0284996984578

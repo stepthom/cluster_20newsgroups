@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60835
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: wallacen@CS.ColoState.EDU (nathan wallace)
+Subject:  ORION space drive
+Reply-To: wallacen@CS.ColoState.EDU
+Nntp-Posting-Host: beethoven.cs.colostate.edu
+Organization: Colorado State University -=- Computer Science Dept.
+Lines: 16
+
+An excellent reference for non-technical readers on the ORION system is
+"The Starflight Handbook", by Eugene Mallove and Gregory Matloff, ISBN
+0-471-61912-4. The relevant chapter is 4: Nuclear Pulse Propulsion.
+
+The book also contains lots of technical references for the more academically
+inclined. 
+
+Enjoy!
+---
+C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/
+C/    Nathan F. Wallace                   C/C/           "Reality Is"         C/
+C/    e-mail: wallacen@cs.colostate.edu   C/C/    ancient Alphaean proverb    C/
+C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/
+ 
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orion space drive      excel refer non technic
+reader orion system starflight handbook eugen
+mallov gregori matloff isbn relev chapter nuclear
+puls propuls  book also contain lot technic refer
+academ inclin  enjoy   nathan wallac realiti
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+orion, 6296, 0.387354403846
+technic, 8737, 0.265518904136
+mallov, 5470, 0.23320742238
+starflight, 8331, 0.226533789088
+matloff, 5549, 0.226533789088
+wallac, 9620, 0.221081033658
+refer, 7213, 0.220524120913
+gregori, 4035, 0.216470794631
+puls, 6980, 0.208954644936
+eugen, 3217, 0.205803590645
+handbook, 4146, 0.183614207466
+isbn, 4777, 0.180893482246
+academ, 205, 0.180893482246
+inclin, 4578, 0.179620636771
+nuclear, 6150, 0.16360470304
+relev, 7254, 0.160820614757
+reader, 7137, 0.160163283803
+chapter, 1658, 0.158273769996
+propuls, 6936, 0.145147042053
+excel, 3261, 0.143241470605
+enjoy, 3114, 0.143241470605
+realiti, 7148, 0.140090416314
+contain, 2079, 0.131486606593
+drive, 2873, 0.129790998851
+non, 6097, 0.118540787037
+book, 1218, 0.10712326579
+lot, 5356, 0.0933160454733
+space, 8164, 0.0848342000813

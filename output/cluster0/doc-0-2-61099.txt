@@ -1,0 +1,64 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61099
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: howard@sharps.astro.wisc.edu (Greg Howard)
+Subject: Re: PLANETS STILL: IMAGES ORBIT BY ETHER TWIST
+Organization: University of Wisconsin - Astronomy Department
+Lines: 10
+NNTP-Posting-Host: uwast.astro.wisc.edu
+
+
+Actually, the "ether" stuff sounded a fair bit like a bizzare,
+qualitative corruption of general relativity.  nothing to do with
+the old-fashioned, ether, though.  maybe somebody could loan him
+a GR text at a low level.
+
+didn't get much further than that, tho.... whew.
+
+
+greg
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ planet still imag orbit ether twist      actual
+ether stuff sound fair bit like bizzar qualit
+corrupt general relat noth old fashion ether
+though mayb somebodi could loan text low level
+didn't get much tho whew   greg
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ether, 3207, 0.623224778292
+bizzar, 1132, 0.250023262318
+qualit, 7016, 0.230621322381
+loan, 5319, 0.221125376616
+corrupt, 2160, 0.201117759641
+twist, 9174, 0.198245647
+fashion, 3396, 0.18979767727
+greg, 4033, 0.172723829872
+somebodi, 8121, 0.15768927843
+planet, 6664, 0.151138716085
+text, 8822, 0.147693951394
+fair, 3363, 0.139797344792
+low, 5368, 0.136039820622
+level, 5229, 0.135418953306
+sound, 8150, 0.129606458151
+general, 3818, 0.127443921047
+stuff, 8472, 0.126491687539
+relat, 7247, 0.126180284546
+old, 6216, 0.124814221778
+noth, 6119, 0.120110512387
+orbit, 6280, 0.11947203073
+mayb, 5564, 0.115542063125
+bit, 1122, 0.111331461922
+imag, 4512, 0.110646817209
+didn, 2625, 0.110261874392
+actual, 254, 0.106130430235
+like, 5272, 0.0695031062656

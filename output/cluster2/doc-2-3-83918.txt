@@ -1,0 +1,147 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83918
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: dpw@sei.cmu.edu (David Wood)
+Subject: Re: A KIND and LOVING God!!
+In-Reply-To: mlee@post.RoyalRoads.ca's message of Thu, 15 Apr 1993 20:02:31 GMT
+Organization: Software Engineering Institute
+Lines: 37
+
+
+
+mlee@ra.royalroads.ca (Malcolm Lee) writes:
+>These laws written for the Israelites, God's chosen people whom God had
+>expressly set apart from the rest of the world.  The Israelites were a
+>direct witness to God's existence.  To disobey God after KNOWing that God
+>is real would be an outright denial of God and therefore immediately punishable.
+>Remember, these laws were written for a different time and applied only to 
+>God's chosen people.  But Jesus has changed all of that.  We are living in the
+>age of grace.  Sin is no longer immediately punishable by death.  There is
+>repentance and there is salvation through our Lord Jesus Christ.  And not just
+>for a few chosen people.  Salvation is available to everyone, Jew and Gentile
+>alike.
+
+Sorry if this is late for the thread, but...
+
+I thought God was supposed to be constant and never-changing.  How do
+you reconcile this common Christian view with the paragraph above?
+
+Also, while we're at it:
+
+1. How do you reconcile "A KIND and LOVING God!!" with the
+Judeo-Christian view that sin was at one time "immediately punishable
+by death"?  Was killing people for sinning God's way of showing
+KINDness and LOVE?
+
+2. Is the fact the He no longer does this an admission on His part of
+having made a mistake?
+
+3. Now that we are "living in the age of grace", does this mean that
+for our sins, God now damns us to eternal hell after we die, rather
+than killing us immediately?  If so, is this eternal damnation an
+example of "A KIND and LOVING God!!"?
+
+Just curious.
+
+--Dave Wood
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ kind love god        law written israelit god
+chosen peopl god expressli set apart rest world
+israelit direct wit god exist disobey god know god
+real outright denial god therefor immedi punish
+rememb law written differ time appli god chosen
+peopl jesus chang live age grace sin longer immedi
+punish death repent salvat lord jesus christ
+chosen peopl salvat avail everyon jew gentil alik
+sorri late thread  thought god suppos constant
+never chang reconcil common christian view
+paragraph  also we'r  reconcil kind love god judeo
+christian view sin one time immedi punish death
+kill peopl sin god way show kind love  fact longer
+admiss part made mistak  live age grace mean sin
+god damn etern hell die rather kill immedi etern
+damnat exampl kind love god  curious  dave wood
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+god, 3926, 0.563859502353
+sin, 7976, 0.237625369121
+immedi, 4527, 0.235767569101
+chosen, 1727, 0.213495929748
+punish, 6986, 0.207804780161
+love, 5366, 0.195378412238
+kind, 5021, 0.17559772292
+reconcil, 7180, 0.162913133004
+israelit, 4792, 0.161089118754
+salvat, 7597, 0.140742137799
+grace, 3975, 0.139249988292
+peopl, 6530, 0.133557442022
+etern, 3205, 0.131280639981
+age, 328, 0.110128717148
+longer, 5337, 0.109907971911
+death, 2423, 0.109907971911
+written, 9867, 0.107402801692
+law, 5153, 0.105678233754
+kill, 5012, 0.105310869786
+jesus, 4859, 0.100075231325
+view, 9510, 0.0961341883048
+live, 5310, 0.0902433732858
+judeo, 4919, 0.0890747505174
+chang, 1650, 0.0884334841026
+christian, 1732, 0.0873553732649
+damnat, 2347, 0.0846853429974
+expressli, 3316, 0.0824416092391
+disobey, 2727, 0.0824416092391
+outright, 6331, 0.0814565665022
+wood, 9824, 0.080544559377
+denial, 2524, 0.080544559377
+admiss, 275, 0.080544559377
+gentil, 3830, 0.0755547174358
+paragraph, 6418, 0.0744351764808
+alik, 415, 0.0734090436741
+repent, 7287, 0.0720143682366
+apart, 559, 0.0676249607166
+mistak, 5776, 0.0646351522048
+wit, 9802, 0.0637059211937
+damn, 2346, 0.0628419549796
+constant, 2067, 0.0628419549796
+lord, 5347, 0.0616500760385
+curious, 2297, 0.0597260086804
+thread, 8890, 0.0595651375732
+time, 8936, 0.0584808303947
+jew, 4862, 0.058204757925
+christ, 1729, 0.0568510358179
+late, 5139, 0.0564723454943
+hell, 4245, 0.0564723454943
+therefor, 8855, 0.0549539859557
+appli, 584, 0.0545221358757
+common, 1948, 0.0537014008459
+dave, 2395, 0.0532149159839
+rest, 7324, 0.0525646118651
+die, 2628, 0.050335968807
+suppos, 8577, 0.0500376156624
+everyon, 3241, 0.049046905661
+sorri, 8142, 0.0474547059037
+direct, 2667, 0.0471595727077
+rememb, 7269, 0.0453209859696
+exampl, 3258, 0.0446371175715
+exist, 3283, 0.0441252437528
+set, 7815, 0.0440797484534
+thought, 8887, 0.0429523124127
+avail, 811, 0.042746857483
+fact, 3350, 0.0422281938906
+real, 7144, 0.0421891876315
+world, 9841, 0.0412161336577
+mean, 5595, 0.0380317248156
+differ, 2633, 0.0378936036749
+way, 9666, 0.0321922072398
+know, 5052, 0.0265079128362

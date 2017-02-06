@@ -1,0 +1,99 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60843
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Leigh Palmer <palmer@sfu.ca>
+Subject: Re: Orion drive in vacuum -- how?
+X-Xxmessage-Id: <A7F4E4ADFD021C0B@rs5-annex3.sfu.ca>
+X-Xxdate: Fri, 16 Apr 93 06:33:17 GMT
+Organization: Simon Fraser University
+X-Useragent: Nuntius v1.1.1d17
+Lines: 15
+
+In article <1qn4bgINN4s7@mimi.UU.NET> James P. Goltz, goltz@mimi.UU.NET
+writes:
+>  Background: The Orion spacedrive was a theoretical concept.
+
+It was more than a theoretical concept; it was seriously pursued by
+Freeman Dyson et al many years ago. I don't know how well-known this is,
+but a high explosive Orion prototype flew (in the atmosphere) in San
+Diego back in 1957 or 1958. I was working at General Atomic at the time,
+but I didn't learn about the experiment until almost thirty years later,
+when 
+Ted Taylor visited us and revealed that it had been done. I feel sure
+that someone must have film of that experiment, and I'd really like to
+see it. Has anyone out there seen it?
+
+Leigh
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ orion drive vacuum  xxdate fri gmt  userag
+nuntius 1d17   mimi net  background orion spacedr
+theoret concept  theoret concept serious pursu
+freeman dyson mani year ago don't know well known
+high explos orion prototyp flew atmospher san
+diego back work general atom time didn't learn
+experi almost thirti year later  ted taylor visit
+reveal done feel sure someon must film experi i'd
+realli like see anyon seen  leigh
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+orion, 6296, 0.447205537991
+theoret, 8847, 0.264716417472
+concept, 2002, 0.212676982777
+experi, 3295, 0.192748833803
+spacedr, 8167, 0.179493937599
+dyson, 2944, 0.179493937599
+1d17, 53, 0.179493937599
+xxdate, 9918, 0.160827179583
+freeman, 3676, 0.160827179583
+userag, 9367, 0.158401891672
+nuntius, 6158, 0.158401891672
+taylor, 8721, 0.152362543108
+pursu, 6995, 0.149068512664
+prototyp, 6945, 0.147582903998
+fri, 3689, 0.147582903998
+thirti, 8877, 0.143627092392
+flew, 3539, 0.143627092392
+explos, 3308, 0.133893373815
+vacuum, 9405, 0.133112995863
+reveal, 7352, 0.127671575591
+film, 3479, 0.12592246018
+visit, 9544, 0.124296918287
+atom, 756, 0.123273685611
+ted, 8745, 0.121819373952
+background, 855, 0.117937857015
+diego, 2629, 0.116034380959
+year, 9943, 0.115701936798
+gmt, 3917, 0.11531498038
+atmospher, 755, 0.112020949936
+san, 7603, 0.104057523354
+drive, 2873, 0.099896895266
+learn, 5182, 0.0978185873116
+later, 5140, 0.0965304781431
+net, 6010, 0.092648961206
+known, 5054, 0.0919968228332
+feel, 3429, 0.0905031782288
+ago, 336, 0.0896746434704
+general, 3818, 0.0888748974524
+seen, 7767, 0.0854390737397
+high, 4292, 0.077846327648
+didn, 2625, 0.0768927438751
+someon, 8124, 0.0752202415304
+sure, 8585, 0.0741296665063
+realli, 7150, 0.068305257502
+mani, 5479, 0.0652947683237
+work, 9833, 0.0652142824202
+anyon, 554, 0.0618560652634
+time, 8936, 0.0546934914188
+don, 2811, 0.0522123137561
+know, 5052, 0.0495824116535
+like, 5272, 0.0484690159503

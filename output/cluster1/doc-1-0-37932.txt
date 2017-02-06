@@ -1,0 +1,84 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/37932
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: jk87377@lehtori.cc.tut.fi (Kouhia Juhana)
+Subject: Re: More gray levels out of the screen
+Organization: Tampere University of Technology
+Lines: 21
+Distribution: inet
+NNTP-Posting-Host: cc.tut.fi
+
+In article <1993Apr6.011605.909@cis.uab.edu> sloan@cis.uab.edu
+(Kenneth Sloan) writes:
+>
+>Why didn't you create 8 grey-level images, and display them for
+>1,2,4,8,16,32,64,128... time slices?
+
+By '8 grey level images' you mean 8 items of 1bit images?
+It does work(!), but it doesn't work if you have more than 1bit
+in your screen and if the screen intensity is non-linear.
+
+With 2 bit per pixel; there could be 1*c_1 + 4*c_2 timing,
+this gives 16 levels, but they are linear if screen intensity is
+linear.
+With 1*c_1 + 2*c_2 it works, but we have to find the best
+compinations -- there's 10 levels, but 16 choises; best 10 must be
+chosen. Different compinations for the same level, varies a bit, but
+the levels keeps their order.
+
+Readers should verify what I wrote... :-)
+
+Juhana Kouhia
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ gray level screen      cis uab edu   didn't creat
+grey level imag display time slice  grey level
+imag mean item 1bit imag work doesn't work 1bit
+screen screen intens non linear  bit per pixel
+could time give level linear screen intens linear
+work find best compin there level chois best must
+chosen differ compin level vari bit level keep
+order  reader verifi wrote  juhana kouhia
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+level, 5229, 0.557150978846
+screen, 7719, 0.360961119166
+linear, 5286, 0.349558864487
+grey, 4040, 0.24877198116
+intens, 4701, 0.216243377865
+imag, 4512, 0.19509924363
+work, 9833, 0.164891926485
+uab, 9181, 0.143414915039
+juhana, 4925, 0.137833637351
+kouhia, 5068, 0.135548545954
+slice, 8029, 0.131655363228
+bit, 1122, 0.130870967409
+best, 1052, 0.129726291284
+cis, 1772, 0.123209821185
+verifi, 9472, 0.114234530099
+chosen, 1727, 0.11219044619
+gray, 4011, 0.110341347373
+vari, 9426, 0.106130110748
+reader, 7137, 0.10389766756
+item, 4798, 0.10389766756
+pixel, 6651, 0.0977962286004
+time, 8936, 0.0921936609746
+display, 2734, 0.0835935895469
+wrote, 9871, 0.0823044979202
+non, 6097, 0.0768972200837
+creat, 2217, 0.0750005117866
+edu, 3001, 0.0687876858231
+order, 6281, 0.0685816571261
+didn, 2625, 0.0648068296275
+doesn, 2793, 0.0629321865626
+mean, 5595, 0.0599561244303
+differ, 2633, 0.0597383796832

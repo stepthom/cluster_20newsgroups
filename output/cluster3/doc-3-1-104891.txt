@@ -1,0 +1,333 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104891
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: hbrooks@uiatma.atmos.uiuc.edu (Harold_Brooks)
+Subject: Re: Bases loaded walk gives Reds win in 12
+Organization: Glazier, Texas Urban Renewal Task Force
+Lines: 101
+
+In article <mssC5xB3I.2CG@netcom.com> mss@netcom.com (Mark Singer) writes:
+>In article <1993Apr22.175131.7396@pts.mot.com> ep502dn@pts.mot.com writes:
+>>In article 7G4@netcom.com, mss@netcom.com (Mark Singer) writes:
+>
+>>>During spring training I made a similarly innoncent-looking comment 
+>>>about clutch hitting on this bb and the flames were flying.  "no such
+>>>thing as clutch hitting" they (the SDCN's) all screamed.  I assumed
+>>>they also meant there was no such thing as any kind of clutch performance,
+>>>given their comments.  I'm still licking the wounds, but I do have
+>>>a rebuttal planned.  :)    (gotta do my homework, as they say)
+>>
+[some deletions]
+>>       Rather they showed, quite convincingly, that
+>>	past clutch performance has never been able to predict FUTURE
+>>	clutch performance.
+>
+>I'm sure *you* are convinced, Dave.  Apparently so is Tony Perez.
+>I, however, am not.
+>
+>
+>I believe at the time of the Sabo plate appearance that Juan Samuel
+>was on the bench available for pinch-hit duty.  Over the past four
+>seasons:
+>
+>		Non-Clutch			Clutch	 
+>		AB	H	BA		AB	H	BA
+>
+>Sabo		1539	452	.294		259	59	.228
+>Samuel		1564	383	.245		278	83	.299	
+>
+>I do *not* claim that this is a complete statistical analysis that
+>proves the existence of clutch hitting, or compelling testimony that
+>Samuel would have gotten a base hit.  I'm sure there is something wrong
+>with the sample size, or that the basic assumption that clutch
+>performance is random invalidates any conclusions from this limited
+>application.  Or something or other.  I don't pretend to understand
+>statistical analysis.
+>
+
+Well, we agree on the last part.:-)  One of the basic things you need to 
+have in a statistic to be able to predict a player's performance on it
+in the future is for there to be a correlation from year to year.  A 
+player's batting average is correlated fairly well from year to year.
+A player's ability to walk or infielder's Defensive Average are correlated
+better.  That is to say, given their past performance in those statistics
+we can have a pretty good handle on how they'll do next year.  Put in 
+some simple information about aging and you can do even better.  One of 
+the basic problems with something like "clutch" batting average - overall
+batting average is that the correlation from year to year is almost zero. 
+Adding to the sample size doesn't seem to help much.  As a counterexample to 
+what you showed, consider the following two players from 1984-1987:
+
+               Non-Clutch                      Clutch
+               AB      H       BA              AB      H       BA
+ 
+Maldonado      1060    260     .245            254     78      .307
+Lemon          1643    457     .278            256     57      .223
+
+If you had had these two players in 1988, by your logic, in those "clutch"
+situations, you'd bat Maldonado for Lemon in a blink of an eye.  Well, in 
+1988, Maldonado hit .267 in "non-clutch" and .190 in "clutch", while Lemon
+hit .254 in "non-clutch" and .313 in "clutch".  Before you accuse me of 
+completely cooking the data, there were 96 players who had 25+ "clutch"
+at bats every year from 1984-1988 (according to Elias).  As a simple
+measure of clutchness, let's just look at clutch BA-non-clutch BA. If you use 
+'84-'87 to predict '88 for those 96 players, you'd find that 27 of the
+96 were below league average in that measure both in '84-87 and in '88,
+26 were above league average in both periods and the other 43 were 
+above in one and below in the other.  If you were just flipping coins,
+you'd expect to get 24 above/below in both and 48 that switched.  The
+difference between the observed results and the coin flip experiment
+is not statisically significant.
+
+BTW, correlating players' _overall_ batting average from '84-'87 with
+'88 gives a correlation coefficient of 0.59, which is significant at
+something better than the 99.9% confidence level.  Correlating their
+(clutch-non-clutch BA) for the same period gives a correlation of 
+0.088, significant at no level of any interest.
+
+>
+>
+>>       Everyone would agree (I hope) that a grand 
+>>	slam in the bottom of the ninth when your team is down by three
+>>	is a VERY clutch hit.  There is just no way to predict who is more
+>>	likely to get the clutch hit based on past performance (hitting in
+>>	"clutch" situations).
+>>
+>
+>If you say so, Dave.  No way.          
+>
+
+Actually, it's technically incorrect to say that we can't predict future
+clutch performance.  It's more correct to say that we can't predict
+future clutch performance with any skill.
+
+Harold
+-- 
+Harold Brooks                    hbrooks@uiatma.atmos.uiuc.edu
+National Severe Storms Laboratory (Norman, OK)
+"I used to work for a brewery, too, but I didn't drink on the job."
+-P. Bavasi on Dal Maxvill's view that Florida can win the NL East in '93
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ base load walk give red win        spring train
+made similar innonc look comment clutch hit flame
+fli thing clutch hit sdcn scream assum also meant
+thing kind clutch perform given comment i'm still
+lick wound rebutt plan gotta homework say  delet
+rather show quit convinc past clutch perform never
+abl predict futur clutch perform  i'm sure convinc
+dave appar toni perez howev   believ time sabo
+plate appear juan samuel bench avail pinch hit
+duti past four season  non clutch clutch   sabo
+samuel  claim complet statist analysi prove exist
+clutch hit compel testimoni samuel gotten base hit
+i'm sure someth wrong sampl size basic assumpt
+clutch perform random invalid conclus limit applic
+someth don't pretend understand statist analysi
+well agre last part one basic thing need statist
+abl predict player perform futur correl year year
+player bat averag correl fair well year year
+player abil walk infield defens averag correl
+better say given past perform statist pretti good
+handl they'll next year put simpl inform age even
+better one basic problem someth like clutch bat
+averag overal bat averag correl year year almost
+zero ad sampl size doesn't seem help much
+counterexampl show consid follow two player  non
+clutch clutch   maldonado lemon  two player logic
+clutch situat you'd bat maldonado lemon blink eye
+well maldonado hit non clutch clutch lemon hit non
+clutch clutch accus complet cook data player
+clutch bat everi year accord elia simpl measur
+clutch let look clutch non clutch use predict
+player you'd find leagu averag measur leagu averag
+period one flip coin you'd expect get switch
+differ observ result coin flip experi statis
+signific  btw correl player overal bat averag give
+correl coeffici signific someth better confid
+level correl clutch non clutch period give correl
+signific level interest    everyon agre hope grand
+slam bottom ninth team three clutch hit way
+predict like get clutch hit base past perform hit
+clutch situat   say dave way   actual it technic
+incorrect say can't predict futur clutch perform
+it correct say can't predict futur clutch perform
+skill  harold   nation sever storm laboratori
+norman use work breweri didn't drink job bavasi
+dal maxvil view florida win east
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+clutch, 1849, 0.777105130231
+correl, 2157, 0.233556084562
+perform, 6539, 0.176369684278
+hit, 4316, 0.168791072058
+averag, 816, 0.143822743536
+player, 6683, 0.133242477918
+predict, 6816, 0.131191375789
+bat, 942, 0.11899278186
+non, 6097, 0.114788224004
+lemon, 5208, 0.112912468816
+maldonado, 5464, 0.102875490312
+year, 9943, 0.0970446244992
+statist, 8348, 0.0970194064024
+samuel, 7602, 0.0958451919184
+past, 6456, 0.0816327569051
+futur, 3737, 0.0814972681702
+coin, 1882, 0.0674466378171
+signific, 7951, 0.0623921103503
+sabo, 7564, 0.0613070994342
+say, 7653, 0.061272534924
+flip, 3545, 0.060233379124
+basic, 937, 0.0595871768019
+someth, 8126, 0.0568338200534
+overal, 6337, 0.0512868515068
+sampl, 7601, 0.0505141566075
+convinc, 2120, 0.0462356584189
+analysi, 490, 0.0457703378508
+base, 923, 0.0453163331302
+size, 8000, 0.0447987722795
+measur, 5601, 0.0435483110655
+better, 1060, 0.043319164762
+period, 6546, 0.0430216241247
+dave, 2395, 0.0417432590513
+simpl, 7965, 0.0411624202593
+walk, 9617, 0.0410225115388
+situat, 7995, 0.0407486340851
+level, 5229, 0.0396041138041
+thing, 8869, 0.0395588270739
+leagu, 5176, 0.0387441806788
+comment, 1936, 0.0387441806788
+agre, 337, 0.0373664093332
+complet, 1975, 0.0373189717304
+maxvil, 5562, 0.0365604278159
+blink, 1159, 0.0365604278159
+bavasi, 955, 0.0365604278159
+homework, 4357, 0.0356804042569
+breweri, 1303, 0.0356804042569
+abl, 180, 0.0353174763547
+win, 9770, 0.0350894295436
+scream, 7718, 0.0349363549395
+given, 3887, 0.034648887732
+norman, 6109, 0.0337233189086
+coeffici, 1873, 0.0337233189086
+rebutt, 7164, 0.0332147683148
+harold, 4180, 0.0332147683148
+dal, 2340, 0.0327547283441
+sdcn, 7733, 0.0323347447557
+invalid, 4738, 0.0319483973061
+elia, 3042, 0.0319483973061
+slam, 8015, 0.0315906954383
+lick, 5255, 0.0315906954383
+compel, 1966, 0.0315906954383
+perez, 6537, 0.0312576829664
+sure, 8585, 0.031088008764
+incorrect, 4588, 0.0306535497171
+duti, 2931, 0.0306535497171
+cook, 2122, 0.0306535497171
+storm, 8419, 0.030116689562
+pretend, 6848, 0.030116689562
+juan, 4915, 0.0298691088136
+confid, 2029, 0.0298691088136
+wound, 9855, 0.0291945105702
+gotta, 3961, 0.0287920470242
+testimoni, 8816, 0.0286027378049
+bench, 1022, 0.028420574059
+grand, 3991, 0.0277537546511
+skill, 8006, 0.0274519834945
+infield, 4627, 0.0273078902159
+ninth, 6075, 0.026899751459
+assumpt, 711, 0.026899751459
+random, 7093, 0.0267710300608
+florida, 3552, 0.0266456524566
+switch, 8638, 0.0265234493124
+drink, 2872, 0.0265234493124
+accus, 227, 0.0265234493124
+zero, 9985, 0.0259549381169
+pinch, 6632, 0.0257450456409
+way, 9666, 0.0252524620475
+toni, 8984, 0.0249863475524
+plate, 6674, 0.0244865808853
+logic, 5330, 0.0244865808853
+meant, 5598, 0.0244080951499
+laboratori, 5090, 0.0243308652404
+gotten, 3962, 0.0242548516006
+look, 5341, 0.0240913659961
+spring, 8266, 0.0240337396726
+conclus, 2009, 0.0240337396726
+train, 9042, 0.023686340405
+flame, 3518, 0.0231178292095
+btw, 1355, 0.0227729134852
+eye, 3337, 0.0226632095273
+abil, 177, 0.0226092786157
+load, 5317, 0.0224510098016
+appar, 577, 0.0223993861397
+handl, 4149, 0.0222977662522
+east, 2965, 0.0219580545893
+accord, 219, 0.0216847684157
+age, 328, 0.0215970066095
+technic, 8737, 0.0214261297785
+prove, 6947, 0.0214261297785
+use, 9363, 0.0213202304797
+applic, 585, 0.0211409213841
+limit, 5278, 0.0211015189908
+defens, 2476, 0.0208716295256
+ad, 257, 0.0207242358938
+delet, 2502, 0.0206880801714
+fli, 3542, 0.0206165712136
+job, 4873, 0.0205461062195
+fair, 3363, 0.0204423007914
+like, 5272, 0.0203266150201
+experi, 3295, 0.0202084324566
+observ, 6179, 0.0200797110585
+similar, 7961, 0.0199853738594
+plan, 6660, 0.019712944838
+appear, 580, 0.0196254481877
+red, 7194, 0.0193175500261
+everyon, 3241, 0.0192368779582
+nation, 5962, 0.0190026492691
+view, 9510, 0.018852582269
+claim, 1782, 0.0188035791438
+result, 7332, 0.0187309948231
+assum, 710, 0.0187309948231
+expect, 3290, 0.0187070405984
+season, 7747, 0.0185890208711
+correct, 2156, 0.0185890208711
+data, 2385, 0.0178750449617
+sever, 7823, 0.0178150843599
+wrong, 9869, 0.0177167761476
+pretti, 6851, 0.0176973525142
+quit, 7043, 0.0176780067314
+understand, 9246, 0.0173065337661
+exist, 3283, 0.0173065337661
+hope, 4372, 0.0172531987884
+kind, 5021, 0.0172179667607
+consid, 2059, 0.0169284442593
+avail, 811, 0.016765911517
+howev, 4406, 0.0166397143582
+everi, 3235, 0.0165319351925
+didn, 2625, 0.016123384929
+team, 8732, 0.0160264308382
+inform, 4637, 0.0158646246356
+follow, 3578, 0.0158646246356
+doesn, 2793, 0.0156569897679
+actual, 254, 0.0155192516797
+ll, 5314, 0.0152902235475
+let, 5225, 0.0152433613699
+problem, 6887, 0.0151854162998
+believ, 1009, 0.0149056876071
+differ, 2633, 0.0148623979324
+help, 4249, 0.0141803105233
+work, 9833, 0.0136745670051
+need, 5993, 0.0129776792525
+good, 3948, 0.0124075480649
+time, 8936, 0.0114684971665
+don, 2811, 0.0109482272357

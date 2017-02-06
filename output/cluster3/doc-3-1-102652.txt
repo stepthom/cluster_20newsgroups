@@ -1,0 +1,125 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102652
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: niepornt@phoenix.Princeton.EDU (David Marc Nieporent)
+Subject: Re: Jim Lefebvre is an idiot.
+Article-I.D.: Princeto.1993Apr6.084432.3805
+Organization: Princeton University
+Lines: 21
+Originator: news@nimaster
+Nntp-Posting-Host: phoenix.princeton.edu
+
+In <C51uC6.BL1@news.cso.uiuc.edu> ada41546@uxa.cso.uiuc.edu (Driftwood) writes:
+
+>	I totally agree with each point you made.  Jose Viscaino looked
+>like a single A hitter up there.  Who swings on 3-1 count with Maddux 
+>pitching and your teams down by a run, and you haven't touched the ball all 
+>day?
+
+Oh, this is an easy trivia question.  The answer is "any Cub not named
+Sandberg or Grace."
+
+>      I also think too much is made of that lefty-righty thing.  Watching
+>the Cubs games I get the feeling Steve Stone knows a lot more about what
+>the Cubs should be doing than Lefebre does.  Harry said it best when he
+>stated after another terrible Vizcaino at bat-- we can't wait til
+>Sandberg returns!
+
+-- 
+David M. Nieporent   |  "Only one thing wrong with theory...
+niepornt@phoenix.    |    Is stupid!  Is stupidest theory I ever heard!"
+   princeton.edu     |   --------------------- 
+Baltimore Orioles 93 |  Who's the dangerous cult -- the BDs or the BATF?
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ jim lefebvr idiot articl princeto 1993apr6
+origin news nimast     total agre point made jose
+viscaino look like singl hitter swing count maddux
+pitch team run haven't touch ball day  easi trivia
+question answer cub name sandberg grace  also
+think much made lefti righti thing watch cub game
+get feel steve stone know lot cub lefebr harri
+said best state anoth terribl vizcaino bat can't
+wait til sandberg return   david niepor one thing
+wrong theori  princeton edu baltimor oriol who
+danger cult bds batf
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cub, 2282, 0.335387646375
+sandberg, 7606, 0.264331966516
+viscaino, 9540, 0.176115754716
+lefebr, 5191, 0.171075898129
+til, 8930, 0.166958035464
+vizcaino, 9553, 0.160460530251
+niepor, 6058, 0.157800316211
+lefebvr, 5192, 0.157800316211
+righti, 7402, 0.155420673664
+bds, 966, 0.155420673664
+maddux, 5426, 0.153268025135
+trivia, 9109, 0.144805305786
+princeton, 6868, 0.139765449199
+batf, 945, 0.138663488471
+terribl, 8804, 0.136608825843
+lefti, 5196, 0.136608825843
+1993apr6, 49, 0.133839764774
+nimast, 6072, 0.132987372494
+harri, 4184, 0.131373420721
+stone, 8409, 0.128455081417
+grace, 3975, 0.127780830909
+idiot, 4487, 0.124682045522
+touch, 9015, 0.123552524431
+thing, 8869, 0.123404133465
+swing, 8635, 0.120953601377
+oriol, 6295, 0.120953601377
+danger, 2356, 0.119070368147
+jose, 4892, 0.116510758793
+cult, 2289, 0.116510758793
+baltimor, 887, 0.114579179383
+wait, 9611, 0.108739101055
+theori, 8848, 0.104337137603
+count, 2180, 0.104337137603
+jim, 4868, 0.103190408348
+steve, 8390, 0.100654771098
+easi, 2959, 0.0996768817956
+return, 7346, 0.0964703819787
+haven, 4207, 0.0964703819787
+hitter, 4322, 0.09614065766
+watch, 9655, 0.093663029212
+singl, 7983, 0.093663029212
+bat, 942, 0.0927997758037
+david, 2397, 0.0911663619744
+total, 9013, 0.0901395617639
+feel, 3429, 0.0887998544753
+ball, 877, 0.0883317400046
+agre, 337, 0.0874236492626
+answer, 535, 0.0833614850587
+wrong, 9869, 0.0829014749679
+pitch, 6643, 0.0824506473312
+origin, 6293, 0.0803223587341
+state, 8342, 0.0800799337087
+edu, 3001, 0.0800799337087
+news, 6031, 0.0780078047469
+best, 1052, 0.0755111375093
+said, 7583, 0.0751852196648
+team, 8732, 0.0749919028096
+articl, 665, 0.0727926377218
+anoth, 533, 0.0727926377218
+lot, 5356, 0.0704712809222
+game, 3761, 0.0684623383798
+question, 7032, 0.0683664328654
+run, 7543, 0.0680339347408
+day, 2402, 0.066974675511
+point, 6710, 0.0637516407689
+look, 5341, 0.0563649322663
+think, 8871, 0.051728047983
+know, 5052, 0.0486492411154
+like, 5272, 0.0475568001829

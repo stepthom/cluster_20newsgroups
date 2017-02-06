@@ -1,0 +1,83 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104406
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: thf2@kimbark.uchicago.edu (Ted Frank)
+Subject: Ozzie Smith a Defensive Liability?
+Reply-To: thf2@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 18
+
+In article <1993Apr17.200602.8229@leland.Stanford.EDU> addison@leland.Stanford.EDU (Brett Rogers) writes:
+>In article <steph.735027990@pegasus.cs.uiuc.edu> steph@pegasus.cs.uiuc.edu (Dale Stephenson) writes:
+>>>Smith, Ozzie           .742  .717  .697  .672  .664   0.701
+>>  The Wizard's 1988 is the second highest year ever.  Still very good,
+>>but I don't like the way his numbers have declined every year.  In a few
+>>years may be a defensive liability.
+>
+>That's rich... Ozzie Smith a defensive liability...
+
+Why?  Do you expect him to remain the best shortstop in the game until
+he reaches his seventy-third birthday, or something?  Why is it such a
+strange concept that a forty-one-year-old Ozzie Smith might be a defensive
+liability in 1996?
+-- 
+ted frank                 | 
+thf2@kimbark.uchicago.edu |         I'm sorry, the card says "Moops."
+the u of c law school     | 
+standard disclaimers      | 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ozzi smith defens liabil       smith ozzi wizard
+second highest year ever still good don't like way
+number declin everi year year defens liabil  that
+rich ozzi smith defens liabil  expect remain best
+shortstop game reach seventi third birthday someth
+strang concept forti one year old ozzi smith might
+defens liabil  ted frank  law school standard
+disclaim
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+liabil, 5242, 0.514589844556
+ozzi, 6366, 0.469255610975
+smith, 8064, 0.371075900175
+defens, 2476, 0.327901623253
+year, 9943, 0.190576218918
+birthday, 1116, 0.134684581547
+seventi, 7822, 0.130454313989
+wizard, 9811, 0.126997933725
+forti, 3617, 0.125480515598
+declin, 2448, 0.118286300816
+shortstop, 7909, 0.11162463808
+rich, 7382, 0.101523939642
+highest, 4294, 0.101116233474
+ted, 8745, 0.100326218909
+strang, 8426, 0.0977947833603
+disclaim, 2691, 0.093030463412
+school, 7685, 0.0892262274039
+remain, 7264, 0.0888001958538
+concept, 2002, 0.0875766999893
+reach, 7128, 0.0824214877154
+law, 5153, 0.0813965026296
+frank, 3655, 0.0811135480314
+standard, 8313, 0.0776571677671
+expect, 3290, 0.0734737669971
+old, 6216, 0.0716839853832
+second, 7753, 0.0659757536279
+everi, 3235, 0.0649308236627
+best, 1052, 0.0633812311455
+number, 6156, 0.0616446475015
+game, 3761, 0.0574647321805
+someth, 8126, 0.0558051236138
+way, 9666, 0.0495907811506
+good, 3948, 0.0487318820275
+don, 2811, 0.0430002539802
+like, 5272, 0.0399174035031

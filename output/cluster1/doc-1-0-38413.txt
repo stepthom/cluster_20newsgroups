@@ -1,0 +1,47 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38413
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: pbenson@ecst.csuchico.edu (Paul A. Benson)
+Subject: CD-ROM Indexes available
+Organization: California State University, Chico
+Lines: 6
+NNTP-Posting-Host: cscihp.ecst.csuchico.edu
+
+The file and contents listings for:
+
+Knowledge Media Resource Library: Graphics 1
+Knowledge Media Resource Library: Audio 1
+
+are now available for anonymous FTP from cdrom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rom index avail     file content list  knowledg
+media resourc librari graphic knowledg media
+resourc librari audio  avail anonym ftp cdrom com
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+media, 5605, 0.377485623701
+resourc, 7320, 0.368694863556
+knowledg, 5053, 0.345690231547
+librari, 5250, 0.344329342046
+avail, 811, 0.269437147125
+audio, 778, 0.256713898813
+cdrom, 1587, 0.253839668841
+rom, 7467, 0.223008825605
+index, 4596, 0.216146682038
+content, 2084, 0.198049144036
+anonym, 532, 0.192542918886
+com, 1917, 0.169556336711
+ftp, 3709, 0.15677769809
+list, 5298, 0.142047502032
+file, 3477, 0.134208245726
+graphic, 3997, 0.127690181385

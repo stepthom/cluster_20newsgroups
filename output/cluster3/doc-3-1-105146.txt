@@ -1,0 +1,95 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105146
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+Subject: Re: speeding up games
+From: rbd@flash.ece.uc.edu (Bobby Davis)
+Organization: University of Cincinnati
+NNTP-Posting-Host: flash.ece.uc.edu
+Lines: 16
+
+In article <rudyC5wCsG.G6A@netcom.com> rudy@netcom.com (Rudy Wade) writes:
+>I feel that talking about speeding up baseball games, is like trying
+>to keep signal to noise ratio high on rec.sports.baseball.  No matter
+>how much you talk about it, or how reasonable your arguments, there
+>will always be people who quote an entire article (with signatures!)
+>to make a one line comment, reply or woof.  Whether through their
+>stupidity, denseness or excitement and overeagerness to bless us with
+>their insight, no matter what is said, they will always keep doing it.
+>
+>Same with ballgames.  No matter how much it might benefit the game for
+>the umpires to enforce the rules and for the players/managers/coaches
+>to stop wasting our time -- it just ain't gonna happen.
+>
+>Rudy.
+
+I agree.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+speed game       feel talk speed basebal game like
+tri keep signal nois ratio high rec sport basebal
+matter much talk reason argument alway peopl quot
+entir articl signatur make one line comment repli
+woof whether stupid dens excit overeag bless
+insight matter said alway keep  ballgam matter
+much might benefit game umpir enforc rule player
+manag coach stop wast time ain't gonna happen
+rudi  agre
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+matter, 5553, 0.313170721324
+game, 3761, 0.244621417166
+speed, 8217, 0.218750287898
+alway, 457, 0.203192404358
+talk, 8684, 0.181944127731
+basebal, 924, 0.181297869172
+ain, 354, 0.174203082715
+woof, 9826, 0.170836170507
+dens, 2530, 0.170836170507
+insight, 4672, 0.169298598368
+ballgam, 879, 0.167844179894
+gonna, 3944, 0.166464380578
+enforc, 3106, 0.165151915937
+bless, 1155, 0.162704757904
+ratio, 7109, 0.16046177686
+nois, 6092, 0.16046177686
+signatur, 7948, 0.157413213799
+coach, 1856, 0.155557292512
+rec, 7165, 0.154675240079
+excit, 3265, 0.152993430656
+umpir, 9210, 0.146506125734
+signal, 7947, 0.138767423596
+benefit, 1028, 0.134347640454
+stupid, 8476, 0.131635974989
+sport, 8257, 0.130200958023
+wast, 9654, 0.126304978143
+entir, 3129, 0.116953247466
+repli, 7290, 0.116740596643
+quot, 7045, 0.115498828992
+stop, 8413, 0.113737460313
+rule, 7537, 0.112263108389
+argument, 631, 0.112263108389
+comment, 1936, 0.107963148113
+feel, 3429, 0.105762996902
+agre, 337, 0.10412389976
+manag, 5472, 0.102704375816
+happen, 4159, 0.0948090035257
+player, 6683, 0.0928221808174
+high, 4292, 0.0909720638653
+said, 7583, 0.0895476034444
+line, 5285, 0.089164948499
+reason, 7156, 0.0867673943693
+articl, 665, 0.0866979744881
+tri, 9087, 0.077905561061
+peopl, 6530, 0.0729844150909
+make, 5459, 0.0674692383191
+time, 8936, 0.0639154080186
+like, 5272, 0.0566414183911

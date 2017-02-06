@@ -1,0 +1,79 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84284
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: livesey@solntze.wpd.sgi.com (Jon Livesey)
+Subject: Re: History & texts (was: Ancient references to Christianity)
+Organization: sgi
+Lines: 17
+Distribution: world
+NNTP-Posting-Host: solntze.wpd.sgi.com
+
+In article <2944756297.1.p00261@psilink.com>, "Robert Knowles" <p00261@psilink.com> writes:
+|> >DATE:   24 Apr 1993 11:53:48 -0500
+|> >FROM:   Russell Turpin <turpin@cs.utexas.edu>
+|> >
+|> >
+|> >The diaries of the followers of the Maharishi, formerly of
+|> >Oregon, are historical evidence.  
+|> 
+|> Are you confusing Bhagwan Rajneesh (sp?) with the Maharishi Mahesh Yogi
+|> here by any chance?  I think Bhagwan was in Oregon with all the Rolls
+|> Royces.  Maharishi Mahesh Yogi founded Transcendental Meditation and
+|> does the yogic flying stuff.  Bhagwan's group was a communal, free sex
+|> kind of thing.  I think they both had beards, though.
+
+I think we should just let Bhagwans be Bhagwans.
+
+jon.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ histori text ancient refer christian       date
+diari follow maharishi former oregon histor evid
+confus bhagwan rajneesh maharishi mahesh yogi
+chanc think bhagwan oregon roll royc maharishi
+mahesh yogi found transcendent medit yogic fli
+stuff bhagwan group communal free sex kind thing
+think beard though  think let bhagwan bhagwan  jon
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+bhagwan, 1068, 0.681187573674
+maharishi, 5444, 0.394170271165
+mahesh, 5445, 0.272475029469
+yogi, 9956, 0.228689360683
+oregon, 6285, 0.21823717965
+yogic, 9957, 0.131390090388
+diari, 2616, 0.127630135956
+transcendent, 9049, 0.124558029496
+medit, 5612, 0.121960600494
+royc, 7506, 0.117725968604
+think, 8871, 0.115774189159
+jon, 4887, 0.102665195103
+sex, 7825, 0.0998503445622
+roll, 7464, 0.09259168024
+ancient, 500, 0.0913730817618
+histor, 4313, 0.0881708593235
+confus, 2037, 0.0811241466693
+text, 8822, 0.075393781049
+date, 2391, 0.0740801341089
+chanc, 1649, 0.0732580229928
+histori, 4314, 0.0728615356307
+fli, 3542, 0.0719711432314
+evid, 3245, 0.0710080276487
+free, 3668, 0.0686123966923
+stuff, 8472, 0.0645705968645
+refer, 7213, 0.0621221311995
+kind, 5021, 0.0601068305223
+christian, 1732, 0.0598032198679
+group, 4064, 0.058640694438
+follow, 3578, 0.0553823989515
+let, 5225, 0.0532136082726
+thing, 8869, 0.0460324525662

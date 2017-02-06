@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84080
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: huston@access.digex.com (Herb Huston)
+Subject: Re: The fact of the theory
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 18
+NNTP-Posting-Host: access.digex.net
+
+In article <1993Apr24.141736.17526@njitgw.njit.edu> dmu5391@hertz.njit.edu (David Utidjian Eng.Sci.) writes:
+}It is so simple.... I'm surprised that this subject gets
+}beat to death about once a month. A quick glance in a dictionary
+}would clear up 99% of the confusion and bandwidth in this
+}newsgroup.
+
+Reading Stephen Jay Gould's essay "Evolution as Fact and Theory" wouldn't
+hurt, either.  It appears in _Hen's Teeth and Horse's Toes_.
+
+}            Then we could talk about really important things
+}like, why do men have nipples?
+
+See Gould's "Male Nipples and Clitoral Ripples" in _Bully for Brontosaurus_.
+
+Gee, this is easy.
+
+-- Herb Huston
+-- huston@access.digex.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ fact theori      simpl i'm surpris get beat death
+month quick glanc dictionari clear confus
+bandwidth newsgroup  read stephen jay gould essay
+evolut fact theori wouldn't hurt either appear hen
+teeth hors toe  could talk realli import thing
+like men nippl  see gould male nippl clitor rippl
+bulli brontosaurus  gee easi  herb huston
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gould, 3963, 0.403389570685
+theori, 8848, 0.246022459065
+brontosaurus, 1336, 0.215297085474
+essay, 3194, 0.2076366673
+bulli, 1389, 0.2076366673
+rippl, 7410, 0.201694785343
+herb, 4261, 0.201694785343
+toe, 8966, 0.192735179294
+glanc, 3891, 0.186043161271
+fact, 3350, 0.182742213108
+teeth, 8748, 0.176251360327
+male, 5465, 0.17244086114
+bandwidth, 893, 0.166146284366
+dictionari, 2624, 0.162242516889
+evolut, 3248, 0.161058852273
+hors, 4382, 0.156789237068
+gee, 3806, 0.14987895496
+stephen, 8380, 0.14038138982
+hurt, 4451, 0.134653389087
+beat, 974, 0.130671647706
+confus, 2037, 0.128201049274
+men, 5629, 0.127866100589
+surpris, 8593, 0.119874894691
+jay, 4832, 0.118906494541
+death, 2423, 0.118906494541
+newsgroup, 6032, 0.117743511921
+easi, 2959, 0.117516888687
+simpl, 7965, 0.113541416421
+quick, 7036, 0.113541416421
+wouldn, 9854, 0.111305580457
+month, 5847, 0.109743878086
+appear, 580, 0.108268715547
+clear, 1803, 0.102167859568
+import, 4551, 0.100929121366
+talk, 8684, 0.0900517992453
+read, 7135, 0.0810577380667
+realli, 7150, 0.0790147913436
+thing, 8869, 0.0727454027184
+like, 5272, 0.0560684392681

@@ -1,0 +1,60 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38788
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: craig@hpuplca.nsr.hp.com (Craig Lamparter)
+Subject: 3DS INV NORMAL ARRAY ???
+Organization: Hewlett-Packard Neely Golden Gate Area (Northern Calif.)
+Lines: 12
+
+
+
+Does anyone truely understand the "INVALID NORMAL ARRAY" error 3ds gives
+you while rendering?  It seems to present itself while rendering
+complicated images.  I have circumvented this problem by rendering at
+the command line, however it would be nice to render inside the editor.
+Is this a memory problem???  
+
+Craig....
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ 3ds inv normal array      anyon trueli understand
+invalid normal array error 3ds give render seem
+present render complic imag circumv problem render
+command line howev nice render insid editor memori
+problem  craig
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+render, 7277, 0.577083610144
+3ds, 99, 0.37068752699
+array, 653, 0.296315225689
+normal, 6108, 0.26209441768
+trueli, 9123, 0.216786615108
+circumv, 1771, 0.216786615108
+invalid, 4738, 0.189439383614
+problem, 6887, 0.180085146444
+craig, 2208, 0.159503222867
+complic, 1978, 0.157271923249
+editor, 2997, 0.149762922375
+insid, 4671, 0.134062681263
+memori, 5628, 0.12965080912
+error, 3180, 0.129110783346
+command, 1933, 0.12559155561
+nice, 6047, 0.115860353994
+present, 6837, 0.114544236282
+understand, 9246, 0.10261982965
+howev, 4406, 0.098665895548
+imag, 4512, 0.0959380689328
+line, 5285, 0.094867248438
+anyon, 554, 0.0769085015075

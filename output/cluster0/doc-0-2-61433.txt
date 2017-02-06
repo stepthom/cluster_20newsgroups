@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61433
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: u9152083@wraith.cs.uow.edu.au (Glen Justin Balmer)
+Subject: Rocket Types
+Organization: University of Wollongong, NSW, Australia.
+Lines: 13
+NNTP-Posting-Host: wraith.cs.uow.edu.au
+
+
+The other week I saw a TV program about the american space industry and NASA.
+It said that in the 60's they developed a rocket that used ions or nuclear
+particles for propolsion.
+The government however, didn't give them $1billion for the developement
+of a full scale rocket.
+Did anybody see this program?
+If not, has anybody heard of the particle propolsion system?
+
+Thanx. 8-)
+
+Glen Balmer...
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rocket type      week saw program american space
+industri nasa said develop rocket use ion nuclear
+particl propols govern howev didn't give 1billion
+develop full scale rocket anybodi see program
+anybodi heard particl propols system  thanx  glen
+balmer
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+propols, 6930, 0.445110844429
+rocket, 7447, 0.398267314153
+particl, 6441, 0.334033218707
+anybodi, 552, 0.232095708473
+balmer, 886, 0.230766243661
+glen, 3899, 0.21618661431
+develop, 2588, 0.212596763359
+1billion, 52, 0.210982919357
+ion, 4752, 0.193683013203
+program, 6905, 0.177185700029
+thanx, 8833, 0.164111598547
+nuclear, 6150, 0.156131882038
+industri, 4608, 0.137775920343
+scale, 7659, 0.133064329026
+american, 469, 0.126944791736
+saw, 7650, 0.125719654991
+govern, 3966, 0.119112006331
+type, 9177, 0.111477796492
+heard, 4224, 0.108441561069
+nasa, 5956, 0.107412934291
+week, 9691, 0.105108988589
+howev, 4406, 0.0983928177293
+didn, 2625, 0.0953396939599
+said, 7583, 0.095010683932
+space, 8164, 0.0809593066321
+use, 9363, 0.0630346623258

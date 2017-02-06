@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38671
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: eapu207@orion.oac.uci.edu (John Peter Kondis)
+Subject: I need to make my VGA do shades.
+Nntp-Posting-Host: orion.oac.uci.edu
+Lines: 12
+
+I have a routine that changes the color (RGB) attributes on my
+VGA adapter, but it doesn't work in the mode that I need.  
+Specifically 68 hex.  An obscure mode, of course, but I need to
+change the zillions of colors to 64 shade greyscale, but I do
+not have the correct memory address for the pointer I need.
+
+PLEASE, someone, I need the starting address, or maybe somewhere 
+I can find it.  Thank you.
+
+John Kondis
+eapu207@orion.oac.uci.edu
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need make vga shade    routin chang color rgb
+attribut vga adapt doesn't work mode need specif
+hex obscur mode cours need chang zillion color
+shade greyscal correct memori address pointer need
+pleas someon need start address mayb somewher find
+thank  john kondi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+need, 5993, 0.41017218703
+shade, 7835, 0.338449787067
+vga, 9492, 0.300305405715
+mode, 5806, 0.280019300194
+color, 1907, 0.245257213698
+address, 264, 0.237108879742
+chang, 1650, 0.219249635511
+hex, 4282, 0.216765334963
+obscur, 6178, 0.195616769831
+adapt, 259, 0.178542371678
+pointer, 6711, 0.174468204699
+rgb, 7374, 0.166171254131
+attribut, 773, 0.159073731555
+routin, 7499, 0.149725969607
+somewher, 8130, 0.142580511546
+memori, 5628, 0.138214371717
+specif, 8203, 0.121098490308
+correct, 2156, 0.117504820347
+john, 4878, 0.115370318745
+mayb, 5564, 0.106799725714
+cours, 2190, 0.104405483746
+someon, 8124, 0.0997022031383
+doesn, 2793, 0.0989708808557
+start, 8334, 0.0965781538665
+pleas, 6688, 0.0897549930274
+work, 9833, 0.0864396005794
+thank, 8832, 0.0854443060273
+make, 5459, 0.0765254551002

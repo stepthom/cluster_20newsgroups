@@ -1,0 +1,157 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61309
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: "UTADNX::UTDSSA::GREER"@utspan.span.nasa.gov
+Subject: Vandalizing the sky
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 32
+
+In Space Digest V16 #487,
+hathaway@stsci.edu writes:
+
+...about the protests over proposals to put a giant billboard into orbit,
+
+>I'd like to add that some of the "protests" do not come from a strictly
+>practical consideration of what pollution levels are acceptable for research
+>activities by professional astronomers.  Some of what I would complain about
+>is rooted in aesthetics. 
+
+>Regards, 
+>Wm. Hathaway 
+>Baltimore MD 
+
+Mr. Hathaway's post is right on the money, if a little lengthy.  In short,
+an orbiting billboard would be trash, in the same way that a billboard on
+the Earth is trash.  Billboards make a place look trashy.  That is why there
+are laws in many places prohibiting their use.  The light pollution
+complaints are mainly an attempt to find some tangible reason to be against
+orbiting billboards because people don't feel morally justified to complain
+on the grounds that these things would defile the beauty of the sky.
+
+Regular orbiting spacecraft are not the same in this respect, since they are
+more like abstract entities, but a billboard in space would be like a beer
+can somebody had thrown on the side of the road: just trash.
+
+_____________
+Dale M. Greer, whose opinions are not to be confused with those of
+  The Center for Space Sciences, University of Texas at Dallas
+   UTSPAN::UTADNX::UTDSSA::GREER or greer@utdcss.utdallas.edu
+"Let machines multiply, doing the work of many,
+               But let the people have no use for them." - Lao Tzu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky ad forward space digest      space
+digest v16   protest propos put giant billboard
+orbit  i'd like add protest come strict practic
+consider pollut level accept research activ
+profession astronom complain root aesthet  regard
+hathaway baltimor  hathaway post right money littl
+lengthi short orbit billboard trash way billboard
+earth trash billboard make place look trashi law
+mani place prohibit use light pollut complaint
+main attempt find tangibl reason orbit billboard
+peopl don't feel moral justifi complain ground
+thing defil beauti sky  regular orbit spacecraft
+respect sinc like abstract entiti billboard space
+like beer somebodi thrown side road trash   dale
+greer whose opinion confus center space scienc
+univers texa dalla  let machin multipli work mani
+let peopl use lao tzu
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+billboard, 1090, 0.482234565288
+trash, 9068, 0.271875340474
+orbit, 6280, 0.225567072578
+hathaway, 4205, 0.214427181883
+space, 8164, 0.176777853037
+protest, 6942, 0.175390419068
+pollut, 6726, 0.172827836029
+complain, 1973, 0.168975959176
+digest, 2640, 0.157074672833
+sky, 8011, 0.13474261383
+greer, 4031, 0.121489645099
+lengthi, 5213, 0.118013009013
+defil, 2481, 0.118013009013
+tangibl, 8694, 0.115172390497
+place, 6657, 0.106726509148
+prohibit, 6908, 0.105728632902
+multipli, 5920, 0.104372972425
+dalla, 2342, 0.104372972425
+aesthet, 306, 0.101971263691
+entiti, 3131, 0.10089633634
+like, 5272, 0.0984180907422
+let, 5225, 0.0984077621738
+dale, 2341, 0.0964141728696
+complaint, 1974, 0.0929375367838
+beer, 990, 0.0929375367838
+thrown, 8900, 0.0917384632223
+strict, 8445, 0.0917384632223
+root, 7477, 0.0890913908835
+mani, 5479, 0.0883889265184
+abstract, 199, 0.0881468430951
+beauti, 978, 0.0852300373033
+peopl, 6530, 0.0845433958778
+justifi, 4939, 0.0821381187121
+profession, 6900, 0.0809390451505
+vandal, 9419, 0.0798256954195
+baltimor, 887, 0.0790399692602
+texa, 8820, 0.0787866260051
+astronom, 728, 0.077578248014
+confus, 2037, 0.07501131751
+somebodi, 8121, 0.0744306192315
+consider, 2060, 0.0735084408179
+road, 7431, 0.0726378083618
+regular, 7234, 0.0723027359446
+machin, 5416, 0.0708781666122
+giant, 3865, 0.0708781666122
+forward, 3621, 0.0707276314615
+respect, 7321, 0.0705785368606
+ground, 4061, 0.0699960291323
+moral, 5855, 0.069853742601
+spacecraft, 8166, 0.069434517303
+use, 9363, 0.0688193410764
+attempt, 763, 0.0684980821244
+main, 5450, 0.0683687845617
+practic, 6793, 0.0682405511884
+law, 5153, 0.066895536607
+add, 260, 0.066895536607
+ad, 257, 0.066895536607
+activ, 252, 0.0665480069516
+propos, 6933, 0.0654425599684
+accept, 208, 0.0640159186543
+level, 5229, 0.0639188450262
+regard, 7224, 0.0638223724772
+center, 1606, 0.0628891434447
+money, 5835, 0.062798822804
+light, 5267, 0.0620086681259
+short, 7904, 0.0615864128265
+feel, 3429, 0.0612566594194
+research, 7307, 0.0599282133897
+opinion, 6266, 0.0583617542043
+scienc, 7692, 0.058226859276
+earth, 2956, 0.0542740489398
+littl, 5308, 0.0523638720395
+univers, 9282, 0.0517758676567
+reason, 7156, 0.0502546342415
+sinc, 7977, 0.0474947426778
+right, 7399, 0.0473938991743
+post, 6766, 0.0455030646313
+come, 1923, 0.0451799937987
+work, 9833, 0.044139986746
+thing, 8869, 0.0425638365022
+way, 9666, 0.0407560743848
+make, 5459, 0.0390773736946
+look, 5341, 0.0388821296998
+don, 2811, 0.0353396641295

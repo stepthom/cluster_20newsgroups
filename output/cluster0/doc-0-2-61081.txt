@@ -1,0 +1,122 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61081
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: shafer@rigel.dfrf.nasa.gov (Mary Shafer)
+Subject: Re: Crazy? or just Imaginitive?
+In-Reply-To: nsmca@aurora.alaska.edu's message of Thu, 22 Apr 1993 04:54:03 GMT
+Organization: NASA Dryden, Edwards, Cal.
+Lines: 25
+
+On Thu, 22 Apr 1993 04:54:03 GMT, nsmca@aurora.alaska.edu said:
+
+nsmca> So some of my ideas are a bit odd, off the wall and such, but
+nsmca> so was Wilbur and Orville Wright, and quite a few others..
+
+This is a common misconception.  There was nothing "off the wall"
+about the Wright Brothers.  They were in correspondance with a number
+of other experimenters (Octave Chanute, Lillienthal, etc), they flew
+models, they had a wind tunnel.  In short, they were quite mainstream
+and were not regarded as odd or eccentric by the community.
+
+I suggest you read The Bishop's Boys or the biography by Harry Gates?
+Combs?  (I can never remember which it is--the guy that had the FBOs
+and owned Learjet for a while).  These are both in print and easily
+obtainable.  The Bishop's Boys is in trade paperback, even.
+
+Even better would be the multi-volume set of the Wrights' writings,
+but this is out of print, rare, and hideously expensive.
+
+
+
+--
+Mary Shafer  DoD #0362 KotFR NASA Dryden Flight Research Facility, Edwards, CA
+shafer@rigel.dfrf.nasa.gov                    Of course I don't speak for NASA
+ "A MiG at your six is better than no MiG at all."  Unknown US fighter pilot
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ crazi imaginit       nsmca idea bit odd wall
+nsmca wilbur orvill wright quit other  common
+misconcept noth wall wright brother correspond
+number experiment octav chanut lillienth etc flew
+model wind tunnel short quit mainstream regard odd
+eccentr communiti  suggest read bishop boy
+biographi harri gate comb never rememb guy fbos
+own learjet print easili obtain bishop boy trade
+paperback even  even better multi volum set wright
+write print rare hideous expens     mari shafer
+dod kotfr nasa dryden flight research facil edward
+mig six better mig unknown fighter pilot
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wright, 9861, 0.387709481573
+bishop, 1120, 0.275572431715
+mig, 5708, 0.263331062054
+boy, 1256, 0.199919198464
+odd, 6198, 0.185167763628
+wall, 9619, 0.183974820203
+print, 6871, 0.174249503952
+tunnel, 9150, 0.137786215857
+kotfr, 5066, 0.134469648648
+comb, 1919, 0.134469648648
+quit, 7043, 0.133247108796
+paperback, 6410, 0.131665531027
+orvill, 6305, 0.131665531027
+imaginit, 4520, 0.131665531027
+wilbur, 9757, 0.129236493858
+biographi, 1106, 0.129236493858
+eccentr, 2971, 0.12344357929
+misconcept, 5759, 0.121860776439
+fighter, 3475, 0.121860776439
+hideous, 4288, 0.120404738962
+mainstream, 5453, 0.117801626231
+dod, 2789, 0.117801626231
+flew, 3539, 0.113501535315
+gate, 3788, 0.1116809414
+edward, 3003, 0.109251904231
+better, 1060, 0.108838693331
+correspond, 2158, 0.108509321232
+pilot, 6631, 0.105809448925
+harri, 4184, 0.105809448925
+shafer, 7839, 0.105192754022
+brother, 1341, 0.105192754022
+rare, 7101, 0.103458989663
+dryden, 2888, 0.103458989663
+crazi, 2216, 0.103458989663
+unknown, 9287, 0.100892663107
+experiment, 3297, 0.100420149335
+multi, 5917, 0.0982258348731
+mari, 5508, 0.0959004490235
+wind, 9773, 0.0951869945452
+volum, 9577, 0.0919874101016
+communiti, 1953, 0.0905765670758
+obtain, 6183, 0.0900415062256
+trade, 9033, 0.0897797641932
+facil, 3348, 0.087811277127
+easili, 2962, 0.0860351594136
+expens, 3294, 0.0858248592979
+common, 1948, 0.0793785378932
+flight, 3544, 0.0790874795654
+model, 5807, 0.0762833619447
+regard, 7224, 0.0745158797679
+short, 7904, 0.0719052826681
+research, 7307, 0.0699692501285
+suggest, 8525, 0.0693671369966
+nasa, 5956, 0.0684594732992
+guy, 4100, 0.068299201272
+rememb, 7269, 0.0669910569459
+noth, 6119, 0.0661921328159
+set, 7815, 0.0651563260514
+write, 9865, 0.0627105154762
+idea, 4482, 0.0621899177316
+bit, 1122, 0.0613540544263
+number, 6156, 0.0591510774038
+read, 7135, 0.0553739600911

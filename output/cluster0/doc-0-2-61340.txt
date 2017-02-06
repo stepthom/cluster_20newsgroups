@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61340
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: Vandalizing the sky.
+Organization: Express Access Online Communications USA
+Lines: 18
+NNTP-Posting-Host: access.digex.net
+
+In article <C63nA8.4C1@news.cso.uiuc.edu> gfk39017@uxa.cso.uiuc.edu (George F. Krumins) writes:
+|I say:
+|What I'm objecting to here is a floating billboard that, presumably,
+|would move around in the sky.  I, for one, am against legislating
+|at all.  I just wish that people had a bit of common courtesy, and
+|would consider how their greed for money impacts the more ethereal and
+>aesthetic values that make us human.  This includes the need for wild
+>and unspoiled things, including the night sky.
+
+
+Sorry that's an aesthetics argument.  maybe this string shoudl mofe to
+sci.space.aesthetics.
+
+Planes  ruin the night sky.  Blimps ruin the night sky.  Radio towers
+ruin the night sky.  
+
+Like i said,  get a vote, and create some more national parks.  which
+include onobstructed air space.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky      say i'm object float billboard
+presum move around sky one legisl wish peopl bit
+common courtesi consid greed money impact ether
+aesthet valu make human includ need wild unspoil
+thing includ night sky   sorri that aesthet
+argument mayb string shoudl mofe sci space aesthet
+plane ruin night sky blimp ruin night sky radio
+tower ruin night sky  like said get vote creat
+nation park includ onobstruct air space
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sky, 8011, 0.491301805614
+aesthet, 306, 0.371810109277
+ruin, 7536, 0.354461637572
+night, 6063, 0.307526235411
+includ, 4579, 0.195477585781
+onobstruct, 6246, 0.147659502573
+unspoil, 9311, 0.13998145996
+blimp, 1157, 0.13998145996
+greed, 4021, 0.132303417347
+legisl, 5202, 0.121408101488
+courtesi, 2192, 0.120260090426
+tower, 9023, 0.119177716805
+ether, 3207, 0.119177716805
+string, 8450, 0.112957037949
+float, 3546, 0.109504527106
+space, 8164, 0.107428620044
+vote, 9585, 0.106052016263
+wild, 9758, 0.103132959937
+presum, 6845, 0.100604358333
+impact, 4534, 0.0983739736496
+billboard, 1090, 0.0976853020079
+vandal, 9419, 0.0970207993331
+plane, 6663, 0.0919024781062
+air, 357, 0.089126338558
+sci, 7690, 0.0882845829533
+wish, 9801, 0.0876769463366
+park, 6430, 0.0872824240858
+radio, 7061, 0.0845596014656
+common, 1948, 0.0826322053752
+argument, 631, 0.0790275942517
+valu, 9414, 0.0774536985385
+money, 5835, 0.0763261998984
+nation, 5962, 0.0745512457943
+creat, 2217, 0.0732049461858
+human, 4432, 0.073112347551
+sorri, 8142, 0.0730201995197
+object, 6173, 0.0697369707577
+consid, 2059, 0.0664137190039
+mayb, 5564, 0.0662844599144
+bit, 1122, 0.0638689116795
+said, 7583, 0.0630370187746
+thing, 8869, 0.0517324330019
+peopl, 6530, 0.0513773654166
+need, 5993, 0.0509140668805
+say, 7653, 0.048076915454
+make, 5459, 0.0474949577547
+like, 5272, 0.0398727159322

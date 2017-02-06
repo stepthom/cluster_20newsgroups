@@ -1,0 +1,157 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104352
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From:  (Steve Tomassi)
+Subject: DAVE KINGMAN FOR THE HALL OF FAME
+Nntp-Posting-Host: berkeley-kstar-node.net.yale.edu
+Organization: Yale Computing Center
+Lines: 39
+
+     Hi, baseball fans! So what do you say? Don't you think he deserves it?
+I
+ 
+mean, heck, if Dave Winfield (ho-hum) is seriously being considered for it,
+as
+
+is Lee Smith (ha), then why don't we give Dave Kingman a chance? Or Darrell
+
+Evans! Yeah, yeah! After the Hall of Fame takes in them, it can take in
+Eddie
+
+Murray and Jeff Reardon.
+
+     Well, in any case, I am sick and tired (mostly sick) of everybody
+giving
+
+Hall of Fame consideration to players that are by today's standards,
+marginal.
+
+Honestly, Ozzie Smith and Robin Yount don't belong there. They're both
+
+shortstops that just hung around for a long time. Big deal.
+
+     Let's be a little more selective, huh? Stop handing out these honors
+so
+
+liberally. Save them for the guys who really deserve it. Face it, if
+something
+
+isn't done, there will be little prestige in the Hall of Fame anymore. When
+
+certain individuals believe that Steve Garvey or Jack Morris are potential
+
+candidates, the absurdity is apparent. Gee, can these guys even compare to
+
+the more likely future Hall of Famers like Kirby Puckett or Nolan Ryan?
+
+
+                                 Ñ Steve
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+steve tomassi dave kingman hall fame     basebal
+fan say don't think deserv   mean heck dave
+winfield hum serious consid   lee smith don't give
+dave kingman chanc darrel  evan yeah yeah hall
+fame take take eddi  murray jeff reardon  well
+case sick tire most sick everybodi give  hall fame
+consider player today standard margin  honest ozzi
+smith robin yount don't belong they'r  shortstop
+hung around long time big deal  let littl select
+huh stop hand honor   liber save guy realli deserv
+face someth  isn't done littl prestig hall fame
+anymor  certain individu believ steve garvey jack
+morri potenti  candid absurd appar gee guy even
+compar  like futur hall famer like kirbi puckett
+nolan ryan   steve
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hall, 4128, 0.387828192578
+fame, 3376, 0.369687030876
+steve, 8390, 0.213678567221
+dave, 2395, 0.207329220287
+kingman, 5026, 0.194757491425
+deserv, 2560, 0.174858585831
+sick, 7933, 0.171180441561
+yeah, 9942, 0.159640796977
+smith, 8064, 0.156418615818
+guy, 4100, 0.120014582583
+prestig, 6843, 0.11354645132
+garvey, 3779, 0.109980104943
+famer, 3377, 0.109980104943
+don, 2811, 0.108754681253
+hum, 4431, 0.1084568294
+darrel, 2373, 0.1084568294
+littl, 5308, 0.10743011388
+kirbi, 5029, 0.103499841406
+yount, 9965, 0.102468367632
+reardon, 7155, 0.101499446958
+puckett, 6975, 0.0997218058901
+ozzi, 6366, 0.098902021256
+nolan, 6094, 0.098902021256
+evan, 3227, 0.098902021256
+eddi, 2990, 0.0981222423909
+murray, 5929, 0.094708837817
+shortstop, 7909, 0.094105660709
+absurd, 200, 0.094105660709
+robin, 7440, 0.0929635823663
+liber, 5247, 0.0929635823663
+tire, 8948, 0.0918977010519
+honor, 4364, 0.0913902839452
+hung, 4441, 0.0908984821757
+heck, 4234, 0.0904213632703
+gee, 3806, 0.0899580758641
+candid, 1489, 0.0899580758641
+winfield, 9778, 0.0895078405586
+huh, 4429, 0.0895078405586
+anymor, 553, 0.0882285742801
+honest, 4361, 0.0859414941822
+jeff, 4839, 0.0849100204083
+belong, 1015, 0.0842575911923
+margin, 5507, 0.0839410997334
+ryan, 7557, 0.0836307541297
+lee, 5190, 0.082163458666
+everybodi, 3239, 0.082163458666
+morri, 5868, 0.0782093079088
+potenti, 6774, 0.0765473134849
+consider, 2060, 0.0754052351422
+select, 7774, 0.0746868087379
+jack, 4808, 0.0746868087379
+appar, 577, 0.074168418547
+individu, 4604, 0.0698709456913
+chanc, 1649, 0.0694858114795
+face, 3345, 0.0687423148012
+stop, 8413, 0.0675752054489
+futur, 3737, 0.0674630485227
+like, 5272, 0.0673050984992
+compar, 1960, 0.0672410686154
+standard, 8313, 0.0654692297976
+deal, 2418, 0.0646051114418
+save, 7646, 0.0643271514549
+fan, 3381, 0.0636087250506
+today, 8964, 0.061094941912
+isn, 4783, 0.0585350774414
+hand, 4145, 0.0579698292658
+certain, 1619, 0.0565534967633
+consid, 2059, 0.0560531405343
+case, 1540, 0.0555679745533
+player, 6683, 0.0551487427423
+big, 1082, 0.0544405504662
+basebal, 924, 0.0538575449243
+let, 5225, 0.0504735263322
+long, 5336, 0.0503581301891
+mean, 5595, 0.0493914641938
+believ, 1009, 0.0493554274335
+realli, 7150, 0.0474250610834
+someth, 8126, 0.0470467642177
+say, 7653, 0.0405768889141
+time, 8936, 0.0379742682519
+think, 8871, 0.0366042432552

@@ -1,0 +1,56 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39051
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: add@sciences.sdsu.edu (James D. Murray)
+Subject: Need specs for MPEG (.mpg) file format
+Organization: San Diego State University, College of Sciences
+Lines: 9
+NNTP-Posting-Host: sciences.sdsu.edu
+X-Newsreader: TIN [version 1.1 PL9]
+
+I am looking for the specs for the .mpg files that are floating around
+the alt.binaries.pictures.* groups on the net.  Please lemme know where
+I can obtain the spec or email it to me.
+
+Thanks much.
+
+--
+James D. Murray
+add@sciences.sdsu.edu
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ need spec mpeg mpg file format      look spec mpg
+file float around alt binari pictur group net
+pleas lemm know obtain spec email  thank much
+jame murray
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spec, 8196, 0.569863165402
+mpg, 5896, 0.498944038596
+file, 3477, 0.233561343872
+mpeg, 5895, 0.210571363079
+murray, 5929, 0.199986040132
+float, 3546, 0.19515666937
+binari, 1096, 0.183007288321
+alt, 446, 0.172331528452
+obtain, 6183, 0.167047631972
+jame, 4820, 0.167047631972
+pictur, 6622, 0.142454159931
+email, 3060, 0.141985429835
+net, 6010, 0.135832437489
+format, 3612, 0.135065403917
+group, 4064, 0.117448971485
+pleas, 6688, 0.0992776585428
+thank, 8832, 0.094509623945
+need, 5993, 0.0907379811512
+look, 5341, 0.0842216035366
+know, 5052, 0.0726926642655

@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84320
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: Charlie Fulton <charlie@isis.mit.edu>
+Subject: Re: Abortion
+Organization: Ctr for Advanced Rsrch in Oppressive Binarisms
+Lines: 16
+Distribution: world
+NNTP-Posting-Host: barabajagal-too.mit.edu
+X-UserAgent: Nuntius v1.1
+
+In article <C5n2xM.vsD@watson.ibm.com> Larry Margolis, 
+margoli@watson.ibm.com writes:
+>In <17858.459.uupcb@ozonehole.com> anthony.landreneau@ozonehole.com 
+(Anthony 
+>Landreneau)  writes:
+>>
+>>The rape has passed, there is nothing that will ever take that away.
+>
+>True.  But forcing her to remain pregnant continues the violation of
+>her body for another 9 months.  I see this as being unbelievably cruel.
+
+If she doesn't welcome the excruciating pain of labor, the
+selfish bitch deserves to die in childbirth.  She was probably
+lying about the rape anyway.
+
+Charlie
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ abort     userag nuntius    ozonehol com anthoni
+rape pass noth ever take away  true forc remain
+pregnant continu violat bodi anoth month see
+unbeliev cruel  doesn't welcom excruci pain labor
+selfish bitch deserv die childbirth probabl lie
+rape anyway  charli
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+rape, 7099, 0.388225305762
+childbirth, 1706, 0.236084556271
+cruel, 2254, 0.229328588822
+pregnant, 6822, 0.223808561487
+labor, 5088, 0.211532566704
+userag, 9367, 0.208342637127
+nuntius, 6158, 0.208342637127
+anthoni, 539, 0.202822609793
+bitch, 1123, 0.198155493181
+unbeliev, 9217, 0.19227716192
+selfish, 7777, 0.19227716192
+charli, 1670, 0.19227716192
+violat, 9526, 0.178270620226
+abort, 187, 0.175080690649
+pain, 6389, 0.167137264008
+deserv, 2560, 0.165623132089
+welcom, 9701, 0.15961476629
+lie, 5258, 0.146541980036
+remain, 7264, 0.141818744171
+pass, 6448, 0.135197638097
+com, 1917, 0.132361185611
+bodi, 1194, 0.131154797797
+continu, 2092, 0.127799745646
+forc, 3594, 0.125360064366
+month, 5847, 0.12477966969
+die, 2628, 0.123836405598
+away, 833, 0.120003252135
+noth, 6119, 0.110168846102
+true, 9121, 0.108001253144
+probabl, 6885, 0.0990173004404
+doesn, 2793, 0.0982098838329
+anoth, 533, 0.0975791041751

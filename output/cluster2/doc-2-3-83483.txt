@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83483
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: russpj@microsoft.com (Russ Paul-Jones)
+Subject: Re: After 2000 years, can we say that Christian Morality is 
+Organization: Microsoft Corporation
+Lines: 17
+
+In article <1993Apr16.193723.19050@asl.dl.nec.com> duffy@aslss02.asl.dl.nec.com (Joseph Duffy) writes:
+>
+>How does one falsify any origin theory? For example, are a forever existing
+>universe or abiogenesis strictly falsifiable?
+
+The same way that any theory is proven false.  You examine the predicitions
+that the theory makes, and try to observe them.  If you don't, or if you
+observe things that the theory predicts wouldn't happen, then you have some 
+evidence against the theory.  If the theory can't be modified to 
+incorporate the new observations, then you say that it is false.
+
+For example, people used to believe that the earth had been created
+10,000 years ago.  But, as evidence showed that predictions from this 
+theory were not true, it was abandoned.
+
+-Russ Paul-Jones
+russpj@microsoft.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ year say christian moral      one falsifi origin
+theori exampl forev exist univers abiogenesi
+strict falsifi  way theori proven fals examin
+predicit theori make tri observ don't observ thing
+theori predict wouldn't happen evid theori theori
+can't modifi incorpor new observ say fals  exampl
+peopl use believ earth creat year ago evid show
+predict theori true abandon  russ paul jone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+theori, 8848, 0.656747826108
+falsifi, 3374, 0.300261055817
+observ, 6179, 0.253464977562
+fals, 3372, 0.228626462393
+predict, 6816, 0.184002310834
+evid, 3245, 0.171172789418
+abiogenesi, 179, 0.164207880382
+exampl, 3258, 0.14732904037
+russ, 7548, 0.134427561943
+abandon, 164, 0.130210546268
+jone, 4889, 0.124687755626
+incorpor, 4587, 0.123742965435
+strict, 8445, 0.119583728823
+forev, 3602, 0.116133193795
+proven, 6948, 0.115508242129
+examin, 3257, 0.115508242129
+say, 7653, 0.103125266723
+year, 9943, 0.102082368531
+modifi, 5814, 0.097271653043
+paul, 6469, 0.0958203696049
+moral, 5855, 0.091056365226
+wouldn, 9854, 0.0848931763348
+ago, 336, 0.0791188138762
+creat, 2217, 0.0785125202975
+exist, 3283, 0.07281977614
+true, 9121, 0.07244711749
+origin, 6293, 0.0722267609709
+christian, 1732, 0.0720811737768
+happen, 4159, 0.0715796834431
+earth, 2956, 0.0707477858529
+univers, 9282, 0.0674913346043
+believ, 1009, 0.0627178642142
+new, 6023, 0.0591604039811
+tri, 9087, 0.0588177830356
+thing, 8869, 0.0554831866934
+peopl, 6530, 0.0551023756627
+way, 9666, 0.0531267167109
+make, 5459, 0.0509384820157
+don, 2811, 0.0460662699537
+use, 9363, 0.0448539965243

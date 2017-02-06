@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38436
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: bryanw@rahul.net (Bryan Woodworth)
+Subject: Re: CView answers
+Keywords: Stupid Programming
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Lines: 18
+
+In <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (Rene Walter) writes:
+[Most info regarding dangers of reading from Floppy disks omitted]
+>unrevcoverable way.  SO BE CAREFUL!  It is incredibly poor programming for a
+>program to do this.  On the other hand, when choosing files in the Open Files
+>menu, CView insists on doing a few disk reads every time one moves the
+>hi-lighter square.  Incredibly annoying when it could do them all at once
+>when it gets the directory info.  And really, how much effort does it take to
+>sort a directory listing?
+
+In all fairness, how many people do you know personally who read images
+from Floppy drives?  I haven't tried it with JPEGs, but I do realize how
+agonizingly slow it is with GIF files.  
+
+Nevertheless, it is an important bug that needs to be squashed.  I am
+merely pointing out that it was probably overlooked.  While it is serious,
+one must keep in mind that it will probably affect at most 5% of the
+targeted users of CView.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cview answer       info regard danger read floppi
+disk omit unrevcover way care incred poor program
+program hand choos file open file menu cview
+insist disk read everi time one move lighter squar
+incred annoy could get directori info realli much
+effort take sort directori list  fair mani peopl
+know person read imag floppi drive haven't tri
+jpeg realiz agon slow gif file  nevertheless
+import bug need squash mere point probabl overlook
+serious one must keep mind probabl affect target
+user cview
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cview, 2320, 0.394054835039
+floppi, 3551, 0.268773512929
+incred, 4591, 0.24572670145
+file, 3477, 0.225441754353
+disk, 2720, 0.222529861963
+directori, 2669, 0.205929386258
+read, 7135, 0.19832001254
+info, 4636, 0.170993009229
+unrevcover, 9308, 0.169338167439
+squash, 8277, 0.164492263221
+omit, 6234, 0.147369703211
+overlook, 6346, 0.14213249953
+probabl, 6885, 0.142045786189
+lighter, 5269, 0.139232660682
+program, 6905, 0.134817212903
+squar, 8276, 0.129540852247
+menu, 5633, 0.128689114349
+annoy, 525, 0.127869525284
+target, 8704, 0.120447915589
+affect, 310, 0.115374611045
+danger, 2356, 0.114488098868
+insist, 4673, 0.112026992774
+jpeg, 4905, 0.111264930981
+bug, 1373, 0.110169747702
+choos, 1720, 0.108458900196
+slow, 8044, 0.107493562043
+mere, 5641, 0.10539516221
+poor, 6741, 0.103481777859
+effort, 3007, 0.10148344644
+realiz, 7149, 0.099653603937
+drive, 2873, 0.0942447271672
+user, 9366, 0.0937377033746
+haven, 4207, 0.0927578439687
+fair, 3363, 0.0919737684565
+gif, 3869, 0.091667896743
+regard, 7224, 0.0889587222688
+open, 6258, 0.086193351545
+care, 1516, 0.0854965046144
+mind, 5733, 0.0846008505588
+sort, 8144, 0.0835308542143
+import, 4551, 0.0823127854804
+answer, 535, 0.0801534260099
+list, 5298, 0.0795366878942
+hand, 4145, 0.0787686361603
+everi, 3235, 0.074380295792
+imag, 4512, 0.0727954079636
+person, 6562, 0.0723541279661
+realli, 7150, 0.0644405448259
+tri, 9087, 0.062893188472
+mani, 5479, 0.0616003891785
+point, 6710, 0.0612982412415
+peopl, 6530, 0.0589203454967
+need, 5993, 0.0583890276763
+way, 9666, 0.0568077957813
+time, 8936, 0.0515989327081
+know, 5052, 0.0467770379263

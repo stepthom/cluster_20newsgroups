@@ -1,0 +1,149 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61565
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: isaackuo@jell-o.berkeley.edu (Isaac Kuo)
+Subject: Re: Drag-free satellites
+Organization: U.C. Berkeley Math. Department.
+Lines: 37
+NNTP-Posting-Host: jell-o.berkeley.edu
+
+In article <15821.2be3e125@cpva.saic.com> thomsonal@cpva.saic.com writes:
+>On Sat, 1 May 1993 23:13:39 GMT, henry@zoo.toronto.edu (Henry Spencer) said:
+>
+>> No.  A "dragless" satellite does not magically have no drag; it burns fuel
+>> constantly to fight drag, maintaining the exact orbit it would have *if*
+>> there was no drag.  
+>
+>     Well, almost. It turns out that clever orbital mechanics can 
+>engineer things so that resonant interactions with the higher order 
+>harmonics of the Earth's gravitational field can pump energy into a 
+>satellite, and keep it from experiencing drag effects for periods of 
+>months to years. 
+
+A harmonic of the Earth's gravitational field?  What IS a harmonic of the
+Earth's gravitational field?
+
+>     My favorite example of this is the Soviet/Russian heavy ELINT 
+>satellites of the Cosmos 1603 class, which are in 14:1 resonance. In 
+
+14:1 resonance with WHAT?  It's not like there's any wavelength or frequency
+to the Earth's gravitational field.  Now, there' might be some interesting
+interactions with the Moon's tidal effect--is that what you're talking about?
+>
+>    This probably has little relevance to space stations, since the 71 
+>degree orbits of the C1603 satellites are at 850 km, which is 
+>unacceptably far into the inner van Allen belt for manned platforms. But 
+>it's kind of interesting from the point of view of the physics of the 
+>situation. 
+
+What are the physics of the situation?  The only way I can see gravitational
+effects being useful in adding energy to an object orbiting Earth is some
+sort of interaction with the moon.
+-- 
+*Isaac Kuo (isaackuo@math.berkeley.edu)	*       ___
+*					* _____/_o_\_____
+*	Twinkle, twinkle, little .sig,	*(==(/_______\)==)
+*	Keep it less than 5 lines big.	* \==\/     \/==/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ drag free satellit        dragless satellit magic
+drag burn fuel constant fight drag maintain exact
+orbit drag  well almost turn clever orbit mechan
+engin thing reson interact higher order harmon
+earth gravit field pump energi satellit keep
+experienc drag effect period month year  harmon
+earth gravit field harmon earth gravit field
+favorit exampl soviet russian heavi elint satellit
+cosmos class reson  reson it like there wavelength
+frequenc earth gravit field there might interest
+interact moon tidal effect you'r talk  probabl
+littl relev space station sinc degre orbit c1603
+satellit unaccept far inner van allen belt man
+platform it kind interest point view physic situat
+physic situat way see gravit effect use ad energi
+object orbit earth sort interact moon    twinkl
+twinkl littl sig keep less line big
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+gravit, 4009, 0.415347204884
+drag, 2854, 0.351979351937
+reson, 7318, 0.275601100355
+harmon, 4178, 0.275601100355
+satellit, 7632, 0.271530291729
+earth, 2956, 0.221067913732
+interact, 4704, 0.195748826079
+field, 3466, 0.191065001587
+orbit, 6280, 0.183755010417
+twinkl, 9173, 0.183734066903
+effect, 3005, 0.152604142788
+energi, 3102, 0.123532779099
+physic, 6613, 0.110363465277
+situat, 7995, 0.10715073559
+moon, 5851, 0.103060803716
+tidal, 8920, 0.0989698130384
+dragless, 2855, 0.0918670334516
+littl, 5308, 0.0853149685555
+wavelength, 9663, 0.0850259588692
+clever, 1812, 0.0850259588692
+cosmos, 2168, 0.0840100373702
+pump, 6982, 0.0830694409768
+experienc, 3296, 0.0806051656548
+inner, 4656, 0.0785424359038
+frequenc, 3685, 0.077332735938
+belt, 1017, 0.0738264609426
+soviet, 8161, 0.0729799978091
+van, 9416, 0.0721864742436
+fight, 3474, 0.071439656317
+sig, 7940, 0.0685351434632
+relev, 7254, 0.0682499125151
+heavi, 4230, 0.0679709508893
+magic, 5435, 0.0676979889059
+favorit, 3411, 0.066912651244
+russian, 7551, 0.064811901765
+constant, 2067, 0.064811901765
+platform, 6676, 0.0643887878171
+allen, 426, 0.0635826602357
+mechan, 5603, 0.0631980173746
+fuel, 3715, 0.0617663895496
+maintain, 5454, 0.0607895813113
+class, 1789, 0.0607895813113
+burn, 1413, 0.0594523200403
+degre, 2491, 0.0589003964311
+higher, 4293, 0.0582426200745
+period, 6546, 0.0565638428715
+ad, 257, 0.0544954983259
+station, 8346, 0.0535753677951
+month, 5847, 0.0523093114403
+free, 3668, 0.0516824065855
+turn, 9158, 0.0505144803591
+exact, 3253, 0.0503757659398
+view, 9510, 0.0495738839657
+engin, 3109, 0.0495092922587
+sort, 8144, 0.0488196674711
+object, 6173, 0.0467416917807
+exampl, 3258, 0.0460363857244
+kind, 5021, 0.0452755741436
+order, 6281, 0.044866844058
+man, 5471, 0.0438371789269
+big, 1082, 0.0432336305291
+talk, 8684, 0.042923101449
+far, 3386, 0.0423973120604
+line, 5285, 0.0420704551211
+probabl, 6885, 0.0415093806514
+sinc, 7977, 0.0386909172325
+space, 8164, 0.0360023915004
+point, 6710, 0.0358258009226
+thing, 8869, 0.0346740245836
+way, 9666, 0.0332013568626
+year, 9943, 0.0318980106132
+use, 9363, 0.02803134915
+like, 5272, 0.0267249663745

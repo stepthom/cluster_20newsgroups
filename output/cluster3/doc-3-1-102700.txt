@@ -1,0 +1,118 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102700
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: spl2@po.cwru.edu (Sam Lubchansky)
+Subject: Re: Joe Robbie Stadium "NOT FOR BASEBALL"
+Article-I.D.: po.spl2.114.734131045
+Organization: Case Western Reserve University
+Lines: 27
+NNTP-Posting-Host: b61644.student.cwru.edu
+
+In article <1993Apr6.025027.4846@oswego.Oswego.EDU> iacs3650@Oswego.EDU (Kevin Mundstock) writes:
+>From: iacs3650@Oswego.EDU (Kevin Mundstock)
+>Subject: Joe Robbie Stadium "NOT FOR BASEBALL"
+>Date: 6 Apr 93 02:50:27 GMT
+>Did anyone notice the words "NOT FOR BASEBALL" printed on the picture
+>of Joe Robbie Stadium in the Opening Day season preview section in USA
+>Today? Any reason given for this?
+>
+
+I would assume that the words (I saw the picture) indicated that those 
+SEATS will not be available for baseball games.  If you look at the picture 
+of the diamond in the stadium, in relation to the areas marked "NOT FOR 
+BASEBALL", those seats just look terrible for watching baseball.   Now, if 
+they should happen to reach the post-season, I would imagine that they 
+would consider opening some of those seats up, but that is surely a worry 
+of the future.
+
+ 
+
+
+Sam Lubchansky          spl2@po.cwru.edu
+
+"In the champion, people see what they'd like to be.  In the loser,
+ they see what they actually are, and they treat him with scorn."
+
+"Sugary condiments secure initial pleasure, but fermented grain is
+ decidedly more parsimonious of time." 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ joe robbi stadium basebal articl spl2       joe
+robbi stadium basebal date gmt anyon notic word
+basebal print pictur joe robbi stadium open day
+season preview section usa today reason given
+assum word saw pictur indic seat avail basebal
+game look pictur diamond stadium relat area mark
+basebal seat look terribl watch basebal happen
+reach post season imagin consid open seat sure
+worri futur       champion peopl see they'd like
+loser see actual treat scorn  sugari condiment
+secur initi pleasur ferment grain decid parsimoni
+time
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+stadium, 8300, 0.376873083208
+robbi, 7435, 0.366109980679
+basebal, 924, 0.358570029403
+seat, 7748, 0.309464110454
+joe, 4876, 0.264123830125
+pictur, 6622, 0.2245760304
+open, 6258, 0.140776007193
+scorn, 7710, 0.138286484109
+season, 7747, 0.136598395177
+ferment, 3446, 0.13109582249
+word, 9829, 0.127043124453
+pleasur, 6690, 0.120346395791
+loser, 5351, 0.118803305261
+grain, 3987, 0.117383799576
+champion, 1647, 0.111612643642
+preview, 6854, 0.110653796419
+secur, 7762, 0.108053878562
+terribl, 8804, 0.107265555284
+diamond, 2614, 0.106510788031
+treat, 9076, 0.0998197187073
+worri, 9845, 0.0914845081309
+gmt, 3917, 0.0888414584642
+look, 5341, 0.0885157415097
+section, 7759, 0.0872756461446
+initi, 4647, 0.0860687619606
+usa, 9357, 0.0851591085382
+print, 6871, 0.0849388031754
+notic, 6120, 0.0819257535726
+imagin, 4518, 0.0805062478878
+saw, 7650, 0.0781168524186
+date, 2391, 0.0779684469196
+indic, 4600, 0.0772444952322
+reach, 7128, 0.0771031848937
+decid, 2442, 0.0768238979619
+futur, 3737, 0.0748586768
+watch, 9655, 0.0735444198138
+mark, 5512, 0.0722137192904
+area, 622, 0.0721072063357
+assum, 710, 0.0688208338309
+today, 8964, 0.0677924672967
+relat, 7247, 0.0677924672967
+given, 3887, 0.0636529284096
+happen, 4159, 0.0625042594951
+consid, 2059, 0.062197959072
+avail, 811, 0.0616007863668
+reason, 7156, 0.0572027078832
+articl, 665, 0.0571569417839
+sure, 8585, 0.0571112934867
+actual, 254, 0.0570203478841
+game, 3761, 0.0537567810651
+day, 2402, 0.0525886648566
+post, 6766, 0.0517941987477
+peopl, 6530, 0.0481160717896
+anyon, 554, 0.0476554133276
+time, 8936, 0.0421371926712
+like, 5272, 0.0373417057625

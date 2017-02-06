@@ -1,0 +1,136 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38694
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: dgf1@ellis.uchicago.edu (David Farley)
+Subject: Re: Photoshop for Windows
+Reply-To: dgf1@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 37
+
+In article <1r85m2$k66@agate.berkeley.edu> aron@tikal.ced.berkeley.edu (Aron Bonar) writes:
+>In article <1993Apr22.011720.28958@midway.uchicago.edu>, dgf1@quads.uchicago.edu (David Farley) writes:
+>|> In article <C5uHIM.JFq@rot.qc.ca> beaver@rot.qc.ca (Andre Boivert) writes:
+>|> >
+>|> >
+>|> >I am looking for comments from people who have used/heard about PhotoShop
+>|> >for Windows. Is it good? How does it compare to the Mac version? Is there
+>|> >a lot of bugs (I heard the Windows version needs "fine-tuning)?
+>|> >
+>|> >Any comments would be greatly appreciated..
+>|> >
+>|> >Thank you.
+>|> >
+>|> >Andre Boisvert
+>|> >beaver@rot.qc.ca
+>|> >
+>|> An review of both the Mac and Windows versions in either PC Week or Info
+>|> World this week, said that the Windows version was considerably slower
+>|> than the Mac.  A more useful comparison would have been between PhotoStyler
+>|> and PhotoShop for Windows.  David
+>|> 
+>
+>I don't know about that...I've used Photoshop 2.5 on both a 486dx-50 and a Quadra
+>950...I'd say they are roughly equal.  If anything the 486 was faster.
+>
+>Both systems were running in 24 bit color and had the same amount of RAM (16 megs)
+>I also believe the quadra had one of those photoshop accelerators.
+
+I went back and looked at the review again.  They claim there were
+significant differences in manipulating a 27 meg test file, but with
+smaller files, the two platforms were the about the same.  David
+
+-- 
+David Farley                           The University of Chicago Library
+312 702-3426                              1100 East 57th Street, JRL-210
+dgf1@midway.uchicago.edu                         Chicago, Illinois 60637
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ photoshop window          look comment peopl use
+heard photoshop window good compar mac version lot
+bug heard window version need fine tune  comment
+great appreci  thank  andr boisvert   review mac
+window version either week info world week said
+window version consider slower mac use comparison
+photostyl photoshop window david   don't know i'v
+use photoshop 486dx quadra i'd say rough equal
+anyth faster  system run bit color amount ram meg
+also believ quadra one photoshop acceler  went
+back look review claim signific differ manipul meg
+test file smaller file two platform david   david
+farley univers chicago librari east 57th street
+jrl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+photoshop, 6609, 0.480287156291
+window, 9774, 0.399213451769
+version, 9479, 0.248905784808
+quadra, 7010, 0.214287032126
+mac, 5410, 0.21383289602
+meg, 5616, 0.207149187804
+david, 2397, 0.193675540543
+review, 7358, 0.167382312456
+comment, 1936, 0.128381645696
+heard, 4224, 0.121535928328
+photostyl, 6610, 0.121145622598
+boisvert, 1204, 0.121145622598
+jrl, 4913, 0.118229600868
+farley, 3389, 0.118229600868
+week, 9691, 0.117800946222
+57th, 119, 0.113628459954
+file, 3477, 0.110689224955
+use, 9363, 0.105969189217
+slower, 8045, 0.102542375149
+tune, 9149, 0.0924885090972
+andr, 503, 0.0895724873676
+comparison, 1962, 0.0863629924578
+acceler, 207, 0.0860035652066
+rough, 7493, 0.0856520380986
+ram, 7083, 0.0853080713025
+smaller, 8055, 0.084001725978
+manipul, 5483, 0.0822228010139
+street, 8440, 0.0816712346464
+platform, 6676, 0.0811380572888
+bug, 1373, 0.0811380572888
+chicago, 1701, 0.0803702055392
+look, 5341, 0.0798284841611
+faster, 3399, 0.0784864025627
+equal, 3156, 0.0760209413198
+consider, 2060, 0.0754596963804
+east, 2965, 0.0727596024762
+went, 9704, 0.0714198004056
+librari, 5250, 0.0709970311327
+fine, 3485, 0.0709970311327
+signific, 7951, 0.0689135905048
+compar, 1960, 0.0672896333052
+test, 8812, 0.0657151985733
+color, 1907, 0.0642819560836
+info, 4636, 0.0629666531338
+claim, 1782, 0.0623070198716
+appreci, 587, 0.0618295563683
+anyth, 555, 0.0548302967931
+bit, 1122, 0.0539442576031
+world, 9841, 0.0535656875135
+said, 7583, 0.0532416333689
+great, 4016, 0.0531958712788
+univers, 9282, 0.0531502397512
+lot, 5356, 0.0499035065485
+believ, 1009, 0.0493910742648
+differ, 2633, 0.0492476307959
+run, 7543, 0.048177525134
+thank, 8832, 0.0447899333506
+peopl, 6530, 0.0433937852097
+need, 5993, 0.0430024790966
+good, 3948, 0.0411133081592
+say, 7653, 0.0406061954684
+don, 2811, 0.0362777430146
+know, 5052, 0.0344504554311

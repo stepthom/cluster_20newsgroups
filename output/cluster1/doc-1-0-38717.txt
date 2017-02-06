@@ -1,0 +1,44 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38717
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: gwang@magnus.acs.ohio-state.edu (Ge Wang)
+Subject: Packages for Fashion Designers?
+Nntp-Posting-Host: bottom.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 3
+
+Hello, I am looking for commercial software packages for professional
+fashion designers.  Any recommendation and pointers are greatly appreciated.
+Please e-mail me, if you may.  Thanks a million.  -- Ge
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ packag fashion design     hello look commerci
+softwar packag profession fashion design recommend
+pointer great appreci pleas mail thank million
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fashion, 3396, 0.519855322908
+packag, 6375, 0.393794098687
+design, 2564, 0.351301015829
+pointer, 6711, 0.258492459698
+profession, 6900, 0.234838996889
+recommend, 7178, 0.229328960586
+hello, 4247, 0.2237582219
+million, 5724, 0.208829627214
+commerci, 1940, 0.191132802274
+appreci, 587, 0.174755328994
+mail, 5447, 0.155403803159
+softwar, 8103, 0.150872647724
+great, 4016, 0.150353043633
+pleas, 6688, 0.132981186789
+thank, 8832, 0.126594463846
+look, 5341, 0.112813788681

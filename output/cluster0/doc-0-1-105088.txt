@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105088
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dwarner@journalism.indiana.edu (David J.)
+Subject: Re: Omar Vizquel - GRAND SALAMI?
+Nntp-Posting-Host: clove.journalism.indiana.edu
+Reply-To: dwarner@journalism.indiana.edu
+Organization: Indiana University
+Lines: 16
+
+Cheryl Marks writes
+> 
+> Do you think Omar's grand slam is the result of his new fan club?  Last week 
+> a banner appeared in the Kingdome:    
+> 
+> 	OLDER WOMEN FOR OMAR  
+
+That depends.  Just how much older were they?
+ 
+> Cheryl
+
+--
+David J.(dwarner@journalism.indiana.edu)*****Blue Riddle Productions 1993
+*-------------------------------It's on.--------------------------------*
+***"THE RAP IS AN ART EP" is coming out on tape -- this time for real.***
+*------------------------E-mail me for the 411.-------------------------*
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ omar vizquel grand salami      cheryl mark write
+think omar grand slam result new fan club last
+week banner appear kingdom  older women omar
+depend much older  cheryl    it rap art come tape
+time real mail
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+omar, 6230, 0.558742451932
+cheryl, 1695, 0.423920575975
+grand, 3991, 0.301475130315
+older, 6218, 0.290800285501
+banner, 899, 0.183159757849
+vizquel, 9554, 0.180397692708
+rap, 7098, 0.177899100862
+slam, 8015, 0.171576947763
+kingdom, 5025, 0.148315964182
+women, 9819, 0.138735300166
+club, 1842, 0.138735300166
+tape, 8700, 0.134314792985
+art, 660, 0.128284826627
+depend, 2537, 0.117063613615
+mark, 5512, 0.106748155167
+appear, 580, 0.10659070501
+fan, 3381, 0.10433584548
+result, 7332, 0.10173270565
+week, 9691, 0.0965432861316
+write, 9865, 0.0903744397401
+mail, 5447, 0.0901219622931
+real, 7144, 0.0898718932527
+new, 6023, 0.0763645218253
+come, 1923, 0.0760199016401
+time, 8936, 0.0622882691233
+think, 8871, 0.0600410504242

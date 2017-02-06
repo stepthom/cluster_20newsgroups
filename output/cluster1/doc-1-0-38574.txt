@@ -1,0 +1,74 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38574
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: mz@moscom.com (Matthew Zenkar)
+Subject: Re: CView answers
+Organization: Moscom Corp., E. Rochester, NY
+Lines: 15
+X-Newsreader: TIN [version 1.1 PL9]
+
+Cyberspace Buddha (cb@wixer.bga.com) wrote:
+: renew@blade.stack.urc.tue.nl (Rene Walter) writes:
+: >over where it places its temp files: it just places them in its
+: >"current directory".
+
+: I have to beg to differ on this point, as the batch file I use
+: to launch cview cd's to the dir where cview resides and then
+: invokes it.  every time I crash cview, the 0-byte temp file
+: is found in the root dir of the drive cview is on.
+
+I posted this as well before the cview "expert".  Apparently, he thought he
+knew better.
+
+Matthew Zenkar
+mz@moscom.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cview answer       place temp file place current
+directori  beg differ point batch file use launch
+cview cd dir cview resid invok everi time crash
+cview byte temp file found root dir drive cview
+post well cview expert appar thought knew better
+matthew zenkar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cview, 2320, 0.735314271176
+dir, 2665, 0.271468834487
+temp, 8771, 0.250768398453
+file, 3477, 0.210339430651
+zenkar, 9983, 0.153472940679
+cd, 1584, 0.14977878797
+batch, 943, 0.14977878797
+place, 6657, 0.13879513237
+beg, 992, 0.127518987022
+invok, 4749, 0.12439562541
+crash, 2212, 0.119303556801
+root, 7477, 0.115861106012
+resid, 7311, 0.115861106012
+byte, 1438, 0.1123791201
+expert, 3298, 0.111852811444
+matthew, 5554, 0.104887400525
+knew, 5045, 0.101193247816
+directori, 2669, 0.0960670972069
+appar, 577, 0.0940278838523
+drive, 2873, 0.0879312810136
+launch, 5147, 0.0796627400308
+answer, 535, 0.0747839549068
+current, 2299, 0.073413851975
+thought, 8887, 0.0707180166473
+everi, 3235, 0.0693975661849
+differ, 2633, 0.0623892020005
+better, 1060, 0.0606148961318
+post, 6766, 0.0591755874821
+point, 6710, 0.0571918773417
+time, 8936, 0.0481423246514
+use, 9363, 0.0447489083573

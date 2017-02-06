@@ -1,0 +1,89 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39074
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: cfury@csugrad.cs.vt.edu (Chris Fury)
+Subject: Re: Help needed: DXF ---> IFF
+Lines: 17
+Organization: Virginia Tech Computer Science Dept, Blacksburg, VA
+Lines: 17
+
+Blue-Knight@bknight.jpr.com (Yury German) writes:
+
+>	.DXF can not be changed over to .IFF format what it can be changed
+>to is an object format used by one of the 3D programs on the Amiga. The
+>only tools around are comercial for that conversion.
+
+Actually, IFF is a *format standard*.  It is not a picture file format, sound
+file format, but there exist several formats that use the IFF standard.  The
+IFF picture standard used by mostly everybody is a FORM ILBM (or just ILBM).
+The only 3D IFF specification I know of is TDDD, which is used by Imagine and
+it's predecessor, Turbo Silver.   It is possible that some of the other Amiga
+packages use another *IFF* spec, but I don't know of any.  Lightwave will load
+TDDD FORM's I believe.
+
+--
+Christopher B. Fury        |  This space for rent. 
+cfury@csugrad.cs.vt.edu    |  Call 1-900-QUOTEME for more information.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help need dxf iff       dxf chang iff format
+chang object format use one program amiga tool
+around comerci convers  actual iff format standard
+pictur file format sound file format exist sever
+format use iff standard iff pictur standard use
+most everybodi form ilbm ilbm iff specif know tddd
+use imagin it predecessor turbo silver possibl
+amiga packag use anoth iff spec don't know
+lightwav load tddd form believ   christoph furi
+space rent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+iff, 4492, 0.65019975244
+format, 3612, 0.373920704089
+tddd, 8726, 0.242843711105
+ilbm, 4504, 0.211339275566
+dxf, 2939, 0.192720750181
+standard, 8313, 0.19136028142
+use, 9363, 0.171952352083
+amiga, 472, 0.161787764559
+pictur, 6622, 0.131458681589
+form, 3610, 0.124815689508
+christoph, 1735, 0.117947159382
+chang, 1650, 0.111896352261
+comerci, 1925, 0.110628463407
+file, 3477, 0.10776682952
+lightwav, 5271, 0.107153767236
+rent, 7283, 0.0988910505177
+silver, 7957, 0.0956006354719
+turbo, 9151, 0.0948762456375
+spec, 8196, 0.0876462768164
+everybodi, 3239, 0.0800519705792
+tool, 8988, 0.0766320075872
+convers, 2114, 0.0764142197948
+load, 5317, 0.0724289344937
+imagin, 4518, 0.0706881664185
+packag, 6375, 0.0678241984584
+know, 5052, 0.0670818023858
+specif, 8203, 0.0618038853211
+sound, 8150, 0.0611411651646
+sever, 7823, 0.0574730308128
+object, 6173, 0.0573453942513
+exist, 3283, 0.055832401818
+possibl, 6765, 0.0510528648299
+anoth, 533, 0.050186408121
+actual, 254, 0.0500664724319
+program, 6905, 0.0483345142994
+believ, 1009, 0.0480870607078
+help, 4249, 0.0457469303639
+space, 8164, 0.0441698033582
+need, 5993, 0.0418671359894
+don, 2811, 0.0353199450842

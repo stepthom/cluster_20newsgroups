@@ -1,0 +1,197 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105158
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: ecaxron@ariel.lerc.nasa.gov (Ron Graham)
+Subject: RE: Game Length (was Re: Braves Update!!
+Organization: NASA Lewis Research Center
+Lines: 43
+Distribution: world
+NNTP-Posting-Host: ariel.lerc.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <21APR93.19584618@vax.clarku.edu>, hhenderson@vax.clarku.edu 
+     writes...
+
+>ecaxron@ariel.lerc.nasa.gov (Ron Graham) writes:
+
+>>I think that, everything else being equal, it's not too much to ask that
+>>if a weeknight game can be shortened by half-an-hour by cutting out warmup
+>>pitches, dawdling outside the batter's box, commercial time-outs and that
+>>sort of thing, I'm not asking for too much.
+
+>How do you know they can be shortened by half-an-hour?  Has anybody done a
+>study to determine how much time is actually "wasted" -- say, in these A's
+>games?
+
+Oh, probably.
+
+Ms. Nichols has given the average game times (and average runs scored) for
+1983 and 1992.  (A very nice piece of information, Ms. Nichols.  Who knows?
+She may be listening, and not have me in her kill file after all.)  Those
+numbers indicate somewhere in the neighborhood of half-a-run *less* being
+scored per game, and the games taking 15 minutes *longer*.  Something is
+being done now that wasn't done ten years ago, which is extending the games
+by 15 minutes.  Ms. Nichols thinks it's more pitches.  Given the increasing
+specialization of pitchers, it wouldn't surprise me.
+
+If it's not simply more pitches, though, I don't think it's unreasonable
+to think that something can be done to get ten of those minutes back.  Then
+I get a couple more from shortening the warmup time for a relief pitcher
+after he comes in, and a couple more still from enforcing existing rules,
+which have been stated in other posts in this thread (and other related ones).
+
+The problem is, who decides whether that time is "wasted?"  You don't seem
+to think it is at all.  Right now, I think it is, although I have heard one
+case favoring giving the reliever all the warmups he thinks he needs (the
+difference in mounds between the field and pen) -- but who knows?  If the
+rules get changed, maybe something I didn't foresee will happen to change my
+mind.  But you can bet a lot of minds would fail to foresee the same thing,
+or else nothing will be changed.
+
+RG
+
+"I can play me better than anyone.  There's only one of me."
+ -  Barry Bonds, on playing himself in two movies
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat     news softwar vax vms
+vnew  vax clarku edu write    think everyth els
+equal it much ask weeknight game shorten half hour
+cut warmup pitch dawdl outsid batter box commerci
+time out sort thing i'm ask much  know shorten
+half hour anybodi done studi determin much time
+actual wast say a game  probabl  nichol given
+averag game time averag run score nice piec inform
+nichol know listen kill file number indic somewher
+neighborhood half run less score per game game
+take minut longer someth done wasn't done ten year
+ago extend game minut nichol think it pitch given
+increas special pitcher wouldn't surpris  it
+simpli pitch though don't think it unreason think
+someth done get ten minut back get coupl shorten
+warmup time relief pitcher come coupl still enforc
+exist rule state post thread relat one  problem
+decid whether time wast don't seem think right
+think although heard one case favor give reliev
+warmup think need differ mound field pen know rule
+get chang mayb someth didn't forese happen chang
+mind bet lot mind fail forese thing els noth chang
+play better anyon there one barri bond play two
+movi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+warmup, 9642, 0.333504114109
+game, 3761, 0.291740955067
+shorten, 7907, 0.276322266871
+nichol, 6050, 0.223677734769
+think, 8871, 0.220430538592
+minut, 5747, 0.190549496015
+half, 4124, 0.186853175152
+time, 8936, 0.163343443644
+pitch, 6643, 0.150578496362
+chang, 1650, 0.148202715959
+wast, 9654, 0.12911497067
+hour, 4395, 0.123794122185
+someth, 8126, 0.12142085944
+vax, 9439, 0.119995173577
+score, 7705, 0.118908128648
+averag, 816, 0.11705358408
+rule, 7537, 0.114760701914
+coupl, 2187, 0.114396475983
+pitcher, 6644, 0.109292570592
+weeknight, 9693, 0.107212602889
+mind, 5733, 0.107126202347
+dawdl, 2399, 0.101637730163
+neighborhood, 6001, 0.0995182619195
+given, 3887, 0.0986993946707
+ask, 689, 0.0952455525834
+els, 3053, 0.0950658221671
+play, 6681, 0.0906864884311
+know, 5052, 0.0888474476969
+unreason, 9305, 0.0881519871435
+mound, 5885, 0.0865325495645
+pen, 6511, 0.0850839132863
+enforc, 3106, 0.0844130813205
+run, 7543, 0.0828329667624
+relief, 7257, 0.0781985896454
+reliev, 7258, 0.0770022416915
+thing, 8869, 0.0751237637849
+favor, 3410, 0.0727633052037
+barri, 918, 0.0716843732316
+piec, 6624, 0.0706839810113
+movi, 5892, 0.0702098192683
+listen, 5300, 0.0702098192683
+extend, 3319, 0.0695278946614
+length, 5212, 0.0680570999128
+bond, 1211, 0.0680570999128
+bet, 1054, 0.0670952163382
+thread, 8890, 0.0665488135285
+outsid, 6332, 0.0653524655747
+fail, 3360, 0.0653524655747
+equal, 3156, 0.0653524655747
+batter, 949, 0.0653524655747
+somewher, 8130, 0.0642519321404
+vnew, 9564, 0.0625488100187
+don, 2811, 0.0623733384598
+increas, 4590, 0.0620249627397
+surpris, 8593, 0.0618970610926
+longer, 5337, 0.0613970304277
+special, 8198, 0.061274813375
+vms, 9563, 0.0606795113954
+cut, 2313, 0.0604484248145
+indic, 4600, 0.059887149826
+determin, 2582, 0.059887149826
+wasn, 9652, 0.0596689019435
+updat, 9333, 0.0595610635247
+decid, 2442, 0.0595610635247
+everyth, 3242, 0.0592425320301
+studi, 8469, 0.0591379738995
+kill, 5012, 0.0588289872354
+brave, 1277, 0.0588289872354
+commerci, 1940, 0.0581339273728
+wouldn, 9854, 0.0574723200487
+simpli, 7967, 0.0563221883666
+box, 1254, 0.0561534828402
+anybodi, 552, 0.0559042434853
+nice, 6047, 0.055659441863
+ago, 336, 0.0535631011735
+sort, 8144, 0.0528856573644
+relat, 7247, 0.0525590546468
+heard, 4224, 0.0522400304065
+field, 3466, 0.051744505502
+noth, 6119, 0.0500307556518
+exist, 3283, 0.0492986793625
+state, 8342, 0.0487496314339
+edu, 3001, 0.0487496314339
+happen, 4159, 0.0484591418702
+mayb, 5564, 0.0481278167318
+case, 1540, 0.0478042882071
+file, 3477, 0.0475777702682
+news, 6031, 0.0474881977826
+write, 9865, 0.0473992050583
+didn, 2625, 0.0459284103098
+softwar, 8103, 0.0458886148322
+inform, 4637, 0.0451913163945
+probabl, 6885, 0.0449665267351
+number, 6156, 0.0447088343318
+actual, 254, 0.0442075012155
+problem, 6887, 0.0432565515006
+lot, 5356, 0.0429002474469
+differ, 2633, 0.0423364146819
+right, 7399, 0.0418243323323
+better, 1060, 0.0411323962521
+post, 6766, 0.0401557021144
+come, 1923, 0.0398705974468
+need, 5993, 0.0369676826674
+anyon, 554, 0.036946928961
+say, 7653, 0.0349076839275
+year, 9943, 0.0345546651028

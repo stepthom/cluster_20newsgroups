@@ -1,0 +1,80 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38603
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: prestonm@cs.man.ac.uk (Martin Preston)
+Subject: Re: TIFF: philosophical significance of 42
+Lines: 18
+
+In <C5sCGu.1LL@mentor.cc.purdue.edu> ab@nova.cc.purdue.edu (Allen B) writes:
+
+>I've got the 6.0 spec (obviously since I quoted it in my last posting). 
+>My gripe about TIFF is that it's far too complicated and nearly
+>infinitely easier to write than to read,...
+
+Why not use the PD C library for reading/writing TIFF files? It took me a
+good 20 minutes to start using them in your own app.
+
+Martin
+
+--
+---------------------------------------------------------------------------
+|Martin Preston,      (m.preston@manchester.ac.uk)    | Computer Graphics |
+|Computer Graphics Unit, Manchester Computing Centre, |    is just        |
+|University of Manchester,                            |  a load of balls. |
+|Manchester, U.K., M13 9PL     Phone : 061 275 6095   |                   |
+---------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific     i'v got spec obvious
+sinc quot last post gripe tiff it far complic near
+infinit easier write read  use librari read write
+tiff file took good minut start use app  martin
+comput graphic unit manchest comput centr univers
+manchest load ball manchest m13 9pl phone
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+manchest, 5473, 0.520402140239
+tiff, 8926, 0.394736360686
+9pl, 151, 0.206670876472
+gripe, 4053, 0.188299556049
+comput, 1993, 0.183776396277
+write, 9865, 0.182740368007
+app, 576, 0.169928235625
+read, 7135, 0.161361420301
+infinit, 4631, 0.149950107319
+spec, 8196, 0.149181815471
+martin, 5523, 0.145642671016
+complic, 1978, 0.145642671016
+philosoph, 6595, 0.144988212756
+easier, 2960, 0.143725868807
+centr, 1610, 0.143725868807
+load, 5317, 0.123280535499
+minut, 5747, 0.122439061241
+unit, 9278, 0.120317592278
+librari, 5250, 0.117652826136
+use, 9363, 0.117071323461
+took, 8987, 0.116970276498
+phone, 6601, 0.11630486382
+signific, 7951, 0.114200249683
+quot, 7045, 0.113798663017
+obvious, 6185, 0.112063222038
+near, 5982, 0.107293222287
+ball, 877, 0.103656814556
+file, 3477, 0.0917143993983
+far, 3386, 0.0885349721757
+univers, 9282, 0.0880779916677
+graphic, 3997, 0.0872601249755
+got, 3960, 0.086968866958
+start, 8334, 0.0838954415851
+sinc, 7977, 0.0807951993691
+post, 6766, 0.0774070764787
+good, 3948, 0.068130974205

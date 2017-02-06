@@ -1,0 +1,119 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105120
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: robinr@prism.CS.ORST.EDU (Ryan Robin)
+Subject: John Wetteland, Derek Lilliquist, info please.
+Article-I.D.: flop.1r3ud6INNifd
+Distribution: usa
+Organization: CS Dept, Oregon State University
+Lines: 31
+NNTP-Posting-Host: prism.cs.orst.edu
+
+
+
+Hi there,
+
+      I was wondering if anyone knew if John Wetteland was put on the DL again
+      after his first 15-day period was up? I read in the USA Today Sports 
+      section that he is on for "surgery to repair broken toe", and was
+      wondering if that was new. I thought he was just letting it heal. 
+
+      Another question, Is Derek Lilliquist the main closer for the Indians now
+      that Olin is gone. I need to know cause I need to find a reliever to 
+      replace Wetteland and so far Lilliquist is doing ok. Any information on
+      either of the players would be greatly appreciated. Thank you for your
+      time. 
+
+
+      Ryan Robin.
+
+___________________________________________________________ 
+  
+  [==================]         Texas Rangers in 1993!
+  [==================]          Jose Canseco for MVP.
+  [==]    [==]    [==]
+  [==]    [==]    [==]             Ryan N. Robin
+          [==]                   311 Weatherford Hall
+          [==]                     Corvallis, OR.
+          [==]                       97331-1701
+          [==]
+       [========]
+       [========]            (robinr@prism.cs.orst.edu)
+___________________________________________________________
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ john wetteland derek lilliquist info pleas articl
+flop 1r3ud6innifd          wonder anyon knew john
+wetteland put first day period read usa today
+sport section surgeri repair broken toe wonder new
+thought let heal  anoth question derek lilliquist
+main closer indian olin gone need know caus need
+find reliev replac wetteland far lilliquist inform
+either player great appreci thank time   ryan
+robin    texa ranger jose canseco mvp  ryan robin
+weatherford hall corval
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lilliquist, 5276, 0.446124138073
+wetteland, 9713, 0.418441852627
+derek, 2549, 0.274336442976
+robin, 7440, 0.228393185814
+ryan, 7557, 0.205464267636
+flop, 3550, 0.153088950836
+olin, 6222, 0.148708046024
+john, 4878, 0.148473216968
+wonder, 9821, 0.142572333679
+toe, 8966, 0.14210219597
+corval, 2161, 0.139480617542
+heal, 4220, 0.13322851895
+surgeri, 8590, 0.131520252868
+canseco, 1494, 0.122498404013
+broken, 1332, 0.119620185656
+mvp, 5937, 0.114196592907
+repair, 7285, 0.113531014763
+reliev, 7258, 0.1099515549
+ranger, 7095, 0.106011852363
+need, 5993, 0.10557236
+jose, 4892, 0.101277196089
+indian, 4598, 0.101277196089
+closer, 1831, 0.0999226814688
+texa, 8820, 0.0992789295354
+knew, 5045, 0.0980514876885
+section, 7759, 0.096617808949
+gone, 3943, 0.0955417766569
+hall, 4128, 0.0952817374254
+sport, 8257, 0.095025097497
+replac, 7288, 0.094771769144
+usa, 9357, 0.0942747128492
+period, 6546, 0.08749434898
+main, 5450, 0.0861514204768
+caus, 1569, 0.0794761560609
+info, 4636, 0.0772924993198
+appreci, 587, 0.0758966961985
+today, 8964, 0.0750491109811
+thought, 8887, 0.0685224250464
+player, 6683, 0.0677447917128
+far, 3386, 0.0655812092833
+great, 4016, 0.0652987198778
+inform, 4637, 0.0645287123649
+articl, 665, 0.0632751371698
+anoth, 533, 0.0632751371698
+let, 5225, 0.062001749421
+read, 7135, 0.0597632597321
+question, 7032, 0.0594276502783
+day, 2402, 0.0582178625819
+pleas, 6688, 0.0577540770397
+new, 6023, 0.0571893398776
+thank, 8832, 0.0549803065707
+anyon, 554, 0.0527565457681
+time, 8936, 0.0466476435409
+know, 5052, 0.0422884442868

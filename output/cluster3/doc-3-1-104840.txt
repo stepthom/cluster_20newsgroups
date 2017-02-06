@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104840
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: C Robert Claydon <cclaydon@magnus.acs.ohio-state.edu>
+Subject: CUB fever.
+Organization: The Ohio State University
+X-Mailer: ELM [version 2.3 PL11]
+Lines: 13
+
+kingoz@camelot.bradley.edu (Orin Roth) writes:
+>   CUB fever is hitting me again. I'm beginning to think they have a
+>   chance this year. (what the heck am i thinking?)
+>   Sorry. Just a moment of incompetence.
+>   I'll be ok. Really.
+>   Orin.
+>   Bradley U.
+
+You sure?  This maybe a chronic syndrome.  If it persists, we may have to 
+banish you to the "Cub-crazy Sanatarium" in north Chicago...
+:-):-):-)
+
+Rob
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ cub fever  mailer elm version pl11    cub fever
+hit i'm begin think chanc year heck think sorri
+moment incompet i'll realli orin bradley  sure
+mayb chronic syndrom persist banish cub crazi
+sanatarium north chicago   rob
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cub, 2282, 0.441448533661
+fever, 3455, 0.415404198429
+chronic, 1737, 0.225175867955
+syndrom, 8653, 0.219755798208
+orin, 6294, 0.215173194534
+banish, 896, 0.215173194534
+persist, 6561, 0.211203562669
+incompet, 4583, 0.207702099214
+bradley, 1264, 0.196770347693
+mailer, 5449, 0.187096164682
+crazi, 2216, 0.169076911287
+heck, 4234, 0.168189440024
+rob, 7434, 0.161907626475
+chicago, 1701, 0.149385759072
+north, 6110, 0.14802392954
+moment, 5828, 0.141301691942
+think, 8871, 0.136172403355
+begin, 994, 0.131963646434
+chanc, 1649, 0.129247992948
+version, 9479, 0.115661579287
+sorri, 8142, 0.11463383962
+mayb, 5564, 0.104059454741
+hit, 4316, 0.103958510401
+sure, 8585, 0.0957356050598
+ll, 5314, 0.0941725675601
+realli, 7150, 0.0882136054822
+year, 9943, 0.0747122943348

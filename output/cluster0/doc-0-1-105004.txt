@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105004
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: fester@island.COM (Mike Fester)
+Subject: Re: Bonilla
+Organization: /usr/local/rn/organization
+Lines: 25
+
+In article <1993Apr21.012139.13444@Princeton.EDU> roger@astro.princeton.edu (Roger Lustig) writes:
+
+>When I say "black," I mean US-born black people for the purposes of this
+>discussion.  Hispanic players were in baseball before 1947, and one 
+>team in the 50's signed lots of hispanics because they went over better
+>with the local audience than blacks did.  
+
+What about black hispanics?
+
+>>And why would more hispanics stick around than blacks?
+>
+>Don't know.  But remember: this is the country that had special racial
+			    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>laws for one group and one group only: blacks.  Our national history 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Man, you had better do some SERIOUS reading. I really, really doubt that you
+meant to say this.
+
+Mike
+-- 
+Disclaimer - These opiini^H^H damn! ^H^H ^Q ^[ .... :w  :q  :wq  :wq! ^d  ^X ^?
+exit X Q  ^C ^? :quitbye  CtrlAltDel   ~~q  :~q  logout  save/quit :!QUIT
+^[zz ^[ZZZZZZ ^vi  man vi ^@  ^L  ^[c  ^# ^E ^X ^I ^T ? help  helpquit ^D  ^d !!
+man help ^C ^c :e! help exit ?Quit ?q CtrlShftDel "Hey, what does Stop L1A d..."
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bonilla      say black mean born black peopl
+purpos discuss hispan player basebal one team sign
+lot hispan went better local audienc black  black
+hispan  hispan stick around black  don't know
+rememb countri special racial  law one group one
+group black nation histori   man better serious
+read realli realli doubt meant say  mike  disclaim
+opiini damn exit quitby ctrlaltdel logout save
+quit quit zzzzzz man help helpquit man help help
+exit quit ctrlshftdel hey stop l1a
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hispan, 4311, 0.517310039678
+black, 1133, 0.458908518012
+exit, 3284, 0.218322440521
+quit, 7043, 0.192227580252
+man, 5471, 0.181277081648
+help, 4249, 0.154194238103
+zzzzzz, 9999, 0.132517251121
+quitby, 7044, 0.132517251121
+opiini, 6265, 0.132517251121
+logout, 5333, 0.132517251121
+l1a, 5084, 0.132517251121
+helpquit, 4250, 0.132517251121
+ctrlshftdel, 2281, 0.132517251121
+ctrlaltdel, 2280, 0.132517251121
+racial, 7050, 0.124294471722
+group, 4064, 0.121772237764
+audienc, 777, 0.11329687508
+bonilla, 1215, 0.110107133878
+better, 1060, 0.104676686025
+realli, 7150, 0.103828395256
+hey, 4283, 0.0899408442189
+born, 1233, 0.0896365732414
+damn, 2346, 0.0893375037328
+say, 7653, 0.0888355895423
+meant, 5598, 0.0884697982929
+stick, 8393, 0.086346573082
+disclaim, 2691, 0.0858537196392
+countri, 2186, 0.0846791081216
+sign, 7946, 0.0795893595335
+doubt, 2830, 0.0782807018217
+went, 9704, 0.0781237936828
+special, 8198, 0.0779682803013
+histori, 4314, 0.0756514936063
+mike, 5710, 0.0755163953271
+purpos, 6993, 0.0752492887613
+law, 5153, 0.0751172493404
+local, 5322, 0.0744715989419
+stop, 8413, 0.0739717037844
+save, 7646, 0.0704161972
+nation, 5962, 0.068877171182
+discuss, 2708, 0.0672936159279
+rememb, 7269, 0.0644293092814
+player, 6683, 0.060368983492
+basebal, 924, 0.0589555641485
+team, 8732, 0.0580895434446
+lot, 5356, 0.0545878205694
+mean, 5595, 0.0540667354919
+read, 7135, 0.0532564518833
+peopl, 6530, 0.0474670484037
+don, 2811, 0.0396830415998
+know, 5052, 0.0376842312229

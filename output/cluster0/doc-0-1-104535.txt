@@ -1,0 +1,162 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104535
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: falcon@cs.mcgill.ca (Scot Hughes)
+Subject: Re: I hate to mention Acker, but....
+Keywords: Acker, Orioles, DoppleAckers?
+Nntp-Posting-Host: binkley.cs.mcgill.ca
+Organization: None
+Distribution: na
+Lines: 32
+
+In article <14APR199316550695@jhuvms.hcf.jhu.edu> hasch@jhuvms.hcf.jhu.edu (Bruce M Hasch) writes:
+>In article <1993Apr14.193114.2328@hpcvaac.cv.hp.com>, paula@koufax.cv.hp.com (Paul Andresen) writes...
+>>I feel as if I might be causing some bad karma by doing this, but I just have
+>>to know......
+>> 
+>>Is the Ack man still in organized baseball? 
+>
+>	Glad you asked!!  The Ack-man, and nine of his relatives, are currently
+>impersonating the Baltimore Orioles pitching staff.  Personally, I believe 
+>that the Evil Ackers kidnapped the real O's staff, and are currently in the
+>process of impersonating Mussina, Sutcliffe, McDonald, Olson. 
+
+	No, no no. The Ack man is apparently an alien life-form, much
+like the pod people from planet Mars, who can take on any form (the
+ability remains the same, however). The Ack-people have been spotted on
+many teams to date, but it appears that the Orioles staff (mentioned
+above) and the Expos bullpen (Barnes, Walton, Fassero, Gardiner and
+Rojas) have been the prime target. Apparently John Wetteland was roughed
+up by the Ack-people during spring training due to the fact that his
+system rejected the takeover, and has been on the DL ever since. Contact
+the authorities! This evil plot must be stopped! (the Ack-people can
+keep Jack Morris and Juan Guzman, though. I enjoy watching Toronto fans
+suffer too much to want these guys returned to normal ;-)
+
+Scot.
+
+
+-- 
+-----------------------------------------------------------------------------
+Scot Hughes        | Department of Chemical Engineering | Expos in '93!
+falcon@cs.mcgill.ca| McGill University, Montreal, Quebec| {witty saying here}
+-----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ hate mention acker        koufax com paul
+andresen write feel might caus bad karma know  ack
+man still organ basebal  glad ask ack man nine
+relat current imperson baltimor oriol pitch staff
+person believ evil acker kidnap real o staff
+current process imperson mussina sutcliff mcdonald
+olson  ack man appar alien life form much like pod
+peopl planet mar take form abil remain howev ack
+peopl spot mani team date appear oriol staff
+mention expo bullpen barn walton fassero gardin
+roja prime target appar john wetteland rough ack
+peopl spring train due fact system reject takeov
+ever sinc contact author evil plot must stop ack
+peopl keep jack morri juan guzman though enjoy
+watch toronto fan suffer much want guy return
+normal  scot     scot hugh depart chemic engin
+expo
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ack, 237, 0.628463813093
+scot, 7711, 0.209487937698
+imperson, 4542, 0.202034212992
+staff, 8301, 0.18861750696
+acker, 238, 0.16778806037
+expo, 3309, 0.144395127642
+peopl, 6530, 0.140593533185
+evil, 3247, 0.139323465797
+oriol, 6295, 0.138754001323
+man, 5471, 0.134231989619
+appar, 577, 0.120237624711
+takeov, 8680, 0.104743968849
+form, 3610, 0.103840612071
+mention, 5632, 0.103694642161
+walton, 9629, 0.101017106496
+roja, 7460, 0.101017106496
+pod, 6708, 0.101017106496
+barn, 914, 0.0981263274716
+karma, 4960, 0.0957643890291
+current, 2299, 0.0938775480287
+wetteland, 9713, 0.0920375266761
+sutcliff, 8609, 0.0879120237848
+mussina, 5935, 0.085747872318
+guzman, 4101, 0.085747872318
+mcdonald, 5573, 0.0838940301849
+alien, 413, 0.0838940301849
+koufax, 5067, 0.0822725672919
+hugh, 4428, 0.0822725672919
+juan, 4915, 0.0801671678319
+olson, 6226, 0.0783565804812
+prime, 6865, 0.0736797264981
+chemic, 1690, 0.0721975638212
+target, 8704, 0.0718520821399
+glad, 3889, 0.0711875880121
+reject, 7244, 0.0699528641451
+rough, 7493, 0.0693770006613
+bullpen, 1391, 0.0693770006613
+plot, 6694, 0.0682968089878
+baltimor, 887, 0.0657207368224
+suffer, 8521, 0.0655100851035
+hate, 4202, 0.065302803957
+spring, 8266, 0.0645053340556
+mar, 5500, 0.0637541210042
+train, 9042, 0.0635729321027
+morri, 5868, 0.0633942424383
+spot, 8261, 0.0632179840013
+enjoy, 3114, 0.0620470769889
+paul, 6469, 0.0611213407399
+depart, 2535, 0.0608269009002
+remain, 7264, 0.0606821530784
+abil, 177, 0.0606821530784
+jack, 4808, 0.0605390047128
+planet, 6664, 0.059317229168
+normal, 6108, 0.059317229168
+contact, 2078, 0.0586851625797
+date, 2391, 0.0569552907254
+com, 1917, 0.0566354029845
+return, 7346, 0.0553338278324
+stop, 8413, 0.0547745411843
+organ, 6287, 0.0542384041815
+toronto, 9003, 0.0540645117011
+watch, 9655, 0.0537235763597
+author, 796, 0.0531477128759
+appear, 580, 0.0526737040752
+caus, 1569, 0.0524430488081
+process, 6890, 0.0523670673864
+fan, 3381, 0.0515594248929
+feel, 3429, 0.0509341391451
+engin, 3109, 0.0505334434318
+relat, 7247, 0.0495218237175
+john, 4878, 0.0489856867147
+guy, 4100, 0.0486402050334
+life, 5260, 0.0477085922611
+bad, 861, 0.0477085922611
+pitch, 6643, 0.0472923381303
+ask, 689, 0.0448707981585
+write, 9865, 0.0446601464395
+howev, 4406, 0.0446601464395
+fact, 3350, 0.044452865293
+real, 7144, 0.0444118041009
+basebal, 924, 0.0436553953916
+person, 6562, 0.0431621811002
+team, 8732, 0.0430141246855
+believ, 1009, 0.0400061068948
+sinc, 7977, 0.039491279073
+mani, 5479, 0.0367471383915
+want, 9634, 0.0352895264308
+know, 5052, 0.0279044062732
+like, 5272, 0.0272778000834

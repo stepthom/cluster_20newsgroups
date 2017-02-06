@@ -1,0 +1,72 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104971
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jle@world.std.com (Joe M Leonard)
+Subject: Are the Orioles/Phillies at home on Mem Day Wkend
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 13
+
+Subject sez it...
+
+Wondering if either team are in town that weekend (5-30/5-31).
+
+I can probably get Phillies tix, as the Vet can hold a bunch (and
+I hope they're still in 1st but it's late may, and...).  Camden
+Yards is a problem - is there any way of getting in the park w/o an SRO
+ticket?  Any advice if there at home?
+
+Joe Leonard
+jle@world.std.com
+
+P.S. Please reply directly, to keep the net down to a dull roar...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ oriol philli home mem day wkend    sez  wonder
+either team town weekend  probabl get philli tix
+vet hold bunch hope they'r still 1st it late
+camden yard problem way get park sro ticket advic
+home  joe leonard   pleas repli direct keep net
+dull roar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+philli, 6593, 0.30586003256
+tix, 8954, 0.24833696159
+home, 4354, 0.245613918067
+leonard, 5218, 0.241230370395
+roar, 7432, 0.2354238626
+vet, 9489, 0.226261873061
+dull, 2913, 0.222510763611
+camden, 1471, 0.219155281866
+yard, 9936, 0.198713762724
+sez, 7828, 0.197080193338
+town, 9024, 0.188724515745
+weekend, 9692, 0.186364353154
+1st, 57, 0.186364353154
+advic, 292, 0.18018094604
+oriol, 6295, 0.170554019473
+ticket, 8919, 0.168541921775
+bunch, 1399, 0.16726784705
+joe, 4876, 0.158105857511
+park, 6430, 0.146793478374
+late, 5139, 0.14614350437
+hold, 4341, 0.13923051633
+repli, 7290, 0.138211305487
+net, 6010, 0.128183502062
+direct, 2667, 0.122043190517
+wonder, 9821, 0.11563858776
+hope, 4372, 0.11383880832
+team, 8732, 0.105744436763
+probabl, 6885, 0.104156137634
+problem, 6887, 0.100195315467
+day, 2402, 0.0944395204544
+pleas, 6688, 0.0936871794672
+way, 9666, 0.083309484284

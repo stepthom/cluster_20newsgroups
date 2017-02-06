@@ -1,0 +1,85 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84246
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: ab4z@Virginia.EDU ("Andi Beyer")
+Subject: Re: Ancient references to Christianity (was: Albert Sabin)
+Organization: University of Virginia
+Lines: 12
+
+Actually if Mr X had something to gain by his claims his
+account of the events would nmot be the most respected. Case
+and point, the resurrection. By claiming that the resurrection
+actually happened the early preachers were able to convert many
+to Christianity. However, if you read Mathew 27:38 (?) and the
+case for the resurrected saints who walked around Jerusalem and
+appeared to "many People" you would realize that other
+historians (Josephus for one) would have reported on it all if
+it happened. The fact that the Bible speaks of events of such
+great magnitude that they would have been noticed taken with
+the fact that they are not reported on by historians could only
+mean that the bible contains many made up stories.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ancient refer christian albert sabin    actual
+someth gain claim account event nmot respect case
+point resurrect claim resurrect actual happen
+earli preacher abl convert mani christian howev
+read mathew case resurrect saint walk around
+jerusalem appear mani peopl realiz historian
+josephus one report happen fact bibl speak event
+great magnitud notic taken fact report historian
+could mean bibl contain mani made stori
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+resurrect, 7335, 0.435192519468
+historian, 4315, 0.287929971545
+event, 3232, 0.214524105678
+bibl, 1071, 0.207369482921
+mani, 5479, 0.201069458513
+report, 7291, 0.188078602367
+claim, 1782, 0.184096750453
+preacher, 6804, 0.171022478429
+christian, 1732, 0.167721294229
+happen, 4159, 0.166554406907
+jerusalem, 4856, 0.165084353837
+case, 1540, 0.164303670322
+fact, 3350, 0.162155276031
+josephus, 4894, 0.15464461128
+mathew, 5547, 0.153014429242
+actual, 254, 0.151941488471
+sabin, 7563, 0.145064173156
+magnitud, 5441, 0.140017787137
+saint, 7585, 0.139126048564
+albert, 383, 0.138266744131
+ancient, 500, 0.128130321115
+gain, 3746, 0.123189844138
+account, 221, 0.113461265919
+notic, 6120, 0.109153323364
+realiz, 7149, 0.108426242375
+taken, 8678, 0.107035943288
+respect, 7321, 0.107035943288
+stori, 8418, 0.106811976989
+speak, 8192, 0.104078555038
+contain, 2079, 0.103880827795
+walk, 9617, 0.100407893252
+earli, 2951, 0.0979864998188
+appear, 580, 0.0960716364128
+convert, 2115, 0.0949660186937
+refer, 7213, 0.0871124018742
+abl, 180, 0.0864440830833
+howev, 4406, 0.0814556983642
+great, 4016, 0.0785881515446
+mean, 5595, 0.0730204665084
+read, 7135, 0.0719261284358
+someth, 8126, 0.0695540560897
+point, 6710, 0.0666944064185
+peopl, 6530, 0.0641071813691

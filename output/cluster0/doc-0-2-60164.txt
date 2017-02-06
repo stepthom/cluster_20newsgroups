@@ -1,0 +1,126 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60164
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: MUNIZB%RWTMS2.decnet@rockwell.com ("RWTMS2::MUNIZB")
+Subject: How do they ignite the SSME?
+X-Added: Forwarded by Space Digest
+Organization: [via International Space University]
+Original-Sender: isu@VACATION.VENARI.CS.CMU.EDU
+Distribution: sci
+Lines: 21
+
+on Date: Sat, 3 Apr 1993 12:38:50 GMT, Paul Dietz <dietz@cs.rochester.edu>
+writes:
+
+/in essence, holding a match under the nozzle, is just *nuts*.  One
+/thing you absolutely must do in such an engine is to guarantee that
+/the propellants ignite as soon as they mix, within milliseconds.  To
+/do otherwise is to fill your engine with a high explosive mixture
+/which, when it finally does ignite, blows everything to hell.
+
+Definitely! In one of the reports of an early test conducted by Rocketdyne at 
+their Santa Susanna Field Lab ("the Hill" above the San Fernando and Simi 
+Valleys), the result of a hung start was described as "structural failure" of 
+the combustion chamber.  The inspection picture showed pumps with nothing below
+, the CC had vaporized!  This was described in a class I took as a "typical
+engineering understatement" :-)
+
+Disclaimer: Opinions stated are solely my own (unless I change my mind).
+Ben Muniz     MUNIZB%RWTMS2.decnet@consrt.rockwell.com    w(818)586-3578
+Space Station Freedom:Rocketdyne/Rockwell:Structural Loads and Dynamics
+   "Man will not fly for fifty years": Wilbur to Orville Wright, 1901
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ ignit ssme ad forward space digest         essenc
+hold match nozzl nut one thing absolut must engin
+guarante propel ignit soon mix within millisecond
+otherwis fill engin high explos mixtur final ignit
+blow everyth hell  definit one report earli test
+conduct rocketdyn santa susanna field lab hill san
+fernando simi valley result hung start describ
+structur failur combust chamber inspect pictur
+show pump noth vapor describ class took typic
+engin understat    space station freedom rocketdyn
+rockwel structur load dynam man fli fifti year
+wilbur orvill wright
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ignit, 4495, 0.394408913103
+rocketdyn, 7448, 0.280334189489
+engin, 3109, 0.216551239686
+structur, 8460, 0.168728731018
+describ, 2556, 0.159467879439
+understat, 9247, 0.144296385097
+chamber, 1643, 0.144296385097
+susanna, 8602, 0.140167094744
+nozzl, 6132, 0.140167094744
+millisecond, 5725, 0.136793218864
+fernando, 3450, 0.136793218864
+orvill, 6305, 0.133940647453
+wright, 9861, 0.131469637701
+wilbur, 9757, 0.131469637701
+fifti, 3472, 0.131469637701
+vapor, 9425, 0.129290052631
+ssme, 8291, 0.127340347348
+mixtur, 5789, 0.125576624383
+inspect, 4674, 0.125576624383
+rockwel, 7452, 0.123966471468
+santa, 7614, 0.12248527437
+pump, 6982, 0.121113900057
+valley, 9413, 0.114513599952
+essenc, 3195, 0.114513599952
+propel, 6923, 0.113610733824
+nut, 6160, 0.112749876987
+explos, 3308, 0.10763778481
+hill, 4300, 0.105816142909
+hung, 4441, 0.105246710754
+guarante, 4076, 0.105246710754
+blow, 1172, 0.105246710754
+space, 8164, 0.104981807864
+conduct, 2021, 0.104694279138
+match, 5541, 0.103129537497
+mix, 5788, 0.100783986428
+failur, 3361, 0.100783986428
+freedom, 3672, 0.0983129766764
+dynam, 2942, 0.0964792911142
+typic, 9178, 0.0941836863236
+digest, 2640, 0.0932808201953
+class, 1789, 0.0886302253737
+soon, 8136, 0.0881788594638
+lab, 5085, 0.0873078711813
+absolut, 193, 0.0862737985568
+load, 5317, 0.0860737416369
+hell, 4245, 0.0849167971255
+forward, 3621, 0.0840050321826
+san, 7603, 0.0836525437182
+otherwis, 6313, 0.0829670918425
+took, 8987, 0.0816679560783
+hold, 4341, 0.0809000000362
+definit, 2484, 0.080018638948
+everyth, 3242, 0.0797339397194
+ad, 257, 0.0794535542817
+fli, 3542, 0.079040784346
+station, 8346, 0.0781120188646
+pictur, 6622, 0.0781120188646
+earli, 2951, 0.0767406445512
+test, 8812, 0.0760333577645
+report, 7291, 0.0736492945384
+final, 3482, 0.0726594818844
+result, 7332, 0.0718117725328
+field, 3466, 0.0696424197469
+noth, 6119, 0.0673359007213
+man, 5471, 0.0639138971552
+high, 4292, 0.0625811869913
+start, 8334, 0.0585753017236
+thing, 8869, 0.0505541664735
+year, 9943, 0.0465067830479

@@ -1,0 +1,152 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84339
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: HOLFELTZ@LSTC2VM.stortek.com
+Subject: Re: Merlin, Mithras and Magick
+Nntp-Posting-Host: lstc2vm.stortek.com
+Organization: StorageTek SW Engineering
+X-Newsreader: NNR/VM S_1.3.2
+Lines: 31
+
+In article <yag12B3w165w@anarky.tch.org>
+melchar@anarky.tch.org (Melchar) writes:
+ 
+>
+>> [I've read many things like this in the past, yet not quite so
+>> blatant a comparison of Christian and Pagan, Roman myth/practice.
+>> Is it all historical?  How often has Merlin/Myrddin been associated
+>> with Roman gods?  How often has he been associated with Mithras?
+>> Does anyone know where Mithras originated?  In Asia?  What part?]
+>>
+>> Thyagi@HouseofKAos.Abyss.com
+>
+>      Mithraic worship predates Xianity but in many ways is similar.  It
+>was a mystery cult, (worship in which not all the information was
+>available to all members:  tests had to be passed & at each stage, new
+>info was offered to the worshipper [similar to the Masons......in more
+>than one way]) -- of Mithras, a sun deity.  He was cyclic (went down to
+>darkness, was reborn), inspired hope; fought against the darkness; was
+>popular and charismatic.......
+>      The worship originated in Persia & was linked to the Ahura-Mazda
+ 
+Wow, this is news to me---it started in Tarsus--you know, where Paul
+of NT fame was from.  Not to be nasty, but get a clue, read
+_The Orgins of the Mithraic Mysteries_ by DUlansey!
+ 
+Hey hasn't anyone read Manly P Hall's works?  Perhaps it might be
+worth a try....
+ 
+>cults.  For a while it threatened to eclipse Xianity -- however it
+>suffered from ONE fatal flaw:  it only accepted free men as members.
+>       Xianity took women and slaves and......anyone it could get
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ merlin mithra magick          i'v read mani thing
+like past yet quit blatant comparison christian
+pagan roman myth practic histor often merlin
+myrddin associ roman god often associ mithra anyon
+know mithra origin asia part    mithraic worship
+predat xianiti mani way similar mysteri cult
+worship inform avail member test pass stage new
+info offer worshipp similar mason one way mithra
+sun deiti cyclic went dark reborn inspir hope
+fought dark popular charismat worship origin
+persia link ahura mazda  wow news start tarsus
+know paul fame nasti get clue read orgin mithraic
+mysteri dulansey  hey hasn't anyon read man hall
+work perhap might worth tri  cult threaten eclips
+xianiti howev suffer one fatal flaw accept free
+men member xianiti took women slave anyon could
+get
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mithra, 5784, 0.400851566677
+worship, 9847, 0.262612933241
+mithraic, 5785, 0.243762739947
+merlin, 5646, 0.200425783339
+mysteri, 5942, 0.177795352022
+roman, 7468, 0.172573073247
+cult, 2289, 0.161263152422
+dark, 2365, 0.148217948113
+associ, 706, 0.14713364267
+read, 7135, 0.142741091315
+member, 5625, 0.138497684152
+similar, 7961, 0.129437152741
+anyon, 554, 0.126005960028
+charismat, 1665, 0.121881369973
+mazda, 5566, 0.118393524004
+ahura, 348, 0.118393524004
+fought, 3625, 0.115543746346
+worshipp, 9848, 0.113134293667
+predat, 6815, 0.113134293667
+persia, 6559, 0.113134293667
+origin, 6293, 0.111174598068
+slave, 8021, 0.111047130821
+fatal, 3402, 0.109206122718
+eclips, 2977, 0.109206122718
+asia, 685, 0.109206122718
+blatant, 1144, 0.107559284852
+pagan, 6381, 0.106069538791
+mason, 5531, 0.103458399403
+nasti, 5961, 0.0992652983303
+magick, 5436, 0.0975267856963
+threaten, 8892, 0.0967250456995
+myth, 5944, 0.0959624308874
+deiti, 2495, 0.095235299639
+flaw, 3531, 0.0926241602514
+wow, 9856, 0.0903874220717
+inspir, 4676, 0.0903874220717
+fame, 3376, 0.0903874220717
+clue, 1844, 0.0898749006445
+mani, 5479, 0.0886739231626
+link, 5289, 0.0875376444137
+comparison, 1962, 0.0844010604869
+women, 9819, 0.0827187390569
+histor, 4313, 0.0817899210993
+way, 9666, 0.0817749722903
+hey, 4283, 0.0803549229164
+hasn, 4195, 0.0800830812281
+stage, 8302, 0.0792948216143
+suffer, 8521, 0.0790406614925
+hall, 4128, 0.0758583073921
+popular, 6746, 0.0752531800896
+men, 5629, 0.0750565673954
+paul, 6469, 0.0737454576003
+worth, 9850, 0.0708061066134
+went, 9704, 0.069797337059
+pass, 6448, 0.069797337059
+took, 8987, 0.0689816474824
+offer, 6203, 0.0685892293044
+practic, 6793, 0.0684605824622
+know, 5052, 0.0673356698255
+past, 6456, 0.066087778108
+sun, 8539, 0.0646180583194
+test, 8812, 0.0642223282433
+accept, 208, 0.0642223282433
+free, 3668, 0.0636469073224
+info, 4636, 0.0615362222702
+perhap, 6540, 0.0605017657698
+quit, 7043, 0.0572466363037
+hope, 4372, 0.0558709820132
+christian, 1732, 0.0554752519371
+god, 3926, 0.0550892939795
+avail, 811, 0.0542930011001
+news, 6031, 0.0539855058765
+man, 5471, 0.0539855058765
+howev, 4406, 0.0538843372185
+inform, 4637, 0.0513743664889
+start, 8334, 0.0494762084018
+new, 6023, 0.0455311441752
+tri, 9087, 0.0452674555826
+work, 9833, 0.0442823094169
+thing, 8869, 0.0427010771164
+like, 5272, 0.0329118083001

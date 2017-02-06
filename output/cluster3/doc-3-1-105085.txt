@@ -1,0 +1,121 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105085
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cmk@athena.mit.edu (Charles M Kozierok)
+Subject: Re: Best Homeruns
+Organization: Massachusetts Institute of Technology
+Lines: 22
+NNTP-Posting-Host: electric-monk.mit.edu
+
+In article <1993Apr16.172502.2301@osf.org> dswartz@osf.org (Dan Swartzendruber) writes:
+} In article <4200419@hpcc01.corp.hp.com> boell@hpcc01.corp.hp.com (Donald P Boell) writes:
+} >I'd have to say the most impressive HRs I've ever see came from Dave Kingman
+} >and his infamous moon-raker drives...
+} 
+} I remember one he hit circa 1976 at Wrigley Field that went across
+} the street (in dead center field) and hit a house on the roof.  He
+} whiffed a lot, but when he *did* connect, watch out!
+
+the best home run i have *ever* seen came off, believe it or not,
+Roger Clemens (sorry, Val) a couple of years ago. he threw a ball to
+Incaviglia which was literally at Inky's neck, and he absolutely 
+hammered the crap out of it. after the swing, Clemens nonchalantly
+motioned for a new ball--he didn't even turn around to look, or
+even get upset. the ball hit the lights in the left-field standard,
+some 70 or so feet about the Green Monster (over 100 feet above the
+ground total!)
+
+truly an amazing shot.
+
+-*-
+charles
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best homerun       i'd say impress hrs i'v ever
+see came dave kingman infam moon raker drive
+rememb one hit circa wrigley field went across
+street dead center field hit hous roof whif lot
+connect watch  best home run ever seen came believ
+roger clemen sorri val coupl year ago threw ball
+incaviglia liter inki neck absolut hammer crap
+swing clemen nonchal motion new ball didn't even
+turn around look even get upset ball hit light
+left field standard feet green monster feet ground
+total  truli amaz shot   charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+ball, 877, 0.245841327416
+field, 3466, 0.236567301548
+clemen, 1807, 0.228234418
+hit, 4316, 0.219818954494
+feet, 3430, 0.218486047604
+came, 1472, 0.168910751932
+whif, 9730, 0.163386082647
+inki, 4652, 0.163386082647
+raker, 7079, 0.158710507619
+incaviglia, 4572, 0.151660332169
+infam, 4621, 0.14639448667
+hammer, 4141, 0.144186845028
+val, 9408, 0.142189790245
+neck, 5992, 0.142189790245
+monster, 5842, 0.140366622068
+circa, 1764, 0.140366622068
+best, 1052, 0.140106363269
+roof, 7474, 0.138689469926
+wrigley, 9862, 0.137136669578
+crap, 2210, 0.13569104704
+hrs, 4414, 0.129663182438
+kingman, 5026, 0.127666127654
+liter, 5304, 0.123375026092
+upset, 9342, 0.121877730985
+homerun, 4356, 0.12116738445
+threw, 8894, 0.11793743196
+green, 4025, 0.115670009347
+charl, 1668, 0.113624169405
+swing, 8635, 0.112211057682
+motion, 5880, 0.111760433519
+amaz, 459, 0.11088725651
+street, 8440, 0.10699588504
+truli, 9127, 0.104021151491
+shot, 7910, 0.1028234989
+hous, 4396, 0.101690616734
+impress, 4554, 0.100879423198
+roger, 7458, 0.100615857258
+connect, 2046, 0.100098467613
+absolut, 193, 0.0976873950916
+ground, 4061, 0.0941345823463
+went, 9704, 0.0935656818079
+dead, 2415, 0.0933794297727
+drive, 2873, 0.0909321094877
+dave, 2395, 0.0906047088267
+coupl, 2187, 0.0871669541442
+watch, 9655, 0.0868930519956
+standard, 8313, 0.0858319029231
+moon, 5851, 0.0850698838196
+center, 1606, 0.0845768442249
+total, 9013, 0.0836242612812
+turn, 9158, 0.0833927316769
+light, 5267, 0.0833927316769
+left, 5193, 0.0833927316769
+ago, 336, 0.0816272064973
+sorri, 8142, 0.0807972676715
+home, 4354, 0.0807972676715
+seen, 7767, 0.0777717384223
+rememb, 7269, 0.077164356301
+didn, 2625, 0.0699923594846
+lot, 5356, 0.0653776066063
+believ, 1009, 0.064706279107
+run, 7543, 0.0631164321573
+new, 6023, 0.0610360327165
+say, 7653, 0.0531973814411
+year, 9943, 0.0526594002587
+look, 5341, 0.0522908668591

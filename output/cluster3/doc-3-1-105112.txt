@@ -1,0 +1,93 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105112
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker)
+Subject: Re: How to speed up games (marginally realistic)
+Organization: University of Virginia
+Lines: 21
+
+In article <9304202040.PN27738@LL.MIT.EDU> ejb@ll.mit.edu ( Ed Baranoski) writes:
+>In article <1993Apr20.181245.11319@VFL.Paramax.COM> davidm@gvls2.vfl.paramax.com (David Madden) writes:
+
+>   2. If a pitcher throws to an occupied base more than X time (X = 3 to 5)
+>      without successfully picking off the runner, the runner advances a base
+>      as if walked.
+>
+>This last suggestion will probably increase the number of stolen bases
+>considerably.  Suppose the pitcher uses up (N-1) of his N pick-off
+>attempts.  The runner can probably stretch his lead off the base,
+>given that there will be extra pressure on the pitcher to get it
+>right this time.
+>
+
+If it encouraged the runner to stretch his lead, it would probably
+also result ina greater number of pickoffs. I think it would be a
+workable rule, but it would probably be best to experiment in another
+league before trying it in the bigs.
+
+Clay D.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ speed game margin realist       pitcher throw
+occupi base time without success pick runner
+runner advanc base walk  last suggest probabl
+increas number stolen base consider suppos pitcher
+use pick attempt runner probabl stretch lead base
+given extra pressur pitcher get right time
+encourag runner stretch lead probabl also result
+ina greater number pickoff think workabl rule
+probabl best experi anoth leagu tri big  clay
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+runner, 7545, 0.470984118781
+probabl, 6885, 0.301646125709
+base, 923, 0.28864703816
+pitcher, 6644, 0.274935181357
+stretch, 8443, 0.247983966119
+pick, 6619, 0.207610082733
+lead, 5172, 0.18723413639
+clay, 1796, 0.158673658618
+workabl, 9834, 0.156475954736
+occupi, 6191, 0.156475954736
+number, 6156, 0.149958731976
+stolen, 8407, 0.134932243015
+realist, 7147, 0.129786901249
+encourag, 3089, 0.125040274398
+margin, 5507, 0.121105916475
+greater, 4017, 0.118949351655
+pressur, 6842, 0.1141357917
+time, 8936, 0.109574655889
+consider, 2060, 0.10879080853
+extra, 3325, 0.107502292439
+increas, 4590, 0.104019540012
+throw, 8899, 0.103381938888
+success, 8513, 0.102356950672
+attempt, 763, 0.101375592437
+walk, 9617, 0.0979864126986
+experi, 3295, 0.0965397645543
+rule, 7537, 0.0962302506708
+suppos, 8577, 0.093754730921
+speed, 8217, 0.093754730921
+leagu, 5176, 0.0925443892939
+result, 7332, 0.089481746492
+suggest, 8525, 0.0879291499105
+advanc, 285, 0.0871903724552
+given, 3887, 0.0827623684045
+big, 1082, 0.0785440359792
+best, 1052, 0.0770916003164
+anoth, 533, 0.0743162017992
+right, 7399, 0.0701418851111
+game, 3761, 0.069895268449
+tri, 9087, 0.066779477044
+think, 8871, 0.0528107260967
+use, 9363, 0.0509255241635

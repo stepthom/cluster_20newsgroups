@@ -1,0 +1,133 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104969
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: craige@sad.hp.com (Craig Eid)
+Subject: Giants tickets for sale
+Organization: HP Sonoma County (SRSD/MWTD/MID)
+X-Newsreader: TIN [version 1.1.4 PL6]
+Lines: 50
+
+
+I'm a season ticket holder and have a pair of S.F. Giants tickets available for
+every game except opening day. They're located in lower reserved, section 3, 
+row 2. They're two rows (about 5 feet) behind the MVP lower box seats that
+go for $17.25/apiece. I'm selling my tickets for $25/pair. Here's the 
+schedule for the next 8 weeks. E-mail me if you're interested.
+
+Note - All times are Pacific Daylight Savings time
+
+
+Apr 28    New York      7:35pm
+Apr 29    New York      1:05pm
+Apr 30    Montreal      7:35pm
+
+May 1     Montreal      1:05pm
+May 2     Montreal      1:05pm
+May 4     Philadelphia  7:35pm
+May 5     Philadelphia  1:05pm
+May 7     Los Angeles   7:35pm
+May 8     Los Angeles   1:05pm
+May 9     Los Angeles   1:05pm
+May 17    Houston       1:05pm
+May 18    Houston       1:05pm
+May 19    Houston       1:05pm
+May 20    Cincinnati    1:05pm
+May 21    Cincinnati    7:35pm
+May 22    Cincinnati    1:05pm
+May 23    Cincinnati    1:05pm
+
+June 3    Pittsburgh    7:35pm
+June 4    Pittsburgh    7:35pm
+June 5    Pittsburgh    1:05pm
+June 6    Pittsburgh    1:35pm
+June 8    St. Louis     1:05pm
+June 9    St. Louis     1:05pm
+June 11   Chicago       7:35pm
+June 12   Chicago       1:05pm
+June 13   Chicago       1:05pm
+June 21   San Diego     7:35pm
+June 22   San Diego     7:35pm
+June 23   San Diego     1:05pm
+June 24   Colorado      1:05pm
+June 25   Colorado      7:35pm
+June 26   Colorado      1:05pm
+June 27   Colorado      1:05pm
+
+
+--
+Craig Eid 
+e-mail address    craige@hpsad.sad.hp.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ giant ticket sale      i'm season ticket holder
+pair giant ticket avail everi game except open day
+they'r locat lower reserv section row they'r two
+row feet behind mvp lower box seat apiec i'm sell
+ticket pair here schedul next week mail you'r
+interest  note time pacif daylight save time   new
+york 35pm new york 05pm montreal 35pm  montreal
+05pm montreal 05pm philadelphia 35pm philadelphia
+05pm los angel 35pm los angel 05pm los angel 05pm
+houston 05pm houston 05pm houston 05pm cincinnati
+05pm cincinnati 35pm cincinnati 05pm cincinnati
+05pm  pittsburgh 35pm pittsburgh 35pm pittsburgh
+05pm pittsburgh 35pm loui 05pm loui 05pm chicago
+35pm chicago 05pm chicago 05pm san diego 35pm san
+diego 35pm san diego 05pm colorado 05pm colorado
+35pm colorado 05pm colorado 05pm    craig eid
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+cincinnati, 1760, 0.324600076684
+pittsburgh, 6648, 0.317748953343
+ticket, 8919, 0.298754255621
+colorado, 1908, 0.282802644668
+montreal, 5848, 0.23711897776
+los, 5349, 0.23711897776
+houston, 4399, 0.22237189096
+diego, 2629, 0.213425196576
+chicago, 1701, 0.212758421027
+angel, 509, 0.211455568315
+san, 7603, 0.191395836247
+pair, 6394, 0.174670330794
+row, 7501, 0.173293167511
+loui, 5363, 0.14880688118
+philadelphia, 6589, 0.146116632389
+lower, 5371, 0.135189800957
+york, 9960, 0.133499101146
+giant, 3865, 0.128407602739
+apiec, 565, 0.10690010975
+holder, 4342, 0.104326982993
+daylight, 2403, 0.100266890204
+pacif, 6372, 0.0841859127661
+new, 6023, 0.0822221375758
+seat, 7748, 0.0820912428155
+mvp, 5937, 0.0820912428155
+craig, 2208, 0.0786529741304
+reserv, 7309, 0.0779100065868
+sale, 7590, 0.0768641115793
+feet, 3430, 0.0735810842586
+section, 7759, 0.0694545766456
+sell, 7778, 0.0672506608735
+time, 8936, 0.0670661520664
+schedul, 7678, 0.0642038013695
+locat, 5323, 0.0625262984631
+box, 1254, 0.0576392589627
+save, 7646, 0.0568039190756
+open, 6258, 0.0560152712318
+season, 7747, 0.0543529846331
+week, 9691, 0.0519743669219
+note, 6118, 0.0509202450858
+avail, 811, 0.0490223415941
+mail, 5447, 0.0485174280225
+everi, 3235, 0.04833821134
+game, 3761, 0.0427800266814
+day, 2402, 0.0418504315387

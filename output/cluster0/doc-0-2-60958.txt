@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60958
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)
+Subject: Re: Solar Sail Data
+Keywords: Solar Sail
+Organization: University of Illinois at Urbana
+Lines: 25
+
+ajjb@adam4.bnsc.rl.ac.uk (Andrew Broderick) writes:
+
+>In article <1993Apr15.051746.29848@news.duc.auburn.edu> snydefj@eng.auburn.edu writes:
+>>
+>>I am looking for any information concerning projects involving Solar
+>> Sails
+
+>I was at an interesting seminar at work (UK's R.A.L. Space Science
+>Dept.) on this subject, specifically on a small-scale Solar Sail
+>proposed as a student space project. The guy giving the talk was keen to
+>generate interest in the project. I'll typein the handout he gave out at
+>the meeting. Here goes : 
+
+[Stuff deleted] 
+
+>However it is more difficult to design a practical solar sail than most
+>people realize. The pressure of sunlight is only about one kilogram per
+>square kilometer.     ^^^^                                   ^^^^    
+
+I'm glad to see that someone is working on this.  However, it would be nice if
+he got his units right.
+-- 
+Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+		    "Find a way or make one."
+	             -attributed to Hannibal
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ solar sail data         look inform concern
+project involv solar sail  interest seminar work
+uk space scienc dept specif small scale solar sail
+propos student space project guy give talk keen
+generat interest project i'll typein handout gave
+meet goe  stuff delet  howev difficult design
+practic solar sail peopl realiz pressur sunlight
+one kilogram per squar kilomet  i'm glad see
+someon work howev nice got unit right   find way
+make one attribut hannib
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sail, 7584, 0.532316537174
+solar, 8107, 0.393440603889
+project, 6909, 0.246731219561
+keen, 4971, 0.163796727908
+seminar, 7782, 0.15481240772
+howev, 4406, 0.152774657237
+kilogram, 5015, 0.152477823094
+kilomet, 5016, 0.143493502905
+sunlight, 8544, 0.139453610912
+hannib, 4155, 0.134022172783
+squar, 8276, 0.13217459809
+space, 8164, 0.125705621673
+work, 9833, 0.125550670047
+glad, 3889, 0.121760229479
+attribut, 773, 0.115524675321
+dept, 2544, 0.114703912601
+student, 8468, 0.11033081042
+pressur, 6842, 0.109679055787
+meet, 5615, 0.109045925286
+difficult, 2635, 0.107831481094
+gave, 3798, 0.10428954399
+scale, 7659, 0.103304579168
+realiz, 7149, 0.10167970042
+unit, 9278, 0.100587949561
+practic, 6793, 0.0970508552186
+generat, 3819, 0.0959870640599
+concern, 2004, 0.0958146269252
+delet, 2502, 0.0949720136125
+goe, 3931, 0.094643740053
+propos, 6933, 0.093071587231
+involv, 4750, 0.0929203370875
+nice, 6047, 0.089699311857
+specif, 8203, 0.0879457823608
+small, 8054, 0.0863209036127
+design, 2564, 0.086098207668
+stuff, 8472, 0.0849118481426
+guy, 4100, 0.0831948755695
+scienc, 7692, 0.0828095082911
+data, 2385, 0.0820583156754
+talk, 8684, 0.0749349546923
+inform, 4637, 0.0728291525538
+got, 3960, 0.0727077382227
+someon, 8124, 0.072407081507
+ll, 5314, 0.0701922704695
+right, 7399, 0.0674030084298
+peopl, 6530, 0.0601182781362
+way, 9666, 0.0579627773444
+make, 5459, 0.0555753502971
+look, 5341, 0.0552976767387

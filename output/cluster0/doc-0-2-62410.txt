@@ -1,0 +1,35 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62410
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.net (Pat)
+Subject: Re: Near Miss Asteroids (Q)
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 4
+Distribution: sci
+NNTP-Posting-Host: access.digex.net
+
+
+TRry the SKywatch project in  Arizona.
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ near miss asteroid       trri skywatch project
+arizona  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+arizona, 639, 0.511451739432
+asteroid, 716, 0.490285716758
+pat, 6458, 0.380606190844
+miss, 5770, 0.362523854926
+near, 5982, 0.347092934179
+project, 6909, 0.318243478046

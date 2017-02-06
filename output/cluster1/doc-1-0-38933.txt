@@ -1,0 +1,545 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38933
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+Subject: PHIGS User Group Conference
+From: hamlin@ug.eds.com (Griff Hamlin)
+Reply-To: hamlin@ug.eds.com (Griff Hamlin)
+Distribution: world
+Organization: EDS Unigraphics, Cypress CA
+Nntp-Posting-Host: 134.244.15.158
+Lines: 173
+
+
+
+                FIRST ANNUAL PHIGS USER GROUP CONFERENCE
+
+          The First Annual PHIGS User Group Conference was held March 21-24
+          in Orlando, Florida.  The conference was organized by the Rensse-
+          laer Design Research Center in co-operation with  IEEE  and  SIG-
+          GRAPH.   Attendees  came  from five countries spanning three con-
+          tinents.   A  good  cross-section  of  the  PHIGS  community  was
+          represented  at this conference with participants including PHIGS
+          users, workstation vendors, third-party PHIGS implementors, stan-
+          dards  committee  members,  and  researchers  from  industry  and
+          academia.  The opening speaker, Dr. Richard Puk, challenged PHIGS
+          users  to  "take  charge of your PHIGS" by participating in PHIGS
+          standardization activities and communicating their needs to PHIGS
+          implementors.    The   closing  speaker,  Dr.  Andries  Van  Dam,
+          described his vision of the future of graphics standards  "beyond
+          PHIGS".
+
+          Technical paper sessions in the conference covered the  following
+          topics:  PHIGS  and  X, Application Toolkits, Application Issues,
+          Texture Mapping, NURBS,  PHIGS  Extensions,  and  Object-Oriented
+          Libraries and Frameworks.  Panel sessions on PHIGS and PEX, PHIGS
+          Non-Retained Data, Real-World CAD Applications Using  PHIGS,  and
+          Portability  Issues generated enthusiastic discussions and formed
+          a good forum for exchange of ideas, needs, and experiences.   The
+          conference  also included a day full of tutorials on topics rang-
+          ing from mathematics for 3D  graphics  to  object-oriented  tools
+          based on PHIGS.
+
+          Next year's conference is planned for March, 1994.
+
+          PHIGS EVERYWHERE
+
+          At the conference, PHIGS  vendors   described   and  demonstrated
+          PHIGS  products  that  run on all types of computers, from PCs to
+          mainframes.
+
+          Megatek Corporation demonstrated their PHIGS extensions including
+          conditional traversal, composite logical input devices, texturing
+          and translucency.
+
+          Template Graphics  Software  launched  FIGARO+  PRO,  the  Photo-
+          Realistic  Option  for  PHIGS+.  FIGARO+  PRO  is designed to add
+          advanced rendering to the existing PHIGS+ API, with features like
+          ray   tracing,  materials,  anti-aliasing  and  texture  mapping.
+          Radiosity support is also planned.
+
+          FIGARO+ is an example of how TGS continues to add newly  emerging
+          graphics  features to their products.  FIGARO+ supports immediate
+          mode extensions to PHIGS and also supports SUN XGL,  HP  Starbase
+          and SGI GL/OpenGL. FIGARO+ for NT will be released this summer.
+
+          TGS also demonstrated the latest versions of FIGraph, a  powerful
+          "2-call"  charting  system  based on PHIGS+, and FIGt, an object-
+          oriented utility library for PHIGS/PEX developers.
+
+          G5G and Gallium Software demonstrated a new version of GPHIGS  on
+          Silicon  Graphics  workstations. Scheduled for summer, 1993, Ver-
+          sion 3.0 of GPHIGS, the company's  PHIGS+  library  for  worksta-
+          tions,  will include an advanced PHIGS debugger that allows PHIGS
+          developers to display and browse PHIGS structures and other PHIGS
+          internal  state.  G5G  also  described  their Non-Duplicated Data
+          Store that stores pointers to application data in the GPHIGS  CSS
+          for  more  efficient  use  of  memory. In addition, G5G described
+          their application GSE that allows application callback  functions
+          during  GPHIGS traversal.  GPHIGS and PHIGURE, G5G's data visual-
+          izer and application development toolkit, are currently available
+          on  all  major  workstations  that support GL, X Windows, PEX, or
+          Starbase.
+
+          Wise Software presented a slide show of  Z-PHIGS  for  MS-Windows
+          and ARENA, a PHIGS based modeller/render. Z-PHIGS implements most
+          of the PHIGS+ primitives.  In addition Z-PHIGS has built in  many
+          advanced  rendering features like texture mapping, shadow genera-
+          tion, area quick updates and ray tracing. A demo disk of  Z-PHIGS
+          or ARENA is available on request.
+
+          ATC exhibited GRAFPAK-PHIGS, their full-featured PHIGS  implemen-
+          tation  based  on  DEC  PHIGS. GRAFPAK-PHIGS is available on most
+          workstation platforms with C, FORTRAN and Ada bindings and incor-
+          porates PEX support.
+
+          Within the booth sponsored by Advanced Technology Center, Digital
+          Equipment  Corporation demonstrated DEC PHIGS V2.4 running on the
+          DEC 3000/400 AXP PXG. ATCs' GRAFPAK-PHIGS is a port of DEC PHIGS.
+          DEC  PHIGS  V2.4 contains most PHIGS and PHIGS PLUS features with
+          support for PEX V5.1  protocol.  DEC  PHIGS  also  contains  most
+          GM/EDS   PHIGS  extensions  including  post-to-view  as  well  as
+          proprietary extensions to support immediate  mode  rendering  and
+          the use of PHIGS in an X11 environment.
+
+          AXP, DEC, and DEC PHIGS are trademarks of Digital Equipment  Cor-
+          poration.  GRAFPAK-PHIGS and ATC are trademarks of Advanced Tech-
+          nology Center. PEX and X11 are trademarks of Massachusetts Insti-
+          tute of Technology.
+
+          The IBM exhibit featured a GTO accelerator attached to an IBM 340
+          workstation running graPHIGS and PEX.
+
+          Hewlett Packard and SHOgraphics demonstrated at the conference. A
+          Hewlett  Packard  machine was coupled to display on a SHOgraphics
+          PEX terminal. HP showcased their latest  PHIGS  product  enhance-
+          ments.
+
+
+          PHIGS USER GROUP
+
+          The PHIGS Users Group was formed to aid the development of  PHIGS
+          applications  and provide user feedback to PHIGS implementors and
+          PHIGS standards bodies.  For more  information  about  the  PHIGS
+          Users Group, send e-mail to:
+
+                    phigsug@cadrt10.me.vt.edu
+
+          or write to:
+
+                    Sankar Jayaram
+                    Virginia Polytechnic Institute
+                    114 Randolph Hall
+                    Blacksburg, Va. 24061-0238
+                    FAX: 703-231-9100
+
+
+          VENDOR CONTACTS
+
+          Megatek Corporation
+          TEL (619) 455-5590
+          FAX (619) 453-7603
+
+          Template Graphics Software
+          TEL (800) 544-4847
+          FAX (619) 452-2547
+
+          WISE software GmbH
+          TEL +49-451-3909-413
+          FAX +49-451-3909-499
+
+          G5G - North American Sales
+          TEL (800) 267-2626
+          FAX (613) 592-1278
+
+          Advanced Technology Center
+          TEL (800) 999-5711
+          FAX (714) 583-9213
+
+          Digital Equipment Corporation
+          TEL (603) 884-5111
+
+          International Business Machines Corporation
+          TEL (800) 426-3333
+
+          Hewlett Packard Company
+          TEL (303) 229-3800
+
+          COPIES OF THE CONFERENCE PROCEEDINGS
+
+          Copies of the conference proceedings may be obtained by  contact-
+          ing Mary Johnson at:
+
+                    Johnson, Mary
+                    Design and Manufacturing Institute
+                    Rensselaer Polytechnic Institute
+                    110 Eighth Street
+                    Building CII, Room 7015
+                    Troy, NY  12180-3590
+                    Tel:  (518)276-6754
+                    Fax:  (518)276-2702
+                    Email:  mjohnson@rdrc.rpi.edu
+
+
+          The cost is $75.00 per binder.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+phig user group confer          first annual phig
+user group confer  first annual phig user group
+confer held march orlando florida confer organ
+renss laer design research center oper ieee sig
+graph attende came five countri span three con
+tinent good cross section phig communiti repres
+confer particip includ phig user workstat vendor
+third parti phig implementor stan dard committe
+member research industri academia open speaker
+richard puk challeng phig user take charg phig
+particip phig standard activ communic need phig
+implementor close speaker andri van dam describ
+vision futur graphic standard beyond phig  technic
+paper session confer cover follow topic phig
+applic toolkit applic issu textur map nurb phig
+extens object orient librari framework panel
+session phig pex phig non retain data real world
+cad applic use phig portabl issu generat
+enthusiast discuss form good forum exchang idea
+need experi confer also includ day full tutori
+topic rang ing mathemat graphic object orient tool
+base phig  next year confer plan march  phig
+everywher  confer phig vendor describ demonstr
+phig product run type comput pcs mainfram  megatek
+corpor demonstr phig extens includ condit travers
+composit logic input devic textur transluc
+templat graphic softwar launch figaro pro photo
+realist option phig figaro pro design add advanc
+render exist phig api featur like ray trace materi
+anti alias textur map radios support also plan
+figaro exampl tgs continu add newli emerg graphic
+featur product figaro support immedi mode extens
+phig also support sun xgl starbas sgi opengl
+figaro releas summer  tgs also demonstr latest
+version figraph power call chart system base phig
+figt object orient util librari phig pex develop
+g5g gallium softwar demonstr new version gphig
+silicon graphic workstat schedul summer ver sion
+gphig compani phig librari worksta tion includ
+advanc phig debugg allow phig develop display
+brows phig structur phig intern state g5g also
+describ non duplic data store store pointer applic
+data gphig css effici use memori addit g5g describ
+applic gse allow applic callback function gphig
+travers gphig phigur g5g data visual izer applic
+develop toolkit current avail major workstat
+support window pex starbas  wise softwar present
+slide show phig window arena phig base model
+render phig implement phig primit addit phig built
+mani advanc render featur like textur map shadow
+genera tion area quick updat ray trace demo disk
+phig arena avail request  atc exhibit grafpak phig
+full featur phig implemen tation base phig grafpak
+phig avail workstat platform fortran ada bind
+incor porat pex support  within booth sponsor
+advanc technolog center digit equip corpor
+demonstr phig run axp pxg atc grafpak phig port
+phig phig contain phig phig plus featur support
+pex protocol phig also contain ed phig extens
+includ post view well proprietari extens support
+immedi mode render use phig x11 environ  axp phig
+trademark digit equip cor porat grafpak phig atc
+trademark advanc tech nolog center pex x11
+trademark massachusett insti tute technolog  ibm
+exhibit featur gto acceler attach ibm workstat run
+graphig pex  hewlett packard shograph demonstr
+confer hewlett packard machin coupl display
+shograph pex termin showcas latest phig product
+enhanc ment   phig user group  phig user group
+form aid develop phig applic provid user feedback
+phig implementor phig standard bodi inform phig
+user group send mail    write  sankar jayaram
+virginia polytechn institut randolph hall
+blacksburg fax   vendor contact  megatek corpor
+tel fax  templat graphic softwar tel fax  wise
+softwar gmbh tel fax  g5g north american sale tel
+fax  advanc technolog center tel fax  digit equip
+corpor tel  intern busi machin corpor tel  hewlett
+packard compani tel  copi confer proceed  copi
+confer proceed obtain contact ing mari johnson
+johnson mari design manufactur institut renssela
+polytechn institut eighth street build cii room
+troy tel fax    cost per binder
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phig, 6587, 0.89236520095
+confer, 2025, 0.14408238497
+pex, 6579, 0.125167983723
+tel, 8754, 0.110399751084
+user, 9366, 0.0907311558857
+figaro, 3473, 0.0863244068611
+applic, 585, 0.0818366287931
+fax, 3413, 0.0686710261695
+demonstr, 2520, 0.0676458054878
+featur, 3422, 0.0656404860887
+workstat, 9840, 0.0615644456791
+extens, 3320, 0.0592423100297
+corpor, 2154, 0.0588655749293
+support, 8576, 0.0563082231357
+implementor, 4545, 0.0546356023747
+textur, 8825, 0.0534208689513
+trademark, 9034, 0.0530721102217
+advanc, 285, 0.0529883025605
+packard, 6376, 0.0507145619145
+hewlett, 4281, 0.0507145619145
+group, 4064, 0.0487688174172
+render, 7277, 0.0470924599435
+graphic, 3997, 0.0461362488291
+vendor, 9458, 0.0407553883448
+describ, 2556, 0.0402533699265
+includ, 4579, 0.0401826705051
+softwar, 8103, 0.0389747729578
+axp, 843, 0.037767529558
+center, 1606, 0.0377095099437
+tgs, 8830, 0.0364237349165
+polytechn, 6735, 0.0364237349165
+arena, 624, 0.0353814068145
+equip, 3161, 0.0353193449576
+develop, 2588, 0.0347938867345
+orient, 6290, 0.0347842250658
+data, 2385, 0.0345972011488
+tion, 8944, 0.033809707943
+templat, 8776, 0.033809707943
+digit, 2642, 0.0337336446555
+travers, 9070, 0.0331859681029
+starbas, 8325, 0.0331859681029
+institut, 4683, 0.0322235707931
+ing, 4642, 0.0316984356549
+map, 5498, 0.0314142106681
+librari, 5250, 0.0311027520508
+speaker, 8193, 0.0293980237588
+annual, 526, 0.0293980237588
+product, 6896, 0.0293351095383
+base, 923, 0.0292366312176
+toolkit, 8989, 0.0289058731873
+standard, 8313, 0.0287018186812
+session, 7814, 0.0286779689574
+exhibit, 3282, 0.0280542291172
+technolog, 8743, 0.0278477775394
+x11, 9883, 0.0273341743158
+design, 2564, 0.0272253669667
+summer, 8538, 0.0270119010152
+object, 6173, 0.0258034284197
+proceed, 6889, 0.0253302885991
+johnson, 4880, 0.0253302885991
+march, 5504, 0.0250152629494
+wise, 9799, 0.0249148050965
+pro, 6883, 0.0248164623036
+mari, 5508, 0.0246257782717
+latest, 5141, 0.0245332780188
+particip, 6440, 0.0244425740013
+avail, 811, 0.0243378526224
+trace, 9028, 0.0240964075022
+store, 8417, 0.0236969240119
+ibm, 4472, 0.0226088750543
+immedi, 4527, 0.0223723126011
+topic, 8992, 0.0223149976473
+mode, 5806, 0.0214349576836
+machin, 5416, 0.0212499390376
+addit, 263, 0.0212048071877
+contact, 2078, 0.0211601072282
+run, 7543, 0.0211058630869
+intern, 4716, 0.0207759640148
+copi, 2130, 0.020536367388
+contain, 2079, 0.020536367388
+display, 2734, 0.0201266849632
+add, 260, 0.0200559092134
+ray, 7118, 0.0195252842863
+window, 9774, 0.0194321693732
+compani, 1958, 0.0194321693732
+plan, 6660, 0.0190772308337
+issu, 4793, 0.0190488349401
+form, 3610, 0.0187209031165
+non, 6097, 0.0185144115902
+tation, 8711, 0.0182118674582
+randolph, 7092, 0.0182118674582
+graphig, 3998, 0.0182118674582
+binder, 1098, 0.0182118674582
+version, 9479, 0.0181736587793
+research, 7307, 0.0179670403741
+allow, 432, 0.0179001498259
+nurb, 6159, 0.0176907034072
+gto, 4075, 0.0176907034072
+gmbh, 3916, 0.0176907034072
+ed, 2989, 0.0176907034072
+css, 2278, 0.0176907034072
+orlando, 6297, 0.0172648813722
+mainfram, 5451, 0.0172648813722
+callback, 1463, 0.0172648813722
+ver, 9466, 0.0169048539715
+troy, 9119, 0.0169048539715
+showcas, 7916, 0.0169048539715
+opengl, 6259, 0.0169048539715
+cor, 2136, 0.0169048539715
+tutori, 9165, 0.0165929840514
+newli, 6030, 0.0165929840514
+attende, 765, 0.0165929840514
+framework, 3646, 0.0163178952862
+api, 564, 0.0163178952862
+protocol, 6943, 0.0160718200004
+stan, 8309, 0.0158492178275
+retain, 7337, 0.0158492178275
+duplic, 2924, 0.0158492178275
+dam, 2343, 0.0158492178275
+massachusett, 5534, 0.0156459979654
+ieee, 4491, 0.0156459979654
+brows, 1345, 0.0156459979654
+use, 9363, 0.0154745128759
+feedback, 3428, 0.0154590538143
+enthusiast, 3128, 0.0154590538143
+eighth, 3016, 0.0154590538143
+bind, 1097, 0.0152859705647
+radios, 7062, 0.0151248339144
+pcs, 6487, 0.0149741006446
+chart, 1674, 0.0149741006446
+booth, 1227, 0.0149741006446
+everywher, 3244, 0.0148325085022
+slide, 8031, 0.0146990118794
+proprietari, 6935, 0.014572734907
+alias, 410, 0.014572734907
+fortran, 3618, 0.0143389844787
+shadow, 7837, 0.0141265148815
+emerg, 3068, 0.0141265148815
+portabl, 6749, 0.0140271145586
+tech, 8736, 0.0139317725426
+enhanc, 3113, 0.0139317725426
+demo, 2517, 0.0139317725426
+silicon, 7955, 0.0138401704075
+exchang, 3264, 0.0138401704075
+cad, 1445, 0.0138401704075
+graph, 3996, 0.0137520257934
+parti, 6438, 0.0136670871579
+sponsor, 8254, 0.0135059505076
+span, 8181, 0.0134293680709
+primit, 6866, 0.0134293680709
+pointer, 6711, 0.0133552172378
+aid, 351, 0.0133552172378
+van, 9416, 0.0132833483346
+richard, 7383, 0.0132833483346
+panel, 6406, 0.0132833483346
+composit, 1982, 0.0132833483346
+committe, 1946, 0.0132136250954
+realist, 7147, 0.0131459231069
+attach, 760, 0.0131459231069
+manufactur, 5494, 0.0130801284726
+virginia, 9533, 0.0130161366597
+termin, 8796, 0.0130161366597
+forum, 3620, 0.0129538515002
+florida, 3552, 0.0128931843214
+effici, 3006, 0.0127763822305
+sale, 7590, 0.0127201010719
+sgi, 7831, 0.0126651442995
+sig, 7940, 0.0126114510138
+need, 5993, 0.0125591678372
+port, 6748, 0.0125589644216
+photo, 6603, 0.0125589644216
+acceler, 207, 0.0125589644216
+devic, 2591, 0.0124574025482
+input, 4662, 0.0124082311518
+challeng, 1642, 0.0122212870007
+mathemat, 5545, 0.0120902869628
+good, 3948, 0.0120074225571
+condit, 2017, 0.0120068654142
+held, 4243, 0.0119662460415
+disk, 2720, 0.0119662460415
+visual, 9547, 0.0119263210511
+street, 8440, 0.0119263210511
+vision, 9542, 0.0118870671008
+platform, 6676, 0.0118484620059
+logic, 5330, 0.0118484620059
+cross, 2241, 0.0118484620059
+anti, 542, 0.0118104846641
+room, 7476, 0.0117001229497
+north, 6110, 0.0116293431372
+communiti, 1953, 0.0116293431372
+obtain, 6183, 0.0115606453887
+communic, 1950, 0.0115270397001
+tool, 8988, 0.011493910704
+section, 7759, 0.011493910704
+hall, 4128, 0.0113349680934
+option, 6276, 0.0113044375271
+countri, 2186, 0.0113044375271
+industri, 4608, 0.0112743009146
+implement, 4544, 0.0112743009146
+plus, 6700, 0.01121516978
+repres, 7294, 0.0111574988237
+charg, 1664, 0.0111012176651
+request, 7301, 0.0110735776376
+util, 9384, 0.0109661768736
+function, 3722, 0.0109400810148
+environ, 3139, 0.0108634985781
+busi, 1424, 0.0107651448853
+cover, 2194, 0.0107411902644
+structur, 8460, 0.0106477556026
+schedul, 7678, 0.0106249695188
+memori, 5628, 0.0105800536141
+rang, 7094, 0.0105579154856
+paper, 6409, 0.0104085597182
+american, 469, 0.0103879820074
+technic, 8737, 0.0103675840169
+member, 5625, 0.0103473626347
+materi, 5543, 0.0102877282019
+built, 1381, 0.0102295785991
+releas, 7253, 0.0102105127376
+updat, 9333, 0.0101174504242
+generat, 3819, 0.0101174504242
+bodi, 1194, 0.0101174504242
+activ, 252, 0.0099758582818
+quick, 7036, 0.00995874791177
+futur, 3737, 0.00985863736988
+continu, 2092, 0.00985863736988
+like, 5272, 0.00983555551933
+model, 5807, 0.00979420417836
+organ, 6287, 0.0097783698461
+oper, 6261, 0.0097783698461
+experi, 3295, 0.0097783698461
+coupl, 2187, 0.00971608468661
+sun, 8539, 0.00965541750783
+area, 622, 0.00949627791201
+build, 1378, 0.00942737748592
+came, 1472, 0.00941383799836
+present, 6837, 0.00934729346676
+open, 6258, 0.00926986466112
+launch, 5147, 0.00918266047589
+view, 9510, 0.00912230685757
+type, 9177, 0.00912230685757
+discuss, 2708, 0.00898352018705
+send, 7785, 0.00897231846263
+cost, 2169, 0.00887384956746
+close, 1830, 0.00885252014924
+power, 6783, 0.00866884479508
+provid, 6949, 0.00863958902554
+major, 5458, 0.00857271785049
+exampl, 3258, 0.00847135635937
+current, 2299, 0.00846235613605
+exist, 3283, 0.00837421152196
+state, 8342, 0.00828094647816
+comput, 1993, 0.0080972012798
+write, 9865, 0.0080515537995
+mail, 5447, 0.00802906031845
+real, 7144, 0.00800678140488
+idea, 4482, 0.00798471300387
+world, 9841, 0.00782211251457
+inform, 4637, 0.00767650670033
+follow, 3578, 0.00767650670033
+day, 2402, 0.00692575127893
+post, 6766, 0.00682112274948
+new, 6023, 0.00680339549122
+mani, 5479, 0.00662495726783
+year, 9943, 0.00586969221861

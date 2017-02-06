@@ -1,0 +1,168 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83516
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: lfoard@hopper.Virginia.EDU (Lawrence C. Foard)
+Subject: Re: The bad press Islam has recieved.
+Organization: ITC/UVA Community Access UNIX/Internet Project
+Lines: 34
+
+In article <buddha.735157446@du248-07.cc.iastate.edu> buddha@iastate.edu (Scott H Vann) writes:
+>
+>	I recently read an article in a local paper written by an Islamic
+>  person who was upset with the way Islam has been portrayed by western media.
+>  When a terrorist action takes place in the middle east, it is always played
+>  up as an Islamic Terrorist.  However, when the a Serbian terrorist attacks
+>  the Croations, its not a Christian terrorist, its just a terrorist.
+>	I have often tried to explain this to some close friends who believe
+>  the press, that Islam is somehow tied to violence.  Often times you hear
+>  things like "They just don't value human life like we do..." and so on.
+>  I was wondering if anyone out there had any suggestions for how we can
+>  change this image, or how I can help my friends to see that this is just 
+>  hype.  I would appreciate any serious suggestions or comments via e-mail,
+>  and I'm not interested in hearing about how right the press is.
+
+Very easily. Show them pictures of crime scenes perpetrated by Christian
+terrorists in this country, if that doesn't convince them have them talk
+to the victims of Christian terrorism. 
+
+A brutal act of terrorism inspired by Christian propoganda was recently
+commited on your very campus. 
+
+Its very simple religious extremists of all religions put no value on
+human life. Christian and Islamic fundamentalists put advancing there
+religion above all else, even if doing so violates the religion itself.
+
+P.S. I'm not saying all Christians are terrorists, I'm using "Christian
+     terrorist" in the same way the media uses Islamic terrorist.
+-- 
+------          Join the Pythagorean Reform Church!               .
+\    /        Repent of your evil irrational numbers             . .
+ \  /   and bean eating ways. Accept 10 into your heart!        . . .
+  \/   Call the Pythagorean Reform Church BBS at 508-793-9568  . . . .
+    
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bad press islam reciev      recent read articl
+local paper written islam person upset way islam
+portray western media terrorist action take place
+middl east alway play islam terrorist howev
+serbian terrorist attack croation christian
+terrorist terrorist often tri explain close friend
+believ press islam somehow tie violenc often time
+hear thing like don't valu human life like wonder
+anyon suggest chang imag help friend see hype
+appreci serious suggest comment via mail i'm
+interest hear right press  easili show pictur
+crime scene perpetr christian terrorist countri
+doesn't convinc talk victim christian terror
+brutal act terror inspir christian propoganda
+recent commit campus  simpl religi extremist
+religion put valu human life christian islam
+fundamentalist put advanc religion els even violat
+religion  i'm say christian terrorist i'm use
+christian terrorist way media use islam terrorist
+join pythagorean reform church repent evil irrat
+number bean eat way accept heart call pythagorean
+reform church bbs
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+terrorist, 8809, 0.627671274474
+islam, 4780, 0.462494477362
+christian, 1732, 0.247993375107
+pythagorean, 7004, 0.147577176325
+press, 6841, 0.143797954859
+terror, 8808, 0.135476332765
+reform, 7218, 0.129284426191
+religion, 7261, 0.126826633184
+church, 1746, 0.100320122093
+media, 5605, 0.0971537447787
+friend, 3692, 0.0893270499274
+hear, 4223, 0.0861726665543
+valu, 9414, 0.0816565145804
+recent, 7168, 0.0793459718909
+way, 9666, 0.0783347425952
+perpetr, 6555, 0.0778359236054
+human, 4432, 0.0770795918912
+suggest, 8525, 0.0761287495775
+life, 5260, 0.0735210593803
+brutal, 1351, 0.0722498626406
+bean, 970, 0.0722498626406
+reciev, 7169, 0.0697412527194
+irrat, 4769, 0.0677381663825
+extremist, 3334, 0.0668696225227
+portray, 6755, 0.0653308970009
+violenc, 9527, 0.063997992326
+victim, 9503, 0.063997992326
+campus, 1480, 0.063997992326
+hype, 4458, 0.0628222870797
+fundamentalist, 3725, 0.0622825903793
+crime, 2229, 0.0608192007429
+violat, 9526, 0.0587749516367
+repent, 7287, 0.0584119313612
+upset, 9342, 0.0580616513012
+inspir, 4676, 0.057723247456
+scene, 7671, 0.0567718652999
+attack, 761, 0.0551043385405
+join, 4881, 0.054605136652
+evil, 3247, 0.053675912013
+western, 9709, 0.0530316912433
+commit, 1945, 0.0530316912433
+eat, 2968, 0.0522327083438
+tie, 8923, 0.0516728256762
+bbs, 961, 0.0513162892967
+heart, 4225, 0.0506392870281
+middl, 5699, 0.0500052989168
+religi, 7260, 0.0489843558003
+countri, 2186, 0.0483141741384
+convinc, 2120, 0.047808650554
+easili, 2962, 0.0472107498554
+east, 2965, 0.0454101874874
+action, 251, 0.0454101874874
+act, 249, 0.0445740000819
+paper, 6409, 0.0444852709873
+use, 9363, 0.0440911401975
+written, 9867, 0.0435580095615
+simpl, 7965, 0.0425628147933
+local, 5322, 0.0424902184194
+pictur, 6622, 0.042134951121
+like, 5272, 0.0420363013169
+accept, 208, 0.04101368598
+explain, 3301, 0.040349988214
+comment, 1936, 0.0400623038238
+appreci, 587, 0.0385886075706
+close, 1830, 0.0378348943968
+advanc, 285, 0.037744559324
+alway, 457, 0.0376996965186
+bad, 861, 0.0367605296902
+wonder, 9821, 0.0362444487728
+chang, 1650, 0.0358648609293
+els, 3053, 0.0345087045378
+howev, 4406, 0.0344116344949
+mail, 5447, 0.0343154993305
+place, 6657, 0.0341887426123
+talk, 8684, 0.0337573563365
+imag, 4512, 0.0334602523387
+person, 6562, 0.0332574189392
+play, 6681, 0.032919015094
+number, 6156, 0.0324584360397
+doesn, 2793, 0.0323793183936
+articl, 665, 0.0321713534254
+believ, 1009, 0.0308255936844
+read, 7135, 0.0303857887425
+right, 7399, 0.0303642990519
+help, 4249, 0.0293254831331
+tri, 9087, 0.0289087184965
+thing, 8869, 0.0272697769727
+anyon, 554, 0.0268233235884
+say, 7653, 0.0253428397987
+time, 8936, 0.0237173381827
+don, 2811, 0.0226413979165

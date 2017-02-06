@@ -1,0 +1,115 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61176
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: looper@cco.caltech.edu (Mark D. Looper)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+Organization: California Institute of Technology, Pasadena
+Lines: 23
+NNTP-Posting-Host: sandman.caltech.edu
+Keywords: Galileo, JPL
+
+prb@access.digex.com (Pat) writes:
+
+>Galileo's HGA  is stuck.   
+
+>The HGA was left closed,  because galileo  had a venus flyby.
+
+>If the HGA were pointed att he sun,  near venus,  it would
+>cook the foci elements.
+
+>question:  WHy couldn't Galileo's  course manuevers have been
+>designed such that the HGA  did not ever do a sun point.?
+
+The HGA isn't all that reflective in the wavelengths that might "cook the
+focal elements", nor is its figure good on those scales--the problem is
+that the antenna _itself_ could not be exposed to Venus-level sunlight,
+lest like Icarus' wings it melt.  (I think it was glues and such, as well
+as electronics, that they were worried about.)  Thus it had to remain
+furled and the axis _always_ pointed near the sun, so that the small
+sunshade at the tip of the antenna mast would shadow the folded HGA.
+(A larger sunshade beneath the antenna shielded the spacecraft bus.)
+
+--Mark Looper
+"Hot Rodders--America's first recyclers!"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ command loss timer galileo updat        galileo
+hga stuck  hga left close galileo venus flybi  hga
+point att sun near venus cook foci element
+question couldn't galileo cours manuev design hga
+ever sun point  hga isn't reflect wavelength might
+cook focal element figur good scale problem
+antenna could expos venus level sunlight lest like
+icarus wing melt think glue well electron worri
+thus remain furl axi alway point near sun small
+sunshad tip antenna mast shadow fold hga larger
+sunshad beneath antenna shield spacecraft bus
+mark looper hot rodder america first recycl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hga, 4284, 0.615859477623
+galileo, 3755, 0.328680119304
+antenna, 538, 0.246510089478
+venus, 9463, 0.239269492952
+cook, 2122, 0.183506091283
+sun, 8539, 0.17918357434
+element, 3037, 0.144752577064
+point, 6710, 0.122341775015
+near, 5982, 0.116972390902
+beneath, 1025, 0.112657566039
+glue, 3914, 0.109433675154
+foci, 3568, 0.109433675154
+melt, 5624, 0.104572455683
+lest, 5224, 0.10264324627
+fold, 3574, 0.0994193553857
+wavelength, 9663, 0.0967852447356
+manuev, 5493, 0.0967852447356
+att, 759, 0.0967852447356
+timer, 8938, 0.0909272432006
+sunlight, 8544, 0.0909272432006
+expos, 3311, 0.0894050356171
+tip, 8945, 0.0887001343793
+shadow, 7837, 0.0873858096551
+stuck, 8466, 0.0861811447323
+shield, 7882, 0.0861811447323
+axi, 840, 0.0830732995275
+flybi, 3564, 0.0826146067331
+wing, 9779, 0.0805170737531
+bus, 1419, 0.080131781334
+reflect, 7216, 0.0761668249636
+worri, 9845, 0.0745294963768
+larger, 5125, 0.0740225106924
+hot, 4389, 0.0730589797588
+electron, 3034, 0.0713056054921
+america, 468, 0.0713056054921
+loss, 5352, 0.0695581294126
+remain, 7264, 0.0676747127785
+scale, 7659, 0.0673571701177
+couldn, 2176, 0.0657254511638
+spacecraft, 8166, 0.0643867525672
+command, 1933, 0.0633984966826
+updat, 9333, 0.0625859671957
+figur, 3476, 0.0613948532598
+level, 5229, 0.0592720597614
+mark, 5512, 0.0588302024043
+left, 5193, 0.0575007492919
+small, 8054, 0.0562833887537
+design, 2564, 0.0561381854263
+close, 1830, 0.0547611811701
+alway, 457, 0.0545654994952
+isn, 4783, 0.0529142945415
+cours, 2190, 0.0494383374626
+problem, 6887, 0.0454534045063
+question, 7032, 0.0437325776891
+good, 3948, 0.0371386131265
+think, 8871, 0.0330893507575
+like, 5272, 0.0304210907528

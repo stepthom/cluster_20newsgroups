@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61364
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: hathaway@stsci.edu
+Subject: Re: Vandalizing the sky.
+Lines: 25
+Organization: Space Telescope Science Institute
+Distribution: na
+
+In article <1rls95$9aj@access.digex.net>, prb@access.digex.com (Pat) writes:
+> In article <C63nA8.4C1@news.cso.uiuc.edu> gfk39017@uxa.cso.uiuc.edu (George F. Krumins) writes:
+> |I say:
+> |What I'm objecting to here is a floating billboard that, presumably,
+> |would move around in the sky.  I, for one, am against legislating
+> |at all.  I just wish that people had a bit of common courtesy, and
+> |would consider how their greed for money impacts the more ethereal and
+>>aesthetic values that make us human.  This includes the need for wild
+>>and unspoiled things, including the night sky.
+> 
+> 
+> Sorry that's an aesthetics argument.  maybe this string shoudl mofe to
+> sci.space.aesthetics.
+> 
+> Planes  ruin the night sky.  Blimps ruin the night sky.  Radio towers
+> ruin the night sky.  
+> 
+> Like i said,  get a vote, and create some more national parks.  which
+> include onobstructed air space.
+> 
+> 
+
+Hokay - I am hereby voting my backyard to be a sanctuary - one acre 
+where I can object to anything I do not like for aesthetic reasons. 
+<::-)  What a relief to know we both can be happy. 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ vandal sky       say i'm object float billboard
+presum move around sky one legisl wish peopl bit
+common courtesi consid greed money impact ether
+aesthet valu make human includ need wild unspoil
+thing includ night sky   sorri that aesthet
+argument mayb string shoudl mofe sci space aesthet
+plane ruin night sky blimp ruin night sky radio
+tower ruin night sky  like said get vote creat
+nation park includ onobstruct air space    hokay
+herebi vote backyard sanctuari one acr object
+anyth like aesthet reason relief know happi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aesthet, 306, 0.446609571838
+sky, 8011, 0.44260514354
+ruin, 7536, 0.319328246272
+night, 6063, 0.277044969123
+vote, 9585, 0.191080787183
+includ, 4579, 0.176102314148
+sanctuari, 7604, 0.13302384519
+onobstruct, 6246, 0.13302384519
+herebi, 4265, 0.129217138041
+unspoil, 9311, 0.12610683183
+blimp, 1157, 0.12610683183
+object, 6173, 0.125649617402
+greed, 4021, 0.119189818471
+legisl, 5202, 0.10937442031
+courtesi, 2192, 0.108340197363
+tower, 9023, 0.107365106031
+ether, 3207, 0.107365106031
+string, 8450, 0.101761006013
+float, 3546, 0.0986506998023
+relief, 7257, 0.0970247601745
+space, 8164, 0.096780551693
+wild, 9758, 0.0929106671604
+presum, 6845, 0.0906326945108
+impact, 4534, 0.0886233802324
+billboard, 1090, 0.0880029680797
+vandal, 9419, 0.0874043293237
+plane, 6663, 0.0827933238777
+happi, 4161, 0.0802923486539
+air, 357, 0.0802923486539
+sci, 7690, 0.0795340258552
+wish, 9801, 0.0789866167293
+park, 6430, 0.0786311985822
+radio, 7061, 0.0761782556398
+common, 1948, 0.0744418984485
+like, 5272, 0.0718412550364
+argument, 631, 0.0711945677742
+valu, 9414, 0.0697766728467
+money, 5835, 0.0687609291801
+nation, 5962, 0.0671619042894
+creat, 2217, 0.0659490466841
+human, 4432, 0.0658656262049
+sorri, 8142, 0.0657826116664
+consid, 2059, 0.0598309497275
+mayb, 5564, 0.0597145024904
+anyth, 555, 0.0584834505584
+bit, 1122, 0.0575383776299
+said, 7583, 0.0567889399637
+reason, 7156, 0.0550257981243
+thing, 8869, 0.0466048377451
+peopl, 6530, 0.0462849636111
+need, 5993, 0.0458675861199
+say, 7653, 0.0433116463695
+make, 5459, 0.0427873709281
+know, 5052, 0.0367457705823

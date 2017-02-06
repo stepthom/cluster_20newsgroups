@@ -1,0 +1,158 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61242
+Truth category: 2 (sci.space)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: pgf@space.mit.edu (Peter G. Ford)
+Subject: Re: Help viewing Voyager CD ROMs on Mac
+Organization: MIT Center for Space Research
+Lines: 30
+Distribution: world
+Reply-To: pgf@space.mit.edu
+NNTP-Posting-Host: mgn1.mit.edu
+
+In article cnp@morrow.stanford.edu, ME.DMG@forsythe.stanford.edu (David Gaba M.D.) writes:
+>Two and a half years ago I purchased a set of CD ROMs from the
+>University of Colorado Lab for Atmos. and Space Physics.  They
+>were Space Sciences Sampler and Voyagers to the Outer Planets.
+>...
+>With Pixel Pusher we could never get past messages something like
+>This file has no PDS label, please fill in the following info
+>(a bunch of slots with most zeros).  Yet, we could open the
+>image file in Word and see the label file at the beginning.
+
+The compressed image format used for the Voyager disks is not (yet)
+supported by any Macintosh display software that I know of. However,
+there does exist a program that can convert the images to a format that
+is recognized by recent versions of both Pixel Pusher and NIH/Image. It
+is called "PDS Decompress" and is available via anonymous ftp from the
+"pub" directory on "delcano.mit.edu" [18.75.0.80]. This is a Binhex/
+Stuffit archive and contains the application itself, Think-C source,
+and a very brief description.
+
+The most recent version of NIH/Image (1.48) may be down-loaded from
+"starhawk.jpl.nasa.gov", where it is located in "image148.hqx" in the
+"pub" directory. This archive also contains source code, but not the
+documentation, which is located in the "image1455.hqx" archive in the
+same directory.
+
+Regards,
+Peter G. Ford
+Manager, Microwave SubNode
+NASA Planetary Data System
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ help view voyag rom mac        two half year ago
+purchas set rom univers colorado lab atmo space
+physic space scienc sampler voyag outer planet
+pixel pusher could never get past messag someth
+like file pds label pleas fill follow info bunch
+slot zero yet could open imag file word see label
+file begin  compress imag format use voyag disk
+yet support macintosh display softwar know howev
+exist program convert imag format recogn recent
+version pixel pusher nih imag call pds decompress
+avail via anonym ftp pub directori delcano mit edu
+binhex stuffit archiv contain applic think sourc
+brief descript  recent version nih imag load
+starhawk jpl nasa gov locat image148 hqx pub
+directori archiv also contain sourc code document
+locat image1455 hqx archiv directori  regard peter
+ford manag microwav subnod nasa planetari data
+system
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+voyag, 9588, 0.264819751634
+imag, 4512, 0.255845380168
+pusher, 6997, 0.238061103233
+hqx, 4410, 0.225682331374
+archiv, 618, 0.225368409001
+pds, 6493, 0.220976140732
+directori, 2669, 0.217126671539
+nih, 6068, 0.213303559516
+label, 5086, 0.180915342355
+rom, 7467, 0.175545434098
+file, 3477, 0.158466675197
+pixel, 6651, 0.153895296485
+pub, 6971, 0.147768858702
+locat, 5323, 0.135258208419
+contain, 2079, 0.134223200559
+atmo, 754, 0.12342199082
+format, 3612, 0.122185547421
+recent, 7168, 0.121339792287
+version, 9479, 0.118780824336
+nasa, 5956, 0.114896511549
+binhex, 1101, 0.112841165687
+sourc, 8153, 0.112682293144
+slot, 8043, 0.108449726484
+ford, 3595, 0.106651779758
+decompress, 2452, 0.10103849631
+microwav, 5696, 0.0944626364739
+outer, 6324, 0.0882732505446
+mit, 5781, 0.0868183498047
+space, 8164, 0.0865998305593
+macintosh, 5418, 0.0859201552236
+brief, 1308, 0.0842682852483
+recogn, 7173, 0.0831370341716
+purchas, 6988, 0.0824269106013
+zero, 9985, 0.0820838646153
+bunch, 1399, 0.0801732612604
+jpl, 4912, 0.079020645724
+compress, 1986, 0.079020645724
+disk, 2720, 0.078209929342
+planetari, 6665, 0.0779489844587
+gov, 3965, 0.0769476482423
+colorado, 1908, 0.0764705811676
+anonym, 532, 0.075781822057
+peter, 6575, 0.075339330091
+lab, 5085, 0.0720205434127
+descript, 2557, 0.0718460854687
+load, 5317, 0.0710025059868
+document, 2788, 0.070203113718
+planet, 6664, 0.0698947213313
+half, 4124, 0.0691499441617
+mac, 5410, 0.0680290809071
+begin, 994, 0.0677612687054
+applic, 585, 0.0668592820727
+physic, 6613, 0.0663668231097
+display, 2734, 0.0657727830186
+past, 6456, 0.0645419778676
+messag, 5650, 0.063106634983
+regard, 7224, 0.0625305325014
+ftp, 3709, 0.061705201562
+convert, 2115, 0.061352240081
+code, 1871, 0.0606698961434
+open, 6258, 0.0605867084501
+info, 4636, 0.0600968834106
+view, 9510, 0.0596222885853
+ago, 336, 0.0594673136101
+manag, 5472, 0.0582810934285
+scienc, 7692, 0.0570482790766
+data, 2385, 0.0565307751466
+exist, 3283, 0.0547328284207
+word, 9829, 0.0546763961792
+set, 7815, 0.0546763961792
+edu, 3001, 0.0541232594331
+avail, 811, 0.053023081963
+howev, 4406, 0.0526239767735
+support, 8576, 0.0525748143995
+softwar, 8103, 0.0509468755462
+univers, 9282, 0.0507278631244
+follow, 3578, 0.0501727145293
+program, 6905, 0.0473826056521
+someth, 8126, 0.0449349905
+pleas, 6688, 0.0449052633164
+help, 4249, 0.0448459820616
+year, 9943, 0.0383635947386
+think, 8871, 0.0349611997824
+use, 9363, 0.0337131782859
+know, 5052, 0.0328803406318
+like, 5272, 0.032141997563

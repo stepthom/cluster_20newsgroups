@@ -1,0 +1,143 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104805
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: schaefer@owlnet.rice.edu (Andrew James Schaefer)
+Subject: Re: Best Sportwriters...
+Keywords: Sportswriters
+Organization: Rice University
+Lines: 31
+
+In article <C5K7nK.7tv@news.cso.uiuc.edu> rkoffler@ux4.cso.uiuc.edu (Bighelmet) writes:
+>csc2imd@cabell.vcu.edu (Ian M. Derby) writes:
+>
+>
+>>Since someone brought up sports radio, howabout sportswriting???
+>
+>I happen to be a big fan of Jayson Stark.  He is a baseball writer for the 
+>Philadelphia Inquirer.  Every tuesday he writes a "Week in Review" column.  
+>He writes about unusual situations that occured during the week.  Unusual
+>stats.  He has a section called "Kinerisms of the Week" which are stupid
+>lines by Mets brodcaster Ralph Kiner.  Every year he has the LGTGAH contest.
+>That stands for "Last guy to get a hit."  He also writes for Baseball 
+>America.  That column is sort of a highlights of "Week in Review."  If you 
+>can, check his column out sometime.  He might make you laugh.
+>
+>Rob Koffler
+
+Isn't Stark that idiot who writes in Baseball America?   Twice a month he
+writes a "Who woulda thunk it" article which is really the same piece
+every time.   "Who would have thought that [Buddy Biancalana] would have
+more home runs than [the Colorado Rockies, Babe Ruth, Omar Vizquel and
+Nolan Ryan] COMBINED!"   He's an idiot, if it's the same guy.
+
+>
+>-- 
+>******************************************************************
+>|You live day to day and                rkoffler@ux4.cso.uiuc.edu|
+>|dream about tomorrow --Don Henley                               |
+>******************************************************************
+
+Andrew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ best sportwrit         sinc someon brought sport
+radio howabout sportswrit  happen big fan jayson
+stark basebal writer philadelphia inquir everi
+tuesday write week review column write unusu
+situat occur week unusu stat section call kiner
+week stupid line met brodcast ralph kiner everi
+year lgtgah contest stand last guy get hit also
+write basebal america column sort highlight week
+review check column sometim might make laugh  rob
+koffler  isn't stark idiot write basebal america
+twice month write woulda thunk articl realli piec
+everi time thought buddi biancalana home run
+colorado rocki babe ruth omar vizquel nolan ryan
+combin he idiot it guy      dream tomorrow henley
+andrew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+column, 1915, 0.306234861415
+write, 9865, 0.281995392731
+week, 9691, 0.240995236853
+stark, 8332, 0.232459233121
+kiner, 5023, 0.222039448138
+unusu, 9325, 0.200881850144
+idiot, 4487, 0.180626928259
+review, 7358, 0.171213989908
+everi, 3235, 0.168101307156
+basebal, 924, 0.165390685205
+america, 468, 0.161487939755
+lgtgah, 5240, 0.127569481473
+brodcast, 1330, 0.127569481473
+sportwrit, 8260, 0.123918860365
+koffler, 5058, 0.123918860365
+howabout, 4401, 0.123918860365
+henley, 4256, 0.123918860365
+guy, 4100, 0.122850593331
+jayson, 4833, 0.11841418572
+sportswrit, 8259, 0.116229616561
+omar, 6230, 0.116229616561
+inquir, 4663, 0.114302689999
+vizquel, 9554, 0.112578995453
+buddi, 1366, 0.112578995453
+highlight, 4296, 0.105945599717
+ralph, 7082, 0.102962825087
+nolan, 6094, 0.101239130541
+babe, 846, 0.101239130541
+andrew, 505, 0.0963294293505
+ruth, 7555, 0.0946057348046
+laugh, 5146, 0.0940692943895
+tomorrow, 8979, 0.0925580699322
+twice, 9170, 0.0920838347892
+tuesday, 9147, 0.0920838347892
+contest, 2086, 0.0916229601753
+dream, 2865, 0.0911747138652
+rob, 7434, 0.0891010601599
+ryan, 7557, 0.0856069949541
+writer, 9866, 0.0852953671154
+philadelphia, 6589, 0.0846893731378
+piec, 6624, 0.0841050264896
+rocki, 7450, 0.0835408337915
+colorado, 1908, 0.0819563738467
+section, 7759, 0.0805119097187
+brought, 1343, 0.0805119097187
+stupid, 8476, 0.0800574369702
+combin, 1921, 0.0793985573144
+sport, 8257, 0.079184698493
+occur, 6192, 0.0783561687018
+stat, 8341, 0.0742671300421
+radio, 7061, 0.0730547260727
+met, 5655, 0.0727651615777
+sometim, 8128, 0.0719260049807
+stand, 8311, 0.0708701569129
+situat, 7995, 0.0690572375505
+month, 5847, 0.0674253242657
+check, 1682, 0.0667161124891
+fan, 3381, 0.06511183429
+home, 4354, 0.0630853336726
+sort, 8144, 0.0629272651302
+isn, 4783, 0.0599182935907
+happen, 4159, 0.0576602697294
+hit, 4316, 0.0572104828603
+thought, 8887, 0.057099942123
+big, 1082, 0.0557270106859
+best, 1052, 0.0546965072659
+line, 5285, 0.0542277082309
+someon, 8124, 0.0534603415394
+articl, 665, 0.0527273614116
+sinc, 7977, 0.0498715729324
+run, 7543, 0.0492803939739
+realli, 7150, 0.0485457414214
+year, 9943, 0.0411156952712
+make, 5459, 0.0410329645418
+time, 8936, 0.0388716211453

@@ -1,0 +1,96 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83934
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: porta@wam.umd.edu (David Palmer)
+Subject: Re: 14 Apr 93   God's Promise in 1 John 1: 7
+Nntp-Posting-Host: rac3.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 23
+
+In article <1qknu0INNbhv@shelley.u.washington.edu> sieferme@stein.u.washington.edu (Eric Sieferman) writes:
+>In article <f1VMPxk@quack.kfu.com> pharvey@quack.kfu.com (Paul Harvey) writes:
+>>In article <bskendigC5H4o3.D5p@netcom.com> 
+>>
+>>Human blood sacrifice! Martyrdom of an innocent virgin! "Nailed" to a
+>>wooden pole! What is this obsession with male menstruation?
+>
+>Christian:  washed in the blood of the lamb.
+>Mithraist:  washed in the blood of the bull.
+>
+>If anyone in .netland is in the process of devising a new religion,
+>do not use the lamb or the bull, because they have already been
+>reserved.  Please choose another animal, preferably one not
+>on the Endangered Species List.  
+>
+>
+
+How about Cockroaches?
+-- 
+***************************** porta@wam.umd.edu ****************************
+	What for you say you monkey when you have little fluffy tail
+like rabbit, rabbit! 
+                  Tazmanian Devil 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ god promis john         human blood sacrific
+martyrdom innoc virgin nail wooden pole obsess
+male menstruat  christian wash blood lamb
+mithraist wash blood bull  anyon netland process
+devis new religion use lamb bull alreadi reserv
+pleas choos anoth anim prefer one endang speci
+list    cockroach   say monkey littl fluffi tail
+like rabbit rabbit tazmanian devil
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+blood, 1169, 0.358308146411
+rabbit, 7048, 0.330752113925
+lamb, 5099, 0.305085571583
+wash, 9650, 0.285792314827
+bull, 1385, 0.277314215776
+cockroach, 1870, 0.17024799754
+wooden, 9825, 0.165376056962
+mithraist, 5786, 0.161395391666
+obsess, 6181, 0.158029787113
+nail, 5948, 0.158029787113
+endang, 3092, 0.15511436784
+monkey, 5838, 0.150242427262
+devis, 2594, 0.148161499851
+netland, 6013, 0.146261761966
+devil, 2592, 0.146261761966
+male, 5465, 0.141389821388
+virgin, 9532, 0.13998073814
+speci, 8197, 0.135108797562
+pole, 6717, 0.134043551539
+tail, 8674, 0.132057345372
+sacrific, 7569, 0.129380542819
+innoc, 4658, 0.124175264277
+reserv, 7309, 0.120527936944
+choos, 1720, 0.109041634577
+promis, 6913, 0.10251390516
+prefer, 6819, 0.0997523498958
+anim, 515, 0.0942413428404
+religion, 7261, 0.0924679305486
+process, 6890, 0.0882562238105
+alreadi, 443, 0.0875032797993
+human, 4432, 0.0842968488255
+john, 4878, 0.0825574534908
+list, 5298, 0.0799640273058
+christian, 1732, 0.077489698035
+god, 3926, 0.0769505789766
+littl, 5308, 0.0733794583968
+anoth, 533, 0.0703673605339
+pleas, 6688, 0.0642274697951
+new, 6023, 0.0635994338039
+anyon, 554, 0.058669787892
+say, 7653, 0.0554315735956
+use, 9363, 0.0482195622547
+like, 5272, 0.0459723209523

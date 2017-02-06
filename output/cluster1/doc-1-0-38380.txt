@@ -1,0 +1,90 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38380
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: Peter.vanderveen@visser.el.wau.nl  (Peter van der Veen)
+Subject: To yhe one who wants fonts in POV/POLYRAY/VIVID
+Lines: 28
+Organization: Wageningen Agricultural University
+X-Newsreader: FTPNuz (DOS) v1.0
+
+To everyone who wants fonts in Vivid/POV/Polyray.
+The Borland BGI font converter is VVFONT18.ZIP.
+This program can be found on FTP.INFORMATIK.UNI-OLDENBURG.DE directory
+pub/dkbtrace/utils.
+Also WUARCHIVE has mirrored this site (directory graphics/graphics/mirrors/
+ftp.informatik.uni-oldenburg.de/pub/dkbtrace/utils.
+There are more nice utilities present in this directory.
+A new version of Polyray 1.6 (for those asked for it) can be found on the 
+same sites but in the directory INCOMING instead of UTILS (PLY16386).
+Also in this directory POVSHELL and PV3DV060 could be found.
+Have a nive raytrace time.
+Peter
+
+ /*---------*\*/*-------------------------------------------*\
+ *|  ____/|  *|*    PETER.VANDERVEEN@VISSER.EL.WAU.NL       |*
+ *|  \ o.O|  *|*    Department of Genetics                  |*
+ *|   =(_)=  *|*    Agricultural University                 |*
+ *|     U    *|*    Wageningen, The Netherlands             |*
+ \*---------*/*\*-------------------------------------------*/
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yhe one want font pov polyray vivid     everyon
+want font vivid pov polyray borland bgi font
+convert vvfont18 zip program found ftp informatik
+uni oldenburg directori pub dkbtrace util also
+wuarchiv mirror site directori graphic graphic
+mirror ftp informatik uni oldenburg pub dkbtrace
+util nice util present directori new version
+polyray ask found site directori incom instead
+util ply16386 also directori povshel pv3dv060
+could found nive raytrac time peter    depart
+genet agricultur univers wageningen netherland
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+directori, 2669, 0.381103790662
+polyray, 6734, 0.349074389866
+util, 9384, 0.301926023358
+font, 3582, 0.300917627264
+oldenburg, 6217, 0.250708919936
+dkbtrace, 2776, 0.237672483153
+informatik, 4639, 0.232716259911
+vivid, 9551, 0.218184120462
+uni, 9268, 0.21281302941
+pov, 6778, 0.17288970573
+mirror, 5755, 0.170151728127
+pub, 6971, 0.155619588678
+site, 7994, 0.132509202263
+ftp, 3709, 0.129967006184
+bgi, 1066, 0.121767225528
+borland, 1232, 0.116358129955
+genet, 3823, 0.114211492028
+agricultur, 340, 0.109092060231
+graphic, 3997, 0.105853771269
+netherland, 6012, 0.104106039196
+incom, 4581, 0.100305875755
+wuarchiv, 9876, 0.0929630712565
+raytrac, 7121, 0.0924359451934
+want, 9634, 0.0875831763887
+zip, 9988, 0.087175701653
+peter, 6575, 0.0793419916957
+depart, 2535, 0.0754815058396
+instead, 4682, 0.0690236098625
+nice, 6047, 0.0650777901927
+convert, 2115, 0.0646117893157
+present, 6837, 0.0643385378998
+everyon, 3241, 0.0640698535743
+version, 9479, 0.0625457325325
+ask, 689, 0.0556812095158
+univers, 9282, 0.0534229557112
+program, 6905, 0.0498999699046
+new, 6023, 0.0468285841474
+time, 8936, 0.0381966832545

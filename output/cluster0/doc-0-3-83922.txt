@@ -1,0 +1,107 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/83922
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: geb@cs.pitt.edu (Gordon Banks)
+Subject: Re: [lds] Birth of a Church
+Reply-To: geb@cs.pitt.edu (Gordon Banks)
+Organization: Univ. of Pittsburgh Computer Science
+Lines: 22
+
+In article <C5x97x.1EA@acsu.buffalo.edu> psyrobtw@ubvmsb.cc.buffalo.edu (Robert Weiss) writes:
+>
+>"No church will admit that I am right except  the  one  with  which  I  am
+>associated. This makes them witnesses against each other, and  how  can  I
+>decide in such a case as this, seeing they are all unlike  the  Church  of
+>Christ, as it existed in former days!" (p. 31).
+>
+
+The idea of an apostacy did not originate with Lucy Smith or Joseph
+Smith or the Mormons.  The idea of a restoration was quite common
+in the early 19th century USA.  Alexander Campbell, founder of the
+group that now survives with the name "Disciples of Christ" preached
+that the primitive church had been lost and was attempting to restore
+it (although not be revelations).  Many Cambellites subsequently became
+Mormons, including co-founder Sidney Rigdon.  Actually, you can find
+such sentiments in many of the early protestants of the reformation,
+such as Martin Luther.
+-- 
+----------------------------------------------------------------------------
+Gordon Banks  N3JXP      | "Skepticism is the chastity of the intellect, and
+geb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon." 
+----------------------------------------------------------------------------
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lds birth church       church admit right except
+one associ make wit decid case see unlik church
+christ exist former day   idea apostaci origin
+luci smith joseph smith mormon idea restor quit
+common earli 19th centuri usa alexand campbel
+founder group surviv name discipl christ preach
+primit church lost attempt restor although revel
+mani cambellit subsequ becam mormon includ founder
+sidney rigdon actual find sentiment mani earli
+protest reform martin luther   gordon bank n3jxp
+skeptic chastiti intellect
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+church, 1746, 0.404968450515
+founder, 3628, 0.297866964177
+restor, 7327, 0.247387148743
+mormon, 5863, 0.207864844117
+smith, 8064, 0.197182384108
+christ, 1729, 0.186146095589
+earli, 2951, 0.167102602097
+luther, 5401, 0.152606786125
+luci, 5378, 0.152606786125
+sentiment, 7796, 0.148933482089
+intellect, 4696, 0.143137438349
+idea, 4482, 0.137758387736
+alexand, 397, 0.133355721636
+subsequ, 8498, 0.131862639205
+reform, 7218, 0.130472612717
+discipl, 2689, 0.130472612717
+skeptic, 8002, 0.129172329776
+gordon, 3954, 0.129172329776
+birth, 1115, 0.129172329776
+19th, 51, 0.129172329776
+preach, 6803, 0.126799308681
+campbel, 1479, 0.126799308681
+lds, 5171, 0.124676568978
+revel, 7353, 0.122756317339
+primit, 6866, 0.115846874701
+mani, 5479, 0.114298839745
+protest, 6942, 0.113401769834
+becam, 980, 0.113401769834
+joseph, 4893, 0.112834200108
+martin, 5523, 0.110711460404
+surviv, 8599, 0.107895621641
+bank, 897, 0.106622731488
+wit, 9802, 0.104295447968
+unlik, 9290, 0.100020684555
+centuri, 1614, 0.0991508778463
+admit, 276, 0.0977797779851
+usa, 9357, 0.0967463518308
+associ, 706, 0.0948261001924
+lost, 5355, 0.0890873748212
+attempt, 763, 0.0885772869968
+common, 1948, 0.0879166575538
+decid, 2442, 0.0872770040553
+quit, 7043, 0.0737897216614
+exist, 3283, 0.0722391573289
+origin, 6293, 0.0716508704874
+group, 4064, 0.0701164176254
+case, 1540, 0.070049371331
+includ, 4579, 0.0693262225083
+actual, 254, 0.0647788678463
+right, 7399, 0.0612867233484
+day, 2402, 0.0597441842671
+make, 5459, 0.0505323307964

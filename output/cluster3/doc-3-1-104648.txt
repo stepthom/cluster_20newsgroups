@@ -1,0 +1,158 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104648
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@watson.ibm.com (Mike Jones)
+Subject: Re: Game Length (was Re: Braves Update!!
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: fenway.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 31
+
+nflynn@wvnvms.wvnet.edu writes:
+>In article <1993Apr19.194025.8967@adobe.com>, 
+>snichols@adobe.com (Sherri Nichols) writes:
+>	[stuff about Ron Gant incident deleted] 
+>> A reasonable umpire would do as he's been instructed to do this season: get
+>> the batters back in the box sooner to try to cut down on the ridiculous
+>> length of games.  I for one am glad to see this happen, (!!!!)
+>	I agree that Hirschbeck was just doing what he was instructed to do
+>and also that Gant should have listened to him.  However, what is with this
+>policy of trying to speed up the games.  You are the first person 
+>( non-mediot ) I have seen endorse this policy.  I have no problem with the
+>length of games at all and am tired of the ESPN crowd ( and other announcers )
+>bitching about it.  I have never been in a ballpark filled with people looking
+>at their watches and shouting "Hurry up!"  If I cough up big bucks for a 
+>ticket, I don't mind a game that last more than 2:10.  I really don't
+>understand it.  
+>	Games are longer now for several reasons:...[stuff deleted]
+>	Maybe I am just a ne'er-do-well with nothing better to do, but I 
+>would like to hear reasons why the longer games upset you.
+
+Well, I don't want shorter games *per se*, but I would like for them to stop
+*wasting* so much time during games. The Gant incident is a perfect example.
+When a guy comes to the plate, he should be up there to hit, not show off
+(or show up the umpire, which is clearly what Gant was doing). I feel like
+writing a fan letter to Hirschbeck.
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+For purposes of action, nothing is more useful than narrowness of thought
+combined with energy of will.
+	- Henri Frederick Amile
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ game length brave updat          stuff ron gant
+incid delet reason umpir he instruct season get
+batter back box sooner tri cut ridicul length game
+one glad see happen agre hirschbeck instruct also
+gant listen howev polici tri speed game first
+person non mediot seen endors polici problem
+length game tire espn crowd announc bitch never
+ballpark fill peopl look watch shout hurri cough
+big buck ticket don't mind game last realli don't
+understand game longer sever reason stuff delet
+mayb ne'er well noth better like hear reason
+longer game upset  well don't want shorter game
+per like stop wast much time game gant incid
+perfect exampl guy come plate hit show show umpir
+clear gant feel like write fan letter hirschbeck
+purpos action noth use narrow thought combin
+energi henri frederick amil
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+game, 3761, 0.422857403104
+gant, 3766, 0.348975153107
+length, 5212, 0.23016896351
+hirschbeck, 4310, 0.200753921504
+polici, 6721, 0.18140505595
+incid, 4575, 0.174487576553
+umpir, 9210, 0.168835584348
+instruct, 4684, 0.167393457754
+reason, 7156, 0.149987828058
+longer, 5337, 0.138429748689
+delet, 2502, 0.132870156347
+stuff, 8472, 0.11879552838
+noth, 6119, 0.11280260435
+cough, 2175, 0.108294791464
+don, 2811, 0.105473247335
+frederick, 3667, 0.10383570045
+shout, 7913, 0.10144635479
+bitch, 1123, 0.10144635479
+sooner, 8137, 0.100376960752
+hurri, 4449, 0.100376960752
+endors, 3096, 0.100376960752
+mediot, 5611, 0.0993766094363
+shorter, 7908, 0.0984369238171
+er, 3163, 0.0984369238171
+like, 5272, 0.0979114722109
+ballpark, 883, 0.0967129191691
+narrow, 5955, 0.0959178697378
+crowd, 2245, 0.0951616189893
+espn, 3192, 0.09185120641
+ridicul, 7396, 0.0907025279752
+upset, 9342, 0.0901586102138
+tri, 9087, 0.0897793922252
+tire, 8948, 0.0891248895297
+buck, 1359, 0.0891248895297
+glad, 3889, 0.0851740429225
+ticket, 8919, 0.0820284465141
+ron, 7472, 0.0811073795947
+listen, 5300, 0.0791498185589
+plate, 6674, 0.0786331018556
+letter, 5227, 0.0764999614614
+energi, 3102, 0.0754305674229
+combin, 1921, 0.0752252655385
+batter, 949, 0.0736739653587
+wast, 9654, 0.0727777582131
+announc, 524, 0.0711272572744
+henri, 4258, 0.070513313033
+action, 251, 0.070513313033
+cut, 2313, 0.068145480306
+perfect, 6538, 0.0677627431894
+updat, 9333, 0.0671451289903
+hear, 4223, 0.0669048130809
+purpos, 6993, 0.0666681662603
+brave, 1277, 0.0663198355189
+stop, 8413, 0.0655362718723
+watch, 9655, 0.0642788206005
+box, 1254, 0.0633036521753
+speed, 8217, 0.0630226765237
+fan, 3381, 0.0616894713183
+non, 6097, 0.0614360586057
+feel, 3429, 0.0609413336638
+mind, 5733, 0.0603834304591
+agre, 337, 0.0599968751221
+season, 7747, 0.0596944252203
+clear, 1803, 0.0594713988449
+guy, 4100, 0.058196702922
+seen, 7767, 0.0575313619101
+sever, 7823, 0.057209103615
+exampl, 3258, 0.0562207168431
+understand, 9246, 0.0555760087036
+happen, 4159, 0.0546295707142
+mayb, 5564, 0.0542560570823
+hit, 4316, 0.0542034252298
+thought, 8887, 0.0540986946579
+write, 9865, 0.0534346693853
+howev, 4406, 0.0534346693853
+big, 1082, 0.0527979262887
+person, 6562, 0.0516423939667
+problem, 6887, 0.0487645209522
+better, 1060, 0.0463698914792
+realli, 7150, 0.0459941139072
+come, 1923, 0.0449474245431
+want, 9634, 0.0422229734546
+peopl, 6530, 0.0420540994734
+look, 5341, 0.0386819794297
+time, 8936, 0.0368284780161
+use, 9363, 0.0342325427701

@@ -1,0 +1,91 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38816
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: rych@festival.ed.ac.uk (R Hawkes)
+Subject: 3DS: Where did all the texture rules go?
+Lines: 21
+
+Hi,
+
+I've noticed that if you only save a model (with all your mapping planes
+positioned carefully) to a .3DS file that when you reload it after restarting
+3DS, they are given a default position and orientation.  But if you save
+to a .PRJ file their positions/orientation are preserved.  Does anyone
+know why this information is not stored in the .3DS file?  Nothing is
+explicitly said in the manual about saving texture rules in the .PRJ file. 
+I'd like to be able to read the texture rule information, does anyone have 
+the format for the .PRJ file?
+
+Is the .CEL file format available from somewhere?
+
+Rych
+
+======================================================================
+Rycharde Hawkes				email: rych@festival.ed.ac.uk
+Virtual Environment Laboratory
+Dept. of Psychology			Tel  : +44 31 650 3426
+Univ. of Edinburgh			Fax  : +44 31 667 0150
+======================================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ 3ds textur rule     i'v notic save model map
+plane posit care 3ds file reload restart 3ds given
+default posit orient save prj file posit orient
+preserv anyon know inform store 3ds file noth
+explicit said manual save textur rule prj file i'd
+like abl read textur rule inform anyon format prj
+file  cel file format avail somewher  rych
+virtual environ laboratori dept psycholog tel univ
+edinburgh fax
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+3ds, 99, 0.448076632807
+prj, 6882, 0.393068323571
+file, 3477, 0.359141561681
+textur, 8825, 0.296738503255
+rule, 7537, 0.216568249588
+save, 7646, 0.208866214409
+posit, 6761, 0.203757813401
+orient, 6290, 0.171748425255
+format, 3612, 0.138457843774
+cel, 1595, 0.134882675307
+reload, 7262, 0.127869005948
+psycholog, 6968, 0.120855336589
+restart, 7325, 0.117384167604
+inform, 4637, 0.113709125451
+preserv, 6838, 0.105394220641
+default, 2470, 0.104625301296
+explicit, 3304, 0.10250454631
+univ, 9280, 0.0994620182276
+manual, 5492, 0.0942089693267
+anyon, 554, 0.0929648285432
+tel, 8754, 0.0908504902317
+dept, 2544, 0.0895443728943
+virtual, 9536, 0.0877533431047
+store, 8417, 0.0877533431047
+laboratori, 5090, 0.0871952999678
+plane, 6663, 0.0839502497187
+somewher, 8130, 0.0808344566515
+environ, 3139, 0.0804584019057
+notic, 6120, 0.0799092180966
+map, 5498, 0.0775544259314
+fax, 3413, 0.0726569540993
+model, 5807, 0.072538879668
+care, 1516, 0.0681004019722
+abl, 180, 0.0632841848085
+noth, 6119, 0.0629429935296
+given, 3887, 0.0620861635927
+avail, 811, 0.0600845333494
+said, 7583, 0.0575824893594
+read, 7135, 0.0526558469029
+know, 5052, 0.0372592435236
+like, 5272, 0.0364225701901

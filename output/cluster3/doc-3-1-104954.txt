@@ -1,0 +1,222 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104954
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mjones@fenway.aix.kingston.ibm.com (Mike Jones)
+Subject: Re: Yankee Thoughts
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: fenway.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 45
+
+scott@asd.com (Scott Barman) writes:
+>In article <1993Apr20.154542.147196@clam.com> sam@steamer.clam.com (Sam Mandelbaum) writes:
+>>2.  Wade Boggs.
+>>    I live in Boston and like Wade a lot.  But, his career is 
+>>    winding down and I would rather see the Yanks start to develop
+>>    a long term solution (i.e. Hensley Muelins, Russ Davis, Velarde?).
+>>    Besides, Wade just doesn't have any range.  What a shame about
+>>    Charlie Hayes, huh?
+>Who would you have playing 3B, Wade Boggs or Charlie Hayes?  My choice
+>is Boggs.  No contest.  It will give them time to develop younger talent
+>in an area the Yankee farm system seems to be deficient.
+
+A-hem. Two words: Russell Davis. Playing in the cavern at Albany (AA) last
+year (375/410/385 down the alleys and to center), Davis went .285/.355/.483
+with 22 homers. There aren't any small parks on the road in the Eastern
+League, either. He's 23(!) and his MLE was .258/.308/.416, 17 HR. I have no
+fielding statistics, but from seeing him a number of times last year I'd say
+that he's not Brooks Robinson, but neither is he Howard Johnson. Unless they
+think they can win the pennant *this year* (which seems possible) and need
+Boggs to do it, I think they're making the same sort of mistake with Davis
+that Boston made with Boggs, leaving him in the minors for two or three
+years after he'd shown that he was a good hitter.
+
+>>3.  Spike Owen.
+>>    See Wade Boggs.  I'd much rather see them develop Dave Silvestri
+>>    or whoever.  Wade and Spike next to each other in the infield is
+>>    going to raise the Yankee staff ERA 1/2 point.  And these guys
+>>    are on the down sides of their careers.
+>Too bad they gave up on Randy Valarde.  Too many trips on the Columbus
+>Shuttle!
+
+Hrm? They still have him on the roster (16 AB through the first two weeks).
+They've just never figured out what to do with him. I suspect that he hits
+enough (especially vs. lefties) to be a reasonable shortstop. One rumor
+running around during spring training was that they wanted to convert
+Silvestri to be a catcher(!) because "his body type was wrong for a
+shortstop".  You'd think that somebody in the same *division*, who plays
+Baltimore about a dozen times a year, would know better.
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+If one of our guys went down, I just doubled it. No confusion there. It
+didn't require a Rhodes Scholar. If two of my teammates went down, four of
+yours would. I had to protect my guys.
+	- Don Drysdale
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ yanke thought         wade bogg live boston like
+wade lot career wind rather see yank start develop
+long term solut hensley muelin russ davi velard
+besid wade doesn't rang shame charli hay huh play
+wade bogg charli hay choic bogg contest give time
+develop younger talent area yanke farm system seem
+defici  hem two word russel davi play cavern
+albani last year alley center davi went homer
+aren't small park road eastern leagu either he mle
+field statist see number time last year i'd say he
+brook robinson neither howard johnson unless think
+win pennant year seem possibl need bogg think
+they'r make sort mistak davi boston made bogg leav
+minor two three year he'd shown good hitter  spike
+owen see wade bogg i'd much rather see develop
+dave silvestri whoever wade spike next infield go
+rais yanke staff era point guy side career bad
+gave randi valard mani trip columbus shuttl  hrm
+still roster first two week they'v never figur
+suspect hit enough especi lefti reason shortstop
+one rumor run around spring train want convert
+silvestri catcher bodi type wrong shortstop you'd
+think somebodi divis play baltimor dozen time year
+know better    one guy went doubl confus didn't
+requir rhode scholar two teammat went four protect
+guy drysdal
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+wade, 9605, 0.410585247077
+bogg, 1199, 0.394849952579
+davi, 2396, 0.257385816847
+silvestri, 7959, 0.160757613458
+yanke, 9933, 0.158239995969
+spike, 8233, 0.158092474189
+went, 9704, 0.151563393601
+hay, 4210, 0.14370161877
+charli, 1670, 0.14370161877
+year, 9943, 0.142168176301
+shortstop, 7909, 0.13323359077
+guy, 4100, 0.127436333227
+develop, 2588, 0.126409952326
+play, 6681, 0.111933360984
+boston, 1243, 0.108940425087
+career, 1517, 0.10476725132
+albani, 379, 0.0882209113238
+muelin, 5914, 0.0856963175317
+hrm, 4413, 0.0856963175317
+hensley, 4259, 0.0856963175317
+drysdal, 2889, 0.0836335742091
+defici, 2479, 0.0818895495799
+cavern, 1575, 0.0818895495799
+time, 8936, 0.0806452249195
+mle, 5796, 0.080378806729
+alley, 428, 0.080378806729
+velard, 9454, 0.0790462370944
+think, 8871, 0.077735729119
+owen, 6358, 0.0767758959214
+brook, 1339, 0.0757914696142
+russ, 7548, 0.0748858851969
+rhode, 7376, 0.0748858851969
+howard, 4402, 0.0748858851969
+teammat, 8733, 0.074047444985
+columbus, 1914, 0.0712041324995
+younger, 9963, 0.070012108342
+russel, 7549, 0.070012108342
+eastern, 2967, 0.070012108342
+shame, 7851, 0.0694601078703
+roster, 7489, 0.0694601078703
+robinson, 7441, 0.0689337913266
+lefti, 5196, 0.0684308745128
+scholar, 7683, 0.0674875145498
+dozen, 2848, 0.0674875145498
+yank, 9932, 0.0670437806021
+rumor, 7541, 0.0666167953848
+randi, 7091, 0.0662053403902
+farm, 3390, 0.0662053403902
+pennant, 6524, 0.0654247712272
+infield, 4627, 0.06400870479
+huh, 4429, 0.0633620279047
+contest, 2086, 0.0633620279047
+trip, 9104, 0.0613517847478
+johnson, 4880, 0.0613517847478
+shown, 7918, 0.0603454537572
+talent, 8683, 0.0601072604245
+rais, 7076, 0.0594213676753
+mistak, 5776, 0.0594213676753
+wind, 9773, 0.0592016760072
+homer, 4355, 0.0587746907899
+catcher, 1557, 0.0583632357953
+baltimor, 887, 0.0573956579877
+statist, 8348, 0.0568524929444
+era, 3164, 0.056504349617
+spring, 8266, 0.0563342146002
+solut, 8118, 0.0558386420032
+train, 9042, 0.0555199233098
+protect, 6940, 0.0552099377434
+staff, 8301, 0.054908219452
+suspect, 8603, 0.0547603249877
+confus, 2037, 0.0544702125433
+somebodi, 8121, 0.0540485327261
+besid, 1051, 0.0537758986806
+gave, 3798, 0.0532495821368
+road, 7431, 0.0527466653231
+doubl, 2828, 0.0527466653231
+divis, 2767, 0.0523836256599
+choic, 1717, 0.0522651558296
+park, 6430, 0.0521479136881
+minor, 5745, 0.0520318740513
+rang, 7094, 0.051144064603
+leav, 5184, 0.0504205637346
+aren, 623, 0.0493695856743
+bodi, 1194, 0.0490103883495
+dave, 2395, 0.0489223430382
+hitter, 4322, 0.0481593282084
+figur, 3476, 0.0480776400166
+especi, 3190, 0.0468449918822
+term, 8795, 0.0464857945574
+unless, 9289, 0.0460692899017
+area, 622, 0.0460013391544
+center, 1606, 0.045667575558
+shuttl, 7929, 0.0455367791255
+convert, 2115, 0.0454719436162
+leagu, 5176, 0.045407477542
+type, 9177, 0.0441897694565
+small, 8054, 0.0440749079074
+sort, 8144, 0.0435174668175
+field, 3466, 0.0425784591397
+requir, 7302, 0.0420886092365
+week, 9691, 0.0416651756643
+bad, 861, 0.0416651756643
+wrong, 9869, 0.0415274810794
+live, 5310, 0.041481952787
+win, 9770, 0.0411241754516
+word, 9829, 0.04052406238
+hit, 4316, 0.0395640154444
+thought, 8887, 0.0394875707926
+didn, 2625, 0.0377926298214
+possibl, 6765, 0.0370932419086
+number, 6156, 0.0367890901133
+doesn, 2793, 0.0366994164701
+reason, 7156, 0.0364929013286
+start, 8334, 0.0358121687917
+long, 5336, 0.035648198307
+lot, 5356, 0.035300877171
+run, 7543, 0.034079947779
+better, 1060, 0.0338461839793
+mani, 5479, 0.032092248035
+point, 6710, 0.0319348365857
+want, 9634, 0.0308192769513
+need, 5993, 0.0304192097436
+good, 3948, 0.0290828429063
+say, 7653, 0.0287241201622
+make, 5459, 0.0283764226711
+know, 5052, 0.0243696561579
+like, 5272, 0.0238224243967

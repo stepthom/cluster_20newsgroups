@@ -1,0 +1,101 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38314
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+Subject: [ANNOUNCE] Ivan Sutherland to speak at Harvard
+From: eekim@husc11.harvard.edu (Eugene Kim)
+Distribution: harvard
+Organization: Harvard University Science Center
+Nntp-Posting-Host: husc11.harvard.edu
+Lines: 21
+
+The Harvard Computer Society is pleased to announce its third lecture of
+the spring.  Ivan Sutherland, the father of computer graphics and an
+innovator in microprocessing, will be speaking at Harvard University on
+Tuesday, April 20, 1993, at 4:00 pm in Aiken Computations building, room
+101.  The title of his talk is "Logical Effort and the Conflict over the
+Control of Information."
+
+Cookies and tea will be served at 3:30 pm in the Aiken Lobby.  Admissions
+is free, and all are welcome.
+
+Aiken is located north of the Science Center near the Law School.
+
+For more information, send e-mail to eekim@husc.harvard.edu.
+
+The lecture will be videotaped, and a tape will be made available.
+
+Thanks.
+
+-- 
+Eugene Kim '96                     |   "Give me a place to stand, and I will
+INTERNET: eekim@husc.harvard.edu   |    move the earth."        --Archimedes
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+announc ivan sutherland speak harvard
+harvard comput societi pleas announc third lectur
+spring ivan sutherland father comput graphic innov
+microprocess speak harvard univers tuesday april
+aiken comput build room titl talk logic effort
+conflict control inform  cooki tea serv aiken
+lobbi admiss free welcom  aiken locat north scienc
+center near law school    lectur videotap tape
+made avail  thank   eugen kim give place stand
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+aiken, 352, 0.434234550169
+harvard, 4191, 0.403070782106
+ivan, 4806, 0.274436728819
+sutherland, 8610, 0.268713854737
+lectur, 5187, 0.242980630342
+comput, 1993, 0.193065569109
+announc, 524, 0.170361427404
+speak, 8192, 0.163530256237
+kim, 5018, 0.144744850056
+cooki, 2123, 0.13721836441
+lobbi, 5321, 0.134356927369
+videotap, 9507, 0.131878237859
+tea, 8728, 0.131878237859
+eugen, 3217, 0.127736113907
+admiss, 275, 0.121490315171
+innov, 4659, 0.115821638493
+conflict, 2034, 0.110727377757
+tuesday, 9147, 0.104481579021
+welcom, 9701, 0.0978607655592
+tape, 8700, 0.0951057047269
+logic, 5330, 0.0941695770839
+father, 3404, 0.09357073168
+room, 7476, 0.0929906032906
+spring, 8266, 0.0924280572825
+north, 6110, 0.0924280572825
+serv, 7810, 0.0905834460375
+titl, 8953, 0.0893697721867
+societi, 8093, 0.0880109268541
+school, 7685, 0.0873670727983
+effort, 3007, 0.0867448045552
+locat, 5323, 0.0822390925295
+stand, 8311, 0.0804117890691
+law, 5153, 0.0797004914102
+control, 2107, 0.0774676677149
+april, 595, 0.0771000795128
+free, 3668, 0.0755863021472
+near, 5982, 0.0751443146566
+center, 1606, 0.0749272057769
+build, 1378, 0.0749272057769
+scienc, 7692, 0.069372480332
+avail, 811, 0.0644777155447
+place, 6657, 0.0635778981455
+talk, 8684, 0.0627756857618
+univers, 9282, 0.061686658105
+graphic, 3997, 0.061113853684
+inform, 4637, 0.0610115801602
+pleas, 6688, 0.0546061957809
+thank, 8832, 0.0519836094452

@@ -1,0 +1,172 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61464
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Satellite around Pluto Mission? 
+Organization: U of Toronto Zoology
+Lines: 35
+
+In article <1993Apr30.004311.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Is there a plan to put a satellite around each planet in the solar system to
+>keep watch? ...
+
+There would be some point to doing long-term monitoring of things like
+particles and fields, not to mention atmospheric phenomena.  However,
+there is no particular plan to establish any sort of monitoring network.
+To be precise, there is no particular plan, period.  This is a large
+part of the problem.  In this context, it's not surprising that unexciting
+but useful missions like this get short shrift at budget time.  The closest
+approach to any sort of long-term planetary monitoring mission is the
+occasional chance to piggyback something like this on top of a flashier
+mission like Galileo or Cassini.
+
+>How about a mission (unmanned) to Pluto to stay in orbit and record things
+>around and near and on Pluto...
+
+It is most unlikely that there is much happening on Pluto that would be
+worth monitoring, and it is a prohibitively difficult mission to fly
+without new propulsion technology (something the planetary community
+has firmly resisted being the guinea pigs for).  The combined need to
+arrive at Pluto within a reasonable amount of time, and then kill nearly
+all of the cruise velocity to settle into an orbit, is beyond what can
+reasonably be done with current (that is, 1950s-vintage) propulsion.
+
+>It could do some scanning of not only Pluto, but also of the solar system,
+>objects near and aaroundpluto, as well as SETI and looking at the galaxy
+>without having much of the solar system to worry about..
+
+Most of this can be done just about as well from Earth.  The few things
+that can't be, can be done better from a Voyager-like spacecraft that is
+*not* constrained by the need to enter orbit around a planet.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ satellit around pluto mission     plan put
+satellit around planet solar system keep watch
+point long term monitor thing like particl field
+mention atmospher phenomena howev particular plan
+establish sort monitor network precis particular
+plan period larg part problem context it surpris
+unexcit use mission like get short shrift budget
+time closest approach sort long term planetari
+monitor mission occasion chanc piggyback someth
+like top flashier mission like galileo cassini
+mission unman pluto stay orbit record thing around
+near pluto  unlik much happen pluto worth monitor
+prohibit difficult mission fli without new propuls
+technolog someth planetari communiti firm resist
+guinea pig combin need arriv pluto within reason
+amount time kill near cruis veloc settl orbit
+beyond reason done current 1950s vintag propuls
+could scan pluto also solar system object near
+aaroundpluto well seti look galaxi without much
+solar system worri  done well earth thing can't
+done better voyag like spacecraft constrain need
+enter orbit around planet  svr4 resembl high speed
+collis henri spencer toronto zoolog
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+pluto, 6701, 0.449396979309
+mission, 5772, 0.320281136728
+monitor, 5837, 0.277695996336
+solar, 8107, 0.179836897924
+plan, 6660, 0.165457545775
+near, 5982, 0.164001842523
+orbit, 6280, 0.14663315149
+like, 5272, 0.142173576077
+planetari, 6665, 0.137916579084
+propuls, 6936, 0.13107814361
+planet, 6664, 0.12366602245
+satellit, 7632, 0.11556065455
+particular, 6442, 0.113077562848
+term, 8795, 0.110971940369
+thing, 8869, 0.110676960329
+vintag, 9524, 0.105301477623
+piggyback, 6626, 0.105301477623
+sort, 8144, 0.103885881239
+guinea, 4089, 0.102288093917
+aaroundpluto, 162, 0.102288093917
+1950s, 35, 0.102288093917
+seti, 7816, 0.0943504826881
+cassini, 1544, 0.0943504826881
+prohibit, 6908, 0.0916405777842
+phenomena, 6584, 0.0893846396055
+constrain, 2071, 0.088383867885
+reason, 7156, 0.0871166795942
+unman, 9293, 0.0857619387865
+long, 5336, 0.0851001854322
+settl, 7817, 0.0816798658404
+cruis, 2255, 0.0816798658404
+closest, 1832, 0.0811051306626
+resist, 7314, 0.0805538607182
+occasion, 6187, 0.080024214859
+firm, 3499, 0.0795145604741
+someth, 8126, 0.0795043093118
+veloc, 9456, 0.0790234431385
+particl, 6441, 0.0790234431385
+voyag, 9588, 0.0780917469567
+galileo, 3755, 0.0768046555702
+svr4, 8616, 0.0752596309168
+collis, 1903, 0.0745487173915
+arriv, 655, 0.0738733647515
+need, 5993, 0.0726174256435
+galaxi, 3753, 0.0723194410938
+resembl, 7308, 0.0720290161723
+establish, 3198, 0.0711934359717
+scan, 7660, 0.0706637901125
+worri, 9845, 0.069663018392
+budget, 1367, 0.0691891368448
+zoolog, 9993, 0.0678597786371
+context, 2087, 0.0676504064066
+communiti, 1953, 0.0672411557433
+unlik, 9290, 0.0670410892935
+difficult, 2635, 0.0657179385042
+atmospher, 755, 0.0657179385042
+precis, 6809, 0.065539071805
+enter, 3125, 0.065539071805
+combin, 1921, 0.065539071805
+spencer, 8221, 0.065188292645
+stay, 8355, 0.064512940005
+approach, 589, 0.0643492502631
+time, 8936, 0.0641727017615
+network, 6018, 0.062525688099
+henri, 4258, 0.061433842114
+worth, 9850, 0.0611741372185
+surpris, 8593, 0.0607937109811
+spacecraft, 8166, 0.0601825551808
+period, 6546, 0.0601825551808
+chanc, 1649, 0.058712023457
+kill, 5012, 0.0577803272751
+fli, 3542, 0.057680664547
+record, 7184, 0.0570976572475
+toronto, 9003, 0.0563575137577
+watch, 9655, 0.0560021185531
+speed, 8217, 0.054907718736
+mention, 5632, 0.0540462869107
+technolog, 8743, 0.0536721843626
+short, 7904, 0.0533801894546
+field, 3466, 0.0508221304343
+larg, 5124, 0.0500104727171
+object, 6173, 0.0497320249479
+current, 2299, 0.0489295569135
+happen, 4159, 0.0475953302668
+earth, 2956, 0.0470421783297
+howev, 4406, 0.0465542874279
+high, 4292, 0.0456691375682
+problem, 6887, 0.0424854790122
+better, 1060, 0.0403991880319
+new, 6023, 0.0393374045645
+point, 6710, 0.0381177821637
+look, 5341, 0.0337011908068
+use, 9363, 0.0298246747634

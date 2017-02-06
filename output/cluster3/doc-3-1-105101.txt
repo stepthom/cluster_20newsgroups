@@ -1,0 +1,70 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/105101
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: fls@keynes.econ.duke.edu (Forrest Smith)
+Subject: Re: Infield Fly Rule
+Organization: Duke University; Durham, N.C.
+Lines: 13
+Nntp-Posting-Host: keynes.econ.duke.edu
+
+In article <1qmrciINNoin@gap.caltech.edu> shippert@cco.caltech.edu (Tim Shippert) writes:
+[about the infield fly rule]
+>So, if he's feeling lucky, your runner at second can sprint for glory
+>as soon as the ball is popped up.  If it isn't caught, he's probably scored
+>a run.  If it is, he's probably headed for AAA.  
+>
+	Unless he's Deion Sanders, in which case he just heads back to the
+dugout and waits for his next base-running-blunder opportunity.
+-- 
+@econ.duke.edu     fls@econ.duke.edu     fls@econ.duke.edu    fls@econ.duke.
+s  To my correspondents:  My email has been changed.                       e
+l                         My new address is:  fls@econ.duke.edu            d
+f            If mail bounces, try fls@raphael.acpub.duke.edu               u
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ infield fli rule      infield fli rule he feel
+lucki runner second sprint glori soon ball pop
+isn't caught he probabl score run he probabl head
+aaa  unless he deion sander case head back dugout
+wait next base run blunder opportun   correspond
+email chang
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+infield, 4627, 0.35835554529
+fli, 3542, 0.270546811227
+head, 4215, 0.267367762063
+rule, 7537, 0.26434067214
+dugout, 2910, 0.217935115401
+deion, 2494, 0.217935115401
+probabl, 6885, 0.207152478203
+sander, 7607, 0.199319731687
+glori, 3907, 0.191556628362
+run, 7543, 0.190798084571
+correspond, 2158, 0.188915907267
+lucki, 5382, 0.184215400245
+pop, 6743, 0.180123225132
+aaa, 157, 0.175655222713
+caught, 1568, 0.171012245782
+opportun, 6268, 0.165721591753
+runner, 7545, 0.161721830789
+wait, 9611, 0.152476938739
+soon, 8136, 0.150912655049
+score, 7705, 0.136946943184
+email, 3060, 0.133244008595
+unless, 9289, 0.128960471533
+feel, 3429, 0.124517582355
+ball, 877, 0.123861179453
+isn, 4783, 0.115992332102
+chang, 1650, 0.113790420402
+second, 7753, 0.110218152554
+case, 1540, 0.110112760423
+base, 923, 0.0991127420257

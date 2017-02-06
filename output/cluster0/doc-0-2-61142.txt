@@ -1,0 +1,67 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61142
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: simon@cyklop.nada.kth.se (Simon Tardell)
+Subject: Re: Sunrise/ sunset times
+Nntp-Posting-Host: cyklop.nada.kth.se
+Organization: Royal Institute of Technology, Stockholm, Sweden
+Lines: 14
+
+In <1993Apr21.141824.23536@cbis.ece.drexel.edu> jpw@cbis.ece.drexel.edu (Joseph Wetstein) writes:
+
+>Hello. I am looking for a program (or algorithm) that can be used
+>to compute sunrise and sunset times.
+
+>I would appreciate any advice.
+
+I once thought it would be easiest fitting a sine to the times. But not.
+This gave  discrepancy of upto six minutes. If you fit a sine series
+you'll get a very good fit after just three or four terms though. This
+presumably has to do with the eccentricity of the Earths orbit.
+
+-- 
+Simon Tardell, Ff88, simon@nada.kth.se              V}ga v{gra cgs!
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ sunris sunset time       hello look program
+algorithm use comput sunris sunset time  appreci
+advic  thought easiest fit sine time gave discrep
+upto six minut fit sine seri you'll get good fit
+three four term though presum eccentr earth orbit
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+fit, 3510, 0.417379735086
+sunset, 8548, 0.395462852548
+sunris, 8547, 0.395462852548
+upto, 9345, 0.240485796983
+time, 8936, 0.219834854306
+discrep, 2702, 0.219108611628
+easiest, 2961, 0.215476093376
+eccentr, 2971, 0.209287256759
+advic, 292, 0.17448453155
+presum, 6845, 0.163849389116
+hello, 4247, 0.152657108137
+gave, 3798, 0.145155700695
+minut, 5747, 0.142472203761
+algorithm, 407, 0.134085561497
+term, 8795, 0.126717953655
+seri, 7805, 0.125768932337
+appreci, 587, 0.119225309038
+orbit, 6280, 0.111626133194
+thought, 8887, 0.107641145285
+earth, 2956, 0.107434159546
+comput, 1993, 0.106922692446
+ll, 5314, 0.0976973128236
+program, 6905, 0.0957304114668
+good, 3948, 0.0792783768598
+look, 5341, 0.0769662298515
+use, 9363, 0.068113105743

@@ -1,0 +1,192 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60956
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: djf@cck.coventry.ac.uk (Marvin Batty)
+Subject: Re: Moon Colony Prize Race! $6 billion total?
+Nntp-Posting-Host: cc_sysk
+Organization: Starfleet, Coventry, UK
+Lines: 49
+
+In article <1993Apr20.020259.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>I think if there is to be a prize and such.. There should be "classes"
+>such as the following:
+>
+>Large Corp.
+>Small Corp/Company (based on reported earnings?)
+>Large Government (GNP and such)
+>Small Governemtn (or political clout or GNP?)
+>Large Organization (Planetary Society? and such?)
+>Small Organization (Alot of small orgs..)
+
+Whatabout, Schools, Universities, Rich Individuals (around 250 people 
+in the UK have more than 10 million dollars each). I reecieved mail
+from people who claimed they might get a person into space for $500
+per pound. Send a skinny person into space and split the rest of the money
+among the ground crew!
+>
+>The organization things would probably have to be non-profit or liek ??
+>
+>Of course this means the prize might go up. Larger get more or ??
+>Basically make the prize (total purse) $6 billion, divided amngst the class
+>winners..
+>More fair?
+>
+>There would have to be a seperate organization set up to monitor the events,
+>umpire and such and watch for safety violations (or maybe not, if peopel want
+>to risk thier own lives let them do it?).
+>
+Agreed. I volunteer for any UK attempts. But one clause: No launch methods
+which are clearly dangerous to the environment (ours or someone else's). No
+usage of materials from areas of planetary importance.
+
+>Any other ideas??
+
+Yes: We should *do* this rather than talk about it. Lobby people!
+The major problem with the space programmes is all talk/paperwork and
+no action!
+
+>==
+>Michael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked
+>
+>
+
+
+-- 
+****************************************************************************  
+                  Marvin Batty - djf@uk.ac.cov.cck
+"And they shall not find those things, with a sort of rafia like base,
+that their fathers put there just the night before. At about 8 O'clock!"
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ moon coloni prize race billion total      think
+prize class follow  larg corp small corp compani
+base report earn larg govern gnp small governemtn
+polit clout gnp larg organ planetari societi small
+organ alot small org  whatabout school univers
+rich individu around peopl million dollar reeciev
+mail peopl claim might get person space per pound
+send skinni person space split rest money among
+ground crew  organ thing probabl non profit liek
+cours mean prize might larger get basic make prize
+total purs billion divid amngst class winner fair
+seper organ set monitor event umpir watch safeti
+violat mayb peopel want risk thier live let  agre
+volunt attempt one claus launch method clear
+danger environ someon els usag materi area
+planetari import  idea  yes rather talk lobbi
+peopl major problem space programm talk paperwork
+action           shall find thing sort rafia like
+base father put night o'clock
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+prize, 6881, 0.349677334499
+organ, 6287, 0.261409840943
+small, 8054, 0.243237106276
+gnp, 3919, 0.214827827956
+larg, 5124, 0.173419413046
+corp, 2153, 0.165857590929
+planetari, 6665, 0.159416024249
+class, 1789, 0.149522434992
+billion, 1092, 0.148760964177
+space, 8164, 0.132831114968
+peopl, 6530, 0.127052041245
+total, 9013, 0.124594018351
+rafia, 7066, 0.118233510202
+peopel, 6529, 0.118233510202
+paperwork, 6411, 0.115387584138
+lobbi, 5321, 0.112981387936
+purs, 6994, 0.110897045978
+thier, 8866, 0.105926181371
+talk, 8684, 0.105576753576
+claus, 1795, 0.104567987914
+person, 6562, 0.104013190159
+seper, 7798, 0.102161791711
+volunt, 9579, 0.101084855914
+liek, 5259, 0.101084855914
+coloni, 1906, 0.0982389298493
+base, 923, 0.0976996068438
+alot, 438, 0.095832733647
+usag, 9360, 0.093748391689
+violat, 9526, 0.091909871785
+clock, 1827, 0.091909871785
+divid, 2764, 0.0907944418177
+winner, 9786, 0.089753430956
+org, 6286, 0.0878590634867
+earn, 2954, 0.0874193336247
+risk, 7416, 0.0869916526848
+crew, 2227, 0.0857747215288
+thing, 8869, 0.0852867296482
+umpir, 9210, 0.0850131374225
+rich, 7382, 0.0835931245657
+profit, 6903, 0.0829287954645
+danger, 2356, 0.0822915895287
+pound, 6776, 0.0819824828375
+safeti, 7579, 0.0816793785988
+split, 8247, 0.0808038569223
+dollar, 2802, 0.0805225992622
+monitor, 5837, 0.080246319876
+larger, 5125, 0.0799748455931
+programm, 6906, 0.0791876513452
+father, 3404, 0.0786840793581
+shall, 7846, 0.0770394672622
+race, 7049, 0.0770394672622
+polit, 6723, 0.0757557817158
+societi, 8093, 0.0740088126772
+school, 7685, 0.0734673926978
+environ, 3139, 0.0726047766671
+million, 5724, 0.0721091992399
+action, 251, 0.0710105987921
+event, 3232, 0.0708597823743
+method, 5666, 0.0702706793358
+ground, 4061, 0.0701268130841
+materi, 5543, 0.0687566904106
+attempt, 763, 0.0686260672399
+individu, 4604, 0.0682406309206
+rest, 7324, 0.0666723484527
+fair, 3363, 0.0661087717941
+govern, 3966, 0.0651429352398
+compani, 1958, 0.0649361854912
+watch, 9655, 0.0647321384312
+basic, 937, 0.0642333938379
+area, 622, 0.0634671355654
+night, 6063, 0.0633739449733
+moon, 5851, 0.0633739449733
+money, 5835, 0.0629161591488
+report, 7291, 0.0621245281077
+non, 6097, 0.0618693282356
+launch, 5147, 0.0613711143119
+claim, 1782, 0.0608092765691
+agre, 337, 0.060419995102
+sort, 8144, 0.0600401861497
+send, 7785, 0.0599653208848
+clear, 1803, 0.0598908129733
+import, 4551, 0.0591646644731
+major, 5458, 0.0572946422823
+live, 5310, 0.0572318277998
+yes, 9951, 0.0568601583883
+set, 7815, 0.0559102453974
+mayb, 5564, 0.0546386907067
+els, 3053, 0.0539633044556
+mail, 5447, 0.0536611780337
+cours, 2190, 0.0534137976133
+idea, 4482, 0.0533647885375
+univers, 9282, 0.0518726081813
+follow, 3578, 0.0513049318831
+probabl, 6885, 0.051049732011
+someon, 8124, 0.0510076014111
+let, 5225, 0.0492958159879
+problem, 6887, 0.0491084262486
+mean, 5595, 0.048239001853
+want, 9634, 0.0425207453576
+make, 5459, 0.0391503877416
+think, 8871, 0.0357501480679
+like, 5272, 0.0328673266142

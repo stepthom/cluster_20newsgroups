@@ -1,0 +1,140 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83812
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: rjk@world.std.com (Robert J. Kolker)
+Subject: Odds and Ends
+Keywords: Cheap shots a Christianity
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 46
+
+Just a few cheap shots a Christianity:
+
+Riddle: What is the shortest street in Jerusalem?
+Answer: The Street of the Righteous Poles.
+
+Limrick:
+
+There was an archeologist Thostle
+Who found an amazing fossil
+By the way it was bent
+And the knot it the end
+'twas the penis of Paul the Apostle.
+
+Jingle:
+Christianity hits the spot
+Twelve Apostles thats a lot
+Jesus Christ and a Virgin too
+Christianity's the faith for you
+(with apologies to Pepsi Cola and its famous jingle)
+
+Riddle:
+How many Christians does it take to save a light bulb.
+Answer: None, only Jesus can save.
+
+Aphorism:
+Jesus Saves
+Moses Invests
+
+Proof that Jesus was Jewish:
+1. He lived at home till he was 33
+2. He went into his fathers business
+3. He thought he mother was a virgin
+4. His mother thought he was God.
+
+QED.
+
+So long you all
+
+Bob Kolker
+"I would rather spend eternity in Hell with interesting people 
+than eternity in Heaven with Christians"
+
+
+-- 
+"If you can't love the Constitution, then at least hate the Government"
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ odd end     cheap shot christian  riddl shortest
+street jerusalem answer street righteous pole
+limrick  archeologist thostl found amaz fossil way
+bent knot end twas peni paul apostl  jingl
+christian hit spot twelv apostl that lot jesus
+christ virgin christian faith apolog pepsi cola
+famous jingl  riddl mani christian take save light
+bulb answer none jesus save  aphor jesus save mose
+invest  proof jesus jewish live home till went
+father busi thought mother virgin mother thought
+god  qed  long  bob kolker rather spend etern hell
+interest peopl etern heaven christian    can't
+love constitut least hate govern
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+christian, 1732, 0.315801679859
+jesus, 4859, 0.289428571899
+riddl, 7392, 0.287770699357
+apostl, 574, 0.241527076399
+virgin, 9532, 0.228191118941
+save, 7646, 0.214879259931
+mother, 5877, 0.201363138084
+etern, 3205, 0.189839022326
+street, 8440, 0.181745843045
+bent, 1035, 0.138765810112
+qed, 7006, 0.134794786718
+fossil, 3622, 0.134794786718
+peni, 6521, 0.131550224358
+knot, 5051, 0.131550224358
+answer, 535, 0.131365010756
+pepsi, 6531, 0.12880698597
+twelv, 9168, 0.126430684791
+cola, 1887, 0.126430684791
+jerusalem, 4856, 0.124334638604
+thought, 8887, 0.124222809948
+end, 3091, 0.122698058089
+mose, 5873, 0.119215099037
+pole, 6717, 0.109256274895
+till, 8933, 0.104783927528
+righteous, 7400, 0.101212827124
+constitut, 2070, 0.100681569042
+famous, 3380, 0.100165711934
+proof, 6919, 0.0953022318088
+apolog, 571, 0.094919511163
+amaz, 459, 0.0941779111869
+invest, 4744, 0.0927814441194
+heaven, 4229, 0.091801610008
+odd, 6198, 0.0905738250009
+cheap, 1677, 0.0902796724504
+hate, 4202, 0.0897055638201
+father, 3404, 0.0897055638201
+shot, 7910, 0.0873292626413
+jewish, 4864, 0.0873292626413
+spot, 8261, 0.0868416753153
+paul, 6469, 0.0839615452979
+spend, 8222, 0.0833582392466
+christ, 1729, 0.0822097230749
+busi, 1424, 0.0820253087393
+hell, 4245, 0.0816621160491
+faith, 3367, 0.0811308579671
+went, 9704, 0.0794664846873
+bob, 1189, 0.0782386996801
+govern, 3966, 0.0742676762854
+light, 5267, 0.0708264729844
+love, 5366, 0.0706319811673
+home, 4354, 0.0686221134729
+live, 5310, 0.0652484393682
+god, 3926, 0.0627209105809
+hit, 4316, 0.0622316474863
+long, 5336, 0.0560723193955
+lot, 5356, 0.0555260056239
+mani, 5479, 0.0504790387004
+peopl, 6530, 0.0482828508104
+way, 9666, 0.0465517013767

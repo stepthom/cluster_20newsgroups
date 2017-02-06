@@ -1,0 +1,106 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62479
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: england@helix.nih.gov (Mad Vlad)
+Subject: Satellite Capabilities-Patriot Games
+Organization: Nat'l Inst of Health
+Lines: 20
+
+Hello netters,
+
+   I'm new to this board and I thought this might be the best place
+for my post.  I have a question regarding satellite technology seen
+in the movie Patriot Games.  In the movies, the CIA utilizes its
+orbitting sats to pinpoint a specific terrorist camp in N Africa.
+The photos taken by the sats are stunning!  I know that sats are
+capable of photographing the license plates of vehicles.  My
+question is this:  The camp in question was taken out by the
+British SAS.  And while the SAS was in action, the CIA team was
+watching in the warroom back in Langley, VA.  The action of the SAS
+was clear and appeared to be relayed via a sat.  The action was at
+night and the photography appeared to be an x-ray type.  That is,
+one could see the action within the tents/structures of the camp.
+Does such techology exist and what is it's nature?  i.e., UV, IR,
+x-ray, etc.
+
+PS  Who wrote the book Patriot Games?
+
+Mad Vlad
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ satellit capabl patriot game    hello netter  i'm
+new board thought might best place post question
+regard satellit technolog seen movi patriot game
+movi cia util orbit sat pinpoint specif terrorist
+camp africa photo taken sat stun know sat capabl
+photograph licens plate vehicl question camp
+question taken british sas sas action cia team
+watch warroom back langley action sas clear appear
+relay via sat action night photographi appear ray
+type one could see action within tent structur
+camp techolog exist it natur ray etc  wrote book
+patriot game  mad vlad
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sat, 7626, 0.365209406752
+patriot, 6467, 0.346707858448
+sas, 7623, 0.334669707208
+camp, 1476, 0.313505584119
+action, 251, 0.290548535873
+cia, 1750, 0.213926345534
+movi, 5892, 0.16306753227
+game, 3761, 0.145197875964
+question, 7032, 0.144994475419
+taken, 8678, 0.144660136747
+capabl, 1498, 0.143174574118
+satellit, 7632, 0.136634702587
+ray, 7118, 0.133483742044
+appear, 580, 0.129841767485
+tent, 8791, 0.115569286149
+stun, 8474, 0.115569286149
+terrorist, 8809, 0.111556569069
+photographi, 6605, 0.111556569069
+africa, 319, 0.109874286267
+langley, 5112, 0.106963172767
+mad, 5424, 0.10568513735
+relay, 7252, 0.0988068614908
+netter, 6017, 0.0980278328993
+british, 1320, 0.0958957479906
+licens, 5254, 0.0908110231115
+photograph, 6604, 0.0903343632718
+photo, 6603, 0.0858588045435
+plate, 6674, 0.0810014862181
+hello, 4247, 0.07903384065
+board, 1186, 0.0766720119383
+vehicl, 9449, 0.0764736625697
+util, 9384, 0.074969782951
+structur, 8460, 0.0727929100219
+wrote, 9871, 0.0677366720707
+natur, 5966, 0.0676230280405
+watch, 9655, 0.0662148621651
+regard, 7224, 0.0654062377934
+night, 6063, 0.0648255585705
+technolog, 8743, 0.0634600329682
+specif, 8203, 0.0633730195712
+type, 9177, 0.0623642471766
+clear, 1803, 0.061262643597
+seen, 7767, 0.0592641738517
+orbit, 6280, 0.0577912298415
+exist, 3283, 0.0572499265173
+book, 1218, 0.0571908990237
+thought, 8887, 0.0557281166117
+place, 6657, 0.0546875583377
+best, 1052, 0.0533824242519
+team, 8732, 0.0530153524802
+post, 6766, 0.0466323038473
+new, 6023, 0.0465111122306
+know, 5052, 0.03439246864

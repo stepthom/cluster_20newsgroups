@@ -1,0 +1,52 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38806
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: matt-dah@dsv.su.se (Mattias Dahlberg)
+Subject: Re: Psygnosis CD-I titles (was Re: Rumours about 3DO ???)
+Organization: Dept. of Computer and Systems Sciences, Stockholm University
+Lines: 12
+X-Newsreader: TIN [version 1.1 PL8]
+
+Mark Samson (samson@prlhp1.prl.philips.co.uk) wrote:
+
+> Speaking of Psygnosis, they have licensed games to Philips Interative
+> Media International for CD-I.
+
+And for the Commodore CDTV.
+
+--
+=========================================================
+=  Regards  =  email:              =  1280x512x262000+  = 
+=  Mattias  =  matt-dah@dsv.su.se  =  I love it.        =
+=========================================================
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ psygnosi titl rumour 3do       speak psygnosi
+licens game philip inter media intern  commodor
+cdtv    regard email 1280x512x262000
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+psygnosi, 6969, 0.599528882122
+commodor, 1947, 0.299764441061
+1280x512x262000, 17, 0.299764441061
+philip, 6590, 0.254453566423
+inter, 4703, 0.237893037033
+rumour, 7542, 0.223609069479
+3do, 98, 0.223609069479
+licens, 5254, 0.218641800358
+media, 5605, 0.187080956014
+titl, 8953, 0.185083474796
+intern, 4716, 0.170984531232
+speak, 8192, 0.169334369542
+email, 3060, 0.16173766545
+regard, 7224, 0.157475789786
+game, 3761, 0.116528896755

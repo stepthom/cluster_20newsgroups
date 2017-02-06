@@ -1,0 +1,239 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38428
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ldo@waikato.ac.nz (Lawrence D'Oliveiro, Waikato University)
+Subject: Re: Rumours about 3DO ???
+Organization: University of Waikato, Hamilton, New Zealand
+Lines: 52
+
+In article <1993Apr16.212441.34125@rchland.ibm.com>, ricardo@rchland.vnet.ibm.com (Ricardo Hernandez Muchado) writes:
+> In article <1993Apr15.164940.11632@mercury.unt.edu>, Sean McMains <mcmains@unt.edu> writes:
+>
+> |>
+> |> Ricardo, the animation playback to which Lawrence was referring in an
+> |> earlier post is plain old Quicktime 1.5 with the Compact Video codec.
+> |> I've seen digitized video (some of Apple's early commercials, to be
+> |> precise) running on a Centris 650 at about 30fps very nicely (16-bit
+> |> color depth). I would expect that using the same algorithm, a RISC
+> |> processor should be able to approach full-screen full-motion animation,
+> |> though as you've implied, the processor will be taxed more with highly
+> |> dynamic material.
+>
+>
+>    Sean, I don't want to get into a 'mini-war' by what I am going to say,
+> but I have to be a little bit skeptic about the performance you are
+> claiming on the Centris, you'll see why (please, no-flames, I reserve
+> those for c.s.m.a :-) )
+>
+>    I was in Chicago in the last consumer electronics show, and Apple had a
+> booth there.  I walked by, and they were showing real-time video capture
+> using a (Radious or SuperMac?) card to digitize and make right on the spot
+> quicktime movies.  I think the quicktime they were using was the old one
+> (1.5).
+
+That is in fact the current version (it only came out in December).
+
+>    They digitized a guy talking there in 160x2xx something.  It played back quite
+> nicely and in real time.  The guy then expanded the window (resized) to 25x by
+> 3xx (320 in y I think) and the frame rate decreased enough to notice that it
+> wasn't 30fps (or about 30fps) anymore.  It dropped to like 15 fps.  Then he
+> increased it just a bit more, and it dropped to 10<->12 fps.
+>
+>    Then I asked him what Mac he was using... He was using a Quadra (don't know
+> what model, 900?) to do it, and he was telling the guys there that the Quicktime
+> could play back at the same speed even on an LCII.
+>
+>    Well, I spoiled his claim so to say, since a 68040 Quadra Mac was having
+> a little bit of trouble.  And this wasn't even from the hardisk!  This was
+> from memory!
+
+My test movie was created at 320*240 resolution, it wasn't being scaled up.
+Scaling was a very CPU-intensive operation with the original QuickTime (1.0);
+the current version has optimizations for ratios like 4:1 (160*120 -> 320*240),
+but even so, I'm prepared to believe that the performance isn't as good as
+with playing back an actual 320*240 movie. I haven't done any numerical
+measurements for scaled playback.
+
+Lawrence D'Oliveiro                       fone: +64-7-856-2889
+Computer Services Dept                     fax: +64-7-838-4066
+University of Waikato            electric mail: ldo@waikato.ac.nz
+Hamilton, New Zealand    37^ 47' 26" S, 175^ 19' 7" E, GMT+12:00
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ rumour 3do        ricardo anim playback lawrenc
+refer earlier post plain old quicktim compact
+video codec i'v seen digit video appl earli
+commerci precis run centri 30fps nice bit color
+depth expect use algorithm risc processor abl
+approach full screen full motion anim though you'v
+impli processor tax high dynam materi   sean don't
+want get mini war go say littl bit skeptic perform
+claim centri you'll see pleas flame reserv
+chicago last consum electron show appl booth walk
+show real time video captur use radious supermac
+card digit make right spot quicktim movi think
+quicktim use old one   fact current version came
+decemb  digit guy talk 160x2xx someth play back
+quit nice real time guy expand window resiz 25x
+3xx think frame rate decreas enough notic wasn't
+30fps 30fps anymor drop like fps increas bit drop
+fps  ask mac use use quadra don't know model tell
+guy quicktim could play back speed even lcii  well
+spoil claim say sinc quadra mac littl bit troubl
+wasn't even hardisk memori  test movi creat
+resolut wasn't scale scale cpu intens oper origin
+quicktim current version optim ratio like even i'm
+prepar believ perform isn't good play back actual
+movi haven't done numer measur scale playback
+lawrenc d'oliveiro fone comput servic dept fax
+hamilton new zealand gmt
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+quicktim, 7039, 0.359919446339
+30fps, 84, 0.248358967193
+movi, 5892, 0.175216466445
+digit, 2642, 0.165200148242
+scale, 7659, 0.159972882862
+fps, 3634, 0.157413589531
+centri, 1612, 0.157413589531
+video, 9506, 0.155437674461
+bit, 1122, 0.154308466021
+quadra, 7010, 0.153242924663
+playback, 6682, 0.153242924663
+wasn, 9652, 0.148910426834
+lawrenc, 5154, 0.142730973277
+guy, 4100, 0.128831889073
+use, 9363, 0.126302778091
+processor, 6891, 0.12628080855
+appl, 583, 0.12628080855
+play, 6681, 0.113159143713
+drop, 2878, 0.110720011095
+mac, 5410, 0.1019454391
+anim, 515, 0.0987395393501
+perform, 6539, 0.0928736305338
+nice, 6047, 0.0926029134688
+oliveiro, 6225, 0.089187018912
+claim, 1782, 0.0891151448357
+version, 9479, 0.0889999036599
+ricardo, 7380, 0.0866347782822
+radious, 7063, 0.0866347782822
+lcii, 5168, 0.0866347782822
+hardisk, 4172, 0.0866347782822
+fone, 3581, 0.0866347782822
+3xx, 103, 0.0866347782822
+25x, 75, 0.0866347782822
+160x2xx, 29, 0.0866347782822
+old, 6216, 0.0864979708682
+supermac, 8563, 0.0845494458484
+current, 2299, 0.0828835723165
+resiz, 7315, 0.0812590353952
+codec, 1872, 0.0812590353952
+mini, 5737, 0.0787067947654
+real, 7144, 0.0784214980939
+littl, 5308, 0.0768819044963
+spoil, 8249, 0.0757059608553
+skeptic, 8002, 0.0733310518784
+risc, 7413, 0.0733310518784
+hamilton, 4137, 0.0733310518784
+booth, 1227, 0.0733310518784
+compact, 1956, 0.0719838892679
+cpu, 2200, 0.0713654866385
+sean, 7744, 0.0696886855788
+decreas, 2456, 0.0686934788148
+decemb, 2438, 0.0686934788148
+ratio, 7109, 0.0682265706187
+optim, 6274, 0.0669303553641
+rumour, 7542, 0.0665289926913
+3do, 98, 0.0665289926913
+consum, 2077, 0.0650511125151
+zealand, 9977, 0.0643781147343
+intens, 4701, 0.0637425255314
+plain, 6659, 0.0634375031217
+reserv, 7309, 0.0631404042748
+anymor, 553, 0.0631404042748
+expand, 3288, 0.0625684019626
+prepar, 6831, 0.0620236484126
+depth, 2545, 0.0620236484126
+captur, 1509, 0.061760702062
+tax, 8718, 0.0610062970869
+motion, 5880, 0.0610062970869
+numer, 6157, 0.060765495298
+impli, 4546, 0.0596321269963
+dynam, 2942, 0.0596321269963
+dept, 2544, 0.0592084614321
+say, 7653, 0.0580773562569
+chicago, 1701, 0.0574750848448
+gmt, 3917, 0.0572977531918
+electron, 3034, 0.0564501312175
+spot, 8261, 0.0558145420146
+war, 9635, 0.0556610140382
+resolut, 7316, 0.0556610140382
+earlier, 2952, 0.0556610140382
+precis, 6809, 0.0555095196049
+troubl, 9117, 0.0553600055477
+frame, 3643, 0.0553600055477
+flame, 3518, 0.0547807596238
+approach, 589, 0.054501778415
+time, 8936, 0.0543522474217
+screen, 7719, 0.0532006426774
+notic, 6120, 0.0528375117812
+think, 8871, 0.0523913422871
+don, 2811, 0.0518865503392
+memori, 5628, 0.0518125581538
+measur, 5601, 0.0515967467984
+increas, 4590, 0.0515967467984
+materi, 5543, 0.0503809843668
+algorithm, 407, 0.04972722572
+rate, 7108, 0.0496368089448
+card, 1513, 0.0491088230906
+haven, 4207, 0.0488536973643
+walk, 9617, 0.048604138464
+commerci, 1940, 0.0483599086329
+like, 5272, 0.0481666077421
+fax, 3413, 0.0480421753541
+model, 5807, 0.0479641022694
+oper, 6261, 0.0478865584978
+window, 9774, 0.0475815360881
+earli, 2951, 0.0474320220309
+servic, 7813, 0.0470665704158
+test, 8812, 0.0469948606982
+speed, 8217, 0.046505100022
+came, 1472, 0.0461013759034
+color, 1907, 0.0459699070708
+expect, 3290, 0.0443288115422
+creat, 2217, 0.0442161243006
+seen, 7767, 0.04245300085
+refer, 7213, 0.0421682310574
+quit, 7043, 0.0418903794384
+isn, 4783, 0.0418903794384
+abl, 180, 0.0418447200465
+origin, 6293, 0.0406761549472
+comput, 1993, 0.0396535525713
+ask, 689, 0.0396159904275
+fact, 3350, 0.0392470015734
+talk, 8684, 0.0386803141602
+high, 4292, 0.0386803141602
+tell, 8767, 0.0373754634484
+actual, 254, 0.0367749232898
+ll, 5314, 0.0362322107824
+believ, 1009, 0.0353210019173
+sinc, 7977, 0.0348664654504
+right, 7399, 0.034792435014
+run, 7543, 0.0344531574371
+someth, 8126, 0.0336688168971
+pleas, 6688, 0.0336465429611
+post, 6766, 0.0334043504904
+new, 6023, 0.0333175366959
+want, 9634, 0.0311567789888
+good, 3948, 0.0294013292469
+make, 5459, 0.0286871730006
+know, 5052, 0.0246365283697

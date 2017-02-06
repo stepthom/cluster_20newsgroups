@@ -1,0 +1,236 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61021
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Iapetus/Saturn Eclipse
+Organization: Jet Propulsion Laboratory
+Lines: 79
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41    
+
+Forwarded from John Spencer (spencer@lowell.edu):
+
+There will be two eclipses of Iapetus by Saturn and its
+rings, in May and July.  Please spread the word!  Here's some
+information about the events, and then a couple of messages from Jay
+Goguen of JPL appealing for thermal observations of the eclipse to
+learn more about the thermal properties of Iapetus.  He might also have
+some money available...
+
+John Spencer, 1993/04/21
+
+Iapetus will be eclipsed by the shadows of Saturn's rings and Saturn
+itself on 1993/05/01-02 (18:27-13:43 UT) and again on 1993/07/20-21,
+(21:16-09:38 UT).  Timing is as follows;
+
+     1993 May 1-2
+
+        A-ring ingress  18:27
+               egress   19:30
+        B-ring ingress  19:51
+               egress   21:42
+        C-ring egress   23:00
+        Saturn ingress  23:59
+               egress   10:02
+        B-ring ingress  10:28
+               egress   12:19
+        A-ring ingress  12:40
+               egress   13:43
+
+     1993 July 20-21
+
+        Saturn ingress  21:16
+               egress   05:08
+        A-ring ingress  05:13  (grazing)
+               egress   09:38
+
+Times could be 30 minutes later according to an alternate ephemeris,
+and photometric observations are important for refining Iapetus'
+orbit.  Because the Sun's size projected on the rings as seen from
+Iapetus is 3100 km it's unlikely that we will learn anything new about
+the rings themselves from the observations.  See Soma (1992), Astronomy
+and Astrophysics 265, L21-L24 for more details.  Thanks to Andy Odell
+of Northern Arizona University for bringing the events to my
+attention.
+
+THERMAL OBSERVATIONS?
+
+Jay Goguen (jdg@scn5.Jpl.Nasa.Gov) writes:
+
+  To me, the interesting thing to do would be thermal IR of the 20 July
+  disappearance into the shadow of the planet to measure thermal inertia,
+  etc.  Unfortunately, the 21:30 UT of this event renders it inaccessible,
+  except from Russia.  Even from Calar Alto, Saturn is rising through 3
+  airmasses at 23:00 UT.  Do you know anyone in Russia or Ukraine with
+  a big telescope and 10 um instrumentation that's looking for something
+  to do?  I'd be willing to make a personal grant of >$100 for the data.
+
+  Jay
+
+and again:
+
+  please try to encourage anyone that can observe the iapetus planet
+  disappearance to do so at thermal wavelengths.  My impression would
+  be that it's not an easy observation.  Iapetus will be faint and
+  getting fainter in eclipse, so you'll need a big telescope that's a
+  good IR telescope and reasonable 10 - 20 um instrumentation.  I don't
+  think that combination is widely available at the longitudes that are
+  well placed for observation.  We need SOFIA for this one.  One
+  possibility would be the IR telescope in India, but it's only a 1.2 m.
+
+jay
+
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ iapetus saturn eclips     news softwar vax vms
+vnew    two eclips iapetus saturn ring pleas
+spread word here inform event coupl messag jay
+goguen jpl appeal thermal observ eclips learn
+thermal properti iapetus might also money avail
+john spencer  iapetus eclips shadow saturn ring
+saturn  time follow    ring ingress egress ring
+ingress egress ring egress saturn ingress egress
+ring ingress egress ring ingress egress    saturn
+ingress egress ring ingress graze egress  time
+could minut later accord altern ephemeri photometr
+observ import refin iapetus orbit sun size project
+ring seen iapetus it unlik learn anyth new ring
+observ see soma astronomi astrophys l21 l24 detail
+thank andi odel northern arizona univers bring
+event attent  thermal observ    interest thing
+thermal disappear shadow planet measur thermal
+inertia etc unfortun event render inaccess except
+russia even calar alto saturn rise airmass know
+anyon russia ukrain big telescop instrument that
+look someth i'd will make person grant data  jay
+pleas tri encourag anyon observ iapetus planet
+disappear thermal wavelength impress it easi
+observ iapetus faint get fainter eclips you'll
+need big telescop that good telescop reason
+instrument don't think combin wide avail longitud
+well place observ need sofia one one possibl
+telescop india it  jay    jet propuls lab telo
+aweto new zealand pasadena part caterpillar part
+veget
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+iapetus, 4469, 0.495655504461
+ring, 7406, 0.441682205221
+saturn, 7640, 0.327411433945
+eclips, 2977, 0.285745231324
+thermal, 8857, 0.268475086908
+observ, 6179, 0.238195842338
+telescop, 8764, 0.166525041565
+event, 3232, 0.111396214317
+jay, 4832, 0.109577681511
+shadow, 7837, 0.0989486497329
+russia, 7550, 0.0982524038563
+disappear, 2678, 0.0982524038563
+instrument, 4686, 0.0859212181432
+planet, 6664, 0.0749057666379
+learn, 5182, 0.0695185849348
+alto, 453, 0.06613531513
+inaccess, 4561, 0.0619569380577
+inertia, 4613, 0.0604656107294
+ephemeri, 3146, 0.0592047114395
+faint, 3362, 0.0581124707933
+avail, 811, 0.0568245287811
+refin, 7215, 0.056287233657
+big, 1082, 0.0557247692406
+longitud, 5339, 0.0555076293233
+wavelength, 9663, 0.0547959063288
+northern, 6111, 0.0519468779368
+india, 4597, 0.0519468779368
+andi, 502, 0.0506175292564
+appeal, 579, 0.0502184425743
+caterpillar, 1562, 0.0498379249227
+aweto, 836, 0.0498379249227
+astrophys, 731, 0.0494743248664
+arizona, 639, 0.0487922921202
+veget, 9448, 0.0484714802404
+pleas, 6688, 0.0481247097166
+new, 6023, 0.0476541314755
+telo, 8769, 0.0473009647919
+zealand, 9977, 0.046040065502
+rise, 7414, 0.0453673862781
+spread, 8265, 0.0451549157759
+properti, 6925, 0.044745847818
+encourag, 3089, 0.0443562668365
+need, 5993, 0.043985112736
+anyon, 554, 0.043960419435
+pasadena, 6446, 0.0438046204658
+grant, 3994, 0.0432878388838
+jpl, 4912, 0.0423429833858
+attent, 766, 0.0421955982376
+render, 7277, 0.0412321737092
+altern, 450, 0.0407286514175
+unlik, 9290, 0.0406074691355
+jet, 4860, 0.0404880560013
+wide, 9747, 0.039806023255
+propuls, 6936, 0.0396976818775
+combin, 1921, 0.0396976818775
+spencer, 8221, 0.0394852113752
+impress, 4554, 0.0393810105467
+astronomi, 729, 0.0393810105467
+unfortun, 9264, 0.0388790337731
+time, 8936, 0.0388700576555
+lab, 5085, 0.0385919989038
+size, 8000, 0.0379590027386
+minut, 5747, 0.0377867931269
+vnew, 9564, 0.0372111025315
+measur, 5601, 0.0368994589558
+accord, 219, 0.0367479795448
+vms, 9563, 0.0360990324103
+easi, 2959, 0.0360990324103
+vax, 9439, 0.0356933465714
+bring, 1316, 0.0345846312884
+later, 5140, 0.0343015700187
+coupl, 2187, 0.0340279774769
+sun, 8539, 0.0338155069746
+messag, 5650, 0.0338155069746
+money, 5835, 0.032969439616
+import, 4551, 0.0310035745846
+john, 4878, 0.0309295500575
+seen, 7767, 0.0303603009805
+project, 6909, 0.0303603009805
+data, 2385, 0.0302918515901
+orbit, 6280, 0.0296057300387
+word, 9829, 0.029298188009
+news, 6031, 0.0282513479664
+anyth, 555, 0.0280416017455
+place, 6657, 0.0280157576342
+softwar, 8103, 0.0272997352154
+person, 6562, 0.0272525901026
+univers, 9282, 0.0271823780456
+inform, 4637, 0.0268849032841
+follow, 3578, 0.0268849032841
+possibl, 6765, 0.0268177648408
+reason, 7156, 0.0263837291062
+ll, 5314, 0.0259114974799
+someth, 8126, 0.0240782840833
+tri, 9087, 0.0236890739182
+thank, 8832, 0.0229067057208
+thing, 8869, 0.0223460532336
+good, 3948, 0.0210263865284
+make, 5459, 0.0205156570593
+look, 5341, 0.0204131537828
+think, 8871, 0.01873385731
+don, 2811, 0.0185533561067
+know, 5052, 0.0176188349809

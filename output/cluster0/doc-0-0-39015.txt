@@ -1,0 +1,49 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39015
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: dbushong@wang.com (Dave Bushong)
+Subject: Re: TIFF: philosophical significance of 42 (SILLY)
+Organization: Wang Labs, Lowell MA, USA
+Lines: 10
+
+rak@crosfield.co.uk (Richard Kirk) writes:
+
+>It's the number of legs on a centipede.
+>So, now you know.
+
+Is that the number of "left" legs, or both left and right?
+-- 
+Dave Bushong, Wang Laboratories, Inc.   Amateur Radio Callsign KZ1O
+Project Leader, Recognition products    kz1o@n0ary.#noca.ca.na
+Internet: dbushong@wang.com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ tiff philosoph signific silli      it number leg
+centiped know  number left leg left right  dave
+bushong wang laboratori inc amateur radio callsign
+kz1o
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+leg, 5199, 0.541182905272
+left, 5193, 0.345199871946
+wang, 9632, 0.328486942476
+number, 6156, 0.282036289909
+silli, 7956, 0.244097930308
+amateur, 458, 0.238307024535
+philosoph, 6595, 0.237236170783
+laboratori, 5090, 0.218607166493
+tiff, 8926, 0.215295070999
+radio, 7061, 0.193655134741
+dave, 2395, 0.187526737977
+signific, 7951, 0.186859534456
+right, 7399, 0.13192000748
+know, 5052, 0.0934125767717

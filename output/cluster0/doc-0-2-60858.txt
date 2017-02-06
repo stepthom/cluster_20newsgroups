@@ -1,0 +1,171 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60858
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: prb@access.digex.com (Pat)
+Subject: Re: End of the Space Age?
+Organization: Express Access Online Communications USA
+Lines: 30
+Distribution: world
+NNTP-Posting-Host: access.digex.net
+
+
+
+Oddly, enough,  The smithsonian calls the lindbergh years
+the golden age of flight.  I would call it the granite years,
+reflecting the primitive nature of it.  It was  romantic,
+swashbuckling daredevils,  "those daring young men in their flying
+machines".  But in reality, it sucked.  Death was a highly likely
+occurence,  and  the environment blew.  Ever see the early navy
+pressure suits,  they were modified  diving suits.  You were ready to
+star in "plan 9 from outer space".   Radios  and Nav AIds were
+a joke,  and engines ran on castor oil.  They  picked and called aviators
+"men with iron stomachs",  and it wasn't due to vertigo.
+
+Oddly enough, now we are in the golden age of flight.  I can hop the
+shuttle to NY for $90 bucks,  now that's golden.
+
+Mercury gemini, and apollo were romantic,  but let's be honest.
+Peeing in bags,  having plastic bags glued to your butt everytime
+you needed a bowel movement.  Living for days inside a VW Bug.
+Romantic,  but not commercial.   The DC-X  points out a most likely
+new golden age.  An age where  fat cigar smoking business men in
+loud polyester space suits will fill the skys with strip malls
+and used space ship lots.
+
+hhhmmmmm,  maybe i'll  retract that golden age bit.   Maybe it was
+better in the old days.  Of course, then we'll have  wally schirra
+telling his great grand children, "In my day,  we walked on the moon.
+Every day.  Miles.  no buses.  you kids got it soft".
+
+pat
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ end space age        odd enough smithsonian call
+lindbergh year golden age flight call granit year
+reflect primit natur romant swashbuckl daredevil
+dare young men fli machin realiti suck death high
+like occur environ blew ever see earli navi
+pressur suit modifi dive suit readi star plan
+outer space radio nav aid joke engin ran castor
+oil pick call aviat men iron stomach wasn't due
+vertigo  odd enough golden age flight hop shuttl
+buck that golden  mercuri gemini apollo romant let
+honest pee bag plastic bag glu butt everytim need
+bowel movement live day insid bug romant commerci
+point like new golden age age fat cigar smoke busi
+men loud polyest space suit fill skys strip mall
+use space ship lot  hhhmmmmm mayb i'll retract
+golden age bit mayb better old day cours we'll
+walli schirra tell great grand children day walk
+moon everi day mile buse kid got soft  pat
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+golden, 3934, 0.369190667883
+age, 328, 0.36236935107
+romant, 7470, 0.293093031296
+suit, 8529, 0.204119950685
+men, 5629, 0.194446406509
+day, 2402, 0.160103083589
+bag, 864, 0.155223827149
+space, 8164, 0.153149607098
+odd, 6198, 0.137397086685
+flight, 3544, 0.117368045849
+walli, 9623, 0.10525125797
+vertigo, 9483, 0.10525125797
+gemini, 3814, 0.102239311386
+cigar, 1755, 0.102239311386
+mall, 5469, 0.0997783718387
+buse, 1421, 0.0997783718387
+stomach, 8408, 0.0976976770986
+smithsonian, 8065, 0.0958952973324
+mayb, 5564, 0.0944947350936
+everytim, 3243, 0.0943054857076
+lindbergh, 5284, 0.0928833507486
+hop, 4371, 0.0928833507486
+blew, 1156, 0.0928833507486
+plastic, 6673, 0.0915968731928
+fat, 3401, 0.0915968731928
+retract, 7341, 0.0893420109006
+dare, 2363, 0.0893420109006
+butt, 1430, 0.0883417164612
+oil, 6213, 0.0874104646175
+dive, 2759, 0.0874104646175
+ll, 5314, 0.0855166101612
+loud, 5361, 0.0849495250702
+aviat, 823, 0.0816409116429
+smoke, 8067, 0.0810664505639
+strip, 8451, 0.0805154435273
+mercuri, 5640, 0.0794766389391
+movement, 5891, 0.0789857558238
+navi, 5968, 0.078512100277
+outer, 6324, 0.0780545039801
+soft, 8097, 0.0776119135747
+primit, 6866, 0.0776119135747
+grand, 3991, 0.0776119135747
+buck, 1359, 0.0776119135747
+joke, 4883, 0.0771833760576
+aid, 351, 0.0771833760576
+ran, 7089, 0.0767680264244
+iron, 4767, 0.0738381335766
+ship, 7888, 0.072581617849
+honest, 4361, 0.072581617849
+suck, 8515, 0.0722849510055
+apollo, 570, 0.0717104899265
+reflect, 7216, 0.0711594828899
+mile, 5713, 0.0696297951864
+bug, 1373, 0.0684754341636
+year, 9943, 0.0678450456902
+kid, 5008, 0.0678274154202
+pressur, 6842, 0.0668120648744
+readi, 7139, 0.0664263872646
+occur, 6192, 0.0646477921706
+modifi, 5814, 0.0646477921706
+realiti, 7148, 0.0632256572116
+insid, 4671, 0.0632256572116
+environ, 3139, 0.0627830668062
+busi, 1424, 0.0622146544829
+machin, 5416, 0.0614045435104
+children, 1707, 0.0608902794815
+pick, 6619, 0.0607647176643
+young, 9962, 0.0602738345491
+radio, 7061, 0.0602738345491
+death, 2423, 0.0602738345491
+pat, 6458, 0.0599170437843
+wasn, 9652, 0.058577320408
+star, 8324, 0.058366413023
+fli, 3542, 0.0576531558829
+walk, 9617, 0.0573586467883
+natur, 5966, 0.0571658178229
+commerci, 1940, 0.0570704266272
+like, 5272, 0.0568423086548
+earli, 2951, 0.0559754104095
+plan, 6660, 0.0551262123018
+moon, 5851, 0.054800948418
+shuttl, 7929, 0.0543272928711
+engin, 3109, 0.0526515624456
+old, 6216, 0.0510389312076
+live, 5310, 0.0494897144946
+end, 3091, 0.0465320850787
+everi, 3235, 0.0462306863165
+cours, 2190, 0.0461881735317
+high, 4292, 0.0456473573586
+bit, 1122, 0.0455255718887
+great, 4016, 0.044893980744
+got, 3960, 0.0442906267578
+tell, 8767, 0.0441074787916
+let, 5225, 0.0426272574686
+lot, 5356, 0.0421154312955
+better, 1060, 0.0403799211302
+new, 6023, 0.0393186440413
+point, 6710, 0.0380996032943
+need, 5993, 0.0362913967212
+use, 9363, 0.0298104509855

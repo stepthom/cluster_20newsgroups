@@ -1,0 +1,112 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/talk.religion.misc/83477
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: sandvik@newton.apple.com (Kent Sandvik)
+Subject: Re: Clarification of personal position
+Organization: Cookamunga Tourist Bureau
+Lines: 21
+
+In article <C5MuIw.AqC@mailer.cc.fsu.edu>, dlecoint@garnet.acns.fsu.edu
+(Darius_Lecointe) wrote:
+> I will repeat my position here.  Worshipping on Sunday has never been a
+> sin.  As a child I attended services on Saturday and Sunday--at the SDA
+> church and at the Pentecostal church across the street.  I might even go to a
+> Baptist church next week.  I worship God every day, and every Christian 
+> should.  Even if we can prove that Christians should meet on Sunday (and
+> we can't) we can never prove that violation of the Sabbath is not a sin
+> any longer.  Nor can we prove that violation of Sunday is a sin.  We
+> cannot use the Sabbath commandment for that purpose.
+
+My online Bible is on a CD, but I don't own a CD-ROM system for the
+time being, so I can't search for the famous cite where Jesus explicitly
+states that he didn't want to break existing (Jewish) laws. In other
+words technically speaking Christians should use Saturday and not Sunday
+as their holy day, if they want to conform to the teachings of Jesus.
+
+Cheers,
+Kent
+---
+sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ clarif person posit    garnet acn fsu edu darius
+lecoint wrote repeat posit worship sunday never
+sin child attend servic saturday sunday sda church
+pentecost church across street might even baptist
+church next week worship god everi day everi
+christian even prove christian meet sunday can't
+never prove violat sabbath sin longer prove violat
+sunday sin cannot use sabbath command purpos
+onlin bibl don't rom system time can't search
+famous cite jesus explicit state didn't want break
+exist jewish law word technic speak christian use
+saturday sunday holi day want conform teach jesus
+cheer kent
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sunday, 8541, 0.441439618726
+church, 1746, 0.264863771235
+sin, 7976, 0.25443668366
+sabbath, 7561, 0.241804236157
+prove, 6947, 0.2339740366
+violat, 9526, 0.206902397643
+saturday, 7639, 0.203200138253
+worship, 9847, 0.196793547592
+christian, 1732, 0.187071031647
+jesus, 4859, 0.142873689898
+posit, 6761, 0.137971749586
+fsu, 3708, 0.1370008717
+acn, 241, 0.1370008717
+darius, 2364, 0.129877059737
+everi, 3235, 0.120352847972
+baptist, 902, 0.116292513827
+conform, 2035, 0.107866663173
+day, 2402, 0.104199524246
+explicit, 3304, 0.104114276839
+clarif, 1785, 0.102812238148
+rom, 7467, 0.101023968921
+attend, 764, 0.0994010175254
+famous, 3380, 0.0988917215149
+child, 1705, 0.0988917215149
+onlin, 6245, 0.098396773796
+holi, 4344, 0.096545644101
+want, 9634, 0.0957203398632
+cite, 1774, 0.0909505769691
+street, 8440, 0.0897171245023
+repeat, 7286, 0.0877472816387
+meet, 5615, 0.0864642678355
+jewish, 4864, 0.0862185368073
+search, 7746, 0.0859761952809
+kent, 4987, 0.0839335706972
+cheer, 1687, 0.0830967705425
+teach, 8729, 0.0815340092782
+break, 1284, 0.0804468904795
+longer, 5337, 0.0784557641704
+technic, 8737, 0.0779913455332
+use, 9363, 0.0776058709333
+speak, 8192, 0.0773906209619
+command, 1933, 0.0770977894815
+bibl, 1071, 0.0770977894815
+purpos, 6993, 0.07556904465
+law, 5153, 0.0754364441557
+wrote, 9871, 0.0745352475375
+servic, 7813, 0.0722993239773
+week, 9691, 0.0647030879627
+exist, 3283, 0.0629959712225
+word, 9829, 0.0629310192738
+state, 8342, 0.0622943741827
+edu, 3001, 0.0622943741827
+god, 3926, 0.0619231741337
+didn, 2625, 0.0586892965813
+person, 6562, 0.0585371789028
+time, 8936, 0.0417454544756
+don, 2811, 0.0398516662665

@@ -1,0 +1,129 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/39033
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: trevor@netcom.com (Sandy Santra)
+Subject: Re: LCD VGA display
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 28
+
+Mike Mattone (mike@nx03.mik.uky.edu) wrote:
+: Has anyone else experienced anything like this?  If this just means that I
+: need to replace the screen then I guess I'll have to but I thought that the
+: "death" of my LCD screen would be a little less dramatic when it eventually
+: happened.  I didn't want to take it in to be repaired before I asked on the
+: net about this because I already know what they'll say: "Yep, you gotta have
+: this replaced and it's gonna cost you $???."
+
+: I've only had the computer for about 21 months.
+
+"Only"?!?  That's a long time! (echoing above posting)  The way the market
+is going nowadays, your machine's obsolete two weeks before you buy it. 
+Sounds like you'll have to sink *some* money into it for repair, but
+that's sometimes necessary for equipment.
+
+: Is that a reasonable life
+: cycle for a LCD display?
+
+I think 21 months with nothing wrong until now is quite reasonable.  If
+you had bought a Compaq or Toshiba, you might have reasonably expected the
+machine to last longer before something went wrong; but that's a moot
+point, perhaps.
+
+-----------------------------------------------------------------------
+sandy santra                     _\/_              trevor@netcom.com
+berkeley, california              /\               trevor@well.sf.ca.us
+-----------------------------------------------------------------------
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ lcd vga display      anyon els experienc anyth
+like mean need replac screen guess i'll thought
+death lcd screen littl less dramat eventu happen
+didn't want take repair ask net alreadi know
+they'll say yep gotta replac it gonna cost  i'v
+comput month  that long time echo post way market
+go nowaday machin obsolet two week buy sound like
+you'll sink money repair that sometim necessari
+equip  reason life cycl lcd display  think month
+noth wrong quit reason bought compaq toshiba might
+reason expect machin last longer someth went wrong
+that moot point perhap
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+lcd, 5167, 0.436962460432
+repair, 7285, 0.237111996491
+reason, 7156, 0.198385975132
+replac, 7288, 0.197932903531
+ll, 5314, 0.194835145327
+screen, 7719, 0.190720811192
+machin, 5416, 0.186533168017
+display, 2734, 0.176673180155
+month, 5847, 0.16898926142
+toshiba, 9009, 0.155289996134
+wrong, 9869, 0.150503605336
+moot, 5854, 0.143239408721
+sink, 7985, 0.139125331452
+nowaday, 6130, 0.139125331452
+obsolet, 6182, 0.13276664845
+echo, 2972, 0.13276664845
+dramat, 2859, 0.131443503273
+yep, 9949, 0.13020059943
+experienc, 3296, 0.13020059943
+gonna, 3944, 0.126868695726
+gotta, 3961, 0.122293888179
+bought, 1247, 0.12148979945
+cycl, 2325, 0.115989949226
+equip, 3161, 0.103345069925
+vga, 9492, 0.100894198931
+necessari, 5990, 0.100894198931
+eventu, 3233, 0.100894198931
+market, 5514, 0.093466601542
+buy, 1433, 0.0930684990416
+went, 9704, 0.0915491644772
+longer, 5337, 0.0915491644772
+death, 2423, 0.0915491644772
+sometim, 8128, 0.0901346978376
+like, 5272, 0.0863370632254
+money, 5835, 0.0826352029493
+net, 6010, 0.0825170375814
+alreadi, 443, 0.0821665737553
+sound, 8150, 0.0804988551808
+guess, 4079, 0.0794579395194
+expect, 3290, 0.0794579395194
+perhap, 6540, 0.0793566966737
+cost, 2169, 0.0778951539294
+week, 9691, 0.075501318542
+life, 5260, 0.075501318542
+quit, 7043, 0.0750871300191
+noth, 6119, 0.074600902457
+happen, 4159, 0.0722574678058
+thought, 8887, 0.0715552883992
+comput, 1993, 0.0710776912875
+ask, 689, 0.0710103623778
+els, 3053, 0.0708763642891
+anyth, 555, 0.0702839805059
+littl, 5308, 0.068904145014
+didn, 2625, 0.0684838918158
+long, 5336, 0.0645979749974
+mean, 5595, 0.0633579633933
+someth, 8126, 0.0603502490508
+post, 6766, 0.0598762016983
+point, 6710, 0.0578690052592
+want, 9634, 0.0558475035622
+need, 5993, 0.0551225431797
+anyon, 554, 0.0550915973103
+way, 9666, 0.0536297708751
+say, 7653, 0.0520508773004
+time, 8936, 0.0487123096483
+think, 8871, 0.0469548806066
+know, 5052, 0.044160168366

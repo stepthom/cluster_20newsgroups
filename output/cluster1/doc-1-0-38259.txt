@@ -1,0 +1,513 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38259
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: robert@cpuserver.acsc.com (Robert Grant)
+Subject: Virtual Reality for X on the CHEAP!
+Organization: USCACSC, Los Angeles
+Lines: 187
+Distribution: world
+Reply-To: robert@cpuserver.acsc.com (Robert Grant)
+NNTP-Posting-Host: cpuserver.acsc.com
+
+Hi everyone,
+
+I thought that some people may be interested in my VR
+software on these groups:
+
+*******Announcing the release of Multiverse-1.0.2*******
+
+Multiverse is a multi-user, non-immersive, X-Windows based Virtual Reality
+system, primarily focused on entertainment/research.
+
+Features:
+
+   Client-Server based model, using Berkeley Sockets.
+   No limit to the number of users (apart from performance).
+   Generic clients.
+   Customizable servers.
+   Hierachical Objects (allowing attachment of cameras and light sources).
+   Multiple light sources (ambient, point and spot).
+   Objects can have extension code, to handle unique functionality, easily
+        attached.
+
+Functionality:
+
+  Client:
+   The client is built around a 'fast' render loop. Basically it changes things
+   when told to by the server and then renders an image from the user's
+   viewpoint. It also provides the server with information about the user's
+   actions - which can then be communicated to other clients and therefore to
+   other users.
+
+   The client is designed to be generic - in other words you don't need to
+   develop a new client when you want to enter a new world. This means that
+   resources can be spent on enhancing the client software rather than adapting
+   it. The adaptations, as will be explained in a moment, occur in the servers.
+
+   This release of the client software supports the following functionality:
+
+    o Hierarchical Objects (with associated addressing)
+
+    o Multiple Light Sources and Types (Ambient, Point and Spot)
+
+    o User Interface Panels
+
+    o Colour Polygonal Rendering with Phong Shading (optional wireframe for
+	faster frame rates)
+
+    o Mouse and Keyboard Input
+
+   (Some people may be disappointed that this software doesn't support the
+   PowerGlove as an input device - this is not because it can't, but because
+   I don't have one! This will, however, be one of the first enhancements!)
+
+  Server(s):
+   This is where customization can take place. The following basic support is
+   provided in this release for potential world server developers:
+
+    o Transparent Client Management
+
+    o Client Message Handling
+
+   This may not sound like much, but it takes away the headache of
+accepting and
+   terminating clients and receiving messages from them - the
+application writer
+   can work with the assumption that things are happening locally.
+
+   Things get more interesting in the object extension functionality. This is
+   what is provided to allow you to animate your objects:
+
+    o Server Selectable Extension Installation:
+        What this means is that you can decide which objects have extended
+        functionality in your world. Basically you call the extension
+        initialisers you want.
+
+    o Event Handler Registration:
+        When you develop extensions for an object you basically write callback
+        functions for the events that you want the object to respond to.
+        (Current events supported: INIT, MOVE, CHANGE, COLLIDE & TERMINATE)
+
+    o Collision Detection Registration:
+        If you want your object to respond to collision events just provide
+        some basic information to the collision detection management software.
+        Your callback will be activated when a collision occurs.
+
+    This software is kept separate from the worldServer applications because
+    the application developer wants to build a library of extended objects
+    from which to choose.
+
+    The following is all you need to make a World Server application:
+
+    o Provide an initWorld function:
+        This is where you choose what object extensions will be supported, plus
+        any initialization you want to do.
+
+    o Provide a positionObject function:
+        This is where you determine where to place a new client.
+
+    o Provide an installWorldObjects function:
+        This is where you load the world (.wld) file for a new client.
+
+    o Provide a getWorldType function:
+        This is where you tell a new client what persona they should have.
+
+    o Provide an animateWorld function:
+        This is where you can go wild! At a minimum you should let the objects
+        move (by calling a move function) and let the server sleep for a bit
+        (to avoid outrunning the clients).
+
+    That's all there is to it! And to prove it here are the line counts for the
+    three world servers I've provided:
+
+        generic - 81 lines
+        dactyl - 270 lines (more complicated collision detection due to the
+                           stairs! Will probably be improved with future
+                           versions)
+        dogfight - 72 lines
+
+Location:
+
+   This software is located at the following site:
+   ftp.u.washington.edu
+
+   Directory:
+   pub/virtual-worlds
+
+   File:
+   multiverse-1.0.2.tar.Z
+
+Futures:
+
+   Client:
+
+    o Texture mapping.
+
+    o More realistic rendering: i.e. Z-Buffering (or similar), Gouraud shading
+
+    o HMD support.
+
+    o Etc, etc....
+
+   Server:
+
+    o Physical Modelling (gravity, friction etc).
+
+    o Enhanced Object Management/Interaction
+
+    o Etc, etc....
+
+   Both:
+
+    o Improved Comms!!!
+
+I hope this provides people with a good understanding of the Multiverse
+software,
+unfortunately it comes with practically zero documentation, and I'm not sure
+whether that will ever be able to be rectified! :-(
+
+I hope people enjoy this software and that it is useful in our explorations of
+the Virtual Universe - I've certainly found fascinating developing it, and I
+would *LOVE* to add support for the PowerGlove...and an HMD :-)!!
+
+Finally one major disclaimer:
+
+This is totally amateur code. By that I mean there is no support for this code
+other than what I, out the kindness of my heart, or you, out of pure
+desperation, provide. I cannot be held responsible for anything good or bad
+that may happen through the use of this code - USE IT AT YOUR OWN RISK!
+
+Disclaimer over!
+
+Of course if you love it, I would like to here from you. And anyone with
+POSITIVE contributions/criticisms is also encouraged to contact me. Anyone who
+hates it: > /dev/null!
+
+************************************************************************
+*********
+And if anyone wants to let me do this for a living: you know where to
+write :-)!
+************************************************************************
+*********
+
+Thanks,
+
+Robert.
+
+robert@acsc.com
+^^^^^^^^^^^^^^^
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ virtual realiti cheap       everyon  thought
+peopl interest softwar group  announc releas
+multivers  multivers multi user non immers window
+base virtual realiti system primarili focus
+entertain research  featur  client server base
+model use berkeley socket limit number user apart
+perform generic client customiz server hierach
+object allow attach camera light sourc multipl
+light sourc ambient point spot object extens code
+handl uniqu function easili attach  function
+client client built around fast render loop basic
+chang thing told server render imag user viewpoint
+also provid server inform user action communic
+client therefor user  client design generic word
+don't need develop new client want enter new world
+mean resourc spent enhanc client softwar rather
+adapt adapt explain moment occur server  releas
+client softwar support follow function  hierarch
+object associ address  multipl light sourc type
+ambient point spot  user interfac panel  colour
+polygon render phong shade option wirefram faster
+frame rate  mous keyboard input  peopl disappoint
+softwar doesn't support powerglov input devic
+can't don't one howev one first enhanc  server
+custom take place follow basic support provid
+releas potenti world server develop  transpar
+client manag  client messag handl  sound like much
+take away headach accept termin client receiv
+messag applic writer work assumpt thing happen
+local  thing get interest object extens function
+provid allow anim object  server select extens
+instal mean decid object extend function world
+basic call extens initialis want  event handler
+registr develop extens object basic write callback
+function event want object respond current event
+support init move chang collid termin  collis
+detect registr want object respond collis event
+provid basic inform collis detect manag softwar
+callback activ collis occur  softwar kept separ
+worldserv applic applic develop want build librari
+extend object choos  follow need make world server
+applic  provid initworld function choos object
+extens support plus initi want  provid
+positionobject function determin place new client
+provid installworldobject function load world wld
+file new client  provid getworldtyp function tell
+new client persona  provid animateworld function
+wild minimum let object move call move function
+let server sleep bit avoid outrun client  that
+prove line count three world server i'v provid
+generic line dactyl line complic collis detect due
+stair probabl improv futur version dogfight line
+locat  softwar locat follow site ftp washington
+edu  directori pub virtual world  file multivers
+tar  futur  client  textur map  realist render
+buffer similar gouraud shade  hmd support  etc etc
+server  physic model graviti friction etc  enhanc
+object manag interact  etc etc    improv comm
+hope provid peopl good understand multivers
+softwar unfortun come practic zero document i'm
+sure whether ever abl rectifi  hope peopl enjoy
+softwar use explor virtual univers i'v certain
+found fascin develop love add support powerglov
+hmd  final one major disclaim  total amateur code
+mean support code kind heart pure desper provid
+cannot held respons anyth good bad happen use code
+use risk  disclaim  cours love like anyon posit
+contribut critic also encourag contact anyon hate
+dev null    anyon want let live know write
+thank  robert
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+client, 1816, 0.512608857084
+server, 7812, 0.311879403999
+function, 3722, 0.28220884724
+object, 6173, 0.240363407048
+provid, 6949, 0.222865667652
+extens, 3320, 0.152820660092
+softwar, 8103, 0.150808194194
+multivers, 5923, 0.142676789294
+collis, 1903, 0.138579514771
+support, 8576, 0.138335170765
+user, 9366, 0.130027144511
+world, 9841, 0.117703923377
+basic, 937, 0.103300930127
+virtual, 9536, 0.101880440061
+render, 7277, 0.101232559555
+want, 9634, 0.0957353363376
+generic, 3820, 0.0956543447995
+develop, 2588, 0.0934935819669
+event, 3232, 0.0911660554175
+enhanc, 3113, 0.0898455291135
+applic, 585, 0.087960274405
+detect, 2579, 0.0813308203074
+code, 1871, 0.0798174994923
+powerglov, 6785, 0.0742270900189
+callback, 1463, 0.0742270900189
+ambient, 461, 0.0742270900189
+new, 6023, 0.0731247783686
+line, 5285, 0.0665668142951
+follow, 3578, 0.0660073755031
+releas, 7253, 0.0658472507089
+registr, 7230, 0.0643783118192
+light, 5267, 0.0599456558694
+adapt, 259, 0.05875905469
+manag, 5472, 0.0575060875431
+attach, 760, 0.0565184084849
+termin, 8796, 0.0559604162177
+shade, 7835, 0.0556926329622
+sourc, 8153, 0.0555919375643
+peopl, 6530, 0.0544871060611
+input, 4662, 0.0533468415348
+multipl, 5919, 0.0519799006665
+extend, 3319, 0.0507769436366
+choos, 1720, 0.0501491594153
+disclaim, 2691, 0.0492754540785
+spot, 8261, 0.0490003333897
+respond, 7322, 0.0480927619939
+occur, 6192, 0.0480927619939
+let, 5225, 0.0475668807639
+realiti, 7148, 0.0470348078734
+mean, 5595, 0.0465471319082
+improv, 4557, 0.0463867587068
+handl, 4149, 0.0463867587068
+locat, 5323, 0.0444865273721
+use, 9363, 0.0443531596684
+futur, 3737, 0.0423853455892
+model, 5807, 0.0421083272765
+messag, 5650, 0.0415116402524
+thing, 8869, 0.0411477487351
+gouraud, 3964, 0.0405935864235
+anyon, 554, 0.0404740889653
+love, 5366, 0.0398540287553
+allow, 432, 0.0384791532544
+rectifi, 7192, 0.0380289156351
+hierarch, 4289, 0.0380289156351
+headach, 4216, 0.0380289156351
+immers, 4529, 0.0371135450095
+phong, 6602, 0.0363396101731
+dogfight, 2797, 0.0363396101731
+dactyl, 2332, 0.0363396101731
+chang, 1650, 0.0360779942674
+hope, 4372, 0.0358923831233
+socket, 8094, 0.0356691973236
+dev, 2587, 0.0356691973236
+happen, 4159, 0.0353902146384
+null, 6155, 0.0350778512813
+file, 3477, 0.0347465398029
+write, 9865, 0.0346161317754
+desper, 2569, 0.0345488742211
+place, 6657, 0.0343919153181
+collid, 1901, 0.0336335035954
+inform, 4637, 0.0330036877516
+wirefram, 9795, 0.0325131804929
+viewpoint, 9513, 0.0325131804929
+transpar, 9063, 0.0325131804929
+sleep, 8025, 0.0325131804929
+fascin, 3395, 0.0315978098673
+base, 923, 0.0314243406956
+keyboard, 4995, 0.0313263578951
+disappoint, 2679, 0.0305903148498
+loop, 5344, 0.0303671386197
+berkeley, 1039, 0.0303671386197
+mous, 5889, 0.0301534621814
+comm, 1932, 0.0299485097045
+entertain, 3127, 0.0297515966824
+tar, 8701, 0.0295621161391
+uniqu, 9276, 0.0287091144956
+textur, 8825, 0.0287091144956
+primarili, 6864, 0.0285546211217
+panel, 6406, 0.0285546211217
+colour, 1912, 0.0285546211217
+buffer, 1371, 0.0284047401858
+point, 6710, 0.0283430429992
+realist, 7147, 0.0282592042425
+instal, 4679, 0.0282592042425
+focus, 3569, 0.0282592042425
+camera, 1473, 0.0282592042425
+risk, 7416, 0.0279802081089
+assumpt, 711, 0.0279802081089
+complic, 1978, 0.027588791393
+apart, 559, 0.027588791393
+amateur, 458, 0.027588791393
+wild, 9758, 0.0273438336168
+encourag, 3089, 0.0272256954959
+multi, 5917, 0.0271102734358
+need, 5993, 0.0269978826242
+zero, 9985, 0.0269974453507
+minimum, 5740, 0.026779122324
+devic, 2591, 0.026779122324
+custom, 2311, 0.0265698987804
+writer, 9866, 0.0261759211676
+interfac, 4709, 0.0260820747251
+pure, 6990, 0.0259899503332
+good, 3948, 0.0258118204181
+interact, 4704, 0.0258106227529
+polygon, 6728, 0.0257233051001
+held, 4243, 0.0257233051001
+graviti, 4010, 0.0255530976649
+heart, 4225, 0.0254701100153
+cheap, 1677, 0.0254701100153
+avoid, 827, 0.0254701100153
+kept, 4989, 0.0253884718183
+washington, 9651, 0.0253081398887
+hate, 4202, 0.0253081398887
+spent, 8223, 0.0248514034775
+communic, 1950, 0.0247791628284
+faster, 3399, 0.0246377270392
+critic, 2237, 0.0246377270392
+initi, 4647, 0.0243662750671
+enter, 3125, 0.0243662750671
+pub, 6971, 0.0243006448712
+option, 6276, 0.0243006448712
+frame, 3643, 0.0243006448712
+plus, 6700, 0.024108749979
+potenti, 6774, 0.0240463809969
+enjoy, 3114, 0.0240463809969
+unfortun, 9264, 0.0238637922028
+separ, 7797, 0.0238637922028
+resourc, 7320, 0.0238637922028
+moment, 5828, 0.0238637922028
+directori, 2669, 0.0238043756693
+explor, 3307, 0.0237456540818
+easili, 2962, 0.0237456540818
+associ, 706, 0.0236302320218
+featur, 3422, 0.0235174039367
+select, 7774, 0.0234619267038
+load, 5317, 0.0233527780901
+count, 2180, 0.0231933793534
+document, 2788, 0.0230898573664
+announc, 524, 0.0230388859795
+contribut, 2103, 0.0228890050436
+action, 251, 0.0228400228162
+don, 2811, 0.0227759484652
+contact, 2078, 0.0227434691003
+told, 8973, 0.0226020333111
+robert, 7437, 0.0226020333111
+map, 5498, 0.0225099089192
+therefor, 8855, 0.022419444517
+prove, 6947, 0.0222867326891
+librari, 5250, 0.0222867326891
+fast, 3397, 0.022157438716
+practic, 6793, 0.0219900686012
+built, 1381, 0.0219900686012
+receiv, 7167, 0.0219490835696
+limit, 5278, 0.0219490835696
+determin, 2582, 0.0218681037739
+physic, 6613, 0.0218280984747
+rate, 7108, 0.0217884094262
+decid, 2442, 0.0217490316675
+anim, 515, 0.0216711907518
+add, 260, 0.0215566465025
+activ, 252, 0.0214446573578
+local, 5322, 0.0213713620635
+like, 5272, 0.0211430547705
+window, 9774, 0.0208862336531
+similar, 7961, 0.0207881073017
+site, 7994, 0.0206918620831
+accept, 208, 0.020628708565
+perform, 6539, 0.0203837507888
+ftp, 3709, 0.0202948876108
+explain, 3301, 0.0202948876108
+build, 1378, 0.0202656126678
+total, 9013, 0.0200373625227
+everyon, 3241, 0.0200095472798
+non, 6097, 0.0198998021783
+away, 833, 0.0198998021783
+sound, 8150, 0.0197133379394
+posit, 6761, 0.0197133379394
+final, 3482, 0.0197133379394
+type, 9177, 0.0196098159524
+version, 9479, 0.0195335516228
+design, 2564, 0.0195083854624
+address, 264, 0.0195083854624
+respons, 7323, 0.0193356683353
+research, 7307, 0.0193114724404
+bad, 861, 0.0184894928498
+major, 5458, 0.0184283889903
+live, 5310, 0.0184081851864
+abl, 180, 0.0183680198642
+current, 2299, 0.0181911493378
+understand, 9246, 0.0180016687945
+word, 9829, 0.0179831081875
+kind, 5021, 0.0179095444027
+edu, 3001, 0.017801181092
+certain, 1619, 0.0177655735776
+thought, 8887, 0.0175231508373
+group, 4064, 0.0174726917343
+howev, 4406, 0.0173080658877
+anyth, 555, 0.0172118206691
+cours, 2190, 0.0171801446114
+bit, 1122, 0.0169336834249
+imag, 4512, 0.0168295479305
+univers, 9282, 0.0166844326699
+probabl, 6885, 0.0164197607642
+tell, 8767, 0.0164062097749
+number, 6156, 0.0163256630449
+doesn, 2793, 0.0162858691365
+sure, 8585, 0.0161683455743
+come, 1923, 0.0145589557197
+work, 9833, 0.0142238202901
+thank, 8832, 0.0140600424528
+make, 5459, 0.012592426546
+know, 5052, 0.0108143689808

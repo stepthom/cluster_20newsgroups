@@ -1,0 +1,48 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/61188
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: arthurc@sfsuvax1.sfsu.edu (Arthur Chandler)
+Subject: Russian Phobos Mission
+Organization: California State University, Sacramento
+Lines: 6
+
+
+  Did the Russian spacecraft(s) on the ill-fated Phobos mission a few
+years ago send back any images of the Martian moon?  If so, does anyone know if
+they're housed at an ftp site?
+  Thanks.
+ 
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ russian phobo mission     russian spacecraft ill
+fate phobo mission year ago send back imag martian
+moon anyon know they'r hous ftp site thank
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+phobo, 6599, 0.552159186435
+russian, 7551, 0.396868200941
+mission, 5772, 0.307213242895
+fate, 3403, 0.281268588784
+martian, 5522, 0.249144072094
+ill, 4505, 0.244567053628
+hous, 4396, 0.188594973072
+spacecraft, 8166, 0.17318108208
+site, 7994, 0.160155015965
+moon, 5851, 0.157770234496
+ftp, 3709, 0.157082433483
+ago, 336, 0.15138546019
+send, 7785, 0.14928442188
+imag, 4512, 0.130260703781
+thank, 8832, 0.108824730923
+anyon, 554, 0.104423151774
+year, 9943, 0.0976618934246
+know, 5052, 0.0837032177102

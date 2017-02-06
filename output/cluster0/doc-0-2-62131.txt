@@ -1,0 +1,86 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/62131
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: cam@hawk.adied.oz.au (The Master)
+Subject: Re: McElwaine FAQ
+Keywords: faq about r e mcelwaine
+Organization: Australian Defence Industries
+Lines: 24
+
+sbooth@lonestar.utsa.edu (Simon E. Booth) writes:
+
+>In article <C6vI08.6Dx@news.cso.uiuc.edu> jbh55289@uxa.cso.uiuc.edu (Josh Hopkins) writes:
+>>I'm not sure which amazes me more: the fact that someone would go to all this
+>>trouble to write about McElwaine or the fact that someone would post something
+>>which repeatedly says it shouldn't be posted.
+>>
+>>It's all moot anyway.  He had is net access privileges revoked last week.
+>>--
+>>Josh Hopkins                                          jbh55289@uxa.cso.uiuc.edu
+>>		    "Find a way or make one."
+>>	             -attributed to Hannibal
+
+
+>McElwaine got his access revoked?  Finally!!!!
+
+>And they say it couldn't be done.  If we can rid the net of McElwaine,
+>then anything is possible :-
+>Simon
+
+
+Oh, don't worry, I'm sure he'll be back!
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ mcelwain faq        i'm sure amaz fact someon
+troubl write mcelwain fact someon post someth
+repeat say shouldn't post  it moot anyway net
+access privileg revok last week   find way make
+one attribut hannib   mcelwain got access revok
+final  say couldn't done rid net mcelwain anyth
+possibl simon   don't worri i'm sure he'll back
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+mcelwain, 5576, 0.612165925088
+revok, 7363, 0.382152868604
+access, 209, 0.201882564403
+net, 6010, 0.190236475939
+privileg, 6880, 0.174695671644
+moot, 5854, 0.165113539757
+fact, 3350, 0.162183944107
+someon, 8124, 0.154450017375
+sure, 8585, 0.152210735394
+simon, 7964, 0.151516278217
+rid, 7391, 0.143990437915
+hannib, 4155, 0.142939934079
+post, 6766, 0.138039827138
+amaz, 459, 0.125066099501
+attribut, 773, 0.12321162336
+shouldn, 7912, 0.122769882554
+worri, 9845, 0.121910426202
+say, 7653, 0.119999163292
+repeat, 7286, 0.11802754337
+troubl, 9117, 0.114384585899
+faq, 3385, 0.110436689423
+couldn, 2176, 0.107509350703
+final, 3482, 0.0927918583576
+week, 9691, 0.0870311464707
+write, 9865, 0.0814700992413
+anyth, 555, 0.0810170672523
+got, 3960, 0.0775456709347
+possibl, 6765, 0.0774811894621
+ll, 5314, 0.0748628253477
+someth, 8126, 0.0695663528282
+way, 9666, 0.0618195885099
+make, 5459, 0.0592733033864
+don, 2811, 0.053603874454

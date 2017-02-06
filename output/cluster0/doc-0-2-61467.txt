@@ -1,0 +1,270 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/sci.space/61467
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: willner@head-cfa.harvard.edu (Steve Willner)
+Subject: Re: temperature of the dark sky
+Organization: Smithsonian Astrophysical Observatory, Cambridge, MA,  USA
+Lines: 71
+
+
+
+In article <1993Apr28.002214.16544@Princeton.EDU>,
+richmond@spiff.Princeton.EDU (Stupendous Man) writes: 
+>    If that's the case, let me point out that interstellar dust and 
+> molecules provide many instances of things that are, well, not-too-far
+> from being blackbodies.  Many different observations, including IRAS
+> and COBE, have determined that interstellar dust grain temperatures
+> can range from 40K to 150K.
+
+Interstellar grains are not at all close to blackbodies.  The "large"
+grains have sizes of order 0.1 micron and absorb visible light with
+fair efficiency.  However, at temperatures below 100 K, 90% of the
+thermal emission will be beyond 22 microns, where radiating
+efficiency is poor.  (A small antenna cannot easily radiate at long
+wavelengths.)  Thus the grains must heat up more in order to radiate
+the energy they have absorbed.
+
+Moreover, the IRAS observations had a maximum wavelength of 100
+microns.  Grains colder than 30 K will radiate primarily at longer
+wavelengths, and IRAS would be relatively insensitive to them.  In
+the extreme limit, grains as cold as 5 K will be almost undetectable
+by any conceivable observation.
+
+Worse still, IRAS color temperatures are heavily contaminated by a
+population of "small" grains.  These grains have only perhaps 50
+atoms, and when they are hit by a single photon they heat up to
+temperatures of several hundred or 1000 K.  Of course they cool
+quickly and then stay cold for a while, but _when they are radiating_
+the characteristic temperature is several hundred K.  Even a small
+population of these grains can dramatically raise the observed
+"average" temperature.
+
+A model for local infrared emission consistent with COBE data has
+three components.  These represent scattered radiation from Zodiacal
+dust (color temperature 5500 K), thermal emission from Zodiacal dust
+(Tc = 280 K), and thermal emission from Galactic dust (Tc=25 K).  At
+the ecliptic poles, the emissivities or dilution factors are
+respectively 1.9E-13, 4E-8, and 2E-5.  The first two are roughly
+doubled in the ecliptic plane.
+
+To find the thermal equilibrium temperature, we add up the dilution
+factor times the fourth power of temperature for all components, then
+take the fourth root.  In the table below, starlight comes from
+Allen's number that stellar emission from the whole sky is equivalent
+to 460 zero mag stars with B-V color of 0.75.  No doubt careful work
+could do much better.  (The person who suggested starlight had a
+dilution factor of E-4 must have been remembering wrong.  We would be
+cooked if that were the case.  In any event, the energy density of
+starlight comes out about the same as that of the microwave
+background, and I believe that to be correct.)
+
+                         Dilution   Temp.   DT^4
+Microwave background         1        2.7     53
+Galactic dust              2E-5      25        8
+Zodiacal dust (emission)   6E-8     280      369
+Zodiacal dust (scattering) 3E-13   5500      275
+Starlight                  1E-13   5500       92
+                                           -----
+                                             797
+
+The fourth root of 797 is 5.3 K.  Outside the Solar system, the
+result would be 3.5 K.  
+
+I find these results surprising, especially the importance of
+Zodiacal dust, but I don't see any serious mistakes.
+
+-- 
+Steve Willner            Phone 617-495-7123         Bitnet:   willner@cfa
+Cambridge, MA 02138 USA                 Internet: willner@cfa.harvard.edu
+  member, League for Programming Freedom; contact lpf@uunet.uu.net
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ temperatur dark sky        that case let point
+interstellar dust molecul provid mani instanc
+thing well far blackbodi mani differ observ includ
+ira cobe determin interstellar dust grain
+temperatur rang 40k 150k  interstellar grain close
+blackbodi larg grain size order micron absorb
+visibl light fair effici howev temperatur thermal
+emiss beyond micron radiat effici poor small
+antenna cannot easili radiat long wavelength thus
+grain must heat order radiat energi absorb  moreov
+ira observ maximum wavelength micron grain colder
+radiat primarili longer wavelength ira relat
+insensit extrem limit grain cold almost undetect
+conceiv observ  wors still ira color temperatur
+heavili contamin popul small grain grain perhap
+atom hit singl photon heat temperatur sever hundr
+cours cool quick stay cold radiat characterist
+temperatur sever hundr even small popul grain
+dramat rais observ averag temperatur  model local
+infrar emiss consist cobe data three compon repres
+scatter radiat zodiac dust color temperatur
+thermal emiss zodiac dust thermal emiss galact
+dust eclipt pole emiss dilut factor respect first
+two rough doubl eclipt plane  find thermal
+equilibrium temperatur add dilut factor time
+fourth power temperatur compon take fourth root
+tabl starlight come allen number stellar emiss
+whole sky equival zero mag star color doubt care
+work could much better person suggest starlight
+dilut factor must rememb wrong cook case event
+energi densiti starlight come microwav background
+believ correct  dilut temp microwav background
+galact dust zodiac dust emiss zodiac dust scatter
+starlight    fourth root outsid solar system
+result  find result surpris especi import zodiac
+dust don't see serious mistak   steve willner
+phone bitnet willner cfa
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+grain, 3987, 0.379781038708
+temperatur, 8773, 0.348751236131
+dust, 2928, 0.34001009094
+emiss, 3070, 0.302840346079
+zodiac, 9990, 0.230722148603
+radiat, 7058, 0.204026513577
+starlight, 8333, 0.19315811221
+dilut, 2648, 0.188508722159
+ira, 4759, 0.170832745373
+micron, 5689, 0.144868584158
+thermal, 8857, 0.139500494452
+wavelength, 9663, 0.12812455903
+interstellar, 4723, 0.116531737159
+fourth, 3630, 0.107651528834
+observ, 6179, 0.106086260842
+willner, 9767, 0.103092349472
+eclipt, 2978, 0.0965790561052
+cobe, 1865, 0.0922888594411
+factor, 3352, 0.091840653801
+blackbodi, 1134, 0.0877410677124
+absorb, 195, 0.0843957863795
+scatter, 7669, 0.0809752805098
+microwav, 5696, 0.0789030793196
+galact, 3749, 0.0782809792567
+color, 1907, 0.0768697685071
+small, 8054, 0.0745080966059
+root, 7477, 0.0729102876927
+popul, 6745, 0.0729102876927
+heat, 4226, 0.0703879061952
+effici, 3006, 0.0697502472261
+cold, 1888, 0.0685632957364
+compon, 1980, 0.0657748942627
+background, 855, 0.0653274616166
+hundr, 4440, 0.0620500023693
+energi, 3102, 0.0620500023693
+sky, 8011, 0.055135084554
+undetect, 9254, 0.0497121264356
+colder, 1889, 0.0497121264356
+cfa, 1627, 0.0497121264356
+40k, 106, 0.0497121264356
+150k, 24, 0.0497121264356
+result, 7332, 0.0494803236174
+sever, 7823, 0.0470608287348
+photon, 6608, 0.0452931322392
+equilibrium, 3159, 0.0452931322392
+order, 6281, 0.0450728592103
+moreov, 5859, 0.044542234644
+case, 1540, 0.0443315945228
+stellar, 8372, 0.0432629065828
+molecul, 5823, 0.0408741380428
+mag, 5430, 0.0408741380428
+dramat, 2859, 0.0408741380428
+contamin, 2080, 0.0408741380428
+infrar, 4640, 0.0404876402549
+cook, 2122, 0.0404876402549
+heavili, 4232, 0.0397785477997
+conceiv, 2000, 0.0397785477997
+temp, 8771, 0.0394515396598
+bitnet, 1127, 0.0394515396598
+pole, 6717, 0.0391404896284
+densiti, 2531, 0.0370827250047
+come, 1923, 0.0369742386234
+maximum, 5560, 0.036866593764
+characterist, 1663, 0.036866593764
+primarili, 6864, 0.0362589664906
+antenna, 538, 0.0362589664906
+mani, 5479, 0.0361677037332
+cool, 2124, 0.0351939530976
+tabl, 8667, 0.0348751236131
+equival, 3162, 0.0345714823692
+zero, 9985, 0.0342816478682
+rough, 7493, 0.0341415266011
+atom, 756, 0.0341415266011
+rais, 7076, 0.0334837001627
+mistak, 5776, 0.0334837001627
+instanc, 4680, 0.033359904797
+visibl, 9541, 0.0326637308083
+allen, 426, 0.031937306414
+wors, 9846, 0.0318399722942
+extrem, 3333, 0.0315565807053
+plane, 6663, 0.0309405594069
+stay, 8355, 0.0304561294167
+repres, 7294, 0.0304561294167
+poor, 6741, 0.0303788525794
+outsid, 6332, 0.0303025012356
+dark, 2365, 0.0302270534791
+easili, 2962, 0.0301524881728
+doubl, 2828, 0.0297225324047
+size, 8000, 0.029585424733
+consist, 2061, 0.0290647059663
+event, 3232, 0.0289409106006
+respect, 7321, 0.0288799028526
+rang, 7094, 0.0288194733858
+surpris, 8593, 0.028700306159
+doubt, 2830, 0.028525630547
+longer, 5337, 0.028468452935
+steve, 8390, 0.0284117835751
+solar, 8107, 0.0282999340217
+phone, 6601, 0.0279756983372
+limit, 5278, 0.0278711835209
+determin, 2582, 0.0277683545011
+star, 8324, 0.027567542277
+add, 260, 0.0273728626919
+quick, 7036, 0.0271839522479
+local, 5322, 0.0271375865089
+averag, 816, 0.0271375865089
+fair, 3363, 0.0270004788372
+model, 5807, 0.0267348045206
+singl, 7983, 0.0264382272786
+especi, 3190, 0.0263969633092
+light, 5267, 0.0253732138856
+care, 1516, 0.0250989668276
+perhap, 6540, 0.0246770398969
+correct, 2156, 0.0245526406131
+relat, 7247, 0.0243704779058
+suggest, 8525, 0.0243108955935
+import, 4551, 0.0241643314142
+close, 1830, 0.0241643314142
+power, 6783, 0.0236629609507
+larg, 5124, 0.0236096111748
+data, 2385, 0.0236096111748
+provid, 6949, 0.0235831027748
+rememb, 7269, 0.023478157837
+wrong, 9869, 0.0234005674958
+hit, 4316, 0.022294162558
+howev, 4406, 0.0219779691128
+includ, 4579, 0.0219369705084
+cours, 2190, 0.0218155332936
+far, 3386, 0.0212959939295
+person, 6562, 0.0212407965197
+number, 6156, 0.0207305033661
+let, 5225, 0.0201336464167
+long, 5336, 0.0200876154513
+believ, 1009, 0.0196876421543
+differ, 2633, 0.0196304645422
+better, 1060, 0.0190721876717
+work, 9833, 0.0180615607215
+point, 6710, 0.0179951511521
+thing, 8869, 0.0174166186761
+time, 8936, 0.0151477526037
+don, 2811, 0.0144605727506

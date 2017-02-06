@@ -1,0 +1,109 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/104423
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: steven@advtech.uswest.com ( Steve Novak)
+Subject: Re: Old Predictions to laugh at...
+Nntp-Posting-Host: jaynes.advtech.uswest.com
+Organization: U S WEST Advanced Technologies
+Lines: 25
+
+> = ( Steve Novak) writes:
+>> = (Edward [Ted] Fischer) writes:
+>>> = (Robert C Hite) writes:
+
+>>>DEAD WRONG!  Last time I checked, Jim Fregosi was still managing the
+>>>Phillies, and doing quite a fine job thank you...best record in
+>>>baseball at 8-1
+
+>>Look, asshole, I got him confused with somebody else.  I didn't flame
+>>you, and I would appreciate it if you extended me the same courtesy.
+
+>What _is_ your problem?  Hite's post wasn't a flame.  It was a
+>correction of *your* error.
+
+That last was me, Steve Novak.  I've since read the entire original
+posting by Hite.
+
+Mr. Fischer was actually restrained.  Let Mr. Hite hope he never makes
+some similar, tiny mistake.
+
+-- 
++-+-+-+-+-+-+-+
+| Steve Novak |    |"Ban the Bomb!"  "Ban the POPE!!"| 
++-+-+-+-+-+-+-+
+steven@advtech.USWest.Com
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ old predict laugh         dead wrong last time
+check jim fregosi still manag philli quit fine job
+thank best record basebal  look asshol got confus
+somebodi els didn't flame appreci extend courtesi
+problem hite post wasn't flame correct error  last
+steve novak i'v sinc read entir origin post hite
+fischer actual restrain let hite hope never make
+similar tini mistak    steve novak ban bomb ban
+pope
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+hite, 4319, 0.487353565631
+novak, 6127, 0.332915788151
+ban, 889, 0.279128316416
+flame, 3518, 0.210508760192
+steve, 8390, 0.195875414466
+restrain, 7328, 0.166457894075
+fregosi, 3683, 0.162451188544
+fischer, 3504, 0.162451188544
+asshol, 702, 0.153540671762
+pope, 6744, 0.151225265025
+courtesi, 2192, 0.139564158208
+tini, 8941, 0.134920421453
+bomb, 1209, 0.131088824723
+post, 6766, 0.128364565498
+laugh, 5146, 0.126361528787
+mistak, 5776, 0.115421012375
+extend, 3319, 0.111128899736
+confus, 2037, 0.105803809673
+philli, 6593, 0.105527377872
+somebodi, 8121, 0.10498473207
+jim, 4868, 0.100404897769
+predict, 6816, 0.0995513521009
+error, 3180, 0.0991366975654
+dead, 2415, 0.0979377072329
+fine, 3485, 0.0975521528105
+entir, 3129, 0.0955446465692
+wasn, 9652, 0.0953709220409
+job, 4873, 0.0935454472788
+record, 7184, 0.092917517749
+similar, 7961, 0.0909924594345
+check, 1682, 0.0896185096692
+appreci, 587, 0.0849557542733
+correct, 2156, 0.0846349304967
+manag, 5472, 0.0839040685146
+old, 6216, 0.0830975178677
+wrong, 9869, 0.0806636416341
+quit, 7043, 0.0804871263205
+hope, 4372, 0.0785529959016
+origin, 6293, 0.0781541457814
+els, 3053, 0.0759735374654
+basebal, 924, 0.0740554076481
+best, 1052, 0.0734727981352
+didn, 2625, 0.0734090069776
+got, 3960, 0.0721104666829
+actual, 254, 0.0706584169428
+let, 5225, 0.0694023014459
+problem, 6887, 0.0691384802896
+sinc, 7977, 0.0669915538288
+read, 7135, 0.0668966247896
+thank, 8832, 0.0615427765482
+make, 5459, 0.0551188160153
+look, 5341, 0.0548434234592
+time, 8936, 0.0522155237393

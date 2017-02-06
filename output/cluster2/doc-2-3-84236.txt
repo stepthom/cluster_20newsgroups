@@ -1,0 +1,68 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/talk.religion.misc/84236
+Truth category: 3 (talk.religion.misc)
+Assigned cluster: 2 (god christian jesus moral say peopl koresh bibl object believ)
+
+Raw data:
+============ START RAW ==========================
+From: arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee)
+Subject: Re: Christians above the Law? was Clarification of pe
+Organization: Johns Hopkins University CS Dept.
+Lines: 13
+
+In article <C61Kow.E4z@mailer.cc.fsu.edu> dlecoint@garnet.acns.fsu.edu (Darius_Lecointe) writes:
+>>Jesus was a JEW, not a Christian.
+
+If a Christian means someone who believes in the divinity of Jesus, it is safe
+to say that Jesus was a Christian.
+--
+"On the first day after Christmas my truelove served to me...  Leftover Turkey!
+On the second day after Christmas my truelove served to me...  Turkey Casserole
+    that she made from Leftover Turkey.
+[days 3-4 deleted] ...  Flaming Turkey Wings! ...
+   -- Pizza Hut commercial (and M*tlu/A*gic bait)
+
+Ken Arromdee (arromdee@jyusenkyou.cs.jhu.edu)
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ christian law clarif     jesus jew christian
+christian mean someon believ divin jesus safe say
+jesus christian  first day christma truelov serv
+leftov turkey second day christma truelov serv
+turkey casserol made leftov turkey day delet flame
+turkey wing pizza hut commerci tlu gic bait
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+turkey, 9156, 0.546429501149
+truelov, 9124, 0.295197242869
+leftov, 5197, 0.289751283933
+christian, 1732, 0.289499158716
+christma, 1734, 0.280650572907
+jesus, 4859, 0.248739953199
+serv, 7810, 0.199021993459
+day, 2402, 0.181409081006
+tlu, 8955, 0.147598621435
+gic, 3868, 0.147598621435
+casserol, 1543, 0.147598621435
+bait, 870, 0.142473803856
+hut, 4453, 0.134975140011
+pizza, 6655, 0.130740946718
+clarif, 1785, 0.119329230938
+wing, 9779, 0.113645691978
+divin, 2766, 0.111060964258
+safe, 7577, 0.10593614668
+flame, 3518, 0.0976678800003
+jew, 4862, 0.0964464338183
+law, 5153, 0.0875554605943
+delet, 2502, 0.0874027104064
+commerci, 1940, 0.0862202310742
+second, 7753, 0.0709678832669
+someon, 8124, 0.0666362114017
+mean, 5595, 0.0630193194026
+believ, 1009, 0.0629733395528
+say, 7653, 0.0517726689132

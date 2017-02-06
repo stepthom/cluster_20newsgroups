@@ -1,0 +1,78 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38468
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ARowatt@massey.ac.nz (A.J. Rowatt)
+Subject: Page flipping in VGA 320x200x256 mode.
+Organization: Massey University, Palmerston North, New Zealand
+X-Reader: NETNEWS/PC Version 2c
+Lines: 12
+
+Help!
+How do you write to the second bank/page of memory when in VGA
+320x200x256 colour mode?. ie: to perform page flipping animation
+and buffering of the screen.
+     I have tried using the Map Mask Registers, but this does not
+perform the required task (Although it does do something).
+
+Note: It *must* be able to work on a standard VGA (ie: not
+necessarily a SVGA card).
+
+Many thanx in advance...
+Andrew
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ page flip vga 320x200x256 mode  reader netnew
+version   help write second bank page memori vga
+320x200x256 colour mode perform page flip anim
+buffer screen tri use map mask regist perform
+requir task although someth  note must abl work
+standard vga necessarili svga card  mani thanx
+advanc andrew
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+vga, 9492, 0.373914696119
+page, 6382, 0.362049725717
+320x200x256, 89, 0.339325678634
+flip, 3545, 0.316049073559
+mode, 5806, 0.232437444341
+perform, 6539, 0.205650001639
+netnew, 6016, 0.167635645172
+mask, 5530, 0.160841482419
+regist, 7229, 0.149124891082
+andrew, 505, 0.149124891082
+thanx, 8833, 0.145626039463
+colour, 1912, 0.144042623492
+svga, 8613, 0.143286555215
+buffer, 1371, 0.143286555215
+task, 8707, 0.139170534755
+reader, 7137, 0.135630867
+bank, 897, 0.134030772461
+necessarili, 5991, 0.126874366492
+screen, 7719, 0.117802138141
+memori, 5628, 0.114728503753
+map, 5498, 0.11355031893
+anim, 515, 0.109319439288
+card, 1513, 0.108741625486
+standard, 8313, 0.103746062556
+version, 9479, 0.0985362057471
+advanc, 285, 0.0957661919135
+requir, 7302, 0.0942173701383
+abl, 180, 0.0926567282518
+note, 6118, 0.0913778418793
+second, 7753, 0.0881402819583
+write, 9865, 0.087309833579
+someth, 8126, 0.0745528328145
+help, 4249, 0.0744051565569
+tri, 9087, 0.0733477336361
+mani, 5479, 0.0718400362125
+work, 9833, 0.0717514822536
+use, 9363, 0.0559344269671

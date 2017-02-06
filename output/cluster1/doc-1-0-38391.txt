@@ -1,0 +1,113 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38391
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: ccgwt@trentu.ca (Grant Totten)
+Subject: MS-Windows graphics viewer?
+Keywords: ms windows jpeg gif tiff 
+Lines: 31
+Reply-To: ccgwt@trentu.ca (Grant Totten)
+Organization: Trent University
+
+
+Howdy all,
+
+	I was wondering if people could e-mail me their opinions on
+the various graphics viewers available for MS-Windows 3.x...  I'm
+working on a project to set up our scanner and write documentation on
+how to use it and it would be nice to have a snazzy image viewer 
+to look at (and maybe even edit?) the image you just scanned.
+
+The file formats I'm looking for:
+
+GIF
+JPEG
+TIFF
+PCX
+whatever other 'major' file formats there are.
+
+Thanks a lot for your help
+
+Grant
+
+--
+Grant Totten, Programmer/Analyst, Trent University, Peterborough Ontario
+GTotten@TrentU.CA            Phone: (705) 748-1653   FAX: (705) 748-1246
+========================================================================
+In the days of old,
+When Knights were bold,
+	And women were too cautious;
+Oh, those gallant days,
+When women were women,
+	And men were really obnoxious ...
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ window graphic viewer       howdi  wonder peopl
+could mail opinion various graphic viewer avail
+window i'm work project set scanner write document
+use nice snazzi imag viewer look mayb even edit
+imag scan  file format i'm look  gif jpeg tiff pcx
+whatev major file format  thank lot help  grant
+grant totten programm analyst trent univers
+peterborough ontario   day old knight bold women
+cautious gallant day women women men realli obnoxi
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+women, 9819, 0.367028067596
+viewer, 9512, 0.343289324163
+grant, 3994, 0.244685378398
+window, 9774, 0.192343825881
+format, 3612, 0.185043074965
+trent, 9086, 0.180265012932
+totten, 9014, 0.180265012932
+cautious, 1572, 0.175106418152
+obnoxi, 6176, 0.17089153932
+howdi, 4403, 0.17089153932
+file, 3477, 0.159992522176
+imag, 4512, 0.154985321459
+knight, 5047, 0.153017066598
+graphic, 3997, 0.15222219817
+bold, 1205, 0.151303851065
+analyst, 491, 0.145494006729
+day, 2402, 0.137105175702
+ontario, 6248, 0.13699300762
+scanner, 7663, 0.136120533117
+pcx, 6490, 0.132926797019
+scan, 7660, 0.120968948641
+jpeg, 4905, 0.118444497927
+programm, 6906, 0.117278646005
+look, 5341, 0.1153857616
+tiff, 8926, 0.11476726729
+men, 5629, 0.111010182238
+edit, 2996, 0.11015912305
+document, 2788, 0.10631863022
+various, 9432, 0.102025252737
+whatev, 9718, 0.100878679062
+gif, 3869, 0.0975829303088
+nice, 6047, 0.0935846135323
+old, 6216, 0.0874149513423
+opinion, 6266, 0.0865965355961
+project, 6909, 0.0858061054239
+major, 5458, 0.0848546200834
+wonder, 9821, 0.0839407528566
+set, 7815, 0.0828042979759
+mayb, 5564, 0.0809210976296
+avail, 811, 0.0803004474559
+write, 9865, 0.0796960253041
+mail, 5447, 0.0794733799515
+univers, 9282, 0.0768244688269
+lot, 5356, 0.0721315727104
+realli, 7150, 0.0685986852348
+help, 4249, 0.0679166938779
+work, 9833, 0.0654944318513
+thank, 8832, 0.0647403069969
+peopl, 6530, 0.0627222852565
+use, 9363, 0.0510566945808

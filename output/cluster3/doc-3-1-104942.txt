@@ -1,0 +1,102 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104942
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: mgoddard@ehd.hwc.ca (Michael Goddard)
+Subject: Looking for: Strategic Boardgame for Baseball
+Organization: Health and Welfare, Canada
+Lines: 22
+NNTP-Posting-Host: m.ehd.hwc.ca
+X-Newsreader: TIN [version 1.1 PL8]
+
+Last year my nine year old son fell in love with baseball and now
+likes to play and to follow the professionals.  I would like to buy
+him a board game so he can catch a glimpse of and practise a little of
+the managerial stragegy.  I am not looking for a computer game or any
+type of game where manual dexterity determines the winner.  I am after
+something that he and his friends can spread out over a table on a
+rainy day and spend some thoughtful time over.
+
+I would appreciate the names of any recommended games.  I don't follow
+this newsgroup, so e-mail responses would be ideal.
+
+                                                ....[MIchael]
+
+-- 
+MGODDARD@EHD.HWC.CA : Michael Goddard : (613) 954-0169 : Fax (613) 952-9798
+B9, Environmental Health Centre, Tunney's Pasture, Ottawa, Canada,  K1A 0L2
+
+
+-- 
+MGODDARD@EHD.HWC.CA : Michael Goddard : (613) 954-0169 : Fax (613) 952-9798
+B9, Environmental Health Centre, Tunney's Pasture, Ottawa, Canada,  K1A 0L2
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ look strateg boardgam basebal      last year nine
+year old son fell love basebal like play follow
+profession like buy board game catch glimps
+practis littl manageri stragegi look comput game
+type game manual dexter determin winner someth
+friend spread tabl raini day spend thought time
+appreci name recommend game don't follow newsgroup
+mail respons ideal  michael    environment health
+centr tunney pastur ottawa canada k1a 0l2
+environment health centr tunney pastur ottawa
+canada k1a 0l2
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+k1a, 4943, 0.350248409174
+ottawa, 6317, 0.285256990744
+game, 3761, 0.272307553001
+health, 4221, 0.267934146854
+environment, 3140, 0.262843749883
+centr, 1610, 0.243574507285
+canada, 1481, 0.233343111514
+practis, 6794, 0.17011272292
+glimps, 3902, 0.162556042768
+strateg, 8430, 0.159557120674
+basebal, 924, 0.151362806936
+follow, 3578, 0.147633638668
+fell, 3436, 0.145439478672
+winner, 9786, 0.129135982728
+ideal, 4483, 0.127731865867
+spread, 8265, 0.123980072558
+tabl, 8667, 0.122856910789
+manual, 5492, 0.122315714607
+catch, 1556, 0.118853713122
+profession, 6900, 0.116671555757
+recommend, 7178, 0.113934086613
+year, 9943, 0.112885203378
+look, 5341, 0.112095183598
+son, 8132, 0.111827052961
+board, 1186, 0.107844387268
+spend, 8222, 0.105199150511
+michael, 5680, 0.102388167211
+buy, 1433, 0.101952065067
+friend, 3692, 0.100489130482
+newsgroup, 6032, 0.0993068283101
+determin, 2582, 0.0978214239336
+like, 5272, 0.0945781008425
+love, 5366, 0.0891384521182
+type, 9177, 0.0877195452963
+appreci, 587, 0.0868210832981
+respons, 7323, 0.0864932153618
+old, 6216, 0.0849220465685
+thought, 8887, 0.0783853773711
+comput, 1993, 0.0778621927026
+mail, 5447, 0.0772069533822
+littl, 5308, 0.0754811772851
+play, 6681, 0.0740649826853
+day, 2402, 0.0665976010792
+someth, 8126, 0.0661107956115
+time, 8936, 0.0533619926608
+don, 2811, 0.05094121862

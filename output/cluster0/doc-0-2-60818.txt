@@ -1,0 +1,155 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60818
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: schumach@convex.com (Richard A. Schumacher)
+Subject: Re: DC-X update???
+Nntp-Posting-Host: starman.convex.com
+Organization: CONVEX Computer Corporation, Richardson, Tx., USA
+X-Disclaimer: This message was written by a user at CONVEX Computer
+              Corp. The opinions expressed are those of the user and
+              not necessarily those of CONVEX.
+Lines: 32
+
+In <1993Apr15.234154.23145@iti.org> aws@iti.org (Allen W. Sherzer) writes:
+
+>As for the future, there is at least $5M in next years budget for work
+>on SSRT. They (SDIO) have been looking for more funds and do seem to have
+>some. However, SDIO is not (I repeat, is not) going to fund an orbital
+>prototype. The best we can hope from them is to 1) keep it alive for
+>another year, and 2) fund a suborbital vehicle which MIGHT (with
+>major modifications) just make orbit. There is also some money for a
+>set of prototype tanks and projects to answer a few more open questions.
+
+Would the sub-orbital version be suitable as-is (or "as-will-be") for use
+as a reuseable sounding rocket?
+
+
+>Better news comes from the new Spacelifter effort. The USAF managers of
+>this program are very open to SSTO and will have about $50M next
+>year for studies. This would be enough to bring DC-Y to PDR.
+
+Thank Ghod! I had thought that Spacelifter would definitely be the
+bastard Son of NLS.
+
+
+(And just as a reminder:)
+>Now not all of this money will go to DC but a good case could be made
+>for spending half on DC.
+
+>Public support is STILL critical. Meet with your Congressperson (I'll
+>help you do it) and get his/her support. Also call your local media
+>and get them to cover the flight tests.
+
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ updat   disclaim messag written user convex
+comput corp opinion express user necessarili
+convex     futur least next year budget work ssrt
+sdio look fund seem howev sdio repeat go fund
+orbit prototyp best hope keep aliv anoth year fund
+suborbit vehicl might major modif make orbit also
+money set prototyp tank project answer open
+question  sub orbit version suitabl use reuseabl
+sound rocket   better news come new spacelift
+effort usaf manag program open ssto 50m next year
+studi enough bring pdr  thank ghod thought
+spacelift definit bastard son nls   remind money
+good case could made spend half  public support
+still critic meet congressperson i'll help get
+support also call local media get cover flight
+test
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+spacelift, 8171, 0.267767994097
+fund, 3723, 0.25664319939
+prototyp, 6945, 0.24164338859
+sdio, 7735, 0.23323314411
+convex, 2116, 0.223344677273
+orbit, 6280, 0.20462390012
+user, 9366, 0.16268522178
+money, 5835, 0.151915081082
+open, 6258, 0.149591722511
+ghod, 3863, 0.146946299801
+50m, 114, 0.146946299801
+suborbit, 8492, 0.142741177561
+congressperson, 2042, 0.142741177561
+year, 9943, 0.142082554874
+bastard, 941, 0.139305342518
+nls, 6083, 0.13640038538
+support, 8576, 0.129809940958
+ssrt, 8294, 0.129678874808
+usaf, 9359, 0.126243039765
+modif, 5813, 0.12473464139
+suitabl, 8530, 0.113180737011
+ssto, 8295, 0.108357693203
+sub, 8482, 0.105539779728
+corp, 2153, 0.100118434258
+remind, 7270, 0.0989759681462
+tank, 8695, 0.0972134771208
+aliv, 417, 0.0968799300169
+budget, 1367, 0.0965521840272
+necessarili, 5991, 0.0944049136431
+repeat, 7286, 0.0941171993613
+son, 8132, 0.0938338117743
+meet, 5615, 0.0927410465774
+disclaim, 2691, 0.0924774769746
+critic, 2237, 0.0924774769746
+media, 5605, 0.091708189778
+vehicl, 9449, 0.0902578651605
+express, 3315, 0.0900266362545
+spend, 8222, 0.0882723547345
+effort, 3007, 0.0880641214621
+rocket, 7447, 0.0876544331661
+cover, 2194, 0.0866675626996
+half, 4124, 0.085367397597
+written, 9867, 0.0822330876966
+flight, 3544, 0.0819315625535
+updat, 9333, 0.0816347860356
+definit, 2484, 0.0814881322262
+studi, 8469, 0.0810548966081
+local, 5322, 0.0802172067251
+bring, 1316, 0.0796787438243
+futur, 3737, 0.0795464982331
+messag, 5650, 0.0779067758464
+test, 8812, 0.0774296637955
+sound, 8150, 0.073993828752
+version, 9479, 0.073319002502
+public, 6973, 0.0723950468972
+manag, 5472, 0.0719495197778
+opinion, 6266, 0.0705907390154
+project, 6909, 0.0699464055024
+answer, 535, 0.0695546051236
+major, 5458, 0.0691707849434
+set, 7815, 0.0674994276334
+hope, 4372, 0.0673608614253
+thought, 8887, 0.0657729820408
+case, 1540, 0.0655208723356
+comput, 1993, 0.0653339790411
+news, 6031, 0.0650876367175
+howev, 4406, 0.0649656627033
+best, 1052, 0.0630044840036
+anoth, 533, 0.0607362401123
+ll, 5314, 0.059696908508
+program, 6905, 0.058495054261
+question, 7032, 0.0570431325488
+better, 1060, 0.0563763332697
+help, 4249, 0.0553635267199
+new, 6023, 0.0548946337224
+come, 1923, 0.0546469035149
+work, 9833, 0.0533889758286
+thank, 8832, 0.0527742372548
+good, 3948, 0.0484422127209
+make, 5459, 0.0472655547369
+look, 5341, 0.0470293997742
+use, 9363, 0.0416197920313

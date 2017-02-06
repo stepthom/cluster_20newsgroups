@@ -1,0 +1,37 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/38840
+Truth category: 0 (comp.graphics)
+Assigned cluster: 1 (graphic imag file thank program format gif use bit help)
+
+Raw data:
+============ START RAW ==========================
+From: boebert@sctc.com (Earl Boebert)
+Subject: .DWG/.GCD/3DD Formats Reference Needed
+Organization: SCTC
+Lines: 6
+
+Can some kind soul point me to references for the above formats?
+
+Thanks,
+
+Earl
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ dwg gcd 3dd format refer need    kind soul point
+refer format  thank  earl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+format, 3612, 0.524142332979
+refer, 7213, 0.482838148041
+earl, 2949, 0.457506749682
+soul, 8149, 0.359829858923
+kind, 5021, 0.233587210979
+point, 6710, 0.184833634402
+thank, 8832, 0.183379656621
+need, 5993, 0.17606143302

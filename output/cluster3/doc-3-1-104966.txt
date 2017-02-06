@@ -1,0 +1,108 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104966
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jmann@vineland.pubs.stratus.com (Jim Mann)
+Subject: Re: Apology for Article
+Organization: Stratus Computer Inc, Marlboro MA
+Lines: 26
+Reply-To: jmann@vineland.pubs.stratus.com
+NNTP-Posting-Host: gondolin.pubs.stratus.com
+
+In article <GRABINER.93Apr23112924@germain.harvard.edu>  writes:
+> But it is subject to all kinds of bias, and is almost completely  
+useless
+> for first basemen.  From the raw stats, there is no way to tell  
+which of
+> a first baseman's putouts were made on throws from other fielders,  
+and
+> which were made on his own plays; likewise, you can't tell whether  
+a
+> double play was 6-4-3 or 3-6-3.  Fielding Runs thus gives a first
+> baseman no credit for putouts or double plays, only for assists and
+> errors.  
+
+But ingnoring putouts is biased in yet another way. Range is
+not the only thing that makes a good firstbaseman. The ability
+to field all sorts of balls thrown to him: digging some out of the
+dirt, stretching for others, and so forth is important. Thus, 
+putouts do provide some information.  Maybe what we need is a
+comparision of how many balls were thrown to the area of the
+first baseman vs. how many he actually got.
+
+
+--
+Jim Mann            
+Stratus Computer   jmann@vineland.pubs.stratus.com  
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ apolog articl       kind bias almost complet
+useless first basemen raw stat way tell  first
+baseman putout made throw fielder  made play
+likewis can't tell whether  doubl play field run
+thus give first baseman credit putout doubl play
+assist error  ingnor putout bias yet anoth way
+rang thing make good firstbaseman abil field sort
+ball thrown dig dirt stretch other forth import
+thus putout provid inform mayb need comparis mani
+ball thrown area first baseman mani actual got
+jim mann
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+putout, 6998, 0.594345228195
+baseman, 928, 0.321763405925
+thrown, 8900, 0.224399033406
+bias, 1069, 0.206663816769
+play, 6681, 0.188524064131
+doubl, 2828, 0.177677425723
+ball, 877, 0.149048414932
+mann, 5485, 0.144334253168
+field, 3466, 0.143425768527
+comparis, 1961, 0.140860072182
+dirt, 2670, 0.133133837315
+likewis, 5274, 0.124714608267
+tell, 8767, 0.124535659018
+dig, 2639, 0.121014918853
+basemen, 929, 0.118895487703
+forth, 3616, 0.111506522522
+useless, 9364, 0.108962049815
+mani, 5479, 0.108102910044
+raw, 7114, 0.105687401959
+fielder, 3467, 0.105192432836
+stretch, 8443, 0.102465611945
+credit, 2225, 0.101636992709
+apolog, 571, 0.101636992709
+way, 9666, 0.099692357776
+assist, 705, 0.0951676027349
+abil, 177, 0.0892575261998
+jim, 4868, 0.0870602503676
+stat, 8341, 0.0865024962138
+rang, 7094, 0.0861395282908
+error, 3180, 0.0859606045367
+throw, 8899, 0.0854336979763
+area, 622, 0.0774778791296
+complet, 1975, 0.0736644267516
+sort, 8144, 0.073294410469
+import, 4551, 0.0722256122316
+provid, 6949, 0.0704883576969
+kind, 5021, 0.0679735583507
+mayb, 5564, 0.0667005031291
+inform, 4637, 0.0626307974321
+got, 3960, 0.062526384898
+articl, 665, 0.0614140923216
+anoth, 533, 0.0614140923216
+actual, 254, 0.0612673246656
+run, 7543, 0.057399243659
+thing, 8869, 0.0520571384873
+need, 5993, 0.0512336357822
+good, 3948, 0.0489828563441
+make, 5459, 0.047793066164

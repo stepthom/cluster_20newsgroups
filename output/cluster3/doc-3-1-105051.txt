@@ -1,0 +1,63 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/105051
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: jxu@black.clarku.edu (Dark Wing Duck!!)
+Subject: Bosox win again! (5-2 against Seattle)
+Organization: Clark University (Worcester, MA)
+Lines: 8
+
+Last night, Boston Red Sox win its 11 games of 14 games by beating Seattle
+5-2.  Roger Clemson pitch not so dominate.  He walked at least 6 man in
+first 6 inns.  But Valetin and Greenwell hit homeruns and Red Sox prevail.
+
+I think that game is must win for Red Sox in Seattle, considering Darwin will
+faced Seattle ace Randy Johnson tonight.
+
+
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosox win seattl    last night boston red sox win
+game game beat seattl roger clemson pitch domin
+walk least man first inn valetin greenwel hit
+homerun red sox prevail  think game must win red
+sox seattl consid darwin face seattl ace randi
+johnson tonight
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+seattl, 7749, 0.528127994316
+sox, 8162, 0.337431405228
+red, 7194, 0.292331885496
+win, 9770, 0.26550362457
+game, 3761, 0.221410550216
+inn, 4654, 0.179983483717
+clemson, 1810, 0.179983483717
+darwin, 2379, 0.176230258634
+prevail, 6852, 0.170111313088
+greenwel, 4030, 0.163106896557
+ace, 229, 0.159353671474
+bosox, 1241, 0.153234725928
+domin, 2808, 0.14523638492
+randi, 7091, 0.142477084314
+homerun, 4356, 0.140797261844
+tonight, 8985, 0.132604913685
+johnson, 4880, 0.132031998579
+beat, 974, 0.119481551607
+boston, 1243, 0.117222523431
+roger, 7458, 0.116916258152
+face, 3345, 0.10472349732
+walk, 9617, 0.103465399164
+night, 6063, 0.0988517393648
+pitch, 6643, 0.0888831418036
+consid, 2059, 0.0853925406716
+hit, 4316, 0.0851436686383
+man, 5471, 0.0840936850775
+think, 8871, 0.0557636789149

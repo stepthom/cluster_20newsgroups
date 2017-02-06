@@ -1,0 +1,139 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-test/rec.sport.baseball/104881
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: cmk@athena.mit.edu (Charles M Kozierok)
+Subject: Re: Bosox win again! (5-2 against Seattle)
+Organization: Massachusetts Institute of Technology
+Lines: 27
+NNTP-Posting-Host: electric-monk.mit.edu
+
+In article <jxu.735398917@black.clarku.edu> jxu@black.clarku.edu (Dark Wing Duck!!) writes:
+} Last night, Boston Red Sox win its 11 games of 14 games by beating Seattle
+} 5-2.  Roger Clemson pitch not so dominate.  He walked at least 6 man in
+} first 6 inns.  But Valetin and Greenwell hit homeruns and Red Sox prevail.
+
+Clemens struggled with his control, but was also the "beneficiary"
+of some pretty shoddy umpiring. but to be fair, most of the walks were
+early in the game, and he adjusted. he was also helped by (dare i say
+it?) some pretty good defense by the Sox, including Rivera playing
+at second, not his normal position.
+
+actually, Clemens is pretty lucky that he got the win, considering the Sox
+almost gave up the lead in the bottom of the 7th on Mo's error catching
+a throw-over.
+
+} I think that game is must win for Red Sox in Seattle, considering Darwin will
+} faced Seattle ace Randy Johnson tonight.
+
+must win? in April?
+they've already won 4 more games so far than anyone thought they would at this 
+point of the season... i hope people aren't getting too caught up
+in this streak; it's been fun, but teams have 11-3 streaks all the time,
+and it is only when they are at the start of the season that they get
+so much attention.
+
+-*-
+charles
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ bosox win seattl      last night boston red sox
+win game game beat seattl roger clemson pitch
+domin walk least man first inn valetin greenwel
+hit homerun red sox prevail  clemen struggl
+control also beneficiari pretti shoddi umpir fair
+walk earli game adjust also help dare say pretti
+good defens sox includ rivera play second normal
+posit  actual clemen pretti lucki got win consid
+sox almost gave lead bottom 7th mo error catch
+throw  think game must win red sox seattl consid
+darwin face seattl ace randi johnson tonight  must
+win april they'v alreadi game far anyon thought
+point season hope peopl aren't get caught streak
+it fun team streak time start season get much
+attent   charl
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+sox, 8162, 0.37623748211
+seattl, 7749, 0.35331900422
+win, 9770, 0.296037694333
+game, 3761, 0.246873724956
+streak, 8436, 0.198491523994
+red, 7194, 0.19557079306
+pretti, 6851, 0.179167920445
+clemen, 1807, 0.177426065508
+walk, 9617, 0.138437243234
+season, 7747, 0.125463444694
+shoddi, 7897, 0.120409419548
+inn, 4654, 0.120409419548
+clemson, 1810, 0.120409419548
+darwin, 2379, 0.117898502189
+consid, 2059, 0.114255664394
+prevail, 6852, 0.113804911676
+rivera, 7423, 0.112088723671
+greenwel, 4030, 0.109118938767
+dare, 2363, 0.107815145463
+ace, 229, 0.106608021408
+bosox, 1241, 0.102514430894
+domin, 2808, 0.0971635199208
+randi, 7091, 0.0953175406261
+lucki, 5382, 0.0947459479211
+homerun, 4356, 0.0941937350168
+7th, 140, 0.0941937350168
+struggl, 8461, 0.0926412541245
+umpir, 9210, 0.0887130327538
+tonight, 8985, 0.0887130327538
+johnson, 4880, 0.0883297510551
+charl, 1668, 0.0883297510551
+caught, 1568, 0.0879552812153
+catch, 1556, 0.0862021153947
+adjust, 269, 0.0843205582469
+fun, 3721, 0.0840270598445
+attent, 766, 0.0840270598445
+beat, 974, 0.0799334693312
+boston, 1243, 0.0784221735952
+roger, 7458, 0.0782172813259
+gave, 3798, 0.0766648004336
+normal, 6108, 0.0745825583576
+error, 3180, 0.0734804855342
+throw, 8899, 0.0730300774653
+aren, 623, 0.07107866919
+defens, 2476, 0.0704347624011
+face, 3345, 0.0700602925613
+fair, 3363, 0.0689859216504
+control, 2107, 0.0679780504852
+april, 595, 0.0676554910214
+earli, 2951, 0.0675493752022
+night, 6063, 0.0661320711905
+lead, 5172, 0.0661320711905
+alreadi, 443, 0.0652820320361
+posit, 6761, 0.0639570156404
+pitch, 6643, 0.0594630534492
+hope, 4372, 0.0582237700142
+hit, 4316, 0.0569613361585
+thought, 8887, 0.0568512768166
+second, 7753, 0.0566875697036
+man, 5471, 0.0562588944206
+includ, 4579, 0.056048714464
+far, 3386, 0.0544110264691
+team, 8732, 0.0540838388704
+play, 6681, 0.0537177847996
+got, 3960, 0.0534485436179
+actual, 254, 0.052372279
+start, 8334, 0.0515597055101
+help, 4249, 0.0478538008379
+point, 6710, 0.0459774100655
+peopl, 6530, 0.0441938435955
+anyon, 554, 0.0437707361541
+good, 3948, 0.0418713210129
+say, 7653, 0.0413548586016
+time, 8936, 0.0387023385992
+think, 8871, 0.0373060464848

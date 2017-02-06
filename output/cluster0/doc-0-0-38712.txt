@@ -1,0 +1,59 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/comp.graphics/38712
+Truth category: 0 (comp.graphics)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: zeno@phylo.genetics.washington.edu (Sean Lamont)
+Subject: Closed-curve intersection
+Article-I.D.: shelley.1ra2paINN68s
+Organization: Abstract Software
+Lines: 10
+NNTP-Posting-Host: phylo.genetics.washington.edu
+
+I would like a reference to an algorithm that can detect whether 
+one closed curve bounded by some number of bezier curves lies completely
+within another closed curve bounded by bezier curves.
+
+Thanks.
+-- 
+Sean T. Lamont                           |   Ask me about the WSI-Fonts
+zeno@genetics.washington.edu             |   Professional collection for NeXT 
+lamont@abstractsoft.com                  |____________________________________
+Abstract Software                                                         
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ close curv intersect articl shelley 1ra2painn68
+like refer algorithm detect whether one close curv
+bound number bezier curv lie complet within anoth
+close curv bound bezier curv  thank  sean lamont
+ask wsi font   abstract softwar
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+curv, 2306, 0.694647582111
+bezier, 1065, 0.326540898877
+close, 1830, 0.294990225592
+bound, 1250, 0.292038783499
+shelley, 7874, 0.181252326287
+font, 3582, 0.161867817874
+sean, 7744, 0.158064577101
+abstract, 199, 0.146771396999
+intersect, 4722, 0.143885941025
+detect, 2579, 0.140082700252
+lie, 5258, 0.12556494347
+algorithm, 407, 0.112788938958
+complet, 1975, 0.100288919651
+refer, 7213, 0.095643985158
+ask, 689, 0.0898551138015
+softwar, 8103, 0.0865830812274
+number, 6156, 0.0843570599959
+articl, 665, 0.0836109536435
+anoth, 533, 0.0836109536435
+thank, 8832, 0.0726502710165
+like, 5272, 0.0546246095756

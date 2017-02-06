@@ -1,0 +1,166 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/sci.space/60875
+Truth category: 2 (sci.space)
+Assigned cluster: 0 (space orbit like use launch know moon think time shuttl)
+
+Raw data:
+============ START RAW ==========================
+From: MLINDROOS@FINABO.ABO.FI (Marcus Lindroos INF)
+Subject: Into Infinity?(WAS:Re: *Doppelganger* (was Re: Vulcan?)
+In-Reply-To: sysmgr@king.eng.umd.edu's message of 15 Apr 1993 22:22:19 GMT
+Organization: Abo Akademi University, Finland
+X-News-Reader: VMS NEWS 1.24
+Lines: 36
+
+In <1qkn6rINNett@mojo.eng.umd.edu> sysmgr@king.eng.umd.edu writes:
+
+> In article <1993Apr15.170048.1@fnalf.fnal.gov>, higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey) writes:
+> 
+> >This was known as *Journey to the Far Side of the Sun* in the United
+> >States and as *Doppelganger* in the U.K... Later, they went
+> >on to do more live-action SF series: *UFO* and *Space: 1999*.
+> >
+> >The astronomy was lousy, but the lifting-body spacecraft, VTOL
+> >airliners, and mighty Portugese launch complex were *wonderful* to
+> >look at.
+
+Exactly. Some of the SPACE:1999 effects remain first-rate even today. 
+ 
+> They recycled a lot of models and theme music for UFO.  Some of the
+> concepts even showed up in SPACE: 1999. 
+> 
+
+Later on, the Andersons tried to shed their reputation as creators of some
+of the worst pseudo-scientific shows in TV history by flying "Into Infinity."
+This was a one-off thing done as part of BBC's "educational SF" series "The
+Day After Tomorrow." The Anderson episode dealt with a spaceship capable of
+reaching the speed of light ("lightship Altares"), the four-man crew eventually 
+journeyed into a black hole and ended up on the far side of the galaxy (I
+think). I saw this as a 9-year-old back in 1976 and liked it very much, but
+then again I was a fan of SPACE:1999 so I guess I was easily satisfied in those
+days:-)
+---
+Does anyone know if "Into Infinity" has been released on video? I have some
+SPACE:1999 shows on VHS and know that Thunderbirds etc. also are available in
+England.
+ 
+MARCU$
+> 
+>     Software engineering? That's like military intelligence, isn't it?
+>   -- >                  SYSMGR@CADLAB.ENG.UMD.EDU                        < --
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ infin doppelgang vulcan          known journey
+far side sun unit state doppelgang later went live
+action seri ufo space  astronomi lousi lift bodi
+spacecraft vtol airlin mighti portuges launch
+complex wonder look  exact space effect remain
+first rate even today  recycl lot model theme
+music ufo concept even show space   later anderson
+tri shed reput creator worst pseudo scientif show
+histori fli infin one thing done part bbc educ
+seri day tomorrow anderson episod dealt spaceship
+capabl reach speed light lightship altar four man
+crew eventu journey black hole end far side galaxi
+think saw year old back like much fan space guess
+easili satisfi day  anyon know infin releas video
+space show vhs know thunderbird etc also avail
+england  marcu  softwar engin that like militari
+intellig isn't
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+infin, 4629, 0.342014398105
+doppelgang, 2820, 0.248375580219
+space, 8164, 0.238269463
+ufo, 9191, 0.23475207401
+journey, 4900, 0.215420011044
+anderson, 501, 0.201796504834
+later, 5140, 0.140901121365
+seri, 7805, 0.13701992295
+vtol, 9597, 0.130999543214
+thunderbird, 8909, 0.130999543214
+vhs, 9496, 0.12418779011
+spaceship, 8174, 0.12418779011
+altar, 448, 0.12418779011
+portuges, 6757, 0.12159808177
+lousi, 5365, 0.117376037005
+dealt, 2420, 0.117376037005
+shed, 7866, 0.115605996118
+pseudo, 6959, 0.115605996118
+airlin, 362, 0.115605996118
+far, 3386, 0.112236819347
+episod, 3148, 0.11119831576
+vulcan, 9598, 0.109953312924
+mighti, 5709, 0.109953312924
+theme, 8840, 0.104822946937
+creator, 2221, 0.102360030522
+day, 2402, 0.0996350600547
+reput, 7300, 0.0995535469134
+england, 3110, 0.0977190151591
+music, 5933, 0.0971494741672
+satisfi, 7635, 0.0965986100535
+tomorrow, 8979, 0.0950467521066
+lift, 5264, 0.0936262006488
+crew, 2227, 0.0923164584256
+galaxi, 3753, 0.0899684787207
+intellig, 4698, 0.0869664834259
+educ, 3002, 0.0844204678295
+militari, 5715, 0.0831567256161
+eventu, 3233, 0.0826766972374
+worst, 9849, 0.0824417304665
+complex, 1976, 0.08221000472
+hole, 4343, 0.080883011237
+astronomi, 729, 0.080883011237
+scientif, 7693, 0.0794567132937
+easili, 2962, 0.0794567132937
+remain, 7264, 0.0786929522164
+concept, 2002, 0.0776087147249
+action, 251, 0.0764263278776
+unit, 9278, 0.076264009221
+video, 9506, 0.0761032438768
+capabl, 1498, 0.0753217145797
+went, 9704, 0.0750190063853
+spacecraft, 8166, 0.0748696733996
+saw, 7650, 0.0740005218163
+releas, 7253, 0.0734451042806
+black, 1133, 0.0734451042806
+reach, 7128, 0.0730402690223
+rate, 7108, 0.0729074631902
+bodi, 1194, 0.0727756989833
+histori, 4314, 0.0726449601891
+know, 5052, 0.0723731772221
+fli, 3542, 0.0717572144143
+like, 5272, 0.0707480044671
+model, 5807, 0.0704505606827
+sun, 8539, 0.0694522561164
+speed, 8217, 0.0683075511921
+effect, 3005, 0.0673305404414
+known, 5054, 0.0671417760929
+light, 5267, 0.0668625477768
+fan, 3381, 0.0668625477768
+exact, 3253, 0.0666789410283
+launch, 5147, 0.0660516737557
+engin, 3109, 0.0655320493354
+guess, 4079, 0.0651109784147
+today, 8964, 0.0642201752867
+old, 6216, 0.0635249098519
+live, 5310, 0.0615966983925
+isn, 4783, 0.0615293642331
+wonder, 9821, 0.0610001913429
+state, 8342, 0.0595655667113
+avail, 811, 0.0583547620558
+man, 5471, 0.0580242625394
+end, 3091, 0.0579155252649
+softwar, 8103, 0.0560697848923
+lot, 5356, 0.0524183973513
+tri, 9087, 0.0486539985978
+thing, 8869, 0.0458956245587
+anyon, 554, 0.0451442338551
+year, 9943, 0.0422212055523
+look, 5341, 0.0419257231818
+think, 8871, 0.0384766863593

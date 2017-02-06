@@ -1,0 +1,50 @@
+Filename: /home/dev/scikit_learn_data/20news_home/20news-bydate-train/rec.sport.baseball/102723
+Truth category: 1 (rec.sport.baseball)
+Assigned cluster: 3 (game team player year hit basebal pitch win run pitcher)
+
+Raw data:
+============ START RAW ==========================
+From: zappala@pollux.usc.edu (Daniel Zappala)
+Subject: Angels win!
+Article-I.D.: pollux.1psvouINNa2l
+Distribution: world
+Organization: University of Southern California, Los Angeles, CA
+Lines: 6
+NNTP-Posting-Host: pollux.usc.edu
+
+
+The Angels won their home opener against the Brewers today before 33,000+ 
+at Anaheim Stadium, 3-1 on a 3-hitter by Mark Langston.  J.T. Snow and 
+Gary Discarcina hit home runs for the Angels.
+
+Daniel
+
+========== END RAW ============================
+
+Preprocessed:
+============ START PREPROCESSED =================
+ angel win articl pollux 1psvouinna2l       angel
+home open brewer today anaheim stadium hitter mark
+langston snow gari discarcina hit home run angel
+daniel
+========== END PREPROCESSED =====================
+
+
+Feature vector (sorted, non-zero values only):
+Term, Index, Value:
+angel, 509, 0.605530868722
+home, 4354, 0.311685286947
+anaheim, 486, 0.30612254309
+snow, 8081, 0.24444729873
+brewer, 1302, 0.24272726087
+daniel, 2359, 0.232383767413
+stadium, 8300, 0.214713863435
+gari, 3776, 0.209953686835
+hitter, 4322, 0.172033716842
+mark, 5512, 0.164567726937
+open, 6258, 0.160407106424
+today, 8964, 0.15449214299
+win, 9770, 0.146902895414
+hit, 4316, 0.141329725378
+articl, 665, 0.130254861271
+run, 7543, 0.121739656767
